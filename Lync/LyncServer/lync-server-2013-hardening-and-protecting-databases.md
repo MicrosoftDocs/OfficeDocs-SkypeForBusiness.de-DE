@@ -1,59 +1,102 @@
-﻿---
-title: 'Lync Server 2013: Sichern und Schützen der Datenbanken'
-TOCTitle: Sichern und Schützen der Datenbanken von Lync Server 2013
-ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn518330(v=OCS.15)
-ms:contentKeyID: 60476345
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Sichern und Schützen der Datenbanken'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardening and protecting the databases of Lync Server 2013
+ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518330(v=OCS.15)
+ms:contentKeyID: 62625490
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 265ca1058b4f3b41c5f0dbc4c5b2cdcd631fa911
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832093"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sichern und Schützen der Datenbanken von Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Sichern und Schützen der Datenbanken von Lync Server 2013
 
-Microsoft Lync Server 2013 nutzt außerdem SQL Server-Datenbanken zum Speichern von Benutzerdaten, Konferenzstatus, Archivierungsdaten und Kommunikationsdatensätzen (KDS). Sie können die Verfügbarkeit von Lync Server 2013-Daten in Lync Server-Back-End-Datenbanken erhöhen, indem Sie die Anwendungsdaten so partitionieren, dass eine bessere Fehlertoleranz und eine einfachere Problembehandlung ermöglicht wird. Partitionieren Sie die Anwendungsdaten wie folgt, um diese Ziele zu erreichen:
+</div>
 
-  - **Verwenden der bewährten Methoden für die Serverpartitionierung**   Speichern Sie das Betriebssystem sowie Anwendungen und Programmdateien getrennt von den Datendateien.
+<div id="mainSection">
 
-  - **Speichern von Transaktionsprotokolldateien und Datenbankdateien**   Speichern Sie diese Dateien zur Verbesserung der Fehlertoleranz und zur Optimierung der Wiederherstellung getrennt voneinander und speichern Sie sie auf einem verschlüsselten Datenträger oder Volume.
+<div id="mainBody">
 
-  - **Verwenden von Serverclustering**   Bilden Sie zur Optimierung der Verfügbarkeit des Lync Server 2013-Systems Back-End-Servercluster.
+<span> </span>
 
-  - **Sicherstellen, dass alle Datensicherungen verschlüsselt sind und ordnungsgemäß gehandhabt werden**   Verlorene, gelöschte oder falsch platzierte Sicherungsmedien können eine erhebliche Gefährdung der Datensicherheit in Lync Server 2013-Bereitstellungen darstellen.
+_**Letztes Änderungsdatum des Themas:** 2013-12-05_
 
-Der Remotezugriff auf die SQL Server Express-Instanz (RTCLOCAL-Instanz) ist auf keinem Lync Server 2013-Server außer dem Standard Edition-Server möglich und es werden keine lokalen Firewallausnahmen erstellt, außer auf einem Standard Edition-Server für SQL Server Express. Auf einem Standard Edition-Server sind sowohl die Back-End-Datenbank als auch der Verwaltungsspeicher (CMS) für den Remotezugriff eingerichtet. Zum Verstärken der Sicherheit von SQL Server-Datenbanken haben Sie folgende Möglichkeiten:
+Microsoft lync Server 2013 hängt auch von SQL Server-Datenbanken zum Speichern von Benutzerinformationen, Konferenzstatus, Archivierungsdaten und Anruf Detail Datensätzen (CDRs) ab. Sie können die Verfügbarkeit von lync Server 2013-Daten in lync Server-Back-End-Datenbanken maximieren, indem Sie die Anwendungsdaten auf eine Weise partitionieren, die die Fehlertoleranz verbessert und die Problembehandlung vereinfacht. Um diese Ziele zu erreichen, partitionieren Sie die Anwendungsdaten nach folgendem:
 
-  - Passen Sie die SQL Server Express-Firewall auf Standard Edition-Servern an und beschränken Sie dabei den Bereich der Server, die Remotezugriff auf die Datenbank haben. Standardmäßig kann jede IP-Adresse remote auf die Datenbank zugreifen.
+  - **Verwenden von bewährten Methoden**   für die Server Partitionierung trennen Sie die Betriebssystem-, Anwendungs-und Programmdateien von den Datendateien.
 
-  - Verwenden Sie den SQL Server-Konfigurations-Manager, um die Protokolle, IP-Adressen und Ports für den SQL-Remotezugriff anzugeben:
+  - **Beim Speichern von Transaktionsprotokolldateien und Datenbankdateien**   werden diese Dateien separat gespeichert, um die Fehlertoleranz zu erhöhen und die Wiederherstellung zu optimieren und auf einem verschlüsselten Datenträger oder Volume zu speichern.
+
+  - **Verwenden**   des Serverclustering-Clusters die Back-End-Server, um die Systemverfügbarkeit von lync Server 2013 zu optimieren.
+
+  - **Sicherstellen, dass alle Datensicherungen verschlüsselt und ordnungsgemäß behandelt**   werden verlorene, verworfene oder falsch eingestellte Sicherungsmedien können eine erhebliche Gefährdung der Datensicherheit für lync Server 2013-Bereitstellungen darstellen.
+
+Auf einem lync Server 2013-Server mit Ausnahme des Standard Edition-Servers ist die SQL Server Express-Instanz (RTCLOCAL-Instanz) nicht Remote verfügbar, und es werden keine lokalen Firewall-Ausnahmen erstellt, mit Ausnahme von SQL Server Express auf einem Standard Edition-Server. Auf einem Standard Edition-Server sind sowohl die Back-End-Datenbank als auch der zentrale Verwaltungsspeicher (CMS) so eingerichtet, dass ein Remotezugriff möglich ist. Zum Härten von SQL Server-Datenbankenkönnen Sie die folgenden Aktionen ausführen:
+
+  - Passen Sie die SQL Server Express-Firewall auf Standard Edition-Servern an, um den Umfang der Server zu begrenzen, die Remote auf die Datenbank zugreifen können. Standardmäßig kann eine beliebige IP-Adresse Remote auf die Datenbank zugreifen.
+
+  - Verwenden Sie den SQL Server-Konfigurations-Manager, um die Protokolle, IP-Adressen und Ports für den SQL Server-Remotezugriff anzugeben:
     
-      - Lync Server 2013 verwendet das TCP/IP-Protokoll. Es unterstützt IP Version 4 (IPv4), aber nicht IP Version 6 (IPv6).
+      - Lync Server 2013 verwendet das TCP/IP-Protokoll. Sie unterstützt IP Version 4 (IPv4), aber nicht IP Version 6 (IPv6).
+        
+        <div>
         
 
-        > [!NOTE]
-        > Lync Server 2013 kann in einem Netzwerk mit aktiviertem dualem&nbsp;IP-Stapel funktionieren.
+        > [!NOTE]  
+        > Lync Server 2013 kann in einem Netzwerk mit aktiviertem Dual IP Stack funktionieren.
 
+        
+        </div>
     
-      - Lync Server 2013 unterstützt mehrere IP-Adressen (Multihoming-Netzwerkadresskarten). Sie können festlegen, dass SQL Server nur bestimmte IP-Adressen überwacht (einzelne Adressen oder per Subnetz) und nur bestimmte Protokolle verwendet.
+      - Lync Server 2013 unterstützt mehrere IP-Adressen (mehrfach vernetzte Netzwerk Adresskarten). Sie können angeben, dass SQL Server nur bestimmte IP-Adressen (einzelne Adresse oder Subnetz) abhören und nur bestimmte Protokolle verwenden soll.
     
       - Lync Server 2013 unterstützt statische und dynamische SQL Server-Ports.
 
-  - Führen Sie SQL Server auf einem statischen Port (nicht dem Standardport) aus und führen Sie nicht den SQL Server-Browser aus (damit der Überwachungsport nicht an den Client übermittelt wird). Dies erfordert eine benutzerdefinierte Konfiguration auf jedem SQL Server-Client, einschließlich Front-End-Server, Monitoring Server, Archivierungsserver und Verwaltungskonsolen (auf denen die Lync Server-Verwaltungsshell, die Lync Server-Systemsteuerung oder der Topologie-Generator ausgeführt wird) sowie alle anderen Server, auf denen Lync Server-Datenbanken ausgeführt werden).
+  - Führen Sie SQL Server auf einem statischen (nicht standardmäßigen) Port aus, und führen Sie keinen SQL Server-Browser aus (damit der Abhör-Port nicht an den Client gemeldet werden kann). Dies erfordert eine benutzerdefinierte Konfiguration auf jedem SQL Server-Client, einschließlich Front-End-Servern, Überwachungsserver, Archivierungsserver und Verwaltungskonsolen (mit lync Server-Verwaltungsshell, lync Server-Systemsteuerung oder Topologie-Generator) und allen anderen Server mit lync Server-Datenbanken)
+
+<div>
 
 
-> [!NOTE]
-> Der Zugriff auf Datenbanken muss auf vertrauenswürdige Datenbankadministratoren beschränkt sein. Ein bösartiger Datenbankadministrator könnte Daten in die Datenbanken einfügen oder sie verändern, um Rechte über die Lync Server 2013-Server zu erlangen oder vertrauliche Informationen von den Diensten zu erhalten, auch wenn dem Datenbankadministrator kein direkter Zugriff auf bzw. keine Steuerung der Lync Server 2013-Server übertragen wurde.
+> [!NOTE]  
+> Der Zugriff auf Datenbanken muss auf vertrauenswürdige Datenbankadministratoren limitiert sein. Ein böswilliger Datenbankadministrator kann Daten in die Datenbanken einfügen oder ändern, um Berechtigungen über die lync Server 2013-Server zu erwerben oder vertrauliche Informationen von den Diensten abzurufen, auch wenn dem Datenbankadministrator kein direkter Zugriff gewährt wurde oder Steuerung der lync Server 2013-Server.
 
 
 
-Ausführliche Informationen zu benutzerdefinierten Konfigurationen und zum Schützen von SQL Server-Datenbanken finden Sie im NextHop-Blog-Artikel zur Verwendung von Lync Server 2010 mit benutzerdefinierter SQL Server-Netzwerkkonfiguration unter [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
+</div>
+
+Details zu benutzerdefinierten Konfigurationen und zum Härten von SQL Server-Datenbanken finden Sie im NextHop-Blog Artikel "Verwenden von lync Server 2010 mit einer benutzerdefinierten SQL Server [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)-Netzwerkkonfiguration" unter.
+
+<div>
 
 
-> [!NOTE]
-> Sie können auch Betriebssysteme und Anwendungsserver schützen sowie Gruppenrichtlinien zum Implementieren von Sicherheitssperren in Ihrer Lync Server-Bereitstellung verwenden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Sichern und Schützen von Servern und Anwendungen für Lync Server 2013</A>.
+> [!NOTE]  
+> Sie können auch Betriebssysteme und Anwendungsserver verhärten, und Sie können mithilfe von Gruppenrichtlinien Sicherheits Sperrungen in ihrer lync Server-Bereitstellung implementieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Härten und schützen von Servern und Anwendungen für lync Server 2013</A>.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

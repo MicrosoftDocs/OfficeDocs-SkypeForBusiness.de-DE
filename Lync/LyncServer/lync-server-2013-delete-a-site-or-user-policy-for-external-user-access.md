@@ -1,55 +1,105 @@
-﻿---
-title: 'Lync Server 2013: Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff'
-TOCTitle: Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
-ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg521013(v=OCS.15)
-ms:contentKeyID: 49294332
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a site or user policy for external user access
+ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
+ms:contentKeyID: 48184455
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e5539f1d6e55e94845e63b0f42c0ef855694d56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Sie können alle Standort- oder Benutzerrichtlinien löschen, die in der Lync Server-Systemsteuerung auf der Seite **Richtlinie für den externen Zugriff** aufgeführt sind. Beim Löschen der globalen Richtlinie wird die Richtlinie nicht wirklich gelöscht, sondern lediglich auf die Standardeinstellungen zurückgesetzt. Diese Einstellungen unterstützen keine Optionen für den Zugriff durch externe Benutzer. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter [Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff in Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
+Sie können jede Website oder Benutzerrichtlinie löschen, die in der lync Server-Systemsteuerung auf der Seite " **externe Zugriffsrichtlinie** " aufgeführt ist. Wenn Sie die globale Richtlinie löschen, wird Sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für die Zugriffsoptionen für externe Benutzer beinhalten. Details zum Zurücksetzen der globalen Richtlinie finden Sie unter [Zurücksetzen der globalen Richtlinie für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
 
-## So löschen Sie eine Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
+<div>
+
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>So löschen Sie eine Website-oder Benutzerrichtlinie für den Zugriff durch externe Benutzer
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf **Externer Benutzerzugriff** und dann auf **Richtlinie für den externen Zugriff** .
+3.  Klicken Sie auf **externer Benutzer Zugriff**, und klicken Sie auf **Richtlinie für den externen Zugriff**.
 
-4.  Klicken Sie auf der Registerkarte **Richtlinie für den externen Zugriff** auf die zu löschende Standort- oder Benutzerrichtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen** .
+4.  Klicken Sie auf der Registerkarte **Richtlinie für den externen Zugriff** auf die Website oder Benutzerrichtlinie, die Sie löschen möchten, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Löschen**.
 
-5.  Klicken Sie zum Bestätigen des Löschvorgangs auf **OK** .
+5.  Wenn Sie aufgefordert werden, den Löschvorgang zu bestätigen, klicken Sie auf **OK**.
 
-## Enfternen von PIN-Richtlinien mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Die Richtlinien für den externen Zugriff können über das Windows PowerShell-Cmdlet und das Remove-CsExternalAccessPolicy-Cmdlet gelöscht werden. Das Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Windows PowerShell-Remotesitzung ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So entfernen Sie eine bestimmte Richtlinie für den externen Zugriff
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von PIN-Richtlinien mithilfe von Windows PowerShell-Cmdlets
 
-  - Dieser Befehl entfernt die Richtlinie für den externen Zugriff, die auf den Standort "Redmond" angewendet werden:
+Richtlinien für den externen Zugriff können mithilfe von Windows PowerShell und dem Cmdlet Remove-CsExternalAccessPolicy gelöscht werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-remove-a-specific-external-access-policy"></a>So entfernen Sie eine bestimmte Richtlinie für den externen Zugriff
+
+  - Mit diesem Befehl wird die auf die Redmond-Website angewendete Richtlinie für den externen Zugriff entfernt:
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
-## So entfernen Sie alle Richtlinien für den externen Zugriff, die auf Benutzerbasis angemeldet werden
+</div>
 
-  - Dieser Befehl entfernt alle Richtlinien für den externen Zugriff, die auf Benutzerbasis konfiguriert wurden:
+<div>
+
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>So entfernen Sie alle auf den Benutzerbereich angewendeten Richtlinien für den externen Zugriff
+
+  - Mit diesem Befehl werden alle im Benutzerbereich konfigurierten externen Zugriffsrichtlinien entfernt:
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
-## So entfernen Sie alle Richtlinien für den externen Zugriff, für die der externe Benutzerzugriff deaktiviert ist
+</div>
 
-  - Dieser Befehl löscht alle Richtlinien für den externen Zugriff, für die der externe Benutzerzugriff deaktiviert ist:
+<div>
+
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>So entfernen Sie alle externen Zugriffsrichtlinien, bei denen der Zugriff außerhalb des Benutzers deaktiviert ist
+
+  - Dieser Befehl löscht alle externen Zugriffsrichtlinien, bei denen der Zugriff außerhalb des Benutzers deaktiviert wurde:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)-Cmdlet.
+</div>
+
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: FileTransfers-Tabelle'
-TOCTitle: FileTransfers-Tabelle
-ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398353(v=OCS.15)
-ms:contentKeyID: 49294014
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: FileTransfers-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FileTransfers table
+ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398353(v=OCS.15)
+ms:contentKeyID: 48184118
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71e53e59e3ed1391adebff8b7c4046ef3c23aa21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832151"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# FileTransfers-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="filetransfers-table-in-lync-server-2013"></a>FileTransfers-Tabelle in Lync Server 2013
 
-Jeder Datensatz steht für eine Dateiübertragungssitzung.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+
+Jeder Datensatz stellt eine Dateiübertragungssitzung dar.
 
 
 <table>
@@ -30,58 +50,69 @@ Jeder Datensatz steht für eine Dateiübertragungssitzung.
 <th>Spalte</th>
 <th>Datentyp</th>
 <th>Schlüssel/Index</th>
-<th>Beschreibung</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>SessionID</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primär, Fremd</p></td>
-<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der <a href="lync-server-2013-dialogs-table.md">Dialogs-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Primär, fremd</p></td>
+<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, Fremd</p></td>
-<td><p>ID zur Kennzeichnung der Sitzung. Gibt in Verbindung mit <strong>SessionIdTime</strong> eine Sitzung eindeutig an. Weitere Informationen finden Sie unter <a href="lync-server-2013-dialogs-table.md">Dialogs-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Primär, fremd</p></td>
+<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>File Name</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p></p></td>
-<td><p>Name der Datei.</p></td>
+<td><p><strong>Dateiname</strong></p></td>
+<td><p>nvarchar(256)</p></td>
+<td></td>
+<td><p>Der Name der Datei.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FileIdentity</strong></p></td>
+<td><p><strong>Fileidentity</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p></p></td>
-<td><p>Eindeutiger Bezeichner zum Unterscheiden zwischen Dateiübertragungen mit demselben Dateinamen.</p></td>
+<td></td>
+<td><p>Eindeutiger Bezeichner zur Unterscheidung Zwischendatei Übertragungen mit demselben Dateinamen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar (128)</p></td>
 <td><p>Primary</p></td>
-<td><p>Wird verwendet, um jede Nachricht zur Nachverfolgung als hiermit zugeordnet zu identifizieren.</p></td>
+<td><p>Wird verwendet, um jede nach Verfolgungs Nachricht als zugeordnet zu kennzeichnen.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Accept</strong></p></td>
+<td><p><strong>Annehmen</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten <strong>Reject</strong> und <strong>Cancel</strong> den Wert NULL.</p></td>
+<td></td>
+<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "ablehnen" und "Abbrechen" NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Reject</strong></p></td>
+<td><p><strong>Ablehnen</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten <strong>Accept</strong> und <strong>Cancel</strong> den Wert NULL.</p></td>
+<td></td>
+<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "akzeptieren" und "Abbrechen" NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancel</strong></p></td>
+<td><p><strong>Abbrechen</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten <strong>Accept</strong> und <strong>Reject</strong> den Wert NULL.</p></td>
+<td></td>
+<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "annehmen und ablehnen" NULL.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

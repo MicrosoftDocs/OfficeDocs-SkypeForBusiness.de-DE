@@ -1,44 +1,87 @@
-﻿---
-title: Überlegungen zur Interoperabilität von Videokonferenzen
-TOCTitle: Überlegungen zur Interoperabilität von Videokonferenzen
-ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204790(v=OCS.15)
-ms:contentKeyID: 49293603
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Interoperabilitäts Überlegungen für Videokonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Interoperability considerations for video conferencing
+ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204790(v=OCS.15)
+ms:contentKeyID: 48183782
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 880b2e41a1ea92b3d6da9cd29153695b474e88f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Überlegungen zur Interoperabilität von Videokonferenzen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Interoperabilitäts Überlegungen für Videokonferenzen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
-In diesem Abschnitt wird die Benutzererfahrung in der Koexistenzphase der Migration beschrieben, in der eine Interoperabilität zwischen Legacyclients und einem Lync Server 2013-Pool oder Lync Server 2013-Clients und einem Legacypool besteht.
+In diesem Abschnitt werden die Benutzererfahrung während der Koexistenzphase der Migration beschrieben, wenn es Interoperabilität zwischen Legacyclients und einem lync Server 2013-Pool oder lync Server 2013-Clients und einem Legacy Pool gibt.
 
-## Lync Server 2013-Pools
+<div>
 
-Benutzer stellen das folgende Verhalten fest, wenn ein Legacyclient in einem Lync Server 2013-Pool verwendet wird:
+## <a name="lync-server-2013-pools"></a>Lync Server 2013-Pools
 
-  - Bei Gesprächen mit zwei Teilnehmern ist die Videoauflösung mit der im Legacypool identisch.
+Benutzer erleben das folgende Verhalten, wenn ein Legacyclient in einem lync Server 2013-Pool verwendet wird:
 
-  - Bei Konferenzen mit mehreren Teilnehmern entsprechen Videoauflösung und Videokonferenzfeatures denen im Legacypool. Profilfotoansicht und hohe Auflösung sind nicht verfügbar.
+  - Bei Anrufen mit zwei Teilnehmern ist die Videoauflösung identisch mit der des Legacy Pools.
 
-## Legacypools
+  - Für Konferenzen mit mehreren Teilnehmern sind Videoauflösung und Videokonferenz Features identisch mit dem Legacy Pool. Eine Katalogansicht und eine höhere Auflösung sind nicht verfügbar.
 
-Benutzer stellen das folgende Verhalten fest, wenn ein Lync Server 2013-Client in einem Legacypool verwendet wird:
+</div>
 
-  - Bei Gesprächen mit zwei Teilnehmern können in Lync Server 2013-Clients die folgenden neuen Features verwendet werden:
+<div>
+
+## <a name="legacy-pools"></a>Legacy Pools
+
+Benutzer erleben das folgende Verhalten, wenn ein lync Server 2013-Client in einem Legacy Pool verwendet wird:
+
+  - Bei Anrufen mit zwei Teilnehmern können lync Server 2013-Clients neue Features wie folgt verwenden:
     
-      - H.264 ist verfügbar, wenn beide Teilnehmer Lync Server 2013-Clients verwenden.
+      - H. 264 steht zur Verfügung, wenn beide Teilnehmer lync Server 2013-Clients verwenden.
     
-      - Der Lync Server 2013-Client verwendet den Standardwert für **TotalReceiveVideoBitRateKb**, da der Legacyserver diese Informationen nicht mit In-Band-Bereitstellung sendet.
+      - Der lync Server 2013-Client verwendet den Standardwert für TotalReceiveVideoBitRateKb, da diese Informationen vom Legacy Server nicht an die in-Band-Bereitstellung gesendet werden.
 
-  - Bei Konferenzen mit mehreren Teilnehmern entsprechen Videoauflösung und Videokonferenzfeatures denen eines Legacyclients im Legacypool.
+  - Für Konferenzen mit mehreren Teilnehmern sind Videoauflösungen und Videokonferenz Features identisch mit den Erfahrungen eines Legacyclients im Legacy Pool.
+
+<div>
 
 
-> [!NOTE]
-> Wenn ein Legacyserver einen Lync Server 2013-Client hostet, können Sie die Videokonferenzbandbreite konfigurieren, sodass alle Benutzer im Pool nur Videos mit niedriger Auflösung erhalten, aber Videos mit hoher Auflösung senden. Beispielsweise kann <STRONG>MaxVideoRateAllowed</STRONG> in der Medienkonfiguration auf <STRONG>CIF-250K</STRONG> und <STRONG>VideoBitRateKb</STRONG> in der Konferenzrichtlinie auf <STRONG>2000 KBit/s</STRONG> festgelegt werden. Das Resultat in dieser Situation ist, dass für Benutzer im Pool keine hohe Auflösung möglich ist.<BR>Da <STRONG>MaxVideoRateAllowed</STRONG> nicht mehr für Lync Server 2013-Clients verwendet wird, kann nicht verhindert werden, dass Lync Server 2013-Clients Videos mit hoher Auflösung anfordern. Legen Sie stattdessen <STRONG>VideoBitRateKb</STRONG> in der Konferenzrichtlinie für alle Benutzer im Pool auf denselben Wert wie <STRONG>MaxVideoRateAllowed</STRONG> fest (d.&nbsp;h. CIF ist auf 250 KBit/s, VGA ist auf 600 KBit/s oder HD ist auf 1500 KBit/s festgelegt).
+> [!NOTE]  
+> Wenn ein Legacy Server einen lync Server 2013-Client hostet, ist es möglich, die Bandbreite für Videokonferenzen so zu konfigurieren, dass alle Benutzer im Pool nur Videos mit niedriger Auflösung empfangen, aber Video mit hoher Auflösung senden. Ein Beispiel hierfür ist, wenn MaxVideoRateAllowed in der Medienkonfiguration auf cif-250K und VideoBitRateKb auf 2000 Kbit/s in Konferenzrichtlinien eingestellt ist. Der Nettoeffekt in dieser Situation ist, dass eine höhere Auflösung für Benutzer im Pool nicht möglich ist.<BR>Da MaxVideoRateAllowed nicht mehr für lync Server 2013-Clients verwendet wird, kann es nicht verhindern, dass lync Server 2013-Clients ein Video mit hoher Auflösung anfordern. Setzen Sie stattdessen VideoBitRateKb in der konferenzrichtlinie für alle Benutzer im Pool auf den gleichen Wert wie MaxVideoRateAllowed (das heißt, CIF ist auf 250 KBit/s festgesetzt, oder VGA ist auf 600 KBit/s festgesetzt, oder HD ist auf 1500 kBit/s festgesetzt).
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

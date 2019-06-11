@@ -1,21 +1,41 @@
-﻿---
-title: IMReportSummary-Tabelle
-TOCTitle: IMReportSummary-Tabelle
-ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204753(v=OCS.15)
-ms:contentKeyID: 49293483
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IMReportSummary-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IMReportSummary table
+ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204753(v=OCS.15)
+ms:contentKeyID: 48183673
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c2254bafe059cc1a4bc6436580e9d604711f5fb3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832021"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# IMReportSummary-Tabelle
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="imreportsummary-table-in-lync-server-2013"></a>IMReportSummary-Tabelle in lync Server 2013
 
-Die Tabelle **IMReportSummary** stellt einen Gesamtbericht zu den in einer Organisation durchgeführten Chatsitzungen bereit. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-08-20_
+
+Der IMReportSummaryTable stellt einen Gesamtbericht zu den Chat-Sitzungen bereit, die in einer Organisation abgehalten werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -37,39 +57,50 @@ Die Tabelle **IMReportSummary** stellt einen Gesamtbericht zu den in einer Organ
 <tr class="odd">
 <td><p><strong>StartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primär</p></td>
-<td><p>Datum und Uhrzeit, an dem bzw. zu der die Chatsitzung begann.</p></td>
+<td><p>Primary</p></td>
+<td><p>Das Datum und die Uhrzeit, zu der die Sofortnachrichtensitzung begonnen hat.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TimePeriod</strong></p></td>
-<td><p>char(1)</p></td>
-<td><p>Primär</p></td>
-<td><p></p></td>
+<td><p>Zeichen (1)</p></td>
+<td><p>Primary</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolFQDN</strong></p></td>
 <td><p>nvarchar (257)</p></td>
-<td><p>Primär</p></td>
-<td><p>Vollqualifizierter Domänenname des Pools, der die Sitzung hostet.</p></td>
+<td><p>Primary</p></td>
+<td><p>Vollständig qualifizierter Domänenname des Pools, der die Sitzung hostet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär</p></td>
-<td><p>Priorität (z. B. dringend oder nicht dringend) des Anrufs. Die Prioritätsinformationen werden in der <a href="lync-server-2013-callpriorities-table.md">CallPriorities-Tabelle in Lync Server 2013</a> gespeichert.</p></td>
+<td><p>Primary</p></td>
+<td><p>Priorität (beispielsweise dringende oder nicht dringende) des Anrufs. Prioritätsinformationen werden in der <a href="lync-server-2013-callpriorities-table.md">CallPriorities-Tabelle in lync Server 2013</a>gespeichert.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SessionCount</strong></p></td>
+<td><p><strong>SessionCount gespeichert</strong></p></td>
 <td><p>bigint</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsgCount</strong></p></td>
 <td><p>bigint</p></td>
-<td><p></p></td>
-<td><p>Die Gesamtzahl der Chatnachrichten, die während der Sitzung ausgetauscht wurden.</p></td>
+<td></td>
+<td><p>Die Gesamtzahl der während der Sitzung ausgetauschten Sofortnachrichten.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

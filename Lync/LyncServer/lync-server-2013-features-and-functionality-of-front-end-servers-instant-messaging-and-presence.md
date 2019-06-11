@@ -1,29 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Features und Funktionen für Front-End-Server, Chat und Anwesenheit'
-TOCTitle: Features und Funktionen für Front-End-Server, Chat und Anwesenheit
-ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398109(v=OCS.15)
-ms:contentKeyID: 49293053
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Features und Funktionen für Front-End-Server, Chat und Anwesenheit'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Features and functionality of Front End Servers, instant messaging, and presence
+ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398109(v=OCS.15)
+ms:contentKeyID: 48183294
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 739825eed3c8a3ba8239849e0c17c449180a2d95
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832157"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Features und Funktionen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Features und Funktionen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-03-17_
 
-Front-End-Server bieten einen Großteil der Lync Server-Funktionen. Zwei Editionen sind verfügbar: Lync Server Enterprise Edition, primär für größere Organisationen, und Lync Server Standard Edition, primär für kleinere Organisationen, die weniger in Hardware investieren möchten und keine hohe Verfügbarkeit benötigen. Beide Editionen unterstützen alle Lync Server-Arbeitsauslastungen, einschließlich Instant Messaging, Anwesenheit, Konferenzen und Enterprise-VoIP.
+Front-End-Server bieten die meisten lync Server-Funktionen. Es stehen zwei Editionen zur Verfügung: lync Server Enterprise Edition, die in erster Linie für größere Organisationen konzipiert ist, und lync Server Standard Edition, die in erster Linie für kleinere Organisationen konzipiert ist, die eine kleinere Hardwareinvestition möchten und nicht höhere Verfügbarkeit erforderlich. Beide Editionen unterstützen alle lync Server-Arbeitsauslastungen, einschließlich Chat, Anwesenheit, Konferenz und Enterprise-VoIP.
 
-Mit der Chatfunktion können Benutzer auf ihren Computern in Echtzeit über textbasierte Nachrichten miteinander kommunizieren. Es werden sowohl Chatnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Ein Teilnehmer an einer Sofortnachrichtensitzung mit zwei Teilnehmern kann der Unterhaltung jederzeit einen dritten Teilnehmer hinzufügen. Wenn dies geschieht, ändert sich das Unterhaltungsfenster, um Konferenzfunktionen zu unterstützen.
+Mit der Chatfunktion können Benutzer auf ihren Computern in Echtzeit über textbasierte Nachrichten miteinander kommunizieren. Es werden sowohl Chatsitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Ein Teilnehmer an einer Chatsitzung mit zwei Teilnehmern kann der Unterhaltung jederzeit einen dritten Teilnehmer hinzufügen. Wenn dies geschieht, ändert sich das Unterhaltungsfenster, um Konferenzfunktionen zu unterstützen.
+
+<div>
 
 
 > [!IMPORTANT]
-> Wenn Lync- und Communicator-Clients an einer Eins-zu-Eins-Kommunikation beteiligt sind, wird dies häufig als Peer-to-Peer-Situation bezeichnet. Vom technischen Standpunkt aus gesehen, kommunizieren die zwei Clients in einer Eins-zu-Eins-Unterhaltung mit der Multipoint Control Unit für Instant Messaging (IMMCU) als Bindeglied. Die IMMCU stellt eine Komponente von Front-End-Server dar. Die Platzierung der IMMCU im erforderlichen Kommunikationsworkflow ermöglicht die Aufzeichnung von Anrufdetails und weitere Features, die durch den Front-End-Server bereitgestellt werden. Die Kommunikation erfolgt von einem dynamischen Quellport auf dem Client an den Front-End-Server-Port TLS/TCP/5061 (bei angenommener Verwendung der empfohlenen Sicherheit in der Transportschicht). Konstruktionsbedingt ist Peer-to-Peer-Kommunikation (sowie Chat mit mehreren Teilnehmern) nur möglich, wenn Lync Server und die IMMCU aktiv und verfügbar sind.
+> Lync-und Communicator-Clients werden, wenn Sie an einer 1:1-Kommunikation beteiligt sind, häufig als Peer-to-Peer bezeichnet. Technisch gesehen kommunizieren die beiden Clients in einer 1:1-Konversation mit der Instant Messaging-Multipoint-Steuereinheit (IMMCU) in der Mitte. Die IMMCU ist eine Komponente des Front-End-Servers. Wenn Sie den IMMCU in den erforderlichen Kommunikations Workflow einfügen, können Sie die Anrufdetailaufzeichnung und andere Features, die der Front-End-Server ermöglicht, aufzeichnen. Die Kommunikation erfolgt von einem dynamischen Quell Port auf dem Client zum Front-End-Serverport TLS/TCP/5061 (unter der Voraussetzung, dass die empfohlene Transportschichtsicherheit verwendet wird). Die Peer-to-Peer-Kommunikation (ebenso wie die Chat Unterhaltung mit mehreren Teilnehmern) ist im Entwurf nur möglich, wenn lync Server und IMMCU aktiv und verfügbar sind.
 
 
 
-Die *Anwesenheitsfunktion* liefert Benutzern Informationen zum Status anderer Benutzer im Netzwerk. Der Anwesenheitsstatus eines Benutzers enthält Informationen, mit deren Hilfe andere Benutzer entscheiden können, ob sie versuchen sollen, den Benutzer zu kontaktieren und ob die Kontaktaufnahme per Sofortnachricht, Telefon oder E-Mail erfolgen soll. Durch die Anwesenheitsfunktion wird, wenn möglich, eine sofortige Kommunikation gefördert. Sie liefert jedoch auch Informationen dazu, ob ein Benutzer sich in einer Besprechung befindet oder unterwegs ist und eine sofortige Kommunikation demnach nicht möglich ist. Dieser Anwesenheitsstatus wird als Anwesenheitssymbol in Lync und anderen Anwendungen mit Unterstützung der Anwesenheitsfunktion angezeigt. Hierzu zählen beispielsweise der Microsoft Outlook-Client für Messaging und Zusammenarbeit, Microsoft SharePoint-Technologien, Microsoft Word-Teamdienste oder Portalserver oder -dienste sowie die Microsoft Excel-Tabellenkalkulationssoftware. Das Anwesenheitssymbol für den Benutzer spiegelt die aktuelle Verfügbarkeit und die Bereitschaft einer Person zur Kommunikation wider.
+</div>
+
+*Anwesenheits* Informationen bieten Benutzern Informationen über den Status anderer Personen im Netzwerk. Der Anwesenheitsstatus eines Benutzers bietet Informationen, um anderen zu helfen, zu entscheiden, ob er versuchen soll, den Benutzer zu kontaktieren, und ob er Sofortnachrichten, Telefone oder e-Mails verwenden soll. Anwesenheitsinformationen unterstützt die sofortige Kommunikation, wenn möglich, bietet aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was darauf hinweist, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird in lync und anderen Anwendungen mit Anwesenheitsanzeige als Anwesenheitssymbol angezeigt, einschließlich des Microsoft Outlook-Messaging-und Zusammenarbeits Clients, Microsoft SharePoint Technologies, Microsoft Word und Microsoft Excel-Kalkulationstabelle. Software. Das Anwesenheitssymbol steht für die aktuelle Verfügbarkeit und Kommunikationsbereitschaft des Benutzers.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Prüfliste zur Bereitstellung für Einwahlkonferenzen'
-TOCTitle: Prüfliste zur Bereitstellung für Einwahlkonferenzen
-ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412726(v=OCS.15)
-ms:contentKeyID: 49294892
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Prüfliste zur Bereitstellung für Einwahlkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for dial-in conferencing
+ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412726(v=OCS.15)
+ms:contentKeyID: 48184987
+ms.date: 10/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 44591676d69b5fb4ac3d66ce0e18718389a0c189
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832520"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prüfliste zur Bereitstellung für Einwahlkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für Einwahlkonferenzen in Lync Server 2013
 
-Die für Einwahlkonferenzen erforderlichen Komponenten werden bei der Bereitstellung der Konferenzarbeitsauslastung bereitgestellt. Bevor Sie Einwahlkonferenzen konfigurieren können, müssen Sie entweder Enterprise-VoIP oder einen Vermittlungsserver sowie ein PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) bereitstellen.
+</div>
 
-Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benutzer sich über ein Telefonfestnetz einwählen und an einer Audio/Video-Konferenz teilnehmen können.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-10-03_
+
+Die für Einwahlkonferenzen erforderlichen Komponenten werden bereitgestellt, wenn Sie die Konferenz Arbeitsauslastung bereitstellen. Bevor Sie Einwahlkonferenzen konfigurieren können, müssen Sie entweder Enterprise-VoIP oder einen Vermittlungs Server und ein PSTN-Gateway (Public Switched Telephone Network) bereitstellen.
+
+Alle Schritte in der folgenden Tabelle müssen ausgeführt werden, bevor Benutzer sich vom PSTN aus anrufen können, um an einer Audio/Video-Konferenz teilzunehmen.
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie eine Migration von Office Communications Server 2007 R2 durchführen, müssen Sie vor der Bereitstellung von Einwahlkonferenzen die neusten Updates auf Ihre Office Communications Server 2007 R2-Umgebung anwenden.
+> [!NOTE]  
+> Wenn Sie von Office Communications Server 2007 R2 migrieren, müssen Sie die neuesten Updates auf Ihre Office Communications Server 2007 R2-Umgebung anwenden, bevor Sie Einwahlkonferenzen bereitstellen.
 
 
 
-### Verfahren zur Bereitstellung von Einwahlkonferenzen
+</div>
+
+### <a name="dial-in-conferencing-deployment-process"></a>Bereitstellungsprozess für Einwahlkonferenzen
 
 <table>
 <colgroup>
@@ -44,15 +68,15 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Erstellen Sie eine Topologie, die die Konferenzarbeitslast einschließlich eines Vermittlungsservers und PSTN-Gateways umfasst und stellen Sie den Front-End-Pool oder den Standard Edition-Server bereit</strong></p></td>
+<td><p><strong>Erstellen einer Topologie mit der Konferenz Arbeitsauslastung, einschließlich eines Vermittlungsservers und eines PSTN-Gateways, und Bereitstellen des Front-End-Pools oder des Standard Edition-Servers</strong></p></td>
 <td><ol>
-<li><p>Führen Sie das Topologie-Generator zum Konfigurieren Ihrer Topologie aus. Wählen Sie beim Konfigurieren der Topologie die Einwahlkonferenzoption aus.</p></li>
-<li><p>Veröffentlichen Sie die Topologie und stellen Sie den Front-End-Pool oder den Standard Edition-Server bereit.</p></li>
-<li><p>Erstellen Sie bei Bedarf einen eigenständigen Vermittlungsserver und ordnen Sie ihm ein PSTN-Gateway zu.</p>
+<li><p>Führen Sie den Topologie-Generator aus, um Ihre Topologie zu konfigurieren. Wählen Sie beim Konfigurieren der Topologie die Einwahlkonferenzoption aus.</p></li>
+<li><p>Veröffentlichen der Topologie und Bereitstellen des Front-End-Pools oder des Standard Edition-Servers</p></li>
+<li><p>Erstellen Sie bei Bedarf einen eigenständigen Vermittlungs Server, und ordnen Sie ihn einem PSTN-Gateway zu.</p>
 <div>
 
-> [!NOTE]
-> Dieser Schritt ist nur dann erforderlich, wenn Sie Enterprise-VoIP nicht bereitstellen und den Vermittlungsserver nicht mit dem Enterprise Edition- Front-End-Server oder - Standard Edition-Server gemeinsam ausführen. Wenn Sie Enterprise-VoIP bereitstellen, installieren und konfigurieren Sie Vermittlungsserver und PSTN-Gateways im Rahmen der Enterprise-VoIP-Bereitstellung. Wenn Sie den Vermittlungsserver gemeinsam mit einer anderen Rolle ausführen, installieren und konfigurieren Sie den Vermittlungsserver als Teil der Bereitstellung des Front-End-Pools oder des Standard Edition-Servers.
+> [!NOTE]  
+> Dieser Schritt ist nur erforderlich, wenn Sie Enterprise-VoIP nicht bereitstellen und den Vermittlungsserver nicht mit dem Enterprise EditionFront-collocate oder dem Standard Edition-Server abgleichen. Wenn Sie Enterprise-VoIP bereitstellen, installieren und konfigurieren Sie Vermittlungsserver und PSTN-Gateways als Teil der Enterprise-VoIP-Bereitstellung. Wenn Sie den Vermittlungsserver collocate, installieren und konfigurieren Sie den Vermittlungsserver als Teil des Front-End-Pools oder der Standard Edition-Server Bereitstellung.
 
 
 </div></li>
@@ -62,13 +86,13 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <p>Administrator</p></td>
 <td><ul>
 <li><p><a href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server 2013</a></p></li>
-<li><p>So erstellen Sie einen eigenständigen Vermittlungsserverpool: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Bereitstellen von Vermittlungsservern und Definieren von Peers in Lync Server 2013</a>Server pool</p></li>
+<li><p>So erstellen Sie einen eigenständigen vermittlungsserverpool: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Bereitstellen von Vermittlungsservern und Definieren von Peers in lync Server 2013</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Konfigurieren von Wähleinstellungen</strong></p></td>
-<td><p>Wähleinstellungen sind ein Satz von Rufnummernnormalisierungsregeln, die von einem bestimmten Standort aus gewählte Rufnummern in ein einziges Standardformat (E.164) übersetzen, um die Telefonautorisierung und das Anrufrouting zu ermöglichen. Eine von verschiedenen Standorten aus gewählte Rufnummer kann je nach Wähleinstellungen dem Standort entsprechend in unterschiedliche E.164-Nummern aufgelöst werden. Wenn Sie Enterprise-VoIP bereitstellen, richten Sie Wähleinstellungen im Rahmen dieser Bereitstellung ein und müssen sicherstellen, dass die Wähleinstellungen auch Einwahlkonferenzen umfassen. Falls Sie Enterprise-VoIP nicht bereitstellen, müssen Sie Wähleinstellungen für Einwahlkonferenzen einrichten.</p>
-<p>Verwenden Sie zum Einrichten von Wähleinstellungen die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell folgendermaßen:</p>
+<td><p><strong>Configure dial plans</strong></p></td>
+<td><p>Bei Wähleinstellungen handelt es sich um einen Satz Rufnummernormalisierungsregeln, die von einem bestimmten Standort aus gewählte Rufnummern in ein einziges Standardformat (E.164) übersetzen, um die Telefonautorisierung und das Anrufrouting zu ermöglichen. Eine von verschiedenen Standorten aus gewählte Rufnummer kann je nach Wähleinstellungen dem Standort entsprechend in unterschiedliche E.164-Nummern aufgelöst werden. Wenn Sie Enterprise-VoIP bereitstellen, richten Sie Wählpläne als Teil dieser Bereitstellung ein, und Sie müssen sicherstellen, dass die Wählpläne auch Einwahlkonferenzen unterstützen. Wenn Sie Enterprise-VoIP nicht bereitstellen, müssen Sie Wählpläne für Einwahlkonferenzen einrichten.</p>
+<p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell zum Einrichten von Wählplänen wie folgt:</p>
 <ol>
 <li><p>Erstellen Sie einen oder mehrere Sätze mit Wähleinstellungen zum Routen von Zugriffsnummern für die Einwahl.</p></li>
 <li><p>Weisen Sie jedem Pool einen Standardsatz mit Wähleinstellungen zu. Legen Sie die <strong>Region für Einwahlkonferenzen</strong> auf den geografischen Standort fest, für den die Wähleinstellungen gelten. Die Region ordnet die Wähleinstellungen den Zugriffsnummern für die Einwahl zu.</p></li>
@@ -86,11 +110,11 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-make-sure-dial-plans-have-assigned-regions.md">Sicherstellen, dass Wählplänen in Lync Server 2013 Regionen zugewiesen wurden</a></p></td>
+<td><p><a href="lync-server-2013-make-sure-dial-plans-have-assigned-regions.md">Sicherstellen, dass die Wähleinstellungen lync Server 2013 Regionen zugewiesen haben</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>(Optional) Überprüfen oder ändern Sie die Anforderungen an die persönliche Identifikationsnummer (PIN) der Benutzer.</strong></p></td>
-<td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell zum Anzeigen oder Ändern der <strong>PIN-Richtlinie</strong> für Konferenzen. Sie können eine PIN-Mindestlänge, eine maximale Anzahl von Anmeldeversuchen, ein PIN-Ablaufdatum und die Zulässigkeit gängiger Muster festlegen.</p></td>
+<td><p><strong>(Optional) Überprüfen oder Ändern der Anforderungen an die persönliche Identifikationsnummer (PIN) der Benutzer.</strong></p></td>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell zum Anzeigen oder Ändern der Konferenz- <strong>PIN-Richtlinie</strong>. Sie können eine PIN-Mindestlänge, eine maximale Anzahl von Anmeldeversuchen, ein PIN-Ablaufdatum und die Zulässigkeit gängiger Muster festlegen.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -98,7 +122,7 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 </tr>
 <tr class="odd">
 <td><p><strong>Konfigurieren Sie die Konferenzrichtlinie so, dass Einwahlkonferenzen unterstützt werden.</strong></p></td>
-<td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell zum Konfigurieren von Einstellungen der <strong>Konferenzrichtlinie</strong> . Legen Sie folgende Einstellungen fest:</p>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell zum Konfigurieren von <strong>Konferenzrichtlinien</strong> Einstellungen. Legen Sie folgende Einstellungen fest:</p>
 <ul>
 <li><p>Die PSTN-Konferenzeinwahl ist aktiviert.</p></li>
 <li><p>Benutzer können anonyme Teilnehmer einladen.</p></li>
@@ -110,12 +134,12 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <td><p><a href="lync-server-2013-configure-conferencing-policy-for-dial-in.md">Konfigurieren von Konferenzrichtlinien für die Einwahl in Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Konfigurieren von Zugriffsnummern für die Einwahl</strong></p></td>
-<td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell zum Einrichten von Zugriffsnummern, mit denen Benutzer sich in einer Konferenz einwählen können, und geben Sie die Regionen an, welche die Zugriffsnummer den entsprechenden Wähleinstellungen zuordnen. Die ersten drei Zugriffsnummern für die Region, die durch die Wähleinstellungen des Organisators festgelegt wird, sind in der Konferenzeinladung enthalten. Alle Zugriffsnummern stehen auf der Seite &quot;Einstellungen für Einwahlkonferenz&quot; zur Verfügung.</p>
+<td><p><strong>Configure dial-in access numbers</strong></p></td>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell zum Einrichten von Einwahl Zugriffsnummern, die Benutzer anrufen, um sich in eine Konferenz einzuwählen, und geben Sie die Regionen an, die die Zugriffsnummer mit den entsprechenden Wählplänen verknüpfen. Die ersten drei Zugriffsnummern für die Region, die durch die Wähleinstellungen des Organisators festgelegt wird, sind in der Konferenzeinladung enthalten. Alle Zugriffsnummern sind auf der Seite Einstellungen für Einwahlkonferenzen verfügbar.</p>
 <div>
 
-> [!NOTE]
-> Nach dem Erstellen von Zugriffsnummern für die Einwahl können Sie den Anzeigenamen für die Active Directory-Kontaktobjekte mithilfe des Cmdlets <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> modifizieren, sodass Benutzer die richtige Zugriffsnummer einfacher identifizieren können.
+> [!NOTE]  
+> Nachdem Sie Einwahl Zugriffsnummern erstellt haben, können Sie das Cmdlet " <STRONG>festlegen-CsDialInConferencingAccessNumber</STRONG> " verwenden, um den Anzeigenamen der Active Directory-Kontaktobjekte zu ändern, damit Benutzer die richtige Zugriffsnummer leichter identifizieren können.
 
 
 </div></td>
@@ -136,14 +160,14 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 </tr>
 <tr class="even">
 <td><p><strong>(Optional) Ändern der Tastenzuordnung von DTMF-Befehlen</strong></p></td>
-<td><p>Ändern Sie mithilfe des Cmdlets <strong>Set-CsDialinConferencingDtmfConfiguration</strong> die Tasten für DTMF-Befehle (Dual-Tone Multifrequency, Tonwahlverfahren), mit denen Teilnehmer Konferenzeinstellungen steuern können (z. B. die Stummschaltung bzw. Aufhebung der Stummschaltung oder die Sperre bzw. Aufheben der Sperre).</p></td>
+<td><p>Verwenden Sie das Cmdlet " <strong>CsDialinConferencingDtmfConfiguration</strong> ", um die Tasten zu ändern, die für DTMF-Befehle (Dual Tone MultiFrequency) verwendet werden, mit denen die Teilnehmer Konferenzeinstellungen steuern können (wie Stummschaltung und Aufheben der Stummschaltung oder sperren und entsperren).</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md">(Optional) Ändern der Tastenzuordnung für DTMF-Befehle in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>(Optional) Ändern Sie das Ankündigungsverhalten beim Beitreten oder Verlassen einer Konferenz</strong></p></td>
+<td><p><strong>(Optional) Ändern des Ankündigungsverhaltens beim Beitreten oder Verlassen einer Konferenz</strong></p></td>
 <td><p>Ändern Sie mit dem Cmdlet <strong>Set-CsDialinConferencingConfiguration</strong> die Funktionsweise von Ankündigungen, wenn Teilnehmer einer Konferenz beitreten bzw. diese verlassen.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
@@ -159,31 +183,42 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing.md">(Optional) Überprüfen von Einwahlkonferenzen in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Bereitstellen des Onlinebesprechungs-Add-In für Lync 2013</strong></p></td>
-<td><p>Stellen Sie das Onlinebesprechungs-Add-In für Lync 2013 bereit, damit Benutzer Konferenzen planen können, die Einwahlkonferenzfunktionen unterstützen. Das Onlinebesprechungs-Add-In für Lync 2013 wird bei der Installation von Lync 2013 automatisch installiert.</p></td>
+<td><p><strong>Bereitstellen des Onlinebesprechungs-Add-Ins für Lync 2013</strong></p></td>
+<td><p>Stellen Sie das Online Besprechungs-Add-in für lync 2013 bereit, damit Benutzer Konferenzen planen können, die Einwahlkonferenzen unterstützen. Das Online Besprechungs-Add-in für lync 2013 wird automatisch installiert, wenn Sie lync 2013 installieren.</p></td>
 <td><p>Administratoren</p></td>
 <td><p><a href="lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md">Bereitstellen des Onlinebesprechungs-Add-Ins für Lync 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Konfigurieren der Benutzerkontoeinstellungen</strong></p></td>
-<td><p>Konfigurieren Sie mithilfe der Systemsteuerung für Lync Server 2013 oder der Lync Server-Verwaltungsshell den <strong>Anschluss-URI</strong> für die Telefonie als eindeutige, normalisierte Rufnummer (z. B. tel:+14255550200).</p></td>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell, um den URI der Telefon <strong>Leitung</strong> als eindeutige, normalisierte Telefonnummer zu konfigurieren (beispielsweise Tel: + 14255550200).</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsAdministrator</p>
 <p>CsUserAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-user-account-settings.md">Konfigurieren der Benutzerkontoeinstellungen in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-user-account-settings.md">Konfigurieren der Benutzerkontoeinstellungen  in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>(Empfohlen) Konfigurieren von Konferenzverzeichnissen</p></td>
 <td><p>Verwenden Sie das Cmdlet <strong>New-CsConferenceDirectory</strong>, um ein Konferenzverzeichnis pro 999 Benutzer im Pool zu erstellen.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Anforderungen für Einwahlkonferenzen in Lync Server 2013</a> <a href="recommended-create-conference-directories.md">Erstellen von Konferenzverzeichnissen (empfohlen)</a></p></td>
+<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Anforderungen für Einwahlkonferenzen in lync Server 2013</a> <a href="recommended-create-conference-directories.md">(Empfohlen) Erstellen von Konferenz Verzeichnissen</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Optional) Einladen von Benutzern zu Einwahlkonferenzen und Festlegen der anfänglichen PIN</strong></p></td>
-<td><p>Verwenden Sie das Skript <strong>Set-CsPinSendCAWelcomeMail</strong>, um die anfänglichen PINs der Benutzer festzulegen und eine Begrüßungs-E-Mail zu senden, in der die anfängliche PIN und ein Link zur Seite &quot;Einstellungen für Einwahlkonferenz&quot; enthalten sind.</p></td>
+<td><p>Verwenden Sie das <strong>CsPinSendCAWelcomeMail-</strong> Skript, um die anfänglichen Pins der Benutzer festzulegen und eine Willkommens-e-Mail zu senden, die die ursprüngliche PIN und einen Link zur Seite Einstellungen für Einwahlkonferenzen enthält.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md">(Optional) Einladen von Benutzern zu Einwahlkonferenzen in Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

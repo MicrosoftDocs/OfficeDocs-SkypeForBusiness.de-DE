@@ -1,45 +1,95 @@
-﻿---
-title: 'Lync Server 2013: Notfallwiederherstellung für Edgeserver'
-TOCTitle: Notfallwiederherstellung für Edgeserver
-ms:assetid: 05ec8d26-d167-4a6f-a966-a1f8873cf974
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ687960(v=OCS.15)
-ms:contentKeyID: 49890610
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Notfallwiederherstellung für Edgeserver'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Edge Server disaster recovery
+ms:assetid: 05ec8d26-d167-4a6f-a966-a1f8873cf974
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687960(v=OCS.15)
+ms:contentKeyID: 49733545
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d19e5a606c3217ad7653fd4c3c885a97aafdb5ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832329"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Notfallwiederherstellung für Edgeserver in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Notfallwiederherstellung für Edgeserver in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-03-12_
 
-Wie bei anderen Serverrollen wird die hohe Verfügbarkeit für Ihre Edgeserver am besten durch die Bereitstellung mehrerer Edgeserver in Pools an den einzelnen Standorten gewährleistet. Fällt ein Edgeserver aus, stellen die anderen Server im Pool weiterhin Edgedienste bereit.
+Wie bei anderen Serverrollen besteht die beste Möglichkeit für Sie, eine höhere Verfügbarkeit für Ihre Edgeserver bereitzustellen, darin, mehrere Edgeserver in Pools auf jeder Website bereitzustellen. Wenn ein Edge-Server ausfällt, werden die anderen Server im Pool weiterhin Edge-Dienste bereitstellen.
 
-Zur Ermöglichung von Notfallwiederherstellungsprozeduren müssen Sie separate Edgeserver an verschiedenen Standorten bereitstellen. Sie müssen Edgepools nicht wie Front-End-Pools explizit zusammenfassen. Bei mehreren Edgepools besteht jedoch die Möglichkeit, die Arbeit fortzusetzen, falls ein Edgepool ausfällt. Die folgenden Abschnitte enthalten ausführliche Informationen zur Notfallwiederherstellung der verschiedenen Funktionen von Edgeservern.
+Zum Aktivieren von Disaster Recovery-Verfahren müssen separate Edge-Server-Pools an verschiedenen Standorten bereitgestellt werden. Sie müssen die Edge-Pools nicht explizit mit den Front-End-Pools koppeln, aber mit mehreren Edge-Pools können Sie weiterhin die Verfügbarkeit durchführen, wenn ein ganzer Edge-Pool ausfällt. Die folgenden Abschnitte enthalten Details zur Disaster Recovery für die verschiedenen Funktionen von Edge-Servern.
 
-## Remotezugriff
+<div>
 
-Wenn Sie mehrere Standorte mit jeweils einem Pool mit Edgeservern besitzen und ein gesamter Edgepool ausfällt, funktionieren die Remotezugriffsdienste weiterhin ohne Aktion durch den Administrator. Wenn Sie Edgepools an verschiedenen Standorten erstellen, können Sie nicht denselben FQDN verwenden. Jeder Edgepool muss eindeutige FQDNs (intern und extern) haben. Die Edgepools verwenden keine Reverseproxy-Veröffentlichungsregeln, um mit den Front-End-Servern zu kommunizieren. Ein automatisches Failover findet statt, wenn der Client die DNS-Servicedatensätze für den Remotezugriff erneut abfragt und Remotebenutzer zu den Edgeservern an einem anderen Standort weitergeleitet werden. Der Client probiert jeden externen Edge-FQDN gemäß der Priorität der DNS-SRV-Datensätze aus.
+## <a name="remote-access"></a>Remote Zugriff
+
+Wenn Sie über mehrere Websites verfügen, die jeweils einen Pool von Edge-Servern aufweisen und ein ganzer Edge-Pool ausfällt, funktionieren die RAS-Dienste weiterhin, ohne dass eine Administratoraktion erforderlich ist. Wenn Sie Edge-Pools in verschiedenen Websites erstellen, können Sie nicht den gleichen FQDN verwenden. Jeder Edge-Pool muss eindeutige FQDNs (intern und extern) aufweisen. Die Edge-Pools verwenden keine Reverse Proxy-Veröffentlichungsregeln, um mit den Front-End-Servern zu kommunizieren. Automatisches Failover tritt auf, wenn der Client die RAS-DNS-Diensteinträge erneut abfragt und Remotebenutzer an die Edgeserver an einem anderen Standort weitergeleitet werden. Der Client versucht jeden externen Edge-FQDN entsprechend der Priorität der DNS-SRV-Einträge.
+
+<div>
 
 
-> [!NOTE]
-> Damit das Failover reibungslos funktioniert, muss die Firewall zulassen, dass die Front-End-Server von jedem Pool mit allen Edgeservern kommunizieren können.
+> [!NOTE]  
+> Damit ein Failover reibungslos funktioniert, müssen Sie sicherstellen, dass die Firewall den Front-End-Servern aus jedem Pool die Kommunikation mit allen Edge-Servern ermöglicht.
 
 
 
-## Partnerverbund
+</div>
 
-Für Partnerverbundbeziehungen mit anderen Organisationen mit Lync Server funktionieren eingehende Partnerverbundanforderungen weiterhin, solange Sie jeden Edgepool mit einer anderen Priorität in Ihren SRV-Einträgen konfiguriert haben. Für Partnerverbundanforderungen an einen ausgefallenen Edgepool wird ein Failback ausgeführt und anschließend eine Verbindung mit einem ausgeführten Edgepool hergestellt.
+</div>
 
-Der ausgehende Partnerverbund wird immer über einen veröffentlichten Edgepool oder Edgeserver in der Organisation eingerichtet. Fällt dieser Edgepool aus, müssen Sie mit dem Topologie-Generator die ausgehende Partnerverbundroute ändern, sodass sie einen Edgepool verwendet, der noch ausgeführt wird. Ausführliche Informationen finden Sie unter [Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+<div>
 
-## XMPP-Partnerverbund
+## <a name="federation"></a>Partnerverbund
 
-Beim XMPP-Partnerverbund treten beim ausgehenden und eingehenden Datenverkehr Fehler auf, wenn der als XMPP-Verbundpartner-Gateway festgelegte Edgepool ausfällt. Damit der XMPP-Partnerverbund wieder funktioniert, müssen Sie die Verwendung eines anderen Edgepools durch den XMPP-Partnerverbund festlegen. Ausführliche Informationen finden Sie unter [Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den XMPP-Partnerverbund verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
+Für Verbundbeziehungen mit anderen Organisationen, die lync Server ausführen, funktionieren eingehende Verbund Anforderungen weiterhin so lange, wie Sie Lösungen wie Geo-DNS-Unternehmen haben. Es ist wichtig zu wissen, dass Verbund Failover kein Failover mit Priorität in SRV-Einträgen bietet. Eine zuvor bereitgestellte Lösung kann Ihnen bei der Bereitstellung von Disaster Recovery-Funktionen für eingehende Föderation helfen.
 
-## Ausfall des Edgepools bei weiterer Ausführung des Front-End-Pools
+Ausgehende Föderationen werden immer über einen veröffentlichten Edge-Pool oder Edgeserver in der Organisation eingerichtet. Wenn dieser Edge-Pool nicht mehr vorhanden ist, müssen Sie den Topologie-Generator verwenden, um die ausgehende Föderations Route so zu ändern, dass ein noch ausgeführter Edge-Pool verwendet wird. Ausführliche Informationen finden Sie unter [Failover des Edge-Pools, der für den lync Server-Verbund in lync Server 2013 verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md) .
 
-Falls ein Edgepool an einem Standort ausfällt, der Front-End-Pool an diesem Standort jedoch weiterhin ausgeführt wird, müssen Sie den Front-End-Pool so ändern, dass er einen anderen Edgepool an einem anderen Standort verwendet, während der erste Edgepool nicht verfügbar ist. Weitere Informationen finden Sie unter [Ändern des einem Front-End-Pool zugeordneten Edgepools in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+</div>
+
+<div>
+
+## <a name="xmpp-federation"></a>XMPP-Föderation
+
+Bei der XMPP-Föderation schlägt der ausgehende und eingehende Datenverkehr fehl, wenn der als XMPP Federation Gateway bezeichnete Edge-Pool herunterfällt. Damit die XMPP-Föderation wieder funktioniert, müssen Sie die XMPP-Föderation ändern, um einen anderen Edge-Pool zu verwenden. Ausführliche Informationen finden Sie unter [Failover des für die XMPP-Föderation in lync Server 2013 verwendeten Edge-Pools](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
+
+</div>
+
+<div>
+
+## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>Der Edge-Pool schlägt fehl, aber der Front-End-Pool wird weiterhin ausgeführt
+
+Wenn ein Edge-Pool an einer Website fehlschlägt, der Front-End-Pool dieser Website jedoch weiterhin ausgeführt wird, müssen Sie den Front-End-Pool so ändern, dass ein anderer Edge-Pool an einer anderen Website verwendet wird, während der erste Edge-Pool nicht mehr zur Verfügung steht. Weitere Informationen finden Sie unter [Ändern des Edge-Pools, der einem Front-End-Pool in lync Server 2013 zugeordnet](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)ist.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

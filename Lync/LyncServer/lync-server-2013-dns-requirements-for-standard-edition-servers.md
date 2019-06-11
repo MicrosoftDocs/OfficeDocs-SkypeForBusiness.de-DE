@@ -1,27 +1,49 @@
-﻿---
-title: DNS-Anforderungen für Standard Edition-Server
-TOCTitle: DNS-Anforderungen für Standard Edition-Server
-ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425900(v=OCS.15)
-ms:contentKeyID: 49293759
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS-Anforderungen für Standard Edition-Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Standard Edition servers
+ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425900(v=OCS.15)
+ms:contentKeyID: 48183920
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 19c5e04f23428b073e544b040ed07dc852f1da4c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832358"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS-Anforderungen für Standard Edition-Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a>DNS-Anforderungen für Standard Edition-Server in lync Server 2013
 
-In diesem Abschnitt werden die DNS-Einträge (Domain Name System) beschrieben, die zur Bereitstellung von Standard Edition-Servern erforderlich sind.
+</div>
 
-## DNS-Einträge für Standard Edition-Server
+<div id="mainSection">
 
-In der folgenden Tabelle werden die DNS-Anforderungen für eine Lync Server 2013 Standard Edition-Serverbereitstellung beschrieben.
+<div id="mainBody">
 
-### DNS-Anforderungen für einen Standard Edition-Server
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-19_
+
+In diesem Abschnitt werden die DNS-Einträge (Domain Name System) beschrieben, die für die Bereitstellung von Standard Edition-Servern erforderlich sind.
+
+<div>
+
+## <a name="dns-records-for-standard-edition-servers"></a>DNS-Einträge für Standard Edition-Server
+
+In der folgenden Tabelle sind die DNS-Anforderungen für die lync Server 2013 Standard Edition-Server Bereitstellung angegeben.
+
+### <a name="dns-requirements-for-a-standard-edition-server"></a>DNS-Anforderungen für einen Standard Edition-Server
 
 <table>
 <colgroup>
@@ -41,16 +63,29 @@ In der folgenden Tabelle werden die DNS-Anforderungen für eine Lync Server 2013
 </tr>
 <tr class="even">
 <td><p>Automatische Clientanmeldung</p></td>
-<td><p>Für jede unterstützte SIP-Domäne ein SRV-Eintrag für &quot;_sipinternaltls._tcp.<em>&lt;Domäne&gt;</em>&quot; über Port 5061, der dem FQDN des Standard Edition-Servers zugeordnet ist, der Anforderungen zur Clientanmeldung authentifiziert und weiterleitet. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS-Anforderungen für die automatische Clientanmeldung</a>.</p></td>
+<td><p>Für jede unterstützte SIP-Domäne einen SRV-Eintrag für _sipinternaltls. _tcp. &lt;Domäne&gt; über Port 5061, die dem FQDN des Standard Edition-Servers zugeordnet ist, der Clientanforderungen für die Anmeldung authentifiziert und umleitet. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ermittlung des Geräteaktualisierungswebdiensts über Unified Communications-Geräte (UC)</p></td>
-<td><p>Ein interner A-Eintrag mit dem Namen &quot;ucupdates-r2.<em>&lt;SIP domain&gt;</em>&quot;, der in die IP-Adresse des Standard Edition-Servers aufgelöst wird, der den Geräteaktualisierungswebdienst hostet. Wenn ein UC-Gerät eingeschaltet wird, ein Benutzer sich jedoch noch nie am Gerät angemeldet hat, ermöglicht der A-Eintrag, dass das Gerät den Server sucht, auf dem der Geräteaktualisierungs-Webdienst gehostet wird, und Updates abruft. Andernfalls rufen Geräte die Serverinformationen über die In-Band-Bereitstellung ab, wenn sich der Benutzer das erste Mal anmeldet.</p></td>
+<td><p>Device Update-Webdienst Ermittlung durch Unified Communications (UC)-Geräte</p></td>
+<td><p>Ein interner A-Eintrag mit dem Namen ucupdates-r2. &lt;SIP-&gt; Domäne, die in die IP-Adresse des Standard Edition-Servers für die Aktualisierung des Geräte Update-Webdiensts aufgelöst wird. In der Situation, in der ein UC-Gerät aktiviert ist, sich ein Benutzer aber noch nie beim Gerät angemeldet hat, ermöglicht der a-Eintrag dem Gerät das Erkennen des Server-Hosting-Geräte Update-Webdiensts und das Abrufen von Updates. Andernfalls rufen Geräte die Serverinformationen über die In-Band-Bereitstellung ab, wenn sich der Benutzer das erste Mal anmeldet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Ein Reverseproxy zur Unterstützung von HTTP-Datenverkehr</p></td>
-<td><p>Ein externer A-Eintrag, der den externen FQDN der Webfarm in die externe IP-Adresse des Reverseproxys auflöst. Clients und UC-Geräte stellen mit diesem Eintrag eine Verbindung mit dem Reverseproxy her. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-determine-dns-requirements.md">Ermitteln von DNS-Anforderungen für Lync Server 2013</a> in der Planungsdokumentation.</p></td>
+<td><p>Ein Reverse-Proxy zur Unterstützung des HTTP-Datenverkehrs</p></td>
+<td><p>Ein externer A-Eintrag, der den FQDN der externen Webfarm in die externe IP-Adresse des Reverse-Proxys auflöst. Clients und UC-Geräte verwenden diesen Eintrag, um eine Verbindung mit dem Reverse-Proxy herzustellen. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-determine-dns-requirements.md">Ermitteln der DNS-Anforderungen für lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

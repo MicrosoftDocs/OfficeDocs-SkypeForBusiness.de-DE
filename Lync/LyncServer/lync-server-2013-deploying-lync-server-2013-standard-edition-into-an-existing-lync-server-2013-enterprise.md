@@ -1,36 +1,76 @@
-﻿---
-title: 'Lync Server 2013: Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung'
-TOCTitle: Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung
-ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398112(v=OCS.15)
-ms:contentKeyID: 49293055
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise
+ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398112(v=OCS.15)
+ms:contentKeyID: 48183297
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6c505a692590662adf03e48d695b3c1ff089d8d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832542"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
-Die Bereitstellung eines Standard Edition-Servers in einer vorhandenen Enterprise Edition-Bereitstellung ähnelt der Bereitstellung zusätzlicher Serverrollen. Ein Standard Edition-Server kann an einem anderen Standort bereitgestellt werden, um die Benutzer an diesem Standort nicht über eine WAN (Wide Area Network)-Verbindung im Front-End-Pool, sondern stattdessen auf dem Standard Edition-Server zu verwalten. Die Verfahren zum Installieren des neuen Standorts und der Server an diesem Standort werden bereits in anderen Abschnitten der Dokumentation [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md) beschrieben.
+Die Bereitstellungeines Standard Edition-Servers in einer vorhandenen Enterprise Edition-Bereitstellung ähnelt der Bereitstellung zusätzlicher Serverrollen. Ein Standard Edition-Server kann auf einer anderen Website bereitgestellt werden, sodass die Benutzer auf dieser Website auf dem Standard Edition-Server statt im Front-End-Pool über ein WAN (Wide Area Network) verwaltet werden können. Die Verfahren zum Installieren der neuen Website und der neuen Server auf dieser Website sind bereits in anderen Abschnitten der [Bereitstellung von lync Server 2013](lync-server-2013-deploying-lync-server.md) -Dokumentation definiert.
 
-**So definieren Sie einen neuen Standort**
+<div id="sectionSection0" class="section">
 
-1.  Starten des Topologie-Generators: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Topologie-Generator**.
+**So definieren Sie eine neue Website**
 
-2.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **Lync Server 2013** und klicken Sie dann auf **Neuer zentraler Standort**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
 
-3.  Geben Sie auf der Seite **Standort identifizieren** einen Namen für den Standort und optional eine Beschreibung ein.
+2.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **lync Server 2013**, und klicken Sie dann auf **neue zentrale Website**.
 
-4.  Führen Sie die erforderlichen Schritte zum Definieren der weiteren Komponenten der Standorttopologie aus. Ausführliche Informationen finden Sie unter [Definieren und Konfigurieren der Topologie in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
+3.  Geben Sie auf der Seite **Website identifizieren** einen Namen für die Website ein, und geben Sie optional eine Beschreibung ein.
 
-5.  Veröffentlichen Sie die aktualisierte Topologie. Ausführliche Informationen finden Sie unter [Veröffentlichen der Topologie in Lync Server 2013](lync-server-2013-publish-the-topology.md).
+4.  Befolgen Sie die Verfahren zum Definieren der restlichen Website Topologie. Ausführliche Informationen finden Sie unter [definieren und Konfigurieren der Topologie in lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
-6.  Installieren Sie einen Standard Edition-Server und richten Sie ihn ein.
+5.  Veröffentlichen der aktualisierten Topologie Ausführliche Informationen finden Sie unter [Veröffentlichen der Topologie in lync Server 2013](lync-server-2013-publish-the-topology.md).
+
+6.  Einrichten und Installieren eines Standard Edition-Servers
     
-    > [!CAUTION]  
-	> Wenn Sie über eine Bereitstellung mit nur einem Standard Edition-Server verfügen, haben Sie die Einrichtung mit dem Lync Server-Bereitstellungs-Assistenten unter Verwendung des Links <strong>Vorbereiten des ersten Standard Edition-Servers</strong> durchgeführt, um die anfänglichen Datenbankdateien auf dem neuen Standard Edition-Server zu installieren. Führen Sie dieses Verfahren <strong>nicht aus</strong>, wenn Sie einen Standard Edition-Server in einer vorhandenen Lync Server 2013-Bereitstellung installieren.
+    <div>
+    
+
+    > [!Caution]  
+    > Wenn Sie eine Umgebung mit nur einem Standard Edition-Server bereitgestellt haben, hätten Sie den Setup-Vorgang mit dem lync Server-Bereitstellungs-Assistenten begonnen, indem Sie den Link <STRONG>First Standard Edition-Server vorbereiten</STRONG> verwenden, um die ersten Datenbankdateien auf dem neuen zu installieren. Standard Edition-Server. Führen Sie diesen Vorgang <STRONG>nicht</STRONG> aus, wenn Sie einen Standard Edition-Server in einer vorhandenen lync Server 2013-Bereitstellung installieren.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

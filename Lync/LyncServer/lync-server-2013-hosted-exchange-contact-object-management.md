@@ -1,61 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Kontaktobjektverwaltung für gehostete Exchange-Dienste'
-TOCTitle: Kontaktobjektverwaltung für gehostete Exchange-Dienste
-ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412978(v=OCS.15)
-ms:contentKeyID: 49295825
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kontaktobjektverwaltung für gehostete Exchange-Dienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Contact object management
+ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)
+ms:contentKeyID: 48185748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c67438745ee7cbb9de0ccfdef1d5d8959bb4679c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Kontaktobjektverwaltung für gehostete Exchange-Dienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Kontaktobjektverwaltung für gehostete Exchange-Dienste in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
-Sie müssen für jede Nummer einer automatischen Telefonzentrale und für jede Teilnehmerzugriffsnummer in Ihrer standortübergreifenden Bereitstellung ein Kontaktobjekt erstellen.
+Sie müssen ein Kontaktobjekt für jede Nummer der automatischen Telefonzentrale und die Teilnehmerzugriffsnummer in Ihrer standortübergreifenden Bereitstellung konfigurieren.
 
-Bei der Integration in gehostete Exchange UM-Dienste kann kann "ocsumutil.exe" nicht zur Verwaltung von Kontaktobjekten verwendet werden, da das Integrationsprogramm von Active Directory-Einstellungen für Exchange UM abhängt. In einer standortübergreifenden Bereitstellung sind Lync Server 2013 und der gehostete Exchange UM-Dienst in getrennten Gesamtstrukturen ohne gegenseitige Vertrauensstellung installiert. Aus Sicherheitsgründen erhalten Lync Server 2013-Administratoren keinen direkten Zugriff auf die Active Directory-Einstellungen für Exchange UM. Daher bietet Lync Server 2013 ein anderes Modell zur Verwaltung von Kontaktobjekten in einem *freigegebenen SIP-Adressraum* , auf den sowohl Lync Server 2013 als auch der gehostete Exchange UM-Dienst zugreifen können.
+Für die Integration in den Hosted Exchange um kann OCSUMUtil. exe nicht zum Verwalten von Kontaktobjekten verwendet werden, da dies von den Exchange um-Einstellungen von Active Directory abhängig ist. In einer standortübergreifenden Bereitstellung werden lync Server 2013 und gehostete Exchange um in getrennten Gesamtstrukturen installiert, ohne dass Sie vertrauenswürdig sind. Aus Sicherheitsgründen haben lync Server 2013-Administratoren keinen direkten Zugriff auf Exchange um-Active Directory-Einstellungen. Daher bietet lync Server 2013 ein anderes Modell für die Verwaltung von Kontaktobjekten in einem *freigegebenen SIP-Adressraum* , auf den sowohl lync Server 2013 als auch der gehostete Exchange um-Dienst zugreifen können.
 
-## Workflow für gehostete Kontaktobjekte
+<div>
 
-Der Administrator für gehostete Exchange-Mandanten verwaltet Kontaktobjekte anhand folgender allgemeiner Schritte:
+## <a name="hosted-contact-object-workflow"></a>Workflow für gehostete Kontaktobjekte
 
-1.  Der Exchange-Administrator fordert Rufnummern für den Exchange UM-Teilnehmerzugriff und Kontaktobjekte für die automatische Telefonzentrale an.
+Im folgenden finden Sie die allgemeinen Schritte für die Zusammenarbeit mit Ihrem Hosted Exchange-mandantenadministrator zum Verwalten von Kontaktobjekten:
 
-2.  Der Lync Server 2013-Administrator erstellt ein Kontaktobjekt für jede Rufnummer und weist jedem Kontaktobjekt eine Richtlinie für gehostete Voicemail zu.
+1.  Der Exchange-Administrator fordert Telefonnummern für den Exchange um-Abonnenten Zugriff und die automatischen Telefonzentralen-Kontaktobjekte an.
 
-3.  Der Lync Server 2013-Administrator sendet dem Exchange-Administrator die Rufnummern.
+2.  Der lync Server 2013-Administrator erstellt für jede Telefonnummer ein Kontaktobjekt und weist jedem Kontaktobjekt eine Richtlinie für gehostete Voicemail zu.
 
-4.  Der Exchange-Administrator weist die Rufnummern den entsprechenden Exchange UM-Wähleinstellungen für die automatische Telefonzentrale und den Teilnehmerzugriff zu.
+3.  Der lync Server 2013-Administrator stellt die Telefonnummern dem Exchange-Administrator zur Verfügung.
 
+4.  Der Exchange-Administrator ordnet die Telefonnummern den entsprechenden Exchange um-Wählplänen für automatische Telefonzentralen und den Abonnenten Zugriff zu.
 
-> [!NOTE]
-> Im Gegensatz zu lokalen Bereitstellungen müssen keine Lync Server 2013-Wähleinstellungen für die Kontaktobjekte konfiguriert werden.
-
-
-
-## Konfigurieren von gehosteten Kontaktobjekten
+<div>
 
 
-> [!NOTE]
-> Bevor Lync Server 2013-Kontaktobjekte für gehostete Exchange UM-Dienste aktiviert werden können, muss eine Richtlinie für gehostete Voicemail erstellt werden, die auf diese Objekte angewendet werden kann. Diese Richtlinie kann auf globaler, Standort- oder Benutzerebene eingerichtet werden, vorausgesetzt, sie lässt sich auf das Kontaktobjekt anwenden, das Sie aktivieren möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in Lync Server 2013</A>.
+> [!NOTE]  
+> Es ist nicht erforderlich, die Einstellungen für den Wählplan von lync Server 2013 für die Kontaktobjekte so zu konfigurieren, wie dies bei lokalen Bereitstellungen der Fall ist.
 
 
 
-Zur Konfiguration von Kontaktobjekten für die automatische Telefonzentrale und den Teilnehmerzugriff in einer standortübergreifenden Bereitstellung müssen Sie folgende Cmdlets verwenden:
+</div>
 
-  - **New-CsExUmContact** erstellt ein neues Kontaktobjekt für gehostete UM-Dienste.
+</div>
 
-  - **Set-CsExUmContact** ändert ein vorhandenes Kontaktobjekt für den Einsatz gehosteter Exchange UM-Dienste.
+<div>
 
-Im folgenden Beispiel wird ein Kontaktobjekt für eine automatische Telefonzentrale erstellt:
+## <a name="configuring-hosted-contact-objects"></a>Konfigurieren von gehosteten Kontaktobjekten
+
+<div>
+
+
+> [!NOTE]  
+> Bevor lync Server 2013-Kontaktobjekte für gehostete Exchange um aktiviert werden können, muss eine für Sie geltende gehostete Voicemail-Richtlinie bereitgestellt werden. Die Richtlinie kann globaler, Website ebener oder benutzerbezogener Bereich sein, sofern Sie auf das zu aktivierende Kontaktobjekt angewendet wird. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in lync Server 2013</A>.
+
+
+
+</div>
+
+Zum Konfigurieren der in einer lokalen Bereitstellung gehosteten Kontaktobjekte für die automatische Telefonzentrale und den Abonnenten Zugriff müssen Sie die folgenden Cmdlets verwenden:
+
+  - **New-CsExUmContact** erstellt ein neues Kontaktobjekt für gehostete um.
+
+  - Mit " **CsExUmContact** " wird ein vorhandenes Kontaktobjekt für gehostete Exchange um geändert.
+
+Im folgenden Beispiel wird ein Kontaktobjekt der automatischen Telefonzentrale erstellt:
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-In diesem Beispiel wird ein neues Exchange UM-Kontaktobjekt mit der SIP-Adresse "sip:exumaa1@fabrikam.com" erstellt. Der Name des Pools, in dem der Lync Server 2013-Registrierungsdienst ausgeführt wird, lautet "RedmondPool.litwareinc.com". Diese Informationen werden in der Active Directory-Organisationseinheit "OU=ExUmContacts,DC=litwareinc,DC=com" gespeichert. Die Rufnummer des Kontaktobjekts lautet 2065554567. Der optionale Parameter "-AutoAttendant $True" gibt an, dass es sich bei diesem Objekt um ein Kontaktobjekt für eine automatische Telefonzentrale handelt. Wenn der Parameter "-AutoAttendant" auf "False" gesetzt wird (dies ist die Standardeinstellung), handelt es sich um ein Kontaktobjekt für den Teilnehmerzugriff.
+In diesem Beispiel wird ein neues Exchange um-Kontaktobjekt mit der SIP-Adresse SIP:exumaa1@fabrikam.com erstellt. Der Name des Pools, in dem der lync Server 2013-Registrierungsdienst ausgeführt wird, lautet RedmondPool.litwareinc.com. Die Active Directory-Organisationseinheit, in der diese Informationen gespeichert werden, ist ou = ExUmContacts, DC = "litwareinc, DC = com. Die Telefonnummer des Kontaktobjekts ist 2065554567. Der Parameter optional – autoattende $true gibt an, dass dieses Objekt ein Kontaktobjekt der automatischen Telefonzentrale ist. Wenn der-autoattender-Parameter auf "false" festgelegt wird (der Standardwert), wird ein Kontaktobjekt des Teilnehmerzugriffs angegeben.
 
-Ausführliche Informationen zu den Cmdlets "New-CsExUmContact" und "Set-CsExUmContact" finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Ausführliche Informationen zu den Cmdlets New-CsExUmContact und CsExUmContact finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

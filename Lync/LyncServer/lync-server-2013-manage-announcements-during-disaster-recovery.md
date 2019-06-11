@@ -1,29 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Verwalten von Ansagen während der Notfallwiederherstellung'
-TOCTitle: Verwalten von Ansagen während der Notfallwiederherstellung
-ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721874(v=OCS.15)
-ms:contentKeyID: 49890929
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Ansagen während der Notfallwiederherstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage announcements during disaster recovery
+ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721874(v=OCS.15)
+ms:contentKeyID: 49733807
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65627e68b31e23908e9fd5258a69862f7ea15b79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831913"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Ansagen während der Notfallwiederherstellung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Verwalten von Ansagen während der Notfallwiederherstellung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Lync Server 2013 unterstützt Ansagen für Anrufe an nicht zugewiesene Nummern bei einem Ausfall. Die Wiederherstellung der Ansagefunktionalität bei einem Ausfall ist optional. Wenn Sie sich dafür entscheiden, Ansagen bei einem Ausfall wiederherzustellen, müssen Sie die Ansagekonfiguration im Sicherungspool erneut erstellen. In diesem Abschnitt wird die Vorgehensweise beschrieben, falls Sie Ansagen bei einer Notfallwiederherstellung wiederherstellen möchten.
+Lync Server 2013 unterstützt Ankündigungen für Anrufe an nicht zugewiesene Nummern während Ausfällen. Das Wiederherstellen der Ankündigungsfunktion während eines Ausfalls ist optional. Wenn Sie Ankündigungen während eines Ausfalls wiederherstellen möchten, müssen Sie Ihre Ankündigungs Konfiguration im Sicherungspool erneut erstellen. In diesem Abschnitt wird beschrieben, was Sie tun müssen, wenn Sie Ankündigungen während der Disaster Recovery wiederherstellen möchten.
 
-Dieser Abschnitt gilt für nicht zugewiesene Nummernbereiche, die die Ansageanwendung verwenden. Für nicht zugewiesene Nummernbereiche, die die automatische Telefonzentrale von Exchange Unified Messaging (UM) verwenden, ist dieser Abschnitt nicht zutreffend.
+Dieser Abschnitt gilt für nicht zugewiesene Nummernbereiche, in denen die Ankündigungs Anwendung verwendet wird. Dieser Abschnitt gilt nicht für nicht zugewiesene Nummernbereiche, die die automatische UM-Telefonzentrale (Exchange Unified Messaging) verwenden.
 
-## Vor einem Ausfall
+<div>
 
-Unabhängig davon, ob Sie Ansagen bei einem Ausfall verwenden möchten, sollten Sie separate Backups von allen angepassten Audiodateien erstellen, die Sie für die Ansageanwendung konfiguriert haben. Angepasste Ansagen werden nicht im Rahmen des Notfallwiederherstellungsprozesses von Lync Server gesichert. Wenn Sie keine separaten Backups der Dateien erstellen und die auf den Server oder in den Pool hochgeladenen Dateien beschädigt, infiziert oder gelöscht werden, sind die Dateien verloren.
+## <a name="before-an-outage"></a>Vor einem Ausfall
 
-Falls Sie nicht über Sicherungskopien von angepassten Audiodateien verfügen und die ursprünglichen Audiodateien nicht mehr verfügbar sind, finden Sie die Audiodateien, die Sie für eine Ansageanwendung konfiguriert haben, im Dateispeicher für den Server oder Pool, auf bzw. in den Sie die Dateien ursprünglich importiert haben. Sie können alle Audiodateien, die Sie für die Ansageanwendung konfiguriert haben, im Dateispeicher kopieren.
+Unabhängig davon, ob Sie Ankündigungen während Ausfällen verwenden, sollten Sie separate Sicherungen aller angepassten Audiodateien vornehmen, die Sie für die Ankündigungs Anwendung konfiguriert haben. Angepasste Ankündigungen werden im Rahmen des lync Server Disaster Recovery-Prozesses nicht gesichert. Wenn Sie keine separaten Sicherungen der Dateien vornehmen und die Dateien, die Sie auf den Server oder Pool hochgeladen haben, beschädigt, beschädigt oder gelöscht sind, gehen die Dateien verloren.
+
+Wenn Sie keine Sicherungskopien von angepassten Audiodateien haben und die ursprünglichen Audiodateien nicht mehr zur Verfügung stehen, können Sie die Audiodateien finden, die Sie für eine Ankündigungs Anwendung konfiguriert haben, indem Sie im Dateispeicher nach dem Server oder Pool suchen, in dem Sie ursprünglich die Dateien wurden importiert. Sie können alle Audiodateien kopieren, die Sie für die Ankündigungs Anwendung konfiguriert haben, aus dem Dateispeicher.
 
 **So kopieren Sie Audiodateien aus dem Dateispeicher**
 
@@ -35,64 +57,87 @@ Falls Sie nicht über Sicherungskopien von angepassten Audiodateien verfügen un
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     
-    Dabei steht X-ApplicationServer-X für die Dienst-ID des Anwendungsservers des Pools (z. B. 1-ApplicationServer-1 ).
+    Wobei x-ApplicationServer-x auf die Dienst-ID des Anwendungsservers des Pools verweist (beispielsweise 1-ApplicationServer-1 ")
 
 
-## Bei einem Ausfall
+</div>
 
-Wenn Sie die Ansageanwendung bei einem Ausfall verwenden möchten, müssen Sie die Ansagekonfiguration im Sicherungspool erneut erstellen, indem Sie die in diesem Abschnitt beschriebenen Schritte ausführen.
+<div>
 
+## <a name="during-an-outage"></a>Bei einem Ausfall
 
-> [!NOTE]
-> Es wird empfohlen, diese Schritte nach dem Failover auf den Sicherungspool auszuführen. Sobald Sie nämlich Schritt&nbsp;2 ausführen, wird der Sicherungspool zum Besitzer der nicht zugewiesenen Nummernbereiche.
+Wenn Sie die Ankündigungs Anwendung während eines Ausfalls verwenden möchten, müssen Sie die Ankündigungs Konfiguration im Sicherungspool neu erstellen, indem Sie die in diesem Abschnitt beschriebenen Aufgaben ausführen.
 
-
-
-
-> [!NOTE]
-> Für Nummernbereiche, die eine Exchange UM-Rufnummer der automatischen Telefonzentrale verwenden, sind diese Schritte nicht erforderlich.
+<div>
 
 
+> [!NOTE]  
+> Wir empfehlen, dass Sie diese Aufgaben ausführen, nachdem Sie das Failover für den Sicherungspool durchgeführt haben, denn sobald Sie Schritt 2 ausführen, übernimmt der Sicherungspool den Besitz der nicht zugewiesenen Nummernbereiche.
 
-**So stellen Sie die Ansagekonfiguration im Sicherungspool wieder her**
 
-1.  Führen Sie die folgenden Aktionen aus, um die Ansagen, die Sie im primären Pool erstellt haben, im Sicherungspool erneut zu erstellen:
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Diese Schritte sind für Nummernbereiche, die eine Telefonnummer der automatischen Exchange UM-Telefonzentrale verwenden, nicht erforderlich.
+
+
+
+</div>
+
+**So erstellen Sie die Ankündigungs Konfiguration im Sicherungspool erneut**
+
+1.  Erstellen Sie die Ankündigungen, die Sie im primären Pool im Sicherungspool bereitgestellt haben, wie folgt neu:
     
-    1.  Importieren Sie alle im primären Pool verwendeten Audiodateien im Sicherungspool, indem Sie das **Import-CsAnnouncementFile**-Cmdlet verwenden und den Sicherungspool für den Parent -Parameter angeben.
+    1.  Importieren Sie alle im primären Pool verwendeten Audiodateien in den Sicherungspool mithilfe des Cmdlets " **Import-CsAnnouncementFile** ", und geben Sie den Sicherungspool für den übergeordneten Parameter an.
     
-    2.  Erstellen Sie alle Ansagen erneut, indem Sie das **New-CsAnnouncement**-Cmdlet verwenden und den Sicherungspool für den Parent -Parameter angeben.
+    2.  Erstellen Sie die einzelnen Ankündigungen neu, indem Sie das Cmdlet **New-CsAnnouncement** verwenden und den Sicherungspool für den übergeordneten Parameter angeben.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Ausführliche Informationen zum Erstellen von Ansagen im Sicherungspool mithilfe dieser Parameter finden Sie unter <A href="lync-server-2013-create-an-announcement.md">Erstellen einer Ansage in Lync Server 2013</A>.
+    > [!NOTE]  
+    > Details zur Verwendung dieser Parameter zum Erstellen von Ankündigungen im Sicherungspool finden Sie unter <A href="lync-server-2013-create-an-announcement.md">Erstellen einer Ankündigung in lync Server 2013</A>.
 
-
-
-2.  Nachdem Sie alle Ansagen im Sicherungspool erneut erstellt haben, leiten Sie alle nicht zugewiesenen Nummernbereiche, die Ansagen im primären Pool verwenden, an die erneut erstellten Ansagen im Sicherungspool um.
     
-    Für jeden nicht zugewiesenen Nummernbereich, der eine Ansage im primären Pool verwendet, führen Sie folgenden Befehl aus:
+    </div>
+
+2.  Nachdem alle Ankündigungen im Sicherungspool neu erstellt wurden, leiten Sie alle nicht zugewiesenen Nummernbereiche, die Ankündigungen im primären Pool verwenden, auf die neu erstellten Ankündigungen im Sicherungspool um.
+    
+    Führen Sie für jeden nicht zugewiesenen Nummernbereich, der eine Ankündigung im primären Pool verwendet, die folgenden Aktionen aus:
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
-## Nach einem Ausfall
+</div>
 
-Wenn der primäre Pool nicht mehr verfügbar ist, müssen Sie die nicht zugewiesenen Nummernbereiche, die Sie für den Ausfall geändert haben, wieder an den primären Pool umleiten.
+<div>
+
+## <a name="after-the-outage"></a>Nach dem Ausfall
+
+Wenn der primäre Pool verfügbar wird, müssen Sie die nicht zugewiesenen Nummernbereiche, die Sie für den Ausfall geändert haben, wieder in den primären Pool umleiten.
+
+<div>
 
 
-> [!NOTE]
-> Für Nummernbereiche, die eine Exchange UM-Rufnummer der automatischen Telefonzentrale verwenden, sind diese Schritte nicht erforderlich.
+> [!NOTE]  
+> Diese Schritte sind für Nummernbereiche, die eine Telefonnummer der automatischen Exchange UM-Telefonzentrale verwenden, nicht erforderlich.
 
 
+
+</div>
 
 **So stellen Sie Ankündigungen im primären Pool wieder her**
 
-1.  Wenn Sie den primären Pool während der Wiederherstellung erneut erstellen mussten, müssen Sie die Ansagen im primären Pool erneut erstellen. Dazu importieren Sie die Audiodateien und erstellen Ankündigungen, so wie das beim Sicherungspool der Fall war, außer dass Sie den primären Pool für den Parent -Parameter angeben. Weitere Informationen hierzu finden Sie unter "Bei einem Ausfall" weiter oben in diesem Thema.
+1.  Wenn Sie den primären Pool während der Wiederherstellung wiederherstellen mussten, müssen Sie die Ankündigungen im primären Pool neu erstellen, indem Sie die Audiodateien importieren und Ankündigungen erstellen, genau wie im Sicherungspool, mit der Ausnahme, dass Sie den primären Pool für das übergeordnete Element angeben. Parameter. Ausführliche Informationen finden Sie unter "während eines Ausfalls" weiter oben in diesem Thema.
 
-2.  Für jeden nicht zugewiesenen Nummernbereich, den Sie für den Ausfall geändert haben, führen Sie folgenden Befehl aus:
+2.  Führen Sie für jeden nicht zugewiesenen Nummernbereich, den Sie für den Ausfall geändert haben, die folgenden Aktionen aus:
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
-3.  Entfernen Sie optional die Ansagen, die Sie im Sicherungspool erneut erstellt haben. Rufen Sie eine Liste der Ansagen für die Sicherungspool- Ansageanwendung ab. Führen Sie an der Eingabeaufforderung Folgendes aus:
+3.  Optional können Sie die im Sicherungspool neu erstellten Ankündigungen entfernen. Rufen Sie eine Liste der Ankündigungen für die APP für die Backup-Pool Ankündigung ab. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
         Get-CsAnnouncement -Identity "<Service:service ID>"
     
@@ -100,7 +145,7 @@ Wenn der primäre Pool nicht mehr verfügbar ist, müssen Sie die nicht zugewies
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    Suchen Sie in der zurückgegebenen Liste die Ansagen, die Sie entfernen möchten, und kopieren Sie die GUIDs. Führen Sie für jede Ansage, die Sie entfernen möchten, Folgendes aus:
+    Suchen Sie in der resultierenden Liste die Ankündigungen, die Sie entfernen möchten, und kopieren Sie die GUIDs. Führen Sie für jede Ankündigung, die Sie entfernen möchten, Folgendes aus:
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     
@@ -108,4 +153,16 @@ Wenn der primäre Pool nicht mehr verfügbar ist, müssen Sie die nicht zugewies
     
         Remove-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
 
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

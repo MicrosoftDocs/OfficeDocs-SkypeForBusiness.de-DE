@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: EndpointSubnet-Tabelle'
-TOCTitle: EndpointSubnet-Tabelle
-ms:assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398933(v=OCS.15)
-ms:contentKeyID: 49295543
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: EndpointSubnet-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: EndpointSubnet table
+ms:assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398933(v=OCS.15)
+ms:contentKeyID: 48185514
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1804b383d3d71c12d5c2aa53b276b578d89994bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832213"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# EndpointSubnet-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="endpointsubnet-table-in-lync-server-2013"></a>EndpointSubnet-Tabelle in Lync Server 2013
 
-Bei der **EndpointSubnet** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für ein von Endpunkten erfasstes Subnetz.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die Tabelle EndpointSubnet ist eine unterstützende Tabelle. Jeder Datensatz steht für ein Subnetz, das von Endpunkten erfasst wird.
 
 
 <table>
@@ -30,22 +50,33 @@ Bei der **EndpointSubnet** -Tabelle handelt es sich um eine Tabelle, auf die ver
 <th><strong>Spalte</strong></th>
 <th><strong>Datentyp</strong></th>
 <th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, Fremd</p></td>
-<td><p>Ganzzahlige Darstellung des Subnetzes.</p></td>
+<td><p>Primär, fremd</p></td>
+<td><p>Ganzzahlige Darstellung des Subnets</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

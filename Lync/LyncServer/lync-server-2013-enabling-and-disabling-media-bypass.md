@@ -1,35 +1,72 @@
-﻿---
-title: Aktivieren und Deaktivieren der Medienumgehung
-TOCTitle: Aktivieren und Deaktivieren der Medienumgehung
-ms:assetid: f2b33a88-99c8-42ad-9fec-6bb9c5e9ff19
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721937(v=OCS.15)
-ms:contentKeyID: 49891014
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren und Deaktivieren der medienumgehung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling and disabling media bypass
+ms:assetid: f2b33a88-99c8-42ad-9fec-6bb9c5e9ff19
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721937(v=OCS.15)
+ms:contentKeyID: 49733874
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7152fcca2f987a39f65736084edfa1be392abfd2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832265"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren und Deaktivieren der Medienumgehung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>Aktivieren und Deaktivieren der medienumgehung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Verwenden Sie die Verfahren in diesem Abschnitt, um die Medienumgehung mithilfe der Lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren. Ausführliche Informationen dazu, wann die Medienumgehung verwendet werden sollte, finden Sie unter [Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
+Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe der lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
 
-## In diesem Abschnitt
+<div>
 
-  - [Aktivieren der Netzwerkmedienumgehung](lync-server-2013-enabling-network-media-bypass.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Deaktivieren der Netzwerkmedienumgehung](lync-server-2013-disabling-network-media-bypass.md)
+  - [Aktivieren der Netzwerkmedien Umgehung in lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 
-## Siehe auch
+  - [Deaktivieren der Netzwerkmedien Umgehung in lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)
 
-#### Konzepte
+</div>
 
-[Übersicht über die Medienumgehung in Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+
+[Übersicht über die medienumgehung in lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
+
+
+[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
