@@ -1,55 +1,105 @@
-﻿---
-title: Übersicht über Webkonferenzen in Lync Server 2013
-TOCTitle: Übersicht über Webkonferenzen in Lync Server 2013
-ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425913(v=OCS.15)
-ms:contentKeyID: 49293794
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Übersicht über die lync Server 2013-Webkonferenzen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing overview
+ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
+ms:contentKeyID: 48183949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0b85bc97f5737f980c83c992a6a21eaeaca4e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847156"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über Webkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Übersicht über Webkonferenzen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-30_
 
-Über die Webkonferenzfunktion können Benutzer während einer Konferenz Dokumente freigeben und gemeinsam verwenden, z. B. PowerPoint-Präsentationen. Zusätzlich können Benutzer den gesamten Desktop oder Teile des Desktops in Echtzeit freigeben. So können die Konferenzteilnehmer gemeinsam Inhalte betrachten, als befänden sie sich am selben Tisch.
+Mit Webkonferenzen können Benutzer während ihrer Konferenzen Dokumente wie PowerPoint-Präsentationen Freigeben und daran zusammenarbeiten. Darüber hinaus können Benutzer ihren gesamten Desktop oder einen Teil davon in Echtzeit freigeben, sodass es den Anschein hat, als ob die Personen in der Konferenz um dieselbe Tabelle in der Besprechung versammelt sind.
 
-## Whiteboard und Anmerkungen
+<div>
 
-Ein Whiteboard ist ein leerer Zeichenbereich, der im Rahmen einer Zusammenarbeit eingesetzt wird und auf dem Text, Zeichnungen, und Bilder verwendet werden können. Anmerkungen auf Whiteboards sind für alle Teilnehmer der Besprechung sichtbar. Die Whiteboardfunktion verbessert die Zusammenarbeit, indem Besprechungsteilnehmer die Möglichkeit erhalten, Ideen zu diskutieren, ein Brainstorming durchzuführen, Notizen zu machen usw.
+## <a name="whiteboard-and-annotations"></a>Whiteboard und Anmerkungen
 
-## Abstimmungsfunktion
+Ein Whiteboard ist ein leerer Zeichenbereich, der im Rahmen einer Zusammenarbeit eingesetzt wird und auf dem Text, Zeichnungen, und Bilder verwendet werden können. Anmerkungen auf Whiteboards sind für alle Teilnehmer der Besprechung sichtbar. Die Whiteboard-Funktion verbessert die Zusammenarbeit, indem Besprechungsteilnehmer die Möglichkeit erhalten, Ideen zu diskutieren, ein Brainstorming durchzuführen, Notizen zu machen, usw.
 
-Mit der Abstimmungsfunktion wird die Zusammenarbeit verbessert, da Referenten umgehend die Vorlieben bzw. Meinung der Teilnehmer ermitteln können. Während einer Onlinebesprechung oder -unterhaltung können Referenten mit dieser Funktion anonyme Antworten der Teilnehmer sammeln. Die Ergebnisse werden allen Referenten angezeigt, und die Referenten können entscheiden, ob die Ergebnisse auch für die Teilnehmer sichtbar sein sollen.
+</div>
 
-## Anwendungs- und Desktopfreigabe
+<div>
 
-Während einer Konferenz können Sie Ihren gesamten Desktop, eine einzelne Anwendung oder einzelne Monitore in einer Umgebung mit mehreren Monitoren freigeben. Andere Teilnehmer der Konferenz können nicht nur die Inhalte sehen, sondern auch die Kontrolle über Ihren Bildschirm anfordern und mit Ihrer Erlaubnis mit den Inhalten interagieren (einschließlich Bildlauf und Bearbeitung).
+## <a name="polling"></a>Abruf
+
+Das Polling-Feature verbessert die Zusammenarbeit, indem es Referenten ermöglicht, die Einstellungen der Teilnehmer schnell festzulegen. In Onlinebesprechungen und Unterhaltungen können Referenten mithilfe von Umfragen anonyme Antworten von Teilnehmern sammeln. Alle Referenten können die Ergebnisse sehen und entweder die Ergebnisse ausblenden oder alle Teilnehmer anzeigen.
+
+</div>
+
+<div>
+
+## <a name="application-sharing-and-desktop-sharing"></a>Anwendungsfreigabe und Desktop Freigabe
+
+Während einer Konferenz können Sie Ihren gesamten Desktop, eine einzelne Anwendung oder einzelne Monitore in einer Umgebung mit mehreren Monitoren freigeben. Neben der Anzeige des Inhalts können andere Teilnehmer der Konferenz auch die Steuerung Ihres Bildschirms anfordern und mit der Berechtigung mit dem Inhalt interagieren (einschließlich Scrollen und bearbeiten).
+
+<div>
 
 
-> [!NOTE]
-> Teilnehmer, die bei der Konferenz nur zusehen, können ebenfalls die Kontrolle übernehmen und während der Besprechung Inhalte freigeben.
+> [!NOTE]  
+> Teilnehmer, die die Konferenz anzeigen, können auch die Freigabe von Inhalten während der Besprechung übernehmen und beginnen.
 
 
 
-## PowerPoint-Freigabe
+</div>
 
-In Lync 2010konnten PowerPoint-Präsentationen auf zwei Arten angezeigt werden. Für Benutzer mit Lync 2010 wurden PowerPoint-Präsentationen im PowerPoint 97-2003-Format mithilfe einer eingebetteten Kopie des PowerPoint Viewer angezeigt. Für Benutzer mit Lync Web App wurden PowerPoint-Präsentationen in dynamische HTML-Dateien konvertiert und mithilfe einer Kombination dieser angepassten DHTML-Dateien mit Silverlight angezeigt. Dieser Ansatz war zwar grundsätzlich effizient, unterlag aber Einschränkungen:
+</div>
 
-  - Der eingebettete PowerPoint Viewer (mit dem die Anzeigeerfahrung optimal war) ist nur auf der Windows-Plattform verfügbar.
+<div>
 
-  - Viele mobile Geräte (einschließlich einiger beliebter Handymodelle) unterstützen Silverlight nicht.
+## <a name="powerpoint-sharing"></a>PowerPoint-Freigabe
 
-  - Der Ansatz mit PowerPoint Viewer bzw. DHTML/Silverlight unterstützt nicht alle Funktionen neuerer Versionen von PowerPoint (z. B. Folienübergänge und eingebettete Videos).
+In lync 2010 wurden PowerPoint-Präsentationen auf eine von zwei Arten angezeigt. Für Benutzer, die lync 2010 ausführen, wurden PowerPoint-Präsentationen mit dem PowerPoint 97-2003-Format angezeigt und mit einer eingebetteten Kopie des PowerPoint-Viewers angezeigt. Für Benutzer, die lync Web App ausführen, wurden PowerPoint-Präsentationen in dynamische HTML-Dateien konvertiert und dann mithilfe einer Kombination dieser angepassten DHTML-Dateien und Silverlight angezeigt. Obwohl dies in der Regel effektiv ist, hat dieser Ansatz einige Einschränkungen:
 
-Um diese Probleme zu lösen und die allgemeine Erfahrung der Benutzer als Referent oder Zuhörer bei PowerPoint-Präsentationen zu verbessern, verwendet Lync Server 2013Office Web Apps den Office Web Apps-Server für PowerPoint-Präsentationen. Neben weiteren Vorteilen ermöglicht dieser Ansatz Folgendes:
+  - Der eingebettete PowerPoint Viewer (der die optimale Anzeigefunktionalität bereitgestellt hat) steht nur auf der Windows-Plattform zur Verfügung.
 
-  - Hochauflösende Displays und bessere Unterstützung von PowerPoint-Funktionen wie Animationen, Folienübergänge und eingebettete Videos.
+  - Viele mobile Geräte (darunter einige der beliebtesten Mobiltelefone) unterstützen Silverlight nicht.
 
-  - Zusätzliche mobile Geräte zum Zugriff auf diese Präsentationen. Dies liegt daran, dass Lync Server 2013 Standard-DHTML und JavaScript anstelle von angepasstem DHTML und Silverlight verwendet, um PowerPoint-Präsentationen zu übertragen.
+  - Der PowerPoint Viewer und der DHTML/Silverlight-Ansatz unterstützen nicht alle Features (wie Folienübergänge und eingebettete Videos), die in den neueren Versionen von PowerPoint zu finden sind.
 
-  - Benutzer mit entsprechenden Berechtigungen können unabhängig von der Präsentation selbst einen Bildlauf durch eine PowerPoint-Präsentation durchführen. Während Herr Myer beispielsweise seine Bildschirmpräsentation ablaufen lässt, kann Frau Ackerman sich eine beliebige Folie ansehen, ohne Herrn Myers Präsentation zu beeinträchtigen.
+Zur Behebung dieser Probleme und zur Verbesserung der allgemeinen Benutzerfreundlichkeit von Benutzern, die PowerPoint-Präsentationen präsentieren oder anzeigen, verwendet lync Server 2013 Office Web Apps und den Office Web Apps-Server für die Behandlung von PowerPoint-Präsentationen. Dieser neue Ansatz bietet unter anderem folgende Vorteile:
+
+  - Displays mit höherer Auflösung und bessere Unterstützung für PowerPoint-Funktionen wie Animationen, Folienübergänge und eingebettete Videos.
+
+  - Zusätzliche Mobile Geräte, um auf diese Präsentationen zuzugreifen. Das liegt daran, dass lync Server 2013 Standard DHTML und JavaScript zum Übertragen von PowerPoint-Präsentationen anstelle von benutzerdefinierten DHTML-und Silverlight-Anwendungen verwendet.
+
+  - Benutzer mit den entsprechenden Berechtigungen, um unabhängig von der Präsentation in einer PowerPoint-Präsentation zu scrollen. Wenn beispielsweise Ken Myers seine Bildschirmpräsentation vorstellt, kann Pilar Ackerman jede gewünschte Folie sehen, ohne die Präsentation von Ken zu beeinflussen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

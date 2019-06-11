@@ -1,29 +1,63 @@
-﻿---
-title: 'Phase 3: Bereitstellen des Lync Server 2013-Pilotpools'
-TOCTitle: 'Phase 3: Bereitstellen des Lync Server 2013-Pilotpools'
-ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204849(v=OCS.15)
-ms:contentKeyID: 49293898
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Phase 3: Bereitstellen des lync Server 2013-pilotpools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
+ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204849(v=OCS.15)
+ms:contentKeyID: 48184005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e348ea9eb0647ff3fb3b8dd809bdebed98994133
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847059"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 3: Bereitstellen des Lync Server 2013-Pilotpools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Phase 3: Bereitstellen des lync Server 2013-pilotpools
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-08-28_
 
-In diesem Abschnitt werden die Schritte behandelt, die für die Bereitstellung einer Pilotinstallation von Lync Server 2013 notwendig sind. Außerdem werden einige wichtige Überprüfungsschritte erläutert, mit denen die erfolgreiche Koexistenz der beiden Pools sichergestellt werden kann.
+In diesem Abschnitt werden die erforderlichen Schritte zum Bereitstelleneiner Pilotbereitstellung von lync Server 2013 und einige wichtige Validierungsschritte beschrieben, um sicherzustellen, dass die beiden Pools nebeneinander vorhanden sind.
 
-## In diesem Abschnitt
+<div>
 
-  - [Vorbereiten von Active Directory für Lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Installieren von Lync Server-Verwaltungstools](install-lync-server-administration-tools.md)
+  - [Vorbereiten von Active Directory für lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
 
-  - [Bereitstellen des Lync Server 2013-Pilotpools](deploy-lync-server-2013-pilot-pool_1.md)
+  - [Installieren der lync Server-Verwaltungstools](install-lync-server-administration-tools.md)
 
-  - [Überprüfen der Koexistenz der Pilotinstallation mit Legacypools](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+  - [Bereitstellen des lync Server 2013-pilotpools](deploy-lync-server-2013-pilot-pool_1.md)
+
+  - [Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

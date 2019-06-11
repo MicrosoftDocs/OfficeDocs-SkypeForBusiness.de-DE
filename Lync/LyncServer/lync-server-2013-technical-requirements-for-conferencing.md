@@ -1,29 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Technische Anforderungen für Konferenzen'
-TOCTitle: Technische Anforderungen für Konferenzen
-ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425889(v=OCS.15)
-ms:contentKeyID: 49293741
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Technische Anforderungen für Konferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for conferencing
+ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
+ms:contentKeyID: 48183923
+ms.date: 06/26/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847599"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Technische Anforderungen für Konferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Technische Anforderungen für Konferenzen in Lync Server 2013
 
-Für Lync Server 2013 werden Funktionen für Einwahlkonferenz, A/V-Konferenz, Chatkonferenz und Webkonferenz immer auf Front-End-Servern ausgeführt.
+</div>
 
-In diesem Abschnitt werden die Hardware- und Softwareanforderungen für diese Server beschrieben, zusammen mit Informationen zur unterstützten gemeinsamen Ausführung.
+<div id="mainSection">
 
-Das Feature für Einwahlkonferenzen umfasst eine Vielzahl von Komponenten. Einige dieser Komponenten sind spezifisch für das Feature für Einwahlkonferenzen, andere sind Enterprise-VoIP-Komponenten. In diesem Abschnitt werden die Anforderungen für diejenigen Komponenten beschrieben, die für das Feature für Einwahlkonferenzen spezifisch sind. Ausführliche Informationen zu den Anforderungen für Vermittlungsserver und PSTN-Gateways finden Sie unter [Vermittlungsserverkomponente in Lync Server 2013](lync-server-2013-mediation-server-component.md) und [Komponenten und Topologien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planungsdokumentation.
+<div id="mainBody">
 
-## Hardwareanforderungen
+<span> </span>
 
-Da Webkonferenzen und A/V-Konferenzen mit dem Front-End-Server verbunden sind, sind die Serverhardwareanforderungen dieselben wie für die Front-End-Server. Ausführliche Informationen zu den Hardwareanforderungen finden Sie unter [Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation. Für die folgenden Komponenten, die für Einwahlkonferenzen erforderlich sind, gelten auch dieselben Hardwareanforderungen wie für Front-End-Server:
+_**Letztes Änderungsdatum des Themas:** 2014-06-25_
+
+Für lync Server 2013 können Einwahlkonferenzen, A/V-Konferenzen, Sofortnachrichten (im)-Konferenzen und Webkonferenzfunktionen immer auf Front-End-Servern ausgeführt werden.
+
+In diesem Abschnitt werden die Hardware-und Softwareanforderungen für diese Server sowie die unterstützte Zusammensetzung erläutert.
+
+Einwahlkonferenzen sind eine Funktion, die eine Vielzahl von Komponenten umfasst. Einige der Komponenten gelten speziell für Einwahlkonferenzen und einige sind Enterprise-VoIP-Komponenten. In diesem Abschnitt werden die Anforderungen für die Komponenten beschrieben, die für Einwahlkonferenzen spezifisch sind. Details zu den Anforderungen des Vermittlungsservers und des PSTN-Gateways (Public Switched Telephone Network) finden Sie unter [Mediation Server-Komponente in lync Server 2013](lync-server-2013-mediation-server-component.md) und [Komponenten und Topologien für Mediation Server in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planung. Dokumentation.
+
+<div>
+
+## <a name="hardware-requirements"></a>Hardware Anforderungen
+
+Da Webkonferenzen und A/V-Konferenzen mit dem Front-End-Server kombiniert werden, sind die Server Hardwareanforderungen identisch mit den Front-End-Servern. Details zu den Hardwareanforderungen finden Sie unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Dokumentation zur Unterstützung. Die folgenden für Einwahlkonferenzen erforderlichen Komponenten haben auch die gleichen Hardwareanforderungen wie Front-End-Server:
 
   - Anwendungsdienst
 
@@ -31,31 +53,43 @@ Da Webkonferenzen und A/V-Konferenzen mit dem Front-End-Server verbunden sind, s
 
   - Konferenzankündigungsanwendung
 
-Die in der folgenden Tabelle aufgelisteten Hardwareanforderungen für Front-End-Server sind dieselben wie für viele weitere Serverrollen in Lync Server 2013.
+Die Hardwareanforderungen für den Front-End-Server entsprechen denen für viele andere Serverrollen in lync Server 2013, die in der folgenden Tabelle beschrieben sind.
 
-## Softwareanforderungen
+</div>
 
-Da Webkonferenzen und A/V-Konferenzen mit dem Front-End-Server verbunden sind, sind die Serversoftwareanforderungen dieselben wie für die Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
+<div>
 
-Für Webkonferenzen sind für Lync Server 2013 zudem Office Web Apps und Office Web Apps-Server (früher als WAC-Server bezeichnet) erforderlich, um PowerPoint-Präsentationen zu behandeln. Ausführliche Informationen finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+## <a name="software-requirements"></a>Software Anforderungen
 
-Für Einwahlkonferenzen gelten für Anwendungsdienst, Konferenzzentrale und Konferenzankündigungsanwendung dieselben Betriebssystemanforderungen wie für Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
+Da Webkonferenzen und A/V-Konferenzen mit dem Front-End-Server kombiniert werden, sind die Server Softwareanforderungen identisch mit den Front-End-Servern. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter unter [Stützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
 
-Für die Konferenzzentrale und die Konferenzankündigungsanwendung muss die Windows Media Format-Laufzeitkomponente auf den Front-End-Servern installiert sein. Die Windows Media Format-Laufzeitkomponente ist für die Wiedergabe von WMA-Dateien (Windows Media Audio) erforderlich, die für Wartemusik, aufgezeichnete Namen und Ansagen verwendet werden. Außer bei Windows Server 2012 und bei Windows Server 2012 R2 wird die Windows Media Format-Laufzeitkomponente automatisch als Teil der Windows-Desktoperfahrung installiert, wenn Sie Setup ausführen, aber möglicherweise müssen Sie den Computer neu starten. Es wird daher empfohlen, die Windows Media Format-Laufzeitkomponente vor Ausführung des Setups als Teil der Windows-Desktoperfahrung zu installieren. Windows Server 2012 und Windows Server 2012 R2 erfordern Microsoft Media Foundation.
+Für Webkonferenzen erfordert lync Server 2013 auch Office Web Apps und den Office Web Apps-Server (vormals als "The-Server" bezeichnet), um PowerPoint-Präsentationen zu verarbeiten. Ausführliche Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-## Portanforderungen für Einwahlkonferenzen
+Für Einwahlkonferenzen, Anwendungsdienst, Konferenz Aufsichts Anwendung und Konferenz Ankündigungs Anwendung gelten dieselben Betriebssystemanforderungen wie für Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter unter [Stützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
 
-In der folgenden Tabelle sind die Ports beschrieben, die von Einwahlkonferenzen verwendet werden. Wenn ein Gerät zum Lastenausgleich verwendet wird, stellen Sie sicher, dass dieses für die Ports konfiguriert ist, die von den im Pool ausgeführten Anwendungen verwendet werden.
+Die Anwendung für die Conferencing Attendant-Anwendung und die Konferenzankündigung erfordern, dass Windows Media Format Runtime auf Front-End-Servern installiert ist. Die Windows Media-Format Laufzeit ist erforderlich, um WMA-Dateien (Windows Media Audio) wiederzugeben, die für Musik in Wartestellung, aufgezeichnete Namen und Eingabeaufforderungen verwendet werden. Mit Ausnahme von Windows Server 2012 und Windows Server 2012 R2 wird die Windows Media-Format Laufzeit automatisch als Teil der Windows-Desktop Umgebung installiert, wenn Sie Setup ausführen, aber möglicherweise müssen Sie den Computer neu starten. Daher empfiehlt es sich, die Installation als Teil der Windows-Desktop Umgebung zu installieren, die Windows Media Format Runtime umfasst, bevor Sie Setup ausführen. Für Windows Server 2012 und Windows Server 2012 R2 ist Microsoft Media Foundation erforderlich.
 
-Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Weitere Informationen zu diesem Cmdlet finden Sie in der Dokumentation zu Lync Server-Verwaltungsshell.
+</div>
+
+<div>
+
+## <a name="port-requirements-for-dial-in-conferencing"></a>Port Anforderungen für Einwahlkonferenzen
+
+In der folgenden Tabelle werden die Ports beschrieben, die von Einwahlkonferenzen verwendet werden. Wenn Sie ein Lastenausgleichsmodul verwenden, stellen Sie sicher, dass das Load Balancer für die Ports konfiguriert ist, die von allen Anwendungen verwendet werden, die im Pool ausgeführt werden.
+
+Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Details zu diesem Cmdlet finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+
+<div>
 
 
-> [!NOTE]
-> Alle Instanzen derselben Anwendung in einem Pool verwenden denselben SIP-Überwachungsport.
+> [!NOTE]  
+> Alle Instanzen der gleichen Anwendung in einem Pool verwenden denselben SIP-Abhör-Port.
 
 
 
-### Von Einwahlkonferenzen verwendete Ports
+</div>
+
+### <a name="ports-used-by-dial-in-conferencing"></a>Ports, die von Einwahlkonferenzen verwendet werden
 
 <table>
 <colgroup>
@@ -71,33 +105,45 @@ Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicati
 <tbody>
 <tr class="odd">
 <td><p>5072</p></td>
-<td><p>Wird von Konferenzzentrale für SIP-Überwachungsanforderungen verwendet</p></td>
+<td><p>Wird von der Konferenz Aufsichts Anwendung für SIP-Überwachungsanforderungen verwendet</p></td>
 </tr>
 <tr class="even">
 <td><p>5073</p></td>
-<td><p>Wird von Konferenzankündigungsanwendung für SIP-Überwachungsanforderungen verwendet</p></td>
+<td><p>Wird von der Konferenz Ankündigungs Anwendung für SIP-Überwachungsanforderungen verwendet</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Unterstützte Clients für Einwahlkonferenzen
+</div>
 
-Sie können den folgenden Client zur Planung von lokalen Konferenzen verwenden, die einen Zugriff per Einwahl unterstützen:
+<div>
 
-  - Onlinebesprechungs-Add-In für Lync 2013 (wird bei der Installation von Lync 2013 oder Teilnehmer automatisch installiert)
+## <a name="supported-clients-for-dial-in-conferencing"></a>Unterstützte Clients für Einwahlkonferenzen
 
-## Seite "Einstellungen für Einwahlkonferenz"-Anforderungen
+Sie können den folgenden Client verwenden, um lokale Konferenzen zu planen, die Einwahlzugriff unterstützen:
 
-Das Seite "Einstellungen für Einwahlkonferenz" unterstützt die in der nachstehenden Tabelle aufgeführten Kombinationen aus Betriebssystemen und Webbrowsern.
+  - Online Besprechungs-Add-in für lync 2013 (automatisch installiert, wenn Sie lync 2013 oder Teilnehmer installieren)
+
+</div>
+
+<div>
+
+## <a name="dial-in-conferencing-settings-page-requirements"></a>Einstellungen für Einwahlkonferenzen, Seitenanforderungen
+
+Auf der Seite Einstellungen für Einwahlkonferenzen werden die in der folgenden Tabelle beschriebenen Kombinationen aus Betriebssystemen und Webbrowsern unterstützt.
+
+<div>
 
 
-> [!NOTE]
-> Es werden 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems unterstützt.
+> [!NOTE]  
+> 32-Bit-und 64-Bit-Versionen der Betriebssysteme werden unterstützt.
 
 
 
-### Unterstützte Betriebssysteme und Webbrowser
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Unterstützte Betriebssysteme und Webbrowser
 
 <table>
 <colgroup>
@@ -129,7 +175,7 @@ Das Seite "Einstellungen für Einwahlkonferenz" unterstützt die in der nachsteh
 <td><p>Windows Server 2008 R2</p></td>
 <td><p>Internet Explorer 9</p>
 <p>Internet Explorer 8</p>
-<p>Internet Explorer 7</p></td>
+<p>Internet Explorer 7</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mac OS</p></td>
@@ -140,13 +186,17 @@ Das Seite "Einstellungen für Einwahlkonferenz" unterstützt die in der nachsteh
 </table>
 
 
-## Audiodateianforderungen für Einwahlkonferenzen
+</div>
 
-Lync Server 2013 unterstützt keine Anpassung von Ansagen und Musik für Einwahlkonferenzen. Wenn Sie die Standardaudiodateien jedoch aufgrund geschäftlicher Anforderungen ändern müssen, finden Sie Informationen hierzu im Microsoft Knowledge Base-Artikel 961177, ["Anpassen von Ansagen oder Musikdateien für Einwahlkonferenzen in Microsoft Office Communications Server 2007 R2"](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+<div>
 
-Sie können auch das Verwaltungsdienstprogramm [Microsoft Lync Server Conferencing Attendant Custom Voice Prompts](http://go.microsoft.com/fwlink/p/?linkid=396880) verwenden. Mit ihm können Administratoren die Standardsprachansagen, die erfolgen, wenn ein Anrufer an einer Lync-Konferenz teilnimmt, durch eigene Sprachansagen ersetzen, um das Benutzererlebnis individuell zu gestalten. Die benutzerdefinierten Sprachansagen können auf einem Server installiert werden, auf dem Lync Server 2010 oder Lync Server 2013 entweder in der Enterprise oder Standard Edition ausgeführt wird.
+## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Audio-Dateianforderungen für Einwahlkonferenzen
 
-Für Konferenzzentrale und Konferenzankündigungsanwendung gelten die folgenden Anforderungen in Bezug auf Wartemusik, aufgezeichnete Namen und Dateien mit Audioansagen:
+Lync Server 2013 unterstützt keine Anpassung von Sprachansagen und Musik für Einwahlkonferenzen. Wenn Sie jedoch eine starke geschäftliche Anforderung haben, die erfordert, dass Sie die standardmäßigen Audiodateien ändern, lesen Sie den Microsoft Knowledge Base-Artikel 961177, [Anleitung zum Anpassen von Sprachansagen oder Musikdateien für Einwahlkonferenzen in Microsoft Office Communications Server. 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+
+Sie können auch das Verwaltungsdienstprogramm für [benutzerdefinierte Sprachansagen für Microsoft lync Server Conferencing](http://go.microsoft.com/fwlink/p/?linkid=396880) verwenden, das es Administratoren ermöglicht, die standardmäßigen Sprachaufforderungen zu ersetzen, die verwendet werden, wenn ein Telefon Anrufer eine lync-Besprechung mit benutzerdefinierten Eingabeaufforderungen verbindet unterschiedliche Erfahrungen mit dem Besprechungseintrag. Die benutzerdefinierten Sprachansagen können auf einem Server mit lync Server 2010 oder lync Server 2013, entweder Enterprise oder Standard Edition, installiert werden.
+
+Anwendung für die Conferencing Attendant-Anwendung und Konferenzankündigung gelten für die folgenden Voraussetzungen für Musik in Wartestellung, aufgezeichnete Namen und Audio-Ansagedateien:
 
   - WMA-Dateiformat (Windows Media Audio)
 
@@ -154,9 +204,25 @@ Für Konferenzzentrale und Konferenzankündigungsanwendung gelten die folgenden 
 
   - Konstante Bitrate (Constant Bit Rate), 48 KBit/s, 2 Durchläufe
 
-  - Sprachpegel: -24 DB
+  - Sprachpegel: -24 dB
 
-## Benutzeranforderungen für Einwahlkonferenzen
+</div>
 
-Dem Konto eines Einwahlkonferenzbenutzers muss eine eindeutige Rufnummer oder Durchwahl zugewiesen sein. Diese Anforderung unterstützt die Authentifizierung während der Einwahlkonferenz. Unternehmensbenutzer (also diejenigen Benutzer, die in Ihrer Organisation über Anmeldeinformationen in Active Directory-Domänendienste sowie Lync Server-Konten verfügen) geben ihre Rufnummer (oder Durchwahl) und eine persönliche Identifikationsnummer (PIN) ein, um sich als authentifizierte Benutzer in Konferenzen einzuwählen.
+<div>
+
+## <a name="user-requirements-for-dial-in-conferencing"></a>Benutzeranforderungen für Einwahlkonferenzen
+
+Dem Konto eines Einwahlkonferenzbenutzers muss eine eindeutige Rufnummer oder Durchwahl zugewiesen sein. Diese Anforderung unterstützt die Authentifizierung während der Einwahlkonferenz. Enterprise-Benutzer (also Benutzer mit Anmeldeinformationen für Active Directory-Domänendienste und lync-Server Konten in Ihrer Organisation) geben Ihre Telefonnummer (oder Durchwahl) und eine persönliche Identifikationsnummer (PIN) ein, um sich in Konferenzen als authentifizierter Benutzer.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,107 +1,161 @@
-﻿---
-title: 'Lync Server 2013: Viewing and analyzing monitoring server reports'
+---
+title: 'Lync Server 2013: anzeigen und Analysieren von Monitoring Server-Berichten'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing and analyzing monitoring server reports
 ms:assetid: 4dd448f1-01d2-49b2-b109-0728f36566b7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn720332(v=OCS.15)
-ms:contentKeyID: 62221545
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720332(v=OCS.15)
+ms:contentKeyID: 63969599
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 0cc942c887175bacb0047c5d82d1ad9a89c18ef5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847239"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Viewing and analyzing monitoring server reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>Anzeigen und Analysieren von Monitoring Server-Berichten in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-05-19_
 
-Monitoring Server reports provides several different measures of voice quality to monitor the QoE that is being delivered to end-users. Additionally, Monitoring Server includes several built-in reports that your organization can use to watch usage and media quality trends on your organization's network and troubleshoot media quality issues that arise.
+Monitoring Server-Berichte bieten verschiedene Maßnahmen zur Sprachqualität, um die QoE zu überwachen, die an Endbenutzer übermittelt wird. Darüber hinaus enthält Monitoring Server mehrere integrierte Berichte, die Ihre Organisation verwenden kann, um die Trends zur Verwendung und Medienqualität im Netzwerk Ihrer Organisation zu beobachten und Probleme mit der Medienqualität zu beheben.
 
-A primary part of keeping Monitoring Server Reports interesting for daily and weekly operations is viewing and analyzing Media Quality Reports, in particular:
+Ein primärer Bestandteil des Haltens von Monitoring Server-Berichten, die für tägliche und wöchentliche Vorgänge interessant sind, ist das Anzeigen und Analysieren von Berichten zur Medienqualität, insbesondere:
 
-  - QoE Summary/Trend Reports
+  - QoE-Zusammenfassung/Trend Berichte
 
-  - QoE Performance Reports
+  - QoE-Leistungsberichte
 
-## View reports from the monitoring server
+<div>
 
-1.  From a web browser, locate your servers hosting the SQL reporting services.
+## <a name="view-reports-from-the-monitoring-server"></a>Anzeigen von Berichten vom Monitoring Server
 
-2.  View the required reports from the browser screen.
+1.  Suchen Sie in einem Webbrowser nach den Servern, die die SQL Reporting Services hosten.
 
-3.  (Optional) Export a report by selecting the export option and the required output format.
+2.  Zeigen Sie die erforderlichen Berichte über den Browser-Bildschirm an.
 
-## Configure call detail recording (CDR)
+3.  Optional Exportieren eines Berichts durch Auswählen der Exportoption und des erforderlichen Ausgabeformats
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent permissions), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.
+</div>
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server-Systemsteuerung.
+<div>
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.
+## <a name="configure-call-detail-recording-cdr"></a>Konfigurieren der Anrufdetailaufzeichnung (CDR)
 
-4.  On the **Call Detail Recording** page, click the appropriate site in the table, click **Edit**, and then click **Show Details**.
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Berechtigungen verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
-5.  To turn on purging, select **Enable Purging for Monitoring Servers**.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.
 
-6.  In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that call detail recordings should be retained.
+3.  Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Aufzeichnung von Kommunikationsdatensätzen**.
 
-7.  In **Keep error report data for maximum duration (days):** select the maximum number of days that error reports should be retained.
+4.  Klicken Sie auf der Seite **Aufzeichnung von Kommunikationsdatensätzen** in der Tabelle auf den geeigneten Standort, klicken Sie auf **Bearbeiten** und anschließend auf **Details einblenden**.
 
-8.  Click **Commit**.
+5.  Wenn Sie die Bereinigung aktivieren möchten, wählen Sie die Option **zum Entfernen von Überwachungs Servern aktivieren**aus.
 
-## Configure QoE
+6.  Unter " **Anrufdetails aufzeichnen" für maximale Dauer (Tage):** wählen Sie die maximale Anzahl von Tagen aus, für die Anruf Detail Aufzeichnungen aufbewahrt werden sollen.
 
-1.  Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see Delegate Setup Permissions.
+7.  Wählen Sie unter **Maximale Aufbewahrungsdauer von Fehlerberichtsdaten (in Tagen):** die maximale Anzahl von Tagen, für die Fehlerberichte gespeichert werden sollen.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server-Systemsteuerung.
+8.  Klicken Sie auf **Commit**.
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Quality of Experience Data**.
+</div>
 
-4.  On the **Quality of Experience Data** page, click the appropriate site from the table, click **Edit**, and then click **Show Details**.
+<div>
 
-5.  To turn on purging, select **Enable Purging for Monitoring Servers**.
+## <a name="configure-qoe"></a>Konfigurieren von QoE
 
-6.  In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that QoE data should be retained.
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegate Setup Permissions.
 
-7.  Click Commit.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.
 
-## Change the archiving policy
+3.  Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **QoE-Daten**.
 
-1.  From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
+4.  Klicken Sie auf der Seite **QoE-Daten** in der Tabelle auf den geeigneten Standort, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server-Systemsteuerung.
+5.  Wenn Sie die Bereinigung aktivieren möchten, wählen Sie die Option **zum Entfernen von Überwachungs Servern aktivieren**aus.
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.
+6.  In " **Anrufdetails aufzeichnen" für maximale Dauer (Tage):** wählen Sie die maximale Anzahl von Tagen aus, die QoE-Daten beibehalten werden sollen.
 
-4.  Click **Global** in the list of policies, click **Edit**, and then click **Show details**.
+7.  Klicken Sie auf Commit ausführen.
 
-5.  In **Edit Archiving Policy - Global**, do the following:
+</div>
 
-6.  To enable or disable internal archiving for the deployment, select or clear the **Archive internal communications** check box.
+<div>
 
-7.  To enable or disable external archiving for the deployment, select or clear the **Archive external communications** check box.
+## <a name="change-the-archiving-policy"></a>Ändern der Archivierungsrichtlinie
 
-8.  Click **Commit**.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-## Apply an archiving policy to a user
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.
 
-1.  From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
+3.  Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server-Systemsteuerung.
+4.  Klicken Sie in der Liste der Richtlinien auf **Global**, dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
 
-3.  In the left navigation bar, click **Users**, and then search on the user account that you want to configure.
+5.  Führen Sie im Abschnitt **Bearbeiten der Archivierungsrichtlinie – Global** folgende Aktionen aus:
 
-4.  In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.
+6.  Aktivieren oder deaktivieren Sie das Kontrollkästchen **interne Kommunikation archivieren** , um die interne Archivierung für die Bereitstellung zu aktivieren oder zu deaktivieren.
 
-5.  In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.
+7.  Wenn Sie die externe Archivierung für die Bereitstellung aktivieren oder deaktivieren möchten, aktivieren oder deaktivieren Sie das Kontrollkästchen **externe Kommunikation archivieren** .
 
-6.  Click **Commit**.
+8.  Klicken Sie auf **Commit ausführen**.
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
 
-[Verwenden von Überwachungsberichten in Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
-[Bericht über Serverleistung in Lync Server 2013](lync-server-2013-server-performance-report.md)  
-[Vergleichsbericht über Medienqualität](lync-server-2013-media-quality-comparison-report.md)
+## <a name="apply-an-archiving-policy-to-a-user"></a>Anwenden einer Archivierungsrichtlinie auf einen Benutzer
+
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.
+
+3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer** und suchen Sie anschließend nach dem Benutzerkonto, das Sie konfigurieren möchten.
+
+4.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
+
+5.  Wählen Sie in **lync Server-Benutzer bearbeiten** unter **Archivierungsrichtlinie**die Archivierungs Benutzerrichtlinie aus, die Sie anwenden möchten.
+
+6.  Klicken Sie auf **Commit ausführen**.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Verwenden von Überwachungsberichten in lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
+[Bericht zur Server Leistung in lync Server 2013](lync-server-2013-server-performance-report.md)  
+[Bericht zum Vergleich der Medienqualität in lync Server 2013](lync-server-2013-media-quality-comparison-report.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

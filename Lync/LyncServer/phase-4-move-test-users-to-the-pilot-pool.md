@@ -1,29 +1,63 @@
-﻿---
-title: 'Phase 4: Verschieben von Testbenutzern in den Pilotpool'
-TOCTitle: 'Phase 4: Verschieben von Testbenutzern in den Pilotpool'
-ms:assetid: 5825dcc5-b2ce-45e2-81b9-f8e90d77c23f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204912(v=OCS.15)
-ms:contentKeyID: 49294065
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Phase 4: Verschieben von Testbenutzern in den Pilot Pool'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 4: Move test users to the pilot pool'
+ms:assetid: 5825dcc5-b2ce-45e2-81b9-f8e90d77c23f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204912(v=OCS.15)
+ms:contentKeyID: 48184208
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a8b765bc7e34422bd652c479560de6bbace27e0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847056"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 4: Verschieben von Testbenutzern in den Pilotpool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4: Verschieben von Testbenutzern in den Pilot Pool
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-26_
 
-Sie können einzelne Benutzer oder Benutzergruppen mit zwei verschiedenen Methoden in Ihre neue Microsoft Lync Server 2013-Bereitstellung verschieben: Lync Server-Systemsteuerung und Lync Server-Verwaltungsshell. In den Themen in diesem Abschnitt werden die Aufgaben beschrieben, die im Rahmen der Pilotbereitstellung sowie vor dem Verschieben Ihrer Lync Server 2013-Bereitstellung von einer Pilotbereitstellung zu einer Bereitstellung auf Produktionsebene abgeschlossen werden müssen.
+Mit den beiden folgenden Methoden können Sie einen einzelnen Benutzer oder Gruppen von Benutzern in Ihre neue Microsoft lync Server 2013-Bereitstellung verschieben: lync Server Control Panel und lync Server-Verwaltungsshell. Die Themen in diesem Abschnitt beschreiben die Aufgaben, die Sie während der Pilotbereitstellung ausführen müssen, sowie vor dem Verschieben der Bereitstellung von lync Server 2013 aus einer Pilotbereitstellung auf eine Bereitstellung auf Produktionsebene.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Anzeigen der aktuellen Benutzer im Lync Server 2010-Pool](view-current-users-in-lync-server-2010-pool.md)
 
-  - [Sicherstellen, dass die Benutzerreplikation abgeschlossen ist](verify-user-replication-has-completed.md)
+  - [Überprüfen, ob die Benutzerreplikation abgeschlossen wurde](verify-user-replication-has-completed.md)
 
-  - [Verschieben eines einzelnen Benutzers in den Pilotpool](move-a-single-user-to-the-pilot-pool.md)
+  - [Verschieben eines einzelnen Benutzers in den Pilot Pool](move-a-single-user-to-the-pilot-pool.md)
 
-  - [Verschieben von mehreren Benutzern in den Pilotpool](move-multiple-users-to-the-pilot-pool.md)
+  - [Verschieben mehrerer Benutzer in den Pilot Pool](move-multiple-users-to-the-pilot-pool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

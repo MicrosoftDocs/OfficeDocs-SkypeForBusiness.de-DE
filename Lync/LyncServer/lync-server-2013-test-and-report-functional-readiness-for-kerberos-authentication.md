@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Testen der Funktionsfähigkeit der Kerberos-Authentifizierung und Erstellen eines Berichts'
-TOCTitle: Testen der Funktionsfähigkeit der Kerberos-Authentifizierung und Erstellen eines Berichts
-ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398925(v=OCS.15)
-ms:contentKeyID: 49295526
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Testen der Funktionsfähigkeit der Kerberos-Authentifizierung und Erstellen eines Berichts
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test and report functional readiness for Kerberos authentication
+ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398925(v=OCS.15)
+ms:contentKeyID: 48185519
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 30dda07eb0152f43f60627fcee3a75b14745eea2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847569"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testen der Funktionsfähigkeit der Kerberos-Authentifizierung und Erstellen eines Berichts in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testen der Funktionsfähigkeit der Kerberos-Authentifizierung und Erstellen eines Berichts in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-01-16_
 
-Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
+Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.
 
-Sie können das Cmdlet **Test-CsKerberosAccountAssignment**  Windows PowerShell verwenden, um die Funktionsfähigkeit einer Standortzuweisung für die Kerberos-Authentifizierung zu testen und einen Bericht zu erstellen. Dieser Befehl fragt den im erforderlichen Parameter "Identity" angegebenen Standort ab. Der optionale Parameter "Report" weist das Cmdlet an, einen HTML-Bericht in das Verzeichnis "C:\\Logs" auf dem Computer zu generieren, auf dem der Befehl ausgeführt wird. Bei Verwendung des optionalen Parameters "Verbose" werden auf dem Bildschirm ausführliche Informationen zur Aktivität ausgegeben.
+Sie können das Windows PowerShell **-Cmdlet Test-CsKerberosAccountAssignment** verwenden, um die Funktionsbereitschaft einer Website Aufgabe für die Kerberos-Authentifizierung zu testen und zu melden. Dieser Befehl fragt die im erforderlichen Identity-Parameter angegebene Website ab. Der optionale Berichtsparameter bewirkt, dass das Cmdlet einen HTML-Bericht in C\\:-Protokolle auf dem Computer schreibt, auf dem der Befehl ausgeführt wird. Der optionale Verbose-Parameter meldet Aktivitätsinformationen auf dem Bildschirm.
 
-## So testen Sie die Funktionsfähigkeit der Kerberos-Authentifizierung an einem Standort und erstellen einen Bericht
+<div>
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" bei einem Computer in der Domäne an, auf dem Lync Server 2013 ausgeführt wird. Alternativ können Sie sich bei einem Computer anmelden, auf dem die Verwaltungstools installiert sind.
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>So testen und melden Sie die Funktionsbereitschaft für die Kerberos-Authentifizierung für eine Website
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe an einem Computer in der Domäne mit lync Server 2013 oder auf dem Computer an, auf dem die Verwaltungstools installiert sind.
 
-3.  Führen Sie den folgenden Befehl über die Befehlszeile aus:
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Führen Sie in der Befehlszeile den folgenden Befehl aus:
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     
     Beispiel:
     
         Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "c:\logs\KerberosReport.htm" -Verbose
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

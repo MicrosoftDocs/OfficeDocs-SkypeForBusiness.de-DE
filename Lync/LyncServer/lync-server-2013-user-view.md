@@ -1,21 +1,41 @@
-﻿---
-title: User-Ansicht
-TOCTitle: User-Ansicht
-ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688100(v=OCS.15)
-ms:contentKeyID: 49890801
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzeransicht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User view
+ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688100(v=OCS.15)
+ms:contentKeyID: 49733699
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21c22bdfbf758545418a821edaba5d8aaf447b87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847385"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# User-Ansicht
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="user-view-in-lync-server-2013"></a>Benutzeransicht in lync Server 2013
 
-In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an Anrufen oder Sitzungen teilnehmen, welche über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+
+Die Benutzeransicht speichert Informationen zu Benutzern, die an anrufen oder Sitzungen beteiligt waren, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -33,25 +53,36 @@ In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UserId</p></td>
+<td><p>UserID</p></td>
 <td><p>int</p></td>
-<td><p>Eindeutige Zahl, die diesen Benutzer identifiziert.</p></td>
+<td><p>Eindeutige Nummer, die diesen Benutzer kennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI des Benutzers</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>Der URI des Benutzers.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Mandant des Benutzers. Weitere Informationen finden Sie unter <a href="lync-server-2013-tenants-table.md">Tenants-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Mandant des Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Benutzer-URI-Typ. Weitere Informationen finden Sie unter <a href="lync-server-2013-uritypes-table.md">UriTypes-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Der Typ des Benutzer-URIs. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,49 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Systemauslastungsberichte'
-TOCTitle: Systemauslastungsberichte
-ms:assetid: 187d316d-2456-417e-b636-05527a18ef06
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558618(v=OCS.15)
-ms:contentKeyID: 49293311
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: System Nutzungsberichte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: System usage reports
+ms:assetid: 187d316d-2456-417e-b636-05527a18ef06
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558618(v=OCS.15)
+ms:contentKeyID: 48183529
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a94118832be0acab9e354016a76102b0a83d253d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847657"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Systemauslastungsberichte in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="system-usage-reports-in-lync-server-2013"></a>Berichte zur System Nutzung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-21_
 
-Die Systemauslastungsberichte bieten Informationen zur Nutzung des Systems auf der Basis von CDR-Daten (Call Detail Recording, Aufzeichnung von Kommunikationsdatensätzen), die vom Lync Server erfasst wurden.
+Die System Nutzungsberichte liefern Informationen zur Systemnutzung auf der Grundlage von CDR-Daten (Call Detail Recording), die vom lync-Server erfasst werden.
 
-## In diesem Abschnitt
+<div>
 
-  - [Bericht über Benutzerregistrierung in Lync Server 2013](lync-server-2013-user-registration-report.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
+
+  - [Bericht zur Benutzerregistrierung in lync Server 2013](lync-server-2013-user-registration-report.md)
     
-    Bietet eine Übersicht über die Benutzerverbindungen zur Lync Server 2013-Bereitstellung auf der Grundlage von Registrierungsereignissen wie etwa Benutzeranmeldungen. Der Bericht gibt Ihnen die Möglichkeit, sowohl interne als auch externe Anmeldungen zu überprüfen und die Anzahl der Benutzer, die sich bei Lync Server 2013 anmeldeten, mit der Anzahl der Benutzer zu vergleichen, die den Dienst tatsächlich verwendeten, während sie angemeldet waren.
+    Bietet eine Zusammenfassung der Benutzerkonnektivität zur lync Server 2013-Bereitstellung auf der Grundlage von Registrierungs Ereignissen wie Benutzeranmeldungen. Der Bericht bietet eine Möglichkeit zum Anzeigen interner und externer Anmeldungen sowie zum Vergleichen der Anzahl der Benutzer, die sich bei lync Server 2013 angemeldet haben, mit der Anzahl der Benutzer, die den Dienst tatsächlich verwendet haben, während Sie angemeldet waren.
 
-  - [Zusammenfassender Bericht über Peer-zu-Peer-Aktivität in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
+  - [Zusammenfassungsbericht zur Peer-zu-Peer-Aktivität in lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
     
-    Enthält eine Zusammenfassung der Peer-zu-Peer-Sofortnachrichten-, Audio-, Video-, Dateiübertragungs- und Anwendungsfreigabesitzungen. An Peer-zu-Peer-Sitzungen sind nur zwei Benutzer beteiligt.
+    Enthält eine Zusammenfassung der Peer-to-Peer-Sofortnachrichten-, Audio-, Video-, Dateiübertragungs- und Anwendungsfreigabesitzungen. An Peer-to-Peer-Sitzungen sind nur zwei Benutzer beteiligt.
 
-  - [Zusammenfassender Konferenzbericht in Lync Server 2013](lync-server-2013-conference-summary-report.md)
+  - [Bericht zur Konferenz Zusammenfassung in lync Server 2013](lync-server-2013-conference-summary-report.md)
     
     Bietet eine Übersicht über alle Konferenzaktivitäten. Eine Konferenz ist eine Sitzung mit mindestens drei Teilnehmern.
 
-  - [Zusammenfassender Bericht über PSTN-Konferenzen in Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
+  - [Bericht zur PSTN-Konferenz Zusammenfassung in lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
     
     Bietet eine Übersicht über alle PSTN-Konferenzen. Dies sind Konferenzen, bei denen sich mindestens ein Benutzer über das Festnetz (Public Switched Telephone Network, PSTN) einwählt. Sie werden auch als *Einwahlkonferenzen* bezeichnet.
 
-  - [Nutzungsbericht über die Reaktionsgruppe in Lync Server 2013](lync-server-2013-response-group-usage-report.md)
+  - [Bericht zur Antwortgruppen Nutzung in lync Server 2013](lync-server-2013-response-group-usage-report.md)
     
-    Bietet eine Zusammenfassung der Reaktionsgruppe-Verwendung. Die Reaktionsgruppenanwendung bietet eine Möglichkeit, Telefonanrufe automatisch an Entitäten wie einen Helpdesk oder den Kundensupport weiterzuleiten.
+    Enthält eine Zusammenfassung der Verwendung der Reaktionsgruppe. Mit der Anwendung Reaktionsgruppe können Sie Telefonanrufe automatisch an Entitäten wie einen Helpdesk oder eine Kundendienstleitung weiterleiten.
 
-  - [Inventurbericht über IP-Telefone in Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
+  - [Bericht zum IP Phone-Inventar in lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
     
-    Bietet Informationen über die IP-Telefone, die derzeit in der Organisation in Gebrauch sind. Dieser Bericht basiert auf den Registrierungen und Anmeldungen von Telefonen und ist daher nicht als absolut zuverlässige Bestandsaufnahme zu sehen. Beispielsweise kann es sein, dass Telefongeräte noch im Bericht aufgelistet werden (weil sie sich mindestens einmal angemeldet haben), die Sie schon ausrangiert haben. Entsprechend sind vielleicht neue Telefone bereits im Einsatz, die nicht in diesem Bericht aufgeführt werden, weil sie von Benutzern bisher noch nicht zum Anmelden bei Lync Server verwendet worden sind.
+    Enthält Informationen zu den derzeit in der Organisation verwendeten IP-Telefonen. Der Bericht basiert auf Telefon Registrierungen und Anmeldungen. Sie sollte nicht als vollständige Inventur angesehen werden. Beispielsweise haben Sie möglicherweise Telefone entfernt, die noch im Bericht aufgeführt sind, weil Sie sich mindestens einmal angemeldet haben. Ebenso können Sie auch neue Telefone haben, die nicht im Bericht angezeigt werden, nur weil sich die Benutzer noch nicht bei lync Server mit ihren neuen Telefonen angemeldet haben.
 
-  - [Bericht über Anrufsteuerung in Lync Server 2013](lync-server-2013-call-admission-control-report.md)
+  - [Bericht zur Anruf Zulassungs Steuerung in lync Server 2013](lync-server-2013-call-admission-control-report.md)
     
-    Enthält eine Liste der Peer-zu-Peer- und Konferenzaktivitäten, für die Anrufsteuerung (Call Admission Control, CAC) verwendet wird. Mithilfe der Anrufsteuerung können Sie feststellen, ob ausgehend von etwaigen Bandbreiteneinschränkungen Echtzeitkommunikationssitzungen (z. B. Sprach- oder Videoanrufe) hergestellt werden können sollen.
+    Enthält eine Liste der Peer-to-Peer- und Konferenzaktivitäten, für die Anrufsteuerung (Call Admission Control, CAC) verwendet wird. Mithilfe der Anrufsteuerung können Sie feststellen, ob ausgehend von etwaigen Bandbreiteneinschränkungen Echtzeitkommunikationssitzungen (z. B. Sprach- oder Videoanrufe) hergestellt werden können sollen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

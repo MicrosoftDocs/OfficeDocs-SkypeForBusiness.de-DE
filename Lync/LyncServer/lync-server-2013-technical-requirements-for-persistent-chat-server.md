@@ -1,35 +1,57 @@
-﻿---
-title: 'Lync Server 2013: Technische Anforderungen für den Server für beständigen Chat'
-TOCTitle: Technische Anforderungen für den Server für beständigen Chat
-ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398495(v=OCS.15)
-ms:contentKeyID: 49294281
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Technische Voraussetzungen für beständigen Chat Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Persistent Chat Server
+ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
+ms:contentKeyID: 48184383
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847602"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Technische Anforderungen für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Technische Anforderungen für den Server für beständigen Chat in lync Server 2013
 
-Jeder Computer, auf dem der Server für beständigen Chat gehostet wird, muss auf eine vorhandene Lync Server 2013-Topologie mit den folgenden Komponenten zugreifen können:
+</div>
 
-  - **Lync Server 2013, Front-End-Server.** Der Front-End-Server bildet die Grundlage für SIP-Routing (Session Initiation Protocol), das die Kommunikation zwischen Computern mit dem Server für beständigen Chat und den Beständiger Chat-Funktionen möglich macht. Vor Beginn der Bereitstellung des Server für beständigen Chat müssen Sie die Bereitstellung von Lync Server 2013, Standard Edition, oder eines Lync ServerFront-End-Pool und jeden anderen internen Computer in Ihrer Organisation, auf dem Lync Server ausgeführt wird, entsprechend überprüfen.
+<div id="mainSection">
 
-In den folgenden Abschnitten werden die spezifischen Anforderungen für den Server für beständigen Chat und die Datenbank beschrieben, in der die Daten des Features Beständiger Chat gespeichert werden.
+<div id="mainBody">
 
-## Server für beständigen Chat-Anforderungen
+<span> </span>
 
-Ausführliche Informationen zur empfohlenen Hardware für die Bereitstellung von Lync Server und der aktuellen Version von Server für beständigen Chat finden Sie unter [Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.
+_**Letztes Änderungsdatum des Themas:** 2013-01-06_
 
-Ausführliche Informationen zu den unterstützten Betriebssystemen für Server und Tools für Lync Server und den Server für beständigen Chat finden Sie unter [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
+Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene lync Server 2013-Topologie mit den folgenden Komponenten haben:
 
-Ausführliche Informationen zu zusätzlicher Software, die für die Bereitstellung des Server für beständigen Chat benötigt wird, finden Sie in der folgenden Tabelle.
+  - **Lync Server 2013, Front-End-Server.**  Der Front-End-Server ist die Grundlage für das SIP-Routing (Session Initiation Protocol), mit dem die Kommunikation zwischen Computern, auf denen der beständige Chat Server ausgeführt wird, und der Funktion für beständigen Chat ermöglicht wird. Bevor Sie mit der Bereitstellung des beständigen Chat Servers beginnen, überprüfen Sie die Bereitstellung von lync Server 2013, Standard Edition oder einem lync Server-Front-End-Pool und allen anderen internen Computern, auf denen lync Server ausgeführt wird, je nach Bedarf für Ihre Organisation.
 
-### Erforderliche Software für den Server für beständigen Chat
+In den folgenden Abschnitten werden die spezifischen Anforderungen für den Server für beständigen Chat und die Datenbank beschrieben, in der die persistenten Chat-Daten gespeichert sind.
+
+<div>
+
+## <a name="persistent-chat-server-requirements"></a>Server Anforderungen für beständigen Chat
+
+Details zur empfohlenen Hardware für die Bereitstellung von lync Server und die neueste Version des beständigen Chat Servers finden Sie unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Dokumentation zur Unterstützung.
+
+Details zur Unterstützung des Betriebssystems Server und Tools für lync Server und beständiger Chat Server finden Sie unter Unterstützung von [Server-und Tools-Betriebssystem in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
+
+Details zu zusätzlicher Software, die für die Bereitstellung von persistent Chat Server erforderlich ist, finden Sie in der folgenden Tabelle.
+
+### <a name="persistent-chat-server-software-prerequisites"></a>Voraussetzungen für beständige Chat Server Software
 
 <table>
 <colgroup>
@@ -45,33 +67,57 @@ Ausführliche Informationen zu zusätzlicher Software, die für die Bereitstellu
 <tbody>
 <tr class="odd">
 <td><p>Message Queuing</p></td>
-<td><p>Wird vom Kompatibilitätsdienst des Server für beständigen Chat und Beständiger Chat verwendet (wenn bereitgestellt).</p></td>
+<td><p>Wird vom beständigen Chat Server und dem beständigen Chat-Kompatibilitätsdienst verwendet, falls bereitgestellt.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Anforderungen des Server für beständigen Chat an die Datenbank
+</div>
 
-Der Server für beständigen Chat verwendet die Beständiger Chat-Datenbank, um Daten zum Chatverlauf, zur Konfiguration und zu Benutzerbereitstellungen zu speichern. Optional verwendet er die Beständiger Chat-Kompatibilitätsdatenbank, um Kompatibilitätsdaten zu speichern.
+<div>
+
+## <a name="persistent-chat-server-database-requirements"></a>Datenbankanforderungen für beständigen Chat Server
+
+Der Server für beständigen Chat verwendet die Datenbank für beständigen Chat, um Chat Verlaufs-, Konfigurations-und Benutzer Bereitstellungsdaten zu speichern. Optional wird die Compliance-Datenbank für beständigen Chat verwendet, um Kompatibilitätsdaten zu speichern.
+
+<div>
 
 
-> [!IMPORTANT]
-> Die Beständiger Chat-Datenbank (mgc) und die Kompatibilitätsdatenbank (mgccomp) können sich in der gleichen Instanz von SQL Server oder auf unterschiedlichen SQL-Server befinden.
+> [!IMPORTANT]  
+> Die persistent Chat-Datenbank (MGC) und die Compliance-Datenbank (mgccomp) können sich in derselben Instanz von SQL Server oder auf verschiedenen SQL-Servern befinden.
 
 
+
+</div>
 
 Beim Vorbereiten einer Datenbankserverplattform müssen Sie sich vergewissern, dass jeder Computer die Hardwareanforderungen erfüllt, bevor Sie die erforderliche Software installieren.
 
-Die Serverplattform für den Beständiger Chat-Datenbankserver erfordert die gleiche Hardware wie der Lync Server-Back-End-Datenbankserver. Ausführliche Informationen finden Sie unter [Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.
+Die Server Plattform für die persistenten Chat-Datenbankserver erfordert dieselbe Hardware wie der lync Server-Back-End-Datenbankserver. Ausführliche Informationen finden Sie unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Dokumentation zur Unterstützung.
 
 Stellen Sie sicher, dass auf dem Datenbankserver eine der folgenden Softwareanwendungen installiert ist:
 
-  - Microsoft SQL Server 2012. Einzelheiten zur Vorgehensweise bei der Installation von Microsoft SQL Server 2012 finden Sie in "Installieren von SQL Server 2012" unter [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
+  - Microsoft SQL Server 2012 Informationen zum Installieren von Microsoft SQL Server 2012 finden Sie unter "Installieren von SQL Server 2012" unter [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
 
-  - Microsoft SQL Server 2008 R2. Einzelheiten zur Vorgehensweise bei der Installation von Microsoft SQL Server 2008 R2 finden Sie in "SQL Server-Installation (SQL Server 2008 R2)" unter [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702).
+  - Microsoft SQL Server 2008 R2 Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server-Installation (SQL Server 2008 R2)" unter [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702).
 
-## Anforderungen des Server für beständigen Chat in Bezug auf Zertifikate
+</div>
 
-Ausführliche Informationen zum Beziehen von Zertifikaten, zum Erstellen der SQL Server-Datenbank und zum Erstellen von Dateispeichern finden Sie unter [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+<div>
+
+## <a name="persistent-chat-server-certificate-requirements"></a>Zertifikatanforderungen für beständigen Chat Server
+
+Details zum Abrufen von Zertifikaten, zum Erstellen der SQL Server-Datenbank und zum Erstellen von Datei speichern finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

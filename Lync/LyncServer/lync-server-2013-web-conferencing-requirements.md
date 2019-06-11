@@ -1,31 +1,55 @@
-﻿---
-title: Webkonferenzanforderungen
-TOCTitle: Webkonferenzanforderungen
-ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619171(v=OCS.15)
-ms:contentKeyID: 49293237
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anforderungen für Webkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing requirements
+ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
+ms:contentKeyID: 49733559
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dddfd7c2fdfe6cbcefcca7533e93c3c377cceea8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847159"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Webkonferenzanforderungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Webkonferenz Anforderungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
 Wenn Sie sich für die Bereitstellung von Webkonferenzfunktionen entschieden haben, müssen Sie Folgendes planen:
 
-  - Zugriff auf den Dateispeicher, der zum Speichern von Webkonferenzinhalten verwendet wird.
+  - <span></span>  
+    Zugriff auf den Dateispeicher, der zum Speichern von Webkonferenzinhalten verwendet wird.
 
-  - Integration mit Office Web Apps-Server. Dies ist für die Freigabe von PowerPoint-Dateien während einer Konferenz erforderlich.
+  - <span></span>  
+    Integration mit dem Office Web App-Server. Dies ist für die Freigabe von PowerPoint-Dateien während einer Konferenz erforderlich.
 
-## Dateispeicher
+<div>
 
-Der Lync Server 2013-Webkonferenzdienst speichert bei Besprechungen freigegebene Inhalte im Dateispeicher. Im Rahmen der Bereitstellung müssen Sie eine Dateifreigabe festlegen, die als Dateispeicher für Standard Edition-Server oder den Enterprise Edition-Front-End-Pool verwendet wird. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben. Weitere Informationen finden Sie unter "Topologie-Generator – Definieren des Dateispeichers für das Front-End". Der Webkonferenzdienst verschlüsselt die Inhalte vor dem Speichern im Dateispeicher.
+## <a name="file-store"></a>Dateispeicher
 
-Lync Server 2013 unterstützt die Verwendung von Dateifreigaben auf DAS (Direct Attached Storage)- oder SAN-Lösungen (Storage Area Network), einschließlich DFS (Distributed File System), sowie RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Nachdem der Lync Server-Bereitstellungs-Assistent den Speicherort der Dateifreigabe definiert hat, erstellt Lync Server innerhalb der Dateifreigabe eine ähnliche Ordnerstruktur wie die Folgende:
+Der lync Server 2013-Webkonferenzdienst speichert während Besprechungen im Dateispeicher freigegebene Inhalte. Als Teil der Bereitstellung müssen Sie eine Dateifreigabe angeben, die als Dateispeicher für den Standard Edition-Server oder den Enterprise Edition-Front-End-Pool verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben.Weitere Informationen finden Sie unter Topologie-Generator – definieren Sie den Dateispeicher für das Front-End. Der Webkonferenzdienst verschlüsselt die Inhalte vor dem Speichern im Dateispeicher.
+
+Lync Server 2013 unterstützt die Verwendung von Dateifreigaben entweder in Direct Attached Storage (das) oder in einem SAN (Storage Area Network), einschließlich DFS (Distributed File System) und auf einem redundanten Array von unabhängigen Datenträgern (RAID) für Dateispeicher. Nachdem der lync Server-Bereitstellungs-Assistent den Speicherort der Dateifreigabe definiert hat, erstellt lync Server eine Ordnerstruktur innerhalb der Dateifreigabe ähnlich wie:
 
   - 1-ApplicationServer-1
 
@@ -39,26 +63,31 @@ Lync Server 2013 unterstützt die Verwendung von Dateifreigaben auf DAS (Direct 
     
       - DataConf
 
-Der Webkonferenzdienst speichert dann Inhalte wie z. B. PowerPoint-Folien, Whiteboards, Umfragen und Anhänge in den Ordnern "CollabContent" und "CollabMetadata", die sich wiederum im Ordner "WebServices" befinden.
+Der Webkonferenzdienst speichert dann Inhalte wie z. B. PowerPoint-Folien, Whiteboards, Umfragen und Anhänge in den Ordnern „CollabContent“ und „CollabMetadata“, die sich wiederum im Ordner „WebServices“ befinden.
 
-Der Administrator muss Berechtigungen für die Dateifreigabe festlegen, um RTC-Gruppen den erforderlichen Lese- und Schreibzugriff zu gewähren.
+Der Administrator muss Berechtigungen für die Dateifreigabe einrichten, damit RTC-Gruppen über den erforderlichen Lese-und Schreibzugriff verfügen.
 
-
-> [!WARNING]
-> Wenn bei den Berechtigungen Fehler auftreten, öffnen Sie den Topologie-Generator und veröffentlichen die vorhandene Topologie erneut. Durch das Veröffentlichen der Topologie werden die Dateifreigabeberechtigungen überprüft und ggf. zurückgesetzt.
+<div>
 
 
+> [!WARNING]  
+> Wenn Fehler mit den Berechtigungen auftreten, öffnen Sie den Topologie-Generator, laden Sie die vorhandene Topologie herunter, und veröffentlichen Sie Sie erneut. Beim Veröffentlichen der Topologie werden die Dateifreigabeberechtigungen überprüft und bei Bedarf zurückgesetzt.
 
-Sie können die folgenden Einstellungen verwenden, um das Speichern von Inhalten für eine Besprechung zu verwalten:
 
-  - Mit der Einstellung **ContentGracePeriod** in [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) wird festgelegt, wie lange Webkonferenzinhalte nach dem Ende der Besprechung auf dem Server verbleiben.
 
-  - Mit der Einstellung **MaxContentStorageMb** in [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) wird die Höchstmenge an , zulässigem Dateispeicherplatz für das Speichern von Inhalten während einer einzelnen Besprechung festgelegt.
+</div>
 
-Mit **MaxUploadFileSizeMb** wird nicht die Einstellung für den Dateiupload für Lync Web App beschränkt. Der Grenzwert für die Uploaddateigröße für Lync Web App ist auf ca. 30 MB festgelegt und wird von der IIS-Datei "web.config" gesteuert: "/DataCollabWeb/Int\[Ext\]/Handler/web.config". Zum Konfigurieren des Grenzwerts für die Uploaddateigröße für Lync Web App aktualisieren Sie wie unten dargestellt in der Datei "web.config" `maxRequestLength` und `maxAllowedContentLength`.
+Sie können die folgenden Einstellungen verwenden, um zu verwalten, wie Inhalte für eine Besprechung gespeichert werden:
+
+  - In **ContentGracePeriod**, das sich in [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)befindet, wird festgelegt, wie lange Webkonferenzinhalte auf dem Server verbleiben, nachdem die Besprechung beendet wurde.
+
+  - **MaxContentStorageMb**, das sich in [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)befindet, legt die maximale Menge an Dateispeicherplatz fest, die für die Speicherung von Inhalten während einer einzelnen Besprechung zulässig ist.
+
+**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Upload-Dateigröße für lync Web App ist auf ungefähr 30 MB festgesetzt und wird von der IIS Web.\[config\]-Datei gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Zum Konfigurieren des Upload-Grenzwerts für die Dateigröße für lync `maxRequestLength` Web `maxAllowedContentLength` APP aktualisieren Sie die Datei Web. config wie unten dargestellt.
 
     <system.web>
-        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- 
+            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by Lync Web App client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 
@@ -74,16 +103,36 @@ Mit **MaxUploadFileSizeMb** wird nicht die Einstellung für den Dateiupload für
                     </requestFiltering>
                     </security>
 
-Sie müssen die Datei "web.config" für jeden Front-End-Server aktualisieren.
+Sie müssen die Datei Web. config für jeden Front-End-Server aktualisieren.
 
-## Office Web Apps-Server
+</div>
 
-Um diese neuen Funktionen nutzen zu können, müssen Administratoren Office Web Apps-Server installieren und Lync Server 2013 für die Kommunikation mit Office Web Apps-Server konfigurieren. Diese Dokumentation enthält Informationen zur Konfiguration von Lync Server 2013 für die Verwendung mit Office Web Apps-Server. Sie enthält jedoch keine Informationen zur Installation von Office Web Apps-Server. Informationen zur Installation finden Sie auf der Microsoft Office Web Apps-Bereitstellungswebsite unter <http://go.microsoft.com/fwlink/?linkid=257525>. Dieses Handbuch enthält vollständige Informationen zu den Voraussetzungen für Office Web Apps-Server. Beachten Sie, dass Office Web Apps-Server auf einem eigenständigen Computer ohne Lync Server, SQL Server oder einer anderen Serveranwendung installiert werden sollte. (Auf dem Computer darf keine Version von Office installiert sein.) Auf dem Computer, auf dem Office Web Apps-Server ausgeführt wird, muss auch bestimmte Software installiert sein (darunter .NET Framework 4.5 und Windows PowerShell 3.0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internetinformationsdienste (Internet Information Services, IIS) sind auf der Microsoft Office Web Apps-Bereitstellungswebsite unter <http://go.microsoft.com/fwlink/?linkid=257525> ausführlich erläutert.
+<div>
 
-## Siehe auch
+## <a name="office-web-apps-server"></a>Office Web Apps-Server
 
-#### Konzepte
+Um diese neuen Funktionen verwenden zu können, müssen Administratoren Office Web Apps Server installieren und lync Server 2013 für die Kommunikation mit Office Web Apps Server konfigurieren. Diese Dokumentation enthält Informationen zum Konfigurieren von lync Server 2013 für die Zusammenarbeit mit Office Web Apps Server. In dieser Dokumentation werden keine Informationen zur Installation von Office Web Apps Server bereitgestellt. Einzelheiten zur Installation finden Sie auf <http://go.microsoft.com/fwlink/p/?linkid=257525>der Microsoft Office Web Apps-Bereitstellungswebsite unter. Dieser Leitfaden enthält alle erforderlichen Informationen für Office Web Apps Server. Beachten Sie, dass der Office Web Apps-Server auf einem eigenständigen Computer installiert sein sollte, auf dem lync Server, SQL Server oder eine andere Serveranwendung nicht ausgeführt wird. (Auf diesem Computer darf keine Office-Version installiert sein.) Auf jedem Computer, auf dem Office Web Apps-Server ausgeführt wird, muss auch eine bestimmte Softwaregruppe installiert sein (einschließlich .NET Framework 4,5 und Windows PowerShell 3,0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internet Informationsdienste (IIS) werden ausführlich auf der Microsoft Office Web Apps-Bereitstellungswebsite unter <http://go.microsoft.com/fwlink/p/?linkid=257525>erläutert.
 
-[Übersicht über Webkonferenzen in Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  
-[Prüfliste zur Bereitstellung für Webkonferenzen in Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Übersicht über Webkonferenzen in lync Server 2013](lync-server-2013-web-conferencing-overview.md)  
+[Bereitstellungscheckliste für Webkonferenzen in lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,64 +1,105 @@
-﻿---
-title: Durchsuchen einer Bereitstellung auf potenzielle Probleme mithilfe von Best Practices Analyzer
-TOCTitle: Durchsuchen einer Bereitstellung auf potenzielle Probleme mithilfe von Best Practices Analyzer
-ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg591343(v=OCS.15)
-ms:contentKeyID: 49293116
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verwenden von Best Practices Analyzer zum Überprüfen Ihrer Bereitstellung auf potenzielle Probleme
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
+ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
+ms:contentKeyID: 48183359
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847357"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Durchsuchen einer Bereitstellung auf potenzielle Probleme mithilfe von Best Practices Analyzer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Verwenden von Best Practices Analyzer zum Durchsuchen Ihrer lync Server 2013-Bereitstellung nach potenziellen Problemen
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-21_
 
-Zum Ausführen einer Best Practices Analyzer-Überprüfung müssen Sie Folgendes angeben:
+Wenn Sie einen Best Practices Analyzer-Scan ausführen möchten, müssen Sie Folgendes angeben:
 
-  - **Anmeldeinformationen**   Zum Ausführen einer Überprüfung, müssen Sie sich mit einem Konto, das Mitglied der lokalen Gruppe "Administratoren" ist, an einem Computer anmelden, auf dem Best Practices Analyzer installiert ist. Außerdem müssen Sie sich mit einem Benutzerkonto anmelden, das über die erforderlichen Benutzerrechte und Berechtigungen verfügt, um die geeigneten Überprüfungen auszuführen, oder Sie müssen beim Ausführen von Best Practices Analyzer Anmeldeinformationen angeben, die über die erforderlichen Benutzerrechte und Berechtigungen verfügen. Ausführliche Informationen finden Sie unter [Voraussetzungen hinsichtlich Gruppenmitgliedschaften und Benutzerberechtigungen für Best Practices Analyzer](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Anmeldeinformationen**   Wenn Sie einen Scan durchführen möchten, müssen Sie sich bei einem Computer anmelden, auf dem Best Practices Analyzer installiert ist, indem Sie ein Konto verwenden, das Mitglied der lokalen Gruppe Administratoren ist. Darüber hinaus müssen Sie sich mit einem Benutzerkonto anmelden, das über die Benutzerrechte und Berechtigungen zum Ausführen der entsprechenden Scans verfügt, oder Sie müssen Anmeldeinformationen angeben, die über die entsprechenden Benutzerrechte und Berechtigungen verfügen, wenn Sie Best Practices Analyzer ausführen. Ausführliche Informationen finden Sie unter [Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Überprüfungsbereich**   Zum Festlegen des zu Überprüfungsbereichs wählen Sie die zu überprüfenden Kategorien und Server aus. Sie können alle, eine oder mehrere Kategorien sowie einen oder mehrere Server in einer bestimmten Kategorie in Ihrer Lync Server-Umgebung auswählen.
+  - **Scanbereich um**   den Scanbereich anzugeben, wählen Sie die Kategorien und Server aus, die Sie überprüfen möchten. Sie können alle Kategorien, eine oder mehrere Kategorien oder einen oder mehrere Server innerhalb einer bestimmten Kategorie in ihrer lync Server-Umgebung auswählen.
 
-  - **Überprüfungsart**   Derzeit ist als einzige Überprüfungsart die Integritätsprüfung verfügbar (standardmäßig ausgewählt). Die Integritätsprüfung generiert einen Bericht mit Fehlern, Warnungen und weiteren Informationen für alle Server, die sich im angegebenen Bereich befinden.
+  - **Art des Scans**   zurzeit ist der Integritäts Prüfungs Scan der einzige verfügbare Scantyp (standardmäßig aktiviert). Mit dem Integritäts Prüfungs Scan wird ein Bericht generiert, der Fehler, Warnungen und andere Informationen für alle im Bereich angegebenen Server enthält.
 
-  - **Netzwerkgeschwindigkeit**   Optionen für die Netzwerkgeschwindigkeit umfassen schnelles LAN (100 Mbit/s oder mehr), LAN (10 MBit/s), schnelles WAN (1,5 Mbit/s) oder WAN (64 Kbit/s). Die geschätzte Dauer der Überprüfung basiert auf dieser Einstellung. Zudem wird diese Einstellung auch zum Festlegen des Timeouts verwendet. Während der Überprüfung wartet der Best Practices Analyzer eine angegebene Zeitdauer auf eine Serverantwort. Erfolgt innerhalb des angegebenen Timeout-Zeitraums keine Antwort, wird zum nächsten Server in der Überprüfung gewechselt. In langsameren Netzwerken ist dieser Timeout-Zeitraum länger, um längere Netzwerklatenzen zu berücksichtigen. Wir empfehlen die Auswahl der langsamsten Verbindung in Ihrer Topologie für diesen Parameter, damit das Tool nicht zu schnell einen Timeout ausgibt.
+  - ****   Netzwerkgeschwindigkeit-Netzwerk Geschwindigkeitsoptionen umfassen schnelles LAN (100 Mbit/s oder mehr), LAN (10 Mbit/s), fast WAN (1,5 MBit/s) oder WAN (64 Kbit/s). Die geschätzte Zeit zum Durchführen des Scans basiert auf dieser Einstellung. Diese Einstellung wird auch zum Festlegen des Timeoutzeitraums verwendet. Während des Scans wartet der Best Practices Analyzer auf eine Antwort von einem Server für einen bestimmten Zeitraum. Wenn Sie innerhalb des angegebenen Timeoutzeitraums keine Antwort erhält, wechselt Sie zum nächsten Server in der Überprüfung. In langsameren Netzwerken ist dieser angegebene Timeoutzeitraum länger, um längere Netzwerk Latenzen zu berücksichtigen. Wir empfehlen, dass Sie den langsamsten Link in Ihrer Topologie für diesen Parameter auswählen, damit das Tool nicht zu schnell abläuft.
 
-## So führen Sie eine Überprüfung Ihrer Lync Server 2013-Bereitstellung durch
+<div>
 
-1.  Melden Sie sich an einem Computer an, auf dem Best Practices Analyzer installiert ist. Verwenden Sie dabei ein Konto, das Mitglied der lokalen Administratorengruppe ist und über weitere erforderliche Benutzerrechte und -berechtigungen verfügt.
+## <a name="to-scan-your-lync-server-2013-deployment"></a>So überprüfen Sie Ihre lync Server 2013-Bereitstellung
 
-2.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, klicken Sie auf **Microsoft Lync Server 2013** und dann auf **Best Practices Analyzer**.
+1.  Melden Sie sich bei einem Computer an, auf dem Best Practices Analyzer installiert ist, indem Sie ein Konto verwenden, das Mitglied der lokalen Gruppe Administratoren ist, und über andere erforderliche Benutzerrechte und Berechtigungen verfügt.
 
-3.  Klicken Sie auf der **Willkommensseite** auf **Optionen für neue Überprüfung auswählen**.
+2.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **Best Practices Analyzer**.
 
-4.  Überprüfen Sie auf der Seite **Mit Active Directory verbinden** den in **Active Directory-Server** angegebenen Namen, und führen Sie dann eine der folgenden Aktionen aus:
+3.  Klicken Sie auf der **Willkommens** Seite auf **Optionen für einen neuen Scan auswählen**.
+
+4.  Überprüfen Sie auf der Seite **mit Active Directory verbinden** den in **Active Directory Server**angegebenen Namen, und führen Sie dann eine der folgenden Aktionen aus:
     
-      - Zum Ausführen einer Überprüfung mit den Anmeldeinformationen, die Sie zur Anmeldung an Computer verwendet haben, klicken Sie auf **Mit Active Directory-Server verbinden**.
+      - Wenn Sie einen Scan mit den Anmeldeinformationen ausführen möchten, die Sie für die Anmeldung am Computer verwendet haben, klicken Sie auf mit **dem Active Directory-Server verbinden**.
     
-      - Zum Angeben verschiedener Anmeldeinformationen, die Sie für Active Directory Domain Services, Edgeserver oder Exchange Server verwenden möchten, klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**, aktivieren Sie alle Kontrollkästchen, für die separate Anmeldeinformationen erforderlich sind, geben Sie die Anmeldeinformationen für jedes aktivierte Kontrollkästchen an, und klicken Sie dann auf **Mit Active Directory-Server verbinden**.
+      - Wenn Sie andere Anmeldeinformationen angeben möchten, die Sie für Active Directory-Domänendienste, Edgeserver oder Exchange Server verwenden möchten, klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**, aktivieren Sie die einzelnen Kontrollkästchen, für die getrennte Anmeldeinformationen erforderlich sind, geben Sie die Anmeldeinformationen an. für jedes ausgewählte Kontrollkästchen aus, und klicken Sie dann auf **mit dem Active Directory-Server verbinden**.
     
-
-    > [!NOTE]
-    > Vor dem Beginn der Überprüfung führt Best Practices Analyzer eine Netzwerk- und Berechtigungsprüfung durch, um sicherzustellen, dass die angegebenen Kontoanmeldeinformationen gültig sind und Best Practices Analyzer eine Verbindung mit Active Directory Domain Services herstellen kann. Wird das Tool auf einem Arbeitsgruppenserver ausgeführt, überprüft es auch, ob eine Verbindung mit Edgeservern im Umkreisnetzwerk möglich ist (falls diese in die Überprüfung eingeschlossen sind).
-
-
-
-5.  Wählen Sie auf der Seite **Neue Bewährte Methoden-Überprüfung starten** die Optionen, die die Überprüfung umfassen soll, geben Sie die Netzwerkgeschwindigkeit an, und klicken Sie dann auf **Überprüfung starten**.
-
-6.  Klicken Sie auf der Seite **Überprüfung abgeschlossen** auf **Bericht für diese Bewährte Methoden-Überprüfung anzeigen**.
-
-7.  Führen Sie auf der Seite **Bewährte Methoden-Bericht anzeigen** einen der folgenden Schritte aus:
-    
-      - Zum Anzeigen von Berichten in einer nach Serverkomponente geordneten Liste klicken Sie auf **Listenberichte** und anschließend entweder auf die Registerkarte **Alle Probleme** oder **Informationselemente**.
-    
-      - Zum Anzeigen von Berichten als nach Ergebnistypen geordnete hierarchische Liste klicken Sie auf **Strukturberichte** und anschließend entweder auf die Registerkarte **Detaillierte Ansicht** oder **Zusammenfassungsansicht**.
-    
-      - Klicken Sie zum Anzeigen anderer Berichte auf **Andere Berichte**.
+    <div>
     
 
     > [!NOTE]
-    > Nähere Informationen zu Best Practices Analyzer-Berichten und den darin identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Anzeigen und Verwenden von Berichten, die von Best Practices Analyzer erstellt wurden</A> und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden</A>.
+    > Vor Beginn des Scans führt Best Practices Analyzer eine Netzwerk-und Berechtigungsüberprüfung durch, um sicherzustellen, dass die angegebenen Kontoanmeldeinformationen gültig sind und dass Best Practices Analyzer eine Verbindung mit Active Directory-Domänendiensten herstellen kann. Wenn das Tool auf einem Arbeitsgruppenserver ausgeführt wird, überprüft das Tool auch, ob es eine Verbindung mit Edgeserver im Umkreisnetzwerk herstellen kann (das heißt, wenn Sie in der Überprüfung enthalten sind).
 
+    
+    </div>
+
+5.  Wählen Sie auf der Seite **neue Best Practices-Überprüfung starten** die Optionen aus, die Sie in die Überprüfung einbeziehen möchten, geben Sie die Netzwerkgeschwindigkeit an, und klicken Sie dann auf über **Prüfung starten**.
+
+6.  Klicken Sie auf der Seite **Scan abgeschlossen** auf **Bericht anzeigen dieser bewährten Methoden Überprüfung**.
+
+7.  Führen Sie auf der Seite " **Best Practices-Bericht anzeigen** " eine der folgenden Aktionen aus:
+    
+      - Klicken Sie auf **Listen Berichte**, und klicken Sie dann entweder auf die Registerkarte **alle Probleme** oder auf die Registerkarte **Informationselemente** , um Berichte in einer nach Serverkomponente organisierten Liste anzuzeigen.
+    
+      - Klicken Sie auf **Strukturberichte**, und klicken Sie dann entweder auf die Registerkarte **detaillierte Ansicht** oder auf die Registerkarte **Zusammenfassungsansicht** , um Berichte als hierarchische Liste anzuzeigen, die nach Arten von Ergebnissen sortiert ist.
+    
+      - Wenn Sie andere Berichte anzeigen möchten, klicken Sie auf **Weitere Berichte**.
+    
+    <div>
+    
+
+    > [!NOTE]
+    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer identifiziert werden. in lync Server 2013</A>.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

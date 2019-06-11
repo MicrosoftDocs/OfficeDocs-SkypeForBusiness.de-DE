@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558667(v=OCS.15)
-ms:contentKeyID: 49294491
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)
+ms:contentKeyID: 48184571
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: c24f963b34ef6184675e724496d7d45ca1d40d27
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847627"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipal in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblprincipal-in-lync-server-2013"></a>tblPrincipal in Lync Server 2013
 
-Die Tabelle "tblPrincipal" enthält alle Prinzipale, einschließlich Benutzern, Ordnern und Gruppen.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblPrincipal enthält alle Prinzipale, einschließlich Benutzern, Ordnern und Gruppen.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -36,102 +56,102 @@ Die Tabelle "tblPrincipal" enthält alle Prinzipale, einschließlich Benutzern, 
 <tr class="odd">
 <td><p>prinID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID</p></td>
+<td><p>Prinzipal-ID.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
 <td><p>GUID, nicht NULL</p></td>
-<td><p>Die GUID des Prinzipals. Diese wird allgemein als alternativer Primärschlüssel verwendet, da sie auch im Active Directory-Domänendienste-Bereich von Bedeutung ist. (Die GUID für einen zwischengespeicherten Prinzipal ist mit der entsprechenden Objekt-GUID in Active Directory identisch.)</p></td>
+<td><p>Prinzipal-GUID. Dies wird im Allgemeinen als alternativer Primärschlüssel verwendet, da dessen Bedeutung in den Bereich der Active Directory-Domänendienste überschritten wird. (Die GUID für einen zwischengespeicherten Prinzipal entspricht der entsprechenden GUID des Active Directory-Objekts.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
-<td><p>nvarchar (256), nicht NULL</p></td>
-<td><p>Der URI des Prinzipals. Für Benutzer wird das SIP-Schema verwendet, für fast alles andere das ma-grp-Schema.</p></td>
+<td><p>nvarchar (256); nicht NULL</p></td>
+<td><p>Prinzipal-URI. Das SIP-Schema wird für Benutzer verwendet, und MA-GRP wird für fast alles andere verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Der allgemeine Name. Wird nur von Benutzertypen verwendet.</p></td>
+<td><p>Allgemeiner Name Wird nur von Benutzertypen verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinDisplayName</p></td>
 <td><p>Nvarchar (256)</p></td>
-<td><p>Der Anzeigename. Wird nur von Benutzertypen verwendet.</p></td>
+<td><p>Anzeigename Wird nur von Benutzertypen verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinCompanyName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Der Firmenname. Wird nur von Benutzertypen verwendet.</p></td>
+<td><p>Name des Unternehmens. Wird nur von Benutzertypen verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinEmail</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Die E-Mail-Adresse. Wird nur von Benutzertypen verwendet.</p></td>
+<td><p>E-Mail. Wird nur von Benutzertypen verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
 <td><p>nvarchar (384)</p></td>
-<td><p>Der Domänenname des Active Directory-Objekts, von dem der Prinzipal eine zwischengespeicherte Version ist. Kann für Typen, die keine Active Directory-Objekte sind (z. B. Systembenutzer), null sein.</p></td>
+<td><p>Der Domänenname des Active Directory-Objekts, in dem der Prinzipal eine zwischengespeicherte Version von ist. Kann NULL für Typen sein, die keine Active Directory-Objekte (wie Systembenutzer) sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinADUserPrincipalName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers. Wird nur von regulären Benutzertypen verwendet.</p></td>
+<td><p>Benutzerprinzipalname (User Principal Name, UPN) des Benutzers. Wird nur von normalen Benutzertypen verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDisabled</p></td>
 <td><p>smallint, nicht NULL</p></td>
 <td><ul>
-<li><p>0: Der Prinzipal ist aktiv.</p></li>
-<li><p>1: Der Prinzipal ist deaktiviert, weil die SIP-Funktionen für den Benutzer deaktiviert sind.</p></li>
-<li><p>2: Der Prinzipal wird gelöscht, da das zugehörige AD-Objekt gelöscht wird.</p></li>
+<li><p>0: Principal ist aktiv.</p></li>
+<li><p>1: Principal ist deaktiviert, da die SIP-Funktionen des Benutzers deaktiviert sind.</p></li>
+<li><p>2: Principal wird gelöscht, weil das zugeordnete anzeigen Objekt gelöscht wurde.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>prinTypeID</p></td>
 <td><p>smallint, nicht NULL</p></td>
-<td><p>Der Prinzipaltyp (aus der Tabelle &quot;tblPrincipalType&quot;).</p></td>
+<td><p>Principal Type (aus tblPrincipalType-Tabelle).</p></td>
 </tr>
 <tr class="even">
 <td><p>prinPoolID</p></td>
 <td><p>Int</p></td>
-<td><p>Lync-Poolzuordnung für den Prinzipal.</p></td>
+<td><p>Lync-Pool Aufgabe für den Prinzipal.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinPolicyID</p></td>
 <td><p>Int</p></td>
-<td><p>Server für beständigen Chat-Richtlinienwert für den Benutzer, wenn eine Tagtyprichtlinie vorhanden ist.</p></td>
+<td><p>Server Richtlinienwert des beständigen Chats für Benutzer, wenn die Kategorie-typrichtlinie vorhanden ist.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAddedBy</p></td>
 <td><p>int</p></td>
-<td><p>Die Prinzipal-ID des Erstellers.</p></td>
+<td><p>Prinzipal-ID des Erstellers.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAddedOn</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Der Zeitstempel für den Zeitpunkt der Erstellung.</p></td>
+<td><p>Zeitstempel für die Erstellungszeit.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinUpdatedBy</p></td>
 <td><p>int</p></td>
-<td><p>Die ID des Prinzipals, der dieses Element zuletzt aktualisiert hat.</p></td>
+<td><p>Die ID des Prinzipals, der diesen zuletzt aktualisiert hat.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUpdatedOn</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Der Zeitstempel für die letzte Aktualisierung.</p></td>
+<td><p>Zeitstempel für das letzte Update.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinVerifiedOn</p></td>
-<td><p>datetime, nicht NULL</p></td>
+<td><p>DateTime, nicht NULL</p></td>
 <td><p>Datum und Uhrzeit der letzten Aktualisierung der Active Directory-Synchronisierung für den Prinzipal.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="keys"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -151,8 +171,19 @@ Die Tabelle "tblPrincipal" enthält alle Prinzipale, einschließlich Benutzern, 
 </tr>
 <tr class="even">
 <td><p>prinTypeID</p></td>
-<td><p>Fremdschlüssel mit Suche in der Tabelle &quot; tblPrincipalType.ptypeID&quot;.</p></td>
+<td><p>Fremdschlüssel mit Lookup in der tblPrincipalType. ptypeID-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

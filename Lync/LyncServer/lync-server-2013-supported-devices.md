@@ -1,29 +1,53 @@
-﻿---
-title: Unterstützte Geräte
-TOCTitle: Unterstützte Geräte
-ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205105(v=OCS.15)
-ms:contentKeyID: 49294856
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützte Geräte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported devices
+ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)
+ms:contentKeyID: 48184882
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7247d295a7807bf2a1f6970412384ce6006a2b89
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847679"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützte Geräte
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="supported-devices-in-lync-server-2013"></a>Unterstützte Geräte in lync Server 2013
 
-Lync Server unterstützt alle in der folgenden Tabelle aufgeführten Telefone. Beachten Sie, dass nicht alle unterstützten Telefone Lync Phone Edition ausführen können (einige können nur frühere Versionen ausführen). In der Tabelle erfahren Sie, welche Telefone Lync Phone Edition ausführen können und wo Sie ausführliche Informationen zu allen unterstützten Telefonen finden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+
+Lync Server unterstützt alle Telefone, die in der folgenden Tabelle aufgeführt sind. Beachten Sie, dass nicht alle unterstützten Telefone lync Phone Edition ausführen können (einige können nur frühere Versionen ausführen). Verwenden Sie die Tabelle, um zu erfahren, welche Telefone lync Phone Edition ausführen können und wo Sie detaillierte Informationen zu allen unterstützten Telefonen erhalten.
+
+<div>
 
 
-> [!NOTE]
-> Es werden drei Telefontypen unterstützt: Tischtelefone (Handset-IP-Telefone oder USB-Geräte, die Mitarbeiter am Schreibtisch nutzen), Konferenzgeräte (IP- oder USB-Telefone mit Freisprechvorrichtung, die zur Verwendung in Besprechungsräumen entworfen sind) und analoge Telefone (IP-Telefone, die zur Verwendung in gemeinschaftlich verwendeten Bereichen gedacht sind – z. B. Lobby, Küche, Werkhallen und gemeinsam verwendete Arbeitsbereiche – und für verschiedene Lync Phone Edition-Funktionen angepasst werden können.
+> [!NOTE]  
+> Es werden drei Arten von Telefonen unterstützt: Telefonapparate (IP-oder USB-Geräte, die für die Verwendung durch die Mitarbeiter am Arbeitsplatz vorgesehen sind), Konferenzgeräte (Freisprech-IP-oder USB-Telefone, die für die Verwendung in Besprechungsräumen vorgesehen sind) sowie Telefone im öffentlichen Bereich (IP-Telefone, die sind für die Verwendung in freigegebenen Bereichen wie Lobbies, Küchen, Factory Floors und freigegebenen Arbeitsbereichen konzipiert und können angepasst werden, um unterschiedliche Gruppen von lync Phone Edition-Features bereitzustellen.
 
 
 
-Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync optimiert sind, finden Sie im Beitrag "Phones and Devices Qualified for Microsoft Lync" unter [http://go.microsoft.com/fwlink/?linkid=208938\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x407). Die Telefonvergleichstabellen auf dieser Website enthalten Preisangaben und technische Daten.
+</div>
+
+Detaillierte Vergleichstabellen zu allen Geräten, die für die Zusammenarbeit mit lync optimiert sind, finden Sie unter "für Microsoft lync qualifizierte Telefone <http://go.microsoft.com/fwlink/p/?linkid=208938>und Geräte". Die Telefon Vergleichstabellen auf dieser Website beinhalten Preisinformationen und technische Daten.
 
 
 <table>
@@ -35,7 +59,7 @@ Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync opti
 <thead>
 <tr class="header">
 <th>Telefon</th>
-<th>Führt Lync Phone Edition aus</th>
+<th>Ausführen von lync Phone Edition</th>
 <th>Weitere Informationen</th>
 </tr>
 </thead>
@@ -43,26 +67,26 @@ Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync opti
 <tr class="odd">
 <td><p>Aastra 6721ip-Telefon für öffentliche Bereiche</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">Download von Aastra 6721ip</a> von der Aastra-Website</p></td>
+<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">Herunterladen von Aastra 6721ip</a> auf der Aastra-Website</p></td>
 </tr>
 <tr class="even">
 <td><p>Aastra 6725ip-Tischtelefon</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=12991">Download von Aastra 6725ip</a> von der Aastra-Website</p></td>
+<td><p><a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=12991">Herunterladen von Aastra 6725ip</a> auf der Aastra-Website</p></td>
 </tr>
 <tr class="odd">
 <td><p>IP-Telefon HP 4110 (Telefon für öffentliche Bereiche)</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%26cc=us%26prodtypeid=12883%26prodseriesid=5171755">HP 4110 IP-Telefonserie</a> auf der HP-Website</p></td>
+<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">HP 4110 IP-Telefon Serie</a> auf der HP-Website</p></td>
 </tr>
 <tr class="even">
 <td><p>IP-Telefon HP 4120 (Telefonapparat)</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%26cc=us%26prodtypeid=12883%26prodseriesid=5204220">HP 4120 IP-Telefonserie</a> auf der HP-Website</p></td>
+<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">HP 4120 IP-Telefon Serie</a> auf der HP-Website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX300-USB-Tischtelefon</p></td>
-<td><p></p></td>
+<td></td>
 <td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> auf der Polycom-Website</p></td>
 </tr>
 <tr class="even">
@@ -77,7 +101,7 @@ Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync opti
 </tr>
 <tr class="even">
 <td><p>Polycom CX700-IP-Tischtelefon</p></td>
-<td><p></p></td>
+<td></td>
 <td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> auf der Polycom-Website</p></td>
 </tr>
 <tr class="odd">
@@ -87,15 +111,30 @@ Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync opti
 </tr>
 <tr class="even">
 <td><p>Polycom CX5000-USB-Konferenztelefon</p></td>
-<td><p></p></td>
+<td></td>
 <td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> auf der Polycom-Website</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-> [!NOTE]
-> Es werden auch Analoggeräte unterstützt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x407">Planen der Bereitstellung von analogen Geräten</A> in der Lync Server 2010 TechNet-Bibliothek. (Lync Phone Edition arbeitet in Lync Server 2013 und Lync Server 2010 auf die gleiche Weise).
 
+> [!NOTE]  
+> Unterstützung für analoge Geräte wird ebenfalls bereitgestellt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planen der Bereitstellung von analogen Geräten</A> in der lync Server 2010 TechNet-Bibliothek. (Lync Phone Edition funktioniert auf die gleiche Weise in lync Server 2013 und lync Server 2010).
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

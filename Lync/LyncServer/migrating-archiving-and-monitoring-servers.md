@@ -1,35 +1,68 @@
-﻿---
-title: Migrieren von Archivierungsservern und Monitoring Servern
-TOCTitle: Migrieren von Archivierungsservern und Monitoring Servern
-ms:assetid: 77831579-df45-4697-b8c5-207b74a07a40
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205015(v=OCS.15)
-ms:contentKeyID: 49294464
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren von Archivierungsservern und Monitoring Servern
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating Archiving and Monitoring servers
+ms:assetid: 77831579-df45-4697-b8c5-207b74a07a40
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205015(v=OCS.15)
+ms:contentKeyID: 48184550
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 901961ad7456dfd8b0340cba03ff44a9e77a147f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847117"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von Archivierungsservern und Monitoring Servern
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungsservern und Monitoring Servern
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
-Wenn Sie einen Archivierungsserver und Monitoring Server in Ihrer Lync Server 2010-Umgebung bereitgestellt haben, können Sie diese Server nach der Migration Ihrer Front-End-Pools in Ihrer Lync Server 2013-Umgebung bereitstellen. Wenn Archivierungs- und Überwachungsfunktionen in Ihrer Organisation jedoch entscheidend sind, sollten Sie Ihrem Lync Server 2013-Pilotpool vor der Migration Archivierungsserver und Monitoring Server hinzufügen, damit diese Funktionen auch während des Migrationsvorgangs zur Verfügung stehen.
+Wenn Sie den Archivierungsserver und den Monitoring Server in ihrer lync Server 2010-Umgebung bereitgestellt haben, können Sie diese Server in ihrer lync Server 2013-Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs-und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie jedoch dem lync Server 2013-Pilot Pool Archivierungs-und Überwachungsvorgänge hinzufügen, bevor Sie migrieren, damit die Funktionalität während des Migrationsprozesses zur Verfügung steht.
 
-Wenn Sie während des Migrationsvorgangs Archivierungs- und Überwachungsfunktionen benötigen, sollten Sie die folgenden Aspekte berücksichtigen:
+Wenn Sie während des Migrationsprozesses Archivierungs-und Überwachungsfunktionen wünschen, sollten Sie die folgenden Aspekte berücksichtigen:
 
-  - Archivierungs- und Überwachungsdaten werden nicht in die Lync Server 2013-Bereitstellung verschoben. Die Daten, die Sie vor der Außerbetriebsetzung der Vorversionsumgebung sichern, sind Bestandteil der aufgezeichneten Aktivitäten der Lync Server 2010-Umgebung.
+  - Archivierungsdaten und Überwachungsdaten werden nicht in die lync Server 2013-Bereitstellung verschoben. Die Daten, die Sie vor dem Stilllegen der Legacyumgebung sichern, sind Ihr Aktivitätsverlauf in der lync Server 2010-Umgebung.
 
-  - Die Lync Server 2010-Version des Archivierungsservers und Monitoring Servers kann nur einem Lync Server 2010-Front-End-Pool zugeordnet werden. Unter Lync Server 2013 werden Archivierung und Monitoring nicht mehr als Serverrollen behandelt, sondern als in den Lync Server 2013-Front-End-Pool integrierte Dienste.
+  - Die lync Server 2010-Version des Archivierungsservers und des Überwachungsservers kann nur einem lync Server 2010-Front-End-Pool zugeordnet werden. In lync Server 2013 sind Archivierung und Überwachung keine Server Rollen mehr, sondern Dienste, die in den Front-End-Pool von lync Server 2013 integriert sind.
 
-  - Während der Koexistenz der Vorversionsbereitstellung und der Lync Server 2013-Bereitstellung sammelt die Lync Server 2010-Version des Archivierungsservers und Monitoring Servers Daten von Benutzern, die in Lync Server 2010-Pools verwaltet werden. Unter Lync Server 2013 werden vom Archivierungsserver und vom Monitoring Server Daten von Benutzern gesammelt, die in Lync Server 2013-Pools verwaltet werden.
+  - In der Zeit, in der Ihre Legacy-und lync Server 2013-Bereitstellungen koexistieren, sammeln die lync Server 2010-Version des Archivierungsservers und des Überwachungsservers Daten für Benutzer, die in lync Server 2010-Pools verwaltet werden. Archivierung und Überwachung in lync Server 2013 sammeln Daten für Benutzer, die in lync Server 2013-Pools verwaltet werden.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie während des Migrationsvorgangs den Edgeserver der Vorversion noch zusammen mit dem neuen Lync Server 2013-Pilotpool verwenden, sammelt die Lync Server 2010-Version des Archivierungsservers noch immer Daten von Benutzern, die in Lync Server 2010-Pools verwaltet werden, und unter Lync Server 2013 werden vom Archivierungsserver noch Daten von Benutzern gesammelt, die in Lync Server 2013-Pools verwaltet werden.
+    > [!NOTE]  
+    > Während der Migrationsphase, wenn Sie Ihren Legacy-Edgeserver weiterhin mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die lync Server 2010-Version des Archivierungsservers weiterhin Daten für Benutzer, die in lync Server 2010-Pools und-Archivierung in lync Server 2013 verwaltet werden. sammelt Daten für Benutzer, die in lync Server 2013-Pools verwaltet werden.
 
+    
+    </div>
 
+  - Wenn Sie eine Archivierungs-und Überwachungslösung eines Drittanbieters in Verbindung mit der Archivierung und Überwachung in lync Server 2013 verwenden, wenden Sie sich an Ihren Anbieter, wann und wie Sie die Lösung eines Drittanbieters in lync Server 2013 integrieren müssen.
 
-  - Bei Verwendung der Archivierungs- und Überwachungslösung eines Drittanbieters zusammen mit dem Archivierungsserver und Monitoring Server unter Lync Server 2013 besprechen Sie mit Ihrem Anbieter, wann und wie die Drittanbieterlösung mit Lync Server 2013 integriert werden sollte.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

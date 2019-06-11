@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Unterstützte Active Directory-Topologien'
-TOCTitle: Unterstützte Active Directory-Topologien
-ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398173(v=OCS.15)
-ms:contentKeyID: 49293154
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützte Active Directory-Topologien'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported Active Directory topologies
+ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
+ms:contentKeyID: 48183391
+ms.date: 10/02/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847688"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützte Active Directory-Topologien in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Unterstützte Active Directory-Topologien in Lync Server 2013
 
-Lync Server 2013 unterstützt dieselben Active Directory-Domänendienste-Topologien wie Microsoft Lync Server 2010 und Microsoft Office Communications Server 2007 R2. Folgende Topologien werden unterstützt:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-10-02_
+
+Lync Server 2013 unterstützt dieselben Active Directory-Domänendienste-Topologien wie Microsoft lync Server 2010 und Microsoft Office Communications Server 2007 R2. Die folgenden Topologien werden unterstützt:
 
   - Einzelne Gesamtstruktur mit einzelner Domäne
 
@@ -27,93 +47,127 @@ Lync Server 2013 unterstützt dieselben Active Directory-Domänendienste-Topolog
 
   - Mehrere Gesamtstrukturen in einer Topologie mit Ressourcengesamtstruktur
 
-  - Mehrere Gesamtstrukturen in einer Lync-Ressourcengesamtstruktur-Topologie mit Exchange Online
+  - Mehrere Gesamtstrukturen in einer lync-Ressourcengesamtstruktur-Topologie mit Exchange Online
 
-Nachfolgend werden die in den Abbildungen in diesem Abschnitt verwendeten Symbole erläutert.
+In der folgenden Abbildung sind die Symbole aufgeführt, die in den Illustrationen in diesem Abschnitt verwendet werden.
 
-**Legende zu den Topologieabbildungen**
+**Schlüssel zu Topologie-Illustrationen**
 
-![Legende zu den Topologieabbildungen](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Legende zu den Topologieabbildungen")
+![Schlüssel zu Topologie] -Illustrationen (images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Schlüssel zu Topologie") -Illustrationen
 
-## Einzelne Gesamtstruktur, einzelne Domäne
+<div>
 
-Die einfachste der von Lync Server unterstützten Active Directory-Topologien, eine Gesamtstruktur mit einer einzelnen Domäne, ist eine häufig verwendete Topologie.
+## <a name="single-forest-single-domain"></a>Einzelne Gesamtstruktur, einzelne Domäne
 
-In der folgenden Abbildung ist eine Lync Server-Bereitstellung in einer Active Directory-Topologie mit einer einzelnen Domäne dargestellt.
+Die einfachste Active Directory-Topologie, die von lync Server, einer einzelnen Domänengesamtstruktur, unterstützt wird, ist eine allgemeine Topologie.
+
+Die folgende Abbildung zeigt eine lync Server-Bereitstellung in einer einzelnen Active Directory-Domänentopologie.
 
 **Topologie mit einer einzelnen Domäne**
 
-![Topologie mit einer einzelnen Domäne](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie mit einer einzelnen Domäne")
+![Topologie einer einzelnen Domäne] (images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie einer einzelnen Domäne")
 
-## Einzelne Gesamtstruktur, mehrere Domänen
+</div>
 
-Eine weitere von Lync Server unterstützte Active Directory-Topologie besteht aus einer einzelnen Gesamtstruktur mit einer Stammdomäne und einer oder mehreren untergeordneten Domänen. Bei dieser Art von Active Directory-Topologie kann sich die Domäne, in der Sie Benutzer erstellen, von der Domäne unterscheiden, in der Sie Lync Server bereitstellen. Wenn Sie jedoch einen Front-End-Pool bereitstellen, müssen Sie alle Front-End-Server im Pool innerhalb einer einzelnen Domäne bereitstellen. Die Lync Server-Unterstützung von universellen Windows-Administratorgruppen ermöglicht eine domänenübergreifende Verwaltung.
+<div>
 
-Die folgende Abbildung zeigt eine Bereitstellung in einer einzelnen Gesamtstruktur mit mehreren Domänen. In dieser Abbildung kennzeichnet ein Benutzersymbol die Domäne, in der das Benutzerkonto verwaltet wird, und der Pfeil verweist auf die Domäne, in der sich der Lync Server-Pool befindet. Es gibt folgende Benutzerkonten:
+## <a name="single-forest-multiple-domains"></a>Einzelne Gesamtstruktur, mehrere Domänen
 
-  - Benutzerkonten innerhalb derselben Domäne wie der Lync Server-Pool
+Eine andere von lync Server unterstützte Active Directory-Topologie ist eine einzelne Gesamtstruktur, die aus einer Stammdomäne und einer oder mehreren untergeordneten Domänen besteht. Bei dieser Art von Active Directory-Topologie kann sich die Domäne, in der Sie Benutzer erstellen, von der Domäne unterscheiden, in der Sie lync Server bereitstellen. Wenn Sie jedoch einen Front-End-Pool bereitstellen, müssen Sie alle Front-End-Server im Pool innerhalb einer einzigen Domäne bereitstellen. Die lync Server-Unterstützung für universelle Windows-Administratorgruppen ermöglicht die domänenübergreifende Verwaltung.
 
-  - Benutzerkonten in einer anderen Domäne als der Lync Server-Pool
+Die folgende Abbildung zeigt eine Bereitstellung in einer einzelnen Gesamtstruktur mit mehreren Domänen. In dieser Abbildung zeigt ein Benutzersymbol die Domäne an, in der sich das Benutzerkonto befindet, und der Pfeil verweist auf die Domäne, in der sich der lync-Server Pool befindet. Zu den Benutzerkonten gehören die folgenden:
 
-  - Benutzerkonten in einer untergeordneten Domäne der Domäne mit dem Lync Server-Pool
+  - Benutzerkonten innerhalb der gleichen Domäne wie der lync-Server Pool
+
+  - Benutzerkonten in einer anderen Domäne als dem lync-Server Pool
+
+  - Benutzerkonten in einer untergeordneten Domäne der Domäne mit dem lync-Server Pool
 
 **Einzelne Gesamtstruktur mit mehreren Domänen**
 
-![Einzelne Gesamtstruktur mit mehreren Domänen](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Einzelne Gesamtstruktur mit mehreren Domänen")
+![Einzelne Gesamtstruktur mit mehreren Domänen] (images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Einzelne Gesamtstruktur mit mehreren Domänen")
 
-## Einzelne Gesamtstruktur, mehrere Strukturen
+</div>
 
-Eine Gesamtstruktur mit mehreren Strukturen besteht aus zwei oder mehr Domänen, die unabhängige Strukturen und separate Active Directory-Namespaces definieren.
+<div>
 
-In der folgenden Abbildung wird eine einzelne Gesamtstruktur mit mehreren Strukturen veranschaulicht. In dieser Abbildung kennzeichnet ein Benutzersymbol die Domäne, in der das Benutzerkonto verwaltet wird. Eine durchgezogene Linie zeigt auf den Lync Server-Pool, der sich in derselben oder einer anderen Domäne befindet, und eine gestrichelte Linie zeigt auf einen Lync Server-Pool, der sich in einer anderen Struktur befindet. Es gibt folgende Benutzerkonten:
+## <a name="single-forest-multiple-trees"></a>Einzelne Gesamtstruktur, mehrere Strukturen
 
-  - Benutzerkonten innerhalb derselben Domäne wie der Lync Server-Pool
+Eine Topologie mit mehreren Strukturen besteht aus zwei oder mehr Domänen, die unabhängige Struktur Strukturen und separate Active Directory-Namespaces definieren.
 
-  - Benutzerkonten in einer anderen Domäne als der Lync Server-Pool (aber in derselben Struktur)
+Die folgende Abbildung zeigt eine einzelne Gesamtstruktur mit mehreren Strukturen. In dieser Abbildung zeigt ein Benutzersymbol die Domäne an, in der sich das Benutzerkonto befindet, eine durchgezogene Linie verweist auf einen lync-Serverpool, der sich in derselben oder einer anderen Domäne befindet, und eine gestrichelte Linie verweist auf den lync-Serverpool, der sich in einer anderen Struktur befindet. Zu den Benutzerkonten gehören die folgenden:
 
-  - Benutzerkonten in einer anderen Struktur als der Lync Server-Pool
+  - Benutzerkonten innerhalb der gleichen Domäne wie der lync-Server Pool
+
+  - Benutzerkonten in einer anderen Domäne als der lync-Server Pool (aber dieselbe Struktur wie)
+
+  - Benutzerkonten in einer anderen Struktur aus dem lync-Server Pool
 
 **Einzelne Gesamtstruktur mit mehreren Strukturen**
 
-![Einzelne Gesamtstruktur mit mehreren Strukturen](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Einzelne Gesamtstruktur mit mehreren Strukturen")
+![Einzelne Gesamtstruktur mit mehreren Strukturen] (images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Einzelne Gesamtstruktur mit mehreren Strukturen")
 
-## Mehrere Gesamtstrukturen, zentrale Gesamtstruktur
+</div>
 
-Lync Server unterstützt mehrere Gesamtstrukturen, die in einer Topologie mit zentraler Gesamtstruktur konfiguriert sind. In Topologien mit zentraler Gesamtstruktur werden Kontaktobjekte in der zentralen Gesamtstruktur dazu verwendet, Benutzer in den anderen Gesamtstrukturen darzustellen. In der zentralen Gesamtstruktur werden auch die Benutzerkonten von anderen Benutzern in dieser Gesamtstruktur gehostet. Ein Produkt zur Verzeichnissynchronisierung, wie z. B. Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), verwaltet den Lebenszyklus von Benutzerkonten innerhalb Ihrer Organisation: Wenn ein neues Benutzerkonto in einer der Gesamtstrukturen erstellt wird oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Programm zur Verzeichnissynchronisierung den entsprechenden Kontakt in der zentralen Gesamtstruktur.
+<div>
+
+## <a name="multiple-forests-central-forest"></a>Mehrere Gesamtstrukturen, zentrale Gesamtstruktur
+
+Lync Server unterstützt mehrere Gesamtstrukturen, die in einer zentralen Gesamtstrukturtopologie konfiguriert sind. Zentrale Gesamtstruktur Topologien verwenden Kontaktobjekte in der zentralen Gesamtstruktur, um Benutzer in den anderen Gesamtstrukturen darzustellen. Die zentrale Gesamtstruktur hostet auch Benutzerkonten für alle Benutzer in dieser Gesamtstruktur. Ein Verzeichnis Synchronisierungs Produkt wie Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) verwaltet den Lebenszyklus von Benutzerkonten innerhalb die Organisation: Wenn ein neues Benutzerkonto in einer der Gesamtstrukturen erstellt oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Verzeichnis Synchronisierungs Produkt den entsprechenden Kontakt in der zentralen Gesamtstruktur.
 
 Eine zentrale Gesamtstruktur bietet die folgenden Vorteile:
 
-  - Server mit Lync Server werden in einer einzelnen Gesamtstruktur zentralisiert.
+  - Server mit lync Server werden innerhalb einer einzigen Gesamtstruktur zentralisiert.
 
-  - Benutzer können nach anderen Benutzern in einer beliebigen Gesamtstruktur suchen oder mit ihnen kommunizieren.
+  - Benutzer können in jeder Gesamtstruktur nach anderen Benutzern suchen und mit Ihnen kommunizieren.
 
-  - Benutzer können Anwesenheitsinformationen zu anderen Benutzern in einer beliebigen Gesamtstruktur anzeigen.
+  - Benutzer können die Anwesenheit anderer Benutzer in einer beliebigen Gesamtstruktur anzeigen.
 
-  - Das Produkt zur Verzeichnissynchronisierung automatisiert das Hinzufügen und Löschen von Kontaktobjekten in der zentralen Gesamtstruktur, wenn Benutzerkonten erstellt oder entfernt werden.
+  - Das Verzeichnis Synchronisierungs Produkt automatisiert das Hinzufügen und Löschen von Kontaktobjekten in der zentralen Gesamtstruktur, wenn Benutzerkonten erstellt oder entfernt werden.
 
-Die folgende Abbildung zeigt eine Topologie mit zentraler Gesamtstruktur. In dieser Abbildung gibt es bidirektionale Vertrauensstellungen zwischen der Domäne, in der Lync Server gehostet wird (die zentrale Gesamtstruktur), und den einzelnen Domänen nur für Benutzer, die sich in einer separaten Gesamtstruktur befinden. Das Schema in den separaten Benutzergesamtstrukturen muss nicht erweitert werden.
+Die folgende Abbildung veranschaulicht eine zentrale Gesamtstrukturtopologie. In dieser Abbildung gibt es bidirektionale Vertrauensstellungen zwischen der Domäne, die lync Server hostet, die sich in der zentralen Gesamtstruktur befindet, und jeder Benutzerdomäne, die sich in einer separaten Gesamtstruktur befindet. Das Schema in den separaten Benutzergesamtstrukturen muss nicht erweitert werden.
 
-**Topologie mit einer zentralen Gesamtstruktur**
+**Zentrale Gesamtstrukturtopologie**
 
-![Topologie mit einer zentralen Gesamtstruktur](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologie mit einer zentralen Gesamtstruktur")
+![Zentrale Gesamtstrukturtopologie] (images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Zentrale Gesamtstrukturtopologie")
 
-## Mehrere Gesamtstrukturen, Ressourcengesamtstruktur
+</div>
 
-In einer Topologie mit Ressourcengesamtstruktur wird eine Gesamtstruktur ausgeführten Serveranwendungen, z. B. Microsoft Exchange Server und Lync Server, zugeordnet. Die Ressourcengesamtstruktur hostet die Serveranwendungen sowie eine synchronisierte Darstellung des aktiven Benutzerobjekts, enthält jedoch keine für die Anmeldung aktivierten Benutzerkonten. Die Ressourcengesamtstruktur fungiert als Umgebung für freigegebene Dienste für die weiteren Gesamtstrukturen, in denen sich Benutzerobjekte befinden. Zwischen den Benutzergesamtstrukturen und der Ressourcengesamtstruktur besteht eine Vertrauensstellung auf Gesamtstrukturebene. Wenn Sie Lync Server in dieser Art von Topologie bereitstellen, erstellen Sie für jedes Benutzerkonto in den Benutzergesamtstrukturen ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur. Wenn Microsoft Exchange bereits in der Ressourcengesamtstruktur bereitgestellt wurde, sind die deaktivierten Benutzerkonten möglicherweise bereits vorhanden. Ein Produkt zur Verzeichnissynchronisierung, wie z. B. Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), verwaltet den Lebenszyklus von Benutzerkonten innerhalb Ihrer Organisation. Wenn ein neues Benutzerkonto in einer der Benutzerstrukturen erstellt wird oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Programm zur Verzeichnissynchronisierung das entsprechende Benutzerobjekt in der Ressourcengesamtstruktur.
+<div>
 
-Diese Topologie kann verwendet werden, um eine freigegebene Infrastruktur für Dienste in Organisationen bereitzustellen, in denen mehrere Gesamtstrukturen verwaltet werden, oder um die Verwaltung von Active Directory-Objekten von anderen Verwaltungsaufgaben zu trennen. Diese Topologie wird häufig von Unternehmen eingesetzt, die die Active Directory-Verwaltung aus Sicherheitsgründen isolieren müssen.
+## <a name="multiple-forests-resource-forest"></a>Mehrere Gesamtstrukturen, Ressourcengesamtstruktur
 
-Diese Topologie bietet den Vorteil, dass das Active Directory-Schema lediglich in einer einzelnen Gesamtstruktur (der Ressourcengesamtstruktur) erweitert werden muss.
+In einer Ressourcengesamtstruktur-Topologie ist eine Gesamtstruktur für die Ausführung von Serveranwendungen wie Microsoft Exchange Server und lync Server reserviert. Die Ressourcengesamtstruktur hostet die Serveranwendungen und eine synchronisierte Darstellung des aktiven Benutzerobjekts, enthält jedoch keine Anmelde fähigen Benutzerkonten. Die Ressourcengesamtstruktur fungiert als Umgebung für gemeinsame Dienste für die anderen Gesamtstrukturen, in denen sich Benutzerobjekte befinden. Die Benutzergesamtstrukturen verfügen über eine Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur. Wenn Sie lync Server in dieser Art von Topologie bereitstellen, erstellen Sie für jedes Benutzerkonto in den Benutzergesamtstrukturen ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur. Wenn Microsoft Exchange bereits in der Ressourcengesamtstruktur bereitgestellt wurde, sind die deaktivierten Benutzerkonten möglicherweise bereits vorhanden. Ein Verzeichnis Synchronisierungs Produkt wie MIIS, Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) verwaltet den Lebenszyklus von Benutzerkonten. Wenn ein neues Benutzerkonto in einer der Benutzergesamtstrukturen erstellt oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Verzeichnis Synchronisierungs Produkt die entsprechende Benutzerdarstellung in der Ressourcengesamtstruktur.
 
-Die folgende Abbildung zeigt eine Topologie mit Ressourcengesamtstruktur.
+Diese Topologie kann verwendet werden, um eine gemeinsame Infrastruktur für Dienste in Organisationen bereitzustellen, die mehrere Gesamtstrukturen verwalten, oder um die Verwaltung von Active Directory-Objekten von anderer Verwaltung zu trennen. Unternehmen, die die Active Directory-Verwaltung aus Sicherheitsgründen isolieren müssen, wählen diese Topologie häufig aus.
 
-**Topologie mit Ressourcengesamtstruktur**
+Diese Topologie bietet den Vorteil, dass die Erweiterung des Active Directory-Schemas auf eine einzelne Gesamtstruktur (also die Ressourcengesamtstruktur) eingeschränkt werden muss.
 
-![Active Directory: Topologie mit einer Ressourcengesamtstruktur](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Active Directory: Topologie mit einer Ressourcengesamtstruktur")
+Das folgende Diagramm veranschaulicht eine Ressourcengesamtstruktur-Topologie.
 
-## Mehrere Gesamtstrukturen in einer Lync-Ressourcengesamtstruktur-Topologie mit Exchange Online
+**Topologie der Ressourcengesamtstruktur**
 
-In dieser Topologie befinden sich eine oder mehrere lokale Gesamtstrukturen, die für das Hosten von Active Directory-Benutzerkonten dediziert sind. Die Ressourcengesamtstruktur ist extern und wird von einem Hosting-Drittanbieter verwaltet. Die Ressourcengesamtstruktur enthält nur die Lync Server-Bereitstellung und eine synchronisierte Replikation der Benutzerkonten aus den lokalen Benutzerkonto-Gesamtstrukturen. Sie enthält keine anmeldefähigen Benutzerkonten. Exchange wird entweder in lokalen Benutzerkonto-Gesamtstrukturen zusammen mit Exchange Online (Hybrid) bereitgestellt oder E-Mail-Dienste für die lokalen Benutzerkonten werden ausschließlich von Exchange Online bereitgestellt.
+![Topologie der Active Directory-Ressourcengesamtstruktur] (images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologie der Active Directory-Ressourcengesamtstruktur")
 
-Die Ressourcengesamtstruktur dient als gemeinsame Dienstumgebung für die lokalen Active Directory-Gesamtstrukturent, in denen sich die Benutzerobjekte befinden. Die Benutzerkonto-Gesamtstrukturen verfügen über eine unidirektionale Vertrauensbeziehung auf Gesamtstrukturebene zur Ressourcengesamtstruktur. Wenn Sie Lync Server in dieser Topologie bereitstellen, erstellen Sie in der Ressourcengesamtstruktur ein deaktiviertes Benutzerobjekt für jedes Benutzerkonto in den Benutzergesamtstrukturen. Ein Produkt zur Verzeichnissynchronisierung, wie MIIS, Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), verwaltet den Lebenszyklus der Benutzerkonten. Wenn ein neues Benutzerkonto in einer der Benutzergesamtstrukturen erstellt oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Verzeichnissynchronisierungs-Produkt die Entsprechung des Benutzers in der Ressourcengesamtstruktur. Weitere Informationen zur Konfiguration einer Bereitstellung mit mehreren Gesamtstrukturen finden Sie unter [Bereitstellen von Lync in einer Architektur mit mehreren Gesamtstrukturen (gemeinsames Hosting von Lync und Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+</div>
+
+<div>
+
+## <a name="multiple-forests-in-a-lync-resource-forest-topology-with-exchange-online"></a>Mehrere Gesamtstrukturen in einer lync-Ressourcengesamtstruktur-Topologie mit Exchange Online
+
+In dieser Topologie befinden sich eine oder mehrere Gesamtstrukturen lokal und sind für das Hosten von Active Directory-Benutzerkonten reserviert. Die Ressourcengesamtstruktur befindet sich außerhalb des Lokals und wird von einem externen Hostinganbieter verwaltet. Die Ressourcengesamtstruktur enthält nur die lync Server-Bereitstellung und eine synchronisierte Replikation der Benutzerkonten aus der lokalen Benutzerkontengesamtstruktur (en). Sie enthält keine Anmelde fähigen Benutzerkonten. Exchange wird entweder in der lokalen Benutzerkonten-Gesamtstruktur (en) bereitgestellt, die zusammen mit Exchange Online (Hybrid) integriert ist, oder e-Mail-Dienste für die lokalen Benutzerkonten werden ausschließlich von Exchange Online bereitgestellt.
+
+Die Ressourcengesamtstruktur fungiert als Umgebung für gemeinsame Dienste für die lokalen Active Directory-Gesamtstrukturen, in denen sich Benutzerobjekte befinden. Die Gesamtstruktur des Benutzerkontos verfügt über eine unidirektionale Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur. Wenn Sie lync Server in dieser Art von Topologie bereitstellen, erstellen Sie für jedes Benutzerkonto in den Benutzergesamtstrukturen ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur. Ein Verzeichnis Synchronisierungs Produkt wie MIIS, Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) verwaltet den Lebenszyklus von Benutzerkonten. Wenn ein neues Benutzerkonto in einer der Benutzergesamtstrukturen erstellt oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Verzeichnis Synchronisierungs Produkt die entsprechende Benutzerdarstellung in der Ressourcengesamtstruktur. Weitere Informationen zum Konfigurieren einer Bereitstellung mit mehreren Gesamtstrukturen finden Sie unter [Bereitstellen von lync in einer Architektur mit mehreren Gesamtstrukturen (Partner Hosted lync mit Exchange-Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

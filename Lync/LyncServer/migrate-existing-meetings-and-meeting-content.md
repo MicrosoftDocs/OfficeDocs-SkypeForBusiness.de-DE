@@ -1,27 +1,57 @@
-﻿---
-title: Migrieren von vorhandenen Besprechungen und Besprechungsinhalten
-TOCTitle: Migrieren von vorhandenen Besprechungen und Besprechungsinhalten
-ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688011(v=OCS.15)
-ms:contentKeyID: 49890686
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren vorhandener Besprechungen und Besprechungsinhalte
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate existing meetings and meeting content
+ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)
+ms:contentKeyID: 49733599
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 38b4f374aef66fa95d49b2330a07f9def4135328
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847120"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von vorhandenen Besprechungen und Besprechungsinhalten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrate-existing-meetings-and-meeting-content"></a>Migrieren vorhandener Besprechungen und Besprechungsinhalte
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Wenn ein Benutzerkonto von Lync Server 2010 auf einen Lync Server 2013-Server verschoben wird, werden die folgenden Informationen zusammen mit dem Benutzerkonto verschoben:
+Wenn ein Benutzerkonto von lync Server 2010 auf einen lync Server 2013-Server verschoben wird, werden die folgenden Informationen mit diesem Benutzerkonto verschoben:
 
-  - **Vom Benutzer bereits geplante Besprechungen :** Dies beinhaltet das Verschieben von Konferenzverzeichnissen und Konferenzdaten.
+  - **Besprechungen, die der Benutzer bereits geplant**hat. Dazu gehören das Verschieben von Konferenz Verzeichnissen und Konferenzdaten.
 
-  - **Die persönliche Identifikationsnummer (PIN) des Benutzers :** Die aktuelle PIN des Benutzers ist weiterhin solange gültig, bis sie abläuft oder der Benutzer eine neue PIN anfordert.
+  - **Persönliche Identifikationsnummer (PIN) des Benutzers**. Die aktuelle PIN des Benutzers funktioniert weiterhin, bis er abläuft oder der Benutzer eine neue PIN anfordert.
 
-Die folgenden Benutzerkontoinformationen werden nicht auf den neuen Server verschoben:
+Die folgenden Benutzerkontoinformationen werden nicht auf den neuen Server verschoben.
 
-  - **Besprechungsinhalte :** Um den während einer Besprechung freigegebenen Inhalt zu verschieben, z. B. PowerPoint- oder Whiteboard-Inhalt, Anlagen oder Umfragedaten, verwenden Sie den **-MoveConferenceData**-Parameter als Teil des **Move-CsUser**-Cmdlets.
+  - **Besprechungsinhalt**. Verwenden Sie den Parameter **-MoveConferenceData** als Teil des Cmdlets **Move-CsUser** , um den während einer Besprechung freigegebenen Inhalt zu verschieben, beispielsweise PowerPoint, Whiteboard, Anlagen oder Umfragedaten.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

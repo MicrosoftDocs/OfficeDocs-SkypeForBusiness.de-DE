@@ -1,31 +1,61 @@
-﻿---
-title: Vorbereiten von Active Directory für Lync Server
-TOCTitle: Vorbereiten von Active Directory für Lync Server
-ms:assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688059(v=OCS.15)
-ms:contentKeyID: 49890751
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Vorbereiten von Active Directory für Lync Server
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Prepare Active Directory for Lync Server
+ms:assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688059(v=OCS.15)
+ms:contentKeyID: 49733653
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ff5be6fbf3849c51979f3cf94dbc36d14e5b282
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847022"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten von Active Directory für Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="prepare-active-directory-for-lync-server"></a>Vorbereiten von Active Directory für Lync Server
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-17_
 
-Bevor Sie Lync Server 2013 zusammen mit Lync Server 2010 bereitstellen können, müssen Sie zunächst einige zusätzliche Active Directory-Aufgaben ausführen. Mit diesen Aufgaben werden das Schema, die Gesamtstruktur und die Domäne für Lync Server 2013 konfiguriert. Fügen Sie die Schemaerweiterungen für die Active Directory-Klassen und -Attribute hinzu, die für Lync Server 2013 erforderlich sind. Weitere Informationen finden Sie im Thema [Vorbereiten der Active Directory-Domänendienste für Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereitstellen, müssen Sie einige zusätzliche Active Directory-Aufgaben ausführen, um das Schema, die Gesamtstruktur und die Domäne für lync Server 2013 zu konfigurieren. Die Schemaerweiterungen fügen die Active Directory-Klassen und-Attribute hinzu, die für lync Server 2013 erforderlich sind. Weitere Informationen finden Sie im Thema [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
 
-**So bereiten Sie Active Directory für Lync Server 2013 vor**
+**So bereiten Sie Active Directory für lync Server 2013 vor**
 
-1.  Führen Sie auf dem Lync Server 2013-Front-End-Server Lync Server 2013-Setup aus.
+1.  Führen Sie auf dem lync Server 2013-Front-End-Server das lync Server 2013-Setup aus.
 
-2.  Wählen Sie **Active Directory vorbereiten** aus.
+2.  Wählen Sie **Active Directory vorbereiten**aus.
     
-    ![Lync Server 2013-Bereitstellungs-Assistent – Willkommensseite](images/JJ688059.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent – Willkommensseite")
+    ![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite] (images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")
 
-3.  Führen Sie die Schritt 1 bis 5 aus.
+3.  Führen Sie die Schritte 1 bis 5 aus.
     
-    ![Bereitstellungs-Assistent – Active Directory-Vorbereitung](images/JJ688059.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent – Active Directory-Vorbereitung")
+    ![Bereitstellungs-Assistent, Active Directory-prearat] (images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent, Active Directory-prearat")
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

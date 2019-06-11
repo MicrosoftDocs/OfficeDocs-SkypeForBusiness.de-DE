@@ -1,33 +1,67 @@
-﻿---
-title: Migrieren von analogen Geräten
-TOCTitle: Migrieren von analogen Geräten
-ms:assetid: ad072916-87ed-4d44-8289-aab87da86250
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721846(v=OCS.15)
-ms:contentKeyID: 49890885
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren analoger Geräte
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate analog devices
+ms:assetid: ad072916-87ed-4d44-8289-aab87da86250
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721846(v=OCS.15)
+ms:contentKeyID: 49733779
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66866ee7cb6dafecb2c30b53d04a50f849f09c94
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847128"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von analogen Geräten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrate-analog-devices"></a>Migrieren analoger Geräte
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
-Lync Server bietet Unterstützung für analoge Geräte. Zu den unterstützten analogen Geräten gehören insbesondere analoge Telefone und Faxgeräte. Sie können die qualifizierten Gateways für die Unterstützung analoger Geräte in der Lync Server-Umgebung konfigurieren. Nach dem Migrieren von Lync Server 2010 zu Lync Server 2013 müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Rufen Sie zunächst mit der Lync Server-Verwaltungsshell alle Kontaktobjekte ab, die den analogen Lync Server 2010-Geräten zugeordnet sind, und verschieben Sie diese Objekte anschließend in den Lync Server 2013-Pool.
+Lync Server bietet Unterstützung für analoge Geräte. Die unterstützten analogen Geräte sind analoge Audio-Telefone und analoge Faxgeräte. Sie können die qualifizierten Gateways so konfigurieren, dass die Verwendung von analogen Geräten in ihrer lync Server-Umgebung unterstützt wird. Nachdem Sie von lync Server 2010 zu lync Server 2013 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Verwenden Sie die lync Server-Verwaltungsshell, um zuerst alle Kontaktobjekte abzurufen, die mit den analogen Geräten von lync Server 2010 verknüpft sind, und verschieben Sie diese Objekte dann in den lync Server 2013-Pool.
 
-## So migrieren Sie analoge Geräte
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-migrate-analog-devices"></a>So migrieren Sie analoge Geräte
 
-2.  Geben Sie an der Befehlszeile Folgendes ein:
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Geben Sie in der Befehlszeile Folgendes ein:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  Stellen Sie sicher, dass alle Kontaktobjekte in den Lync Server 2013-Pool verschoben wurden. Geben Sie an der Befehlszeile Folgendes ein:
+3.  Überprüfen Sie, ob alle Kontaktobjekte in den lync Server 2013-Pool verschoben wurden. Geben Sie in der Befehlszeile Folgendes ein:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  Stellen Sie sicher, dass nun alle Kontaktobjekte dem Lync Server 2013-Pool zugeordnet sind.
+4.  Überprüfen Sie, ob alle Kontaktobjekte jetzt dem lync Server 2013-Pool zugeordnet sind.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

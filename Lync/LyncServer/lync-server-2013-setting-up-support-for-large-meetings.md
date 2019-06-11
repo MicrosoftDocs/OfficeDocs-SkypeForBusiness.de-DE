@@ -1,49 +1,75 @@
-﻿---
-title: Einrichten der Unterstützung für große Besprechungen
-TOCTitle: Einrichten der Unterstützung für große Besprechungen
-ms:assetid: 8e22d34b-b395-408d-9d48-8f2a3abe9513
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205074(v=OCS.15)
-ms:contentKeyID: 49294708
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten der Unterstützung für umfangreiche Besprechungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up support for large meetings
+ms:assetid: 8e22d34b-b395-408d-9d48-8f2a3abe9513
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205074(v=OCS.15)
+ms:contentKeyID: 48184763
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03196c705253320e31e2483cc89b2aca386ff1af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847798"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten der Unterstützung für große Besprechungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="setting-up-support-for-large-meetings-in-lync-server-2013"></a>Einrichten der Unterstützung für umfangreiche Besprechungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-05-12_
 
-Wenn Besprechungen mit mehr als 1000 Benutzern unterstützt werden sollen, ist es erforderlich, eine entsprechende Topologie zu erstellen, die Anforderungen an Hardware und Software zu erfüllen und die Umgebung entsprechend zu konfigurieren.
+Zur Unterstützung großer Besprechungen mit bis zu 1000-Benutzern müssen eine geeignete Topologie erstellt, Hardware-und Softwarevoraussetzungen erfüllt und die Umgebung entsprechend konfiguriert werden.
 
-## Anforderungen im Hinblick auf die Topologie
+<div>
 
-Bei einer einzigen großen Besprechung sind mindestens ein Front-End-Server und ein Back-End-Server erforderlich. Damit jedoch eine hohe Verfügbarkeit geboten werden kann, wird ein Front-End-Server-Pool mit gespiegeltem Back-End-Server empfohlen.
+## <a name="topology-requirements"></a>Anforderungen im Hinblick auf die Topologie
 
-Die Benutzerkonten der Benutzer, die große Besprechungen durchführen, müssen in diesem Pool gehostet werden. Es wird jedoch nicht empfohlen, dass andere Benutzerkonten in diesem Pool gehostet werden. Er sollte nur für diese großen Besprechungen verwendet werden. In diesem Pool sollte ein spezielles Benutzerkonto erstellt werden, das nur zur Durchführung großer Besprechungen verwendet wird. Da die Einstellung für große Besprechungen auf Leistung optimiert ist, kann die Verwendung als normaler Benutzer Probleme nach sich ziehen. So kann es beispielsweise nicht möglich sein, eine P2P-Sitzung zu einer Besprechung heraufzustufen, wenn ein PSTN-Endpunkt beteiligt ist.
+Bei einer einzigen großen Besprechung sind mindestens ein Front-End und ein Back-End-Server erforderlich. Zur Bereitstellung einer höheren Verfügbarkeit empfehlen wir jedoch einen zwei Front-End-Serverpool mit gespiegelten Back-End-Servern.
 
-Bei der Verwaltung eines Pools mit genau zwei Front-End-Servern sind spezielle Überlegungen erforderlich. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+Der Benutzer, der die umfangreichen Besprechungen hostet, muss sein Benutzerkonto in diesem Pool verwaltet haben. Es wird jedoch nicht empfohlen, andere Benutzerkonten in diesem Pool zu hosten. Verwenden Sie Sie stattdessen nur für die umfangreichen Besprechungen. Die bewährte Methode besteht darin, ein spezielles Benutzerkonto in diesem Pool zu erstellen, das nur zum Hosten großer Besprechungen verwendet wird. Da die große Besprechungs Einstellung für die Leistung optimiert ist, kann die Verwendung als normaler Benutzer Probleme haben, beispielsweise die Unfähigkeit, eine P2P-Sitzung zu einer Besprechung zu bewerben, wenn ein PSTN-Endpunkt involviert ist.
 
-Wenn Sie zusätzlich optional eine Sicherung zur Notfallwiederherstellung und ein Failover für den für große Besprechungen verwendeten Pool bereitstellen möchten, können Sie ihn auch gemeinsam mit einem ähnlich eingerichteten dedizierten Pool in einem anderen Rechenzentrum verwenden. Ausführliche Informationen finden Sie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Bei der Verwaltung eines Pools mit genau zwei Front-End-Servern sind spezielle Überlegungen erforderlich. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
 
-![Poolkonfiguration für große Besprechungen](images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Poolkonfiguration für große Besprechungen")
+Wenn Sie zusätzlich optional eine Sicherung zur Notfallwiederherstellung und ein Failover für den für große Besprechungen verwendeten Pool bereitstellen möchten, können Sie ihn auch gemeinsam mit einem ähnlich eingerichteten dedizierten Pool in einem anderen Rechenzentrum verwenden. Ausführliche Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+![Konfiguration des umfangreichen Besprechungs Pools] (images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Konfiguration des umfangreichen Besprechungs Pools")
 
 Zusätzliche Notizen zur Topologie:
 
-  - Zum Speichern von Besprechungsinhalten und, wenn Archivierungsserver bereitgestellt und aktiviert wurde, zum Speichern der Archivierungsdateien ist eine Dateifreigabe erforderlich. Die Dateifreigabe kann dem Pool zugeordnet werden oder dieselbe Dateifreigabe sein, die von einem anderen Pool an diesem Standort verwendet wurde, an dem der Pool bereitgestellt wurde. Weitere Details zum Konfigurieren der Dateifreigabe finden Sie unter [Konfigurieren des Dateispeichers für Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
+  - Eine Dateifreigabe ist erforderlich, um Besprechungsinhalte zu speichern und um, wenn ein Archivierungsserver bereitgestellt und aktiviert wurde, die Archivierungsdateien zu speichern. Die Dateifreigabe kann dem Pool zugeordnet werden oder dieselbe Dateifreigabe sein, die von einem anderen Pool an diesem Standort verwendet wurde, an dem der Pool bereitgestellt wurde. Details zum Konfigurieren der Dateifreigabe finden Sie unter [Konfigurieren des Dateispeichers für lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
 
-  - Zur Aktivierung der PowerPoint-Präsentationsfunktion in großen Besprechungen ist ein Office Web Apps-Server erforderlich. Der Office Web Apps-Server kann einem großen Besprechungspool zugeordnet werden, oder es kann auch derselbe Office Web Apps-Server sein, der von anderen Pools an diesem Standort verwendet wurde, an dem der dedizierte Pool bereitgestellt wurde.
+  - Ein Office Web Apps-Server ist erforderlich, um die PowerPoint-Präsentations Funktionalität in umfangreichen Besprechungen zu aktivieren. Der Office Web Apps-Server kann für den umfangreichen Besprechungs Pool dediziert sein, oder er kann derselbe Office Web Apps-Server sein, der von anderen Pools auf der Website verwendet wird, in der der dedizierte Pool bereitgestellt wird.
 
-  - Bei einem Lastenausgleich für Front-End-Server ist ein Hardwaregerät zum Lastenausgleich für den HTTP-Datenverkehr (z. B. beim Herunterladen von Besprechungsinhalten) erforderlich. DNS-Lastenausgleich wird für den SIP-Datenverkehr empfohlen. Ausführliche Informationen finden Sie unter [Anforderungen an den Lastenausgleich für Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+  - Bei einem Lastenausgleich für die Front-End-Server ist ein Hardwaregerät zum Lastenausgleich für den HTTP-Datenverkehr (z. B. beim Herunterladen von Besprechungsinhalten) erforderlich. DNS-Lastenausgleich wird für den SIP-Datenverkehr empfohlen. Ausführliche Informationen finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
-  - Wenn Sie den Monitoring-Server für den dedizierten großen Besprechungspool verwenden möchten, wird empfohlen, den Monitoring-Server und seine Datenbank zu verwenden, die in allen Front-End-Server-Pools in Ihrer Lync Server-Bereitstellung freigegeben werden.
+  - Wenn Sie den Monitoring Server für den dedizierten groß Besprechungs Pool verwenden möchten, empfehlen wir die Verwendung des Überwachungsservers und der zugehörigen Datenbank, die für alle Front-End-Server Pools in ihrer lync Server-Bereitstellung freigegeben sind.
 
-## Hardware- und Softwareanforderungen
+</div>
 
-Die Hardwareanforderungen für Server in einem dedizierten großen Besprechungspool sind mit denen für Lync Server 2013-Server identisch. Ausführliche Informationen zu den Hardwareanforderungen finden Sie unter [Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
+<div>
 
-Server in einem dedizierten großen Besprechungspool müssen alle Softwareanforderungen für Lync Server 2013 erfüllen. Ausführliche Informationen zu den Softwareanforderungen finden Sie in den folgenden Dokumentationen:
+## <a name="hardware-and-software-requirements"></a>Hardware-und Software Anforderungen
+
+Die Hardwareanforderungen für Server in einem dedizierten groß Besprechungs Pool sind dieselben wie für Ihre anderen lync Server 2013-Server. Details zu den Hardwareanforderungen finden Sie unter "[Server-Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md).
+
+Server in einem dedizierten groß Besprechungs Pool müssen allen lync Server 2013-Softwareanforderungen entsprechen. Details zu den Softwareanforderungen finden Sie in der folgenden Dokumentation:
 
   - [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
@@ -51,13 +77,17 @@ Server in einem dedizierten großen Besprechungspool müssen alle Softwareanford
 
   - [Zusätzliche Softwareanforderungen für Lync Server 2013](lync-server-2013-additional-software-requirements.md)
 
-Zusätzlich müssen sowohl der Lync Server 2013 und alle Lync Server 2013-Clients über die neuesten Updates verfügen.
+Darüber hinaus müssen sowohl lync Server 2013 als auch alle lync Server 2013-Clients über die neuesten Updates verfügen.
 
-## Konfigurationsanforderungen
+</div>
 
-Es wird empfohlen, eine neue Konferenzrichtlinie speziell für große Besprechungen zu erstellen und diese anschließend den Benutzern zuzuweisen, die auf den dedizierten großen Besprechungspools gehostet werden. Mithilfe der folgenden Einstellungen können Sie die Konferenzrichtlinie konfigurieren:
+<div>
 
-  - Legen Sie die Option **MaxMeetingSize** auf **1000** fest. (Der Standardwert ist **250**.)
+## <a name="configuration-requirements"></a>Konfigurationsanforderungen
+
+Wir empfehlen, speziell für große Besprechungen eine neue konferenzrichtlinie zu erstellen und dann die konferenzrichtlinie den Benutzern zuzuweisen, die sich in dem dedizierten Pool für große Besprechungen befinden. Mithilfe der folgenden Einstellungen können Sie die Konferenzrichtlinie konfigurieren:
+
+  - Setzen Sie die Option **MaxMeetingSize** auf **1000**. (Der Standardwert ist **250**.)
 
   - Legen Sie die Option **AllowLargeMeetings** auf **True** fest.
 
@@ -75,19 +105,35 @@ Es wird empfohlen, eine neue Konferenzrichtlinie speziell für große Besprechun
 
   - Legen Sie die Option **EnableMultiviewJoin** auf **False** fest.
 
-
-> [!NOTE]
-> Damit große Besprechungen mit 1000 Benutzern in Lync Server 2013 untertstützt werden können, ist es erforderlich, dass die Einstellung <STRONG>AllowLargeMeetings</STRONG> in der Konferenzrichtlinie für den Besprechungsplaner auf "True" gesetzt wird. Wenn diese Einstellung auf "True" gesetzt ist, werden die Möglichkeiten von Lync für sehr große Besprechungen optimiert, wenn die Benutzer einer solchen Besprechung beitreten. In einer großen Besprechung wird die initiale vollständige Liste mit Besprechungsteilnehmern von Lync nicht angezeigt oder aktualisiert. Diese Liste stellt einen Leistungsengpass für den Client sowie für Lync Server 2013 dar. In Lync werden dafür nur Informationen zum Benutzer und die Liste mit den Referenten der Besprechung angezeigt. In Lync wird dennoch ordnungsgemäß die Gesamtanzahl der für die großen Besprechungen verfügbaren Teilnehmer angezeigt.
+<div>
 
 
+> [!NOTE]  
+> Die Unterstützung für 1000-Benutzer große Besprechungen in lync Server 2013 setzt voraus, dass die <STRONG>AllowLargeMeetings</STRONG> -Einstellung in der konferenzrichtlinie für den Besprechungsplaner auf "true" festgelegt ist. Wenn diese Einstellung auf "true" festgelegt ist, wird die lync-Benutzeroberfläche für besonders große Besprechungen optimiert, wenn Benutzer einer solchen Besprechung beitreten. In einer umfangreichen Besprechung wird in lync nicht das erste oder das Update der vollständigen Besprechungsteilnehmer Liste angezeigt, bei der es sich um einen Leistungsengpass für den Client und lync Server 2013 handelt. Stattdessen werden in lync nur Informationen über den Benutzer und die Liste der Referenten der Besprechung angezeigt. Lync zeigt weiterhin die Gesamtzahl der Teilnehmer an, die in den umfangreichen Besprechungen zur Verfügung stehen.
 
-Mit Ausnahme der Einstellung **Maximale Besprechungsgröße** sind alle anderen hier angegeben Konferenzrichtlinieneinstellungen erforderlich, um die Konferenzfunktionen zu deaktivieren, die für große Besprechungen nicht erforderlich sind.
 
-Zusätzlich muss der dedizierte große Besprechungspool konfiguriert werden, sodass jeder Lync Server 2013-Benutzer, der auf dem Pool gehostet wird und für die Verwaltung des Besprechungszeitplans verantwortlich ist, über die erforderlichen Berechtigungen verfügt. Gehen Sie hierzu wie folgt vor:
+
+</div>
+
+Mit Ausnahme der Einstellung **Maximale Besprechungsgröße** sind alle anderen hier angegeben Konferenzrichtlinieneinstellungen erforderlich, um die Konferenzfunktionen, die für große Besprechungen nicht erforderlich sind, zu deaktivieren.
+
+Darüber hinaus müssen Sie den dedizierten Pool für große Besprechungen so konfigurieren, dass jeder lync Server 2013-Benutzer, der im Pool verwaltet wird und für die Verwaltung des Besprechungs Zeitplans verantwortlich ist, über die entsprechenden Berechtigungen verfügt. Gehen Sie hierzu wie folgt vor:
 
   - Legen Sie die Option **Als Referenten festlegen** auf **Keine** fest. Normalerweise sind nur einige wenige Benutzer der gesamten Teilnehmer einer großen Besprechung Referenten, sodass die Teilnehmer nicht automatisch als Referenten für große Besprechungen zugelassen werden sollten. Die Referenten sollten stattdessen bei der geplanten Besprechung explizit festgelegt oder während der großen Besprechung explizit ernannt werden.
 
-  - Stellen Sie sicher, dass das Kontrollkästchen **Konferenztyp standardmäßig zugewiesen** deaktiviert ist. Mit dieser Einstellung wird gesteuert, ob das Onlinebesprechungs-Add-In für Lync 2013 die Konferenzen immer mithilfe der zugewiesenen Konferenz des Organisators plant. Das bedeutet, dass die geplanten Besprechungen über dieselbe Verbindungs-URL und dieselben Audioinformationen verfügen. In Szenarien der Zusammenarbeit von kleinen Gruppen funktioniert dieser zugewiesene Konferenztyp sehr gut, da jeder Teilnehmer über seine eigene ihm persönlich zugewiesene Konferenz verfügt. Mit einer festen Verbindungs-URL und konstanten Audioinformationen ist eine schnellere Teilnahme an Besprechungen möglich. In Szenarien mit großen Besprechungen planen viele Mitarbeiter vom Support in diesem Bereich die großen Besprechungen mithilfe eines einzigen Satzes von Anmeldeinformationen. Anschließend werden den Antragstellern der Besprechung die Verbindungs-URLs und Audioinformationen zur Verfügung gestellt. In diesem Fall ist es besser, wenn für jede Besprechung eine andere URL verwendet wird.
+  - Stellen Sie sicher, dass das Kontrollkästchen **zugewiesene Konferenztyp Standard** mäßig nicht aktiviert ist. Mit dieser Einstellung wird gesteuert, ob das Online Besprechungs-Add-in für lync 2013 Konferenzen immer mit der zugewiesenen Konferenz des Organisators plant, was bedeutet, dass geplante Besprechungen über die gleiche URL und Audioinformationen für die Teilnahme verfügen. In Szenarien für die Zusammenarbeit in kleinen Gruppen funktioniert der zugewiesene Konferenztyp gut, weil jeder eine eigene, individuell zugewiesene Konferenz hat, und die URL-und Audioinformationen für die dauerhafte Teilnahme helfen, eine schnellere Besprechung zu ermöglichen. Im Szenario mit großer Besprechung plant der große Besprechungs Support die umfangreichen Besprechungen jedoch mit einem einzigen Satz von Benutzeranmeldeinformationen und stellt dann den Besprechungs anfordernden Teilnehmer-URLs und Audioinformationen zur Verfügung. In diesem Fall funktioniert die Verwendung einer anderen URL für die Teilnahme an jeder Besprechung besser.
 
-  - Stellen Sie sicher, dass das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen** nur aktiviert wird, wenn es erforderlich ist. Wenn keine zugewiesene Konferenz verwendet wird, beeinflusst diese Einstellung den Standardtyp für den Besprechungszugriff, der von Onlinebesprechungs-Add-In für Lync 2013 geplant worden ist. Die geeignete Option für diese Einstellung hängt von den Anforderungen Ihrer Organisation ab. Wenn die meisten großen Besprechungen in Ihrer Organisation interne Besprechungen sind, sollte diese Option nicht ausgewählt werden. Wenn beim Großteil der großen Besprechungen externe Benutzer teilnehmen, sollte diese Option ausgewählt werden.
+  - Stellen Sie sicher, dass das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen** nur aktiviert wird, wenn es erforderlich ist. Diese Einstellung wirkt sich auf den standardmäßigen Besprechungs Zugriffstyp aus, der vom Online Besprechungs-Add-in für lync 2013 geplant wird, wenn keine zugewiesene Konferenz verwendet wird. Die geeignete Option für diese Einstellung hängt von den Anforderungen Ihrer Organisation ab. Wenn die meisten großen Besprechungen in Ihrer Organisation interne Besprechungen sind, sollte diese Option nicht ausgewählt werden. Wenn beim Großteil der großen Besprechungen externe Benutzer teilnehmen, sollte diese Option ausgewählt werden.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

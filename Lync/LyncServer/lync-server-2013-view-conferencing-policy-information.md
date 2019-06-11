@@ -1,47 +1,75 @@
-﻿---
-title: Anzeigen von Informationen zu Konferenzrichtlinien
-TOCTitle: Anzeigen von Informationen zu Konferenzrichtlinien
-ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721918(v=OCS.15)
-ms:contentKeyID: 49890988
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Konferenzrichtlinien Informationen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View conferencing policy information
+ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721918(v=OCS.15)
+ms:contentKeyID: 49733852
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8dc9174356b1d5f8e5c6316ef761c51db1eb969
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847260"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Konferenzrichtlinien
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Anzeigen von Konferenzrichtlinien Informationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-In Systemsteuerung für Lync Server 2013 verwenden Sie Konferenzrichtlinien, um zu steuern, wie Konferenzen in einer Bereitstellung implementiert werden. Dazu gehören die folgenden Konferenzrichtlinien:
+In der lync Server 2013-Systemsteuerung verwenden Sie Konferenzrichtlinien, um zu steuern, wie Konferenzen in Ihrer Bereitstellung implementiert werden. Dazu gehören die folgenden Konferenzrichtlinien:
 
-  - Eine globale Richtlinie, die standardmäßig erstellt wird, wenn Sie Lync Server 2013 bereitstellen.
+  - Eine globale Richtlinie, die standardmäßig beim Bereitstellen von lync Server 2013 erstellt wird.
 
-  - Optionale Richtlinien auf Standort- und auf Benutzerebene, die Sie erstellen und verwenden können, um anzugeben, wie Konferenzen für bestimmte Standorte oder Benutzer implementiert werden.
+  - Optionale Richtlinie auf Website-und Benutzerebene, die Sie erstellen und verwenden können, um anzugeben, wie Konferenzen für bestimmte Websites oder Benutzer implementiert werden.
 
-## So zeigen Sie Konferenzrichtlinien an
+<div>
+
+## <a name="to-view-conferencing-policy-settings"></a>So zeigen Sie konferenzrichtlinieneinstellungen an
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Konferenzen** und dann auf **Konferenzrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** , und klicken Sie dann auf **konferenzrichtlinie**.
 
 4.  Doppelklicken Sie auf der Seite **Konferenzrichtlinie** auf die Konferenzrichtlinie, die angezeigt werden soll.
 
-5.  Aktivieren Sie im Abschnitt **Dateifilter bearbeiten** das Kontrollkästchen **Details anzeigen**.
+5.  Wählen Sie im **Filter Datei bearbeiten**die Option **Details anzeigen aus.** Aktivieren Sie das Kontrollkästchen.
     
-    Das Dialogfeld **Konferenzrichtlinie bearbeiten – \<Richtlinie\>** wird geöffnet, in dem die Einstellungen für die ausgewählte Richtlinie angezeigt werden. Einzelheiten zum Konfigurieren dieser Einstellungen finden Sie unter [Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+    **Konferenzrichtlinien bearbeiten – \<die\> Richtlinie** wird geöffnet und zeigt die Einstellungen für die ausgewählte Richtlinie an. Details zum Konfigurieren der Einstellungen finden Sie unter [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
-## Anzeigen von Konferenzrichtlinien mithilfe der Lync Server-PowerShell-Cmdlets
+</div>
 
-Sie können Konferenzrichtlinien auch mithilfe von Lync Server PowerShell und des **Get-CsConferencingPolicy**-Cmdlets anzeigen. Dieses Cmdlet können Sie entweder in der Verwaltungsshell für Lync Server 2013 ausführen oder in einer Remotesitzung von Windows PowerShell. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Anzeigen von Konferenzrichtlinien
+## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Anzeigen von Konferenzrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-  - Zum Anzeigen von Informationen zu allen Konferenzrichtlinien geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein, und drücken Sie die EINGABETASTE:
+Konferenzrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet Get-CsConferencingPolicy angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-conferencing-policies"></a>So zeigen Sie Konferenzrichtlinien an
+
+  - Wenn Sie Informationen zu allen Konferenzrichtlinien anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsConferencingPolicy
     
@@ -82,5 +110,19 @@ Sie können Konferenzrichtlinien auch mithilfe von Lync Server PowerShell und de
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)-Cmdlet.
+</div>
+
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

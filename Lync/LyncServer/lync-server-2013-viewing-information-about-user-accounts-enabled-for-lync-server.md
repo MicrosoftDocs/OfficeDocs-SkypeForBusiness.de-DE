@@ -1,27 +1,65 @@
-﻿---
-title: Anzeigen von Informationen zu Benutzerkonten, die für Lync Server 2013 aktiviert sind
-TOCTitle: Anzeigen von Informationen zu Benutzerkonten, die für Lync Server 2013 aktiviert sind
-ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ687980(v=OCS.15)
-ms:contentKeyID: 49890643
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Anzeigen von Informationen zu Benutzerkonten, die für lync Server aktiviert sind
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing information about user accounts enabled for Lync Server 2013
+ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687980(v=OCS.15)
+ms:contentKeyID: 49733568
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9aad3b0d6f1367227ba8fb0d7d9525969ae071aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847233"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Benutzerkonten, die für Lync Server 2013 aktiviert sind
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Anzeigen von Informationen zu Benutzerkonten, die für lync Server 2013 aktiviert sind
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-18_
 
-Führen Sie die in diesem Abschnitt genannten Schritte aus, um Einstellungen und Richtlinieninformationen für Lync Server 2013-Benutzerkonten anzuzeigen.
+Führen Sie die Verfahren in diesem Abschnitt aus, um Einstellungen und Richtlinieninformationen für Benutzerkonten von lync Server 2013 anzuzeigen.
 
-## In diesem Abschnitt
+<div>
 
-  - [Suchen nach Lync Server-Benutzern](lync-server-2013-search-for-lync-server-users.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-## Zugehörige Abschnitte
+  - [Suchen nach lync Server-Benutzern in lync Server 2013](lync-server-2013-search-for-lync-server-users.md)
 
-[Zuweisen von Richtlinien auf Benutzerebene](lync-server-2013-assigning-per-user-policies.md)
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Verwandte Abschnitte
+
+[Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

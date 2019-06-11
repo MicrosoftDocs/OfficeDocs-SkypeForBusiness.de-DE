@@ -1,41 +1,69 @@
-﻿---
-title: Anzeigen von Informationen zu Netzwerk-Bandbreitenrichtlinienprofilen
-TOCTitle: Anzeigen von Informationen zu Netzwerk-Bandbreitenrichtlinienprofilen
-ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721931(v=OCS.15)
-ms:contentKeyID: 49891005
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Profilinformationen für die Netzwerkbandbreite'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network bandwidth policy profile information
+ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721931(v=OCS.15)
+ms:contentKeyID: 49733866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 513bd20e9a1ecd40f061c4873e7da8bff4738f36
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Netzwerk-Bandbreitenrichtlinienprofilen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>Anzeigen von Profilinformationen zu Netzwerkbandbreiten in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Bandbreiteneinschränkungen für bestimmte Modalitäten zu definieren. In Microsoft Lync Server 2013 können Bandbreiteneinschränkungen nur für Audio und Video zugewiesen werden. Sie können allgemeine Bandbreiteneinschränkungen und Sitzungseinschränkungen festlegen. Mithilfe der Lync Server-Systemsteuerung können Sie ein Containerprofil für diese Richtlinien erstellen, ändern oder löschen. Jedes Bandbreitenrichtlinienprofil kann einem oder mehreren Netzwerkstandorten zugeordnet werden. Verwenden Sie die folgenden Verfahren, um ein Bandbreitenrichtlinienprofil anzuzeigen. Informationen zum Erstellen oder Ändern eines Bandbreitenrichtlinienprofils finden Sie unter [Erstellen oder Ändern von Bandbreitenrichtlinienprofilen](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
+Im Rahmen der Anrufannahme Steuerung (CAC) wird eine bandbreitenrichtlinie verwendet, um Bandbreiteneinschränkungen für bestimmte Modalitäten festzulegen. In Microsoft lync Server 2013 können nur den Audio-und Video-Modalitäten Bandbreiteneinschränkungen zugewiesen werden. Sie können allgemeine Bandbreiteneinschränkungen und Sitzungs Einschränkungen einstellen. Sie können die lync Server-Systemsteuerung verwenden, um ein Container Profil für diese Richtlinien zu erstellen, zu ändern oder zu löschen. Jedes bandbreitenrichtlinienprofil kann einem oder mehreren Netzwerkstandorten zugeordnet sein. Gehen Sie wie folgt vor, um ein bandbreitenrichtlinienprofil anzuzeigen. Informationen zum Erstellen oder Ändern eines Profils für Bandbreitenrichtlinien finden Sie unter [erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
 
-## So ändern Sie ein Bandbreitenrichtlinienprofil
+<div>
+
+## <a name="to-view-a-bandwidth-policy-profile"></a>So zeigen Sie ein bandbreitenrichtlinienprofil an
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Bandbreitenrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** , und klicken Sie dann auf **bandbreitenrichtlinie**.
 
-4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf das Bandbreitenrichtlinienprofil, das geändert werden soll.
+4.  Klicken Sie auf der Seite **bandbreitenrichtlinie** auf das bandbreitenrichtlinienprofil, das Sie anzeigen möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-## Anzeigen von Profilinformationen für Netzwerkbandbreitenrichtlinien mithilfe von Lync Server PowerShell-Cmdlets
+</div>
 
-Sie können Netzwerkbandbreitenprofile auch mithilfe von Lync Server PowerShell und des **Get-CsNetworkBandwidthPolicyProfile**-Cmdlets anzeigen. Dieses Cmdlet können Sie entweder in der Verwaltungsshell für Lync Server 2013 ausführen oder in einer Remotesitzung von Windows PowerShell.
+<div>
 
-## Anzeigen von Informationen zu Netzwerk-Bandbreitenrichtlinienprofilen
+## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Profilinformationen für die Netzwerkbandbreite mithilfe von Windows PowerShell-Cmdlets
 
-  - Zum Anzeigen von Informationen zu allen Netzwerk-Bandbreitenrichtlinienprofilen geben Sie in der Lync Server-Verwaltungsshell den folgenden Befehl ein und drücken dann die EINGABETASTE:
+Netzwerkbandbreiten Profile können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkBandwidthPolicyProfile angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-network-bandwidth-policy-profile-information"></a>So zeigen Sie Profilinformationen zu Netzwerkbandbreiten an
+
+  - Wenn Sie Informationen zu allen Richtlinienprofilen für Netzwerkbandbreite anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkBandwidthPolicyProfile
     
@@ -49,16 +77,33 @@ Sie können Netzwerkbandbreitenprofile auch mithilfe von Lync Server PowerShell 
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)-Cmdlet.
+</div>
 
-## Siehe auch
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) .
 
-#### Aufgaben
+</div>
 
-[Erstellen oder Ändern von Bandbreitenrichtlinienprofilen](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
-[Löschen von Netzwerk-Bandbreitenrichtlinienprofilen](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren der Anrufsteuerung in Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
+
+[Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
+[Löschen von Netzwerkbandbreite-Richtlinienprofilen in lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+
+
+[Konfigurieren der Anrufsteuerung in lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

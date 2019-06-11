@@ -1,30 +1,52 @@
-﻿---
-title: Verwalten von Chatrooms
-TOCTitle: Verwalten von Chatrooms
-ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205292(v=OCS.15)
-ms:contentKeyID: 49295520
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verwalten von Chatrooms
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Manage rooms
+ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205292(v=OCS.15)
+ms:contentKeyID: 48185505
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f611b3cb6d54711557c8a172b1213127696c9b3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847138"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Chatrooms
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="manage-rooms"></a>Verwalten von Chatrooms
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-So erstellen Sie einen neuen Server für beständigen Chatroom
+So erstellen Sie einen neuen Server Raum für beständigen Chat
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
+<div>
 
-> [!IMPORTANT]
+
+> [!IMPORTANT]  
 > -PersistentChatPoolFqdn ist nicht erforderlich, wenn eine der folgenden Aussagen zutrifft: 
 > <UL>
 > <LI>
-> <P>Es gibt nur einen Serverpool für beständigen Chat.</P>
+> <P>Es gibt nur einen beständigen Chat Server Pool.</P>
 > <LI>
 > <P>Sie stellen für die Kategorie einen Pool-FQDN bereit.</P>
 > <LI>
@@ -32,25 +54,29 @@ So erstellen Sie einen neuen Server für beständigen Chatroom
 
 
 
-So nehmen Sie Änderungen an einem vorhandenen Server für beständigen Chatroom vor
+</div>
+
+So nehmen Sie Änderungen an einem vorhandenen beständigen Chat Server Raum vor
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: Mitglieder ( Members ), Manager ( Managers ) und Referenten ( Presenters ) können gleichzeitig festgelegt werden. Sie sollten alle Teilmengen von AllowedMembers minus DeniedMembers des Hosts Category sein. Ein Chatroom mit type=normal darf Presenters nicht enthalten.
+Windows PowerShell: Mitglieder, Manager und Referenten können gleichzeitig eingestellt werden. Sie alle sollten die Teilmenge von AllowedMembers minus DeniedMembers der Host Kategorie sein. Ein Raum mit dem Typ = Normal kann keine Referenten enthalten.
 
-## Erstellen, Abrufen, Festlegen, Löschen oder Entfernen eines Chatrooms
+<div>
 
-So erstellen Sie einen Chatroom
+## <a name="create-get-set-clear-or-remove-a-room"></a>Erstellen, abrufen, einrichten, löschen oder Entfernen eines Chatrooms
+
+So erstellen Sie einen neuen Raum
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-So legen Sie einen Chatroom fest
+So stellen Sie einen Raum ein
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
-So rufen Sie einen Chatroom ab
+So erhalten Sie ein Zimmer
 
     Get-CsPersistentChatRoom -Identity <String>
 
@@ -58,9 +84,9 @@ oder
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-Dabei unterstützt -filter nur Name und Description und hilft beim Auffinden von Chatrooms, deren Name/Beschreibung mit der Schlüsselwortzeichenfolge übereinstimmt. PoolFqdn sucht in einem bestimmten Serverpool für beständigen Chat.
+Where – Filter unterstützt nur Name und Beschreibung und hilft Ihnen, Räume zu finden, deren Name/Beschreibung mit der Schlüsselwortzeichenfolge übereinstimmt. PoolFqdn sucht in einem bestimmten beständigen Chat Server Pool.
 
-So löschen Sie einen Chatroom und löschen Nachrichten in einem Chatroom
+So löschen Sie einen Raum und löschen Nachrichten aus einem Chatroom
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
@@ -68,11 +94,23 @@ oder
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-So entfernen Sie einen Chatroom
+So entfernen Sie einen Raum
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
 oder
 
     Remove-CsPersistentChatRoom [-Instance] <ChatRoomObject> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

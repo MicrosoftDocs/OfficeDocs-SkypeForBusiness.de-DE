@@ -1,25 +1,47 @@
-﻿---
-title: 'Phase 2: Vorbereiten der Migration'
-TOCTitle: 'Phase 2: Vorbereiten der Migration'
-ms:assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205405(v=OCS.15)
-ms:contentKeyID: 49295972
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Phase 2: Vorbereitung der Migration'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 2: Prepare for migration'
+ms:assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205405(v=OCS.15)
+ms:contentKeyID: 48185920
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a757dd9ff77259b690bdc97f795305b36d86ec3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 2: Vorbereiten der Migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereitung der Migration
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-17_
 
-Vor der Migration von Lync Server 2013 zu Lync Server 2010 sollten Sie die in diesem Abschnitt beschriebenen Schritte durchführen.
+Bevor Sie mit der Migration zu lync Server 2013 von lync Server 2010 beginnen, führen Sie die in diesem Abschnitt beschriebenen Schritte aus.
 
-## In diesem Abschnitt
+<div>
 
-  - [Anwenden von Lync Server 2010-Updates](apply-lync-server-2010-updates.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
+
+  - [Anwenden von lync Server 2010-Updates](apply-lync-server-2010-updates.md)
 
   - [Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung](configure-dns-records-for-pilot-pool-deployment.md)
 
@@ -30,4 +52,16 @@ Vor der Migration von Lync Server 2013 zu Lync Server 2010 sollten Sie die in di
   - [Konfigurieren von Clients für die Migration](configure-clients-for-migration.md)
 
   - [Überprüfen der Lync Server 2010-Umgebung](verify-lync-server-2010-environment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

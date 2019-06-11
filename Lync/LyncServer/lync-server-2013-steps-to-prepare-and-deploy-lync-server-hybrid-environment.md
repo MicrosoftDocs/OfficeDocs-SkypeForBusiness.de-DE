@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Schritte zur Vorbereitung und Bereitstellung einer Lync Server-Hybridumgebung'
-TOCTitle: Schritte zur Vorbereitung und Bereitstellung einer Lync Server 2013-Hybridumgebung
-ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205157(v=OCS.15)
-ms:contentKeyID: 49294980
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Schritte zur Vorbereitung und Bereitstellung einer Lync Server-Hybridumgebung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Steps to prepare and deploy Lync Server 2013 hybrid environment
+ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205157(v=OCS.15)
+ms:contentKeyID: 48185060
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d239d7a57be1aa96dde1f9ccf30c2965de982017
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847705"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Schritte zur Vorbereitung und Bereitstellung einer Lync Server 2013-Hybridumgebung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Schritte zur Vorbereitung und Bereitstellung einer Lync Server 2013-Hybridumgebung
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
-In der folgenden Tabelle sind die Schritte aufgelistet, die erforderlich sind, um Ihre Umgebung auf eine Hybridbereitstellung mit Microsoft Lync Online und Microsoft Office 365 vorzubereiten.
+In der folgenden Tabelle sind die erforderlichen Schritte zum Vorbereiten Ihrer Umgebung für eine hybridbereitstellung mit Skype for Business Online und Microsoft Office 365 aufgeführt.
 
 
 <table>
@@ -33,59 +53,70 @@ In der folgenden Tabelle sind die Schritte aufgelistet, die erforderlich sind, u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Erstellen eines Mandantenkontos für Office 365 und Aktivieren von Lync Online</p></td>
-<td><p>Weitere Informationen zu Office 365 und Lync Online finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=254980">Office 365</a>.</p>
-<p>Machen Sie sich mit den <a href="http://go.microsoft.com/fwlink/p/?linkid=401408">Systemanforderungen</a> vertraut, um sicherzustellen, dass Ihre Umgebung für Office 365 bereit ist.</p>
-<p>Einzelheiten zum Einrichten von Office 365 finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=254982">Erste Schritte mit Office 365</a> und <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Einrichten von Office 365</a>.</p></td>
+<td></td>
+<td><p>Erstellen eines Mandanten Kontos für Office 365 und Aktivieren von lync Online</p></td>
+<td><p>Informationen zu Office 365 und lync Online finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">Office 365</a>.</p>
+<p>Wenn Sie sicherstellen möchten, dass Ihre Umgebung für Office 365 bereit ist, lesen Sie die <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">System Anforderungen</a>.</p>
+<p>Details zum Einrichten von Office 365 finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Erste Schritte mit Office 365</a> und <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Einrichten von Office 365</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Hinzufügen einer Domäne und Überprüfen des Domänenbesitzes</p></td>
-<td><p>Ihre Domäne wird manchmal auch als <em>Vanity-Domäne</em> bezeichnet. Sie müssen Ihre Domäne dem Office 365-Mandanten hinzufügen und dann den Schritten zum Überprüfen der Domäne mit Office 365 folgen. Anhand dieser Schritte soll bestätigt werden, dass Sie der Besitzer der Domäne sind.</p>
-<p>Führen Sie die unter <a href="http://go.microsoft.com/fwlink/p/?linkid=254983">Hinzufügen Ihrer Domäne zu Office 365</a> beschriebenen Schritte aus, um Ihre Domäne zum Office 365-Mandanten hinzuzufügen.</p>
-<p>Führen Sie alle Schritte in jedem Abschnitt des Themas aus, einschließlich &quot;Bearbeiten von DNS-Einträgen für Ihre Office 365-Dienste&quot;.</p></td>
+<td><p>Ihre Domäne wird manchmal auch als <em>Vanity-Domäne</em> bezeichnet. Sie müssen Ihre Domäne dem Office 365-Mandanten hinzufügen und dann den Schritten zum Überprüfen der Domäne mit Office 365 folgen. Anhand dieser Schritte soll bestätigt werden, dass Sie der Besitzer der Domäne sind.</p>
+<p>Wenn Sie Ihre Domäne Ihrem Office 365-Mandanten hinzufügen möchten, führen Sie die unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Hinzufügen Ihrer Domäne zu Office 365</a>beschriebenen Schritte aus.</p>
+<p>Führen Sie alle Schritte in jedem Abschnitt des Themas aus, einschließlich &quot;Bearbeiten von DNS-Einträgen für Ihre Office 365-Dienste.&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Überprüfen der Bereitschaft der Umgebung</p></td>
-<td><p>Sie können den Office 365-Setup-Assistenten verwenden, der Ihnen bei der Bereitstellung von Office 365 hilft. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=254985">Verwenden des Setup-Assistenten zum Bestimmen der Office 365-Bereitschaft</a></p>
-<p>Einzelheiten zum Verwenden des Tools und zur Bereitstellung von Office 365 finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=257337">Office 365-Bereitstellungsleitfaden</a>.</p></td>
+<td></td>
+<td><p>Überprüfen der Umgebungs Bereitschaft</p></td>
+<td><p>Sie können den Office 365-Setup-Assistenten verwenden, um die Bereitstellung von Office 365 zu unterstützen. Weitere Informationen finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254985">Verwenden des Setup-Assistenten zum Ermitteln der Bereitschaft von Office 365</a>.</p>
+<p>Details zur Verwendung des Tools und zur Bereitstellung von Office 365 finden Sie im <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">Office 365-Bereitstellungshandbuch</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Vorbereiten der Active Directory-Synchronisierung</p></td>
-<td><p>Die Active Directory-Synchronisierung sorgt dafür, dass Ihre lokale Active Directory-Bereitstellung ständig mit Office 365 synchronisiert ist. Dadurch können Sie synchronisierte Versionen aller Benutzerkonten und -gruppen erstellen. Zudem wird die Synchronisierung der globalen Adressenliste (GAL) aus Ihrer lokalen Microsoft Exchange Server-Umgebung mit Microsoft Exchange Online ermöglicht.</p>
+<td><p>Die Active Directory-Synchronisierung sorgt dafür, dass Ihr lokales Active Directory kontinuierlich mit Office 365 synchronisiert wird. Auf diese Weise können Sie synchronisierte Versionen der einzelnen Benutzerkonten und Gruppen erstellen und außerdem die Synchronisierung der globalen Adressliste (GAL) von Ihrer lokalen Microsoft Exchange Server-Umgebung zu Microsoft Exchange Online aktivieren.</p>
 <div>
 
-> [!IMPORTANT]
-> Sie müssen die AD-Konten für alle Lync-Benutzer in Ihrem Unternehmen zwischen der lokalen und der Onlinebereitstellung von Lync synchronisieren. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.
+> [!IMPORTANT]  
+> Sie müssen die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online lync-Bereitstellungen synchronisieren, auch wenn Benutzer nicht nach lync Online verschoben werden. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.
 
 
 </div>
-<p>Um Ihre Umgebung für die Active Directory-Synchronisierung vorzubereiten, führen Sie die unter <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">Roadmap für die Verzeichnissynchronisierung</a> beschriebenen Schritte durch, einschließlich der Einrichtung der einmaligen Anmeldung.</p></td>
+<p>Wenn Sie Ihre Umgebung für die Active Directory-Synchronisierung vorbereiten möchten, führen Sie die in der Roadmap für die <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">Verzeichnissynchronisierung</a>beschriebenen Schritte aus, einschließlich der Einrichtung einer einmaligen Anmeldung.</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Zertifikate für Active Directory-Verbunddienste (AD FS) erstellen</p></td>
-<td><p>Sie müssen die Zertifikate erstellen, die für den Identitätsverbund mit Office 365 verwendet werden. Weitere Informationen finden Sie im Abschnitt &quot;Verbundserverzertifikate&quot; des Themas &quot;Planen und Bereitstellen von AD FS zur Verwendung beim einmaligen Anmelden&quot; unter <a href="http://go.microsoft.com/fwlink/p/?linkid=285376">Checklist: Implementieren und Verwalten des einmaligen Anmeldens mit AD FS</a>.</p></td>
+<td></td>
+<td><p>Erstellen von Zertifikaten für Active Directory-Verbunddienste (AD FS)</p></td>
+<td><p>Sie müssen die Zertifikate erstellen, die für den Identitätsverbund mit Office 365 verwendet werden. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" im Abschnitt Planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">Checkliste: Verwenden von AD FS zum Implementieren und verwalten</a>des einmaligen Anmeldens.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Zertifikate für AD FS zuweisen</p></td>
-<td><p>Nachdem Sie die Zertifikate erstellt haben, die für den Identitätsverbund mit Office 365 verwendet werden, müssen Sie die Zertifikate installieren und zuweisen.</p></td>
+<td></td>
+<td><p>Zuweisen von Zertifikaten für AD FS</p></td>
+<td><p>Nachdem Sie die für den Identitätsverbund mit Office 365 verwendeten Zertifikate erstellt haben, müssen Sie diese installieren und zuweisen.</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Migieren von Pilotbenutzern zu Skype for Business Online</p></td>
-<td><p>Nachdem Sie die Schritte zum Vorbereiten und Konfigurieren der Umgebung für Skype for Business Online abgeschlossen haben, können Sie damit beginnen, Pilotbenutzer zu Lync Online zu migrieren.</p>
-<p>Informationen finden Sie unter <a href="lync-server-2013-move-users-to-lync-online.md">Verschieben von Benutzern zu Lync Online in Lync Server 2013</a>.</p></td>
+<td></td>
+<td><p>Verschieben von Pilotbenutzern in Skype for Business Online</p></td>
+<td><p>Nachdem Sie die Schritte zum Vorbereiten und Konfigurieren Ihrer Umgebung für Skype for Business Online abgeschlossen haben, können Sie mit dem Verschieben von Pilotbenutzern nach lync Online beginnen.</p>
+<p>Informationen finden Sie unter <a href="lync-server-2013-move-users-to-lync-online.md">Verschieben von Benutzern nach lync Online in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Verwalten von Benutzern in einer Hybridbereitstellung</p></td>
-<td><p>Ausführliche Informationen zum Verwalten von Benutzern in einer Hybridbereitstellung finden Sie unter <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Verwalten von Benutzern in einer Lync Server 2013-Hybridbereitstellung</a>.</p></td>
+<td><p>Details zum Verwalten von Benutzern in einer hybridbereitstellung finden Sie unter Verwalten von <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Benutzern in einer hybriden lync Server 2013-Bereitstellung</a>.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,70 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung für die Integration gehosteter Exchange UM-Dienste'
-TOCTitle: Unterstützung für die Integration gehosteter Exchange UM-Dienste
-ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398821(v=OCS.15)
-ms:contentKeyID: 49295367
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützung für die Integration gehosteter Exchange UM-Dienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Support for hosted Exchange UM integration
+ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
+ms:contentKeyID: 48185376
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 56ba107c9a782acb15ccd8d57f82cf567f2b75e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847702"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Unterstützung für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-Die Lync Server 2013 ExUM-Routinganwendung bietet Unterstützung für die Integration mit Exchange Unified Messaging (UM) in einer lokalen Umgebung, wobei sowohl Lync Server 2013 als auch Exchange UM lokal innerhalb des Unternehmens installiert werden, oder Exchange UM durch einen Dienstanbieter gehostet wird, wie im nachfolgenden Diagramm dargestellt.
+Die lync Server 2013 ExUM-Routing Anwendung unterstützt die Integration in Exchange Unified Messaging (um) in einer lokalen Umgebung, in der lync Server 2013 und Exchange um sowohl lokal innerhalb Ihres Unternehmens installiert sind, als auch in Exchange um von einer Dienstanbieter, wie in der folgenden Abbildung dargestellt.
 
-![Lokale Lync Server-Exchange UM-Bereitstellung](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Lokale Lync Server-Exchange UM-Bereitstellung")
+![Lokale lync Server Exchange um-Bereitstellung] (images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Lokale lync Server Exchange um-Bereitstellung")
 
 Die folgenden Modi werden unterstützt:
 
-  - **Lokaler Modus**   Sowohl Lync Server 2013 als auch Exchange UM werden auf lokalen Servern innerhalb des Unternehmens bereitgestellt.
+  - **Der lokale Modus**   lync Server 2013 und Exchange um werden auf lokalen Servern innerhalb Ihres Unternehmens bereitgestellt.
 
-  - **Standortübergreifender Modus**    Lync Server 2013 wird auf lokalen Servern innerhalb des Unternehmens bereitgestellt, und Exchange UM wird in der Umgebung eines Onlinedienstanbieters gehostet, beispielsweise in einem Microsoft Exchange Online-Rechenzentrum.
+  - ****   Standortübergreifender Modus lync Server 2013 wird auf lokalen Servern innerhalb Ihres Unternehmens bereitgestellt, und Exchange um wird in der Einrichtung eines Onlinedienstanbieters wie einem Microsoft Exchange Online-Rechenzentrum gehostet.
 
-  - **Gemischter Modus**   Ihre Lync Server 2013-Bereitstellung umfasst einige Benutzerpostfächer auf lokalen Servern mit Microsoft Exchange Server sowie Postfächer, die in einem gehosteten Exchange-Rechenzentrum verwaltet werden.
+  - **Gemischter Modus**   ihre lync Server 2013-Bereitstellung enthält einige Benutzerpostfächer, die sich auf lokalen Servern mit Microsoft Exchange Server innerhalb Ihres Unternehmens und einigen Postfächern befinden, die in einem gehosteten Exchange-Dienst-Rechenzentrum verwaltet werden.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Der gemischte Modus kann als Übergangslösung bei der Evaluierung und schrittweisen Migration von Benutzern auf gehostete Exchange UM-Dienste oder als dauerhafte Lösung eingesetzt werden, wenn Sie einige Exchange UM-Dienste nach der Migration weiterhin lokal verwalten möchten.
+    > [!NOTE]  
+    > Der gemischte Modus kann während der Evaluierung und schrittweisen Migration von Benutzern zu Hosted Exchange um als Übergangslösung verwendet werden, oder als dauerhafte Lösung, wenn Sie sich entscheiden, die Exchange um-Dienste einiger Benutzer nach der Migration anderer Personen lokal zu verwalten.
 
+    
+    </div>
 
+Zum Integrieren von lync Server 2013 in gehostete Exchange um müssen Sie einen *freigegebenen SIP-Adressraum* (auch als geteilte *Domäne*bezeichnet) konfigurieren. In dieser Konfiguration können sowohl lync Server 2013 als auch der von einem Drittanbieter gehostete Exchange um-Dienstanbieter auf denselben SIP-Domänen Adressraum zugreifen. Ausführliche Informationen finden Sie unter [Hosted Exchange um-Integrationsarchitektur in lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) in der Planungsdokumentation.
 
-Zur Integration von Lync Server 2013 mit gehosteten Exchange UM-Diensten müssen Sie einen *freigegebenen SIP-Adressraum* konfigurieren (auch als *getrennte Domäne* bezeichnet). In dieser Konfiguration steht derselbe SIP-Domänenadressraum sowohl für Lync Server 2013 als auch für den Drittanbieter für gehostete Exchange UM-Dienste zur Verfügung. Ausführliche Informationen finden Sie unter [Architektur für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) in der Planungsdokumentation.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,71 @@
-﻿---
-title: Migrieren von Einwahlnummern
-TOCTitle: Migrieren von Einwahlnummern
-ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204898(v=OCS.15)
-ms:contentKeyID: 49294053
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren von Zugriffsnummern für die Einwahl
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate dial-in access numbers
+ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)
+ms:contentKeyID: 48184171
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b86db6e669fd5f52827591c25e5bb237bd9ee012
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847121"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von Einwahlnummern
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrate-dial-in-access-numbers"></a>Migrieren von Zugriffsnummern für die Einwahl
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-26_
 
-Das Migrieren von Einwahlnummern erfordert zwei Schritte: das Ausführen des Cmdlets **Import-CsLegacyConfiguration** (zuvor abgeschlossen in [Importieren von Richtlinien und Einstellungen](import-policies-and-settings.md)), um Wähleinstellungen und andere Einwahlnummerneinstellungen zu migrieren, sowie das Ausführen des Cmdlets **Move-CsApplicationEndpoint** , um die Kontaktobjekte zu migrieren.
+Zum Migrieren von Einwahl Zugriffsnummern sind zwei Schritte erforderlich: Ausführen des Cmdlets " **Import-CsLegacyConfiguration** " (bereits in [Importieren von Richtlinien und Einstellungen](import-policies-and-settings.md)) zum Migrieren von Wählplänen und anderen Einstellungen für Einwahlnummern und Ausführen des ** Move-CsApplicationEndpoint-** Cmdlet, um die Kontaktobjekte zu migrieren.
 
-## So migrieren Sie Zugriffsnummern für die Einwahl
+<div>
 
-1.  Öffnen Sie das Verwaltungstool von Office Communications Server 2007 R2.
+## <a name="to-migrate-dial-in-access-numbers"></a>So migrieren Sie Einwahl Zugriffsnummern
 
-2.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten für die Gesamtstruktur, klicken Sie auf **Eigenschaften** und dann auf **Eigenschaften der Konferenzzentrale** .
+1.  Öffnen Sie das Office Communications Server 2007 R2-Verwaltungstool.
 
-3.  Klicken Sie auf der Registerkarte **Zugriffstelefonnummern** auf **Verarbeitet vom Pool** , um die Zugriffstelefonnummern nach dem zugeordneten Pool zu ordnen und alle Zugriffnummern für den zu migrierenden Pool zu identifizieren.
+2.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten Gesamtstruktur, klicken Sie auf **Eigenschaften**, und klicken Sie dann auf **Eigenschaften der Konferenzzentrale**.
 
-4.  Zum Identifizieren der SIP-URI für jede Zugriffsnummer doppelklicken Sie auf die Zugriffsnummer, um das Dialogfeld **Zum Identifizieren der SIP-URI für jede Zugriffsnummer doppelklicken Sie auf die Zugriffsnummer, um das Dialogfeld** zu öffnen, und sehen Sie dann unter **SIP-URI** nach.
+3.  Klicken Sie auf der Registerkarte **Access-Telefonnummern** auf **gewartet nach Pool** , um die Access-Telefonnummern nach dem zugehörigen Pool zu sortieren, und identifizieren Sie alle Zugriffsnummern für den Pool, aus dem Sie migrieren möchten.
 
-5.  Öffnen Sie die Lync Server-Verwaltungsshell.
+4.  Um den SIP-URI für jede Zugriffsnummer zu identifizieren, doppelklicken Sie auf die Zugriffsnummer, um das Dialogfeld **Konferenzzentrale Nummer bearbeiten** zu öffnen, und schauen Sie unter **SIP-URI**nach.
 
-6.  Zum Verschieben aller Einwahlnummern in einen auf Lync Server 2013 gehosteten Pool führen Sie Folgendes aus:
+5.  Öffnen Sie die lync Server-Verwaltungsshell.
+
+6.  Führen Sie die folgenden Schritte aus, um jede Einwahl Zugriffsnummer in einen Pool zu verschieben, der auf lync Server 2013 gehostet wird:
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  Vergewissern Sie sich, dass im Office Communications Server 2007 R2-Verwaltungstool auf der Registerkarte **Zugriffstelefonnummern** keine Zugriffsnummern für die Einwahl mehr für den Office Communications Server 2007 R2-Pool verzeichnet sind, von dem Sie die Migration durchführen.
+7.  Überprüfen Sie im Office Communications Server 2007 R2-Verwaltungstool auf der Registerkarte **Access-Telefonnummern** , ob keine Einwahl Zugriffsnummern für den Office Communications Server 2007 R2-Pool vorhanden sind, von dem aus Sie migrieren.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

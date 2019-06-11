@@ -1,31 +1,51 @@
-﻿---
-title: Anzeigen von Informationen zu Netzwerkschnittstellen
-TOCTitle: Anzeigen von Informationen zu Netzwerkschnittstellen
-ms:assetid: e7dbb1ec-62b3-48be-a419-c493df5740e6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721916(v=OCS.15)
-ms:contentKeyID: 49890983
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Netzwerkschnittstelleninformationen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network interface information
+ms:assetid: e7dbb1ec-62b3-48be-a419-c493df5740e6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721916(v=OCS.15)
+ms:contentKeyID: 49733850
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f15cf34c7a6743fdd3dbf23558e0c747a1c237bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847222"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Netzwerkschnittstellen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-network-interface-information-in-lync-server-2013"></a>Anzeigen von Netzwerkschnittstelleninformationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-## Anzeigen von Netzwerkschnittstelleninformationen mithilfe der Lync Server-Verwaltungsshell-Cmdlets
+Sie können Netzwerkschnittstelleninformationen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsNetworkInterface** anzeigen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-Netzwerkschnittstelleninformationen können Sie mit der Lync Server-Verwaltungsshell und dem **Get-CsNetworkInterface**-Cmdlet anzeigen. Dieses Cmdlet können Sie entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So zeigen Sie Netzwerkschnittstelleninformationen an
+## <a name="to-view-network-interface-information"></a>So zeigen Sie Netzwerkschnittstelleninformationen an
 
-  - Um Netzwerkschnittstelleninformationen anzuzeigen, geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Um Netzwerkschnittstelleninformationen anzuzeigen, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkInterface
     
-    Mit dem folgenden Befehl werden für jede Netzwerkschnittstelle Informationen, die so oder ähnlich aussehen, zurückgegeben:
+    Dieser Befehl gibt für jede Netzwerkschnittstelle Informationen ähnlich der folgenden zurück:
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -36,6 +56,18 @@ Netzwerkschnittstelleninformationen können Sie mit der Lync Server-Verwaltungss
         ConfiguredFqdn        :
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
+    
+    Ausführliche Informationen finden Sie unter [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
 
-Ausführliche Informationen dazu finden Sie unter [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

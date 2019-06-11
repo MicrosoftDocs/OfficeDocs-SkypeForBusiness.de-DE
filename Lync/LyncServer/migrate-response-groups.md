@@ -1,69 +1,113 @@
-﻿---
-title: Migrieren von Reaktionsgruppen
-TOCTitle: Migrieren von Reaktionsgruppen
-ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204854(v=OCS.15)
-ms:contentKeyID: 49293835
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren von Reaktionsgruppen
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate response groups
+ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)
+ms:contentKeyID: 48184020
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 60a5bb2b2124b84adeb6a494f6f33ce867f7d416
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von Reaktionsgruppen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrate-response-groups"></a>Migrieren von Reaktionsgruppen
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-09-23_
 
-Nachdem Ihre Benutzer in Lync Server 2013-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Dies beinhaltet das Kopieren von Agent-Gruppen, Warteschlangen, Workflows und Audiodateien sowie das Verschieben von Reaktionsgruppe-Kontaktobjekten aus der Bereitstellung der Vorversion in den Lync Server 2013-Pool. Nach der Migrierung Ihrer Reaktionsgruppen aus der Vorversion, werden Anrufe an den Reaktionsgruppen von der Reaktionsgruppenanwendung im Lync Server 2013-Pool abgewickelt. Der Vorversionspool wickelt keine Anrufe an Reaktionsgruppen mehr ab.
+Nachdem die Benutzer in die lync Server 2013-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Zum Migrieren von Reaktionsgruppen gehören das Kopieren von Agentengruppen, Warteschlangen, Workflows, Audiodateien und Verschieben von Kontaktobjekten der Reaktionsgruppe aus der Legacy Bereitstellung in den lync Server 2013-Pool. Nachdem Sie Ihre Legacy Antwortgruppen migriert haben, werden die Anrufe an die Reaktionsgruppen von der Antwortgruppen Anwendung im lync Server 2013-Pool verarbeitet. Anrufe an Reaktionsgruppen werden nicht mehr vom Legacy Pool verarbeitet.
+
+<div>
 
 
-> [!NOTE]
-> Sie können Reaktionsgruppen zwar migrieren, bevor Sie alle Benutzer in den Lync Server 2013-Pool verschoben haben, es wird jedoch empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere Benutzer, die Reaktionsgruppen-Agents sind, haben keine vollständige Funktionalität bei neuen Funktionen, bevor sie in den Lync Server 2013-Pool verschoben werden.
-
-
-
-Bevor Sie Reaktionsgruppen verschieben, müssen Sie einen Lync Server 2013-Pool bereitstellen, der die Reaktionsgruppenanwendung beinhaltet. Die Reaktionsgruppenanwendung wird bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert und aktiviert. Sie können sicherstellen, dass die Reaktionsgruppenanwendung installiert ist, indem Sie das **Get-CsService –ApplicationServer**-Cmdlet ausführen.
-
-
-> [!NOTE]
-> Sie können neue Lync Server 2013-Reaktionsgruppen im Lync Server 2013-Pool erstellen, bevor Sie Ihre Reaktionsgruppen aus der Vorversion migrieren.
+> [!NOTE]  
+> Obwohl Sie Antwortgruppen migrieren können, bevor Sie alle Benutzer in den lync Server 2013-Pool verschieben, empfiehlt es sich, zuerst alle Benutzer zu verschieben. Insbesondere haben Benutzer, die Reaktionsgruppen-Agents sind, nicht die vollständige Funktionalität der neuen Features, bis Sie in den lync Server 2013-Pool verschoben werden.
 
 
 
-Um Reaktionsgruppen aus einem Vorversionspool zum Lync Server 2013 zu migrieren, führen Sie das **Move-CsRgsConfiguration**-Cmdlet aus.
+</div>
+
+Bevor Sie Antwortgruppen migrieren, müssen Sie einen lync Server 2013-Pool bereitgestellt haben, der die reaktionsgruppenanwendung enthält. Die reaktionsgruppenanwendung wird standardmäßig installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen. Sie können sicherstellen, dass die reaktionsgruppenanwendung installiert ist, indem Sie das Cmdlet " **Get-CsService – ApplicationServer** " ausführen.
+
+<div>
 
 
-> [!IMPORTANT]
-> Das Reaktionsgruppe-Migrations-Cmdlet verschiebt die Reaktionsgruppe-Konfiguration für den gesamten Pool. Die Auswahl bestimmter Gruppen, Warteschlangen oder Workflows zum Migrieren ist nicht möglich.
-
-
-
-Nach der Migration der Reaktionsgruppen müssen Sie Lync Server-Systemsteuerung- oder Lync Server-Verwaltungsshell-Cmdlets verwenden, um zu überprüfen, ob alle Vertretergruppen, Warteschlangen und Workflows erfolgreich verschoben wurden.
-
-Wenn Sie Reaktionsgruppen migrieren, werden die Lync Server 2010-Reaktionsgruppen nicht entfernt. Wenn Sie nach der Migration Reaktionsgruppen mithilfe von Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell verwalten, können Sie sowohl die Lync Server 2010- als auch die Lync Server 2013-Reaktionsgruppen sehen. Sie sollten nur Updates für die Lync Server 2013-Reaktionsgruppen installieren. Die Lync Server 2010-Reaktionsgruppen werden nur zu Wiederherstellungszwecken beibehalten.
-
-> [!CAUTION]  
-> Nachdem die Migration abgeschlossen und neue Reaktionsgruppen erstellt wurden, werden in der Lync Server-Systemsteuerung und in der Lync Server-Verwaltungsshell die Lync Server 2010- und Lync Server 2013-Versionen der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell zum Entfernen der Lync Server 2010-Reaktionsgruppen. Wenn Sie eine Reaktionsgruppe entfernen, stellt die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, die Arbeit ein. Die Lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den Lync Server 2010-Pool außer Betrieb nehmen.
+> [!NOTE]  
+> Sie können neue lync Server 2013-Antwortgruppen im lync Server 2013-Pool erstellen, bevor Sie Ihre Legacy Antwortgruppen migrieren.
 
 
 
-> [!IMPORTANT]
-> Es wird empfohlen, keinerlei Daten Ihrer vorigen Bereitstellung zu entfernen, bevor Sie den Pool außer Betrieb setzen. Außerdem wird dringend empfohlen, Reaktionsgruppen unmittelbar nach der Migration zu exportieren. Wenn eine Lync Server 2010-Reaktionsgruppe gelöscht wird, können Sie Ihre Reaktionsgruppen aus der Sicherung wiederherstellen, damit Lync Server 2013-Reaktionsgruppen wieder funktionieren.
+</div>
+
+Führen Sie das Cmdlet **Move-CsRgsConfiguration** aus, um Reaktionsgruppen aus einem Legacy Pool auf den lync Server 2013 zu migrieren.
+
+<div>
+
+
+> [!IMPORTANT]  
+> Mit dem Cmdlet "Migration der Reaktionsgruppe" wird die Reaktionsgruppen Konfiguration für den gesamten Pool verschoben. Sie können keine bestimmten Gruppen, Warteschlangen oder Workflows auswählen, die migriert werden sollen.
 
 
 
-Mit Lync Server 2013 wird eine neue Reaktionsgruppe Funktion namens **Workflowtyp** eingeführt. Der **Workflowtyp** kann **Verwaltet** oder **Nicht veraltet** sein. Alle Reaktionsgruppen werden mit dem **Workflowtyp** **Nicht verwaltet** und mit leerer Manager-Liste migriert.
+</div>
 
-Wenn Sie das **Move-CsRgsConfiguration**-Cmdlet ausführen, bleiben die Agent-Gruppen, Warteschlangen, Workflows und Audiodateien zu Wiederherstellungszwecken im Vorversionspool. Wenn Sie ein Rollback auf den Vorversionspool ausführen müssen, müssen Sie allerdings das **Move-CsApplicationEndpoint**-Cmdlet ausführen, um Kontaktobjekte zurück in den Vorversionspool zu verschieben.
+Nachdem Sie die Antwortgruppen migriert haben, müssen Sie die lync Server Control Panel-oder lync Server-Verwaltungsshell-Cmdlets verwenden, um zu überprüfen, ob alle Agentengruppen,-Warteschlangen und-Workflows erfolgreich verschoben wurden.
 
-Das folgende Verfahren zum Migrieren von Reaktionsgruppe-Konfigurationen setzt voraus, dass eine 1:1-Beziehung zwischen Ihren Vorversionspools und den Lync Server 2013-Pools besteht. Falls Sie während der Migration und Bereitstellung Pools konsolidieren oder trennen möchten, müssen Sie planen, welcher Vorversionspool welchem Lync Server 2013-Pool zugeordnet wird.
+Wenn Sie Antwortgruppen migrieren, werden die lync Server 2010-Antwortgruppen nicht entfernt. Wenn Sie Antwortgruppen nach der Migration mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell verwalten, werden sowohl die lync Server 2010-Antwortgruppen als auch die lync Server 2013-Reaktionsgruppen angezeigt. Sie sollten Updates nur auf die lync Server 2013-Reaktionsgruppen anwenden. Die lync Server 2010-Reaktionsgruppen werden nur für Rollback-Zwecke aufbewahrt.
 
-## So migrieren Sie Reaktionsgruppe-Konfigurationen
+<div>
 
-1.  Melden Sie sich auf dem Computer über ein Konto an, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist oder über entsprechende Administratorrechte und -berechtigungen verfügt.
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+> [!WARNING]  
+> Nachdem die Migration abgeschlossen und die neuen Reaktionsgruppen erstellt wurden, werden in der lync Server-Systemsteuerung und der lync Server-Verwaltungsshell die Versionen lync Server 2010 und lync Server 2013 jeder Reaktionsgruppe angezeigt. Verwenden Sie die lync Server-Systemsteuerung oder die lync Server-Verwaltungsshell nicht, um die lync Server 2010-Reaktionsgruppen zu entfernen. Wenn Sie eine entfernen, wird die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, nicht mehr funktionieren. Die lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den lync Server 2010-Pool außer Betrieb nehmen.
+
+
+
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> Wir empfehlen, dass Sie keine Daten aus Ihrer vorherigen Bereitstellung entfernen, bevor Sie den Pool außer Betrieb nehmen. Darüber hinaus wird dringend empfohlen, dass Sie Reaktionsgruppen unmittelbar nach der Migration exportieren. Wenn eine lync Server 2010-Reaktionsgruppe entfernt werden soll, können Sie Ihre Reaktionsgruppen aus der Sicherung wiederherstellen, damit die lync Server 2013-Reaktionsgruppen erneut ausgeführt werden.
+
+
+
+</div>
+
+Lync Server 2013 führt ein neues Reaktionsgruppen Feature namens **Workflowtyp**ein. **** Der Workflowtyp kann **verwaltet** oder **nicht verwaltet**werden. Alle Antwortgruppen werden migriert, **** wobei der Workflowtyp auf **nicht verwaltet** und mit einer leeren Manager Liste gesetzt ist.
+
+Wenn Sie das Cmdlet **Move-CsRgsConfiguration** ausführen, verbleiben die Agentengruppen,-Warteschlangen,-Workflows und-Audiodateien im Legacy Pool für Rollback-Zwecke. Wenn Sie jedoch einen Rollback zum Legacy Pool durchführen müssen, müssen Sie das Cmdlet **Move-CsApplicationEndpoint** ausführen, um die Kontaktobjekte wieder in den Legacy Pool zu verschieben.
+
+Das folgende Verfahren zum Migrieren von Reaktionsgruppen Konfigurationen setzt voraus, dass Sie über eine 1:1-Beziehung zwischen Ihren Legacy Pools und den lync Server 2013-Pools verfügen. Wenn Sie beabsichtigen, Pools während ihrer Migration und Bereitstellung zu konsolidieren oder aufzuteilen, müssen Sie planen, welche Legacy Pool-Zuordnungen dem lync Server 2013-Pool zugeordnet werden.
+
+<div>
+
+## <a name="to-migrate-response-group-configurations"></a>So migrieren Sie Reaktionsgruppen Konfigurationen
+
+1.  Melden Sie sich bei dem Computer mit einem Konto an, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist oder über entsprechende Administratorrechte und-Berechtigungen verfügt.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie folgenden Befehl aus:
     
@@ -73,29 +117,37 @@ Das folgende Verfahren zum Migrieren von Reaktionsgruppe-Konfigurationen setzt v
     
         Move-CsRgsConfiguration -Source lync-old.contoso.net -Destination lync-new.contoso.net
 
-4.  Nach der Migration von Reaktionsgruppen und Agents zum Lync Server 2013-Pool ist die URL, die Agents zur An- und Abmeldung verwenden, eine Lync Server 2013-URL, die im Menü **Extras** zur Verfügung steht. Erinnern Sie Agents daran, sämtliche Referenzen, beispielsweise Lesezeichen, auf die neue URL zu aktualisieren.
+4.  Nachdem Sie Antwortgruppen und Agents in den lync Server 2013-Pool migriert haben, ist die URL, die Agents zum Anmelden und Abmelden verwenden, eine lync Server 2013-URL und steht im Menü **Extras** zur Verfügung. Erinnern Sie die Agents daran, alle Verweise wie Textmarken auf die neue URL zu aktualisieren.
 
-## So überprüfen Sie die Reaktionsgruppenmigration mithilfe von Lync Server-Systemsteuerung
+</div>
 
-1.  Melden Sie sich mit einem Konto am Computer an, das Mitglied der Gruppe "RTCUniversalReadOnlyAdmins" oder mindestens Mitglied der Rolle "CsViewOnlyAdministrator" ist.
+<div>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>So überprüfen Sie die Migration der Reaktionsgruppen mithilfe der lync Server-Systemsteuerung
 
-3.  Klicken Sie im linken Navigationsbereich auf **Reaktionsgruppen** .
+1.  Melden Sie sich bei dem Computer mit einem Konto an, das Mitglied der RTCUniversalReadOnlyAdmins-Gruppe ist, oder wenn es sich um eine minimale Mitgliedschaft in der CsViewOnlyAdministrator-Rolle handelt.
 
-4.  Überprüfen Sie auf der Registerkarte **Workflow** , dass die Liste alle Workflows in Ihrer Lync Server 2010-Umgebung enthält.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-5.  Klicken Sie auf die Registerkarte **Warteschlange** , und überprüfen Sie, ob die Liste alle Warteschlangen in Ihrer Lync Server 2010-Umgebung enthält.
+3.  Klicken Sie im linken Navigationsbereich auf **Reaktionsgruppen**.
 
-6.  Klicken Sie auf die Registerkarte **Gruppe** , und überprüfen Sie, ob die Liste alle Agentgruppen in Ihrer Lync Server 2010-Umgebung enthält.
+4.  Überprüfen Sie auf der Registerkarte **Workflow** , ob alle Workflows in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
 
-## So überprüfen Sie die Reaktionsgruppenmigration mithilfe von Lync Server-Verwaltungsshell
+5.  Klicken Sie auf die Registerkarte **Warteschlange** , und stellen Sie sicher, dass alle Warteschlangen in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
 
-1.  Melden Sie sich mit einem Konto am Computer an, das Mitglied der Gruppe "RTCUniversalReadOnlyAdmins" oder mindestens Mitglied der Rolle "CsViewOnlyAdministrator" ist.
+6.  Klicken Sie auf die Registerkarte **Gruppe** , und stellen Sie sicher, dass alle Agentengruppen in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+</div>
+
+<div>
+
+## <a name="to-verify-response-group-migration-by-using-lync-server-management-shell"></a>So überprüfen Sie die Migration der Reaktionsgruppen mithilfe der lync Server-Verwaltungsshell
+
+1.  Melden Sie sich bei dem Computer mit einem Konto an, das Mitglied der RTCUniversalReadOnlyAdmins-Gruppe ist, oder wenn es sich um eine minimale Mitgliedschaft in der CsViewOnlyAdministrator-Rolle handelt.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
     
-    Führen Sie Folgendes aus, um nähere Informationen zu den folgenden Cmdlets zu erhalten:
+    Ausführliche Informationen zu den folgenden Cmdlets finden Sie unter:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -103,17 +155,29 @@ Das folgende Verfahren zum Migrieren von Reaktionsgruppe-Konfigurationen setzt v
     
         Get-CsRgsAgentGroup
 
-4.  Überprüfen Sie, ob alle Agentgruppen in Ihrer Lync Server 2010-Umgebung in der Liste enthalten sind.
+4.  Überprüfen Sie, ob alle Agentengruppen in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
 
 5.  Führen Sie folgenden Befehl aus:
     
         Get-CsRgsQueue
 
-6.  Überprüfen Sie, ob alle Warteschlangen in Ihrer Lync Server 2010-Umgebung in der Liste enthalten sind.
+6.  Überprüfen Sie, ob alle Warteschlangen in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
 
 7.  Führen Sie folgenden Befehl aus:
     
         Get-CsRgsWorkflow
 
-8.  Überprüfen Sie, ob alle Workflows in Ihrer Lync Server 2010-Umgebung in der Liste enthalten sind.
+8.  Überprüfen Sie, ob alle Workflows in ihrer lync Server 2010-Umgebung in der Liste enthalten sind.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,71 +1,141 @@
-﻿---
-title: Cmdlets für die Benutzerverwaltung
-TOCTitle: Cmdlets für die Benutzerverwaltung
-ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398677(v=OCS.15)
-ms:contentKeyID: 49294627
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Cmdlets für die Benutzerverwaltung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User management cmdlets
+ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
+ms:contentKeyID: 48184702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a841daae6a811b6668c61ac1befca045fb73b03f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847408"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cmdlets für die Benutzerverwaltung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="user-management-cmdlets-in-lync-server-2013"></a>Cmdlets für die Benutzerverwaltung in lync Server 2013
 
-Mit den in Microsoft Lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung können Sie Lync Server-Benutzerkonten aktivieren, deaktivieren und ändern.
+</div>
 
-## Cmdlets für die Benutzerverwaltung
+<div id="mainSection">
 
-Die meisten Verwaltungsaufgaben in Bezug auf Benutzer und Benutzerkonten können über die Lync Server-Systemsteuerung ausgeführt werden. Eine Ausnahme bilden die Cmdlets zum Konfigurieren von Audiokonferenzanbietern. Aufgaben im Rahmen der Benutzerverwaltung können auch unter Verwendung von Lync Server-Verwaltungsshell-Cmdlets oder aus einem Skript ausgeführt werden. Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden. In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Benutzern und Benutzerkonten eingesetzt werden:
+<div id="mainBody">
 
-  - [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
+<span> </span>
 
-  - [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
+_**Letztes Änderungsdatum des Themas:** 2013-02-18_
 
-  - [Get-CsClientAccessLicense](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientAccessLicense)
+Die in Microsoft lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung ermöglichen es Ihnen, lync Server-Benutzerkonten zu aktivieren, zu deaktivieren und zu ändern.
 
-  - [Get-CsEffectivePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsEffectivePolicy)
+<div>
 
-  - [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback)
+## <a name="user-management-cmdlets"></a>Cmdlets für die Benutzerverwaltung
 
-  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
+Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, können über die lync Server-Systemsteuerung ausgeführt werden. Die wichtigsten Ausnahmen sind die Cmdlets, die sich mit Audiokonferenz-Anbietern befassen. Benutzer Verwaltungsaufgaben können mithilfe von Cmdlets aus der lync Server-Verwaltungsshell oder in einem Skript ausgeführt werden. Mithilfe eines Skripts können Sie bestimmte Aufgaben automatisieren. Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung von Benutzern und Benutzerkonten beziehen:
 
-  - [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
+  - <span></span>  
+    [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
 
-  - [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
+<!-- end list -->
 
-  - [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
+  - <span></span>  
+    [Get-CsAdUser](https://docs.microsoft.com/powershell/module/skype/Get-CsAdUser)
 
-  - [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+<!-- end list -->
 
-  - [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
+  - [Get-CsClientAccessLicense](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+<!-- end list -->
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Get-CsEffectivePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+<!-- end list -->
 
-  - [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
+  - [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
 
-  - [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
+<!-- end list -->
 
-  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserServicesPolicy)
+  - [Debug-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
 
-  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsUserServicesPolicy)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
 
-  - [New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)
+<!-- end list -->
 
-  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - <span></span>  
+    [Deaktivieren-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
 
-  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
+  - <span></span>  
+    [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
 
-## Siehe auch
+  - <span></span>  
+    [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
-#### Weitere Ressourcen
+  - <span></span>  
+    [Verschieben-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
-[Lync Server PowerShell-Blog](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x407)
+  - <span></span>  
+    [Satz-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Get-CsUserAcp)
+
+  - <span></span>  
+    [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
+
+  - <span></span>  
+    [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+
+  - <span></span>  
+    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsUserPoolInfo](https://docs.microsoft.com/powershell/module/skype/Get-CsUserPoolInfo)
+
+<!-- end list -->
+
+  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
+
+  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
+
+  - [New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+
+  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+
+  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Lync Server PowerShell-Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

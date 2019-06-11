@@ -1,56 +1,63 @@
-﻿---
-title: Zuweisen einer Ortungsrichtlinie auf Benutzerebene
-TOCTitle: Zuweisen einer Ortungsrichtlinie auf Benutzerebene
-ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520974(v=OCS.15)
-ms:contentKeyID: 49293625
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Zuweisen einer Ortungsrichtlinie auf Benutzerebene
+title: 'Lync Server 2013: Zuweisen einer Standortrichtlinie für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user location policy
+ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)
+ms:contentKeyID: 48183794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4a387d0f603addea31bd1e3ee6b591e06a26b2c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847891"
+---
+# <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Zuweisen einer Standortrichtlinie für einzelne Benutzer in lync Server 2013
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Die Ortungsrichtlinie ist eine der Einstellungen für ein Benutzerkonto, die Sie in der Lync Server-Systemsteuerung konfigurieren können.
+Die ortungsrichtlinie ist eine der individuellen Einstellungen eines Benutzerkontos, das Sie in der lync Server-Systemsteuerung konfigurieren können.
 
-Die Bereitstellung einer oder mehrerer Ortungsrichtlinien auf Benutzerebene ist optional. Sie können stattdessen auch nur eine Ortungsrichtlinie auf globaler oder auf Subnetzebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. E9-1-1-Einstellungen werden standardmäßig auf die in der Ortungsrichtlinie auf globaler Ebene definierten Einstellungen festgelegt, wenn keine spezifische Richtlinie auf Subnetz- oder Benutzerebene zugewiesen wird.
+Die Bereitstellung einer oder mehrerer Standortrichtlinien für einzelne Benutzer ist optional. Sie können auch nur eine ortungsrichtlinie auf globaler Ebene oder eine Standortrichtlinie auf Subnetzebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. Erweiterte 9-1-1-Einstellungen (E9-1-1) werden standardmäßig automatisch auf die in der Standortrichtlinie auf globaler Ebene definierten Einstellungen festgelegt, wenn keine spezifische Richtlinie für subnetebene oder pro Benutzer zugewiesen ist.
 
-Nach Erstellung mindestens einer Ortungsrichtlinie auf Benutzerebene führen Sie die Schritte in diesem Thema aus, um die Richtlinie mit den Einstellungen zuzuweisen, die der Server auf Notrufe von einem bestimmten Benutzer anwenden soll.
+Nachdem Sie mindestens eine Standortrichtlinie für einzelne Benutzer erstellt haben, verwenden Sie die in diesem Thema beschriebenen Verfahren, um der Richtlinie zuzuweisen, die die Einstellungen angibt, die der Server für Notrufe von einem bestimmten Benutzer beantragen soll.
 
-Eine Liste aller verfügbaren Standortrichtlinieneinstellungen finden Sie unter [Definieren der Standortrichtlinie für Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Eine Liste aller verfügbaren Einstellungen für Standortrichtlinien finden Sie unter [Definieren der Standortrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-Ausführliche Informationen zur Erstellung von Standortrichtlinien finden Sie unter [Erstellen von Ortungsrichtlinien in Lync Server 2013](lync-server-2013-create-location-policies.md).
+Details zum Erstellen von Standortrichtlinien finden Sie unter [Erstellen von Standortrichtlinien in lync Server 2013](lync-server-2013-create-location-policies.md).
 
-## So weisen Sie eine Ortungsrichtlinie auf Benutzerebene zu
+## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a>So weisen Sie der lync Server-Systemsteuerung eine Standortrichtlinie für einzelne Benutzer zu
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Verwenden Sie eine der folgenden Methoden, um nach einem Benutzer zu suchen:
     
-      - Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+      - Geben Sie im Feld **Benutzer suchen** den vollständigen oder teilweisen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein und klicken Sie dann auf **Suchen**.
     
       - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**, verwenden Sie das Dialogfeld **Öffnen**, um die Abfrage abzurufen (eine USF-Datei), und klicken Sie dann auf **Suchen**.
 
-5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:
+5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse einzuschränken:
     
     1.  Klicken Sie auf **Filter hinzufügen**.
     
-    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
+    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie über die Tastatur eintippen oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
     
     3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (beispielsweise **Gleich** oder **Ungleich**).
     
-    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
+    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -59,51 +66,51 @@ Ausführliche Informationen zur Erstellung von Standortrichtlinien finden Sie un
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!TIP]
-    > Wenn Sie dieselbe Benutzerortungsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
+    > [!TIP]  
+    > Wenn die gleiche Standortrichtlinie für einzelne Benutzer auf mehrere Benutzer angewendet werden soll, wählen Sie in den Suchergebnissen mehrere Benutzer aus, klicken Sie dann auf <STRONG>Aktionen</STRONG>, und klicken Sie dann auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
 
-7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Ortungsrichtlinie** eine der folgenden Aktionen aus:
+7.  Führen Sie in **Richtlinien zuweisen**unter **ortungsrichtlinie**eine der folgenden Aktionen aus:
     
 
-    > [!NOTE]
-    > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > [!NOTE]  
+    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren <STRONG> &lt;&gt; </STRONG> können, ist für jede Richtlinie im Dialogfeld standardmäßig beibehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Lassen Sie eine automatische Auswahl der globalen Richtlinie oder, falls definiert, der Richtlinie auf Subnetzebene durch Lync Server 2013 zu.
+      - Zulassen, dass lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Subnetzebene wählt.
     
-      - Klicken Sie auf den Namen einer Benutzerortungsrichtlinie, die Sie zuvor durch Ausführen des Cmdlets **New-CsLocationPolicy** definiert haben.
+      - Klicken Sie auf den Namen einer Richtlinie für einzelne Benutzer, die Sie zuvor definiert haben, indem Sie das Cmdlet **New-CsLocationPolicy** ausführen.
         
 
-        > [!TIP]
-        > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
+        > [!TIP]  
+        > Wenn Sie bei der Entscheidung über die Richtlinie helfen möchten, die Sie zuweisen möchten, klicken Sie nach dem Klicken auf einen Richtliniennamen auf <STRONG>Ansicht</STRONG> , um die in der Richtlinie definierten Benutzerrechte und Berechtigungen anzuzeigen.
 
 
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## So weisen Sie eine benutzerbasierte Standortrichtlinie mithilfe der Lync Server-Verwaltungsshell zu
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Zuweisen einer Standortrichtlinie für einzelne Benutzer mithilfe der lync Server-Verwaltungsshell-Cmdlets
 
-Sie können benutzerbasierte Standortrichtlinien mit dem Cmdlet **Grant-CsLocationPolicy** zuweisen. Dieses Cmdlet können Sie entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Mithilfe des Cmdlets Grant-CsLocationPolicy können Sie Standortrichtlinien für einzelne Benutzer zuweisen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-## So weisen Sie eine benutzerbasierte Standortrichtlinie einem einzelnen Benutzer zu
+## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Standortrichtlinie pro Benutzer zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Standortrichtlinie **RedmondLocationPolicy** dem Benutzer Ken Myer zugewiesen.
+  - Der folgende Befehl weist dem Benutzer Ken Myers den Standortrichtlinien-RedmondLocationPolicy pro Benutzer zu.
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName "RedmondLocationPolicy"
 
-## So weisen Sie eine benutzerbasierte Standortrichtlinie mehreren Benutzern zu
+## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Standortrichtlinie pro Benutzer zu
 
-  - Dieser Befehl weist die benutzerbasierte Standortrichtlinie **AccountingDepartmentLocationPolicy** allen Benutzern zu, die in der Buchhaltungsabteilung arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
+  - Dieser Befehl weist allen Benutzern, die für die Buchhaltungsabteilung arbeiten, den Standortrichtlinien-AccountingDepartmentLocationPolicy pro Benutzer zu. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das Cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
-## So heben Sie die Zuweisung der benutzerbasierten Standortrichtlinie auf
+## <a name="to-unassign-a-per-user-location-policy"></a>So heben Sie die Zuweisung einer Standortrichtlinie für einzelne Benutzer auf
 
-  - Mit dem folgenden Befehl wird die für den Benutzer Ken Myer vorgenommene Zuweisung einer benutzerbasierten Standortrichtlinie aufgehoben. Nach dem Aufheben der benutzerbasierten Standortrichtlinie wird Ken Myer automatisch mithilfe der globalen Richtlinie verwaltet oder, sofern vorhanden, mit der ihm zugewiesenen lokalen Standortrichtlinie. Eine Standortrichtlinie hat Vorrang vor einer globalen Richtlinie.
+  - Mit dem folgenden Befehl wird die Zuweisung jeder einzelnen Benutzer-ortungsrichtlinie, die Ken Myers zuvor zugewiesen wurde, aufheben. Anschließend wird Ken Myer automatisch mithilfe der globalen Richtlinie oder, soweit vorhanden, mit seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema für das [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Grant-CsLocationPolicy](https://technet.microsoft.com/en-us/library/gg413049\(v=ocs.15\)) .
 

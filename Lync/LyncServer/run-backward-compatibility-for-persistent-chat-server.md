@@ -1,61 +1,95 @@
-﻿---
-title: Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
-TOCTitle: Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
-ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204901(v=OCS.15)
-ms:contentKeyID: 49294016
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Run backward compatibility for Persistent Chat Server
+ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204901(v=OCS.15)
+ms:contentKeyID: 48184175
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b512d18449c881efd856674477a727cec137b64c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846996"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="run-backward-compatibility-for-persistent-chat-server"></a>Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Der Server für beständigen Chat-Endpunkt von Lync Server 2013 ermöglicht das Erstellen einfacher URLs, die auf einen Serverpool für beständigen Chat zeigen. Dies ist hilfreich für Clients von Vorversionen wie ( Microsoft Office Communications Server 2007 R2Gruppenchatserver oder Lync Server 2010-Gruppenchat), da Benutzer bei der manuellen Konfiguration einfach eine URL eingeben können, damit der Client der Vorversion auf einen Computer mit Lync 2013Beständiger Chat zeigt. Dieser Endpunkt wird von Beständiger Chat nicht verwendet. Er ist nur für Clients von Vorversionen erforderlich. Diese Vorgehensweise ist hilfreich für den Übergangszeitraum, wenn Räume möglicherweise migriert werden müssen, die Lync 2013-Clients jedoch noch nicht in der gesamten Organisation bereitgestellt wurden. Benutzer mit Lync 2010Gruppenchat (Client) können weiterhin eine Verbindung mit dem Server für beständigen ChatBack-End-Server herstellen.
+Der lync Server 2013, beständiger Chat Serverendpunkt bietet eine Möglichkeit zum Erstellen einer einfachen URL, die auf einen beständigen Chat Serverpool verweist. Dies ist nützlich für Legacy-Clients (Microsoft Office Communications Server 2007 R2-Gruppen-Chat Server oder lync Server 2010, Gruppen-Chat), da Benutzer in der manuellen Konfiguration eine einfache URL eingeben können, wenn Sie versuchen, den Legacyclient auf einen Computer mit lync 2013 zu verweisen. Beständiger Chat. Dieser Endpunkt wird nicht vom beständigen Chat verwendet und ist nur für Legacyclients erforderlich. Dies ist für den zwischen Zeitraum nützlich, in dem Räume migriert werden können, die lync 2013-Clients aber nicht in der gesamten Organisation bereitgestellt wurden. Benutzer, die den lync 2010-Gruppen-Chat (Client) ausführen, können dann weiterhin eine Verbindung mit dem Server für beständigen Chat-Server herstellen.
 
-Es ist nicht erforderlich, mehrere Server für beständigen Chat-Endpunkte zu erstellen. Je Serverpool für beständigen Chat ist ein Endpunkt ausreichend. Administratoren können mehrere Endpunkte (einen pro Pool) erstellen. Clients von Vorversionen können jedoch nur jeweils eine Verbindung zu einem Pool herstellen. In einem üblichen Szenario umfasst eine Bereitstellung für Vorversionen nur einen Pool. Bei einer neuen Bereitstellung wird dieser Pool i. d. R. zu einem neuen Lync Server 2013 migriert, und einige zusätzliche Serverpools für beständigen Chat können hinzugefügt werden.
+Sie müssen nicht mehrere Endpunkte für beständigen Chat Server erstellen; Sie benötigen nur eine für jeden beständigen Chat Server Pool. Administratoren können mehrere Endpunkte (eine pro Pool) erstellen, ältere Clients können jedoch so konfiguriert werden, dass Sie nur mit einem Pool verbunden sind. Im normalen oder Mainstream-Szenario ist die Legacy Bereitstellung nur ein Pool. Eine neue Bereitstellung migriert in der Regel diesen Pool zu einem neuen lync Server 2013 und fügt möglicherweise einige neue Server Pools für beständigen Chat hinzu.
 
-Übliche Szenarien weisen i. d. R. folgendes Muster auf:
+Dieses Mainstream-Szenario folgt in der Regel diesem Muster:
 
-  - Die Benutzer werden mit einem Lync Server 2010-Gruppenchat-Pool verwaltet, und die Lync 2010-Gruppenchat-Clients stellen die Verbindung zu dem Pool mit einem bekannten Benutzer (wie dem Standardbenutzer sip:ocschat@ *\<Domänenname\>* .com) oder einem ähnlichen Benutzer her. Die Benutzer wurden für SIP und Active Directory-Domänendienste aktiviert und werden vom Suchdienst für den Empfang von eingehenden Anforderungen registriert.
+  - Sie verwalten Benutzer mit einem lync Server 2010, Gruppen-Chat-Pool und ihren lync 2010-Gruppen-Chat-Clients, die eine Verbindung mit diesem Pool herstellen, indem Sie einen bekannten Benutzer\<verwenden (\>entweder standardmäßig SIP: OCSChat @ Domain Name. com oder eine ähnliche). Die Benutzer sind SIP-fähige Active Directory-Domänendienste, und der Suchdienst registriert sich, um eingehende Anforderungen zu empfangen.
 
-  - Anschließend installieren Sie einen Lync Server 2013Server für beständigen Chat und einen Serverpool für beständigen Chat.
+  - Anschließend installieren Sie einen lync Server 2013-beständigen Chat Server und einen beständigen Chat Serverpool.
 
-  - Für den Zeitraum, in dem die Benutzer für gewöhnlich offline sind (z. B. am Wochenende) werden folgende Maßnahmen empfohlen:
+  - In einer Zeit, in der Benutzer im allgemeinen offline sind (beispielsweise ein Wochenende):
     
-      - Deaktivieren Sie den Lync Server 2010-Gruppenchat.
+      - Deaktivieren Sie lync Server 2010, Gruppen-Chat.
     
-      - Migrieren Sie Daten vom Lync Server 2010-Gruppenchat-Pool zum Lync Server 2013Serverpool für beständigen Chat.
+      - Migrieren Sie Daten aus dem lync Server 2010, Gruppen-Chat-Pool, in den lync Server 2013-Serverpool für beständigen Chat.
     
-      - Löschen Sie den bekannten Benutzer aus dem Active Directory-Domänendienste.
+      - Löschen Sie den bekannten Benutzer aus den Active Directory-Domänendiensten.
     
-      - Erstellen Sie einen neuen *Endpunkt für Vorversionen* mit dem gleichen SIP-URI wie für den zuvor gelöschten bekannten Benutzer.
+      - Erstellen Sie einen neuen *Legacy Endpunkt* mit dem gleichen SIP-URI wie der zuvor gelöschte bekannte Benutzer.
     
-      - Starten Sie die Server für beständigen Chat von Lync Server 2013.
+      - Starten Sie die lync Server 2013, persistent Chat Server.
 
-  - Die Benutzer melden sich wieder mit dem Lync 2010-Gruppenchat-Client an und stellen eine Verbindung zu Ihren Daten her, ohne Änderungen an der Konfiguration vornehmen zu müssen.
+  - Benutzer melden sich mit Ihrem lync 2010-Gruppen-Chat (Client) wieder an und stellen eine Verbindung mit Ihren Daten her, ohne dass eine Konfiguration geändert werden muss.
 
-  - Die alte Bereitstellung von Lync Server 2010-Gruppenchat kann zu einem späteren Zeitpunkt außer Betrieb genommen werden. Anschließend können Sie Lync Server 2013Server für beständigen Chat bereitstellen und neue Lync Server 2013Serverpools für beständigen Chat installieren.
+  - Zu einem späteren Zeitpunkt können Sie den lync Server 2010, Gruppen-Chat, außer Betrieb nehmen. Anschließend können Sie lync Server 2013, beständiger Chat Server und neue lync Server 2013-Server Pools für beständige Chats installieren.
 
-Nähere Informationen zur Migration von Lync Server 2010-Gruppenchat zu Lync Server 2013Server für beständigen Chat finden Sie unter [Migration von Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2-Gruppenchat zu Lync Server 2013 Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
+Details zur Migration von lync Server 2010, Gruppen-Chat zu lync Server 2013, beständiger Chat Server, finden Sie unter [Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppenchat zu lync Server 2013, beständiger Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
 
-Gehen Sie wie folgt vor, um die Abwärtskompatibilität herzustellen (und einen Server für beständigen Chat-Endpunkt zu erstellen, der auf einen Serverpool für beständigen Chat verweist, der von den Gruppenchat-Poolclients von Vorversionen verwendet werden kann):
+So führen Sie Abwärtskompatibilität aus (zum Erstellen eines beständigen Chat Server-Endpunkts, der auf einen beständigen Chat Serverpool verweist, der von Legacy-Gruppen-Chat Pool-Clients verwendet werden kann):
 
     New-CsPersistentChatEndpoint -SipAddress <CO name, ex. persistentchat@contoso.com> -PersistentChatPoolFqdn <pool FQDN, like pcpool.contoso.com>
 
-Als Nächstes konfigurieren Sie Beständiger Chat-Clients zur Verwendung dieser SIP-Adresse als Kontaktobjekt. Die SIP-Adresse wird mit dem **New-CsPersistentChatEndpoint**-Cmdlet für einen bestimmten Serverpool für beständigen Chat erstellt.
+Konfigurieren Sie als nächstes Clients für beständigen Chat, um diese SIP-Adresse als Kontaktobjekt zu verwenden. Die SIP-Adresse wird mit dem Cmdlet **New-CsPersistentChatEndpoint** für einen bestimmten beständigen Chat Server Pool erstellt.
 
-Im folgenden Beispiel wird veranschaulicht, wie Sie den Server für beständigen Chat-Endpunkt mit Windows PowerShell-Befehlszeilenschnittstelle hinzufügen können. In diesem Fall konfigurieren Sie das Kontaktobjekt und weisen ihm den Namen "persistentchat" für die Topologie "contoso.com" zu, deren vollqualifizierter Pooldomänenname "pcpool.contoso.com" lautet:
+Wenn Sie den beständigen Chat-Server Endpunkt mithilfe der Windows PowerShell-Befehlszeilenschnittstelle hinzufügen möchten, sollten Sie das folgende Beispiel Bedenken. In diesem Fall konfigurieren Sie das Kontaktobjekt mit dem Namen "persistentchat" in der Topologie "contoso.com", wobei der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Pools "pcpool.contoso.com" lautet:
 
     New-CsPersistentChatEndpoint -SipAddress sip:persistentchat@contoso.com -PersistentChatPoolFqdn pcpool.contoso.com
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a>Siehe auch
 
-[Migration von Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2-Gruppenchat zu Lync Server 2013 Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
+
+[Migration von Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2-Gruppenchat zu Lync Server 2013 Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

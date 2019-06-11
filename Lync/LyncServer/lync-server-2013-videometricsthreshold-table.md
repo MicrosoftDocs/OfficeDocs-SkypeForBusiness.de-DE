@@ -1,21 +1,41 @@
-﻿---
-title: VideoMetricsThreshold-Tabelle
-TOCTitle: VideoMetricsThreshold-Tabelle
-ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204778(v=OCS.15)
-ms:contentKeyID: 49293540
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: VideoMetricsThreshold-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: VideoMetricsThreshold table
+ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204778(v=OCS.15)
+ms:contentKeyID: 48183736
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7c15910f6478f3df12bf906f04aee82c89a822de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847272"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# VideoMetricsThreshold-Tabelle
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a>VideoMetricsThreshold-Tabelle in lync Server 2013
 
-Die Tabelle **VideoMetricsThreshold** enthält optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die VideoMetricsThreshold-Tabelle enthält die optimalen und akzeptablen Werte für die Qualität der bei Videoanrufen verwendeten Metriken für die Erfahrung.
 
 
 <table>
@@ -37,105 +57,116 @@ Die Tabelle **VideoMetricsThreshold** enthält optimale und zulässige Werte fü
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär</p></td>
-<td><p>Der Typ des getätigten Anrufs.</p></td>
+<td><p>Primary</p></td>
+<td><p>Der Typ des Anrufs, der getätigt wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 0,05.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 0,05.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 0,10.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 5,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 10,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 10,0.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 12,0000.</p></td>
+<td><p>Dezimal (9; 4)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 12,0000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 7,0000.</p></td>
+<td><p>Dezimal (9; 4)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 7,0000.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 5,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 10,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 10.0/</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 5,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 10,0.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 10,0.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPacketLossRateOptimal</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 0,05.</p></td>
+<td><p>foat</p></td>
+<td></td>
+<td><p>Der Standardwert ist 0,05.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 0,10.</p></td>
+<td></td>
+<td><p>Der Standardwert ist 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 12.</p></td>
+<td></td>
+<td><p>Der Standardwert ist 12.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
 <td><p>float</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 7.</p></td>
+<td></td>
+<td><p>Der Standardwert ist 7.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 5,00.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 5,00.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p></p></td>
-<td><p>Der Standardwert lautet 10,00.</p></td>
+<td><p>Dezimal (5; 2)</p></td>
+<td></td>
+<td><p>Der Standardwert ist 10,00.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

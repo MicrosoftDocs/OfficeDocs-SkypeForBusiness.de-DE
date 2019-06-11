@@ -1,29 +1,63 @@
-﻿---
-title: 'Phase 5: Konfigurieren des Pilotpools'
-TOCTitle: 'Phase 5: Konfigurieren des Pilotpools'
-ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204717(v=OCS.15)
-ms:contentKeyID: 49293316
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Phase 5: Konfigurieren des pilotpools'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 5: Configure the pilot pool'
+ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)
+ms:contentKeyID: 48183532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e5ffa799a07cdb5b1583ba96708dc79599d52df5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847049"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 5: Konfigurieren des Pilotpools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-5-configure-the-pilot-pool"></a>Phase 5: Konfigurieren des pilotpools
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 
-Nachdem der Pilotpool erstellt ist und die Informationen zur Vorversionsbereitstellung mit Lync Server 2013 zusammengeführt worden sind, werden in diesem Abschnitt einige Konfigurationen aufgeführt, die im Pilotpool vorgenommen werden müssen.
+Nachdem der Pilot Pool erstellt und die Legacy Bereitstellungsinformationen mit lync Server 2013 zusammengeführt wurden, werden in diesem Abschnitt einige Konfigurationen aufgeführt, die für den Pilot Pool durchgeführt werden müssen.
 
-## In diesem Abschnitt
+<div>
 
-  - [Verbinden des Pilotpools mit Edgeservern der Vorversionsumgebung](connect-pilot-pool-to-legacy-edge-servers_1.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Autorisieren einer Verbindung zum Office Communications Server 2007 R2-Edgeserver](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Verbinden des Pilotpools mit Edgeservern der Vorversion](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Überprüfen von Konfigurationseinstellungen](verify-configuration-settings_1.md)
+  - [Autorisieren der Verbindung zu Office Communications Server 2007 R2 Edge Server](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+
+  - [Überprüfen der Konfigurationseinstellungen](verify-configuration-settings_1.md)
 
   - [Konfigurieren von Zugriffsrichtlinien und Zertifikaten für XMPP-Gateways](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: MonitoredUserSiteLink-Tabelle
-TOCTitle: MonitoredUserSiteLink-Tabelle
-ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398233(v=OCS.15)
-ms:contentKeyID: 49293294
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: MonitoredUserSiteLink-Tabelle
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: MonitoredUserSiteLink table
+ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398233(v=OCS.15)
+ms:contentKeyID: 48183508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5de189abc64271a915cfe88ae450dc349709e0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847092"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# MonitoredUserSiteLink-Tabelle
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink-Tabelle
 
-Bei der **MonitoredUserSiteLink** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Verknüpfung zwischen zwei Benutzerstandorten.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die Tabelle MonitoredUserSiteLink ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Link zwischen zwei Benutzer Websites.
 
 
 <table>
@@ -30,22 +50,33 @@ Bei der **MonitoredUserSiteLink** -Tabelle handelt es sich um eine Tabelle, auf 
 <th><strong>Spalte</strong></th>
 <th><strong>Datentyp</strong></th>
 <th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, Fremd</p></td>
-<td><p>Verwiesen von der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Primär, fremd</p></td>
+<td><p>Wird in der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>referenziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, Fremd</p></td>
-<td><p>Verweis von der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p>Primär, fremd</p></td>
+<td><p>Verweis aus der <a href="lync-server-2013-usersite-table.md">Tabelle "UserSite" in lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

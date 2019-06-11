@@ -1,29 +1,63 @@
-﻿---
-title: Aktualisieren der Outlook-Aktivierungsliste
-TOCTitle: Aktualisieren der Outlook-Aktivierungsliste
-ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ215438(v=OCS.15)
-ms:contentKeyID: 49294145
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktualisieren der Outlook-Aktivierungs Liste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Updating the Outlook enable list
+ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215438(v=OCS.15)
+ms:contentKeyID: 48242739
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20c7ee75e70b52a4edd01230fe10aeb46f6e6e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847416"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktualisieren der Outlook-Aktivierungsliste
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Aktualisieren der Outlook-Aktivierungs Liste in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-07_
 
-Sie können sicherstellen, dass das Onlinebesprechungs-Add-In für Microsoft Lync 2013 für Benutzer immer aktiviert ist, indem Sie eine Richtlinie mit diesem Add-In in der Add-In-Verwaltungsliste für Outlook erstellen. Die Richtlinie für die Add-In-Verwaltungsliste ist in den Dateien der administrativen Office-Vorlagen für die Gruppenrichtlinien-Verwaltungskonsole enthalten. Mit dieser Richtlinie wird ein Registrierungsschlüssel unter "HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList" erstellt. Sie können diesem Schlüssel einen Wert für "ucaddin.dll" hinzufügen und diesen Wert so konfigurieren, dass er immer aktiviert ist und von Benutzern nicht manuell deaktiviert werden kann.
+Sie können sicherstellen, dass das Online Besprechungs-Add-in für Microsoft lync 2013 für Benutzer immer aktiviert bleibt, indem Sie eine Richtlinie erstellen, die Sie in die Add-in-Verwaltungsliste für Outlook einfügt. Die Richtlinie für Add-in-Verwaltungs Listen ist in den Office administrative Template-Dateien für die Gruppenrichtlinien-Verwaltungskonsole enthalten. Sie erstellt einen Registrierungsschlüssel unter HKCU\\-\\Software\\Richtlinien\\Microsoft\\Office\\15,0\\Outlook15 Resilienz\\-Add-in. Sie können diesem Schlüssel einen Wert für die Datei "ucaddin. dll" hinzufügen und den Wert für "ucaddin. dll" so konfigurieren, dass er immer aktiviert ist, sodass Benutzer ihn nicht manuell deaktivieren können.
 
-## So fügen Sie der Outlook-Add-In-Liste die Datei "ucaddin.dll" hinzu
+<div>
 
-  - Fügen Sie dem Registrierungsschlüssel "AddinList", der sich unter "HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList" befindet, folgenden Wert hinzu:
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>So fügen Sie der Outlook-Add-in-Liste ucaddin. dll hinzu
+
+  - Fügen Sie dem Registrierungsschlüssel addinlist\\unter HKCU-Software\\Richtlinien\\,\\Microsoft\\Office\\15,0\\Outlook15-\\Flexibilitäts-Add-in, den folgenden Wert hinzu:
     
-      - Registry Type = REG\_SZ
+      - Registry Type = reg\_SZ
     
-      - Name = ucaddin.dll
+      - Name = ucaddin. dll
     
-      - Value = 1 (gibt an, dass das Add-In immer aktiviert ist und vom Benutzer nicht deaktiviert werden kann)
+      - Wert = 1 (gibt an, dass das Add-in immer aktiviert ist und nicht vom Endbenutzer verwaltet werden kann)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

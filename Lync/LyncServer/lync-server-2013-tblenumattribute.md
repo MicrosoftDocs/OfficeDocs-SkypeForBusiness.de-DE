@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumAttribute'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumAttribute
 ms:assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558617(v=OCS.15)
-ms:contentKeyID: 49293306
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558617(v=OCS.15)
+ms:contentKeyID: 48183523
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2662f5d0ea9b55f8e3f5320b2e385157bef8bce9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847640"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumAttribute in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute in Lync Server 2013
 
-"EnumAttribute" ist eine hardkodierte Tabelle, mit den Attributen "Visibility" und "Behavior", die in der "Node"-Tabelle verwendet werden.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltensattribute enthält, die in der Knoten Tabelle verwendet werden.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -34,20 +54,20 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>attributeID</p></td>
+<td><p>AttributeID</p></td>
 <td><p>smallint, nicht NULL</p></td>
-<td><p>ID des Attributs.</p></td>
+<td><p>Die ID des Attributs.</p></td>
 </tr>
 <tr class="even">
-<td><p>attributeName</p></td>
-<td><p>nvarchar (256), nicht NULL</p></td>
+<td><p>AttributeName</p></td>
+<td><p>nvarchar (256); nicht NULL</p></td>
 <td><p>Name des Attributs.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -62,14 +82,14 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>attributeID</p></td>
+<td><p>AttributeID</p></td>
 <td><p>Primärschlüssel</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tabellenwerte
+### <a name="table-values"></a>Tabellenwerte
 
 <table>
 <colgroup>
@@ -78,8 +98,8 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>attributeID</th>
-<th>attributeName</th>
+<th>AttributeID</th>
+<th>AttributeName</th>
 </tr>
 </thead>
 <tbody>
@@ -95,9 +115,23 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </table>
 
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a>Siehe auch
 
-[tblNode in Lync Server 2013](lync-server-2013-tblnode.md)
+
+[tblNode in Lync Server 2013](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

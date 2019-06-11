@@ -1,45 +1,83 @@
-﻿---
-title: Anzeigen einer Liste vertrauenswürdiger Anwendungen
-TOCTitle: Anzeigen einer Liste vertrauenswürdiger Anwendungen
-ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182604(v=OCS.15)
-ms:contentKeyID: 49295852
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen einer Liste vertrauenswürdiger Anwendungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View a list of trusted applications
+ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182604(v=OCS.15)
+ms:contentKeyID: 48185844
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 23866bfbc437d87911a84d065ae7f501c7d80466
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847264"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen einer Liste vertrauenswürdiger Anwendungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Anzeigen einer Liste vertrauenswürdiger Anwendungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-Sie können mithilfe der Systemsteuerung für Lync Server 2013 eine Liste der vertrauenswürdigen Anwendungen anzeigen, die in Ihrer Lync Server 2013-Umgebung bereitgestellt wurden. Eine vertrauenswürdige Anwendung ist eine auf dem Microsoft UCMA (Unified Communications Managed API) 3.0 Core SDK basierende Anwendung, die von Lync Server 2013 als vertrauenswürdig eingestuft wird. Die Eigenschaften dieser Vertrauensbeziehung werden in der folgenden Liste zusammengefasst:
+Sie können die lync Server 2013-Systemsteuerung verwenden, um eine Liste der vertrauenswürdigen Anwendungen anzuzeigen, die Sie in ihrer lync Server 2013-Umgebung bereitgestellt haben. Bei einer vertrauenswürdigen Anwendung handelt es sich um eine Anwendung, die auf dem Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK basiert, das von lync Server 2013 als vertrauenswürdig eingestuft wird. Diese Vertrauensstellung wird in der folgenden Liste zusammengefasst:
 
-  - Für vertrauenswürdige Anwendungen wird von Lync Server keine Authentifizierung angefordert.
+  - Vertrauenswürdige Anwendungen werden für die Authentifizierung durch lync Server nicht in Frage gestellt.
 
-  - Vertrauenswürdige Anwendungen werden von Lync Server weder für SIP-Transaktionen noch für Verbindungen oder ausgehende VoIP-Anrufe (Voice over Internet) gedrosselt.
+  - Vertrauenswürdige Anwendungen werden nicht von lync Server für SIP-Transaktionen, Verbindungen oder ausgehende VoIP-Anrufe (Voice over Internet Protocol) gedrosselt.
 
-  - Vertrauenswürdige Anwendungen können die Identität beliebiger Benutzer annehmen und Konferenzen beitreten, ohne in Konferenzlisten aufzutauchen.
+  - Vertrauenswürdige Anwendungen können sich als alle Benutzer erweisen und können an Konferenzen teilnehmen, ohne dass Sie in Dienstplänen angezeigt werden.
 
-  - Vertrauenswürdige Anwendungen sind hochverfügbar und ausfallsicher.
+  - Vertrauenswürdige Anwendungen sind hochgradig verfügbar und widerstandsfähig.
 
-In der Lync Server-Systemsteuerung können Sie den Namen der Anwendungen, den Pool für deren Ausführung sowie den verwendeten Port für die Anwendungen anzeigen.
+In der lync Server-Systemsteuerung können Sie den Namen der Anwendungen, den Pool, in dem Sie ausgeführt werden, und den von Ihnen verwendeten Port sehen.
 
-## So zeigen Sie eine Liste der vertrauenswürdigen Anwendungen an
+<div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsServerAdministrator", "CsAdministrator", "CsHelpDesk" oder "CsViewOnlyAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Informationen zu den verfügbaren vordefinierten Administratorrollen in Lync Server 2013 finden Sie unter [Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+## <a name="to-view-a-list-of-trusted-applications"></a>So zeigen Sie eine Liste vertrauenswürdiger Anwendungen an
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsServerAdministrator“, „CsAdministrator“, „CsHelpDesk“ oder „CsViewOnlyAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Vertrauenswürdige Anwendung**.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-4.  Klicken Sie auf der Seite **Vertrauenswürdige Anwendung** auf eine Spaltenüberschrift, um die Anwendungen bei Bedarf zu sortieren.
+3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie auf **vertrauenswürdige Anwendung**.
 
-## Siehe auch
+4.  Klicken Sie auf der Seite **vertrauenswürdige Anwendung** auf eine Spaltenüberschrift, um die Anwendungen bei Bedarf zu sortieren.
 
-#### Weitere Ressourcen
+</div>
 
-[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

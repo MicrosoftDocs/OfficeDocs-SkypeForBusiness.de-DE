@@ -1,62 +1,113 @@
-﻿---
-title: Benutzerrollen in Persistent Chat Server
-TOCTitle: Benutzerrollen in Persistent Chat Server
-ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ676774(v=OCS.15)
-ms:contentKeyID: 49890700
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzerrollen im beständigen Chat Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User roles in Persistent Chat Server
+ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)
+ms:contentKeyID: 49361095
+ms.date: 03/19/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 36f84f71ca5253d28d9182acc9279010127ee6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847390"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Benutzerrollen in Persistent Chat Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Benutzerrollen im Server für beständigen Chat in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-19_
 
-Server für beständigen Chat stellt das Konzept der zulässigen/abgelehnten Mitglieder bereit, das auf Beständiger Chat-Kategorien angewendet wird und mit dem gesteuert wird, wer auf Chatrooms in einer bestimmten Kategorie zugreifen kann.
+Der Server für beständigen Chat bietet das Konzept der zugelassenen/abgelehnten Mitglieder, das auf beständige Chatkategorien und Steuerelemente angewendet wird, die auf Räume in einer bestimmten Kategorie zugreifen können.
+
+<div>
 
 
-> [!IMPORTANT]
-> Der Begriff "Zulässige/Abgelehnte Mitglieder" in einer Kategorie ist nicht dasselbe wie die Rolle <STRONG>Mitglied</STRONG>, die auf einen Chatroom für beständigen Chat angewendet wird.<BR>Bei Suchen werden alle geöffneten und geschlossenen Chatrooms angezeigt, für die sich der Benutzer, der die Suche durchführt, in der Liste der zulässigen/abgelehnten Mitglieder befindet. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann.
+> [!IMPORTANT]  
+> Zulässige/abgelehnte Mitglieder in einer Kategorie ist nicht mit einer <STRONG>Mitglieds</STRONG> Rolle identisch, die für einen beständigen Chatroom gilt.<BR>In suchen werden alle geöffneten und geschlossenen Chatrooms angezeigt, für die der Benutzer, der die Suche ausführt, in der Liste zugelassene/abgelehnte Mitglieder aufgeführt ist. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann.
 
 
 
-Das primäre Grundprinzip für das Konzept der zulässigen/abgelehnten Mitglieder sind so genannte Chinesische Mauern. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen ethische Grenzen definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Wenn diese Einschränkung im System definiert ist, kann einem Chatroom kein Benutzer hinzugefügt werden, wenn die übergeordnete Kategorie dies verhindert.
+</div>
 
-Im Folgenden sind die vier Benutzerrollen für Server für beständigen Chat aufgeführt:
+Das primäre Argument für das Konzept der zugelassenen/verweigerten Mitglieder sind ethische Mauern. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen Chinesische Mauern definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Wenn diese Einschränkung in das System vorgesehen ist, ist es nicht möglich, einen Benutzer als Mitglied des Chatrooms hinzuzufügen, wenn die übergeordnete Kategorie Dies verhindert.
 
-  - **Ersteller:** Benutzer, die zum Erstellen von Chatrooms berechtigt sind. Diese Benutzer befinden sich in der Liste **Ersteller** von bestimmten Kategorien. Sie können Chatrooms in dieser Kategorie erstellen, eine Mitgliedschaft gemäß dieser Kategorie zuweisen sowie Manager zum Verwalten von Chatrooms zuweisen. Der Benutzer, der einen Chatroom erstellt, wird automatisch als Manager des Chatrooms hinzugefügt.
+Im folgenden werden die vier Benutzerrollen beständiger Chat Server:
+
+  - **Creator:** Benutzer, die über die Berechtigung zum Erstellen von Chatrooms verfügen. Diese Benutzer befinden sich in der Liste der Ersteller bestimmter Kategorien: Sie können Chatrooms in dieser Kategorie erstellen, und Sie können auch Mitgliedschaften entsprechend der Kategorie zuweisen und Managern zuweisen, dass Sie den Chatroom verwalten möchten. Der Benutzer, der einen Chatroom erstellt, wird automatisch als Manager des Chatrooms hinzugefügt.
+    
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Als Ersteller besitzt ein Benutzer lediglich die Rechte zum Erstellen von Chatrooms. Durch die automatische Heraufstufung zum Manager erhält der Ersteller die Berechtigung, Mitgliedschaften, Manager usw. für die erstellten Chatdienste zu verfeinern.
 
     
-    Mit dieser Rolle können Sie steuern, wer die Chatrooms in Ihrer Organisation erstellt. Dies ist insbesondere praktisch, wenn Sie das Erstellen von Chatrooms zentral verwalten möchten, um Richtlinien und Konventionen zu erzwingen, und anschließend die Chatroomverwaltung an andere Benutzer in der Organisation delegieren möchten.
+    </div>
+    
+    Mit dieser Rolle können Sie steuern, wer die Chatrooms in Ihrer Organisation erstellt. Dies ist insbesondere praktisch, wenn Sie das Erstellen von Chatrooms zentral verwalten möchten, um Richtlinien und Konventionen zu erzwingen und anschließend die Chatroomverwaltung an andere Benutzer in der Organisation delegieren möchten.
 
-  - **Manager:** Benutzer, die die Eigenschaften eines Chatrooms verwalten. Chatroommanager können die Mitgliederliste ändern (Mitglieder hinzufügen und entfernen) und die Chatroommanager-Liste ändern (Manager hinzufügen und entfernen). Chatroommanager können sich selbst der Mitglieder- oder Referentenliste (für ein Auditorium) hinzufügen, damit sie am Chatroom teilnehmen können. Chatroommanager können Chatrooms auch deaktivieren (Administratoren können deaktivierte Chatrooms abfragen und dauerhaft löschen). Manager können bis auf die Chatroomkategorie alle Eigenschaften eines Chatrooms ändern. Nur der Beständiger Chat-Administrator kann die Kategorie ändern, nachdem der Chatroom erstellt wurde.
+  - **Manager:** Benutzer, die die Eigenschaften eines Chatrooms verwalten. Chatroommanager können die Mitgliederliste ändern (Mitglieder hinzufügen und entfernen) und die Chatroommanager-Liste ändern (Manager hinzufügen und entfernen). Chatroommanager können sich selbst der Mitglieder- oder Referentenliste (für ein Auditorium) hinzufügen, damit sie am Chatroom teilnehmen können. Chatroommanager können Chatrooms auch deaktivieren (Administratoren können deaktivierte Chatrooms abfragen und dauerhaft löschen). Manager können bis auf die Chatroomkategorie alle Eigenschaften eines Chatrooms ändern. Nur der Administrator des beständigen Chats kann die Kategorie nach dem Erstellen des Chatrooms ändern.
+    
+    <div>
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Wenn der Manager in einer anderen Kategorie auch der Ersteller ist, kann der Manager die Kategorie in eine Kategorie ändern, für die eine Berechtigung zum Erstellen von Chatrooms besitzt.
 
-
-
-  - **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch geheime Chatrooms) sowie den Chatroom abonnieren (einschließlich Metadatenoptionen wie nicht gelesene Nachrichten, Egofilter und Schlüsselwortlisten) und am Chatroom teilnehmen (Nachrichten senden, sofern es sich nicht um ein Auditorium handelt, in dem nur Referenten Nachrichten senden und Inhalte abrufen und suchen können). Benutzer, die keine Mitglieder des Chatrooms sind, können nach dem Chatroom suchen, wenn sie sich in der Liste der zulässigen Mitglieder befinden. Wenn Sie jedoch auf den Inhalt dieser Chatrooms zugreifen möchten, müssen Sie die Mitgliedschaft bei diesem Chatroom anfordern. (Im System sind keine Zugriffsanforderungen oder Genehmigungen integriert. Die Zugriffserteilung oder Genehmigung erfolgt per E-Mail, Telefon oder andere Formen des Kontakts.)
-
-  - **Referent:** Benutzer, die Nachrichten in einem Auditorium senden können.
-
-Bei den folgenden Rollen handelt es sich um Administratorrollen für Server für beständigen Chat:
-
-  - **Beständiger Chat Administrator (CsPersistentChatAdministrator):** Dies ist eine neue rollenbasierte Zugriffssteuerungsrolle (RBAC-Rolle) zur Administration und Verwaltung von Server für beständigen Chat. Benutzer oder Sicherheitsgruppen mit der Rolle **CsPersistentChatAdministrator** können Server für beständigen Chat mithilfe von Windows PowerShell-Cmdlets im Remotemodus verwalten (d. h. von einem anderen Computer als dem Server für beständigen Chat aus). Server für beständigen Chat überprüft, ob der Beständiger Chat-Administrator Mitglied der lokalen Gruppe **RTC Local Administrators** auf dem Server für beständigen Chat-Front-End-Server ist.
     
-    Benutzer mit der Rolle **CsPersistentChatAdministrator** können Chatrooms verwalten (alle Eigenschaften ändern, einschließlich Mitgliedschaft, Manager, Kategorien, Kennzeichnen von Chatrooms als deaktiviert) sowie Chatroomkategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Zudem können Administratoren Chatrooms als deaktiviert kennzeichnen und Chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen, die für Ersteller oder zulässige Mitglieder gelten. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied beliebiger Chatrooms hinzufügen. Administratoren können auch die Beständiger Chat-Konfiguration (Pooleigenschaften, globale Einstellungen und Konformitätskonfiguration) ändern und verwalten sowie die Migration einer älteren Gruppenchatserver-Bereitstellung zum Lync Server 2013-Server für beständigen Chat planen und implementieren.
+    </div>
 
-  - **Lync-Administrator:** Der Administrator für das gesamte Unternehmen, der für die Lync Server 2013-Bereitstellung verantwortlich ist.
+  - **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis (auch wenn der Chatroom geheim ist) sehen sowie den Chatroom abonnieren (einschließlich metadateneinstellungen wie ungelesene Nachrichten, Ego-Filter und Keyword-Filter) und am Chatroom teilnehmen (kann Posten, es sei denn, der Raum ist ein Hörsaal Raum, in dem nur Referenten Beiträge Posten, Inhalte abrufen und suchen können. Benutzer, die keine Mitglieder des Chatrooms sind, können nach dem Chatroom suchen, wenn Sie sich in der Liste der zulässigen Mitglieder der Kategorie befinden, müssen aber Zugriff auf die Teilnahme an diesen Chatrooms anfordern, um auf Inhalte zugreifen zu können. (Es sind keine Zugriffs-oder Genehmigungsanfragen in das System integriert; diese werden extern per e-Mail, Telefon oder anderen Kontaktarten durchgeführt.)
 
-  - **Operations Manager:** Benutzer, der für die täglichen Abläufe verantwortlich ist.
+  - **Referent:** Benutzer, die in einem Auditorium-Chatroom Posten können
 
-  - **Drittanbieterentwickler und Partner:** Drittanbieterentwickler erweitern das System und liefern insbesondere eine Lösung zum Errichten einer Chinesischen Mauer für Gruppenunterhaltungen. Zudem stellen sie Konformitätsunterstützung und -tools, Web- und mobile Clients sowie ein Framework für Bot-Entwicklung bereit.
+<div>
+
+
+> [!NOTE]  
+> Der beständige Chat Server ermöglicht Benutzern, Chatrooms für eine bestimmte Website zu erstellen und zu verwalten. Benutzer können Chatrooms jedoch nicht auf anderen Websites innerhalb derselben Topologie erstellen oder verwalten. Stellen Sie sicher, dass Sie für alle Websites in Ihrer Organisation Chatroom-Ersteller und-Manager angeben.
+
+
+
+</div>
+
+Die folgenden Rollen sind Administratorrollen für den Server für beständigen Chat:
+
+  - **Administrator für beständigen Chat (CsPersistentChatAdministrator):** Hierbei handelt es sich um eine neue rollenbasierte zugriffssteuerungsrolle, um den Server für beständigen Chat zu verwalten und zu verwalten. Benutzer oder Sicherheitsgruppen, die als CsPersistentChatAdministrator bezeichnet werden, können beständigen Chat Server mithilfe von Windows PowerShell-Cmdlets remote verwalten (also von einem anderen Computer als dem beständigen Chat Server). Der beständige Chat Server überprüft, ob der Administrator des beständigen Chats Mitglied der lokalen Gruppe RTC Local Administrator auf dem Front-End-Server des beständigen Chats ist.
+    
+    Die CsPersistentChatAdministrator-Rolle kann Chatrooms verwalten (alle Eigenschaften wie Mitgliedschaft, Manager, Kategorien, als deaktiviert kennzeichnen) sowie Chatrooms erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration) und auch die Migration von einer älteren Gruppen-Chat Server Bereitstellung in lync Server 2013 beständigen Chat planen und implementieren. Server.
+
+  - **Lync-Administrator:** Gesamtunternehmens Administrator für lync Server 2013, der für die Bereitstellung verantwortlich ist.
+
+  - **Operations Manager:** Der Benutzer, der für die Verwaltung von alltäglichen Vorgängen verantwortlich ist.
+
+  - **Drittanbieter-Entwickler und-Partner:** Entwickler von Drittanbietern erweitern das System, insbesondere die Bereitstellung einer ethischen Wandlösung für Gruppenunterhaltungen, Compliance-Unterstützung und Tools, Web/Mobile-Clients und ein Framework für die bot-Entwicklung.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

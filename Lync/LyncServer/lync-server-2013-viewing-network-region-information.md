@@ -1,51 +1,82 @@
-﻿---
-title: Anzeigen von Informationen zu Netzwerkregionen
-TOCTitle: Anzeigen von Informationen zu Netzwerkregionen
-ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688076(v=OCS.15)
-ms:contentKeyID: 49890771
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Netzwerk Regionsinformationen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network region information
+ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688076(v=OCS.15)
+ms:contentKeyID: 49733672
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 52baf7c9dca4d663630bbf0cb17384916f5a953e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847218"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Netzwerkregionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-network-region-information-in-lync-server-2013"></a>Anzeigen von Netzwerk Regionsinformationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Eine Netzwerkregion verbindet mehrere Teile eines Netzwerks, das sich über verschiedene geografische Bereiche erstreckt. Jede Netzwerkregion muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist der Standort des Rechenzentrums, in dem der Bandbreitenrichtliniendienst für die Anrufsteuerung ausgeführt wird. Mithilfe der Lync Server-Systemsteuerung können Sie Netzwerkregionen anzeigen. Netzwerkregionen beinhalten Einstellungen, die festlegen, ob für Audio- und Videoverbindungen alternative Pfade über das Internet zulässig sind. In diesem Thema wird erklärt, wie vorhandene Netzwerkregionen angezeigt werden. Nähere Informationen über das Erstellen oder Ändern vorhandener Netzwerkregionen finden Sie unter [Erstellen oder Ändern von Netzwerkregionen](lync-server-2013-creating-or-modifying-network-regions.md).
+Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Jeder Netzwerkbereich muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist die Datencenter-Website, auf der der bandbreitenrichtliniendienst für die Anrufannahme Steuerung (CAC) ausgeführt wird. Sie können die lync Server-Systemsteuerung verwenden, um netzwerkregionen anzuzeigen. Zu den netzwerkregionen gehören Einstellungen, die bestimmen, ob für Audio-und Videoverbindungen alternative Pfade über das Internet zulässig sind. Verwenden Sie dieses Thema, um vorhandene netzwerkregionen anzuzeigen. Details zum Erstellen oder Ändern vorhandener netzwerkregionen finden Sie unter [erstellen oder Ändern von netzwerkregionen in lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
 
-## So zeigen Sie mit der Lync Server-Systemsteuerung Informationen zu einer Netzwerkregion an
+<div>
+
+## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>So zeigen Sie Informationen zu einem Netzwerkbereich mit der lync Server-Systemsteuerung an
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Region**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Region**.
 
-4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **Region** auf den Bereich, den Sie anzeigen möchten.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können immer nur eine Region anzeigen.
+    > [!NOTE]  
+    > Sie können nur jeweils einen Bereich anzeigen.
 
-
+    
+    </div>
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-## Anzeigen von Informationen zur Netzwerkregion mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Informationen zur Netzwerkregion können Sie mit der Windows PowerShell und dem Cmdlet **Get-CsNetworkRegion** anzeigen. Dieses Cmdlet können Sie entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So zeigen Sie Informationen zur Netzwerkregion an
+## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk Regionsinformationen mithilfe von Windows PowerShell-Cmdlets
 
-  - Geben Sie zum Anzeigen von Informationen über all Ihre Netzwerkregionen den folgenden Befehl in der Lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+Sie können Netzwerk Regionsinformationen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsNetworkRegion** anzeigen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-network-region-information"></a>So zeigen Sie Netzwerkbereichs Informationen an
+
+  - Wenn Sie Informationen zu allen ihren netzwerkregionen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkRegion
     
-    Die zurückgegebenen Informationen sehen wie folgt aus:
+    Es werden etwa folgende Informationen zurückgegeben:
     
         Identity         : Pacific Northwest
         Description      :
@@ -55,12 +86,30 @@ Informationen zur Netzwerkregion können Sie mit der Windows PowerShell und dem 
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Weitere Informationen finden Sie im Hilfethema für das [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)-Cmdlet.
+</div>
 
-## Siehe auch
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
 
-#### Aufgaben
+</div>
 
-[Erstellen oder Ändern von Netzwerkregionen](lync-server-2013-creating-or-modifying-network-regions.md)  
-[Löschen von vorhandenen Netzwerkregionen](lync-server-2013-deleting-existing-network-regions.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Erstellen oder Ändern von netzwerkregionen in lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
+[Löschen vorhandener netzwerkregionen in lync Server 2013](lync-server-2013-deleting-existing-network-regions.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the dial plan'
+---
+title: 'Lync Server 2013: Testen des Wählplans'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn690130(v=OCS.15)
-ms:contentKeyID: 62281052
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
+ms:contentKeyID: 63969616
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847474"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the dial plan in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Testen des Wählplans in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 
 <table>
@@ -23,76 +43,102 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Täglich</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsDialPlan-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number. Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls. Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.
+## <a name="description"></a>Beschreibung
 
-You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.
+Mit dem Cmdlet Test-CsDialPlan können Sie die Ergebnisse der Anwendung eines Wählplans auf eine bestimmte Telefonnummer sehen. Wählpläne liefern Informationen, wie beispielsweise die Anwendung von Normalisierungsregeln, die erforderlich sind, damit Enterprise-VoIP-Benutzer Telefonanrufe tätigen können. Mit einer gewählten Nummer und einem Wählplan wird mit diesem Cmdlet überprüft, welche Normalisierungsregel innerhalb des Wählplans angewendet wird und welche übersetzte Nummer verwendet wird.
 
-## Running the test
+Sie können dieses Cmdlet verwenden, um Probleme bei der Übersetzung von Zahlen zu beheben oder um zu überprüfen, wie Regeln für bestimmte Zahlen angewendet werden.
 
-The Test-CsDialPlan cmdlet requires you to do two things. First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet. Second, you must specify the phone number that has to be normalized. The format that is used for the phone number should match the number as dialed/entered by a user. For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ausführen des Tests
+
+Das Cmdlet Test-CsDialPlan erfordert zwei Aufgaben. Zunächst müssen Sie eine Instanz des Wählplans abrufen, der getestet wird. Dies kann mit dem Cmdlet Get-CsDialPlan erfolgen. Als nächstes müssen Sie die Telefonnummer angeben, die normalisiert werden soll. Das für die Telefonnummer verwendete Format sollte mit der Nummer übereinstimmen, die von einem Benutzer gewählt/eingegeben wurde. Mit diesem Befehl wird beispielsweise eine Instanz des Wählplans, redmonddialplan ", abgerufen, und es wird überprüft, ob die Telefonnummer 12065551219 normalisiert werden kann:
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:
+Wenn Sie über eine Normalisierungsregel verfügen, die die Landesvorwahl (in diesem Beispiel 1) und die Ortsvorwahl (206) automatisch hinzufügt, sollten Sie die Telefonnummer 5551219 wie folgt überprüfen:
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialPlan) cmdlet.
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .
 
-## Determining success or failure
+</div>
 
-Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed. When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
 
-Result : Success
+Test-CsDialPlan unterscheidet sich von vielen der lync Server Test-Cmdlets, da Sie nur indirekt angibt, ob ein Test erfolgreich war oder fehlgeschlagen ist. Bei Verwendung von Test-CsDialPlan erhalten Sie keine ähnliche Ausgabe wie diese, wobei das Ergebnis deutlich gekennzeichnet ist:
 
-Latency : 00:00:06.8630376
+TargetFqdn: ATL-CS-001.litwareinc.com
 
-Error :
+Ergebnis: Erfolg
 
-Diagnosis :
+Latenz: 00:00:06.8630376
 
-Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:
+Fehler
 
-TranslatedNumber : +12065551219
+Diagnose
 
-MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;
+Wenn Test-CsDialPlan erfolgreich ist, erhalten Sie stattdessen Informationen zur Normalisierungsregel, die die angegebene Telefonnummer erfolgreich übersetzen und verwenden konnte:
 
-Name=Prefix All; IsInternalExtension=False
+TranslatedNumber: + 12065551219
 
-If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:
+MatchingRule: Description =; Muster = ^ (\\d (11)) $; Übersetzung = + $1;
+
+Name = Präfix alle; IsInternalExtension = falsch
+
+Wenn Test-CsDialPlan fehlschlägt (das heißt, wenn der Wählplan nicht über eine Normalisierungsregel verfügt, die die angegebene Telefonnummer übersetzen kann), erhalten Sie einfach die "leere" Ausgabe wie folgt:
 
 TranslatedNumber :
 
-MatchingRule :
+MatchingRule
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsDialPlan might fail:
+<div>
 
-  - You might have used an incorrect format when specifying the phone number. Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user. Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial. For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Nachfolgend finden Sie einige häufige Gründe, warum Test-CsDialPlan möglicherweise fehlschlägt:
+
+  - Möglicherweise haben Sie bei der Angabe der Telefonnummer ein falsches Format verwendet. Zu den Wählplänen gehören Normalisierungsregeln, mit denen lync Server die von einem Benutzer gewählten oder eingegebenen Telefonnummern übersetzen kann. Daher sollten ihre Wähleinstellungen die Normalisierungsregeln aufweisen, die den Zahlen entsprechen, die Benutzer wahrscheinlich wählen. Wenn Benutzer beispielsweise die Landesvorwahl, Ortsvorwahl und dann die Telefonnummer selbst wählen, bedeutet dies, dass Ihr Wählplan über eine Normalisierungsregel zur Behandlung von Telefonnummern wie diesen verfügt:
     
     12065551219
     
-    However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail. That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.
+    Wenn Sie jedoch eine falsche Telefonnummer eingeben (beispielsweise, indem Sie die letzte Ziffer verlassen), schlägt die Test-CsDialPlan fehl. Das liegt nicht daran, dass die Wähleinstellungen fehlerhaft sind, sondern weil Sie eine Telefonnummer eingegeben haben, als nicht interpretiert werden kann.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

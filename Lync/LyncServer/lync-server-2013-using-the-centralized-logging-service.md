@@ -1,60 +1,98 @@
-﻿---
-title: Verwenden des zentralisierten Protokollierungsdiensts
-TOCTitle: Verwenden des zentralisierten Protokollierungsdiensts
-ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688101(v=OCS.15)
-ms:contentKeyID: 49890804
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwenden des zentralen Protokollierungsdiensts'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Centralized Logging Service
+ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688101(v=OCS.15)
+ms:contentKeyID: 49733700
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03b5e4e2582c7b1738f0a6072197643f4df99238
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847306"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden des zentralisierten Protokollierungsdiensts
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden des zentralisierten Protokollierungsdiensts in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Bei dem Dienst Zentraler Protokollierungsdienst handelt es sich um eine neue Funktion in Lync Server 2013. Er stellt einen verbesserten Ersatz für die beiden Tools **OCSLogger** und **OCSTracer** dar, die in den vorherigen Versionen enthalten waren. Sie können den Dienst Zentraler Protokollierungsdienst zur Ausführung der folgenden Aufgaben verwenden:
+Der zentralisierte Protokollierungsdienst ist ein neues Feature in lync Server 2013. Es handelt sich um einen verbesserten Ersatz für die **OCSLogger** -und **OCSTracer** -Tools, die in früheren Versionen bereitgestellt wurden. Sie können den zentralisierten Protokollierungsdienst verwenden, um die folgenden Aufgaben auszuführen:
 
-  - Starten der Protokollierung für einen oder mehrere Computer und Pools über einen einzelnen Standort und Befehl.
+  - Starten Sie die Protokollierung an einem oder mehreren Computern und Pools von einem einzelnen Standort und Befehl aus.
 
-  - Beenden der Protokollierung für einen oder mehrere Computer und Pools über einen einzelnen Standort und Befehl.
+  - Beenden Sie die Protokollierung an einem oder mehreren Computern und Pools an einem einzigen Speicherort und Befehl.
 
-  - Durchsuchen von Protokollen auf einen oder mehreren Computern und in einem oder mehreren Pools nach einem einzelnen Standort und Befehl. Sie können den Suchbefehl anpassen, um die gesamten zusammengefassten Protokolle, die auf allen Computern aufgezeichnet und gespeichert wurden, zurückzugeben, oder um ein reduziertes Suchergebnis zu erhalten, in dem nur bestimmte Daten enthalten sind.
+  - Durchsuchen von Protokollen auf einem oder mehreren Computern und Pools für einen einzelnen Standort und Befehl. Sie können den Suchbefehl so anpassen, dass die gesamte Aggregation von Protokollen zurückgegeben wird, die auf allen Computern erfasst und gespeichert wurden, oder Sie können ein gekürztes Ergebnis zurückgeben, in dem bestimmte Daten erfasst werden.
 
   - Konfigurieren Sie die Protokollierungssitzungen wie folgt:
     
-      - Definieren Sie ein **Szenario**, oder verwenden Sie ein Standardszenario. Ein *Szenario* im Zentraler Protokollierungsdienst besteht aus einem Bereich (global oder standortbasiert), einem Szenarionamen, mit dem der Zweck des Szenarios angegeben wird, und einem oder mehreren Anbietern. Auf einem Computer können gleichzeitig jeweils zwei Szenarien ausgeführt werden.
+      - Definieren Sie ein **Szenario** oder verwenden Sie ein Standardszenario. Ein *Szenario* im zentralisierten Protokollierungsdienst besteht aus dem Bereich (Global oder Website), einem Szenarionamen zur Identifizierung des Zwecks des Szenarios und einem oder mehreren Anbietern. Sie können zwei Szenarios zu einem beliebigen Zeitpunkt auf einem Computer ausführen.
     
       - Sie können einen vorhandenen *Anbieter* verwenden oder einen neuen Anbieter erstellen. Der *Anbieter* definiert, was bei der Protokollierungssitzung erfasst wird, welche Detailebene gilt, welche Komponenten nachverfolgt werden und welche Flags angewendet werden.
         
+        <div>
+        
 
-        > [!TIP]
-        > Wenn Sie mit der Verwendung von OCSLogger vertraut sind: Der Begriff <EM>Anbieter</EM> bezieht sich auf die Sammlung der <STRONG>Komponenten</STRONG> (z.&nbsp;B. S4, SIPStack), einen <STRONG>Protokollierungstyp</STRONG> (z.&nbsp;B. WPP, EventLog oder IIS logfile), eine <STRONG>Ablaufverfolgungsstufe</STRONG> (z.&nbsp;B. All, verbose, debug) sowie <STRONG>Flags</STRONG> (z.&nbsp;B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter definiert (eine Windows PowerShell-Variable) und an den Zentraler Protokollierungsdienst-Befehl weitergegeben.
+        > [!TIP]  
+        > Wenn Sie mit der Verwendung von OCSLogger vertraut sind: Der Begriff <EM>Anbieter</EM> bezieht sich auf die Sammlung der <STRONG>Komponenten</STRONG> (z. B. S4, SIPStack), einen <STRONG>Protokollierungstyp</STRONG> (z. B. WPP, EventLog oder IIS logfile), eine <STRONG>Ablaufverfolgungsstufe</STRONG> (z. B. All, verbose, debug) sowie <STRONG>Flags</STRONG> (z. B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter (eine Windows PowerShell-Variable) definiert und an den Befehl "zentralisierter Protokollierungsdienst" übergeben.
 
+        
+        </div>
     
-      - Konfigurieren Sie die Computer und Pools, von denen Sie Protokolle erfassen möchten.
+      - Konfigurieren Sie die Computer und Pools, aus denen Sie Protokolle sammeln möchten.
     
-      - Definieren Sie den Bereich der Protokollierungssitzung unter Verwendung der Optionen **Standort** (Ausführung der Protokollierungsaufzeichnung erfolgt nur auf Computern an diesem Standort) bzw. **Global** (Ausführung der Protokollierungsaufzeichnung erfolgt auf allen Computern in der Bereitstellung).
+      - Definieren Sie den Bereich für die Protokollierungssitzung auf der **Seite** "Optionen" (nur Protokollierungs Aufzeichnungen auf Computern auf dieser Website) oder **Global** (Ausführen der Protokollierungs Aufzeichnung auf allen Computern in der Bereitstellung).
 
-Der Dienst Zentraler Protokollierungsdienst ist besonders leistungsstark und erfüllt nahezu alle Anforderungen zum Behandeln möglicher Probleme, egal ob diese klein oder groß sind. Von der Problemanalyse bis hin zu Leistungsproblemen kann der Zentraler Protokollierungsdienst als wichtiges Tool für alle Administratoren eingesetzt werden. Alle Beispiele werden unter Verwendung der Lync Server-Verwaltungsshell gezeigt. Es gibt eine Befehlszeilenkomponente für den Zentraler Protokollierungsdienst mit der Bezeichnung **CLSController.exe**. Die Hilfe zum Befehlszeilentool wird über das Tool selbst bereitgestellt. Über die Befehlszeile kann jedoch nur eine beschränkte Anzahl an Funktionen ausgeführt werden. Durch die Verwendung der Lync Server-Verwaltungsshell können Sie eine deutlich größere Anzahl an Funktionen und Konfigurationsoptionen nutzen. Es empfiehlt sich, die Lync Server-Verwaltungsshell als bevorzugte Methode zur Verwendung des Zentraler Protokollierungsdiensts einzusetzen.
+Der zentralisierte Protokollierungsdienst ist äußerst leistungsstark und kann nahezu alle Anforderungen für die Problembehandlung erfüllen – groß oder klein. Von der Ursachenanalyse bis zu Leistungsproblemen kann der zentralisierte Protokollierungsdienst ein wichtiges Tool für jeden Administrator sein. Alle Beispiele werden mithilfe der lync Server-Verwaltungsshell angezeigt. Es gibt eine Befehlszeilenkomponente für den zentralisierten Protokollierungsdienst namens " **CLSController. exe**". Hilfe wird für das Befehlszeilentool über das Tool selbst bereitgestellt. Es gibt jedoch eine begrenzte Anzahl von Funktionen, die Sie über die Befehlszeile ausführen können. Mithilfe der lync Server-Verwaltungsshell haben Sie Zugriff auf eine viel größere und viel mehr konfigurierbare Gruppe von Features. Wenn Sie den zentralisierten Protokollierungsdienst verwenden, sollten Sie die lync Server-Verwaltungsshell immer als die erste und wichtigste Methode beachten.
 
-In den Themen in diesem Abschnitt wird erläutert, wie Sie den Zentraler Protokollierungsdienst verwenden, und es werden Beispiele zur Verwendung der zahlreichen Dienstfunktionen dargestellt.
+In den Themen in diesem Abschnitt wird erläutert, wie der zentralisierte Protokollierungsdienst und Beispiele für die Verwendung der zahlreichen Features verwendet werden.
 
-## In diesem Abschnitt
+<div>
 
-  - [Übersicht über den zentralisierten Protokollierungsdienst](lync-server-2013-overview-of-the-centralized-logging-service.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verwalten der Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst mithilfe von PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
+  - [Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)
 
-  - [Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
+  - [Verwalten der Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
 
-  - [Verwenden von "Start", damit der zentralisierte Protokollierungsdienst Protokolle erfasst](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
+  - [Grundlegendes zu den Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
 
-  - [Verwenden von "Stop" für den zentralisierten Protokollierungsdienst](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
+  - [Verwenden von "Start" für den zentralisierten Protokollierungsdienst zum Aufzeichnen von Protokollen in lync Server 2013](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
 
-  - [Verwenden der Suche in Erfassungsprotokollen, die vom zentralisierten Protokollierungsdienst erstellt wurden](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+  - [Verwenden von "beenden" für den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
 
-  - [Lesen von Erfassungsprotokollen aus dem zentralisierten Protokollierungsdienst](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+  - [Verwenden der Suche in Aufzeichnungs Protokollen, die vom zentralisierten Protokollierungsdienst in lync Server 2013 erstellt wurden](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+
+  - [Lesen von Aufnahme Protokollen vom zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

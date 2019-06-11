@@ -1,33 +1,51 @@
-﻿---
-title: Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
-TOCTitle: Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
-ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688103(v=OCS.15)
-ms:contentKeyID: 49890805
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Informationen zu vertrauenswürdigen Anwendungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trusted application information
+ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
+ms:contentKeyID: 49733702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847234"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-30_
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Anzeigen von Informationen zu vertrauenswürdigen Anwendungen in lync Server 2013
 
-Verwenden Sie die folgende Vorgehensweise, um Informationen von vertrauenswürdigen Verwaltungsshell für Lync Server 2013-Anwendungen in Lync Server-Verwaltungsshell anzuzeigen.
+</div>
 
-## Anzeigen von Informationen zu vertrauenswürdigen Anwendungen mithilfe der Lync Server-Verwaltungsshell-Cmdlets
+<div id="mainSection">
 
-Sie können Informationen zu Ihren vertrauenswürdigen Anwendungen mithilfe von Lync Server-Verwaltungsshell und dem **Get-CsTrustedApplication**-Cmdlet anzeigen. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainBody">
 
-## So zeigen Sie vertrauenswürdige Anwendungen an
+<span> </span>
 
-  - Sie können alle Ihre vertrauenswürdigen Anwendungen anzeigen, indem Sie in der Lync Server-Verwaltungsshell den folgenden Befehl eingeben und die EINGABETASTE drücken:
+_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+
+Sie können Informationen zu vertrauenswürdigen Anwendungen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsTrustedApplication** anzeigen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-trusted-applications"></a>So zeigen Sie vertrauenswürdige Anwendungen an
+
+  - Wenn Sie alle vertrauenswürdigen Anwendungen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsConferenceDisclaimer
     
-    Mit diesem Befehl werden Informationen zu den einzelnen vertrauenswürdigen Anwendungen nach folgendem Muster zurückgegeben:
+    Dieser Befehl gibt für jede vertrauenswürdige Anwendung Informationen zurück, die der folgenden ähneln:
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -44,6 +62,18 @@ Sie können Informationen zu Ihren vertrauenswürdigen Anwendungen mithilfe von 
         EnterpriseVoiceEnabled : True
         ExUmEnabled            : False
         Enabled                : True
+    
+    Ausführliche Informationen finden Sie unter [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
-Ausführliche Informationen finden Sie unter [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

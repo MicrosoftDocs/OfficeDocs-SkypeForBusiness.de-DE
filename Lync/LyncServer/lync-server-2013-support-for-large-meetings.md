@@ -1,29 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung für große Besprechungen'
-TOCTitle: Unterstützung für große Besprechungen
-ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205090(v=OCS.15)
-ms:contentKeyID: 49294726
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützung für große Besprechungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Support for large meetings
+ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205090(v=OCS.15)
+ms:contentKeyID: 48184820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c98166b42f48e328809960279b9934b87670101b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847700"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung für große Besprechungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="support-for-large-meetings-in-lync-server-2013"></a>Unterstützung für große Besprechungen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
-Lync Server 2013 kann mit A/V-Konferenzen Besprechungen mit bis zu 1.000 Teilnehmern unterstützen, einschließlich der Freigabe von PowerPoint-Präsentationen. Hierzu muss ein dedizierter Pool konfiguriert werden, der große Besprechungen unterstützt und so verwaltet wird, dass er das Hosten einer einzigen großen Besprechung sicherstellt.
+Lync Server 2013 kann Besprechungen mit bis zu 1000 Teilnehmern mithilfe von Audio/Video-Konferenzen (A/V) unterstützen, einschließlich der Freigabe von PowerPoint-Präsentationen. Hierzu muss ein dedizierter Pool konfiguriert werden, der große Besprechungen unterstützt und so verwaltet wird, dass er das Hosten einer einzigen großen Besprechung sicherstellt.
 
-In diesem Abschnitt wird beschrieben, wie große Besprechungen mithilfe eines dedizierten Lync Server 2013-Pools unterstützt werden. Er enthält Überlegungen zur Skalierbarkeit und zu den Anforderungen bei der Implementierung für einen dedizierten Pool, einschließlich der Topologie-, Hardware-, Software- und Konfigurationsanforderungen. Er liefert darüber hinaus einen Satz bewährter Methoden für die Unterstützung großer Besprechungen, eine Übersicht der Testmethoden und die Ergebnisse der durch das Lync Server-Entwicklerteam durchgeführten Tests zur Serverskalierbarkeit sowie die Antworten auf häufig gestellte Fragen zur Unterstützung großer Besprechungen.
+In diesem Abschnitt wird beschrieben, wie Sie große Besprechungen mithilfe eines dedizierten lync Server 2013-Pools unterstützen. Er beschreibt Skalierbarkeits Überlegungen und die Implementierungsanforderungen für einen dedizierten Pool, einschließlich Topologie-, Hardware-, Software-und Konfigurationsanforderungen. Darüber hinaus bietet es eine Reihe bewährter Methoden zur Unterstützung großer Besprechungen, eine Zusammenfassung der Testmethoden und Ergebnisse der Server Skalierbarkeitstests, die vom lync Server Engineering-Team durchgeführt werden, und die Antworten auf häufig gestellte Fragen zum Support für große Besprechungen.
 
-## In diesem Abschnitt
+<div>
 
-  - [Übersicht über die Skalierbarkeit von Lync Server 2013-Konferenzen](lync-server-2013-conferencing-scalability-overview.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Unterstützen von großen Besprechungen mithilfe von Lync Server 2013](lync-server-2013-supporting-large-meetings.md)
+  - [Übersicht über die Skalierbarkeit von Konferenzen in lync Server 2013](lync-server-2013-conferencing-scalability-overview.md)
 
-  - [Lync Server 2013-Unterstützung für große Besprechungen – Häufig gestellte Fragen](lync-server-2013-large-meeting-support-faq.md)
+  - [Unterstützen von umfangreichen Besprechungen mit lync Server 2013](lync-server-2013-supporting-large-meetings.md)
+
+  - [Häufig gestellte Fragen zu Besprechungs Support für lync Server 2013](lync-server-2013-large-meeting-support-faq.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

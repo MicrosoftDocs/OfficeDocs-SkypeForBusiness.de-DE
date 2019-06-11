@@ -1,21 +1,41 @@
-﻿---
-title: UserAgentDef-Tabelle
-TOCTitle: UserAgentDef-Tabelle
-ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205100(v=OCS.15)
-ms:contentKeyID: 49294819
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: UserAgentDef-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserAgentDef table
+ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
+ms:contentKeyID: 48184860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847372"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# UserAgentDef-Tabelle
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="useragentdef-table-in-lync-server-2013"></a>UserAgentDef-Tabelle in lync Server 2013
 
-Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen der Agents zu. Benutzer-Agents sind Softwareclients, die für die Verbindung mit Microsoft Lync Server 2013 eingesetzt werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-03-25_
+
+Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu. Benutzer-Agents sind Software Clients, die zum Herstellen einer Verbindung mit Microsoft lync Server 2013 verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -34,8 +54,8 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td><p>MediationServer</p></td>
-<td><p>MediationServer</p></td>
+<td><p>„MediationServer“</p></td>
+<td><p>„MediationServer“</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
@@ -74,22 +94,22 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Attendant</p></td>
-<td><p>Attendant</p></td>
+<td><p>Vermittlung</p></td>
+<td><p>Vermittlung</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_1.0</p></td>
+<td><p>Conferencing_announcement_service_ 1.0</p></td>
 <td><p>CAS</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_1.0</p></td>
+<td><p>Conferencing_attendant_ 1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_1.0</p></td>
+<td><p>Conference_auto_attendant_ 1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
@@ -99,23 +119,23 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_1.0</p></td>
+<td><p>Call_park_service_ 1.0</p></td>
 <td><p>CPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>AS</p></td>
+<td><p>Als</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft.Rtc.Applications.Ccs</p></td>
+<td><p>Microsoft. RTC. Applications. CCS</p></td>
 <td><p>CCS</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
-<td><p>CoMo</p></td>
-<td><p>CoMo</p></td>
+<td><p>Como</p></td>
+<td><p>Como</p></td>
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
@@ -144,8 +164,8 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ST</p></td>
-<td><p>ST</p></td>
+<td><p>St</p></td>
+<td><p>St</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -184,8 +204,8 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>PCS</p></td>
-<td><p>PCS</p></td>
+<td><p>PCs</p></td>
+<td><p>PCs</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -229,4 +249,15 @@ Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

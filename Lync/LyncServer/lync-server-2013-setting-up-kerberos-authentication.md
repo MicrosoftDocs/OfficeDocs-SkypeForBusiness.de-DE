@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Einrichten der Kerberos-Authentifizierung'
-TOCTitle: Einrichten der Kerberos-Authentifizierung
-ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398976(v=OCS.15)
-ms:contentKeyID: 49295629
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten der Kerberos-Authentifizierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Kerberos authentication
+ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)
+ms:contentKeyID: 48185601
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86526b40ee837866cdf0e3b016a8e4e627ca2eef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847794"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten der Kerberos-Authentifizierung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Einrichten der Kerberos-Authentifizierung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Lync Server 2013 unterstützt NTLM- und Kerberos-Authentifizierung für die Webdienste. Office Communications Server 2007 und Office Communications Server 2007 R2 verwendeten standardmäßig die Benutzerkonten "RTCComponentService" und "RTCService" als Benutzerkonten zum Ausführen der Webdienste-Anwendungspools. So kann den Benutzerkonten ein Dienstprinzipalname zugeordnet werden, der als Authentifizierungsprinzipal fungieren kann. Lync Server verwendet "NetworkService" zum Ausführen der Webdienste, und "NetworkService" können keine Dienstprinzipalnamen zugewiesen werden.
+Lync Server 2013 unterstützt die NTLM-und Kerberos-Authentifizierung für Webdienste. Office Communications Server 2007 und Office Communications Server 2007 R2 verwendeten die standardmäßigen RTCComponentService und RTCService als Benutzerkonten, um die Webdienste-Anwendungspools auszuführen, sodass dem Benutzer ein Dienstprinzipalname (SPN) zugewiesen werden konnte. Konten und als Authentifizierungs Prinzipal fungieren. Lync Server verwendet Network Service zum Ausführen von Webdiensten, und Network Services kann keine SPNs zugewiesen werden.
 
-Bei nicht vorhandenen Active Directory-Objekten nutzt Lync Server-Systemsteuerung zur Speicherung der Dienstprinzipalnamen ersatzweise Computerkontoobjekte. Die Computerkontoobjekte können die Dienstprinzipalnamen enthalten und unterliegen keinem Kennwortablauf, was bei der Verwendung von Benutzerkonten in früheren Versionen ein Problem darstellte.
+Um das Problem zu lösen, dass keine Active Directory-Objekte für die SPNs enthalten sind, kann die lync Server-Systemsteuerung Computerkontoobjekte zu diesem Zweck verwenden. Die Computerkontoobjekte können die SPNs enthalten und unterliegen nicht dem Ablauf von Kennwörtern, was ein Problem bei der Verwendung von Benutzerkonten in früheren Versionen war.
 
-Sie verwenden Windows PowerShell-Cmdlets, um die Computerobjekte zur Bereitstellung der Kerberos-Authentifizierung zu konfigurieren.
+Sie verwenden Windows PowerShell-Cmdlets, um die Computerobjekte so zu konfigurieren, dass die Kerberos-Authentifizierung bereitgestellt wird.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung in Lync Server 2013](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
 
@@ -36,4 +58,16 @@ Sie verwenden Windows PowerShell-Cmdlets, um die Computerobjekte zur Bereitstell
   - [Entfernen der Kerberos-Authentifizierung aus einem Standort in Lync Server 2013](lync-server-2013-remove-kerberos-authentication-from-a-site.md)
 
   - [Test und Berichterstellung zu Status und Zuweisung der Kerberos-Authentifizierung in Lync Server 2013](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

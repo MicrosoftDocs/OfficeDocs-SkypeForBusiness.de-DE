@@ -1,41 +1,69 @@
-﻿---
-title: Anzeigen von Informationen zu Konfigurationen mit Aufzeichnung von Kommunikationsdatensätzen
-TOCTitle: Anzeigen von Informationen zu Konfigurationen mit Aufzeichnung von Kommunikationsdatensätzen
-ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688096(v=OCS.15)
-ms:contentKeyID: 49890797
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen der CDR-Konfigurationsinformationen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View CDR configuration information
+ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688096(v=OCS.15)
+ms:contentKeyID: 49733695
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: baa03ab1ce52c98746657c0314760c902f295589
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847265"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Konfigurationen mit Aufzeichnung von Kommunikationsdatensätzen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-cdr-configuration-information-in-lync-server-2013"></a>Anzeigen der CDR-Konfigurationsinformationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-zu-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
+Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-to-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
 
-Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne globale Auflistung von KDS-Konfigurationseinstellungen erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen anzeigen, indem Sie Lync Server-Systemsteuerung oder das [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)-Cmdlet verwenden.
+Wenn Sie Microsoft lync Server 2013 installieren, wird eine einzige globale Sammlung von CDR-Konfigurationseinstellungen für Sie erstellt. Administratoren haben außerdem die Möglichkeit, benutzerdefinierte Auflistungen von Einstellungen zu erstellen, die auf einzelne Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten CdR-Konfigurationseinstellungen mithilfe der lync Server-Systemsteuerung oder mit dem Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) anzeigen.
 
-## So zeigen Sie KDS-Konfigurationsinformationen mithilfe von Lync Server-Systemsteuerung an
+<div>
 
-1.  Klicken Sie im Lync Server-Systemsteuerung auf **Überwachung und Archivierung**.
+## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a>So zeigen Sie CDR-Konfigurationsinformationen mithilfe der lync Server-Systemsteuerung an
 
-2.  Auf der Registerkarte **Aufzeichnung von Kommunikationsdatensätzen** wird eine Liste mit allen KDS-Konfigurationseinstellungen angezeigt; für jede Einstellungsauflistung wird der **Name** der Auflistung angezeigt; ob KDS aktiviert wurde oder nicht (die Eigenschaft **KDS**); und ob die Bereinigung (die Eigenschaft **Bereinigungsfunktion für aufgezeichnete Kommunikationsdatensätze**) aktiviert wurde oder nicht. Sie können detaillierte Informationen zu einer Auflistung anzeigen, indem Sie doppelt auf diese Auflistung klicken. Alternativ können Sie die gewünschte Auflistung auswählen und auf **Bearbeiten** und **Details anzeigen** klicken. Beachten Sie Folgendes: Es können jeweils nur detaillierte Informationen zu einer Auflistung mit KDS-Konfigurationseinstellungen angezeigt werden.
+1.  Klicken Sie in der lync Server-Systemsteuerung auf **Überwachung und Archivierung**.
 
-## So zeigen Sie KDS-Konfigurationsinformationen mithilfe des Lync Server-Verwaltungsshell-Cmdlets an
+2.  Auf der Registerkarte **Aufzeichnung von Kommunikationsdatensätzen** wird eine Liste mit allen KDS-Konfigurationseinstellungen angezeigt; für jede Einstellungsauflistung wird der **Name** der Auflistung angezeigt; ob KDS aktiviert wurde oder nicht (die Eigenschaft **KDS**); und ob der Löschvorgang (die Eigenschaft **KDS-Löschvorgang**) aktiviert wurde oder nicht. Sie können detaillierte Informationen zu einer Auflistung anzeigen, indem Sie doppelt auf diese Auflistung klicken. Alternativ können Sie die gewünschte Auflistung auswählen und auf **Bearbeiten** und **Details anzeigen** klicken. Beachten Sie Folgendes: Es können jeweils nur detaillierte Informationen zu einer Auflistung mit KDS-Konfigurationseinstellungen angezeigt werden.
 
-Sie können die KDS-Konfigurationseinstellungen auch mithilfe von Lync Server-Verwaltungsshell und dem Cmdlet „Get-CsCdrConfiguration“ anzeigen. Sie können dieses Cmdlet entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+</div>
 
-## So zeigen Sie KDS-Konfigurationsinformationen an
+<div>
 
-  - Sie können Informationen zu allen KDS-Konfigurationseinstellungen anzeigen, indem Sie in der Lync Server-Verwaltungsshell den folgenden Befehl eingeben und die EINGABETASTE drücken:
+## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von CDR-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets
+
+Sie können die CDR-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet Get-CsCdrConfiguration anzeigen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-cdr-configuration-information"></a>So zeigen Sie KDS-Konfigurationsinformationen an
+
+  - Wenn Sie Informationen zu allen CdR-Konfigurationseinstellungen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsCdrConfiguration
     
-    Es werden Informationen nach dem folgenden Muster zurückgegeben:
+    Es werden etwa folgende Informationen zurückgegeben:
     
         Identity               : Global
         EnableCDR              : True
@@ -44,5 +72,19 @@ Sie können die KDS-Konfigurationseinstellungen auch mithilfe von Lync Server-Ve
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Weitere Informationen finden Sie im Hilfethema zum [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)-Cmdlet.
+</div>
+
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

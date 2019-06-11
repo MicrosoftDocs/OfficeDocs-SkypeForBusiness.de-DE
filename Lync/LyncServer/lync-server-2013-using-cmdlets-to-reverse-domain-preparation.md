@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung'
-TOCTitle: Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung
-ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398071(v=OCS.15)
-ms:contentKeyID: 49292981
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using cmdlets to reverse domain preparation
+ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
+ms:contentKeyID: 48183227
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b03ab3218a1568613731efe60eaa95b05a91ebc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847346"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-29_
 
-Verwenden Sie das Cmdlet **Disable-CsAdDomain**, um die Domänenvorbereitung rückgängig zu machen.
+Verwenden Sie das Cmdlet **Disable-CsAdDomain** , um den Schritt zur Domänenvorbereitung umzukehren.
 
-## So machen Sie mithilfe von Cmdlets die Domänenvorbereitung rückgängig
+<div>
 
-1.  Melden Sie sich als Mitglied der Gruppe der Domänenadministratoren bei einem beliebigen Server an.
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>So verwenden Sie Cmdlets zum Umkehren der Domänenvorbereitung
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich bei einem beliebigen Server in der Domäne als Mitglied der Gruppe der Domänenadministratoren an.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie folgenden Befehl aus:
     
@@ -32,21 +54,39 @@ Verwenden Sie das Cmdlet **Disable-CsAdDomain**, um die Domänenvorbereitung rü
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    Falls der Parameter "Force" vorhanden ist, wird auch dann ein Rollback der Domänenvorbereitung ausgeführt, wenn in der Domäne einer oder mehrere Front-End-Server oder A/V-Konferenzserver aktiviert sind. Falls der Parameter "Force" nicht vorhanden ist, wird der Rollback der Domänenvorbereitung beendet, wenn in der Domäne Front-End-Server oder A/V-Konferenzserver aktiviert sind.
+    Wenn der Parameter Force vorhanden ist, wird die Domänenvorbereitung zurückgesetzt, selbst wenn ein oder mehrere Front-End-Server oder A/V-Konferenzserver in der Domäne aktiviert sind. Wenn der Parameter Force nicht vorhanden ist, wird das Rollback zur Domänenvorbereitung beendet, wenn alle Front-End-Server oder A/V-Konferenzserver in der Domäne aktiviert sind.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (dies ist bei Upgradebereitstellungen typisch, in denen die globalen Einstellungen nicht zum Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Falls sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind, und verweist auf einen beliebigen Domänencontroller in den Active Directory-Domänendiensten (AD&nbsp;DS).
+    > [!NOTE]  
+    > Mit dem Parameter GlobalSettingsDomainController können Sie angeben, wo die globalen Einstellungen gespeichert werden. Wenn Ihre Einstellungen im System Container gespeichert sind (typisch für Upgrade-Bereitstellungen, bei denen die globale Einstellung nicht zum Konfigurationscontainer migriert wurde), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind und auf einen beliebigen Domänencontroller in&nbsp;AD DS verweisen.
 
+    
+    </div>
 
+</div>
 
-## Siehe auch
+<div>
 
-#### Aufgaben
+## <a name="see-also"></a>Siehe auch
+
 
 [Ausführen der Domänenvorbereitung für Lync Server 2013](lync-server-2013-running-domain-preparation.md)  
 
-#### Weitere Ressourcen
 
-[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

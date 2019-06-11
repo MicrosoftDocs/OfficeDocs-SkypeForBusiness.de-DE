@@ -1,31 +1,61 @@
-﻿---
-title: Migrieren von mehreren Standorten und Pools
-TOCTitle: Migrieren von mehreren Standorten und Pools
-ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205165(v=OCS.15)
-ms:contentKeyID: 49295004
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren von mehreren Standorten und Pools
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating multiple sites and pools
+ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205165(v=OCS.15)
+ms:contentKeyID: 48185079
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7759c52051dfe4ca4a46e105e6a33f3284f334e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847107"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren von mehreren Standorten und Pools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrating-multiple-sites-and-pools"></a>Migrieren von mehreren Standorten und Pools
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-17_
 
-In Lync Server 2013 werden Bereitstellungen mit mehreren Standorten und Pools unterstützt. Bei der Migration mehrerer Pools von Lync Server 2010 zu Lync Server 2013 müssen die folgenden Aspekte berücksichtigt werden:
+Lync Server 2013 unterstützt die Bereitstellung mehrerer Standorte und mehrerer Pools. Der Vorgang zum Migrieren mehrerer Pools von lync Server 2010 zu lync Server 2013 erfordert die folgenden Überlegungen:
 
-1.  Nach dem Bereitstellen eines Lync Server 2013-Pilotpools müssen Sie eine Teilmenge mit Pilotbenutzern, die in den Lync Server 2013-Pool verschoben werden, und eine Methodik zum Validieren der Funktionalität der Benutzer definieren. Stellen Sie beispielsweise nach dem Verschieben eines Benutzers in den Pilotpool sicher, dass die Konferenzrichtlinie des Benutzers nach Lync Server 2013 verschoben wurde.
+1.  Nach der Bereitstellungeines lync Server 2013-pilotpools müssen Sie eine Teilmenge der Pilotbenutzer definieren, die in den lync Server 2013-Pool verschoben werden, und eine Methode zum Überprüfen der Funktionalität der Benutzer. Wenn Sie beispielsweise einen Benutzer in den Pilot Pool verschieben, überprüfen Sie, ob die konferenzrichtlinie des Benutzers nach lync Server 2013 verschoben wurde.
 
-2.  Nach der Bereitstellung eines Edgeservers im Pilotpool müssen Sie überprüfen, ob externe Benutzer mit dem Lync Server 2013-Pool kommunizieren können.
+2.  Nachdem Sie einen Edgeserver im Pilot Pool bereitgestellt haben, müssen Sie überprüfen, ob externe Benutzer mit dem lync Server 2013-Pool kommunizieren können.
 
-3.  Nach dem Übergang der Partnerrouten von Lync Server 2010-Edgeservern zu Lync Server 2013-Edgeservern der Partnerbereitstellung müssen Sie überprüfen, ob die Partnerbenutzer mit dem Lync Server 2013-Pool kommunizieren können.
+3.  Nachdem Sie die Verbund Routen von lync Server 2010-Edgeserver auf die Pilot-Edgeserver von lync Server 2013 umgestellt haben, müssen Sie überprüfen, ob Verbundbenutzer mit dem lync Server 2013-Pool kommunizieren können.
 
-4.  Nach dem Verschieben von allen Benutzern und Kontaktobjekten, die keine Benutzer sind, müssen Sie sicherstellen, dass der Lync Server 2010-Pool leer ist.
+4.  Nachdem Sie alle Benutzer und nicht-Benutzer-Kontaktobjekte verschoben haben, müssen Sie überprüfen, ob der lync Server 2010-Pool leer ist.
 
-5.  Nachdem Sie sichergestellt haben, dass der Lync Server 2010-Pool leer ist, können Sie den Pool deaktivieren.
+5.  Nachdem Sie überprüft haben, dass der lync Server 2010-Pool leer ist, können Sie den Pool deaktivieren.
     
-    Ausführliche Informationen über die Deaktivierung von Lync Server 2010-Pools und -Servern aus der Vorversionsumgebung finden Sie unter [Phase 8: Außerbetriebsetzen der Legacypools](phase-8-decommission-legacy-pools.md).
+    Details zum Deaktivieren des Legacy-lync Server 2010-Pools und-Servers finden Sie unter [Phase 8: Legacy-Pools](phase-8-decommission-legacy-pools.md)der decommission-Version.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

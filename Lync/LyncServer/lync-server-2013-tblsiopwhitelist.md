@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblSiopWhiteList'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558607(v=OCS.15)
-ms:contentKeyID: 49293056
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)
+ms:contentKeyID: 48183310
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fff11d98d35b288436922477025ea9cf49e924cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847615"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblSiopWhiteList in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a>tblSiopWhiteList in Lync Server 2013
 
-Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, die mit Knoten verknüpft werden können.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-28_
+
+tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -40,19 +60,19 @@ Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, d
 </tr>
 <tr class="even">
 <td><p>siopName</p></td>
-<td><p>nvarchar (50), nicht NULL</p></td>
+<td><p>nvarchar (50); nicht NULL</p></td>
 <td><p>Anzeigename des Add-Ins.</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopUrl</p></td>
-<td><p>nvarchar (255), nicht NULL</p></td>
-<td><p>URL des Add-Ins.</p></td>
+<td><p>nvarchar (255); nicht NULL</p></td>
+<td><p>Die URL des Add-Ins.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -72,4 +92,15 @@ Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, d
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

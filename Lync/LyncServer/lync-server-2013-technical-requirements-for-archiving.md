@@ -1,59 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Technische Anforderungen für die Archivierung'
-TOCTitle: Technische Anforderungen für die Archivierung
-ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205059(v=OCS.15)
-ms:contentKeyID: 49294669
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Technische Voraussetzungen für die Archivierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Archiving
+ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
+ms:contentKeyID: 48184732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e4847815f10a48b954d3d83348d95cc137f4b39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847607"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Technische Anforderungen für die Archivierung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Technische Voraussetzungen für die Archivierung in lync Server 2013
 
-Zu den technischen Anforderungen für Lync Server 2013 gehören die folgenden:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+
+Die technischen Voraussetzungen für lync Server 2013 umfassen die folgenden:
 
   - Infrastrukturanforderungen.
 
-  - Für die Archivierung müssen alle erforderliche Softwarekomponenten installiert werden.
+  - Erforderliche Software, die für die Archivierung installiert werden muss.
 
-  - Speicheranforderungen für Daten zur Archivierung.
+  - Datenspeicheranforderungen für die Archivierung
 
-  - Skalierungsanforderungen und -überlegungen für die Archivierungsbereitstellung.
+  - Skalierungsanforderungen und Überlegungen für die Archivierungs Bereitstellung.
 
-  - Leistungsanforderungen und -überlegungen für die Archivierungsdatenbanken.
+  - Leistungsanforderungen und Überlegungen für Ihre Archivierungsdatenbanken.
 
-
-> [!NOTE]
-> Skalierungs- und Leistungsinformationen sind in dieser Lync Server 2013-Version nicht verfügbar.
+<div>
 
 
+> [!NOTE]  
+> Skalierungs-und Leistungsinformationen stehen in dieser lync Server 2013-Version nicht zur Verfügung.
 
-## Infrastrukturanforderungen
 
-Die Archivierungsinfrastrukturanforderungen für Lync Server 2013 sind mit denen für die Bereitstellung von Lync Server 2013 identisch. Ausführliche Informationen finden Sie unter [Ermitteln Ihrer Infrastrukturanforderungen für Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in der Planungsdokumentation.
 
-## Voraussetzungen für die Archivierung
+</div>
 
-Lync Server 2013 optimiert aus folgenden Gründen die Voraussetzungen für die Archivierung:
+<div>
 
-  - Der Archivierungsserver ist keine Serverrolle mehr. Stattdessen werden Datenerfassungs-Agenten auf den Front-End-Servern in einem Pool und Standard Edition-Server ausgeführt, um Daten für die Archivierung zu erfassen, sodass Sie keine separaten Systemplattformen zur Archivierung einrichten müssen.
+## <a name="infrastructure-requirements"></a>Infrastrukturanforderungen
 
-  - Bei der Archivierung wird der Lync Server 2013-Dateispeicher für die Zwischenspeicherung von Dateien mit Besprechungsinhalten verwendet, sodass keine separate Dateispeicherung zur Archivierung eingerichtet werden muss.
+Die Anforderungen der Archivierungsinfrastruktur für lync Server 2013 sind identisch mit der Bereitstellung von lync Server 2013. Ausführliche Informationen finden Sie unter [Ermitteln der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in der Planungsdokumentation.
 
-  - In Lync Server 2013 ist Message Queuing nicht erforderlich.
+</div>
 
-## Speicheranforderungen für Daten zur Archivierung
+<div>
 
-Die Infrastruktur für Archivierungsspeicher muss zusätzlich eingerichtet werden. Dies umfasst eine oder beide der folgenden Infrastrukturen:
+## <a name="archiving-prerequisites"></a>Archivierungs Voraussetzungen
 
-  - **Microsoft Exchange-Speicher**. Dateien mit Besprechungsinhalten, z. B. PowerPoint-Präsentationen, werden als Anlage archiviert. Wenn Sie die Microsoft Exchange-Integration verwenden möchten, damit die Archivdaten von Lync mit den Kompatibilitätsdaten von Exchange gespeichert werden, müssen Sie Exchange 2013 zur Bereitstellung von Exchange verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Dateien mit Besprechungsinhalten unterstützt. Wenn Sie die Archivierung mithilfe der Integrationsoption von Microsoft Exchange bereitstellen, werden die Lync-Archivdaten mit den Kompatibilitätsdaten von Exchange 2013 nur für die Benutzer gespeichert, die auf Ihren Exchange 2013-Servern gehostet werden. Vor dem Bereitstellen und Aktivieren der Archivierung müssen Sie Exchange 2013 bereitstellen und die Archivierung mithilfe der Integrationsoption von Microsoft Exchange aktivieren. Wenn Sie sich für den Exchange 2013-Speicher entschieden haben, müssen Sie nur dann separate SQL Server-Datenbanken zur Archivierung bereitstellen, wenn Sie über Lync-Benutzer verfügen, die auf Ihren Exchange 2013-Servern gehostet werden.
+Lync Server 2013 optimiert die Voraussetzungen für die Archivierung aus folgenden Gründen:
 
-  - **SQL Server-Datenbankspeicher zur Archivierung**. Damit Benutzer unterstützt werden, die nicht auf Ihren Exchange 2013-Servern gehostet werden oder wenn Sie die Integrationsoptionen von Microsoft Exchange nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer SQL Server-Datenbank bereitstellen. Lync Server 2013 unterstützt die folgenden 64-Bit-Versionen von SQL Server:
+  - Der Archivierungsserver ist keine Serverrolle mehr. Stattdessen werden Unified Data Collection-Agents auf den Front-End-Servern in einem Pool und auf Standard Edition-Servern ausgeführt, um Daten für die Archivierung zu erfassen, sodass Sie keine separaten Systemplattformen für die Archivierung einrichten.
+
+  - Bei der Archivierung wird der lync Server 2013-Dateispeicher zur temporären Speicherung von Besprechungsinhalts Dateien verwendet, sodass Sie keinen separaten Dateispeicher für die Archivierung einrichten.
+
+  - In lync Server 2013 ist Message Queuing nicht erforderlich.
+
+</div>
+
+<div>
+
+## <a name="data-storage-requirements-for-archiving"></a>Datenspeicheranforderungen für die Archivierung
+
+Darüber hinaus müssen Sie die Infrastruktur für die Archivierung von Speicher einrichten. Dazu gehören eine oder beide der folgenden Optionen:
+
+  - **Microsoft Exchange-Speicher**. Meeting content files, such as PowerPoint presentations, are archived as attachments. Wenn Sie die Microsoft Exchange-Integration verwenden möchten, damit lync-Archivdaten mit Exchange-Kompatibilitätsdaten gespeichert werden, müssen Sie Exchange 2013 für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt. Wenn Sie die Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen, werden lync-Archivdaten nur für die Benutzer, die auf Ihren Exchange 2013-Servern gehostet werden, mit Exchange 2013-Kompatibilitätsdaten gespeichert. Sie müssen Exchange 2013 vor der Bereitstellung und Aktivierung der Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen. Wenn Sie Exchange 2013-Speicher verwenden, müssen Sie keine separaten SQL Server-Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Ihren Exchange 2013-Servern gehostet sind.
+
+  - **SQL Server-Datenbankspeicher für die Archivierung**. Wenn Sie Benutzer unterstützen möchten, die nicht auf Exchange 2013-Servern gehostet werden, oder wenn Sie die Microsoft Exchange-Integrations Option nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer SQL Server-Datenbank bereitstellen. Lync Server 2013 unterstützt die folgenden 64-Bit-Versionen von SQL Server:
     
       - Microsoft SQL Server 2008 R2 Enterprise
     
@@ -63,10 +97,26 @@ Die Infrastruktur für Archivierungsspeicher muss zusätzlich eingerichtet werde
     
       - Microsoft SQL Server 2012 Standard
     
+    <div>
+    
 
-    > [!NOTE]
-    > Microsoft SQL Server 2008 R2 Express und Microsoft SQL Server 2012 Express werden nicht für die Archivierung unterstützt. 32-Bit-Versionen von SQL Server werden nicht unterstützt. Weitere Informationen zu SQL&nbsp;Server-Anforderungen und -Einschränkungen finden Sie unter <A href="lync-server-2013-database-software-support.md">Unterstützte Datenbanksoftware in Lync Server 2013</A> in der Planungsdokumentation oder in der Unterstützungsdokumentation.
+    > [!NOTE]  
+    > Microsoft SQL Server 2008 R2 Express und Microsoft SQL Server 2012 Express werden für die Archivierung nicht unterstützt. 32-Bit-Versionen von SQL Server werden nicht unterstützt. Weitere SQL Server-Anforderungen und-Einschränkungen finden Sie unter unter <A href="lync-server-2013-database-software-support.md">Stützung von Datenbanksoftware in lync Server 2013</A> in der Planungsdokumentation oder in der Dokumentation zur Unterstützung.
 
     
-    Sie müssen die SQL Server-Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank ( **LcsLog** ) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, z.\&nbsp;B. im Rahmen des Installationsverfahrens. Ausführliche Informationen zu SQL Server finden Sie im SQL\&nbsp;Server TechCenter unter [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x407).
+    </div>
+    
+    Sie müssen die SQL Server-Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren können. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank (LcsLog) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, auch als Teil des Installationsvorgangs. Ausführliche Informationen zu SQL Server finden Sie im SQL Server TechCenter unter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

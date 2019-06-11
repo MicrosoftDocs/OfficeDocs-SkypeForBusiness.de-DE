@@ -1,123 +1,173 @@
-﻿---
-title: Verschieben des zentralen Lync Server 2010-Verwaltungsservers zu Lync Server 2013
-TOCTitle: Verschieben des zentralen Lync Server 2010-Verwaltungsservers zu Lync Server 2013
-ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688013(v=OCS.15)
-ms:contentKeyID: 49890690
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verschieben des zentralen Verwaltungsservers mit lync Server 2010 auf lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
+ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
+ms:contentKeyID: 49733602
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847078"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verschieben des zentralen Lync Server 2010-Verwaltungsservers zu Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Verschieben des zentralen Verwaltungsservers mit lync Server 2010 auf lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-11-25_
 
-Nach der Migration von Lync Server 2010 zu Lync Server 2013 müssen Sie den zentraler Verwaltungsserver aus Lync Server 2010 zum Front-End-Server oder zum Pool in Lync Server 2013 verschieben, bevor Sie den Lync Server 2010-Legacyserver entfernen können.
+Nachdem Sie die Migration von lync Server 2010 zu lync Server 2013 durchlaufen haben, müssen Sie den zentralen Verwaltungsserver von lync Server 2010 auf den lync Server 2013-Front-End-Server oder-Pool verschieben, bevor Sie den Legacy-lync Server 2010-Server entfernen können.
 
-Der zentrale Verwaltungsserver ist ein Einzelmaster/Mehrfachreplikat-System, bei dem die Datenbankkopie mit Lese-/Schreibberechtigung vom Front-End-Server verwaltet wird, der den zentralen Verwaltungsserver enthält. Jeder Computer in der Topologie, einschließlich des Front-End-Servers, der den zentralen Verwaltungsserver umfasst, verfügt über eine schreibgeschützte Kopie der Daten für den zentralen Verwaltungsspeicher in der SQL Server-Datenbank (heißt standardmäßig RTCLOCAL), die während des Setups und der Bereitstellung auf dem Computer installiert wird. Die lokale Datenbank empfängt Replikataktualisierungen über den Replikat-Replikations-Agent von Lync Server, der auf allen Computern als Dienst ausgeführt wird. Der Name der eigentlichen Datenbank auf dem zentralen Verwaltungsserver und des lokalen Replikats lautet XDS und besteht aus den Dateien xds.mdf und xds.ldf. Auf den Speicherort der Masterdatenbank wird mit einem Dienstverbindungspunkt (Service Control Point, SCP) in Active Directory-Domänendienste verwiesen. Alle Tools, die den zentralen Verwaltungsserver zum Verwalten und Konfigurieren von Lync Server verwenden, nutzen den Dienstverbindungspunkt, um den zentralen Verwaltungsspeicher aufzufinden.
+Bei dem zentralen Verwaltungsserver handelt es sich um ein einzelnes Master/Multiple-Replikat System, bei dem die Kopie der Datenbank vom Front-End-Server, auf dem sich der zentrale Verwaltungsserver befindet, gelesen/geschrieben wird. Jeder Computer in der Topologie, einschließlich des Front-End-Servers, der den zentralen Verwaltungsserver enthält, verfügt über eine schreibgeschützte Kopie der zentralen Verwaltungsspeicher Daten in der SQL Server-Datenbank (standardmäßig mit dem Namen RTCLOCAL), die während des Setups auf dem Computer installiert sind, und Bereitstellungs. Die lokale Datenbank erhält Replikat Updates über den lync Server Replica Replicator-Agent, der auf allen Computern als Dienst ausgeführt wird. Der Name der tatsächlichen Datenbank auf dem zentralen Verwaltungs Server und das lokale Replikat ist XDS, das aus den Dateien XDS. mdf und XDS. ldf besteht. Auf den Speicherort der Master Datenbank wird in den Active Directory-Domänendiensten von einem Dienst Kontrollpunkt (Service Control Point, SCP) verwiesen. Alle Tools, die den zentralen Verwaltungs Server zum Verwalten und Konfigurieren von lync Server verwenden, verwenden den SCP, um den zentralen Verwaltungsspeicher zu finden.
 
-Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die Datenbanken für den zentralen Verwaltungsserver vom ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen von Datenbanken für den zentralen Verwaltungsserver finden Sie unter [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
+Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die zentralen Verwaltungsserver Datenbanken vom ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen der zentralen Verwaltungs Server-Datenbanken finden Sie unter [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
 
-Sie können das Windows PowerShell-Cmdlet **Move-CsManagementServer** in der Lync Server-Verwaltungsshell verwenden, um die Datenbank aus der SQL Server-Datenbank in Lync Server 2010 zur SQL Server-Datenbank in Lync Server 2013 zu verschieben, und anschließend den Dienstverbindungspunkt aktualisieren, sodass er auf den Speicherort des zentralen Verwaltungsservers in Lync Server 2013 verweist.
+Sie verwenden das Windows PowerShell **-Cmdlet Move-CsManagementServer** in der lync Server-Verwaltungsshell, um die Datenbank aus der lync Server 2010 SQL Server-Datenbank in die lync Server 2013 SQL Server-Datenbank zu verschieben und dann den SCP so zu aktualisieren, dass er auf das lync verweist. Server 2013 Central Management Server-Standort.
 
-## Vorbereiten der Lync Server 2013Front-End-Server vor dem Verschieben des zentralen Verwaltungsservers
+<div>
 
-Gehen Sie wie in diesem Abschnitt beschrieben vor, um die Lync Server 2013- Front-End-Server vorzubereiten, bevor Sie den zentralen Verwaltungsserver aus Lync Server 2010 verschieben.
+## <a name="preparing-lync-server-2013front-end-servers-before-moving-the-central-management-server"></a>Vorbereiten der lync Server 2013-Front-End-Server vor dem Verschieben des zentralen Verwaltungsservers
 
-## So bereiten Sie einen Enterprise Edition- Front-End-Pool vor
+Führen Sie die Verfahren in diesem Abschnitt aus, um die lync Server 2013-Front-End-Server vorzubereiten, bevor Sie den zentralen Verwaltungs Server für lync Server 2010 verschieben.
 
-1.  Gehen Sie im Lync Server 2013 Enterprise Edition- Front-End-Pool, zu dem Sie den zentralen Verwaltungsserver verschieben möchten, wie folgt vor: Melden Sie sich an dem Computer an, auf dem die Lync Server-Verwaltungsshell als Mitglied der Rolle **RTCUniversalServerAdmins** installiert ist. Darüber hinaus benötigen Sie Systemadministratorrechte und -berechtigungen für die SQL Server-Datenbank, in der Sie den zentralen Verwaltungsspeicher installieren möchten.
+<div>
 
-2.  Öffnen Sie die Lync Server-Verwaltungsshell.
+## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Vorbereiten eines Enterprise Edition-Front-End-Pools
 
-3.  Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein, um den neuen zentralen Verwaltungsspeicher in der SQL Server-Datenbank in Lync Server 2013 zu erstellen:
+1.  Klicken Sie im Front-End-Pool von lync Server 2013 Enterprise Edition, in dem Sie den zentralen Verwaltungs Server umsiedeln möchten: Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist. Sie müssen auch über die SQL Server-Datenbank sysadmin-Benutzerrechte und-Berechtigungen für die Datenbank verfügen, in der Sie den zentralen Verwaltungsspeicher installieren möchten.
+
+2.  Öffnen Sie die lync Server-Verwaltungsshell.
+
+3.  Zum Erstellen des neuen zentralen Verwaltungsspeichers in der lync Server 2013 SQL Server-Datenbank geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
         Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
 
-4.  Bestätigen Sie, dass der Dienst **Lync Server-Front-End** den Status **Gestartet** aufweist.
+4.  Vergewissern Sie sich, dass der Status des **lync Server-Front-End-** Diensts **gestartet**wurde.
 
-## So bereiten Sie einen Standard Edition- Front-End-Server vor
+</div>
 
-1.  Gehen Sie auf dem Lync Server 2013 Standard Edition- Front-End-Server, zu dem Sie den zentralen Verwaltungsserver verschieben möchten, wie folgt vor: Melden Sie sich an dem Computer an, auf dem Lync Server-Verwaltungsshell als Mitglied der Rolle **RTCUniversalServerAdmins** installiert ist.
+<div>
 
-2.  Öffnen Sie die Lync Server-Bereitstellungs-Assistent.
+## <a name="to-prepare-a-standard-edition-front-end-server"></a>Vorbereiten eines Standard Edition-Front-End-Servers
 
-3.  Klicken Sie im Lync Server-Bereitstellungs-Assistenten auf **Vorbereiten des ersten Standard Edition-Servers** .
+1.  Auf dem lync Server 2013 Standard Edition-Front-End-Server, auf dem Sie den zentralen Verwaltungsserver verschieben möchten: Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist.
 
-4.  Auf der Seite **Befehle ausführen** installieren Sie SQL Server Express als zentralen Verwaltungsserver. Die erforderlichen Firewallregeln werden erstellt. Klicken Sie auf **Fertig stellen** , wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist.
+2.  Öffnen Sie den lync Server-Bereitstellungs-Assistenten.
+
+3.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf **First Standard Edition-Server vorbereiten**.
+
+4.  Auf der Seite **Ausführungsbefehle** wird SQL Server Express als zentraler Verwaltungs Server installiert. Es werden erforderliche Firewallregeln erstellt. Wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Die Erstinstallation kann einige Zeit in Anspruch nehmen, und auf dem Zusammenfassungsbildschirm zur Befehlsausgabe werden keine Aktualisierungen angezeigt. Dies hängt mit der Installation der SQL Server Express zusammen. Sie können den Fortschritt der Datenbankinstallation im Task-Manager überwachen.
+    > [!NOTE]  
+    > Die anfängliche Installation kann einige Zeit in Anspruch nehmen, ohne dass die Anzeige des Befehlsausgabe Zusammenfassungsbildschirms sichtbar wird. Dies ist auf die Installation von SQL Server Express zurückzuführen. Wenn Sie die Installation der Datenbank überwachen müssen, verwenden Sie den Task-Manager, um das Setup zu überwachen.
 
+    
+    </div>
 
-
-5.  Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein, um den neuen zentralen Verwaltungsspeicher auf dem Lync Server 2013 Standard Edition- Front-End-Server zu erstellen:
+5.  Zum Erstellen des neuen zentralen Verwaltungsspeichers auf dem lync Server 2013 Standard Edition-Front-End-Server geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
         Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
 
-6.  Bestätigen Sie, dass der Dienst **Lync Server-Front-End** den Status **Gestartet** aufweist.
+6.  Vergewissern Sie sich, dass der Status des **lync Server-Front-End-** Diensts **gestartet**wurde.
 
-## So verschieben Sie den zentralen Verwaltungsserver aus Lync Server 2010 zu Lync Server 2013
+</div>
 
-1.  Gehen Sie auf dem Lync Server 2013-Server, der als zentraler Verwaltungsserver dienen soll, wie folgt vor: Melden Sie sich an dem Computer an, auf dem die Lync Server-Verwaltungsshell als Mitglied der Gruppe **RTCUniversalServerAdmins** installiert ist. Darüber hinaus benötigen Sie Administratorrechte und -berechtigungen für die SQL Server-Datenbank.
+</div>
+
+<div>
+
+## <a name="to-move-the-lync-server-2010central-management-server-to-lync-server-2013"></a>So verschieben Sie den lync Server 2010 Central-Verwaltungs Server nach lync Server 2013
+
+1.  Auf dem lync Server 2013-Server, der der zentrale Verwaltungsserver sein soll: Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist. Sie müssen auch über die Benutzerrechte und-Berechtigungen des SQL Server-Datenbankadministrators verfügen.
 
 2.  Öffnen Sie die Lync Server-Verwaltungsshell.
 
-3.  Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein:
+3.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
         Enable-CsTopology
     
+    <div>
+    
 
-    > [!WARNING]
-    > Sollte <CODE>Enable-CsTopology</CODE> nicht erfolgreich sein, beheben Sie dieses Problem, bevor Sie den Vorgang fortsetzen. Wenn <STRONG>Enable-CsTopology</STRONG> nicht erfolgreich ausgeführt wird, tritt beim Verschieben ein Fehler auf, und die Topologie weist möglicherweise einen Status auf, in dem kein zentralen Verwaltungsspeicher vorhanden ist.
+    > [!WARNING]  
+    > Wenn <CODE>Enable-CsTopology</CODE> dies nicht der Fall ist, beheben Sie das Problem, das verhindert, dass der Befehl abgeschlossen wird, bevor Sie fortfahren. Wenn <STRONG>enable-CsTopology</STRONG> nicht erfolgreich ist, schlägt die Verschiebung fehl, und Sie verlässt Ihre Topologie möglicherweise in einem Zustand, in dem kein zentraler Verwaltungsspeicher vorhanden ist.
 
+    
+    </div>
 
-
-4.  Geben Sie auf dem Lync Server 2013- Front-End-Server oder im Front-End-Pool Folgendes in die Lync Server-Verwaltungsshell ein:
+4.  Geben Sie auf dem lync Server 2013-Front-End-Server oder-Front-End-Pool in der lync Server-Verwaltungsshell Folgendes ein:
     
         Move-CsManagementServer
 
-5.  Die Lync Server-Verwaltungsshell zeigt die Server, Dateispeicher, Datenbankspeicher und Dienstverbindungspunkte für **Aktueller Zustand** und **Vorgeschlagener Zustand** an. Lesen Sie die Informationen sorgfältig durch, und bestätigen Sie, dass es sich um die gewünschte Quelle und das gewünschte Ziel handelt. Geben Sie **J** ein, um das Verschieben fortzusetzen, oder geben Sie **N** ein, um das Verschieben zu beenden.
+5.  In der lync Server-Verwaltungsshell werden die Server, Dateispeicher, Datenbankspeicher und die Dienstverbindungspunkte des aktuellen Zustands und des vorgeschlagenen Zustands angezeigt. Lesen Sie die Informationen sorgfältig durch, und bestätigen Sie, dass dies die beabsichtigte Quelle und das Ziel ist. Geben Sie **Y** ein, um fortzufahren, oder **N** , um die Verschiebung zu beenden.
 
-6.  Überprüfen Sie etwaige Warnungen oder Fehler, die durch den Befehl **Move-CsManagementServer** generiert wurden, und beheben Sie diese.
+6.  Überprüfen Sie alle Warnungen oder Fehler, die durch den Befehl **Move-CsManagementServer** generiert wurden, und beheben Sie Sie.
 
-7.  Öffnen Sie auf dem Lync Server 2013-Server den Lync Server-Bereitstellungs-Assistenten.
+7.  Öffnen Sie auf dem lync Server 2013-Server den lync Server-Bereitstellungs-Assistenten.
 
-8.  Klicken Sie im Lync Server-Bereitstellungs-Assistenten auf **Lync Server-System installieren oder aktualisieren** , klicken Sie auf **Schritt 2: Lync Server-Komponenten einrichten oder entfernen** , klicken Sie auf **Weiter** , überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen** .
+8.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren**, klicken Sie auf **Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten**, klicken Sie auf **weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen**.
 
-9.  Öffnen Sie auf dem Lync Server 2010-Server den Lync Server-Bereitstellungs-Assistenten.
+9.  Öffnen Sie auf dem lync Server 2010-Server den lync Server-Bereitstellungs-Assistenten.
 
-10. Klicken Sie im Lync Server-Bereitstellungs-Assistenten auf **Lync Server-System installieren oder aktualisieren** , klicken Sie auf **Schritt 2: Lync Server-Komponenten einrichten oder entfernen** , klicken Sie auf **Weiter** , überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen** .
+10. Klicken Sie im lync Server-Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren**, klicken Sie auf **Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten**, klicken Sie auf **weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen**.
 
-11. Starten Sie den Lync Server 2013-Server neu. Dies ist wegen einer Gruppenmitgliedschaftsänderung für den Zugriff auf die zentraler Verwaltungsserver-Datenbank erforderlich.
+11. Starten Sie den lync Server 2013-Server neu. Dies ist aufgrund einer Änderung der Gruppenmitgliedschaft für den Zugriff auf die zentrale Verwaltungs Server-Datenbank erforderlich.
 
-12. Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein, um zu bestätigen, dass die Replikation mit dem neuen zentralen Verwaltungsspeicher ausgeführt wird:
+12. Um zu bestätigen, dass die Replikation mit dem neuen zentralen Verwaltungsspeicher erfolgt, geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
         Get-CsManagementStoreReplicationStatus
     
-
-    > [!NOTE]
-    > Bei der Replikation kann es eine Weile dauern, bis alle aktuellen Replikate aktualisiert wurden.
-
-
-
-## So entfernen Sie Dateien des zentralen Verwaltungsspeichers nach dem Verschieben aus Lync Server 2010
-
-1.  Führen Sie auf dem Lync Server 2010-Server die folgenden Schritte aus: Melden Sie sich an dem Computer an, auf dem die Lync Server-Verwaltungsshell als Mitglied der Gruppe **RTCUniversalServerAdmins** installiert ist. Darüber hinaus benötigen Sie Administratorrechte und -berechtigungen für die SQL Server-Datenbank.
-
-2.  Öffnen Sie die Lync Server-Verwaltungsshell.
+    <div>
     
 
-    > [!WARNING]
-    > Fahren Sie mit dem Entfernen der vorherigen Datenbankdateien erst fort, wenn die Replikation abgeschlossen und stabil ist. Wenn Sie die Dateien vor Abschluss der Replikation entfernen, unterbrechen Sie den Replikationsprozess, weshalb der neu verschobene zentrale Verwaltungsserver einen unbekannten Status aufweist. Bestätigen Sie den Replikationsstatus mithilfe des Cmdlets <STRONG>Get-CsManagementStoreReplicationStatus</STRONG>.
+    > [!NOTE]  
+    > Die Replikation kann einige Zeit dauern, bis alle aktuellen Replikate aktualisiert wurden.
 
+    
+    </div>
 
+</div>
 
-3.  Geben Sie Folgendes ein, um die Datenbankdateien des zentralen Verwaltungsspeichers vom zentralen Verwaltungsserver in Lync Server 2010 zu entfernen:
+<div>
+
+## <a name="to-remove-lync-server-2010central-management-store-files-after-a-move"></a>So entfernen Sie nach einem Umzug lync Server 2010 Central Management Store-Dateien
+
+1.  Auf dem lync Server 2010-Server: Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist. Sie müssen auch über die Benutzerrechte und-Berechtigungen des SQL Server-Datenbankadministrators verfügen.
+
+2.  Öffnen der lync Server-Verwaltungsshell
+    
+    <div>
+    
+
+    > [!WARNING]  
+    > Gehen Sie nicht mit dem Entfernen der vorherigen Datenbankdateien fort, bis die Replikation abgeschlossen und stabil ist. Wenn Sie die Dateien vor dem Abschließen der Replikation entfernen, werden Sie den Replikationsprozess unterbrechen und den neu verschobenen zentralen Verwaltungs Server in einem unbekannten Zustand belässt. Verwenden Sie das Cmdlet <STRONG>Get-CsManagementStoreReplicationStatus</STRONG> , um den Replikationsstatus zu bestätigen.
+
+    
+    </div>
+
+3.  Wenn Sie die zentralen Verwaltungsspeicher-Datenbankdateien vom lync Server 2010 Central-Verwaltungs Server entfernen möchten, geben Sie Folgendes ein:
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
     
@@ -125,5 +175,17 @@ Gehen Sie wie in diesem Abschnitt beschrieben vor, um die Lync Server 2013- Fron
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    Dabei ist *\<FQDN of SQL Server\>* entweder der Lync Server 2010 Back-End-Server in einer Enterprise Edition-Bereitstellung oder der FQDN des Standard Edition-Servers.
+    Hierbei handelt \<es sich bei dem\> FQDN von SQL Server entweder um den lync Server 2010-Back-End-Server in einer Enterprise Edition-Bereitstellung oder um den FQDN des Standard Edition-Servers.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

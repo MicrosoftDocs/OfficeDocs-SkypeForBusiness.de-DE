@@ -1,137 +1,193 @@
-﻿---
-title: 'Lync Server 2013: Wöchentliche Aufgaben'
-TOCTitle: Wöchentliche Aufgaben
-ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn722432(v=OCS.15)
-ms:contentKeyID: 62281955
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Wöchentliche Aufgaben'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Weekly tasks
+ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
+ms:contentKeyID: 63969650
+ms.date: 08/20/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7d3128780c456c3f38f306d31f258ce903eb50a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847152"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Wöchentliche Aufgaben in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in Lync Server 2013
 
-Wöchentliche Aufgaben hängen in der Regel mit dem Erfassen und Analysieren von Protokollen und Berichten zusammen.
+</div>
 
-## Archivieren von Ereignisprotokollen
+<div id="mainSection">
 
-Wenn Ereignisprotokolle nicht, wie erforderlich, zum Überschreiben von Ereignissen konfiguriert sind, müssen sie regelmäßig archiviert und gelöscht werden. Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die möglicherweise erforderlich sind, wenn Sie versuchte Sicherheitsverletzungen untersuchen.
+<div id="mainBody">
 
-Ihre Organisation muss Richtlinien und Verfahren für die Archivierung von Protokollen definieren.
+<span> </span>
 
-## Erstellen von Berichten
+_**Letztes Änderungsdatum des Themas:** 2015-08-17_
 
-Erstellen Sie Statusberichte, um die Kapazitätsplanung, SLA-Überprüfungen und Leistungsanalyse zu unterstützen. Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem Systemmonitor, um Berichte zur Datenträger-, Arbeitsspeicher- und CPU-Auslastung zu erstellen. Verwenden Sie System Center Operations Manager, um Betriebszeit- und Verfügbarkeitsberichte zu generieren.
+Wöchentliche Aufgaben sind im Allgemeinen mit dem sammeln und Analysieren von Protokollen und Berichten verbunden.
 
-Ihre Organisation muss Richtlinien und Verfahren für Statusberichte definieren.
+<div>
 
-## Schadensberichte
+## <a name="archive-event-logs"></a>Archivieren von Ereignisprotokollen
 
-Führen Sie eine wöchentliche Überprüfung der Schadensberichte Ihrer Organisation durch, die mit Lync Server zusammenhängen. Diese Überprüfung sollte Folgendes umfassen:
+Wenn Ereignisprotokolle nicht so konfiguriert sind, dass Ereignisse nach Bedarf überschrieben werden, müssen Sie regelmäßig archiviert und gelöscht werden. Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die möglicherweise bei der Untersuchung von Sicherheitsverstößen erforderlich sind.
 
-  - Die wichtigsten generierten, gelösten und ausstehenden Vorfälle
+In Ihrer Organisation müssen Richtlinien und Verfahren für die Protokoll Archivierung definiert werden.
 
-  - Lösungen für ungelöste Vorfälle
+</div>
 
-  - Aktualisieren von Berichten zum Einschließen eines Trouble-Tickets
+<div>
 
-  - Aktualisieren eines Dokumentrepositorys für Problembehandlungsleitfäden und Abschlussberichte zu Ausfällen
+## <a name="create-reports"></a>Erstellen von Berichten
 
-Da das Vorfallverfolgungssystem Ihrer Organisation eine von Lync Server unabhängige Wahl ist, sind keine spezifischen Anweisungen oder Hinweise verfügbar. Entsprechende Informationen finden Sie in der Dokumentation für das System, das Ihre Organisation ausgewählt hat.
+Erstellen Sie Statusberichte, die Ihnen bei der Kapazitätsplanung, SLA-Bewertungen und Leistungsanalyse helfen. Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem System Monitor, um Berichte auf Datenträger, Arbeitsspeicher und CPU-Auslastung zu erstellen. Verwenden Sie System Center Operations Manager, um Verfügbarkeits-und Verfügbarkeitsberichte zu erstellen.
 
-## Überprüfen der IIS-Protokolle und -Leistung
+In Ihrer Organisation müssen Richtlinien und Verfahren für Statusberichte definiert werden.
 
-Führen Sie eine wöchentliche Überprüfung der Internetinformationsdienste (Internet Information Services, IIS)-Protokolle und -Leistung durch. Weitere Informationen zum Überwachen der IIS-Protokolle und -Leistung finden Sie unter [Übersicht über die Ereignisprotokollierung der Windows Server 2003-Internetinformationsdienste (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). Die Überprüfung sollte Folgendes umfassen:
+</div>
 
-  - Leistungsindikatoren für den Webdienstcache zum Überwachen des WWW-Dienstcaches
+<div>
 
-  - Leistungsindikatoren für Active Server Pages (ASPs) zum Überwachen von Anwendungen, die als ASPs ausgeführt werden
+## <a name="incident-reports"></a>Vorfallberichte
 
-Weitere Informationen zum Überwachen der IIS-Protokolle und -Leistung finden Sie unter [Übersicht über die Ereignisprotokollierung der Windows Server 2003-Internetinformationsdienste (IIS)](http://go.microsoft.com/fwlink/?linkid=36077).
+Führen Sie eine wöchentliche Überprüfung der vorfallberichte Ihrer Organisation durch, die sich auf lync Server beziehen. Diese Überprüfung sollte Folgendes umfassen:
 
-## Generieren von Datenbankberichten
+  - Die am häufigsten generierten, behobenen und ausstehenden Vorfälle.
 
-**So generieren Sie Berichte der SQL-Datenbank**
+  - Lösungen für ungelöste Vorfälle.
 
-1.  Öffnen Sie die Lync Server 2013.
+  - Aktualisieren von Berichten, um neue Trouble-Tickets einzubeziehen.
 
-2.  Erweitern Sie in der Konsolenstruktur den Gesamtstrukturknoten, erweitern Sie **Enterprise-Pools** und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.
+  - Aktualisieren eines Dokument-Repositorys zur Fehlerbehebung und zur Obduktion über Ausfälle
 
-3.  Klicken Sie im Bereich mit den Details auf die Registerkarte **Datenbank**.
+Da das Vorfall Überwachungssystem Ihrer Organisation eine Wahl ist, die von lync Server unabhängig ist, sind bestimmte Anweisungen oder Zeiger nicht verfügbar. Konsultieren Sie die Dokumentation für das System, das Ihre Organisation ausgewählt hat.
 
-4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Schritte aus:
+</div>
+
+<div>
+
+## <a name="check-iis-logs-and-performance"></a>Überprüfen von IIS-Protokollen und-Leistung
+
+Führen Sie eine wöchentliche Überprüfung der Internet Informationsdienste (IIS)-Protokolle und-Leistung durch. Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Übersicht über die Ereignisprotokollierung in Windows Server 2003 (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). Die Überprüfung sollte Folgendes umfassen:
+
+  - Webdienst-Cache-Leistungsindikatoren zum Überwachen des WWW-Dienst Caches.
+
+  - ASP-Leistungsindikatoren (Active Server Pages) zum Überwachen von Anwendungen, die als ASP ausgeführt werden.
+
+</div>
+
+<div>
+
+## <a name="generate-database-reports"></a>Generieren von Datenbankberichten
+
+**So generieren Sie Berichte für die SQL-Datenbank**
+
+1.  Öffnen Sie lync Server 2013.
+
+2.  Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.
+
+3.  Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .
+
+4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:
     
-    1.  Erweitern Sie zum Anzeigen des Namens der Datenbank **Allgemeine Einstellungen** und zeigen Sie den Datenbanknamen an.
+    1.  Wenn Sie den Namen der Datenbank anzeigen möchten, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
     
-    2.  Erweitern Sie zum Abrufen der aktuellen Benutzerzusammenfassungsstatistiken für den Pool **Benutzerzusammenfassungsberichte**, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+    2.  Wenn Sie die aktuellen Benutzer Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
     
-    3.  Erweitern Sie zum Abrufen aktueller benutzerbasierter Daten für einen einzigen Benutzer des Pools **Benutzerbasierte Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+    3.  Wenn Sie aktuelle Daten pro Benutzer für einen einzelnen Benutzer des Pools abrufen möchten, erweitern Sie **Benutzer Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-Erweitern Sie zum Abrufen der aktuellen Konferenzzusammenfassungsstatistiken für den Pool **Konferenzzusammenfassungsberichte**, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+Wenn Sie aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-## Suchen nach Sicherheits- und Lync Server-Updates
+</div>
 
-Ermitteln Sie, ob neue Service Packs, Hotfixes oder Updates verfügbar sind. Testen Sie diese gegebenenfalls in einem Testlabor und verwenden Sie die Änderungssteuerungsverfahren, um die Bereitstellung an die Produktionsserver vorzubereiten. Außerdem sind jetzt Lync Server-Komponentenupdates als Teil von Windows Update verfügbar. Alle Lync Server-Komponentenupdates müssen gleichzeitig auf Servern mit Lync Server aktualisiert werden, für die Updates gelten.
+<div>
 
-## Ausführen von Lync Server 2013 Best Practices Analyzer
+## <a name="check-for-security-and-lync-server-updates"></a>Überprüfen auf Sicherheits-und lync Server-Updates
 
-Lync Server 2013 Best Practices Analyzer ist ein Diagnosetool, das Konfigurationsinformationen sammelt und bestimmt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt ist. Die Dokumentation zu diesem Tool finden Sie unter [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md) und [Ausführen von Best Practices Analyzer](https://technet.microsoft.com/de-de/library/gg398652\(v=ocs.15\)).
+Identifizieren Sie alle neuen Service Packs, Hotfixes oder Updates. Testen Sie diese gegebenenfalls in einem Testlabor, und verwenden Sie die Änderungskontrollverfahren, um die Bereitstellung auf den Produktionsservern zu arrangieren. Außerdem sind Updates für lync Server-Komponenten jetzt als Teil von Windows Update verfügbar. Alle lync Server-Komponenten Updates müssen gleichzeitig auf allen Servern mit lync Server aktualisiert werden, für die die Updates gelten.
 
-Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einem Satz vordefinierter Regeln für Lync Server und meldet potenzielle Probleme. Das Tool stellt für jedes gemeldete Problem die aktuelle Konfiguration in der Lync Server-Umgebung sowie die empfohlene Konfiguration bereit.
+</div>
 
-Mit dem korrekten Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen Lync Server 2013 ausgeführt wird, um Folgendes durchzuführen:
+<div>
 
-  - Ausführen proaktiver Integritätsprüfungen, ob die Konfiguration entsprechend der empfohlenen bewährten Methoden eingerichtet ist
+## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>Ausführen des lync Server 2013 Best Practice Analyzer
 
-  - Generieren einer Liste von Problemen wie suboptimale Konfigurationseinstellungen oder nicht unterstützte bzw. nicht empfohlene Optionen
+Das lync Server 2013 Best Practices Analyzer-Tool ist ein Diagnosetool, das Konfigurationsinformationen sammelt und bestimmt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt ist. Die Dokumentation für dieses Tool finden Sie unter [lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).
 
-  - Beurteilen der allgemeinen Integrität eines Systems
+Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einer Reihe vordefinierter Regeln für lync Server und meldet potenzielle Probleme. Für jedes gemeldete Problem bietet das Tool die aktuelle Konfiguration in der lync Server-Umgebung und die empfohlene Konfiguration.
 
-  - Unterstützen der Problembehandlung bestimmter Probleme
+Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen lync Server 2013 ausgeführt wird, um folgende Aktionen auszuführen:
 
-  - Auffordern zum Herunterladen von Updates, wenn diese verfügbar sind
+  - Proaktive Durchführung von Integritätsprüfungen und überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festzulegen ist
 
-  - Bereitstellen einer Online- und lokalen Dokumentation zu gemeldeten Problemen, einschließlich Tipps zur Problembehandlung
+  - Erstellen einer Liste von Problemen, beispielsweise suboptimal-Konfigurationseinstellungen oder nicht unterstützte oder nicht empfohlene Optionen
+
+  - Beurteilen des allgemeinen Zustands eines Systems
+
+  - Hilfe zur Problembehandlung bei bestimmten Problemen
+
+  - Aufforderung zum Herunterladen von Updates, wenn diese verfügbar sind
+
+  - Bereitstellen von Online-und lokalen Dokumentation zu gemeldeten Problemen und einbeziehen von Tipps zur Problembehandlung
 
   - Generieren von Konfigurationsinformationen, die zur späteren Überprüfung erfasst werden können
 
-Stellen Sie sicher, dass RTCBPA.msi auf allen Lync Server 2013-Servern installiert ist und generieren Sie einen wöchentlichen Integritätsprüfungsbericht. Überprüfen Sie die Ergebnisse und korrigieren Sie diese bei Bedarf.
+Stellen Sie sicher, dass RTCBPA. msi auf allen lync Server 2013-Servern installiert ist, und erstellen Sie einen wöchentlichen Status Prüfbericht. Notieren Sie sich die Ergebnisse, und korrigieren Sie, falls erforderlich.
 
-## Überprüfen der SLA-Leistungszahlen
+</div>
 
-Überprüfen Sie die Daten wichtiger Leistungsaspekte der vorherigen Woche. Prüfen Sie die Leistung im Vergleich zu den SLA-Anforderungen. Ermitteln Sie Trends und Elemente, deren Ziele nicht erreicht wurden.
+<div>
 
-## Überprüfen von System Center Operations Manager Management Pack- und Quality of Experience-Berichten
+## <a name="review-sla-performance-figures"></a>Überprüfen der SLA-Leistungskennzahlen
 
-Rufen Sie Lync Server 2013 Management Pack- und Quality of Experience-Berichte ab und überprüfen Sie diese.
+Überprüfen Sie die wichtigsten Leistungsdaten für die vorherige Woche. Überprüfen Sie die Leistung mit den Anforderungen der SLA. Erkennen von Trends und Elementen, die ihre Ziele nicht erreicht haben
 
-## Generieren und Überprüfen von Datenbankberichten für Enterprise-Pools
+</div>
 
-**So generieren Sie Poolberichte**
+<div>
 
-1.  Öffnen Sie die Lync Server 2013.
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>Überprüfen von System Center Operations Manager-Management Pack und Berichte zur Qualität der Erfahrung
 
-2.  Erweitern Sie in der Konsolenstruktur den Gesamtstrukturknoten, erweitern Sie **Enterprise-Pools** und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.
+Beziehen und überprüfen Sie das lync Server 2013-Management Pack und die Qualität der Erfahrungsberichte.
 
-3.  Klicken Sie im Bereich mit den Details auf die Registerkarte **Datenbank**.
+</div>
 
-4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Schritte aus:
+<div>
+
+## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a>Generieren und Anzeigen von Datenbankberichten für Enterprise-Pools
+
+**So generieren Sie Pool Berichte**
+
+1.  Öffnen Sie lync Server 2013.
+
+2.  Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.
+
+3.  Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .
+
+4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:
     
-    1.  Erweitern Sie zum Anzeigen des Namens der Datenbank **Allgemeine Einstellungen** und zeigen Sie den Datenbanknamen an.
+    1.  Wenn Sie den Namen der Datenbank anzeigen möchten, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
     
-    2.  Erweitern Sie zum Abrufen der aktuellen Benutzerzusammenfassungsstatistiken für den Pool **Benutzerzusammenfassungsberichte**, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+    2.  Wenn Sie die aktuellen Benutzer Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
     
-    3.  Erweitern Sie zum Abrufen aktueller benutzerbasierter Daten für einen einzigen Benutzer des Pools **Benutzerbasierte Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+    3.  Wenn Sie aktuelle Daten pro Benutzer für einen einzelnen Benutzer des Pools abrufen möchten, erweitern Sie **Benutzer Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-Erweitern Sie zum Abrufen der aktuellen zusammenfassenden Konferenzstatistiken für den Pool **Zusammenfassende Konferenzberichte**, klicken Sie auf **Los** und sehen Sie sich die Ergebnisse an.
+Wenn Sie aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-Administratoren können für jeden Enterprise-Pool die Registerkarte **Datenbank** verwenden, um den Datenbanknamen anzuzeigen und Berichte aus der Datenbank abzurufen und zu überprüfen.
+Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank** verwenden, um den Datenbanknamen anzuzeigen und Berichte aus der Datenbank abzurufen und anzuzeigen.
 
-### Datenberichte und -beschreibungen
+### <a name="database-reports-and-descriptions"></a>Datenbankberichte und Beschreibungen
 
 <table>
 <colgroup>
@@ -140,88 +196,87 @@ Administratoren können für jeden Enterprise-Pool die Registerkarte **Datenbank
 </colgroup>
 <thead>
 <tr class="header">
-<th>Abschnitt</th>
+<th>Abschnittsüberschrift</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Benutzerzusammenfassungsberichte</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>In diesem Abschnitt werden zusammengefasste Informationen zu den Benutzern in einem Pool angezeigt, beispielsweise die Anzahl aktivierter Benutzer, die durchschnittliche Anzahl von Kontakten pro Benutzer und die Anzahl von Benutzern für bestimmte Features.</p>
-<p>Bei der Verwendung dieser Berichte sind möglicherweise die folgenden Informationen hilfreich:</p>
+<td><p>Benutzer Zusammenfassungsberichte</p></td>
+<td><p>Dbanalyze/v/Report: diag [/SQLServer: Wert]</p>
+<p>In diesem Abschnitt werden aggregierte Informationen zu Benutzern in einem Pool angezeigt, beispielsweise die Anzahl der aktivierten Benutzer, die durchschnittliche Anzahl der Kontakte pro Benutzer und die Anzahl der Benutzer für bestimmte Features.</p>
+<p>Wenn Sie diese Berichte verwenden, können die folgenden Informationen hilfreich sein:</p>
 <ul>
-<li><p>Ein aktivierter Benutzer ist ein Benutzer, der für Lync Server 2013 über das Snap-In Active Directory-Benutzer und -Computer aktiviert ist.</p></li>
+<li><p>Ein aktivierter Benutzer ist ein Benutzer, der mit dem Snap-in Active Directory-Benutzer und-Computer für lync Server 2013 aktiviert ist.</p></li>
 <li><p>Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</p></li>
-<li><p>Der Zusammenfassungsbericht enthält auch einen Satz statistischer Informationen zu Kontakten. Diese Statistiken gelten nur für die Benutzer, die sich mindestens einmal angemeldet haben und über mindestens einen Kontakt verfügen. Deshalb wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt. Aufgrund dieses Verhaltens wird, wenn ein Benutzer keine Kontakte hat (aber aktiv ist, d. h. sich registriert hat) in einigen Statistikfeldern möglicherweise &lt;empty&gt; angezeigt.</p></li>
+<li><p>Die Zusammenfassungsberichte bieten auch eine Reihe von statistischen Informationen zu Kontakten. Diese Statistiken gelten nur für die Bevölkerung von Benutzern, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben. Daher wird normalerweise keine minimale Anzahl von Kontakten von 0 angezeigt. Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem sich der Benutzer registriert hat), wird möglicherweise für einige Statistik &lt;Felder&gt; leer angezeigt:</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Benutzerbasierte Berichte</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzergesamtheit berechnet werden, werden diese Berichte für einen bestimmten Benutzer erstellt.</p></td>
+<td><p>Berichte pro Benutzer</p></td>
+<td><p>Dbanalyze/v/Report: Datenträger [/SQLServer: Wert]</p>
+<p>Im Gegensatz zu den Zusammenfassungsberichten, die über eine Benutzerpopulation berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zusammenfassende Konferenzberichte</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>In diesem Abschnitt werden zusammengefasste Informationen zu Konferenzstatistiken für den Pool angezeigt, beispielsweise die Anzahl der aktiven Konferenzen und die Gesamtzahl der Teilnehmer.</p></td>
-</tr>
-<tr class="even">
-<td><p>Benutzerzusammenfassungsberichte</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>In diesem Abschnitt werden zusammengefasste Informationen zu den Benutzern in einem Pool angezeigt, beispielsweise die Anzahl aktivierter Benutzer, die durchschnittliche Anzahl von Kontakten pro Benutzer und die Anzahl von Benutzern für bestimmte Features.</p>
-<p>Bei der Verwendung dieser Berichte sind möglicherweise die folgenden Informationen hilfreich:</p>
-<ul>
-<li><p>Ein aktivierter Benutzer ist ein Benutzer, der für Lync Server 2013 über das Snap-In Active Directory-Benutzer und -Computer aktiviert ist.</p></li>
-<li><p>Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</p></li>
-<li><p>Der Zusammenfassungsbericht enthält auch einen Satz statistischer Informationen zu Kontakten. Diese Statistiken gelten nur für die Benutzer, die sich mindestens einmal angemeldet haben und über mindestens einen Kontakt verfügen. Deshalb wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt. Aufgrund dieses Verhaltens wird, wenn ein Benutzer keine Kontakte hat (aber aktiv ist, d. h. sich registriert hat) in einigen Statistikfeldern möglicherweise &lt;empty&gt; angezeigt.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Benutzerbasierte Berichte</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzergesamtheit berechnet werden, werden diese Berichte für einen bestimmten Benutzer erstellt.</p></td>
-</tr>
-<tr class="even">
-<td><p>Zusammenfassende Konferenzberichte</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>In diesem Abschnitt werden zusammengefasste Informationen zu Konferenzstatistiken für den Pool angezeigt, beispielsweise die Anzahl der aktiven Konferenzen und die Gesamtzahl der Teilnehmer.</p></td>
+<td><p>Konferenz Zusammenfassungsberichte</p></td>
+<td><p>Dbanalyze/v/Report: conf [/SQLServer: Wert]</p>
+<p>In diesem Abschnitt werden aggregierte Informationen zu Konferenz Zusammenfassungs Statistiken für den Pool angezeigt, beispielsweise die Anzahl aktiver Konferenzen und die Gesamtzahl der Teilnehmer.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Ausführen der Bandbreitennutzungsanalyse
+</div>
 
-Die Bandbreitennutzungsanalyse ist ein Tool, das Berichte über verschiedene Ansichten der Bandbreitennutzung durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt. Mithilfe dieser Berichte kann das aktuelle Bandbreitennutzungsmuster analysiert werden, um die Planung der Bandbreitenkapazität zu unterstützen. Außerdem durchläuft das Tool die Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist.
+<div>
+
+## <a name="running-bandwidth-utilization-analyzer"></a>Ausführen von Bandbreiten Auslastungsanalyse
+
+Bandwidth Utilization Analyzer ist ein Tool, das Berichte über verschiedene Ansichten des Bandbreitenverbrauchs durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt. Diese Berichte können verwendet werden, um das aktuelle Muster der Bandbreitennutzung zu verstehen und bei der Planung der Bandbreitenkapazität zu helfen. Das Tool durchläuft außerdem die Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist.
 
 Das Tool bietet folgende Funktionen:
 
-  - Erzeugung spezifischer Berichte für die Audionutzung über das Netzwerk
+  - Generiert bestimmte Berichte für die audionutzung über das Netzwerk
 
-  - Hilfe bei einer effektiveren Kapazitätsplanung und iterativer Durchlauf der Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist.
+  - Hilfe bei einer effektiveren Kapazitätsplanung und Iteration der Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist
 
-Die Bandbreitennutzungsanalyse kann grafische Diagramme aus Bandbreitenkapazitäts- und -nutzungsberichten generieren, nämlich folgende:
+Der Bandbreiten Auslastungs Analysator kann grafische Plots von Bandbreiten Kapazitäts-und Nutzungsberichten generieren. Sie sind wie folgt:
 
   - Alle WAN-Verbindungen im Unternehmensnetzwerk
 
-  - Gefiltert nach ausgewählten WAN-Verbindungen
+  - Gefiltert nach ausgewählten WAN-Links, die ausgewählt wurden
 
-  - Gefiltert nach WAN-Verbindungen, die die Verbindungskapazität überschritten haben.
+  - Gefiltert nach WAN-Verbindungen, die die Verbindungskapazität überschritten haben
 
-  - Gefiltert nach WAN-Verbindungen, die die bereitgestellte Bandbreite unterschritten haben
+  - Gefiltert nach WAN-Links, die die bereitgestellte Bandbreite unter Verwenden
 
-  - Gefiltert nach WAN-Verbindungen, die kritische Grenzwerte erreicht haben (eine Bandbreitennutzung die größer als 90 % der Bandbreitenkapazität der WAN-Verbindung ist)
+  - Filtern nach WAN-Links, die kritische Ebenen erreichen (eine Bandbreitennutzung, die größer als 90 Prozent der Bandbreitenkapazität der WAN-Verbindung ist)
 
-  - Gefiltert nach WAN-Verbindungstyp: Netzwerkstandortverbindungen, interregionale Verbindungen und Verbindungen innerhalb eines Standorts
+  - Nach WAN-Verknüpfungstyp gefiltert – Netzwerk-Standort-Links, interregionale Links und Links innerhalb einer Website
 
   - Gefiltert nach Netzwerkregion
 
-Die Dokumentation zu diesem Tool finden Sie unter [Lync Server 2013 Resource Kit-Tools – Dokumentation](https://technet.microsoft.com/de-de/library/jj945604\(v=ocs.15\)).
+Die Dokumentation zu diesem Tool finden Sie in der [Dokumentation zur lync Server 2013 Resource Kit-Tools](http://go.microsoft.com/fwlink/?linkid=623245).
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Wöchentliche Aufgabenprüfliste](lync-server-2013-operations-checklists.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Checkliste für wöchentliche Aufgaben](lync-server-2013-operations-checklists.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

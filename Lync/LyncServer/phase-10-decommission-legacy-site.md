@@ -1,39 +1,83 @@
-﻿---
-title: 'Phase 10: Außerbetriebnahme des Vorversionsstandorts'
-TOCTitle: 'Phase 10: Außerbetriebnahme des Vorversionsstandorts'
-ms:assetid: d591a310-3b5c-4092-b19e-0349616e40df
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205300(v=OCS.15)
-ms:contentKeyID: 49295535
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Phase 10: Legacy Website der decommission'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 10: Decommission legacy site'
+ms:assetid: d591a310-3b5c-4092-b19e-0349616e40df
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205300(v=OCS.15)
+ms:contentKeyID: 48185540
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a04054c158f1c97f5090328e1277dcdb63b1d823
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847076"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 10: Außerbetriebnahme des Vorversionsstandorts
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="phase-10-decommission-legacy-site"></a>Phase 10: Legacy Website der decommission
 
-Die folgenden Themen enthalten Hinweise für die Außerbetriebsetzung von Pools sowie das Deaktivieren und Entfernen von Servern und Pools aus einer Vorversionsbereitstellung von Office Communications Server 2007 R2. Es sind nicht alle der in diesem Abschnitt aufgeführten Verfahren notwendig. Lesen Sie die Informationen in den einzelnen Themen, um das Verfahren zu bestimmen, das Sie für die Außerbetriebsetzung ausführen möchten.
+</div>
 
-> [!CAUTION]  
-> Wenn Sie Konferenzverzeichnisse für Einwahlkonferenzen in Lync Server 2013 importiert haben, ist es wichtig, den Besitz für die Konferenzverzeichnisse an Lync Server 2013 zu übergeben, ehe Sie mit der Außerbetriebsetzung der Pools beginnen. Wenn Sie einen Pool außer Betrieb setzen, ohne zuerst den Besitz für Konferenzverzeichnisse zu übergeben, wird die Einwahlfunktion für alle migrierten Besprechungen nicht weiter ausgeführt. Der Übergang des Besitzes muss für jedes Konferenzverzeichnis in Ihrem Pool der Vorversion durchgeführt werden.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
+
+In den folgenden Themen finden Sie Anleitungen zur Außerbetriebnahme von Pools sowie zum Deaktivieren und Entfernen von Servern und Pools aus einer Legacy Bereitstellung von Office Communications Server 2007 R2. Nicht alle in diesem Abschnitt aufgelisteten Verfahren sind erforderlich. Lesen Sie die Informationen in jedem dieser Themen, um zu ermitteln, welches Verfahren für die Außerbetriebnahme verwendet werden soll.
+
+<div>
+
+
+> [!WARNING]  
+> Wenn Sie Konferenzverzeichnisse für Einwahlkonferenzen in lync Server 2013 importiert haben, ist es wichtig, den Besitz von Konferenz Verzeichnissen zu lync Server 2013 zu übertragen, bevor Sie mit der Außerbetriebnahme ihrer Pools beginnen. Wenn Sie einen Pool außer Betrieb nehmen, ohne zuerst den Besitzer des Konferenz Verzeichnisses zu übertragen, funktioniert das Einwahlfeature für alle migrierten Besprechungen nicht mehr. Sie müssen den Schritt zum Übergangs Besitz einmal für jedes Konferenzverzeichnis in Ihrem Legacy Pool ausführen.
 
 
 
-> [!IMPORTANT]
-> Informationen zum Migrieren und Upgraden von Microsoft Unified Communications Managed-API (UCMA)-Anwendungen vor dem Außerbetriebsetzen Ihrer Vorversionsumgebung finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> Informationen zum Migrieren und Aktualisieren von Microsoft Unified Communications Managed API-Anwendungen (UCMA) vor der Außerbetriebnahme ihrer Legacyumgebung finden Sie unter<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
-## In diesem Abschnitt
+</div>
 
-  - [Verschieben von Konferenzverzeichnissen](move-conference-directories.md)
+<div>
 
-  - [Aktualisieren von DNS-SRV-Einträgen](update-dns-srv-records_1.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
+
+  - [Verschieben von Konferenz Verzeichnissen](move-conference-directories.md)
+
+  - [Aktualisieren von DNS SRV-Einträgen](update-dns-srv-records_1.md)
 
   - [Außerbetriebnahme von Servern und Pools](decommissioning-servers-and-pools.md)
 
   - [Entfernen von BackCompatSite](remove-backcompatsite.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

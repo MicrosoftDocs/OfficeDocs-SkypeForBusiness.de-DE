@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Paralleles Anrufen'
-TOCTitle: Paralleles Anrufen
-ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994079(v=OCS.15)
-ms:contentKeyID: 52056472
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Paralleles Anrufen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Simultaneous ringing
+ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994079(v=OCS.15)
+ms:contentKeyID: 51803990
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f7303c1fc77d109bd08044c8acff56aaf538790d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847772"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Paralleles Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>Paralleles Anrufen in Lync Server 2013
 
-Wenn die angerufene Partei paralleles Anrufen eingerichtet hat, analysiert das standortbasierte Routing den Standort des anrufenden Teilnehmers und die Endpunkte des angerufenen Teilnehmers, um zu bestimmen, ob der Anruf weitergeleitet werden soll.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+
+Wenn der angerufene Teilnehmer das gleichzeitige Klingeln aktiviert hat, analysiert standortbasiertes Routing den Standort des anrufenden und die Endpunkte der angerufenen Parteien, um zu ermitteln, ob der Anruf weitergeleitet werden soll.
 
 Die folgende Tabelle zeigt einen Benutzer, für den paralleles Anrufen konfiguriert ist, und das Ziel des parallelen Anrufs ist ein Benutzer am gleichen oder einem unbekannten Netzwerkstandort.
 
@@ -32,7 +52,7 @@ Die folgende Tabelle zeigt einen Benutzer, für den paralleles Anrufen konfiguri
 <th>Eingehender Anruf aus dem öffentlichen Telefonnetz für</th>
 <th>Am gleichen Netzwerkstandort wie der Angerufene</th>
 <th>An einem anderen Netzwerkstandort als der Angerufene</th>
-<th>An einem unbekannten Netzwerkstandort oder nicht für standortbasiertes Routing aktiviert</th>
+<th>Befindet sich auf der unbekannten Netzwerk Website oder ist für standortbasiertes Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -46,7 +66,7 @@ Die folgende Tabelle zeigt einen Benutzer, für den paralleles Anrufen konfiguri
 </table>
 
   
-Die folgende Tabelle zeigt die Situation für einen Anruf von einem Lync-Benutzer (d. h. einem Lync-Anrufer) am gleichen Netzwerkstandort, einem anderen Netzwerkstandort oder einem unbekannten Netzwerkstandort. Der Angerufene hat einen Endpunkt im öffentlichen Telefonnetz (z. B. ein Mobiltelefon), der als Ziel für paralleles Anrufen konfiguriert ist. In diesem Szenario wird anhand des standortbasierten Routings bestimmt, ob der Anruf an das parallele Anrufziel (also das Mobiltelefon) des Angerufenen weitergeleitet werden soll oder nicht.
+In der folgenden Tabelle wird ein Anruf eines lync-Benutzers (also lync-Anrufers) auf derselben Netzwerk Website, in einer anderen Netzwerk Website oder auf einer unbekannten Netzwerk Website veranschaulicht. Der Angerufene hat einen Endpunkt im öffentlichen Telefonfestnetz (z. B. ein Mobiltelefon), der als Ziel für paralleles Anrufen konfiguriert ist. In diesem Szenario bestimmt standortbasiertes Routing, ob der Anruf an das Ziel für das gleichzeitige Klingeln (also das Mobiltelefon) des angerufenen weitergeleitet werden soll.
 
 
 <table>
@@ -61,7 +81,7 @@ Die folgende Tabelle zeigt die Situation für einen Anruf von einem Lync-Benutze
 <th>Ziel für paralleles Anrufen</th>
 <th>Am gleichen Netzwerkstandort wie der Angerufene</th>
 <th>An einem anderen Netzwerkstandort als der Angerufene</th>
-<th>An einem unbekannten Netzwerkstandort oder nicht für standortbasiertes Routing aktiviert</th>
+<th>Befindet sich auf der unbekannten Netzwerk Website oder ist für standortbasiertes Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -75,9 +95,23 @@ Die folgende Tabelle zeigt die Situation für einen Anruf von einem Lync-Benutze
 </table>
 
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
+
+[Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,49 @@
-﻿---
-title: Überprüfen von Adressen
-TOCTitle: Überprüfen von Adressen
-ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412808(v=OCS.15)
-ms:contentKeyID: 49295049
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Adressen überprüfen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Validate addresses
+ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412808(v=OCS.15)
+ms:contentKeyID: 48185108
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 57ae7698a50706ed0076650a657a8ec503ffa6aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847299"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Überprüfen von Adressen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="validate-addresses-in-lync-server-2013"></a>Überprüfen von Adressen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-17_
 
-Vor der Veröffentlichung der Standortdatenbank müssen Sie neue Standorte im Abgleich mit der MSAG-Datenbank (Master Street Address Guide) validieren, die vom Dienstanbieter für SIP-Trunks oder Festnetzanschlüsse (Public Switched Telephone Network, PSTN) mit Notrufunterstützung verwaltet wird.
+Bevor Sie die Standortdatenbank veröffentlichen, müssen Sie neue Speicherorte für den Master Street Address Guide (MSAG) überprüfen, der von Ihrem SIP-Stamm oder dem öffentlichen Telefonnetz (PSTN) E9-1-1 Service Provider verwaltet wird.
 
-Einzelheiten zu Dienstanbietern für SIP-Trunks mit Notrufunterstützung finden Sie unter [Auswählen eines E9-1-1-Dienstanbieters für Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+Ausführliche Informationen zu SIP Trunk E9-1-1 Serviceanbietern finden Sie unter [Auswählen eines E9-1-1-Dienstanbieters für lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
 
-Weitere Informationen zum Validieren von Adressen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation der folgenden Cmdlets:
+Details zur Überprüfung von Adressen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
 
   - **Get-CsLisServiceProvider**
 
-  - **Set-CsLisServiceProvider**
+  - **Satz-CsLisServiceProvider**
 
   - **Remove-CsLisServiceProvider**
 
@@ -31,9 +51,11 @@ Weitere Informationen zum Validieren von Adressen finden Sie in der Lync Server-
 
   - **Test-CsLisCivicAddress**
 
-## So überprüfen Sie Adressen in der Standortdatenbank auf Gültigkeit
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-validate-addresses-located-in-the-location-database"></a>So überprüfen Sie Adressen in der Standortdatenbank auf Gültigkeit
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie die folgenden Cmdlets zum Konfigurieren der Verbindung mit dem Anbieter für die Notrufunterstützung aus.
     
@@ -44,5 +66,17 @@ Weitere Informationen zum Validieren von Adressen finden Sie in der Lync Server-
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
-    Mit dem Cmdlet **Test-CsLisCivicAddress** können Sie auch einzelne Adressen validieren.
+    Einzelne Adressen können Sie auch mit dem Cmdlet **Test-CsLisCivicAddress** validieren.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

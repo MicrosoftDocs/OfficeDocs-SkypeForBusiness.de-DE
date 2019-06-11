@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalMeta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMeta
 ms:assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615009(v=OCS.15)
-ms:contentKeyID: 49294565
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615009(v=OCS.15)
+ms:contentKeyID: 48184648
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 3b9b067b9d04ecb32a3e43dbbd1f8435c00fa0c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847629"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalMeta in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblprincipalmeta-in-lync-server-2013"></a>tblPrincipalMeta in Lync Server 2013
 
-"tblPrincipalMeta" enthält die Prinzipale, die über die Active Directory-Domänendienste aktualisiert werden müssen.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänendiensten aktualisiert werden müssen.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -36,43 +56,43 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 <tr class="odd">
 <td><p>prinID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID</p></td>
+<td><p>Prinzipal-ID.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn Prinzipalzuordnungen aktualisiert werden müssen.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn Haupt Zuordnungen aktualisiert werden müssen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn Prinzipalattribute aktualisiert werden müssen.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn Prinzipal Attribute aktualisiert werden müssen.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn der Prinzipal gelöscht wurde.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn der Prinzipal gelöscht wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>Anzahl der Versuche, den Prinzipal über AD DS zu aktualisieren, die bisher ausgeführt wurden.</p></td>
+<td><p>Die Anzahl der Versuche, den Prinzipal von AD DS zu aktualisieren, die bisher geschehen sind.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
 <td><p>datetime</p></td>
-<td><p>Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn bisher kein Aktualisierungsversuch unternommen wurde.</p></td>
+<td><p>Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn noch keine Aktualisierung versucht wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
 <td><p>datetime</p></td>
-<td><p>Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant ist.</p></td>
+<td><p>Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant wurde.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="keys"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -92,8 +112,19 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Fremdschlüssel mit Abfrage der <strong>tblPrincipal.prinID</strong> -Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

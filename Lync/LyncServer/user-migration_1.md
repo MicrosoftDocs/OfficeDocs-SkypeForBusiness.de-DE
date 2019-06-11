@@ -1,19 +1,49 @@
-﻿---
-title: Benutzermigration
-TOCTitle: Benutzermigration
-ms:assetid: a4e4d852-db8e-420a-ba12-a0034800cf2b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205156(v=OCS.15)
-ms:contentKeyID: 49294974
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Benutzermigration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: User migration
+ms:assetid: a4e4d852-db8e-420a-ba12-a0034800cf2b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205156(v=OCS.15)
+ms:contentKeyID: 48185056
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b5b0e2759e35b0920e852b79f13925aef2721d73
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846983"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Benutzermigration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="user-migration"></a>Benutzermigration
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 
-Eine allgemein akzeptierte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und sie zur Durchführung von Systemtests zu verwenden. Nach einer erfolgreichen Verschiebung und Prüfung der Konten der Benutzer sollten Sie eine Gruppe von Pilotproduktionsbenutzern bestimmen und die dazugehörigen Konten verschieben und Validierungstests an diesen Konten durchführen. Wenn Sie zufriedenstellende Ergebnisse erhalten, können Sie die restlichen Benutzer in die neue Bereitstellung verschieben.
+Eine allgemein anerkannte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und diese zum Durchführen von Systemtests zu verwenden. Nachdem Sie diese Konten erfolgreich verschoben und getestet haben, sollten Sie eine Gruppe von Pilotproduktionsbenutzern identifizieren und deren Konten verschieben und Validierungstests durchführen. Wenn Sie zufrieden stellende Ergebnisse erzielen, können Sie die restlichen Benutzer auf die neue Bereitstellung verschieben.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

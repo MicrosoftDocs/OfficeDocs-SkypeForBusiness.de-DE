@@ -1,47 +1,85 @@
-﻿---
-title: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
-TOCTitle: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
-ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688084(v=OCS.15)
-ms:contentKeyID: 49890782
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the SQL Server database for a Front End pool
+ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
+ms:contentKeyID: 49733681
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a6dcbe9bcab20438d02fe489666f9b4c0c0f6d0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847001"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entfernen der SQL Server-Datenbank für einen Front-End-Pool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Entfernen der SQL Server-Datenbank für einen Front-End-Pool
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
-Nachdem Sie einen Microsoft Lync Server 2010  Front-End-Pool entfernt oder zur Verwendung einer anderen Datenbank umkonfiguriert haben, können Sie die SQL Server-Datenbanken entfernen, in denen die Pooldaten gehostet wurden. Mithilfe der folgenden Vorgehensweisen können Sie die Definitionen aus dem Topologie-Generator und dann die Datenbank und die Protokolleinträge auf dem Datenbankserver entfernen.
+Nachdem Sie einen Microsoft lync Server 2010-Front-End-Pool entfernt oder den Pool neu konfiguriert haben, um eine andere Datenbank zu verwenden, können Sie die SQL Server-Datenbanken entfernen, die die Pooldaten gehostet haben. Gehen Sie wie folgt vor, um die Definitionen aus dem Topology Builder zu entfernen und dann die Datenbank-und Protokolldateien vom Datenbankserver zu entfernen.
 
-## So entfernen Sie die SQL Server-Datenbank mithilfe des Topologie-Generators
+<div>
 
-1.  Öffnen Sie auf dem Lync Server 2013-Front-End-Server den Topologie-Generator, und laden Sie die vorhandene Topologie herunter.
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>So entfernen Sie die SQL Server-Datenbank mithilfe des Topologie-Generators
 
-2.  Navigieren Sie im Topologie-Generator zu **Freigegebene Komponenten** und dann zu **SQL Server-Speicher** . Klicken Sie mit der rechten Maustaste auf die SQL Server-Instanz, die dem entfernten oder neu konfigurierten Front-End-Pool zugeordnet ist, und klicken Sie dann auf **Löschen** .
+1.  Öffnen Sie im lync Server 2013-Front-End-Server den Topologie-Generator, und laden Sie die vorhandene Topologie herunter.
+
+2.  Navigieren Sie im Topologie-Generator zu **freigegebenen Komponenten** und dann zu **SQL Server-speichern**, klicken Sie mit der rechten Maustaste auf die SQL Server-Instanz, die dem entfernten oder neu konfigurierten Front-End-Pool zugeordnet ist, und klicken Sie dann auf **Löschen**.
 
 3.  Veröffentlichen Sie die Topologie, und überprüfen Sie dann den Replikationsstatus.
 
-## So entfernen Sie Benutzer- und Anwendungsdatenbanken aus dem SQL Server-basierten Server
+</div>
 
-1.  Zum Entfernen der Datenbanken auf dem SQL Server müssen Sie Mitglied der SQL Server-Gruppe "sysadmins" für den SQL Server-basierten Server sein, von dem die Datenbankdateien entfernt werden.
+<div>
 
-2.  Öffnen Sie die Lync Server-Verwaltungsshell.
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>So entfernen Sie Benutzer-und Anwendungsdatenbanken aus dem SQL Server
 
-3.  Geben Sie Folgendes ein, um die Datenbank für den Poolbenutzerspeicher zu entfernen:
+1.  Um die Datenbanken auf dem SQL Server zu entfernen, müssen Sie ein Mitglied der Gruppe SQL Server Sysadmins für den SQL Server sein, auf dem Sie die Datenbankdateien entfernen.
+
+2.  Öffnen der lync Server-Verwaltungsshell
+
+3.  Wenn Sie die Datenbank für den Pool Benutzerspeicher entfernen möchten, geben Sie Folgendes ein:
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Dabei ist *\<FQDN\>* der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Datenbankservers und *\<instance\>* die benannte Datenbankinstanz (sofern eine definiert wurde).
+    Hierbei \<handelt\> es sich um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, \<FQDN\> ) des Datenbankservers, wobei es sich bei der Instanz um die benannte Datenbankinstanz handelt (also, wenn eine definiert wurde).
 
-4.  Geben Sie Folgendes ein, um die Datenbank für den Poolanwendungsspeicher zu entfernen:
+4.  Wenn Sie die Datenbank für den Pool-Anwendungsspeicher entfernen möchten, geben Sie Folgendes ein:
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Dabei ist *\<FQDN\>* der vollqualifizierte Domänenname des Datenbankservers und *\<instance\>* die benannte Datenbankinstanz (sofern eine definiert wurde).
+    Dabei \<ist\> FQDN der FQDN des Datenbankservers, und \<Instanz\> ist die benannte Datenbankinstanz (also, wenn eine definiert wurde).
 
-5.  Wenn Sie vom Cmdlet **Uninstall-CsDataBase** aufgefordert werden, Aktionen zu bestätigen, lesen Sie die Informationen, und drücken Sie dann **Y** (oder die EINGABETASTE), oder drücken Sie **N** und dann die EINGABETASTE, wenn Sie die Ausführung des Cmdlets beenden möchten (im Falle von Fehlern).
+5.  Wenn Sie vom Cmdlet " **deinstallieren-CsDataBase** " aufgefordert werden, Aktionen zu bestätigen, lesen Sie die Informationen, und drücken Sie dann **Y** (oder drücken Sie die EINGABETASTE), um fortzufahren, oder drücken Sie **N** , und geben Sie dann ein, wenn Sie das Cmdlet beenden möchten (d. h., falls Fehler auftreten).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

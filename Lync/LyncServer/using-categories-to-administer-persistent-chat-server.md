@@ -1,37 +1,65 @@
-﻿---
-title: Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat
-TOCTitle: Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat
-ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398988(v=OCS.15)
-ms:contentKeyID: 49295653
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Using categories to administer Persistent Chat Server
+ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
+ms:contentKeyID: 48185628
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fed28ecc7c2698f4b320729c68de9c5d56b435b2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846982"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-categories-to-administer-persistent-chat-server"></a>Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-10-01_
 
-Von der Bereitstellung für den Server für beständigen Chat können viele gleichzeitige Beständiger Chatrooms gehostet werden. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
+Ihre beständige Chat Server-Bereitstellung kann viele gleichzeitig beständige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und übernimmt die Einstellungen dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zur Identifikation von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
+
+<div>
 
 
-> [!NOTE]
-> Viele der Verwaltungsfeatures von Chatrooms sind zwar auf Computern mit Beständiger Chat ( Lync-Client) für den Benutzer verfügbar, aber Administratoren für Beständiger Chat (in der Rolle <STRONG>cspersistentchatadministrator</STRONG>) müssen zum Erstellen oder Verwalten von Kategorien die Lync Server-Systemsteuerung oder Windows PowerShell-Cmdlets verwenden.
+> [!NOTE]  
+> Obwohl viele Verwaltungsfeatures von Chatrooms in Computern, auf denen persistenter Chat (lync-Client) ausgeführt wird, für den Benutzer verfügbar sind, müssen beständige chatadministratoren (in der <STRONG>cspersistentchatadministrator</STRONG> -Rolle) die lync Server-Systemsteuerung verwenden oder Windows PowerShell-Cmdlets zum Erstellen oder Verwalten von Kategorien
 
 
 
-Administratoren für Beständiger Chat verwenden die Lync Server-Systemsteuerung oder Windows PowerShell-Cmdlets zum Erstellen und Verwalten von Kategorien und zum Festlegen des Zugriffs auf Chatrooms für die Benutzer in ihrer Organisation.
+</div>
 
-Chatroommanager für Beständiger Chat, die einen oder mehrere Chatrooms verwalten können, können mit dem Lync-Client eine Webanwendung für die Chatroomverwaltung starten, um Chatrooms zu erstellen und zu verwalten (oder Kunden können benutzerdefinierte Lösungen und Workflows erstellen, die aufgerufen werden sollen). Administratoren für Beständiger Chat können auch mit der Lync Server-Systemsteuerung oder mit Windows PowerShell-Cmdlets Chatrooms erstellen und verwalten.
+Beständige Chat Administratoren verwenden die lync Server Control Panel-oder Windows PowerShell-Cmdlets zum Erstellen und Verwalten von Kategorien sowie zum Entwerfen des Zugriffs für Chatrooms für die Benutzer in Ihrer Organisation.
+
+Beständige Chatroom-Manager, die in der Lage sind, einen oder mehrere Chatrooms zu verwalten, können mithilfe des lync-Clients eine Webanwendung für die Raumverwaltung starten, um Räume zu erstellen und zu verwalten (oder Kunden können benutzerdefinierte Lösungen und Workflows erstellen, die aufgerufen werden sollen). Administratoren für beständigen Chat können auch die lync Server Control Panel-oder Windows PowerShell-Cmdlets verwenden, um Räume zu erstellen und zu verwalten.
+
+<div>
 
 
-> [!NOTE]
-> Ein Beständiger Chat-Raum darf nicht denselben Namen haben wie eine Beständiger Chat-Kategorie.
+> [!NOTE]  
+> Ein beständiger Chatroom kann nicht den gleichen Namen wie die Kategorie "beständiger Chat" haben.
 
 
+
+</div>
 
 Chatroommanager können Änderungen an allen Chatroomeigenschaften vornehmen. Die Kategorie des Chatrooms können Sie jedoch nicht ändern. Sie können nicht am Ausführen der folgenden Aktionen gehindert werden:
 
@@ -41,7 +69,7 @@ Chatroommanager können Änderungen an allen Chatroomeigenschaften vornehmen. Di
 
   - Ändern der Beschreibung eines Chatrooms
 
-  - Ändern des Chatroomtyps ("Auditorium" bzw. "Normal")
+  - Ändern des Chatroomtyps („Auditorium“ bzw. „Normal“)
 
   - Ändern des Datenschutzes eines Chatrooms (offen, geschlossen bzw. geheim)
 
@@ -53,11 +81,25 @@ Chatroommanager können Änderungen an allen Chatroomeigenschaften vornehmen. Di
 
   - Ändern von Einstellungen wie z. B. Einladungen (je nachdem, was durch die Kategorie zulässig ist)
 
-## Delegierte Administration
+<div>
 
-Das Erstellen und Verwalten von Beständiger Chatrooms wird durch die ordnungsgemäße Verwendung von Kategorien wesentlich vereinfacht. Ein Administrator für Beständiger Chat kann **AllowedMembers** und **Creators** für jede Kategorie sowie die Standardeinstellungen und -verhaltensweisen für Chatrooms definieren, die für alle in dieser Kategorie erstellten Chatrooms gelten. Administratoren für Beständiger Chat erstellen und verwalten Kategorien mit der Lync Server-Systemsteuerung oder mit Windows PowerShell-Cmdlets.
+## <a name="delegated-administration"></a>Delegierte Administration
 
-Benutzer, Organisationseinheiten (Organizational Units, OUs) und Benutzergruppen, die als Creators der Kategorie definiert werden, sind die einzigen Personen und Benutzergruppen, die Chatrooms in der Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können sie Benutzer, Organisationseinheiten und Benutzergruppen in der Liste **AllowedMembers** der Kategorie als Chatroommanager und Mitglieder auswählen, die den Chatroom verwalten und an diesem teilnehmen.
+Das Erstellen und verwalten beständiger Chatrooms ist mit der korrekten Verwendung von Kategorien viel einfacher. Ein beständiger Chat-Administrator kann **AllowedMembers** und **Creators** für jede Kategorie definieren und auch die Standardeinstellungen und-Verhaltensweisen für Chatrooms definieren, die auf alle Chatrooms angewendet werden, die in der Kategorie erstellt wurden. Beständige Chat Administratoren erstellen und verwalten Kategorien mithilfe der lync Server Control Panel-oder Windows PowerShell-Cmdlets.
 
-Chatrooms, die in einer Kategorie erstellt werden, erfüllen die von der Kategorie erzwungenen Richtlinien und Einstellungen (z. B. wer Mitglied beim Chatroom sein kann, wer den Chatroom verwalten kann, ob Dateiuploads zulässig sind, ob Einladungen versendet werden usw.).
+Benutzer, Organisationseinheiten (Organizational Units, OUs) und Benutzergruppen, die als Ersteller einer Kategorie definiert werden, sind die einzigen Personen und Benutzergruppen, die Chatrooms in dieser Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können sie Benutzer, Organisationseinheiten und Benutzergruppen in der Liste **Zugelassene Mitglieder** der Kategorie als Chatroommanager und Mitglieder auswählen, die den Chatroom verwalten und an diesem teilnehmen.
+
+Chatrooms, die in einer Kategorie erstellt wurden, befolgen die Richtlinien und Einstellungen, die von der Kategorie erzwungen werden (beispielsweise wer in der Mitgliedschaft des Chatrooms sein kann, wer den Chatroom verwalten kann, ob Dateiuploads zulässig sind, ob Einladungen gesendet werden usw.).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

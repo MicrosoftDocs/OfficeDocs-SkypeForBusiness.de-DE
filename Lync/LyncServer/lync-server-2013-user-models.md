@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Benutzermodelle'
-TOCTitle: Lync Server 2013-Benutzermodelle
-ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398811(v=OCS.15)
-ms:contentKeyID: 49890928
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzermodelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2013 user models
+ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
+ms:contentKeyID: 49733811
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Benutzermodelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="user-models-in-lync-server-2013"></a>Benutzermodelle in lync Server 2013
 
-Die hier beschriebenen Benutzermodelle bilden die Grundlage für die Zahlenangaben und Empfehlungen für die Kapazitätsplanung, die unter [Kapazitätsplanung mithilfe von Benutzermodellen für Lync Server 2013](lync-server-2013-capacity-planning-using-the-user-models.md) beschrieben werden.
+</div>
 
-## Lync Server 2013-Benutzermodelle
+<div id="mainSection">
 
-In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, Chat und Anwesenheitsinformationen für Lync Server 2013 beschrieben.
+<div id="mainBody">
 
-### Benutzermodell für Umgebung und Registrierung
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+
+Die hier beschriebenen Benutzermodelle bilden die Grundlage für die Kapazitäts Planungs Maße und-Empfehlungen, die unter [Kapazitätsplanung für lync Server 2013 mit den Benutzermodellen](lync-server-2013-capacity-planning-using-the-user-models.md)beschrieben werden.
+
+<div>
+
+## <a name="lync-server-2013-user-models"></a>Lync Server 2013-Benutzermodelle
+
+In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, Sofortnachrichten (im) und Anwesenheitsinformationen für lync Server 2013 beschrieben.
+
+### <a name="environment-and-registration-user-model"></a>Benutzermodell für Umgebung und Registrierung
 
 <table>
 <colgroup>
@@ -40,16 +62,16 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 <td><p>Es wird eine große Bereitstellung mit drei zentralen Standorten und einem Front-End-Pool pro Standort modelliert.</p></td>
 </tr>
 <tr class="even">
-<td><p>Prozentsatz an Active Directory-Benutzern</p></td>
-<td><p>Es wird davon ausgegangen, dass 70 % aller Active Directory-Benutzer in der Organisation für Lync Server aktiviert sind. 80 % dieser aktivierten Benutzer sind täglich bei Lync Server angemeldet (80 % gleichzeitige Benutzer). Die gleichzeitigen Benutzer sind die Grundlage für die weiteren Zahlenangaben in diesem Abschnitt.</p></td>
+<td><p>Prozentsatz der Active Directory-Benutzer</p></td>
+<td><p>Wir gehen davon aus, dass 70% aller Active Directory-Benutzer in der Organisation für lync Server aktiviert sind. 80% der aktivierten Benutzer sind täglich bei lync Server angemeldet (80% Parallelität). Die gleichzeitigen Benutzer sind die Grundlage für die weiteren Zahlenangaben in diesem Abschnitt.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory-Änderungen</p></td>
-<td><p>Es wird davon ausgegangen, dass 0,5 % der Gesamtanzahl von Benutzern jede Woche für Lync in Active Directory erstellt und aktiviert werden, und dass 0,5 % der Gesamtanzahl von Benutzern jede Woche in Active Directory und in Lync deaktiviert werden. Für 5 % der Benutzer wird jede Woche mindestens ein Active Directory-Attribut geändert.</p></td>
+<td><p>Active Directory-Änderungen</p></td>
+<td><p>Wir gehen davon aus, dass pro Woche 0,5% der gesamten Benutzer für lync in Active Directory erstellt und aktiviert werden und dass 0,5% der gesamten Benutzer in Active Directory und lync pro Woche deaktiviert sind. 5% der Benutzer haben mindestens ein Active Directory-Attribut, das jede Woche geändert wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory-Verteilergruppen</p></td>
-<td><p>Es wird davon ausgegangen, dass die Anzahl der Active Directory-Verteilergruppen in der Organisation dreimal die Anzahl aller Benutzer in Active Directory ist. Die Verteilergruppen haben folgende Größe:</p>
+<td><p>Wir gehen davon aus, dass die Anzahl der Active Directory-Verteilergruppen in der Organisation dreimal so hoch ist wie die Anzahl aller Benutzer in Active Directory. Die Verteilergruppen haben folgende Größen:</p>
 <ul>
 <li><p>64% umfassen 2-30 Benutzer</p></li>
 <li><p>13 % umfassen 31-50 Benutzer</p></li>
@@ -59,19 +81,19 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 </tr>
 <tr class="odd">
 <td><p>VoIP-Benutzer (Voice over IP)</p></td>
-<td><p>Für 60 % der Lync Server-Benutzer ist Unified Communications (UC) aktiviert (d. h. ihre Rufnummern befinden sich im Besitz von Lync Server).</p></td>
+<td><p>60% der lync Server-Benutzer sind für Unified Communications (UC) aktiviert (ihre Telefonnummern gehören lync Server).</p></td>
 </tr>
 <tr class="even">
 <td><p>Verteilung registrierter Clients</p></td>
-<td><p>Auf 65 % der Clients wird Lync 2013-Software ausgeführt, einschließlich Lync und Lync Phone Edition.</p>
-<p>Auf 30 % der Clients wird Clientsoftware einer früheren Version von Lync ausgeführt.</p>
-<p>5 % der Clients verwenden Lync Web App.</p>
+<td><p>65% der Clients führen lync 2013-Software aus, einschließlich lync und lync Phone Edition.</p>
+<p>30% der Clients, die Client Software aus einer früheren lync-Version ausführen.</p>
+<p>5% der Clients, die lync Web App verwenden.</p>
 <p>Wenn die Mobilität aktiviert ist, wird davon ausgegangen, dass 40 % der Benutzer die Mobilität gleichzeitig mit anderen zuvor genannten registrierten Clientoptionen verwenden. In diesem Fall beträgt das MPOP-Verhältnis (Multiple Point Of Presence) für Clients 1:1,9. Wenn die Mobilität deaktiviert ist, beträgt das MPOP-Verhältnis 1:1,5.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Verteilung von Remotebenutzern</p></td>
 <td><p>70 % der Benutzer verbinden sich intern.</p>
-<p>30 % der Benutzer stellen über einen Edgeserver und einen Director eine Verbindung her.</p></td>
+<p>30% der Benutzer, die über einen Edgeserver und einen Director eine Verbindung herstellen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Verteilung von Kontakten</p></td>
@@ -79,18 +101,18 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 <p>Benutzer, die mit einem öffentlichen Netz verbunden sind, verfügen über durchschnittlich 80 Kontakte. Für diese Benutzer gilt Folgendes:</p>
 <ul>
 <li><p>50% der Kontakte befinden sich innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.</p></li>
-<li><p>40 % der Kontakte sind Benutzer einer öffentlichen Cloud (z. B. Benutzer von AOL, Yahoo!, MSN oder Google Talk).</p></li>
+<li><p>40% der Kontakte sind öffentliche Cloud-Nutzer (wie Nutzer von AOL, Yahoo!, MSN oder Google Talk).</p></li>
 <li><p>10% der Kontakte sind Benutzer von Verbundpartnern.</p>
 <div>
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September 2012 kann die Microsoft Lync-Benutzerabonnementlizenz für die Verbindung mit öffentlichen Chatdiensten ("PIC USL") nicht mehr neu erworben werden, und Verträge können nicht verlängert werden. Kunden mit aktiven Lizenzen können den Partnerverbund mit Yahoo! Messenger weiterhin nutzen, bis der Dienst eingestellt wird. Als Datum der Einstellung des Diensts für AOL und Yahoo! wurde Juni 2014 angekündigt. Einzelheiten hierzu finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.</P>
+> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei PIC&nbsp;USL handelt es sich um eine Abonnementlizenz pro Benutzer und pro Monat, die für Lync&nbsp;Server oder Office&nbsp;Communications&nbsp;Server zum Einrichten eines Partnerverbunds mit Yahoo! Messenger erforderlich ist. Die Bereitstellung dieses Services durch Microsoft hing von der Unterstützung durch Yahoo! ab, deren zugrundeliegende Vereinbarung ausläuft.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync Standard CAL. Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
 
 
 </div></li>
@@ -101,17 +123,17 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 <li><p>20 % der Kontakte sind Benutzer von Verbundpartnern.</p>
 <p>Jeder Benutzer weist 1 Verteilergruppe in seiner Kontaktliste auf. Für Leistungstest wird davon ausgegangen, dass Verteilergruppen immer erweitert werden.</p></li>
 </ul>
-<p>25 % der Kontakte eines Benutzers verwenden XMPP.</p></td>
+<p>25% der Kontakte eines Benutzers verwenden xmpp.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Sitzungszeit</p></td>
-<td><p>Eine durchschnittliche Benutzeranmeldesitzung dauert 12 Stunden. Sämtliche Benutzer melden sich innerhalb von 120 Minuten nach dem Sitzungsstart an.</p></td>
+<td><p>Eine durchschnittliche Benutzeranmeldesitzung dauert 12 Stunden. Sämtliche Benutzer melden sich innerhalb von 120 Minuten nach dem Sitzungsstart an.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Benutzermodell für Chat und Anwesenheit
+### <a name="im-and-presence-user-model"></a>Benutzermodell für Chat und Anwesenheit
 
 <table>
 <colgroup>
@@ -128,34 +150,33 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 <tr class="odd">
 <td><p>Peer-zu-Peer-Chatsitzungen</p></td>
 <td><p>Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.</p>
-<p>10 Chatnachrichten pro Sitzung.</p>
-<p>Jeder Nachricht sind zwei SIP INFO-Nachrichten und zwei SIP 200 OK-Nachrichten zugeordnet (für Statusindikatoren wie z. B. &lt;Name&gt; gibt ein ).</p></td>
+<p>10 Chatnachrichten pro Sitzung.</p>
+<p>Jede Nachricht wird durch zwei SIP-Info-Nachrichten und 2 SIP 200-OK-Nachrichten (für die&lt;Status&gt; anzeigen wie "Name wird eingegeben") abgeglichen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Abfrage von Anwesenheitsinformationen</p></td>
-<td><p>Insgesamt wird von durchschnittlich 60 Abfragen von Anwesenheitsinformationen pro Benutzer und Stunde ausgegangen. Für jeden Benutzer wird von folgenden Durchschnittswerten ausgegangen:</p>
+<td><p>Insgesamt wird von durchschnittlich 60 Abfragen von Anwesenheitsinformationen pro Benutzer und Stunde ausgegangen. Für jeden Benutzer wird von folgenden Durchschnittswerten ausgegangen:</p>
 <ul>
 <li><p>Eine Abfrage pro Tag für die Anwesenheitsinformationen von Benutzern auf der Registerkarte Organisation (nicht jedoch von Benutzern in der Kontaktliste) des Benutzers. Die durchschnittliche Anzahl von Benutzern auf der Registerkarte Organisation eines Benutzers, bei denen es sich nicht um Kontakte handelt, beträgt 15 Benutzer. Zwei Anzeigevorgänge für Visitenkarten pro Tag.</p></li>
 <li><p>Eine Abfrage von Anwesenheitsinformationen, sobald der Benutzer einen anderen Benutzer anklickt, um eine Unterhaltung zu beginnen (diese Aktion erfolgt schätzungsweise einmal pro Stunde).</p></li>
-<li><p>Sechs Suchvorgänge für Benutzer pro Stunde. Jedes Mal, wenn eine Suche ausgeführt wird, wird eine Stapelabfrage an alle Benutzer in der Suchergebnisliste gesendet. Es wird von einer durchschnittlichen Größe von 20 Suchergebnissen ausgegangen. Falls die Suchergebnisse weiterhin auf dem Bildschirm angezeigt werden, wird die Stapelabfrage alle 5 Minuten aktualisiert. Es wird von zwei derartigen Aktualisierungen pro Stunde ausgegangen.</p></li>
+<li><p>Sechs Suchvorgänge für Benutzer pro Stunde. Jedes Mal, wenn eine Suche ausgeführt wird, wird eine Stapelabfrage an alle Benutzer in der Suchergebnisliste gesendet. Es wird von einer durchschnittlichen Größe von 20 Suchergebnissen ausgegangen. Falls die Suchergebnisse weiterhin auf dem Bildschirm angezeigt werden, wird die Stapelabfrage alle 5 Minuten aktualisiert. Es wird von zwei derartigen Aktualisierungen pro Stunde ausgegangen.</p></li>
 <li><p>Wenn der Benutzer eine E-Mail in Outlook öffnet bzw. eine Vorschau anzeigt, werden die Anwesenheitsinformationen für die Benutzer in den Feldern An: und CC: der E-Mail abgefragt (dieser Vorgang erfolgt schätzungsweise bei fünf E-Mails pro Stunde und für vier Benutzer pro E-Mail).</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Anwesenheitsabonnements</p></td>
-<td><p>Wenn ein Benutzer einen anderen Benutzer als Kontakt hinzufügt, <em>abonniert</em> der erste Benutzer fünf Kategorien von Informationen zum zweiten Benutzer. Aktualisierungen dieser Informationskategorien werden automatisch an den ersten Benutzer gesendet.</p>
-<p>Für jeden Client wird eine einzige Stapelabonnementanforderung gesendet, um den Anwesenheitsstatus von durchschnittlich 40 Kontakten abzurufen, mit zusätzlich 40 Dialogen zum Abrufen von Anwesenheitsinformationen für Partnerkontakte.</p>
-<p>Die Anwesenheitsinformationen für Mitglieder einer erweiterten Verteilergruppe werden über beständige Anwesenheitsabonnements ermittelt, nicht über Abrufe, und werden als 1 Erweiterung pro Benutzer für jeweils 2 Stunden modelliert.</p>
-<p><em>Kurze Abonnements</em> werden verwendet, wenn sich ein Benutzer anmeldet, wenn ein Stapelabonnement für alle Kontakte des Benutzers vorhanden ist und wenn sich der Benutzer bald abmeldet. Es wird von 6 kurzen Abonnements pro Benutzer und Stunde ausgegangen, wobei jedes Abonnement 10 Minuten dauert.</p></td>
+<td><p>Wenn ein Benutzer einen anderen Benutzer als Kontakt hinzufügt,  <em>abonniert </em> der erste Benutzer fünf Kategorien von Informationen zum zweiten Benutzer. Aktualisierungen dieser Informationskategorien werden automatisch an den ersten Benutzer gesendet.</p>
+<p>Für jeden Client wird eine einzige Stapelabonnementanforderung gesendet, um den Anwesenheitsstatus von durchschnittlich 40 Kontakten abzurufen, mit zusätzlich 40 Dialogen zum Abrufen von Anwesenheitsinformationen für Partnerkontakte.</p>
+<p>Die Anwesenheitsinformationen für Mitglieder einer erweiterten Verteilergruppe werden über beständige Anwesenheitsabonnements ermittelt, nicht über Abrufe, und werden als 1 Erweiterung pro Benutzer für jeweils 2 Stunden modelliert.</p>
+<p><em>Kurze Abonnements </em> werden verwendet, wenn sich ein Benutzer anmeldet, wenn ein Stapelabonnement für alle Kontakte des Benutzers vorhanden ist und wenn sich der Benutzer bald abmeldet. Es wird von 6 kurzen Abonnements pro Benutzer und Stunde ausgegangen, wobei jedes Abonnement 10 Minuten dauert.</p></td>
 </tr>
 <tr class="even">
 <td><p>Veröffentlichung der Anwesenheit</p></td>
-<td><p>Der Anwesenheitsstatus wird durchschnittlich viermal pro Benutzer und Stunde veröffentlicht, mit einer maximalen Anzahl von 6 Veröffentlichungen pro Benutzer und Stunde.</p>
-<p></p></td>
+<td><p>Der Anwesenheitsstatus wird durchschnittlich viermal pro Benutzer und Stunde veröffentlicht, mit einer maximalen Anzahl von 6 Veröffentlichungen pro Benutzer und Stunde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Größe des Anwesenheitsdokuments</p></td>
-<td><p>Bei einem vollständigen Anwesenheitsdokument wird von einer durchschnittlichen Größe von 4 KB ausgegangen, mit einer maximalen Größe von 25 KB.</p></td>
+<td><p>Bei einem vollständigen Anwesenheitsdokument wird von einer durchschnittlichen Größe von 4 KB ausgegangen, mit einer maximalen Größe von 25 KB.</p></td>
 </tr>
 </tbody>
 </table>
@@ -163,7 +184,7 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 
 In der folgenden Tabelle wird das Benutzermodell für die Adressbuchverwendung beschrieben.
 
-### Benutzermodell für die Adressbuchverwendung
+### <a name="address-book-usage-user-model"></a>Benutzermodell für die Adressbuchverwendung
 
 <table>
 <colgroup>
@@ -196,7 +217,7 @@ In der folgenden Tabelle wird das Benutzermodell für die Adressbuchverwendung b
 
 In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 
-### Konferenzmodell
+### <a name="conferencing-model"></a>Konferenzmodell
 
 <table>
 <colgroup>
@@ -211,22 +232,22 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Geplante Besprechungen im Vergleich zu Sofortbesprechungen</p></td>
+<td><p>Geplante Besprechungen &quot;versus Besprechungen jetzt&quot; treffen</p></td>
 <td><p>60 % geplant, 40 % ungeplant.</p>
-<p>Bei den geplanten Besprechungen wird von 80 % zugewiesenen Konferenzen ausgegangen, wobei es sich um Instanzen von wiederkehrenden Konferenzen handelt. 10 % sind einmalige offene Besprechungen, 8% sind einmalige anonyme Besprechungen, und 2 % sind einmalige geschlossene Besprechungen.</p></td>
+<p>Von den geplanten Besprechungen wird davon ausgegangen, dass 80% Konferenzen zugeordnet sind, die zu wiederkehrenden Konferenzen gehören; 10% sind einmalige offene Besprechungen; 8% sind einmalige anonyme Besprechungen, und 2% sind einmalige, geschlossene Besprechungen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Verteilung von Konferenzclients</p></td>
 <td><p>Für geplante Besprechungen:</p>
 <ul>
-<li><p>65 % der Konferenzbenutzer verwenden Lync 2013.</p></li>
-<li><p>5 % der Konferenzbenutzer verwenden Microsoft Lync Web App.</p></li>
-<li><p>30 % der Clients verwenden ältere Clients, einschließlich Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 und Microsoft Office Communicator Web Access (Version 2007).</p></li>
+<li><p>65% der Konferenzbenutzer verwenden lync 2013.</p></li>
+<li><p>5% der Konferenzbenutzer verwenden Microsoft lync Web App.</p></li>
+<li><p>30% der Konferenzbenutzer verwenden frühere Clients, einschließlich Microsoft lync 2010, Office Communicator 2007 R2, Office Communicator 2007 und Microsoft Office Communicator Web Access (2007-Version).</p></li>
 </ul>
 <p>Für ungeplante Besprechungen:</p>
 <ul>
-<li><p>70 % der Konferenzbenutzer verwenden Lync 2013.</p></li>
-<li><p>30 % der Clients verwenden ältere Clients, einschließlich Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 und Microsoft Office Communicator Web Access (Version 2007).</p></li>
+<li><p>70% der Konferenzbenutzer verwenden lync 2013.</p></li>
+<li><p>30% der Konferenzbenutzer verwenden frühere Clients, einschließlich Microsoft lync 2010, Office Communicator 2007 R2, Office Communicator 2007 und Microsoft Office Communicator Web Access (2007-Version).</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -238,25 +259,25 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 <td><p>40 % Kombination aus VoIP-Audio- und Einwahlkonferenzen, mit einem Verhältnis von 3:1 von VoIP-Benutzern zu Einwahlbenutzern.</p>
 <p>35 % nur VoIP-Audio.</p>
 <p>15 % nur Audio bei Einwahlkonferenzen.</p>
-<p>10 % ohne Audio (reine Chatkonferenzen mit durchschnittlich fünf gesendeten Nachrichten pro Benutzer).</p></td>
+<p>10 % ohne Audio (reine Chatkonferenzen mit durchschnittlich fünf gesendeten Nachrichten pro Benutzer).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Medienmix für Konferenzen</p></td>
-<td><p>Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.</p>
+<td><p>Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.</p>
 <p>Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:</p>
 <div>
 
-> [!NOTE]
-> Die Summe dieser Zahlen beträgt mehr als 100&nbsp;%, da in einer Konferenz mehrere Methoden zur Zusammenarbeit verwendet werden können.
+> [!NOTE]  
+> Die Summe dieser Zahlen beträgt mehr als 100 %, da in einer Konferenz mehrere Methoden zur Zusammenarbeit verwendet werden können.
 
 
 </div>
 <ul>
-<li><p>50 % nutzen zusätzlich die Anwendungsfreigabe. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.</p></li>
-<li><p>50 % nutzen zusätzlich Chatdienste (mit durchschnittlich zwei Chatnachrichten pro Benutzer).</p></li>
-<li><p>20 % nutzen zusätzlich die Datenzusammenarbeit, einschließlich PowerPoint oder Whiteboard. Dabei werden pro Konferenz durchschnittlich zwei PowerPoint-Dateien mit einer durchschnittlichen Größe von 10 MB (ohne eingebettetes Video) oder 30 MB (mit eingebettetem Video) präsentiert. Durchschnittlich 20 Anmerkungen pro Whiteboard.</p></li>
-<li><p>20 % nutzen zusätzlich die Videofunktion. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.</p></li>
-<li><p>15 % fügen freigegebene Notizen hinzu.</p></li>
+<li><p>50 % nutzen zusätzlich die Anwendungsfreigabe. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.</p></li>
+<li><p>50 % nutzen zusätzlich Chatdienste (mit durchschnittlich zwei Chatnachrichten pro Benutzer).</p></li>
+<li><p>20 % nutzen zusätzlich die Datenzusammenarbeit, einschließlich PowerPoint oder Whiteboard. Dabei werden pro Konferenz durchschnittlich zwei PowerPoint-Dateien mit einer durchschnittlichen Größe von 10 MB (ohne eingebettetes Video) oder 30 MB (mit eingebettetem Video) präsentiert. Durchschnittlich 20 Anmerkungen pro Whiteboard.</p></li>
+<li><p>20 % nutzen zusätzlich die Videofunktion. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.</p></li>
+<li><p>15 % fügen freigegebene Notizen hinzu.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -268,27 +289,27 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 </tr>
 <tr class="odd">
 <td><p>Verteilung für den Besprechungsbeitritt</p></td>
-<td><p>Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.</p></td>
+<td><p>Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Bei regulären Front-End-Pools unterstützt Lync Server 2013 maximal 250 Benutzer pro Besprechung. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Ausführliche Informationen finden Sie unter [Unterstützung für große Besprechungen in Lync Server 2013](lync-server-2013-support-for-large-meetings.md).
+In normalen Front-End-Pools verfügt lync Server 2013 über eine maximal unterstützte Besprechungsgröße von 250-Benutzern. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1.000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Ausführliche Informationen finden Sie unter [Unterstützung für umfangreiche Besprechungen in lync Server 2013](lync-server-2013-support-for-large-meetings.md).
 
 Konferenzen wurden wie folgt simuliert:
 
-  - 85 % der Konferenzen wiesen vier Teilnehmer auf.
+  - 85 % der Konferenzen wiesen vier Teilnehmer auf.
 
-  - 10 % der Konferenzen wiesen sechs Teilnehmer auf.
+  - 10 % der Konferenzen wiesen sechs Teilnehmer auf.
 
-  - 5 % der Konferenzen wiesen elf Teilnehmer auf.
+  - 5 % der Konferenzen wiesen elf Teilnehmer auf.
 
-  - Eine große Konferenz mit 250 Benutzern.
+  - Eine große Konferenz mit 250 Benutzern.
 
 Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell für Konferenzen mit Einwahlbenutzern.
 
-### Benutzermodell für Einwahlkonferenzen
+### <a name="dial-in-conferencing-user-model"></a>Benutzermodell für Einwahlkonferenzen
 
 <table>
 <colgroup>
@@ -304,7 +325,7 @@ Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell fü
 <tbody>
 <tr class="odd">
 <td><p>Authentifiziert/anonym</p></td>
-<td><p>70 % der Anrufer treten anonym bei und werden zur Aufzeichnung ihres Namens aufgefordert. 30 % nehmen als authentifizierte Benutzer teil.</p></td>
+<td><p>70 % der Anrufer treten anonym bei und werden zur Aufzeichnung ihres Namens aufgefordert. 30 % nehmen als authentifizierte Benutzer teil.</p></td>
 </tr>
 <tr class="even">
 <td><p>Anrufdauer und Wartemusik</p></td>
@@ -326,7 +347,7 @@ Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell fü
 
 Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell für die Konferenzlobby.
 
-### Benutzermodell für die Konferenzlobby
+### <a name="conference-lobby-user-model"></a>Benutzermodell für die Konferenzlobby
 
 <table>
 <colgroup>
@@ -354,7 +375,7 @@ Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell fü
 
 In der folgenden Tabelle ist das Benutzermodell für andere Peer-zu-Peer-Sitzungen beschrieben.
 
-### Benutzermodell für Peer-zu-Peer-Sitzungen
+### <a name="peer-to-peer-sessions-user-model"></a>Benutzermodell für Peer-zu-Peer-Sitzungen
 
 <table>
 <colgroup>
@@ -374,7 +395,7 @@ In der folgenden Tabelle ist das Benutzermodell für andere Peer-zu-Peer-Sitzung
 </tr>
 <tr class="even">
 <td><p>Dateiübertragung</p></td>
-<td><p>Jeder Benutzer nimmt (im Rahmen einer Chatsitzung) an einer Peer-zu-Peer-Dateiübertragungssitzung pro Monat teil (durchschnittlich 0,05 Sitzungen pro Tag). Die durchschnittliche Größe der in einer Sitzung übertragenen Dateien beträgt 1 MB.</p></td>
+<td><p>Jeder Benutzer nimmt (im Rahmen einer Chatsitzung) an einer Peer-zu-Peer-Dateiübertragungssitzung pro Monat teil (durchschnittlich 0,05 Sitzungen pro Tag). Die durchschnittliche Größe der in einer Sitzung übertragenen Dateien beträgt 1 MB.</p></td>
 </tr>
 </tbody>
 </table>
@@ -382,7 +403,7 @@ In der folgenden Tabelle ist das Benutzermodell für andere Peer-zu-Peer-Sitzung
 
 In der folgenden Tabelle wird das Benutzermodell für Richtlinien beschrieben.
 
-### Benutzermodell für Richtlinien
+### <a name="policies-user-model"></a>Benutzermodell für Richtlinien
 
 <table>
 <colgroup>
@@ -402,13 +423,17 @@ In der folgenden Tabelle wird das Benutzermodell für Richtlinien beschrieben.
 </tr>
 <tr class="even">
 <td><p>VoIP-Richtlinie</p></td>
-<td><p>Es wird von einer globalen Richtlinie und zwei Richtlinien pro Standort ausgegangen. 100 % der Standorte verfügen über eine Standortrichtlinie, und 30 % der Benutzer ist eine benutzerbasierte Richtlinie zugewiesen. Pro Standort wird von einem Wählplan und zwei Routen ausgegangen.</p></td>
+<td><p>Es wird von einer globalen Richtlinie und zwei Richtlinien pro Standort ausgegangen. 100 % der Standorte verfügen über eine Standortrichtlinie, und 30 % der Benutzer ist eine benutzerbasierte Richtlinie zugewiesen. Pro Standort wird von einem Wählplan und zwei Routen ausgegangen.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Spitzenzeiten
+</div>
+
+<div>
+
+## <a name="busy-hour"></a>Spitzenzeiten
 
 Die Spitzenauslastung für Peer-zu-Peer-Sitzungen wird basierend auf der Anzahl von Anrufversuchen (Busy Hour Call Attempts, BHCA) zu Spitzenzeiten berechnet. Für diesen Begriff aus der VoIP-Branche wird davon ausgegangen, dass 50 % aller Anrufe an einem Tag innerhalb von 20 % der Gesamtzeit getätigt werden. Der BHCA-Wert wird mithilfe der folgenden Formel berechnet:
 
@@ -418,29 +443,57 @@ Zur Simulation von Spitzenzeiten wurden in Leistungstests VoIP- und andere Peer-
 
 Für die Spitzenauslastung bei Konferenzen wird davon ausgegangen, dass 75 % aller Konferenzen an einem achtstündigen Arbeitstag innerhalb von vier Stunden zu Spitzenzeiten stattfinden. Für diese Spitzenzeiten wird das 1,5-Fache der durchschnittlichen Konferenzauslastung verzeichnet.
 
-## Enterprise-VoIP für PSTN-Anrufe
+</div>
 
-Für Enterprise-VoIP-Anrufe gelten die folgenden Annahmen:
+<div>
 
-  - Für 50 % der Benutzer ist Enterprise-VoIP aktiviert, und für 60 % dieser Benutzer sind PSTN-Anrufe aktiviert.
+## <a name="enterprise-voice-to-pstn-calls"></a>Enterprise-VoIP für PSTN-Anrufe
 
-  - Jeder dieser Benutzer, für den PSTN-Anrufe aktiviert sind, tätigt 4 PSTN-Anrufe in Spitzenzeiten. Jeder Anruf dauert 3 Minuten.
+Die folgenden Annahmen gelten für Enterprise-VoIP-Anrufe:
 
-  - 65 % dieser PST-VoIP-Anrufe verwenden die Medienumgehung.
+  - 50% der Benutzer sind für Enterprise-VoIP aktiviert, und 60% dieser Benutzer sind für PSTN-Anrufe aktiviert.
 
-## Mobilität
+  - Jeder dieser Benutzer, für den PSTN-Anrufe aktiviert sind, tätigt 4 PSTN-Anrufe in Spitzenzeiten. Jeder Anruf dauert 3 Minuten.
 
-Es wird davon ausgegangen, dass für 40 % der registrierten Benutzer die Mobilität aktiviert ist. Für jeden Benutzer mit aktivierter Mobilität wird davon ausgegangen, dass sich die Aktivität des mobilen Clients zur Aktivität der anderen MPOP-Instanzen für diesen Benutzer summiert. Mit Ausnahme von Konferenzinteraktionen, für die der Mobilitätsclient einfach ein weiterer Clienttyp ist, der für die Teilnahme an Konferenzen verwendet werden kann.
+  - 65 % dieser PST-VoIP-Anrufe verwenden die Medienumgehung.
 
-## Beständiger Chat
+</div>
 
-Es wird davon ausgegangen, dass 25 % der registrierten Benutzer an Sitzungen für beständigen Chat beteiligt sind, wobei Folgendes gilt:
+<div>
 
-  - Durchschnittlich 1,5 Chatrooms pro Benutzer
+## <a name="mobility"></a>Mobilität
 
-  - Jeder Chatroom führt zu 12 Abrufanforderungen pro Stunde, mit einem Zielwert von durchschnittlich je 10 Benutzern
+Es wird davon ausgegangen, dass für 40 % der registrierten Benutzer die Mobilität aktiviert ist. Für jeden Benutzer mit aktivierter Mobilität wird davon ausgegangen, dass sich die Aktivität des mobilen Clients zur Aktivität der anderen MPOP-Instanzen für diesen Benutzer summiert. Mit Ausnahme von Konferenzinteraktionen, für die der Mobilitätsclient einfach ein weiterer Clienttyp ist, der für die Teilnahme an Konferenzen verwendet werden kann.
 
-## Reaktionsgruppe und Parken von Anrufen
+</div>
 
-Es wird davon ausgegangen, dass 0,15 % der registrierten Benutzer Reaktionsgruppen angehören. Außerdem wird davon ausgegangen, dass 0,02 % der registrierten Benutzer zu einem bestimmten Zeitpunkt Anrufe parken.
+<div>
+
+## <a name="persistent-chat"></a>Beständiger Chat
+
+Es wird davon ausgegangen, dass 25 % der registrierten Benutzer an Sitzungen für beständigen Chat beteiligt sind, wobei Folgendes gilt:
+
+  - Durchschnittlich 1,5 Chatrooms pro Benutzer
+
+  - Jeder Chatroom führt zu 12 Abrufanforderungen pro Stunde, mit einem Zielwert von durchschnittlich je 10 Benutzern
+
+</div>
+
+<div>
+
+## <a name="response-group-and-call-park"></a>Reaktionsgruppe und Parken von Anrufen
+
+Es wird davon ausgegangen, dass 0,15 % der registrierten Benutzer Reaktionsgruppen angehören. Außerdem wird davon ausgegangen, dass 0,02 % der registrierten Benutzer zu einem bestimmten Zeitpunkt Anrufe parken.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

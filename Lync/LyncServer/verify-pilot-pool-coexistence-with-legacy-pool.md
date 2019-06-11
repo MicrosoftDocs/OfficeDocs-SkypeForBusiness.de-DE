@@ -1,57 +1,103 @@
-﻿---
-title: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
-TOCTitle: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
-ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205420(v=OCS.15)
-ms:contentKeyID: 49296015
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify pilot pool coexistence with legacy pool
+ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
+ms:contentKeyID: 48185964
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846975"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-29_
 
-Nach dem Bereitstellen des Pilotpools müssen Sie die Koexistenz der beiden Pools verifizieren, indem Sie mithilfe der Verwaltungstools die Poolinformationen abrufen. Für die Lync Server 2013-Pools und die Pools der Vorgängerversion müssen Sie die Systemsteuerung für Lync Server 2013 und die Tools des Topologie-Generators verwenden.
+Nachdem Sie den Pilot Pool bereitgestellt haben, müssen Sie die Koexistenz der beiden Pools überprüfen, indem Sie die Verwaltungstools verwenden, um die Poolinformationen anzuzeigen. Für die lync Server 2013-Pools und Legacy Pools müssen Sie die lync Server 2013-Systemsteuerung und die Tools für die Topologie-Builder verwenden.
 
-## Sicherstellen, dass die Lync Server 2013-Dienste gestartet wurden
+<div>
 
-1.  Navigieren Sie auf dem Lync Server 2013-Front-End-Server zum Applet "Dienste" in "Verwaltung".
+## <a name="verify-that-lync-server-2013-services-have-started"></a>Überprüfen, ob die lync Server 2013-Dienste gestartet wurden
 
-2.  Stellen Sie sicher, dass auf dem Front-End-Server die folgenden Dienste ausgeführt werden:
+1.  Navigieren Sie vom lync Server 2013-Front-End-Server zum Applet\\Dienste für administrative Tools.
+
+2.  Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
 
 **Lync Server 2013-Dienste**
 
-![Liste der gestarteten Lync Server-Dienste](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste der gestarteten Lync Server-Dienste")
+![Liste der gestarteten lync Server-Dienste] (images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste der gestarteten lync Server-Dienste")
 
-## Öffnen der Systemsteuerung für Lync Server 2013
+</div>
 
-Öffnen Sie auf dem Front-End-Server in der Lync Server 2013-Bereitstellung die Systemsteuerung für Lync Server 2013, und wählen Sie den Lync Server 2010-Pool aus. Wiederholen Sie dieses Verfahren, um den Lync Server 2013-Pool zu öffnen.
+<div>
 
-**Öffnen der Lync Server 2013-Systemsteuerung**
+## <a name="open-the-lync-server-2013-control-panel"></a>Öffnen der lync Server 2013-Systemsteuerung
 
-![URL auswählen (Dialogfeld)](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "URL auswählen (Dialogfeld)")
+Öffnen Sie auf dem Front-End-Server in ihrer lync Server 2013-Bereitstellung die lync Server 2013-Systemsteuerung, und wählen Sie den lync Server 2010-Pool aus. Wiederholen Sie den Vorgang, um den lync Server 2013-Pool zu öffnen.
+
+**Öffnen der lync Server 2013-Systemsteuerung**
+
+![Dialogfeld ' URL auswählen] ' (images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Dialogfeld ' URL auswählen") '
+
+<div>
 
 
-> [!IMPORTANT]
-> In Lync Server 2013 müssen Sie Silverlight auf Silverlight, Version 5, upgraden, bevor Sie die Lync Server-Systemsteuerung verwenden.
+> [!IMPORTANT]  
+> Bei lync Server 2013 müssen Sie Silverlight vor der Verwendung der lync Server-Systemsteuerung auf Silverlight, Version 5, aktualisieren.
 
 
 
-Diese Topologie enthält nun Lync Server 2010- und Lync Server 2013-Serverrollen.
+</div>
 
-**Topologieseite in der Lync Server 2013-Systemsteuerung**
+Diese Topologie umfasst jetzt lync Server 2010 und lync Server 2013-Serverrollen.
 
-![Lync Server-Systemsteuerung – Topologie (Seite)](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server-Systemsteuerung – Topologie (Seite)")
+**Lync Server 2013-Seite "Systemsteuerung"**
 
-## Versuchen Sie nicht, die Topologie im Lync Server 2010-Topologie-Generator zu öffnen.
+![Lync Server Control Panel – Seite "Topologie"] (images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server Control Panel – Seite \"Topologie\"")
 
-Wenn Sie versuchen, die Topologie mithilfe des Lync Server 2010-Topologie-Generators zu öffnen, erhalten Sie den unten angegebenen Fehler. Die Topologie kann nur mit dem Lync Server 2013-Topologie-Generator angezeigt werden. Der Lync Server 2013-Topologie-Generator muss zum Erstellen von Pools sowohl für Lync Server 2013 als auch für Lync Server 2010 verwendet werden.
+</div>
 
-**Fehlermeldung im Lync Server 2010-Topologie-Generator**
+<div>
 
-![Lync Server-Topologie-Generator – MMC-Snap-In-Fehler](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server-Topologie-Generator – MMC-Snap-In-Fehler")
+## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>Versuchen Sie nicht, die Topologie im lync Server 2010-Topologie-Generator zu öffnen.
+
+Wenn Sie versuchen, die Topologie mit lync Server 2010 Topology Builder zu öffnen, wird der folgende Fehler angezeigt. Die Topologie kann nur mit dem lync Server 2013-Topologie-Generator angezeigt werden. Der lync Server 2013-Topologie-Generator muss zum Erstellen von Pools für lync Server 2013 und lync Server 2010 verwendet werden.
+
+**Fehlermeldung zum lync Server 2010-Topologie-Generator**
+
+![MMC-Snap-Fehler in lync Server Topology Builder] (images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "MMC-Snap-Fehler in lync Server Topology Builder")
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

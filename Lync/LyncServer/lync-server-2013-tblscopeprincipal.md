@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblScopePrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblScopePrincipal
 ms:assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558639(v=OCS.15)
-ms:contentKeyID: 49293816
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558639(v=OCS.15)
+ms:contentKeyID: 48184009
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ece5ae542060835aefa05edb6e08b766293e2ac1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847618"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblScopePrincipal in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblscopeprincipal-in-lync-server-2013"></a>tblScopePrincipal in Lync Server 2013
 
-In "tblScopePrincipal" sind Bereiche enthalten, die Knoten zugeordnet sind.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblScopePrincipal enthält Bereiche, die Knoten zugewiesen sind.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -41,23 +61,23 @@ In "tblScopePrincipal" sind Bereiche enthalten, die Knoten zugeordnet sind.
 <tr class="even">
 <td><p>scopePrinID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID</p></td>
+<td><p>Prinzipal-ID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>True, wenn Bereichstyp &quot;Verweigern&quot; ist; False wenn &quot;Zulassen&quot;.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn der Typ des Bereichs "verweigern" lautet. False, wenn allow.</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeUpdatedBy</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.</p></td>
+<td><p>Die ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="keys"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -77,12 +97,23 @@ In "tblScopePrincipal" sind Bereiche enthalten, die Knoten zugeordnet sind.
 </tr>
 <tr class="even">
 <td><p>scopeNodeID</p></td>
-<td><p>Fremdschlüssel mit Abfrage der <strong>tblNode.nodeID</strong> -Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopePrinID</p></td>
-<td><p>Fremdschlüssel mit Abfrage der <strong>tblPrincipal.prinID</strong> -Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

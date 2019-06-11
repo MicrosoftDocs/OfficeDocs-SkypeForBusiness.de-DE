@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test admin permissions'
+---
+title: 'Lync Server 2013: Testen von Administratorberechtigungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test admin permissions
 ms:assetid: 5dda3efd-0f84-4848-819e-87b1551066b1
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn767945(v=OCS.15)
-ms:contentKeyID: 62486200
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767945(v=OCS.15)
+ms:contentKeyID: 63969607
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 3da940b30822a5cfcc1fed302ff3db1f34bd8380
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847574"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test admin permissions in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="test-admin-permissions-in-lync-server-2013"></a>Testen von Administratorberechtigungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-08-18_
 
 
 <table>
@@ -23,68 +43,94 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>After initial Lync Server deployment. As needed if permission-related issues arise.</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Nach der ersten lync Server-Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsOUPermission cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsOUPermission-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsOUPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-When you install Lync Server 2013 one of the tasks that were performed by the Setup program gives the RTCUniversalUserAdmins group the Active Directory permissions that are needed to manage users, computers, contacts, application contacts, and InetOrg persons. If you have disabled permission inheritance in Active Directory setup won't be able to assign those permissions. As a result, members of the RTCUniversalUserAdmins group won't be able to manage Lync Server entities. Those management privileges will only be available to domain administrators.
+## <a name="description"></a>Beschreibung
 
-The Test-CsOUPermission cmdlet verifies that the required permissions that are needed to manage users, computers, and other objects are set on an Active Directory container. If those permissions are not set, you can resolve this problem by running the [Grant-CsOUPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission) cmdlet.
+Wenn Sie lync Server 2013 1 der Aufgaben installieren, die vom Setup-Programm durchgeführt wurden, erhält die RTCUniversalUserAdmins-Gruppe die Active Directory-Berechtigungen, die für die Verwaltung von Benutzern, Computern, Kontakten, Anwendungs Kontakten und inetOrgPerson Personen erforderlich sind. Wenn Sie die Berechtigungsvererbung in Active Directory deaktiviert haben, können diese Berechtigungen nicht zugewiesen werden. Aus diesem Grund können Mitglieder der RTCUniversalUserAdmins-Gruppe keine lync Server-Entitäten verwalten. Diese Verwaltungsprivilegien stehen nur Domänenadministratoren zur Verfügung.
 
-Note that Grant-CsOUPermission can only assign permissions to members of the RTCUniversalUserAdmins group. You can’t use this cmdlet to grant permissions to an arbitrary user or group. If you want a different user or group to have user management permissions, you should add that user (or group) to the RTCUniversalUserAdmins group.
+Das Cmdlet Test-CsOUPermission überprüft, ob die erforderlichen Berechtigungen zum Verwalten von Benutzern, Computern und anderen Objekten für einen Active Directory-Container festzulegen sind. Wenn diese Berechtigungen nicht gesetzt sind, können Sie dieses Problem beheben, indem Sie das Cmdlet [Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) ausführen.
 
-For more information on OU permissions, see the article [Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert in Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md).
+Beachten Sie, dass Grant-CsOUPermission nur Mitgliedern der RTCUniversalUserAdmins-Gruppe Berechtigungen zuweisen kann. Sie können dieses Cmdlet nicht verwenden, um einem beliebigen Benutzer oder einer Gruppe Berechtigungen zu erteilen. Wenn Sie möchten, dass ein anderer Benutzer oder eine andere Gruppe Benutzer Verwaltungsberechtigungen hat, sollten Sie diesen Benutzer (oder die Gruppe) zur Gruppe RTCUniversalUserAdmins hinzufügen.
 
-## Running the test
+Weitere Informationen zu ou-Berechtigungen finden Sie im Artikel die [Vererbung von Berechtigungen ist auf Computern, Benutzern oder inetOrgPerson-Containern in lync Server 2013 deaktiviert](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md).
 
-To verify that management permissions are set on a container, run the Test-CsOUPermission cmdlet followed by the distinguished name of the container and by the type of permissions that you are verifying. For example, this command checks whether user permissions are set on the OU ou=Redmond,dc=litwareinc,dc=com:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ausführen des Tests
+
+Um zu überprüfen, ob Verwaltungsberechtigungen für einen Container festzulegen sind, führen Sie das Cmdlet Test-CsOUPermission gefolgt vom Distinguished Name des Containers und dem Typ der zu überprüfenden Berechtigungen aus. Mit diesem Befehl wird beispielsweise überprüft, ob die Benutzerberechtigungen für die OU ou = Redmond, DC = "litwareinc, DC = com festgesetzt sind:
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"
 
-To verify multiple permissions by using a single command, enclose each permission type enclosed in quotation marks, then separate those types by using commas. For example, this one command verifies user, computer, and contact permissions:
+Wenn Sie mehrere Berechtigungen mithilfe eines einzelnen Befehls überprüfen möchten, schließen Sie die einzelnen in Anführungszeichen eingeschlossenen Berechtigungstypen ein, und trennen Sie diese Typen dann durch Kommas. Mit diesem einen Befehl werden beispielsweise Benutzer-, Computer-und Kontakt Berechtigungen überprüft:
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"
 
-For more information, see the help topic for the [Test-CsOUPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsOUPermission) cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsOUPermission) .
 
-## Determining success or failure
+</div>
 
-If the required permissions have already been set then Test-CsOUPermission will return a one-word response:
+<div>
+
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+
+Wenn die erforderlichen Berechtigungen bereits gesetzt sind, gibt Test-CsOUPermission eine Antwort mit einem Wort zurück:
 
 True
 
-If the required permissions are not set then Test-CsOUPermission will return the value False. You might have to search for a moment to find this value. It will typically be embedded inside several accompanying warnings. For example:
+Wenn die erforderlichen Berechtigungen nicht festgelegt sind, gibt Test-CsOUPermission den Wert false zurück. Möglicherweise müssen Sie einen Moment suchen, um diesen Wert zu finden. Sie wird in der Regel in mehrere begleitende Warnungen eingebettet. Beispiel:
 
-WARNING: access control entry (ACE) atl-cs-001\\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Descendents; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
+Warnung: Zugriffssteuerungseintrag (ACE) ATL-CS-001\\RTCUniversalUserReadOnlyGroup hinzugefügt; ermöglichen ReadProperty ContainerInherit Nachfolger bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
 
-WARNING: The access control entries (ACEs) on the object "OU=NorthAmerica,DC=atl-cs-001\\DC=litwareinc,DC=com" are not ready.
+Warnung: die Zugriffssteuerungseinträge (ACEs) für das Objekt "ou = Northamerica, DC = ATL-CS-001\\DC =" litwareinc, DC = com "sind nicht bereit.
 
-False
+Falsch
 
-WARNING: "Test-CsOUPermission" processing has completed with warnings. "2" warnings were recorded during this run.
+Warnung: die Verarbeitung von "Test-CsOUPermission" wurde mit Warnungen abgeschlossen. "2"-Warnungen wurden während dieser Ausführung aufgezeichnet.
 
-WARNING: Detailed results can be found at "C:\\Users\\Admin\\AppData\\Local\\Temp\\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html".
+Warnung: detaillierte Ergebnisse finden Sie unter "C\\: Benutzer\\Administrator\\APPDATA\\local\\Temp\\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de. html".
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsOUPermission fails that will usually mean that the specified permission has not been assign to the RTCUniversalUserAdmins group. You can resolve this problem, and assign the required permissions, by using the Grant-CsOUPermission cmdlet. For example, this command gives OU permissions for users, contacts, and inetOrgPersons to the RTCUniversalUserAdmins group:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Wenn Test-CsOUPermission fehlschlägt, bedeutet dies normalerweise, dass die angegebene Berechtigung nicht der RTCUniversalUserAdmins-Gruppe zugewiesen wurde. Mithilfe des Cmdlets Grant-CsOUPermission können Sie dieses Problem beheben und die erforderlichen Berechtigungen zuweisen. Dieser Befehl gibt beispielsweise ou-Berechtigungen für Benutzer, Kontakte und InetOrgPersons an die RTCUniversalUserAdmins-Gruppe:
 
     Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"
 
-For more information, see the help topic for the Grant-CsOUPermission cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet Grant-CsOUPermission.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

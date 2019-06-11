@@ -1,31 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Grundlegendes zu den Firewallanforderungen für SQL Server'
-TOCTitle: Grundlegendes zu den Firewallanforderungen für SQL Server
-ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425818(v=OCS.15)
-ms:contentKeyID: 49293600
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Grundlegendes zu den Firewallanforderungen für SQL Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Understanding firewall requirements for SQL Server
+ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425818(v=OCS.15)
+ms:contentKeyID: 48183781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 586985c3059e12d358249a71dc2435c3be9254f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847426"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Grundlegendes zu den Firewallanforderungen für SQL Server mit Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Grundlegendes zu den Firewallanforderungen für SQL Server mit Lync Server 2013
 
-Für eine Standard Edition-Bereitstellung werden beim Lync Server 2013-Setup automatisch Firewallausnahmen erstellt. Für Enterprise Edition-Bereitstellungen müssen Sie die Firewallausnahmen jedoch manuell auf dem Microsoft SQL Server-Back-End-Server konfigurieren. Beim TCP/IP-Protokoll kann ein Port nur für eine bestimmte IP-Adresse verwendet werden. Dies bedeutet, dass Sie der Standarddatenbankinstanz für den SQL Server-basierten Server den standardmäßigen TCP-Port 1433 zuweisen können. Für alle weiteren Instanzen müssen Sie mit dem SQL Server-Konfigurations-Manager eindeutige, nicht verwendete Ports zuweisen. In diesem Abschnitt werden folgende Themen behandelt:
+</div>
 
-  - Anforderungen für eine Firewallausnahme bei Verwendung der Standardinstanz
+<div id="mainSection">
 
-  - Anforderungen für eine Firewallausnahme für den SQL Server-Browserdienst
+<div id="mainBody">
 
-  - Anforderungen für statische Überwachungsports bei Verwendung benannter Instanzen
+<span> </span>
 
-## Anforderungen für eine Firewallausnahme bei Verwendung der Standardinstanz
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Wenn Sie bei der Lync Server 2013-Bereitstellung die SQL Server-Standardinstanz für eine beliebige Datenbank verwenden, gelten die folgenden Anforderungen für Firewallregeln, um die Kommunikation zwischen dem Front-End-Pool und der SQL Server-Standardinstanz sicherzustellen.
+Bei einer Standard Edition-Bereitstellung werden Firewall-Ausnahmen beim Einrichten von lync Server 2013 automatisch erstellt. Bei Enterprise Edition-Bereitstellungen müssen Sie die Firewall-Ausnahmen jedoch manuell auf dem SQL Server-Back-End-Server konfigurieren. Das TCP/IP-Protokoll ermöglicht es, einen bestimmten Port einmal für eine bestimmte IP-Adresse zu verwenden. Das bedeutet, dass Sie für den SQL Server-basierten Server die standardmäßige Datenbankinstanz den standardmäßigen TCP-Port 1433 zuweisen können. Für alle anderen Instanzen müssen Sie den SQL Server-Konfigurations-Manager verwenden, um eindeutige und nicht verwendete Ports zuzuweisen. In diesem Thema wird Folgendes behandelt:
+
+  - Voraussetzungen für eine Firewall-Ausnahme bei Verwendung der Standardinstanz
+
+  - Voraussetzungen für eine Firewall-Ausnahme für den SQL Server-Browser Dienst
+
+  - Voraussetzungen für statische Abhör Anschlüsse bei Verwendung benannter Instanzen
+
+<div>
+
+## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>Voraussetzungen für eine Firewall-Ausnahme bei Verwendung der Standardinstanz
+
+Wenn Sie bei der Bereitstellung von lync Server 2013 die SQL Server-Standardinstanz für eine Datenbank verwenden, werden die folgenden Firewall-Regel Anforderungen verwendet, um die Kommunikation zwischen dem Front-End-Pool und der SQL Server-Standardinstanz zu gewährleisten.
 
 
 <table>
@@ -45,15 +67,19 @@ Wenn Sie bei der Lync Server 2013-Bereitstellung die SQL Server-Standardinstanz
 <tr class="odd">
 <td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>Eingehend zu SQL Server</p></td>
+<td><p>Eingehend zu SQL Server</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Anforderungen für eine Firewallausnahme für den SQL Server-Browserdienst
+</div>
 
-Der SQL Server-Browserdienst ermittelt die Datenbankinstanzen und kommuniziert den Port, für dessen Verwendung die Instanz (benannte Instanz oder Standardinstanz) konfiguriert ist.
+<div>
+
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Voraussetzungen für eine Firewall-Ausnahme für den SQL Server-Browser Dienst
+
+Der SQL Server-Browser Dienst findet Datenbankinstanzen und kommuniziert den Port, der für die Verwendung der Instanz (benannt oder Standard) konfiguriert ist.
 
 
 <table>
@@ -79,9 +105,13 @@ Der SQL Server-Browserdienst ermittelt die Datenbankinstanzen und kommuniziert 
 </table>
 
 
-## Anforderungen für statische Überwachungsports bei Verwendung benannter Instanzen
+</div>
 
-Bei Verwendung benannter Instanzen in der SQL Server-Konfiguration für Datenbanken mit Unterstützung für Lync Server 2013 konfigurieren Sie statische Ports mit dem SQL Server-Konfigurations-Manager. Nachdem die statischen Ports für jede benannte Instanz zugewiesen wurden, erstellen Sie Ausnahmen für jeden statischen Port in der Firewall.
+<div>
+
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Voraussetzungen für statische Abhör Anschlüsse bei Verwendung benannter Instanzen
+
+Wenn Sie benannte Instanzen in der SQL Server-Konfiguration für Datenbanken verwenden, die lync Server 2013 unterstützen, konfigurieren Sie statische Ports mithilfe des SQL Server-Konfigurations-Managers. Nachdem die statischen Ports jeder benannten Instanz zugewiesen wurden, erstellen Sie Ausnahmen für jeden statischen Port in der Firewall.
 
 
 <table>
@@ -100,14 +130,30 @@ Bei Verwendung benannter Instanzen in der SQL Server-Konfiguration für Datenban
 <tbody>
 <tr class="odd">
 <td><p>TCP</p></td>
-<td><p>Als statisch definiert</p></td>
+<td><p>Statisch definiert</p></td>
 <td><p>Inbound</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## SQL Server-Dokumentation
+</div>
 
-Die Microsoft SQL Server 2012-Dokumentation enthält ausführliche Anweisungen zum Konfigurieren des Firewallzugriffs für Datenbanken. Detaillierte Informationen zu Microsoft SQL Server 2012 finden Sie im Thema "Konfigurieren der Windows-Firewall für den SQL Server-Zugriff" unter [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031).
+<div>
+
+## <a name="sql-server-documentation"></a>SQL Server-Dokumentation
+
+In der Microsoft SQL Server 2012-Dokumentation finden Sie detaillierte Anleitungen zum Konfigurieren des Firewall-Zugriffs für Datenbanken. Details zu Microsoft SQL Server 2012 finden Sie unter "Konfigurieren der Windows-Firewall, um SQL Server-Zugriff [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)zu ermöglichen".
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

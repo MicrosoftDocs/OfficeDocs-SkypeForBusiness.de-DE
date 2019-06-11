@@ -1,75 +1,117 @@
-﻿---
-title: 'Lync Server 2013: View Edge Server settings'
+---
+title: 'Lync Server 2013: Anzeigen von Edgeserver-Einstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn747890(v=OCS.15)
-ms:contentKeyID: 62293615
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)
+ms:contentKeyID: 63969612
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 972a5861af803dbaf66843883595c446345ac29a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847248"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# View Edge Server settings in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-edge-server-settings-in-lync-server-2013"></a>Anzeigen von Edgeserver-Einstellungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-05-20_
 
-General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.
+Allgemeine Edgeserver-Konfigurationen sollten anhand der Daten in der Konfigurationsverwaltungsdatenbank überprüft werden, um sicherzustellen, dass alle Änderungen gemäß den definierten Änderungskontrollverfahren dokumentiert wurden.
 
-Additional checks could include those that are described in the following sections:
+Weitere Prüfungen können die in den folgenden Abschnitten beschriebenen enthalten:
 
-## Verify the Allow and block lists
+<div>
 
-Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.
+## <a name="verify-the-allow-and-block-lists"></a>Überprüfen der Listen "zulassen" und "blockieren"
 
-You can use Windows PowerShell to view the allowed and blocked lists. To review the domains on the Allowed Domains list, run the following Windows PowerShell command:
+Überprüfen Sie die SIP-URI-Listen "zulassen" und "blockieren" für Verbunddomänen, um zu ermitteln, ob aufgelistete Namespaces weiterhin gültig sind.
+
+Sie können Windows PowerShell verwenden, um die zulässigen und blockierten Listen anzuzeigen. Führen Sie den folgenden Windows PowerShell-Befehl aus, um die Domänen in der Liste zugelassene Domänen zu überprüfen:
 
 `Get-CsAllowedDomain`
 
-That command returns information similar to this for the domains on the Allowed Domains list:
+Dieser Befehl gibt ähnliche Informationen für die Domänen in der Liste der zulässigen Domänen zurück:
 
-Identity : contoso.com
+Identität: contoso.com
 
-Domain : contoso.com
+Domäne: contoso.com
 
 ProxyFqdn :
 
-Comment :
+Kommentar
 
-MarkForMonitoring : False
+MarkForMonitoring: falsch
 
-Comment :
+Kommentar
 
-To review the domains on the blocked domains list, use this command:
+Verwenden Sie den folgenden Befehl, um die Domänen in der Liste der blockierten Domänen zu überprüfen:
 
 `Get-CsBlockedDomain`
 
-In turn, you'll receive information such as this for each blocked domain:
+Sie erhalten wiederum Informationen wie diesen für jede blockierte Domäne:
 
-Identity : tailspintoys.com
+Identität: tailspintoys.com
 
-Domain : tailspintoys.com
+Domäne: tailspintoys.com
 
-Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list. For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:
+Mit Windows PowerShell können Sie auch überprüfen, ob Sie eine Verbindung mit den Domänen in der Liste der zulässigen Domänen herstellen können. Mit diesem Befehl wird beispielsweise die Verbindung zwischen Ihrem Edgeserver (dem TargetFqdn) und dem Verbunddomänen-contoso.com überprüft:
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:
+Dieser Befehl überprüft die Verbindung zwischen Ihrem Edgeserver und allen Domänen, die in der Liste der zulässigen Domänen enthalten sind:
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
-## Verify multiple Edge Servers are identical
+</div>
 
-If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.
+<div>
 
-You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.
+## <a name="verify-multiple-edge-servers-are-identical"></a>Überprüfen, ob mehrere Edgeserver identisch sind
 
-## Siehe auch
+Wenn mehrere Edgeserver in einem Lastenausgleichsarray bereitgestellt werden, sollten Sie überprüfen, ob alle Edgeserver im Array auf die gleiche Weise konfiguriert sind.
 
-#### Weitere Ressourcen
+Sie können die Einstellungen für Edgeserver im Detailbereich der lync Server 2013-Erweiterung für das Computerverwaltungs-Snap-in anzeigen.
 
-[Get-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAllowedDomain)  
-[Get-CsBlockedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsBlockedDomain)  
-[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Get-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[Get-CsBlockedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

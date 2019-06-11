@@ -1,47 +1,89 @@
-﻿---
-title: Überprüfen der Koexistenz der Pilotinstallation mit Legacypools
-TOCTitle: Überprüfen der Koexistenz der Pilotinstallation mit Legacypools
-ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204914(v=OCS.15)
-ms:contentKeyID: 49294092
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify pilot pool coexistence with legacy pool
+ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204914(v=OCS.15)
+ms:contentKeyID: 48184209
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f67b113a4619d90345df9858f348d663383066d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Überprüfen der Koexistenz der Pilotinstallation mit Legacypools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-28_
 
-## Überprüfen des Pools im Office Communications Server 2007 R2-Verwaltungstool
+<div>
 
-1.  Öffnen Sie das Verwaltungstool von Office Communications Server 2007 R2.
+## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a>Überprüfen des Pools im Office Communications Server 2007 R2-Verwaltungs Tool
 
-2.  Erweitern Sie den Knoten **Gesamtstruktur** , den Knoten **Standard Edition-Server** oder **Enterprise-Pools** und dann den Pool- oder Servernamen.
+1.  Öffnen Sie das Office Communications Server 2007 R2-Verwaltungstool.
+
+2.  Erweitern Sie den Knoten **Gesamtstruktur** , erweitern Sie den Knoten **Standard Edition-Server** oder **Enterprise-Pools** , und erweitern Sie dann den Pool-oder Servernamen.
 
 3.  Stellen Sie sicher, dass die Office Communications Server 2007 R2-Dienste im Pool ausgeführt werden.
     
-    ![Office Communications Server 2007 R2-Verwaltungskonsole](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2-Verwaltungskonsole")  
+    ![Office Communications Server 2007 R2-Verwaltungskonsole] (images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2-Verwaltungskonsole")  
 
-## Überprüfen des Pilotpools in der Lync Server 2013-Systemsteuerung
+</div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der CsAdministrator-Rolle ist, beim Lync Server 2013-Front-End-Server an.
+<div>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a>Überprüfen des Pilot Pools in der lync Server 2013-Systemsteuerung
 
-3.  Klicken Sie auf **Topologie** .
+1.  Melden Sie sich von einem Benutzerkonto, das ein Mitglied der CsAdministrator-Rolle ist, beim lync Server 2013-Front-End-Server an.
 
-4.  Vergewissern Sie sich, dass die bereitgestellten Server im Pilotpool vorhanden sind.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Klicken Sie auf **Topologie**.
+
+4.  Überprüfen Sie, ob die von Ihnen bereitgestellten Server in Ihrem Pilot Pool vorhanden sind.
     
-    ![Lync Server-Systemsteuerung – Topologie (Seite)](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server-Systemsteuerung – Topologie (Seite)")  
+    ![Seite "Topologie der lync Server-Systemsteuerung"] (images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Seite \"Topologie der lync Server-Systemsteuerung\"")  
 
-## Start der Lync Server 2013-Dienste sicherstellen
+</div>
 
-1.  Öffnen Sie auf dem Lync Server 2013-Front-End-Server in der Gruppe **Verwaltungstools** das Applet **Dienste** .
+<div>
 
-2.  Vergewissern Sie sich, dass die aufgeführten Dienste mit der Liste in der folgenden Abbildung übereinstimmen.
+## <a name="verify-lync-server-2013-services-have-started"></a>Überprüfen, ob die lync Server 2013-Dienste gestartet wurden
+
+1.  Öffnen Sie auf dem lync Server 2013-Front-End-Server das Applet **Dienste** in der Gruppe **Verwaltungs Tools** .
+
+2.  Überprüfen Sie, ob die aufgeführten Dienste der Liste in der folgenden Abbildung entsprechen.
     
-    ![Dienstseite mit gestarteten Lync-Diensten](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Dienstseite mit gestarteten Lync-Diensten")
+    ![Seite "Dienste" mit gestarteten lync-Diensten] (images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Seite \"Dienste\" mit gestarteten lync-Diensten")  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

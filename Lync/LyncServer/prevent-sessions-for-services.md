@@ -1,53 +1,91 @@
-﻿---
-title: Verhindern von Sitzungen für Dienste
-TOCTitle: Verhindern von Sitzungen für Dienste
-ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688049(v=OCS.15)
-ms:contentKeyID: 49890739
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verhindern von Sitzungen für Dienste
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Prevent sessions for services
+ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688049(v=OCS.15)
+ms:contentKeyID: 49733642
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 19f3ed7c788db120782966541bfea9813328d90c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847018"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verhindern von Sitzungen für Dienste
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="prevent-sessions-for-services"></a>Verhindern von Sitzungen für Dienste
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
-Sie können die Microsoft Lync Server 2010-Systemsteuerung dazu verwenden, neue Sitzungen für alle Lync Server 2010-Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Lync Server 2010-Dienst zu verhindern.
+Sie können die Systemsteuerung von Microsoft lync Server 2010 verwenden, um neue Sitzungen für alle lync Server 2010-Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten lync Server 2010-Dienst zu verhindern.
 
-## So verhindern Sie neue Sitzungen für alle Lync Server-Dienste auf einem Computer
+<div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>So verhindern Sie, dass neue Sitzungen für alle lync Server-Dienste auf einem Computer
 
-2.  Öffnen Sie die Lync Server-Systemsteuerung.
-
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status** .
-
-4.  Sortieren oder durchsuchen Sie auf der Seite **Status** die Liste, um den Computer zu ermitteln, auf dem die Dienste ausgeführt werden, für die Sie neue Sitzungen verhindern möchten. Klicken Sie anschließend auf den Computer.
-
-5.  Klicken Sie auf **Aktion** .
-
-6.  Klicken Sie auf **Neue Sitzungen für alle Dienste verhindern** .
-
-## So verhindern Sie neue Sitzungen für einen bestimmten Dienst
-
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
 2.  Öffnen Sie die Lync Server-Systemsteuerung.
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status** .
+3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-4.  Sortieren oder durchsuchen Sie die Liste auf der Seite **Status** , um den Computer zu ermitteln, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten. Klicken Sie anschließend auf den Computer.
+4.  Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem die Dienste ausgeführt werden, für die Sie neue Sitzungen verhindern möchten, und klicken Sie darauf.
 
-5.  Klicken Sie auf **Eigenschaften** .
+5.  Klicken Sie auf **Aktion**.
 
-6.  Sortieren Sie ggf. die Liste der Dienste, und klicken Sie auf den Dienst, für den Sie neue Sitzungen verhindern möchten.
+6.  Klicken Sie auf **neue Sitzungen für alle Dienste verhindern**.
 
-7.  Klicken Sie auf **Aktion** .
+</div>
 
-8.  Klicken Sie auf **Neue Sitzungen für Dienst verhindern** .
+<div>
 
-9.  Klicken Sie auf **Schließen** .
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>So verhindern Sie neue Sitzungen für einen bestimmten Dienst
+
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
+
+2.  Öffnen Sie die Lync Server-Systemsteuerung.
+
+3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
+
+4.  Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten, und klicken Sie darauf.
+
+5.  Klicken Sie auf **Eigenschaften**.
+
+6.  Sortieren Sie die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, für den Sie neue Sitzungen verhindern möchten.
+
+7.  Klicken Sie auf **Aktion**.
+
+8.  Klicken Sie auf **neue Sitzungen für Dienst verhindern**.
+
+9.  Klicken Sie auf **Schließen**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

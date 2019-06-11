@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblChat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblChat
 ms:assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615031(v=OCS.15)
-ms:contentKeyID: 49295188
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615031(v=OCS.15)
+ms:contentKeyID: 48185203
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 620dcb49580f8d19a8f262c22b1005e3cefeac4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847638"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblChat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblchat-in-lync-server-2013"></a>tblChat in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
 
 tblChat enthält alle Chatnachrichten.
 
-### Spalten
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -34,14 +54,14 @@ tblChat enthält alle Chatnachrichten.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>channelId</p></td>
+<td><p>Kanal-Nr</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Knoten-ID</p></td>
+<td><p>Knoten-ID.</p></td>
 </tr>
 <tr class="even">
-<td><p>chatId</p></td>
+<td><p>Chat-Funktion</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Eindeutige fortlaufende Zahl (pro Knoten-ID), die die Reihenfolge der Chatrooms identifiziert, generiert von der tblLastChatId-Tabelle.</p></td>
+<td><p>Eindeutige sequenzielle Nummer (pro Knoten-ID), die die von der tblLastChatId-Tabelle generierte Chatroom-Reihenfolge definiert.</p></td>
 </tr>
 <tr class="odd">
 <td><p>chatDate</p></td>
@@ -49,35 +69,35 @@ tblChat enthält alle Chatnachrichten.
 <td><p>Zeitstempel für die Chatnachricht.</p></td>
 </tr>
 <tr class="even">
-<td><p>userId</p></td>
+<td><p>UserID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID des Bereitstellers.</p></td>
+<td><p>Prinzipal-ID des Plakats.</p></td>
 </tr>
 <tr class="odd">
-<td><p>isAlert</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn es sich bei der Nachricht um eine Fehlermeldung handelt, andernfalls FALSE.</p></td>
+<td><p>isalert</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn es sich bei der Nachricht um eine Warnmeldung handelt. False, wenn dies nicht der Fall ist.</p></td>
 </tr>
 <tr class="even">
-<td><p>content</p></td>
+<td><p>Inhalts</p></td>
 <td><p>nvarchar (max), nicht NULL</p></td>
-<td><p>Chatinhalt (Nur-Text-Version). Der Inhalt ist normalerweise einfacher Text mit den folgenden Ausnahmen:</p>
+<td><p>Chat-Inhalt (die nur-Text-Version). Der Inhalt befindet sich normalerweise im nur-Text-Stil mit den folgenden Ausnahmen:</p>
 <ul>
-<li><p>Dateien sind als Links vom Typ <strong>ma-filelink:</strong> dargestellt.</p></li>
-<li><p>Links sind als HTML-Elemente dargestellt (obwohl der Inhaltstyp nicht als HTML betrachtet werden kann).</p></li>
-<li><p>Textabschnitte sind in einem Format wie &quot;[STORY]....&quot; verschlüsselt.</p></li>
+<li><p>Dateien werden als MA-FileLink: Links dargestellt.</p></li>
+<li><p>Links werden als HTML-Element dargestellt (auch wenn der Inhaltstyp nicht als HTML betrachtet werden kann).</p></li>
+<li><p>Stories werden als "[Story]...."-ähnliches Format codiert.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>rtf</p></td>
-<td><p>varchar(max)</p></td>
-<td><p>Chatinhalt (RTF-Version). Kann NULL sein, wenn vom Client nicht bereitgestellt.</p></td>
+<td><p>RTF</p></td>
+<td><p>varchar (max)</p></td>
+<td><p>Chat-Inhalt (die RTF-Version). Kann NULL sein, wenn der Client Sie nicht bereitstellt.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -92,9 +112,20 @@ tblChat enthält alle Chatnachrichten.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelID, chatD&gt;</p></td>
+<td><p>&lt;Kanal-Nr, Chat&gt;</p></td>
 <td><p>Primärschlüssel</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblADUpdates'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblADUpdates
 ms:assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615033(v=OCS.15)
-ms:contentKeyID: 49295214
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615033(v=OCS.15)
+ms:contentKeyID: 48185227
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f171d8346442f915cd71fb48d51bba80bcfa32ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847655"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblADUpdates in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates in Lync Server 2013
 
-tblADUpdates enthält Änderungen der Active Directory-Domänendienste, die von den nachfolgenden Active Directory-Synchronisierungsschritten noch nicht verarbeitet wurden.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblADUpdates enthält Änderungen an Active Directory-Domänendiensten, die noch nicht von den späteren Active Directory-Synchronisierungs Schritten verarbeitet wurden.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -40,34 +60,45 @@ tblADUpdates enthält Änderungen der Active Directory-Domänendienste, die von 
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384), nicht NULL</p></td>
-<td><p>Distinguished Name (DN) des Objekts.</p></td>
+<td><p>nvarchar (384); nicht NULL</p></td>
+<td><p>Distinguished Name des Objekts.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn sich mindestens ein Attribut des Objekts geändert hat.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn mindestens ein Attribut des Objekts geändert wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn sich die Mitgliedschaft geändert hat.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn die Mitgliedschaft geändert wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>bit, nicht NULL</p></td>
+<td><p>Bit, nicht NULL</p></td>
 <td><p>Nicht verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>TRUE, wenn das Objekt gelöscht wurde.</p></td>
+<td><p>Bit, nicht NULL</p></td>
+<td><p>"True", wenn das Objekt gelöscht wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lastUpdated</p></td>
-<td><p>datetime, nicht NULL</p></td>
-<td><p>Zeitstempel für den Zeitpunkt, an dem die Zeile eingefügt wurde.</p></td>
+<td><p>DateTime, nicht NULL</p></td>
+<td><p>Zeitstempel, wann die Zeile eingefügt wurde.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

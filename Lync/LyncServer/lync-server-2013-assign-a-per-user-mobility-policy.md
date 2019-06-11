@@ -1,48 +1,55 @@
-﻿---
-title: Zuweisen einer Mobilitätsrichtlinie auf Benutzerebene
-TOCTitle: Zuweisen einer Mobilitätsrichtlinie auf Benutzerebene
-ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721902(v=OCS.15)
-ms:contentKeyID: 49890965
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Zuweisen einer Mobilitätsrichtlinie auf Benutzerebene
+title: 'Lync Server 2013: Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user mobility policy
+ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721902(v=OCS.15)
+ms:contentKeyID: 49733836
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e79a9b76ac4774bbbac7772bef19902d6d70f15a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847849"
+---
+# <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer in lync Server 2013
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutzerkontos, die Sie in der Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell konfigurieren können.
+Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutzerkontos, das Sie in der lync Server-Systemsteuerung oder in der lync Server-Verwaltungsshell konfigurieren können.
 
-## So weisen Sie eine benutzerbasierte Mobilitätsrichtlinie in der Lync Server-Systemsteuerung zu
+## <a name="to-assign-a-per-user-mobility-policy-with-lync-server-control-panel"></a>So weisen Sie eine Mobilitätsrichtlinie für einzelne Benutzer mit der lync Server-Systemsteuerung zu
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Verwenden Sie eine der folgenden Methoden, um nach einem Benutzer zu suchen:
     
-      - Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+      - Geben Sie im Feld **Benutzer suchen** den vollständigen oder teilweisen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein und klicken Sie dann auf **Suchen**.
     
       - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**, verwenden Sie das Dialogfeld **Öffnen**, um die Abfrage abzurufen (eine USF-Datei), und klicken Sie dann auf **Suchen**.
 
-5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:
+5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse einzuschränken:
     
     1.  Klicken Sie auf **Filter hinzufügen**.
     
-    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
+    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie über die Tastatur eintippen oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
     
     3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (beispielsweise **Gleich** oder **Ungleich**).
     
-    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
+    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -51,57 +58,56 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!TIP]
-    > Wenn Sie dieselbe benutzerbasierte Mobilitätsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
+    > [!TIP]  
+    > Wenn dieselbe Mobilitätsrichtlinie für einzelne Benutzer für mehrere Benutzer gelten soll, wählen Sie in den Suchergebnissen mehrere Benutzer aus, klicken Sie dann auf <STRONG>Aktionen</STRONG>, und klicken Sie dann auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
 
-7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Mobilitätsrichtlinie** eine der folgenden Aktionen aus:
+7.  Führen Sie in **Richtlinien zuweisen**unter **Mobilitätsrichtlinie**eine der folgenden Aktionen aus:
     
 
-    > [!NOTE]
-    > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > [!NOTE]  
+    > Da es mehrere Richtlinien gibt, die Sie unter <STRONG>Zuweisen von Richtlinien</STRONG>konfigurieren können, <STRONG> &lt;&gt; </STRONG> ist für jede Richtlinie im Dialogfeld standardmäßig beibehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Wählen Sie **\<Automatisch\>**, um eine automatische Auswahl der globalen Richtlinie oder, falls definiert, der Richtlinie auf Standortebene durch Lync Server 2013 zuzulassen.
+      - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Websiteebene auswählen kann.
     
-      - Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf den Namen einer benutzerbasierten Mobilitätsrichtlinie, die Sie zuvor definiert haben.
+      - Klicken Sie auf den Namen der benutzerdefinierten Mobilitätsrichtlinie, die Sie zuvor auf der Seite **Mobilitätsrichtlinie** definiert haben.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## Zuweisen einer benutzerbasierten Mobilitätsrichtlinie mithilfe der Lync Server-Verwaltungsshell-Cmdlets
+## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer mithilfe von Windows PowerShell-Cmdlets
 
-Benutzerbasierte Mobilitätsrichtlinien können Sie mit der Lync Server-Verwaltungsshell und dem **Grant-CsMobilityPolicy**-Cmdlet zuweisen. Dieses Cmdlet können Sie über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Sie können mobilitätsrichtlinien für einzelne Benutzer mithilfe von Windows PowerShell und dem Cmdlet **Grant-CsMobilityPolicy** zuweisen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-## So weisen Sie einem einzelnen Benutzer eine benutzerbasierte Mobilitätsrichtlinie zu
+## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Mobilitätsrichtlinie pro Benutzer zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy dem Benutzer Ken Myer zugewiesen.
+  - Mit dem folgenden Befehl wird die benutzerspezifische mobilitätsrichtlinien-RedmondMobilityPolicy dem Benutzer Ken Myers zugewiesen.
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName "RedmondMobilityPolicy"
 
-## So weisen Sie mehreren Benutzern eine benutzerbasierte Mobilitätsrichtlinie zu
+## <a name="to-assign-a-per-user-mobility-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Mobilitätsrichtlinie für einzelne Benutzer zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy allen Benutzern zugewiesen, denen aktuell die Richtlinie NorthAmericaMobilityPolicy zugewiesen ist. Ausführliche Informationen zu dem in diesem Befehl verwendeten Filter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - Mit dem folgenden Befehl werden die benutzerbezogenen mobilitätsrichtlinien RedmondMobilityPolicy allen Benutzern zugewiesen, denen zurzeit die Richtlinien NorthAmericaMobilityPolicy zugewiesen sind. Details zu dem in diesem Befehl verwendeten Filter Parameter finden Sie unter [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
-## So heben Sie die Zuweisung einer benutzerbasierten Mobilitätsrichtlinie auf
+## <a name="to-unassign-a-per-user-mobility-policy"></a>So heben Sie die Zuweisung einer Mobilitätsrichtlinie für einzelne Benutzer auf
 
-  - Mit dem folgenden Befehl wird jede benutzerbasierte Mobilitätsrichtlinie, die zuvor Ken Myer zugewiesen wurde, aufgehoben. Anschließend wird Ken Myer automatisch mithilfe der globalen Richtlinie oder, soweit vorhanden, mit seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
+  - Mit dem folgenden Befehl werden alle benutzerbezogenen mobilitätsrichtlinien, die Ken Myers zuvor zugewiesen wurden, aufheben. Anschließend wird Ken Myer automatisch mithilfe der globalen Richtlinie oder, soweit vorhanden, mit seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
+Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/hh690038\(v=ocs.15\)).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
-#### Aufgaben
 
 [Konfigurieren der Mobilitätsrichtlinie in Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
 

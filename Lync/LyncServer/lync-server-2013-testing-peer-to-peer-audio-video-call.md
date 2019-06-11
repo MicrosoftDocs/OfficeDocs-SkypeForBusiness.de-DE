@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing peer to peer audio/video call'
+---
+title: 'Lync Server 2013: Testen von Peer-to-Peer-Audio/Video-Anruf'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn743835(v=OCS.15)
-ms:contentKeyID: 62279231
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
+ms:contentKeyID: 63969627
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847481"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing peer to peer audio/video call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Testen des Peer-to-Peer-Audio/Video-Anrufs in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 
 <table>
@@ -23,112 +43,138 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Täglich</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsP2PAV-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation. To test this scenario, the cmdlet starts off by logging on the two users to Lync Server. Assuming that the two logons succeed, the first user then invites the second user to join an A/V call. The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.
+## <a name="description"></a>Beschreibung
 
-Test-CsP2PAV does not actually conduct an A/V call. Multimedia information is not exchanged between the test users. Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.
+Test-CsP2PAV wird verwendet, um zu ermitteln, ob ein paar Testbenutzer an einer Peer-to-Peer-a/V-Unterhaltung teilnehmen können. Um dieses Szenario zu testen, wird das Cmdlet gestartet, indem die beiden Benutzer zu lync Server angemeldet werden. Wenn die beiden Anmeldungen erfolgreich sind, lädt der erste Benutzer den zweiten Benutzer ein, an einem A/V-Anruf teilzunehmen. Der zweite Benutzer akzeptiert den Anruf, die Verbindung zwischen den beiden Benutzern wird getestet, und der Anruf wird beendet, und die Testbenutzer werden vom System abgemeldet.
 
-For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsP2PAV) cmdlet.
+Test-CsP2PAV führt tatsächlich keinen A/V-Anruf durch. Es werden keine Multimedia-Informationen zwischen den Testbenutzern ausgetauscht. Stattdessen überprüft das Cmdlet lediglich, ob die entsprechenden Verbindungen hergestellt werden können und dass die beiden Benutzer einen solchen Anruf durchführen können.
 
-## Running the test
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) .
 
-The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ausführen des Tests
+
+Das Cmdlet "Test-CsP2PAV" kann mit einem Paar vorkonfigurierter Testkonten ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder der Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben. Beispiel:
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:
+Damit diese Überprüfung mit tatsächlichen Benutzerkonten ausgeführt werden kann, müssen Sie für jedes Konto zwei Anmeldeinformationsobjekte für lync Server (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsP2PAV aufrufen:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-## Determining success or failure
+</div>
 
-If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
 
-Result : Success
+Wenn die beiden Testbenutzer einen Peer-to-Peer-a/V-Anruf durchführen können, erhalten Sie eine ähnliche Ausgabe wie die Ergebniseigenschaft, die als erfolgreich markiert wurde **:**
 
-Latency : 00:00:06.8630376
+TargetFqdn: ATL-CS-001.litwareinc.com
 
-Error :
+Ergebnis: Erfolg
 
-Diagnosis :
+Latenz: 00:00:06.8630376
 
-If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Fehler
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Diagnose
 
-Result : Failure
+Wenn die Testbenutzer den Anruf nicht abschließen können, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
 
-Latency : 00:00:00
+TargetFqdn: ATL-CS-001.litwareinc.com
 
-Error : 480, Temporarily Unavailable
+Ergebnis: Fehler
 
-Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed
+Latenz: 00:00:00
 
-to route to Exchange Server
+Fehler: 480, vorübergehend nicht verfügbar
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Diagnose: errorCode = 15030, Quelle = ATL-CS-001. "litwareinc. com, Reason = fehlgeschlagen
 
-For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted. This error message typically indicates a problem the configuration of Exchange Unified Messaging.
+So leiten Sie zu Exchange Server weiter
 
-If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:
+Microsoft. RTC. Signalisierungs-DiagnosticHeader
 
-Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
+In der vorherigen Ausgabe wird beispielsweise angegeben, dass der Test fehlgeschlagen ist, weil der Microsoft Exchange-Server nicht kontaktiert werden konnte. Diese Fehlermeldung weist in der Regel auf ein Problem bei der Konfiguration von Exchange Unified Messaging hin.
 
-When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server. For example, suppose that your test failed with the following Diagnosis:
+Wenn Test-CsP2PAV fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
 
-ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request
+Test-CsP2PAV-TargetFqdn "ATL-CS-001.litwareinc.com"-Verbose
 
-If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsP2PAV eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, während Sie die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Nehmen Sie beispielsweise an, dass Ihr Test mit der folgenden Diagnose fehlgeschlagen ist:
 
-VERBOSE: 'Register' activity started.
+ErrorCode = 6003, Source = ATL-CS-001. "litwareinc. com; Reason = nicht unterstützte Dialog Anfrage
 
-Sending Registration request:
+Wenn Sie Test-CsP2PAV erneut ausführen und den Verbose-Parameter hinzufügen, erhalten Sie eine Ausgabe, die der folgenden ähnelt:
 
-Target Fqdn = atl-cs-011.litwareinc.com
+Ausführlich: die Aktivität "registrieren" wurde gestartet.
 
-User Sip Address = sip:kenmyer@litwareinc.com
+Registrierungsanfrage wird gesendet:
+
+Ziel-FQDN = ATL-CS-011.litwareinc.com
+
+SIP-Adresse des Benutzers = SIP:kenmyer@litwareinc.com
 
 Registrar Port = 5062.
 
-Auth Type 'IWA' is selected.
+Auth-Typ "IWA" ist ausgewählt.
 
-An exception 'The endpoint was unable to register. See the ErrorCode for specific reason.' occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.
+Eine Ausnahme "der Endpunkt konnte nicht registriert werden. Lesen Sie den ErrorCode aus bestimmten Gründen. während des Workflows Microsoft. RTC. SyntheticTransactions. Workflows. STP2PAVWorkflow-Ausführung aufgetreten.
 
-Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified. In turn, that caused the test to fail.
+Es ist zwar nicht unmittelbar klar, ob Sie die Ausgabe sorgfältig untersuchen, doch wird ein falscher Registrierungs Port (Port 5062) angegeben. Dies führte wiederum dazu, dass der Test fehlschlug.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsP2PAV might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Nachfolgend finden Sie einige häufige Gründe, warum Test-CsP2PAV möglicherweise fehlschlägt:
+
+  - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     
-    Get-CsUser "sip:kenmyer@litwareinc.com"
+    Get-CsUser "SIP:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Das Benutzerkonto ist gültig, das Konto ist derzeit aber für lync Server nicht aktiviert. Führen Sie einen Befehl ähnlich der folgenden aus, um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer zurzeit nicht für lync Server aktiviert ist.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

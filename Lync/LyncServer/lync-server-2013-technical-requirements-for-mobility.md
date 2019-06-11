@@ -1,143 +1,221 @@
-﻿---
-title: 'Lync Server 2013: Technische Anforderungen für die Mobilität'
-TOCTitle: Technische Anforderungen für die Mobilität
-ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690030(v=OCS.15)
-ms:contentKeyID: 49294593
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Technische Anforderungen für die Mobilität'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for mobility
+ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
+ms:contentKeyID: 48184679
+ms.date: 07/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847597"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Technische Anforderungen für die Mobilität in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Technische Anforderungen für die Mobilität in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Für mobile Benutzer müssen in den mobilen Anwendungen verschiedene Szenarien unterstützt werden, die eine besondere Planung erfordern. Ein Benutzer kann beispielsweise eine mobile Anwendung von außerhalb des Arbeitsplatzes aufrufen, indem er über das 3G-Netzwerk eine Verbindung herstellt, und dann beim Eintreffen am Arbeitsplatz wieder zum WLAN-Netzwerk wechseln. Beim Verlassen des Gebäudes kehrt er dann wieder zum 3G-Netzwerk zurück. Sie müssen die Umgebung entsprechend planen, um solche Netzwerkübergänge zu unterstützen und ein konsistentes Benutzererlebnis zu ermöglichen. In diesem Abschnitt werden die Infrastrukturanforderungen beschrieben, die Sie erfüllen müssen, um mobile Anwendungen und die automatische Ermittlung von Mobilitätsressourcen zu unterstützen.
+Mobile Benutzer stoßen auf verschiedene Szenarien für mobile Anwendungen, die spezielle Planung erfordern. So kann beispielsweise jemand eine mobile Anwendung während einer Abwesenheitszeit verwenden, indem er über das 3G-Netzwerk eine Verbindung herstellt und dann bei der Arbeit zum Firmen-Wi-Fi-Netzwerk wechselt und dann zurück zum 3G wechselt, wenn man das Gebäude verlässt. Sie müssen Ihre Umgebung planen, um solche Netzwerk Übergänge zu unterstützen und eine konsistente Benutzererfahrung zu gewährleisten. In diesem Abschnitt werden die Infrastrukturanforderungen beschrieben, die Sie zur Unterstützung mobiler Anwendungen und zur automatischen Ermittlung von mobilitätsressourcen benötigen.
+
+<div>
 
 
-> [!NOTE]
-> Obwohl mobile Anwendungen auch eine Verbindung mit anderen Lync Server 2013-Diensten herstellen können, gilt die Anforderung, alle Webanforderungen mobiler Anwendungen an denselben externen Web-FQDN (vollqualifizierten Domänennamen) zu senden, nur für den Lync Server 2013-Mobilitätsdienst. Für andere Mobilitätsdienste ist diese Konfiguration nicht erforderlich.
-
-
-
-Die Anforderungen an die Cookieaffinität für Hardwaregeräte zum Lastenausgleich wurde erheblich reduziert. Außerdem ersetzen Sie die TCP (Transmission Control-Protokoll)-Affinität, wenn Sie die in Lync Server 2013 enthaltene Anwendung Lync Mobile nutzen. Die Cookieaffinität kann weiterhin verwendet werden, für den Webdienst ist sie allerdings nicht mehr erforderlich.
-
-
-> [!IMPORTANT]
-> Der gesamte Mobilitätsdienst-Datenverkehr wird durch den Reverseproxy geleitet. Hierbei spielt es keine Rolle, ob ein externer oder interner Ursprungspunkt vorliegt. Bei der Verwendung eines einzelnen oder einer Farm an Reverseproxys oder eines Geräts, das die Funktion eines Reverseproxys bereitstellt, kann ein Problem auftreten, bei dem der interne Datenverkehr eine Schnittstelle verlässt und unverzüglich versucht, an derselben Schnittstelle wieder einzugehen. Dies führt häufig zu einer Sicherheitsregelverletzung, die als "TCP-Paketspoofing" oder einfach als "Spoofing" bezeichnet wird. <EM>Hairpinning</EM> (das Verlassen und sofortige Wiedereingehen eines Pakets oder einer Paketserie) muss erlaubt sein, damit der Mobilitätsdienst funktioniert. Eine Lösung für dieses Problem besteht in der Verwendung eines Reverseproxys, der von der Firewall getrennt ist (die Regel zum Verhindern von Spoofing sollte an der Firewall immer erzwungen werden). Ein Hairpin kann dann problemlos an der externen Schnittstelle des Reverseproxys statt an der externen Schnittstelle der Firewall erfolgen. Sie erkennen das Spoofing an der Firewall und lockern die Regel am Reverseproxy; dadurch wird der von Mobilitätsdienst erforderte Hairpin zugelassen.<BR>Sie sollten demnach die DNS (Domain Name System)-Host- oder CNAME-Einträge verwenden, um den Reverseproxy für das Hairpin-Verhalten zu definieren (nicht die Firewall), sofern dies möglich ist.
+> [!NOTE]  
+> Obwohl mobile Anwendungen auch eine Verbindung mit anderen lync Server 2013-Diensten herstellen können, gilt die Anforderung zum Senden aller Webanforderungen für mobile Anwendungen an denselben externen Web-vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) nur für den lync Server 2013-Mobilitätsdienst. Für andere Mobilitätsdienste ist diese Konfiguration nicht erforderlich.
 
 
 
-Lync Server 2013 unterstützt Mobilitätsdienste für Lync 2010 Mobile und Lync 2013 Mobile-Clients. Beide Clients verwenden den Lync Server 2013-AutoErmittlungsdienst, um den Mobilitätseinstiegspunkt zu finden; die verwendeten Mobilitätsdienste unterscheiden sich jedoch. Lync 2010 Mobile verwendet den Mobilitätsdienst *Mcx* , der mit dem kumulativen Update für Lync Server 2010: November 2011 eingeführt wurde. Lync 2013 Mobile-Clients verwenden die Unified Communications Web-API oder *UCWA* als Mobilitätsdienstanbieter.
+</div>
 
-## Interne und externe DNS-Konfiguration
+Die Anforderung für die Cookie-Affinität in Hardwarelastenausgleichs wird drastisch reduziert, und Sie ersetzen die TCP-Affinität (Transmission Control Protocol), wenn Sie das mit lync Server 2013 gelieferte lync Mobile verwenden. Die Cookie-Affinität kann weiterhin verwendet werden, die Webdienste werden aber nicht mehr benötigt.
 
-Der Mcx-Mobilitätsdienst (eingeführt mit dem kumulativen Update für Lync Server 2010: November 2011) und UCWA (eingeführt mit den kumulativen Updates für Lync Server 2013: Februar 2013) verwenden DNS auf die gleiche Weise.
-
-Wenn Sie die automatische Ermittlung verwenden, suchen mobile Geräte über das DNS nach Ressourcen. Bei der DNS-Suche wird zuerst versucht, eine Verbindung mit dem FQDN herzustellen, der mit dem internen DNS-Eintrag verknüpft ist (lyncdiscoverinternal.*\<internal domain name\>*). Wenn mit dem internen DNS-Eintrag keine Verbindung hergestellt werden kann, wird versucht, mit dem externen DNS-Eintrag (lyncdiscover.*\<sipdomain\>*) eine Verbindung herzustellen. Ein mobiles Gerät, das sich im Netzwerk befindet, stellt eine Verbindung mit der internen URL des AutoErmittlungsdiensts her. Ein mobiles Gerät, das sich außerhalb des Netzwerks befindet, stellt eine Verbindung mit der externen URL des AutoErmittlungsdiensts her. Externe AutoErmittlungsanforderungen werden über den Reverseproxy geleitet. Der Lync Server 2013-AutoErmittlungsdienst gibt alle Webdienste-URLs für den Home-Pool des Benutzers zurück, einschließlich der Mobilitätsdienst-URLs (Mcx und UCWA). Jedoch ist sowohl die interne Mobilitätsdienst-URL als auch die externe Mobilitätsdienst-URL dem externen Webdienste-FQDN zugeordnet. Daher stellt das mobile Gerät (egal, ob es sich innerhalb oder außerhalb des Netzwerks befindet) immer extern über den Reverseproxy eine Verbindung mit dem Lync Server 2013-Mobilitätsdienst her.
+<div>
 
 
-> [!NOTE]
-> Es ist zu beachten, dass Ihre Bereitstellung aus mehreren unterschiedlichen Namespaces für die interne und externe Verwendung bestehen kann. Ihr SIP-Domänenname kann vom Domänennamen für die interne Bereitstellung abweichen. Beispielsweise kann Ihre SIP-Domäne <STRONG>contoso.com</STRONG> und Ihre interne Bereitstellung <STRONG>contoso.net</STRONG> lauten. Benutzer, die sich bei Lync Server anmelden, verwenden den SIP-Domänennamen, wie zum Beispiel <STRONG>john@contoso.com</STRONG>. Beim Zugriff auf externe Webdienste (im Topologie-Generator als <STRONG>Externe Webdienste</STRONG> definiert), stimmen Domänenname und SIP-Domänenname überein, wie im DNS definiert. Beim Zugriff auf interne Webdienste (in Topologie-Generator als <STRONG>interne Webdienste</STRONG> definiert) ist der Standardname des internen Webdiensts der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) eines Front-End-Servers, Front-End-Pools, Directors oder Directorpools. Sie haben die Möglichkeit, den Namen des internen Webdiensts außer Kraft zu setzen. Sie sollten den internen Domänennamen (und nicht den SIP-Domänennamen) für interne Webdienste verwenden und den außer Kraft gesetzten Namen im DNS-A-Eintrag (oder für IPv6 AAAA) für den Host reflektieren. Der standardmäßige FQDN für interne Webdienste lautet zum Beispiel <STRONG>pool01.contoso.net</STRONG> und der außer Kraft gesetzte FQDN für interne Webdienste <STRONG>webpool.contoso.net</STRONG>. Wenn Sie die Webdienste auf diese Weise definieren, können Sie sicherstellen, dass der interne und externe Ort der Dienste berücksichtigt wird und nicht der des Benutzers, der diese Dienste in Anspruch nimmt.<BR>Da die Webdienste jedoch im Topologie-Generator definiert sind und der Name der internen Webdienste außer Kraft gesetzt werden kann, können Sie die internen Webdienste mit jedem beliebigen Domänennamen (einschließlich des SIP-Domänennamens) definieren, sofern der resultierende Name des Webdiensts, das zur Validierung verwendete Zertifikat und die definierenden DNS-Einträge konsistent sind. Letztendlich wird die Auflösung des Namens in die IP-Adresse durch die DNS-Einträge und einen konsistenten Namespace bestimmt.<BR>Für dieses Thema und seine Beispiele wird der interne Domänenname verwendet, um die Topologie und die DNS-Definitionen zu illustrieren.
+> [!IMPORTANT]  
+> Der gesamte Mobilitätsdienst Verkehr durchläuft den Reverse-Proxy, unabhängig davon, wo sich der Ursprungspunkt befindet – intern oder extern. Im Fall eines einzelnen Reverse-Proxys oder einer Farm von Reverse-Proxies oder eines Geräts, das die Reverse-Proxy-Funktion bereitstellt, kann ein Problem auftreten, wenn der interne Datenverkehr über eine Schnittstelle egressing und versucht, sofort auf derselben Schnittstelle zu ingresen. Dies führt häufig zu einer Sicherheitsregel Verletzung, die als TCP-Paket-Spoofing oder nur Spoofing bezeichnet wird. <EM>Haar fixieren</EM> (das Ausgangs-und unmittelbare Eindringen eines Pakets oder einer Reihe von Paketen) muss zulässig sein, damit die Mobilität funktionieren kann. Eine Möglichkeit zur Behebung dieses Problems besteht in der Verwendung eines umgekehrten Proxys, der von der Firewall getrennt ist (die Spoofing-Präventions Regel sollte immer für Sicherheitszwecke in der Firewall erzwungen werden). Die Haarnadel kann an der externen Schnittstelle des Reverse-Proxy statt der externen Firewall-Schnittstelle erfolgen. Sie erkennen die Spoofing-Funktion bei der Firewall und entspannen die Regel beim Reverse-Proxy, wodurch die Haarnadel für Mobilität erforderlich ist.<BR>Verwenden Sie den DNS-Host (Domain Name System) oder CNAME-Einträge, um den Reverseproxy für das Haarnadel-Verhalten (nicht für die Firewall) zu definieren, wenn dies überhaupt möglich ist.
 
 
 
-Das folgende Diagramm veranschaulicht den Ablauf der Webanforderungen mobiler Anwendungen für den Mobilitätsdienst und den AutoErmittlungsdienst bei der Verwendung einer internen und externen DNS-Konfiguration.
+</div>
 
-**Mobilitätsdienstablauf mit AutoErmittlung**
+Lync Server 2013 unterstützt Mobilitätsdienste für Mobile lync 2010 Mobile-und lync 2013-Clients. Beide Clients verwenden den lync Server 2013-AutoErmittlungsdienst, um den Mobilitäts Einstiegspunkt zu finden, unterscheiden sich jedoch von dem von Ihnen verwendeten Mobilitätsdienst. Lync 2010 Mobile verwendet den Mobilitätsdienst, der als *MCX*bekannt ist und mit dem kumulativen Update für lync Server 2010: November 2011 eingeführt wurde. Mobile lync 2013-Clients verwenden die Unified Communications Web-API oder *UCWA*als Mobilitätsdienst Anbieter.
 
-![Fluss der Mobilitätsanforderung](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "Fluss der Mobilitätsanforderung")
+<div>
+
+## <a name="internal-and-external-dns-configuration"></a>Interne und externe DNS-Konfiguration
+
+Die Mobilitätsdienste MCX (mit dem kumulativen Update für lync Server 2010: November 2011) und UCWA (eingeführt in den kumulativen Updates für lync Server 2013: Februar 2013) verwenden DNS auf die gleiche Weise.
+
+Wenn Sie die automatische Ermittlung verwenden, verwenden mobile Geräte DNS zum Auffinden von Ressourcen. Während des DNS-Lookups wird zuerst eine Verbindung mit dem FQDN versucht, der dem internen DNS-Eintrag zugeordnet ist (\< lyncdiscoverinternal. Interner Domänenname\>). Wenn eine Verbindung nicht mithilfe des internen DNS-Eintrags hergestellt werden kann, wird eine Verbindung mithilfe des externen DNS-Eintrags versucht\< (lyncdiscover. sipdomain\>). Ein mobiles Gerät, das für das Netzwerk intern ist, stellt eine Verbindung mit der internen AutoErmittlungsdienst-URL her, und ein mobiles Gerät, das sich außerhalb des Netzwerks befindet, stellt eine Verbindung mit der URL des externen AutoErmittlungsdiensts her. Externe Auto Ermittlungsanforderungen durchlaufen den Reverse-Proxy. Der lync Server 2013-AutoErmittlungsdienst gibt alle Webdienste-URLs für den privaten Pool des Benutzers zurück, einschließlich der Mobility Service-URLs (MCX und UCWA). Die URL für den internen Mobilitätsdienst und die URL für den externen Mobilitätsdienst sind jedoch mit dem FQDN der externen Webdienste verbunden. Unabhängig davon, ob ein mobiles Gerät intern oder extern für das Netzwerk ist, stellt das Gerät daher immer extern über den Reverse-Proxy eine Verbindung mit dem lync Server 2013-Mobilitätsdienst her.
+
+<div>
 
 
-> [!NOTE]
-> Das Diagram veranschaulicht generische Webdienste. Ein virtuelles Verzeichnis mit dem Namen "Mobility" zeigt die Mobilitätsdienste Mcx und/oder UCWA. Wenn Sie die kumulativen Updates für Lync Server&nbsp;2013: Februar&nbsp;2013 nicht installiert haben, ist das virtuelle Verzeichnis "Ucwa" in Ihren internen und externen Webdiensten möglicherweise nicht definiert. Das virtuelle Verzeichnis "Autodiscover" ist definitiv und das virtuelle Verzeichnis "Mcx" vielleicht vorhanden.<BR>Die Funktionsweise der AutoErmittlung und der Ermittlung von Diensten ist unabhängig von der bereitgestellten Mobilitätsdiensttechnologie gleich.
+> [!NOTE]  
+> Es ist wichtig zu wissen, dass Ihre Bereitstellung aus mehreren unterschiedlichen Namespaces für die interne und externe Verwendung bestehen kann. Ihr SIP-Domänenname kann sich vom internen Bereitstellungs Domänennamen unterscheiden. Beispielsweise kann Ihre SIP-Domäne <STRONG>contoso.com</STRONG>sein, während ihre interne Bereitstellung möglicherweise <STRONG>contoso.net</STRONG>ist. Für Benutzer, die sich bei lync Server anmelden, wird der SIP-Domänenname verwendet, beispielsweise <STRONG>John@contoso.com</STRONG>. Bei der Adressierung der externen Webdienste (definiert im Topologie-Generator als <STRONG>externe</STRONG>Webdienste) sind der Domänenname und der SIP-Domänenname konsistent, wie in DNS definiert. Beim Adressieren der internen Webdienste (definiert im Topologie-Generator als <STRONG>interne</STRONG>Webdienste) ist der Standardname der internen Webdienste der FQDN des Front-End-Servers, des Front-End-Pools, des Directors oder des Director-Pools. Sie haben die Möglichkeit, den internen Webdienste-Namen zu überschreiben. Sie sollten den internen Domänennamen (und nicht den SIP-Domänennamen) für interne Webdienste verwenden und den DNS-Host a (oder, für IPv6, AAAA)-Eintrag definieren, um den überschriebenen Namen wiederzugeben. So kann beispielsweise der standardmäßige interne Webdienste-FQDN <STRONG>pool01.contoso.net</STRONG>sein. Ein überschriebner Interner FQDN für Webdienste kann <STRONG>webpool.contoso.net</STRONG>sein. Wenn Sie die Webdienste auf diese Weise definieren, wird sichergestellt, dass die interne und externe Lokalität der Dienste – und nicht die Lokalität des Benutzers, der Sie verwendet – beobachtet wird.<BR>Da die Webdienste jedoch im Topologie-Generator definiert sind und der interne Webdienste-Name überschrieben werden kann, solange der resultierende Webdienste-Name, das Zertifikat, das ihn überprüft, und die DNS-Einträge, die ihn definieren, konsistent sind, können Sie die interne Webdienste mit einem beliebigen Domänennamen, einschließlich des SIP-Domänennamens, den Sie wünschen. Letztendlich wird die Auflösung für den Namen der IP-Adresse von DNS-Hosteinträgen und einem konsistenten Namespace bestimmt.<BR>Für die Zwecke dieses Themas und der Beispiele wird der interne Domänenname verwendet, um die Topologie und die DNS-Definitionen zu veranschaulichen.
 
 
 
-Die internen und externen Web-FQDNs müssen einige Voraussetzungen erfüllen, um mobile Benutzer sowohl von innerhalb als auch außerhalb des Firmennetzwerks zu unterstützen. Zudem müssen möglicherweise andere Anforderungen erfüllt werden, je nachdem, welche Features implementiert werden sollen:
+</div>
 
-  - Neue DNS-, CNAME- oder A-Einträge (Host für IPV6 AAAA) für die automatische Ermittlung
+Das folgende Diagramm veranschaulicht den Fluss von Webanforderungen für mobile Webanwendungen für den Mobilitätsdienst und für den AutoErmittlungsdienst, wenn eine interne und externe DNS-Konfiguration verwendet wird.
+
+**Mobilitätsdienst Fluss mithilfe der AutoErmittlung**
+
+![cdb96424-96f2-4abf-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
+
+<div>
+
+
+> [!NOTE]  
+> Das Diagramm veranschaulicht generische Webdienste. Ein virtuelles Verzeichnis mit dem Namen Mobility zeigt die Mobilitätsdienste MCX und/oder UCWA. Wenn Sie die kumulierten Updates für lync Server 2013: Februar 2013 nicht angewendet haben, ist es möglich, dass Sie das virtuelle Verzeichnis Ucwa in ihren internen und externen Webdiensten definiert haben. Sie verfügen über ein virtuelles Verzeichnis AutoErmittlung, und Sie haben möglicherweise ein virtuelles Verzeichnis MCX.<BR>AutoErmittlung und die Ermittlung von Diensten funktionieren auf die gleiche Weise, unabhängig von der von Ihnen bereitgestellten Mobilitätsdienst Technologie.
+
+
+
+</div>
+
+Um mobile Benutzer sowohl innerhalb als auch außerhalb des Unternehmensnetzwerks zu unterstützen, müssen Ihre internen und externen Web-FQDNs einige Voraussetzungen erfüllen. Darüber hinaus müssen Sie möglicherweise andere Anforderungen erfüllen, abhängig von den Features, die Sie implementieren möchten:
+
+  - Neue DNS-, CNAME-oder a (Host-, wenn IPv6-, AAAA-) Einträge für die automatische Erkennung.
 
   - Neue Firewallregel, wenn Pushbenachrichtigungen über das WLAN-Netzwerk unterstützt werden sollen
 
-  - Alternative Antragstellernamen für interne Serverzertifikate und Reverseproxyzertifikate für die automatische Ermittlung
+  - Sie können alternative Namen für interne Serverzertifikate und Reverse-Proxy Zertifikate für die automatische Ermittlung untersuchen.
 
-  - Änderungen an der Konfiguration des Front-End-Server-Hardwaregeräts zum Lastenausgleich für die Quellaffinität
+  - Die Konfiguration des Front-End-Server-Hardwarelastenausgleichs ändert die Quell Affinität.
 
-Die Topologie muss die folgenden Anforderungen erfüllen, um den Mobilitätsdienst und AutoErmittlungsdienst zu unterstützen:
+Ihre Topologie muss die folgenden Voraussetzungen erfüllen, um den Mobilitätsdienst und den AutoErmittlungsdienst zu unterstützen:
 
-  - Der interne Front-End-Pool-Web-FQDN muss sich vom externen Front-End-Pool-Web-FQDN unterscheiden.
+  - Der interne Web-FQDN des Front-End-Pools muss sich vom externen Web-FQDN des Front-End-Pools unterscheiden.
 
-  - Auf den internen Web-FQDN darf nur von innerhalb des Firmennetzwerks zugegriffen werden. Zudem darf der interne Web-FQDN nur in eine Firmennetzwerkadresse aufgelöst werden.
+  - Der interne Web-FQDN muss nur im Unternehmensnetzwerk aufgelöst werden und darauf zugreifen können.
 
-  - Auf den externen Web-FQDN darf nur vom Internet aus zugegriffen werden. Zudem darf der externe Web-FQDN nur in eine Internetadresse aufgelöst werden.
+  - Der FQDN des externen Webdiensts muss nur im Internet aufgelöst werden und darauf zugreifen können.
 
-  - Für Benutzer, die sich innerhalb des Firmennetzwerks befinden, muss die Mobilitätsdienst-URL an den externen Web-FQDN adressiert werden. Diese Anforderung gilt für den Mobilitätsdienst und betrifft nur diese URL.
+  - Für einen Benutzer, der sich im Unternehmensnetzwerk befindet, muss die URL des mobilitätsdiensts an den FQDN des externen Webdiensts adressiert sein. Diese Anforderung gilt für den Mobilitätsdienst und gilt nur für diese URL.
 
-  - Für Benutzer, die sich außerhalb des Firmennetzwerks befinden, muss die Anforderung an den externen Web-FQDN des Front-End-Pools oder Directors gerichtet werden.
+  - Für einen Benutzer, der sich außerhalb des Unternehmensnetzwerks befindet, muss die Anforderung zum externen Web-FQDN des Front-End-Pools oder Directors wechseln.
 
-Zur Unterstützung der AutoErmittlung müssen Sie für jede SIP-Domäne die folgenden DNS-Einträge erstellen:
+Wenn Sie die automatische Ermittlung unterstützen, müssen Sie die folgenden DNS-Einträge für jede SIP-Domäne erstellen:
 
-  - Einen internen DNS-Eintrag zur Unterstützung mobiler Benutzer, die über das Netzwerk Ihrer Organisation eine Verbindung herstellen
+  - Ein interner DNS-Eintrag zur Unterstützung von mobilen Benutzern, die im Netzwerk Ihrer Organisation eine Verbindung herstellen.
 
-  - Einen externen oder öffentlichen DNS-Eintrag zur Unterstützung mobiler Benutzer, die eine Verbindung über das Internet herstellen
+  - Ein externer oder öffentlicher DNS-Eintrag zur Unterstützung von mobilen Benutzern, die eine Verbindung mit dem Internet herstellen.
 
-Die interne AutoErmittlung-URL sollte nicht von außerhalb des Netzwerks adressierbar sein. Die externe AutoErmittlung-URL sollte nicht von innerhalb des Netzwerks adressierbar sein. Wenn Sie diese Anforderung für die externe URL nicht erfüllen können, werden die Funktionen des mobilen Clients wahrscheinlich nicht dadurch beeinträchtigt, da immer zuerst versucht wird, eine Verbindung mit der internen URL herzustellen.
+Die interne automatische Erkennungs-URL sollte nicht von außerhalb Ihres Netzwerks adressierbar sein. Die URL für die externe automatische Suche sollte in Ihrem Netzwerk nicht adressierbar sein. Wenn Sie diese Anforderung für die externe URL jedoch nicht erfüllen können, ist der Mobile Client wahrscheinlich nicht betroffen, da die interne URL immer zuerst ausprobiert wird.
 
-Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host für IPV6 AAAA) oder um CNAME-Einträge handeln.
+Bei den DNS-Einträgen kann es sich entweder um CNAME-Einträge oder um einen (Host-, wenn IPv6-, AAAA)-Eintrag handeln.
 
-
-> [!NOTE]
-> Clients mobiler Geräte unterstützen nicht mehrere SSL-Zertifikate (Secure Sockets Layer) von verschiedenen Domänen. Daher wird die CNAME-Umleitung an verschiedene Domänen nicht über HTTPS unterstützt. Beispielsweise wird ein DNS-CNAME-Eintrag für "lyncdiscover.contoso.com", der eine Weiterleitung an eine Adresse von "director.contoso.net" vornimmt, nicht über HTTPS unterstützt. In einer solchen Topologie muss ein Client für ein mobiles Gerät HTTP für die erste Anforderung verwenden, sodass die CNAME-Umleitung über HTTP aufgelöst wird. Für die nachfolgenden Anforderungen wird dann HTTPS verwendet. Um dieses Szenario zu unterstützen, müssen Sie den Reverseproxy mit einer Webveröffentlichungsregel für Port&nbsp;80 (HTTP) konfigurieren. Ausführliche Informationen finden Sie unter "So erstellen Sie eine Webveröffentlichungsregel für Port 80" in <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Konfigurieren des Reverseproxys für Mobilität in Lync Server 2013</A>.<BR>Die CNAME-Umleitung an dieselbe Domäne wird über HTTPS unterstützt. In diesem Fall deckt das Zertifikat der Zieldomäne die ursprüngliche Domäne ab.
+<div>
 
 
-
-Ausführliche Informationen zu den für Ihr Szenario erforderlichen DNS-Einträgen finden Sie unter [DNS-Zusammenfassung – AutoErmittlung in Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md).
-
-## Port- und Firewallanforderungen
-
-Wenn Sie Pushbenachrichtigungen unterstützen und möchten, dass mobile Apple-Geräte Pushbenachrichtigungen über das WLAN-Netzwerk empfangen, müssen Sie auch Port 5223 im WLAN-Netzwerk des Unternehmens öffnen. Port 5223 ist ein ausgehender TCP-Port, der vom Apple Push Notification Service (APNS) verwendet wird. Das mobile Gerät initiiert die Verbindung. Ausführliche Informationen finden Sie unter [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629?viewlocale=de_de).
-
-
-> [!WARNING]
-> Ein Apple-Gerät, das den Lync 2013&nbsp;Mobile-Client verwendet, erfordert keine Pushbenachrichtigungen.
+> [!NOTE]  
+> Clients für mobile Geräte unterstützen nicht mehrere SSL-Zertifikate (Secure Sockets Layer) aus verschiedenen Domänen. Daher wird die CNAME-Umleitung zu verschiedenen Domänen nicht über HTTPS unterstützt. Ein DNS-CNAME-Eintrag für lyncdiscover.contoso.com, der an eine Adresse von Director.contoso.net umgeleitet wird, wird beispielsweise nicht über HTTPS unterstützt. In einer solchen Topologie muss ein Client für mobile Geräte http für die erste Anforderung verwenden, damit die CNAME-Umleitung über HTTP aufgelöst wird. Nachfolgende Anforderungen verwenden dann HTTPS. Zur Unterstützung dieses Szenarios müssen Sie den Reverse-Proxy mit einer Webveröffentlichungsregel für Port 80 (http) konfigurieren. Ausführliche Informationen finden Sie unter "So erstellen Sie eine Webveröffentlichungsregel für Port 80" unter <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013</A>.<BR>Die CNAME-Umleitung zur gleichen Domäne wird über HTTPS unterstützt. In diesem Fall umfasst das Zertifikat der Zieldomäne die ursprüngliche Domäne.
 
 
 
-Beachten Sie: Wenn ein Benutzer sich in einer Survivable Branch Appliance (SBA) befindet, sind die folgenden Ports erforderlich:
+</div>
+
+Details zu den für Ihr Szenario erforderlichen DNS-Einträgen finden Sie unter [DNS-Zusammenfassung – AutoErmittlung in lync Server 2013](lync-server-2013-dns-summary-autodiscover.md).
+
+</div>
+
+<div>
+
+## <a name="port-and-firewall-requirements"></a>Port-und Firewall-Anforderungen
+
+Wenn Sie Push-Benachrichtigungen unterstützen und möchten, dass Apple Mobile-Geräte Push-Benachrichtigungen über Ihr WLAN-Netzwerk empfangen, müssen Sie auch Port 5223 in Ihrem WLAN-Netzwerk für Unternehmen öffnen. Port 5223 ist ein ausgehender TCP-Port, der vom Apple Push Notification Service (APNS) verwendet wird. Das Mobile Gerät initiiert die Verbindung. Ausführliche Informationen finden Sie [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) unter.
+
+<div>
+
+
+> [!WARNING]  
+> Ein Apple-Gerät, das den lync 2013-Mobilclient verwendet, erfordert keine Push-Benachrichtigungen.
+
+
+
+</div>
+
+Beachten Sie, dass die folgenden Ports erforderlich sind, wenn ein Benutzer in einer Survivable Branch Appliance (SBA) beheimatet ist:
 
   - UcwaSipExternalListeningPort erfordert Port 5088
 
   - UcwaSipPrimaryListeningPort erfordert Port 5089
 
-Zusätzliche Informationen sowie Anweisungen zu Port- und Protokollanforderungen für die AutoErmittlung finden Sie unter [Portübersicht – AutoErmittlung in Lync Server 2013](lync-server-2013-port-summary-autodiscover.md).
+Weitere Informationen und Anleitungen zu Port-und Protokollanforderungen für die AutoErmittlung finden Sie unter [Port Zusammenfassung – AutoErmittlung in lync Server 2013](lync-server-2013-port-summary-autodiscover.md).
 
-## Zertifikatanforderungen
+</div>
 
-Wenn Sie die automatische Ermittlung für mobile Lync-Clients unterstützen, müssen Sie die Listen der alternativen Antragstellernamen für Zertifikate ändern, um sichere Verbindungen von mobilen Clients zu unterstützen. Sie müssen neue Zertifikate anfordern und zuweisen und für jeden Front-End-Server und Director, auf dem der AutoErmittlungsdienst ausgeführt wird, die in diesem Abschnitt beschriebenen Einträge für alternative Antragstellernamen hinzufügen. Es wird empfohlen, auch die Listen der alternativen Antragstellernamen für die Zertifikate der Reverseproxys zu ändern. Sie müssen die Einträge für den alternativen Antragstellernamen für jede SIP-Domäne in der Organisation hinzufügen.
+<div>
 
-Das erneute Ausstellen von Zertifikaten durch eine interne Zertifizierungsstelle ist normalerweise ein einfacher Vorgang. Das Hinzufügen mehrerer Einträge für alternative Antragstellernamen zu öffentlichen Zertifikaten, die vom Reverseproxy verwendet werden, kann jedoch aufwendig sein. Wenn Sie über viele SIP-Domänen verfügen und das Hinzufügen alternativer Antragstellernamen daher sehr zeitaufwendig ist, können Sie den Reverseproxy so konfigurieren, dass die anfängliche AutoErmittlungsdienst-Anforderung über Port 80 mit HTTP erfolgt und nicht über 443 mit HTTPS (Standardkonfiguration). Die Anforderung wird dann an den Port 8080 auf dem Director oder Front-End-Pool umgeleitet. Wenn Sie die anfängliche AutoErmittlungsdienst-Anforderung an Port 80 veröffentlichen, müssen Sie die Zertifikate für den Reverseproxy nicht ändern, da die Anforderung HTTP anstatt HTTPS verwendet. Dieser Ansatz wird unterstützt, aber nicht empfohlen.
+## <a name="certificate-requirements"></a>Zertifikatanforderungen
 
-## IIS-Anforderungen (Internetinformationsdienste)
+Wenn Sie die automatische Ermittlung für lync Mobile-Clients unterstützen, müssen Sie die Listen Betreff alternativer Name auf Zertifikaten ändern, um sichere Verbindungen von den mobilen Clients zu unterstützen. Sie müssen für jeden Front-End-Server und Director, der den AutoErmittlungsdienst ausführt, neue Zertifikate anfordern und zuweisen, indem Sie die in diesem Abschnitt beschriebenen Alternativen für den Antragstellernamen hinzufügen. Die empfohlene Vorgehensweise besteht darin, auch die Listen Betreff Alternative Namen auf Zertifikaten für Ihre umgekehrten Proxys zu ändern. Sie müssen für jede SIP-Domäne in Ihrer Organisation Alternative Namen Einträge für Subjekte hinzufügen.
 
-Für die Mobilität wird die Verwendung von IIS 7.5, IIS 8.0 oder IIS 8.5 empfohlen. Der Mobilitätsdienst-Installer legt zur Leistungsverbesserung einige ASP.NET-Kennzeichen fest. IIS 7.5 ist standardmäßig unter Windows Server 2008 R2, IIS 8.0 unter Windows Server 2012 und IIS 8.50 unter Windows Server 2012 R2 installiert. Der Mobilitätsdienst-Installer ändert die ASP.NET-Einstellungen automatisch.
+Das erneute Ausstellen von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist in der Regel ein einfacher Vorgang, aber das Hinzufügen von mehreren alternativen Subjektnamen Einträgen zu öffentlichen Zertifikaten, die vom Reverse-Proxy verwendet werden, kann kostspielig sein. Wenn Sie über zahlreiche SIP-Domänen verfügen, die das Hinzufügen von alternativen Subjektnamen sehr teuer machen, können Sie den Reverse-Proxy so konfigurieren, dass die ursprüngliche AutoErmittlungsdienst Anforderung über Port 80 mithilfe von http statt Port 443 mithilfe von HTTPS (der Standardkonfiguration) vorgenommen wird. Die Anforderung wird dann auf Port 8080 im Director-oder Front-End-Pool umgeleitet. Wenn Sie die ursprüngliche AutoErmittlungsdienst Anforderung auf Port 80 veröffentlichen, müssen Sie keine Zertifikate für den Reverseproxy ändern, da die Anforderung http anstatt HTTPS verwendet. Dieser Ansatz wird unterstützt, aber wir empfehlen ihn nicht.
 
-## Anforderungen an das Hardwaregerät zum Lastenausgleich
+</div>
 
-Auf dem Hardwaregerät zum Lastenausgleich, das den Front-End-Pool unterstützt, müssen die virtuellen IPs (VIPs) der externen Webdienste für die Quelle konfiguriert werden. Die Quellaffinität stellt sicher, dass mehrere Verbindungen von einem einzelnen Client zur Beibehaltung des Sitzungsstatus an einen einzigen Server gesendet werden. Ausführliche Informationen zu den Affinitätsanforderungen finden Sie unter [Anforderungen an den Lastenausgleich für Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+<div>
 
-Wenn Sie mobile Lync-Clients nur über das interne WLAN-Netzwerk unterstützen möchten, sollten Sie die internen Webdienste-VIPs für die Quelle konfigurieren, so wie oben für externe Webdienste-VIPs beschrieben. In dieser Situation sollten Sie "source\_addr" (Quelladressenaffinität oder TCP-Affinität) für die internen Webdienste-VIPs auf dem Hardwaregerät zum Lastenausgleich verwenden. Ausführliche Informationen finden Sie unter [Anforderungen an den Lastenausgleich für Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+## <a name="internet-information-services-iis-requirements"></a>Anforderungen für Internet Informationsdienste (IIS)
 
-## Reverseproxyanforderungen
+Es wird empfohlen, IIS 7,5, IIS 8,0 oder IIS 8,5 für Mobilität zu verwenden. Das Mobilitätsdienst-Installationsprogramm legt Flags in ASP.net fest, um die Leistung zu verbessern. IIS 7,5 wird standardmäßig unter Windows Server 2008 R2 installiert, IIS 8,0 wird unter Windows Server 2012 installiert, und IIS 8,5 wird unter Windows Server 2012 R2 installiert. Das Mobilitätsdienst-Installationsprogramm ändert automatisch die ASP.NET-Einstellungen.
 
-Wenn Sie die automatische Ermittlung für mobile Lync-Clients unterstützen, müssen Sie wie folgt eine neue Webveröffentlichungsregel erstellen:
+</div>
 
-  - Wenn Sie sich entscheiden, die Listen der alternativen Antragstellernamen in den Reverseproxyzertifikaten zu aktualisieren und HTTPS für die anfängliche AutoErmittlungsdienst-Anforderung zu verwenden, müssen Sie die Webveröffentlichungsregel für "lyncdiscover.*\<sipdomain\>*" aktualisieren. Typischerweise ist dies mit der Veröffentlichungsregel für die externe Webdienste-URL auf dem Front-End-Pool kombiniert.
+<div>
 
-  - Wenn Sie HTTP für die anfängliche AutoErmittlungsdienst-Anforderungen verwenden möchten, damit die Liste der alternativen Antragstellernamen in den Reverseproxyzertifikaten nicht aktualisiert werden muss, müssen Sie eine Webveröffentlichungsregel für Port HTTP/TCP 80 erstellen, sofern dieser noch nicht vorhanden ist. Wenn bereits eine Regel für HTTP/TCP 80 existiert, können Sie diese Regel so aktualisieren, dass der Eintrag "lyncdiscover.*\<sipdomain\>*" enthalten ist.
+## <a name="hardware-load-balancer-requirements"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich
+
+Auf dem Hardware-Lastenausgleichsmodul, das den Front-End-Pool unterstützt, müssen die externen Webdienste (Virtual IPS) für Webdienste-Datenverkehr für die Quelle konfiguriert sein. Mit der Quell Affinität können Sie sicherstellen, dass mehrere Verbindungen von einem einzelnen Client an einen Server gesendet werden, um den Sitzungszustand beizubehalten. Details zu den Affinitäts Anforderungen finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+
+Wenn Sie beabsichtigen, lync Mobile-Clients nur über Ihr internes WLAN-Netzwerk zu unterstützen, sollten Sie die internen Webdienste-VIPs für Source so konfigurieren, wie dies für externe Webdienste-VIPs beschrieben ist. In diesem Fall sollten Sie für die internen\_Webdienste-VIPs auf dem Hardware-Lastenausgleichsmodul die Quell-addr-(oder TCP-) Affinität verwenden. Ausführliche Informationen finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+
+</div>
+
+<div>
+
+## <a name="reverse-proxy-requirements"></a>Reverse Proxy-Anforderungen
+
+Wenn Sie die automatische Ermittlung für lync Mobile-Clients unterstützen, müssen Sie die aktuelle Veröffentlichungsregel wie folgt aktualisieren:
+
+  - Wenn Sie sich entschließen, die Listen Betreff Alternative Namen auf den Reverse-Proxy Zertifikaten zu aktualisieren und HTTPS für die ursprüngliche AutoErmittlungsdienst Anforderung zu verwenden, müssen Sie die Webveröffentlichungsregel für lyncdiscover aktualisieren. \<sipdomain\>. In der Regel wird dies mit der Veröffentlichungsregel für die externe Webdienste-URL im Front-End-Pool kombiniert.
+
+  - Wenn Sie sich entschließen, http für die anfängliche AutoErmittlungsdienst Anforderung zu verwenden, damit Sie die Liste der alternativen Betreff-Namen nicht auf den Reverse-Proxy Zertifikaten aktualisieren müssen, müssen Sie eine neue Webveröffentlichungsregel für Port http/TCP 80 erstellen, wenn Sie noch nicht vorhanden ist. Wenn eine Regel für http/TCP 80 bereits vorhanden ist, können Sie diese Regel aktualisieren, um die lyncdiscover einzubeziehen. \<sipdomain\> -Eintrag.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
