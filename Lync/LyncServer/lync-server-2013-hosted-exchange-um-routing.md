@@ -1,61 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Routing für gehostete Exchange UM-Dienste'
-TOCTitle: Routing für gehostete Exchange UM-Dienste
-ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398512(v=OCS.15)
-ms:contentKeyID: 49294321
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Routing für gehostete Exchange UM-Dienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange UM routing
+ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
+ms:contentKeyID: 48184422
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832054"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Routing für gehostete Exchange UM-Dienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a><span data-ttu-id="c5cb9-102">Routing für gehostete Exchange UM-Dienste in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5cb9-102">Hosted Exchange UM routing in Lync Server 2013</span></span>
 
-Die Exchange UM-Routinganwendung wird auf dem Front-End-Server für die Weiterleitung von Anrufen an eine lokale Microsoft Exchange Server Unified Messaging-Bereitstellung (UM) oder an gehostete Exchange UM-Dienste ausgeführt.
+</div>
 
-## Die ExUM-Routinganwendung
+<div id="mainSection">
 
-Die Lync Server 2013Exchange UM-Routinganwendung verwendet Informationen aus Benutzerkontoeinstellungen und Parameter einer gehosteten VoIP-Richtlinie, um zu ermitteln, wie Anrufe für gehostetes Voicemessaging weitergeleitet werden (wie in der folgenden Abbildung gezeigt).
+<div id="mainBody">
 
-**Beispiel für das Exchange UM-Routing in einer gemischten Bereitstellung**
+<span> </span>
 
-![Lokale Lync Server-Exchange UM-Bereitstellung](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Lokale Lync Server-Exchange UM-Bereitstellung")
+<span data-ttu-id="c5cb9-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c5cb9-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-Das Exchange UM-Routing kann für das Weiterleiten von Anrufen an Benutzer konfiguriert werden, die für lokale Exchange UM-Dienste oder für gehostete Exchange UM-Dienste bzw. für eine Kombination der beiden Diensttypen aktiviert sind.
+<span data-ttu-id="c5cb9-104">Die Exchange um-Routing Anwendung wird auf dem Front-End-Server ausgeführt, um Anrufe an eine lokale Microsoft Exchange Server Unified Messaging (um)-Bereitstellung oder an einen gehosteten Exchange um-Dienst weiterzuleiten.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-104">The Exchange UM Routing application runs on the Front End Server to route calls, either to an on-premises Microsoft Exchange Server Unified Messaging (UM) deployment or to hosted Exchange UM service.</span></span>
 
-Gehen wir z. B. davon aus, dass sich das Postfach und der Exchange UM-Dienst des Benutzers Roy in einer lokalen Exchange-Bereitstellung befinden.
+<div>
 
-  - Die Proxyadressinformationen aus dem Benutzerkonto von Roy liefern die Informationen, welche die ExUM-Routinganwendung zum Weiterleiten der Anrufe dieses Benutzers an einen lokalen Exchange UM-Server verwendet.
+## <a name="the-exum-routing-application"></a><span data-ttu-id="c5cb9-105">Die ExUM-Routing Anwendung</span><span class="sxs-lookup"><span data-stu-id="c5cb9-105">The ExUM Routing Application</span></span>
 
-Das Postfach und der Exchange UM-Dienst der Benutzerin Alice befinden sich im Rechenzentrum eines Anbieters gehosteter Exchange-Dienste. Das Routing für ihre Exchange UM-Anrufe wird wie folgt konfiguriert:
+<span data-ttu-id="c5cb9-106">Die lync Server 2013 Exchange um-Routing Anwendung verwendet Informationen aus den Einstellungen des Benutzerkontos und den Richtlinienparametern für gehostete Voicemail, um zu bestimmen, wie Anrufe für gehostete Voicemail weitergeleitet werden, wie im folgenden Diagramm dargestellt.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-106">The Lync Server 2013 Exchange UM Routing application uses information from user account settings and from hosted voice mail policy parameters to determine how to route calls for hosted voice messaging, as shown in the following diagram.</span></span>
 
-  - Die im Attribut "msExchUCVoiceMailSettings" des Benutzerkontos von Alice festgelegten Werte weisen die ExUM-Routinganwendung an, eine gehostete Voicemailrichtlinie auf Routingdetails zu überprüfen.
+<span data-ttu-id="c5cb9-107">**Beispiel für eine gemischte Bereitstellung Exchange um-Routing**</span><span class="sxs-lookup"><span data-stu-id="c5cb9-107">**Example of mixed deployment Exchange UM routing**</span></span>
+
+<span data-ttu-id="c5cb9-108">![Lokale lync Server Exchange um-Bereitstellung] (images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Lokale lync Server Exchange um-Bereitstellung")</span><span class="sxs-lookup"><span data-stu-id="c5cb9-108">![On-premises Lync Server Exchange UM deployment](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "On-premises Lync Server Exchange UM deployment")</span></span>
+
+<span data-ttu-id="c5cb9-109">Das Exchange um-Routing kann so konfiguriert werden, dass Anrufe an Benutzer weitergeleitet werden, die für lokalen Exchange um aktiviert sind, für Benutzer, die für gehostete Exchange um aktiviert sind, oder für eine Kombination der beiden.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-109">Exchange UM routing can be configured to route calls to users who are enabled for on-premises Exchange UM, to users who are enabled for hosted Exchange UM, or to a combination of the two.</span></span>
+
+<span data-ttu-id="c5cb9-110">Nehmen wir beispielsweise an, dass das Postfach und der Exchange um-Dienst von Roy in einer lokalen Exchange-Bereitstellung verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-110">For example, suppose that Roy’s mailbox and Exchange UM service are homed in an on-premises Exchange deployment.</span></span>
+
+  - <span data-ttu-id="c5cb9-111">Die Proxyadressinformationen des Benutzerkontos von Roy stellen die Informationen bereit, die von der ExUM-Routing Anwendung zum Weiterleiten von Anrufen an einen lokalen Exchange um-Server verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-111">The proxy address information from Roy’s user account provides the information that the ExUM Routing application uses to route his calls to an on-premises Exchange UM server.</span></span>
+
+<span data-ttu-id="c5cb9-112">Alices Postfach und Exchange um-Dienst befinden sich im Rechenzentrum eines gehosteten Exchange-Dienstanbieters.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-112">Alice’s mailbox and Exchange UM service are located at a hosted Exchange service provider’s data center.</span></span> <span data-ttu-id="c5cb9-113">Das Routing für Ihre Exchange um-Anrufe ist wie folgt konfiguriert:</span><span class="sxs-lookup"><span data-stu-id="c5cb9-113">Routing for her Exchange UM calls is configured as follows:</span></span>
+
+  - <span data-ttu-id="c5cb9-114">Die Werte, die im msExchUCVoiceMailSettings-Attribut des Benutzerkontos von Alice festgesetzt sind, weisen die ExUM-Routing Anwendung an, auf Routing Details in einer gehosteten Voicemail-Richtlinie zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-114">The values set in the msExchUCVoiceMailSettings attribute of Alice’s user account tell the ExUM Routing application to check for routing details in a hosted voice mail policy.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Der Wert des Attributs "msExchUCVoiceMailSettings" kann entweder durch den Exchange-Dienstanbieter oder durch den Lync Server 2013-Administrator festgelegt werden. Im oben gezeigten Beispiel wurde der Wert (CsHostedVoiceMail=1) vom Lync Server 2013-Administrator gesetzt, um gehostete Voicemail für Alice zu aktivieren. Ausführliche Informationen zu diesem Attribut finden Sie unter <A href="lync-server-2013-hosted-exchange-user-management.md">Benutzerverwaltung für gehostete Exchange-Dienste in Lync Server 2013</A>.
+    > [!NOTE]  
+    > <span data-ttu-id="c5cb9-115">Der Wert des Attributs msExchUCVoiceMailSettings kann entweder vom Exchange-Dienstanbieter oder vom lync Server 2013-Administrator eingestellt werden.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-115">The value of the msExchUCVoiceMailSettings attribute can be set by either the Exchange service provider or the Lync Server 2013 administrator.</span></span> <span data-ttu-id="c5cb9-116">In dem im vorherigen Diagramm gezeigten Beispiel wurde der Wert (CsHostedVoiceMail = 1) vom lync Server 2013-Administrator so eingerichtet, dass die gehostete Voicemail für Alice aktiviert wurde.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-116">In the example shown in the preceding diagram, the value (CsHostedVoiceMail=1) was set by the Lync Server 2013 administrator to enable hosted voice mail for Alice.</span></span> <span data-ttu-id="c5cb9-117">Details zu diesem Attribut finden Sie unter <A href="lync-server-2013-hosted-exchange-user-management.md">gehostete Exchange-Benutzerverwaltung in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-117">For details about this attribute, see <A href="lync-server-2013-hosted-exchange-user-management.md">Hosted Exchange user management in Lync Server 2013</A>.</span></span>
 
-
-
-  - Die dem Benutzerkonto von Alice zugewiesene gehostete Voicemailrichtlinie umfasst Routingdetails:
     
-      - Das Ziel ist der Dienstanbieter für gehostete Exchange UM-Dienste ("ls.ExUm. *\<gehosteter Exchange-Server\>* .com" in diesem Beispiel).
+    </div>
+
+  - <span data-ttu-id="c5cb9-118">Die Hosted Voicemail-Richtlinie, die dem Benutzerkonto von Alice zugewiesen ist, bietet Routing Details:</span><span class="sxs-lookup"><span data-stu-id="c5cb9-118">The hosted voice mail policy that is assigned to Alice’s user account provides routing details:</span></span>
     
-      - Organisationen werden durch die Mandanten-IDs identifiziert, bei denen es sich um die Routing-FQDNs für SIP-Nachrichten für Exchange Server-Mandanten auf "ls.ExUm. *\<gehosteter Exchange-Server\>* .com" handelt (in diesem Beispiel "corp.contoso.com" und "corp.litwareinc.com").
+      - <span data-ttu-id="c5cb9-119">Ziel ist der gehostete Exchange um-Dienstanbieter (LS). ExUm. \<hostedExchangeServer\>. com in diesem Beispiel).</span><span class="sxs-lookup"><span data-stu-id="c5cb9-119">Destination is the hosted Exchange UM service provider (ls.ExUm.\<hostedExchangeServer\>.com in this example).</span></span>
+    
+      - <span data-ttu-id="c5cb9-120">Organisationen werden durch die Mandanten-IDs identifiziert, bei denen es sich um die Routing-FQDNs für SIP-Nachrichten für Exchange Server-Mandanten handelt, die sich auf LS befinden. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com und Corp.litwareinc.com in diesem Beispiel).</span><span class="sxs-lookup"><span data-stu-id="c5cb9-120">Organizations are identified by the tenant IDs, which are the routing FQDNs for SIP messages for Exchange Server tenants that are located on ls.ExUm.\<hostedExchangeServer\>.com (corp.contoso.com and corp.litwareinc.com in this example).</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Der FQDN für Exchange Online ist exap.um.outlook.com .
+        > [!NOTE]  
+        > <span data-ttu-id="c5cb9-121">Der FQDN für Exchange Online lautet exap.um.Outlook.com.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-121">The FQDN for Exchange Online is exap.um.outlook.com.</span></span>
 
         
-        Ausführliche Informationen finden Sie unter [Richtlinien für gehostete Voicemail in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
+        </div>
+        
+        <span data-ttu-id="c5cb9-122">Ausführliche Informationen finden Sie unter [Richtlinien für gehostete Voicemail in lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).</span><span class="sxs-lookup"><span data-stu-id="c5cb9-122">For details, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Wenn sowohl das Attribut "msExchUCVoiceMailSettings" als auch die UM-Proxyadresseinstellungen in einem Benutzerkonto vorhanden sind, hat das Attribut "msExchUCVoiceMailSettings" Vorrang.
+> [!NOTE]  
+> <span data-ttu-id="c5cb9-123">Wenn in einem Benutzerkonto sowohl das msExchUCVoiceMailSettings-Attribut als auch die um-Proxy Adresseinstellungen vorhanden sind, hat das msExchUCVoiceMailSettings-Attribut Vorrang.</span><span class="sxs-lookup"><span data-stu-id="c5cb9-123">If both the msExchUCVoiceMailSettings attribute and the UM proxy address settings are present in a user account, the msExchUCVoiceMailSettings attribute takes precedence.</span></span>
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

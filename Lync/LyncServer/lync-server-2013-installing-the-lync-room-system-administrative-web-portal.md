@@ -1,62 +1,96 @@
-﻿---
-title: Installieren des Webportals zur Verwaltung des Lync-Raumsystems
-TOCTitle: Installieren des Webportals zur Verwaltung des Lync-Raumsystems
-ms:assetid: dd19e368-c338-4e21-a40d-6439d46a9748
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn436326(v=OCS.15)
-ms:contentKeyID: 59373616
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Installieren des lync Room System administrative Web Portals'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing the Lync Room System Administrative Web Portal
+ms:assetid: dd19e368-c338-4e21-a40d-6439d46a9748
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436326(v=OCS.15)
+ms:contentKeyID: 56737622
+ms.date: 04/09/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d1c69231c6f07d2e57c0fe8be31d18ed6da109fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831979"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installieren des Webportals zur Verwaltung des Lync-Raumsystems
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a><span data-ttu-id="487ed-102">Installing the Lync Room System Administrative Web Portal in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="487ed-102">Installing the Lync Room System Administrative Web Portal in Lync Server 2013</span></span>
 
-Sie können das Webportal zur Verwaltung des Lync-Raumsystems aus dem Microsoft Download Center unter [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044) herunterladen.
+</div>
 
-Wenn Sie das Webportal zur Verwaltung des Lync-Raumsystems installieren möchten, gehen Sie wie folgt vor.
+<div id="mainSection">
 
-1.  Konfigurieren Sie den Port für vertrauenswürdige Anwendungen, indem Sie folgendes Cmdlet in Lync Server-Verwaltungsshell ausführen:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="487ed-103">_**Letztes Änderungsdatum des Themas:** 2015-04-09_</span><span class="sxs-lookup"><span data-stu-id="487ed-103">_**Topic Last Modified:** 2015-04-09_</span></span>
+
+<span data-ttu-id="487ed-104">Sie können das administrative Webportal für Microsoft lync Room System aus dem Microsoft Download Center unter [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)herunterladen.</span><span class="sxs-lookup"><span data-stu-id="487ed-104">You can download the Microsoft Lync Room System Administrative Web Portal from the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044).</span></span>
+
+<span data-ttu-id="487ed-105">Führen Sie die folgenden Schritte aus, um das lync Room System administrative Web Portal zu installieren.</span><span class="sxs-lookup"><span data-stu-id="487ed-105">To install the Lync Room System Administrative Web Portal, use the following steps.</span></span>
+
+1.  <span data-ttu-id="487ed-106">Konfigurieren Sie den Port für vertrauenswürdige Anwendungen, indem Sie das folgende Cmdlet in der lync Server-Verwaltungsshell ausführen:</span><span class="sxs-lookup"><span data-stu-id="487ed-106">Configure the Trusted Application Port by running the following cmdlet in Lync Server Management Shell:</span></span>
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  Installieren Sie das Besprechungsraum-Administratorportal. Laden Sie dazu **LyncRoomAdminPortal.exe** herunter, und führen Sie das Programm als dann als Administrator aus.
+2.  <span data-ttu-id="487ed-107">Zum Installieren des Besprechungsraum Portals laden Sie **LyncRoomAdminPortal. exe** herunter, und führen Sie es dann als Administrator aus.</span><span class="sxs-lookup"><span data-stu-id="487ed-107">To install the Meeting Room Portal, download **LyncRoomAdminPortal.exe** and then run it as an administrator.</span></span>
 
-3.  Öffnen Sie die Datei **Web.config** aus folgendem Speicherort:
+3.  <span data-ttu-id="487ed-108">Öffnen Sie die Datei Web.config aus folgendem Speicherort:</span><span class="sxs-lookup"><span data-stu-id="487ed-108">Open the Web.config file from the following location:</span></span>
     
-    %Program Files%\\Microsoft Lync Server 2013\\Web Components\\Meeting Room Portal\\Int\\Handler\\
+    <span data-ttu-id="487ed-109">% Program Files%\\Microsoft lync Server 2013\\Webkomponenten\\Besprechungsraum-\\Portal\\int-Handler</span><span class="sxs-lookup"><span data-stu-id="487ed-109">%Program Files%\\Microsoft Lync Server 2013\\Web Components\\Meeting Room Portal\\Int\\Handler</span></span>\\
 
-4.  Ändern Sie in der Datei **Web.Config** den Wert von **PortalUserName** in den Benutzernamen, den Sie im Schritt 2 erstellt haben (Abschnitt "Konfigurieren der Voraussetzungen für das Webportal zur Verwaltung des Lync-Raumsystems", der für diesen Schritt empfohlene Name lautet **LRSApp**):
+4.  <span data-ttu-id="487ed-110">Ändern Sie in der Datei Web. config die PortalUserName in den in Schritt 2 erstellten Benutzernamen im Abschnitt "Konfigurieren von Voraussetzungen für das lync Room System Admin Portal" (der empfohlene Name im Schritt lautet LRSApp):</span><span class="sxs-lookup"><span data-stu-id="487ed-110">In the Web.Config file, change the PortalUserName to the username created in Step 2 under the section “Configuring Prerequisites for Lync Room System Admin Portal” (the recommended name in the step is LRSApp):</span></span>
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  Da das Webportal zur Verwaltung des Lync-Raumsystems (LRS) eine vertrauenswürdige Anwendung ist, müssen Sie das Kennwort bei der Portalkonfiguration nicht angeben. Wenn für diesen Benutzer nicht die lokale Registrierungsstelle, sondern eine andere Registrierungsstelle verwendet wird, müssen Sie diese für den Benutzer angeben, indem Sie folgende Zeile in die Datei **Web.Config** einfügen:
+5.  <span data-ttu-id="487ed-111">Da das LRS-Administrator Portal eine vertrauenswürdige Anwendung ist, müssen Sie das Kennwort nicht in der Portalkonfiguration angeben.</span><span class="sxs-lookup"><span data-stu-id="487ed-111">Because the LRS Admin Portal is a trusted application, you do not need to provide the password in the portal configuration.</span></span> <span data-ttu-id="487ed-112">Wenn für diesen Benutzer nicht die lokale Registrierungsstelle, sondern eine andere Registrierungsstelle verwendet wird, müssen Sie diese für den Benutzer angeben, indem Sie folgende Zeile in die Datei Web.Config einfügen:</span><span class="sxs-lookup"><span data-stu-id="487ed-112">If this user is using a different registrar than local registrar, you need to specify the registrar for it by adding the following line in the Web.Config file:</span></span>
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  Ist der verwendete Port nicht der Port 5061, fügen Sie folgende Zeile in die Datei **Web.Config** ein:
+6.  <span data-ttu-id="487ed-113">Wenn der verwendete Port nicht der Port 5061 ist, fügen Sie folgende Zeile in die Datei Web.Config ein: </span><span class="sxs-lookup"><span data-stu-id="487ed-113">If the port used is other than 5061, add the following line in the Web.Config file:</span></span>
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
-## Überprüfen der Installation des Webportals zur Verwaltung des Lync-Raumsystems
+<div>
 
-Wenn Sie die Installation des Webportals zur Verwaltung des Lync-Raumsystems überprüfen möchten, gehen Sie wie folgt vor.
+## <a name="verifying-installation-of-the-lync-room-system-administrative-web-portal"></a><span data-ttu-id="487ed-114">Überprüfen der Installation des lync Room System administrative Web Portals</span><span class="sxs-lookup"><span data-stu-id="487ed-114">Verifying Installation of the Lync Room System Administrative Web Portal</span></span>
+
+<span data-ttu-id="487ed-115">Gehen Sie wie folgt vor, um die Installation des lync Room System administrative Web Portals zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="487ed-115">To verify installation of the Lync Room System Administrative Web Portal, do the following:</span></span>
 
 
-1.  Navigieren Sie auf einem Front-End-Server zur folgenden URL:
+1.  <span data-ttu-id="487ed-116">Navigieren Sie auf einem Front-End-Server zur folgenden URL:</span><span class="sxs-lookup"><span data-stu-id="487ed-116">On a Front End server, browse to the following URL:</span></span>
     
-    https://\<fe-server\>/lrs
+    <span data-ttu-id="487ed-117">https://\<FE-Server\>/LRS</span><span class="sxs-lookup"><span data-stu-id="487ed-117">https://\<fe-server\>/lrs</span></span>
     
-    Sie sollten keine Fehler sehen (siehe folgende Abbildung):
+    <span data-ttu-id="487ed-118">Sie sollten keine Fehler sehen (siehe folgende Abbildung):</span><span class="sxs-lookup"><span data-stu-id="487ed-118">You should not see any errors, as shown in the following image:</span></span>
     
-    ![Anmeldebildschirm für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Anmeldebildschirm für das Webportal zur Verwaltung des Lync-Raumsystems")
+    <span data-ttu-id="487ed-119">![Anmeldebildschirm des lync Room System admin Portals] (images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Anmeldebildschirm des lync Room System admin Portals")</span><span class="sxs-lookup"><span data-stu-id="487ed-119">![Lync Room System Admin Portal Sign In screen](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync Room System Admin Portal Sign In screen")</span></span>
 
-2.  Wenn Sie keine Fehler sehen, versuchen Sie, über einen anderen Computer in der Topologie auf die folgende URL zuzugreifen:
+2.  <span data-ttu-id="487ed-120">Wenn Sie keine Fehler sehen, versuchen Sie, über einen anderen Computer in der Topologie auf die folgende URL zuzugreifen:</span><span class="sxs-lookup"><span data-stu-id="487ed-120">If you do not see any errors, try accessing the following URL from any other computer in the topology:</span></span>
     
-    https://\<fe-server\>/lrs
+    <span data-ttu-id="487ed-121">https://\<FE-Server\>/LRS</span><span class="sxs-lookup"><span data-stu-id="487ed-121">https://\<fe-server\>/lrs</span></span>
     
-    Damit Sie auf die Seite zugreifen können, müssen Sie die DNS-Einträge so hinzufügen, wie dies in "Required DNS Records for Automatic Client Sign-In" unter [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056) beschrieben ist.
+    <span data-ttu-id="487ed-122">Wenn Sie auf die Seite zugreifen möchten, müssen Sie die DNS-Einträge hinzufügen, wie unter "erforderliche DNS-Einträge für die automatische Client [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)Anmeldung" beschrieben ist.</span><span class="sxs-lookup"><span data-stu-id="487ed-122">To access the page, you will need to add the DNS records as described in “Required DNS Records for Automatic Client Sign-In” at [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

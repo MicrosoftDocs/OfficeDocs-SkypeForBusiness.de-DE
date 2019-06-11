@@ -1,70 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Liste der Tabellen für den Server für beständigen Chat'
-TOCTitle: Liste der Tabellen für den Server für beständigen Chat
-ms:assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558628(v=OCS.15)
-ms:contentKeyID: 49293473
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Liste der Tabellen für den Server für beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: List of Persistent Chat Server tables
+ms:assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558628(v=OCS.15)
+ms:contentKeyID: 48183659
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4d5c16160d51373fe1eef5b7cbaefe728b904545
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831942"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Liste der Tabellen für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a><span data-ttu-id="15415-102">Liste der Tabellen für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15415-102">List of Persistent Chat Server tables in Lync Server 2013</span></span>
 
-Das Beständiger Chat-Datenbankschema besteht aus den folgenden Tabellen.
+</div>
 
-## Active Directory-Synchronisierung
+<div id="mainSection">
 
+<div id="mainBody">
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tabelle</th>
-<th>Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="lync-server-2013-tbladcookie.md">tblADCookie in Lync Server 2013</a></p></td>
-<td><p>Enthält die aktuellen LDAP-Synchronisierungscookies (Lightweight Directory Access-Protokoll). Jede Zeile entspricht einer Active Directory-Domänendienste-Domäne, die vom Server für beständigen Chat aktiv auf Änderungen überwacht wird. (Nur die für Server für beständigen Chat relevanten Active Directory-Domänen sind in dieser Tabelle aufgeführt.)</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference in Lync Server 2013</a></p></td>
-<td><p>Enthält Gruppenmitgliedschaftsänderungen (sowohl hinzugefügte als auch entfernte Mitglieder), die noch nicht mittels der späteren Active Directory-Synchronisierungsschritte verarbeitet wurden, und ist eine der temporären Tabellen (neben der <strong>tblADUpdates</strong> -Tabelle), die vom ersten Active Directory-Synchronisierungsschritt verwendet wird.</p>
-<p>Mitgliedschaftsänderungen werden nur für Gruppen gespeichert und/oder verarbeitet, die in der <strong>tblPrincipal</strong> -Tabelle aufgelistet sind oder für die hier bereits Mitglieder aufgelistet sind.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="lync-server-2013-tbladupdates.md">tblADUpdates in Lync Server 2013</a></p></td>
-<td><p>Enthält Änderungen der Active Directory-Domänendienste-Domänendienste, die noch nicht mittels der späteren Active Directory-Synchronisierungsschritte verarbeitet wurden, und ist eine der temporären Tabellen (neben der <strong>PrincipalMemberDifference</strong> -Tabelle), die vom ersten Active Directory-Synchronisierungsschritt verwendet wird.</p>
-<p>Änderungen von Active Directory werden nur für Prinzipale gespeichert und/oder verarbeitet, die bereits in der <strong>tblPrincipal</strong> -Tabelle aufgelistet sind.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers in Lync Server 2013</a></p></td>
-<td><p>Enthält Prinzipalmitgliedschaften.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta in Lync Server 2013</a></p></td>
-<td><p>Enthält die Prinzipale, die aus Active Directory aktualisiert werden müssen.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations in Lync Server 2013</a></p></td>
-<td><p>Enthält Zugehörigkeiten, die aus irgendeinem Grund nicht aktualisiert werden konnten, und zwar gewöhnlich aufgrund von Active Directory-Zugriffsfehlern.</p>
-<p>Diese Tabelle dient nur zu Informationszwecken. Der Inhalt dieser Tabelle wird nicht verwendet.</p>
-<p>Die Prinzipale mit Zugehörigkeiten, die nicht ordnungsgemäß aktualisiert werden konnten, werden in der <strong>tblPrincipalMeta</strong> -Tabelle gespeichert und bei Gelegenheit aktualisiert.</p></td>
-</tr>
-</tbody>
-</table>
+<span> </span>
 
+<span data-ttu-id="15415-103">_**Letztes Änderungsdatum des Themas:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="15415-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-## Prinzipale, Zugehörigkeiten, Knoten, Bereiche und Rollen
+<span data-ttu-id="15415-104">Das Datenbank-Schema des beständigen Chats besteht aus den folgenden Tabellen.</span><span class="sxs-lookup"><span data-stu-id="15415-104">The Persistent Chat database schema consists of the following tables.</span></span>
+
+<div>
+
+## <a name="active-directory-sync"></a><span data-ttu-id="15415-105">Active Directory-Synchronisierung</span><span class="sxs-lookup"><span data-stu-id="15415-105">Active Directory Sync</span></span>
 
 
 <table>
@@ -74,58 +49,48 @@ Das Beständiger Chat-Datenbankschema besteht aus den folgenden Tabellen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabelle</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="15415-106">Tabelle</span><span class="sxs-lookup"><span data-stu-id="15415-106">Table</span></span></th>
+<th><span data-ttu-id="15415-107">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="15415-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType in Lync Server 2013</a></p></td>
-<td><p>Enthält Prinzipaltypen zur Kategorisierung des Inhalts der Tabelle <strong>tblPrincipal</strong> . Diese Tabelle ist statisch. Sie wird beim Erstellen der Datenbank eingerichtet und nicht geändert.</p></td>
+<td><p><span data-ttu-id="15415-108"><a href="lync-server-2013-tbladcookie.md">tblADCookie in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-108"><a href="lync-server-2013-tbladcookie.md">tblADCookie in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-109">Enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight Directory Access Protocol).</span><span class="sxs-lookup"><span data-stu-id="15415-109">Contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span> <span data-ttu-id="15415-110">Jede Zeile entspricht einer Active Directory-Domänendienst Domäne, die vom beständigen Chat Server aktiv auf Änderungen überwacht wird.</span><span class="sxs-lookup"><span data-stu-id="15415-110">Each row corresponds to an Active Directory Domain Services domain that Persistent Chat Server is actively monitoring for changes.</span></span> <span data-ttu-id="15415-111">(In dieser Tabelle werden nur die Active Directory-Domänen dargestellt, die für den beständigen Chat Server relevant sind.)</span><span class="sxs-lookup"><span data-stu-id="15415-111">(Only the Active Directory domains that are relevant for Persistent Chat Server are represented in this table.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblprincipal.md">tblPrincipal in Lync Server 2013</a></p></td>
-<td><p>Enthält alle Prinzipale (Benutzer, Ordner, Gruppen usw.). Der Server für beständigen Chat behandelt diese als unstrukturierte, heterogene List. Verschiedene Spalten basieren auf dem Typ des jeweiligen Prinzipals.</p>
-<p>Die meisten dieser Prinzipale sind zwischengespeicherte Kopien von in Active Directory gespeicherten Objekten. Das Erstellen der zwischengespeicherten Kopie in der <strong>Principal</strong> -Tabelle dieser Active Directory-Objekte wird als <em>Bereitstellung</em> bezeichnet.</p>
-<p>Einige Prinzipale werden im Vergleich zu anderen Prinzipalen offensiver erstellt, und einige Active Directory-Objekte werden vollständig ignoriert.</p></td>
+<td><p><span data-ttu-id="15415-112"><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-112"><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-113">Enthält Änderungen an Gruppenmitgliedschaften (sowohl hinzugefügte als auch entfernte Mitglieder), die noch nicht von den späteren Active Directory-Synchronisierungs Schritten verarbeitet wurden und eine der temporären Tabellen (zusammen mit der tblADUpdates-Tabelle) sind, die im ersten Schritt der Active Directory-Synchronisierung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="15415-113">Contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with tblADUpdates table) that is used in the first step of Active Directory Sync.</span></span></p>
+<p><span data-ttu-id="15415-114">Mitgliedschaftsänderungen werden gespeichert, verarbeitet oder beides, nur für Gruppen, die in der tblPrincipal-Tabelle aufgelistet sind oder in denen bereits Mitglieder aufgelistet sind.</span><span class="sxs-lookup"><span data-stu-id="15415-114">Membership changes are stored, processed, or both, only for groups that are listed in the tblPrincipal table or that already have members listed there.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations in Lync Server 2013</a></p></td>
-<td><p>Enthält Prinzipalzugehörigkeiten, welche die Mitgliedschaft bei Active Directory-Sicherheitsgruppen, Active Directory-Containern, Verbundgruppen usw. beschreiben.</p></td>
+<td><p><span data-ttu-id="15415-115"><a href="lync-server-2013-tbladupdates.md">tblADUpdates in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-115"><a href="lync-server-2013-tbladupdates.md">tblADUpdates in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-116">Enthält Änderungen an Active Directory-Domänendiensten, die noch nicht von den späteren Active Directory-Synchronisierungs Schritten verarbeitet wurden und eine der temporären Tabellen (zusammen mit der tblPrincipalMemberDifference-Tabelle) sind, die im ersten Schritt von Active Directory verwendet werden. Synchronisieren.</span><span class="sxs-lookup"><span data-stu-id="15415-116">Contains changes to Active Directory Domain Services that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with the tblPrincipalMemberDifference table) that is used in the first step of Active Directory Sync.</span></span></p>
+<p><span data-ttu-id="15415-117">Änderungen an Active Directory werden nur für Prinzipale gespeichert, verarbeitet oder beides, die bereits in der tblPrincipal-Tabelle aufgeführt sind.</span><span class="sxs-lookup"><span data-stu-id="15415-117">Changes to Active Directory are stored, processed, or both only for principals that are already listed in the tblPrincipal table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblnode.md">tblNode in Lync Server 2013</a></p></td>
-<td><p>Enthält den Kategorieknoten, wie in Lync Server-Systemsteuerung definiert.</p></td>
+<td><p><span data-ttu-id="15415-118"><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-118"><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-119">Enthält Prinzipal Mitgliedschaften.</span><span class="sxs-lookup"><span data-stu-id="15415-119">Contains principal memberships.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblroletype.md">tblRoleType in Lync Server 2013</a></p></td>
-<td><p>Enthält Rollentypen und die zugehörigen Berechtigungsgruppen. Diese Nachschlagetabelle ist statisch.</p></td>
+<td><p><span data-ttu-id="15415-120"><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-120"><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-121">Enthält die Prinzipale, die aus Active Directory aktualisiert werden müssen.</span><span class="sxs-lookup"><span data-stu-id="15415-121">Contains the principals that have to be refreshed from Active Directory.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal in Lync Server 2013</a></p></td>
-<td><p>Enthält Bereiche, die Knoten zugewiesen sind.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole in Lync Server 2013</a></p></td>
-<td><p>Enthält Rollen, die Knoten zugewiesen sind.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList in Lync Server 2013</a></p></td>
-<td><p>Enthält die registrierten Add-Ins, die Knoten zugeordnet werden können.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in Lync Server 2013</a></p></td>
-<td><p>Enthält nur die hartcodierten Attribute <strong>Visibility</strong> und <strong>Behavior</strong> , die in der <strong>tblNode</strong> -Tabelle verwendet werden.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in Lync Server 2013</a></p></td>
-<td><p>Enthält die Werte der hartcodierten Attribute <strong>Visibility</strong> und <strong>Behavior</strong> , die in der <strong>tblNode</strong> -Tabelle verwendet werden.</p></td>
+<td><p><span data-ttu-id="15415-122"><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-122"><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-123">Enthält Zugehörigkeiten, die aus irgendeinem Grund nicht aktualisiert werden konnten, in der Regel aufgrund von Active Directory-Zugriffsfehlern.</span><span class="sxs-lookup"><span data-stu-id="15415-123">Contains affiliations that could not be refreshed for some reason, usually due to Active Directory access errors.</span></span></p>
+<p><span data-ttu-id="15415-124">Diese Tabelle dient nur zu Informationszwecken.</span><span class="sxs-lookup"><span data-stu-id="15415-124">This table is for informational purposes only.</span></span> <span data-ttu-id="15415-125">Der Inhalt wird nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="15415-125">Its content is not used.</span></span></p>
+<p><span data-ttu-id="15415-126">Die Prinzipale mit Zuordnungen, die nicht ordnungsgemäß aktualisiert werden konnten, werden in der tblPrincipalMeta-Tabelle aufbewahrt und erhalten eine weitere Chance, aktualisiert zu werden.</span><span class="sxs-lookup"><span data-stu-id="15415-126">The principals with affiliations that could not be refreshed properly are kept in the tblPrincipalMeta table and are given another chance to be refreshed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Einladungen, Chats und sonstige Clientunterstützung
+</div>
+
+<div>
+
+## <a name="principals-affiliations-nodes-scopes-and-roles"></a><span data-ttu-id="15415-127">Prinzipale, Zuordnungen, Knoten, Bereiche und Rollen</span><span class="sxs-lookup"><span data-stu-id="15415-127">Principals, Affiliations, Nodes, Scopes, and Roles</span></span>
 
 
 <table>
@@ -135,40 +100,62 @@ Das Beständiger Chat-Datenbankschema besteht aus den folgenden Tabellen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabelle</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="15415-128">Tabelle</span><span class="sxs-lookup"><span data-stu-id="15415-128">Table</span></span></th>
+<th><span data-ttu-id="15415-129">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="15415-129">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites in Lync Server 2013</a></p></td>
-<td><p>Enthält Einladungen für alle bereitgestellten Benutzer im System für alle Knoten mit aktivierter automatischer Einladung.</p></td>
+<td><p><span data-ttu-id="15415-130"><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-130"><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-131">Enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.</span><span class="sxs-lookup"><span data-stu-id="15415-131">Contains principal types to categorize what is in the tblPrincipal table.</span></span> <span data-ttu-id="15415-132">Diese Tabelle ist statisch.</span><span class="sxs-lookup"><span data-stu-id="15415-132">This table is static.</span></span> <span data-ttu-id="15415-133">Sie wird während der Datenbankerstellung eingerichtet und ändert sich nicht.</span><span class="sxs-lookup"><span data-stu-id="15415-133">It is set up during database creation and does not change.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblchat.md">tblChat in Lync Server 2013</a></p></td>
-<td><p>Enthält alle Chatnachrichten.</p></td>
+<td><p><span data-ttu-id="15415-134"><a href="lync-server-2013-tblprincipal.md">tblPrincipal in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-134"><a href="lync-server-2013-tblprincipal.md">tblPrincipal in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-135">Enthält alle Prinzipale (Benutzer, Ordner, Gruppen usw.).</span><span class="sxs-lookup"><span data-stu-id="15415-135">Contains all principals (users, folders, groups, and so on).</span></span> <span data-ttu-id="15415-136">Der Server für beständigen Chat behandelt dies als flache heterogene Liste.</span><span class="sxs-lookup"><span data-stu-id="15415-136">Persistent Chat Server handles this as a flat heterogeneous list.</span></span> <span data-ttu-id="15415-137">Verschiedene Spalten basieren auf dem Typ jedes Prinzipals.</span><span class="sxs-lookup"><span data-stu-id="15415-137">Various columns are based on the type of each principal.</span></span></p>
+<p><span data-ttu-id="15415-138">Bei den meisten dieser Prinzipale handelt es sich um zwischengespeicherte Kopien von Objekten, die in Active Directory gespeichert sind.</span><span class="sxs-lookup"><span data-stu-id="15415-138">Most of these principals are cached copies of objects stored in Active Directory.</span></span> <span data-ttu-id="15415-139">Das Erstellen der zwischengespeicherten Kopie in der Prinzipal Tabelle dieser Active Directory-Objekte wird als <em>Bereitstellung</em>bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="15415-139">Creating the cached copy in the Principal table of these Active Directory objects is referred as <em>provisioning</em>.</span></span></p>
+<p><span data-ttu-id="15415-140">Einige Prinzipale werden aggressiver als andere erstellt, und einige Active Directory-Objekte werden insgesamt ignoriert.</span><span class="sxs-lookup"><span data-stu-id="15415-140">Some principals are created more aggressively than others, and some Active Directory objects are ignored altogether.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId in Lync Server 2013</a></p></td>
-<td><p>Enthält die letzte Einladungs-ID, die für jeden Benutzer generiert (und in der <strong>tblPrincipalInvite</strong> -Tabelle) verwendet wurde.</p></td>
+<td><p><span data-ttu-id="15415-141"><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-141"><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-142">Enthält Haupt Zuordnungen, die Mitgliedschaften in Active Directory-Sicherheitsgruppen, Active Directory-Container usw. beschreiben.</span><span class="sxs-lookup"><span data-stu-id="15415-142">Contains principal affiliations that describe memberships in Active Directory security groups, Active Directory containers, and so on.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tbllastchatid.md">tblLastChatId in Lync Server 2013</a></p></td>
-<td><p>Enthält die letzte Chat-ID, die für jeden Benutzer generiert (und in der <strong>tblChat</strong> -Tabelle) verwendet wurde.</p></td>
+<td><p><span data-ttu-id="15415-143"><a href="lync-server-2013-tblnode.md">tblNode in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-143"><a href="lync-server-2013-tblnode.md">tblNode in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-144">Enthält den Kategorie-Knoten, wie in der lync Server-Systemsteuerung verwaltet.</span><span class="sxs-lookup"><span data-stu-id="15415-144">Contains the category node, as managed in Lync Server Control Panel.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblpreference.md">tblPreference in Lync Server 2013</a></p></td>
-<td><p>Enthält Benutzerclienteinstellungen (nur von Legacyclients verwendet).</p></td>
+<td><p><span data-ttu-id="15415-145"><a href="lync-server-2013-tblroletype.md">tblRoleType in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-145"><a href="lync-server-2013-tblroletype.md">tblRoleType in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-146">Enthält Rollentypen und die zugehörigen Berechtigungssätze.</span><span class="sxs-lookup"><span data-stu-id="15415-146">Contains role types and their associated permission sets.</span></span> <span data-ttu-id="15415-147">Diese Nachschlagetabelle ist statisch.</span><span class="sxs-lookup"><span data-stu-id="15415-147">This lookup table is static.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblfiletoken.md">tblFileToken in Lync Server 2013</a></p></td>
-<td><p>Enthält temporäre Token für Dateiübertragungszwecke. Jedes Mal, wenn eine Datei hoch- oder heruntergeladen wird, generiert der Beständiger Chat-Dienst ein Token, das der Client für den Zugriff auf den Webdienste-Dateispeicher verwendet.</p></td>
+<td><p><span data-ttu-id="15415-148"><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-148"><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-149">Enthält Bereiche, die Knoten zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="15415-149">Contains scopes assigned to nodes.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="15415-150"><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-150"><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-151">Enthält Rollen, die Knoten zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="15415-151">Contains roles assigned to nodes.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="15415-152"><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-152"><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-153">Enthält die registrierten Add-Ins, die Knoten zugeordnet werden können.</span><span class="sxs-lookup"><span data-stu-id="15415-153">Contains the registered Add-ins that can be associated with nodes.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="15415-154"><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-154"><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-155">Enthält nur die hart &quot;codierten&quot; Sichtbarkeits-und &quot;Verhaltens&quot; Attribute, die in der tblNode-Tabelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="15415-155">Contains only the hardcoded &quot;Visibility&quot; and &quot;Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="15415-156"><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-156"><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-157">Enthält die Werte der hartcodierten &quot;Sichtbarkeits-und Verhaltens&quot; Attribute, die in der tblNode-Tabelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="15415-157">Contains the values of the hardcoded &quot;Visibility” and “Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Serverunterstützung
+</div>
+
+<div>
+
+## <a name="invites-chats-and-other-client-support"></a><span data-ttu-id="15415-158">Einladungen, Chats und andere Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="15415-158">Invites, Chats, and Other Client Support</span></span>
 
 
 <table>
@@ -178,31 +165,91 @@ Das Beständiger Chat-Datenbankschema besteht aus den folgenden Tabellen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabelle</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="15415-159">Tabelle</span><span class="sxs-lookup"><span data-stu-id="15415-159">Table</span></span></th>
+<th><span data-ttu-id="15415-160">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="15415-160">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity in Lync Server 2013</a></p></td>
-<td><p>Enthält die aktiven Server im Serverpool für beständigen Chat-Pool.</p></td>
+<td><p><span data-ttu-id="15415-161"><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-161"><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-162">Enthält Einladungen für alle bereitgestellten Benutzer im System für alle Knoten, bei denen die automatische Einladung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="15415-162">Contains invites for all provisioned users in the system for all nodes with Auto Invite enabled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tbladminlock.md">tblAdminLock in Lync Server 2013</a></p></td>
-<td><p>Enthält die Administratorsperre für die Ausführung einiger Administratorbefehle. Der Systemrevisionseintrag in der <strong>tblSystemRevision</strong> -Tabelle wird nach jeder Freigabe der Sperre schrittweise erhöht.</p></td>
+<td><p><span data-ttu-id="15415-163"><a href="lync-server-2013-tblchat.md">tblChat in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-163"><a href="lync-server-2013-tblchat.md">tblChat in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-164">Enthält alle Chatnachrichten.</span><span class="sxs-lookup"><span data-stu-id="15415-164">Contains all chat messages.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision in Lync Server 2013</a></p></td>
-<td><p>Enthält den Revisionsnummerneintrag, der (zusammen mit der <strong>AdminLock</strong> -Tabelle) zur Einhaltung der Konsistenz bei mehreren Servern verwendet wird.</p></td>
+<td><p><span data-ttu-id="15415-165"><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-165"><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-166">Enthält die letzte Einladungs-ID, die für jeden Benutzer generiert (und in der tblPrincipalInvites-Tabelle verwendet) wurde.</span><span class="sxs-lookup"><span data-stu-id="15415-166">Contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblactivepeers.md">tblActivePeers in Lync Server 2013</a></p></td>
-<td><p>Enthält aktuelle Peer-zu-Peer-Verbindungen zwischen Beständiger Chat-Diensten.</p></td>
+<td><p><span data-ttu-id="15415-167"><a href="lync-server-2013-tbllastchatid.md">tblLastChatId in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-167"><a href="lync-server-2013-tbllastchatid.md">tblLastChatId in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-168">Enthält die letzte Chat-ID, die für jeden Benutzer generiert (und in der tblChat-Tabelle verwendet) wurde.</span><span class="sxs-lookup"><span data-stu-id="15415-168">Contains the last chat ID that was generated (and used in the tblChat table) for each user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblconfig.md">tblConfig in Lync Server 2013</a></p></td>
-<td><p>Enthält die nicht unterstützte Server für beständigen Chat-Konfiguration.</p></td>
+<td><p><span data-ttu-id="15415-169"><a href="lync-server-2013-tblpreference.md">tblPreference in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-169"><a href="lync-server-2013-tblpreference.md">tblPreference in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-170">Enthält Benutzer-Client-Einstellungen (nur von Legacy-Clients verwendet).</span><span class="sxs-lookup"><span data-stu-id="15415-170">Contains user client preferences (used by legacy clients only).</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="15415-171"><a href="lync-server-2013-tblfiletoken.md">tblFileToken in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-171"><a href="lync-server-2013-tblfiletoken.md">tblFileToken in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-172">Enthält temporäre Token für Datei Übertragungs Zwecke.</span><span class="sxs-lookup"><span data-stu-id="15415-172">Contains temporary tokens for file transfer purposes.</span></span> <span data-ttu-id="15415-173">Jedes Mal, wenn eine Datei hochgeladen oder heruntergeladen wird, generiert der beständige Chat Dienst ein Token, das der Client für den Zugriff auf den Webdienst-Dateispeicher verwendet.</span><span class="sxs-lookup"><span data-stu-id="15415-173">Each time a file is uploaded or downloaded, the Persistent Chat service generates a token that the client uses to access the Web service file store.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<div>
+
+## <a name="server-support"></a><span data-ttu-id="15415-174">Serverunterstützung</span><span class="sxs-lookup"><span data-stu-id="15415-174">Server Support</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="15415-175">Tabelle</span><span class="sxs-lookup"><span data-stu-id="15415-175">Table</span></span></th>
+<th><span data-ttu-id="15415-176">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="15415-176">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="15415-177"><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-177"><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-178">Enthält die aktiven Server im Server Pool für beständigen Chat.</span><span class="sxs-lookup"><span data-stu-id="15415-178">Contains the active servers in the Persistent Chat Server pool.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="15415-179"><a href="lync-server-2013-tbladminlock.md">tblAdminLock in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-179"><a href="lync-server-2013-tbladminlock.md">tblAdminLock in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-180">Enthält die administratorsperre zum Ausführen einiger Administrator Befehle.</span><span class="sxs-lookup"><span data-stu-id="15415-180">Contains the administrator lock to run some administrator commands.</span></span> <span data-ttu-id="15415-181">Der systemrevision-Eintrag in der tblSystemRevision-Tabelle wird nach jeder Version der Sperre inkrementiert.</span><span class="sxs-lookup"><span data-stu-id="15415-181">The system revision entry in the tblSystemRevision table is incremented after each release of the lock.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="15415-182"><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-182"><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-183">Enthält den Eintrag für die Revisionsnummer (zusammen mit der tblAdminLock-Tabelle), um die Konsistenz auf mehreren Servern zu erreichen.</span><span class="sxs-lookup"><span data-stu-id="15415-183">Contains the revision number entry used (along with the tblAdminLock table) for achieving consistency across multiple servers.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="15415-184"><a href="lync-server-2013-tblactivepeers.md">tblActivePeers in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-184"><a href="lync-server-2013-tblactivepeers.md">tblActivePeers in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-185">Enthält aktuelle Peer-to-Peer-Verbindungen zwischen beständigen Chat Diensten.</span><span class="sxs-lookup"><span data-stu-id="15415-185">Contains current peer-to-peer connections between Persistent Chat services.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="15415-186"><a href="lync-server-2013-tblconfig.md">tblConfig in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="15415-186"><a href="lync-server-2013-tblconfig.md">tblConfig in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="15415-187">Enthält die Konfiguration des beständigen Chat Servers, die nicht unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="15415-187">Contains the Persistent Chat Server unsupported configuration.</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
