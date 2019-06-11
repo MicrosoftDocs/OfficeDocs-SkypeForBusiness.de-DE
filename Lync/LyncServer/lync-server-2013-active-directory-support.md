@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Active Directory-Unterstützung'
-TOCTitle: Active Directory-Unterstützung
-ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425756(v=OCS.15)
-ms:contentKeyID: 49293494
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Active Directory-Unterstützung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory support
+ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
+ms:contentKeyID: 48183679
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9be3bda71e44d0e739fce3a8d01db9cb84e2b9e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839957"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Active Directory-Unterstützung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="active-directory-support-in-lync-server-2013"></a>Active Directory-Unterstützung in Lync Server 2013
 
-Folgende lokale Topologien für Active Directory-Domänendienste werden von Lync Server 2013 unterstützt:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-12-04_
+
+Die lokalen Topologien für Active Directory-Domänendienste, die von lync Server 2013 unterstützt werden, sind wie folgt:
 
   - Einzelne Gesamtstruktur mit einzelner Domäne
 
@@ -27,17 +47,35 @@ Folgende lokale Topologien für Active Directory-Domänendienste werden von Lync
 
   - Mehrere Gesamtstrukturen in einer Topologie mit Ressourcengesamtstruktur
 
-
-> [!NOTE]
-> Lync Server 2013 unterstützt keine Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens <STRONG>contoso.local</STRONG> unterstützt, eine Stammdomäne mit einfacher Bezeichnung namens <STRONG>local</STRONG> hingegen nicht. Ausführliche Informationen finden Sie im Microsoft&nbsp;Knowledge Base-Artikel&nbsp;300684 "Informationen zur Konfiguration von Active Directory-Domänen mit DNS-Namen mit einfacher Bezeichnung" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=143752">http://go.microsoft.com/fwlink/?linkid=143752</A>.
+<div>
 
 
-
-
-> [!NOTE]
-> Lync Server 2013 unterstützt die Umbenennung von Domänen nicht. Wenn Sie eine Domäne umbenennen müssen, in der Lync Server bereitgestellt ist, müssen Sie zuerst Lync Server deinstallieren, die Domäne umbenennen und Lync Server dann wieder installieren.
+> [!NOTE]  
+> Lync Server 2013 unterstützt keine Single-Label-Domänen. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne mit dem Namen " <STRONG>contoso. local</STRONG> " unterstützt, aber eine Stammdomäne mit einer einzelnen Bezeichnung, die " <STRONG>local</STRONG> " heißt, wird nicht unterstützt. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einer <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>Bezeichnung" unter.
 
 
 
-Ausführliche Informationen zu unterstützten Topologien und Anforderungen für lokale Bereitstellungen finden Sie unter [Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste in Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) in der Planungsdokumentation.
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Lync Server 2013 unterstützt keine Umbenennung von Domänen. Wenn Sie eine Domäne umbenennen müssen, in der lync Server bereitgestellt wird, müssen Sie zunächst lync Server deinstallieren, dann die Domäne umbenennen und dann lync Server erneut installieren.
+
+
+
+</div>
+
+Ausführliche Informationen zu unterstützten Topologien und Anforderungen für lokale Bereitstellungen finden Sie unter [Anforderungen für Active Directory-Domänendienste, Unterstützung und Topologien in lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) in der Planungsdokumentation.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

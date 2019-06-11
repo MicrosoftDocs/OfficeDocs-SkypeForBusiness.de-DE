@@ -1,57 +1,91 @@
-﻿---
-title: 'Lync Server 2013: Change management'
+---
+title: 'Lync Server 2013: Änderungsverwaltung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn720336(v=OCS.15)
-ms:contentKeyID: 62221549
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
+ms:contentKeyID: 63969618
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839621"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Change management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="change-management-in-lync-server-2013"></a>Änderungsverwaltung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-08-18_
 
-Changes to the IT environment are unavoidable. Changes include new technologies, systems, applications, hardware, tools, processes, and changes in roles and responsibilities. An effective change management system lets you introduce changes to the IT environment quickly and with minimal service disruption. A change management system brings together the teams involved in changing a system. For example, deciding to take advantage of the Office Web Apps. This is an integrated Lync Service application that enables users to read and edit documents in a browser. The implementation of this service, after you have gone into production, requires the involvement of several teams:
+Änderungen an der IT-Umgebung sind unvermeidlich. Zu den Änderungen gehören neue Technologien, Systeme, Anwendungen, Hardware, Tools, Prozesse und Änderungen an Rollen und Zuständigkeiten. Mit einem effektiven Änderungsverwaltungssystem können Sie Änderungen an der IT-Umgebung schnell und mit minimaler Dienstunterbrechung einführen. Ein Change Management System führt die Teams zusammen, die an der Änderung eines Systems beteiligt sind. Beispielsweise die Entscheidung, die Vorteile der Office Web Apps zu nutzen. Hierbei handelt es sich um eine integrierte lync-Dienstanwendung, mit der Benutzer Dokumente in einem Browser lesen und bearbeiten können. Die Implementierung dieses Diensts erfordert, nachdem Sie die Produktion durchlaufen haben, die Einbindung mehrerer Teams:
 
-  - **Test Team**   This team load-tests the Office Web Apps on a test server, in the process providing information about the expected usage patterns and expected performance of the production servers.
+  - **Testteam**   dieses Team lädt-testet die Office Web Apps auf einem Testserver im Prozess, in dem Informationen zu den voraussichtlichen Verwendungsmustern und der erwarteten Leistung der Produktionsserver bereitgestellt werden.
 
-  - **Lync Administrators**   This team determines the deployment strategy and scripts the installation where it was possible. The team is responsible for making sure that the change is deployed on the production environment, and it is responsible for administration afterward. The team must understand the effect of the changes and incorporate them in procedures before the changes are put into production
+  - **Lync-Administratoren**   dieses Team ermittelt die Bereitstellungsstrategie und erstellt Skripts für die Installation, sofern dies möglich war. Das Team ist dafür verantwortlich, sicherzustellen, dass die Änderung in der Produktionsumgebung bereitgestellt wird, und ist danach für die Verwaltung verantwortlich. Das Team muss die Auswirkungen der Änderungen verstehen und in Verfahren einbeziehen, bevor die Änderungen in die Produktion übernommen werden.
 
-  - **Network Team**   This team is responsible for changes to firewall rules that allow access from the Internet to the internal Lync pool servers. The team is also responsible in working with the Lync administrators for making sure that the available bandwidth can support the additional load.
+  - **Netzwerkteam**   dieses Team ist für Änderungen an Firewallregeln verantwortlich, die den Zugriff aus dem Internet auf die internen lync-Pool Server zulassen. Das Team ist auch für die Zusammenarbeit mit den lync-Administratoren verantwortlich, um sicherzustellen, dass die verfügbare Bandbreite die zusätzliche Last unterstützenkann.
 
-  - **Security Team**   This team assesses security and minimizes risks. The security team must review known vulnerabilities and help ensure that security risks are minimized.
+  - **Sicherheitsteam**   dieses Team bewertet die Sicherheit und minimiert Risiken. Das Sicherheitsteam muss bekannte Sicherheitsanfälligkeiten überprüfen und sicherstellen, dass Sicherheitsrisiken minimiert werden.
 
-  - **User Acceptance Team**   This team is composed of users who are willing to test the system and offer feedback for improvements.
+  - **Benutzerakzeptanzteam**   dieses Team besteht aus Benutzern, die bereit sind, das System zu testen und Feedback zu Verbesserungen anzubieten.
 
-The change management process defines the responsibilities of each team and schedules the work to be performed, incorporating checks and tests where they are required. Change controls will vary depending on the complexity and expected effect of a change. They can vary from automatic approval of minor changes, to change review meetings, to full project-level reviews. To explain this better, the groups of changes are discussed in this section.
+Der Change Management-Prozess definiert die Zuständigkeiten der einzelnen Teams und plant die auszuführende Arbeit, wobei die erforderlichen Prüfungen und Tests integriert werden. Die Steuerelemente für Änderungen variieren abhängig von der Komplexität und dem erwarteten Effekt einer Änderung. Sie können von der automatischen Genehmigung für geringfügige Änderungen, über Änderungs Überprüfungs Besprechungen bis hin zu vollständigen Bewertungen auf Projektebene variieren. Um dies besser zu erklären, werden die Gruppen von Änderungen in diesem Abschnitt erläutert.
 
-  - **Major Changes**   Major changes have a global effect on the system and may require input from various teams. An example of this is upgrading to Lync Server 2013. Major changes affect many teams and perhaps different systems. The change management process will probably include one or more change review meetings to inform the teams that will be involved in the change or be affected by the change.
+  - **Wichtige Änderungen**   größere Änderungen haben eine globale Auswirkung auf das System und erfordern möglicherweise Eingaben von verschiedenen Teams. Ein Beispiel hierfür ist das Upgrade auf lync Server 2013. Wichtige Änderungen betreffen viele Teams und möglicherweise andere Systeme. Der Change Management-Prozess umfasst wahrscheinlich eine oder mehrere Änderungs Überprüfungs Besprechungen, um die Teams zu informieren, die an der Änderung beteiligt sind oder von der Änderung betroffen sein werden.
 
-  - **Significant Changes**   Significant changes require significant resources to plan, build, and implement. Appropriate change controls should be introduced to help make ensure that the effect of the change is understood, deployment procedures are tested, and the rollback and contingency plans are ready. An example of a significant change is deploying a new cumulative update.
+  - **Signifikante Änderungen**   wesentliche Änderungen erfordern erhebliche Ressourcen, um zu planen, zu erstellen und zu implementieren. Es sollten geeignete Änderungs Steuerelemente eingeführt werden, um sicherzustellen, dass die Auswirkungen der Änderung verstanden werden, Bereitstellungsverfahren getestet und die Rollback-und Notfallpläne bereit sind. Ein Beispiel für eine wesentliche Änderung ist die Bereitstellungeines neuen kumulativen Updates.
 
-  - **Minor Changes**   Minor changes do not significantly affect the IT environment, for example, changing certain Lync policies via the Systemsteuerung für Microsoft Lync Server 2013.
+  - **Geringfügige Änderungen**   geringfügige Änderungen haben keine nennenswerten Auswirkungen auf die IT-Umgebung, beispielsweise das Ändern bestimmter lync-Richtlinien über die Microsoft lync Server 2013-Systemsteuerung.
 
-  - **Standard Changes**   Standard changes are performed regularly and are well understood and documented. The change management process should review all changes to the procedures. It should not be needed for routine changes like creating a content database or adding a user.
+  - ****   Standardänderungen Standardänderungen werden regelmäßig durchgeführt und sind gut verstanden und dokumentiert. Der Change Management-Prozess sollte alle Änderungen an den Prozeduren überprüfen. Es sollte nicht für Routineänderungen wie das Erstellen einer Inhaltsdatenbank oder das Hinzufügen eines Benutzers benötigt werden.
 
-The following example of change management examines how different teams interact and the actions that are performed when a new service pack is deployed. These actions are organized and managed by the change management process.
+Im folgenden Beispiel für die Änderungsverwaltung wird untersucht, wie verschiedene Teams interagieren und welche Aktionen ausgeführt werden, wenn ein neues Service Pack bereitgestellt wird. Diese Aktionen werden vom Change Management-Prozess organisiert und verwaltet.
 
-  - **Raise a change request**   The security team has assessed the latest service pack and confirmed that it resolves a possible vulnerability in the production system. The team raises a change request to have the new cumulative update applied to all servers that are running Lync Server.
+  - **Auslösen einer Änderungsanforderung**   das Sicherheitsteam hat das neueste Service Pack bewertet und bestätigt, dass es eine mögliche Sicherheitsanfälligkeit im Produktionssystem behebt. Das Team löst eine Änderungsanforderung aus, damit das neue kumulative Update auf alle Server angewendet wird, auf denen lync Server ausgeführt wird.
 
-  - **Service pack release notes review**   The Lync administrator team reviews the service pack release notes to identify the effect on the system.
+  - **Informationen zu Service Pack-Versions**   hinweisen das lync-Administrator Team überprüft die Versionshinweise des Service Packs, um die Auswirkungen auf das System zu ermitteln.
 
-  - **A series of lab tests is performed**   The Lync administrator team must perform test updates on a server in a test environment to decide whether the service pack can be applied successfully without affecting any of the installed applications and server systems. If there are third-party or internally created applications that interface with Lync Server in a production environment, these should be also tested. These tests can also be used to estimate the time that is required to perform the upgrades.
+  - **Eine Reihe von Lab-Tests wird durchgeführt**   das lync-Administrator Team muss Test Updates auf einem Server in einer Testumgebung durchführen, um zu entscheiden, ob das Service Pack erfolgreich angewendet werden kann, ohne dass dies Auswirkungen auf installierte Anwendungen und Server hat. Systeme. Wenn es sich um von Drittanbietern oder intern erstellte Anwendungen handelt, die eine Schnittstelle zu lync Server in einer Produktionsumgebung aufweisen, sollten diese ebenfalls getestet werden. Diese Tests können auch verwendet werden, um die Zeit zu schätzen, die für die Ausführung der Upgrades erforderlich ist.
 
-  - **Users are informed of the outage**   The Lync administrator team, communications team, or user help desk informs all affected users about the planned maintenance cycle and how long the service will be unavailable.
+  - **Die Benutzer werden über den Ausfall**   informiert, den das lync-Administrator Team, das Kommunikationsteam oder der Benutzer-Helpdesk alle betroffenen Benutzer über den geplanten Wartungszyklus informiert und wie lange der Dienst nicht verfügbar ist.
 
-  - **A full backup of Lync is performed before the upgrade**   The Lync administrator team must verify that there is a valid backup that can be used to revert to the original system state if the service pack installation fails. We recommend that the backup be restored to a standby server to have this system readily available if there are issues.
+  - **Eine vollständige Sicherung von lync wird vor dem Upgrade**   durchgeführt, das vom lync-Administrator Team überprüft werden muss, ob eine gültige Sicherung vorhanden ist, die zum Wiederherstellen des ursprünglichen Systemzustands verwendet werden kann, wenn die Service Pack-Installation fehlschlägt. Wir empfehlen, dass die Sicherung auf einem Standbyserver wiederhergestellt wird, damit dieses System bei Problemen problemlos zur Verfügung steht.
 
-  - **The cumulative update is deployed**   The Lync administrator team does the installation during the planned maintenance cycle.
+  - **Das kumulative Update wird bereitgestellt**   , wenn das lync-Administrator Team die Installation während des geplanten Wartungszyklus durchführt.
 
-## Managing the timing of changes
+<div>
 
-We recommend that you implement a procedure for scheduling changes to avoid disruptions in overlapping sections of your work. For example, two teams may both be planning a minor change to a system. One team may be applying a cumulative update on a pool while another team is migrating legacy users into that pool. Neither team is affected by the changes that the other team is planning, and each team may not necessarily know about changes that the other team is planning. If both changes occurred at the same time, there might be issues implementing the changes. Also, if there are issues after the changes were applied, for example, if the user migration fails, it may be difficult to decide which change should be rolled back. There should be regular maintenance periods set up between IT and management to test the changes and accept them.
+## <a name="managing-the-timing-of-changes"></a>Verwalten der Anzeigedauer von Änderungen
+
+Wir empfehlen, dass Sie eine Vorgehensweise zum Planen von Änderungen implementieren, um Unterbrechungen in überlappenden Abschnitten ihrer Arbeit zu vermeiden. So können beispielsweise zwei Teams eine geringfügige Änderung an einem System planen. Ein Team kann ein kumulatives Update in einem Pool anwenden, während ein anderes Team ältere Benutzer in diesen Pool migriert. Keines der Teams ist von den Änderungen betroffen, die das andere Team plant, und jedes Team weiß möglicherweise nicht unbedingt, welche Änderungen das andere Team plant. Wenn beide Änderungen gleichzeitig aufgetreten sind, gibt es möglicherweise Probleme beim Implementieren der Änderungen. Wenn nach dem Anwenden der Änderungen Probleme auftreten, beispielsweise wenn die Benutzermigration fehlschlägt, ist es möglicherweise schwierig, zu entscheiden, welche Änderung zurückgesetzt werden soll. Es sollten regelmäßige Wartungszeiten zwischen IT und Verwaltung eingerichtet werden, um die Änderungen zu testen und zu akzeptieren.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

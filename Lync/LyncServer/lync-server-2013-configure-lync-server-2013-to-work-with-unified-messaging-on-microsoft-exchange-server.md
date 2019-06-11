@@ -1,103 +1,151 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Microsoft Exchange Server'
-TOCTitle: Konfigurieren von Lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Microsoft Exchange Server
-ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398193(v=OCS.15)
-ms:contentKeyID: 49293206
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Microsoft Exchange Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
+ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
+ms:contentKeyID: 48183430
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839361"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Microsoft Exchange Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Konfigurieren von Lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Microsoft Exchange Server
 
-Für diesen Schritt ist das Exchange UM-Integrationsprogramm (OcsUmUtil.exe) erforderlich. Dieses Tool befindet sich in Lync Server 2013 im Ordner "..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support".
+</div>
 
-## Ausführen des Exchange UM-Integrationsprogramms
+<div id="mainSection">
 
-Das Exchange UM-Integrationsprogramm muss mit einem Benutzerkonto ausgeführt werden, das die folgenden Voraussetzungen erfüllt:
+<div id="mainBody">
 
-  - Mitgliedschaft in den Gruppen "RTCUniversalServerAdmins" und "RtcUniversalUserAdmins" (mit der Berechtigung zum Lesen von Exchange Server Unified Messaging-Einstellungen)
+_**Letztes Änderungsdatum des Themas:** 2013-04-03_
 
-  - Benutzerrechte innerhalb der Domäne zum Erstellen von Kontaktobjekten im angegebenen OU-Container (Organizational Unit, Organisationseinheit)
+Für diesen Schritt ist das Exchange um-Integrations Dienstprogramm (OcsUmUtil. exe) erforderlich. Dieses Tool befindet sich auf dem lync Server 2013-Server in.. \\Programmdateien\\(Common\\files) Microsoft lync\\Server 2013-Support Ordner.
 
-Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgeführt:
+<div>
 
-  - Erstellen von Kontaktobjekten für alle Telefonzentralen- und Teilnehmerzugriffsnummern, die von Enterprise-VoIP-Benutzern verwendet werden sollen.
+## <a name="running-the-exchange-um-integration-utility"></a>Ausführen des Exchange um-Integrationstools
 
-  - Überprüfen der Namen aller Enterprise-VoIP-Wählpläne darauf, ob sie mit dem Telefonkontext der zugehörigen UM (Unified Messaging)-Wähleinstellungen übereinstimmen. Dieser Abgleich ist nur erforderlich, wenn der UM-Wählplan auf einer Exchange-Version *vor* Exchange 2010 Service Pack 1 (SP1) ausgeführt wird.
+Das Exchange um-Integrations Dienstprogramm muss von einem Benutzerkonto mit den folgenden Merkmalen ausgeführt werden:
 
-> [!IMPORTANT]  
-> Stellen Sie vor der Ausführung des Exchange UM-Integrationsprogramms Folgendes sicher:
+  - Mitgliedschaft in den Gruppen "RTCUniversalServerAdmins" und "RtcUniversalUserAdmins" (mit der Berechtigung zum Lesen von Exchange Server Unified Messaging-Einstellungen).
+
+  - Benutzerrechte innerhalb der Domäne, um Kontaktobjekte im angegebenen Organisationseinheitscontainer (OU) zu erstellen.
+
+Wenn Sie das Exchange um-Integrations Dienstprogramm ausführen, führt es die folgenden Aufgaben aus:
+
+  - Erstellt Kontaktobjekte für jede automatische Telefonzentrale und Teilnehmerzugriffsnummer, die von Enterprise-VoIP-Benutzern verwendet werden soll.
+
+  - Überprüft, ob der Name der einzelnen Enterprise-VoIP-Wählpläne dem zugehörigen Unified Messaging-Wähl Plan Telefonkontext entspricht. Dieser Abgleich ist nur erforderlich, wenn der um-Wählplan unter einer *früheren* Exchange-Version als Exchange 2010 Service Pack 1 (SP1) ausgeführt wird.
+
+> [!IMPORTANT]
+> Bevor Sie das Exchange um-Integrations Dienstprogramm ausführen, stellen Sie sicher, dass Sie die folgenden Schritte ausgeführt haben:
 > <ul>
-> <li><p>Sie haben einen oder mehrere Sätze mit Exchange UM-Wähleinstellungen erstellt, wie beschrieben in der Exchange-Produktdokumentation.</p>
-> <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2010 finden Sie auf der Seite &quot;Erstellen von UM-Wähleinstellungen&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=186177" class="uri">http://go.microsoft.com/fwlink/?linkid=186177</a>.</p>
-> <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden Sie auf der Seite &quot;Erstellen eines SIP-URI-Wählplans für Unified Messaging&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=185771" class="uri">http://go.microsoft.com/fwlink/?linkid=185771</a>.</p></li>
-> <li><p>Sie haben einen oder mehrere entsprechende Lync Server-Wählpläne erstellt, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in Lync Server 2013</a> beschrieben.</p>
->  
-   > Wenn Sie eine Exchange-Version vor Microsoft Exchange Server 2010&nbsp;SP1 verwenden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des zugehörigen Exchange Unified Messaging (UM)-SIP-Wählplans im Feld <STRONG>Einfacher Name</STRONG> des Lync Server 2013-Wählplans eingeben. Wenn Sie Microsoft Exchange Server 2010 mit SP1 oder dem neuesten Service Pack verwenden, ist dieser Namensabgleich für den Wählplan nicht erforderlich.</li>
->
-> <li><p>Sie haben eine automatische Telefonzentrale erstellt und sich vergewissert, dass die Teilnehmerzugriffsnummer und die Nummer der automatischen Telefonzentrale im E.164-Format vorliegen.</p></li>
-> </ul>
+> <li><p>Erstellen Sie einen oder mehrere Exchange um-Wählpläne, wie in der Exchange-Produktdokumentation beschrieben.</p>
+> <p>Informationen zu Microsoft Exchange Server 2010 finden &quot;Sie unter Erstellen&quot; von um- <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>Wähleinstellungen unter.</p>
+> <p>Informationen zu Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden &quot;Sie unter Erstellen eines Unified Messaging-SIP-URI&quot; - <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>Wähl Plans unter.</p></li>
+> <li><p>Erstellen Sie einen oder mehrere entsprechende lync Server-Wählpläne, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in lync Server 2013</a>beschrieben.</p></li>
+> <ul><li>Wenn Sie eine Version von Exchange verwenden, die älter als Microsoft Exchange Server 2010 SP1 ist, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des entsprechenden Exchange Unified Messaging (um) SIP-Wählplans im einfachen Namen der lync Server 2013-Wähleinstellungen eingeben. <STRONG> </STRONG>Feld ein. Wenn Sie Microsoft Exchange Server 2010 SP1 oder das neueste Service Pack verwenden, ist diese Wählplannamens Übereinstimmung nicht erforderlich.</li></ul>
+> <li>Erstellen Sie eine automatische Telefonzentrale, und stellen Sie sicher, dass die Nummer des Teilnehmerzugriffs und die Nummer der automatischen Telefonzentrale im E. 164-Format vorliegen.</li></ul>
 
 
-## So führen Sie das Exchange UM-Integrationsprogramm aus
+<div>
 
-1.  Öffnen Sie auf einem Front-End-Server eine Eingabeaufforderung, geben Sie folgenden Befehl ein: **cd %CommonProgramFiles%\\Microsoft Lync Server 2013\\Support** , und drücken Sie dann die EINGABETASTE.
+## <a name="to-run-the-exchange-um-integration-utility"></a>So führen Sie das Exchange um-Integrations Dienstprogramm aus
 
-2.  Geben Sie **OcsUmUtil.exe** ein, und drücken Sie die EINGABETASTE.
+1.  Öffnen Sie auf einem Front-End-Server eine Eingabeaufforderung, und geben Sie **CD% COMMONPROGRAMFILES\\%\\Microsoft lync Server 2013-Unterstützung**ein, und drücken Sie dann die EINGABETASTE.
 
-3.  Klicken Sie auf **Daten laden** , um alle vertrauenswürdigen Exchange-Gesamtstrukturen aufzulisten.
+2.  Geben Sie **OcsUmUtil. exe**ein, und drücken Sie dann die EINGABETASTE.
 
-4.  Wählen Sie in der Liste **SIP-Wähleinstellungen** die UM-SIP-Wähleinstellungen aus, für die Sie Kontaktobjekte erstellen möchten, und klicken Sie dann auf **Hinzufügen** .
+3.  Klicken Sie auf **Daten laden** , um alle vertrauenswürdigen Exchange-Gesamtstrukturen zu finden.
 
-5.  Akzeptieren Sie entweder die Standardorganisationseinheit im Feld **Kontakt** , oder klicken Sie auf **Durchsuchen** , um die Option **Auswahl der Organisationseinheit** zu starten. Im Feld **Auswahl der Organisationseinheit** können Sie eine Organisationseinheit auswählen und auf **OK** klicken, oder Sie können auf **Neue Organisationseinheit erstellen** klicken, um unter dem Stamm oder einer anderen Organisationseinheit in der Domäne eine neue Organisationseinheit anzulegen (z. B. "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"). Klicken Sie anschließend auf **OK** .
+4.  Wählen Sie in der Liste **SIP** -Wählpläne einen um-SIP-Wählplan aus, für den Sie Kontaktobjekte erstellen möchten, und klicken Sie dann auf **Hinzufügen**.
+
+5.  Übernehmen Sie im Feld **Kontakt** die Standardorganisationseinheit, oder klicken Sie auf **Durchsuchen** , um die **OU-Auswahl**zu starten. Im Feld " **OU-Auswahl** " können Sie eine OU auswählen und auf **OK**klicken, oder Sie können auf **neue Organisations** Einheit erstellen klicken, um eine neue Organisationseinheit unter dem Stamm oder einer anderen ou in der Domäne zu erstellen (beispielsweise "ou = RTC Special Accounts, DC = FourthCoffee, DC = com"). , und klicken Sie dann auf **OK**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Der Distinguished Name (DN) der von Ihnen ausgewählten bzw. erstellten Organisationseinheit wird jetzt im Feld <STRONG>Organisationseinheit</STRONG> angezeigt.
+    > [!NOTE]  
+    > Der Distinguished Name (DN) der Organisationseinheit, die Sie ausgewählt oder erstellt haben, wird jetzt im Feld <STRONG>Organisationseinheit</STRONG> angezeigt.
 
+    
+    </div>
 
-
-6.  Übernehmen Sie entweder den im Feld **Name** angezeigten Standardnamen für die Wähleinstellungen, oder geben Sie einen neuen Anzeigenamen für das zu erstellende Kontaktobjekt ein.
+6.  Übernehmen Sie im Feld **Name** entweder den Standardnamen des Wählplans, oder geben Sie einen neuen Anzeigenamen für das zu erstellende Kontaktobjekt ein.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie ein Kontaktobjekt für den Teilnehmerzugriff erstellen, können Sie es z.&nbsp;B. einfach "Teilnehmerzugriff" nennen.
+    > [!NOTE]  
+    > Wenn Sie beispielsweise ein Kontaktobjekt für einen Teilnehmerzugriff erstellen, können Sie ihm einfach nur den Abonnenten Zugriff nennen.
 
+    
+    </div>
 
-
-7.  Übernehmen Sie im Feld **SIP-Adresse** entweder die Standard-SIP-Adresse, oder geben Sie eine neue Adresse ein.
+7.  Übernehmen Sie im Feld **SIP-Adresse** entweder die standardmäßige SIP-Adresse, oder geben Sie eine neue SIP-Adresse ein.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie eine neue SIP-Adresse eingeben, muss diese mit <STRONG>SIP:</STRONG> beginnen (d.&nbsp;h. "SIP:" einschließlich Doppelpunkt).
+    > [!NOTE]  
+    > Wenn Sie eine neue SIP-Adresse eingeben, muss Sie mit <STRONG>SIP:</STRONG> (also "SIP:" einschließlich des Doppelpunkts) beginnen.
 
+    
+    </div>
 
-
-8.  Wählen Sie in der Liste **Server oder Pool** den Standard Edition-Server oder Front-End-Pool aus, in dem das Kontaktobjekt aktiviert werden soll.
+8.  Wählen Sie in der Liste **Server oder Pool** den Standard Edition-Server oder den Front-End-Pool aus, in dem das Kontaktobjekt aktiviert werden soll.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Bei dem ausgewählten Pool sollte es sich vorzugsweise um den Pool mit den für Enterprise-VoIP und Exchange UM aktivierten Benutzern handeln.
+    > [!NOTE]  
+    > Vorzugsweise ist der ausgewählte Pool derselbe Pool, in dem Benutzer, die für Enterprise-VoIP aktiviert sind, und Exchange um bereitgestellt werden.
 
+    
+    </div>
 
+9.  Wählen Sie in der Liste **Telefonnummer** entweder **Rufnummer eingeben** oder **diese Pilotnummer in Exchange um verwenden aus** , und geben Sie dann eine Telefonnummer ein.
 
-9.  Wählen Sie in der Liste **Telefonnummer** entweder die Option **Telefonnummer eingeben** oder **Diese Pilotnummer von Exchange UM verwenden** , und geben Sie eine Telefonnummer ein.
+10. Wählen Sie **** in der Liste Kontakttyp den Typ des Kontakts aus, den Sie erstellen möchten, und klicken Sie dann auf **OK**.
 
-10. Wählen Sie in der Liste **Kontakttyp** den zu erstellenden Kontakttyp aus, und klicken Sie auf **OK** .
-
-11. Wiederholen Sie die Schritte 1 bis 10 für alle weiteren zu erstellenden Kontaktobjekte.
+11. Wiederholen Sie die Schritte 1 bis 10 für weitere Kontaktobjekte, die Sie erstellen möchten.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie sollten für jede automatische Telefonzentrale mindestens einen Kontakt erstellen. Falls Sie den externen Zugriff ermöglichen möchten, benötigen Sie außerdem ein Kontaktobjekt für den Teilnehmerzugriff und DID-Nummern (Direct Inward Dial).
+    > [!NOTE]  
+    > Sie sollten für jede automatische Telefonzentrale mindestens einen Kontakt erstellen. Wenn Sie den externen Zugriff wünschen, benötigen Sie außerdem einen Kontakt für den Teilnehmerzugriff und geben direkte Durchwahlnummern (DID) an.
 
+    
+    </div>
 
+</div>
 
-Wenn Sie sich vergewissern möchten, dass die Kontaktobjekte erstellt wurden, öffnen Sie das Snap-In **Active Directory-Benutzer und -Computer** und wählen die OU aus, in der die Objekte erstellt wurden. Die Kontaktobjekte sollten im Detailfenster angezeigt werden.
+Um zu überprüfen, ob die Kontaktobjekte erstellt wurden, öffnen Sie Active Directory-Benutzer und-Computer, und wählen Sie die Organisationseinheit aus, in der die Objekte erstellt wurden. Die Kontaktobjekte sollten im Detailbereich angezeigt werden.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,62 +1,96 @@
-﻿---
-title: Konfigurieren der Besprechungseinladung
-TOCTitle: Konfigurieren der Besprechungseinladung
-ms:assetid: 7faa4797-0344-418b-9fa3-59dfb9c2baf7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398638(v=OCS.15)
-ms:contentKeyID: 49294550
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Besprechungseinladung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the meeting invitation
+ms:assetid: 7faa4797-0344-418b-9fa3-59dfb9c2baf7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398638(v=OCS.15)
+ms:contentKeyID: 48184641
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 014a42597e3df416d9e502eaaa90e2f1e71e35ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839177"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Besprechungseinladung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-the-meeting-invitation-in-lync-server-2013"></a>Konfigurieren der Besprechungseinladung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-07-16_
 
-Sie können die vom Onlinebesprechungs-Add-In für Lync 2013 gesendeten Besprechungseinladungen anpassen, indem Sie die folgenden optionalen Elemente in den Text der Besprechungseinladung aufnehmen:
+Sie können vom Online Besprechungs-Add-in für lync 2013 gesendete Besprechungseinladungen anpassen, indem Sie die folgenden optionalen Elemente in den Textkörper der Besprechungseinladung einbeziehen:
 
-  - **Das Logo Ihrer Organisation:** Fügen Sie einer Besprechungseinladung das Logo Ihrer Organisation hinzu, indem Sie die Option "Logo der URL" verwenden. Werden Besprechungseinladungen an Personen außerhalb Ihres Unternehmens gesendet, sollte sich die Bilddatei unter einer öffentlich zugänglichen URL befinden. Die unterstützten Bildformate sind GIF und JPG. Obwohl Lync Server 2013 die URL ohne Größeneinschränkung für das Bild speichert, empfehlen wir für die besten Ergebnisse eine maximale Bildgröße von 30 Pixel hoch mal 188 Pixel breit.
+  - **Das Logo Ihrer Organisation** Fügen Sie das Logo Ihrer Organisation zu Besprechungseinladungen hinzu, indem Sie die Option Logo-URL verwenden. Wenn Besprechungseinladungen an Personen außerhalb Ihrer Organisation gesendet werden, sollte sich das Bild in einer öffentlich verfügbaren URL befinden. Die unterstützten Bildformate sind GIF und JPG. Obwohl lync Server 2013 die URL ohne Größenbeschränkungen für das Bild speichert, sollte die maximale Größe des Bilds in Höhe von 30 Pixeln um 188 Pixel breit sein, um optimale Ergebnisse zu erzielen.
 
-  - **Ein benutzerdefinierter Hilfe- oder Support-Link:** Fügen Sie eine URL für die Hilfe- oder Supportteam-Website Ihrer Organisation hinzu. Werden Besprechungseinladungen an Personen außerhalb Ihres Unternehmens gesendet, sollte die URL öffentlich zugänglich sein. Die maximale URL-Länge beträgt 1 KB.
+  - **Ein benutzerdefinierter Hilfe-oder Support Link** Fügen Sie eine URL für die Hilfe-oder Support Teamwebsite Ihrer Organisation hinzu. Wenn Besprechungseinladungen an Personen außerhalb Ihrer Organisation gesendet werden, sollte die URL öffentlich verfügbar sein. Die maximale URL-Länge beträgt 1 KB.
 
-  - **Haftungsausschluss:** Fügen Sie eine URL für rechtliche Hinweise oder einen Haftungsausschluss hinzu, die in allen Besprechungseinladungen angezeigt wird. Werden Besprechungseinladungen an Personen außerhalb Ihres Unternehmens gesendet, sollte die URL öffentlich zugänglich sein. Die maximale URL-Länge beträgt 1 KB.
+  - **Rechtlicher Ausschluss Text** Fügen Sie eine URL für juristischen Text oder eine Verzichtserklärung hinzu, die in allen Besprechungseinladungen angezeigt wird. Wenn Besprechungseinladungen an Personen außerhalb Ihrer Organisation gesendet werden, sollte die URL öffentlich verfügbar sein. Die maximale URL-Länge beträgt 1 KB.
 
-  - **Benutzerdefinierte Fußzeile:** Fügen Sie Text hinzu, der in der Einladung als benutzerdefinierte Fußzeile angezeigt wird. Die maximale Länge des Texts beträgt 2 KB.
+  - **Benutzerdefinierter Fußzeilentext** Fügen Sie Text hinzu, der in der Einladung als benutzerdefinierte Fußzeile gerendert wird. Die maximale Länge von Text, der hinzugefügt werden kann, ist 2 KB.
 
-Sie können diese Optionen entweder über die Lync Server-Systemsteuerung oder die Lync Server-Verwaltungsshell konfigurieren.
+Sie können diese Optionen entweder mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell konfigurieren.
+
+<div>
 
 
-**So passen Sie die Besprechungseinladung über die Lync Server-Systemsteuerung an**
+**So passen Sie die Besprechungseinladung mithilfe der lync Server-Systemsteuerung an**
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Konferenzen**, und klicken Sie anschließend auf **Besprechungskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** , und klicken Sie dann auf **besprechungskonfiguration**.
 
-4.  Klicken Sie auf der Seite **Besprechungskonfiguration** auf **Neu**, und führen Sie einen der folgenden Schritte aus:
+4.  Klicken Sie auf der Seite **Besprechungskonfiguration** auf **Neu** und führen Sie eine der folgenden Aktionen aus:
     
-      - Klicken Sie auf **Standortkonfiguration**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
+      - Klicken Sie auf **Standortkonfiguration**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort und klicken Sie auf **OK**.
     
-      - Klicken Sie auf **Poolkonfiguration**, um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den gesamten Namen des Pooldiensts ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool, und klicken Sie auf **OK**.
+      - Klicken Sie auf **Poolkonfiguration**, um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den gesamten Namen des Pooldienstes ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool und klicken Sie auf **OK**.
 
 5.  Führen Sie einen der folgenden Schritte aus:
     
-      - Geben Sie im Feld **Logo-URL** die URL für das Logo Ihrer Organisation ein.
+      - Geben Sie im Feld **Logo-URL** die URL für das Logo-Bild Ihrer Organisation ein.
     
-      - Geben Sie im Feld **Hilfe-URL** die URL für die Hilfe- oder Support-Website Ihrer Organisation ein.
+      - Geben Sie im Feld **Hilfe-URL** die URL der Hilfe-oder Support Website Ihrer Organisation ein.
     
-      - Geben Sie im Feld **Rechtliche Hinweise** die URL für die rechtlichen Hinweise oder den Haftungsausschluss ein, die oder den Sie in den Besprechungseinladungen anzeigen möchten.
+      - Geben Sie im Feld **rechtlicher Text** die URL für den rechtlichen Text oder die Verzichtserklärung ein, die Sie in Besprechungseinladungen einbeziehen möchten.
     
-      - Geben Sie im Feld **Benutzerdefinierter Fußzeilentext** den gewünschten Text mit einer Länge von bis zu 2 KB ein.
+      - Geben Sie im Feld **benutzerdefiniertes** Fußzeilentextfeld Fußzeilentext bis zu 2 KB ein.
 
-**So passen Sie die Besprechungseinladung über die Lync Server-Verwaltungsshell an**
+**So passen Sie die Besprechungseinladung mithilfe der lync Server-Verwaltungsshell an**
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet **New-CsMeetingConfiguration** oder **Set-CsMeetingConfiguration** aus, um die Optionen für die Besprechungseinladungen zu erstellen oder zu konfigurieren. Führen Sie beispielsweise Folgendes aus:
+2.  Führen Sie das Cmdlet " **New-CsMeetingConfiguration** " oder " **CsMeetingConfiguration** " aus, um die Besprechungs Einladungs Optionen zu erstellen oder zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
-        New-CsMeetingConfiguration -Identity site:Redmond -EnableInviteCustomization $True -LogoURL "http://www.contoso.com/logo/contosobanner.gif" -HelpURL "http://www.contoso.com/support" -LegalURL "http://www.contoso.com/disclaimer" -CustomFooterText "Communications may be monitored or recorded."
+        New-CsMeetingConfiguration -Identity site:Redmond -LogoURL "http://www.contoso.com/logo/contosobanner.gif" -HelpURL "http://www.contoso.com/support" -LegalURL "http://www.contoso.com/disclaimer" -CustomFooterText "Communications may be monitored or recorded."
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

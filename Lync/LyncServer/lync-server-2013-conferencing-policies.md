@@ -1,33 +1,67 @@
-﻿---
-title: Konferenzrichtlinien in Lync Server 2013
-TOCTitle: Konferenzrichtlinien in Lync Server 2013
-ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688133(v=OCS.15)
-ms:contentKeyID: 49890840
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konferenzrichtlinien'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing policies
+ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688133(v=OCS.15)
+ms:contentKeyID: 49733732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b60b521c69b821dacfe8bd569a6300b4c21e0287
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839468"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konferenzrichtlinien in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="conferencing-policies-in-lync-server-2013"></a>Konferenzrichtlinien in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-18_
 
-Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen. Zu den Konferenzrichtlinieneinstellungen zählt eine breite Auswahl an Planungs- und Teilnahmeoptionen, von der Verwendung von IP-Audio und -Video in einer Besprechung bis hin zur Höchstzahl der möglichen Teilnehmer. Administratoren können anhand der Konferenzrichtlinie die Sicherheit, die Bandbreite und rechtliche Aspekte von Besprechungen verwalten.
+Konferenzrichtlinie definiert die Features und Funktionen, die Benutzer während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen. Konferenzrichtlinieneinstellungen umfassen eine breite Auswahl an Planungs- und Teilnahmeoptionen, von der Verwendung von IP-Audio und -Video in einer Besprechung bis hin zur Höchstzahl der möglichen Teilnehmer. Administratoren können Konferenzrichtlinien verwenden, um Sicherheit, Bandbreite und rechtliche Aspekte von Besprechungen zu verwalten.
 
-Die Konferenzrichtlinie kann auf drei Ebenen definiert werden: auf globaler, auf Standort- und auf Benutzerebene. Die Einstellungen gelten für einen bestimmten Benutzer vom engsten bis hin zum weitesten Bereich. Wenn Sie einem Benutzer eine Benutzerrichtlinie zuweisen, erhalten diese Einstellungen Vorrang. Wenn Sie keine Benutzerrichtlinie zuweisen, gelten die Standorteinstellungen. Gelten weder Benutzer- noch Standortrichtlinien, stellt die globale Richtlinie die Standardeinstellungen bereit.
+Die Konferenzrichtlinie kann auf drei Ebenen definiert werden: auf globaler, auf Standort- und auf Benutzerebene. Die Einstellungen gelten für einen bestimmten Benutzer vom engsten bis hin zum weitesten Bereich. Wenn Sie einem Benutzer eine Benutzerrichtlinie zuweisen, haben diese Einstellungen Vorrang. Wenn Sie keine Benutzerrichtlinie zuweisen, gelten die Standorteinstellungen. Gelten weder Benutzer- noch Standortrichtlinien, stellt die globale Richtlinie die Standardeinstellungen bereit.
 
-Eine globale Richtlinie ist standardmäßig vorhanden. Sie können daher keine neue globale Richtlinie erstellen. Außerdem können Sie die vorhandene globale Richtlinie nicht löschen. Es ist jedoch möglich, die vorhandene globale Richtlinie Ihren Standardeinstellungen entsprechend anzupassen.
+Eine globale Richtlinie ist standardmäßig vorhanden, sodass Sie keine neue globale Richtlinie erstellen können. Sie können auch die vorhandene globale Richtlinie nicht löschen, aber Sie können die vorhandene globale Richtlinie so ändern, dass die Standardeinstellungen angepasst werden.
 
-## In diesem Abschnitt
+<div>
 
-  - [Anzeigen von Informationen zu Konferenzrichtlinien](lync-server-2013-view-conferencing-policy-information.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)
+  - [Anzeigen von Konferenzrichtlinien Informationen in lync Server 2013](lync-server-2013-view-conferencing-policy-information.md)
 
-  - [Löschen einer vorhandenen Konferenzrichtlinie](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [Erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [Referenz zu den Konferenzrichtlinieneinstellungen](lync-server-2013-conferencing-policy-settings-reference.md)
+  - [Löschen einer vorhandenen konferenzrichtlinie in lync Server 2013](lync-server-2013-delete-an-existing-conferencing-policy.md)
+
+  - [Referenz für konferenzrichtlinieneinstellungen für lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

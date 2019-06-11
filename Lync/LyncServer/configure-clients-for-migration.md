@@ -1,36 +1,73 @@
-﻿---
-title: Konfigurieren von Clients für die Migration
-TOCTitle: Konfigurieren von Clients für die Migration
-ms:assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205263(v=OCS.15)
-ms:contentKeyID: 49295404
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von Clients für die Migration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure clients for migration
+ms:assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205263(v=OCS.15)
+ms:contentKeyID: 48185411
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b4dcabfc1e0614cc09083cc4d23bedeeab56e48d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839084"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Clients für die Migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configure-clients-for-migration"></a>Konfigurieren von Clients für die Migration
 
-Dieses Thema enthält die empfohlenen Clientbereitstellungsschritte, die Sie vor der Migration zu Lync Server 2013 ausführen sollten. Die Konfigurationsänderungen sollten in Lync Server 2010 vorgenommen werden.
+</div>
 
-## So konfigurieren Sie Clients vor der Migration
+<div id="mainSection">
 
-1.  Stellen Sie die aktuellsten Updates (Hotfixes) für Server, Clients und Geräte für Lync Server 2010 bereit. Neueste Informationen zu Lync Server 2010 finden Sie im Updateressourcencenter für Lync unter <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+<div id="mainBody">
 
-2.  Verwenden Sie in Lync Server 2010 die Clientversionsfilter, um nur Clients zuzulassen, die über die aktuellsten Updates verfügen.
+<span> </span>
 
-## Siehe auch
+_**Letztes Änderungsdatum des Themas:** 2012-09-24_
 
-#### Konzepte
+Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie vor der Migration zu lync Server 2013 ausführen sollten. Diese Konfigurationsänderungen sollten auf lync Server 2010 erfolgen.
 
-[Neue und geänderte Einstellungen für Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+<div>
+
+## <a name="to-configure-clients-before-migration"></a>So konfigurieren Sie Clients vor der Migration
+
+1.  Stellen Sie die neuesten Server-, Client-und Geräte Updates (Hotfixes) für lync Server 2010 bereit. Aktuelle Informationen zu lync Server 2010 finden Sie unter Updates Resource Center für lync unter <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+
+2.  Verwenden Sie in lync Server 2010 die Client Versions Filterung, damit nur Clients mit den aktuellsten Updates installiert werden können.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Neue und geänderte Einstellungen für lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
 [Clientinteroperabilität in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
-#### Weitere Ressourcen
 
-[Planen von Clients und Geräten in Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
+[Planen von Clients und Geräten in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,61 +1,75 @@
-﻿---
-title: Konfigurieren des Mobilitätsdiensts für hohe Leistung
-TOCTitle: Konfigurieren des Mobilitätsdiensts für hohe Leistung
-ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690042(v=OCS.15)
-ms:contentKeyID: 49295315
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren des mobilitätsdiensts für eine höhere Leistung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Mobility Service for high performance
+ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
+ms:contentKeyID: 48185332
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839201"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Mobilitätsdiensts für hohe Leistung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a>Konfigurieren des mobilitätsdiensts für die Höchstleistung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-17_
 
-Wenn Sie den Lync Server 2013-Mobilitätsdienst unter Internetinformationsdienste (Internet Information Services, IIS) 7.5 installieren, konfiguriert der Mobilitätsdienst-Installer einige Leistungseinstellungen auf dem Front-End-Server. Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden. Wenn Sie IIS 7.0 unter Windows Server 2008 verwenden, müssen Sie diese Einstellungen manuell konfigurieren. Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.
+<div>
+
+
+> [!IMPORTANT]  
+> Dieses Thema bezieht sich nur auf den lync Server 2013 Mobility Service (MCX) und gilt nicht für Unified Communications Web API (UCWA), wie Sie in den kumulativen Updates für lync Server 2013: Februar 2013 bereitgestellt werden.
+
+
+
+</div>
+
+Wenn Sie den Mobilitätsdienst (MCX) auf Internet Informationsdienste (IIS) 7,5 installieren, konfiguriert das Mobilitätsdienst-Installationsprogramm einige Leistungseinstellungen auf dem Front-End-Server. Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden. Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.
 
 Die Leistungseinstellungen lauten wie folgt:
 
-  - **maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.
+<div>
 
-  - **maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.
+## <a name="settings-for-mcx-on-iis-75"></a>Einstellungen für Mcx auf IIS 7.5
 
-  - Das ASP.NET-Prozessmodell ist auf AutoConfig (nur für IIS 7.5) gesetzt.
+1.  **maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.
 
-  - Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.
+2.  **maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.
 
-Wenn Sie IIS 7.0 verwenden, wird empfohlen, das Update aus dem Microsoft Knowledge Base-Artikel 2290617 "Update: Ein Hotfix ist verfügbar, um die Konfiguration von einigen ASP.NET-Eigenschaften für jeden Anwendungspool in IIS 7.0 zu aktivieren" unter <http://support.microsoft.com/kb/2290617/de-de> zu installieren, sodass Sie die Änderungen nur für den Mobilitätsdienst übernehmen können, ohne dass andere Webdienste davon betroffen sind.
+3.  Das ASP.NET-Prozessmodell ist auf AutoConfig (nur für IIS 7.5) gesetzt.
 
-Die folgende Vorgehensweise beschreibt, wie Sie die ASP.NET-Limits für die maximale Anzahl gleichzeitiger Anforderungen und Threads unter IIS 7.0 ändern können, wenn Sie das Update aus Knowledge Base-Artikel 2290617 nicht installieren. Aber auch wenn Sie das Update aus Knowledge Base-Artikel 2290617 installieren, sollten Sie gemäß der Dokumentation des Artikels dieselben Änderungen nur auf die internen und externen IIS-Anwendungspools des Mobilitätsdienst anwenden. In diesem Fall verwenden Sie eine separate Konfigurationsdatei für die ASP.NET-Einstellungen.
+4.  Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.
 
+</div>
 
-> [!IMPORTANT]
-> Wenn Sie das folgende Verfahren zum Ändern der maximalen Anzahl verwenden, wirken sich die Änderungen auf alle IIS-Anwendungspools aus.
+</div>
 
+<span> </span>
 
+</div>
 
-Ausführliche Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x407).
+</div>
 
-## So ändern Sie die maximale Anzahl gleichzeitiger Anforderungen und Threads
-
-1.  Klicken Sie auf **Start** und dann auf **Ausführen**.
-
-2.  Geben Sie im Feld **Ausführen** Folgendes ein:
-    
-        notepad %SystemRoot%\Microsoft.NET\Framework64\v2.0.50727\Aspnet.config
-
-3.  Klicken Sie auf **OK**.
-
-4.  Fügen Sie der Datei Aspnet.config das folgende \<system.web\>-Element als untergeordnetes \<configuration\>-Element hinzu, oder ersetzen Sie das vorhandene Element:
-    
-        <system.web>
-        <applicationPool maxConcurrentRequestsPerCPU="<#>" maxConcurrentThreadsPerCPU="0" requestQueueLimit="5000"/>
-        </system.web>
-    
-    Wobei \# = 0 ist, um das Limit oder die neue Anzahl zu entfernen, so wie weiter oben in diesem Abschnitt beschrieben.
-
-5.  Speichern Sie die Datei Aspnet.config, und schließen Sie Editor.
+</div>
 

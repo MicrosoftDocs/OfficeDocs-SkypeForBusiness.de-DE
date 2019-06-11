@@ -1,54 +1,61 @@
-﻿---
-title: Zuweisen einer Clientversionsrichtlinie auf Benutzerebene
-TOCTitle: Zuweisen einer Clientversionsrichtlinie auf Benutzerebene
-ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182607(v=OCS.15)
-ms:contentKeyID: 49295947
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Zuweisen einer Clientversionsrichtlinie auf Benutzerebene
+title: 'Lync Server 2013: Zuweisen einer clientversionsrichtlinie für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user client version policy
+ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)
+ms:contentKeyID: 48185868
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8bfd26aff4ae2e5d8dacf7ec145bec0e3247facf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839753"
+---
+# <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Zuweisen einer clientversionsrichtlinie pro Benutzer in lync Server 2013
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Die Clientversionsrichtlinie ist eine der Einstellungen für ein Benutzerkonto, die Sie in der Lync Server-Systemsteuerung konfigurieren können.
+Die clientversionsrichtlinie ist eine der individuellen Einstellungen eines Benutzerkontos, das Sie in der lync Server-Systemsteuerung konfigurieren können.
 
-Die Bereitstellung einer oder mehrerer Clientversionsrichtlinien auf Benutzerebene ist optional. Sie können auch lediglich eine globale Clientversionsrichtlinie bzw. Clientversionsrichtlinien auf Standort- oder Poolebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. Wenn keine bestimmte Richtlinie auf Standort-, Pool- oder Benutzerebene zugewiesen ist, können sich standardmäßig alle Clients für Lync Server 2013 registrieren, die in der globalen Clientversionsrichtlinie definiert sind.
+Das Bereitstelleneiner oder mehrerer clientversionsrichtlinien für einzelne Benutzer ist optional. Sie können auch nur eine clientversionsrichtlinie auf globaler Ebene oder clientversionsrichtlinien auf Websiteebene oder auf Poolebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. Wenn keine bestimmte Richtlinie auf Websiteebene, Poolebene oder pro Benutzer zugewiesen ist, werden die Standard Clients, die bei lync Server 2013 registriert werden können, in den clientversionsrichtlinien auf globaler Ebene definiert.
 
-Nachdem Sie mindestens eine Clientversionsrichtlinie auf Benutzerebene erstellt haben, weisen Sie sie mithilfe der Verfahren in diesem Thema die Richtlinie zur Angabe der Clientversionen zu, die sich für Lync Server registrieren dürfen.
+Nachdem Sie mindestens eine clientversionsrichtlinie für einzelne Benutzer erstellt haben, verwenden Sie die Verfahren in diesem Thema, um die Richtlinie zuzuweisen, die die Clientversionen angibt, die Sie für die Registrierung bei lync Server zulassen möchten.
 
-Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benutzerebene finden Sie unter [Angeben der Clientanwendungen, die zum Anmelden bei Lync Server 2013 verwendet werden können](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md).
+Details zum Erstellen von clientversionsrichtlinien für einzelne Benutzer finden Sie unter [angeben der Clientanwendungen, die für die Anmeldung bei lync Server 2013 verwendet werden können](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md).
 
-## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene zu
+## <a name="to-assign-a-per-user-client-version-policy"></a>So weisen Sie eine clientversionsrichtlinie pro Benutzer zu
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Verwenden Sie eine der folgenden Methoden, um nach einem Benutzer zu suchen:
     
-      - Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+      - Geben Sie im Feld **Benutzer suchen** den vollständigen oder teilweisen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein und klicken Sie dann auf **Suchen**.
     
       - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**, verwenden Sie das Dialogfeld **Öffnen**, um die Abfrage abzurufen (eine USF-Datei), und klicken Sie dann auf **Suchen**.
 
-5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:
+5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse einzuschränken:
     
     1.  Klicken Sie auf **Filter hinzufügen**.
     
-    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
+    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie über die Tastatur eintippen oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
     
     3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (beispielsweise **Gleich** oder **Ungleich**).
     
-    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
+    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -57,58 +64,57 @@ Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benu
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!TIP]
-    > Wenn Sie dieselbe benutzerbasierte Clientversionsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
+    > [!TIP]  
+    > Wenn Sie möchten, dass die gleiche clientversionsrichtlinie für einzelne Benutzer auf mehrere Benutzer angewendet wird, wählen Sie in den Suchergebnissen mehrere Benutzer aus, klicken Sie dann auf <STRONG>Aktionen</STRONG>, und klicken Sie dann auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
 
-7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Clientversionsrichtlinie** eine der folgenden Aktionen aus:
+7.  Führen Sie in **Richtlinien zuweisen**unter **Client Versionsrichtlinie**eine der folgenden Aktionen aus:
     
 
-    > [!NOTE]
-    > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > [!NOTE]  
+    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren <STRONG> &lt;&gt; </STRONG> können, ist für jede Richtlinie im Dialogfeld standardmäßig beibehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Lassen Sie eine automatische Auswahl der globalen Richtlinie oder, falls definiert, der Richtlinie auf Standort- oder Poolebene durch Lync Server zu.
+      - Zulassen, dass lync Server automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Websiteebene oder auf Poolebene wählt.
     
-      - Klicken Sie auf der Seite **Clientversionsrichtlinie** auf den Namen einer Clientversionsrichtlinie auf Benutzerebene, die Sie zuvor definiert haben.
+      - Klicken Sie auf den Namen der benutzerdefinierten clientversionsrichtlinie, die Sie zuvor auf der Seite **clientversionsrichtlinie** definiert haben.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene mithilfe von Lync Server-Verwaltungsshell-Cmdlets zu.
+## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Client Versionsrichtlinie für einzelne Benutzer mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Clientversionsrichtlinien auf Benutzerebene mithilfe des **Grant-CsClientVersionPolicy**-Cmdlets zuweisen. Dieses Cmdlet können Sie entweder in der Verwaltungsshell für Lync Server 2013 ausführen oder in einer Remotesitzung von Windows PowerShell.
+Mithilfe des Cmdlets Grant-CsClientVersionPolicy können Sie clientversionsrichtlinien für einzelne Benutzer zuweisen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene einem einzelnen Benutzer zu
+## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine clientversionsrichtlinie pro Benutzer zu
 
-  - Mit dem folgenden Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** dem Benutzer Ken Myer zu.
+  - Mit dem folgenden Befehl wird dem Benutzer Ken Myers die Richtlinie für benutzerspezifische clientversionsrichtlinien RedmondClientVersionPolicy zugewiesen.
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName "RedmondClientVersionPolicy"
 
-## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene mehreren Benutzern zu
+## <a name="to-assign-a-per-user-client-version-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Richtlinie für die benutzerspezifische Client Version zu
 
-  - Mit diesem Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** allen Benutzern zu, denen derzeit die VoIP-Richtlinie **RedmondVoicePolicy** zugeordnet ist. Weitere Informationen zu dem in diesem Befehl verwendeten **Filter**-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
+  - Dieser Befehl weist allen Benutzern, denen zurzeit die VoIP-Richtlinien RedmondVoicePolicy zugewiesen sind, die Richtlinien für die Benutzer-RedmondClientVersionPolicy-Client Version zu. Weitere Informationen zu dem in diesem Befehl verwendeten Filter Parameter finden Sie in der Dokumentation für das Cmdlet " [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) ".
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
-## So heben Sie die Zuweisung einer Clientversionsrichtlinie auf Benutzerebene auf
+## <a name="to-unassign-a-per-user-client-version-policy"></a>So heben Sie die Zuweisung einer clientversionsrichtlinie für einzelne Benutzer auf
 
-  - Mit dem folgenden Befehl heben Sie die Zuweisung einer auf Benutzerebene geltenden Clientversionsrichtlinie auf, die zuvor Ken Myer zugewiesen war. Nach der Aufhebung der Zuweisung wird Ken Myer automatisch mit der globalen Richtlinie, seiner lokalen Standortrichtlinie (sofern vorhanden) oder der Richtlinie auf Dienstebene verwaltet, die seiner Registrierung zugewiesen ist. Eine Richtlinie auf Dienstebene hat Vorrang vor einer Standortrichtlinie, und eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
+  - Mit dem folgenden Befehl wird die Zuweisung einer benutzerseitigen clientversionsrichtlinie, die Ken Myers zuvor zugewiesen wurde, aufheben. Nachdem die Richtlinie für einzelne Benutzer nicht zugewiesen wurde, wird Ken Myers automatisch mithilfe der globalen Richtlinie, seiner lokalen Website Richtlinie (sofern vorhanden) oder der seiner Registrierungsstelle zugewiesenen Dienstbereichs Richtlinie verwaltet. Eine Dienstbereichs Richtlinie hat Vorrang vor jeder Website Richtlinie, und eine Website Richtlinie hat Vorrang vor der globalen Richtlinie.
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Grant-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/gg412903\(v=ocs.15\)) .
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
-#### Weitere Ressourcen
 
-[Zuweisen von Richtlinien auf Benutzerebene](lync-server-2013-assigning-per-user-policies.md)  
+[Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
 [Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
 

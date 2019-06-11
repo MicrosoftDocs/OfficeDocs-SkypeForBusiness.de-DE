@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Vom standortbasierten Routing nicht unterstützte Funktionen'
-TOCTitle: Vom standortbasierten Routing nicht unterstützte Funktionen
-ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994071(v=OCS.15)
-ms:contentKeyID: 52056454
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vom standortbasierten Routing nicht unterstützte Funktionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capabilities not supported by Location-Based Routing
+ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
+ms:contentKeyID: 51803982
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ca2d775fc17d0919ceb31a38b242e54d37b6a55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vom standortbasierten Routing nicht unterstützte Funktionen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Vom standortbasierten Routing nicht unterstützte Funktionen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-03-12_
 
-Das standortbasierte Routing wird nicht für die folgenden Arten von Interaktionen angewendet. Das standortbasierte Routing wird nicht erzwungen, wenn Lync-Endpunkte über die Funktionen mit PSTN-Endpunkten interagieren.
+Standortbasiertes Routing gilt nicht für die folgenden Arten von Interaktionen. Standortbasiertes Routing wird nicht erzwungen, wenn lync-Endpunkte mithilfe dieser Funktionen mit PSTN-Endpunkten interagieren.
 
   - PSTN-Einwahl bei Konferenzen
 
@@ -27,19 +47,33 @@ Das standortbasierte Routing wird nicht für die folgenden Arten von Interaktion
 
   - Eingehende PSTN-Anrufe, die über die Gruppenanrufannahme abgerufen werden
 
-Zum Erzwingen der Regeln für das standortbasierte Routing für die Arten von Interaktionen in der folgenden Liste müssen Sie das standortbasierte Routing für Konferenzen aktivieren:
+Wenn Sie Standortbasierte Routingregeln für die Typen von Interaktionen in der folgenden Liste erzwingen möchten, müssen Sie standortbasiertes Routing für Konferenzen aktivieren:
 
   - PSTN-Einwahl von Konferenzen
 
-  - Eskalationen von Peer-zu-Peer-Audiounterhaltungen zu Konferenzen unter Beteiligung von PSTN-Endpunkten
+  - Eskalationen von Peer-zu-Peer-Audiounterhaltungen in Konferenzen unter Beteiligung von PSTN-Endpunkten
 
   - Anrufdurchstellung nach Rücksprache unter Beteiligung von PSTN-Endpunkten
 
-Informationen zum Aktivieren von standortbasiertem Routing finden Sie unter [Standortbasiertes Routing für Konferenzen](lync-server-2013-location-based-routing-for-conferencing.md).
+Informationen zum Aktivieren des standortbasierten Routings für Konferenzen finden Sie unter [standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+
+[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

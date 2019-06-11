@@ -1,37 +1,75 @@
-﻿---
-title: Konferenzgeräte in Lync Server 2013
-TOCTitle: Konferenzgeräte in Lync Server 2013
-ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994050(v=OCS.15)
-ms:contentKeyID: 52056384
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konferenzgeräte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing devices
+ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994050(v=OCS.15)
+ms:contentKeyID: 51803961
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 066b0ba4fede67a27c3cd8b6ab76ba7d09afd8fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839469"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konferenzgeräte in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="conferencing-devices-in-lync-server-2013"></a>Konferenzgeräte in lync Server 2013
 
-Konferenzgeräte stellen Lync Phone Edition-Features in Konferenzräumen bereit und ermöglichen es den Personen in einem Raum, Personen an anderen Standorten zu hören und je nach Gerät auch zu sehen.
+</div>
 
-In den Themen dieses Abschnitts erfahren Sie, wie Ihre Konferenzgeräte eingerichtet und verwaltet werden.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-02-05_
+
+Konferenzgeräte bringen lync Phone Edition-Features in Konferenzräume, damit Personen im Chatroom hören können, und je nach Gerät Personen an anderen Speicherorten anzeigen.
+
+Verwenden Sie die Themen in diesem Abschnitt, um zu erfahren, wie Sie Ihre Konferenzgeräte einrichten und verwalten.
+
+<div>
 
 
-> [!NOTE]
-> Weitere Informationen zu den für die Verwendung mit Lync Server 2013 unterstützten Konferenzgeräte finden Sie auf der Webseite <A href="http://technet.microsoft.com/de-de/lync/gg278164.aspx">Für Microsoft Lync qualifizierte Telefone und Geräte</A>.
+> [!NOTE]  
+> Weitere Informationen zu den Konferenz Geräten, die für die Verwendung mit lync Server 2013 unterstützt werden, finden Sie auf der Webseite <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Telefone und Geräte, die für Microsoft lync qualifiziert</A>sind.
 
 
 
-## In diesem Abschnitt
+</div>
 
-  - [Anzeigen von Informationen zu Konferenzgeräten](lync-server-2013-view-conferencing-device-information.md)
+<div>
 
-  - [Erstellen oder Ändern eines Kontaktobjekts für ein Konferenzgerät](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Aktivieren oder Deaktivieren eines Konferenzgeräts](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+  - [Anzeigen von Informationen zu Konferenz Geräten in lync Server 2013](lync-server-2013-view-conferencing-device-information.md)
 
-  - [Verschieben eines Konferenzgeräts in einen neuen Registrierungsstellenpool](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [Erstellen oder Ändern eines Kontaktobjekts für Konferenzgeräte in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+
+  - [Aktivieren oder Deaktivieren eines Konferenz Geräts in lync Server 2013](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+
+  - [Verschieben eines Konferenz Geräts in einen neuen Registrierungspool in lync Server 2013](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

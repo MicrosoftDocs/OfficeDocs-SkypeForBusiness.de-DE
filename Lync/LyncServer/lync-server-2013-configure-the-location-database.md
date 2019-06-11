@@ -1,41 +1,79 @@
-﻿---
-title: Konfigurieren der Standortdatenbank in Lync Server 2013
-TOCTitle: Konfigurieren der Standortdatenbank in Lync Server 2013
-ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398679(v=OCS.15)
-ms:contentKeyID: 49294631
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Standortdatenbank'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure the location database
+ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398679(v=OCS.15)
+ms:contentKeyID: 48184704
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 15a9456cc79e02735fe94c24748674944722b49c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839313"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Standortdatenbank in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-the-location-database-in-lync-server-2013"></a>Configure the location database in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-17_
 
-Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die automatische Ermittlung ihres Standorts innerhalb eines Netzwerks zu aktivieren. Wenn Sie keine Standortdatenbank konfigurieren und **Standort erforderlich** in der Ortungsrichtlinie auf **Ja** oder **Haftungsausschluss** festgelegt ist, wird der Benutzer zur manuellen Eingabe eines Standorts aufgefordert.
+Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die automatische Ermittlung ihres Standorts innerhalb eines Netzwerks zu aktivieren. Wenn Sie eine Standortdatenbank nicht konfigurieren und der Standort, der in der Standortrichtlinie **erforderlich** ist, auf **Ja** oder **Disclaimer**eingestellt ist, wird der Benutzer aufgefordert, einen Standort manuell einzugeben.
 
-Zur Konfiguration der Standortdatenbank führen Sie die folgenden Aufgaben aus:
+Um die Standortdatenbank zu konfigurieren, führen Sie die folgenden Aufgaben aus:
 
-1.  Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, müssen Sie diese ELIN in das Feld "CompanyName" eingeben.
+1.  Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein Elin-Gateway (Notfall Standort-Identifikationsnummer) verwenden, müssen Sie Elin in das \<Feld\> "CompanyName" einbeziehen.
 
 2.  Überprüfen Sie die Adressen anhand der MSAG-Daten (Master Street Address Guide), die vom Dienstanbieter für E9-1-1 verwaltet werden.
 
 3.  Veröffentlichen Sie die aktualisierte Datenbank.
 
-
-> [!NOTE]
-> Alternativ können Sie eine sekundäre Standortdatenbank definieren, die anstelle der Standortdatenbank verwendet wird. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-a-secondary-location-information-service.md">Konfigurieren eines sekundären Standortinformationsdiensts in Lync Server 2013</A>.
+<div>
 
 
+> [!NOTE]  
+> Alternativ können Sie eine sekundäre Standort Quelldatenbank definieren, die für die Position der Standortdatenbank verwendet werden kann. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-a-secondary-location-information-service.md">Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013</A>.
 
-## In diesem Abschnitt
 
-  - [Auffüllen der Standortdatenbank](lync-server-2013-populate-the-location-database.md)
 
-  - [Überprüfen von Adressen](lync-server-2013-validate-addresses.md)
+</div>
 
-  - [Veröffentlichen der Standortdatenbank von Lync Server 2013](lync-server-2013-publish-the-location-database.md)
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
+
+  - [Auffüllen der Standortdatenbank in lync Server 2013](lync-server-2013-populate-the-location-database.md)
+
+  - [Überprüfen von Adressen in lync Server 2013](lync-server-2013-validate-addresses.md)
+
+  - [Veröffentlichen der Standortdatenbank aus lync Server 2013](lync-server-2013-publish-the-location-database.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

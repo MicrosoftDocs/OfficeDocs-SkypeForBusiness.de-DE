@@ -1,27 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste'
-TOCTitle: Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste
-ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398760(v=OCS.15)
-ms:contentKeyID: 49294804
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory Domain Services requirements, support, and topologies
+ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398760(v=OCS.15)
+ms:contentKeyID: 48184902
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a929309c876f37631e6dfc7a48b43c54d0e872cc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839961"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a>Anforderungen, Unterstützung und Topologien der Active Directory-Domänendienste in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
-Vor Lync Server 2010 machte Lync Server Gebrauch von Active Directory-Domänendienste zum Speichern aller globalen Einstellungen und Gruppen, die zur Bereitstellung und Verwaltung von Lync Server erforderlich sind. Jetzt wird ein Großteil dieser Informationen im zentralen Verwaltungsspeicher und nicht in AD DS abgelegt. Benutzerobjekt-Schemaerweiterungen, einschließlich Lync Server 2013, Lync Server 2010 und Office Communications Server 2007 R2-Schemaerweiterungen, werden jedoch noch immer in AD DS gespeichert.
+Vor lync Server 2010 verließ lync Server die Active Directory-Domänendienste, um alle globalen Einstellungen und Gruppen zu speichern, die für die Bereitstellung und Verwaltung von lync Server erforderlich sind. Jetzt werden viele dieser Informationen im zentralen Verwaltungsspeicher statt in AD DS gespeichert. Benutzerobjekt-Schemaerweiterungen, einschließlich lync Server 2013, lync Server 2010 und Office Communications Server 2007 R2-Schemaerweiterungen, werden jedoch weiterhin in AD DS gespeichert.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Unterstützung der Active Directory-Domänendienste in Lync Server 2013](lync-server-2013-active-directory-domain-services-support.md)
 
   - [Unterstützte Active Directory-Topologien in Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md)
 
   - [Active Directory-Infrastrukturanforderungen für Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

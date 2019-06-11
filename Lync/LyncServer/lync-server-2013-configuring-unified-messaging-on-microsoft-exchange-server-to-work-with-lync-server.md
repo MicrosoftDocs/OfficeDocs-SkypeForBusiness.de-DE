@@ -1,85 +1,133 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Unified Messaging auf Microsoft Exchange Server für die Zusammenarbeit mit Lync Server 2013'
-TOCTitle: Konfigurieren von Unified Messaging auf Microsoft Exchange Server für die Zusammenarbeit mit Lync Server 2013
-ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398106(v=OCS.15)
-ms:contentKeyID: 49293047
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Unified Messaging auf Microsoft Exchange Server für die Zusammenarbeit mit Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Unified Messaging on Microsoft Exchange Server to work with Lync Server 2013
+ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398106(v=OCS.15)
+ms:contentKeyID: 48183289
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 461d822862e837879f1feb2d3f980b816aae5280
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839166"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Unified Messaging auf Microsoft Exchange Server für die Zusammenarbeit mit Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Konfigurieren von Unified Messaging auf Microsoft Exchange Server für die Zusammenarbeit mit Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+
+<div>
 
 
-> [!IMPORTANT]
-> Wenn Sie Exchange Unified Messaging (UM) zur Bereitstellung von Anrufbeantwortung, Outlook Voice Access oder automatischen Telefonzentralendiensten für Enterprise-VoIP-Benutzer verwenden möchten, lesen Sie die Informationen in der Planungsdokumentation unter <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planen der Integration von Exchange Unified Messaging in Lync Server 2013</A>, und folgen Sie den Anweisungen in diesem Abschnitt.
+> [!IMPORTANT]  
+> Wenn Sie Exchange Unified Messaging (um) zum Bereitstellen von Anrufbeantwortung, Outlook Voice Access oder automatischen Telefonzentralen Diensten für Enterprise-VoIP-Benutzer verwenden möchten, lesen Sie <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planen der Exchange Unified Messaging-Integration in lync Server 2013</A> in der Planung. Dokumentation, und folgen Sie dann den Anweisungen in diesem Abschnitt.
 
 
 
-Führen Sie zum Konfigurieren von Exchange Unified Messaging (UM) zur Verwendung mit Enterprise-VoIP die folgenden Aufgaben aus:
+</div>
 
-  - Konfigurieren der Zertifikate auf dem Server mit Exchange Unified Messaging (UM)-Diensten
+Um Exchange Unified Messaging (um) für die Arbeit mit Enterprise-VoIP zu konfigurieren, müssen Sie die folgenden Aufgaben ausführen:
+
+  - Konfigurieren von Zertifikaten auf dem Server mit Exchange Unified Messaging (um)-Diensten
+    
+    <div>
     
 
-    > [!NOTE]
-    > Fügen Sie alle Clientzugriffs- und Postfachserver zu allen UM-SIP-URI-Wählplänen hinzu. Andernfalls funktioniert das Routen ausgehender Anrufe nicht wie erwartet.
+    > [!NOTE]  
+    > Fügen Sie allen um-SIP-URI-Wählplänen alle Client Zugriffs-und Postfachserver hinzu. Wenn dies nicht der Fall ist, funktioniert das Routing für ausgehende Anrufe nicht wie erwartet.
 
-
-
-  - Erstellen von mindestens einem UM-SIP-URI-Wählplan gemeinsam mit den Telefonnummern für den Teilnehmerzugriff (nach Bedarf) und anschließendes Erstellen von entsprechenden Lync Server-Wählplänen.
-
-  - Verwenden des Skripts **exchucutil.ps1** für folgende Aufgaben:
     
-      - Erstellen von UM-IP-Gateways
+    </div>
+
+  - Erstellen Sie bei Bedarf einen oder mehrere um-SIP-URI-Wählpläne zusammen mit den Telefonnummern für den Abonnenten Zugriff, und erstellen Sie dann entsprechende lync Server-Wählpläne.
+
+  - Verwenden Sie das **exchucutil. ps1-** Skript für folgende Zwecke:
     
-      - Erstellen von UM-Sammelanschlüssen
+      - Erstellen von um-IP-Gateways
     
-      - Gewähren von Lync Server 2013-Berechtigungen zum Lesen von UM-Objekten in Active Directory-Domänendienste
+      - Erstellen von um-Sammelanschlüssen
+    
+      - Erteilen der lync Server 2013-Berechtigung zum Lesen von um-Active Directory-Domänendienste-Objekten
 
-  - Erstellen eines UM-Telefonzentralenobjekts
+  - Erstellen Sie ein Objekt der automatischen UM-Telefonzentrale.
 
-  - Erstellen eines Objekts für den Teilnehmerzugriff
+  - Erstellen Sie ein Teilnehmerzugriffs Objekt.
 
-  - Erstellen eines SIP-URIs für jeden Benutzer und Zuordnen von Benutzern zu einem UM-SIP-URI-Wählplan
+  - Erstellen Sie einen SIP-URI für jeden Benutzer, und verknüpfen Sie Benutzer mit einem um-SIP-URI-Wählplan.
 
-## Anforderungen und Empfehlungen
+<div>
 
-In diesem Abschnitt wird vorausgesetzt, dass Sie die folgenden Exchange 2013-Rollen bereitgestellt haben: Clientzugriff und Postfach. Unter Microsoft Exchange Server 2013 wird Exchange UM als Dienst auf diesen Servern ausgeführt.
+## <a name="requirements-and-recommendations"></a>Anforderungen und Empfehlungen
 
-Ausführliche Informationen zum Bereitstellen von Exchange 2013 finden Sie in der Exchange 2013 TechNet-Bibliothek unter [http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+Bevor Sie beginnen, wird in der in diesem Abschnitt aufgeführten Dokumentation davon ausgegangen, dass Sie die folgenden Exchange 2013-Rollen bereitgestellt haben: Client Zugriff und Postfach. In Microsoft Exchange Server 2013 wird Exchange um als Dienst auf diesen Servern ausgeführt.
 
-Beachten Sie auch Folgendes:
+Ausführliche Informationen zum Bereitstellen von Exchange 2013 finden Sie in der Exchange 2013 TechNet-Bibliothek unter[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
 
-  - Wird Exchange UM in mehreren Gesamtstrukturen installiert, müssen die Schritte für die Exchange Server-Integration für jede UM-Gesamtstruktur ausgeführt werden. Außerdem muss jede UM-Gesamtstruktur so konfiguriert sein, dass sie der Gesamtstruktur vertraut, in der Lync Server 2013 bereitgestellt wurde. Die Gesamtstruktur, in der Lync Server 2013 bereitgestellt wurde, muss wiederum so konfiguriert sein, dass sie den einzelnen UM-Gesamtstrukturen vertraut.
+Beachten Sie außerdem Folgendes:
 
-  - Die Integrationsschritte werden sowohl für die Exchange Server-Rollen, unter denen Unified Messaging-Dienste ausgeführt werden, als auch auf dem Server mit Lync Server 2013 ausgeführt. Es empfiehlt sich, die Exchange Server Unified Messaging-Integrationsschritte vor den Integrationsschritten für Lync Server 2013 auszuführen.
+  - Wenn Exchange um in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server-Integrationsschritte für jede um-Gesamtstruktur ausgeführt werden. Darüber hinaus muss jede um-Gesamtstruktur so konfiguriert werden, dass Sie der Gesamtstruktur vertraut, in der lync Server 2013 bereitgestellt wird, und die Gesamtstruktur, in der lync Server 2013 bereitgestellt wird, muss so konfiguriert sein, dass Sie jeder um-Gesamtstruktur vertraut.
+
+  - Die Integrationsschritte erfolgen sowohl für die Exchange-Serverrollen, auf denen Unified Messaging-Dienste ausgeführt werden, als auch auf dem Server, auf dem lync Server 2013 ausgeführt wird. Sie sollten die Exchange Server Unified Messaging-Integrationsschritte ausführen, bevor Sie die lync Server 2013-Integrationsschritte ausführen.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Informationen dazu, welche Integrationsschritte auf welchen Servern und von welchen Administratorrollen durchgeführt werden müssen, finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Bereitstellungsprozess für die Integration von lokalen Unified Messaging-Diensten und Lync Server 2013</A>.
+    > [!NOTE]  
+    > Informationen dazu, welche Integrationsschritte für welche Server und welche Administratorrollen ausgeführt werden, finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Bereitstellungsprozess für die Integration von lokalen Unified Messaging und lync Server 2013</A>.
 
+    
+    </div>
 
-
-Auf jedem Server mit Exchange UM müssen die folgenden Tools verfügbar sein:
+Die folgenden Tools müssen auf jedem Server mit Exchange um verfügbar sein:
 
   - Exchange-Verwaltungsshell
 
-  - Das Skript **exchucutil.ps1**, mit dem die folgenden Aufgaben ausgeführt werden:
+  - Das Skript **exchucutil. ps1**, in dem die folgenden Aufgaben ausgeführt werden:
     
-      - Erstellen eines UM-IP-Gateways für jeden Lync Server 2013.
+      - Erstellt ein um-IP-Gateway für jeden lync Server 2013.
     
-      - Erstellen eines Sammelanschlusses für jedes Gateway. Die Pilot-ID jedes Sammelanschlusses gibt die UM-SIP-URI-Wähleinstellungen an, die von dem Front-End-Pool oder Standard Edition-Server verwendet werden, der diesem Gateway zugeordnet ist.
+      - Erstellt einen Sammelanschluss für jedes Gateway. Die Pilotkennung der einzelnen Sammelanschlüsse gibt den um-SIP-URI-Wählplan an, der vom Front-End-Pool oder Standard Edition-Server verwendet wird, der dem Gateway zugeordnet ist.
     
-      - Gewähren von Lync Server 2013-Berechtigungen zum Lesen von Exchange UM-Objekten in Active Directory-Domänendienste.
+      - Erteilt lync Server 2013 die Berechtigung zum Lesen von Exchange um-Objekten in Active Directory-Domänendiensten.
 
-## In diesem Abschnitt
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Konfigurieren von Zertifikaten auf dem Server, auf dem Microsoft Exchange Server Unified Messaging ausgeführt wird](lync-server-2013-configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging.md)
 
-  - [Konfigurieren von Unified Messaging auf Microsoft Exchange](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
+  - [Konfigurieren von Unified Messaging in Microsoft Exchange für lync Server 2013](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

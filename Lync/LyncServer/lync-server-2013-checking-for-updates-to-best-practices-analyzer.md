@@ -1,33 +1,71 @@
-﻿---
-title: Suchen nach Updates für Best Practices Analyzer
-TOCTitle: Suchen nach Updates für Best Practices Analyzer
-ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204645(v=OCS.15)
-ms:contentKeyID: 49293064
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Überprüfen auf Updates für Best Practices Analyzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Checking for updates to Best Practices Analyzer
+ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
+ms:contentKeyID: 48183307
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a52aec0748bb5e96de0b3e6dafae4e05ddf9c15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839570"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suchen nach Updates für Best Practices Analyzer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Überprüfen auf Updates für Best Practices Analyzer in lync Server 2013
 
-Beim Starten von Best Practices Analyzer steht die Option zum Suchen nach aktuellen Updates für das Tool zur Verfügung. Ist ein Update verfügbar, können Sie es herunterladen. Wenn Sie keine Updates herunterladen möchten oder Best Practices Analyzer nicht auf das Internet zugreifen kann, können Sie weiterhin die auf dem Computer vorhandene Version verwenden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Wenn Sie Best Practices Analyzer starten, bietet Ihnen das Tool eine Option zum Suchen nach den neuesten Updates für das Tool. Wenn ein Update verfügbar ist, können Sie das Update herunterladen. Wenn Sie keine Updates herunterladen möchten oder wenn Best Practices Analyzer nicht auf das Internet zugreifen kann, können Sie weiterhin die Version verwenden, die sich bereits auf dem Computer befindet.
+
+<div>
 
 
-> [!NOTE]
-> Wenn für den Internetzugriff Proxyauthentifizierung erforderlich ist, kann Best Practices Analyzer nicht auf neue Updates für den Download zugreifen. Sie können jedoch die aktuelle Version von "RtcBPA.msi" im Microsoft Download Center unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x407</A> manuell herunterladen. Wenn Sie die Datei heruntergeladen haben, können Sie sie auf den Computer kopieren, auf dem Best Practices Analyzer aktualisiert werden soll, und mithilfe der MSI-Datei die neue Version des Tools auf diesem Computer installieren.
+> [!NOTE]  
+> Wenn Sie die Proxyauthentifizierung für den Zugriff auf das Internet benötigen, kann Best Practices Analyzer nicht auf neue Updates zugreifen, die Sie herunterladen können. Sie können die aktuelle Version von RtcBPA. msi jedoch manuell aus dem Microsoft Download Center unter <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>herunterladen. Nachdem Sie die Datei heruntergeladen haben, können Sie Sie auf den Computer kopieren, auf dem Sie Best Practices Analyzer aktualisieren möchten, und mithilfe der MSI-Datei die neue Version des Tools auf diesem Computer installieren.
 
 
 
-Zum Aktualisieren der Best Practices Analyzer-Regeln müssen Sie das Tools als Administrator auf dem lokalen Computer ausführen. Wenn Sie nicht mit einem Konto angemeldet sind, das Mitglied der Administratorengruppe ist, und Updates gefunden werden, schließen Sie Best Practices Analyzer, und starten Sie anschließend das Programm mit dem folgenden Verfahren:
+</div>
 
-## So öffnen Sie Best Practices Analyzer als Administrator zur Suche nach Updates
+Um Best Practices Analyzer-Regeln zu aktualisieren, müssen Sie das Tool als Administrator auf dem lokalen Computer ausführen. Wenn Sie nicht mit einem Konto angemeldet sind, das Mitglied der Gruppe Administratoren ist, und Updates erkannt werden, schließen Sie Best Practices Analyzer, und führen Sie dann das folgende Verfahren aus, um das Programm zu starten.
 
-1.  Klicken Sie auf einem Computer mit Best Practices Analyzer auf **Start**, zeigen Sie auf **Microsoft Lync Server 2013**, klicken Sie mit der rechten Maustaste auf **Best Practices Analyzer**, und klicken Sie dann auf **Als Administrator ausführen**.
+<div>
 
-2.  Geben Sie die Anmeldeinformationen für ein Konto ein, das Mitglied der Administratorengruppe ist.
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>So öffnen Sie Best Practices Analyzer als Administrator, um nach Updates zu suchen
+
+1.  Klicken Sie auf einem Computer, auf dem Best Practices Analyzer installiert ist, auf **Start**, zeigen Sie auf **Microsoft lync Server 2013**, klicken Sie mit der rechten Maustaste auf **Best Practices Analyzer**, und klicken Sie dann auf **als Administrator ausführen**.
+
+2.  Geben Sie die Anmeldeinformationen eines Kontos an, das ein Mitglied der Gruppe "Administratoren" ist.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

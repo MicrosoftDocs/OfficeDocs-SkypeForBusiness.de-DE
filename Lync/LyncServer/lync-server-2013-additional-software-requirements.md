@@ -1,71 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Zusätzliche Softwareanforderungen'
-TOCTitle: Zusätzliche Softwareanforderungen
-ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398686(v=OCS.15)
-ms:contentKeyID: 49294652
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zusätzliche Softwareanforderungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Additional software requirements
+ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
+ms:contentKeyID: 48184731
+ms.date: 12/09/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2e21a375fecbd109e108806dc816a9fa3fce81a2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839921"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zusätzliche Softwareanforderungen für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Zusätzliche Softwareanforderungen für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
-Zusätzlich zu den Anforderungen im Hinblick auf Hardware und Betriebssystem, die für Serverplattformen erfüllt werden müssen, erfordert Lync Server 2013 die Installation zusätzlicher Software auf den Servern, die Sie bereitstellen.
+Zusätzlich zu den Hardware-und Betriebssystemanforderungen für Serverplattformen erfordert lync Server 2013 die Installation zusätzlicher Software auf den von Ihnen bereitgestellten Servern.
+
+<div>
 
 
-> [!NOTE]
-> Ausführliche Informationen zu den Plattformanforderungen für Server mit Lync Server finden Sie unter <A href="lync-server-2013-server-hardware-platforms.md">Serverhardwareplattformen für Lync Server&nbsp;2013</A> und <A href="lync-server-2013-server-and-tools-operating-system-support.md">Betriebssystemunterstützung für Server und Tools in Lync Server 2013</A>. Einzelheiten zu den Systemanforderungen für Clientcomputer und -geräte finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in Lync Server 2013</A> in der Planungsdokumentation. Ausführliche Informationen zu den Softwareanforderungen für Verwaltungstools finden Sie unter <A href="lync-server-2013-administrative-tools-software-requirements.md">Softwareanforderungen für Verwaltungstools in Lync Server 2013</A>.
+> [!NOTE]  
+> Details zu den Plattformanforderungen für Server mit lync Server finden Sie unter <A href="lync-server-2013-server-hardware-platforms.md">Server-Hardwareplattformen für lync Server 2013</A> und <A href="lync-server-2013-server-and-tools-operating-system-support.md">Server-und Tools-Betriebssystemunterstützung in lync Server 2013</A>. Ausführliche Informationen zu den Systemanforderungen für Clientcomputer und Geräte finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in lync Server 2013</A> in der Planungsdokumentation. Details zu den Softwareanforderungen für Verwaltungstools finden Sie unter <A href="lync-server-2013-administrative-tools-software-requirements.md">Softwareanforderungen für Verwaltungstools in lync Server 2013</A>.
 
 
 
-## Zusätzliche Softwareanforderungen für alle internen Serverrollen
+</div>
 
-In diesem Abschnitt finden Sie die für alle internen Serverrollen benötigte Software. Dies sind alle Serverrollen von Lync Server mit Ausnahme von Edgeserver. Die Voraussetzungen für die Edgeserver und Edgepools werden weiter unten in diesem Thema unter **Zusätzliche Software für Edgeserver** aufgeführt.
+<div>
 
-## Windows PowerShell 3.0
+## <a name="additional-software-necessary-for-all-internal-server-roles"></a>Zusätzliche Software, die für alle internen Server Rollen erforderlich ist
 
-Auf jedem Server, auf dem Lync Server 2013 ausgeführt wird, muss die korrekte Version von Windows PowerShell 3.0 installiert sein. Ausführliche Informationen finden Sie unter [Installieren von Windows PowerShell 3.0 für Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+Dieser Abschnitt listet Software auf, die für alle internen Serverrollen erforderlich ist, bei denen es sich um alle lync Server-Serverrollen mit Ausnahme von Edgeserver handelt. Die Anforderungen für die Edgeserver und Edge-Pools sind weiter unten in diesem Thema unter **zusätzliche Software für Edgeserver**aufgeführt.
 
-## Microsoft .NET Framework 4.5
+</div>
 
-Lync Server erfordert Microsoft .NET Framework 4.5 auf allen internen Serverrollen und auf allen Computern, auf denen die administrativen Tools von Lync Server oder Microsoft Lync Server 2013, Planungstool ausgeführt werden. Für Lync Server 2013 müssen Sie die 64-Bit-Version von Microsoft .NET Framework 4.5 auf dem Server installieren, bevor Sie Lync Server 2013 installieren. Laden Sie zur manuellen Installation das Microsoft .NET 4.5 Framework aus dem Microsoft Download Center unter [http://go.microsoft.com/fwlink/p/?LinkId=268529](http://go.microsoft.com/fwlink/p/?linkid=268529) herunter.
+<div>
 
-## Installation von Microsoft .NET Framework 4.5 auf Servern mit Windows Server 2012
+## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-Wenn Sie Microsoft .NET Framework 4.5 auf Servern mit Lync Server 2013 und Windows Server 2012 installieren, müssen Sie einen zusätzlichen Schritt ausführen. Nachdem .NET Framework 4.5 installiert ist, verwenden Sie Server-Manager zum Installieren der HTTP-Aktivierung.
+Auf jedem Server, auf dem lync Server 2013 ausgeführt wird, muss die richtige Version von Windows PowerShell 3,0 installiert sein. Ausführliche Informationen finden Sie unter [Installieren von Windows PowerShell 3,0 für lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-**So installieren Sie .NET 4.5 HTTP-Aktivierung unter Windows Server 2012**
+</div>
 
-1.  Klicken Sie im Menü **Start** auf **Programme** , dann auf **Verwaltung** und anschließend auf **Server-Manager** .
+<div>
 
-2.  Wählen Sie im Server-Manager unter **Featureübersicht** die Option **Features hinzufügen** aus.
+## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-3.  Erweitern Sie die Option **.NET Framework 4.5** .
+Lync Server erfordert Microsoft .NET Framework 4,5 auf allen internen Server Rollen und auf allen Computern, auf denen Sie die lync Server-Verwaltungstools oder Microsoft lync Server 2013, Planungs Tool, ausführen werden. Bei lync Server 2013 müssen Sie die 64-Bit-Version von Microsoft .NET Framework 4,5 auf dem Server manuell installieren, bevor Sie lync Server 2013 installieren. Wenn Sie die Datei manuell installieren möchten, laden Sie das Microsoft .NET 4,5-Framework aus dem Microsoft Download Center unter[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
-4.  Wählen Sie **WCF Activation** aus, wenn diese Option noch nicht ausgewählt wurde. Wählen Sie dann die Option **HTTP-Aktivierung** aus.
+<div>
 
-5.  Klicken Sie auf **Weiter** und befolgen Sie die Aufforderungen, um die Installation zu beenden.
+## <a name="installing-microsoft-net-framework-45-on-servers-running-windows-server-2012"></a>Installieren von Microsoft .NET Framework 4,5 auf Servern mit Windows Server 2012
 
-## Windows Identity Foundation
+Wenn Sie Microsoft .NET Framework 4,5 auf Servern installieren, auf denen lync Server 2013 und Windows Server 2012 ausgeführt wird, müssen Sie einen weiteren Schritt ausführen. Verwenden Sie nach der Installation von .NET Framework 4,5 den Server-Manager, um die HTTP-Aktivierung zu installieren.
 
-**Windows Identity Foundation** in Lync Server 2013 erfordert die Installation von Windows Identity Foundation, damit Server-zu-Server-Authentifizierungsszenarien unterstützt werden. Windows Server 2008 R2 und Windows Server 2012 erfordern unterschiedliche Verfahren für die Installation von Windows Identify Foundation. Wählen Sie in der folgende Liste das von Ihnen verwendete Betriebssystem aus:
+**So installieren Sie die .NET 4,5-HTTP-Aktivierung unter Windows Server 2012**
 
-  - Windows Server 2008 R2   Für Windows Server 2008 R2 überprüfen Sie, ob die Software bereits auf Ihrem Computer installiert wurde. Hierzu wählen Sie in der Systemsteuerung **Software** , **Installierte Updates anzeigen** und suchen unter **Windows** nach dem Eintrag **Windows Identity Foundation (KB974405)** . Ausführliche Informationen zur Installation von Windows Identity Foundation finden Sie unter <http://go.microsoft.com/fwlink/?linkid=204657>.
+1.  Klicken Sie im **Startmenü** auf **Programme**und dann auf **Verwaltung**, und klicken Sie dann auf **Server-Manager**.
 
-  - Windows Server 2012   Für Windows Server 2012 verwenden Sie den **Server-Manager** zur Installation von Windows Identity Foundation. Im Server-Manager- **Assistenten zum Hinzufügen von Rollen und Features** wählen Sie **Features** aus. Wählen Sie dann in der Liste **Windows Identity Foundation 3.5** aus. Klicken Sie auf **Weiter** und anschließend auf **Installieren** .
+2.  Wählen Sie im Server-Manager unter **Zusammenfassung der Features**die Option **Features hinzufügen**aus.
 
-## Zusätzliche Software für sämtliche Front-End-Server und Standard Edition-Server
+3.  Erweitern Sie **.NET Framework 4,5**.
 
-Auf sämtlichen Front-End-Servern und Standard Edition-Servern müssen auch die Internetinformationsdienste (Internet Information Services, IIS) mit bestimmten Modulen ausgeführt werden. Zusätzlich muss auf allen Front-End-Servern und Standard Edition-Servern, auf denen die Konferenzfunktion, Anwendung zum Parken von Anrufen, die Ansageanwendung oder Reaktionsgruppenanwendung bereitgestellt werden, die Windows Media Format-Laufzeitkomponente ausgeführt werden.
+4.  Wählen Sie **WCF-Aktivierung** aus, wenn Sie noch nicht ausgewählt ist. Wählen Sie dann **http-Aktivierung**aus.
 
-## Internetinformationsdienste (Internet Information Services, IIS)
+5.  Klicken Sie auf **weiter** , und folgen Sie den Anweisungen, um die Installation abzuschließen.
 
-Auf Front-End-Servern und Standard Edition-Servern müssen die Internetinformationsdienste (Internet Information Services, IIS) mit den folgenden Modulen ausgeführt werden:
+</div>
+
+</div>
+
+<div>
+
+## <a name="windows-identity-foundation"></a>Windows Identity Foundation
+
+**WindowsIdentity Foundation** in lync Server 2013 erfordert die Installation von WindowsIdentity Foundation, um Server-zu-Server-Authentifizierungsszenarien zu unterstützen. Windows Server 2008 R2 und Windows Server 2012 erfordern unterschiedliche Verfahren zum Installieren der Windows Identify Foundation. Wählen Sie das Betriebssystem Ihres Servers aus der folgenden Liste aus:
+
+  - Windows Server 2008 R2 für Windows Server 2008 R2 überprüfen Sie, ob Sie bereits auf Ihrem Computer installiert ist. Wechseln Sie dazu zu **Programme hinzufügen/entfernen**, **installierte Updates anzeigen**, und suchen Sie unter **Windows** nach dem Eintrag **Windows Identity Foundation (KB974405)**. Informationen zum Installieren von Windows Identity Foundation finden Sie [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)unter.
+
+  - Windows Server 2012 für Windows Server 2012 verwenden Sie den **Server-Manager** , um die Windows Identity Foundation zu installieren. Wählen Sie im **Assistenten zum Hinzufügen von Rollen und Features**des Server-Managers **Features**aus. Wählen Sie **Windows Identity Foundation 3,5** aus der Liste aus. Klicken Sie auf **weiter**, und klicken Sie dann auf **Installieren**.
+
+</div>
+
+<div>
+
+## <a name="additional-software-for-all-front-end-servers-and-standard-edition-servers"></a>Zusätzliche Software für alle Front-End-Server und Standard Edition-Server
+
+Alle Front-End-Server und Standard Edition-Server müssen auch Internet Informationsdienste (IIS) mit bestimmten Modulen ausführen. Darüber hinaus müssen alle Front-End-Server und Standard Edition-Server, auf denen Konferenz-, Anruf Park-, Ankündigungs-oder Antwortgruppen bereitgestellt werden, die Windows Media-Format Laufzeit ausführen.
+
+<div>
+
+## <a name="internet-information-services-iis"></a>Internetinformationsdienste (Internet Information Services, IIS)
+
+Front-End-Server und Standard Edition-Server müssen Internet Informationsdienste (IIS) mit den folgenden Modulen ausführen:
 
   - Statischer Inhalt
 
@@ -73,7 +121,7 @@ Auf Front-End-Servern und Standard Edition-Servern müssen die Internetinformati
 
   - HTTP-Fehler
 
-  - ASP.NET
+  - ASP.net
 
   - .NET-Erweiterbarkeit
 
@@ -99,27 +147,41 @@ Auf Front-End-Servern und Standard Edition-Servern müssen die Internetinformati
 
   - IIS-Verwaltungsskripts und -tools
 
-  - Anonyme Authentifizierung (wird bei der Installation von IIS standardmäßig installiert)
+  - Anonyme Authentifizierung (standardmäßig installiert, wenn IIS installiert ist)
 
   - Clientzertifikatzuordnungs-Authentifizierung
 
-## Windows Media Format Runtime und Windows Desktop Experience
+</div>
 
-**Windows Desktop Experience**Auf allen Front-End-Servern und Standard Edition-Servern, auf denen die Konferenzfunktion bereitgestellt wird, muss die Windows Media Format-Laufzeitkomponente installiert sein. Die Windows Media Format-Laufzeitkomponente ist, mit Ausnahme von Windows Server 2012 als Teil der Windows Desktop Experience installiert. Windows Server 2012 erfordert Microsoft Media Foundation. Die Windows Media Format-Laufzeitkomponente ist für die WMA-Dateien (Windows Media Audio) erforderlich, die in der Anwendung von Parken von Anrufen, in der Ansageanwendung und in der Reaktionsgruppenanwendung für die Wiedergabe von Ansagen und Musik verwendet werden.
+<div>
 
-Es wird empfohlen, Windows Desktop Experience vor der Installation von Lync Server 2013 zu installieren. Wenn Lync Server 2013 diese Software auf dem Server nicht findet, werden Sie zur Installation aufgefordert und müssen zum Abschließen der Installation den Server neu starten.
+## <a name="windows-media-format-runtime-and-windows-desktop-experience"></a>Windows Media Format-Laufzeit und Windows-Desktop Experience
 
-## Zusätzliche Software für Front-End-Server und Standard Edition-Server mit Windows Server 2012
+**Windows-Desktop Umgebung** Auf allen Front-End-Servern und Standard Edition-Servern, auf denen Konferenzen bereitgestellt werden, muss die Windows Media-Format Laufzeit installiert sein, die, mit Ausnahme von Windows Server 2012, als Teil der Windows-Desktopumgebung installiert ist. Windows Server 2012 erfordert Microsoft Media Foundation. Die Windows Media-Format Laufzeit ist erforderlich, um die Windows Media-Audio-Dateien (WMA) auszuführen, die von den Anwendungen für die Anruf Park-, Ankündigungs-und Reaktionsgruppen für Ankündigungen und Musik abgespielt werden.
 
-Front-End-Server erfordert .NET 3.5, da es nicht standardmäßig unter Windows Server 2012 installiert ist. Legen Sie zur Installation dieser Software die Windows Server 2012-Installationsmedien in Laufwerk D ein, und geben Sie Folgendes ein:
+Wir empfehlen, dass Sie die Windows-Desktopumgebung installieren, bevor Sie lync Server 2013 installieren. Wenn lync Server 2013 diese Software auf dem Server nicht findet, werden Sie aufgefordert, Sie zu installieren, und dann müssen Sie den Server neu starten, um die Installation abzuschließen.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-software-for-front-end-servers-and-standard-edition-servers-running-on-windows-server-2012"></a>Zusätzliche Software für Front-End-Server und Standard Edition-Server, die unter Windows Server 2012 ausgeführt werden
+
+Für Front-End-Server ist .NET 3,5 erforderlich, das unter Windows Server 2012 nicht standardmäßig installiert ist. Installieren Sie das Windows Server 2012-Installationsmedium auf Laufwerk D, und geben Sie Folgendes ein:
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Genauere Informationen zur Installation von .NET 3.5 auf Servern unter Windows Server 2012 finden Sie in "Microsoft .NET Framework 3.5 Deployment Considerations" unter <http://go.microsoft.com/fwlink/p/?linkid=275032>.
+Details zur Installation von .NET 3,5 auf Servern mit Windows Server 2012 finden Sie unter "Microsoft .NET Framework 3,5-Bereitstellungs <https://go.microsoft.com/fwlink/p/?linkid=275032>Überlegungen" unter.
 
-## Zusätzliche Software für Director-Server
+</div>
 
-Auf Director-Servern müssen die Internetinformationsdienste (Internet Information Services, IIS) mit den folgenden Modulen ausgeführt werden:
+<div>
+
+## <a name="additional-software-for-directors"></a>Zusätzliche Software für Directors
+
+Directors müssen Internet Informationsdienste (IIS) mit den folgenden Modulen ausführen:
 
   - Statischer Inhalt
 
@@ -127,7 +189,7 @@ Auf Director-Servern müssen die Internetinformationsdienste (Internet Informati
 
   - HTTP-Fehler
 
-  - ASP.NET
+  - ASP.net
 
   - .NET-Erweiterbarkeit
 
@@ -151,37 +213,65 @@ Auf Director-Servern müssen die Internetinformationsdienste (Internet Informati
 
   - IIS-Verwaltungsskripts und -tools
 
-  - Anonyme Authentifizierung (wird bei der Installation von IIS standardmäßig installiert)
+  - Anonyme Authentifizierung (standardmäßig installiert, wenn IIS installiert ist)
 
   - Clientzertifikatzuordnungs-Authentifizierung
 
-## Zusätzliche Software für Front-End-Server für beständigen Chat
+</div>
 
-Auf Front-End-Servern für beständigen Chat muss Message Queuing (auch bekannt als MSMQ) ausgeführt werden, die eine Komponente von Windows Server ist.
+<div>
 
-Informationen zur Aktivierung von MSMQ [finden Sie hier.](http://technet.microsoft.com/en-us/library/cc771474.aspx)
+## <a name="additional-software-for-persistent-chat-front-end-servers"></a>Zusätzliche Software für beständige Chat-Front-End-Server
 
-## Zusätzliche Software für Edgeserver
+Beständige Chat-Front-End-Server müssen Message Queuing (auch als MSMQ bezeichnet) ausführen, einer Komponente von Windows Server.
 
-Edgeserver erfordern folgende Software:
+Informationen zum Aktivieren von MSMQ finden [Sie hier.](https://technet.microsoft.com/en-us/library/cc771474.aspx)
 
-  - Auf jedem Server, auf dem Lync Server 2013 ausgeführt wird, muss die korrekte Version von Windows PowerShell 3.0 installiert sein. Ausführliche Informationen finden Sie unter [Installieren von Windows PowerShell 3.0 für Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+</div>
 
-  - Lync Server erfordert Microsoft .NET Framework 4.5. Für die Installation von Lync Server 2013 unter Windows Server 2008 R2 müssen Sie die 64-Bit-Version von Microsoft .NET Framework 4.5 auf dem Server installieren, bevor Sie Lync Server 2013 installieren. Laden Sie zur manuellen Installation das Microsoft .NET 4.5 Framework aus dem Microsoft Download Center unter [http://go.microsoft.com/fwlink/p/?LinkId=268529](http://go.microsoft.com/fwlink/p/?linkid=268529) herunter.
+<div>
 
-  - **Windows Identity Foundation** in Lync Server 2013 erfordert die Installation von Windows Identity Foundation, damit Server-zu-Server-Authentifizierungsszenarien unterstützt werden. Windows Server 2008 R2 und Windows Server 2012 erfordern unterschiedliche Verfahren für die Installation von Windows Identify Foundation. Wählen Sie in der folgende Liste das von Ihnen verwendete Betriebssystem aus:
+## <a name="additional-software-for-edge-servers"></a>Zusätzliche Software für Edgeserver
+
+Edgeserver erfordern die folgende Software:
+
+  - Auf jedem Server, auf dem lync Server 2013 ausgeführt wird, muss die richtige Version von Windows PowerShell 3,0 installiert sein. Ausführliche Informationen finden Sie unter [Installieren von Windows PowerShell 3,0 für lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+
+  - Für lync Server ist Microsoft .NET Framework 4,5 erforderlich. Für lync Server 2013, das unter Windows Server 2008 R2 installiert ist, müssen Sie die 64-Bit-Version von Microsoft .NET Framework 4,5 auf dem Server manuell installieren, bevor Sie lync Server 2013 installieren. Wenn Sie die Datei manuell installieren möchten, laden Sie das Microsoft .NET 4,5-Framework aus dem Microsoft Download Center unter[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+
+  - **WindowsIdentity Foundation** in lync Server 2013 erfordert die Installation von WindowsIdentity Foundation, um Server-zu-Server-Authentifizierungsszenarien zu unterstützen. Windows Server 2008 R2 und Windows Server 2012 erfordern unterschiedliche Verfahren zum Installieren der Windows Identify Foundation. Wählen Sie das Betriebssystem Ihres Servers aus der folgenden Liste aus:
     
-      - Windows Server 2008 R2   Für Windows Server 2008 R2 überprüfen Sie, ob die Software bereits auf Ihrem Computer installiert wurde. Hierzu wählen Sie in der Systemsteuerung **Software** , **Installierte Updates anzeigen** und suchen unter **Windows** nach dem Eintrag **Windows Identity Foundation (KB974405)** . Ausführliche Informationen zur Installation von Windows Identity Foundation finden Sie unter <http://go.microsoft.com/fwlink/?linkid=204657>.
+      - Windows Server 2008 R2 für Windows Server 2008 R2 überprüfen Sie, ob Sie bereits auf Ihrem Computer installiert ist. Wechseln Sie dazu zu **Programme hinzufügen/entfernen**, **installierte Updates anzeigen**, und suchen Sie unter **Windows** nach dem Eintrag **Windows Identity Foundation (KB974405)**. Informationen zum Installieren von Windows Identity Foundation finden Sie [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)unter.
     
-      - Windows Server 2012   Für Windows Server 2012 verwenden Sie den **Server-Manager** zur Installation von Windows Identity Foundation. Im Server-Manager- **Assistenten zum Hinzufügen von Rollen und Features** wählen Sie **Features** aus. Wählen Sie dann in der Liste **Windows Identity Foundation 3.5** aus. Klicken Sie auf **Weiter** und anschließend auf **Installieren** .
+      - Windows Server 2012 für Windows Server 2012 verwenden Sie den **Server-Manager** , um die Windows Identity Foundation zu installieren. Wählen Sie im **Assistenten zum Hinzufügen von Rollen und Features**des Server-Managers **Features**aus. Wählen Sie **Windows Identity Foundation 3,5** aus der Liste aus. Klicken Sie auf **weiter**, und klicken Sie dann auf **Installieren**.
 
-## Installieren Sie keine Mehrschicht-Dienstanbieter (Layered Service Provider, LSP) auf Medienservern
+</div>
 
-Installieren Sie keine Microsoft Internet Security and Acceleration Server (ISA)-Clientsoftware oder andere Winsock LSP-Software (Layered Service Provider, Mehrschicht-Dienstanbieter) auf einem beliebigen Front-End-Server oder auf eigenständigen Vermittlungsservern. Die Installation dieser Software kann zu einem schlechten Mediendatenverkehr führen.
+<div>
 
-## Siehe auch
+## <a name="do-not-install-layered-socket-providers-on-media-servers"></a>Installieren Sie keine Layered Socket-Anbieter auf Medienservern.
 
-#### Konzepte
+Installieren Sie keine Microsoft Internet Security and Acceleration (ISA) Server-Client Software oder eine andere Winsock-Schicht Service Anbieter-Software (LSP) auf allen Front-End-Servern oder eigenständigen Vermittlungsservern. Die Installation dieser Software kann zu schlechter Leistung des Medien Verkehrs führen.
 
-[Softwareanforderungen für Verwaltungstools in Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Softwareanforderungen für Verwaltungstools in Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

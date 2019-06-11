@@ -1,26 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Zuweisen des Bereichs für eine Standortrichtlinie'
-TOCTitle: Zuweisen des Bereichs für eine Standortrichtlinie
-ms:assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205360(v=OCS.15)
-ms:contentKeyID: 49295706
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zuweisen von Standortrichtlinien Bereich'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning location policy scope
+ms:assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205360(v=OCS.15)
+ms:contentKeyID: 48185734
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6c44bef383690856d873d64ab6218b0f14219e73
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839870"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zuweisen des Bereichs für eine Standortrichtlinie in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Zuweisen von Standortrichtlinien Bereich in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-06-06_
 
-Wie auch andere Lync Server-Richtlinien, so können Standortrichtlinien auf mehreren Ebenen zugewiesen werden: auf der globalen Ebene, der Standortebene und der Benutzerebene. Jedoch verhält sich der Umfang von Standortrichtlinien auf Benutzerebene etwas anders als andere Lync Server-Richtlinien. Genau gesagt können benutzerspezifische Standortrichtlinien auf Endpunktobjekte (wie etwa Benutzer und Kontaktobjekte für Telefone in öffentlichen Bereichen) und auf Lync Server-Netzwerkstandorte angewendet werden. Netzwerkstandorte sind Gruppierungen von Client-Subnetzen, die einem geografischen Standort zugeordnet sind (jedoch muss es sich nicht zwingend um alle Subnetze an einem zentralen Standort oder in einer Zweigniederlassung handeln). Alle Clients, die mit den Subnetzen an einem Netzwerkstandort verbunden sind, übernehmen automatisch die Standortrichtlinie, die dem jeweiligen Netzwerkstandort zugewiesen ist. Wenn eine Standortrichtlinie auf Benutzerebene sowohl einem Benutzer als auch einem Netzwerkstandort zugewiesen ist, hat die auf dem Netzwerkstandort basierende Standortrichtlinie Vorrang vor jeglichen benutzerspezifischen Richtlinieneinstellungen.
+Wie bei anderen lync-Server Richtlinien können Standortrichtlinien auf mehreren Bereichsebenen zugewiesen werden: Global, Website und Benutzer. Der Bereich der Standortrichtlinien auf Benutzerebene verhält sich jedoch etwas anders als bei anderen lync-Server Richtlinien. Auf Endpunkt Objekte (wie Benutzer und Telefon Kontaktobjekte im öffentlichen Bereich) können nicht nur Orts Richtlinien für einzelne Benutzer angewendet werden, sondern auch auf lync Server-Netzwerk Websites angewendet werden. Netzwerkstandorte sind Gruppierungen von Client-Subnetzen, die einem geografischen Standort zugeordnet sind (jedoch muss es sich nicht zwingend um alle Subnetze an einem zentralen Standort oder in einer Zweigniederlassung handeln). Alle Clients, die mit den Subnetzen an einem Netzwerkstandort verbunden sind, übernehmen automatisch die Standortrichtlinie, die dem jeweiligen Netzwerkstandort zugewiesen ist. Wenn eine Standortrichtlinie auf Benutzerebene sowohl einem Benutzer als auch einem Netzwerkstandort zugewiesen ist, hat die auf dem Netzwerkstandort basierende Standortrichtlinie Vorrang vor allen benutzerspezifischen Richtlinieneinstellungen.
 
-Jedem Netzwerkstandort ist eine Standortrichtlinie zugewiesen, und jeder Richtlinie sind andere Werte für PSTN-Verwendungen, Benachrichtigungs-URIs und Konferenz-URIs zugewiesen.
+Jedem Netzwerkstandort ist eine Standortrichtlinie zugewiesen und jeder Richtlinie sind andere Werte für PSTN-Verwendungen, Benachrichtigungs-URIs und Konferenz-URIs zugewiesen.
+
+<div>
 
 
-> [!NOTE]
-> Der Grund für dieses spezielle Richtlinienverhalten ist, dass, wenn ein Benutzer, der einem Pool an einem Bürostandort angehört, einen anderen Standort besucht und einen Notruf tätigen muss, die Einstellungen für die E9-1-1-Anrufumleitung für diesen Netzwerkstandort unabhängig davon gelten, welchem Pool oder welchem Standort der Benutzer zugewiesen ist.
+> [!NOTE]  
+> Dieses spezielle Richtlinienverhalten hat folgenden Grund: Wenn ein Benutzer, der einem Pool an einem Bürostandort angehört, einen anderen Standort besucht und einen Notruf tätigen muss, gelten die Einstellungen für die E9-1-1-Anrufumleitung für diesen Netzwerkstandort unabhängig davon, welchem Pool oder welchem Standort der Benutzer zugewiesen ist.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

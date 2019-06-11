@@ -1,211 +1,298 @@
-﻿---
-title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
-TOCTitle: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
-ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688121(v=OCS.15)
-ms:contentKeyID: 49890828
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure federation routes and media traffic
+ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
+ms:contentKeyID: 49733720
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839097"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-15_
 
-Ein Partnerverbund ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zum Lync Server 2013-Pilotpool müssen Sie von der Partnerverbundroute Ihrer Lync Server 2010-Edgeserver auf die Partnerverbundroute Ihrer Lync Server 2013-Edgeserver umstellen.
+Föderation ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die es Benutzern in separaten Organisationen ermöglicht, über Netzwerkgrenzen hinweg zu kommunizieren. Nachdem Sie die Migration zu Ihrem lync Server 2013-Pilot Pool durchgeführt haben, müssen Sie von der Verbund Route ihrer lync Server 2010-Edgeserver zur Föderations Route ihrer lync Server 2013-Edgeserver wechseln.
 
-Verwenden Sie die nachfolgenden Verfahren, um die Partnerverbundroute und die Mediendatenverkehrsroute für eine Bereitstellung mit einem einzelnen Standort vom Lync Server 2010-Edgeserver und -Director auf den Lync Server 2013\>-Edgeserver umzustellen.
+Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medien Verkehrsroute vom lync Server 2010-Edgeserver und-Director auf Ihren lync Server 2013-Edgeserver für eine Bereitstellung mit einem einzelnen Standort umzustellen.
 
-
-> [!IMPORTANT]
-> Zum Ändern der Partnerverbundroute und der Mediendatenverkehrsroute müssen Sie Wartungsdowntime für die Lync Server 2013- und Lync Server 2010-Edgeserver einplanen. Der gesamte Umstellungsprozess bedeutet auch, dass der Verbundzugriff für die Dauer der Downtime nicht verfügbar ist. Sie sollten die Downtime für einen Zeitraum einplanen, in dem Sie minimale Benutzeraktivität erwarten. Darüber hinaus sollten Sie die Endbenutzer rechtzeitig informieren. Planen Sie diese Downtime sorgfältig, und stellen Sie innerhalb Ihrer Organisation entsprechende Ziele auf.
+<div>
 
 
-
-
-> [!IMPORTANT]
-> Falls für Ihren Lync Server 2010-Edgeserver der Vorversion die Verwendung desselben vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) für den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die in diesem Abschnitt beschriebenen Verfahren nicht unterstützt. Falls für die Edgedienste der Vorversion die Verwendung desselben vollqualifizierten Domänennamens konfiguriert ist, müssen Sie zuerst alle Ihre Benutzer von Lync Server 2010 zu Lync Server 2013 migrieren und anschließend den Lync Server 2010-Edgeserver deaktivieren, bevor Sie den Partnerverbund auf dem Lync Server 2013 -Edgeserver aktivieren.
+> [!IMPORTANT]  
+> Für das Ändern der Route für die Verbund Route und den Mediendatenverkehr müssen Sie Wartungs Ausfälle für die Edgeserver lync Server 2013 und lync Server 2010 planen. Dieser gesamte Übergangsprozess bedeutet auch, dass der Verbundzugriff für die Dauer des Ausfalls nicht verfügbar ist. Sie sollten die Downtime für eine Zeit planen, wenn Sie eine minimale Benutzeraktivität erwarten. Darüber hinaus sollten Sie den Endbenutzern eine ausreichende Benachrichtigung senden. Planen Sie für diesen Ausfall entsprechend, und setzen Sie in Ihrer Organisation angemessene Erwartungen.
 
 
 
+</div>
 
-> [!IMPORTANT]
-> Wenn Ihr XMPP-Partnerverbund (Extensible Messaging and Presence Protocol) über einen Lync Server 2013-Edgeserver weitergeleitet wird, können Lync Server 2010-Legacybenutzer erst dann mit dem XMPP-Verbundpartner kommunizieren, nachdem alle Benutzer zu Lync Server 2013 verschoben und die XMPP-Richtlinien und -Zertifikate konfiguriert worden sind, der XMPP-Verbundpartner in Lync Server 2013 konfiguriert worden ist und schließlich die DNS-Einträge aktualisiert worden sind.
+<div>
+
+
+> [!IMPORTANT]  
+> Wenn Ihr Legacy lync Server 2010-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, werden die Verfahren in diesem Abschnitt nicht unterstützt. Wenn die Legacy Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von lync Server 2010 zu lync Server 2013 migrieren und dann den lync Server 2010-Edgeserver außer Betrieb setzen, bevor Sie den Verbund auf dem lync Server 2013-Edgeserver aktivieren.
 
 
 
-## So Entfernen Sie die Partnerverbundzuordnung der Vorversion für Lync Server 2013-Standorte
+</div>
 
-1.  Öffnen Sie auf dem Lync Server 2013-Front-End-Server die bestehende Topologie im Topologie-Generator.
+<div>
 
-2.  Navigieren Sie im linken Bereich zum Knoten "Standort", der sich direkt unter dem **Lync Server** befindet.
 
-3.  Klicken Sie mit der rechten Maustaste auf den Standort, und klicken Sie auf **Eigenschaften bearbeiten** .
+> [!IMPORTANT]  
+> Wenn Ihr XMPP-Verbund über einen lync Server 2013-Edgeserver weitergeleitet wird, können Legacy-lync Server 2010-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013 verschoben wurden, XMPP-Richtlinien und-Zertifikate wurden konfiguriert, wurde der XMPP-Verbundpartner auf lync Server 2013 konfiguriert, und zuletzt wurden die DNS-Einträge aktualisiert.
 
-4.  Wählen Sie im linken Bereich die Option **Partnerverbundroute** aus.
 
-5.  Deaktivieren Sie unter **Zuweisung der Partnerverbundroute des Standorts** das Kontrollkästchen **SIP-Partnerverbund aktivieren** , um die Partnerverbundroute über die alte Lync Server 2010-Umgebung zu deaktivieren.
+
+</div>
+
+<div>
+
+## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a>So entfernen Sie die Legacy Verbund Zuordnung von lync Server 2013-Websites
+
+1.  Öffnen Sie auf dem lync Server 2013-Front-End-Server die vorhandene Topologie im Topologie-Generator.
+
+2.  Navigieren Sie im linken Bereich zu dem Websiteknoten, der sich direkt unter **lync Server**befindet.
+
+3.  Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+4.  Wählen Sie im linken Bereich **Föderations Route**aus.
+
+5.  Deaktivieren Sie unter **Standort Verbund-Routen Zuweisung**das Kontrollkästchen **SIP-Verbund aktivieren** , um die Verbund Route über die Legacy-lync Server 2010-Umgebung zu deaktivieren.
     
-    ![Eigenschaften bearbeiten (Dialogfeld), Partnerverbundroute (Seite)](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Eigenschaften bearbeiten (Dialogfeld), Partnerverbundroute (Seite)")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Verbund Route\"")
 
-6.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+6.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
-7.  Wählen Sie im **Topologie-Generator** den obersten Knoten aus, **Lync Server** .
+7.  Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem obersten Knoten aus.
 
-8.  Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen** .
+8.  Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen**.
 
-9.  Klicken Sie auf **Weiter**, um den Veröffentlichungsvorgang zu beenden, und klicken Sie dann auf **Fertig stellen**, wenn der Veröffentlichungsvorgang abgeschlossen ist.
+9.  Klicken Sie auf **weiter** , um den Veröffentlichungsvorgang abzuschließen, und klicken Sie dann auf **Fertig stellen** , wenn der Veröffentlichungsvorgang abgeschlossen ist.
 
-## So konfigurieren Sie den Edgeserver der Vorversion als Nicht-Partnerverbund-Edgeserver
+</div>
 
-1.  Navigieren Sie im linken Bereich zum Knoten **Lync Server 2010** und dann zum Knoten **Edgepools**.
+<div>
 
-2.  Klicken Sie mit der rechten Maustaste auf den Edgeserver und anschließend auf **Eigenschaften bearbeiten** .
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>So konfigurieren Sie den Legacy-Edgeserver als nicht-Föderations-Edgeserver
 
-3.  Wählen Sie im linken Bereich **Allgemein** aus.
+1.  Navigieren Sie im linken Bereich zum Knoten **lync Server 2010** und dann zum Knoten Edge- **Pools** .
 
-4.  Deaktivieren Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** , und wählen Sie **OK** aus, um die Seite zu schließen.
+2.  Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+3.  Wählen Sie im linken Bereich die Option **Allgemein** aus.
+
+4.  Deaktivieren Sie das Kontrollkästchen Eintrag **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , und wählen Sie **OK** aus, um die Seite zu schließen.
     
-    ![Eigenschaften bearbeiten, Allgemein, Aktivierung von Partnerverbund aufheben](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, Allgemein, Aktivierung von Partnerverbund aufheben")
+    ![Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren")
 
-5.  Wählen Sie im Menü **Aktionen** die Option **Topologie veröffentlichen** aus, und klicken Sie dann auf **Weiter** .
+5.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
 
-6.  Wenn der **Veröffentlichungs-Assistent** abgeschlossen ist, klicken Sie auf **Fertig stellen**, um den Assistenten zu schließen.
+6.  Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
 
-7.  Stellen Sie sicher, dass der Partnerverbund für die Edgeserver der Vorversion deaktiviert ist.
+7.  Überprüfen Sie, ob der Verbund für den Legacy-Edgeserver deaktiviert ist.
     
-    ![Topologie-Generator, Edgepool, Partnerverbund deaktiviert](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edgepool, Partnerverbund deaktiviert")
+    ![Topologie-Generator, Edge-Pool, Verbund deaktiviert] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund deaktiviert")
 
-## So konfigurieren Sie Zertifikate auf dem Lync Server 2013-Edgeserver
+</div>
 
-1.  Exportieren Sie das externe Zugriffsproxyzertifikat mit dem privaten Schlüssel aus dem Lync Server 2010-Edgeserver der Vorversion.
+<div>
 
-2.  Importieren Sie auf dem Lync Server 2013-Edgeserver das externe Zugriffsproxyzertifikat aus dem vorherigen Schritt.
+## <a name="to-configure-certificates-on-the-lync-server-2010-edge-server"></a>So konfigurieren Sie Zertifikate auf dem lync Server 2010-Edgeserver
 
-3.  Weisen Sie das externe Zugriffsproxyzertifikat der externen Lync Server 2013-Schnittstelle des Edgeservers zu.
+1.  Exportieren Sie das Proxy Zertifikat für den externen Zugriff mit dem privaten Schlüssel vom Legacy lync Server 2010-Edgeserver.
 
-4.  Das Zertifikat für die interne Schnittstelle des Lync Server 2013-Edgeservers sollte von einer vertrauenswürdigen Zertifizierungsstelle angefordert und zugewiesen werden.
+2.  Importieren Sie auf dem lync Server 2013-Edgeserver das externe Zugriffs Proxy Zertifikat aus dem vorherigen Schritt.
 
-## So legen Sie für die Lync Server 2010-Partnerverbundroute die Verwendung des Lync Server 2013-Edgeservers fest
+3.  Weisen Sie das externe Zertifikat des Zugriffsproxys zur externen lync Server 2013-Schnittstelle des Edgeserver zu.
 
-1.  Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten **Lync Server 2013** und dann zum Knoten **Edgepools**.
+4.  Das interne Schnittstellen Zertifikat des lync Server 2013-Edge-Servers sollte von einer vertrauenswürdigen Zertifizierungsstelle angefordert und zugewiesen werden.
 
-2.  Klicken Sie mit der rechten Maustaste auf den Edgeserver und anschließend auf **Eigenschaften bearbeiten** .
+</div>
 
-3.  Wählen Sie im linken Bereich **Allgemein** aus.
+<div>
 
-4.  Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** , und klicken Sie dann auf **OK**, um die Seite zu schließen.
+## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a>So ändern Sie die lync Server 2010-Verbund Route zur Verwendung des lync Server 2013 Edge-Servers
+
+1.  Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .
+
+2.  Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+3.  Wählen Sie im linken Bereich die Option **Allgemein** aus.
+
+4.  Aktivieren Sie den Kontrollkästchen Eintrag für **enable Federation for this Edge Pool (Port 5061)** , und klicken Sie dann auf **OK** , um die Seite zu schließen.
     
-    ![Eigenschaften bearbeiten (Dialogfeld), Allgemein (Seite)](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Eigenschaften bearbeiten (Dialogfeld), Allgemein (Seite)")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")
 
-5.  Wählen Sie im Menü **Aktionen** die Option **Topologie veröffentlichen** aus, und klicken Sie dann auf **Weiter** .
+5.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
 
-6.  Wenn der **Veröffentlichungs-Assistent** abgeschlossen ist, klicken Sie auf **Fertig stellen**, um den Assistenten zu schließen.
+6.  Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
 
-7.  Stellen Sie sicher, dass die Option **Partnerverbund (Port 5061)** auf **Aktiviert** festgelegt wurde.
+7.  Überprüfen Sie, ob der **Verbund (Port 5061)** auf **aktiviert**festgesetzt ist.
     
-    ![Topologie-Generator, Edgepool, Partnerverbund aktiviert](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edgepool, Partnerverbund aktiviert")
+    ![Topologie-Generator, Edge-Pool, Verbund aktiviert] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund aktiviert")
 
-## So aktualisieren Sie den nächsten Partnerverbundhop für den Lync Server 2013-Edgeserver
+</div>
 
-1.  Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten **Lync Server 2013** und dann zum Knoten **Edgepools**.
+<div>
 
-2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie anschließend auf **Eigenschaften bearbeiten** .
+## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a>So aktualisieren Sie den nächsten Hop von lync Server 2013 Edge Server Federation
 
-3.  Wählen Sie auf der Seite **Allgemein** unter **Auswahl für nächsten Hop** in der Dropdownliste den Lync Server 2013-Pool aus.
+1.  Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .
+
+2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+3.  Wählen Sie auf der Seite **Allgemein** unter Auswahl für den **nächsten Hop**in der Dropdownliste den lync Server 2013-Pool aus.
     
-    ![Dialogfeld zum Bearbeiten von Eigenschaften, Nächster Hop (Seite)](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld zum Bearbeiten von Eigenschaften, Nächster Hop (Seite)")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '")
 
-4.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
-5.  Wählen Sie im **Topologie-Generator** den obersten Knoten aus, **Lync Server** .
+5.  Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.
 
-6.  Klicken Sie im Menü **Aktionen** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
+6.  Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
 
-## So konfigurieren Sie den ausgehenden Medienpfad für den Lync Server 2013-Edgeserver
+</div>
 
-1.  Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten **Lync Server 2013** und dann zum Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools** .
+<div>
 
-2.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie auf **Eigenschaften bearbeiten** .
+## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>So konfigurieren Sie den ausgehenden Medienpfad von lync Server 2013 Edge Server
 
-3.  Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edgepool zuordnen (für Medienkomponenten)** .
+1.  Navigieren Sie vom Topologie-Generator im linken Bereich zu dem **lync Server 2013** -Knoten, und klicken Sie dann auf den Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools**.
+
+2.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+3.  Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten)** .
     
-    ![Eigenschaften bearbeiten, Allgemein, Edgepool zuordnen](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Eigenschaften bearbeiten, Allgemein, Edgepool zuordnen")
+    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
 
-4.  Wählen Sie in der Dropdownliste den Lync Server 2013-Edgeserver aus.
+4.  Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.
 
 5.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
 
-## So aktivieren Sie den Partnerverbund für den Lync Server 2013-Edgeserver
+</div>
 
-1.  Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten **Lync Server 2013** und dann zum Knoten **Edgepools**.
+<div>
 
-2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie anschließend auf **Eigenschaften bearbeiten** .
+## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>So aktivieren Sie den lync Server 2013-Edgeserver-Verbund
+
+1.  Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .
+
+2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Der Partnerverbund kann nur für einen einzelnen Edgepool aktiviert werden. Wählen Sie bei mehreren Edgepools den Edgepool aus, den Sie als Partnerverbund- Edgepool verwenden möchten.
+    > [!NOTE]  
+    > Der Verbund kann nur für einen einzelnen Edge-Pool aktiviert werden. Wenn Sie über mehrere Edge-Pools verfügen, wählen Sie eine aus, die Sie als Föderations-Edge-Pool verwenden möchten.
 
-
-
-3.  Stellen Sie auf der Seite **Allgemein** sicher, dass die Einstellung **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aktiviert wurde.
     
-    ![Eigenschaften bearbeiten (Dialogfeld), Allgemein (Seite)](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Eigenschaften bearbeiten (Dialogfeld), Allgemein (Seite)")
+    </div>
 
-4.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
-
-5.  Navigieren Sie anschließend zum Knoten **Standort** .
-
-6.  Klicken Sie mit der rechten Maustaste auf den Standort, und klicken Sie auf **Eigenschaften bearbeiten** .
-
-7.  Klicken Sie im linken Bereich auf **Partnerverbundroute** .
-
-8.  Wählen Sie unter **Zuweisung der Partnerverbundroute des Standorts** die Option **SIP-Partnerverbund aktivieren** aus, und wählen Sie dann in der Liste den aufgeführten Lync Server 2013- Edgeserver aus.
+3.  Überprüfen Sie auf der Seite **Allgemein** , ob die Einstellung **Föderation für diesen Edge-Pool aktivieren (Port 5061)** aktiviert ist.
     
-    ![Eigenschaften bearbeiten, Partnerverbundroute (Seite)](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Partnerverbundroute (Seite)")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")
+
+4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
+
+5.  Navigieren Sie als nächstes zum Websiteknoten.
+
+6.  Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+7.  Klicken Sie im linken Bereich auf **Föderations Route**.
+
+8.  Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann in der Liste den Eintrag lync Server 2013 Edge Server aus.
+    
+    ![Eigenschaften bearbeiten, Seite "Verbund Route"] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Seite \"Verbund Route\"")
 
 9.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
     
-    Für Bereitstellungen mit mehreren Standorten führen Sie dieses Verfahren an jedem Standort aus.
+    Führen Sie für die Bereitstellung mehrerer Websites dieses Verfahren an jedem Standort aus.
 
-## So veröffentlichen Sie Edgeserver-Konfigurationsänderungen
+</div>
 
-1.  Wählen Sie im **Topologie-Generator** den obersten Knoten aus, **Lync Server** .
+<div>
 
-2.  Klicken Sie im Menü **Aktionen** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
+## <a name="to-publish-edge-server-configuration-changes"></a>So veröffentlichen Sie Änderungen an Edge-Server-Konfigurationen
 
-3.  Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung ausgeführt worden ist.
+1.  Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.
+
+2.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.
+
+3.  Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung erfolgt.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Möglicherweise wird die folgende Meldung angezeigt:<BR><STRONG>Warnung: Die Topologie enthält mehrere Partner-Edgeserver. Dies kann während der Migration zu einer höheren Version des Produkts geschehen. In diesem Fall wird nur ein Edgeserver aktiv für den Partnerverbund verwendet. Stellen Sie sicher, dass der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Partnerverbund-Edgeserver bereitstellen möchten, die gleichzeitig aktiv sind (kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner Lync Server verwenden. Stellen Sie außerdem sicher, dass der externe DNS-SRV-Eintrag alle partnerverbundfähigen Edgeserver auflistet.</STRONG><BR>Diese Warnung entspricht der Erwartung und kann problemlos ignoriert werden.
+    > [!NOTE]  
+    > Möglicherweise wird die folgende Meldung angezeigt:<BR><STRONG>Warnung: die Topologie enthält mehr als einen Federated-Edgeserver. Dies kann während der Migration zu einer neueren Version des Produkts auftreten. In diesem Fall würde nur ein Edgeserver für den Verbund aktiv verwendet. Überprüfen Sie, ob der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Verbund-Edgeserver bereitstellen möchten, um gleichzeitig aktiv zu sein (also kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner lync Server verwenden. Überprüfen Sie, ob der externe DNS-SRV-Eintrag alle Verbund fähigen Edgeserver auflistet.</STRONG><BR>Diese Warnung wird erwartet und kann bedenkenlos ignoriert werden.
 
+    
+    </div>
 
+</div>
 
-## So konfigurieren Sie den Lync Server 2013-Edgeserver
+<div>
 
-1.  Schalten Sie alle Lync Server 2013-Edgeserver online.
+## <a name="to-configure-lync-server-2013-edge-server"></a>So konfigurieren Sie den lync Server 2013-Edgeserver
 
-2.  Aktualisieren Sie die externen Firewall-Routingregeln oder die Einstellungen für das Hardwaregerät zum Lastenausgleich, sodass SIP-Datenverkehr für den externen Zugriff (meist Port 443) und den Partnerverbund (meist Port 5061) nicht an den Edgeserver der Vorversion, sondern an den Lync Server 2013- Edgeserver gesendet wird.
+1.  Bringen Sie alle lync Server 2013-Edgeserver online.
+
+2.  Aktualisieren Sie die Routingregeln für externe Firewalls oder die Einstellungen für das Hardwarelastenausgleich, um SIP-Datenverkehr für externen Zugriff (normalerweise Port 443) und Föderation (in der Regel Port 5061) an den lync Server 2013-Edgeserver anstelle des Legacy-Edgeserver zu senden.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie kein Hardwaregerät zum Lastenausgleich zur Verfügung haben, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, um das Problem für den neuen Lync Server-Zugriffs-Edgeserver zu lösen. Damit es mit geringstmöglicher Störung abgeschlossen werden kann, sollte Sie den TLL-Wert für den externen FQDN des Lync Server-Zugriffsedge reduzieren, sodass der Partnerverbund und der Remotezugriff schnell aktualisiert werden können, wenn die DNS aktualisiert wird, damit auf den neuen Lync Server-Zugriffsedge verwiesen werden kann.
+    > [!NOTE]  
+    > Wenn Sie nicht über ein Hardware-Lastenausgleichsmodul verfügen, müssen Sie den DNS-a-Eintrag für die Föderation aktualisieren, damit er auf den neuen lync Server Access-Edgeserver aufgelöst werden kann. Um dies bei minimaler Unterbrechung zu erreichen, verringern Sie den TLL-Wert für den externen lync Server Access-Edge-FQDN, sodass beim Aktualisieren von DNS auf den neuen lync Server Access-Edge die Föderation und der Remotezugriff schnell aktualisiert werden.
 
+    
+    </div>
 
+3.  Beenden Sie als nächstes den **lync Server Access-Edge** von jedem Edgeserver-Computer.
 
-3.  Beenden Sie anschließend den **Lync Server-Zugriffsedge** auf jedem Computer mit Edgeserver.
+4.  Öffnen Sie auf jedem Legacy-Edgeserver-Computer das Applet **Dienste** in den **Verwaltungs Tools**.
 
-4.  Öffnen Sie auf jedem Edgeserver-Computer der Vorversion das Applet **Dienste** in **Verwaltung** .
+5.  Suchen Sie in der Liste Dienste nach **lync Server Access Edge**.
 
-5.  Suchen Sie in der Liste mit den Diensten nach **Lync Server-Zugriffsedge** .
+6.  Klicken Sie mit der rechten Maustaste auf den Namen der Dienste, und wählen Sie dann **Beenden** aus, um den Dienst zu beenden.
 
-6.  Klicken Sie mit der rechten Maustaste auf den Namen des Diensts, und klicken Sie dann auf **Beenden** , um den Dienst zu beenden.
+7.  Setzen Sie den Starttyp auf **disabled**.
 
-7.  Legen Sie als Starttyp **Deaktiviert** fest.
+8.  Klicken Sie auf **OK** , um das **Eigenschaften** Fenster zu schließen.
 
-8.  Klicken Sie auf **OK** , um das Fenster **Eigenschaften** zu schließen.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

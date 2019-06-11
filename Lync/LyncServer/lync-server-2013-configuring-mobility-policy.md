@@ -1,109 +1,160 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren der Mobilitätsrichtlinie'
-TOCTitle: Konfigurieren der Mobilitätsrichtlinie
-ms:assetid: 595536e0-9bb3-49a3-8d13-1a77351ebc62
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690018(v=OCS.15)
-ms:contentKeyID: 49294090
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Mobilitätsrichtlinie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring mobility policy
+ms:assetid: 595536e0-9bb3-49a3-8d13-1a77351ebc62
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690018(v=OCS.15)
+ms:contentKeyID: 48184204
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7f71252064cef521058aba17a3c220a948e23c7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839203"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Mobilitätsrichtlinie in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a>Konfigurieren der Mobilitätsrichtlinie in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 stellt Mobilitätsrichtlinien bereit, die bestimmen, wer Mobilitätsfeatures und wer die Features "Geschäftlich anrufen", VoIP oder Video verwenden kann, und ob für VoIP oder Video WLAN erforderlich ist. Mit dem Feature "Geschäftlich anrufen" können mobile Benutzer auf einem Mobiltelefon unter der geschäftlichen Telefonnummer anstatt unter der Mobiltelefonnummer Anrufe tätigen und entgegennehmen. Mit diesem Feature wird verhindert, dass der angerufene Gesprächspartner die Mobiltelefonnummer des Anrufers sieht und dass für den Benutzer Gebühren für ausgehende Anrufe anfallen. Das Konfigurieren von VoIP und Video ermöglicht Benutzern das Tätigen und Empfangen von VoIP- und Videoanrufen. Mit den Einstellungen für die WLAN-Verwendung wird festgelegt, ob das Gerät eines Benutzers ein WLAN-Netzwerk statt einer mobilen Datenverbindung nutzen muss.
+Lync Server 2013 bietet mobilitätsrichtlinien, die bestimmen, wer Mobilitätsfunktionen nutzen, über Arbeit anrufen, VoIP (Voice over IP) oder Video verwenden kann und ob WLAN für VoIP oder Video erforderlich ist. Mit der Funktion Anruf über Arbeit kann ein Mobilfunknutzer Anrufe auf einem Mobiltelefon tätigen und empfangen, indem er eine geschäftliche Telefonnummer anstelle der Mobiltelefonnummer verwendet. Dieses Feature verhindert, dass der angerufene die Handynummer des Anrufers sieht und es einem Benutzer ermöglicht, ausgehende Gebühren zu vermeiden. Die Konfiguration von VoIP und Video ermöglicht es Benutzern, VoIP-Anrufe und Videos zu empfangen und zu führen. Einstellungen für die WLAN-Nutzung definieren, ob das Gerät eines Benutzers ein WLAN-Netzwerk über ein Mobilfunknetz verwenden muss.
 
-Standardmäßig sind sowohl das Mobilitätsfeature als auch die Features "Geschäftlich anrufen", VoIP und Video aktiviert. Die Einstellungen, die WLAN für VoIP und Video erfordern sind deaktiviert. Administratoren können durch Ausführen eines Cmdlets bestimmen, wer Zugriff auf diese Features hat. Sie können die Optionen global, nach Standort oder nach Benutzer deaktivieren.
+Standardmäßig sind Mobilität, Anruf über die Arbeit und die VoIP-und Videofunktionen aktiviert. Die Einstellungen für WLAN für VoIP und Video sind deaktiviert. Administratoren können ermitteln, wer Zugriff auf diese Features hat, indem Sie ein Cmdlet ausführen. Sie können Optionen Global, nach Website oder nach Benutzer deaktivieren.
 
-Benutzer müssen die beiden folgenden Voraussetzungen erfüllen, um die Mobilitätsfeatures und das Feature "Geschäftlich anrufen" verwenden zu können:
+Um Mobilitätsfunktionen nutzen und über die Arbeit anrufen zu können, müssen die Benutzer die folgenden Voraussetzungen erfüllen:
 
-  - Benutzer müssen für Lync Server 2013 aktiviert sein.
+  - Benutzer müssen für lync Server 2013 aktiviert sein.
 
   - Benutzer müssen für Enterprise-VoIP aktiviert sein.
 
-  - Benutzern muss eine Mobilitätsrichtlinie zugewiesen sein, für die die Option **EnableMobility** auf TRUE gesetzt ist.
+  - Benutzern muss eine Mobilitätsrichtlinie zugewiesen werden, bei der die **EnableMobility** -Option auf "true" festgelegt ist.
 
-Zum Verwenden des Features Geschäftlich anrufen müssen Benutzer zudem die beiden folgenden Voraussetzungen erfüllen:
+Damit Benutzer den Anruf über die Arbeit nutzen können, müssen Sie die beiden folgenden zusätzlichen Voraussetzungen erfüllen:
 
-  - Benutzern muss eine VoIP-Richtlinie zugewiesen sein, für die die Option **Gleichzeitiges Klingeln von Telefonen aktivieren** aktiviert ist.
+  - Benutzern muss eine VoIP-Richtlinie zugewiesen sein, für die die Option **gleichzeitiges Anrufen von Telefonen aktivieren** aktiviert ist.
 
-  - Benutzern muss eine Mobilitätsrichtlinie mit der Option **EnableOutsideVoice** und dem Wert "True" zugewiesen werden.
+  - Benutzern muss eine Mobilitätsrichtlinie zugewiesen werden, bei der die **EnableOutsideVoice** -Option auf "true" festgelegt ist.
 
-
-> [!NOTE]
-> Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können mithilfe ihres mobilen Geräts VoIP-Anrufe von Lync an Lync tätigen oder an Konferenzen teilnehmen, indem sie auf ihrem mobilen Gerät auf den entsprechenden Link klicken. Hierzu müssen Sie diesen Benutzern die entsprechenden Optionen für die VoIP-Richtlinie zuweisen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-defining-your-mobility-requirements.md">Definieren der Mobilitätsanforderungen für Lync Server 2013</A>.
+<div>
 
 
+> [!NOTE]  
+> Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können Ihre mobilen Geräte verwenden, um lync zu lync-VoIP-Anrufen (Voice over IP) zu machen oder an Konferenzen teilzunehmen, indem Sie auf Ihren mobilen Geräten über den Link zum teilnehmen klicken, wenn Sie diesen Benutzern die entsprechenden Optionen für VoIP-Richtlinien zuweisen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-defining-your-mobility-requirements.md">Definieren Ihrer Mobilitätsanforderungen für lync Server 2013</A>.
 
-Ausführliche Informationen zum Aktivieren von Benutzern für Lync Server 2013 finden Sie unter [Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Ausführliche Informationen zum Aktivieren von Benutzern für Enterprise-VoIP finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Ausführliche Informationen zum Einrichten von VoIP-Richtlinienoptionen finden Sie unter [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
 
-## So ändern Sie die globale Mobilitätsrichtlinie
 
-1.  Melden Sie sich an einem Computer, auf dem Lync Server-Verwaltungsshell und Ocscore installiert sind, als Mitglied der Rolle "CsAdministrator" an.
+</div>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+Details zum Aktivieren von Benutzern für lync Server 2013 finden Sie unter [deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Details zum Aktivieren von Benutzern für Enterprise-VoIP finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Details zum Festlegen von VoIP-Richtlinienoptionen finden Sie unter [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
 
-3.  Deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen global. Geben Sie an der Befehlszeile Folgendes ein:
+<div>
+
+## <a name="to-modify-global-mobility-policy"></a>So ändern Sie die globale Mobilitätsrichtlinie
+
+1.  Melden Sie sich bei einem beliebigen Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Deaktivieren Sie den Zugriff auf Mobilität, und rufen Sie über die Arbeit weltweit an. Geben Sie in der Befehlszeile Folgendes ein:
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
+    <div>
+    
 
-    > [!NOTE]
-    > Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.
+    > [!NOTE]  
+    > Sie können den Anruf über die Arbeit ausschalten, ohne den Zugriff auf Mobilität zu deaktivieren. Sie können die Mobilität jedoch nicht deaktivieren, ohne dass Sie den Anruf über die Arbeit abschalten.
 
+    
+    </div>
 
+</div>
 
-## So ändern Sie die Mobilitätsrichtlinie nach Standort
+<div>
 
-1.  Melden Sie sich an einem Computer, auf dem Lync Server-Verwaltungsshell und Ocscore installiert sind, als Mitglied der Rolle "CsAdministrator" an.
+## <a name="to-modify-mobility-policy-by-site"></a>So ändern Sie die mobilitätsrichtlinien nach Website
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich bei einem beliebigen Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
 
-3.  Erstellen Sie eine Richtlinie auf Standortebene, deaktivieren Sie den Zugriff auf VoIP und Video, und aktivieren Sie je nach Standort die Einstellungen, die WLAN für IP-Audio und -Video erfordern. Geben Sie an der Befehlszeile Folgendes ein:
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Erstellen Sie eine Richtlinie auf Websiteebene, und deaktivieren Sie VoIP und Video, und aktivieren Sie WLAN für IP-Audio und für IP-Video nach Website anfordern. Geben Sie in der Befehlszeile Folgendes ein:
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
-## So ändern Sie die Mobilitätsrichtlinie nach Benutzer
+</div>
 
-1.  Melden Sie sich an einem Computer, auf dem Lync Server-Verwaltungsshell und Ocscore installiert sind, als Mitglied der Rolle "CsAdministrator" an.
+<div>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-modify-mobility-policy-by-user"></a>So ändern Sie die mobilitätsrichtlinien nach Benutzern
 
-3.  Erstellen Sie Mobilitätsrichtlinien auf Benutzerebene, und deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen nach Benutzer. Geben Sie an der Befehlszeile Folgendes ein:
+1.  Melden Sie sich bei einem beliebigen Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Erstellen Sie mobilitätsrichtlinien auf Benutzerebene, deaktivieren Sie Mobilität, und rufen Sie Sie über die Arbeit des Benutzers an. Geben Sie in der Befehlszeile Folgendes ein:
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.
+    Sie können den Anruf über die Arbeit ausschalten, ohne den Zugriff auf Mobilität zu deaktivieren. Sie können die Mobilität jedoch nicht deaktivieren, ohne dass Sie den Anruf über die Arbeit abschalten.
     
     Beispiel:
     
         New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity -MobileUser1@contoso.com -PolicyName Tag:disableOutsideVoice
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[Aktivieren von Benutzern für Enterprise-VoIP in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+## <a name="see-also"></a>Siehe auch
 
-#### Konzepte
+
+[Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+
 
 [Definieren der Mobilitätsanforderungen für Lync Server 2013](lync-server-2013-defining-your-mobility-requirements.md)  
 
-#### Weitere Ressourcen
 
-[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
-[Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)  
-[Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy)  
-[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)  
-[Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)
+[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

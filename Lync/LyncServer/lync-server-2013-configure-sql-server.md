@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von SQL Server'
-TOCTitle: Konfigurieren von SQL Server
-ms:assetid: 84504918-cb4f-4b2f-be17-a70770b69025
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398669(v=OCS.15)
-ms:contentKeyID: 49294614
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von SQL Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure SQL Server
+ms:assetid: 84504918-cb4f-4b2f-be17-a70770b69025
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398669(v=OCS.15)
+ms:contentKeyID: 48184699
+ms.date: 01/22/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3da3cea6019b6314eccb2968f9b05ef44e7de75e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839319"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von SQL Server in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-sql-server-in-lync-server-2013"></a>Konfigurieren von SQL Server in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-01-22_
 
-Für jede Datenbank, die Sie bereitstellen, können Sie eine einzige SQL Server-Instanz für alle Datenbanken für Ihre Lync Server 2013-Bereitstellung verwenden, die mit einem Datenbankserver verbunden werden können. Ausführliche Informationen zum Verbinden von Datenbanken finden Sie unter [Unterstützte Serverzusammenstellungen in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Unterstützungsdokumentation.
+Für jede Datenbank, die Sie bereitstellen, können Sie eine einzelne SQL Server-Instanz für alle Datenbanken für Ihre lync Server 2013-Bereitstellung verwenden, die auf einem Daten Bank Server bereitgestellt werden können. Ausführliche Informationen zur Daten Bank Zusammenstellung finden Sie unter [unterstützte Server Zusammenstellung in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
 
-Zusätzlich muss jede SQL Server-Instanz installiert und verfügbar sein, bevor Sie die Schritte im Topologie-Generator zum Einrichten der Datenbanken ausführen oder die Datenbanken mithilfe von Windows PowerShell-Cmdlets manuell erstellen. Ausführliche Informationen zur Unterstützung von SQL Server finden Sie unter [Hardwaresetup für Lync Server 2013](lync-server-2013-hardware-setup.md).
+Darüber hinaus muss jede SQL Server-Instanz installiert und verfügbar sein, bevor Sie die Schritte im Topologie-Generator ausführen, die die Datenbankeneinrichten, oder die Datenbanken mit Windows PowerShell-Cmdlets manuell erstellen. Details zur Unterstützung von SQL Server finden Sie unter [Hardware-Setup für lync Server 2013](lync-server-2013-hardware-setup.md).
 
-## So installieren Sie Microsoft SQL Server 2012
+<div>
 
-  - Weitere Informationen finden Sie in der Microsoft SQL Server 2012-Dokumentation unter: <https://technet.microsoft.com/de-de/library/bb500395(v=sql.110).aspx>.
+## <a name="to-install-microsoft-sql-server-2012"></a>So installieren Sie Microsoft SQL Server 2012
+
+  - Weitere Informationen finden Sie in der Microsoft SQL Server <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>2012-Dokumentation unter:.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

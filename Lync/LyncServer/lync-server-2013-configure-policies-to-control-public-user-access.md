@@ -1,87 +1,132 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs'
-TOCTitle: Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs
-ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520946(v=OCS.15)
-ms:contentKeyID: 49293103
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure policies to control public user access
+ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
+ms:contentKeyID: 48183343
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839356"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs in Lync Server 2013
 
-Über Verbindungen mit öffentlichen Instant Messaging-Diensten können Benutzer in Ihrer Organisation per Chatnachricht mit Benutzern von Instant Messaging-Diensten kommunizieren, die von öffentlichen Instant Messaging-Dienstanbietern bereitgestellt werden, z. B. vom Windows Live-Internetdienstnetzwerk, von Yahoo\! und von AOL. Sie konfigurieren eine oder mehrere Richtlinien für den Zugriff externer Benutzer und steuern, ob öffentliche Benutzer mit internen Lync Server-Benutzern zusammenarbeiten können. Bei den Verbindungen mit öffentlichen Instant Messaging-Diensten handelt es sich um ein Feature, das auf der Konfiguration der Bereitstellung und ihrer Benutzer beruht. Es hängt außerdem von der Bereitstellung des Diensts beim öffentlichen Instant Messaging-Anbieter ab. Informationen dazu, wie Sie Ihre Bereitstellung zur Verwendung der öffentlichen Anbieter bereitstellen, finden Sie im "Leitfaden zur Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten für Microsoft Lync Server, Office Communications Server und Live Communications Server" unter <http://go.microsoft.com/fwlink/?linkid=269821>
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+
+Mit der öffentlichen Instant Messaging-Konnektivität (im) können Benutzer in Ihrer Organisation Chatnachrichten verwenden, um mit Benutzern der Chat Dienste zu kommunizieren, die von öffentlichen Chat Dienstanbietern bereitgestellt werden,\!einschließlich des Windows Live-Netzwerks von Internet Diensten, Yahoo und AOL. Sie konfigurieren eine oder mehrere Richtlinien für den externen Benutzer Zugriff, um zu steuern, ob öffentliche Benutzer mit internen lync Server-Benutzern zusammenarbeiten können. Die öffentliche Instant Messaging-Konnektivität ist ein hinzugefügtes Feature, das auf der Konfiguration Ihrer Bereitstellung und der Benutzer basiert. Sie hängt auch von der Bereitstellung des Diensts beim öffentlichen Chat Dienstanbieter ab. Informationen dazu, wie Sie Ihre Bereitstellung für die Verwendung der öffentlichen Anbieter bereitstellen können, finden Sie im Leitfaden zu den öffentlichen im-Konnektivität für Microsoft lync Server, Office Communications Server und Live Communications Server.[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September 2012 kann die Microsoft Lync-Benutzerabonnementlizenz für die Verbindung mit öffentlichen Chatdiensten ("PIC USL") nicht mehr neu erworben werden, und Verträge können nicht verlängert werden. Kunden mit aktiven Lizenzen können den Partnerverbund mit Yahoo! Messenger weiterhin nutzen, bis der Dienst eingestellt wird. Als Datum der Einstellung des Diensts für AOL und Yahoo! wurde Juni 2014 angekündigt. Einzelheiten hierzu finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.</P>
+> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei PIC&nbsp;USL handelt es sich um eine Abonnementlizenz pro Benutzer und pro Monat, die für Lync&nbsp;Server oder Office&nbsp;Communications&nbsp;Server zum Einrichten eines Partnerverbunds mit Yahoo! Messenger erforderlich ist. Die Bereitstellung dieses Services durch Microsoft hing von der Unterstützung durch Yahoo! ab, deren zugrundeliegende Vereinbarung ausläuft.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync Standard CAL. Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
 
 
 
-Greifen Sie über den folgenden Link auf die Website für die Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten für Microsoft Lync Server zu: <http://go.microsoft.com/fwlink/?linkid=212638>.
+</div>
 
-Zum Steuern des Zugriffs durch öffentliche Benutzer können Sie Richtlinien auf globaler Ebene und Standort- und Benutzerebene konfigurieren. Ausführliche Informationen zu den konfigurierbaren Richtlinientypen finden Sie in der Bereitstellungs- oder Planungsdokumentation unter [Konfigurieren der Unterstützung für den externen Benutzerzugriff in Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md). Lync Server-Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien, und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt.
+Verwenden Sie den folgenden Link, um auf die Bereitstellung der Microsoft lync Server Public im Connectivity-Bereitstellungswebsite zuzugreifen:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
 
-Im Fall von Chatnachrichten-Einladungen hängt die Antwort von der Clientsoftware ab. Die Anforderung wird akzeptiert, sofern externe Absender nicht ausdrücklich durch eine vom Benutzer konfigurierte Regel (also Einstellungen in der **Zulassungs-** und **Blockierliste** des Benutzers) blockiert werden. Darüber hinaus können Chatnachrichten-Einladungen blockiert werden, wenn ein Benutzer festlegt, dass alle Chatnachrichten von Benutzern, die nicht in der **Zulassungsliste** enthalten sind, blockiert werden.
+Wenn Sie den Zugriff durch öffentliche Benutzer steuern möchten, können Sie Richtlinien auf globaler, Website-und Benutzerebene konfigurieren. Details zu den Richtlinientypen, die Sie konfigurieren können, finden Sie unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) in der Bereitstellungsdokumentation oder in der Planungsdokumentation. Lync Server-Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Die Priorität der lync Server-Richtlinie lautet: Benutzerrichtlinien (der meiste Einfluss) überschreibt eine Website Richtlinie, und eine Website Richtlinie überschreibt eine globale Richtlinie (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt.
+
+Im Fall von Chat-Einladungen hängt die Antwort von der Client Software ab. Die Anforderung wird akzeptiert, es sei denn, externe Absender werden explizit durch eine vom Benutzer konfigurierte Regel blockiert (also die Einstellungen in den Client- **Allow** -und- **Block** Listen). Darüber hinaus können Chat-Einladungen blockiert werden, wenn ein Benutzer wählt, Alle Chatnachrichten von Benutzern zu blockieren, die nicht in der **Zulassungs** Liste aufgeführt sind.
+
+<div>
 
 
-> [!NOTE]
-> Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch öffentliche Benutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie in der Bereitstellungs- oder Betriebsdokumentation unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013</A>. Wenn Sie eine Benutzerrichtlinie zur Steuerung des Zugriffs durch öffentliche Benutzer angeben, gilt die Richtlinie zudem nur für Benutzer, die für Lync Server aktiviert und für die Verwendung der Richtlinie konfiguriert wurden. Ausführliche Informationen zum Angeben öffentlicher Benutzer, die sich bei Lync Server anmelden können, finden Sie in der Bereitstellungs- oder Betriebsdokumentation unter <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem für Lync aktivierten Benutzer in Lync Server 2013</A>.
+> [!NOTE]  
+> Sie können Richtlinien zum Steuern des Zugriffs durch öffentliche Benutzer konfigurieren, auch wenn Sie die Föderation für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien gelten jedoch nur, wenn der Verbund für Ihre Organisation aktiviert ist. Details zum Aktivieren von Föderation finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013</A> in der Bereitstellungsdokumentation oder in der Betriebsdokumentation. Wenn Sie außerdem eine Benutzerrichtlinie zum Steuern des Zugriffs durch öffentliche Benutzer angeben, gilt die Richtlinie nur für Benutzer, die für lync Server aktiviert und für die Verwendung der Richtlinie konfiguriert sind. Details zum Angeben von öffentlichen Benutzern, die sich bei lync Server anmelden können, finden Sie unter <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Zuweisen einer Richtlinie für den externen Benutzer Zugriff zu einem lync-aktivierten Benutzer in lync Server 2013</A> in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 
 
-Gehen Sie folgendermaßen vor, um eine Richtlinie zur Unterstützung des Zugriffs durch Benutzer eines oder mehrerer öffentlicher Instant Messaging-Anbieter zu konfigurieren.
+</div>
 
-## So konfigurieren Sie eine Richtlinie für den externen Zugriff für die Unterstützung des Zugriffs durch öffentliche Benutzer
+Gehen Sie wie folgt vor, um eine Richtlinie zum unterstützen des Zugriffs durch Benutzer eines oder mehrerer öffentlicher Chat Anbieter zu konfigurieren.
+
+<div>
+
+## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>So konfigurieren Sie eine Richtlinie für den externen Zugriff zur Unterstützung des Zugriffs durch öffentliche Benutzer
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer** und dann auf **Richtlinie für den externen Zugriff** .
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**, und klicken Sie dann auf **Richtlinie für den externen Zugriff**.
 
-4.  Führen Sie auf der Seite **Richtlinie für den externen Zugriff** einen der folgenden Schritte aus:
+4.  Führen Sie auf der Seite " **externe Zugriffsrichtlinie** " eine der folgenden Aktionen aus:
     
-      - Um die globale Richtlinie für die Unterstützung des Zugriffs durch öffentliche Benutzer zu konfigurieren, klicken Sie auf die globale Richtlinie, dann auf **Bearbeiten** und schließlich auf **Details anzeigen** .
+      - Wenn Sie die globale Richtlinie für die Unterstützung des Zugriffs durch öffentliche Benutzer konfigurieren möchten, klicken Sie auf die globale Richtlinie, klicken Sie auf **Bearbeiten**und dann auf **Details anzeigen**.
     
-      - Klicken Sie zum Erstellen einer neuen Standortrichtlinie auf **Neu** und anschließend auf **Standortrichtlinie** . Klicken Sie im Dialogfeld **Standort auswählen** in der Liste auf den entsprechenden Standort, und klicken Sie dann auf **OK** .
+      - Klicken Sie zum Erstellen einer neuen Website Richtlinie auf **neu**, und klicken Sie dann auf **Website Richtlinie**. Klicken Sie unter **Website auswählen**auf die entsprechende Website in der Liste, und klicken Sie dann auf **OK**.
     
-      - Klicken Sie zum Erstellen einer neuen Benutzerrichtlinie auf **Neu** und anschließend auf **Benutzerrichtlinie** . Erstellen Sie unter **Neue Richtlinie für den externen Zugriff** einen eindeutigen Namen im Feld **Name** , der auf den Zweck der Benutzerrichtlinie hinweist (z. B. **EnablePublicUsers** für eine Benutzerrichtlinie, welche die Kommunikation für öffentliche Benutzer ermöglicht).
+      - Klicken Sie zum Erstellen einer neuen Benutzerrichtlinie auf **neu**, und klicken Sie dann auf **Benutzerrichtlinie**. Erstellen Sie in der **neuen Richtlinie für den externen Zugriff**im Feld **Name** einen eindeutigen Namen, der angibt, was die Benutzerrichtlinie umfasst (beispielsweise **EnablePublicUsers** für eine Benutzerrichtlinie, die die Kommunikation für öffentliche Benutzer aktiviert).
     
-      - Klicken Sie zum Ändern einer vorhandenen Richtlinie in der Tabelle auf die entsprechende Richtlinie, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen** .
+      - Wenn Sie eine vorhandene Richtlinie ändern möchten, klicken Sie auf die entsprechende in der Tabelle aufgelistete Richtlinie, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  (Optional) Wenn Sie eine Beschreibung hinzufügen oder bearbeiten möchten, geben Sie die Informationen zur Richtlinie unter **Beschreibung** an.
+5.  Optional Wenn Sie eine Beschreibung hinzufügen oder bearbeiten möchten, geben Sie die Informationen für die Richtlinie unter **Beschreibung**an.
 
 6.  Führen Sie einen der folgenden Schritte aus:
     
-      - Aktivieren Sie das Kontrollkästchen **Kommunikation mit öffentlichen Benutzern aktivieren** , um den Zugriff durch öffentliche Benutzer für die Richtlinie zu aktivieren.
+      - Aktivieren Sie das Kontrollkästchen **Kommunikation mit öffentlichen Benutzern aktivieren** , um den Zugriff öffentlicher Benutzer für die Richtlinie zu aktivieren.
     
-      - Deaktivieren Sie das Kontrollkästchen **Kommunikation mit öffentlichen Benutzern aktivieren** , um den Zugriff durch öffentliche Benutzer für die Richtlinie zu deaktivieren.
+      - Deaktivieren Sie das Kontrollkästchen **Kommunikation mit öffentlichen Benutzern aktivieren** , um den Zugriff öffentlicher Benutzer für die Richtlinie zu deaktivieren.
 
-7.  Klicken Sie auf **Commit** .
+7.  Klicken Sie auf **Commit ausführen**.
 
-Um den Zugriff durch öffentliche Benutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerverbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+Wenn Sie den Zugriff durch öffentliche Benutzer aktivieren möchten, müssen Sie auch die Unterstützung für den Verbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
 
-Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf öffentliche Benutzer anwenden, die mit öffentlichen Benutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Zuweisen von Richtlinien auf Benutzerebene](lync-server-2013-assigning-per-user-policies.md).
+Wenn es sich um eine Benutzerrichtlinie handelt, müssen Sie die Richtlinie auch auf öffentliche Benutzer anwenden, die in der Lage sein sollen, mit öffentlichen Benutzern zusammenzuarbeiten. Ausführliche Informationen finden Sie unter [Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md).
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Erstellen oder Bearbeiten von öffentlichen SIP-Partnerverbundanbietern in Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)  
 
-#### Weitere Ressourcen
 
-[Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+[Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

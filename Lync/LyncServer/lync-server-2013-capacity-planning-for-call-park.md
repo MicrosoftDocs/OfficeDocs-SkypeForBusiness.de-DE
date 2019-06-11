@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Kapazitätsplanung für das Parken von Anrufen'
-TOCTitle: Kapazitätsplanung für das Parken von Anrufen
-ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg416493(v=OCS.15)
-ms:contentKeyID: 49294424
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kapazitätsplanung für das Parken von Anrufen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Call Park
+ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
+ms:contentKeyID: 48184529
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5fe55e09c67e62676202def9e3def3454d7cbd33
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839677"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Kapazitätsplanung für das Parken von Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Kapazitätsplanung für das Parken von Anrufen in Lync Server 2013
 
-In der folgenden Tabelle wird das Benutzermodell der Parken von Anrufen beschrieben, das Sie als Grundlage für die Anforderungen bei der Kapazitätsplanung verwenden können.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+
+<div id="sectionSection0" class="section">
+
+In der folgenden Tabelle wird das Benutzermodell des Anruf Parks beschrieben, das Sie als Grundlage für die Kapazitäts Planungsanforderungen verwenden können.
+
+<div>
 
 
-> [!IMPORTANT]
-> Beachten Sie bei der Kapazitätsplanung für die Notfallwiederherstellung, dass jeder Pool eines gekoppelten Pools die Arbeitsauslastungen für Parken von Anrufen-Dienste in beiden Pools unterstützen muss.
+> [!IMPORTANT]  
+> Beachten Sie, dass für die Planung von Disaster Recovery-Kapazität jeder Pool eines gekoppelten Pools in der Lage sein sollte, die Arbeitslasten für die Dienste des Anruf Parks in beiden Pools zu behandeln.
 
 
 
-### Benutzermodell der Funktion zum Parken von Anrufen
+</div>
+
+### <a name="call-park-user-model"></a>Benutzermodell der Funktion zum Parken von Anrufen
 
 <table>
 <colgroup>
@@ -34,8 +60,8 @@ In der folgenden Tabelle wird das Benutzermodell der Parken von Anrufen beschrie
 <thead>
 <tr class="header">
 <th>Metrik</th>
-<th>Pro Front-End-Pool (mit 8 Front-End-Servern)</th>
-<th>Per Standard Edition-Server</th>
+<th>Pro Front-End-Pool (mit 8 Front-End-Servern)</th>
+<th>Pro Standard Edition-Server</th>
 </tr>
 </thead>
 <tbody>
@@ -56,4 +82,17 @@ In der folgenden Tabelle wird das Benutzermodell der Parken von Anrufen beschrie
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

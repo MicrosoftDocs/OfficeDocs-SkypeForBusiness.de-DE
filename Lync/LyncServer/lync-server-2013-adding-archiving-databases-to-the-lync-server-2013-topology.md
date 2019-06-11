@@ -1,81 +1,122 @@
-﻿---
-title: Hinzufügen von Archivierungsdatenbanken zur Lync Server 2013-Topologie
-TOCTitle: Hinzufügen von Archivierungsdatenbanken zur Lync Server 2013-Topologie
-ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204654(v=OCS.15)
-ms:contentKeyID: 49293096
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hinzufügen von Archivierungsdatenbanken zur lync Server 2013-Topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
+ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
+ms:contentKeyID: 48183338
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839937"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hinzufügen von Archivierungsdatenbanken zur Lync Server 2013-Topologie
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Hinzufügen von Archivierungsdatenbanken zur lync Server 2013-Topologie
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-10_
 
-Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereitstellung zur Unterstützung der Archivierung konfigurieren können. In diesem Thema wird erläutert, wie Sie mit dem Topologie-Generator Ihrer vorhandenen Topologie die Archivierungsfunktion hinzufügen.
+Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereitstellung zur Unterstützung der Archivierung konfigurieren können. Die Informationen in diesem Thema erläutern, wie Sie mithilfe des Topologie-Generators Ihrer vorhandenen Topologie Archivierung hinzufügen.
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und -dateien auf Exchange 2013-Servern für alle Benutzer in der Bereitstellung verwenden möchten, geben Sie nicht <STRONG>SQL Server-Speicher für Archivierung</STRONG> oder <STRONG>SQL ServerSpeicherspiegelung verwenden</STRONG> an.
+> [!NOTE]  
+> Wenn Sie die Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und-Dateien auf Exchange 2013-Servern für alle Benutzer in Ihrer Bereitstellung verwenden möchten, geben Sie keinen <STRONG>Archivierungs-SQL Server-Speicher</STRONG> an, oder verwenden Sie die Spiegelungsinformationen des <STRONG>SQL Server</STRONG> -Speichers.
 
 
 
-## So fügen Sie Ihrer Topologie Archivierungsdatenbankunterstützung hinzu
+</div>
 
-1.  Melden Sie sich auf einem Computer, auf dem Lync Server 2013 ausgeführt oder auf dem die Lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit äquivalenten Benutzerrechten).
+<div>
+
+## <a name="to-add-archiving-database-support-to-your-topology"></a>So fügen Sie Ihrer Topologie Unterstützung für die Archivierungsdatenbank hinzu
+
+1.  Melden Sie sich auf einem Computer, auf dem lync Server 2013 ausgeführt wird oder auf dem die lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Gruppe "Benutzer" (oder einem Konto mit entsprechenden Benutzerrechten) ist.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist. Zum Veröffentlichen einer Topologie, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, benötigen Sie jedoch ein Konto, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> sowie der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist und über Vollzugriff (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Lync Server 2013-Dateispeicher verwenden, damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List, besitzerverwaltete Zugriffssteuerungsliste) konfigurieren kann. Alternativ dazu können Sie ein Konto mit äquivalenten Rechten verwenden.
+    > [!NOTE]  
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das ein Mitglied der Gruppe der <STRONG>Domänenadministratoren</STRONG> und der RTCUniversalServer ist. <STRONG> Gruppe "Administratoren</STRONG> ", die über die Berechtigung "Vollzugriff" (also lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013-Dateispeicher verwenden (Dies bedeutet, dass der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) konfigurieren kann. oder ein Konto mit entsprechenden Rechten.
 
+    
+    </div>
 
+2.  Starten Sie den Topologie-Generator.
 
-2.  Starten Sie Topologie-Generator.
+3.  Navigieren Sie in der Konsolenstruktur zu dem Front-End-Pool, in dem die Archivierung bereitgestellt werden soll, und klicken Sie dann auf den Namen des Front-End-Pools, in dem die Archivierung bereitgestellt werden soll.
 
-3.  Navigieren Sie in der Konsolenstruktur zum Front-End-Pool, in dem die Archivierung bereitgestellt werden soll, und klicken Sie dann auf den Namen des entsprechenden Front-End-Pools.
-
-4.  Klicken Sie im Menü **Aktion** auf **Eigenschaften bearbeiten**.
+4.  Klicken Sie im Menü **Aktionen** auf **Eigenschaften bearbeiten**.
 
 5.  Klicken Sie im Dialogfeld **Eigenschaften bearbeiten** auf **Allgemein**.
 
-6.  Führen Sie einen Bildlauf nach unten zu **Archivierung** durch.
+6.  Führen Sie einen Bildlauf nach unten zur **Archivierung** aus.
 
 7.  Aktivieren Sie das Kontrollkästchen **Archivierung**.
 
-8.  Führen Sie unter **SQL Server-Speicher für Aktivierung** eine der folgenden Aktionen aus:
+8.  Führen Sie unter **SQL Server-Archivierungsspeicher** eine der folgenden Aktionen aus:
     
-      - Klicken Sie zur Verwendung eines vorhandenen SQL Server-Speichers im Dropdownlistenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten. Werden alle Benutzer in Microsoft Exchange Server 2013 oder höher verwaltet, können Sie die Lync-Kommunikation für alle Benutzer Exchange archivieren. In diesem Fall muss der SQL Server-Archivierungsspeicher nicht konfiguriert werden.
+      - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten. Wenn sich alle Benutzer auf Microsoft Exchange Server 2013 oder höher befinden, können Sie die lync-Kommunikation für alle Benutzer in Exchange archivieren. In diesem Fall müssen Sie den SQL Server-Archivierungsspeicher nicht konfigurieren.
     
-      - Klicken Sie zum Angeben eines neuen SQL Server-Speichers auf **Neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** folgende Schritte aus:
+      - Wenn Sie einen neuen SQL Server-Speicher angeben möchten, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **neuen SQL Server-Speicher definieren** die folgenden Aktionen aus:
         
-          - Geben Sie in **SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+          - Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
         
-          - Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden, oder auf **Benannte Instanz**, um eine andere Instanz anzugeben. Geben Sie anschließend die zu verwendende Instanz an.
+          - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
         
-          - Steht die angegebene SQL Server-Instanz in einer Spiegelungsbeziehung, aktivieren Sie das Kontrollkästchen **This SQL instance is in mirroring relation**, und geben Sie dann unter **Spiegelportnummer** die Portnummer an.
+          - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
 
-9.  Wenn Sie die SQL Server-Speicherspiegelung verwenden möchten, wählen Sie **SQL Server-Speicherspiegelung aktivieren**, und führen Sie folgende Schritte aus:
+9.  Wenn Sie die SQL Server Store-Spiegelung verwenden möchten, wählen Sie **SQL Server Store-Spiegelung aktivieren**aus, und gehen Sie dann wie folgt vor:
     
-      - Klicken Sie zur Verwendung eines vorhandenen SQL Server-Speichers für die Spiegelung im Dropdownlistenfeld **SQL Server-Speicherspiegel für Archivierung** auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten.
+      - Wenn Sie einen vorhandenen SQL Server-Speicher für die Spiegelung verwenden möchten, klicken Sie im Dropdown-Listenfeld **SQL Server Store Mirror-Archivierung** auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten.
     
-      - Klicken Sie zum Angeben eines neuen SQL Server-Speichers für die Spiegelung auf **Neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** eine der folgenden Aktionen aus:
+      - Wenn Sie einen neuen SQL Server-Speicher für die Spiegelung angeben möchten, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **neuen SQL Server-Speicher definieren** eine der folgenden Aktionen aus:
         
-        1.  Geben Sie in **SQL Server FQDN** den FQDN des Servers mit SQL Server an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+        1.  Geben Sie im **SQL Server-FQDN**den FQDN des SQL Server an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
         
-        2.  Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden, oder auf **Benannte Instanz**, um eine andere Instanz anzugeben. Geben Sie anschließend die zu verwendende Instanz an.
+        2.  Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
         
-        3.  Steht die angegebene SQL Server-Instanz in einer Spiegelungsbeziehung, aktivieren Sie das Kontrollkästchen **This SQL instance is in mirroring relation**, und geben Sie dann unter **Spiegelportnummer** die Portnummer an.
+        3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
     
-      - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungszeugen (eine dritte, separate SQL Server-Instanz, die die Integrität des primären SQL Server-Servers und der Spiegelinstanzen ermitteln kann) aufnehmen möchten, aktivieren Sie das Kontrollkästchen **Automatisches Failover mithilfe des SQL Server-Spiegelungszeugen aktivieren**, und führen Sie eine der folgenden Aktionen aus:
+      - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand des primären SQL Server-Servers und der Spiegelungs Instanzen erkennen kann) einbeziehen möchten, wählen Sie den **SQL Server-Spiegelungs Zeugen verwenden aus, um ihn zu aktivieren. Kontrollkästchen Automatisches Failover** , und führen Sie dann eine der folgenden Aktionen aus:
         
-        1.  Geben Sie in **SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server-Spiegelungszeugen erstellen möchten.
+        1.  Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Spiegelungs Zeugen erstellen möchten.
         
-        2.  Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden, oder auf **Benannte Instanz**, um eine andere Instanz anzugeben. Geben Sie anschließend die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
+        2.  Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
         
-        3.  Steht die angegebene SQL Server-Instanz in einer Spiegelungsbeziehung, aktivieren Sie das Kontrollkästchen **This SQL instance is in mirroring relation**, und geben Sie dann unter **Spiegelportnummer** die Portnummer an.
+        3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
 
 10. Klicken Sie zum Speichern der Konfiguration auf **OK**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

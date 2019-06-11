@@ -1,44 +1,86 @@
-﻿---
-title: 'Lync Server 2013: Komponenten und Topologien für lokales Unified Messaging'
-TOCTitle: Komponenten und Topologien für lokales Unified Messaging
-ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425711(v=OCS.15)
-ms:contentKeyID: 49293427
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Komponenten und Topologien für lokales Unified Messaging'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for on-premises Unified Messaging
+ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
+ms:contentKeyID: 48183619
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839514"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Komponenten und Topologien für lokales Unified Messaging in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Komponenten und Topologien für lokales Unified Messaging in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
-In diesem Thema werden die Microsoft Exchange Server 2013-Komponenten beschrieben, die zum Bereitstellen von Exchange Unified Messaging (UM)-Funktionen in der Lync Server 2013-Bereitstellung erforderlich sind. Außerdem werden die unterstützten Topologien für die lokale Exchange UM-Integration beschrieben.
+In diesem Thema werden die Microsoft Exchange Server 2013-Komponenten beschrieben, die für die Bereitstellung von Exchange Unified Messaging (um)-Features zur lync Server 2013-Bereitstellung erforderlich sind. Darüber hinaus werden die unterstützten Topologien für die lokale Exchange um-Integration beschrieben.
 
-## Exchange Server-Komponenten
+<div>
 
-Um die Exchange UM-Funktionen und -Dienste, die unter [Features von integriertem Unified Messaging und Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) beschrieben sind, für Enterprise-VoIP-Benutzer in Ihrer Organisation zur Verfügung zu stellen, müssen Sie einen Microsoft Exchange-Postfachserver und Clientzugriffsserver bereitstellen, der Postfächer hostet und einen einzelnen Speicherort für E-Mail- und Voicemail-Nachrichten bietet. Exchange UM wird als ein Dienst auf dem Exchange-Postfachserver und dem Clientzugriffsserver ausgeführt.
+## <a name="exchange-server-components"></a>Exchange Server-Komponenten
 
-Ausführliche Informationen zu Exchange UM-Komponenten in Microsoft Exchange Server 2007 und Microsoft Exchange Server 2010 finden Sie unter [Bereitstellen lokaler Exchange Unified Messaging-Dienste zur Unterstützung von Lync Server 2013-Voicemail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) in der Bereitstellungsdokumentation.
+Um die Exchange um-Features und-Dienste bereitzustellen, die unter [Features von Integrated Unified Messaging und lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) für Enterprise-VoIP-Benutzer in Ihrer Organisation beschrieben sind, müssen Sie einen Microsoft Exchange-Postfachserver und einen Client Zugriffsserver bereitstellen. Das hostet Benutzerpostfächer und bietet einen einzigen Speicherort für e-Mail und Voicemail. Exchange um wird als Dienst auf Exchange-Postfach-und-Client Zugriffsservern ausgeführt.
 
-## Unterstützte Topologien
+Details zu den Exchange um-Komponenten in Microsoft Exchange Server 2007 und Microsoft Exchange Server 2010 finden Sie unter [Bereitstellen von lokalen Exchange um zum Bereitstellen von lync Server 2013-Voicemail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) in der Bereitstellungsdokumentation.
 
-Sie können Lync Server 2013 und Exchange Unified Messaging (UM) in derselben Gesamtstruktur oder in mehreren Gesamtstrukturen bereitstellen. Wenn Ihre Bereitstellung mehrere Gesamtstrukturen einschließt, müssen Sie die Exchange-Integrationsschritte für jede Exchange UM-Gesamtstruktur durchführen. Darüber hinaus müssen Sie jede Microsoft Exchange-Gesamtstruktur so konfigurieren, dass eine Vertrauensbeziehung zur Lync Server 2013-Gesamtstruktur und eine Vertrauensbeziehung zwischen der Lync Server 2013-Gesamtstruktur und jeder Exchange UM-Gesamtstruktur besteht. Zusätzlich zu diesen Gesamtstruktur-Vertrauensstellungen müssen die Exchange UM-Einstellungen für alle Benutzer auf die Benutzerobjekte in der Lync Server 2013-Gesamtstruktur festgelegt werden.
+</div>
 
-Lync Server 2013 unterstützt die folgenden Topologien für die Exchange UM-Integration:
+<div>
+
+## <a name="supported-topologies"></a>Unterstützte Topologien
+
+Sie können lync Server 2013 und Exchange Unified Messaging (um) in derselben Gesamtstruktur oder in mehreren Gesamtstrukturen bereitstellen. Wenn die Bereitstellung mehrere Gesamtstrukturen umfasst, müssen Sie die Exchange-Integrationsschritte für jede Exchange um-Gesamtstruktur ausführen. Darüber hinaus müssen Sie die einzelnen Microsoft Exchange-Gesamtstrukturen so konfigurieren, dass Sie der lync Server 2013-Gesamtstruktur und der lync Server 2013-Gesamtstruktur vertrauen, um jeder Exchange um-Gesamtstruktur zu vertrauen. Zusätzlich zu dieser Gesamtstrukturvertrauensstellung müssen die Exchange um-Einstellungen für alle Benutzer für die Benutzerobjekte in der lync Server 2013-Gesamtstruktur eingerichtet werden.
+
+Lync Server 2013 unterstützt die folgenden Topologien für die Exchange um-Integration:
 
   - Einzelne Gesamtstruktur
 
-  - Einzelne Domäne (also eine einzelne Gesamtstruktur mit einer einzigen Domäne). Lync Server 2013, Microsoft Exchange und Benutzer befinden sich alle in derselben Domäne.
+  - Einzelne Domäne (also eine einzelne Gesamtstruktur mit einer einzigen Domäne). Lync Server 2013, Microsoft Exchange und Benutzer befinden sich alle in der gleichen Domäne.
 
-  - Mehrere Domänen (also eine Stammdomäne mit einer oder mehreren untergeordneten Domänen). Lync Server 2013 und Microsoft Exchange-Server werden in anderen Domänen bereitgestellt als in der Domäne, in der Sie Benutzer erstellen. Exchange UM-Server können in anderen Domänen bereitgestellt werden als der Lync Server 2013-Pool, den sie unterstützen.
+  - Mehrere Domänen (also eine Stammdomäne mit einer oder mehreren untergeordneten Domänen). Lync Server 2013 und Microsoft Exchange-Server werden in verschiedenen Domänen aus der Domäne bereitgestellt, in der Sie Benutzer erstellen. Exchange um-Server können in verschiedenen Domänen aus dem von Ihnen unterstützten lync Server 2013-Pool bereitgestellt werden.
 
-  - Mehrere Gesamtstrukturen (also Ressourcengesamtstruktur). Lync Server 2013 wird in einer einzigen Gesamtstruktur bereitgestellt, und die Benutzer werden anschließend auf mehrere Gesamtstrukturen verteilt. Die Exchange UM-Attribute der Benutzer müssen in der Lync Server 2013-Gesamtstruktur repliziert werden.
+  - Mehrere Gesamtstrukturen (also Ressourcengesamtstruktur). Lync Server 2013 wird in einer einzelnen Gesamtstruktur bereitgestellt, und dann werden Benutzer über mehrere Gesamtstrukturen verteilt. Die Exchange um-Attribute der Benutzer müssen in die lync Server 2013-Gesamtstruktur repliziert werden.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Exchange kann in mehreren Gesamtstrukturen bereitgestellt werden. Jede Exchange-Organisation kann Exchange UM für die Benutzer bereitstellen, oder Exchange UM kann in derselben Gesamtstruktur wie Lync Server 2013 bereitgestellt werden.
+    > [!NOTE]  
+    > Exchange kann in mehreren Gesamtstrukturen bereitgestellt werden. Jede Exchange-Organisation kann Exchange um für Ihre Benutzer bereitstellen, oder Exchange um kann in derselben Gesamtstruktur wie lync Server 2013 bereitgestellt werden.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

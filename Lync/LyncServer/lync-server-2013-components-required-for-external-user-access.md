@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Erforderliche Komponenten für den Zugriff durch externe Benutzer'
-TOCTitle: Erforderliche Komponenten für den Zugriff durch externe Benutzer
-ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425779(v=OCS.15)
-ms:contentKeyID: 49293531
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erforderliche Komponenten für den Zugriff durch externe Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components required for external user access
+ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425779(v=OCS.15)
+ms:contentKeyID: 48183711
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 895f2d4837eb465f0eead2b70cf1d603504699ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839518"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erforderliche Komponenten für den Zugriff durch externe Benutzer in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Erforderliche Komponenten für den Zugriff durch externe Benutzer in Lync Server 2013
 
-Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten. Sofern nicht anders vermerkt, sind die Komponenten Bestandteil der [Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) und befinden sich im Umkreisnetzwerk. Zu den Edgekomponenten gehören:
+</div>
 
-  - Edgeserver
+<div id="mainSection">
 
-  - Reverseproxys
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-05-29_
+
+Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten bilden die Edge-Topologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil der [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) und befinden sich im Umkreisnetzwerk. Zu den Edgekomponenten gehören:
+
+  - Edge Servers
+
+  - Reverse proxies
 
   - Firewalls
 
@@ -27,73 +47,114 @@ Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die 
 
   - Lastenausgleich für skalierte Edgetopologien (entweder DNS-Lastenausgleich oder Hardwaregerät zum Lastenausgleich)
     
+    <div>
+    
 
-    > [!IMPORTANT]
-    > Es wird nicht unterstützt, für eine Schnittstelle den DNS-Lastenausgleich und für eine andere Schnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden. Sie müssen entweder für beide Schnittstellen ein Hardwaregerät zum Lastenausgleich oder für beide Schnittstellen den DNS-Lastenausgleich verwenden.
+    > [!IMPORTANT]  
+    > Das Verfahren, für eine Schnittstelle den DNS-Lastenausgleich und für eine andere Schnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden, wird nicht unterstützt. Sie müssen entweder für beide Schnittstellen ein Hardwaregerät zum Lastenausgleich oder für beide Schnittstellen den DNS-Lastenausgleich verwenden.
 
+    
+    </div>
 
+<div>
 
-## Edgeserver
+## <a name="edge-servers"></a>Edgeservers
 
-Die Edgeserver senden und empfangen Netzwerkdatenverkehr von externen Benutzern für die Dienste, die von der internen Bereitstellung angeboten werden. Auf dem Edgeserver werden die folgenden Dienste ausgeführt:
+Die Edgeserver senden und empfangen Netzwerkdatenverkehr für die Dienste, die von externen Benutzern bereitgestellt werden. Der Edgeserver führt die folgenden Dienste aus:
 
-  - **Zugriffs-Edgedienst**   Der Zugriffs-Edgedienst stellt einen einzelnen vertrauenswürdigen Verbindungspunkt für ausgehenden und eingehenden SIP-Datenverkehr (Session Initiation Protocol) bereit.
+  - **Access**   -Edgedienst der Access-Edgedienst stellt einen einzigen vertrauenswürdigen Verbindungspunkt für ausgehende und eingehende SIP-Datenverkehr (Session Initiation Protocol) bereit.
 
-  - **Webkonferenz-Edgedienst**   Der Webkonferenz-Edgedienst ermöglicht externen Benutzern, an Besprechungen teilzunehmen, die in der internen Lync Server 2013-Bereitstellung gehostet werden.
+  - **Webkonferenz-Edgedienst**   der Webkonferenz-Edgedienst ermöglicht es externen Benutzern, an Besprechungen teilzunehmen, die auf Ihrer internen lync Server 2013-Bereitstellung gehostet werden.
 
-  - **A/V-Edgedienst**   Der A/V-Edgedienst ermöglicht Audio, Video, Anwendungsfreigabe und Dateiübertragungen für externe Benutzer. Ihre Benutzer können Audio- und Videodaten zu Besprechungen hinzufügen, an denen externe Benutzer teilnehmen. Außerdem können Benutzer über Audio und/oder Video in Direktsitzungen mit einem externen Benutzer direkt kommunizieren. Der A/V-Edgedienst bietet außerdem Unterstützung für Desktopfreigabe und Dateiübertragung.
+  - **A/v**   -Edgedienst der a/v-Edgedienst ermöglicht externen Benutzern die Bereitstellung von Audio, Video, Anwendungsfreigabe und Dateiübertragung. Ihre Benutzer können Besprechungen mit externen Teilnehmern Audio und Video hinzufügen, und Sie können in Punkt-zu-Punkt-Sitzungen mithilfe von Audio und/oder Video direkt mit einem externen Benutzer kommunizieren. Der A/V-Edgedienst bietet auch Unterstützung für die Desktopfreigabe und Dateiübertragung.
 
-  - **XMPP-Proxydienst**   Der XMPP-Proxydienst akzeptiert und sendet XMPP (Extensible Messaging and Presence Protocol)-Nachrichten von bzw. an konfigurierte XMPP-Verbundpartner.
+  - **XMPP-Proxydienst**   der XMPP-Proxydienst akzeptiert und sendet Nachrichten zu und von konfigurierten XMPP-Verbundpartnern.
 
-Autorisierte externe Benutzer können auf die Edgeserver zugreifen, um eine Verbindung mit der internen Lync Server 2013-Bereitstellung herzustellen, aber die Edgeserver stellen keinen anderen Zugriff auf das interne Netzwerk bereit.
+Autorisierte externe Benutzer können auf die Edgeserver zugreifen, um eine Verbindung mit ihrer internen lync Server 2013-Bereitstellung herzustellen, aber die Edgeserver bieten keine Möglichkeit für einen anderen Zugriff auf das interne Netzwerk.
 
-
-> [!NOTE]
-> Edgeserver dienen dazu, die Kommunkation mit aktivierten Lync-Clients und anderen Microsoft Edgeservern (z.&nbsp;B. bei Verbünden) zu ermöglichen. Verbindungen von anderen Endpunktclients oder Servertypen sind mit ihnen nicht möglich. Der XMPP-Gatewayserver kann für die Kommunikation mit konfigurierten XMPP-Partnern eingesetzt werden. Edgeserver und das XMPP-Gateway unterstützen ausschließlich Endpunktverbindungen von diesen Client- und Verbundtypen.
-
-
-
-## Reverseproxy
-
-Der Reverseproxy ermöglicht Folgendes:
-
-  - Teilnahme an Besprechungen und Einwahlkonferenzen über einfache URLs
-
-  - Herunterladen von Besprechungsinhalten durch externe Benutzer
-
-  - Erweiterung von Verteilergruppen durch externe Benutzer
-
-  - Abrufen eines benutzerbasierten Zertifikats für die auf Clientzertifikaten basierende Authentifizierung
-
-  - Herunterladen von Dateien vom Adressbuchserver oder Senden von Abfragen an den Adressbuch-Webabfragedienst durch Remotebenutzer
-
-  - Abrufen von Updates für Client- und Gerätesoftware durch Remotebenutzer
-
-  - Automatische Ermittlung von Front-End-Servern, die Mobilitätsdienste anbieten, durch mobile Geräte
-
-  - Ermöglichen von Pushbenachrichtigungen an mobile Geräte über Office 365- oder Apple-Pushbenachrichtigungsdienste
-
-Zusätzliche Informationen zu Reverseproxys und den Voraussetzungen, die diese erfüllen müssen, finden Sie unter den Details in [Konfigurationsanforderungen für Reverseproxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
+<div>
 
 
-> [!NOTE]
-> Externe Benutzer benötigen eine keine VPN-Verbindung mit Ihrer Organisation, um mithilfe von Lync Server 2013 an Kommunikationen teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und die Benutzer das VPN für Lync verwenden, kann sich dies negativ auf den Netzwerkdatenverkehr (z.&nbsp;B. Videokonferenzen) auswirken. Sie sollten eine Möglichkeit dafür schaffen, dass der Mediendatenverkehr eine direkte Verbindung mit dem A/V-Edgedienst herstellen und das VPN umgehen kann. Detailliere Informationen finden Sie im NextHop Blog-Artikel "Enabling Lync Media to Bypass a VPN Tunnel" unter <A href="http://go.microsoft.comcom/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
+> [!NOTE]  
+> Edgeserver werden für die Bereitstellung von Verbindungen für aktivierte lync-Clients und andere Microsoft Edge-Server bereitgestellt (wie in Verbundszenarien). Sie sind nicht dafür vorgesehen, Verbindungen von anderen Endpunkt Client-oder Servertypen zu ermöglichen. Der XMPP-Gatewayserver kann bereitgestellt werden, um Verbindungen mit konfigurierten XMPP-Partnern zu ermöglichen. Der Edge-Server und das XMPP-Gateway können nur Endpunkt Verbindungen von diesen Client-und Verbundtypen unterstützen.
 
 
 
-## Firewall
+</div>
 
-Sie können Ihre Edgetopologie mit nur einer externen Firewall oder sowohl mit einer externen als auch einer internen Firewall bereitstellen. Die Szenarioarchitekturen enthalten zwei Firewalls. Die Verwendung von zwei Firewalls ist der empfohlene Ansatz, da bei dieser Architektur ein strenges Routing von einem Netzwerkedge zum anderen sichergestellt wird. Darüber hinaus wird das interne Netzwerk durch zwei Firewallebenen geschützt.
+</div>
 
-## Director
+<div>
 
-Ein Director ist eine separate, optionale Serverrolle in Lync Server 2013, die keine Benutzerkonten verwaltet oder Anwesenheits- oder Konferenzdienste bereitstellt. Stattdessen fungiert der Director als interner Server für den nächsten Hop, an den ein Edgeserver eingehenden SIP-Datenverkehr weiterleitet, der für interne Server bestimmt ist. Der Director führt eine Vorauthentifizierung der eingehenden Anforderungen durch und leitet diese an den Home-Pool oder Homeserver des Benutzers weiter.
+## <a name="reverse-proxy"></a>Reverseproxy
 
-Ein Director ist nützlich, um die Standard Edition-Server und Front-End-Server in den Enterprise Edition-Front-End-Pools von bösartigem Datenverkehr wie Denial-of-Service-Angriffen zu isolieren. Wenn das Netzwerk bei einem solchen Angriff mit ungültigem externen Datenverkehr überflutet wird, endet der Datenverkehr beim Director. Detaillierte Informationen zur Verwendung von Directors finden Sie unter [Szenarien für den Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
+Der Reverseproxy ist für Folgendes erforderlich:
 
-## Siehe auch
+  - So ermöglichen Sie Benutzern das Herstellen einer Verbindung mit Besprechungen oder Einwahlkonferenzen mithilfe einfacher URLs
 
-#### Konzepte
+  - So aktivieren Sie externe Benutzer zum Herunterladen von Besprechungsinhalten
 
-[Anforderungen an das Hardwaregerät zum Lastenausgleich für Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)
+  - So aktivieren Sie externe Benutzer zum Erweitern von Verteilergruppen
+
+  - So ermöglichen Sie Benutzern das Abrufen eines benutzerbasierten Zertifikats für die Clientzertifikat basierte Authentifizierung
+
+  - So aktivieren Sie Remotebenutzer zum Herunterladen von Dateien vom Adressbuch Server oder zum Übermitteln von Abfragen an den Adressbuch-Webabfrage Dienst
+
+  - So ermöglichen Sie es Remotebenutzern, Updates für Client-und Geräte Software zu erhalten
+
+  - So aktivieren Sie mobile Geräte, um Front-End-Server, die Mobilitätsdienste anbieten, automatisch zu erkennen
+
+  - So aktivieren Sie Push-Benachrichtigungen auf mobilen Geräten über die Office 365-oder Apple Push Notification Services
+
+Weitere Informationen zu Reverse-Proxys und den Anforderungen, die umgekehrte Proxys erfüllen müssen, finden Sie in den Details unter [Konfigurationsanforderungen für Reverse Proxy in lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
+
+<div>
+
+
+> [!NOTE]  
+> Externe Benutzer benötigen keine VPN-Verbindung (virtuelles privates Netzwerk) mit Ihrer Organisation, um an der Kommunikation mit lync Server 2013 teilzunehmen. Wenn Sie in Ihrer Organisation VPN-Technologie implementiert haben und Ihre Benutzer das VPN für lync verwenden, können Mediendatenverkehr (wie Videokonferenzen) beeinträchtigt werden. Sie sollten die Bereitstellungeines Mediums für Mediendatenverkehr in Frage stellen, um die Verbindung mit dem AV Edge-Dienst direkt herzustellen und das VPN zu umgehen. Ausführliche Informationen finden Sie im NextHop-Blog Artikel "Aktivieren von <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>lync Media zur Umgehung eines VPN-Tunnels" unter.
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="firewall"></a>Firewall
+
+Sie können Ihre Edge-Topologie nur mit einer externen Firewall oder mit externen und internen Firewalls bereitstellen. Zu den Szenarien-Architekturen gehören zwei Firewalls. Die Verwendung von zwei Firewalls ist die empfohlene Vorgehensweise, da Sie ein striktes Routing von einem Netzwerkrand zum anderen gewährleistet und ihre interne Bereitstellung hinter zwei Firewall-Ebenen schützt.
+
+</div>
+
+<div>
+
+## <a name="director"></a>Director
+
+Bei einem Director handelt es sich um eine separate, optionale Serverrolle in lync Server 2013, in der keine Benutzerkonten zu Hause sind, oder Anwesenheits-oder Konferenzdienste bereitstellen. Sie fungiert als interner Server für den nächsten Hop, auf dem ein Edgeserver eingehenden SIP-Datenverkehr für interne Server weiterleitet. Der Director authentifiziert eingehende Anforderungen und leitet Sie an den privaten Pool oder Server des Benutzers weiter. Durch die Vorauthentifizierung beim Director können Sie Anforderungen aus Benutzerkonten, die für die Bereitstellung unbekannt sind, ablegen.
+
+Ein Director hilft beim Isolieren von Standard Edition-Servern und Front-End-Servern in Enterprise Edition-Front-End-Pools vor böswilligem Datenverkehr wie DOS-Attacken (Denial-of-Service). Wenn das Netzwerk bei einem solchen Angriff mit einem ungültigen externen Datenverkehr überflutet wird, endet der Datenverkehr beim Director. Ausführliche Informationen zur Verwendung von Directors finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Anforderungen an das Hardwaregerät zum Lastenausgleich für Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

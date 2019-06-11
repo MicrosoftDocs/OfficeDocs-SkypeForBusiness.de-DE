@@ -1,43 +1,69 @@
-﻿---
-title: Änderungen bei der Gesamtstrukturvorbereitung in Lync Server 2013
-TOCTitle: Änderungen bei der Gesamtstrukturvorbereitung in Lync Server 2013
-ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425791(v=OCS.15)
-ms:contentKeyID: 49293541
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: von der Gesamtstrukturvorbereitung vorgenommene Änderungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by forest preparation
+ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
+ms:contentKeyID: 48183734
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839615"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Änderungen bei der Gesamtstrukturvorbereitung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Änderungen, die von der Gesamtstrukturvorbereitung in lync Server 2013 vorgenommen wurden
 
-Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objekte und der universellen Dienst- und Verwaltungsgruppen, die bei der Gesamtstrukturvorbereitung erstellt werden.
+</div>
 
-## Globale Einstellungen und Objekte in Active Directory
+<div id="mainSection">
 
-Wenn Sie die globalen Einstellungen im Konfigurationscontainer speichern (dies ist bei allen neuen Lync Server 2013-Bereitstellungen der Fall), wird bei der Gesamtstrukturvorbereitung der vorhandene Dienstcontainer verwendet, und unterhalb des Objekts "Configuration\\Services" wird ein Objekt **RTC Service** hinzugefügt. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das Objekt für globale Einstellungen enthält alle Einstellungen, die in der Lync Server-Bereitstellung angewendet werden. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\\Microsoft" ein Objekt "RTC Service" hinzugefügt.
+<div id="mainBody">
 
-Außerdem wird während der Gesamtstrukturvorbereitung ein neues Objekt **msRTCSIP-Domain** für die Stammdomäne hinzugefügt, in der das Verfahren ausgeführt wird.
+<span> </span>
 
-## Universelle Dienst- und Verwaltungsgruppen in Active Directory
+_**Letztes Änderungsdatum des Themas:** 2012-10-30_
 
-Die Gesamtstrukturvorbereitung erstellt universelle Gruppen anhand der von Ihnen angegebenen Domäne und fügt Zugriffssteuerungseinträge (Access Control Entries, ACEs) für diese Gruppen hinzu. In diesem Schritt werden die universellen Gruppen in den Benutzercontainern der Domäne erstellt, die Sie angegeben haben.
+In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Gruppen "Universeller Dienst" und "Verwaltung" beschrieben, die vom Gesamtstrukturvorbereitungsschritt erstellt werden.
 
-Anhand von universellen Gruppen können Administratoren globale Einstellungen und Dienste verwenden und verwalten. Bei der Gesamtstrukturvorbereitung werden die folgenden Typen von universellen Gruppen hinzugefügt:
+<div>
 
-  - **Administrative Gruppen**   Mit diesen Gruppen werden Administratorrollen für ein Lync Server-Netzwerk definiert.
+## <a name="active-directory-global-settings-and-objects"></a>Globale Active Directory-Einstellungen und-Objekte
 
-  - **Infrastrukturgruppen**   Mit diesen Gruppen werden Berechtigungen zum Zugriff auf spezielle Bereiche der Lync Server-Infrastruktur erteilt. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen lync Server 2013-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste- **** Container und fügt unter den Konfigurations\\Diensten ein RTC-Dienstobjekt hinzu. Objekt. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die lync Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen Systemcontainer und ein RTC-Dienstobjekt\\unter dem Microsoft-Systemobjekt.
 
-  - **Dienstgruppen**   Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Lync Server-Dienste benötigt werden.
+Bei der Gesamtstrukturvorbereitung wird auch ein neues **Attribut msRTCSIP-Domänen** Objekt für die Stammdomäne hinzugefügt, in der die Prozedur ausgeführt wird.
+
+</div>
+
+<div>
+
+## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory-universelle Dienst-und Verwaltungsgruppen
+
+Bei der Gesamtstrukturvorbereitung werden universelle Gruppen basierend auf der von Ihnen angegebenen Domäne erstellt und für diese Gruppen Zugriffssteuerungseinträge (ACEs) hinzugefügt. In diesem Schritt werden die universellen Gruppen in den Benutzer Containern der Domäne erstellt, die Sie angeben.
+
+Universelle Gruppen ermöglichen Administratoren den Zugriff auf und die Verwaltung globaler Einstellungen und Dienste. Bei der Gesamtstrukturvorbereitung werden die folgenden Typen von universellen Gruppen hinzugefügt:
+
+  - **Administrative Gruppen**   diese Gruppen definieren Administratorrollen für ein lync Server-Netzwerk.
+
+  - **Infrastrukturgruppen**   diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server-Infrastruktur. Sie funktionieren als Komponenten administrativer Gruppen. Sie sollten diese Gruppen nicht ändern oder Benutzer direkt hinzufügen.
+
+  - **Dienstgruppen**   diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene lync Server-Dienste erforderlich sind.
 
 In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 
-### Administrative Gruppen, die während der Gesamtstrukturvorbereitung erstellt werden
+### <a name="administrative-groups-created-during-forest-preparation"></a>Während der Gesamtstrukturvorbereitung erstellte administrative Gruppen
 
 <table>
 <colgroup>
@@ -53,15 +79,15 @@ In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>Erlaubt den Mitgliedern, Server- und Pooleinstellungen zu verwalten, darunter alle Serverrollen, globalen Einstellungen und Benutzer.</p></td>
+<td><p>Ermöglicht Mitgliedern das Verwalten von Server-und Pooleinstellungen, einschließlich aller Serverrollen, globalen Einstellungen und Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Ermöglicht Mitgliedern das Verwalten von Benutzereinstellungen und das Verschieben von Benutzern von einem Server oder Pool zu einem anderen.</p></td>
+<td><p>Ermöglicht Mitgliedern, Benutzereinstellungen zu verwalten und Benutzer von einem Server oder Pool in einen anderen zu verschieben.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalReadOnlyAdmins</p></td>
-<td><p>Ermöglicht Mitgliedern das Lesen von Server-, Pool- und Benutzereinstellungen.</p></td>
+<td><p>Ermöglicht Mitgliedern, Server-, Pool-und Benutzereinstellungen zu lesen.</p></td>
 </tr>
 </tbody>
 </table>
@@ -69,7 +95,7 @@ In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 
 In der folgenden Tabelle werden die Infrastrukturgruppen beschrieben.
 
-### Infrastrukturgruppen, die während der Gesamtstrukturvorbereitung erstellt werden
+### <a name="infrastructure-groups-created-during-forest-preparation"></a>Während der Gesamtstrukturvorbereitung erstellte Infrastrukturgruppen
 
 <table>
 <colgroup>
@@ -85,23 +111,23 @@ In der folgenden Tabelle werden die Infrastrukturgruppen beschrieben.
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalGlobalWriteGroup</p></td>
-<td><p>Gewährt Schreibzugriff auf die globalen Einstellungsobjekte für Lync Server.</p></td>
+<td><p>Gewährt Schreibzugriff auf globale Einstellungsobjekte für lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalGlobalReadOnlyGroup</p></td>
-<td><p>Gewährt Lesezugriff auf die globalen Einstellungsobjekte für Lync Server.</p></td>
+<td><p>Gewährt schreibgeschützten Zugriff auf globale Einstellungsobjekte für lync Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Gewährt Lesezugriff auf die Lync Server-Benutzereinstellungen.</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
+<td><p>Gewährt schreibgeschützten Zugriff auf die lync Server-Benutzereinstellungen.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Gewährt Lesezugriff auf die Lync Server-Einstellungen. Diese Gruppe hat keinen Zugriff auf die Einstellungen auf Poolebene, sondern lediglich auf Einstellungen für einzelne Server.</p></td>
+<td><p>Gewährt schreibgeschützten Zugriff auf lync Server-Einstellungen. Diese Gruppe hat keinen Zugriff auf Einstellungen auf Poolebene, sondern nur auf Einstellungen, die für einen einzelnen Server spezifisch sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>Gewährt schreibgeschützten Zugriff auf die Lync Server-Konfiguration und wird bei der Installation in die lokale Administratorgruppe der Survivable Branch Appliances eingefügt.</p></td>
+<td><p>Gewährt schreibgeschützten Zugriff auf die lync Server-Konfiguration und wird während der Installation in der lokalen Gruppe Administratoren der Überlebenden Branch-Appliances gespeichert.</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +135,7 @@ In der folgenden Tabelle werden die Infrastrukturgruppen beschrieben.
 
 In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 
-### Dienstgruppen, die während der Gesamtstrukturvorbereitung erstellt werden
+### <a name="service-groups-created-during-forest-preparation"></a>Während der Gesamtstrukturvorbereitung erstellte Dienstgruppen
 
 <table>
 <colgroup>
@@ -125,37 +151,37 @@ In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Enthält Dienstkonten, die zum Ausführen des Front-End-Servers und des Standard Edition-Servers verwendet werden. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf die globalen Einstellungen von Lync Server und die Active Directory-Benutzerobjekte.</p></td>
+<td><p>Enthält Dienstkonten, mit denen Front-End-Server und Standard Edition-Server ausgeführt werden. Mit dieser Gruppe können Server Lese-und Schreibzugriff auf globale lync Server-Einstellungen und Active Directory-Benutzerobjekte erhalten.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCComponentUniversalServices</p></td>
-<td><p>Umfasst Dienstkonten zur Ausführung von A/V-Konferenzservern, Webdiensten, Vermittlungsservern, Archivierungsservern und Monitoring-Servern.</p></td>
+<td><p>Enthält Dienstkonten, die für die Ausführung von A/V-Konferenzservern, Webdiensten, Mediations Servern, Archivierungsservern und Überwachungs Servern verwendet werden.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCProxyUniversalServices</p></td>
-<td><p>Enthält Dienstkonten, die zum Ausführen von Lync Server-Edgeservern verwendet werden.</p></td>
+<td><p>Enthält Dienstkonten, die zum Ausführen von lync Server Edge-Servern verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalConfigReplicator</p></td>
-<td><p>Enthält Server, die an der Lync Serverzentralen Verwaltungsspeicher-Replikation teilnehmen können.</p></td>
+<td><p>Umfasst Server, die an der Replikation des lync Server Central-Verwaltungsspeichers teilnehmen können.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>Gewährt schreibgeschützten Zugriff auf die Lync Server-Einstellungen, ermöglicht aber auch die Konfiguration der Installation einer Survivable Branch Server- und Survivable Branch Appliance-Bereitstellung.</p></td>
+<td><p>Gewährt schreibgeschützten Zugriff auf lync Server-Einstellungen, ermöglicht aber die Konfiguration für die Installation eines überlebensfähigen Verzweigungs Servers und die Bereitstellung von Survivable Branch Appliances.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die Gesamtstrukturvorbereitung fügt den entsprechenden Infrastrukturgruppen dann wie folgt Dienst- und Verwaltungsgruppen hinzu:
+Die Gesamtstrukturvorbereitung fügt dann den entsprechenden Infrastrukturgruppen Dienst-und Verwaltungsgruppen wie folgt hinzu:
 
-  - "RTCUniversalServerAdmins" wird zu "RTCUniversalGlobalReadOnlyGroup", "RTCUniversalGlobalWriteGroup", "RTCUniversalServerReadOnlyGroup" und "RTCUniversalUserReadOnlyGroup" hinzugefügt.
+  - RTCUniversalServerAdmins wird zu RTCUniversalGlobalReadOnlyGroup, RTCUniversalGlobalWriteGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-  - "RTCUniversalUserAdmins" wird als Mitglied von "RTCUniversalGlobalReadOnlyGroup", "RTCUniversalServerReadOnlyGroup" und "RTCUniversalUserReadOnlyGroup" hinzugefügt.
+  - RTCUniversalUserAdmins wird als Mitglied von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-  - "RTCHSUniversalServices", "RTCComponentUniversalServices" und "RTCUniversalReadOnlyAdmins" werden als Mitglieder von "RTCUniversalGlobalReadOnlyGroup", "RTCUniversalServerReadOnlyGroup" und "RTCUniversalUserReadOnlyGroup" hinzugefügt.
+  - RTCHSUniversalServices, RTCComponentUniversalServices und RTCUniversalReadOnlyAdmins werden als Mitglieder von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-Bei der Gesamtstrukturvorbereitung werden außerdem die folgenden rollenbasierten Zugriffssteuerungsgruppen erstellt:
+Bei der Gesamtstrukturvorbereitung werden auch die folgenden rollenbasierten Zugriffssteuerungsgruppen erstellt:
 
   - CSAdministrator
 
@@ -179,11 +205,11 @@ Bei der Gesamtstrukturvorbereitung werden außerdem die folgenden rollenbasierte
 
   - CsResponseGroupManager
 
-Ausführliche Informationen zu rollenbasierten Zugriffssteuerungsrollen und den Aufgaben, die mit jeder dieser Rollen ausgeführt werden können, finden Sie unter [Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in der Planungsdokumentation.
+Details zu den Rollen und den jeweils zulässigen Aufgaben finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in der Planungsdokumentation.
 
-Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt. Private ACEs werden im Container mit den globalen Einstellungen erstellt, der von Lync Server verwendet wird. Dieser Container wird ausschließlich von Lync Server verwendet und befindet sich entweder im Konfigurationscontainer oder im Systemcontainer der Stammdomäne (abhängig davon, wo Sie die globalen Einstellungen speichern). Die von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgeführt.
+Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt. Es werden private ACEs im Container für globale Einstellungen erstellt, der von lync Server verwendet wird. Dieser Container wird nur von lync Server verwendet und befindet sich entweder im Konfigurationscontainer oder im System Container in der Stammdomäne, je nachdem, wo Sie die globalen Einstellungen speichern. Die von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgelistet.
 
-### Von der Gesamtstruktur erstellte öffentliche ACEs
+### <a name="public-aces-created-by-forest-preparation"></a>Von der Gesamtstrukturvorbereitung erstellte öffentliche ACEs
 
 <table>
 <colgroup>
@@ -198,32 +224,48 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Systemcontainer in der Stammdomäne lesen (nicht vererbt)<strong>*</strong></p></td>
+<td><p>Read Root Domain System Container (nicht geerbt)<strong>*</strong></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
-<td><p>DisplaySpecifiers-Container der Konfiguration lesen (nicht vererbt)</p></td>
+<td><p>Lesen des DisplaySpecifiers-Containers der Konfiguration (nicht geerbt)</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!NOTE]
-> <STRONG>*</STRONG>ACEs, die nicht vererbt werden, gewähren keinen Zugriff auf untergeordnete Objekte im betreffenden Container. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.
+<div>
 
 
+> [!NOTE]  
+> <STRONG>*</STRONG>Nicht geerbte ACEs gewähren unter diesen Containern keinen Zugriff auf untergeordnete Objekte. ACEs, die geerbt werden, gewähren Zugriff auf untergeordnete Objekte unter diesen Containern.
 
-Die Gesamtstrukturvorbereitung führt die folgenden Aufgaben im Konfigurationscontainer unter dem Namenskontext für die Konfiguration durch:
 
-  - Hinzufügen eines Eintrags **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die Seite **RTC property** unter den Attributen "adminContextMenu" und "adminPropertyPages" des Anzeigebezeichners für Sprachen für Benutzer, Kontakte und InetOrgPersons (z. B.: CN=user-Display,CN=409,CN=DisplaySpecifiers)
 
-  - Hinzufügen eines Objekts **RTCPropertySet** vom Typ **controlAccessRight** unterhalb von **Extended-Rights**, das auf die User- und Contact-Klassen angewendet wird
+</div>
 
-  - Hinzufügen eines Objekts **RTCUserSearchPropertySet** vom Typ **controlAccessRight** unterhalb von **Extended-Rights**, das auf die User-, Contact-, OU- und DomainDNS-Klassen angewendet wird
+Im Konfigurationscontainer führt die Gesamtstrukturvorbereitung unter dem Konfigurationsnamenskontext die folgenden Aufgaben aus:
 
-  - Hinzufügen von **msRTCSIP-PrimaryUserAddress** unter dem Attribut **extraColumns** der jeweiligen Anzeigebezeichner für die Sprachen der Organisationseinheit (z. B.: CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers) und Kopieren der Werte des Attributs **extraColumns** der Standardanzeige (z. B.: CN=default-Display, CN=409,CN=DisplaySpecifiers)
+  - Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und inetOrgPerson hinzu (beispielsweise CN = Benutzeranzeige, CN = 409, CN = DisplaySpecifiers).
 
-  - Hinzufügen der Filterattribute **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer** und **msRTCSIP-UserEnabled** unterhalb des Attributs **attributeDisplayNames** der jeweiligen Anzeigebezeichners für Sprachen für Benutzer-, Kontakt- und InetOrgPerson-Objekte (z. B. auf Englisch: CN=user-Display,CN=409,CN=DisplaySpecifiers)
+  - Fügt unter **Erweiterte Rechte** , die für die Benutzer-und Kontaktklassen gelten, ein **RTCPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
+
+  - Fügt unter **Erweiterte Rechte** , die für Benutzer-, Kontakt-, ou-und domainDNS-Klassen gelten, ein **RTCUserSearchPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
+
+  - Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut des jeweiligen Anzeigebezeichners der sprach Organisationseinheit (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte der **extraColumns** -Attribut der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
+
+  - Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut jedes Sprachanzeige Bezeichners für Benutzer, Kontakte, und InetOrgPerson-Objekte (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

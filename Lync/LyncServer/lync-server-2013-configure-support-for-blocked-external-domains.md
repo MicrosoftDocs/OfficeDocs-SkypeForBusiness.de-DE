@@ -1,50 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren der Unterstützung für blockierte externe Domänen'
-TOCTitle: Konfigurieren der Unterstützung für blockierte externe Domänen
-ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619176(v=OCS.15)
-ms:contentKeyID: 49293899
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Unterstützung für blockierte externe Domänen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure support for blocked external domains
+ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619176(v=OCS.15)
+ms:contentKeyID: 49733638
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08191e8600f5e247ba6b4a358557ea3def0a1756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839320"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-support-for-blocked-external-domains-in-lync-server-2013"></a>Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
-Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche Domänen (k)einen Verbund mit Ihrer Organisation eingehen können. Die Liste der blockierten Domänen fungiert als Sperrliste (mit einer expliziten Auflistung der Einträge, die nicht zulässig sind). Sie findet bei der Erkennung von Verbunddomänen Anwendung, sofern die entsprechende Option aktiviert wurde. Nähere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Suche von Verbundpartnern in Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
+Wenn Sie die Unterstützung für Federated-Partner konfiguriert haben, können Sie verwalten, welche Domänen von der Föderation mit Ihrer Organisation blockiert werden. Die Liste der blockierten Domänen fungiert als Sperrliste (Auflistung expliziter Einträge, die nicht zulässig sind) und wird in der Föderationsdomänen Erkennung angewendet, wenn diese Option aktiviert ist. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern in lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
 
-Blockieren Sie eine oder mehrere externe Domänen vom Herstellen einer Verbindung mit Ihrer Organisation. Fügen Sie hierzu die Domäne der Liste blockierter Domänen hinzu.
+Blockieren Sie eine oder mehrere externe Domänen, um eine Verbindung mit Ihrer Organisation herzustellen. Fügen Sie dazu die Domäne zur Liste der blockierten Domänen hinzu.
 
-## So fügen Sie der Liste blockierter Domänen eine externe Domäne hinzu
+<div>
+
+## <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>So fügen Sie eine externe Domäne zur Liste der blockierten Domänen hinzu
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer** .
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**.
 
-4.  Klicken Sie auf **Partnerdomänen** , auf **Neu** und dann auf **Blockierte Domäne** .
+4.  Klicken Sie auf **Verbunddomänen**, dann auf **neu**und dann auf **Blockierte Domäne**.
 
-5.  Führen Sie unter **Neue Partnerdomänen** die folgende Aktion aus:
+5.  Führen Sie in **neuen Föderationsdomänen**die folgenden Aktionen aus:
     
-      - Geben Sie im Feld **Domänenname (oder FQDN)** den Namen der Verbundpartnerdomäne ein, die blockiert werden soll.
+      - Geben Sie in **Domänenname (oder FQDN)** den Namen der Partnerdomäne ein, die Sie blockieren möchten.
+        
+        <div>
         
 
-        > [!NOTE]
-        > Der Name darf maximal 256 Zeichen umfassen.<BR>Bei der Suche nach dem Namen der Verbundpartnerdomäne wird ein Suffixabgleich durchgeführt. Wenn Sie beispielsweise <STRONG>contoso.com</STRONG> eingeben, wird als Suchergebnis auch die Domäne <STRONG>it.contoso.com</STRONG> zurückgegeben.<BR>Eine Verbundpartnerdomäne kann nicht gleichzeitig blockiert und zugelassen werden. Lync Server 2013 verhindert dies automatisch, sodass Sie Ihre Listen nicht synchronisieren müssen.
+        > [!NOTE]  
+        > Der Name darf nicht mehr als 256 Zeichen lang sein.<BR>Bei der Suche nach dem Domänennamen des Partner Partners wird eine Übereinstimmung mit dem Suffix ausgeführt. Wenn Sie beispielsweise <STRONG>contoso.com</STRONG>eingeben, gibt die Suche auch die Domäne <STRONG>IT.contoso.com</STRONG>zurück.<BR>Eine Föderationspartner-Domäne kann nicht gleichzeitig blockiert und zugelassen werden. Lync Server 2013 verhindert, dass dies geschieht, damit Sie Ihre Listen nicht synchronisieren müssen.
 
+        
+        </div>
     
-      - Im Feld **Kommentar** können Sie Informationen zur Konfiguration eingeben, die Sie mit anderen Systemadministratoren teilen möchten. Dieses Feld ist optional.
+      - Optional Geben Sie in **Kommentar**Informationen ein, die Sie für andere Systemadministratoren über diese Konfiguration freigeben möchten.
 
-6.  Klicken Sie auf **Commit** .
+6.  Klicken Sie auf **Commit ausführen**.
 
-7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Verbundpartner, den Sie blockieren möchten.
+7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Föderationspartner, den Sie blockieren möchten.
 
-Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Nähere Informationen hierzu finden Sie unter [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+Zum Aktivieren des Zugriffs auf den Verbundbenutzer müssen Sie auch die Unterstützung für den Verbundbenutzer Zugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Nähere Informationen finden Sie unter [Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+Darüber hinaus müssen Sie die Richtlinie für Benutzer konfigurieren und anwenden, die in der Lage sein sollen, mit Verbundbenutzern zusammenzuarbeiten. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

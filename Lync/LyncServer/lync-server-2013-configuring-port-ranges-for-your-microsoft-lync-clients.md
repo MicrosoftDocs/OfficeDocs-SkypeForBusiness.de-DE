@@ -1,27 +1,57 @@
-﻿---
-title: Konfigurieren von Portbereichen für Microsoft Lync-Clients
-TOCTitle: Konfigurieren von Portbereichen für Microsoft Lync-Clients
-ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204760(v=OCS.15)
-ms:contentKeyID: 49293493
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Portbereichen für Ihre Microsoft lync-Clients'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Microsoft Lync clients
+ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
+ms:contentKeyID: 48183694
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03cd4c109760756dd265526bd9d5285fdc9fed30
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839188"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Portbereichen für Microsoft Lync-Clients
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Konfigurieren von Portbereichen für Ihre Microsoft lync-Clients in lync Server 2013
 
-Standardmäßig können Lync-Clientanwendungen einen beliebigen Port zwischen 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies ist darauf zurückzuführen, dass bestimmte Portbereiche nicht automatisch für Clients aktiviert sind. Um Quality of Service (QoS) zu verwenden, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe von eindeutigen Portbereichen neu zuweisen. Diese Neuzuweisung kann mit dem Cmdlet **Set-CsConferencingConfiguration** durchgeführt werden.
+</div>
 
-Sie können die derzeit für Kommunikationssitzungen verwendeten Portbereiche ermitteln, indem Sie in der Verwaltungsshell für Microsoft Lync Server 2013 den folgenden Befehl ausführen:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-04-22_
+
+Standardmäßig können lync-Clientanwendungen einen beliebigen Port zwischen den Anschlüssen 1024 und 65535 verwenden, wenn Sie an einer Kommunikationssitzung beteiligt sind. Dies liegt daran, dass bestimmte Portbereiche für Clients nicht automatisch aktiviert werden. Um die Dienstqualität zu nutzen, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe von eindeutigen Portbereichen neu zuweisen. Dies kann mithilfe des Cmdlets "CsConferencingConfiguration" erfolgen.
+
+<div>
+
+
+> [!NOTE]  
+> Endbenutzer können diese Änderungen nicht selbst vornehmen. Port Änderungen können nur von Administratoren mit dem Cmdlet "Satz-CsConferencingConfiguration" vorgenommen werden.
+
+
+
+</div>
+
+Sie können ermitteln, welche Portbereiche derzeit für Kommunikationssitzungen verwendet werden, indem Sie den folgenden Befehl in der Microsoft lync Server 2013-Verwaltungsshell ausführen:
 
     Get-CsConferencingConfiguration
 
-Sofern Sie seit der Installation von Lync Server 2013 noch keine Änderungen an den Konferenzeinstellungen vorgenommen haben, sollten Informationen zurückgegeben werden, die diese Eigenschaftswerte enthalten:
+Vorausgesetzt, dass Sie seit der Installation von lync Server 2013 keine Änderungen an Ihren Konferenzeinstellungen vorgenommen haben, sollten Sie Informationen zurück erhalten, die diese Eigenschaftswerte enthalten:
 
     ClientMediaPortRangeEnabled : False
     ClientAudioPort             : 5350
@@ -33,30 +63,30 @@ Sofern Sie seit der Installation von Lync Server 2013 noch keine Änderungen an 
     ClientFileTransferPort      : 5350
     ClientTransferPortRange     : 40
 
-Wenn Sie sich die vorherige Ausgabe genauer ansehen, werden Sie zwei wichtige Aspekte feststellen. Zunächst ist die Eigenschaft **ClientMediaPortRangeEnabled** auf **False** gesetzt:
+Wenn Sie die vorhergehende Ausgabe genau betrachten, sehen Sie zwei wichtige Dinge. Zuerst ist die ClientMediaPortRangeEnabled-Eigenschaft auf false festgelegt:
 
     ClientMediaPortRangeEnabled : False
 
-Das ist wichtig, denn wenn diese Eigenschaft auf False gesetzt ist, verwenden Lync-Clients, die an einer Kommunikationssitzung beteiligt sind, einen beliebigen verfügbaren Port zwischen Port 1024 und 65535. Dies erfolgt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf einen bestimmten Satz von Ports beschränken möchten (was beispielsweise bei der Implementierung von Quality of Service erforderlich ist), müssen Sie zunächst die Client-Medienportbereiche aktivieren. Hierzu können Sie den folgenden Windows PowerShell-Befehl verwenden:
+Das ist wichtig, da lync-Clients, wenn diese Eigenschaft auf "false" festgelegt ist, einen beliebigen verfügbaren Port zwischen den Anschlüssen 1024 und 65535 verwenden, wenn Sie an einer Kommunikationssitzung beteiligt sind. Dies gilt unabhängig von anderen Porteinstellungen (beispielsweise ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf eine bestimmte Anzahl von Ports einschränken möchten (und dies ist etwas, was Sie tun möchten, wenn Sie die Implementierung von Quality of Service planen), müssen Sie zuerst die Client Medien-Portbereiche aktivieren. Dies kann mithilfe des folgenden Windows PowerShell-Befehls erfolgen:
 
     Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
 
-Mit dem obigen Befehl werden die Client-Medienportbereiche für die globale Auflistung der Konferenzkonfigurationseinstellungen aktiviert. Diese Einstellungen können jedoch auch auf Standortebene und/oder Dienstebene (nur für den Konferenzserverdienst) angewendet werden. Um die Client-Medienportbereiche für einen bestimmten Standort oder Server zu aktivieren, geben Sie beim Aufruf von **Set-CsConferencingConfiguration** die Identität des Standorts oder Servers an:
+Der obige Befehl aktiviert Client Medien-Portbereiche für die globale Sammlung von Konferenz Konfigurationseinstellungen; Diese Einstellungen können jedoch auch auf den Website Bereich und/oder den Dienstbereich angewendet werden (nur für den Conferencing Server-Dienst). Wenn Sie die Client Medien-Portbereiche für eine bestimmte Website oder einen bestimmten Server aktivieren möchten, geben Sie die Identität dieser Website oder des Servers beim Aufrufen von CsConferencingConfiguration an:
 
     Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
 
-Alternativ können Sie diesen Befehl verwenden, um Portbereiche für die gesamten Konferenzkonfigurationseinstellungen gleichzeitig zu aktivieren:
+Sie können diesen Befehl auch verwenden, um Portbereiche für alle Ihre Konferenz Konfigurationseinstellungen gleichzeitig zu aktivieren:
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
 
-Der zweite wichtige Aspekt ist, dass für jeden Typ von Netzwerkdatenverkehr standardmäßig dieselben Medienportbereiche festgelegt werden, wie Sie in der Beispielausgabe sehen können:
+Wichtig ist, dass die Beispielausgabe zeigt, dass standardmäßig die für die einzelnen Netzwerkdatenverkehr-Typen festgelegten Medien Portbereiche identisch sind:
 
     ClientAudioPort             : 5350
     ClientVideoPort             : 5350
     ClientAppSharingPort        : 5350
     ClientFileTransferPort      : 5350
 
-Zur Implementierung des Quality of Service (QoS) muss jeder dieser Portbereiche identisch sein. Sie können diese Portbereiche z. B. wie folgt konfigurieren:
+Um QoS zu implementieren, müssen alle diese Portbereiche eindeutig sein. So können Sie beispielsweise die Portbereiche wie folgt konfigurieren:
 
 
 <table>
@@ -67,9 +97,9 @@ Zur Implementierung des Quality of Service (QoS) muss jeder dieser Portbereiche 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client-Datenverkehrstyp</th>
-<th>Anfang des Portbereichs</th>
-<th>Portbereich</th>
+<th>Client Datenverkehrstyp</th>
+<th>Port Start</th>
+<th>Port Bereich</th>
 </tr>
 </thead>
 <tbody>
@@ -97,22 +127,37 @@ Zur Implementierung des Quality of Service (QoS) muss jeder dieser Portbereiche 
 </table>
 
 
-In der obigen Tabelle stellen Clientportbereiche eine Teilmenge der für die Server konfigurierten Portbereiche dar. Beispielsweise ist auf den Servern konfiguriert, dass die Ports 40803 bis 49151 für die Anwendungsfreigabe verwendet werden. Auf den Clientcomputern ist konfiguriert, dass die Ports 42000 bis 42019 für die Anwendungsfreigabe verwendet werden. Dies dient hauptsächlich dem Zweck, die QoS-Verwaltung zu vereinfachen: Die Clientports müssen keine Teilmenge der auf dem Server verwendeten Ports darstellen. (Sie können auf Clientcomputern auch konfigurieren, dass die Ports 10000 bis 10019 für die Anwendungsfreigabe verwendet werden.) Es wird jedoch empfohlen, für Clients eine Teilmenge der Serverportbereiche zu verwenden.
+In der obigen Tabelle stellen Client-Portbereiche eine Teilmenge der Portbereiche dar, die für Ihre Server konfiguriert sind. Auf den Servern wurde die Anwendungsfreigabe beispielsweise so konfiguriert, dass die Ports 40803 bis 49151 verwendet werden. auf den Clientcomputern ist die Anwendungsfreigabe so konfiguriert, dass die Ports 42000 bis 42019 verwendet werden. Dies erfolgt in erster Linie, um die Verwaltung von QoS zu vereinfachen: Clientports müssen keine Teilmenge der auf dem Server verwendeten Ports darstellen. (Beispielsweise können Sie auf den Clientcomputern die Anwendungsfreigabe so konfigurieren, dass die Verwendung von Ports 10000 bis 10019 verwendet wird.) Es wird jedoch empfohlen, dass Sie die Client Portbereiche zu einer Teilmenge der Server Portbereiche machen.
 
-Zudem haben Sie vielleicht festgestellt, dass auf den Servern 8348 Ports für die Anwendungsfreigabe reserviert wurden, auf den Clients jedoch lediglich 20 Ports. Dies ist auch nur eine Empfehlung und keine verbindliche Regel. Im Allgemeinen können Sie einplanen, dass jeder verfügbare Port eine einzelne Kommunikationssitzung darstellt: Wenn in einem Portbereich 100 Ports verfügbar sind, bedeutet dies, dass der fragliche Computer zu einem bestimmten Zeitpunkt an maximal 100 Kommunikationssitzungen teilnehmen kann. Da Server wahrscheinlich an weitaus mehr Unterhaltungen als Clients beteiligt sind, ist es sinnvoll, auf den Servern viel mehr Ports als auf den Clients zu öffnen. Wenn Sie auf einem Client 20 Ports für die Anwendungsfreigabe reservieren, bedeutet dies, dass ein Benutzer auf dem angegebenen Gerät an 20 Anwendungssitzungen gleichzeitig teilnehmen kann. Dies sollte für die allermeisten Benutzer ausreichend sein.
+Darüber hinaus haben Sie möglicherweise festgestellt, dass 8348-Ports für die Anwendungsfreigabe auf den Servern reserviert wurden, aber nur 20 Ports für die Anwendungsfreigabe auf den Clients reserviert wurden. Auch dies wird empfohlen, ist aber keine harte und schnelle Regel. Im Allgemeinen können Sie jeden verfügbaren Port in Betracht ziehen, um eine einzelne Kommunikationssitzung darzustellen: Wenn Sie 100-Ports in einem Portbereich zur Verfügung haben, bedeutet dies, dass der fragliche Computer zu einem bestimmten Zeitpunkt an maximal 100 Kommunikationssitzungen teilnehmen kann. Da Server wahrscheinlich an vielen weiteren Unterhaltungen als Clients teilnehmen, ist es sinnvoll, viel mehr Ports auf Servern als auf Clients zu öffnen. Wenn Sie 20 Ports für die Anwendungsfreigabe auf einem Client beiseite legen, bedeutet dies, dass ein Benutzer an 20 Anwendungsfreigabesitzungen auf dem angegebenen Gerät und alle zur gleichen Zeit teilnehmen kann. Dies sollte für die meisten Benutzer ausreichend sein.
 
-Sie können den folgenden Lync Server-Verwaltungsshell-Befehl verwenden, um die obigen Portbereiche Ihrer globalen Auflistung der Konferenzkonfigurationseinstellungen zuzuweisen:
+Wenn Sie der globalen Sammlung von Konferenz Konfigurationseinstellungen die vorherigen Portbereiche zuweisen möchten, können Sie den folgenden Befehl der lync Server-Verwaltungsshell verwenden:
 
     Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-Oder verwenden Sie diesen Befehl, um dieselben Portbereiche für alle Konferenzkonfigurationseinstellungen zuzuweisen:
+Oder verwenden Sie diesen Befehl, um dieselben Portbereiche für alle Konferenz Konfigurationseinstellungen zuzuweisen:
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-Einzelne Benutzer müssen sich bei Lync abmelden und dann wieder anmelden, bevor diese Änderungen tatsächlich in Kraft treten.
+Einzelne Benutzer müssen sich von lync abmelden und dann wieder anmelden, bevor diese Änderungen tatsächlich wirksam werden.
+
+<div>
 
 
-> [!NOTE]
-> Sie können auch Client-Medienportbereiche aktivieren und diese Portbereiche dann mit einem einzelnen Befehl zuweisen. Beispiel:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+> [!NOTE]  
+> Sie können auch Client Medien-Portbereiche aktivieren und dann mithilfe eines einzigen Befehls Diese Portbereiche zuweisen. Beispiel:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

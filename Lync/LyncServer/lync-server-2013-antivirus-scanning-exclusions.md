@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Ausnahmen in Virenschutzprogrammen'
-TOCTitle: Ausnahmen in Virenschutzprogrammen für Lync Server 2013
-ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn440138(v=OCS.15)
-ms:contentKeyID: 59373608
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausnahmen in Virenschutzprogrammen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Antivirus scanning exclusions for Lync Server 2013
+ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440138(v=OCS.15)
+ms:contentKeyID: 57793042
+ms.date: 11/03/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e6f354b93bf21f054e9b5b24e3befd1787279bbe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840038"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausnahmen in Virenschutzprogrammen für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Ausnahmen in Virenschutzprogrammen für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-11-02_
 
-Damit das Virenschutzprogramm die Ausführung von Lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Server oder jede Serverrolle mit Lync Server 2013, auf dem bzw. der ein Virenschutzprogramm ausgeführt wird, ausschließen. Die folgenden Prozesse und Verzeichnisse sollten einbezogen werden:
+Wenn Sie sicherstellen möchten, dass der Virenscanner den Betrieb von lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden lync Server 2013-Server oder die Serverrolle ausschließen, auf der Sie einen Antivirus-Scanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
+
+<div>
 
 
-> [!NOTE]
-> Die Ordner- und Dateispeicherorte in der folgenden Liste sind die Standardspeicherorte für Lync Server 2013. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
+> [!NOTE]  
+> Die nachstehend aufgeführten Ordner-und Dateispeicherorte sind die Standardspeicherorte für lync Server 2013. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
 
 
+
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> Beachten Sie, dass einige Virenschutzprogramme für ihre Ausschlussliste anstelle von relativen möglicherweise absolute Pfade benötigen.
+
+
+
+</div>
 
   - Lync Server 2013-Prozesse:
     
       - ABServer.exe
     
-      - AcpMcuSvc.exe
+      - AcpMcuSvc. exe
     
       - ASMCUSvc.exe
     
@@ -81,43 +115,53 @@ Damit das Virenschutzprogramm die Ausführung von Lync Server 2013 nicht stört,
 
   - IIS-Prozesse:
     
-      - %systemroot%\\system32\\inetsrv\\w3wp.exe
+      - % systemroot\\%\\System32\\inetsrv w3wp. exe
     
-      - %systemroot%\\SysWOW64\\inetsrv\\w3wp.exe
+      - % systemroot\\%\\syswow64\\inetsrv w3wp. exe
 
   - SQL Server Back-End-Prozesse:
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe
+      - % Programme%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSRS11.MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe
+      - % Programme%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\Report\\Server\\bin ReportingServicesService. exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSAS11.MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe
+      - % Programme%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
 
   - SQL Server Front-End-Prozesse:
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.LYNCLOCAL\\MSMQL\\Binn\\SQLServr.exe
+      - % Programme%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe
     
-      - %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.RTCLOCAL\\MSMQL\\Binn\\SQLServr.exe
+      - % Programme%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr. exe
 
   - Verzeichnisse und Dateien:
     
-      - %systemroot%\\System32\\LogFiles
+      - % systemroot\\%\\System32-Protokolldateien
     
-      - %systemroot%\\SysWow64\\LogFiles
+      - % systemroot\\% syswow64\\-Protokolldateien
     
-      - %systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL
+      - % systemroot\\%\\Microsoft.net\\Assembly\_GAC MSIL
     
-      - %programfiles%\\Microsoft Lync Server 2013
+      - % Programme%\\Microsoft lync Server 2013
     
-      - %programfiles%\\Common Files\\Microsoft Lync Server 2013\\Watcher Node
+      - % Programme%\\Common Files\\Microsoft lync Server 2013\\Watcher-Knoten
     
-      - %programfiles%\\Common Files\\Microsoft Lync Server 2013
+      - % Programme%\\allgemeine Dateien\\Microsoft lync Server 2013
     
-      - %SystemDrive%\\RtcReplicaRoot
+      - % SystemDrive\\% RtcReplicaRoot
     
       - Dateifreigabespeicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
     
-      - SQL Server-Daten und -Protokolldateien, u. a. für die Back-End-Datenbank, den Benutzer-, Archivierungs-, Überwachungs- und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten- und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter [Platzierung von SQL Server-Daten und Protokolldatei für Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.
+      - SQL Server-Daten-und-Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. In Topology Builder können Datenbank-und Protokolldateien angegeben werden. Details zu den Daten-und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter [SQL Server-Daten-und Protokolldatei Platzierung für lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.
     
-      - SQL Server-Daten und -Protokolldateien, u. a. für die Front-End-Datenbank, den Lync-Speicher und den RTC-Datenbankspeicher. Diese befinden sich normalerweise unter "%localdrive%\\CSData".
+      - SQL Server-Daten-und-Protokolldateien, einschließlich derer für die Front-End-Datenbank, den lync-Store und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter\\% LokalesLaufwerk% CSData.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

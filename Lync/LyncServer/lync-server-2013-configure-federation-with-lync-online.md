@@ -1,67 +1,117 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren des Partnerverbunds mit Lync Online'
-TOCTitle: Konfigurieren des Partnerverbunds mit Lync Online
-ms:assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205126(v=OCS.15)
-ms:contentKeyID: 49294938
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Föderation mit lync Online'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure federation with Lync Online
+ms:assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205126(v=OCS.15)
+ms:contentKeyID: 48184946
+ms.date: 08/15/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839369"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Partnerverbunds von Lync Server 2013 mit Lync Online
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Konfigurieren des Verbunds von lync Server 2013 mit lync Online
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2016-08-15_
 
 Führen Sie die Schritte in diesem Abschnitt aus, um die Interoperabilität zwischen Ihrer lokalen Bereitstellung und Skype for Business Online zu konfigurieren.
 
-## Konfigurieren Ihres Edgediensts für den Partnerverbund mit Skype for Business Online
+<span id="a"></span>
 
-Durch einen Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Office 365-Benutzern in Ihrem Unternehmen kommunizieren. Führen Sie zum Konfigurieren des Partnerverbunds die folgenden Cmdlets aus:
+<div>
 
-    Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
+## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Konfigurieren Ihres lokalen Edge-Diensts für den Verbund mit Skype for Business Online
 
-   &nbsp;
+Mithilfe der Föderation können Benutzer in Ihrer lokalen Bereitstellung mit Office 365-Benutzern in Ihrer Organisation kommunizieren. Führen Sie die folgenden Cmdlets aus, um den Verbund zu konfigurieren:
 
+   ```
+    Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
+   ```
+
+   ```
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
-## Konfigurieren Ihres Skype for Business Online-Mandanten für einen freigegebenen SIP-Adressbereich
+</div>
 
-Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine E-Mail-Adresse. Bevor Sie versuchen, Lync-Benutzer von einer lokalen Bereitstellung zu Skype for Business Online zu verschieben, müssen Sie Ihren Office 365-Mandanten für die Verwendung eines freigegebenen SIP-Adressbereichs mit Ihrer lokalen Bereitstellung konfigurieren. Wenn dies nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
+<span id="b"></span>
 
-Move-CsUser : HostedMigration fault: Error=(510), Description=(Der Mandant dieses Benutzers ist nicht für den freigegebenen SIP-Adressbereich aktiviert.)
+<div>
 
-Zum Konfigurieren eines freigegebenen SIP-Adressbereichs richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein und führen Sie dann das folgende Cmdlet aus:
+## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Konfigurieren Ihres Skype for Business Online-Mandanten für einen freigegebenen SIP-Adressraum
+
+Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine E-Mail-Adresse. Bevor Sie versuchen, lync-Benutzer von lokal in Skype for Business Online zu verschieben, müssen Sie Ihren Office 365-Mandanten so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) für Ihre lokale Bereitstellung freigegeben wird. Wenn dies nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
+
+Move-CsUser: HostedMigration fault: Error=(510), Description=(Der Mandant dieses Benutzers ist nicht für den freigegebenen SIP-Adressbereich aktiviert.)
+
+Um einen freigegebenen SIP-Adressraum zu konfigurieren, richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein, und führen Sie dann das folgende Cmdlet aus:
 
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 
-Zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online müssen Sie zunächst das Skype for Business Online-Modul für Windows PowerShell installieren, das Sie hier erhalten: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
+Zum Einrichten einer PowerShell-Remotesitzung mit Skype for Business Online müssen Sie zunächst das Skype for Business Online-Modul für Windows PowerShell installieren, das Sie hier abrufen können: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 Nach der Installation des Moduls können Sie mit den folgenden Cmdlets eine Remotesitzung einrichten:
 
+   ```
     Import-Module LyncOnlineConnector
+   ```
 
-   &nbsp;
-
+   ```
     $cred = Get-Credential
+   ``` 
 
-   &nbsp;
-
+   ```
     $CSSession = New-CsOnlineSession -Credential $cred
+   ```
 
-   &nbsp;
-
+   ```
     Import-PSSession $CSSession -AllowClobber
+   ```
 
-Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online finden Sie unter [Herstellen der Verbindung zu Lync Online mit Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Weitere Informationen zum Einrichten einer PowerShell-Remotesitzung mit Skype for Business Online finden Sie unter [Herstellen einer Verbindung mit Skype for Business Online mithilfe von Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Moduls finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Weitere Informationen zur Verwendung des PowerShell-Moduls für Skype for Business Online finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
+## <a name="see-also"></a>Siehe auch
+
+
+[Neu – CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,53 +1,77 @@
-﻿---
-title: Hinzufügen von Befehlen zu Lync-Menüs
-TOCTitle: Hinzufügen von Befehlen zu Lync-Menüs
-ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412788(v=OCS.15)
-ms:contentKeyID: 52056429
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hinzufügen von Befehlen zu lync-Menüs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding commands to Lync menus
+ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412788(v=OCS.15)
+ms:contentKeyID: 48185091
+ms.date: 04/11/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1dfb79a985791e6994d8409339d12b12e1146ec5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839936"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hinzufügen von Befehlen zu Lync-Menüs
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Hinzufügen von Befehlen zu lync-Menüs in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2016-04-11_
 
-Sie können Lync 2013-Menüs benutzerdefinierte Befehle hinzufügen und den SIP-URI (Uniform Resource Identifier) des aktuellen Benutzers und ausgewählter Kontakte an die Anwendung übergeben, die der benutzerdefinierte Befehl startet.
+Sie können den lync 2013-Menüs benutzerdefinierte Befehle hinzufügen und den SIP-URI (Uniform Resource Identifier) des aktuellen Benutzers und ausgewählte Kontakte an die Anwendung übergeben, die der benutzerdefinierte Befehl startet.
 
 Die benutzerdefinierten Befehle, die Sie hinzufügen, können in einem oder mehreren der folgenden Menüs angezeigt werden:
 
-  - Im Menü "Extras" auf der Menüleiste im Lync-Hauptfenster
+  - Menü "Extras" auf der Menüleiste im Hauptfenster von lync
 
-  - Im Kontextmenü für Kontakte in der Liste "Kontakte"
+  - Das Kontextmenü für Kontakte in der Kontaktliste
 
-  - Im Menü "Weitere Optionen" im Fenster "Unterhaltung"
+  - Das Menü "Weitere Optionen" im Unterhaltungsfenster
 
-  - Im Kontextmenü für Personen in der Teilnehmerliste im Fenster "Unterhaltung"
+  - Das Kontextmenü für Personen, die in der Teilnehmerliste des Unterhaltungsfensters aufgeführt sind
 
-  - Im Menü "Optionen" auf einer Visitenkarte
+  - Menü ' Optionen ' auf einer Visitenkarte
 
-Sie können benutzerdefinierte Befehle für zwei Typen von Anwendungen definieren, für die eine der folgenden Angaben gilt:
+Sie können benutzerdefinierte Befehle für zwei Arten von Anwendungen definieren – Anwendungen, die eine der folgenden Aktionen ausführen:
 
-  - Die Befehle gelten nur für den aktuellen Benutzer und werden auf dem lokalen Computer gestartet.
+  - Gelten nur für den aktuellen Benutzer und werden auf dem lokalen Computer gestartet.
 
-  - Die Befehle betreffen weitere Benutzer, z. B. bei einem Programm für die Onlinezusammenarbeit, und müssen auf den Computern aller Benutzer gestartet werden.
+  - Beziehen Sie zusätzliche Benutzer ein, beispielsweise ein Online Zusammenarbeitsprogramm, und müssen Sie auf dem Computer jedes Benutzers gestartet werden.
 
-Zum Aufrufen des benutzerdefiniertes Befehls haben Sie folgende Möglichkeiten:
+Der benutzerdefinierte Befehl kann wie folgt aufgerufen werden:
 
-  - Wählen Sie einen oder mehrere Benutzer aus, und rufen Sie anschließend den benutzerdefinierten Befehl auf.
+  - Wählen Sie einen oder mehrere Benutzer aus, und wählen Sie dann den benutzerdefinierten Befehl aus.
 
-  - Starten Sie eine Unterhaltung mit zwei oder mehreren Teilnehmern, und rufen Sie anschließend den benutzerdefinierten Befehl auf.
+  - Starten Sie eine Unterhaltung mit zwei oder mehr Teilnehmern, und wählen Sie dann den benutzerdefinierten Befehl aus.
 
-## So fügen Sie einen benutzerdefinierten Befehl hinzu
+<div>
 
-Über die Registrierungseinstellungen in der folgenden Tabelle können Sie den Menüs einen Befehl hinzufügen. Diese Einträge werden an den folgenden Stellen in der Registrierung platziert:
+## <a name="to-add-a-custom-command"></a>So fügen Sie einen benutzerdefinierten Befehl hinzu
 
-HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
+Verwenden Sie die Registrierungseinstellungen in der folgenden Tabelle, um den Menüs einen Befehl hinzuzufügen. Diese Einträge werden in der Registrierung an einem der folgenden Speicherorte gespeichert:
 
-### Registrierungseinträge für benutzerdefinierte Befehle
+  - Für 32-Bit-\_Betriebs\_System\\:\\HKEY\\-\\Software\\für\\lokale Computer\\Microsoft Office 15,0 lync SessionManager-apps
+
+  - Für 64-Bit-\_Betriebs\_System\\:\\HKEY\\local\\Machine\\Software\\Wow6432Node\\Microsoft Office\\15,0 lync SessionManager-apps
+
+### <a name="custom-command-registry-entries"></a>Registrierungseinträge für benutzerdefinierte Befehle
 
 <table>
 <colgroup>
@@ -66,16 +90,16 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Name der Anwendung, wie er im Menü angezeigt wird.</p></td>
+<td><p>Der Name der Anwendung, wie er im Menü angezeigt wird.</p></td>
 </tr>
 <tr class="even">
-<td><p>ApplicationType</p></td>
+<td><p>Applicationtype</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = Ausführbar (Standard)</p>
+<td><p>0 = ausführbare Datei (Standard)</p>
 <div>
 
-> [!NOTE]
-> "ApplicationInstallPath" erforderlich.
+> [!NOTE]  
+> Erfordert ApplicationInstallPath.
 
 
 </div>
@@ -87,43 +111,43 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>Vollständiger Pfad der ausführbaren Datei.</p>
 <div>
 
-> [!NOTE]
-> Muss angegeben werden, falls "ApplicationType" gleich 0 (ausführbar) ist.
+> [!NOTE]  
+> Muss angegeben werden, wenn applicationtype 0 (ausführbare Datei) ist.
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p>Path</p></td>
+<td><p>Pfad</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Vollständiger Pfad zusammen mit beliebigen Parametern, einschließlich der Standardparameter <em>%Benutzer-ID%</em> und <em>%Kontakt-ID%</em>.</p></td>
+<td><p>Vollständiger Pfad, der zusammen mit allen Parametern gestartet werden soll, einschließlich der Standardparameter <em>% User-ID%</em> und <em>% Contact-ID%</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = Lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
-<p>1 = Sitzung mit zwei Teilnehmern (Standard). Lync 2013 startet die Anwendung lokal und sendet dann eine Desktopbenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung, um die Anwendung auf seinem Computer zu starten.</p>
-<p>2 = Sitzung mit mehreren Teilnehmern. Lync 2013 startet die Anwendung lokal und sendet dann eine Desktopbenachrichtigung an die anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung, um die angegebene Anwendung auf seinem Computer zu starten.</p></td>
+<td><p>0 = lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
+<p>1 = Sitzung mit zwei Teilnehmern (Standard). Lync 2013 startet die Anwendung lokal und sendet dann eine Desktopbenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung, um die Anwendung auf Ihrem Computer zu starten.</p>
+<p>2 = mehrteilige Sitzung. Lync 2013 startet die Anwendung lokal und sendet dann Desktopbenachrichtigungen an die anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung, um die angegebene Anwendung auf dem Computer zu starten.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Eine Liste der Menüs, in denen dieser Befehl angezeigt wird, getrennt durch Semikolons. Mögliche Werte sind:</p>
+<td><p>Eine Liste der Menüs, in denen dieser Befehl angezeigt wird, getrennt durch Semikolons. Mögliche Werte:</p>
 <p>MainWindowActions</p>
 <p>MainWindowRightClick</p>
 <p>ConversationWindowActions</p>
 <p>ConversationWindowRightClick</p>
 <p>ContactCardMenu</p>
-<p>Wenn &quot;ExtensibleMenu&quot; nicht definiert ist, werden die Standardwerte von &quot;MainWindowRightClick&quot; und &quot;ConversationWindowActions&quot; verwendet.</p></td>
+<p>Wenn ExtensibleMenu nicht definiert ist, werden die Standardwerte MainWindowRightClick und ConversationWindowActions verwendet.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die folgende Registrierungs-Editor-Datei (.reg) enthält beispielsweise das Ergebnis des Hinzufügens des Menüpunkts "Contoso Sales Contact Manager" zum Menü "Aktionen" im Fenster "Unterhaltung":
+Der folgende Registrierungs-Editor (. REG) zeigt die Ergebnisse des Hinzufügens eines Contoso Sales Contact Manager-Menüelements zum Menü "Aktionen" im Unterhaltungsfenster an:
 
     Windows Registry Editor Version 5.00
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\CustomCommands\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
     "Name"="Contoso Sales Contact Manager"
     "HelpMessage"="The Contoso Sales Contact Manager is not installed. Contact the Help Desk for more information."
     "ApplicationType"=dword:00000000
@@ -132,17 +156,31 @@ Die folgende Registrierungs-Editor-Datei (.reg) enthält beispielsweise das Erge
     "SessionType"=dword:00000001
     "ExtensibleMenu"="ConversationWindowActions;MainWindowRightClick"
 
-## So greifen Sie auf einen benutzerdefinierten Befehl zu
+</div>
 
-Führen Sie für den Zugriff auf einen hinzugefügten benutzerdefinierten Befehl (abhängig von den festgelegten Werten für "ExtensibleMenu") einen der folgenden Schritte aus:
+<div>
 
-  - **MainWindowActions**   Klicken Sie im Lync-Hauptfenster auf **Tools** und anschließend auf den gewünschten benutzerdefinierten Befehl.
+## <a name="to-access-a-custom-command"></a>So greifen Sie auf einen benutzerdefinierten Befehl zu
 
-  - MainWindowRightClick   Klicken Sie im Lync-Hauptfenster mit der rechten Maustaste auf einen Kontakt und anschließend auf den gewünschten benutzerdefinierten Befehl.
+Wenn Sie nach dem Hinzufügen auf einen benutzerdefinierten Befehl zugreifen möchten, führen Sie je nach den von Ihnen definierten ExtensibleMenu-Werten eine der folgenden Aktionen aus:
 
-  - **ConversationWindowActions**   Klicken Sie im Fenster "Unterhaltung" auf das Symbol **Weitere Optionen** und anschließend auf den gewünschten benutzerdefinierten Befehl.
+  - **MainWindowActions**   klicken Sie im Hauptfenster von lync auf **Extras**, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
-  - **ConversationWindowRightClick**   Klicken Sie im Fenster "Unterhaltung" mit der rechten Maustaste auf einen Kontakt, und klicken Sie anschließend auf den gewünschten benutzerdefinierten Befehl.
+  - **MainWindowRightClick**   klicken Sie im Hauptfenster von lync mit der rechten Maustaste auf einen Kontakt, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
-  - **ContactCardMenu**   Klicken Sie auf der Visitenkarte einer Person auf das Symbol "Optionen" und anschließend auf den gewünschten benutzerdefinierten Befehl.
+  - **ConversationWindowActions**   klicken Sie im Unterhaltungsfenster auf das Symbol **Weitere Optionen** , und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+
+  - **ConversationWindowRightClick**   klicken Sie im Unterhaltungsfenster mit der rechten Maustaste auf einen Kontaktnamen, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

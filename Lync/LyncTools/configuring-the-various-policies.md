@@ -1,89 +1,172 @@
-﻿---
-title: Configuring the Various Policies
+---
+title: Konfigurieren der verschiedenen Richtlinien
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945610(v=OCS.15)
-ms:contentKeyID: 52056037
-ms.date: 09/13/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
+ms:contentKeyID: 51541436
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840051"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuring the Various Policies
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-the-various-policies"></a>Konfigurieren der verschiedenen Richtlinien
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-24_
 
-## Configuring the Various Policies
+<div>
 
-Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.
+## <a name="configuring-the-various-policies"></a>Konfigurieren der verschiedenen Richtlinien
 
-## Configuring the Archiving Policy
+Nachfolgend sind die verschiedenen Richtlinien aufgeführt, die Sie in ihrer lync Server 2013-Topologie konfigurieren können, bevor Sie das Stress-und Leistungs Tool lync Server 2013 ausführen.
 
-See the example script ArchivingPolicy.ps1. You need to use this script only if an Archiving Server is deployed in your topology. For details, see the Lync Server 2013 documentation and cmdlet Help for [Cmdlets für Archivierung und Überwachung](https://technet.microsoft.com/de-de/library/gg415629\(v=ocs.15\)).
+<div>
 
-## Configuring the Conferencing Policy
+## <a name="configuring-the-archiving-policy"></a>Konfigurieren der Archivierungsrichtlinie
 
-See the example script MeetingPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für Webkonferenzen](https://technet.microsoft.com/de-de/library/gg415675\(v=ocs.15\)).
+Weitere Informationen finden Sie im Beispielskript ArchivingPolicy. ps1. Sie müssen dieses Skript nur verwenden, wenn ein Archivierungs Server in Ihrer Topologie bereitgestellt wird. Ausführliche Informationen finden Sie in der Dokumentation zu lync Server 2013 und in der Hilfe zu Cmdlets für das Archivieren und Überwachen von [Cmdlets in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415629\(v=ocs.15\)).
 
-## Configuring the Contacts Policy
+</div>
 
-See the example ContactsPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für Instant Messaging und Anwesenheit](https://technet.microsoft.com/de-de/library/gg398611\(v=ocs.15\)).
+<div>
 
-## Configuring the Federation Policy
+## <a name="configuring-the-conferencing-policy"></a>Konfigurieren der konferenzrichtlinie
 
-See the example FederationPolicy.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für Edgeserver](https://technet.microsoft.com/de-de/library/gg415635\(v=ocs.15\)) and [Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013](https://technet.microsoft.com/de-de/library/gg415651\(v=ocs.15\)).
+Weitere Informationen finden Sie im Beispielskript MeetingPolicy. ps1. Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und in der Hilfe zu Cmdlets für [Webkonferenz-Cmdlets in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).
 
-## Configuring the Call Admission Control Policy
+</div>
 
-See the example BandwidthPolicy.ps1. For details, see the Lync Server 2013 documentation [Übersicht über die Anrufsteuerung in Lync Server 2013](https://technet.microsoft.com/de-de/library/gg398529\(v=ocs.15\)) and the cmdlet Help for [Cmdlets für die Anrufsteuerung](https://technet.microsoft.com/de-de/library/gg415676\(v=ocs.15\)).
+<div>
 
-## Configuring the Voice Routing Rules
+## <a name="configuring-the-contacts-policy"></a>Konfigurieren der Kontakt Richtlinie
 
-See the example RoutingRules.ps1. When you configure the voice routing rules, take note of the Phone Context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes so that you can specify them when creating users and during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN). For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe.
+Weitere Informationen finden Sie im Beispiel ContactsPolicy. ps1. Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und in der Hilfe zu Cmdlets für [Chat-und Anwesenheits-Cmdlets in lync Server 2013](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\)).
 
-![Beispielregel für VoIP-Routing](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Beispielregel für VoIP-Routing")
+</div>
 
-For details, see the Lync Server 2013 documentation and the cmdlet Help for [Enterprise-VoIP-Cmdlets](https://technet.microsoft.com/de-de/library/gg415658\(v=ocs.15\)).
+<div>
 
-## Configuring Conferencing Attendant application
+## <a name="configuring-the-federation-policy"></a>Konfigurieren der Verbund Richtlinie
 
-See the example ConferenceAutoAttendantConfiguration.ps1. Take note of the ConferencingAutoAttendant phone number (1121111111, by default), so that you can type it into the LyncPerf Tool Configuration tool for configuration generation.
+Weitere Informationen finden Sie im Beispiel FederationPolicy. ps1. Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und der Cmdlet-Hilfe für Edgeserver- [Cmdlets in](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) lync Server 2013 sowie in den Cmdlets für den [Verbund und den externen Zugriff in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).
 
-![Konfigurieren der Anwendung Konferenzzentrale](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Konfigurieren der Anwendung Konferenzzentrale")
+</div>
 
-For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für Webkonferenzen](https://technet.microsoft.com/de-de/library/gg415675\(v=ocs.15\)) and [Cmdlets für Einwahlkonferenzen](https://technet.microsoft.com/de-de/library/gg415630\(v=ocs.15\)).
+<div>
 
-## Configuring Lync Server Call Park Service
+## <a name="configuring-the-call-admission-control-policy"></a>Konfigurieren der Richtlinie für die Anrufsteuerung
 
-Call Park is disabled by default. See the example CallParkConfiguration.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für die Anwendung zum Parken von Anrufen](https://technet.microsoft.com/de-de/library/gg415639\(v=ocs.15\)).
+Weitere Informationen finden Sie im Beispiel BandwidthPolicy. ps1. Ausführliche Informationen finden Sie in der Übersicht zur lync Server 2013-Dokumentation zur [Anrufsteuerung in lync Server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) und in der Hilfe zu Cmdlets für die [Anrufsteuerung in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\)).
 
-## Configuring Emergency Calls
+</div>
 
-Perform the following steps to configure stress and performance testing for emergency calls.
+<div>
 
-1.  Set up a voice route for emergency calls. See the RoutingRules.ps1 script under the comment "Route E911 to PSTN" for an example of setting up this voice route.
+## <a name="configuring-the-voice-routing-rules"></a>Konfigurieren der VoIP-Weiterleitungsregeln
+
+Weitere Informationen finden Sie im Beispiel RoutingRules. ps1. Wenn Sie die Regeln für das VoIP-Routing konfigurieren, notieren Sie sich den Telefonkontext (also/Location-Profil oder/SimpleName) sowie interne/externe Ortsvorwahl, damit Sie diese beim Erstellen von Benutzern und während der LyncPerfTool-Konfiguration angeben können (insbesondere für PSTN – UC und UC – PSTN). Beispielsweise sollte der Parameter SimpleName im Aufruf des Cmdlets **New-CsDialPlan** im RoutingRules. ps1-Beispiel für den LocationProfile-Wert in der folgenden Abbildung von UserProfileGenerator. exe verwendet werden.
+
+![Beispiel für VoIP-Routingregel] (images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Beispiel für VoIP-Routingregel")
+
+Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und der Cmdlet-Hilfe für [Enterprise-VoIP-Cmdlets in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\)).
+
+</div>
+
+<div>
+
+## <a name="configuring-conferencing-attendant-application"></a>Konfigurieren der Konferenz Aufsichts Anwendung
+
+Weitere Informationen finden Sie im Beispiel ConferenceAutoAttendantConfiguration. ps1. Notieren Sie sich die ConferencingAutoAttendant-Telefonnummer (standardmäßig 1121111111), damit Sie Sie in das LyncPerf Tool-Konfigurationstool für die Konfigurations Generierung eingeben können.
+
+![Konfigurieren der Conferencing Attendant-Anwendung] (images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Konfigurieren der Conferencing Attendant-Anwendung")
+
+Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und der Cmdlet-Hilfe für [Webkonferenz-Cmdlets in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) und Cmdlets für Einwahl [Konferenzen in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\)).
+
+</div>
+
+<div>
+
+## <a name="configuring-lync-server-call-park-service"></a>Konfigurieren des lync Server-Anruf Park Diensts
+
+Der Anruf Park ist standardmäßig deaktiviert. Weitere Informationen finden Sie im Beispiel CallParkConfiguration. ps1. Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und in der Hilfe zu Cmdlet-Cmdlets für die [Anruf parken-Anwendung in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\)).
+
+</div>
+
+<div>
+
+## <a name="configuring-emergency-calls"></a>Konfigurieren von Notrufen
+
+Führen Sie die folgenden Schritte aus, um Belastungs-und Leistungstests für Notrufe zu konfigurieren.
+
+1.  Einrichten einer VoIP-Route für Notrufe. Ein Beispiel für das Einrichten dieser VoIP-Route finden Sie im RoutingRules. ps1-Skript unter dem Kommentar "Route E911 to PSTN".
     
-    > [!CAUTION]  
-	> The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911. You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during load testing. This configuration is for simulation purposes only.
-
-
-2.  Configure addresses by filling in the values on the **LIS** tab in the UserProvisioningTool, as shown in the following figure.
+    <div>
     
-    ![Konfigurieren des Standortinformationsdiensts](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Konfigurieren des Standortinformationsdiensts")  
 
-3.  Click **Generate LIS Config Files**.
+    > [!WARNING]  
+    > Der Beispielbefehl in RoutingRules. ps1 weist ein Zahlenmuster auf, das die Zahl 119 anstatt 911 enthält. Vermeiden Sie die Verwendung von 911 (oder ihrer tatsächlichen lokalen Notfallnummer), um versehentliche Anrufe an Ihre lokalen Notfall Operatoren während der Auslastungstests zu verhindern. Diese Konfiguration dient nur zu Simulationszwecken.
 
-4.  CSV files for ports, subnets, switches, and wireless access points (WAPs), and an XML file for the Lync Server 2013 Stress and Performance Tool, are generated. The CSV files are to be used as inputs (in the same folder) when configuring Location Information service (LIS) with the LisConfiguration.ps1 script. Move the generated Locations0.xml file to the same folder as the Lync Server 2013 Stress and Performance Tool executable (LyncPerfTool.exe), which will run location profile (dial plan) scenarios.
+    
+    </div>
 
-## Creating, Enabling, Configuring and Disabling Users
+2.  Konfigurieren Sie Adressen, indem Sie die Werte auf der Registerkarte " **LIS** " im UserProvisioningTool ausfüllen, wie in der folgenden Abbildung dargestellt.
+    
+    ![Konfigurieren des Standort Informationsdiensts] (images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Konfigurieren des Standort Informationsdiensts")  
 
-You should create all your users before running the following scripts. Follow the instructions in [Create Users and Contacts](create-users-and-contacts.md) to create users. For details, see the Lync Server 2013 cmdlet documentation for the [Get-CsUser](https://technet.microsoft.com/de-de/library/gg398125\(v=ocs.15\)), [Set-CsUser](https://technet.microsoft.com/de-de/library/gg398510\(v=ocs.15\)), and [Disable-CsUser](https://technet.microsoft.com/de-de/library/gg398747\(v=ocs.15\)) cmdlets.
+3.  Klicken Sie auf **LIS-Konfigurationsdateien generieren**.
 
-## Configuring Response Group application
+4.  CSV-Dateien für Ports, Subnetze, Switches und drahtlose Zugriffspunkte (WAPs) sowie eine XML-Datei für das Stress-und Leistungs Tool lync Server 2013 werden generiert. Die CSV-Dateien sollen als Eingaben (im gleichen Ordner) verwendet werden, wenn der standortinformationsdienst (LIS) mit dem LisConfiguration. ps1-Skript konfiguriert wird. Verschieben Sie die generierte Locations0. XML-Datei in denselben Ordner wie die ausführbare Datei des lync Server 2013-Stress-und-Leistungstools (LyncPerfTool. exe), in der Standortprofil Szenarien (Wähl Plan) ausgeführt werden.
 
-See the example ResponseGroupConfiguration.ps1. For details, see the Lync Server 2013 documentation and the cmdlet Help for [Cmdlets für die Reaktionsgruppenanwendung](https://technet.microsoft.com/de-de/library/gg415654\(v=ocs.15\)).To review the Response Group application configuration, see `https://<poolfqdn>/RgsConfig/`, as shown in the following figure.
+</div>
 
-![Das Reaktionsgruppen-Konfigurationstool](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Das Reaktionsgruppen-Konfigurationstool")
+<div>
+
+## <a name="creating-enabling-configuring-and-disabling-users"></a>Erstellen, aktivieren, konfigurieren und Deaktivieren von Benutzern
+
+Bevor Sie die folgenden Skripts ausführen, sollten Sie alle Benutzer erstellen. Befolgen Sie die Anweisungen unter [Erstellen von Benutzern und Kontakten](create-users-and-contacts.md) zum Erstellen von Benutzern. Ausführliche Informationen finden Sie in der Dokumentation zum lync Server 2013-Cmdlet für die Cmdlets " [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))", " [CsUser](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\))" und " [Disable-CsUser](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\)) ".
+
+</div>
+
+<div>
+
+## <a name="configuring-response-group-application"></a>Konfigurieren der Antwortgruppen Anwendung
+
+Weitere Informationen finden Sie im Beispiel ResponseGroupConfiguration. ps1. Ausführliche Informationen finden Sie in der lync Server 2013-Dokumentation und in der Hilfe zu Cmdlets für [Antwortgruppen Anwendungen in lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)). Informationen zum Überprüfen der Anwendungskonfiguration der Reaktions `https://<poolfqdn>/RgsConfig/`Gruppe finden Sie unter wie in der folgenden Abbildung dargestellt.
+
+![Das Tool für die Reaktionsgruppen Konfiguration.] (images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Das Tool für die Reaktionsgruppen Konfiguration.")
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

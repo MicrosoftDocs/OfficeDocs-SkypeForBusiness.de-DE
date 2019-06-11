@@ -1,31 +1,51 @@
-﻿---
-title: Erstellen einer neuen Auflistung von Trunkkonfigurationseinstellungen in Lync Server 2013
-TOCTitle: Erstellen einer neuen Auflistung von Trunkkonfigurationseinstellungen in Lync Server 2013
-ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688054(v=OCS.15)
-ms:contentKeyID: 49890744
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a new collection of trunk configuration settings
+ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
+ms:contentKeyID: 49733647
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839139"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erstellen einer neuen Auflistung von Trunkkonfigurationseinstellungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen in lync Server 2013
 
-Die Konfigurationseinstellungen des SIP-Trunks definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Mit diesen Einstellungen wird u. a. Folgendes festgelegt:
+</div>
 
-  - Soll die Medienumgehung auf den Trunks aktiviert werden?
+<div id="mainSection">
 
-  - Unter welchen Bedingungen können RTCP-Pakete (Real-Time Transport Control Protocol) gesendet werden?
+<div id="mainBody">
 
-  - Ist eine sichere SRTP-Verschlüsselung (Secure Real-Time Transport Protocol) auf jedem Trunk erforderlich?
+<span> </span>
 
-Wenn Sie Microsoft Lync Server 2013 installieren, wird eine globale Sammlung von Konfigurationseinstellungen für SIP-Trunks für Sie erstellt. Darüber hinaus können Administratoren eigene Sammlungen mit Einstellungen auf Standort- oder Dienstebene erstellen. (Dies ist jedoch nur für PSTN-Gateway-Dienste möglich.)
+_**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Server-Systemsteuerung stehen Ihnen folgende Optionen zur Verfügung:
+SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Diese Einstellungen geben unter anderem Folgendes an:
+
+  - Ob Medienumgehung für die Trunks aktiviert werden soll.
+
+  - Die Bedingungen, unter denen RTCP-Pakete (Real-Time Transport Control Protocol) gesendet werden.
+
+  - Ob die SRTP-Verschlüsselung (Secure Real-Time Protocol) für jeden trunk erforderlich ist.
+
+Wenn Sie Microsoft lync Server 2013 installieren, wird eine globale Sammlung von SIP-Trunk-Konfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Auflistungen mit Einstellungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
+
+Beim Erstellen von SIP-Trunk-Konfigurationseinstellungen mithilfe der lync Server-Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung:
 
 
 <table>
@@ -45,12 +65,12 @@ Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Ser
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Identität</p></td>
-<td><p>Eindeutiger Bezeichner für die Sammlung. Diese Eigenschaft ist schreibgeschützt. Die Identität einer Sammlung von Konfigurationseinstellungen für Trunks kann nicht geändert werden.</p></td>
+<td><p>Eindeutige ID für die Sammlung. Diese Eigenschaft ist schreibgeschützt. Sie können die Identität einer Sammlung von Trunkkonfigurationseinstellungen nicht ändern.</p></td>
 </tr>
 <tr class="even">
 <td><p>Beschreibung</p></td>
 <td><p>Beschreibung</p></td>
-<td><p>Ermöglicht Administratoren, zusätzliche Informationen über die Einstellungen (beispielsweise über den Zweck der Trunkkonfiguration) zu speichern.</p></td>
+<td><p>Bietet Administratoren eine Möglichkeit, zusätzliche Informationen zu den Einstellungen zu speichern (z. B. Zweck der Trunkkonfiguration).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Maximal unterstützte frühe Dialoge</p></td>
@@ -60,110 +80,128 @@ Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Ser
 <tr class="even">
 <td><p>Unterstützte Verschlüsselungsstufe</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Gibt den Umfang der Unterstützung für den Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC beim Dienstanbieter an. Bei Medienumgehungen muss dieser Wert mit der EncryptionLevel-Einstellung in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration erfolgt mithilfe des Cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> und des Cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
-<p>Zulässige Werte sind folgende:</p>
+<td><p>Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung „EncryptionLevel“ in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mithilfe der Cmdlets <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> und <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a> gesetzt.</p>
+<p>Zulässige Werte:</p>
 <ul>
-<li><p>Required: Die SRTP-Verschlüsselung muss verwendet werden.</p></li>
+<li><p>Erforderlich: Die SRTP-Verschlüsselung muss verwendet werden.</p></li>
 <li><p>Optional: SRTP wird verwendet, wenn es vom Gateway unterstützt wird.</p></li>
-<li><p>Not Supported: Die SRTP-Verschlüsselung wird nicht unterstützt und daher nicht verwendet.</p></li>
+<li><p>Nicht unterstützt: Die SRTP-Verschlüsselung wird nicht unterstützt und daher auch nicht verwendet.</p></li>
 </ul>
-<p>&quot;SRTPMode&quot; wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird &quot;SRTPMode&quot; intern auf &quot;NotSupported&quot; festgelegt.</p></td>
+<p>„SRTPMode“ wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird „SRTPMode“ intern auf „Nicht unterstützt“ festgelegt.</p></td>
 </tr>
 <tr class="odd">
-<td><p>REFER-Unterstützung</p></td>
+<td><p>Support melden</p></td>
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
-<td><p>Wenn diese Einstellung auf <strong>REFER-Weiterleitung an das Gateway ermöglichen</strong> festgelegt ist, unterstützt der Trunk das Empfangen von Übergabeanforderungen vom Vermittlungsserver.</p>
-<p>Wenn diese Einstellung auf <strong>REFER mit Drittanbieter-Anrufsteuerung ermöglichen</strong> festgelegt ist, kann das 3pcc-Protokoll verwendet werden, um übertragenen Anrufen das Umgehen des gehosteten Standorts zu ermöglichen. 3pcc wird auch als &quot;Drittanbietersteuerung&quot; bezeichnet. Sie kommt zum Einsatz, wenn die Verbindung zu einem Anruferpaar (z. B. ein Agent, der einen Anruf von Person A an Person B tätigt) hergestellt wird.</p></td>
+<td><p>Mit der Einstellung <strong>Senden der Weiterleitung an Gateway aktivieren</strong> unterstützt der Trunk den Empfang von Weiterleitungsanforderungen vom Vermittlungsserver.</p>
+<p>Mit der Einstellung <strong>Weiterleitung mithilfe von Drittanbieteranrufsteuerung aktivieren</strong> kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3PCC wird auch als &quot;Steuerung von Drittanbietern bezeichnet&quot; und tritt auf, wenn eine Drittpartei verwendet wird, um ein paar von Anrufern zu verbinden (beispielsweise einen Operator, der einen Anruf von Person a an Person B anlegt).</p></td>
 </tr>
 <tr class="even">
 <td><p>Medienumgehung aktivieren</p></td>
 <td><p>EnableBypass</p></td>
-<td><p>Gibt an, ob die Medienumgehung für diesen Trunk aktiviert ist. Die Medienumgehung kann nur aktiviert werden, wenn <strong>Zentralisierte Medienverarbeitung</strong> ebenfalls aktiviert wurde.</p></td>
+<td><p>Gibt an, ob die Medienumgehung für diesen Trunk aktiviert ist. Die Medienumgehung kann nur aktiviert werden, wenn auch <strong>Zentralisierte Medienverarbeitung</strong> aktiviert ist.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Zentralisierte Medienverarbeitung</p></td>
 <td><p>ConcentratedTopology</p></td>
-<td><p>Gibt an, ob ein bekannter Medienendpunkt vorhanden ist. (Ein Beispiel für einen bekannten Medienendpunkt ist ein PSTN-Gateway, bei dem der Medienendpunkt die gleiche IP-Adresse hat wie der Signaldatenverkehr-Endpunkt.)</p></td>
+<td><p>Gibt an, ob ein bekannter Medienendpunkt vorhanden ist. (Ein Beispiel für einen bekannten Medienendpunkt ist ein PSTN-Gateway, bei dem der Medienendpunkt dieselbe IP-Adresse hat wie der Signaldatenverkehrendpunkt.)</p></td>
 </tr>
 <tr class="even">
-<td><p>RTP-Verbindungen aktivieren</p></td>
+<td><p>RTP-Verriegelung aktivieren</p></td>
 <td><p>EnableRTPLatching</p></td>
-<td><p>Gibt an, ob RTP-Verbindungen von SIP-Trunks unterstützt wird. Bei RTP-Verbindungen wird die RTP-/RTCP-Konnektivität über ein NAT-Gerät (Network Address Translation, Netzwerkadressenübersetzung) oder eine Firewall sichergestellt.</p></td>
+<td><p>Gibt an, ob SIP-Trunks die RTP-Verriegelung unterstützen oder nicht. Die RTP-Verriegelung ist eine Technologie, die RTP-/RTCP-Verbindungen über NAT (Network Address Translator, Netzwerkadressenübersetzung) oder eine Firewall ermöglicht.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Weiterleitung des Anrufverlaufs aktivieren</p></td>
+<td><p>Weiterleitung der Anrufliste aktivieren</p></td>
 <td><p>ForwardCallHistory</p></td>
-<td><p>Gibt an, ob Informationen über den Anrufverlauf über den Trunk weitergeleitet werden.</p></td>
+<td><p>Gibt an, ob Informationen zum Anrufverlauf durch den Trunk weitergeleitet werden.</p></td>
 </tr>
 <tr class="even">
-<td><p>Weiterleitung von P-Asserted-Identity (PAI)-Daten aktivieren</p></td>
+<td><p>Weiterleitung von P-Asserted-Identity-Daten aktivieren</p></td>
 <td><p>ForwardPAI</p></td>
-<td><p>Gibt an, ob der PAI-Header zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header ermöglicht eine Überprüfung der Identität des Anrufers.</p></td>
+<td><p>Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Failover-Timer für Ausgangsrouting aktivieren</p></td>
+<td><p>Failovertimer für Ausgangsrouting aktivieren</p></td>
 <td><p>EnableFastFailoverTimer</p></td>
-<td><p>Gibt an, ob ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden, an den nächsten verfügbaren Trunk weitergeleitet werden sollen. Wenn keine weiteren Trunks vorhanden sind, wird der Anruf automatisch gelöscht. In einer Organisation mit langsamen Netzwerken und Gatewayantworten kann dies dazu führen, dass Anrufe u. U. gelöscht werden, obwohl dies nicht erwünscht bzw. nicht erforderlich ist.</p></td>
+<td><p>Gibt an, ob ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden, an den nächsten verfügbaren Trunk weitergeleitet werden. Wenn keine weiteren Trunks verfügbar sind, wird der Anruf automatisch beendet. In einer Organisation mit langsamen Netzwerk- und Gatewayreaktionen könnte dies dazu führen, dass Anrufe unnötigerweise beendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p>Zugeordnete PSTN-Verwendungen</p></td>
 <td><p>PSTNUsages</p></td>
-<td><p>Sammlung weiterer PSTN-Nutzungsmöglichkeiten, die mit dem Trunk verbunden sind.</p></td>
+<td><p>Dem Trunk zugewiesene Auflistung von PSTN-Verwendungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Übersetzte Nummer zum Testen</p></td>
-<td><p>N/V</p></td>
-<td><p>Telefonnummer, die für einen Ad-hoc-Test der Konfigurationseinstellungen des Trunks verwendet werden kann.</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.</p></td>
 </tr>
 <tr class="even">
 <td><p>Zugehörige Übersetzungsregeln</p></td>
 <td><p>OutboundTranslationRulesList</p></td>
-<td><p>Auflistung von Regeln für die Übersetzung von Telefonnummern von Anrufen, die per Ausgangsrouting verarbeitet werden (d. h., sie werden an Nebenstellenanlagen oder PSTN-Ziele geleitet).</p></td>
+<td><p>Sammlung an Regeln für die Telefonnummernübersetzung für Anrufe, die per Ausgangsrouting verarbeitet werden (Anrufe, die an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weitergeleitet werden).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Übersetzungsregeln für angerufene Nummer</p></td>
+<td><p>Übersetzungsregeln für die gewählte Nummer</p></td>
 <td><p>OutboundCallingNumberTranslationRulesList</p></td>
-<td><p>Sammlung von Übersetzungsregeln für Nummern ausgehender Anrufe, die dem Trunk zugewiesen wurden.</p></td>
+<td><p>Dem Trunk zugewiesene Auflistung von ausgehenden Übersetzungsregeln für Telefonnummern.</p></td>
 </tr>
 <tr class="even">
-<td><p>Telefonnummer zum Testen</p></td>
-<td><p>N/V</p></td>
-<td><p>Telefonnummer, die für einen Ad-hoc-Test der Übersetzungsregeln des Trunks verwendet werden kann.</p></td>
+<td><p>Testtelefonnummer</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anrufende Nummer</p></td>
-<td><p>N/V</p></td>
-<td><p>Gibt an, dass die zum Testen verwendete Telefonnummer die Telefonnummer des Anrufers ist.</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.</p></td>
 </tr>
 <tr class="even">
 <td><p>Angerufene Nummer</p></td>
-<td><p>N/V</p></td>
-<td><p>Gibt an, dass die zum Testen verwendete Telefonnummer die Telefonnummer des Angerufenen ist.</p></td>
+<td><p>-</p></td>
+<td><p>Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!NOTE]
-> Die Lync Server CsTrunkConfiguration-Cmdlets unterstützen weitere Eigenschaften, die nicht in Lync Server-Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema für das <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A>-Cmdlet.
+<div>
 
 
+> [!NOTE]  
+> Die lync Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die in der lync Server-Systemsteuerung nicht angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum Cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A> .
 
-## Erstellen neuer Trunkkonfigurationseinstellungen mit Lync Server-Systemsteuerung
 
-1.  Klicken Sie in Lync Server-Systemsteuerung auf **VoIP-Routing** und dann auf **VoIP-Routing testen**.
 
-2.  Klicken Sie auf der Registerkarte **Trunkkonfiguration** auf **Neu** und dann auf **Standorttrunk**, um die neuen Einstellungen auf Standortebene zu erstellen, oder klicken Sie auf **Pooltrunk**, um die neuen Einstellungen auf Dienstebene zu erstellen.
+</div>
 
-3.  Wählen Sie im Dialogfeld **Standort auswählen** oder im Dialogfeld **Dienst auswählen** (das angezeigte Dialogfeld ist abhängig davon, ob Sie Einstellungen auf Standort- oder auf Dienstebene vornehmen) den Standort für die neuen Konfigurationseinstellungen aus, und klicken Sie auf **OK**. Wenn das Dialogfeld leer ist, können Sie keine neuen Einstellungen erstellen. Wenn beispielsweise das Dialogfeld **Standort auswählen** leer ist, bedeutet dies, dass allen Standorten bereits eine Sammlung von Trunkkonfigurationsstandorten zugewiesen wurde. An jedem Standort (und in jedem Dienst) kann jedoch nur eine solche Sammlung gehostet werden. In diesem Fall können Sie die bestehende Sammlung löschen und eine neue erstellen, oder Sie können die bestehende Sammlung bearbeiten.
+<div>
 
-4.  Nehmen Sie im Dialogfeld **Neue Trunkkonfiguration** die gewünschten Einstellungen vor, und klicken Sie auf **OK**.
+## <a name="to-create-new-trunk-configuration-settings-by-using-lync-server-control-panel"></a>So erstellen Sie neue trunk-Konfigurationseinstellungen mithilfe der lync Server-Systemsteuerung
 
-5.  Die Eigenschaft **Zustand** für die Sammlung wird aktualisiert und lautet jetzt **Ohne Commit**. Um die Änderungen zu übernehmen und die Sammlung zu löschen, klicken Sie auf **Commit** und dann auf **Commit für alle**.
+1.  Klicken Sie in der lync Server-Systemsteuerung auf **VoIP-Routing**, und klicken Sie dann auf **trunk-Konfiguration**.
 
-6.  Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen ohne Commit** auf **OK**.
+2.  Klicken Sie auf der Registerkarte **Trunkkonfiguration** auf **Neu** und dann auf **Standorttrunk**, um die neuen Einstellungen für den Standortbereich zu erstellen, oder klicken Sie auf **Pooltrunk**, um die neuen Einstellungen für den Dienstbereich zu erstellen.
 
-7.  Klicken Sie im Dialogfeld **Microsoft Lync Server 2013-Systemsteuerung** auf **OK**.
+3.  Wählen Sie im Dialogfeld **Standort auswählen** oder im Dialogfeld **Dienst auswählen** (das angezeigte Dialogfeld ist abhängig davon, ob Sie Einstellungen für den Standort- oder den Dienstbereich vornehmen) den Standort für die neuen Konfigurationseinstellungen aus und klicken Sie auf **OK**. Wenn das Dialogfeld leer ist, können Sie keine neuen Einstellungen erstellen. Wenn beispielsweise das Dialogfeld **Standort auswählen** leer ist, bedeutet dies, dass allen Standorten bereits eine Sammlung von Trunkkonfigurationsstandorten zugewiesen wurde. An jedem Standort (und in jedem Dienst) kann jedoch nur eine solche Sammlung gehostet werden. In diesem Fall können Sie die bestehende Sammlung löschen und eine neue erstellen oder Sie können die bestehende Sammlung bearbeiten.
+
+4.  Nehmen Sie im Dialogfeld **Neue Trunkkonfiguration** die gewünschten Einstellungen vor und klicken Sie auf **OK**.
+
+5.  Die Eigenschaft **State** für die Sammlung wird als **Commit nicht ausgeführt** angezeigt. Um die Änderungen zu übernehmen und die Sammlung zu löschen, klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
+
+6.  Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** auf **OK**.
+
+7.  Klicken Sie im Dialogfeld **Microsoft lync Server 2013-System** Steuerung auf **OK**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

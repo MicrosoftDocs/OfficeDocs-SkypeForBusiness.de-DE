@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Zertifikatzusammenfassung für Reverseproxy'
-TOCTitle: Zertifikatzusammenfassung für Reverseproxy
-ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205381(v=OCS.15)
-ms:contentKeyID: 49295877
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zertifikatzusammenfassung für Reverseproxy'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Reverse proxy
+ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
+ms:contentKeyID: 48185820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839642"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zertifikatzusammenfassung für Reverseproxy in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Zertifikatzusammenfassung für Reverseproxy in Lync Server 2013
 
-Die Zertifikatanforderungen für den Reverseproxy sind wesentlich einfacher als die für die Edgeserver. Das Flussdiagramm enthält die geltenden Anforderungen. Die zugehörige Tabelle zeigt typische Antragstellernamen und alternative Antragstellernamen in Bezug zu den Szenarios, die wir in den Abschnitten über Edgeserver behandelt haben. Ausführliche Informationen zu den Edgeserver-Szenarios finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+</div>
 
-**Flussdiagramm für Zertifikate für den Reverseproxy**
+<div id="mainSection">
 
-![Zertifikatflussdiagramm für Edgeserver](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Zertifikatflussdiagramm für Edgeserver")
+<div id="mainBody">
 
-### Reverseproxy: Externe Schnittstelle
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-11-14_
+
+Die Zertifikatanforderungen für den Reverse-Proxy sind viel einfacher als die für die Edgeserver. Das bereitgestellte Flussdiagramm stellt die erforderlichen Anforderungen dar. In der zugehörigen Tabelle werden typische Namen für Zertifikats Subjekte und andere Alternative Namen in Bezug auf die Szenarien vorgestellt, die in den Edge-Server-Diskussionen besprochen wurden. Weitere Informationen zu den Edge-Server-Szenarien finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+**Flussdiagramm für Zertifikate für den Reverse-Proxy**
+
+![Flussdiagramm für Zertifikate für Edgeserver] (images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Flussdiagramm für Zertifikate für Edgeserver")
+
+### <a name="reverse-proxy-external-interface"></a>Reverse Proxy: externe Schnittstelle
 
 <table>
 <colgroup>
@@ -33,33 +53,44 @@ Die Zertifikatanforderungen für den Reverseproxy sind wesentlich einfacher als 
 <thead>
 <tr class="header">
 <th>Komponente</th>
-<th>Antragstellername</th>
-<th>Alternativer Antragstellername/Reihenfolge</th>
+<th>Name des Antragstellers</th>
+<th>Subject Alternative Name (San)/Order</th>
 <th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Reverseproxy</p></td>
-<td><p>webext.contoso.com</p></td>
-<td><p>webext.contoso.com</p>
+<td><p>Webext.contoso.com</p></td>
+<td><p>Webext.contoso.com</p>
 <p>webdirext.contoso.com</p>
 <p>dialin.contoso.com</p>
-<p>meet.contoso.com</p>
+<p>Meet.contoso.com</p>
 <p>officewebapps01.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Optional): *.contoso.com</p></td>
-<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle und mit Server-EKU (Enhanced Key Usage, erweiterte Schlüsselverwendung) ausgestellt werden. Zu den Diensten gehören folgende: Adressbuchdienst, Verteilergruppenerweiterung, Office Web Apps für Konferenzen und Lync-IP-Geräteveröffentlichungsregeln. Zu den alternativen Antragstellernamen gehören:</p>
+<p>(Optional):*. contoso.com</p></td>
+<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle und mit der Server-EKU ausgestellt werden. Zu den Diensten gehören der Adressbuchdienst, die Expansion der Verteilergruppe in Office Web Apps für Konferenzen und die Veröffentlichungsregeln für lync-IP-Geräte. Der Alternative Antragstellername umfasst:</p>
 <ul>
-<li><p>Externer FQDN für Webdienste für den Front-End-Server oder den Front-End-Pool</p></li>
-<li><p>Externer FQDN für Webdienste für den Director oder den Directorpool</p></li>
+<li><p>FQDN für externe Webdienste für Front-End-Server oder Front-End-Pool</p></li>
+<li><p>FQDN des externen Webdiensts für Director oder Director-Pool</p></li>
 <li><p>Einwahlkonferenzen</p></li>
-<li><p>Veröffentlichungsregel für Onlinebesprechungen</p></li>
+<li><p>Veröffentlichungsregel für Online Besprechungen</p></li>
 <li><p>Office Web Apps für Konferenzen</p></li>
-<li><p>&quot;lyncdiscover&quot; (AutoErmittlung)</p></li>
+<li><p>Lyncdiscover (AutoErmittlung)</p></li>
 </ul>
-<p>Der optionale Platzhalter steht für einen &quot;Meet&quot;- und einen &quot;Dialin&quot;-SAN.</p></td>
+<p>Der optionale Platzhalter ersetzt sowohl Meet als auch Dialin San</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

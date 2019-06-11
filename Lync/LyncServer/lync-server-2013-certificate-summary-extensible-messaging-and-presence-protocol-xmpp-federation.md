@@ -1,23 +1,45 @@
-﻿---
-title: Zertifikatzusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)
-TOCTitle: Zertifikatzusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)
-ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ618374(v=OCS.15)
-ms:contentKeyID: 49295104
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zertifikats Zusammenfassung – Extensible Messaging and Presence Protocol (XMPP) Federation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Extensible messaging and presence protocol (XMPP) federation
+ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618374(v=OCS.15)
+ms:contentKeyID: 49105661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 01b21c8b09d93f8d2788424f2c8f440e1dec66b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839641"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zertifikatzusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Zertifikatzusammenfassung – Extensible Messaging and Presence Protocol (XMPP) Federation in lync Server 2013
 
-Zertifikatsanforderungen für das Aktivieren und Einrichten von Kommunikationen mit XMPP-Partnern (Extensible Messaging and Presence Protocol) erfordern den zusätzlichen Eintrag in Ihren XMPP-Domänen. Der Eintrag, der auf dem Zertifikat als alternativer Antragstellername (SAN) enthalten ist, ist die Domäne, die an XMPP-Kommunikationen teilnehmen kann. Die Domäne kann die Domäne auf Stammebene sein (beispielsweise contoso.com), wenn Sie XMPP für die gesamte Domäne aktivieren möchten, oder sie kann als untergeordnete Domäne (beispielsweise corp.contoso.com, finance.contoso.com) verwendet werden, wenn Sie XMPP für eine Teilmenge an Benutzern aktivieren.
+</div>
 
-## Zertifikatzusammenfassung für XMPP
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-12-23_
+
+Für die Zertifikatanforderungen für die Aktivierung und Einrichtung der Kommunikation mit dem Extensible Messaging and Presence Protocol (XMPP)-Partner ist die zusätzliche Aufzeichnung ihrer XMPP-Domänen erforderlich. Der Datensatz, der im Zertifikat als alternativer Betreff (Subject Alternative Name, San) enthalten ist, ist die Domäne, die an der XMPP-Kommunikation teilnehmen kann. Bei der Domäne kann es sich um die Domäne auf Stammebene (beispielsweise contoso.com) handeln, wenn Sie XMPP für Ihre gesamte Domäne aktivieren möchten oder untergeordnete Domänen (beispielsweise Corp.contoso.com, Finance.contoso.com) ausgewählt werden können, wenn Sie XMPP für eine Teilmenge der Benutzer aktivieren.
+
+<div>
+
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>Zertifikatzusammenfassung für erweiterbares Messaging und Anwesenheits Protokoll
 
 
 <table>
@@ -30,38 +52,52 @@ Zertifikatsanforderungen für das Aktivieren und Einrichten von Kommunikationen 
 <thead>
 <tr class="header">
 <th>Komponente</th>
-<th>Antragstellername</th>
-<th>Alternativer Antragstellername (Subject Alternative Name, SAN)/Reihenfolge</th>
+<th>Name des Antragstellers</th>
+<th>Subject Alternative Names (San)/Order</th>
 <th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Zuweisen zum Zugriffs-Edgedienst des Edgeservers oder des Edgepools</p></td>
+<td><p>Zuweisen des Zugriffs-Edgedienst des Edge-Servers oder Edge-Pools</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p>
 <p>contoso.com</p></td>
-<td><p>Die ersten drei SAN-Einträge sind die regulären SAN-Einträge für einen vollständigen Edgeserver. &quot;contoso.com&quot; ist der für den Partnerverbund mit dem XMPP-Partner auf der Stammdomänenebene erforderliche Eintrag. Dieser Eintrag ermöglicht XMPP für alle Domänen mit dem Suffix &quot;contoso.com&quot;.</p></td>
+<td><p>Die ersten drei San-Einträge sind die normalen San-Einträge für einen Full Edge-Server. Der contoso.com ist der Eintrag, der für den Verbund mit dem XMPP-Partner auf der Stammdomänen Ebene erforderlich ist. Dieser Eintrag ermöglicht XMPP für alle Domänen mit dem Suffix contoso.com.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Beispiel für eine XMPP-Konfiguration in Lync Server 2013 – XMPP-Partnerverbund mit Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### Konzepte
 
 [Planen von Edgeserver-Zertifikaten in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
 
-#### Weitere Ressourcen
 
 [Einrichten von Edgezertifikaten für Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
-[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
+[Request-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

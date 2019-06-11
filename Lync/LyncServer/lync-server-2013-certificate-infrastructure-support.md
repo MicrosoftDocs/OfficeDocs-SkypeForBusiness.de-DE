@@ -1,41 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung der Zertifikatinfrastruktur'
-TOCTitle: Unterstützung der Zertifikatinfrastruktur
-ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425950(v=OCS.15)
-ms:contentKeyID: 49293880
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützung der Zertifikatinfrastruktur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate infrastructure support
+ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425950(v=OCS.15)
+ms:contentKeyID: 48184047
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 13e04e2e6746dac9c40eaa6df0c3b33d52c6a547
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839659"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung der Zertifikatinfrastruktur in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="certificate-infrastructure-support-in-lync-server-2013"></a>Unterstützung der Zertifikatinfrastruktur in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-11-07_
 
-Lync Server 2013 erfordert eine Public Key-Infrastruktur (PKI) zur Unterstützung von TLS- (Transport Layer Security) und MTLS-Verbindungen (Mutual TLS). Standardmäßig ist Lync Server 2013 für die Verwendung von TLS für Verbindungen zwischen Clients und Servern konfiguriert. MTLS wird für Verbindungen zwischen Servern verwendet.
+Lync Server 2013 erfordert eine Public Key-Infrastruktur (PKI) zur Unterstützung von Transport Layer Security (TLS)-und MTLS-Verbindungen (Mutual TLS). Standardmäßig ist lync Server 2013 für die Verwendung von TLS für Client-zu-Server-Verbindungen konfiguriert. MTLS wird für Verbindungen zwischen Servern verwendet.
 
-MTLS-Zertifikate müssen von vertrauenswürdigen Zertifizierungsstellen für Lync Server 2013 ausgestellt werden. Lync Server unterstützt Zertifikate von folgenden Zertifizierungsstellen:
+MTLS-Zertifikate müssen von vertrauenswürdigen Zertifizierungsstellen (CAS) für lync Server 2013 ausgestellt werden. Lync Server unterstützt Zertifikate, die von den folgenden CAS ausgestellt werden:
 
   - Zertifikate, die von einer internen Zertifizierungsstelle ausgestellt wurden:
     
-      - Die Windows Server 2003-Betriebssystem-Zertifizierungsstelle
+      - Die Windows Server 2003-Betriebssystem Zertifizierungsstelle
     
-      - Die Windows Server 2008-Betriebssystem-Zertifizierungsstelle
+      - Die Windows Server 2008-Betriebssystem Zertifizierungsstelle
     
-      - Die Windows Server 2008 R2-Betriebssystem-Zertifizierungsstelle
+      - Die Windows Server 2008 R2-Betriebssystem Zertifizierungsstelle
     
-      - Die Zertifizierungsstelle des Betriebssystems Windows Server 2012
+      - Die Windows Server 2012-Betriebssystem Zertifizierungsstelle
     
-      - Die Zertifizierungsstelle des Betriebssystems Windows Server 2012 R2
+      - Die Windows Server 2012 R2-Betriebssystem Zertifizierungsstelle
 
   - Zertifikate, die von einer öffentlichen Zertifizierungsstelle ausgestellt wurden
 
-Für die Kommunikation mit anderen Anwendungen und Servern, z. B. Exchange 2013, ist ein Zertifikat erforderlich, das von anderen Anwendungen und Produkten unterstützt wird. Für Version 2013 unterstützen Lync Server 2013 und andere Microsoft-Serverprodukte, darunter Exchange 2013 und SharePoint Server, das Open Authorization (OAuth)-Protokoll für die Authentifizierung und Autorisierung von Server zu Server. Ausführliche Informationen finden Sie unter [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungs- oder Betriebsdokumentation.
+Die Kommunikation mit anderen Anwendungen und Servern, wie etwa Exchange 2013, erfordert ein Zertifikat, das von den anderen Anwendungen und Produkten unterstützt wird. Für die 2013-Version unterstützen lync Server 2013 und andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und SharePoint Server, das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Ausführliche Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
-Für Verbindungen von Clients, auf denen Windows 7-Betriebssystem, Windows Server 2008 R2-Betriebssystem und Microsoft Office Communicator 2007 Phone Edition ausgeführt wird, umfasst Lync Server 2013 Unterstützung für Zertifikate (ohne diese zu erfordern), die mithilfe der kryptografischen Hashfunktion SHA-256 signiert wurden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
+Für Verbindungen von Clients unter dem BetriebssystemWindows 7, Windows Server 2008 R2 und Microsoft Office Communicator 2007 Phone Edition umfasst lync Server 2013 Unterstützung für (aber nicht erforderliche) Zertifikate, die mit dem SHA-256 signiert wurden. kryptografische Hashfunktion. Um den externen Zugriff mithilfe von SHA-256 zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mithilfe von SHA-256 ausgestellt.
 
-Nähere Informationen zu den Zertifikatanforderungen finden Sie in der Planungsdokumentation unter [Anforderungen in Bezug auf die Zertifikatinfrastruktur für Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md). Nähere Informationen über die Verwendung von Platzhaltern in Zertifikaten finden Sie in der Unterstützungsdokumentation unter [Unterstützung von Platzhalterzertifikaten in Lync Server 2013](lync-server-2013-wildcard-certificate-support.md).
+Details zu den Zertifikatanforderungen finden Sie unter [Zertifikatsinfrastruktur Anforderungen für lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Platzhaltern mit Zertifikaten finden Sie unter Unterstützung für [Platzhalterzertifikate in lync Server 2013](lync-server-2013-wildcard-certificate-support.md) in der Dokumentation zur Unterstützung.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

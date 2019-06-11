@@ -1,43 +1,80 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren der Benutzerkontoeinstellungen '
-TOCTitle: 'Konfigurieren der Benutzerkontoeinstellungen '
-ms:assetid: b7c74ecc-b924-4efc-8a56-3a5f94a9ef13
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412896(v=OCS.15)
-ms:contentKeyID: 49295184
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Benutzerkontoeinstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure user account settings
+ms:assetid: b7c74ecc-b924-4efc-8a56-3a5f94a9ef13
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412896(v=OCS.15)
+ms:contentKeyID: 48185200
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b4d06405d2f80aef5decb69d564ae399401d4328
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839303"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Benutzerkontoeinstellungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Konfigurieren der Benutzerkontoeinstellungen  in Lync Server 2013
 
-Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Der für Lync Server-Benutzerkonten angegebenen **Anschluss-URI** ist für die Authentifizierung erforderlich.
+</div>
 
-In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie einen **Anschluss-URI** für mehrere Benutzerkonten zuweisen müssen, können Sie ein Skript erstellen, das auf das **Set-CsUser**-Cmdlet zugreift. Genauere Informationen zur Verwendung eines Beispielskripts für die Zuweisung eines **Anschluss-URIs** zu mehreren Benutzerkonten finden Sie unter "Assign Line URIs to Multiple Users" unter [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945).
+<div id="mainSection">
 
-## So konfigurieren Sie die Benutzerkontoeinstellungen
+<div id="mainBody">
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-UserAdministrator** oder **CsAdministrator** an.
+<span> </span>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer** .
+Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Für die Authentifizierung ist der in lync Server-Benutzerkonten angegebene Telefon Leitungs- **URI** erforderlich.
 
-4.  Geben Sie in das Suchfeld den Namen des Benutzers ein, den Sie für Einwahlkonferenzen konfigurieren möchten, oder klicken Sie auf **Filter hinzufügen** , um Suchfelder anzugeben, und klicken Sie dann auf **Suchen** .
+In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Details zur Verwendung eines Beispielskripts zum Zuweisen von **Leitungs-URI** zu mehreren Benutzerkonten finden Sie unter "Zuweisen von [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)Leitungs-URIs zu mehreren Benutzern" unter.
 
-5.  Doppelklicken Sie auf den Benutzernamen, um das Dialogfeld **Lync Server-Benutzer bearbeiten** zu öffnen.
+<div>
 
-6.  Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnumer ein (beispielsweise tel:+14255550200).
+## <a name="to-configure-user-account-settings"></a>So konfigurieren Sie die Benutzerkontoeinstellungen
+
+1.  Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle **Cs-UserAdministrator** oder **CsAdministrator** an.
+
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
+
+4.  Geben Sie in das Suchfeld den Namen des Benutzers ein, den Sie für Einwahlkonferenzen konfigurieren möchten, oder klicken Sie auf **Filter hinzufügen**, um Suchfelder anzugeben und klicken Sie dann auf **Suchen**.
+
+5.  Doppelklicken Sie auf den Benutzernamen, um das Dialogfeld **lync Server-Benutzer bearbeiten** zu öffnen.
+
+6.  Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnummer ein (beispielsweise tel:+14255550200).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können <STRONG>Anschluss-URI</STRONG> nur angeben, wenn <STRONG>Telefonie</STRONG> auf <STRONG>Nur von PC zu PC</STRONG> , <STRONG>Enterprise-VoIP</STRONG> , <STRONG>Remoteanrufsteuerung</STRONG> oder <STRONG>Nur Remoteanrufsteuerung</STRONG> festgelegt ist.
+    > [!NOTE]  
+    > Sie können <STRONG>Anschluss-URI</STRONG> nur angeben, wenn <STRONG>Telefonie</STRONG> auf <STRONG>Nur von PC zu PC</STRONG>, <STRONG>Enterprise-VoIP</STRONG>, <STRONG>Remoteanrufsteuerung</STRONG> oder <STRONG>Nur Remoteanrufsteuerung</STRONG> festgelegt ist.
 
+    
+    </div>
 
+7.  Klicken Sie auf **Commit ausführen**.
 
-7.  Klicken Sie auf **Commit** .
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

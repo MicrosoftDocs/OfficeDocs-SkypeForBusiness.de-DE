@@ -1,17 +1,37 @@
-﻿---
-title: 'Lync Server 2013: Bewährte Methoden für die Anrufsteuerung'
-TOCTitle: Bewährte Methoden für die Anrufsteuerung
-ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398770(v=OCS.15)
-ms:contentKeyID: 49294820
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bewährte Methoden für die Anrufsteuerung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for call admission control
+ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)
+ms:contentKeyID: 48184913
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b89be654a01615c750ce4f49f866e9339bc7e261
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839724"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bewährte Methoden für die Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Bewährte Methoden für die Anrufsteuerung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-22_
 
@@ -19,20 +39,37 @@ Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewä
 
   - Stellen Sie sicher, dass WANs für den aktuellen und den erwarteten Mediendatenverkehr angemessen ausgelegt sind.
     
+    <div>
+    
 
-    > [!NOTE]
-    > Es empfiehlt sich, bei der Bandbreiteneinschränkungen einen Puffer einzurechnen. Manche Szenarien, zum Beispiel Racebedingungen, wirken sich auf die verwendete Gesamtbandbreite aus und können zu Situationen führen, in denen die Bandbreiteneinschränkung überschritten wird. Wenn beispielsweise zwei Anrufe gestartet werden, während der Mediendatenverkehr sich einer Bandbreiteneinschränkung nähert, wird möglicherweise einer der beiden Anrufe abgewiesen, weil der andere zuerst gestartet wurde.
+    > [!NOTE]  
+    > Es empfiehlt sich, bei der Bandbreiteneinschränkungen einen Puffer einzurechnen. Manche Szenarien, z. B. Racebedingungen, wirken sich auf die verwendete Gesamtbandbreite aus und können zu Situationen führen, in denen die Bandbreitengrenze überschritten wird. Wenn beispielsweise zwei Anrufe gestartet werden, während der Mediendatenverkehr sich einer Bandbreitengrenze nähert, wird möglicherweise einer der beiden Anrufe abgewiesen, weil der andere zuerst gestartet wurde.
 
-
+    
+    </div>
 
   - Überwachen Sie die Netzwerkbelegung und die Kommunikationsdatensätze, damit Sie die optimalen Einstellungen für die Anrufsteuerung wählen und diese bei Änderungen in der Netzwerkbelegung aktualisieren können.
 
   - Verwenden Sie Richtlinien für die Anrufsteuerung zur Ergänzung der QoS-Einstellungen.
 
-  - Wenn Sie blockierte Anrufe zum PSTN umleiten möchten, überprüfen Sie die Funktionalität und die Kapazität des PSTN. Weitere Informationen hierzu finden Sie unter [Planen des VoIP-Routings für ausgehende Anrufe in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+  - Wenn Sie blockierte Anrufe zum PSTN umleiten möchten, überprüfen Sie die Funktionalität und die Kapazität des PSTN. Ausführliche Informationen finden Sie unter [Planen des ausgehenden VoIP-Routings in lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Kapazität bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.
+    > [!NOTE]  
+    > „Kapazität“ bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.
 
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

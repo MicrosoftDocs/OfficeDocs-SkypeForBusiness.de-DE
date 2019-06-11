@@ -1,107 +1,145 @@
-﻿---
-title: Arbeiten mit dem Rechner zur Kapazitätsplanung für Lync Server 2013
-TOCTitle: Arbeiten mit dem Rechner zur Kapazitätsplanung für Lync Server 2013
-ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn362852(v=OCS.15)
-ms:contentKeyID: 56269349
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013-Kapazitäts planungsrechner
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Lync Server 2013 capacity planning calculator
+ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362852(v=OCS.15)
+ms:contentKeyID: 56280894
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 385127f1686c2a4fa5beaf33f02d2eec6ba19500
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839689"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Arbeiten mit dem Rechner zur Kapazitätsplanung für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Verwenden des Kapazitäts Planungs Rechners für lync Server 2013
 
-Der Rechner zur Kapazitätsplanung für Microsoft® Lync™ Server 2013 ist unter dem Link <http://www.microsoft.com/en-us/download/details.aspx?id=36828> zum Download verfügbar. Er ist so konzipiert, dass er Sie dabei unterstützt, die Serveranforderungen anhand der Anzahl von Benutzern und anhand der Kommunikationsmodalitäten zu ermitteln, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner stellt Empfehlungen bereit, entsprechend denen Sie die Topologie planen können.
+</div>
 
-Die von dem Rechner erstellten Empfehlungen sind nur für Planungszwecke vorgesehen. Es sind tatsächliche Lastsimulationen erforderlich, um sicherzustellen, dass Lync Server 2013 angemessen bereitgestellt wird. Zum Ausführen von Stresstests unter einer simulierten Last verwenden Sie das [Lync Server 2013 Stress and Performance Tool](http://go.microsoft.com/fwlink/?linkid=282724).
+<div id="mainSection">
 
-Nachdem Sie Ihr Benutzerprofil und die Modalitäten bestimmt haben, die Sie für die Benutzer aktivieren möchten, verwenden Sie den Rechner dazu, die benötigten Ressourcen (Anzahl von Servern, Arbeitsspeicher und Bandbreite) zu planen. Diese Version des Rechners stellt keine Anleitung bezüglich der Datenträger-E/A-Anforderungen bereit.
+<div id="mainBody">
 
-Dieser Rechner ergänzt das [Microsoft Lync Server 2013 Planning Tool](http://go.microsoft.com/fwlink/?linkid=282725) sowie die [Planung](lync-server-2013-planning.md). Verwenden Sie den Rechner, nachdem Sie das Handbuch gelesen und mit dem Planning Tool die jeweils empfohlene Topologie erstellt haben.
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-11-21_
+
+Der Microsoft® lync™ Server 2013 <http://www.microsoft.com/en-us/download/details.aspx?id=36828>-Kapazitäts planungsrechner steht zum Download zur Verfügung. Es wurde entwickelt, um Ihnen bei der Ermittlung der Server Anforderungen zu helfen, die auf der Anzahl der Benutzer und Kommunikationsmodalitäten basieren, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner bietet Empfehlungen, die Ihnen bei der Planung Ihrer Topologie helfen.
+
+Die vom Rechner erstellten Empfehlungen dienen nur zu Planungszwecken. Eine tatsächliche Auslastungssimulation ist erforderlich, um sicherzustellen, dass lync Server 2013 angemessen bereitgestellt wird. Verwenden Sie zum Ausführen von Belastungstests unter einer simulierten Belastung das [Stress-und Leistungs Tool lync Server 2013](http://go.microsoft.com/fwlink/?linkid=282724).
+
+Nachdem Sie Ihr Benutzerprofil und die Modalitäten festgelegt haben, die Sie für Ihre Benutzer aktivieren möchten, ist es an der Zeit, den Rechner zu verwenden, um die Anzahl der benötigten Server, Arbeitsspeicher und Bandbreite zu planen. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
+
+Dieser Rechner ergänzt den [Microsoft lync Server](http://go.microsoft.com/fwlink/?linkid=282725) und [Microsoft lync Server](lync-server-2013-planning.md). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
 
 Den besten Nutzen erzielen Sie mit dem Rechner, wenn Sie genaue und ausführliche Informationen zu Ihrem speziellen Benutzerprofil haben. Beispielsweise können der Prozentsatz von VoIP-aktivierten Benutzern, der Durchschnitt der Anrufe pro Benutzer und Stunde, die Anrufdauer und der Prozentsatz von gleichzeitigen Benutzern in Konferenzen einen großen Unterschied hinsichtlich der Serveranforderungen ausmachen. Die Genauigkeit der Empfehlungen, die vom Rechner erstellt werden, hängt von der Genauigkeit der Informationen ab, die Sie bereitgestellt haben.
 
-## Arbeiten mit dem Kapazitätsrechner
+<div>
 
-Der Rechner ist ein Microsoft Excel®-Arbeitsblatt. Orangefarbene Zellen sind für Eingaben von Ihnen vorgesehen. Es sind bereits Standardwerte eingegeben (80.000 Benutzer in einem Pool mit zwölf Front-End-Servern), aber diese Werte können Sie entsprechend den Anforderungen Ihrer Organisation ändern.
+## <a name="using-the-capacity-calculator"></a>Arbeiten mit dem Kapazitätsrechner
 
-Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitätsanforderungen berechnen können, geben Sie Daten gemäß der Beschreibung ein:
+Der Rechner ist eine Microsoft Excel®-Kalkulationstabelle. Orange farbige Zellen sind für die Eingabe von Ihnen. Es werden Standardwerte eingegeben (80.000-Benutzer in einem Pool mit zwölf Front-End-Servern), aber Sie können diese Werte entsprechend den Anforderungen Ihrer Organisation ändern.
 
-**Chat und Anwesenheit (Instant Messaging/Presence, IM/P)**
+Das Nutzungsmodell enthält die folgenden Abschnitte. Um Ihre Kapazitätsanforderungen zu berechnen, geben Sie Daten wie beschrieben ein:
 
-  - Geben Sie unter Anzahl der Benutzer die Anzahl von Benutzers ein, die gleichzeitig angemeldet sein können. Diese Anzahl entspricht meist 80 % der Gesamtanzahl der bereitgestellten Benutzer. In den meisten Situationen werden 100 % der gleichzeitigen Benutzer für Chat und Anwesenheit aktiviert. Der Standardwert ist 80.000.
+**Chat und Anwesenheit**
 
-  - Durchschnittliche Anzahl von Kontakten in der Kontaktliste gibt die Anzahl von Kontakten an, die zur Überprüfung Ihrer Systemanforderungen verwendet wird. Diese Anzahl kann nicht geändert werden.
+  - Geben Sie unter Anzahl der Benutzer die Anzahl der Benutzer ein, die gleichzeitig angemeldet sein sollen. Diese Anzahl entspricht meist 80 % der Gesamtzahl der bereitgestellten Nutzer. In den meisten Situationen werden 100 % der gleichzeitigen Nutzer für Chat und Anwesenheit aktiviert. Der Standardwert ist 80.000.
 
-**Enterprise-VoIP (Enterprise Voice)**
+  - Durchschnittliche Anzahl von Kontakten in der Kontaktliste gibt die Anzahl von Kontakten an, die zur Überprüfung Ihrer Systemanforderungen verwendet wird. Diese Nummer kann nicht geändert werden.
 
-  - Geben Sie in Benutzer, für die Enterprise-VoIP aktiviert ist den Prozentsatz Ihrer Benutzer an, für die Enterprise-VoIP aktiviert werden soll. Der Standardwert ist 60 %.
+**Enterprise-VoIP**
 
-  - Geben Sie in Durchschnittliche Anzahl von Anrufen pro Benutzer pro Stunde (Spitze) die Anzahl von Anrufen pro Stunde ein, die Sie für den durchschnittlichen Benutzer als Teilnehmer zu Spitzenlastzeiten erwarten. Der Standardwert ist 4.
+  - Geben Sie in für Enterprise-VoIP aktivierte Benutzer den Prozentsatz der Benutzer ein, die für Enterprise-VoIP aktiviert sind. Der Standardwert ist 60 %.
 
-  - Geben Sie Prozentsatz der Anrufe, die Medienumgehung nutzen den Prozentsatz der Anrufe ein, die von Ihren Benutzern getätigt, aber nicht über den Vermittlungsserver abgewickelt werden. Der Standardwert ist 65 %.
+  - Geben Sie in durchschnittliche Anzahl der Anrufe pro Benutzer pro Stunde (Peak) die Anzahl der Anrufe pro Stunde ein, an denen der durchschnittliche Benutzer in Zeiten der Spitzenlast teilnehmen soll. Der Standardwert ist 4.
 
-  - Geben in Prozentsatz der VoIP-Benutzer, die an UC-PSTN-Anrufen beteiligt sind den Prozentsatz der Anrufe in Ihrer Organisation ein, die Anrufe über das UC-Telefonfestnetz (UC-PSTN) sind. Der Standardwert ist 60 %
+  - Geben Sie in Prozentsatz der Anrufe, die Medienumgehung nutzen den Prozentsatz der Anrufe ein, die von Ihren Nutzern getätigt, aber nicht über den Vermittlungsserver abgewickelt werden. Der Standardwert ist 65%.
 
-  - In Prozentsatz der VoIP-Benutzer, die an UC-UC-Anrufen beteiligt sind ist der Prozentsatz der Benutzer enthalten, die zwar für Enterprise-VoIP, aber nur für UC-UC-Anrufe aktiviert sind. Diese Anzahl wird auf Basis des Werts berechnet, den Sie in Prozentsatz der VoIP-Benutzer, die an UC-PSTN-Anrufen beteiligt sind eingegeben haben.
+  - Geben Sie in Prozentsatz der VoIP-Nutzer, die an UC-PSTN-Anrufen beteiligt sind den Prozentsatz der Anrufe in Ihrer Organisation ein, die Anrufe über das UC-Telefonfestnetz (UC-PSTN) sind. Der Standardwert ist 60%.
 
-**Konferenzfunktion (Conferencing)**
+  - In Prozent der Sprachbenutzer, die an UC-UC-anrufen beteiligt sind, wird der Prozentsatz der Benutzer angezeigt, die für Enterprise-VoIP aktiviert sind und nur für UC-UC-Anrufe aktiviert werden. Diese Anzahl wird auf Basis des Werts berechnet, den Sie in Prozentsatz der VoIP-Nutzer, die an UC-PSTN-Anrufen beteiligt sind eingegeben haben.
 
-  - Geben Sie in Prozentsatz der Benutzer in gleichzeitigen Konferenzen den Prozentsatz von Benutzern ein, die gleichzeitig an einer Konferenz teilnehmen. Der Standardwert ist 5 %.
+**Konferenzen**
 
-  - Geben Sie in Prozentsatz der Konferenzen nur mit Gruppenchat (kein VoIP) den Prozentsatz von Konferenzen ein, für die ausschließlich Chat genutzt wird, d. h., sie beinhalten keine Audiokomponenten. Der Standardwert ist 10 %
+  - Geben Sie in Prozent der Benutzer in parallelen Konferenzen den Prozentsatz der Benutzer ein, die gleichzeitig an Konferenzen teilnehmen werden. Der Standardwert ist 5 %.
 
-  - Geben Sie in Prozentsatz der Benutzer, die Einwahlkonferenzen verwenden den Prozentsatz von gleichzeitigen Teilnehmern ein, die Einwahlkonferenzen verwenden. Der Standardwert ist 15 %.
+  - Geben Sie in Prozent der Konferenzen mit nur Gruppen-Chat (keine Stimme) den Prozentsatz der Konferenzen ein, deren Konferenzen nur Chatnachrichten einbeziehen sollen. Das bedeutet, dass keine Audiokomponente enthalten ist. Der Standardwert ist 10%.
 
-  - Geben Sie in Prozentsatz der Konferenzen mit VoIP den Prozentsatz von Konferenzen ein, die Audiokomponenten beinhalten.
+  - Geben Sie in Prozent der Benutzer, die Einwahlkonferenzen verwenden, den Prozentsatz der gleichzeitigen Teilnehmer in Konferenzen ein, die Einwahlkonferenzen verwenden werden. Der Standardwert ist 15 %.
+
+  - Geben Sie in Prozent der Konferenzen, die Voice verwenden, den Prozentsatz der Konferenzen ein, die eine Audio-Komponente enthalten sollen.
     
-      - Wenn 20 % Ihrer VoIP-Konferenzen auch normale Videoelemente beinhalten, aktivieren Sie das Kontrollkästchen Einschließlich Video (kein Multiview).
+      - Wenn 20 % Ihrer VoIP-Konferenzen auch normale Videoelemente umfassen, aktivieren Sie das Kontrollkästchen Einschließlich Video (kein Multiview).
     
-      - Wenn 20 % Ihrer Konferenzen auch Multiview-Videoelemente beinhalten, aktivieren Sie das Kontrollkästchen Einschließlich Multiview.
+      - Wenn 20 % Ihrer Konferenzen auch Multiview-Videoelemente umfassen, aktivieren Sie das Kontrollkästchen Einschließlich Multiview.
     
-      - Wenn 50 % Ihrer VoIP-Konferenzen auch Anwendungsfreigabe beinhalten, aktivieren Sie das Kontrollkästchen Einschließlich Anwendungsfreigabe.
+      - Wenn 50 % Ihrer VoIP-Konferenzen auch Anwendungsfreigabe umfassen, aktivieren Sie das Kontrollkästchen Einschließlich Anwendungsfreigabe.
     
-      - Wenn 20 % Ihrer VoIP-Konferenzen Datenuploads beinhalten, etwa Microsoft PowerPoint®-Präsentationen, aktivieren Sie das Kontrollkästchen Einschließlich Webkonferenzen.
+      - Wenn 20% ihrer Sprachkonferenzen Datenuploads wie Microsoft PowerPoint-® Präsentationen einschließen, aktivieren Sie das Kontrollkästchen einschließlich Webkonferenzen.
 
-**Mobilität (Mobility)**
+**Mobilität**
 
-  - Geben Sie in Prozentsatz der Benutzer, für die Mobilität aktiviert ist den Prozentsatz von Benutzern ein, denen es möglich sein soll, über mobile Geräte Verbindungen mit Lync Server herzustellen. Der Standardwert ist 40 %.
+  - Geben Sie in Prozent der Benutzer, die für Mobilität aktiviert sind, den Prozentsatz der Benutzer ein, die für die Verbindung zu lync Server mithilfe mobiler Geräte aktiviert werden sollen. Der Standardwert ist 40 %.
 
-Wenn Sie alle erforderlichen Informationen eingegeben haben, berechnet der Kapazitätsrechner Ihre Anforderungen. In den gelben Zellen werden die berechneten Werte für CPU-, Arbeitsspeicher- und Bandbreitenanforderungen angezeigt. Diese basieren auf Tests, die in Lync Server 2013-Leistungsuntersuchungen ausgeführt wurden. Die Werte werden als Richtlinien bereitgestellt, es wird nicht jede einzelne Variation getestet und überprüft. Die folgenden Werte werden berechnet:
+Wenn Sie alle erforderlichen Informationen eingegeben haben, schätzt der Kapazitäts Rechner Ihre Anforderungen. Die gelben Zellen zeigen berechnete Werte für CPU-, Arbeitsspeicher-und Bandbreitenanforderungen basierend auf Tests an, die in lync Server 2013 Performance Labs ausgeführt werden. Die Zahlen werden als Richtlinie bereitgestellt, nicht jede einzelne Variation wird getestet und validiert. Die folgenden Werte werden berechnet:
 
-  - Front-End-CPU: Prozentsatz der CPU-Nutzung, wenn die gesamte Last von einem Front-End-Server verarbeitet wurde, der dieselben Spezifikationen hat wie der Server, der für die Microsoft-Tests verwendet wurde.
+  - Front-End-CPU: Prozentsatz der CPU-Auslastung, wenn der gesamte Ladevorgang von einem Front-End-Server mit den gleichen Spezifikationen wie der in Microsoft-Tests verwendete Server gehandhabt wurde.
 
-  - Netzwerk in Mbit/s: Bandbreitenanforderungen in Megabit pro Sekunde (MBit/s) für die entsprechende Arbeitsauslastung.
+  - Netzwerk in MBit/s: Bandbreitenanforderungen in Megabit pro Sekunde (MBit/s) für die entsprechende Arbeitsauslastung.
 
-  - Arbeitsspeicher in MB: Arbeitsspeicher in Gigabyte (GB), der für die entsprechende Arbeitsauslastung erforderlich ist.
+  - Arbeitsspeicher in GB: Arbeitsspeicher in Gigabyte (GB), der für die entsprechende Arbeitsauslastung erforderlich ist.
 
 In den grünen Zellen werden Empfehlungen für das Nutzungsmodell angezeigt, das Sie eingegeben haben.
 
-  - Gesamtanzahl der Front-End-Server erforderliche: Die Anzahl von erforderlichen physischen Servern basiert auf speziell dafür vorgesehenen Servern, auf denen Lync Server 2013 ausgeführt wird und die jeweils einen Dualprozessor mit sechs Kernen und 2.260 Megahertz haben.
+  - Gesamtzahl der Front-End-Server: die Anzahl der erforderlichen physikalischen Server basiert auf dedizierten Servern mit lync Server 2013 mit Dualprozessor, Hex-Core und 2.260 Megazyklen.
 
   - Es wird empfohlen, Hyperthreading zu aktivieren, denn damit lässt sich nachweislich die Leistung von Servern verbessern, die Audio/Video unterstützen.
 
-  - Edgeserver: Die Anzahl von erforderlichen Edgeservern. Diese Anzahl basiert auf 30 % aller gleichzeitigen Benutzer, die über die Edgeserver kommunizieren. Dieser Prozentsatz kann im Rechner nicht geändert werden.
+  - Edgeserver: die Anzahl der erforderlichen Edgeserver, basierend auf 30% aller gleichzeitigen Benutzer, die über die Edgeserver kommunizieren. Dieser Prozentsatz kann im Rechner nicht geändert werden.
 
   - Speicher für die Dienste Archivierung/Aufzeichnung von Kommunikationsdatensätzen/Quality of Experience: Die Anzahl von Speichern, die für Archivierungs- oder Überwachungsfeatures erforderlich sind, sofern diese in Ihrer Organisation aktiviert sind.
 
   - Erforderliche Back-End-Datenbankserver (erforderliche Pools): Die Anzahl von Back-End-Datenbankservern, die erforderlich sind, damit die ausgewählte Auslastung unterstützt werden kann.
 
-Die Zeile neben Gesamtanzahl der Front-End-Server enthält zusätzlich weitere Informationen zu der Last auf den Servern und im Netzwerk für alle geplanten Auslastungen in Kombination.
+Die Zeile neben „Gesamtzahl der Front-End-Server“ enthält zusätzlich weitere Informationen zu der Last auf den Servern und im Netzwerk für alle geplanten Auslastungen zusammengenommen.
 
   - Durchschnittliche CPU-Auslastung: Die durchschnittliche CPU-Nutzung pro Front-End-Server.
 
-  - Netzwerk in Mbit/s: Die Bandbreitenzuteilung, die erforderlich ist, damit das von Ihnen eingegebene Nutzungsmodell unterstützt wird.
+  - Netzwerk in MBit/s: Die Bandbreitenzuteilung, die erforderlich ist, damit das von Ihnen eingegebene Nutzungsmodell unterstützt wird.
 
-  - Arbeitsspeicher in MB: Der Arbeitsspeicher in Gigabyte, der für jeden Front-End-Server erforderlich ist.
+  - Arbeitsspeicher in GB: Der Arbeitsspeicher in Gigabyte, der für jeden Front-End-Server erforderlich ist.
 
-## Anpassen an Ihre Prozessoren
+</div>
+
+<div>
+
+## <a name="adjusting-for-your-processors"></a>Anpassen an Ihre Prozessoren
 
 Für alle CPU-Nutzungswerte auf dem Arbeitsblatt wird angenommen, dass jeder Server einen Dualprozessor mit sechs Kernen und 2,26 GHz, mindestens 32 GB Arbeitsspeicher und mindestens 8 10.000-U/min-Festplattenlaufwerke mit mindestens 72 GB freiem Speicherplatz hat.
 
 Wenn Ihre Server andere Prozessoren haben, können Sie die Werte entsprechend Ihrer Hardware anpassen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

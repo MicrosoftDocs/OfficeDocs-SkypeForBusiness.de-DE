@@ -1,25 +1,45 @@
-﻿---
-title: Konfigurieren von Beispielszenarios für Video
-TOCTitle: Konfigurieren von Beispielszenarios für Video
-ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205297(v=OCS.15)
-ms:contentKeyID: 49295595
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Video Beispielszenarien'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring video example scenarios
+ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
+ms:contentKeyID: 48185536
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839161"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Beispielszenarios für Video
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Konfigurieren von Video Beispielszenarien für lync Server 2013
 
-In Lync 2013 gibt es neue Videofeatures, um Full-HD-Video (1920 x 1080 Pixel) und die Katalogansicht zu unterstützen. Messungen anhand von Kundendaten haben gezeigt, dass die typische Videobandbreite im Vergleich zu Lync 2010 nur geringfügig zugenommen hat, dass aber die maximale Videostreambandbreite aufgrund der Full-HD-Unterstützung zugenommen hat (ausführliche Informationen finden Sie im Abschnitt "Netzwerkbelegung durch Mediendatenverkehr" unter [Anforderungen hinsichtlich der Netzwerkbandbreite für Mediendatenverkehr](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Deshalb sollten Administratoren die Videobandbreite für bestimmte Benutzer beschränken (z. B. Benutzer in einer Zweigniederlassung, die über weniger Netzwerkkapazität verfügen) und dadurch die bestmögliche Videoqualität für andere Benutzer (z. B. Führungskräfte) sicherstellen.
+</div>
 
-Die folgende Tabelle enthält eine Aufstellung der empfohlenen Einstellungen zum Konfigurieren von Video für verschiedene Netzwerkkapazitäten. Mit diesen Einstellungen wird für bestimmte Benutzerszenarien das Senden und Empfangen von Videos mit höherer Auflösung beschränkt (siehe die Spalte ganz rechts). Mit der Mindesteinstellung ist die Katalogansicht aufgrund der niedrigen maximalen Netzwerkbandbreite beim Empfangen nicht verfügbar.
+<div id="mainSection">
 
-### Empfohlene Videoeinstellungen
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Lync 2013 fügt neue Videofeatures zur Unterstützung von 1920 x 1080 Full High Definition (HD) Video-und Galerieansicht-Video hinzu. Messungen, die auf Kundendaten basieren, zeigen, dass die typische Videobandbreite im Vergleich zu lync 2010 nur geringfügig zugenommen hat, die maximale Bandbreite des Videostreams jedoch aufgrund der Full-HD-Unterstützung zugenommen hat (Einzelheiten finden Sie im Abschnitt "Nutzung des Media Traffic-Netzwerks" in [ Netzwerkbandbreite-Anforderungen für den Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)) Daher möchten Administratoren möglicherweise die Videobandbreite für bestimmte Benutzer (wie Benutzer in einer Zweigstelle, die eine geringere Netzwerkkapazität aufweisen) einschränken und dabei helfen, die bestmögliche Videoqualität für andere Benutzer (wie Führungskräfte) zu gewährleisten.
+
+Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die Konfiguration von Video für verschiedene Netzwerkkapazitäten. Diese Einstellungen beschränken einige Benutzerszenarien auf das Senden und empfangen von Videos mit höherer Auflösung (siehe Spalte ganz rechts). Die Mindesteinstellungen führen dazu, dass Gallery-Video aufgrund der geringen maximalen Netzwerkbandbreite für den Empfang nicht verfügbar ist.
+
+### <a name="recommended-video-settings"></a>Empfohlene Video Einstellungen
 
 <table style="width:100%;">
 <colgroup>
@@ -47,17 +67,17 @@ Die folgende Tabelle enthält eine Aufstellung der empfohlenen Einstellungen zum
 <td><p>True</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
-<td><p>Peer-zu-Peer: Videoauflösung von bis zu 1920 x 1080</p>
-<p>Katalogansicht: Bis zu 2 Videos mit einer Auflösung von 1920 x 1080 oder mehrere Videos mit niedrigerer Auflösung</p></td>
+<td><p>Peer-to-Peer: bis zu 1920 x 1080 Videoauflösung</p>
+<p>Katalogansicht: bis zu 2 1920 x 1080 Videos oder Videos mit mehreren kleineren Auflösungen</p></td>
 </tr>
 <tr class="even">
-<td><p>Gut</p></td>
+<td><p>Good</p></td>
 <td><p>True</p></td>
 <td><p>True</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
-<td><p>Peer-zu-Peer: Videoauflösung von bis zu 1280 x 720</p>
-<p>Katalogansicht: Bis zu fünf Videos mit einer Auflösung von 640 x 360</p></td>
+<td><p>Peer-to-Peer: bis zu 1280 x 720 Videoauflösung</p>
+<p>Galerieansicht: Videos mit bis zu 5 640 x 360 Auflösung</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mittel</p></td>
@@ -65,71 +85,81 @@ Die folgende Tabelle enthält eine Aufstellung der empfohlenen Einstellungen zum
 <td><p>True</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
-<td><p>Peer-zu-Peer: Videoauflösung von bis zu 960 x 540</p>
-<p>Katalogansicht: Bis zu fünf Videos mit einer Auflösung von 424 x 240</p></td>
+<td><p>Peer-to-Peer: bis zu 960 x 540 Videoauflösung</p>
+<p>Galerieansicht: Videos mit bis zu 5 424 x 240 Auflösung</p></td>
 </tr>
 <tr class="even">
-<td><p>Minimum</p></td>
+<td><p>Mindestens</p></td>
 <td><p>True</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
-<td><p>Peer-zu-Peer: Videoauflösung von bis zu 424 x 240</p>
-<p>Katalogansicht: Nicht verfügbar</p></td>
+<td><p>Peer-to-Peer: bis zu 424 x 240 Videoauflösung</p>
+<p>Katalogansicht: nicht verfügbar</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Mithilfe der Informationen in der vorstehenden Tabelle können Sie die neuen HD-Video- und Katalogansicht-Videokonferenzfeatures für bestimmte Benutzer in Ihrer Organisation und andere Videoauflösungen für andere Benutzer verwenden.
+Sie können die Informationen aus der vorstehenden Tabelle verwenden, um die neuen HD-Video-und-Galerie-Videokonferenz Features für einige Benutzer in Ihrer Organisation bereitzustellen, während Sie anderen Videoauflösungen ermöglichen.
 
-Im folgenden Beispiel führt der Administrator die neuen Videofeatures mit der höchsten Videoqualität nur für Führungskräfte ein. Für Mitarbeiter in einer Remotezweigniederlassung mit niedriger Netzwerkkapazität wird nur die Minimumeinstellung aus der vorstehenden Tabelle bereitgestellt. Für alle anderen Mitarbeiter wird die Einstellung "Gut" aus der vorstehenden Tabelle bereitgestellt.
+Im folgenden Beispiel werden die neuen Videofeatures mit der höchsten Videoqualität, die nur Führungskräften zur Verfügung stehen, vom Administrator ausgerollt. Für Mitarbeiter in einer Remote-Zweigstelle, die über eine niedrige Netzwerkkapazität verfügt, wird nur die Mindesteinstellung der vorhergehenden Tabelle bereitgestellt. Für alle anderen Mitarbeiter wird die Einstellung "gut" aus der vorhergehenden Tabelle bereitgestellt.
 
-Für das Rollout der neuen Features für die Führungskräfte erstellt der Administrator die Konferenzrichtlinie ExecutiveVideo. Diese Konferenzrichtlinie weist die folgenden Einstellungen auf:
+Um die neuen Funktionen für die Führungskräfte bereitzustellen, erstellt der Administrator eine konferenzrichtlinie mit dem Namen ExecutiveVideo. Diese konferenzrichtlinie weist die folgenden Einstellungen auf:
 
-  - VideoBitRateKB ist auf 8000 KBit/s festgelegt
+  - VideoBitRateKB ist auf 8000 kBit/s eingestellt
 
-  - TotalReceiveVideoBitRateKB ist auf 8000 KBit/s festgelegt
+  - TotalReceiveVideoBitRateKB ist auf 8000 kBit/s eingestellt
 
-  - AllowMultiview ist auf True festgelegt
+  - AllowMultiview ist auf "true" festgelegt.
 
-  - EnableMultiviewJoin ist auf True festgelegt
+  - EnableMultiviewJoin ist auf "true" festgelegt.
 
-Für die Mitarbeiter in der Zweigniederlassung erstellt der Administrator die Konferenzrichtlinie BranchOfficeVideo. Diese Konferenzrichtlinie weist die folgenden Einstellungen auf:
+Für Mitarbeiter in der Zweigstelle erstellt der Administrator eine konferenzrichtlinie mit dem Namen BranchOfficeVideo. Diese konferenzrichtlinie weist die folgenden Einstellungen auf:
 
-  - VideoBitRateKB ist auf 350 KBit/s festgelegt
+  - VideoBitRateKB ist auf 350 KBit/s eingestellt
 
-  - TotalReceiveVideoBitRateKB ist auf 350 KBit/s festgelegt
+  - TotalReceiveVideoBitRateKB ist auf 350 KBit/s eingestellt
 
-  - AllowMultiview ist auf True festgelegt
+  - AllowMultiview ist auf "true" festgelegt.
 
-  - EnableMultiviewJoin ist auf False festgelegt
+  - EnableMultiviewJoin ist auf "false" festgelegt.
 
-Für alle anderen Mitarbeiter erstellt der Administrator die Konferenzrichtlinie StandardVideo. Diese Konferenzrichtlinie weist die folgenden Einstellungen auf:
+Für alle anderen Mitarbeiter erstellt der Administrator eine konferenzrichtlinie mit dem Namen StandardVideo. Diese konferenzrichtlinie weist die folgenden Einstellungen auf:
 
-  - VideoBitRateKB ist auf 2500 KBit/s festgelegt
+  - VideoBitRateKB ist auf 2500 Kbit/s eingestellt
 
-  - TotalReceiveVideoBitRateKB ist auf 2500 KBit/s festgelegt
+  - TotalReceiveVideoBitRateKB ist auf 2500 Kbit/s eingestellt
 
-  - AllowMultiview ist auf True festgelegt
+  - AllowMultiview ist auf "true" festgelegt.
 
-  - EnableMultiviewJoin ist auf True festgelegt
+  - EnableMultiviewJoin ist auf "true" festgelegt.
 
-Der Administrator weist die Konferenzrichtlinie wie folgt den Benutzern zu:
+Der Administrator weist Benutzer Konferenzrichtlinien wie folgt zu:
 
-  - Die Konferenzrichtlinie ExecutiveVideo wird den Führungskräften zugewiesen.
+  - Die ExecutiveVideo-konferenzrichtlinie wird den Führungskräften zugewiesen.
 
-  - Die Konferenzrichtlinie BranchOfficeVideo wird allen Mitarbeitern in der Zweigniederlassung zugewiesen.
+  - Die BranchOfficeVideo-konferenzrichtlinie wird allen Mitarbeitern in der Zweigstelle zugewiesen.
 
-  - Die Konferenzrichtlinie StandardVideo wird allen anderen Mitarbeitern zugewiesen.
+  - Die StandardVideo-konferenzrichtlinie wird allen anderen Mitarbeitern zugewiesen.
 
-Diese Zuweisungen von Konferenzrichtlinien ergeben für die Benutzer Folgendes:
+Diese Konferenzrichtlinien Zuweisungen führen zu der folgenden Benutzeroberfläche:
 
-  - Alle von einem beliebigen Benutzer organisierte Konferenzen unterstützen die Katalogansicht, aber Mitarbeiter in der Zweigniederlassung können die Katalogansicht nicht nutzen.
+  - Alle Konferenzen, die von einer beliebigen Benutzer-Galerieansicht unterstützt werden, aber die Mitarbeiter in der Zweigstelle können die Katalogansicht nicht finden.
 
-  - Für Konferenzen mit zwei oder mehreren Teilnehmern können die Führungskräfte Full-HD-Video mit einer Auflösung von 1920 x 1080 senden, falls dies von ihrer Hardware und Netzwerkverbindung unterstützt wird, und sie können Full-HD-Video mit einer Auflösung von 1920 x 1080 empfangen, soweit dies von den Clients der anderen Teilnehmer unterstützt wird.
+  - Für zwei-oder Mehrparteienkonferenzen können Führungskräfte 1920 x 1080 Full-HD-Video senden, wenn deren Hardware-und Netzwerkverbindung dies unterstützt, und Sie können 1920 x 1080 Full-HD-Video empfangen, wenn die anderen Teilnehmer dies unterstützen.
 
-  - Mitarbeiter, die keine Führungskräfte sind, können bei Konferenzen mit zwei oder mehreren Teilnehmern niedrigere Auflösungen als die Führungskräfte nutzen, erhalten aber immer noch eine gute Auflösung.
+  - Mitarbeiter, die keine Führungskräfte sind, erleben niedrigere Auflösungen als die Führungskräfte in ihren zwei-oder Mehrparteienkonferenzen, erhalten aber trotzdem eine gute Auflösung.
 
-  - Mitarbeiter in der Zweigniederlassung erhalten eine gute Videoqualität bei Anrufen mit zwei Teilnehmern, wenn in Lync die standardmäßige Videofenstergröße angezeigt wird. Wenn allerdings das Lync-Fenster im Vollbildschirmmodus angezeigt wird, wird die Videoauflösung nicht erhöht. Für Konferenzen mit mehreren Teilnehmern sehen die Mitarbeiter in der Zweigniederlassung nur ein aktives Video.
+  - Mitarbeiter, die in der Zweigstelle sind, erhalten gute Videoqualität bei Anrufen mit zwei Teilnehmern, wenn lync die Standardgröße des Videofensters anzeigt. Wenn das lync-Fenster jedoch auf Vollbild maximiert ist, nimmt die Videoauflösung nicht zu. Bei Konferenzen mit mehreren Teilnehmern werden die Mitarbeiter in der Zweigstelle nur ein aktives Video sehen.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

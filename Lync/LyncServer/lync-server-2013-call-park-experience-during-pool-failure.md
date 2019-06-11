@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Abläufe für das Parken von Anrufen während des Ausfalls eines Pools'
-TOCTitle: Abläufe für das Parken von Anrufen während des Ausfalls eines Pools
-ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205383(v=OCS.15)
-ms:contentKeyID: 49295919
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Abläufe für das Parken von Anrufen während des Ausfalls eines Pools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Park experience during pool failure
+ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205383(v=OCS.15)
+ms:contentKeyID: 48185831
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7b175e5029749ea4e3a344aaf9f3bcc7a403c1b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839695"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Abläufe für das Parken von Anrufen in Lync Server 2013 während des Ausfalls eines Pools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Abläufe für das Parken von Anrufen in Lync Server 2013 während des Ausfalls eines Pools
 
-Wenn ein Front-End-Pool wegen eines ungeplanten Zwischenfalls nicht mehr verfügbar ist, werden Anrufverbindungen, die geparkt, aber noch nicht wiederaufgenommen wurden, getrennt. Während des Failovers zu einem Sicherungspool werden die Benutzer in den Sicherungspool umgeleitet und in den Ausfallsicherheitsmodus geschaltet. Solange sie sich in diesem Modus befinden, können Benutzer keine Anrufe parken, aber Anrufe halten und weiterleiten. Nach Abschluss des Failovers können Anrufe wie gewohnt geparkt und wiederaufgenommen werden. Während des Failbacks können die Benutzer erst dann wieder Anrufe parken, wenn sie sich nicht mehr im Ausfallsicherheitsmodus befinden.
+</div>
 
-Während der Notfallwiederherstellung verwenden Benutzer, die im Rahmen des Failovers in den Sicherungspool umgeleitet worden sind, die Anwendung zum Parken von Anrufen, die im Sicherungspool bereitgestellt ist. Daher verwenden die in den Sicherungspool umgeleiteten Benutzer die Einstellungen für das Parken von Anrufen, die für die Anwendung zum Parken von Anrufen im Sicherungspool konfiguriert sind.
+<div id="mainSection">
 
-In der folgenden Tabelle werden die Vorgänge beim Parken von Anrufen auf Benutzerseite während der einzelnen Phasen der Notfallwiederherstellung zusammengefasst.
+<div id="mainBody">
 
-### Vorgänge auf Benutzerseite während der Notfallwiederherstellung
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-10_
+
+Wenn ein Front-End-Pool aufgrund eines ungeplanten Vorfalls nicht mehr zur Verfügung steht, werden Anrufe, die geparkt, aber noch nicht abgerufen wurden, getrennt. Beim Failover zu einem Sicherungspool werden die Benutzer in den Sicherungspool umgeleitet und befinden sich im Widerstands Modus. Im Resilienz-Modus können Benutzer keine Anrufe parken, aber Sie können Anrufe in Wartestellung setzen und übertragen. Nach Abschluss des Failovers können Anrufe wieder wie gewohnt abgestellt und abgerufen werden. Während des Failback können Benutzer Anrufe erst dann Parken, wenn Sie den Stabilitäts Modus verlassen.
+
+Während der Disaster Recovery verwenden Benutzer, die im Rahmen des Failovers an den Backup-Pool umgeleitet wurden, die Anwendung Parken, die im Backup-Pool bereitgestellt wird. Daher verwenden Benutzer, die an den Sicherungspool umgeleitet werden, die Einstellungen für den Anruf Park, die für die Anwendung "Parken" im Sicherungspool konfiguriert sind.
+
+In der folgenden Tabelle sind die Erfahrungen des Anruf Parks in den Phasen der Disaster Recovery zusammengefasst.
+
+### <a name="user-experience-during-disaster-recovery"></a>Benutzererfahrung bei der Disaster Recovery
 
 <table>
 <colgroup>
@@ -32,37 +52,48 @@ In der folgenden Tabelle werden die Vorgänge beim Parken von Anrufen auf Benutz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anrufstatus</th>
-<th>Bei Eintreten des Ausfalls</th>
+<th>Anruf Zustand</th>
+<th>Wenn ein Ausfall eintritt</th>
 <th>Während des Failovers</th>
 <th>Während des Failbacks</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Anruf noch nicht geparkt</p></td>
-<td><p>Anrufverbindungen bleiben bestehen, Anrufe können aber nicht geparkt werden.</p></td>
+<td><p>Noch nicht geparkter Anruf</p></td>
+<td><p>Der Anruf bleibt verbunden, kann aber nicht abgestellt werden.</p></td>
 <td><ul>
-<li><p>Während des Failovers kann der Anruf nicht geparkt werden, solange der Benutzer im Ausfallsicherheitsmodus ist, aber gehalten und weitergeleitet werden.</p></li>
-<li><p>Nach Abschluss des Failovers kann der Anruf geparkt und wiederaufgenommen werden.</p></li>
+<li><p>Während des Failovers kann der Anruf nicht abgestellt werden, während sich die Benutzer im Resilienz-Modus befinden, können aber in Wartestellung gesetzt und übertragen werden.</p></li>
+<li><p>Nach Abschluss des Failovers kann der Anruf abgestellt und abgerufen werden.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Während des Failbacks kann der Anruf nicht geparkt werden, solange der Benutzer im Ausfallsicherheitsmodus ist, aber gehalten und weitergeleitet werden.</p></li>
-<li><p>Nach Abschluss des Failbacks kann der Anruf geparkt und wiederaufgenommen werden.</p></li>
+<li><p>Während des Failback kann der Anruf nicht abgestellt werden, während sich die Benutzer im Resilienz-Modus befinden, können aber in Wartestellung gesetzt und übertragen werden.</p></li>
+<li><p>Nach Abschluss des Failback kann der Anruf abgestellt und abgerufen werden.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Anruf geparkt, aber noch nicht wiederaufgenommen</p></td>
-<td><p>Die Anrufverbindung wird getrennt.</p></td>
-<td><p>Keine Anrufe in diesem Status.</p></td>
-<td><p>Anruf bleibt geparkt.</p></td>
+<td><p>Anruf abgestellt, aber noch nicht abgerufen</p></td>
+<td><p>Der Anruf wird getrennt.</p></td>
+<td><p>Keine Anrufe in diesem Zustand.</p></td>
+<td><p>Der Anruf bleibt geparkt.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Geparkter Anruf bereits wiederaufgenommen</p></td>
-<td><p>Die Anrufverbindung bleibt bestehen.</p></td>
-<td><p>Die Anrufverbindung bleibt bestehen.</p></td>
-<td><p>Die Anrufverbindung bleibt bestehen.</p></td>
+<td><p>Geparkten Anruf bereits abgerufen</p></td>
+<td><p>Der Anruf bleibt verbunden.</p></td>
+<td><p>Der Anruf bleibt verbunden.</p></td>
+<td><p>Der Anruf bleibt verbunden.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

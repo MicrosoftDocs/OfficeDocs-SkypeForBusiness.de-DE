@@ -1,76 +1,82 @@
-﻿---
-title: Cmdlets, in denen eine Benutzeridentität verwendet wird
-TOCTitle: Cmdlets, in denen eine Benutzeridentität verwendet wird
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56269337
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets, in denen eine Benutzeridentität verwendet wird
+title: Cmdlets in Skype for Business Online, die eine Benutzeridentität verwenden
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets in Skype for Business Online, die eine Benutzeridentität verwenden
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
-In Skype for Business Online gibt es mehrere Möglichkeiten, auf eine einzelne Benutzeridentität zu verweisen:
+In Skype for Business Online gibt es eine Reihe von unterschiedlichen Möglichkeiten, auf eine einzelne Benutzeridentität zu verweisen:
 
-  - Sie können den Active Directory-Domänendienste-Anzeigenamen des Benutzers verwenden. Beispiel:
+  - Verwenden Sie den Anzeigenamen der Active Directory-Domänendienste des Benutzers. Beispiel:
     
         -Identity "Ken Myer"
 
-  - Sie können die SIP-Adresse des Benutzers verwenden. Beispiel:
+  - Verwenden Sie die SIP-Adresse des Benutzers. Beispiel:
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Sie können den UPN des Benutzers verwenden. Beispiel:
+  - Verwenden Sie den UPN des Benutzers. Beispiel:
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Sie können den Active Directory-Domänendienste-Distinguished Namen des Benutzers verwenden. Beispiel:
+  - Verwenden Sie den Distinguished Name für den Active Directory-Domänendienst des Benutzers. Beispiel:
     
-        -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online-Mandanten,DC=litwareinc,DC=com"
+        -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Für die folgenden Cmdlets kann eine Benutzeridentität angegeben werden.
+Die folgenden Cmdlets akzeptieren eine Benutzeridentität:
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-Sie müssen keine Benutzeridentität angeben, wenn Sie eines der **Get-Cs**-Cmdlets aufrufen. Das jeweils aufgerufene Cmdlet gibt alle Instanzen des angegebenen Elements zurück. Der folgende Befehl gibt beispielsweise Informationen zu allen Benutzern zurück, die für Skype for Business Online aktiviert wurden:
+Beachten Sie, dass Sie beim Aufrufen eines der **Get-CS-** Cmdlets keine Benutzeridentität angeben müssen. In diesem Fall geben die Cmdlets alle Instanzen des angegebenen Elements zurück. Dieser Befehl gibt beispielsweise Informationen zu allen Benutzern zurück, die für Skype for Business Online aktiviert wurden:
 
     Get-CsOnlineUser
 
-Der Parameter **Identity** ist nur erforderlich, wenn Informationen zu einem bestimmten Benutzer zurückgegeben werden sollen:
+Der Parameter Identity ist nur erforderlich, wenn Sie Informationen für einen bestimmten Benutzer zurückgeben möchten:
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
-#### Konzepte
 
-[Identitäten, Bereiche und Mandanten](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identitäten, Bereiche und Mandanten in Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Die Lync Online-Cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

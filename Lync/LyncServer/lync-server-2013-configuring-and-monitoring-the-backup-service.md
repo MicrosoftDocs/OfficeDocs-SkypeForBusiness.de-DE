@@ -1,73 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren und Überwachen des Sicherungsdiensts'
-TOCTitle: Konfigurieren und Überwachen des Sicherungsdiensts
-ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205252(v=OCS.15)
-ms:contentKeyID: 49295352
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren und Überwachen des Sicherungsdiensts'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring and monitoring the Backup Service
+ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205252(v=OCS.15)
+ms:contentKeyID: 48185365
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66a800014b3327e83426c9f758b7d5359c1ce6c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839285"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren und Überwachen des Sicherungsdiensts in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Konfigurieren und Überwachen des Sicherungsdiensts in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Mit den folgenden Befehlen der Lync Server-Verwaltungsshell können Sie den Sicherungsdienst konfigurieren und überwachen.
+Sie können die folgenden Befehle der lync Server-Verwaltungsshell verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen.
+
+<div>
 
 
-> [!NOTE]
-> Die Gruppe RTCUniversalServerAdmins ist standardmäßig die einzige Gruppe mit der Berechtigung zum Ausführen von <STRONG>Get-CsBackupServiceStatus</STRONG>. Wenn Sie dieses Cmdlet verwenden möchten, melden Sie sich sich als Mitglied dieser Gruppe an. Sie können aber auch mit dem <STRONG>Set-CsBackupServiceConfiguration</STRONG>-Cmdlet anderen Benutzergruppen (z.&nbsp;B. CSAdministrator ) den Zugriff auf diesen Befehl gewähren.
+> [!NOTE]  
+> Die Gruppe RTCUniversalServerAdmins ist die einzige Gruppe, die über die standardmäßige Berechtigung zum Ausführen von <STRONG>Get-CsBackupServiceStatus</STRONG> verfügt. Wenn Sie dieses Cmdlet verwenden möchten, melden Sie sich als Mitglied dieser Gruppe an. Oder Sie können anderen Gruppen (beispielsweise CSAdministrator) mithilfe des Cmdlets " <STRONG>Satz-CsBackupServiceConfiguration</STRONG> " Zugriff auf diesen Befehl gewähren.
 
 
 
-## So zeigen Sie die Konfiguration des Sicherungsdiensts an
+</div>
+
+<div>
+
+## <a name="to-see-the-backup-service-configuration"></a>So zeigen Sie die Konfiguration des Sicherungsdiensts an
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsBackupServiceConfiguration
 
-Der Standard für SyncInterval sind zwei Minuten.
+Der Standardwert für SyncInterval beträgt zwei Minuten.
 
-## So legen Sie das Synchronisierungsintervall für den Sicherungsdienst fest
+</div>
+
+<div>
+
+## <a name="to-set-the-backup-service-sync-interval"></a>So stellen Sie das Synchronisierungsintervall für den Sicherungsdienst ein
 
 Führen Sie das folgende Cmdlet aus:
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-Beispielsweise wird mit dem folgenden Befehl ein Synchronisierungsintervall von drei Minuten festgelegt.
+Im folgenden Beispiel wird das Intervall auf drei Minuten festgelegt.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
-
-> [!IMPORTANT]
-> Mit diesem Cmdlet können Sie auch das standardmäßige Synchronisierungsintervall für den Sicherungsdienst ändern. Sie sollten das Synchronisierungsintervall aber nur ändern, wenn es unbedingt erforderlich ist, da das Synchronisierungsintervall erhebliche Auswirkungen auf die Leistung des Sicherungsdiensts und den Zielwert für den Wiederherstellungspunkt (Recovery Point Objective, RPO) hat.
+<div>
 
 
+> [!IMPORTANT]  
+> Obwohl Sie mit diesem Cmdlet das Standard Synchronisierungsintervall für den Sicherungsdienst ändern können, sollten Sie dies nicht tun, es sei denn, dies ist unbedingt erforderlich, da das Synchronisierungsintervall große Auswirkungen auf die Leistung des Sicherungsdiensts und auf das Recovery Point-Ziel (RPO) hat.
 
-## So rufen Sie den Sicherungsdienststatus für einen bestimmten Pool ab
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>So rufen Sie den Sicherungsdienst Status für einen bestimmten Pool ab
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
-
-> [!NOTE]
-> Der Synchronisierungsstatus des Sicherungsdiensts wird unidirektional zwischen einem Pool (P1) und dem zugehörigen Sicherungspool (P2) definiert. Der Synchronisierungsstatus zwischen P1 und P2 kann vom Synchronisierungsstatus zwischen P2 und P1 abweisen. Zwischen P1 und P2 weist der Sicherungsdienst den Status "Bereit" auf, wenn alle in P1 vorgenommenen Änderungen innerhalb des Synchronisierungsintervalls vollständig nach P2 repliziert werden. Er weist den Status "Endgültig" auf, wenn zwischen P1 und P2 keine zu synchronisierenden Änderungen mehr vorhanden sind. Beide Status stellen eine Momentaufnahme des Sicherungsdiensts zum Zeitpunkt der Ausführung des Cmdlets dar. Dies bedeutet nicht, dass der zurückgegebene Status so bleibt. Insbesondere der Status "Endgültig" bleibt nur erhalten, wenn P1 keine Änderungen generiert, nachdem das Cmdlet ausgeführt wurde. Dies gilt für das Failover von P1 zu P2, nachdem P1 im Rahmen der <STRONG>Invoke-CsPoolfailover</STRONG>-Ausführungslogik in den schreibgeschützten Modus versetzt wird.
+<div>
 
 
+> [!NOTE]  
+> Der Synchronisierungsstatus des Sicherungsdiensts wird unidirektional von einem Pool (P1) zu seinem Sicherungspool (P2) definiert. Der Synchronisierungsstatus von P1 zu P2 kann von P2 zu P1 unterschiedlich sein. Bei P1 bis P2 befindet sich der Sicherungsdienst in einem "stabilen" Zustand, wenn alle Änderungen, die in P1 vorgenommen wurden, innerhalb des Synchronisierungsintervalls vollständig auf P2 repliziert werden. Es befindet sich im "endgültigen" Zustand, wenn keine weiteren Änderungen von P1 zu P2 synchronisiert werden. Beide Zustände deuten auf eine Momentaufnahme des Sicherungsdiensts zu dem Zeitpunkt hin, zu dem das Cmdlet ausgeführt wird. Das bedeutet nicht, dass der zurückgegebene Zustand unverändert bleibt. Insbesondere bleibt der Zustand "Final" weiterhin nur dann bestehen, wenn P1 nach der Ausführung des Cmdlets keine Änderungen generiert. Dies gilt im Fall eines Failovers von P1 auf P2, nachdem P1 als Teil der Ausführungslogik <STRONG>Invoke-CsPoolfailover</STRONG> in den schreibgeschützten Modus versetzt wurde.
 
-## So rufen Sie Informationen zur Sicherungsbeziehung für einen bestimmten Pool ab
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>So erhalten Sie Informationen zur Sicherungsbeziehung für einen bestimmten Pool
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
-## So erzwingen Sie eine Synchronisierung des Sicherungsdiensts
+</div>
+
+<div>
+
+## <a name="to-force-a-backup-service-sync"></a>So erzwingen Sie eine Synchronisierung des Sicherungsdiensts
 
 Führen Sie das folgende Cmdlet aus:
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

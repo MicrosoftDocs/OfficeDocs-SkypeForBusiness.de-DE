@@ -1,23 +1,43 @@
-﻿---
-title: Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
-TOCTitle: Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
-ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182614(v=OCS.15)
-ms:contentKeyID: 49296003
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zuweisen von Anwesenheitsrichtlinien für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user presence policies
+ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
+ms:contentKeyID: 48185955
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Zuweisen von Anwesenheitsrichtlinien für einzelne Benutzer in lync Server 2013
 
-Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkungen für Anwesenheitsinformationen. In der folgenden Tabelle werden die in Lync Server 2013 verfügbaren Einstellungen für Anwesenheitsrichtlinien beschrieben.
+</div>
 
-### Einstellungen für Anwesenheitsrichtlinien
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+
+Eine Anwesenheitsrichtlinie besteht aus einer Reihe von Grenzwerten und Einschränkungen, die sich auf die Anwesenheit auswirken. In der folgenden Tabelle werden die in lync Server 2013 verfügbaren Anwesenheitsrichtlinien Einstellungen beschrieben.
+
+### <a name="presence-policy-settings"></a>Einstellungen für Anwesenheitsrichtlinien
 
 <table>
 <colgroup>
@@ -39,13 +59,13 @@ Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkun
 <tbody>
 <tr class="odd">
 <td><p>CategorySubscriptions</p></td>
-<td><p>Maximale Anzahl von Abonnentenkategorieabonnements</p></td>
-<td><p>Beschränkt die Anzahl an zulässigen Abonnentenkategorieabonnements. Wenn Communicator beispielsweise die Anwesenheitsinformationen eines Benutzers abonniert, umfasst dies je ein Abonnement der einzelnen Kategorien &quot;Visitenkarte&quot;, &quot;Kalenderdaten&quot;, &quot;Notizen&quot;, &quot;Dienste&quot; und &quot;Status&quot;.</p>
-<p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass das Benutzer- oder Kontaktobjekt nicht von anderen Teilnehmern abonniert werden kann.</p>
+<td><p>Maximale Anzahl von Abonnenten Kategorie-Abonnements</p></td>
+<td><p>Begrenzt die Anzahl der Abonnements für Abonnenten Kategorien. Wenn Communicator beispielsweise die Anwesenheit eines Benutzers abonniert, erhält er ein Kategorie-Abonnement für jede Visitenkarte, Kalenderdaten, Notizen, Dienste und Zustandskategorien.</p>
+<p>Eine Einstellung von "0" bedeutet, dass der Benutzer oder das Kontaktobjekt nicht von anderen abonniert werden kann.</p>
 <div>
 
-> [!NOTE]
-> Bei Festlegung auf einen hohen Wert kann sich diese Einstellung deutlich auf die Leistung auswirken, und der durchschnittliche Benutzer verfügt über eine große Anzahl an Benutzern, die seine Anwesenheitsinformationen abonniert haben.
+> [!NOTE]  
+> Diese Einstellung kann erhebliche Auswirkungen auf die Leistung haben, wenn Sie auf eine hohe Zahl festgelegt ist und der durchschnittliche Benutzer eine große Anzahl von Benutzern abonniert hat.
 
 
 </div></td>
@@ -54,19 +74,19 @@ Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkun
 </tr>
 <tr class="even">
 <td><p>PromptedSubscribers</p></td>
-<td><p>Maximale Anzahl von Anwesenheitsabonnementaufforderungen in der Warteschlange</p></td>
-<td><p>Beschränkt die Anzahl von Einträgen in der Tabelle mit Abonnentenaufforderungen. Über diese Einstellung wird die maximale Anzahl von Aufforderungen festgelegt, die für einen Benutzer in der Warteschlange platziert werden können. Wenn Benutzer A beispielsweise die Anwesenheitsinformationen von Benutzer B abonniert, wird Benutzer B darüber informiert, und in der Tabelle mit Abonnentenaufforderungen von Benutzer B wird eine Bestätigungsaufforderung erstellt. Nachdem Benutzer B das Abonnement bestätigt, wird die Bestätigungsaufforderung aus der Tabelle mit Abonnentenaufforderungen von Benutzer B entfernt.</p>
-<p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass der Benutzer nicht zur Bestätigung aufgefordert wird, wenn ein Benutzer seine Anwesenheitsinformationen abonniert.</p></td>
-<td><p>Ganze Zahl oder Token</p></td>
+<td><p>Maximale Anzahl von Benachrichtigungen für Anwesenheitsabonnements in der Warteschlange</p></td>
+<td><p>Schränkt die Anzahl von Einträgen in der Tabelle "angeforderte Abonnenten" ein. Diese Einstellung bestimmt die maximale Anzahl von Eingabeaufforderungen, die für einen bestimmten Benutzer in die Warteschlange gestellt werden können. Wenn Benutzer a beispielsweise die Anwesenheit von Benutzer b abonniert hat, erhält Benutzer b eine Aufforderung, dass Benutzer a jetzt Benutzer b abonniert hat, und in der Tabelle mit der Aufforderung "Abonnenten" von Benutzer b wird eine Bestätigungsaufforderung erstellt. Nachdem der Benutzer b das Abonnement akzeptiert oder bestätigt hat, wird die Bestätigungsaufforderung aus der Tabelle "angeforderte Abonnenten" von Benutzer b entfernt.</p>
+<p>Eine Einstellung von "0" bedeutet, dass der Benutzer nicht dazu aufgefordert wird, wenn jemand seine Anwesenheit abonniert hat.</p></td>
+<td><p>Ganzzahl oder Token</p></td>
 <td><p>0-500</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die Anwesenheitsrichtlinien **Standardrichtlinie** und **Dienst: Mittel** werden bei der Bereitstellung von Lync Server standardmäßig installiert. In der folgenden Tabelle werden die spezifischen Einstellungen dieser beiden Anwesenheitsrichtlinien beschrieben.
+Standardmäßig werden beim Bereitstellen von lync Server die Richtlinien **Standardrichtlinie** und **Dienst: Medium** -Anwesenheitsrichtlinien installiert. In der folgenden Tabelle werden die spezifischen Einstellungen der beiden Anwesenheitsrichtlinien beschrieben.
 
-### Anwesenheitsrichtlinien
+### <a name="presence-policies"></a>Anwesenheitsrichtlinien
 
 <table>
 <colgroup>
@@ -92,10 +112,21 @@ Die Anwesenheitsrichtlinien **Standardrichtlinie** und **Dienst: Mittel** werden
 </tr>
 <tr class="even">
 <td><p>Dienst: Mittel</p></td>
-<td><p>Richtlinie für Anwendungen, für die mehr Benutzer die Anwesenheitsinformationen des Objekts abonnieren müssen.</p></td>
+<td><p>Richtlinie für Anwendungen, die mehr Benutzer benötigen, um die Anwesenheit des Objekts zu abonnieren.</p></td>
 <td><p>1000</p></td>
 <td><p>0</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

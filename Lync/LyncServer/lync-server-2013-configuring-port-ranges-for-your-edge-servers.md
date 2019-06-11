@@ -1,21 +1,43 @@
-﻿---
-title: Konfigurieren von Portbereichen für Edgeserver
-TOCTitle: Konfigurieren von Portbereichen für Edgeserver
-ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204996(v=OCS.15)
-ms:contentKeyID: 49294345
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Portbereichen für Ihre Edgeserver'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Edge Servers
+ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
+ms:contentKeyID: 48184469
+ms.date: 07/24/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73827b9c16903a6b3cf06f0c56446c0409fb9cd4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839187"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Portbereichen für Edgeserver
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Konfigurieren von Portbereichen für Ihre Edgeserver in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-07-24_
 
-Durch den Einsatz von Edgeservern müssen Sie keine separaten Portbereiche für Audio, Video und Anwendungsfreigabe konfigurieren. Zudem müssen die für die Edgeserver verwendeten Portbereiche nicht mit den Portbereichen übereinstimmen, die Sie für Ihre Konferenz-, Anwendungs- und Vermittlungsserver verwenden. Um jedoch die Administration zu vereinfachen, können Sie die Portbereiche Ihrer Edgeserver auch ändern, sodass sie mit den Portbereichen auf Ihren anderen Servern übereinstimmen. Nehmen wir beispielsweise an, Sie haben Ihre Konferenz- Anwendungs- und Vermittlungsserver für diese drei Portbereiche konfiguriert:
+Bei Edge-Servern müssen Sie keine separaten Portbereiche für Audio-, Video-und Anwendungsfreigaben konfigurieren. Ebenso müssen die für Edgeserver verwendeten Portbereiche nicht den Portbereichen entsprechen, die mit ihren Konferenz-, Anwendungs-und Vermittlungsservern verwendet werden. Bevor wir mit unserem Beispiel fortfahren, ist es wichtig zu betonen, dass diese Option zwar vorhanden ist, aber wir empfehlen, die Portbereiche nicht zu ändern, da sich dies negativ auf einige Szenarien auswirken kann, wenn Sie den 50000-Portbereich verschieben.
+
+Angenommen, Sie haben Ihre Konferenz-, Anwendungs-und Vermittlungsserver so konfiguriert, dass Sie diese Portbereiche verwenden:
 
 
 <table>
@@ -27,7 +49,7 @@ Durch den Einsatz von Edgeservern müssen Sie keine separaten Portbereiche für 
 <thead>
 <tr class="header">
 <th>Pakettyp</th>
-<th>Startport</th>
+<th>Port wird gestartet</th>
 <th>Anzahl der reservierten Ports</th>
 </tr>
 </thead>
@@ -48,7 +70,7 @@ Durch den Einsatz von Edgeservern müssen Sie keine separaten Portbereiche für 
 <td><p>8034</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Gesamt</strong></p></td>
+<td><p><strong>Summen</strong></p></td>
 <td><p>--</p></td>
 <td><p>24730</p></td>
 </tr>
@@ -56,15 +78,27 @@ Durch den Einsatz von Edgeservern müssen Sie keine separaten Portbereiche für 
 </table>
 
 
-Wie Sie sehen können, starten Ihre Portbereiche für Audio, Video und die Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports. Sie können einen bestimmten Edgeserver auch so konfigurieren, dass er diese gesamten Portwerte verwendet. Führen Sie dazu einen ähnlichen Befehl wie diesen in der Lync Server-Verwaltungsshell aus:
+Wie Sie sehen können, beginnen Ihre Portbereiche für Audio-, Video-und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732-Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass diese Gesamt Port Werte verwendet werden, indem Sie in der lync Server-Verwaltungsshell einen ähnlichen Befehl ausführen:
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisation gleichzeitig zu konfigurieren:
+Oder verwenden Sie den folgenden Befehl, um alle Edgeserver in Ihrer Organisation gleichzeitig zu konfigurieren:
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Über den folgenden Befehl in der Lync Server-Verwaltungsshell können Sie die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen:
+Sie können die aktuellen Porteinstellungen für Ihre Edgeserver mithilfe dieses Befehls der lync Server-Verwaltungsshell überprüfen:
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+
+Auch wenn wir diese Optionen zur Verfügung stellen, empfehlen wir Ihnen dringend, die Einstellungen für die Port-Konfiguration zu belassen.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,119 +1,186 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene'
-TOCTitle: Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene
-ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204731(v=OCS.15)
-ms:contentKeyID: 49293379
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
+ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:contentKeyID: 48183581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ed79d1144c1ccb7abeac8dcf7d1f4d44c63e93e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839355"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 
-In der Systemsteuerung für Lync Server 2013 können Sie im Abschnitt **Konfiguration für Beständiger Chat** auf der Seite **Beständiger Chat** Einstellungen für Beständiger Chat global konfigurieren, die auf alle Serverpools für beständigen Chat oder einen bestimmten Serverpool für beständigen Chat angewendet werden.
+In der lync Server 2013-Systemsteuerung können Sie auf der Seite "beständiger **** Chat" den Abschnitt "beständiger **Chat** " verwenden, um die Einstellungen für beständigen Chat Global zu konfigurieren, wenn Sie für alle beständigen Chat Server Pools gelten, oder Server Pool für beständigen Chat
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um der Topologie Unterstützung für beständigen Chat Server hinzuzufügen und dann die Topologie zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen von beständigem Chat Server zu Ihrer Bereitstellung in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
-## So konfigurieren Sie Beständiger Chat-Optionen global
+</div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das über die CsPersistentChatAdministrator- oder über die CsAdministrator-Rolle verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+<div>
 
-2.  Wählen Sie im Menü **Start** die Lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Lync Server-Systemsteuerung anwenden können, finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-configure-persistent-chat-options-globally"></a>So konfigurieren Sie beständige Chat Optionen Global
+
+1.  Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+
+2.  Wählen Sie im **Startmenü** die lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Nähere Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets</A>.
+    > [!IMPORTANT]  
+    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter Konfigurieren des beständigen <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Chat Servers mithilfe von Windows PowerShell</A> -Cmdlets in der Bereitstellungsdokumentation.
 
+    
+    </div>
 
+3.  Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Konfiguration für beständigen Chat**.
 
-3.  Klicken Sie in der Navigationsleiste auf der linken Seite auf **Beständiger Chat** und dann auf **Konfiguration für Beständiger Chat**.
-
-4.  Klicken Sie auf der Seite **Konfiguration für Beständiger Chat** auf **Neu** und dann auf **Standortkonfiguration** .
+4.  Klicken Sie auf der Seite **persistent Chat Configuration** auf **neu,** und klicken Sie dann auf **Websitekonfiguration**.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Wählen Sie diese Option, wenn die Konfiguration auf alle Serverpools für beständigen Chat angewendet werden soll, die für den Standort bereitgestellt wurden. Klicken Sie auf <STRONG>Poolkonfiguration</STRONG> , falls die Konfiguration auf einen bestimmten Serverpool für beständigen Chat angewendet werden soll.
+    > [!IMPORTANT]  
+    > Wählen Sie diese Option aus, wenn die Konfiguration auf alle beständigen Chat Server Pools angewendet werden soll, die auf der Website bereitgestellt werden. Klicken Sie auf <STRONG>Poolkonfiguration</STRONG> , wenn die Konfiguration auf einen bestimmten beständigen Chat Server Pool angewendet werden soll.
 
+    
+    </div>
 
+5.  Wählen Sie unter **Website auswählen**die Website aus, die für die Websitekonfiguration des beständigen Chat Servers konfiguriert werden soll.
 
-5.  Wählen Sie unter **Standort auswählen** den Standort aus, der für die Standortkonfiguration von Server für beständigen Chat konfiguriert werden soll.
-
-6.  Gehen Sie unter **Neue Konfiguration für Beständiger Chat** folgendermaßen vor:
+6.  Führen Sie unter **Neue Konfiguration für beständigen Chat** die folgenden Aktionen aus:
     
       - Geben Sie unter **Name** einen Namen für die neuen Konfigurationseinstellungen an. Standardmäßig ist der Standortname bereits vorhanden.
     
-      - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert, und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
+      - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
+        
+        <div>
         
 
-        > [!IMPORTANT]
-        > Der Server für beständigen Chat speichert diese Nachrichten im Arbeitsspeicher zwischen. Wenn Sie diesen Wert erhöhen, werden also mehr Nachrichten zwischengespeichert. Mit der Suchfunktion können Sie jederzeit auf die Verlaufsdaten zugreifen. Mit dem Standardwert wird lediglich die maximale Anzahl von Nachrichten angegeben, die nach dem Herstellen der Verbindung zu einem Chatroom angezeigt wird.
+        > [!IMPORTANT]  
+        > Der beständige Chat Server speichert diese Nachrichten im Arbeitsspeicher, wenn Sie also diese Zahl erhöhen, werden weitere Nachrichten zwischengespeichert. Sie können jederzeit auf Verlaufs Inhalte zugreifen, indem Sie suchen. Die Standardnummer bestimmt einfach die maximale Anzahl von Nachrichten, die Sie beim Herstellen einer Verbindung mit einem Chatroom anfänglich sehen.
 
+        
+        </div>
     
       - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
         
-
-        > [!IMPORTANT]
-        > Diese Einstellung wird auf dem Server erzwungen, weil benutzerdefinierte Anwendungen oder vorherige Gruppenchat-Clients ( Office Communications Server 2007 R2Gruppenchatserver oder Lync Server&nbsp;2010-Gruppenchat) Dateien in einem Chatroom bereitstellen können. Der Lync 2013-Client verfügt nicht über eine Funktion zum Hochladen und Herunterladen von Dateien. Falls Sie also über eine reine Lync 2013-Bereitstellung oder einen Lync 2013-Client verfügen, ist das Bereitstellen von Dateien in einem Chatroom von Server für beständigen Chat nicht möglich.
-
-    
-      - Unter **Teilnehmeraktualisierungsgrenze** wählen Sie den Grenzwert für Teilnehmeraktualisierungen aus. Server für beständigen Chat sendet Listeninformationen (Wer verfügt über eine Verbindung zum Chatroom?) an alle Teilnehmer, bis die Anzahl verbundener Benutzer diesen Wert erreicht. Der Standardwert lautet 75. Mit diesem Grenzwert wird die maximale Anzahl von Teilnehmern in einem Chatroom angegeben, nach dessen Erreichung Server für beständigen Chat keine Listeninformationen zur Anwesenheit von Teilnehmern im Chatroom mehr an verbundene Clients sendet.
-    
-      - (Optional). Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte benutzerdefinierte Raumverwaltung. Wenn Sie die Raumverwaltung nicht anpassen müssen und lediglich die Standardeinstellung verwenden möchten, können Sie diese Option leer lassen. Nach dem Festlegen der URL wird diese sowohl als interne als auch als externe Raumverwaltungs-URL angewendet.
+        <div>
         
-        Falls Sie die Raumerstellung anpassen und Ihren speziellen Unternehmensworkflow einbinden möchten, können Sie eine benutzerdefinierte Raumverwaltungslösung erstellen. Verwenden Sie dazu das Software Development Kit (SDK) von Server für beständigen Chat, hosten Sie es an einem beliebigen Ort, und fügen Sie die URL hier ein. Diese URL wird an den Client gesendet, damit ein Benutzer an Ihre benutzerdefinierte Raumverwaltungslösung weitergeleitet wird, wenn er einen Raum anzeigen oder erstellen möchte.
 
-7.  Klicken Sie auf **Commit** .
+        > [!IMPORTANT]  
+        > Diese Einstellung wird auf dem Server erzwungen, da benutzerdefinierte Anwendungen oder vorherige Gruppen-Chat-Clients, die Office Communications&nbsp;Server 2007 R2-Gruppen-Chat Server oder lync Server 2010 verwenden, Gruppen-Chat Dateien in einem Raum bereitstellen können. Wenn Sie über eine reine lync 2013-Bereitstellung oder einen lync 2013-Client verfügen, ist der lync 2013-Client nicht in der Lage, Dateien in einem beständigen Chat Server-Chatroom zu Posten.
 
-## So konfigurieren Sie Optionen von Beständiger Chat für einen bestimmten Serverpool für beständigen Chat
+        
+        </div>
+    
+      - Wählen Sie in der **Teilnehmer Aktualisierungs Grenze**das Limit für Teilnehmer Updates aus. Der beständige Chat Server sendet Dienstplan Informationen (die mit einem Chatroom verbunden sind) an alle Teilnehmer, bis die Anzahl der verbundenen Nutzer diese Nummer erreicht hat. Standardmäßig ist die Nummer 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum an, über die der beständige Chat Server keine Dienstplan Updates mehr an verbundene Clients sendet, die im Chatroom anwesend sind.
+    
+      - (Optional.) Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte benutzerdefinierte Raumverwaltung. Wenn Sie die Raumverwaltung nicht anpassen müssen und lediglich die Standardeinstellung verwenden möchten, können Sie diese Option leer lassen. Nach dem Festlegen der URL wird diese sowohl als interne als auch als externe Raumverwaltungs-URL angewendet.
+        
+        Wenn Sie Ihre Raum Erstellungs Erfahrung anpassen und ihren spezifischen geschäftsworkflow einbeziehen möchten, können Sie eine benutzerdefinierte Raum Verwaltungslösung erstellen, indem Sie den beständigen Chat Server Software Development Kit (SDK) verwenden, ihn an einer beliebigen Stelle hosten und die URL hier platzieren. Diese URL wird an den Client gesendet, sodass ein Benutzer, der versucht, einen Raum anzuzeigen oder zu erstellen, an Ihre benutzerdefinierte Raum Verwaltungslösung weitergeleitet wird.
 
-1.  Melden Sie sich mit einem Benutzerkonto, das über die CsPersistentChatAdministrator- oder über die CsAdministrator-Rolle verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+7.  Klicken Sie auf **Commit ausführen**.
 
-2.  Wählen Sie im Menü **Start** die Lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein. Ausführliche Informationen zu den unterschiedlichen Methoden, die Sie zum Starten der Lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
+
+<div>
+
+## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>So konfigurieren Sie beständige Chat-Optionen für einen bestimmten beständigen Chat-Server Pool
+
+1.  Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+
+2.  Wählen Sie im **Startmenü** die lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Nähere Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets</A>.
+    > [!IMPORTANT]  
+    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter Konfigurieren des beständigen <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Chat Servers mithilfe von Windows PowerShell</A> -Cmdlets in der Bereitstellungsdokumentation.
 
+    
+    </div>
 
+3.  Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Konfiguration für beständigen Chat**.
 
-3.  Klicken Sie in der Navigationsleiste auf der linken Seite auf **Beständiger Chat** und dann auf **Konfiguration für Beständiger Chat**.
+4.  Klicken Sie auf der Seite **Konfiguration für beständigen Chat** auf **Neu** und dann auf **Poolkonfiguration**.
 
-4.  Klicken Sie auf der Seite **Konfiguration für Beständiger Chat** auf **Neu** und dann auf **Poolkonfiguration**.
+5.  Wählen Sie in **Dienst auswählen**den Dienst aus, der dem Server Pool für beständigen Chat zugeordnet ist und konfiguriert werden soll.
 
-5.  Wählen Sie unter **Dienst auswählen** den Dienst aus, der dem zu konfigurierenden Serverpool für beständigen Chat zugeordnet ist.
-
-6.  Gehen Sie unter **Neue Konfiguration für Beständiger Chat** folgendermaßen vor:
+6.  Führen Sie unter **Neue Konfiguration für beständigen Chat** die folgenden Aktionen aus:
     
       - Geben Sie unter **Name** einen Namen für die neuen Konfigurationseinstellungen an. Standardmäßig ist der Standortpoolname bereits vorhanden.
     
-      - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert, und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
+      - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
+        
+        <div>
         
 
-        > [!IMPORTANT]
-        > Der Server für beständigen Chat speichert diese Nachrichten im Arbeitsspeicher zwischen. Wenn Sie diesen Wert erhöhen, werden also mehr Nachrichten zwischengespeichert. Mit der Suchfunktion können Sie jederzeit auf die Verlaufsdaten zugreifen. Mit dem Standardwert wird lediglich die maximale Anzahl von Nachrichten angegeben, die nach dem Herstellen der Verbindung zu einem Chatroom angezeigt wird.
+        > [!IMPORTANT]  
+        > Der beständige Chat Server speichert diese Nachrichten im Arbeitsspeicher, wenn Sie also diese Zahl erhöhen, werden weitere Nachrichten zwischengespeichert. Sie können jederzeit auf Verlaufs Inhalte zugreifen, indem Sie suchen. Die Standardnummer bestimmt einfach die maximale Anzahl von Nachrichten, die Sie beim Herstellen einer Verbindung mit einem Chatroom anfänglich sehen.
 
+        
+        </div>
     
       - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
         
+        <div>
+        
 
-        > [!IMPORTANT]
-        > Diese Einstellung wird auf dem Server erzwungen, weil benutzerdefinierte Anwendungen oder vorherige Gruppenchat-Clients ( Office Communications Server 2007 R2Gruppenchatserver oder Lync Server&nbsp;2010-Gruppenchat) Dateien in einem Chatroom bereitstellen können. Der Lync 2013-Client verfügt nicht über eine Funktion zum Hochladen und Herunterladen von Dateien. Falls Sie also über eine reine Lync 2013-Bereitstellung oder einen Lync 2013-Client verfügen, ist das Bereitstellen von Dateien in einem Chatroom von Server für beständigen Chat nicht möglich.
+        > [!IMPORTANT]  
+        > Diese Einstellung wird auf dem Server erzwungen, da benutzerdefinierte Anwendungen oder vorherige Gruppen-Chat-Clients (Office Communications Server&nbsp;2007 R2-Gruppen-Chat Server oder lync Server 2010, Gruppen-Chat) Dateien in einem Raum bereitstellen können. Wenn Sie über eine reine lync 2013-Bereitstellung oder einen lync 2013-Client verfügen, ist der lync 2013-Client nicht in der Lage, Dateien in einem beständigen Chat Server-Chatroom zu Posten.
 
+        
+        </div>
     
-      - Unter **Teilnehmeraktualisierungsgrenze** wählen Sie den Grenzwert für Teilnehmeraktualisierungen aus. Server für beständigen Chat sendet Listeninformationen (Wer verfügt über eine Verbindung zum Chatroom?) an alle Teilnehmer, bis die Anzahl verbundener Benutzer diesen Wert erreicht. Der Standardwert lautet 75. Mit diesem Grenzwert wird die maximale Anzahl von Teilnehmern in einem Chatroom angegeben, nach dessen Erreichung Server für beständigen Chat keine Listeninformationen zur Anwesenheit von Teilnehmern im Chatroom mehr an verbundene Clients sendet.
+      - Wählen Sie in der **Teilnehmer Aktualisierungs Grenze**das Limit für Teilnehmer Updates aus. Der beständige Chat Server sendet Dienstplan Informationen (die mit einem Chatroom verbunden sind) an alle Teilnehmer, bis die Anzahl der verbundenen Nutzer diese Nummer erreicht hat. Standardmäßig ist die Nummer 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum an, über die der beständige Chat Server keine Dienstplan Updates mehr an verbundene Clients sendet, die im Chatroom anwesend sind.
     
       - Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte Bereitstellung der Raumverwaltung. Wenn Sie die Raumverwaltung nicht anpassen müssen und lediglich die Standardeinstellung verwenden möchten, können Sie diese Option leer lassen.
         
-        Falls Sie die Raumerstellung anpassen und Ihren speziellen Unternehmensworkflow einbinden möchten, können Sie eine benutzerdefinierte Raumverwaltungslösung erstellen. Verwenden Sie dazu das Software Development Kit (SDK) von Server für beständigen Chat, hosten Sie es an einem beliebigen Ort, und fügen Sie die URL hier ein. Diese URL wird an den Client gesendet, damit ein Benutzer an Ihre benutzerdefinierte Raumverwaltungslösung weitergeleitet wird, wenn er einen Raum anzeigen oder erstellen möchte.
+        Wenn Sie Ihre Raum Erstellungs Erfahrung anpassen und ihren spezifischen geschäftsworkflow einbeziehen möchten, können Sie eine benutzerdefinierte Raum Verwaltungslösung erstellen, indem Sie den beständigen Chat Server Software Development Kit (SDK) verwenden, ihn an einer beliebigen Stelle hosten und die URL hier platzieren. Diese URL wird an den Client gesendet, damit ein Benutzer, der versucht, einen Raum anzuzeigen/zu erstellen, an Ihre benutzerdefinierte Raum Verwaltungslösung weitergeleitet wird.
 
-7.  Klicken Sie auf **Commit** .
+7.  Klicken Sie auf **Commit ausführen**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

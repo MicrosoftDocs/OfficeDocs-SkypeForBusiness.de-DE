@@ -1,67 +1,108 @@
-﻿---
-title: 'Lync Server 2013: Hinzufügen einer Survivable Branch Appliance zu Active Directory'
-TOCTitle: Hinzufügen einer Survivable Branch Appliance zu Active Directory
-ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425906(v=OCS.15)
-ms:contentKeyID: 49293774
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hinzufügen einer Survivable Branch Appliance zu Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add a Survivable Branch Appliance to Active Directory
+ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425906(v=OCS.15)
+ms:contentKeyID: 48183938
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4dc057318a0d241a28b8529802ea9f2016a1f5b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hinzufügen einer Survivable Branch Appliance zu Active Directory in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Hinzufügen einer Survivable Branch Appliance zu Active Directory in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-23_
 
-Wenn Sie die Bereitstellung einer Survivable Branch-Anwendung planen, müssen Sie die Survivable Branch-Anwendung zu den Active Directory-Domänendiensten (AD DS) hinzufügen. Führen Sie dieses Verfahren am zentralen Standort aus.
+Wenn Sie beabsichtigen, eine Survivable Branch-Appliance bereitzustellen, müssen Sie die Survivable Branch-Appliance zu Active Directory-Domänendiensten hinzufügen. Führen Sie dieses Verfahren am zentralen Standort aus.
+
+<div>
 
 
-> [!IMPORTANT]
-> Führen Sie dieses Verfahren nur aus, wenn Sie eine Survivable Branch-Anwendung bereitstellen. Führen Sie dieses Verfahren nicht aus, wenn Sie einen Survivable Branch-Server bereitstellen.
+> [!IMPORTANT]  
+> Führen Sie dieses Verfahren nur aus, wenn Sie eine Survivable Branch-Appliance bereitstellen. Führen Sie das Programm nicht aus, wenn Sie einen Überlebenden Verzweigungs Server bereitstellen.
 
 
 
-## So fügen Sie den Active Directory-Domänendiensten eine Survivable Branch Appliance hinzu
+</div>
 
-1.  Melden Sie sich bei einem Mitgliedsserver als Mitglied der Gruppe "Organisations-Admins" an.
+<div>
 
-2.  Klicken Sie nacheinander auf **Start** , **Verwaltungstools** und dann auf **Active Directory-Benutzer und -Computer** .
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>So fügen Sie eine Survivable Branch-Appliance zu Active Directory-Domänendiensten hinzu
 
-3.  Klicken Sie im Menü **Aktionen** auf **Neu** und dann auf **Computer** .
+1.  Melden Sie sich bei einem Mitgliedsserver als Mitglied der Gruppe "Unternehmensadministratoren" an.
 
-4.  Geben Sie im Dialogfeld **Neues Objekt - Computer** einen Namen für das Survivable Branch-Anwendung-Computerobjekt ein (z. B. BranchOffice1), und klicken Sie dann auf **Ändern** .
+2.  Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Active Directory-Benutzer und-Computer**.
 
-5.  Fügen Sie im Dialogfeld **Benutzer oder Gruppe auswählen** die Gruppe "RTCUniversalSBATechnicians" hinzu, und klicken Sie auf **OK** .
+3.  Klicken Sie im Menü **Aktionen** auf **neu** , und klicken Sie dann auf **Computer**.
+
+4.  Geben Sie im Dialogfeld **Neues Objekt – Computer** einen Namen für das Survivable Branch Appliance-Computer Objekt ein (beispielsweise BranchOffice1), und klicken Sie dann auf **ändern**.
+
+5.  Fügen Sie im Dialogfeld **Benutzer oder Gruppe auswählen** die RTCUniversalSBATechnicians-Gruppe hinzu, und klicken Sie dann auf **OK**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Ein Mitglied der Gruppe "RTCUniversalSBATechnicians" am Zweigstellenstandort wird dieses Gerät später der Domäne hinzufügen.
+    > [!NOTE]  
+    > Ein Mitglied der RTCUniversalSBATechnicians-Gruppe auf der Zweigstelle fügt dieses Gerät später zur Domäne hinzu.
 
+    
+    </div>
 
+6.  Klicken Sie auf **OK** , um das Survivable Branch Appliance-Computerobjekt zu speichern.
 
-6.  Klicken Sie auf **OK** , um das Survivable Branch-Anwendung-Computerobjekt zu speichern.
+7.  Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **ADSI-Bearbeitung**.
 
-7.  Klicken Sie auf **Start** und auf **Verwaltung** und anschließend auf **ADSI-Editor** .
+8.  Klicken Sie in der **ADSI-Bearbeitung**mit der rechten Maustaste auf das Computerobjekt, das Sie in den vorherigen Schritten erstellt haben, und klicken Sie dann auf **Eigenschaften**.
 
-8.  Klicken Sie im **ADSI-Editor** mit der rechten Maustaste auf das Computerobjekt, das Sie im vorherigen Schritt erstellt haben, und klicken Sie dann auf **Eigenschaften** .
+9.  Klicken Sie in der Liste Attribut auf **servicePrincipalName**, und klicken Sie dann auf **Bearbeiten**.
 
-9.  Klicken Sie in der Attributliste auf **servicePrincipalName** und anschließend auf **Bearbeiten** .
+10. Geben Sie im Feld **Wert zum Hinzufügen** den Namen\<Host/\> SBA \<-FQDN\> ein, wobei SBA-FQDN der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) Ihrer Survivable Branch Appliance ist. Geben Sie beispielsweise **Host/BranchOffice1. contoso. com**ein.
 
-10. Geben Sie im Feld **Hinzuzufügender Wert** den Wert "HOST/\<SBA-FQDN\>" ein, wobei "\<SBA-FQDN\>" für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihrer Survivable Branch-Anwendung steht. Geben Sie beispielsweise **HOST/BranchOffice1.contoso.com** ein.
+11. Klicken Sie auf **OK** , um die **servicePrincipalName** -Attributeinstellung zu speichern, und klicken Sie dann auf **OK** , um die Computerobjekt Eigenschaften zu speichern.
 
-11. Klicken Sie auf **OK** , um die Attributeinstellung **servicePrincipalName** zu speichern, und klicken Sie dann auf **OK** , um die Eigenschaften des Computerobjekts zu speichern.
+12. Klicken Sie in **Active Directory-Benutzer und-Computer**mit der rechten Maustaste auf **Benutzer**, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
 
-12. Klicken Sie in **Active Directory-Benutzer und -Computer** mit der rechten Maustaste auf **Users** , klicken Sie auf **Neu** und anschließend auf **Benutzer** .
+13. Geben Sie Informationen in den Assistenten ein, um ein Domänenbenutzerkonto für einen Survivable Branch Appliance-Techniker zu erstellen.
 
-13. Geben Sie Informationen im Assistenten ein, um ein Domänenbenutzerkonto für einen Survivable Branch-Anwendung-Techniker zu erstellen.
+14. Klicken Sie in **Active Directory-Benutzer und-Computer**auf **Benutzer**, klicken Sie mit der rechten Maustaste auf das Benutzerobjekt, und klicken Sie dann auf **zu einer Gruppe hinzufügen**.
 
-14. Klicken Sie in **Active Directory-Benutzer und -Computer** mit der rechten Maustaste auf **Users** , klicken Sie mit der rechten Maustaste auf das Benutzerobjekt, und klicken Sie dann auf **Einer Gruppe hinzufügen** .
+15. Geben Sie in **Geben Sie die zu wählenden Objektnamen ein** **RTCUniversalSBATechnicians**ein, und klicken Sie dann auf **OK**.
 
-15. Geben Sie unter **Geben Sie die zu verwendenden Objektnamen ein** den Wert **RTCUniversalSBATechnicians** ein, und klicken Sie dann auf **OK** .
+16. Wiederholen Sie die Schritte 12-15 für jeden Zweigstellen Techniker.
 
-16. Wiederholen Sie die Schritte 12 bis 15 für jeden Techniker am Zweigstellenstandort.
+**Nächster Schritt**: [Hinzufügen von Zweigstellen zu Ihrer Topologie in lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-**Next step**: [Hinzufügen von Zweigstellenstandorten zur Topologie in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

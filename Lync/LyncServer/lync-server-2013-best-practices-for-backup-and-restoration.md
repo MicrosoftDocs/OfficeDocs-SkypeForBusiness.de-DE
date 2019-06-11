@@ -1,63 +1,101 @@
-﻿---
-title: Bewährte Methoden für die Sicherung und Wiederherstellung
-TOCTitle: Bewährte Methoden für die Sicherung und Wiederherstellung
-ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202184(v=OCS.15)
-ms:contentKeyID: 52056409
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: bewährte Methoden für Sicherung und Wiederherstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for backup and restoration
+ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
+ms:contentKeyID: 51541500
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839725"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bewährte Methoden für die Sicherung und Wiederherstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Bewährte Methoden für die Sicherung und Wiederherstellung für lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-In diesem Abschnitt werden bewährte Methoden für zwei wichtige Bereiche beschrieben:
+Dieser Abschnitt enthält zwei Arten von bewährten Methoden:
 
-  - Bewährte Methoden für die Sicherung und Wiederherstellung
+  - Bewährte Methoden für Sicherung und Wiederherstellung
 
-  - Bewährte Methoden für die Minimierung der Auswirkungen eines Notfalls
+  - Bewährte Methoden zum Minimieren der Auswirkungen eines Notfalls
 
-## Bewährte Methoden für die Sicherung und Wiederherstellung
+<div>
 
-Mit den folgenden bewährten Methoden können Sie den Vorgang der Sicherung und Wiederherstellung von Daten vereinfachen:
+## <a name="best-practices-for-backup-and-restoration"></a>Bewährte Methoden für Sicherung und Wiederherstellung
 
-  - Führen Sie regelmäßige Sicherungen in geeigneten Zeitabständen aus. Der einfachste und am häufigsten angewendete Sicherungstyp und -zeitplan ist eine vollständige nächtliche Sicherung der gesamten SQL Server-Datenbank. Wenn dann eine Wiederherstellung notwendig ist, wird für den Wiederherstellungsprozess nur eine Sicherung benötigt, und ein etwaiger Datenverlust umfasst nur die Daten eines Tages.
+Wenden Sie beim Sichern oder Wiederherstellen Ihrer Daten die folgenden bewährten Methoden an, um den Sicherungs-und Wiederherstellungsprozess zu vereinfachen:
 
-  - Wenn Sie Cmdlets oder die Lync Server-Systemsteuerung verwenden, um Konfigurationsänderungen vorzunehmen, erstellen Sie nach der Durchführung der Änderungen mithilfe des **Export-CsConfiguration**-Cmdlets eine Momentaufnahmensicherung der Konfigurationsdatei der Topologie (**Xds.mdf**), sodass diese Änderungen nicht verloren gehen, falls Sie die Datenbanken wiederherstellen müssen. Beachten Sie, dass diese Konfiguration im XML-Format gesichert und als ZIP-Datei komprimiert wird.
+  - Führen Sie regelmäßige Sicherungen in angemessenen Abständen aus. Der einfachste und am häufigsten verwendete Backup-Typ und-Rotations Zeitplan ist eine vollständige, nächtliche Sicherung der gesamten SQL Server-Datenbank. Wenn die Wiederherstellung erforderlich ist, erfordert der Wiederherstellungsprozess nur eine Sicherung, und es sollten nicht mehr als die Daten eines Tages verloren gehen.
 
-  - Stellen Sie sicher, dass im freigegebenen Ordner, den Sie für die Sicherung von Lync Server verwenden möchten, ausreichend Speicherplatz zur Aufnahme aller gesicherten Daten frei ist.
+  - Wenn Sie mithilfe von Cmdlets oder der lync Server-Systemsteuerung Konfigurationsänderungen vornehmen, verwenden Sie das Cmdlet **Export-CsConfiguration** , um eine Snapshot-Sicherung der Topologie-Konfigurationsdatei (XDS. mdf) zu erstellen, nachdem Sie die Änderungen vorgenommen haben, damit die Änderungen nicht verloren gehen, wenn Sie müssen Ihre Datenbanken wiederherstellen. Beachten Sie, dass diese Konfiguration im XML-Format gesichert und als ZIP-Datei komprimiert wird.
 
-  - Planen Sie Sicherungen für einen Zeitpunkt, zu dem Lync Server typischerweise wenig genutzt wird, um die Serverleistung zu optimieren und die Auswirkungen auf die Benutzer möglichst gering zu halten.
+  - Stellen Sie sicher, dass der freigegebene Ordner, den Sie zum Sichern von lync Server verwenden möchten, über genügend Speicherplatz verfügt, um alle gesicherten Daten zu speichern.
 
-  - Achten Sie darauf, dass der Speicherort, an dem Sie Daten sichern, sicher ist (empfohlen wird ein Remotestandort).
+  - Planen Sie Sicherungen, wenn die lync Server-Auslastung in der Regel gering ist, um die Serverleistung und die Benutzerfreundlichkeit zu verbessern.
 
-  - Bewahren Sie Sicherungsdateien für den Fall, dass Sie die Daten wiederherstellen müssen, an leicht zugänglicher Stelle auf.
+  - Stellen Sie sicher, dass der Speicherort, an dem Sie Daten sichern, sicher ist (Wir empfehlen einen Remotestandort).
 
-  - Planen und terminieren Sie regelmäßige Tests der in Ihrer Organisation implementierten Wiederherstellungsprozesse ein.
+  - Bewahren Sie die Sicherungsdateien auf, wo Sie verfügbar sein werden, falls Sie die Daten wiederherstellen müssen.
 
-  - Überprüfen Sie die Sicherungs- und Wiederherstellungsprozesse im Voraus, um sicherzugehen, dass sie wie erwartet funktionieren.
+  - Planen und planen Sie regelmäßige Tests der Wiederherstellungsprozesse, die von Ihrer Organisation unterstützt werden.
 
-## Bewährte Methoden für die Minimierung der Auswirkungen eines Notfalls
+  - Überprüfen Sie Ihre Sicherungs-und Wiederherstellungsprozesse im voraus, um sicherzustellen, dass Sie wie erwartet funktionieren.
 
-Die beste Vorgehensweise für den Umgang mit Dienstunterbrechungen verheerenden Ausmaßes (verursacht etwa durch Stromausfall oder plötzliche Hardwarefehler) besteht darin: Gehen Sie davon aus, dass es passieren kann, und treffen Sie entsprechende Vorkehrungen. Die Notfallpläne, die Sie als Teil Ihrer Sicherungs- und Wiederherstellungsstrategie entwickeln, sollten Folgendes beinhalten:
+</div>
 
-Wenn Lync-Dienste, mit einem Minimum an Unterbrechungen und Ausfällen, für Ihr Unternehmen geschäftsentscheidend sind, sollten Sie überlegen, Poolpaare von Front-End-Servern zu implementieren, so wie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md) beschrieben. Wenn dann bei einem dieser Pools ein Notfall auftritt, kann ein Administrator die Benutzer dieses Pool mit einer minimalen Ausfallzeit auf den anderen Pool umstellen.
+<div>
 
-Die Notfallpläne, die Sie als Teil Ihrer Sicherungs- und Wiederherstellungsstrategie entwickeln, sollten Folgendes beinhalten:
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a>Bewährte Methoden zum Minimieren der Auswirkungen eines Notfalls
 
-  - Sorgen Sie dafür, dass Ihre Softwaremedien sowie Software- und Firmwareupdates immer leicht zugänglich sind.
+Die beste Strategie für den Umgang mit katastrophalen Dienstunterbrechungen (verursacht durch nicht verwaltbare Ereignisse wie Stromausfälle oder plötzliche Hardwareausfälle) besteht darin, davon auszugehen, dass dies geschieht, und entsprechend zu planen.
 
-  - Führen Sie Unterlagen über Ihre Hardware und Software.
+Wenn die lync-Dienste mit einem mindestunterbrechungs-und Ausfallrisiko für Ihre Organisation unternehmenskritisch sind, sollten Sie in der Lage sein, gekoppelte Pools von Front-End-Servern zu implementieren, wie unter [Planen von hoher Verfügbarkeit und Disaster Recovery in lync Server beschrieben. 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Wenn eines dieser Pools einen Notfall hat, kann ein Administrator die Benutzer des Pools so umschalten, dass Sie mit einem mindestausfall von einem anderen Pool bedient werden.
 
-  - Sichern Sie Ihre Daten regelmäßig, und überwachen Sie die Integrität der Sicherungen.
+Die Notfall Verwaltungspläne, die Sie im Rahmen ihrer Sicherungs-und Wiederherstellungsstrategie entwickeln, sollten Folgendes umfassen:
 
-  - Schulen Sie Ihre Mitarbeiter in den Bereichen Notfallwiederherstellung und Dokumentieren von Verfahren, und führen Sie Übungen mit Simulationen der Notfallwiederherstellung durch.
+  - Sie können Ihr Software-Medium sowie Ihre Software-und Firmware-Updates bereitstellen.
 
-  - Halten Sie Hardware-Austauschkomponenten bereit; wenn Sie Service Level Agreements (SLAs) mit Hardwareherstellern und -lieferanten abgeschlossen haben, sollte darin der umgehende Ersatz von Hardware geregelt sein.
+  - Verwalten von Hardware-und Software Datensätzen
 
-  - Speichern Sie die Transaktionsprotokolldateien (LDF-Dateien) getrennt von den Datenbankdateien (MDF-Dateien).
+  - Regelmäßiges Sichern Ihrer Daten und Überwachen der Integrität Ihrer Sicherungen
+
+  - Schulung Ihrer Mitarbeiter in Disaster Recovery, Dokumentation von Verfahren und Implementierung von Disaster Recovery-Simulationsübungen.
+
+  - Wenn Sie Ersatzhardware zur Verfügung haben oder wenn Sie über einen Service Level Agreement (SLA) verfügen, können Sie sich mit Hardwareanbietern und Lieferanten für den sofortigen Austausch beauftragen.
+
+  - Trennen des Speicherorts ihrer Transaktionsprotokolldateien (LDF-Dateien) und Datenbankdateien (MDF-Dateien)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

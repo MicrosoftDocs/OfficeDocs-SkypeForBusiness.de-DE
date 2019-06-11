@@ -1,67 +1,112 @@
-﻿---
-title: 'Lync Server 2013: Konfigurationsvoraussetzungen und -rollen für Ansagen'
-TOCTitle: Konfigurationsvoraussetzungen und -rollen für Ansagen
-ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398658(v=OCS.15)
-ms:contentKeyID: 49294598
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurationsvoraussetzungen und -rollen für Ansagen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Announcement configuration prerequisites and roles
+ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
+ms:contentKeyID: 48184674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb5f909170e1de2566e21e9305175211c306fee6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840039"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurationsvoraussetzungen und -rollen für Ansagen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Konfigurationsvoraussetzungen und -rollen für Ansagen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-25_
 
-Ansagen sind eine Enterprise-VoIP-Funktion für die Anrufverwaltung. In diesem Thema wird beschrieben, welche Voraussetzungen erfüllt sein müssen, bevor Sie Ansagen konfigurieren können, und welche Rollenzuweisungen Sie zum Ausführen der Konfigurationsaufgaben benötigen.
+Ankündigung ist eine Enterprise-VoIP-anrufverwaltungsfunktion. In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie die Ankündigung und die Rollenzuweisungen konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.
 
-Hierbei wird davon ausgegangen, dass Sie die Planungsdokumentation im Zusammenhang mit Ansagen gelesen haben (siehe [Planen der Anrufverwaltungsfunktionen in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
+In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation zu Ankündigungen gelesen haben (siehe [Planen von Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
 
-## Konfigurationsvoraussetzungen für Ansagen
+<div>
 
-Für die Ansageanwendung sind die folgenden Komponenten erforderlich:
+## <a name="announcement-configuration-prerequisites"></a>Voraussetzungen für die Ankündigungs Konfiguration
+
+Für die Ankündigungs Anwendung sind die folgenden Komponenten erforderlich:
 
   - Anwendungsdienst
 
   - Reaktionsgruppenanwendung
 
-  - Dateispeicher für Audiodateien
+  - Dateispeicher zum Speichern von Audiodateien
 
-All diese Komponenten werden bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert.
+Alle diese Komponenten werden standardmäßig installiert, wenn Sie Enterprise-VoIP bereitstellen.
 
-## Rollen für die Konfiguration von Ansagen
+</div>
 
-Sie können Ansagen mithilfe der folgenden Verwaltungstools konfigurieren:
+<div>
+
+## <a name="announcement-configuration-roles"></a>Ankündigungs Konfigurations Rollen
+
+Sie können die folgenden Verwaltungstools verwenden, um Ankündigungen zu konfigurieren:
 
   - Lync Server-Systemsteuerung
 
   - Lync Server-Verwaltungsshell
 
-Für die Konfiguration der Ansageanwendung ist eine der folgenden Administratorrollen erforderlich:
+Zum Konfigurieren der Ankündigungs Anwendung ist eine der folgenden Administratorrollen erforderlich:
 
-  - **CsVoiceAdministrator**   Diese Administratorrolle kann VoIP-bezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten (einschließlich aller Ansageeinstellungen).
+  - **CsVoiceAdministrator**   diese Administratorrolle kann alle sprachbezogenen Einstellungen und Richtlinien, einschließlich Ankündigungseinstellungen, erstellen, konfigurieren und verwalten.
 
-  - **CsServerAdministrator**   Mit dieser Administratorrolle können Sie Server und Dienste verwalten und überwachen, eine Problembehandlung für diese Server und Dienste durchführen sowie alle Ansageeinstellungen konfigurieren.
+  - **CsServerAdministrator**   diese Administratorrolle kann Server und Dienste verwalten, überwachen und behandeln sowie alle Ankündigungseinstellungen konfigurieren.
 
-  - **CsAdministrator**   Mit dieser Administratorrolle können Sie sämtliche Verwaltungsaufgaben ausführen und alle Einstellungen ändern.
+  - **CsAdministrator**   diese Administratorrolle kann alle administrativen Aufgaben ausführen und alle Einstellungen ändern.
 
-  - **CsViewOnlyAdministrator**   Mit dieser Administratorrolle können Sie die Bereitstellung anzeigen, um die Integrität zu überwachen.
+  - **CsViewOnlyAdministrator**   diese Administratorrolle kann die Bereitstellung anzeigen, um den Bereitstellungsstatus zu überwachen.
 
-
-> [!NOTE]
-> Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A> in der Planungsdokumentation.
+<div>
 
 
+> [!NOTE]  
+> Ausführliche Informationen zu administrativen Benutzerrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation.
 
-## Siehe auch
 
-#### Konzepte
 
-[Bereitstellen von Enterprise-VoIP in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+</div>
 
-#### Weitere Ressourcen
+</div>
 
-[Planen der Anrufverwaltungsfunktionen in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Bereitstellen von Enterprise-VoIP in lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[Planen der Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
