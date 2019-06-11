@@ -1,43 +1,71 @@
-﻿---
-title: Anzeigen von Clientversionsrichtlinien
-TOCTitle: Anzeigen von Clientversionsrichtlinien
-ms:assetid: 6cd9a897-c694-4d6a-8259-2d3c01fce275
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ898479(v=OCS.15)
-ms:contentKeyID: 52056362
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von clientversionsrichtlinien'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View client version policies
+ms:assetid: 6cd9a897-c694-4d6a-8259-2d3c01fce275
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898479(v=OCS.15)
+ms:contentKeyID: 50873759
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4d90b3a40b03ce44201963b1276ee18a2fd9ac3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847262"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Clientversionsrichtlinien
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+# <a name="view-client-version-policies-in-lync-server-2013"></a><span data-ttu-id="9ed3b-102">Anzeigen von clientversionsrichtlinien in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ed3b-102">View client version policies in Lync Server 2013</span></span>
 
-Clientversionsrichtlinien dienen zum Anwenden einer Reihe von Regeln für die Clientversionsverwaltung entweder auf globaler Ebene oder auf bestimmte Standorte, Pools oder Benutzergruppen. Sie können die in Ihrer Lync Server 2013-Umgebung konfigurierten Clientversionsrichtlinien entweder in der Systemsteuerung für Lync Server 2013 oder in der Verwaltungsshell für Lync Server 2013 anzeigen.
+</div>
 
-## So zeigen Sie Clientversionsrichtlinien mithilfe der Lync Server-Systemsteuerung an
+<div id="mainSection">
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+<div id="mainBody">
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Clientversionsrichtlinie**.
+<span data-ttu-id="9ed3b-103">_**Letztes Änderungsdatum des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9ed3b-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  Wenn Sie die Regeln für eine Clientversionsrichtlinie auf der Seite **Clientversionsrichtlinie** anzeigen möchten, doppelklicken Sie auf die anzuzeigende Richtlinie.
+<span data-ttu-id="9ed3b-104">Clientversionsrichtlinien werden verwendet, um eine Reihe von Client Versions Verwaltungsregeln Global oder auf eine bestimmte Website, einen Pool oder eine Gruppe von Benutzern anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="9ed3b-105">Sie können die clientversionsrichtlinien anzeigen, die in ihrer lync Server 2013-Umgebung über die lync Server 2013-Systemsteuerung oder die lync Server 2013-Verwaltungsshell konfiguriert wurden.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-105">You can view the client version policies that have been configured in your Lync Server 2013 environment from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
-## Anzeigen von Clientversionsrichtlinien mithilfe von Windows PowerShell-Cmdlets
+<div>
 
-Sie können Clientversionsrichtlinien mithilfe des Cmdlets **Get-CsClientVersionPolicy** anzeigen. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="9ed3b-106">So zeigen Sie clientversionsrichtlinien mithilfe der lync Server-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="9ed3b-106">To view client version policies by using Lync Server Control Panel</span></span>
 
-## So zeigen Sie Clientversionsrichtlinien an
+1.  <span data-ttu-id="9ed3b-107">Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-  - Zum Anzeigen von Informationen zu allen Ihren Clientversionsrichtlinien geben Sie in der Lync Server-Verwaltungsshell folgenden Befehl ein und drücken dann die EINGABETASTE:
+2.  <span data-ttu-id="9ed3b-108">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9ed3b-109">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9ed3b-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="9ed3b-110">Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche für die **Client Versionsrichtlinien** -Navigation.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+
+4.  <span data-ttu-id="9ed3b-111">Wenn Sie die Regeln für eine clientversionsrichtlinie anzeigen möchten, doppelklicken Sie auf der Seite **clientversionsrichtlinie** auf die Richtlinie, die Sie anzeigen möchten.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-111">If you want to view the rules for a client version policy, on the **Client Version Policy** page, double-click the policy you want to view.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="9ed3b-112">Anzeigen von Client Versionsrichtlinien mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="9ed3b-112">Viewing Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="9ed3b-113">Sie können clientversionsrichtlinien mit dem Cmdlet **Get-CsClientVersionPolicy** anzeigen.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-113">You can view client version policies by using the **Get-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="9ed3b-114">Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="9ed3b-115">Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.</span><span class="sxs-lookup"><span data-stu-id="9ed3b-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-client-version-policies"></a><span data-ttu-id="9ed3b-116">So zeigen Sie clientversionsrichtlinien an</span><span class="sxs-lookup"><span data-stu-id="9ed3b-116">To view client version policies</span></span>
+
+  - <span data-ttu-id="9ed3b-117">Wenn Sie Informationen zu allen clientversionsrichtlinien anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:</span><span class="sxs-lookup"><span data-stu-id="9ed3b-117">To view information about all your client version policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionPolicy
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    <span data-ttu-id="9ed3b-118">Es werden etwa folgende Informationen zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="9ed3b-118">That will return information similar to this:</span></span>
     
         Identity    : Global
         Rules       : {RuleId=2336c611-a243-4c5d-994b-eea8a524d0e4;
@@ -59,5 +87,19 @@ Sie können Clientversionsrichtlinien mithilfe des Cmdlets **Get-CsClientVersion
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy).
+</div>
+
+<span data-ttu-id="9ed3b-119">Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) .</span><span class="sxs-lookup"><span data-stu-id="9ed3b-119">For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,72 +1,114 @@
-﻿---
-title: Verschieben eines einzelnen Benutzers zum Pilotpool
-TOCTitle: Verschieben eines einzelnen Benutzers zum Pilotpool
-ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688109(v=OCS.15)
-ms:contentKeyID: 49890814
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verschieben eines einzelnen Benutzers in den Pilot Pool
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move a single user to the pilot pool
+ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
+ms:contentKeyID: 49733708
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verschieben eines einzelnen Benutzers zum Pilotpool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+# <a name="move-a-single-user-to-the-pilot-pool"></a><span data-ttu-id="b6d1a-102">Verschieben eines einzelnen Benutzers in den Pilot Pool</span><span class="sxs-lookup"><span data-stu-id="b6d1a-102">Move a single user to the pilot pool</span></span>
 
-Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool in Ihren Lync Server 2013-Pilotpool verschieben, indem Sie die Systemsteuerung für Lync Server 2013 oder die Verwaltungsshell für Lync Server 2013 verwenden. Im nachfolgenden Beispiel ist in der Spalte "Registrierungspool" **\<Office Communications Server\>** der Office Communications Server 2007 R2-Pool, und alle sechs Benutzer sind mit diesem Pool verbunden. Verwenden Sie die folgenden Verfahren, um einen Benutzer in Ihren Lync Server 2013-Pool zu verschieben, und zwar mithilfe der Systemsteuerung für Lync Server 2013 und der Lync Server-Verwaltungsshell.
+</div>
 
-![Suche nach OCS-Benutzern in Lync Server-Systemsteuerung](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Suche nach OCS-Benutzern in Lync Server-Systemsteuerung")
+<div id="mainSection">
 
-## So verschieben Sie einen Benutzer mithilfe von Systemsteuerung für Lync Server 2013
+<div id="mainBody">
 
-1.  Melden Sie sich über ein Konto, das Mitglied der Gruppe "RTCUniversalServerAdmins" oder der Administratorrolle "CsAdministrator" oder "CsUserAdministrator" ist, am Front-End-Server an.
+<span> </span>
 
-2.  Öffnen Sie die Lync Server-Systemsteuerung.
+<span data-ttu-id="b6d1a-103">_**Letztes Änderungsdatum des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="b6d1a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-3.  Klicken Sie auf **Benutzer**.
+<span data-ttu-id="b6d1a-104">Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool in ihren lync Server 2013-Pilot Pool mithilfe der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwaltungsshell verschieben.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-104">You can move a user from your Office Communications Server 2007 R2 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="b6d1a-105">Im folgenden Beispiel ist \*\* \<Office Communications\> \*\* Server in der Spalte Registrierungspool der Office Communications Server 2007 R2-Pool, und alle sechs dieser Benutzer sind mit diesem Pool verbunden.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-105">In the example below, in the Registrar pool column, **\<Office Communications Server\>** is the Office Communications Server 2007 R2 pool, and all six of these users are connected to this pool.</span></span> <span data-ttu-id="b6d1a-106">Führen Sie die folgenden Verfahren aus, um einen Benutzer mithilfe der lync Server 2013-Systemsteuerung und der lync Server-Verwaltungsshell in ihren lync Server 2013-Pool zu verschieben.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-106">Use the following procedures to move a user to your Lync Server 2013 pool using Lync Server 2013 Control Panel and Lync Server Management Shell.</span></span>
 
-4.  Klicken Sie auf der Registerkarte **Benutzersuche** auf die Schaltfläche **Suchen**.
+<span data-ttu-id="b6d1a-107">![Suchen nach OCS-Benutzern in der lync Server-System] Steuerung (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-System") Steuerung</span><span class="sxs-lookup"><span data-stu-id="b6d1a-107">![Search for OCS users in Lync Server Control Panel](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Search for OCS users in Lync Server Control Panel")</span></span>
 
-5.  Klicken Sie dann auf **Filter hinzufügen**.
+<div>
 
-6.  Erstellen Sie einen Filter, in dem der **Office Communications Server-Benutzer** gleich **True** ist.
+## <a name="to-move-a-user-by-using-the-lync-server-2013-control-panel"></a><span data-ttu-id="b6d1a-108">So verschieben Sie einen Benutzer mithilfe der lync Server 2013-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="b6d1a-108">To move a user by using the Lync Server 2013 Control Panel</span></span>
 
-7.  Klicken Sie auf **Suchen**, um nach Legacybenutzern von Office Communications Server 2007 R2 zu suchen.
+1.  <span data-ttu-id="b6d1a-109">Melden Sie sich über ein Konto, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsAdministrator“ oder „CsUserAdministrator“ ist, am Front-End-Server an.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-109">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+
+2.  <span data-ttu-id="b6d1a-110">Öffnen Sie die Lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-110">Open Lync Server Control Panel.</span></span>
+
+3.  <span data-ttu-id="b6d1a-111">Klicken Sie auf **Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-111">Click **Users**.</span></span>
+
+4.  <span data-ttu-id="b6d1a-112">Klicken Sie auf der Registerkarte **Benutzersuche** auf die Schaltfläche **Suchen** .</span><span class="sxs-lookup"><span data-stu-id="b6d1a-112">From the **User Search** tab, click the **Search** button.</span></span>
+
+5.  <span data-ttu-id="b6d1a-113">Klicken Sie als nächstes auf **Filter hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-113">Next, click **Add Filter**.</span></span>
+
+6.  <span data-ttu-id="b6d1a-114">Erstellen Sie einen Filter, bei dem **Office Communications Server-Benutzer** gleich **true**ist.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-114">Create a filter where **Office Communications Server user** is equal to **True**.</span></span>
+
+7.  <span data-ttu-id="b6d1a-115">Klicken Sie auf **Suchen** , um nach Legacy Office Communications Server 2007 R2-Benutzern zu suchen.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-115">Click **Find** to search for legacy Office Communications Server 2007 R2 users.</span></span>
     
-    ![Suche nach OCS-Benutzern in Lync Server-Systemsteuerung](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Suche nach OCS-Benutzern in Lync Server-Systemsteuerung")  
+    <span data-ttu-id="b6d1a-116">![Suchen nach OCS-Benutzern in der lync Server-System] Steuerung (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-System") Steuerung</span><span class="sxs-lookup"><span data-stu-id="b6d1a-116">![Search for OCS users in Lync Server Control Panel](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Search for OCS users in Lync Server Control Panel")</span></span>  
 
-8.  Wählen Sie einen Benutzer aus, den Sie in den Lync Server 2013-Pool verschieben möchten. In diesem Beispiel verschieben wir den Benutzer Sara Davis.
+8.  <span data-ttu-id="b6d1a-117">Wählen Sie einen Benutzer aus, den Sie in den lync Server 2013-Pool verschieben möchten.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-117">Select a user that you want to move to the Lync Server 2013 pool.</span></span> <span data-ttu-id="b6d1a-118">In diesem Beispiel verschieben wir den Benutzer Sara Davis.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-118">In this example, we will move user Sara Davis.</span></span>
 
-9.  Wählen Sie im Menü **AktionAusgewählte Benutzer in Pool verschieben**.
+9.  <span data-ttu-id="b6d1a-119">Wählen Sie im Menü **Aktion** die Option **Ausgewählte Benutzer in Pool verschieben** aus.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-119">On the **Action** menu, select **Move selected users to pool**.</span></span>
 
-10. Wählen Sie in der Dropdownliste den Lync Server 2013-Pool aus.
+10. <span data-ttu-id="b6d1a-120">Wählen Sie in der Dropdownliste den lync Server 2013-Pool aus.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-120">From the drop-down list, select the Lync Server 2013 pool.</span></span>
 
-11. Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**. Klicken Sie anschließend auf **OK**.
+11. <span data-ttu-id="b6d1a-121">Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-121">Click **Action** and then click **Move selected users to pool**.</span></span> <span data-ttu-id="b6d1a-122">Klicken Sie anschließend auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-122">Click **OK**.</span></span>
     
-    ![Zielpool in Dialogfeld zum Verschieben von Benutzern festlegen](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Zielpool in Dialogfeld zum Verschieben von Benutzern festlegen")  
+    <span data-ttu-id="b6d1a-123">![Festlegen des Ziel Pools im Dialogfeld "Benutzer verschieben"] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Festlegen des Ziel Pools im Dialogfeld \"Benutzer verschieben\"")</span><span class="sxs-lookup"><span data-stu-id="b6d1a-123">![Setting the Destination pool in Move Users dialog](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Setting the Destination pool in Move Users dialog")</span></span>  
 
-12. Stellen Sie sicher, dass die Spalte **Registrierungspool** für den Benutzer nun den Lync Server 2013-Pool enthält. Ist dies der Fall, wurde der Benutzer erfolgreich verschoben.
+12. <span data-ttu-id="b6d1a-124">Überprüfen Sie, ob die Spalte des **registrierungspools** für den Benutzer jetzt den lync Server 2013-Pool enthält, der angibt, dass der Benutzer erfolgreich verschoben wurde.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-124">Verify that the **Registrar pool** column for the user now contains the Lync Server 2013 pool, which indicates that the user has been successfully moved</span></span>
 
-## So verschieben Sie einen Benutzer mithilfe von Verwaltungsshell für Lync Server 2013
+</div>
 
-1.  Öffnen Sie die Lync Server-Verwaltungsshell.
+<div>
 
-2.  Geben Sie an der Befehlszeile Folgendes ein:
+## <a name="to-move-a-user-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="b6d1a-125">So verschieben Sie einen Benutzer mithilfe der lync Server 2013-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="b6d1a-125">To move a user by using the Lync Server 2013 Management Shell</span></span>
+
+1.  <span data-ttu-id="b6d1a-126">Öffnen Sie die lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-126">Open the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="b6d1a-127">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="b6d1a-127">At the command line, type the following:</span></span>
     
         Move-CsLegacyUser -Identity "David Pelton" -Target "pool02.contoso.net"
 
-3.  Geben Sie anschließend an der Befehlszeile Folgendes ein:
+3.  <span data-ttu-id="b6d1a-128">Geben Sie als nächstes in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="b6d1a-128">Next, at the command line, type the following:</span></span>
     
         Get-CsUser -Identity "David Pelton"
 
-4.  Die **RegistrarPool** -Identität zeigt jetzt auf den Lync Server 2013-Pool. Das Vorhandensein dieser Identität zeigt an, dass der Benutzer erfolgreich verschoben worden ist.
+4.  <span data-ttu-id="b6d1a-129">Die **RegistrarPool** -Identität verweist nun auf den lync Server 2013-Pool.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-129">The **RegistrarPool** identity now points to the Lync Server 2013 pool.</span></span> <span data-ttu-id="b6d1a-130">Das vorhanden sein dieser Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde.</span><span class="sxs-lookup"><span data-stu-id="b6d1a-130">The presence of this identity confirms that the user has been successfully moved.</span></span>
     
-    ![Ausgabe von Get-CsUser-Cmdlet mit Filter Identity](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe von Get-CsUser-Cmdlet mit Filter Identity")  
+    <span data-ttu-id="b6d1a-131">![Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe vom Cmdlet \"Get-CsUser\" mit dem Identitäts Filter")</span><span class="sxs-lookup"><span data-stu-id="b6d1a-131">![Output from Get-CsUser cmdlet with Identity filter](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Output from Get-CsUser cmdlet with Identity filter")</span></span>  
+    
+    <div>
     
 
-    > [!NOTE]
-    > Ausführliche Informationen zum <STRONG>Get-CsUser</STRONG> -Cmdlet erhalten Sie, indem Sie folgenden Befehl ausführen: <STRONG>Get-Help Get-CsUser -Detailed</STRONG>
+    > [!NOTE]  
+    > <span data-ttu-id="b6d1a-132">Details zum Cmdlet " <STRONG>Get-CsUser</STRONG> " finden Sie unter <STRONG>Get-Help Get-CsUser – detailed</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="b6d1a-132">For details about the <STRONG>Get-CsUser</STRONG> cmdlet, run: <STRONG>Get-Help Get-CsUser –Detailed</STRONG></span></span>
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

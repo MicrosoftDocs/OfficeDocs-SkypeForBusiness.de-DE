@@ -1,51 +1,82 @@
-﻿---
-title: Anzeigen von Informationen zu Netzwerkregionsrouten
-TOCTitle: Anzeigen von Informationen zu Netzwerkregionsrouten
-ms:assetid: 34dd9fa3-e695-4680-b244-3019298b5009
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688021(v=OCS.15)
-ms:contentKeyID: 49890703
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen von Routeninformationen für netzwerkregionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network region route information
+ms:assetid: 34dd9fa3-e695-4680-b244-3019298b5009
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688021(v=OCS.15)
+ms:contentKeyID: 49733611
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4438a3af4a9bfbdaf88d4412b769cdaaba9d3d43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847214"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Netzwerkregionsrouten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+# <a name="viewing-network-region-route-information-in-lync-server-2013"></a><span data-ttu-id="b78ad-102">Anzeigen von Routeninformationen zu netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b78ad-102">Viewing network region route information in Lync Server 2013</span></span>
 
-Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Verbindungen darstellen, bestimmt eine Route, welchen Pfad die Verbindung von einer Region zur anderen nimmt. Verwenden Sie die folgenden Verfahren, um vorhandene Netzwerkregionsrouten in Systemsteuerung für Lync Server 2013 oder Verwaltungsshell für Lync Server 2013 anzuzeigen. Ausführliche Informationen zum Erstellen oder Ändern von Netzwerkregionsrouten finden Sie unter [Erstellen oder Ändern von Netzwerkregionsrouten](lync-server-2013-creating-or-modifying-network-region-routes.md).
+</div>
 
-## So zeigen Sie Informationen zu Netzwerkregionsrouten in Lync Server-Systemsteuerung an
+<div id="mainSection">
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+<div id="mainBody">
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionsroute**.
+<span data-ttu-id="b78ad-103">_**Letztes Änderungsdatum des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="b78ad-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  Klicken Sie auf der Seite **Regionsroute** auf die Regionsroute, die Sie anzeigen möchten.
+<span data-ttu-id="b78ad-104">Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="b78ad-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="b78ad-105">Während die Region Links die Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einer anderen durchlaufen wird.</span><span class="sxs-lookup"><span data-stu-id="b78ad-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="b78ad-106">Gehen Sie wie folgt vor, um vorhandene Netzwerkbereichs Routen in der lync Server 2013-Systemsteuerung oder in der lync Server 2013-Verwaltungsshell anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="b78ad-106">Use the following procedures to view existing network region routes in Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="b78ad-107">Details zum Erstellen oder Ändern von Netzwerkbereichs Routen finden Sie unter [erstellen oder Ändern von Netzwerkbereichs Routen in lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).</span><span class="sxs-lookup"><span data-stu-id="b78ad-107">For details about creating or modifying network region routes, see [Creating or modifying network region routes in Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).</span></span>
+
+<div>
+
+## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a><span data-ttu-id="b78ad-108">So zeigen Sie netzwerkregion-Routeninformationen in der lync Server-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="b78ad-108">To view network region route information in Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="b78ad-109">Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="b78ad-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="b78ad-110">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="b78ad-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b78ad-111">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b78ad-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="b78ad-112">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regions Route**.</span><span class="sxs-lookup"><span data-stu-id="b78ad-112">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+
+4.  <span data-ttu-id="b78ad-113">Klicken Sie auf der Seite **Route des Bereichs** auf die Route, die Sie anzeigen möchten.</span><span class="sxs-lookup"><span data-stu-id="b78ad-113">On the **Region Route** page, click the region route that you want to view.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können nur jeweils eine Regionsroute anzeigen.
+    > [!NOTE]  
+    > <span data-ttu-id="b78ad-114">Sie können jeweils nur eine Regions Route anzeigen.</span><span class="sxs-lookup"><span data-stu-id="b78ad-114">You can only view one region route at a time.</span></span>
 
+    
+    </div>
 
+5.  <span data-ttu-id="b78ad-115">Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="b78ad-115">On the **Edit** menu, click **Show details**.</span></span>
 
-5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
+</div>
 
-## Anzeigen von Informationen zu Netzwerkregionsrouten mithilfe von Lync Server-PowerShell-Cmdlets
+<div>
 
-Informationen zu Netzwerkregionsrouten können auch mit dem Lync Server-PowerShell- und dem Get-CsNetworkInterRegionRoute-Cmdlet angezeigt werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Windows PowerShell-Remotesitzung ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b78ad-116">Anzeigen von Routeninformationen des Netzwerkbereichs mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="b78ad-116">Viewing Network Region Route Information by Using Windows PowerShell Cmdlets</span></span>
 
-## Anzeigen von Informationen zu Netzwerkregionsrouten
+<span data-ttu-id="b78ad-117">Netzwerkregion-Routeninformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="b78ad-117">Network region route information can be viewed by using Windows PowerShell and the Get-CsNetworkInterRegionRoute cmdlet.</span></span> <span data-ttu-id="b78ad-118">Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="b78ad-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b78ad-119">Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.</span><span class="sxs-lookup"><span data-stu-id="b78ad-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-  - Sie können Informationen zu allen Netzwerkregionsrouten anzeigen, indem Sie in der Lync Server-Verwaltungsshell den folgenden Befehl eingeben und dann die EINGABETASTE drücken:
+<div>
+
+## <a name="to-view-network-region-route-information"></a><span data-ttu-id="b78ad-120">So zeigen Sie netzwerkregion-Routeninformationen an</span><span class="sxs-lookup"><span data-stu-id="b78ad-120">To view network region route information</span></span>
+
+  - <span data-ttu-id="b78ad-121">Geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE, um Informationen zu allen Routen des Netzwerkbereichs anzuzeigen:</span><span class="sxs-lookup"><span data-stu-id="b78ad-121">To view information about all your network region routes, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkInterRegionRoute
     
-    Dadurch werden Informationen ähnlich wie die folgenden zurückgegeben:
+    <span data-ttu-id="b78ad-122">Es werden etwa folgende Informationen zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="b78ad-122">That will return information similar to this:</span></span>
     
         Identity                  : TransAmericaRoute
         NetworkRegionLinks        : {NorthwestToNortheast}
@@ -53,12 +84,30 @@ Informationen zu Netzwerkregionsrouten können auch mit dem Lync Server-PowerShe
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
+</div>
 
-## Siehe auch
+<span data-ttu-id="b78ad-123">Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) .</span><span class="sxs-lookup"><span data-stu-id="b78ad-123">For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.</span></span>
 
-#### Aufgaben
+</div>
 
-[Erstellen oder Ändern von Netzwerkregionsrouten](lync-server-2013-creating-or-modifying-network-region-routes.md)  
-[Löschen von vorhandenen Netzwerkregionsrouten](lync-server-2013-deleting-existing-network-region-routes.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b78ad-124">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b78ad-124">See Also</span></span>
+
+
+[<span data-ttu-id="b78ad-125">Erstellen oder Ändern von Netzwerkbereichs Routen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b78ad-125">Creating or modifying network region routes in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-region-routes.md)  
+[<span data-ttu-id="b78ad-126">Löschen vorhandener Netzwerkbereichs Routen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b78ad-126">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

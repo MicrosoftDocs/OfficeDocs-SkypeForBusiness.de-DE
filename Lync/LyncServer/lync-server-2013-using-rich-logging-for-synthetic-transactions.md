@@ -1,57 +1,74 @@
-﻿---
-title: Verwenden von erweiterter Protokollierung für synthetische Transaktionen
-TOCTitle: Verwenden von erweiterter Protokollierung für synthetische Transaktionen
-ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204798(v=OCS.15)
-ms:contentKeyID: 49293607
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwenden der Rich-Protokollierung für synthetische Transaktionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using rich logging for synthetic transactions
+ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204798(v=OCS.15)
+ms:contentKeyID: 48183812
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 455d7bcdc14dd4d701d749407759cead0834906f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847326"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden von erweiterter Protokollierung für synthetische Transaktionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="56d83-102">Verwenden der umfangreichen Protokollierung für synthetische Transaktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56d83-102">Using rich logging for synthetic transactions in Lync Server 2013</span></span>
 
-Anhand synthetischer Transaktionen (die in Microsoft Lync Server 2010 eingeführt wurden) können Administratoren überprüfen, ob Benutzer allgemeine Aufgaben wie z. B. das Anmelden beim System, das Austauschen von Chatnachrichten oder das Tätigen von Anrufen im Telefonfestnetz (Public Switched Telephone Network, PSTN) erfolgreich durchführen können. Diese Tests (die als Gruppe von Windows PowerShell-Cmdlets in Lync Server zur Verfügung stehen) können manuell von einem Administrator oder automatisch von einer Anwendung wie System Center Operations Manager durchgeführt werden.
+</div>
 
-In Lync Server 2010 haben sich synthetische Transaktionen als äußerst nützlich beim Identifizieren von Systemproblemen erwiesen. Mit dem Cmdlet **Test-CsRegistration** konnten Administratoren beispielsweise darauf aufmerksam gemacht werden, dass einige Benutzer Schwierigkeiten haben, sich bei Lync Server zu registrieren. Allerdings waren die synthetischen Transaktionen nicht sehr hilfreich dabei, den Administratoren die Gründe dafür zu liefern, warum es Schwierigkeiten mit der Lync Server-Registrierung gab. Dies war darauf zurückzuführen, dass synthetische Transaktionen keine detaillierten Protokollierungsinformationen bereitstellten, die Administratoren bei der Behandlung von Problemen mit Lync Server helfen konnten. Bestenfalls enthielt die ausführliche Ausgabe einer synthetischen Transaktion Schritt-für-Schritt-Informationen, anhand derer ein Administrator aufgrund seiner Erfahrung Vermutungen darüber anstellen konnte, wo wahrscheinlich ein Problem aufgetreten ist.
+<div id="mainSection">
 
-In Microsoft Lync Server 2013 wurden die synthetischen Transaktionen neu entworfen, um eine umfassende Protokollierung bereitzustellen. "Umfassende Protokollierung" bedeutet, dass für jede Aktivität, die eine synthetische Transaktion unternimmt, Informationen wie die folgenden aufgezeichnet werden:
+<div id="mainBody">
 
-  - Die Uhrzeit, zu der die Aktivität begann
+<span> </span>
 
-  - Die Uhrzeit, zu der die Aktivität endetet
+<span data-ttu-id="56d83-103">_**Letztes Änderungsdatum des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="56d83-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-  - Die Aktion, die durchgeführt wurde (z. B. Erstellen, Beitreten zu oder Verlassen einer Konferenz, Anmelden bei Lync Server, Senden einer Chatnachricht usw.)
+<span data-ttu-id="56d83-104">Synthetische Transaktionen (eingeführt in Microsoft lync Server 2010) bieten Administratoren eine Möglichkeit, zu überprüfen, ob Benutzer in der Lage sind, häufige Aufgaben wie die Anmeldung am System, den Austausch von Sofortnachrichten oder Anrufe an ein festgelegtes Telefon erfolgreich abzuschließen. über das öffentlich geschaltete Telefonnetz (PSTN).</span><span class="sxs-lookup"><span data-stu-id="56d83-104">Synthetic transactions (introduced in Microsoft Lync Server 2010) provide a way for administrators to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span> <span data-ttu-id="56d83-105">Diese Tests (die als eine Reihe von lync Server-Windows PowerShell-Cmdlets verpackt sind) können manuell von einem Administrator durchgeführt werden, oder Sie können von einer Anwendung wie System Center Operations Manager automatisch ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="56d83-105">These tests (which are packaged as a set of Lync Server Windows PowerShell cmdlets) can be conducted manually by an administrator, or they can be automatically run by an application such as System Center Operations Manager.</span></span>
 
-  - Informative oder ausführliche Meldungen bzw. Warn- oder Fehlermeldungen, die beim Ausführen der Aktivität generiert wurden
+<span data-ttu-id="56d83-106">In lync Server 2010 erwiesen sich synthetische Transaktionen als äußerst hilfreich, um Administratoren bei der Ermittlung von Problemen mit dem System zu unterstützen.</span><span class="sxs-lookup"><span data-stu-id="56d83-106">In Lync Server 2010, synthetic transactions proved extremely useful in helping administrators to identify problems with the system.</span></span> <span data-ttu-id="56d83-107">So könnte beispielsweise das Cmdlet **Test-CsRegistration** Administratoren darauf hinweisen, dass einige Benutzer Schwierigkeiten bei der Registrierung bei lync Server hatten.</span><span class="sxs-lookup"><span data-stu-id="56d83-107">For example, the **Test-CsRegistration** cmdlet could alert administrators to the fact that some users were having difficulty registering with Lync Server.</span></span> <span data-ttu-id="56d83-108">Die synthetischen Transaktionen waren jedoch etwas weniger hilfreich, um Administratoren zu helfen, zu ermitteln, warum diese Benutzer Schwierigkeiten bei der Registrierung bei lync Server hatten.</span><span class="sxs-lookup"><span data-stu-id="56d83-108">However, the synthetic transactions were somewhat less useful in helping administrators determine why these users were having difficulty registering with Lync Server.</span></span> <span data-ttu-id="56d83-109">Dies war auf die Tatsache zurückzuführen, dass die synthetischen Transaktionen keine detaillierten Protokollierungsinformationen lieferten, die Administratoren bei der Behandlung von Problemen mit lync Server unterstützen könnten.</span><span class="sxs-lookup"><span data-stu-id="56d83-109">This was due to the fact that the synthetic transactions did not provide detailed logging information that could help administrators troubleshoot problems with Lync Server.</span></span> <span data-ttu-id="56d83-110">Im besten Fall lieferte die ausführliche Ausgabe einer synthetischen Transaktion schrittweise Informationen, die es einem Administrator ermöglichen könnten, eine fundierte Vermutung darüber zu machen, wo ein Problem wahrscheinlich aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="56d83-110">At best, the verbose output from a synthetic transaction provided step-by-step information that might enable an administrator to make an educated guess as to where a problem likely occurred.</span></span>
 
-  - Meldungen zur SIP-Registrierung
+<span data-ttu-id="56d83-111">In Microsoft lync Server 2013 wurden synthetische Transaktionen neu entworfen, um eine umfangreiche Protokollierung bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="56d83-111">In Microsoft Lync Server 2013, synthetic transactions have been re-architected to provide rich logging.</span></span> <span data-ttu-id="56d83-112">"Umfangreiche Protokollierung" bedeutet, dass für jede Aktivität, die eine synthetische Transaktion durchführt, Informationen wie diese aufgezeichnet werden:</span><span class="sxs-lookup"><span data-stu-id="56d83-112">"Rich logging" means that, for each activity that a synthetic transaction undertakes, information such as this will be recorded:</span></span>
 
-  - Ausnahmedatensätze oder Diagnosecodes, die beim Ausführen der Aktivität generiert wurden
+  - <span data-ttu-id="56d83-113">Der Zeitpunkt, zu dem die Aktivität gestartet wurde</span><span class="sxs-lookup"><span data-stu-id="56d83-113">The time that the activity started</span></span>
 
-  - Das Resultat der Aktivitätsausführung
+  - <span data-ttu-id="56d83-114">Die Zeit, zu der die Aktivität endet</span><span class="sxs-lookup"><span data-stu-id="56d83-114">The time that the activity finished</span></span>
 
-Diese Informationen werden bei jeder Ausführung einer synthetischen Transaktion automatisch generiert. Sie werden jedoch nicht automatisch angezeigt oder in einer Protokolldatei gespeichert. Stattdessen können Administratoren, die manuell eine synthetische Transaktion durchführen, den Parameter **OutLoggerVariable** verwenden, um eine Windows PowerShell-Variable anzugeben, in der diese Informationen gespeichert werden. Administratoren können das umfassende Protokoll dann mithilfe von Methoden entweder im XML- oder HTML-Format anzeigen und/oder speichern.
+  - <span data-ttu-id="56d83-115">Die Aktion, die durchgeführt wurde (beispielsweise das Erstellen, verknüpfen oder verlassen einer Konferenz; Anmelden bei lync Server; senden einer Chatnachricht; usw.)</span><span class="sxs-lookup"><span data-stu-id="56d83-115">The action that was performed (for example, creating, joining, or leaving a conference; signing on to Lync Server; sending an instant message; and so on)</span></span>
 
-Lync Server 2010-Administratoren können beispielsweise das **Test-CsRegistration**-Cmdlet mit einem Befehl ähnlich dem folgenden ausführen:
+  - <span data-ttu-id="56d83-116">Informative oder ausführliche Meldungen bzw. Warn- oder Fehlermeldungen, die beim Ausführen der Aktivität generiert wurden</span><span class="sxs-lookup"><span data-stu-id="56d83-116">Informational, verbose, warning, or error messages generated when the activity ran</span></span>
+
+  - <span data-ttu-id="56d83-117">SIP-Registrierungsnachrichten</span><span class="sxs-lookup"><span data-stu-id="56d83-117">SIP registration messages</span></span>
+
+  - <span data-ttu-id="56d83-118">Ausnahmedaten Sätze oder Diagnosecodes, die beim Ausführen der Aktivität generiert wurden</span><span class="sxs-lookup"><span data-stu-id="56d83-118">Exception records or diagnostic codes generated when the activity ran</span></span>
+
+  - <span data-ttu-id="56d83-119">Das Ergebnis der Ausführung der Aktivität</span><span class="sxs-lookup"><span data-stu-id="56d83-119">The net result of running the activity</span></span>
+
+<span data-ttu-id="56d83-120">Diese Informationen werden jedes Mal automatisch generiert, wenn eine synthetische Transaktion ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="56d83-120">This information is automatically generated each time a synthetic transaction is run.</span></span> <span data-ttu-id="56d83-121">Die Informationen werden jedoch nicht automatisch in einer Protokolldatei angezeigt oder gespeichert.</span><span class="sxs-lookup"><span data-stu-id="56d83-121">However, the information is not automatically displayed or saved to a log file.</span></span> <span data-ttu-id="56d83-122">Stattdessen können Administratoren, die eine synthetische Transaktion manuell ausführen, mithilfe des OutLoggerVariable-Parameters eine Windows PowerShell-Variable angeben, in der die Informationen gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="56d83-122">Instead, administrators who are manually running a synthetic transaction can use the OutLoggerVariable parameter to specify a Windows PowerShell variable in which the information will be stored.</span></span> <span data-ttu-id="56d83-123">Von dort aus können Administratoren dann ein paar Methoden verwenden, die es Ihnen ermöglichen, das Rich-log im XML-oder HTML-Format zu speichern und/oder anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="56d83-123">From there, administrators can then use a pair of methods that enable them to save and/or view the rich log in either XML or HTML format.</span></span>
+
+<span data-ttu-id="56d83-124">Beispielsweise können lync Server 2010-Administratoren das Cmdlet **Test-CsRegistration** mithilfe eines Befehls wie den folgenden ausführen:</span><span class="sxs-lookup"><span data-stu-id="56d83-124">For example, Lync Server 2010 administrators might run the **Test-CsRegistration** cmdlet by using a command similar to the following:</span></span>
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-Administratoren können den Parameter **OutLoggerVariable** gefolgt von einem Variablennamen ihrer Wahl einfügen:
+<span data-ttu-id="56d83-125">Administratoren haben die Möglichkeit, den OutLoggerVariable-Parameter und dann den Variablennamen Ihrer Auswahl einzuschließen:</span><span class="sxs-lookup"><span data-stu-id="56d83-125">Administrators have the option of including the OutLoggerVariable parameter followed by a variable name of their choosing:</span></span>
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
+> [!NOTE]  
+> <span data-ttu-id="56d83-126">Führen Sie den Variablennamen nicht mit dem $-Zeichen vor.</span><span class="sxs-lookup"><span data-stu-id="56d83-126">Do not preface the variable name with the $ character.</span></span> <span data-ttu-id="56d83-127">Verwenden Sie einen Variablennamen wie "RegistrationTest" und nicht "$RegistrationTest".</span><span class="sxs-lookup"><span data-stu-id="56d83-127">Use a variable name like RegistrationTest and not $RegistrationTest.</span></span>
 
-> [!NOTE]
-> Stellen Sie dem Variablennamen kein $-Zeichen voran. Verwenden Sie einen Variablennamen wie <STRONG>RegistrationTest</STRONG> und nicht <STRONG>$RegistrationTest</STRONG>.
-
-
-
-Die Ausgabe des obigen Befehls ist ähnlich wie die folgende:
+<span data-ttu-id="56d83-128">Der vorhergehende Befehl gibt Inhalt ähnlich wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="56d83-128">The preceding command outputs content similar to the following:</span></span>
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -59,20 +76,27 @@ Die Ausgabe des obigen Befehls ist ähnlich wie die folgende:
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-Für diesen Fehler sind jedoch viel ausführlichere Informationen verfügbar, als nur die obige Fehlermeldung. Sie können einen ähnlichen Befehl wie den folgenden verwenden, um auf diese Informationen im HTML-Format zuzugreifen und die in der Variablen **RegistrationTest** gespeicherten Informationen in einer HTML-Datei zu speichern:
+<span data-ttu-id="56d83-129">Für diesen Fehler sind jedoch viel detailliertere Informationen verfügbar, als nur die oben gezeigte Fehlermeldung.</span><span class="sxs-lookup"><span data-stu-id="56d83-129">However, much more detailed information is available for this failure than just the error message shown above.</span></span> <span data-ttu-id="56d83-130">Um auf diese Informationen im HTML-Format zuzugreifen, verwenden Sie einen ähnlichen Befehl, um die in der Variablen RegistrationTest gespeicherten Informationen in einer HTML-Datei zu speichern:</span><span class="sxs-lookup"><span data-stu-id="56d83-130">To access that information in HTML format, use a command similar to this in order to save the information stored in the variable RegistrationTest to an HTML file:</span></span>
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
-Alternativ können Sie die XML()-Methode verwenden, um Dateien in einer XML-Datei zu speichern:
+<span data-ttu-id="56d83-131">Alternativ können Sie die ToXML()-Methode verwenden, um Dateien in einer XML-Datei zu speichern:</span><span class="sxs-lookup"><span data-stu-id="56d83-131">Alternatively, you can use the ToXML() method to save the data to an XML file:</span></span>
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-Diese Dateien können dann mit Internet Explorer, Visual Studio oder einer beliebigen anderen Anwendung angezeigt werden, in der HTML-/XML-Dateien geöffnet werden können.
+<span data-ttu-id="56d83-132">Diese Dateien können dann mit Internet Explorer, Visual Studio oder jeder anderen Anwendung angezeigt werden, die in der Lage ist, HTML/XML-Dateien zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="56d83-132">These files can then be viewed using Internet Explorer, Visual Studio, or any other application capable of opening HTML/XML files.</span></span>
 
-Synthetische Transaktionen, die in System Center Operations Manager ausgeführt werden, generieren diese Protokolldateien bei Fehlern automatisch. Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung scheitert, bevor die synthetische Transaktion in Windows PowerShell geladen und ausgeführt werden kann.
+<span data-ttu-id="56d83-133">Synthetische Transaktionen, die innerhalb von System Center Operations Manager ausgeführt werden, generieren diese Protokolldateien automatisch für Fehler.</span><span class="sxs-lookup"><span data-stu-id="56d83-133">Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures.</span></span> <span data-ttu-id="56d83-134">Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung fehlschlägt, bevor Windows PowerShell die synthetische Transaktion laden und ausführen kann.</span><span class="sxs-lookup"><span data-stu-id="56d83-134">However, these logs will not be generated if the execution fails before Windows PowerShell is able to load and run the synthetic transaction.</span></span>
+
+> [!IMPORTANT]  
+> <span data-ttu-id="56d83-135">Standardmäßig speichert lync Server 2013 Protokolldateien in einem Ordner, der nicht freigegeben ist.</span><span class="sxs-lookup"><span data-stu-id="56d83-135">By default, Lync Server 2013 saves log files to a folder that is not shared.</span></span> <span data-ttu-id="56d83-136">Damit diese Protokolle problemlos zugänglich sind, sollten Sie diesen Ordner freigeben (beispielsweise \\ \\ATL-Watcher-001. "litwareinc. com\WatcherNode.</span><span class="sxs-lookup"><span data-stu-id="56d83-136">To make these logs readily accessible, you should share this folder (for example, \\\\atl-watcher-001.litwareinc.com\WatcherNode.</span></span>
 
 
-> [!IMPORTANT]
-> In Lync Server 2013 werden die Protokolldateien standardmäßig in einem Ordner gespeichert, der nicht freigegeben ist. Um den Zugriff auf diese Protokolle zu ermöglichen, sollten Sie diesen Ordner freigeben (z.&nbsp;B. <STRONG>\\atl-watcher-001.litwareinc.com\WatcherNode</STRONG>).
+</div>
 
+</div>
+
+</div>
+
+</div>
 

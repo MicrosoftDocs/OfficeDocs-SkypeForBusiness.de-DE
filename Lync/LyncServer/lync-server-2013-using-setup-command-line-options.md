@@ -1,25 +1,45 @@
-﻿---
-title: Verwenden von Setup-Befehlszeilenoptionen
-TOCTitle: Verwenden von Setup-Befehlszeilenoptionen
-ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205129(v=OCS.15)
-ms:contentKeyID: 49294854
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwenden von Setup-Befehlszeilenoptionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Setup command-line options
+ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
+ms:contentKeyID: 48184957
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847318"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden von Setup-Befehlszeilenoptionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a><span data-ttu-id="d15a1-102">Verwenden von Setup-Befehlszeilenoptionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d15a1-102">Using Setup command-line options in Lync Server 2013</span></span>
 
-Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstelle der Setup-Befehlszeilenoptionen benutzen Sie in der Regel das Office-Anpassungstool und die Datei "Config.xml", um Produkte einzurichten und Funktionen anzupassen.
+</div>
 
-Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle beschriebenen Befehlzeilenoptionen.
+<div id="mainSection">
 
-### Optionen der Office Setup-Befehlszeile
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d15a1-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d15a1-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+
+<span data-ttu-id="d15a1-p101">Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstelle der Setup-Befehlszeilenoptionen benutzen Sie in der Regel das Office-Anpassungstool und die Datei "Config.xml", um Produkte einzurichten und Funktionen anzupassen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-p101">The Setup.exe command line is used for very few operations in Office setup. Instead of using the Setup command-line options, you’ll typically use the Office Customization Tool and the Config.xml file for product setup and feature customization.</span></span>
+
+<span data-ttu-id="d15a1-106">Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle beschriebenen Befehlzeilenoptionen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-106">The Office Setup.exe command line recognizes the command-line options described in the following table.</span></span>
+
+### <a name="office-setup-command-line-options"></a><span data-ttu-id="d15a1-107">Optionen der Office Setup-Befehlszeile</span><span class="sxs-lookup"><span data-stu-id="d15a1-107">Office Setup Command-Line Options</span></span>
 
 <table>
 <colgroup>
@@ -28,38 +48,48 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option der Office Setup-Befehlszeile</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="d15a1-108">Option der Office Setup-Befehlszeile</span><span class="sxs-lookup"><span data-stu-id="d15a1-108">Setup Command-Line Option</span></span></th>
+<th><span data-ttu-id="d15a1-109">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="d15a1-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>/admin</p></td>
-<td><p>Führt das Office-Anpassungstool aus, um eine Setupanpassungsdatei (.msp-Datei) zu erstellen.</p></td>
+<td><p><span data-ttu-id="d15a1-110">/admin</span><span class="sxs-lookup"><span data-stu-id="d15a1-110">/admin</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-111">Führt das Office-Anpassungstool aus, um eine Setupanpassungsdatei (.msp-Datei) zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-111">Runs the Office Customization Tool to create a Setup customization file (.msp file).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>/adminfile [Pfad]</p></td>
-<td><p>Wendet die angegebene Setupanpassungsdatei auf die Installation an. Sie können einen Pfad zu einer bestimmten Anpassungsdatei (.msp-Datei) oder zu dem Ordner angeben, in dem Sie Anpassungsdateien speichern.</p></td>
+<td><p><span data-ttu-id="d15a1-112">/adminfile [Pfad]</span><span class="sxs-lookup"><span data-stu-id="d15a1-112">/adminfile [path]</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-p102">Wendet die angegebene Setupanpassungsdatei auf die Installation an. Sie können einen Pfad zu einer bestimmten Anpassungsdatei (.msp-Datei) oder zu dem Ordner angeben, in dem Sie Anpassungsdateien speichern.</span><span class="sxs-lookup"><span data-stu-id="d15a1-p102">Applies the specified Setup customization file to the installation. You can specify a path of a specific customization file (.msp file) or to the folder where you store customization files.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>/config [Pfad]</p></td>
-<td><p>Gibt die Config.xml-Datei an, die Setup während der Installation verwendet. Benutzen Sie die Option &quot;/config&quot;, um die Config.xml-Datei anzugeben, die Sie für Lync 2013-Installationen angepasst haben. Beispiel: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p><span data-ttu-id="d15a1-115">/config [Pfad]</span><span class="sxs-lookup"><span data-stu-id="d15a1-115">/config [path]</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-116">Gibt die Datei config. XML an, die von Setup während der Installation verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="d15a1-116">Specifies the Config.xml file that Setup uses during the installation.</span></span> <span data-ttu-id="d15a1-117">Verwenden Sie die/config-Option, um die Datei config. XML anzugeben, die Sie für lync 2013-Installationen angepasst haben, beispielsweise:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span><span class="sxs-lookup"><span data-stu-id="d15a1-117">Use the /config option to specify the Config.xml file you customized for Lync 2013 installations, for example: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>/modify Lync</p></td>
-<td><p>Wird mit einer geänderten Config.xml-Datei verwendet, um das Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen. Sie können die Option &quot;/modify&quot; z. B. nutzen, um Lync-Funktionen hinzuzufügen oder zu entfernen.</p></td>
+<td><p><span data-ttu-id="d15a1-118">/Modify lync</span><span class="sxs-lookup"><span data-stu-id="d15a1-118">/modify Lync</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-119">Wird mit einer geänderten config.xml-Datei verwendet, um Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-119">Used with a modified Config.xml file to run Setup in maintenance mode and make changes to an existing Office installation.</span></span> <span data-ttu-id="d15a1-120">So können Sie beispielsweise die Option/MODIFY verwenden, um lync-Features hinzuzufügen oder zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-120">For example, you can use the /modify option to add or remove Lync features.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>/repair Lync</p></td>
-<td><p>Führt Setup auf dem Computer des Benutzers aus, um Lync zu reparieren.</p></td>
+<td><p><span data-ttu-id="d15a1-121">/Repair lync</span><span class="sxs-lookup"><span data-stu-id="d15a1-121">/repair Lync</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-122">Führt das Setup auf dem Computer des Benutzers aus, um lync zu reparieren.</span><span class="sxs-lookup"><span data-stu-id="d15a1-122">Runs Setup from the user’s computer to repair Lync.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>/uninstall Lync</p></td>
-<td><p>Führt Setup aus, um Lync vom Computer des Benutzers zu entfernen.</p></td>
+<td><p><span data-ttu-id="d15a1-123">/Uninstall lync</span><span class="sxs-lookup"><span data-stu-id="d15a1-123">/uninstall Lync</span></span></p></td>
+<td><p><span data-ttu-id="d15a1-124">Führt das Setup aus, um lync vom Computer des Benutzers zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="d15a1-124">Runs Setup to remove Lync from the user’s computer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Ausführliche Informationen zu den Befehlzeilenoptionen finden Sie unter [http://go.microsoft.com/fwlink/?linkid=267515\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=267515%26clcid=0x407).
+<span data-ttu-id="d15a1-125">Ausführliche Informationen zur Verwendung der Befehlszeilenoptionen für Setup finden Sie <http://go.microsoft.com/fwlink/p/?linkid=267515>unter.</span><span class="sxs-lookup"><span data-stu-id="d15a1-125">For details about using the setup command-line options, see <http://go.microsoft.com/fwlink/p/?linkid=267515>.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

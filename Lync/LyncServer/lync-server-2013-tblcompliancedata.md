@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceData'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceData
 ms:assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558606(v=OCS.15)
-ms:contentKeyID: 49293050
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558606(v=OCS.15)
+ms:contentKeyID: 48183308
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 044a57645a8c49ea74ec4e003f9e12720d0b2268
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847641"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblComplianceData in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblcompliancedata-in-lync-server-2013"></a><span data-ttu-id="77f31-102">tblComplianceData in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="77f31-102">tblComplianceData in Lync Server 2013</span></span>
 
-"tblComplianceData" enthält die Kompatibilitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="77f31-103">_**Letztes Änderungsdatum des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="77f31-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="77f31-104">tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.</span><span class="sxs-lookup"><span data-stu-id="77f31-104">tblComplianceData contains the compliance events that have not been processed by the compliance adapter yet.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="77f31-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="77f31-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,71 +47,71 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Typ</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="77f31-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="77f31-106">Column</span></span></th>
+<th><span data-ttu-id="77f31-107">Typ</span><span class="sxs-lookup"><span data-stu-id="77f31-107">Type</span></span></th>
+<th><span data-ttu-id="77f31-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="77f31-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>cmplEventID</p></td>
-<td><p>bigint, nicht NULL</p></td>
-<td><p>Ereignis-ID</p></td>
+<td><p><span data-ttu-id="77f31-109">cmplEventID</span><span class="sxs-lookup"><span data-stu-id="77f31-109">cmplEventID</span></span></p></td>
+<td><p><span data-ttu-id="77f31-110">bigint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-111">Ereignis-ID.</span><span class="sxs-lookup"><span data-stu-id="77f31-111">Event ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>entryDate</p></td>
-<td><p>smalldatetime, nicht NULL</p></td>
-<td><p>Zeitpunkt des Einfügevorgangs (kann für &quot;cmplType=9&quot; in ferner Zukunft liegen, da der Eintrag in diesem Fall nur ein Platzhalter ist).</p></td>
+<td><p><span data-ttu-id="77f31-112">entryDate</span><span class="sxs-lookup"><span data-stu-id="77f31-112">entryDate</span></span></p></td>
+<td><p><span data-ttu-id="77f31-113">smalldatetime, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-113">smalldatetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-114">Zeitpunkt der Einfügung (kann für cmplType = 9 weit in der Zukunft liegen, da der Eintrag nur ein Platzhalter in diesem Fall ist).</span><span class="sxs-lookup"><span data-stu-id="77f31-114">Time of insertion (may be far in the future for cmplType=9 because the entry is just a placeholder in that case).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>cmplType</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Typ des Kompatibilitätsereignisses:</p>
+<td><p><span data-ttu-id="77f31-115">cmplType</span><span class="sxs-lookup"><span data-stu-id="77f31-115">cmplType</span></span></p></td>
+<td><p><span data-ttu-id="77f31-116">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-116">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-117">Art des Konformitäts Ereignisses:</span><span class="sxs-lookup"><span data-stu-id="77f31-117">Type of compliance event:</span></span></p>
 <ul>
-<li><p>1: Chat</p></li>
-<li><p>2: Backchat</p></li>
-<li><p>3: Dateidownload</p></li>
-<li><p>4: Dateiupload</p></li>
-<li><p>9: Vorläufige Dateiübertragung</p></li>
-<li><p>10: Chatlöschung (mit Ersatz)</p></li>
-<li><p>11: Chatbereinigung</p></li>
+<li><p><span data-ttu-id="77f31-118">1: Chat</span><span class="sxs-lookup"><span data-stu-id="77f31-118">1: Chat</span></span></p></li>
+<li><p><span data-ttu-id="77f31-119">2: Backchat</span><span class="sxs-lookup"><span data-stu-id="77f31-119">2: Backchat</span></span></p></li>
+<li><p><span data-ttu-id="77f31-120">3: Herunterladen von Dateien</span><span class="sxs-lookup"><span data-stu-id="77f31-120">3: File download</span></span></p></li>
+<li><p><span data-ttu-id="77f31-121">4: Hochladen von Dateien</span><span class="sxs-lookup"><span data-stu-id="77f31-121">4: File upload</span></span></p></li>
+<li><p><span data-ttu-id="77f31-122">9: provisorische Dateiübertragung</span><span class="sxs-lookup"><span data-stu-id="77f31-122">9: Provisional file transfer</span></span></p></li>
+<li><p><span data-ttu-id="77f31-123">10: Löschen des Chats (mit Replace)</span><span class="sxs-lookup"><span data-stu-id="77f31-123">10: Chat deletion (with replace)</span></span></p></li>
+<li><p><span data-ttu-id="77f31-124">11: Chat-Bereinigung</span><span class="sxs-lookup"><span data-stu-id="77f31-124">11: Chat purging</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>cmplTime</p></td>
-<td><p>bigint, nicht NULL</p></td>
-<td><p>Zeitstempel für das Ereignis.</p></td>
+<td><p><span data-ttu-id="77f31-125">cmplTime</span><span class="sxs-lookup"><span data-stu-id="77f31-125">cmplTime</span></span></p></td>
+<td><p><span data-ttu-id="77f31-126">bigint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-126">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-127">Zeitstempel für das Ereignis.</span><span class="sxs-lookup"><span data-stu-id="77f31-127">Time stamp for the event.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>cmplChannelUri</p></td>
-<td><p>nvarchar (255), nicht NULL</p></td>
-<td><p>Kanal-URI (Uniform Resource Identifier).</p></td>
+<td><p><span data-ttu-id="77f31-128">cmplChannelUri</span><span class="sxs-lookup"><span data-stu-id="77f31-128">cmplChannelUri</span></span></p></td>
+<td><p><span data-ttu-id="77f31-129">nvarchar (255); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-129">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-130">Kanal Uniform Resource Identifier (URI).</span><span class="sxs-lookup"><span data-stu-id="77f31-130">Channel Uniform Resource Identifier (URI).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>cmplChatID</p></td>
-<td><p>bigint</p></td>
-<td><p>Chat-ID (entsprechend der Tabelle &quot;tblChat.chatId&quot;).</p></td>
+<td><p><span data-ttu-id="77f31-131">cmplChatID</span><span class="sxs-lookup"><span data-stu-id="77f31-131">cmplChatID</span></span></p></td>
+<td><p><span data-ttu-id="77f31-132">bigint</span><span class="sxs-lookup"><span data-stu-id="77f31-132">bigint</span></span></p></td>
+<td><p><span data-ttu-id="77f31-133">Chat-ID (entsprechend der tblChat. Chat-Tabelle).</span><span class="sxs-lookup"><span data-stu-id="77f31-133">Chat ID (corresponding to tblChat.chatId table).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>cmplUserID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID des Bereitstellers (entsprechend der Tabelle &quot;tblPrincipal.prinID&quot;).</p></td>
+<td><p><span data-ttu-id="77f31-134">cmplUserID</span><span class="sxs-lookup"><span data-stu-id="77f31-134">cmplUserID</span></span></p></td>
+<td><p><span data-ttu-id="77f31-135">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-135">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-136">Prinzipal-ID des Plakats (entsprechend der tblPrincipal. prinID-Tabelle).</span><span class="sxs-lookup"><span data-stu-id="77f31-136">Principal ID of the poster (corresponding to tblPrincipal.prinID table).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>cmplUserUri</p></td>
-<td><p>nvarchar (255), nicht NULL</p></td>
-<td><p>Benutzer-URI</p></td>
+<td><p><span data-ttu-id="77f31-137">cmplUserUri</span><span class="sxs-lookup"><span data-stu-id="77f31-137">cmplUserUri</span></span></p></td>
+<td><p><span data-ttu-id="77f31-138">nvarchar (255); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="77f31-138">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="77f31-139">Benutzer-URI.</span><span class="sxs-lookup"><span data-stu-id="77f31-139">User URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>cmplMessage</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>Nachricht (Codierung abhängig von &quot;cmplType&quot;).</p></td>
+<td><p><span data-ttu-id="77f31-140">cmplMessage</span><span class="sxs-lookup"><span data-stu-id="77f31-140">cmplMessage</span></span></p></td>
+<td><p><span data-ttu-id="77f31-141">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="77f31-141">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="77f31-142">Nachricht (Codierung hängt von cmplType ab).</span><span class="sxs-lookup"><span data-stu-id="77f31-142">Message (encoding depends on cmplType).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a><span data-ttu-id="77f31-143">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="77f31-143">Key</span></span>
 
 <table>
 <colgroup>
@@ -100,15 +120,26 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="77f31-144">Spalte</span><span class="sxs-lookup"><span data-stu-id="77f31-144">Column</span></span></th>
+<th><span data-ttu-id="77f31-145">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="77f31-145">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>cmplEventID</p></td>
-<td><p>Primärschlüssel</p></td>
+<td><p><span data-ttu-id="77f31-146">cmplEventID</span><span class="sxs-lookup"><span data-stu-id="77f31-146">cmplEventID</span></span></p></td>
+<td><p><span data-ttu-id="77f31-147">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="77f31-147">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

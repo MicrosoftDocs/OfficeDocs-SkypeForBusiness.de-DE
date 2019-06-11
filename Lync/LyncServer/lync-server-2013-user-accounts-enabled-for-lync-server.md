@@ -1,29 +1,53 @@
-﻿---
-title: Benutzerkonten, die für Lync Server 2013 aktiviert sind
-TOCTitle: Benutzerkonten, die für Lync Server 2013 aktiviert sind
-ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182543(v=OCS.15)
-ms:contentKeyID: 49294561
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzerkonten, die für lync Server aktiviert sind'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User accounts enabled for Lync Server 2013
+ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182543(v=OCS.15)
+ms:contentKeyID: 48184651
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b7a8935e83b79cfac1c4d3283fe0011a72aa3ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847412"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Benutzerkonten, die für Lync Server 2013 aktiviert sind
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="b3cbc-102">Für lync Server 2013 aktivierte Benutzerkonten</span><span class="sxs-lookup"><span data-stu-id="b3cbc-102">User accounts enabled for Lync Server 2013</span></span>
 
-In den Themen des vorliegenden Abschnitts werden schrittweise Anleitungen zum Konfigurieren von Benutzereinstellungen über die Systemsteuerung für Lync Server 2013 vorgestellt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b3cbc-103">_**Letztes Änderungsdatum des Themas:** 2014-04-18_</span><span class="sxs-lookup"><span data-stu-id="b3cbc-103">_**Topic Last Modified:** 2014-04-18_</span></span>
+
+<span data-ttu-id="b3cbc-104">Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren zum Konfigurieren von Benutzereinstellungen, die Sie mit der lync Server 2013-Systemsteuerung durchführen können.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-104">Topics in this section provide step-by-step procedures for configuring user settings that you can perform using the Lync Server 2013 Control Panel.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Benutzer, die Mitglieder der Active Directory-Gruppe "Domänen-Admins" sind, können nicht über die Lync Server-Systemsteuerung verwaltet werden. Für Domänen-Admins kann die Lync Server-Systemsteuerung lediglich zum Ausführen von Suchoperationen (nur Lesezugriff) verwendet werden. Zum Ausführen von Schreiboperationen für Domänen-Admins (z.&nbsp;B. zum Aktivieren oder Deaktivieren dieser Benutzer für Lync Server-Systemsteuerung oder zum Ändern von Pool- oder Richtlinienzuweisungen, Telefonieeinstellungen oder SIP-Adresse) müssen Sie die Cmdlets der Windows PowerShell verwenden und sich als Domänen-Admin anmelden. Ausführliche Informationen zum Verwenden der Cmdlets in der Windows PowerShell für die Verwaltung von Benutzern finden Sie unter <A href="lync-server-2013-lync-server-management-shell.md">Lync Server-Verwaltungsshell</A>.
+> [!IMPORTANT]  
+> <span data-ttu-id="b3cbc-105">Sie können die lync Server-Systemsteuerung nicht zum Verwalten von Benutzern verwenden, die Mitglieder der Gruppe "Active Directory-Domänenadministratoren" sind.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-105">You cannot use Lync Server Control Panel to manage users who are members of the Active Directory Domain Admins group.</span></span> <span data-ttu-id="b3cbc-106">Für Benutzer von Domänenadministratoren können Sie die lync Server-Systemsteuerung nur zum Durchführen von schreibgeschützten Suchvorgängen verwenden.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-106">For Domain Admins users, you can use Lync Server Control Panel only to perform read-only search operations.</span></span> <span data-ttu-id="b3cbc-107">Wenn Sie Schreibvorgänge für Benutzer von Domänenadministratoren durchführen möchten (beispielsweise für die lync Server-Systemsteuerung aktivieren oder deaktivieren, Pool-oder Richtlinienzuweisungen ändern, Telefoneinstellungen, SIP-Adresse), müssen Sie Windows PowerShell-Cmdlets verwenden, während Sie als Domänenadministrator angemeldet sind.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-107">To perform write operations on Domain Admins users (for example, enable or disable for Lync Server Control Panel, change pool or policy assignments, telephony settings, SIP address), you must use Windows PowerShell cmdlets while logged on as a Domain Admins user.</span></span> <span data-ttu-id="b3cbc-108">Details zur Verwendung von Windows PowerShell-Cmdlets zum Verwalten von Benutzern finden Sie unter <A href="lync-server-2013-lync-server-management-shell.md">lync Server 2013-Verwaltungsshell</A>.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-108">For details about using Windows PowerShell cmdlets to manage users, see <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.</span></span>
 
 
 
-Wenn Sie Lync Server 2013-Verwaltungsaufgaben ausführen, die die Suche nach einem Benutzer oder das Filtern von Ergebnissen der Benutzersuche umfassen, gibt es einige Benutzereigenschaften, die als Attribute in Active Directory-Domänendienste vorhanden sind, jedoch erst mit der Bereitstellung von Microsoft Exchange Server in den globalen Katalog repliziert werden. Microsoft Exchange, nicht Lync Server, kennzeichnet die folgenden Attribute für die Replikation in den globalen Katalog bei der Installation:
+</div>
+
+<span data-ttu-id="b3cbc-109">Wenn Sie eine beliebige lync Server 2013-Verwaltungsaufgabe ausführen, die die Suche nach einem Benutzer oder das Filtern von Benutzersuchergebnissen umfasst, gibt es einige Benutzereigenschaften, die als Attribute in den Active Directory-Domänendiensten vorhanden sind, aber nicht in den globalen Katalog repliziert werden. bis Microsoft Exchange Server bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="b3cbc-109">When you perform any Lync Server 2013 administrative task that involves searching for a user or filtering user search results, there are some user properties that exist as attributes in Active Directory Domain Services but are not replicated to the global catalog until Microsoft Exchange Server is deployed.</span></span> <span data-ttu-id="b3cbc-110">Microsoft Exchange, nicht lync Server, kennzeichnet die folgenden Attribute für die Replikation beim globalen Katalog, wenn die Installation erfolgt:</span><span class="sxs-lookup"><span data-stu-id="b3cbc-110">Microsoft Exchange, not Lync Server, marks the following attributes for replication to the global catalog when it is installed:</span></span>
 
 
 <table>
@@ -34,49 +58,66 @@ Wenn Sie Lync Server 2013-Verwaltungsaufgaben ausführen, die die Suche nach ein
 </colgroup>
 <thead>
 <tr class="header">
-<th>Benutzerinformationen</th>
-<th>Adresse und Telefon</th>
-<th>Organisation</th>
+<th><span data-ttu-id="b3cbc-111">Benutzerinformationen</span><span class="sxs-lookup"><span data-stu-id="b3cbc-111">User Information</span></span></th>
+<th><span data-ttu-id="b3cbc-112">Adresse und Telefon</span><span class="sxs-lookup"><span data-stu-id="b3cbc-112">Address and Phone</span></span></th>
+<th><span data-ttu-id="b3cbc-113">Organisation</span><span class="sxs-lookup"><span data-stu-id="b3cbc-113">Organization</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Initialen</p></td>
-<td><p>Adresse</p>
-<p>Land/Region</p>
-<p>Pager</p>
-<p>Fax</p>
-<p>Mobil</p></td>
-<td><p>Titel</p>
-<p>Unternehmen</p>
-<p>Abteilung</p>
-<p>Office</p></td>
+<td><p><span data-ttu-id="b3cbc-114">Initialen</span><span class="sxs-lookup"><span data-stu-id="b3cbc-114">Initials</span></span></p></td>
+<td><p><span data-ttu-id="b3cbc-115">Straßenanschrift</span><span class="sxs-lookup"><span data-stu-id="b3cbc-115">Street address</span></span></p>
+<p><span data-ttu-id="b3cbc-116">Land/Region</span><span class="sxs-lookup"><span data-stu-id="b3cbc-116">Country/region</span></span></p>
+<p><span data-ttu-id="b3cbc-117">Pager</span><span class="sxs-lookup"><span data-stu-id="b3cbc-117">Pager</span></span></p>
+<p><span data-ttu-id="b3cbc-118">Fax</span><span class="sxs-lookup"><span data-stu-id="b3cbc-118">Fax</span></span></p>
+<p><span data-ttu-id="b3cbc-119">Mobil</span><span class="sxs-lookup"><span data-stu-id="b3cbc-119">Mobile</span></span></p></td>
+<td><p><span data-ttu-id="b3cbc-120">Titel</span><span class="sxs-lookup"><span data-stu-id="b3cbc-120">Title</span></span></p>
+<p><span data-ttu-id="b3cbc-121">Unternehmen</span><span class="sxs-lookup"><span data-stu-id="b3cbc-121">Company</span></span></p>
+<p><span data-ttu-id="b3cbc-122">Abteilung</span><span class="sxs-lookup"><span data-stu-id="b3cbc-122">Department</span></span></p>
+<p><span data-ttu-id="b3cbc-123">Office</span><span class="sxs-lookup"><span data-stu-id="b3cbc-123">Office</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## In diesem Abschnitt
+<div>
 
-  - [Anzeigen von Informationen zu Benutzerkonten, die für Lync Server 2013 aktiviert sind](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+## <a name="in-this-section"></a><span data-ttu-id="b3cbc-124">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="b3cbc-124">In This Section</span></span>
 
-  - [Aktivieren und Deaktivieren von Benutzern für Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+  - [<span data-ttu-id="b3cbc-125">Anzeigen von Informationen zu Benutzerkonten, die für lync Server 2013 aktiviert sind</span><span class="sxs-lookup"><span data-stu-id="b3cbc-125">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
-  - [Verwalten von Enterprise-VoIP für Benutzer](lync-server-2013-managing-enterprise-voice-for-users.md)
+  - [<span data-ttu-id="b3cbc-126">Aktivieren und Deaktivieren von Benutzern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-126">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
-  - [Ändern der Eigenschaften von Benutzerkonten](lync-server-2013-modifying-user-account-properties.md)
+  - [<span data-ttu-id="b3cbc-127">Verwalten von Enterprise-VoIP für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-127">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)
 
-  - [Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [<span data-ttu-id="b3cbc-128">Ändern von Benutzerkontoeigenschaften in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-128">Modifying user account properties in Lync Server 2013</span></span>](lync-server-2013-modifying-user-account-properties.md)
 
-  - [Zuweisen von Richtlinien auf Benutzerebene](lync-server-2013-assigning-per-user-policies.md)
+  - [<span data-ttu-id="b3cbc-129">Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-129">Manage external access policy in Lync Server 2013</span></span>](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-## Siehe auch
+  - [<span data-ttu-id="b3cbc-130">Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-130">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 
-#### Konzepte
+</div>
 
-[Cmdlets für die Benutzerverwaltung](lync-server-2013-user-management-cmdlets.md)  
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a><span data-ttu-id="b3cbc-131">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b3cbc-131">See Also</span></span>
 
-[Verwalten von Benutzern in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
+
+[<span data-ttu-id="b3cbc-132">Cmdlets für die Benutzerverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-132">User management cmdlets in Lync Server 2013</span></span>](lync-server-2013-user-management-cmdlets.md)  
+
+
+[<span data-ttu-id="b3cbc-133">Verwalten von Benutzern in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3cbc-133">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

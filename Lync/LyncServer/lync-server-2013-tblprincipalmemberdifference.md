@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalMemberDifference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMemberDifference
 ms:assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558612(v=OCS.15)
-ms:contentKeyID: 49293140
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558612(v=OCS.15)
+ms:contentKeyID: 48183379
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f5db403431c182e3f5bb8e7a3fabaa04cd2a94d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847628"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalMemberDifference in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="10eb7-102">tblPrincipalMemberDifference in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10eb7-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
 
-"PrincipalMemberDifference" enthält Änderungen der Gruppenmitgliedschaften (sowohl hinzugefügte als auch entfernte Mitglieder), die von späteren Synchronisierungsschritten der Active Directory-Domänendienste noch nicht verarbeitet wurden.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="10eb7-103">_**Letztes Änderungsdatum des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="10eb7-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="10eb7-104">tblPrincipalMemberDifference enthält Gruppenmitgliedschaftsänderungen (sowohl hinzugefügte als auch entfernte Mitglieder), die noch nicht von den späteren Synchronisierungs Schritten von Active Directory-Domänendiensten verarbeitet wurden.</span><span class="sxs-lookup"><span data-stu-id="10eb7-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="10eb7-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="10eb7-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,32 +47,32 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Typ</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="10eb7-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="10eb7-106">Column</span></span></th>
+<th><span data-ttu-id="10eb7-107">Typ</span><span class="sxs-lookup"><span data-stu-id="10eb7-107">Type</span></span></th>
+<th><span data-ttu-id="10eb7-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="10eb7-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinGuid</p></td>
-<td><p>GUID, nicht NULL</p></td>
-<td><p>Prinzipal-GUID der geänderten Gruppe.</p></td>
+<td><p><span data-ttu-id="10eb7-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="10eb7-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-110">GUID, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="10eb7-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-111">Prinzipal-GUID der geänderten Gruppe.</span><span class="sxs-lookup"><span data-stu-id="10eb7-111">Principal GUID of the group that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>memberADPath</p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>Distinguished Name (DN) des Mitglieds.</p></td>
+<td><p><span data-ttu-id="10eb7-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="10eb7-112">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="10eb7-113">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-114">Distinguished Name des Members.</span><span class="sxs-lookup"><span data-stu-id="10eb7-114">Distinguished name of the member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>memberRemoved</p></td>
-<td><p>bit, nicht NULL</p></td>
-<td><p>FALSE, wenn das Mitglied hinzugefügt wurde. TRUE, wenn das Mitglied entfernt wurde.</p></td>
+<td><p><span data-ttu-id="10eb7-115">memberRemoved</span><span class="sxs-lookup"><span data-stu-id="10eb7-115">memberRemoved</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-116">Bit, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="10eb7-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-117">False, wenn das Mitglied hinzugefügt wurde.</span><span class="sxs-lookup"><span data-stu-id="10eb7-117">False if the member was added.</span></span> <span data-ttu-id="10eb7-118">"True", wenn das Element entfernt wurde.</span><span class="sxs-lookup"><span data-stu-id="10eb7-118">True if the member was removed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a><span data-ttu-id="10eb7-119">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="10eb7-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -61,15 +81,26 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="10eb7-120">Spalte</span><span class="sxs-lookup"><span data-stu-id="10eb7-120">Column</span></span></th>
+<th><span data-ttu-id="10eb7-121">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="10eb7-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinGuid, memberADPath&gt;</p></td>
-<td><p>Primärschlüssel</p></td>
+<td><p><span data-ttu-id="10eb7-122">&lt;prinGuid, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="10eb7-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="10eb7-123">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="10eb7-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

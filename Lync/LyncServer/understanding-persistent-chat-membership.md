@@ -1,61 +1,115 @@
-﻿---
-title: Grundlegendes zur Mitgliedschaft beim beständigen Chat
-TOCTitle: Grundlegendes zur Mitgliedschaft beim beständigen Chat
-ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398730(v=OCS.15)
-ms:contentKeyID: 49294736
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Grundlegendes zur Mitgliedschaft beim beständigen Chat
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Understanding Persistent Chat membership
+ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
+ms:contentKeyID: 48184781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846986"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Grundlegendes zur Mitgliedschaft beim beständigen Chat
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+# <a name="understanding-persistent-chat-membership"></a><span data-ttu-id="917bc-102">Grundlegendes zur Mitgliedschaft beim beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="917bc-102">Understanding Persistent Chat membership</span></span>
 
-Der Benutzerzugriff auf Chatrooms in Beständiger Chat wird über die Mitgliedschaft verwaltet. Ein Benutzer muss Mitglied eines Chatrooms sein, um Nachrichten zu veröffentlichen und zu lesen. Nur **Referenten** mit einer festgelegten Zugehörigkeit zu Chatrooms können in **Auditoriumchatrooms veröffentlichen**. Ein Auditorium ist ein Chatroomtyp (der andere Typ ist **Normal**), in dem ausschließlich Referenten veröffentlichen und alle anderen lesen können.
+</div>
 
-Darüber hinaus unterliegen Chatrooms in Beständiger Chat den Regeln einer Kategorie. Ausführliche Informationen zu Kategorien finden Sie unter [Verwalten von Kategorien, Chatrooms und Add-Ins in Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md) und in den Abschnitten "Funktionsweise der Mitgliedschaft in Kategorien" und "Strategien für Chatroomkategorien" im weiteren Verlauf dieses Themas.
+<div id="mainSection">
 
-Ein Beständiger Chat-Administrator kann Chatroomkategorien erstellen und verwalten. Im Rahmen des Erstellens und Verwaltens von Chatroomkategorien kann der Beständiger Chat-Administrator Prinzipale ( Active Directory-Domänendienste-Gruppen, -Container und -Benutzer) konfigurieren, die als Mitglieder oder Ersteller von Chatrooms in einer bestimmten Kategorie Zugriff haben.
+<div id="mainBody">
 
-## Active Directory-Domänendienste und Beständiger Chat
+<span> </span>
 
-Server für beständigen Chat nutzt die Active Directory-Dienste für den Pool interner Benutzer von Beständiger Chat. Nach der Installation von Beständiger Chat (Client) können Sie dem Bereich der Chatrooms Domänen von Benutzern und Benutzergruppen hinzufügen. Sie können dann die Benutzer und Gruppen zur Mitgliedschaft Ihrer Chatroomkategorien hinzufügen.
+<span data-ttu-id="917bc-103">_**Letztes Änderungsdatum des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="917bc-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
+<span data-ttu-id="917bc-104">Der Benutzer Zugriff auf beständige Chatrooms wird von der Mitgliedschaft verwaltet. Benutzer müssen Mitglieder eines Chatrooms sein, um Nachrichten Posten und lesen zu können.</span><span class="sxs-lookup"><span data-stu-id="917bc-104">User access to Persistent Chat rooms is managed by membership; users must be members of a chat room to be able to post and read messages.</span></span> <span data-ttu-id="917bc-105">Nur **Referenten** , die über eine bestimmte Zugehörigkeit zu Chatrooms verfügen, dürfen **Beiträge in Auditorium**-Chatrooms verwenden.</span><span class="sxs-lookup"><span data-stu-id="917bc-105">Only **Presenters** who have a designated affiliation with chat rooms are allowed to use **Posting to Auditorium rooms**.</span></span> <span data-ttu-id="917bc-106">Bei einem Auditorium handelt es sich um eine Art Chatroom (der andere ist **Normal**), in dem nur Referenten Beiträge Posten können und jeder lesen kann.</span><span class="sxs-lookup"><span data-stu-id="917bc-106">An auditorium is a type of chat room (the other is **Normal**), where only Presenters can post and everyone can read.</span></span>
 
-> [!IMPORTANT]
-> Sie müssen sicherstellen, dass für Benutzer, die Änderungen an ihren Chatrooms in Beständiger Chat vornehmen möchten, keine doppelten Namen vorhanden sind. Falls doppelte Benutzernamen vorhanden sind, ändern Sie diese in andere Namen, um die Sperrung der Änderungen durch diese Benutzer aufzuheben. Wenn ein Benutzer in Active Directory doppelte Namen hat und Änderungen an seinen Chatrooms durchführen will, wird eine Fehlermeldung angezeigt, die den Benutzer auffordert, sich für die Lösung an den Administrator zu wenden.
+<span data-ttu-id="917bc-107">Darüber hinaus arbeiten beständige Chatrooms unter den Regeln einer Kategorie.</span><span class="sxs-lookup"><span data-stu-id="917bc-107">In addition, Persistent Chat rooms operate under the rules of a category.</span></span> <span data-ttu-id="917bc-108">Ausführliche Informationen zu Kategorien finden Sie unter [Verwalten von Kategorien, Räumen und Add-Ins in lync Server 2013 sowie in](lync-server-2013-managing-categories-rooms-and-add-ins.md)den Abschnitten "Funktionsweise der Kategorie" und "raumkategorie-Strategien" weiter unten in diesem Thema.</span><span class="sxs-lookup"><span data-stu-id="917bc-108">For details about categories, see [Managing categories, rooms, and add-ins in Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md), and also the sections "How Category Scoping Works" and "Room Category Strategies" later in this topic.</span></span>
 
+<span data-ttu-id="917bc-109">Ein beständiger Chat-Administrator kann Chatroom-Kategorien erstellen und verwalten.</span><span class="sxs-lookup"><span data-stu-id="917bc-109">A Persistent Chat administrator can create and manage chat room categories.</span></span> <span data-ttu-id="917bc-110">Im Rahmen des Erstellens und Verwaltens von Chatroom-Kategorien kann der Administrator für beständigen Chat Prinzipale (Active Directory-Domänendienste, Gruppen, Container und Benutzer) konfigurieren, die Zugriff auf Mitglieder oder Ersteller von Chatrooms einer bestimmten Kategorie haben.</span><span class="sxs-lookup"><span data-stu-id="917bc-110">As part of creating and managing chat room categories, the Persistent Chat administrator can configure principals (Active Directory Domain Services groups, containers, and users) that have access to be members or creators of chat rooms of a particular category.</span></span>
 
+<div>
 
-## Funktionsweise von Bereichen in Kategorien
+## <a name="active-directory-domain-services-and-persistent-chat"></a><span data-ttu-id="917bc-111">Active Directory-Domänendienste und beständiger Chat</span><span class="sxs-lookup"><span data-stu-id="917bc-111">Active Directory Domain Services and Persistent Chat</span></span>
 
-Eine Kategorie gibt alle Benutzer und Gruppen an, die auf der Grundlage ihrer Eigenschaft **AllowedMembers** Mitglied in einer Mitgliederliste eines Chatrooms in Beständiger Chat in dieser Kategorie sein können. Wenn Sie beispielsweise für die Eigenschaft **AllowedMembers** der Kategorie contoso.com festlegen, können Sie beliebige Gruppen oder Benutzer zu *Contoso* als Mitglied von Chatrooms in dieser Kategorie festlegen. Wenn Sie für die Eigenschaft **AllowedMembers** einer Kategorie *Sales* festlegen, können nur Gruppen und Benutzer dieser Verteilerliste als Mitglieder von Chatrooms in dieser Kategorie festgelegt werden. Ähnlich können Sie mit der Eigenschaft **Creators** steuern, wer Chatrooms in der Kategorie erstellen kann. Nachdem der Chatroom erstellt wurde, können alle Mitglieder der Gruppe **AllowedMembers** als **Manager** für laufende Verwaltungsvorgänge für die Chatrooms festgelegt werden (z. B. Änderungen der Mitgliedschaft und Genehmigungen).
+<span data-ttu-id="917bc-112">Der Server für beständigen Chat basiert auf Active Directory für den Pool interner beständiger Chat-Benutzer.</span><span class="sxs-lookup"><span data-stu-id="917bc-112">Persistent Chat Server relies on Active Directory for the pool of internal Persistent Chat users.</span></span> <span data-ttu-id="917bc-113">Nach der Installation des beständigen Chats (Client) können Sie der Kategorie Raum Domänen von Benutzern und Benutzergruppen hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="917bc-113">After you install Persistent Chat (client), you can add domains of users and user groups to the room category.</span></span> <span data-ttu-id="917bc-114">Sie können diese Benutzer und Gruppen dann zur Mitgliedschaft in ihren Raumkategorien hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="917bc-114">You can then add these users and groups to the membership of your room categories.</span></span>
 
-Das Definieren von **AllowedMembers** und **Creators** für eine Kategorie hat folgende Vorteile:
-
-  - Alle in dieser Kategorie enthaltenen Chatrooms unterliegen den auf Kategorieebene festgelegten Einschränkungen. Hierdurch können Sie Chatrooms auf der Grundlage von Unternehmensanforderungen und Zugangsrichtlinien isolieren.
-
-  - Ein Benutzer, der in der Liste **Creators** vorhanden ist, kann in der Kategorie neue Chatrooms erstellen. Falls Sie ein System implementieren möchten, in dem nur eine beschränkt Anzahl Mitarbeiter der Organisation Chatrooms erstellen kann, können Sie dies nach diesem Verfahren realisieren.
-
-## Strategien für Chatroomkategorien
-
-Zu den **AllowedMembers** einer Kategorie müssen alle Benutzer gehören, die einen Chatroom in Beständiger Chat in der jeweiligen Kategorie benutzen. Abhängig von Ihren Anforderungen im Hinblick auf den Schutz von Geschäftsdaten und zur Sicherstellung der passenden Zugriffsebene können Sie eine oder mehrere Kategorien definieren, um festzulegen, wer in Chatrooms suchen und sich beteiligen kann. Wenn Sie nur einer bestimmten Gruppe von Benutzern (zentraler Helpdesk oder ausschließlich Vollzeitkräfte) erlauben möchten, Chatrooms zu erstellen, können Sie die **Creators** einer Kategorie entsprechend festlegen.
-
-Kategorien können auch eingesetzt werden, um chinesische Mauern zu errichten. Chinesische Mauern verhindern das Auftreten von Interessenkonflikten in einer Organisation. Ein Administrator kann z. B. Chatrooms in einer Kategorie erstellen, die nur für Händler vorgesehen ist, während die Chatrooms in einer anderen Kategorie ausschließlich durch Analysten genutzt werden können.
+<div>
 
 
-> [!NOTE]
-> In Lync Server 2013, Server für beständigen Chat wird kein Zugriff von Partnerbenutzern unterstützt. Sofern Chats von Partnerbenutzern in früheren Versionen von Server für beständigen Chat vorhanden sind, werden diese migriert. Die Partnerbenutzer werden als deaktivierte Prinzipale hinzugefügt.
+> [!IMPORTANT]  
+> <span data-ttu-id="917bc-115">Sie müssen sicherstellen, dass keine doppelten Namen für Benutzer vorhanden sind, die Änderungen an Ihren beständigen Chatrooms vornehmen möchten.</span><span class="sxs-lookup"><span data-stu-id="917bc-115">You must ensure that there are no duplicate names for users who want to make changes to their Persistent Chat room(s).</span></span> <span data-ttu-id="917bc-116">Wenn doppelte Benutzernamen vorhanden sind, ändern Sie Sie in verschiedene Namen, damit die Benutzer diese Änderungen nicht mehr vornehmen können.</span><span class="sxs-lookup"><span data-stu-id="917bc-116">If duplicate user names exist, change them to different names to unblock users from making those changes.</span></span> <span data-ttu-id="917bc-117">Wenn ein Benutzer in Active Directory doppelte Namen hat und versucht, Änderungen in seinen Räumen vorzunehmen, wird eine Fehlermeldung angezeigt, in der der Benutzer aufgefordert wird, den Administrator zur Lösung zu kontaktieren.</span><span class="sxs-lookup"><span data-stu-id="917bc-117">If a user has duplicate names in Active Directory and tries to make changes in their room(s), an error message appears prompting the user to contact the administrator for resolution.</span></span>
 
 
 
-## Beschränken der Mitglieder auf Benutzergruppen
+</div>
 
-Wenn Sie eine Domäne zu einer Kategorie hinzufügen, können Sie die Benutzergruppen, deren Gruppenobjekte in dieser Domäne enthalten sind, als Mitglieder von Chatrooms in der Kategorie festlegen.
+</div>
 
-Es empfiehlt sich in der Regel, Active Directory-Container, wie Domänen und Organisationseinheiten, zu verwenden, um die **AllowedMembers** und **Creators** einer Kategorie zu definieren. Zur Liste der **AllowedMembers** oder der **Creators** können Objekte aus beliebigen Domänen hinzugefügt werden. Ausschließlich Objekte, die in der Liste **AllowedMembers** oder **Creators** enthalten sind, können zu Chatrooms der entsprechenden Kategorie hinzugefügt werden.
+<div>
+
+## <a name="how-category-scoping-works"></a><span data-ttu-id="917bc-118">Funktionsweise von Kategorie-Scoping</span><span class="sxs-lookup"><span data-stu-id="917bc-118">How Category Scoping Works</span></span>
+
+<span data-ttu-id="917bc-119">Eine Kategorie gibt alle Benutzer und Gruppen an, die auf der Grundlage ihrer **AllowedMembers** -Eigenschaft Mitglieder in einer Mitgliederliste eines beständigen Chatrooms in dieser Kategorie sein können.</span><span class="sxs-lookup"><span data-stu-id="917bc-119">A category specifies all the users and groups that can be members in a membership list of a Persistent Chat room in that category, based on its **AllowedMembers** property.</span></span> <span data-ttu-id="917bc-120">Wenn Sie beispielsweise die **AllowedMembers** der Kategorie auf contoso.com festzulegen, können Sie eine beliebige Gruppe oder einen Benutzer bei *contoso* als Mitglied zu Chatrooms in dieser Kategorie hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="917bc-120">For example, if you set the category’s **AllowedMembers** to contoso.com, you can add any group or user at *Contoso* as a member to chat rooms in that category.</span></span> <span data-ttu-id="917bc-121">Wenn Sie das **AllowedMembers** für eine Kategorie auf *Sales*festzulegen, können nur Gruppen und Benutzer in dieser Verteilerliste als Mitglieder zu Chatrooms in dieser Kategorie hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="917bc-121">If you set the **AllowedMembers** on a category to *Sales*, only groups and users in this distribution list can be added as members to chat rooms in that category.</span></span> <span data-ttu-id="917bc-122">Auf ähnliche Weise \*\*\*\* können Sie mit der Creators-Eigenschaft steuern, wer Chatrooms in dieser Kategorie erstellen kann.</span><span class="sxs-lookup"><span data-stu-id="917bc-122">Similarly, the **Creators** property enables you to control who can create chat rooms in that category.</span></span> <span data-ttu-id="917bc-123">Nach dem Erstellen des Chatrooms kann jeder aus der **AllowedMembers** -Gruppe als **Manager** für laufende Verwaltungsvorgänge in den Räumen (beispielsweise Mitgliedschaftsänderungen und Genehmigungen) festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="917bc-123">After the chat room is created, anyone from the **AllowedMembers** group can be designated as a **Manager** for ongoing management operations on the rooms (for example, membership changes and approvals).</span></span>
+
+<span data-ttu-id="917bc-124">Das Definieren von **AllowedMembers** und Erstellern für eine Kategorie bietet die folgenden Vorteile: \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="917bc-124">Defining **AllowedMembers** and **Creators** for a category has the following benefits:</span></span>
+
+  - <span data-ttu-id="917bc-125">Alle in dieser Kategorie enthaltenen Chatrooms unterliegen den auf Kategorieebene festgelegten Einschränkungen.</span><span class="sxs-lookup"><span data-stu-id="917bc-125">All chat rooms in this category are bound by the restrictions set at the category level.</span></span> <span data-ttu-id="917bc-126">Hierdurch können Sie Chatrooms auf der Grundlage von Unternehmensanforderungen und Zugangsrichtlinien isolieren.</span><span class="sxs-lookup"><span data-stu-id="917bc-126">You can use this to segregate chat rooms based on business need and access policies.</span></span>
+
+  - <span data-ttu-id="917bc-127">Ein Benutzer, der sich in \*\*\*\* der Liste der Ersteller befindet, kann neue Chatrooms in dieser Kategorie erstellen.</span><span class="sxs-lookup"><span data-stu-id="917bc-127">A user who is in the **Creators** list can create new chat rooms in that category.</span></span> <span data-ttu-id="917bc-128">Wenn Sie ein System implementieren möchten, bei dem eine begrenzte Anzahl von Mitarbeitern in der Organisation Chatrooms erstellen kann, kann dieses Steuerelement verwendet werden, um diese Anforderung zu erfüllen.</span><span class="sxs-lookup"><span data-stu-id="917bc-128">If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.</span></span>
+
+</div>
+
+<div>
+
+## <a name="room-category-strategies"></a><span data-ttu-id="917bc-129">Strategien für Raumkategorien</span><span class="sxs-lookup"><span data-stu-id="917bc-129">Room Category Strategies</span></span>
+
+<span data-ttu-id="917bc-130">Die **AllowedMembers** einer Kategorie müssen alle Benutzer umfassen, die in dieser Kategorie einen beliebigen beständigen Chatroom verwenden werden.</span><span class="sxs-lookup"><span data-stu-id="917bc-130">A category’s **AllowedMembers** must include all users who will use any Persistent Chat room in this category.</span></span> <span data-ttu-id="917bc-131">Je nach Ihren Anforderungen, um Geschäftsdaten zu schützen und die angemessene Zugriffsebene zu gewährleisten, möchten Sie möglicherweise eine oder mehrere Kategorien definieren, um anzugeben, wer in Räumen suchen und daran teilnehmen kann.</span><span class="sxs-lookup"><span data-stu-id="917bc-131">Depending on your requirements to protect business data and ensure the appropriate level of access, you may want to define one or more categories to specify who can search and participate in rooms.</span></span> <span data-ttu-id="917bc-132">Wenn Sie nur einer bestimmten Gruppe von Benutzern (einem zentralen Helpdesk oder nur Vollzeit-Mitarbeitern) das Erstellen von Räumen gestatten möchten, können Sie die Ersteller einer Kategorie so einrichten, dass diese Anforderung erfüllt wird. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="917bc-132">If you want to allow only a particular set of users (a central helpdesk, or only full-time employees) to create rooms, you can scope the **Creators** of a category to satisfy that requirement.</span></span>
+
+<span data-ttu-id="917bc-133">Kategorien können auch verwendet werden, um ethische Wände zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="917bc-133">Categories can also be used to create ethical walls.</span></span> <span data-ttu-id="917bc-134">Ethische Mauern verhindern einen Interessenkonflikt in einer Organisation.</span><span class="sxs-lookup"><span data-stu-id="917bc-134">Ethical walls prevent any conflict of interest in an organization.</span></span> <span data-ttu-id="917bc-135">Beispielsweise kann ein Administrator Chatrooms in einer Kategorie nur für Händler erstellen, während Chatrooms in einer anderen Kategorie nur von Analysten verwendet werden können.</span><span class="sxs-lookup"><span data-stu-id="917bc-135">For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="917bc-136">In lync Server 2013, beständiger Chat Server, wird der Zugriff auf Verbundbenutzer nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="917bc-136">In Lync Server 2013, Persistent Chat Server, we do not support access to federated users.</span></span> <span data-ttu-id="917bc-137">Wenn in früheren Versionen des beständigen Chat Servers Chats von Verbundbenutzern vorhanden sind, werden Sie migriert.</span><span class="sxs-lookup"><span data-stu-id="917bc-137">If there are chats from federated users in previous versions of Persistent Chat Server, they will be migrated.</span></span> <span data-ttu-id="917bc-138">Die Verbundbenutzer werden als deaktivierte Prinzipale hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="917bc-138">The federated users are added as disabled principals.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="narrowing-the-members-to-user-groups"></a><span data-ttu-id="917bc-139">Einschränken der Mitglieder auf Benutzergruppen</span><span class="sxs-lookup"><span data-stu-id="917bc-139">Narrowing the Members to User Groups</span></span>
+
+<span data-ttu-id="917bc-140">Wenn Sie einer Kategorie eine Domäne hinzufügen, stehen die Benutzergruppen, deren Gruppenobjekte in dieser Domäne enthalten sind, für Sie zur Verfügung, damit Sie Sie als Mitglieder von Räumen in dieser Kategorie angeben können.</span><span class="sxs-lookup"><span data-stu-id="917bc-140">When you add a domain to a category, the user groups whose group objects are contained in that domain are available to you so that you can specify them as members of rooms in that category.</span></span>
+
+<span data-ttu-id="917bc-141">Wir empfehlen, dass Sie in der Regel Active Directory-Container wie Domänen und Organisationseinheiten verwenden, um **AllowedMembers** und Creators einer Kategorie zu definieren. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="917bc-141">We recommend, as a general rule, that you use Active Directory containers, such as domains and organizational units, for defining a category’s **AllowedMembers** and **Creators**.</span></span> <span data-ttu-id="917bc-142">Sie können Objekte aus einer beliebigen Domäne zu einer **AllowedMembers** - \*\*\*\* oder Creators-Liste hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="917bc-142">You can add objects from any domain to an **AllowedMembers** or **Creators** list.</span></span> <span data-ttu-id="917bc-143">Den Räumen unter dieser Kategorie können nur Objekte in der **AllowedMembers** -oder **Creators** -Liste hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="917bc-143">Only objects within the **AllowedMembers** or **Creators** list can be added to rooms under that category.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

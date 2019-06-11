@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceFanout'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceFanout
 ms:assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615050(v=OCS.15)
-ms:contentKeyID: 49295917
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615050(v=OCS.15)
+ms:contentKeyID: 48185828
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 6edae4c6e37f5abb6714e7c6863c80b7a6e7756b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847648"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblComplianceFanout in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblcompliancefanout-in-lync-server-2013"></a><span data-ttu-id="df91c-102">tblComplianceFanout in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df91c-102">tblComplianceFanout in Lync Server 2013</span></span>
 
-tblComplianceFanout enthält alle Server, die ein Kompatibilitätsereignis verarbeitet haben.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="df91c-103">_**Letztes Änderungsdatum des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="df91c-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="df91c-104">tblComplianceFanout enthält alle Server, die ein Compliance-Ereignis verarbeitet haben.</span><span class="sxs-lookup"><span data-stu-id="df91c-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="df91c-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="df91c-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,27 +47,27 @@ tblComplianceFanout enthält alle Server, die ein Kompatibilitätsereignis verar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Typ</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="df91c-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="df91c-106">Column</span></span></th>
+<th><span data-ttu-id="df91c-107">Typ</span><span class="sxs-lookup"><span data-stu-id="df91c-107">Type</span></span></th>
+<th><span data-ttu-id="df91c-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="df91c-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fanoutEventID</p></td>
-<td><p>int</p></td>
-<td><p>Ereignis-ID</p></td>
+<td><p><span data-ttu-id="df91c-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="df91c-109">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="df91c-110">int</span><span class="sxs-lookup"><span data-stu-id="df91c-110">int</span></span></p></td>
+<td><p><span data-ttu-id="df91c-111">Ereignis-ID.</span><span class="sxs-lookup"><span data-stu-id="df91c-111">Event ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>fanoutServerID</p></td>
-<td><p>int</p></td>
-<td><p>Serveridentität (entsprechend zur tblServerIdentity.serverID-Tabelle).</p></td>
+<td><p><span data-ttu-id="df91c-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="df91c-112">fanoutServerID</span></span></p></td>
+<td><p><span data-ttu-id="df91c-113">int</span><span class="sxs-lookup"><span data-stu-id="df91c-113">int</span></span></p></td>
+<td><p><span data-ttu-id="df91c-114">Serveridentität (entsprechend der Tabelle "tblServerIdentity. Serverkennung").</span><span class="sxs-lookup"><span data-stu-id="df91c-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a><span data-ttu-id="df91c-115">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="df91c-115">Key</span></span>
 
 <table>
 <colgroup>
@@ -56,15 +76,26 @@ tblComplianceFanout enthält alle Server, die ein Kompatibilitätsereignis verar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="df91c-116">Spalte</span><span class="sxs-lookup"><span data-stu-id="df91c-116">Column</span></span></th>
+<th><span data-ttu-id="df91c-117">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="df91c-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fanoutEventID</p></td>
-<td><p>Fremdschlüssel mit Abfrage der tblComplianceData.cmplEventID-Tabelle.</p></td>
+<td><p><span data-ttu-id="df91c-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="df91c-118">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="df91c-119">Fremdschlüssel mit Lookup in der tblComplianceData. cmplEventID-Tabelle.</span><span class="sxs-lookup"><span data-stu-id="df91c-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

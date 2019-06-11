@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPreference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615052(v=OCS.15)
-ms:contentKeyID: 49295964
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
+ms:contentKeyID: 48185913
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847652"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPreference in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="51649-102">tblPreference in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51649-102">tblPreference in Lync Server 2013</span></span>
 
-**tblPreference** enthält die Clientvoreinstellungen der Benutzer. Diese Tabelle wird allgemein von Clients mit einer früheren Version als Lync 2013 verwendet.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="51649-103">_**Letztes Änderungsdatum des Themas:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="51649-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="51649-104">tblPreference enthält die Clienteinstellungen des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="51649-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="51649-105">Diese wird in der Regel von Clients vor lync 2013 verwendet.</span><span class="sxs-lookup"><span data-stu-id="51649-105">This is generally used by clients previous to Lync 2013.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="51649-106">Spalten</span><span class="sxs-lookup"><span data-stu-id="51649-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,37 +47,37 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Typ</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="51649-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="51649-107">Column</span></span></th>
+<th><span data-ttu-id="51649-108">Typ</span><span class="sxs-lookup"><span data-stu-id="51649-108">Type</span></span></th>
+<th><span data-ttu-id="51649-109">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="51649-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prefLabel</p></td>
-<td><p>nvarchar (255), nicht NULL</p></td>
-<td><p>Bezeichnung mit einem Format wie z. B. &lt;SIP-URI des Benutzers&gt;|username.&lt;Voreinstellung&gt;.</p></td>
+<td><p><span data-ttu-id="51649-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="51649-110">prefLabel</span></span></p></td>
+<td><p><span data-ttu-id="51649-111">nvarchar (255); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="51649-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="51649-112">Label mit einem Format wie: &lt;User SIP URI&gt;| username. &lt;Einstellungssatz&gt;</span><span class="sxs-lookup"><span data-stu-id="51649-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prefSeqID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Fortlaufende Zahl (pro Bezeichnung) für die Versionsverwaltung.</p></td>
+<td><p><span data-ttu-id="51649-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="51649-113">prefSeqID</span></span></p></td>
+<td><p><span data-ttu-id="51649-114">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="51649-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="51649-115">Eine sequenzielle Zahl (pro Etikett) für die Versionsverwaltung</span><span class="sxs-lookup"><span data-stu-id="51649-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prefContent</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>Verschlüsselter Inhalt.</p></td>
+<td><p><span data-ttu-id="51649-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="51649-116">prefContent</span></span></p></td>
+<td><p><span data-ttu-id="51649-117">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="51649-117">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="51649-118">Codierter Inhalt.</span><span class="sxs-lookup"><span data-stu-id="51649-118">Encoded content.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>lastModifiedBy</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>ID des Prinzipals, der die Voreinstellung aktualisiert hat.</p></td>
+<td><p><span data-ttu-id="51649-119">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="51649-119">lastModifiedBy</span></span></p></td>
+<td><p><span data-ttu-id="51649-120">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="51649-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="51649-121">Die ID des Prinzipals, der die Einstellung aktualisiert hat.</span><span class="sxs-lookup"><span data-stu-id="51649-121">ID of the principal that updated the preference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="key"></a><span data-ttu-id="51649-122">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="51649-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -66,15 +86,26 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="51649-123">Spalte</span><span class="sxs-lookup"><span data-stu-id="51649-123">Column</span></span></th>
+<th><span data-ttu-id="51649-124">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="51649-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prefLabel, prefSeqID&gt;</p></td>
-<td><p>Primärschlüssel</p></td>
+<td><p><span data-ttu-id="51649-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="51649-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="51649-126">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="51649-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,57 @@
-﻿---
-title: Überprüfen der Kommunikation mithilfe eines Lync Online-Kunden
-TOCTitle: Überprüfen der Kommunikation mithilfe eines Lync Online-Kunden
-ms:assetid: c8287b15-e1bb-4b26-8354-0ec90b2fcfe7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202189(v=OCS.15)
-ms:contentKeyID: 49295377
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Überprüfen der Kommunikation mit einem lync Online-Kunden'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify communications with a Lync Online customer
+ms:assetid: c8287b15-e1bb-4b26-8354-0ec90b2fcfe7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202189(v=OCS.15)
+ms:contentKeyID: 48185378
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e6707139535ab30909f74b1a3fa51cce24374d09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847289"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Überprüfen der Kommunikation mithilfe eines Lync Online-Kunden
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="60322-102">Überprüfen der Kommunikation mit einem lync Online-Kunden in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60322-102">Verify communications with a Lync Online customer in Lync Server 2013</span></span>
 
-Führen Sie die folgenden Schritte aus, um den Lync-Benutzern in Ihrer Organisation die Kommunikation mit Benutzern eines Microsoft Lync Online 2010-Kunden zu ermöglichen:
+</div>
 
-  - Erfüllen aller Voraussetzungen. Dies umfasst die Bereitstellung Ihrer internen Server und Edgeserver, Aktivierung der Unterstützung für den Partnerverbund für Ihre Organisation und das Einrichten von Benutzerkonten. Weitere Informationen finden Sie unter [Voraussetzungen für den Partnerverbund mit einem Lync Online-Kunden](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md).
+<div id="mainSection">
 
-  - Konfigurieren der Unterstützung des Domänenzugriffs für Ihre interne Datenbank. Dies umfasst das Erstellen eines Eintrags für einen Hostinganbieter und das Konfigurieren Ihrer Bereitstellung für den Zugriff von der Domäne des Lync Online-Kunden. Weitere Informationen finden Sie unter [Konfigurieren der Unterstützung des Partnerverbunds für eine Lync Online-Domäne](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md).
+<div id="mainBody">
 
-  - Konfigurieren Ihres Benutzerkontos für die Unterstützung für den Partnerverbund. Weitere Informationen finden Sie unter [Konfigurieren des Benutzerzugriffs für den Partnerverbund mit einem Lync Online-Kunden](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).
+<span> </span>
 
-Wenn Sie alle diese Schritte ausgeführt haben und der Administrator des Lync Online 2010-Kunden die gesamte Konfiguration des Onlinedienstes zur Unterstützung für den Partnerverbund mit Ihrer Organisation durchgeführt hat, überprüfen Sie die Kommunikation zwischen einem internen Benutzer Ihrer Organisation und einem Benutzer des Lync Online-Kunden. Falls die Kommunikation nicht erfolgreich ist, verwenden Sie das Protokollierungstool Ihres Edgeservers, um Protokoll- und Verlaufsdateien aufzuzeichnen, die Sie für die Problembehandlung verwenden können. Weitere Informationen zur Verwendung des Protokollierungstools finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md) in der Betriebsdokumentation. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum Lync Server 2010-Protokollierungstool in der TechNet-Bibliothek unter [http://go.microsoft.com/fwlink/?linkid=199265\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=199265%26clcid=0x407).
+<span data-ttu-id="60322-103">_**Letztes Änderungsdatum des Themas:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="60322-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+
+<span data-ttu-id="60322-104">Damit lync-Benutzer in Ihrer Organisation mit Benutzern eines Microsoft lync Online 2010-Kunden kommunizieren können, müssen Sie die folgenden Schritte ausgeführt haben:</span><span class="sxs-lookup"><span data-stu-id="60322-104">To enable Lync users in your organization to communicate with users of a Microsoft Lync Online 2010 customer, you must have completed the following steps:</span></span>
+
+  - <span data-ttu-id="60322-105">Alle Voraussetzungen erfüllt.</span><span class="sxs-lookup"><span data-stu-id="60322-105">Met all prerequisites.</span></span> <span data-ttu-id="60322-106">Dies umfasst die Bereitstellung von internen und Edge-Servern, das Aktivieren der Föderations Unterstützung für Ihre Organisation und das Einrichten von Benutzerkonten.</span><span class="sxs-lookup"><span data-stu-id="60322-106">This includes deploying your internal and edge servers, enabling federation support for your organization, and setting up user accounts.</span></span> <span data-ttu-id="60322-107">Ausführliche Informationen finden Sie unter [Voraussetzungen für die Föderation mit einem lync Online-Kunden in lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md).</span><span class="sxs-lookup"><span data-stu-id="60322-107">For details, see [Prerequisites for federating with a Lync Online customer in Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md).</span></span>
+
+  - <span data-ttu-id="60322-108">Konfigurierte Unterstützung für den Domänenzugriff in ihrer internen Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="60322-108">Configured domain access support in your internal deployment.</span></span> <span data-ttu-id="60322-109">Dies umfasst das Erstellen eines Hostanbieter Eintrags und das Konfigurieren Ihrer Bereitstellung, um den Zugriff aus der Domäne des lync Online-Kunden zu ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="60322-109">This includes creating a host provider entry and configuring your deployment to allow access from the Lync Online customer’s domain.</span></span> <span data-ttu-id="60322-110">Ausführliche Informationen finden Sie unter [Konfigurieren der Verbundunterstützung für eine lync Online-Domäne in lync Server 2013](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md).</span><span class="sxs-lookup"><span data-stu-id="60322-110">For details, see [Configure federation support for a Lync Online domain in Lync Server 2013](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md).</span></span>
+
+  - <span data-ttu-id="60322-111">Ihre Benutzerkonten wurden für die Unterstützung der Föderation konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="60322-111">Configured your user accounts to support federation.</span></span> <span data-ttu-id="60322-112">Ausführliche Informationen finden Sie unter [Konfigurieren des Benutzerzugriffs für den Verbund mit einem lync Online-Kunden in lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).</span><span class="sxs-lookup"><span data-stu-id="60322-112">For details, see [Configure user access for federation with a Lync Online customer in Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).</span></span>
+
+<span data-ttu-id="60322-113">Nachdem Sie alle diese Schritte ausgeführt haben und der Administrator des lync Online 2010-Kunden die gesamte Konfiguration seiner Onlinedienste abgeschlossen hat, um den Verbund mit Ihrer Organisation zu unterstützen, überprüfen Sie die Kommunikation, indem Sie die Kommunikation zwischen einem internen Benutzer in Ihrer Organisation und ein Benutzer des lync Online-Kunden.</span><span class="sxs-lookup"><span data-stu-id="60322-113">After you complete all of these steps and the administrator of the Lync Online 2010 customer completes all configuration of their online services to support federation with your organization, verify communications by testing communications between an internal user in your organization and a user of the Lync Online customer.</span></span> <span data-ttu-id="60322-114">Wenn die Kommunikation nicht erfolgreich ist, können Sie mithilfe des Protokollierungstools Ihres Edge-Servers Protokoll-und Ablaufverfolgungsdateien aufzeichnen, um das Problem zu beheben.</span><span class="sxs-lookup"><span data-stu-id="60322-114">If communication is not successful, use the Logging Tool from your Edge Server to capture log and trace files in order to troubleshoot the problem.</span></span> <span data-ttu-id="60322-115">Ausführliche Informationen zur Verwendung des Protokollierungstools finden Sie unter [Öffnen der lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="60322-115">For details about using the Logging Tool, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md) in the Operations documentation.</span></span> <span data-ttu-id="60322-116">Details zum Protokollierungstool finden Sie in der Dokumentation zum Protokollierungstool für lync Server 2010 in der [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.</span><span class="sxs-lookup"><span data-stu-id="60322-116">For details about the Logging Tool, see the Lync Server 2010 Logging Tool documentation on the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

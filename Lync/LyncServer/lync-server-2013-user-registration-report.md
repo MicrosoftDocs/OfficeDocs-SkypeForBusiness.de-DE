@@ -1,37 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Bericht über Benutzerregistrierung'
-TOCTitle: Bericht über Benutzerregistrierung
-ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558614(v=OCS.15)
-ms:contentKeyID: 49293272
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzer Registrierungsbericht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User Registration Report
+ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)
+ms:contentKeyID: 48183486
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8f56ffd05e677d5106552a9ebcf8a0718efbc100
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847393"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bericht über Benutzerregistrierung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="user-registration-report-in-lync-server-2013"></a><span data-ttu-id="c9e5b-102">Bericht zur Benutzerregistrierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9e5b-102">User Registration Report in Lync Server 2013</span></span>
 
-Der Bericht über Benutzerregistrierung bietet eine Übersicht über die Anmeldeaktivität von Benutzern, hauptsächlich über die Anzahl der Benutzer, die sich in einem angegebenen Zeitraum (stündlich, täglich, wöchentlich oder monatlich) bei Microsoft Lync Server 2013 angemeldet haben. Beachten Sie, dass der Bericht nur die Anzahl der angemeldeten Personen enthält. Er enthält keine Informationen dazu, *welche* Personen sich angemeldet haben. Überwachungsberichte bieten keine Informationen dazu, welche bestimmten Benutzer Lync Server 2013 verwenden (oder nicht verwenden). Der Bericht über Benutzeraktivität bietet jedoch eine grobe Schätzung in Bezug auf Benutzerinformationen.
+</div>
 
-Bei der Bereitstellung von Informationen zu Benutzeranmeldungen werden vom Bericht über Benutzerregistrierung zwei erhebliche Unterschiede hervorgehoben. Zunächst werden die Anmeldungen in zwei Hauptkategorien unterteilt: interne Anmeldungen und externe Anmeldungen. Bei internen Anmeldungen handelt es sich um Benutzer, die sich innerhalb der Fierwall Ihrer Organisation anmelden (d. h. während Sie mit dem Unternehmensnetzwerk verbunden sind). Bei externen Anmeldungen handelt es sich um Benutzer, die sich außerhalb der Firewall über einen Edgeserver anmelden (ein Benutzer, der sich in einem Internetcafé anmeldet gilt beispielsweise als externe Anmeldung). Wenn Sie wissen möchten, wie viele Ihrer Benutzer sich außerhalb der Firewall anmelden, finden Sie diese Information im Bericht über Benutzerregistrierung.
+<div id="mainSection">
 
-Der Bericht über Benutzerregistrierung enthält zudem Informationen darüber, wie viele *aktive* Benutzer in einem bestimmten Zeitraum anwesend waren. Bei einem aktiven Benutzer handelt es sich um einen Benutzer, der an einer Chatsitzung oder an einerLync-Besprechung teilgenommen hat, einen Telefonanruf getätigt oder empfangen hat, oder Lync Server während dieses Zeitraums anderweitig genutzt hat. Dadurch unterscheiden sich aktive Benutzer von Benutzern, die sich zwar angemeldet, das System aber nicht tatsächlich genutzt haben.
+<div id="mainBody">
 
-## Zugreifen auf den Bericht über Benutzerregistrierung
+<span> </span>
 
-Sie können nur über die Homepage für Überwachungsberichte auf den Bericht über Benutzerregistrierung zugreifen. Der Bericht über Benutzerregistrierung ist nicht mit anderen Berichten verknüpft.
+<span data-ttu-id="c9e5b-103">_**Letztes Änderungsdatum des Themas:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="c9e5b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-## Optimale Nutzung des Berichts über Benutzerregistrierung
+<span data-ttu-id="c9e5b-104">Der Bericht zur Benutzerregistrierung bietet eine Übersicht über Benutzeranmelde Aktivitäten, insbesondere Informationen zur Anzahl der Benutzer, die sich während eines bestimmten Zeitraums bei Microsoft lync Server 2013 angemeldet haben (stündlich, täglich, wöchentlich, monatlich).</span><span class="sxs-lookup"><span data-stu-id="c9e5b-104">The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Microsoft Lync Server 2013 during a specified time period (hourly, daily, weekly, monthly).</span></span> <span data-ttu-id="c9e5b-105">Beachten Sie, dass der Bericht nur die Anzahl der angemeldeten Personen enthält.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-105">Keep in mind that the report only tells you how many people logged on.</span></span> <span data-ttu-id="c9e5b-106">Er enthält keine Informationen dazu, *welche* Personen sich angemeldet haben.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-106">It does not tell you *which* people logged on.</span></span> <span data-ttu-id="c9e5b-107">Überwachungsberichte liefern keine Informationen darüber, welche bestimmten Benutzer lync Server 2013 verwenden (und welche nicht).</span><span class="sxs-lookup"><span data-stu-id="c9e5b-107">Monitoring Reports do not provide information about which specific users are using Lync Server 2013 (and which ones are not).</span></span> <span data-ttu-id="c9e5b-108">Der Bericht über Benutzeraktivität bietet jedoch eine grobe Schätzung in Bezug auf Benutzerinformationen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-108">However, you can get a rough estimate of user information by using the User Activity Report.</span></span>
 
-Nach der Bereitstellung von Lync Server wird häufig folgende Frage gestellt: Woher weiß ich, ob meine Benutzer diese neue Technologie tatsächlich nutzen? Der Bericht über Benutzerregistrierung weist in dieser Hinsicht zwar einige Einschränkungen auf, kann Ihnen aber dennoch bei der Beantwortung dieser Frage helfen. Sie müssen zwei Schritte ausführen, um festzustellen, ob Benutzer Lync Server verwenden oder nicht. Rufen Sie zunächst den Wert der Metrik "Eindeutige angemeldete Benutzer" im Bericht über Benutzerregistrierung ab. Anhand dieses Werts erfahren Sie, wie viele einzelne Benutzer sich an Lync Server angemeldet haben.
+<span data-ttu-id="c9e5b-109">Bei der Bereitstellung von Informationen zu Benutzeranmeldungen macht der Bericht über Benutzerregistrierung zwei erhebliche Unterschiede.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-109">When providing information about user logons, the User Registration Report draws two important distinctions.</span></span> <span data-ttu-id="c9e5b-110">Zunächst werden die Anmeldungen in zwei Hauptkategorien unterteilt: interne Anmeldungen und externe Anmeldungen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-110">First, it breaks logons down into two primary categories: internal logons and external logons.</span></span> <span data-ttu-id="c9e5b-111">Bei internen Anmeldungen handelt es sich um Benutzer, die sich innerhalb der Firewall Ihres Unternehmens anmelden (d. h. während Sie mit dem Unternehmensnetzwerk verbunden sind).</span><span class="sxs-lookup"><span data-stu-id="c9e5b-111">Internal logons represent users who logged on from inside your organization's firewall (that is, while connected to the corporate network).</span></span> <span data-ttu-id="c9e5b-112">Externe Anmeldungen stellen Benutzer dar, die sich von außerhalb der Firewall über einen Edgeserver angemeldet haben (beispielsweise zählt ein Benutzer, der sich von einem Internet Café anmeldet, als externe Anmeldung).</span><span class="sxs-lookup"><span data-stu-id="c9e5b-112">External logons represent users who logged on from outside the firewall through an Edge Server (for example, a user who logged on from an Internet café counts as an external logon).</span></span> <span data-ttu-id="c9e5b-113">Wenn Sie wissen möchten, wie viele Ihrer Benutzer sich außerhalb der Firewall anmelden, finden Sie diese Information im Bericht über Benutzerregistrierung.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-113">If you need to know how many of your users are logging on from outside the firewall, the User Registration Report can provide you with this information.</span></span>
 
-Im Vergleich dazu zeigt die Metrik "Anmeldungen insgesamt", wie viele Anmeldungen an Lync Server insgesamt stattfanden. Angenommen, Ken Myer hat sich an einem Tag fünf Mal an Lync Server angemeldet. In diesem Fall zählt Ken Myer als fünf separate Anmeldesitzungen für die Metrik "Anmeldungen insgesamt", aber nur als ein angemeldeter Benutzer für die Metrik "Eindeutige angemeldete Benutzer". Häufig melden sich Benutzer auch auf verschiedenen Geräten oder an verschiedenen Standorten an. Ein Benutzer kann sich beispielsweise auf seinem Desktopcomputer oder Laptop anmelden oder über ein IP-Telefon verfügen, das automatisch an Lync Server angemeldet wird. In diesem Beispiel ist ein eindeutiger Benutzer mit drei Anmeldungen vorhanden.
+<span data-ttu-id="c9e5b-114">Der Bericht über Benutzerregistrierung enthält zudem Informationen darüber, wie viele *aktive* Benutzer in einem bestimmten Zeitraum anwesend waren.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-114">In addition, the User Registration Report notes how many *active* users were present during a given time period.</span></span> <span data-ttu-id="c9e5b-115">Ein aktiver Benutzer ist ein Benutzer, der an einer Chatsitzung teilgenommen, an einer lync-Besprechung teilgenommen, einen Telefonanruf getätigt oder empfangen oder in diesem Zeitraum anderweitig lync Server verwendet hat.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-115">An active user is a user who took part in an instant messaging (IM) session, participated in a Lync Meeting, made or received a phone call, or otherwise used Lync Server during that period of time.</span></span> <span data-ttu-id="c9e5b-116">Dadurch unterscheiden sich aktive Benutzer von Benutzern, die sich zwar angemeldet, das System aber nicht genutzt haben.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-116">This is different from a user who logged on, but never actually used the system.</span></span>
 
-Sehen Sie sich in der folgenden Tabelle mit Anmeldungen in einem bestimmten Zeitraum an, in der der Unterschied zwischen Anmeldungen insgesamt und eindeutigen Anmeldungen näher erklärt ist.
+<div>
+
+## <a name="accessing-the-user-registration-report"></a><span data-ttu-id="c9e5b-117">Zugreifen auf den Bericht über Benutzerregistrierung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-117">Accessing the User Registration Report</span></span>
+
+<span data-ttu-id="c9e5b-p104">Sie können nur über die Homepage für Überwachungsberichte auf den Bericht über Benutzerregistrierung zugreifen. Der Bericht über Benutzerregistrierung ist nicht mit anderen Berichten verknüpft.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p104">You access the User Registration Report only from the Monitoring Reports home page. The User Registration Report does not link to any other reports.</span></span>
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-user-registration-report"></a><span data-ttu-id="c9e5b-120">Optimale Nutzung des Berichts über Benutzerregistrierung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-120">Making the Best Use of the User Registration Report</span></span>
+
+<span data-ttu-id="c9e5b-121">Nachdem Sie lync Server bereitgestellt haben, wird häufig eine Frage gestellt: Wie kann ich feststellen, ob meine Benutzer diese neue Technologie tatsächlich verwenden?</span><span class="sxs-lookup"><span data-stu-id="c9e5b-121">After you've deployed Lync Server one commonly-asked question is this: How do I know if my users are actually using this new technology?</span></span> <span data-ttu-id="c9e5b-122">Der Bericht über Benutzerregistrierung weist in dieser Hinsicht zwar einige Einschränkungen auf, kann Ihnen aber dennoch bei der Beantwortung der Frage helfen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-122">Although it has a few limitations in this regard, the User Registration Report can help you answer this question.</span></span> <span data-ttu-id="c9e5b-123">Wenn Sie feststellen möchten, ob Benutzer lync Server verwenden, müssen Sie zwei Schritte ausführen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-123">To determine whether or not users are using Lync Server, you need to do two things.</span></span> <span data-ttu-id="c9e5b-124">Rufen Sie zunächst den Wert der Metrik „Eindeutige angemeldete Benutzer“ im Bericht über Benutzerregistrierung ab.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-124">First, get the value of the Unique logon users metric from the User Registration Report.</span></span> <span data-ttu-id="c9e5b-125">Dieser Wert gibt an, wie viele unterschiedliche Personen bei lync Server angemeldet sind.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-125">This value tells you how many distinct individuals logged on to Lync Server.</span></span>
+
+<span data-ttu-id="c9e5b-126">Im Vergleich dazu zeigt die Metrik Gesamtanzahl der Anmeldungen an, wie viele Gesamtzeiten alle an lync Server angemeldet sind.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-126">By comparison, the Total logons metric shows how many total times anyone logged on to Lync Server.</span></span> <span data-ttu-id="c9e5b-127">Angenommen, Ken Myers ist an einem einzigen Tag fünf Mal an lync Server angemeldet.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-127">For example, suppose Ken Myer logged on to Lync Server five different times in a single day.</span></span> <span data-ttu-id="c9e5b-128">In diesem Fall zählt Jan Sachweh als fünf separate Anmeldesitzungen in der Metrik „Anmeldungen insgesamt“, aber nur als ein angemeldeter Benutzer in der Metrik „Eindeutige angemeldete Benutzer“.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-128">In that case, Ken Myer would count as five separate logon sessions for the Total logons metric, but just one logon user for the Unique logon users metric.</span></span> <span data-ttu-id="c9e5b-129">Häufig melden sich Benutzer auch auf verschiedenen Geräten oder an verschiedenen Standorten an.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-129">Likewise, it's not uncommon for a user to log on from multiple devices or multiple locations.</span></span> <span data-ttu-id="c9e5b-130">Beispielsweise kann sich ein Benutzer mit seinem Desktopcomputer, dem Laptop Computer, anmelden, und er kann ein IP-Telefon haben, das sich automatisch bei lync Server anmeldet.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-130">For example, a user can log on using her desktop computer, her laptop computer, and she can have an IP phone that automatically logs on to Lync Server.</span></span> <span data-ttu-id="c9e5b-131">In diesem Beispiel gibt es einen eindeutigen Benutzer mit drei Anmeldungen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-131">In this example, there is one unique user with three logons.</span></span>
+
+<span data-ttu-id="c9e5b-132">Sehen Sie sich in der folgenden Tabelle mit Anmeldungen in einem bestimmten Zeitraum an, in der der Unterschied zwischen Anmeldungen insgesamt und eindeutigen Anmeldungen näher erklärt ist.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-132">To further explain the difference between total logons and unique logons, consider the logons for a given time period in the following table.</span></span>
 
 
 <table>
@@ -41,60 +67,68 @@ Sehen Sie sich in der folgenden Tabelle mit Anmeldungen in einem bestimmten Zeit
 </colgroup>
 <thead>
 <tr class="header">
-<th>User</th>
-<th>Anmeldezeitpunkt</th>
+<th><span data-ttu-id="c9e5b-133">User</span><span class="sxs-lookup"><span data-stu-id="c9e5b-133">User</span></span></th>
+<th><span data-ttu-id="c9e5b-134">Anmeldezeitpunkt</span><span class="sxs-lookup"><span data-stu-id="c9e5b-134">Logon time</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ken Myer</p></td>
-<td><p>07.07.2012 08:45:00</p></td>
+<td><p><span data-ttu-id="c9e5b-135">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="c9e5b-135">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-136">7/7/2012 8:45 am</span><span class="sxs-lookup"><span data-stu-id="c9e5b-136">7/7/2012 8:45 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Ken Myer</p></td>
-<td><p>07.07.2012 08:46:00</p></td>
+<td><p><span data-ttu-id="c9e5b-137">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="c9e5b-137">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-138">7/7/2012 8:46 am</span><span class="sxs-lookup"><span data-stu-id="c9e5b-138">7/7/2012 8:46 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Pilar Ackerman</p></td>
-<td><p>07.07.2012 09:17:00</p></td>
+<td><p><span data-ttu-id="c9e5b-139">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="c9e5b-139">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-140">7/7/2012 9:17 am</span><span class="sxs-lookup"><span data-stu-id="c9e5b-140">7/7/2012 9:17 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Ken Myer</p></td>
-<td><p>07.07.2012 09:22:00</p></td>
+<td><p><span data-ttu-id="c9e5b-141">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="c9e5b-141">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-142">7/7/2012 9:22 am</span><span class="sxs-lookup"><span data-stu-id="c9e5b-142">7/7/2012 9:22 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Pilar Ackerman</p></td>
-<td><p>07.07.2012 09:31:00</p></td>
+<td><p><span data-ttu-id="c9e5b-143">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="c9e5b-143">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-144">7/7/2012 9:31 am</span><span class="sxs-lookup"><span data-stu-id="c9e5b-144">7/7/2012 9:31 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Insgesamt fanden fünf Anmeldungen statt, es sind jedoch nur zwei eindeutige angemeldete Benutzer vorhanden: Ken Myer (der sich dreimal angemeldet hat) und Pilar Ackerman (die sich zweimal angemeldet hat). Darin besteht der Unterschied zwischen Anmeldungen und eindeutigen angemeldeten Benutzern.
+<span data-ttu-id="c9e5b-p107">Insgesamt fanden fünf Anmeldungen statt, es sind jedoch nur zwei eindeutige angemeldete Benutzer vorhanden: Ken Myer (der sich dreimal angemeldet hat) und Pilar Ackerman (die sich zweimal angemeldet hat). Darin besteht der Unterschied zwischen Anmeldungen und eindeutigen angemeldeten Benutzern.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p107">Notice that there is a total of five logons; however, there are only two unique logon users: Ken Myer (who logged on three times) and Pilar Ackerman (who logged on twice). That's the difference between logons and unique logon users.</span></span>
 
-Neben der Anzahl an eindeutige Anmeldungen muss Ihnen auch die Gesamtanzahl der Benutzer bekannt sein, die für Lync Server aktiviert sind. Dieser Wert kann durch Öffnen der Verwaltungsshell für Lync Server 2013 und Ausführen des folgenden Windows PowerShell-Befehls abgerufen werden:
+<span data-ttu-id="c9e5b-147">Sie müssen nicht nur die Anzahl der eindeutigen Anmeldungen kennen, sondern auch die Gesamtzahl der Benutzer, die für lync Server aktiviert wurden.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-147">In addition to knowing the number of unique logons, you need to know the total number of users who have been enabled for Lync Server.</span></span> <span data-ttu-id="c9e5b-148">Dieser Wert kann abgerufen werden, indem die lync Server 2013-Verwaltungsshell geöffnet und der folgende Windows PowerShell-Befehl ausgeführt wird:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-148">That value can be retrieved by opening the Lync Server 2013 Management Shell and running the following Windows PowerShell command:</span></span>
 
     (Get-CsUser).Count
 
-Wenn der vorhergehende Befehl den Wert 1.236 und die Metrik "Eindeutige angemeldete Benutzer" den Wert of 667, deutet dies darauf hin, dass etwas mehr über die Hälfte Ihrer Benutzer, die für Lync aktiviert sind, sich tatsächlich jeden Tag am System anmelden (667 geteilt durch 1.236 ergibt etwa 54 %).
+<span data-ttu-id="c9e5b-149">Wenn der vorhergehende Befehl einen Wert von 1.236 zurückgibt und der Wert der eindeutigen Anmeldebenutzer Metrik einen Mittelwert von 667 zurückgibt, deutet dies darauf hin, dass etwas mehr als die Hälfte der Benutzer für lync aktiviert ist, die sich tatsächlich täglich am System anmelden (d. 667 dividiert durch 1.236 , was etwa 54% beträgt.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-149">If the preceding command returns a value of 1,236 and Unique logon users metric returns an average value of 667, that suggests that a little over half of your users enable for Lync are actually logging on to the system each day (that is, 667 divided by 1,236, which is approximately 54%).</span></span>
+
+<div>
 
 
-> [!WARNING]
-> Beachten Sie, dass die Metriken die Benutzer aufzeichnen, die sich tatsächlich im angegebenen Zeitraum angemeldet haben. Bereits am System angemeldete Benutzer werden nicht erfasst. Wenn die Metrik "Eindeutige angemeldete Benutzer" 667&nbsp;Anmeldungen anzeigt und insgesamt 1.236&nbsp;Benutzer vorhanden sind, deutet dies darauf hin, dass sich ca. die Hälfte Ihrer Benutzer am System anmeldet. Angenommen jedoch, 300&nbsp;Benutzer waren bereits am System angemeldet, als Sie begonnen haben, die Anmeldedaten zu überprüfen. In diesem Fall wären tatsächlich bereits fast 1.000&nbsp;Benutzer und damit beinahe 80&nbsp;% Ihrer Benutzer an Lync Server angemeldet gewesen.
+> [!WARNING]  
+> <span data-ttu-id="c9e5b-150">Beachten Sie, dass die Metriken die Benutzer aufzeichnen, die sich tatsächlich im angegebenen Zeitraum angemeldet haben.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-150">Keep in mind that the logon metrics record users who actually logged on during the specified time period.</span></span> <span data-ttu-id="c9e5b-151">Bereits im System angemeldete Benutzer werden nicht erfasst.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-151">They don't keep track of users who were already logged on to the system.</span></span> <span data-ttu-id="c9e5b-152">Wenn zum Beispiel die Metrik „Eindeutige angemeldete Benutzer“ 667 Anmeldungen anzeigt und insgesamt 1.236 Benutzer vorhanden sind, deutet dies darauf hin, dass sich ca. die Hälfte Ihrer Benutzer im System anmeldet.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-152">For example, if your Unique logon users metric shows 667 logons and you have 1,236 users, that suggests that about half your users are logging on to the system.</span></span> <span data-ttu-id="c9e5b-153">Nehmen wir jedoch an, 300 Benutzer waren bereits am System angemeldet, als Sie mit der Überprüfung der Anmeldedaten begonnen haben.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-153">However, suppose 300 users were already logged on to the system at the time you began checking the logon data.</span></span> <span data-ttu-id="c9e5b-154">Das würde bedeuten, dass Sie tatsächlich fast 1.000-Benutzer bei lync Server angemeldet haben, was bedeutet, dass Sie näher an 80% ihrer Benutzer angemeldet waren.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-154">That would mean that you actually had nearly 1,000 users logged on to Lync Server, which would mean that closer to 80% of your users were logged on.</span></span>
 
 
 
-Vergleichen Sie auch den Wert "Eindeutige angemeldete Benutzer" mit dem Wert der Metrik "Eindeutige aktive Benutzer". Die Metrik "Eindeutige aktive Benutzer" gibt an, wie viele aktive Benutzer Lync Server tatsächlich verwendet haben, indem sie z. B. einen Telefonanruf getätigt haben, einer Lync-Besprechung beigetreten sind oder an einer Chatsitzung teilgenommen haben. Diese Informationen sind nützlich, da Microsoft Lync 2013 so konfiguriert werden kann, dass es immer automatisch gestartet wird, wenn ein Benutzer Windows startet. Daher wird u. U. jeden Tag eine höhere Anzahl von Benutzern automatisch an Lync angemeldet, wenn sie sich an Windows anmelden, die Lync Server während dieses Zeitraum aber tatsächlich nicht benutzen.
+</div>
 
-Die Metrik "Eindeutige aktive Benutzer" stellt auch in einer Organisation aussagekräftigere Daten zur Verfügung, in der sich Benutzer in der Regel am Ende des Tages nicht von Windows abmelden. Stattdessen sperren sie einfach einfach ihre Computer, und Windows und Lync werden weiter ausgeführt. In einer solchen Situation erfolgen sehr wenige Anmeldungen pro Tag, da sich Benutzer vor einigen Tagen angemeldet und seitdem nicht mehr abgemeldet haben. Die Metrik "Eindeutige aktive Benutzer" gibt jedoch an, ob Benutzer Lync oder einen anderen Lync Server-Client aktiv nutzen.
+<span data-ttu-id="c9e5b-155">Vergleichen Sie auch den Wert „Eindeutige angemeldete Benutzer“ mit dem Wert der Metrik „Eindeutige aktive Benutzer“.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-155">You should also compare the Unique logon users value with the value of the Unique active users metric.</span></span> <span data-ttu-id="c9e5b-156">Die Metrik "eindeutige aktive Benutzer" zeigt an, wie viele eindeutige Benutzer tatsächlich lync Server verwendet haben: Sie haben einen Telefonanruf getätigt, haben sich einer lync-Besprechung angeschlossen, oder Sie haben an einer Chatsitzung teilgenommen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-156">The Unique active users metric tells you how many unique users actually used Lync Server: they made a phone call, they joined a Lync Meeting, or they participated in an IM session.</span></span> <span data-ttu-id="c9e5b-157">Dies sind nützliche Informationen, da Microsoft lync 2013 so konfiguriert werden kann, dass jedes Mal, wenn ein Benutzer Windows startet, automatisch gestartet wird.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-157">This is useful information, because Microsoft Lync 2013 can be configured to automatically start each time a user starts Windows.</span></span> <span data-ttu-id="c9e5b-158">Aus diesem Grund haben Sie möglicherweise eine große Anzahl von Benutzern, die sich automatisch bei lync anmelden, wenn Sie sich täglich bei Windows anmelden, in diesem Zeitraum aber niemals lync Server verwenden.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-158">Because of that, you might have a large number of users who automatically log on to Lync when they log on to Windows each day, but then never actually use Lync Server during that time period.</span></span>
 
-## Filter
+<span data-ttu-id="c9e5b-159">Die Metrik "eindeutige aktive Benutzer" bietet auch aussagekräftigere Daten in einer Organisation, in der Benutzer sich am Ende des Tages in der Regel nicht von Windows abmelden.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-159">The Unique active users metric also provides more meaningful data in an organization where users typically do not log off Windows at the end of the day.</span></span> <span data-ttu-id="c9e5b-160">Stattdessen Sperren Sie einfach Ihre Computer und lassen Windows und lync ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-160">Instead, they simply lock their computers and leave Windows and Lync running.</span></span> <span data-ttu-id="c9e5b-161">In einer solchen Situation erfolgen sehr wenige Anmeldungen pro Tag, da sich die Benutzer vor einigen Tagen angemeldet und seitdem nicht mehr abgemeldet haben.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-161">In a situation like that, you might end up with very few logons per day because your users logged on several days ago and never logged off.</span></span> <span data-ttu-id="c9e5b-162">Bei eindeutigen aktiven Benutzern wird jedoch mitgeteilt, ob Benutzer lync oder einen anderen lync Server-Client aktiv verwenden.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-162">However, Unique active users tells you whether users are actively using Lync or another Lync Server client.</span></span>
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie im Bericht über Benutzerregistrierung Daten für alle Ihre Registrierungsstellenpool und Edgeserver anzeigen oder nur für einen einzelnen Pool. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Registrierungen nach Stunde, Tag, Woche oder Monat zusammengefasst.
+</div>
 
-In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Benutzerregistrierung verwenden können.
+<div>
 
-### Filter im Bericht über Benutzerregistrierung
+## <a name="filters"></a><span data-ttu-id="c9e5b-163">Filter</span><span class="sxs-lookup"><span data-stu-id="c9e5b-163">Filters</span></span>
+
+<span data-ttu-id="c9e5b-164">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-164">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="c9e5b-165">So können Sie beispielsweise mit dem Bericht zur Benutzerregistrierung Daten für alle registrierungspools und-Edgeserver anzeigen oder Daten für einen einzelnen Pool anzeigen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-165">For example, the User Registration Report enables you to view data for all your Registrar pool and Edge Servers or to view data for an individual pool.</span></span> <span data-ttu-id="c9e5b-166">Sie können außerdem festlegen, wie Daten gruppiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-166">You can also choose how data should be grouped.</span></span> <span data-ttu-id="c9e5b-167">In diesem Fall werden die Registrierungen nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-167">In this case, registrations grouped by hour, day, week, or month.</span></span>
+
+<span data-ttu-id="c9e5b-168">In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Benutzerregistrierung verwenden können.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-168">The following table lists the filters that you can use with the User Registration Report.</span></span>
+
+### <a name="user-registration-report-filters"></a><span data-ttu-id="c9e5b-169">Filter im Bericht über Benutzerregistrierung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-169">User Registration Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -103,55 +137,59 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="c9e5b-170">Name</span><span class="sxs-lookup"><span data-stu-id="c9e5b-170">Name</span></span></th>
+<th><span data-ttu-id="c9e5b-171">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-171">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
-<td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00</p>
-<p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.12</p>
-<p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.12</p>
-<p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
+<td><p><span data-ttu-id="c9e5b-172"><strong>Von</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-172"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-p113">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p113">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="c9e5b-175">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="c9e5b-175">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c9e5b-p114">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p114">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c9e5b-178">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c9e5b-178">7/7/2012</span></span></p>
+<p><span data-ttu-id="c9e5b-179">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="c9e5b-179">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c9e5b-180">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c9e5b-180">7/3/2012</span></span></p>
+<p><span data-ttu-id="c9e5b-181">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-181">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
-<td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00</p>
-<p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.12</p>
-<p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.12</p>
-<p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
+<td><p><span data-ttu-id="c9e5b-182"><strong>Bis</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-182"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-p115">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p115">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="c9e5b-185">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="c9e5b-185">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c9e5b-p116">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p116">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c9e5b-188">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c9e5b-188">7/7/2012</span></span></p>
+<p><span data-ttu-id="c9e5b-189">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="c9e5b-189">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c9e5b-190">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c9e5b-190">7/3/2012</span></span></p>
+<p><span data-ttu-id="c9e5b-191">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-191">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervall</strong></p></td>
-<td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
+<td><p><span data-ttu-id="c9e5b-192"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-192"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-p117">Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p117">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><strong>Stündlich</strong> (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p><strong>Täglich</strong> (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p><strong>Wöchentlich</strong> (maximal 12 Wochen können angezeigt werden)</p></li>
-<li><p><strong>Monatlich</strong> (maximal 12 Monate können angezeigt werden)</p></li>
+<li><p><span data-ttu-id="c9e5b-195">Stündlich (maximal 25 Stunden können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="c9e5b-195">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="c9e5b-196">Täglich (maximal 31 Tage können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="c9e5b-196">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="c9e5b-197">Wöchentlich (maximal 12 Wochen können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="c9e5b-197">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="c9e5b-198">Monatlich (maximal 12 Monate können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="c9e5b-198">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall &quot;Täglich&quot; mit dem Startdatum &quot;07.07.2012&quot; und dem Enddatum &quot;28.09.2012&quot; ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2011 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
+<p><span data-ttu-id="c9e5b-199">Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-199">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed.</span></span> <span data-ttu-id="c9e5b-200">Wenn Sie beispielsweise das Tagesintervall mit einem Anfangstermin von 7/7/2012 und einem Enddatum von 2/28/2012 auswählen, werden die Daten für die Tage 8/7/2012 12:00 Uhr bis 9/7/2012 12:00 Uhr angezeigt (also insgesamt 31 Tage).</span><span class="sxs-lookup"><span data-stu-id="c9e5b-200">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Registrierungsstellenpools oder Edgeservers. Sie können einen einzelnen Pool oder <strong>[Alle]</strong> auswählen, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
+<td><p><span data-ttu-id="c9e5b-201"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-201"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-202">Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder Edgeservers.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-202">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="c9e5b-203">Sie können einen einzelnen Pool oder <strong>[Alle]</strong> auswählen, um die Daten für alle Pools anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-203">You can either select an individual pool or choose <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="c9e5b-204">Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-204">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Metriken
+</div>
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Benutzerregistrierung enthalten sind.
+<div>
 
-### Metriken im Bericht über Benutzerregistrierung
+## <a name="metrics"></a><span data-ttu-id="c9e5b-205">Metriken</span><span class="sxs-lookup"><span data-stu-id="c9e5b-205">Metrics</span></span>
+
+<span data-ttu-id="c9e5b-206">In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Benutzerregistrierung enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-206">The following table lists the information provided in the User Registration Report.</span></span>
+
+### <a name="user-registration-report-metrics"></a><span data-ttu-id="c9e5b-207">Metriken im Bericht über Benutzerregistrierung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-207">User Registration Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -161,45 +199,58 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über B
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Kann nach dieser Metrik sortiert werden?</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="c9e5b-208">Name</span><span class="sxs-lookup"><span data-stu-id="c9e5b-208">Name</span></span></th>
+<th><span data-ttu-id="c9e5b-209">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="c9e5b-209">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="c9e5b-210">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c9e5b-210">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Stündlich</strong></p>
-<p><strong>Täglich</strong></p>
-<p><strong>Wöchentlich</strong></p>
-<p><strong>Monatlich</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Gibt das Zeitintervall an, das Sie auf der Symbolleiste für Filter ausgewählt haben. Sie können auf ein einzelnes Zeitintervall klicken, um Details zu diesem Intervall abzurufen. Wenn Sie beispielsweise das Intervall &quot;Täglich&quot; verwenden und auf &quot;07.07.2012&quot; klicken, sehen Sie die nach Stunden aufgeschlüsselten Benutzerregistrierungsaktivitäten an diesem Tag.</p></td>
+<td><p><span data-ttu-id="c9e5b-211"><strong>Stündlich</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-211"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="c9e5b-212"><strong>Täglich</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-212"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="c9e5b-213"><strong>Wöchentlich</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-213"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="c9e5b-214"><strong>Monatlich</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-214"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-215">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-215">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-216">Gibt das auf der Filtersymbolleiste gewählte Zeitintervall an.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-216">Indicates the time interval that you selected on the filter toolbar.</span></span> <span data-ttu-id="c9e5b-217">Sie können gegebenenfalls auf ein bestimmtes Zeitintervall klicken, um ausführliche Informationen zu diesem Intervall anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-217">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="c9e5b-218">Wenn Sie beispielsweise das Tagesintervall verwenden und auf 7/7/2012 klicken, wird eine stündliche Aufschlüsselung der Benutzer Registrierungs Aktivität für dieses Datum angezeigt.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-218">For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anmeldungen insgesamt</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der erfolgreichen Anmeldesitzungen.</p></td>
+<td><p><span data-ttu-id="c9e5b-219"><strong>Anmeldungen insgesamt</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-219"><strong>Total logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-220">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-220">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-221">Die Gesamtzahl der erfolgreichen Anmeldesitzungen.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-221">Total number of successful logon sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Interne Anmeldungen</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Anmeldungen im internen Netzwerk.</p></td>
+<td><p><span data-ttu-id="c9e5b-222"><strong>Interne Anmeldungen</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-222"><strong>Internal logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-223">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-223">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-224">Die Gesamtzahl der Anmeldungen im internen Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-224">Total number of logons within the internal network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Externe Anmeldungen</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Anmeldungen von außerhalb des internen Netzwerks über den Edgeserver.</p></td>
+<td><p><span data-ttu-id="c9e5b-225"><strong>Externe Anmeldungen</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-225"><strong>External logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-226">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-226">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-227">Die Gesamtzahl der Anmeldungen von außerhalb des internen Netzwerks über den Edgeserver.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-227">Total number of logons from outside the internal network, using the Edge Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Eindeutige angemeldete Benutzer</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Benutzer, die mindestens eine Anmeldesitzung hatten. Ein Benutzer, der mehrere Anmeldesitzungen ausgeführt hat, zählt als ein einziger Benutzer, genauso wie eine Person, die nur eine einzige Anmeldesitzung ausgeführt hat.</p></td>
+<td><p><span data-ttu-id="c9e5b-228"><strong>Eindeutige angemeldete Benutzer</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-228"><strong>Unique logon users</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-229">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-229">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-p121">Die Gesamtzahl der Benutzer, die mindestens eine Anmeldesitzung hatten. Ein Benutzer, der mehrere Anmeldesitzungen ausgeführt hat, zählt als ein einziger Benutzer, genauso wie eine Person, die nur eine einzige Anmeldesitzung ausgeführt hat.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p121">Total number of users who had at least one logon session. A user who had multiple logon sessions counts as one user, the same as a person who had just a single logon session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eindeutige aktive Benutzer</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Benutzer, die an einer Peer-zu-Peer- oder Konferenzsitzung teilgenommen haben. Ein Benutzer, der mehrere Sitzungen ausgeführt hat, zählt als ein einziger Benutzer, genauso wie eine Person, die nur eine einzige Sitzung ausgeführt hat.</p></td>
+<td><p><span data-ttu-id="c9e5b-232"><strong>Eindeutige aktive Benutzer</strong></span><span class="sxs-lookup"><span data-stu-id="c9e5b-232"><strong>Unique active users</strong></span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-233">Nein</span><span class="sxs-lookup"><span data-stu-id="c9e5b-233">No</span></span></p></td>
+<td><p><span data-ttu-id="c9e5b-p122">Die Gesamtzahl der Benutzer, die an einer Peer-to-Peer- oder Konferenzsitzung teilgenommen haben. Ein Benutzer, der mehrere Sitzungen ausgeführt hat, zählt als ein einziger Benutzer, genauso wie eine Person, die nur eine einzige Sitzung ausgeführt hat.</span><span class="sxs-lookup"><span data-stu-id="c9e5b-p122">Total number of users who were involved in a peer-to-peer or conferencing session. A user who had multiple sessions counts as one user, the same as a person who had just a single session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,121 +1,180 @@
-﻿---
-title: Migrationsprozess – Details
-TOCTitle: Migrationsprozess – Details
-ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205264(v=OCS.15)
-ms:contentKeyID: 49295405
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrationsprozess – Details
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration process - details
+ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
+ms:contentKeyID: 48185412
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847096"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrationsprozess – Details
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="migration-process---details"></a><span data-ttu-id="f99d7-102">Migrationsprozess – Details</span><span class="sxs-lookup"><span data-stu-id="f99d7-102">Migration process - details</span></span>
 
-Verwenden Sie die folgenden Voraussetzungen und ausführlichen Schritte zum Migrieren von Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat zu Lync Server 2013, Server für beständigen Chat.
+</div>
 
-## Voraussetzungen für die Migration
+<div id="mainSection">
 
-Die folgenden Voraussetzungen müssen erfüllt sein, um Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat zu Lync Server 2013,  Server für beständigen Chat zu migrieren.
+<div id="mainBody">
 
-1.  Stellen Sie mindestens einen Lync Server 2013-Pool bereit. Wenn mehrere Lync Server 2013-Pools vorhanden sind, bestimmen Sie den Lync Server 2013-Pool, der als Home-Pool für den neuen Serverpool für beständigen Chat von Lync Server 2013 verwendet werden soll.
+<span> </span>
 
-2.  Installieren Sie den Serverpool für beständigen Chat von Lync Server 2013. Er ist zunächst leer (keine Kategorien, Chatrooms oder Add-Ins). Vor der Migration Ihrer Kategorien, Chatrooms oder Add-Ins der Vorversion können Sie Chatrooms, Kategorien oder Add-Ins in Ihrer Bereitstellung von Lync Server 2013, Server für beständigen Chat erstellen.
+<span data-ttu-id="f99d7-103">_**Letztes Änderungsdatum des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="f99d7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="f99d7-104">Verwenden Sie die folgenden Voraussetzungen und detaillierten Schritte zum Migrieren von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat zu lync Server 2013, beständiger Chat Server.</span><span class="sxs-lookup"><span data-stu-id="f99d7-104">Use the following prerequisites and detailed steps to migrate either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span>
+
+<div>
+
+## <a name="prerequisites-for-migration"></a><span data-ttu-id="f99d7-105">Voraussetzungen für die Migration</span><span class="sxs-lookup"><span data-stu-id="f99d7-105">Prerequisites for Migration</span></span>
+
+<span data-ttu-id="f99d7-106">Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben, bevor Sie entweder lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat zu lync Server 2013, beständiger Chat Server, migrieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-106">Be sure that you’ve met the following prerequisites before migrating either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span>
+
+1.  <span data-ttu-id="f99d7-107">Bereitstellen von mindestens einem lync Server 2013-Pool</span><span class="sxs-lookup"><span data-stu-id="f99d7-107">Deploy at least one Lync Server 2013 pool.</span></span> <span data-ttu-id="f99d7-108">Wenn Sie über mehrere lync Server 2013-Pools verfügen, entscheiden Sie, welcher lync Server 2013-Pool als privater Pool für den neuen lync Server 2013-Serverpool für beständige Chats festgelegt wird.</span><span class="sxs-lookup"><span data-stu-id="f99d7-108">If you have multiple Lync Server 2013 pools, decide which Lync Server 2013 pool will be the home pool for the new Lync Server 2013 Persistent Chat Server pool.</span></span>
+
+2.  <span data-ttu-id="f99d7-109">Installieren Sie den Serverpool des lync Server 2013, beständigen Chats.</span><span class="sxs-lookup"><span data-stu-id="f99d7-109">Install the Lync Server 2013, Persistent Chat Server pool.</span></span> <span data-ttu-id="f99d7-110">Sie ist leer (keine Kategorien, Räume oder Add-Ins).</span><span class="sxs-lookup"><span data-stu-id="f99d7-110">It will be empty (no categories, rooms, or add-ins).</span></span> <span data-ttu-id="f99d7-111">Bevor Sie Ihre Legacy Kategorien,-Räume oder-Add-ins migrieren, können Sie Räume, Kategorien oder Add-Ins in ihrer lync Server 2013-Bereitstellung des beständigen Chats erstellen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-111">Before you migrate your legacy categories, rooms, or add-ins, you can create rooms, categories, or add-ins in your Lync Server 2013, Persistent Chat Server deployment.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Beachten Sie, dass diese neue erstellten Elemente einen Konflikt mit Vorversionselementen, die Sie migrieren, verursachen können. Vermeiden Sie Namenskonflikte. Andernfalls werden die Namen überschrieben, wenn die Vorversionsdaten migriert werden.
-
-
-
-## Vorbereiten der Quelldaten für die Migration
-
-Führen Sie die folgenden Schritte aus, um Ihre Quelldaten ordnungsgemäß für die Migration vorzubereiten.
-
-1.  Erstellen Sie eine Sicherungskopie der Quelldatenbanken für Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat. Ausführliche Informationen zum Erstellen von Sicherungskopien für SQL Server finden Sie im Abschnitt "Übersicht über Sicherungen (SQL Server)" unter <http://go.microsoft.com/fwlink/p/?linkid=254851>.
-    
-
-    > [!IMPORTANT]
-    > Für Active Directory-Domänendienste gilt dasselbe. Die Migration in einen Pool in einer anderen Bereitstellung (insbesondere in einer anderen Active Directory-Gesamtstruktur) ist nicht möglich.
-
-
-
-2.  Prüfen Sie Ihre Chatrooms und Ihre Kategoriekonfiguration für Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat. Alle Änderungen an Kategorien, Chatrooms oder Add-Ins in Ihrer bestehenden Vorversionsbereitstellung werden mit dem Gruppenchat-Verwaltungstool ausgeführt.
-    
-
-    > [!TIP]
-    > Alle Änderungen an Kategorien, Chatrooms oder Add-Ins in Ihrer Bereitstellung von Lync Server 2013, Server für beständigen Chat werden mit der Lync Server-Systemsteuerung oder mit Windows PowerShell-Cmdlets ausgeführt.
+    > [!IMPORTANT]  
+    > <span data-ttu-id="f99d7-112">Beachten Sie, dass diese neu erstellten Elemente Konflikte mit Legacy Elementen verursachen können, die Sie migrieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-112">Be aware that these newly created items may conflict with legacy items that you migrate.</span></span> <span data-ttu-id="f99d7-113">Vermeiden Sie Namenskonflikte; Andernfalls werden Sie überschrieben, wenn die Legacydaten migriert werden.</span><span class="sxs-lookup"><span data-stu-id="f99d7-113">Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.</span></span>
 
     
-    Führen Sie die folgenden Schritte aus, um Ihr Vorversionssystem für die Migration vorzubereiten.
-    
-    1.  Server für beständigen Chat unterstützt eine einzige Kategorieebene und keine geschachtelte Hierarchie von Kategorien. Nach der Migration werden den Unterkategorien die vollständigen Namen der übergeordneten Kategorie vorangestellt. Sie sollten eventuell Ihre vorhandene Kategoriestruktur vereinfachen, damit die resultierende Struktur Ihre Anforderungen erfüllt.
-    
-    2.  Überprüfen Sie die **Verantwortlichen** in der Stammkategorie. Falls auf dieser Ebene Verantwortliche vorhanden sind, werden diese Benutzer nach der Migration als **Verantwortliche für alle Chatrooms** hinzugefügt. Falls dies für Ihre Organisation nicht erforderlich ist, müssen Sie diese Verantwortlichen aus der Stammkategorie entfernen.
-    
-    3.  Überprüfen Sie die Länge der Chatroomnamen. Wenn nach der Migration aufgrund der vereinfachten Kategoriestrukturen Chatrooms in einer untergeordneten Kategorie vorhanden sind, werden ihnen die vollständigen Namen der übergeordneten Kategorie vorangestellt. Namen dürfen aus maximal 256 Zeichen bestehen, einschließlich der Namen für übergeordnete Kategorien. Sie müssen die Länge der Chatroomnamen überprüfen und eventuell deren Länge reduzieren, falls sie zu lang sind.
-    
-    4.  Wenn in Lync Server 2013 die Einstellungen der Kategorie **Einladung** auf Wahr festgelegt werden, können Sie Wahr oder Falsch für Einladungen zu Chatrooms in dieser Kategorie auswählen. Wenn allerdings die Einstellungen der Kategorie **Einladung** auf False festgelegt werden, sind für Chatrooms in dieser Kategorie Einladungen deaktiviert. Vor der Migration müssen Sie die Einladungseinstellungen in der Vorversion von Lync Server  Gruppenchatserver zurücksetzen, falls Chatrooms in einer bestimmten Kategorie vorhanden sein sollen. Andernfalls zeigt Lync Server 2013 während der Migration Warnungen an und legt für Chatrooms den Standardwert Falsch fest.
-    
-    5.  Wenn Sie Dateien in Chatrooms verwendet haben, müssen Sie die Dateien nach der Migration per XCOPY manuell in den neuen Dateispeicher von Beständiger Chat kopieren. Dieser Schritt wird nicht von den Tools ausgeführt.
-    
-    6.  Falls Partnerbenutzer und Chatrooms mit Partnerbenutzern vorhanden waren, sollten Sie beachten, dass der Partnerverbund vom Server für beständigen Chat nicht unterstützt wird. Chatrooms mit Partnerbenutzern werden migriert. Die Benutzer selbst können jedoch nicht auf die Inhalte zugreifen, da der Partnerverbundzugriff nicht unterstützt wird.
-    
-    7.  Identifizieren Sie die Chatrooms, die Sie nicht migrieren möchten, und kennzeichnen Sie sie als deaktiviert.
-    
-    8.  Legen Sie das Datum fest, bis zu dem Sie die Chatroominhalte migrieren möchten. Beispielsweise könnten Sie Nachrichten vor dem 1. Januar 2010 nicht migrieren, da diese Nachrichten veraltet oder für die Migration nicht relevant sind.
+    </div>
 
-## Ausführen der Migration
+</div>
 
-Führen Sie die folgenden Schritte aus, um den Gruppenchatserver der Vorversion zu migrieren.
+<div>
 
-1.  Fahren Sie die Dienste Lync Server 2010-Gruppenchat, Office Communications Server 2007 R2  Gruppenchat oder Lync Server 2013, Server für beständigen Chat herunter. Alle Dienste müssen beendet werden, weshalb Sie diesen Schritt zu einem Zeitpunkt mit geringer Auslastung ausführen sollten. Sie müssen wie bereits beschrieben eine Sicherungskopie der vorhandenen Gruppenchatdatenbank erstellen.
+## <a name="preparing-the-source-data-for-migration"></a><span data-ttu-id="f99d7-114">Vorbereiten der Quelldaten für die Migration</span><span class="sxs-lookup"><span data-stu-id="f99d7-114">Preparing the Source Data for Migration</span></span>
 
-2.  Führen Sie das Windows PowerShell-Cmdlet **Export-CsPersistentChatData** mit der rollenbasierten Zugriffssteuerungsrolle eines Administrators von Beständiger Chat aus ( CsPersistentChatAdministrator ). Ausführliche Informationen zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Konfiguration des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets in Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
+<span data-ttu-id="f99d7-115">Führen Sie die folgenden Schritte aus, um die Quelldaten für die Migration richtig vorzubereiten.</span><span class="sxs-lookup"><span data-stu-id="f99d7-115">Perform the following steps to properly prepare your source data for migration.</span></span>
+
+1.  <span data-ttu-id="f99d7-116">Sichern Sie die Quelldatenbanken für lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat.</span><span class="sxs-lookup"><span data-stu-id="f99d7-116">Back up the source databases for either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat.</span></span> <span data-ttu-id="f99d7-117">Details zum Sichern von SQL Server finden Sie unter "Übersicht über Sicherungen (SQL Server)" unter <http://go.microsoft.com/fwlink/p/?linkid=254851>.</span><span class="sxs-lookup"><span data-stu-id="f99d7-117">For details about backing up SQL Server, see "Backup Overview (SQL Server)" at <http://go.microsoft.com/fwlink/p/?linkid=254851>.</span></span>
     
-    Prüfen Sie die exportieren Inhalte.
-
-3.  Fahren Sie vor dem Importieren die Dienste Lync Server 2013, Server für beständigen Chat herunter. Alle Dienste müssen beendet werden, weshalb Sie diesen Schritt zu einem Zeitpunkt mit geringer Auslastung ausführen sollten.
-
-4.  Erstellen Sie eine Sicherungskopie der Datenbank für Beständiger Chat, falls Sie vor der Migration Kategorien, Chatrooms oder Add-Ins in Ihrer Lync Server 2013-Bereitstellung erstellt haben. Mit dem Export-/Importvorgang werden die Vorversionsdaten in der Lync Server 2013-Bereitstellung zusammengeführt, aber Sie sollten eine Sicherungskopie der Datenbank für den Fall erstellen, dass Inhalte versehentlich überschrieben werden (z. B. falls weiterhin Namenskonflikte bestehen).
-
-5.  Führen Sie das Windows PowerShell-Cmdlet **Import-CsPersistentChatData** (Importtool) mit dem Befehl **WhatIf** aus, um den Back-End-Server des Serverpool für beständigen Chat mit migrierten Daten aufzufüllen. Dabei werden einige Konvertierungen aufgrund des vereinfachten Administrationsmodells ausgeführt. Korrigieren Sie etwaige angezeigte Fehler oder Warnungen.
-
-6.  Führen Sie das Server für beständigen ChatWindows PowerShell-Cmdlet **Import-CsPersistentChatData** mit der rollenbasierten Zugriffssteuerungsrolle eines Administrators von Beständiger Chat aus ( CsPersistentChatAdministrator ). Ausführliche Informationen zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Konfiguration des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets in Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
-
-7.  Alle hochgeladenen Dateien (gesamter Ordner) müssen Sie per XCOPY in den neuen Dateispeicher von Lync Server 2013, Beständiger Chat kopieren.
+    <div>
     
 
-    > [!IMPORTANT]
-    > Lync 2013 (Client) unterstützt das Hochladen oder Anzeigen von Dateien in Chatrooms nicht. Sie können weiterhin den Vorversionsclient zum Veröffentlichen und Anzeigen von Dateien im Chatroom verwenden.
+    > [!IMPORTANT]  
+    > <span data-ttu-id="f99d7-118">Die Active Directory-Domänendienste sollten identisch sein.</span><span class="sxs-lookup"><span data-stu-id="f99d7-118">Active Directory Domain Services should be the same.</span></span> <span data-ttu-id="f99d7-119">Als Bedingung für die Migration können Sie nicht zu einem Pool in einer anderen Bereitstellung (insbesondere in einer anderen Active Directory-Gesamtstruktur) migrieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-119">As a condition for migration, you cannot migrate to a pool in a different deployment (specifically, in a different Active Directory forest).</span></span>
 
-
-
-8.  Portieren Sie den Abfrageserver-URI von Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat in das Kontaktobjekt von Lync Server 2013, Server für beständigen Chat. Die folgenden Schritte sind erforderlich, wenn Ihre Lync 2010-Gruppenchat- oder Office Communicator 2007 R2  Gruppenchat-Clients nach der Migration ohne clientseitige Konfigurationsänderungen eine Verbindung mit dem neuesten Lync 2013, Beständiger Chat (Client) herstellen müssen:
     
-      - Löschen Sie das Abfrageserver-Benutzerkonto ocschat@ *\<Domänenname\>* .com . Mit diesem Benutzerkonto wurde auf den Suchdienst in Lync Server 2010-Gruppenchat verwiesen. Sie können den Pool deinstallieren und vertrauenswürdige Einträge später entfernen.
+    </div>
+
+2.  <span data-ttu-id="f99d7-120">Überprüfen Sie Ihre lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chatrooms und die Kategorie-Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="f99d7-120">Inspect your Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat chat rooms and category configuration.</span></span> <span data-ttu-id="f99d7-121">Alle Änderungen an Kategorien, Räumen oder Add-Ins in Ihrer vorhandenen Legacy Bereitstellung werden vom Gruppen-Chat-Verwaltungs Tool ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-121">Any changes to categories, rooms, or add-ins in your existing legacy deployment will be done by the Group Chat Admin Tool.</span></span>
     
-      - Erstellen Sie einen Vorversionsendpunkt (Kontaktobjekt von Server für beständigen Chat), indem Sie das Windows PowerShell-Cmdlet **New-CsPersistentChatEndpoint** mit demselben SIP-URI ausführen, sodass der Vorversionsclient effizient arbeitet, wenn der Dienst neu gestartet wird.
-    
-    Der obligatorische Migrationsprozess ist damit abgeschlossen. Lync 2010-Gruppenchat (Clients) oder Office Communicator 2007 R2Gruppenchat (Clients) können nun auf nachvollziehbare Weise eine Verbindung mit dem neuen Serverpool für beständigen Chat herstellen.
-    
-    Führen Sie die folgenden zusätzlichen Schritte für die Außerbetriebnahme für Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2Gruppenchat aus.
-
-9.  Starten Sie die Dienste für den Server für beständigen Chat, indem Sie alle Computer im neuen Serverpool für beständigen Chat einschalten.
-
-10. Überprüfen Sie mit der Lync Server-Systemsteuerung und mit Windows PowerShell-Cmdlets, ob die Daten erfolgreich migriert wurden.
-
-11. Deinstallieren Sie Lync 2010-Gruppenchat oder Office Communicator 2007 R2Gruppenchat auf den Computern im Gruppenchatserver-Pool.
-
-12. Löschen Sie die vertrauenswürdige Anwendung und den Pool mit vertrauenswürdigen Anwendungen mithilfe von Windows PowerShell-Cmdlets. Dadurch werden diese Elemente im zentraler Verwaltungsspeicher und die zugehörigen vertrauenswürdigen Diensteinträge (Trusted Service Entries, TSEs) in Active Directory gelöscht. Alternativ kann dieser Schritt auch mit dem Topologie-Generator ausgeführt werden (die vertrauenswürdigen Anwendungen/Pools haben dort auch einen dedizierten Knoten).
-
-13. Nun können Sie mit dem Aktivieren der Funktionalität von Server für beständigen Chat über die neuen Clients beginnen. Ausführliche Informationen, wie Sie Server für beständigen Chat aktivieren, finden Sie unter [Bereitstellen des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+    <div>
     
 
-    > [!IMPORTANT]
-    > Lync Server 2013 unterstützt mehrere Serverpools für beständigen Chat. Wir unterstützen jedoch die Migration eines Lync&nbsp;2010-Gruppenchat- oder Office Communications Server 2007 R2&nbsp; Gruppenchatpools zu einem einzelnen Serverpool für beständigen Chat von Lync Server 2013. Sie können zusätzliche neue Serverpools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um Vorschriften einzuhalten (z.&nbsp;B., dass die Daten innerhalb einer bestimmten Region verbleiben müssen).
+    > [!TIP]  
+    > <span data-ttu-id="f99d7-122">Alle Änderungen an Kategorien, Räumen oder Add-Ins in ihrer lync Server 2013-Bereitstellung des beständigen Chats werden von der lync Server Control Panel-oder Windows PowerShell-Cmdlets ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-122">Any changes to categories, rooms, or add-ins in your Lync Server 2013, Persistent Chat Server deployment are performed by the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
 
+    
+    </div>
+    
+    <span data-ttu-id="f99d7-123">Führen Sie die folgenden Schritte aus, um Ihr Legacy System für die Migration vorzubereiten.</span><span class="sxs-lookup"><span data-stu-id="f99d7-123">Follow these steps to prepare your legacy system for migration.</span></span>
+    
+    1.  <span data-ttu-id="f99d7-124">Der beständige Chat Server unterstützt eine einzelne Ebene von Kategorien, anders als eine Tiefe hierarchische Gruppe von Kategorien.</span><span class="sxs-lookup"><span data-stu-id="f99d7-124">Persistent Chat Server supports a single level of categories, unlike a deep hierarchical set of categories.</span></span> <span data-ttu-id="f99d7-125">Nach der Migration werden den Unterkategorien vollständige übergeordnete Kategorienamen vorangestellt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-125">After migration, the subcategories are prefixed with full parent category names.</span></span> <span data-ttu-id="f99d7-126">Möglicherweise möchten Sie die vorhandene Kategorienstruktur vereinfachen und glätten, damit die resultierende Struktur Ihren Anforderungen entspricht.</span><span class="sxs-lookup"><span data-stu-id="f99d7-126">You might want to simplify and flatten your existing category structure so that the resulting structure meets your requirements.</span></span>
+    
+    2.  <span data-ttu-id="f99d7-127">Überprüfen Sie die **Manager** in der Stammkategorie.</span><span class="sxs-lookup"><span data-stu-id="f99d7-127">Verify the **Managers** at the root Category.</span></span> <span data-ttu-id="f99d7-128">Wenn Manager auf dieser Ebene vorhanden sind, werden diese Benutzer nach der Migration als **Manager zu allen Chatrooms** hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-128">If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration.</span></span> <span data-ttu-id="f99d7-129">Wenn dies für Ihre Organisation nicht erforderlich ist, müssen Sie diese Manager aus der Stammkategorie entfernen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-129">If this is not a requirement for your organization, you need to remove these Managers from the root Category.</span></span>
+    
+    3.  <span data-ttu-id="f99d7-130">Überprüfen Sie die Länge von Raumnamen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-130">Verify the length of room names.</span></span> <span data-ttu-id="f99d7-131">Wenn die Räume unter einer untergeordneten Kategorie vorhanden sind, werden Sie nach der Migration aufgrund vereinfachter Kategorie-Strukturen mit den vollständigen übergeordneten Kategorienamen belegt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-131">After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names.</span></span> <span data-ttu-id="f99d7-132">Die Benennungs Grenze ist 256 Zeichen, einschließlich übergeordneter Kategorienamen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-132">The naming limit is 256 characters, including parent category names.</span></span> <span data-ttu-id="f99d7-133">Sie müssen die Länge der Raumnamen überprüfen und möglicherweise die Länge verkürzen, wenn Sie zu lang sind.</span><span class="sxs-lookup"><span data-stu-id="f99d7-133">You must verify the length of the room names and possibly shorten the length, if they are too long.</span></span>
+    
+    4.  <span data-ttu-id="f99d7-134">Wenn in lync Server 2013 die Einstellungen für die Kategorie- **Einladungen** auf "true" festgelegt sind, können Sie für Einladungen zu Räumen unter dieser Kategorie "wahr" oder "falsch" auswählen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-134">In Lync Server 2013, if the category **invitations** settings are set to true, you can choose true or false for invitations to rooms under that category.</span></span> <span data-ttu-id="f99d7-135">Wenn die Einstellungen für die Kategorie-Einladungen aber auf "falsch" festgelegt sind, werden in Räumen unter dieser Kategorie Einladungen deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="f99d7-135">However if the category invitations settings are set to false, rooms under that category have invitations turned off.</span></span> <span data-ttu-id="f99d7-136">Vor der Migration müssen Sie die Einladungseinstellungen in ihrer älteren lync Server-Gruppen-Chat Server Version zurücksetzen, wenn Sie möchten, dass Raum (e) unter einer bestimmten Kategorie vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="f99d7-136">Before migration, you must reset the invitation settings in your legacy Lync Server Group Chat Server version, if you want room(s) to exist under a specific category.</span></span> <span data-ttu-id="f99d7-137">Andernfalls zeigt lync Server 2013 während der Migration Warnungen an und legt Räume auf den Standardwert false fest.</span><span class="sxs-lookup"><span data-stu-id="f99d7-137">Otherwise, during migration, Lync Server 2013 displays warnings and sets rooms to the default value of false.</span></span>
+    
+    5.  <span data-ttu-id="f99d7-138">Wenn Sie Dateien in Chatrooms verwendet haben, müssen Sie die Dateien nach der Migration manuell in den neuen beständigen Chat-Dateispeicher herunterladen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-138">If you used files in chat rooms, you must XCOPY the files manually to the new Persistent Chat file store after migration.</span></span> <span data-ttu-id="f99d7-139">Die Tools tun dies nicht.</span><span class="sxs-lookup"><span data-stu-id="f99d7-139">The tools don’t do this.</span></span>
+    
+    6.  <span data-ttu-id="f99d7-140">Wenn Sie Verbundbenutzer und Chatrooms mit Verbundbenutzern hatten, beachten Sie, dass der Server für beständigen Chat keine Föderation unterstützt.</span><span class="sxs-lookup"><span data-stu-id="f99d7-140">If you had federated users and rooms with federated users, be aware that Persistent Chat Server does not support federation.</span></span> <span data-ttu-id="f99d7-141">Räume mit Verbundbenutzern werden migriert. die Benutzer können jedoch nicht auf die Inhalte zugreifen, da der Verbundzugriff nicht unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="f99d7-141">Rooms with federated users will be migrated; however, the users themselves won’t be able to access the content, because federated access is not supported.</span></span>
+    
+    7.  <span data-ttu-id="f99d7-142">Identifizieren Sie die Chatrooms, die Sie nicht migrieren möchten, und markieren Sie Sie als deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="f99d7-142">Identify those rooms that you do not want to migrate, and mark them as disabled.</span></span>
+    
+    8.  <span data-ttu-id="f99d7-143">Ermitteln Sie das Datum, über das Sie den Chatroom-Inhalt migrieren möchten.</span><span class="sxs-lookup"><span data-stu-id="f99d7-143">Identify the date beyond which you want to migrate the chat room content.</span></span> <span data-ttu-id="f99d7-144">So möchten Sie beispielsweise Nachrichten nicht vor dem 1. Januar 2010 migrieren, da diese Nachrichten möglicherweise veraltet oder für die Migration nicht relevant sind.</span><span class="sxs-lookup"><span data-stu-id="f99d7-144">For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.</span></span>
+
+</div>
+
+<div>
+
+## <a name="performing-the-migration"></a><span data-ttu-id="f99d7-145">Durchführen der Migration</span><span class="sxs-lookup"><span data-stu-id="f99d7-145">Performing the Migration</span></span>
+
+<span data-ttu-id="f99d7-146">Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen-Chat Server zu migrieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-146">Perform the following steps to migrate your legacy Group Chat Server.</span></span>
+
+1.  <span data-ttu-id="f99d7-147">Beenden Sie lync Server 2010, Gruppen-Chat, Office Communications Server 2007 R2-Gruppenchat oder lync Server 2013, beständige Chat Server Dienste.</span><span class="sxs-lookup"><span data-stu-id="f99d7-147">Shut down the Lync Server 2010, Group Chat, Office Communications Server 2007 R2 Group Chat or Lync Server 2013, Persistent Chat Server services.</span></span> <span data-ttu-id="f99d7-148">Damit alle Dienste gestoppt werden können, sollten Sie dies zu einem Zeitpunkt planen, zu dem genügend Ausfallzeiten vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="f99d7-148">All services must be stopped, so plan to do this at a time when there is enough downtime.</span></span> <span data-ttu-id="f99d7-149">Vergewissern Sie sich wie zuvor beschrieben, dass Sie Ihre aktuelle Gruppen-Chat-Datenbank sichern.</span><span class="sxs-lookup"><span data-stu-id="f99d7-149">As previously described, make sure to back up your current Group Chat database.</span></span>
+
+2.  <span data-ttu-id="f99d7-150">Führen Sie das Cmdlet "Windows PowerShell **Export-CsPersistentChatData** " als Mitglied der Administratorrolle "beständiger Chat" (CsPersistentChatAdministrator) aus.</span><span class="sxs-lookup"><span data-stu-id="f99d7-150">Run the Windows PowerShell **Export-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator).</span></span> <span data-ttu-id="f99d7-151">Details zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="f99d7-151">For details about the export/import cmdlets, see [Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).</span></span>
+    
+    <span data-ttu-id="f99d7-152">Überprüfen Sie die exportierten Inhalte.</span><span class="sxs-lookup"><span data-stu-id="f99d7-152">Inspect the exported contents.</span></span>
+
+3.  <span data-ttu-id="f99d7-153">Bevor Sie zum Importieren bereit sind, beenden Sie lync Server 2013, Server Dienste für beständigen Chat.</span><span class="sxs-lookup"><span data-stu-id="f99d7-153">Before you’re ready to import, shut down Lync Server 2013, Persistent Chat Server services.</span></span> <span data-ttu-id="f99d7-154">Damit alle Dienste gestoppt werden können, sollten Sie dies zu einem Zeitpunkt planen, zu dem genügend Ausfallzeiten vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="f99d7-154">All services need to be stopped, so plan to do this at a time when there is enough downtime.</span></span>
+
+4.  <span data-ttu-id="f99d7-155">Führen Sie eine Sicherungskopie der persistenten Chat-Datenbank aus, wenn Sie vor der Migration Kategorien, Räume oder Add-Ins in ihrer lync Server 2013-Bereitstellung erstellt haben.</span><span class="sxs-lookup"><span data-stu-id="f99d7-155">Perform a backup of the Persistent Chat database if you had created any categories, rooms, or add-ins in your Lync Server 2013 deployment before the migration.</span></span> <span data-ttu-id="f99d7-156">Der Export/Import-Prozess kann die Legacydaten in die lync Server 2013-Bereitstellung zusammenführen, doch Sie möchten die Datenbank sichern, falls dieser Inhalt versehentlich überschrieben wird (beispielsweise, wenn Benennungskonflikte weiterhin vorhanden sind).</span><span class="sxs-lookup"><span data-stu-id="f99d7-156">The export/import process will be able to merge the legacy data into the Lync Server 2013 deployment, but you’ll want to back up the database in case that content is inadvertently overwritten (for example, if naming conflicts still exist).</span></span>
+
+5.  <span data-ttu-id="f99d7-157">Führen Sie das Windows PowerShell **-Import-CsPersistentChatData-** Cmdlet (Import Tool) mit einem **WhatIf** -Befehl aus, um den Back-End-Server des beständigen Chat Server Pools mit migrierten Daten zu füllen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-157">Run the Windows PowerShell **Import-CsPersistentChatData** cmdlet (import tool), with a **WhatIf** command to populate the Back End Server of the Persistent Chat Server pool with migrated data.</span></span> <span data-ttu-id="f99d7-158">Einige Konvertierungen erfolgen im Prozess, um dem vereinfachten Verwaltungsmodell gerecht zu werden.</span><span class="sxs-lookup"><span data-stu-id="f99d7-158">Some conversions happen in the process to accommodate the simplified administration model.</span></span> <span data-ttu-id="f99d7-159">Beheben Sie alle angezeigten Fehler oder Warnungen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-159">Fix any errors or warnings that appear.</span></span>
+
+6.  <span data-ttu-id="f99d7-160">Führen Sie das Cmdlet "beständiger Chat Server Windows PowerShell **-Import-CsPersistentChatData** " als Mitglied der Administratorrolle "beständiger Chat" (CsPersistentChatAdministrator) aus.</span><span class="sxs-lookup"><span data-stu-id="f99d7-160">Run the Persistent Chat Server Windows PowerShell **Import-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator).</span></span> <span data-ttu-id="f99d7-161">Details zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="f99d7-161">For details about the export/import cmdlets, see [Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).</span></span>
+
+7.  <span data-ttu-id="f99d7-162">Sie müssen alle hochgeladenen Dateien (den gesamten Ordner) in den neuen lync Server 2013-Dateispeicher für persistente Chats übertragen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-162">You must XCOPY all uploaded files (the entire folder) to the new Lync Server 2013, Persistent Chat file store.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="f99d7-163">Lync 2013 (Client) unterstützt das Hochladen oder Anzeigen von Dateien in Chatrooms nicht.</span><span class="sxs-lookup"><span data-stu-id="f99d7-163">The Lync 2013 (client) does not support uploading or viewing files in chat rooms.</span></span> <span data-ttu-id="f99d7-164">Sie können den Legacyclient weiterhin verwenden, um Dateien im Chatroom zu Posten und anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-164">You can still use the legacy client to post and view files in the room.</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="f99d7-165">Portieren Sie lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat-Nachschlage Server-URI zum lync Server 2013-Kontaktobjekt für beständigen Chat Server.</span><span class="sxs-lookup"><span data-stu-id="f99d7-165">Port the Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat Lookup Server URI to the Lync Server 2013, Persistent Chat Server contact object.</span></span> <span data-ttu-id="f99d7-166">Die folgenden Schritte sind erforderlich, wenn sich entweder Ihr lync 2010-Gruppen-Chat oder die Office Communicator 2007 R2-Gruppen-Chat-Clients nach der Migration ohne clientseitige Konfigurationsänderungen mit dem neuesten lync 2013, beständigen Chat (Client) verbinden müssen:</span><span class="sxs-lookup"><span data-stu-id="f99d7-166">The following steps are required if either your Lync 2010 Group Chat or Office Communicator 2007 R2 Group Chat clients need to connect to the latest Lync 2013, Persistent Chat (client) after migration without any client-side configuration changes:</span></span>
+    
+      - <span data-ttu-id="f99d7-167">Löschen Sie das Benutzer\<Konto OCSChat\>@ Domain Name. com Lookup Server.</span><span class="sxs-lookup"><span data-stu-id="f99d7-167">Delete the ocschat@\<domainName\>.com Lookup Server user account.</span></span> <span data-ttu-id="f99d7-168">Dies wurde verwendet, um auf den Nachschlage Dienst in lync Server 2010, Gruppen-Chat, zu verweisen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-168">This was used to point to the Lookup Service in Lync Server 2010, Group Chat.</span></span> <span data-ttu-id="f99d7-169">Sie können den Pool deinstallieren und vertrauenswürdige Einträge später entfernen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-169">You can uninstall the pool and remove trusted entries later.</span></span>
+    
+      - <span data-ttu-id="f99d7-170">Erstellen Sie einen Legacy Endpunkt (Kontaktobjekt für beständigen Chat Server), indem Sie das Windows PowerShell **-Cmdlet New-CsPersistentChatEndpoint**mit dem identischen SIP-URI ausführen, damit der Legacyclient effektiv funktioniert, wenn der Dienst neu gestartet wird.</span><span class="sxs-lookup"><span data-stu-id="f99d7-170">Create a legacy endpoint (Persistent Chat Server contact object) by running the Windows PowerShell cmdlet, **New-CsPersistentChatEndpoint**, with the identical SIP URI so that the legacy client will work effectively when the service is restarted.</span></span>
+    
+    <span data-ttu-id="f99d7-171">Der obligatorische Migrationsprozess ist an diesem Punkt abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-171">The mandatory migration process is complete at this point.</span></span> <span data-ttu-id="f99d7-172">Lync 2010-Gruppen-Chats (Clients) oder Office Communicator 2007 R2-Gruppen-Chat (Clients) können jetzt transparent eine Verbindung mit dem neuen beständigen Chat Server Pool herstellen.</span><span class="sxs-lookup"><span data-stu-id="f99d7-172">Lync 2010 Group Chat (clients) or Office Communicator 2007 R2 Group Chat (clients) can connect to the new Persistent Chat Server pool now, transparently.</span></span>
+    
+    <span data-ttu-id="f99d7-173">Befolgen Sie diese zusätzlichen Schritte zur Außerbetriebnahme für lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat.</span><span class="sxs-lookup"><span data-stu-id="f99d7-173">Follow these additional decommissioning steps for Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat.</span></span>
+
+9.  <span data-ttu-id="f99d7-174">Starten Sie die Server Dienste für beständigen Chat, indem Sie alle Computer im neuen beständigen Chat Serverpool aktivieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-174">Start the Persistent Chat Server services by turning on all computers in the new Persistent Chat Server pool.</span></span>
+
+10. <span data-ttu-id="f99d7-175">Verwenden Sie die lync Server-Systemsteuerung und die Windows PowerShell-Cmdlets, um zu überprüfen, ob die Daten erfolgreich migriert wurden.</span><span class="sxs-lookup"><span data-stu-id="f99d7-175">Use the Lync Server Control Panel and Windows PowerShell cmdlets to verify that the data has migrated successfully.</span></span>
+
+11. <span data-ttu-id="f99d7-176">Deinstallieren Sie den lync 2010-Gruppen-Chat oder den Office Communicator 2007 R2-Gruppen-Chat von den Computern im Gruppen-Chat-Server Pool.</span><span class="sxs-lookup"><span data-stu-id="f99d7-176">Uninstall Lync 2010 Group Chat or Office Communicator 2007 R2 Group Chat from the computers in the Group Chat Server pool.</span></span>
+
+12. <span data-ttu-id="f99d7-177">Löschen Sie die vertrauenswürdige Anwendung und den vertrauenswürdigen Anwendungspool mithilfe von Windows PowerShell-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="f99d7-177">Delete the trusted application and trusted application pool using Windows PowerShell cmdlets.</span></span> <span data-ttu-id="f99d7-178">Dadurch werden diese Elemente aus dem zentralen Verwaltungsspeicher und den zugehörigen TSE (Trusted Service Entries) aus dem Active Directory gelöscht.</span><span class="sxs-lookup"><span data-stu-id="f99d7-178">This deletes these items from the Central Management store and the associated Trusted Service Entries (TSEs) from the Active Directory.</span></span> <span data-ttu-id="f99d7-179">Alternativ funktioniert dieser Schritt mithilfe des Topologie-Generators (die vertrauenswürdigen Anwendungen/Pools verfügen ebenfalls über einen dedizierten Knoten).</span><span class="sxs-lookup"><span data-stu-id="f99d7-179">Alternatively, this step works by using the Topology Builder (the trusted applications/pools have a dedicated node there, also).</span></span>
+
+13. <span data-ttu-id="f99d7-180">Sie können jetzt beginnen, die Funktion des beständigen Chat Servers über die neuen Clients zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="f99d7-180">You can now begin to enable Persistent Chat Server functionality through the new clients.</span></span> <span data-ttu-id="f99d7-181">Ausführliche Informationen zum Aktivieren des Servers für beständigen Chat finden Sie unter [Bereitstellen eines persistenten Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="f99d7-181">For details about enabling Persistent Chat Server, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="f99d7-182">Lync Server 2013 unterstützt mehrere Server Pools für beständigen Chat.</span><span class="sxs-lookup"><span data-stu-id="f99d7-182">Lync Server 2013 supports multiple Persistent Chat Server pools.</span></span> <span data-ttu-id="f99d7-183">Wir unterstützen allerdings die Migration eines lync 2010-Gruppen-oder Office&nbsp;Communications Server 2007 R2-Gruppen-Chat Pools zu einem einzelnen lync Server 2013, beständigen Chat Serverpool.</span><span class="sxs-lookup"><span data-stu-id="f99d7-183">However, we support migrating a Lync 2010 Group Chat or Office Communications Server 2007 R2&nbsp;Group Chat pool to a single Lync Server 2013, Persistent Chat Server pool.</span></span> <span data-ttu-id="f99d7-184">Sie können weitere neue Server Pools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um die regulatorischen Anforderungen zu erfüllen (beispielsweise das Beibehalten von Daten in einer bestimmten geografischen Region).</span><span class="sxs-lookup"><span data-stu-id="f99d7-184">You can add additional new Persistent Chat Server pools in your deployment to meet the regulatory needs (for example, keeping data within a given geography).</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

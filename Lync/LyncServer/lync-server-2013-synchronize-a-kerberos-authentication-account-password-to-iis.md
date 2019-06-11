@@ -1,45 +1,87 @@
-﻿---
-title: 'Lync Server 2013: Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS'
-TOCTitle: Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS
-ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398107(v=OCS.15)
-ms:contentKeyID: 49293048
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Synchronize a Kerberos authentication account password to IIS
+ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)
+ms:contentKeyID: 48183296
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bc56da26961caaad236857c88d601676e12cefc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847671"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-08_
+# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a><span data-ttu-id="e1f70-102">Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f70-102">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>
 
-Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
+</div>
 
-Innerhalb eines Standorts können Front-End-Server, Standard Edition-Server und Director-Server ein Kerberos-Authentifizierungskonto verwenden, um Anforderungen an die Webdienste zu authentifizieren. Bei diesem Verfahren werden alle Server mit ausgeführten Webdiensten an einem Standort mit zugewiesenem Kerberos-Konto ermittelt und die Konfigurationseinstellungen der Internetinformationsdienste (Internet Information Services, IIS) zur Verwendung des Kerberos-Kontos aktualisiert. Ausführliche Informationen finden Sie unter [Festlegen eines Kennworts für das Kerberos-Authentifizierungskonto auf einem Server in Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+<div id="mainSection">
 
-## So legen Sie ein Kennwort für das Kerberos-Authentifizierungskonto fest
+<div id="mainBody">
 
-1.  Melden Sie sich bei einem Quellcomputer (z. B. "fe01.contoso.com") als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
+<span> </span>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<span data-ttu-id="e1f70-103">_**Letztes Änderungsdatum des Themas:** 2010-11-08_</span><span class="sxs-lookup"><span data-stu-id="e1f70-103">_**Topic Last Modified:** 2010-11-08_</span></span>
 
-3.  Führen Sie in der Lync Server-Verwaltungsshell-Befehlszeile die folgenden zwei Befehle aus:
+<span data-ttu-id="e1f70-104">Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.</span><span class="sxs-lookup"><span data-stu-id="e1f70-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+
+<span data-ttu-id="e1f70-105">Auf einer Website können Front-End-Server, Standard Edition-Server und Directors ein Kerberos-Authentifizierungs Konto verwenden, um Anforderungen an den Webdienst Dienst zu authentifizieren.</span><span class="sxs-lookup"><span data-stu-id="e1f70-105">In a site, Front End Servers, Standard Edition servers, and Directors can use a Kerberos authentication account for purposes of authenticating requests to the Web Services service.</span></span> <span data-ttu-id="e1f70-106">Dieses Verfahren sucht jeden Server mit Webdiensten auf einer Website, der ein Kerberos-Konto zugewiesen wurde, und aktualisiert die Konfigurationseinstellungen für Internet Informationsdienste (IIS) so, dass das Kerberos-Konto verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="e1f70-106">This procedure locates each server running Web Services in a site that has been assigned a Kerberos account and updates the Internet Information Services (IIS) configuration settings to use the Kerberos account.</span></span> <span data-ttu-id="e1f70-107">Ausführliche Informationen finden Sie unter [Festlegen eines Kennworts für ein Kerberos-Authentifizierungs Konto auf einem Server in lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).</span><span class="sxs-lookup"><span data-stu-id="e1f70-107">For details, see [Set a Kerberos authentication account password on a server in Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).</span></span>
+
+<div>
+
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a><span data-ttu-id="e1f70-108">So können Sie ein Kennwort für ein Kerberos-Authentifizierungs Konto festlegen und konfigurieren</span><span class="sxs-lookup"><span data-stu-id="e1f70-108">To set and configure a Kerberos authentication account password</span></span>
+
+1.  <span data-ttu-id="e1f70-109">Melden Sie sich bei einem Quellcomputer (wie fe01.contoso.com) als Mitglied der RTCUniversalServerAdmins-Gruppe an.</span><span class="sxs-lookup"><span data-stu-id="e1f70-109">Log on to a source computer (such as fe01.contoso.com) as a member of RTCUniversalServerAdmins group.</span></span>
+
+2.  <span data-ttu-id="e1f70-110">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="e1f70-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="e1f70-111">Führen Sie in der Befehlszeile der lync Server-Verwaltungsshell die folgenden beiden Befehle aus:</span><span class="sxs-lookup"><span data-stu-id="e1f70-111">From the Lync Server Management Shell command line, run the following two commands:</span></span>
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
-    Beispiel:
+    <span data-ttu-id="e1f70-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="e1f70-112">For example:</span></span>
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-
-    > [!IMPORTANT]
-    > Bei den Namen für den Quell- und den Zielcomputer muss es sich um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers handeln. Sie können den Pool-FQDN nur dann verwenden, wenn der Poolname mit dem Namen des Computers übereinstimmt, den Sie als Quell- oder Zielcomputer verwenden.
-
+    <div>
     
 
     > [!IMPORTANT]
-    > Nach dem Durchführen von Änderungen an der Kerberos-Authentifizierung, beispielsweise nach dem Hinzufügen oder Entfernen eines Kontos, müssen Sie das Cmdlet <STRONG>Enable-CsTopology</STRONG> an der Lync Server-Verwaltungsshell-Eingabeaufforderung ausführen.
+    > <span data-ttu-id="e1f70-113">Der Name des Quellcomputers und des Zielcomputers muss ein FQDN-Name (Fully Qualified Domain) des Servers sein.</span><span class="sxs-lookup"><span data-stu-id="e1f70-113">The name of the source computer and destination computer must be a fully qualified domain (FQDN) name of the server.</span></span> <span data-ttu-id="e1f70-114">Sie können den Pool-FQDN nur verwenden, wenn der Poolname mit dem Namen des Computers identisch ist, den Sie als Quellcomputer oder Zielcomputer verwenden.</span><span class="sxs-lookup"><span data-stu-id="e1f70-114">You cannot use the pool FQDN unless the pool name is the same as the name of the computer that you are using as a source computer or destination computer.</span></span>
 
+    
+    </div>
+    
+    <div>
+    
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="e1f70-115">Nachdem Sie die Kerberos-Authentifizierung geändert haben, beispielsweise ein Konto hinzugefügt oder ein Konto entfernt haben, müssen Sie <STRONG>enable-CsTopology</STRONG> über die Eingabeaufforderung der lync Server-Verwaltungsshell ausführen.</span><span class="sxs-lookup"><span data-stu-id="e1f70-115">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

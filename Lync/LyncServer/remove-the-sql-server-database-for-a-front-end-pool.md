@@ -1,47 +1,85 @@
-﻿---
-title: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
-TOCTitle: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
-ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688084(v=OCS.15)
-ms:contentKeyID: 49890782
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Entfernen der SQL Server-Datenbank für einen Front-End-Pool
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the SQL Server database for a Front End pool
+ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
+ms:contentKeyID: 49733681
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a6dcbe9bcab20438d02fe489666f9b4c0c0f6d0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847001"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entfernen der SQL Server-Datenbank für einen Front-End-Pool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a><span data-ttu-id="605d1-102">Entfernen der SQL Server-Datenbank für einen Front-End-Pool</span><span class="sxs-lookup"><span data-stu-id="605d1-102">Remove the SQL Server database for a Front End pool</span></span>
 
-Nachdem Sie einen Microsoft Lync Server 2010  Front-End-Pool entfernt oder zur Verwendung einer anderen Datenbank umkonfiguriert haben, können Sie die SQL Server-Datenbanken entfernen, in denen die Pooldaten gehostet wurden. Mithilfe der folgenden Vorgehensweisen können Sie die Definitionen aus dem Topologie-Generator und dann die Datenbank und die Protokolleinträge auf dem Datenbankserver entfernen.
+</div>
 
-## So entfernen Sie die SQL Server-Datenbank mithilfe des Topologie-Generators
+<div id="mainSection">
 
-1.  Öffnen Sie auf dem Lync Server 2013-Front-End-Server den Topologie-Generator, und laden Sie die vorhandene Topologie herunter.
+<div id="mainBody">
 
-2.  Navigieren Sie im Topologie-Generator zu **Freigegebene Komponenten** und dann zu **SQL Server-Speicher** . Klicken Sie mit der rechten Maustaste auf die SQL Server-Instanz, die dem entfernten oder neu konfigurierten Front-End-Pool zugeordnet ist, und klicken Sie dann auf **Löschen** .
+<span> </span>
 
-3.  Veröffentlichen Sie die Topologie, und überprüfen Sie dann den Replikationsstatus.
+<span data-ttu-id="605d1-103">_**Letztes Änderungsdatum des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="605d1-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-## So entfernen Sie Benutzer- und Anwendungsdatenbanken aus dem SQL Server-basierten Server
+<span data-ttu-id="605d1-104">Nachdem Sie einen Microsoft lync Server 2010-Front-End-Pool entfernt oder den Pool neu konfiguriert haben, um eine andere Datenbank zu verwenden, können Sie die SQL Server-Datenbanken entfernen, die die Pooldaten gehostet haben.</span><span class="sxs-lookup"><span data-stu-id="605d1-104">After you remove a Microsoft Lync Server 2010 Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data.</span></span> <span data-ttu-id="605d1-105">Gehen Sie wie folgt vor, um die Definitionen aus dem Topology Builder zu entfernen und dann die Datenbank-und Protokolldateien vom Datenbankserver zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="605d1-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
 
-1.  Zum Entfernen der Datenbanken auf dem SQL Server müssen Sie Mitglied der SQL Server-Gruppe "sysadmins" für den SQL Server-basierten Server sein, von dem die Datenbankdateien entfernt werden.
+<div>
 
-2.  Öffnen Sie die Lync Server-Verwaltungsshell.
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="605d1-106">So entfernen Sie die SQL Server-Datenbank mithilfe des Topologie-Generators</span><span class="sxs-lookup"><span data-stu-id="605d1-106">To remove the SQL Server database using Topology Builder</span></span>
 
-3.  Geben Sie Folgendes ein, um die Datenbank für den Poolbenutzerspeicher zu entfernen:
+1.  <span data-ttu-id="605d1-107">Öffnen Sie im lync Server 2013-Front-End-Server den Topologie-Generator, und laden Sie die vorhandene Topologie herunter.</span><span class="sxs-lookup"><span data-stu-id="605d1-107">From the Lync Server 2013 Front End Server, open Topology Builder and download the existing topology.</span></span>
+
+2.  <span data-ttu-id="605d1-108">Navigieren Sie im Topologie-Generator zu **freigegebenen Komponenten** und dann zu **SQL Server-speichern**, klicken Sie mit der rechten Maustaste auf die SQL Server-Instanz, die dem entfernten oder neu konfigurierten Front-End-Pool zugeordnet ist, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="605d1-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Front End pool, and then click **Delete**.</span></span>
+
+3.  <span data-ttu-id="605d1-109">Veröffentlichen Sie die Topologie, und überprüfen Sie dann den Replikationsstatus.</span><span class="sxs-lookup"><span data-stu-id="605d1-109">Publish the topology, and then check the replication status.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a><span data-ttu-id="605d1-110">So entfernen Sie Benutzer-und Anwendungsdatenbanken aus dem SQL Server</span><span class="sxs-lookup"><span data-stu-id="605d1-110">To remove user and application databases from the SQL Server</span></span>
+
+1.  <span data-ttu-id="605d1-111">Um die Datenbanken auf dem SQL Server zu entfernen, müssen Sie ein Mitglied der Gruppe SQL Server Sysadmins für den SQL Server sein, auf dem Sie die Datenbankdateien entfernen.</span><span class="sxs-lookup"><span data-stu-id="605d1-111">To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files.</span></span>
+
+2.  <span data-ttu-id="605d1-112">Öffnen der lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="605d1-112">Open Lync Server Management Shell</span></span>
+
+3.  <span data-ttu-id="605d1-113">Wenn Sie die Datenbank für den Pool Benutzerspeicher entfernen möchten, geben Sie Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="605d1-113">To remove the database for the pool user store, type:</span></span>
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Dabei ist *\<FQDN\>* der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Datenbankservers und *\<instance\>* die benannte Datenbankinstanz (sofern eine definiert wurde).
+    <span data-ttu-id="605d1-114">Hierbei \<handelt\> es sich um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, \<FQDN\> ) des Datenbankservers, wobei es sich bei der Instanz um die benannte Datenbankinstanz handelt (also, wenn eine definiert wurde).</span><span class="sxs-lookup"><span data-stu-id="605d1-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
 
-4.  Geben Sie Folgendes ein, um die Datenbank für den Poolanwendungsspeicher zu entfernen:
+4.  <span data-ttu-id="605d1-115">Wenn Sie die Datenbank für den Pool-Anwendungsspeicher entfernen möchten, geben Sie Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="605d1-115">To remove the database for the pool application store, type:</span></span>
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Dabei ist *\<FQDN\>* der vollqualifizierte Domänenname des Datenbankservers und *\<instance\>* die benannte Datenbankinstanz (sofern eine definiert wurde).
+    <span data-ttu-id="605d1-116">Dabei \<ist\> FQDN der FQDN des Datenbankservers, und \<Instanz\> ist die benannte Datenbankinstanz (also, wenn eine definiert wurde).</span><span class="sxs-lookup"><span data-stu-id="605d1-116">Where \<FQDN\> is the FQDN of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
 
-5.  Wenn Sie vom Cmdlet **Uninstall-CsDataBase** aufgefordert werden, Aktionen zu bestätigen, lesen Sie die Informationen, und drücken Sie dann **Y** (oder die EINGABETASTE), oder drücken Sie **N** und dann die EINGABETASTE, wenn Sie die Ausführung des Cmdlets beenden möchten (im Falle von Fehlern).
+5.  <span data-ttu-id="605d1-117">Wenn Sie vom Cmdlet " **deinstallieren-CsDataBase** " aufgefordert werden, Aktionen zu bestätigen, lesen Sie die Informationen, und drücken Sie dann **Y** (oder drücken Sie die EINGABETASTE), um fortzufahren, oder drücken Sie **N** , und geben Sie dann ein, wenn Sie das Cmdlet beenden möchten (d. h., falls Fehler auftreten).</span><span class="sxs-lookup"><span data-stu-id="605d1-117">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

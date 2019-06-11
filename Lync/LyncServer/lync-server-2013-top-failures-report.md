@@ -1,51 +1,81 @@
-﻿---
-title: 'Lync Server 2013: Bericht über häufigste Fehler'
-TOCTitle: Bericht über häufigste Fehler
-ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558640(v=OCS.15)
-ms:contentKeyID: 49293836
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bericht "Top-Fehler"'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Top Failures Report
+ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558640(v=OCS.15)
+ms:contentKeyID: 48184021
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 094f5034951e20d48b05c8772698ae2983492509
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847455"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bericht über häufigste Fehler in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="top-failures-report-in-lync-server-2013"></a><span data-ttu-id="3c1f7-102">Bericht "Top-Fehler" in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c1f7-102">Top Failures Report in Lync Server 2013</span></span>
 
-Der Bericht über häufigste Fehler bietet einen Überblick über die am häufigsten gemeldeten Fehler mit Trenddarstellung.
+</div>
 
-  - **Diagnose-ID** . Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.
+<div id="mainSection">
 
-  - **Antwortcode** . Antwortcodes werden in SIP-Kommunikationssitzungen verwendet, um auf SIP-Anforderungen zu reagieren. Angenommen, Ken Myer sendet die INVITE-Anfrage an Pilar Ackerman (d. h., Ken Myer ruft Pilar Ackerman an). Wenn Pilar antwortet, sendet ihr Telefon den Antwortcode 200 (OK) und teilt Kens Telefon dadurch mit, dass Pilar geantwortet hat. Der Bericht über häufigste Fehler beinhaltet nur Antwortcodes, die als Reaktion auf einen fehlerhaften Anruf gesendet wurden. Lync Server verfolgt nicht alle Antwortcodes, die während eines Anrufs ausgegeben werden.
+<div id="mainBody">
 
-Informationen werden nicht nur für die Gesamtzahl an Sitzungen, in denen ein Fehler aufgetreten ist, gemeldet, sondern auch für die Gesamtzahl der Benutzer, die von den Fehlern betroffen waren.
+<span> </span>
 
-## Zugriff auf den Bericht über häufigste Fehler
+<span data-ttu-id="3c1f7-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3c1f7-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Überwachungsberichte-Startseite aus. Durch Klicken auf die Metrik "Gemeldete Sitzungen" gelangen Sie zum [Bericht über Fehlerverteilung in Lync Server 2013](lync-server-2013-failure-distribution-report.md).
+<span data-ttu-id="3c1f7-p101">Der Bericht über häufigste Fehler bietet einen Überblick über die am häufigsten gemeldeten Fehler mit Trenddarstellung. Die Fehler basieren auf einer Kombination der folgenden zwei Metriken:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p101">The Top Failures Report provides a look at the most-commonly reported failures and their trends over time. Failures are based on a combination of the following two metrics:</span></span>
 
-## Beste Nutzung des Berichts häufigster Fehler
+  - <span data-ttu-id="3c1f7-p102">**Diagnose-ID**. Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p102">**Diagnostic ID**. Unique identifier (in the form of an ms-diagnostics header) that is attached to a SIP message. Diagnostic IDs provide information useful in troubleshooting call-related problems.</span></span>
 
-Der Bericht häufigster Fehler ist in einer Hinsicht ungewöhnlich: Er ermöglicht Ihnen gleichzeitig, nach bis zu 5 Diagnose-IDs zu filtern (normalerweise kann nur nach einem Element gleichzeitig gefiltert werden, z. B. nach der SIP-Adresse des Benutzers). Um nach mehreren Diagnose-IDs zu filtern, geben Sie einfach alle IDs durch Kommas getrennt in das Feld "Diagnose-IDs" ein (Sie können, müssen aber nicht nach jedem Komma ein Leerzeichen einfügen). Beispiel:
+  - <span data-ttu-id="3c1f7-109">**Antwortcode**.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-109">**Response code**.</span></span> <span data-ttu-id="3c1f7-110">Antwortcodes werden in SIP-Kommunikationssitzungen verwendet, um auf SIP-Anforderungen zu reagieren.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-110">Response codes are used in SIP communication sessions to respond to SIP requests.</span></span> <span data-ttu-id="3c1f7-111">Angenommen, Ken sendet die INVITE-Anforderung an Pilar Ackerman (das heißt, Ken Myers ruft Pilar Ackerman an).</span><span class="sxs-lookup"><span data-stu-id="3c1f7-111">For example, suppose Ken sends the INVITE request to Pilar Ackerman (that is, suppose Ken Myer calls Pilar Ackerman).</span></span> <span data-ttu-id="3c1f7-112">Wenn Pilar antwortet, sendet Ihr Telefon den Antwortcode 200 (OK) und lässt Ken Telefon wissen, dass Pilar geantwortet hat.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-112">If Pilar answers, her phone will send the response code 200 (OK), letting Ken's phone know that Pilar has answered.</span></span> <span data-ttu-id="3c1f7-113">Der Bericht "Top-Fehler" enthält nur Antwortcodes, die als Antwort auf einen Anruf Fehler gesendet wurden. Lync Server verfolgt nicht alle im Laufe eines Anrufs ausgestellten Antwortcodes.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-113">The Top Failures Report only includes response codes that were sent in response to a call failure; Lync Server does not keep track of all the response codes issued during the course of a call.</span></span>
 
-1011, 2412, 1033, 52116, 1008
+<span data-ttu-id="3c1f7-114">Informationen werden nicht nur für die Gesamtzahl an Sitzungen, in denen ein Fehler aufgetreten ist, gemeldet, sondern auch für die Gesamtzahl der Benutzer, die von den Fehlern betroffen waren.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-114">Information is reported not only for the total number of sessions where a failure occurred but also for the total number of users who were impacted by the failure.</span></span>
 
-Wenn Sie dies tun, werden nur fehlerhafte Anrufe, die mindestens eine dieser fünf Diagnose-IDs gemeldet haben, angezeigt.
+<div>
 
-Wenn Sie Ihre Maus über einen Antwortcode bewegen, wird eine QuickInfo angezeigt, die Ihnen mitteilt, was der jeweilige Antwortcode bedeutet. Wenn Sie beispielsweise die Maus über den Antwortcode 486 bewegen, wird folgende Meldung angezeigt:
+## <a name="accessing-the-top-failures-report"></a><span data-ttu-id="3c1f7-115">Zugriff auf den Bericht über häufigste Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-115">Accessing the Top Failures Report</span></span>
 
-Ausgelastet.
+<span data-ttu-id="3c1f7-116">Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Startseite für Überwachungsberichte aus.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-116">The Top Failures Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="3c1f7-117">Wenn Sie auf die Metrik der gemeldeten Sitzungen klicken, gelangen Sie zum [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md).</span><span class="sxs-lookup"><span data-stu-id="3c1f7-117">Clicking the Reported sessions metric will take you to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md).</span></span>
 
-## Filter
+</div>
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie die zurückgegebenen Daten im Bericht über häufigste Fehler nach Kriterien wie dem Aktivitätstyp (Peer-zu-Peer-Sitzung oder Konferenzsitzung) oder dem SIP-Antwortcode für die fehlgeschlagene Sitzung filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Ereignisse nach Stunde, Tag, Woche oder Monat zusammengefasst
+<div>
 
-In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über häufigste Fehler verwenden können.
+## <a name="making-the-best-use-of-the-top-failures-report"></a><span data-ttu-id="3c1f7-118">Beste Nutzung des Berichts häufigster Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-118">Making the Best Use of the Top Failures Report</span></span>
 
-### Filter im Bericht über häufigste Fehler
+<span data-ttu-id="3c1f7-p105">Der Bericht häufigster Fehler ist in einer Hinsicht ungewöhnlich: Er ermöglicht Ihnen gleichzeitig, nach bis zu 5 Diagnose-IDs zu filtern (normalerweise kann nur nach einem Element gleichzeitig gefiltert werden, z. B. nach der SIP-Adresse des Benutzers). Um nach mehreren Diagnose-IDs zu filtern, geben Sie einfach alle IDs durch Kommas getrennt in das Feld „Diagnose-IDs“ ein (Sie können, müssen aber nicht nach jedem Komma ein Leerzeichen einfügen). Beispiel:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p105">The Top Failures Report is unusual in one regard: it allows you to filter on as many as 5 diagnostic IDs at once. (Typically you can only filter on one item – such as one user SIP address – at a time.) To filter on multiple diagnostic IDs, simply enter each ID in the Diagnostic IDs box, separating the IDs by using commas. (If you want to, you can leave a blank space after each comma.) For example:</span></span>
+
+<span data-ttu-id="3c1f7-122">1011, 2412, 1033, 52116, 1008</span><span class="sxs-lookup"><span data-stu-id="3c1f7-122">1011, 2412, 1033, 52116, 1008</span></span>
+
+<span data-ttu-id="3c1f7-123">Wenn Sie dies tun, werden nur fehlerhafte Anrufe, die mindestens eine dieser fünf Diagnose-IDs gemeldet haben, angezeigt.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-123">Do that, and only failed calls that reported at least one of those five diagnostic IDs will be displayed.</span></span>
+
+<span data-ttu-id="3c1f7-p106">Wenn Sie Ihre Maus über einen Antwortcode bewegen, wird eine QuickInfo angezeigt, die Ihnen mitteilt, was der jeweilige Antwortcode bedeutet. Wenn Sie beispielsweise die Maus über den Antwortcode 486 bewegen, wird folgende Meldung angezeigt:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p106">If you hold your mouse over a Response code you'll see a tooltip that tells you what the Response code in question means. For example, if you hold the mouse over the Response code 486 you'll see this message:</span></span>
+
+<span data-ttu-id="3c1f7-126">Ausgelastet.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-126">Busy Here.</span></span>
+
+</div>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="3c1f7-127">Filter</span><span class="sxs-lookup"><span data-stu-id="3c1f7-127">Filters</span></span>
+
+<span data-ttu-id="3c1f7-p107">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie die zurückgegebenen Daten im Bericht über häufigste Fehler nach Kriterien wie dem Aktivitätstyp (Peer-to-Peer-Sitzung oder Konferenzsitzung) oder dem SIP-Antwortcode für die fehlgeschlagene Sitzung filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Ereignisse nach Stunde, Tag, Woche oder Monat zusammengefasst</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p107">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Top Failures Report enables you to filter the returned data based on such things as the activity type (peer-to-peer session or conferencing session) or by the SIP response code that accompanied the failed session. You can also choose how data should be grouped. In this case, usages are grouped by hour, day, week, or month.</span></span>
+
+<span data-ttu-id="3c1f7-132">In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über häufigste Fehler verwenden können.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-132">The following table lists the filters that you can use with the Top Failures Report.</span></span>
+
+### <a name="top-failures-report-filters"></a><span data-ttu-id="3c1f7-133">Filter im Bericht über häufigste Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-133">Top Failures Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -54,75 +84,79 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="3c1f7-134">Name</span><span class="sxs-lookup"><span data-stu-id="3c1f7-134">Name</span></span></th>
+<th><span data-ttu-id="3c1f7-135">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="3c1f7-135">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
-<td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>7/7/2012</p>
-<p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>7/3/2012</p>
-<p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
+<td><p><span data-ttu-id="3c1f7-136"><strong>Von</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-136"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p108">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p108">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="3c1f7-139">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="3c1f7-139">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="3c1f7-p109">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p109">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="3c1f7-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="3c1f7-142">7/7/2012</span></span></p>
+<p><span data-ttu-id="3c1f7-143">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="3c1f7-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="3c1f7-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="3c1f7-144">7/3/2012</span></span></p>
+<p><span data-ttu-id="3c1f7-145">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
-<td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>7/7/2012</p>
-<p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>7/3/2012</p>
-<p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
+<td><p><span data-ttu-id="3c1f7-146"><strong>Bis</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-146"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p110">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p110">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="3c1f7-149">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="3c1f7-149">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="3c1f7-p111">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p111">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="3c1f7-152">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="3c1f7-152">7/7/2012</span></span></p>
+<p><span data-ttu-id="3c1f7-153">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="3c1f7-153">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="3c1f7-154">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="3c1f7-154">7/3/2012</span></span></p>
+<p><span data-ttu-id="3c1f7-155">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-155">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aktivitätstyp</strong></p></td>
-<td><p>Aktivitätstyp. Wählen Sie eine der folgenden Optionen aus:</p>
+<td><p><span data-ttu-id="3c1f7-156"><strong>Aktivitätstyp</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-156"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p112">Aktivitätstyp. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p112">Type of activity. Select one of the following:</span></span></p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>Peer-zu-Peer</p></li>
-<li><p>Konferenz</p></li>
+<li><p><span data-ttu-id="3c1f7-159">[Alle]</span><span class="sxs-lookup"><span data-stu-id="3c1f7-159">[All]</span></span></p></li>
+<li><p><span data-ttu-id="3c1f7-160">Peer-to-Peer</span><span class="sxs-lookup"><span data-stu-id="3c1f7-160">Peer-to-peer</span></span></p></li>
+<li><p><span data-ttu-id="3c1f7-161">Konferenz</span><span class="sxs-lookup"><span data-stu-id="3c1f7-161">Conference</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Modalität</strong></p></td>
-<td><p>Derzeit ist nur die Option <strong>[Alle]</strong> verfügbar.</p></td>
+<td><p><span data-ttu-id="3c1f7-162"><strong>Modalität</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-162"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-163">Derzeit ist nur die Option <strong>[Alle]</strong> verfügbar.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-163">At this time the only option available is <strong>[All]</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
+<td><p><span data-ttu-id="3c1f7-164"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-164"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p113">Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder Edgeservers. Sie können einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p113">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Kategorie</strong></p></td>
-<td><p>Der Typ des aufgetretenen Fehlers. Wählen Sie eine der folgenden Optionen aus:</p>
+<td><p><span data-ttu-id="3c1f7-168"><strong>Kategorie</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-168"><strong>Category</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p114">Der Typ des aufgetretenen Fehlers. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p114">Type of failure experienced. Select one of the following:</span></span></p>
 <ul>
-<li><p>Erwartete und unerwartete Fehler</p></li>
-<li><p>Unerwarteter Fehler</p></li>
+<li><p><span data-ttu-id="3c1f7-171">Erwartete und unerwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-171">Both expected and unexpected failure</span></span></p></li>
+<li><p><span data-ttu-id="3c1f7-172">Unerwarteter Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-172">Unexpected failure</span></span></p></li>
 </ul>
-<p>Ein &quot;erwarteter Fehler&quot; ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf <strong>Nicht stören</strong> festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt. Ein &quot;unerwarteter Fehler&quot; ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</p></td>
+<p><span data-ttu-id="3c1f7-173">Bei &quot;einem erwarteten&quot; Fehler handelt es sich um einen Fehler, der erwartet wird.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-173">An &quot;expected failure&quot; is a failure that is expected to happen.</span></span> <span data-ttu-id="3c1f7-174">Hat beispielsweise ein Benutzer seinen Status auf „Nicht stören“ gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-174">For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span> <span data-ttu-id="3c1f7-175">Bei &quot;einem unerwarteten Fehler&quot; handelt es sich um einen Fehler, der in einem ansonsten fehlerhaften System auftreten kann.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-175">An &quot;unexpected failure&quot; is a failure that occurs in what would appear to be an otherwise healthy system.</span></span> <span data-ttu-id="3c1f7-176">Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-176">For example, a call should not be terminated if the caller is placed on hold.</span></span> <span data-ttu-id="3c1f7-177">In diesem Fall würde der Fehler als „unerwartet“ gekennzeichnet.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-177">If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Antwortcode</strong></p></td>
-<td><p>Der SIP-Antwortcode, der gesendet wird, wenn die Konferenz fehlschlägt. Geben Sie den vollständigen Antwortcode ein. Beispiel:</p>
-<p>400</p></td>
+<td><p><span data-ttu-id="3c1f7-178"><strong>Antwortcode</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-178"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p116">Der SIP-Antwortcode, der gesendet wird, wenn die Konferenz fehlschlägt. Geben Sie den vollständigen Antwortcode ein. Beispiel:</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p116">SIP response code sent when the conference failed. Enter the entire response code For example:</span></span></p>
+<p><span data-ttu-id="3c1f7-181">400</span><span class="sxs-lookup"><span data-stu-id="3c1f7-181">400</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnose-ID</strong></p></td>
-<td><p>Eindeutige ID (in der Form eines Headers vom Typ &quot;ms-diagnostics&quot;), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Diagnostics-Header sind optional (SIP-Sitzungen ohne diese Header sind möglich) und Diagnose-IDs werden nur für Sitzungen berichtet, bei denen Probleme aufgetreten sind.</p></td>
+<td><p><span data-ttu-id="3c1f7-182"><strong>Diagnose-ID</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-182"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-p117">Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Diagnostics-Header sind optional (SIP-Sitzungen ohne diese Header sind möglich) und Diagnose-IDs werden nur für Sitzungen berichtet, bei denen Probleme aufgetreten sind.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-p117">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Metriken
+</div>
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über häufigste Fehler angegeben werden.
+<div>
 
-### Metriken im Bericht über häufigste Fehler
+## <a name="metrics"></a><span data-ttu-id="3c1f7-185">Metriken</span><span class="sxs-lookup"><span data-stu-id="3c1f7-185">Metrics</span></span>
+
+<span data-ttu-id="3c1f7-186">In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über häufigste Fehler angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-186">The following table lists the information provided in the Top Failures Report.</span></span>
+
+### <a name="top-failures-report-metrics"></a><span data-ttu-id="3c1f7-187">Metriken im Bericht über häufigste Fehler</span><span class="sxs-lookup"><span data-stu-id="3c1f7-187">Top Failures Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -132,37 +166,50 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über h
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Kann nach dieser Metrik sortiert werden?</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="3c1f7-188">Name</span><span class="sxs-lookup"><span data-stu-id="3c1f7-188">Name</span></span></th>
+<th><span data-ttu-id="3c1f7-189">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="3c1f7-189">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="3c1f7-190">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="3c1f7-190">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
-<td><p>Ja</p></td>
-<td><p>Der relative Rang basierend auf der Anzahl der gemeldeten Sitzungen.</p></td>
+<td><p><span data-ttu-id="3c1f7-191"><strong>Rang</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-191"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-192">Ja</span><span class="sxs-lookup"><span data-stu-id="3c1f7-192">Yes</span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-193">Der relative Rang basierend auf der Anzahl der gemeldeten Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-193">Relative rank based on the number of reported sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Gemeldete Sitzungen</strong></p></td>
-<td><p>Ja</p></td>
-<td><p>Die Gesamtzahl der fehlerhaften Sitzungen basierend auf der Diagnose-ID und dem SIP-Antwortcode.</p></td>
+<td><p><span data-ttu-id="3c1f7-194"><strong>Gemeldete Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-194"><strong>Reported sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-195">Ja</span><span class="sxs-lookup"><span data-stu-id="3c1f7-195">Yes</span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-196">Die Gesamtzahl der fehlerhaften Sitzungen basierend auf der Diagnose-ID und dem SIP-Antwortcode.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-196">Total number of failed sessions based on diagnostic ID and SIP response code.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Betroffene Benutzer</strong></p></td>
-<td><p>Ja</p></td>
-<td><p>Die Gesamtzahl der Benutzer, die von der fehlerhaften Sitzung betroffen waren.</p></td>
+<td><p><span data-ttu-id="3c1f7-197"><strong>Betroffene Benutzer</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-197"><strong>Users impacted</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-198">Ja</span><span class="sxs-lookup"><span data-stu-id="3c1f7-198">Yes</span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-199">Die Gesamtzahl der Benutzer, die von der fehlerhaften Sitzung betroffen waren.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-199">Total number of users affected by the failed session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Fehlerinformationen</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Genaue Angaben zu dem Fehler, u. a. die Diagnose-ID, der SIP-Antwortcode und eine Beschreibung der Ursache des Sitzungsfehlers.</p></td>
+<td><p><span data-ttu-id="3c1f7-200"><strong>Fehlerinformationen</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-200"><strong>Failure information</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-201">Nein</span><span class="sxs-lookup"><span data-stu-id="3c1f7-201">No</span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-202">Genaue Angaben zu dem Fehler, u. a. die Diagnose-ID, der SIP-Antwortcode und eine Beschreibung der Ursache des Sitzungsfehlers.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-202">Detailed information about the failure, including diagnostic ID, SIP response code, and description of why the session failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Trend in der Vergangenheit</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Eine grafische Darstellung der fehlerhaften Sitzungen über einen bestimmten Zeitraum.</p></td>
+<td><p><span data-ttu-id="3c1f7-203"><strong>Trend in der Vergangenheit</strong></span><span class="sxs-lookup"><span data-stu-id="3c1f7-203"><strong>Trend in the past</strong></span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-204">Nein</span><span class="sxs-lookup"><span data-stu-id="3c1f7-204">No</span></span></p></td>
+<td><p><span data-ttu-id="3c1f7-205">Eine grafische Darstellung der fehlerhaften Sitzungen über einen bestimmten Zeitraum.</span><span class="sxs-lookup"><span data-stu-id="3c1f7-205">Graphs failed sessions over time.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,26 +1,60 @@
-﻿---
-title: 'Lync Server 2013: Neue Funktionen für Geräte'
-TOCTitle: Neue Funktionen für Geräte
-ms:assetid: d5481b83-99b7-46e3-9167-9811bded1f50
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398926(v=OCS.15)
-ms:contentKeyID: 49295525
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Neue Funktionen für Geräte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: What's new for devices
+ms:assetid: d5481b83-99b7-46e3-9167-9811bded1f50
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398926(v=OCS.15)
+ms:contentKeyID: 48185477
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fdfe4a54eae9701ee62df59d8cdb417061fa6619
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847155"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Neue Funktionen für Geräte in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="whats-new-for-devices-in-lync-server-2013"></a><span data-ttu-id="661bf-102">Neue Funktionen für Geräte in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="661bf-102">What's new for devices in Lync Server 2013</span></span>
 
-Lync Server 2013 enthält Lync Phone Edition, eine Software, die auf qualifizierten Geräten ausgeführt wird und herkömmliche und erweiterte Telefoniefeatures, integrierte Sicherheit, Verwaltbarkeit usw. bietet. Die Funktionsweise von Lync Phone Edition ist in Lync Server 2013 und Lync Server 2010 identisch. Informationen zu den neuesten Features für Geräte finden Sie unter [Neue Funktionen für Geräte](http://go.microsoft.com/fwlink/?linkid=256490) in der Lync Server 2010-TechNet-Bibliothek.
+</div>
 
-## Siehe auch
+<div id="mainSection">
 
-#### Weitere Ressourcen
+<div id="mainBody">
 
-[Planen von Geräten](http://go.microsoft.com/fwlink/?linkid=256483)  
-[Bereitstellen von Geräten](http://go.microsoft.com/fwlink//p/?linkid=256484%26clcid=0x407)
+<span> </span>
+
+<span data-ttu-id="661bf-103">_**Letztes Änderungsdatum des Themas:** 2012-06-22_</span><span class="sxs-lookup"><span data-stu-id="661bf-103">_**Topic Last Modified:** 2012-06-22_</span></span>
+
+<span data-ttu-id="661bf-104">Lync Server 2013 umfasst lync Phone Edition, Software, die auf qualifizierten Geräten ausgeführt wird, und bietet herkömmliche und erweiterte Telefonfunktionen, integrierte Sicherheit, Verwaltbarkeit und mehr.</span><span class="sxs-lookup"><span data-stu-id="661bf-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="661bf-105">Lync Phone Edition funktioniert auf die gleiche Weise mit lync Server 2013 wie mit lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="661bf-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="661bf-106">Ausführliche Informationen zu den neuesten Funktionen für Geräte finden Sie unter [Neuerungen für Geräte](http://go.microsoft.com/fwlink/p/?linkid=256490) in der TechNet-Bibliothek von lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="661bf-106">For details about the newest features related to devices, see [What’s New for Devices](http://go.microsoft.com/fwlink/p/?linkid=256490) in the Lync Server 2010 TechNet Library.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="661bf-107">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="661bf-107">See Also</span></span>
+
+
+[<span data-ttu-id="661bf-108">Planen von Geräten</span><span class="sxs-lookup"><span data-stu-id="661bf-108">Planning for Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=256483)  
+[<span data-ttu-id="661bf-109">Bereitstellen von Geräten</span><span class="sxs-lookup"><span data-stu-id="661bf-109">Deploying Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=256484)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

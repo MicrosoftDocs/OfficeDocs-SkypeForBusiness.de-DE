@@ -1,31 +1,65 @@
-﻿---
-title: Entfernen des Enterprise Edition-Front-End-Servers oder Standard Edition-Front-End-Servers
-TOCTitle: Entfernen des Enterprise Edition-Front-End-Servers oder Standard Edition-Front-End-Servers
-ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688123(v=OCS.15)
-ms:contentKeyID: 49890831
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Entfernen des Enterprise Edition-Front-End-Servers oder des Standard Edition-Front-End-Servers
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
+ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)
+ms:contentKeyID: 49733721
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3d8add7525f5855f63dec0b18d29bd6c496aa178
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847007"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entfernen des Enterprise Edition-Front-End-Servers oder Standard Edition-Front-End-Servers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-10_
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a><span data-ttu-id="81179-102">Entfernen des Enterprise Edition-Front-End-Servers oder des Standard Edition-Front-End-Servers</span><span class="sxs-lookup"><span data-stu-id="81179-102">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>
 
-Die Verfahrensweisen in diesem Thema leiten Sie Schritt für Schritt durch den Prozess zum Entfernen eines Front-End-Pools der Enterprise Edition oder eines Front-End-Servers der Standard Edition in Microsoft Lync Server 2010. Nach der Migration zu Lync Server 2013 ist dies der erste Schritt, um die Vorversion der Lync Server 2010-Umgebung außer Betrieb zu setzen.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Zurücksetzen der Anrufsteuerung](reset-call-admission-control.md)
+<div id="mainBody">
 
-  - [Verhindern von Sitzungen für Dienste](prevent-sessions-for-services.md)
+<span> </span>
 
-  - [Beenden der Lync Server 2010-Dienste](stop-lync-server-2010-services.md)
+<span data-ttu-id="81179-103">_**Letztes Änderungsdatum des Themas:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="81179-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-  - [Entfernen eines Front-End-Servers aus einem Pool](remove-a-front-end-server-from-a-pool.md)
+<span data-ttu-id="81179-104">Die in diesem Thema beschriebenen Verfahren sollen Sie durch den Vorgang zum Entfernen eines Microsoft lync Server 2010 Enterprise Edition-Front-End-Pools oder eines Standard Edition-Front-End-Servers leiten.</span><span class="sxs-lookup"><span data-stu-id="81179-104">The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="81179-105">Nach der Migration zu lync Server 2013 handelt es sich um einen der ersten Schritte zur Außerbetriebnahme Ihrer Legacy lync Server 2010-Umgebung.</span><span class="sxs-lookup"><span data-stu-id="81179-105">After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment.</span></span>
 
-  - [Entfernen von Front-End-Pools oder Standard Edition-Servern](remove-front-end-pool-or-standard-edition-server.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="81179-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="81179-106">In This Section</span></span>
+
+  - [<span data-ttu-id="81179-107">Zurücksetzen der Anrufsteuerung</span><span class="sxs-lookup"><span data-stu-id="81179-107">Reset call admission control</span></span>](reset-call-admission-control.md)
+
+  - [<span data-ttu-id="81179-108">Verhindern von Sitzungen für Dienste</span><span class="sxs-lookup"><span data-stu-id="81179-108">Prevent sessions for services</span></span>](prevent-sessions-for-services.md)
+
+  - [<span data-ttu-id="81179-109">Beenden von lync Server 2010-Diensten</span><span class="sxs-lookup"><span data-stu-id="81179-109">Stop Lync Server 2010 services</span></span>](stop-lync-server-2010-services.md)
+
+  - [<span data-ttu-id="81179-110">Entfernen eines Front-End-Servers aus einem Pool</span><span class="sxs-lookup"><span data-stu-id="81179-110">Remove a Front End Server from a pool</span></span>](remove-a-front-end-server-from-a-pool.md)
+
+  - [<span data-ttu-id="81179-111">Entfernen eines Front-End-Pools oder Standard Edition-Servers</span><span class="sxs-lookup"><span data-stu-id="81179-111">Remove Front End pool or Standard Edition server</span></span>](remove-front-end-pool-or-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

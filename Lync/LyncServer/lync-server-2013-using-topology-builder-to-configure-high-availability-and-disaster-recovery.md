@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators'
-TOCTitle: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators
-ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205172(v=OCS.15)
-ms:contentKeyID: 49295059
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Topology Builder to configure high availability and disaster recovery
+ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
+ms:contentKeyID: 48185113
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847309"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="8aba5-102">Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8aba5-102">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
 
-Führen Sie die folgenden Schritte im Topologie-Generator aus, um eine hohe Verfügbarkeit und die Notfallwiederherstellung für den Server für beständigen Chat zu konfigurieren.
+</div>
 
-1.  Fügen Sie die Spiegeldatenbanken und die SQL Server-Speicher für die sekundäre Protokollversanddatenbank hinzu.
+<div id="mainSection">
 
-2.  Bearbeiten Sie die Diensteigenschaften für den Server für beständigen Chat wie folgt:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8aba5-103">_**Letztes Änderungsdatum des Themas:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="8aba5-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="8aba5-104">Führen Sie die folgenden Schritte im Topologie-Generator aus, um die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="8aba5-104">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
+
+1.  <span data-ttu-id="8aba5-105">Hinzufügen der Spiegeldatenbanken und der sekundären Datenbank des Protokollversands SQL Server Stores.</span><span class="sxs-lookup"><span data-stu-id="8aba5-105">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
+
+2.  <span data-ttu-id="8aba5-106">Bearbeiten Sie die Diensteigenschaften des beständigen Chat-Servers wie folgt:</span><span class="sxs-lookup"><span data-stu-id="8aba5-106">Edit the Persistent Chat Server service properties to:</span></span>
     
-    1.  Aktivieren Sie die Spiegelung für die primäre Datenbank.
+    1.  <span data-ttu-id="8aba5-107">Aktivieren Sie die Spiegelung für die primäre Datenbank.</span><span class="sxs-lookup"><span data-stu-id="8aba5-107">Enable mirroring for the primary database.</span></span>
     
-    2.  Fügen Sie den primären Spiegelspeicher für SQL Server zu.
+    2.  <span data-ttu-id="8aba5-108">Fügen Sie den primären Spiegelungs-SQL Server-Speicher hinzu.</span><span class="sxs-lookup"><span data-stu-id="8aba5-108">Add the primary mirror SQL Server store.</span></span>
     
-    3.  Aktivieren Sie die Protokollversanddatenbank für SQL Server.
+    3.  <span data-ttu-id="8aba5-109">Aktivieren Sie die SQL Server-Protokollversanddatenbank.</span><span class="sxs-lookup"><span data-stu-id="8aba5-109">Enable the SQL Server Log Shipping database.</span></span>
     
-    4.  Fügen Sie den sekundären SQL Server-Speicher für den SQL Server-Protokollversand hinzu.
+    4.  <span data-ttu-id="8aba5-110">Fügen Sie den SQL Server-Protokollversand-sekundären SQL Server-Speicher hinzu.</span><span class="sxs-lookup"><span data-stu-id="8aba5-110">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
     
-    5.  Fügen Sie den SQL Server-Speicherspiegel für die sekundäre Datenbank hinzu.
+    5.  <span data-ttu-id="8aba5-111">Fügen Sie die SQL Server Store-Spiegelung für die sekundäre Datenbank hinzu.</span><span class="sxs-lookup"><span data-stu-id="8aba5-111">Add the SQL Server store mirror for the secondary database.</span></span>
     
-    6.  Veröffentlichen Sie die Topologie.
+    6.  <span data-ttu-id="8aba5-112">Veröffentlichen Sie die Topologie.</span><span class="sxs-lookup"><span data-stu-id="8aba5-112">Publish the topology.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,39 +1,72 @@
-﻿---
-title: Migrieren eines Adressbuchs
-TOCTitle: Migrieren eines Adressbuchs
-ms:assetid: b6e000ce-8b2e-460c-8a8b-000254b9d778
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205198(v=OCS.15)
-ms:contentKeyID: 49295171
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrieren des Adressbuchs
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate Address Book
+ms:assetid: b6e000ce-8b2e-460c-8a8b-000254b9d778
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205198(v=OCS.15)
+ms:contentKeyID: 48185218
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8dff13c31ecf203d6e6e4b60c22a3792475e403f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847130"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrieren eines Adressbuchs
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+# <a name="migrate-address-book"></a><span data-ttu-id="47782-102">Migrieren des Adressbuchs</span><span class="sxs-lookup"><span data-stu-id="47782-102">Migrate Address Book</span></span>
 
-**So migrieren Sie angepasste Normalisierungsregeln für Adressbücher**
+</div>
 
-1.  Suchen Sie die Datei **Company\_Phone\_Number\_Normalization\_Rules.txt** im Stamm des freigegebenen Adressbuchordners heraus, und kopieren Sie sie in den Stamm des freigegebenen Adressbuchordners im Lync Server 2013-Pilotpool.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="47782-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="47782-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="47782-104">**So migrieren Sie Adressbuch angepasste Normalisierungsregeln**</span><span class="sxs-lookup"><span data-stu-id="47782-104">**To migrate Address Book customized normalization rules**</span></span>
+
+1.  <span data-ttu-id="47782-105">Suchen Sie die\_Datei\_"\_\_Rules. txt" der Firmentelefonnummer im Stammverzeichnis des freigegebenen Adressbuch Ordners, und kopieren Sie Sie in den Stammordner des freigegebenen Adressbuch Ordners in Ihrem lync Server 2013-Pilot Pool.</span><span class="sxs-lookup"><span data-stu-id="47782-105">Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Die Beispiele für die Normalisierungsregeln für Adressbücher wurden in Ihrem ABS Web-Komponentendateiverzeichnis installiert. Der Pfad lautet <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Diese Datei kann in <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;umbenannt und in das Stammverzeichnis des freigegebenen Adressbuchordners kopiert werden. Der Pfad für das in <STRONG>$serverX</STRONG> freigegebene Adressbuch wird zum Beispiel ähnlich aussehen wie <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
+    > [!NOTE]  
+    > <span data-ttu-id="47782-106">Das Beispiel für die Normalisierungsregeln für das Adressbuch wurde im Dateiverzeichnis der ABS-Webkomponente installiert.</span><span class="sxs-lookup"><span data-stu-id="47782-106">The sample Address Book normalization rules have been installed in your ABS Web component file directory.</span></span> <span data-ttu-id="47782-107">Der Pfad ist <STRONG>$installedDriveLetter: \Programme\Microsoft lync Server 2013 \ Web Components\Address Adress Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="47782-107">The path is <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>.</span></span> <span data-ttu-id="47782-108">Diese Datei kann als &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;in das Stammverzeichnis des freigegebenen Ordners des Adressbuchs kopiert und umbenannt werden.</span><span class="sxs-lookup"><span data-stu-id="47782-108">This file can be copied and renamed as &nbsp;<STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;to the address book shared folder’s root directory.</span></span> <span data-ttu-id="47782-109">Beispielsweise ist das in <STRONG>$serverX</STRONG>freigegebene&nbsp;Adressbuch der Pfad ähnlich wie: <STRONG> \\$serverX \LyncFileShare\2-Webservices-1\ABFiles</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="47782-109">For example, the address book shared in <STRONG>$serverX</STRONG>,&nbsp;the path will be similar to: <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.</span></span>
 
-
-
-2.  Öffnen Sie die Datei "Company\_Phone\_Number\_Normalization\_Rules.txt" in einem Text-Editor, z. B. Editor.
-
-3.  Bestimmte Arten von Einträgen funktionieren in Lync Server 2013 nicht ordnungsgemäß. Durchsuchen Sie die Datei nach den hier beschriebenen Typen von Einträgen, bearbeiten Sie die Einträge entsprechend, und speichern Sie die Änderungen im freigegebenen Adressbuchordner im Pilotpool.
     
-    Zeichenfolgen, die erforderliche Leerzeichen oder Satzzeichen enthalten, können Fehler bei der Ausführung der Normalisierungsregeln verursachen, weil diese Zeichen aus den Zeichenfolgen, die in die Normalisierungsregeln eingelesen werden, entfernt werden. Wenn Sie Zeichenfolgen mit erforderlichen Leerzeichen oder Satzzeichen haben, müssen Sie diese Zeichenfolgen bearbeiten. Beispielsweise würde die folgende Zeichenfolge einen Fehler bei der Normalisierungsregel verursachen:
+    </div>
+
+2.  <span data-ttu-id="47782-110">Verwenden Sie einen Text-Editor wie Editor, um die Datei für\_die\_\_normalisierungs\_Regeln für Firmentelefone zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="47782-110">Use a text editor, such as Notepad, to open the Company\_Phone\_Number\_Normalization\_Rules.txt file.</span></span>
+
+3.  <span data-ttu-id="47782-111">Bestimmte Typen von Einträgen funktionieren in lync Server 2013 nicht ordnungsgemäß.</span><span class="sxs-lookup"><span data-stu-id="47782-111">Certain types of entries will not work correctly in Lync Server 2013.</span></span> <span data-ttu-id="47782-112">Durchsuchen Sie die Datei nach den in diesem Schritt beschriebenen Arten von Einträgen, bearbeiten Sie Sie nach Bedarf, und speichern Sie die Änderungen im freigegebenen Ordner des Adressbuchs in Ihrem Pilot Pool.</span><span class="sxs-lookup"><span data-stu-id="47782-112">Look through the file for the types of entries described in this step, edit them as necessary, and save the changes to the Address Book shared folder in your pilot pool.</span></span>
+    
+    <span data-ttu-id="47782-113">Zeichenfolgen, die erforderliche leer-oder Interpunktionszeichen enthalten, führen zu Normalisierungsregeln, da diese Zeichen aus der Zeichenfolge entfernt werden, die für die Normalisierungsregeln eingegeben wurde.</span><span class="sxs-lookup"><span data-stu-id="47782-113">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules.</span></span> <span data-ttu-id="47782-114">Wenn Zeichenfolgen vorhanden sind, die die erforderlichen Leerzeichen oder Interpunktionszeichen enthalten, müssen Sie die Zeichenfolgen ändern.</span><span class="sxs-lookup"><span data-stu-id="47782-114">If you have strings that include required whitespace or punctuation, you need to modify the strings.</span></span> <span data-ttu-id="47782-115">Die folgende Zeichenfolge würde beispielsweise dazu führen, dass die Normalisierungsregel fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="47782-115">For example, the following string would cause the normalization rule to fail:</span></span>
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    Mit der folgenden Zeichenfolge würde die Normalisierungsregel fehlerfrei ausgeführt werden:
+    <span data-ttu-id="47782-116">Die folgende Zeichenfolge würde nicht dazu führen, dass die Normalisierungsregel fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="47782-116">The following string would not cause the normalization rule to fail:</span></span>
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

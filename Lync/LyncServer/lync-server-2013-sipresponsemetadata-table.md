@@ -1,23 +1,43 @@
-﻿---
-title: SIPResponseMetaData-Tabelle
-TOCTitle: SIPResponseMetaData-Tabelle
-ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205294(v=OCS.15)
-ms:contentKeyID: 49295458
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SIPResponseMetaData-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SIPResponseMetaData table
+ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205294(v=OCS.15)
+ms:contentKeyID: 48185510
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31df563172cce2e6ac9780511665ef563532a7d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847753"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# SIPResponseMetaData-Tabelle
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="2789d-102">SIPResponseMetaData-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2789d-102">SIPResponseMetaData table in Lync Server 2013</span></span>
 
-Die SIPResponseMetaData-Tabelle enthält eine Liste der SIP-Antwortcodes und die Klassifizierung und Definition für jeden dieser Codes. Diese Codes werden als Reaktion auf Ereignisse generiert, die SIP-Geräte und SIP-Kommunikationssitzungen betreffen. Beispielsweise wird der Antwortcode 403 generiert, wenn ein SIP-Gerät eine Anforderung ausstellt, aber der Server diese Anforderung ablehnt.
+</div>
 
-Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2789d-103">_**Letztes Änderungsdatum des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="2789d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="2789d-104">Das SIPResponseMetaDataTable enthält eine Liste der SIP-Antwortcodes sowie die Klassifizierung und Definition der einzelnen Codes.</span><span class="sxs-lookup"><span data-stu-id="2789d-104">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes.</span></span> <span data-ttu-id="2789d-105">Diese Codes werden als Reaktion auf Ereignisse generiert, die sich auf SIP-Geräte und SIP-Kommunikationssitzungen auswirken. So wird beispielsweise der Antwortcode 403 generiert, wenn ein SIP-Gerät eine Anforderung stellt, aber der Server lehnt die Anerkennung dieser Anforderung ab.</span><span class="sxs-lookup"><span data-stu-id="2789d-105">These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
+
+<span data-ttu-id="2789d-106">Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="2789d-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -29,40 +49,51 @@ Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Datentyp</th>
-<th>Schlüssel/Index</th>
-<th>Details</th>
+<th><span data-ttu-id="2789d-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="2789d-107">Column</span></span></th>
+<th><span data-ttu-id="2789d-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="2789d-108">Data Type</span></span></th>
+<th><span data-ttu-id="2789d-109">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="2789d-109">Key/Index</span></span></th>
+<th><span data-ttu-id="2789d-110">Details</span><span class="sxs-lookup"><span data-stu-id="2789d-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
-<td><p>Primär</p></td>
-<td><p>Numerischer Wert, der den SIP-Antwortcode repräsentiert.</p></td>
+<td><p><span data-ttu-id="2789d-111"><strong>Response Code</strong></span><span class="sxs-lookup"><span data-stu-id="2789d-111"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="2789d-112">int</span><span class="sxs-lookup"><span data-stu-id="2789d-112">int</span></span></p></td>
+<td><p><span data-ttu-id="2789d-113">Primary</span><span class="sxs-lookup"><span data-stu-id="2789d-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="2789d-114">Numerischer Wert, der den SIP-Antwortcode darstellt.</span><span class="sxs-lookup"><span data-stu-id="2789d-114">Numeric value that represents the SIP response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Class</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>Allgemeine Klassifizierung für den Antwortcode. Es gibt folgende Klassifizierungen:</p>
+<td><p><span data-ttu-id="2789d-115"><strong>Klasse</strong></span><span class="sxs-lookup"><span data-stu-id="2789d-115"><strong>Class</strong></span></span></p></td>
+<td><p><span data-ttu-id="2789d-116">int</span><span class="sxs-lookup"><span data-stu-id="2789d-116">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="2789d-117">Allgemeine Klassifizierung für den Antwortcode.</span><span class="sxs-lookup"><span data-stu-id="2789d-117">General classification for the response code.</span></span> <span data-ttu-id="2789d-118">Zu den Klassifizierungen gehören:</span><span class="sxs-lookup"><span data-stu-id="2789d-118">Classifications include:</span></span></p>
 <ul>
-<li><p>1 – Informative Antworten</p></li>
-<li><p>2 – Erfolgreiche Antworten</p></li>
-<li><p>3 – Umleitungsantworten</p></li>
-<li><p>4 – Clientfehlerantworten</p></li>
-<li><p>5 – Serverfehlerantworten</p></li>
-<li><p>6 – Globale Fehlerantworten</p></li>
+<li><p><span data-ttu-id="2789d-119">1 – Informations Antworten</span><span class="sxs-lookup"><span data-stu-id="2789d-119">1 – Informational Responses</span></span></p></li>
+<li><p><span data-ttu-id="2789d-120">2 – erfolgreiche Antworten</span><span class="sxs-lookup"><span data-stu-id="2789d-120">2 – Successful Responses</span></span></p></li>
+<li><p><span data-ttu-id="2789d-121">3 – Umleitungsantworten</span><span class="sxs-lookup"><span data-stu-id="2789d-121">3 – Redirection Responses</span></span></p></li>
+<li><p><span data-ttu-id="2789d-122">4 – Antworten auf Client Fehler</span><span class="sxs-lookup"><span data-stu-id="2789d-122">4 – Client Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="2789d-123">5 – Server Fehlerantworten</span><span class="sxs-lookup"><span data-stu-id="2789d-123">5 -- Server Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="2789d-124">6 – globale Fehlerantwort</span><span class="sxs-lookup"><span data-stu-id="2789d-124">6 – Global Failure Response</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Description</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Beschreibung des SIP-Antwortcodes. Beispielsweise gibt es für den Antwortcode 181 die folgende Beschreibung:</p>
-<p>Anruf wird weitergeleitet</p></td>
+<td><p><span data-ttu-id="2789d-125"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="2789d-125"><strong>Description</strong></span></span></p></td>
+<td><p><span data-ttu-id="2789d-126">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="2789d-126">nvarchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="2789d-127">Beschreibung des SIP-Antwortcodes.</span><span class="sxs-lookup"><span data-stu-id="2789d-127">Description of the SIP response code.</span></span> <span data-ttu-id="2789d-128">Antwortcode 181 weist beispielsweise die folgende Beschreibung auf:</span><span class="sxs-lookup"><span data-stu-id="2789d-128">For example, response code 181 has the following description:</span></span></p>
+<p><span data-ttu-id="2789d-129">Anruf wird weitergeleitet</span><span class="sxs-lookup"><span data-stu-id="2789d-129">Call Is Being Forwarded</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

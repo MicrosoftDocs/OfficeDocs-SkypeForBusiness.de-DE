@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat'
-TOCTitle: Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat
-ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205290(v=OCS.15)
-ms:contentKeyID: 49295513
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up systems and infrastructure for Persistent Chat Server
+ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205290(v=OCS.15)
+ms:contentKeyID: 48185501
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c7dd7b36d81fbcfcca6d335ea60ea2039167e1b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847779"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-03-23_
+# <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="9439c-102">Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9439c-102">Setting up systems and infrastructure for Persistent Chat Server in Lync Server 2013</span></span>
 
-Bevor Sie den Server für beständigen Chat von Lync Server 2013 bereitstellen, müssen Sie die entsprechende Hardware und Software für alle Komponenten des Server für beständigen Chat bereitstellen.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Einrichten von Systemplattformen in Lync Server 2013](lync-server-2013-set-up-system-platforms.md)
+<div id="mainBody">
 
-  - [Installieren der erforderlichen Softwarekomponenten für Lync Server 2013](lync-server-2013-install-lync-server-2013-prerequisite-software.md)
+<span> </span>
+
+<span data-ttu-id="9439c-103">_**Letztes Änderungsdatum des Themas:** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="9439c-103">_**Topic Last Modified:** 2012-03-23_</span></span>
+
+<span data-ttu-id="9439c-104">Bevor Sie lync Server 2013, beständiger Chat Server, bereitstellen, müssen Sie die entsprechende Hardware und Software für alle beständigen Chat Server Komponenten bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="9439c-104">Before deploying Lync Server 2013, Persistent Chat Server, you need to deploy the appropriate hardware and software for all Persistent Chat Server components.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="9439c-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="9439c-105">In This Section</span></span>
+
+  - [<span data-ttu-id="9439c-106">Einrichten von Systemplattformen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9439c-106">Set up system platforms in Lync Server 2013</span></span>](lync-server-2013-set-up-system-platforms.md)
+
+  - [<span data-ttu-id="9439c-107">Installieren der erforderlichen Softwarekomponenten für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9439c-107">Install Lync Server 2013 prerequisite software</span></span>](lync-server-2013-install-lync-server-2013-prerequisite-software.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

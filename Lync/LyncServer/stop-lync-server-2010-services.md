@@ -1,49 +1,87 @@
-﻿---
-title: Beenden der Lync Server 2010-Dienste
-TOCTitle: Beenden der Lync Server 2010-Dienste
-ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721863(v=OCS.15)
-ms:contentKeyID: 49890907
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Beenden von lync Server 2010-Diensten
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Stop Lync Server 2010 services
+ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)
+ms:contentKeyID: 49733796
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9ffe7a6204154d5cf45a277ea2dddbdf2b8021f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846992"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Beenden der Lync Server 2010-Dienste
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+# <a name="stop-lync-server-2010-services"></a><span data-ttu-id="fb465-102">Beenden von lync Server 2010-Diensten</span><span class="sxs-lookup"><span data-stu-id="fb465-102">Stop Lync Server 2010 services</span></span>
 
-Sie können die Lync Server-Systemsteuerung dazu verwenden, alle Lync Server 2010-Dienste zu starten oder zu beenden, die auf einem bestimmten Computer ausgeführt werden, oder um einen bestimmten Lync Server 2010-Dienst zu starten oder zu beenden.
+</div>
 
-## So starten oder beenden Sie alle Lync Server-Dienste auf einem Computer
+<div id="mainSection">
 
-1.  Öffnen Sie die Lync Server-Systemsteuerung.
+<div id="mainBody">
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status** .
+<span> </span>
 
-3.  Sortieren oder durchsuchen Sie die Liste auf der Seite **Status** , und ermitteln Sie so den Computer, auf dem die Dienste ausgeführt werden, die Sie starten oder beenden möchten. Klicken Sie anschließend auf den Computer.
+<span data-ttu-id="fb465-103">_**Letztes Änderungsdatum des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="fb465-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-4.  Klicken Sie auf **Aktion** .
+<span data-ttu-id="fb465-104">Sie können die lync Server-Systemsteuerung verwenden, um alle lync Server 2010-Dienste zu starten oder zu beenden, die auf einem bestimmten Computer ausgeführt werden, oder um einen bestimmten lync Server 2010-Dienst zu starten oder zu beenden.</span><span class="sxs-lookup"><span data-stu-id="fb465-104">You can use Lync Server Control Panel to start or stop all the Lync Server 2010 services running on a specific computer or to start or stop a specific Lync Server 2010 service.</span></span>
 
-5.  Klicken Sie auf **Alle Dienste starten** bzw. auf **Alle Dienste beenden** .
+<div>
 
-## So starten oder beenden Sie einen bestimmten Dienst
+## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a><span data-ttu-id="fb465-105">So starten oder beenden Sie alle lync Server-Dienste auf einem Computer</span><span class="sxs-lookup"><span data-stu-id="fb465-105">To start or stop all Lync Server services on a computer</span></span>
 
-1.  Öffnen Sie die Lync Server-Systemsteuerung.
+1.  <span data-ttu-id="fb465-106">Öffnen Sie die Lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="fb465-106">Open Lync Server Control Panel.</span></span>
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status** .
+2.  <span data-ttu-id="fb465-107">Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.</span><span class="sxs-lookup"><span data-stu-id="fb465-107">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-3.  Sortieren oder durchsuchen Sie die Liste auf der Seite **Status** , um den Computer zu ermitteln, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten. Klicken Sie anschließend auf den Computer.
+3.  <span data-ttu-id="fb465-108">Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem die Dienste ausgeführt werden, die Sie starten oder beenden möchten, und klicken Sie darauf.</span><span class="sxs-lookup"><span data-stu-id="fb465-108">On the **Status** page, sort or search through the list as needed to find the computer that is running the services you want to start or stop, and then click it.</span></span>
 
-4.  Klicken Sie auf **Eigenschaften** .
+4.  <span data-ttu-id="fb465-109">Klicken Sie auf **Aktion**.</span><span class="sxs-lookup"><span data-stu-id="fb465-109">Click **Action**.</span></span>
 
-5.  Sortieren Sie ggf. die Liste der Dienste, und klicken Sie auf den Dienst, den Sie starten oder beenden möchten.
+5.  <span data-ttu-id="fb465-110">Klicken Sie auf **alle Dienste starten** oder **alle Dienste beenden**.</span><span class="sxs-lookup"><span data-stu-id="fb465-110">Click **Start All services** or **Stop All services**.</span></span>
 
-6.  Klicken Sie auf **Aktion** .
+</div>
 
-7.  Klicken Sie auf **Dienst starten** bzw. auf **Dienst beenden** .
+<div>
 
-8.  Klicken Sie auf **Schließen** .
+## <a name="to-start-or-stop-a-specific-service"></a><span data-ttu-id="fb465-111">So starten oder beenden Sie einen bestimmten Dienst</span><span class="sxs-lookup"><span data-stu-id="fb465-111">To start or stop a specific service</span></span>
+
+1.  <span data-ttu-id="fb465-112">Öffnen Sie die Lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="fb465-112">Open Lync Server Control Panel.</span></span>
+
+2.  <span data-ttu-id="fb465-113">Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.</span><span class="sxs-lookup"><span data-stu-id="fb465-113">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+
+3.  <span data-ttu-id="fb465-114">Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten, und klicken Sie darauf.</span><span class="sxs-lookup"><span data-stu-id="fb465-114">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
+
+4.  <span data-ttu-id="fb465-115">Klicken Sie auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="fb465-115">Click **Properties**.</span></span>
+
+5.  <span data-ttu-id="fb465-116">Sortieren Sie die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, den Sie starten oder beenden möchten.</span><span class="sxs-lookup"><span data-stu-id="fb465-116">Sort the list of services, if necessary, and click the service you want to start or stop.</span></span>
+
+6.  <span data-ttu-id="fb465-117">Klicken Sie auf **Aktion**.</span><span class="sxs-lookup"><span data-stu-id="fb465-117">Click **Action**.</span></span>
+
+7.  <span data-ttu-id="fb465-118">Klicken Sie auf **Dienst starten** oder **Dienst beenden**.</span><span class="sxs-lookup"><span data-stu-id="fb465-118">Click **Start service** or **Stop service**.</span></span>
+
+8.  <span data-ttu-id="fb465-119">Klicken Sie auf **Schließen**.</span><span class="sxs-lookup"><span data-stu-id="fb465-119">Click **Close**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

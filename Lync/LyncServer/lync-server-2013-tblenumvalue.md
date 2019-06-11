@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumValue'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumValue
 ms:assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615025(v=OCS.15)
-ms:contentKeyID: 49294962
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615025(v=OCS.15)
+ms:contentKeyID: 48185040
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1758daf16575491960415647e4c9bc4b43920d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847651"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumValue in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tblenumvalue-in-lync-server-2013"></a><span data-ttu-id="52f83-102">tblEnumValue in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52f83-102">tblEnumValue in Lync Server 2013</span></span>
 
-"tblEnumValue" ist eine hardkodierte Tabelle mit den Werten "Visibility" und "Behavior" der Attribute, die in der "Node"-Tabelle verwendet werden.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="52f83-103">_**Letztes Änderungsdatum des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="52f83-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+
+<span data-ttu-id="52f83-104">tblEnumValue ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltens Werte der Attribute enthält, die in der Knoten Tabelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="52f83-104">tblEnumValue is a hardcoded table that contains the Visibility and Behavior values of the attributes that are used in the Node table.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="52f83-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="52f83-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,32 +47,32 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Typ</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="52f83-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="52f83-106">Column</span></span></th>
+<th><span data-ttu-id="52f83-107">Typ</span><span class="sxs-lookup"><span data-stu-id="52f83-107">Type</span></span></th>
+<th><span data-ttu-id="52f83-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="52f83-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
-<td><p>smallint, nicht NULL</p></td>
-<td><p>ID des Werts.</p></td>
+<td><p><span data-ttu-id="52f83-109">Werttyp</span><span class="sxs-lookup"><span data-stu-id="52f83-109">valueID</span></span></p></td>
+<td><p><span data-ttu-id="52f83-110">smallint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="52f83-110">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="52f83-111">Die ID des Werts.</span><span class="sxs-lookup"><span data-stu-id="52f83-111">ID of the value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>attributeID</p></td>
-<td><p>smallint, nicht NULL</p></td>
-<td><p>ID des Attributs.</p></td>
+<td><p><span data-ttu-id="52f83-112">AttributeID</span><span class="sxs-lookup"><span data-stu-id="52f83-112">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="52f83-113">smallint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="52f83-113">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="52f83-114">Die ID des Attributs.</span><span class="sxs-lookup"><span data-stu-id="52f83-114">ID of the attribute.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>attributeValue</p></td>
-<td><p>nvarchar (256), nicht NULL</p></td>
-<td><p>Name des Werts.</p></td>
+<td><p><span data-ttu-id="52f83-115">AttributeValue</span><span class="sxs-lookup"><span data-stu-id="52f83-115">attributeValue</span></span></p></td>
+<td><p><span data-ttu-id="52f83-116">nvarchar (256); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="52f83-116">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="52f83-117">Der Name des Werts.</span><span class="sxs-lookup"><span data-stu-id="52f83-117">Name of the value.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schlüssel
+### <a name="keys"></a><span data-ttu-id="52f83-118">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="52f83-118">Keys</span></span>
 
 <table>
 <colgroup>
@@ -61,24 +81,24 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Spalte</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="52f83-119">Spalte</span><span class="sxs-lookup"><span data-stu-id="52f83-119">Column</span></span></th>
+<th><span data-ttu-id="52f83-120">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="52f83-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
-<td><p>Primärschlüssel</p></td>
+<td><p><span data-ttu-id="52f83-121">Werttyp</span><span class="sxs-lookup"><span data-stu-id="52f83-121">valueID</span></span></p></td>
+<td><p><span data-ttu-id="52f83-122">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="52f83-122">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>attributeID</p></td>
-<td><p>Fremdschlüssel mit Suche in der Tabelle &quot;tblEnumAttribute.attributeID&quot;.</p></td>
+<td><p><span data-ttu-id="52f83-123">AttributeID</span><span class="sxs-lookup"><span data-stu-id="52f83-123">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="52f83-124">Fremdschlüssel mit Lookup in der tblEnumAttribute. AttributeCollection-Tabelle.</span><span class="sxs-lookup"><span data-stu-id="52f83-124">Foreign key with lookup in tblEnumAttribute.attributeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tabellenwerte
+### <a name="table-values"></a><span data-ttu-id="52f83-125">Tabellenwerte</span><span class="sxs-lookup"><span data-stu-id="52f83-125">Table Values</span></span>
 
 <table>
 <colgroup>
@@ -88,44 +108,58 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>valueID</th>
-<th>attributeID</th>
-<th>attributeValue</th>
+<th><span data-ttu-id="52f83-126">Werttyp</span><span class="sxs-lookup"><span data-stu-id="52f83-126">valueID</span></span></th>
+<th><span data-ttu-id="52f83-127">AttributeID</span><span class="sxs-lookup"><span data-stu-id="52f83-127">attributeID</span></span></th>
+<th><span data-ttu-id="52f83-128">AttributeValue</span><span class="sxs-lookup"><span data-stu-id="52f83-128">attributeValue</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
-<td><p>privat</p></td>
+<td><p><span data-ttu-id="52f83-129">2</span><span class="sxs-lookup"><span data-stu-id="52f83-129">2</span></span></p></td>
+<td><p><span data-ttu-id="52f83-130">1</span><span class="sxs-lookup"><span data-stu-id="52f83-130">1</span></span></p></td>
+<td><p><span data-ttu-id="52f83-131">privat</span><span class="sxs-lookup"><span data-stu-id="52f83-131">private</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>1</p></td>
-<td><p>Bereich</p></td>
+<td><p><span data-ttu-id="52f83-132">3</span><span class="sxs-lookup"><span data-stu-id="52f83-132">3</span></span></p></td>
+<td><p><span data-ttu-id="52f83-133">1</span><span class="sxs-lookup"><span data-stu-id="52f83-133">1</span></span></p></td>
+<td><p><span data-ttu-id="52f83-134">Bereich</span><span class="sxs-lookup"><span data-stu-id="52f83-134">scope</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td><p>normal</p></td>
+<td><p><span data-ttu-id="52f83-135">4</span><span class="sxs-lookup"><span data-stu-id="52f83-135">4</span></span></p></td>
+<td><p><span data-ttu-id="52f83-136">2</span><span class="sxs-lookup"><span data-stu-id="52f83-136">2</span></span></p></td>
+<td><p><span data-ttu-id="52f83-137">normal</span><span class="sxs-lookup"><span data-stu-id="52f83-137">normal</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>2</p></td>
-<td><p>Auditorium</p></td>
+<td><p><span data-ttu-id="52f83-138">5</span><span class="sxs-lookup"><span data-stu-id="52f83-138">5</span></span></p></td>
+<td><p><span data-ttu-id="52f83-139">2</span><span class="sxs-lookup"><span data-stu-id="52f83-139">2</span></span></p></td>
+<td><p><span data-ttu-id="52f83-140">Auditorium</span><span class="sxs-lookup"><span data-stu-id="52f83-140">auditorium</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>1</p></td>
-<td><p>offen</p></td>
+<td><p><span data-ttu-id="52f83-141">6</span><span class="sxs-lookup"><span data-stu-id="52f83-141">6</span></span></p></td>
+<td><p><span data-ttu-id="52f83-142">1</span><span class="sxs-lookup"><span data-stu-id="52f83-142">1</span></span></p></td>
+<td><p><span data-ttu-id="52f83-143">Öffnen</span><span class="sxs-lookup"><span data-stu-id="52f83-143">open</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a><span data-ttu-id="52f83-144">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="52f83-144">See Also</span></span>
 
-[tblNode in Lync Server 2013](lync-server-2013-tblnode.md)
+
+[<span data-ttu-id="52f83-145">tblNode in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52f83-145">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
