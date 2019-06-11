@@ -1,31 +1,65 @@
-﻿---
-title: Konfigurationseinstellungen für Clientversionen
-TOCTitle: Konfigurationseinstellungen für Clientversionen
-ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ884154(v=OCS.15)
-ms:contentKeyID: 52056333
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurationseinstellungen für Client Versionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client version configuration settings
+ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ884154(v=OCS.15)
+ms:contentKeyID: 50553005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9f15162dea332662a9aad1f27f1865d49a6fda93
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839553"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurationseinstellungen für Clientversionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="client-version-configuration-settings-in-lync-server-2013"></a>Konfigurationseinstellungen für Client Versionen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-12-12_
 
-Konfigurationseinstellungen für Clientversionen werden verwendet, um die Versionskontrolle für Clients entweder global oder für bestimmte Standorte zu aktivieren oder zu deaktivieren. Verwenden Sie die folgenden Verfahren zum Konfigurieren von Konfigurationseinstellungen für Clientversionen für Lync Server 2013.
+Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites zu aktivieren oder zu deaktivieren. Führen Sie die folgenden Verfahren aus, um die Konfigurationseinstellungen für Clientversionen für lync Server 2013 zu konfigurieren.
 
-## In diesem Abschnitt
+<div>
 
-  - [Aktivieren oder Deaktivieren der Clientversionsverwaltung](lync-server-2013-enable-or-disable-client-versioning.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
+  - [Aktivieren oder Deaktivieren der Client Versionsverwaltung in lync Server 2013](lync-server-2013-enable-or-disable-client-versioning.md)
 
-  - [Ändern der Standardaktion für Clients, die nicht explizit unterstützt werden oder für die Einschränkungen gelten](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
+  - [Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
 
-  - [Anzeigen von Konfigurationseinstellungen für Clientversionen](lync-server-2013-view-client-version-configuration-settings.md)
+  - [Ändern der Standardaktion für Clients, die in lync Server 2013 nicht explizit unterstützt oder eingeschränkt werden](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
 
-  - [Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Clientversionen](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+  - [Anzeigen der Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-view-client-version-configuration-settings.md)
+
+  - [Löschen einer vorhandenen Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

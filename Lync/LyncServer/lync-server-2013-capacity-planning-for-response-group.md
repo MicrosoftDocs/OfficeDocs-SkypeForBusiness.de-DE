@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Kapazitätsplanung für Reaktionsgruppen'
-TOCTitle: Kapazitätsplanung für Reaktionsgruppen
-ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412754(v=OCS.15)
-ms:contentKeyID: 49294951
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kapazitätsplanung für Reaktionsgruppen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Response Group
+ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
+ms:contentKeyID: 48184951
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839671"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Kapazitätsplanung für Reaktionsgruppen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Kapazitätsplanung für Reaktionsgruppen in Lync Server 2013
 
-In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben, das Sie als Grundlage für die Anforderungen bei der Kapazitätsplanung verwenden können.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+
+<div id="sectionSection0" class="section">
+
+In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben, das Sie als Grundlage für die Kapazitäts Planungsanforderungen verwenden können.
+
+<div>
 
 
-> [!NOTE]
-> Bei den Zahlen in der folgenden Tabelle wird davon ausgegangen, dass Sie 16-kHz-, Mono-, 16-Bit-WAV-Dateien für alle Audiodateien für Reaktionsgruppen verwenden. Wenn Sie andere Dateiformate, z.&nbsp;B. Windows Media Audio (WMA), einsetzen, können die Zahlen abweichen.
+> [!NOTE]  
+> Bei den Zahlen in der folgenden Tabelle wird davon ausgegangen, dass Sie 16-kHz-, Mono-, 16-Bit-WAV-Dateien für alle Audiodateien für Reaktionsgruppen verwenden. Wenn Sie andere Dateiformate, z. B. Windows Media Audio (WMA), einsetzen, können die Zahlen abweichen.
 
 
 
+</div>
 
-> [!IMPORTANT]
+<div>
+
+
+> [!IMPORTANT]  
 > Bedenken Sie bei der Kapazitätsplanung für die Notfallwiederherstellung, dass jeder Pool eines Poolpaars in der Lage sein sollte, die Arbeitslasten für alle Reaktionsgruppen in beiden Pools zu verarbeiten.
 
 
 
-### Benutzermodell für Reaktionsgruppen
+</div>
+
+### <a name="response-group-user-model"></a>Benutzermodell für Reaktionsgruppen
 
 <table>
 <colgroup>
@@ -40,7 +70,7 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 <thead>
 <tr class="header">
 <th>Metrik</th>
-<th>Pro Enterprise Edition-Pool (mit 8 Front-End-Servern)</th>
+<th>Pro Enterprise Edition-Pool (mit 8 Front-End-Servern)</th>
 <th>Pro Standard Edition-Server</th>
 </tr>
 </thead>
@@ -56,12 +86,12 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gleichzeitige anonyme Sitzungen (ohne Instant Messaging)</p></td>
+<td><p>Gleichzeitige anonyme Sitzungen (ohne Chat)</p></td>
 <td><p>224</p></td>
 <td><p>28</p></td>
 </tr>
 <tr class="even">
-<td><p>Gleichzeitige anonyme Sitzungen (mit Instant Messaging)</p></td>
+<td><p>Gleichzeitige anonyme Sitzungen (mit Chat)</p></td>
 <td><p>64</p></td>
 <td><p>8</p></td>
 </tr>
@@ -82,4 +112,17 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

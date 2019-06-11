@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Conference-Tabelle'
-TOCTitle: Conference-Tabelle
-ms:assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425762(v=OCS.15)
-ms:contentKeyID: 49293501
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Conference-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conference table
+ms:assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425762(v=OCS.15)
+ms:contentKeyID: 48183700
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f57f7baf017507da44677cc475c99d192fe868f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839490"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conference-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="conference-table-in-lync-server-2013"></a>Conference-Tabelle in Lync Server 2013
 
-Bei der **Conference** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Konferenz oder Peer-zu-Peer-Sitzung.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die Konferenz Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für eine Konferenz oder eine Peer-to-Peer-Sitzung.
 
 
 <table>
@@ -30,7 +50,7 @@ Bei der **Conference** -Tabelle handelt es sich um eine Tabelle, auf die verwies
 <th><strong>Spalte</strong></th>
 <th><strong>Datentyp</strong></th>
 <th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -38,26 +58,37 @@ Bei der **Conference** -Tabelle handelt es sich um eine Tabelle, auf die verwies
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Zahl, die diesen Konferenzdatensatz identifiziert.</p></td>
+<td><p>Eindeutige Nummer, die diesen Konferenz Eintrag kennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfURI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Eindeutig</p></td>
-<td><p>Konferenz-URI bei einer Konferenz, DialogID bei einer Peer-zu-Peer-Sitzung.</p></td>
+<td><p>eindeutigen</p></td>
+<td><p>Konferenz-URI, wenn es sich um eine Konferenz handelt, oder wenn es sich um eine Peer-to-Peer-Sitzung handelt.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Checksum</strong></p></td>
+<td><p><strong>Prüfsumme</strong></p></td>
 <td><p>int</p></td>
-<td><p>index</p></td>
-<td><p>Prüfsumme der Konferenz-URI. Für interne Zwecke.</p></td>
+<td><p>Index</p></td>
+<td><p>Die Prüfsumme des Konferenz-URIs. Diese wird intern verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

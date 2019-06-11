@@ -1,48 +1,85 @@
-﻿---
-title: Hinzufügen und Aktivieren eines Benutzerkontos für Lync Server
-TOCTitle: Hinzufügen und Aktivieren eines Benutzerkontos für Lync Server
-ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520961(v=OCS.15)
-ms:contentKeyID: 49293382
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hinzufügen und Aktivieren des Benutzerkontos für lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add and enable user account for Lync Server
+ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
+ms:contentKeyID: 48183578
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc52e76d480e323669b88c1ee461eeccf9aef38
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839951"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hinzufügen und Aktivieren eines Benutzerkontos für Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-and-enable-user-account-for-lync-server-2013"></a>Hinzufügen und Aktivieren des Benutzerkontos für lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
-Nach dem Aktivieren eines Benutzerkontos in "Active Directory-Benutzer und -Computer" können Sie mithilfe der Lync Server-Systemsteuerung neue Lync Server 2013-Benutzerkonten erstellen und hinzufügen, indem Sie Lync Server einen Active Directory-Benutzer hinzufügen.
+Nachdem Sie ein Benutzerkonto in Active Directory-Benutzer und-Computer aktiviert haben, können Sie die lync Server-Systemsteuerung verwenden, um neue lync Server 2013-Benutzerkonten zu erstellen und zu aktivieren, indem Sie einen Active Directory-Benutzer zu lync Server hinzufügen.
 
-## So fügen Sie einen neuen Lync Server-Benutzer hinzu und aktivieren ihn
+<div>
+
+## <a name="to-add-and-enable-a-new-lync-server-user"></a>So fügen Sie einen neuen lync Server-Benutzer hinzu und aktivieren ihn
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Klicken Sie auf **Benutzer aktivieren**.
 
-5.  Klicken Sie im Dialogfeld **Neuer Lync Server-Benutzer** auf **Hinzufügen**.
+5.  Klicken Sie im Dialogfeld **neuer lync Server-Benutzer** auf **Hinzufügen**.
 
-6.  Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Namen, Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), Benutzerprinzipalnamen, die E-Mail-Adresse oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+6.  Geben Sie im Feld **Benutzer durchsuchen** den gesamten oder den ersten Teil des Namens, den Anzeigenamen, den Vornamen, den Nachnamen, den Kontonamen, die e-Mail-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein. , und klicken Sie dann auf **Suchen**.
 
-7.  Wählen Sie in der Tabelle das Konto aus, das Sie Lync Server hinzufügen möchten, und klicken Sie dann auf **OK**.
+7.  Wählen Sie in der Tabelle das Konto aus, das Sie zu lync Server hinzufügen möchten, und klicken Sie dann auf **OK**.
 
-8.  Weisen Sie den Benutzer einem Pool zu, geben Sie zusätzliche Informationen an, und weisen Sie dem gewünschten Benutzer die Richtlinien zu. Klicken Sie anschließend auf **Aktivieren**.
+8.  Weisen Sie den Benutzer einem Pool zu, geben Sie zusätzliche Details an, und weisen Sie die Richtlinien dem gewünschten Benutzer zu, und klicken Sie dann auf **aktivieren**.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[Entfernen eines Benutzerkontos aus Lync Server](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+## <a name="see-also"></a>Siehe auch
 
-#### Weitere Ressourcen
 
-[Aktivieren und Deaktivieren von Benutzern für Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+[Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[Entfernen eines Benutzerkontos aus lync Server 2013](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+
+
+[Aktivieren und Deaktivieren von Benutzern für lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,56 +1,63 @@
-﻿---
-title: Zuweisen einer Konferenzrichtlinie auf Benutzerebene
-TOCTitle: Zuweisen einer Konferenzrichtlinie auf Benutzerebene
-ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg521015(v=OCS.15)
-ms:contentKeyID: 49294390
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Zuweisen einer Konferenzrichtlinie auf Benutzerebene
+title: 'Lync Server 2013: Zuweisen einer konferenzrichtlinie für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user conferencing policy
+ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521015(v=OCS.15)
+ms:contentKeyID: 48184475
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9dbeb129ef58c6993d1cd919b03d7417d35b439a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839918"
+---
+# <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Zuweisen einer pro-Benutzer-konferenzrichtlinie in lync Server 2013
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Die Konferenzrichtlinie ist eine der Einstellungen für ein Benutzerkonto, die Sie in der Lync Server-Systemsteuerung konfigurieren können.
+Die konferenzrichtlinie ist eine der individuellen Einstellungen eines Benutzerkontos, das Sie in der lync Server-Systemsteuerung konfigurieren können.
 
-Die Bereitstellung einer oder mehrerer Konferenzrichtlinien auf Benutzerebene ist optional. Sie können stattdessen auch nur eine globale Konferenzrichtlinie oder eine Konferenzrichtlinie auf Standortebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. Wenn keine Richtlinie für den Standort oder einzelne Benutzer definiert wurde, werden automatisch die Konferenzbenutzerrechte und -berechtigungen in der globalen Konferenzrichtlinie verwendet.
+Die Bereitstellung einer oder mehrerer pro-Benutzer-Konferenzrichtlinien ist optional. Sie können auch nur eine konferenzrichtlinie auf globaler Ebene oder Konferenzrichtlinien auf Websiteebene bereitstellen. Wenn Sie Richtlinien für einzelne Benutzer bereitstellen, müssen Sie diese explizit Benutzern, Gruppen oder Kontaktobjekten zuweisen. Conferencing-Benutzerrechte und-Berechtigungen werden automatisch auf die in der konferenzrichtlinie auf globaler Ebene definierten Standardeinstellungen angewendet, wenn keine spezifische Richtlinie für Website-oder Benutzerberechtigungen zugewiesen ist.
 
-Nach Erstellung mindestens einer Konferenzrichtlinie auf Benutzerebene führen Sie die Schritte in diesem Thema aus, um die Richtlinie mit den Benutzerrechten und -berechtigungen zuzuweisen, die der Server den von einem bestimmten Benutzer organisierten Besprechungen erteilen soll.
+Nachdem Sie mindestens eine konferenzrichtlinie für einzelne Benutzer erstellt haben, verwenden Sie die Verfahren in diesem Thema, um die Richtlinie zuzuweisen, die die Benutzerrechte und-Berechtigungen angibt, die der Server den von einem bestimmten Benutzer organisierten Besprechungen erteilen soll.
 
-Eine Liste aller verfügbaren Konferenzrichtlinieneinstellungen finden Sie unter [Referenz zu den Konferenzrichtlinieneinstellungen](lync-server-2013-conferencing-policy-settings-reference.md).
+Eine Liste aller verfügbaren konferenzrichtlinieneinstellungen finden Sie unter [Konferenzrichtlinien Einstellungsreferenz für lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
-Ausführliche Informationen zum Erstellen von Konferenzrichtlinien finden Sie unter [Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+Details zum Erstellen von Konferenzrichtlinien finden Sie unter [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
-## So weisen Sie eine Konferenzrichtlinie auf Benutzerebene zu
+## <a name="to-assign-a-per-user-conferencing-policy"></a>So weisen Sie eine konferenzrichtlinie für einzelne Benutzer zu
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Verwenden Sie eine der folgenden Methoden, um nach einem Benutzer zu suchen:
     
-      - Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+      - Geben Sie im Feld **Benutzer suchen** den vollständigen oder teilweisen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein und klicken Sie dann auf **Suchen**.
     
       - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**, verwenden Sie das Dialogfeld **Öffnen**, um die Abfrage abzurufen (eine USF-Datei), und klicken Sie dann auf **Suchen**.
 
-5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:
+5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse einzuschränken:
     
     1.  Klicken Sie auf **Filter hinzufügen**.
     
-    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
+    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie über die Tastatur eintippen oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
     
     3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (beispielsweise **Gleich** oder **Ungleich**).
     
-    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
+    4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -59,61 +66,59 @@ Ausführliche Informationen zum Erstellen von Konferenzrichtlinien finden Sie un
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!TIP]
-    > Wenn Sie dieselbe Benutzerkonferenzrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
+    > [!TIP]  
+    > Wenn dieselbe konferenzrichtlinie für einzelne Benutzer für mehrere Benutzer gelten soll, wählen Sie in den Suchergebnissen mehrere Benutzer aus, klicken Sie dann auf <STRONG>Aktionen</STRONG>, und klicken Sie dann auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
 
-7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Konferenzrichtlinie** eine der folgenden Aktionen aus:
+7.  Führen Sie in **Richtlinien zuweisen**unter **konferenzrichtlinie**eine der folgenden Aktionen aus:
     
 
-    > [!NOTE]
-    > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > [!NOTE]  
+    > Da es mehrere Richtlinien gibt, die Sie unter <STRONG>Zuweisen von Richtlinien</STRONG>konfigurieren können, <STRONG> &lt;&gt; </STRONG> ist für jede Richtlinie im Dialogfeld standardmäßig beibehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Wählen Sie **\<Automatisch\>**, um eine automatische Auswahl der globalen Richtlinie oder, falls definiert, der Richtlinie auf Standortebene durch Lync Server 2013 zuzulassen.
+      - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Websiteebene auswählen kann.
     
-      - Klicken Sie auf der Seite **Konferenzrichtlinie** auf den Namen einer Konferenzrichtlinie auf Benutzerebene, die Sie zuvor definiert haben.
+      - Klicken Sie auf den Namen einer benutzerdefinierten konferenzrichtlinie, die Sie zuvor auf der Seite **konferenzrichtlinie** definiert haben.
         
 
-        > [!TIP]
+        > [!TIP]  
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## Zuweisen einer Konferenzrichtlinie auf Benutzerebene mithilfe der Lync Server PowerShell-Cmdlets
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer konferenzrichtlinie für einzelne Benutzer mithilfe von Windows PowerShell-Cmdlets
 
-Konferenzrichtlinien auf Benutzerebene können außerdem über die Lync Server PowerShell und das Grant-CsConferencingPolicy-Cmdlet zugewiesen werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Benutzerspezifische Konferenzrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsConferencingPolicy zugewiesen werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-## Zuweisen einer Konferenzrichtlinie auf Benutzerebene für einen einzelnen Benutzer
+## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine konferenzrichtlinie für einzelne Benutzer zu
 
-  - Der folgende Befehl weist dem Benutzer Ken Myer die Konferenzrichtlinie „RedmondConferencingPolicy“ auf Benutzerebene zu.
+  - Mit dem folgenden Befehl wird die benutzerspezifische Konferenzrichtlinien-RedmondConferencingPolicy dem Benutzer Ken Myers zugewiesen.
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName "RedmondConferencingPolicy"
 
-## Zuweisen einer Konferenzrichtlinie auf Benutzerebene für verschiedene Benutzer
+## <a name="to-assign-a-per-user-conferencing-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine konferenzrichtlinie für einzelne Benutzer zu
 
-  - Dieser Befehl weist die Konferenzrichtlinie „HRConferencingPolicy“ auf Benutzerebene allen Benutzern zu, die in der Personalabteilung tätig sind. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
+  - Dieser Befehl weist allen Benutzern, die für die Personalabteilung arbeiten, die Richtlinien für die benutzerspezifische Konferenz HRConferencingPolicy zu. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das Cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
-## Aufheben der Zuweisung einer Konferenzrichtlinie auf Benutzerebene
+## <a name="to-unassign-a-per-user-conferencing-policy"></a>So heben Sie die Zuweisung einer konferenzrichtlinie für einzelne Benutzer auf
 
-  - Mit dem folgenden Befehl wird die Zuweisung sämtlicher Konferenzrichtlinien, die dem Benutzer Ken Myer zuvor zugeordnet wurden, aufgehoben. Nach der Aufhebung der Konferenzrichtlinie auf Benutzerebene wird Ken Myer automatisch unter Verwendung der globalen Richtlinie bzw. (sofern vorhanden) von der Richtlinie seines lokalen Standorts verwaltet. Die Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
+  - Mit dem folgenden Befehl werden alle benutzerbezogenen Konferenzrichtlinien, die Ken Myers zuvor zugewiesen wurden, aufheben. Anschließend wird Ken Myer automatisch mithilfe der globalen Richtlinie oder, soweit vorhanden, mit seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema zum [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) .
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
-#### Aufgaben
 
-[Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
+[Erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
 
-#### Weitere Ressourcen
 
-[Zuweisen von Richtlinien auf Benutzerebene](lync-server-2013-assigning-per-user-policies.md)
+[Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 

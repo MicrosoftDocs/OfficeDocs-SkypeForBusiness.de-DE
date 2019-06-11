@@ -1,93 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Anhang B: Verwalten einer Survivable Branch Appliance'
-TOCTitle: 'Anhang B: Verwalten einer Survivable Branch Appliance'
-ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425797(v=OCS.15)
-ms:contentKeyID: 49293561
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anhang B: Verwalten einer Survivable Branch Appliance'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
+ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
+ms:contentKeyID: 48183773
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e267f81327e9d1f49b81ab0d999c37c02da55b31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840033"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anhang B: Verwalten einer Survivable Branch Appliance in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>Anhang B: Verwalten einer Survivable Branch Appliance in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-18_
 
-In diesem Thema werden die Verfahren zum Verwalten einer Survivable Branch-Anwendung beschrieben. Insbesondere wird erläutert, wie Sie eine Survivable Branch-Anwendung ersetzen und umbenennen und wie Sie den Lync Server 2013-Front-End-Pool ändern, dem die Survivable Branch-Anwendung zugeordnet ist.
+In diesem Thema werden die Verfahren zum Verwalten einer Survivable Branch-Appliance beschrieben. Insbesondere wird beschrieben, wie eine überlebensfähige Branch Appliance ersetzt und umbenannt wird und wie der lync Server 2013-Front-End-Pool geändert wird, dem die Survivable Branch-Appliance zugeordnet ist.
 
-## So ersetzen Sie eine Survivable Branch Appliance
+<div>
 
-1.  Beenden Sie alle Lync Server 2013-Dienste auf der Survivable Branch-Anwendung. (Weitere Informationen finden Sie in der Herstellerdokumentation zur Survivable Branch-Anwendung.)
+## <a name="to-replace-a-survivable-branch-appliance"></a>So ersetzen Sie eine Survivable Branch-Appliance
 
-2.  (Empfohlen) Entfernen Sie die Survivable Branch-Anwendung aus der Domäne.
+1.  Beenden Sie alle lync Server 2013-Dienste auf der Survivable Branch-Appliance. (Weitere Informationen finden Sie in der Vendor-Dokumentation für Survivable Branch Appliances.)
 
-3.  Löschen Sie das Survivable Branch-Anwendung-Computerobjekt in Active Directory-Domänendienste, indem Sie die folgenden Schritte ausführen:
+2.  Empfohlen Entfernen Sie die Survivable Branch-Appliance aus der Domäne.
+
+3.  Führen Sie die folgenden Schritte aus, um das Computerobjekt Survivable Branch Appliance in den Active Directory-Domänendiensten zu löschen:
     
-      - Melden Sie sich bei einem Mitgliedsserver als Mitglied der Gruppe "Organisations-Admins" an.
+      - Melden Sie sich bei einem Mitgliedsserver als Mitglied der Gruppe "Unternehmensadministratoren" an.
     
-      - Klicken Sie nacheinander auf **Start** , **Verwaltungstools** und dann auf **Active Directory-Benutzer und -Computer** .
+      - Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Active Directory-Benutzer und-Computer**.
     
-      - Klicken Sie mit der rechten Maustaste auf das Survivable Branch-Anwendung-Objekt, und klicken Sie auf **Löschen** .
+      - Klicken Sie mit der rechten Maustaste auf das Survivable Branch Appliance-Objekt, und klicken Sie auf **Löschen**.
 
-4.  Fügen Sie das Survivable Branch-Anwendung-Computerobjekt erneut hinzu. (Siehe [Hinzufügen einer Survivable Branch Appliance zu Active Directory in Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md).)
+4.  Fügen Sie das Computerobjekt der Survivable Branch Appliance erneut hinzu. (Weitere Informationen finden Sie unter [Hinzufügen einer Survivable Branch-Appliance zu Active Directory in lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md).)
 
-5.  Warten Sie die Active Directory-Replikation ab.
+5.  Warten Sie, bis die Active Directory-Replikation durchgeführt wird.
 
-6.  Öffnen Sie die Lync Server-Verwaltungsshell, und geben Sie **Enable-CSTopology** ein.
+6.  Öffnen Sie die lync Server-Verwaltungsshell, und geben Sie **enable-CSTopology**ein.
 
-7.  Verbinden Sie die neue Survivable Branch-Anwendung mit dem Netzwerk, und führen Sie die Schritte unter [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am zentralen Standort](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) und [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am Zweigstellenstandort](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md) aus.
+7.  Verbinden Sie die neue überlebensfähige Branch-Appliance mit dem Netzwerk, und führen Sie die Schritte unter [Bereitstelleneiner überlebensfähigen Branch-Appliance oder eines Servers mit lync Server 2013-zentralen Websiteaufgaben](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) aus, und [Stellen Sie eine Survivable Branch-Appliance oder einen Server mit lync Server 2013- Verzweigungs Website-Aufgabe](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-## So benennen Sie eine Survivable Branch Appliance um
+</div>
 
-1.  Verschieben Sie die Benutzer an den zentralen Standort. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Beenden Sie alle Lync Server 2013-Dienste auf der Survivable Branch-Anwendung. (Weitere Informationen finden Sie in der Herstellerdokumentation zur Survivable Branch-Anwendung.)
+## <a name="to-rename-a-survivable-branch-appliance"></a>So benennen Sie eine Survivable Branch-Appliance um
 
-3.  Entfernen Sie die Survivable Branch-Anwendung aus der Topologie, indem Sie die folgenden Schritte ausführen:
+1.  Verschieben von Benutzern auf die zentrale Website Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool in lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Beenden Sie alle lync Server 2013-Dienste auf der Survivable Branch-Appliance. (Weitere Informationen finden Sie in der Vendor-Dokumentation für Survivable Branch Appliances.)
+
+3.  Führen Sie die folgenden Schritte aus, um die Survivable Branch-Appliance aus der Topologie zu entfernen:
     
-      - Klicken Sie auf **Start** , **Alle Programme** , **Microsoft Lync Server** und anschließend auf **Lync Server-Topologie-Generator** .
+      - Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server**, und klicken Sie dann auf **lync Server Topology Builder**.
     
-      - Erweitern Sie in der Konsolenstruktur den Knoten **Zweigniederlassungen** , klicken Sie auf die Survivable Branch-Anwendung, und klicken Sie anschließend im Aktionsbereich auf **Löschen** .
+      - Erweitern Sie in der Konsolenstruktur **Verzweigungs Websites**, klicken Sie auf die Survivable Branch-Appliance, und klicken Sie dann im Bereich "Aktion" auf **Löschen** .
 
-4.  Entfernen Sie die Survivable Branch-Anwendung aus der Domäne.
+4.  Entfernen Sie die Survivable Branch-Appliance aus der Domäne.
 
-5.  Löschen Sie das Survivable Branch-Anwendung-Computerobjekt in Active Directory, indem Sie die folgenden Schritte ausführen:
+5.  Führen Sie die folgenden Schritte aus, um das Computerobjekt Survivable Branch Appliance in Active Directory zu löschen:
     
-      - Melden Sie sich bei einem Domänencontroller als Mitglied der Gruppe "Organisations-Admins" an.
+      - Melden Sie sich bei einem Domänencontroller als Mitglied der Gruppe "Unternehmensadministratoren" an.
     
-      - Klicken Sie nacheinander auf **Start** , **Verwaltungstools** und dann auf **Active Directory-Benutzer und -Computer** .
+      - Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Active Directory-Benutzer und-Computer**.
     
-      - Klicken Sie mit der rechten Maustaste auf das Survivable Branch-Anwendung-Objekt, und klicken Sie auf **Löschen** .
+      - Klicken Sie mit der rechten Maustaste auf das Survivable Branch Appliance-Objekt, und klicken Sie auf **Löschen**.
 
-6.  Setzen Sie die Survivable Branch-Anwendung auf die Werkseinstellungen zurück. (Informationen hierzu finden Sie in der Herstellerdokumentation zur Survivable Branch Appliance.)
+6.  Wiederherstellen der Überlebenden Branch-Appliance auf die Werkseinstellungen (Weitere Informationen finden Sie in der Vendor-Dokumentation für Survivable Branch Appliances.)
 
-7.  Führen Sie die Schritte unter [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am zentralen Standort](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) und [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am Zweigstellenstandort](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md) aus.
+7.  Führen Sie die Schritte unter [Bereitstelleneiner überlebensfähigen Zweigstelle oder eines Servers mit lync Server 2013 – zentrale Websiteaufgaben](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) aus, und [Stellen Sie eine Survivable Branch Appliance oder einen Server mit lync Server 2013-Branch Site Task bereit](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-8.  Verschieben Sie die Benutzer auf die umbenannte Survivable Branch-Anwendung. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool](lync-server-2013-move-users-to-another-pool.md).
+8.  Verschieben Sie Benutzer in die umbenannte Survivable Branch Appliance. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool in lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
 
-## So ändern Sie den der Survivable Branch Appliance zugeordneten Lync Server-Front-End-Pool
+</div>
 
-1.  Verschieben Sie die Benutzer von der Survivable Branch-Anwendung in den Lync Server-Front-End-Pool am zentralen Standort. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Beenden Sie alle Lync Server-Dienste auf der Survivable Branch-Anwendung. (Weitere Informationen finden Sie in der Herstellerdokumentation zur Survivable Branch-Anwendung.)
+## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>So ändern Sie den lync Server-Front-End-Pool, dem die Survivable Branch-Appliance zugeordnet ist
 
-3.  Aktualisieren Sie den der Survivable Branch-Anwendung zugeordneten Lync Server-Front-End-Pool, indem Sie die folgenden Schritte ausführen:
+1.  Verschieben Sie Benutzer aus der Survivable Branch-Appliance in den lync Server-Front-End-Pool am zentralen Standort. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern in einen anderen Pool in lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Beenden Sie alle lync Server-Dienste auf der Survivable Branch-Appliance. (Weitere Informationen finden Sie in der Dokumentation zum Survivable Branch Appliance-Hersteller).
+
+3.  Führen Sie die folgenden Schritte aus, um den lync Server-Front-End-Pool zu aktualisieren, dem die Survivable Branch-Appliance zugeordnet ist:
     
-      - Klicken Sie auf **Start** , **Alle Programme** , **Microsoft Lync Server** und anschließend auf **Lync Server-Topologie-Generator** .
+      - Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server**, und klicken Sie dann auf **lync Server Topology Builder**.
     
-      - Erweitern Sie **Zweigniederlassungen** .
+      - Erweitern Sie **Zweigstellen**.
     
-      - Klicken Sie mit der rechten Maustaste auf das zu ändernde Survivable Branch-Anwendung-Objekt, und klicken Sie dann auf **Eigenschaften bearbeiten** .
+      - Klicken Sie mit der rechten Maustaste auf das zu ändernde Survivable Branch Appliance-Objekt, und klicken Sie auf **Eigenschaften bearbeiten** .
     
-      - Wählen Sie unter **Flexibilität** den neuen Front-End-Pool aus, dem die Survivable Branch-Anwendung zugeordnet werden soll, und klicken Sie dann auf **Weiter** .
+      - Wählen Sie unter Widerstandsfähigkeit den neuen Front-End-Pool aus, dem die Survivable Branch-Appliance zugeordnet werden soll, und klicken Sie dann auf **weiter**.
     
-      - Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf die neue Survivable Branch-Anwendung, klicken Sie auf **Topologie** und anschließend auf **Veröffentlichen** .
+      - Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf die neue Survivable Branch-Appliance, klicken Sie auf **Topologie**, und klicken Sie dann auf **veröffentlichen**.
 
-4.  Starten Sie alle Lync Server-Dienste auf der Survivable Branch-Anwendung neu.
+4.  Starten Sie alle lync Server-Dienste auf der Survivable Branch-Appliance neu.
 
-5.  Testen Sie die Survivable Branch-Anwendung. Ausführliche Informationen finden Sie unter [Verwalten von Benutzern in einer Survivable Branch Appliance oder auf einem Survivable Branch Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+5.  Testen Sie die Survivable Branch-Appliance. Ausführliche Informationen finden Sie unter [private Benutzer auf einer Survivable Branch-Appliance oder einem Server in lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 
-6.  Verschieben Sie die Benutzer vom Lync Server-Front-End-Pool am zentralen Standort auf die Survivable Branch-Anwendung.
+6.  Verschieben Sie Benutzer aus dem lync Server-Front-End-Pool am zentralen Standort in die Survivable Branch-Appliance.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,71 @@
-﻿---
-title: A/V-Edgeserver in Lync Server 2013
-TOCTitle: A/V-Edgeserver in Lync Server 2013
-ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721852(v=OCS.15)
-ms:contentKeyID: 49890892
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Audio/Video (A/V)-Edgeserver'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Audio/Video (A/V) Edge Servers
+ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721852(v=OCS.15)
+ms:contentKeyID: 49733785
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce9738dbb11ce731ac832a5529d2013f3f9b2907
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839905"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# A/V-Edgeserver in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>Audio/Video-Edgeserver (A/V) in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Der A/V-Edgeserverdienst bietet eine Möglichkeit für Ihre internen Benutzer (in Ihrem Organisationsnetzwerk angemeldete Benutzer), Audio- und Videodateien für externe Benutzer (nicht in Ihrem Organisationsnetzwerk angemeldete Benutzer) freizugeben. Zusätzlich zu Audio und Video bietet der A/V-Edgedienst beispielsweise Unterstützung für die Desktopfreigabe und die Dateiübertragung.
+Der a/V-Edgedienst bietet internen Benutzern (Benutzern, die bei Ihrem Unternehmensnetzwerk angemeldet sind) die Möglichkeit, Audio und Video für externe Benutzer freizugeben (Benutzer, die nicht bei Ihrem Organisationsnetzwerk angemeldet sind). Neben Audio und Video bietet der A/V-Edgedienst auch Unterstützung für die Desktopfreigabe und Dateiübertragung.
 
-Der A/V-Edgeserverdienst wird primär durch die Verwendung der A/V-Edge-Konfiguration verwaltet. Mit diesen Einstellungen können Sie die maximale zuzuweisende Bandbreite pro Port und Benutzer verwalten und den Zeitraum definieren, in dem das Authentifizierungstoken verwendet werden kann, bevor es erneuert werden muss. A/V-Edge-Konfigurationseinstellungen können auf Standorte oder einzelne A/V-Edgeserver angewendet werden. Verwenden Sie beim Bestimmen der zu bevorzugenden Einstellungsauflistung die folgende Anleitung:
+Der a/v-Edgedienst wird hauptsächlich mithilfe der a/v-Edge-Konfiguration verwaltet. Mithilfe dieser Einstellungen können Sie die maximale Bandbreite verwalten, die pro Port und pro Benutzer zugewiesen werden soll, und angeben, wie lange ein Authentifizierungstoken verwendet werden kann, bevor dieses Token erneuert werden muss. A/v-Edge-Konfigurationseinstellungen können auf Websites oder auf einzelne a/v-Edgeserver angewendet werden. Verwenden Sie die folgende Anleitung, um zu ermitteln, welche Sammlung von Einstellungen Vorrang hat:
 
-  - Auf Dienstebene konfigurierte Einstellungen (d. h. auf einem einzelnen Server) haben die höchste Priorität.
+  - Im Dienstbereich konfigurierte Einstellungen (also auf einem einzelnen Server) haben Vorrang vor allem.
 
-  - Auf Standortebene zugewiesene Einstellungen haben Vorrang vor den global zugewiesenen Einstellungen. Auf Dienstebene vorgenommene Einstellungen ersetzen jedoch ebenfalls auf Standortebene vorgenommene Einstellungen.
+  - Die für den Website Bereich konfigurierten Einstellungen haben Vorrang vor den im globalen Bereich konfigurierten Einstellungen. Dienstbereichs Einstellungen ersetzen jedoch auch die Einstellungen für den Website Bereich.
 
-  - Einstellungen auf globaler Ebene werden nur verwendet, wenn auf dem einzelnen Server keine auf Dienstebene vorgenommenen Einstellungen konfiguriert wurden und wenn keine auf Standortebene vorgenommenen Einstellungen für den Standort, wo sich der Server befindet, vorliegen.
+  - Einstellungen im globalen Bereich werden nur verwendet, wenn auf dem einzelnen Server keine Diensteinstellungen konfiguriert sind und keine Websiteeinstellungen für die Website vorhanden sind, auf der sich der Server befindet.
 
-Der A/V-Edgedienst kann nur mithilfe der Lync Server-PowerShell und der Cmdlets "CsAVEdgeConfiguration" verwaltet werden.
+Der A/V-Edgedienst kann nur mithilfe der lync Server PowerShell und der CsAVEdgeConfiguration-Cmdlets verwaltet werden.
 
-## In diesem Abschnitt
+<div>
 
-  - [Zurückgeben von Konfigurationsinformationen für den A/V-Edgeserver](lync-server-2013-return-a-v-edge-server-configuration-information.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für A/V-Edgeserver](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Zurückgeben von A/V-Edgeserver-Konfigurationsinformationen in lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)
 
-  - [Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für A/V-Edgeserver](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Erstellen oder Ändern einer Sammlung von a/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+
+  - [Löschen einer vorhandenen Sammlung von A/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

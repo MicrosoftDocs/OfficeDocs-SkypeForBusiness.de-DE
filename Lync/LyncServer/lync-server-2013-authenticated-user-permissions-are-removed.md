@@ -1,59 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Entfernte Berechtigungen für authentifizierte Benutzer'
-TOCTitle: Entfernte Berechtigungen für authentifizierte Benutzer
-ms:assetid: 5fcd70a5-813a-4076-9bb6-5b0d47505038
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398425(v=OCS.15)
-ms:contentKeyID: 49294158
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Entfernte Berechtigungen für authentifizierte Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Authenticated user permissions are removed
+ms:assetid: 5fcd70a5-813a-4076-9bb6-5b0d47505038
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398425(v=OCS.15)
+ms:contentKeyID: 48184304
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d5e14b8129f771093ed9facb09d047ac7c36d32
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839900"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entfernte Berechtigungen für authentifizierte Benutzer in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Entfernte Berechtigungen für authentifizierte Benutzer in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-In einer gesperrten Active Directory-Umgebung werden die Zugriffssteuerungseinträge (ACEs) authentifizierter Benutzer in den Active Directory-Standardcontainern (inklusive dem Benutzer-, Konfigurations- oder Systemcontainer) und den Organisationseinheiten entfernt, in denen Benutzer- und Computerobjekte gespeichert sind. Das Entfernen der Zugriffssteuerungseinträge authentifizierter Benutzer verhindert den Lesezugriff auf Active Directory-Informationen. Das Entfernen dieser Einträge verursacht jedoch Probleme in Lync Server 2013, da die Anwendung Leseberechtigungen für diese Container benötigt, damit seine Benutzer Domänenvorbereitung ausführen können.
+In einer gesperrten Active Directory-Umgebung werden authentifizierte Benutzerzugriffs Steuerungs Einträge (ACEs) aus den standardmäßigen Active Directory-Containern, einschließlich der Benutzer, der Konfiguration oder des Systems, und der Organisationseinheiten entfernt, in denen Benutzer und Computer Objekte werden gespeichert. Durch das Entfernen von authentifizierten Benutzer-ACEs wird der Lesezugriff auf Active Directory-Informationen verhindert. Das Entfernen der ACEs führt jedoch zu Problemen bei lync Server 2013, da diese von Leseberechtigungen für diese Container abhängen, damit Benutzer die Domänenvorbereitung ausführen können.
 
-In dieser Situation wird durch die Mitgliedschaft in der Gruppe "Domänen-Admins", die für das Ausführen der Domänenvorbereitung, die Serveraktivierung und das Erstellen von Pools erforderlich ist, kein Lesezugriff mehr auf die Active Directory-Informationen gewährt, die in den Standardcontainern gespeichert sind. Diese Lesezugriffsberechtigungen für verschiedene Container in der Gesamtstruktur-Stammdomäne müssen manuell gewährt werden, damit das erforderliche Verfahren zur Gesamtstrukturvorbereitung abgeschlossen werden kann.
+In diesem Fall gewährt die Mitgliedschaft in der Gruppe der Domänenadministratoren, die für die Ausführung der Domänenvorbereitung, Serveraktivierung und Poolerstellung erforderlich ist, keinen Lesezugriff mehr auf Active Directory-Informationen, die in den Standardcontainern gespeichert sind. Sie müssen manuell Lesezugriffsberechtigungen für verschiedene Container in der Stammdomäne der Gesamtstruktur erteilen, um zu überprüfen, ob die Vorbereitungs Prozedur für die erforderliche Gesamtstruktur abgeschlossen ist.
 
-Wenn Sie Benutzern das Ausführen von Domänenvorbereitung und Serveraktivierung und das Erstellen von Pools für Stammdomänen ermöglichen, die sich nicht in einer Gesamtstruktur befinden, können Sie folgende Schritte ausführen:
+Damit ein Benutzerdomänen Vorbereitung, Serveraktivierung oder Poolerstellung für eine beliebige Stammdomäne ohne Gesamtstruktur ausführen kann, haben Sie die folgenden Optionen:
 
-  - Verwenden Sie ein Konto, das Mitglied der Gruppe "Organisations-Admins" ist, um die Domänenvorbereitung auszuführen.
+  - Verwenden Sie ein Konto, das ein Mitglied der Gruppe "Organisations-Admins" ist, um die Domänenvorbereitung auszuführen.
 
-  - Verwenden Sie ein Konto, das Mitglied der Gruppe "Domänen-Admins" ist, und gewähren Sie diesem Konto Lesezugriffsberechtigungen für jeden der folgenden Container in der Gesamtstruktur-Stammdomäne:
+  - Verwenden Sie ein Konto, das ein Mitglied der Gruppe der Domänenadministratoren ist, und weisen Sie diesem Konto Lesezugriffsberechtigungen für jeden der folgenden Container in der Gesamtstruktur-Stammdomäne zu:
     
       - Domäne
     
       - Konfiguration oder System
 
-Wenn Sie kein Konto verwenden möchten, das Mitglied der Gruppe "Organisations-Admins" ist, um die Domänenvorbereitung oder andere Setupaufgaben durchzuführen, gewähren Sie dem Konto, das Sie verwenden möchten, explizit Lesezugriff auf die relevanten Container im Gesamtstrukturstamm.
+Wenn Sie kein Konto verwenden möchten, das ein Mitglied der Gruppe "Organisations-Admins" ist, um die Domänenvorbereitung oder andere Setup Aufgaben auszuführen, geben Sie dem Konto, für das Sie Lesezugriff verwenden möchten, explizit die entsprechenden Container im Gesamtstrukturstamm.
 
-## So gewähren Sie Benutzern Lesezugriffsberechtigungen für Container in der Gesamtstruktur-Stammdomäne
+<div>
 
-1.  Melden Sie sich an dem Computer, der Mitglied der Gesamtstruktur-Stammdomäne ist, mit einem Konto an, das Mitglied der Gruppe "Domänen-Admins" für die Gesamtstruktur-Stammdomäne ist.
+## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a>So erteilen Sie Benutzern Lesezugriffsberechtigungen für Container in der Stammdomäne der Gesamtstruktur
 
-2.  Führen Sie "adsiedit.msc" für die Gesamtstruktur-Stammdomäne aus.
+1.  Melden Sie sich bei dem Computer an, der der Gesamtstruktur-Stammdomäne mit einem Konto zugeordnet ist, das ein Mitglied der Gruppe "Domänen-Admins" für die Gesamtstruktur-Stammdomäne ist.
+
+2.  Führen Sie adsiedit. msc für die Gesamtstruktur-Stammdomäne aus.
     
-    Wenn die Zugriffssteuerungseinträge authentifizierter Benutzer aus dem Domänen-, Konfigurations- oder Systemcontainer entfernt wurden, müssen Sie für den Container Leseberechtigungen gewähren. Dies ist in den folgenden Schritten beschrieben.
+    Wenn authentifizierte Benutzer-ACEs aus dem Domänen-, Konfigurations-oder System Container entfernt wurden, müssen Sie dem Container schreibgeschützte Berechtigungen erteilen, wie in den folgenden Schritten beschrieben.
 
-3.  Klicken Sie mit der rechten Maustaste auf den Container, und klicken Sie auf **Eigenschaften** .
+3.  Klicken Sie mit der rechten Maustaste auf den Container, und klicken Sie dann auf **Eigenschaften**.
 
 4.  Klicken Sie auf die Registerkarte **Sicherheit** .
 
-5.  Klicken Sie auf **Erweitert** .
+5.  Klicken Sie auf **Erweitert**.
 
-6.  Klicken Sie auf der Registerkarte **Berechtigungen** auf **Hinzufügen** .
+6.  Klicken Sie auf der Registerkarte **Berechtigungen** auf **Hinzufügen**.
 
-7.  Geben Sie den Namen des Benutzers bzw. der Gruppe, dem bzw. der die Berechtigungen zugewiesen werden sollen, im Format `domain\account name` ein, und klicken Sie dann auf **OK** .
+7.  Geben Sie den Namen des Benutzers oder der Gruppe ein, der Berechtigungen erhält, indem `domain\account name`Sie folgendes Format verwenden:, und klicken Sie dann auf **OK**.
 
-8.  Klicken Sie auf der Registerkarte **Objekte** unter **Übernehmen für** auf **Nur dieses Objekt** .
+8.  Klicken Sie auf der Registerkarte **Objekte** unter **gilt für**auf **nur dieses Objekt**.
 
-9.  Aktivieren Sie unter **Berechtigungen** die folgenden Zugriffssteuerungseinträge, indem Sie in die Spalte **Zulassen** klicken: **Inhalt auflisten** , **Alle Eigenschaften lesen** und **Berechtigungen lesen** .
+9.  Wählen Sie unter **Berechtigungen**die folgenden ACEs zulassen aus, indem Sie auf die Spalte **zulassen** klicken: **Inhalt**auflisten, **alle Eigenschaften lesen**und **Berechtigungen Lesen**.
 
 10. Klicken Sie zweimal auf **OK** .
 
-11. Wiederholen Sie diese Schritte für alle in Schritt 2 aufgelisteten relevanten Container.
+11. Wiederholen Sie diese Schritte für alle relevanten Container, die in Schritt 2 aufgeführt sind.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

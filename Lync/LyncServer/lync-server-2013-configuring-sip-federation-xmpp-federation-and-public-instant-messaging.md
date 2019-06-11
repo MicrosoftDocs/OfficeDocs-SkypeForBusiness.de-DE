@@ -1,57 +1,86 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat'
-TOCTitle: Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat
-ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205134(v=OCS.15)
-ms:contentKeyID: 49294999
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
+ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)
+ms:contentKeyID: 48184998
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f82e154347c0a77dd4367678fefd518b1abf2fc7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839180"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat in Lync Server 2013
 
-Mithilfe von Verbünden, Verbindungen mit öffentlichen Instant Messaging-Diensten und XMPP (Extensible Messaging and Presence Protocol) wird eine andere Klasse externer Benutzer definiert - Verbundbenutzer. Die Benutzer einer Lync Server-Verbundbereitstellung oder einer XMPP-Bereitstellung haben Zugriff auf beschränkte Dienste und werden durch die externe Bereitstellung authentifiziert. Remotebenutzer sind Mitglieder Ihrer Lync Server-Bereitstellung, und sie haben Zugriff auf alle Dienste, die durch die Bereitstellung angeboten werden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+
+Föderation, öffentliche Instant Messaging-Konnektivität und XMPP (Extensible Messaging and Presence Protocol) definieren eine andere Klasse externer Benutzer – Föderationsbenutzer. Benutzer einer Föderations-lync Server-Bereitstellung oder XMPP-Bereitstellung haben Zugriff auf eine begrenzte Anzahl von Diensten und werden von der externen Bereitstellung authentifiziert. Remote Benutzer sind Mitglieder ihrer lync Server-Bereitstellung und haben Zugriff auf alle Dienste, die von Ihrer Bereitstellung angeboten werden.
+
+<div>
 
 
 > [!NOTE]
-> Für AOL und Yahoo! wurde die Einstellung des Diensts für Juni 2014 angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.
+> Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.
 
 
 
-Bei der Verbindung mit öffentlichen Instant Messaging-Diensten handelt es sich um einen speziellen Typ des Verbunds, der einem Lync Server-Client den Zugriff auf konfigurierte Partner des öffentlichen Instant Messaging-Diensts mit dem Lync 2013 ermöglicht. Die aktuellen Partner für Verbindungen mit öffentlichen Instant Messaging-Diensten lauten wie folgt:
+</div>
 
-  - America Online
+Die öffentliche Instant Messaging-Konnektivität ist ein spezieller Föderations, mit dem ein lync Server-Client über lync 2013 auf konfigurierte öffentliche Instant Messaging-Partner zugreifen kann. Die aktuellen öffentlichen Instant Messaging-Verbindungspartner sind:
 
-  - Windows Live
+  - <span></span>  
+    America Online
 
-  - Yahoo\!
+  - <span></span>  
+    Windows Live
 
-Mithilfe einer Konfiguration der Verbindungen mit öffentlichen Instant Messaging-Diensten können Lync-Benutzer wie folgt auf Benutzer von Verbindungen mit öffentlichen Instant Messaging-Diensten zugreifen:
+  - <span></span>  
+    Yahoo\!
 
-  - Instant Messaging und Anwesenheit
+Eine öffentliche Instant Messaging-Verbindungskonfiguration ermöglicht lync-Benutzern den Zugriff auf öffentliche Instant Messaging-Konnektivitäts-Benutzer durch:
 
-  - Sichtbarkeit von Kontakten für Verbindungen mit öffentlichen Instant Messaging-Diensten im Lync-Client
+  - Chat und Anwesenheit
 
-  - Chatnachrichtenunterhaltungen zwischen Personen mit Kontakten
+  - Sichtbarkeit der öffentlichen Chat-Verbindungs Kontakte in lync-Client
 
-  - Audio- und Videoanrufe mit Windows Live-Benutzern
+  - Chat Unterhaltungen für Personen mit Kontakten
 
-Mithilfe des Lync Server-Verbunds wird eine Vereinbarung zwischen Ihrer Lync Server-Bereitstellung und anderen Bereitstellungen von Office Communications Server 2007 R2 oder Lync Server definiert. Mithilfe einer Lync Server-Verbundkonfiguration können Lync-Benutzer wie folgt auf Verbundbenutzer zugreifen:
+  - Audio-und Videoanrufe mit Windows Live-Benutzern
 
-  - Instant Messaging und Anwesenheit
+Der lync Server-Verbund definiert eine Vereinbarung zwischen Ihrer lync Server-Bereitstellung und anderen Office Communications Server 2007 R2-oder lync Server-Bereitstellungen. Eine lync Server-Verbund Konfiguration ermöglicht lync-Benutzern den Zugriff auf Verbundbenutzer durch:
 
-  - Erstellung von Verbundkontakten im Lync-Client
+  - Chat und Anwesenheit
 
-Mithilfe des XMPP-Verbunds wird eine externe Bereitstellung definiert, die auf dem Extensible Messaging and Presence Protocol basiert. Mithilfe einer XMPP-Konfiguration können Lync-Benutzer wie foglt auf zulässige XMPP-Domänenbenutzer zugreifen:
+  - Erstellen von verbundkontakten im lync-Client
 
-  - Instant Messaging und Anwesenheit - nur zwischen Personen
+Die XMPP-Föderation definiert eine externe Bereitstellung auf der Grundlage des erweiterbaren Messaging-und Anwesenheits Protokolls. Eine XMPP-Konfiguration ermöglicht lync-Benutzern den Zugriff auf zulässige XMPP-Domänenbenutzer durch:
 
-  - Erstellung von XMPP-Verbundkontakten im Lync-Client
+  - Chat und Anwesenheit – nur Person zu Person
+
+  - Erstellen von XMPP-verbundkontakten im lync-Client
+
+<div>
 
 
 > [!IMPORTANT]
@@ -59,7 +88,11 @@ Mithilfe des XMPP-Verbunds wird eine externe Bereitstellung definiert, die auf d
 
 
 
-## Externer Edgeserver-Verbund, Verbindungen für öffentliche Instant Messaging-Diensten und Bereitstellungsprozess für XMPP-Benutzer
+</div>
+
+<div>
+
+## <a name="edge-server-external-federation-public-instant-messaging-connectivity-and-xmpp-users-deployment-process"></a>Edge-Server-externer Verbund, öffentliche Instant Messaging-Konnektivität und Bereitstellungsprozess für XMPP-Benutzer
 
 
 <table>
@@ -79,64 +112,76 @@ Mithilfe des XMPP-Verbunds wird eine externe Bereitstellung definiert, die auf d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Bestimmen Sie die Optionen, die der vorhandenen Edgebereitstellung hinzugefügt werden sollen</p></td>
-<td><p>Führen Sie den Topologie-Generator aus, um die Edgeservereinstellungen zu bearbeiten und die Topologie zu erstellen und zu veröffentlichen. Die vorhandene Edgetopologie repliziert Ändeurngen vom zentralen Verwaltungsspeicher auf den Edgeserver.</p></td>
-<td><p>Gruppe &quot;Domänen-Admins&quot; und Gruppe &quot;RTCUniversalServerAdmins&quot;</p>
-<div>
+<td><p>Bestimmen der Optionen, die der vorhandenen Edge-Bereitstellung hinzugefügt werden sollen</p></td>
+<td><p>Führen Sie den Topologie-Generator aus, um die Edge-Server Einstellungen zu bearbeiten und die Topologie zu erstellen und zu veröffentlichen. Durch Ihre vorhandene Edge-Topologie werden Änderungen vom zentralen Verwaltungsspeicher auf den Edgeserver repliziert.</p></td>
+<td><p>Gruppe "Domänen-Admins" und RTCUniversalServerAdmins-Gruppe</p>
+
+
 
 > [!NOTE]
-> Sie können eine Topologie unter Verwendung eines Kontos bearbeiten, das Mitglied der lokalen Benutzergruppe ist. Für die Veröffentlichung einer Topologie ist jedoch ein Konto erforderlich, das Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" ist.
+> Sie können eine Topologie mit einem Konto bearbeiten, das ein Mitglied der Gruppe "lokale Benutzer" ist, aber die Veröffentlichung einer Topologie erfordert ein Konto, das ein Mitglied der Gruppe "Domain Admins" und der Gruppe "RTCUniversalServerAdmins" ist.
 
-
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Erstellen einer Edge- und Director-Topologie in Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Bereiten Sie das Setup vor</p></td>
+<td><p>Vorbereiten des Setups</p></td>
 <td><ol>
 <li><p>Stellen Sie sicher, dass die Systemvoraussetzungen erfüllt sind.</p></li>
-<li><p>Konfigurieren Sie interne und externe DNS-Einträge, um die Verbindung mit öffentlichen Instant Messaging-Diensten, Lync-Verbünde und XMPP-Verbünde zu unterstützen</p></li>
-<li><p>Konfigurieren Sie Ports und Protokolle an der Firewall für die Unterstützung der von Ihnen bereitgestellten Verbundtypen</p></li>
-<li><p>Fordern Sie öffentliche Zertifikate an, und installieren Sie sie. Die zum Anfordern von Zertifikaten erforderliche Zeit hängt davon ab, welche Zertifizierungstelle das Zeritfikat ausstellt. Dieser Schritt ist an dieser Stelle in der Bereitstellung optional. Wenn Sie diesen Schritt nicht zu diesem Zeitpunkt ausführen, müssen Sie dies bei der Edgeserverkonfiguration tun. Der Edgeserverdienst kann erst gestartet werden, nachdem die Zertifikate angefordert wurden</p></li>
-</ol>
-<p></p></td>
-<td><p>Wie für Ihre Organisation angemessen, da diese Rollen normalerweise unter zahlreichen Arbeitsgruppen aufgeteilt werden</p></td>
-<td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Planen für SIP-, XMPP-Partnerverbund und öffentliche Chats in Lync Server 2013</a></p></td>
+<li><p>Konfigurieren interner und externer DNS-Einträge zur Unterstützung der öffentlichen Instant Messaging-Konnektivität, lync Federation und XMPP Federation</p></li>
+<li><p>Konfigurieren von Ports und Protokollen in der Firewall zur Unterstützung der von Ihnen bereitgestellten Föderations Typen</p></li>
+<li><p>Abrufen und installieren öffentlicher Zertifikate. Die zum Abrufen von Zertifikaten erforderliche Zeit hängt davon ab, welche Zertifizierungsstelle das Zertifikat ausgibt. Dieser Schritt ist an diesem Punkt in der Bereitstellung optional. Wenn Sie diesen Schritt an diesem Punkt nicht ausführen, müssen Sie dies während der Edgeserver-Konfiguration tun. Der Edge-Server Dienst kann erst gestartet werden, nachdem Zertifikate abgerufen wurden.</p></li>
+</ol></td>
+<td><p>Entsprechend Ihrer Organisation, da diese Rollen in der Regel auf zahlreiche Arbeitsgruppen aufgeteilt sind</p></td>
+<td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Planen von SIP, XMPP Federation und Public Instant Messaging in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Richten Sie Edgeserver für Verbundszenarien ein</p></td>
+<td><p>Einrichten von Edgeserver für Verbundszenarien</p></td>
 <td><ol>
-<li><p>Transportieren Sie die exportierte Topologiekonfigurationsdatei zu den einzelnen Edgeservern, oder schließen Sie die Replikation ab</p></li>
-<li><p>Führen Sie den Bereitstellungs-Assistenten erneut aus, um Unterstützungskomponenten für den Verbund zu installieren</p></li>
-<li><p>Konfigurieren Sie die Edgeserver</p></li>
-<li><p>Fordern Sie für jeden Edgeserver Zertifikate an, und installieren Sie sie</p></li>
-<li><p>Starten Sie die Edgeserverdienste neu</p></li>
+<li><p>Transportieren der exportierten Topologie-Konfigurationsdatei auf jeden Edgeserver oder zulassen der vollständigen Replikation</p></li>
+<li><p>Erneutes Ausführen des Bereitstellungs-Assistenten, um unterstützende Komponenten für den Verbund zu installieren</p></li>
+<li><p>Konfigurieren der Edgeserver</p></li>
+<li><p>Anfordern und Installieren von Zertifikaten für jeden Edgeserver</p></li>
+<li><p>Starten Sie die Edge-Server Dienste neu</p></li>
 </ol></td>
-<td><p>Gruppe Administratoren</p></td>
+<td><p>Gruppe "Administratoren"</p></td>
 <td><p><a href="lync-server-2013-setting-up-lync-federation.md">Einrichten eines Lync-Partnerverbunds in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Einrichten der öffentlichen Chatkonnektivität in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-setting-up-xmpp-federation.md">Einrichten eines XMPP-Partnerverbunds in Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Konfigurieren Sie die Unterstützung des externen Benutzerzugriffs.</p></td>
+<td><p>Konfigurieren Sie die Unterstützung für den Zugriff durch externe Benutzer.</p></td>
 <td><ol>
-<li><p>Verwenden Sie den externen Benutzerzugriff für Lync Server-Systemsteuerung</p></li>
-<li><p>Konfigurieren Sie die Richtlinie für den externen Zugriff, um die Kommunikation mit Verbundbenutzern oder öffentlichen Benutzern zu ermöglichen</p></li>
-<li><p>Konfigurieren Sie SIP-Verbunddomänen für die Zulassung oder Blockierung von Domänen</p></li>
-<li><p>Aktivieren Sie SIP-Verbundanbieter für Anbieter von Verbindungen mit öffentlichen Instant Messaging-Diensten</p></li>
-<li><p>Konfigurieren Sie XMPP-Verbundpartner nach XMPP-Domäne</p></li>
+<li><p>Verwenden des externen Benutzerzugriffs in der lync Server-Systemsteuerung</p></li>
+<li><p>Konfigurieren der Richtlinie für den externen Zugriff, um die Kommunikation mit Verbundbenutzern oder öffentlichen Benutzern zu ermöglichen</p></li>
+<li><p>Konfigurieren von SIP-Verbunddomänen zum Zulassen oder Blockieren von Domänen</p></li>
+<li><p>Aktivieren von SIP-Verbund Anbietern für öffentliche Instant Messaging-Verbindungsanbieter</p></li>
+<li><p>Konfigurieren von XMPP-Verbundpartnern pro XMPP-Domäne</p></li>
 </ol></td>
-<td><p>Gruppe RTCUniversalServerAdmins oder Benutzerkonto mit zugewiesener Rolle CSAdministrator</p></td>
+<td><p>RTCUniversalServerAdmins-Gruppe oder ein Benutzerkonto, das der CSAdministrator-Rolle zugewiesen ist</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Konfigurieren der Unterstützung für den externen Benutzerzugriff in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Konfigurieren der Medienverschlüsselung für öffentliche Anbieter in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Überprüfen Sie die Edgeserverkonfiguration</p></td>
-<td><p>Überprüfen Sie die Serverbindung und Replikation von Konfigurationsdaten von internen Servern</p></td>
-<td><p>Für die Überprüfung der Replikation, der Gruppe &quot;RTCUniversalServerAdmins&quot; oder des Benutzerkontos, das der Rolle &quot;CSAdministrator&quot; zugeordnet ist. Für die Überprüfung der Benutzerkonnektivität, ein Benutzer für jeden Verbundbenutzertyp</p></td>
+<td><p>Überprüfen der Edgeserver-Konfiguration</p></td>
+<td><p>Überprüfen der Serverkonnektivität und Replikation von Konfigurationsdaten von internen Servern</p></td>
+<td><p>Zur Überprüfung der Replikation, der RTCUniversalServerAdmins-Gruppe oder des Benutzerkontos, das der CSAdministrator-Verb Verifizierung der Benutzerkonnektivität zugewiesen ist, wird ein Benutzer für jeden Typ von Verbundbenutzer</p></td>
 <td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Überprüfen der Edgebereitstellung in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Beispiel für eine XMPP-Konfiguration in Lync Server 2013 – XMPP-Partnerverbund mit Google Talk</a></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

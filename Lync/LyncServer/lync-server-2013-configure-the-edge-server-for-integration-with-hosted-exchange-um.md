@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste'
-TOCTitle: Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste
-ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399075(v=OCS.15)
-ms:contentKeyID: 49295818
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
+ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
+ms:contentKeyID: 48185745
+ms.date: 01/24/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d7d9d37e5ed9127c81f0aec4fcdc8f2e90b5940f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839321"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-the-edge-server-for-integration-with-hosted-exchange-um"></a>Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-01-23_
 
-Führen Sie auf dem Edgeserver die folgenden Konfigurationsaufgaben aus, um Ihren Lync Server 2013-Benutzern Voicemailfunktionen über einen gehosteten Exchange Unified Messaging (UM)-Dienst bereitzustellen:
+Wenn Sie Ihren lync Server 2013-Benutzern Voicemailfunktionen für gehostete Exchange Unified Messaging (um) bereitstellen möchten, müssen Sie die folgenden Konfigurationsaufgaben auf dem Edgeserver ausführen:
 
   - Konfigurieren Sie den Edgeserver für einen Partnerverbund.
 
@@ -23,21 +43,27 @@ Führen Sie auf dem Edgeserver die folgenden Konfigurationsaufgaben aus, um Ihre
 
   - Erstellen Sie auf dem Edgeserver einen Hostinganbieter.
 
-Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
+Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
+  - [Satz-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
 
-  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
+  - [Neu – CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398490(v=OCS.15))
+
+<div>
 
 
 > [!IMPORTANT]
-> Vor dem Ausführen dieser Schritte müssen Sie einen externen DNS-SRV-Eintrag zum Hosten des Exchange-Diensts erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange UM-Dienste</A>.
+> Vor dem Ausführen dieser Schritte müssen Sie einen externen DNS-SRV-Eintrag zum Hosten des Exchange-Diensts erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange um</A>.
 
 
 
-## So konfigurieren Sie den Edgeserver für einen Partnerverbund
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<div>
+
+## <a name="to-configure-the-edge-server-for-federation"></a>So konfigurieren Sie den Edgeserver für einen Partnerverbund
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie das Cmdlet "Set-CsAccessEdgeConfiguration" aus, um den Server für einen Partnerverbund zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -49,15 +75,23 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
     
       - **AllowFederatedUsers** gibt an, ob interne Benutzer mit Benutzern aus Partnerdomänen kommunizieren dürfen. Diese Eigenschaft legt außerdem fest, ob interne Benutzer mit Benutzern in einem Szenario mit getrennten Domänen kommunizieren können.
     
-      - **EnablePartnerDiscovery** gibt an, ob Lync Server DNS-Einträge zur Suche nach Partnerdomänen verwendet, die nicht in der Liste der zulässigen Active Directory-Domänen aufgeführt sind. Bei Festlegung auf "False" erkennt Lync Server 2013 nur Domänen als Partnerdomänen an, die in der Liste der zulässigen Domänen aufgeführt sind. Dieser Parameter ist für die Verwendung von DNS-Dienstrouting erforderlich. In den meisten Bereitstellungen ist der Wert auf "False" gesetzt, um einen Partnerverbund mit allen Partnern zu vermeiden.
+      - **EnablePartnerDiscovery** gibt an, ob lync Server DNS-Einträge verwendet, um zu versuchen, Partnerdomänen zu finden, die nicht in der Liste der zulässigen Domänen für Active Directory aufgeführt sind. Ist der Wert false, wird lync Server 2013 nur mit Domänen in der Liste der zulässigen Domänen verbündet. Dieser Parameter ist für die Verwendung von DNS-Dienstrouting erforderlich. In den meisten Bereitstellungen ist der Wert auf "False" gesetzt, um einen Partnerverbund mit allen Partnern zu vermeiden.
 
-## So replizieren Sie Daten auf den Edgeserver und überprüfen die Replikation
+</div>
 
-  - Überprüfen Sie, ob die Replikation auf den Edgeserver vollständig durchgeführt wurde. Informationen zu diesem Verfahren finden Sie unter [Überprüfen der Konnektivität zwischen internen Servern und Edgeservern in Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md).
+<div>
 
-## So erstellen Sie auf dem Edgeserver einen Hostinganbieter
+## <a name="to-replicate-data-to-the-edge-server-and-verify-the-replication"></a>So replizieren Sie Daten auf den Edgeserver und überprüfen die Replikation
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+  - Überprüfen Sie, ob die Replikation auf den Edgeserver vollständig durchgeführt wurde. Informationen zur Vorgehensweise finden Sie unter [Überprüfen der Konnektivität zwischen internen Servern und Edgeserver in lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md).
+
+</div>
+
+<div>
+
+## <a name="to-create-a-hosting-provider-on-the-edge-server"></a>So erstellen Sie auf dem Edgeserver einen Hostinganbieter
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie das **New-CsHostingProvider**-Cmdlet aus, um den Hostinganbieter zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -65,36 +99,54 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
     
     Im oben stehenden Beispiel werden folgende Parameter festgelegt:
     
-      - **Identity** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter an, den Sie erstellen, in diesem Beispiel **Fabrikam.com** . Beachten Sie, dass der Befehl nicht erfolgreich ist, wenn bereits ein Anbieter mit dieser Identität konfiguriert wurde.
+      - **Identity** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter an, den Sie erstellen, in diesem Beispiel **Fabrikam.com **. Beachten Sie, dass der Befehl nicht erfolgreich ist, wenn bereits ein Anbieter mit dieser Identität konfiguriert wurde.
     
-      - **Enabled** gibt an, ob die Netzwerkverbindung zwischen Ihrer Domäne und dem Hostinganbieter aktiviert ist. Der Nachrichtenaustausch zwischen zwei Organisationen ist erst möglich, wenn dieser Wert auf **True** festgelegt ist.
+      - **Enabled** gibt an, ob die Netzwerkverbindung zwischen Ihrer Domäne und dem Hostinganbieter aktiviert ist. Der Nachrichtenaustausch zwischen zwei Organisationen ist erst möglich, wenn dieser Wert auf **True ** festgelegt ist.
     
       - **EnabledSharedAddressSpace** gibt an, ob der Hostinganbieter in einem Szenario mit freigegebenem SIP-Adressraum (getrennte Domäne) verwendet wird.
         
+        <div>
+        
 
         > [!NOTE]
-        > Bevor Sie <CODE>EnableSharedAddressSpace</CODE> auf „True“ festlegen, versuchen Sie, den Partnerverbund-SRV-Eintrag intern aufzulösen. Wenn dieser Eintrag intern aufgelöst werden kann, müssen Sie die Einträge _sipfederationtls._tcp.&lt;domain&gt; und _sip._tls.&lt;domain&gt; im internen DNS erstellen. Diese Einträge müssen auf die externe IP-Adresse der Zugriffsschnittstelle des Edgeservers verweisen.
+        > Bevor Sie auf <CODE>EnableSharedAddressSpace</CODE> true festlegen, versuchen Sie, den Verbund-SRV-Eintrag intern zu beheben. Wenn dieser Eintrag intern nicht aufgelöst werden kann, müssen Sie die Datensätze _sipfederationtls. _tcp erstellen. &lt;Domäne&gt; und _sip. _tls. &lt;Domäne&gt; im internen DNS. Diese Einträge müssen auf die externe IP-Adresse der Zugriffsschnittstelle des Edgeservers verweisen.
 
+        
+        </div>
     
-      - **HostsOCSUsers** gibt an, ob der Hostinganbieter zum Hosten von Lync Server 2013-Konten verwendet wird. Der Wert **False** gibt an, dass der Anbieter andere Kontotypen (z. B. Microsoft Exchange-Konten) hostet.
+      - **HostsOCSUsers** gibt an, ob der Hostinganbieter zum Hosten von lync Server 2013-Konten verwendet wird. Der Wert **False** gibt an, dass der Anbieter andere Kontotypen (z. B. Microsoft Exchange-Konten) hostet.
     
-      - **ProxyFQDN** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des vom Hostinganbieter verwendeten Proxyservers an, in diesem Beispiel **proxyserver.fabrikam.com** . Dieser Wert kann nicht geändert werden. Wenn der Hostinganbieter seinen Proxyserver ändert, muss der Eintrag für diesen Anbieter gelöscht und neu erstellt werden.
+      - **ProxyFQDN** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des vom Hostinganbieter verwendeten Proxyservers an, in diesem Beispiel **proxyserver.fabrikam.com **. Dieser Wert kann nicht geändert werden. Wenn der Hostinganbieter seinen Proxyserver ändert, muss der Eintrag für diesen Anbieter gelöscht und neu erstellt werden.
     
-      - **IsLocal** gibt an, ob sich der vom Hostinganbieter verwendete Proxyserver in Ihrer Lync Server 2013-Topologie befindet.
+      - **IsLocal** gibt an, ob der vom Hostinganbieter verwendete Proxy Server in ihrer lync Server 2013-Topologie enthalten ist.
     
       - **VerificationLevel** gibt die Überprüfungsstufe an, die für Nachrichten zulässig ist, die an den und vom gehosteten Anbieter gesendet werden. Geben Sie den **UseSourceVerification**-Wert an, der von der Überprüfungsstufe in Nachrichten abhängt, die vom Hostinganbieter gesendet werden. Wenn diese Stufe nicht angegeben ist, wird die Nachricht als nicht überprüfbar eingestuft und abgelehnt.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Exportieren der Lync Server 2013-Topologie und Kopieren auf externe Medien zur Edgeinstallation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)  
 
-#### Konzepte
 
 [Überprüfen der Konnektivität zwischen internen Servern und Edgeservern in Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)  
 
-#### Weitere Ressourcen
 
-[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
+[Neu – CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398490(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

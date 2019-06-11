@@ -1,91 +1,147 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von DNS für die Edgeunterstützung'
-TOCTitle: Konfigurieren von DNS für die Edgeunterstützung
-ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398756(v=OCS.15)
-ms:contentKeyID: 49294793
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von DNS für die Edgeunterstützung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure DNS for edge support
+ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)
+ms:contentKeyID: 48184894
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79e1712b3425c7cce4020799b37f10aba894aeb3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839392"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von DNS für die Edgeunterstützung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>Konfigurieren von DNS für die Edgeunterstützung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
-Sie müssen DNS-Einträge (Domain Name System) für interne und externe Edgeschnittstellen konfigurieren, sowohl für Edgeserver- als auch für Reverseproxyschnittstellen. Edgeserver sind standardmäßig nicht Mitglied einer Domäne und haben keinen vollqualifizierten Domänennamen. Der Edgeserver wird nur durch den kurzen Computernamen bezeichnet und nicht durch einen vollqualifizierten Domänennamen. Der Topologie-Generator verwendet jedoch FQDNs und keine Kurznamen. Der Name des Edgeservers muss mit dem vom Topologie-Generator verwendeten FQDN übereinstimmen. Hierzu definieren Sie ein DNS-Suffix, das, wenn es mit dem Computernamen kombiniert wird, den erwarteten FQDN ergibt. Nutzen Sie das unter "So fügen Sie das DNS-Suffix zum Computernamen eines Edgeservers hinzu, der nicht Mitglied einer Domäne ist" beschriebene Verfahren, um das DNS-Suffix zum Computernamen hinzuzufügen.
+Sie müssen DNS-Einträge (Domain Name System) für interne und externe Edge-Schnittstellen konfigurieren, einschließlich der Edge-Server-und Reverse-Proxy-Schnittstellen. Edgeserver sind standardmäßig nicht mit einer Domäne verbunden und verfügen nicht über einen vollqualifizierten Domänennamen (vollständig qualifizierter Domänenname). Der Edgeserver wird nur mit dem kurzen Namen (Computer) und nicht mit einem vollqualifizierten Domänennamen bezeichnet. Der Topologie-Generator verwendet jedoch FQDNs und keine kurzen Namen. Der Name des Edgeserver muss dem vom Topologie-Generator verwendeten FQDN entsprechen. Zu diesem Zweck definieren Sie ein DNS-Suffix, das in Kombination mit dem Computernamen zum erwarteten FQDN führt. Gehen Sie wie folgt vor, um das DNS-Suffix zu dem Computernamen auf und dem Edgeserver hinzuzufügen, die nicht zu einer Domäne hinzugefügt wurden.
+
+<div>
 
 
-> [!NOTE]
-> Standardmäßig verwendet DNS einen Roundrobin-Algorithmus für die Rotation von Ressourceneintragsdaten, die in Abfrageantworten zurückgegeben werden, wenn für einen abgefragten DNS-Domänennamen mehrere Ressourceneinträge desselben Typs vorhanden sind. Der DNS-Lastenausgleich in Lync Server 2013 stützt sich auf DNS Round Robin als Teil des DNS-Lastenausgleichsmechanismus. Stellen Sie sicher, dass die Round Robin-Einstellung nicht deaktiviert ist. Stellen Sie bei Verwendung eines DNS-Servers ohne Windows-Betriebssystem außerdem sicher, dass die Round Robin-Verteilungsreihenfolge für Ressourceneinträge aktiviert ist.
+> [!NOTE]  
+> Standardmäßig verwendet DNS einen Round-Robin-Algorithmus, um die Reihenfolge der in Abfrage Antworten zurückgegebenen Ressourceneintragsdaten zu drehen, wenn mehrere Ressourceneinträge desselben Typs für einen abgefragten DNS-Domänennamen vorhanden sind. Der lync Server 2013-DNS-Lastenausgleich hängt vom DNS-Roundrobin als Teil des DNS-Lastenausgleichsmechanismus ab. Überprüfen Sie, ob die Roundrobin-Einstellung deaktiviert wurde. Wenn Sie einen DNS-Server verwenden, auf dem kein Windows-Betriebssystem ausgeführt wird, stellen Sie sicher, dass die Round-Robin-Ressourceneintrags Reihenfolge aktiviert ist.
 
 
 
-Erstellen und überprüfen Sie einen DNS-SRV-Eintrag entsprechend dem Verfahren **So erstellen Sie einen DNS-SRV-Eintrag** . Definieren Sie die für den Zugriff externer Benutzer erforderlichen DNS-A-Einträge nach dem unter **So erstellen Sie einen DNS-A-Eintrag** beschriebenen Verfahren. Unter **So überprüfen Sie einen DNS-Eintrag** erfahren Sie in diesem Thema, wie Sie prüfen können, ob die Einträge richtig konfiguriert sind und funktionieren. Ausführliche Informationen zu jedem erforderlichen Eintrag für den externen Benutzerzugriff finden Sie unter [Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+</div>
 
-## So fügen Sie das DNS-Suffix zum Computernamen auf einem Edgeserver hinzu, der nicht Mitglied einer Domäne ist
+Führen Sie die folgenden Verfahren in "**So erstellen Sie einen DNS-SRV-Eintrag**" aus, um jeden DNS-SRV-Eintrag zu erstellen und zu überprüfen. Verwenden Sie das Verfahren unter "**So erstellen Sie einen DNS-Eintrag**", um die DNS-a-Einträge zu definieren, die für den Zugriff durch externe Benutzer erforderlich sind. Wenn Sie sicherstellen möchten, dass die Datensätze konfiguriert sind und ordnungsgemäß funktionieren, lesen Sie "**So überprüfen Sie einen DNS-Eintrag**" in diesem Thema. Details zu den einzelnen Datensätzen, die für die Unterstützung des Zugriffs externer Benutzer erforderlich sind, finden Sie unter [Ermitteln der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-1.  Klicken Sie auf dem Computer auf **Start** , klicken Sie mit der rechten Maustaste auf **Arbeitsplatz** , und klicken Sie dann auf **Eigenschaften** .
+<div>
 
-2.  Klicken Sie unter **Einstellungen für Computernamen, Domäne und Arbeitsgruppe** auf **Einstellungen ändern** .
+## <a name="to-add-the-dns-suffix-to-the-computer-name-on-an-edge-server-that-is-not-joined-to-a-domain"></a>So fügen Sie dem Computernamen auf einem Edgeserver, der nicht zu einer Domäne gehört, das DNS-Suffix hinzu
 
-3.  Klicken Sie auf der Registerkarte **Computername** auf **Ändern** .
+1.  Klicken Sie auf dem Computer auf **Start**, klicken Sie mit der rechten Maustaste auf **Computer**, und klicken Sie dann auf **Eigenschaften**.
 
-4.  Klicken Sie in **Ändern des Computernamens bzw. der Domäne** auf **Mehr** .
+2.  Klicken Sie unter **Computer Name, Domäne und Arbeitsgruppeneinstellungen**auf **Einstellungen ändern**.
 
-5.  Geben Sie in **DNS-Suffix und NetBIOS-Computername** unter **Primäres DNS-Suffix des Computers** den Namen Ihrer internen Domäne (z. B. corp.contoso.com) ein, und klicken Sie dann dreimal auf **OK** .
+3.  Klicken Sie auf der Registerkarte **Computer Name** auf **ändern**.
+
+4.  Klicken Sie unter **Computer Name/domänenänderungen**auf **mehr**.
+
+5.  Geben Sie unter **DNS-Suffix und NetBIOS-Computername**in **Primäres DNS-Suffix dieses Computers**den Namen Ihrer internen Domäne (beispielsweise Corp.contoso.com) ein, und klicken Sie dann dreimal auf **OK** .
 
 6.  Starten Sie den Computer neu.
 
-## So erstellen Sie einen DNS-SRV-Eintrag
+</div>
 
-1.  Klicken Sie auf dem geeigneten DNS-Server nacheinander auf **Start** , **Systemsteuerung** , **Verwaltung** und dann auf **DNS** .
+<div>
+
+## <a name="to-create-a-dns-srv-record"></a>So erstellen Sie einen DNS-SRV-Eintrag
+
+1.  Klicken Sie auf dem entsprechenden DNS-Server auf **Start**, klicken Sie auf **System**Steuerung, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Sie müssen DNS so konfigurieren, dass Folgendes vorhanden ist: 1.) externe DNS-Einträge für externe DNS-Lookups durch Remotebenutzer und Verbundpartner; 2.) Einträge für DNS-Lookups zur Verwendung durch die Edgeserver im Umkreisnetzwerk (auch als überwachtes Subnetz bezeichnet), einschließlich A-Einträge für die internen Server mit Lync Server 2013; und 3.) interne DNS-Einträge für Lookups durch die internen Clients und Server mit Lync Server 2013.
+    > [!IMPORTANT]  
+    > Sie müssen DNS so konfigurieren, dass: 1) externe DNS-Einträge für externe DNS-Lookups von Remotebenutzern und Verbundpartnern vorhanden sind. 2) Einträge für DNS-Lookups zur Verwendung durch die Edgeserver im Umkreisnetzwerk (auch bekannt als DMZ, demilitarisierte Zone und geschirmtes Subnetz), einschließlich Datensätzen für die internen Server mit lync Server 2013; und 3) interne DNS-Einträge für Lookups von den internen Clients und Servern, auf denen lync Server 2013 ausgeführt wird.
 
+    
+    </div>
 
+2.  Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne **Forward-Lookupzonen**, und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der lync Server 2013 installiert ist.
 
-2.  Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne den Knoten **Forward-Lookupzonen** , und klicken Sie mit der rechten Maustaste auf die Domäne, in der Lync Server 2013 installiert ist.
+3.  Klicken Sie auf **andere neue Datensätze**.
 
-3.  Klicken Sie auf **Neue Datensätze** .
+4.  Geben Sie unter **Ressourceneintragstyp auswählen den**Namen **Dienststandort (SRV)** ein, und klicken Sie dann auf **Datensatz erstellen**.
 
-4.  Klicken Sie unter **Wählen Sie einen Ressourceneintragstyp** auf **Dienstidentifizierung (SRV)** und dann auf **Eintrag erstellen** .
+5.  Geben Sie alle erforderlichen Informationen für den DNS-SRV-Eintrag an.
 
-5.  Stellen Sie alle erforderlichen Informationen für den DNS-SRV-Eintrag bereit.
+</div>
 
-## So erstellen Sie einen DNS-A-Eintrag
+<div>
 
-1.  Klicken Sie auf dem DNS-Server nacheinander auf **Start** , **Systemsteuerung** , **Verwaltung** und dann auf **DNS** .
+## <a name="to-create-a-dns-a-record"></a>So erstellen Sie einen DNS-a-Eintrag
 
-2.  Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne den Knoten **Forward-Lookupzonen** , und klicken Sie mit der rechten Maustaste auf die Domäne, in der Lync Server 2013 installiert ist.
+1.  Klicken Sie auf dem DNS-Server auf **Start**, klicken Sie auf **System**Steuerung, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
 
-3.  Klicken Sie auf **Neuer Host (A)** .
+2.  Erweitern Sie in der Konsolenstruktur ihrer SIP-Domäne **Forward-Lookupzonen**, und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der lync Server 2013 installiert ist.
 
-4.  Stellen Sie alle erforderlichen Informationen für den DNS-SRV-Eintrag bereit.
+3.  Klicken Sie auf **neuer Host (a)**.
 
-## So überprüfen Sie einen DNS-Eintrag
+4.  Geben Sie alle erforderlichen Informationen für den DNS-SRV-Eintrag an.
 
-1.  Melden Sie sich an einem Clientcomputer in der Domäne an.
+</div>
 
-2.  Klicken Sie auf **Start** und dann auf **Ausführen** .
+<div>
+
+## <a name="to-verify-a-dns-record"></a>So überprüfen Sie einen DNS-Eintrag
+
+1.  Melden Sie sich bei einem Clientcomputer in der Domäne an.
+
+2.  Klicken Sie auf  **Start ** und dann auf  **Ausführen**.
 
 3.  Führen Sie an der Eingabeaufforderung den folgenden Befehl aus:
     
         nslookup <FQDN edge interface>
 
-4.  Stellen Sie sicher, dass eine Antwort zurückgegeben wird, in welcher der FQDN in die zugehörige IP-Adresse aufgelöst wurde.
+4.  Überprüfen Sie, ob Sie eine Antwort erhalten, die in die entsprechende IP-Adresse für den FQDN aufgelöst wird.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange UM-Dienste](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)  
 
-#### Konzepte
 
-[Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
+[Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

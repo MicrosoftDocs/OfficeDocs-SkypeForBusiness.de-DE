@@ -1,43 +1,85 @@
-﻿---
-title: Konfigurieren des Wechsels der Voicemail in Lync Server 2013
-TOCTitle: Konfigurieren des Wechsels der Voicemail in Lync Server 2013
-ms:assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688157(v=OCS.15)
-ms:contentKeyID: 49890867
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Voicemail-Escape-Konfiguration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring voice mail escape
+ms:assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688157(v=OCS.15)
+ms:contentKeyID: 49733761
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1f08e12b97c51d68b4b08d10692802cb035ce8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839157"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Wechsels der Voicemail in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Konfigurieren von Voicemail-Escape in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Wenn ein Benutzer das gleichzeitige Klingeln für ein Mobiltelefon konfiguriert, werden Anrufer normalerweise an den persönlichen Voicemail-Dienst des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet wird, wenn der Akku leer ist oder wenn sich das Mobiltelefon außerhalb des Empfangsbereichs befindet. Mit Microsoft Lync Server 2013 können Benutzer festlegen, dass geschäftliche Anrufe an das Voicemail-System ihres Unternehmens weitergeleitet werden. Insbesondere kann ein Timer konfiguriert werden, und wenn der Anruf innerhalb des definierten Zeitraums vom Voicemail-System des Betreibers angenommen wird, trennt Lync Server 2013 die Verbindung mit dem Voicemail-System des Betreibers (und mit dem persönlichen Voicemail-Dienst des Benutzers), während es an den verbleibenden Endpunkten des Benutzers im System des Unternehmens weiterhin klingelt. Somit wird der Anrufer automatisch an das Voicemail-System des Unternehmens des Benutzers weitergeleitet.
+Wenn ein Benutzer das gleichzeitige Klingeln auf einem Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an die persönliche Voicemail des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet ist, der Akku nicht mehr zur verweilen oder außerhalb des gültigen Bereichs liegt. Mit lync Server 2013 können Benutzer entscheiden, dass unternehmensbezogene Anrufe an das Voicemailsystem des Unternehmens weitergeleitet werden. Insbesondere kann ein Zeitgeber konfiguriert werden, und wenn der Anruf von der Voicemail des Netzbetreibers innerhalb des definierten Zeitraums beantwortet wird, wird die Verbindung zwischen lync Server und dem Voicemailsystem des Netzbetreibers (und der persönlichen Voicemail des Benutzers) getrennt, während der verbleibende Benutzer Endpunkte im Unternehmenssystem Klingeln weiterhin. Auf diese Weise wird der Anrufer automatisch an die Firmen-Voicemail des Benutzers weitergeleitet.
 
-Diese Konfiguration erfolgt mithilfe des Lync Server-Verwaltungsshell-Cmdlets, mit "Set-CsVoicePolicy" und auf Ebene der VoIP-Richtlinie mithilfe der folgenden Parameter.
+Diese Konfiguration wird mit dem Cmdlet "lync Server-Verwaltungsshell", " **Satz-CsVoicePolicy**", auf der VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
 
-## Konfigurieren von Voicemail Escape
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-configure-voice-mail-escape"></a>So konfigurieren Sie Voicemail Escape
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Geben Sie die folgenden Parameter für **Set-CsVoicePolicy** an:
     
-      - **EnableVoicemailEscapeTimer** – Aktiviert oder deaktiviert den Escape-Timer.
+      - **EnableVoicemailEscapeTimer**: Aktiviert oder deaktiviert den Escape-Timer.
     
-      - **PSTNVoicemailEscapeTimer** – Gibt den Zeitüberschreitungswert in Millisekunden an. Der Standardwert lautet 1500 Millisekunden, und der Wert kan zwischen 0 und 8000 Millisekunden liegen.
+      - **PSTNVoicemailEscapeTimer**: Gibt den Timeoutwert in Millisekunden an. Der Standardwert lautet 1500 Millisekunden und der Wert kann zwischen 0 und 8000 Millisekunden liegen.
 
-## Beispiel
+</div>
+
+<div>
+
+## <a name="example"></a>Beispiel
 
     Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
     
     Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und -berechtigungen in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und -berechtigungen in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

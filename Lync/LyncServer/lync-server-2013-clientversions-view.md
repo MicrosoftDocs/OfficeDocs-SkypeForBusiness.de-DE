@@ -1,27 +1,51 @@
-﻿---
-title: ClientVersions-Ansicht
-TOCTitle: ClientVersions-Ansicht
-ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721891(v=OCS.15)
-ms:contentKeyID: 49890938
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ClientVersions-Ansicht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ClientVersions view
+ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
+ms:contentKeyID: 49733825
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d219b8666afc0684b0d61f02f06618ea6ef60f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839530"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ClientVersions-Ansicht
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="clientversions-view-in-lync-server-2013"></a>ClientVersions-Ansicht in lync Server 2013
 
-In der **ClientVersions**-Ansicht werden Informationen zu den verschiedenen Clienttypen und -versionen gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen beteiligt sind. Jeder Eintrag in dieser Ansicht steht für eine Clientversion. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+
+In der ClientVersions-Ansicht werden Informationen zu den verschiedenen Clienttypen und-Versionen gespeichert, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Ansicht stellt eine Client Version dar. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+
+<div>
 
 
-> [!NOTE]
-> Für bestimmte Spalten können mehrere Einträge vorhanden sein.
+> [!NOTE]  
+> Für bestimmte Spalten können mehrere Datensätze vorhanden sein.
 
 
+
+</div>
 
 
 <table>
@@ -39,25 +63,36 @@ In der **ClientVersions**-Ansicht werden Informationen zu den verschiedenen Clie
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>VersionId</strong></p></td>
+<td><p><strong>VersionID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Eindeutige Zahl, die den Clienttyp und die Clientversion identifiziert.</p></td>
+<td><p>Eindeutige Nummer, die diesen Clienttyp und die Version identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Version</strong></p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>Stellt den Benutzer-Agent dar.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ClientType</strong></p></td>
+<td><p><strong>Clienttyp</strong></p></td>
 <td><p>int</p></td>
-<td><p>Der Clienttyp.</p></td>
+<td><p>Der Typ des Clients.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Die Kategorie, der der Client angehört. Beispielsweise weist der Client Conferencing_Attendant_1.0 eine ClientCategory von CAA auf.</p></td>
+<td><p>Die Kategorie, zu der der Client gehört. Beispielsweise gehört der Client conferencing_attendant_ 1.0 zum ClientCategory CAA.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

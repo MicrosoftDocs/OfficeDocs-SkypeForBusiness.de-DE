@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Check voice normalization rules'
+---
+title: 'Lync Server 2013: Überprüfen von Regeln für die sprach Normalisierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Check voice normalization rules
 ms:assetid: bf71a218-71cd-4b64-b8e8-b3a98b6e87a2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn725212(v=OCS.15)
-ms:contentKeyID: 62336015
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725212(v=OCS.15)
+ms:contentKeyID: 63969649
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 487415fccc1e779daa476a4e76aa99a891f6b7fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839581"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Check voice normalization rules in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Überprüfen von VoIP-Normalisierungsregeln in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-05-20_
 
 
 <table>
@@ -23,62 +43,76 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Monatlich</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceNormalizationRule cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceNormalizationRule-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Voice normalization rules are used to convert a phone number dialed by a user (for example, 2065551219) to the E.164 format that is used by Lync Server (+12065551219). For example, if users are in the habit of dialing a phone number without including the country code or the area code (e.g., 5551219) then you must have a voice normalization rule that can convert that number to the E.164 format: +12065551219. Without such a rule, the user won't be able to call 555-1219.
+## <a name="description"></a>Beschreibung
 
-The Test-CsVoiceNormalizationRule cmdlet verifies that a specified voice normalization rule can successfully convert a specified phone number. For example, this command checks whether the global normalization rule NoAreaCode can normalize and convert the dial string 5551219.
+Regeln für die sprach Normalisierung werden verwendet, um eine Telefonnummer zu konvertieren, die von einem Benutzer gewählt wurde (beispielsweise 2065551219), in das E. 164-Format, das von lync Server (+ 12065551219) verwendet wird. Wenn Benutzer beispielsweise die Möglichkeit haben, eine Telefonnummer zu wählen, ohne die Landesvorwahl oder die Ortsvorwahl (z. b. 5551219) einzuschließen, müssen Sie über eine sprach Normalisierungsregel verfügen, mit der diese Zahl in das e. 164-Format konvertiert werden kann: + 12065551219. Ohne diese Regel ist der Benutzer nicht in der Lage, 555-1219 anzurufen.
+
+Das Cmdlet Test-CsVoiceNormalizationRule überprüft, ob eine bestimmte Telefonnummer durch eine angegebene VoIP-Normalisierungsregel erfolgreich konvertiert werden kann. Mit diesem Befehl wird beispielsweise überprüft, ob die globale Normalisierungsregel NoAreaCode die Wählzeichenfolge 5551219 normalisieren und konvertieren kann.
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
-## Running the test
+</div>
 
-To run the Test-CsVoiceNormalizationRule cmdlet, you must first use the Get-CsVoiceNormalizationRule cmdlet to retrieve an instance of the rule being tested, and then pipe that instance to Test-CsVoiceNormalizationRule. Syntax similar to this won't work:
+<div>
 
-Test-CsVoiceNormalizationRule -DialedNumber "12065551219" –NormalizationRule "global/Prefix All"
+## <a name="running-the-test"></a>Ausführen des Tests
 
-Instead, use syntax such as the following, which combines both the Get-CsVoiceNormalizationRule and the Test-CsVoiceNormalizationRule cmdlets:
+Damit Sie das Cmdlet Test-CsVoiceNormalizationRule ausführen können, müssen Sie zuerst das Cmdlet Get-CsVoiceNormalizationRule verwenden, um eine Instanz der getesteten Regel abzurufen, und diese Instanz dann an Test-CsVoiceNormalizationRule weiterleiten. Eine ähnliche Syntax wie diese funktioniert nicht:
 
-Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"
+Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "Global/Prefix all"
+
+Verwenden Sie stattdessen eine Syntax wie die folgende, die sowohl das Cmdlet "Get-CsVoiceNormalizationRule" als auch die Test-CsVoiceNormalizationRule-Cmdlets kombiniert:
+
+Get-CsVoiceNormalizationRule-Identity "Global/Präfix alle" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
+
+<div>
 
 
-> [!NOTE]
-> . Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:
+> [!NOTE]  
+> . Sie können auch diesen Ansatz verwenden, um eine Instanz einer Regel abzurufen und diese Regel dann mit einer angegebenen Telefonnummer zu testen:
 
 
+
+</div>
 
 `$x = Get-CsVoiceNormalizationRule -Identity "global/Prefix All"`
 
 `Test-CsVoiceNormalizationRule -DialedNumber "12065551219" -NormalizationRule $x`
 
-Enter the value for the DialedNumber parameter exactly as you expect that number to be dialed. For example, if the specified voice normalization rule is supposed to automatically add the country code (the initial 1 in the value 12065551219) then you should leave off the country code:
+Geben Sie den Wert für den DialedNumber-Parameter genau so ein, wie Sie erwarten, dass die Nummer gewählt wird. Wenn beispielsweise die angegebene sprach Normalisierungsregel die Landesvorwahl (die Initiale 1 im Wert 12065551219) automatisch hinzufügen soll, sollten Sie die Landesvorwahl nicht angeben:
 
 `-DialedNumber "2065551219"`
 
-If the rule is configured correctly, it will automatically add the country code when translating the number to the E.164 format that is used by Lync Server.
+Wenn die Regel ordnungsgemäß konfiguriert ist, wird beim Übersetzen der Nummer automatisch die Landesvorwahl in das von lync Server verwendete E. 164-Format hinzugefügt.
 
-For more information, see the Help documentation for the Test-CsVoiceNormalizationRule cmdlet.
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-CsVoiceNormalizationRule.
 
-## Determining success or failure
+</div>
 
-If the specified voice normalization rule can translate the supplied number then the translated number will be displayed on-screen:
+<div>
+
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+
+Wenn die angegebene sprach Normalisierungsregel die angegebene Nummer übersetzen kann, wird die übersetzte Nummer auf dem Bildschirm angezeigt:
 
 TranslatedNumber
 
@@ -86,29 +120,49 @@ TranslatedNumber
 
 \+12065551219
 
-If the test fails then a blank translated number will be returned:
+Wenn der Test fehlschlägt, wird eine leere übersetzte Zahl zurückgegeben:
 
 TranslatedNumber
 
 \----------------
 
-## Reasons why the test might have failed
+</div>
 
-If the Test-CsVoiceNormalizationRule does return a translated number that means that the specified voice normalization rule was unable to translate the supplied telephone number into the E.164 format that is used by Lync Server. To verify that, first make sure that you typed the telephone number in correctly. For example, you would expect your voice normalization rule to have problems translating a number similar to this:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Wenn der Test-CsVoiceNormalizationRule eine übersetzte Zahl zurückgibt, bedeutet dies, dass die angegebene sprach Normalisierungsregel die angegebene Telefonnummer nicht in das E. 164-Format übersetzen konnte, das von lync Server verwendet wird. Um dies zu überprüfen, stellen Sie zuerst sicher, dass Sie die Telefonnummer richtig eingegeben haben. Sie würden beispielsweise davon ausgehen, dass die Regel für die sprach Normalisierung Probleme hat, eine Zahl zu übersetzen, die der folgenden ähnelt:
 
 `-DialedNumber "1"`
 
-Assuming the number was entered correctly, your next step should be to verify that the specified normalization rule is designed to handle that phone number. For example, one normalization rule might be designed to handle the format 12065551219, but a second rule might be designed to handle the number 2065551219. (That’s the same phone number, minus the country code 1 at the very beginning.) To return detailed information about a voice normalization rule, run a command similar to this:
+Wenn die Nummer richtig eingegeben wurde, sollte der nächste Schritt darin liegen, zu überprüfen, ob die angegebene Normalisierungsregel für die Behandlung dieser Telefonnummer vorgesehen ist. Beispielsweise kann eine Normalisierungsregel zur Behandlung des Formats 12065551219 entwickelt werden, aber eine zweite Regel kann für die Behandlung der Zahl 2065551219 entworfen werden. (Das ist die gleiche Telefonnummer, abzüglich der Landesvorwahl 1 am Anfang.) Wenn Sie detaillierte Informationen zu einer Regel für die sprach Normalisierung zurückgeben möchten, führen Sie einen Befehl wie den folgenden aus:
 
 `Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Format-List`
 
-To return detailed information about all the voice normalization rules, run this command instead:
+Führen Sie stattdessen diesen Befehl aus, um detaillierte Informationen zu allen Regeln für die sprach Normalisierung zurückzugeben:
 
 `Get-CsVoiceNormalizationRule | Format-List`
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceNormalizationRule)
+## <a name="see-also"></a>Siehe auch
+
+
+[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

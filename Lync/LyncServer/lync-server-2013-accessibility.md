@@ -1,37 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Barrierefreiheit'
-TOCTitle: Barrierefreiheit für Menschen mit Behinderung
-ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204754(v=OCS.15)
-ms:contentKeyID: 49293497
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Barrierefreiheit'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Accessibility for people with disabilities
+ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
+ms:contentKeyID: 48183681
+ms.date: 01/15/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Barrierefreiheit in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="accessibility-in-lync-server-2013"></a>Barrierefreiheit in Lync Server 2013
 
-Microsoft hat es sich zur Aufgabe gemacht, die Handhabung der Produkte und Dienste für jeden möglichst einfach zu gestalten. In den folgenden Abschnitten finden Sie Informationen zu den Features, Produkten und Diensten, die den Zugriff auf Lync Server 2013 für Personen mit Behinderungen vereinfachen.
+</div>
 
-## Barrierefreiheitsfeatures von Lync Server 2013
+<div id="mainSection">
 
-Die folgenden Lync Server 2013-Features vereinfachen den Einsatz von Lync Server 2013 für Personen mit Behinderungen:
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-10-09_
+
+Microsoft hat sich verpflichtet, seine Produkte und Dienste für alle Benutzer einfacher zu machen. In den folgenden Abschnitten finden Sie Informationen zu den Features, Produkten und Diensten, die dazu beitragen, lync Server 2013 für Personen mit Behinderungen barrierefreier zu gestalten.
+
+<div>
+
+## <a name="accessibility-features-of-lync-server-2013"></a>Barrierefreiheitsfeatures von lync Server 2013
+
+Die folgenden Features in lync Server 2013 helfen, die Barrierefreiheit für Personen mit Behinderungen zu vereinfachen:
 
   - Tastenkombinationen
 
-  - Alternativtext für Abbildungen
+  - Alternativtext für Zahlen
 
-Zudem können einige Barrierefreiheitsfeatures und -tools von Windows für Lync Server-Benutzer mit Behinderungen nützlich sein. Durch Größen- und Farbänderungen in Windows PowerShell werden Barrierefreiheitsoptionen beim Verwenden der Lync Server-Verwaltungsshell zur Verfügung gestellt. Detaillierte Informationen zu den Windows PowerShell-Barrierefreiheitsoptionen finden Sie im Thema zur Barrierefreiheit in Windows PowerShell 2.0 in der TechNet-Bibliothek unter <http://go.microsoft.com/fwlink/?linkid=98964>.
+Darüber hinaus können einige Barrierefreiheitsfeatures und Tools von Windows für lync Server-Benutzer mit Behinderungen vorteilhaft sein. Windows PowerShell-Größen-und Farbänderungen bieten Barrierefreiheitsoptionen bei Verwendung der lync Server-Verwaltungsshell. Ausführliche Informationen zu den Windows PowerShell-Barrierefreiheitsoptionen finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)der TechNet-Bibliothek unter.
 
-## Tastenkombinationen
+</div>
 
-Sie können Tastenkombinationen verwenden, um mit der Benutzeroberfläche in der Lync Server-Verwaltung und mit anderen Features zu interagieren.
+<span id="BKMK_KeyboardShortcuts"></span>
 
-Mithilfe von Tastenkombinationen können Sie schnell die folgenden allgemeinen Aufgaben durchführen.
+<div>
+
+## <a name="keyboard-shortcuts"></a>Tastenkombinationen
+
+Sie können Tastenkombinationen verwenden, um mit der Benutzeroberfläche in den lync Server-Verwaltungstools und anderen Features zu interagieren.
+
+Mithilfe von Tastenkombinationen können Sie die folgenden allgemeinen Aufgaben schnell ausführen.
 
 
 <table>
@@ -41,98 +69,120 @@ Mithilfe von Tastenkombinationen können Sie schnell die folgenden allgemeinen A
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aufgabe</th>
-<th>Tastenkombination</th>
+<th>Zu diesem Zweck</th>
+<th>Verwenden Sie diese Tastenkombination</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Wechseln zwischen Elementen auf der Benutzeroberfläche</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p>Registerkarte</p></td>
 </tr>
 <tr class="even">
-<td><p>Durchführen der Aktion für das ausgewählte Element, z. B. <strong>Alle anzeigen</strong>, <strong>Alle ausblenden</strong>, oder Öffnen eines Links</p></td>
-<td><p>EINGABETASTE</p></td>
+<td><p>Führen Sie die Aktion für das ausgewählte Element aus, beispielsweise " <strong>Alle anzeigen</strong>", " <strong>Alle ausblenden</strong>" oder einen Link öffnen.</p></td>
+<td><p>Eingeben</p></td>
 </tr>
 <tr class="odd">
-<td><p>Wechseln vom ausgewählten Element zum nächsten Element auf der Seite oder in einem Menü</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p>Das ausgewählte Element in das nächste Element auf der Seite oder in einem Menü ändern</p></td>
+<td><p>Registerkarte</p></td>
 </tr>
 <tr class="even">
-<td><p>Wechseln vom ausgewählten Element zum vorherigen Element auf der Seite</p></td>
-<td><p>UMSCHALT+TAB</p></td>
+<td><p>Das ausgewählte Element in das vorherige Element auf der Seite ändern.</p></td>
+<td><p>UMSCHALT + TAB</p></td>
 </tr>
 <tr class="odd">
-<td><p>Navigieren nach oben, unten, links oder rechts, um auf der Seite oder im Menü ein anderes Element auszuwählen</p></td>
+<td><p>Ändern des ausgewählten Elements auf der Seite oder im Menü nach oben, unten, Links oder rechts</p></td>
 <td><p>Pfeiltasten</p></td>
 </tr>
 <tr class="even">
 <td><p>Erweitern des ausgewählten Knotens in der Struktur</p></td>
-<td><p>TASTE +</p></td>
+<td><p>+Schlüssel</p></td>
 </tr>
 <tr class="odd">
 <td><p>Reduzieren des ausgewählten Knotens in der Struktur</p></td>
-<td><p>TASTE -</p></td>
+<td><p>-Schlüssel</p></td>
 </tr>
 <tr class="even">
-<td><p>Zugreifen auf die Menüleiste</p></td>
-<td><p>ALT-TASTE</p></td>
+<td><p>Öffnen Sie die Menüleiste.</p></td>
+<td><p>Alt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugreifen auf einen Menüleistenbefehl</p></td>
-<td><p>ALT-TASTE + der im Menü unterstrichene Buchstabe</p></td>
+<td><p>Zugreifen auf einen Menüleisten Befehl</p></td>
+<td><p>ALT + Buchstabe im Kontextmenü unterstrichen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Auswählen der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p>Wählen Sie im Zertifikat-Assistenten die Dropdownliste aus.</p></td>
+<td><p>Registerkarte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Öffnen der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>STRG+LEERTASTE</p></td>
+<td><p>Öffnen Sie die Dropdownliste im Zertifikat-Assistenten.</p></td>
+<td><p>STRG + LEERTASTE</p></td>
 </tr>
 <tr class="even">
-<td><p>Markieren eines Elements in der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>TAB-TASTE und dann STRG+Pfeiltasten, um zwischen Elementen zu wechseln</p></td>
+<td><p>Hervorheben eines Elements in der Dropdownliste im Zertifikat-Assistenten</p></td>
+<td><p>Tab und dann STRG + Pfeiltasten, um zwischen den Elementen zu wechseln.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Auswählen oder Löschen eines Elements in der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>STRG+LEERTASTE</p></td>
+<td><p>STRG + LEERTASTE</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Alternativtext für Abbildungen
+</div>
 
-Jede Abbildung in der Lync Server 2013-Hilfe, z. B. Screenshots, Diagramme, Flussdiagramme und andere Abbildungen, besitzt einen zugeordneten Alternativtext. Benutzer, die Schwierigkeiten bei der Anzeige von Abbildungen haben, können den Cursor über der Abbildung positionieren und den Alternativtext lesen. Der Alternativtext beschreibt den Inhalt der Abbildung.
+<span id="BKMK_AltText"></span>
 
-## Barrierefreiheitsprodukte und -dienste von Microsoft
+<div>
 
-Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und Diensten, mit denen Windows für Personen mit Behinderungen einfacher einzusetzen ist.
+## <a name="alternate-text-for-figures"></a>Alternativtext für Zahlen
+
+Jede Abbildung in der Hilfe zu lync Server 2013, einschließlich Screenshots, Diagrammen, Flussdiagrammen und anderen Abbildungen, weist einen alternativen Text auf. Benutzer, die Probleme beim Anzeigen von Zahlen haben, können den Cursor auf der Abbildung anhalten, um den Alternativtext zu lesen. Der Alternativtext beschreibt, was in der Abbildung gezeigt wird.
+
+</div>
+
+<span id="BKMK_AccessMS"></span>
+
+<div>
+
+## <a name="accessibility-products-and-services-from-microsoft"></a>Barrierefreiheits Produkte und-Dienste von Microsoft
+
+In den folgenden Abschnitten werden Informationen zu den Features, Produkten und Diensten bereitgestellt, die Windows für Personen mit Behinderungen barrierefreier machen.
+
+<div>
 
 
-> [!NOTE]
-> Die in diesem Abschnitt enthaltenen Informationen gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzieren lassen. Wenn Sie dieses Produkt außerhalb der USA erworben haben, enthält das Softwarepaket eine Karte mit zusätzlichen Informationen, aus der die Telefonnummern und die Adressen des Microsoft-Supportdiensts hervorgehen. Diese Informationen finden Sie auch auf der Microsoft-Website zur Barrierefreiheit unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=18139">http://go.microsoft.com/fwlink/?linkid=18139</A>. In Ihrer Niederlassung erhalten Sie Informationen darüber, welche der in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website zur Barrierefreiheit in Microsoft-Produkten.
+> [!NOTE]  
+> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den Vereinigten Staaten lizenzieren. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene Zusatz Informationskarte verwenden oder die Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> -Website für Barrierefreiheit besuchen, um eine Liste der Telefonnummern und Adressen für den Microsoft-Support zu erhalten. Services. Sie können sich an Ihre Niederlassung wenden, um herauszufinden, ob die in diesem Abschnitt beschriebenen Arten von Produkten und Dienstleistungen in Ihrem Gebiet zur Verfügung stehen. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website Barrierefreiheit in Microsoft-Produkten.
 
 
 
-## Barrierefreiheitsfeatures von Windows
+</div>
 
-Das Betriebssystem Windows verfügt über zahlreiche integrierte Barrierefreiheitsfeatures für Personen, die Schwierigkeiten mit der Tastatureingabe oder der Bedienung der Maus haben oder sehbehindert oder blind bzw. taub oder hörgeschädigt sind. Die Features werden beim Ausführen von Setup installiert. Weitere Informationen zu diesen Features finden Sie in der Windows-Hilfe oder auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+<div>
 
-  - **Kostenlose Lernprogramme mit Schritt-für-Schritt-Beschreibungen**   Microsoft bietet eine Reihe von Lernprogrammen mit Schritt-für-Schritt-Beschreibungen an, die veranschaulichen, wie die Barrierefreiheitsoptionen und -einstellungen auf Ihrem Computer angepasst werden können. Diese Informationen werden parallel präsentiert, sodass Sie die Verwendung der Maus, der Tastatur oder die kombinierte Verwendung beider Eingabegeräte erlernen können.
+## <a name="accessibility-features-of-windows"></a>Barrierefreiheitsfeatures von Windows
+
+Das Windows-Betriebssystem verfügt über viele integrierte Barrierefreiheitsfeatures, die für Personen hilfreich sind, die Probleme bei der Eingabe oder Verwendung einer Maus haben, die blind sind oder sehbehindert sind oder die taub oder schwerhörig sind. Die Features werden während des Setups installiert. Details zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft- [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Barrierefreiheit unter.
+
+  - **﻿Kostenlose Schritt-für-Schritt-Anleitungen**   Microsoft bietet eine Reihe von schrittweisen Lernprogrammen, in denen detaillierte Verfahren zum Anpassen der Barrierefreiheitsoptionen und-Einstellungen auf dem Computer bereitgestellt werden. Diese Informationen werden in einem nebeneinander angeordneten Format angezeigt, damit Sie erfahren, wie Sie die Maus, die Tastatur oder eine Kombination aus beidem verwenden können.
     
-    Sie finden weitere Informationen zu schrittweisen Lernprogrammen für Microsoft-Produkte auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+    Schritt-für-Schritt-Anleitungen für Microsoft-Produkte finden Sie unter Barrierefreiheit [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)in Microsoft.
 
-  - **Hilfstechnologieprodukte für Windows**   Eine Vielzahl von Hilfstechnologieprodukten steht zur Verfügung, um Personen mit Behinderungen die Verwendung von Computern zu erleichtern. Microsoft stellt auf der Microsoft-Website zur Barrierefreiheit <http://go.microsoft.com/fwlink/?linkid=18139> einen Suchkatalog für technische Hilfsmittel bereit, die unter Windows ausgeführt werden können.
+  - **Hilfstechnologieprodukte für Windows**   eine große Auswahl an Hilfstechnologieprodukte steht zur Verfügung, um die Verwendung von Computern für Personen mit Behinderungen zu erleichtern. Sie können einen Katalog mit Hilfstechnologieprodukte durchsuchen, die unter Windows auf der Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)-Website für Barrierefreiheit ausgeführt werden.
     
-    Wenn Sie Hilfstechnologie verwenden, informieren Sie sich bei Ihrem Hilfstechnologieanbieter über mögliche Kompatibilitätsprobleme, bevor Sie Ihre Software oder Hardware aktualisieren.
+    Wenn Sie Hilfstechnologien verwenden, wenden Sie sich an Ihren Anbieter für Hilfstechnologien, bevor Sie Ihr Software-oder Hardware-Upgrade durchführen, um mögliche Kompatibilitätsprobleme zu überprüfen.
 
-## Dokumentation in alternativen Formaten
+</div>
 
-Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Sie finden eine Übersicht über die barrierefreien Produktdokumentation auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+<div>
 
-Weitere Microsoft-Veröffentlichungen erhalten Sie bei Recording for the Blind & Dyslexic, Inc (RFB\&D). RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder ihres Vertriebsdiensts. Wenn Sie Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und Bücher von Microsoft Press benötigen, wenden Sie sich an RFB\&D.
+## <a name="documentation-in-alternative-formats"></a>Dokumentation in alternativen Formaten
+
+Wenn Sie Probleme beim Lesen oder Umgang mit gedruckten Materialien haben, können Sie die Dokumentation für viele Microsoft-Produkte in barrierefreieren Formaten abrufen. Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)unter.
+
+Darüber hinaus können Sie weitere Microsoft-Publikationen aus der Aufzeichnung für Blind #a0 Legasthenie, Inc (RFB\&D) abrufen. RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder Ihres Verteilungs Diensts. Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und Bücher von Microsoft Press erhalten Sie von\&RFB D.
 
 
 <table>
@@ -141,41 +191,67 @@ Weitere Microsoft-Veröffentlichungen erhalten Sie bei Recording for the Blind &
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Recording for the Blind &amp; Dyslexic, Inc.</p>
+<td><p>Aufzeichnung für blinde &amp; Legasthenie, Inc.</p>
 <p>20 Roszel Road</p>
-<p>Princeton, NJ 08540, USA</p>
-<p>Telefonnummer, wenn Sie innerhalb der USA anrufen: (800) 221-4792</p>
-<p>Website: Recording for the Blind &amp; Dyslexic unter <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>Princeton, NJ 08540</p>
+<p>Telefonnummer innerhalb der Vereinigten Staaten: (800) 221-4792</p>
+<p>Website: Aufzeichnung für blinde &amp; Legasthenie unter<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Kundendienst für Personen mit Behinderungen
+</div>
 
-Microsoft möchte sicherstellen, dass alle Kunden, einschließlich Personen mit Behinderungen, die bestmögliche Leistung erhalten. Wenn Sie Hilfe benötigen, wenden Sie sich per Telefon oder E-Mail an das Supportteam für Barrierefreiheit, das in der Unterstützung von Personen mit Behinderungen geschult ist.
+<div>
 
-[Kontakt zum Support für Barrierefreiheit](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+## <a name="customer-service-for-people-with-disabilities"></a>Kundendienst für Personen mit Behinderungen
+
+Microsoft möchte allen unseren Kunden, auch Menschen mit Behinderungen, die bestmögliche Erfahrung bieten. Wenn Sie Hilfe benötigen, wenden Sie sich an das Support Team für Barrierefreiheit, das geschult ist, um Personen mit Behinderungen per Telefon oder e-Mail zu helfen.
+
+[Wenden Sie sich an den answer Desk für Behinderungen](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 Direktwahltelefon: 1-800-936-5900
 
 TTY: 1-800-892-5234
 
-Wochentags: 5:00 bis 21:00 Uhr (pazifische Zeit)
+Werktags: 5 Uhr -21.00 Uhr (Pazifik Zeit)
 
-Am Wochenende: 6:00 bis 15:00 Uhr (pazifische Zeit)
+Wochenenden: 6.00 Uhr -15.00 Uhr (Pazifik Zeit)
 
-## Kundenservice für Personen mit Hörschädigungen
+</div>
 
-Wenn Sie taub oder hörgeschädigt sind, können Sie über den Texttelefondienst (TTY/TDD) auf alle Produkt- und Kundendienste von Microsoft zugreifen:
+<div>
 
-  - Kundendienst und -support stellt das Microsoft Sales Information Center unter der Rufnummer (800) 892-5234 montags bis freitags von 06:30 bis 17:30 Uhr (Pacific Time), außer an Feiertagen, zur Verfügung.
+## <a name="customer-service-for-people-with-hearing-impairments"></a>Kundenservice für Personen mit Hörschädigungen
 
-  - Technische Unterstützung in den USA bietet der Produktsupport von Microsoft, den Sie unter der Rufnummer (800) 892-5234 montags bis freitags von 06:00 bis 18:00 Uhr (Pacific Time) erreichen, außer an Feiertagen. In Kanada ist die Rufnummer (905) 568-9641 montags bis freitags von 08:00 bis 20:00 Uhr (Eastern Standard Time) erreichbar, außer an Feiertagen.
+Wenn Sie gehörlos oder schwerhörig sind, ist der vollständige Zugriff auf Microsoft-Produkte und-Kundendienste über einen Text Telephone-Service (TTY/TDD) verfügbar:
 
-Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Details hierzu finden Sie auf der Microsoft Support-Website unter <http://go.microsoft.com/fwlink/?linkid=18142>.
+  - Wenden Sie sich für den Kundendienst an das Microsoft Sales Information Center unter (800) 892-5234 zwischen 6:30 Uhr. und 5:30 Uhr Pazifik Zeit, Montag bis Freitag, ohne Feiertage.
 
-## Weitere Informationen
+  - Wenden Sie sich für technische Hilfe in den Vereinigten Staaten an den Microsoft-Produkt Support unter (800) 892-5234 zwischen 6:00 Uhr. und 6:00 Uhr Pazifik Zeit, Montag bis Freitag, ohne Feiertage. In Kanada: Wählen Sie (905) 568-9641 zwischen 8:00 Uhr und 8:00 Uhr Eastern Time, Montag bis Freitag, ohne Feiertage.
 
-Weitere Informationen dazu, wie barrierefreie Computertechnologien dazu beitragen, Menschen mit Behinderungen zu unterstützen, finden Sie auf der Microsoft-Website zur Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+Die Microsoft-Support Dienste unterliegen den Preisen, Bedingungen und Konditionen, die zum Zeitpunkt der Nutzung des Diensts gelten. Ausführliche Informationen finden Sie unter Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)-Support unter.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a>Weitere Informationen
+
+Details dazu, wie die barrierefreie Technologie für Computer hilft, das Leben von Menschen mit Behinderungen zu verbessern [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139), finden Sie unter Barrierefreiheit in Microsoft.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

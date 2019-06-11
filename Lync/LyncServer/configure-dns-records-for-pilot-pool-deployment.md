@@ -1,35 +1,65 @@
-﻿---
-title: Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
-TOCTitle: Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
-ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721921(v=OCS.15)
-ms:contentKeyID: 49890991
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure DNS records for pilot pool deployment
+ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721921(v=OCS.15)
+ms:contentKeyID: 49733855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: afde57a9ed64dbff537395ccef908ae44b86177d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839080"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-29_
 
-Vor dem Bereitstellen des Lync Server 2013-Pilotpools müssen Sie die DNS-Host-Einträge (A) für den Pilotpool aktualisieren. Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe **Domänen-Admins** oder der Gruppe **DnsAdmins** bei dem Server oder der Domäne angemeldet sein.
+Vor der Bereitstellung des lync Server 2013-pilotpools müssen Sie den DNS-Host einen Eintrag für den Pilot Pool aktualisieren. Um dieses Verfahren erfolgreich durchführen zu können, sollten Sie als Mitglied der Gruppe Domänenadministratoren oder als Mitglied der DnsAdmins-Gruppe am Server oder in der Domäne angemeldet sein.
 
-**So konfigurieren Sie DNS-Hosteinträge (A)**
+**So konfigurieren Sie DNS-Host A-Einträge**
 
-1.  Klicken Sie auf dem DNS-Server (Domain Name System) auf **Start** , klicken Sie auf **Verwaltung** und anschließend auf **DNS** .
+1.  Klicken Sie auf dem DNS-Server (Domain Name System) auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
 
-2.  Erweitern Sie in der Konsolenstruktur für Ihre Domäne den Knoten **Forward-Lookupzonen** , und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der Lync Server 2013 installiert wird.
+2.  Erweitern Sie in der Konsolenstruktur für Ihre Domäne **Forward-Lookupzonen**, und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der lync Server 2013 installiert wird.
 
-3.  Klicken Sie auf **Neuer Host (A oder AAAA)** .
+3.  Klicken Sie auf **neuer Host (A oder AAAA)**.
 
-4.  Klicken Sie auf **Name** , und geben Sie den Hostnamen für den Lync Server 2013-Pool ein (der Domänenname wird von der Zone abgeleitet, in welcher der Eintrag definiert ist, und muss nicht als Teil des A-Eintrags eingegeben werden).
+4.  Klicken Sie auf **Name**, geben Sie den Hostnamen für den lync Server 2013-Pool ein (der Domänen Name wird aus der Zone übernommen, in der der Datensatz definiert ist, und muss nicht als Teil des A-Eintrags eingegeben werden).
 
-5.  Geben Sie im Feld **IP-Adresse** die IP-Adresse für den Front-End-Pool ein.
+5.  Klicken Sie auf **IP-Adresse**, und geben Sie die IP-Adresse für den Front-End-Pool ein.
 
-6.  Klicken Sie auf **Host hinzufügen** und dann auf **OK** .
+6.  Klicken Sie auf **Host hinzufügen**, und klicken Sie dann auf **OK**.
 
-7.  Klicken Sie abschließend auf **Fertig stellen** .
+7.  Wenn Sie fertig sind, klicken Sie auf **Fertig**.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,53 @@
-﻿---
-title: Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst
-TOCTitle: Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst
-ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688085(v=OCS.15)
-ms:contentKeyID: 49890783
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring scenarios for the Centralized Logging Service
+ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
+ms:contentKeyID: 49733682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839183"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in lync Server 2013
 
-Szenarien definieren den Geltungsbereich (global, standortweit, poolweit oder computerbezogen) für den Zentraler Protokollierungsdienst und welche Dienstanbieter dafür verwendet werden. Mithilfe von Szenarien können Sie die Ablaufverfolgung für Dienstanbieter aktivieren oder deaktivieren (z. B. bzgl. S4, SIPStack, IM und Anwesenheit). Durch das Konfigurieren eines Szenarios können Sie alle Dienstanbieter für eine bestimmte logische Sammlung gruppieren, die sich mit einem bestimmten Problemzustand befassen. Sollten Sie feststellen, dass ein Szenario besser auf Ihre Problembehandlungs- und Protokollierungsbedürfnisse abgestimmt werden muss, erhalten Sie in den Debugtools von Lync Server 2013 ein Windows PowerShell-Modul namens *ClsController.psm1*, das die Funktion *Edit-CsClsScenario* enthält. Das Modul soll dazu dienen, die Eigenschaften des betreffenden Szenarios zu bearbeiten. Beispiele für die Funktionsweise des Moduls erhalten Sie in diesem Thema. Die Lync Server 2013-Debugtools werden unter dem folgenden Link heruntergeladen: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-02-05_
+
+Szenarien definieren den Bereich (Global, Site, Pool oder Computer) und welche Anbieter im zentralisierten Protokollierungsdienst zu verwenden sind. Mithilfe von Szenarien können Sie die Ablaufverfolgung für Dienstanbieter aktivieren oder deaktivieren (z. B. bezüglich S4, SIPStack, IM und Anwesenheit). Durch das Konfigurieren eines Szenarios können Sie alle Dienstanbieter für eine bestimmte logische Sammlung gruppieren, die sich mit einem bestimmten Problemzustand befassen. Wenn Sie feststellen, dass ein Szenario geändert werden muss, um die Anforderungen zur Problembehandlung und Protokollierung zu erfüllen, bietet Ihnen die lync Server 2013 Debug Tools ein Windows PowerShell-Modul mit dem Namen " *ClsController. psm1* ", das eine Funktion mit dem Namen " *Edit-CsClsScenario" enthält. *. Dieses Modul soll dazu dienen, die Eigenschaften des betreffenden Szenarios zu bearbeiten. Beispiele für die Funktionsweise des Moduls erhalten Sie in diesem Thema. Die lync Server 2013-Debug-Tools werden über den folgenden Link heruntergeladen:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+
+<div>
 
 
-> [!IMPORTANT]
-> Sie können für einen bestimmten Geltungsbereich – Standort, global, Pool oder Computer – maximal zwei Szenarien gleichzeitig ausführen. Verwenden Sie Windows PowerShell und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>, um festzustellen, welche Szenarien derzeit ausgeführt werden. Mithilfe von Windows PowerShell und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A> können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können im Laufe einer Protokollierungssitzung ändern, welche Szenarien ausgeführt werden, um somit anzupassen bzw. genau abzustimmen, welche Daten von welchen Dienstanbietern erfassst werden sollen.
+> [!IMPORTANT]  
+> Für einen bestimmten Bereich – Website, Global, Pool oder Computer – können Sie maximal zwei Szenarien zu einem bestimmten Zeitpunkt ausführen. Um zu ermitteln, welche Szenarien zurzeit ausgeführt werden, verwenden Sie Windows PowerShell und <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>. Mithilfe von Windows PowerShell und der <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">CsClsScenario</A>können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können ändern, welche Szenarien während einer Protokollierungssitzung ausgeführt werden, um die Daten, die Sie sammeln, und von welchen Anbietern anzupassen oder zu verfeinern.
 
 
 
-Um die Funktionen des Zentraler Protokollierungsdienst über die Lync Server-Verwaltungsshell auszuführen, müssen Sie ein Mitglied der Sicherheitsgruppen "CsAdministrator" oder "CsServerAdministrator" für rollenbasierten Zugriffssteuerungsrollen (RBAC, Role-Based Access Control) oder einer benutzerdefinierten rollenbasierten Zugriffssteuerungsrolle sein, die eine dieser beiden Gruppen enthält. Geben Sie den folgenden Befehl an der Lync Server-Verwaltungsshell- oder der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
+</div>
+
+Wenn Sie die Funktionen für den zentralisierten Protokollierungsdienst mithilfe der lync Server-Verwaltungsshell ausführen möchten, müssen Sie ein Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder eine benutzerdefinierte RBAC-Rolle sein, die entweder dieser beiden Gruppen. Führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde, einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -31,27 +55,32 @@ Beispiel:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Nachfolgend wird beschrieben, wie Sie ein Szenario ändern, wie Sie abrufen, welche Szenarien ausgeführt werden, wie Sie ein Szenario entfernen und wie Sie die Inhalte eines Szenarios auf eine optimale Problembehandlung abstimmen können. Es gibt zwei Möglichkeiten für die Ausgabe von Zentraler Protokollierungsdienst-Befehlen. Sie können die Datei "CLSController.exe" verwenden, die sich standardmäßig im Verzeichnis "C:\\Programme\\Gemeinsame Dateien\\Microsoft Lync Server 2013\\CLSAgent" befindet. Oder Sie verwenden die Lync Server-Verwaltungsshell für die Ausgabe von Windows PowerShell-Befehlen. Der entscheidende Unterschied liegt darin, dass Sie bei Verwendung der Datei "CLSController.exe" an der Befehlszeile eine begrenzte Auswahl an Szenarien zur Verfügung haben. Bei der Verwendung von Windows PowerShell können Sie neue Szenarien für Ihre Protokollierungssitzungen definieren.
+Nachfolgend wird beschrieben, wie Sie ein Szenario definieren, ein Szenario ändern, wie Sie abrufen, welche Szenarien ausgeführt werden, wie Sie ein Szenario entfernen und wie Sie die Inhalte eines Szenarios auf eine optimale Problembehandlung abstimmen können. Es gibt zwei Möglichkeiten zum Ausgeben von Befehlen für zentralisierte Protokollierungsdienste. Sie können\\die CLSController. exe verwenden, die sich standardmäßig im Verzeichnis C: Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\CLSAgent befindet. Oder Sie können die lync Server-Verwaltungsshell zum Ausgeben von Windows PowerShell-Befehlen verwenden. Der wichtige Unterschied besteht darin, dass bei der Verwendung von CLSController. exe in der Befehlszeile eine begrenzte Auswahl von Szenarien verfügbar ist. Wenn Sie Windows PowerShell verwenden, können Sie neue Szenarien für die Verwendung in ihren Protokollierungssitzungen definieren.
 
-Wie bereits einführend im Abschnitt [Übersicht über den zentralisierten Protokollierungsdienst](lync-server-2013-overview-of-the-centralized-logging-service.md) beschrieben, weist ein Szenario die folgenden Elemente auf:
+Wie in der [Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)eingeführt, sind die Elemente eines Szenarios:
 
-  - **Anbieter**   Wenn Sie mit OCSLogger vertraut sind, sind Ihnen Anbieter als die Komponenten bekannt, die Sie angeben, um in OCSLogger anzugeben, wovon das Ablaufverfolgungsmodul Protokolle erfassen soll. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Sollten Sie nicht mit OCSLogger vertraut sein, so können Anbieter als serverrollenspezifische Komponenten definiert werden, aus denen der Zentraler Protokollierungsdienst Protokolle erfassen kann. Ausführliche Informationen zum Konfigurieren von Anbietern, erhalten Sie im Abschnitt [Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
+  - **Anbieter**   Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, die Sie angeben, um OCSLogger zu informieren, von welchem das Ablaufverfolgungsmodul Protokolle sammeln soll. Die Anbieter sind die gleichen Komponenten und haben in vielen Fällen denselben Namen wie die Komponenten in OCSLogger. Wenn Sie mit OCSLogger nicht vertraut sind, sind Anbieterserver rollenspezifische Komponenten, von denen der zentralisierte Protokollierungsdienst Protokolle sammeln kann. Details zur Konfiguration von Anbietern finden Sie unter [Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
 
-  - **Identität**   Der Parameter "–Identity" legt den Geltungsbereich und Namen des Szenarios fest. So können Sie beispielsweise den Geltungsbereich "global" festlegen und das Szenario "LyssServiceScenario" nennen. Durch die Kombination aus diesen beiden Festlegungen definieren Sie den Parameter "Identitiy" (z. B. "global/LyssServiceScenario").
+  - **Identity**   the Parameter – Identity legt den Bereich und den Namen des Szenarios fest. So können Sie beispielsweise einen Bereich von "Global" festlegen und das Szenario mit "LyssServiceScenario" identifizieren. Wenn Sie die beiden kombinieren, definieren Sie die Identität (beispielsweise "Global/LyssServiceScenario").
     
-    Optional können Sie auch die Parameter "–Name" und "–Parent" verwenden. Sie definieren den Parameter "Name", um das Szenario eindeutig zu identifizieren. Wenn Sie "Name" verwenden, müssen Sie auch "Parent" verwenden, um das Szenario entweder einem globalen oder einem standortweiten Geltungsbereich hinzuzufügen.
+    Optional können Sie auch die Parameter „–Name“ und „–Parent“ verwenden. Sie definieren den Parameter „Name“, um das Szenario eindeutig zu identifizieren. Wenn Sie „Name“ verwenden, müssen Sie auch „Parent“ verwenden, um das Szenario entweder einem globalen oder einem standortweiten Geltungsbereich hinzuzufügen.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Falls Sie die Parameter "Name" und "Parent" verwenden, können Sie den Parameter <STRONG>–Identity</STRONG> nicht verwenden.
+    > [!IMPORTANT]  
+    > Falls Sie die Parameter „Name“ und „Parent“ verwenden, können Sie den Parameter <STRONG>–Identity</STRONG> nicht verwenden.
 
+    
+    </div>
 
+<div>
 
-## So erstellen Sie ein neues Szenario mit dem Cmdlet "New-CsClsScenario"
+## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit dem Cmdlet „New-CsClsScenario“
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Verwenden Sie für die Erstellung eines neuen Szenarios für eine Protokollierungssitzung [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider), und definieren Sie den Namen für das Szenario (d. h. dessen eindeutige Identifizierung). Wählen Sie als Typ für das Protokollierungsformat entweder WPP (Windows-Präprozessorformat für die Softwareablaufverfolgung, Standard), EventLog (Windows-Ereignisprotokoll-Format) oder IISLog (Datei im ASCII-Format basierend auf dem IIS-Protokolldatei-Format). Definieren Sie anschließend den Protokolliergrad (gemäß der Definition im entsprechenden Abschnitt in diesem Thema) und die Flags (gemäß der Definition im entsprechenden Abschnitt in diesem Thema).
+2.  Verwenden Sie für die Erstellung eines neuen Szenarios für eine Protokollierungssitzung [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) und definieren Sie den Namen für das Szenario (d. h. dessen eindeutige Identifikation). Wählen Sie als Typ für das Protokollierungsformat entweder WPP (Windows-Präprozessorformat für die Softwareablaufverfolgung, Standard), EventLog (Windows-Ereignisprotokoll-Format) oder IISLog (Datei im ASCII-Format basierend auf dem IIS-Protokolldatei-Format). Definieren Sie anschließend den Protokolliergrad (gemäß der Definition im entsprechenden Abschnitt in diesem Thema) und die Flags (gemäß der Definition im entsprechenden Abschnitt in diesem Thema).
     
     Für dieses Beispielszenario verwenden wir LyssProvider als Beispiel für die Anbietervariable.
     
@@ -63,29 +92,40 @@ Wie bereits einführend im Abschnitt [Übersicht über den zentralisierten Proto
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     
-    Alternatives Format unter Verwendung von "–Name" und "–Parent":
+    Alternatives Format unter Verwendung von „–Name“ und „–Parent“:
     
         New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
 
-## So erstellen Sie ein neues Szenario mit mehreren Anbietern mit dem Cmdlet "New-CsClsScenario"
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<div>
 
-2.  Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten LyssProvider, ABServerProvider und SIPStackProvider. Geben Sie Folgendes an einer Lync Server-Verwaltungsshell- oder Windows PowerShell-Eingabeaufforderung ein, um mehrere Anbieter zu definieren und einem Szenario zuzuweisen:
+## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit mehreren Anbietern mithilfe des Cmdlets „New-CsClsScenario“
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten „LyssProvider“, „ABServerProvider“ und „SIPStackProvider“. Wenn Sie einem Szenario mehrere Anbieter definieren und zuweisen möchten, geben Sie Folgendes an einer lync Server-Verwaltungsshell oder Windows PowerShell-Eingabeaufforderung ein:
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
+    <div>
+    
 
-    > [!NOTE]
-    > Bekanntermaßen wird in der Windows PowerShell die Konvention für die Erstellung einer Hashtabelle unter Verwendung von <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> als <EM>Splatten</EM> bezeichnet. Ausführliche Informationen zum Splatten in Windows PowerShell erhalten Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x407</A>.
+    > [!NOTE]  
+    > Wie es in Windows PowerShell bekannt ist, wird die Konvention zum Erstellen einer Hashtabelle mit Werten <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> unter dem Namen <EM>splatting</EM>. Ausführliche Informationen zu splatting in Windows PowerShell finden Sie <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>unter.
 
+    
+    </div>
 
+</div>
 
-## So ändern Sie ein vorhandenes Szenario mit dem Cmdlet "Set-CsClsScenario"
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>So ändern Sie ein vorhandenes Szenario mithilfe des Cmdlets „Set-CsClsScenario“
 
-2.  Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt das entfernte Szenario nicht mehr, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Gehen Sie wie folgt vor, um ein neues Szenarios zu definieren (hierbei wird angenommen, dass ein bereits definierter Anbieter namens "S4Provider" hinzugefügt wurde):
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt nicht mehr das entfernte Szenario, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Gehen Sie wie folgt vor, um ein neues Szenarios zu definieren (hierbei wird angenommen, dass ein bereits definierter Anbieter namens „S4Provider“ hinzugefügt wurde):
     
         Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
     
@@ -93,67 +133,88 @@ Wie bereits einführend im Abschnitt [Übersicht über den zentralisierten Proto
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
     
-    Falls Sie Anbieter ersetzen möchten, definieren Sie einen einzelnen Anbieter oder eine durch Kommas getrennte Liste mit Anbietern, um die aktuelle Gruppe zu ersetzten. Für den Fall, dass Sie nur einen von vielen Anbietern ersetzen möchten, fügen Sie die aktuellen Anbieter zu den neuen Anbietern hinzu, um eine neue Gruppe von Anbietern zu erstellen, die sowohl die neuen als auch die zuvor vorhandenen Anbieter enthält. Geben Sie Folgendes ein, um sämtliche Anbieter durch eine neue Gruppe zu ersetzen:
+    Falls Sie Anbieter ersetzen möchten, definieren Sie einen einzelnen Anbieter oder eine kommagetrennte Liste mit Anbietern, um die aktuelle Gruppe zu ersetzen. Für den Fall, dass Sie nur einen von vielen Anbietern ersetzen möchten, fügen Sie die aktuellen Anbieter zu den neuen Anbietern hinzu, um eine neue Gruppe von Anbietern zu erstellen, die sowohl die neuen als auch die zuvor vorhandenen Anbieter enthält. Geben Sie Folgendes ein, um sämtliche Anbieter durch eine neue Gruppe zu ersetzen:
     
         Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
     
-    Beispiel, bei dem die aktuelle aus "$LyssProvider", "$ABServerProvider" und "$SIPStackProvider" bestehende Gruppe durch "$LyssServiceProvider" ersetzt wird:
+    Beispiel, bei dem die aktuelle aus „$LyssProvider“, „$ABServerProvider“ und „$SIPStackProvider“ bestehende Gruppe durch „$LyssServiceProvider“ ersetzt wird:
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
     
-    Geben Sie Folgendes ein, um lediglich den Anbieter "$LyssProvider" aus der aktuellen Gruppe mit "$LyssProvider", "$ABServerProvider" und "$SIPStackProvider" durch den Anbieter "$LyssServiceProvider" zu ersetzen:
+    Geben Sie Folgendes ein, um lediglich den Anbieter „$LyssProvider“ aus der aktuellen Gruppe mit „$LyssProvider“, „$ABServerProvider“ und „$SIPStackProvider“ durch den Anbieter „$LyssServiceProvider“ zu ersetzen:
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
 
-## So entfernen Sie ein vorhandenes Szenario mit dem Cmdlet "Remove-CsClsScenario"
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<div>
+
+## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>So entfernen Sie ein vorhandenes Szenario mithilfe des Cmdlets „Remove-CsClsScenario“
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Wenn Sie ein Szenario entfernen möchten, das zuvor definiert wurde, geben Sie Folgendes ein:
     
         Remove-CsClsScenario -Identity <name of scope and scenario>
     
-    Beispiel für das Entfernen des Szenarios "site:Redmond/LyssServiceScenario":
+    Beispiel für das Entfernen des Szenarios „site:Redmond/LyssServiceScenario“:
     
         Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
 
-Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereits erfassten Ablaufverfolgungen sind jedoch nach wie vor in den Protokollen verfügbar und können gesucht werden.
+Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario. Die bereits erfassten Ablaufverfolgungen sind jedoch nach wie vor in den Protokollen verfügbar und können gesucht werden.
 
-## So laden und entladen Sie das Cmdlet "Edit-CsClsScenario" mithilfe des ClsController.psm1-Moduls
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<div>
+
+## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>So laden und Entladen Sie das Cmdlet "Edit-CsClsScenario" mit dem ClsController. psm1-Modul
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Das ClsController.psm1-Modul wird als separater Webdownload zur Verfügung gestellt. Das Modul ist Bestandteil der Lync Server 2013-Debuggingtools. Die Debuggingtools werden standardmäßig im Ordner "C:\Programme\Lync Server 2013\Debugging Tools" installiert.
+    > [!IMPORTANT]  
+    > Das ClsController. psm1-Modul wird als separater Webdownload bereitgestellt. Das Modul gehört zu den lync Server 2013-Debugging-Tools. Standardmäßig werden die Debug-Tools im Verzeichnis C:\Program Files\Lync Server 2013 \ Debugging Tools installiert.
 
+    
+    </div>
 
-
-2.  Geben Sie über die Windows PowerShell Folgendes ein:
+2.  Geben Sie in der Windows PowerShell Folgendes ein:
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
+    <div>
+    
 
-    > [!TIP]
-    > Nachdem das Modul erfolgreich geladen wurde, gelangen Sie wieder zur Windows PowerShell-Eingabeaufforderung. Zur Bestätigung, dass das Modul geladen wurde und dass "Edit-CsClsScenario" verfügbar ist, geben Sie <CODE>Get-Help Edit-CsClsScenario</CODE> ein. Daraufhin sollte die grundlegende Kurzfassung der Syntax für EditCsClsScenario angezeigt werden.
+    > [!TIP]  
+    > Durch erfolgreiches Laden des Moduls kehren Sie zur Windows PowerShell-Eingabeaufforderung zurück. Um zu überprüfen, ob das Modul geladen wurde und dass Edit-CsClsScenario verfügbar <CODE>Get-Help Edit-CsClsScenario</CODE>ist, geben Sie. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden.
 
+    
+    </div>
 
-
-3.  Geben Sie zum Entladen der Module Folgendes ein:
+3.  Geben Sie zum Entladen des Moduls Folgendes ein:
     
         Remove-Module ClsController
     
+    <div>
+    
 
-    > [!TIP]
-    > Nachdem das Modul erfolgreich entladen wurde, gelangen Sie wieder zur Windows PowerShell-Eingabeaufforderung. Geben Sie <CODE>Get-Help Edit-CsClsScenario</CODE> ein, um zu bestätigen, dass das Modul entladen wurde. Windows PowerShell sucht daraufhin erfolglos die Hilfe für das Cmdlet.
+    > [!TIP]  
+    > Durch erfolgreiches Entladen des Moduls kehren Sie zur Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul entladen wird, geben <CODE>Get-Help Edit-CsClsScenario</CODE>Sie. Windows PowerShell versucht, die Hilfe für das Cmdlet zu finden, und es wird ein Fehler ausgeführt.
 
+    
+    </div>
 
+</div>
 
-## So entfernen Sie einen vorhandenen Anbieter mithilfe des Edit-ClsController-Moduls aus einem Szenario
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>So entfernen Sie einen vorhandenen Anbieter mithilfe des Edit-ClsController-Moduls aus einem Szenario
 
-2.  Geben Sie Folgendes ein, um einen Anbieter aus dem AlwaysOn-Szenario zu entfernen:
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Geben Sie Folgendes ein, um einen Anbieter aus dem Szenario „AlwaysOn“ zu entfernen:
     
         Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
     
@@ -161,17 +222,21 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
     
-    Bei den Parametern "ScenarioName" und "ProviderName" handelt es sich um Positionsparameter (d. h., dass sie in der erwarteten Position in der Eingabeaufforderung definiert werden müssen). Der Parametername muss nicht explizit definiert werden, sofern der Szenarioname an zweiter Position und der Anbieter an dritter Position steht (in Bezug auf den Namen des Cmdlets, der an erster Position steht):
+    Bei den Parametern „ScenarioName“ und „ProviderName“ handelt es sich um Positionsparameter (d. h., dass sie in der erwarteten Position in der Eingabeaufforderung definiert werden müssen). Der Parametername muss nicht explizit definiert werden, sofern der Szenarioname an zweiter Position und der Anbieter an dritter Position steht (in Bezug auf den Namen des Cmdlets, der an erster Position steht):
     
         Edit-CsClsScenario AlwaysOn ChatServer -Remove
     
-    Die Platzierung der Parameterwerte an einer bestimmten Position gilt nur für "–Scenario" und "–Provider". Alle anderen Parameter müssen explizit definiert werden.
+    Die Platzierung der Parameterwerte an einer bestimmten Position gilt nur für  „–Scenario“ und „–Provider“. Alle anderen Parameter müssen explizit definiert werden.
 
-## So fügen Sie ein Szenario mit dem Edit-ClsController-Modul hinzu
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<div>
 
-2.  Geben Sie Folgendes ein, um einen Anbieter zum AlwaysOn-Szenario hinzuzufügen:
+## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>So fügen Sie ein Szenario mit dem Modul „Edit-ClsController“ hinzu
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Geben Sie Folgendes ein, um einen Anbieter zum Szenario „AlwaysOn“ hinzuzufügen:
     
         Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
     
@@ -179,9 +244,21 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    Mögliche Typen für "-Loglevel" sind "Fatal", "Error", "Warning", "Info", "Verbose", "Debug" oder "All". Für "–Flags" sind sämtliche Flags möglich, die vom Anbieter unterstützt werden, beispielsweise TF\_COMPONENT, TF\_DIAG. Der Wert ALL ist für "–Flags" ebenfalls möglich.
+    \-LogLevel kann vom Typ fatal, Error, Warning, Info, Verbose, Debug oder all sein. – Flags können beliebige der vom Anbieter unterstützten Flags sein, wie TF\_-Komponente, TF\_diag. Der Wert ALL ist für „–Flags“ ebenfalls möglich.
     
-    Das vorherige Beispiel kann auch mithilfe des Positionsfeatures des Cmdlets eingegeben werden. So würden Sie beispielsweise Folgendes eingeben, um "ChatServer" zum AlwaysOn-Szenario hinzuzufügen:
+    Das vorherige Beispiel kann auch mithilfe der Positionsfunktion des Cmdlets eingegeben werden. So würden Sie beispielsweise Folgendes eingeben, um „ChatServer“ zum Szenario „AlwaysOn“ hinzuzufügen:
     
         Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

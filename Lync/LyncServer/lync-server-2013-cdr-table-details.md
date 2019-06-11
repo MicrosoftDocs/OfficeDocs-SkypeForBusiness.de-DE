@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Ausführliche Informationen zur CDR-Tabelle'
-TOCTitle: Ausführliche Informationen zur CDR-Tabelle
-ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398693(v=OCS.15)
-ms:contentKeyID: 49294668
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführliche Informationen zur CDR-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CDR table details
+ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:contentKeyID: 48184730
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f87e681cc25f9ed64509ff3bdb31abc5fd77101d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839675"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführliche Informationen zur CDR-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="cdr-table-details-in-lync-server-2013"></a>Ausführliche Informationen zur CDR-Tabelle in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-18_
 
-Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den einzelnen CDR-Datenbankschematabellen (Call Detail Record).
+In den folgenden Themen werden die Spalten in den Datenbankschema Tabellen für den Anruf Detaildatensatz (CDR) detailliert beschrieben.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Application-Tabelle in Lync Server 2013](lync-server-2013-application-table.md)
 
@@ -27,7 +49,7 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [ClientVersions-Tabelle in Lync Server 2013](lync-server-2013-clientversions-table.md)
 
-  - [ConferenceJoinTimeThresholds-Tabelle](lync-server-2013-conferencejointimethresholds-table.md)
+  - [ConferenceJoinTimeThresholds-Tabelle in lync Server 2013](lync-server-2013-conferencejointimethresholds-table.md)
 
   - [ConferenceMessageCount-Tabelle in Lync Server 2013](lync-server-2013-conferencemessagecount-table.md)
 
@@ -47,7 +69,7 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [EdgeServers-Tabelle in Lync Server 2013](lync-server-2013-edgeservers-table.md)
 
-  - [ErrorCategory-Tabelle](lync-server-2013-errorcategory-table.md)
+  - [ErrorCategory-Tabelle in lync Server 2013](lync-server-2013-errorcategory-table.md)
 
   - [ErrorDef-Tabelle in Lync Server 2013](lync-server-2013-errordef-table.md)
 
@@ -57,13 +79,13 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [FocusJoinsAndLeaves-Tabelle in Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [FrontEnd-Tabelle](lync-server-2013-frontend-table.md)
+  - [Frontend-Tabelle in lync Server 2013](lync-server-2013-frontend-table.md)
 
   - [Gateways-Tabelle in Lync Server 2013](lync-server-2013-gateways-table.md)
 
   - [HardwareVersions-Tabelle in Lync Server 2013](lync-server-2013-hardwareversions-table.md)
 
-  - [IMReportSummary-Tabelle](lync-server-2013-imreportsummary-table.md)
+  - [IMReportSummary-Tabelle in lync Server 2013](lync-server-2013-imreportsummary-table.md)
 
   - [Locations-Tabelle in Lync Server 2013](lync-server-2013-locations-table.md)
 
@@ -79,7 +101,7 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [MediationServers-Tabelle in Lync Server 2013](lync-server-2013-mediationservers-table.md)
 
-  - [MSMQProcessing-Tabelle](lync-server-2013-msmqprocessing-table.md)
+  - [MSMQProcessing-Tabelle in lync Server 2013](lync-server-2013-msmqprocessing-table.md)
 
   - [Phones-Tabelle in Lync Server 2013](lync-server-2013-phones-table.md)
 
@@ -87,7 +109,7 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [ProgressReport-Tabelle in Lync Server 2013](lync-server-2013-progressreport-table.md)
 
-  - [PurgeSettings-Tabelle](lync-server-2013-purgesettings-table.md)
+  - [PurgeSettings-Tabelle in lync Server 2013](lync-server-2013-purgesettings-table.md)
 
   - [Registration-Tabelle in Lync Server 2013](lync-server-2013-registration-table.md)
 
@@ -97,13 +119,13 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [SessionDetails-Tabelle in Lync Server 2013](lync-server-2013-sessiondetails-table.md)
 
-  - [SIPResponseMetaData-Tabelle](lync-server-2013-sipresponsemetadata-table.md)
+  - [SIPResponseMetaData-Tabelle in lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Syndicators-Tabelle](lync-server-2013-syndicators-table.md)
+  - [Tabelle "Syndikator" in lync Server 2013](lync-server-2013-syndicators-table.md)
 
-  - [SyndicatorsTenantMap-Tabelle](lync-server-2013-syndicatorstenantmap-table.md)
+  - [SyndicatorsTenantMap-Tabelle in lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Task-Tabelle](lync-server-2013-task-table.md)
+  - [Aufgaben Tabelle in lync Server 2013](lync-server-2013-task-table.md)
 
   - [Tenants-Tabelle in Lync Server 2013](lync-server-2013-tenants-table.md)
 
@@ -111,9 +133,21 @@ Die folgenden Themen enthalten ausführliche Informationen zu den Spalten in den
 
   - [Users-Tabelle in Lync Server 2013](lync-server-2013-users-table.md)
 
-  - [UserAgentDef-Tabelle](lync-server-2013-useragentdef-table.md)
+  - [UserAgentDef-Tabelle in lync Server 2013](lync-server-2013-useragentdef-table.md)
 
-  - [UserStatistics-Tabelle](lync-server-2013-userstatistics-table.md)
+  - [UserStatistics-Tabelle in lync Server 2013](lync-server-2013-userstatistics-table.md)
 
   - [VoipDetails-Tabelle in Lync Server 2013](lync-server-2013-voipdetails-table.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

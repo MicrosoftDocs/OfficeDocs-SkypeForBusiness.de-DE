@@ -1,43 +1,85 @@
-﻿---
-title: Konfigurieren von Netzwerkregionen für die Anrufsteuerung in Lync Server 2013
-TOCTitle: Konfigurieren von Netzwerkregionen für die Anrufsteuerung in Lync Server 2013
-ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399051(v=OCS.15)
-ms:contentKeyID: 49295781
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von netzwerkregionen für CAC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure network regions for CAC
+ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399051(v=OCS.15)
+ms:contentKeyID: 48185906
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 773bae62596143c0e974ae02f2bd643172a99ac3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839344"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Netzwerkregionen für die Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>Konfigurieren von netzwerkregionen für CAC in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-
-> [!IMPORTANT]
-> Wenn Sie bereits Netzwerkregionen für E9-1-1 oder die Medienumgehung erstellt haben, können Sie diesen Netzwerkregionen mithilfe des <STRONG>Set-CsNetworkRegion</STRONG>-Cmdlets Einstellungen für die Anrufsteuerung (Call Admission Control, CAC) hinzufügen. Ein Beispiel für das Ändern einer Netzwerkregion finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">Erstellen oder Ändern einer Netzwerkregion in Lync Server 2013</A>.
+<div>
 
 
-
-Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird. Erstellen Sie mithilfe des folgenden Verfahrens Netzwerkregionen gemäß denen in der Beispielnetzwerktopologie für die Anrufsteuerung. Die Beispielnetzwerktopologie finden Sie unter [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
-
-Die Beispielnetzwerktopologie für die Anrufsteuerung umfasst drei Regionen: Nordamerika, EMEA und APAC. Jede Region verfügt über einen eigenen zentralen Standort. Der Name des zentralen Standorts in der Region "North America" lautet CHICAGO. Das folgende Beispiel zeigt, wie Sie die Region "North America" mithilfe des **New-CsNetworkRegion**-Cmdlets erstellen können.
-
-
-> [!NOTE]
-> Im folgenden Verfahren wird die Lync Server-Verwaltungsshell zum Erstellen einer Netzwerkregion verwendet. Ausführliche Informationen zum Verwenden der Lync Server-Systemsteuerung zum Erstellen einer Netzwerkregion finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">Erstellen oder Ändern einer Netzwerkregion in Lync Server 2013</A>.
+> [!IMPORTANT]  
+> Wenn Sie bereits netzwerkregionen für E9-1-1 oder Media Bypass erstellt haben, können Sie die vorhandenen netzwerkregionen ändern, indem Sie mithilfe des Cmdlets " <STRONG>festlegen-CsNetworkRegion</STRONG> " spezifische Einstellungen für die Anrufannahme Steuerung (CAC) hinzufügen. Ein Beispiel für das Ändern eines Netzwerkbereichs finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013</A>.
 
 
 
-## So erstellen Sie eine Netzwerkregion für die Anrufsteuerung
+</div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+*Netzwerkregionen* sind die Netzwerkhubs oder Backbones, die bei der Konfiguration von CAC, E9-1-1 und medienumgehung verwendet werden. Gehen Sie wie folgt vor, um netzwerkregionen zu erstellen, die in der Beispiel Netzwerktopologie für CAC an netzwerkregionen ausgerichtet sind. Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beispiel: Sammeln Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
-2.  Führen Sie für jede Region, die Sie erstellen möchten, das **New-CsNetworkRegion**-Cmdlet aus. Zum Erstellen der Region "North America" führen Sie beispielsweise den folgenden Befehl aus:
+Die Beispiel Netzwerktopologie für CAC umfasst drei Regionen: Nordamerika, EMEA und APAC. Jede Region hat eine angegebene zentrale Website. Für die Region Nordamerika hat der designierte zentrale Standort den Namen Chicago. Das folgende Verfahren zeigt ein Beispiel dafür, wie Sie das Cmdlet **New-CsNetworkRegion** zum Erstellen der Region Nordamerika verwenden können.
+
+<div>
+
+
+> [!NOTE]  
+> Im folgenden Verfahren wird die lync Server-Verwaltungsshell zum Erstellen eines Netzwerkbereichs verwendet. Details zur Verwendung der lync Server-Systemsteuerung zum Erstellen eines Netzwerkbereichs finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013</A>.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-a-network-region-for-call-admission-control"></a>So erstellen Sie einen Netzwerkbereich für die Anrufsteuerung
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Führen Sie für jede Region, die Sie erstellen müssen, das Cmdlet **New-CsNetworkRegion** aus. Wenn Sie beispielsweise die Region Nordamerika erstellen möchten, führen Sie Folgendes aus:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  Wiederholen Sie Schritt 2, um die Netzwerkregionen "EMEA" und "APAC" zu erstellen.
+3.  Wiederholen Sie Schritt 2, um die netzwerkregionen EMEA und APAC zu erstellen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

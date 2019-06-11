@@ -1,25 +1,45 @@
-﻿---
-title: Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE-Einstellungen
-TOCTitle: Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE-Einstellungen
-ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204621(v=OCS.15)
-ms:contentKeyID: 49292976
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurieren von KDS- (Aufzeichnung von Kommunikationsdatensätzen) und QoE-Einstellungen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring call detail recording and Quality of Experience settings
+ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
+ms:contentKeyID: 48183223
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839281"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE-Einstellungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Konfigurieren der Einstellungen für die Anrufdetailaufzeichnung und die Qualität der Benutzerfreundlichkeit in lync Server 2013
 
-Nachdem Sie einen Überwachungsspeicher einem Front-End-Pool zugeordnet, den Überwachungsspeicher eingerichtet und anschließend SQL Server Reporting Services und Überwachungsberichte installiert und konfiguriert haben, können Sie die Überwachung der Aufzeichnung von Kommunikationsdatensätzen (KDS) und QoE (Quality of Experience) mithilfe der Lync Server-Verwaltungsshell verwalten. Lync Server-Verwaltungsshell-Cmdlets ermöglichen Ihnen das Aktivieren und Deaktivieren der KDS- und/oder QoE-Überwachung für eine bestimmte Website oder Ihre gesamte Lync Server-Bereitstellung. Dazu ist lediglich ein einfacher Befehl wie der Folgende erforderlich:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
+
+Nachdem Sie einen Überwachungsspeicher mit einem Front-End-Pool verknüpft haben, Einrichten des überwachungsspeichers und anschließendes Installieren und Konfigurieren von SQL Server Reporting Services-und Überwachungsberichten können Sie die Anruf Detail Aufzeichnung (CDR) und die Quality of Experience (QoE) verwalten. Überwachen mithilfe der lync Server-Verwaltungsshell. Cmdlets der lync Server-Verwaltungsshell ermöglichen es Ihnen, die CDR-und/oder QoE-Überwachung für eine bestimmte Website oder für die gesamte lync Server-Bereitstellung zu aktivieren und zu deaktivieren. Dies kann mit einem einfachen Befehl erfolgen:
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
-Bei der Installation von Microsoft Lync Server 2013 installieren Sie auch eine vordefinierte Auflistung von global Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
+Wenn Sie Microsoft lync Server 2013 installieren, können Sie auch eine vordefinierte Sammlung globaler Konfigurationseinstellungen für CDR und QoE installieren. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
 
 
 <table>
@@ -38,23 +58,23 @@ Bei der Installation von Microsoft Lync Server 2013 installieren Sie auch eine v
 <tbody>
 <tr class="odd">
 <td><p>EnableCDR</p></td>
-<td><p>Gibt an, ob KDS aktiviert ist. Bei &quot;True&quot; werden alle KDS-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
+<td><p>Gibt an, ob KDS aktiviert ist. Bei „True“ werden alle KDS-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
 <td><p>True</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
-<td><p>Gibt an, ob KDS-Datensätze regelmäßig aus der Datenbank gelöscht werden. Bei Festlegung auf &quot;True&quot; werden Einträge nach dem Zeitraum gelöscht, der in den Eigenschaften &quot;KeepCallDetailForDays&quot; (KDS-Datensätze) und &quot;KeepErrorReportForDays&quot; (KDS-Fehler) angegeben ist. Bei Festlegung des Parameters auf &quot;False&quot; werden KDS-Einträge nie gelöscht.</p></td>
+<td><p>Gibt an, ob KDS-Datensätze regelmäßig aus der Datenbank gelöscht werden. Bei Festlegung auf „True“ werden Einträge nach dem Zeitraum gelöscht, der in den Eigenschaften „KeepCallDetailForDays“ (KDS-Datensätze) und „KeepErrorReportForDays“ (KDS-Fehler) angegeben ist. Bei Festlegung des Parameters auf „False“ werden KDS-Einträge nie gelöscht.</p></td>
 <td><p>True</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepCallDetailForDays</p></td>
 <td><p>Gibt die Anzahl von Tagen an, die KDS-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.</p>
-<p>&quot;KeepCallDetailForDays&quot; kann auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (ungefähr 7 Jahre) festgelegt werden.</p></td>
+<p>„KeepCallDetailForDays“ kann auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (ungefähr 7 Jahre) festgelegt werden.</p></td>
 <td><p>60 Tage</p></td>
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
-<td><p>Gibt die Anzahl von Tagen an, die KDS-Fehlerberichte aufbewahrt werden. Berichte, die älter sind als angegeben, werden automatisch gelöscht. Fehlerberichte zu Kommunikationsdatensätzen sind Diagnoseberichte, die von Clientanwendungen wie z. B. Microsoft Lync 2013 hochgeladen werden.</p>
+<td><p>Gibt an, wie viele Tage CdR-Fehlerberichte aufbewahrt werden. Alle Berichte, die älter als die angegebene Anzahl von Tagen sind, werden automatisch gelöscht. CdR-Fehlerberichte sind Diagnoseberichte, die von Clientanwendungen wie Microsoft lync 2013 hochgeladen wurden.</p>
 <p>Sie können diese Eigenschaft auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (etwa 7 Jahre) festlegen.</p></td>
 <td><p>60 Tage</p></td>
 </tr>
@@ -81,29 +101,29 @@ Entsprechend werden in dieser Tabelle Standardwerte für ausgewählte QoE-Einste
 <tbody>
 <tr class="odd">
 <td><p>EnableQoE</p></td>
-<td><p>Gibt an, ob die QoE-Überwachung aktiviert ist. Bei Festlegung auf &quot;True&quot; werden alle QoE-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
+<td><p>Gibt an, ob die QoE-Überwachung aktiviert ist. Bei Festlegung auf „True“ werden alle QoE-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
 <td><p>True</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
-<td><p>Gibt an, ob QoE-Datensätze regelmäßig aus der Datenbank gelöscht werden oder nicht. Wenn dieser Parameter auf &quot;True&quot; festgelegt ist, werden die Einträge nach der über die Eigenschaft &quot;KeepQoEDataForDays&quot; angegebenen Zeitdauer gelöscht. Bei Festlegung des Parameters auf &quot;False&quot; werden QoE-Datensätze nie gelöscht.</p></td>
+<td><p>Gibt an, ob QoE-Datensätze regelmäßig aus der Datenbank gelöscht werden oder nicht. Wenn dieser Parameter auf „True“ festgelegt ist, werden die Einträge nach der über die Eigenschaft „KeepQoEDataForDays“ angegebenen Zeitdauer gelöscht. Bei Festlegung des Parameters auf „False“ werden QoE-Datensätze nie gelöscht.</p></td>
 <td><p>True</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepQoEDataForDays</p></td>
 <td><p>Gibt die Anzahl von Tagen an, die QoE-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.</p>
-<p>&quot;KeepCallDetailForDays&quot; kann auf einen beliebigen Ganzzahlwert zwischen einschließlich 1 und 2562 Tage gesetzt werden.</p></td>
+<p>„KeepCallDetailForDays“ kann auf einen beliebigen Ganzzahlwert zwischen einschließlich 1 und 2562 Tage gesetzt werden.</p></td>
 <td><p>60 Tage</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie diese globalen Einstellungen ändern müssen, können Sie dazu die Cmdlets "Set-CsCdrConfiguration" und "Set-CsQoEConfiguration" verwenden. Beispielsweise deaktiviert dieser Befehl (ausgeführt in der Lync Server-Verwaltungsshell) die KDS-Überwachung auf globaler Ebene; dazu wird die Eigenschaft "EnableCDR" auf "False" ($False) festgelegt:
+Wenn Sie diese globalen Einstellungen ändern müssen, können Sie dazu die Cmdlets „Set-CsCdrConfiguration“ und „Set-CsQoEConfiguration“ verwenden. Mit diesem Befehl (der in der lync Server-Verwaltungsshell ausgeführt wird) wird beispielsweise die CDR-Überwachung im globalen Bereich deaktiviert. Dies erfolgt durch Festlegen der EnableCDR-Eigenschaft auf "false" ($false):
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 
-Durch das Deaktivieren der Überwachung wird weder die Zuordnung des Überwachungsspeichers zum Front-End-Pool aufgehoben, noch wird die Back-End-Überwachungsdatenbank deinstalliert oder anderweitig geändert. Wenn Sie die KDS- oder QoE-Überwachung mithilfe der Lync Server-Verwaltungsshell deaktivieren, müssen Sie lediglich das Sammeln und Archivieren von Überwachungsdaten durch Lync Server anhalten. Wenn Sie in diesem Fall das Sammeln und Archivieren von KDS-Daten fortsetzen möchten, müssen Sie nur die Eigenschaft "EnableCDR" wieder auf "True" ($True) festlegen:
+Durch das Deaktivieren der Überwachung wird weder die Zuordnung des Überwachungsspeichers zum Front-End-Pool aufgehoben, noch wird die Back-End-Überwachungsdatenbank deinstalliert oder anderweitig geändert. Wenn Sie die lync Server-Verwaltungsshell zum Deaktivieren der CDR-oder QoE-Überwachung verwenden, müssen Sie lync Server vorübergehend nicht mehr für das Sammeln und Archivieren von Überwachungsdaten verwenden. Wenn Sie in diesem Fall das Sammeln und Archivieren von KDS-Daten fortsetzen möchten, müssen Sie nur die Eigenschaft „EnableCDR“ wieder auf „True“ ($True) festlegen:
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
@@ -111,7 +131,7 @@ Entsprechend deaktiviert dieser Befehl den Löschvorgang für QoE-Datensätze au
 
     Set-CsQoEConfiguration -Identity "global" -EnablePurging $False
 
-Neben den globalen Einstellungen können KDS- und QoE-Konfigurationeneinstellungen auch auf Standortebene zugewiesen werden. Dadurch wird die Verwaltung bei der Überwachung flexibler gestaltet; ein Administrator kann beispielsweise die KDS-Überwachung für den Standort Redmond aktivieren, für den Standort Dublin jedoch deaktivieren. Verwenden Sie einen Befehl wie den folgenden, um neue KDS-Konfigurationseinstellungen auf Standortebene zu erstellen:
+Neben den globalen Einstellungen können KDS- und QoE-Konfigurationseinstellungen auch auf Standortebene zugewiesen werden. Dadurch wird die Verwaltung bei der Überwachung flexibler gestaltet; ein Administrator kann beispielsweise die KDS-Überwachung für den Standort Redmond aktivieren, für den Standort Dublin jedoch deaktivieren. Verwenden Sie einen Befehl wie den folgenden, um neue KDS-Konfigurationseinstellungen auf Standortebene zu erstellen:
 
     New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 
@@ -121,10 +141,20 @@ Neue QoE-Konfigurationseinstellungen auf Standortebene können mit einem Befehl 
 
     New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 
-Geben Sie die folgenden Befehle in der Lync Server-Verwaltungsshell ein, um weitere Informationen zu erhalten:
+Wenn Sie weitere Informationen wünschen, geben Sie in der lync Server-Verwaltungsshell die folgenden Befehle ein:
 
     Get-Help New-CsCdrConfiguration | more
     Get-Help Set-CsCdrConfiguration | more
     Get-Help New-CsQoEConfiguration | more
     Get-Help Set-CsQoEConfiguration | more
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,67 +1,119 @@
-﻿---
-title: Konfigurieren von Sicherheitseinstellungen für Lync Phone Edition
-TOCTitle: Konfigurieren von Sicherheitseinstellungen für Lync Phone Edition
-ms:assetid: 6e7cec17-8a79-4428-9300-8821256c46cf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg521014(v=OCS.15)
-ms:contentKeyID: 49294343
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Sicherheitseinstellungen für lync Phone Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure security settings for Lync Phone Edition
+ms:assetid: 6e7cec17-8a79-4428-9300-8821256c46cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521014(v=OCS.15)
+ms:contentKeyID: 48184464
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b7bd44b5d3f466728ac1dbe928c08b1f4786f8fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839332"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Sicherheitseinstellungen für Lync Phone Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>Konfigurieren von Sicherheitseinstellungen für lync Phone Edition in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Verbessern Sie über die SIP-Sicherheitseinstellung und Einstellungen für die Telefonsperre die Sicherheit der Geräte, auf denen Lync Phone Edition ausgeführt wird.
+Verbessern Sie die Sicherheit von Geräten, auf denen lync Phone Edition ausgeführt wird, über Ihre SIP-Sicherheitseinstellung und die Einstellungen für die Telefonsperre.
 
-## So konfigurieren Sie Sicherheitseinstellungen für Lync Phone Edition
+<div>
+
+## <a name="to-configure-security-settings-for-lync-phone-edition"></a>So konfigurieren Sie die Sicherheitseinstellungen für lync Phone Edition
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf **Gerätekonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf **Gerätekonfiguration**.
 
-4.  Doppelklicken Sie auf der Seite **Gerätekonfiguration** in der Liste der Gerätekonfigurationen auf diejenige Konfiguration, deren Sicherheitseinstellungen Sie ändern möchten.
+4.  Doppelklicken Sie auf der Seite **Device Configuration** in der Liste der Gerätekonfigurationen auf die Konfiguration, für die Sie die Sicherheitseinstellungen ändern möchten.
 
-5.  Geben Sie in **Gerätekonfiguration bearbeiten** in **SIP-Sicherheit** die SIP-Sicherheitsebene an. Die Standardebene, die auch empfohlen wird, lautet **Hoch**.
+5.  Geben Sie unter **Gerätekonfiguration bearbeiten**in **SIP-Sicherheit**die SIP-Sicherheitsstufe an. Die Standardstufe ist **hoch**, was wir empfehlen.
 
-6.  Aktivieren oder deaktivieren Sie in **Gerätekonfiguration bearbeiten** unter **Telefonsperre** das Kontrollkästchen **Gerätesperre erzwingen** (standardmäßig ausgewählt), und geben Sie die minimale PIN-Länge (standardmäßig 6 Zeichen) und die Timeoutdauer (standardmäßig 10 Minuten) an. Es wird empfohlen, die genannten Standardwerte zu verwenden oder die PIN-Länge zu erhöhen bzw. die Timeoutdauer herabzusetzen.
+6.  Aktivieren oder deaktivieren Sie unter **Gerätekonfiguration bearbeiten**unter **Telefonsperre**das Kontrollkästchen **Gerätesperre erzwingen** (standardmäßig aktiviert), und geben Sie die minimale PIN-Länge (standardmäßig 6 Zeichen) und einen Timeoutzeitraum (standardmäßig 10 Minuten) an. Wir empfehlen, diese Standardeinstellungen zu verwenden oder die PIN-Länge zu erhöhen und/oder den Timeoutzeitraum zu verringern.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Ausführliche Informationen erhalten Sie unter <A href="lync-server-2013-enforce-phone-locking.md">Erzwingen von Telefonsperren</A>.
+    > [!NOTE]  
+    > Ausführliche Informationen finden Sie unter <A href="lync-server-2013-enforce-phone-locking.md">erzwingen der Telefon Sperrung in lync Server 2013</A>.
 
+    
+    </div>
 
+</div>
 
-## Konfigurieren der Sicherheitseinstellungen für Lync Phone Edition-Telefone mithilfe der Lync Server-Verwaltungsshell-Cmdlets
+<div>
 
-Die Sicherheitseinstellungen können auch über die Lync Server-Verwaltungsshell und das **Get-CsUCPhoneConfiguration**-Cmdlet verwaltet werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="configuring-security-settings-for-lync-phone-edition-phones-by-using-windows-powershell-cmdlets"></a>Konfigurieren von Sicherheitseinstellungen für lync Phone Edition-Telefone mithilfe von Windows PowerShell-Cmdlets
 
-## So ändern Sie den SIP-Sicherheitsmodus
+Sicherheitseinstellungen können mithilfe der lync Server-Verwaltungsshell und des Cmdlets **Get-CsUCPhoneConfiguration** verwaltet werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
-  - Der folgende Befehl legt für die Eigenschaft "SIPSecurityMode" für die globale Auflistung UC-Telefoneinstellungen "Mittel" fest. Die SIP-Sicherheit kann auch auf "Niedrig" oder "Hoch" (den Standardwert) gesetzt werden.
+<div>
+
+## <a name="to-modify-the-sip-security-mode"></a>So ändern Sie den SIP-Sicherheitsmodus
+
+  - Dieser Befehl legt den SIPSecurityMode für die globale Sammlung von UC-Telefoneinstellungen auf Mittel fest. SIP-Sicherheit kann auch auf "Low" oder "hoch" (der Standardwert) festgesetzt werden.
     
         Set-CsUCPhoneConfiguration -Identity global -SIPSecurityMode "Medium"
 
-## So ändern Sie die minimale PIN-Länge
+</div>
 
-  - In diesem Beispiel werden alle UC-Telefoneinstellungen so geändert, dass eine minimale PIN-Länge von sieben Ziffern erforderlich ist.
+<div>
+
+## <a name="to-modify-the-minimum-pin-length"></a>So ändern Sie die minimale PIN-Länge
+
+  - In diesem Beispiel werden alle UC-Telefoneinstellungen so geändert, dass eine minimale PIN-Länge von 7 Ziffern erforderlich ist.
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-Detaillierte Informationen finden Sie im Abschnitt [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
+</div>
 
-## Siehe auch
+Ausführliche Informationen finden Sie unter [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
-#### Konzepte
+</div>
 
-[Verwalten der Lync Server 2013-Authentifizierung](lync-server-2013-managing-lync-server-authentication.md)  
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+
+[Verwalten der lync Server 2013-Authentifizierung](lync-server-2013-managing-lync-server-authentication.md)  
+
+
+[Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

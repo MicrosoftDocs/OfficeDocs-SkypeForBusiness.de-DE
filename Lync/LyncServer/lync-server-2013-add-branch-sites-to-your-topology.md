@@ -1,53 +1,87 @@
-﻿---
-title: 'Lync Server 2013: Hinzufügen von Zweigstellenstandorten zur Topologie'
-TOCTitle: Hinzufügen von Zweigstellenstandorten zur Topologie
-ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412905(v=OCS.15)
-ms:contentKeyID: 49295208
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hinzufügen von Zweigstellenstandorten zur Topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add branch sites to your topology
+ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412905(v=OCS.15)
+ms:contentKeyID: 48185216
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 029627060ff03b804d0d2f76f40fdd4052f0d1c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839949"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hinzufügen von Zweigstellenstandorten zur Topologie in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Hinzufügen von Zweigstellenstandorten zur Topologie in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
-Zweigstellenstandorte repräsentieren physische Zweigstellenbüros, die über einen WAN-Link mit Ihren Hauptbüros verbunden sind. Führen Sie dieses Verfahren am zentralen Standort aus, um einen Zweigstellenstandort zu Ihrer Lync-Topologie hinzuzufügen.
+Verzweigungs Websites stellen physische Zweigstellen dar, die über eine WAN-Verbindung mit ihren Hauptniederlassungen verbunden sind. Wenn Sie Ihrer lync-Topologie eine Verzweigungs Website hinzufügen möchten, führen Sie diese Schritte am zentralen Standort aus.
 
-## So fügen Sie Zweigstellenstandorte zu einer Topologie hinzu
+<div>
 
-1.  Klicken Sie auf **Start** , **Alle Programme** , **Microsoft Lync Server** und anschließend auf **Lync Server-Topologie-Generator** .
+## <a name="to-add-branch-sites-to-your-topology"></a>So fügen Sie Ihrer Topologie Verzweigungs Websites hinzu
 
-2.  Erweitern Sie den zentralen Standort in der Konsolenstruktur, klicken Sie mit der rechten Maustaste auf **Zweigstellenstandorte** , und klicken Sie dann auf **Neuer Zweigstellenstandort** .
+1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server**, und klicken Sie dann auf **lync Server Topology Builder**.
 
-3.  Klicken Sie im Dialogfeld **Neue Zweigniederlassung definieren** auf **Name** und geben Sie den Namen für die Zweigniederlassung ein.
+2.  Erweitern Sie in der Konsolenstruktur die zentrale Website, klicken Sie mit der rechten Maustaste auf **Verzweigungs Websites**, und klicken Sie dann auf **neue Verzweigungs Website**.
 
-4.  (Optional) Klicken Sie auf **Beschreibung** , und geben Sie eine aussagekräftige Beschreibung für die Zweigniederlassung ein.
+3.  Klicken Sie im Dialogfeld **neue Verzweigungs Website definieren** auf **Name**, und geben Sie dann den Namen der Verzweigungs Website ein.
 
-5.  Klicken Sie auf **Weiter** .
+4.  Optional Klicken Sie auf **Beschreibung**, und geben Sie eine aussagekräftige Beschreibung für die Verzweigungs Website ein.
 
-6.  (Optional) Führen Sie im nächsten Dialogfeld **Neue Zweigniederlassung definieren** einen der folgenden Schritte aus:
+5.  Klicken Sie auf **Weiter**.
+
+6.  Optional Führen Sie im nächsten Dialogfeld **neue Verzweigungs Website definieren** eine der folgenden Aktionen aus:
     
-      - Klicken Sie auf **Ort** , und geben Sie den Namen der Stadt ein, in der sich die Zweigniederlassung befindet.
+      - Klicken Sie auf **Stadt**, und geben Sie dann den Namen des Orts ein, in dem sich die Zweigstelle befindet.
     
-      - Klicken Sie auf **Bundesland/Kanton** , und geben Sie den Namen des Bundeslands bzw. Kantons ein, in dem sich die Zweigniederlassung befindet.
+      - Klicken Sie auf **Bundesland/Region**, und geben Sie dann den Namen des Bundeslands oder der Region ein, in dem sich die Verzweigungs Website befindet.
     
-      - Klicken Sie auf **Ländercode** , und geben Sie den zweistelligen Ländercode für das Land ein, in dem sich die Zweigniederlassung befindet.
+      - Klicken Sie auf **Landesvorwahl**, und geben Sie dann den zweistelligen anrufcode für das Land/die Region ein, in dem sich die Zweigstelle befindet.
 
-7.  Klicken Sie auf **Weiter** , und führen Sie einen der folgenden Schritte aus:
+7.  Klicken Sie auf **weiter**, und führen Sie dann eine der folgenden Aktionen aus:
     
-      - Stellen Sie bei Verwendung einer Survivable Branch-Anwendung oder eines Servers an diesem Standort sicher, dass das Kontrollkästchen **Assistent für neue Survivable Branch Appliance oder neuen Survivable Branch Server öffnen, wenn dieser Assistent geschlossen wird** aktiviert ist, klicken Sie auf **Fertig stellen** , und befolgen Sie die Anweisungen des Assistenten, der geöffnet wird. Ausführliche Informationen zu diesem Assistenten finden Sie unter [Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - Wenn Sie eine Survivable Branch-Appliance oder einen Server an dieser Website verwenden, stellen Sie sicher, dass das Kontrollkästchen **den neuen Überlebenden Assistenten beim Schließen des Assistenten öffnen** aktiviert ist, klicken Sie auf **Fertig stellen**, und folgen Sie dann den Anweisungen des Assistenten, der geöffnet wird. Informationen zu Assistenten Elementen finden Sie unter Definieren einer überlebensfähigen [Verzweigungs Einheit oder eines Servers in lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
-      - Wenn Sie an diesem Standort keine Survivable Branch-Anwendung bzw. keinen Server verwenden, deaktivieren Sie das Kontrollkästchen **Assistent für neue Survivable Branch Appliance oder neuen Survivable Branch Server öffnen, wenn dieser Assistent geschlossen wird** , und klicken Sie anschließend auf **Fertig stellen** .
+      - Wenn Sie keine Survivable Branch-Appliance oder einen Server an dieser Website verwenden, deaktivieren Sie das Kontrollkästchen **neuen Überlebenden Assistenten öffnen, wenn dieser Assistent geschlossen** wird, und klicken Sie dann auf **Fertig stellen**.
 
-8.  Wiederholen Sie die oben beschriebenen Schritte für jeden Zweigniederlassung, die der Topologie hinzugefügt werden soll.
+8.  Wiederholen Sie die vorherigen Schritte für jede Verzweigungs Website, die Sie zur Topologie hinzufügen möchten.
 
 **Nächster Schritt:**
 
-Für Survivable Branch Appliances oder Survivable Branch Server: [Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+Für Survivable Branch-Appliances oder-Server: Definieren einer überlebensfähigen [Branch-Appliance oder eines Survivable-Servers in lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
-Für PSTN-Anbindung ohne Ausfallsicherheit: [Definieren eines PSTN-Gateways für eine Zweigstelle in Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Konfigurieren eines Trunks mit Medienumgehung in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) oder [Konfigurieren eines Trunks ohne Medienumgehung in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+Für nicht belastbare PSTN-Konnektivität: [Definieren eines PSTN-Gateways für eine Zweigstelle in lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Konfigurieren eines Trunks mit medienumgehung in lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)oder [Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

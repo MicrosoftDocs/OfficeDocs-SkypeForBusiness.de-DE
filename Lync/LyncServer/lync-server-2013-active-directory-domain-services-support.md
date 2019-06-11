@@ -1,81 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung der Active Directory-Domänendienste'
-TOCTitle: Unterstützung der Active Directory-Domänendienste
-ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412831(v=OCS.15)
-ms:contentKeyID: 49295089
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützung der Active Directory-Domänendienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory Domain Services support
+ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
+ms:contentKeyID: 48185136
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839960"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung der Active Directory-Domänendienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Unterstützung der Active Directory-Domänendienste in Lync Server 2013
 
-In Lync Server 2013 wird ein zentralen Verwaltungsspeicher zum Speichern von Konfigurationsdaten für Server und Dienste verwendet, anstatt hierfür wie in früheren Versionen auf Active Directory-Domänendienste zurückzugreifen. Lync Server 2013 speichert allerdings Folgendes weiterhin in den Active Directory-Domänendiensten (AD DS):
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+
+Lync Server 2013 verwendet den zentralen Verwaltungsspeicher, um Konfigurationsdaten für Server und Dienste zu speichern, anstatt sich wie in der Vergangenheit auf die Active Directory-Domänendienste für diese Informationen zu verlassen. Lync Server 2013 speichert weiterhin die folgenden in AD DS:
 
   - **Schemaerweiterungen**
     
       - Benutzerobjekterweiterungen
     
-      - Erweiterungen für Lync Server 2010- und Office Communications Server 2007 R2-Klassen zum Aufrechterhalten der Abwärtskompatibilität mit zuvor unterstützten Versionen
+      - Erweiterungen für lync Server 2010 und Office Communications Server 2007 R2-Klassen zum aufrecht erhalten der Abwärtskompatibilität mit vorherigen unterstützten Versionen
 
-  - **Daten** (die im erweiterten Lync Server 2013-Schema und vorhandenen Klassen gespeichert sind)
+  - **Daten** (in lync Server 2013-erweitertem Schema und in vorhandenen Klassen gespeichert)
     
-      - Den Benutzer-SIP-URI und andere Einstellungen
+      - Der Benutzer-SIP-URI und andere Einstellungen
     
-      - Kontaktobjekte für Anwendungen (z. B. die Reaktionsgruppenanwendung und die Konferenzzentrale)
+      - Kontaktobjekte für Anwendungen (beispielsweise die Anwendung "Reaktionsgruppe" und die Anwendung "Conferencing Attendant")
     
-      - Zur Abwärtskompatibilität veröffentlichte Daten
+      - Aus Gründen der Abwärtskompatibilität veröffentlichte Daten
     
-      - Einen Dienststeuerungspunkt für den zentralen Verwaltungsspeicher
+      - Einen Dienst Kontrollpunkt (Service Control Point, SCP) für den zentralen Verwaltungsspeicher
     
-      - Das Kerberos-Authentifizierungskonto (ein optionales Computerobjekt)
+      - Kerberos-Authentifizierungs Konto (ein optionales Computerobjekt)
 
-In diesem Abschnitt werden die Anforderungen an die AD DS-Unterstützung für Lync Server 2013 beschrieben. Ausführliche Informationen zur Topologieunterstützung finden Sie unter [Unterstützte Active Directory-Topologien in Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) in der Unterstützungsdokumentation.
+In diesem Abschnitt werden die AD DS-Supportanforderungen für lync Server 2013 beschrieben. Details zur Topologie-Unterstützung finden Sie unter unter [stützte Active Directory-Topologien in lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) in der Dokumentation zur Unterstützung.
 
-## Unterstützte Betriebssysteme auf Domänencontrollern
+<div>
 
-Lync Server 2013 unterstützt Domänencontroller mit den folgenden Betriebssystemen:
+## <a name="supported-domain-controller-operating-systems"></a>Unterstützte Domänen Controller-Betriebssysteme
 
-  - Windows Server 2012 R2 
+Lync Server 2013 unterstützt Domänencontroller, auf denen die folgenden Betriebssysteme ausgeführt werden:
 
-  - Windows Server 2012 
+  - Windows Server 2012 R2-Betriebssystem
+
+  - Betriebssystem Windows Server 2012
 
   - Windows Server 2008 R2-Betriebssystem
 
   - Windows Server 2008-Betriebssystem
 
-  - Windows Server 2008 Enterprise 32-Bit
+  - Windows Server 2008 Enterprise 32-Bit
 
-  - Die 32-Bit- und 64-Bit-Version des Betriebssystems Window Server 2003 R2
+  - Die 32-Bit-oder 64-Bit-Versionen des Windows Server 2003 R2-Betriebssystems
 
-  - Die 32-Bit- und 64-Bit-Version des Betriebssystems Windows Server 2003
+  - Die 32-Bit-oder 64-Bit-Versionen des Windows Server 2003-Betriebssystems
 
-## Gesamtstruktur- und Domänenfunktionsebene
+</div>
 
-Alle Domänen, in denen Sie Lync Server 2013 bereitstellen, müssen auf eine Domänenfunktionsebene von Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 oder mindestens Windows Server 2003 heraufgestuft werden.
+<div>
 
-Alle Gesamtstrukturen, in denen Sie Lync Server 2013 bereitstellen, müssen auf eine Gesamtstrukturfunktionsebene von Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 oder mindestens Windows Server 2003 heraufgestuft werden.
+## <a name="forest-and-domain-functional-level"></a>Gesamtstruktur-und Domänenfunktionsebene
 
-## Unterstützung für schreibgeschützte Domänencontroller
+Sie müssen alle Domänen auslösen, in denen Sie lync Server 2013 auf einer Domänenfunktionsebene von Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 oder mindestens Windows Server 2003 bereitstellen.
 
-Lync Server 2013 unterstützt Active Directory-Domänendienste-Bereitstellungen, die schreibgeschützte Domänencontroller oder schreibgeschützte Katalogserver enthalten, sofern nicht schreibgeschützte Domänencontroller verfügbar sind.
+Alle Gesamtstrukturen, in denen Sie lync Server 2013 bereitstellen, müssen auf eine Gesamtstrukturfunktionsebene von Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 oder mindestens Windows Server 2003 heraufgestuft werden.
 
-## Domänennamen
+</div>
 
-Lync Server unterstützt keine Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit der Stammdomäne **contoso.local** unterstützt, die Stammdomäne **local** hingegen nicht. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zur Konfiguration von Windows für Domänen mit DNS-Namen mit einfacher Bezeichnung" unter [http://go.microsoft.com/fwlink/?LinkId=143752](http://go.microsoft.com/fwlink/?linkid=143752).
+<div>
+
+## <a name="support-for-read-only-domain-controllers"></a>Unterstützung von schreibgeschützten Domänencontrollern
+
+Lync Server 2013 unterstützt die Bereitstellung von Active Directory-Domänendiensten mit schreibgeschützten Domänencontrollern oder schreibgeschützten globalen Katalogservern, sofern schreibbare Domänencontroller verfügbar sind.
+
+</div>
+
+<div>
+
+## <a name="domain-names"></a>Domänennamen
+
+Lync Server unterstützt keine Single-Labeling-Domänen. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne mit dem Namen **contoso. local** unterstützt, aber eine Stammdomäne mit dem Namen **local** wird nicht unterstützt. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einer [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)Bezeichnung" unter.
+
+<div>
 
 
-> [!NOTE]
-> Lync Server unterstützt die Umbenennung von Domänen nicht. Wenn Sie eine Domäne umbenennen müssen, in der Lync Server bereitgestellt ist, müssen Sie zuerst Lync Server deinstallieren, die Domäne umbenennen und Lync Server dann wieder installieren.
+> [!NOTE]  
+> Lync Server unterstützt keine Umbenennung von Domänen. Wenn Sie eine Domäne umbenennen müssen, in der lync Server bereitgestellt wird, müssen Sie zunächst lync Server deinstallieren, dann die Domäne umbenennen und dann lync Server erneut installieren.
 
 
 
-## Gesperrte AD DS-Umgebungen
+</div>
 
-In einer gesperrten AD DS-Umgebung werden Benutzer- und Computerobjekte häufig in speziellen Organisationseinheiten abgelegt. Dabei ist die Vererbung von Berechtigungen deaktiviert, um zum Schutz der administrativen Delegierung beizutragen und um die Verwendung von Gruppenrichtlinienobjekten zur Durchsetzung von Sicherheitsrichtlinien zu ermöglichen. Lync Server 2013 kann in einer gesperrten Active Directory-Umgebung bereitgestellt werden. Ausführliche Informationen zur Bereitstellung von Lync Server in einer gesperrten Umgebung finden Sie unter [Vorbereiten gesperrter Active Directory-Domänendienste in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+</div>
+
+<div>
+
+## <a name="locked-down-adds-environments"></a>Gesperrte AD DS-Umgebungen
+
+In einer gesperrten AD DS-Umgebung werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierter Berechtigungsvererbung angeordnet, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) zu ermöglichen, um Sicherheitsrichtlinien. Lync Server 2013 kann in einer gesperrten Active Directory-Umgebung bereitgestellt werden. Ausführliche Informationen dazu, was für die Bereitstellung von lync Server in einer gesperrten Umgebung erforderlich ist, finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

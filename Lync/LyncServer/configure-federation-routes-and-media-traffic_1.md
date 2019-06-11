@@ -1,238 +1,245 @@
-﻿---
-title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
-TOCTitle: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
-ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721925(v=OCS.15)
-ms:contentKeyID: 49891002
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure federation routes and media traffic
+ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
+ms:contentKeyID: 49733860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839784"
+---
+# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
-Ein Partnerverbund ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zum Lync Server 2013-Pilotpool müssen Sie von der Partnerverbundroute Ihrer Microsoft Office Communications Server 2007 R2-Edgeserver auf die Partnerverbundroute Ihrer Lync Server 2013-Edgeserver umstellen.
+Föderation ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die es Benutzern in separaten Organisationen ermöglicht, über Netzwerkgrenzen hinweg zu kommunizieren. Nachdem Sie die Migration zu Ihrem lync Server 2013-Pilot Pool durchgeführt haben, müssen Sie von der Verbund Route Ihrer Microsoft Office Communications Server 2007 R2-Edgeserver zur Föderations Route ihrer lync Server 2013-Edgeserver wechseln.
 
-Verwenden Sie die nachfolgenden Verfahren, um die Partnerverbundroute und die Mediendatenverkehrsroute für eine Bereitstellung mit einem einzelnen Standort vom Office Communications Server 2007 R2-Edgeserver und -Director auf den Lync Server 2013-Edgeserver umzustellen.
+Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medien Verkehrsroute von Ihrem Office Communications Server 2007 R2-Edgeserver und-Director auf Ihren lync Server 2013-Edgeserver für eine Bereitstellung mit einem einzelnen Standort umzustellen.
 
 
-> [!IMPORTANT]
-> Zum Ändern der Partnerverbundroute und der Mediendatenverkehrsroute müssen Sie Wartungsdowntime für die Lync Server 2013- und Office Communications Server 2007 R2-Edgeserver einplanen. Der gesamte Umstellungsprozess bedeutet auch, dass der Verbundzugriff für die Dauer der Downtime nicht verfügbar ist. Sie sollten die Downtime für einen Zeitraum einplanen, in dem Sie minimale Benutzeraktivität erwarten. Darüber hinaus sollten Sie die Endbenutzer rechtzeitig informieren. Planen Sie diese Downtime sorgfältig, und stellen Sie innerhalb Ihrer Organisation entsprechende Ziele auf.
-
+> [!IMPORTANT]  
+> Für das Ändern der Route für die Verbund Route und den Mediendatenverkehr müssen Sie Wartungs Ausfälle für die Edgeserver lync Server 2013 und Office Communications Server 2007 R2 planen. Dieser gesamte Übergangsprozess bedeutet auch, dass der Verbundzugriff für die Dauer des Ausfalls nicht verfügbar ist. Sie sollten die Downtime für eine Zeit planen, wenn Sie eine minimale Benutzeraktivität erwarten. Darüber hinaus sollten Sie den Endbenutzern eine ausreichende Benachrichtigung senden. Planen Sie für diesen Ausfall entsprechend, und setzen Sie in Ihrer Organisation angemessene Erwartungen.
 
 
 
-> [!IMPORTANT]
-> Falls für Ihren Office Communications Server 2007 R2-Edgeserver der Vorversion die Verwendung desselben vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) für den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die in diesem Abschnitt beschriebenen Verfahren für die Umstellung der Partnerverbundeinstellung auf einen Lync Server 2013-Edgeserver nicht unterstützt. Falls für die Edgedienste der Vorversion die Verwendung desselben vollqualifizierten Domänennamens konfiguriert ist, müssen Sie zuerst alle Ihre Benutzer von Office Communications Server 2007 R2 zu Lync Server 2013 migrieren und anschließend den Office Communications Server 2007 R2-Edgeserver deaktivieren, bevor Sie den Partnerverbund auf dem Lync Server 2013-Edgeserver aktivieren. Ausführliche Informationen finden Sie in den folgenden Themen: 
+
+> [!IMPORTANT]  
+> Wenn Ihr Legacy Office Communications Server 2007 R2-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, gehen die Verfahren in diesem Abschnitt zum Umstieg der Verbund Einstellung auf einen lync-Server wie folgt vor: 2013 Edge-Server werden nicht unterstützt. Wenn die Legacy-Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von Office Communications Server 2007 R2 auf lync Server 2013 migrieren und dann den Office Communications Server 2007 R2-Edgeserver außer Betrieb setzen, bevor Sie die Föderation aktivieren. der lync Server 2013-Edgeserver Ausführliche Informationen finden Sie in den folgenden Themen: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Verschieben der verbleibenden Benutzer zu Lync Server 2013</A></P>
 > <LI>
-> <P>"Remove Servers and Server Roles" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
+> <P>"Entfernen von Servern und Serverrollen" unter<A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 
 
-> [!IMPORTANT]
-> Wenn Ihr XMPP-Partnerverbund (Extensible Messaging and Presence Protocol) über einen Lync Server 2013-Edgeserver weitergeleitet wird, können Office Communications Server 2007 R2-Legacybenutzer erst dann mit dem XMPP-Verbundpartner kommunizieren, nachdem alle Benutzer zu Lync Server 2013 verschoben und die XMPP-Richtlinien und -Zertifikate konfiguriert worden sind, der XMPP-Verbundpartner in Lync Server 2013 konfiguriert worden ist und schließlich die DNS-Einträge aktualisiert worden sind.
+> [!IMPORTANT]  
+> Wenn Ihr XMPP-Verbund über einen lync Server 2013-Edgeserver weitergeleitet wird, können Legacy Office Communications Server 2007 R2-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013, XMPP-Richtlinien und Es wurden Zertifikate konfiguriert, der XMPP-Verbundpartner wurde auf lync Server 2013 konfiguriert, und zuletzt wurden die DNS-Einträge aktualisiert.
 
 
 
-Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Benutzerrechte und -berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
+Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Benutzerrechte und Berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
 
-## So entfernen Sie die Partnerverbundzuordnung der Vorversion von Lync Server 2013-Standorten
+## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a>So entfernen Sie die Legacy Verbund Zuordnung von lync Server 2013-Websites
 
-1.  Öffnen Sie mithilfe des Topologie-Generators die Pilotpooltopologie.
+1.  Öffnen Sie die Topologie des pilotpools mithilfe des Topologie-Generators.
 
-2.  Navigieren Sie im linken Bereich zum Knoten **Standort** .
+2.  Navigieren Sie im linken Bereich zum Websiteknoten.
 
-3.  Klicken Sie mit der rechten Maustaste auf den Standort, und klicken Sie auf **Eigenschaften bearbeiten** .
+3.  Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-4.  Wählen Sie im linken Bereich die Option **Partnerverbundroute** aus.
+4.  Wählen Sie im linken Bereich die Option **Föderations Route** aus.
 
-5.  Deaktivieren Sie unter **Zuweisung der Partnerverbundroute des Standorts** das Kontrollkästchen neben **SIP-Partnerverbund aktivieren** , um die Partnerverbundroute über **BackCompatSite** zu deaktivieren.
+5.  Deaktivieren Sie Unterwebsite Verbund-Routenzuordnung das Kontrollkästchen neben **SIP-Verbund aktivieren** , um die Föderations Route über die **BackCompatSite**zu deaktivieren.
     
-    ![Dialogfeld zum Bearbeiten von Eigenschaften, Partnerverbundroute](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Dialogfeld zum Bearbeiten von Eigenschaften, Partnerverbundroute")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route] (images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route")
 
-6.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+6.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
-7.  Wählen Sie im **Topologie-Generator** den obersten Knoten aus, **Lync Server** .
+7.  Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem obersten Knoten aus.
 
-8.  Klicken Sie im Menü **Aktionen** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
+8.  Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
 
-## So konfigurieren Sie den Edgeserver der Vorversion als Nicht-Partnerverbund-Edgeserver
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>So konfigurieren Sie den Legacy-Edgeserver als nicht-Föderations-Edgeserver
 
-1.  Klicken Sie im Topologie-Generator im Menü **Aktionen** auf **Office Communications Server 2007 R2-Topologie zusammenführen** .
+1.  Klicken Sie im Menü " **Aktion** " auf der Seite " **Topologie-Generator**" auf **Office Communications Server 2007 R2-Topologie zusammenführen**.
 
-2.  Klicken Sie auf **Weiter** , um den Vorgang fortzusetzen.
+2.  Klicken Sie auf **Weiter**, um fortzufahren.
 
-3.  Wählen Sie auf der Seite **Edgesetup angeben** unter **Interner FQDN des Edgeservers** den vollqualifizierten Domänennamen (FQDN) aus, der aktuell für den Partnerverbund konfiguriert ist, und klicken Sie dann auf **Ändern** .
+3.  Wählen Sie auf der **Seite Edge-Setup angeben**den **internen FQDN des Edge-Servers** aus, der derzeit für den Verbund konfiguriert ist, und klicken Sie dann auf **ändern**.
     
-    ![OCS 2007 R2-Topologie zusammenführen, Edgesetup festlegen](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "OCS 2007 R2-Topologie zusammenführen, Edgesetup festlegen")
+    ![Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups] (images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups")
 
-4.  Klicken Sie auf **Weiter** , und akzeptieren Sie die Standardeinstellungen, bis Sie zur Seite **Externen Edge angeben** gelangen:
+4.  Klicken Sie auf **weiter** , und übernehmen Sie die Standardeinstellungen, bis Sie zur Seite **externen Edge angeben** gelangen:
     
-    ![Topologie-Generator: Externen Edge angeben (Seite)](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Topologie-Generator: Externen Edge angeben (Seite)")
+    ![Topologie-Generator, Seite ' externe Kante angeben] ' (images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Topologie-Generator, Seite ' externe Kante angeben") '
 
-5.  Deaktivieren Sie auf der Seite **Externen Edge angeben** das Kontrollkästchen **Dieser Edgepool wird für den Partnerverbund und die Verbindung mit öffentlichen Sofortnachrichtendiensten verwendet** . Dadurch wird die Partnerverbundzuordnung mit **BackCompatSite** entfernt.
-    
-
-    > [!IMPORTANT]
-    > Dieser Schritt ist wichtig. Sie müssen dieses Kontrollkästchen deaktivieren, um die Partnerverbundzuordnung der Vorversion zu entfernen.
-
-
-
-6.  Klicken Sie auf **Weiter** , und akzeptieren Sie die Standardeinstellungen der restlichen Seiten des Assistenten.
-
-7.  Klicken Sie auf der Seite **Zusammenfassung** auf **Weiter** , um mit dem Zusammenführen der Topologien zu beginnen.
-
-8.  Überprüfen Sie in der Spalte **Status** , ob der Wert **Erfolg** lautet, und klicken Sie dann auf **Fertig stellen** , um den Assistenten zu schließen.
-
-9.  Wählen Sie im Menü **Aktionen** die Option **Topologie veröffentlichen** aus, und klicken Sie dann auf **Weiter** .
-
-10. Wenn der **Veröffentlichungs-Assistent** abgeschlossen ist, klicken Sie auf **Fertig stellen**, um den Assistenten zu schließen.
-    
-    ![Topologie-Generator mit Standort nach Zusammenführung](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Topologie-Generator mit Standort nach Zusammenführung")
-    
-    Wie in der vorherigen Abbildung gezeigt, ist der **SIP-Partnerverbund** unter **Zuweisung der Partnerverbundroute des Standorts** auf **Deaktiviert** festgelegt.
-
-## So konfigurieren Sie Zertifikate auf dem Lync Server 2013-Edgeserver
-
-1.  Exportieren Sie das externe Zugriffsproxyzertifikat mit dem privaten Schlüssel aus dem Office Communications Server 2007 R2-Edgeserver der Vorversion.
-
-2.  Importieren Sie auf dem Lync Server 2013-Edgeserver das externe Zugriffsproxyzertifikat aus dem vorherigen Schritt.
-
-3.  Weisen Sie das externe Zugriffsproxyzertifikat der externen Lync Server 2013-Schnittstelle des Edgeservers zu.
-
-4.  Das interne Schnittstellenzertifikat des Lync Server 2013-Edgeservers sollte nicht geändert werden.
-
-## So legen Sie für die Office Communications Server 2007 R2-Partnerverbundroute die Verwendung des Lync Server 2013-Edgeservers fest
-
-1.  Öffnen Sie auf dem Office Communications Server 2007 R2- Standard Edition-Server oder - Front-End-Server die Office Communications Server 2007 R2-Verwaltungstools.
-
-2.  Erweitern Sie im linken Bereich den obersten Knoten, und klicken Sie dann mit der rechten Maustaste auf den Knoten **Gesamtstruktur** . Wählen Sie **Eigenschaften** aus, und klicken Sie auf **Globale Eigenschaften** .
-
-3.  Klicken Sie auf die Registerkarte **Partnerverbund** .
-
-4.  Aktivieren Sie das Kontrollkästchen **Verbund und Verbindung mit öffentlichen Instant Messaging-Diensten aktivieren** .
-
-5.  Geben Sie den vollqualifizierten Domänennamen (FQDN) für den Lync Server 2013- Edgeserver ein, und klicken Sie dann auf **OK** .
-    
-    ![Globale OCS-Eigenschaften, Partnerverbund (Registerkarte)](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Globale OCS-Eigenschaften, Partnerverbund (Registerkarte)")
-
-## So aktivieren Sie den Partnerverbund für den Lync Server 2013-Edgeserver
-
-1.  Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten Lync Server 2013- **Edgepools** .
-
-2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie anschließend auf **Eigenschaften bearbeiten** .
+5.  Deaktivieren Sie im Feld **externen Rand angeben**das Kontrollkästchen **dieser Edge-Pool wird für Verbund-und öffentliche Chat Verbindungen verwendet** . Dadurch wird die Verbund Zuordnung mit dem BackCompatSite entfernt.
     
 
-    > [!NOTE]
-    > Der Partnerverbund kann nur für einen einzelnen Edgepool aktiviert werden. Wählen Sie bei mehreren Edgepools den Edgepool aus, den Sie als Partnerverbund- Edgepool verwenden möchten.
+    > [!IMPORTANT]  
+    > Dieser Schritt ist wichtig. Sie müssen diese Option deaktivieren, um die Legacy Federation Association zu entfernen.
 
 
 
-3.  Aktivieren Sie auf der Seite **Allgemein** das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** .
+6.  Klicken Sie auf **weiter** , und übernehmen Sie die Standardeinstellungen der restlichen Seiten des Assistenten.
+
+7.  Klicken Sie in **Zusammenfassung**auf **weiter** , um mit dem Zusammenführen der Topologien zu beginnen.
+
+8.  Überprüfen Sie in der Spalte **Status** , ob der Wert **erfolgreich**ist, und klicken Sie dann auf **Fertig stellen** , um den Assistenten zu schließen.
+
+9.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
+
+10. Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
     
-    ![Eigenschaften bearbeiten, Allgemein, Edgepartnerverbund aktivieren](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Eigenschaften bearbeiten, Allgemein, Edgepartnerverbund aktivieren")
+    ![Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird] (images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird")
+    
+    Wie in der vorherigen Abbildung zu sehen ist, ist der **SIP-Verbund** , der sich unter **Website Verbund-Routenzuordnung** befindet, auf **deaktiviert**festgesetzt.
 
-4.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+## <a name="to-configure-certificates-on-the-lync-server-2013-edge-server"></a>So konfigurieren Sie Zertifikate auf dem lync Server 2013-Edgeserver
 
-5.  Navigieren Sie anschließend zum Knoten **Standort** .
+1.  Exportieren Sie das Proxy Zertifikat für den externen Zugriff mit dem privaten Schlüssel aus dem Legacy Office Communications Server 2007 R2 Edge-Server.
 
-6.  Klicken Sie mit der rechten Maustaste auf den Standort, und klicken Sie auf **Eigenschaften bearbeiten** .
+2.  Importieren Sie auf dem lync Server 2013-Edgeserver das externe Zugriffs Proxy Zertifikat aus dem vorherigen Schritt.
 
-7.  Klicken Sie im linken Bereich auf **Partnerverbundroute** .
+3.  Weisen Sie das externe Zertifikat des Zugriffsproxys zur externen lync Server 2013-Schnittstelle des Edgeserver zu.
 
-8.  Wählen Sie unter **Zuweisung der Partnerverbundroute des Standorts** die Option **SIP-Partnerverbund aktivieren** aus, und wählen Sie dann in der Liste den aufgeführten Lync Server 2013- Edgeserver aus.
+4.  Das interne Schnittstellen Zertifikat des lync Server 2013-Edge-Servers sollte nicht geändert werden.
+
+## <a name="to-change-office-communications-server-2007-r2-federation-route-to-use-lync-server-2013-edge-server"></a>So ändern Sie die Office Communications Server 2007 R2-Verbund Route zur Verwendung des lync Server 2013 Edge-Servers
+
+1.  Öffnen Sie auf dem Office Communications Server 2007 R2 Standard Edition-Server oder-Front-End-Server das Office Communications Server 2007 R2-Verwaltungstool.
+
+2.  Erweitern Sie im linken Bereich den obersten Knoten, und klicken Sie dann mit der rechten Maustaste auf den Knoten **Gesamtstruktur** . Wählen Sie **Eigenschaften**aus, und klicken Sie dann auf **globale Eigenschaften**.
+
+3.  Klicken Sie auf die Registerkarte **Föderation** .
+
+4.  Aktivieren Sie das Kontrollkästchen, um Verbund-und öffentliche Chat Verbindungen zu aktivieren.
+
+5.  Geben Sie den FQDN des lync Server 2013-Edge-Servers ein, und klicken Sie dann auf **OK**.
+    
+    ![Globale OCS-Eigenschaften, Registerkarte "Föderation"] (images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Globale OCS-Eigenschaften, Registerkarte \"Föderation\"")
+
+## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>So aktivieren Sie den lync Server 2013-Edgeserver-Verbund
+
+1.  Navigieren Sie im linken Bereich des Topologie-Generators zum Knoten lync Server 2013- **Edge-Pools** .
+
+2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+    
+
+    > [!NOTE]  
+    > Der Verbund kann nur für einen einzelnen Edge-Pool aktiviert werden. Wenn Sie über mehrere Edge-Pools verfügen, wählen Sie eine aus, die Sie als Föderations-Edge-Pool verwenden möchten.
+
+
+
+3.  Aktivieren Sie auf der Seite **Allgemein** das Kontrollkästchen **Föderation für diesen Edge-Pool aktivieren (Port 5061)** .
+    
+    ![Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren] (images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren")
+
+4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
+
+5.  Navigieren Sie als nächstes zum Websiteknoten.
+
+6.  Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+
+7.  Klicken Sie im linken Bereich auf **Föderations Route**.
+
+8.  Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann in der Liste den Eintrag lync Server 2013 Edge Server aus.
 
 9.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
     
-    ![Eigenschaften bearbeiten, Allgemein, Edgepool zuordnen](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Eigenschaften bearbeiten, Allgemein, Edgepool zuordnen")
+    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools] (images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
     
-    Für Bereitstellungen mit mehreren Standorten führen Sie dieses Verfahren an jedem Standort aus.
+    Führen Sie für die Bereitstellung mehrerer Websites dieses Verfahren an jedem Standort aus.
 
-## So konfigurieren Sie den ausgehenden Medienpfad für den Lync Server 2013-Edgeserver
+## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>So konfigurieren Sie den ausgehenden Medienpfad von lync Server 2013 Edge Server
 
-1.  Navigieren Sie im Topologie-Generator zum Lync Server 2013-Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools** .
+1.  Navigieren Sie im **Topologie-Generator**zum lync Server 2013-Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools**.
 
-2.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie auf **Eigenschaften bearbeiten** .
+2.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-3.  Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edgepool zuordnen (für Medienkomponenten)** .
+3.  Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten)** .
 
-4.  Wählen Sie in der Dropdownliste den Lync Server 2013-Edgeserver aus.
+4.  Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.
     
-    ![Dialogfeld zum Bearbeiten von Eigenschaften, Edgepool zuordnen](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Dialogfeld zum Bearbeiten von Eigenschaften, Edgepool zuordnen")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools] (images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools")
 
 5.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
 
-## So veröffentlichen Sie Edgeserver-Konfigurationsänderungen
+## <a name="to-publish-edge-server-configuration-changes"></a>So veröffentlichen Sie Änderungen an Edge-Server-Konfigurationen
 
-1.  Wählen Sie im **Topologie-Generator** den obersten Knoten aus, **Lync Server** .
+1.  Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem obersten Knoten aus.
 
-2.  Klicken Sie im Menü **Aktionen** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.
+2.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.
 
-3.  Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung ausgeführt worden ist.
+3.  Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung erfolgt.
     
 
-    > [!NOTE]
-    > Möglicherweise wird die folgende Meldung angezeigt:<BR><STRONG>Warnung: Die Topologie enthält mehrere Partner-Edgeserver. Dies kann während der Migration auf eine höhere Version des Produkts geschehen. In diesem Fall wird nur ein Edgeserver aktiv für den Partnerverbund verwendet. Stellen Sie sicher, dass der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Partnerverbund-Edgeserver bereitstellen möchten, die gleichzeitig aktiv sind (kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner Office Communications Server&nbsp;2007&nbsp;R2 oder höher verwenden. Stellen Sie außerdem sicher, dass der externe DNS-SRV-Eintrag alle partnerverbundfähigen Edgeserver auflistet.</STRONG><BR>Diese Warnung entspricht der Erwartung und kann problemlos ignoriert werden.
+    > [!NOTE]  
+    > Möglicherweise wird die folgende Meldung angezeigt:<BR><STRONG>Warnung: die Topologie enthält mehr als einen Federated-Edgeserver. Dies kann während der Migration zu einer neueren Version des Produkts auftreten. In diesem Fall würde nur ein Edgeserver für den Verbund aktiv verwendet. Überprüfen Sie, ob der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Verbund-Edgeserver bereitstellen möchten, um gleichzeitig aktiv zu sein (also kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner Office Communications Server 2007 R2 oder lync Server verwenden. Überprüfen Sie, ob der externe DNS-SRV-Eintrag alle Verbund fähigen Edgeserver auflistet.</STRONG><BR>Diese Warnung wird erwartet und kann bedenkenlos ignoriert werden.
 
 
 
-## So überprüfen Sie den Partnerverbund und den Remotezugriff für externe Benutzer
+## <a name="to-verify-federation-and-remote-access-for-external-users"></a>So überprüfen Sie den Verbund und den Remotezugriff für externe Benutzer
 
-1.  Öffnen Sie auf dem Lync Server 2013-Front-End-Server die Lync Server-Verwaltungsshell.
+1.  Öffnen Sie auf dem lync Server 2013-Front-End-Server die lync Server-Verwaltungsshell.
 
-2.  Zum Überprüfen des Status des Partnerverbunds und des Remotezugriffs geben Sie an der Befehlszeile folgenden Befehl ein:
+2.  Wenn Sie den Status von Föderation und RAS überprüfen möchten, geben Sie in der Befehlszeile Folgendes ein:
     
         Get-CsAccessEdgeConfiguration
 
-3.  Zum Aktivieren des Partnerverbunds und des Remotezugriffs geben Sie an der Befehlszeile folgenden Befehl ein:
+3.  Um Föderation und RAS zu aktivieren, geben Sie in der Befehlszeile Folgendes ein:
     
         Set-CsAccessEdgeConfiguration
     
-    Weitere Informationen zu diesen Cmdlets finden Sie in folgenden Themen: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) und [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
+    Weitere Informationen zu diesen Cmdlets finden Sie unter den folgenden Themen: [Get-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/en-us/library/gg398574\(v=ocs.15\)) und [csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/en-us/library/gg413017\(v=ocs.15\)).
 
-4.  Warten Sie, bis die Replikation abgeschlossen ist, bevor Sie die Lync Server 2013-Edgeserver online schalten und den Partnerverbund und den externen Zugriff testen.
+4.  Warten Sie, bis die Replikation abgeschlossen ist, bevor Sie die lync Server 2013-Edgeserver online schalten und den Verbund und externen Zugriff testen.
 
-## So konfigurieren Sie Lync Server 2013-Edgeserver
+## <a name="to-configure-lync-server-2013-edge-server"></a>So konfigurieren Sie den lync Server 2013-Edgeserver
 
-1.  Schalten Sie alle Lync Server 2013-Edgeserver online.
+1.  Bringen Sie alle lync Server 2013-Edgeserver online.
 
-2.  Aktualisieren Sie die externen Firewall-Routingregeln oder die Einstellungen für das Hardwaregerät zum Lastenausgleich, sodass SIP-Datenverkehr für den externen Zugriff (meist Port 443) und den Partnerverbund (meist Port 5061) nicht an den Edgeserver der Vorversion, sondern an den Lync Server 2013- Edgeserver gesendet wird.
+2.  Aktualisieren Sie die Routingregeln für externe Firewalls oder die Einstellungen für das Hardwarelastenausgleich, um SIP-Datenverkehr für externen Zugriff (normalerweise Port 443) und Föderation (in der Regel Port 5061) an den lync Server 2013-Edgeserver anstelle des Legacy-Edgeserver zu senden.
     
 
-    > [!NOTE]
-    > Wenn Sie kein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, sodass der neue Lync Server-Zugriffs-Edgeserver aufgelöst wird. Um dies mit minimaler Betriebsunterbrechung zu bewerkstelligen, reduzieren Sie den TTL-Wert für den externen vollqualifizierten Domänennamen (FQDN) des Lync Server-Zugriffs-Edgeservers. Dadurch werden, wenn das DNS aktualisiert wird, sodass es auf den neuen Lync Server-Zugriffs-Edgeserver zeigt, auch der Partnerverbund und der Remotezugriff rasch aktualisiert.
+    > [!NOTE]  
+    > Wenn Sie nicht über ein Hardware-Lastenausgleichsmodul verfügen, müssen Sie den DNS-a-Eintrag für Federation aktualisieren, um den neuen lync Server Access-Edgeserver zu beheben. Um dies bei minimaler Unterbrechung zu erreichen, verringern Sie den TTL-Wert für den externen lync Server Access-Edge-FQDN, sodass beim Aktualisieren von DNS auf den neuen lync Server Access-Edgeserver die Föderation und der Remotezugriff schnell aktualisiert werden.
 
 
 
-3.  Beenden Sie anschließend den **Lync Server-Zugriffsedge** auf jedem Edgeserver-Computer.
+3.  Beenden Sie als nächstes den **lync Server Access-Edge** von jedem Edgeserver-Computer.
 
-4.  Öffnen Sie auf jedem Edgeserver-Computer der Vorversion das Applet **Dienste** in **Verwaltung** .
+4.  Öffnen Sie auf jedem Legacy-Edgeserver-Computer das Applet **Dienste** in den **Verwaltungs Tools**.
 
-5.  Suchen Sie in der Liste mit den Diensten nach **Office Communications Server-Zugriffsedge** .
+5.  Suchen Sie in der Liste Dienste nach **Office Communications Server Access Edge**.
 
-6.  Klicken Sie mit der rechten Maustaste auf den Namen des Diensts, und klicken Sie dann auf **Beenden** , um den Dienst zu beenden.
+6.  Klicken Sie mit der rechten Maustaste auf den Namen der Dienste, und wählen Sie dann **Beenden** aus, um den Dienst zu beenden.
 
-7.  Legen Sie als Starttyp **Deaktiviert** fest.
+7.  Setzen Sie den Starttyp auf **disabled**.
 
-8.  Klicken Sie auf **OK** , um das Fenster **Eigenschaften** zu schließen.
+8.  Klicken Sie auf **OK** , um das **Eigenschaften** Fenster zu schließen.
 
-## So testen Sie die Anbindung externer Benutzer und den externen Zugriff
+## <a name="to-test-connectivity-of-external-users-and-external-access"></a>So testen Sie die Konnektivität externer Benutzer und des externen Zugriffs
 
-  - Benutzer aus mindestens einer Partnerdomäne, ein interner Benutzer von Lync Server 2013 sowie ein Benutzer von Office Communications Server 2007 R2. Testen Sie Sofortnachrichten, Anwesenheit. Audio/Video (A/V) und Desktopfreigabe.
+  - Benutzer aus mindestens einer Verbunddomäne, einem internen Benutzer in lync Server 2013 und einem Benutzer in Office Communications Server 2007 R2 Testen Sie Instant Messaging (im), Anwesenheitsinformationen, Audio/Video (A/V) und Desktopfreigabe.
 
-  - Benutzer aller öffentlichen Sofortnachrichten-Dienstanbieter, die von Ihrer Organisation unterstützt werden (und für die die Bereitstellung abgeschlossen ist), die mit einem Benutzer von Lync Server 2013 und einem Benutzer von Office Communications Server 2007 R2 kommunizieren.
+  - Benutzer jedes öffentlichen Chat Dienstanbieters, die von Ihrer Organisation unterstützt werden (und für die Bereitstellung abgeschlossen wurde), die mit einem Benutzer in lync Server 2013 und einem Benutzer in Office Communications Server 2007 R2 kommunizieren.
 
-  - Überprüfen Sie, ob anonyme Benutzer in der Lage sind, an Konferenzen teilzunehmen.
+  - Überprüfen Sie, ob anonyme Benutzer an Konferenzen teilnehmen können.
 
-  - Ein in Office Communications Server 2007 R2 verwalteter Benutzer unter Verwendung des Remotebenutzerzugriffs (Anmeldung an Office Communications Server 2007 R2 von außerhalb des Intranets, doch ohne VPN) mit einem Benutzer von Lync Server 2013 und einem Benutzer von Office Communications Server 2007 R2. Testen Sie Sofortnachrichten, Anwesenheit, A/V und Desktopfreigabe.
+  - Ein Benutzer, der auf Office Communications Server 2007 R2 mithilfe des Remotebenutzerzugriffs (Anmelden bei Office Communications Server 2007 R2 von außerhalb des Intranets, aber ohne VPN) mit einem Benutzer in lync Server 2013 und einem Benutzer auf Office Communications Server 2007 R2 gehostet wird. Testen Sie Chat, Anwesenheit, A/V und Desktopfreigabe.
 
-  - Ein in Lync Server 2013 verwalteter Benutzer unter Verwendung des Remotebenutzerzugriffs (Anmeldung an Lync Server 2013 von außerhalb des Intranets, doch ohne VPN) mit einem Benutzer von Lync Server 2013 und einem Benutzer von Office Communications Server 2007 R2. Testen Sie Sofortnachrichten, Anwesenheit, A/V und Desktopfreigabe.
+  - Ein Benutzer, der auf lync Server 2013 mithilfe des Remotebenutzerzugriffs (Anmeldung bei lync Server 2013 von außerhalb des Intranets, aber ohne VPN) mit einem Benutzer in lync Server 2013 und einem Benutzer auf Office Communications Server 2007 R2 gehostet wird. Testen Sie Chat, Anwesenheit, A/V und Desktopfreigabe.
 

@@ -1,44 +1,76 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren der Medienverschlüsselung für öffentliche Anbieter'
-TOCTitle: Konfigurieren der Medienverschlüsselung für öffentliche Anbieter
-ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205149(v=OCS.15)
-ms:contentKeyID: 49295034
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Medienverschlüsselung für öffentliche Anbieter'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media encryption for public providers
+ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)
+ms:contentKeyID: 48185036
+ms.date: 12/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Medienverschlüsselung für öffentliche Anbieter in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Konfigurieren der Medienverschlüsselung für öffentliche Anbieter in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-12-12_
 
-Ausführliche Informationen zu den Lizenzierungsanforderungen und zum Abschließen des Bereitstellungsprozesses finden Sie in der "Anleitung zur Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten für Microsoft Lync Server, Office Communications Server und Live Communications Server" unter [http://go.microsoft.com/fwlink/p/?linkId=155970](http://go.microsoft.com/fwlink/p/?linkid=155970)
+Wenn Sie eine Audio/Video-Föderation (A/V) mit Windows Live Messenger implementieren, müssen Sie zwei Parameter ändern: die lync Server-Verschlüsselungsstufe und die EnablePublicCloudAccess-Richtlinie. Standardmäßig ist die Verschlüsselungsstufe auf Required eingestellt. Sie müssen diese Einstellung in unterstützt ändern. Wenn die EnablePublicCloudAccess-Richtlinie auf "false" festgelegt ist, muss diese auf " **true**" festgelegt werden. Sie können dies in der lync Server-Verwaltungsshell tun.
 
-Wenn Sie einen A/V-Verbund (Audio/Video) mit Windows Live Messenger implementieren, müssen Sie zwei Parameter ändern: die Lync Server-Verschlüsselungsstufe und die Richtlinie "EnablePublicCloudAccess". Standardmäßig ist die Verschlüsselungsstufe auf "Erforderlich" festgelegt. Sie müssen diese Einstellung in "Unterstützt" ändern. Die Richtlinie "EnablePublicCloudAccess" ist auf "False" festgelegt, sie muss jedoch auf **True** festgelegt werden. Sie können diese Änderung in der Lync Server-Verwaltungsshell durchführen.
+<div>
 
+## <a name="configure-federation-for-windows-live"></a>Konfigurieren von Federation für Windows Live
 
-> [!IMPORTANT]
-> Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync Standard-Clientzugriffslizenz (CAL). Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht es Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.
-
-
-
-## Konfigurieren des Verbunds für Windows Live
-
-1.  Starten Sie die Lync Server-Verwaltungsshell auf dem Front-End-Server: Klicken Sie auf **Start** , klicken Sie auf **Alle Programme** , klicken Sie auf **Microsoft Lync Server 2013**, und klicken Sie dann auf **Lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell auf dem Front-End-Server: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Geben Sie an der Eingabeaufforderung die folgenden Befehle ein:
     
+       ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-
-       &nbsp;
+       ```
     
+       ```
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
+    
+    <div class=" ">
     
 
-    > [!NOTE]
-    > Dieser Schritt ist erforderlich, weil Windows Live Messenger die Audio-/Videoverschlüsselung nicht unterstützt. Mithilfe des Befehls wrid die globale Richtlinie auf eine Einstellung zur Unterstützung der Verschlüsselung festgelegt, anstatt die Verschlüsselung der Audio-/Videodaten zu fordern. Auf Clients, die die Verschlüsselung unterstützen, wird die Verschlüsselung weiterhin verwendet, dies ist beispielsweise bei Lync 2013 der Fall.
+    > [!NOTE]  
+    > Dieser Schritt ist erforderlich, da Windows Live Messenger die Verschlüsselung von Audio/Video nicht unterstützt. Mit dem Befehl wird Ihre globale Richtlinie auf eine Verschlüsselungseinstellung für die Unterstützung festgelegt, anstatt die Audio/Video-Daten zu verschlüsseln. Clients, die die Verschlüsselung unterstützen, verwenden weiterhin die Verschlüsselung, wie lync 2013.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
