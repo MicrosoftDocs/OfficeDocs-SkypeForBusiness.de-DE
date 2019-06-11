@@ -1,96 +1,144 @@
-﻿---
-title: Erstellen oder Ändern einer neuen Regel für Clientversionsrichtlinien
-TOCTitle: Erstellen oder Ändern einer neuen Regel für Clientversionsrichtlinien
-ms:assetid: 6f879d99-8401-41e0-a562-195c890d63ea
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ898478(v=OCS.15)
-ms:contentKeyID: 52056376
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erstellen oder Ändern einer neuen Richtlinienregel für Clientversionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a new client version policy rule
+ms:assetid: 6f879d99-8401-41e0-a562-195c890d63ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898478(v=OCS.15)
+ms:contentKeyID: 50873758
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa5f9074f928a9bec20ca275487806b790a0226b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832785"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erstellen oder Ändern einer neuen Regel für Clientversionsrichtlinien
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-21_
+# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="9bf41-102">Erstellen oder Ändern einer neuen Richtlinienregel für Clientversionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bf41-102">Create or modify a new client version policy rule in Lync Server 2013</span></span>
 
-Mit Regeln für Clientversionsrichtlinien werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten. Sie können einzelne Regeln für eine Clientversionsrichtlinie in der Systemsteuerung für Lync Server 2013 erstellen oder ändern.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9bf41-103">_**Letztes Änderungsdatum des Themas:** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="9bf41-103">_**Topic Last Modified:** 2013-01-21_</span></span>
+
+<span data-ttu-id="9bf41-104">Client Versionsrichtlinien Regeln definieren die Aktionen, die ausgeführt werden sollen, wenn Benutzer versuchen, sich mit bestimmten Clients und Clientversionen anzumelden.</span><span class="sxs-lookup"><span data-stu-id="9bf41-104">Client version policy rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="9bf41-105">Sie können in der lync Server 2013-Systemsteuerung einzelne Regeln für eine clientversionsrichtlinie erstellen oder ändern.</span><span class="sxs-lookup"><span data-stu-id="9bf41-105">You can create or modify individual rules for a client version policy from Lync Server 2013 Control Panel.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Regeln werden gemäß ihrer Rangfolge aufgelistet. Beispiel: Sie verfügen über eine Regel, die die Ausführung von Clientversion&nbsp;1.5 zulässt, gefolgt von einer Regel, die Clients mit früheren Versionen als Version&nbsp;2.0 blockiert. In diesem Fall hat die erste Regel Vorrang, und Clients mit Version&nbsp;1.5 können eine Verbindung herstellen.
+> [!IMPORTANT]  
+> <span data-ttu-id="9bf41-106">Regeln werden in der Reihenfolge der Rangfolge aufgelistet.</span><span class="sxs-lookup"><span data-stu-id="9bf41-106">Rules are listed in order of precedence.</span></span> <span data-ttu-id="9bf41-107">Wenn Sie beispielsweise über eine Regel verfügen, mit der Clients, auf denen Version 1,5 ausgeführt wird, eine Verbindung herstellen können, gefolgt von einer Regel, die Clients mit einer älteren Version als 2,0 blockiert, hat die erste Regel Vorrang, und Clients, auf denen Version 1,5 ausgeführt wird, können eine Verbindung herstellen.</span><span class="sxs-lookup"><span data-stu-id="9bf41-107">For example, if you have a rule that allows clients running version 1.5 to connect, followed by a rule that blocks clients running a version earlier than 2.0, the first rule takes precedence, and clients running version 1.5 are allowed to connect.</span></span>
 
 
 
-## So erstellen oder ändern Sie Regeln für Clientversionsrichtlinien mithilfe der Lync Server-Systemsteuerung
+</div>
 
-1.  [Erstellen oder Ändern einer neuen Clientversionsrichtlinie](lync-server-2013-create-or-modify-a-new-client-version-policy.md) mit Lync Server-Systemsteuerung.
+<div>
 
-2.  Führen Sie auf der Seite **Clientversionsrichtlinie bearbeiten** eine der folgenden Aktionen aus:
+## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="9bf41-108">So erstellen oder ändern Sie clientversionsrichtlinien Regeln mit der lync Server-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="9bf41-108">To create or modify client version policy rules with Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="9bf41-109">[Erstellen oder Ändern einer neuen clientversionsrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) mit der lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="9bf41-109">[Create or modify a new client version policy in Lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) with Lync Server Control Panel.</span></span>
+
+2.  <span data-ttu-id="9bf41-110">Führen Sie auf der Seite **Client-Versionsrichtlinie bearbeiten** eine der folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="9bf41-110">On the **Edit Client Version Policy** page, do one of the following:</span></span>
     
-      - Klicken Sie auf **Neu**, um eine neue Clientversionsrichtlinie zu erstellen.
+      - <span data-ttu-id="9bf41-111">Klicken Sie auf **neu** , um eine neue clientversionsregel zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="9bf41-111">Click **New** to create a new client version rule.</span></span>
     
-      - Klicken Sie auf einen der definierten Clienttypen in der Liste, und klicken Sie dann auf **Details einblenden**.
+      - <span data-ttu-id="9bf41-112">Klicken Sie in der Liste auf einen der definierten Clienttypen, und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="9bf41-112">Click one of the defined client types in the list, and then click **Show details**.</span></span>
     
-
-    > [!NOTE]
-    > Sie können den Clienttyp mithilfe von Platzhalterzeichen angeben.
-
-
-
-3.  Wählen Sie unter **Benutzer-Agent** einen Clienttyp aus.
-
-4.  Führen Sie unter **Versionsnummer** die folgenden Aktionen aus:
-    
-      - Geben Sie in **Hauptversion** die Nummer ein, die der Hauptversion des Clients entspricht.
-    
-      - Geben Sie in **Nebenversion** die Nummer ein, die der Nebenversion des Clients entspricht.
-    
-      - Geben Sie in **Build** die Nummer ein, die der Haupt- und Nebenversion des Clients entspricht.
-    
-      - Geben Sie in **Update** die Nummer ein, die der aktualisierten Version des Clients entspricht.
+    <div>
     
 
-    > [!NOTE]
-    > Sie können die Clientversionsnummer mithilfe von Platzhalterzeichen angeben.
+    > [!NOTE]  
+    > <span data-ttu-id="9bf41-113">Sie können Platzhalter zum Angeben des Clienttyps verwenden.</span><span class="sxs-lookup"><span data-stu-id="9bf41-113">You can use wildcards to indicate the client type.</span></span>
 
+    
+    </div>
 
+3.  <span data-ttu-id="9bf41-114">Wählen Sie im **Benutzer-Agent**einen Clienttyp aus.</span><span class="sxs-lookup"><span data-stu-id="9bf41-114">In **User agent**, select a client type.</span></span>
 
-5.  Klicken Sie unter **Vergleichsvorgang** auf eine der folgenden Optionen, um den Vergleichsvorgang für die in den vorherigen Schritten angegebene Clientversion festzulegen:
+4.  <span data-ttu-id="9bf41-115">Führen Sie unter **Versionsnummer**die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="9bf41-115">Under **Version number**, do the following:</span></span>
     
-      - **Gleich**
+      - <span data-ttu-id="9bf41-116">Geben Sie in der **Hauptversion**die Nummer ein, die der Hauptversion des Clients entspricht.</span><span class="sxs-lookup"><span data-stu-id="9bf41-116">In **Major version**, type the number that corresponds to the major release of the client.</span></span>
     
-      - **Ungleich**
+      - <span data-ttu-id="9bf41-117">Geben Sie in der **Nebenversion**die Zahl ein, die der Nebenversion des Clients entspricht.</span><span class="sxs-lookup"><span data-stu-id="9bf41-117">In **Minor version**, type the number that corresponds to the minor release of the client.</span></span>
     
-      - **Neuer als**
+      - <span data-ttu-id="9bf41-118">Geben Sie in **Build**die Zahl ein, die der Haupt-und Nebenversion des Clients entspricht.</span><span class="sxs-lookup"><span data-stu-id="9bf41-118">In **Build**, type the number that corresponds to the major and minor release of the client.</span></span>
     
-      - **Neuer als oder gleich**
+      - <span data-ttu-id="9bf41-119">Geben Sie in **Update**die Nummer ein, die der aktualisierten Version des Clients entspricht.</span><span class="sxs-lookup"><span data-stu-id="9bf41-119">In **Update**, type the number that corresponds to the updated release of the client.</span></span>
     
-      - **Älter als**
+    <div>
     
-      - **Älter als oder gleich**
 
-6.  Klicken Sie unter **Aktion** auf eine der folgenden Optionen, um die Aktion anzugeben, die bei Übereinstimmung mit dem angegebenen Kriterium ausgeführt werden soll:
+    > [!NOTE]  
+    > <span data-ttu-id="9bf41-120">Sie können Platzhalter verwenden, um die Versionsnummer des Clients anzugeben.</span><span class="sxs-lookup"><span data-stu-id="9bf41-120">You can use wildcards to indicate the client version number.</span></span>
+
     
-      - Klicken Sie auf **Zulassen**, um die Anmeldung des Clients zu erlauben.
+    </div>
+
+5.  <span data-ttu-id="9bf41-121">Wenn Sie den übereinstimmenden Vorgang für die Client Version angeben möchten, die Sie in den vorherigen Schritten angegeben haben, klicken Sie im **Vergleichsvorgang**auf eine der folgenden Optionen:</span><span class="sxs-lookup"><span data-stu-id="9bf41-121">To specify the matching operation for the client version you specified in the preceding steps, in **Comparison operation**, click one of the following:</span></span>
     
-      - Klicken Sie auf **Zulassen und aktualisieren**, um dem Client die Anmeldung zu erlauben und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
+      - <span data-ttu-id="9bf41-122">**Identisch mit**</span><span class="sxs-lookup"><span data-stu-id="9bf41-122">**Same as**</span></span>
+    
+      - <span data-ttu-id="9bf41-123">**Ist nicht**</span><span class="sxs-lookup"><span data-stu-id="9bf41-123">**Is not**</span></span>
+    
+      - <span data-ttu-id="9bf41-124">**Neuer als**</span><span class="sxs-lookup"><span data-stu-id="9bf41-124">**Newer than**</span></span>
+    
+      - <span data-ttu-id="9bf41-125">**Neuer als oder identisch mit**</span><span class="sxs-lookup"><span data-stu-id="9bf41-125">**Newer than or same as**</span></span>
+    
+      - <span data-ttu-id="9bf41-126">**Älter als**</span><span class="sxs-lookup"><span data-stu-id="9bf41-126">**Older than**</span></span>
+    
+      - <span data-ttu-id="9bf41-127">**Älter als oder identisch mit**</span><span class="sxs-lookup"><span data-stu-id="9bf41-127">**Older than or same as**</span></span>
+
+6.  <span data-ttu-id="9bf41-128">Wenn Sie die Aktion angeben möchten, die ausgeführt werden soll, wenn die Kriterien in den vorherigen Schritten erfüllt sind, klicken Sie in **Aktion**auf eine der folgenden Optionen:</span><span class="sxs-lookup"><span data-stu-id="9bf41-128">To specify the action to perform when the criteria in the preceding steps are met, click one of the following in **Action**:</span></span>
+    
+      - <span data-ttu-id="9bf41-129">Klicken Sie auf **zulassen**, damit sich der Client anmelden kann.</span><span class="sxs-lookup"><span data-stu-id="9bf41-129">To allow the client to log on, click **Allow**.</span></span>
+    
+      - <span data-ttu-id="9bf41-130">Wenn Sie zulassen möchten, dass der Client sich beim Windows Server Update-Dienst oder Microsoft Update anmeldet und Updates erhält, klicken Sie auf **zulassen und aktualisieren**.</span><span class="sxs-lookup"><span data-stu-id="9bf41-130">To allow the client to log on and receive updates from Windows Server Update Service or Microsoft Update, click **Allow and Upgrade**.</span></span> <span data-ttu-id="9bf41-131">Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.</span><span class="sxs-lookup"><span data-stu-id="9bf41-131">This action is available only when user agent **OC** is selected.</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, sobald sich Benutzer das nächste Mal bei Lync 2013 anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft&nbsp;Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
+        > [!NOTE]  
+        > <span data-ttu-id="9bf41-132">Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, wenn sich die Benutzer das nächste Mal bei lync 2013 anmelden.</span><span class="sxs-lookup"><span data-stu-id="9bf41-132">Selecting this action causes a notification to appear the next time users sign in to Lync 2013.</span></span> <span data-ttu-id="9bf41-133">Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden.</span><span class="sxs-lookup"><span data-stu-id="9bf41-133">The notification states that an update is available, even if updates have not yet been released to Windows Server Update Service or Microsoft Update.</span></span> <span data-ttu-id="9bf41-134">Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.</span><span class="sxs-lookup"><span data-stu-id="9bf41-134">To avoid confusion, you should choose this action only after updates become available.</span></span>
 
+        
+        </div>
     
-      - Klicken Sie auf **Mit URL zulassen**, um die Anmeldung des Clients zu erlauben und den Benutzer in einer Meldung darauf hinzuweisen, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL später in diesem Verfahren an.
+      - <span data-ttu-id="9bf41-135">Klicken Sie auf **Allow with URL**, damit der Client sich anmelden und eine Meldung darüber anzeigen kann, wo eine andere Client Version heruntergeladen werden kann.</span><span class="sxs-lookup"><span data-stu-id="9bf41-135">To allow the client to log on and display a message about where to download another client version, click **Allow with URL**.</span></span> <span data-ttu-id="9bf41-136">Sie geben die URL später in diesem Verfahren an.</span><span class="sxs-lookup"><span data-stu-id="9bf41-136">You specify the URL later in this procedure.</span></span>
     
-      - Um die Anmeldung des Clients zu verhindern, klicken Sie auf **Blockieren**.
+      - <span data-ttu-id="9bf41-137">Klicken Sie auf **blockieren**, um zu verhindern, dass der Client sich anmeldet.</span><span class="sxs-lookup"><span data-stu-id="9bf41-137">To prevent the client from logging on, click **Block**.</span></span>
     
-      - Klicken Sie auf **Blockieren und aktualisieren**, um dem Client die Anmeldung zu verweigern und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
+      - <span data-ttu-id="9bf41-138">Klicken Sie auf **blockieren und aktualisieren**, um zu verhindern, dass der Client sich anmeldet und dem Client das Empfangen von Updates vom Windows Server Update-Dienst oder Microsoft Update ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="9bf41-138">To prevent the client from logging on and allow the client to receive updates from Windows Server Update Service or Microsoft Update, click **Block and Upgrade**.</span></span> <span data-ttu-id="9bf41-139">Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.</span><span class="sxs-lookup"><span data-stu-id="9bf41-139">This action is available only when user agent **OC** is selected.</span></span>
     
-      - Klicken Sie auf **Mit URL blockieren**, um die Anmeldung des Clients zu verweigern und den Benutzer in einer Meldung darauf hinzuweisen, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL später in diesem Verfahren an.
+      - <span data-ttu-id="9bf41-140">Wenn Sie verhindern möchten, dass der Client sich anmeldet und eine Meldung darüber anzeigt, wo eine andere Client Version heruntergeladen werden soll, klicken Sie auf **mit URL blockieren**.</span><span class="sxs-lookup"><span data-stu-id="9bf41-140">To prevent the client from logging on and display a message about where to download another client version, click **Block with URL**.</span></span> <span data-ttu-id="9bf41-141">Sie geben die URL später in diesem Verfahren an.</span><span class="sxs-lookup"><span data-stu-id="9bf41-141">You specify the URL later in this procedure.</span></span>
 
-7.  (Optional) Wenn Sie im vorherigen Schritt auf **Mit URL zulassen** oder **Mit URL blockieren** geklickt haben, geben Sie unter **URL** die URL für den Clientdownload ein.
+7.  <span data-ttu-id="9bf41-142">Optional Wenn Sie im vorherigen Schritt auf **Allow with URL** oder **Block with URL** geklickt haben, geben Sie die Client Download-URL ein, die in die Nachricht in **URL**aufgenommen werden soll.</span><span class="sxs-lookup"><span data-stu-id="9bf41-142">(Optional) If you clicked **Allow with URL** or **Block with URL** in the previous step, type the client download URL to include in the message in **URL**.</span></span>
 
-8.  Klicken Sie auf **OK** und dann auf **Commit ausführen**.
+8.  <span data-ttu-id="9bf41-143">Klicken Sie auf **OK**und dann auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="9bf41-143">Click **OK**, and then click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
