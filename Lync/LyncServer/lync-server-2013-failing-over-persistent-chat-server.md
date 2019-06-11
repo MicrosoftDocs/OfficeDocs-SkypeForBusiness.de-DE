@@ -1,41 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Ausführen eines Failovers für den Server für beständigen Chat'
-TOCTitle: Ausführen eines Failovers für den Server für beständigen Chat
-ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204772(v=OCS.15)
-ms:contentKeyID: 49293530
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen eines Failovers für den Server für beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failing over Persistent Chat Server
+ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204772(v=OCS.15)
+ms:contentKeyID: 48183726
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 021b34cafd91397cc36da1dbc22f91b8665aea96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832169"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen eines Failovers für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Ausführen eines Failovers für den Server für beständigen Chat in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-02-05_
 
-Das Failover für den Server für beständigen Chat ist im Wesentlichen als manueller Prozess konzipiert.
+Das Failover für beständigen Chat Server ist hauptsächlich ein manueller Prozess.
 
-Das Failoververfahren basiert auf der Annahme, dass das sekundäre Datencenter ordnungsgemäß ausgeführt wird, aber die Dienste für den Server für beständigen Chat, in denen sich die Beständiger Chat-Primärdatenbank befindet, überhaupt nicht verfügbar sind, einschließlich:
+Das Failover-Verfahren basiert auf der Annahme, dass das sekundäre Rechenzentrum in Betrieb ist, aber die Server Dienste für beständigen Chat, bei denen sich die primäre Datenbank für beständigen Chat befindet, sind vollständig nicht verfügbar, einschließlich der folgenden:
 
-  - Die Server für beständigen Chat-Primärdatenbank und die Server für beständigen Chat-Spiegeldatenbank sind ausgefallen.
+  - Die primäre Datenbank des beständigen Chat Servers und die Spiegeldatenbank des beständigen Chat Servers sind nicht mehr vorhanden.
 
-  - Der Lync Server- Front-End-Server ist ausgefallen.
+  - Der lync Server-Front-End-Server ist ausgefallen.
 
 Das Verfahren basiert auf zwei grundlegenden Schritten:
 
-  - Wiederherstellen der Beständiger Chat-Primärdatenbank (mgc)
+  - Wiederherstellen der primären persistent Chat-Datenbank (MGC)
 
   - Einrichten der Spiegelung für die neue Primärdatenbank
 
-Für die Beständiger Chat-Konformitätsdatenbank (mgccomp) findet kein Failover statt. Die Inhalte dieser Datenbank sind flüchtig und werden gelöscht, wenn der Konformitätsadapter die Daten verarbeitet. Sie als Beständiger Chat-Administrator sind dafür verantwortlich, die Adapterausgabe korrekt zu verwalten, um einen Datenverlust zu vermeiden.
+Die beständige Chat-Kompatibilitätsdatenbank (mgccomp) ist nicht fehlerhaft. Die Inhalte dieser Datenbank sind flüchtig und werden gelöscht, wenn der Konformitätsadapter die Daten verarbeitet. Es liegt in ihrer Verantwortung als Administrator des beständigen Chats, die Adapter Ausgabe ordnungsgemäß zu verwalten, um Datenverluste zu vermeiden.
 
-## So führen Sie ein Failover für Server für beständigen Chat durch
+<div>
 
-1.  Entfernen Sie den Protokollversand aus der Server für beständigen Chat-Sicherungsdatenbank für den Protokollversand.
+## <a name="to-fail-over-persistent-chat-server"></a>So führen Sie einen Failover für beständigen Chat Server durch
+
+1.  Entfernen Sie den Protokollversand aus der Datenbank des beständigen Chat Server-Sicherungs Protokolls.
     
-    1.  Stellen Sie mit SQL Server Management Studio eine Verbindung mit der Datenbankinstanz her, in der sich die mgc-Sicherungsdatenbank für den Server für beständigen Chat befindet.
+    1.  Stellen Sie mithilfe von SQL Server Management Studio eine Verbindung mit der Datenbankinstanz her, in der sich die Datenbank des beständigen Chat Server-Backup MGC befindet.
     
     2.  Öffnen Sie ein Abfragefenster zur Masterdatenbank.
     
@@ -45,32 +67,48 @@ Für die Beständiger Chat-Konformitätsdatenbank (mgccomp) findet kein Failover
 
 2.  Kopieren Sie alle nicht kopierten Sicherungsdateien von der Sicherungsfreigabe in den Kopierzielordner des Sicherungsservers.
 
-3.  Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Detaillierte Informationen finden Sie unter "Vorgehensweise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL)" unter **http://go.microsoft.com/fwlink/?linkid=247428\&clcid=0x407** .
+3.  Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Ausführliche Informationen finden Sie unter "Vorgehensweise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL http://go.microsoft.com/fwlink/p/?linkid=247428)" unter.
 
 4.  Stellen Sie die mgc-Sicherungsdatenbank online bereit. Führen Sie im Abfragefenster, das in Schritt 1b oben geöffnet wird, folgende Aufgaben aus:
     
     1.  Beenden Sie alle Verbindungen mit der mgc-Datenbank, falls vorhanden:
         
-        1.  Geben Sie **\\exec sp\_who2** ein, um Verbindungen mit der mgc-Datenbank zu identifizieren.
+        1.  **exec SP\_who2** , um Verbindungen zur MGC-Datenbank zu identifizieren.
         
-        2.  Geben Sie **\\kill \<spid\>** ein, um diese Verbindungen zu beenden.
+        2.  **Kill \<SPID\> ** , um diese Verbindungen zu beenden.
     
     2.  Stellen Sie die Datenbank online bereit:
         
-        1.  Führen Sie für die mgc-Datenbank mit **\\restore** eine Wiederherstellung durch.
+        1.  **restore database mgc with recovery**.
 
-5.  Verwenden Sie in der Lync Server-Verwaltungsshell den Befehl **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" –PoolState FailedOver**, um ein Failover zur mgc-Backupdatenbank durchzuführen. Achten Sie darauf, den vollqualifizierten Domänennamen Ihres Pools für beständigen Chat für atl-cs-001.litwareinc.com zu ersetzen.
+5.  Verwenden Sie in der lync Server-Verwaltungsshell den Befehl **Satz-CsPersistentChatState-Identity "Service: ATL-CS-001.litwareinc.com" – PoolState FailedOver** , um ein Failover zur MGC-Sicherungsdatenbank durchführen zu können. Achten Sie darauf, den vollqualifizierten Domänennamen Ihres Pools für beständigen Chat durch „atl-cs-001.litwareinc.com“ zu ersetzen.
     
     Die mgc-Sicherungsdatenbank dient jetzt als Primärdatenbank.
 
-6.  Verwenden Sie in der Lync Server-Verwaltungsshell das Cmdlet **Install-CsMirrorDatabase**, um für die Sicherungsdatenbank, die jetzt als Primärdatenbank dient, eine Hochverfügbarkeitsspiegelung einzurichten. Verwenden Sie die Sicherungsdatenbankinstanz als Primärdatenbank und die Instanz der Sicherungsspiegeldatenbank als Spiegelinstanz. Dies ist nicht dieselbe Spiegelung, die anfänglich beim Setup für die Primärdatenbank eingerichtet wurde. Detailliere Informationen finden Sie im Abschnitt "Verwenden von Lync Server-Verwaltungsshell-Cmdlets" in [Bereitstellen der SQL-Spiegelung für eine hohe Verfügbarkeit von Back-End-Servern in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
+6.  Verwenden Sie in der lync Server-Verwaltungsshell das Cmdlet " **install-CsMirrorDatabase** ", um eine Hochverfügbarkeits-Spiegelung für die Sicherungsdatenbank einzurichten, die jetzt als primäre Datenbank fungiert. Verwenden Sie die Sicherungsdatenbankinstanz als Primärdatenbank und die Instanz der Sicherungsspiegeldatenbank als Spiegelinstanz. Dies ist nicht dieselbe Spiegelung, die anfänglich beim Setup für die Primärdatenbank eingerichtet wurde. Ausführliche Informationen finden Sie im Abschnitt "Verwenden von lync Server-Verwaltungsshell-Cmdlets" unter [Bereitstellen der SQL-Spiegelung für den Back-End-Server mit einer höheren Verfügbarkeit in lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
 
-7.  Legen Sie die aktiven Server für den Server für beständigen Chat fest. Verwenden Sie in der Lync Server-Befehlsshell das Cmdlet **Set-CsPersistentChatActiveServer**, um die Liste der aktiven Server festzulegen.
+7.  Setzen Sie die aktiven Server für den beständigen Chat Server. Verwenden Sie in der lync Server-Befehlsshell das Cmdlet " **Satz-CsPersistentChatActiveServer** ", um die Liste der aktiven Server einzurichten.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Alle aktiven Server müssen sich im gleichen Rechenzentrum wie die neue primäre Datenbank oder in einem Rechenzentrum, das über eine Verbindung mit einer geringen Latenz und hohen Bandbreite zu der Datenbank verfügt, befinden.
+    > [!IMPORTANT]  
+    > Alle aktiven Server müssen sich im gleichen Rechenzentrum wie die neue primäre Datenbank oder in einem Rechenzentrum befinden, das über eine Verbindung mit geringer Latenz und hohen Bandbreite zur Datenbank verfügt.
 
     
-    An dieser Stelle wird das Failover der Server für beständigen Chat-Primärdatenbank zur Server für beständigen Chat-Sicherungsdatenbank erfolgreich abgeschlossen.
+    </div>
+    
+    An diesem Punkt wird das Failover von der primären Datenbank des beständigen Chat Servers zur Datenbank des beständigen Chat Servers erfolgreich abgeschlossen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

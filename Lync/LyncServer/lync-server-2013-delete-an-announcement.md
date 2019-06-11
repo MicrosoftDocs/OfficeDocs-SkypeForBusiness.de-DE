@@ -1,33 +1,55 @@
-﻿---
-title: Löschen einer Ansage
-TOCTitle: Löschen einer Ansage
-ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ687998(v=OCS.15)
-ms:contentKeyID: 49890670
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen einer Ankündigung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an announcement
+ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687998(v=OCS.15)
+ms:contentKeyID: 49733588
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8bb942c57394e2141ad4c550ecaf33ae2ef128fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832628"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen einer Ansage
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Löschen einer Ankündigung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Führen Sie die folgenden Schritte aus, um eine Ankündigung zu löschen, die für Anrufe bei nicht zugewiesenen Nummern verwendet werden soll.
+Gehen Sie wie folgt vor, um eine Ankündigung zu löschen, die für Anrufe an nicht zugewiesene Nummern verwendet wird.
 
-## So löschen Sie eine Ankündigung
+<div>
 
-1.  Melden Sie sich auf dem Computer, auf dem die Lync Server-Verwaltungsshell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten an, wie beschrieben unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-delete-an-announcement"></a>So löschen Sie eine Ansage
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
 
-3.  Listen Sie alle Ankündigungen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Listen Sie alle Ansagen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         Get-CsAnnouncement
 
-4.  Suchen Sie in der Ergebnisliste nach der zu löschenden Ankündigung, und kopieren Sie die GUID. Führen Sie an der Eingabeaufforderung dann Folgendes aus:
+4.  Suchen Sie in der Ergebnisliste nach der zu löschenden Ansage und kopieren Sie die GUID. Führen Sie an der Eingabeaufforderung dann Folgendes aus:
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
@@ -35,20 +57,38 @@ Führen Sie die folgenden Schritte aus, um eine Ankündigung zu löschen, die f�
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
+    <div>
+    
 
-    > [!NOTE]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
+    > [!NOTE]  
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> und <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
 
 
+[Erstellen einer Ankündigung in lync Server 2013](lync-server-2013-create-an-announcement.md)  
 
-## Siehe auch
 
-#### Aufgaben
+[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+  
 
-[Erstellen einer Ansage in Lync Server 2013](lync-server-2013-create-an-announcement.md)  
+</div>
 
-#### Weitere Ressourcen
+</div>
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
-[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

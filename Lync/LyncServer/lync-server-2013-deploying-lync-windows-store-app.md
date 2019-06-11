@@ -1,48 +1,74 @@
-﻿---
-title: Bereitstellen der Lync-Windows Store-App
-TOCTitle: Bereitstellen der Lync-Windows Store-App
-ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ822971(v=OCS.15)
-ms:contentKeyID: 52056417
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen der lync Windows Store-App'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Windows Store app
+ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)
+ms:contentKeyID: 50117635
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832551"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen der Lync-Windows Store-App
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Bereitstellen der lync Windows Store-App in lync Server 2013
 
-Bevor Sie die Windows Store-App für Lync für die Benutzer zur Verfügung stellen, müssen Sie sicherstellen, dass Ihre Bereitstellung den [Anforderungen für Lync Windows Store-App](lync-server-2013-lync-windows-store-app-requirements.md) gerecht wird. Details zur Konfiguration von Lync Server 2013 für die Unterstützung von Windows Store-App für Lync finden Sie im NextHop Blog-Artikel "Lync Server Autodiscover and the Lync Windows Store App" unter [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966) (in Englisch). Nachdem die Serverumgebung ordnungsgemäß konfiguriert wurde, können Sie die Benutzer anweisen, die Lync-App aus dem Windows Store herunterzuladen, indem sie nach "Lync" suchen.
+</div>
 
-## Aktivieren der mehrstufigen Authentifizierung für die Windows Store-App für Lync
+<div id="mainSection">
 
-Mit Kumulatives Update für Lync Server 2013: Juni 2013 wird die mehrstufige Authentifizierung für Windows Store-App für Lync-Clients unterstützt. Zusätzlich zu Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden erforderlich machen, beispielsweise Smartcards oder PINs, um externen Benutzer zu authentifizieren, wenn sie sich bei Lync-Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie Active Directory-Verbunddienste-Verbundserver bereitstellen und die passive Authentifizierung in Lync Server 2013 aktivieren. Nach der Konfiguration von Active Directory-Verbunddiensten werden externe Benutzer, die versuchen, sich bei Lync-Besprechungen anzumelden, auf einer Webseite mit Informationen zur mehrstufigen Authentifizierung für Active Directory-Verbunddienste angezeigt, die den Benutzernamen und das Kennwortniveau zusammen mit den zusätzlichen von Ihnen konfigurierten Authentifizierungsmethoden enthält.
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-12-03_
+
+Bevor Sie die lync Windows Store-App für Benutzer verfügbar machen, stellen Sie sicher, dass Ihre Bereitstellung die [lync Windows Store-App-Anforderungen für lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)erfüllt. Details zum Konfigurieren von lync Server 2013 zur Unterstützung der lync Windows Store-App finden Sie im NextHop-Blog Artikel "lync Server-AutoErmittlung und der lync Windows [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)Store-App" unter. Nachdem Sie die Server Umgebung ordnungsgemäß konfiguriert haben, können Sie die Benutzer anweisen, die lync-App aus dem Windows Store herunterzuladen, indem Sie nach "lync" suchen.
+
+<div>
+
+## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Aktivieren der mehrstufigen Authentifizierung für die lync Windows Store-App
+
+Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für die mehrstufige Authentifizierung für lync Windows Store-App-Clients hinzu. Zusätzlich zu Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins anfordern, um externe Benutzer bei der Anmeldung bei lync-Besprechungen zu authentifizieren. Zum Aktivieren der mehrstufigen Authentifizierung stellen Sie den Active Directory Federation Service (AD FS)-Verbundserver bereit, und aktivieren Sie die passive Authentifizierung in lync Server 2013. Nach der Konfiguration von AD FS werden externe Benutzer, die versuchen, an lync-Besprechungen teilzunehmen, mit einer AD FS-Website mit mehrstufiger Authentifizierung angezeigt, die die Herausforderung Benutzername und Kennwort zusammen mit allen weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält. .
+
+<div class=" ">
 
 
-> [!IMPORTANT]
-> Im Folgenden finden Sie wichtige Erwägungen, wenn Sie planen, Active Directory-Verbunddienste für die mehrstufige Authentifizierung in Windows Store-App für Lync zu konfigurieren: 
+> [!IMPORTANT]  
+> Im folgenden sind wichtige Überlegungen zu berücksichtigen, wenn Sie die Konfiguration von AD FS für die mehrstufige Authentifizierung für die lync Windows Store-App planen: 
 > <UL>
 > <LI>
-> <P>Die Mindestvoraussetzung ist Lync Server 2013 mit Kumulatives Update für Lync Server&nbsp;2013: Juni&nbsp;2013. Für Lync 2013-Desktopclients ist Kumulatives Update für Lync Server&nbsp;2013: Juni&nbsp;2013 nicht erforderlich, also kann der Eindruck entstehen, dass die passive Authentifizierung funktioniert, da Lync 2013-Clients in der Lage sind, die Authentifizierung durchzuführen. Das Authentifizierungsverfahren für Windows Store-App für LyncClients kann jedoch nicht erfolgreich abgeschlossen werden, und es wird weder eine Benachrichtigung, noch eine Fehlermeldung angezeigt.</P>
+> <P>Lync Server 2013 mit kumulativen Updates für lync Server 2013: Juni 2013 ist mindestens erforderlich. Lync 2013-Desktop Clients erfordern keine kumulativen Updates für lync Server 2013: Juni 2013, daher kann es vorkommen, dass die passive Authentifizierung funktioniert, weil lync 2013-Clients authentifiziert werden können. Der Authentifizierungsprozess für lync Windows Store-App-Clients wird jedoch nicht abgeschlossen, und es wird keine Benachrichtigung oder Fehlermeldung angezeigt.</P>
 > <LI>
-> <P>Der Server muss so konfiguriert sein, dass die passive Authentifizierung der einzige angebotene Authentifizierungstyp ist.</P>
+> <P>Der Server muss so konfiguriert sein, dass die passive Authentifizierung der einzige von Ihnen bereitgestellte Authentifizierungstyp ist.</P>
 > <LI>
-> <P>Wenn Sie Hardwaregeräte zum Lastenausgleich verwenden, aktivieren Sie die Dauerhaftigkeit von Cookies auf den Geräten zum Lastenausgleich, sodass alle Anforderungen des Windows Store-App für Lync-Clients vom selben Front-End-Server verarbeitet werden.</P>
+> <P>Wenn Sie Hardwarelastenausgleichs verwenden, aktivieren Sie die Beibehaltung von Cookies auf den Lastenausgleichsgeräten, damit alle Anforderungen vom lync Windows Store-App-Client vom gleichen Front-End-Server verarbeitet werden.</P>
 > <LI>
-> <P>Wenn Sie eine Vertrauensstellung der vertrauenden Seite zwischen Lync Server und Active Directory-Verbunddienste-Servern einrichten, weisen Sie eine Gültigkeitsdauer des Token zu, die die maximale Länge Ihrer Lync-Besprechungen umfasst. Gewöhnlich genügt eine Gültigkeitsdauer des Token von 240 Minuten.</P></LI></UL>
+> <P>Wenn Sie eine vertrauende Vertrauensstellung zwischen lync Server und AD FS-Servern einrichten, weisen Sie eine Lebensdauer von Token zu, die lang genug ist, um die maximale Länge ihrer lync-Besprechungen zu überspannen. Normalerweise genügt eine Tokengültigkeitsdauer von 240 Minuten.</P></LI></UL>
 
 
 
-**Konfigurieren der mehrstufigen Authentifizierung**
+</div>
 
-1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Details können Sie dem Bereitstellungshandbuch für AD FS 2.0 unter [http://go.microsoft.com/fwlink/?linkid=267511\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=267511%26clcid=0x407) entnehmen.
+**So konfigurieren Sie die mehrstufige Authentifizierung**
 
-2.  Erstellen Sie Zertifikate für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserverzertifikate" des Themas "Planen und Bereitstellen von AD FS für die Verwendung beim einmaligen Anmelden" unter [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+1.  Installieren Sie eine AD FS-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory-Verbund <http://go.microsoft.com/fwlink/p/?linkid=267511>Dienste 2,0 unter.
 
-3.  Führen Sie aus der Windows PowerShell-Befehlszeilenschnittstelle den folgenden Befehl aus:
+2.  Erstellen Sie Zertifikate für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" im Abschnitt Planen und Bereitstellen von AD FS für die Verwendung mit dem Thema für einmaliges [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)anmelden unter.
+
+3.  Führen Sie über die Windows PowerShell-Befehlszeilenschnittstelle den folgenden Befehl aus:
     
         add-pssnapin Microsoft.Adfs.powershell
 
@@ -52,75 +78,113 @@ Mit Kumulatives Update für Lync Server 2013: Juni 2013 wird die mehrstufige A
 
 5.  Legen Sie die folgenden vertrauenswürdigen Parteienregeln fest:
     
+       ```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-
-       &nbsp;
+       ```
     
+       ```
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-
-       &nbsp;
+       ```
     
+       ```
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+       ```
 
-## Bekannte Probleme, die eine Anmeldung verhindern können
+</div>
 
-## Datum und Uhrzeit sind auf dem Gerät, auf dem Windows Store-App für Lync ausgeführt wird, nicht ordnungsgemäß konfiguriert
+<div>
 
-Die Zeiteinstellung auf dem Gerät muss mit der Zeiteinstellung auf dem Lync-Server synchronisiert sein. Dies ist besonders wichtig für Geräte wie Microsoft Surface und andere Geräte, auf denen Windows RT ausgeführt wird und die nicht einer Domäne beigetreten sind. Um die Uhrzeit auf diesen Geräten automatisch über einen Zeitserver einzustellen, führen Sie den folgenden Befehl an einer erweiterten Befehlseingabeaufforderung auf dem Gerät aus :
+## <a name="known-issues-that-can-prevent-sign-in"></a>Bekannte Probleme, die eine Anmeldung verhindern können
+
+<div>
+
+## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>Die Uhrzeit und das Datum sind auf dem Gerät, auf dem die lync Windows Store-App ausgeführt wird, nicht genau eingestellt.
+
+Die Zeiteinstellung auf dem Gerät muss mit der Zeiteinstellung auf dem Server synchronisiert werden. Dies ist besonders wichtig für Geräte wie Microsoft Surface und andere Geräte mit Windows RT, die nicht mit einer Domäne verbunden sind. Wenn Sie die Uhrzeit auf diesen Geräten automatisch von einem Zeitserver einstellen möchten, führen Sie den folgenden Befehl an einer Eingabeaufforderung mit erhöhten Rechten auf dem Gerät aus:
 
     w32tm /resync
 
-## Windows Store-App für Lync kann nicht auf den Lync-Server oder auf Dienste zugreifen
+</div>
 
-Windows Store-App für Lync ist möglicherweise nicht in der Lage, über Netzwerkadapter wie 4G LTE USB-Modems auf den Lync-Server oder auf Dienste zuzugreifen, die in Windows 8 nicht als physische Geräte registriert sind. In Windows Store-App für Lync tritt dieses Problem möglicherweise auch dann auf, wenn Desktop-Apps und Browsers in der Lage sind, auf andere Server und Websites zuzugreifen.
+<div>
 
-## Die Lync-Windows Store-App kann sich nicht beim Lync Server 2010- und Office Communications Server 2007 R2-Edgeserver anmelden
+## <a name="lync-windows-store-app-cannot-access-the-lync-server-or-services"></a>Lync Windows Store-App kann nicht auf lync-Server oder-Dienste zugreifen
 
-Wenn Ihre Topologie aus Lync Server 2010 mit Office Communications Server 2007 R2-Edgeserver besteht, müssen Sie die aktualisierte Version des Topologie-Generators ausführen, der mit dem kumulativen Updaten von Lync Server 2010 aus Juli 2013 bereitsteht. Frühere Versionen des Topologie-Generators sind nicht in der Lage, die erforderliche Zuordnung zum Office Communications Server 2007-Edgeserver zu erstellen, sodass sich Lync-Windows Store-App-Clients nicht anmelden können. In diesem Fall sind die folgenden Schritte erforderlich:
+Die lync Windows Store-App kann möglicherweise nicht über Netzwerkadapter, wie etwa 4G LTE-USB-Modems, auf lync-Server oder-Dienste zugreifen, die nicht bei Windows 8 als physikalische Geräte registriert sind. Bei der lync Windows Store-App kann dieses Problem auftreten, selbst wenn die Desktop-Apps und Browser auf andere Server und Websites zugreifen können.
 
-1.  Installieren Sie das kumulative Update für Lync Server 2010 aus Juli 2013 auf den Lync Server 2010-Pools und den Lync Server 2010-Directors.
+</div>
 
-2.  Aktualisieren Sie die Konfiguration der Lync-AutoErmittlung so, dass der externe SIP-Eintrittpunkt gleich der Edgeserveradresse ist. Gehen Sie dazu wie folgt vor:
+<div>
+
+## <a name="lync-windows-store-app-cannot-sign-in-with-lync-server-2010-and-office-communications-server-2007-r2-edge-server"></a>Lync Windows Store-App kann sich nicht mit lync Server 2010 und Office Communications Server 2007 R2 Edge-Server anmelden
+
+Wenn Ihre Topologie aus lync Server 2010 mit Office Communications Server 2007 R2 Edge Server besteht, müssen Sie die aktualisierte Version des Topologie-Generators ausführen, die im kumulativen Update für lync Server 2010: Juli 2013 verfügbar ist. In früheren Versionen des Topologie-Generators wird nicht die erforderliche Zuordnung zu Office Communications Server 2007-Edgeserver erstellt, sodass sich lync Windows Store-App-Clients nicht anmelden können. Die folgenden Schritte sind erforderlich:
+
+1.  Installieren Sie das kumulative Update für lync Server 2010: Juli 2013 in lync Server 2010-Pools und lync Server 2010-Directors.
+
+2.  Aktualisieren Sie die lync-AutoErmittlungskonfiguration, um anzugeben, dass der externe SIP-Einstiegspunkt die Edgeserver-Adresse ist, indem Sie wie folgt vorgehen:
     
-    1.  Öffnen Sie Lync Server-Verwaltungsshell.
+    1.  Öffnen Sie die Lync Server-Verwaltungsshell.
     
     2.  Führen Sie den folgenden Befehl aus:
         
             Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
 
-## Die Lync Windows Store-App kann wegen eines Fehlers bei der Überprüfung des Zertifikatnamens nicht angemeldet werden
+</div>
 
-Für Office 365-Benutzer, bei denen nicht die neueste Version von Windows Store-App für Lync ausgeführt wird, kann ein Anmeldeproblem auftreten. Zu diesem Problem kommt es im Allgemeinen bei der Verwendung mehrerer Domänen (zum Beispiel wenn der SIP-URI **userA@domainZ.com** ist, der Edgeserver aber **sip.domainX.com** ist). Zum Beheben des Problems sollten Benutzer die neueste Version von Windows Store-App für Lync installieren, für die auch Windows 8.1 erforderlich ist.
+<div>
 
-## Verwenden der Windows Store-App für Lync-Protokollen für die Problembehandlung
+## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>Die lync Windows Store-App kann aufgrund eines Zertifikatsnamen-Validierungsfehlers nicht angemeldet werden.
 
-Sie können die auf dem Gerät generierten Protokolle für die Problembehandlung verwenden. Die Protokollen sind im folgendem Ordner gespeichert:
+Ein Anmeldeproblem kann für Office 365-Benutzer auftreten, die nicht die neueste Version der lync Windows Store-App ausführen. Dieses Problem tritt in der Regel bei der Verwendung mehrerer Domänen auf (beispielsweise, wenn der SIP-URI **UserA@domainZ.com** ist, der Edgeserver aber **SIP.domainX.com**ist). Um das Problem zu beheben, sollten Benutzer die neueste Version der lync Windows Store-App installieren, für die auch Windows 8,1 erforderlich ist.
 
-%LocalAppData%\\Packages\\Microsoft.LyncMX\_8wekyb3d8bbwe\\LocalState\\Tracing
+</div>
 
-Bevor Sie die Protokolle von einem Benutzer anfordern, überprüfen Sie, ob die Protokollierung aktiviert ist, und bitten Sie die Benutzer dann, die Protokolle zu speichern, sodass alle im Arbeitsspeicher gespeicherten Informationen ebenfalls in Dateien auf der Festplatte gespeichert werden.
+</div>
+
+<div>
+
+## <a name="use-lync-windows-store-app-logs-to-troubleshoot-issues"></a>Verwenden von lync Windows Store-App-Protokollen zur Behandlung von Problemen
+
+Sie können die auf dem Gerät generierten Protokolle verwenden, um Probleme zu beheben. Die Protokolle werden im folgenden Ordner gespeichert:
+
+% LocalAppData%\\Pakete\\Microsoft. LyncMX\_8wekyb3d8bbwe\\LocalState\\-Ablaufverfolgung
+
+Bevor Sie die Protokolle eines Benutzers abrufen, stellen Sie sicher, dass die Protokollierung aktiviert ist, und bitten Sie den Benutzer, die Protokolle zu speichern, damit alle im Arbeitsspeicher gespeicherten Informationen auch in Dateien auf der Festplatte gespeichert werden.
 
 **So aktivieren Sie die Protokollierung**
 
-1.  Öffnen Sie Windows Store-App für Lync auf dem Gerät.
+1.  Öffnen Sie die lync Windows Store-App auf dem Gerät.
 
-2.  Wischen Sie vom rechten Bildschirmrand aus. Wenn Sie eine Maus verwenden, zeigen Sie auf die obere rechte Ecke des Bildschirms, und bewegen Sie dann den Mauszeiger über den Bildschirm nach unten.
+2.  Wischen Sie auf der rechten Seite des Bildschirms. Wenn Sie eine Maus verwenden, zeigen Sie auf die obere rechte Ecke des Bildschirms, und bewegen Sie dann den Mauszeiger nach unten auf dem Bildschirm.
 
-3.  Wählen Sie **Einstellungen** \> **Optionen** aus, und legen Sie dann **Diagnoseprotokolle** auf **Ein** fest.
+3.  Wählen Sie **Einstellungen**aus, wählen Sie **Optionen**aus, und legen Sie dann **Diagnoseprotokolle** auf **ein**.
 
-4.  Wenn **Diagnoseprotokolle** zuvor deaktiviert war, müssen Sie Lync neu starten. Gehen Sie folgendermaßen vor, um Lync neu zu starten:
+4.  Wenn **Diagnoseprotokolle** zuvor deaktiviert wurden, müssen Sie lync erneut starten. Führen Sie eine der folgenden Aktionen aus, um lync erneut zu starten:
     
       - Starten Sie das Gerät neu.
     
-      - Beenden Sie die Lync-Task, und starten Sie die App erneut. Öffnen Sie zum Beenden der Task den Windows Task-Manager, wählen Sie **Lync** aus, und tippen Sie dann auf **Task beenden**. Wenn Lync nicht aufgelistet ist, tippen Sie auf **Mehr Details**, und wählen Sie dann unter **Hintergrundprozesse** "Lync" aus
+      - Beenden Sie die lync-Aufgabe, und starten Sie die APP erneut. Um die Aufgabe zu beenden, öffnen Sie den Windows Task-Manager, wählen Sie **lync**aus, und tippen Sie dann auf **Aufgabe beenden**. Wenn lync nicht aufgeführt ist, tippen Sie auf **Weitere Details** , und suchen Sie unter **Hintergrundprozesse**nach lync.
 
 **So speichern Sie die Protokolle**
 
-1.  Öffnen Sie Windows Store-App für Lync auf dem Gerät.
+1.  Öffnen Sie die lync Windows Store-App auf dem Gerät.
 
 2.  Versuchen Sie, sich anzumelden.
 
-3.  Wischen Sie vom rechten Bildschirmrand aus. Wenn Sie eine Maus verwenden, zeigen Sie auf die obere rechte Ecke des Bildschirms, und bewegen Sie dann den Mauszeiger über den Bildschirm nach unten.
+3.  Wischen Sie auf der rechten Seite des Bildschirms. Wenn Sie eine Maus verwenden, zeigen Sie auf die obere rechte Ecke des Bildschirms, und bewegen Sie dann den Mauszeiger nach unten auf dem Bildschirm.
 
-4.  Wählen Sie **Einstellungen** \> **Info** \> **Protokolle speichern** aus.
+4.  Wählen Sie **Einstellungen**aus, wählen Sie **Info**aus, und wählen Sie dann **Protokolle speichern**aus.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

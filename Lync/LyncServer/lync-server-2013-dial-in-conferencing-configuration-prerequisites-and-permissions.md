@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen'
-TOCTitle: Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen
-ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412865(v=OCS.15)
-ms:contentKeyID: 49295142
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing configuration prerequisites and permissions
+ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
+ms:contentKeyID: 48185165
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-06-20_
 
-Einwahlkonferenzen sind eine optionale Funktion bei der Bereitstellung von Lync Server 2013-Konferenzen. Die Komponenten, die vor der Konfiguration von Einwahlkonferenzen installiert werden müssen, werden beim Verwenden des Topologie-Generators zum Entwerfen Ihrer Topologie und anschließenden Einrichtung der Front End-Pools und Standard Edition-Server bereitgestellt. In diesem Thema wird beschrieben, welche Aufgaben vor der Konfiguration von Einwahlkonferenzen ausgeführt werden müssen.
+Einwahlkonferenzen ist eine optionale Komponente der lync Server 2013-Konferenz Arbeitsauslastung. Die Komponenten, die Sie installieren müssen, bevor Sie Einwahlkonferenzen konfigurieren können, werden bereitgestellt, wenn Sie die Topologie mithilfe des Topologie-Generators entwerfen und dann Ihren Front-End-Pool oder Standard Edition-Server einrichten. In diesem Thema wird beschrieben, welche Voraussetzungen erfüllt sein müssen, bevor Sie Einwahlkonferenzen konfigurieren können.
 
-Es wird davon ausgegangen, dass Sie die Planungsdokumentation im Zusammenhang mit Konferenzen und insbesondere mit Einwahlkonferenzen gelesen haben.
+In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsabschnitte im Zusammenhang mit der Konferenz Arbeitsauslastung und insbesondere Einwahlkonferenzen gelesen haben.
 
-## Voraussetzungen für die Konfiguration von Einwahlkonferenzen
+<div>
 
-Für Einwahlkonferenzen sind die folgenden  Lync Server 2013-Komponenten erforderlich:
+## <a name="dial-in-conferencing-configuration-prerequisites"></a>Voraussetzungen für die Konfiguration von Einwahlkonferenzen
+
+Für Einwahlkonferenzen sind die folgenden lync Server 2013-Komponenten erforderlich:
 
   - Unified Communications-Anwendungsdienst (auch nur *Anwendungsdienst* genannt)
 
@@ -31,64 +53,95 @@ Für Einwahlkonferenzen sind die folgenden  Lync Server 2013-Komponenten erford
 
   - Webseite mit Einstellungen für Einwahlkonferenzen
 
-  - Mindestens ein  Lync Server 2013-Vermittlungsserver und ein PSTN-Gateway
+  - Mindestens ein lync Server 2013-Vermittlungsserver und mindestens ein PSTN-Gateway
 
-Sie stellen diese Komponenten bereit, wenn Sie mit dem Topologie-Generator Ihre Topologie definieren und veröffentlichen und anschließend einen Front-End-Pool oder Standard Edition-Server bereitstellen. Wenn Sie Enterprise-VoIP bereitstellen, muss diese Bereitstellung vor der Konfiguration von Einwahlkonferenzen erfolgen. Wenn Sie Enterprise-VoIP nicht bereitstellen, können Sie einen Vermittlungsserver und ein PSTN-Gateway bei der Bereitstellung Ihres Front-End-Pools oder Standard Edition-Servers einrichten.
+Diese Komponenten werden bereitgestellt, wenn Sie den Topologie-Generator verwenden, um Ihre Topologie zu definieren und zu veröffentlichen und dann einen Front-End-Pool oder einen Standard Edition-Server bereitzustellen. Wenn Sie Enterprise-VoIP bereitstellen, sollten Sie es bereitstellen, bevor Sie Einwahlkonferenzen konfigurieren. Wenn Sie Enterprise-VoIP nicht bereitstellen, können Sie einen Vermittlungs Server und ein PSTN-Gateway (Public Switched Telephone Network) bereitstellen, wenn Sie den Front-End-Pool oder den Standard Edition-Server bereitstellen.
+
+<div>
 
 
 > [!NOTE]
-> Stellen Sie bei einem Upgrade von Office Communications Server 2007 R2 auf Lync Server 2013 Einwahlkonferenzen in allen Pools bereit, die zum Hosten von Lync Server 2013-Konferenzen dienen sollen. Ausführliche Informationen zum Migrieren von Einwahlkonferenzen finden Sie unter&nbsp; <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration von Office Communications Server 2007 R2 zu Lync Server 2013</A>.
+> Wenn Sie ein Upgrade von Office Communications Server 2007 R2 auf lync Server 2013 durchführen, stellen Sie Einwahlkonferenzen in jedem Pool bereit, den Sie zum Hosten von lync Server 2013-Konferenzen verwenden möchten. Details zum Migrieren von Einwahlkonferenzen finden Sie unter <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration von Office Communications Server 2007 R2 zu lync Server 2013</A>.
 
 
 
-Dieser Abschnitt setzt voraus, dass Sie die folgenden Schritte ausgeführt haben:
+</div>
 
-  - Die neuesten Updates auf Ihre Office Communications Server 2007 R2-Umgebung angewendet haben, wenn Sie zu Lync Server 2013 migrieren.
+In diesem Abschnitt wird davon ausgegangen, dass Sie die folgenden Schritte ausgeführt haben:
 
-  - Mit dem Topologie-Generator Ihre Topologie entworfen und konfiguriert haben und beim Angeben der Konferenzarbeitslast die Einwahlkonferenzoption ausgewählt haben. Ausführliche Informationen zum Definieren Ihrer Topologie finden Sie unter [Definieren und Konfigurieren der Topologie in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in der Bereitstellungsdokumentation.
+  - Sie haben die neuesten Updates für Ihre Office Communications Server 2007 R2-Umgebung angewendet, wenn Sie zu lync Server 2013 migrieren.
 
-  - Die Topologie veröffentlicht sowie den Front-End-Pool oder Standard Edition-Server eingerichtet haben. Weitere Informationen zum Veröffentlichen der Topologie und Installieren von  Lync Server 2013 finden Sie unter [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungdokumentation.
+  - Mithilfe des Topologie-Generators können Sie Ihre Topologie entwerfen und konfigurieren. Wenn Sie die Konferenz Arbeitsauslastung angeben, haben Sie die Option Einwahlkonferenzen ausgewählt. Details zum Definieren Ihrer Topologie finden Sie unter [definieren und Konfigurieren der Topologie in lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in der Bereitstellungsdokumentation.
+
+  - Haben Sie Ihre Topologie veröffentlicht, und richten Sie den Front-End-Pool oder den Standard Edition-Server ein. Details zum Veröffentlichen der Topologie und zur Installation von lync Server 2013 finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+    
+    <div>
     
 
     > [!NOTE]
-    > Bei der Installation Ihrer veröffentlichten Topologie wird die Webseite mit Einstellungen für Einwahlkonferenzen als Teil der Webdienste auf dem Front-End-Server oder Standard Edition-Server installiert.
+    > Wenn Sie Ihre veröffentlichte Topologie installieren, wird die Seite Einwahlkonferenzeinstellungen auf dem Front-End-Server oder Standard Edition-Server als Teil von Webdiensten installiert.
 
+    
+    </div>
+    
+    <div>
     
 
     > [!IMPORTANT]
-    > Wenn Sie nach der Bereitstellung von Lync Server 2013 im Topologie-Generator den Pfad zum Dateispeicher ändern, müssen Sie die Konferenzzentrale und die Konferenzankündigungsanwendung neu starten, damit der neue Pfad übernommen wird.
+    > Wenn Sie den Pfad für den Dateispeicher in Topology Builder nach der Bereitstellung von lync Server 2013 ändern, müssen Sie die Anwendungen für Konferenzzentrale und Konferenz Ankündigungen neu starten, um den neuen Pfad zu verwenden.
 
+    
+    </div>
 
+  - Enterprise-VoIP bereitgestellt. Wenn Sie Enterprise-VoIP nicht bereitstellen, haben Sie entweder einen Vermittlungsserver auf dem Enterprise Edition-Front-End-Server oder auf dem Standard Edition-Server zusammengestellt, oder Sie haben einen eigenständigen Vermittlungsserver bereitgestellt, und Sie haben ein PSTN-Gateway bereitgestellt. Details zur Bereitstellung von Enterprise-VoIP finden Sie unter [Bereitstellen von Enterprise-VoIP in lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) in der Bereitstellungsdokumentation. Details zum Installieren eines eigenständigen Vermittlungsservers und eines PSTN-Gateways finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers in lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) in der Bereitstellungsdokumentation.
 
-  - Enterprise-VoIP bereitgestellt. Wenn Sie Enterprise-VoIP nicht bereitstellen, haben Sie entweder einen Vermittlungsserver auf dem Enterprise Edition-Front-End-Server oder dem Standard Edition-Server verbunden oder einen eigenständigen Vermittlungsserver zusammen mit einem PSTN-Gateway bereitgestellt. Genauere Informationen zur Bereitstellung von Enterprise-VoIP finden Sie unter [Bereitstellen von Enterprise-VoIP in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) in der Bereitstellungsdokumentation. Genauere Informationen zur Installation eines eigenständigen Vermittlungsservers zusammen mit einem PSTN-Gateway finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) in der Bereitstellungsdokumentation.
-
-Das folgende Flussdiagramm zeigt die Schritte, die erfolgen müssen, bevor Sie Einwahlkonferenzen konfigurieren können, und die Schritte, die Sie zum Konfigurieren von Einwahlkonferenzen ausführen müssen.
+Das folgende Flussdiagramm zeigt die Schritte, die Sie ausführen müssen, bevor Sie Einwahlkonferenzen und die Schritte konfigurieren können, die Sie zum Konfigurieren von Einwahlkonferenzen durchführen.
 
 **Bereitstellen von Einwahlkonferenzen**
 
-![Bereitstellung von Einwahlkonferenzen (Flussdiagramm)](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Bereitstellung von Einwahlkonferenzen (Flussdiagramm)")
+![Bereitstellungs Flussdiagramm für Einwahlkonferenzen] (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Bereitstellungs Flussdiagramm für Einwahlkonferenzen")
 
-## Berechtigungen für Einwahlkonferenzen
+</div>
 
-Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Verwaltungsprogramme verwenden:
+<div>
+
+## <a name="dial-in-conferencing-permissions"></a>Berechtigungen für Einwahlkonferenzen
+
+Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Verwaltungstools verwenden:
 
   - Systemsteuerung für Lync Server 2013
 
   - Lync Server-Verwaltungsshell
 
-Mithilfe dieser Verwaltungsprogramme konfigurieren Sie die Einwahlkonferenzeinstellungen, Wähleinstellungen, Richtlinien und anderen Einstellungen, die für Einwahlkonferenzen erforderlich sind.
+Sie verwenden diese Verwaltungstools, um Einstellungen für Einwahlkonferenzen und die Wählpläne, Richtlinien und andere Einstellungen zu konfigurieren, die für Einwahlkonferenzen erforderlich sind.
 
-Für das Konfigurieren von Einwahlkonferenzen ist, je nach Aufgabe, eine der folgenden Administratorrollen erforderlich:
+Für die Konfiguration von Einwahlkonferenzen sind je nach Aufgabe eine der folgenden Administratorrollen erforderlich:
 
-  - **CsVoiceAdministrator**   Diese Administratorrolle kann alle VoIP-bezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
+  - **CsVoiceAdministrator**   diese Administratorrolle kann sprachbezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
 
-  - **CsUserAdministrator**   Diese Administratorrolle kann Benutzer für Lync Server aktivieren oder deaktivieren und Benutzern vorhandene Richtlinien, z. B. Konferenz- und PIN-Richtlinien, zuweisen.
+  - **CsUserAdministrator**   diese Administratorrolle kann Benutzer für lync Server aktivieren und deaktivieren und Benutzern vorhandene Richtlinien wie Konferenzrichtlinien und PIN-Richtlinien zuweisen.
 
-  - **CsAdministrator**   Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator" und "CsUserAdministrator" ausgeführt werden können.
+  - **CsAdministrator**   diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator und CsUserAdministrator ausführen.
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
 
-[Bereitstellen von Enterprise-VoIP in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Bereitstellen von Enterprise-VoIP in lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

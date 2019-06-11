@@ -1,51 +1,95 @@
-﻿---
-title: Löschen von vorhandenen Netzwerkregionen
-TOCTitle: Löschen von vorhandenen Netzwerkregionen
-ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721882(v=OCS.15)
-ms:contentKeyID: 49890935
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen vorhandener netzwerkregionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting existing network regions
+ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721882(v=OCS.15)
+ms:contentKeyID: 49733815
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ea9d08121a7d62d10b44f97ff46ff8d4a5ca129e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832583"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen von vorhandenen Netzwerkregionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deleting-existing-network-regions-in-lync-server-2013"></a>Löschen vorhandener netzwerkregionen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Eine Netzwerkregion verbindet verschiedene Teile eines Netzwerks, das sich über verschiedene geografische Bereiche erstreckt. Jede Netzwerkregion muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist der Rechenzentrumsstandort, an dem der Bandbreiten-Richtliniendienst für die Anrufsteuerung ausgeführt wird. Mithilfe der Lync Server-Systemsteuerung können Sie Netzwerkregionen konfigurieren. Netzwerkregionen umfassen Einstellungen, mit denen definiert wird, ob für Audio- und Videoverbindungen alternative Pfade über das Internet zulässig sind. Über die Lync Server-Systemsteuerung können Sie eine Netzwerkregion erstellen, ändern oder löschen. Verwenden Sie dieses Thema zum Löschen vorhandener Netzwerkregionen. Ausführliche Informationen zum Erstellen oder Löschen vorhandener Netzwerkregionen finden Sie unter [Erstellen oder Ändern von Netzwerkregionen](lync-server-2013-creating-or-modifying-network-regions.md).
+Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Jeder Netzwerkbereich muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist die Datencenter-Website, auf der der bandbreitenrichtliniendienst für die Anrufannahme Steuerung (CAC) ausgeführt wird. Sie können die lync Server-Systemsteuerung verwenden, um netzwerkregionen zu konfigurieren. Zu den netzwerkregionen gehören Einstellungen, die bestimmen, ob für Audio-und Videoverbindungen alternative Pfade über das Internet zulässig sind. In der lync Server-Systemsteuerung können Sie einen Netzwerkbereich erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um vorhandene netzwerkregionen zu löschen. Details zum Erstellen oder Ändern vorhandener netzwerkregionen finden Sie unter [erstellen oder Ändern von netzwerkregionen in lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
 
-## So löschen Sie eine Netzwerkregion
+<div>
+
+## <a name="to-delete-a-network-region"></a>So löschen Sie einen Netzwerkbereich
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Region**.
 
-4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie löschen möchten.
+4.  Klicken Sie auf der Seite **Region** auf den Bereich, den Sie löschen möchten.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können mehrere Regionen in einem Arbeitsschritt löschen. Drücken Sie hierzu STRG, und wählen Sie bei gedrückter STRG-TASTE mehrere Regionen aus. Wenn Sie alle Regionen auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
+    > [!NOTE]  
+    > Sie können mehr als einen Bereich gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Bereiche aus, während Sie die STRG-Taste gedrückt halten. Wenn Sie alle Bereiche auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG> .
 
-
+    
+    </div>
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
 6.  Klicken Sie auf **OK**.
     
+    <div>
+    
 
-    > [!WARNING]
-    > Eine Netzwerkregion kann nicht entfernt werden, wenn sie einem Netzwerkstandort zugeordnet ist. Wenn Sie versuchen, eine einem Standort zugeordnete Region zu entfernen, wird eine Fehlermeldung ausgegeben. Um zu überprüfen, ob eine Region einem Standort zugeordnet ist, wählen Sie die Region und klicken im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Details einblenden</STRONG>.
+    > [!WARNING]  
+    > Eine netzwerkregion kann nicht entfernt werden, wenn Sie einer Netzwerk Website zugeordnet ist. Wenn Sie versuchen, einen Bereich zu entfernen, der einer Website zugeordnet ist, wird eine Fehlermeldung angezeigt. Wenn Sie feststellen möchten, ob ein Bereich Websites zugeordnet ist, wählen Sie den Bereich aus, und klicken Sie dann im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Details anzeigen</STRONG> .
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
 
 
+[Erstellen oder Ändern von netzwerkregionen in lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
+  
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+</div>
 
-[Erstellen oder Ändern von Netzwerkregionen](lync-server-2013-creating-or-modifying-network-regions.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

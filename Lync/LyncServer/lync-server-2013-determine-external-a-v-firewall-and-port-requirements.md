@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Ermitteln der Anforderungen für externe A/V-Firewalls und Ports'
-TOCTitle: Ermitteln der Anforderungen für externe A/V-Firewalls und Ports
-ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425882(v=OCS.15)
-ms:contentKeyID: 49293735
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ermitteln der Anforderungen für externe A/V-Firewalls und Ports'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Determine external A/V firewall and port requirements
+ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425882(v=OCS.15)
+ms:contentKeyID: 48183872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b278c60eaca69fd17508d0e82198a002484ce586
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832446"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013
 
-Die A/V-Kommunikation (Audio/Video) kann komplex sein. Aufgrund der Beschaffenheit der bei der A/V-Kommunikation verwendeten Protokolle und der Art, wie diese von Clients und Servern verwendet werden, ist es notwendig, in diesem Abschnitt die Unterschiede zwischen Client- und Serverversionen zu erläutern.
+</div>
 
-Ermitteln Sie anhand der folgenden Firewall- und Porttabelle für A/V, welche Firewallanforderungen gelten und welche Ports geöffnet werden müssen. Lesen Sie anschließend die Hinweise zur Netzwerkadressenübersetzung (Network Address Translation, NAT), da NAT auf viele verschiedene Arten implementiert werden kann. Ein detailliertes Beispiel zu den Firewallporteinstellungen finden Sie in den Referenzarchitekturen unter [Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+<div id="mainSection">
 
-### Allgemeine Protokollverwendung für UDP und TCP in Audio-/Video- und Mediendatenverkehr
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+
+Die Kommunikation zwischen Audio und Video (a/V) kann komplex sein. Aufgrund der Art der in A/V verwendeten Protokolle und der Verwendung der Protokolle durch Clients und Server wird ein spezieller Abschnitt für die Erläuterung der Unterschiede zwischen Client-und Server Versionen gerechtfertigt.
+
+Verwenden Sie die folgende A/V-Firewall und Port Tabelle, um die Firewall-Anforderungen und die zu öffnenden Ports zu ermitteln. Überprüfen Sie dann die NAT-Terminologie (Network Address Translation), da NAT auf viele verschiedene Arten implementiert werden kann. Ein detailliertes Beispiel für Firewall-Porteinstellungen finden Sie in den Referenzarchitekturen in [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a>Allgemeine Protokollverwendung für UDP und TCP im Audio/Video-und Mediendatenverkehr
 
 <table>
 <colgroup>
@@ -28,7 +48,7 @@ Ermitteln Sie anhand der folgenden Firewall- und Porttabelle für A/V, welche Fi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Audio/Videotransport</th>
+<th>Audio/Video-Transport</th>
 <th>Verwendung</th>
 </tr>
 </thead>
@@ -39,23 +59,25 @@ Ermitteln Sie anhand der folgenden Firewall- und Porttabelle für A/V, welche Fi
 </tr>
 <tr class="even">
 <td><p>TCP</p></td>
-<td><p>Ausweich-Transportschichtprotokoll für Audio und Video</p>
-<p>Erforderliches Transportschichtprotokoll für Anwendungsfreigabe für Office Communications Server 2007 R2, Lync Server 2010 und Lync Server 2013</p>
-<p>Erforderliches Transportschichtprotokoll für Dateiübertragung an Lync Server 2010 und Lync Server 2013</p></td>
+<td><p>Fall Back Transport-Layer-Protokoll für Audio und Video</p>
+<p>Erforderliches Transportschichtprotokoll für die Anwendungsfreigabe für Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013</p>
+<p>Erforderliches Transportschichtprotokoll für die Dateiübertragung an lync Server 2010 und lync Server 2013</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Portanforderungen für die externe A/V-Firewall für den externen Benutzerzugriff
+<div>
 
-Die Anforderungen in Bezug auf Firewallports für externe (und interne) SIP- und Konferenzschnittstellen sind gleich, unabhängig von Ihrer oder der vom Verbundpartner ausgeführten Clientversion.
+## <a name="external-av-firewall-port-requirements-for-external-user-access"></a>Externe A/V-Firewall-Port Anforderungen für den Zugriff durch externe Benutzer
 
-Dies gilt nicht für die externe A/V-Edgeschnittstelle (Audio/Video). Für den Verbund mit Office Communications Server 2007 erfordert der A/V-Edgedienst, dass die externen Firewallregeln RTP/TCP- und RTP/UDP-Datenverkehr im Portbereich 50.000 bis 59.999 in beide Richtungen zulassen. In der obigen Tabelle wird davon ausgegangen, dass Lync Server 2013 den primären Verbundpartner darstellt und für die Kommunikation mit einem der anderen Verbundpartnertypen konfiguriert ist.
+Die Firewall-Portanforderungen für externe (und interne) SIP-und Konferenz Schnittstellen sind unabhängig von der Version des Clients oder der Version des Verbundpartners konsistent.
 
-Beim Konfigurieren des Audio-/Videoportbereichs von of 50.000 - 59.999 muss berücksichtigt werden, dass der Portbereich die Quellports für die Kommunikation mit Verbundpartnern enthält. Berücksichtigen Sie insbesondere, dass die Kommunikation vom Verbundpartner initiiert wird. Bei der Kommunikation von den A/V-Edgedienst-Ports im Bereich 50.000 - 59.999 wird eine Verbindung mit dem erwarteten Port TCP 443 des A/V-Edgediensts des Partners hergestellt. Dagegen ist für eingehenden Datenverkehr an Ihren A/V-Edgedienst-Port TCP 443 ein Quellport im Bereich 50.000 - 59.999 vorhanden.
+Dies gilt nicht für die externe Schnittstelle Audio/Video Edge. Für den Verbund mit Office Communications Server 2007 erfordert der A/V-Edgedienst, dass externe Firewallregeln den RTP/TCP-und RTP/UDP-Datenverkehr im 50.000 bis 59.999-Portbereich in beide Richtungen fließen lassen. In der vorhergehenden Tabelle wird davon ausgegangen, dass lync Server 2013 der primäre Föderationspartner ist und für die Kommunikation mit einem der anderen Föderationspartner Typen konfiguriert ist, die aufgelistet werden.
 
-Verschiedene Firewalls und Richtlinien für die Firewallverwaltung erfordern entweder nur die Konfiguration von Zielregeln oder die Konfiguration von Quelle und Ziel. Werden nur Zielports erfordert, gelten folgende Audio-/Videovoraussetzungen:
+Bei der Konfiguration des Audio/Video-Portbereichs von 50000-59.999 muss berücksichtigt werden, dass der Portbereich die Quell Anschlüsse für die Kommunikation mit Verbundpartnern enthält. Bedenken Sie im Detail, dass eine Kommunikation von einem Föderationspartner initiiert wird. Die Kommunikation der a/v-Edgedienst-Ports im Bereich 50000-59.999 stellt eine Verbindung mit dem erwarteten Port TCP 443 des a/v-Edgedienst des Partners her. Umgekehrt hat der eingehende Datenverkehr zu Ihrem A/V Edge Service Port TCP 443 einen Quell Port im Bereich von 50000-59.999.
+
+Bei unterschiedlichen Firewalls und Richtlinien für die Firewall-Verwaltung müssen möglicherweise nur Zielregeln konfiguriert werden, oder es ist möglich, dass Quelle und Ziel konfiguriert werden müssen. Wenn Ihre Anforderungen nur für Zielanschlüsse gelten, gelten die Anforderungen für Audio/Video:
 
 
 <table>
@@ -80,7 +102,7 @@ Verschiedene Firewalls und Richtlinien für die Firewallverwaltung erfordern ent
 <tr class="even">
 <td><p>A/V-Edgedienst-Schnittstelle</p></td>
 <td><p>Beliebig</p></td>
-<td><p>UDP 3478</p></td>
+<td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>Beliebig</p></td>
@@ -90,13 +112,13 @@ Verschiedene Firewalls und Richtlinien für die Firewallverwaltung erfordern ent
 <tr class="even">
 <td><p>Beliebig</p></td>
 <td><p>A/V-Edgedienst-Schnittstelle</p></td>
-<td><p>UDP 3478</p></td>
+<td><p>UDP 3478</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Erfordern Ihre Richtlinien die Definition von Firewallregeln für eingehenden und ausgehenden Datenverkehr, gelten folgende Audio-/Videovoraussetzungen:
+Wenn für Ihre Richtlinien sowohl eingehende als auch ausgehende Firewall-Regeldefinitionen erforderlich sind, gelten die Anforderungen für Audio/Video:
 
 
 <table>
@@ -124,8 +146,8 @@ Erfordern Ihre Richtlinien die Definition von Firewallregeln für eingehenden un
 <tr class="even">
 <td><p>A/V-Edgedienst-Schnittstelle</p></td>
 <td><p>Beliebig</p></td>
-<td><p>UDP 3478</p></td>
-<td><p>UDP 3478</p></td>
+<td><p>UDP 3478</p></td>
+<td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>Beliebig</p></td>
@@ -137,59 +159,63 @@ Erfordern Ihre Richtlinien die Definition von Firewallregeln für eingehenden un
 <td><p>Beliebig</p></td>
 <td><p>A/V-Edgedienst-Schnittstelle</p></td>
 <td><p>Beliebig</p></td>
-<td><p>UDP 3478</p></td>
+<td><p>UDP 3478</p></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!IMPORTANT]
-> Microsoft Office Communications Server 2007 erfordert eine leicht abweichende Konfiguration. Der TCP- und UDP-Portbereich von 50.000 - 59.999 muss für eingehenden und ausgehenden Datenverkehr geöffnet sein. Die Anforderung gilt nur für Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 und Lync Server 2013 erfordern nur die Öffnung des TCP-Bereichs 50.000 - 59.999 für ausgehenden Datenverkehr.
+<div>
 
 
-
-## NAT-Anforderungen für den externen Benutzerzugriff
-
-NAT war typischerweise eine Routingfunktion, aber neuere Geräte - beispielsweise Firewalls und sogar Hardwaregeräte zum Lastenausgleich - können für NAT konfiguriert werden. Statt einer Beschreibung, welches Gerät die Netzwerkadressenübersetzung durchführt, wird in diesem Thema das erwartete NAT-Verhalten erläutert.
-
-Die Lync Server 2013- Kommunikationssoftware bietet keine NAT-Unterstützung für Datenverkehr von der oder zur internen Edgeschnittstelle, für die externe Edgeschnittstelle ist jedoch das folgende NAT-Verhalten erforderlich.
-
-
-> [!IMPORTANT]
-> Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren. In diesem Thema wird die symmetrische NAT als NAT-Technologie beschrieben.
+> [!IMPORTANT]  
+> Microsoft Office Communications Server 2007 erfordert eine etwas andere Konfiguration. Der TCP-und UDP-Portbereich von 50000-59.999 muss ein-und ausgehendes öffnen sein. Diese Anforderung gilt nur für Office Communicator 2007. Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013 erfordern nur den TCP-Bereich 50000-59.999 Open Outbound.
 
 
 
-In dieser Dokumentation werden die Akronyme "ChangeDST" und "ChangeSRC" in Tabellen und Abbildungen zum Definieren des folgenden erforderlichen Verhaltens verwendet:
+</div>
 
-  - **ChangeDST**   Der Vorgang der Änderung der Ziel-IP-Adresse für Pakete an das Netzwerk mit NAT-Verwendung. Auch bekannt als Transparenz, Portweiterleitung, Ziel-NAT-Modus oder Halb-NAT-Modus.
+</div>
 
-  - **ChangeSRC**   Der Vorgang der Änderung der Quell-IP-Adresse für Pakete an das Netzwerk mit NAT-Verwendung. Auch bekannt als Proxy, sichere Netzwerkadressenübersetzung, NAT mit Statusinformationen, Quell-NAT oder Voll-NAT-Modus.
+<div>
 
-Unabhängig von der verwendeten Namenskonvention lautet das für die externe Schnittstelle des Edgeservers erforderliche NAT-Verhalten wie folgt:
+## <a name="nat-requirements-for-the-edge-service"></a>NAT-Anforderungen für den Edgedienst
 
-  - Für Datenverkehr vom Internet zur externen Edgeschnittstelle:
+Die folgenden NAT-Anforderungen gelten, wenn Sie sich entscheiden, nicht routingfähige private IP-Adressen für den Edgedienst zu konfigurieren:
+
+  - NAT kann nur mit dem DNS-Lastenausgleich verwendet werden. NAT wird von einer Edge-Topologie (Hardware Load Balancing) nicht unterstützt.
+
+  - NAT kann nur auf der Schnittstelle des externen Edge verwendet werden. NAT wird auf der Schnittstelle für den internen Edge nicht unterstützt.
+
+  - NAT muss für eingehenden und ausgehenden Datenverkehr symmetrisch sein.
     
-      - Änderung der Ziel-IP-Adresse des eingehenden Pakets von der öffentlichen IP-Adresse der externen Edgeschnittstelle in die übersetzte IP-Adresse der externen Edgeschnittstelle.
-    
-      - Beibehaltung der Quell-IP-Adresse, sodass eine Rückroute für den Datenverkehr vorhanden ist.
+  - Für Datenverkehr aus dem Internet muss NAT die Ziel-IP-Adresse von der NAT-aktivierten öffentlichen IP-Adresse des A/V-Edge-Diensts in die externe IP-Adresse ändern. Die Quell-IP-Adresse muss intakt bleiben, damit der A/V-Edgedienst den optimalen Medienpfad finden kann.
+  
+  In der folgenden Abbildung wird beispielsweise in der eingehenden Richtung die öffentliche IP-Adresse 131.107.155.30 in die externe IP-Adresse 10.45.16.10 (privat) geändert. Die Quell-IP-Adresse blieb unverändert.
+  
+  - Für Datenverkehr vom a/v-Edgedienst zum Internet muss NAT die Quell-IP-Adresse von der externen IP-Adresse des a/v-Edgedienst in die NAT-fähige öffentliche IP-Adresse ändern.
 
-  - Für Datenverkehr von der externen Edgeschnittstelle zum Internet:
-    
-      - Änderung der Quell-IP-Adresse des von der externen Edgeschnittstelle ausgehenden Pakets von der übersetzten IP-Adresse in die öffentliche IP-Adresse der externen Edgeschnittstelle, sodass die interne (nicht routingfähige) IP-Adresse der Edgeschnittstelle nicht offengelegt wird.
-    
-      - Beibehaltung der Ziel-IP-Adresse für die ausgehenden Pakete.
+In der folgenden Abbildung wird beispielsweise die externe (private) IP-Adresse 10.45.16.10 in die öffentliche IP-Adresse 131.107.155.30 geändert.
 
-Die folgende Abbildung zeigt den Unterschied zwischen der Änderung der Ziel-IP-Adresse (ChangeDST) für eingehenden Datenverkehr und der Änderung der Quell-IP-Adresse (ChangeSRC) für ausgehenden Datenverkehr am Beispiel der A/V-Edgeschnittstelle.
+**Die folgende Abbildung zeigt, wie NAT die Ziel-IP-Adresse für eingehenden Datenverkehr und die Quell-IP-Adresse für ausgehenden Datenverkehr ändert.**
 
-**Änderung der Ziel-IP-Adresse (ChangeDST) für eingehenden Datenverkehr und Änderung der Quell-IP-Adresse (ChangeSRC)**
+![Ändern von Ziel-/Quell-IP-Adressen] (images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Ändern von Ziel-/Quell-IP-Adressen")
 
-![Ändern der Ziel-/Quell-IP-Adressen](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Ändern der Ziel-/Quell-IP-Adressen")
+Die wichtigsten Punkte sind:
 
-Die wichtigsten Punkte hierbei sind:
+  - Datenverkehr, der sich auf dem Server mit dem A/V-Edgedienst befindet, ändert sich die Quell-IP-Adresse nicht, aber die Ziel-IP-Adresse wird von 131.107.155.30 in die übersetzte IP-Adresse von 10.45.16.10 geändert.
 
-  - Für eingehenden Datenverkehr auf dem Server, auf dem der A/V-Edgedienst ausgeführt wird, wird die Quell-IP-Adresse nicht geändert, die Ziel-IP-Adresse ändert sich jedoch von 131.107.155.30 in die übersetzte IP-Adresse 10.45.16.10.
+  - Datenverkehr von dem Server, auf dem der a/v-Edgedienst zurück zur Workstation läuft, ändert sich die Quell-IP-Adresse von der öffentlichen IP-Adresse des Servers zur öffentlichen IP-Adresse des Servers, auf dem der a/v-Edgedienst ausgeführt wird. Die Ziel-IP-Adresse bleibt die öffentliche IP-Adresse der Workstation. Nachdem das Paket das erste NAT-Gerät ausgehoben hat, ändert die Regel auf dem NAT-Gerät die Quell-IP-Adresse des Servers, auf dem die externe Schnittstellen-IP-Adresse (10.45.16.10) des Edge-Diensts ausgeführt wird, in die öffentliche IP-Adresse (131.107.155.30).
 
-  - Für Datenverkehr, der vom Server, auf dem der A/V-Edgedienst ausgeführt wird, zurück zur Arbeitsstation ausgeht, ändert sich die Quell-IP-Adresse von der öffentlichen IP-Adresse des Servers in die öffentliche Adresse des Servers, auf dem der A/V-Edgedienst ausgeführt wird. Als Ziel-IP-Adresse wird die öffentliche IP-Adresse der Arbeitsstation beibehalten. Nachdem das Paket das erste NAT-Gerät ausgehend passiert hat, ändert die Regel auf dem NAT-Gerät die Quell-IP-Adresse des Servers, auf dem der A/V-Edgedienst ausgeführt wird, von der IP-Adresse der externen Schnittstelle (10.45.16.10) in die zugehörige öffentliche IP-Adresse (131.107.155.30).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

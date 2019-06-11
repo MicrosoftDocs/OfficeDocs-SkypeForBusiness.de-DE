@@ -1,59 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Enterprise-VoIP'
-TOCTitle: Enterprise-VoIP
-ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg417163(v=OCS.15)
-ms:contentKeyID: 49295398
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Enterprise-VoIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enterprise Voice
+ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
+ms:contentKeyID: 48185404
+ms.date: 04/08/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7c8131c2f52dfc7ab061d8dec46ee34b62f89e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832215"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enterprise-VoIP in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enterprise-voice-in-lync-server-2013"></a>Enterprise-VoIP in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
-Mit Enterprise-VoIP stellt Lync Server eine eigenständige Voice over IP-Lösung (VoIP) zum Erweitern oder Ersetzen herkömmlicher Nebenstellensysteme (Private Branch Exchange, PBX) bereit. Enterprise-VoIP-Benutzer können Kollegen im VoIP-Netzwerk oder Nebenstellensystem Ihrer Organisation anrufen oder Anrufe an herkömmliche Telefonnummern außerhalb der Organisation tätigen. Die Enterprise-VoIP-Lösung umfasst gängige Anruffunktionen wie das Beantworten, Weiterleiten, Übergeben, Halten, Umleiten, Fortsetzen und Parken von Anrufen sowie E9-1-1-Anrufe. (Die E9-1-1-Funktion ist nur in den Vereinigten Staaten verfügbar.) Enterprise-VoIP unterstützt außerdem eine umfangreiche Palette an modernen und älteren IP- und USB-Geräten.
+Mit Enterprise-VoIP bietet lync Server ein eigenständiges VoIP-Angebot (Voice over Internet Protocol) zum verbessern oder ersetzen herkömmlicher PBX-Systeme (Private Branch Exchange). Enterprise-VoIP-Benutzer können Kollegen im VoIP-Netzwerk oder in der Telefonanlage Ihrer Organisation anrufen, und Sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation anrufen. Die Enterprise-VoIP-Lösung umfasst allgemeine Anruffunktionen wie Answer, Forward, Transfer, halten, umleiten, freigeben und Parken sowie erweiterte 9-1-1 (E9-1-1)-Anrufe (E9-1-1 ist nur in den Vereinigten Staaten verfügbar.) Enterprise-VoIP unterstützt auch eine breite Palette an aktuellen und älteren IP-und USB-Geräten.
 
-## Tätigen und Annehmen von Anrufen
+<div>
 
-Mit Lync können Benutzer Anrufe tätigen, indem sie einen Namen oder eine Telefonnummer auf ihrer Tastatur oder einer auf dem Bildschirm angezeigten Wähltastatur eingeben. Benutzer können Anrufe auch direkt über ihre Kontaktlisten tätigen. Sie können ferner auch Lync Phone Edition-Geräte bereitstellen, bei denen es sich um eigenständige IP-Telefongeräte handelt, die von Microsoft-Partnern bereitgestellt werden.
+## <a name="placing-and-receiving-calls"></a>Tätigen und empfangen von Anrufen
 
-Benutzer können mehrere Telefongeräte für Lync Server registrieren und problemlos zwischen diesen Geräten wechseln.
+Mithilfe von lync können Benutzer Anrufe tätigen, indem Sie auf der Tastatur einen Namen oder eine Telefonnummer eingeben oder eine Wähltastatur verwenden, die auf dem Bildschirm angezeigt wird. Benutzer können Anrufe auch direkt aus Ihrer Kontaktliste initiieren. Sie können auch lync Phone Edition-Geräte bereitstellen, bei denen es sich um eigenständige IP-Telefongeräte handelt, die von Microsoft-Partnern bereitgestellt werden.
 
-Benutzer werden über eingehende Anrufe simultan auf allen Geräten benachrichtigt. Die Benachrichtigung erfolgt hierbei auf IP-Telefongeräten mithilfe anpassbarer Klingeltöne, auf dem PC wird eine Benachrichtigung ähnlich einer Chatnachricht angezeigt.
+Benutzer können mehrere Telefongeräte haben, die bei lync Server registriert sind, und können problemlos zwischen ihnen wechseln.
 
-Benutzer können auch eine einzige Telefonnummer für Tischtelefon, PC und Mobiltelefon festlegen, sodass sie unabhängig von ihrem Standort jederzeit erreichbar sind.
+Benutzer werden auf allen ihren Geräten gleichzeitig auf eingehende Anrufe aufmerksam gemacht, mit anpassbaren Klingeltönen auf IP-Telefongeräten und einer Benachrichtigung, die mit einer Sofortnachricht auf dem PC vergleichbar ist.
 
-## Grundlegende Anruffunktionen
+Benutzer können auch eine einzelne Telefonnummer einrichten, die eine Verbindung zu Ihrem Tischtelefon, PC und Mobiltelefon herstellt, damit Sie unabhängig von Ihrem Aufenthaltsort erreicht werden können.
 
-Während eines Anrufs kann ein Benutzer zusätzliche eingehende Anrufe beantworten oder ausgehende Anrufe einleiten. Der zuvor eingegangene aktive Anrufe wird in diesem Fall automatisch in einer Warteschleife platziert. Anrufe können von einem Benutzer an einen anderen übergeben werden, entweder direkt oder nach privater Rücksprache des ersten Benutzers mit dem zweiten Benutzer. Benutzer können Anrufe auch an ein anderes Gerät weiterleiten. Beispielsweise kann ein aktiver Anruf auf das Mobiltelefon übertragen werden, wenn der Benutzer im Begriff ist, das Büro zu verlassen.
+</div>
 
-## Vielfältigere Kommunikation
+<div>
 
-Während eines Gesprächs mit einem anderen Benutzer über Lync kann auf einfache Weise die Übertragung von Text oder Videodaten oder die Desktopfreigabe aktiviert werden. Die Nicht stören-Funktion ist in die Anwesenheitseinstellungen von Lync integriert.
+## <a name="basic-call-features"></a>Grundlegende Anruffunktionen
 
-Exchange Unified Messaging (UM) ermöglicht die Integration von Lync und Lync Server in Microsoft Exchange Server 2013 und Microsoft Outlook 2013. Benutzer können sowohl im Lync-Fenster als auch anhand ihrer E-Mails sehen, ob neue Voicemailnachrichten eingegangen sind. In der E-Mail-Anwendung können sie auf die Nachricht klicken, um die Voicemail als Audiodatei abzuspielen oder eine Transkription der Voicemailnachricht anzuzeigen.
+Während eines Anrufs kann ein Benutzer weitere eingehende Anrufe annehmen oder ausgehende Anrufe initiieren, und der vorhandene aktive Anruf wird automatisch in Wartestellung gesetzt. Anrufe können von einem Nutzer zu einem anderen übertragen werden, entweder direkt oder nachdem der erste Nutzer privat mit dem zweiten Nutzer gesprochen hat. Benutzer können auch Anrufe an ein anderes Gerät übertragen. So könnten Sie beispielsweise einen aktiven Anruf an Ihr Mobiltelefon übertragen, während Sie die Tür zu Ihrem Büro verlassen.
 
-## Erweiterte Anruffunktionen
+</div>
 
-Enterprise-VoIP umfasst darüber hinaus verschiedene erweiterte Anruffunktionen, darunter Delegierung, Teamanrufe, Gruppenanrufannahme und Reaktionsgruppen.
+<div>
 
-Mithilfe der Delegierung können Benutzer die Anrufabwicklung an einen oder mehrere Assistenten delegieren. Die Stellvertretung kann verschiedene Anrufaufgaben im Namen des Benutzers ausführen, darunter das Ablehnen nicht erwünschter Anrufe, das Tätigen von Anrufen sowie das Initiieren von Konferenzen.
+## <a name="richer-communications"></a>Reichere Kommunikation
 
-Die Teamanruffunktion ermöglicht es einem Benutzer, für eingehende Anrufe ein simultanes Klingeln auf den Telefonen von Teamkollegen zu aktivieren, sodass jedes Teammitglied den Anruf entgegennehmen kann.
+Wenn Sie mit einem anderen Benutzer mit lync sprechen, können Benutzer dem Anruf einfach Text-, Video-oder Desktopfreigaben hinzufügen. Das Feature "nicht stören" ist in die Anwesenheitseinstellungen in lync integriert.
 
-Mit dem neuen Gruppenanrufannahme-Feature, das mit den kumulativen Updates für Lync Server 2013 vom Februar 2013 eingeführt wurde, können Benutzer die eingehenden Anrufe ihrer Kollegen auf den eigenen Telefonen entgegennehmen. Die Gruppenanrufannahme unterscheidet sich von der Teamanruffunktion hauptsächlich darin, dass bei einem eingehenden Anruf nur das Telefon des jeweiligen Empfängers klingelt. Jeder andere im Team kann den Anruf aber beantworten, indem er eine Nummer für die Anrufannahme wählt.
+Mit Exchange Unified Messaging (um) können lync und lync Server mit Microsoft Exchange Server 2013 und Microsoft Outlook 2013 integriert werden. Benutzer können sehen, ob Sie über neue Voicemails verfügen, sowohl in Ihrem lync-Fenster als auch in der e-Mail-Nachricht. In der e-Mail können Sie in einer e-Mail-Nachricht klicken, um die Audiowiedergabe wiederzugeben, oder Sie können eine Aufzeichnung der Voicemail-Nachricht anzeigen.
 
-Reaktionsgruppen können eingerichtet werden, um Anrufe in Warteschleifen zu platzieren und für eine intelligente Weiterleitung an dedizierte Agents zu sorgen. Zu den häufigsten Einsatzbereichen dieser Funktionen zählen IT-Helpdesks, Hotlines der Personalabteilung und andere interne Kontaktcenter.
+</div>
 
-## Enterprise-VoIP-Verwaltung
+<div>
 
-Lync Server verwendet Standards und öffentliche Schnittstellen zur Interaktion mit der vorhandenen Infrastruktur. Es werden sowohl Gateway- als auch SIP-Optionen (z. B. SIP-Trunking) für die Verbindung mit IP-Nebenstellensystemen und dem Festnetz unterstützt, sodass sie Benutzer nach und nach und mit minimaler Unterbrechung zu Enterprise-VoIP migrieren können. Lync Server unterstützt herkömmliche Codecs wie G.711, G.722 und G.723.1, um Interoperabilität mit herkömmlichen VoIP-Lösungen zu gewährleisten.
+## <a name="advanced-calling-features"></a>Erweiterte Anruffunktionen
 
-Mithilfe der Anrufsteuerung können Administratoren Grenzwerte für die Menge an Sprach- und Videodaten festlegen, die Lync Server über beschränkte Netzwerkverbindungen sendet. Sie können auch die Aktion festlegen, die durchgeführt werden soll, wenn ein neuer Anruf den festgelegten Grenzwert überschreiten würde. Mögliche Aktionen sind beispielsweise das Routing an einen alternativen Pfad oder eine Zurückweisung des Anrufs.
+Enterprise-VoIP umfasst mehrere erweiterte Anruffunktionen, wie etwa die lync-Anrufdelegierung, Teamanrufe, Gruppenanruf Abholung und Antwortgruppen.
 
-Lync Server arbeitet mit Survivable Branch Appliances von Drittanbietern, um bei einem WAN-Ausfall am zentralen Standort lokale Anrufdienste bereitzustellen und die Festnetzverbindung in Zweigstellenbüros sicherzustellen.
+Mit der lync-Anrufdelegierung können Benutzer die Anrufbehandlung an einen oder mehrere Assistenten delegieren, indem Sie die Einstellungen für die **** \> **Anrufweiterleitung**der **Tools** \> aufrufen. Die Stellvertretung kann mehrere Anruf Aufgaben im Namen des Benutzers durchführen, einschließlich von Screening-anrufen, anrufen und Initiieren von Konferenzen.
+
+<div>
+
+
+> [!IMPORTANT]  
+> Möglicherweise suchen Sie nach einem anderen ähnlich benannten Feature, der lync-Kalender Delegierung. Sie erfordert keine Enterprise-VoIP-Funktion und ermöglicht Benutzern, Online-lync-Besprechungen aus Outlook zu planen. Wenn Sie auf der Suche nach diesen Informationen sind, empfehlen wir Ihnen, <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">CsClientPolicy</A> zu lesen, um Informationen zum Aktivieren der Synchronisierung von Exchange-Stellvertretungen zu erhalten.
+
+
+
+</div>
+
+Mit Team anrufen kann ein Benutzer mit eingehenden Anrufen gleichzeitig die Telefone von Teamkollegen anrufen, damit jeder im Team den Anruf annehmen kann.
+
+Der Gruppenanruf Pickup, ein neues Feature in kumulativen Updates für lync Server 2013: Februar 2013, ermöglicht Benutzern, eingehende Anrufe von ihren eigenen Telefonen an Ihre Kollegen zu beantworten. Die Abholung von Gruppen anrufen unterscheidet sich von Team anrufen in erster Linie dadurch, dass ein eingehender Anruf nur auf dem Telefon des beabsichtigten Empfängers klingelt, jeder andere Benutzer aber eine Anrufannahme-Gruppennummer wählen kann.
+
+Reaktionsgruppen können für Warteschlangen und Intelligentes Routing von Anrufen an bestimmte Agents eingerichtet werden. Häufige Verwendungen sind IT-Helpdesks, Personal-Hotlines und andere interne Contact Center.
+
+</div>
+
+<div>
+
+## <a name="enterprise-voice-administration"></a>Enterprise-VoIP-Verwaltung
+
+Lync Server verwendet Standards und veröffentlichte Schnittstellen für die Interoperabilität mit der vorhandenen Infrastruktur. Sie unterstützt sowohl Gateway-als auch SIP-Optionen (beispielsweise SIP-Trunking) für die Verbindung zu IP-PBX-Systemen und den PSTN-Netzwerken, sodass Sie Benutzer im Laufe der Zeit zu Enterprise-VoIP migrieren können, während die Unterbrechungen minimiert werden. Lync Server unterstützt herkömmliche Codecs wie g. 711, g. 722 und g. 723.1 für die Interoperabilität mit herkömmlichen VoIP-Lösungen.
+
+Mit der Anrufannahme Steuerung (CAC) können Administratoren Grenzwerte für den Sprach-und Videodatenverkehr von lync-Servern festlegen, die auf eingeschränkten Netzwerk Links durchgeführt werden, und die Aktion angeben, die ausgeführt werden soll, wenn ein neuer Anruf den Höchstbetrag überschreitet. Die Aktionen können das Routing durch einen alternativen Pfad oder das ablehnen des Anrufs umfassen.
+
+Lync Server arbeitet mit Drittanbietern überlebensfähiger Branch-Appliances, um lokale Anrufdienste und eine Verbindung zu PSTN an Zweigstellen bereitzustellen, falls ein WAN-Fehler am zentralen Standort vorliegt.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

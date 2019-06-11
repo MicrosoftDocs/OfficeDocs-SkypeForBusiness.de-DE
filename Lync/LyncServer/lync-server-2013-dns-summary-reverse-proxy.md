@@ -1,39 +1,61 @@
-﻿---
-title: 'Lync Server 2013: DNS-Zusammenfassung für Reverseproxy'
-TOCTitle: DNS-Zusammenfassung für Reverseproxy
-ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204781(v=OCS.15)
-ms:contentKeyID: 49293577
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS-Zusammenfassung für Reverseproxy'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Reverse proxy
+ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)
+ms:contentKeyID: 48183755
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 47606fe71b271e01cc7fbefbcf319a2efe93f478
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS-Zusammenfassung für Reverseproxy in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS-Zusammenfassung für Reverseproxy in Lync Server 2013
 
-Sie können die zwei Netzwerkadapter auf Ihrem Reverseproxy folgendermaßen konfigurieren:
+</div>
 
-## Netzwerkadapteranforderungen für Reverseproxy
+<div id="mainSection">
 
-  - Beispiel **Netzwerkadapter 1 (interne Schnittstelle)**
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-03-22_
+
+Sie konfigurieren zwei Netzwerkadapter in Ihrem Reverse-Proxy wie folgt:
+
+<div>
+
+## <a name="reverse-proxy-network-adapter-requirements"></a>Anforderungen des Reverse Proxy-Netzwerkadapters
+
+  - Beispiel für **einen Netzwerkadapter 1 (interne Schnittstelle)**
     
-    Interne Schnittstelle mit zugewiesener Adresse 172.25.33.40.
+    Interne Schnittstelle mit zugewiesenem 172.25.33.40
     
-    Es ist kein Standardgateway definiert.
+    Es wurde kein Standardgateway definiert.
     
-    Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Reverseproxyschnittstelle zu beliebigen Netzwerken vorhanden ist, die Lync Server  Front-End-Pool-Server enthalten (z. B. von 172.25.33.0 zu 192.168.10.0).
+    Stellen Sie sicher, dass eine Route aus dem Netzwerk mit der internen Reverse Proxy-Schnittstelle zu allen Netzwerken vorhanden ist, die lync Server-Front-End-Pool Server enthalten (beispielsweise von 172.25.33.0 zu 192.168.10.0).
 
-  - Beispiel **Netzwerkadapter 2 (interne Schnittstelle)**
+  - Beispiel für **Netzwerkadapter 2 (externe Schnittstelle)**
     
-    Diesem Netzwerkadapter ist mindestens eine öffentliche IP-Adresse zugewiesen.
+    Diesem Netzwerkadapter wird mindestens eine öffentliche IP-Adresse zugewiesen.
     
-    Das Gateway ist so definiert, dass es auf den Router oder die integrierte Firewall in Ihrem äußeren Umkreis zeigt (10.45.16.1 in den Szenariobeispielen).
+    Gateway wird definiert, um auf den Router oder die integrierte Firewall im äußeren Umkreis zu verweisen. (10.45.16.1 in den Szenario-Beispielen)
 
-### Für Reverseproxy erforderliche DNS-Einträge
+### <a name="dns-records-required-for-reverse-proxy"></a>Für Reverse-Proxy erforderliche DNS-Einträge
 
 <table>
 <colgroup>
@@ -44,56 +66,69 @@ Sie können die zwei Netzwerkadapter auf Ihrem Reverseproxy folgendermaßen konf
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/TYP/Port</th>
+<th>Ort/Typ/Port</th>
 <th>FQDN</th>
 <th>IP-Adresse</th>
-<th>Zugeordnet zu/Kommentar</th>
+<th>Karten/Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
-<td><p>webext.contoso.com</p></td>
+<td><p>Externer DNS/A</p></td>
+<td><p>Webext.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
-<td><p>Externe Webdienste aus der internen Bereitstellung. Zusätzliche Einträge können definiert und für alle Pools und einzelne Server für eine beliebige SIP-Domäne konfiguriert werden, die diesen Reverseproxy verwendet und für die externe Webdienste definiert sind.</p></td>
+<td><p>Externe Webdienste aus der internen Bereitstellung. Zusätzliche Datensätze können für alle Pools und Einzelserver für alle SIP-Domänen definiert und erstellt werden, die diesen Reverseproxy verwenden, und hat externe Webdienste definiert.</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
-<td><p>Externe Webdienste für die Directors- oder Director-Pools in Ihrer Bereitstellung. Sie können so viele Directors definieren, wie separate Directors vorhanden sind, die ggf. mit anderen SIP-Domänen verknüpft sind.</p>
+<td><p>Externe Webdienste für die Directors-oder Director-Pools in Ihrer Bereitstellung. Sie können beliebig viele Directors definieren, da es verschiedene Directors gibt, die möglicherweise anderen SIP-Domänen zugeordnet sind.</p>
 <div>
 
-> [!IMPORTANT]
-> Das Definieren der DNS-Einträge für und das Veröffentlichen der Directors ist keine Entscheidung für entweder den Front-End-Pool oder die Director. Sie müssen sowohl die externen Webdienste für Director als auch Front-End-Pool definieren und veröffentlichen, wenn Sie Directors verwenden. Bestimmte Datenverkehrstypen (zur Authentifizierung und zu anderen Zwecken) werden zuerst an die Director gesendet, sofern in der Topologie definiert.
+> [!IMPORTANT]  
+> Das Definieren der DNS-Einträge für und die Veröffentlichung der Directors ist weder der Front-End-Pool noch die Entscheidung des Regisseurs. Sie müssen sowohl den Director als auch den Front-End-Pool externer Webdienste definieren und veröffentlichen, wenn Sie Directors verwenden. Bestimmte Datenverkehrstypen (für Authentifizierung und andere Verwendungszwecke) werden zuerst an den Director gesendet, wenn er in der Topologie definiert ist.
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Extern veröffentlichte Einwahlkonferenzen</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS-Eintrag/A</p></td>
-<td><p>meet.contoso.com</p></td>
+<td><p>Externer DNS/A</p></td>
+<td><p>Meet.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Extern veröffentlichte Konferenzen</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
-<td><p>Zugewiesener Listener für Office Web Apps-Server</p></td>
-<td><p>Office Web Apps-Server intern oder im Umkreisnetzwerks bereitgestellt und für den externen Clientzugriff veröffentlicht</p></td>
+<td><p>Zugeordneter Listener für Office Web Apps Server</p></td>
+<td><p>Office Web Apps Server wird intern oder im Umkreis bereitgestellt und für den Zugriff auf externe Clients veröffentlicht</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>lyncdiscover.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
-<td><p>Externer Eintrag zur Lync-Ermittlung für extern veröffentliche AutoErmittlung; beinhaltet Mobilität, Microsoft Lync Web App und Web-App zur Planung</p></td>
+<td><p>Lync erkennt externen Eintrag für extern veröffentlichte AutoErmittlung und umfasst Mobilität, Microsoft lync Web App und Scheduler Web App</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung'
-TOCTitle: Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung
-ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398334(v=OCS.15)
-ms:contentKeyID: 49293993
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your organization's requirements for call admission control
+ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
+ms:contentKeyID: 48184104
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7737d303c7239df451c71b4f92d4dcd8dfe5b2e4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832720"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-10-28_
 
 Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte Informationen zur Netzwerktopologie Ihres Unternehmens erforderlich. Führen Sie die folgenden Schritte aus, um Richtlinien für die Anrufsteuerung zu planen.
 
@@ -25,11 +45,14 @@ Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte I
 
 4.  Ermitteln Sie die Bandbreiteneinschränkungen für jede WAN-Verbindung.
     
+    <div>
+    
 
-    > [!NOTE]
-    > Die Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite einer WAN-Verbindung für Enterprise-VoIP und Audio/Video-Datenverkehr reserviert wird. Wenn eine WAN-Verbindung als eine Verbindung mit "Bandbreiteneinschränkungen" beschrieben wird, liegt die Bandbreitengrenze der WAN-Verbindung unter dem erwarteten Spitzendatenverkehr über diese Verbindung.
+    > [!NOTE]  
+    > Bandbreitengrenzwerte beziehen sich auf den Umfang der Bandbreite einer WAN-Verbindung, der Enterprise-VoIP-und Audio/Video-Datenverkehr zugewiesen ist. Wenn eine WAN-Verbindung als Verbindung „mit Bandbreiteneinschränkungen“ beschrieben wird, liegt die Bandbreitengrenze der WAN-Verbindung unter dem erwarteten Spitzendatenverkehr über diese Verbindung.
 
-
+    
+    </div>
 
 5.  Identifizieren Sie die IP-Subnetze, die jedem Netzwerkstandort zugewiesen sind.
 
@@ -37,35 +60,49 @@ Zur Erläuterung dieser Konzepte wird die in der folgenden Abbildung dargestellt
 
 **Beispieltopologie für die Anrufsteuerung**
 
-![Litware Inc.: Netzwerktopologiebeispiel](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc.: Netzwerktopologiebeispiel")
+![Beispiel für eine Netzwerktopologie in Litware Inc.] (images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Beispiel für eine Netzwerktopologie in Litware Inc.")
+
+<div>
 
 
-> [!NOTE]
-> Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte "Portland", "Reno" und "Albuquerque" in der Region "Nordamerika" enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte&nbsp;"Chicago", "New York" und "Detroit" werden innerhalb des Regionenovals "Nordamerika" angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind.
+> [!NOTE]  
+> Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte „Portland“, „Reno“ und „Albuquerque“ in der Region „Nordamerika“ enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte „Chicago“, „New York“ und „Detroit“ werden innerhalb des Regionenovals „Nordamerika“ angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind.
 
 
 
-Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zur Planung dieser Topologie, einschließlich der Bandbreiteneinschränkungen, finden Sie unter [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
+</div>
 
-## Identifizieren der Netzwerkregionen
+Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zur Planung dieser Topologie, einschließlich der Bandbreitenbeschränkungen, finden Sie unter [Beispiel: Erfassen Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
 
-Eine Netzwerkregion repräsentiert einen Netzwerkbackbone oder einen Netzwerkhub.
+<div>
 
-Ein Netzwerkbackbone oder Hub ist Bestandteil der Computernetzwerkinfrastruktur, die verschiedene Komponenten im Netzwerk verbindet und einen Pfad für den Austausch von Informationen zwischen unterschiedlichen LANs oder Subnetzen bereitstellt. Ein Backbone kann unterschiedliche Netzwerke miteinander verknüpfen, von kleinen Standorten bis hin zu einem geografisch weit verteilten Bereich. Die Kapazität des Backbones ist in der Regel höher als die der Netzwerke, die mit ihm verbunden sind.
+## <a name="identify-network-regions"></a>Identifizieren der Netzwerkregionen
+
+Eine Netzwerkregion steht für einen Netzwerkbackbone oder einen Netzwerkhub.
+
+Ein Netzwerkbackbone oder -hub ist Bestandteil der Computernetzwerkinfrastruktur, die verschiedene Komponenten im Netzwerk verbindet und einen Pfad für den Austausch von Informationen zwischen unterschiedlichen LANs oder Subnetzen bereitstellt. Ein Backbone kann unterschiedliche Netzwerke miteinander verknüpfen, von kleinen Standorten bis hin zu einem geografisch weit verteilten Bereich. Die Kapazität des Backbones ist in der Regel höher als die der Netzwerke, die mit ihm verbunden sind.
 
 Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamerika, EMEA und APAC. Eine Netzwerkregion enthält eine Reihe von Netzwerkstandorten (siehe Definition in diesem Thema). Arbeiten Sie mit dem Team für den Netzwerkbetrieb zusammen, um die verwendeten Netzwerkregionen zu identifizieren.
 
-## Zuordnen eines zentralen Standorts zu jeder Netzwerkregion
+</div>
 
-Die Anrufsteuerung erfordert, dass jeder Netzwerkregion ein zentraler Lync Server-Standort zugeordnet ist. Ausgewählt wird der zentrale Standort, der die beste Netzwerkverbindung und die höchste Bandbreite aller Standorte in dieser Netzwerkregion bietet. In der oben gezeigten beispielhaften Netzwerktopologie sind drei Netzwerkregionen aufgeführt, jede mit einem zentralen Standort zur Verwaltung der Entscheidungen im Rahmen der Anrufsteuerung. Die geeignete Zuordnung für das vorangehende Beispiel wird in der folgenden Tabelle gezeigt.
+<div>
+
+## <a name="associating-a-central-site-with-each-network-region"></a>Zuordnen eines zentralen Standorts zu jeder Netzwerkregion
+
+Für CAC ist es erforderlich, dass eine lync Server Central-Website für jede netzwerkregion definiert ist. Ausgewählt wird der zentrale Standort, der die beste Netzwerkverbindung und die höchste Bandbreite aller Standorte in dieser Netzwerkregion bietet. In der oben gezeigten beispielhaften Netzwerktopologie sind drei Netzwerkregionen aufgeführt, jede mit einem zentralen Standort zur Verwaltung der Entscheidungen im Rahmen der Anrufsteuerung. Die geeignete Zuordnung für das vorangehende Beispiel wird in der folgenden Tabelle gezeigt.
+
+<div>
 
 
-> [!NOTE]
-> Die zentralen Standorte müssen nicht den Netzwerkstandorten entsprechen. In den Beispielen in dieser Dokumentation stimmen die Namen einiger zentraler Standorte – Chicago, London und Peking – mit den Namen von Netzwerkstandorten überein. Doch selbst wenn ein zentraler Standort und ein Netzwerkstandort denselben Namen aufweisen, ist der zentrale Standort ein Element der Lync Server-Topologie. Der Netzwerkstandort hingegen ist Teil des Gesamtnetzwerks, in dem die Lync Server-Topologie definiert wurde.
+> [!NOTE]  
+> Zentrale Websites entsprechen nicht unbedingt Netzwerk Websites. In den Beispielen in dieser Dokumentation geben einige zentrale Websites (Chicago, London und Peking) denselben Namen wie die Netzwerk Websites. Auch wenn ein zentraler Standort und eine Netzwerk Website denselben Namen haben, ist die zentrale Website ein Element der lync Server-Topologie, während die Netzwerk Website Teil des gesamten Netzwerks ist, in dem sich die lync Server-Topologie befindet.
 
 
 
-### Netzwerkregionen, zentrale Standorte und Netzwerkstandorte
+</div>
+
+### <a name="network-regions-central-sites-and-network-sites"></a>Netzwerkregionen, zentrale Standorte und Netzwerkstandorte
 
 <table>
 <colgroup>
@@ -99,7 +136,7 @@ Die Anrufsteuerung erfordert, dass jeder Netzwerkregion ein zentraler Lync Serve
 </tr>
 <tr class="odd">
 <td><p>APAC</p></td>
-<td><p>Peking</p></td>
+<td><p>Beijing (Peking)</p></td>
 <td><p>Peking</p>
 <p>Manila</p></td>
 </tr>
@@ -107,21 +144,33 @@ Die Anrufsteuerung erfordert, dass jeder Netzwerkregion ein zentraler Lync Serve
 </table>
 
 
-## Identifizieren von Netzwerkstandorten
+</div>
 
-Ein Netzwerkstandort repräsentiert einen Ort, an dem Ihre Organisation über Büros, einen Gebäudekomplex oder ein Gelände verfügt. Ein physischer Standort mit einem LAN und einer WAN-Verbindung zu anderen Standorten wird als Netzwerkstandort klassifiziert. Beginnen Sie damit, alle Büros Ihrer Organisation zu erfassen. In der verwendeten Beispieltopologie umfasst die Netzwerkregion "Nordamerika" die folgenden Netzwerkstandorte: New York, Chicago, Detroit, Portland, Reno und Albuquerque.
+<div>
 
-Sie müssen jeden Netzwerkstandort einer Netzwerkregion zuordnen. Abhängig davon, ob der Netzwerkstandort über eine eingeschränkte WAN-Verbindung verfügt oder nicht, wird dem Netzwerkstandort eine Bandbreitenrichtlinie zugeordnet. Ausführliche Informationen zu Anrufsteuerungsrichtlinien und der Bandbreite, die Sie über die Richtlinienverwendung zuweisen, finden Sie im Abschnitt "Definieren von Bandbreitenrichtlinien" weiter unten in diesem Thema. Zum Konfigurieren der Anrufsteuerung ordnen Sie Netzwerkstandorte Netzwerkregionen zu. Anschließend erstellen Sie Richtlinien zur Bandbreitenzuweisung, die auf Verbindungen mit Bandbreiteneinschränkungen zwischen einem Standort oder einer Region und die WAN-Verbindungen zwischen den Standorten und Regionen angewendet werden.
+## <a name="identify-network-sites"></a>Identifizieren von Netzwerkstandorten
 
-## Identifizieren von Netzwerkverbindungen
+Ein Netzwerkstandort ist ein Ort, an dem Ihre Organisation über Büros, einen Gebäudekomplex oder ein Gelände verfügt. Ein physischer Standort mit einem LAN und einer WAN-Verbindung zu anderen Standorten wird als Netzwerkstandort klassifiziert. Beginnen Sie damit, alle Büros Ihrer Organisation zu erfassen. In der verwendeten Beispieltopologie umfasst die Netzwerkregion „Nordamerika“ die folgenden Netzwerkstandorte: New York, Chicago, Detroit, Portland, Reno und Albuquerque.
 
-Netzwerkverbindungen repräsentieren Verbindungen zum physischen WAN, das unterschiedliche Regionen und Standorte verknüpft. In der Beispieltopologie sind zwei regionale Netzwerkverbindungen enthalten, fünf Netzwerkverbindungen zwischen Regionen und Standorten und eine Netzwerkverbindung zwischen zwei Standorten.
+Sie müssen jeden Netzwerkstandort einer Netzwerkregion zuordnen. Abhängig davon, ob der Netzwerkstandort über eine eingeschränkte WAN-Verbindung verfügt oder nicht, wird dem Netzwerkstandort eine Bandbreitenrichtlinie zugeordnet. Ausführliche Informationen zu Anrufsteuerungsrichtlinien und der Bandbreite, die Sie über die Richtlinienverwendung zuweisen, finden Sie im Abschnitt „Definieren von Bandbreitenrichtlinien“ weiter unten in diesem Thema. Zum Konfigurieren der Anrufsteuerung ordnen Sie Netzwerkstandorte Netzwerkregionen zu. Anschließend erstellen Sie Richtlinien zur Bandbreitenzuweisung, die auf zwischen Standorten und Regionen bestehende Verbindungen mit Bandbreiteneinschränkungen und WAN-Verbindungen angewendet werden.
 
-Die zwei regionalen Verbindungen befinden sich zwischen "Nordamerika" und "EMEA", dargestellt als "NA-EMEA-LINK", und zwischen "APAC" und "EMEA", dargestellt als "EMEA-APAC-LINK".
+</div>
 
-Die Standortverbindungen kennzeichnen die Leitungen zur Verbindung von "Portland", "Reno" und "Albuquerque" mit der Region "Nordamerika", zur Verbindung von "Manila" mit der Region "APAC" und zur Verbindung von "Köln" mit der Region "EMEA". Die Verbindung zwischen "Reno" und "Albuquerque" kennzeichnet eine direkte Netzwerkverbindung zwischen diesen zwei Standorten.
+<div>
 
-## Definieren von Bandbreitenrichtlinien
+## <a name="identify-network-links"></a>Identifizieren von Netzwerkverbindungen
+
+Netzwerkverbindungen sind Verbindungen zu einem physischen WAN, das unterschiedliche Regionen und Standorte verknüpft. In der Beispieltopologie sind zwei regionale Netzwerkverbindungen, fünf Netzwerkverbindungen zwischen Regionen und Standorten sowie eine Netzwerkverbindung zwischen zwei Standorten enthalten.
+
+Die zwei regionalen Verbindungen befinden sich zwischen „Nordamerika“ und „EMEA“, dargestellt als „NA-EMEA-LINK“, und zwischen „APAC“ und „EMEA“, dargestellt als „EMEA-APAC-LINK“.
+
+Die Standortverbindungen kennzeichnen die Leitungen zur Verbindung von „Portland“, „Reno“ und „Albuquerque“ mit der Region „Nordamerika“, zur Verbindung von „Manila“ mit der Region „APAC“ und zur Verbindung von „Köln“ mit der Region „EMEA“. Die Verbindung zwischen „Reno“ und „Albuquerque“ kennzeichnet eine direkte Netzwerkverbindung zwischen diesen zwei Standorten.
+
+</div>
+
+<div>
+
+## <a name="define-bandwidth-policies"></a>Definieren von Bandbreitenrichtlinien
 
 Arbeiten Sie mit dem Team für den Netzwerkbetrieb zusammen, um die verfügbare WAN-Bandbreite für in Echtzeit übertragenen Audio- und Videodatenverkehr über die WAN-Verbindungen in Ihrer Organisation zu ermitteln. Bandbreitenrichtlinien werden üblicherweise auf WAN-Verbindungen angewendet, wenn die Bandbreite eingeschränkt ist, wenn also der erwartete Datenverkehr die Bandbreite übersteigt, die für Audio- und Videodaten zugewiesen werden kann.
 
@@ -137,29 +186,37 @@ Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folg
 
   - Maximal reservierte Bandbreite für einen einzelnen Videoanruf (Sitzung)
 
+<div>
 
-> [!NOTE]
+
+> [!NOTE]  
 > Alle Bandbreitenwerte für die Anrufsteuerung stellen Maximalwerte für die <EM>unidirektionale</EM> Bandbreitenbeschränkung dar.
 
 
 
+</div>
 
-> [!NOTE]
-> Die Lync Server 2013-Features für VoIP-Richtlinien bieten die Möglichkeit, Bandbreitenrichtlinienüberprüfungen für eingehende Anrufe beim Benutzer außer Kraft zu setzen (dies ist für vom Benutzer getätigte ausgehende Anrufe nicht möglich). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A> oder <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
+<div>
 
 
+> [!NOTE]  
+> Die lync Server 2013-VoIP-Richtlinienfeatures bieten die Möglichkeit, die Bandbreitenrichtlinien Überprüfung für eingehende Anrufe an den Benutzer außer Kraft zu setzen (nicht für ausgehende Anrufe, die vom Benutzer getätigt werden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</A> oder <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</A> in der Bereitstellungsdokumentation.
+
+
+
+</div>
 
 Zur Optimierung der Bandbreitenauslastung auf Sitzungsebene sollten Sie sich Gedanken über die verwendeten Audio- und Videocodecs machen. Vermeiden Sie insbesondere eine zu geringe Bandbreitenzuweisung für einen Codec, der erwartungsgemäß häufig verwendet wird. Umgekehrt sollten Sie die maximale Bandbreite pro Sitzung sehr niedrig ansetzen, wenn Sie verhindern möchten, dass für Mediendaten ein Codec mit hohen Bandbreitenanforderungen verwendet wird. Für Audiodaten ist nicht jeder Codec für jedes Szenario verfügbar. Beispiel:
 
-  - Peer-zu-Peer-Audioanrufe zwischen Lync-Endpunkten verwenden entweder RTAudio (8 KHz) oder RTAudio (16 KHz), wenn Sie die Bandbreite und Priorisierung von Codecs berücksichtigen.
+  - Für Peer-to-Peer-Audioanrufe zwischen lync-Endpunkten wird entweder RTAudio (8kHz) oder RTAudio (16kHz) verwendet, wenn Sie die Bandbreite und die Priorisierung von Codecs berücksichtigen.
 
-  - Konferenzanrufe zwischen Lync-Endpunkten und dem A/V-Konferenzdienst verwenden entweder G.722 oder Siren.
+  - Für Konferenzgespräche zwischen lync-Endpunkten und dem A/V-Konferenzdienst wird entweder G. 722 oder Siren verwendet.
 
-  - PSTN-Anrufe zu oder von Lync-Endpunkten verwenden entweder G.711 oder RTAudio (8 KHz).
+  - Für Anrufe an das öffentlich geschaltete Telefonnetz (PSTN) entweder zu oder von lync-Endpunkten wird entweder G. 711 oder RTAudio (8kHz) verwendet.
 
 Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pro Sitzung zu optimieren.
 
-### Bandbreitenauslastung nach Codec
+### <a name="bandwidth-utilization-by-codecs"></a>Bandbreitenauslastung nach Codec
 
 <table>
 <colgroup>
@@ -181,7 +238,7 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
 <td><p>61,6 KBit/s</p></td>
 </tr>
 <tr class="even">
-<td><p>RTAudio (16 KHz)</p></td>
+<td><p>RTAudio (16 kHz)</p></td>
 <td><p>67 KBit/s</p></td>
 <td><p>96 KBit/s</p></td>
 </tr>
@@ -191,7 +248,7 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
 <td><p>73,6 KBit/s</p></td>
 </tr>
 <tr class="even">
-<td><p>G0,711</p></td>
+<td><p>G.711</p></td>
 <td><p>102 KBit/s</p></td>
 <td><p>166 KBit/s</p></td>
 </tr>
@@ -214,23 +271,27 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
 </table>
 
 
-
-> [!NOTE]
-> Bandbreitenanforderungen berücksichtigen einen Overhead für: Ethernet II, IP, User Datagram Protocol (UDP), RTP (Real-Time Transport Protocol) und SRTP (Secure Real-Time Transport Protocol). Ebenfalls enthalten ist ein Overhead von 10&nbsp;KBit/s für RTCP.
+<div>
 
 
+> [!NOTE]  
+> Bandbreitenanforderungen berücksichtigen einen Overhead für: Ethernet II, IP, User Datagram Protocol (UDP), RTP (Real-Time Transport Protocol) und SRTP (Secure Real-Time Transport Protocol). Ebenfalls enthalten ist ein Overhead von 10 KBit/s für RTCP.
+
+
+
+</div>
 
 Die Codecs G.722.1 und Siren sind ähnlich, unterscheiden sich jedoch in den Bitraten.
 
-G.722, der Standardcodec für Lync Server-Konferenzen, unterscheidet sich grundlegend von den Codecs G.722.1 und Siren.
+G. 722, der Standard-Codec für lync Server Conferencing, unterscheidet sich vollständig vom g. 722.1-und Sirene-Codec.
 
-Der Siren-Codec wird in Lync Server in den folgenden Situationen verwendet:
+Der Sirene-Codec wird in den folgenden Situationen in lync Server verwendet:
 
   - Wenn die Bandbreitenrichtlinie zu niedrig festgelegt ist, um eine Verwendung von G.722 zuzulassen
 
-  - Wenn ein Communications Server 2007- oder Communications Server 2007 R2-Client eine Verbindung mit einem Lync Server-Konferenzdienst herstellt (diese Clients bieten keine Unterstützung für den G.722-Codec)
+  - Wenn ein Communications Server 2007-oder Communications Server 2007 R2-Client eine Verbindung mit einem lync Server-Konferenzdienst herstellt (da diese Clients den G. 722-Codec nicht unterstützen).
 
-### Bandbreitenauslastung nach Szenario
+### <a name="bandwidth-utilization-by-scenario"></a>Bandbreitenauslastung nach Szenario
 
 <table>
 <colgroup>
@@ -261,25 +322,25 @@ Der Siren-Codec wird in Lync Server in den folgenden Situationen verwendet:
 <td><p>165 KBit/s</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN-Anrufe (zwischen Lync 2013 und PSTN-Gateway, mit Medienumgehung)</p></td>
+<td><p>PSTN-Anrufe (zwischen lync 2013 und PSTN-Gateway mit medienumgehung)</p></td>
 <td><p>97 KBit/s</p></td>
 <td><p>97 KBit/s</p></td>
 <td><p>161 KBit/s</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Anrufe (zwischen Lync 2013 und Vermittlungsserver, ohne Medienumgehung)</p></td>
+<td><p>PSTN-Anrufe (zwischen lync 2013 und Vermittlungs Server ohne medienumgehung)</p></td>
 <td><p>45 KBit/s</p></td>
 <td><p>97 KBit/s</p></td>
 <td><p>161 KBit/s</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN-Anrufe (zwischen Vermittlungsserver und PSTN-Gateway, ohne Medienumgehung)</p></td>
+<td><p>PSTN-Anrufe (zwischen Vermittlungs Server und PSTN-Gateway ohne medienumgehung)</p></td>
 <td><p>97 KBit/s</p></td>
 <td><p>97 KBit/s</p></td>
 <td><p>161 KBit/s</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync - Polycom-Anrufe</p></td>
+<td><p>Lync-Polycom-Anrufe</p></td>
 <td><p>101 KBit/s</p></td>
 <td><p>101 KBit/s</p></td>
 <td><p>101 KBit/s</p></td>
@@ -288,14 +349,35 @@ Der Siren-Codec wird in Lync Server in den folgenden Situationen verwendet:
 </table>
 
 
-## Identifizieren von IP-Subnetzen
+</div>
+
+<div>
+
+## <a name="identify-ip-subnets"></a>Identifizieren von IP-Subnetzen
 
 Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um zu ermitteln, welche IP-Subnetze jedem Netzwerkstandort zugewiesen sind. Wenn Ihr Netzwerkadministrator die IP-Subnetze bereits in Netzwerkregionen und Netzwerkstandorte unterteilt hat, wird diese Aufgabe erheblich vereinfacht.
 
-Im hier verwendeten Beispiel sind dem Standort "New York" in der Region "Nordamerika" die folgenden IP-Subnetze zugewiesen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Angenommen, der Benutzer Bob, der üblicherweise in Detroit arbeitet, reist für eine Schulung in das New Yorker Büro. Wenn er seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für "New York" reserviert sind, beispielsweise die Adresse 172.29.80.103.
+Im hier verwendeten Beispiel sind dem Standort „New York“ in der Region „Nordamerika“ die folgenden IP-Subnetze zugewiesen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Angenommen, der Benutzer Bob, der üblicherweise in Detroit arbeitet, reist für eine Schulung in das New Yorker Büro. Wenn er seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für „New York“ reserviert sind, beispielsweise 172.29.80.103.
+
+<div>
 
 
-> [!WARNING]
-> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein Lync-Client maskiert die lokale IP-Adresse mit der zugeordneten Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung bereitstellen, jedoch keine Medienumgehung verwenden, funktioniert die Anrufsteuerung selbst dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.)<BR>Wenn sich ein Benutzer beispielsweise an einem Computer mit der IP-Adresse 172.29.81.57 und der IP-Subnetzmaske 255.255.255.0 anmeldet, fordert Lync 2013 die Umgehungs-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies \endash wenngleich der Client dem virtuellen Subnetz angehört \endash nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau wie von Lync-Clients (bereitgestellt mit den Subnetzen während der Netzwerkkonfiguration, entweder als statische Konfiguration oder über DHCP) angegeben eingibt.
+> [!WARNING]  
+> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein lync-Client übernimmt die lokale IP-Adresse und maskiert die IP-Adresse mit der zugehörigen Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung bereitstellen, jedoch keine Medienumgehung verwenden, funktioniert die Anrufsteuerung auch dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.)<BR>Wenn sich ein Client beispielsweise auf einem Computer mit einer IP-Adresse von 172.29.81.57 mit einer IP-Subnetzmaske von 255.255.255.0 anmeldet, fordert lync 2013 die Bypass-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – auch wenn der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau so eingibt, wie dies von lync-Clients bereitgestellt wird (die bei der Netzwerkkonfiguration entweder statisch oder per DHCP bereitgestellt werden).
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

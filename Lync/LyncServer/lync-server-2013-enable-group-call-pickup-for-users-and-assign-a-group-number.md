@@ -1,29 +1,55 @@
-﻿---
-title: Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer
-TOCTitle: Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer
-ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945650(v=OCS.15)
-ms:contentKeyID: 52056452
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren der Gruppenanruf Abholung für Benutzer und Zuweisen einer Gruppennummer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Group Call Pickup for users and assign a group number
+ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945650(v=OCS.15)
+ms:contentKeyID: 51541517
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9523a76eb9cd23dd4c8ee531520341aaf82f508
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832316"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Aktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013 und Zuweisen einer Gruppennummer
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
-Nachdem Sie der Anrufparkorbit-Tabelle Gruppennummern für die Gruppenanrufannahme hinzugefügt haben, weisen Sie die Gruppennummern den Benutzern zu und aktivieren die Gruppenanrufannahme für diese Benutzer. Verwenden Sie das SEFAUtil-Resource Kit-Tool (Secondary Extension Feature Activation), um Gruppenmitglieder zuzuweisen und die Gruppenanrufannahme zu aktivieren.
+Nachdem Sie die Nummern für die Anruf Abholung in die Umlaufbahn Tabelle des Anruf Parks hinzugefügt haben, weisen Sie den Benutzern die Gruppennummern zu, und aktivieren Sie die Gruppenanruf Abholung. Verwenden Sie das Resource Kit-Tool für die sekundäre Erweiterungsfeature-Aktivierung (SEFAUtil), um Gruppennummern zuzuweisen und Gruppenanruf-Pickups zu aktivieren.
+
+<div>
 
 
-> [!NOTE]
-> Weisen Sie in einer Hybridbereitstellung keine Gruppenanrufannahme-Gruppe zu Benutzern zu, die online verwaltet werden. Benutzer, die online verwaltet werden, können nicht an der Gruppenanrufannahme teilnehmen. Das heißt, ihre Anrufe können nicht von anderen Benutzern angenommen werden, und sie können nicht die Anrufe anderer Benutzer entgegennehmen.
+> [!NOTE]  
+> Weisen Sie in einer hybridbereitstellung Benutzern, die Online sind, keine Gruppenanruf-Abhol Gruppe zu. Benutzer, die Online sind, können nicht an der Gruppenanruf Abholung teilnehmen. Das heißt, ihre Anrufe können nicht von anderen Benutzern angenommen werden und sie können die Anrufe anderer Benutzer nicht entgegennehmen.
 
 
 
-## So weisen Sie eine Gruppennummer zu und aktivieren die Gruppenanrufannahme für einen Benutzer
+</div>
+
+<div>
+
+## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>So weisen Sie eine Gruppennummer zu und aktivieren die Gruppenanruf Abholung für einen Benutzer
 
 1.  Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.
 
@@ -35,9 +61,25 @@ Nachdem Sie der Anrufparkorbit-Tabelle Gruppennummern für die Gruppenanrufannah
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Deaktivieren der Gruppenanrufannahme für Benutzer](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Deaktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

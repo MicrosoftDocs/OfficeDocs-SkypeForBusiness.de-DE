@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Hohe Verfügbarkeit der Dateifreigabe'
-TOCTitle: Hohe Verfügbarkeit der Dateifreigabe
-ms:assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205203(v=OCS.15)
-ms:contentKeyID: 49295198
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: höchst verfügbare Dateifreigabe'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: File sharing high availability
+ms:assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205203(v=OCS.15)
+ms:contentKeyID: 48185238
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b61a4980c854b6cb79bedbe482bec204a541879f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832148"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hohe Verfügbarkeit der Dateifreigabe in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Höhere Verfügbarkeit von Dateien in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-03-30_
 
-Um hohe Verfügbarkeit für die Lync Server-Dateifreigabe innerhalb eines Rechenzentrums sicherzustellen, können Sie DFS (Distributed File System) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen Dateiserver innerhalb des gleichen Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden.
+Wenn Sie eine höhere Verfügbarkeit der lync Server-Dateifreigabe in einem einzigen Rechenzentrum sicherstellen möchten, können Sie das verteilte Datei System (Distributed File System, DFS) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen innerhalb desselben Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden.
 
-Abhängig von der Größe Ihres Netzwerks und der gewünschten Ausfallsicherheit können Sie ein Serverpaar zum Hosten von sämtlichen Dateifreigaben eines Standorts oder ein Paar je Front-End-Pool verwenden.
+Je nach Größe Ihres Netzwerks und dem gewünschten Maß an Flexibilität können Sie mit einem Serverpaar alle Dateifreigaben auf einer Website hosten oder ein paar pro Front-End-Pool verwenden.
 
-DFS ist ein "Best Effort"-Mechanismus für die Dateireplikation ohne veröffentlichte Zusagen für Wiederherstellungszeit (Recovery Time Objective - RTO) oder Wiederherstellungspunkt (Recovery Point Objective - RPO). Der Failover zwischen den DFS-Servern sollte schnell abgeschlossen werden, jedoch kann eine Verzögerung bei der Datenreplikation verhindern, dass Benutzer ihre laufende Arbeit fortsetzen können, wenn der Failover auftritt.
+Bei DFS handelt es sich um einen Best Effort-Datei Replikationsmechanismus, bei dem keine RTO-oder Recovery Point Objective (RPO)-Zusicherungen veröffentlicht werden. Das Failover zwischen den DFS-Servern sollte schnell abgeschlossen sein, aber die Daten Replikationsverzögerung kann verhindern, dass Benutzer die Arbeit in Bearbeitung fortsetzen können, wenn das Failover erfolgt.
 
-Wenn Sie DFS verwenden und Datenspeicher bei der Dateifreigabe wichtig ist, sollten Sie die Dateifreigaben öfters speichern, zum Beispiel alle vier bis acht Stunden. Wenn eine Dateifreigabe ausfällt und die Replikation nicht auf dem neuesten Stand ist, können Sie die Sicherung verwenden, um den Inhalt auf dem ausgefallenen Server auf den anderen Server wiederherzustellen, der mit dem Server kombiniert ist, welcher jetzt nicht verfügbar ist.
+Wenn Sie DFS verwenden und der Datenspeicher in der FileShare-Datei wichtig ist, sollten Sie die Dateifreigaben häufig sichern, beispielsweise alle 4 bis 8 Stunden. Wenn eine Dateifreigabe ausfällt und die Replikation nicht auf dem neuesten Stand ist, können Sie die Sicherung verwenden, um den Inhalt des ausgefallenen Servers auf dem anderen Server wiederherzustellen, der mit dem jetzt nicht mehr verfügbaren Server kombiniert ist.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,75 +1,125 @@
-﻿---
-title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten'
-TOCTitle: Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten
-ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182549(v=OCS.15)
-ms:contentKeyID: 49294718
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable federation and public IM connectivity
+ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
+ms:contentKeyID: 48184813
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832305"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-06-24_
 
-Die Unterstützung für einen Partnerverbund ist erforderlich, um Benutzern mit einem Konto in einer vertrauenswürdigen Kunden- oder Partnerorganisation - Partnerdomänen und Benutzer eines unterstützten öffentlichen Sofortnachrichtenanbieters eingeschlossen - die Zusammenarbeit mit Benutzern in Ihrer Organisation zu ermöglichen. Der Partnerverbund ist auch erforderlich, um einen gehosteten Exchange-Dienstanbieter zu verwenden, um Voicemail für Enterprise-VoIP-Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, z. B. Microsoft Exchange Online. Wenn Sie eine Vertrauensstellung mit diesen externen Domänen eingerichtet haben, können Sie Benutzer in diesen Domänen für den Zugriff auf Ihre Bereitstellung und für die Teilnahme an der Lync Server-Kommunikation autorisieren. Diese Vertrauensstellung wird Partnerverbund genannt, und es besteht weder ein Zusammenhang mit noch eine Abhängigkeit von einer Active Directory-Vertrauensstellung.
+Die Unterstützung für die Föderation ist erforderlich, damit Benutzer, die über ein Konto bei einem vertrauenswürdigen Kunden oder einer Partnerorganisation verfügen, einschließlich Partnerdomänen und Benutzer von öffentlichen Instant Messaging (im)-Anbieter Benutzern, die Sie unterstützen, die Zusammenarbeit mit Benutzern in Ihrem Organisation. Föderation muss auch einen gehosteten Exchange-Dienstanbieter verwenden, um Voicemail für Enterprise-VoIP-Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst wie Microsoft Exchange Online befinden. Wenn Sie eine Vertrauensstellung mit diesen externen Domänen eingerichtet haben, können Sie Benutzer in diesen Domänen autorisieren, auf Ihre Bereitstellung zuzugreifen und an der lync Server-Kommunikation teilzunehmen. Diese Vertrauensstellung wird als Föderation bezeichnet und ist nicht mit einer Active Directory-Vertrauensstellung verbunden oder abhängig davon.
 
-Zur Unterstützung des Benutzerzugriffs auf Partnerdomänen müssen Sie den Partnerverbund aktivieren. Wenn Sie den Partnerverbund für Ihre Organisation aktivieren, müssen Sie auch angeben, ob die folgenden Optionen implementiert werden sollen:
+Wenn Sie den Zugriff von Benutzern von Verbunddomänen unterstützen möchten, müssen Sie die Föderation aktivieren. Wenn Sie die Föderation für Ihre Organisation aktivieren, müssen Sie auch angeben, ob die folgenden Optionen implementiert werden sollen:
 
-  - **Suche von Partnerdomänen aktivieren**    Wenn Sie diese Option aktivieren, werden vom Lync Server DNS-Einträge (Domain Name System) verwendet, um Domänen zu suchen, die nicht in der Liste der zulässigen Domänen aufgeführt sind. Darüber hinaus wird der eingehende Datenverkehr von ermittelten Verbundpartnern automatisch ausgewertet und je nach Vertrauensebene, Umfang des Datenverkehrs und den Administratoreinstellungen eingeschränkt oder blockiert. Wenn Sie diese Option nicht aktivieren, wird der Partnerbenutzerzugriff nur für Benutzer in Domänen aktiviert, die Sie der Liste der zulässigen Domänen hinzugefügt haben. Unabhängig von der Aktivierung dieser Option können Sie festlegen, ob einzelne Domänen blockiert oder zugelassen werden, und Sie können den Zugriff auf bestimmte Server in der Partnerdomäne einschränken, auf denen der Zugriffs-Edgedienst ausgeführt wird. Ausführliche Informationen zum Steuern des Zugriffs durch Partnerdomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Aktivieren der Partnerdomänen Erkennung**   Wenn Sie diese Option aktivieren, verwendet lync Server DNS-Einträge (Domain Name System), um zu versuchen, Domänen zu ermitteln, die nicht in der Liste der zulässigen Domänen aufgeführt sind, und automatisch eingehenden Datenverkehr von erkannten Föderationen ausgewertet Partner und begrenzen oder Blockieren des Datenverkehrs basierend auf der Vertrauensebene, dem Umfang des Datenverkehrs und den Administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zulässig sein sollen, einschließlich der Beschränkung des Zugriffs auf bestimmte Server, auf denen der Access-Edgedienst in der Verbunddomäne ausgeführt wird. Details zum Steuern des Zugriffs durch Verbunddomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
-  - **Senden Sie einen Archivierungshaftungsausschluss an Verbundpartner**    Dieser Haftungsausschluss wird an Verbundpartner gesendet, um sie darüber zu informieren, dass die Archivierung innerhalb der Bereitstellung ausgeführt wurde. Wenn Sie die Archivierung der externen Kommunikation mit Verbundpartnerdomänen unterstützen, sollten Sie die Benachrichtigung über den Archivierungshaftungsausschluss aktivieren, um die Partner über die Archivierung ihrer Nachrichten in Kenntnis zu setzen.
+  - **Senden einer Verzichtserklärung zur Archivierung an Föderationspartner**     Haftungsausschluss Hinweis wird an verbundene Partner gesendet, die die Archivierung in Ihrer Bereitstellung durchgeführt haben. Wenn Sie die Archivierung externer Kommunikation mit Verbundpartner Domänen unterstützen, sollten Sie die Benachrichtigung über Archivierungs Verzicht aktivieren, um die Partner zu warnen, dass Ihre Nachrichten archiviert werden.
 
-Wenn Sie den Zugriff durch Benutzer von Partnerdomänen zu einem späteren Zeitpunkt temporär oder dauerhaft unterbinden möchten, können Sie den Partnerverbund für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Partnerbenutzerzugriff für Ihre Organisation zu aktivieren oder zu deaktivieren und um die geeigneten Partnerverbundoptionen festzulegen, die für Ihre Organisation unterstützt werden sollen.
+Wenn Sie den Zugriff von Benutzern von Verbunddomänen später vorübergehend oder dauerhaft verhindern möchten, können Sie den Verbund für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Zugriff auf den Verbundbenutzer für Ihre Organisation zu aktivieren oder zu deaktivieren, einschließlich der Angabe der entsprechenden Verbund Optionen, die für Ihre Organisation unterstützt werden sollen.
 
-
-> [!NOTE]
-> Durch die Aktivierung des Partnerverbunds für Ihre Organisation legen Sie lediglich fest, dass Ihre Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, das Routing an Verbunddomänen unterstützen. Benutzer in Verbunddomänen können nicht an Sofortnachrichtensitzungen oder Konferenzen in Ihrer Organisation teilnehmen. Dies ist erst möglich, wenn Sie zusätzlich mindestens eine Richtlinie zur Unterstützung des Partnerbenutzerzugriffs konfigurieren. Benutzer öffentlicher Sofortnachrichten-Dienstanbieter können nicht an Sofortnachrichtensitzungen oder Konferenzen in Ihrer Organisation teilnehmen. Dies ist erst möglich, wenn Sie zusätzlich mindestens eine Richtlinie zur Unterstützung von Verbindungen mit öffentlichen Sofortnachrichtendiensten konfigurieren. Lync Server kann keine gehosteten Exchange-Dienst verwenden, um Mailboxansage, Outlook Voice Access (einschließlich Voicemail) oder Dienste für die automatische Telefonzentrale für Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden. Hierzu müssen Sie zuerst eine Richtlinie für eine gehostete Voicemail konfigurieren, die Routinginformationen bereitstellt. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Partnerdomänen in anderen Organisationen finden Sie unter <A href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Verwalten von SIP-Partnerdomänen für eine Organisation in Lync Server 2013</A> in der Betriebsdokumentation. Wenn Sie außerdem die Kommunikation mit Benutzern von Sofortnachrichten-Dienstanbietern unterstützen möchten, müssen Sie entsprechende Richtlinien konfigurieren. Zusätzlich müssen Sie die Unterstützung für einzelne Dienstanbieter konfigurieren, die Sie unterstützen möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013</A> in der Betriebsdokumentation. Detaillierte Informationen zum Erstellen einer Richtlinie für gehostete Voicemail finden Sie unter <A href="lync-server-2013-manage-hosted-voice-mail-policies.md">Verwalten von Richtlinien für gehostete Voicemail in Lync Server 2013</A> in der Bereitstellungsdokumentation.
+<div>
 
 
+> [!NOTE]  
+> Das Aktivieren des Föderations Unternehmens für Ihre Organisation gibt nur an, dass Ihre Server, auf denen der Access Edge-Dienst ausgeführt wird, Routing in Verbunddomänen unterstützen Benutzer in Verbunddomänen können erst dann an Chats oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie für die Unterstützung des Zugriffs von Verbundbenutzern konfiguriert haben. Benutzer von Anbietern öffentlicher Chat Dienste können erst dann an Chats oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie für die Unterstützung öffentlicher Chats konfiguriert haben. Lync Server kann einen gehosteten Exchange-Dienst nicht zum Bereitstellen von Anrufbeantwortung, Outlook Voice Access (einschließlich Voicemail) oder automatischen Telefonzentralen Diensten für Benutzer verwenden, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, bis Sie eine gehostete Voicemail-Richtlinie konfigurieren. , in dem Routinginformationen bereitgestellt werden. Details zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Verbunddomänen in anderen Organisationen finden Sie unter <A href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013</A> in der Betriebsdokumentation. Wenn Sie die Kommunikation mit Benutzern von Chat Dienstanbietern unterstützen möchten, müssen Sie außerdem Richtlinien für deren Unterstützung konfigurieren und auch die Unterstützung für die einzelnen Dienstanbieter konfigurieren, die Sie unterstützen möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Verwalten von SIP-Verbund Anbietern für Ihre Organisation in lync Server 2013</A> in der Betriebsdokumentation. Details zum Erstellen einer gehosteten Voicemail-Richtlinie finden Sie unter <A href="lync-server-2013-manage-hosted-voice-mail-policies.md">Verwalten von gehosteten Voicemail-Richtlinien in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
-## So aktivieren oder deaktivieren Sie den Partnerbenutzerzugriff für Ihre Organisation
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>So aktivieren oder deaktivieren Sie den Verbundbenutzer Zugriff für Ihre Organisation
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer** und dann auf **Konfiguration für Zugriffsedge** .
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**, und klicken Sie dann auf **Access-Edge-Konfiguration**.
 
-4.  Klicken Sie auf der Seite **Konfiguration für Zugriffsedge** auf **Global** , klicken Sie auf **Bearbeiten** , und klicken Sie dann auf **Details anzeigen** .
+4.  Klicken Sie auf der Seite **Access Edge Configuration** auf **Global**, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  Führen Sie im Abschnitt **Konfiguration für Zugriffsedge bearbeiten** eine der folgenden Aktionen aus:
+5.  Führen Sie in " **Access-Edge-Konfiguration bearbeiten**" eine der folgenden Aktionen aus:
     
-      - Aktivieren Sie das Kontrollkästchen **Zugriff durch Remotebenutzer aktivieren** , um den Zugriff durch Remotebenutzer für Ihre Organisation zuzulassen.
+      - Aktivieren Sie das Kontrollkästchen **Kommunikation mit Verbundbenutzern aktivieren** , um den Zugriff durch den Verbundbenutzer für Ihre Organisation zu aktivieren.
     
-      - Deaktivieren Sie das Kontrollkästchen **Kommunikation mit Partnerbenutzern aktivieren** , um den Partnerbenutzerzugriff für Ihre Organisation zu deaktivieren.
+      - Wenn Sie den Verbundbenutzer Zugriff für Ihre Organisation deaktivieren möchten, deaktivieren Sie das Kontrollkästchen **Kommunikation mit verbundenen Benutzern aktivieren** .
 
-6.  Führen Sie nach Aktivierung des Kontrollkästchens **Kommunikation mit Partnerbenutzern aktivieren** eine der folgenden Aktionen aus:
+6.  Wenn Sie das Kontrollkästchen **Kommunikation mit Verbundbenutzern aktivieren** aktiviert haben, gehen Sie folgendermaßen vor:
     
-    1.  Aktivieren Sie das Kontrollkästchen **Suche von Partnerdomänen aktivieren** , um die automatische Suche von Partnerdomänen zu unterstützen.
+    1.  Wenn Sie die automatische Ermittlung von Partnerdomänen unterstützen möchten, aktivieren Sie das Kontrollkästchen **Discovery-Partnerdomänen Erkennung aktivieren** .
     
-    2.  Wenn Ihre Organisation die Archivierung der externen Kommunikation unterstützt, aktivieren Sie das Kontrollkästchen **Archivierungshaftungsausschluss an Verbundpartner senden** .
+    2.  Wenn Ihre Organisation die Archivierung externer Kommunikation unterstützt, aktivieren Sie das Kontrollkästchen **Archivierungs Ausschluss an verbundene Partner senden** .
 
-7.  Klicken Sie auf **Commit** .
+7.  Klicken Sie auf **Commit ausführen**.
 
-Sie müssen außerdem mindestens eine Richtlinie für den externen Zugriff zur Unterstützung des Zugriffs durch Partnerbenutzer konfigurieren, damit Partnerbenutzer mit Benutzern in Ihrer Lync Server 2013-Bereitstellung zusammenarbeiten können. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) in der Bereitstellungs- oder Betriebsdokumentation. Informationen zur Steuerung des Zugriffs für bestimmte Partnerdomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md) in der Bereitstellungs- oder Betriebsdokumentation.
+Damit Verbundbenutzer mit Benutzern in ihrer lync Server 2013-Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Zugriff durch den Verbundbenutzer zu unterstützen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation. Informationen zum Steuern des Zugriffs auf bestimmte Föderationsdomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
-## Aktivieren oder Deaktivieren des Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Partnerverbunde und Verbindungen mit öffentlichen Sofortnachrichtendiensten können ebenfalls mithilfe von Windows PowerShell und dem Cmdlet "Set-CsAccessEdgeConfiguration" verwaltet werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876). ausgeführt werden.
+<div>
 
-## So aktivieren Sie den Partnerverbund und die Verbindung mit öffentlichen Chatdiensten
+## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen mithilfe von Windows PowerShell-Cmdlets
 
-  - Legen Sie den Wert der Eigenschaft **AllowFederatedUsers** auf "True" ($True) fest, um den Partnerverbund und die Verbindung mit öffentlichen Sofortnachrichtendiensten zu aktivieren:
+Verbund-und öffentliche Chat Verbindungen können auch mithilfe von Windows PowerShell und dem Cmdlet "Satz-csaccessedgeconfiguration nicht angeben" verwaltet werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-enable-federation-and-public-im-connectivity"></a>So aktivieren Sie Verbund-und öffentliche Chat Verbindungen
+
+  - Um Verbund-und öffentliche Chat Verbindungen zu aktivieren, setzen Sie den Wert der **AllowFederatedUsers** -Eigenschaft auf true ($true):
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
-## So deaktivieren Sie den Partnerverbund und die Verbindung mit öffentlichen Chatdiensten
+</div>
 
-  - Legen Sie den Wert der Eigenschaft **AllowFederatedUsers** auf "False" ($False) fest, um den Partnerverbund und die Verbindung mit öffentlichen Sofortnachrichtendiensten zu deaktivieren:
+<div>
+
+## <a name="to-disable-federation-and-public-im-connectivity"></a>So deaktivieren Sie die Verbindung zwischen Föderation und öffentlichen Chats
+
+  - Zum Deaktivieren der Konnektivität für Verbund-und öffentliche Chats setzen Sie den Wert der **AllowFederatedUsers** -Eigenschaft auf false ($false):
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

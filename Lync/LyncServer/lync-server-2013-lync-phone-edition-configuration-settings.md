@@ -1,31 +1,65 @@
-﻿---
-title: Konfigurationseinstellungen für Lync Phone Edition in Lync Server 2013
-TOCTitle: Konfigurationseinstellungen für Lync Phone Edition in Lync Server 2013
-ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721944(v=OCS.15)
-ms:contentKeyID: 49891031
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: lync Phone Edition-Konfigurationseinstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Phone Edition configuration settings
+ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721944(v=OCS.15)
+ms:contentKeyID: 49733881
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b16b83cc7dbc050d61a43d8a4f85ecedfa76e2a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831924"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurationseinstellungen für Lync Phone Edition in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Phone Edition-Konfigurationseinstellungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-10_
 
-Konfigurationseinstellungen für Geräte mit Lync Phone Edition gelten global. Sie können aber auch neue Auflistungen von Einstellungen erstellen, die für einen bestimmten Standort gelten. Die Auflistungen umfassen SIP-Sicherheit, Einstellungen für Gerätesperrungen usw.
+Die Konfigurationseinstellungen für Geräte, auf denen lync Phone Edition ausgeführt wird, gelten global, oder Sie können neue Sammlungen von Einstellungen erstellen, die für eine bestimmte Website gelten. Zu den Sammlungen gehören SIP-Sicherheit, Einstellungen für Geräte Sperren und vieles mehr.
 
-## In diesem Abschnitt
+<div>
 
-  - [Anzeigen von Informationen zu den Konfigurationseinstellungen für Lync Phone Edition](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Lync Phone Edition](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [Anzeigen von Informationen zu den lync Phone Edition-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Lync Phone Edition](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [Erstellen oder Ändern einer Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [Konfigurieren von Sicherheitseinstellungen für Lync Phone Edition](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+  - [Löschen einer vorhandenen Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [Erzwingen von Telefonsperren](lync-server-2013-enforce-phone-locking.md)
+  - [Konfigurieren von Sicherheitseinstellungen für lync Phone Edition in lync Server 2013](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+
+  - [Erzwingen der Telefon Sperrung in lync Server 2013](lync-server-2013-enforce-phone-locking.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

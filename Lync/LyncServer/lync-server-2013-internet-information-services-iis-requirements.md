@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: IIS-Anforderungen (Internetinformationsdienste)'
-TOCTitle: IIS-Anforderungen (Internetinformationsdienste)
-ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398321(v=OCS.15)
-ms:contentKeyID: 49293973
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: IIS-Anforderungen (Internetinformationsdienste)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Internet Information Services (IIS) requirements
+ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
+ms:contentKeyID: 48184128
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcb0350178a19a75ac821a452ef90e10da297677
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831958"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# IIS-Anforderungen (Internetinformationsdienste) in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>IIS-Anforderungen (Internetinformationsdienste) in Lync Server 2013
 
-Verschiedene Lync Server 2013-Komponenten erfordern die Internetinformationsdienste (Internet Information Services, IIS). In diesem Thema werden die spezifischen IIS-Funktionen beschrieben, die zur Unterstützung von Lync Server erforderlich sind. In den Abschnitten dieses Themas werden die Anforderungen spezifischer Komponenten in Bezug auf IIS erläutert.
+</div>
 
-Wenn die Webserverrolle (IIS) auf Windows Server 2008 aktiviert wird, werden standardmäßig verschiedene Rollendienste installiert. In der folgenden Tabelle werden die zusätzlichen Rollendienste beschrieben, die bei Aktivierung der Webserverrolle (IIS) auf Windows Server 2008 installiert werden müssen.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-19_
+
+Mehrere lync Server 2013-Komponenten erfordern Internet Informationsdienste (IIS). In diesem Thema werden die speziellen IIS-Features beschrieben, die für die Unterstützung von lync Server erforderlich sind. In den Themen in diesem Abschnitt werden die Anforderungen bestimmter Komponenten für IIS beschrieben.
+
+Wenn die Rolle des Webservers (IIS) unter Windows Server 2008 aktiviert ist, werden standardmäßig verschiedene Rollendienste installiert. In der folgenden Tabelle werden die zusätzlichen Rollendienste beschrieben, die installiert werden müssen, wenn die Webserver (IIS)-Rolle unter Windows Server 2008 aktiviert ist.
 
 
 <table>
@@ -28,7 +48,7 @@ Wenn die Webserverrolle (IIS) auf Windows Server 2008 aktiviert wird, werden st
 <thead>
 <tr class="header">
 <th>Rollendienst</th>
-<th>Funktion</th>
+<th>Feature</th>
 </tr>
 </thead>
 <tbody>
@@ -38,7 +58,7 @@ Wenn die Webserverrolle (IIS) auf Windows Server 2008 aktiviert wird, werden st
 </tr>
 <tr class="even">
 <td><p>Anwendungsentwicklung</p></td>
-<td><p>ASP.NET</p></td>
+<td><p>ASP.net</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anwendungsentwicklung</p></td>
@@ -80,21 +100,39 @@ Wenn die Webserverrolle (IIS) auf Windows Server 2008 aktiviert wird, werden st
 </table>
 
 
+<div>
+
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Sicherheit Hinweis:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="Sicherheits" alt="security" />Sicherheitshinweis:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Wenn Sie IIS 7.0 auf einem Windows Server 2008-Betriebssystem verwenden, wird die Kernelmodusauthentifizierung in IIS durch das Lync Server-Setup deaktiviert.</td>
+<td>Wenn Sie IIS 7,0 unter einem Windows Server 2008-Betriebssystem verwenden, deaktiviert das lync Server-Setup die Kernelmodus-Authentifizierung in IIS.</td>
 </tr>
 </tbody>
 </table>
 
 
-## In diesem Abschnitt
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [IIS-Anforderungen für Front-End-Pools und Standard Edition-Server in Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

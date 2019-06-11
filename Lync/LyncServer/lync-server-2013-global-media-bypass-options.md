@@ -1,53 +1,98 @@
-﻿---
-title: Optionen für die globale Medienumgehung in Lync Server 2013
-TOCTitle: Optionen für die globale Medienumgehung in Lync Server 2013
-ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398255(v=OCS.15)
-ms:contentKeyID: 49293344
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: globale Medien Umgehungs Optionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Global media bypass options
+ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398255(v=OCS.15)
+ms:contentKeyID: 48183551
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4ebe39b6faeffd36f0dfc9e25959fe7a0b356153
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832128"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Optionen für die globale Medienumgehung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="global-media-bypass-options-in-lync-server-2013"></a>Globale Medien Umgehungs Optionen in lync Server 2013
 
+</div>
 
-> [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie die Medienumgehung für Trunkverbindungen mit einem Peer (PSTN-Gateway, IP-Nebenstellenanlage oder Session Border Controller [SBC] des Anbieters von Internettelefoniediensten) bereits für einen bestimmten Standort oder Dienst konfiguriert haben, für den die Medienverarbeitung durch den Vermittlungsserver umgangen werden soll.
+<div id="mainSection">
 
+<div id="mainBody">
 
+<span> </span>
 
-Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie die Medienumgehung auch global aktivieren. Über globale Einstellungen für die Medienumgehung können Sie entweder angeben, dass die Medienumgehung auf Anrufe über das Telefonfestnetz immer angewendet wird, oder dass die Medienumgehung auf der Grundlage von Zuordnungen von Subnetzen zu Netzwerkstandorten und Netzwerkregionen angewendet wird – ähnlich wie bei der Anrufsteuerung, einer anderen erweiterten VoIP-Funktion. Wenn sowohl die Medienumgehung als auch die Anrufsteuerung aktiviert wurden, werden die Informationen zu Netzwerkregionen, Netzwerkstandorten und Subnetzen, die für die Anrufsteuerung konfiguriert wurden, automatisch für Entscheidungen zur Verwendung der Medienumgehung herangezogen. Dies bedeutet, dass Sie die Medienumgehung nicht auf alle Anrufe über das Telefonfestnetz anwenden können, wenn die Anrufsteuerung aktiviert ist.
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
-Im vorliegenden Thema wird beschrieben, wie Sie mithilfe der Lync Server-Systemsteuerung und der Lync Server-Verwaltungsshell die globalen Einstellungen für die Medienumgehung konfigurieren können.
-
-
-> [!NOTE]
-> Wenn Sie diese Schritte zum Konfigurieren der Medienumgehung verwenden, wird von einer guten Konnektivität zwischen Clients und dem Vermittlungsserverpeer ausgegangen (z.&nbsp;B. einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SBC beim SIP-Trunking-Anbieter). Wenn für die Verbindung Bandbreiteneinschränkungen gelten, kann die Medienumgehung nicht auf den Anruf angewendet werden. Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur für die Produkte und Versionen unterstützt, die auf der Webseite für das Unified Communications Open Interoperability Program – Lync Server unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x407</A> aufgelistet werden.
+<div>
 
 
+> [!NOTE]  
+> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle Trunks an einen Peer (ein öffentliches Switched Telephone Network (PSTN)-Gateway, eine IP-Telefonanlage oder einen Session Border Controller (SBC) bei einem Internet-Telefoniedienst) für eine bestimmte Website oder einen bestimmten Dienst für dem der Vermittlungs Server von Medien umgangen werden soll.
 
-## Nächste Schritte: Auswählen von globalen Einstellungen für die Medienumgehung
 
-Nachdem Sie für spezifische Standorte oder Dienste die Medienumgehung für beliebige Trunkverbindungen aktiviert haben, können Sie folgendermaßen fortfahren:
 
-  - Aktivieren Sie die Medienumgehung dauerhaft, wie unter [Konfigurieren der Medienumgehung zur dauerhaften Umgehung des Vermittlungsservers](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md) beschrieben.
+</div>
 
-  - Oder konfigurieren Sie die Medienumgehung so, dass sie Standort-und Regionsinformationen verwendet, wie unter [Konfigurieren der globalen Einstellungen für die Medienumgehung zur Verwendung von Standort- und Regionsinformationen](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) beschrieben.
+Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie die Medienumgehung auch global aktivieren. Über globale Einstellungen für die Medienumgehung können Sie entweder angeben, dass die Medienumgehung auf Anrufe über das Telefonfestnetz immer angewendet wird oder dass die Medienumgehung auf der Grundlage von Zuordnungen von Subnetzen zu Netzwerkstandorten und Netzwerkregionen angewendet wird – ähnlich wie bei der Anrufsteuerung, einer anderen erweiterten VoIP-Funktion. Wenn sowohl die Medienumgehung als auch die Anrufsteuerung aktiviert wurden, werden die Informationen zu Netzwerkregionen, Netzwerkstandorten und Subnetzen, die für die Anrufsteuerung konfiguriert wurden, automatisch für Entscheidungen zur Verwendung der Medienumgehung herangezogen. Dies bedeutet, dass Sie die Medienumgehung nicht auf alle Anrufe über das Telefonfestnetz anwenden können, wenn die Anrufsteuerung aktiviert ist.
 
-## Siehe auch
+In diesem Thema wird beschrieben, wie Sie die lync Server-Systemsteuerung und die lync Server-Verwaltungsshell zusammen verwenden, um globale medienumgehungseinstellungen zu konfigurieren.
 
-#### Aufgaben
+<div>
 
-[Konfigurieren eines Trunks mit Medienumgehung in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+
+> [!NOTE]  
+> Wenn Sie diese Schritte zum Konfigurieren der Medienumgehung verwenden, wird von einer guten Konnektivität zwischen Clients und dem Vermittlungsserverpeer ausgegangen (z. B. einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SBC beim SIP-Trunkinganbieter). Wenn für die Verbindung Bandbreiteneinschränkungen gelten, kann die Medienumgehung nicht auf den Anruf angewendet werden. Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>lync Server unter aufgeführt sind.
+
+
+
+</div>
+
+<div>
+
+## <a name="next-steps-choose-global-media-bypass-settings"></a>Nächste Schritte: auswählen globaler medienumgehungseinstellungen
+
+Nachdem Sie die medienumgehung für alle trunk-Verbindungen zu einem Peer für bestimmte Websites oder Dienste aktiviert haben, verwenden Sie den folgenden Inhalt:
+
+  - Aktivieren Sie die medienumgehung immer, wie unter [Konfigurieren der medienumgehung in lync Server 2013 beschrieben, um den Vermittlungsserver immer zu umgehen](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md).
+
+  - Oder konfigurieren Sie die medienumgehung für die Verwendung von Website-und Regionsinformationen, wie unter [Konfigurieren der globalen Einstellungen für medienumgehung in lync Server 2013 beschrieben, um Website-und Regionsinformationen zu verwenden](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md).
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 [Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
 
-#### Konzepte
 
 [Konfigurieren der Medienumgehung in Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
-[Medienumgehung und Vermittlungsserver in Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)
+[Medienumgehung und Vermittlungsserver in Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

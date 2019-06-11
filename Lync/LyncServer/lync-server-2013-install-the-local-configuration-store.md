@@ -1,45 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Installieren des lokalen Konfigurationsspeichers'
-TOCTitle: Installieren des lokalen Konfigurationsspeichers
-ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412874(v=OCS.15)
-ms:contentKeyID: 49295157
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Installieren des lokalen Konfigurationsspeichers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install the Local Configuration store
+ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412874(v=OCS.15)
+ms:contentKeyID: 48185180
+ms.date: 06/28/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 135dedc38bbc24dd69dfd44b74c70db8e3397252
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831991"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installieren des lokalen Konfigurationsspeichers in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Installieren des lokalen Konfigurationsspeichers in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-06-27_
 
-Vergewissern Sie sich vor dem Ausführen dieser Arbeitsschritte, dass Sie beim Server unter einem Domänenkonto angemeldet sind, das lokale Administratorrechte besitzt und Mitglied der Gruppe "RTCUniversalReadOnlyAdmins" ist.
+Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie mit einem Domänenbenutzerkonto am Server angemeldet sind, das sowohl ein lokaler Administrator als auch ein Mitglied der RTCUniversalReadOnlyAdmin-Gruppe ist.
 
-Um das Lync Server-Bereitstellungs-Assistent einsetzen zu können muss der lokale Konfigurationsspeicher auf einem Server vorhanden sein. Der lokale Konfigurationsspeicher ist eine schreibgeschützte Kopie des zentralen Verwaltungsspeicher, der nach der lokalen Installation von SQL Server Express erstellt wird. Der zentralen Verwaltungsspeicher selbst wird zur vorhandenen SQL Server-Datenbank auf dem Standard Edition-Server oder der SQL Server Express-basierten Datenbank hinzugefügt.
+Damit Sie mit dem lync Server-Bereitstellungs-Assistenten etwas tun können, muss der lokale Konfigurationsspeicher auf einem Server vorhanden sein. Der lokale Konfigurationsspeicher ist eine schreibgeschützte Kopie des zentralen Verwaltungsspeichers, der nach der lokalen Installation von SQL Server Express erstellt wird. Der zentrale Verwaltungsspeicher selbst wird der vorhandenen SQL Server-Datenbank hinzugefügt, die auf dem Standard Edition-Server oder auf der SQL Server Express-basierten Datenbank installiert ist.
 
-
-> [!IMPORTANT]
-> Wenn Sie das Lync Server 2013-Setup auf diesem Server noch nicht ausgeführt haben, werden Sie aufgefordert, ein Laufwerk und einen Installationspfad für Lync Server 2013 anzugeben. Auf diese Weise können Sie ein anderes Laufwerk als das Systemlaufwerk verwenden, sollte dies von Ihrer Organisation vorgeschrieben werden oder nicht ausreichend Speicherplatz vorhanden sein. Sie können als Installationspfad für die Lync Server-Dateien im Setup-Dialogfeld einfach ein anderes, verfügbares Laufwerk auswählen. Wenn Sie die Setupdateien, einschließlich "OCSCore.msi", in diesem Verzeichnis installieren, werden auch alle übrigen Lync Server 2013-Dateien auf diesem Laufwerk bereitgestellt.
+<div>
 
 
+> [!IMPORTANT]  
+> Wenn Sie das lync Server 2013-Setup noch nicht auf diesem Server ausgeführt haben, werden Sie zur Eingabe eines Laufwerks und Pfads aufgefordert, auf dem lync Server 2013 installiert werden soll. Auf diese Weise können Sie die Installation auf einem anderen Laufwerk als dem Systemlaufwerk durchführen, wenn es in Ihrer Organisation erforderlich ist, oder wenn Sie Platz Bedenken haben. Sie können einfach den Pfad für den Installationspfad für die lync Server-Dateien im Dialogfeld einrichten auf ein neues, verfügbares Laufwerk ändern. Wenn Sie die Setup Dateien in diesem Pfad, einschließlich OCSCore. msi, installieren, werden die restlichen lync Server 2013-Dateien ebenfalls bereitgestellt.
 
-## So installieren Sie den lokalen Konfigurationsspeicher
 
-1.  Wechseln Sie auf dem Installationsdatenträger zu "\\setup\\amd64\\Setup.exe", und klicken Sie dann auf **OK** .
 
-2.  Klicken Sie auf **Ja** , wenn Sie zur Installation von Microsoft Visual C++ 2012 Redistributable aufgefordert werden.
+</div>
 
-3.  Klicken Sie auf der Seite **Installationsspeicherort von Lync Server 2013** auf **OK** .
+<div>
 
-4.  Lesen Sie sich auf der Seite **Endbenutzer-Lizenzvertrag** die Lizenzbedingungen durch, klicken Sie auf **Ich stimme den Bedingungen des Lizenzvertrags zu** und klicken Sie auf **OK** .
+## <a name="to-install-the-local-configuration-store"></a>So installieren Sie den lokalen Konfigurationsspeicher
 
-5.  Klicken Sie im Bereitstellungs-Assistenten auf **Lync Server-System installieren oder aktualisieren** .
+1.  Navigieren Sie auf Ihrem Installationsmedium zu \\Setup\\amd64\\Setup. exe, und klicken Sie dann auf **OK**.
 
-6.  Klicken Sie auf der Seite **Lync Server 2013** neben **Schritt 1: Lokalen Konfigurationsspeicher installieren** auf **Ausführen** .
+2.  Wenn Sie aufgefordert werden, die Microsoft Visual C++ 2012-verteilbare Installation zu installieren, klicken Sie auf **Ja**.
 
-7.  Vergewissern Sie sich auf der Seite **Lokalen Konfigurationsspeicher installieren** , dass die Option **Direkt vom zentralen Verwaltungsspeicher abrufen** ausgewählt ist, und klicken Sie dann auf **Weiter** .
+3.  Klicken Sie auf der Seite **lync Server 2013-Installationsspeicherort** auf **OK**.
 
-8.  Klicken Sie nach Abschluss der Installation der lokalen Serverkonfiguration auf **Fertig stellen** .
+4.  Überprüfen Sie auf der Seite Endbenutzer- **Lizenzvertrag** die Lizenzbedingungen, und wählen Sie **Ich akzeptiere die Bedingungen im Lizenzvertrag**aus, und klicken Sie dann auf **OK** , um den Vorgang fortsetzen zu können.
+
+5.  Klicken Sie auf der Seite Deployment-Assistent auf **lync Server System installieren oder aktualisieren**.
+
+6.  Klicken Sie auf der Seite **lync Server 2013** neben Schritt 1 **: lokalen Konfigurationsspeicher installieren**auf **Ausführen**.
+
+7.  Vergewissern Sie sich auf der Seite **Lokalen Konfigurationsspeicher installieren**, dass die Option **Direkt vom zentralen Verwaltungsspeicher abrufen** ausgewählt ist, und klicken Sie dann auf **Weiter**.
+
+8.  Wenn die Installation der lokalen Serverkonfiguration abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

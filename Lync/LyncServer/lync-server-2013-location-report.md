@@ -1,37 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Standortbericht'
-TOCTitle: Standortbericht
-ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615035(v=OCS.15)
-ms:contentKeyID: 49295416
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Standortbericht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location Report
+ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
+ms:contentKeyID: 48185641
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Standortbericht in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="location-report-in-lync-server-2013"></a>Standortbericht in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
 Der Standortbericht enthält nach dem Netzwerkstandort (also nach dem Netzwerksubnetz) gruppierte Informationen zu Metriken für die Anrufqualität. Falls bei Ihren Benutzern Probleme im Zusammenhang mit Anrufen auftreten, können Sie mithilfe dieses Berichts bestimmen, ob diese Probleme weitverbreitet sind oder ob sie weitgehend auf ein bestimmtes Netzwerksegment beschränkt sind.
 
-## Zugriff auf den Standortbericht
+<div>
 
-Auf den Standortbericht greifen Sie auf der Startseite Überwachungsberichte zu. Sie können einen Drilldown für den Anruflistenbericht ausführen, indem Sie auf eine der folgenden Metriken klicken:
+## <a name="accessing-the-location-report"></a>Zugriff auf den Standortbericht
 
-  - Anrufvolumen
+Auf den Standortbericht greifen Sie auf der Startseite „Überwachungsberichte“ zu. Sie können einen Drilldown für den Anruflistenbericht ausführen, indem Sie auf eine der folgenden Metriken klicken:
+
+  - Anruflautstärke
 
   - Prozentsatz der Anrufe schlechter Qualität
 
-## Filter
+</div>
+
+<div>
+
+## <a name="filters"></a>Filter
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie die Daten im Standortbericht nach Kriterien wie dem Standort, von dem der Anruf stammt, oder der Art der Verbindung (Funk oder Kabel) filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.
 
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Standortbericht verwenden können.
 
-### Filter im Standortbericht
+### <a name="location-report-filters"></a>Filter im Standortbericht
 
 <table>
 <colgroup>
@@ -48,7 +74,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Standortberic
 <tr class="odd">
 <td><p><strong>Von</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -58,7 +84,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Standortberic
 <tr class="even">
 <td><p><strong>Bis</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -95,11 +121,15 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Standortberic
 </table>
 
 
-## Metriken
+</div>
+
+<div>
+
+## <a name="metrics"></a>Metriken
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Standortbericht angegeben werden.
 
-### Metriken im Standortbericht
+### <a name="location-report-metrics"></a>Metriken im Standortbericht
 
 <table>
 <colgroup>
@@ -126,25 +156,25 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Standortbericht
 <td><p>Das IP-Subnetz des Benutzers, der den Anruf empfangen hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anrufvolumen</strong></p></td>
+<td><p><strong>Anruflautstärke</strong></p></td>
 <td><p>Ja</p></td>
 <td><p>Die Gesamtzahl der getätigten Anrufe.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prozentsatz der Anrufe schlechter Qualität</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Der Prozentsatz der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
+<td><p>Der Prozentsatz der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Roundtrip (ms)</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</p>
+<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</p>
 <p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Beeinträchtigung (MOS)</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder besser gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Lync Server ermittelt anhand mehrerer Algorithmen, wie die Benutzer einen Anruf bewertet hätten.</p>
+<td><p>Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In lync Server verwendet lync Server einen Satz von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
 <p>Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="odd">
@@ -155,12 +185,12 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Standortbericht
 <tr class="even">
 <td><p><strong>Jitter</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das &quot;Zittern&quot; der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum &quot;Glätten&quot; der &quot;holprigen&quot; Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Streckungsverhältnis der Reparatur</strong></p></td>
@@ -170,8 +200,21 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Standortbericht
 <tr class="odd">
 <td><p><strong>Komprimierungsverhältnis der Reparatur</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

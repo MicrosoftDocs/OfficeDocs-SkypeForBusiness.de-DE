@@ -1,35 +1,65 @@
-﻿---
-title: Voraussetzungen hinsichtlich Gruppenmitgliedschaften und Benutzerberechtigungen für Best Practices Analyzer
-TOCTitle: Voraussetzungen hinsichtlich Gruppenmitgliedschaften und Benutzerberechtigungen für Best Practices Analyzer
-ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg591354(v=OCS.15)
-ms:contentKeyID: 49295950
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group memberships and user rights requirements for Best Practices Analyzer
+ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591354(v=OCS.15)
+ms:contentKeyID: 48185869
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2c60f6256cead59b16f443994143d40bdbc00393
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832110"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Voraussetzungen hinsichtlich Gruppenmitgliedschaften und Benutzerberechtigungen für Best Practices Analyzer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-21_
 
-Damit Best Practices Analyzer fehlerfrei ausgeführt werden kann, muss das Benutzerkonto, unter dem Sie sich anmelden, ein Mitglied der Gruppe **Administratoren** auf dem lokalen Computer sein. Für das Scannen der Umgebung muss das Benutzerkonto außerdem ein Mitglied der folgenden Gruppen sein:
+Damit Sie Best Practices Analyzer erfolgreich ausführen können, muss das Benutzerkonto, das Sie für die Anmeldung verwenden, ein Mitglied der Gruppe Administratoren auf dem lokalen Computer sein. Darüber hinaus muss das Benutzerkonto ein Mitglied der folgenden Gruppen sein, um die Umgebung zu überprüfen:
 
-  - **Domänen-Admins**   Zum Aufzählen von Informationen für Active Directory-Domänendienste (Active Directory Domain Services, AD\&nbsp;DS) und zum Aufrufen der WMI-Anbieter (Windows Management Instrumentation, Windows-Verwaltungsinstrumentation) auf Domänencontrollern und globalen Katalogservern.
+  - **Domänenadministratoren**   , um Informationen zu Active Directory-Domänendiensten aufzulisten und die WMI-Anbieter (Windows Management Instrumentation) auf Domänencontrollern und globalen Katalogservern aufzurufen.
 
-  - **Administratoren**   Auf jedem internen Lync Server 2013-Computer und jedem Edgeserver zum Aufrufen der WMI-Anbieter und Zugreifen auf die Registrierung erforderlich.
+  - **Administratoren**   , die für jeden lync Server 2013-internen Computer und jeden Edgeserver erforderlich sind, um die WMI-Anbieter (Windows Management Instrumentation) anzurufen und auf die Registrierung zuzugreifen.
 
-  - **RTCUniversalReadOnlyAdmins**   Vollzugriff oder delegierte Leseberechtigung für Lync Server 2013-Administratoren.
+  - **RTCUniversalReadOnlyAdmins**   vollständig oder delegiert lesen Sie nur lync Server 2013-Administratorrechte.
 
-  - **Exchange-Administrator mit Leserechten**   Vollzugriff oder delegierter Zugriff für Exchange-Administratoren mit Leserechten in der Microsoft\&nbsp;Exchange-Organisation.
+  - **Exchange-Administrator**   "nur anzeigen" vollständiger oder Delegierter Exchange-Administrator "nur anzeigen" für die Microsoft Exchange-Organisation.
 
 Wenn Ihr Benutzerkonto nicht über ausreichende Benutzerrechte verfügt, haben Sie zwei Möglichkeiten:
 
-  - Geben Sie an der Eingabeaufforderung den Befehl **runas** ein, um das Tool unter einem anderen Konto mit ausreichenden Benutzerrechten auszuführen. Die Syntax lautet wie folgt:
+  - Verwenden Sie an einer Eingabeaufforderung den **** Befehl runas, um das Tool unter einem Konto auszuführen, das über genügend Benutzerrechte verfügt. Die Syntax lautet wie folgt:
     
         runas /netonly /user:<domain>\<userName> rtcbpa.exe
 
-  - Legen Sie auf der Seite **Mit Active Directory verbinden** die Anmeldeinformationen für die Konten fest, die Sie für die Ausführung von Best Practices Analyzer verwenden wollen. Klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**. Sie können drei Konten eingeben: eines zum Herstellen der Verbindung zu Active Directory-Domänendienste, eines zum Herstellen der Verbindung mit Lync Server 2013-Edgeservern und eines zum Herstellen der Verbindung mit den Exchange-Servern. Wenn Sie keines dieser Konten angeben, wird das Benutzerkonto verwendet, das Sie zum Anmelden bei und Ausführen von Best Practices Analyzer verwendet haben.
+  - Setzen Sie auf der Seite **mit Active Directory verbinden** die Anmeldeinformationen für die Konten, die Sie zum Ausführen von Best Practices Analyzer verwenden möchten. Klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**. Sie können drei Konten eingeben: eine zum Herstellen einer Verbindung mit Active Directory-Domänendiensten, eine zum Herstellen einer Verbindung mit lync Server 2013-Edgeserver und eine für die Verbindung zu den Exchange-Servern. Wenn Sie keines dieser Konten angeben, wird das Benutzerkonto verwendet, das Sie für die Anmeldung und die Ausführung von Best Practices Analyzer verwendet haben.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

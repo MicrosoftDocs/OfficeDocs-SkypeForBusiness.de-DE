@@ -1,29 +1,63 @@
-﻿---
-title: Entwickeln einer Strategie und eines Plans für das Sichern und Wiederherstellen
-TOCTitle: Entwickeln einer Strategie und eines Plans für das Sichern und Wiederherstellen
-ms:assetid: 17599b76-1a84-4dd6-b695-c19637deb8a6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202164(v=OCS.15)
-ms:contentKeyID: 52056292
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und-Planung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Developing a backup and restoration strategy and plan
+ms:assetid: 17599b76-1a84-4dd6-b695-c19637deb8a6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202164(v=OCS.15)
+ms:contentKeyID: 51541447
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d6160fa65a9c3578d384c27361424307e9e37d34
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832436"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entwickeln einer Strategie und eines Plans für das Sichern und Wiederherstellen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und Planen von lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-17_
 
-Die Wirksamkeit Ihrer Sicherungs- und Wiederherstellungsvorgänge für Lync Server ist von Ihrer Sicherungs- und Wiederherstellungsstrategie bzw. -plan abhängig. Sie sollten eine Strategie für die Sicherung und Wiederherstellung von Lync Server entwickeln, die zur Gesamtstrategie Ihrer Organisation passt und einen umfassenden, präzisen Plan zur Sicherung der Daten und Einstellungen sowie einen Plan zur Wiederherstellung des Diensts bei einem Ausfall ausarbeiten.
+Die Effektivität ihrer lync Server-Sicherungs-und Wiederherstellungsvorgänge hängt von ihrer Sicherungs-und Wiederherstellungsstrategie und Ihrem Plan ab. Sie sollten eine Strategie zum Sichern und Wiederherstellen von lync Server einrichten, die in die Gesamtstrategie Ihrer Organisation passt, und einen umfassenden, präzisen Plan zum Sichern von Daten und Einstellungen sowie bei einem Ausfall einen Plan zum Wiederherstellen des Diensts.
 
-Um eine möglichst robuste Notfallwiederherstellung eines Front-End-Pools nutzen zu können, verwenden Sie die in Lync Server 2013 eingeführte Notfallwiederherstellungstopologie mit gekoppelten Pools. Weitere Informationen finden Sie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Verwenden Sie für die robuste Disaster Recovery eines Front-End-Pools die in lync Server 2013 eingeführte Disaster Recovery-Topologie für gekoppelte Pools. Weitere Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-## In diesem Abschnitt
+<div>
 
-  - [Einrichten einer Sicherungs- und Wiederherstellungsstrategie](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Einrichten eines Sicherungs- und Wiederherstellungsplans](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+  - [Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
 
-  - [Einrichten eines Sicherungsspeicherorts](lync-server-2013-setting-up-a-backup-location.md)
+  - [Einrichten eines Sicherungs-und Wiederherstellungsplans für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+
+  - [Einrichten eines Sicherungsspeicherorts für lync Server 2013](lync-server-2013-setting-up-a-backup-location.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

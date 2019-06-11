@@ -1,119 +1,177 @@
-﻿---
-title: 'Lync Server 2013: Definieren von optionalen Director-Topologien in einer Topologie'
-TOCTitle: Definieren von optionalen Director-Topologien in einer Topologie
-ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398717(v=OCS.15)
-ms:contentKeyID: 49294712
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definieren von optionalen Director-Topologien in einer Topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define optional Director topologies in your topology
+ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398717(v=OCS.15)
+ms:contentKeyID: 48184808
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 524259226b44d68367b631c2b7cef5513e0770e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832716"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definieren von optionalen Director-Topologien in einer Topologie für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Definieren von optionalen Director-Topologien in einer Topologie für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
-Lync Server 2013-Directors können als Einzelinstanzserver bereitgestellt oder zur Verbesserung von Verfügbarkeit und Kapazität als Lastenausgleichspool mit mehreren Directors installiert werden. Sowohl Hardwarelastenausgleich als auch DNS-Lastenausgleich (Domain Name System) werden unterstützt. In diesem Thema wird erläutert, wie Sie den DNS-Lastenausgleich für Director-Pools konfigurieren.
+Die lync Server 2013-Directors können Single-Instance-Server sein oder als Lastenausgleichspool mehrerer Directors installiert werden, um höhere Verfügbarkeit und Kapazität zu erreichen. Sowohl der Hardwarelastenausgleich als auch der DNS-Lastenausgleich (Domain Name System) werden unterstützt. In diesem Thema wird erläutert, wie Sie den DNS-Lastenausgleich für Director-Pools konfigurieren.
 
-Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen **RTCUniversalServerAdmins** und **Domänen-Admins** angemeldet sein. Außerdem können Sie die erforderlichen Berechtigungen für das Hinzufügen von Serverrollen delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe **RTCUniversalServerAdmins** sein.
+Um eine Topologie erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, wenn Sie eine Serverrolle hinzufügen oder entfernen, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen **RTCUniversalServerAdmins** und **Domänenadministratoren** ist. Sie können auch die richtigen Administratorrechte und-Berechtigungen für das Hinzufügen von Serverrollen delegieren. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der **RTCUniversalServerAdmins** -Gruppe erforderlich.
 
-In diesem Thema wird beschrieben, welche Schritte erforderlich sind, um die Topologien für die beiden Director zu definieren und zu veröffentlichen:
+In diesem Thema werden die Schritte zum Definieren und Veröffentlichen der Topologie für die beiden Director-Topologien beschrieben:
 
-  - So definieren Sie den Director (Einzelinstanz)
+  - So definieren Sie den Director (einzelne Instanz)
 
-  - So definieren Sie den Director (Pool mit mehreren Directors)
+  - So definieren Sie den Director (mehrere Director-Pools)
 
-## So definieren Sie den Director (Einzelinstanz)
+<div>
 
-1.  Starten des Topologie-Generators: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Topologie-Generator**.
+## <a name="to-define-the-director-single-instance"></a>So definieren Sie den Director (einzelne Instanz)
 
-2.  Klicken Sie auf der Startseite auf **Topologie aus einer vorhandenen Bereitstellung herunterladen** .
+1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
 
-3.  Geben Sie im Dialogfeld **Topologie speichern unter** den Namen und den Speicherort für die lokale Kopie der vorhandenen Topologie ein, und klicken Sie auf **Speichern** .
+2.  Klicken Sie auf der Seite Willkommen auf **Topologie aus vorhandener Bereitstellung herunterladen**.
 
-4.  Erweitern Sie den Standort, an dem der Director hinzugefügt werden soll, klicken Sie mit der rechten Maustaste auf **Director-Pools** und anschließend auf **Neuer Director-Pool** .
+3.  Geben Sie im Dialogfeld **Topologie speichern** unter den Namen und den Speicherort der lokalen Kopie der vorhandenen Topologie ein, und klicken Sie auf **Speichern**.
 
-5.  Führen Sie im Dialogfeld **FQDN für Director-Pool definieren** die folgenden Schritte aus:
+4.  Erweitern Sie die Website, auf der Sie den Director hinzufügen möchten, klicken Sie mit der rechten Maustaste auf **Director-Pools**, und klicken Sie dann auf **Neuer Director-Pool**.
+
+5.  Gehen Sie im Dialogfeld **Director-Pool-FQDN definieren** wie folgt vor:
     
-      - Geben Sie in **Pool-FQDN** den FQDN für den Director-Pool ein.
+      - Geben Sie in **Pool FQDN**den FQDN für den Director-Pool ein.
     
-      - Klicken Sie auf **Pool mit einem Computer** und dann auf **Weiter** .
+      - Klicken Sie auf **Einzelcomputer Pool**, und klicken Sie dann auf **weiter**.
 
-6.  Führen Sie im Dialogfeld **Dateifreigabe definieren** einen der folgenden Schritte aus:
+6.  Führen Sie im Dialogfeld **Dateifreigabe definieren** eine der folgenden Aktionen aus:
     
-    1.  Zum Verwenden einer vorhandenen Dateifreigabe klicken Sie auf **Zuvor definierte Dateifreigabe verwenden** , wählen Sie eine Dateifreigabe aus der Liste aus, und klicken Sie auf **Weiter** .
+    1.  Wenn Sie eine vorhandene Dateifreigabe verwenden möchten, klicken Sie auf **zuvor definierte Dateifreigabe verwenden**, wählen Sie eine Dateifreigabe aus der Liste aus, und klicken Sie dann auf **weiter**.
     
-    2.  Zum Erstellen einer neuen Dateifreigabe klicken Sie auf **Neue Dateifreigabe definieren** , geben Sie in **Dateiserver-FQDN** den FQDN für das Verzeichnis der Dateifreigabe ein, geben Sie in **Dateifreigabe** den Namen der Freigabe ein, und klicken Sie anschließend auf **Weiter** .
+    2.  Wenn Sie eine neue Dateifreigabe erstellen möchten, klicken Sie auf **neue Dateifreigabe definieren**, geben Sie den FQDN für den Speicherort der Dateifreigabe unter **Datei Server-FQDN**ein, geben Sie den Namen der Freigabe in **Dateifreigabe**ein, und klicken Sie dann auf **weiter**.
     
-
-    > [!IMPORTANT]
-    > Die Dateifreigabe, die Sie in diesem Schritt angeben oder erstellen, muss vor der Veröffentlichung der Topologie vorhanden sein oder erstellt werden.<BR>Die einem Director zugewiesene Dateifreigabe wird nicht tatsächlich verwendet, Sie können dem Director also die Dateifreigabe jedes Pools in der Organisation zuweisen.
-
-
-
-7.  Geben Sie im Dialogfeld **Webdienste-URL angeben** in **Externe Basis-URL** den FQDN für die Directors an, und klicken Sie anschließend auf **Fertig stellen** .
+    <div>
     
 
-    > [!IMPORTANT]
-    > Der Name muss von Internet-DNS-Servern aufgelöst werden können und auf die öffentliche IP-Adresse des Reverseproxys verweisen, der an diese URL gesendete HTTP/HTTPS-Anforderungen überwacht und diese an das virtuelle Verzeichnis der externen Webdienste auf diesem Director weiterleitet.
+    > [!IMPORTANT]  
+    > Die Dateifreigabe, die Sie in diesem Schritt angeben oder erstellen, muss vor dem Veröffentlichen der Topologie vorhanden sein oder erstellt werden.<BR>Die einem Director zugewiesene Dateifreigabe wird nicht tatsächlich verwendet, sodass Sie die Dateifreigabe eines beliebigen Pools in der Organisation zuweisen können.
 
     
+    </div>
 
-    > [!WARNING]
-    > Wenn Sie mehr als einen Front-End-Pool oder Front-End-Server haben, muss der FQDN für externe Webdienste eindeutig sein. Wenn Sie beispielsweise <STRONG>pool01.contoso.com</STRONG> als FQDN für externe Webdienste eines Front-End-Servers definieren, können Sie <STRONG>pool01.contoso.com</STRONG> nicht für einen weiteren Front-End-Pool oder Front-End-Server verwenden. Wenn Sie außerdem Directors bereitstellen, darf der FQDN für externe Webdienste, den Sie für einen beliebigen Director oder Directorpool definieren, weder für andere Director oder Directorpools noch für andere Front-End-Pools oder Front-End-Server verwendet werden. Wenn Sie die internen Webdienste mit einem eigenen FQDN außer Kraft setzen, darf kein FQDN mit irgendeinem anderen Front-End-Pool, Director oder Directorpool übereinstimmen.
+7.  Geben Sie im Dialogfeld URL für Webdienste **angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
+    
+    <div>
+    
 
+    > [!IMPORTANT]  
+    > Der Name muss von Internet-DNS-Servern aufgelöst werden und auf die öffentliche IP-Adresse des Reverse-Proxys verweisen, der auf HTTP/HTTPS-Anforderungen an diese URL wartet und diese an das virtuelle Verzeichnis externer Webdienste in diesem Director abgibt.
 
+    
+    </div>
+    
+    <div>
+    
+
+    > [!WARNING]  
+    > Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als <STRONG>pool01.contoso.com</STRONG>definieren, können Sie <STRONG>pool01.contoso.com</STRONG> nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie beschließen, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+
+    
+    </div>
 
 8.  Veröffentlichen Sie die Topologie.
 
-## So definieren Sie den Director (Pool mit mehreren Directors)
+</div>
 
-1.  Starten des Topologie-Generators: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Topologie-Generator**.
+<div>
 
-2.  Klicken Sie auf der Startseite auf **Topologie aus einer vorhandenen Bereitstellung herunterladen** .
+## <a name="to-define-the-director-multiple-director-pool"></a>So definieren Sie den Director (mehrere Director-Pools)
 
-3.  Geben Sie im Dialogfeld **Topologie speichern unter** den Namen und den Speicherort für die lokale Kopie der vorhandenen Topologie ein, und klicken Sie auf **Speichern** .
+1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
 
-4.  Erweitern Sie den Standort, an dem der Director hinzugefügt werden soll, klicken Sie mit der rechten Maustaste auf **Director-Pools** und anschließend auf **Neuer Director-Pool** .
+2.  Klicken Sie auf der Seite Willkommen auf **Topologie aus vorhandener Bereitstellung herunterladen**.
 
-5.  Führen Sie im Dialogfeld **FQDN für Director-Pool definieren** die folgenden Schritte aus:
+3.  Geben Sie im Dialogfeld **Topologie speichern** unter den Namen und den Speicherort der lokalen Kopie der vorhandenen Topologie ein, und klicken Sie auf **Speichern**.
+
+4.  Erweitern Sie die Website, auf der Sie den Director hinzufügen möchten, klicken Sie mit der rechten Maustaste auf **Director-Pools**, und klicken Sie dann auf **Neuer Director-Pool**.
+
+5.  Gehen Sie im Dialogfeld **Director-Pool-FQDN definieren** wie folgt vor:
     
-      - Geben Sie in **Pool-FQDN** den FQDN für den Director-Pool ein.
+      - Geben Sie in **Pool FQDN**den FQDN für den Director-Pool ein.
     
-      - Klicken Sie auf **Pool mit mehreren Computern** und dann auf **Weiter** .
+      - Klicken Sie auf **Pool mit mehreren Computern**, und klicken Sie dann auf **weiter**.
 
-6.  Führen Sie im Dialogfeld **Computer in diesem Pool definieren** die folgenden Schritte aus:
+6.  Gehen Sie im Dialogfeld **Computer in diesem Pool definieren** wie folgt vor:
     
-      - Geben Sie den Computer-FQDN des ersten Mitglieds im Pool an, und klicken Sie anschließend auf **Hinzufügen** .
+      - Geben Sie den Computer-FQDN des ersten Pool Mitglieds an, und klicken Sie dann auf **Hinzufügen**.
     
-      - Wiederholen Sie diesen Schritt für jeden Computer, den Sie hinzufügen möchten, und klicken Sie zum Schluss auf **Weiter** .
+      - Wiederholen Sie den vorherigen Schritt für jeden Computer, den Sie hinzufügen möchten. Wenn Sie den Vorgang beenden, klicken Sie auf **weiter**.
 
-7.  Führen Sie im Dialogfeld **Dateifreigabe definieren** einen der folgenden Schritte aus:
+7.  Führen Sie im Dialogfeld **Dateifreigabe definieren** eine der folgenden Aktionen aus:
     
-      - Zum Verwenden einer vorhandenen Dateifreigabe klicken Sie auf **Zuvor definierte Dateifreigabe verwenden** , wählen Sie eine Dateifreigabe aus der Liste aus, und klicken Sie auf **Weiter** .
+      - Wenn Sie eine vorhandene Dateifreigabe verwenden möchten, klicken Sie auf **zuvor definierte Dateifreigabe verwenden**, wählen Sie eine Dateifreigabe aus der Liste aus, und klicken Sie dann auf **weiter**.
     
-      - Zum Erstellen einer neuen Dateifreigabe klicken Sie auf **Neue Dateifreigabe definieren** , geben Sie in **Dateiserver-FQDN** den FQDN für das Verzeichnis der Dateifreigabe ein, geben Sie in **Dateifreigabe** den Namen der Freigabe ein, und klicken Sie anschließend auf **Weiter** .
+      - Wenn Sie eine neue Dateifreigabe erstellen möchten, klicken Sie auf **neue Dateifreigabe definieren**, geben Sie den FQDN für den Speicherort der Dateifreigabe unter **Datei Server-FQDN**ein, geben Sie den Namen der Freigabe in **Dateifreigabe**ein, und klicken Sie dann auf **weiter**.
     
-
-    > [!IMPORTANT]
-    > Die Dateifreigabe, die Sie in diesem Schritt angeben oder erstellen, muss vor der Veröffentlichung der Topologie vorhanden sein oder erstellt werden.<BR>Die einem Director zugewiesene Dateifreigabe wird nicht tatsächlich verwendet, Sie können dem Director also die Dateifreigabe jedes Pools in der Organisation zuweisen.
-
-
-
-8.  Geben Sie im Dialogfeld **Webdienste-URL angeben** in **Externe Basis-URL** den FQDN für die Directors an, und klicken Sie anschließend auf **Fertig stellen** .
+    <div>
     
 
-    > [!IMPORTANT]
-    > Der Name muss von Internet-DNS-Servern aufgelöst werden können und auf die öffentliche IP-Adresse des Reverseproxys verweisen, der an diese URL gesendete HTTP-/HTTPS-Anforderungen überwacht und diese an das virtuelle Verzeichnis der externen Webdienste in diesem Director-Pool weiterleitet.
+    > [!IMPORTANT]  
+    > Die Dateifreigabe, die Sie in diesem Schritt angeben oder erstellen, muss vor dem Veröffentlichen der Topologie vorhanden sein oder erstellt werden.<BR>Die einem Director zugewiesene Dateifreigabe wird nicht tatsächlich verwendet, sodass Sie die Dateifreigabe eines beliebigen Pools in der Organisation zuweisen können.
 
     
+    </div>
 
-    > [!WARNING]
-    > Wenn Sie mehr als einen Front-End-Pool oder Front-End-Server haben, muss der FQDN für externe Webdienste eindeutig sein. Wenn Sie beispielsweise <STRONG>pool01.contoso.com</STRONG> als FQDN für externe Webdienste eines Front-End-Servers definieren, können Sie <STRONG>pool01.contoso.com</STRONG> nicht für einen weiteren Front-End-Pool oder Front-End-Server verwenden. Wenn Sie außerdem Directors bereitstellen, darf der FQDN für externe Webdienste, den Sie für einen beliebigen Director oder Directorpool definieren, weder für andere Director oder Directorpools noch für andere Front-End-Pools oder Front-End-Server verwendet werden. Wenn Sie die internen Webdienste mit einem eigenen FQDN außer Kraft setzen, darf kein FQDN mit irgendeinem anderen Front-End-Pool, Director oder Directorpool übereinstimmen.
+8.  Geben Sie im Dialogfeld URL für Webdienste **angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
+    
+    <div>
+    
 
+    > [!IMPORTANT]  
+    > Der Name muss von Internet-DNS-Servern aufgelöst werden und auf die öffentliche IP-Adresse des Reverse-Proxys verweisen, der auf HTTP/HTTPS-Anforderungen wartet, die an diese URL gesendet werden, und Sie an das virtuelle Verzeichnis externer Webdienste in diesem Director-Pool weiterleiten.
 
+    
+    </div>
+    
+    <div>
+    
+
+    > [!WARNING]  
+    > Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als <STRONG>pool01.contoso.com</STRONG>definieren, können Sie <STRONG>pool01.contoso.com</STRONG> nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie beschließen, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+
+    
+    </div>
 
 9.  Veröffentlichen Sie die Topologie.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

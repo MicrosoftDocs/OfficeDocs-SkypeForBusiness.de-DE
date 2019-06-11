@@ -1,52 +1,98 @@
-﻿---
-title: Anpassen der Wartemusik für das Parken von Anrufen in Lync Server 2013
-TOCTitle: Anpassen der Wartemusik für das Parken von Anrufen in Lync Server 2013
-ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688031(v=OCS.15)
-ms:contentKeyID: 49890715
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anpassen der Musik zum Parken von Anrufen im Wartebereich'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customize Call Park music on hold
+ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)
+ms:contentKeyID: 49733621
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 62983c10033ddc350b39a123c62fa31c132bb9c9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832747"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anpassen der Wartemusik für das Parken von Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Anpassen der Musik zum Parken von Anrufen im Wartebereich in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-10_
 
-Sie können Ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusikdatei von Lync Server 2013 festlegen. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+Sie können anstelle der Standardmusik Datei, die im Lieferumfang von lync Server 2013 enthalten ist, eine eigene Musikdatei angeben, die für die Aufbewahrung von Musik verwendet werden soll. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie die Wartemusik anpassen und die gleiche Musikdatei für mehrere Standorte verwenden möchten, müssen Sie die Musikdatei für jeden Standort konfigurieren, in dem die Anwendung zum Parken von Anrufen ausgeführt wird.
+> [!NOTE]  
+> Wenn Sie die Musik im Wartebereich anpassen und für mehrere Websites dieselbe Musik wünschen, müssen Sie die Musikdatei für jede Website konfigurieren, auf der die Anwendung "Parken" ausgeführt wird.
 
 
 
-## So passen Sie die Musikdatei an
+</div>
 
-1.  Melden Sie sich auf dem Computer, auf dem die Lync Server-Verwaltungsshell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten an, wie beschrieben unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-customize-the-music-file"></a>So passen Sie die Musikdatei an
+
+1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie folgenden Befehl aus:
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
+    <div>
+    
 
-    > [!TIP]
-    > Verwenden Sie das Cmdlet <STRONG>Get-CsService</STRONG>, um den Dienst zu ermitteln. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
+    > [!TIP]  
+    > Verwenden Sie das Cmdlet <STRONG>Get-CsService</STRONG>, um den Dienst zu ermitteln. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     
-    Im folgenden Beispiel wird gezeigt, wie die Inhalte der Datei "soothingmusic.wma" als Bytearray abgerufen und einer Variablen zugewiesen werden. Anschließend wird die Audiodatei als Wartemusikdatei für die Funktion zum Parken von Anrufen zugewiesen. Ausführliche Informationen finden Sie unter [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
+    </div>
+    
+    Im folgenden Beispiel wird gezeigt, wie die Inhalte der Datei „soothingmusic.wma“ als Bytearray abgerufen und einer Variablen zugewiesen werden. Anschließend wird die Audiodatei als Wartemusikdatei für die Funktion zum Parken von Anrufen zugewiesen. Ausführliche Informationen finden Sie unter [Satz-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
+## <a name="see-also"></a>Siehe auch
+
+
+[Satz-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

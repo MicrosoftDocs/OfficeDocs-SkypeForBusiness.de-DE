@@ -1,40 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Unterstützte Gerätehardware'
-TOCTitle: Unterstützte Gerätehardware
-ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412908(v=OCS.15)
-ms:contentKeyID: 49295212
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützte Gerätehardware'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device hardware support
+ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412908(v=OCS.15)
+ms:contentKeyID: 48185222
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: da92e5f8d37ae5112ccea2d2b33f7f2b0186dfcf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832434"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützte Gerätehardware in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="device-hardware-support-in-lync-server-2013"></a>Unterstützte Gerätehardware in Lync Server 2013
 
-Bevor Sie IP-Telefone und analoge Geräte bereitstellen, müssen spezifische Hardwarekonfigurationen vorliegen.
+</div>
 
-IP-Telefone, auf denen Lync Phone Edition ausgeführt wird, unterstützen LLDP-MED (Link Layer Discovery Protocol-Media Endpoint Discovery) und PoE (Power over Ethernet). Um die Vorteile von LLDP-MED zu nutzen, muss der Switch IEEE802.1AB und ANSI/TIA-1057 unterstützen. Um PoE zu nutzen, muss der Switch PoE802.3AF oder 802.3at unterstützen.
+<div id="mainSection">
 
-Zur Aktivierung von LLDP-MED muss der Administrator LLDP über das Konsolenfenster für den Switch aktivieren und die LLDP-MED-Netzwerkrichtlinie mit der richtigen VoIP-VLAN-ID konfigurieren.
+<div id="mainBody">
 
-Wenn Ihre Bereitstellung analoge Geräte umfasst, müssen Sie darüber hinaus das analoge Gateway zur Verwendung von Lync Server konfigurieren, und bei dem Gateway muss es sich um eines der folgenden Geräte handeln:
+<span> </span>
 
-  - ATA-Gerät (Analog Telephone Adapter)
+_**Letztes Änderungsdatum des Themas:** 2012-12-14_
 
-  - Analoges PSTN-Gateway
+Bevor Sie IP-Telefone und analoge Geräte bereitstellen, müssen bestimmte Hardwarekonfigurationen vorhanden sein.
 
-  - Survivable Branch Appliance mit analogem PSTN-Gateway
+IP-Telefone mit lync Phone Edition Support Link Layer Discovery Protocol – medienendpunkt Ermittlung (LLDP-MED) und Power over Ethernet (PoE).Um die Vorteile von LLDP-MED zu nutzen, muss der Switch IEEE 802.1 ab und ANSI/TIA-1057 unterstützen. Um Poe nutzen zu können, muss der Switch Poe 802.3 AF oder 802.3 at unterstützen.
 
-  - Survivable Branch Appliance mit PSTN-Gateway, das mit einem ATA-Gerät kommuniziert
+Um LLDP-MED zu aktivieren, muss der Administrator LLDP über das Console-Fenster Switch aktivieren und die LLDP-MED-Netzwerkrichtlinie mit der korrekten sprach-VLAN-ID festlegen.
 
-Informationen zum Konfigurieren eines analogen Gateways finden Sie im Abschnitt "Planen der Bereitstellung von analogen Geräten" unter [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) in der Lync Server 2010 TechNet-Bibliothek. (Analoge Geräte funktionieren in Lync Server 2013 genauso wie in Lync Server 2010.)
+Wenn Ihre Bereitstellung analoge Geräte umfasst, müssen Sie außerdem das analoge Gateway für die Verwendung von lync Server konfigurieren, und das Gateway muss eine der folgenden sein:
+
+  - Einen analogen Telefonadapter (ATA)
+
+  - Ein analoges PSTN-Gateway
+
+  - Eine Survivable-Branch-Appliance mit einem analogen PSTN-Gateway
+
+  - Eine Survivable-Branch-Appliance, die ein PSTN-Gateway enthält, das mit einem ATA kommuniziert
+
+Informationen zum Konfigurieren eines analogen Gateways finden Sie unter "Planen der Bereitstellung von analogen [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) Geräten" in der lync Server 2010 TechNet-Bibliothek. (Analoge Geräte funktionieren auf die gleiche Weise in lync Server 2013 wie in lync Server 2010.)
+
+<div>
 
 
-> [!IMPORTANT]
-> Sie können den Switch für 9-1-1 (erweitert) (E9-1-1) konfigurieren, wenn der Switch diese Funktion unterstützt.
+> [!IMPORTANT]  
+> Sie können den Schalter für Enhanced 9-1-1 (E9-1-1) konfigurieren, wenn dies vom Switch unterstützt wird.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

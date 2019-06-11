@@ -1,85 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Definieren der Mobilitätsanforderungen'
-TOCTitle: Definieren der Mobilitätsanforderungen
-ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690039(v=OCS.15)
-ms:contentKeyID: 49295178
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definieren der Mobilitätsanforderungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your mobility requirements
+ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)
+ms:contentKeyID: 48185226
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 604812d96f58a53ee008bfe42603243571138d1e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832713"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definieren der Mobilitätsanforderungen für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definieren der Mobilitätsanforderungen für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-02-14_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Wenn Sie mobile Lync 2010 Mobile- und Lync 2013-Clients verwenden, müssen Sie in der Planungsphase für das Lync Server 2013-Mobilitätsfeature einige Entscheidungen treffen, die sich auf Ihre Bereitstellungsschritte auswirken.
+Während der Planungsphase für das lync Server 2013 Mobility-Feature treffen Sie bei der Verwendung von lync 2010 Mobile-und lync 2013-mobilen Clients Entscheidungen, die ihre Bereitstellungsschritte bestimmen.
 
-Folgende Entscheidungen sind zu berücksichtigen:
+Hier sind die Entscheidungen, die Sie beachten müssen:
 
-  - **Soll die automatische Ermittlung für mobile Lync-Clients verwendet werden?**
+  - **Möchten Sie die automatische Ermittlung für Mobile lync-Clients verwenden?**
     
-    Wenn Sie die automatische Ermittlung unterstützen möchten, müssen Sie neue interne und externe DNS-Einträge (Domain Name System) erstellen, den Zertifikaten auf den Front-End-Servern, Directorsn und dem Reverseproxy alternative Antragstellernamen hinzufügen und die vorhandenen Webveröffentlichungsregeln für den Reverseproxy ändern. Ausführliche Informationen finden Sie unter [Technische Anforderungen für die Mobilität in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Wenn die automatische Ermittlung aktiviert ist, können Benutzer automatisch Lync Server 2013-Webdienste von überall innerhalb oder außerhalb des Firmennetzwerks ermitteln, ohne in den Einstellungen des mobilen Geräts URLs eingeben zu müssen.
+    Wenn Sie die automatische Ermittlung unterstützen möchten, müssen Sie neue interne und externe DNS-Einträge (Domain Name System) erstellen, Zertifikate auf den Front-End-Servern, Directors und Reverse-Proxys mit alternativen Subjektnamen versehen und die vorhandenen Veröffentlichungsregeln ändern. auf dem Reverse-Proxy. Ausführliche Informationen finden Sie unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Mit der automatischen Ermittlung können Benutzer die lync Server 2013-Webdienste automatisch von einer beliebigen Stelle innerhalb oder außerhalb des Unternehmensnetzwerks finden, ohne die URLs in die Einstellungen Ihres mobilen Geräts einzugeben.
     
-    Wenn Sie anstelle der automatischen Ermittlung manuelle Einstellungen verwenden, müssen mobile Benutzer manuell die folgenden URLs in ihre mobile Geräte eingeben:
+    Wenn Sie anstelle der automatischen Ermittlung manuelle Einstellungen verwenden, müssen Mobile Benutzer die folgenden URLs manuell auf Ihren mobilen Geräten eingeben:
     
-      - https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root for external access
+      - https://\<ExtPoolFQDN\>/autodiscover/autodiscoverservice.svc/root für externen Zugriff
     
-      - https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root for internal access
+      - https://\<IntPoolFQDN\>/autodiscover/autodiscoverservice. svc/root für internen Zugriff
     
-    Es wird dringend empfohlen, die automatische Ermittlung zu verwenden. Manuelle Einstellungen werden in erster Linie zur Problembehandlung verwendet.
+    Wir empfehlen dringend die Verwendung der automatischen Erkennung. Die primäre Verwendung von manuellen Einstellungen dient zur Problembehandlung.
 
-  - **Wenn Sie sich für die Unterstützung der automatischen Ermittlung entscheiden, sind Sie dann auch bereit, die Zertifikate auf dem Reverseproxy für jede SIP-Domäne mit alternativen Antragstellernamen zu aktualisieren?**
+  - **Wenn Sie sich entschließen, die automatische Ermittlung zu unterstützen, sind Sie bereit, Zertifikate auf dem Reverse-Proxy mit alternativen Subjektnamen für die einzelnen SIP-Domänen zu aktualisieren?**
     
-    Wenn Sie viele SIP-Domänen verwenden, kann die Aktualisierung öffentlicher Zertifikate auf dem Reverseproxy sehr aufwendig sein. Wenn dies zutrifft, können Sie die die automatische Ermittlung so konfigurieren, dass die anfängliche AutoErmittlungsdienst-Anforderung HTTP an Port 80 und nicht HTTPS an Port 443 verwendet. Dies ist aber nicht der empfohlene Ansatz. Wenn Sie sich für diese Alternative entscheiden, müssen Sie zwar die Zertifikate auf dem Reverseproxy nicht aktualisieren, aber eine Webveröffentlichungsregel für HTTP an Port 80 erstellen. Weitere Informationen finden Sie unter [Technische Anforderungen für die Mobilität in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+    Wenn Sie über viele SIP-Domänen verfügen, kann das Aktualisieren öffentlicher Zertifikate auf dem Reverse-Proxy sehr teuer werden. Wenn dies der Fall ist, können Sie die automatische Ermittlung so implementieren, dass die anfängliche AutoErmittlungsdienst Anforderung http auf Port 80 verwendet, anstatt HTTPS auf Port 443 zu verwenden. Dies ist jedoch nicht die empfohlene Vorgehensweise. Wenn Sie sich entscheiden, diese Alternative zu wählen, müssen Sie die Zertifikate auf dem Reverseproxy nicht aktualisieren, Sie müssen jedoch eine Webveröffentlichungsregel für http auf Port 80 erstellen. Weitere Informationen finden Sie unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Möchten Sie mobile Lync-Clients sowohl innerhalb als auch außerhalb des Firmennetzwerks oder nur innerhalb des Firmennetzwerks unterstützen?**
+  - **Möchten Sie lync Mobile-Clients sowohl intern als auch extern für das Unternehmensnetzwerk unterstützen oder Clients nur innerhalb des Unternehmensnetzwerks unterstützen?**
     
-    Wenn Sie mobile Clients sowohl innerhalb als auch außerhalb des Netzwerks unterstützen möchten, können mobile Geräte von einem beliebigen Ort aus auf die Mobilitätsfeatures zugreifen. Gemäß Standardkonfiguration werden Clients sowohl innerhalb als auch außerhalb des Firmennetzwerks unterstützt.
+    Wenn Sie Mobile Clients innerhalb und außerhalb Ihres Netzwerks unterstützen möchten, können mobile Geräte von jedem beliebigen Standort aus auf Mobilitätsfeatures zugreifen. Die Standardkonfiguration ist die Unterstützung von internen und externen Clients im Unternehmensnetzwerk.
     
-    Obwohl die Standardkonfiguration ermöglicht, dass der Datenverkehr des mobilen Clients über die externe Website erfolgt, können Sie den Datenverkehr mobiler Clients auf das interne Firmennetzwerk beschränken. Wenn Sie den Datenverkehr auf das interne Netzwerk beschränken, können Benutzer mobile Lync-Anwendungen auf ihren mobilen Geräten nur verwenden, wenn sie sich innerhalb des Netzwerks befinden.
+    Zwar kann die Standardkonfiguration den mobilen Client Datenverkehr auf der externen Website durchlaufen, doch können Sie den mobilen Client Datenverkehr auf das interne Unternehmensnetzwerk einschränken. Wenn Sie den Datenverkehr auf das interne Netzwerk einschränken, können Benutzer lync Mobile-Anwendungen nur auf Ihren mobilen Geräten verwenden, wenn Sie sich im Netzwerk befinden.
     
-    Für Bereitstellungen, die die Mobilität mit dem Mcx-Mobilitätsdienst und Lync 2010 Mobile unterstützen, führen Sie das **Set-CsMcxConfiguration**-Cmdlet aus. Um die Mobilität nur für die interne Verwendung festzulegen, können Sie einen Befehl ähnlich wie den folgenden verwenden:
+    Für Bereitstellungen, die Mobilität mithilfe des MCX **-** mobilitätsdiensts und lync 2010 Mobile unterstützen, führen Sie das Cmdlet "setCsMcxConfiguration" aus. Wenn Sie die Mobilität nur für die interne Verwendung einstellen möchten, verwenden Sie einen Befehl ähnlich der folgenden:
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
-
-    > [!NOTE]
-    > Für UCWA (Unified Communications Web API) sind keine zusätzlichen Konfigurationen erforderlich. UCWA hat keine entsprechende Konfiguration, die nur intern verwendet wird.
-
+    <div>
     
 
-    > [!IMPORTANT]
-    > Wenn Sie Lync Server 2013- Front-End-Server oder - Front-End-Pools verwenden <STRONG>und nicht über</STRONG>Lync Server 2010- Front-End-Server oder - Front-End-Pools verfügen, <STRONG>ist cookiegestützte Persistenz nicht erforderlich</STRONG>. Wenn Sie Lync Server 2010- Front-End-Server oder - Front-End-Pools beibehalten müssen, gelten die gleichen Regeln wie in Lync Server 2010 für cookiegestützte Persistenz.
-
-
-
-  - **Möchten Sie Pushbenachrichtigungen für Apple iOS-Geräte und Windows Phones unterstützen?**
-    
-    Wenn Sie Pushbenachrichtigungen unterstützen, erhalten die unterstützten Apple iOS-Geräte und Windows Phones eine Benachrichtigung über Ereignisse, die auftreten, wenn die mobile Anwendung inaktiv ist. Sie müssen den Edgeserver so konfigurieren, dass eine Partnerverbundbeziehung mit dem cloudbasierten Lync Server-Pushbenachrichtigungsdienst besteht, der sich im Lync Online-Rechenzentrum befindet, und ein Cmdlet zum Aktivieren von Pushbenachrichtigungen ausführen.
-    
-    Wenn Sie Pushbenachrichtigungen nicht nur über das 3G-Netzwerk der Anbieter mobiler Geräte oder über Datenwerke unterstützen möchten, sondern auch über das WLAN-Netzwerk, müssen Sie den ausgehenden Port 5223 im WLAN-Netzwerk Ihres Unternehmens öffnen. Durch das Ermöglichen von Pushbenachrichtigungen über das WLAN-Netzwerk werden mobile Geräte unterstützt, die über WLAN eine Verbindung herstellen, sowie mobile Geräte, die in Gebäuden einen schlechten Empfang haben.
-    
-
-    > [!IMPORTANT]
-    > Das Öffnen von Port TCP 5223 ist für die Unterstützung von Apple-Geräten erforderlich, auf denen der Lync 2010 Mobile-Client ausgeführt wird.
+    > [!NOTE]  
+    > Für UCWA sind keine zusätzlichen Konfigurationen erforderlich. UCWA hat keine äquivalente interne Konfiguration.
 
     
-    Wenn Sie Pushbenachrichtigungen nicht unterstützen, werden Benutzer von mobilen Apple-Geräten und Windows Phones nicht über Ereignisse (z. B. Chateinladungen oder entgangene Nachrichten) informiert, die auftreten, wenn die mobile Anwendung inaktiv ist.
+    </div>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Für mobile Lync 2013-Clients auf Apple-Geräten ist keine Pushbenachrichtigung erforderlich. Die mobilen Lync 2013-Clients auf dem Windows Phone verwenden die Pushbenachrichtigung. Die Planung für Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) bleiben für Lync Mobile auf dem Windows Phone und auf Apple-Geräten gleich, auf denen der mobile Lync 2013-Client nicht ausgeführt werden kann.
+    > [!IMPORTANT]  
+    > Wenn Sie einen lync Server 2013&nbsp;-Front-End-Server oder Front-End <STRONG></STRONG> -Pools verwenden und keine lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools vorhanden sind, <STRONG>gibt es keine Anforderung für die Cookie-basierte Persistenz</STRONG>. Wenn Sie alle lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools beibehalten müssen, gelten die gleichen Regeln wie in lync Server 2010 für Cookie-basierte Persistenz.
 
-
-
-  - **Sollen alle Benutzer Zugriff auf Mobilitätsfeatures haben, oder möchten Sie angeben können, welche Benutzer Zugriff auf diese Features haben?**
     
-    In der Tabelle werden die Features beschrieben, die für Benutzer in Lync Server 2013 verfügbar sind. Die Standardwerte ermöglichen Folgendes: Geschäftlich anrufen, Voice over IP (VoIP) und Mobilität. Im Folgenden sind alle verfügbaren Optionen aufgelistet:
+    </div>
+
+  - **Möchten Sie Push-Benachrichtigungen für Apple IOS-Geräte und Windows phones unterstützen?**
+    
+    Wenn Sie Push-Benachrichtigungen unterstützen, erhalten unterstützte Apple IOS-Geräte und Windows phones eine Benachrichtigung über Ereignisse, die auftreten, wenn die Mobile Anwendung inaktiv ist. Sie müssen den Edgeserver so konfigurieren, dass er über eine Verbundbeziehung mit dem cloudbasierten lync Server-Push-Benachrichtigungsdienst verfügt, der sich im lync Online-Rechenzentrum befindet, und ein Cmdlet ausführen, um Push-Benachrichtigungen zu aktivieren.
+    
+    Wenn Sie Push-Benachrichtigungen über Ihr WLAN-Netzwerk unterstützen möchten, müssen Sie zusätzlich zur Unterstützung von Push-Benachrichtigungen über die 3G-oder Datennetzwerke des Mobilfunkanbieters Port 5223 in Ihrem WLAN-Netzwerk für Unternehmen öffnen. Das unterstützen von Push-Benachrichtigungen über das WLAN-Netzwerk unterstützt mobile Geräte, die nur WLAN-und mobile Geräte verwenden, die einen schlechten Empfang im Innenbereich aufweisen.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > Das Öffnen von Port TCP 5223 ist nur erforderlich, wenn Apple-Geräte unterstützt werden, auf denen der Mobile lync 2010-Client ausgeführt wird.
+
+    
+    </div>
+    
+    Wenn Sie keine Push-Benachrichtigungen unterstützen, finden Benutzer von mobilen Apple-Geräten und Windows-Smartphones keine Informationen zu Ereignissen wie Sofortnachrichten-Einladungen oder verpassten Nachrichten, die auftreten, wenn die Mobile Anwendung inaktiv ist.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Für lync 2013 Mobile-Clients auf Apple-Geräten ist keine Push-Benachrichtigung erforderlich. Die mobilen lync 2013-Clients auf Windows Phone verwenden eine Push-Benachrichtigung. Die Planung für die Push-Benachrichtigung und das Clearing House für die Push-Benachrichtigung bleiben für lync Mobile auf Windows Phone-und Apple-Geräten gleich, die nicht in der Lage sind, den mobilen lync 2013-Client auszuführen.
+
+    
+    </div>
+
+  - **Möchten Sie, dass alle Benutzer Zugriff auf Mobilitätsfeatures haben, oder möchten Sie in der Lage sein, anzugeben, welche Benutzer Zugriff auf diese Features haben?**
+    
+    In der Tabelle werden die Features beschrieben, die Benutzern in lync Server 2013 zur Verfügung stehen. Die Standardeinstellungen ermöglichen Anruf über Arbeit, VoIP (Voice over IP) und ermöglichen Mobilität. Hier finden Sie die vollständige Auswahl der verfügbaren Optionen:
     
     
     <table>
@@ -90,7 +124,7 @@ Folgende Entscheidungen sind zu berücksichtigen:
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Feature/Parametername/Gültigkeitsbereich (Namen der Richtlinienparameter können abweichen)</th>
+    <th>Feature/Parameter Name/Bereich (Richtlinien Parameter Namen sind möglicherweise nicht identisch)</th>
     <th>Beschreibung</th>
     <th>Eingeführt</th>
     </tr>
@@ -98,66 +132,82 @@ Folgende Entscheidungen sind zu berücksichtigen:
     <tbody>
     <tr class="odd">
     <td><p>Mobilität aktivieren</p>
-    <p>Parametername: <code>EnableMobility</code></p>
-    <p>Gültigkeitsbereich: Global/Website/Benutzer</p></td>
-    <td><p>Verwaltungseinstellung, um Benutzer, die Lync Mobile installiert haben, in einem bestimmten Gültigkeitsbereich zu steuern. Wenn diese Richtlinie auf &quot;False&quot; gesetzt ist, kann der Benutzer sich nicht am Client anmelden.</p>
-    <p>Die Standardeinstellung ist &quot;True&quot;.</p></td>
-    <td><p>Kumulatives Update für Lync Server 2010: November 2011</p></td>
+    <p>Parameter Name:<code>EnableMobility</code></p>
+    <p>Bereich: Global/Website/Benutzer</p></td>
+    <td><p>Administrative Einstellung Wenn die Richtlinie auf "false" festgelegt ist, kann der Benutzer sich nicht beim Client anmelden, um die Benutzer in einem bestimmten Bereich zu steuern, auf dem die lync Mobile-Anwendung installiert ist.</p>
+    <p>Die Standardeinstellung ist wahr.</p></td>
+    <td><p>Kumulatives Update für lync Server 2010: November 2011</p></td>
     </tr>
     <tr class="even">
-    <td><p>Externe Anrufe ermöglichen</p>
-    <p>Parametername: <code>EnableOutsideVoice</code></p>
-    <p>Gültigkeitsbereich: Global/Website/Benutzer</p></td>
-    <td><p>Hiermit wird die Fähigkeit eines Benutzers gesteuert, das Feature &quot;Geschäftlich anrufen&quot; zu verwenden. Mit diesem Feature können Benutzer unter Verwendung der geschäftlichen Telefonnummer anstelle der Mobiltelefonnummer Anrufe tätigen und entgegennehmen. Wenn dieses Feature auf &quot;False&quot; gesetzt ist, kann der Benutzer auf seinem Mobiltelefon nicht die geschäftliche Telefonnummer verwenden, um Anrufe zu tätigen oder entgegenzunehmen.</p>
-    <p>Die Standardeinstellung ist &quot;True&quot;.</p></td>
-    <td><p>Kumulatives Update für Lync Server 2010: November 2011</p></td>
+    <td><p>Aktivieren von Fremdsprache</p>
+    <p>Parameter Name:<code>EnableOutsideVoice</code></p>
+    <p>Bereich: Global/Website/Benutzer</p></td>
+    <td><p>Steuert die Möglichkeit des Benutzers, Anrufe über Arbeit zu verwenden, eine Funktion, mit der Benutzer Anrufe tätigen und entgegennehmen können, indem Sie Ihre geschäftliche Nummer anstelle Ihrer Mobiltelefonnummer verwenden. Wenn Sie auf "false" festgelegt ist, kann der Benutzer keine Anrufe tätigen oder entgegennehmen, indem er seine geschäftliche Nummer auf seinem mobilen Gerät verwendet.</p>
+    <p>Die Standardeinstellung ist wahr.</p></td>
+    <td><p>Kumulatives Update für lync Server 2010: November 2011</p></td>
     </tr>
     <tr class="odd">
     <td><p>IP-Audio und -Video aktivieren</p>
-    <p>Parametername: <code>EnableIPAudioVideo</code></p>
-    <p>Gültigkeitsbereich: Global/Website/Benutzer</p></td>
-    <td><p>Hiermit wird gesteuert, ob ein Benutzer VoIP verwenden kann, um von seinem mobilen Gerät aus Sprach- oder Videoanrufe zu tätigen oder zu empfangen. Wenn dieser Parameter auf &quot;False&quot; gesetzt ist, kann der Benutzer keine VoIP- oder Videoanrufe auf seinem mobilen Gerät tätigen oder entgegennehmen.</p>
-    <p>Die Standardeinstellung ist &quot;True&quot;.</p></td>
+    <p>Parameter Name:<code>EnableIPAudioVideo</code></p>
+    <p>Bereich: Global/Website/Benutzer</p></td>
+    <td><p>Steuert, ob ein Benutzer VoIP verwenden kann, um Sprach-oder Videoanrufe auf seinem mobilen Gerät zu tätigen oder zu empfangen. Wenn Sie auf "false" festgelegt ist, kann der Benutzer keine VoIP-oder Videoanrufe auf seinem Gerät tätigen oder empfangen.</p>
+    <p>Die Standardeinstellung ist wahr.</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="even">
     <td><p>Wi-Fi für IP-Audio erforderlich</p>
-    <p>Parametername : <code>RequireWiFiForIPAudio</code></p>
-    <p>Gültigkeitsbereich: Global/Website/Benutzer</p></td>
-    <td><p>Mit dieser Einstellung wird definiert, ob der Client VoIP-Anrufe über das WLAN-Netzwerk anstatt über das Mobilfunknetzwerk tätigen oder entgegennehmen muss. Wenn diese Einstellung auf &quot;True&quot; gesetzt ist, kann der Benutzer VoIP-Anrufe nur tätigen und empfangen, wenn wenn er mit einem WLAN-Netzwerk verbunden ist.</p>
-    <p>Die Standardeinstellung ist &quot;False&quot;.</p></td>
+    <p>Parameter Name:<code>RequireWiFiForIPAudio</code></p>
+    <p>Bereich: Global/Website/Benutzer</p></td>
+    <td><p>Mit dieser Einstellung wird festgelegt, ob der Client Anrufe über VoIP über WLAN statt über das Mobilfunknetz führen und empfangen muss. Wenn der Benutzer auf "true" festgelegt ist, kann er nur dann VoIP-Anrufe tätigen und empfangen, wenn er mit einem WLAN-Netzwerk verbunden ist.</p>
+    <p>Die Standardeinstellung ist "false".</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="odd">
     <td><p>Wi-Fi für IP-Video erforderlich</p>
-    <p>Parametername: <code>RequireWiFiForIPVideo</code></p>
-    <p>Gültigkeitsbereich: Global/Website/Benutzer</p></td>
-    <td><p>Mit dieser Einstellung wird definiert, ob der Client Videoanrufe über das WLAN-Netzwerk anstatt über das Mobilfunknetzwerk tätigen oder entgegennehmen muss. Wenn diese Einstellung auf &quot;True&quot; gesetzt ist, kann der Benutzer Videoanrufe nur tätigen und empfangen, wenn wenn er mit einem WLAN-Netzwerk verbunden ist.</p>
-    <p>Die Standardeinstellung ist &quot;False&quot;.</p></td>
+    <p>Parameter Name:<code>RequireWiFiForIPVideo</code></p>
+    <p>Bereich: Global/Website/Benutzer</p></td>
+    <td><p>Mit dieser Einstellung wird festgelegt, ob der Client Videoanrufe über WLAN tätigen und empfangen muss, anstatt im Mobilfunk-Datennetzwerk. Wenn der Benutzer auf "true" festgelegt ist, kann er nur dann Videoanrufe tätigen und empfangen, wenn er mit einem WLAN-Netzwerk verbunden ist.</p>
+    <p>Die Standardeinstellung ist "false".</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     </tbody>
     </table>
     
-    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zur Verwaltung dieser Richtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) und [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
+    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und wie Sie die Richtlinien verwalten, finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) und [ Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
 
-  - **Sollen Benutzer, die nicht für Enterprise-VoID aktiviert sind, an Konferenzen teilnehmen können, indem Sie auf den entsprechenden Teilnahmelink klicken?**
+  - **Möchten Sie, dass Benutzer, die nicht für Enterprise-VoIP aktiviert sind, in der Lage sein, Click-to-Join zu verwenden, um an Konferenzen teilzunehmen?**
     
-    Damit Benutzer auf die Mobilitätsfeatures und das Feature "Geschäftlich anrufen" zugreifen können, müssen Sie für Enterprise-VoIP aktiviert sein. Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können jedoch an Konferenzen teilnehmen, indem Sie auf ihrem mobilen Gerät auf den entsprechenden Link klicken, sofern Sie diesen Benutzern eine entsprechende VoIP-Richtlinie zugewiesen haben. Sie können diesen Benutzern entweder eine bestimmte VoIP-Richtlinie zuweisen oder sicherstellen, dass eine globale Richtlinie oder eine Richtlinie auf Standortebene vorhanden ist, die für diese Benutzer gültig ist. Die zugewiesene VoIP-Richtlinie muss über PSTN-Verwendungseinträge und -Routen verfügen, die die Bereiche definieren, in die Benutzer hinauswählen können, um an einer Konferenz teilzunehmen. Ausführliche Informationen zum Festlegen der VoIP-Richtlinie, PSTN-Verwendungseinträge und -Routen finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
+    Damit Benutzer Zugriff auf Mobilitätsfunktionen haben und über die Arbeit anrufen können, müssen Sie für Enterprise-VoIP aktiviert sein. Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können jedoch an Konferenzen teilnehmen, indem Sie auf dem mobilen Gerät auf den Link klicken, wenn Ihnen eine entsprechende VoIP-Richtlinie zugewiesen ist. Sie können diesen Benutzern entweder eine bestimmte VoIP-Richtlinie zuweisen oder sicherstellen, dass eine globale Richtlinie oder eine Richtlinie auf Websiteebene vorhanden ist, die für diese Benutzer gilt. Die VoIP-Richtlinie, die Sie zuweisen, muss über öffentliche PSTN-Nutzungsdatensätze und-Routen verfügen, die die Bereiche definieren, in die die Benutzer zum teilnehmen an einer Konferenz wählen können. Details zum Festlegen von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und Routen finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Mobile Benutzer, die den Teilnahmelink verwenden möchten, benötigen eine VoIP-Richtlinie sowie die dazugehörigen PSTN-Verwendungseinträge und VoIP-Routen, da durch das Klicken auf diesen Link ein ausgehender Anruf von Lync Server 2013 initiiert wird.
+    > [!NOTE]  
+    > Für mobile Benutzer, die Click-to-Join verwenden möchten, ist eine VoIP-Richtlinie zusammen mit den zugehörigen PSTN-Nutzungsdaten Sätzen und VoIP-Routen erforderlich, da durch Klicken auf den Link auf dem mobilen Gerät ein ausgehender Anruf von lync Server 2013 entsteht.
 
+    
+    </div>
 
+<div>
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
-#### Konzepte
 
 [Technische Anforderungen für die Mobilität in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md)  
 
-#### Weitere Ressourcen
 
-[Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+[Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

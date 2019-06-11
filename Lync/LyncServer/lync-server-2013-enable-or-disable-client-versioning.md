@@ -1,57 +1,107 @@
-﻿---
-title: Aktivieren oder Deaktivieren der Clientversionsverwaltung
-TOCTitle: Aktivieren oder Deaktivieren der Clientversionsverwaltung
-ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ898475(v=OCS.15)
-ms:contentKeyID: 52056313
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren der Client Versionsverwaltung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable client versioning
+ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)
+ms:contentKeyID: 50873755
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a0f6e5306e30baca3c2a8178a0d979f82d55481
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832301"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren oder Deaktivieren der Clientversionsverwaltung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Aktivieren oder Deaktivieren der Client Versionsverwaltung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Die Konfigurationseinstellungen für Clientversionen werden verwendet, um die Clientversionskontrolle entweder global oder für bestimmte Standorte zu aktivieren und zu deaktivieren. Die globale Clientversionskonfiguration wird zusammen mit Lync Server 2013 installiert und zum Aktivieren bzw. Deaktivieren der Clientversionskontrolle für die gesamte Serverbereitstellung verwendet. Wenn die globale Konfiguration aktiviert ist, werden alle eingerichteten Clientversionsrichtlinien bei der Anmeldung von Benutzern wirksam. Sie können die globale Clientversionskonfiguration deaktivieren, wenn Sie die Clientversionskontrolle nicht nutzen möchten. Sie können die Clientversionsverwaltung in der Systemsteuerung für Lync Server 2013 oder in der Verwaltungsshell für Lync Server 2013 aktivieren bzw. deaktivieren.
+Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit lync Server 2013 installiert und verwendet, um die Client Versionskontrolle für die gesamte Server Bereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen eingerichteten clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die Konfiguration der globalen Client Version deaktivieren, wenn keine Client Versionskontrolle erfolgen soll. Sie können die Client Versionsverwaltung über die lync Server 2013-Systemsteuerung oder die lync Server 2013-Verwaltungsshell aktivieren oder deaktivieren.
+
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.
 
 
 
-## So aktivieren oder deaktivieren Sie die Clientversionsverwaltung mithilfe der Lync Server-Systemsteuerung
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a>So aktivieren oder deaktivieren Sie die Client Versionsverwaltung mithilfe der lync Server-Systemsteuerung
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Clientversionskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Client Versions Konfiguration** .
 
-4.  Führen Sie Folgendes aus:
+4.  Gehen Sie wie folgt vor:
     
-      - Zum globalen Aktivieren oder Deaktivieren der Clientversionsverwaltung doppelklicken Sie auf die Konfiguration **Global** und ändern dann die Einstellungen.
+      - Um die Client Versionsverwaltung Global zu aktivieren oder zu deaktivieren, doppelklicken Sie auf die **globale** Konfiguration, und ändern Sie dann die Einstellungen.
     
-      - Zum Aktivieren oder Deaktivieren der Clientversionsverwaltung für einen bestimmten Standort klicken Sie auf **Neu**, wählen den Standort aus, klicken auf **OK** und ändern dann die Einstellungen für den Standort.
+      - Um die Client Versionsverwaltung für eine bestimmte Website zu aktivieren oder zu deaktivieren, klicken Sie auf **neu**, wählen Sie die Website aus, klicken Sie auf **OK**, und ändern Sie dann die Einstellungen für die Website.
 
-## Aktivieren oder Deaktivieren der Clientversionsverwaltung mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Sie können die Clientversionsverwaltung mithilfe des Cmdlets **Set-CsClientVersionConfiguration** aktivieren bzw. deaktivieren. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So aktivieren Sie die Clientversionsverwaltung
+## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren der Client Versionsverwaltung mithilfe von Windows PowerShell-Cmdlets
 
-  - Sie können die Clientversionsverwaltung aktivieren, indem Sie die **Enabled**-Eigenschaft auf "True" ($True) festlegen.
+Sie können die Client Versionsverwaltung mithilfe des Cmdlets " **festlegen-CsClientVersionConfiguration** " aktivieren oder deaktivieren. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-enable-client-versioning"></a>So aktivieren Sie die Client Versionsverwaltung
+
+  - Sie können die Client Versionsverwaltung aktivieren, indem Sie die **Enabled** -Eigenschaft auf true ($true) festlegen.
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-## So deaktivieren Sie die Clientversionsverwaltung
+</div>
 
-  - Sie können die Clientversionsverwaltung deaktivieren, indem Sie die **Enabled**-Eigenschaft auf "False" ($False) festlegen.
+<div>
+
+## <a name="to-disable-client-versioning"></a>So deaktivieren Sie die Client Versionsverwaltung
+
+  - Sie können die Client Versionsverwaltung deaktivieren, indem Sie die **Enabled** -Eigenschaft auf false festlegen ($false).
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
+</div>
+
+Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) ".
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

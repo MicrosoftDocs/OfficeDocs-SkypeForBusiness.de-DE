@@ -1,56 +1,98 @@
-﻿---
-title: 'Lync Server 2013: Aktivieren von Benutzern für gehostete Voicemail'
-TOCTitle: Aktivieren von Benutzern für gehostete Voicemail
-ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413062(v=OCS.15)
-ms:contentKeyID: 49295969
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren von Benutzern für gehostete Voicemail'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable users for hosted voice mail
+ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413062(v=OCS.15)
+ms:contentKeyID: 48185919
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 45872df26989d8d264ce77406bfbce86f321ccf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832274"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren von Benutzern für gehostete Voicemail in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Aktivieren von Benutzern für gehostete Voicemail in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-24_
 
-Führen Sie die Schritte in diesem Verfahren aus, um Lync Server 2013-Benutzerkonten für Voicemailfunktionen in einem gehosteten Exchange Unified Messaging-Dienst (UM) zu aktivieren.
+Führen Sie das Verfahren zum Aktivieren von lync Server 2013-Benutzern für Voicemail in einem gehosteten Exchange Unified Messaging (um)-Dienst aus.
 
-Ausführliche Informationen finden Sie unter [Benutzerverwaltung für gehostete Exchange-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in der Planungsdokumentation.
+Ausführliche Informationen finden Sie unter [gehostete Exchange-Benutzerverwaltung in lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in der Planungsdokumentation.
 
-Ausführliche Informationen zur Verwendung des [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Details zum Cmdlet " [setCsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) " finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
 
-
-> [!IMPORTANT]
-> Bevor ein Lync Server 2013-Benutzerkonto für gehostete Voicemail aktiviert werden kann, muss eine Richtlinie für gehostete Voicemail bereitgestellt werden, die auf das entsprechende Benutzerkonto angewendet wird. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in Lync Server 2013</A>.
+<div>
 
 
+> [!IMPORTANT]  
+> Bevor ein lync Server 2013-Benutzer für gehostete Voicemail aktiviert werden kann, muss eine gehostete Voicemail-Richtlinie bereitgestellt werden, die für Ihr Benutzerkonto gilt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in lync Server 2013</A>.
 
-## So aktivieren Sie Benutzer für gehostete Voicemail
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "Set-CsUser" aus, um das Benutzerkonto für gehostete Voicemail zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
+</div>
+
+<div>
+
+## <a name="to-enable-users-for-hosted-voice-mail"></a>So aktivieren Sie Benutzer für gehostete Voicemails
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+2.  Führen Sie das Cmdlet "Satz-CsUser" aus, um das Benutzerkonto für gehostete Voicemail zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
     Im oben stehenden Beispiel werden folgende Parameter festgelegt:
     
-      - **HostedVoiceMail** ermöglicht das Weiterleiten von Voicemailanrufen eines Benutzers zum gehosteten Exchange UM-Dienst. Dieser Parameter weist Microsoft Lync 2013 außerdem an, die Anzeige "Voicemail anrufen" zu aktivieren.
+      - **HostedVoiceMail** ermöglicht es, dass die Voicemail-Anrufe eines Benutzers an den Hosted Exchange um weitergeleitet werden. Außerdem signalisiert Microsoft lync 2013, dass die Anzeige "Voicemail anrufen" leuchtet.
     
-      - **Identity** gibt die Identität des zu ändernden Benutzerkontos an. Der Wert "Identity" kann unter Verwendung eines der folgenden Formate angegeben werden:
+      - **Identity** gibt das zu ändernde Benutzerkonto an. Der Identity-Wert kann mit einem der folgenden Formate angegeben werden:
         
-          - SIP-Adresse des Benutzers
+          - Die SIP-Adresse des Benutzers
         
-          - Active Directory-Benutzerprinzipalname des Benutzers
+          - Name des Active Directory-Benutzerprinzipals des Benutzers
         
-          - Domänenanmeldename des Benutzers (zum Beispiel "contoso\\kenmyer")
+          - Der Domänen\\Anmeldename des Benutzers (beispielsweise contoso\\kenmyer)
         
-          - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn der Anzeigename als Identitätswert verwendet wird, können Sie das Sternchen (\*) als Platzhalterzeichen nutzen. Der Identitätswert "\* Smith" gibt beispielsweise alle Benutzer zurück, deren Anzeigename auf den Zeichenfolgenwert "Smith" endet.
+          - Der Anzeige Name des Active Directory-Domänen Dienstes des Benutzers (beispielsweise Ken Myers). Wenn Sie den Anzeigenamen als Identitätswert verwenden, können Sie das Platzhalterzeichen Sternchen\*() verwenden. Die Identität "\* Smith" gibt beispielsweise alle Benutzer zurück, die einen Anzeigenamen aufweisen, der mit dem Zeichenfolgenwert "Smith" endet.
+        
+        <div>
         
 
-        > [!NOTE]
-        > Der Active Directory-SAM-Kontoname eines Benutzers kann nicht als Identitätswert verwendet werden, da dieser Name innerhalb der Gesamtstruktur nicht unbedingt eindeutig ist.
+        > [!NOTE]  
+        > Der Name des Active Directory-SAM-Kontos des Benutzers kann nicht als Identitätswert verwendet werden, da der Name des SAM-Kontos in der Gesamtstruktur nicht unbedingt eindeutig ist.
 
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

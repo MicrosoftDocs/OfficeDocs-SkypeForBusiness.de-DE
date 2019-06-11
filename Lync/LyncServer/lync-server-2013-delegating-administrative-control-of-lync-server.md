@@ -1,55 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Delegieren der administrativen Steuerung von Lync Server'
-TOCTitle: Delegieren der administrativen Steuerung von Lync Server 2013
-ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520951(v=OCS.15)
-ms:contentKeyID: 49293188
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Delegieren der administrativen Steuerung von Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delegating administrative control of Lync Server 2013
+ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520951(v=OCS.15)
+ms:contentKeyID: 48183418
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2acecec7a4b6543bb5dd22720af7a3f9aab62137
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832665"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Delegieren der administrativen Steuerung von Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Delegieren der administrativen Steuerung von Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-In Lync Server 2013 werden Verwaltungsaufgaben über die neue Funktion für die rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC) an Benutzer delegiert. Bei der Installation von Lync Server werden verschiedene RBAC-Rollen erstellt. Diese Rollen entsprechen universellen Sicherheitsgruppen in Active Directory-Domänendienste. Die RBAC-Rolle "CsHelpDesk" entspricht beispielsweise der Gruppe "CsHelpDesk" im Container "Users" des Active Directory-Domänendiensts. Darüber hinaus sind jeder RBAC-Rolle eine Reihe von Windows PowerShell-Cmdlets in Lync Server zugeordnet. Diese Cmdlets stellen die Aufgaben dar, die von Benutzern mit der RBAC-Rolle ausgeführt werden können. Der Rolle "CsHelpDesk" sind z. B. die Cmdlets "Lock-CsClientPin" und "UnlockCsClientPin" zugewiesen, sodass Benutzer mit der Rolle "CsHelpDesk" zum Sperren und Aufheben der Sperrung von Benutzer-PINs berechtigt sind. Das Cmdlet "New-CsVoicePolicy" ist der Rolle "CsHelpDesk" jedoch nicht zugewiesen. Benutzer, denen die Rolle "CsHelpDesk" zugewiesen ist, können folglich keine neuen VoIP-Richtlinien erstellen.
+In lync Server 2013 werden administrative Aufgaben mithilfe des neuen Features rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) an Benutzer delegiert. Wenn Sie lync Server installieren, werden eine Reihe von RBAC-Rollen für Sie erstellt. Diese Rollen entsprechen den allgemeinen Sicherheitsgruppen in den Active Directory-Domänendiensten. Beispielsweise entspricht die RBAC-Rolle CsHelpDesk der CsHelpDesk-Gruppe, die im Container Benutzer in den Active Directory-Domänendiensten gefunden wurde. Darüber hinaus ist jede RBAC-Rolle einer Gruppe von lync Server-Windows PowerShell-Cmdlets zugeordnet. Diese Cmdlets stellen die Aufgaben dar, die von Benutzern ausgeführt werden können, denen die angegebene RBAC-Rolle zugewiesen wurde. Beispielsweise wurden der CsHelpDesk-Rolle die Cmdlets Lock-CsClientPin und UnlockCsClientPin zugewiesen. Das bedeutet, dass Benutzer, denen die CsHelpDesk-Rolle zugewiesen wurde, Benutzer-PIN-Nummern Sperren und entsperren können. Der CsHelpDesk-Rolle wurde jedoch nicht das Cmdlet New-CsVoicePolicy zugewiesen. Das bedeutet, dass Benutzer, denen die CsHelpDesk-Rolle zugewiesen wurde, keine neuen VoIP-Richtlinien erstellen können.
 
-## Anzeigen von Informationen über RBAC-Rollen
+<div>
 
-Führen Sie den folgenden Befehl in der Lync Server-Verwaltungsshell aus, um grundlegende Informationen zu Ihren RBAC-Rollen abzurufen:
+## <a name="viewing-information-about-rbac-roles"></a>Anzeigen von Informationen zu RBAC-Rollen
+
+Sie können grundlegende Informationen zu ihren RBAC-Rollen abrufen, indem Sie den folgenden Befehl in der lync Server-Verwaltungsshell ausführen:
 
     Get-CsAdminRole
 
-Bedenken Sie, dass die Identität der RBAC-Rolle (z. B. "CsVoiceAdministrator") über eine direkte Zuordnung zu einer Sicherheitsgruppe im Container der Active Directory-Domänendienste "Users" verfügt.
+Beachten Sie, dass die Identität der RBAC-Rolle (beispielsweise CsVoiceAdministrator) eine direkte Zuordnung zu einer Sicherheitsgruppe hat, die sich im Container Benutzer in den Active Directory-Domänendiensten befindet.
 
-Zum Abrufen einer Liste der Cmdlets, die einer Rolle zugewiesen sind, verwenden Sie einen Befehl wie den folgenden:
+Wenn Sie eine Liste der Cmdlets anzeigen möchten, die einer Rolle zugewiesen wurden, verwenden Sie einen Befehl wie den folgenden:
 
     Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets
 
-## Zuweisen einer RBAC-Rolle zu einem Benutzer
+</div>
 
-Zum Zuweisen einer RBAC-Rolle zu einem Benutzer müssen Sie den Benutzer zur entsprechenden Active Directory-Sicherheitsgruppe hinzufügen. Beispiel: Um einem Benutzer die Rolle "CsLocationAdministrator" zuzuweisen, müssen Sie den Benutzer zur Gruppe "CsLocationAdministrator" hinzufügen. Zu diesem Zweck können Sie die folgenden Schritte ausführen:
+<div>
 
-**So weisen Sie einer Sicherheitsgruppe einen Benutzer zu**
+## <a name="assigning-an-rbac-role-to-a-user"></a>Zuweisen einer RBAC-Rolle zu einem Benutzer
 
-1.  Melden Sie sich über ein Konto mit Berechtigung zum Ändern der Mitgliedschaft einer Active Directory-Gruppe an dem Computer an, auf dem "Active Directory-Benutzer und -Computer" installiert ist.
+Wenn Sie einem Benutzer eine RBAC-Rolle zuweisen möchten, müssen Sie diesen Benutzer der entsprechenden Active Directory-Sicherheitsgruppe hinzufügen. Um beispielsweise die CsLocationAdministrator-Rolle einem Benutzer zuzuweisen, müssen Sie diesen Benutzer der Gruppe CsLocationAdministrator hinzufügen. Dies kann durchführen des folgenden Verfahrens erfolgen:
 
-2.  Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **Active Directory-Benutzer und -Computer**.
+**So weisen Sie einen Benutzer einer Sicherheitsgruppe zu**
 
-3.  Erweitern Sie in "Active Directory-Benutzer und -Computer" den Namen Ihrer Domäne und klicken Sie auf den Container **Users**.
+1.  Melden Sie sich bei einem Computer, auf dem Active Directory-Benutzer und-Computer installiert wurden, mit einem Konto an, das über die Berechtigung zum Ändern der Mitgliedschaft einer Active Directory-Gruppe verfügt.
 
-4.  Klicken Sie mit der rechten Maustaste auf die Sicherheitsgruppe **CsLocationAdministrator** und klicken Sie dann auf **Eigenschaften**.
+2.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Active Directory-Benutzer und-Computer**.
 
-5.  Klicken Sie im Dialogfeld **Eigenschaften** auf die Registerkarte **Mitglieder** und anschließend auf **Hinzufügen**.
+3.  Erweitern Sie in Active Directory-Benutzer und-Computer den Namen Ihrer Domäne, und klicken Sie auf den Container **Benutzer** .
 
-6.  Geben Sie im Dialogfeld **Benutzer, Computer, Kontakte oder Gruppen auswählen** im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Benutzer- oder Anzeigenamen des Benutzers ein, der zur Gruppe hinzugefügt werden soll (z. B. **Ken Myer** ), und klicken Sie auf **OK** .
+4.  Klicken Sie mit der rechten Maustaste auf die Sicherheitsgruppe **CsLocationAdministrator**, und klicken Sie dann auf **Eigenschaften**.
+
+5.  Klicken Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **Mitglieder** auf **Hinzufügen**.
+
+6.  Geben Sie im Dialogfeld **Benutzer, Computer, Kontakte oder Gruppen auswählen** den Benutzernamen oder den Anzeigenamen des Benutzers ein, der der Gruppe hinzugefügt werden soll (beispielsweise **Ken Myers**), und klicken Sie dann im Feld **Geben Sie die zu verwendenden Objektnamen ein** , und klicken Sie dann auf **OK**.
 
 7.  Klicken Sie im Dialogfeld **Eigenschaften** auf **OK**.
 
-Verwenden Sie das Cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment), um zu überprüfen, ob die RBAC-Rolle zugewiesen wurde. Übergeben Sie dem Cmdlet dabei die Eigenschaft "SamAccountName" (Active Directory-Anmeldename) des Benutzers. Führen Sie in der Lync Server-Verwaltungsshell beispielsweise den folgenden Befehl aus:
+Um zu überprüfen, ob die RBAC-Rolle zugewiesen wurde, verwenden Sie das Cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) , und übergeben Sie dem Cmdlet den sAMAccountName (Active Directory-Anmeldename) des Benutzers. Führen Sie diesen Befehl beispielsweise in der lync Server-Verwaltungsshell aus:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

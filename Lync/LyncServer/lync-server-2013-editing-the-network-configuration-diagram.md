@@ -1,29 +1,49 @@
-﻿---
-title: Bearbeiten des Netzwerkkonfigurationsdiagramms
-TOCTitle: Bearbeiten des Netzwerkkonfigurationsdiagramms
-ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558643(v=OCS.15)
-ms:contentKeyID: 52056325
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bearbeiten des Netzwerk Konfigurations Diagramms'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Editing the network configuration diagram
+ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
+ms:contentKeyID: 51541469
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832319"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bearbeiten des Netzwerkkonfigurationsdiagramms
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>Bearbeiten des Netzwerk Konfigurations Diagramms in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Die Hauptaufgabe, die der für den Entwurf verantwortliche Benutzer im Lync Server 2013, Planungstool ausführt, besteht im Definieren der IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für die Einträge im Netzwerkdiagramm. Die auf dieser Seite eingegebenen Informationen werden in die Berichte und andere Informationen übertragen, die im Planungstool enthalten sind.
+Der größte Teil der Arbeit, die ein Designer im lync Server 2013, Planungs Tool, besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (FQDNs) für die Einträge im Netzplandiagramm zu definieren. Die Informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere Informationen übernommen, die im Planungs Tool enthalten sind.
 
-![Planungstool – Netzwerk (Diagramm)](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Planungstool – Netzwerk (Diagramm)")
+![Planungs Tool-Netzwerkdiagramm] (images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Planungs Tool-Netzwerkdiagramm")
 
-Das Planungstool erstellt ein Netzwerkdiagramm mit Standardtext für IP-Adressen und FQDNs.
+Das Planungs Tool erstellt ein Netzwerkdiagramm mit Standardtext für IP-Adressen und FQDNs.
 
 So bearbeiten Sie das Netzwerkdiagramm und geben Werte ein
 
-1.  Wählen Sie einen Abschnitt des Netzwerks aus, den Sie zuerst bearbeiten möchten. Doppelklicken Sie z. B. auf den Text **access1.contoso.net**. Geben Sie im nun geöffneten Dialogfeld den tatsächlichen FQDN für den Server "access1.contoso.net" ein, und ersetzen Sie die IP-Adresse 131.107.155.1 durch die tatsächliche IP-Adresse.
+1.  Wählen Sie einen Abschnitt des Netzwerks aus, den Sie zuerst bearbeiten möchten. Machen Sie z. B. einen Doppelklick auf den Text **access1.contoso.net**. Geben Sie im nun geöffneten Dialogfeld den tatsächlichen FQDN für den Server „access1.contoso.net“ ein und ersetzen Sie die IP-Adresse 131.107.155.3 durch die tatsächliche IP-Adresse.
 
 2.  Klicken Sie auf **OK**, um die Einträge zu speichern.
 
@@ -31,21 +51,35 @@ So bearbeiten Sie das Netzwerkdiagramm und geben Werte ein
 
 Eine nützliche Funktion des Planungstools ist die, dass ein Bereich von IP-Adressen und Serverhostnamen inkrementell zugewiesen werden kann. Auf diese Weise muss der für den Entwurf verantwortliche Benutzer die Server in einem Pool nicht einzeln bearbeiten. Beispiel:
 
-1.  Doppelklicken Sie auf die Front-End-Server im Pool. Wählen Sie im nun geöffneten Dialogfeld die Option **Möchten Sie IP-Adressen und FQDN als Startpunkte für alle äquivalenten Server im Cluster verwenden?**.
+1.  Machen Sie einen Doppelklick auf die Front-End-Server im Pool. Wählen Sie im nun geöffneten Dialogfeld die Option **Möchten Sie IP-Adressen und FQDN als Startpunkte für alle äquivalenten Server im Cluster verwenden?**.
 
 2.  Beispielsweise lautet der Startwert für den ersten Server "fe0101.contoso.net", und die IP-Adresse ist auf "192.168.21.222" festgelegt.
 
-3.  Geben Sie in **FQDN des Front-End-Servers** den Wert **fe0.contoso.net** ein, geben Sie in **IP-Adresse des Front-End-Servers** die Adresse **192.168.21.131** ein, und klicken Sie auf **OK**.
+3.  Geben Sie in **FQDN des Front-End-Servers** den Wert **fe0.contoso.com** und in **IP-Adresse des Front-End-Servers** die Adresse **192.168.21.131** ein und klicken Sie anschließend auf **OK**.
 
 4.  Die Funktion zur automatischen inkrementellen Erhöhung aktualisiert alle Server im Pool von "fe01" bis "fe06" und alle IP-Adressen von 192.168.21.131 bis 136.
 
 Nachdem Sie die Bearbeitung abgeschlossen haben, speichern Sie die Topologie, indem Sie folgende Schritte ausführen:
 
-Klicken Sie auf **Datei**, und klicken Sie dann auf **Topologie speichern** oder **Topologie speichern unter**, um den im Planungstool erstellten Entwurf zu speichern. Wenn ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein, und klicken Sie dann auf **Speichern**.
+Wenn Sie das Planungs Tool Design speichern möchten, klicken Sie auf **Datei**, und klicken Sie dann auf **Topologie speichern** oder **Topologie speichern**unter. Falls ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein und klicken Sie auf **Speichern**.
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a>Siehe auch
 
-[Bearbeiten des Entwurfs in Lync Server 2013](lync-server-2013-editing-the-design.md)
+
+[Bearbeiten des Entwurfs in Lync Server 2013](lync-server-2013-editing-the-design.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

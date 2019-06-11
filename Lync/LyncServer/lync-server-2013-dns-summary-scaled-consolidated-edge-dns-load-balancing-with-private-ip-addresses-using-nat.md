@@ -1,78 +1,108 @@
-﻿---
-title: 'Lync Server 2013: DNS-Zusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT'
-TOCTitle: DNS-Zusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT
-ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398201(v=OCS.15)
-ms:contentKeyID: 49293221
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS-Zusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
+ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398201(v=OCS.15)
+ms:contentKeyID: 48183447
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7476f258ddd70adad7f200db90b39438a19f4f84
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832367"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS-Zusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2017-03-09_
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>DNS-Zusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013
 
-Die Anforderungen für DNS-Einträge für den Remotezugriff auf Lync Server 2013 sind im Vergleich zu den Anforderungen für Zertifikate und Ports recht einfach. Darüber hinaus sind viele Einträge optional, je nachdem, wie Sie Clients, auf denen Lync 2013 ausgeführt wird, konfigurieren und ob Sie einen Partnerverbund aktivieren.
+</div>
 
-Ausführliche Informationen zu den DNS-Anforderungen für Lync 2013 finden Sie unter [Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+<div id="mainSection">
 
-Ausführliche Informationen zur automatischen Konfiguration von Lync 2013-Clients bei nicht konfiguriertem Split-Brain-DNS finden Sie im Abschnitt "Automatische Konfiguration ohne Split-Brain-DNS" in [Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+<div id="mainBody">
 
-Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die zur Unterstützung einer Topologie mit einem einzelnen konsolidierten Edgeserver erforderlich ist, wie sie in der Abbildung "Topologie mit einem einzelnen konsolidierten Edgeserver" gezeigt wird. Beachten Sie, dass bestimmte DNS-Einträge nur für die automatische Konfiguration von Lync 2013-Clients erforderlich sind. Wenn Sie Lync-Clients mithilfe von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) konfigurieren möchten, sind die zugeordneten Einträge nicht erforderlich.
+<span> </span>
 
-## WICHTIG: Netzwerkadapteranforderungen für Edgeserver
+_**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
-Zur Vermeidung von Routingproblemen müssen Sie sicherstellen, dass mindestens zwei Netzwerkadapter auf den Edgeservern vorhanden sind, und dass das Standardgateway nur für den Netzwerkadapter konfiguriert wurde, der der externen Schnittstelle zugeordnet ist. Wie in der Abbildung "Skaliertes konsolidiertes Edgeszenario" unter [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md) gezeigt, würde das Standardgateway beispielsweise auf die externe Firewall zeigen.
+Die Anforderungen für den DNS-Eintrag für den Remotezugriff auf lync Server 2013 sind im Vergleich zu Zertifikaten und Ports relativ einfach. Darüber hinaus sind viele Datensätze optional, je nachdem, wie Sie Clients mit lync 2013 konfigurieren und ob Sie die Föderation aktivieren.
 
-Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen konfigurieren:
+Details zu den DNS-Anforderungen von lync 2013 finden Sie unter [Ermitteln der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-  - **Netzwerkadapter 1 - Knoten 1 (interne Schnittstelle)**
+Ausführliche Informationen zum Konfigurieren der automatischen Konfiguration von lync 2013-Clients, wenn das Split-Brain-DNS nicht konfiguriert ist, finden Sie im Abschnitt "automatische Konfiguration ohne geteilten Brain-DNS" unter [Ermitteln der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+
+Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die für die Unterstützung der einzelnen konsolidierten Edge-Topologie erforderlich sind, die in der einzelnen konsolidierten Edge-Topologie-Abbildung dargestellt ist. Beachten Sie, dass bestimmte DNS-Einträge nur für die automatische Konfiguration von lync 2013-Clients erforderlich sind. Wenn Sie beabsichtigen, Gruppenrichtlinienobjekte (Group Policy Objects, GPOs) zum Konfigurieren von lync-Clients zu verwenden, sind die zugehörigen Datensätze nicht erforderlich.
+
+<div>
+
+## <a name="important-edge-server-network-adapter-requirements"></a>Wichtig: Anforderungen des Edge-Server-Netzwerkadapters
+
+Um Routingprobleme zu vermeiden, stellen Sie sicher, dass Ihre Edgeserver mindestens zwei Netzwerkadapter aufweisen und dass das Standardgateway nur auf dem Netzwerkadapter festgesetzt ist, der der externen Schnittstelle zugeordnet ist. Beispielsweise würde das Standardgateway auf die externe Firewall verweisen, wie es in der Szenariogröße des skalierten konsolidierten Rands in der [skalierten konsolidierten Kante, dem DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT in lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)gezeigt wird.
+
+Sie können zwei Netzwerkadapter auf jedem Edgeserver wie folgt konfigurieren:
+
+  - **Netzwerkadapter 1 – Knoten 1 (interne Schnittstelle)**
     
-    Interne Schnittstelle mit zugewiesener Adresse 172.25.33.10.
+    Interne Schnittstelle mit zugewiesenem 172.25.33.10
     
-    Es ist kein Standardgateway definiert.
+    Es wurde kein Standardgateway definiert.
     
-    Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu beliebigen Netzwerken mit Servern vorhanden ist, auf denen Lync Server 2013- oder Lync Server 2013-Clients ausgeführt werden (z. B. von 172.25.33.0 zu 192.168.10.0).
+    Stellen Sie sicher, dass eine Route vom Netzwerk mit der Edge-internen Schnittstelle zu allen Netzwerken vorhanden ist, die Server mit lync Server 2013-oder lync Server 2013-Clients enthalten (beispielsweise von 172.25.33.0 bis 192.168.10.0).
 
-  - **Netzwerkadapter 1 - Knoten 2 (interne Schnittstelle)**
+  - **Netzwerkadapter 1 – Knoten 2 (interne Schnittstelle)**
     
-    Interne Schnittstelle mit zugewiesener Adresse 172.25.33.11.
+    Interne Schnittstelle mit zugewiesenem 172.25.33.11
     
-    Es ist kein Standardgateway definiert.
+    Es wurde kein Standardgateway definiert.
     
-    Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu beliebigen Netzwerken mit Servern vorhanden ist, auf denen Lync Server 2013- oder Lync Server 2013-Clients ausgeführt werden (z. B. von 172.25.33.0 zu 192.168.10.0).
+    Stellen Sie sicher, dass eine Route vom Netzwerk mit der Edge-internen Schnittstelle zu allen Netzwerken vorhanden ist, die Server mit lync Server 2013-oder lync Server 2013-Clients enthalten (beispielsweise von 172.25.33.0 bis 192.168.10.0).
 
-  - **Netzwerkadapter 2 - Knoten 1 (externe Schnittstelle)**
+  - **Netzwerkadapter 2 Knoten 1 (externe Schnittstelle)**
     
-    Diesem Netzwerkadapter sind drei private IP-Adressen zugeordnet, z. B. "10.45.16.10" für den Zugriffsedge, "10.45.16.20" für Webkonferenzedge und "10.45.16.30" für AV-Edge.
+    Diesem Netzwerkadapter werden drei private IP-Adressen zugewiesen, beispielsweise 10.45.16.10 für Access Edge, 10.45.16.20 for Web Conferencing Edge, 10.45.16.30 für AV Edge.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Es ist möglich, eine einzelne IP-Adresse für alle drei Edgedienstschnittstellen zu verwenden. Dies wird jedoch nicht empfohlen. Obwohl Sie dadurch IP-Adressen sparen können, sind für jeden Dienst andere Portnummern erforderlich. Die Standardportnummer lautet 443/TCP. Dadurch wird sichergestellt, dass die meisten Remotefirewalls den Datenverkehr zulassen. Eine Änderung der Portwerte in (beispielsweise) 5061/TCP für den Zugriffs-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den AV-Edgedienst kann zu Problemen für Remotebenutzer führen, wenn eine Firewall, hinter der sie sich befinden, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Zudem wird die Fehlerbehebung bei Verwendung von drei eindeutiger IP-Adressen vereinfacht, da in diesem Fall nach IP-Adressen gefiltert werden kann.
+    > [!NOTE]  
+    > Es ist jedoch möglich, eine einzige IP-Adresse für alle drei Edge-Service-Interfaces zu verwenden. Obwohl dadurch IP-Adressen gespeichert werden, sind für jeden Dienst unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, wodurch sichergestellt wird, dass die meisten Remote Firewalls den Datenverkehr zulassen. Das Ändern der Portwerte in (zum Beispiel) 5061/TCP für den Access-Edge, 444/TCP für den Webkonferenz-Edge und 443/TCP für den AV-Edge kann zu Problemen bei Remotebenutzern führen, bei denen eine Firewall, die Sie behindern, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Darüber hinaus erleichtern drei unterschiedliche IP-Adressen die Problembehandlung, da Sie nach IP-Adressen filtern können.
 
     
-    Die öffentliche IP-Adresse des Zugriffs-Edgeservers ist als primär, das Standardgateway ist auf den integrierten Router festgelegt (10.45.16.1).
+    </div>
     
-    Private Webkonferenz- und A/V-Edge-IP-Adressen sind zusätzliche IP-Adressen im Abschnitt **Erweitert** der Eigenschaften von **Internetprotokoll Version 4 (TCP/IPv4)** und **Internetprotokoll Version 6 (TCP/IPv6)** der **Eigenschaften von LAN-Verbindung** in Windows Server.
-
-  - **Netzwerkadapter 2 - Knoten 2 (externe Schnittstelle)**
+    Die öffentliche IP-Adresse des Zugriffs Rands ist primär mit dem Standardgateway auf den integrierten Router (10.45.16.1) eingestellt.
     
-    Diesem Netzwerkadapter sind drei private IP-Adressen zugeordnet, z. B. "10.45.16.11" für den Zugriffsedge, "10.45.16.21" für Webkonferenzedge und "10.45.16.31" für AV-Edge.
+    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol, Version 4 (TCP/IPv4)** und **Internetprotokoll, Version 6 (TCP/IPv6)** des **lokalen Bereichs Verbindungseigenschaften** in Windows Server
+
+  - **Netzwerkadapter 2 Knoten 2 (externe Schnittstelle)**
     
-    Die öffentliche IP-Adresse des Zugriffs-Edgeservers ist als primär, das Standardgateway ist auf den integrierten Router festgelegt (10.45.16.1).
+    Diesem Netzwerkadapter werden drei private IP-Adressen zugewiesen, beispielsweise 10.45.16.11 für Access Edge, 10.45.16.21 for Web Conferencing Edge, 10.45.16.31 für AV Edge.
     
-    Private Webkonferenz- und A/V-Edge-IP-Adressen sind zusätzliche IP-Adressen im Abschnitt **Erweitert** der Eigenschaften von **Internetprotokoll Version 4 (TCP/IPv4)** und **Internetprotokoll Version 6 (TCP/IPv6)** der **Eigenschaften von LAN-Verbindung** in Windows Server.
+    Die öffentliche IP-Adresse des Zugriffs Rands ist primär mit dem Standardgateway auf den integrierten Router (10.45.16.1) eingestellt.
+    
+    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol, Version 4 (TCP/IPv4)** und **Internetprotokoll, Version 6 (TCP/IPv6)** des **lokalen Bereichs Verbindungseigenschaften** in Windows Server
+
+<div>
 
 
-> [!TIP]
-> Das Konfigurieren von zwei Netzwerkadaptern für den Edgeserver ist eine von zwei möglichen Optionen. Die andere Option besteht darin, einen einzigen Netzwerkadapter für die interne Schnittstelle und drei Netzwerkadapter für die externe Schnittstelle des Edgeservers zu verwenden. Der wichtigste Vorteil dieser Option ist ein separater Netzwerkadapter pro Edgeserverdienst und eine möglicherweise präzisere Datenerfassung, falls eine Problembehandlung erforderlich ist.
+> [!TIP]  
+> Die Konfiguration des Edge-Servers mit zwei Netzwerkadaptern ist eine von zwei Optionen. Die andere Option besteht darin, einen Netzwerkadapter für die interne Seite und drei Netzwerkadapter für die externe Seite des Edge-Servers zu verwenden. Der Hauptvorteil dieser Option ist ein eindeutiger Netzwerkadapter pro Edgeserver und eine potenziell genauere Datensammlung, wenn eine Problembehandlung erforderlich ist.
 
 
 
-### Erforderliche DNS-Einträge für eine skalierte konsolidierte Edgetopologie, DNS-Lastenausgleich mit privaten IP-Adressen und Verwendung der Netzwerkadressenübersetzung (NAT) (Beispiel)
+</div>
+
+### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-example"></a>DNS-Einträge für den skalierten konsolidierten Edge, DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT (Beispiel)
 
 <table>
 <colgroup>
@@ -83,54 +113,58 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/TYP/Port</th>
+<th>Ort/Typ/Port</th>
 <th>FQDN/DNS-Eintrag</th>
 <th>IP-Adresse/FQDN</th>
-<th>Zugeordnet zu/Kommentar</th>
+<th>Karten/Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10 und 131.107.155.11</p></td>
-<td><p>Externe Schnittstelle des Zugriffs-Edgeservers (Contoso). Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p></td>
+<td><p>Access Edge External Interface (Contoso) wiederholen Sie diese nach Bedarf für alle SIP-Domänen mit lync-aktivierten Benutzern.</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20 und 131.107.155.21</p></td>
-<td><p>Externe Schnittstelle des Edgeservers für Webkonferenzen</p></td>
+<td><p>Externe Schnittstelle für Webkonferenz-Edge</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>av.contoso.com</p></td>
 <td><p>131.107.155.30 und 131.107.155.31</p></td>
-<td><p>Externe Schnittstelle des A/V-Edgeservers</p></td>
+<td><p>Externe Schnittstelle A/V Edge</p></td>
 </tr>
 <tr class="even">
-<td><p>Externes DNS/SRV/443</p></td>
+<td><p>Externer DNS/SRV/443</p></td>
 <td><p>_sip._tls.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Externe Schnittstelle des Zugriffs-Edgeservers. Für die externe Funktion der automatischen Konfiguration von Lync 2013- und Lync 2010-Clients erforderlich. Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p></td>
+<td><p>Access Edge-externe Schnittstelle. Erforderlich für die automatische Konfiguration von lync 2013-und lync 2010-Clients, um extern zu arbeiten. Wiederholen Sie diese Schritte für alle SIP-Domänen mit lync-aktivierten Benutzern.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externes DNS/SRV/5061</p></td>
+<td><p>Externer DNS/SRV/5061</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Externe SIP-Zugriffs-Edgeschnittstelle. Erforderlich für die automatische DNS-Suche von Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet). Wiederholen Sie den Vorgang ggf. für alle internen SIP-Domänen mit für Lync aktivierten Benutzern.</p></td>
+<td><p>Externe SIP-Access-Edge-Schnittstelle. Erforderlich für die automatische DNS-Ermittlung von Verbundpartnern, die als "zugelassene SIP-Domäne" bezeichnet werden (genannt Enhanced Federation in früheren Versionen). Wiederholen Sie diese Schritte für alle SIP-Domänen mit lync-aktivierten Benutzern.</p></td>
 </tr>
 <tr class="even">
 <td><p>Internes DNS/A</p></td>
 <td><p>lsedge.contoso.net</p></td>
 <td><p>172.25.33.10 und 172.25.33.11</p></td>
-<td><p>Interne Schnittstelle des konsolidierten Edgeservers</p></td>
+<td><p>Konsolidierte Edge-Schnittstelle</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Erforderliche Einträge für den Partnerverbund
+</div>
+
+<div>
+
+## <a name="records-required-for-federation"></a>Für den Verbund erforderliche Datensätze
 
 
 <table>
@@ -142,22 +176,22 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/TYP/Port</th>
+<th>Ort/Typ/Port</th>
 <th>FQDN</th>
 <th>IP-Adresse/FQDN-Hosteintrag</th>
-<th>Zugeordnet zu/Kommentar</th>
+<th>Karten/Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externes DNS/SRV/5061</p></td>
+<td><p>Externer DNS/SRV/5061</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Externe Schnittstelle des SIP-Zugriffs-Edgeservers. Erforderlich für die automatische DNS-Suche Ihres Verbunds nach weiteren potenziellen Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet). Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p>
+<td><p>Die externe SIP-Schnittstelle für die automatische DNS-Erkennung Ihres Verbandes zu anderen potenziellen Verbundpartnern ist erforderlich und wird als "zugelassene SIP-Domänen" bezeichnet (so genannte erweiterte Föderation in früheren Versionen). Wiederholen Sie diese Schritte für alle SIP-Domänen mit lync-aktivierten Benutzern.</p>
 <div>
 
-> [!IMPORTANT]
-> Dieser SRV-Eintrag ist für die Mobilität und das Clearing House für Pushbenachrichtigungen erforderlich
+> [!IMPORTANT]  
+> Dieser SRV-Eintrag ist für Mobilität und das Clearinghaus für Push-Benachrichtigungen erforderlich.
 
 
 </div></td>
@@ -166,7 +200,11 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 </table>
 
 
-## DNS-Zusammenfassung - Verbindung mit öffentlichen Chatdiensten
+</div>
+
+<div>
+
+## <a name="dns-summary--public-instant-messaging-connectivity"></a>DNS-Zusammenfassung – öffentliche Instant Messaging-Konnektivität
 
 
 <table>
@@ -178,24 +216,28 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/TYP/Port</th>
+<th>Ort/Typ/Port</th>
 <th>FQDN/DNS-Eintrag</th>
 <th>IP-Adresse/FQDN</th>
-<th>Zugeordnet zu/Kommentar</th>
+<th>Karten/Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Zugriffs-Edgedienst-Schnittstelle</p></td>
-<td><p>Externe Schnittstelle des Zugriffs-Edgeservers (Contoso). Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p></td>
+<td><p>Access Edge Service-Schnittstelle</p></td>
+<td><p>Access Edge External Interface (Contoso) wiederholen Sie diese nach Bedarf für alle SIP-Domänen mit lync-aktivierten Benutzern.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## DNS-Zusammenfassung für XMPP (Extensible Messaging and Presence Protocol)
+</div>
+
+<div>
+
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>DNS-Zusammenfassung für erweiterbares Messaging und Anwesenheits Protokoll
 
 
 <table>
@@ -207,25 +249,38 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/TYP/Port</th>
+<th>Ort/Typ/Port</th>
 <th>FQDN</th>
 <th>IP-Adresse/FQDN-Hosteintrag</th>
-<th>Zugeordnet zu/Kommentar</th>
+<th>Karten/Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externes DNS/SRV/5269</p></td>
+<td><p>Externer DNS/SRV/5269</p></td>
 <td><p>_xmpp-server._tcp.contoso.com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Externe Schnittstelle des XMPP-Proxys für den Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie den Vorgang ggf. für alle internen SIP-Domänen mit für Lync aktivierten Benutzern, bei denen der Kontakt mit XMPP-Kontakten über die Konfiguration der externen Zugriffsrichtlinie per globaler Richtlinie, Richtlinie des Standorts, an dem sich der Benutzer befindet, oder per Benutzerrichtlinie zulässig ist, die auf den für Lync aktivierten Benutzer angewendet wird. Eine zulässige XMPP-Domäne muss zudem in der XMPP-Verbundpartnerrichtlinie konfiguriert werden. Siehe Themen in <strong>Siehe auch</strong> für weitere Einzelheiten</p></td>
+<td><p>XMPP-Proxy-externe Schnittstelle im Access Edge-Dienst oder Edge-Pool. Wiederholen Sie diese Schritte für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen der Kontakt mit XMPP-Kontakten durch die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Website Richtlinie, in der sich der Benutzer befindet, oder auf die Benutzerrichtlinie angewendet wird, die auf die Lync-fähiger Benutzer. Eine zulässige XMPP-Domäne muss auch in der XMPP-Föderationspartner-Richtlinie konfiguriert werden. Weitere Informationen finden Sie in den Themen unter <strong>Siehe auch</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS-Eintrag/A</p></td>
+<td><p>Externer DNS/A</p></td>
 <td><p>xmpp.contoso.com (Beispiel)</p></td>
-<td><p>IP-Adresse des Zugriffs-Edgediensts auf Ihrem Edgeserver oder Edgepool, von dem der XMPP-Proxy gehostet wird</p></td>
-<td><p>Verweist auf den Zugriffs-Edgedienst oder Edgepool, von dem der XMPP-Proxydienst gehostet wird. In der Regel verweist der von Ihnen erstellte SRV-Eintrag auf diesen Hosteintrag (A oder AAAA).</p></td>
+<td><p>IP-Adresse des Zugriffs-Edgedienst auf dem Edgeserver oder Edge-Pool, der XMPP-Proxy hostet</p></td>
+<td><p>Verweist auf den Access Edge-Dienst oder den Edge-Pool, der den XMPP-Proxydienst hostet. In der Regel verweist der von Ihnen erstellte SRV-Eintrag auf diesen Host-Eintrag (a oder AAAA).</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

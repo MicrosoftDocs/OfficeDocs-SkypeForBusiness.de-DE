@@ -1,60 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Richtlinien für die Vermittlungsserverbereitstellung'
-TOCTitle: Richtlinien für die Vermittlungsserverbereitstellung
-ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398622(v=OCS.15)
-ms:contentKeyID: 49294527
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellungsrichtlinien für den Vermittlungsserver'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment guidelines for Mediation Server
+ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
+ms:contentKeyID: 48184606
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 400f8cceeb86d407297b3f564c01266a477ca0ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832495"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Richtlinien für die Vermittlungsserverbereitstellung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Bereitstellungsrichtlinien für den Vermittlungsserver in lync Server 2013
 
-In diesem Thema werden einige Richtlinien für die Planung einer Vermittlungsserver-Bereitstellung beschrieben. Nachdem Sie diese Richtlinien gelesen haben, sollten Sie das Planungstool zum Erstellen und Anzeigen möglicher alternativer Topologien verwenden, die als Modelle für Ihre endgültige, individuell angepasste Bereitstellungstopologie dienen können.
+</div>
 
-## Verbundene Vermittlungsserver im Vergleich zu eigenständigen Vermittlungsservern
+<div id="mainSection">
 
-Der Vermittlungsserver ist standardmäßig mit anderen Servern auf dem Standard Edition-Server oder Front-End-Server in einem Front-End-Pool an zentralen Standorten verbunden. Die Anzahl von Anrufen über das Telefonfestnetz (Public Switched Telephone Network, PSTN), die verarbeitet werden können, und die Anzahl von erforderlichen Computern im Pool hängt von folgenden Faktoren ab:
+<div id="mainBody">
 
-  - Anzahl von Gatewaypeers, die der Vermittlungsserverpool steuert
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
+
+In diesem Thema werden Planungsrichtlinien für die Vermittlungs Server Bereitstellung beschrieben. Nachdem Sie diese Richtlinien überprüft haben, empfehlen wir, dass Sie das Planungs Tool verwenden, um mögliche Alternative Topologien zu erstellen und anzuzeigen, die als Modelle dafür dienen können, wie die endgültige, von Ihnen bereitzustellende Topologie aussehen würde.
+
+<div>
+
+## <a name="collocated-or-stand-alone-mediation-server"></a>Oder eigenständigen Vermittlungs Server?
+
+Der Vermittlungsserver befindet sich standardmäßig auf dem Standard Edition-Server oder Front-End-Server in einem Front-End-Pool an zentralen Standorten. Die Anzahl von Anrufen über das Telefonfestnetz (Public Switched Telephone Network, PSTN), die verarbeitet werden können, und die Anzahl erforderlicher Computer im Pool hängt von folgenden Faktoren ab:
+
+  - Die Anzahl der Gateway-Peers, die vom Vermittlungs Server Pool gesteuert werden
 
   - Datenverkehr zu Spitzenzeiten, der über diese Gateways verarbeitet wird
 
-  - Der Prozentsatz an Anrufen, deren Medien den Vermittlungsserver umgehen
+  - Der Prozentsatz der Anrufe, deren Medien den Vermittlungs Server umgehen
 
-Berücksichtigen Sie bei der Planung unbedingt die Medienverarbeitungsanforderungen für PSTN-Anrufe und für A/V-Konferenzen, die nicht für eine Medienumgehung konfiguriert sind, sowie die erforderliche Leistung zur Verarbeitung von Signalinteraktionen für die Anzahl von Anrufen zu Spitzenzeiten, die unterstützt werden müssen. Wenn nicht genügend CPU-Kapazität verfügbar ist, müssen Sie einen eigenständigen Pool aus Vermittlungsserver bereitstellen, und PSTN-Gateways, IP-Nebenstellenanlagen und SBCs müssen in Teilmengen gegliedert werden, die von den verbundenen Vermittlungsserver in einem Pool und den eigenständigen Vermittlungsserver in einem oder mehreren eigenständigen Pools gesteuert werden.
+Berücksichtigen Sie bei der Planung unbedingt die Medienverarbeitungsanforderungen für PSTN-Anrufe und für A/V-Konferenzen, die nicht für eine Medienumgehung konfiguriert sind, sowie die erforderliche Leistung zur Verarbeitung von Signalinteraktionen für die Anzahl von Anrufen zu Spitzenzeiten, die unterstützt werden müssen. Wenn nicht genügend CPU vorhanden ist, müssen Sie einen eigenständigen Pool von Vermittlungsservern bereitstellen. und PSTN-Gateways, IP-PBX-Anlagen und SBCS müssen in Teilmengen aufgeteilt werden, die von den zusammengefassten Vermittlungsservern in einem Pool und den eigenständigen Vermittlungsservern in einem oder mehreren eigenständigen Pools gesteuert werden.
 
-Bei Bereitstellung von PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs (Session Border Controller) ohne Unterstützung für die erforderlichen Funktionen zur Interaktion mit einem Pool aus Vermittlungsserver (u. a. die im Folgenden aufgeführten) müssen diese Komponenten einem eigenständigen Pool mit nur einem einzelnen Vermittlungsserver zugeordnet werden:
+Wenn Sie PSTN-Gateways, IP-PBX-Anlagen oder SBCS (Session Border Controllers) bereitgestellt haben, die nicht die richtigen Funktionen für die Interaktion mit einem Pool von Mediations Servern, einschließlich der folgenden, unterstützen, müssen Sie einem eigenständigen Pool zugeordnet sein, bestehend aus eines einzelnen Vermittlungsservers:
 
-  - Durchführen von DNS-Lastenausgleich (Domain Name System) in der Vermittlungsschicht für die Vermittlungsserver in einem Pool (oder anderweitige einheitliche Weiterleitung des Datenverkehrs an alle Vermittlungsserver in einem Pool)
+  - Durchführen von DNS (Domain Name System)-Lastenausgleich auf Netzwerkebene über Vermittlungsserver in einem Pool (oder anderweitiges Weiterleiten des Datenverkehrs an alle Vermittlungsserver in einem Pool)
 
-  - Akzeptieren von Datenverkehr von jedem Vermittlungsserver in einem Pool
+  - Akzeptieren von Datenverkehr von einem beliebigen Vermittlungs Server in einem Pool
 
-Sie können mithilfe des Microsoft Lync Server 2013, Planungstools herausfinden, ob der Vermittlungsserver, den Sie mit Ihrem Front-End-Pool verbinden möchten, die Last bewältigen kann. Falls Ihre Umgebung diese Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen Vermittlungsserverpool bereitstellen.
+Sie können das Planungs Tool Microsoft lync Server 2013 verwenden, um zu evaluieren, ob abstimmen dem Vermittlungsserver mit dem Front-End-Pool die Last verarbeiten kann. Wenn Ihre Umgebung diese Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen Vermittlungs Server Pool bereitstellen.
 
-## Überlegungen zum zentralen Standort und Zweigstellenstandort
+</div>
 
-Vermittlungsserver am zentralen Standort können zum Weiterleiten von Anrufen für IP-Nebenstellenanlagen oder PSTN-Gateways an Zweigstellenstandorten verwendet werden. Bei der Bereitstellung von SIP-Trunks müssen Sie jedoch einen Vermittlungsserver an dem Standort bereitstellen, der als Endpunkt für die einzelnen Trunks dient. Beim Einsatz eines Vermittlungsservers am zentralen Standort zum Weiterleiten von Anrufen für eine IP-Nebenstellenanlage oder ein PSTN-Gateway an einem Zweigstellenstandort ist keine Medienumgehung erforderlich. Wenn Sie die Medienumgehung jedoch aktivieren können, wird die Latenz für den Medienpfad reduziert und somit eine bessere Medienqualität erreicht, da der Medienpfad nicht länger dem Signalpfad folgen muss. Zudem wird durch die Medienumgehung die Verarbeitungslast des Pools verringert.
+<div>
 
+## <a name="central-site-and-branch-site-considerations"></a>Überlegungen zum zentralen Standort und Zweigstellenstandort
 
-> [!NOTE]
-> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur für die Produkte und Versionen unterstützt, die auf der Webseite für das Unified Communications Open Interoperability Program \endash Lync Server unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268730">http://go.microsoft.com/fwlink/?linkid=268730</A> aufgelistet werden.
+Vermittlungsserver am zentralen Standort können verwendet werden, um Anrufe für IP-PBX-oder PSTN-Gateways an Zweigstellen zu leiten. Wenn Sie jedoch SIP-Trunks bereitstellen, müssen Sie einen Vermittlungs Server an der Website bereitstellen, auf der jeder trunk beendet wird. Die Verwendung eines Vermittlungsservers an der zentralen Standort Route für Anrufe an ein IP-PBX-oder PSTN-Gateway an einer Zweigstelle erfordert keine medienumgehung. Wenn Sie jedoch die medienumgehung aktivieren können, wird dadurch die Latenz des Medien Pfads verringert und dadurch die Medienqualität verbessert, da der Medienpfad nicht mehr dem Signalisierungs Pfad folgen muss. Zudem wird durch die Medienumgehung die Verarbeitungslast des Pools verringert.
 
-
-
-Wenn Ausfallsicherheit für Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch-Anwendung oder eine Kombination aus einem Front-End-Server, einem Vermittlungsserver und einem Gateway am Zweigstellenstandort bereitgestellt werden. (Bei der Ausfallsicherheit für Zweigstellenstandorte wird davon ausgegangen, dass am jeweiligen Standort keine Ausfallsicherheit für Anwesenheitsinformationen und Konferenzfunktionen implementiert ist.) Anleitungen zur VoIP-Planung für Zweigstellen finden Sie unter [Planen von VoIP-Ausfallsicherheit für Zweigstellen in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
-
-Wenn bei Interaktionen mit einer IP-Nebenstellenanlage die IP-Nebenstellenanlage frühe Medieninteraktionen mit mehreren frühen Dialogen und RFC 3960-Interaktionen nicht ordnungsgemäß unterstützt, werden die ersten Grußworte bei eingehenden Anrufen von der IP-Nebenstellenanlage an Lync-Endpunkte möglicherweise abgeschnitten. Dieses Verhalten kann verstärkt werden, wenn ein Vermittlungsserver an einem zentralen Standort Anrufe für eine IP-Nebenstellenanlage weiterleitet und die Route an einem Zweigstellenstandort endet. Dies ist dadurch begründet, dass mehr Zeit zur Übertragung des Signaldatenverkehrs benötigt wird. Wenn dieses Verhalten auftritt, ist die Bereitstellung eines Vermittlungsservers am Zweigstellenstandort die einzige Möglichkeit, um das Abschneiden der ersten Grußworte zu reduzieren.
-
-Wenn der zentrale Standort über eine TDM-Nebenstellenlage verfügt oder die Notwendigkeit eines PSTN-Gateways durch die IP-Nebenstellenanlage nicht eliminiert wird, müssen Sie ein Gateway zur Anrufroute hinzufügen, das mit dem Vermittlungsserver und der Nebenstellenanlage verbunden ist.
+<div>
 
 
-> [!NOTE]
-> Um die Medienqualität von eigenständigen Vermittlungsservern zu verbessern, sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter dieser Server aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Für ausführliche Informationen lesen Sie "Receive-Side Scaling Enhancements in Windows Server" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268731">http://go.microsoft.com/fwlink/?linkid=268731</A>. Weitere Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> [!NOTE]  
+> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>lync Server unter aufgeführt sind.
 
+
+
+</div>
+
+Wenn die Stabilität des Zweigstellen Standorts erforderlich ist, muss eine Survivable Branch-Appliance oder eine Kombination aus einem Front-End-Server, einem Vermittlungsserver und einem Gateway an der Zweigstelle bereitgestellt werden. (Die Annahme, dass die Stabilität des Zweigstellen Standorts davon ausgeht, dass Anwesenheit und Konferenzen auf der Website nicht belastbar sind.) Anleitungen zur Planung von Zweigstellen für Sprachanrufe finden Sie unter [Planen der sprach Sicherheit in der Zweigstelle in lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+
+Für Interaktionen mit einer IP-PBX-Anlage, wenn die IP-Telefonanlage nicht ordnungsgemäß frühe Medien Interaktionen mit mehreren frühen Dialogfeldern und RFC 3960-Interaktionen unterstützt, können die ersten Wörter der Ansage für eingehende Anrufe von der IP-PBX zu lync-Endpunkten abgeschnitten werden. Dieses Verhalten kann gravierender sein, wenn ein Vermittlungs Server an einem zentralen Standort Routing Anrufe für eine IP-PBX-Anlage durchführt, bei der die Route an einer Zweigstelle beendet wird, da für die Signalisierungs Ausführung mehr Zeit benötigt wird. Wenn dieses Verhalten auftritt, ist die Bereitstellungeines Vermittlungsservers auf der Verzweigungs Website die einzige Möglichkeit, das Clipping der ersten Wörter zu reduzieren.
+
+Wenn Ihre zentrale Website über eine TDM-Telefonanlage verfügt oder wenn Ihre IP-Telefonanlage nicht die Notwendigkeit eines PSTN-Gateways beseitigt, müssen Sie ein Gateway auf der Anrufroute bereitstellen, die den Vermittlungs Server und die Telefonanlage verbindet.
+
+<div>
+
+
+> [!NOTE]  
+> Um die Medienqualität von eigenständigen Vermittlungsservern zu verbessern, sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter dieser Server aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>Skalierung in Windows Server" unter. Weitere Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

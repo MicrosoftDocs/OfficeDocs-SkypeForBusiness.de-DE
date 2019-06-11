@@ -1,21 +1,43 @@
-﻿---
-title: Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe
-TOCTitle: Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe
-ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520955(v=OCS.15)
-ms:contentKeyID: 49293279
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Löschen von Einwahlkonferenz-PIN-Einstellungen für eine Website oder eine Gruppe von Benutzern
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete dial-in conferencing PIN settings for a site or group of users
+ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520955(v=OCS.15)
+ms:contentKeyID: 48183498
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 488970df9e85bdbf8e3f2d8cbe21965eaf3c621c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832608"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a>Löschen von Einwahlkonferenz-PIN-Einstellungen für eine Website oder eine Benutzergruppe in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-18_
 
-Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu löschen.
+Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzerebene oder Websiteebene zu löschen.
+
+<div>
 
 
 > [!NOTE]
@@ -23,17 +45,33 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
 
 
 
-## So löschen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene
+</div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+<div>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-delete-a-user-or-site-pin-policy"></a>So löschen Sie eine Benutzer-oder Website-PIN-Richtlinie
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **PIN-Richtlinie**.
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
-4.  Geben Sie auf der Seite **PIN-Richtlinie** im Suchfeld Teile oder den vollständigen Namen der Richtlinie ein, die Sie löschen möchten.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **PIN-Richtlinie**.
+
+4.  Geben Sie auf der Seite **PIN-Richtlinie** im Suchfeld den Namen der zu löschenden Richtlinie ganz oder teilweise ein.
 
 5.  Klicken Sie in der Richtlinienliste auf die gewünschte Richtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.
 
-6.  Klicken Sie auf **OK**.
+6.  Klicken Sie anschließend auf **OK**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

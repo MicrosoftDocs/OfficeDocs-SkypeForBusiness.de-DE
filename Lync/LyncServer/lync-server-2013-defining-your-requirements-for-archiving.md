@@ -1,72 +1,113 @@
-﻿---
-title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation für die Archivierung'
-TOCTitle: Definieren der Anforderungen Ihrer Organisation für die Archivierung
-ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205276(v=OCS.15)
-ms:contentKeyID: 49295438
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation für die Archivierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your organization's requirements for Archiving
+ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)
+ms:contentKeyID: 48185462
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 75ed62d577cc6b382509f83e53088973e16b6827
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832714"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definieren der Anforderungen Ihrer Organisation für die Archivierung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definieren der Anforderungen Ihrer Organisation für die Archivierung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-09_
 
-Wenn Ihre Organisation rechtliche Vorschriften einhalten muss, können Sie zur Aktivierung der Archivierungsunterstützung für Chats und Konferenzen (Besprechungen) in Lync Server 2013 die Archivierung bereitstellen. Weitere Informationen zu Inhalten, die archiviert werden können, finden Sie unter [Übersicht über die Archivierung in Lync Server 2013](lync-server-2013-overview-of-archiving.md) in der Planungsdokumentation.
+Wenn Ihre Organisation Konformitätsrichtlinien beachten muss, können Sie die Archivierung bereitstellen, um die Archivierungsunterstützung für lync Server 2013 Instant Messaging (im) und Konferenzen (Besprechungen) zu ermöglichen. Details zu dem Inhaltstyp, der archiviert werden kann, finden Sie unter [Übersicht über die Archivierung in lync Server 2013](lync-server-2013-overview-of-archiving.md) in der Planungsdokumentation.
 
-Zum Implementieren der Archivierung müssen Sie zunächst bestimmen, wie die Archivierungsanforderungen Ihrer Organisation erfüllt werden sollen. Hierfür müssen Sie Folgendes festlegen:
+Um die Archivierung zu implementieren, müssen Sie zunächst entscheiden, wie die Anforderungen Ihrer Organisation für die Archivierung erfüllt werden. Dazu muss Folgendes festgelegt werden:
 
-  - **Wann die Archivierung bereitgestellt werden soll**. Sie können die Archivierung im Rahmen der anfänglichen Bereitstellung von Lync Server 2013 bereitstellen oder aber die Archivierung einer vorhandenen Bereitstellung hinzufügen. Zum Bereitstellen der Archivierung fügen Sie sie mit dem Topologie-Generator Ihrer Topologie hinzu und veröffentlichen anschließend die Topologie.
+  - **Zeitpunkt der Bereitstellung der Archivierung** Sie können die Archivierung im Rahmen ihrer anfänglichen lync Server 2013-Bereitstellung bereitstellen, oder Sie können Sie einer vorhandenen Bereitstellung hinzufügen. Sie stellen die Archivierung mithilfe des Topologie-Generators bereit, um Sie Ihrer Topologie hinzuzufügen und dann die Topologie zu veröffentlichen.
 
-  - **Ob die interne oder externe Kommunikation archiviert werden soll**. Sie können die Archivierung für die interne Kommunikation (die Kommunikation zwischen internen Benutzern) und/oder die externe Kommunikation (die Kommunikation, bei der mindestens ein Benutzer außerhalb Ihres internen Netzwerks beteiligt ist) aktivieren. Diese Optionen können für die gesamte Organisation oder nur für bestimmte Standorte und Pools angegeben werden. Standardmäßig ist keine dieser Optionen aktiviert.
+  - **Archivierung der internen oder externen Kommunikation**. Sie können die Archivierung für die interne Kommunikation (die Kommunikation zwischen internen Benutzern) und/oder die externe Kommunikation (Kommunikationen, an denen mindestens ein Benutzer außerhalb Ihres internen Netzwerks beteiligt ist) aktivieren. Diese Optionen können für die gesamte Organisation oder nur für bestimmte Standorte und Pools angegeben werden. Standardmäßig ist keine dieser Optionen aktiviert.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie die Microsoft Exchange-Integration zum Speichern archivierter Daten verwenden, bestimmen die Exchange-Einstellungen, ob die Lync-Kommunikation archiviert wird. Falls in Ihrer Bereitstellung mehrere Gesamtstrukturen vorhanden sind, müssen Sie die Einstellungen zwischen Lync Server und Exchange synchronisieren. Die Kontrolle der Archivierung für die interne oder externe Kommunikation ist nur für Lync-Richtlinien verfügbar. Für die integrierte Exchange-Archivierung werden beide Kommunikationstypen archiviert bzw. nicht archiviert.
+    > [!NOTE]  
+    > Wenn Sie archivierte Daten mithilfe der Microsoft Exchange-Integration speichern, steuern Ihre Exchange-Einstellungen, ob die lync-Kommunikation archiviert wird. Wenn Ihre Bereitstellung mehrere Gesamtstrukturen umfasst, müssen Sie die Einstellungen zwischen lync Server und Exchange synchronisieren. Die Steuerung der Archivierung für die interne oder externe Kommunikation ist nur für die lync-Richtlinie verfügbar. Für die Exchange-integrierte Archivierung werden beide archiviert oder nicht archiviert.
 
-
-
-  - **Warum die Archivierung aktiviert werden soll**. Sie können die Archivierung für die gesamte Bereitstellung auf globaler Ebene aktivieren bzw. deaktivieren. Die Archivierung können Sie auch für bestimmte Standorte und Benutzer aktivieren bzw. deaktivieren. Für jede Ebene geben Sie an, ob die Archivierung von Chatsitzungen (Peer-zu-Peer) und/oder Konferenzen (Besprechungen, die Sitzungen mit mehreren Teilnehmern sind) aktiviert werden soll. Standardmäßig ist die Archivierung deaktiviert.
-
-  - **Wie wichtig die Archivierung für Benutzer in Ihrer Organisation ist**. Wenn die Archivierung in Ihrer Organisation unternehmenskritisch ist, können Sie angeben, dass Lync Server 2013 im kritischen Modus ausgeführt wird. In diesem Fall werden Chat- und Konferenzsitzungen blockiert, falls bei der Archivierung ein Fehler auftritt. Beispiel:
     
-      - Wenn der Archivierungsdienst vorübergehend keine Nachrichten an die Datenbankwarteschlange senden oder keine Nachrichten in die Datenbank einfügen kann, wird sowohl die Chat- als auch die Konferenzfunktionalität in der Bereitstellung blockiert, bis die Archivierungsunterstützung wiederhergestellt ist.
+    </div>
+
+  - **Gründe**für das Aktivieren der Archivierung Sie können die Archivierung für die gesamte Bereitstellung auf globaler Ebene aktivieren und deaktivieren, und Sie können die Archivierung für bestimmte Websites und Benutzer aktivieren und deaktivieren. Auf jeder dieser Ebenen geben Sie an, ob die Archivierung von Chatsitzungen (Peer-to-Peer), Konferenzen (Besprechungen, die mehr Parteien Sitzungen sind) oder beides aktiviert werden soll. Standardmäßig ist die Archivierung deaktiviert.
+
+  - **Die kritische Archivierung für Benutzer in Ihrer Organisation**. Wenn die Archivierung in Ihrer Organisation unternehmenskritisch ist, können Sie angeben, dass lync Server 2013 im kritischen Modus ausgeführt wird, wodurch Chats und Konferenzsitzungen blockiert werden, wenn die Archivierung fehlschlägt. Beispiel:
     
-      - Wenn ein Konferenzbenutzer eine Datei hochlädt, die nicht in den Archivierungsdateispeicher kopiert werden kann, wird die Konferenzfunktionalität in der Bereitstellung blockiert, bis das Problem behoben ist. Die Chatfunktionalität wird jedoch nicht blockiert.
+      - Wenn der Archivierungsdienst vorübergehend keine Nachricht an die Datenbankwarteschlange senden oder eine Nachricht in die Datenbank einfügen kann, werden die Chat-und Konferenzfunktionen in der Bereitstellung blockiert, bis die Archivierungsunterstützung wiederhergestellt wird.
     
-    Diese Option können Sie auf globaler Ebene, Standortebene und Poolebene konfigurieren. Standardmäßig ist der kritische Modus nicht aktiviert.
-
-  - **Ob die Microsoft Exchange-Integration verwendet werden soll**. Mit dieser Option wird Archivierungsspeicher in den Speicher von Exchange 2013 integriert, damit die archivierten Daten in Lync Server und Exchange 2013 zusammen in Exchange gespeichert werden. Die Microsoft Exchange-Integration können Sie zum Speichern von Archivierungsdaten für Benutzer verwenden, die in Exchange 2013 verwaltet werden, falls für ihre Postfächer "Compliance-Archiv" festgelegt wurde. Wenn Sie nicht über eine Exchange 2013-Bereitstellung verfügen, wenn Sie diese Integration nicht wünschen, oder wenn Sie über Lync-Benutzer verfügen, die nicht in Exchange 2013 verwaltet werden, können Sie separate Archivierungsdatenbanken bereitstellen, indem Sie mithilfe von SQL Server archivierte Daten aus Lync-Kommunikationen speichern. Die Microsoft Exchange-Integration können Sie auf globaler Ebene, Standortebene und Poolebene konfigurieren. Standardmäßig ist die Microsoft Exchange-Integration nicht aktiviert.
-
-  - **Wie archivierte Daten verwaltet werden sollen**. Die Archivierungsdatenbank ist nicht für eine langfristige Aufbewahrung ausgelegt und Lync Server 2013 bietet keine E-Discovery-Lösung (Suche) für archivierte Daten, sodass Daten in einen anderen Speicher verschoben werden müssen. Lync Server stellt jedoch ein Sitzungsexporttool bereit, mit dem Sie archivierte Daten exportieren können und das durchsuchbare Aufzeichnungen der archivierten Daten erstellt. Für die globale Richtlinie sowie für jede von Ihnen erstellte Standort- und Benutzerrichtlinie können Sie das Bereinigen von Daten aktivieren und eine der folgenden Optionen angeben:
+      - Wenn ein Konferenzbenutzer eine Datei hochlädt, die Datei jedoch nicht in den Archivierungsdatei Speicher kopiert werden kann, ist die Konferenzfunktionalität in der Bereitstellung blockiert, bis das Problem behoben ist, die Chatfunktionalität aber nicht blockiert ist.
     
-      - Sowohl exportierte Archivierungsdaten als auch gespeicherte Archivierungsdaten nach einer bestimmten Anzahl von Tagen löschen. Die Mindestanzahl von Tagen beträgt 1 Tag. Die Höchstzahl von Tagen beträgt 2562 Tage.
+    Sie können diese Option auf globaler Ebene, Websiteebene und Poolebene konfigurieren. Der kritische Modus ist standardmäßig nicht aktiviert.
+
+  - **Ob Sie die Microsoft Exchange-Integration verwenden möchten**. Mit dieser Option wird der Archivierungsspeicher in Ihren Exchange 2013-Speicher integriert, sodass die archivierten Daten und Exchange 2013-Daten von lync Server in Exchange zusammen gespeichert werden. Sie können die Microsoft Exchange-Integration für die Speicherung von Archivierungsdaten für Benutzer verwenden, die sich in Exchange 2013 befinden, wenn ihre Postfächer in-situ-Speicher abgelegt wurden. Wenn Sie keine Exchange 2013-Bereitstellung haben, oder wenn Sie es vorziehen, sich nicht in die Integration zu integrieren, oder wenn Sie über lync-Benutzer verfügen, die nicht in Exchange 2013 gespeichert sind, können Sie separate Archivierungsdatenbanken mithilfe von SQL Server zum Speichern archivierter Daten aus lync Communications bereitstellen. Sie können die Microsoft Exchange-Integrations Option auf globaler Ebene, Websiteebene und Poolebene konfigurieren. Standardmäßig ist die Microsoft Exchange-Integration nicht aktiviert.
+
+  - **Wie archivierte Daten verwaltet werden sollen**. Die Archivierungsdatenbank ist nicht für die langfristige Aufbewahrung vorgesehen, und lync Server 2013 bietet keine e-Discovery-Lösung (Suche) für archivierte Daten, sodass Daten in andere Speicher verschoben werden müssen. Lync Server bietet ein Sitzungs Export Tool, mit dem Sie archivierte Daten exportieren und durchsuchbare Abschriften der archivierten Daten erstellen können. Für die globale Richtlinie und für jede von Ihnen erstellte Website-und Benutzerrichtlinie können Sie die Datenbereinigung aktivieren und eine der folgenden Optionen angeben:
     
-      - Nur exportierte Archivierungsdaten löschen. Mit dieser Option werden alle Datensätze gelöscht, die exportiert und für das Löschen durch das Exporttool für Sitzungen markiert wurden.
+      - Bereinigen Sie die exportierten Archivierungsdaten und die gespeicherten Archivierungsdaten nach einer bestimmten Anzahl von Tagen. Die Mindestanzahl von Tagen, die Sie angeben können, ist ein Tag. Die maximale Anzahl von Tagen, die Sie angeben können, ist 2562 Tage.
     
-    Diese Option können Sie auf globaler Ebene, Standortebene und Poolebene konfigurieren. Standardmäßig ist das Bereinigen nicht aktiviert.
+      - Nur exportierte Archivierungsdaten löschen. Mit dieser Option werden alle Datensätze, die exportiert und als sicher markiert wurden, vom Sitzungs Export Tool gelöscht.
+    
+    Sie können diese Option auf globaler Ebene, Websiteebene und Poolebene konfigurieren. Standardmäßig ist "bereinigen" nicht aktiviert.
 
-Die Archivierung können Sie mithilfe der folgenden Methoden steuern:
+Sie können die Archivierung mithilfe der folgenden Methoden steuern:
 
-  - **Archivierungsrichtlinien**. Sie verwenden eine oder mehrere Archivierungsrichtlinien zum Aktivieren und Deaktivieren der Archivierung interner und externer Kommunikation. Standardmäßig ist keine Archivierung aktiviert. Die Archivierung für interne Kommunikation und/oder externer Kommunikation in Ihrer Bereitstellung aktivieren oder deaktivieren Sie mithilfe der standardmäßigen globalen Richtlinie. Die globale Richtlinie kann nicht gelöscht werden. Sie können eine oder mehrere optionale Standortrichtlinien zum Aktivieren oder Deaktivieren der Archivierung für die interne und externe Kommunikation für bestimmte Standorte angeben. Darüber hinaus können Sie eine oder mehrere Benutzerrichtlinien zum Aktivieren oder Deaktivieren der Archivierung für bestimmte Benutzer und Benutzergruppen angeben. Benutzerrichtlinien haben Vorrang vor Standortrichtlinien. Standortrichtlinien haben Vorrang vor den globalen Richtlinien. Benutzerrichtlinien werden nur für die Benutzer implementiert, für die die Verwendung der Richtlinien konfiguriert ist. Gruppenchats und -konferenzen werden nur archiviert, falls für mindestens einen Teilnehmer eine Richtlinie zur Aktivierung der Archivierung vorhanden ist.
+  - **Archivierungsrichtlinien**. Sie verwenden eine oder mehrere Archivierungsrichtlinien, um die Archivierung interner und externer Kommunikation zu aktivieren und zu deaktivieren. Standardmäßig ist keine Archivierung aktiviert. Sie können die Archivierung für die interne Kommunikation, die externe Kommunikation oder beides in Ihrer Bereitstellung mithilfe der globalen Standardrichtlinie aktivieren oder deaktivieren. Sie können die globale Richtlinie nicht löschen. Sie können eine oder mehrere optionale Website Richtlinien angeben, um die Archivierung für die interne und externe Kommunikation für bestimmte Websites zu aktivieren oder zu deaktivieren. Sie können auch eine oder mehrere Benutzerrichtlinien angeben, um die Archivierung für bestimmte Benutzer und Benutzergruppen zu aktivieren oder zu deaktivieren. Richtlinien auf Benutzerebene überschreiben Website Richtlinien. Richtlinien auf Websiteebene setzen die Richtlinien auf globaler Ebene außer Kraft. Richtlinien auf Benutzerebene werden nur für bestimmte Benutzer implementiert, die für die Verwendung der Richtlinie konfiguriert sind. Gruppen-Sofortnachrichten und-Konferenzen werden nur archiviert, wenn eine Richtlinie für mindestens einen Teilnehmer so konfiguriert ist, dass die Archivierung aktiviert wird.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie die Microsoft Exchange-Integration verwenden, haben Exchange 2013-Richtlinien Vorrang vor Lync Server-Archivierungsrichtlinien für alle Benutzer, die auf den Servern mit Exchange 2013 verwaltet werden.
+    > [!NOTE]  
+    > Wenn Sie die Microsoft Exchange-Integration verwenden, überschreiben Exchange 2013-Richtlinien lync Server-Archivierungsrichtlinien für alle Benutzer, die auf den Exchange 2013-Servern verwaltet werden.
+
+    
+    </div>
+
+  - **Archivierungs Konfigurationen** Sie verwenden eine oder mehrere Archivierungs Konfigurationen, um die meisten der zuvor in diesem Thema beschriebenen Archivierungsoptionen anzugeben, mit Ausnahme der Aktivierung der Archivierung interner und externer Kommunikation (Konfiguration mithilfe von Archivierungsrichtlinien, wie im Abschnitt Vorheriges Aufzählungszeichen). Zu den Archivierungs Konfigurationen gehören die standardmäßige globale Konfiguration sowie optionale Website-und Poolkonfigurationen. Sie können die globale Konfiguration nicht löschen. Konfigurationen auf Poolebene überschreiben Konfigurationen auf Websiteebene. Konfigurationen auf Websiteebene überschreiben die Konfiguration auf globaler Ebene.
+
+Im Rahmen Ihrer Anforderungsanalyse müssen Sie festlegen, wie die globale Archivierungskonfiguration und die globale Archivierungsrichtlinie konfiguriert werden. Darüber hinaus müssen Sie Ihre Anforderungen für alle Archivierungs Konfigurationen auf Websiteebene, Archivierungs Konfigurationen auf Poolebene, Archivierungsrichtlinien auf Websiteebene und Archivierungsrichtlinien auf Benutzerebene ermitteln.
+
+Wenn Sie die Archivierung für einen Front-End-Pool oder Standard Edition-Server bereitstellen, sollten Sie Sie für alle anderen Front-End-Pools und Standard Edition-Server in Ihrer Bereitstellung aktivieren. Sie müssen dies tun, da Benutzer, deren Kommunikation archiviert werden muss, zu einer Gruppenunterhaltung oder Besprechungen eingeladen werden können, die in einem anderen Pool gehostet werden. Wenn die Archivierung in dem Pool, in dem die Unterhaltung oder Besprechung gehostet wird, nicht aktiviert ist, werden möglicherweise nicht alle Konferenzdaten archiviert. Die Archivierung funktioniert weiterhin für die Archivierung aktivierter Benutzer und alle Chatnachrichten, aber Konferenzinhalte und-Ereignisse werden möglicherweise nicht archiviert.
+
+<div>
+
+
+> [!NOTE]  
+> Um die Delegierung von administrativen Aufgaben unter Beibehaltung der Sicherheitsstandards Ihrer Organisation zu aktivieren,&nbsp;verwendet lync Server 2013 die rollenbasierte Zugriffssteuerung. Bei der rollenbasierten Zugriffssteuerung werden Administratorrechte zugewiesen, indem Benutzer vordefinierten Administrationsrollen hinzugefügt werden. Zum Konfigurieren von lync-Archivierungsrichtlinien und Archivierungs Konfigurationen muss der Benutzer der CsArchivingAdministrator-Rolle zugewiesen werden (es sei denn, die Konfiguration erfolgt direkt auf dem Server, auf dem die Archivierung statt Remote von einem anderen Computer bereitgestellt wird). Details zu RBAC finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation. Eine Liste der Benutzerrechte, Berechtigungen und Rollen, die für die Archivierungs Bereitstellung erforderlich sind, finden Sie unter <A href="lync-server-2013-deployment-checklist-for-archiving.md">Bereitstellungscheckliste für die Archivierung in lync Server 2013</A>, die sowohl in der Planungsdokumentation als auch in der Bereitstellungsdokumentation zur Verfügung steht.<BR>Wenn Sie die Microsoft Exchange-Integration verwenden, erfordert die Konfiguration von Exchange-Richtlinien geeignete Administratorrechte und-Berechtigungen. Ausführliche Informationen finden Sie in der Exchange 2013-Dokumentation.
 
 
 
-  - **Archivierungskonfigurationen**. Sie verwenden eine oder mehrere Archivierungskonfigurationen, um die meisten Archivierungsoptionen anzugeben, die zuvor in diesem Thema beschrieben wurden. Eine Ausnahme stellt die Aktivierung der Archivierung für die interne und externe Kommunikation dar (wird wie im vorherigen Punkt beschrieben mithilfe von Archivierungsrichtlinien konfiguriert). Zu den Archivierungskonfigurationen zählen die standardmäßige globale Konfiguration und optionale Standort- und Poolkonfigurationen. Die globale Konfiguration kann nicht gelöscht werden. Poolkonfigurationen haben Vorrang vor Standortkonfigurationen. Standortkonfigurationen haben Vorrang vor der globalen Konfiguration.
+</div>
 
-Im Rahmen der Anforderungsanalyse müssen Sie bestimmen, wie die globale Archivierungskonfiguration und die globale Archivierungsrichtlinie konfiguriert werden sollen. Darüber hinaus müssen Sie Ihre Anforderungen für Archivierungskonfigurationen auf Standortebene, für Archivierungskonfigurationen auf Poolebene, für Archivierungsrichtlinien auf Standortebene und für Archivierungsrichtlinien auf Benutzerebene festlegen.
+</div>
 
-Wenn Sie die Archivierung für einen Front-End-Pool oder einen Standard Edition-Server aktivieren, sollten Sie sie für alle weiteren Front-End-Pools und Standard Edition-Server in Ihrer Bereitstellung ebenfalls aktivieren. Dies ist erforderlich, weil Benutzer, deren Kommunikation archiviert werden muss, zu Gruppenchatunterhaltungen oder Besprechungen eingeladen werden können, die in einem anderen Pool gehostet werden. Wenn im Pool, der die Unterhaltung oder Besprechung hostet, die Archivierung nicht aktiviert wurde, werden möglicherweise nicht alle Konferenzdaten archiviert. Die Archivierung funktioniert zwar für aktivierte Benutzer und alle Chatnachrichten, aber Konferenzinhalte und Ereignisse werden möglicherweise nicht archiviert.
+<span> </span>
 
+</div>
 
-> [!NOTE]
-> In Lync Server 2013&nbsp;wird die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) verwendet, um das Delegieren von Verwaltungsaufgaben zu ermöglichen, während gleichzeitig die Sicherheitsstandards Ihrer Organisation gewährleistet sind. Bei der rollenbasierten Zugriffssteuerung werden Administratorrechte zugewiesen, indem Benutzer vordefinierten Administrationsrollen hinzugefügt werden. Zum Konfigurieren von Lync-Archivierungsrichtlinien und -Archivierungskonfigurationen muss der Benutzer der Rolle CsArchivingAdministrator zugewiesen werden (es sei denn, die Konfiguration wird nicht remote von einem anderen Computer aus, sondern direkt auf dem Archivierungsserver ausgeführt). Ausführliche Informationen zur rollenbasierten Zugriffssteuerung finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A> in der Planungsdokumentation. Eine Liste der erforderlichen Benutzerrechte, -berechtigungen und -rollen für die Archivierungsbereitstellung finden Sie unter <A href="lync-server-2013-deployment-checklist-for-archiving.md">Prüfliste zur Bereitstellung für die Archivierung in Lync Server 2013</A> in der Planungs- oder in der Bereitstellungsdokumentation.<BR>Wenn Sie die Microsoft Exchange-Integration verwenden, sind für die Konfiguration von Exchange-Richtlinien entsprechende Administratorrechte und -berechtigungen erforderlich. Ausführliche Informationen finden Sie in der Dokumentation zu Exchange 2013.
+</div>
 
+</div>
 

@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Definieren der Anforderungen für Notrufe'
-TOCTitle: Definieren der Anforderungen für Notrufe
-ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398404(v=OCS.15)
-ms:contentKeyID: 49294127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definieren der Anforderungen für Notrufe'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your requirements for emergency calls
+ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
+ms:contentKeyID: 48184276
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 53543d815519dc440ba038999e5fc531173551f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832695"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definieren der Anforderungen für Notrufe in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="defining-your-requirements-for-emergency-calls-in-lync-server-2013"></a>Definieren der Anforderungen für Notrufe in Lync Server 2013
 
-Bevor Sie mit einer Microsoft Lync Server 2013 E9-1-1-Bereitstellung beginnen, sollten Sie in der Lage sein, die Fragen in den folgenden Abschnitten zu beantworten. Welche Planungsmaßnahmen erforderlich sind, ist abhängig von der E9-1-1-Lösung, die Sie bereitstellen möchten: einen SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway (Emergency Location Identification Number). In der folgenden Tabelle sind die Abschnitte in dieser Planungsmappe aufgeführt, die Sie für die jeweilige Lösung berücksichtigen müssen.UNRESOLVED\_TOKEN\_VAL()
+</div>
 
-### Planungsschritte nach Art der E9-1-1-Lösung
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-06_
+
+Bevor Sie eine Microsoft lync Server 2013 E9-1-1-Bereitstellung beginnen, sollten Sie zunächst in der Lage sein, die in den folgenden Abschnitten aufgeführten Fragen zu beantworten. Welche Planungsmaßnahmen erforderlich sind, ist abhängig von der E9-1-1-Lösung, die Sie bereitstellen möchten: einen SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway (Emergency Location Identification Number). In der folgenden Tabelle sind die Abschnitte in dieser Planungsmappe aufgeführt, die Sie für die jeweilige Lösung berücksichtigen müssen.
+
+### <a name="planning-steps-by-type-of-e9-1-1-solution"></a>Planungsschritte nach Art der E9-1-1-Lösung
 
 <table>
 <colgroup>
@@ -32,70 +52,84 @@ Bevor Sie mit einer Microsoft Lync Server 2013 E9-1-1-Bereitstellung beginnen, s
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Definieren des Umfangs der E9-1-1-Bereitstellung in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Definieren des Umfangs der E9-1-1-Bereitstellung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Definieren des Bereichs der E9-1-1-Bereitstellung in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md">Definieren des Bereichs der E9-1-1-Bereitstellung in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Definieren der Netzwerkelemente zum Ermitteln des Standorts in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Definieren der Netzwerkelemente zum Ermitteln des Standorts in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Definieren der Netzwerkelemente, die zum Ermitteln des Standorts in lync Server 2013 verwendet werden</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-network-elements-used-to-determine-location.md">Definieren der Netzwerkelemente, die zum Ermitteln des Standorts in lync Server 2013 verwendet werden</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Aktivieren von Benutzern für E9-1-1 in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Aktivieren von Benutzern für E9-1-1 in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Aktivieren von Benutzern für E9-1-1 in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enabling-users-for-e9-1-1.md">Aktivieren von Benutzern für E9-1-1 in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-managing-locations-for-sip-trunk-service-providers.md">Verwalten von Standorten für SIP-Trunkdienstanbieter in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-managing-locations-for-elin-gateways.md">Verwalten von Standorten für ELIN-Gateways in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-managing-locations-for-sip-trunk-service-providers.md">Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-managing-locations-for-elin-gateways.md">Verwalten von Speicherorten für Elin-Gateways in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Definieren des Benutzererlebnisses für die manuelle Erfassung eines Standorts in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Definieren des Benutzererlebnisses für die manuelle Erfassung eines Standorts in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Definieren der Benutzeroberfläche für den manuellen Erwerb eines Speicherorts in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md">Definieren der Benutzeroberfläche für den manuellen Erwerb eines Speicherorts in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md">Entwerfen des SIP-Trunks für E9-1-1 in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-including-the-security-desk.md">Einbinden des Sicherheitsdesks in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md">Entwerfen des SIP-Trunks für E9-1-1 in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-including-the-security-desk.md">Einschließen des Security Desks in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-including-the-security-desk.md">Einbinden des Sicherheitsdesks in Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-defining-the-location-policy.md">Definieren der Standortrichtlinie für Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-including-the-security-desk.md">Einschließen des Security Desks in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-the-location-policy.md">Definieren der Standortrichtlinie für lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-choosing-an-e9-1-1-service-provider.md">Auswählen eines E9-1-1-Dienstanbieters für Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Zuweisen des Bereichs für eine Standortrichtlinie in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-choosing-an-e9-1-1-service-provider.md">Auswählen eines E9-1-1-Dienstanbieters für lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Zuweisen von Standortrichtlinien Bereich in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-defining-the-location-policy.md">Definieren der Standortrichtlinie für Lync Server 2013</a></p></td>
-<td><p></p></td>
+<td><p><a href="lync-server-2013-defining-the-location-policy.md">Definieren der Standortrichtlinie für lync Server 2013</a></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Zuweisen des Bereichs für eine Standortrichtlinie in Lync Server 2013</a></p></td>
-<td><p></p></td>
+<td><p><a href="lync-server-2013-assigning-location-policy-scope.md">Zuweisen von Standortrichtlinien Bereich in lync Server 2013</a></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-## In diesem Abschnitt
+<div>
 
-  - [Definieren des Umfangs der E9-1-1-Bereitstellung in Lync Server 2013](lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Definieren der Netzwerkelemente zum Ermitteln des Standorts in Lync Server 2013](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)
+  - [Definieren des Bereichs der E9-1-1-Bereitstellung in lync Server 2013](lync-server-2013-defining-the-scope-of-the-e9-1-1-deployment.md)
 
-  - [Aktivieren von Benutzern für E9-1-1 in Lync Server 2013](lync-server-2013-enabling-users-for-e9-1-1.md)
+  - [Definieren der Netzwerkelemente, die zum Ermitteln des Standorts in lync Server 2013 verwendet werden](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)
 
-  - [Verwalten von Standorten für SIP-Trunkdienstanbieter in Lync Server 2013](lync-server-2013-managing-locations-for-sip-trunk-service-providers.md)
+  - [Aktivieren von Benutzern für E9-1-1 in lync Server 2013](lync-server-2013-enabling-users-for-e9-1-1.md)
 
-  - [Verwalten von Standorten für ELIN-Gateways in Lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)
+  - [Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in lync Server 2013](lync-server-2013-managing-locations-for-sip-trunk-service-providers.md)
 
-  - [Definieren des Benutzererlebnisses für die manuelle Erfassung eines Standorts in Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)
+  - [Verwalten von Speicherorten für Elin-Gateways in lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)
 
-  - [Entwerfen des SIP-Trunks für E9-1-1 in Lync Server 2013](lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md)
+  - [Definieren der Benutzeroberfläche für den manuellen Erwerb eines Speicherorts in lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)
 
-  - [Einbinden des Sicherheitsdesks in Lync Server 2013](lync-server-2013-including-the-security-desk.md)
+  - [Entwerfen des SIP-Trunks für E9-1-1 in lync Server 2013](lync-server-2013-designing-the-sip-trunk-for-e9-1-1.md)
 
-  - [Auswählen eines E9-1-1-Dienstanbieters für Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [Einschließen des Security Desks in lync Server 2013](lync-server-2013-including-the-security-desk.md)
 
-  - [Definieren der Standortrichtlinie für Lync Server 2013](lync-server-2013-defining-the-location-policy.md)
+  - [Auswählen eines E9-1-1-Dienstanbieters für lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [Zuweisen des Bereichs für eine Standortrichtlinie in Lync Server 2013](lync-server-2013-assigning-location-policy-scope.md)
+  - [Definieren der Standortrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md)
+
+  - [Zuweisen von Standortrichtlinien Bereich in lync Server 2013](lync-server-2013-assigning-location-policy-scope.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,55 +1,105 @@
-﻿---
-title: Löschen einer Zugriffsnummer für Einwahlkonferenzen
-TOCTitle: Löschen einer Zugriffsnummer für Einwahlkonferenzen
-ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520956(v=OCS.15)
-ms:contentKeyID: 49293320
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen einer Zugriffsnummer für Einwahlkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a dial-in conferencing access number
+ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
+ms:contentKeyID: 48183522
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen einer Zugriffsnummer für Einwahlkonferenzen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Löschen einer Zugriffsnummer für Einwahlkonferenzen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
 Führen Sie die folgenden Schritte aus, um eine Zugriffsnummer für Einwahlkonferenzen zu löschen.
 
-## So löschen Sie eine Zugriffsnummer für Einwahlkonferenzen
+<div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+## <a name="to-delete-a-dial-in-conferencing-access-number"></a>So löschen Sie eine Zugriffsnummer für Einwahlkonferenzen
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
+
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Zugriffsnummer für Einwahl**.
 
 4.  Klicken Sie auf der Seite auf die Einwahlnummer, die Sie aus der Liste löschen möchten, dann auf **Bearbeiten** und schließlich auf **Löschen**.
 
-5.  Klicken Sie auf **OK**.
+5.  Klicken Sie anschließend auf **OK**.
 
-## Entfernen von Zugriffsnummern für Einwahlkonferenzen mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Zugriffsnummern für Einwahlkonferenzen können auch mithilfe der Windows PowerShell und dem Cmdlet **Remove-CsDialInConferencingAccessNumber** gelöscht werden. Das Cmdlet kann über die Verwaltungsshell für Lync Server 2013 oder eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Löschen einer bestimmten Zugriffsnummer für Einwahlkonferenzen
+## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Entfernen von Einwahlkonferenz-Zugriffsnummern mithilfe von Windows PowerShell-Cmdlets
 
-  - Mit diesem Befehl wird die Zugriffsnummer für Einwahlkonferenzen mit der Identität "sip:RedmondDialInAccess@litwareinc.com" gelöscht:
+Zugriffsnummern für Einwahlkonferenzen können mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsDialInConferencingAccessNumber** gelöscht werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a>So entfernen Sie eine bestimmte Zugriffsnummer für Einwahlkonferenzen
+
+  - Dieser Befehl löscht die Zugriffsnummer für Einwahlkonferenzen mit Identity SIP:RedmondDialInAccess@litwareinc.com:
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
-## Entfernen aller Zugriffsnummern für Einwahlkonferenzen, die einer bestimmten Region zugeordnet sind
+</div>
 
-  - Mit diesem Befehl werden alle Zugriffsnummern für Einwahlkonferenzen gelöscht, die der Region "Northwest" zugeordnet sind:
+<div>
+
+## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a>So entfernen Sie alle Zugriffsnummern für Einwahlkonferenzen, die einem bestimmten Bereich zugewiesen sind
+
+  - Dieser Befehl löscht alle Zugriffsnummern für Einwahlkonferenzen, die mit der Nordwest-Region verbunden sind:
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
-## Entfernen von Zugriffsnummern für Einwahlkonferenzen basierend auf der primären Sprache
+</div>
 
-  - Mit diesem Befehl werden alle Zugriffsnummern für Einwahlkonferenzen mit der primären Sprache Italienisch gelöscht.
+<div>
+
+## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a>So entfernen Sie Zugriffsnummern für Einwahlkonferenzen basierend auf der primären Sprache
+
+  - Dieser Befehl löscht alle Einwahlkonferenz-Zugriffsnummern, wobei Italienisch die primäre Sprache ist:
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
+</div>
+
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

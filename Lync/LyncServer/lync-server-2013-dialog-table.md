@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Dialog-Tabelle'
-TOCTitle: Dialog-Tabelle
-ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398313(v=OCS.15)
-ms:contentKeyID: 49293953
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Dialog-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialog table
+ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:contentKeyID: 48184068
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832391"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Dialog-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="dialog-table-in-lync-server-2013"></a>Dialog-Tabelle in Lync Server 2013
 
-Bei der **Dialog** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird; jeder Datensatz steht für einen SIP-Dialog (Session Initiation Protocol).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die Dialog Tabelle ist eine unterstützende Tabelle; Jeder Datensatz steht für ein SIP-Dialogfeld (Session Initiation Protocol).
 
 
 <table>
@@ -30,7 +50,7 @@ Bei der **Dialog** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen w
 <th><strong>Spalte</strong></th>
 <th><strong>Datentyp</strong></th>
 <th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -38,26 +58,37 @@ Bei der **Dialog** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen w
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Primary</p></td>
-<td><p>Zeitpunkt, zu dem der QoE-Agent (Quality of Excellence) den ersten Bericht von einem Anrufer oder Angerufenen empfängt. Wird zusammen mit <strong>SessionSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</p></td>
+<td><p>Zeitpunkt, zu dem der Quality of Excellence (QoE)-Agent den ersten Bericht von einem Anrufer oder angerufenen erhält. Wird in Verbindung mit SessionSeq verwendet, um eine Sitzung eindeutig zu identifizieren.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Sequenznummer zur Unterscheidung von Sitzungen, die dieselbe <strong>ConferenceDateTime</strong> aufweisen.</p></td>
+<td><p>Sequenznummer, um Sitzungen zu unterscheiden, wenn Sie dieselbe ConferenceDateTime haben.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogID</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p></p></td>
-<td><p>Dialog-ID, die global eindeutig ist.</p></td>
+<td><p><strong>Dialogfeld-Nr</strong></p></td>
+<td><p>varchar (256)</p></td>
+<td></td>
+<td><p>Dialog Feld-ID, die global eindeutig ist.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>index</p></td>
-<td><p>Prüfsumme der Dialog-ID.</p></td>
+<td><p>Index</p></td>
+<td><p>Die Prüfsumme der Dialog Feld-ID.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

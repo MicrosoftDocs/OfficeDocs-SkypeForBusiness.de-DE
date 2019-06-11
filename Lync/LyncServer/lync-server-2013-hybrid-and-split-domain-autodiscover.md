@@ -1,39 +1,73 @@
-﻿---
-title: Hybriddomäne oder geteilte Domäne – AutoErmittlung
-TOCTitle: Hybriddomäne oder geteilte Domäne – AutoErmittlung
-ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945652(v=OCS.15)
-ms:contentKeyID: 52056441
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Hybrid-und Split-Domain-AutoErmittlung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hybrid and split-domain - Autodiscover
+ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
+ms:contentKeyID: 51541520
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 389288a695f7e8ed96ab72d16f612ffd92a7b013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832044"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hybriddomäne oder geteilte Domäne – AutoErmittlung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Hybrid-und Split-Domain-AutoErmittlung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-14_
 
-Ein freigegebener SIP-Adressraum, auch als Bereitstellung mit *geteilter Domäne* oder *Hybridbereitstellung* bezeichnet, ist eine Konfiguration, bei der Benutzer in einer lokalen Bereitstellung und einer Onlineumgebung bereitgestellt werden. Das Ziel besteht darin, dass ein Benutzer sich unabhängig davon, wo sich sein Homeserver befindet (lokal oder online) bei der Bereitstellung anmeldet und an den Speicherort ihres Homeservers weitergeleitet wird. Dazu wird die AutoErmittlungsfunktion von Lync Server 2013 verwendet, um den Onlinebenutzer an die Onlinetopologie weiterzuleiten. Dazu konfigurieren Sie die AutoErmittlungs-URL mithilfe der Lync Server-Verwaltungsshell und der Cmdlets **Get-CsHostingProvider** und **Set-CsHostingProvider**.
+Ein freigegebener SIP-Adressraum, auch bekannt als " *Split-Domain-* Bereitstellung" oder eine *Hybrid* Bereitstellung, ist eine Konfiguration, in der Benutzer über eine lokale Bereitstellung und eine Online Umgebung bereitgestellt werden. Das gewünschte Ergebnis besteht darin, dass Sie einen Benutzer haben, unabhängig davon, wo sich der Stammserver befindet (lokal oder Online), sich bei der Bereitstellung anmelden und an den Standort Ihres Home-Servers weitergeleitet werden. Um dies zu erreichen, wird das Auto Ermittlungs Feature von lync Server 2013 verwendet, um den Online Benutzer zur Online Topologie umzuleiten. Dazu können Sie den Uniform Resource Locator (URL) für die AutoErmittlung mithilfe der lync Server-Verwaltungsshell, dem Cmdlet " **Get-CsHostingProvider** " und dem Cmdlet " **Satz-CsHostingProvider** " konfigurieren.
 
-## Mobilität für die Bereitstellung geteilter Domänen
+<div>
 
-Sie müssen folgende bereitgestellte Attribute erfassen und aufzeichnen:
+## <a name="mobility-for-the-split-domain-deployment"></a>Mobilität für die Bereitstellung von geteilten Domänen
 
-  - Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein:
+Sie müssen die folgenden bereitgestellten Attribute sammeln und aufzeichnen:
+
+  - Geben Sie in der lync Server-Verwaltungsshell
     
         Get-CsHostingProvider
 
-  - Suchen Sie in den Ergebnissen nach dem Onlineanbieter mit dem Attribut**ProxyFQDN**, z. B. "sipfed.online.lync.com".
+  - Suchen Sie in den Ergebnissen den Onlineanbieter mit dem Attribut **ProxyFQDN**. Beispiel: sipfed.online.lync.com.
 
-  - Zeichnen Sie den Wert von "ProxyFQDN" auf.
+  - Notieren Sie sich den Wert des ProxyFQDN.
 
-  - Aktivieren Sie in der lokalen Lync Server-Systemsteuerung den Partnerverbund, und lassen so einen Partnerverbund mit dem Onlineanbieter zu.
+  - Aktivieren Sie die Föderation in der lokalen lync Server-Systemsteuerung, wodurch die Föderation mit dem Onlineanbieter zugelassen wird.
 
-  - Aktivieren Sie den Partnerverbund für den Onlineanbieter. Standardmäßig sind alle Onlinebenutzer für den Domänenverbund aktiviert und können mit allen Domänen kommunizieren.
+  - Aktivieren Sie den Verbund für den Onlineanbieter. Standardmäßig sind alle Online Benutzer für den Domänen Verbund aktiviert und können mit allen Domänen kommunizieren.
 
-  - Wenn Sie gesperrte und zulässige Domänen definieren, legen Sie die Domänen fest, die Sie explizit zulassen oder sperren möchten.
+  - Wenn Sie blockierte und zulässige Domänen definieren, ermitteln Sie die Domänen, die explizit zugelassen oder explizit blockiert werden.
 
-  - Für den Onlineverbund müssen Sie Firewallausnahmen, Zertifikate und den DNS-Hosteinträge (A oder AAAA bei Verwendung von IPv6) planen. Außerdem müssen Sie Verbundrichtlinien konfigurieren. Nähere Informationen finden Sie unter [Planen von Lync Server- und Office Communications Server-Partnerverbünden](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
+  - Für die Online-Föderation müssen Sie Firewall-Ausnahmen, Zertifikate und DNS-Host (A oder AAAA, wenn Sie IPv6 verwenden) planen. Darüber hinaus müssen Sie Verbund Richtlinien konfigurieren. Ausführliche Informationen finden Sie unter [Planen von lync Server 2013 und Office Communications Server Federation](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

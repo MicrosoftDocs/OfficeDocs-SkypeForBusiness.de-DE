@@ -1,29 +1,51 @@
-﻿---
-title: Standort-Trendbericht
-TOCTitle: Standort-Trendbericht
-ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204941(v=OCS.15)
-ms:contentKeyID: 49294182
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Standort Trend Bericht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location Trend Report
+ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204941(v=OCS.15)
+ms:contentKeyID: 48184280
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 68c1eac461d65c2c0b023086422bb66505e9c929
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831940"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Standort-Trendbericht
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="location-trend-report-in-lync-server-2013"></a>Standort Trend Bericht in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-06_
 
 Der Standort-Trendbericht enthält Angaben über den Verlauf der Anrufqualität für Netzwerkstandorte.
 
-## Filter
+<div>
+
+## <a name="filters"></a>Filter
 
 Mithilfe von Filtern können Sie eine bestimmte Untermenge von Daten zurückgeben oder zurückgegebene Daten anders anzeigen lassen. So können Sie zum Beispiel im Standort-Trendbericht die zurückgegebenen Daten nach Aspekten wie dem Zugriffstyp (d. h. interner oder externer Zugriff) oder dem Netzwerktyp (verkabelt oder Funk) filtern. Sie können auch festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Anrufe nach Stunde, Tag oder Woche gruppiert.
 
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Trendbericht verwenden können.
 
-### Filter im Standort-Trendbericht
+### <a name="location-trend-report-filters"></a>Filter im Standort-Trendbericht
 
 <table>
 <colgroup>
@@ -40,32 +62,32 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 <tr class="odd">
 <td><p><strong>Von</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00 Uhr</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bis</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00 Uhr</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervall</strong></p></td>
 <td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
+<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
+<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
+<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall &quot;Täglich&quot; mit dem Startdatum 01.01.2011 und dem Enddatum 28.02.2011 ausgewählt haben, werden Daten für die Tage 01.08.2011 12:00 Uhr bis 01.09.2011 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall „Täglich“ mit dem Startdatum 01.01.2011 und dem Enddatum 28.02.2011 ausgewählt haben, werden Daten für die Tage 01.08.2011 12:00 Uhr bis 01.09.2011 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Zugriffstyp</strong></p></td>
@@ -96,4 +118,17 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

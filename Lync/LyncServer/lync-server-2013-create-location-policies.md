@@ -1,27 +1,47 @@
-﻿---
-title: Erstellen von Ortungsrichtlinien in Lync Server 2013
-TOCTitle: Erstellen von Ortungsrichtlinien in Lync Server 2013
-ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413006(v=OCS.15)
-ms:contentKeyID: 49295865
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erstellen von Standortrichtlinien'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create location policies
+ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
+ms:contentKeyID: 48185794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832851"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erstellen von Ortungsrichtlinien in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="create-location-policies-in-lync-server-2013"></a>Erstellen von Standortrichtlinien in lync Server 2013
 
-Lync Server verwendet eine Ortungsrichtlinie, um Lync-Clients während der Clientregistrierung für E9-1-1 zu aktivieren. Eine Ortungsrichtlinie enthält die Einstellungen zur Definition der E9-1-1-Implementierung.
+</div>
 
-Sie können die globale Ortungsrichtlinie bearbeiten und bereichsspezifische Ortungsrichtlinien erstellen. Ein Client, der sich nicht in einem Subnetz mit zugeordneter Ortungsrichtlinie befindet oder dem nicht direkt eine Ortungsrichtlinie zugeordnet wurde, ruft eine globale Richtlinie ab. Bereichsspezifische Ortungsrichtlinien werden Subnetzen oder Benutzern zugewiesen.
+<div id="mainSection">
 
-Zum Erstellen einer Ortungsrichtlinie müssen Sie ein Konto verwenden, das Mitglied der Gruppe "RTCUniversalServerAdmins" oder der Administratorrolle "CsVoiceAdministrator" ist oder entsprechende Administratorrechte und -berechtigungen besitzt.
+<div id="mainBody">
 
-Eine vollständige Beschreibung von Ortungsrichtlinien finden Sie unter [Definieren der Standortrichtlinie für Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Die Cmdlets in diesem Verfahren verwenden eine Ortungsrichtlinie, die mit den folgenden Werten definiert ist:
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+
+Lync Server verwendet eine ortungsrichtlinie, um lync-Clients für E9-1-1 während der Clientregistrierung zu aktivieren. Eine Standortrichtlinie enthält die Einstellungen für die Definition der Notrufdienstimplementierung.
+
+Sie können die globale Standortrichtlinie bearbeiten und bereichsspezifische Standortrichtlinien erstellen. Ein Client, der sich nicht in einem Subnetz mit zugeordneter Standortrichtlinie befindet oder dem nicht direkt eine Standortrichtlinie zugeordnet wurde, ruft eine globale Richtlinie ab. Bereichsspezifische Standortrichtlinien werden Subnetzen oder Benutzern zugewiesen.  
+
+Zum Erstellen einer Standortrichtlinie müssen Sie ein Konto verwenden, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsVoiceAdministrator“ ist oder entsprechende Administratorrechte und -berechtigungen besitzt.
+
+Eine vollständige Beschreibung der Standortrichtlinien finden Sie unter [Definieren der Standortrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md). Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist:
 
 
 <table>
@@ -42,11 +62,11 @@ Eine vollständige Beschreibung von Ortungsrichtlinien finden Sie unter [Definie
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
-<td><p><strong>Disclaimer</strong></p></td>
+<td><p><strong>Haftungsausschluss</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>EnhancedEmergencyServiceDisclaimer</p></td>
-<td><p>Die Unternehmensrichtlinie erfordert, dass Sie eine Ortung festlegen. Wenn Sie keine Ortung festlegen, können Sie im Ernstfall nicht von Notfalldiensten lokalisiert werden. Bitte legen Sie eine Ortung fest.</p></td>
+<td><p>Die Unternehmensrichtlinie erfordert, dass Sie einen Standort festlegen. Wenn Sie keinen Standort festlegen, können Sie im Ernstfall nicht von Notfalldiensten lokalisiert werden. Bitte legen Sie einen Standort fest.</p></td>
 </tr>
 <tr class="even">
 <td><p>UseLocationForE911Only</p></td>
@@ -84,7 +104,7 @@ Eine vollständige Beschreibung von Ortungsrichtlinien finden Sie unter [Definie
 </table>
 
 
-Ausführliche Informationen zum Arbeiten mit Ortungsrichtlinien finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell-Verwaltungsshell für die folgenden Cmdlets:
+Details zum Arbeiten mit Standortrichtlinien finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
 
   - New-CsLocationPolicy
 
@@ -96,25 +116,42 @@ Ausführliche Informationen zum Arbeiten mit Ortungsrichtlinien finden Sie in de
 
   - Grant-CsLocationPolicy
 
-## So erstellen Sie Ortungsrichtlinien
+<div>
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-create-location-policies"></a>So erstellen Sie Standortrichtlinien
+
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Bei Ausführung von "CsLocationPolicy" tritt ein Fehler auf, wenn sich die Einstellung für <STRONG>PstnUsage</STRONG> nicht bereits in der globalen Liste "PstnUsages" befindet.
+    > [!NOTE]  
+    > Bei Ausführung von „CsLocationPolicy“ tritt ein Fehler auf, wenn sich die Einstellung für <STRONG>PstnUsage</STRONG> nicht bereits in der globalen Liste „PstnUsages“ befindet.
 
+    
+    </div>
 
-
-2.  Optional können Sie auch das folgende Cmdlet ausführen, um die globale Ortungsrichtlinie zu bearbeiten:
+2.  Optional können Sie auch das folgende Cmdlet ausführen, um die globale Standortrichtlinie zu bearbeiten:
     
         Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
 
-3.  Führen Sie folgendes Cmdlet aus, um eine bereichsspezifische Ortungsrichtlinie zu erstellen.
+3.  Führen Sie folgendes Cmdlet aus, um eine bereichsspezifische Standortrichtlinie zu erstellen.
     
         New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
 
-4.  Führen Sie das folgende Cmdlet aus, um die in Schritt 3 erstellte bereichsspezifische Ortungsrichtlinie auf eine Benutzerrichtlinie anzuwenden.
+4.  Führen Sie das folgende Cmdlet aus, um die in Schritt 3 erstellte bereichsspezifische Standortrichtlinie auf eine Benutzerrichtlinie anzuwenden.
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

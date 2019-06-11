@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Liste der CDR-Tabellen'
-TOCTitle: Liste der CDR-Tabellen
-ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398084(v=OCS.15)
-ms:contentKeyID: 49293007
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Liste der CDR-Tabellen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: List of CDR tables
+ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398084(v=OCS.15)
+ms:contentKeyID: 48183254
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f1ac043d144e73d8e1b40ca717e278619e053fdc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831949"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Liste der CDR-Tabellen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Liste der CDR-Tabellen in Lync Server 2013
 
-Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) besteht aus den folgenden Tabellen.
+</div>
 
-## Statische Tabellen
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+
+Das Datenbankschema für die Anrufdetailaufzeichnung (CDR) besteht aus den folgenden Tabellen.
+
+<div>
+
+## <a name="static-tables"></a>Statische Tabellen
 
 
 <table>
@@ -34,37 +56,41 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-callpriorities-table.md">CallPriorities-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Liste möglicher Kommunikationsprioritäten, wie z. B. Notfall, dringend, normal, nicht dringend usw.</p></td>
+<td><p>Speichert die Liste möglicher Anruf Prioritäten wie Notfall, dringend, normal, nicht dringend und mehr.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">ConferenceJoinTimeThresholds-Tabelle</a></p></td>
-<td><p>Speichert die Klassifizierungsgrenzen, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden.</p></td>
+<td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">ConferenceJoinTimeThresholds-Tabelle in lync Server 2013</a></p></td>
+<td><p>Speichert die Klassifizierungs Grenzen, die vom Zusammenfassungsbericht zur Konferenzteilnahme verwendet werden.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">DeRegisterType-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Liste möglicher Gründe für die Aufhebung der Registrierung von Benutzern, wie z. B. &quot;vom Client initiiert&quot;, &quot;Registrierung abgelaufen&quot;, &quot;Clientabsturz&quot; usw.</p></td>
+<td><p>Speichert &quot;die Liste der möglichen Benutzer Deregistrierungs Gründe, wie Client initiiert,&quot; &quot;Registrierung abgelaufen&quot; &quot;, Client Absturz&quot; und vieles mehr.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">MediaList-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Liste der Medientypen, von denen Einträge in der Datenbank generiert werden können (z. B. Sofortnachricht, Audio, Video und Dateiübertragung).</p></td>
+<td><p>Speichert die Liste der Medientypen, die Einträge in der Datenbank generieren können (beispielsweise Chat, Audio, Video und Dateiübertragung).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table.md">PurgeSettings-Tabelle</a></p></td>
-<td><p>Speichert Informationen, mit denen angegeben wird, ob (und wann) verwaltete Kommunikationsdatensätze automatisch aus der CDR-Datenbank gelöscht werden.</p></td>
+<td><p><a href="lync-server-2013-purgesettings-table.md">PurgeSettings-Tabelle in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen, die angeben, ob (und wann) veraltete Anruf Detaildatensätze automatisch aus der CDR-Datenbank gelöscht werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-roles-table.md">Roles-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Liste möglicher Konferenzrollen (z. B. Teilnehmer und Referent).</p></td>
+<td><p>Speichert die Liste möglicher Konferenz Rollen (beispielsweise Teilnehmer und Referenten).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-sipresponsemetadata-table.md">SIPResponseMetaData-Tabelle</a></p></td>
-<td><p>Speichert eine Liste mit SIP-Antwortcodes und der Klassifizierung und Definition der einzelnen Codes.</p></td>
+<td><p><a href="lync-server-2013-sipresponsemetadata-table.md">SIPResponseMetaData-Tabelle in lync Server 2013</a></p></td>
+<td><p>Speichert eine Liste der SIP-Antwortcodes sowie die Klassifizierung und Definition der einzelnen Codes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Hilfstabellen
+</div>
+
+<div>
+
+## <a name="supporting-tables"></a>Unterstützende Tabellen
 
 
 <table>
@@ -81,39 +107,39 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-clientversions-table.md">ClientVersions-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Clients (sowohl Clienttyp als auch Versionsnummer) aller an einem Anruf beteiligten Clients, wobei die Informationen in dieser Datenbank erfasst werden.</p></td>
+<td><p>Speichert die Clients (Clienttyp und Versionsnummer) jedes an einem Anruf beteiligten Clients mit Informationen, die in dieser Datenbank erfasst werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-conferenceuris-table.md">ConferenceUris-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der ConferenceURI-Werte, die bei Telefonkonferenzen verwendet werden.</p></td>
+<td><p>Speichert eine Liste der ConferenceURIs, die in konferenzbezogenen Anrufen verwendet werden.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-contenttypes-table.md">ContentTypes-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der SIP-Inhaltstypen (Session Initiation-Protokoll), die bei Peer-zu-Peer-Anrufen und Telefonkonferenzen verwendet werden.</p></td>
+<td><p>Speichert eine Liste von SIP-Inhaltstypen (Session Initiation Protocol), die sowohl in Peer-to-Peer-Anrufen als auch in Konferenzgesprächen verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devices-table.md">Devices-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der Geräte, einschließlich Hersteller, Hardwareversion und MAC-Adresse.</p></td>
+<td><p>Speichert eine Liste von Geräten, einschließlich deren Hersteller, Hardware Version und Mac-Adresse.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-dialogs-table.md">Dialogs-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zur Dialog-ID für jede Sitzung in der Datenbank.</p></td>
+<td><p>Speichert Informationen über die Dialog Feld-ID für jede Sitzung in der Datenbank.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-edgeservers-table.md">EdgeServers-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der für externe Anrufe verwendeten Edgeserver.</p></td>
+<td><p>Speichert eine Liste der Edgeserver, die für externe Anrufe verwendet werden.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-gateways-table.md">Gateways-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der für VoIP-Anrufe verwendeten Gateways.</p></td>
+<td><p>Speichert eine Liste der Gateways, die für VoIP-Anrufe (Voice over Internet Protocol) verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-hardwareversions-table.md">HardwareVersions-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der Hardwareversionen von Geräten (Telefonapparat).</p></td>
+<td><p>Speichert eine Liste der Hardware Versionen von Geräten (Tischtelefon).</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-manufacturers-table.md">Manufacturers-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der Hersteller von Geräten (Telefonapparat).</p></td>
+<td><p>Speichert eine Liste der Hersteller von Geräten (Tischtelefon).</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-mcus-table.md">Mcus-Tabelle in Lync Server 2013</a></p></td>
@@ -121,41 +147,45 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-mediationservers-table.md">MediationServers-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert eine Liste der für VoIP-Anrufe verwendeten Vermittlungsserver.</p></td>
+<td><p>Speichert eine Liste der Vermittlungsserver, die für VoIP-Anrufe verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-phones-table.md">Phones-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert alle Telefonnummern, die bei VoIP-Anrufen verwendet wurden und die archiviert oder deren Kommunikationsdatensätze aufgezeichnet wurden.</p></td>
+<td><p>Speichert alle Telefonnummern, die in VoIP-Anrufen verwendet werden, die archiviert wurden oder deren Anrufdetails aufgezeichnet wurden.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-pools-table.md">Pools-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die Namen der Pools, in denen Sofortnachrichten erfasst werden.</p></td>
+<td><p>Speichert die Namen des Pools, in dem Chatnachrichten erfasst werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-servers-table.md">Servers-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert den Namen der an Anrufen beteiligten Server.</p></td>
+<td><p>Speichert den Namen der an den anrufen beteiligten Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tenants-table.md">Tenants-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert die von der aktuellen Bereitstellung unterstützten Mandanten. Es gibt einige integrierte Mandanten für Unternehmensbenutzer, Verbundbenutzer, Benutzer mit Verbindung mit öffentlichen Instant Messaging-Diensten sowie anonyme Benutzer.</p></td>
+<td><p>Speichert die Mandanten, die von der aktuellen Bereitstellung unterstützt werden. Es gibt einige integrierte Mandanten für Enterprise-Benutzer, Federated-Benutzer, öffentliche Chat-Konnektivitäts-Benutzer und anonyme Benutzer.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-useragentdef-table.md">UserAgentDef-Tabelle</a></p></td>
-<td><p>Ordnet Benutzeragent-IDs den beschreibenden Namen von Agents zu.</p></td>
+<td><p><a href="lync-server-2013-useragentdef-table.md">UserAgentDef-Tabelle in lync Server 2013</a></p></td>
+<td><p>Ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-users-table.md">Users-Tabelle in Lync Server 2013</a></p></td>
 <td><p>Speichert die Benutzer-URIs von Benutzern, die an Sitzungen teilgenommen haben, die in dieser Datenbank aufgezeichnet oder archiviert wurden.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-userstatistics-table.md">UserStatistics-Tabelle</a></p></td>
-<td><p>Speichert Informationen zur Systemnutzung eines einzelnen Benutzers.</p></td>
+<td><p><a href="lync-server-2013-userstatistics-table.md">UserStatistics-Tabelle in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen zur Verwendung des Systems durch einen einzelnen Benutzer.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Spezifische Tabellen für Konferenzkommunikationsdatensätze
+</div>
+
+<div>
+
+## <a name="tables-specific-to-conference-cdr-records"></a>Für Konferenz CdR-Datensätze spezifische Tabellen
 
 
 <table>
@@ -172,25 +202,29 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-conferences-table.md">Conferences-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu allen Konferenzen, die archiviert wurden oder deren Details aufgezeichnet wurden, einschließlich &quot;ConferenceURI&quot; sowie Start- und Endzeit.</p></td>
+<td><p>Speichert Informationen zu allen Konferenzen, die archiviert wurden oder deren Details aufgezeichnet wurden, einschließlich ConferenceURI sowie Start-und Endzeit.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-conferencesessiondetails-table.md">ConferenceSessionDetails-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert für jede Sitzung Informationen zu jeder SIP-basierten Konferenzsitzung, einschließlich Start- und Endzeit, Benutzer-ID, Antwortcode und Diagnose-ID.</p></td>
+<td><p>Speichert Informationen zu jeder SIP-basierten Konferenzsitzung, einschließlich Start-und Endzeit, Benutzer-ID, Antwortcode und Diagnose-ID für jede Sitzung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-focusjoinsandleaves-table.md">FocusJoinsAndLeaves-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zum Beitreten zu sowie zum Verlassen von Konferenzen, einschließlich der Rolle von Benutzern und der Clientversion.</p></td>
+<td><p>Speichert Informationen zu Konferenz Verknüpfungen und-Blättern, einschließlich der Rolle des Benutzers und der Client Version.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-mcujoinsandleaves-table.md">McuJoinsAndLeaves-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu den an einer Konferenz beteiligten A/V-Konferenzservern sowie die Zeiten, wann Benutzer Konferenzen beitreten und sie verlassen.</p></td>
+<td><p>Speichert Informationen zu den a/V-Konferenzservern, die an einer Konferenz beteiligt sind, und die Benutzer an-und Abreisezeiten.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Tabellen für Nachrichten bei Sofortnachrichten-Konferenzen
+</div>
+
+<div>
+
+## <a name="tables-for-messages-in-im-conferences"></a>Tabellen für Nachrichten in Chat Konferenzen
 
 
 <table>
@@ -207,17 +241,21 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-conferencemessagecount-table.md">ConferenceMessageCount-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Für jede Sofortnachrichten-Konferenz wird die Anzahl der von jedem Benutzer gesendeten Nachrichten gespeichert.</p></td>
+<td><p>Speichert für jede Chat Konferenz die Anzahl der Nachrichten, die von jedem Benutzer gesendet wurden.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-imreportsummary-table.md">IMReportSummary-Tabelle</a></p></td>
-<td><p>Stellt einen Gesamtbericht zu den durchgeführten Chatsitzungen einer Organisation bereit.</p></td>
+<td><p><a href="lync-server-2013-imreportsummary-table.md">IMReportSummary-Tabelle in lync Server 2013</a></p></td>
+<td><p>Bietet einen Gesamtbericht zu den Chat-Sitzungen, die in einer Organisation abgehalten werden.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Tabellen für Peer-zu-Peer-Sitzungen
+</div>
+
+<div>
+
+## <a name="tables-for-peer-to-peer-sessions"></a>Tabellen für Peer-to-Peer-Sitzungen
 
 
 <table>
@@ -234,21 +272,25 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert für jeden Benutzer Informationen zu jeder Peer-zu-Peer-Sitzung, einschließlich Start- und Endzeit, Benutzer-ID, Antwortcode und Nachrichtenanzahl.</p></td>
+<td><p>Speichert Informationen zu jeder Peer-to-Peer-Sitzung, einschließlich Start-und Endzeit, Benutzer-ID, Antwortcode und Nachrichtenanzahl für jeden Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-filetransfers-table.md">FileTransfers-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu Dateiübertragungssitzungen, einschließlich Dateiname und Ergebnis (akzeptiert, abgelehnt oder abgebrochen).</p></td>
+<td><p>Speichert Informationen zu Dateiübertragungssitzungen, einschließlich Dateinamen und Ergebnis (akzeptiert, abgelehnt oder storniert).</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-media-table.md">Media-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu den an Peer-zu-Peer-Sitzungen beteiligten Medientypen.</p></td>
+<td><p>Speichert Informationen zu den verschiedenen Medientypen, die an Peer-zu-Peer-Sitzungen beteiligt sind.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Tabelle für VoIP-Kommunikationsdatensätze
+</div>
+
+<div>
+
+## <a name="table-for-voip-call-details"></a>Tabelle für VoIP-Anruf Details
 
 
 <table>
@@ -265,11 +307,11 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">VoipDetails-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert für jeden VoIP/PSTN-Anruf mit zwei Parteien Informationen zum Anruf, wie z. B. die Telefon-ID des VoIP-Telefons, das verwendete Gateway und welche Partei getrennt wurde. Die Start-/Endzeiten von Anrufen und den Antwortcode finden Sie in der <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</a>.</p>
+<td><p>Speichert für jeden zwei-Parteien-VoIP/PSTN-Anrufinformationen zu dem Anruf, wie etwa die Telefon-ID des VoIP-Telefons, das verwendete Gateway und welche Partei getrennt wurde. Bezieht sich auf die <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in lync Server 2013</a> für die Start-und Endzeit des Anrufs und den Antwortcode.</p>
 <div>
 
-> [!NOTE]
-> Wenn eine Anrufpartei ein VoIP-Benutzer ist oder wenn ein Vermittlungsserver am Anruf beteiligt war, wird in dieser Tabelle ein Datensatz erstellt. Informationen zu VoIP/VoIP-Anrufen ohne Festnetztelefon werden in der <A href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</A> erfasst.
+> [!NOTE]  
+> Wenn eine Partei bei einem Anruf ein VoIP-Nutzer ist oder wenn ein Vermittlungs Server an dem Anruf beteiligt war, wird in dieser Tabelle ein Datensatz erstellt. Informationen zu VoIP-und VoIP-Anrufen, die kein PSTN-Telefon (Public Switched Telephone Network) betreffen, werden in der <A href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in lync Server 2013</A>erfasst.
 
 
 </div></td>
@@ -278,7 +320,11 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 </table>
 
 
-## Tabelle für die E9-1-1-Anrufüberwachung
+</div>
+
+<div>
+
+## <a name="table-for-e9-1-1-call-auditing"></a>Tabelle für die E9-1-1-Anrufüberwachung
 
 
 <table>
@@ -295,11 +341,11 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Locations-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Für jeden Notruf, wie z. B. einen erweiterten 9-1-1-Anruf (E9-1-1) werden Standortinformationen zum Anruf gespeichert. Die Start-/Endzeiten von Anrufen und den Antwortcode finden Sie in der <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</a>.</p>
+<td><p>Speichert für jeden Notruf, beispielsweise einen erweiterten 9-1-1 (E9-1-1)-Anruf, Standortinformationen zu dem Anruf. Bezieht sich auf die <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in lync Server 2013</a> für die Start-und Endzeit des Anrufs und den Antwortcode.</p>
 <div>
 
-> [!NOTE]
-> Diese Tabelle enthält nur den Standort-BLOB für den E9-1-1-Anruf. Weitere ausführliche Informationen zum Anruf finden Sie in der <STRONG>SessionDetails</STRONG> -Tabelle.
+> [!NOTE]  
+> Diese Tabelle enthält nur den Standort-BLOB für den E9-1-1-Anruf. Bezieht sich auf die Tabelle "SessionDetails", um weitere detaillierte Informationen zu dem Anruf zu erhalten.
 
 
 </div></td>
@@ -308,7 +354,11 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 </table>
 
 
-## Tabellen für die Problembehandlung
+</div>
+
+<div>
+
+## <a name="tables-for-troubleshooting"></a>Tabellen zur Problembehandlung
 
 
 <table>
@@ -325,15 +375,15 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-application-table.md">Application-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu verschiedenen Prozessen in Lync Server 2013, die beim Routen und bei Verbindungen beteiligt sind.</p></td>
+<td><p>Speichert Informationen zu verschiedenen Prozessen in lync Server 2013, die an Routing und Verbindungen beteiligt sind.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-calltype-table.md">CallType-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu Anruftypen, wie z. B. &quot;Audio&quot;, &quot;Sofortnachrichten&quot;, &quot;Audio und Video&quot; und &quot;Anwendungsfreigabe&quot;.</p></td>
+<td><p>Speichert Informationen zu Typen des Anrufs, beispielsweise "Audio", "Sofortnachrichten", "Audio und Video" und "Anwendungsfreigabe".</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-errorcategory-table.md">ErrorCategory-Tabelle</a></p></td>
-<td><p>Speichert den Anzeigenamen jeder Microsoft Lync Server 2013-Diagnoseklassifizierung.</p></td>
+<td><p><a href="lync-server-2013-errorcategory-table.md">ErrorCategory-Tabelle in lync Server 2013</a></p></td>
+<td><p>Speichert den Anzeigenamen für jede Microsoft lync Server 2013-Diagnose Klassifizierung.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-errordef-table.md">ErrorDef-Tabelle in Lync Server 2013</a></p></td>
@@ -341,19 +391,23 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-errorreport-table.md">ErrorReport-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu aufgetretenen Fehlern.</p></td>
+<td><p>Speichert Informationen zu Fehlern, die aufgetreten sind.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-progressreport-table.md">ProgressReport-Tabelle in Lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zum Fortschrittsbericht verschiedener Schritte, die an Lync Server 2013-Prozessen beteiligt sind.</p></td>
+<td><p>Speichert Informationen zu den Fortschrittsberichten verschiedener Schritte, die in lync Server 2013-Prozessen involviert sind.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die Tabellen in der folgenden Liste werden intern von Lync Server verwendet. Die zugehörigen Details werden in diesem Dokument nicht beschrieben.
+Die Tabellen in der folgenden Liste werden intern von lync Server verwendet. Deren Details werden in diesem Dokument nicht beschrieben.
 
-## Tabellen für die interne Verwendung durch Lync Server
+</div>
+
+<div>
+
+## <a name="tables-for-internal-use-by-lync-server"></a>Tabellen für die interne Verwendung durch lync Server
 
 
 <table>
@@ -370,80 +424,93 @@ Die Tabellen in der folgenden Liste werden intern von Lync Server verwendet. Die
 <tbody>
 <tr class="odd">
 <td><p><strong>DbConfigDateTime</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DbConfigInt</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DbErrorMessage</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p><strong>Dberrormessage</strong></p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FrontEnd-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p><strong>Frontend-Tabelle</strong></p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MSMQProcessing-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SummaryTableConfiguration</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Syndicators-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p><strong>Tabelle "Syndikator"</strong></p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SyndicatorsTenantMap-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aufgabentabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p><strong>Aufgaben Tabelle</strong></p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserStatistics</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UsageSummary_UQ</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UsageSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DaylightSavingYears</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TimeZoneConfiguration</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TimeZones</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p><strong>Zeitzonen</strong></p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FailureSummary_UQ</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FailureSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ServerSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagMetaData</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

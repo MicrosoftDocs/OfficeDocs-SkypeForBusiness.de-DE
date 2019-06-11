@@ -1,43 +1,73 @@
-﻿---
-title: Bereitstellen des SEFAUtil-Tools
-TOCTitle: Bereitstellen des SEFAUtil-Tools
-ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945659(v=OCS.15)
-ms:contentKeyID: 52056499
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen des SEFAUtil-Tools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy the SEFAUtil tool
+ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945659(v=OCS.15)
+ms:contentKeyID: 51541534
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0783ab251359582d232d558da2161a149dea5117
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832571"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen des SEFAUtil-Tools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
 
-Zum Bereitstellen und Verwalten der Gruppenanrufannahme müssen Sie das SEFAUtil-Resource Kit-Tool verwenden. Das Tool gehört zu den Tools im Resource Kit von Lync Server 2013. Bevor Sie SEFAUtil installieren können, müssen Sie einen vertrauenswürdigen Anwendungspool in Ihrer Topologie haben, SEFAUtil als vertrauenswürdige Anwendung angeben und die Topologie aktivieren.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-01-30_
+
+Zum Bereitstellen und Verwalten der Gruppenanruf Abholung müssen Sie das SEFAUtil Resource Kit-Tool verwenden. Das Tool ist Teil der lync Server 2013 Resource Kit-Tools. Bevor Sie SEFAUtil installieren können, müssen Sie über einen vertrauenswürdigen Anwendungspool in Ihrer Topologie verfügen, SEFAUtil als vertrauenswürdige Anwendung angeben und die Topologie aktivieren.
+
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Das Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK muss auf jedem Computer installiert sein, auf dem Sie das SEFAUtil-Tool ausführen möchten.
 
 
 
-Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung ausführen.
+</div>
+
+Sie können die SEFAUtil in einem beliebigen Front-End-Pool in Ihrer Bereitstellung ausführen.
+
+<div>
 
 
-> [!NOTE]
-> Weitere Informationen zum Ausführen von SEFAUtil finden Sie im TechNet-Bog-Artikel "How to get SEFAutil running?" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?linkid=278940</A>.
+> [!NOTE]  
+> Weitere Informationen zum Ausführen von SEFAUtil finden Sie im TechNet-Blog Artikel "wie erhalte ich SEFAUtil?" bei <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
 
-## So stellen Sie das SEFAUtil-Tool bereit
+</div>
 
-1.  Melden Sie sich auf dem Computer, auf dem die Lync Server-Verwaltungsshell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten an, wie beschrieben unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+## <a name="to-deploy-sefautil"></a>So stellen Sie das SEFAUtil-Tool bereit
 
-3.  Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem vertrauenswürdigen Anwendungspool gehört. Definieren Sie bei Bedarf einen vertrauenswürdigen Anwendungspool für den Front-End-Pool, in dem Sie SEFAUtil ausführen möchten. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem vertrauenswürdigen Anwendungspool gehört. Falls erforderlich, definieren Sie einen vertrauenswürdigen Anwendungspool für den Front-End-Pool, in dem Sie SEFAUtil ausführen möchten. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
@@ -45,30 +75,49 @@ Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung au
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
+    <div>
+    
 
-    > [!NOTE]
+    > [!NOTE]  
     > Sie können ggf. einen anderen Port verwenden.
 
-
+    
+    </div>
 
 5.  Aktivieren Sie die Topologie mit Ihren Änderungen. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
         Enable-CsTopology
 
-6.  Installieren Sie die Tools im Resource Kit von Lync Server 2013 auf einem Front-End-Server, der zu dem in Schritt 3 erstellten vertrauenswürdigen Anwendungspool gehört.
+6.  Installieren Sie die lync Server 2013 Resource Kit-Tools auf einem Front-End-Server, der sich in dem vertrauenswürdigen Anwendungspool befindet, den Sie in Schritt 3 erstellt haben.
 
 7.  Gehen Sie wie folgt vor, um sicherzustellen, dass Ihr SEFAUtil-Tool korrekt ausgeführt wird:
     
     1.  Führen Sie das Tool an der Windows-Eingabeaufforderung mit Administratorberechtigungen aus, um die Anrufweiterleistungseinstellungen eines Benutzers in Ihrer Bereitstellung anzuzeigen.
         
+        <div>
+        
 
-        > [!NOTE]
-        > Das Tool befindet sich unter "\Programme\Microsoft Lync Server 2013\Reskit".
+        > [!NOTE]  
+        > Das Tool befindet sich unter \Programme\Microsoft lync Server 2013 \ reskit.
 
+        
+        </div>
     
     2.  Zeigen Sie die Anrufweiterleitungseinstellungen eines Benutzers an. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         
         Die Anrufweiterleitungseinstellungen für den Benutzer werden angezeigt.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,67 +1,109 @@
-﻿---
-title: 'Lync Server 2013: Optionen für Bereitstellungen mit direkten SIP-Verbindungen'
-TOCTitle: Optionen für Bereitstellungen mit direkten SIP-Verbindungen
-ms:assetid: 84691944-03f2-4a89-9f2b-1ab3d7f388cc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398672(v=OCS.15)
-ms:contentKeyID: 49294618
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Optionen für Bereitstellungen mit direkten SIP-Verbindungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Direct SIP deployment options
+ms:assetid: 84691944-03f2-4a89-9f2b-1ab3d7f388cc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398672(v=OCS.15)
+ms:contentKeyID: 48184692
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 277b64346dc17815438f2ac34da58f36d2b150f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832395"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Optionen für Bereitstellungen mit direkten SIP-Verbindungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Optionen für Bereitstellungen mit direkten SIP-Verbindungen in Lync Server 2013
 
-Dieses Thema umfasst Beispieltopologien für die Bereitstellung direkter SIP-Verbindungen.
+</div>
 
-## Eigenständiger Lync Server
+<div id="mainSection">
 
-Wenn in Ihrer Organisation eine der in diesem Abschnitt beschriebenen Bereitstellungen verwendet wird, können Sie die Lync Server 2013 als einzige Telefonielösung für einen Teil oder eine gesamte Organisation nutzen. In diesem Abschnitt werden die folgenden Bereitstellungen ausführlich beschrieben:
+<div id="mainBody">
 
-  - **Inkrementelle Bereitstellung:** bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene Infrastruktur mit Nebenstellenanlage (Private Branch Exchange, PBX) verfügen und Enterprise-VoIP schrittweise für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einführen möchten.
+<span> </span>
 
-  - **Ausschließliche Bereitstellung von Lync Server-VoIP-Funktionen:** Bei dieser Option wird davon ausgegangen, dass Sie die Bereitstellung von Enterprise-VoIP an einem Standort in Betracht ziehen, an dem keine herkömmliche Telefonieinfrastruktur vorhanden ist.
+_**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-## Inkrementelle Bereitstellung
+In diesem Thema finden Sie Beispiel Topologien für die Bereitstellung direkter SIP-Verbindungen.
 
-Bei der inkrementellen Bereitstellung fungiert Lync Server 2013 als alleinige Telefonielösung für einzelne Teams oder Abteilungen, während die übrigen Benutzer der Organisation weiterhin eine Nebenstellenanlage verwenden. Diese inkrementelle Bereitstellungsstrategie bietet eine Möglichkeit, die IP-Telefonie anhand kontrollierter Pilotprogramme in Ihrem Unternehmen einzuführen. Die Arbeitsgruppen, deren Kommunikationsanforderungen am besten mit Microsoft Unified Communications erfüllt werden, werden zu Enterprise-VoIP migriert, während andere Benutzer weiterhin die vorhandene Nebenstellenanlage verwenden. Im Laufe der Zeit können ggf. weitere Arbeitsgruppen zu Enterprise-VoIP migriert werden.
+<div id="sectionSection0" class="section">
 
-Die inkrementelle Bereitstellung wird empfohlen, wenn Sie über eindeutig definierte Benutzergruppen verfügen, die gemeinsame Kommunikationsanforderungen aufweisen und für eine zentrale Verwaltung geeignet sind. Außerdem ist diese Option für Teams oder Abteilungen effektiv, die geografisch weit verteilt sind, sodass deutliche Einsparungen bei den Kosten für Ferngespräche erzielt werden können. Diese Option ist hilfreich für virtuelle Teams, deren Mitglieder möglicherweise weltweit verteilt sind. Sie können solche Teams gemäß wechselnden Unternehmensanforderungen schnell zusammenstellen, ändern oder auflösen.
+<span id="BKMK_CommunicationsServerStand_Alone"></span>
 
-Die folgende Abbildung zeigt die allgemeine Topologie für die Bereitstellung von Enterprise-VoIP hinter einer Nebenstellenanlage. Diese Topologie wird für die inkrementelle Bereitstellung empfohlen.
+<div>
 
-**Inkrementelle Bereitstellung**
+## <a name="lync-server-stand-alone"></a>Lync Server eigenständig
 
-![Abteilungsbezogene Migrationsoption (Diagramm)](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Abteilungsbezogene Migrationsoption (Diagramm)")
+Wenn in Ihrer Organisation eine der in diesem Abschnitt beschriebenen Bereitstellungen verwendet wird, können Sie lync Server 2013 als einzige Telefonlösung für einen Teil oder eine ganze Organisation verwenden. This section describes the following deployments in detail:
+
+  - **Inkrementelle Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene PBX-Infrastruktur (Private Branch Exchange) verfügen und beabsichtigen, Enterprise-VoIP inkrementell für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einzuführen.
+
+  - **Reine lync Server-Bereitstellung:** bei dieser Option wird davon ausgegangen, dass Sie die Bereitstellung von Enterprise-VoIP an einer Website erwägen, die keine herkömmliche Telefonie-Infrastruktur aufweist.
+
+<div>
+
+## <a name="incremental-deployment"></a>Incremental Deployment
+
+Bei der inkrementellen Bereitstellung ist lync Server 2013 die einzige Telefonlösung für einzelne Teams oder Abteilungen, während die restlichen Benutzer in einer Organisation weiterhin eine Telefonanlage verwenden. This incremental deployment strategy provides one way to introduce IP telephony into your enterprise through controlled pilot programs. Arbeitsgruppen, deren Kommunikationsanforderungen am besten von Microsoft Unified Communications erfüllt werden, werden in Enterprise-VoIP verschoben, während andere Benutzer auf der vorhandenen Telefonanlage verbleiben. Zusätzliche Arbeitsgruppen können nach Bedarf in Enterprise-VoIP migriert werden.
+
+The incremental option is recommended if you have clearly defined user groups that have communication requirements in common and that lend themselves to centralized management. This option is also effective if you have teams or departments that are spread over wide geographic areas, where the savings in long-distance charges can be significant. In fact, this option is useful for creating virtual teams whose members may be scattered across the globe. You can create, modify, or disband such teams in rapid response to shifting business requirements.
+
+Die folgende Abbildung zeigt die generische Topologie für die Bereitstellung von Enterprise-VoIP hinter einer Telefonanlage. This is the recommended topology for incremental deployment.
+
+**Incremental deployment option**
+
+![Diagramm zur Option] für die Abteilungs Migration (images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagramm zur Option") für die Abteilungs Migration
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie Ihre Lync Server-Bereitstellung mit einem zertifizierten Partner für direkte SIP-Verbindungen verbinden, ist kein PSTN-Gateway zwischen dem Vermittlungsserver und der Nebenstellenanlage erforderlich. Eine Liste mit zertifizierten Partnern für direkte SIP-Verbindungen finden Sie auf der Website für das Microsoft Unified Communications Open Interoperability Program unter <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
+> [!NOTE]  
+> Wenn Sie Ihre lync Server-Bereitstellung mit einem zertifizierten direkten SIP-Partner verbinden, ist kein PSTN-Gateway (Public Switched Telephone Network) zwischen dem Vermittlungsserver und der Telefonanlage erforderlich. Eine Liste der zertifizierten Direct SIP-Partner finden Sie auf <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>der Microsoft Unified Communications Open Interoperability Program-Website unter.
 
 
 
+</div>
 
-> [!NOTE]
-> Für den in dieser Abbildung gezeigten Medienpfad wurde die Medienumgehung aktiviert (empfohlene Konfiguration). Wenn Sie die Medienumgehung deaktivieren, wird der Medienpfad durch den Vermittlungsserver geleitet.
+<div>
+
+
+> [!NOTE]  
+> The media path shown in this figure has media bypass enabled (the recommended configuration). Wenn Sie sich entscheiden, die medienumgehung zu deaktivieren, wird der Medienpfad über den Vermittlungs Server weitergeleitet.
 
 
 
-In dieser Topologie werden ausgewählte Abteilungen oder Arbeitsgruppen für Enterprise-VoIP aktiviert. Die VoIP-Arbeitsgruppe wird über ein PSTN-Gateway mit der Nebenstellenanlage verbunden. Die für Enterprise-VoIP aktivierten Benutzer - Remotemitarbeiter eingeschlossen - kommunizieren über ein IP-Netzwerk miteinander. Anrufe von Enterprise-VoIP-Benutzern bei PSTN-Telefonen oder bei Mitarbeitern, die nicht für Enterprise-VoIP aktiviert sind, werden an das entsprechende PSTN-Gateway weitergeleitet. Anrufe von Mitarbeitern, die noch die Nebenstellenanlage verwenden, oder von Anrufern im Telefonfestnetz werden an das PSTN-Gateway gesendet und von dort zum Routing an Lync Server weitergeleitet.
+</div>
 
-Für die Verbindung von Enterprise-VoIP mit einer vorhandenen Nebenstellenanlageninfrastruktur werden zwei Konfigurationen empfohlen, um Interoperabilität sicherzustellen: Enterprise-VoIP hinter der Nebenstellenanlage und Enterprise-VoIP vor der Nebenstellenanlage.
+In dieser Topologie sind ausgewählte Abteilungen oder Arbeitsgruppen für Enterprise-VoIP aktiviert. A PSTN gateway links the Voice over Internet Protocol (VoIP)-enabled workgroup to the PBX. Benutzer, die für Enterprise-VoIP aktiviert sind, einschließlich Remotemitarbeitern, kommunizieren über das IP-Netzwerk. Anrufe von Enterprise-VoIP-Benutzern an das PSTN und an Kollegen, die nicht für Enterprise-VoIP aktiviert sind, werden an das entsprechende PSTN-Gateway weitergeleitet. Anrufe von Kollegen, die sich noch im PBX-System befinden, oder von Anrufern im PSTN, werden an das PSTN-Gateway weitergeleitet, das die Anrufe an den lync-Server für das Routing weiterleitet.
 
-## Enterprise-VoIP hinter der Nebenstellenanlage
+Es gibt zwei Empfohlene Konfigurationen für die Verbindung von Enterprise-VoIP zu einer vorhandenen PBX-Infrastruktur für die Interoperabilität: Enterprise-VoIP hinter der Telefonanlage und Enterprise-VoIP vor der Telefonanlage.
 
-Wenn Enterprise-VoIP hinter der Nebenstellenanlage bereitgestellt wird, werden alle Anrufe aus dem Festnetz an der Nebenstellenanlage empfangen, die Anrufe an Enterprise-VoIP-Benutzer an ein PSTN-Gateway und Anrufe an Nebenstellenanlagenbenutzer an die Nebenstellenanlage weiterleitet.
+<div>
 
-## Enterprise-VoIP vor der Nebenstellenanlage
+## <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice Behind the PBX
 
-Wenn Enterprise-VoIP vor der Nebenstellenanlage bereitgestellt wird, werden alle Anrufe am PSTN-Gateway empfangen, das Anrufe für Enterprise-VoIP-Benutzer an Lync Server und Anrufe für Nebenstellenanlagenbenutzer an die Nebenstellenanlage weiterleitet. Anrufe an das Telefonfestnetz von Benutzern mit Enterprise-VoIP und von Benutzern der Nebenstellenanlage werden über das IP-Netzwerk an das kosteneffizienteste PSTN-Gateway weitergeleitet. In der folgenden Tabelle werden die Vor- und Nachteile dieser Konfiguration dargestellt.
+Wenn Enterprise-VoIP hinter der Telefonanlage bereitgestellt wird, kommen alle Anrufe vom PSTN an die Telefonanlage, die Anrufe an Enterprise-VoIP-Benutzer an ein PSTN-Gateway weiterleitet, und Anrufe an PBX-Benutzer an die Telefonanlage.
 
-### Vor- und Nachteile der Bereitstellung von Enterprise-VoIP vor einer Nebenstellenanlage
+</div>
+
+<div>
+
+## <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise Voice in Front of the PBX
+
+Wenn Enterprise-VoIP vor der Telefonanlage bereitgestellt wird, kommen alle Anrufe an das PSTN-Gateway, das Anrufe an Enterprise-VoIP-Benutzer an den lync-Server weiterleitet und für PBX-Benutzer an die Telefonanlage anruft. Anrufe an das PSTN von Enterprise-VoIP-und PBX-Benutzern werden über das IP-Netzwerk an das kostengünstigste PSTN-Gateway weitergeleitet. The following table shows the advantages and disadvantages of this configuration.
+
+### <a name="advantages-and-disadvantages-of-deploying-enterprise-voice-in-front-of-pbx"></a>Vor-und Nachteile der Bereitstellung von Enterprise-VoIP vor einer Telefonanlage
 
 <table>
 <colgroup>
@@ -70,47 +112,78 @@ Wenn Enterprise-VoIP vor der Nebenstellenanlage bereitgestellt wird, werden alle
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vorteile</th>
-<th>Nachteile</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Die Nebenstellenanlage bedient weiterhin die Benutzer, die nicht für Enterprise-VoIP aktiviert sind.</p></td>
-<td><p>Die vorhandenen Gateways unterstützen möglicherweise die gewünschten Funktionen oder Kapazitäten nicht.</p></td>
+<td><p>PBX bietet weiterhin Benutzern, die nicht für Enterprise-VoIP aktiviert sind.</p></td>
+<td><p>Existing gateways may not support the features or capacity that you want.</p></td>
 </tr>
 <tr class="even">
-<td><p>Die Nebenstellenanlage steuert alle älteren Geräte.</p></td>
-<td><p>Notwendigkeit eines Trunks vom Gateway zur Nebenstellenanlage und vom Gateway zum Vermittlungsserver. Möglicherweise benötigen Sie weitere Trunks vom Dienstanbieter.</p></td>
+<td><p>PBX handles all earlier devices.</p></td>
+<td><p>Erfordert einen trunk vom Gateway zur Telefonanlage und vom Gateway zum Vermittlungs Server. You may need more trunks from the service provider.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Enterprise-VoIP-Benutzer behalten ihre Rufnummern.</p></td>
+<td><p>Enterprise-VoIP-Benutzer behalten die gleichen Telefonnummern.</p></td>
 <td><p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Ausschließliche Bereitstellung von Lync Server-VoIP-Funktionen
+</div>
 
-Enterprise-VoIP ermöglicht neuen Unternehmen sowie bestehenden Unternehmen mit neuen Niederlassungen die Implementierung einer VoIP-Lösung mit vollem Funktionsumfang, ohne dabei die Integration einer Nebenstellenanlage berücksichtigen oder die erheblichen Kosten für Bereitstellung und Betrieb einer Infrastruktur mit IP-Nebenstellenanlage tragen zu müssen. Diese Lösung unterstützt sowohl Mitarbeiter am Standort als auch Remotemitarbeiter.
+</div>
 
-In dieser Bereitstellung werden die Anrufe über das IP-Netzwerk weitergeleitet. Anrufe an das Festnetz werden an das entsprechende PSTN-Gateway weitergeleitet. Lync 2013 oder Lync Phone Edition werden als Softphones eingesetzt. Die Remoteanrufsteuerung ist nicht verfügbar und nicht erforderlich, da keine Nebenstellentelefone für Benutzer gesteuert werden müssen. Voicemail und eine automatische Telefonzentrale sind optional über Exchange Unified Messaging (UM) verfügbar.
+<div>
 
+## <a name="lync-server-voip-only-deployment"></a>Nur-VoIP-Bereitstellung von lync Server
 
-> [!NOTE]
-> Zusätzlich zur Netzwerkinfrastruktur, die zur Unterstützung von Lync Server 2013 erforderlich ist, kann bei ausschließlicher Bereitstellung von VoIP-Funktionen ein kleines, qualifiziertes Gateway zur Unterstützung von Fax- und analogen Geräten verwendet werden.
+Enterprise-VoIP bietet neuen Unternehmen und auch neuen Office-Websites für vorhandene Unternehmen die Möglichkeit, eine vollständige VoIP-Lösung zu implementieren, ohne sich um die Integration von Telefonanlagen zu kümmern oder um eine beträchtliche Bereitstellung und Wartung zu vermeiden. Kosten einer IP-PBX-Infrastruktur. This solution supports both on-site and remote workers.
 
+In this deployment, all calls are routed over the IP network. Calls to the PSTN are routed to the appropriate PSTN gateway. Lync 2013 oder lync Phone Edition dient als Softphone. Remote call control is unavailable and unnecessary because there are no PBX phones for users to control. Voicemail-und automatische Telefonzentralendienste stehen über die optionale Bereitstellung von Exchange Unified Messaging (um) zur Verfügung.
 
-
-In der folgenden Abbildung wird eine typische Topologie für die ausschließliche Bereitstellung von VoIP-Funktionen dargestellt.
-
-**Ausschließliche Bereitstellung von VoIP-Funktionen**
-
-![Greenfidle-Bereitstellungsoption](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Greenfidle-Bereitstellungsoption")
+<div>
 
 
-> [!NOTE]
-> Für den in dieser Abbildung gezeigten Medienpfad wurde die Medienumgehung aktiviert (empfohlene Konfiguration). Wenn Sie die Medienumgehung deaktivieren, wird der Medienpfad durch den Vermittlungsserver geleitet.
+> [!NOTE]  
+> Zusätzlich zur Netzwerkinfrastruktur, die für die Unterstützung von lync Server 2013 erforderlich ist, kann eine reine VoIP-Bereitstellung ein kleines, qualifiziertes Gateway zur Unterstützung von Faxgeräten und analogen Geräten verwenden.
 
+
+
+</div>
+
+The following figure shows a typical topology for a VoIP-only deployment.
+
+**VoIP-only deployment option**
+
+![Greenfidle-Bereitstellungsoption] (images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Greenfidle-Bereitstellungsoption")
+
+<div>
+
+
+> [!NOTE]  
+> The media path shown in this figure has media bypass enabled (the recommended configuration). Wenn Sie sich entscheiden, die medienumgehung zu deaktivieren, wird der Medienpfad über den Vermittlungs Server weitergeleitet.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

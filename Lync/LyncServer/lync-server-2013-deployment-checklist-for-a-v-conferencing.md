@@ -1,29 +1,55 @@
-﻿---
-title: Prüfliste zur Bereitstellung für A/V-Konferenzen in Lync Server 2013
-TOCTitle: Prüfliste zur Bereitstellung für A/V-Konferenzen in Lync Server 2013
-ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619183(v=OCS.15)
-ms:contentKeyID: 49294331
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013-Bereitstellungscheckliste für A/V-Konferenzen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for A/V conferencing
+ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619183(v=OCS.15)
+ms:contentKeyID: 49733684
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2d787cbc1e2bbefcc2cb125e64ab7143ddbd6cf2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832507"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prüfliste zur Bereitstellung für A/V-Konferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="deployment-checklist-for-av-conferencing-in-lync-server-2013"></a>Bereitstellungscheckliste für A/V-Konferenzen in lync Server 2013
 
-Wie bei der Bereitstellung Ihrer anderen Lync Server 2013-Komponenten ist es auch für die Bereitstellung von A/V-Konferenzen erforderlich, dass Sie mit dem Topologie-Generator eine Topologie erstellen und veröffentlichen, die die Konferenzfunktion integriert.
+</div>
 
-## Bereitstellungsreihenfolge
+<div id="mainSection">
 
-Sie können die Konferenzfunktion gleichzeitig mit Ihrer anfänglichen Topologie bereitstellen oder nachdem Sie mindestens einen Front-End-Pool oder Standard Edition-Server bereitgestellt haben.
+<div id="mainBody">
 
-## Bereitstellungsprozess für die Konferenzfunktion
+<span> </span>
 
-Die folgende Tabelle zeigt eine Übersicht über die für die Bereitstellung der Konferenzfunktion in einer vorhandenen Topologie erforderlichen Schritte.
+_**Letztes Änderungsdatum des Themas:** 2012-09-30_
+
+Wie bei der Bereitstellung Ihrer anderen lync Server 2013-Komponenten erfordert die Bereitstellung von a/V-Konferenzen, dass Sie den Topologie-Generator verwenden, um eine Topologie zu erstellen und zu veröffentlichen, in der Konferenzen integriert sind.
+
+<div>
+
+## <a name="deployment-sequence"></a>Bereitstellungssequenz
+
+Sie können Konferenzen gleichzeitig bereitstellen, indem Sie Ihre anfängliche Topologie bereitstellen oder nachdem Sie mindestens einen Front-End-Pool oder Standard Edition-Server bereitgestellt haben.
+
+</div>
+
+<div>
+
+## <a name="conferencing-deployment-process"></a>Konferenz Bereitstellungsprozess
+
+Die folgende Tabelle enthält eine Übersicht über die erforderlichen Schritte zum Bereitstellen von Konferenzen in einer vorhandenen Topologie.
 
 
 <table>
@@ -43,43 +69,58 @@ Die folgende Tabelle zeigt eine Übersicht über die für die Bereitstellung der
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Installieren der vorausgesetzten Hardware und Software</strong></p></td>
-<td><p>Konferenzen können auf Front-End-Server auf einem Front-End-Pool und Standard Edition-Server ausgeführt werden. Die Hardware- und Softwarevoraussetzungen für die Installation dieser Server sind ausreichend.</p>
+<td><p><strong>Installieren der erforderlichen Hardware und Software</strong></p></td>
+<td><p>Konferenzen werden auf Front-End-Servern eines Front-End-Pools und von Standard Edition-Servern ausgeführt. Abgesehen von den herkömmlichen Anforderungen zur Installation dieser Server bestehen keine zusätzlichen Hardware- oder Softwareanforderungen.</p>
 <div>
 
-> [!NOTE]
-> Lync Server 2013 verwendet Office Web Apps und den Office Web Apps-Server zum Verarbeiten und Rendern von PowerPoint-Präsentationen. Ausführliche Informationen zur Installation und Konfiguration desOffice Web Apps-Servers erhalten Sie im Abschnitt <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</A>.
+> [!NOTE]  
+> In lync Server 2013 werden Office Web Apps und der Office Web Apps-Server verwendet, um die Freigabe und das Rendern von PowerPoint-Präsentationen zu verarbeiten. Details zum Installieren und Konfigurieren des Office Web Apps-Servers finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration in Office Web Apps Server und lync Server 2013</A>.
 
 
 </div></td>
 <td><p>Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für Lync Server 2013</a> in der Unterstützungsdokumentation</p>
-<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Serversoftware- und Infrastrukturunterstützung in Lync Server 2013</a> in der Unterstützungsdokumentation</p>
-<p><a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln Ihrer Systemanforderungen für Lync Server 2013</a> in der Planungsdokumentation.</p>
-<p><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Anforderungen für die Archivierung in Lync Server 2013</a> in der Planungsdokumentation.</p>
-<p></p></td>
+<td><p><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> in der Dokumentation zur Unterstützung</p>
+<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Unterstützung für Server Software und-Infrastruktur in lync Server 2013</a> in der Dokumentation zur Unterstützung</p>
+<p><a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln der Systemanforderungen für lync Server 2013</a> in der Planungsdokumentation</p>
+<p><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Voraussetzungen für die Archivierung in lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Erstellen der geeigneten internen Topologie zur Unterstützung der Konferenzfunktion</strong></p></td>
-<td><p>Führen Sie den Topologie-Generator aus, um der Topologie die Konferenzfunktion hinzuzufügen, und veröffentlichen Sie die Topologie anschließend.</p></td>
+<td><p><strong>Erstellen der geeigneten internen Topologie zur Unterstützung von Konferenzen</strong></p></td>
+<td><p>Führen Sie den Topologie-Generator aus, um der Topologie Konferenzen hinzuzufügen, und veröffentlichen Sie dann die Topologie.</p></td>
 <td><p>Zum Definieren einer Topologie: Konto, das Mitglied der lokalen Benutzergruppe ist</p>
-<p>Zum Veröffentlichen der Topologie: Konto, das Mitglied der Gruppen &quot;Domänen-Admins&quot; und &quot;RTCUniversalServerAdmins&quot; ist und über Vollzugriff (Lesen/Schreiben/Ändern) für die Dateifreigabe verfügt, auf der sich der Lync Server 2013 Dateispeicher befindet (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann)</p></td>
-<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und Konfigurieren einer Topologie für Lync Server 2013 im Topologie-Generator</a> in der Bereitstellungsdokumentation.</p></td>
+<p>So veröffentlichen Sie die Topologie: ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und das Vollzugriffsberechtigungen (Lesen/Schreiben/ändern) für die Dateifreigabe hat, die für den lync Server 2013-Dateispeicher verwendet werden soll (damit der Topologie-Generator Konfigurieren der erforderlichen DACLs</p></td>
+<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und konfigurieren Sie eine Topologie im Topologie-Generator für lync Server 2013</a> in der Bereitstellungsdokumentation.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Konfigurieren von Richtlinien und Unterstützung für die Konferenzfunktion</strong></p></td>
-<td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell, um die Einstellungen für die Konferenzfunktion zu konfigurieren.</p></td>
-<td><p>Gruppe &quot;RTCUniversalServerAdmins&quot; (nur Windows PowerShell) oder Zuweisung von Benutzern zur Rolle [] oder &quot;CSAdministrator&quot;</p></td>
-<td><p><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in Lync Server 2013</a> in der Betriebsdokumentation.</p></td>
+<td><p><strong>Konfigurieren von Konferenzrichtlinien und-Support</strong></p></td>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell, um Konferenzeinstellungen zu konfigurieren.</p></td>
+<td><p>RTCUniversalServerAdmins-Gruppe (nur Windows PowerShell) oder Zuweisen von Benutzern zur []-oder CSAdministrator-Rolle</p></td>
+<td><p><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in lync Server 2013</a> in der Betriebsdokumentation.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Übersicht über Konferenzen in Lync Server 2013](lync-server-2013-overview-of-conferencing.md)  
-[Definieren der Anforderungen für Konferenzen in Lync Server 2013](lync-server-2013-defining-your-requirements-for-conferencing.md)
+[Definieren der Anforderungen für Konferenzen in Lync Server 2013](lync-server-2013-defining-your-requirements-for-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

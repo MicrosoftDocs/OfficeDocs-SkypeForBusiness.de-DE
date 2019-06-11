@@ -1,44 +1,83 @@
-﻿---
-title: 'Lync Server 2013: DNS-Infrastrukturunterstützung'
-TOCTitle: DNS-Infrastrukturunterstützung (Domain Name System)
-ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425850(v=OCS.15)
-ms:contentKeyID: 49293677
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS-Infrastrukturunterstützung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Domain Name System (DNS) infrastructure support
+ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425850(v=OCS.15)
+ms:contentKeyID: 48183878
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9aa9670761e16032abf0c205bbb740cbe1f43c4a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832374"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS-Infrastrukturunterstützung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a>DNS-Infrastrukturunterstützung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-03-08_
 
-Lync Server 2013 erfordert DNS (Domain Name System) und setzt es folgendermaßen ein:
+Lync Server 2013 erfordert DNS (Domain Name System) und verwendet es wie folgt:
 
-  - Zum Erkennen interner Server oder Pools für die Kommunikation zwischen Servern.
+  - Ermitteln interner Server oder Pools für die Server-zu-Server-Kommunikation.
 
-  - Damit Clients den Front-End-Pool oder den Standard Edition-Server erkennen können, der für verschiedene SIP-Transaktionen verwendet wird.
+  - Damit Clients den Front-End-Pool oder Standard Edition-Server ermitteln können, der für verschiedene SIP-Transaktionen verwendet wird.
 
-  - Zum Zuordnen der einfachen URLs für Konferenzen zu den Servern, auf denen diese Konferenzen gehostet werden.
+  - Zuordnen der einfachen URLs für Konferenzen zu den Servern, die diese Konferenzen hosten
 
-  - Damit externe Server und Clients für Sofortnachrichten oder für Konferenzen eine Verbindung mit Edgeservern oder dem HTTP-Reverseproxy herstellen können.
+  - So aktivieren Sie externe Server und Clients zum Herstellen einer Verbindung mit Edgeserver oder dem HTTP-Reverseproxy für Instant Messaging (im) oder Konferenzen
 
-  - Damit nicht angemeldete UC-Geräte (Unified Communications) den Front-End-Pool oder den Standard Edition-Server ermitteln können, auf dem der Geräteaktualisierungswebdienst ausgeführt wird, sowie Updates abrufen und Protokolle senden können.
+  - Wenn Sie Unified Communications (UC)-Geräte aktivieren möchten, die nicht angemeldet sind, um den Front-End-Pool oder den Standard Edition-Server mit dem Geräte Update-Webdienst zu entdecken, beziehen Sie Updates, und senden Sie Protokolle.
 
-  - Damit mobile Clients automatisch Webdienstressourcen ermitteln können, ohne dass Benutzer in den Geräteeinstellungen manuell URLs eingeben müssen.
+  - Damit Mobile Clients automatisch Webdienste-Ressourcen ermitteln können, ohne dass die Benutzer URLs in den Geräteeinstellungen manuell eingeben müssen.
 
-  - Zum DNS-Lastenausgleich.
+  - Für den DNS-Lastenausgleich.
 
-
-> [!NOTE]
-> Lync Server 2013 unterstützt keine internationalisierten Domänennamen (IDNs).
+<div>
 
 
+> [!NOTE]  
+> Lync Server 2013 unterstützt keine Internationalisierungs Domänennamen (IDNs).
 
 
-> [!IMPORTANT]
-> Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet FQDNs und keine Kurznamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. <STRONG>Verwenden Sie nur Standardzeichen</STRONG> (also A – Z, a – z, 0 – 9 und Bindestriche) beim Zuweisen von FQDNs der Server mit Lync&nbsp;Server, Edgeserver und Pools. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
 
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. <STRONG>Verwenden Sie nur Standardzeichen</STRONG> (also A – Z, a – z, 0 – 9 und Bindestriche) beim Zuweisen von FQDNs der Server mit Lync Server, Edgeserver und Pools. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

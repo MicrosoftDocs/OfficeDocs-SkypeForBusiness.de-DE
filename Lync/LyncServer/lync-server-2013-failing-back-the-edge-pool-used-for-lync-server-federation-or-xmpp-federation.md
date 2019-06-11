@@ -1,70 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Ausführen eines Failbacks für den Edgepool, der für den Lync Server- oder XMPP-Partnerverbund verwendet wird'
-TOCTitle: Ausführen eines Failbacks für den Edgepool, der für den Lync Server- oder XMPP-Partnerverbund verwendet wird
-ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721897(v=OCS.15)
-ms:contentKeyID: 49890961
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Ausführen eines Failbacks für den Edgepool, der für den Lync Server- oder XMPP-Partnerverbund verwendet wird
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failing back the Edge pool used for Lync Server federation or XMPP federation
+ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721897(v=OCS.15)
+ms:contentKeyID: 49733831
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d75e4dbe8265050d30620b0ecbdd1992b480106e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832186"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen eines Failbacks für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>Ausführen eines Failbacks für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Nachdem ein ausgefallener Edgepool, von dem der Partnerverbund gehostet wurde, wieder online geschaltet wurde, führen Sie mit diesem Verfahren ein Failback für die Lync Server-Partnerverbundroute und/oder die XMPP-Partnerverbundroute aus, um den wiederhergestellten Edgepool wiederzuverwenden.
+Nachdem ein ausgefallener Edge-Pool, der zum Hosten der Föderation verwendet wurde, wieder online geschaltet wurde, verwenden Sie dieses Verfahren zum Zurücksetzen der lync Server-Föderations Route und/oder der XMPP-Föderations Route, um diesen wiederhergestellten Edge-Pool erneut zu verwenden.
 
-## Ausführen eines Failbacks für den Partnerverbund für einen wiederhergestellten Edgepool
+<div>
 
-1.  Starten Sie auf dem Edgepool, der nun wieder verfügbar ist, die Edgedienste.
+## <a name="failing-back-federation-to-a-restored-edge-pool"></a>Fehler beim Zurücksetzen des Verbund zu einem wiederhergestellten Edge-Pool
 
-2.  Führen Sie die folgenden Aktionen aus, wenn Sie ein Failback für die Lync Server-Partnerverbundroute ausführen möchten, um den wiederhergestellten Edgeserver zu verwenden:
-    
-      - Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie **Edgepools** , und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder Edgeserver-Pool, der aktuell für den Partnerverbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten** aus.
-    
-      - Deaktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** . Klicken Sie auf **OK** .
-    
-      - Erweitern Sie **Edgepools** , und klicken Sie dann mit der rechten Maustaste auf den ursprünglichen Edgeserver oder Edgeserver-Pool, den Sie wieder für den Partnerverbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten** aus.
-    
-      - Aktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** . Klicken Sie auf **OK** .
-    
-      - Klicken Sie auf **Aktion** , wählen Sie **Topologie** aus, und wählen Sie **Veröffentlichen** aus. Wenn eine entsprechende Eingabeaufforderung angezeigt wird, klicken Sie in **Topologie veröffentlichen** auf **Weiter** . Klicken Sie auf **Fertig stellen** , wenn die Veröffentlichung abgeschlossen ist.
-    
-      - Öffnen Sie auf dem Edgeserver den Lync Server-Bereitstellungs-Assistenten. Klicken Sie auf **Lync Server-System installieren oder aktualisieren** , und klicken Sie dann auf **Lync Server-Komponenten einrichten oder entfernen** . Klicken Sie auf **Erneut ausführen** .
-    
-      - Klicken Sie auf der Seite Lync Server-Komponenten einrichten auf **Weiter** . Im Zusammenfassungsbildschirm werden die ausgeführten Aktionen angezeigt. Nach Abschluss der Bereitstellung klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
+1.  Starten Sie in dem jetzt wieder verfügbaren Edge-Pool die Edge-Dienste.
 
-3.  Führen Sie die folgenden Aktionen aus, wenn Sie ein Failback für die XMPP-Partnerverbundroute ausführen möchten, um den wiederhergestellten Edgeserver zu verwenden:
+2.  Gehen Sie wie folgt vor, wenn Sie die lync Server-Föderations Route zur Verwendung des wiederhergestellten Edge-Servers zurücksetzen möchten:
     
-      - Führen Sie das folgende Cmdlet aus, um die XMPP-Partnerverbundroute erneut auf den Edgepool zu verweisen, von dem nun der XMPP-Partnerverbund gehostet wird (in diesem Beispiel EdgeServer1 ):
+      - Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder den Edgeserver-Pool, der derzeit für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**aus.
+    
+      - Deaktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
+    
+      - Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den ursprünglichen Edge-Server oder den Edgeserver-Pool, den Sie erneut für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**aus.
+    
+      - Wählen Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)** aus. Klicken Sie auf **OK**.
+    
+      - Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, und wählen Sie **veröffentlichen**aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen**, klicken Sie auf **weiter**. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+    
+      - Öffnen Sie auf dem Edgeserver den lync Server-Bereitstellungs-Assistenten. Klicken Sie auf **lync Server System installieren oder aktualisieren**und dann auf **lync Server-Komponenten einrichten oder entfernen**. Klicken Sie **erneut auf Ausführen**.
+    
+      - Klicken Sie bei der Installation von lync Server-Komponenten auf **weiter**. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
+
+3.  Gehen Sie wie folgt vor, wenn Sie die XMPP-Föderations Route zur Verwendung des wiederhergestellten Edge-Servers zurücksetzen möchten:
+    
+      - Führen Sie das folgende Cmdlet aus, um die XMPP-Föderations Route an den Edge-Pool zu verweisen, der nun XMPP-Föderation hostet (in diesem Beispiel EdgeServer1):
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        In diesem Beispiel ist Site1 der Standort, der den Edgepool enthält, von dem nun die XMPP-Partnerverbundroute gehostet wird. EdgeServer1.contoso.com ist der vollqualifizierte Domänenname (FQDN) eines Edgeservers in diesem Pool.
+        In diesem Beispiel ist site1 die Website, die den Edge-Pool enthält, auf dem nun die XMPP-Föderations Route gehostet wird, und EdgeServer1.contoso.com ist der FQDN eines Edgeserver in diesem Pool.
     
-      - Falls Sie noch keinen DNS-SRV-Eintrag für den XMPP-Partnerverbund haben, der in den Edgepool aufgelöst wird, von dem nun der XMPP-Partnerverbund gehostet wird, müssen Sie ihn wie im folgenden Beispiel dargestellt hinzufügen. Für diesen SRV-Eintrag ist der Portwert 5269 erforderlich.
+      - Wenn Sie noch keinen DNS-SRV-Eintrag für die XMPP-Föderation haben, der in den Edge-Pool aufgelöst wird, der nun XMPP-Föderation hostet, müssen Sie ihn wie im folgenden Beispiel hinzufügen. Dieser SRV-Eintrag muss einen Portwert von 5269 aufweisen.
         
             _xmpp-server._tcp.contoso.com
     
-      - Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für den XMPP-Partnerverbund, sodass er auf EdgeServer2.contoso.com verweist.
+      - Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für XMPP-Föderation, um auf EdgeServer2.contoso.com zu verweisen.
     
-      - Überprüfen Sie, ob für den Edgepool, von dem nun der XMPP-Partnerverbund gehostet wird, der Port 5269 extern geöffnet ist.
+      - Überprüfen Sie, ob der Edge-Pool, auf dem nun der XMPP-Verbund gehostet wird, Port 5269 extern geöffnet hat.
 
-4.  Falls die Front-End-Pools weiter an dem Standort ausgeführt werden, der den ausgefallenen und inzwischen wiederhergestellten Edgepool enthält, sollten Sie den Webkonferenzdienst und den A/V-Konferenzdienst auf diesen Front-End-Pools aktualisieren, sodass wieder die Edgepools am lokalen Standort verwendet werden. Weitere Informationen finden Sie unter [Ändern des einem Front-End-Pool zugeordneten Edgepools in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+4.  Wenn die Front-End-Pools weiterhin auf der Website mit dem fehlerhaften Edge-Pool ausgeführt wurden und wiederhergestellt wurden, sollten Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End-Pools aktualisieren, um die Edge-Pools auf der lokalen Website erneut zu verwenden. Weitere Informationen finden Sie unter [Ändern des Edge-Pools, der einem Front-End-Pool in lync Server 2013 zugeordnet](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)ist.
 
-5.  Falls der Front-End-Pool am selben Standort wie der ausgefallene Edgepool ebenfalls ausgefallen ist, können Sie nun mit Invoke-CsPoolFailback ein Failback auf den Front-End-Pool ausführen.
+5.  Wenn der Front-End-Pool am gleichen Standort wie der fehlerhafte Edge-Pool ebenfalls fehlgeschlagen ist, können Sie jetzt Invoke – CsPoolFailback verwenden, um den Front-End-Pool zurückzukehren.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  
 [Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den XMPP-Partnerverbund verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
 
-#### Konzepte
 
-[Notfallwiederherstellung für Edgeserver in Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
+[Notfallwiederherstellung für Edgeserver in Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
