@@ -1,53 +1,97 @@
-﻿---
-title: Konfigurieren von Netzwerkstandorten für die Anrufsteuerung in Lync Server 2013
-TOCTitle: Konfigurieren von Netzwerkstandorten für die Anrufsteuerung in Lync Server 2013
-ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412840(v=OCS.15)
-ms:contentKeyID: 49295105
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Netzwerk Websites für CAC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure network sites for CAC
+ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412840(v=OCS.15)
+ms:contentKeyID: 48185144
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 528ed67243fb0ab0451abf504a458afc420d94ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839341"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Netzwerkstandorten für die Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-05_
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="447ce-102">Konfigurieren von Netzwerk Websites für CAC in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="447ce-102">Configure network sites for CAC in Lync Server 2013</span></span>
 
+</div>
 
-> [!IMPORTANT]
-> Wenn Sie bereits Netzwerkstandorte für E9-1-1 oder die Medienumgehung erstellt haben, können Sie mithilfe des Cmdlets <STRONG>Set-CsNetworkSite</STRONG> die vorhandenen Netzwerkstandorte ändern, um ein Bandbreitenrichtlinienprofil anzuwenden. Ein Beispiel für die Änderung eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A>.
+<div id="mainSection">
 
+<div id="mainBody">
 
+<span> </span>
 
-Bei *Netzwerkstandorten* handelt es sich um Büros oder Zweigstellen innerhalb der einzelnen Netzwerkregionen von Bereitstellungen mit Anrufsteuerung (Call Admission Control, CAC), E9-1-1 und Medienumgehung. Erstellen Sie mithilfe der folgenden Verfahren Netzwerkstandorte gemäß denen in der Beispielnetzwerktopologie für CAC. Diese Verfahren zeigen die Erstellung und Konfiguration von Netzwerkstandorten, deren WAN-Bandbreite eingeschränkt ist und die daher Bandbreitenrichtlinien zur Begrenzung des in Echtzeit übertragenen Audio- und Videodatenverkehrs erfordern.
+<span data-ttu-id="447ce-103">_**Letztes Änderungsdatum des Themas:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="447ce-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-In der CAC-Beispielbereitstellung weist die Region "Nordamerika" sechs Standorte auf. An drei dieser Standorte ist die WAN-Bandbreite eingeschränkt: "Reno", "Portland" und "Albuquerque". Die WAN-Bandbreite der anderen drei Standorte ist *nicht* eingeschränkt: "New York", "Chicago" und "Detroit". Ein Beispiel für die Erstellung oder Änderung dieser Netzwerkstandorte finden Sie unter [Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
-
-Die Beispielnetzwerktopologie finden Sie unter [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
-
-
-> [!NOTE]
-> Im folgenden Verfahren wird die Lync Server-Verwaltungsshell zum Erstellen eines Netzwerkstandorts verwendet. Ausführliche Informationen zur Verwendung der Lync Server-Systemsteuerung zum Erstellen eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A>.
+<div class=" ">
 
 
+> [!IMPORTANT]  
+> <span data-ttu-id="447ce-104">Wenn Sie bereits Netzwerk Websites für E9-1-1 oder Media Bypass erstellt haben, können Sie die vorhandenen Netzwerk Websites so ändern, dass ein bandbreitenrichtlinienprofil mithilfe des Cmdlets " <STRONG>CsNetworkSite</STRONG> " angewendet wird.</span><span class="sxs-lookup"><span data-stu-id="447ce-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="447ce-105">Ein Beispiel für das Ändern einer Netzwerk Website finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="447ce-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
-## So erstellen Sie einen Netzwerkstandort für die Anrufsteuerung
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerkstandorte zu erstellen und ein geeignetes Bandbreitenrichtlinienprofil auf jeden Standort anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
+</div>
+
+<span data-ttu-id="447ce-106">*Netzwerk Websites* sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen.</span><span class="sxs-lookup"><span data-stu-id="447ce-106">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments.</span></span> <span data-ttu-id="447ce-107">Führen Sie die folgenden Verfahren aus, um Netzwerk Websites zu erstellen, die in der Beispiel Netzwerktopologie für CAC an Netzwerk Websites ausgerichtet sind.</span><span class="sxs-lookup"><span data-stu-id="447ce-107">Use the following procedures to create network sites that align to network sites in the example network topology for CAC.</span></span> <span data-ttu-id="447ce-108">In diesen Verfahren wird gezeigt, wie Netzwerk Websites erstellt und konfiguriert werden, die durch WAN-Bandbreite eingeschränkt sind, und daher Bandbreitenrichtlinien erforderlich sind, die den Echt Zeit Durchsatz von Audio-oder Videodaten einschränken.</span><span class="sxs-lookup"><span data-stu-id="447ce-108">These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
+
+<span data-ttu-id="447ce-109">Im Beispiel für die CAC-Bereitstellung verfügt die Region Nordamerika über sechs Websites.</span><span class="sxs-lookup"><span data-stu-id="447ce-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="447ce-110">Drei dieser Websites sind durch die WAN-Bandbreite beschränkt: Reno, Portland und Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="447ce-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="447ce-111">Die anderen drei Websites, die *nicht* von der WAN-Bandbreite abhängig sind: New York, Chicago und Detroit.</span><span class="sxs-lookup"><span data-stu-id="447ce-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="447ce-112">Ein Beispiel zum Erstellen oder Ändern dieser anderen Netzwerk Websites finden Sie unter [erstellen oder Ändern einer Netzwerk Website in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="447ce-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
+
+<span data-ttu-id="447ce-113">Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beispiel: Sammeln Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="447ce-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+
+<div class=" ">
+
+
+> [!NOTE]  
+> <span data-ttu-id="447ce-114">Im folgenden Verfahren wird die lync Server-Verwaltungsshell zum Erstellen einer Netzwerk Website verwendet.</span><span class="sxs-lookup"><span data-stu-id="447ce-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="447ce-115">Details zur Verwendung der lync Server-Systemsteuerung zum Erstellen einer Netzwerk Website finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="447ce-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="447ce-116">So erstellen Sie Netzwerk Websites für die Anrufsteuerung</span><span class="sxs-lookup"><span data-stu-id="447ce-116">To create network sites for call admission control</span></span>
+
+1.  <span data-ttu-id="447ce-117">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="447ce-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="447ce-118">Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerk Websites zu erstellen und auf jede Website ein entsprechendes bandbreitenrichtlinienprofil anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="447ce-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="447ce-119">Führen Sie beispielsweise den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="447ce-119">For example, run:</span></span>
     
+       ```
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-
-       &nbsp;
+       ```
     
+       ```
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+       ```
 
-3.  Zum Abschließen der Erstellung von Netzwerkstandorten für die gesamte Beispieltopologie wiederholen Sie Schritt 2 für die Netzwerkstandorte mit Bandbreiteneinschränkungen in den Regionen "EMEA" und "APAC".
+3.  <span data-ttu-id="447ce-120">Um das Erstellen von Netzwerk Websites für die gesamte Beispieltopologie abzuschließen, wiederholen Sie Schritt 2 für die Netzwerk Websites mit Bandbreiteneinschränkungen in den Regionen EMEA und APAC.</span><span class="sxs-lookup"><span data-stu-id="447ce-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

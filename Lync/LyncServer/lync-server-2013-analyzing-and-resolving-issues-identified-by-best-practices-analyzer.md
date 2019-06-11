@@ -1,25 +1,59 @@
-﻿---
-title: Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden
-TOCTitle: Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden
-ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg591353(v=OCS.15)
-ms:contentKeyID: 49295821
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Analysieren und Beheben von Problemen, die von Best Practices Analyzer identifiziert werden
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Analyzing and resolving issues identified by Best Practices Analyzer
+ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591353(v=OCS.15)
+ms:contentKeyID: 48185751
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2d251ae762de4f9bfc88667a4d1b4aef0154dc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34840041"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="48552-102">Analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert wurden</span><span class="sxs-lookup"><span data-stu-id="48552-102">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</span></span>
 
-Best Practices Analyzer nimmt keine Änderungen an Ihrer Umgebung vor, um Probleme zu beheben. Es werden lediglich potenzielle Probleme erkannt und Hinweise zu deren Behebung angezeigt. Wenn Sie Probleme feststellen, die gelöst werden müssen, müssen Sie entscheiden, welche die geeignete Lösung ist. Anhand der Themen in diesem Abschnitt können Sie einige der wichtigsten potenziellen Probleme ermitteln und beheben.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Probleme beim Umgebungstest](lync-server-2013-issues-with-the-environment-test.md)
+<div id="mainBody">
 
-  - [Probleme beim Topologietest](lync-server-2013-issues-with-the-topology-test.md)
+<span> </span>
+
+<span data-ttu-id="48552-103">_**Letztes Änderungsdatum des Themas:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="48552-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+
+<span data-ttu-id="48552-104">Best Practices Analyzer nimmt keine Änderungen an Ihrer Umgebung vor, um Probleme zu beheben.</span><span class="sxs-lookup"><span data-stu-id="48552-104">Best Practices Analyzer does not make changes to your environment to resolve issues.</span></span> <span data-ttu-id="48552-105">Sie erkennt nur potenzielle Probleme und zeigt Informationen dazu an, wie Sie aufgelöst werden können.</span><span class="sxs-lookup"><span data-stu-id="48552-105">It only detects potential issues and displays information about how to resolve them.</span></span> <span data-ttu-id="48552-106">Wenn Sie Probleme identifizieren, die Sie beheben müssen, müssen Sie die entsprechende Lösung ermitteln.</span><span class="sxs-lookup"><span data-stu-id="48552-106">If you identify issues that you need to resolve, you must determine the appropriate solution.</span></span> <span data-ttu-id="48552-107">Die Themen in diesem Abschnitt helfen Ihnen, einige der wichtigsten potenziellen Probleme zu identifizieren und zu beheben.</span><span class="sxs-lookup"><span data-stu-id="48552-107">The topics in this section help you identify and resolve some of the most significant potential issues.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="48552-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="48552-108">In This Section</span></span>
+
+  - [<span data-ttu-id="48552-109">Probleme mit dem Umgebungs Test in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48552-109">Issues with the environment test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-environment-test.md)
+
+  - [<span data-ttu-id="48552-110">Probleme mit dem Topologie-Test in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48552-110">Issues with the topology test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-topology-test.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

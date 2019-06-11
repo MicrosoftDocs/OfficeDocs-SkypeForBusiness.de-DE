@@ -1,19 +1,49 @@
-﻿---
-title: Verwalten von Servern nach der Migration
-TOCTitle: Verwalten von Servern nach der Migration
-ms:assetid: 99c388d7-f6a9-4113-a140-b9be167f2049
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205106(v=OCS.15)
-ms:contentKeyID: 49294855
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verwalten von Servern nach der Migration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Administering servers after migration
+ms:assetid: 99c388d7-f6a9-4113-a140-b9be167f2049
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205106(v=OCS.15)
+ms:contentKeyID: 48184883
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6b88cfe744af32fa1afd1840e3416544233b34f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839105"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Servern nach der Migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-29_
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="24da4-102">Verwalten von Servern nach der Migration</span><span class="sxs-lookup"><span data-stu-id="24da4-102">Administering servers after migration</span></span>
 
-Im Allgemeinen müssen Sie die Verwaltungstools verwenden, die der zu verwaltenden Serverversion entsprechen. Die Verwaltungstools von Lync Server 2013 und Office Communications Server 2007 R2 können nicht auf demselben Computer installiert werden. Außerdem wird die Lync Server 2013-Systemsteuerung nicht automatisch auf allen Servern installiert. Folgen Sie der für die Installation der Lync Server 2013-Systemsteuerung in der Bereitstellungsdokumentation unter [Installieren von Lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) beschriebenen Vorgehensweise.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="24da4-103">_**Letztes Änderungsdatum des Themas:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="24da4-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+
+<span data-ttu-id="24da4-104">Im Allgemeinen müssen Sie das Verwaltungstool verwenden, das der Server Version entspricht, die Sie verwalten möchten.</span><span class="sxs-lookup"><span data-stu-id="24da4-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="24da4-105">Sie können die Verwaltungstools lync Server 2013 und Office Communications Server 2007 R2 nicht auf demselben Computer installieren.</span><span class="sxs-lookup"><span data-stu-id="24da4-105">You cannot install the Lync Server 2013 and Office Communications Server 2007 R2 administrative tools on the same computer.</span></span> <span data-ttu-id="24da4-106">Außerdem wird die lync Server 2013-Systemsteuerung nicht automatisch auf jedem Server installiert.</span><span class="sxs-lookup"><span data-stu-id="24da4-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="24da4-107">Wenn Sie die lync Server 2013-Systemsteuerung installieren möchten, führen Sie die Schritte im Thema [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) in der Bereitstellungsdokumentation aus.</span><span class="sxs-lookup"><span data-stu-id="24da4-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

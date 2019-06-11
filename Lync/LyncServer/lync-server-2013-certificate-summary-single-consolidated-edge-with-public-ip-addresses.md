@@ -1,31 +1,57 @@
-﻿---
-title: 'Lync Server 2013: Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen'
-TOCTitle: Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen
-ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204747(v=OCS.15)
-ms:contentKeyID: 49293452
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Single consolidated edge with public IP addresses
+ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204747(v=OCS.15)
+ms:contentKeyID: 48183653
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 07c5bce784c6d05393b38b68c2558362bcb9525f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839629"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="certificate-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="94671-102">Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94671-102">Certificate summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>
 
-Microsoft Lync Server 2013 verwendet Zertifikate zum gegenseitigen Authentifizieren von Servern und zum Verschlüsseln von Daten zwischen Servern sowie zwischen Server und Client. Bei Zertifikaten müssen die Namen der DNS-Einträge (Domain Name System), die den Servern zugeordnet sind, sowie der Antragstellername (Subject Name, SN) und der alternative Antragstellername (Subject Alternative Name, SAN) im Zertifikat übereinstimmen. Für die erfolgreiche Zuordnung von Servern, DNS-Einträgen und Zertifikateinträgen müssen Sie die vollqualifizierten Domänennamen des vorgesehenen Servers wie im DNS und in den SN- und SAN-Einträgen im Zertifikat registriert sorgfältig planen.
+</div>
 
-Das Zertifikat, das den externen Schnittsellen des Edgeservers zugewiesen ist, wird von einer öffentlichen Zertifizierungsstelle angefordert. Öffentliche Zertifizierungsstellen, die nachweislich erfolgreich Zertifikate für Unified Communications bereitgestellt haben, sind im folgenden Artikel aufgeführt: [http://go.microsoft.com/fwlink/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=929395). Beim Anfordern des Zertifikats können Sie die vom Lync Server-Bereitstellungs-Assistenten generierte Zertifikatanforderung verwenden oder aber das Zertifikat manuell oder mithilfe eines Prozesses der öffentlichen Zertifizierungsstelle anfordern. Das Zertifikat wird der Zugriffs-Edgedienst-Schnittstelle, der Webkonferenz-Edgedienst-Schnittstelle und dem Audio-/Video-Authentifizierungsdienst zugewiesen. Der Audio-/Video-Authentifizierungsdienst sollte nicht mit dem A/V-Edgedienst verwechselt werden, der kein Zertifikat zum Verschlüsseln der Audio- und Videostreams verwendet. Die interne Edgeserverschnittstelle kann ein Zertifikat von einer internen Zertifizierungsstelle (innerhalb Ihrer Organisation) oder ein Zertifikat von einer öffentlichen Zertifizierungsstelle verwenden. Das Zertifikat der internen Schnittstelle verwendet nur den SN-Eintrag und benötigt bzw. verwendet keine SAN-Einträge.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="94671-103">_**Letztes Änderungsdatum des Themas:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="94671-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="94671-104">Microsoft lync Server 2013 verwendet Zertifikate zur gegenseitigen Authentifizierung anderer Server und zum Verschlüsseln von Daten von Server zu Server und Server auf dem Client.</span><span class="sxs-lookup"><span data-stu-id="94671-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="94671-105">Für Zertifikate ist eine Namensübereinstimmung der DNS-Einträge (Domain Name System) erforderlich, die den Servern zugeordnet sind, sowie der Antragstellername (SN) und der Alternative Name (Subject Alternative Name, San) auf dem Zertifikat.</span><span class="sxs-lookup"><span data-stu-id="94671-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="94671-106">Damit Server, DNS-Einträge und Zertifikat Einträge erfolgreich zugeordnet werden können, müssen Sie die vollqualifizierten Domänennamen für den vorgesehenen Server sorgfältig planen, wie Sie in DNS und den Einträgen SN und San auf dem Zertifikat registriert sind.</span><span class="sxs-lookup"><span data-stu-id="94671-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+
+<span data-ttu-id="94671-107">Das Zertifikat, das den externen Schnittstellen des Edge-Servers zugewiesen ist, wird von einer öffentlichen Zertifizierungsstelle angefordert.</span><span class="sxs-lookup"><span data-stu-id="94671-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="94671-108">Öffentliche Zertifizierungsstellen, die den Erfolg bei der Bereitstellung von Zertifikaten für die Zwecke der Unified Communications bewiesen haben, [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) sind im folgenden Artikel aufgeführt: Wenn Sie das Zertifikat anfordern, können Sie die vom lync-Server generierte Zertifikatanforderung verwenden. Bereitstellungs-Assistent oder erstellen Sie die Anforderung manuell oder durch einen Prozess, der von der öffentlichen Zertifizierungsstelle bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="94671-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="94671-109">Beim Zuweisen des Zertifikats wird das Zertifikat der Access-Edgedienst-Schnittstelle, der Webkonferenz-Edgedienst-Schnittstelle und dem Audio/Video-Authentifizierungsdienst zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="94671-109">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="94671-110">Der Audio-und Video Authentifizierungsdienst sollte nicht mit dem a/V-Edgedienst verwechselt werden, der kein Zertifikat zum Verschlüsseln der Audio-und Videodatenströme verwendet.</span><span class="sxs-lookup"><span data-stu-id="94671-110">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="94671-111">Die Schnittstelle für den internen Edgeserver kann ein Zertifikat von einer internen Zertifizierungsstelle (in Ihrer Organisation) oder einem Zertifikat einer öffentlichen Zertifizierungsstelle verwenden.</span><span class="sxs-lookup"><span data-stu-id="94671-111">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="94671-112">Das interne Schnittstellen Zertifikat verwendet nur SN und benötigt keine San-Einträge.</span><span class="sxs-lookup"><span data-stu-id="94671-112">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+
+<div>
 
 
 > [!NOTE]
-> Die folgende Tabelle zeigt zu Referenzzwecken einen sekundären SIP-Eintrag ( sip.fabrikam.com ) in der Liste für alternative Antragstellernamen. Für jede SIP-Domäne in Ihrer Organisation müssen Sie einen entsprechenden FQDN in der Liste der alternativen Antragstellernamen des Zertifikats hinzufügen.
+> <span data-ttu-id="94671-113">Die folgende Tabelle zeigt einen zweiten SIP-Eintrag (SIP.fabrikam.com) in der Liste Betreff-alternativer Name als Referenz.</span><span class="sxs-lookup"><span data-stu-id="94671-113">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference.</span></span> <span data-ttu-id="94671-114">Für jede SIP-Domäne in Ihrer Organisation müssen Sie einen entsprechenden FQDN hinzufügen, der in der Liste Zertifikat Antragsteller-alternativer Name aufgeführt ist.</span><span class="sxs-lookup"><span data-stu-id="94671-114">For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
-## Erforderliche Zertifikate für eine Umgebung mit einem einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen
+</div>
+
+<div>
+
+## <a name="certificates-required-for-single-consolidated-edge-with-public-ip-addresses"></a><span data-ttu-id="94671-115">Für einzelne konsolidierte Edges erforderliche Zertifikate mit öffentlichen IP-Adressen</span><span class="sxs-lookup"><span data-stu-id="94671-115">Certificates Required for Single Consolidated Edge with Public IP Addresses</span></span>
 
 
 <table>
@@ -37,38 +63,42 @@ Das Zertifikat, das den externen Schnittsellen des Edgeservers zugewiesen ist, w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Antragstellername</th>
-<th>Alternative Antragstellernamen (SAN)/Reihenfolge</th>
-<th>Kommentare</th>
+<th><span data-ttu-id="94671-116">Komponente</span><span class="sxs-lookup"><span data-stu-id="94671-116">Component</span></span></th>
+<th><span data-ttu-id="94671-117">Antragstellername</span><span class="sxs-lookup"><span data-stu-id="94671-117">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="94671-118">Subject Alternative Names (San)/Order</span><span class="sxs-lookup"><span data-stu-id="94671-118">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="94671-119">Kommentare</span><span class="sxs-lookup"><span data-stu-id="94671-119">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Einzelner konsolidierter Edgeserver (externer Edge)</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>webcon.contoso.com</p>
-<p>sip.contoso.com</p>
-<p>sip.fabrikam.com</p></td>
-<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle stammen und benötigt die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Server und den Client, falls die Verbindung mit den öffentlichen Chatdiensten von AOL bereitgestellt werden soll. Das Zertifikat wird den externen Edgeschnittstellen zugewiesen für:</p>
+<td><p><span data-ttu-id="94671-120">Einzelner konsolidierter Rand (externer Rand)</span><span class="sxs-lookup"><span data-stu-id="94671-120">Single consolidated Edge (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="94671-121">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-121">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="94671-122">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-122">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-123">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-123">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-124">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="94671-124">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="94671-125">Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und muss über die Server-EKU und den Client-EKU verfügen, wenn öffentliche Chat Verbindungen mit AOL bereitgestellt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="94671-125">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="94671-126">Das Zertifikat wird den externen Edge-Schnittstellen für Folgendes zugewiesen:</span><span class="sxs-lookup"><span data-stu-id="94671-126">The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p>Zugriffsedgedienst</p></li>
-<li><p>Konferenz-Edgedienst</p></li>
-<li><p>A/V-Edgedienst</p></li>
+<li><p><span data-ttu-id="94671-127">Zugriffs-Edge</span><span class="sxs-lookup"><span data-stu-id="94671-127">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="94671-128">Konferenz Kante</span><span class="sxs-lookup"><span data-stu-id="94671-128">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="94671-129">A/V-Edge</span><span class="sxs-lookup"><span data-stu-id="94671-129">A/V Edge</span></span></p></li>
 </ul>
-<p>Beachten Sie, dass SANs basierend auf Ihren Definitionen im Topologie-Generator automatisch dem Zertifikat hinzugefügt werden. Sie fügen SAN-Einträge bei Bedarf für zusätzliche SIP-Domänen und sonstige Einträge, die unterstützt werden müssen, hinzu. Der Antragstellername wird im SAN repliziert und muss für den ordnungsgemäßen Betrieb vorhanden sein.</p></td>
+<p><span data-ttu-id="94671-130">Beachten Sie, dass Sans automatisch dem Zertifikat basierend auf ihren Definitionen im Topologie-Generator hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="94671-130">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="94671-131">Für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, fügen Sie nach Bedarf San-Einträge hinzu.</span><span class="sxs-lookup"><span data-stu-id="94671-131">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="94671-132">Der Antragstellername wird im San repliziert und muss für den korrekten Betrieb vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="94671-132">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Einzelner konsolidierter Edgeserver (interner Edge)</p></td>
-<td><p>lsedge.contoso.net</p></td>
-<td><p>Kein SAN erforderlich</p></td>
-<td><p>Das Zertifikat kann von einer öffentlichen oder privaten Zertifizierungsstelle ausgestellt werden und muss die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Server enthalten. Das Zertifikat wird der internen Edgeschnittstelle zugewiesen.</p></td>
+<td><p><span data-ttu-id="94671-133">Einzelner konsolidierter Rand (interner Rand)</span><span class="sxs-lookup"><span data-stu-id="94671-133">Single consolidated Edge (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="94671-134">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="94671-134">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="94671-135">Kein San erforderlich</span><span class="sxs-lookup"><span data-stu-id="94671-135">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="94671-136">Das Zertifikat kann von einer öffentlichen oder privaten Zertifizierungsstelle ausgestellt werden und muss die Server-EKU enthalten.</span><span class="sxs-lookup"><span data-stu-id="94671-136">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="94671-137">Das Zertifikat wird der Schnittstelle für den internen Rand zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="94671-137">The certificate is assigned to the internal Edge interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Zertifikatszusammenfassung - Verbindung mit öffentlichen Chatdiensten
+</div>
+
+<div>
+
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="94671-138">Zusammenfassung des Zertifikats – öffentliche Instant Messaging-Konnektivität</span><span class="sxs-lookup"><span data-stu-id="94671-138">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -80,32 +110,36 @@ Das Zertifikat, das den externen Schnittsellen des Edgeservers zugewiesen ist, w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Antragstellername</th>
-<th>Alternative Antragstellernamen (SAN)/Reihenfolge</th>
-<th>Kommentare</th>
+<th><span data-ttu-id="94671-139">Komponente</span><span class="sxs-lookup"><span data-stu-id="94671-139">Component</span></span></th>
+<th><span data-ttu-id="94671-140">Name des Antragstellers</span><span class="sxs-lookup"><span data-stu-id="94671-140">Subject name</span></span></th>
+<th><span data-ttu-id="94671-141">Subject Alternative Names (San)/Order</span><span class="sxs-lookup"><span data-stu-id="94671-141">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="94671-142">Kommentare</span><span class="sxs-lookup"><span data-stu-id="94671-142">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Extern/Zugriffsedge</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>sip.contoso.com</p>
-<p>webcon.contoso.com</p>
-<p>sip.fabrikam.com</p></td>
-<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle stammen und benötigt die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Server und den Client, falls die Verbindung mit den öffentlichen Chatdiensten von AOL bereitgestellt werden soll. Das Zertifikat wird den externen Edgeschnittstellen zugewiesen für:</p>
+<td><p><span data-ttu-id="94671-143">Extern/Access-Edge</span><span class="sxs-lookup"><span data-stu-id="94671-143">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="94671-144">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-144">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="94671-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-145">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-146">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-146">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-147">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="94671-147">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="94671-148">Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und muss über die Server-EKU und den Client-EKU verfügen, wenn öffentliche Chat Verbindungen mit AOL bereitgestellt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="94671-148">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="94671-149">Das Zertifikat wird den externen Edge-Schnittstellen für Folgendes zugewiesen:</span><span class="sxs-lookup"><span data-stu-id="94671-149">The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p>Zugriffsedgedienst</p></li>
-<li><p>Konferenz-Edgedienst</p></li>
-<li><p>A/V-Edgedienst</p></li>
+<li><p><span data-ttu-id="94671-150">Zugriffs-Edge</span><span class="sxs-lookup"><span data-stu-id="94671-150">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="94671-151">Konferenz Kante</span><span class="sxs-lookup"><span data-stu-id="94671-151">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="94671-152">A/V-Edge</span><span class="sxs-lookup"><span data-stu-id="94671-152">A/V Edge</span></span></p></li>
 </ul>
-<p>Beachten Sie, dass SANs basierend auf Ihren Definitionen im Topologie-Generator automatisch dem Zertifikat hinzugefügt werden. Sie fügen SAN-Einträge bei Bedarf für zusätzliche SIP-Domänen und sonstige Einträge, die unterstützt werden müssen, hinzu. Der Antragstellername wird im SAN repliziert und muss für den ordnungsgemäßen Betrieb vorhanden sein.</p></td>
+<p><span data-ttu-id="94671-153">Beachten Sie, dass Sans automatisch dem Zertifikat basierend auf ihren Definitionen im Topologie-Generator hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="94671-153">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="94671-154">Für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, fügen Sie nach Bedarf San-Einträge hinzu.</span><span class="sxs-lookup"><span data-stu-id="94671-154">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="94671-155">Der Antragstellername wird im San repliziert und muss für den korrekten Betrieb vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="94671-155">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Zertifikatszusammenfassung für XMPP (Extensible Messaging and Presence Protocol)
+</div>
+
+<div>
+
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="94671-156">Zertifikatzusammenfassung für erweiterbares Messaging und Anwesenheits Protokoll</span><span class="sxs-lookup"><span data-stu-id="94671-156">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -117,23 +151,36 @@ Das Zertifikat, das den externen Schnittsellen des Edgeservers zugewiesen ist, w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Antragstellername</th>
-<th>Alternative Antragstellernamen (SAN)/Reihenfolge</th>
-<th>Kommentare</th>
+<th><span data-ttu-id="94671-157">Komponente</span><span class="sxs-lookup"><span data-stu-id="94671-157">Component</span></span></th>
+<th><span data-ttu-id="94671-158">Name des Antragstellers</span><span class="sxs-lookup"><span data-stu-id="94671-158">Subject name</span></span></th>
+<th><span data-ttu-id="94671-159">Subject Alternative Names (San)/Order</span><span class="sxs-lookup"><span data-stu-id="94671-159">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="94671-160">Kommentare</span><span class="sxs-lookup"><span data-stu-id="94671-160">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Zuweisung zu Zugriffs-Edgedienst von Edgeserver oder Edgepool</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>webcon.contoso.com</p>
-<p>sip.contoso.com</p>
-<p>sip.fabrikam.com</p>
-<p>xmpp.contoso.com</p>
-<p><strong>*.contoso.com</strong></p></td>
-<td><p>Die ersten drei SAN-Einträge sind die regulären SAN-Einträge für einen vollständigen Edgeserver. contoso.com ist der für den Partnerverbund mit dem XMPP-Partner auf der Stammdomänenebene erforderliche Eintrag. Dieser Eintrag ermöglicht XMPP für alle Domänen mit dem Suffix *.contoso.com.</p></td>
+<td><p><span data-ttu-id="94671-161">Zuweisen des Zugriffs-Edgedienst des Edge-Servers oder Edge-Pools</span><span class="sxs-lookup"><span data-stu-id="94671-161">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="94671-162">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-162">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="94671-163">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-163">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-164">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-164">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-165">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="94671-165">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="94671-166">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="94671-166">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="94671-167"><strong>\*.contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="94671-167"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="94671-168">Die ersten drei San-Einträge sind die normalen San-Einträge für einen Full Edge-Server.</span><span class="sxs-lookup"><span data-stu-id="94671-168">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="94671-169">Der contoso.com ist der Eintrag, der für den Verbund mit dem XMPP-Partner auf der Stammdomänen Ebene erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="94671-169">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="94671-170">Dieser Eintrag ermöglicht XMPP für alle Domänen mit dem Suffix \*. contoso.com.</span><span class="sxs-lookup"><span data-stu-id="94671-170">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

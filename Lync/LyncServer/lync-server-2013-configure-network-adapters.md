@@ -1,53 +1,94 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Netzwerkadaptern'
-TOCTitle: Konfigurieren von Netzwerkadaptern
-ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg429707(v=OCS.15)
-ms:contentKeyID: 49294221
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Netzwerkadaptern'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure network adapters
+ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
+ms:contentKeyID: 48184320
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839354"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Netzwerkadaptern in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+# <a name="configure-network-adapters-in-lync-server-2013"></a><span data-ttu-id="e35ad-102">Konfigurieren von Netzwerkadaptern in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e35ad-102">Configure network adapters in Lync Server 2013</span></span>
 
-Sie müssen der externen Netzwerkkarte eine oder mehrere IP-Adressen und der internen Netzwerkkarte mindestens eine IP-Adresse zuweisen.
+</div>
 
-In den folgenden Verfahren hat der Server, auf dem entweder Forefront Threat Management Gateway (TMG) 2010 oder Internet Information Server mit Routing von Anwendungsanforderungen (IIS ARR) ausgeführt wird, zwei Netzwerkkarten:
+<div id="mainSection">
 
-  - Eine öffentliche (oder externe) Netzwerkkarte für Clients, die versuchen, eine Verbindung zu Ihrer Website herzustellen (normalerweise über das Internet).
+<div id="mainBody">
 
-  - Eine private (oder interne) Netzwerkkarte für interne Server mit Lync Server, auf denen Webdienste gehostet werden.
+<span> </span>
+
+<span data-ttu-id="e35ad-103">_**Letztes Änderungsdatum des Themas:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="e35ad-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+
+<span data-ttu-id="e35ad-104">Sie müssen dem externen Netzwerkadapter eine oder mehrere IP-Adressen und mindestens eine IP-Adresse für den internen Netzwerkadapter zuweisen.</span><span class="sxs-lookup"><span data-stu-id="e35ad-104">You must assign one or more IP addresses to the external network adapter and at least one IP address to the internal network adapter.</span></span>
+
+<span data-ttu-id="e35ad-105">In den folgenden Verfahren verfügt der Server, auf dem Forefront Threat Management Gateway (TMG) 2010 oder Internet Information Server-Anwendungs Anforderungs Routing ausgeführt wird, über zwei Netzwerkadapter:</span><span class="sxs-lookup"><span data-stu-id="e35ad-105">In the following procedures, the server running either Forefront Threat Management Gateway (TMG) 2010 or Internet Information Server Application Request Routing has two network adapters:</span></span>
+
+  - <span data-ttu-id="e35ad-106">Ein öffentlicher oder externer Netzwerkadapter für Clients, die versuchen, eine Verbindung mit Ihrer Website herzustellen (in der Regel über das Internet).</span><span class="sxs-lookup"><span data-stu-id="e35ad-106">A public, or external, network adapter, for clients that attempt to connect to your website (that is, usually over the Internet).</span></span>
+
+  - <span data-ttu-id="e35ad-107">Eine private oder interne Netzwerkschnittstelle für interne Server, auf denen lync Server ausgeführt wird, die Webdienste hosten.</span><span class="sxs-lookup"><span data-stu-id="e35ad-107">A private, or internal, network interface, for internal servers running Lync Server that are hosting Web Services.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Wie bei den Edgeservern legen Sie das Standardgateway nur auf dem externen Netzwerkadapter fest. Das Standardgateway ist die IP-Adresse des Routers oder der externen Firewall, der bzw. die Datenverkehr in das Internet weiterleitet. Für Datenverkehr, der vom Reverseproxy zum internen Netzwerkadapter verläuft, müssen Sie beständige statische Routen (wie zum Beispiel den route -Befehl in Windows Server) für alle Subnetze verwenden, in denen sich Server befinden, auf die von den Webveröffentlichungsregeln verwiesen wird. Ein Einrichten einer beständigen Route bewirkt nicht, dass der Computer ein Router wird. Wenn IP-Weiterleitung nicht aktiviert ist, agiert der Computer nur so, dass er speziellen Datenverkehr, der für ein anderes Netzwerk bestimmt ist, an die entsprechende Schnittstelle weiterleitet. Dies bedeutet im Grundsatz ein Festlegen von zwei Gateways: eines als Standardgateway, das auf die externen Netzwerke verweist, und eines für Datenverkehr, der für die interne Schnittstelle und weiter für einen Router oder ein anderes Netzwerk bestimmt ist.<BR>Wenn Ihr Router jedoch so konfiguriert ist, dass Routen zusammengefasst werden, brauchen Sie nicht für sämtliche Subnetze beständige Routen zu erstellen. Erstellen Sie eine beständige Route für das Netzwerk, in dem der Router definiert ist, und verwenden Sie den Router dann als Standardgateway. Wenn Sie nicht genau wissen, wie Ihr Netzwerk konfiguriert ist und genauere Anleitungen bezüglich der Erstellung von Routen benötigen, wenden Sie sich an die Netzwerkexperten Ihres Unternehmens.<BR>Der Reverseproxy muss in der Lage sein, die DNS-Host-(A)-Einträge für den internen Director oder Front-End-Server sowie die nächsten Hoppool-FQDNs, die in den Webveröffentlichungsregeln verwendet werden, aufzulösen. Wie bei den Edgeservern wird aus Sicherheitsgründen empfohlen, dass Sie einen Reverseproxy nicht so konfigurieren, dass er einen DNS-Server verwendet, der sich im internen Netzwerk befindet. Das bedeutet, dass Sie entweder DNS-Server im Umkreisnetzwerk oder HOSTS-Dateieinträge auf dem Reverseproxy benötigen, in denen diese FQDNs in die internen IP-Adressen der Server aufgelöst werden.
+> [!IMPORTANT]  
+> <span data-ttu-id="e35ad-108">Ähnlich wie die Edgeserver setzen Sie das Standardgateway nur für den externen Netzwerkadapter.</span><span class="sxs-lookup"><span data-stu-id="e35ad-108">Similar to the Edge Servers, you set the default gateway on the external network adapter only.</span></span> <span data-ttu-id="e35ad-109">Das Standardgateway ist die IP-Adresse des Routers oder der extern zugewandten Firewall, die den Datenverkehr an das Internet weiterleitet.</span><span class="sxs-lookup"><span data-stu-id="e35ad-109">The default gateway will be the IP address of the router or external facing firewall that directs traffic to the Internet.</span></span> <span data-ttu-id="e35ad-110">Für Datenverkehr, der vom Reverse-Proxy an den internen Netzwerkadapter ausgerichtet ist, müssen Sie für alle Subnetze mit Servern, auf die die Webveröffentlichungsregeln verweisen, persistente statische Routen (wie den Befehl Route in Windows Server) verwenden.</span><span class="sxs-lookup"><span data-stu-id="e35ad-110">For traffic that is destined from the reverse proxy to the internal facing network adaptor, you must use persistent static routes (such as the route command in Windows Server) for all subnets containing servers referenced by the web publishing rules.</span></span> <span data-ttu-id="e35ad-111">Das Festlegen einer beständigen Route führt nicht dazu, dass der Computer zu einem Router wird.</span><span class="sxs-lookup"><span data-stu-id="e35ad-111">Setting a persistent route does not cause the computer to become a router.</span></span> <span data-ttu-id="e35ad-112">Wenn die IP-Weiterleitung nicht aktiviert ist, handelt es sich bei dem Computer nur um den direkten bestimmten Datenverkehr, der für ein anderes Netzwerk bestimmt ist, an die entsprechende Schnittstelle.</span><span class="sxs-lookup"><span data-stu-id="e35ad-112">If IP forwarding is not enabled, the computer is acting only to direct specific traffic destined for another network to the appropriate interface.</span></span> <span data-ttu-id="e35ad-113">Dies ist im Wesentlichen die Festlegung von zwei Gateways – einer als Standardverweis auf die externen Netzwerke und einer für den Datenverkehr, der an die interne Schnittstelle und an einen Router oder ein anderes Netzwerk weitergeleitet wird.</span><span class="sxs-lookup"><span data-stu-id="e35ad-113">This is essentially setting two gateways – one as the default pointing to the external networks, and one for traffic destined to the internal interface and on to a router or other network.</span></span><BR><span data-ttu-id="e35ad-114">Das Erstellen beständiger Routen für alle Subnetze ist jedoch möglicherweise nicht erforderlich, wenn die Router Ihres Netzwerks für die Zusammenfassung von Routen konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="e35ad-114">However, creating persistent routes for all subnets may not be necessary if your network’s routers are configured to summarize routes.</span></span> <span data-ttu-id="e35ad-115">Erstellen Sie eine permanente Route zu dem Netzwerk, in dem der Router definiert ist, und verwenden Sie den Router als Standardgateway.</span><span class="sxs-lookup"><span data-stu-id="e35ad-115">Create a persistent route to the network where the router is defined and use the router as the default gateway.</span></span> <span data-ttu-id="e35ad-116">Wenn Sie nicht genau wissen, wie Ihr Netzwerk konfiguriert ist und Anleitungen dazu benötigen, welche persistenten Routen erstellt werden müssen, konsultieren Sie die Netzwerktechniker Ihres Unternehmens.</span><span class="sxs-lookup"><span data-stu-id="e35ad-116">If you are not sure how your network is configured and need guidance on what persistent routes need to be created, consult with your company’s Network Engineers.</span></span><BR><span data-ttu-id="e35ad-117">Der Reverseproxy muss in der Lage sein, die DNS-Hosteinträge (A) für den internen Director-oder Front-End-Server und die FQDNs des nächsten Hop zu beheben, die in den Webveröffentlichungsregeln verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="e35ad-117">The reverse proxy must be able to resolve the DNS host (A) records for the internal Director or Front End Server and next hop pool FQDNs used in the web publishing rules.</span></span> <span data-ttu-id="e35ad-118">Wie bei den Edge-Servern sollten Sie aus Sicherheitsgründen keinen Reverse-Proxy für die Verwendung eines DNS-Servers konfigurieren, der sich im internen Netzwerk befindet.</span><span class="sxs-lookup"><span data-stu-id="e35ad-118">As with the Edge Servers, for security reasons, we recommend that you do not configure a reverse proxy to use a DNS server located in the internal network.</span></span> <span data-ttu-id="e35ad-119">Das bedeutet, dass Sie entweder DNS-Server im Umkreis benötigen, oder Sie benötigen Hosts-Dateieinträge auf dem Reverse-Proxy, der jede dieser FQDNs in die interne IP-Adresse der Server auflöst.</span><span class="sxs-lookup"><span data-stu-id="e35ad-119">This means you either need DNS servers in the perimeter, or you need HOSTS file entries on the reverse proxy that resolves each of these FQDNs to the internal IP address of the servers.</span></span>
 
 
 
-## So konfigurieren Sie die Netzwerkkarten auf dem Reverseproxycomputer
+</div>
 
-1.  Öffnen Sie auf dem Server mit Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2, der als Reverseproxy ausgeführt wird, das Fenster **Adaptereinstellungen ändern** . Klicken Sie dazu auf **Start** , zeigen Sie auf **Systemsteuerung** , klicken Sie auf **Netzwerk- und Freigabecenter** , und klicken Sie dann auf **Adaptereinstellungen ändern** .
+<div>
 
-2.  Klicken Sie mit der rechten Maustaste auf die externe Netzwerkverbindung, die Sie für die externe Schnittstelle verwenden möchten, und klicken Sie dann auf **Eigenschaften** .
+## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a><span data-ttu-id="e35ad-120">So konfigurieren Sie die Netzwerkadapterkarten auf dem Reverse Proxy-Computer</span><span class="sxs-lookup"><span data-stu-id="e35ad-120">To configure the network adapter cards on the reverse proxy computer</span></span>
 
-3.  Klicken Sie auf der Seite **Eigenschaften** auf die Registerkarte **Netzwerk** , klicken Sie in der Liste **Diese Verbindung verwendet folgende Elemente** auf **Internetprotokoll Version 4 (TCP/IPv4)** , und klicken Sie dann auf **Eigenschaften** .
+1.  <span data-ttu-id="e35ad-121">Öffnen Sie auf dem Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 Server, der als Reverse-Proxy ausgeführt wird, die Option **Adapter Einstellungen ändern** , indem Sie auf **Start**und dann auf **System**Steuerung und dann auf Netzwerk klicken. \*\* und Freigabe Center\*\*, und klicken Sie dann auf **Adapter Einstellungen ändern**.</span><span class="sxs-lookup"><span data-stu-id="e35ad-121">On the Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 server running as the reverse proxy, open **Change Adapter Settings** by clicking **Start**, pointing to **Control Panel**, clicking **Network and Sharing Center**, and then clicking **Change Adapter Settings**.</span></span>
 
-4.  Konfigurieren Sie auf der Seite **Internetprotokolleigenschaften (TCP/IP)** die IP-Adressen entsprechend dem Netzwerksubnetz, an das die Netzwerkkarte angeschlossen ist.
+2.  <span data-ttu-id="e35ad-122">Klicken Sie mit der rechten Maustaste auf die externe Netzwerkverbindung, die Sie für die externe Schnittstelle verwenden möchten, und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="e35ad-122">Right-click the external network connection that you want to use for the external interface, and then click **Properties**.</span></span>
+
+3.  <span data-ttu-id="e35ad-123">Klicken Sie auf der Seite **Eigenschaften** auf die Registerkarte **Netzwerk** , klicken Sie in der Liste **diese Verbindung verwendet die folgenden Elemente** auf **Internet Protokoll, Version 4 (TCP/IPv4)** , und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="e35ad-123">On the **Properties** page, click the **Networking** tab, click **Internet Protocol Version 4 (TCP/IPv4)** in the **This connection uses the following items** list, and then click **Properties**.</span></span>
+
+4.  <span data-ttu-id="e35ad-124">Konfigurieren Sie auf der Seite **Eigenschaften von Internet Protokoll (TCP/IP)** die IP-Adressen entsprechend dem Netzwerk-Subnetz, an das der Netzwerkadapter angefügt ist.</span><span class="sxs-lookup"><span data-stu-id="e35ad-124">On the **Internet Protocol (TCP/IP) Properties** page, configure the IP addresses as appropriate for the network subnet to which the network adapter is attached.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn der Reverseproxy bereits von anderen Anwendungen genutzt wird, die HTTPS/TCP/443 verwenden (z.&nbsp;B. zum Veröffentlichen von Outlook Web Access), müssen Sie entweder eine weitere IP-Adresse hinzufügen, um die Lync Server 2013-Webdienste ohne Konflikte mit den vorhandenen Regeln und Weblisteners über HTTPS/TCP/443 veröffentlichen zu können, oder Sie müssen das vorhandene Zertifikat durch ein Zertifikat ersetzen, das die neuen externen FQDNs zum alternativen Antragstellernamen hinzufügt.
+    > [!NOTE]  
+    > <span data-ttu-id="e35ad-125">Wenn der Reverseproxy bereits von anderen Anwendungen verwendet wird, die HTTPS/TCP/443 verwenden, beispielsweise für die Veröffentlichung von Outlook Web Access, müssen Sie entweder eine andere IP-Adresse hinzufügen, damit Sie die lync Server 2013-Webdienste auf HTTPS/TCP/443 veröffentlichen können, ohne sich zu stören. mit den vorhandenen Regeln und Web-Listenern, oder Sie müssen das vorhandene Zertifikat durch ein ersetzen, das dem alternativen Betreff Namen die neuen Namen des externen FQDN hinzufügt.</span><span class="sxs-lookup"><span data-stu-id="e35ad-125">If the reverse proxy is already being used by other applications that use HTTPS/TCP/443, such as for publishing Outlook Web Access, you either need to add another IP address so that you can publish the Lync Server 2013 Web Services on HTTPS/TCP/443 without interfering with the existing rules and web listeners, or you need to replace the existing certificate with one that adds the new external FQDN names to the subject alternative name.</span></span>
 
+    
+    </div>
 
+5.  <span data-ttu-id="e35ad-126">Klicken Sie auf **OK**, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="e35ad-126">Click **OK**, and then click **OK**.</span></span>
 
-5.  Klicken Sie auf **OK** und dann nochmals auf **OK** .
+6.  <span data-ttu-id="e35ad-127">Klicken Sie unter **Netzwerkverbindungen**mit der rechten Maustaste auf die interne Netzwerkverbindung, die Sie für die interne Schnittstelle verwenden möchten, und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="e35ad-127">In **Network Connections**, right-click the internal network connection that you want to use for the internal interface, and then click **Properties**.</span></span>
 
-6.  Klicken Sie unter **Netzwerkverbindungen** mit der rechten Maustaste auf die interne Netzwerkverbindung, die Sie für die interne Schnittstelle verwenden möchten, und klicken Sie dann auf **Eigenschaften** .
+7.  <span data-ttu-id="e35ad-128">Wiederholen Sie die Schritte 3 bis 5, um die interne Netzwerkverbindung zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="e35ad-128">Repeat steps 3 through 5 to configure the internal network connection.</span></span>
 
-7.  Wiederholen Sie die Schritte 3 bis 5, um die interne Netzwerkverbindung zu konfigurieren.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

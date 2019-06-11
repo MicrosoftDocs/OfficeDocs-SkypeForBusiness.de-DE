@@ -1,48 +1,86 @@
-﻿---
-title: Konfigurieren der AutoErmittlung für Hybridbereitstellungen
-TOCTitle: Konfigurieren der AutoErmittlung für Hybridbereitstellungen
-ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945653(v=OCS.15)
-ms:contentKeyID: 52056455
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der AutoErmittlung für hybridbereitstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Autodiscover for hybrid deployments
+ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
+ms:contentKeyID: 51541521
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc2c28d42569d2f52b55dd04a90f5a788969c3ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839277"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der AutoErmittlung für Hybridbereitstellungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-12_
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a><span data-ttu-id="5cb25-102">Konfigurieren der AutoErmittlung in lync Server 2013 für hybridbereitstellungen</span><span class="sxs-lookup"><span data-stu-id="5cb25-102">Configuring Autodiscover in Lync Server 2013 for hybrid deployments</span></span>
 
-Hybridbereitstellungen sind Konfigurationen, in denen sowohl der Microsoft Lync Online-Clouddienst als auch die lokale Bereitstellung verwendet werden. Bei diesem Typ Konfiguration muss der AutoErmittlungsdienst herausfinden können, wo sich der Benutzer gegenwärtig befindet. Das heißt, die AutoErmittlung hilft, das Benutzerkonto sowie den Standort des Servers zu finden, der das Konto des Benutzers hostet, egal, ob dies die lokale Bereitstellung oder die Skype for Business Online-Bereitstellung ist.
+</div>
 
-Ein Beispiel: Wenn das Konto eines Benutzers auf einem Server in Skype for Business Online gehostet wird, erfolgt die Lokalisierung des Benutzers im folgenden Prozess, der auch als *Erkennbarkeit* bezeichnet wird:
+<div id="mainSection">
 
-  - Der Benutzer versucht, eine Verbindung zur lokalen Bereitstellung herzustellen, **contoso.com**.
+<div id="mainBody">
 
-  - Der Verbindungsversuch wird an **lyncdiscover.contoso.com** gesendet, den DNS-Namen, der dem AutoErmittlungsdienst zugeordnet wurde.
+<span> </span>
 
-  - Die AutoErmittlung führt eine Weiterleitung an den angenommenen Registrierungsstellenpool in der lokalen Bereitstellung von "contoso.com" durch und erhält Informationen zu dem tatsächlichen in Skype for Business Online gehosteten Homeserver des Benutzers. Anschließend sendet die AutoErmittlung dem Benutzer eine Weiterleitung an den Online-AutoErmittlungsdienst von **lync.com**.
+<span data-ttu-id="5cb25-103">_**Letztes Änderungsdatum des Themas:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="5cb25-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-  - Der Benutzer versucht, eine Verbindung zum Online-AutoErmittlungsdienst von **lync.com** herzustellen und kann das Konto des Benutzers auf dem Homeserver des Benutzers auffinden.
+<span data-ttu-id="5cb25-104">Hybrid Bereitstellungen sind Konfigurationen, die sowohl den Microsoft lync Online-clouddienst als auch die lokale Bereitstellung verwenden.</span><span class="sxs-lookup"><span data-stu-id="5cb25-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="5cb25-105">Bei dieser Art von Konfiguration muss der AutoErmittlungsdienst in der Lage sein, zu ermitteln, wo sich der Benutzer gerade befindet.</span><span class="sxs-lookup"><span data-stu-id="5cb25-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="5cb25-106">Das heißt, die AutoErmittlung unterstützt Sie bei der Suche nach dem Benutzerkonto und dem Server, auf dem sich das Konto des Benutzers befindet, unabhängig davon, ob es sich um die lokale Bereitstellung oder die lync Online-Bereitstellung handelt.</span><span class="sxs-lookup"><span data-stu-id="5cb25-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
 
-Damit Clients die Bereitstellung ermitteln können, in der sich der Homeserver des Benutzers befindet, müssen Sie den AutoErmittlungsdienst mit einer neuen URL (Uniform Resource Locator) konfigurieren. Führen Sie dazu folgende Schritte aus.
+<span data-ttu-id="5cb25-107">Wenn beispielsweise das Konto eines Benutzers auf einem Server in lync online gehostet wird, erfolgt der Versuch, den Benutzer zu finden, in einem Vorgang, der als Auffindbarkeit \*\* bekannt ist, wie folgt:</span><span class="sxs-lookup"><span data-stu-id="5cb25-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
 
-## Konfigurieren der AutoErmittlung für hybride Bereitstellungen
+  - <span data-ttu-id="5cb25-108">Der Benutzer initiiert einen Verbindungsversuch mit der lokalen Bereitstellung, **contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="5cb25-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
 
-1.  Im Thema [Anforderungen für den AutoErmittlungsdienst für Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md) verwenden Sie **Get-CsHostingProvider** zum Abrufen des Wertes des **ProxyFQDN**-Attributs.
+  - <span data-ttu-id="5cb25-109">Der Versuch wird an lyncdiscover.contoso.com gesendet, dem DNS-Namen, der dem AutoErmittlungsdienst zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="5cb25-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
 
-2.  Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein:
+  - <span data-ttu-id="5cb25-110">Die AutoErmittlung bezieht sich auf den angenommenen Registrierungspool bei der contoso.com-Bereitstellung und erhält Informationen über den tatsächlichen Stammserver des Benutzers, der in lync online gehostet wird.</span><span class="sxs-lookup"><span data-stu-id="5cb25-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="5cb25-111">Der AutoErmittlungsdienst sendet dem Benutzer dann einen Verweis an den **lync.com** Online-AutoErmittlungsdienst.</span><span class="sxs-lookup"><span data-stu-id="5cb25-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
+
+  - <span data-ttu-id="5cb25-112">Der Benutzer initiiert einen Verbindungsversuch mit dem lync.com Online-AutoErmittlungsdienst und kann das Konto des Benutzers und den Stammserver des Benutzers finden.</span><span class="sxs-lookup"><span data-stu-id="5cb25-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
+
+<span data-ttu-id="5cb25-113">Damit Clients die Bereitstellung ermitteln können, auf der sich der Benutzerstamm Server befindet, müssen Sie den AutoErmittlungsdienst mit einem neuen URL (Uniform Resource Locator) konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="5cb25-113">To enable clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL).</span></span> <span data-ttu-id="5cb25-114">Gehen Sie wie folgt vor, um den AutoErmittlungsdienst zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="5cb25-114">Do the following to configure the Autodiscover service.</span></span>
+
+<div>
+
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="5cb25-115">Konfigurieren der AutoErmittlung für Hybrid Bereitstellungen</span><span class="sxs-lookup"><span data-stu-id="5cb25-115">Configuring Autodiscover for Hybrid Deployments</span></span>
+
+1.  <span data-ttu-id="5cb25-116">Im Thema [AutoErmittlungsdienst Anforderungen für lync Server 2013](lync-server-2013-autodiscover-service-requirements.md)verwenden Sie Get-CsHostingProvider, um den Wert des Attributs ProxyFQDN abzurufen.</span><span class="sxs-lookup"><span data-stu-id="5cb25-116">In the topic, [Autodiscover service requirements for Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md), you use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
+
+2.  <span data-ttu-id="5cb25-117">Geben Sie in der lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="5cb25-117">From the Lync Server Management Shell, type</span></span>
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    Hierbei wird **\[identity\]** durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt.
+    <span data-ttu-id="5cb25-118">Wobei \[Identity\] durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt wird.</span><span class="sxs-lookup"><span data-stu-id="5cb25-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
+## <a name="see-also"></a><span data-ttu-id="5cb25-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="5cb25-119">See Also</span></span>
+
+
+[<span data-ttu-id="5cb25-120">Get-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="5cb25-120">Get-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  
+[<span data-ttu-id="5cb25-121">Satz-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="5cb25-121">Set-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsHostingProvider)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

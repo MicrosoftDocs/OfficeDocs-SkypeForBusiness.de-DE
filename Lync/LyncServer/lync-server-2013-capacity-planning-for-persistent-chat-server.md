@@ -1,79 +1,122 @@
-﻿---
-title: 'Lync Server 2013: Kapazitätsplanung für den Server für beständigen Chat'
-TOCTitle: Kapazitätsplanung für den Server für beständigen Chat
-ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615006(v=OCS.15)
-ms:contentKeyID: 49294490
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kapazitätsplanung für beständigen Chat Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Persistent Chat Server
+ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
+ms:contentKeyID: 48184580
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839704"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Kapazitätsplanung für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="018e8-102">Kapazitätsplanung für den Server für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="018e8-102">Capacity planning for Persistent Chat Server in Lync Server 2013</span></span>
 
-In Server für beständigen Chat kann ein Echtzeit-Chat mit mehreren Benutzern ausgeführt werden, für den eine spätere Wiederaufnahme und Suche möglich ist. Im Gegensatz zu Gruppenchats, die – falls ein Unterhaltungsverlauf konfiguriert ist – im Postfach des Benutzers gespeichert werden, bleibt eine Server für beständigen Chat-Sitzung länger geöffnet, und der Inhalt wird gemeinsam mit den Nachrichten, Dateien, URLs und anderen Daten, die Teil einer fortlaufenden Unterhaltung sind, auf einem Server gespeichert.
+</div>
 
-Wenn Sie die Bereitstellung von Server für beständigen Chat vorbereiten, ist die Kapazitätsplanung ein wichtiger Aspekt. Dieser Abschnitt umfasst ausführliche Informationen zu unterstützten Server für beständigen Chat-Topologien sowie Tabellen zur Kapazitätsplanung, anhand derer Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können. Zudem wird beschrieben, wie Sie Server für beständigen Chat-Bereitstellungen am besten verwalten, für die zu Spitzenzeiten höhere Kapazitätsanforderungen erfüllt werden müssen.
+<div id="mainSection">
 
-Informationen zum Download von Server für beständigen Chat finden Sie in "Microsoft Lync Server 13 Server für beständigen Chat" unter [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539).
+<div id="mainBody">
 
-Ausführliche Informationen zur Installation von Server für beständigen Chat finden Sie unter [Installieren des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) und [Konfigurieren des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in der Bereitstellungsdokumentation.
+<span> </span>
 
-Supporttools wie das Planungstool für Lync Server bieten weitere Unterstützung bei der Kapazitätsplanung. Ausführliche Informationen zum Planungstool finden Sie unter [Beginnen des Planungsprozesses für Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in der Planungsdokumentation.
+<span data-ttu-id="018e8-103">_**Letztes Änderungsdatum des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="018e8-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-## Unterstützte Topologien für Server für beständigen Chat
+<span data-ttu-id="018e8-104">Der beständige Chat Server kann mehr Benutzer-Echtzeitchats durchführen, die für zukünftiges abrufen und suchen beibehalten werden können.</span><span class="sxs-lookup"><span data-stu-id="018e8-104">Persistent Chat Server can perform multi-user real-time chat that can persist for future retrieval and search.</span></span> <span data-ttu-id="018e8-105">Im Gegensatz zu Gruppen-Sofortnachrichten (im), die im Postfach eines Benutzers gespeichert werden, wenn der Konversations Verlauf konfiguriert ist, bleibt eine dauerhafte Chat Server Sitzung länger geöffnet, und der Inhalt wird auf einem Server zusammen mit den Nachrichten, Dateien, URLs und anderen Daten gespeichert, die Teil einer laufende Unterhaltungen.</span><span class="sxs-lookup"><span data-stu-id="018e8-105">Unlike group instant messaging (IM) that is saved in a user’s mailbox if conversation history is configured, a Persistent Chat Server session stays open longer, and the content is saved on a server, along with the messages, files, URLs, and other data that are part of an ongoing conversation.</span></span>
 
-Sie können Server für beständigen Chat in einem Pool mit einem einzelnen Server oder in einem Pool mit mehreren Servern sowie in einer Topologie mit einem einzelnen Pool bzw. mit mehreren Pools bereitstellen.
+<span data-ttu-id="018e8-106">Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Bereitstellung des beständigen Chat Servers.</span><span class="sxs-lookup"><span data-stu-id="018e8-106">Capacity planning is an important part of preparing to deploy Persistent Chat Server.</span></span> <span data-ttu-id="018e8-107">Dieses Thema enthält Details zu unterstützten Topologien und Kapazitäts Planungstabellen für beständige Chat Server, mit denen Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können.</span><span class="sxs-lookup"><span data-stu-id="018e8-107">This topic provides details about supported Persistent Chat Server topologies and capacity planning tables that you can use to determine the best configuration for your deployment.</span></span> <span data-ttu-id="018e8-108">Darüber hinaus wird beschrieben, wie Sie die Bereitstellung beständiger Chat Server am besten verwalten, die zu Höchstzeiten eine größere Kapazität erfordern.</span><span class="sxs-lookup"><span data-stu-id="018e8-108">It also describes how to best manage Persistent Chat Server deployments that require greater capacity at peak times.</span></span>
 
-Ab sofort wird für neue Lync Server 2013-Bereitstellungen auch Server für beständigen Chat unter Standard Edition-Server unterstützt. Allerdings kann dies zu einer Beeinträchtigung bei der Leistung und Skalierung führen. Da für diese neue Bereitstellung keine Option mit hoher Verfügbarkeit besteht, empfehlen wir die Verwendung dieser Option in erster Linie für Machbarkeitsstudien, für Bewertungen usw.
+<span data-ttu-id="018e8-109">Informationen zum Herunterladen des [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)beständigen Chat Servers finden Sie unter "Microsoft lync Server 13-beständiger Chat Server" unter.</span><span class="sxs-lookup"><span data-stu-id="018e8-109">To download Persistent Chat Server, see "Microsoft Lync Server 13 Persistent Chat Server" at [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539).</span></span>
+
+<span data-ttu-id="018e8-110">Details zum Installieren des beständigen Chat Servers finden Sie unter Installieren des beständigen [Chat Servers in lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) und Konfigurieren des beständigen [Chat Servers in lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="018e8-110">For details about installing Persistent Chat Server, see [Installing Persistent Chat Server in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) and [Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="018e8-111">Support Tools wie das lync Server-Planungs Tool können Sie bei der Kapazitätsplanung weiter unterstützen.</span><span class="sxs-lookup"><span data-stu-id="018e8-111">Support tools, such as Lync Server Planning Tool, can further assist you with capacity planning.</span></span> <span data-ttu-id="018e8-112">Details zum Planungs Tool finden Sie unter [Starten des Planungsprozesses für lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="018e8-112">For details about the Planning Tool, see [Beginning the planning process for Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in the Planning documentation.</span></span>
+
+<div>
+
+## <a name="persistent-chat-server-supported-topologies"></a><span data-ttu-id="018e8-113">Unterstützte Topologien für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="018e8-113">Persistent Chat Server Supported Topologies</span></span>
+
+<span data-ttu-id="018e8-114">Sie können den Server für beständigen Chat in Pools mit einem oder mehreren Servern und mit einer Topologie mit einem Pool oder mehreren Pools bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="018e8-114">You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology.</span></span>
+
+<span data-ttu-id="018e8-115">Wir unterstützen nun auch den Server für beständigen Chat auf dem Standard Edition-Server für neue lync Server 2013-Bereitstellungen.</span><span class="sxs-lookup"><span data-stu-id="018e8-115">We now also support Persistent Chat Server on Standard Edition server for new Lync Server 2013 deployments.</span></span> <span data-ttu-id="018e8-116">Allerdings sind Leistung und Skalierbarkeit davon betroffen, und da es für diese neue Bereitstellung keine Option für die Hochverfügbarkeit gibt, erwarten wir, dass Sie diese in erster Linie zum Nachweis des Konzepts, der Evaluierung usw. verwenden.</span><span class="sxs-lookup"><span data-stu-id="018e8-116">However, performance and scale will be affected, and because there is no high availability option for this new deployment, we expect you to use this primarily for the purposes of proof of concept, evaluation, and so on.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Zusätzliche Informationen zu beiden Topologien finden Sie unter <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planen für den Server für beständigen Chat in Lync Server 2013</A> in dieser Dokumentation und unter <A href="lync-server-2013-deploying-persistent-chat-server.md">Bereitstellen des Servers für beständigen Chat in Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> <span data-ttu-id="018e8-117">Weitere Informationen zu beiden Topologien finden Sie unter <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planen des beständigen Chat Servers in lync Server 2013</A> in dieser Dokumentation und <A href="lync-server-2013-deploying-persistent-chat-server.md">Bereitstellen des beständigen Chat Servers in lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="018e8-117">For additional details about both topologies, see <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</A> in this documentation set and <A href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-## Einzelservertopologie
+</div>
 
-Die Mindestkonfiguration und einfachste Bereitstellung für Server für beständigen Chat ist eine Einzel- Server für beständigen ChatFront-End-Server-Topologie. Für diese Bereitstellung ist ein einzelner Server erforderlich, auf dem Server für beständigen Chat (auf dem bei aktivierter Kompatibilität optional auch der Kompatibilitätsdienst ausgeführt wird) ausgeführt wird, sowie ein Server, der als Host für die SQL Server-Datenbank und, wenn Kompatibilität erforderlich ist, für die SQL Server-Datenbank zum Speichern der Kompatibilitätsdaten dient.
+<div>
+
+## <a name="single-server-topology"></a><span data-ttu-id="018e8-118">Topologie mit einem Server</span><span class="sxs-lookup"><span data-stu-id="018e8-118">Single-Server Topology</span></span>
+
+<span data-ttu-id="018e8-119">Die Mindestkonfiguration und einfachste Bereitstellung für beständigen Chat Server ist eine einzelne Front-End-Server Topologie des beständigen Chat Servers.</span><span class="sxs-lookup"><span data-stu-id="018e8-119">The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology.</span></span> <span data-ttu-id="018e8-120">Für diese Bereitstellung ist ein einzelner Server erforderlich, auf dem der beständige Chat Server ausgeführt wird (wobei optional der Kompatibilitätsdienst ausgeführt wird, wenn die Kompatibilität aktiviert ist), ein Server, der sowohl die SQL Server-Datenbank hostet, als auch die SQL Server-Datenbank zum Speichern des Kompatibilitätsdaten.</span><span class="sxs-lookup"><span data-stu-id="018e8-120">This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Sie können einem Serverpool für beständigen Chat, der als Bereitstellung mit einem Server im Topologie-Generator eingerichtet wurde, keine zusätzlichen Server hinzufügen. Wir empfehlen die Verwendung einer Bereitstellung einer Pool-Topologie mit mehreren Servern, selbst wenn Sie einen einzelnen Server verwenden, sodass Sie bei Bedarf zu einem späteren Zeitpunkt weitere Server hinzufügen können.
+> [!IMPORTANT]  
+> <span data-ttu-id="018e8-121">Sie können einem beständigen Chat Serverpool, der als Einzel Server Bereitstellung im Topologie-Generator gestartet wird, keine weiteren Server hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="018e8-121">You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder.</span></span> <span data-ttu-id="018e8-122">Wir empfehlen die Verwendung der Pooltopologie mit mehreren Servern, auch wenn Sie einen einzelnen Server verwenden.</span><span class="sxs-lookup"><span data-stu-id="018e8-122">We recommend using the multiple-server pool topology, even if you’re using a single server.</span></span> <span data-ttu-id="018e8-123">Dies ist so, dass Sie später weitere Server hinzufügen können, falls dies erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="018e8-123">This is so that you’ll be able to add more servers later, if it's necessary.</span></span> 
 
 
+</div>
 
-Die folgende Abbildung zeigt alle erforderlichen und optionalen Komponenten einer Topologie mit einem einzelnen Server für beständigen ChatFront-End-Server mit Kompatibilität.
+<span data-ttu-id="018e8-124">Die folgende Abbildung zeigt alle erforderlichen und optionalen Komponenten einer Topologie für einen einzelnen beständigen Chat Server-Front-End-Server mit Compliance.</span><span class="sxs-lookup"><span data-stu-id="018e8-124">The following figure shows all required and optional components of a topology for a single Persistent Chat Server Front End Server with compliance.</span></span>
 
-**Einzelner dauerhafter Chatserver**
+<span data-ttu-id="018e8-125">**Einzelner beständiger Chat Server**</span><span class="sxs-lookup"><span data-stu-id="018e8-125">**Single Persistent Chat Server**</span></span>
 
-![Topologie mit einem einzelnen Server und Kompatibilitätsdienst](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem einzelnen Server und Kompatibilitätsdienst")
+<span data-ttu-id="018e8-126">![Topologie mit einem Server mit Kompatibilitätsdienst] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem Server mit Kompatibilitätsdienst")</span><span class="sxs-lookup"><span data-stu-id="018e8-126">![Single server topology with Compliance service](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Single server topology with Compliance service")</span></span>
 
-## Topologie mit mehreren Servern
+</div>
 
-Für eine größere Kapazität und Zuverlässigkeit können Sie eine Topologie mit mehreren Servern (wie in [Planen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) beschrieben) bereitstellen. Die Multiserver-Topologie kann bis zu vier aktive Computer enthalten, auf denen Server für beständigen Chat ausgeführt wird. (In Hochverfügbarkeits- und Notfallwiederherstellungskonfigurationen sind bis zu acht Computer möglich, von denen jedoch nur vier aktiv und die anderen vier in Bereitschaft sind.). Jeder Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, was bei einem Serverpool für beständigen Chat mit 4 Servern insgesamt 80.000 gleichzeitige Benutzer ergibt. Eine Multiserver-Topologie ist das Gleiche wie eine Einzelserver-Topologie, nur dass Server für beständigen Chat auf mehreren Servern gehostet wird und höher skaliert werden kann. Wenn Server für beständigen Chat auf mehreren Computern ausgeführt wird, sollten sich diese in der gleichen Active Directory-Domänendienste-Domäne wie Lync Server und der Kompatibilitätsdienst befinden.
+<div>
 
-Die folgende Abbildung zeigt alle Komponenten einer Multiserver-Topologie mit mehreren Computern, auf denen Server für beständigen Chat, der optionale Kompatibilitätsdienst und eine separate Kompatibilitätsdatenbank ausgeführt werden.
+## <a name="multiple-server-topology"></a><span data-ttu-id="018e8-127">Topologie mit mehreren Servern</span><span class="sxs-lookup"><span data-stu-id="018e8-127">Multiple-Server Topology</span></span>
 
-**Mehrere dauerhafte Chatserver**
+<span data-ttu-id="018e8-128">Um eine größere Kapazität und Zuverlässigkeit bereitzustellen, können Sie eine Topologie mit mehreren Servern bereitstellen, wie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="018e8-128">To provide greater capacity and reliability, you can deploy a multiple-server topology, as described in [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span></span> <span data-ttu-id="018e8-129">Die Topologie mit mehreren Servern kann bis zu vier aktive Computer umfassen, auf denen der beständige Chat Server ausgeführt wird (für hoch Verfügbarkeits-und Disaster Recovery-Konfigurationen sind bis zu acht möglich, aber nur vier können aktiv sein und die restlichen vier im Standbymodus).</span><span class="sxs-lookup"><span data-stu-id="018e8-129">The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby).</span></span> <span data-ttu-id="018e8-130">Jeder Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, für insgesamt 80.000 gleichzeitige Benutzer, die mit einem beständigen Chat Serverpool mit 4 Servern verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="018e8-130">Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers.</span></span> <span data-ttu-id="018e8-131">Eine Topologie mit mehreren Servern entspricht der Topologie mit einem Server, mit der Ausnahme, dass mehrere Server den persistenten Chat Server hosten und höher skalieren können.</span><span class="sxs-lookup"><span data-stu-id="018e8-131">A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher.</span></span> <span data-ttu-id="018e8-132">Mehrere Computer, auf denen der beständige Chat Server ausgeführt wird, sollten sich in derselben Active Directory-Domänendienst Domäne wie lync Server und dem Kompatibilitätsdienst befinden.</span><span class="sxs-lookup"><span data-stu-id="018e8-132">Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Lync Server and the Compliance service.</span></span>
 
-![Topologie mit mehreren Servern](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")
+<span data-ttu-id="018e8-133">Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Servern mit mehreren Computern, auf denen der beständige Chat Server, der optionale Kompatibilitätsdienst und eine separate Kompatibilitätsdatenbank ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="018e8-133">The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.</span></span>
 
-In einer Server für beständigen Chat-Bereitstellung mit vier Servern, in der 80.000 Benutzer gleichzeitig angemeldet sein können und Beständiger Chat verwendet wird, wird die Last gleichmäßig verteilt (20.000 Benutzer pro Server). Wenn ein Server nicht länger verfügbar ist, können die mit dem Server verbundenen Benutzer nicht mehr auf Server für beständigen Chat zugreifen. Die getrennten Benutzer werden automatisch an die übrigen Server übergeben, bis der ausgefallene Server erneut verfügbar ist. Abhängig von der Menge an Beständiger Chat-Datenverkehr im Netzwerk kann diese Übergabe zwischen einigen Minuten oder auch länger dauern. Da auf jedem der übrigen Server möglicherweise bis zu 30.000 Benutzer gehostet werden, sollte der ausgefallene Server so schnell wie möglich erneut verfügbar gemacht werden, um Leistungsprobleme zu vermeiden. Alternativ können Sie einen anderen Server für beständigen Chat verfügbar machen, indem Sie den Topologie-Generator oder das Windows PowerShell-Cmdlet **set-CsPersistentChatActiveServer** verwenden.
+<span data-ttu-id="018e8-134">**Mehrere beständige Chat Server**</span><span class="sxs-lookup"><span data-stu-id="018e8-134">**Multiple Persistent Chat Servers**</span></span>
 
-## Kapazitätsplanung für Server für beständigen Chat
+<span data-ttu-id="018e8-135">![Topologie mit mehreren Servern] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")</span><span class="sxs-lookup"><span data-stu-id="018e8-135">![Multiple server topology](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Multiple server topology")</span></span>
 
-Die folgenden Tabellen unterstützen Sie bei der Kapazitätsplanung für Server für beständigen Chat. In den Tabellen wird veranschaulicht, wie sich Änderungen an verschiedenen Server für beständigen Chat-Einstellungen auf die verfügbare Kapazität auswirken.
+<span data-ttu-id="018e8-136">In einer persistent Chat Server-Bereitstellung mit vier Servern, bei der 80.000-Benutzer gleichzeitig bei und mithilfe des beständigen Chats angemeldet werden können, wird die Auslastung gleichmäßig bei 20.000-Benutzern pro Server verteilt.</span><span class="sxs-lookup"><span data-stu-id="018e8-136">In a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to and using Persistent Chat, the load is distributed evenly at 20,000 users per server.</span></span> <span data-ttu-id="018e8-137">Wenn ein Server nicht mehr zur Verfügung steht, verlieren die Benutzer, die mit diesem Server verbunden sind, den Zugriff auf den beständigen Chat Server.</span><span class="sxs-lookup"><span data-stu-id="018e8-137">If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server.</span></span> <span data-ttu-id="018e8-138">Die getrennten Benutzer werden automatisch an die übrigen Server übergeben, bis der ausgefallene Server wieder verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="018e8-138">The disconnected users will be automatically transferred to the remaining servers until the unavailable server is restored.</span></span> <span data-ttu-id="018e8-139">Je nach dem Umfang des beständigen Chat-Datenverkehrs im Netzwerk kann diese Übertragung einige Minuten oder länger dauern.</span><span class="sxs-lookup"><span data-stu-id="018e8-139">Depending on the amount of Persistent Chat traffic on the network, this transfer can take a few minutes or longer.</span></span> <span data-ttu-id="018e8-140">Da jeder der verbleibenden Server möglicherweise so viele wie 30.000-Benutzer hostet, empfehlen wir, dass Sie den nicht verfügbaren Server so schnell wie möglich wiederherstellen, um Leistungsprobleme zu vermeiden.</span><span class="sxs-lookup"><span data-stu-id="018e8-140">Because each of the remaining servers might be hosting as many as 30,000 users, we recommend that you restore the unavailable server as quickly as possible to avoid performance issues.</span></span> <span data-ttu-id="018e8-141">Andernfalls können Sie einen anderen beständigen Chat Server mithilfe des Topologie-Generators oder des Windows PowerShell-Cmdlets, " **CsPersistentChatActiveServer**", verfügbar machen.</span><span class="sxs-lookup"><span data-stu-id="018e8-141">Otherwise, you can make another Persistent Chat Server available by using the Topology Builder or the Windows PowerShell cmdlet, **set-CsPersistentChatActiveServer**.</span></span>
 
-## Planen der maximalen Kapazität für den Server für beständigen Chat
+</div>
 
-Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die Sie unterstützen können.
+</div>
 
-### Beispiel für die maximale Kapazität für den Serverpool für beständigen Chat
+<div>
+
+## <a name="persistent-chat-server-capacity-planning"></a><span data-ttu-id="018e8-142">Kapazitätsplanung für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="018e8-142">Persistent Chat Server Capacity Planning</span></span>
+
+<span data-ttu-id="018e8-143">Die folgenden Tabellen können Ihnen bei der Kapazitätsplanung für beständigen Chat Server helfen.</span><span class="sxs-lookup"><span data-stu-id="018e8-143">The following tables can help you with capacity planning for Persistent Chat Server.</span></span> <span data-ttu-id="018e8-144">Sie modellieren, wie sich verschiedene Einstellungen für beständigen Chat Server auf die Kapazitäts Funktionen auswirken.</span><span class="sxs-lookup"><span data-stu-id="018e8-144">They model how changing various Persistent Chat Server settings affect capacity capabilities.</span></span>
+
+<div>
+
+## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a><span data-ttu-id="018e8-145">Planen der maximalen Kapazität für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="018e8-145">Planning Your Maximum Capacity for Persistent Chat Server</span></span>
+
+<span data-ttu-id="018e8-146">Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die Sie unterstützen können.</span><span class="sxs-lookup"><span data-stu-id="018e8-146">Use the following sample table to determine the number of users you will be able to support.</span></span>
+
+### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a><span data-ttu-id="018e8-147">Beispiel für beständigen Chat Server Pool mit maximaler Kapazität</span><span class="sxs-lookup"><span data-stu-id="018e8-147">Persistent Chat Server pool Maximum Capacity Sample</span></span>
 
 <table>
 <colgroup>
@@ -82,36 +125,40 @@ Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Aktive Beständiger Chat-Dienstinstanzen</p></td>
-<td><p><em>4</em></p></td>
+<td><p><span data-ttu-id="018e8-148">Aktive persistent-Chat-Dienstinstanzen</span><span class="sxs-lookup"><span data-stu-id="018e8-148">Active Persistent Chat service instances</span></span></p></td>
+<td><p><span data-ttu-id="018e8-149"><em>4</em></span><span class="sxs-lookup"><span data-stu-id="018e8-149"><em>4</em></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Beständiger Chat-Dienstinstanzen</p></td>
-<td><p><em>8 (4 must be inactive; only a maximum of 4 can be active)</em></p></td>
+<td><p><span data-ttu-id="018e8-150">Dienstinstanzen für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="018e8-150">Persistent Chat service instances</span></span></p></td>
+<td><p><span data-ttu-id="018e8-151"><em>8 (4 muss inaktiv sein; nur maximal 4 kann aktiv sein)</em></span><span class="sxs-lookup"><span data-stu-id="018e8-151"><em>8 (4 must be inactive; only a maximum of 4 can be active)</em></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Aktive verbundene Benutzer</p></td>
-<td><p><em>80,000</em></p></td>
+<td><p><span data-ttu-id="018e8-152">Aktive verbundene Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-152">Active users connected</span></span></p></td>
+<td><p><span data-ttu-id="018e8-153"><em>80,000</em></span><span class="sxs-lookup"><span data-stu-id="018e8-153"><em>80,000</em></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Gesamtzahl der bereitgestellten Benutzer</p></td>
-<td><p>150.000</p></td>
+<td><p><span data-ttu-id="018e8-154">Gesamtzahl der bereitgestellten Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-154">Total provisioned users</span></span></p></td>
+<td><p><span data-ttu-id="018e8-155">150,000</span><span class="sxs-lookup"><span data-stu-id="018e8-155">150,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl der Endpunkte</p></td>
-<td><p>120.000</p></td>
+<td><p><span data-ttu-id="018e8-156">Anzahl der Endpunkte</span><span class="sxs-lookup"><span data-stu-id="018e8-156">Number of endpoints</span></span></p></td>
+<td><p><span data-ttu-id="018e8-157">120,000</span><span class="sxs-lookup"><span data-stu-id="018e8-157">120,000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Im vorstehenden Beispiel soll die maximale Anzahl von Benutzern unterstützt werden, die in Server für beständigen Chat zulässig ist: vier Server/Instanzen des Beständiger Chat-Diensts (für Konfigurationen mit hoher Verfügbarkeit und für die Notfallwiederherstellung können weitere vier passive Server mit Server für beständigen Chat eingebunden werden) und 20.000 Benutzer pro Server, sodass eine Gesamtzahl von 80.000 aktiven Benutzern unterstützt wird.
+<span data-ttu-id="018e8-158">Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer.</span><span class="sxs-lookup"><span data-stu-id="018e8-158">In the preceding sample, the plan is to support the maximum number of users that Persistent Chat Server allows: four servers/instances of the Persistent Chat service (can have four more passive servers running Persistent Chat Server for high availability and disaster recovery) and 20,000 users per server, for a total of 80,000 active users.</span></span>
 
-## Kapazitätsplanung für die Verwaltung des Chatroomzugriffs in Beständiger Chat
+</div>
 
-Die folgende Beispieltabelle ist hilfreich, um die Verwaltung des Beständiger Chat-Chatroomzugriffs in einem Serverpool für beständigen Chat zu planen.
+<div>
 
-### Beispiel für die Verwaltung des Chatroomzugriffs
+## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a><span data-ttu-id="018e8-159">Kapazitätsplanung zum Verwalten des Zugriffs auf beständigen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-159">Capacity Planning for Managing Persistent Chat Room Access</span></span>
+
+<span data-ttu-id="018e8-160">Die folgende Beispieltabelle kann Ihnen bei der Planung der Verwaltung des beständigen Chatrooms in einem Server Pool für beständigen Chat helfen.</span><span class="sxs-lookup"><span data-stu-id="018e8-160">The following sample table can help you plan for managing Persistent Chat room access in a Persistent Chat Server pool.</span></span>
+
+### <a name="managing-chat-room-access-sample"></a><span data-ttu-id="018e8-161">Verwalten des Access-Beispiels für Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-161">Managing Chat Room Access Sample</span></span>
 
 <table>
 <colgroup>
@@ -124,244 +171,256 @@ Die folgende Beispieltabelle ist hilfreich, um die Verwaltung des Beständiger C
 <thead>
 <tr class="header">
 <th></th>
-<th>Kleine Chatrooms</th>
-<th>Mittlere Chatrooms</th>
-<th>Große Chatrooms</th>
-<th>Gesamt</th>
+<th><span data-ttu-id="018e8-162">Kleine Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-162">Small Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-163">Mittlere Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-163">Medium Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-164">Große Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-164">Large Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-165">Gesamt</span><span class="sxs-lookup"><span data-stu-id="018e8-165">Total</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Größe der Chatrooms (Anzahl der verbundenen Benutzer)</p></td>
-<td><p>30 pro Chatroom</p></td>
-<td><p>150 pro Chatroom</p></td>
-<td><p>16.000 pro Chatroom</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-166">Größe der Chatrooms (Anzahl der verbundenen Benutzer)</span><span class="sxs-lookup"><span data-stu-id="018e8-166">Size of chat rooms (number of users connected)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-167">30 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-167">30 per room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-168">150 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-168">150 per room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-169">16.000 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-169">16,000 per room</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Chatrooms</p></td>
-<td><p>32.000</p></td>
-<td><p>1.067</p></td>
-<td><p>10</p></td>
-<td><p>33.077</p></td>
+<td><p><span data-ttu-id="018e8-170">Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-170">Chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-171">32,000</span><span class="sxs-lookup"><span data-stu-id="018e8-171">32,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-172">1,067</span><span class="sxs-lookup"><span data-stu-id="018e8-172">1,067</span></span></p></td>
+<td><p><span data-ttu-id="018e8-173">10</span><span class="sxs-lookup"><span data-stu-id="018e8-173">10</span></span></p></td>
+<td><p><span data-ttu-id="018e8-174">33,077</span><span class="sxs-lookup"><span data-stu-id="018e8-174">33,077</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>% der Chatrooms als Auditorium verwendet</p></td>
-<td><p>1%</p></td>
-<td><p>1%</p></td>
-<td><p>50%</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-175">% der Chatrooms als Auditorium verwendet</span><span class="sxs-lookup"><span data-stu-id="018e8-175">% of rooms that are auditorium</span></span></p></td>
+<td><p><span data-ttu-id="018e8-176">1 %</span><span class="sxs-lookup"><span data-stu-id="018e8-176">1%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-177">1 %</span><span class="sxs-lookup"><span data-stu-id="018e8-177">1%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-178">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-178">50%</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>% der Chatrooms sind offen</p></td>
-<td><p>3%</p></td>
-<td><p>3%</p></td>
-<td><p>50%</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-179">% der Chatrooms sind offen</span><span class="sxs-lookup"><span data-stu-id="018e8-179">% of rooms that are open</span></span></p></td>
+<td><p><span data-ttu-id="018e8-180">3%</span><span class="sxs-lookup"><span data-stu-id="018e8-180">3%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-181">3%</span><span class="sxs-lookup"><span data-stu-id="018e8-181">3%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-182">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-182">50%</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Offene Chatrooms (ohne explizite Mitgliedschaft)</p></td>
-<td><p>960</p></td>
-<td><p>32</p></td>
-<td><p>5</p></td>
-<td><p>997</p></td>
+<td><p><span data-ttu-id="018e8-183">Offene Chatrooms (ohne explizite Mitgliedschaft)</span><span class="sxs-lookup"><span data-stu-id="018e8-183">Open rooms (no explicit membership)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-184">960</span><span class="sxs-lookup"><span data-stu-id="018e8-184">960</span></span></p></td>
+<td><p><span data-ttu-id="018e8-185">32</span><span class="sxs-lookup"><span data-stu-id="018e8-185">32</span></span></p></td>
+<td><p><span data-ttu-id="018e8-186">5</span><span class="sxs-lookup"><span data-stu-id="018e8-186">5</span></span></p></td>
+<td><p><span data-ttu-id="018e8-187">997</span><span class="sxs-lookup"><span data-stu-id="018e8-187">997</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Nicht offene Chatrooms (herkömmliche Chatrooms mit expliziter Mitgliedschaft)</p></td>
-<td><p>31.040</p></td>
-<td><p>1,035</p></td>
-<td><p>5</p></td>
-<td><p>32.080</p></td>
+<td><p><span data-ttu-id="018e8-188">Nicht offene Chatrooms (herkömmliche Chatrooms mit expliziter Mitgliedschaft)</span><span class="sxs-lookup"><span data-stu-id="018e8-188">Non-open rooms (regular rooms with explicit membership)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-189">31,040</span><span class="sxs-lookup"><span data-stu-id="018e8-189">31,040</span></span></p></td>
+<td><p><span data-ttu-id="018e8-190">1.035</span><span class="sxs-lookup"><span data-stu-id="018e8-190">1.035</span></span></p></td>
+<td><p><span data-ttu-id="018e8-191">5</span><span class="sxs-lookup"><span data-stu-id="018e8-191">5</span></span></p></td>
+<td><p><span data-ttu-id="018e8-192">32,080</span><span class="sxs-lookup"><span data-stu-id="018e8-192">32,080</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Auditorium-Chatrooms (zusätzlicher Zugang für Referenten)</p></td>
-<td><p>0</p></td>
-<td><p>32</p></td>
-<td><p>5</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-193">Auditorium-Chatrooms (zusätzlicher Zugang für Referenten)</span><span class="sxs-lookup"><span data-stu-id="018e8-193">Auditorium rooms (additional presenters entry)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-194">0</span><span class="sxs-lookup"><span data-stu-id="018e8-194">0</span></span></p></td>
+<td><p><span data-ttu-id="018e8-195">32</span><span class="sxs-lookup"><span data-stu-id="018e8-195">32</span></span></p></td>
+<td><p><span data-ttu-id="018e8-196">5</span><span class="sxs-lookup"><span data-stu-id="018e8-196">5</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Über direkte Mitgliedschaft verwaltete Chatrooms</p></td>
-<td><p>50%</p></td>
-<td><p>10%</p></td>
-<td><p>0%</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-197">Über direkte Mitgliedschaft verwaltete Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-197">Rooms managed by direct membership</span></span></p></td>
+<td><p><span data-ttu-id="018e8-198">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-198">50%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-199">10%</span><span class="sxs-lookup"><span data-stu-id="018e8-199">10%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-200">0%</span><span class="sxs-lookup"><span data-stu-id="018e8-200">0%</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Von Benutzergruppen verwaltete Chatrooms</p></td>
-<td><p>50%</p></td>
-<td><p>90%</p></td>
-<td><p>100%</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-201">Von Benutzergruppen verwaltete Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-201">Rooms managed by user groups</span></span></p></td>
+<td><p><span data-ttu-id="018e8-202">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-202">50%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-203">90%</span><span class="sxs-lookup"><span data-stu-id="018e8-203">90%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-204">100%</span><span class="sxs-lookup"><span data-stu-id="018e8-204">100%</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für offene Chatrooms (nicht explizit angegeben)</p></td>
-<td><p>0</p></td>
-<td><p>0</p></td>
-<td><p>0</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-205">Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für offene Chatrooms (nicht explizit angegeben)</span><span class="sxs-lookup"><span data-stu-id="018e8-205">User groups in each chat room's membership list for open rooms (not specified explicitly)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-206">0</span><span class="sxs-lookup"><span data-stu-id="018e8-206">0</span></span></p></td>
+<td><p><span data-ttu-id="018e8-207">0</span><span class="sxs-lookup"><span data-stu-id="018e8-207">0</span></span></p></td>
+<td><p><span data-ttu-id="018e8-208">0</span><span class="sxs-lookup"><span data-stu-id="018e8-208">0</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzer in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms</p></td>
-<td><p>30</p></td>
-<td><p>150</p></td>
-<td><p>16.000</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-209">Benutzer in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-209">Users in each chat room's membership list for non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-210">30</span><span class="sxs-lookup"><span data-stu-id="018e8-210">30</span></span></p></td>
+<td><p><span data-ttu-id="018e8-211">150</span><span class="sxs-lookup"><span data-stu-id="018e8-211">150</span></span></p></td>
+<td><p><span data-ttu-id="018e8-212">16,000</span><span class="sxs-lookup"><span data-stu-id="018e8-212">16,000</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms</p></td>
-<td><p>3</p></td>
-<td><p>5</p></td>
-<td><p>10</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-213">Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-213">User groups in each chat room's membership list for non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-214">3</span><span class="sxs-lookup"><span data-stu-id="018e8-214">3</span></span></p></td>
+<td><p><span data-ttu-id="018e8-215">5</span><span class="sxs-lookup"><span data-stu-id="018e8-215">5</span></span></p></td>
+<td><p><span data-ttu-id="018e8-216">10</span><span class="sxs-lookup"><span data-stu-id="018e8-216">10</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzer und Benutzergruppen in der Managerliste der einzelnen Chatrooms (für offene und nicht offene Chatrooms</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-217">Benutzer und Benutzergruppen in der Managerliste der einzelnen Chatrooms (für offene und nicht offene Chatrooms)</span><span class="sxs-lookup"><span data-stu-id="018e8-217">Users and user groups in each chat room's manager list (for open and non-open rooms)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-218">6</span><span class="sxs-lookup"><span data-stu-id="018e8-218">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-219">6</span><span class="sxs-lookup"><span data-stu-id="018e8-219">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-220">6</span><span class="sxs-lookup"><span data-stu-id="018e8-220">6</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzer und Benutzergruppen in der Referentenliste der einzelnen Auditorium-Chatrooms (für offene und nicht offene Chatrooms</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-221">Benutzer und Benutzergruppen in der Referentenliste der einzelnen Auditorium-Chatrooms (für offene und nicht offene Chatrooms)</span><span class="sxs-lookup"><span data-stu-id="018e8-221">Users and user groups in each auditorium chat room's presenters list (for open and non-open rooms)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-222">6</span><span class="sxs-lookup"><span data-stu-id="018e8-222">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-223">6</span><span class="sxs-lookup"><span data-stu-id="018e8-223">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-224">6</span><span class="sxs-lookup"><span data-stu-id="018e8-224">6</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzerbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms</p></td>
-<td><p>465.600</p></td>
-<td><p>15.520</p></td>
+<td><p><span data-ttu-id="018e8-225">Benutzerbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-225">User-based membership entities across all non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-226">465,600</span><span class="sxs-lookup"><span data-stu-id="018e8-226">465,600</span></span></p></td>
+<td><p><span data-ttu-id="018e8-227">15,520</span><span class="sxs-lookup"><span data-stu-id="018e8-227">15,520</span></span></p></td>
 <td><p>-</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzergruppenbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms</p></td>
-<td><p>46.560</p></td>
-<td><p>4656</p></td>
-<td><p>50</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-228">Benutzergruppenbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-228">User-group-based membership entities across all non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-229">46,560</span><span class="sxs-lookup"><span data-stu-id="018e8-229">46,560</span></span></p></td>
+<td><p><span data-ttu-id="018e8-230">4656</span><span class="sxs-lookup"><span data-stu-id="018e8-230">4656</span></span></p></td>
+<td><p><span data-ttu-id="018e8-231">50</span><span class="sxs-lookup"><span data-stu-id="018e8-231">50</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzer- und benutzergruppenbasierte Entitäten für alle Auditorium-Chatrooms</p></td>
-<td><p>0</p></td>
-<td><p>192</p></td>
-<td><p>50</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-232">Benutzer- und benutzergruppenbasierte Entitäten für alle Auditorium-Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-232">Users and user groups based entities across all auditorium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-233">0</span><span class="sxs-lookup"><span data-stu-id="018e8-233">0</span></span></p></td>
+<td><p><span data-ttu-id="018e8-234">192</span><span class="sxs-lookup"><span data-stu-id="018e8-234">192</span></span></p></td>
+<td><p><span data-ttu-id="018e8-235">50</span><span class="sxs-lookup"><span data-stu-id="018e8-235">50</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzer- und benutzergruppenbasierte Managerentitäten für alle Chatroom-Managerlisten</p></td>
-<td><p>192.000</p></td>
-<td><p>6.400</p></td>
-<td><p>60</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-236">Benutzer- und benutzergruppenbasierte Managerentitäten für alle Chatroom-Managerlisten</span><span class="sxs-lookup"><span data-stu-id="018e8-236">Users and user groups based manager entities across all chat rooms manager lists</span></span></p></td>
+<td><p><span data-ttu-id="018e8-237">192,000</span><span class="sxs-lookup"><span data-stu-id="018e8-237">192,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-238">6,400</span><span class="sxs-lookup"><span data-stu-id="018e8-238">6,400</span></span></p></td>
+<td><p><span data-ttu-id="018e8-239">60</span><span class="sxs-lookup"><span data-stu-id="018e8-239">60</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Aktive Benutzer pro Chatroom</p></td>
-<td><p><em>30</em></p></td>
-<td><p><em>150</em></p></td>
-<td><p><em>16,000</em></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-240">Aktive Benutzer pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-240">Active users per chat room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-241"><em>30</em></span><span class="sxs-lookup"><span data-stu-id="018e8-241"><em>30</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-242"><em>150</em></span><span class="sxs-lookup"><span data-stu-id="018e8-242"><em>150</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-243"><em>16,000</em></span><span class="sxs-lookup"><span data-stu-id="018e8-243"><em>16,000</em></span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Chatrooms pro Benutzer</p></td>
-<td><p><em>12</em></p></td>
-<td><p><em>2</em></p></td>
-<td><p><em>2</em></p></td>
-<td><p><em>16</em></p></td>
+<td><p><span data-ttu-id="018e8-244">Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-244">Chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-245"><em>12</em></span><span class="sxs-lookup"><span data-stu-id="018e8-245"><em>12</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-246"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="018e8-246"><em>2</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-247"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="018e8-247"><em>2</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-248"><em>16</em></span><span class="sxs-lookup"><span data-stu-id="018e8-248"><em>16</em></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms</p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>15</em></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-249">Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-249">User groups in each chat room’s membership list</span></span></p></td>
+<td><p><span data-ttu-id="018e8-250"><em>10</em></span><span class="sxs-lookup"><span data-stu-id="018e8-250"><em>10</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-251"><em>10</em></span><span class="sxs-lookup"><span data-stu-id="018e8-251"><em>10</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-252"><em>15</em></span><span class="sxs-lookup"><span data-stu-id="018e8-252"><em>15</em></span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Von Benutzergruppen verwaltete Chatrooms</p></td>
-<td><p><em>50%</em></p></td>
-<td><p><em>50%</em></p></td>
-<td><p><em>50%</em></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-253">Von Benutzergruppen verwaltete Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-253">Rooms managed by user groups</span></span></p></td>
+<td><p><span data-ttu-id="018e8-254"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="018e8-254"><em>50%</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-255"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="018e8-255"><em>50%</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-256"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="018e8-256"><em>50%</em></span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzergruppenbasierte Mitgliedschaftsentitäten in allen Chatrooms</p></td>
-<td><p>155.200</p></td>
-<td><p>5173</p></td>
-<td><p>68</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-257">Benutzergruppenbasierte Mitgliedschaftsentitäten in allen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-257">User-group-based membership entities across all chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-258">155,200</span><span class="sxs-lookup"><span data-stu-id="018e8-258">155,200</span></span></p></td>
+<td><p><span data-ttu-id="018e8-259">5173</span><span class="sxs-lookup"><span data-stu-id="018e8-259">5173</span></span></p></td>
+<td><p><span data-ttu-id="018e8-260">68</span><span class="sxs-lookup"><span data-stu-id="018e8-260">68</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzerbasierte Mitgliedschaftsentitäten in allen Chatrooms</p></td>
-<td><p>465.600</p></td>
-<td><p>77.600</p></td>
-<td><p>72.000</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-261">Benutzerbasierte Mitgliedschaftsentitäten in allen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-261">User-based membership entities across all chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-262">465,600</span><span class="sxs-lookup"><span data-stu-id="018e8-262">465,600</span></span></p></td>
+<td><p><span data-ttu-id="018e8-263">77,600</span><span class="sxs-lookup"><span data-stu-id="018e8-263">77,600</span></span></p></td>
+<td><p><span data-ttu-id="018e8-264">72,000</span><span class="sxs-lookup"><span data-stu-id="018e8-264">72,000</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten der einzelnen Chatrooms</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p>6</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-265">Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten der einzelnen Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-265">Users and user groups in each chat room's manager, presenter, and scope lists</span></span></p></td>
+<td><p><span data-ttu-id="018e8-266">6</span><span class="sxs-lookup"><span data-stu-id="018e8-266">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-267">6</span><span class="sxs-lookup"><span data-stu-id="018e8-267">6</span></span></p></td>
+<td><p><span data-ttu-id="018e8-268">6</span><span class="sxs-lookup"><span data-stu-id="018e8-268">6</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten aller Chatrooms</p></td>
-<td><p>192.000</p></td>
-<td><p>6400</p></td>
-<td><p>60</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-269">Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten aller Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-269">Users and user groups across all chat rooms' manager, presenter, and scope lists</span></span></p></td>
+<td><p><span data-ttu-id="018e8-270">192,000</span><span class="sxs-lookup"><span data-stu-id="018e8-270">192,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-271">6400</span><span class="sxs-lookup"><span data-stu-id="018e8-271">6400</span></span></p></td>
+<td><p><span data-ttu-id="018e8-272">60</span><span class="sxs-lookup"><span data-stu-id="018e8-272">60</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Zugriffssteuerungseinträge</p></td>
-<td><p>704.160</p></td>
-<td><p>26.768</p></td>
-<td><p>160</p></td>
-<td><p>731.088</p></td>
+<td><p><span data-ttu-id="018e8-273">Zugriffssteuerungseinträge</span><span class="sxs-lookup"><span data-stu-id="018e8-273">Access control entries</span></span></p></td>
+<td><p><span data-ttu-id="018e8-274">704,160</span><span class="sxs-lookup"><span data-stu-id="018e8-274">704,160</span></span></p></td>
+<td><p><span data-ttu-id="018e8-275">26,768</span><span class="sxs-lookup"><span data-stu-id="018e8-275">26,768</span></span></p></td>
+<td><p><span data-ttu-id="018e8-276">160</span><span class="sxs-lookup"><span data-stu-id="018e8-276">160</span></span></p></td>
+<td><p><span data-ttu-id="018e8-277">731,088</span><span class="sxs-lookup"><span data-stu-id="018e8-277">731,088</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Maximale Anzahl von Zugriffssteuerungseinträgen</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>2.000.000</p></td>
+<td><p><span data-ttu-id="018e8-278">Maximale Anzahl von Zugriffssteuerungseinträgen</span><span class="sxs-lookup"><span data-stu-id="018e8-278">Maximum access control entries</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p><span data-ttu-id="018e8-279">2,000,000</span><span class="sxs-lookup"><span data-stu-id="018e8-279">2,000,000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie im vorstehenden Beispiel die Server für beständigen Chat gemäß den Empfehlungen bereitstellen, können innerhalb des Pools aus vier Servern und mit aktiviertem Kompatibilitätsdienst bis zu 80.000 aktive Benutzer unterstützt werden.
+<span data-ttu-id="018e8-280">Wenn Sie im vorangehenden Beispiel die beständigen Chat Server gemäß den empfohlenen Richtlinien bereitstellen, können Sie bis zu 80.000 aktive Benutzer in einem Pool mit vier Servern mit aktivierter Kompatibilität verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="018e8-280">In the preceding sample, when you deploy the Persistent Chat Servers according to the recommended guidelines, they can handle up to 80,000 active users across a four-server pool with compliance enabled.</span></span>
 
-In diesem Beispiel werden Chatrooms in kleine (30 aktive gleichzeitige Benutzer), mittelgroße (150 aktive Benutzer) und große Chatrooms (16.000 aktive Benutzer) unterteilt. Die Anzahl von Chatrooms einer bestimmten Größe wird basierend auf der Gesamtzahl der folgenden Elemente berechnet:
+<span data-ttu-id="018e8-281">In diesem Beispiel werden Chatrooms in kleine (30 aktive gleichzeitige Benutzer), mittelgroße (150 aktive Benutzer) und große Chatrooms (16.000 aktive Benutzer) unterteilt.</span><span class="sxs-lookup"><span data-stu-id="018e8-281">This sample shows chat rooms categorized as small (30 active users at any given time), medium (150 active users), and large (16,000 active users).</span></span> <span data-ttu-id="018e8-282">Die Anzahl der Chatrooms einer bestimmten Größe wird basierend auf der Gesamtzahl der folgenden Werte berechnet:</span><span class="sxs-lookup"><span data-stu-id="018e8-282">The number of chat rooms of a certain size is computed based on the total number of:</span></span>
 
-  - Aktive Benutzer im System
+  - <span data-ttu-id="018e8-283">Aktive Benutzer im System</span><span class="sxs-lookup"><span data-stu-id="018e8-283">Active users in the system</span></span>
 
-  - Aktive Benutzer in Chatrooms der jeweiligen Größe
+  - <span data-ttu-id="018e8-284">Aktive Benutzer in Chatrooms der jeweiligen Größe</span><span class="sxs-lookup"><span data-stu-id="018e8-284">Active users in chat rooms of the given size</span></span>
 
-  - Chatrooms der jeweiligen Größe, die ein einzelner Benutzer betritt
+  - <span data-ttu-id="018e8-285">Chatrooms der jeweiligen Größe, die ein einzelner Benutzer betritt</span><span class="sxs-lookup"><span data-stu-id="018e8-285">Chat rooms of the given size that a single user joins</span></span>
 
-Die vorstehende Tabelle zur Kapazitätsplanung gibt für jeden Chatroom die Anzahl von Zugriffssteuerungseinträgen an, die dem jeweiligen Chatroom zugeordnet sind. Dies umfasst die Einträge, die dem Chatroom direkt zugewiesen sind. Sie können den Zugriff auf einzelne Chatrooms über Zugriffssteuerungslisten steuern. Darüber hinaus können Sie den Zugriff auf Kategorieebene steuern. In einer Zugriffssteuerungsliste kann es sich bei einem einzelnen Zugriffssteuerungseintrag entweder um eine Benutzergruppe (z. B. eine Sicherheitsgruppe oder Verteilerliste) oder einen einzelnen Benutzer handeln. Sie können Zugriffssteuerungseinträge für Manager, Referenten und Mitglieder eines Chatrooms definieren.
+<span data-ttu-id="018e8-p111">Die vorstehende Tabelle zur Kapazitätsplanung gibt für jeden Chatroom die Anzahl von Zugriffssteuerungseinträgen an, die dem jeweiligen Chatroom zugeordnet sind. Dies umfasst die Einträge, die dem Chatroom direkt zugewiesen sind. Sie können den Zugriff auf einzelne Chatrooms über Zugriffssteuerungslisten steuern. Darüber hinaus können Sie den Zugriff auf Kategorieebene steuern. In einer Zugriffssteuerungsliste kann es sich bei einem einzelnen Zugriffssteuerungseintrag entweder um eine Benutzergruppe (z. B. eine Sicherheitsgruppe oder Verteilerliste) oder einen einzelnen Benutzer handeln. Sie können Zugriffssteuerungseinträge für Manager, Referenten und Mitglieder eines Chatrooms definieren.</span><span class="sxs-lookup"><span data-stu-id="018e8-p111">For each chat room, the preceding capacity planning table specifies the number of access control entries that are associated with the chat room, including entries that are assigned directly to the chat room. You can control access to individual chat rooms by using access control lists (ACLs). You can also control access at the category level. In an ACL, an individual access control entry can be either a user group—for example, a security group, a distribution list, or a single user. You can define access control entries for chat room managers, presenters, and members.</span></span>
 
-
-> [!IMPORTANT]
-> Bedenken Sie bei der Planung Ihrer Strategie für die Verwaltung von Chatrooms, dass die Gesamtzahl von zulässigen Zugriffssteuerungseinträgen zwei Millionen beträgt. Wenn die berechnete Anzahl von Zugriffssteuerungseinträgen eine Million überschreitet, kann die Leistung signifikant beeinträchtigt werden. Um dieses Problem zu verhindern, sollten Sie wenn möglich sicherstellen, dass Ihre Zugriffssteuerungseinträge keine einzelnen Benutzer, sondern Benutzergruppen umfassen.
+<div>
 
 
-
-## Kapazitätsplanung für die Verwaltung des Chatroomzugriffs über eine Einladung
-
-Anhand der folgenden Tabelle zur Kapazitätsplanung können Sie die Anzahl von Einladungen berechnen, die von Server für beständigen Chat in der Beständiger Chat-Datenbank erstellt und gespeichert werden, wenn die Funktion für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen nach Kategorien, indem Sie die Seite mit den Chatroom-Kategorieeinstellungen in der Lync Server-Systemsteuerung oder das Windows PowerShell-Cmdlet **set-csPersistentChatCategory** verwenden. Sie können Einladungen in einem Chatroom verwalten (entsprechend den durch die Kategorie zulässigen Optionen), indem Sie die Seite für die Chatroomverwaltung verwenden, die über den Lync-Client gestartet wird, oder indem Sie das Windows PowerShell-Cmdlet **set-csPersistentChatRoom** verwenden.
-
-Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die Einladungsoption auf der Seite mit den Chatroomeinstellungen für 50 % aller Chatrooms auf **Ja** festgelegt ist.
-
-
-> [!IMPORTANT]
-> Wenn der berechnete Wert für die Anzahl von Einladungen, die der Server generiert, eine Million überschreitet, kann die Serverleistung signifikant beeinträchtigt werden. Um dieses Problem zu vermeiden, minimieren Sie die Anzahl von Chatrooms, die für das Senden von Einladungen konfiguriert sind, oder schränken Sie die Anzahl von Benutzern ein, die Chatrooms betreten können, die für das Senden von Einladungen konfiguriert sind.
+> [!IMPORTANT]  
+> <span data-ttu-id="018e8-p112">Bedenken Sie bei der Planung Ihrer Strategie für die Verwaltung von Chatrooms, dass die Gesamtzahl von zulässigen Zugriffssteuerungseinträgen zwei Millionen beträgt. Wenn die berechnete Anzahl von Zugriffssteuerungseinträgen eine Million überschreitet, kann die Leistung signifikant beeinträchtigt werden. Um dieses Problem zu verhindern, sollten Sie wenn möglich sicherstellen, dass Ihre Zugriffssteuerungseinträge keine einzelnen Benutzer, sondern Benutzergruppen umfassen.</span><span class="sxs-lookup"><span data-stu-id="018e8-p112">In planning your strategy for managing chat rooms, keep in mind that the total number of allowed access control entries is 2 million. If the calculated access control entries exceed 2 million, server performance could degrade significantly. To avoid this issue, whenever possible, be sure that your access control entries are user groups instead of individual users.</span></span>
 
 
 
-### Beispiel für den Chatroomzugriff über eine Einladung
+</div>
+
+</div>
+
+<div>
+
+## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a><span data-ttu-id="018e8-294">Kapazitätsplanung für die Verwaltung des Chatroom-Zugriffs per Einladung</span><span class="sxs-lookup"><span data-stu-id="018e8-294">Capacity Planning for Managing Chat Room Access by Invitation</span></span>
+
+<span data-ttu-id="018e8-295">Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um zu verstehen, wie viele Einladungen der beständige Chat Server in der persistenten Chat Datenbank erstellt und speichert, wenn er zum Senden von Einladungen konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="018e8-295">You can use the following capacity planning table to understand the number of invitations that Persistent Chat Server creates and stores in the Persistent Chat database when it is configured to send invitations.</span></span> <span data-ttu-id="018e8-296">Sie können Einladungen für die Kategorie verwalten, indem Sie die **Kategorie Einstellungen** für Chatrooms in der lync Server-Systemsteuerung verwenden oder das Windows PowerShell-Cmdlet " **csPersistentChatCategory**" verwenden.</span><span class="sxs-lookup"><span data-stu-id="018e8-296">You manage invitations on the Category by using the **Chat Room Category settings** page in the Lync Server Control Panel, or by using the Windows PowerShell cmdlet, **set-csPersistentChatCategory**.</span></span> <span data-ttu-id="018e8-297">Sie können Einladungen in einem Chatroom verwalten (entsprechend der Kategorie), indem Sie die vom lync-Client gestartete **Raum Verwaltungs** Seite verwenden oder ein Windows PowerShell-Cmdlet, " **csPersistentChatRoom**", verwenden.</span><span class="sxs-lookup"><span data-stu-id="018e8-297">You can manage invitations on a chat room (in line with what the category allows) by using the **Room Management** page launched from the Lync client, or by using a Windows PowerShell cmdlet, **set-csPersistentChatRoom**.</span></span>
+
+<span data-ttu-id="018e8-298">Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die **Einladungsoption** auf der Seite mit den **Chatroomeinstellungen** für 50 % aller Chatrooms auf **Ja** festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="018e8-298">The sample data in the following table assumes that, on the **Chat room settings** page for 50 percent of all chat rooms, the **Invitations** option is set to **Yes**.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="018e8-299">Wenn der berechnete Wert für die Anzahl von Einladungen, die der Server generiert, eine Million überschreitet, kann die Serverleistung signifikant beeinträchtigt werden.</span><span class="sxs-lookup"><span data-stu-id="018e8-299">If the calculated value for the number of invitations that is generated by the server exceeds 1 million, server performance could degrade significantly.</span></span> <span data-ttu-id="018e8-300">Um dieses Problem zu vermeiden, stellen Sie sicher, dass Sie die Anzahl der Chatrooms minimieren, die zum Senden von Einladungen konfiguriert sind, oder die Anzahl der Benutzer einschränken, die an Chatrooms teilnehmen können, die zum Senden von Einladungen konfiguriert wurden.</span><span class="sxs-lookup"><span data-stu-id="018e8-300">To avoid this issue, be sure that you minimize the number of chat rooms that are configured to send invitations or restrict the number of users who can join chat rooms that have been configured to send invitations.</span></span>
+
+
+
+</div>
+
+### <a name="chat-room-access-by-invitation-sample"></a><span data-ttu-id="018e8-301">Beispiel für Chatroom-Zugriff per Einladung</span><span class="sxs-lookup"><span data-stu-id="018e8-301">Chat Room Access by Invitation Sample</span></span>
 
 <table>
 <colgroup>
@@ -374,113 +433,117 @@ Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die
 <thead>
 <tr class="header">
 <th></th>
-<th>Kleine Chatrooms</th>
-<th>Mittlere Chatrooms</th>
-<th>Große Chatrooms</th>
-<th>Gesamt</th>
+<th><span data-ttu-id="018e8-302">Kleine Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-302">Small Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-303">Mittlere Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-303">Medium Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-304">Große Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-304">Large Chat Rooms</span></span></th>
+<th><span data-ttu-id="018e8-305">Gesamt</span><span class="sxs-lookup"><span data-stu-id="018e8-305">Total</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Benutzer, die auf den Chatroom zugreifen können</p></td>
-<td><p>30 pro Chatroom</p></td>
-<td><p>150 pro Chatroom</p></td>
-<td><p>16.000 pro Chatroom</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-306">Benutzer, die auf den Chatroom zugreifen können</span><span class="sxs-lookup"><span data-stu-id="018e8-306">Users who can access chat room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-307">30 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-307">30 per room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-308">150 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-308">150 per room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-309">16.000 pro Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-309">16,000 per room</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Prozentsatz an Chatrooms mit Einladung</p></td>
-<td><p>50%</p></td>
-<td><p>50%</p></td>
-<td><p>50%</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-310">Prozentsatz an Chatrooms mit Einladung</span><span class="sxs-lookup"><span data-stu-id="018e8-310">Percentage of rooms that have invitations</span></span></p></td>
+<td><p><span data-ttu-id="018e8-311">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-311">50%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-312">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-312">50%</span></span></p></td>
+<td><p><span data-ttu-id="018e8-313">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-313">50%</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Für das Senden von Einladungen konfigurierte Chatrooms</p></td>
-<td><p><em>16,000</em></p></td>
-<td><p><em>533</em></p></td>
-<td><p><em>5</em></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-314">Für das Senden von Einladungen konfigurierte Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-314">Chat rooms configured to send invitations</span></span></p></td>
+<td><p><span data-ttu-id="018e8-315"><em>16,000</em></span><span class="sxs-lookup"><span data-stu-id="018e8-315"><em>16,000</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-316"><em>533</em></span><span class="sxs-lookup"><span data-stu-id="018e8-316"><em>533</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-317"><em>5</em></span><span class="sxs-lookup"><span data-stu-id="018e8-317"><em>5</em></span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Benutzer, die auf den Chatroom zugreifen können</p></td>
-<td><p><em>60</em></p></td>
-<td><p><em>225</em></p></td>
-<td><p><em>16,000</em></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-318">Benutzer, die auf den Chatroom zugreifen können</span><span class="sxs-lookup"><span data-stu-id="018e8-318">Users who can access the chat room</span></span></p></td>
+<td><p><span data-ttu-id="018e8-319"><em>60</em></span><span class="sxs-lookup"><span data-stu-id="018e8-319"><em>60</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-320"><em>225</em></span><span class="sxs-lookup"><span data-stu-id="018e8-320"><em>225</em></span></span></p></td>
+<td><p><span data-ttu-id="018e8-321"><em>16,000</em></span><span class="sxs-lookup"><span data-stu-id="018e8-321"><em>16,000</em></span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Vom Server für beständigen Chat generierte Einladungen</p></td>
-<td><p>960.000</p></td>
-<td><p>120.000</p></td>
-<td><p>80.000</p></td>
-<td><p>1.160.000</p></td>
+<td><p><span data-ttu-id="018e8-322">Vom beständigen Chat Server generierte Einladungen</span><span class="sxs-lookup"><span data-stu-id="018e8-322">Invitations generated by Persistent Chat Server</span></span></p></td>
+<td><p><span data-ttu-id="018e8-323">960,000</span><span class="sxs-lookup"><span data-stu-id="018e8-323">960,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-324">120,000</span><span class="sxs-lookup"><span data-stu-id="018e8-324">120,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-325">80,000</span><span class="sxs-lookup"><span data-stu-id="018e8-325">80,000</span></span></p></td>
+<td><p><span data-ttu-id="018e8-326">1,160,000</span><span class="sxs-lookup"><span data-stu-id="018e8-326">1,160,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Maximal zulässige Anzahl von Einladungen</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>2.000.000</p></td>
+<td><p><span data-ttu-id="018e8-327">Maximal zulässige Anzahl von Einladungen</span><span class="sxs-lookup"><span data-stu-id="018e8-327">Maximum allowable number of invitations</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p><span data-ttu-id="018e8-328">2,000,000</span><span class="sxs-lookup"><span data-stu-id="018e8-328">2,000,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Modell 1 - Start mit der erwarteten Anzahl an Nachrichten pro Chatroom pro Tag</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-329">Modell 1: Start mit der erwarteten Anzahl an Nachrichten pro Chatroom und Tag</span><span class="sxs-lookup"><span data-stu-id="018e8-329">Model 1 - Start with expected number of messages per room per day</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Chatrate pro Chatroom (pro Tag)</p></td>
-<td><p>50</p></td>
-<td><p>500</p></td>
-<td><p>100</p></td>
-<td><p>650</p></td>
+<td><p><span data-ttu-id="018e8-330">Chatrate pro Chatroom (pro Tag)</span><span class="sxs-lookup"><span data-stu-id="018e8-330">Chat Rate Per Room (per day)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-331">50</span><span class="sxs-lookup"><span data-stu-id="018e8-331">50</span></span></p></td>
+<td><p><span data-ttu-id="018e8-332">500</span><span class="sxs-lookup"><span data-stu-id="018e8-332">500</span></span></p></td>
+<td><p><span data-ttu-id="018e8-333">100</span><span class="sxs-lookup"><span data-stu-id="018e8-333">100</span></span></p></td>
+<td><p><span data-ttu-id="018e8-334">650</span><span class="sxs-lookup"><span data-stu-id="018e8-334">650</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatrate (pro Sekunde) für alle Chatrooms</p></td>
-<td><p>55,56</p></td>
-<td><p>18,52</p></td>
-<td><p>0,03</p></td>
-<td><p>74</p></td>
+<td><p><span data-ttu-id="018e8-335">Chatrate (pro Sekunde) für alle Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-335">Chat rate (per second) across all rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-336">55.56</span><span class="sxs-lookup"><span data-stu-id="018e8-336">55.56</span></span></p></td>
+<td><p><span data-ttu-id="018e8-337">18.52</span><span class="sxs-lookup"><span data-stu-id="018e8-337">18.52</span></span></p></td>
+<td><p><span data-ttu-id="018e8-338">0.03</span><span class="sxs-lookup"><span data-stu-id="018e8-338">0.03</span></span></p></td>
+<td><p><span data-ttu-id="018e8-339">74</span><span class="sxs-lookup"><span data-stu-id="018e8-339">74</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Modell 2 - Start mit der Anzahl an veröffentlichten Nachrichten pro Benutzer pro Tag</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="018e8-340">Modell 2: Start mit der Anzahl an veröffentlichten Nachrichten pro Benutzer und Tag</span><span class="sxs-lookup"><span data-stu-id="018e8-340">Model 2 - Start with number of messages posted per user per day</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Chatrate pro Benutzer pro Tag</p></td>
-<td><p>15</p></td>
-<td><p>5</p></td>
-<td><p>0,1</p></td>
-<td><p>20</p></td>
+<td><p><span data-ttu-id="018e8-341">Chatrate pro Benutzer und Tag</span><span class="sxs-lookup"><span data-stu-id="018e8-341">Chat rate per user per day</span></span></p></td>
+<td><p><span data-ttu-id="018e8-342">15</span><span class="sxs-lookup"><span data-stu-id="018e8-342">15</span></span></p></td>
+<td><p><span data-ttu-id="018e8-343">5</span><span class="sxs-lookup"><span data-stu-id="018e8-343">5</span></span></p></td>
+<td><p><span data-ttu-id="018e8-344">0.1</span><span class="sxs-lookup"><span data-stu-id="018e8-344">0.1</span></span></p></td>
+<td><p><span data-ttu-id="018e8-345">20</span><span class="sxs-lookup"><span data-stu-id="018e8-345">20</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Chatrate pro Chatroom (pro Tag)</p></td>
-<td><p>38</p></td>
-<td><p>375</p></td>
-<td><p>800</p></td>
-<td><p>1.213</p></td>
+<td><p><span data-ttu-id="018e8-346">Chatrate pro Chatroom (pro Tag)</span><span class="sxs-lookup"><span data-stu-id="018e8-346">Chat rate per room (per day)</span></span></p></td>
+<td><p><span data-ttu-id="018e8-347">38</span><span class="sxs-lookup"><span data-stu-id="018e8-347">38</span></span></p></td>
+<td><p><span data-ttu-id="018e8-348">375</span><span class="sxs-lookup"><span data-stu-id="018e8-348">375</span></span></p></td>
+<td><p><span data-ttu-id="018e8-349">800</span><span class="sxs-lookup"><span data-stu-id="018e8-349">800</span></span></p></td>
+<td><p><span data-ttu-id="018e8-350">1,213</span><span class="sxs-lookup"><span data-stu-id="018e8-350">1,213</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatrate (pro Sekunde) für alle Chatrooms</p></td>
-<td><p>41,67</p></td>
-<td><p>13,89</p></td>
-<td><p>0,28</p></td>
-<td><p>56</p></td>
+<td><p><span data-ttu-id="018e8-351">Chatrate (pro Sekunde) für alle Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-351">Chat rate (per second) across all rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-352">41.67</span><span class="sxs-lookup"><span data-stu-id="018e8-352">41.67</span></span></p></td>
+<td><p><span data-ttu-id="018e8-353">13.89</span><span class="sxs-lookup"><span data-stu-id="018e8-353">13.89</span></span></p></td>
+<td><p><span data-ttu-id="018e8-354">0.28</span><span class="sxs-lookup"><span data-stu-id="018e8-354">0.28</span></span></p></td>
+<td><p><span data-ttu-id="018e8-355">56</span><span class="sxs-lookup"><span data-stu-id="018e8-355">56</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Benutzermodell für die Leistung des Server für beständigen Chats
+</div>
 
-In der folgenden Tabelle wird das Benutzermodell für Server für beständigen Chat beschrieben. Dieses Modell bildet die Grundlage für die Kapazitätsplanungsanforderungen und stellt eine typische Organisation mit 80.000 gleichzeitigen Benutzern bei der Verwendung von vier Servern dar.
+<div>
 
-### Benutzermodell für die Leistung des Server für beständigen Chats
+## <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="018e8-356">Benutzermodell für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="018e8-356">Persistent Chat Server Performance User Model</span></span>
+
+<span data-ttu-id="018e8-357">In der folgenden Tabelle wird das Benutzermodell für den beständigen Chat Server beschrieben.</span><span class="sxs-lookup"><span data-stu-id="018e8-357">The following table describes the user model for Persistent Chat Server.</span></span> <span data-ttu-id="018e8-358">Dieses Modell bildet die Grundlage für die Kapazitätsplanungsanforderungen und stellt eine typische Organisation mit 80.000 gleichzeitigen Benutzern auf vier Servern dar.</span><span class="sxs-lookup"><span data-stu-id="018e8-358">It provides the basis for the capacity planning requirements and represents a typical organization with 80,000 concurrent users on four servers.</span></span>
+
+### <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="018e8-359">Benutzermodell für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="018e8-359">Persistent Chat Server Performance User Model</span></span>
 
 <table>
 <colgroup>
@@ -489,133 +552,148 @@ In der folgenden Tabelle wird das Benutzermodell für Server für beständigen C
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Anzahl von aktiven verbundenen Benutzern</p></td>
-<td><p>80.000</p></td>
+<td><p><span data-ttu-id="018e8-360">Anzahl der aktiven verbundenen Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-360">Number of active users connected</span></span></p></td>
+<td><p><span data-ttu-id="018e8-361">80,000</span><span class="sxs-lookup"><span data-stu-id="018e8-361">80,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl der Server für beständigen Chat-Dienstinstanzen</p></td>
-<td><p>4</p></td>
+<td><p><span data-ttu-id="018e8-362">Anzahl der Server Dienstinstanzen für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="018e8-362">Number of Persistent Chat Server service instances</span></span></p></td>
+<td><p><span data-ttu-id="018e8-363">4</span><span class="sxs-lookup"><span data-stu-id="018e8-363">4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Umfang kleiner Chatrooms</p></td>
-<td><p>30 Benutzer</p></td>
+<td><p><span data-ttu-id="018e8-364">Umfang kleiner Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-364">Size of small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-365">30 Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-365">30 users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Umfang mittelgroßer Chatrooms</p></td>
-<td><p>150 Benutzer</p></td>
+<td><p><span data-ttu-id="018e8-366">Umfang mittelgroßer Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-366">Size of medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-367">150 Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-367">150 users</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Umfang großer Chatrooms</p></td>
-<td><p>16.000 Benutzer</p></td>
+<td><p><span data-ttu-id="018e8-368">Umfang großer Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-368">Size of large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-369">16.000 Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-369">16,000 users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Gesamtzahl von Chatrooms</p></td>
-<td><p>33.077</p></td>
+<td><p><span data-ttu-id="018e8-370">Gesamtzahl der Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-370">Total number of chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-371">33,077</span><span class="sxs-lookup"><span data-stu-id="018e8-371">33,077</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von kleinen Chatrooms</p></td>
-<td><p>32.000</p></td>
+<td><p><span data-ttu-id="018e8-372">Anzahl kleiner Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-372">Number of small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-373">32,000</span><span class="sxs-lookup"><span data-stu-id="018e8-373">32,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von mittelgroßen Chatrooms</p></td>
-<td><p>1.067</p></td>
+<td><p><span data-ttu-id="018e8-374">Anzahl mittelgroßer Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-374">Number of medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-375">1,067</span><span class="sxs-lookup"><span data-stu-id="018e8-375">1,067</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von großen Chatrooms</p></td>
-<td><p>10</p></td>
+<td><p><span data-ttu-id="018e8-376">Anzahl großer Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-376">Number of large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-377">10</span><span class="sxs-lookup"><span data-stu-id="018e8-377">10</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Gesamtzahl von Chatrooms pro Benutzer</p></td>
-<td><p>16</p></td>
+<td><p><span data-ttu-id="018e8-378">Gesamtzahl der Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-378">Total number of chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-379">16</span><span class="sxs-lookup"><span data-stu-id="018e8-379">16</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von kleinen Chatrooms pro Benutzer</p></td>
-<td><p>12</p></td>
+<td><p><span data-ttu-id="018e8-380">Anzahl kleiner Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-380">Number of small chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-381">12</span><span class="sxs-lookup"><span data-stu-id="018e8-381">12</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von mittelgroßen Chatrooms pro Benutzer</p></td>
-<td><p>2</p></td>
+<td><p><span data-ttu-id="018e8-382">Anzahl mittelgroßer Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-382">Number of medium chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-383">2</span><span class="sxs-lookup"><span data-stu-id="018e8-383">2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von großen Chatrooms pro Benutzer</p></td>
-<td><p>2</p></td>
+<td><p><span data-ttu-id="018e8-384">Anzahl großer Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-384">Number of large chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-385">2</span><span class="sxs-lookup"><span data-stu-id="018e8-385">2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von Chatrooms, denen ein einzelner Benutzer beitritt</p></td>
-<td><p>24</p></td>
+<td><p><span data-ttu-id="018e8-386">Anzahl der betretenen Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-386">Number of rooms joined per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-387">24</span><span class="sxs-lookup"><span data-stu-id="018e8-387">24</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Maximale Beitrittsrate</p></td>
-<td><p>10/s</p></td>
+<td><p><span data-ttu-id="018e8-388">Maximale Beitrittsrate</span><span class="sxs-lookup"><span data-stu-id="018e8-388">Peak join rate</span></span></p></td>
+<td><p><span data-ttu-id="018e8-389">10/s</span><span class="sxs-lookup"><span data-stu-id="018e8-389">10/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Gesamtchatrate</p></td>
-<td><p>24/s</p></td>
+<td><p><span data-ttu-id="018e8-390">Gesamtchatrate</span><span class="sxs-lookup"><span data-stu-id="018e8-390">Total chat rate</span></span></p></td>
+<td><p><span data-ttu-id="018e8-391">24/s</span><span class="sxs-lookup"><span data-stu-id="018e8-391">24/second</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatrate für kleine Chatrooms</p></td>
-<td><p>22,22/s</p></td>
+<td><p><span data-ttu-id="018e8-392">Chatrate für kleine Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-392">Chat rate for small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-393">22.22/second</span><span class="sxs-lookup"><span data-stu-id="018e8-393">22.22/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Chatrate für mittelgroße Chatrooms</p></td>
-<td><p>1,67/s</p></td>
+<td><p><span data-ttu-id="018e8-394">Chatrate für mittelgroße Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-394">Chat rate for medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-395">1.67/second</span><span class="sxs-lookup"><span data-stu-id="018e8-395">1.67/second</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatrate für große Chatrooms</p></td>
-<td><p>~ 0,15/s</p></td>
+<td><p><span data-ttu-id="018e8-396">Chatrate für große Chatrooms</span><span class="sxs-lookup"><span data-stu-id="018e8-396">Chat rate for large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="018e8-397">~0.15/second</span><span class="sxs-lookup"><span data-stu-id="018e8-397">~0.15/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Prozentsatz von Chatrooms, die für Einladungen konfiguriert sind</p></td>
-<td><p>50%</p></td>
+<td><p><span data-ttu-id="018e8-398">Prozentsatz der Chatrooms, die für Einladungen konfiguriert sind</span><span class="sxs-lookup"><span data-stu-id="018e8-398">Percentage of chat rooms configured for invitations</span></span></p></td>
+<td><p><span data-ttu-id="018e8-399">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-399">50%</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Prozentsatz von direkten Mitgliedschaften</p></td>
-<td><p>50%</p></td>
+<td><p><span data-ttu-id="018e8-400">Prozentsatz der direkten Mitgliedschaften</span><span class="sxs-lookup"><span data-stu-id="018e8-400">Percentage of direct memberships</span></span></p></td>
+<td><p><span data-ttu-id="018e8-401">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-401">50%</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Prozentsatz von Gruppenmitgliedschaften</p></td>
-<td><p>50%</p></td>
+<td><p><span data-ttu-id="018e8-402">Prozentsatz der Gruppenmitgliedschaften</span><span class="sxs-lookup"><span data-stu-id="018e8-402">Percentage of group memberships</span></span></p></td>
+<td><p><span data-ttu-id="018e8-403">50%</span><span class="sxs-lookup"><span data-stu-id="018e8-403">50%</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Durchschnittliche Anzahl von Zugehörigkeiten zu Vorgängerobjekten in Active Directory-Domänendienste</p></td>
-<td><p>100 - 200</p></td>
+<td><p><span data-ttu-id="018e8-404">Durchschnittliche Anzahl von Vorgänger Verbindungen in Active Directory-Domänendiensten</span><span class="sxs-lookup"><span data-stu-id="018e8-404">Average number of ancestor affiliations in Active Directory Domain Services</span></span></p></td>
+<td><p><span data-ttu-id="018e8-405">100 - 200</span><span class="sxs-lookup"><span data-stu-id="018e8-405">100 - 200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von abonnierten Kontakten pro Benutzer</p></td>
-<td><p>80</p></td>
+<td><p><span data-ttu-id="018e8-406">Anzahl abonnierter Kontakte pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-406">Number of subscribed contacts per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-407">80</span><span class="sxs-lookup"><span data-stu-id="018e8-407">80</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Durchschnittliche Anzahl von Endpunkten pro Benutzer</p></td>
-<td><p>1,5</p></td>
+<td><p><span data-ttu-id="018e8-408">Durchschnittliche Anzahl von Endpunkten pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-408">Average number of endpoints per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-409">1.5</span><span class="sxs-lookup"><span data-stu-id="018e8-409">1.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Durchschnittliche Anzahl von sichtbaren Chatrooms pro Endpunkt</p></td>
-<td><p>1,5</p></td>
+<td><p><span data-ttu-id="018e8-410">Durchschnittliche Anzahl von sichtbaren Chatrooms pro Endpunkt</span><span class="sxs-lookup"><span data-stu-id="018e8-410">Average number of visible chat rooms per endpoint</span></span></p></td>
+<td><p><span data-ttu-id="018e8-411">1.5</span><span class="sxs-lookup"><span data-stu-id="018e8-411">1.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Durchschnittliche Anzahl von sichtbaren Chatrooms pro Benutzer</p></td>
-<td><p>2,25 (50 % für 1 Chatroom und 50 % für 2 Chatrooms); bis zu 6 Chatrooms offen, ein Chatroom pro Bildschirm</p></td>
+<td><p><span data-ttu-id="018e8-412">Durchschnittliche Anzahl von sichtbaren Chatrooms pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-412">Average number of visible chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-413">2,25 (50 % für 1 Chatroom und 50 % für 2 Chatrooms); bis zu 6 Chatrooms offen, ein Chatroom pro Bildschirm</span><span class="sxs-lookup"><span data-stu-id="018e8-413">2.25 (50% for 1 room and 50% for 2 rooms); Up to 6 rooms open, one per monitor</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von Teilnehmern, die pro Intervall abgerufen werden</p></td>
-<td><p>25 pro sichtbarem Chatroom</p></td>
+<td><p><span data-ttu-id="018e8-414">Anzahl von Teilnehmern, die pro Intervall abgerufen werden</span><span class="sxs-lookup"><span data-stu-id="018e8-414">Number of participants polled per interval</span></span></p></td>
+<td><p><span data-ttu-id="018e8-415">25 pro sichtbarem Chatroom</span><span class="sxs-lookup"><span data-stu-id="018e8-415">25 per visible chat room</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Länge des Abrufintervalls</p></td>
-<td><p>5 Minuten</p></td>
+<td><p><span data-ttu-id="018e8-416">Länge des Abrufintervalls</span><span class="sxs-lookup"><span data-stu-id="018e8-416">Length of polling interval</span></span></p></td>
+<td><p><span data-ttu-id="018e8-417">5 Minuten</span><span class="sxs-lookup"><span data-stu-id="018e8-417">5 minutes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von Teilnehmern, die pro Sekunde abgerufen werden</p></td>
-<td><p>15.000</p></td>
+<td><p><span data-ttu-id="018e8-418">Anzahl von Teilnehmern, die pro Sekunde abgerufen werden</span><span class="sxs-lookup"><span data-stu-id="018e8-418">Number of participants polled per second</span></span></p></td>
+<td><p><span data-ttu-id="018e8-419">15,000</span><span class="sxs-lookup"><span data-stu-id="018e8-419">15,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von Änderungen des Anwesenheitsstatus pro Stunde und Benutzer</p></td>
-<td><p>6</p></td>
+<td><p><span data-ttu-id="018e8-420">Anzahl von Änderungen des Anwesenheitsstatus pro Stunde und Benutzer</span><span class="sxs-lookup"><span data-stu-id="018e8-420">Number of presence changes per hour per user</span></span></p></td>
+<td><p><span data-ttu-id="018e8-421">6</span><span class="sxs-lookup"><span data-stu-id="018e8-421">6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Anzahl von Änderungen des Anwesenheitsstatus pro Sekunde</p></td>
-<td><p>133,33</p></td>
+<td><p><span data-ttu-id="018e8-422">Anzahl von Änderungen des Anwesenheitsstatus pro Sekunde</span><span class="sxs-lookup"><span data-stu-id="018e8-422">Number of presence changes per second</span></span></p></td>
+<td><p><span data-ttu-id="018e8-423">133.33</span><span class="sxs-lookup"><span data-stu-id="018e8-423">133.33</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

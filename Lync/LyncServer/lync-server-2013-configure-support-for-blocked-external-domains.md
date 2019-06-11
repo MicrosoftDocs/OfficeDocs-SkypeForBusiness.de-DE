@@ -1,50 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren der Unterstützung für blockierte externe Domänen'
-TOCTitle: Konfigurieren der Unterstützung für blockierte externe Domänen
-ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619176(v=OCS.15)
-ms:contentKeyID: 49293899
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren der Unterstützung für blockierte externe Domänen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure support for blocked external domains
+ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619176(v=OCS.15)
+ms:contentKeyID: 49733638
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08191e8600f5e247ba6b4a358557ea3def0a1756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839320"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+# <a name="configure-support-for-blocked-external-domains-in-lync-server-2013"></a><span data-ttu-id="12047-102">Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12047-102">Configure support for blocked external domains in Lync Server 2013</span></span>
 
-Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche Domänen (k)einen Verbund mit Ihrer Organisation eingehen können. Die Liste der blockierten Domänen fungiert als Sperrliste (mit einer expliziten Auflistung der Einträge, die nicht zulässig sind). Sie findet bei der Erkennung von Verbunddomänen Anwendung, sofern die entsprechende Option aktiviert wurde. Nähere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Suche von Verbundpartnern in Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
+</div>
 
-Blockieren Sie eine oder mehrere externe Domänen vom Herstellen einer Verbindung mit Ihrer Organisation. Fügen Sie hierzu die Domäne der Liste blockierter Domänen hinzu.
+<div id="mainSection">
 
-## So fügen Sie der Liste blockierter Domänen eine externe Domäne hinzu
+<div id="mainBody">
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+<span> </span>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="12047-103">_**Letztes Änderungsdatum des Themas:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="12047-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer** .
+<span data-ttu-id="12047-104">Wenn Sie die Unterstützung für Federated-Partner konfiguriert haben, können Sie verwalten, welche Domänen von der Föderation mit Ihrer Organisation blockiert werden.</span><span class="sxs-lookup"><span data-stu-id="12047-104">If you have configured support for federated partners, you can manage which domains will be blocked from federating with your organization.</span></span> <span data-ttu-id="12047-105">Die Liste der blockierten Domänen fungiert als Sperrliste (Auflistung expliziter Einträge, die nicht zulässig sind) und wird in der Föderationsdomänen Erkennung angewendet, wenn diese Option aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="12047-105">The list of blocked domains will act as a block list (listing of explicit entries that are not to be allowed) and will apply in federated domain discovery, if you have this option enabled.</span></span> <span data-ttu-id="12047-106">Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern in lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).</span><span class="sxs-lookup"><span data-stu-id="12047-106">For details, see [Enable or disable discovery of federation partners in Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).</span></span>
 
-4.  Klicken Sie auf **Partnerdomänen** , auf **Neu** und dann auf **Blockierte Domäne** .
+<span data-ttu-id="12047-107">Blockieren Sie eine oder mehrere externe Domänen, um eine Verbindung mit Ihrer Organisation herzustellen.</span><span class="sxs-lookup"><span data-stu-id="12047-107">Block one or more external domains from connecting to your organization.</span></span> <span data-ttu-id="12047-108">Fügen Sie dazu die Domäne zur Liste der blockierten Domänen hinzu.</span><span class="sxs-lookup"><span data-stu-id="12047-108">To do this, add the domain to the list of blocked domains.</span></span>
 
-5.  Führen Sie unter **Neue Partnerdomänen** die folgende Aktion aus:
+<div>
+
+## <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a><span data-ttu-id="12047-109">So fügen Sie eine externe Domäne zur Liste der blockierten Domänen hinzu</span><span class="sxs-lookup"><span data-stu-id="12047-109">To add an external domain to the list of blocked domains</span></span>
+
+1.  <span data-ttu-id="12047-110">Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="12047-110">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="12047-111">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="12047-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="12047-112">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="12047-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="12047-113">Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**.</span><span class="sxs-lookup"><span data-stu-id="12047-113">In the left navigation bar, click **External User Access**.</span></span>
+
+4.  <span data-ttu-id="12047-114">Klicken Sie auf **Verbunddomänen**, dann auf **neu**und dann auf **Blockierte Domäne**.</span><span class="sxs-lookup"><span data-stu-id="12047-114">Click **Federated Domains**, click **New**, and then click **Blocked domain**.</span></span>
+
+5.  <span data-ttu-id="12047-115">Führen Sie in **neuen Föderationsdomänen**die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="12047-115">In **New Federated Domains**, do the following:</span></span>
     
-      - Geben Sie im Feld **Domänenname (oder FQDN)** den Namen der Verbundpartnerdomäne ein, die blockiert werden soll.
+      - <span data-ttu-id="12047-116">Geben Sie in **Domänenname (oder FQDN)** den Namen der Partnerdomäne ein, die Sie blockieren möchten.</span><span class="sxs-lookup"><span data-stu-id="12047-116">In **Domain name (or FQDN)**, type the name of the federated partner domain that you want to block.</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Der Name darf maximal 256 Zeichen umfassen.<BR>Bei der Suche nach dem Namen der Verbundpartnerdomäne wird ein Suffixabgleich durchgeführt. Wenn Sie beispielsweise <STRONG>contoso.com</STRONG> eingeben, wird als Suchergebnis auch die Domäne <STRONG>it.contoso.com</STRONG> zurückgegeben.<BR>Eine Verbundpartnerdomäne kann nicht gleichzeitig blockiert und zugelassen werden. Lync Server 2013 verhindert dies automatisch, sodass Sie Ihre Listen nicht synchronisieren müssen.
+        > [!NOTE]  
+        > <span data-ttu-id="12047-117">Der Name darf nicht mehr als 256 Zeichen lang sein.</span><span class="sxs-lookup"><span data-stu-id="12047-117">The name cannot exceed 256 characters in length.</span></span><BR><span data-ttu-id="12047-118">Bei der Suche nach dem Domänennamen des Partner Partners wird eine Übereinstimmung mit dem Suffix ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="12047-118">The search on the federated partner domain name performs a suffix match.</span></span> <span data-ttu-id="12047-119">Wenn Sie beispielsweise <STRONG>contoso.com</STRONG>eingeben, gibt die Suche auch die Domäne <STRONG>IT.contoso.com</STRONG>zurück.</span><span class="sxs-lookup"><span data-stu-id="12047-119">For example, if you type <STRONG>contoso.com</STRONG>, the search will also return the domain <STRONG>it.contoso.com</STRONG>.</span></span><BR><span data-ttu-id="12047-120">Eine Föderationspartner-Domäne kann nicht gleichzeitig blockiert und zugelassen werden.</span><span class="sxs-lookup"><span data-stu-id="12047-120">A federated partner domain cannot simultaneously be blocked and allowed.</span></span> <span data-ttu-id="12047-121">Lync Server 2013 verhindert, dass dies geschieht, damit Sie Ihre Listen nicht synchronisieren müssen.</span><span class="sxs-lookup"><span data-stu-id="12047-121">Lync Server 2013 prevents this from happening so that you do not have to synch up your lists.</span></span>
 
+        
+        </div>
     
-      - Im Feld **Kommentar** können Sie Informationen zur Konfiguration eingeben, die Sie mit anderen Systemadministratoren teilen möchten. Dieses Feld ist optional.
+      - <span data-ttu-id="12047-122">Optional Geben Sie in **Kommentar**Informationen ein, die Sie für andere Systemadministratoren über diese Konfiguration freigeben möchten.</span><span class="sxs-lookup"><span data-stu-id="12047-122">(Optional) In **Comment**, type information that you want to share with other system administrators about this configuration.</span></span>
 
-6.  Klicken Sie auf **Commit** .
+6.  <span data-ttu-id="12047-123">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="12047-123">Click **Commit**.</span></span>
 
-7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Verbundpartner, den Sie blockieren möchten.
+7.  <span data-ttu-id="12047-124">Wiederholen Sie die Schritte 4 bis 6 für jeden Föderationspartner, den Sie blockieren möchten.</span><span class="sxs-lookup"><span data-stu-id="12047-124">Repeat steps 4 through 6 for each federated partner that you want to block.</span></span>
 
-Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Nähere Informationen hierzu finden Sie unter [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+<span data-ttu-id="12047-125">Zum Aktivieren des Zugriffs auf den Verbundbenutzer müssen Sie auch die Unterstützung für den Verbundbenutzer Zugriff in Ihrer Organisation aktivieren.</span><span class="sxs-lookup"><span data-stu-id="12047-125">To enable federated user access, you must also enable support for federated user access in your organization.</span></span> <span data-ttu-id="12047-126">Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="12047-126">For details, see [Enable or disable remote user access in Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).</span></span>
 
-Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Nähere Informationen finden Sie unter [Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+<span data-ttu-id="12047-127">Darüber hinaus müssen Sie die Richtlinie für Benutzer konfigurieren und anwenden, die in der Lage sein sollen, mit Verbundbenutzern zusammenzuarbeiten.</span><span class="sxs-lookup"><span data-stu-id="12047-127">Additionally, you must configure and apply the policy to users that you want to be able to collaborate with federated users.</span></span> <span data-ttu-id="12047-128">Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="12047-128">For details, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

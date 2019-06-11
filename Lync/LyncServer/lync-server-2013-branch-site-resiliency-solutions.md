@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Ausfallsicherheitslösungen für Zweigstellenstandorte'
-TOCTitle: Ausfallsicherheitslösungen für Zweigstellenstandorte
-ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398234(v=OCS.15)
-ms:contentKeyID: 49293299
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausfallsicherheitslösungen für Zweigstellenstandorte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Branch-site resiliency solutions
+ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
+ms:contentKeyID: 48183517
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839745"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausfallsicherheitslösungen für Zweigstellenstandorte in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a><span data-ttu-id="89f06-102">Ausfallsicherheitslösungen für Zweigstellenstandorte in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89f06-102">Branch-site resiliency solutions in Lync Server 2013</span></span>
 
-Das Bereitstellen von Ausfallsicherheit für Zweigstellenstandorte bietet offensichtliche Vorteile. Der wichtigste besteht darin, dass den Benutzern am Zweigstellenstandort bei einem Ausfall der Verbindung mit dem zentralen Standort weiterhin Enterprise-VoIP-Dienste und Voicemail zur Verfügung stehen (sofern Sie Einstellungen für die Voicemailumleitung konfigurieren; ausführliche Informationen hierzu finden Sie unter [Anforderungen für die Ausfallsicherheit an Zweigstellenstandorten für Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Für Standorte mit weniger als 25 Benutzern ist die Implementierung einer Ausfallsicherheitslösung jedoch möglicherweise nicht ausreichend rentabel.
+</div>
 
-Wenn Sie sich zur Bereitstellung von Ausfallsicherheit für Zweigstellenstandorte entschließen, haben Sie drei Möglichkeiten. Entscheiden Sie mithilfe der folgenden Tabelle, welche Option für Sie geeignet ist.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="89f06-103">_**Letztes Änderungsdatum des Themas:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="89f06-103">_**Topic Last Modified:** 2014-12-10_</span></span>
+
+<span data-ttu-id="89f06-104">Es gibt offensichtliche Vorteile für die Bereitstellung von Ausfallsicherheit für Zweigstellen in Ihrer Organisation.</span><span class="sxs-lookup"><span data-stu-id="89f06-104">There are obvious advantages to providing branch-site resiliency to your organization.</span></span> <span data-ttu-id="89f06-105">Insbesondere wenn Sie die Verbindung mit dem zentralen Standort verlieren, verfügen die Benutzer von Zweigstellenbenutzern weiterhin über Enterprise-VoIP-Dienst und Voicemail (wenn Sie die Einstellungen für die Neukonfiguration von Voicemail konfigurieren; Einzelheiten finden Sie unter Anforderungen an die [Standort Stabilität von Zweigstellen für lync Server. 2013](lync-server-2013-branch-site-resiliency-requirements.md)).</span><span class="sxs-lookup"><span data-stu-id="89f06-105">Specifically, if you lose the connection to the central site, branch site users will continue to have Enterprise Voice service and voice mail (if you configure voice mail rerouting settings; for details, see [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)).</span></span> <span data-ttu-id="89f06-106">Bei Websites mit weniger als 25 Benutzern bietet eine Lösung für Ausfallsicherheit möglicherweise keine ausreichende Rentabilität.</span><span class="sxs-lookup"><span data-stu-id="89f06-106">However, for sites with fewer than 25 users, a resiliency solution may not provide a sufficient return on investment.</span></span>
+
+<span data-ttu-id="89f06-107">Wenn Sie sich für die Bereitstellung von Ausfallsicherheit für Zweigstellen entscheiden, stehen Ihnen drei Optionen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="89f06-107">If you decide to provide branch-site resiliency, you have three options.</span></span> <span data-ttu-id="89f06-108">In der folgenden Tabelle können Sie die beste Option für Ihre Organisation ermitteln.</span><span class="sxs-lookup"><span data-stu-id="89f06-108">The following table can help you determine the best option for your organization.</span></span>
+
+<div>
 
 
 
@@ -28,65 +50,83 @@ Wenn Sie sich zur Bereitstellung von Ausfallsicherheit für Zweigstellenstandort
 </colgroup>
 <thead>
 <tr class="header">
-<th>Situation</th>
-<th>Empfehlung</th>
+<th><span data-ttu-id="89f06-109">Wenn Sie...</span><span class="sxs-lookup"><span data-stu-id="89f06-109">If you…</span></span></th>
+<th><span data-ttu-id="89f06-110">Wir empfehlen die Verwendung einer...</span><span class="sxs-lookup"><span data-stu-id="89f06-110">We recommend that you use a…</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Host mit 25 bis 1.000 Benutzern am Zweigstellenstandort, wobei eine vollständige Bereitstellung nicht rentabel ist oder kein administrativer Support zur Verfügung steht</p></td>
-<td><p>Survivable Branch-Anwendung</p>
-<p>Survivable Branch-Anwendung ist ein Bladeserver nach Industriestandard, bei der ein Lync Server-Registrierungsserver und -Vermittlungsserver auf Windows Server 2008 R2 ausgeführt werden. Survivable Branch-Anwendung umfasst außerdem ein PSTN-Gateway. Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im Programm zur SBA-Qualifizierung/-Zertifizierung) bieten bei einem WAN-Ausfall eine dauerhafte PSTN-Verbindung (Public Switched Telephone Network, Telefonfestnetz), es werden jedoch keine ausfallsicheren Anwesenheits- und Konferenzfeatures bereitgestellt, da diese Features von den Front-End-Servern am zentralen Standort abhängen.</p>
-<p>Ausführliche Informationen zu Survivable Branch-Anwendungenen finden Sie unter &quot;Details zur Survivable Branch-Anwendung&quot; weiter unten in diesem Thema.</p>
-<p><strong>Hinweis:</strong> Wenn Sie beschließen, auch einen SIP-Trunk mit Ihrer Survivable Branch-Anwendung einzusetzen, erkundigen Sie sich beim Hersteller der Survivable Branch-Anwendung nach dem geeigneten Dienstanbieter für Ihre Organisation.</p></td>
+<td><p><span data-ttu-id="89f06-111">Hosten Sie zwischen 25 und 1000 Benutzern an ihrer Zweigstelle, und wenn die Kapitalrendite keine vollständige Bereitstellung unterstützt oder wenn die lokale administrative Unterstützung nicht verfügbar ist</span><span class="sxs-lookup"><span data-stu-id="89f06-111">Host between 25 and 1000 users at your branch site, and if the return on investment does not support a full deployment or where local administrative support is unavailable</span></span></p></td>
+<td><p><span data-ttu-id="89f06-112">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="89f06-112">Survivable Branch Appliance</span></span></p>
+<p><span data-ttu-id="89f06-113">Die Survivable Branch-Appliance ist ein branchenüblicher Blade-Server mit einer lync Server-Registrierungsstelle und einem Vermittlungsserver, die unter Windows Server 2008 R2 ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="89f06-113">The Survivable Branch Appliance is an industry-standard blade server with a Lync Server Registrar and Mediation Server running on Windows Server 2008 R2.</span></span> <span data-ttu-id="89f06-114">Die Survivable Branch-Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network).</span><span class="sxs-lookup"><span data-stu-id="89f06-114">The Survivable Branch Appliance also contains a public switched telephone network (PSTN) gateway.</span></span> <span data-ttu-id="89f06-115">Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im SBA-Qualifizierungs-und-Zertifizierungsprogramm) bieten eine durchgehende PSTN-Verbindung im Fall eines WAN-Fehlers, doch dieser Ansatz bietet keine belastbaren Anwesenheits-und Konferenzfunktionen, da diese Features von Front-End-Servern am zentralen Standort abhängen.</span><span class="sxs-lookup"><span data-stu-id="89f06-115">Qualified third-party devices (developed by Microsoft partners in the Survivable Branch Appliance (SBA) qualification/certification program) provide a continuous PSTN connection in the event of WAN failure, but this approach does not provide resilient presence and conferencing because these features depend on Front End Servers at the central site.</span></span></p>
+<p><span data-ttu-id="89f06-116">Details zu Überlebenden Branch-Appliances finden &quot;Sie&quot; weiter unten in diesem Thema unter Survivable Branch Appliance Details.</span><span class="sxs-lookup"><span data-stu-id="89f06-116">For details about Survivable Branch Appliances, see &quot;Survivable Branch Appliance Details,&quot; later in this topic.</span></span></p>
+<p><span data-ttu-id="89f06-117"><strong>Hinweis:</strong> Wenn Sie sich entscheiden, auch einen SIP-Trunk für Ihre Survivable Branch-Appliance zu verwenden, wenden Sie sich an den Anbieter von Survivable Branch Appliance, um zu erfahren, welcher Dienstanbieter für Ihre Organisation am besten geeignet ist.</span><span class="sxs-lookup"><span data-stu-id="89f06-117"><strong>Note:</strong> If you decide to also use a SIP trunk with your Survivable Branch Appliance, contact your Survivable Branch Appliance vendor to learn about which service provider is best for your organization.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Host mit 1.000 bis 2.000 Benutzern am Zweigstellenstandort, keine ausfallsichere WAN-Verbindung, geschulte Lync Server-Administratoren verfügbar</p></td>
-<td><p>Survivable Branch-Server oder zwei Survivable Branch-Anwendungenen.</p>
-<p>Der Survivable Branch-Server ist ein Windows-Server, der spezifische Hardwareanforderungen erfüllt und auf dem die Software für Lync Server-Registrierung und Vermittlungsserver installiert ist. Der Server muss entweder über ein PSTN-Gateway oder einen SIP-Trunk mit einem Telefoniedienstanbieter verbunden sein.</p>
-<p>Ausführliche Informationen zu Survivable Branch-Serveren finden Sie unter &quot;Details zum Survivable Branch-Server&quot; weiter unten in diesem Thema.</p></td>
+<td><p><span data-ttu-id="89f06-118">Hosten zwischen 1000-und 2000-Benutzern an ihrer Zweigstelle, keine robuste WAN-Verbindung und geschulte lync Server-Administratoren verfügbar</span><span class="sxs-lookup"><span data-stu-id="89f06-118">Host between 1000 and 2000 users at your branch site, lack a resilient WAN connection, and have trained Lync Server administrators available</span></span></p></td>
+<td><p><span data-ttu-id="89f06-119">Überlebensfähiger Branch-Server oder zwei überlebensfähige Branch-Appliances.</span><span class="sxs-lookup"><span data-stu-id="89f06-119">Survivable Branch Server or two Survivable Branch Appliances.</span></span></p>
+<p><span data-ttu-id="89f06-120">Bei dem Überlebenden Verzweigungs Server handelt es sich um eine Windows Server-Besprechung, die die Hardwareanforderungen enthält, auf denen die lync Server Registrar-und Mediation Server-Software installiert ist.</span><span class="sxs-lookup"><span data-stu-id="89f06-120">The Survivable Branch Server is a Windows Server meeting specified hardware requirements that has Lync Server Registrar and Mediation Server software installed on it.</span></span> <span data-ttu-id="89f06-121">Sie muss mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefondienstanbieter angeschlossen werden.</span><span class="sxs-lookup"><span data-stu-id="89f06-121">It must connect to either a PSTN gateway or a SIP trunk to a telephone service provider.</span></span></p>
+<p><span data-ttu-id="89f06-122">Details zu Überlebenden Verzweigungs Servern finden Sie &quot;&quot; weiter unten in diesem Thema unter Informationen zu Überlebenden Verzweigungs Servern.</span><span class="sxs-lookup"><span data-stu-id="89f06-122">For details about Survivable Branch Servers, see &quot;Survivable Branch Server Details,&quot; later in this topic.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Sie müssen neben VoIP-Funktionen für bis zu 5.000 Benutzer auch Anwesenheits- und Konferenzfunktionen bereitstellen, geschulte Lync Server-Administratoren sind verfügbar</p></td>
-<td><p>Führen Sie statt einer Zweigstellenbereitstellung eine Bereitstellung als zentraler Standort mit einem Standard Edition-Server durch.</p>
-<p>Eine vollständige Lync Server-Bereitstellung bietet eine dauerhafte PSTN-Verbindung und ausfallsichere Anwesenheits- und Konferenzfunktionen bei einem WAN-Ausfall.</p>
-<p>Ausführliche Informationen zum Vorbereiten einer solchen Lösung finden Sie unter <a href="lync-server-2013-planning-for-your-organization.md">Organisationsplanung für Lync Server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln Ihrer Systemanforderungen für Lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Ermitteln Ihrer Infrastrukturanforderungen für Lync Server 2013</a> und in anderen relevanten Abschnitten der Planungsdokumentation.</p></td>
+<td><p><span data-ttu-id="89f06-123">Wenn Sie zusätzlich zu den Sprachfeatures für bis zu 5000-Benutzer Anwesenheits-und Konferenzfeatures benötigen und die lync Server-Administratoren verfügbar sind</span><span class="sxs-lookup"><span data-stu-id="89f06-123">If you require presence and conferencing features in addition to voice features for up to 5000 users, and have trained Lync Server administrators available</span></span></p></td>
+<td><p><span data-ttu-id="89f06-124">Bereitstellen als zentrale Website mit einem Standard Edition-Server und nicht als Verzweigungs Website</span><span class="sxs-lookup"><span data-stu-id="89f06-124">Deploy as a central site with a Standard Edition server rather than as a branch site.</span></span></p>
+<p><span data-ttu-id="89f06-125">Eine umfassende lync Server-Bereitstellung bietet eine durchgehende PSTN-Verbindung sowie eine zuverlässige Anwesenheits-und Konferenzfunktion bei einem WAN-Fehler.</span><span class="sxs-lookup"><span data-stu-id="89f06-125">A full-scale Lync Server deployment provides a continuous PSTN connection and resilient presence and conferencing in the event of WAN failure.</span></span></p>
+<p><span data-ttu-id="89f06-126">Details zum Vorbereiten dieser Lösung finden Sie unter <a href="lync-server-2013-planning-for-your-organization.md">Organisationsplanung für lync Server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln der Systemanforderungen für lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Ermitteln der Infrastrukturanforderungen für lync Server 2013</a>und Weitere relevante Abschnitte der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="89f06-126">For details about preparing for this solution, see <a href="lync-server-2013-planning-for-your-organization.md">Organization planning for Lync Server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Determining your infrastructure requirements for Lync Server 2013</a>, and other relevant sections of the Planning documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Topologien zur Bereitstellung von Ausfallsicherheit
+<div>
 
-Die folgende Abbildung zeigt die empfohlenen Topologien zum Gewährleisten von Ausfallsicherheit für einen Zweigstellenstandort.
+## <a name="resiliency-topologies"></a><span data-ttu-id="89f06-127">Stabilitäts Topologien</span><span class="sxs-lookup"><span data-stu-id="89f06-127">Resiliency Topologies</span></span>
 
-**Optionen für die Bereitstellung von Ausfallsicherheit für Zweigstellenstandorte**
+<span data-ttu-id="89f06-128">Die folgende Abbildung zeigt die empfohlenen Topologien für die Ausfallsicherheit von Zweigstellen.</span><span class="sxs-lookup"><span data-stu-id="89f06-128">The following figure shows the recommended topologies for branch-site resiliency.</span></span>
 
-![VoIP-Zweig: Ausfallsicherheitsoptionen](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "VoIP-Zweig: Ausfallsicherheitsoptionen")
+<span data-ttu-id="89f06-129">**Stabilitäts Optionen für Zweigstellenstandorte**</span><span class="sxs-lookup"><span data-stu-id="89f06-129">**Branch site resiliency options**</span></span>
 
-## Details zur Survivable Branch Appliance
+<span data-ttu-id="89f06-130">![Optionen für die Widerstandsfähigkeit der sprach Verzweigung] (images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Optionen für die Widerstandsfähigkeit der sprach Verzweigung")</span><span class="sxs-lookup"><span data-stu-id="89f06-130">![Voice Branch Resiliency Options](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Voice Branch Resiliency Options")</span></span>
 
-Die Survivable Branch Appliance von Lync Server umfasst die folgenden Komponenten:
+</div>
 
-  - Einen Registrierungsserver für Benutzerauthentifizierung, Registrierung und Anrufrouting
+<div>
 
-  - Einen Vermittlungsserver für die Signalverarbeitung zwischen der Registrierung und einem PSTN-Gateway
+## <a name="survivable-branch-appliance-details"></a><span data-ttu-id="89f06-131">Details zu Survivable Branch Appliances</span><span class="sxs-lookup"><span data-stu-id="89f06-131">Survivable Branch Appliance Details</span></span>
 
-  - Ein PSTN-Gateway zum Routen von Anrufen an das Telefonfestnetz als Fallback bei WAN-Ausfällen
+<span data-ttu-id="89f06-132">Die lync Server Survivable Branch-Appliance umfasst die folgenden Komponenten:</span><span class="sxs-lookup"><span data-stu-id="89f06-132">The Lync Server Survivable Branch Appliance includes the following components:</span></span>
 
-  - SQL Server Express zur Speicherung lokaler Benutzerdaten
+  - <span data-ttu-id="89f06-133">Eine Registrierungsstelle für Benutzerauthentifizierung, Registrierung und Anrufweiterleitung</span><span class="sxs-lookup"><span data-stu-id="89f06-133">A Registrar for user authentication, registration and call routing</span></span>
 
-Die Survivable Branch-Anwendung umfasst außerdem PSTN-Trunks, analoge Ports und einen Ethernet-Adapter.
+  - <span data-ttu-id="89f06-134">Ein Vermittlungs Server für die Verarbeitung der Signalübertragung zwischen der Registrierungsstelle und einem PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="89f06-134">A Mediation Server for handling signaling between the Registrar and a PSTN gateway</span></span>
 
-Wenn die WAN-Verbindung zwischen einem Zweigstellenstandort und einem zentralen Standort nicht verfügbar ist, können interne Benutzer am Zweigstellenstandort weiterhin bei der Survivable Branch-Anwendung-Registrierung registriert werden, sodass über die Survivable Branch-Anwendung-Verbindung mit dem Telefonfestnetz durchgängig VoIP-Dienste zur Verfügung gestellt werden können. Zweigstellenbenutzer, die von zu Hause oder von Remotestandorten aus eine Verbindung herstellen, können sich beim Registrierungsserver am zentralen Standort registrieren, wenn die WAN-Leitung zum Zweigstellenstandort nicht verfügbar ist. Diese Benutzer haben Zugriff auf die vollständige Unified Communications-Funktionalität (UM), mit der Ausnahme, dass eingehende Anrufe am Zweigstellenstandort an das Voicemailsystem übermittelt werden. Wenn die WAN-Verbindung wieder verfügbar ist, sollte für Benutzer am Zweigstellenstandort automatisch die vollständige Funktionalität wiederhergestellt werden. Weder für das Failover auf die Survivable Branch-Anwendung noch für die Wiederherstellung der Dienste ist die Anwesenheit eines IT-Administrators erforderlich.
+  - <span data-ttu-id="89f06-135">Ein PSTN-Gateway zum Weiterleiten von Anrufen an das PSTN als Fall Back Transport bei einem WAN-Ausfall</span><span class="sxs-lookup"><span data-stu-id="89f06-135">A PSTN gateway for routing calls to the PSTN as a fallback transport in the event of a WAN outage</span></span>
 
-Lync Server unterstützt bis zu zwei Survivable Branch-Anwendungs an einer Zweigstelle.
+  - <span data-ttu-id="89f06-136">SQL Server Express für den lokalen Benutzerdatenspeicher</span><span class="sxs-lookup"><span data-stu-id="89f06-136">SQL Server Express for local user data storage</span></span>
 
-## Übersicht über die Bereitstellung einer Survivable Branch Appliance
+<span data-ttu-id="89f06-137">Die Survivable Branch-Appliance umfasst außerdem PSTN-Stämme, analoge Anschlüsse und einen Ethernet-Adapter.</span><span class="sxs-lookup"><span data-stu-id="89f06-137">The Survivable Branch Appliance also includes PSTN trunks, analog ports, and an Ethernet adapter.</span></span>
 
-Die Survivable Branch-Anwendung wird durch Originalgerätehersteller (Original Equipment Manufacturers, OEMs) in Partnerschaft mit Microsoft hergestellt und in deren Namen durch Vertragshändler bereitgestellt. Diese Bereitstellung sollte erst dann erfolgen, wenn Lync Server am zentralen Standort bereitgestellt und eine WAN-Verbindung zum Zweigstellenstandort eingerichtet wurde und die Zweigstellenbenutzer für Enterprise-VoIP aktiviert wurden.
+<span data-ttu-id="89f06-138">Wenn die WAN-Verbindung der Zweigstelle zu einem zentralen Standort nicht mehr zur Verfügung steht, werden Benutzer der internen Verzweigung weiterhin bei der überlebensfähigen Branch Appliance-Registrierungsstelle registriert und erhalten unterbrechungsfreien Sprachdienst mithilfe der Survivable Branch Appliance-Verbindung. ins Festnetz.</span><span class="sxs-lookup"><span data-stu-id="89f06-138">If the branch site’s WAN connection to a central site becomes unavailable, internal branch users continue to be registered with the Survivable Branch Appliance Registrar and obtain uninterrupted voice service by using the Survivable Branch Appliance connection to the PSTN.</span></span> <span data-ttu-id="89f06-139">Zweigstellenbenutzer, die eine Verbindung von zu Hause aus oder aus anderen Remotestandorten herstellen, können sich bei einem Registrierungsstellen Server an einem zentralen Standort registrieren, wenn die WAN-Verbindung zur Zweigstelle nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="89f06-139">Branch site users who connect from home or other remote locations will be able to register with a Registrar server at a central site if the WAN link to the branch site is unavailable.</span></span> <span data-ttu-id="89f06-140">Diese Benutzer verfügen über eine vollständige Unified Communications-Funktion, mit der Ausnahme, dass eingehende Anrufe an die Zweigstelle an die Voicemail weitergesendet werden.</span><span class="sxs-lookup"><span data-stu-id="89f06-140">These users will have full unified communications functionality, with the one exception that inbound calls to the branch site will go to voice mail.</span></span> <span data-ttu-id="89f06-141">Wenn die WAN-Verbindung verfügbar wird, sollte die vollständige Funktionalität für Benutzer der Verzweigungs Website wiederhergestellt werden.</span><span class="sxs-lookup"><span data-stu-id="89f06-141">When the WAN connection becomes available, full functionality should be restored to branch site users.</span></span> <span data-ttu-id="89f06-142">Weder das Failover auf die Survivable Branch-Appliance noch die Wiederherstellung des Diensts erfordert das vorhanden sein eines IT-Administrators.</span><span class="sxs-lookup"><span data-stu-id="89f06-142">Neither the failover to the Survivable Branch Appliance nor the restoration of service requires the presence of an IT administrator.</span></span>
 
-Ausführliche Informationen zu diesen Phasen finden Sie unter [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) in der Bereitstellungsdokumentation.
+<span data-ttu-id="89f06-143">Lync Server unterstützt bis zu zwei überlebensfähige Branch-Appliances an einer Zweigstelle.</span><span class="sxs-lookup"><span data-stu-id="89f06-143">Lync Server supports up to two Survivable Branch Appliance at a branch site.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="89f06-144">Benutzer, die sich in einer Überlebenden lync Server-Branch-Appliance befinden, können keine neuen Chatrooms erstellen oder die raumkarte für vorhandene Räume anzeigen.</span><span class="sxs-lookup"><span data-stu-id="89f06-144">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new Chat Rooms or view the Room Card for existing rooms.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="survivable-branch-appliance-deployment-overview"></a><span data-ttu-id="89f06-145">Übersicht über Survivable Branch Appliance-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="89f06-145">Survivable Branch Appliance Deployment Overview</span></span>
+
+<span data-ttu-id="89f06-146">Die Survivable Branch Appliance wird von Herstellern von Originalgeräten in Partnerschaft mit Microsoft hergestellt und in deren Auftrag von Wert Schöpfungs Händlern bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="89f06-146">The Survivable Branch Appliance is manufactured by original equipment manufacturers in partnership with Microsoft and deployed on their behalf by value-added retailers.</span></span> <span data-ttu-id="89f06-147">Diese Bereitstellung sollte erst erfolgen, nachdem lync Server am zentralen Standort bereitgestellt wurde, eine WAN-Verbindung mit der Zweigstelle vorhanden ist und die Benutzer von Zweigstellenbenutzern für Enterprise-VoIP aktiviert sind.</span><span class="sxs-lookup"><span data-stu-id="89f06-147">This deployment should occur only after Lync Server has been deployed at the central site, a WAN connection to the branch site is in place, and branch site users are enabled for Enterprise Voice.</span></span>
+
+<span data-ttu-id="89f06-148">Ausführliche Informationen zu diesen Phasen finden Sie unter [Bereitstelleneiner Survivable Branch-Appliance oder eines Servers mit lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="89f06-148">For details about these phases, see [Deploying a Survivable Branch Appliance or Server with Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -97,45 +137,69 @@ Ausführliche Informationen zu diesen Phasen finden Sie unter [Bereitstellen ein
 </colgroup>
 <thead>
 <tr class="header">
-<th>Phase</th>
-<th>Schritte</th>
-<th>Benutzerrechte</th>
+<th><span data-ttu-id="89f06-149">Phase</span><span class="sxs-lookup"><span data-stu-id="89f06-149">Phase</span></span></th>
+<th><span data-ttu-id="89f06-150">Schritte</span><span class="sxs-lookup"><span data-stu-id="89f06-150">Steps</span></span></th>
+<th><span data-ttu-id="89f06-151">Benutzerrechte</span><span class="sxs-lookup"><span data-stu-id="89f06-151">User Rights</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Einrichten von Active Directory-Domänendiensten für die Survivable Branch-Anwendung</p></td>
-<td><p><strong>Am zentralen Standort:</strong></p>
+<td><p><span data-ttu-id="89f06-152">Einrichten von Active Directory-Domänendiensten für die Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="89f06-152">Set up Active Directory Domain Services for the Survivable Branch Appliance</span></span></p></td>
+<td><p><span data-ttu-id="89f06-153"><strong>Auf der zentralen Website:</strong></span><span class="sxs-lookup"><span data-stu-id="89f06-153"><strong>At the central site:</strong></span></span></p>
 <ol>
-<li><p>Erstellen Sie ein Domänenbenutzerkonto (oder Unternehmensidentität) für den Techniker, der die Survivable Branch-Anwendung am Zweigstellenstandort installiert und aktiviert.</p></li>
-<li><p>Erstellen Sie in Active Directory Domain Services ein Computerkonto (mit geeignetem FQDN) für die Survivable Branch-Anwendung.</p></li>
-<li><p>Erstellen und veröffentlichen Sie die Survivable Branch-Anwendung im Topologie-Generator.</p></li>
+<li><p><span data-ttu-id="89f06-154">Erstellen Sie ein Domänenbenutzerkonto (oder eine Unternehmensidentität) für den Techniker, der die Survivable Branch-Appliance auf der Zweigstelle installieren und aktivieren wird.</span><span class="sxs-lookup"><span data-stu-id="89f06-154">Create a domain user account (or enterprise identity) for the technician who will install and activate the Survivable Branch Appliance at the branch site.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-155">Erstellen Sie ein Computerkonto (mit dem entsprechenden vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN)) für Survivable Branch Appliance in den Active Directory-Domänendiensten.</span><span class="sxs-lookup"><span data-stu-id="89f06-155">Create a computer account (with the applicable fully qualified domain name (FQDN)) for Survivable Branch Appliance in Active Directory Domain Services.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-156">Erstellen und veröffentlichen Sie im Topologie-Generator die Survivable Branch-Appliance.</span><span class="sxs-lookup"><span data-stu-id="89f06-156">In Topology Builder, create and publish the Survivable Branch Appliance.</span></span></p></li>
 </ol></td>
-<td><p>Das Benutzerkonto für den Techniker muss Mitglied in der Gruppe &quot;RTCUniversalSBATechnicians&quot; sein. Die Survivable Branch-Anwendung muss der Gruppe &quot;RTCSBAUniversalServices&quot; hinzugefügt werden. Dies geschieht bei Verwendung des Topologie-Generators automatisch.</p></td>
+<td><p><span data-ttu-id="89f06-157">Das Techniker Benutzerkonto muss ein Mitglied von RTCUniversalSBATechnicians sein.</span><span class="sxs-lookup"><span data-stu-id="89f06-157">The technician user account must be a member of RTCUniversalSBATechnicians.</span></span> <span data-ttu-id="89f06-158">Die Survivable Branch-Appliance muss zur RTCSBAUniversalServices-Gruppe gehören, die automatisch erfolgt, wenn Sie den Topology Builder verwenden.</span><span class="sxs-lookup"><span data-stu-id="89f06-158">The Survivable Branch Appliance must belong to the RTCSBAUniversalServices group, which happens automatically when you use Topology Builder.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Installieren und aktivieren Sie die Survivable Branch-Anwendung.</p></td>
-<td><p><strong>Am Zweigstellenstandort:</strong></p>
+<td><p><span data-ttu-id="89f06-159">Installieren Sie die Survivable Branch-Appliance, und aktivieren Sie Sie.</span><span class="sxs-lookup"><span data-stu-id="89f06-159">Install, and activate the Survivable Branch Appliance.</span></span></p></td>
+<td><p><span data-ttu-id="89f06-160"><strong>Auf der Zweigstelle:</strong></span><span class="sxs-lookup"><span data-stu-id="89f06-160"><strong>At the branch site:</strong></span></span></p>
 <ol>
-<li><p>Verbinden Sie die Survivable Branch-Anwendung mit einem Ethernet-Port und einem PSTN-Port.</p></li>
-<li><p>Starten Sie die Survivable Branch-Anwendung.</p></li>
-<li><p>Fügen Sie die Survivable Branch-Anwendung unter Verwendung des Domänenkontos, das Sie am zentralen Standort für die Survivable Branch-Anwendung erstellt haben, zur Domäne hinzu. Legen Sie FQDN und IP-Adresse auf den FQDN fest, den Sie im Computerkonto erstellt haben.</p></li>
-<li><p>Konfigurieren Sie die Survivable Branch-Anwendung unter Verwendung der OEM-Benutzerschnittstelle.</p></li>
-<li><p>Testen Sie die PSTN-Anbindung.</p></li>
+<li><p><span data-ttu-id="89f06-161">Verbinden Sie die Survivable Branch-Appliance mit einem Ethernet-Port und einem PSTN-Anschluss.</span><span class="sxs-lookup"><span data-stu-id="89f06-161">Connect the Survivable Branch Appliance to an Ethernet port and PSTN port.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-162">Starten Sie die Survivable Branch-Appliance.</span><span class="sxs-lookup"><span data-stu-id="89f06-162">Start the Survivable Branch Appliance.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-163">Nehmen Sie an der Überlebenden Branch-Appliance mit dem Domänenbenutzerkonto Teil, das für die Survivable Branch-Appliance am zentralen Standort erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="89f06-163">Join the Survivable Branch Appliance to the domain, using the domain user account created for the Survivable Branch Appliance at the central site.</span></span> <span data-ttu-id="89f06-164">Legen Sie den FQDN und die IP-Adresse so ein, dass er dem FQDN entspricht, der im Computerkonto erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="89f06-164">Set the FQDN and IP address to match the FQDN created in the computer account.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-165">Konfigurieren Sie die Survivable Branch-Appliance mithilfe der OEM-Benutzeroberfläche.</span><span class="sxs-lookup"><span data-stu-id="89f06-165">Configure the Survivable Branch Appliance using the OEM user interface.</span></span></p></li>
+<li><p><span data-ttu-id="89f06-166">Testen Sie die PSTN-Konnektivität.</span><span class="sxs-lookup"><span data-stu-id="89f06-166">Test PSTN connectivity.</span></span></p></li>
 </ol></td>
-<td><p>Das Benutzerkonto für den Techniker muss Mitglied in der Gruppe &quot;RTCUniversalSBATechnicians&quot; sein.</p></td>
+<td><p><span data-ttu-id="89f06-167">Das Techniker Benutzerkonto muss ein Mitglied von RTCUniversalSBATechnicians sein.</span><span class="sxs-lookup"><span data-stu-id="89f06-167">The technician user account must be a member of RTCUniversalSBATechnicians.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Details zum Survivable Branch Server
+</div>
 
-Erstellen Sie im Topologie-Generator den Zweigstellenstandort, fügen Sie den Survivable Branch-Server zu diesem Standort hinzu, und führen Sie den Lync Server-Bereitstellungs-Assistenten auf dem Computer aus, auf dem Sie die Rolle installieren möchten.
+</div>
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="survivable-branch-server-details"></a><span data-ttu-id="89f06-168">Informationen zu Überlebenden Verzweigungs Servern</span><span class="sxs-lookup"><span data-stu-id="89f06-168">Survivable Branch Server Details</span></span>
 
-[Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+<span data-ttu-id="89f06-169">Erstellen Sie im Topologie-Generator die Verzweigungs Website, fügen Sie den Überlebenden Verzweigungs Server zu dieser Website hinzu, und führen Sie dann den lync Server-Bereitstellungs-Assistenten auf dem Computer aus, auf dem Sie die Rolle installieren möchten.</span><span class="sxs-lookup"><span data-stu-id="89f06-169">In Topology Builder create the branch site, add the Survivable Branch Server to that site, and then run the Lync Server Deployment Wizard on the computer where you want to install the role.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="89f06-170">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="89f06-170">See Also</span></span>
+
+
+[<span data-ttu-id="89f06-171">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89f06-171">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

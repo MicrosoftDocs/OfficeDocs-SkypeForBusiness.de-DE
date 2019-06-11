@@ -1,33 +1,71 @@
-﻿---
-title: Installieren von Lync Server-Verwaltungstools
-TOCTitle: Installieren von Lync Server-Verwaltungstools
-ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721840(v=OCS.15)
-ms:contentKeyID: 49890879
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Installieren der lync Server-Verwaltungstools
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Install Lync Server administration tools
+ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721840(v=OCS.15)
+ms:contentKeyID: 49733773
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9274b2191a8119e5caa67bd2d63820b33816a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839986"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installieren von Lync Server-Verwaltungstools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+# <a name="install-lync-server-administration-tools"></a><span data-ttu-id="2d617-102">Installieren der lync Server-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="2d617-102">Install Lync Server administration tools</span></span>
 
-In diesem Thema wird die Installation der Verwaltungstools beschrieben, die Sie zum Bereitstellen und Verwalten von Lync Server 2013 verwenden müssen. Sie können die Verwaltungstools auch auf anderen Computern installieren, beispielsweise auf dedizierten Verwaltungskonsolen.
+</div>
 
-## So installieren Sie die Lync Server 2013-Verwaltungstools
+<div id="mainSection">
 
-1.  Führen Sie auf dem Lync Server 2013-Front-End-Server Lync Server 2013-Setup aus.
+<div id="mainBody">
 
-2.  Wählen Sie auf der Seite des Lync Server 2013-Bereitstellungs-Assistenten die Option **Verwaltungstools installieren** aus.
+<span> </span>
+
+<span data-ttu-id="2d617-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="2d617-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="2d617-104">In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie zum Bereitstellen und Verwalten von lync Server 2013 verwenden müssen.</span><span class="sxs-lookup"><span data-stu-id="2d617-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="2d617-105">Sie können die Verwaltungstools auch auf anderen Computern installieren, beispielsweise in dedizierten Verwaltungskonsolen.</span><span class="sxs-lookup"><span data-stu-id="2d617-105">You can also install the administrative tools on other computers, such as dedicated administrative consoles.</span></span>
+
+<div>
+
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="2d617-106">So installieren Sie die lync Server 2013-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="2d617-106">To install the Lync Server 2013 administrative tools</span></span>
+
+1.  <span data-ttu-id="2d617-107">Führen Sie auf dem lync Server 2013-Front-End-Server das lync Server 2013-Setup aus.</span><span class="sxs-lookup"><span data-stu-id="2d617-107">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
+
+2.  <span data-ttu-id="2d617-108">Wählen Sie auf der Seite mit dem Bereitstellungs-Assistenten von lync Server 2013 die Option **Verwaltungs Tools installieren** aus.</span><span class="sxs-lookup"><span data-stu-id="2d617-108">From the Lync Server 2013 Deployment Wizard page, select **Install Administrative Tools**</span></span>
     
-    ![Lync Server 2013-Bereitstellungs-Assistent – Willkommensseite](images/JJ688059.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent – Willkommensseite")
+    <span data-ttu-id="2d617-109">![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite] (images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")</span><span class="sxs-lookup"><span data-stu-id="2d617-109">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
 
-[Lync Server 2013-Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md)
+## <a name="see-also"></a><span data-ttu-id="2d617-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2d617-110">See Also</span></span>
+
+
+[<span data-ttu-id="2d617-111">Lync Server 2013-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="2d617-111">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

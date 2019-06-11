@@ -1,55 +1,96 @@
-﻿---
-title: 'Lync Server 2013: Erstellen einer Standortrichtlinie für beständigen Chat'
-TOCTitle: Erstellen einer Standortrichtlinie für beständigen Chat
-ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204693(v=OCS.15)
-ms:contentKeyID: 49293246
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erstellen einer Standortrichtlinie für beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site policy for Persistent Chat
+ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
+ms:contentKeyID: 48183470
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erstellen einer Standortrichtlinie für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+# <a name="create-a-site-policy-for-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="a22b5-102">Erstellen einer Standortrichtlinie für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a22b5-102">Create a site policy for Persistent Chat in Lync Server 2013</span></span>
 
-Für jeden bereitgestellten Standort können Sie eine standortspezifische Richtlinie für den Beständiger Chat erstellen.
+</div>
 
-Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für den durch die Standortrichtlinie abgedeckten Standort.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a22b5-103">_**Letztes Änderungsdatum des Themas:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a22b5-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="a22b5-104">Für jede Website, die Sie bereitgestellt haben, können Sie eine Website spezifische Richtlinie für beständigen Chat erstellen.</span><span class="sxs-lookup"><span data-stu-id="a22b5-104">For each site you have deployed, you can create a site-specific Persistent Chat policy.</span></span>
+
+<span data-ttu-id="a22b5-105">Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für den durch die Standortrichtlinie abgedeckten Standort.</span><span class="sxs-lookup"><span data-stu-id="a22b5-105">The configuration in the site policy overrides the global policy, but only for the specific site covered by the site policy.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Informationen zum Konfigurieren der Konfigurationseinstellungen für den Server für beständigen Chat finden Sie unter <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> <span data-ttu-id="a22b5-106">Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um der Topologie Unterstützung für beständigen Chat Server hinzuzufügen und dann die Topologie zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="a22b5-106">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="a22b5-107">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen von beständigem Chat Server zu Ihrer Bereitstellung in lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a22b5-107">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="a22b5-108">Informationen zum Konfigurieren von Einstellungen für den beständigen Chat Server finden Sie unter Konfigurieren von beständigen <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Chat Serveroptionen Global oder für den Serverpool für beständigen Chat in lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a22b5-108">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-## So erstellen Sie für einen Standort eine Richtlinie für Beständiger Chat
+</div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsPersistentChatAdministrator", "CsAdministrator" oder "CsUserAdministrator" zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.
+<div>
 
-2.  Wählen Sie im Menü **Start** die Lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Lync Server-Systemsteuerung anwenden können, finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="a22b5-109">So erstellen Sie eine Richtlinie für beständigen Chat für eine Website</span><span class="sxs-lookup"><span data-stu-id="a22b5-109">To create a Persistent Chat policy for a site</span></span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat**, und klicken sei dann auf **Beständiger Chat-Richtlinie** .
+1.  <span data-ttu-id="a22b5-110">Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsPersistentChatAdministrator“, „CsAdministrator“ oder „CsUserAdministrator“ zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="a22b5-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="a22b5-111">Wählen Sie im **Startmenü** die lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.</span><span class="sxs-lookup"><span data-stu-id="a22b5-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="a22b5-112">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a22b5-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="a22b5-113">Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Richtlinie für beständigen Chat**.</span><span class="sxs-lookup"><span data-stu-id="a22b5-113">In the left navigation bar, click **Persistent Chat**, and then click **Persistent Chat Policy**.</span></span>
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Nähere Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets</A>.
+    > [!IMPORTANT]  
+    > <span data-ttu-id="a22b5-114">Sie können auch Windows PowerShell-Cmdlets verwenden.</span><span class="sxs-lookup"><span data-stu-id="a22b5-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="a22b5-115">Ausführliche Informationen finden Sie unter Konfigurieren des beständigen <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Chat Servers mithilfe von Windows PowerShell</A> -Cmdlets in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a22b5-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
 
-
-
-4.  Klicken Sie auf **Neu** und anschließend auf **Standortrichtlinie** .
-
-5.  Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, auf den die Richtlinie angewendet werden soll.
-
-6.  Gehen Sie unter **Neu Beständiger Chat Richtlinie** folgendermaßen vor:
     
-      - Geben Sie unter **Name** einen Namen für die neue Standortrichtlinie an (z. B. "Redmond").
-    
-      - Geben Sie unter **Beschreibung** Einzelheiten zum Zweck der Standortrichtlinie an (z. B. Chatroomrichtlinie für Redmond)
-    
-      - Um den Beständiger Chat für alle Standorte zu kontrollieren, die nicht spezifisch durch eine Standortrichtlinie abgedeckt werden, aktivieren bzw. deaktivieren Sie das Kontrollkästchen **Aktivieren Beständiger Chat**.
+    </div>
 
-7.  Klicken Sie auf **Commit** .
+4.  <span data-ttu-id="a22b5-116">Klicken Sie auf **Neu** und anschließend auf **Standortrichtlinie**.</span><span class="sxs-lookup"><span data-stu-id="a22b5-116">Click **New**, and then click **Site policy**.</span></span>
+
+5.  <span data-ttu-id="a22b5-117">Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, auf den die Richtlinie angewendet werden soll.</span><span class="sxs-lookup"><span data-stu-id="a22b5-117">In **Select a Site**, click the site to which the policy is to be applied.</span></span>
+
+6.  <span data-ttu-id="a22b5-118">Führen Sie unter **Neue Richtlinie für beständigen Chat** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="a22b5-118">In **New Persistent Chat Policy**, do the following:</span></span>
+    
+      - <span data-ttu-id="a22b5-119">Geben Sie unter **Name** einen Namen für die neue Standortrichtlinie an (z. B. „Redmond“).</span><span class="sxs-lookup"><span data-stu-id="a22b5-119">In **Name**, specify a name for the new site policy (for example, Redmond).</span></span>
+    
+      - <span data-ttu-id="a22b5-120">Geben Sie unter **Beschreibung** Einzelheiten zum Zweck der Standortrichtlinie an (z. B. Chatroomrichtlinie für Redmond)</span><span class="sxs-lookup"><span data-stu-id="a22b5-120">In **Description**, provide details about what the site policy is (for example, chat room policy for Redmond).</span></span>
+    
+      - <span data-ttu-id="a22b5-121">Aktivieren bzw. deaktivieren Sie das Kontrollkästchen **Beständigen Chat aktivieren**, um den beständigen Chat für alle Standorte zu steuern, die nicht gesondert über eine Standortrichtlinie gesteuert werden.</span><span class="sxs-lookup"><span data-stu-id="a22b5-121">To control Persistent Chat for all sites not specifically controlled through a site policy, select or clear the **Enable Persistent Chat** check box.</span></span>
+
+7.  <span data-ttu-id="a22b5-122">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="a22b5-122">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

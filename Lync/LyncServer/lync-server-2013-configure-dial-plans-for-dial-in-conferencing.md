@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Wählplänen für Einwahlkonferenzen'
-TOCTitle: Konfigurieren von Wählplänen für Einwahlkonferenzen
-ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412768(v=OCS.15)
-ms:contentKeyID: 49294967
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Wählplänen für Einwahlkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure dial plans for dial-in conferencing
+ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412768(v=OCS.15)
+ms:contentKeyID: 48185051
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 11424148db609fa8225b6c98d1de52fa360eb044
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839389"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Wählplänen für Einwahlkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-25_
+# <a name="configure-dial-plans-for-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="fe00c-102">Konfigurieren von Wählplänen für Einwahlkonferenzen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe00c-102">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>
 
-Bei der Bereitstellung von Einwahlkonferenzen müssen Sie einen oder mehrere Sätze mit Wähleinstellungen zum Routen von Zugriffsnummern für die Einwahl erstellen oder ändern. Stellen Sie sicher, dass in jedem Satz mit Wähleinstellungen mindestens eine Normalisierungsregel die Telefondurchwahlen in vollständige Rufnummern im E.164-Format konvertiert. Benutzer von Einwahlkonferenzen nehmen an Konferenzen als authentifizierte Unternehmensbenutzer teil, indem sie ihre PIN und die Telefonnummer eingeben. Sie benötigen eine Normalisierungsregel zum Konvertieren von Durchwahlen in vollständige Rufnummern, damit Benutzer bei Eingabe einer Durchwahl authentifiziert werden können.
+</div>
 
-Gehen Sie folgendermaßen vor, um Wähleinstellungen für Einwahlkonferenzen einzurichten:
+<div id="mainSection">
 
-  - Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen oder nicht, fügen Sie zu den Wähleinstellungen eine Region für Einwahlkonferenzen hinzu und stellen Sie sicher, dass Ihre Einwahlnummern einwandfrei von einer Normalisierungsregel umgewandelt werden. Eine genaue Anleitung finden Sie unter [Ändern eines Wählplans in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
+<div id="mainBody">
 
-  - Wenn Sie Enterprise-VoIP nicht bereitstellen, erstellen Sie Wählpläne für Ihre Einwahlnummern. Fügen Sie auf jeden Fall eine Region für Einwahlkonferenzen hinzu. Genaue Informationen finden Sie unter [Erstellen eines Wählplans in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).
+<span> </span>
 
-  - Wenn Sie Enterprise-VoIP bereitgestellt haben, Enterprise-VoIP ändern Sie die Wählpläne ggf. ab. Fügen Sie Regionen hinzu und verwenden Sie geeignete Normalisierungsregeln für Einwahlnummern. Eine genaue Anleitung finden Sie unter [Ändern eines Wählplans in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md). Darüber hinaus können Sie auch Einwahlpläne erstellen, die nur für Einwahlnummern gelten. Eine genaue Anleitung hierzu finden Sie unter [Erstellen eines Wählplans in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).
+<span data-ttu-id="fe00c-103">_**Letztes Änderungsdatum des Themas:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="fe00c-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-Ausführliche Informationen zum Planen von Regionen finden Sie unter [Anforderungen für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in der Planungsdokumentation.
+<span data-ttu-id="fe00c-104">Bei der Bereitstellung von Einwahlkonferenzen müssen Sie einen oder mehrere Sätze mit Wähleinstellungen zum Routen von Zugriffsnummern für die Einwahl erstellen oder ändern.</span><span class="sxs-lookup"><span data-stu-id="fe00c-104">When you deploy dial-in conferencing, you need to create or modify one or more dial plans for routing dial-in access phone numbers.</span></span> <span data-ttu-id="fe00c-105">Stellen Sie sicher, dass mindestens eine Normalisierungsregel in den einzelnen Wähleinstellungen Telefonerweiterungen in vollständige Telefonnummern im E. 164-Format umwandelt.</span><span class="sxs-lookup"><span data-stu-id="fe00c-105">Make sure that at least one normalization rule in each dial plan converts telephone extensions into complete phone numbers in E.164 format.</span></span> <span data-ttu-id="fe00c-106">Benutzer von Einwahlkonferenzen nehmen an Konferenzen als authentifizierte Unternehmensbenutzer teil, indem sie ihre PIN und die Telefonnummer eingeben.</span><span class="sxs-lookup"><span data-stu-id="fe00c-106">Users of dial-in conferencing join conferences as authenticated enterprise users by entering their personal identification number (PIN) and their phone number.</span></span> <span data-ttu-id="fe00c-107">Sie benötigen eine Normalisierungsregel zum Konvertieren von Durchwahlen in vollständige Rufnummern, damit Benutzer bei Eingabe einer Durchwahl authentifiziert werden können.</span><span class="sxs-lookup"><span data-stu-id="fe00c-107">You need a normalization rule to convert extensions into complete phone numbers so that users can be authenticated when they enter just a telephone extension.</span></span>
 
-## In diesem Abschnitt
+<span data-ttu-id="fe00c-108">Gehen Sie wie folgt vor, um Wählpläne für Einwahlkonferenzen einzurichten:</span><span class="sxs-lookup"><span data-stu-id="fe00c-108">To set up dial plans for dial-in conferencing, do the following:</span></span>
 
-  - [Anzeigen von Informationen zu Wählplänen in Lync Server 2013](lync-server-2013-view-dial-plan-information.md)
+  - <span data-ttu-id="fe00c-109">Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen oder nicht, fügen Sie zu den Wähleinstellungen eine Region für Einwahlkonferenzen hinzu und stellen Sie sicher, dass Ihre Einwahlnummern einwandfrei von einer Normalisierungsregel umgewandelt werden.</span><span class="sxs-lookup"><span data-stu-id="fe00c-109">Whether or not you deploy Enterprise Voice, modify the global dial plan to add a dial-in conferencing region and to make sure that a normalization rule accurately converts your dial-in access numbers.</span></span> <span data-ttu-id="fe00c-110">Ausführliche Anweisungen finden Sie unter [Ändern von Wähleinstellungen in lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="fe00c-110">For detailed instructions, see [Modify a dial plan in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span></span>
 
-  - [Erstellen eines Wählplans in Lync Server 2013](lync-server-2013-create-a-dial-plan.md)
+  - <span data-ttu-id="fe00c-111">Wenn Sie Enterprise-VoIP nicht bereitstellen, erstellen Sie Wählpläne für Ihre Einwahlnummern.</span><span class="sxs-lookup"><span data-stu-id="fe00c-111">If you did not deploy Enterprise Voice, create dial plans for your dial-in conferencing access numbers.</span></span> <span data-ttu-id="fe00c-112">Fügen Sie auf jeden Fall eine Region für Einwahlkonferenzen hinzu.</span><span class="sxs-lookup"><span data-stu-id="fe00c-112">Be sure to include a dial-in conferencing region.</span></span> <span data-ttu-id="fe00c-113">Ausführliche Anweisungen finden Sie unter [Erstellen eines Wählplans in lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="fe00c-113">For detailed instructions, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
 
-  - [Ändern eines Wählplans in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)
+  - <span data-ttu-id="fe00c-114">Wenn Sie Enterprise-VoIP bereitgestellt haben, ändern Sie Enterprise-sprach Wählpläne nach Bedarf, um Regionen einzubeziehen und geeignete Normalisierungsregeln für Einwahl Zugriffsnummern zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="fe00c-114">If you deployed Enterprise Voice, modify Enterprise Voice dial plans as necessary to include regions and use appropriate normalization rules for dial-in access numbers.</span></span> <span data-ttu-id="fe00c-115">Ausführliche Anweisungen finden Sie unter [Ändern von Wähleinstellungen in lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="fe00c-115">For detailed instructions, see [Modify a dial plan in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span></span> <span data-ttu-id="fe00c-116">Sie können auch dedizierte Wählpläne erstellen, die nur für Einwahl Zugriffsnummern verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="fe00c-116">You can also create dedicated dial plans that are used only for dial-in access numbers.</span></span> <span data-ttu-id="fe00c-117">Ausführliche Anweisungen finden Sie unter [Erstellen eines Wählplans in lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="fe00c-117">For detailed instructions, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
 
-  - [Definieren von Normalisierungsregeln in Lync Server 2013](lync-server-2013-defining-normalization-rules.md)
+<span data-ttu-id="fe00c-118">Details zu Planungsregionen finden Sie unter [Anforderungen für Einwahlkonferenzen in lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="fe00c-118">For details about planning regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="fe00c-119">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="fe00c-119">In This Section</span></span>
+
+  - [<span data-ttu-id="fe00c-120">Anzeigen von Wähl Planinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe00c-120">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
+
+  - [<span data-ttu-id="fe00c-121">Erstellen eines Wählplans in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe00c-121">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
+
+  - [<span data-ttu-id="fe00c-122">Ändern eines Wählplans in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe00c-122">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
+
+  - [<span data-ttu-id="fe00c-123">Definieren von Normalisierungsregeln in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe00c-123">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

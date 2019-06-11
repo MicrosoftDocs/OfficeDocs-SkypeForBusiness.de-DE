@@ -1,19 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Zertifikatanforderungen für den Server für beständigen Chat'
-TOCTitle: Zertifikatanforderungen für den Server für beständigen Chat
-ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412990(v=OCS.15)
-ms:contentKeyID: 49295842
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zertifikatanforderungen für den Server für beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for Persistent Chat server
+ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412990(v=OCS.15)
+ms:contentKeyID: 48185781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5450d3be1e4ff49b65c7bf248c740ad0c4e7f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zertifikatanforderungen für den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+# <a name="certificate-requirements-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="676b0-102">Zertifikatanforderungen für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="676b0-102">Certificate requirements for Persistent Chat server in Lync Server 2013</span></span>
 
-Zum Installieren von Server für beständigen Chat benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wurde wie das Zertifikat, das von den internen Lync Server 2013-Servern für jeden Server mit Beständiger Chat-Webdiensten für das Hochladen/Herunterladen von Dateien verwendet wurde. Stellen Sie sicher, dass die erforderlichen Zertifikate vorhanden sind, bevor Sie mit der Installation von Beständiger Chat beginnen, besonders dann, wenn Sie eine externe Zertifizierungsstelle verwenden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="676b0-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="676b0-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+
+<span data-ttu-id="676b0-104">Zum Installieren des beständigen Chat Servers müssen Sie über ein Zertifikat verfügen, das von der gleichen Zertifizierungsstelle wie das von lync Server 2013-internen Servern für jeden Server ausgestellt ist, auf dem die beständigen Chat-Webdienste für Datei Upload/-Download ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="676b0-104">To install Persistent Chat Server, you must have a certificate issued by the same CA as the one used by Lync Server 2013 internal servers for each server running the Persistent Chat Web Services for File Upload/Download.</span></span> <span data-ttu-id="676b0-105">Stellen Sie sicher, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, insbesondere dann, wenn Sie eine externe Zertifizierungsstelle verwenden.</span><span class="sxs-lookup"><span data-stu-id="676b0-105">Make sure that you have the required certificate(s) before you start the Persistent Chat installation, especially if you are using an external CA.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,49 +1,79 @@
-﻿---
-title: Benutzermodell für Konferenzen
-TOCTitle: Benutzermodell für Konferenzen
-ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205199(v=OCS.15)
-ms:contentKeyID: 49295216
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 Conferencing-Benutzermodell
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: The conferencing user model
+ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
+ms:contentKeyID: 48185229
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839461"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Benutzermodell für Konferenzen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a><span data-ttu-id="1c28a-102">Das Konferenzbenutzer Modell in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c28a-102">The conferencing user model in Lync Server 2013</span></span>
 
-Ein entscheidender Bestandteil des Lync Server-Konferenzbenutzermodells ist der Besprechungsumfang. Nach dem Erfassen der Daten von den verschiedenen Datenpunkten (wie im vorigen Abschnitt beschrieben) wurde Folgendes ermittelt:
+</div>
 
-  - Im Durchschnitt weisen die meisten Besprechungen eine Teilnehmerzahl von vier bis sechs Personen auf
+<div id="mainSection">
 
-  - Circa 80 Prozent der Besprechungen haben weniger als 20 Teilnehmer.
+<div id="mainBody">
 
-  - 99,98 Prozent der Besprechungen haben weniger als 100 Teilnehmer.
+<span> </span>
 
-Neben dem Besprechungsumfang berücksichtigt das Konferenzbenutzermodell auch eine Reihe von Faktoren, wie zum Beispiel:
+<span data-ttu-id="1c28a-103">_**Letztes Änderungsdatum des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="1c28a-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-  - **Gleichzeitige Besprechungen**   Wie viele Benutzer befinden sich zur gleichen Zeit in Besprechungen ?
+<span data-ttu-id="1c28a-104">Ein wichtiger Bestandteil des Benutzermodells von lync Server Conferencing ist die Besprechungsgröße.</span><span class="sxs-lookup"><span data-stu-id="1c28a-104">A critical part of the Lync Server conferencing user model is meeting size.</span></span> <span data-ttu-id="1c28a-105">Nach dem Sammeln von Daten aus mehreren Datenpunkten (wie im vorherigen Abschnitt beschrieben) haben wir Folgendes festgelegt:</span><span class="sxs-lookup"><span data-stu-id="1c28a-105">After collecting data from the multiple data points (as described in the previous section), we determined the following:</span></span>
 
-  - **Kombinierter Mediendatenverkehr**   Welche Medienarten stehen zur Verfügung, von deren Verwendung in Besprechungen durch die Benutzer ausgegangen werden kann?
+  - <span data-ttu-id="1c28a-106">Bei den meisten Besprechungen handelt es sich tatsächlich um kleine Besprechungs Besprechungen mit durchschnittlich vier bis sechs Teilnehmern.</span><span class="sxs-lookup"><span data-stu-id="1c28a-106">Most meetings are actually small collaborative meetings with an average of four to six participants</span></span>
 
-  - **Benutzertypen**   Handelt es sich um interne Benutzer, Remote-Benutzer, Verbundbenutzer oder anonyme Benutzer?
+  - <span data-ttu-id="1c28a-107">Ungefähr 80 Prozent der Besprechungen haben weniger als 20 Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="1c28a-107">Approximately 80 percent of meetings have fewer than 20 participants.</span></span>
 
-  - **Anlaufzeit für eine Besprechung**   Wieviel Zeit vergeht, bis alle Benutzer einer Besprechung beigetreten sind?
+  - <span data-ttu-id="1c28a-108">99,98% der Besprechungen haben weniger als 100 Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="1c28a-108">99.98 percent of meetings have fewer than 100 participants.</span></span>
 
-Ausführliche Informationen zum Benutzermodell finden Sie unter [Benutzermodelle in Lync Server 2013](lync-server-2013-user-models.md).
+<span data-ttu-id="1c28a-109">Neben der Größe der Besprechung berücksichtigt das Konferenzbenutzer Modell auch eine Reihe von Faktoren, wie beispielsweise:</span><span class="sxs-lookup"><span data-stu-id="1c28a-109">In addition to meeting size, the conferencing user model also takes into account a variety of factors, such as:</span></span>
 
-Zur Ermittlung der Anzahl von Besprechungen und Benutzern, die für den Test verwendet wurden, wurde wie folgt vorgegangen:
+  - <span data-ttu-id="1c28a-110">**Gleich**   zeitige Besprechungen, wie viele Benutzer gleichzeitig in Besprechungen erwartet werden?</span><span class="sxs-lookup"><span data-stu-id="1c28a-110">**Concurrent meetings**   How many users are expected to be in meetings at the same time?</span></span>
 
-  - Die Gesamtzahl der Benutzer in einer Organisation (zum Beispiel 80.000 Benutzer) wurde mit der Gleichzeitigkeitsrate von Besprechungen (zum Beispiel 5 % aller Benutzer) multipliziert, um die Gesamtzahl der Benutzer zu ermitteln, die erwartungsgemäß zur gleichen Zeit an Besprechungen teilnehmen (in diesem Beispiel 4.000 Benutzer).
+  - <span data-ttu-id="1c28a-111">**Medienmischung**   welche Medientypen sind verfügbar und werden von Benutzern in Besprechungen erwartet?</span><span class="sxs-lookup"><span data-stu-id="1c28a-111">**Media mix**   What types of media are available and expected to be used by users in meetings?</span></span>
 
-  - Die Gesamtzahl der Benutzer wurde durch die Anzahl der Lync Server 2013-Front-End-Server in der Bereitstellung (zum Beispiel acht Server) dividiert, um die geschätzte Anzahl der Besprechungsteilnehmer pro Front-End-Server (in diesem Beispiel 500 Benutzer pro Front-End-Server) zu ermitteln.
+  - <span data-ttu-id="1c28a-112">**Benutzertypen**   sind Benutzer interne Benutzer, Remotebenutzer, Verbundbenutzer oder anonyme Benutzer?</span><span class="sxs-lookup"><span data-stu-id="1c28a-112">**User types**   Are users internal users, remote users, federated users, or anonymous users?</span></span>
 
-  - Die Anzahl der Benutzer pro Front-End-Server wurde durch die durchschnittliche Konferenzgröße (zum Beispiel vier Benutzer) dividiert, um die geschätzte durchschnittliche Anzahl der Konferenzen pro Front-End-Server (in diesem Beispiel 125 Konferenzen pro Front-End-Server) zu ermitteln.
+  - <span data-ttu-id="1c28a-113">**Besprechung Hochfahren Zeit**   wie lange dauert es, bis alle Benutzer einer Besprechung an einer Besprechung teilnehmen?</span><span class="sxs-lookup"><span data-stu-id="1c28a-113">**Meeting ramp up time**   How long does it take for all users of a meeting to join a meeting?</span></span>
 
-  - Zur Ermittlung der Medienlast auf jedem Front-End-Server wurde der kombinierte Mediendatenverkehr geschätzt. Nimmt man zum Beispiel an, dass für 75 Prozent der Konferenzen mehr als lediglich Audiounterstützung und für 50 Prozent dieser Besprechungen Anwendungsfreigabe erforderlich ist, stellen im Durchschnitt 47 Besprechungen und 188 Benutzer gleichzeitig Verbindungen zu Front-End-Server zur Anwendungsfreigabe her.
+<span data-ttu-id="1c28a-114">Details zum Benutzermodell finden Sie unter [Benutzermodelle in lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="1c28a-114">For details about the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
-  - Es wurden verschiedene Besprechungsgrößen getestet (auf Basis des Modells mit bis zu 250 Benutzern in einem freigegebenen Pool), um die Serverskalierbarkeit zu gewährleisten.
+<span data-ttu-id="1c28a-115">Zum Ermitteln der Anzahl von Besprechungen und Benutzern, die für Tests verwendet werden sollen, haben wir die folgenden Schritte durchführen:</span><span class="sxs-lookup"><span data-stu-id="1c28a-115">To determine the number of meetings and users to use for testing, we did the following:</span></span>
+
+  - <span data-ttu-id="1c28a-116">Nahm die Gesamtzahl der Benutzer in einer Organisation (beispielsweise 80.000-Benutzer) an und multipliziert Sie mit der Parallelitätsrate der Besprechung (beispielsweise 5% aller Benutzer), um die Gesamtzahl der Benutzer zu ermitteln, die gleichzeitig in Besprechungen erwartet werden (in diesem Beispiel , 4000-Benutzer).</span><span class="sxs-lookup"><span data-stu-id="1c28a-116">Took the total number of users in an organization (for example, 80,000 users) and multiplied it by the meeting concurrency rate (for example, 5% of all users) to determine the total number of users expected to be in meetings at the same time (in this example, 4000 users).</span></span>
+
+  - <span data-ttu-id="1c28a-117">Dividiert die Gesamtzahl der Benutzer durch die Anzahl der lync Server 2013-Front-End-Server in der Bereitstellung (beispielsweise 8 Server), um die geschätzte Anzahl der Besprechungsteilnehmer pro Front-End-Server (in diesem Beispiel 500-Benutzer pro Front-End-Server) zu ermitteln.</span><span class="sxs-lookup"><span data-stu-id="1c28a-117">Divided the total number of users by the number of Lync Server 2013, Front End Servers in the deployment (for example, 8 servers) to determine the estimated number of meeting participants per Front End Server (in this example, 500 users per Front End Server).</span></span>
+
+  - <span data-ttu-id="1c28a-118">Die Anzahl der Benutzer pro Front-End-Server wurde durch die durchschnittliche Besprechungsgröße (beispielsweise 4 Benutzer) dividiert, um die geschätzte durchschnittliche Anzahl der Besprechungen pro Front-End-Server (in diesem Beispiel 125-Besprechungen pro Front-End-Server) zu ermitteln.</span><span class="sxs-lookup"><span data-stu-id="1c28a-118">Divided the number of users per Front End Server by the average meeting size (for example, 4 users) to determine the estimated average number of meetings per Front End Server (in this example, 125 meetings per Front End Server).</span></span>
+
+  - <span data-ttu-id="1c28a-119">Um die pro-Medien-Auslastung auf jedem Front-End-Server zu erhalten, schätzten wir den Media Mix.</span><span class="sxs-lookup"><span data-stu-id="1c28a-119">To get the per media load on each Front End Server, we estimated the media mix.</span></span> <span data-ttu-id="1c28a-120">Wenn Sie beispielsweise davon ausgehen, dass 75% der Besprechungen mehr als nur Audio-Unterstützung erfordern und 50% dieser Besprechungen Anwendungsfreigabe erfordern, verbinden sich im Durchschnitt 47 Besprechungen und 188-Benutzer gleichzeitig mit jedem Front-End-Server für die Anwendungsfreigabe.</span><span class="sxs-lookup"><span data-stu-id="1c28a-120">For example, assuming that 75% of the meetings require more than just audio support and 50% of those meetings require application sharing, an average of 47 meetings and 188 users connect concurrently to each Front End Server for application sharing.</span></span>
+
+  - <span data-ttu-id="1c28a-121">Eine Vielzahl von Besprechungs Größen getestet (basierend auf unserem Benutzermodell mit bis zu 250 Benutzern in einem gemeinsamen Pool), um die Serverskalierbarkeit zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="1c28a-121">Tested a variety of meeting sizes (based our user model of up to 250 users in a shared pool) to ensure server scalability.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

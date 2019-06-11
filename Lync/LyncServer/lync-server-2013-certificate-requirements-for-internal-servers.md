@@ -1,51 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Anforderungen an Zertifikate für interne Server'
-TOCTitle: Anforderungen an Zertifikate für interne Server
-ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398094(v=OCS.15)
-ms:contentKeyID: 49293025
-ms.date: 02/18/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anforderungen an Zertifikate für interne Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for internal servers
+ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
+ms:contentKeyID: 48183270
+ms.date: 02/17/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839667"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anforderungen an Zertifikate für interne Server in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2017-02-17_
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a><span data-ttu-id="3ef3e-102">Anforderungen an Zertifikate für interne Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ef3e-102">Certificate requirements for internal servers in Lync Server 2013</span></span>
 
-Zu den internen Servern, auf denen Lync Server ausgeführt wird und die Zertifikate benötigen, gehören z. B. Standard Edition-Server, Enterprise Edition-Front-End-Server, Vermittlungsserver und Director. Die folgende Tabelle enthält die Zertifikatanforderungen für diese Server. Sie können den Zertifikat-Assistenten von Lync Server verwenden, um diese Zertifikate anzufordern.
+</div>
 
+<div id="mainSection">
 
-> [!TIP]
-> Platzhalterzertifikate werden für die alternativen Antragstellernamen unterstützt, die den einfachen URLs auf dem Front-End-Pool, dem Front-End-Server oder dem Director zugeordnet sind. Ausführliche Informationen zur Platzhalterzertifikatunterstützung finden Sie unter <A href="lync-server-2013-wildcard-certificate-support.md">Unterstützung von Platzhalterzertifikaten in Lync Server 2013</A>.
+<div id="mainBody">
 
+<span> </span>
 
+<span data-ttu-id="3ef3e-103">_**Letztes Änderungsdatum des Themas:** 2017-02-17_</span><span class="sxs-lookup"><span data-stu-id="3ef3e-103">_**Topic Last Modified:** 2017-02-17_</span></span>
 
-Wenngleich für interne Server die Verwendung einer internen Unternehmenszertifizierungsstelle empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Eine Liste öffentlicher Zertifizierungsstellen, die Zertifikate bereitstellen, die den speziellen Anforderungen an Unified Communications-Zertifikate entsprechen und eine Partnerschaft mit Microsoft eingegangen sind, um sicherzustellen, dass ihre Zertifikate mit dem Zertifikat-Assistenten von Lync Server verwendet werden können, finden Sie im Microsoft Knowledge Base-Artikel 929395, "Partner für Unified Communications-Zertifikate für Exchange Server und Communications Server", unter [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0x407).
+<span data-ttu-id="3ef3e-104">Zu den internen Servern, auf denen lync Server ausgeführt wird und für die Zertifikate erforderlich sind, gehören Standard Edition-Server, Enterprise Edition-Front-End-Server, Vermittlungsserver und Director.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-104">Internal servers that are running Lync Server and that require certificates include Standard Edition server, Enterprise Edition Front End Server, Mediation Server, and Director.</span></span> <span data-ttu-id="3ef3e-105">In der folgenden Tabelle sind die Zertifikatanforderungen für diese Server aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-105">The following table shows the certificate requirements for these servers.</span></span> <span data-ttu-id="3ef3e-106">Sie können den lync Server-Zertifikat-Assistenten verwenden, um diese Zertifikate anzufordern.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-106">You can use the Lync Server certificate wizard to request these certificates.</span></span>
 
-Für die Kommunikation mit anderen Anwendungen und Servern, z. B. Exchange 2013, ist ein Zertifikat erforderlich, das von anderen Anwendungen und Produkten unterstützt wird. Für Version 2013 unterstützen Lync Server 2013 und andere Microsoft-Serverprodukte, darunter Exchange 2013 und SharePoint Server, das Open Authorization (OAuth)-Protokoll für die Authentifizierung und Autorisierung von Server zu Server. Ausführliche Informationen finden Sie unter [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungs- oder Betriebsdokumentation.
-
-Für Verbindungen von Clients, auf denen Windows 7-Betriebssystem, Windows Server 2008-Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista-Betriebssystem und Microsoft Lync Phone Edition ausgeführt wird, umfasst Lync Server 2013 Unterstützung für Zertifikate, die mithilfe der kryptografischen Hashfunktion SHA-256 signiert wurden (diese jedoch nicht erfordern). Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
-
-In der folgenden Tabelle werden die Zertifikatanforderungen nach Serverrolle für Front-End-Pools und Standard Edition-Server aufgeführt. Es handelt sich in allen Fällen um standardmäßige, nicht exportierbare Webserverzertifikate mit privatem Schlüssel.
-
-Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für Server automatisch konfiguriert wird, wenn Sie den Zertifikat-Assistenten zum Anfordern von Zertifikaten verwenden.
+<div>
 
 
-> [!NOTE]
-> Der Anzeigename jedes Zertifikats muss im Computerspeicher eindeutig sein.
+> [!TIP]  
+> <span data-ttu-id="3ef3e-107">Platzhalterzertifikate werden für die alternativen Subjektnamen unterstützt, die mit den einfachen URLs im Front-End-Pool, Front-End-Server oder Director verknüpft sind.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-107">Wildcard certificates are supported for the subject alternative names associated with the simple URLs on the Front End pool, Front End Server, or Director.</span></span> <span data-ttu-id="3ef3e-108">Details zur Unterstützung von Platzhalterzertifikaten finden Sie unter <A href="lync-server-2013-wildcard-certificate-support.md">Unterstützung für Platzhalterzertifikate in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-108">For details about wildcard certificate support, see <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard certificate support in Lync Server 2013</A>.</span></span>
 
 
 
+</div>
 
-> [!NOTE]
-> Wenn Sie sipinternal.contoso.com oder sipexternal.contoso.com in Ihrem DNS konfiguriert haben, müssen Sie diese zum alternativen Antragstellernamen des Zertifikats hinzufügen.
+<span data-ttu-id="3ef3e-109">Obwohl eine interne Unternehmenszertifizierungsstelle für interne Server empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-109">Although an internal enterprise certification authority (CA) is recommended for internal servers, you can also use a public CA.</span></span> <span data-ttu-id="3ef3e-110">Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate zur Verfügung stellen, die bestimmte Anforderungen für Unified Communications (UC)-Zertifikate erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server-Zertifikat-Assistenten funktionieren, finden Sie im Artikel Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners für Exchange Server und für Communications Server", unter [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).</span><span class="sxs-lookup"><span data-stu-id="3ef3e-110">For a list of public CAs that provide certificates that comply with specific requirements for unified communications (UC) certificates and have partnered with Microsoft to ensure they work with the Lync Server Certificate Wizard, see article Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).</span></span>
+
+<span data-ttu-id="3ef3e-111">Die Kommunikation mit anderen Anwendungen und Servern, wie etwa Exchange 2013, erfordert ein Zertifikat, das von den anderen Anwendungen und Produkten unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-111">Communication with other applications and servers, such as Exchange 2013, requires a certificate that is supported by the other applications and products.</span></span> <span data-ttu-id="3ef3e-112">Für die 2013-Version unterstützen lync Server 2013 und andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und SharePoint Server, das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-112">For the 2013 release, Lync Server 2013 and other Microsoft server products, including Exchange 2013 and SharePoint Server, support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization.</span></span> <span data-ttu-id="3ef3e-113">Ausführliche Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-113">For details, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in the Deployment documentation or the Operations documentation.</span></span>
+
+<span data-ttu-id="3ef3e-114">Für Verbindungen von Clients mit Windows 7-Betriebssystem, Windows Server 2008-Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista-Betriebssystem und Microsoft lync Phone Edition umfasst lync Server 2013 Unterstützung für (aber nicht require) Zertifikate, die mit der SHA-256-kryptografischen Hashfunktion signiert wurden.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-114">For connections from clients running Windows 7 operating system, Windows Server 2008 operating system, Windows Server 2008 R2 operating system, Windows Vista operating system, and Microsoft Lync Phone Edition, Lync Server 2013 includes support for (but does not require) certificates signed using the SHA-256 cryptographic hash function.</span></span> <span data-ttu-id="3ef3e-115">Um den externen Zugriff mithilfe von SHA-256 zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mithilfe von SHA-256 ausgestellt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-115">To support external access using SHA-256, the external certificate is issued by a public CA using SHA-256.</span></span>
+
+<span data-ttu-id="3ef3e-116">In den folgenden Tabellen werden die Zertifikatanforderungen nach Serverrolle für Front-End-Pools und Standard Edition-Server angezeigt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-116">The following tables show certificate requirements by server role for Front End pools and Standard Edition servers.</span></span> <span data-ttu-id="3ef3e-117">Dies sind standardmäßige Webserverzertifikate, privater Schlüssel, nicht exportierbarer Server.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-117">All these are standard web server certificates, private key, non-exportable.</span></span>
+
+<span data-ttu-id="3ef3e-118">Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch konfiguriert wird, wenn Sie mit dem Zertifikat-Assistenten Zertifikate anfordern.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-118">Note that server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="3ef3e-119">Jeder Zertifikatsanzeige Name muss im Computerspeicher eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-119">Each certificate Friendly Name must be unique in the computer store.</span></span>
 
 
 
-### Zertifikate für Standard Edition-Server
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="3ef3e-120">Wenn Sie sipinternal.contoso.com oder sipexternal.contoso.com in Ihrem DNS konfiguriert haben, müssen Sie diese im alternativen Antragstellernamen des Zertifikats hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-120">If you have configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, you will need to add them in the certificate’s Subject Alternative Name.</span></span>
+
+
+
+</div>
+
+### <a name="certificates-for-standard-edition-server"></a><span data-ttu-id="3ef3e-121">Zertifikate für den Standard Edition-Server</span><span class="sxs-lookup"><span data-stu-id="3ef3e-121">Certificates for Standard Edition Server</span></span>
 
 <table>
 <colgroup>
@@ -57,67 +89,65 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU)
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat</th>
-<th>Antragstellername/ Allgemeiner Name</th>
-<th>Alternativer Antragstellername</th>
-<th>Beispiel</th>
-<th>Kommentare</th>
+<th><span data-ttu-id="3ef3e-122">Zertifikat</span><span class="sxs-lookup"><span data-stu-id="3ef3e-122">Certificate</span></span></th>
+<th><span data-ttu-id="3ef3e-123">Name des Antragstellers/gebräuchlicher Name</span><span class="sxs-lookup"><span data-stu-id="3ef3e-123">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="3ef3e-124">Alternativer Antragstellername</span><span class="sxs-lookup"><span data-stu-id="3ef3e-124">Subject alternative name</span></span></th>
+<th><span data-ttu-id="3ef3e-125">Beispiel</span><span class="sxs-lookup"><span data-stu-id="3ef3e-125">Example</span></span></th>
+<th><span data-ttu-id="3ef3e-126">Kommentare</span><span class="sxs-lookup"><span data-stu-id="3ef3e-126">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard</p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Pools</p></td>
-<td><p>FQDN des Pools und FQDN des Servers</p>
-<p>Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für &quot;sip.sipDomäne&quot; (für jede vorhandene SIP-Domäne).</p></td>
-<td><p>SN=se01.contoso.com; SAN=se01.contoso.com</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch &quot;SAN=sip.contoso.com; SAN=sip.fabrikam.com&quot;</p></td>
-<td><p>Auf einem Standard Edition-Server entspricht der Server-FQDN dem Pool-FQDN.</p>
-<p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.</p>
-<p>Sie können dieses Zertifikat auch für die Authentifizierung zwischen Servern verwenden.</p></td>
+<td><p><span data-ttu-id="3ef3e-127">Standard</span><span class="sxs-lookup"><span data-stu-id="3ef3e-127">Default</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-128">Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-128">Fully qualified domain name (FQDN) of the pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-129">FQDN des Pools und der FQDN des Servers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-129">FQDN of the pool and the FQDN of the server</span></span></p>
+<p><span data-ttu-id="3ef3e-130">Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-130">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
+<p><span data-ttu-id="3ef3e-131">Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für „sip.sipDomäne“ (für jede vorhandene SIP-Domäne).</span><span class="sxs-lookup"><span data-stu-id="3ef3e-131">If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-132">SN=se01.contoso.com; SAN=se01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-132">SN=se01.contoso.com; SAN=se01.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-133">Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-133">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-134">Auf dem Standard Edition-Server entspricht der Server-FQDN dem FQDN des Pools.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-134">On Standard Edition server, the server FQDN is the same as the pool FQDN.</span></span></p>
+<p><span data-ttu-id="3ef3e-135">Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-135">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
+<p><span data-ttu-id="3ef3e-136">Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-136">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Web, intern</p></td>
-<td><p>FQDN des Servers</p></td>
-<td><p>Jeder der folgenden:</p>
+<td><p><span data-ttu-id="3ef3e-137">Web, intern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-137">Web internal</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-138">FQDN des Servers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-138">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-139">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-139">Each of the following:</span></span></p>
 <ul>
-<li><p>Interner Web-FQDN (entspricht dem FQDN des Servers)</p></li>
-<li><p>Einfache URLs vom Typ &quot;Meet&quot;</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache URL vom Typ &quot;Admin&quot;</p>
-<p></p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
-</ul>
-<p></p></td>
-<td><p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
-<p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Sie können den internen Web-FQDN im Topologie-Generator nicht überschreiben.</p>
-<p>Wenn Sie über mehrere einfache URLs vom Typ &quot;Meet&quot; verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
-<p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
+<li><p><span data-ttu-id="3ef3e-140">Interner Web-FQDN (entspricht dem FQDN des Servers)</span><span class="sxs-lookup"><span data-stu-id="3ef3e-140">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-141">Einfache Besprechungs-URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-141">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-142">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-142">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-143">Einfache URLs vom Typ „Admin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-143">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-144">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-144">Or, a wildcard entry for the simple URLs</span></span></p></li>
+</ul></td>
+<td><p><span data-ttu-id="3ef3e-145">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-145">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-146">Mit einem Platzhalterzertifikat:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-146">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="3ef3e-147">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-147">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-148">Sie können den internen Web-FQDN im Topologie-Generator nicht außer Kraft setzen.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-148">You cannot override the Internal web FQDN in Topology Builder.</span></span></p>
+<p><span data-ttu-id="3ef3e-149">Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-149">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="3ef3e-150">Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-150">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Web, extern</p></td>
-<td><p>FQDN des Servers</p></td>
-<td><p>Jeder der folgenden:</p>
+<td><p><span data-ttu-id="3ef3e-151">Web, extern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-151">Web external</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-152">FQDN des Servers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-152">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-153">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-153">Each of the following:</span></span></p>
 <ul>
-<li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache Besprechungs-URLs pro SIP-Domäne</p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
+<li><p><span data-ttu-id="3ef3e-154">Externer Web-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-154">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-155">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-155">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-156">Einfache Besprechungs-URLs pro SIP-Domäne</span><span class="sxs-lookup"><span data-stu-id="3ef3e-156">Meet simple URLs per SIP domain</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-157">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-157">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
-<p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs vom Typ &quot;Meet&quot; verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
-<p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
+<td><p><span data-ttu-id="3ef3e-158">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-158">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-159">Mit einem Platzhalterzertifikat:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-159">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="3ef3e-160">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-160">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-161">Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-161">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="3ef3e-162">Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-162">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Zertifikate für Front-End-Server in einem Front-End-Pool
+### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a><span data-ttu-id="3ef3e-163">Zertifikate für den Front-End-Server in einem Front-End-Pool</span><span class="sxs-lookup"><span data-stu-id="3ef3e-163">Certificates for Front End Server in a Front End Pool</span></span>
 
 <table>
 <colgroup>
@@ -129,66 +159,65 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU)
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat</th>
-<th>Antragstellername/ Allgemeiner Name</th>
-<th>Alternativer Antragstellername</th>
-<th>Beispiel</th>
-<th>Kommentare</th>
+<th><span data-ttu-id="3ef3e-164">Zertifikat</span><span class="sxs-lookup"><span data-stu-id="3ef3e-164">Certificate</span></span></th>
+<th><span data-ttu-id="3ef3e-165">Name des Antragstellers/gebräuchlicher Name</span><span class="sxs-lookup"><span data-stu-id="3ef3e-165">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="3ef3e-166">Alternativer Antragstellername</span><span class="sxs-lookup"><span data-stu-id="3ef3e-166">Subject alternative name</span></span></th>
+<th><span data-ttu-id="3ef3e-167">Beispiel</span><span class="sxs-lookup"><span data-stu-id="3ef3e-167">Example</span></span></th>
+<th><span data-ttu-id="3ef3e-168">Kommentare</span><span class="sxs-lookup"><span data-stu-id="3ef3e-168">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard</p></td>
-<td><p>FQDN des Pools</p></td>
-<td><p>FQDN des Pools und FQDN des Servers</p>
-<p>Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch Einträge für &quot;sip.sipDomäne&quot; (für jede vorhandene SIP-Domäne).</p></td>
-<td><p>SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch &quot;SAN=sip.contoso.com; SAN=sip.fabrikam.com&quot;.</p></td>
-<td><p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.</p>
-<p>Sie können dieses Zertifikat auch für die Authentifizierung zwischen Servern verwenden.</p></td>
+<td><p><span data-ttu-id="3ef3e-169">Standard</span><span class="sxs-lookup"><span data-stu-id="3ef3e-169">Default</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-170">FQDN des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-170">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-171">FQDN des Pools und FQDN des Servers.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-171">FQDN of the pool and FQDN of the server.</span></span></p>
+<p><span data-ttu-id="3ef3e-172">Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-172">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
+<p><span data-ttu-id="3ef3e-173">Wenn dieser Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch Einträge für SIP. sipdomain (für jede SIP-Domäne, die Sie haben).</span><span class="sxs-lookup"><span data-stu-id="3ef3e-173">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-174">SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com </span><span class="sxs-lookup"><span data-stu-id="3ef3e-174">SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-175">Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-175">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-176">Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-176">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
+<p><span data-ttu-id="3ef3e-177">Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-177">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Web, intern</p></td>
-<td><p>FQDN des Pools</p></td>
-<td><p>Jeder der folgenden:</p>
+<td><p><span data-ttu-id="3ef3e-178">Web-intern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-178">Web Internal</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-179">FQDN des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-179">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-180">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-180">Each of the following:</span></span></p>
 <ul>
-<li><p>Interner Web-FQDN (entspricht NICHT dem FQDN des Servers)</p></li>
-<li><p>Server-FQDN</p></li>
-<li><p>FQDN des Lync-Pools</p></li>
-<li><p>Einfache URLs vom Typ &quot;Meet&quot;</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache URL vom Typ &quot;Admin&quot;</p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
-</ul>
-<p></p></td>
-<td><p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
-<p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs vom Typ &quot;Meet&quot; verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
-<p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
+<li><p><span data-ttu-id="3ef3e-181">Interner Web-FQDN (entspricht NICHT dem FQDN des Servers)</span><span class="sxs-lookup"><span data-stu-id="3ef3e-181">Internal web FQDN (which is NOT the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-182">Server-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-182">Server FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-183">Lync-Pool-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-183">Lync pool FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-184">Einfache Besprechungs-URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-184">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-185">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-185">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-186">Einfache URLs vom Typ „Admin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-186">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-187">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-187">Or, a wildcard entry for the simple URLs</span></span></p></li>
+</ul></td>
+<td><p><span data-ttu-id="3ef3e-188">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-188">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-189">Mit einem Platzhalterzertifikat:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-189">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="3ef3e-190">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-190">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-191">Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-191">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="3ef3e-192">Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-192">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Web, extern</p></td>
-<td><p>FQDN des Pools</p></td>
-<td><p>Jeder der folgenden:</p>
+<td><p><span data-ttu-id="3ef3e-193">Web, extern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-193">Web external</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-194">FQDN des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-194">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-195">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-195">Each of the following:</span></span></p>
 <ul>
-<li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache URL vom Typ &quot;Admin&quot;</p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
+<li><p><span data-ttu-id="3ef3e-196">Externer Web-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-196">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-197">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-197">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-198">Einfache URLs vom Typ „Admin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-198">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-199">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-199">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
-<p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs vom Typ &quot;Meet&quot; verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
-<p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
+<td><p><span data-ttu-id="3ef3e-200">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-200">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-201">Mit einem Platzhalterzertifikat:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-201">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="3ef3e-202">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-202">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-203">Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-203">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="3ef3e-204">Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-204">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Zertifikate für Director
+### <a name="certificates-for-director"></a><span data-ttu-id="3ef3e-205">Zertifikate für Director</span><span class="sxs-lookup"><span data-stu-id="3ef3e-205">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -199,57 +228,58 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU)
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat</th>
-<th>Antragstellername/ Allgemeiner Name</th>
-<th>Alternativer Antragstellername</th>
-<th>Beispiel</th>
+<th><span data-ttu-id="3ef3e-206">Zertifikat</span><span class="sxs-lookup"><span data-stu-id="3ef3e-206">Certificate</span></span></th>
+<th><span data-ttu-id="3ef3e-207">Name des Antragstellers/gebräuchlicher Name</span><span class="sxs-lookup"><span data-stu-id="3ef3e-207">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="3ef3e-208">Alternativer Antragstellername</span><span class="sxs-lookup"><span data-stu-id="3ef3e-208">Subject alternative name</span></span></th>
+<th><span data-ttu-id="3ef3e-209">Beispiel</span><span class="sxs-lookup"><span data-stu-id="3ef3e-209">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard</p></td>
-<td><p>FQDN des Director-Pools</p></td>
-<td><p>Director-FQDN, FQDN des Director-Pools</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch Einträge für &quot;sip.sipDomäne&quot; (für jede vorhandene SIP-Domäne).</p></td>
-<td><p>SN=dir-pool.contoso.com; SAN=dir-pool.contoso.com; SAN=dir01.contoso.com</p>
-<p>Wenn es sich bei diesem Director-Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch &quot;SAN=sip.contoso.com; SAN=sip.fabrikam.com&quot;.</p></td>
+<td><p><span data-ttu-id="3ef3e-210">Standard</span><span class="sxs-lookup"><span data-stu-id="3ef3e-210">Default</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-211">FQDN des Director-Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-211">FQDN of the Director pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-212">FQDN des Directors, FQDN des Director-Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-212">FQDN of the Director, FQDN of the Director pool</span></span></p>
+<p><span data-ttu-id="3ef3e-213">Wenn dieser Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch Einträge für SIP. sipdomain (für jede SIP-Domäne, die Sie haben).</span><span class="sxs-lookup"><span data-stu-id="3ef3e-213">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-214">SN = dir-Pool.contoso.com; San = dir-Pool.contoso.com; San = dir01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-214">SN=dir-pool.contoso.com; SAN=dir-pool.contoso.com; SAN=dir01.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-215">Wenn dieser Director-Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch San = SIP. contoso. com; San = SIP. fabrikam. com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-215">If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Web, intern</p></td>
-<td><p>FQDN des Servers</p></td>
-<td><p>Jeder der folgenden:</p>
+<td><p><span data-ttu-id="3ef3e-216">Web-intern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-216">Web Internal</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-217">FQDN des Servers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-217">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-218">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-218">Each of the following:</span></span></p>
 <ul>
-<li><p>Interner Web-FQDN (entspricht dem FQDN des Servers)</p></li>
-<li><p>Einfache URLs vom Typ &quot;Meet&quot;</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache URL vom Typ &quot;Admin&quot;</p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
-</ul>
-<p></p></td>
-<td><p>SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
-<p>SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=*.contoso.com</p></td>
-</tr>
-<tr class="odd">
-<td><p>Web, extern</p></td>
-<td><p>FQDN des Servers</p></td>
-<td><p>Jeder der folgenden:</p>
-<ul>
-<li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ &quot;Dialin&quot;</p></li>
-<li><p>Einfache URL vom Typ &quot;Admin&quot;</p></li>
-<li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
+<li><p><span data-ttu-id="3ef3e-219">Interner Web-FQDN (entspricht dem FQDN des Servers)</span><span class="sxs-lookup"><span data-stu-id="3ef3e-219">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-220">Server-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-220">Server FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-221">Lync-Pool-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-221">Lync pool FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-222">Einfache Besprechungs-URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-222">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-223">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-223">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-224">Einfache URLs vom Typ „Admin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-224">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-225">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-225">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p>Der externe Web-FQDN für den Director muss anders lauten als der des Front-End-Pools oder des Front-End-Servers.</p>
-<p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
-<p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=*.contoso.com</p></td>
+<td><p><span data-ttu-id="3ef3e-226">SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-226">SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-227">SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-227">SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="3ef3e-228">Web, extern</span><span class="sxs-lookup"><span data-stu-id="3ef3e-228">Web external</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-229">FQDN des Servers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-229">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-230">Jeder der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3ef3e-230">Each of the following:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="3ef3e-231">Externer Web-FQDN</span><span class="sxs-lookup"><span data-stu-id="3ef3e-231">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-232">Einfache URLs vom Typ „Dialin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-232">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-233">Einfache URLs vom Typ „Admin“</span><span class="sxs-lookup"><span data-stu-id="3ef3e-233">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="3ef3e-234">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="3ef3e-234">Or, a wildcard entry for the simple URLs</span></span></p></li>
+</ul></td>
+<td><p><span data-ttu-id="3ef3e-235">Der FQDN des Director External Web muss vom Front-End-Pool oder Front-End-Server abweichen.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-235">The Director external web FQDN must be different from the Front End pool or Front End Server.</span></span></p>
+<p><span data-ttu-id="3ef3e-236">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-236">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="3ef3e-237">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-237">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie über einen eigenständigen Vermittlungsserverpool verfügen, muss jeder der darin enthaltenen Vermittlungsserver über die in der folgenden Tabelle aufgelisteten Zertifikate verfügen. Wenn Sie einen Vermittlungsserver mit den Front-End-Servern verbinden, reichen die in der Tabelle "Zertifikate für Front-End-Server im Front-End-Pool" (weiter oben) aufgeführten Zertifikate aus.
+<span data-ttu-id="3ef3e-238">Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötigen die Vermittlungsserver jeweils die in der folgenden Tabelle aufgelisteten Zertifikate.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-238">If you have a stand-alone Mediation Server pool, the Mediation Servers in it each need the certificates listed in the following table.</span></span> <span data-ttu-id="3ef3e-239">Wenn Sie den Vermittlungs Server mit den Front-End-Servern collocate, genügen die Zertifikate, die in der Tabelle "Zertifikate für Front-End-Server im Front-End-Pool" weiter oben in diesem Thema aufgeführt sind.</span><span class="sxs-lookup"><span data-stu-id="3ef3e-239">If you collocate Mediation Server with the Front End Servers, the certificates listed in the “Certificates for Front End Server in Front End Pool” table earlier in this topic are sufficient.</span></span>
 
-### Zertifikate für eigenständige Vermittlungsserver
+### <a name="certificates-for-stand-alone-mediation-server"></a><span data-ttu-id="3ef3e-240">Zertifikate für eigenständigen Vermittlungs Server</span><span class="sxs-lookup"><span data-stu-id="3ef3e-240">Certificates for Stand-alone Mediation Server</span></span>
 
 <table>
 <colgroup>
@@ -260,25 +290,25 @@ Wenn Sie über einen eigenständigen Vermittlungsserverpool verfügen, muss jede
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat</th>
-<th>Antragstellername/ Allgemeiner Name</th>
-<th>Alternativer Antragstellername</th>
-<th>Beispiel</th>
+<th><span data-ttu-id="3ef3e-241">Zertifikat</span><span class="sxs-lookup"><span data-stu-id="3ef3e-241">Certificate</span></span></th>
+<th><span data-ttu-id="3ef3e-242">Name des Antragstellers/gebräuchlicher Name</span><span class="sxs-lookup"><span data-stu-id="3ef3e-242">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="3ef3e-243">Alternativer Antragstellername</span><span class="sxs-lookup"><span data-stu-id="3ef3e-243">Subject alternative name</span></span></th>
+<th><span data-ttu-id="3ef3e-244">Beispiel</span><span class="sxs-lookup"><span data-stu-id="3ef3e-244">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard</p></td>
-<td><p>FQDN des Pools</p></td>
-<td><p>FQDN des Pools</p>
-<p>FQDN des Poolmitgliedsservers</p></td>
-<td><p>SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</p></td>
+<td><p><span data-ttu-id="3ef3e-245">Standard</span><span class="sxs-lookup"><span data-stu-id="3ef3e-245">Default</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-246">FQDN des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-246">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-247">FQDN des Pools</span><span class="sxs-lookup"><span data-stu-id="3ef3e-247">FQDN of the pool</span></span></p>
+<p><span data-ttu-id="3ef3e-248">FQDN des Pool Mitgliedsservers</span><span class="sxs-lookup"><span data-stu-id="3ef3e-248">FQDN of pool member server</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-249">SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="3ef3e-249">SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Zertifikate für eine Survivable Branch Appliance
+### <a name="certificates-for-survivable-branch-appliance"></a><span data-ttu-id="3ef3e-250">Zertifikate für Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="3ef3e-250">Certificates for Survivable Branch Appliance</span></span>
 
 <table>
 <colgroup>
@@ -289,26 +319,40 @@ Wenn Sie über einen eigenständigen Vermittlungsserverpool verfügen, muss jede
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat</th>
-<th>Antragstellername/ Allgemeiner Name</th>
-<th>Alternativer Antragstellername</th>
-<th>Beispiel</th>
+<th><span data-ttu-id="3ef3e-251">Zertifikat</span><span class="sxs-lookup"><span data-stu-id="3ef3e-251">Certificate</span></span></th>
+<th><span data-ttu-id="3ef3e-252">Name des Antragstellers/gebräuchlicher Name</span><span class="sxs-lookup"><span data-stu-id="3ef3e-252">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="3ef3e-253">Alternativer Antragstellername</span><span class="sxs-lookup"><span data-stu-id="3ef3e-253">Subject alternative name</span></span></th>
+<th><span data-ttu-id="3ef3e-254">Beispiel</span><span class="sxs-lookup"><span data-stu-id="3ef3e-254">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard</p></td>
-<td><p>FQDN der Appliance</p></td>
-<td><p>SIP.&lt;SIP-Domäne&gt; (ein Eintrag pro SIP-Domäne erforderlich)</p></td>
-<td><p>SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
+<td><p><span data-ttu-id="3ef3e-255">Standard</span><span class="sxs-lookup"><span data-stu-id="3ef3e-255">Default</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-256">FQDN der Anwendung</span><span class="sxs-lookup"><span data-stu-id="3ef3e-256">FQDN of the appliance</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-257">SIP. &lt;sipdomain&gt; (benötigt einen Eintrag pro SIP-Domäne)</span><span class="sxs-lookup"><span data-stu-id="3ef3e-257">SIP.&lt;sipdomain&gt; (need one entry per SIP domain)</span></span></p></td>
+<td><p><span data-ttu-id="3ef3e-258">SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3ef3e-258">SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a><span data-ttu-id="3ef3e-259">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3ef3e-259">See Also</span></span>
 
-[Unterstützung von Platzhalterzertifikaten in Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)
+
+[<span data-ttu-id="3ef3e-260">Unterstützung von Platzhalterzertifikaten in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ef3e-260">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

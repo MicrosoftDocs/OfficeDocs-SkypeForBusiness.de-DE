@@ -1,27 +1,61 @@
-﻿---
-title: Sichern von Lync Server
-TOCTitle: Sichern von Lync Server
-ms:assetid: 9ae8ac63-7893-4524-9ebe-c44f8ba9ce41
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202182(v=OCS.15)
-ms:contentKeyID: 52056411
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Sichern von lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up Lync Server
+ms:assetid: 9ae8ac63-7893-4524-9ebe-c44f8ba9ce41
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202182(v=OCS.15)
+ms:contentKeyID: 51541498
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4251d6f565f48810dfe90f5b874f6ae178f63cbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839893"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sichern von Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+# <a name="backing-up-lync-server-2013"></a><span data-ttu-id="028a7-102">Sichern von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="028a7-102">Backing up Lync Server 2013</span></span>
 
-In den Verfahren in diesem Abschnitt wird die Sicherung von Lync Server beschrieben, damit Sie den Dienst im Falle eines Fehlers oder Ausfalls wiederherstellen können.
+</div>
 
-Sie sollten eine Strategie und einen Plan für das Sichern und Wiederherstellen entwickeln, wie in [Entwickeln einer Strategie und eines Plans für das Sichern und Wiederherstellen](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md) beschrieben. In dieser Strategie und diesem Plan sollten die spezifischen Verfahren enthalten sein, die Sie anwenden möchten. Verwenden Sie die Verfahren in den Themen dieses Abschnitts zusammen mit den Arbeitsblättern in [Arbeitsblätter zur Sicherung und Wiederherstellung](lync-server-2013-backup-and-restoration-worksheets.md) zur Dokumentierung der geplanten Sicherung Ihrer spezifischen Lync Server-Bereitstellung.
+<div id="mainSection">
 
-## In diesem Abschnitt
+<div id="mainBody">
 
-  - [Überprüfen der Sicherungsvoraussetzungen](lync-server-2013-verifying-backup-prerequisites.md)
+<span> </span>
 
-  - [Sichern von Daten und Einstellungen](lync-server-2013-backing-up-data-and-settings.md)
+<span data-ttu-id="028a7-103">_**Letztes Änderungsdatum des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="028a7-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="028a7-104">Die Verfahren in diesem Abschnitt beschreiben, wie Sie lync Server sichern, damit Sie den Dienst bei einem Ausfall oder Ausfall wiederherstellen können.</span><span class="sxs-lookup"><span data-stu-id="028a7-104">The procedures in this section describe how to back up Lync Server so that you can recover service in the event of an outage or failure.</span></span>
+
+<span data-ttu-id="028a7-105">Sie sollten eine Sicherungs-und Wiederherstellungsstrategie und einen Plan für Ihre Organisation entwickeln, wie unter [Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und Planen von lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="028a7-105">You should develop a backup and recovery strategy and plan for your organization, as described in [Developing a backup and restoration strategy and plan for Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md).</span></span> <span data-ttu-id="028a7-106">Diese Strategie und dieser Plan sollten die spezifischen Verfahren enthalten, die Sie verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="028a7-106">This strategy and plan should include the specific procedures that you plan to use.</span></span> <span data-ttu-id="028a7-107">Verwenden Sie die Verfahren, die in den Themen in diesem Abschnitt enthalten sind, zusammen mit den Arbeitsblättern in [Arbeitsblättern für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), um zu dokumentieren, wie Sie Ihre spezifische lync Server-Bereitstellung sichern möchten.</span><span class="sxs-lookup"><span data-stu-id="028a7-107">Use the procedures included in the topics in this section, along with the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), to document how you plan to back up your specific Lync Server deployment.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="028a7-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="028a7-108">In This Section</span></span>
+
+  - [<span data-ttu-id="028a7-109">Überprüfen der Sicherungs Voraussetzungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="028a7-109">Verifying backup prerequisites in Lync Server 2013</span></span>](lync-server-2013-verifying-backup-prerequisites.md)
+
+  - [<span data-ttu-id="028a7-110">Sichern von Daten und Einstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="028a7-110">Backing up data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-data-and-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

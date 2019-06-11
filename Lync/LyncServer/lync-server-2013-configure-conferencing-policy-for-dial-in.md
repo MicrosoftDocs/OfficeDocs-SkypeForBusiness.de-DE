@@ -1,51 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren von Konferenzrichtlinien für die Einwahl'
-TOCTitle: Konfigurieren von Konferenzrichtlinien für die Einwahl
-ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398810(v=OCS.15)
-ms:contentKeyID: 49294883
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren von Konferenzrichtlinien für die Einwahl'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure conferencing policy for dial-in
+ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398810(v=OCS.15)
+ms:contentKeyID: 48184979
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 74621fee97a1e6721f8772b265761b62b1b9f266
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839406"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren von Konferenzrichtlinien für die Einwahl in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-21_
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a><span data-ttu-id="0faca-102">Konfigurieren von Konferenzrichtlinien für die Einwahl in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faca-102">Configure conferencing policy for dial-in in Lync Server 2013</span></span>
 
-Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmöglichkeiten für Teilnehmer festlegt. Sie können Konferenzrichtlinien auf Standort- oder Benutzerebene erstellen. Konferenzrichtlinieneinstellungen umfassen viele Aspekte der Konferenzplanung und -teilnahme. Mehrere Konferenzrichtlinieneinstellungen unterstützen Einwahlkonferenzen für Teilnehmer. Bei der Konfiguration von Einwahlkonferenzen sollten Sie sicherstellen, dass diese Felder für Ihre Organisation angemessen festgelegt sind, und sie bei Bedarf bearbeiten.
+</div>
 
-Überprüfen Sie in Ihrer Konferenzrichtlinie die folgenden Felder:
+<div id="mainSection">
 
-  - **Teilnehmern das Einladen anonymer Benutzer gestatten**    Diese Einstellung erlaubt den Besprechungsorganisatoren das Einladen anonymer (also nicht authentifizierter) Besprechungsteilnehmer. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
+<div id="mainBody">
 
-  - **PSTN-Einwahlkonferenzen aktivieren**    Diese Einstellung ermöglicht Benutzern die Teilnahme am Audioteil einer Konferenz, indem sie sich vom Telefonfestnetz aus einwählen. Diese Einstellung ist für Einwahlkonferenzen erforderlich. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
+<span> </span>
 
-  - **Ausgehende Verbindung für anonyme Teilnehmer zulassen**    Diese Einstellung ermöglicht anonymen Benutzern, die bereits an einer Besprechung teilnehmen, eine ausgehende Telefonnummer zu wählen, um am Audioteil der Konferenz teilzunehmen. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt.
+<span data-ttu-id="0faca-103">_**Letztes Änderungsdatum des Themas:** 2014-03-21_</span><span class="sxs-lookup"><span data-stu-id="0faca-103">_**Topic Last Modified:** 2014-03-21_</span></span>
 
-  - **Ausgehende Verbindung für Teilnehmer zulassen, die nicht für Enterprise-VoIP aktiviert sind**    Diese Einstellung ermöglicht Teilnehmern und Organisatoren von Besprechungen, die nicht für Enterprise-VoIP aktiviert sind, eine ausgehende Telefonnummer zu wählen, um am Audioteil der Konferenz teilzunehmen. Der ausgehende Anruf wird auf der Grundlage der dem Organisator zugewiesenen VoIP-Richtlinie autorisiert. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt. Diese Einstellung ist standardmäßig deaktiviert.
+<span data-ttu-id="0faca-p101">Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmöglichkeiten für Teilnehmer festlegt. Sie können Konferenzrichtlinien auf Standort- oder Benutzerebene erstellen. Konferenzrichtlinieneinstellungen umfassen viele Aspekte der Konferenzplanung und -teilnahme. Mehrere Konferenzrichtlinieneinstellungen unterstützen Einwahlkonferenzen für Teilnehmer. Bei der Konfiguration von Einwahlkonferenzen sollten Sie sicherstellen, dass diese Felder für Ihre Organisation angemessen festgelegt sind, und sie bei Bedarf bearbeiten.</span><span class="sxs-lookup"><span data-stu-id="0faca-p101">Conferencing policy is a user account setting that specifies the conferencing experience for participants. You can create conferencing policies with a site scope or a user scope. Conferencing policy settings encompass many aspects of conference scheduling and participation. Several conferencing policy settings support dial-in conferencing for participants. When you configure dial-in conferencing, you should verify that these fields are set appropriately for your organization, and modify them as necessary.</span></span>
+
+<span data-ttu-id="0faca-109">Überprüfen Sie die folgenden Felder in ihrer konferenzrichtlinie:</span><span class="sxs-lookup"><span data-stu-id="0faca-109">Verify the following fields in your conferencing policy:</span></span>
+
+  - <span data-ttu-id="0faca-110">**Teilnehmern erlauben, anonyme Benutzer**   einzuladen diese Einstellung ermöglicht es Besprechungsorganisatoren, anonyme (nicht authentifizierte) Teilnehmer zu Besprechungen einzuladen.</span><span class="sxs-lookup"><span data-stu-id="0faca-110">**Allow participants to invite anonymous users**   This setting allows meeting organizers to invite anonymous (that is, unauthenticated) participants to meetings.</span></span> <span data-ttu-id="0faca-111">Diese Einstellung ist für Einwahlkonferenzen optional.</span><span class="sxs-lookup"><span data-stu-id="0faca-111">This setting is optional for dial-in conferencing.</span></span> <span data-ttu-id="0faca-112">Diese Einstellung ist standardmäßig in der globalen Standard konferenzrichtlinie aktiviert.</span><span class="sxs-lookup"><span data-stu-id="0faca-112">This setting is selected by default in the default global conferencing policy.</span></span>
+
+  - <span data-ttu-id="0faca-113">**Aktivieren von PSTN-Einwahlkonferenzen**   mit dieser Einstellung können Benutzer am Audioteil einer Konferenz teilnehmen, indem Sie sich über das PSTN einwählen.</span><span class="sxs-lookup"><span data-stu-id="0faca-113">**Enable PSTN dial-in conferencing**   This setting allows users to join the audio portion of a conference by dialing in from the PSTN.</span></span> <span data-ttu-id="0faca-114">Diese Einstellung ist für Einwahlkonferenzen erforderlich.</span><span class="sxs-lookup"><span data-stu-id="0faca-114">This setting is required for dial-in conferencing.</span></span> <span data-ttu-id="0faca-115">Diese Einstellung ist standardmäßig in der globalen Standard konferenzrichtlinie aktiviert.</span><span class="sxs-lookup"><span data-stu-id="0faca-115">This setting is selected by default in the default global conferencing policy.</span></span>
+
+  - <span data-ttu-id="0faca-116">**Anonyme Teilnehmer erlauben, sich**   zu wählen diese Einstellung ermöglicht anonymen Benutzern, die bereits der Besprechung beigetreten sind, eine Telefonnummer zu wählen, um an dem Audioteil der Konferenz teilzunehmen.</span><span class="sxs-lookup"><span data-stu-id="0faca-116">**Allow anonymous participants to dial out**   This setting allows anonymous users who are already joined to the meeting to dial out to a phone number to join the audio portion of the conference.</span></span> <span data-ttu-id="0faca-117">Diese Einstellung ist für Einwahlkonferenzen optional.</span><span class="sxs-lookup"><span data-stu-id="0faca-117">This setting is optional for dial-in conferencing.</span></span> <span data-ttu-id="0faca-118">Diese Einstellung ist in der standardmäßigen globalen konferenzrichtlinie nicht standardmäßig aktiviert.</span><span class="sxs-lookup"><span data-stu-id="0faca-118">This setting is not selected by default in the default global conferencing policy.</span></span>
+
+  - <span data-ttu-id="0faca-119">**Teilnehmern, die für Enterprise-VoIP nicht aktiviert sind, erlauben,**   diese Einstellung zu wählen, ermöglicht es Besprechungsteilnehmern und Organisatoren, die nicht für Enterprise-VoIP aktiviert sind, eine Telefonnummer zu wählen, um am Audioteil der Konferenz teilzunehmen.</span><span class="sxs-lookup"><span data-stu-id="0faca-119">**Allow participants not enabled for Enterprise Voice to dial out**   This setting allows meeting participants and organizers that are not enabled for Enterprise Voice to dial out to a phone number to join the audio portion of the conference.</span></span> <span data-ttu-id="0faca-120">Der Wähl Anruf ist basierend auf der zugewiesenen VoIP-Richtlinie des Organisators autorisiert.</span><span class="sxs-lookup"><span data-stu-id="0faca-120">The dial-out call is authorized based on the organizer’s assigned voice policy.</span></span> <span data-ttu-id="0faca-121">Diese Einstellung ist in der standardmäßigen globalen konferenzrichtlinie nicht standardmäßig aktiviert.</span><span class="sxs-lookup"><span data-stu-id="0faca-121">This setting is not selected by default in the default global conferencing policy.</span></span> <span data-ttu-id="0faca-122">Der Standardwert für die Einstellung ist deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="0faca-122">The setting default value is disabled.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Damit ein Organisator, der nicht für Enterprise-VoIP aktiviert ist, diese Möglichkeit aktivieren kann, muss ihm eine entsprechende VoIP-Richtlinie zugewiesen sein, die ihn autorisiert, bei einer durch einen Benutzer organisierten Konferenz ausgehende Anrufe durchzuführen. Eine VoIP-Richtlinie kann einem Benutzer, der nicht für Enterprise-VoIP aktiviert ist, über die Lync Server-Verwaltungsshell zugewiesen werden. Wenn dem Benutzer nicht explizit eine VoIP-Richtlinie zugewiesen wurde, wird die VoIP-Richtlinie des Standorts verwendet, um die Auswahlanforderung zu autorisieren.&nbsp;Gibt es keine Standortrichtlinie, wird die globale VoIP-Richtlinie verwendet.
+    > [!NOTE]  
+    > <span data-ttu-id="0faca-123">Um diese Funktion zu aktivieren, sollte einem Besprechungsorganisator, der für Enterprise-VoIP nicht aktiviert ist, eine entsprechende VoIP-Richtlinie zugewiesen werden, um die Auswahl einer von diesem Benutzer organisierten Konferenz zu autorisieren.</span><span class="sxs-lookup"><span data-stu-id="0faca-123">To enable this capability, a meeting organizer that is not enabled for Enterprise Voice should have an appropriate voice policy assigned to them to authorize any dial-out from a conference organized by that user.</span></span> <span data-ttu-id="0faca-124">Eine VoIP-Richtlinie kann einem Benutzer zugewiesen werden, der in der lync Server-Verwaltungsshell nicht für Enterprise-VoIP aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="0faca-124">A voice policy can be assigned to a user that is not enabled for Enterprise Voice from the Lync Server Management Shell.</span></span> <span data-ttu-id="0faca-125">Wenn dem Benutzer nicht explizit eine VoIP-Richtlinie zugewiesen ist, wird die Richtlinie für die Sprachausgabe verwendet, um die Auswähl Anforderung zu autorisieren.</span><span class="sxs-lookup"><span data-stu-id="0faca-125">If the user does not have a voice policy explicitly assigned to him, the site voice policy will be used to authorize the dial-out request.</span></span> <span data-ttu-id="0faca-126">Wenn keine Website VoIP-Richtlinie vorhanden ist, wird die globale VoIP-Richtlinie verwendet.&nbsp;</span><span class="sxs-lookup"><span data-stu-id="0faca-126">If there is no site voice policy, the global voice policy will be used.&nbsp;</span></span>
 
+    
+    </div>
 
+<span data-ttu-id="0faca-127">In diesem Abschnitt wird erläutert, wie Konferenzrichtlinien geändert werden.</span><span class="sxs-lookup"><span data-stu-id="0faca-127">The procedure in this section explains how to modify conferencing policy.</span></span> <span data-ttu-id="0faca-128">Details zum Konfigurieren aller Einstellungen, die die Teilnehmer Erfahrung in der Standard konferenzrichtlinie definieren, finden Sie unter [erstellen oder Ändern einer Sammlung von Einstellungen für die besprechungskonfiguration in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="0faca-128">For details about how to configure all of the settings that define the participant experience in the default conferencing policy, see [Create or modify a collection of meeting configuration settings in Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span></span> <span data-ttu-id="0faca-129">Details zum Erstellen einer konferenzrichtlinie für einen bestimmten Benutzer oder eine Benutzergruppe finden Sie unter [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span><span class="sxs-lookup"><span data-stu-id="0faca-129">For details about how to create a conferencing policy for a specific user or group of users, see [Create or modify a conferencing policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span></span> <span data-ttu-id="0faca-130">Eine Liste aller verfügbaren konferenzrichtlinieneinstellungen finden Sie unter [Konferenzrichtlinien Einstellungsreferenz für lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span><span class="sxs-lookup"><span data-stu-id="0faca-130">For a list of all available conferencing policy settings, see [Conferencing policy settings reference for Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span></span>
 
-Das in diesem Abschnitt beschriebene Verfahren erläutert, wie die Konferenzrichtlinie geändert wird. Ausführliche Informationen zur Konfiguration aller Einstellungen, die in der Standardkonferenzrichtlinie das Erlebnis der Teilnehmer definieren, finden Sie unter [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Besprechungen](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md). Ausführliche Informationen zum Erstellen einer Konferenzrichtlinie für einen bestimmten Benutzer oder eine bestimmt Benutzergruppe finden Sie unter [Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md). Eine Liste aller verfügbaren Konferenzrichtlinieneinstellungen finden Sie unter [Referenz zu den Konferenzrichtlinieneinstellungen](lync-server-2013-conferencing-policy-settings-reference.md).
+<div>
 
-## So ändern Sie die Konferenzrichtlinie für die Einwahl
+## <a name="to-modify-the-conferencing-policy-for-dial-in"></a><span data-ttu-id="0faca-131">So ändern Sie die konferenzrichtlinie für die Einwahl</span><span class="sxs-lookup"><span data-stu-id="0faca-131">To modify the conferencing policy for dial-in</span></span>
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-ServerAdministrator** oder **CsAdministrator** an.
+1.  <span data-ttu-id="0faca-132">Melden Sie sich bei dem Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der Rolle **CS-ServerAdministrator** oder **CsAdministrator** an.</span><span class="sxs-lookup"><span data-stu-id="0faca-132">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="0faca-133">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="0faca-133">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0faca-134">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0faca-134">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz** .
+3.  <span data-ttu-id="0faca-135">Klicken Sie in der linken Navigationsleiste auf **Konferenz**.</span><span class="sxs-lookup"><span data-stu-id="0faca-135">In the left navigation bar, click **Conferencing**.</span></span>
 
-4.  Doppelklicken Sie auf der Registerkarte **Konferenzrichtlinie** auf den Namen einer Konferenzrichtlinie, um das Dialogfeld **Konferenzrichtlinie bearbeiten** zu öffnen.
+4.  <span data-ttu-id="0faca-136">Doppelklicken Sie auf der Registerkarte **konferenzrichtlinie** auf einen Konferenzrichtlinien Namen, um das Dialogfeld **konferenzrichtlinie bearbeiten** zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="0faca-136">On the **Conferencing Policy** tab, double-click a conferencing policy name to open the **Edit Conferencing Policy** dialog box.</span></span>
 
-5.  Stellen Sie sicher, dass die Felder für Einwahlkonferenzen für Ihre Organisation angemessen eingestellt sind, und ändern Sie die Einstellungen bei Bedarf.
+5.  <span data-ttu-id="0faca-137">Überprüfen Sie, ob die Felder für Einwahlkonferenzen für Ihre Organisation geeignet sind, und ändern Sie bei Bedarf die Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="0faca-137">Verify that the fields for dial-in conferencing are appropriate for your organization, and modify the settings if necessary.</span></span>
 
-6.  Klicken Sie auf **Commit** .
+6.  <span data-ttu-id="0faca-138">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="0faca-138">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

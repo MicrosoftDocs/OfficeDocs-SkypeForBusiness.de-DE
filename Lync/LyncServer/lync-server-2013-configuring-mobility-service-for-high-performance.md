@@ -1,61 +1,75 @@
-﻿---
-title: Konfigurieren des Mobilitätsdiensts für hohe Leistung
-TOCTitle: Konfigurieren des Mobilitätsdiensts für hohe Leistung
-ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690042(v=OCS.15)
-ms:contentKeyID: 49295315
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren des mobilitätsdiensts für eine höhere Leistung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Mobility Service for high performance
+ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
+ms:contentKeyID: 48185332
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839201"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Mobilitätsdiensts für hohe Leistung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a><span data-ttu-id="c326c-102">Konfigurieren des mobilitätsdiensts für die Höchstleistung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c326c-102">Configuring Mobility Service for high performance in Lync Server 2013</span></span>
 
-Wenn Sie den Lync Server 2013-Mobilitätsdienst unter Internetinformationsdienste (Internet Information Services, IIS) 7.5 installieren, konfiguriert der Mobilitätsdienst-Installer einige Leistungseinstellungen auf dem Front-End-Server. Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden. Wenn Sie IIS 7.0 unter Windows Server 2008 verwenden, müssen Sie diese Einstellungen manuell konfigurieren. Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.
+</div>
 
-Die Leistungseinstellungen lauten wie folgt:
+<div id="mainSection">
 
-  - **maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.
+<div id="mainBody">
 
-  - **maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.
+<span> </span>
 
-  - Das ASP.NET-Prozessmodell ist auf AutoConfig (nur für IIS 7.5) gesetzt.
+<span data-ttu-id="c326c-103">_**Letztes Änderungsdatum des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="c326c-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-  - Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.
-
-Wenn Sie IIS 7.0 verwenden, wird empfohlen, das Update aus dem Microsoft Knowledge Base-Artikel 2290617 "Update: Ein Hotfix ist verfügbar, um die Konfiguration von einigen ASP.NET-Eigenschaften für jeden Anwendungspool in IIS 7.0 zu aktivieren" unter <http://support.microsoft.com/kb/2290617/de-de> zu installieren, sodass Sie die Änderungen nur für den Mobilitätsdienst übernehmen können, ohne dass andere Webdienste davon betroffen sind.
-
-Die folgende Vorgehensweise beschreibt, wie Sie die ASP.NET-Limits für die maximale Anzahl gleichzeitiger Anforderungen und Threads unter IIS 7.0 ändern können, wenn Sie das Update aus Knowledge Base-Artikel 2290617 nicht installieren. Aber auch wenn Sie das Update aus Knowledge Base-Artikel 2290617 installieren, sollten Sie gemäß der Dokumentation des Artikels dieselben Änderungen nur auf die internen und externen IIS-Anwendungspools des Mobilitätsdienst anwenden. In diesem Fall verwenden Sie eine separate Konfigurationsdatei für die ASP.NET-Einstellungen.
+<div>
 
 
-> [!IMPORTANT]
-> Wenn Sie das folgende Verfahren zum Ändern der maximalen Anzahl verwenden, wirken sich die Änderungen auf alle IIS-Anwendungspools aus.
+> [!IMPORTANT]  
+> <span data-ttu-id="c326c-104">Dieses Thema bezieht sich nur auf den lync Server 2013 Mobility Service (MCX) und gilt nicht für Unified Communications Web API (UCWA), wie Sie in den kumulativen Updates für lync Server 2013: Februar 2013 bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="c326c-104">This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
 
-Ausführliche Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x407).
+</div>
 
-## So ändern Sie die maximale Anzahl gleichzeitiger Anforderungen und Threads
+<span data-ttu-id="c326c-105">Wenn Sie den Mobilitätsdienst (MCX) auf Internet Informationsdienste (IIS) 7,5 installieren, konfiguriert das Mobilitätsdienst-Installationsprogramm einige Leistungseinstellungen auf dem Front-End-Server.</span><span class="sxs-lookup"><span data-stu-id="c326c-105">When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server.</span></span> <span data-ttu-id="c326c-106">Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="c326c-106">We recommend that you use IIS 7.5 for mobility.</span></span> <span data-ttu-id="c326c-107">Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="c326c-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span></span>
 
-1.  Klicken Sie auf **Start** und dann auf **Ausführen**.
+<span data-ttu-id="c326c-108">Die Leistungseinstellungen lauten wie folgt:</span><span class="sxs-lookup"><span data-stu-id="c326c-108">Here are the performance settings:</span></span>
 
-2.  Geben Sie im Feld **Ausführen** Folgendes ein:
-    
-        notepad %SystemRoot%\Microsoft.NET\Framework64\v2.0.50727\Aspnet.config
+<div>
 
-3.  Klicken Sie auf **OK**.
+## <a name="settings-for-mcx-on-iis-75"></a><span data-ttu-id="c326c-109">Einstellungen für Mcx auf IIS 7.5</span><span class="sxs-lookup"><span data-stu-id="c326c-109">Settings for Mcx on IIS 7.5</span></span>
 
-4.  Fügen Sie der Datei Aspnet.config das folgende \<system.web\>-Element als untergeordnetes \<configuration\>-Element hinzu, oder ersetzen Sie das vorhandene Element:
-    
-        <system.web>
-        <applicationPool maxConcurrentRequestsPerCPU="<#>" maxConcurrentThreadsPerCPU="0" requestQueueLimit="5000"/>
-        </system.web>
-    
-    Wobei \# = 0 ist, um das Limit oder die neue Anzahl zu entfernen, so wie weiter oben in diesem Abschnitt beschrieben.
+1.  <span data-ttu-id="c326c-110">**maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="c326c-110">**maxConcurrentThreadsPerCPU** is set to zero (0).</span></span>
 
-5.  Speichern Sie die Datei Aspnet.config, und schließen Sie Editor.
+2.  <span data-ttu-id="c326c-111">**maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="c326c-111">**maxConcurrentRequestsPerCPU** is set to zero (0).</span></span>
+
+3.  <span data-ttu-id="c326c-112">Das ASP.NET-Prozessmodell ist auf AutoConfig (nur für IIS 7.5) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="c326c-112">ASP.NET process model is set to AutoConfig (for IIS 7.5 only).</span></span>
+
+4.  <span data-ttu-id="c326c-113">Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.</span><span class="sxs-lookup"><span data-stu-id="c326c-113">HTTP.sys queue limit is set to 1,000 (by default).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

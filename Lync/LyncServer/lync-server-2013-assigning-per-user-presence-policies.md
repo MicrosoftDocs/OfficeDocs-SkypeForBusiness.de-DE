@@ -1,23 +1,43 @@
-﻿---
-title: Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
-TOCTitle: Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
-ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182614(v=OCS.15)
-ms:contentKeyID: 49296003
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zuweisen von Anwesenheitsrichtlinien für einzelne Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user presence policies
+ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
+ms:contentKeyID: 48185955
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zuweisen von Anwesenheitsrichtlinien auf Benutzerebene
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a><span data-ttu-id="1a585-102">Zuweisen von Anwesenheitsrichtlinien für einzelne Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a585-102">Assigning per-user presence policies in Lync Server 2013</span></span>
 
-Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkungen für Anwesenheitsinformationen. In der folgenden Tabelle werden die in Lync Server 2013 verfügbaren Einstellungen für Anwesenheitsrichtlinien beschrieben.
+</div>
 
-### Einstellungen für Anwesenheitsrichtlinien
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1a585-103">_**Letztes Änderungsdatum des Themas:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="1a585-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+
+<span data-ttu-id="1a585-104">Eine Anwesenheitsrichtlinie besteht aus einer Reihe von Grenzwerten und Einschränkungen, die sich auf die Anwesenheit auswirken.</span><span class="sxs-lookup"><span data-stu-id="1a585-104">A presence policy is a set of limits and restrictions that affect presence.</span></span> <span data-ttu-id="1a585-105">In der folgenden Tabelle werden die in lync Server 2013 verfügbaren Anwesenheitsrichtlinien Einstellungen beschrieben.</span><span class="sxs-lookup"><span data-stu-id="1a585-105">The following table describes the presence policy settings available in Lync Server 2013.</span></span>
+
+### <a name="presence-policy-settings"></a><span data-ttu-id="1a585-106">Einstellungen für Anwesenheitsrichtlinien</span><span class="sxs-lookup"><span data-stu-id="1a585-106">Presence Policy Settings</span></span>
 
 <table>
 <colgroup>
@@ -29,44 +49,44 @@ Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkun
 </colgroup>
 <thead>
 <tr class="header">
-<th>XML-Name</th>
-<th>Anzeigename</th>
-<th>Beschreibung</th>
-<th>Typ</th>
-<th>Wert</th>
+<th><span data-ttu-id="1a585-107">XML-Name</span><span class="sxs-lookup"><span data-stu-id="1a585-107">XML name</span></span></th>
+<th><span data-ttu-id="1a585-108">Anzeigename</span><span class="sxs-lookup"><span data-stu-id="1a585-108">Display name</span></span></th>
+<th><span data-ttu-id="1a585-109">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="1a585-109">Description</span></span></th>
+<th><span data-ttu-id="1a585-110">Typ</span><span class="sxs-lookup"><span data-stu-id="1a585-110">Type</span></span></th>
+<th><span data-ttu-id="1a585-111">Wert</span><span class="sxs-lookup"><span data-stu-id="1a585-111">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CategorySubscriptions</p></td>
-<td><p>Maximale Anzahl von Abonnentenkategorieabonnements</p></td>
-<td><p>Beschränkt die Anzahl an zulässigen Abonnentenkategorieabonnements. Wenn Communicator beispielsweise die Anwesenheitsinformationen eines Benutzers abonniert, umfasst dies je ein Abonnement der einzelnen Kategorien &quot;Visitenkarte&quot;, &quot;Kalenderdaten&quot;, &quot;Notizen&quot;, &quot;Dienste&quot; und &quot;Status&quot;.</p>
-<p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass das Benutzer- oder Kontaktobjekt nicht von anderen Teilnehmern abonniert werden kann.</p>
+<td><p><span data-ttu-id="1a585-112">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="1a585-112">CategorySubscriptions</span></span></p></td>
+<td><p><span data-ttu-id="1a585-113">Maximale Anzahl von Abonnenten Kategorie-Abonnements</span><span class="sxs-lookup"><span data-stu-id="1a585-113">Maximum Number of Subscriber Category Subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="1a585-114">Begrenzt die Anzahl der Abonnements für Abonnenten Kategorien.</span><span class="sxs-lookup"><span data-stu-id="1a585-114">Limits the number of subscriber category subscriptions.</span></span> <span data-ttu-id="1a585-115">Wenn Communicator beispielsweise die Anwesenheit eines Benutzers abonniert, erhält er ein Kategorie-Abonnement für jede Visitenkarte, Kalenderdaten, Notizen, Dienste und Zustandskategorien.</span><span class="sxs-lookup"><span data-stu-id="1a585-115">For example, when Communicator subscribes to a user’s presence, it obtains a category subscription for each of the contact card, calendar data, notes, services, and state categories.</span></span></p>
+<p><span data-ttu-id="1a585-116">Eine Einstellung von "0" bedeutet, dass der Benutzer oder das Kontaktobjekt nicht von anderen abonniert werden kann.</span><span class="sxs-lookup"><span data-stu-id="1a585-116">A setting of 0 means that the user or contact object cannot be subscribed to by others.</span></span></p>
 <div>
 
-> [!NOTE]
-> Bei Festlegung auf einen hohen Wert kann sich diese Einstellung deutlich auf die Leistung auswirken, und der durchschnittliche Benutzer verfügt über eine große Anzahl an Benutzern, die seine Anwesenheitsinformationen abonniert haben.
+> [!NOTE]  
+> <span data-ttu-id="1a585-117">Diese Einstellung kann erhebliche Auswirkungen auf die Leistung haben, wenn Sie auf eine hohe Zahl festgelegt ist und der durchschnittliche Benutzer eine große Anzahl von Benutzern abonniert hat.</span><span class="sxs-lookup"><span data-stu-id="1a585-117">This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.</span></span>
 
 
 </div></td>
-<td><p>Ganze Zahl</p></td>
-<td><p>0-3000</p></td>
+<td><p><span data-ttu-id="1a585-118">Ganze Zahl</span><span class="sxs-lookup"><span data-stu-id="1a585-118">Integer</span></span></p></td>
+<td><p><span data-ttu-id="1a585-119">0-3000</span><span class="sxs-lookup"><span data-stu-id="1a585-119">0-3000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PromptedSubscribers</p></td>
-<td><p>Maximale Anzahl von Anwesenheitsabonnementaufforderungen in der Warteschlange</p></td>
-<td><p>Beschränkt die Anzahl von Einträgen in der Tabelle mit Abonnentenaufforderungen. Über diese Einstellung wird die maximale Anzahl von Aufforderungen festgelegt, die für einen Benutzer in der Warteschlange platziert werden können. Wenn Benutzer A beispielsweise die Anwesenheitsinformationen von Benutzer B abonniert, wird Benutzer B darüber informiert, und in der Tabelle mit Abonnentenaufforderungen von Benutzer B wird eine Bestätigungsaufforderung erstellt. Nachdem Benutzer B das Abonnement bestätigt, wird die Bestätigungsaufforderung aus der Tabelle mit Abonnentenaufforderungen von Benutzer B entfernt.</p>
-<p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass der Benutzer nicht zur Bestätigung aufgefordert wird, wenn ein Benutzer seine Anwesenheitsinformationen abonniert.</p></td>
-<td><p>Ganze Zahl oder Token</p></td>
-<td><p>0-500</p></td>
+<td><p><span data-ttu-id="1a585-120">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="1a585-120">PromptedSubscribers</span></span></p></td>
+<td><p><span data-ttu-id="1a585-121">Maximale Anzahl von Benachrichtigungen für Anwesenheitsabonnements in der Warteschlange</span><span class="sxs-lookup"><span data-stu-id="1a585-121">Maximum Number of Queued Presence Subscription Alerts</span></span></p></td>
+<td><p><span data-ttu-id="1a585-122">Schränkt die Anzahl von Einträgen in der Tabelle "angeforderte Abonnenten" ein.</span><span class="sxs-lookup"><span data-stu-id="1a585-122">Limits the number of entries in the prompted subscribers table.</span></span> <span data-ttu-id="1a585-123">Diese Einstellung bestimmt die maximale Anzahl von Eingabeaufforderungen, die für einen bestimmten Benutzer in die Warteschlange gestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="1a585-123">This setting determines the maximum number of prompts that can be queued for a given user.</span></span> <span data-ttu-id="1a585-124">Wenn Benutzer a beispielsweise die Anwesenheit von Benutzer b abonniert hat, erhält Benutzer b eine Aufforderung, dass Benutzer a jetzt Benutzer b abonniert hat, und in der Tabelle mit der Aufforderung "Abonnenten" von Benutzer b wird eine Bestätigungsaufforderung erstellt.</span><span class="sxs-lookup"><span data-stu-id="1a585-124">For example, when user A subscribes to user B’s presence, user B receives a prompt that user A is now subscribed to user B, and an acknowledgement prompt is created in user B’s prompted subscribers table.</span></span> <span data-ttu-id="1a585-125">Nachdem der Benutzer b das Abonnement akzeptiert oder bestätigt hat, wird die Bestätigungsaufforderung aus der Tabelle "angeforderte Abonnenten" von Benutzer b entfernt.</span><span class="sxs-lookup"><span data-stu-id="1a585-125">After user B accepts, or acknowledges, the subscription, the acknowledgement prompt is removed from user B’s prompted subscribers table.</span></span></p>
+<p><span data-ttu-id="1a585-126">Eine Einstellung von "0" bedeutet, dass der Benutzer nicht dazu aufgefordert wird, wenn jemand seine Anwesenheit abonniert hat.</span><span class="sxs-lookup"><span data-stu-id="1a585-126">A setting of 0 means that the user is not prompted when someone subscribes to his or her presence.</span></span></p></td>
+<td><p><span data-ttu-id="1a585-127">Ganzzahl oder Token</span><span class="sxs-lookup"><span data-stu-id="1a585-127">Integer or Token</span></span></p></td>
+<td><p><span data-ttu-id="1a585-128">0-500</span><span class="sxs-lookup"><span data-stu-id="1a585-128">0-500</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die Anwesenheitsrichtlinien **Standardrichtlinie** und **Dienst: Mittel** werden bei der Bereitstellung von Lync Server standardmäßig installiert. In der folgenden Tabelle werden die spezifischen Einstellungen dieser beiden Anwesenheitsrichtlinien beschrieben.
+<span data-ttu-id="1a585-129">Standardmäßig werden beim Bereitstellen von lync Server die Richtlinien **Standardrichtlinie** und **Dienst: Medium** -Anwesenheitsrichtlinien installiert.</span><span class="sxs-lookup"><span data-stu-id="1a585-129">By default, the **Default Policy** and **Service: Medium** presence policies are installed when you deploy Lync Server.</span></span> <span data-ttu-id="1a585-130">In der folgenden Tabelle werden die spezifischen Einstellungen der beiden Anwesenheitsrichtlinien beschrieben.</span><span class="sxs-lookup"><span data-stu-id="1a585-130">The following table describes the specific settings of the two presence policies.</span></span>
 
-### Anwesenheitsrichtlinien
+### <a name="presence-policies"></a><span data-ttu-id="1a585-131">Anwesenheitsrichtlinien</span><span class="sxs-lookup"><span data-stu-id="1a585-131">Presence Policies</span></span>
 
 <table>
 <colgroup>
@@ -77,25 +97,36 @@ Die Anwesenheitsrichtlinien **Standardrichtlinie** und **Dienst: Mittel** werden
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinienname</th>
-<th>Beschreibung</th>
-<th>CategorySubscriptions</th>
-<th>PromptedSubscribers</th>
+<th><span data-ttu-id="1a585-132">Richtlinienname</span><span class="sxs-lookup"><span data-stu-id="1a585-132">Policy name</span></span></th>
+<th><span data-ttu-id="1a585-133">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="1a585-133">Description</span></span></th>
+<th><span data-ttu-id="1a585-134">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="1a585-134">CategorySubscriptions</span></span></th>
+<th><span data-ttu-id="1a585-135">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="1a585-135">PromptedSubscribers</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standardrichtlinie</p></td>
-<td><p>Richtlinie für typische Benutzer. Dies ist die standardmäßige Anwesenheitsrichtlinie.</p></td>
-<td><p>1000</p></td>
-<td><p>200</p></td>
+<td><p><span data-ttu-id="1a585-136">Standardrichtlinie</span><span class="sxs-lookup"><span data-stu-id="1a585-136">Default Policy</span></span></p></td>
+<td><p><span data-ttu-id="1a585-137">Richtlinie für typische Benutzer.</span><span class="sxs-lookup"><span data-stu-id="1a585-137">Policy for typical users.</span></span> <span data-ttu-id="1a585-138">Dies ist die standardmäßige Anwesenheitsrichtlinie.</span><span class="sxs-lookup"><span data-stu-id="1a585-138">This is the default presence policy.</span></span></p></td>
+<td><p><span data-ttu-id="1a585-139">1000</span><span class="sxs-lookup"><span data-stu-id="1a585-139">1000</span></span></p></td>
+<td><p><span data-ttu-id="1a585-140">200</span><span class="sxs-lookup"><span data-stu-id="1a585-140">200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Dienst: Mittel</p></td>
-<td><p>Richtlinie für Anwendungen, für die mehr Benutzer die Anwesenheitsinformationen des Objekts abonnieren müssen.</p></td>
-<td><p>1000</p></td>
-<td><p>0</p></td>
+<td><p><span data-ttu-id="1a585-141">Dienst: Mittel</span><span class="sxs-lookup"><span data-stu-id="1a585-141">Service: Medium</span></span></p></td>
+<td><p><span data-ttu-id="1a585-142">Richtlinie für Anwendungen, die mehr Benutzer benötigen, um die Anwesenheit des Objekts zu abonnieren.</span><span class="sxs-lookup"><span data-stu-id="1a585-142">Policy for applications that require more users to subscribe to the object’s presence.</span></span></p></td>
+<td><p><span data-ttu-id="1a585-143">1000</span><span class="sxs-lookup"><span data-stu-id="1a585-143">1000</span></span></p></td>
+<td><p><span data-ttu-id="1a585-144">0</span><span class="sxs-lookup"><span data-stu-id="1a585-144">0</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Konfigurieren des Parkens von Anrufen'
-TOCTitle: Konfigurieren des Parkens von Anrufen
-ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399014(v=OCS.15)
-ms:contentKeyID: 49295709
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Konfigurieren des Parkens von Anrufen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Call Park
+ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)
+ms:contentKeyID: 48185732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 69e2a1c6ef9da447688ea1ca7d0308afc0b4ab9c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839271"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Konfigurieren des Parkens von Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+# <a name="configuring-call-park-in-lync-server-2013"></a><span data-ttu-id="5897c-102">Konfigurieren des Parkens von Anrufen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-102">Configuring Call Park in Lync Server 2013</span></span>
 
-Mit der Funktion zum Parken von Anrufen können Enterprise-VoIP-Benutzer einen Anruf an einem Telefon halten und zu einem späteren Zeitpunkt durch das Wählen einer internen Nummer (dem sogenannten *Orbit* zum Parken von Anrufen) an einem anderen Telefon entgegennehmen.
+</div>
 
-Die für das Parken von Anrufen verwendeten Komponenten werden automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen. Sie müssen allerdings das Parken von Anrufen konfigurieren, um diese Funktion für die Benutzer verfügbar zu machen.
+<div id="mainSection">
 
-In diesem Abschnitt wird die Konfiguration der Funktion zum Parken von Anrufen behandelt.
+<div id="mainBody">
 
-## In diesem Abschnitt
+<span> </span>
 
-  - [Anforderungen und Benutzerrechte für die Konfiguration zum Parken von Anrufen in Lync Server 2013](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
+<span data-ttu-id="5897c-103">_**Letztes Änderungsdatum des Themas:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="5897c-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-  - [Bereitstellungsprozess für die Funktion zum Parken von Anrufen in Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+<span data-ttu-id="5897c-104">Der Anruf Park ermöglicht es einem Enterprise-VoIP-Nutzer, einen Anruf von einem Telefon aus zu halten und den Anruf später abzurufen, indem er von einem beliebigen Telefon aus eine interne Rufnummer (sog. Call Park *Orbit*) wählt.</span><span class="sxs-lookup"><span data-stu-id="5897c-104">Call Park enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later by dialing an internal number (known as a Call Park *orbit*) from any telephone.</span></span>
 
-  - [Konfigurieren der Orbittabelle für das Parken von Anrufen in Lync Server 2013](lync-server-2013-configure-the-call-park-orbit-table.md)
+<span data-ttu-id="5897c-105">Die Komponenten, die von Park verwendet werden, werden beim Bereitstellen von Enterprise-VoIP automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert.</span><span class="sxs-lookup"><span data-stu-id="5897c-105">The components that Call Park uses are automatically installed and enabled on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="5897c-106">Sie müssen jedoch den Anruf Park konfigurieren, bevor er für die Benutzer verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="5897c-106">However, you must configure Call Park before it is available to users.</span></span>
 
-  - [Konfigurieren von Einstellungen für das Parken von Anrufen in Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
+<span data-ttu-id="5897c-107">Dieser Abschnitt führt Sie durch die Konfiguration des Anruf Parks.</span><span class="sxs-lookup"><span data-stu-id="5897c-107">This section guides you through the configuration of Call Park.</span></span>
 
-  - [Anpassen der Wartemusik für das Parken von Anrufen in Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
+<div>
 
-  - [Aktivieren der Funktion zum Parken von Anrufen für Benutzer in Lync Server 2013](lync-server-2013-enable-call-park-for-users.md)
+## <a name="in-this-section"></a><span data-ttu-id="5897c-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="5897c-108">In This Section</span></span>
 
-  - [Überprüfen der Normalisierungsregeln für das Parken von Anrufen in Lync Server 2013](lync-server-2013-verify-normalization-rules-for-call-park.md)
+  - [<span data-ttu-id="5897c-109">Anforderungen und Benutzerrechte für die Konfiguration zum Parken von Anrufen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-109">Call Park configuration prerequisites and user rights in Lync Server 2013</span></span>](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
 
-  - [(Optional) Überprüfen der Bereitstellung der Funktion zum Parken von Anrufen in Lync Server 2013](lync-server-2013-optional-verify-call-park-deployment.md)
+  - [<span data-ttu-id="5897c-110">Bereitstellungsprozess für den Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-110">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+
+  - [<span data-ttu-id="5897c-111">Konfigurieren der Orbittabelle für das Parken von Anrufen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-111">Configure the Call Park orbit table in Lync Server 2013</span></span>](lync-server-2013-configure-the-call-park-orbit-table.md)
+
+  - [<span data-ttu-id="5897c-112">Konfigurieren von Einstellungen für den Anruf Park in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-112">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
+
+  - [<span data-ttu-id="5897c-113">Anpassen der Musik zum Parken von Anrufen im Wartebereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-113">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
+
+  - [<span data-ttu-id="5897c-114">Aktivieren des Anruf Parks für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-114">Enable Call Park for users in Lync Server 2013</span></span>](lync-server-2013-enable-call-park-for-users.md)
+
+  - [<span data-ttu-id="5897c-115">Überprüfen von Normalisierungsregeln für den Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-115">Verify normalization rules for Call Park in Lync Server 2013</span></span>](lync-server-2013-verify-normalization-rules-for-call-park.md)
+
+  - [<span data-ttu-id="5897c-116">Optional Überprüfen der Bereitstellung des Anruf Parks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5897c-116">(Optional) Verify Call Park deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-call-park-deployment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
