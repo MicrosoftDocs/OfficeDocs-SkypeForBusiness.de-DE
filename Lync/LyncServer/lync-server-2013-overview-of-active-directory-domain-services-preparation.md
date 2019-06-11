@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über die Vorbereitung der Active Directory-Domänendienste'
-TOCTitle: Übersicht über die Vorbereitung der Active Directory-Domänendienste
-ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398869(v=OCS.15)
-ms:contentKeyID: 49295440
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über die Vorbereitung der Active Directory-Domänendienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Active Directory Domain Services preparation
+ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398869(v=OCS.15)
+ms:contentKeyID: 48185662
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26636846ce7b985a33af3175d51798c4c12c5ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825821"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über die Vorbereitung der Active Directory-Domänendienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Übersicht über die Vorbereitung der Active Directory-Domänendienste in Lync Server 2013
 
-Zur Vorbereitung von Active Directory-Domänendienste für Ihre Lync Server 2013-Bereitstellung müssen Sie drei Schritte in einer festgelegten Reihenfolge ausführen.
+</div>
 
-In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind, um AD DS für Lync Server vorzubereiten.
+<div id="mainSection">
 
-### Schritte zur Vorbereitung von Active Directory
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+
+Wenn Sie die Active Directory-Domänendienste für Ihre lync Server 2013-Bereitstellung vorbereiten möchten, müssen Sie drei Schritte in einer bestimmten Reihenfolge ausführen.
+
+In der folgenden Tabelle werden die Schritte beschrieben, die zum Vorbereiten von AD DS für lync Server erforderlich sind.
+
+### <a name="active-directory-preparation-steps"></a>Vorbereitungsschritte für Active Directory
 
 <table>
 <colgroup>
@@ -33,20 +53,20 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <th></th>
 <th>Schritt</th>
 <th>Beschreibung</th>
-<th>Ausführung</th>
+<th>Wo ausführen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>1.</p></td>
 <td><p><a href="lync-server-2013-preparing-the-active-directory-schema.md">Vorbereiten des Active Directory-Schemas in Lync Server 2013</a></p></td>
-<td><p>Erweitert das Active Directory-Schema, indem neue Klassen und Attribute hinzugefügt werden, die von Lync Server verwendet werden.</p>
-<p>Führen Sie diesen Schritt einmal für jede Gesamtstruktur in Ihrer Bereitstellung aus, in der Lync Server bereitgestellt werden soll.</p></td>
-<td><p>Für den Schemamaster in der Stammdomäne jeder Gesamtstruktur, in der Lync Server bereitgestellt werden soll.</p>
+<td><p>Erweitert das Active Directory-Schema durch Hinzufügen neuer Klassen und Attribute, die von lync Server verwendet werden.</p>
+<p>Einmaliges ausführen für jede Gesamtstruktur in Ihrer Bereitstellung, in der lync Server bereitgestellt wird.</p></td>
+<td><p>Für den Schemamaster in der Stammdomäne jeder Gesamtstruktur, in der lync Server bereitgestellt wird.</p>
 <div>
 
-> [!NOTE]
-> Sie müssen diesen Schritt nicht in der Stammdomäne ausführen, wenn Sie über Berechtigungen für den Schemamaster verfügen, Sie müssen jedoch Mitglied der Gruppe "Schema-Admins" in der Stammdomäne und Mitglied der Gruppe "Organisations-Admins" auf dem Schemamaster sein. Führen Sie diesen Schritt in einer Topologie mit Ressourcengesamtstruktur nur in der Ressourcengesamtstruktur aus, nicht in Benutzergesamtstrukturen. Führen Sie diesen Schritt in einer Topologie mit zentraler Gesamtstruktur nur in der zentralen Gesamtstruktur aus, nicht in Benutzergesamtstrukturen.
+> [!NOTE]  
+> Sie müssen diesen Schritt nicht in der Stammdomäne ausführen, wenn Sie über Berechtigungen für den Schemamaster verfügen, aber Sie müssen Mitglied der Gruppe "Schemaadministratoren" in der Stammdomäne und ein Mitglied der Gruppe "Organisations-Admins" auf dem Schemamaster sein. Führen Sie in einer Ressourcengesamtstruktur-Topologie diesen Schritt nur in der Ressourcengesamtstruktur und nicht in allen Benutzergesamtstrukturen aus. Führen Sie in einer zentralen Gesamtstrukturtopologie diesen Schritt nur in der zentralen Gesamtstruktur und nicht in allen Benutzergesamtstrukturen aus.
 
 
 </div></td>
@@ -54,13 +74,13 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <tr class="even">
 <td><p>2.</p></td>
 <td><p><a href="lync-server-2013-preparing-the-forest.md">Vorbereiten der Gesamtstruktur für Lync Server 2013</a></p></td>
-<td><p>Erstellt globale Einstellungen und universelle Gruppen, die von Lync Server verwendet werden.</p>
-<p>Führen Sie diesen Schritt einmal für jede Gesamtstruktur in Ihrer Bereitstellung aus, in der Lync Server bereitgestellt werden soll.</p></td>
-<td><p>In der Stammdomäne jeder Gesamtstruktur, in der Lync Server bereitgestellt werden soll. Zum Ausführen dieses Schritts müssen Sie Mitglied der Gruppe &quot;Organisations-Admins&quot; sein.</p>
+<td><p>Erstellt globale Einstellungen und universelle Gruppen, die von lync Server verwendet werden.</p>
+<p>Einmaliges ausführen für jede Gesamtstruktur in Ihrer Bereitstellung, in der lync Server bereitgestellt wird.</p></td>
+<td><p>In der Stammdomäne jeder Gesamtstruktur, in der lync Server bereitgestellt wird. Damit Sie diesen Schritt ausführen können, müssen Sie Mitglied der Gruppe Organisations-Admins sein.</p>
 <div>
 
-> [!NOTE]
-> Führen Sie diesen Schritt in einer Topologie mit Ressourcengesamtstruktur nur in der Ressourcengesamtstruktur aus, nicht in Benutzergesamtstrukturen. Führen Sie diesen Schritt in einer Topologie mit zentraler Gesamtstruktur nur in der zentralen Gesamtstruktur aus, nicht in Benutzergesamtstrukturen.
+> [!NOTE]  
+> Führen Sie in einer Ressourcengesamtstruktur-Topologie diesen Schritt nur in der Ressourcengesamtstruktur und nicht in allen Benutzergesamtstrukturen aus. Führen Sie in einer zentralen Gesamtstrukturtopologie diesen Schritt nur in der zentralen Gesamtstruktur und nicht in allen Benutzergesamtstrukturen aus.
 
 
 </div></td>
@@ -68,54 +88,71 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Vorbereiten von Domänen für Lync Server 2013</a></p></td>
-<td><p>Fügt Berechtigungen für Objekte hinzu, die von Mitgliedern der universellen Gruppen verwendet werden.</p>
-<p>Führen Sie diesen Schritt einmal für jede Benutzer- oder Serverdomäne aus.</p>
+<td><p>Fügt Berechtigungen für Objekte hinzu, die von Mitgliedern universeller Gruppen verwendet werden sollen.</p>
+<p>Einmal pro Benutzerdomäne oder Server Domäne ausführen.</p>
 <div>
 
-> [!NOTE]
-> Wenn Sie von Lync Server 2013 zu Lync Server 2010 migrieren, werden Sie möglicherweise vom Bereitstellungs-Assistenten darüber informiert, dass die Domänenvorbereitung bereits abgeschlossen ist. Sie müssen die Domänenvorbereitung nicht erneut ausführen. Die Berechtigungen in Lync Server 2013 wurden in Lync Server 2010 geändert.
+> [!NOTE]  
+> Wenn Sie von lync Server 2010 zu lync Server 2013 migrieren, zeigt der Bereitstellungs-Assistent möglicherweise an, dass die Domänenvorbereitung bereits abgeschlossen ist. Sie müssen die Domänenvorbereitung nicht erneut ausführen. Es wurden keine Berechtigungen von lync Server 2010 zu lync Server 2013 geändert.
 
 
 </div></td>
-<td><p>Auf einem Mitgliedsserver in jeder Domäne, in der Lync Server bereitgestellt werden soll. Zum Ausführen dieses Schritts müssen Sie Mitglied der Gruppe &quot;Domänen-Admins&quot; sein.</p></td>
+<td><p>Auf einem Mitgliedsserver in jeder Domäne, in der lync Server bereitgestellt wird. Damit Sie diesen Schritt ausführen können, müssen Sie Mitglied der Gruppe der Domänenadministratoren sein.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Lync Server 2013 speichert wie Lync Server 2010 einen Großteil der Konfigurationsinformationen nicht mehr wie dies bei Office Communications Server 2007 R2 der Fall war in den Active Directory-Domänendiensten (AD DS), sondern im zentralen Verwaltungsspeicher. Die folgenden Informationen werden jedoch in AD DS gespeichert:
+<div id="sectionSection0" class="section">
 
-  - **Schemaerweiterungen**:
+Lync Server 2013 speichert ähnlich wie lync Server 2010 einen Großteil der Konfigurationsinformationen im zentralen Verwaltungsspeicher statt in AD DS, wie dies bei Office Communications Server 2007 R2 der Fall war. Die folgenden Informationen werden jedoch in AD DS gespeichert:
+
+  - **Schema Erweiterungen**:
     
       - Benutzerobjekterweiterungen
     
-      - Erweiterungen für Office Communications Server 2007 R2-Klassen zum Aufrechterhalten der Abwärtskompatibilität
+      - Erweiterungen für Office Communications Server 2007 R2-Klassen zum aufrecht erhalten der Abwärtskompatibilität
 
 <!-- end list -->
 
-  - **Daten** (werden im erweiterten Lync Server-Schema und in vorhandenen Schemaklassen gespeichert):
+  - **Daten** (im erweiterten lync Server-Schema und in vorhandenen Schemaklassen gespeichert):
     
-      - Benutzer-SIP-URI (Uniform Resource Identifier) und weitere Einstellungen
+      - Benutzer SIP Uniform Resource Identifier (URI) und andere Benutzereinstellungen
     
-      - Kontaktobjekte für Anwendungen wie z. B. Reaktionsgruppe und Konferenzzentrale
+      - Kontaktobjekte für Anwendungen wie Reaktionsgruppe und Konferenzzentrale
     
-      - Verweis auf zentralen Verwaltungsspeicher
+      - Ein Zeiger auf den zentralen Verwaltungsspeicher
     
-      - Das Kerberos-Authentifizierungskonto (ein optionales Computerobjekt)
+      - Kerberos-Authentifizierungs Konto (ein optionales Computerobjekt)
 
-In Lync Server 2013 delegieren Sie Setup und Verwaltung, indem Sie der universellen Gruppe RTCUniversalServerAdmins Setupberechtigungen gewähren, sodass Mitglieder dieser Gruppe Lync Server 2013 auf einem lokalen Server installieren und aktivieren können (nachdem der Server der Topologie hinzugefügt, veröffentlicht und aktiviert wurde). Die delegierten Benutzer müssen lokale Administratoren auf dem Computer sein, auf dem sie Lync Server 2013 installieren und aktivieren möchten, sie müssen jedoch keine Mitglieder der Gruppe Domänen-Admins sein. Sie können auch Objekten in bestimmten Organisationseinheiten Berechtigungen gewähren, sodass Mitglieder der während der Gesamtstrukturvorbereitung erstellten universellen Gruppen auf diese Objekte zugreifen können, ohne Mitglieder der Gruppe Domänen-Admins zu sein.
+In lync Server 2013 delegieren Sie Setup und Verwaltung, indem Sie der universellen RTCUniversalServerAdmins-Gruppe Setup Berechtigungen erteilen, damit Mitglieder dieser Gruppe lync Server 2013 auf einem lokalen Server installieren und aktivieren können (nachdem der Server dem Topologie, veröffentlicht und aktiviert). Die Delegierten Benutzer müssen lokale Administratoren auf dem Computer sein, auf dem Sie lync Server 2013 installieren und aktivieren, aber Sie müssen nicht Mitglieder der Gruppe der Domänenadministratoren sein. Sie können auch Berechtigungen für Objekte in angegebenen Organisationseinheiten (Organizational Units, OUs) erteilen, damit Mitglieder der universellen Gruppen, die während der Gesamtstrukturvorbereitung erstellt wurden, auf diese Objekte zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein.
 
-In neuen Lync Server 2013-Bereitstellungen müssen globale Einstellungen im Konfigurationscontainer gespeichert werden. Wenn Ihre Organisation ein Upgrade einer früheren Version durchführt und sich im Systemcontainer globale Einstellungen befinden, wird der Systemcontainer weiterhin unterstützt.
+Bei neuen Bereitstellungen von lync Server 2013 müssen die globalen Einstellungen im Container Konfiguration gespeichert werden. Wenn Ihre Organisation ein Upgrade von einer früheren Version durchläuft und Sie weiterhin über globale Einstellungen im Systemcontainer verfügen, wird der Systemcontainer weiterhin unterstützt.
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Vorbereiten des Active Directory-Schemas in Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
 [Active Directory-Schemaerweiterungen, -Klassen und -Attribute, die von Lync Server 2013 verwendet werden](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)  
 
-#### Weitere Ressourcen
 
 [Vorbereiten der Gesamtstruktur für Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
-[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

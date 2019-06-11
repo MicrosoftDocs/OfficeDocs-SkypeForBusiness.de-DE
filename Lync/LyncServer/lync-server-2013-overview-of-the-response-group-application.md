@@ -1,39 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über die Reaktionsgruppenanwendung'
-TOCTitle: Übersicht über die Reaktionsgruppenanwendung
-ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398513(v=OCS.15)
-ms:contentKeyID: 49294323
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über die reaktionsgruppenanwendung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of the Response Group application
+ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398513(v=OCS.15)
+ms:contentKeyID: 48184453
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b523a05509b0043effb8cb2b761d7ee06fd36751
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825429"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über die Reaktionsgruppenanwendung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Übersicht über die reaktionsgruppenanwendung in lync Server 2013
 
-Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem Sammelanschluss oder den interaktiven Sprachantworten des Anrufers an einen Agent weitergeleitet. Die Reaktionsgruppenanwendung verwendet standardmäßige Reaktionsgruppenroutingmethoden, um den Anruf an den nächsten verfügbaren Agent weiterzuleiten. Die Methoden zur Anrufweiterleitung umfassen serielles, Longest-Idle-, paralleles, Roundrobin- sowie das neue Routing über die Telefonzentrale (hier werden bei einem eingehenden Anruf alle Agents gleichzeitig angerufen) unabhängig von ihrem aktuellen Anwesenheitsstatus. Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Ist die Warteschleife belegt oder wenn für einen Anruf ein Timeout auftritt, während er sich in der Warteschleife befindet, kann für den Anrufer eine Nachricht wiedergegeben werden, und anschließend wird der Anrufer entweder getrennt oder an ein anderes Ziel übergeben. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+
+Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem Sammelanschluss oder den interaktiven Sprachantworten des Anrufers an einen Agent weitergeleitet. Die reaktionsgruppenanwendung verwendet standardmäßige Reaktionsgruppen-Routingmethoden, um den Anruf an den nächsten verfügbaren Agenten weiterzuleiten. Zu den Anruf Weiterleitungs Methoden gehören Serial-, Long-Idle-, parallel-, Round Robin-und Attendant-Routing (das heißt, alle Agents werden zur gleichen Zeit für jeden eingehenden Anruf aufgerufen, unabhängig von deren derzeitigem vorhanden sein). Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Wenn es sich um eine vollständige Warteschlange handelt oder wenn der Anruf in der Warteschlange abläuft, hört der Anrufer möglicherweise eine Nachricht und wird dann entweder getrennt oder an ein anderes Ziel übertragen. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
+
+<div>
 
 
-> [!NOTE]
-> Nur lokale Benutzer können Agents sein. Wenn ein Agent von der lokalen Verwendung zur Onlinebereitstellung wechselt, werden die Anrufe der Reaktionsgruppe nicht mehr an diesen Agent weitergeleitet.
+> [!NOTE]  
+> Nur lokale Benutzer können Agents sein. Wenn ein Agent von lokal in Online verschoben wird, werden keine Antwortgruppen Aufrufe an diesen Agenten weitergeleitet.
 
 
 
+</div>
 
-> [!NOTE]
-> Die Reaktionsgruppenanwendung verwendet einen internen Dienst, den Matchmakingdienst, um Anrufe in der Warteschleife zu platzieren und verfügbare Agents zu ermitteln. Jeder Computer, auf dem die Reaktionsgruppenanwendung ausgeführt wird, führt den Matchmakingdienst aus. Pro Lync Server-Pool ist jedoch jeweils nur ein Matchmakingdienst aktiv, die anderen Dienste sind passiv. Wenn der aktive Matchmakingdienst aufgrund eines ungeplanten Ausfalls nicht mehr verfügbar ist, wird einer der passiven Matchmakingdienste aktiv. Die Reaktionsgruppenanwendung versucht, Unterbrechungen beim Anrufrouting und Queuing zu vermeiden. Beim Wechsel des aktiven Matchmakingdiensts gehen Anrufe, die zum Zeitpunkt des Wechsels übergeben werden, jedoch verloren. Wenn der Wechsel z.&nbsp;B. durch den Ausfall des Front-End-Servers bedingt wird, gehen zusätzlich alle vom aktiven Matchmakingdienst auf diesem Front-End-Server verarbeiteten Anrufe verloren.
+<div>
+
+
+> [!NOTE]  
+> Die Antwortgruppen Anwendung verwendet einen internen Dienst, der als Übereinstimmungs Erstellung bezeichnet wird, um Anrufe in die Warteschlange zu stellen und verfügbare Agents zu finden. Jeder Computer, auf dem die reaktionsgruppenanwendung ausgeführt wird, führt den Übereinstimmungs Dienst aus, aber es ist jeweils nur ein Übereinstimmungs Dienst pro lync-Server Pool aktiv – die anderen sind passiv. Wenn der aktive Übereinstimmungs Dienst während eines ungeplanten Ausfalls nicht mehr verfügbar ist, wird einer der passiven Übereinstimmungs Dienste aktiviert. Die Response Group-Anwendung tut ihr Bestes, um sicherzustellen, dass Anrufweiterleitung und-Warteschlangen unterbrechungsfrei fortgesetzt werden. Wenn jedoch eine Übereinstimmung zum Dienst Übergang eintritt, gehen alle Anrufe, die zu diesem Zeitpunkt übertragen werden, verloren. Wenn der Übergang beispielsweise auf den Ausfall des Front-End-Servers zurückzuführen ist, gehen alle Anrufe, die derzeit vom aktiven Übereinstimmungs Dienst auf dem Front-End-Server abgewickelt werden, ebenfalls verloren.
 
 
 
-Bei Lync Server 2013 sind zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen verfügbar: Reaktionsgruppenmanager und Reaktionsgruppenadministrator. Reaktionsgruppenadministratoren können sämtliche Aspekte jeder Reaktionsgruppe verwalten. Reaktionsgruppenmanager können nur bestimmte Aspekte verwalten und dies auch nur für die Reaktionsgruppen, deren Eigentümer sie sind. Dank der neuen Managerrolle können Verwaltungskosten verringert werden, da begrenzte Zuständigkeiten für bestimmte Reaktionsgruppen an beliebige Benutzer übertragen werden können, die für Enterprise-VoIP aktiviert sind.
+</div>
 
-Zur Berücksichtung der Rolle "Manager" wird in der Reaktionsgruppenanwendung in Lync Server 2013 ein **Workflowtyp** eingeführt, der entweder "Verwaltet" oder "Nicht verwaltet" sein kann. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
+In lync Server 2013 stehen zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen zur Verfügung: Antwortgruppen-Manager und Antwortgruppen Administrator. Reaktionsgruppen Administratoren können alle Aspekte jeder Reaktionsgruppe verwalten. Antwortgruppen-Manager können nur bestimmte Aspekte verwalten, und zwar nur für die Antwortgruppen, die Sie besitzen. Die neue Manager-Rolle kann dazu beitragen, die Verwaltungskosten zu senken, da Sie für bestimmte Antwortgruppen begrenzte Zuständigkeiten an alle Benutzer delegieren können, die für Enterprise-VoIP aktiviert sind.
 
-### Verwaltete und nicht verwaltete Reaktionsgruppen
+Um der neuen Manager-Rolle gerecht zu werden, führt die lync Server 2013 Response Group-Anwendung einen Workflowtyp verwalteter oder nicht verwalteter **Ressourcen** ein. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
+
+### <a name="managed-and-unmanaged-response-groups"></a>Verwaltete und nicht verwaltete Reaktionsgruppen
 
 <table>
 <colgroup>
@@ -50,17 +78,17 @@ Zur Berücksichtung der Rolle "Manager" wird in der Reaktionsgruppenanwendung in
 <tr class="odd">
 <td><p>Nicht verwaltet</p></td>
 <td><ul>
-<li><p>Nicht verwalteten Reaktionsgruppen ist kein Manager zugewiesen. Nur der Reaktionsgruppenadministrator kann diese Reaktionsgruppen konfigurieren.</p></li>
+<li><p>Nicht verwalteten Reaktionsgruppen ist kein Manager zugewiesen. Diese Reaktionsgruppen können nur vom Administrator der Reaktionsgruppe konfiguriert werden.</p></li>
 <li><p>Mehrere nicht verwaltete Reaktionsgruppen können eine Warteschleife oder Agentgruppe gemeinsam verwenden.</p></li>
-<li><p>Wenn Sie Reaktionsgruppen von einer früheren Version zu Lync Server 2013 migrieren, haben diese als Typ &quot;Nicht verwaltet&quot;.</p></li>
+<li><p>Wenn Sie Antwortgruppen von einer früheren Version zu lync Server 2013 migrieren, wird der Typ auf "nicht verwaltet" gesetzt.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Verwaltet</p></td>
 <td><ul>
-<li><p>Reaktionsgruppenadministratoren können sämtliche Aspekte verwalteter Reaktionsgruppen konfigurieren.</p></li>
-<li><p>Reaktionsgruppenmanager können keine Reaktionsgruppen anzeigen oder ändern, die ihnen nicht explizit zugewiesen sind.</p></li>
-<li><p>Reaktionsgruppenmanager können nur einige Einstellungen der Reaktionsgruppen konfigurieren, die ihnen explizit zugewiesen wurden.</p></li>
+<li><p>Reaktionsgruppen Administratoren können alle Aspekte von verwalteten Reaktionsgruppen konfigurieren.</p></li>
+<li><p>Reaktionsgruppen-Manager können keine Antwortgruppen anzeigen oder ändern, die Ihnen nicht explizit zugewiesen sind.</p></li>
+<li><p>Reaktionsgruppen-Manager können nur einige Einstellungen für die Reaktionsgruppen konfigurieren, die Ihnen explizit zugewiesen sind.</p></li>
 <li><p>Verwaltete Reaktionsgruppen können keine Warteschleifen oder Agentgruppen gemeinsam mit anderen Reaktionsgruppen, weder mit verwalteten noch nicht verwalteten, verwenden.</p></li>
 </ul></td>
 </tr>
@@ -68,9 +96,9 @@ Zur Berücksichtung der Rolle "Manager" wird in der Reaktionsgruppenanwendung in
 </table>
 
 
-In der folgenden Tabelle werden die Aktionen beschrieben, die Reaktionsgruppenmanager für die ihnen zugewiesenen Reaktionsgrupen durchführen können bzw. nicht durchführen können.
+In der folgenden Tabelle werden die Aktionen beschrieben, die von Reaktionsgruppen-Managern für die Ihnen zugewiesenen Antwortgruppen ausgeführt werden können.
 
-### Funktionen der Reaktionsgruppenmanager
+### <a name="response-group-manager-capabilities"></a>Funktionen der Reaktionsgruppenmanager
 
 <table>
 <colgroup>
@@ -90,7 +118,7 @@ In der folgenden Tabelle werden die Aktionen beschrieben, die Reaktionsgruppenma
 <td><ul>
 <li><p>Agents</p></li>
 <li><p>Willkommensnachrichten</p></li>
-<li><p>Reaktionsgruppename</p></li>
+<li><p>Name der Reaktionsgruppe</p></li>
 <li><p>Beschreibung</p></li>
 <li><p>Anzeigenummer</p></li>
 <li><p>Geschäftszeiten</p></li>
@@ -105,28 +133,41 @@ In der folgenden Tabelle werden die Aktionen beschrieben, die Reaktionsgruppenma
 </ul></td>
 <td><ul>
 <li><p>Erstellen oder Löschen beliebiger Workflowtypen</p></li>
-<li><p>Ändern grundlegender Reaktionsgruppeneinstellungen, wie: <strong>SIP-URI</strong> , <strong>Telefonnummer</strong> oder <strong>Workflowtyp</strong> .</p></li>
+<li><p>Ändern grundlegender Reaktionsgruppeneinstellungen wie <strong>SIP-URI</strong>, <strong>Telefonnummer</strong> oder <strong>Workflowtyp</strong>.</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-Reaktionsgruppenmanager können die folgenden Tools verwenden, um die ihnen zugewiesenen Reaktionsgruppen zu verwalten.
+Antwortgruppen-Manager können die folgenden Tools verwenden, um Ihre vorgesehenen Antwortgruppen zu verwalten.
 
   - Lync Server-Systemsteuerung
     
+    <div>
+    
 
-    > [!NOTE]
-    > Reaktionsgruppenmanager können nur Reaktionsgruppeneinstellungen mit diesem Tool verwalten. Andere Lync Server-Einstellungen sind für die Manager nicht verfügbar.
+    > [!NOTE]  
+    > Antwortgruppen-Manager können mit diesem Tool nur Einstellungen für die Reaktionsgruppe verwalten. Andere lync-Server Einstellungen stehen Managern nicht zur Verfügung.
 
-
+    
+    </div>
 
   - Konfigurationstool für Reaktionsgruppen
 
   - Lync Server-Verwaltungsshell
 
-Reaktionsgruppen eignen sich für Abteilungs- und Arbeitsgruppenumgebungen (ausführliche Informationen finden Sie unter [Kapazitätsplanung für Reaktionsgruppen in Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) und können in völlig neuen Telefonieinstallationen bereitgestellt werden. Sie bieten Unterstützung für eingehende Anrufe aus der Enterprise-VoIP-Bereitstellung und aus dem örtlichen Telefonnetz. Agents können Anrufe, die an sie weitergeleitet werden, mit Lync 2013, Lync 2010, Lync 2010-Vermittlung oder Lync Phone Edition entgegennehmen.
+Die Reaktionsgruppe eignet sich gut für Abteilungs-oder Arbeitsgruppenumgebungen (Details finden Sie unter [Kapazitätsplanung für die Reaktionsgruppe in lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) und kann in völlig neuen Telefonieanlagen bereitgestellt werden. Sie unterstützt eingehende Anrufe von der Enterprise-VoIP-Bereitstellung und vom lokalen Netzbetreiber Netzwerk. Agents können lync 2013, lync 2010, lync 2010 Attendant oder lync Phone Edition verwenden, um die an Sie weitergeleiteten Anrufe zu übernehmen.
 
-Die Reaktionsgruppenanwendung ist eine Enterprise-VoIP-Komponente. Bei der Bereitstellung von Enterprise-VoIP wird die Reaktionsgruppenanwendung automatisch installiert und aktiviert.
+Die Response Group-Anwendung ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird die reaktionsgruppenanwendung automatisch installiert und aktiviert.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

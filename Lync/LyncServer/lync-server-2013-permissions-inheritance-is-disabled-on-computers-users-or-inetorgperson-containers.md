@@ -1,56 +1,78 @@
-﻿---
-title: 'Lync Server 2013: Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert'
-TOCTitle: Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert
-ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412970(v=OCS.15)
-ms:contentKeyID: 49295334
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
+ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
+ms:contentKeyID: 48185348
+ms.date: 12/19/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825303"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-12-19_
 
-Im gesperrten Modus von Active Directory-Domänendienste werden Benutzer- und Computerobjekte häufig in speziellen Organisationseinheiten (Organizational Units, OUs) angeordnet. Dabei ist die Vererbung von Berechtigungen deaktiviert, um zum Schutz der administrativen Delegierung beizutragen und um die Verwendung von Gruppenrichtlinienobjekten zur Durchsetzung von Sicherheitsrichtlinien zu aktivieren.
+In einer gesperrten Active Directory-Domänendienste werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierter Berechtigungsvererbung gespeichert, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (GPOs) zu ermöglichen. So erzwingen Sie Sicherheitsrichtlinien
 
-Die Domänenvorbereitung und die Serveraktivierung legen die Zugriffssteuerungseinträge (ACEs) fest, die Lync Server 2013 benötigt. Wenn die Vererbung von Berechtigungen deaktiviert ist, können die Lync Server-Sicherheitsgruppen diese Zugriffssteuerungseinträge nicht erben. Wenn diese Berechtigungen nicht vererbt werden, können die Lync Server-Sicherheitsgruppen nicht auf die Einstellungen zugreifen, was die beiden folgenden Probleme verursacht:
+Domänenvorbereitung und Serveraktivierung legen Sie die für lync Server 2013 erforderlichen Zugriffssteuerungseinträge (Access Control Entries, ACEs) an. Wenn die Berechtigungsvererbung deaktiviert ist, können die lync Server-Sicherheitsgruppen diese ACEs nicht erben. Wenn diese Berechtigungen nicht vererbt werden, können lync Server-Sicherheitsgruppen nicht auf Einstellungen zugreifen, und die beiden folgenden Probleme treten auf:
 
-  - Um Benutzer, InetOrgPersons und Kontakte zu verwalten und Server zu betreiben, benötigen die Lync Server-Sicherheitsgruppen Zugriffssteuerungseinträge, die über das Verfahren zur Domänenvorbereitung für die Eigenschaftensätze der einzelnen Benutzer, für die Echtzeitkommunikation, für die Benutzersuche in Echtzeit und öffentliche Informationen festgelegt wurden. Wenn die Vererbung von Berechtigungen deaktiviert ist, werden diese Zugriffssteuerungseinträge von den Sicherheitsgruppen nicht geerbt, sodass diese keine Server oder Benutzer verwalten können.
+  - Um Benutzer, InetOrgPersons und Kontakte zu verwalten und Server zu betreiben, erfordern die lync Server-Sicherheitsgruppen ACEs, die durch das Verfahren zur Domänenvorbereitung auf die Eigenschaftensätze der einzelnen Benutzer festgelegt sind, die Echtzeitkommunikation (RTC), RTC-Benutzersuche und öffentliche Informationen . Wenn die Vererbung von Berechtigungen deaktiviert ist, erben Sicherheitsgruppen diese ACEs nicht und können keine Server oder Benutzer verwalten.
 
-  - Zum Ermitteln von Servern und Pools verwenden Server mit Lync Server Zugriffssteuerungseinträge, die bei der Aktivierung für computerbezogene Objekte festgelegt wurden, einschließlich des Objekts für Microsoft-Container und -Server. Wenn die Vererbung von Berechtigungen deaktiviert ist, werden diese Zugriffssteuerungseinträge von Sicherheitsgruppen, Servern und Pools nicht geerbt und können nicht verwendet werden.
+  - Um Server und Pools zu ermitteln, basieren Server mit lync Server auf ACEs, die durch Aktivierung für computerbezogene Objekte, einschließlich des Microsoft-Containers und des Server Objekts, festgesetzt werden. Wenn die Vererbung von Berechtigungen deaktiviert ist, erben Sicherheitsgruppen, Server und Pools diese ACEs nicht und können diese ACEs nicht nutzen.
 
-Um diese Probleme zu behandeln, bietet Lync Server das Cmdlet **Grant-CsOuPermission**. Dieses Cmdlet legt die erforderlichen Lync Server-Zugriffssteuerungseinträge direkt für einen angegebenen Container und Organisationseinheiten sowie die Objekte innerhalb des Containers bzw. der Organisationseinheit fest.
+Zur Behebung dieser Probleme stellt lync Server das Cmdlet **Grant-CsOuPermission** bereit. Mit diesem Cmdlet werden die erforderlichen lync Server-ACEs direkt für einen bestimmten Container und für die Organisationseinheiten und die Objekte im Container oder in der Organisationseinheit festgelegt.
 
-## Festlegen von Berechtigungen für Benutzer-, InetOrgPerson- und Kontaktobjekte nach dem Ausführen der Domänenvorbereitung
+<div>
 
-In einer gesperrten Active Directory-Umgebung, in der die Vererbung von Berechtigungen deaktiviert ist, werden die erforderlichen Zugriffssteuerungseinträge für Container oder Organisationseinheiten, in denen die Benutzer- oder InetOrgPerson-Objekte der Domäne enthalten sind, nicht über die Domänenvorbereitung festgelegt. In dieser Situation müssen Sie das Cmdlet **Grant-CsOuPermission** für jeden Container oder jede Organisationseinheit mit Benutzer- oder InetOrgPerson-Objekten ausführen, für die die Vererbung von Berechtigungen deaktiviert ist. Wenn eine Topologie mit einer zentralen Gesamtstruktur bereitgestellt wurde, müssen Sie dieses Verfahren auch für die Container oder Organisationseinheiten mit Kontaktobjekten ausführen. Ausführliche Informationen zu Topologien mit zentralen Gesamtstrukturen finden Sie unter [Unterstützte Active Directory-Topologien in Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) in der Unterstützungsdokumentation. Der "ObjectType"-Parameter gibt den Objekttyp an. Der OU-Parameter gibt die Organisationseinheit an.
+## <a name="set-permissions-for-user-inetorgperson-and-contact-objects-after-running-domain-preparation"></a>Einrichten von Berechtigungen für Benutzer-, InetOrgPerson-und Kontaktobjekte nach dem Ausführen der Domänenvorbereitung
 
-Mit diesem Cmdlet werden den angegebenen Containern oder Organisationseinheiten und den Benutzer- bzw. InetOrgPerson-Objekten innerhalb des Containers die erforderlichen Zugriffssteuerungseinträge direkt hinzugefügt.
+In einer gesperrten Active Directory-Umgebung, in der die Berechtigungsvererbung deaktiviert ist, werden bei der Domänenvorbereitung nicht die erforderlichen ACEs für die Container oder Organisationseinheiten festgelegt, die Benutzer oder InetOrgPerson-Objekte in der Domäne halten. In diesem Fall müssen Sie das Cmdlet **Grant-CsOuPermission** für jeden Container oder jede Organisationseinheit ausführen, die über Benutzer-oder InetOrgPerson-Objekte verfügen, für die die Vererbung von Berechtigungen deaktiviert ist. Wenn Sie über eine zentrale Gesamtstrukturtopologie verfügen, müssen Sie dieses Verfahren auch für die Container oder OUs durchführen, in denen Kontaktobjekte enthalten sind. Details zu zentralen Gesamtstruktur Topologien finden Sie unter [unterstützte Active Directory-Topologien in lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) in der Dokumentation zur Unterstützung. Der objectType-Parameter gibt den Objekttyp an. Der Parameter ou gibt die Organisationseinheit an.
 
-Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder gleichwertige Rechte, um dieses Cmdlet auszuführen. Wenn die Zugriffssteuerungseinträge für authentifizierte Benutzer auch in der gesperrten Umgebung entfernt wurden, müssen Sie diesem Konto Zugriffssteuerungseinträge für den Lesezugriff auf die entsprechenden Container oder Organisationseinheiten in der Gesamtstruktur-Stammdomäne hinzufügen. Dies ist unter [Entfernte Berechtigungen für authentifizierte Benutzer in Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) beschrieben. Alternativ dazu können Sie ein Konto verwenden, das Mitglied der Gruppe "Organisations-Admins" ist.
+Mit diesem Cmdlet werden die erforderlichen ACEs direkt für die angegebenen Container oder OUs sowie für die Objekte User oder inetOrgPerson innerhalb des Containers hinzugefügt. Wenn die Organisationseinheit, auf der dieser Befehl ausgeführt wird, über untergeordnete OUs mit Benutzer-oder inetOrgPerson-Objekten verfügt, werden die Berechtigungen nicht auf diese angewendet. Sie müssen den Befehl für jede untergeordnete ou einzeln ausführen. Hierbei handelt es sich um ein häufiges Szenario mit lync-Host Bereitstellungen, beispielsweise übergeordnete OU = OCS-Mandanten, DC = contoso, DC = local und Child ou = Mandanten 1, ou = OCS-Mandanten, DC = contoso, DC = local.
 
-**So legen Sie die erforderlichen Zugriffssteuerungseinträge für Benutzer-, InetOrgPerson- und Kontaktobjekte fest**
+Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer auch in der gesperrten Umgebung entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container oder OUs in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync entfernt beschrieben werden. Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) oder verwenden Sie ein Konto, das ein Mitglied der Gruppe "Organisations-Admins" ist.
 
-1.  Melden Sie sich unter Verwendung eines Kontos, das Mitglied der Gruppe "Domänen-Admins" ist oder das über gleichwertige Benutzerrechte verfügt, bei einem Domänencomputer an.
+**So legen Sie die erforderlichen ACEs für Benutzer-, InetOrgPerson-und Kontaktobjekte**
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich bei einem Computer mit der Domäne mit einem Konto an, das ein Mitglied der Gruppe "Domänen-Admins" ist oder gleichwertige Benutzerrechte aufweist.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie folgenden Befehl aus:
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
     
-    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
+    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
     
     Beispiel:
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  Suchen Sie in der Protokolldatei am Ende jeder Aufgabe nach dem Ausführungsergebnis **\<Erfolg\>** , um sicherzustellen, dass die Berechtigungen festgelegt wurden. Schließen Sie anschließend das Protokollfenster. Sie können auch den folgenden Befehl ausführen, um zu ermitteln, ob die Berechtigungen festgelegt wurden:
+4.  Suchen Sie in der Protokolldatei nach ** \<dem\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Berechtigungen festgelegt wurden, und schließen Sie dann das Protokollfenster. Sie können auch den folgenden Befehl ausführen, um zu ermitteln, ob die Berechtigungen festgelegt wurden:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -60,19 +82,23 @@ Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder gleichwertig
     
         Test-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net" -Report "C:\Log\OUPermissionsTest.html"
 
-## Festlegen von Berechtigungen für Computerobjekte nach der Ausführung der Domänenvorbereitung
+</div>
 
-In einer gesperrten Active Directory-Umgebung, in der die Vererbung von Berechtigungen deaktiviert ist, werden die erforderlichen Zugriffssteuerungseinträge für Container oder Organisationseinheiten, in denen die Computerobjekte der Domäne enthalten sind, nicht über die Domänenvorbereitung festgelegt. In dieser Situation müssen Sie das Cmdlet **Grant-CsOuPermission** für jeden Container oder jede Organisationseinheit mit Lync Server-Computern ausführen, für die die Vererbung von Berechtigungen deaktiviert ist. Der ObjectType-Parameter gibt den Objekttyp an.
+<div>
 
-Bei diesem Verfahren werden die erforderlichen Zugriffssteuerungseinträge den angegebenen Containern direkt hinzugefügt.
+## <a name="set-permissions-for-computer-objects-after-running-domain-preparation"></a>Einrichten von Berechtigungen für Computer Objekte nach dem Ausführen der Domänenvorbereitung
 
-Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder äquivalente Rechte, um dieses Cmdlet auszuführen. Wenn die Zugriffssteuerungseinträge für authentifizierte Benutzer ebenfalls entfernt wurden, müssen Sie diesem Konto Zugriffssteuerungseinträge für den Lesezugriff auf die entsprechenden Container in der Gesamtstruktur-Stammdomäne hinzufügen. Dies ist unter [Entfernte Berechtigungen für authentifizierte Benutzer in Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) beschrieben. Alternativ dazu können Sie ein Konto verwenden, das Mitglied der Gruppe "Organisations-Admins" ist.
+In einer gesperrten Active Directory-Umgebung, in der die Berechtigungsvererbung deaktiviert ist, werden für die Domänenvorbereitung nicht die erforderlichen ACEs für die Container oder OUs festgelegt, die Computer Objekte innerhalb der Domäne enthalten. In diesem Fall müssen Sie das Cmdlet **Grant-CsOuPermission** für jeden Container oder jede OU ausführen, auf dem Computer mit lync Server ausgeführt werden, auf denen die Vererbung von Berechtigungen deaktiviert ist. Der objectType-Parameter gibt den Objekttyp an.
 
-**So legen Sie die erforderlichen Zugriffssteuerungseinträge für Computerobjekte fest**
+Mit diesem Verfahren werden die erforderlichen ACEs direkt in den angegebenen Containern hinzugefügt.
 
-1.  Melden Sie sich beim Domänencomputer mit einem Konto an, das Mitglied der Gruppe "Domänen-Admins" ist oder das über gleichwertige Benutzerrechte verfügt.
+Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer ebenfalls entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync Server 2013 entfernt](lync-server-2013-authenticated-user-permissions-are-removed.md) oder ein Konto verwendet wird, das eine Mitglied der Gruppe "Organisations-Admins".
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+**So legen Sie die erforderlichen ACEs für Computerobjekte**
+
+1.  Melden Sie sich bei dem Domänencomputer mit einem Konto an, das ein Mitglied der Gruppe "Domänen-Admins" ist oder gleichwertige Benutzerrechte aufweist.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie folgenden Befehl aus:
     
@@ -80,13 +106,13 @@ Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder äquivalente
         -OU <DN name for the computer OU container relative to the domain root container DN> 
         [-Domain <Domain FQDN>][-Report <fully qualified path and name of output report>]
     
-    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
+    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
     
     Beispiel:
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  In der Beispielprotokolldatei "C:\\Logs\\OUPermissions.xml" würden Sie am Ende jeder Aufgabe nach dem Ausführungsergebnis **\<Erfolg\>** suchen und sicherstellen, dass keine Fehler vorliegen, und das Protokoll dann schließen. Sie können das folgende Cmdlet ausführen, um Berechtigungen zu testen:
+4.  In der Beispielprotokolldatei C:\\Logs\\OUPermissions. XML suchen Sie nach ** \<\> ** dem Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, und stellen Sie sicher, dass keine Fehler vorhanden sind, und schließen Sie dann das Protokoll. Sie können das folgende Cmdlet ausführen, um Berechtigungen zu testen:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
@@ -95,8 +121,24 @@ Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder äquivalente
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
+    <div>
+    
 
-    > [!NOTE]
-    > Wenn Sie die Domänenvorbereitung für die Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory-Umgebung ausführen, müssen Sie berücksichtigen, dass Lync Server auf die Schema- und Konfigurationscontainer von Active Directory zugreifen muss.<BR>Wenn die Standardberechtigung für authentifizierte Benutzer aus den Schema- bzw. Konfigurationscontainern in AD DS entfernt wurde, verfügen nur Mitglieder der Gruppe "Schema-Admins" (für Schemacontainer) bzw. "Organisations-Admins" (für Konfigurationscontainer) über Zugriff auf den jeweiligen Container. Da "Setup.exe", die Lync Server-Verwaltungsshell-Cmdlets und die Lync Server-Systemsteuerung auf diese Container zugreifen müssen, tritt bei Ausführen von Setup und bei der Installation der Verwaltungstools ein Fehler auf, wenn der ausführende Benutzer nicht über die Benutzerrechte der Gruppe "Schema-Admins" oder "Organisations-Admins" verfügt.<BR>Um dieses Problem zu beheben, müssen Sie der Gruppe "RTCUniversalGlobalWriteGroup" Lese- und Schreibberechtigungen für die Schema- und Konfigurationscontainer gewähren.
+    > [!NOTE]  
+    > Wenn Sie die Domänenvorbereitung für die Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory-Umgebung ausführen, beachten Sie, dass lync Server Zugriff auf das Active Directory-Schema und die Konfigurationscontainer benötigt.<BR>Wenn die Berechtigung für den Standard authentifizierten Benutzer aus dem Schema oder den Konfigurationscontainern&nbsp;in AD DS entfernt wird, dürfen nur Mitglieder der Gruppe Schemaadministratoren (für Schemacontainer) oder Gruppe Organisations-Admins (für Konfigurationscontainer) Zugreifen auf den angegebenen Container Da für Setup. exe, lync Server-Verwaltungsshell-Cmdlets und lync Server Control Panel Zugriff auf diese Container erforderlich ist, treten beim Einrichten und Installieren der Verwaltungstools Fehler auf, es sei denn, der Benutzer, der die Installation ausführt, verfügt über Benutzerrechte, die dem Schema entsprechen. Gruppenmitgliedschaft für Administratoren und Unternehmensadministratoren.<BR>Um dieses Problem zu beheben, müssen Sie RTCUniversalGlobalWriteGroup Group Read, Schreibzugriff auf die Schema-und Konfigurationscontainer erteilen.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

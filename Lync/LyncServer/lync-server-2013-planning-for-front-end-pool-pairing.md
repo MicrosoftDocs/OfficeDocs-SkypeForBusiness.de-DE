@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Planen der Bildung von Front-End-Poolpaaren'
-TOCTitle: Planen der Bildung von Front-End-Poolpaaren
-ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205293(v=OCS.15)
-ms:contentKeyID: 49295430
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen der Bildung von Front-End-Poolpaaren'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Front End pool pairing
+ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
+ms:contentKeyID: 48185508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824967"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen der Bildung von Front-End-Poolpaaren in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Planen der Bildung von Front-End-Poolpaaren in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-28_
 
-Für die optimale Notfallwiederherstellung in Lync Server 2013 sollten Sie Front-End-Poolpaare an zwei geografisch unterschiedlichen Orten bereitstellen. Jeder Standort enthält einen Front-End-Pool, für den es einen entsprechenden Front-End-Pool am anderen Standort gibt. Beide Standorte sind aktiv, und der Sicherungsdienst von Lync Server ermöglicht die Datenreplikation in Echtzeit, damit die Pools synchronisiert bleiben. Beim Sicherungsdienst handelt es sich um ein neues Feature in Lync Server 2013, das die Notfallwiederherstellungslösung unterstützt. Es wird auf einem Front-End-Pool installiert, wenn Sie dem Pool einen anderen Front-End-Pool gegenüberstellen.
+Stellen Sie für die besten Möglichkeiten zur Disaster Recovery in lync Server 2013 Paare von Front-End-Pools auf zwei geografisch verteilten Websites bereit. Jede Website enthält einen Front-End-Pool, der mit einem entsprechenden Front-End-Pool in der anderen Website gekoppelt ist. Beide Websites sind aktiv, und der lync Server-Sicherungsdienst bietet Echtzeitdaten Replikation, damit die Pools synchronisiert bleiben. Der Sicherungsdienst ist ein neues Feature in lync Server 2013, das zur Unterstützung der Disaster Recovery-Lösung entwickelt wurde. Sie wird in einem Front-End-Pool installiert, wenn Sie den Pool mit einem anderen Front-End-Pool koppeln.
 
-Falls der Pool an einem Standort ausfällt, können Sie für die Benutzer ein Failover von diesem Pool auf den Pool am anderen Standort vornehmen, von dem dann für alle Benutzer in beiden Pools Dienste bereitgestellt werden. Aus Kapazitätsplanungsgründen sollte bei einem Notfall jeder Pool in der Lage sein, die Arbeitsauslastung aller Benutzer in beiden Pools zu bewältigen.
+Wenn der Pool auf einer Website fehlschlägt, können Sie die Benutzer aus diesem Pool in den Pool auf der anderen Website übertragen, wodurch Dienste für alle Benutzer in beiden Pools bereitgestellt werden. Bei der Kapazitätsplanung sollte jeder Pool so konzipiert sein, dass er die Arbeitslasten aller Benutzer in beiden Pools im Fall eines Notfalls behandelt.
 
-## In diesem Abschnitt
+<div>
 
-  - [Unterstützte Optionen und bewährte Methoden für das Einrichten von Poolpaaren in Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
+
+  - [Unterstützte Pool-Kopplungs Optionen und bewährte Methoden für lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
   - [Beziehungen von Sicherungsregistrierungsstellen in Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
 
@@ -30,4 +52,16 @@ Falls der Pool an einem Standort ausfällt, können Sie für die Benutzer ein Fa
   - [Failover des zentralen Verwaltungsspeichers in Lync Server 2013](lync-server-2013-central-management-store-failover.md)
 
   - [Datensicherheit beim Bilden von Front-End-Poolpaaren in Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,75 @@
-﻿---
-title: Quality of Experience (QoE) in Lync Server 2013
-TOCTitle: Quality of Experience (QoE) in Lync Server 2013
-ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ687963(v=OCS.15)
-ms:contentKeyID: 49890617
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Quality of Experience (QoE)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Quality of Experience (QoE)
+ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
+ms:contentKeyID: 49733548
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2501293a8c8b0fce27ad6495c33b45fbf380594f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823910"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quality of Experience (QoE) in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Quality of Experience (QoE) in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Bei der QoE-Datenerfassung (Quality of Experience) werden numerische Daten aufgezeichnet, die die Medienqualität sowie Informationen zu Teilnehmern, Gerätenamen, Treibern, IP-Adressen und Endpunkttypen im Zusammenhang mit Anrufen und Sitzungen angeben. Bei der Installation von Lync Server 2013 installieren Sie auch eine vordefinierte Auflistung von globalen Konfigurationseinstellungen für QoE. Konfigurieren Sie QoE-Einstellungen mithilfe der Themen in diesem Abschnitt.
+Bei der QoE-Datenerfassung (Quality of Experience) werden numerische Daten aufgezeichnet, die die Medienqualität sowie Informationen zu Teilnehmern, Gerätenamen, Treibern, IP-Adressen und Endpunkttypen im Zusammenhang mit Anrufen und Sitzungen angeben. Wenn Sie lync Server 2013 installieren, können Sie auch eine vordefinierte Sammlung globaler Konfigurationseinstellungen für QoE installieren. Konfigurieren Sie QoE-Einstellungen mithilfe der Themen in diesem Abschnitt.
 
-## In diesem Abschnitt
+<div>
 
-  - [Erstellen von Konfigurationseinstellungen für QoE (Quality of Experience)](lync-server-2013-create-quality-of-experience-configuration-settings.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Aktivieren von QoE (Quality of Experience)](lync-server-2013-enable-quality-of-experience.md)
+  - [Erstellen von Konfigurationseinstellungen für die Qualität von Erfahrungen in lync Server 2013](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
-  - [Ändern von QoE-Einstellungen (Quality of Experience)](lync-server-2013-modify-quality-of-experience-settings.md)
+  - [Aktivieren der erfahrungsqualität in lync Server 2013](lync-server-2013-enable-quality-of-experience.md)
 
-  - [Löschen von Konfigurationseinstellungen für QoE (Quality of Experience)](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
+  - [Ändern der Einstellungen für die Qualität der Benutzerfreundlichkeit in lync Server 2013](lync-server-2013-modify-quality-of-experience-settings.md)
 
-  - [Manuelles Bereinigen der KDS- und QoE-Datenbanken](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [Löschen der Konfigurationseinstellungen für die Qualität der Benutzeroberfläche in lync Server 2013](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-## Siehe auch
+  - [Manuelles Bereinigen der Datenbanken für die Anrufdetailaufzeichnung und die Qualität von Erfahrungen in lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
-#### Konzepte
+</div>
 
-[Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE-Einstellungen](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Konfigurieren der Einstellungen für die Anrufdetailaufzeichnung und die Qualität der Benutzerfreundlichkeit in lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

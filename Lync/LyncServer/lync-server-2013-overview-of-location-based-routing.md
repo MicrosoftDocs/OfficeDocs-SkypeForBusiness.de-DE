@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über das standortbasierte Routing'
-TOCTitle: Übersicht über das standortbasierte Routing
-ms:assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994032(v=OCS.15)
-ms:contentKeyID: 52056329
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über standortbasiertes Routing'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Location-Based Routing
+ms:assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994032(v=OCS.15)
+ms:contentKeyID: 51803941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 82b3a5cb2e89376a356daf54c6e5bc443ab52207
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825366"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über das standortbasierte Routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Übersicht über standortbasiertes Routing in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Das standortbasierte Routing stellt einen neuen Regelsatz zur Verfügung, mit dem das Routing nationaler und internationaler PSTN-Anrufe modifiziert werden kann, um eine Gebührenumgehung zu verhindern. Beim standortbasierten Routing lassen sich die Regeln flexibel auf bestimmte Regionen und Gateways und sogar auf bestimmte Benutzergruppen beschränken.
 
-Die folgenden Szenarien sollen die wichtigsten Einschränkungen aufzeigen, die mithilfe des standortbasierten Routings durchgesetzt werden können:
+Die folgenden Szenarien veranschaulichen die Haupttypen von Einschränkungen, die standortbasiertes Routing erzwingen kann:
 
-  - Ausgehende Anrufe – Das standortbasierte Routing kann ausgehende Anrufe auf PSTN-Gateways beschränken, die sich in derselben Region befinden wie der Anrufer, um so eine Umgehung von PSTN-Gebühren zu verhindern. Auf diese Weise wird vermieden, dass Anrufe von einem PSTN-Gateway abgehen, das sich in einer anderen Region befindet als der Anrufer.
+  - Ausstiegs Anrufe – standortbasiertes Routing kann ausgehende Aufrufe von einem PSTN-Gateway erzwingen, das sich in derselben Region befindet, in der der Anrufer die PSTN-Maut Umgehung verhindert, die das Auslaufen von einem PSTN-Gateway in einer anderen Region wie die Rufnummernanzeige.
 
-  - Eingehende Anrufe – Das standortbasierte Routing kann eingehende PSTN-Verbindungen mit Lync-Endpunkten verhindern, wenn das PSTN-Gateway, über das die Verbindung geroutet wird, sich nicht in derselben Region befindet, wie der angerufene Lync-Benutzer.
+  - Ingress-Anrufe – standortbasiertes Routing kann verhindern, dass eingehende PSTN-Anrufe an lync-Endpunkte ablaufen, wenn sich das PSTN-Gateway, das den eingehenden Anruf leitet, nicht in der gleichen Region wie der angerufene lync-Benutzer befindet.
 
-  - Unbekannte Regionen – Mit standortbasiertem Routing lassen sich eingehende und ausgehende PSTN-Verbindungen für Benutzer einschränken, die sich an nicht eindeutig bestimmbaren Standorten aufhalten (d. h. Remotebenutzer, die eine Verbindung über das Internet herstellen oder sich in unbekannten Regionen aufhalten).
+  - Unbekannte Regionen – standortbasiertes Routing schränkt eingehende und ausgehende PSTN-Anrufe von und zu Benutzern ein, die sich an unbestimmten Speicherorten befinden (d. h. Remotebenutzer, die eine Verbindung mit dem Internet herstellen oder sich in unbekannten Regionen befinden).
 
-  - Internationale Regionen – Mit standortbasiertem Routing können ausgehende Anrufe obligatorisch über internationale PSTN-Gateways geroutet werden, wenn am Standort des Benutzers kein lokales Gateway zur Verfügung steht.
+  - Internationale Regionen – durch standortbasiertes Routing wird das Routing von ausgehenden Anrufen über internationale PSTN-Gateways erzwungen, wenn ein lokales Gateway zum Standort des Benutzers nicht gefunden werden kann.
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+
+[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

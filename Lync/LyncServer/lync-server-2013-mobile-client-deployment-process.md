@@ -1,23 +1,45 @@
-﻿---
-title: Bereitstellungsprozess für mobilen Client
-TOCTitle: Bereitstellungsprozess für mobilen Client
-ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690982(v=OCS.15)
-ms:contentKeyID: 52056353
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellungsprozess für mobile Clients'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobile client deployment process
+ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690982(v=OCS.15)
+ms:contentKeyID: 51541484
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0d0bf17fe4906d49fefd8bd319d25d1268191e4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellungsprozess für mobilen Client
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Bereitstellungsprozess für mobile Clients in lync Server 2013
 
-Nachdem die Bereitstellung von Microsoft Lync Server 2013 abgeschlossen ist, können Benutzer die Lync 2013-App aus dem Marketplace für mobile Anwendungen installieren, den sie normalerweise für ihr jeweiliges Gerät verwenden.
+</div>
 
-## Lync Mobile-Bereitstellungsprozess
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+
+Nachdem eine Bereitstellung von Microsoft lync Server 2013 abgeschlossen wurde, können Benutzer die lync 2013-App aus dem mobilen Marktplatz installieren, den Sie für Ihr spezifisches Gerät gewohnt sind.
+
+<div>
+
+## <a name="lync-mobile-deployment-process"></a>Bereitstellungsprozess für lync Mobile
 
 
 <table>
@@ -37,53 +59,66 @@ Nachdem die Bereitstellung von Microsoft Lync Server 2013 abgeschlossen ist, kö
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ausführen der Aufgaben, die vor der Einrichtung anstehen</p></td>
+<td><p>Ausführen von Aufgaben vor der Installation</p></td>
 <td><ol>
-<li><p>Überprüfen der Lync Server 2013-Bereitstellung</p></li>
-<li><p>Überprüfen der Zertifikatanforderungen</p></li>
+<li><p>Überprüfen Sie die lync Server 2013-Bereitstellung.</p></li>
+<li><p>Überprüfen Sie die Zertifikatanforderungen.</p></li>
 </ol></td>
 <td><p>Administrator</p></td>
-<td><p><a href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in Lync Server 2013</a> in der Dokumentation zur Serverplanung.</p>
-<p><a href="lync-server-2013-deploying-mobility.md">Bereitstellen von Mobilität in Lync Server 2013</a> in der Dokumentation zur Serverbereitstellung.</p>
-<p><a href="lync-server-2013-certificate-infrastructure-requirements.md">Anforderungen in Bezug auf die Zertifikatinfrastruktur für Lync Server 2013</a> in in der Dokumentation zur Serverplanung.</p></td>
+<td><p><a href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in lync Server 2013</a> in der Dokumentation zur Server Planung</p>
+<p><a href="lync-server-2013-deploying-mobility.md">Bereitstellen von Mobilität in lync Server 2013</a> in der Server Bereitstellungsdokumentation</p>
+<p><a href="lync-server-2013-certificate-infrastructure-requirements.md">Anforderungen für die Zertifikatinfrastruktur für lync Server 2013</a> in der Server Planungsdokumentation.</p></td>
 </tr>
 <tr class="even">
-<td><p>Installieren der Lync-Anwendung auf einem Testgerät</p></td>
+<td><p>Installieren Sie die lync-Anwendung auf einem Testgerät.</p></td>
 <td><ol>
-<li><p>Installieren der erforderlichen Komponenten</p></li>
-<li><p>Installieren der Anwendung aus dem für das mobile Gerät spezifischen Marketplace</p></li>
+<li><p>Installieren Sie die Voraussetzungen.</p></li>
+<li><p>Installieren Sie von dem für das Mobile Gerät spezifischen Marktplatz.</p></li>
 </ol></td>
 <td><p>Administrator</p></td>
-<td><p>Für das mobile Gerät spezifische Installationsanweisungen unter <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen mobiler Clients</a>.</p></td>
+<td><p>Spezifische Installationsanweisungen für das Mobile Gerät bei der <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellung von mobilen Clients in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Konfigurieren des Clients</p></td>
+<td><p>Konfigurieren Sie den Client.</p></td>
 <td><ul>
-<li><p>Konfigurieren der Anmeldeinstellungen und Serverinformationen</p></li>
+<li><p>Konfigurieren Sie Anmeldeeinstellungen und Server Informationen.</p></li>
 </ul></td>
 <td><p>Administrator</p></td>
-<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen mobiler Clients</a></p></td>
+<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen von mobilen Clients in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Testen der mobilen Szenarien</p></td>
+<td><p>Testen Sie mobile Szenarien.</p></td>
 <td><ol>
-<li><p>Testen der Chat- und Anwesenheitsfunktionen</p></li>
-<li><p>Testen der Dial-Out-Konferenz</p></li>
-<li><p>Suchen nach einem Kontakt im Unternehmensverzeichnis</p></li>
-<li><p>Testen von Pushbenachrichtigungen</p></li>
+<li><p>Testen von Instant Messaging (im) und Anwesenheitsinformationen</p></li>
+<li><p>Testen Sie Einwahlkonferenzen.</p></li>
+<li><p>Suchen Sie im Unternehmensverzeichnis nach einem Kontakt.</p></li>
+<li><p>Testen von Push-Benachrichtigungen</p></li>
 </ol></td>
 <td><p>Administrator</p></td>
-<td><p>Für das mobile Gerät spezifische Überprüfungsanweisungen unter <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen mobiler Clients</a>.</p></td>
+<td><p>Für das Mobile Gerät spezifische Verifizierungs Anweisungen beim <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen von mobilen Clients in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Installieren der Lync-Anwendung auf Mobiltelefonen</p></td>
+<td><p>Installieren Sie die lync-Anwendung auf Mobiltelefonen.</p></td>
 <td><ol>
-<li><p>Installieren der erforderlichen Komponenten</p></li>
-<li><p>Installieren der Anwendung aus dem für das mobile Gerät spezifischen Marketplace</p></li>
+<li><p>Installieren Sie die Voraussetzungen.</p></li>
+<li><p>Installieren Sie von dem für das Mobile Gerät spezifischen Marktplatz.</p></li>
 </ol></td>
-<td><p>Benutzer</p></td>
-<td><p>Für das mobile Gerät spezifische Installationsanweisungen unter <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellen mobiler Clients</a>.</p></td>
+<td><p>User</p></td>
+<td><p>Spezifische Installationsanweisungen für das Mobile Gerät bei der <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellung von mobilen Clients in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,67 +1,104 @@
-﻿---
-title: Ändern des standardmäßigen Dateiübertragungsfilters
-TOCTitle: Ändern des standardmäßigen Dateiübertragungsfilters
-ms:assetid: 791774a2-0bb6-4b5b-aeb0-ff69abb170f4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg521017(v=OCS.15)
-ms:contentKeyID: 49294479
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ändern des standardmäßigen dateiübertragungsfilters'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify the default file transfer filter
+ms:assetid: 791774a2-0bb6-4b5b-aeb0-ff69abb170f4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521017(v=OCS.15)
+ms:contentKeyID: 48184584
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 475f6e9b599af9ba6db80fdb174d3b38e5df6b00
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826822"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ändern des standardmäßigen Dateiübertragungsfilters
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Ändern des standardmäßigen dateiübertragungsfilters in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Lync Server 2013 bietet einen globalen Dateiübertragungsfilter, der bestimmte Dateitypen während der folgenden dateibezogenen Aktivitäten innerhalb Ihrer Lync Server 2013-Bereitstellung blockiert:
+Lync Server 2013 bietet einen globalen Dateiübertragungsfilter, der bestimmte Dateitypen während der folgenden dateibezogenen Aktivitäten innerhalb ihrer lync Server 2013-Bereitstellung blockiert:
 
-  - Dateiübertragungsanforderungen während Sofortnachrichtenunterhaltungen
+  - Dateiübertragungsanforderungen während Chat Unterhaltungen (Sofortnachrichten)
 
-  - Dateiuploads und -downloads bei Verwendung der Ausdruckfunktion im Office Live Meeting 2007-Client
+  - Hochladen und Herunterladen von Dateien beim Verwenden des Handzettel Features im Office Live Meeting 2007-Client
 
-  - Multimediawiedergabe während Konferenzen
+  - Multimedia-Wiedergabe während Konferenzen
 
-Je nach den Dateitypen, die Sie blockieren oder zulassen möchten, können Sie den globalen Filter mithilfe der Lync Server-Systemsteuerung ändern. Ausführliche Informationen zur Dateiübertragungsfilterung finden Sie unter [Konfigurieren der Dateiübertragung und der URL-Filterung für Chat](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Je nach den Dateitypen, die Sie blockieren oder zulassen möchten, können Sie den globalen Filter mithilfe der lync Server-Systemsteuerung ändern. Details zum Filtern von Dateiübertragungen finden Sie unter [Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
-## So ändern Sie den standardmäßigen Dateiübertragungsfilter
+<div>
+
+## <a name="to-modify-the-default-file-transfer-filter"></a>So ändern Sie den standardmäßigen Dateiübertragungsfilter
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Instant Messaging und Anwesenheit** und dann auf **Dateifilter**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Chat und Anwesenheit** , und klicken Sie dann auf **Datei Filter**.
 
-4.  Doppelklicken Sie auf der Seite **Dateifilter** auf den Filter **Global**.
+4.  Doppelklicken Sie auf der Seite **Dateifilter** auf den **globalen** Filter.
 
-5.  Aktivieren Sie im Abschnitt **Dateifilter bearbeiten** das Kontrollkästchen **Dateifilter aktivieren**.
+5.  Aktivieren Sie unter **Dateifilter bearbeiten**das Kontrollkästchen **Dateifilter aktivieren** .
 
-6.  Klicken Sie im Dropdown-Listenfeld **Dateiübertragung** auf **Alle blockieren** oder **Bestimmte Dateitypen blockieren**.
+6.  Klicken Sie im Dropdown-Listenfeld **Dateiübertragung** auf **Alle blockieren** oder **bestimmte Dateitypen blockieren**.
 
-7.  Wenn Sie die Option **Alle blockieren** aktiviert haben, fahren Sie mit Schritt 9 fort.
+7.  Wenn Sie auf **Alle blockieren**geklickt haben, fahren Sie mit Schritt 9 fort.
 
-8.  Führen Sie eine der folgenden Aktionen aus, wenn Sie auf die Option **Bestimmte Dateitypen blockieren** geklickt haben:
+8.  Wenn Sie auf **bestimmte Dateitypen blockieren**geklickt haben, gehen Sie folgendermaßen vor:
     
-    1.  Klicken Sie auf **Auswählen**, um die standardmäßige Liste der Erweiterungen für Dateitypen zu ändern, die blockiert werden sollen.
+    1.  Klicken Sie auf **auswählen** , um die Standardliste der Dateitypen Erweiterungen zu ändern, die Sie blockieren möchten.
     
-    2.  Wählen Sie im Dialogfeld **Dateityp auswählen** die Dateitypen aus, die Sie blockieren oder zulassen möchten, indem Sie die zugehörigen Erweiterungen aus den Kategorien unter **Dateityperweiterungen** entfernen oder sie hinzufügen.
+    2.  Wählen Sie unter **Dateityp**auswählen die Dateitypen aus, die Sie blockieren oder zulassen möchten, indem Sie deren Erweiterungen aus den Kategorien unter **Dateityperweiterungen**hinzufügen oder entfernen.
     
-    3.  Wenn die Erweiterung des gewünschten Dateityps nicht aufgeführt wird, geben Sie die Erweiterung in das Textfeld unter **Neue Dateityperweiterungen zur Liste hinzufügen** ein, und klicken Sie anschließend auf **Hinzufügen**.
+    3.  Wenn die Erweiterung für einen Dateityp, den Sie blockieren möchten, nicht angezeigt wird, geben Sie die Erweiterung in das Textfeld unter **Hinzufügen von Dateityperweiterungen zur Liste**ein, und klicken Sie dann auf **Hinzufügen**.
     
     4.  Klicken Sie auf **OK**.
 
-9.  Klicken Sie auf **Commit**.
+9.  Klicken Sie auf **Commit ausführen**.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Konfigurieren der Dateiübertragung und der URL-Filterung für Chat](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Erstellen eines neuen Dateiübertragungsfilters für einen bestimmten Standort](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[Erstellen eines neuen URL-Filters für die Verarbeitung von Links in Sofortnachrichtenunterhaltungen](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+## <a name="see-also"></a>Siehe auch
 
-#### Konzepte
 
-[Ändern des URL-Standardfilters](lync-server-2013-modify-the-default-url-filter.md)
+[Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für eine bestimmte Website](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Erstellen eines neuen URL-Filters in lync Server 2013 zur Behandlung von Hyperlinks in Chat Unterhaltungen](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+
+
+[Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

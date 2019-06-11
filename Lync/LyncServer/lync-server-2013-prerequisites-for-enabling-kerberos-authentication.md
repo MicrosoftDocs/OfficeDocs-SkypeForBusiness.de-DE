@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung'
-TOCTitle: Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung
-ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425909(v=OCS.15)
-ms:contentKeyID: 49293782
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Prerequisites for enabling Kerberos authentication
+ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425909(v=OCS.15)
+ms:contentKeyID: 48183945
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f405daa37007bffba1e02bd10d20d4de907e820e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823679"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Voraussetzungen zur Aktivierung der Kerberos-Authentifizierung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Vergewissern Sie sich vor der Aktivierung der Kerberos-Authentifizierung, dass Sie alle erforderlichen Vorbereitungen in Bezug auf Konfiguration und Infrastruktur abgeschlossen haben:
+Bevor Sie die Kerberos-Authentifizierung aktivieren, stellen Sie sicher, dass Sie alle erforderlichen Konfigurations-und Infrastruktur Vorbereitungen durchführen:
 
-  - Das Active Directory-Schema wurde für Lync Server 2013 erweitert.
+  - Das Active Directory-Schema wird für lync Server 2013 erweitert.
 
-  - Die Active Directory-Gesamtstrukturvorbereitung für Lync Server 2013 wurde abgeschlossen.
+  - Die Active Directory-Gesamtstrukturvorbereitung ist für lync Server 2013 abgeschlossen.
 
-  - Die Active Directory-Domänenvorbereitung für Lync Server 2013 wurde abgeschlossen.
+  - Die Active Directory-Domänenvorbereitung ist für lync Server 2013 abgeschlossen.
 
-  - zentralen Verwaltungsspeicher wurde installiert und ist einsatzbereit.
+  - Der zentrale Verwaltungsspeicher wurde erfolgreich installiert und verfügbar.
 
-  - Die Topologie wurde mit dem Topologie-Generator erstellt und veröffentlicht.
+  - Die Topologie wurde mithilfe des Topologie-Generators erstellt und veröffentlicht.
 
-  - Die für die Webdienste erforderlichen Server und Rollen wurden definiert und bereitgestellt, Front-End-Server, Standard Edition-Server und Director-Server eingeschlossen.
+  - Server und Rollen, die Webdienste erfordern, wurden definiert und bereitgestellt, einschließlich der Front-End-Server, der Standard Edition-Server und der Directors.
 
-  - Internetinformationsdienste (Internet Information Services, IIS) wurde mit den empfohlenen Rollendiensten zur Unterstützung der Webdienste in Lync Server 2013 konfiguriert und bereitgestellt.
+  - Internet Informationsdienste (IIS) wird mit den empfohlenen Rollendiensten für die Unterstützung von Webdiensten in lync Server 2013 konfiguriert und bereitgestellt.
 
-Wenn alle Anforderungen erfüllt wurden, können Sie für die Webdienste eines oder mehrere Konten für die Kerberos-Authentifizierung in Ihrer Bereitstellung erstellen. Sie müssen pro Bereitstellung mindestens ein Kerberos-Authentifizierungskonto erstellen. Sie können jedoch ein Konto für jeden Standort erstellen, um eine lokale Kerberos-Authentifizierung am Standort zu ermöglichen. Pro Standort kann nur ein Kerberos-Authentifizierungskonto angegeben werden.
+Nachdem die Voraussetzungen erfüllt wurden, sollten Sie bereit sein, mindestens ein Konto für Webdienste zu erstellen, das für die Kerberos-Authentifizierung für Ihre Bereitstellung verwendet werden soll. Sie müssen mindestens ein Kerberos-Authentifizierungs Konto für jede Bereitstellung erstellen. Sie können jedoch für jede Website ein Konto erstellen, um die lokale Kerberos-Authentifizierung auf der Website bereitzustellen. Sie können nur ein Kerberos-Authentifizierungs Konto pro Website angeben.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

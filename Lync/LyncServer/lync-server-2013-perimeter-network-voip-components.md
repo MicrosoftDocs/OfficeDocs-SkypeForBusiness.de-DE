@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013: VoIP-Komponenten für das Umkreisnetzwerk'
-TOCTitle: VoIP-Komponenten für das Umkreisnetzwerk
-ms:assetid: 74230008-695d-436a-90b9-9cd060c70f7b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398559(v=OCS.15)
-ms:contentKeyID: 49294423
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: VoIP-Komponenten für das Umkreisnetzwerk'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Perimeter network VoIP components
+ms:assetid: 74230008-695d-436a-90b9-9cd060c70f7b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398559(v=OCS.15)
+ms:contentKeyID: 48184514
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 605cee3c683ea9b22998de6c218978954907ca52
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825219"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# VoIP-Komponenten für das Umkreisnetzwerk für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="perimeter-network-voip-components-for-lync-server-2013"></a>VoIP-Komponenten für das Umkreisnetzwerk für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-Externe Anrufer, die Unified Communications-Clients für Einzelgespräche oder Telefonkonferenzen verwenden, nutzen Edgeserver für die Sprachkommunikation mit Kollegen.
+Externe Anrufer, die Unified Communications-Clients für Einzel-oder Konferenzgespräche verwenden, setzen auf Edge-Server für die Sprachkommunikation mit Kollegen.
 
-Auf einem Edgeserver stellt der Zugriffs-Edgedienst SIP-Signaldaten für Anrufe von Benutzern von Lync bereit, die sich außerhalb der Unternehmensfirewall befinden. Der A/V-Edgedienst ermöglicht es Medien Firewalls und NAT zu passieren. Anrufer, die einen Unified Communications-Client (UC) außerhalb der Unternehmensfirewall verwenden, benötigen den A/V-Edgedienst für Einzelgespräche und Telefonkonferenzen.
+Auf einem Edgeserver bietet der Access Edge-Dienst SIP-Signale für Anrufe von lync-Benutzern, die sich außerhalb der Firewall Ihrer Organisation befinden. Der A/V-Edgedienst ermöglicht es Medien, Firewalls und NAT zu passieren. Anrufer, die einen Unified Communications-Client (UC) außerhalb der Unternehmensfirewall verwenden, benötigen den A/V-Edgedienst für Einzelgespräche und Telefonkonferenzen.
 
-Der A/V-Authentifizierungsdienst ist mit dem A/V-Edgedienst verknüpft und stellt Authentifizierungsdienste für ihn bereit. Externe Benutzer, die versuchen, eine Verbindung mit dem A/V-Edgedienst herzustellen, benötigen ein vom A/V-Authentifizierungsdienst bereitgestelltes Authentifizierungstoken, damit ihre Anrufe durchgestellt werden können.
+Der A/V-Authentifizierungsdienst ist mit dem A/V-Edgedienst verknüpft und stellt Authentifizierungsdienste für diesen bereit. Externe Benutzer, die versuchen, eine Verbindung mit dem A/V-Edgedienst herzustellen, benötigen ein vom A/V-Authentifizierungsdienst bereitgestelltes Authentifizierungstoken, damit ihre Anrufe durchgestellt werden können.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Operational dependencies'
+---
+title: 'Lync Server 2013: Betriebs Abhängigkeiten'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Operational dependencies
 ms:assetid: 450b6be2-7fb3-47d7-8b0b-c05faa331e14
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn720559(v=OCS.15)
-ms:contentKeyID: 62227385
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720559(v=OCS.15)
+ms:contentKeyID: 63969597
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d54ef9959f48c085ad4f5f28f182b86442ebec8c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826059"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Operational dependencies in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="operational-dependencies-in-lync-server-2013"></a>Betriebs Abhängigkeiten in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-05-15_
 
-The Reference Architecture discussed in this document will help ensure that you have a Lync Server 2013 deployment that not only scales to the organization’s requirements but is architected as per Microsoft best practices. Be that as it may the Lync Server 2013 implementation is a dynamic service and like any other service in the enterprise still requires monitoring and proactive management to maintain high level of service availability and service quality to the business.
+Die in diesem Dokument beschriebene Referenzarchitektur wird Ihnen dabei helfen sicherzustellen, dass Sie über eine lync Server 2013-Bereitstellung verfügen, die nicht nur auf die Anforderungen der Organisation skaliert, sondern nach den bewährten Microsoft-Methoden entworfen wurde. Es kann sein, dass die lync Server 2013-Implementierung ein dynamischer Dienst ist und wie jeder andere Dienst im Unternehmen weiterhin Überwachungs-und proaktives Management erfordert, um dem Unternehmen ein hohes Maß an Serviceverfügbarkeit und Servicequalität zu gewährleisten.
 
-As Lync Server 2013 becomes deeply ingrained in the organization’s everyday business it is important that the service be managed by accurate and tangible service level management. The Lync system architecture can become complex and very integrated and in order to maintain effective service level management and establish SLAs for Lync Server 2013 it becomes critical to understand the system’s dependencies on other platforms and servers. Equally important is to note which business services, such as voice and UC integrated applications, become dependent on Lync.
+Da lync Server 2013 in der täglichen Geschäftstätigkeit des Unternehmens tief verwurzelt ist, ist es wichtig, dass der Dienst durch ein genaues und greifbares Service Level-Management verwaltet wird. Die lync-Systemarchitektur kann komplex und sehr integriert werden, und um ein effektives Service Level-Management zu gewährleisten und SLAs für lync Server 2013 festzulegen, wird es entscheidend, die Abhängigkeiten des Systems auf anderen Plattformen und Servern zu verstehen. Ebenso wichtig ist, zu beachten, welche Unternehmensdienste wie Sprach-und UC-integrierte Anwendungen von lync abhängig werden.
 
-Lync Server 2013 must be established noting all the said dependencies. The service map will allow you to formulate a SLA between Lync and its dependent service and provide a starting place for SLA negotiation.
+Lync Server 2013 muss eingerichtet werden, wobei alle genannten Abhängigkeiten berücksichtigt werden. Die Dienstzuordnung ermöglicht es Ihnen, eine SLA zwischen lync und dem abhängigen Dienst zu formulieren und einen Ausgangspunkt für die SLA-Aushandlung bereitzustellen.
 
-The following table lists the typical dependency services for a Lync infrastructure. Each of these technologies should have its own proactive monitoring.
+In der folgenden Tabelle sind die typischen Abhängigkeitsdienste für eine lync-Infrastruktur aufgeführt. Jede dieser Technologien sollte eine eigene proaktive Überwachung aufweisen.
 
-### Typical dependency services
+### <a name="typical-dependency-services"></a>Typische Abhängigkeitsdienste
 
 <table>
 <colgroup>
@@ -32,72 +52,72 @@ The following table lists the typical dependency services for a Lync infrastruct
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dependency Service</th>
+<th>Abhängigkeitsdienst</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Operating systems</p></td>
-<td><p></p></td>
+<td><p>Betriebssysteme</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Server Hardware</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Active Directory</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Public Key Infrastructure</p></td>
-<td><p></p></td>
+<td><p>Infrastruktur öffentlicher Schlüssel</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Domain Naming Service</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Database Services</p></td>
-<td><p></p></td>
+<td><p>Datenbankdienste</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Storage Services</p></td>
-<td><p></p></td>
+<td><p>Speicherdienste</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>System Management – Monitoring and distribution</p></td>
-<td><p></p></td>
+<td><p>System Verwaltung – Überwachung und Verteilung</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Security Services - Antivirus</p></td>
-<td><p></p></td>
+<td><p>Security Services – Antivirus</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Network Infrastructure - Internet</p></td>
-<td><p></p></td>
+<td><p>Netzwerkinfrastruktur – Internet</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Network Infrastructure – Internal (LAN/WAN)</p></td>
-<td><p></p></td>
+<td><p>Netzwerkinfrastruktur – intern (LAN/WAN)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Telephony Infrastructure – IP-PBX and Gateways</p></td>
-<td><p></p></td>
+<td><p>Telefonie-Infrastruktur – IP-PBX und Gateways</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Cloud Services</p></td>
-<td><p></p></td>
+<td><p>Cloud-Dienste</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-It is assumed that the organization is operationally mature in exercising basic service level management functions such as change, incident and release management as prescribed by the MOF. The Lync solution should be adopted by these functions and become subject to the same operational management processes.
+Es wird davon ausgegangen, dass die Organisation in der Lage ist, grundlegende Service Level-Verwaltungsfunktionen wie Change-, Incident-und Release-Management gemäß dem MOF-Verfahren zu entwickeln. Die lync-Lösung sollte von diesen Funktionen übernommen werden und den gleichen operativen Verwaltungsprozessen unterworfen werden.
 
-Building on the information obtained above we now have a greater understanding of what can impact the Lync service in the enterprise. To help ensure Lync Server 2013 service availability and quality, the following monitoring tools must accompany the reference architecture deployment:
+Aufbauend auf den obigen Informationen haben wir jetzt ein größeres Verständnis darüber, was sich auf den lync-Dienst im Unternehmen auswirken kann. Um die Verfügbarkeit und Qualität von lync Server 2013 zu gewährleisten, müssen die folgenden Überwachungstools mit der Bereitstellung der Referenzarchitektur einhergehen:
 
-### Monitoring tools
+### <a name="monitoring-tools"></a>Überwachungstools
 
 <table>
 <colgroup>
@@ -107,97 +127,97 @@ Building on the information obtained above we now have a greater understanding o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Component</th>
-<th>Description</th>
-<th>Applicable Site</th>
+<th>Komponente</th>
+<th>Beschreibung</th>
+<th>Anwendbare Website</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 Monitoring Server</p></td>
-<td><p>Deploy at least one Lync Server 2013 Monitoring Server role per Central site and configure Quality of Experience (QoE) Reporting Pack.</p>
-<p>Refer to the Lync Server 2013 Deployment documentation for further details:</p>
-<p><a href="lync-server-2013-deploying-monitoring.md">Bereitstellen des Monitoring Servers</a></p></td>
-<td><p>Central sites</p></td>
+<td><p>Lync Server 2013-Überwachungs Server</p></td>
+<td><p>Stellen Sie mindestens eine lync Server 2013 Monitoring Server-Rolle pro zentralen Standort bereit, und konfigurieren Sie das QoE-Berichterstattungs Paket (Quality of Experience).</p>
+<p>Weitere Informationen finden Sie in der Dokumentation zur lync Server 2013-Bereitstellung:</p>
+<p><a href="lync-server-2013-deploying-monitoring.md">Bereitstellen der Überwachung in lync Server 2013</a></p></td>
+<td><p>Zentrale Websites</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Tether each pool to its nearest instance of the Monitoring Server role.</p></td>
-<td><p>Central sites</p>
-<p>Branch sites</p></td>
+<td></td>
+<td><p>Binden Sie die einzelnen Pools an die nächstgelegene Instanz der Monitoring Server-Rolle.</p></td>
+<td><p>Zentrale Websites</p>
+<p>Zweigstellen</p></td>
 </tr>
 <tr class="odd">
 <td><p>System Center Operations Manager 2012</p></td>
-<td><p>System Center Operations Manager 2012 with the Microsoft Lync Server 2013 Management Pack (MP) imported.</p>
-<p>The Management Pack implements traditional Event Log and Performance counter based instrumentation is utilized as well as enabling newly available instrumentation in Lync Server 2013.</p></td>
-<td><p>Central sites</p></td>
+<td><p>System Center Operations Manager 2012 mit importiertem Microsoft lync Server 2013 Management Pack (MP).</p>
+<p>Das Management Pack implementiert herkömmliches Ereignisprotokoll und Leistungsindikator basierte Instrumentation sowie die Aktivierung der neu verfügbaren Instrumentation in lync Server 2013.</p></td>
+<td><p>Zentrale Websites</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Make sure that Central Discovery to discovery of roles and components that need to be monitored are automatically completed based on a central discovery script that reads the topology document published in Central Management Database.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p>
-<p>Edge Site</p></td>
+<td></td>
+<td><p>Stellen Sie sicher, dass die zentrale Ermittlung zur Erkennung von Rollen und Komponenten, die überwacht werden müssen, automatisch auf Grundlage eines zentralen Ermittlungsskripts abgeschlossen wird, das das in der zentralen Verwaltungsdatenbank veröffentlichte Topologie-Dokument liest.</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p>
+<p>Edge-Website</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Deploy System Centre Operations Manager 2007 agents to all deployed servers running Lync Server.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p>
-<p>Edge Site</p></td>
+<td></td>
+<td><p>Bereitstellen von System Center Operations Manager 2007-Agents für alle bereitgestellten Server mit lync Server</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p>
+<p>Edge-Website</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Make sure Prioritized Alerts are configured for notification:</p>
-<p>High Priority Alerts</p>
-<p>Medium Priority Alerts</p>
-<p>Other Alerts.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p>
-<p>Edge Site</p></td>
+<td></td>
+<td><p>Stellen Sie sicher, dass priorisierte Benachrichtigungen für Benachrichtigungen konfiguriert sind:</p>
+<p>Benachrichtigungen mit höherer Priorität</p>
+<p>Warnungen mittlerer Priorität</p>
+<p>Andere Benachrichtigungen.</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p>
+<p>Edge-Website</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Configure Port monitoring for your deployment.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p>
-<p>Edge Site</p></td>
+<td></td>
+<td><p>Konfigurieren Sie die Port Überwachung für Ihre Bereitstellung.</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p>
+<p>Edge-Website</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Configure URL monitoring for your deployment</p></td>
-<td><p>Central Site</p></td>
+<td></td>
+<td><p>Konfigurieren der URL-Überwachung für Ihre Bereitstellung</p></td>
+<td><p>Zentraler Standort</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync and System Center Operations Manager integration</p></td>
-<td><p>Deploy Call Reliability and Media Quality MonitoringCall reliability and media quality monitoring use the Monitoring-Server computer as their watcher node to monitor call reliability and media quality of Lync Server. Both of these features query the Monitoring-Server databases to do analysis.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p></td>
+<td><p>Integration von lync und System Center Operations Manager</p></td>
+<td><p>Bereitstellen von Anruf Zuverlässigkeit und Medienqualität MonitoringCall Zuverlässigkeit und Überwachung der Medienqualität verwenden Sie den Monitoring Server-Computer als Watcher-Knoten, um die Anruf Zuverlässigkeit und Medienqualität von lync Server zu überwachen. Beide Features Abfragen die Monitoring Server-Datenbanken, um die Analyse durchführen zu können.</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Ensure Media Quality warning thresholds are accurately configured. The following table indicates the maximum Network Mean Opinion Scores by Codec. In production these scores should be monitored for a set period and acceptable thresholds must be established based on the organization specific NMOS scores.</p></td>
-<td><p>Central Site</p>
-<p>Branch Site</p></td>
+<td></td>
+<td><p>Stellen Sie sicher, dass die Warnungsschwellenwerte für Medienqualität genau konfiguriert sind. In der folgenden Tabelle ist die maximale Anzahl von Netzwerk Mittelwerten nach Codec angegeben. In der Produktion sollten diese Bewertungen für einen festgelegten Zeitraum überwacht werden, und es müssen akzeptable Schwellenwerte basierend auf den organisationsspezifischen NMOS-Ergebnissen festgelegt werden.</p></td>
+<td><p>Zentraler Standort</p>
+<p>Verzweigungs Website</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 Synthetic Transaction Watcher</p></td>
-<td><p>Deploy a dedicated Lync Server to be a synthetic transaction watcher.</p>
-<p>Synthetic transactions are Lync Server 2013 Windows PowerShell cmdlets that are automatically triggered by the management pack on a predefined interval. These are executed on a synthetic transaction watcher node which is an administrator designated server responsible for discovery and execution of STs for each pool.</p>
-<p>We do not recommend that you use an existing Microsoft Lync Server 2013 server as a synthetic transaction watcher node. This is due to the high CPU/memory usage requirements for running STs. Use a new server computer (or a virtual server) for the synthetic transaction watcher node.</p></td>
-<td><p>Central Site</p></td>
+<td><p>Lync Server 2013, synthetischer Transaktionsmonitor</p></td>
+<td><p>Bereitstellen eines dedizierten lync-Servers als synthetischer Transaktionsmonitor</p>
+<p>Synthetische Transaktionen sind lync Server 2013 Windows PowerShell-Cmdlets, die vom Management Pack automatisch in einem vordefinierten Intervall ausgelöst werden. Diese werden auf einem synthetischen Transaktions Überwachungsknoten ausgeführt, bei dem es sich um einen vom Administrator benannten Server handelt, der für die Ermittlung und Ausführung von STS für jeden Pool verantwortlich ist.</p>
+<p>Es wird nicht empfohlen, einen vorhandenen Microsoft lync Server 2013-Server als synthetischer Transaktions Überwachungsknoten zu verwenden. Dies liegt an den Anforderungen an die CPU/Arbeitsspeichernutzung für die Ausführung von STS. Verwenden Sie einen neuen Server Computer (oder einen virtuellen Server) für den synthetischen Transaktions Überwachungsknoten.</p></td>
+<td><p>Zentraler Standort</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Deploying synthetic transactions watcher node.</p>
-<p>Refer to the MonitoringCS_withSCOM.docx document from UCTAP connect documentation.</p></td>
-<td><p>Central Site</p></td>
+<td></td>
+<td><p>Bereitstellen des Überwachungs Knotens für synthetische Transaktionen</p>
+<p>Beziehen Sie sich auf das MonitoringCS_withSCOM. docx-Dokument aus der UCTAP Connect-Dokumentation.</p></td>
+<td><p>Zentraler Standort</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Maximum Network MOS scores per codec
+### <a name="maximum-network-mos-scores-per-codec"></a>Maximale Anzahl von Netzwerk-Mos-Bewertungen Pro Codec
 
 <table>
 <colgroup>
@@ -207,40 +227,50 @@ Building on the information obtained above we now have a greater understanding o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Scenario</th>
+<th>Szenario</th>
 <th>Codec</th>
 <th>Max NMOS</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UC-UC call</p></td>
+<td><p>UC-UC-Anruf</p></td>
 <td><p>RTAudio WB</p></td>
-<td><p>4.10</p></td>
+<td><p>4,10</p></td>
 </tr>
 <tr class="even">
-<td><p>UC-UC call</p></td>
+<td><p>UC-UC-Anruf</p></td>
 <td><p>RTAudio NB</p></td>
-<td><p>2.95</p></td>
+<td><p>2,95</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conference call</p></td>
+<td><p>Telefonkonferenz</p></td>
 <td><p>Siren</p></td>
-<td><p>3.72</p></td>
+<td><p>3,72</p></td>
 </tr>
 <tr class="even">
-<td><p>UC-PSTN call</p></td>
+<td><p>UC – PSTN-Anruf</p></td>
 <td><p>RTAudio NB</p></td>
-<td><p>2.95</p></td>
+<td><p>2,95</p></td>
 </tr>
 <tr class="odd">
-<td><p>UC-PSTN call</p></td>
+<td><p>UC – PSTN-Anruf</p></td>
 <td><p>G-711</p></td>
-<td><p>3.61</p></td>
+<td><p>3,61</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Over and above the previous pro-active monitoring activities, maintenance tasks should be executed for Central, Edge and Branch sites on a recurring daily, weekly and monthly basis as defined in the Lync RA Operations Guide.
+Über die vorherigen proaktiven Überwachungsaktivitäten hinaus sollten Wartungsaufgaben für zentral-, Edge-und Verzweigungs Standorte regelmäßig täglich, wöchentlich und monatlich ausgeführt werden, wie im lync RA-Betriebshandbuch definiert.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,49 +1,77 @@
-﻿---
-title: 'Lync Server 2013: Verschieben von Benutzern zu Lync Online'
-TOCTitle: Verschieben von Benutzern zu Lync Online
-ms:assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204969(v=OCS.15)
-ms:contentKeyID: 49294294
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verschieben von Benutzern nach lync Online'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move users to Lync Online
+ms:assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204969(v=OCS.15)
+ms:contentKeyID: 48184392
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826661"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verschieben von Benutzern zu Lync Online in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Verschieben von Benutzern nach lync Online in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-05-29_
 
-Bevor Sie mit der Migration von Benutzern zu Lync Online beginnen, sollten Sie eine Sicherung der Benutzerdaten der zu verschiebenden Konten erstellen. Nicht alle Benutzerdaten werden mit dem Benutzerkonto verschoben. Informationen finden Sie unter [Anforderungen für die Sicherung und Wiederherstellung: Daten](lync-server-2013-backup-and-restoration-requirements-data.md).
+Bevor Sie mit der Migration von Benutzern zu lync Online beginnen, sollten Sie die Benutzerdaten sichern, die den zu verschiebenden Konten zugeordnet sind. Nicht alle Benutzerdaten werden mit dem Benutzerkonto verschoben. Informationen finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Daten](lync-server-2013-backup-and-restoration-requirements-data.md).
 
-## Migration von Benutzereinstellungen zu Lync Online
+<div>
+
+## <a name="migrate-user-settings-to-lync-online"></a>Migrieren von Benutzereinstellungen zu lync Online
 
 Benutzereinstellungen werden zusammen mit dem Benutzerkonto verschoben. Einige lokale Einstellungen werden jedoch nicht mit dem Benutzerkonto verschoben.
 
-## Verschieben von Pilotbenutzern nach Lync Online
+</div>
 
-Bevor Sie mit dem Verschieben von Benutzern nach Lync Online beginne, sollten Sie einige Pilotbenutzer verschieben, um sicherzustellen, dass Ihre Umgebung ordnungsgemäß konfiguriert ist. Anschließend können Sie überprüfen, ob Lync-Features und -Dienste erwartungsgemäß funktionieren, bevor Sie weitere Benutzer verschieben.
+<div>
 
-Zum Verschieben eines lokalen Benutzers zu Ihrem Skype for Business Online-Mandanten führen Sie in der Lync Server-Verwaltungsshell folgende Cmdlets aus und verwenden dabei die Administratoranmeldeinformationen für Ihren Microsoft Office 365-Mandanten. Ersetzen Sie "benutzername@contoso.com" mit den Informationen des zu verschiebenden Benutzers.
+## <a name="moving-pilot-users-to-lync-online"></a>Verschieben von Pilot Benutzern nach lync Online
 
+Bevor Sie beginnen, Benutzer nach lync online zu verschieben, möchten Sie möglicherweise einige Pilotbenutzer verschieben, um zu bestätigen, dass Ihre Umgebung ordnungsgemäß konfiguriert ist. Sie können dann überprüfen, ob die lync-Features und-Dienste wie erwartet funktionieren, bevor Sie versuchen, weitere Benutzer zu verschieben.
+
+Wenn Sie einen lokalen Benutzer in ihren lync Online-Mandanten verschieben möchten, führen Sie die folgenden Cmdlets in der lync Server-Verwaltungsshell aus, und verwenden Sie die Administratoranmeldeinformationen für Ihren Microsoft Office 365-Mandanten. Ersetzen Sie „benutzername@contoso.com“ mit den Informationen des zu verschiebenden Benutzers.
+
+   ```
     $creds=Get-Credential
+   ```
 
-   &nbsp;
-
+   ```
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+   ```
 
-Das Format der für den Parameter **HostedMigrationOverrideUrl** angegebenen URL muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, und muss folgendes Format haben: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
+Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format:\<https://Pool\>FQDN/HostedMigration/ hostedmigrationService. svc.
 
 Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto ermitteln.
 
-**So ermitteln Sie die URL des gehosteten Migrationsdiensts für Ihren Office 365-Mandanten**
+**So ermitteln Sie die URL des gehosteten Migrationsdiensts für Ihren Office 365-Mandanten**
 
-1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
+1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
 
-2.  Öffen Sie das **Lync Admin Center** .
+2.  Öffnen Sie das **lync Admin Center**.
 
-3.  Wenn das **Lync Admin Center** angezeigt wird, wählen Sie die URL in der Adressliste bis zu **lync.com** aus und kopieren Sie sie. Eine Beispiel-URL sieht ähnlich wie die folgende aus:
+3.  Wenn das **lync Admin Center** angezeigt wird, wählen Sie die URL in der Adressleiste bis zu **lync.com**aus, und kopieren Sie Sie. Eine Beispiel-URL sieht ähnlich wie die folgende aus:
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
@@ -57,23 +85,43 @@ Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Onl
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
-## Verschieben von Benutzern nach Lync Online
+</div>
 
-Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) mit dem Parameter "\\endash Filter" verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, z. B. RegistrarPool. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) weiterleiten, wie im folgenden Beispiel dargestellt.
+<div>
+
+## <a name="moving-users-to-lync-online"></a>Verschieben von Benutzern nach lync Online
+
+Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet " [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) " mit dem-Filter-Parameter verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, wie etwa RegistrarPool. Sie können die zurückgegebenen Benutzer dann an das Cmdlet [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) übergeben, wie im folgenden Beispiel gezeigt.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
-Sie können auch den Parameter "-OU" verwenden, um alle Benutzer in der angegebenen Organisationseinheit (Organizational Unit, OU) abzurufen, wie im folgenden Beispiel dargestellt.
+Sie können auch den Parameter „-OU“ verwenden, um alle Benutzer in der angegebenen Organisationseinheit (Organizational Unit, OU) abzurufen, wie im folgenden Beispiel dargestellt.
 
     Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds -HostedMigrationOverrideUrl <URL>
 
-## Überprüfen von Lync Online-Benutzereinstellungen und -Features
+</div>
+
+<div>
+
+## <a name="verify-lync-online-user-settings-and-features"></a>Überprüfen der lync Online-Benutzereinstellungen und-Features
 
 Mit folgenden Methoden können Sie überprüfen, ob ein Benutzer erfolgreich verschoben wurde:
 
-  - Zeigen Sie in der Lync Online-Systemsteuerung den Status des Benutzers an. Für lokale Benutzer und Onlinebenutzer werden unterschiedliche visuelle Indikatoren verwendet.
+  - Anzeigen des Status des Benutzers in der lync Online-Systemsteuerung. Für lokale und Onlinebenutzer werden unterschiedliche visuelle Indikatoren verwendet.
 
   - Führen Sie das folgende Cmdlet aus:
     
         Get-CsUser -Identity
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

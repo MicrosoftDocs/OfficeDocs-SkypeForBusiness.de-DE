@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung von Funktionen für öffentlichen Chat'
-TOCTitle: Unterstützung von Funktionen für öffentlichen Chat
-ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204732(v=OCS.15)
-ms:contentKeyID: 49293384
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Unterstützung von Funktionen für öffentlichen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Public instant messaging support
+ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204732(v=OCS.15)
+ms:contentKeyID: 48183582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9da9be8db34306fc95f84ebdd40abc26bffd15e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823658"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung von Funktionen für öffentlichen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Unterstützung von Funktionen für öffentlichen Chat in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-10-07_
 
-Lync Server 2013 unterstützt die Verwendung von Verbindungen mit lizenzierten öffentlichen Instant Messaging-Diensten sowie die Verwendung von XMPP (eXtensible Messaging and Presence Protocol) zum Implementieren eines speziellen Verbundtyps, der einem Lync Server den Zugriff auf konfigurierte XMPP-Domänenpartner mithilfe des Lync 2013-Clients ermöglicht.
+Lync Server 2013 unterstützt die Verwendung von lizenzierten öffentlichen Instant Messaging (im)-Verbindungs Anbietern sowie die Verwendung des Extensible Messaging and Presence Protocol (XMPP) zur Implementierung eines speziellen Föderations Typs, mit dem ein lync-Server auf das konfigurierte XMPP zugreifen kann. Domänen Partner mithilfe des lync 2013-Clients.
 
-## Unterstützung öffentlicher Instant\_Messaging-Dienste
+<div>
 
-Derzeit unterstützte Partner für Verbindungen mit öffentlichen Instant Messaging-Diensten:
+## <a name="public-im-connectivity-provider-support"></a>Unterstützung für öffentliche Chat-Konnektivitäts-Anbieter
+
+Die derzeit unterstützten öffentlichen Instant Messaging-Verbindungspartner sind:
 
   - America Online
 
@@ -27,25 +49,45 @@ Derzeit unterstützte Partner für Verbindungen mit öffentlichen Instant Messa
 
   - Yahoo\!
 
-Für die Kommunikation mit Windows Live-Benutzern unterstützt Lync Server 2013 Peer-zu-Peer-Chatnachrichten sowie Audio- und Videoanrufe. Für die Kommunikation mit AOL und Yahoo\! unterstützt Lync Server 2013 Peer-zu-Peer-Chatnachrichten. Möglicherweise ist eine separate Lizenz erforderlich.
+Für die Kommunikation mit Windows Live-Benutzern unterstützt lync Server 2013 Peer-to-Peer-Chats sowie Audio-und Videoanrufe. Für die Kommunikation mit AOL und\!Yahoo unterstützt lync Server 2013 Peer-to-Peer-Chats. Möglicherweise ist eine separate Lizenz erforderlich.
+
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September 2012 kann die Microsoft Lync-Benutzerabonnementlizenz für die Verbindung mit öffentlichen Chatdiensten ("PIC USL") nicht mehr neu erworben werden, und Verträge können nicht verlängert werden. Kunden mit aktiven Lizenzen können den Partnerverbund mit Yahoo! Messenger weiterhin nutzen, bis der Dienst eingestellt wird. Als Datum der Einstellung des Diensts für AOL und Yahoo! wurde Juni 2014 angekündigt. Einzelheiten hierzu finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.</P>
+> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei PIC&nbsp;USL handelt es sich um eine Abonnementlizenz pro Benutzer und pro Monat, die für Lync&nbsp;Server oder Office&nbsp;Communications&nbsp;Server zum Einrichten eines Partnerverbunds mit Yahoo! Messenger erforderlich ist. Die Bereitstellung dieses Services durch Microsoft hing von der Unterstützung durch Yahoo! ab, deren zugrundeliegende Vereinbarung ausläuft.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync Standard CAL. Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
 
 
 
-## Unterstützung des XMPP-Verbunds
+</div>
 
-Der XMPP-Verbund unterstützt die Kommunikation von Lync-Benutzern mit konfigurierten XMPP-Domänenbenutzern, die einen öffentlichen Anbieter wie GTalk nutzen. Die Kommunikation mit diesen Benutzern kann Folgendes beinhalten:
+</div>
 
-  - Peer-zu-Peer-Chatnachrichten und Anwesenheit
+<div>
 
-  - Erstellung von XMPP-Verbundkontakten im Lync-Client
+## <a name="xmpp-federation-support"></a>Unterstützung für XMPP-Föderation
+
+Die XMPP-Föderation unterstützt die Kommunikation von lync-Benutzern mit konfigurierten XMPP-Domänenbenutzern, die einen öffentlichen Anbieter wie GTalk verwenden. Die Kommunikation mit diesen Benutzern kann Folgendes umfassen:
+
+  - Peer-zu-Peer-Chat und Anwesenheit
+
+  - Erstellen von XMPP-verbundkontakten im lync-Client
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,77 +1,114 @@
-﻿---
-title: 'Lync Server 2013: Neue Konferenzfunktionen'
-TOCTitle: Neue Konferenzfunktionen
-ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413085(v=OCS.15)
-ms:contentKeyID: 49296020
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Neue Konferenzfunktionen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New conferencing features
+ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)
+ms:contentKeyID: 48185966
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b3436abea9f520c790195d28cd0fed5eaccd013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826479"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Neue Konferenzfunktionen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Neue Konferenzfunktionen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-08_
 
-Mit Lync Server 2013 werden verschiedene neue Features zur Erweiterung der Konferenzfunktion eingeführt, die in der folgenden Liste beschrieben werden.
+Lync Server 2013 führt verschiedene neue Features ein, die die Konferenz verbessern, wie in der folgenden Liste beschrieben.
 
   - **Join Launcher**
     
-    In Lync Server 2013 wurde der Join Launcher aktualisiert, sodass nun jede Besprechung überprüft wird, bevor ein Client gestartet wird, und das Öffnen einer Besprechung auf folgenden Clients unterstützt wird:
+    Lync Server 2013 aktualisiert das Startprogramm für Teilnehmer, um jede Besprechung vor dem Start eines Clients zu überprüfen und Unterstützung für das Öffnen einer Besprechung in den folgenden Clients bereitzustellen:
     
-      - Windows Phone 7
+      - Windows Phone 7
     
       - Android-Geräte
     
-      - Apple iOS-Geräte
+      - Apple IOS-Geräte
     
       - Windows 8
     
       - Internet Explorer 10
 
-  - **Aktualisierte Freigabe von PowerPoint-Präsentationen**
+  - **Aktualisierte PowerPoint-Freigabe**
     
-    In Lync Server 2013 werden PowerPoint-Präsentationen jetzt mit Office Web Apps und Office Web Apps Server (zuvor WAC Server) gehandhabt. Die Verwendung von Office Web Apps Server ermöglicht eine höher auflösende Anzeige, eine umfassendere Unterstützung von PowerPoint-Funktionen und Zugriff auf mehr Typen von Mobilgeräten ( Lync Server 2013 verwendet Standard-DHTML und JavaScript zum Übertragen von PowerPoint-Präsentationen) und erlaubt es Benutzern mit den entsprechenden Berechtigungen, eine PowerPoint-Präsentation unabhängig von der eigentlichen Präsentation durchzublättern.
+    In lync Server 2013 werden jetzt Office Web Apps und der Office Web Apps-Server (vormals als "" "als" "" bekannter Server für die Verwendung von PowerPoint) verwendet. Die Verwendung von Office Web Apps Server ermöglicht Displays mit höherer Auflösung und eine bessere Unterstützung für PowerPoint-Funktionen, den Zugriff auf weitere Arten von mobilen Geräten (lync Server 2013 verwendet Standard DHTML und JavaScript zum Übertragen von PowerPoint-Präsentationen), und die Möglichkeit für Benutzer, die über die entsprechenden Berechtigungen verfügen, um unabhängig von der Präsentation selbst in einer PowerPoint-Präsentation zu scrollen.
 
-  - **Katalogansicht und HD-Videokonferenzen**
+  - **Katalogansicht und HD-Video Konferenzen**
     
-    In Videokonferenzen können die Benutzer Videos von bis zu fünf Konferenzteilnehmern gleichzeitig ansehen.
+    In Videokonferenzen können Benutzer gleichzeitig Videos von bis zu fünf Konferenzteilnehmern sehen.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Die Katalogansicht wird in Konferenzen mit bis zu 75 Teilnehmern angezeigt. Sobald die Konferenz mehr als 75 Teilnehmer umfasst, wird auf die Einzelansicht zurückgeschaltet.
+    > [!NOTE]  
+    > Die Katalogansicht wird in Konferenzen mit bis zu 75 Teilnehmern erlebt. Wenn die Konferenz größer als 75-Teilnehmer wird, wird die Erfahrung auf die Einzelansicht zurückgesetzt.
 
-
+    
+    </div>
 
   - **HD-Video**
     
-    Die Benutzer können Anrufe mit zwei Teilnehmern und Konferenzen mit mehreren Teilnehmern in Auflösungen bis zu HD 1080P durchführen.
+    Die Benutzer können Auflösungen bis zu HD 1080p in zwei-Parteien-anrufen und Mehrparteienkonferenzen erleben.
 
-  - **Modus nur Referentenvideo**
+  - **Nur Referenten Video Modus**
     
-    Der Referent kann die Konferenz so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dieser Modus hilft, in großen Konferenzen Ablenkungen zu vermeiden, wenn mehrere Videostreams aus verschiedenen Quellen verfügbar sind. Dieser Modus gilt auch für Videos, die von Konferenzgeräten aufgezeichnet und bereitgestellt werden.
+    Referenten können die Konferenz so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dieser Modus verhindert Ablenkungen in umfangreichen Konferenzen, wenn mehrere Videostreams verfügbar sind und für verschiedene Quellen gesperrt werden. Dieser Modus gilt auch für Video, das von Konferenz Geräten aufgenommen und bereitgestellt wird.
 
   - **Videospotlight**
     
-    Der Referent kann die Konferenz so konfigurieren, dass nur das Video eines ausgewählten Teilnehmers, der eine Videoquelle ist, von allen Konferenzteilnehmern gesehen wird. Dieser Modus gilt auch für Videos, die von Konferenzgeräten für Panoramavideo aufgezeichnet und bereitgestellt werden.
+    Referenten können die Konferenz so konfigurieren, dass nur das Video von einem ausgewählten Teilnehmer, der eine Videoquelle ist, von jedem in der Konferenz gesehen wird. Dieser Modus gilt auch für Videoaufnahmen, die von Konferenz Geräten für Panorama Video aufgenommen und bereitgestellt werden.
 
-  - **Hinauswahlkonferenzen für Nicht-Enterprise-VoIP-Benutzer**
+  - **Einwahlkonferenzen für nicht-Enterprise-VoIP-Benutzer**
     
-    In Lync Server 2013 können Teilnehmer, die nicht für Enterprise-VoIP aktiviert sind, jetzt ausgehende Anrufe von einer Konferenz aus tätigen. Dieses Feature kann vom Administrator konfiguriert werden.
+    Lync Server 2013 ermöglicht jetzt Teilnehmern, die keine Enterprise-VoIP sind, das Initiieren von Wähl Anrufen von einer Besprechungs Konferenz aus. Dieses Feature kann vom Administrator konfiguriert werden.
 
-  - **Archivieren**
+  - **Archivierung**
     
-    Jedes Dokument, das während einer Konferenz freigegeben wird, wird im Exchange 2013-Datenspeicher archiviert, wenn die Exchange Server-Integration mit der Archivierung aktiviert ist. Dies umfasst PowerPoint-Präsentationen, Anlagen, Whiteboards und Abstimmungen.
+    Jedes Dokument, das während einer Konferenz freigegeben wurde, wird in Exchange 2013-Datenspeicher archiviert, wenn die Exchange Server-Integration mit der Archivierung aktiviert ist. Dazu gehören PowerPoint-Präsentationen,-Anlagen,-Whiteboards und-Umfragen.
 
-  - **Anpassung von Besprechungseinladungen**
+  - **Anpassung der Besprechungseinladung**
     
-    Administratoren können E-Mail-Einladungen für Onlinebesprechungen mithilfe der Lync Server-Systemsteuerung oder der Lync Server-Verwaltungsshell anpassen. Solche Anpassungen können z. B. URLs für Logos, Hilfetext, juristischen Text und Fußzeilentext betreffen. Alle nachfolgend erstellten Einladungen enthalten dann diese Anpassungen.
+    Administratoren können e-Mail-Einladungen für Onlinebesprechungen mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell anpassen. Anpassungen können URLs für Logos, Hilfetext, juristischen Text und Fußzeilentext umfassen. Alle nachfolgenden Einladungen beinhalten die Anpassungen.
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Planen von Konferenzen in Lync Server 2013](lync-server-2013-planning-for-conferencing.md)
+
+[Planen von Konferenzen in Lync Server 2013](lync-server-2013-planning-for-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

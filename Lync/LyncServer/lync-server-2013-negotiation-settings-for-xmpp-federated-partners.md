@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Aushandlungseinstellungen für XMPP-Verbundpartner'
-TOCTitle: Aushandlungseinstellungen für XMPP-Verbundpartner
-ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ552456(v=OCS.15)
-ms:contentKeyID: 49295835
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aushandlungseinstellungen für XMPP-Verbundpartner'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Negotiation settings for XMPP federated partners
+ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)
+ms:contentKeyID: 48679567
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 02d72870e4060be6aa4ec428159af7ab19cb68b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826710"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aushandlungseinstellungen für XMPP-Verbundpartner in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Aushandlungseinstellungen für XMPP-Verbundpartner in Lync Server 2013
 
-Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Partners können die unterschiedlichsten Kombinationen annehmen. Doch nicht alle diese Kombinationen sind gültig. In der Tabelle in diesem Abschnitt werden die gültigen und die ungültigen Einstellungen beschrieben. Gängige Konfigurationen sind in der ersten Tabelle enthalten, die zweite Tabelle ist eine Auflistung aller möglichen Kombinationen. Beachten Sie, dass Sie *Simple Authentication and Security Layer* (SASL) **nur dann** verwenden können, wenn auch *Transport Layer Security* (TLS) verfügbar ist. SASL wird in einem unverschlüsselten (lesbaren) Format gesendet und sollte nie übertragen werden, es sei denn, es besteht Schutz durch einen anderen Mechanismus wie etwa TLS.
+</div>
 
-### Gängige XMPP-Partnerverbund-Aushandlungsmethoden
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-21_
+
+Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Partners haben eine Vielzahl möglicher Kombinationen. Nicht alle diese Kombinationen sind gültig. In der in diesem Thema beschriebenen Tabelle werden die gültigen und ungültigen Einstellungen definiert. Allgemeine Konfigurationen werden in der ersten Tabelle dargestellt, der zweiten Tabelle, in der alle möglichen Kombinationen aufgeführt sind. Beachten Sie, dass Sie keine *einfache Authentifizierungs-und Sicherheitsschicht* (SASL) haben können, **es sei denn** , *Transport Layer Security* (TLS) steht ebenfalls zur Verfügung. SASL wird in einem unverschlüsselten (lesbaren) Format gesendet und sollte niemals übertragen werden, es sei denn, es wird durch ein anderes Mittel wie TLS geschützt.
+
+### <a name="common-xmpp-federation-negotiation-methods"></a>Allgemeine Methoden zur XMPP-Föderations Verhandlung
 
 <table>
 <colgroup>
@@ -30,46 +50,46 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <thead>
 <tr class="header">
 <th>Transport Layer Security (TLS)</th>
-<th>Simple Authentication and Security Layer (SASL)</th>
-<th>Rückrufauthentifizierung</th>
-<th>Erwartete Authentifizierungsmethode(n)</th>
+<th>Einfache Authentifizierungs-und Sicherheitsschicht (SASL)</th>
+<th>Dialback-Authentifizierung</th>
+<th>Erwartete Authentifizierungsmethode (n)</th>
 <th>Hinweise</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td><p> Erforderlich</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>Erforderlich</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>SASL über TLS</p></td>
-<td><p>Wenn TLS und SASL auf <strong>Erforderlich</strong> festgelegt werden, kann damit sichergestellt werden, dass der SASL-Nachrichtenstream sicher ist. Rückruf ist nicht verfügbar und kann nicht für eine Fallbackmethode verwendet werden, wenn für den XMPP-Verbundpartner TLS nicht auf <strong>Erforderlich</strong> oder <strong>Optional</strong> festgelegt ist.</p></td>
+<td><p>TLS und SASL sind hilfreich, um sicherzustellen, dass der SASL-Nachrichtendatenstrom sicher ist. Dialback ist nicht verfügbar und kann nicht für eine Fallback-Methode verwendet werden, wenn der XMPP-Verbundpartner TLS nicht auf Required oder optional gesetzt hat.</p></td>
 </tr>
 <tr class="even">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
 <td><p>True</p></td>
-<td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
-<td><p>Wenn TLS auf <strong>Erforderlich</strong> festgelegt wird, wird SASL verwendet, wenn für den XMPP-Verbundpartner SASL auf <strong>Optional</strong> oder <strong>Erforderlich</strong> festgelegt ist. Ist SASL nicht verfügbar, wird Rückruf über TLS verwendet.</p></td>
+<td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
+<td><p>Wenn der XMPP-Föderationspartner SASL auf optional oder erforderlich SASL gesetzt hat, wird eine TLS-Anforderung verwendet. Wenn SASL nicht zur Verfügung steht, wird Dialback über TLS verwendet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Optional</p></td>
+<td><p>Optional </p></td>
 <td><p>Optional</p></td>
 <td><p>True</p></td>
-<td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
-<td><p>Diese Einstellungen sind zwar sehr flexibel hinsichtlich der angebotenen Aushandlungsmethoden, erfordern aber die Einstellungen des XMPP-Verbundpartners. Wenn für den Partner TLS auf <strong>Optional</strong> oder <strong>Erforderlich</strong> festgelegt ist, SASL aber nicht unterstützt wird, ist TLS-Rückruf verfügbar. Wenn für den Partner TLS und SASL auf <strong>Optional</strong> oder <strong>Erforderlich</strong> festgelegt sind, wird die optimale Auswahl von TLS über SASL verwendet.</p></td>
+<td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
+<td><p>Obwohl die angebotenen Verhandlungsmethoden sehr flexibel sind, basieren diese Einstellungen auf den Einstellungen des XMPP-Verbundpartners. Wenn der Partner TLS optional oder erforderlich hat, aber SASL nicht unterstützt wird, steht TLS-Dialback zur Verfügung. Wenn der Partner TLS und SASL auf optional oder required eingestellt hat, wird die optimale Auswahl von TLS über SASL verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 <td><p>True</p></td>
-<td><p>TCP-Rückruf</p></td>
-<td><p>In vielen Fällen ist TCP-Rückruf die einzig mögliche Lösung. Das ist zwar weniger optimal als andere Optionen, bietet aber ein bestimmtes Maß an Vertrauenswürdigkeit.</p></td>
+<td><p>TCP-Dialback</p></td>
+<td><p>In vielen Fällen ist TCP-Dialback die einzige mögliche Lösung. Weniger wünschenswert als andere Optionen, bietet dies ein gewisses Maß an Vertrauen.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Schema der XMPP-Partnerverbund-Aushandlungsmethoden (vollständig)
+### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a>XMPP-Verbund-Aushandlungs Methoden-Matrix – abgeschlossen
 
 <table>
 <colgroup>
@@ -82,42 +102,42 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <thead>
 <tr class="header">
 <th>Transport Layer Security (TLS)</th>
-<th>Simple Authentication and Security Layer (SASL)</th>
-<th>Rückrufauthentifizierung</th>
+<th>Einfache Authentifizierungs-und Sicherheitsschicht (SASL)</th>
+<th>Dialback-Authentifizierung</th>
 <th>Erwartete Authentifizierungsmethode</th>
-<th>Anmerkungen, Warnung oder Fehler wegen ungültiger Konfiguration</th>
+<th>Hinweise, Warnung oder Fehler für ungültige Konfiguration</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Erforderlich</p></td>
+<td><p> Erforderlich</p></td>
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
 <td><p>SASL über TLS</p></td>
 <td><div>
 
-> [!WARNING]
-> Rückruf funktioniert nicht, wenn sowohl SASL als auch TLS erforderlich ist.
+> [!WARNING]  
+> Dialback wird nicht ausgeführt, wenn sowohl SASL als auch TLS erforderlich sind.
 
 
 </div></td>
 </tr>
 <tr class="even">
+<td><p> Erforderlich</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>Erforderlich</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>SASL über TLS</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
-<td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
+<td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -125,12 +145,12 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="even">
 <td><p>Optional</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>SASL über TLS</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -139,11 +159,11 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
-<td><p>TCP-Rückruf</p></td>
+<td><p>TCP-Dialback</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -151,18 +171,18 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Ungültige Konfiguration
 
 
 </div></td>
 <td><div>
 
-> [!WARNING]
-> Da SASL TLS erfordert und TLS nicht verfügbar ist, SASL/TLS kann nicht erfolgreich sein. TCP-Rückruf ist auf <STRONG>False</STRONG> festgelegt und kann nicht verwendet werden.
+> [!WARNING]  
+> Da SASL TLS erfordert und TLS nicht zur Verfügung steht, kann SASL/TLS nicht erfolgreich sein. TCP Dialback ist auf "false" festgelegt und kann nicht verwendet werden.
 
 
 </div></td>
@@ -171,38 +191,38 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
 <td><p>True</p></td>
-<td><p>SASL über TLS, TLS-Rückruf</p></td>
-<td><p></p></td>
+<td><p>SASL über TLS, TLS-Dialback</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>SASL über TLS</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Optional</p></td>
+<td><p>Optional </p></td>
 <td><p>Optional</p></td>
 <td><p>True</p></td>
-<td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
+<td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
 </tr>
 <tr class="even">
+<td><p>Optional </p></td>
 <td><p>Optional</p></td>
-<td><p>Optional</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>SASL über TLS</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -211,11 +231,11 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>Optional</p></td>
 <td><p>True</p></td>
-<td><p>TCP-Rückruf</p></td>
+<td><p>TCP-Dialback</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -223,18 +243,18 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Optional</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><div>
 
-> [!WARNING]
+> [!WARNING]  
 > Ungültige Konfiguration
 
 
 </div></td>
 <td><div>
 
-> [!WARNING]
-> SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
+> [!WARNING]  
+> SASL erfordert TLS. Wenn Sie zulassen, dass TLS optional ist, kann dies zu fehlgeschlagenen Sitzungs Verhandlungen führen.
 
 
 </div></td>
@@ -243,18 +263,18 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>Nicht unterstützt</p></td>
 <td><p>True</p></td>
-<td><p>TLS-Rückruf</p></td>
-<td><p>Konfiguration erlaubt TLS-Rückruf.</p></td>
+<td><p>TLS-Dialback</p></td>
+<td><p>Die Konfiguration ermöglicht TLS-Dialback.</p></td>
 </tr>
 <tr class="even">
 <td><p>Erforderlich</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>Ungültige Konfiguration</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL oder Rückruf muss aktiviert sein.
+> [!WARNING]  
+> SASL oder Dialback muss aktiviert sein.
 
 
 </div></td>
@@ -263,18 +283,18 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Optional</p></td>
 <td><p>Nicht unterstützt</p></td>
 <td><p>True</p></td>
-<td><p>TLS-Rückruf, TCP-Rückruf</p></td>
-<td><p>Je nach den Aushandlungsoptionen am anderen Endpunkt wird TCP- oder TLS-Rückruf akzeptiert.</p></td>
+<td><p>TLS-Dialback, TCP-Dialback</p></td>
+<td><p>Basierend auf den Aushandlungs Optionen des anderen Endpunkts werden TCP-oder TLS-Dialback akzeptiert.</p></td>
 </tr>
 <tr class="even">
 <td><p>Optional</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>Ungültige Konfiguration</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL oder Rückruf muss aktiviert sein.
+> [!WARNING]  
+> SASL oder Dialback muss aktiviert sein.
 
 
 </div></td>
@@ -283,22 +303,33 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 <td><p>True</p></td>
-<td><p>TCP-Rückruf</p></td>
-<td><p>TCP-Rückruf ist die einzige verfügbare Aushandlungsmethode</p></td>
+<td><p>TCP-Dialback</p></td>
+<td><p>TCP-Dialback ist die einzige verfügbare Aushandlungsmethode.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>False</p></td>
+<td><p>Falsch</p></td>
 <td><p>Ungültige Konfiguration</p></td>
 <td><div>
 
-> [!WARNING]
-> SASL oder Rückruf muss aktiviert sein.
+> [!WARNING]  
+> SASL oder Dialback muss aktiviert sein.
 
 
 </div></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

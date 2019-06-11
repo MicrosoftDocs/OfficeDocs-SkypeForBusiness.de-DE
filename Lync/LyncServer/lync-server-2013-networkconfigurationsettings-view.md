@@ -1,21 +1,41 @@
-﻿---
-title: NetworkConfigurationSettings-Ansicht
-TOCTitle: NetworkConfigurationSettings-Ansicht
-ms:assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688003(v=OCS.15)
-ms:contentKeyID: 49890674
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: NetworkConfigurationSettings-Ansicht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: NetworkConfigurationSettings view
+ms:assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688003(v=OCS.15)
+ms:contentKeyID: 49733591
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cce3a1c86cde1a28607c770bc1b224b41f09012a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826437"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# NetworkConfigurationSettings-Ansicht
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>NetworkConfigurationSettings-Ansicht in lync Server 2013
 
-In der Ansicht **NetworkConfigurationSettings** werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+
+In der NetworkConfigurationSettings-Ansicht werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -35,18 +55,29 @@ In der Ansicht **NetworkConfigurationSettings** werden Informationen zur Netzwer
 <tr class="odd">
 <td><p>SubnetIP</p></td>
 <td><p>int</p></td>
-<td><p>Subnetz-IP-Adresse (nur IPv4-Adressen werden unterstützt).</p></td>
+<td><p>IP-Adresse des Subnetzes (nur IPv4-Adressen werden unterstützt).</p></td>
 </tr>
 <tr class="even">
 <td><p>UserSiteName</p></td>
 <td><p>nvarchar (128)</p></td>
-<td><p>Der Name des Benutzerstandorts.</p></td>
+<td><p>Der Websitename des Benutzers.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RegionName</p></td>
 <td><p>nvarchar (128)</p></td>
-<td><p>Der Name des Lands/der Region des Benutzers.</p></td>
+<td><p>Name des Landes/der Region des Benutzers.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
