@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing LIS server configuration'
+---
+title: 'Lync Server 2013: Testen der LIS-Serverkonfiguration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing LIS server configuration
 ms:assetid: 6b06e7ab-522f-41a2-878b-e89cd4e3c6da
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn690129(v=OCS.15)
-ms:contentKeyID: 62281051
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690129(v=OCS.15)
+ms:contentKeyID: 63969614
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 8e5baed37e4c72da8b8348dab9702b5d22fbbc5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847494"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing LIS server configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a><span data-ttu-id="ca0f1-102">Testen der LIS-Serverkonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca0f1-102">Testing LIS server configuration in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ca0f1-103">_**Letztes Änderungsdatum des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="ca0f1-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -23,113 +43,139 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p><span data-ttu-id="ca0f1-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="ca0f1-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="ca0f1-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="ca0f1-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p><span data-ttu-id="ca0f1-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="ca0f1-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="ca0f1-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ca0f1-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p><span data-ttu-id="ca0f1-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="ca0f1-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="ca0f1-109">Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="ca0f1-110">Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsLisConfiguration-Cmdlets verfügt.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet.</span></span> <span data-ttu-id="ca0f1-111">Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service. If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.
+## <a name="description"></a><span data-ttu-id="ca0f1-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ca0f1-112">Description</span></span>
 
-## Running the test
+<span data-ttu-id="ca0f1-113">Das Cmdlet Test-CsLisConfiguration überprüft Ihre Fähigkeit, den LIS-Webdienst zu kontaktieren.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-113">The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service.</span></span> <span data-ttu-id="ca0f1-114">Wenn der Webdienst kontaktiert werden kann, wird der Test als Erfolg betrachtet, unabhängig davon, ob bestimmte Speicherorte gefunden werden können.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-114">If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.</span></span>
 
-The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="ca0f1-115">Ausführen des Tests</span><span class="sxs-lookup"><span data-stu-id="ca0f1-115">Running the test</span></span>
+
+<span data-ttu-id="ca0f1-116">Das Cmdlet "Test-CsLisConfguration" kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-116">The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="ca0f1-117">Um diese Überprüfung mit einem Testkonto auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-117">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="ca0f1-118">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-118">For example:</span></span>
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:
+<span data-ttu-id="ca0f1-119">Damit diese Überprüfung mit einem tatsächlichen Benutzerkonto ausgeführt werden kann, müssen Sie zuerst ein Windows PowerShell-Anmeldeinformationsobjekt erstellen, das den Kontonamen und das Kennwort enthält.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-119">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="ca0f1-120">Sie müssen das Anmeldeinformationen-Objekt und die SIP-Adresse, die dem Konto zugewiesen ist, beim Aufrufen von Test-CsLisConfiguration einfügen:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-120">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsLisConfiguration) cmdlet.
+<span data-ttu-id="ca0f1-121">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="ca0f1-121">For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet.</span></span>
 
-## Determining success or failure
+</div>
 
-If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/
+## <a name="determining-success-or-failure"></a><span data-ttu-id="ca0f1-122">Ermitteln von Erfolg oder Misserfolg</span><span class="sxs-lookup"><span data-stu-id="ca0f1-122">Determining success or failure</span></span>
 
-liservice.svc
+<span data-ttu-id="ca0f1-123">Wenn der LIS ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als erfolgreich markiert ist **:**</span><span class="sxs-lookup"><span data-stu-id="ca0f1-123">If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="ca0f1-124">TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/</span><span class="sxs-lookup"><span data-stu-id="ca0f1-124">TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/</span></span>
 
-Result : Success
+<span data-ttu-id="ca0f1-125">liservice. svc</span><span class="sxs-lookup"><span data-stu-id="ca0f1-125">liservice.svc</span></span>
 
-Latency : 00:00:06.1616913
+<span data-ttu-id="ca0f1-126">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ca0f1-126">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error :
+<span data-ttu-id="ca0f1-127">Ergebnis: Erfolg</span><span class="sxs-lookup"><span data-stu-id="ca0f1-127">Result : Success</span></span>
 
-Diagnosis :
+<span data-ttu-id="ca0f1-128">Latenz: 00:00:06.1616913</span><span class="sxs-lookup"><span data-stu-id="ca0f1-128">Latency : 00:00:06.1616913</span></span>
 
-If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+<span data-ttu-id="ca0f1-129">Fehler</span><span class="sxs-lookup"><span data-stu-id="ca0f1-129">Error :</span></span>
 
-TargetUri :
+<span data-ttu-id="ca0f1-130">Diagnose</span><span class="sxs-lookup"><span data-stu-id="ca0f1-130">Diagnosis :</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="ca0f1-131">Wenn sich der angegebene Benutzer nicht anmelden oder sich abmelden kann, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-131">If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-Result : Failure
+<span data-ttu-id="ca0f1-132">TargetUri</span><span class="sxs-lookup"><span data-stu-id="ca0f1-132">TargetUri :</span></span>
 
-Latency : 00:00:00
+<span data-ttu-id="ca0f1-133">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ca0f1-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error : 11004, The requested name is valid but no data of the requested
+<span data-ttu-id="ca0f1-134">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="ca0f1-134">Result : Failure</span></span>
 
-type was found
+<span data-ttu-id="ca0f1-135">Latenz: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="ca0f1-135">Latency : 00:00:00</span></span>
 
-Diagnosis :
+<span data-ttu-id="ca0f1-136">Fehler: 11004, der angeforderte Name ist gültig, aber keine Daten der angeforderten</span><span class="sxs-lookup"><span data-stu-id="ca0f1-136">Error : 11004, The requested name is valid but no data of the requested</span></span>
 
-Test-CsLisConfiguration : No matching cluster found in topology.
+<span data-ttu-id="ca0f1-137">Typ wurde gefunden</span><span class="sxs-lookup"><span data-stu-id="ca0f1-137">type was found</span></span>
 
-For example, the previous output includes the note “No matching cluster found in topology.” That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.
+<span data-ttu-id="ca0f1-138">Diagnose</span><span class="sxs-lookup"><span data-stu-id="ca0f1-138">Diagnosis :</span></span>
 
-If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:
+<span data-ttu-id="ca0f1-139">Test-CsLisConfiguration: kein übereinstimmender Cluster in der Topologie gefunden.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-139">Test-CsLisConfiguration : No matching cluster found in topology.</span></span>
+
+<span data-ttu-id="ca0f1-140">Die vorherige Ausgabe enthält beispielsweise die Notiz "kein übereinstimmender Cluster in Topologie gefunden".</span><span class="sxs-lookup"><span data-stu-id="ca0f1-140">For example, the previous output includes the note “No matching cluster found in topology.”</span></span> <span data-ttu-id="ca0f1-141">Dies weist in der Regel auf ein Problem mit dem Edgeserver hin: der LIS, der den Edgeserver verwendet, um eine Verbindung mit dem Dienstanbieter herzustellen und Adressen zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-141">That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.</span></span>
+
+<span data-ttu-id="ca0f1-142">Wenn Test-CsLisConfiguration fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-142">If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+<span data-ttu-id="ca0f1-143">Wenn der Verbose-Parameter enthalten ist, gibt Test-CsLisConfiguration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft wurde.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-143">When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="ca0f1-144">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-144">For example:</span></span>
 
-Calling Location Information Service.
+<span data-ttu-id="ca0f1-145">Standortinformationsdienst für Anrufe.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-145">Calling Location Information Service.</span></span>
 
-Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+<span data-ttu-id="ca0f1-146">Dienstpfad =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="ca0f1-146">Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span></span>
 
-Subnet =
+<span data-ttu-id="ca0f1-147">Subnet =</span><span class="sxs-lookup"><span data-stu-id="ca0f1-147">Subnet =</span></span>
 
-BssId = 5
+<span data-ttu-id="ca0f1-148">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="ca0f1-148">BssId = 5</span></span>
 
-ChassisId =
+<span data-ttu-id="ca0f1-149">Fahrgestell-Nr =</span><span class="sxs-lookup"><span data-stu-id="ca0f1-149">ChassisId =</span></span>
 
-PortId =
+<span data-ttu-id="ca0f1-150">Port-Nr =</span><span class="sxs-lookup"><span data-stu-id="ca0f1-150">PortId =</span></span>
 
-PortIdSubType = Undefined Type
+<span data-ttu-id="ca0f1-151">PortIdSubType = undefined Type</span><span class="sxs-lookup"><span data-stu-id="ca0f1-151">PortIdSubType = Undefined Type</span></span>
 
-Mac
+<span data-ttu-id="ca0f1-152">Mac</span><span class="sxs-lookup"><span data-stu-id="ca0f1-152">Mac</span></span>
 
-An exception 'Location Information Web Service request has failed with a response code Item400.' occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.
+<span data-ttu-id="ca0f1-153">Eine Ausnahme "Standortinformationen-Webdienstanforderung ist mit einem Antwortcode-Item400 fehlgeschlagen."</span><span class="sxs-lookup"><span data-stu-id="ca0f1-153">An exception 'Location Information Web Service request has failed with a response code Item400.'</span></span> <span data-ttu-id="ca0f1-154">während des Workflows Microsoft. RTC. SyntheticTrsnactions. Workflows. STLisConfigurationWorkflow-Ausführung aufgetreten.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-154">occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.</span></span>
 
-If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service. One of the parameters that were used in that call was this:
+<span data-ttu-id="ca0f1-155">Wenn Sie die vorherige Ausgabe genau untersuchen, sehen Sie, dass das Cmdlet nach dem Versuch, den standortinformationsdienst aufzurufen, fehlgeschlagen ist.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-155">If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service.</span></span> <span data-ttu-id="ca0f1-156">Einer der Parameter, die in diesem Aufruf verwendet wurden, war:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-156">One of the parameters that were used in that call was this:</span></span>
 
-BssId = 5
+<span data-ttu-id="ca0f1-157">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="ca0f1-157">BssId = 5</span></span>
 
-That’s not a valid value for the Basic Service Set Identifier (BssID). Instead, a BssID should resemble this:
+<span data-ttu-id="ca0f1-158">Dies ist kein gültiger Wert für die grundlegende Dienst Satz-ID (BssID).</span><span class="sxs-lookup"><span data-stu-id="ca0f1-158">That’s not a valid value for the Basic Service Set Identifier (BssID).</span></span> <span data-ttu-id="ca0f1-159">Stattdessen sollte eine BssID wie folgt aussehen:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-159">Instead, a BssID should resemble this:</span></span>
 
-12-34-56-78-90-ab
+<span data-ttu-id="ca0f1-160">12-34-56-78-90-ab</span><span class="sxs-lookup"><span data-stu-id="ca0f1-160">12-34-56-78-90-ab</span></span>
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsLisConfiguration might fail:
+<div>
 
-  - An incorrect parameter value was supplied. As shown in the previous example, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="ca0f1-161">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="ca0f1-161">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="ca0f1-162">Nachfolgend finden Sie einige häufige Gründe, warum Test-CsLisConfiguration möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="ca0f1-162">Here are some common reasons why Test-CsLisConfiguration might fail:</span></span>
+
+  - <span data-ttu-id="ca0f1-163">Es wurde ein falscher Parameterwert angegeben.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-163">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="ca0f1-164">Wie im vorherigen Beispiel gezeigt, müssen die optionalen Parameter richtig konfiguriert sein, oder der Test schlägt fehl.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-164">As shown in the previous example, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="ca0f1-165">Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.</span><span class="sxs-lookup"><span data-stu-id="ca0f1-165">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

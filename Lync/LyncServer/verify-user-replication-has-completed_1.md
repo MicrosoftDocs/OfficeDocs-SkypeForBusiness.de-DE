@@ -1,35 +1,69 @@
-﻿---
-title: Sicherstellen, dass die Benutzerreplikation abgeschlossen ist
-TOCTitle: Sicherstellen, dass die Benutzerreplikation abgeschlossen ist
-ms:assetid: 199dc9de-b555-468f-a42a-9e92ea6c9053
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204712(v=OCS.15)
-ms:contentKeyID: 49293321
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Überprüfen, ob die Benutzerreplikation abgeschlossen wurde
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify user replication has completed
+ms:assetid: 199dc9de-b555-468f-a42a-9e92ea6c9053
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204712(v=OCS.15)
+ms:contentKeyID: 48183524
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 13f4fbd2e0d0236f9dc404ffa84ab2f0ce385e2a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846970"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sicherstellen, dass die Benutzerreplikation abgeschlossen ist
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="53c7d-102">Überprüfen, ob die Benutzerreplikation abgeschlossen wurde</span><span class="sxs-lookup"><span data-stu-id="53c7d-102">Verify user replication has completed</span></span>
 
-Wenn Sie das Cmdlet **Move-CsLegacyUser** ausführen, tritt möglicherweise ein Fehler auf, wenn die Benutzerinformationen nicht vollständig zwischen AD DS (Active Directory Domain Services) Lync Server 2013-Datenbank synchronisiert sind, da die erste Replikation nicht vollständig abgeschlossen wurde. Die Dauer der erfolgreichen ersten Synchronisierung durch den Lync Server 2013-Benutzerreplikationsdienst hängt von der Anzahl der Domänencontroller ab, die in der Active Directory-Gesamtstruktur enthalten sind und als Host für den Lync Server 2013-Pool dienen. Der erste Synchronisierungsvorgang des Lync Server 2013-Benutzerreplikationsdienstes beginnt, wenn der Lync Server 2013 zum ersten Mal gestartet wird. Danach wird die Synchronisierungshäufigkeit durch das Benutzerreplikationsintervall bestimmt. Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Benutzerreplikation erfolgreich abgeschlossen wurde, bevor Sie das Cmdlet **Move-CsLegacyUser** ausführen.
+</div>
 
-## So überprüfen Sie, dass die Benutzerreplikation abgeschlossen wurde
+<div id="mainSection">
 
-1.  Klicken Sie auf dem Lync Server 2013-Front-End-Server auf das **Startmenü** und dann auf **Ausführen** .
+<div id="mainBody">
 
-2.  Geben Sie **eventvwr.exe** ein, und klicken Sie dann auf **OK** .
+<span> </span>
 
-3.  Klicken Sie in der Ereignisanzeige auf **Anwendungs- und Dienstprotokolle** , um die Ansicht zu erweitern, und wählen Sie dann Lync Server aus.
+<span data-ttu-id="53c7d-103">_**Letztes Änderungsdatum des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="53c7d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  Klicken Sie im Bereich **Aktion** auf **Aktuelles Protokoll filtern** .
+<span data-ttu-id="53c7d-104">Bei der Ausführung des Cmdlets **Move-CsLegacyUser** tritt möglicherweise ein Fehler auf, da die Benutzerinformationen zwischen den Active Directory-Domänendiensten (AD DS) und den lync Server 2013-Datenbanken nicht synchronisiert werden, da die anfängliche Replikation unvollständig ist.</span><span class="sxs-lookup"><span data-stu-id="53c7d-104">When running the **Move-CsLegacyUser** cmdlet, you may experience a failure due to user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases being out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="53c7d-105">Die Zeit, die für den erfolgreichen Abschluss der ersten Synchronisierung des lync Server 2013-Benutzerreplikationsdiensts benötigt wird, hängt von der Anzahl der Domänencontroller ab, die in der Active Directory-Gesamtstruktur gehostet werden, die den lync Server 2013-Pool hostet.</span><span class="sxs-lookup"><span data-stu-id="53c7d-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="53c7d-106">Der erst Synchronisierungsvorgang des lync Server 2013-Benutzerreplikationsdiensts erfolgt, wenn der lync Server 2013-Front-End-Server zum ersten Mal gestartet wird.</span><span class="sxs-lookup"><span data-stu-id="53c7d-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="53c7d-107">Danach basiert die Synchronisierung auf dem Intervall des Benutzerreplikationsdiensts.</span><span class="sxs-lookup"><span data-stu-id="53c7d-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="53c7d-108">Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Benutzerreplikation abgeschlossen ist, bevor Sie das Cmdlet **Move-CsLegacyUser** ausführen.</span><span class="sxs-lookup"><span data-stu-id="53c7d-108">Complete the following steps to verify user replication has completed before running the **Move-CsLegacyUser** cmdlet.</span></span>
 
-5.  Klicken Sie in der Liste **Ereignisquellen** auf **LS User Replicator** .
+<div>
 
-6.  Geben Sie unter **\<All Event IDs\>** den Wert **30024** ein, und klicken Sie dann auf **OK** .
+## <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="53c7d-109">So überprüfen Sie, ob die Benutzerreplikation abgeschlossen ist</span><span class="sxs-lookup"><span data-stu-id="53c7d-109">To verify that user replication has completed</span></span>
 
-7.  Suchen Sie in der gefilterten Ereignisliste auf der Registerkarte **Allgemein** nach einem Eintrag, der besagt, dass die Benutzerreplikation erfolgreich abgeschlossen wurde.
+1.  <span data-ttu-id="53c7d-110">Klicken Sie auf dem lync Server 2013-Front-End-Server auf das **Startmenü** , und klicken Sie dann auf **Ausführen**.</span><span class="sxs-lookup"><span data-stu-id="53c7d-110">From the Lync Server 2013 Front End server, click the **Start** menu, and then click **Run**.</span></span>
+
+2.  <span data-ttu-id="53c7d-111">Geben Sie **eventvwr. exe** ein, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="53c7d-111">Enter **eventvwr.exe** and then click **OK**.</span></span>
+
+3.  <span data-ttu-id="53c7d-112">Klicken Sie in der Ereignisanzeige auf **Anwendungen und Dienstprotokolle** , um Sie zu erweitern, und wählen Sie dann lync Server aus.</span><span class="sxs-lookup"><span data-stu-id="53c7d-112">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
+
+4.  <span data-ttu-id="53c7d-113">Klicken Sie im Bereich **Aktionen** auf **Aktuelles Protokoll filtern**.</span><span class="sxs-lookup"><span data-stu-id="53c7d-113">In the **Actions** pane click **Filter Current Log**.</span></span>
+
+5.  <span data-ttu-id="53c7d-114">Klicken Sie in der Liste **Ereignisquellen** auf **ls-Benutzer Replikations**Dienst.</span><span class="sxs-lookup"><span data-stu-id="53c7d-114">From the **Event sources** list, click **LS User Replicator**.</span></span>
+
+6.  <span data-ttu-id="53c7d-115">Geben Sie in \*\* \<alle\> Ereignis-IDs\*\* **30024** ein, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="53c7d-115">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="53c7d-116">Suchen Sie in der Liste Gefilterte Ereignisse auf der Registerkarte **Allgemein** nach einem Eintrag, der besagt, dass die Benutzerreplikation erfolgreich abgeschlossen wurde.</span><span class="sxs-lookup"><span data-stu-id="53c7d-116">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
