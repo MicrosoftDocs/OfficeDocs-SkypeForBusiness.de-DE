@@ -31,7 +31,7 @@ Zu den neuen Funktionen in Skype for Business Server 2019 gehören die folgenden
 
 Exchange um bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird die Exchange um-Integration zu Gunsten der Features Cloud Voicemail und Cloud-automatische Telefonzentrale de-hervorgehoben.  
 
-Cloud Voicemail ermöglicht alle Ihre Skype for Business 2019 users& # x2014; unabhängig davon, ob Sie lokal oder online& # x2014 sind, um in der Microsoft-Cloud Zugriff auf denselben Voicemaildienst zu haben. Cloud Voicemail bietet die folgenden Vorteile für Ihre lokalen und Online Benutzer:
+Mit Cloud Voicemail können alle Ihre Skype for Business 2019-Benutzer&#x2014;, ob Sie lokal oder Online&#x2014;auf den gleichen Voicemaildienst in der Microsoft-Cloud zugreifen können. Cloud Voicemail bietet die folgenden Vorteile für Ihre lokalen und Online Benutzer:
 
 - Zugriff auf Voicemail in Ihrem Exchange-Postfach mithilfe der Skype for Business Online-, Teams-oder Outlook-Clients
 - Möglichkeit zur Verwendung des webbasierten Portals zum Verwalten der Voicemail-Optionen

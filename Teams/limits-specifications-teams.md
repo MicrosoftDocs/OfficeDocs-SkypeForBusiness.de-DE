@@ -3,7 +3,7 @@ title: Grenzwerte und Spezifikationen für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802615"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857406"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -49,7 +49,6 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
-|Anzahl der Personen in einem privaten Chat  | 50    |
 
 ## <a name="storage"></a>Speicher
 
@@ -67,7 +66,7 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
 |Beschränkung des Dateiuploads (pro Datei)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Jede Dateienregisterkarte in Teams wird in einem SharePoint Online-Backend ausgeführt. Die Speichergrenzwerte oben gelten also für jeden Kanal in einem Team.
+Kanäle werden durch Ordner in der für das Team erstellten SharePoint Online-Websitesammlung gesichert, sodass Dateiregisterkarten in Kanälen die Speichergrenzwerte des Teams teilen, dem Sie angehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Grenzwerte](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -77,15 +76,16 @@ Benutzer, die an Gesprächen teilnehmen, die Teil der Chat-Liste in Microsoft Te
 
 Die Chat-Funktion von Microsoft Teams funktioniert in einem Microsoft Exchange-Backend, damit Sie die Grenzwerte für das Exchange-Messaging auf die Chat-Funktion in Microsoft Teams anwenden können. Wenn Benutzer eine E-Mail an einen Kanal in Teams senden möchten, verwenden sie die E-Mail-Adresse des Kanals. Wenn eine E-Mail Teil eines Kanals ist, kann jeder antworten, um eine Unterhaltung zu beginnen. Hier einige geltende Grenzwerte zum Senden von E-Mails an einen Kanal: 
 
-|Feature  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
-|---------|---------|---------|---------|---------|
-|Grenzwert für Nachrichtengröße &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Grenzwert für Dateianlagen &Dagger;  |10     |10     |10     |10    |
-|Grenzwert für Inlinegrafiken &Dagger; |50   |50   |50   |50   |
+|Feature  | Obergrenze  |
+|---------|---------|
+|Anzahl der Personen in einem privaten Chat  | 100    |
+|Nachrichtengröße&dagger;  |25 KB   |
+|Anzahl der Dateianlagen&Dagger;  |10     |
+|Anzahl der Inline Bilder&Dagger; |50   |
 
 &dagger; Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschaunachricht generiert und der Benutzer wird gebeten, die Original-E-Mail aus dem bereitgestellten Link anzuzeigen/herunterzuladen.
 
-&Dagger; Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet und eine NDR-E-Mail mit einer Benachrichtigung über den Fehler zurück an den Absender gesendet.
+&Dagger;Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet, und eine NDR-e-Mail wird an den Absender zurückgesendet, der Sie über den Fehler benachrichtigt.
 
 > [!NOTE]
 > Die Grenzwerte für Nachrichtengröße, Dateianlagen und Inline Bilder sind für alle Office 365-Lizenzen identisch.

@@ -1,50 +1,57 @@
-﻿---
-title: Zuweisen einer Benutzerrichtlinie für gehostete Voicemail
-TOCTitle: Zuweisen einer Benutzerrichtlinie für gehostete Voicemail
-ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398919(v=OCS.15)
-ms:contentKeyID: 49295515
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Zuweisen einer Benutzerrichtlinie für gehostete Voicemail
+title: 'Lync Server 2013: Zuweisen einer pro Benutzer gehosteten Voicemail-Richtlinie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user hosted voice mail policy
+ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398919(v=OCS.15)
+ms:contentKeyID: 48185456
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2202e1b4c03eb25d12e46c3a533313a54bc76c4f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847892"
+---
+# <a name="assign-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a>Zuweisen einer pro Benutzer gehosteten Voicemail-Richtlinie in lync Server 2013
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-07_
 
-Die Bereitstellung einer oder mehrerer Benutzerrichtlinien für gehostete Voicemail ist optional. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie diese Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen.
+Das Bereitstelleneiner oder mehrerer pro Benutzer gehosteter Voicemail-Richtlinien ist optional. Wenn Sie Richtlinien für einzelne Benutzer bereitstellen, müssen Sie diese explizit Benutzern, Gruppen oder Kontaktobjekten zuweisen.
 
-Ausführliche Informationen zum Zuweisen von Richtlinien für gehostete Voicemail auf Benutzerebene und zum Entfernen von Zuweisungen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
+Details zum Zuweisen oder Entfernen der Zuweisung von Richtlinien für gehostete Voicemail pro Benutzer finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
 
   - Grant-CsHostedVoicemailPolicy
 
   - Remove-CsHostedVoicemailPolicy
 
-## So weisen Sie eine Benutzerrichtlinie für gehostete Voicemail zu
+## <a name="to-assign-a-per-user-hosted-voice-mail-policy"></a>So weisen Sie eine pro Benutzer gehostete Voicemail-Richtlinie zu
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "Grant-CsHostedVoicemailPolicy" aus, um die Benutzerrichtlinie für gehostete Voicemail einzelnen Benutzern, Gruppen oder Kontaktobjekten zuzuweisen. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Cmdlet Grant-CsHostedVoicemailPolicy aus, um die Richtlinie für pro Benutzer gehostete Voicemail einzelnen Benutzern, Gruppen und Kontaktobjekten zuzuweisen. Führen Sie beispielsweise den folgenden Befehl aus:
     
         Grant-CsHostedVoicemailPolicy -Identity "Ken Myer" -PolicyName ExRedmond
     
-    In diesem Beispiel wird die Richtlinie für gehostete Voicemail "ExRedmond" dem Benutzer Ken Myer zugewiesen.
+    In diesem Beispiel wurde dem Benutzer Ken Myers die Richtlinie für die gehostete Voicemail-e-Mail zugewiesen.
     
-    **Identity** gibt die Identität des zu ändernden Benutzerkontos an. Der Wert "Identity" kann unter Verwendung eines der folgenden Formate angegeben werden:
+    **Identity** gibt das zu ändernde Benutzerkonto an. Der Identity-Wert kann mit einem der folgenden Formate angegeben werden:
     
-      - SIP-Adresse des Benutzers
+      - Die SIP-Adresse des Benutzers
     
-      - Active Directory-Benutzerprinzipalname des Benutzers
+      - Name des Active Directory-Benutzerprinzipals des Benutzers
     
-      - Domänenanmeldename des Benutzers (zum Beispiel "contoso\\kenmyer")
+      - Der Domänen\\Anmeldename des Benutzers (beispielsweise contoso\\kenmyer)
     
-      - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn der Anzeigename als Identitätswert verwendet wird, können Sie das Sternchen (\*) als Platzhalterzeichen nutzen. Der Identitätswert "\* Smith" gibt beispielsweise alle Benutzer zurück, deren Anzeigename auf den Zeichenfolgenwert "Smith" endet.
+      - Der Anzeige Name des Active Directory-Domänen Dienstes des Benutzers (beispielsweise Ken Myers). Wenn Sie den Anzeigenamen als Identitätswert verwenden, können Sie das Platzhalterzeichen Sternchen\*() verwenden. Die Identität "\* Smith" gibt beispielsweise alle Benutzer zurück, die einen Anzeigenamen aufweisen, der mit dem Zeichenfolgenwert "Smith" endet.
     
 
-    > [!NOTE]
-    > Der Active Directory-SAM-Kontoname eines Benutzers kann nicht als Identitätswert verwendet werden, da dieser Name innerhalb der Gesamtstruktur nicht unbedingt eindeutig ist.
+    > [!NOTE]  
+    > Der Name des Active Directory-SAM-Kontos des Benutzers kann nicht als Identitätswert verwendet werden, da der Name des SAM-Kontos in der Gesamtstruktur nicht unbedingt eindeutig ist.
 
 

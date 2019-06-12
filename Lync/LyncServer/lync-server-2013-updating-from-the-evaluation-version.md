@@ -1,53 +1,87 @@
-﻿---
-title: Ausführen eines Updates von der Evaluierungsversion von Lync Server 2013
-TOCTitle: Ausführen eines Updates von der Evaluierungsversion von Lync Server 2013
-ms:assetid: 62a88180-4289-4a2a-9cb9-1b9899344a63
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg521005(v=OCS.15)
-ms:contentKeyID: 49294197
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktualisieren von der Evaluierungsversion'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Updating from the evaluation version of Lync Server 2013
+ms:assetid: 62a88180-4289-4a2a-9cb9-1b9899344a63
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521005(v=OCS.15)
+ms:contentKeyID: 48184294
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b00fed276229cbaf0e960e28e622e490fb0bfbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847420"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen eines Updates von der Evaluierungsversion von Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Aktualisieren von der Evaluierungsversion von lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-06-20_
 
-Wenn Sie die Evaluierungsversion von Microsoft Lync Server 2013 installiert haben, müssen Sie diese Version spätestens 180 Tage nach der Installation mit einer lizenzierten Kopie der Software aktualisieren. Es ist jedoch nicht notwendig, die Evaluierungsversion vollständig zu deinstallieren und anschließend die lizenzierte Version zu installieren. Stattdessen können Sie nach dem Erhalt eines gültigen Lizenzschlüssels die Evaluierungsversion von Lync Server 2013 aktualisieren, indem Sie die folgenden Schritte auf jedem Computer ausführen, der als Lync Server Front-End-Server, Director oder Edgeserver genutzt wird. Beachten Sie, dass Computer, die für andere Serverrollen (z. B. Monitoring-Server oder Archivierungsserver) verwendet werden, nicht aktualisiert werden müssen.
+Wenn Sie die Evaluierungsversion von Microsoft lync Server 2013 installiert haben, müssen Sie diese Installation eventuell mit einer lizenzierten Kopie der Software aktualisieren. Das liegt daran, dass die Evaluierungsversion 180 Tage nach der Installation abläuft. Sie müssen die Evaluierungsversion jedoch nicht vollständig deinstallieren und dann die lizenzierte Version installieren. Nachdem Sie einen gültigen Lizenzierungsschlüssel erhalten haben, können Sie stattdessen die Evaluierungsversion von lync Server 2013 aktualisieren, indem Sie auf jedem Computer, der als lync Server-Front-End-Server,-Director oder-Edgeserver fungiert, die folgenden Schritte ausführen. Beachten Sie, dass Sie keine Computer aktualisieren müssen, die andere Serverrollen ausführen, beispielsweise einen Überwachungsserver oder einen Archivierungsserver.
 
-## Aktualisieren der Evaluierungsversion von Microsoft Lync Server 2013
+<div>
 
-So aktualisieren Sie einen Computer von der Evaluierungsversion auf die lizenzierte Version von Lync Server 2013
+## <a name="updating-from-the-evaluation-version-of-microsoft-lync-server-2013"></a>Aktualisieren von der Evaluierungs Version von Microsoft lync Server 2013
 
-**Aktualisieren der Evaluierungsversion von Microsoft Lync Server 2013**
+So aktualisieren Sie einen Computer aus der Evaluierungsversion von lync Server 2013 auf die lizenzierte Version der Software:
 
-1.  Melden Sie sich beim Computer als lokaler Administrator an.
+**Aktualisieren von der Evaluierungs Version von Microsoft lync Server 2013**
 
-2.  Klicken Sie auf **Start**, **Alle Programme**, **Microsoft Lync Server 2013**, und klicken Sie dann auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich als lokaler Administrator am Computer an.
 
-3.  Geben Sie in der Lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
+2.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+
+3.  Geben Sie in der lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
     
         msiexec.exe /fvomus server.msi EVALTOFULL=1 /qb
     
-    Möglicherweise müssen Sie den vollständigen Pfad zur Datei SERVER.MSI angeben. Diese Datei befindet sich im Ordner SETUP der Lync Server-Medieninstallationsdateien.
+    Beachten Sie, dass Sie möglicherweise den vollständigen Pfad zur Dateiserver. msi angeben müssen. Diese Datei befindet sich im Setup-Ordner der lync Server Volume Media-Installationsdateien.
 
-4.  Nach der Ausführung von Setup geben Sie an einer Eingabeaufforderung den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
+4.  Nachdem die Ausführung von Setup beendet wurde, geben Sie Folgendes an der Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
     
         Enable-CsComputer
 
-5.  Wiederholen Sie diese Vorgehensweise auf allen anderen Front-End-Server, Directors oder Edgeserver, auf denen eine Evaluierungskopie von Lync Server ausgeführt wird. Dieses Verfahren sollten Sie auch auf Zweigstellenservern ausführen, die mithilfe der Lync Server-Medieninstallationsdateien bereitgestellt wurden.
+5.  Wiederholen Sie diesen Vorgang auf jedem anderen Front-End-Server, Director oder Edgeserver, auf dem eine Evaluierungskopie von lync Server ausgeführt wird. Dieses Verfahren sollte auch für alle Branch Office-Server ausgeführt werden, die mithilfe der lync Server Media-Installationsdateien bereitgestellt wurden.
 
-Wenn Sie bei einem bestimmten Computer nicht sicher sind, ob auf ihm die Evaluierungsversion von Lync Server ausgeführt wird, können Sie dies durch Eingabe des folgenden Befehls in der Lync Server-Verwaltungsshell überprüfen:
+Wenn Sie nicht sicher sind, ob die Evaluierungsversion von lync Server auf einem bestimmten Computer ausgeführt wird, können Sie dies überprüfen, indem Sie den folgenden Befehl in der lync Server-Verwaltungsshell ausführen:
 
     Get-CsServerVersion
 
-Das Cmdlet [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) analysiert den lokalen Computer und gibt eine der folgenden Informationen zurück:
+Mit dem Cmdlet [Get-CsServerVersion](https://docs.microsoft.com/powershell/module/skype/Get-CsServerVersion) wird der lokale Computer analysiert und eine der folgenden Berichte zurückgemeldet:
 
-  - Auf dem Computer ist der Lync Server-Volumenlizenzschlüssel installiert, sodass keine Aktualisierung erforderlich ist.
+  - , Dass der lync Server-Volumenlizenzschlüssel auf dem Computer installiert wurde, was bedeutet, dass keine Aktualisierung erforderlich ist.
 
-  - Auf dem Computer ist der Lync Server-Volumenlizenzschlüssel nicht installiert, daher ist eine Aktualisierung erforderlich.
+  - , Dass der lync Server-Evaluierungslizenz Schlüssel installiert wurde, was bedeutet, dass der Computer aktualisiert werden muss.
 
-  - Auf dem Computer ist kein Volumenlizenzschlüssel erforderlich. Die Aktualisierung der Evaluierungsversion auf die lizenzierte Version ist nur auf Front-End-Servern, Directors und Edgeservern notwendig.
+  - , Dass auf dem Computer kein Volumenlizenzschlüssel erforderlich ist. Das Aktualisieren von der Evaluierungsversion auf die lizenzierte Version ist nur auf Front-End-Servern, Directors und Edge-Servern erforderlich.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

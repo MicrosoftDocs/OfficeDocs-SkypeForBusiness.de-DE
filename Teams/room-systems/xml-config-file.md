@@ -73,38 +73,38 @@ Wenn die XML-Datei schlecht geformt ist (was bedeutet, dass ein Variablenwert vo
 |Element|Typ|Ebene|Verwendung|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |Container für alle Elemente.   ||Erforderlich.   |
-| \<AutoScreenShare\>  |Boolescher & # x2777;  |First & # x2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
-|\<HideMeetingName\>   |Boolescher & # x2777;  |First & # x2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.   |
-|\<Benutzerkonto\>   |Container   |First & # x2776;  |Container für Anmeldeinformationen-Parameter.   Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel<span></span>identisch, beispielsweise RanierConf @contoso. com.   |
-|\<SkypeMeetingsEnabled\>  |Boolescher & # x2777;  |First & # x2776;  |Diese Option ist standardmäßig aktiviert.   |
-|\<SkypeSignInAddress\>   |Zeichenfolge & # x2778;  ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.   |
-|\<ExchangeAddress\>   |Zeichenfolge & # x2778;  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.   Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.    |
-|\<Domain User Name\>   |Zeichenfolge & # x2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.   |
+| \<AutoScreenShare\>  |Boolescher #a0  |Erste #a0  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
+|\<HideMeetingName\>   |Boolescher #a0  |Erste #a0  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.   |
+|\<Benutzerkonto\>   |Container   |Erste #a0  |Container für Anmeldeinformationen-Parameter.   Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel<span></span>identisch, beispielsweise RanierConf @contoso. com.   |
+|\<SkypeMeetingsEnabled\>  |Boolescher #a0  |Erste #a0  |Diese Option ist standardmäßig aktiviert.   |
+|\<SkypeSignInAddress\>   |Zeichenfolge #a0  ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.   |
+|\<ExchangeAddress\>   |Zeichenfolge #a0  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.   Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.    |
+|\<Domain User Name\>   |Zeichenfolge #a0  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.   |
 |\<Kennwort\>   |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
-| \<ConfigureDomain\>  |Zeichenfolge & # x2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten.   |
-|\<TeamsMeetingsEnabled\>   |Boolescher & # x2777;  |First & # x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind.   |
-|\<IsTeamsDefaultClient> |Boolescher & # x2777;  |First & # x2776;  |Diese ist standardmäßig deaktiviert. |
-|\<BluetoothAdvertisementEnabled> |Boolescher & # x2777;  |First & # x2776;  |Diese Option ist standardmäßig aktiviert. |
-|\<DualScreenMode\>  |Boolescher & # x2777;  |First & # x2776;  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Einzelbildschirmmodus.   |
-|\<SendLogs\>   |Container   |First & # x2776;  ||
-|\<EmailAddressForLogsAndFeedback\>   |Zeichenfolge & # x2778;  ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.    |
-|\<SendLogsAndFeedback\>   |Boolescher & # x2777;  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
-| \<Geräte\>  |Container   |First & # x2776;  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
-|\<MicrophoneForCommunication\>   |Zeichenfolge & # x2778;  ||Legt das Mikrofon fest, das als Aufnahmegerät in einer Konferenz verwendet wird.   |
-|\<SpeakerForCommunication\>   |Zeichenfolge & # x2778;  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird.   |
-|\<DefaultSpeaker\>   |Zeichenfolge & # x2778;  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.    |
-| \<Design\>  |Container   |First & # x2776;  |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben.   |
-|\<ThemeName\>   |Zeichenfolge & # x2778;  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen sollten immer den Namen *Custom* verwenden. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Anwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten: <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
-|\<CustomThemeImageUrl\>   |Zeichenfolge & # x2778;  ||Bei Verwendung eines benutzerdefinierten Designs erforderlich, andernfalls optional. Weitere Informationen zum benutzerdefinierten Design Bild finden Sie unten im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .  |
+| \<ConfigureDomain\>  |Zeichenfolge #a0  ||Sie können mehrere durch Kommata getrennte Domänen auflisten.   |
+|\<TeamsMeetingsEnabled\>   |Boolescher #a0  |Erste #a0  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind.   |
+|\<IsTeamsDefaultClient> |Boolescher #a0  |Erste #a0  |Diese ist standardmäßig deaktiviert. |
+|\<BluetoothAdvertisementEnabled> |Boolescher #a0  |Erste #a0  |Diese Option ist standardmäßig aktiviert. |
+|\<DualScreenMode\>  |Boolescher #a0  |Erste #a0  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Einzelbildschirmmodus.   |
+|\<SendLogs\>   |Container   |Erste #a0  ||
+|\<EmailAddressForLogsAndFeedback\>   |Zeichenfolge #a0  ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.    |
+|\<SendLogsAndFeedback\>   |Boolescher #a0  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
+| \<Geräte\>  |Container   |Erste #a0  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
+|\<MicrophoneForCommunication\>   |Zeichenfolge #a0  ||Legt das Mikrofon fest, das als Aufnahmegerät in einer Konferenz verwendet wird.   |
+|\<SpeakerForCommunication\>   |Zeichenfolge #a0  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird.   |
+|\<DefaultSpeaker\>   |Zeichenfolge #a0  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.    |
+| \<Design\>  |Container   |Erste #a0  |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben.   |
+|\<ThemeName\>   |Zeichenfolge #a0  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen sollten immer den Namen *Custom* verwenden. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Anwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten: <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
+|\<CustomThemeImageUrl\>   |Zeichenfolge #a0  ||Bei Verwendung eines benutzerdefinierten Designs erforderlich, andernfalls optional. Weitere Informationen zum benutzerdefinierten Design Bild finden Sie unten im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .  |
 |\<CustomThemeColor\>   |Container   ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". diese Werte sind bei Verwendung eines benutzerdefinierten Designs erforderlich.   |
 |\<Komponente\>   |Byte (0-255)   ||Stellt die rote Komponente dar.   |
 |\<GreenComponent\>   |Byte (0-255)   ||Stellt die grüne Komponente dar.   |
 |\<BlueComponent\>   |Byte (0-255)   ||Stellt die blaue Komponente dar.   |
 | | | |
    
-&#x2776; Alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
+&#x2776; alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
   
-&#x2777; Ein boolesches Flag kann einen der folgenden Werte aufweisen: true, false, 0 oder 1. Leere boolesche oder numerische Werte führen möglicherweise zu einer fehlerhaften Darstellung der XML-Datei, und die Einstellungen können nicht angewendet werden.
+&#x2777; ein boolesches Flag kann einen der folgenden Werte aufweisen: true, false, 0 oder 1. Leere boolesche oder numerische Werte führen möglicherweise zu einer fehlerhaften Darstellung der XML-Datei, und die Einstellungen können nicht angewendet werden.
   
  &#x2778; Wenn ein Zeichenfolgenparameter vorhanden, leer und leer ein gültiger Wert ist, wird der Parameter auf dem Gerät gelöscht.
   

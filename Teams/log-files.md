@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219779"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857398"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -50,7 +50,7 @@ Eine vollständige Liste der unterstützten Betriebssysteme und Browser finden S
 <a name="debug-logs"></a>Debugprotokolle
 ---------------------------
 
-Dies sind die am häufigsten verwendeten Protokolle und für alle Microsoft Support-Anfragen sind erforderlich. Debug-Protokolle werden von der Windows- und Mac-Desktopclients als auch browserbasierte Clients erzeugt. Die Protokolle sind Text basieren und werden von unten nach oben lesen. Mit einem beliebigen-basierten Texteditor gelesen werden können und neue Protokolle werden erstellt, wenn sich der Client anmelden.
+Dies sind die am häufigsten verwendeten Protokolle, die für alle Microsoft-Supportfälle erforderlich sind. Debug-Protokolle werden von den Windows-und Mac-Desktop Clients sowie browserbasierten Clients erstellt. Die Protokolle sind Text basiert und werden von unten nach oben gelesen. Sie können mithilfe eines beliebigen textbasierten Editors gelesen und neue Protokolle erstellt werden, wenn Sie sich beim Client anmelden.
 
 Debugprotokolle zeigen die folgenden Datenflüsse:
 
@@ -86,8 +86,12 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 
 |Client |Speicherort |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-Stack\*ETL         |
+|Windows     |%APPDATA%\Microsoft\Teams\media-Stack\*. Blog         |
+|            |%APPDATA%\Microsoft\Teams\skylib\*. Blog
+|            |%APPDATA%\Microsoft\Teams\media-Stack\*. ETL         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/Application Support/Microsoft/Teams/skylib\*. Blog         |
+
 
 
 <a name="desktop-logs"></a>Desktopprotokolle
@@ -99,7 +103,7 @@ Windows:
 
 1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
 
-Mac OSX ausgeführt werden:
+Mac OSX:
 
 1.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
 

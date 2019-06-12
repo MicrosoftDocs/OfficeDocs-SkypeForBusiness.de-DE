@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Messen Sie die Ergebnisse der Bereitstellung Audiokonferenzen und stellen Sie sicher, dass Sie die Ergebnisse erzielt haben, werden sollte.
+description: Messen Sie die Ergebnisse ihrer Audiokonferenz-Bereitstellung, und überprüfen Sie, ob Sie die gewünschten Ergebnisse erzielt haben.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -22,23 +22,23 @@ ms.locfileid: "33402211"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Audiokonferenzen für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
+In diesem Artikel finden Sie eine Übersicht über die Anforderungen zum Definieren von Erfolg für die Bereitstellung von Audiokonferenzen für Ihre Organisation. Wenn Sie den Erfolg richtig definieren, können Sie die Ergebnisse während der Bereitstellung Messen und sicherstellen, dass die von Ihnen gesuchten Ergebnisse die gewünschten Ergebnisse aufweisen.
 
 <!--ENDOFSECTION-->
 
 ## <a name="define-business-use-cases-for-audio-conferencing"></a>Definieren von Geschäftsanwendungsfällen für Audiokonferenzen
 
-Audiokonferenzen bietet Organisationen mit zusätzlichen Einstiegspunkten für alle Besprechungen (ad-hoc- oder geplanten) durch Zulassen der Besprechungsteilnehmer, um sich mit herkömmlichen Festnetz, PBX-Anlage oder Mobiltelefone erreichen, indem er über das Telefonfestnetz (PSTN) teilnehmen.
+Audiokonferenz bietet Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (Ad-hoc-oder geplant), indem Besprechungsteilnehmer über ein öffentliches Telefonnetz (PSTN) teilnehmen können, indem Sie sich über herkömmliche Festnetztelefone, Telefonanlagen oder Handys einwählen.
 
-Dies ist hilfreich, wenn der Organisator oder Teilnehmer vor einem Computer werden nicht, oder wenn datenverbindungen nicht verfügbar oder zur Unterstützung der Sprachkommunikation zu unzuverlässig sind – beispielsweise in einer remote-Bereich mit Tupfen mobile Daten Disposition, oder an eine kostenlose, öffentlichen Wi-Fi angeschlossen sein Dienst mit eingeschränkter Bandbreite oder wenn Sie möchten, dass die Teilnehmer sich einwählen, um die Besprechung mithilfe eines Telefonie-Endpunkts, der für diese leicht zugänglich ist.
+Dies ist hilfreich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden oder wenn Datenverbindungen nicht verfügbar oder zu unzuverlässig sind, um die Sprachkommunikation zu unterstützen, beispielsweise in einem Remotebereich mit fleckiger mobiler Datenversorgung oder verbunden mit einem kostenlosen öffentlichen WLAN-Zugang. Dienst mit begrenzter Bandbreite oder wenn Besprechungsteilnehmer sich lieber mit einem Telefon Endpunkt in die Besprechung einwählen, der für Sie leicht zugänglich ist.
 
-Zunächst müssen Core Projektbeteiligten Anwendungsbeispiele definieren, die die Implementierung der Audiokonferenz unterstützen.
+Zunächst müssen Hauptprojekt beteiligte Geschäfts Anwendungsfälle definieren, die die Implementierung von Audiokonferenzen unterstützen.
 
-Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und messbare Geschäftsergebnisse und umfassen Folgendes:
+Unternehmens-Anwendungsfälle sollen erwartete und messbare Geschäftsergebnisse definieren und dokumentieren und Folgendes umfassen:
 
 -   Beschreibung des aktuellen Geschäftsprozesses
 
--   Probleme mit dem vorhandenen Geschäftsprozess
+-   Herausforderungen beim vorhandenen Geschäftsprozess
 
 -   Wie diese Herausforderungen mithilfe der Technologie bewältigt werden können
 
@@ -50,67 +50,67 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und
 > |         |
 > |---------|
 > |**Beschreibung des aktuellen Geschäftsprozesses**<br>Für interne Besprechungen und Besprechungen mit Dritten nutzt Contoso derzeit die von etablierten lokalen Telefonanbietern bereitgestellten PSTN-Konferenzdienste, die im Minutentakt abgerechnet werden.|
-> |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso investiert jährlich rund 1 Million US-Dollar für den aktuellen PSTN-Konferenzdienst, wobei 75 % der Kosten auf interne Besprechungen zurückzuführen sind. Die Verwendung der herkömmlichen Telefonie Endpunkte zur Teilnahme an Besprechungen von PSTN-Konferenzdienst gehostet ist nicht mit dem Plan für die Organisation einführen Teams als Plattform für die Zusammenarbeit und modernen Communications ausgerichtet.|
-> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Mit der Annahme der Microsoft-Teams, als Plattform für die Zusammenarbeit und modernen Communications werden erwartet, dass interne Benutzer in erster Linie Besprechungen beitreten, indem Sie mit ihren PCs teilnehmen mit optimierten Headsets und Besprechungsraum Geräten ausgestattet. Die Audiokonferenzdienst werden zur Unterstützung von externer Teilnehmern oder zur Unterstützung von Situationen, in dem die Verwendung von PC-Audio für den internen Teilnehmern günstiger ist nicht, verfügbar.|
-> |**Erwartete, messbare Geschäftsergebnisse**<br>Die Verschiebung Teams als Plattform für die Zusammenarbeit, mit dem Dienst Audiokonferenzen kombiniert und modernen Communications wird die Kosten zum Übermitteln des PSTN-Konferenzdienst erheblich verringert werden.|
+> |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso investiert jährlich rund 1 Million US-Dollar für den aktuellen PSTN-Konferenzdienst, wobei 75 % der Kosten auf interne Besprechungen zurückzuführen sind. Die Verwendung herkömmlicher Telefonie-Endpunkte für die Teilnahme an den vom PSTN-Konferenzdienst gehosteten Besprechungen ist nicht an dem Plan ausgerichtet, in dem die Organisation Teams als moderne Kommunikations-und Zusammenarbeitsplattform übernehmen soll.|
+> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Mit der Einführung von Microsoft Teams als moderne Kommunikations-und Zusammenarbeitsplattform wird erwartet, dass interne Benutzer in erster Linie an Besprechungen teilnehmen, indem Sie Ihre PCs verwenden, die mit optimierten Headsets und Besprechungsraum Geräten ausgestattet sind. Der Audiokonferenzdienst steht zur Unterstützung externer Teilnehmer zur Verfügung oder unterstützt Situationen, in denen die Verwendung von PC-Audio für die internen Teilnehmer nicht vorteilhaft ist.|
+> |**Erwartete, messbare Geschäftsergebnisse**<br>Der Wechsel zu Teams als moderne Kommunikations-und Zusammenarbeitsplattform, kombiniert mit dem Audiokonferenzdienst, wird die Kosten für die Bereitstellung des PSTN-Konferenz Diensts erheblich reduzieren.|
 
-Zusätzlich zum Definieren von Ihrem Unternehmen Anwendungsfällen Sie sowie die Project-Grenzen, die Sie darauf gerichtet sind auf Laufwerk Angaben zu festgelegt:
+Um die Projektgrenzen festzulegen, sollten Sie nicht nur Ihre geschäftlichen Anwendungsfälle definieren, sondern auch die Klarheit in den folgenden Fällen unterteilen:
 
--   **Organisationsweiten Bereich:** Die Implementierung der Audiokonferenz kann der gesamten Organisation oder nur für bestimmte Unternehmenseinheiten umfassen.
+-   **Organisatorischer Bereich:** Die Implementierung von Audiokonferenzen kann die gesamte Organisation oder nur bestimmte Unternehmenseinheiten umfassen.
 
--   **Projektplan:** Der bestimmte Zeitplan des Projekts wird ausgeführt.
+-   **Projektzeitachse:** Die bestimmte Zeitachse, die das Projekt ausführen soll.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind alle Unternehmen Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation erkennen können?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle Anwendungsbeispiele für Audiokonferenzen für Ihre Organisation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind die Unternehmens-Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation identifizieren können?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle Business Use Cases für Audiokonferenzen für Ihre Organisation.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="identify-key-stakeholders"></a>Identifizieren der wichtigsten Projektbeteiligten
 
-Die Verwendung von Unternehmen Anfragen, die im vorherigen Schritt definiert einen organisationsweiten Bereich für die Implementierung von Audiokonferenzen umfassen und basierend auf, die, können Sie die umfassende beteiligten Matrix zum Einschließen von der richtigen Personen im Projekt einbeziehen abschließen.
+Die im vorherigen Schritt definierten Geschäfts Anwendungsfälle umfassen einen organisatorischen Bereich für die Implementierung von Audiokonferenzen, und auf dieser Grundlage können Sie die umfassende Stakeholder-Matrix ausfüllen, um die richtigen Personen in das Projekt einzubeziehen.
 
 > [!TIP]
 > In der folgenden Beispielvorlage für diese Matrix können Sie die Projektbeteiligten dokumentieren.
 > 
 > |Rolle  |Beschreibung  |Name, Kontaktinformationen, Standort  |
 > |---------|---------|---------|
-> |Leitender Projektsponsor|<ul><li>Projektziele übernehmen Sie ultimate Autorität und Ansprechpartner für das Projekt und die Übermittlung.</li><li>Von der Project-Leiter eskaliert Probleme zu beheben.</li><li>Sponsor Kommunikation innerhalb des Unternehmens über die Ziele des Projekts.</li><li>Stellen Sie wichtige strategische Entscheidungen.</li><li>Sicherstellung der Verfügbarkeit von erforderlichen Ressourcen und Budget.</li><li>Führen Sie vierteljährlich Business Reviews (QBRs).</li><li>Laufwerk erwerben und Unterstützung der Kampagne zum Bekanntheitsgrad.</li><li>Dienen Sie als der Projektsponsor auf die Einführung Programm.</li></ul>|TBA|
-> |Projektleiter|<ul><li>Verwalten Sie, und führen Sie das Projektteam.</li><li>Partner und Teams an das Projekt anderweitig zu koordinieren.</li><li>Verantwortlich für das Erstellen und Verwalten von Project-Pläne wichtige Quartale erfüllen.</li><li>Beheben Sie funktionsübergreifenden Probleme.</li><li>Stellen Sie regelmäßige Updates für Project Sponsor.</li><li>Integrieren Sie Annahme Aspekte in der alle-nach-oben-Projektplan.</li><li>Monatliche Geschäfts- und betriebsbereit Bewertungen (MBR) führen Sie QBRs dazu beitragen.</li></ul>|TBA|
-> |Leiter/Architekt für Zusammenarbeit|<ul><li>Führen Sie auf der Strategie für die Zusammenarbeit durch die Unternehmensführung definiert.</li><li>Analysieren und Auswählen von Produkten für die Zusammenarbeit, die Unternehmensziele für das Unternehmen erfüllen.</li><li>Entwerfen Sie Betrieb von Produkten für die Zusammenarbeit.</li><li>Vorgang definieren und Modelle unterstützen.</li><li>Beitrag zu monatlich oder vierteljährlich Business Reviews (engl.).</li></ul>|TBA|
-> |Berater|<ul><li>Werden Sie für die Konfiguration verantwortlich ist</li><li>Beitrag zu den allgemeinen Lösungsarchitektur.</li></ul>|TBA|
-> |Projektmanager|<ul><li>Entwickeln Sie und verwalten Sie den Projektplan.</li><li>Verwalten Sie Projektlieferumfang in einer Reihe mit dem Projektplan und Ihrem Budget.</li><li>Aufzeichnen und Projektprobleme, einschließlich der Benutzerberechtigungen verwalten.</li><li>Durchführen Sie wöchentliche kurze Anrufe.</li><li>Verbindung mit und beinhalten Updates für Project executive Sponsor.</li><li>Arbeiten Sie mit der Architekt um die Änderung Management Ansatz und Kommunikation-Pläne zu definieren.</li></ul>|TBA|
-> |Spezialist für Change Management/Einführung|<ul><li>Geben Sie Input während der Phase der Ermittlung in Annahme und Schulung Prozesse.</li><li>In der Annahme Strategie Workshop teilnehmen.</li><li>Entwickeln und die Verantwortung für die Strategie für die Einführung übernehmen.</li><li>Entwickeln und Ausführen des Kommunikationsplans.</li><li>Bereitstellen von Schulungen für Benutzer.</li><li>Feedback sammeln und Umfragen durchführen.</li></ul>|TBA|
-> |Netzwerkleiter|<ul><li>Geben Sie Input während der Phase der Ermittlung in Netzwerkentwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit der networking-Team während der Ausführung des Projekts.</li></ul>|TBA|
-> |Leiter der Sicherheit|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Sicherheitsentwurf und Prozesse.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit vom Security Team während der Ausführung des Projekts.</li></ul>|TBA|
-> |Telefonieleiter|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Telefonie Entwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams Telefonie während der Ausführung des Projekts.</li></ul>|TBA|
-> |Desktopleiter|<ul><li>Mitteilen, während der Phase der Suche in der Clients und den Aktualisierungsvorgang.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams desktop während der Ausführung des Projekts.</li></ul>|TBA|
-> |Support-/Helpdeskleiter|<ul><li>Mitteilen, während der Phase der Ermittlung in Betrieb und Support-Modelle.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Teilnehmen Sie an Modell planen.</li><li>Koordinieren Sie die Arbeit der Supportteams und Ressourcen während der Ausführung des Projekts.</li></ul>|TBA|
-> |Vertreter der Betriebseinheiten|<ul><li>Beitrag zu benutzerbasierte Annahme Handbücher und Materialien (engl.).</li><li>Beitrag zu, und überprüfen Sie Geschäftsfälle verwenden.</li></ul>|TBA|
-> |Bereitstellungsleiter|<ul><li>Stellen Sie sicher, dass bereitstellungsvoraussetzungen erfüllt sind.</li><li>Beteiligen Sie Ressourcen, die die integrierten Phase Aktivitäten beteiligt sein.</li><li>Teilnehmen Sie an Besprechungen, um zu prüfen und Berichte auf Bereitstellungsstatus vorbereiten.</li></ul>|TBA|
-> |IT-Administratoren|<ul><li>Unterstützung bei der Planung von Test und Ausführung. Diese Rolle ist für IT-Experten.</li></ul>|TBA|
-> |Leiter des Kundendiensts|<ul><li>Werden Sie alle verantwortlich für den Betrieb des Diensts Audiokonferenzen.</li><li>Besitzen Sie den Audio-Konferenzdienst.</li></ul>|TBA|
-> |Qualitätspioniere|<ul><li>Laufwerk Qualität, Zuverlässigkeit und Benutzer Feedback an.</li><li>Identifizieren der Qualität Trends und Laufwerk Remediation mit den jeweiligen Teams.</li><li>Melden Sie über der Lenkungsausschuss wieder führende.</li><li>Bericht über die Qualität, Zuverlässigkeit und Benutzer Stimmung über Rate Meine aufrufen und Net Promoter Punktzahl.</li></ul>|TBA|
+> |Leitender Projektsponsor|<ul><li>Übernehmen Sie die ultimative Autorität und Verantwortlichkeit für das Projekt und die Bereitstellung von Projektzielen.</li><li>Helfen Sie bei der Lösung von Problemen, die vom Projektleiter eskaliert werden.</li><li>Sponsoren Kommunikation innerhalb des Unternehmens über Projektziele.</li><li>Wichtige strategische Entscheidungen treffen.</li><li>Stellen Sie sicher, dass die erforderlichen Ressourcen und das Budget verfügbar sind.</li><li>Lead Quarterly Business Reviews (QBRs)</li><li>Drive Buy-in und Support für Kampagnen zur Sensibilisierungskampagne.</li><li>Als Projekt Sponsor für den Programm Rollout fungieren.</li></ul>|TBA|
+> |Projektleiter|<ul><li>Verwalten und leiten des Projektteams</li><li>Koordinieren von Partnern und Arbeitsteams, die am Projekt beteiligt sind</li><li>Sie müssen für die Erstellung und Verwaltung von Projektplänen verantwortlich sein, um quartalsweise Ergebnisse zu erreichen.</li><li>Lösen Sie funktionsübergreifende Probleme.</li><li>Bereitstellen von regelmäßigen Updates für Projektsponsoren</li><li>Integrieren Sie Adoptions Aspekte in den vollständigen Projektplan.</li><li>Führen Sie monatliche Geschäfts-und Betriebs Bewertungen (MBRs), die zu QBRs beitragen.</li></ul>|TBA|
+> |Leiter/Architekt für Zusammenarbeit|<ul><li>Führen Sie die von Unternehmensleitern definierte Zusammenarbeitsstrategie aus.</li><li>Analysieren und Auswählen von Zusammenarbeits Produkten, die die Unternehmensziele für das Unternehmen erfüllen</li><li>Design Vorgänge für Collaboration-Produkte.</li><li>Definieren von Betriebs-und Support Modellen</li><li>Beiträge zu monatlichen und Quartals Überprüfungen für Unternehmen.</li></ul>|TBA|
+> |Berater|<ul><li>Für Konfigurationsdienste verantwortlich sein</li><li>Tragen Sie zur Gesamt Lösungsarchitektur bei.</li></ul>|TBA|
+> |Projektmanager|<ul><li>Entwickeln und Verwalten des Projektplans</li><li>Verwalten Sie Projektergebnisse entsprechend dem Projektplan und dem Budget.</li><li>Aufzeichnen und Verwalten von Projektproblemen, einschließlich Eskalationen</li><li>Führen Sie wöchentliche aufstehende Anrufe durch.</li><li>Sie können mit den Project Executive-Sponsoren Kontakt aufnehmen und Updates für Sie bereitstellen.</li><li>Arbeiten Sie mit dem Architekten zusammen, um den Ansatz der Änderungsverwaltung und Kommunikationspläne zu definieren.</li></ul>|TBA|
+> |Spezialist für Change Management/Einführung|<ul><li>Bereitstellen von Eingaben während der Ermittlungsphase in Adoptions-und Schulungsprozesse.</li><li>Nehmen Sie am Einführungsstrategie-Workshop Teil.</li><li>Entwickeln Sie die Strategie für die Einführung, und übernehmen Sie die Verantwortung.</li><li>Entwickeln Sie den Kommunikationsplan, und führen Sie ihn aus.</li><li>Bereitstellen von Schulungen für Benutzer</li><li>Sammeln von Feedback und Durchführen von Umfragen</li></ul>|TBA|
+> |Netzwerkleiter|<ul><li>Bereitstellen von Eingaben während der Erkennungsphase im Netzwerkentwurf.</li><li>Teilnehmen an der Planung während des Workshops enVision Phase.</li><li>Koordinieren der Arbeit des Netzwerkteams während der Projektausführung</li></ul>|TBA|
+> |Leiter der Sicherheit|<ul><li>Bereitstellen von Eingaben während der Ermittlungsphase in Sicherheitsdesign und-Prozesse.</li><li>Teilnehmen an der Planung während des Workshops enVision Phase.</li><li>Koordinieren der Arbeit des Sicherheitsteams während der Projektausführung</li></ul>|TBA|
+> |Telefonieleiter|<ul><li>Bereitstellen von Eingaben während der Erkennungsphase in den Telefonie-Entwurf</li><li>Teilnehmen an der Planung während des Workshops enVision Phase.</li><li>Koordinieren der Arbeit des Telefonie-Teams während der Projektdurchführung</li></ul>|TBA|
+> |Desktopleiter|<ul><li>Bereitstellen von Eingaben während der Ermittlungsphase in den Clients und Updateprozess.</li><li>Teilnehmen an der Planung während des enVision-Workshops.</li><li>Koordinieren der Arbeit des Desktop Teams während der Projektausführung</li></ul>|TBA|
+> |Support-/Helpdeskleiter|<ul><li>Bereitstellen von Eingaben während der Ermittlungsphase in Betriebs-und Support Modelle</li><li>Teilnehmen an der Planung während des Workshops enVision Phase.</li><li>Teilnehmen an der Planung des Supportmodells</li><li>Koordinieren der Arbeit von Support Teams und Ressourcen während der Projektausführung</li></ul>|TBA|
+> |Vertreter der Betriebseinheiten|<ul><li>Tragen Sie zu benutzerbasierten Einführungsleitfäden und Materialien bei.</li><li>Tragen Sie dazu bei, Geschäfts Anwendungsfälle zu überprüfen.</li></ul>|TBA|
+> |Bereitstellungsleiter|<ul><li>Sicherstellen, dass die Voraussetzungen für die Bereitstellung erfüllt sind</li><li>Ressourcen für die Teilnahme an den Phasen Aktivitäten an Bord einbinden.</li><li>An Besprechungen teilnehmen, um Berichte über den Bereitstellungsstatus zu überprüfen und vorzubereiten.</li></ul>|TBA|
+> |IT-Administratoren|<ul><li>Unterstützen Sie die Testplanung und-Ausführung. Diese Rolle richtet sich an IT-Experten.</li></ul>|TBA|
+> |Leiter des Kundendiensts|<ul><li>Seien Sie für den Betrieb des Audiokonferenz-Diensts verantwortlich.</li><li>Besitzen Sie den Audio-Konferenzdienst.</li></ul>|TBA|
+> |Qualitätspioniere|<ul><li>Qualität, Zuverlässigkeit und Benutzer Feedback für das Laufwerk.</li><li>Identifizieren Sie qualitätstrends, und führen Sie eine Problembehebung mit den jeweiligen Teams durch.</li><li>Melden Sie sich über das Lenkungskomitee zurück zu Leadership.</li><li>Berichten Sie über Qualität, Zuverlässigkeit und Benutzer Gefühle durch bewerten meines Anrufs und des Netto-Promoters.</li></ul>|TBA|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wer füllt jede Rolle wichtige Beteiligten für Ihre Organisation?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle der Verantwortlichen und kommunizieren Sie die Aufgaben und entsprechend der Rolle an alle zugewiesenen Personen.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wer füllt die einzelnen wichtigen Stakeholder-Rollen für Ihre Organisation aus?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle wichtigen Stakeholder, und kommunizieren Sie die Zuständigkeiten und Erwartungen der Rolle an jede zugewiesene Person.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="define-okrs-ksis-and-risks"></a>Definieren von OKRs, KSIs und Risiken
 
-Mit der Projektbeteiligten zusammengestellt wurde können Sie geschäftliche Anwendungsbeispiele organisationsweiten Bereich und Projektzeitachsen in Zielen und Key Ergebnisse (OKRs) übersetzen, und Maßnahmen der Projekterfolg können als eine Liste der wichtigsten Erfolg Indikatoren (KSIs) definiert werden.
+Mit den zusammengestellten Projekt Beteiligten können Sie Geschäfts Anwendungsfälle, den organisatorischen Umfang und Projektzeitpläne in Zielsetzungen und wichtige Ergebnisse (OKRs) übersetzen, und die Measures des Projekterfolgs können als eine Liste der wichtigsten Erfolgsindikatoren (KSIs) definiert werden.
 
-Vollständige Beteiligung Projektbeteiligten in der Definition von OKRs und KSIs ist wichtig, sie fühlen sich Gesamtbetriebskosten und Ausrichten des Erfolgs auf Organisationseinheit geschäftlichen Anforderungen diese Maßnahmen sicherzustellen.
+Die vollständige Teilnahme von Projekt Beteiligten an der Definition von OKRs und KSIs ist unerlässlich, um sicherzustellen, dass Sie ein Gefühl des Eigentums empfinden und diese Erfolgskennzahlen den Anforderungen des Unternehmens anpassen.
 
-OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt, und Sie messbare Hauptergebnisse vierteljährlich definieren. Sie monatlich Hauptergebnisse überprüfen, um den Status des gesamten Projekts, verfolgen und – basierend auf Fortschritt – passen Sie vierteljährliche Pläne nach Bedarf.
+OKRs enthalten die Ziele, die Sie am Anfang des Projekts festgelegt haben, und Sie definieren messbare Schlüsselergebnisse vierteljährlich. Sie überprüfen die wichtigsten Ergebnisse monatlich, um den Status des Gesamtprojekts zu überwachen und – basierend auf dem Status – die Quartals Pläne nach Bedarf anzupassen.
 
 > [!TIP]
 > Das folgende Beispiel enthält Ziele und wesentliche Ergebnisse, die für die Implementierung von Audiokonferenzen relevant sind:
@@ -123,19 +123,19 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 > |Bereitstellen von Audiokonferenzen in Teams gegen Ende des Geschäftsjahres 2018|1. Quartal des Geschäftsjahres 2018: Globale Bereitstellung von Audiokonferenzen in Teams|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 > |Den Legacy-PSTN-Konferenzdienst zur Mitte des Finanzjahres 2018 deaktivieren|2. Quartal des Finanzjahres 2018: Den Legacy-PSTN-Konferenzdienst deaktivieren|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
-KSIs Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art des OKRs (erreicht oder nicht erreicht) mit gute und/oder fehlerhafte Ergebnissen.
+KSIs misst die Qualität und den Erfolg der wichtigsten Ergebnisse und ergänzt den binären Charakter von OKRs (erreicht oder nicht erreicht), indem er gute und/oder schlechte Ergebnisse beschreibt.
 
-Wenn Sie KSIs definieren, wird empfohlen, für die Verwendung von "bestimmter, messbarer, zugeordnet werden kann, realistische, Zeitangaben" (SMART) Kriterien:
+Wenn Sie KSIs definieren, empfehlen wir, dass Sie "spezifische, messbare, beschreibbare, realistische, zeitbezogene" (Smart-) Kriterien verwenden:
 
--   Spezifisch: einen bestimmten Bereich für zur Verbesserung der Ziel-
+-   Spezifisch: Ziel eines bestimmten Bereichs zur Verbesserung
 
--   Messbare: quantifiziert oder vorschlagen mindestens einen Indikator des Fortschritts
+-   Messbar: quantifizieren oder zumindest einen Indikator für Fortschritt vorschlagen
 
--   Zugewiesen: Geben Sie an, die er ausgeführt wird
+-   Zugeordnet: Geben Sie an, wer dies tun soll
 
--   Realistisch: state welche Ergebnisse realistisch können erreicht werden, die angegebene verfügbare Ressourcen
+-   Realistisch: Geben Sie an, welche Ergebnisse realistischerweise erreicht werden können, wenn verfügbare Ressourcen vorhanden sind.
 
--   Zeitangaben: Geben Sie an, wenn die Ergebnisse erzielt werden kann
+-   Zeit bezogen: Geben Sie an, wann die Ergebnisse erreicht werden können.
 
 > [!TIP]
 > Im folgenden Beispiel sehen Sie für dieses Projekt relevante wichtige Erfolgsindikatoren:
@@ -150,65 +150,65 @@ Wenn Sie KSIs definieren, wird empfohlen, für die Verwendung von "bestimmter, m
 > |Verwendung/Support|Ich bin zufrieden mit der Qualität des technischen Supports|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach jedem Vorfall|IT-Team|
 > |Finanzen|Weniger Minuten mit Legacy-Konferenzlösung|Finanzsystem|Definierte Rendite erzielen|Basierend auf Rendite|Change Management-Team|
 
-Sie müssen Business Risiken im Rahmen dieser Übung identifizieren und definieren einen Plan zur Risikominderung für jedes identifizierte Risiko. Diese Informationen kann in ein Register Risiken erfasst werden.
+Sie müssen Geschäftsrisiken im Rahmen dieser Übung ermitteln und einen Minderungsplan für jedes erkannte Risiko definieren. Diese Informationen können in ein risikoregister aufgenommen werden.
 
 > [!TIP]
-> Wie im folgenden Beispiel kann Ihre Risiko Register dokumentiert werden:
+> Ihr risikoregister kann im folgenden Beispiel dokumentiert werden:
 > 
 > |Risiko  |Wahrscheinlichkeit  |Auswirkungen  |Gesamt  |Risikominderungsplan  |
 > |---------|---------|---------|---------|---------|
-> |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
-> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li></ul>|
-> |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
+> |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie für verbundene Unternehmen ein separates okr, das für eigene Projektphasen gilt (enVision, Onboard, Drive Value).</li><li>Diese OKRs nicht in vorhandene OKRs einbeziehen</li></ul>|
+> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Alle Informationen vorbereiten, die erforderlich sind, um die Portierung von Telefonnummern vorzeitig zu unterstützen (Kundendienst Aufzeichnung, Abrechnungsdetails, Autorisierungs Bescheid)</li><li>Anpassen der projektzeitachse an die Bearbeitungszeit der Port Ausführung für Telefonnummern</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li></ul>|
+> |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Bevor Sie Teams als moderne Kommunikations-und Zusammenarbeitsplattform implementieren, führen Sie eine Netzwerk Bereitschaftsbewertung für Websites im Projektumfang durch.</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organization& #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren der OKRs KSIs, und Einrichten von Risiken registrieren.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind ihre Organisationen&#39;s OKRs und KSIs?</li><li>Welche Risiken sind für die Implementierung von Audiokonferenzen in Ihrer Organisation relevant? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs, KSIs, und legen Sie das risikoregister fest.</li></ul>|
 
 <!--ENDOFSECTION-->
 
-## <a name="establish-a-steering-committee"></a>Einrichten von einem Lenkungsausschuss
+## <a name="establish-a-steering-committee"></a>Einrichten eines Lenkungsausschusses
 
-Einem Lenkungsausschuss ist eine Steuerungsgruppe der Verantwortlichen und Projektleiter, die anhängig sind zusammen, um ein Projekt oder Programm in Richtung der definierten Geschäftsergebnisse guide. Der Lenkungsausschuss nicht direkt verantwortlich für *wie* das Projekt geliefert wird, sondern vielmehr *welche* , die das Projekt für das Unternehmen bietet.
+Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für ** die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das Projekt dem Unternehmen liefert.
 
-Jedes Projekt erfordert eine vereinbart auf Vision und Charter. Um die Ergebnisse aus dem Projekt gewünschte zu übermitteln, die Vision eindeutig definiert werden muss, und es muss überwacht und verwaltet werden können. Dadurch wird die Verantwortung des Lenkungsausschusses: Laufwerk Entscheidungen, darauf hinzuweisen, bieten strategische Aufsicht, als Befürworter des Unternehmens für das Projekt Initiativen dienen und – bei Bedarf – Popupblockern entfernen.
+Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse aus dem Projekt zu liefern, muss die Vision klar definiert sein, und Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
 
-Ihre Organisation sollten erhebliche Gedanken zu Bildung des Lenkungsausschusses. Der Ausschuß muss sicherstellen, dass das Projekt für die Änderung in der gesamten Organisation, Meet regelmäßig, um die aktuellen Pulse des Projekts, besprechen gesteuerter definiert haben und Hilfe Hindernisse Aufheben der Blockierung, die entlang auftreten, die Geschäftsziele erreicht die Art und Weise.
+Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die von Ihnen festgelegten geschäftlichen Ziele für das Vorantreiben von Änderungen in der gesamten Organisation erreicht, sich regelmäßig trifft, um den aktuellen Puls des Projekts zu besprechen, und die Blockierung von Hindernissen, die auf der Möglichkeit.
 
-Der Ausschuß sollte seine Charta zum Einschließen von einige wichtige Ziele definieren:
+Der Ausschuss sollte seine Charta definieren, um einige der wichtigsten Ziele einzubeziehen:
 
--   Lassen Sie eine starke Ausrichtung zwischen des Projektteams und den executive Sponsor oder Unternehmensleitung.
+-   Halten Sie eine starke Abstimmung zwischen dem Projektteam und dem Executive-Sponsor oder der Führungskraft.
 
--   Einblicke in den Status des Projekts zum executive Sponsor oder Unternehmensleitung.
+-   Geben Sie dem Executive-Sponsor oder der Führungskraft einen Einblick in den Projektstatus.
 
--   Zulassen der executive Sponsor oder ein Unternehmensleitung Team bieten Anleitung und Eingaben auf das Projekt, und stellen Sie sicher, dass es mit der Unternehmensziele, durch Anpassen von Projektplänen, objektive Hauptergebnisse (OKRs) und andere Projektaktivitäten übergreifende ausgerichtet.
+-   Ermöglichen Sie es dem Executive-Sponsor oder dem Executive Leadership-Team, Richtung und Eingabe für das Projekt bereitzustellen, und stellen Sie sicher, dass es den übergeordneten Geschäftszielen entspricht, indem Sie Projektpläne, objektive Schlüsselergebnisse (OKRs) und andere Projektaktivitäten anpassen.
 
-Der Lenkungsausschuss erfüllt in regelmäßigen Abständen während der Lebensdauer eines Projekts, um sicherzustellen, dass Ausrichtung zwischen Organisationseinheit Leiter und des Projektteams. Diese wichtige Besprechung wird sichergestellt, dass die Richtung des Projekts verfügt über vollständigen Unterstützung des führende und alle Feedbacks von führende in das Projekt zum Laufwerk Erfolg beinhaltet. Der Ausschuß verwendet diese Besprechungen Einblick in Projektstatus, und klicken Sie auf:
+Das Lenkungskomitee tagt zu einem wiederkehrenden Intervall während der gesamten Laufzeit eines Projekts, um die Ausrichtung zwischen organisatorischer Führung und Projektteam zu gewährleisten. Diese kritische Besprechung stellt sicher, dass die Richtung des Projekts die vollständige Unterstützung durch Leadership hat, und es werden alle von der Führungskraft bereitgestellten Feedbacks in das Projekt integriert, um den Erfolg zu steigern. Der Ausschuss verwendet diese Besprechungen, um Einblicke in den Projektstatus zu erhalten und:
 
--   Vereinbaren Sie Geschäftsergebnisse, die Ausrichtung der Geschäftsfall und stellen Sie sicher, dass das Projekt in Richtung der Übermittlung von diese Ergebnisse gesteuert wird.
+-   Vereinbaren Sie Geschäftsergebnisse, die sich an den Fall des Unternehmens orientieren, und stellen Sie sicher, dass das Projekt auf die bereitstellungdieser Ergebnisse ausgerichtet ist.
 
--   Überprüfen Sie und genehmigen Sie das Projekt für die Genauigkeit und Einhaltung der Geschäftsfall.
+-   Überprüfen und genehmigen Sie das Projekt für die Genauigkeit und Einhaltung des Geschäftsfalls.
 
--   Überprüfen, und vergewissern sich Änderungen an der Geschäftsfall, die alle definierten Ergebnisse auswirken könnten.
+-   Überprüfen und überprüfen Sie die am Geschäftsfall vorgenommenen Änderungen, die sich auf definierte Ergebnisse auswirken können.
 
--   Entscheidungen Sie strategische bezüglich der Priorisierung von Lieferumfang des Projekts, und genehmigen Sie vorläufige Lieferumfang.
+-   Treffen Sie strategische Entscheidungen bezüglich der Priorisierung von Projektergebnissen, und genehmigen Sie Zwischenergebnisse.
 
--   Identifizieren Sie, zu verwalten Sie und zu mindern Sie Lücken, Risiken und Probleme, wenn zusätzliche beeinflussen des Ausschusses erforderlich ist.
+-   Ermitteln, managen und verringern Sie Lücken, Risiken und Probleme, bei denen zusätzlicher Einfluss des Ausschusses erforderlich ist.
 
--   Sammeln von Unterstützung von executive Sponsor oder Unternehmensleitung Team für Probleme, die Ausweitung, Priorisierung und Beheben von Konflikten zwischen beteiligten Geschäftseinheiten von erfordern. 
+-   Sammeln Sie Unterstützung des Executive-Sponsors oder des Executive Leadership Teams für Probleme, die Eskalation erfordern, priorisieren und Konflikte zwischen Stakeholder-Geschäftseinheiten beheben. 
 
--   Geben Sie formelle Feedback und Empfehlungen, um die Unternehmensleitung, dem Change advisory Board oder anderen Geschäfts- und IT-Verantwortlichen, sofern gewünscht.
+-   Bereitstellen von formellem Feedback und Empfehlungen für Führungskräfte, das Change Advisory Board oder andere Geschäfts-und IT-Stakeholder, sofern zutreffend.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob einem Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Identifizieren der Mitglieder des Lenkungsausschusses.</li><li>Planen von Besprechungen Lenkungsausschuss.</li><li>Vorbereitung der Lenkungsausschuss Besprechungen.</li><li>Halten Sie Lenkungsausschuss Besprechungen.</li><li>Ausführen einer Aktion basierend auf Lenkungsausschuss meeting Eingabe.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob ein Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Mitglieder des Lenkungsausschusses ermitteln.</li><li>Planen von Sitzungen des Lenkungsausschusses</li><li>Vorbereiten der Sitzungen des Lenkungsausschusses</li><li>Sitzungen des Lenkungsausschusses abhalten.</li><li>Ergreifen von Maßnahmen auf der Grundlage des Inputs der Sitzung des Lenkungsausschusses</li></ul>|
 
-Weitere detaillierte Anleitungen zum betreiben eine ordnungsgemäße Lenkungsausschuss finden Sie in der Lenkungsausschuss Handbuch zur Verfügung [hier](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
+Weitere detaillierte Anleitungen zum Betrieb eines ordnungsgemäßen Lenkungsausschusses finden Sie im Leitfaden für das Lenkungskomitee, der [hier](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)zur Verfügung steht.
 
 <!--ENDOFSECTION-->

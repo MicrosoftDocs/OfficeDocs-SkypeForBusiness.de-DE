@@ -496,7 +496,7 @@ Nachdem Sie die QoS-Gültigkeitsprüfung mithilfe von Gruppenrichtlinien für We
 
 **QoS-Konfigurationsüberprüfung über GPO und Nachrichten Analyse**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -549,7 +549,7 @@ Nachdem Sie das Testen der Split-Tunnel-Konfiguration für Websites im Bereich a
 
 **Überprüfung der Split-Tunnel-Konfiguration**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -599,7 +599,7 @@ Nachdem Sie alle Netzwerk Konnektivitäts-und Leistungstests für die Websites i
 
 **Ort: Seattle [in Wired] Client zu Office 365 Ergebnisse**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 
 
@@ -617,7 +617,7 @@ Nachdem Sie alle Netzwerk Konnektivitäts-und Leistungstests für die Websites i
 <tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testen von Lowlights  </th></tr><br/><tr><td><strong>Problem</strong>: große Latenz</td><td><strong>Behebung:</strong> Untersuchen Sie die Paketweiterleitung, und implementieren Sie die ideale Route.</td></tr>
-<tr><td><strong>Problem</strong>: Roundtrip-Zeit isn& # 39; t doppelte Wartezeit</td><td><strong>Behebung:</strong> Untersuchen Sie eine mögliche Firewall oder Router-Konfigurationsproblem. Untersuchen von Verkehrswegen</td></tr>
+<tr><td><strong>Problem</strong>: Roundtrip-Zeit&#39;t die Wartezeit verdoppeln</td><td><strong>Behebung:</strong> Untersuchen Sie eine mögliche Firewall oder Router-Konfigurationsproblem. Untersuchen von Verkehrswegen</td></tr>
 <tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Überprüfen Sie im Netzwerk Planner, ob genügend Bandbreite zugeteilt wurde. </td></tr>
 <tr><td><strong>Problem</strong>: starker Jitter </td><td> <strong>Behebung:</strong> Überprüfen Sie, ob die richtigen DSCP-Werte (differenzierte Services Code Point) verwendet werden. </td></tr>
 <tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Untersuchen Sie den Paketverlust. </td></tr>
@@ -655,7 +655,7 @@ Identifizieren und dokumentieren Sie alle Kontoinformationen (einschließlich de
 In der Regel können Sie die benötigten Informationen in der letzten Rechnung oder Rechnung Ihres aktuellen Dienstanbieters finden.
 
 > [!TIP]
-> Sie können Telefonnummern in allen derzeit unterstützten Ländern/Regionen portieren oder übertragen; die Art und Weise, wie Sie eine Portierungs Auftragsanforderung übermitteln, kann je nach Land/Region unterschiedlich sein, aus dem die Telefonnummern stammen. Die aktuelle Liste der derzeit unterstützten Länder/Regionen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). </BR/><br/>
+> Sie können Telefonnummern in allen derzeit unterstützten Ländern/Regionen portieren oder übertragen; die Art und Weise, wie Sie eine Portierungs Auftragsanforderung übermitteln, kann je nach Land/Region unterschiedlich sein, aus dem die Telefonnummern stammen. Die aktuelle Liste der derzeit unterstützten Länder/Regionen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). #a0/br/#a1<br/>
 >   Weitere Informationen zum Übertragen von Telefonnummern zu Audiokonferenzen sowie zu möglichen Einschränkungen finden Sie unter [übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) und [gebührenfreie Wähleinschränkungen in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Schritt 3
@@ -716,7 +716,7 @@ Nachdem Sie alle Nummern Portierungs Tests abgeschlossen haben, erstellen Sie ei
 
 **Dienstnummern Portierung**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -776,7 +776,7 @@ Wenn Testfälle für die Features für die Verwaltungs-und Benutzer-Audiokonfere
 
 | Test Case-ID                             | Test Case-Titel                             | Test Fallbeschreibung                                                                            | Zusammenfassung des Test Fall Ergebnisses | Zugewiesene Fehler-ID (falls zutreffend)                                                                          |
 |------------------------------------------|---------------------------------------------|---------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1                                        | Planen einer Besprechung für eine Teams-Audiokonferenz | Planen Sie eine Onlinebesprechung, und überprüfen Sie, ob die Konferenzbrücke in der Einladung angezeigt wird. |  &#9744; Übergeben<br/>&#9744; Teilweise<br/> &#9744; Nicht   | Für Benutzer, die RHM aktiviert sind, werden die Einwahl Koordinaten nicht über das Outlook-Planungs Add-in "Teams" aufgefüllt. |
+| 1                                        | Planen einer Besprechung für eine Teams-Audiokonferenz | Planen Sie eine Onlinebesprechung, und überprüfen Sie, ob die Konferenzbrücke in der Einladung angezeigt wird. |  &#9744;Pass<br/>&#9744;teilweise<br/> &#9744;Fehler   | Für Benutzer, die RHM aktiviert sind, werden die Einwahl Koordinaten nicht über das Outlook-Planungs Add-in "Teams" aufgefüllt. |
 
 
 <table>
@@ -796,7 +796,7 @@ Nachdem alle Testfälle, die Audiokonferenzfunktionen im Umfang unterstützen, v
 
 **Teams-Audiokonferenzen**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>

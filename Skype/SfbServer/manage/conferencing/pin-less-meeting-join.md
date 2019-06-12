@@ -21,7 +21,7 @@ ms.locfileid: "34280383"
  
 **Zusammenfassung:** Hier erfahren Sie, wie Sie die Option "Pin-less-Besprechungsteilnahme" in Skype for Business Server konfigurieren.
   
-Wenn ein Einwahl-Anrufer versucht, an einer Besprechung teilzunehmen, platziert der Konferenzdienst für die automatische Telefonzentrale (CAA) den Anrufer in einen unterschiedlichen Holding-Stift, der sich von der Lobby & # x2014; Wenn sich ein Referent noch nicht in einem Anruf befindet und der Einwahl-Anrufer keine führungsnadel eingegeben hat. Die PIN-lose Besprechungsanmeldeoption ermöglicht Einwahl-Anrufern die Teilnahme an einer Besprechung ohne Eingabe einer Leiter-PIN sogar dann, wenn sie nicht als Erste zugeschaltet werden. 
+Wenn ein Einwahl-Anrufer versucht, an einer Besprechung teilzunehmen, platziert der Konferenzdienst für die automatische Telefonzentrale (CAA) den Anrufer in einen unterschiedlichen Stift, der sich vom Lobby-#a0 unterscheidet, wenn ein Referent noch keinen Anruf hat und der Einwahl-Anrufer keine führungsnadel eingegeben hat. Die PIN-lose Besprechungsanmeldeoption ermöglicht Einwahl-Anrufern die Teilnahme an einer Besprechung ohne Eingabe einer Leiter-PIN sogar dann, wenn sie nicht als Erste zugeschaltet werden. 
   
 Beachten Sie Folgendes, wenn Sie diese Funktion konfigurieren:
   

@@ -1,65 +1,95 @@
-﻿---
-title: Verwenden von "Rückruf unter" mit einem für Lync aktivierten Telefon und Lync Server 2013
-TOCTitle: Verwenden von "Rückruf unter" mit einem für Lync aktivierten Telefon und Lync Server 2013
-ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn383570(v=OCS.15)
-ms:contentKeyID: 56558906
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwenden von Anrufen bei mit einem lync-fähigen Telefon'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Call Me At with a Lync-enabled phone
+ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383570(v=OCS.15)
+ms:contentKeyID: 56470326
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc89ac5038d367a57b791546c287e515bfd3c7bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847351"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwenden von \"Rückruf unter\" mit einem für Lync aktivierten Telefon und Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-call-me-at-with-a-lync-enabled-phone-and-lync-server-2013"></a>Verwenden von "rufen Sie mich an" mit einem lync-fähigen Telefon und lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-08-09_
 
-Das Feature **Rückruf unter** von Lync bietet den Benutzern eine Möglichkeit, mit einem Mobiltelefon, einem Festnetztelefon oder einem anderen Gerät, das mit der PSTN (öffentlichen Telefonnetz) verbunden ist, am Audioteil einer Konferenz teilzunehmen. Wenn Sie versuchen, mit Lync an eine Besprechung teilzunehmen, wird normalerweise das Dialogfeld **An Besprechungsaudio teilnehmen** angezeigt:
+Das Feature "mich anrufen" in lync bietet Benutzern eine Möglichkeit, mit einem Mobiltelefon, "Festnetz" oder einem anderen Gerät, das mit dem öffentlichen Telefonnetz (PSTN) verbunden ist, dem Audioteil einer Konferenz beizutreten. Wenn Sie versuchen, mithilfe von lync an einer Besprechung teilzunehmen, wird normalerweise das Dialogfeld **an Besprechungs-Audio teilnehmen** angezeigt:
 
-![Verwenden des Lync-Fensters zum Teilnehmen an Besprechungsaudio (Screenshot)](images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Verwenden des Lync-Fensters zum Teilnehmen an Besprechungsaudio (Screenshot)")
+![Verwenden von lync zum teilnehmen an der Besprechung] des Audiofensters (images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Verwenden von lync zum teilnehmen an der Besprechung") des Audiofensters
 
-Wenn Sie **Rückruf unter** auswählen, können Sie in der Dropdownliste eine Telefonnummer auswählen. Lync Server 2013 ruft dann die von Ihnen angegebene Nummer an, und Sie können dann mit diesem Telefon am Audioteil der Konferenz teilnehmen.
+Wenn Sie **mich anrufen**, können Sie eine Telefonnummer aus der Dropdown-Liste auswählen. Lync Server 2013 führt einen Telefonanruf an die ausgewählte Nummer, und Sie können dann das Telefon verwenden, um am Audioteil der Konferenz teilzunehmen.
 
-In der Dropdownliste befinden sich die Telefonnummern (Mobiltelefon, privat oder eine andere Telefonnummer), die Sie auf der Registerkarte **Telefone** im Lync-Dialogfeld **Optionen** eingegeben haben:
+Die Dropdownliste wird mit den Telefonnummern (für Mobiltelefone, privat Telefone oder andere Telefone) gefüllt, die Sie im Dialogfeld **lync – Optionen** auf der Registerkarte **Telefone** eingegeben haben:
 
-![Lync-Optionen zum Einrichten von Telefonen (Screenshot)](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Lync-Optionen zum Einrichten von Telefonen (Screenshot)")
+![Screenshot der Option "lync-Telefone einrichten] " (images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Screenshot der Option \"lync-Telefone einrichten") "
 
-Wenn Sie auf der Registerkarte **Telefone** keine Telefonnummern eingegeben haben, stehen auch in der Dropdownliste keine Telefonnummern zur Verfügung. Sie können jedoch immer auf **Neue Nummer** klicken, damit Lync Server die von Ihnen gewünschte Rufnummer anwählt:
+Wenn Sie keine Telefonnummern auf dem Reiter " **Telefone** " eingegeben haben, stehen Ihnen im Dropdown-Feld keine Nummern zur Verfügung. Sie können jedoch jederzeit auf **neue Rufnummer** klicken und lync Server an eine beliebige Telefonnummer anwählen, die Sie wünschen:
 
-![Lync-Fenster für Teilnahme an Besprechungsaudio mit Rückruf (Screenshot)](images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Lync-Fenster für Teilnahme an Besprechungsaudio mit Rückruf (Screenshot)")
+![Screenshot des lync-Dialogfensters "an Besprechung teilnehmen"] (images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Screenshot des lync-Dialogfensters \"an Besprechung teilnehmen\"")
 
-Die Funktion **Rückruf unter** funktioniert außerordentlich gut, vorausgesetzt, Sie verwenden sie in der vorgesehenen Weise, d. h., sie veranlassen Lync Server, eine Nummer im öffentlichen Telefonnetz anzurufen. Die Erfahrung ist nicht ganz so optimal, wenn Sie Lync Server veranlassen, Sie auf einem für Lync aktivierten Endpunkt (z. B. ein Telefon in einem Konferenzraum) anzurufen. Im Folgenden wird das möglicherweise auftretende Problem beschrieben, und es werden zwei Wege genannt, wie Sie das Problem umgehen können.
+Das Feature "mich anrufen" funktioniert hervorragend, vorausgesetzt, dass Sie es in der beabsichtigten Weise verwenden: Wenn lync Server eine PSTN-Telefonnummer anruft. Sie können jedoch eine weniger optimale Nutzung erreichen, wenn Sie von lync Server aufgefordert werden, Sie an einem lync-fähigen Endpunkt anzurufen (beispielsweise ein Telefon in einem Konferenzraum). Im folgenden finden Sie das Problem, auf das Sie möglicherweise stoßen, und zwei Möglichkeiten, um das Problem zu umgehen.
 
-Zunächst einmal das Szenario, das sich ergibt, wenn die Funktion **Rückruf unter** in Verbindung mit einem für Lync aktivierten Telefon verwendet wird: Einmal angenommen, Ken Myer versucht, an einer Besprechung teilzunehmen, indem er Lync Server veranlasst, ihn unter der Nummer 1-206-555-1219 zurückzurufen, die zu einem für Lync Server aktivierten Telefon gehört. Anfangs wird Ken mit der Besprechung verbunden, nach einige Sekunden zeigt Lync jedoch die Meldung **Der Anruf kann nicht durchgeführt werden oder wurde beendet** an, und für Ken sieht es so aus, als sei er aus der Besprechung entfernt worden:
+Um zu beginnen, gehen Sie wie folgt vor, wenn Sie das Feature "anrufen unter" mit der Telefonnummer eines lync-fähigen Telefons angeben. Angenommen, Ken Myers versucht, an einer Besprechung teilzunehmen, indem lync Server ihn bei 1-206-555-1219, einer lync Server-fähigen Telefonnummer, anruft. Ken wird zunächst mit der Besprechung verbunden sein, aber nach ein paar Sekunden zeigt lync an, dass der Nachrichten **Anruf nicht abgeschlossen oder beendet**wurde, und Ken wird anscheinend aus der Besprechung gestrichen:
 
-![Screenshot von Lync-Anrufkonferenzfenster](images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Screenshot von Lync-Anrufkonferenzfenster")
+Screenshot ![des lync-Anruf Konferenz Fensters] Screenshot (images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "des lync-Anruf Konferenz Fensters")
 
-Beachten Sie jedoch, dass es im Lync-Unterhaltungsfenster eine Unstimmigkeit gibt. "Ken Myer" ist der einzige Name, der unter der Überschrift **Teilnehmer** aufgeführt wird, wenn Sie sich jedoch die Titelleiste des Fensters anschauen, sehen Sie, dass an der Konferenz insgesamt vier Personen teilnehmen.
+Beachten Sie jedoch, dass es im lync-Unterhaltungsfenster eine Diskrepanz gibt. Ken Myers ist der einzige Name, der unter der Überschrift " **Teilnehmer** " aufgeführt ist. Wenn Sie jedoch in der Titelleiste des Fensters Suchen, sehen Sie, dass die Konferenz insgesamt 4 Teilnehmer enthält.
 
-Und auch wenn Sie sich die Unterhaltungsfenster der anderen Konferenzteilnehmer anschauen würden, würden Sie feststellen, dass Ken Myer nirgendwo aufgeführt wird:
+Auch wenn Sie im Unterhaltungsfenster eines anderen Konferenzteilnehmers suchen, wird Ken Myers nirgendwo aufgeführt:
 
-![Lync-Fenster mit Teilnehmerliste (Screenshot)](images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Lync-Fenster mit Teilnehmerliste (Screenshot)")
+![Screenshot des Fensters "lync-Teilnehmerliste"] (images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Screenshot des Fensters \"lync-Teilnehmerliste\"")
 
-Dennoch ist Ken Myer in der Lage, mit seinem für Lync aktivierten Telefon am Audioteil der Konferenz teilzunehmen. Die Option **Rückruf unter** hat zwar funktioniert, die Benutzererfahrung ist jedoch suboptimal.
+Gleichzeitig kann Ken Myers aber auch über sein lync-fähiges Telefon am Audioteil des Anrufs teilnehmen. Das Feature "mich anrufen" hat tatsächlich funktioniert, aber die Benutzeroberfläche ist weniger als optimal.
 
-Es gibt mindestens zwei Möglichkeiten, um dieses Problem zu umgehen. Wenn Sie bereits auf diese Weise einer Konferenz beigetreten sind (wie Ken Myer), können Sie das Problem normalerweise beheben, indem Sie eine andere Vorgehensweise wählen. Wenn Sie beispielsweise eine Chatnachricht senden, werden im Unterhaltungsfenster nun alle Konferenzteilnehmer einschließlich Ihrer Person angezeigt:
+Es gibt mindestens zwei Möglichkeiten, dieses Problem zu umgehen. Wenn Sie bereits an einer Konferenz teilgenommen haben (wie Ken Myers), können Sie das Problem in der Regel beheben, indem Sie sich an einer anderen Modalität beteiligen. Wenn Sie beispielsweise eine Chatnachricht senden, werden im Unterhaltungsfenster nun alle Konferenzteilnehmer angezeigt, einschließlich ihrer selbst:
 
-![Lync-Unterhaltung und Teilnehmerliste (Screenshot)](images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Lync-Unterhaltung und Teilnehmerliste (Screenshot)")
+![Screenshot der lync-Unterhaltung und Teilnehmerliste] (images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Screenshot der lync-Unterhaltung und Teilnehmerliste")
 
-Von nun an sollten Sie in der Lage sein, in der erwarteten Weise an der Besprechung teilzunehmen.
+An diesem Punkt sollten Sie in der Lage sein, an der Besprechung in der erwarteten Weise teilzunehmen.
 
-Alternativ können Sie dieses Problem vermeiden, indem Sie die Art und Weise ändern, in der Sie an der Besprechung teilnehmen. Wenn Sie Lync Server nicht veranlassen müssen, ein für Lync Server aktiviertes Telefon anzurufen, sollten Sie damit beginnen, der Besprechung ohne Audioverbindung beizutreten. Aktivieren Sie hierfür die Option **Keine Audioteilnahme**, wenn das Dialogfeld **An Besprechungsaudio teilnehmen** angezeigt wird:
+Sie können dieses Problem aber auch ganz vermeiden, indem Sie die Art und Weise ändern, wie Sie an der Besprechung teilnehmen. Wenn lync Server ein lync Server-fähiges Telefon anrufen soll, sollten Sie mit der Teilnahme an der Besprechung ohne eine Audioverbindung beginnen. Wählen Sie dazu im Dialogfeld "an Besprechung teilnehmen" die Option "nicht an Audio teilnehmen" aus:
 
-![Lync-Fenster für Nichtteilnahme an Besprechungsaudio (Screenshot)](images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Lync-Fenster für Nichtteilnahme an Besprechungsaudio (Screenshot)")
+![Screenshot von lync an der Besprechung des Audiofensters nicht teilnehmen] (images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Screenshot von lync an der Besprechung des Audiofensters nicht teilnehmen")
 
-Nachdem Sie die Verbindung zur Besprechung erfolgreich hergestellt haben, können Sie nun das für Lync Server aktivierte Telefon "einladen", ebenfalls an der Besprechung teilzunehmen. Zeigen Sie hierzu mit der Maus auf das Symbol **Personen**, und klicken Sie dann auf **Weitere Personen einladen**:
+Nachdem Sie erfolgreich eine Verbindung mit der Besprechung hergestellt haben, können Sie nun das lync Server-fähige Telefon "einladen", auch an der Besprechung teilzunehmen. Setzen Sie dazu den Mauszeiger auf das Symbol Personen, und klicken Sie dann auf **weitere Personen einladen**:
 
-![Lync-Fenster zum Einladen weiterer Teilnehmer (Screenshot)](images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Lync-Fenster zum Einladen weiterer Teilnehmer (Screenshot)")
+![Screenshot des Fensters "Weitere Teilnehmer einladen"] (images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Screenshot des Fensters \"Weitere Teilnehmer einladen\"")
 
-Damit wird das Dialogfeld **Chatnachricht senden** angezeigt. Ignorieren Sie den Titel des Dialogfelds (Sie senden eigentlich keine Chatnachricht), und geben Sie die Telefonnummer des für Lync aktivierten Telefons ein:
+Dadurch wird das Dialogfeld **Chat senden** eingeblendet. Ignorieren Sie den Titel des Dialogfelds (Sie senden keine Sofortnachricht), und geben Sie die Telefonnummer des lync-fähigen Telefons ein:
 
-![Dialogfeld zum Senden einer Chatnachricht (Screenshot)](images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Dialogfeld zum Senden einer Chatnachricht (Screenshot)")
+![Screenshot des Dialogfelds "Chatnachricht senden] " (images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Screenshot des Dialogfelds \"Chatnachricht senden") "
 
-Nachdem Sie auf **OK** geklickt haben, ruft Lync Server die im Dialogfeld eingegebene Nummer an. Nachdem die Verbindung hergestellt wurde, verfügen Sie auf dem für Lync aktivierten Telefon über sämtliche Audiofunktionen, und Sie können die Liste der Konferenzteilnehmer sehen und damit interagieren.
+Nachdem Sie auf **OK**geklickt haben, ruft lync Server die im Dialogfeld eingegebene Nummer ab. Wenn die Verbindung hergestellt wurde, verfügen Sie über das lync-fähige Telefon über vollständige Audiofunktionen, und Sie können die vollständige Konferenzliste anzeigen und mit ihnen interagieren.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

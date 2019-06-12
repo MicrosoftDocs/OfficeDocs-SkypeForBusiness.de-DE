@@ -1,78 +1,117 @@
-﻿---
-title: Anzeigen von Informationen zu Benutzer-PINs
-TOCTitle: Anzeigen von Informationen zu Benutzer-PINs
-ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688067(v=OCS.15)
-ms:contentKeyID: 49890759
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Benutzer-PIN-Informationen anzeigen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View user PIN information
+ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
+ms:contentKeyID: 49733661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847228"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen von Informationen zu Benutzer-PINs
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-user-pin-information-in-lync-server-2013"></a>Anzeigen von Benutzer-PIN-Informationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Lync Server 2013-Benutzer mit Anmeldeinformationen für die Active Directory-Domänendienste (Active Directory Domain Services, AD DS) eine persönliche Identifikationsnummer (PIN). Sie können die PIN-Informationen eines Benutzers über die Systemsteuerung für Lync Server 2013 anzeigen.
+Um an einer Einwahlkonferenz als authentifizierter Benutzer teilzunehmen, erfordert ein lync Server 2013-Benutzer mit den Active Directory-Domänendiensten (AD DS) eine persönliche Identifikationsnummer (PIN). Sie können die PIN-Informationen eines Benutzers in der lync Server 2013-Systemsteuerung anzeigen.
+
+<div>
 
 
-> [!NOTE]
-> Sie können verschiedene PIN-Statusinformationen anzeigen. Dazu gehört u. a. ob eine PIN festgelegt wurde oder wann die PIN zum letzten Mal geändert wurde. Die aktuelle PIN wird beim Betrachten des PIN-Status jedoch nicht angezeigt. Wenn ein Benutzer seine PIN verloren hat, kann diese mit den in <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Festlegen der Einwahlkonferenz-PIN eines Benutzers in Lync Server 2013</A> beschriebenen Verfahren zurückgesetzt werden.
+> [!NOTE]  
+> Sie können Informationen zum Pin-Status anzeigen, beispielsweise, ob die PIN festgesetzt wurde oder wann die PIN zuletzt geändert wurde, aber Sie können die aktuelle PIN nicht sehen, indem Sie den PIN-Status betrachten. Wenn ein Benutzer seine PIN verloren hat, können Sie ihn zurücksetzen, indem Sie die Schritte unter <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Festlegen der PIN für Einwahlkonferenzen eines Benutzers in lync Server 2013</A>
 
 
 
-## So zeigen Sie die PIN eines Benutzers in Lync Server-Systemsteuerung an
+</div>
+
+<div>
+
+## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a>So zeigen Sie die PIN eines Benutzers in der lync Server-Systemsteuerung an
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4.  Suchen Sie mit einer der folgenden Methoden nach dem Benutzer:
+4.  Verwenden Sie eine der folgenden Methoden, um nach einem Benutzer zu suchen:
     
-      - Geben Sie im Feld **Benutzer suchen** den Anzeigenamen, den Vornamen, den Nachnamen, den SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder die Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos teilweise oder vollständig ein, und klicken Sie auf **Suchen**.
+      - Geben Sie im Feld **Benutzer suchen** den vollständigen oder teilweisen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein und klicken Sie dann auf **Suchen**.
     
-      - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**. Anschließend rufen Sie die Abfrage (eine USF-Datei) mithilfe des Dialogfelds **Öffnen** ab und klicken auf **Suchen**.
+      - Wenn Sie über eine gespeicherte Abfrage verfügen, klicken Sie auf das Symbol **Abfrage öffnen**, verwenden Sie das Dialogfeld **Öffnen**, um die Abfrage abzurufen (eine USF-Datei), und klicken Sie dann auf **Suchen**.
 
-5.  (Optional) Geben Sie weitere Kriterien ein, um die Suchergebnisse einzuschränken:
+5.  (Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse einzuschränken:
     
     1.  Klicken Sie auf **Filter hinzufügen**.
     
-    2.  Geben Sie die Benutzereigenschaft ein, oder wählen Sie sie aus der Dropdownliste aus.
+    2.  Geben Sie die Benutzereigenschaft ein, indem Sie sie über die Tastatur eintippen oder auf den Pfeil in der Dropdownliste klicken, um die Eigenschaft auszuwählen.
     
-    3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (z. B. **Gleich** oder **Ungleich**).
+    3.  Klicken Sie in der Dropdownliste **Gleich** auf den Operator (beispielsweise **Gleich** oder **Ungleich**).
     
     4.  Je nachdem, welche Benutzereigenschaft Sie ausgewählt haben, geben Sie nun die Kriterien ein, mit denen Sie die Suchergebnisse filtern möchten, oder treffen eine entsprechende Auswahl in der Dropdownliste.
         
+        <div>
+        
 
-        > [!TIP]
-        > Um Ihrer Abfrage weitere Suchklauseln hinzuzufügen, klicken Sie auf <STRONG>Filter hinzufügen</STRONG>.
+        > [!TIP]  
+        > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
+        
+        </div>
     
     5.  Klicken Sie auf **Suchen**.
     
+    <div>
+    
 
-    > [!NOTE]
+    > [!NOTE]  
     > Ist die PIN gesperrt, müssen Sie die Sperre zunächst aufheben, bevor Sie die PIN festlegen können. Klicken Sie zum Aufheben der Sperre auf den Benutzer, dann auf <STRONG>Aktion</STRONG> und auf <STRONG>PIN entsperren</STRONG>.
 
-
+    
+    </div>
 
 6.  Klicken Sie auf einen Benutzer in den Suchergebnissen und dann auf **Aktion** und auf **PIN-Status anzeigen**.
 
-## So zeigen Sie die PIN-Informationen für Benutzer mit den Lync Server-Verwaltungsshell-Cmdlets an
+</div>
 
-Sie können die PIN-Informationen für Benutzer mit dem Get-CsClientPinInfo-Cmdlet anzeigen. Dieses Cmdlet kann in der Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So zeigen Sie die PIN-Informationen von Benutzern an
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Benutzer-PIN-Informationen mithilfe von Windows PowerShell-Cmdlets
 
-  - Um die PIN-Informationen eines Benutzers anzuzeigen, geben Sie einen Befehl wie den folgenden in der Lync Server-Verwaltungsshell ein, und drücken Sie die EINGABETASTE:
+Sie können die PIN-Informationen für Benutzer mit dem Cmdlet „Get-CsClientPinInfo“ anzeigen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-view-user-pin-information"></a>So zeigen Sie die PIN-Informationen von Benutzern an
+
+  - Wenn Sie die PIN-Informationen für einen Benutzer anzeigen möchten, geben Sie in der lync Server-Verwaltungsshell einen Befehl ähnlich der folgenden ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
-    Dadurch werden Informationen ähnlicher der folgenden zurückgegeben:
+    Es werden etwa folgende Informationen zurückgegeben:
     
         Identity          : sip:kenmyer@litwareinc.com
         IsPinSet          : False
@@ -80,12 +119,30 @@ Sie können die PIN-Informationen für Benutzer mit dem Get-CsClientPinInfo-Cmdl
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Weitere Informationen finden Sie im Hilfethema zum [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer)-Cmdlet.
+</div>
 
-## Siehe auch
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) .
 
-#### Aufgaben
+</div>
 
-[Festlegen der Einwahlkonferenz-PIN eines Benutzers in Lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
-[Sperren oder Entsperren einer Benutzer-PIN](lync-server-2013-lock-or-unlock-a-user-pin.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Einrichten der PIN für Einwahlkonferenzen eines Benutzers in lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
+[Sperren oder Entsperren einer Benutzer-PIN in lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

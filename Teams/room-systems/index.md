@@ -25,7 +25,7 @@ ms.locfileid: "34433343"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transformieren von Besprechungsräumen von kleinen drängenden Bereichen zu großen Konferenzräumen mit einer reichen, kollaborativen Teams erleben Sie that& # 39; s einfach zu verwenden, bereitzustellen und zu verwalten. </p>
+                        <p>Verwandeln Sie Besprechungsräume, die von kleinen drängenden Bereichen bis zu großen Konferenzräumen reichen, mit einer reichhaltigen, kollaborativen Teams-Erfahrung, die&#39;s einfach zu verwenden, bereitzustellen und zu verwalten. </p>
                         <p>Starten Sie Besprechungen rechtzeitig mit einer einzigen Berührung, und projizieren Sie Sie sofort auf das Display im Chatroom und teilen Sie Sie an Remote-Teilnehmer. </p>
                         <p>Wählen Sie die richtigen System-und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.</p>
                         <p></p>

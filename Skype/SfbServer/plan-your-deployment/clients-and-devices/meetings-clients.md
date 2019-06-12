@@ -54,18 +54,18 @@ Um die Skype for Business-Web-App verwenden zu können, muss ein Benutzer über 
 
 | Betriebssystem | Edge | 32-und 64-Bit Internet Explorer 11 oder höher | 32-und 64-Bit Internet Explorer 10 oder höher | 32-und 64-Bit Internet Explorer 9 oder höher | 32-und 64-Bit-Version von Safari 6.2.8-11. X | 32-und 64-Bit-Version von Chrome 18. X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Ja   <br/> |Ja  <br/> |-  <br/> |-  <br/> |-  <br/> |Ja & # x2778; <br/> |
-|Windows 8,1 & # x2776; <br/> |n/v  <br/> |Ja  <br/> |-  <br/> |-  <br/> |- <br/> |Ja & # x2778; <br/> |
-|Windows 8 (Intel-basiert) & # x2776; <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |- <br/> |-  <br/> |Ja & # x2778; <br/> |
-|Windows 7 mit SP1 & # x2777; <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |n/v <br/>|Ja & # x2778; <br/> |
-|Windows Server 2008 R2 mit SP1 & # x2777; <br/> |n/v  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja & # x2778; <br/> |
-|macOS 10,8 und höher (Intel-basiert) & # x2777; <br/> |-  <br/> |-  <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
+|Windows 10  <br/> |Ja   <br/> |Ja  <br/> |-  <br/> |-  <br/> |-  <br/> |Ja #a0 <br/> |
+|Windows 8,1 #a0 <br/> |n/v  <br/> |Ja  <br/> |-  <br/> |-  <br/> |- <br/> |Ja #a0 <br/> |
+|Windows 8 (Intel-basiert) #a0 <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |- <br/> |-  <br/> |Ja #a0 <br/> |
+|Windows 7 mit SP1 #a0 <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |n/v <br/>|Ja #a0 <br/> |
+|Windows Server 2008 R2 mit SP1 #a0 <br/> |n/v  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja #a0 <br/> |
+|macOS 10,8 und höher (Intel-basiert) #a0 <br/> |-  <br/> |-  <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
    
-&#x2776; Das Plug-in für das Skype for Business Web App-Browser erfordert ein spezielles Freigabe-Plug-in für die Verwendung von computerbasierter sprach-, Video-, Freigabe-und Anzeige der laufenden Bildschirmübertragung und anderer Funktionen. Eine Besprechungs Teilnehmerin erhält die Option, das Freigabe-Plug-in zu installieren, wenn Sie an der Besprechung teilnehmen oder eine dieser Features initiieren. Unter Windows 8 und Windows 8,1 kann das Freigabe-Plug-in nur installiert werden, wenn Sie mit Internet Explorer 10 oder Internet Explorer 11 für den Desktop arbeiten. Diese Features sind für nicht-Desktop Versionen von Internet Explorer 10 und 11 nicht verfügbar. Beachten Sie, dass Firefox und Safari, Version 12,0 und höher, nicht mehr unterstützt werden.
+&#x2776; das Plug-in für das Skype for Business Web App-Browser ein spezielles Freigabe-Plug-in für die Verwendung von computerbasierter sprach-, Video-, Freigabe-und Anzeige der laufenden Bildschirmfreigabe und anderer Features erfordert. Eine Besprechungs Teilnehmerin erhält die Option, das Freigabe-Plug-in zu installieren, wenn Sie an der Besprechung teilnehmen oder eine dieser Features initiieren. Unter Windows 8 und Windows 8,1 kann das Freigabe-Plug-in nur installiert werden, wenn Sie mit Internet Explorer 10 oder Internet Explorer 11 für den Desktop arbeiten. Diese Features sind für nicht-Desktop Versionen von Internet Explorer 10 und 11 nicht verfügbar. Beachten Sie, dass Firefox und Safari, Version 12,0 und höher, nicht mehr unterstützt werden.
   
-&#x2777; Unter unterstützten Windows 7-, Windows Server 2008 R2-und Macintosh-Betriebssystemen stehen alle Features zur Verfügung, einschließlich computerbasierter sprach-, Video-, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe. Um diese Funktionen zu verwenden, müssen Sie ein Plug-In installieren, wenn Sie dazu aufgefordert werden. Mac OS X Version 10.7 wird nicht mehr unterstützt.
+&#x2777; unter unterstützten Windows 7-, Windows Server 2008 R2-und Macintosh-Betriebssystemen stehen alle Features zur Verfügung, einschließlich computerbasierter sprach-, Video-, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe. Um diese Funktionen zu verwenden, müssen Sie ein Plug-In installieren, wenn Sie dazu aufgefordert werden. Mac OS X Version 10.7 wird nicht mehr unterstützt.
   
-&#x2778; Wenn Sie auf die Web-App von Chrome unter Windows zugreifen, wird ein kleines Programm gestartet, das die Web-App in einem eingebetteten Internet Explorer-Frame lädt. Damit die Web-App richtig geladen wird, muss eine der unterstützten Versionen von Internet Explorer installiert sein.
+&#x2778; der Zugriff auf die Web-App in Chrome unter Windows wird ein kleines Programm gestartet, das die Web-App in einem eingebetteten Internet Explorer-Frame lädt. Damit die Web-App richtig geladen wird, muss eine der unterstützten Versionen von Internet Explorer installiert sein.
   
 > [!NOTE]
 > Office 365-Benutzer können Internet Explorer 10 oder höher mit Skype for Business verwenden. 
@@ -104,14 +104,14 @@ Diese Tabelle vergleicht die besprechungsfeatures, die Benutzern des Skype for B
 |Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |&#x2714;|&#x2714;|&#x2714;|||
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Videobasierte Bildschirmübertragung  <br/> |&#x2714;|&#x2714; <br/> |& # x2714; (nur anzeigen)  <br/> |||
+|Videobasierte Bildschirmübertragung  <br/> |&#x2714;|&#x2714; <br/> |&#x2714; (nur anzeigen)  <br/> |||
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |An Chats mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |&#x2714;|||||
 |Desktop freigeben (sofern aktiviert)  <br/> |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |
-|Programm freigeben (sofern aktiviert)  <br/> |&#x2714;||& # x2714; (nur unter Windows; erfordert Plug-in)  <br/> |& # x2714; (nur unter Windows; erfordert Plug-in)  <br/> |& # x2714; (nur unter Windows; erfordert Plug-in)  <br/> |
-|Übernehmen der Steuerung des freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |&#x2714;||&#x2714; (&#x2776; Nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (&#x2776; Nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (&#x2776; Nur unter Windows; erfordert Plug-in)  <br/> |
+|Programm freigeben (sofern aktiviert)  <br/> |&#x2714;||&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |
+|Übernehmen der Steuerung des freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |&#x2714;||&#x2714; (nur #a1 unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur #a1 unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur #a1 unter Windows; erfordert Plug-in)  <br/> |
 |Einem anderen Benutzer die Steuerung Ihres freigegebenen Desktops oder Programms überlassen  <br/> |&#x2714;|||||
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Teilnehmer nach Namen einladen  <br/> |&#x2714;|&#x2714;||||
@@ -135,11 +135,11 @@ Diese Tabelle vergleicht die besprechungsfeatures, die Benutzern des Skype for B
 |Alle zu Teilnehmern machen  <br/> |&#x2714;|||||
 |Skype Meeting Broadcast erstellen  <br/> |&#x2714;|||||
    
- &#x2776;  Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Das funktioniert auch bei Skype for Business Web App auf Max OSX nicht.
+ &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Das funktioniert auch bei Skype for Business Web App auf Max OSX nicht.
   
- &#x2777;  Für Skype for Business Online erfordert dieses Feature Microsoft PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
+ &#x2777; für Skype for Business Online erfordert dieses Feature Microsoft-PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
   
- &#x2778;  Der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie von der Skype for Business Web App in einer Konferenz freigegeben wurden.
+ &#x2778; der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie von der Skype for Business Web App in einer Konferenz freigegeben wurden.
   
 ## <a name="known-issues-and-troubleshooting"></a>Bekannte Probleme und Problembehandlung
 <a name="BKMK_Conferencing"> </a>

@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblLastChatId'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblLastChatId
 ms:assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558616(v=OCS.15)
-ms:contentKeyID: 49293302
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558616(v=OCS.15)
+ms:contentKeyID: 48183513
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: bddc89952b544a71c469538cf11f65658e19e38d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847668"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblLastChatId in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="tbllastchatid-in-lync-server-2013"></a>tblLastChatId in Lync Server 2013
 
-"LastChatId" enthält die zuletzt generierte (und in der tblChat-Tabelle verwendete) Chat-ID für jeden Benutzer.
+</div>
 
-### Spalten
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+
+tblLastChatId enthält die letzte Chat-ID, die für jeden Benutzer generiert (und in der tblChat-Tabelle verwendet) wurde.
+
+### <a name="columns"></a>Spalten
 
 <table>
 <colgroup>
@@ -36,7 +56,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 <tr class="odd">
 <td><p>nodeID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Knoten-ID (nur Chatroom).</p></td>
+<td><p>Knoten-ID (nur Chatroom-Typ).</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
@@ -47,7 +67,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </table>
 
 
-### Schlüssel
+### <a name="keys"></a>Schlüssel
 
 <table>
 <colgroup>
@@ -62,20 +82,34 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;nodeID, lastChatID&gt;</p></td>
-<td><p>Primärschlüssel (für die Verarbeitung genügt <strong>nodeID</strong> ).</p></td>
+<td><p>&lt;Knoten-lastChatID&gt;</p></td>
+<td><p>Primärschlüssel (nur Knoten-Nr ist für die Verarbeitung ausreichend).</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeID</p></td>
-<td><p>Fremdschlüssel mit Abfrage der <strong>tblNode.nodeID</strong> -Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a>Siehe auch
 
-[tblChat in Lync Server 2013](lync-server-2013-tblchat.md)
+
+[tblChat in Lync Server 2013](lync-server-2013-tblchat.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

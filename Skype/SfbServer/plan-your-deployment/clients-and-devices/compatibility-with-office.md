@@ -33,7 +33,7 @@ In der folgenden Tabelle werden die Skype for Business-Features beschrieben, die
   
 **Kompatibilität von Skype for Business und Microsoft Office**
 
-|**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**Office 2016 für Mac** & # x2776; |
+|**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**Office 2016 für Mac** #a0 |
 |:-----|:-----|:-----|:-----|
 |**Outlook-Funktionen** ||||
 |Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja    |Ja|
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die Skype for Business-Features beschrieben, die
 |Chat und Anwesenheitsinformationen in Microsoft Word- und Microsoft Excel-Dateien (Smarttags aktiviert)    |Nur Microsoft Word    |Nur Microsoft Word    |Nein    |
 |Chat und Anwesenheitsinformationen in Microsoft SharePoint-Websites (Outlook muss installiert sein.)    |Ja    |Ja    |Nein    |
    
-&#x2776; -Geht davon aus, dass Sie einen Skype for Business für Mac-Client oder den lync 2011 für Mac-Client installiert haben und derzeit ausgeführt werden.
+&#x2776; – davon ausgegangen, dass Sie einen Skype for Business für Mac-Client oder den lync 2011 für Mac-Client installiert haben und derzeit ausgeführt werden.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server und Skype for Business
 

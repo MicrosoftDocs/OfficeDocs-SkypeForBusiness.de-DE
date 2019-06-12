@@ -492,7 +492,7 @@ Nachdem Sie die QoS-Gültigkeitsprüfung mithilfe von Gruppenrichtlinien für We
 
 **QoS-Konfigurationsüberprüfung über GPO und Nachrichten Analyse**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -546,7 +546,7 @@ Nachdem Sie das Testen der Split-Tunnel-Konfiguration für Websites im Bereich a
 
 **Überprüfung der Split-Tunnel-Konfiguration**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -597,7 +597,7 @@ Nachdem Sie alle Netzwerk Konnektivitäts-und Leistungstests für die Websites i
 
 **Ort: Seattle [in Wired] Client zu Office 365 Ergebnisse**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 
 
@@ -617,7 +617,7 @@ Nachdem Sie alle Netzwerk Konnektivitäts-und Leistungstests für die Websites i
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testen von Lowlights  </th></tr> 
 <tr><td><strong>Problem</strong>: große Latenz</td><td><strong>Behebung:</strong> Untersuchen Sie die Paketweiterleitung, und implementieren Sie die ideale Route.</td></tr>
-<tr><td><strong>Problem</strong>: Roundtrip-Zeit isn& # 39; t doppelte Wartezeit</td><td><strong>Behebung:</strong> Untersuchen Sie eine mögliche Firewall oder Router-Konfigurationsproblem. Untersuchen von Verkehrswegen</td></tr>
+<tr><td><strong>Problem</strong>: Roundtrip-Zeit&#39;t die Wartezeit verdoppeln</td><td><strong>Behebung:</strong> Untersuchen Sie eine mögliche Firewall oder Router-Konfigurationsproblem. Untersuchen von Verkehrswegen</td></tr>
 <tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Überprüfen Sie im Netzwerk Planner, ob genügend Bandbreite zugeteilt wurde. </td></tr>
 <tr><td><strong>Problem</strong>: starker Jitter </td><td> <strong>Behebung:</strong> Überprüfen Sie, ob die richtigen DSCP-Werte (differenzierte Services Code Point) verwendet werden. </td></tr>
 <tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Untersuchen Sie den Paketverlust. </td></tr>
@@ -718,7 +718,7 @@ Nachdem Sie alle Teilnehmer Nummern Tests abgeschlossen haben, erstellen Sie ein
 
 **Dienstnummern Portierung**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>
@@ -776,7 +776,7 @@ Wenn Testfälle für die Features für die Verwaltungs-und Benutzer Telefonsyste
 | Telefon System mit Anrufplänen          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | Test Case-ID                             | Test Case-Titel              | Test Fallbeschreibung                                                                      | Zusammenfassung des Test Fall Ergebnisses | Zugewiesene Fehler-ID (falls zutreffend)                                         |
-| 1                                        | Ausgehende PSTN-Anrufe. | Einen ausgehenden Anruf tätigen, indem Sie eine inländische 10-stellige Nummer wählen.                              |    &#9744; Übergeben<br/>&#9744; Teilweise<br/> &#9744; Nicht                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt der für das PSTN festgelegte Anruf fehl. |
+| 1                                        | Ausgehende PSTN-Anrufe. | Einen ausgehenden Anruf tätigen, indem Sie eine inländische 10-stellige Nummer wählen.                              |    &#9744;Pass<br/>&#9744;teilweise<br/> &#9744;Fehler                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt der für das PSTN festgelegte Anruf fehl. |
 
 
 
@@ -798,7 +798,7 @@ Nachdem alle Test Cases, die das Telefonsystem mit den Funktionen für Anrufplä
 
 **Teams-Telefon System mit Anrufplänen**
 
-**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
+**Zusammenfassung**der&nbsp; &nbsp; &nbsp; Ergebnisse:&nbsp; &nbsp; &nbsp;&#9744;Durchlauf&nbsp; &nbsp; &nbsp; &#9744;partiellen &#9744;Fehler 
 
 <table>
 <tr><th colspan="2">Test Highlights </th></tr>

@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Einrichten von Front-End-Servern und Front-End-Pools'
-TOCTitle: Einrichten von Front-End-Servern und Front-End-Pools
-ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398827(v=OCS.15)
-ms:contentKeyID: 49295380
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten von Front-End-Servern und Front-End-Pools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Front End Servers and Front End pools
+ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
+ms:contentKeyID: 48185381
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab21e5933623af58834d3b9effa5ba1e2beecc43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847822"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten von Front-End-Servern und Front-End-Pools für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Einrichten von Front-End-Servern und Front-End-Pools für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
-In diesem Abschnitt werden die Installation von Lync Server 2013 und die Einrichtung der Serverrollen für den Standard Edition-Server und den Front-End-Pool behandelt. Dies umfasst u. a. Front-End-Server und Serverrollen, die gemeinsam mit den Front-End-Servern ausgeführt werden. Zum Installieren und Einrichten von Serverrollen führen Sie den Lync Server-Bereitstellungs-Assistenten auf jedem Computer aus, auf dem eine Serverrolle installiert wird. Sie können mit dem Bereitstellungs-Assistenten alle vier Bereitstellungsschritte ausführen. Dies umfasst u. a. die Installation des lokalen Konfigurationsspeichers, die Installation der Front-End-Server, die Konfiguration von Zertifikaten und das Starten von Diensten.
+Dieser Abschnitt führt Sie durch die Installation von lync Server 2013 und das Einrichten der Serverrollen für den Standard Edition-Server und den Front-End-Pool, einschließlich der Front-End-Server und aller Serverrollen, die mit den Front-End-Servern zusammengesetzt sind. Zum Installieren und Einrichten von Serverrollen führen Sie den lync Server-Bereitstellungs-Assistenten auf jedem Computer aus, auf dem Sie eine Serverrolle installieren. Sie verwenden den Bereitstellungs-Assistenten, um alle vier Bereitstellungsschritte abzuschließen, einschließlich der Installation des lokalen Konfigurationsspeichers, der Installation der Front-End-Server, der Konfiguration von Zertifikaten und dem Starten von Diensten.
+
+<div>
 
 
-> [!NOTE]
-> Bevor Sie Serverrollen einrichten können, müssen Sie eine Topologie erfolgreich veröffentlicht haben. Ausführliche Informationen zum Veröffentlichen einer Topologie finden Sie unter <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Abschließen und Implementieren des Topologieentwurfs in Lync Server 2013</A>.
+> [!NOTE]  
+> Bevor Sie Serverrollen einrichten können, müssen Sie eine Topologie erfolgreich veröffentlicht haben. Details zum Veröffentlichen einer Topologie finden Sie unter <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalisieren und Implementieren des Topologie-Designs in lync Server 2013</A>.
 
 
 
-## In diesem Abschnitt
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Installieren des lokalen Konfigurationsspeichers in Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
@@ -36,4 +62,16 @@ In diesem Abschnitt werden die Installation von Lync Server 2013 und die Einrich
   - [Testen der Poolbereitstellung in Lync Server 2013](lync-server-2013-test-the-pool-deployment.md)
 
   - [Testen des Standard Edition-Servers in Lync Server 2013](lync-server-2013-test-the-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

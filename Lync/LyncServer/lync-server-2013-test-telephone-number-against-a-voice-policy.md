@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test telephone number against a voice policy'
+---
+title: 'Lync Server 2013: Testen einer Telefonnummer mit einer VoIP-Richtlinie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test telephone number against a voice policy
 ms:assetid: 30c51700-17c6-4c57-891a-8d5ec30b50ee
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn725207(v=OCS.15)
-ms:contentKeyID: 62336010
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725207(v=OCS.15)
+ms:contentKeyID: 63969596
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a7a1e24a07a0f6e1e985c9fc42f7468838074d3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847537"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test telephone number against a voice policy in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testen einer Telefonnummer für eine VoIP-Richtlinie in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-05-20_
 
 
 <table>
@@ -23,58 +43,68 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Monatlich</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoicePolicy cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoicePolicy-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The ability of Enterprise Voice users to make outgoing phone calls over the Public Switched Telephone network (PSTN) hinges, in large part, on three things:
+## <a name="description"></a>Beschreibung
 
-  - The voice policy assigned to the user.
+Die Möglichkeit von Enterprise-VoIP-Benutzern, ausgehende Telefonanrufe über das öffentlich geschaltete Telefonnetz (PSTN) zu tätigen, hängt zu einem Großteil von drei Dingen ab:
 
-  - The voice routes used to route calls from Lync Server to the PSTN network.
+  - Die dem Benutzer zugewiesene VoIP-Richtlinie.
 
-  - The PSTN usage, a Lync Server property that connects a voice policy to a voice route.
+  - Die VoIP-Routen, die zum Weiterleiten von Anrufen von lync Server an das PSTN-Netzwerk verwendet werden.
 
-The PSTN usage is especially important: it’s the property that connects a voice policy to a voice route. (A voice policy and a voice route are said to be connected if they have at least one PSTN usage in common.) Voice policies can be configured without specifying a PSTN usage. In that case, users who were assigned that policy won't be able to make outgoing calls over the PSTN network. Likewise, voice routes that do not have at least one specified PSTN usage will be unable to route calls to the PSTN network.
+  - Die PSTN-Nutzung, eine lync Server-Eigenschaft, die eine VoIP-Richtlinie mit einer VoIP-Route verbindet.
 
-The Test-CsVoicePolicy cmdlet verifies that a given voice policy has a PSTN usage and that the usage is shared by at least one voice route. If the verification run by Test-CsVoicePolicy succeeds, the cmdlet will report back the name of the first valid voice route it finds, and also the name of the PSTN usage that connects the policy to the route.
+Die PSTN-Nutzung ist besonders wichtig: Es handelt sich um die Eigenschaft, die eine VoIP-Richtlinie mit einer VoIP-Route verbindet. (Eine VoIP-Richtlinie und eine VoIP-Route werden als verbunden bezeichnet, wenn Sie mindestens eine PSTN-Nutzung gemeinsam haben.) VoIP-Richtlinien können ohne Angabe einer PSTN-Nutzung konfiguriert werden. In diesem Fall können Benutzer, denen diese Richtlinie zugewiesen wurde, keine ausgehenden Anrufe über das PSTN-Netzwerk führen. Ebenso können VoIP-Routen, die nicht über mindestens eine festgelegte PSTN-Nutzung verfügen, keine Anrufe an das PSTN-Netzwerk weiterleiten.
 
-## Running the test
+Das Cmdlet Test-CsVoicePolicy überprüft, ob eine bestimmte VoIP-Richtlinie über eine PSTN-Nutzung verfügt und dass die Nutzung von mindestens einer VoIP-Route freigegeben wird. Wenn die Überprüfung durch Test-CsVoicePolicy erfolgreich ausgeführt wird, meldet das Cmdlet den Namen der ersten gültigen VoIP-Route, die gefunden wird, und auch den Namen der PSTN-Nutzung, die die Richtlinie mit der Route verbindet.
 
-To run the Test-CsVoicePolicy cmdlet you must first use the Get-CsVoicePolicy cmdlet retrieve an instance of the voice policy to be tested; that instance must then be piped to Test-CsVoicePolicy. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ausführen des Tests
+
+Damit Sie das Cmdlet Test-CsVoicePolicy ausführen können, müssen Sie zuerst das Cmdlet Get-CsVoicePolicy verwenden, um eine Instanz der VoIP-Richtlinie abzurufen, die getestet werden soll. Diese Instanz muss dann zu Test-CsVoicePolicy umgeleitet werden. Beispiel:
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Note that this command, which does not use Get-CsVoicePolicy to retrieve a voice policy instance, will fail:
+Beachten Sie, dass dieser Befehl, der keine Get-CsVoicePolicy zum Abrufen einer VoIP-Richtlinieninstanz verwendet, fehlerhaft ist:
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
-If you want to check all the voice policies against a specified phone number then use a command similar to this:
+Wenn Sie alle VoIP-Richtlinien für eine bestimmte Telefonnummer überprüfen möchten, verwenden Sie einen ähnlichen Befehl wie den folgenden:
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Note that the TargetNumber must be specified by using the E.164 format. Test-CsVoicePolicy won't attempt to normalize or translate phone numbers into the E.164 format.
+Beachten Sie, dass der TargetNumber mit dem E. 164-Format angegeben werden muss. Test-CsVoicePolicy versucht nicht, Telefonnummern in das E. 164-Format zu normalisieren oder zu übersetzen.
 
-For more information, see the Help documentation for the Test-CsVoicePolicy cmdlet.
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-CsVoicePolicy.
 
-## Determining success or failure
+</div>
 
-If the voice policy can find both a matching voice route and a matching PSTN usage, then both the route and the usage will be displayed on-screen:
+<div>
+
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+
+Wenn die VoIP-Richtlinie sowohl eine übereinstimmende VoIP-Route als auch eine übereinstimmende PSTN-Nutzung finden kann, werden sowohl die Route als auch die Verwendung auf dem Bildschirm angezeigt:
 
 FirstMatchingRoute MatchingUsage
 
@@ -82,27 +112,47 @@ FirstMatchingRoute MatchingUsage
 
 RedmondVoiceRoute RedmondPstnUsage
 
-If either an appropriate voice route or an appropriate PSTN usage cannot be found then blank property values will be displayed on-screen:
+Wenn entweder eine geeignete VoIP-Route oder eine entsprechende PSTN-Nutzung gefunden werden kann, werden leere Eigenschaftswerte auf dem Bildschirm angezeigt:
 
 FirstMatchingRoute MatchingUsage
 
 \------------------ -------------
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsVoicePolicy does not return a match that could mean that the voice policy does not share a PSTN usage with a voice route. To verify that, use a cmdlet similar to the following to verify that PSTN usages assigned to the voice policy:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Wenn Test-CsVoicePolicy keine Übereinstimmung zurückgibt, kann dies bedeuten, dass die VoIP-Richtlinie keine PSTN-Nutzung mit einer VoIP-Route teilt. Um dies zu überprüfen, verwenden Sie ein Cmdlet ähnlich dem folgenden, um zu überprüfen, ob PSTN-Nutzungen der VoIP-Richtlinie zugewiesen sind:
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
-Next, run this command to determine the PSTN usages assign to each of your voice routes:
+Führen Sie als nächstes diesen Befehl aus, um festzustellen, welche PSTN-Nutzungen für Ihre VoIP-Routen zuzuweisen sind:
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-If you see any matches (that is, if you see one or more voice routes that share at least one PSTN usage with your voice policy), you should then run the Test-CsVoiceRoute cmdlet to verify that the voice route can dial the supplied phone number.
+Wenn Sie Übereinstimmungen sehen (das heißt, wenn Sie eine oder mehrere VoIP-Routen sehen, die mindestens eine PSTN-Nutzung mit Ihrer VoIP-Richtlinie aufweisen), sollten Sie das Cmdlet Test-CsVoiceRoute ausführen, um zu überprüfen, ob die VoIP-Route die angegebene Telefonnummer wählen kann.
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Test-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoicePolicy)
+## <a name="see-also"></a>Siehe auch
+
+
+[Test-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsVoicePolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

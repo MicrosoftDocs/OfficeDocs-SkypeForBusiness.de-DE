@@ -1,41 +1,79 @@
-﻿---
-title: Anzeigen einer Liste mit Computern, auf denen Lync Server 2013 ausgeführt wird
-TOCTitle: Anzeigen einer Liste mit Computern, auf denen Lync Server 2013 ausgeführt wird
-ms:assetid: 44eeec27-8b99-44f0-b0bd-622c12393d34
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520987(v=OCS.15)
-ms:contentKeyID: 49293852
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anzeigen einer Liste der Computer mit lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View a list of computers running Lync Server 2013
+ms:assetid: 44eeec27-8b99-44f0-b0bd-622c12393d34
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520987(v=OCS.15)
+ms:contentKeyID: 48184030
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce8b81f213e11f62632f4c74bdf62e3ac64e0168
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847268"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anzeigen einer Liste mit Computern, auf denen Lync Server 2013 ausgeführt wird
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-a-list-of-computers-running-lync-server-2013"></a>Anzeigen einer Liste der Computer mit lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Mithilfe der Systemsteuerung für Lync Server 2013 können Sie eine Liste aller Computer anzeigen, auf denen Lync Server 2013 in Ihrer Topologie ausgeführt wird. Außerdem wird für jeden Computer der Dienststatus aufgeführt. Die Liste kann nach Computer, Pool oder Standort sortiert werden.
+Sie können die lync Server 2013-Systemsteuerung verwenden, um eine Liste aller Computer anzuzeigen, auf denen lync Server 2013 in Ihrer Topologie ausgeführt wird, und den jeweiligen Dienststatus anzuzeigen. Sie können die Liste nach Computer, Pool oder Website sortieren.
 
-## So zeigen Sie eine Liste von Computern an, auf denen Lync Server ausgeführt wird
+<div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem irgendeine der vordefinierten Administratorrollen zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Informationen zu den verfügbaren vordefinierten Administratorrollen in Lync Server 2013 finden Sie unter [Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+## <a name="to-view-a-list-of-computers-running-lync-server"></a>So zeigen Sie eine Liste der Computer mit lync Server an
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich bei einem Benutzerkonto, das einer der vordefinierten Administratorrollen für lync Server 2013 zugewiesen ist, bei jedem Computer in ihrer internen Bereitstellung an. Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-4.  Führen Sie auf der Seite **Status** nach Bedarf die folgenden Schritte aus:
+4.  Führen Sie auf der **Status** Seite nach Bedarf eine der folgenden Aktionen aus:
     
-      - Sortieren Sie die Liste, indem Sie auf die Spaltenüberschrift **Computer**, **Pool** oder **Standort** und anschließend auf den Aufwärts- oder Abwärtspfeil klicken.
+      - Sortieren Sie die Liste, indem Sie auf die Überschrift **Computer**, **Pool**oder **Website** Spalte und dann auf den nach oben oder den nach unten weisenden Pfeil klicken.
     
-      - Klicken Sie auf **Aktualisieren**, um die aktuelle Liste anzuzeigen.
+      - Klicken Sie auf **Aktualisieren** , um die aktuelle Liste anzuzeigen.
     
-      - Suchen Sie nach einem bestimmten Computer, indem Sie den Computernamen im Suchfeld eingeben.
+      - Suchen Sie nach einem bestimmten Computer, indem Sie den Computernamen in das Suchfeld eingeben.
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
 
-[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test mobile user access'
+---
+title: 'Lync Server 2013: Testen des Zugriffs auf mobile Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn767947(v=OCS.15)
-ms:contentKeyID: 62486202
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)
+ms:contentKeyID: 63969624
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: eda2ec2d02fe4189c8e34cf700f6f1fd07895ef6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34847560"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test mobile user access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="test-mobile-user-access-in-lync-server-2013"></a>Testen des Zugriffs von mobilen Benutzern in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2014-06-07_
 
 
 <table>
@@ -23,36 +43,42 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Überprüfungszeitplan</p></td>
+<td><p>Monatlich</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Test Tool</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server-Verwaltungsshell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Erforderliche Berechtigungen</p></td>
+<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
+<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsMcxConference-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Mobility Service enables mobile device users to do such things as:
+## <a name="description"></a>Beschreibung
 
-1.  Exchange instant messages and presence information.
+Mit dem Mobilitätsdienst können Benutzer mobiler Geräte wie folgt vorgehen:
 
-2.  Store and retrieve voice mail internally instead of with their wireless provider.
+1.  Tauschen Sie Sofortnachrichten und Anwesenheitsinformationen aus.
 
-3.  Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing. The Test-CsMcxConference cmdlet provides a quick and easy way to verify that users can join and participate in Lync Server conferences by using a mobile device.
+2.  Speichern und Abrufen von Voicemail intern und nicht mit Ihrem WLAN-Anbieter.
 
-## Running the test
+3.  Nutzen Sie die Vorteile von lync-Server Funktionen wie Anruf über Arbeit und Einwahlkonferenzen. Das Cmdlet Test-CsMcxConference bietet eine schnelle und einfache Möglichkeit, um zu überprüfen, ob Benutzer teilnehmen und an lync Server-Konferenzen teilnehmen können, indem Sie ein mobiles Gerät verwenden.
 
-To run this check, you must create three Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxConference as shown in the following example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ausführen des Tests
+
+Zum Ausführen dieser Prüfung müssen Sie für jedes Konto drei Windows PowerShell-Anmeldeinformationsobjekte (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsMcxConference aufrufen, wie im folgenden Beispiel gezeigt:
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -60,85 +86,105 @@ To run this check, you must create three Windows PowerShell credentials objects 
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-For more information, see the help topic for the [Test-CsMcxConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxConference) cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference) .
 
-## Determining success or failure
+</div>
 
-If the check succeeds, Test-CsMcxConference will report a test result of Success:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
 
-Target Uri : http://atl-cs-001.litwareinc.com:443/mcx
+Wenn die Überprüfung erfolgreich ist, wird in Test-CsMcxConference ein Testergebnis von Success gemeldet:
 
-Result : Success
+Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Latency : 00:00:00
+Ziel-URI:http://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message :
+Ergebnis: Erfolg
 
-Diagnosis :
+Latenz: 00:00:00
 
-If the check is unsuccessful Test-CsMcxConference will report a test result of Failure. This test result will typically be accompanied by a detailed error message and diagnosis. For example:
+Fehlermeldung:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Diagnose
 
-Target Uri : https://atl-cs-001.litwareinc.com:443/mcx
+Wenn die Überprüfung nicht erfolgreich ist, meldet CsMcxConference ein Testergebnis des Fehlers. Dieses Testergebnis wird in der Regel von einer detaillierten Fehlermeldung und Diagnose begleitet. Beispiel:
 
-Result : Failure
+Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Latency : 00:00:00
+Ziel-URI:https://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message : No response received for Web-Ticket service.
+Ergebnis: Fehler
 
-Inner Exception:The HHTP request is unauthorized with client
+Latenz: 00:00:00
 
-negotiation scheme 'Ntlm'. The authentication header received
+Fehlermeldung: beim Web-Ticket-Service wurde keine Antwort empfangen.
 
-from the server was 'Negotiate'.
+Innere Ausnahme: die HHTP-Anforderung ist mit dem Client nicht autorisiert
 
-Inner Exception:The remote server returned an error: (401)
+Aushandlungs Schema "NTLM". Der empfangene Authentifizierungsheader
 
-Unauthorized.
+vom Server war "Negotiate".
 
-Diagnosis :
+Innere Ausnahme: der Remoteserver hat einen Fehler zurückgegeben: (401)
 
-Inner Diagnosis:X-MS-server-Fqdb : atl-cs-001.litwareinc.com
+Unbefugte.
 
-Cache-Control : private
+Diagnose
 
-Content-Type : text/html; charset=utf-8.
+Innere Diagnose: X-MS-Server-Fqdb: ATL-CS-001.litwareinc.com
 
-Server : Microsoft-IIS/8.5
+Cache-Control: privat
 
-WWW-Authenticate : Negotiate,NTLM
+Content-Type: Text/HTML; charset = UTF-8.
 
-X-Powered-By : ASP.NET
+Server: Microsoft-IIS/8.5
 
-X-Content-Type-Options : nosniff
+WWW-Authenticate: Negotiate, NTLM
 
-Date : Wed, 28 May 2014 19:22:19 GMT
+X-powered-by: ASP.net
 
-Content-Length : 6305
+X-Content-Type-Optionen: nosniff
 
-## Reasons why the test might have failed
+Datum: Wed, 28 May 2014 19:22:19 GMT
 
-If Test-CsMcxConference fails you should begin by verifying that the mobility service is running and can be accessed. That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed. For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:
+Content-length: 6305
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+
+Wenn Test-CsMcxConference fehlschlägt, sollten Sie zunächst überprüfen, ob der Mobilitätsdienst ausgeführt wird und zugegriffen werden kann. Dies kann mithilfe eines Webbrowsers erfolgen, um zu überprüfen, ob auf die Mobilitätsdienst-URL für Ihren lync Server-Pool zugegriffen werden kann. Mit diesem Befehl wird beispielsweise die URL für den Pool ATL-CS-001.litwareinc.com überprüft:
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
-If the mobility service can be accessed you should then verify that your test users have valid Lync Server accounts. You can retrieve account information by using a command similar to this:
+Wenn Sie auf den Mobilitätsdienst zugreifen können, sollten Sie sicherstellen, dass die Testbenutzer über gültige lync Server-Konten verfügen. Sie können Kontoinformationen abrufen, indem Sie einen Befehl wie den folgenden verwenden:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.You should also verify that each user account is enabled for mobility. To do that, first determine the mobility policy that is assigned to the account:
+Wenn die Enabled-Eigenschaft nicht gleich true ist oder der Befehl fehlschlägt, bedeutet dies, dass der Benutzer kein gültiges lync Server-Konto hat. Sie sollten auch sicherstellen, dass jedes Benutzerkonto für Mobilität aktiviert ist. Ermitteln Sie dazu zunächst die Mobilitätsrichtlinie, die dem Konto zugewiesen ist:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:
+Nachdem Sie den Richtliniennamen kennen, verwenden Sie das Cmdlet Get-CsMobilityPolicy, um zu überprüfen, ob die fragliche Richtlinie (beispielsweise RedmondMobilityPolicy) die EnableMobility-Eigenschaft auf true festgelegt ist:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-If you receive an “authentication header” error message when you run Test-CsMcxConference that often means that you have not specified a valid user account, Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.
+Wenn Sie beim Ausführen von Test-CsMcxConference eine Fehlermeldung "Authentifizierungsheader" erhalten, die häufig bedeutet, dass Sie kein gültiges Benutzerkonto angegeben haben, überprüfen Sie den Benutzernamen und das Kennwort, und versuchen Sie dann erneut, den Test zu testen. Wenn Sie davon überzeugt sind, dass das Benutzerkonto gültig ist, verwenden Sie das Cmdlet Get-CsWebServiceConfiguration, und überprüfen Sie den Wert der UseWindowsAuth-Eigenschaft. Damit erfahren Sie, welche Authentifizierungsmethoden in Ihrer Organisation aktiviert sind.
 
-For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+Weitere Tipps zur Problembehandlung beim Mobilitätsdienst finden Sie im Blogbeitrag zur [Problembehandlung von externen lync-Mobilitäts Verbindungsproblemen Schritt-für-Schritt](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

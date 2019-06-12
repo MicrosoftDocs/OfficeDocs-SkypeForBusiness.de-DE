@@ -53,7 +53,7 @@ Diese Tabelle enthält die erweiterten Anwesenheitsfunktionen, die über die ein
 | Benutzerdefinierte Notiz hinzufügen                                                                                   | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Verwenden eines Fotos von einer beliebigen öffentlichen Site für „Mein Bild“  <br/> (nicht verfügbar in Skype for Business Online) | &#x2714;                                      |                           | &#x2714;         |
 
- &#x2776;  Unterstützt den Veröffentlichungsstatus nicht basierend auf den Frei/Gebucht-Informationen des Kalenders.
+ &#x2776; unterstützt den Veröffentlichungsstatus nicht basierend auf den Frei/Gebucht-Informationen des Kalenders.
 
 ## <a name="contacts-and-contact-groups-support"></a>Unterstützung für Kontakte und Kontaktgruppen
 <a name="BKMK_Contacts"> </a>
@@ -88,7 +88,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Chatunterstützung.
 |:-----|:-----|:-----|:-----|  
 |Chatnachricht oder E-Mail an Kontakt initiieren  |&#x2714;|&#x2714;|&#x2714;|  
 |In einem einzelnen Fenster mit Registerkarten zwischen mehreren Chats navigieren bzw. mehrere Unterhaltungen verfolgen   |&#x2714;|&#x2714;|&#x2714;| 
-|Chatunterhaltungen in Outlook protokollieren  |&#x2714;|&#x2714; Wenn der serverseitige Konversations Verlauf aktiviert ist   |&#x2714;|   
+|Chatunterhaltungen in Outlook protokollieren  |&#x2714;|&#x2714;, wenn der serverseitige Konversations Verlauf aktiviert ist   |&#x2714;|   
 |Rechtschreibung überprüfen |&#x2714;|&#x2714;||   
 |Qualifikationssuche (mit SharePoint Server-Integration)   <br/> (Lokale Skype for Business-Server und lokale SharePoint 2013 sind für die Skill-Suche erforderlich.)  |&#x2714;||&#x2714;|
 |Integration des beständigen Chats (Gruppen-Chats)   <br/> (nicht verfügbar für Skype for Business Online)|&#x2714;||&#x2714;|  
@@ -111,17 +111,17 @@ Einzelheiten hierzu finden Sie in der [Beschreibung des Skype for Business Onlin
 
 |Feature/Funktion | Skype for Business 2016-Client | Skype for Business auf dem Mac | Skype for Business Web App | Skype for Business 2015-Client | Lync 2013-Client | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|Computeraudio hinzufügen  |&#x2714;|&#x2714;|& # x2714; (erfordert Plug-in)  |&#x2714;|&#x2714;| 
-|Video hinzufügen |&#x2714;|&#x2714;|& # x2714; (erfordert Plug-in) |&#x2714;|&#x2714;| 
+|Computeraudio hinzufügen  |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  |&#x2714;|&#x2714;| 
+|Video hinzufügen |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in) |&#x2714;|&#x2714;| 
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Videobasierte Bildschirmübertragung    |&#x2714;|&#x2714;|&#x2714; Nur anzeigen   ||| 
+|Videobasierte Bildschirmübertragung    |&#x2714;|&#x2714;|Nur #a0 Ansicht   ||| 
 |Steuerelemente für Referenten in Besprechungen verwenden |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |An Chats mit mehreren Teilnehmern teilnehmen |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
-|Desktop freigeben (sofern aktiviert)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (erfordert Plug-in) |&#x2714;| &#x2714;|
-|Programm freigeben (sofern aktiviert) |&#x2714;|Nur anzeigen   |& # x2714; (erfordert Plug-in)  |&#x2714;|&#x2714;|   
+|Desktop freigeben (sofern aktiviert)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776;  (erfordert Plug-in) |&#x2714;| &#x2714;|
+|Programm freigeben (sofern aktiviert) |&#x2714;|Nur anzeigen   |&#x2714; (erfordert Plug-in)  |&#x2714;|&#x2714;|   
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Verwenden von Einwahl-Audio-Besprechungen & # x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
+|Verwenden von Einwahl Audio-Besprechungen #a0|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |Besprechung mit „Jetzt besprechen“ initiieren|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
 |Microsoft PowerPoint-Dateien hinzufügen und präsentieren |&#x2714;| &#x2778; Anmerkungen sind nicht verfügbar   |&#x2714;|&#x2714;|&#x2714;| 
 |In Microsoft PowerPoint-Dateien navigieren |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
@@ -141,15 +141,15 @@ Einzelheiten hierzu finden Sie in der [Beschreibung des Skype for Business Onlin
 |Videospotlight festlegen (Video sperren) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Steuerung der Bildschirmübertragung übergeben/übernehmen  |&#x2714;||&#x2714;|||
 
- &#x2776;  Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Skype for Business für Mac, lync für Mac 2011 und Communicator für Mac 2011-Benutzer können keine Desktops steuern, die von Windows-Benutzern freigegeben werden. Das funktioniert auch bei Skype for Business Web App auf Max OSX nicht.
+ &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Skype for Business für Mac, lync für Mac 2011 und Communicator für Mac 2011-Benutzer können keine Desktops steuern, die von Windows-Benutzern freigegeben werden. Das funktioniert auch bei Skype for Business Web App auf Max OSX nicht.
 
- &#x2777;  Für Skype for Business Online erfordert dieses Feature Microsoft PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
+ &#x2777; für Skype for Business Online erfordert dieses Feature Microsoft-PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
 
- &#x2778;  Der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie von der Skype for Business Web App in einer Konferenz freigegeben wurden.
+ &#x2778; der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie von der Skype for Business Web App in einer Konferenz freigegeben wurden.
 
-&#x2779;  Für Skype for Business 2016-apps müssen Sie Klick-und-Los, Build 16.0.4227 oder höher verwenden.
+&#x2779; für Skype for Business 2016-apps müssen Sie Klick-und-Los, Build 16.0.4227 oder höher verwenden.
 
-&#x2780;  Für Skype for Business 2015-apps müssen Sie über das September-Update, Build 15.0.4747 oder höher verfügen.
+&#x2780; für Skype for Business 2015-apps müssen Sie über das September-Update, Build 15.0.4747 oder höher verfügen.
 
 ## <a name="voice-telephony-support"></a>Unterstützung für VoIP (Telefonie)
 <a name="BKMK_Telephony"> </a>
@@ -180,7 +180,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Vo
 |Standortbasiertes Routing |&#x2714;|&#x2714;|&#x2714;| 
 |Reaktionsgruppe/Teamanrufgruppe verwalten |&#x2714;||&#x2714;|
 
- &#x2776;  Diese Funktion steht in Skype for Business Online nicht zur Verfügung.
+ &#x2776; dieses Feature steht in Skype for Business Online nicht zur Verfügung.
 
 ## <a name="external-users-support"></a>Unterstützung für externe Benutzer
 <a name="BKMK_ExternalUsers"> </a>
@@ -205,9 +205,9 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für da
 |Clientseitige Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen| &#x2714; &#x2777; ||&#x2714; &#x2777; |
 |Bevorzugte Auflösung für die Aufzeichnung auswählen  |&#x2714;||&#x2714;|
 
- &#x2776;  Die Aufzeichnung steht in einigen eigenständigen Skype for Business Online-Plänen nicht zur Verfügung. Für die Aufzeichnungsfunktion ist Vollzugriff auf den Skype for Business-Client erforderlich.
+ &#x2776; Aufzeichnung steht in bestimmten Skype for Business Online Standalone-Plänen nicht zur Verfügung. Für die Aufzeichnungsfunktion ist Vollzugriff auf den Skype for Business-Client erforderlich.
 
- &#x2777;  Die Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen steht in Skype for Business Online nicht zur Verfügung.
+ &#x2777; Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen steht in Skype for Business Online nicht zur Verfügung.
 
 ## <a name="modern-authentication"></a>Moderne Authentifizierung
 <a name="BKMK_Recording"> </a>
@@ -221,7 +221,7 @@ Die moderne Authentifizierung erfordert auch eine Topologie, die in Skype for Bu
 |:-----|:-----|:-----|:-----|  
 |Moderne Authentifizierung |&#x2714;|&#x2714;|&#x2714;|
 |Mehrstufige Authentifizierung|&#x2714;|&#x2714;|&#x2714;|
-|Zertifikatbasierte Authentifizierung |& # x2714; (nur Domänen verbundenes Gerät) |&#x2714;|& # x2714; (nur Domänen verbundenes Gerät)  |
+|Zertifikatbasierte Authentifizierung |&#x2714; (nur Domänen verbundenes Gerät) |&#x2714;|&#x2714; (nur Domänen verbundenes Gerät)  |
 |Kerberos-Authentifizierung |&#x2714;||&#x2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>Unterstützung für Archivierung, Compliance und Protokollierung
@@ -232,12 +232,12 @@ Diese Tabelle enthält Features, die sich auf die Unterstützung von Archivierun
 
  | Feature/Funktion | Skype for Business 2015, 2016 oder 2019-Client | Skype for Business auf dem Mac | Lync 2013-Client |  
 |:-----|:-----|:-----|:-----|  
-|Archivieren von Chat Unterhaltungen im Outlook-Konversations Verlauf|&#x2714; &#x2776; |&#x2714; Wenn der serverseitige Konversations Verlauf aktiviert ist  |&#x2714; &#x2776; | 
+|Archivieren von Chat Unterhaltungen im Outlook-Konversations Verlauf|&#x2714; &#x2776; |&#x2714;, wenn der serverseitige Konversations Verlauf aktiviert ist  |&#x2714; &#x2776; | 
 |Client seitige Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Client seitige Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen (nicht verfügbar in Skype for Business Online)  |&#x2714;||&#x2714;|
 |Zugriff auf Anmelde Protokolle aus dem Skype for Business-Symbol in der Taskleiste |&#x2714;||&#x2714;|
 
- &#x2776;  Für Skype for Business Online-Benutzer erfordert dieses Feature Exchange Online und wird vom Exchange-Postfach des Benutzers in-situ-Speicher-Attribut gesteuert.
+ &#x2776; für Skype for Business Online-Benutzer erfordert dieses Feature Exchange Online und wird durch das Exchange-Postfach in-situ-Speicher des Benutzers gesteuert.
 
 ## <a name="client-limitations"></a>Client Einschränkungen
 <a name="Types"> </a>

@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: ff59a1973b3a77ec38a2e8da6ef065e221892139
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802646"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857507"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -29,7 +29,7 @@ Mit organisationsweiten Teams können globale Administratoren problemlos ein öf
 
 ![Screenshot der Option "org-Wide" zum Erstellen eines organisationsweiten Teams] (media/create-org-wide-team.png "Screenshot der Option \"org-Wide\" zum Erstellen eines organisationsweiten Teams")
 
-Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird ihm eine Microsoft Teams Commercial Cloud-Testlizenz zugewiesen. Wenn Sie mehr über die Testlizenz erfahren möchten, lesen Sie [das Angebot Verwalten des Teams für kommerzielle Cloud-Testversionen](iw-trial-teams.md). Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden dem Team nicht hinzugefügt. 
+Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird ihm eine Microsoft Teams Commercial Cloud-Testlizenz zugewiesen. Wenn Sie mehr über die Testlizenz erfahren möchten, lesen Sie [das Angebot Verwalten des Teams für kommerzielle Cloud-Testversionen](iw-trial-teams.md). Diese Kontentypen werden Ihrem organisationsweiten Team nicht hinzugefügt: Konten, die von der Anmeldung, Gastbenutzern, Dienstkonten, Raum-oder Geräte Konten oder Konten, die von einem freigegebenen Postfach gesichert sind, blockiert werden.
 
 Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer einzubeziehen, oder wenn Benutzer nicht mehr in Ihrem Unternehmen arbeiten und ihre Teams-Lizenz deaktiviert ist, werden Änderungen automatisch synchronisiert, und die Benutzer werden dem Team hinzugefügt oder aus ihr entfernt. Teammitglieder können ein organisationsweites Team nicht bestanden haben. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
