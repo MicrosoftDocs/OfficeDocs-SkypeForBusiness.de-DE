@@ -55,7 +55,7 @@ ms.locfileid: "33905694"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Hybridlösungen</h3>
-                                                    <p>Hier finden Sie Informationen zur Planung einer Skype für Business hybridbereitstellung.</p>
+                                                    <p>Hier finden Sie Informationen zum Planen einer hybridbereitstellung für Skype for Business.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "33905694"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Reise von Skype for Business zu Teams</h3>
-                                                    <p>Hier finden Sie Leitfäden und Tools für Ihre optimale Pfad Teams erkunden.</p>
+                                                    <p>Hier finden Sie Anleitungen und Tools, mit denen Sie Ihren optimalen Weg zu Teams erkunden können.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "33905694"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Endbenutzer</h3>
-                                                    <p>Hier finden Sie Hilfe, Schulung und technischen Support für Skype für Geschäftsbenutzer auf <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>ein.</p>
+                                                    <p>Hier finden Sie Hilfe, Schulungen und technischen Support für Skype for Business-Benutzer auf <a href='https://support.office.com/en-us/skype-for-business' target="_blank">Support.Office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
