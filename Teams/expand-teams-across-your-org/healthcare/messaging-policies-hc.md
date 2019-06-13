@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: da9bc348a52cf8e4ceacdec36594c81386186c0e
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681905"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912864"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -38,12 +38,9 @@ Die folgenden Einstellungen sind für medizinische Anwendungen von besonderem In
 
 ## <a name="read-receipts"></a>Lesebestätigungen
 
-- ![Das Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot](../../media/sfbcallout1.png) mit **Lese** Bestätigungen für Lesebestätigungen verweist, ermöglicht es dem Absender einer Chatnachricht zu wissen, wann die Nachricht vom Empfänger gelesen wurde. Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen Benutzer gesteuert, für jeden aktiviert oder für jeden deaktiviert sind. Lesebestätigungen für Nachrichten sind in Organisationen des Gesundheitswesens wichtig, da Sie ungewiss darüber entscheiden, ob eine Nachricht gelesen wurde.
+- ![Das Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot](../../media/sfbcallout1.png) verweist **Lesebestätigungen** Lesebestätigungen ermöglicht dem Absender einer Chatnachricht, zu erfahren, wann die Nachricht vom Empfänger in 1:1 gelesen wurde, und Gruppen-Chats mit mindestens 20 Personen. Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen vom Benutzer gesteuert werden, für jeden aktiviert oder für jeden deaktiviert sind. Lesebestätigungen für Nachrichten sind in Organisationen des Gesundheitswesens wichtig, da Sie ungewiss darüber entscheiden, ob eine Nachricht gelesen wurde.
 
-  Wählen Sie für Anwendungen im Gesundheitswesen entweder **Benutzer gesteuert** oder **für alle aktiviert aus**. Beachten Sie, dass bei Verwendung der Einstellung **für alle aktiviert** , die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten die einzige Messagingrichtlinie für den gesamten Mandanten ist (die Standardrichtlinie "Global (org-Wide Standard)") oder alle Nachrichten Richtlinien im Mandanten verwenden die gleichen Einstellungen für Belege.
-
-  > [!NOTE]
-  > Wenn Lesebestätigungen in einem umfangreichen Gruppen-Chat (mit mehr als 100 Benutzern) verwendet werden, können die Bestätigungsnachrichten die eigentlichen Nachrichten überfordern und zu einer Frustration des Chat-Benutzers führen. Dies ist eine Sache, die Sie für die Benutzer beachten müssen. Ein kleinerer Gruppen-Chat (vielleicht 20 Nutzer oder weniger) nutzt dieses Feature besser.
+  Wählen Sie für Anwendungen im Gesundheitswesen entweder **Benutzer gesteuert** oder **ein für alle**aus. Beachten Sie, dass die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten bei Verwendung der Einstellung **für alle** für den gesamten Mandanten nur eine Messagingrichtlinie (die Standardrichtlinie mit dem Namen "Global (org-Wide Standard)") oder alle Messagingrichtlinien in der Mandant verwendet die gleichen Einstellungen für Belege. Das Feature Lesebestätigungen ist am effektivsten, wenn das Feature **für jeden**aktiviert ist.
 
     *Verwendungsbeispiel ohne Lesebestätigungen:* Jakob Roth, ein Patient mit einem Höchstrisiko, wird zum Krankenhaus zugelassen.Sofia Krause ist eine Krankenschwester, die als Teil des interdisziplinären Teams (IDT) von medizinischen Arbeitern, darunter verschiedene Spezialisten, als primärer Betreuer für diesen Patienten verantwortlich ist.  Sofia sendet e-Mails und andere Sofortnachrichten an eine Gruppe von Krankenschwestern und Ärzten, die eine Vielzahl von Messaging-Clients und-Apps verwenden, und erhält oft keine Antwort oder gibt an, ob eine Nachricht von Teammitgliedern gelesen wurde. Aufgrund von verworrenen Kommunikationsprozessen wird Jakobs Medikamenten nicht mehr verwendet und sein Krankenhausaufenthalt verlängert.
 

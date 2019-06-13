@@ -56,7 +56,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; Re Hilfe</h3>
+                        <h3>Wir&#39;wieder hier, um Ihnen zu helfen</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>What& #39; s neue</h2>
+<h2>Was&#39;s neu</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -153,7 +153,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Neue features</h3>
+                        <h3>Neue Funktionen</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Anrufpläne in Kanada (Allgemeine Verfügbarkeit)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Anrufpläne in Australien (nur Vorschauversion)</a></p>
                     </div>
@@ -182,7 +182,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>Ausgewählte Artikel</h2>
+<h2>Empfohlene Artikel</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -238,7 +238,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Telefonsystem</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s erhalten Sie in das Telefonsystem in Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Hier&#39;, was Sie mit dem Telefon System in Office 365 erhalten</a></p>
                </div>
                 </div>
             </div>

@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: bdad8f852855c8f87eb62851ddc3082026bcc0ed
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433255"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912872"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -45,11 +45,11 @@ Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) er
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern oder Erstellen einer Besprechungsrichtlinie
 
-Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zu den Microsoft Teams **** > Admin Center->-**Besprechungsrichtlinien**. Wählen Sie eine Richtlinie aus der Liste aus, oder wählen Sie **neue Richtlinie**aus. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen oder mehr als 64 Zeichen enthalten. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
+Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zum Microsoft Teams admin **** > Center #a0**Besprechungsrichtlinien**für Besprechungen. Wählen Sie eine Richtlinie aus der Liste aus, oder wählen Sie **neue Richtlinie**aus. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen oder mehr als 64 Zeichen enthalten. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
 
 Angenommen, Sie verfügen über eine Reihe von Benutzern, und Sie möchten die Bandbreite begrenzen, die für Ihre Besprechung erforderlich ist. Erstellen Sie eine neue benutzerdefinierte Richtlinie mit dem Namen "begrenzte Bandbreite", und deaktivieren Sie die folgenden Einstellungen:
 
-Unter **Audio & Video**:
+Unter **Audio #a0 Video**:
 - Deaktivieren der Cloud-Aufzeichnung
 - Deaktivieren der Option "IP-Video zulassen"
 
@@ -85,9 +85,9 @@ Sie können auch eine Besprechungsrichtlinie einem oder mehreren Benutzern wie f
 Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie auswählen oder **neue** Richtlinie auswählen, um eine neue Richtlinie hinzuzufügen, können Sie die Einstellungen für Folgendes konfigurieren.
 
 - [Allgemein](#meeting-policy-settings---general)
-- [Audio & Video](#meeting-policy-settings---audio--video)
+- [Audio #a0 Video](#meeting-policy-settings---audio--video)
 - [Inhaltsfreigabe](#meeting-policy-settings---content-sharing)
-- [Teilnehmer & Gäste](#meeting-policy-settings---participants--guests)
+- [Teilnehmer #a0 Gäste](#meeting-policy-settings---participants--guests)
 
 ::: zone-end 
 
@@ -135,7 +135,7 @@ Beachten Sie, dass die Option **Planen einer Besprechung** nicht verfügbar ist 
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien-Audio & Video
+## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien – Audio #a0 Video
 
 - [Transkription zulassen](#allow-transcription)
 - [Cloud-Aufzeichnung zulassen](#allow-cloud-recording)
@@ -192,7 +192,7 @@ Wenn Daniela Amanda mit Video anruft, kann Amanda den Anruf nur mit Audio annehm
 
 ### <a name="media-bit-rate-kbs"></a>Medien-Bitrate (KBS)
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung bestimmt die Medien Bitrate für Audio-, Video-und videobasierte App-Freigabe Übertragungen in anrufen und Besprechungen für den Benutzer. Sie wird sowohl auf den aufwärts-als auch den Downlink-Medien Durchlauf für Benutzer im Anruf oder in der Besprechung angewendet. Mit dieser Einstellung erhalten Sie eine granulare Kontrolle über die Verwaltung der Bandbreite in Ihrer Organisation. Je nach den von Benutzern benötigten Besprechungs Szenarien empfehlen wir, genügend Bandbreite zur Verfügung zu haben, um eine gute Qualität zu erzielen. Der Mindestwert beträgt 30 Kbit/s, und der Höchstwert hängt vom Besprechungs Szenario ab. Wenn Sie mehr über die empfohlene Mindestbandbreite für Besprechungen, Anrufe und Live-Events in Teams mit guter Qualität erfahren möchten, lesen Sie [Bandbreitenanforderungen](prepare-network.md#bandwidth-requirements).
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung bestimmt die Medien Bitrate für Audio-, Video-und videobasierte App-Freigabe Übertragungen in anrufen und Besprechungen für den Benutzer. Sie wird sowohl auf den aufwärts-als auch den Downlink-Medien Durchlauf für Benutzer im Anruf oder in der Besprechung angewendet. Mit dieser Einstellung erhalten Sie eine granulare Kontrolle über die Verwaltung der Bandbreite in Ihrer Organisation. Je nach den von Benutzern benötigten Besprechungs Szenarien empfehlen wir, genügend Bandbreite zur Verfügung zu haben, um eine gute Qualität zu erzielen. Der Mindestwert beträgt 30 Kbit/s, und der Höchstwert hängt vom Besprechungs Szenario ab. Wenn Sie mehr über die empfohlene Mindestbandbreite für Besprechungen, Anrufe und Live-Events in Teams mit guter Qualität erfahren möchten, lesen Sie [Bandbreitenanforderungen](prepare-network.md#bandwidth-requirements).
 
 Wenn für eine Besprechung nicht genügend Bandbreite zur Verfügung steht, sehen die Teilnehmer eine Meldung, die auf schlechte Netzwerkqualität hinweist.
 
@@ -312,7 +312,7 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinien Einstellungen – Teilnehmer & Gäste
+## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinien Einstellungen – Teilnehmer #a0 Gäste
 
 Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, bevor Sie an der Besprechung teilnehmen, sowie die Teilnahmestufe, die Sie in einer Besprechung zugelassen sind.
 
@@ -320,6 +320,9 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 - [Zulassen, dass anonyme Personen eine Besprechung starten](#allow-anonymous-people-to-start-a-meeting)
 - [Zulassen, dass Einwahlbenutzer die Lobby umgehen können](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Zulassen, dass die Organisatoren Lobby Einstellungen außer Kraft setzen](#allow-organizers-to-override-lobby-settings-coming-soon)
+
+> [!NOTE]
+>Die Optionen für die Teilnahme an einer Besprechung unterscheiden sich je nach den Einstellungen für die einzelnen Teams und der Verbindungsmethode. Wenn Ihre Gruppe über Audiokonferenzen verfügt und diese zum Herstellen einer Verbindung verwendet, lesen Sie [Audio-Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Wenn Ihre Gruppe "Teams" keine Audiokonferenzen hat, finden Sie unter [teilnehmen an einer Besprechung in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
 

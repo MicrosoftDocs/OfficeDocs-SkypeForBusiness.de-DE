@@ -16,19 +16,18 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über Messaging Richtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702708"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912856"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 
 <!--- Add zone marker here--->
 
 Mit Messagingrichtlinien wird gesteuert, welche Chat-und Kanal-Messaging Features für Benutzer in Microsoft Teams verfügbar sind. Sie können die Standardrichtlinie verwenden, die automatisch erstellt wird, oder Sie können eine oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, können Sie Sie einem Benutzer oder einer Gruppe von Benutzern in Ihrer Organisation zuweisen.
-
 Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Messagingrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, die die auf Sie angewendeten Einstellungen benötigen. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Messagingrichtlinie
@@ -72,7 +71,10 @@ Verwenden Sie die folgenden Einstellungen, um die globale Messagingrichtlinie zu
 - **Besitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die Benutzer im Chat gesendet haben.
 - **Benutzer können gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, damit Benutzer Nachrichten, die Sie im Chat gesendet haben, löschen können.
 - **Benutzer können gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, damit Benutzer die Nachrichten bearbeiten können, die Sie im Chat gesendet haben.
-- **Lesebestätigungen** Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen Benutzer gesteuert, für jeden aktiviert oder deaktiviert sind.
+- **Lesebestätigungen** Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen vom Benutzer gesteuert werden, für jeden aktiviert oder für jeden deaktiviert sind. Die Standardeinstellung ist Benutzer gesteuert. 
+    - **Benutzer gesteuert** Das bedeutet, dass Benutzer entscheiden können, ob Lesebestätigungen ein-oder ausgeschaltet werden sollen. Die Standardeinstellung in der APP ist aktiviert. Benutzer können Sie dann deaktivieren.
+    - **Für jeden** frei Dies bedeutet, dass jeder im Mandanten das Feature aktiviert hat, ohne die Option zum Deaktivieren. 
+    - **Für jeden frei** Dies bedeutet, dass das Feature deaktiviert ist und niemand im Mandanten Lesebestätigungen hat, und dass es nicht aktiviert werden kann. 
 <a name="bkchat"> </a>
 
 - **Chat**  Aktivieren Sie diese Einstellung, wenn Benutzer in Ihrer Organisation in der Lage sein sollen, die Teams-App zum chatten mit anderen Personen zu verwenden.
