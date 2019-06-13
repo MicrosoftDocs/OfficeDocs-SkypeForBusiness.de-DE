@@ -37,7 +37,7 @@
 ### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
 ### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-### [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
+### [Hinzufügen von Bots für persönliche Chats, Gruppen-Chats und Kanäle in Teams](add-bots.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
 ### [Veröffentlichen von Apps im App-Katalog eines Teams-Mandanten](tenant-apps-catalog-teams.md)
