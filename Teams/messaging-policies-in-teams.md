@@ -16,18 +16,19 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über Messaging Richtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912856"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915148"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 
 <!--- Add zone marker here--->
 
 Mit Messagingrichtlinien wird gesteuert, welche Chat-und Kanal-Messaging Features für Benutzer in Microsoft Teams verfügbar sind. Sie können die Standardrichtlinie verwenden, die automatisch erstellt wird, oder Sie können eine oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, können Sie Sie einem Benutzer oder einer Gruppe von Benutzern in Ihrer Organisation zuweisen.
+
 Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Messagingrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, die die auf Sie angewendeten Einstellungen benötigen. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Messagingrichtlinie

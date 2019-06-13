@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: In diesem Artikel wird beschrieben, wie Sie Ihre direkte Routing Konfiguration überwachen und beheben können.
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290408"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915156"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -40,13 +40,13 @@ Microsoft arbeitet an der Bereitstellung weiterer Tools für die Problembehandlu
 
 Das direkte Routing verwendet SIP-Optionen, die von den Session Border Controllern zur Überwachung des SBC-Status gesendet werden. Vom mandantenadministrator sind keine Aktionen erforderlich, um die Überwachung der SIP-Optionen zu aktivieren. Die gesammelten Informationen werden berücksichtigt, wenn Routingentscheidungen getroffen werden. 
 
-Wenn beispielsweise für einen bestimmten Benutzer mehrere SBCS verfügbar sind, um einen Anruf weiterleiten zu können, werden bei der direkten Weiterleitung die SIP-Options Informationen berücksichtigt, die von jedem SBC empfangen werden, um das Routing zu ermitteln. 
+Wenn beispielsweise für einen bestimmten Benutzer mehrere SBCS verfügbar sind, um einen Anruf weiterleiten zu können, werden bei der direkten Weiterleitung die SIP-Optionsinformationen berücksichtigt, die von jedem SBC empfangen werden, um das Routing zu ermitteln. 
 
 Das folgende Diagramm zeigt ein Beispiel für die Konfiguration: 
 
 ![Konfigurationsbeispiel für SIP-Optionen](media/sip-options-config-example.png)
 
-Wenn ein Benutzer einen Anruf an Number + 1 425 \<mit sieben digits> tätigt, wertet Direct Routing die Route aus. Die Route umfasst zwei SBCS: sbc1.contoso.com und sbc2.contoso.com. Beide SBCS haben in der Route dieselbe Priorität. Vor der Auswahl eines SBC bewertet der Routingmechanismus die Integrität des SBCS basierend auf dem Zeitpunkt, zu dem der SBC die SIP-Optionen beim letzten Mal gesendet hat. 
+Wenn ein Benutzer einen Anruf an Number + 1 425 \<mit sieben Ziffern> durchführt, wird die Route von einem direkten Routing ausgewertet. Die Route umfasst zwei SBCS: sbc1.contoso.com und sbc2.contoso.com. Beide SBCS haben in der Route dieselbe Priorität. Vor der Auswahl eines SBC bewertet der Routingmechanismus die Integrität des SBCS basierend auf dem Zeitpunkt, zu dem der SBC die SIP-Optionen beim letzten Mal gesendet hat. 
 
 Ein SBC wird als "fehlerfrei" eingestuft, wenn beim Senden des Anrufs Statistiken angezeigt werden, dass die SBC-Optionen in regelmäßigen Abständen gesendet werden.  
 
