@@ -309,11 +309,15 @@
 ### [Schnellstarthandbuch: Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
 
 ## Direktes Routing für Telefonsysteme
+
 ### [Übersicht](direct-routing-landing-page.md)
 ### [Planen von direktem Routing](direct-routing-plan.md)
 ### [Konfigurieren von direktem Routing](direct-routing-configure.md)
 ### [Migration zu direktem Routing](direct-routing-migrating.md)
-### [Überwachung und Problembehandlung von direktem Routing](direct-routing-monitor-and-troubleshoot.md)
+
+### Überwachung und Problembehandlung von direktem Routing
+#### [Übersicht](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 ### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)

@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb60e7908a604e680682e7b12c75328410794879
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548342"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957541"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -133,6 +133,19 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
                     <div class="cardText">
                         <h3>Einführung in die Zusammenarbeit in Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Informationen zu den Microsoft 365-Werkzeugen, die die Teamarbeit für alle Mitarbeiter erleichtern, ganz gleich, wo diese sich befinden oder wie sie sich mit Ihrer Organisation verbinden.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    </li>
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Microsoft 365-zertifiziert: Teamwork-Administrator Associate</h3>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 Teamwork-Administratoren konfigurieren und verwalten Office 365-Workloads und stellen diese bereit, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams. </a></p>
                     </div>
                 </div>
             </div>
