@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 58d3df08b871dcdcffd9e5d0f331870bb519d5e7
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548239"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957549"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -167,6 +167,22 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 ```
 
 Anschließend können Sie das Ressourcenkonto über das Office 365-Verwaltungsportal auf der Registerkarte Benutzer löschen.
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+Wenn die Telefonnummer, die dem Ressourcenkonto im Team Admin Center zugewiesen ist, nicht angezeigt wird und Sie die Nummer nicht von dort aus zuweisen können, überprüfen Sie bitte Folgendes:
+
+``` Powershell
+Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
+```
+
+Wenn das Department-Attribut den Skype for Business-Anwendungsendpunkt anzeigt, führen Sie das folgende Cmdlet aus:
+
+``` Powershell
+Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+```
+> [!NOTE]
+> Aktualisieren Sie die Webseite des Teams admin Centers, nachdem Sie das cmldet ausgeführt haben, und Sie sollten in der Lage sein, die Nummer richtig zuzuweisen.
 
 ## <a name="related-information"></a>Verwandte Informationen
 

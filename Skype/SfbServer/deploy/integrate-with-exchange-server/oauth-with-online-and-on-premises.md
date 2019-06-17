@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Wenn Sie die OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online konfigurieren, werden die unter Funktionsunterstützung beschriebenen Funktionen für Skype for Business und die Exchange-Integration aktiviert.
-ms.openlocfilehash: be1fd4ae0c1a1046a8da1d9a30550ac238a4034a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278126"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933841"
 ---
-# <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>Konfigurieren der Integration zwischen Skype for Business Online oder Microsoft Teams und Exchange Server 
+# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
 Durch die Konfiguration der Integration zwischen Exchange Server und Skype for Business Online werden die unter [Funktionsunterstützung](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)beschriebenen Funktionen für Skype for Business und Exchange integriert.
 
@@ -33,6 +33,8 @@ Dieses Thema bezieht sich auf die Integration in Exchange Server 2013 bis 2019.
 
 - Informationen zu Tastenkombinationen, die für die Verfahren in diesem Thema gelten können, finden Sie unter [Tastenkombinationen im Exchange Admin Center]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
+- Informationen zur Kompatibilität finden Sie unter [Skype for Business-Kompatibilität mit Office-Apps](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office).
+
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Konfigurieren der Integration zwischen Exchange Server und Office 365
 
 ### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>Schritt 1: Konfigurieren der OAuth-Authentifizierung zwischen Exchange Server und Office 365
@@ -41,14 +43,14 @@ Führen Sie die im folgenden Artikel aufgeführten Schritte aus:
 
 [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-or-teams-partner-application"></a>Schritt 2: Erstellen eines neuen e-Mail-Benutzerkontos für die Skype for Business Online-oder Team Partner-Anwendung
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 2: Erstellen eines neuen e-Mail-Benutzerkontos für die Skype for Business Online-Partner Anwendung
 
 Dieser Schritt erfolgt auf dem Exchange-Server. Ein E-Mail-Benutzer wird angelegt und bekommt die entsprechenden Berechtigungen für die Verwaltungsrolle zugewiesen. Dieses Konto wird anschließend im nächsten Schritt gebraucht.
 
 Geben Sie eine verifizierte Domäne für Ihre Exchange-Organisation an. Diese Domäne sollte dieselbe Domäne sein wie die primäre SMTP-Domäne, die für die lokalen Exchange-Konten verwendet wird. Diese Domäne wird im folgenden \<Verfahren als Ihre\> überprüfte Domäne bezeichnet. Außerdem sollte der \<DomainControllerFQDN\> der FQDN eines Domänencontrollers sein.
 
 ``` Powershell
-$user = New-MailUser -Name O365-ApplicationAccount -ExternalEmailAddress O365-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
+$user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 Dieser Befehl blendet den neuen E-Mail-Benutzer aus der Adressliste aus.
@@ -67,7 +69,7 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online-or-teams"></a>Schritt 3: Erstellen und Aktivieren einer Partner Anwendung für Skype for Business Online oder Teams
+### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>Schritt 3: Erstellen und Aktivieren einer Partner Anwendung für Skype for Business Online 
 
 Erstellen Sie eine neue Partneranwendung, die das Konto verwendet, das Sie soeben erstellt haben. Führen Sie den folgenden Befehl in der Exchange-PowerShell in Ihrer lokalen Exchange-Organisation aus.
 
@@ -75,13 +77,62 @@ Erstellen Sie eine neue Partneranwendung, die das Konto verwendet, das Sie soebe
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
+### <a name="step-4-export-the-on-premises-authorization-certificate"></a>Schritt 4: Exportieren des lokalen Autorisierungs Zertifikats
+
+Führen Sie ein PowerShell-Skript aus, um das lokale Autorisierungszertifikat zu exportieren, das Sie im nächsten Schritt in Ihre Skype for Business Online-Organisation importieren werden.
+
+Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei, die Sie zum Beispiel „ExportAuthCert.ps1“ nennen können.
+
+``` Powershell
+$thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
+if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
+{
+md $env:SYSTEMDRIVE\OAuthConfig
+}
+cd $env:SYSTEMDRIVE\OAuthConfig
+$oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.Thumbprint -match $thumbprint}
+$certType = [System.Security.Cryptography.X509Certificates.X509ContentType]::Cert
+$certBytes = $oAuthCert.Export($certType)
+$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+[System.IO.File]::WriteAllBytes($CertFile, $certBytes)
+```
+
+Führen Sie in Exchange PowerShell in Ihrer lokalen Exchange-Organisation das soeben erstellte PowerShell-Skript aus. Beispiel: .\ExportAuthCert.ps1
+
+### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Schritt 6: Hochladen des lokalen Autorisierungszertifikats nach Azure Active Directory ACS
+
+Verwenden Sie im nächsten Schritt Windows PowerShell, um das im vorigen Schritt exportierte Autorisierungszertifikat auf Azure Active Directory Access Control Services (ACS) hochzuladen. Dafür muss das Azure Active Directory-Modul für Windows PowerShell-Cmdlets bereits installiert sein. Wenn Sie nicht installiert ist, wechseln [https://aka.ms/aadposh](https://aka.ms/aadposh) Sie zu installieren des Azure Active Directory-Moduls für Windows PowerShell. Schließen Sie die folgenden Schritte ab, nachdem das Azure Active Directory-Modul für Windows PowerShell installiert worden ist.
+
+1. Klicken Sie auf die **Azure Active Directory-Modul für Windows PowerShell**-Verknüpfung, um einen Windows PowerShell-Arbeitsbereich mit den installierten Azure AD-Cmdlets zu öffnen. Alle Befehle in diesem Schritt werden mithilfe der Windows PowerShell für Azure Active Directory ausgeführt.
+
+2. Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei mit dem Namen `UploadAuthCert.ps1`, beispielsweise.
+
+   ``` Powershell
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
+
+3. Führen Sie das PowerShell-Skript aus, das Sie im vorigen Schritt erstellt haben. Zum Beispiel:`.\UploadAuthCert.ps1`
+
+4. Nach dem Start des Skripts wird ein Dialogfeld zur Eingabe Ihrer Anmeldeinformationen angezeigt. Geben Sie die Anmeldeinformationen für das Mandantenadministratorkonto Ihrer Microsoft Online Azure AD-Organisation ein. Nachdem das Skript ausgeführt worden ist, lassen Sie die Windows PowerShell für die Azure AD-Sitzung offen. Sie brauchen sie, um im nächsten Schritt ein PowerShell-Skript auszuführen.
+
 ### <a name="verify-your-success"></a>Überprüfen Ihres Erfolgs
 
 Überprüfen Sie, ob die Konfiguration korrekt ist, indem Sie sicherstellen, dass einige Features erfolgreich funktionieren. 
 
-1. Bestätigen Sie, dass die Outlook-Kalender Delegierung betweeen zwei Teams-Benutzer mit Exchange Server 2016-oder 2019-Postfächern funktioniert.
+1. Der Konversations Verlauf für mobile Clients bestätigen ist im Outlook-Ordner "Konversations Verlauf" sichtbar.
 
-2. Der Konversations Verlauf für mobile Clients bestätigen ist im Outlook-Ordner "Konversations Verlauf" sichtbar.
+2. Vergewissern Sie sich, dass archivierte Chatnachrichten im Postfach des Benutzers auf dem Gelände im Ordner "Säuberungen" unter Verwendung von [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)hinterlegt sind.
 
 Schauen Sie sich alternativ Ihren Traffic an. Der Datenverkehr in einem OAuth-Handshake ist wirklich charakteristisch (und sieht nicht wie die Standardauthentifizierung aus), insbesondere im Bereich der Realms, wo Sie beginnen, den Emittenten-Traffic zu sehen, der wie folgt aussieht: 00000004-0000-0ff1-ce00-000000000000 @ (manchmal mit a/before das @-Zeichen) in den Token, die übergeben werden. Sie sehen keinen Benutzernamen oder kein Kennwort, was der OAuth-Punkt ist. Sie sehen aber den Aussteller "Office" – in diesem Fall "4" ist Skype for Business – und das Reich Ihres Abonnements.
 

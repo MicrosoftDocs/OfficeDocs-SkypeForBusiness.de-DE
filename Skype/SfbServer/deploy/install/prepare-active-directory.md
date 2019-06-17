@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Active Directory-Domäne für eine Installation von Skype for Business Server vorbereiten. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306598"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002845"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype for Business Server
  
@@ -169,7 +169,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
   
 11. Melden Sie sich ab, und melden Sie sich dann wieder bei Windows an, damit Ihr Sicherheitstoken mit der neuen Skype for Business Server-Sicherheitsgruppe aktualisiert wird, und öffnen Sie dann den Bereitstellungs-Assistenten erneut.
     
-12. Vergewissern Sie sich, dass neben **Active Directory vorbereiten** ein grünes Häkchen angezeigt wird. Dies gibt an, dass der Vorgang erfolgreich war (siehe Abbildung).
+12. Vergewissern Sie sich, dass neben " **Active Directory vorbereiten** " ein grünes Häkchen angezeigt wird, um den Erfolg zu bestätigen, wie in der Abbildung dargestellt.
     
      ![Vorbereiten von Active Directory abgeschlossen.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   

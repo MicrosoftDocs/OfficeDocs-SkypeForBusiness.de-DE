@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7885d08cd007ba94a655c85cd973b8442ea3b01d
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857476"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933834"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
 
 > [!Tip] 
 > Sehen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop) zu erfahren.
 
-Da eine Organisation mit Skype for Business beginnt, Teams zu übernehmen, können Administratoren die Benutzererfahrung in Ihrer Organisation mithilfe des Konzepts der Koexistenz "Modus" verwalten, bei dem es sich um eine Eigenschaft von TeamsUpgradePolicy handelt. Mithilfe des Modus verwalten Administratoren Interop und Migration, während Sie den Übergang von Skype for Business zu Teams verwalten.  Der Modus eines Benutzers bestimmt, in welchem Client eingehende Chats und Anrufe landen sowie in welchem Dienst (Teams oder Skype for Business) neue Besprechungen geplant sind. In Zukunft wird der Modus auch verwendet, um das Clientverhalten von Teams in Bezug auf die verfügbaren Funktionen zu definieren. 
+Da eine Organisation mit Skype for Business beginnt, Teams zu übernehmen, können Administratoren die Benutzererfahrung in Ihrer Organisation mithilfe des Konzepts der Koexistenz "Modus" verwalten, bei dem es sich um eine Eigenschaft von TeamsUpgradePolicy handelt. Mithilfe des Modus verwalten Administratoren Interop und Migration, während Sie den Übergang von Skype for Business zu Teams verwalten.  Der Modus eines Benutzers bestimmt, in welchem Client eingehende Chats und Anrufe landen sowie in welchem Dienst (Teams oder Skype for Business) neue Besprechungen geplant sind. Darüber hinaus wird geregelt, welche Funktionen im Team-Client verfügbar sind. 
 
 
 ## <a name="fundamental-concepts"></a>Grundlegende Konzepte
@@ -154,12 +154,6 @@ Wenn sich ein Nutzer in einem der Skype for Business-Modi (SfBOnly, SfBWithTeams
 
 > [!Note] 
 > - Vor der Bereitstellung der automatischen Erzwingung von Teams und Kanälen Verhalten sich der SfbOnly-und der SfBWithTeamsCollab-Modus identisch.
-
-
-
-## <a name="teamsinteroppolicy-has-been-retired"></a>TeamsInteropPolicy wurde eingestellt 
-
-TeamsInteropPolicy wurde durch TeamsUpgradePolicy ersetzt. Alle Komponenten, die zuvor TeamsInteropPolicy geehrt haben, wurden aktualisiert, um stattdessen TeamsUpgradePolicy zu honorieren. Microsoft hatte zuvor den Modus "Legacy" in TeamsUpgradePolicy eingeführt, um den Übergang von TeamsInteropPolicy zu TeamsUpgradePolicy zu erleichtern. Im Legacy Modus würden Routingkomponenten, die TeamsUpgradePolicy verstanden haben, auf TeamsInteropPolicy zurückgesetzt. Das Routing unterstützt jetzt TeamsUpgradePolicy vollständig. Der Legacy Modus wird nicht mehr unterstützt, und es ist nicht mehr möglich, den Legacy Modus zu gewähren. Alle Instanzen von TeamsInteropPolicy sind gerade dabei, entfernt zu werden.
 
 
 ## <a name="detailed-mode-descriptions"></a>Beschreibungen des detaillierten Modus

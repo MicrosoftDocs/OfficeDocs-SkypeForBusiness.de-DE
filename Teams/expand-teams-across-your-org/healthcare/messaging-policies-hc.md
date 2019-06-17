@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 86640eae696c424e7d6132b277dc0f6c2241ff04
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: d53a445cd7c13001fee8f365bc5d897a065de398
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915164"
+ms.locfileid: "34933857"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -52,7 +52,7 @@ Die folgenden Einstellungen sind für medizinische Anwendungen von besonderem In
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
-- ![Symbol der Zahl 2, Verweis auf eine Legende im vorherigen Screenshot](../../media/sfbcallout2.png) **Benutzer können Prioritäts Benachrichtigungen senden** verwenden Sie diese Einstellung, um Benutzern das Senden von Prioritäts-Chatnachrichten an andere Benutzer zu ermöglichen. Dieses Feature hilft Krankenhausmitarbeitern, sich gegenseitig zu benachrichtigen, wenn ein kritischer Vorfall Ihre Aufmerksamkeit erfordert. Im Gegensatz zu regelmäßigen "wichtigen" Nachrichten werden Benutzer von Prioritäts Benachrichtigungen für einen Zeitraum von 20 Minuten wiederholt benachrichtigt, oder bis Nachrichten vom Empfänger abgeholt und gelesen werden, sodass die Wahrscheinlichkeit, dass die Nachricht aufgenommen und rechtzeitig bearbeitet wird, maximiert wird.
+- ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot](../../media/sfbcallout2.png) verweist **Benutzer können Prioritäts Benachrichtigungen senden** , wenn ein Benutzer eine Nachricht als "dringend" kennzeichnet, wenn Chatnachrichten an andere Benutzer gesendet werden. Dieses Feature hilft Krankenhausmitarbeitern, sich gegenseitig zu benachrichtigen, wenn ein kritischer Vorfall Ihre Aufmerksamkeit erfordert. Im Gegensatz zu normalen "wichtigen" Nachrichten benachrichtigen Benutzer mit Prioritäts Benachrichtigungen alle zwei Minuten bis zu 20 Minuten, bis die Nachricht vom Empfänger abgeholt und gelesen wird, sodass die Wahrscheinlichkeit, dass die Nachricht rechtzeitig bearbeitet wird, maximiert wird.
 
   Ein Administrator kann die Möglichkeit für Benutzer, denen diese Richtlinie zugewiesen ist, zum Senden von Prioritäts Benachrichtigungen aktivieren oder deaktivieren. Dieses Feature ist standardmäßig aktiviert. Der Empfänger der Prioritäts Nachricht hat möglicherweise nicht die gleiche Messagingrichtlinie und hat keine Option zum Deaktivieren des Empfangens von Prioritäts Nachrichten. Für Anwendungen im Gesundheitswesen empfehlen wir, das Feature für mindestens einige Benutzer zu aktivieren, doch müssen Sie ermitteln, welche.
 

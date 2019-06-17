@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857499"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933849"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Projekt Definitions Stufe] (media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
@@ -52,6 +52,9 @@ Standardmäßig können Benutzer Teams neben Skype for Business als zwei separat
 In diesem Koexistenzmodus mit dem Namen " **Inseln**" fungiert jede Clientanwendung als separate Insel. Skype for Business kommuniziert mit Skype for Business und Teams. Benutzer führen beide Clients zu allen Zeiten aus und können in dem Client, von dem aus die Kommunikation initiiert wurde, nativ kommunizieren. Daher ist die Interoperabilität im **Inseln** -Modus nicht erforderlich.
 
 Um eine verwirrende oder rückläufige Skype for Business-Erfahrung zu vermeiden, werden externe (Verbund-) Kommunikationen, PSTN-Sprachdienste und Sprachanwendungen, Office-Integration und verschiedene andere Integrationen weiterhin von Skype for Business gehandhabt.
+
+> [!Important]
+> Im Modus " **Inseln** " werden alle Nachrichten von Verbundbenutzern (Personen außerhalb Ihrer Organisation) an Skype for Business ausgeliefert. Nach dem Wechsel in den Modus **nur für Teams** werden alle Nachrichten von außerhalb Ihrer Organisation an Teams übermittelt.
 
 > [!Tip]
 > Der empfohlene Pfad für Skype for Business Online-Kunden ist es, mit dem standardmäßigen **Inseln** -Modus zu beginnen, die Sättigung der Teams in der Organisation zu steuern und dann schnell in den Modus " **nur Teams** " zu wechseln. Lokale und Hybrid Kunden können davon profitieren, wenn Sie den **Skype for Business-Modus für die Zusammenarbeit mit Teams** als Ausgangspunkt und nicht als Inseln bereitstellen und von dort aus zu **Skype for Business mit Teamarbeits-und Besprechungs** Modus wechseln. Falls zutreffend, und nur im Modus " **nur für Teams** ", wenn die Organisation bereit ist, Teams zu übernehmen.
