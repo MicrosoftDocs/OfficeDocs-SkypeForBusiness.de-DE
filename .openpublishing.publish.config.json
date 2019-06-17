@@ -78,7 +78,7 @@
     {
       "path_to_root": "Skype/common",
       "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.de-de",
-      "branch": "live",
+      "branch": "live-sxs",
       "branch_mapping": {}
     },
     {
