@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Wenn Sie die OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online konfigurieren, werden die unter Funktionsunterstützung beschriebenen Funktionen für Skype for Business und die Exchange-Integration aktiviert.
-ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: ab778279996bd9439eaad9f13b373b206abf2662
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933841"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012981"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
@@ -126,13 +126,23 @@ Verwenden Sie im nächsten Schritt Windows PowerShell, um das im vorigen Schrit
 
 4. Nach dem Start des Skripts wird ein Dialogfeld zur Eingabe Ihrer Anmeldeinformationen angezeigt. Geben Sie die Anmeldeinformationen für das Mandantenadministratorkonto Ihrer Microsoft Online Azure AD-Organisation ein. Nachdem das Skript ausgeführt worden ist, lassen Sie die Windows PowerShell für die Azure AD-Sitzung offen. Sie brauchen sie, um im nächsten Schritt ein PowerShell-Skript auszuführen.
 
+### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Schritt 7: überprüfen, ob das Zertifikat in den Skype for Business-Dienstprinzipal hochgeladen wurde
+1. Führen Sie in der PowerShell, die in Azure Active Directory geöffnet und authentifiziert wurde, die folgenden Schritte aus:
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. Drücken Sie die EINGABETASTE, wenn Sie zur ReturnKeyValues aufgefordert werden.
+3. Bestätigen, dass ein Schlüssel mit Anfangsdatum und Enddaten angezeigt wird, die dem Start-und Enddatum Ihres Exchange OAuth-Zertifikats entsprechen
+
 ### <a name="verify-your-success"></a>Überprüfen Ihres Erfolgs
 
 Überprüfen Sie, ob die Konfiguration korrekt ist, indem Sie sicherstellen, dass einige Features erfolgreich funktionieren. 
 
-1. Der Konversations Verlauf für mobile Clients bestätigen ist im Outlook-Ordner "Konversations Verlauf" sichtbar.
+1. Bestätigen Sie, dass Skype for Business-Benutzer mit Cloud-Voicemaildienst in einer Organisation mit einer Exchange Server-Hybrid Konfiguration Ihre Voicemail-Grußformeln erfolgreich ändern können.
 
-2. Vergewissern Sie sich, dass archivierte Chatnachrichten im Postfach des Benutzers auf dem Gelände im Ordner "Säuberungen" unter Verwendung von [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)hinterlegt sind.
+2. Der Konversations Verlauf für mobile Clients bestätigen ist im Outlook-Ordner "Konversations Verlauf" sichtbar.
+
+3. Vergewissern Sie sich, dass archivierte Chatnachrichten im Postfach des Benutzers auf dem Gelände im Ordner "Säuberungen" unter Verwendung von [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)hinterlegt sind.
 
 Schauen Sie sich alternativ Ihren Traffic an. Der Datenverkehr in einem OAuth-Handshake ist wirklich charakteristisch (und sieht nicht wie die Standardauthentifizierung aus), insbesondere im Bereich der Realms, wo Sie beginnen, den Emittenten-Traffic zu sehen, der wie folgt aussieht: 00000004-0000-0ff1-ce00-000000000000 @ (manchmal mit a/before das @-Zeichen) in den Token, die übergeben werden. Sie sehen keinen Benutzernamen oder kein Kennwort, was der OAuth-Punkt ist. Sie sehen aber den Aussteller "Office" – in diesem Fall "4" ist Skype for Business – und das Reich Ihres Abonnements.
 

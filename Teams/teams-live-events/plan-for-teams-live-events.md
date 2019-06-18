@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428753"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013029"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -29,16 +29,17 @@ Wenn Sie Team-Live-Events planen, um umfangreiche Besprechungen in Ihrer Organis
 Die folgenden Voraussetzungen sind erforderlich, damit der Benutzer ein Live-Event für Teams planen können.
 
 Hier sind die Lizenzen, die zugewiesen werden müssen:  
-- Eine Office 365 Enterprise E1-, E3-oder E5-Lizenz oder eine Office 365 a3-oder A5-Lizenz. 
-- Eine Microsoft Teams-und Microsoft Stream-Lizenz
+- Eine Office 365 Enterprise E1-, E3-oder E5-Lizenz oder eine Office 365 a3-oder A5-Lizenz
+- Eine Microsoft Teams-Lizenz
+- Eine Microsoft Stream-Lizenz
 
 > [!IMPORTANT]
 > Der Benutzer, der ein Live Ereignis erstellt und plant, muss über ein Exchange Online-Postfach verfügen.
 
-Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um als authentifizierter Benutzer an einem Live Ereignis teilzunehmen, aber dies hängt von der verwendeten Produktionsmethode ab:
+Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um als authentifizierter Benutzer an einem Live Ereignis teilzunehmen, aber diese Anforderung hängt von der verwendeten Produktionsmethode ab:
 
-- **Zur Schnellstart Produktion**  Dem Benutzer muss eine Microsoft Teams-Lizenz zugewiesen sein.
-- **Für die externe Encoder-Produktion** Dem Benutzer muss eine Microsoft Stream-Lizenz zugewiesen sein.
+- **Für Ereignisse, die in Teams erstellt wurden**  Dem Benutzer muss eine Teams-Lizenz zugewiesen sein.
+- **Für Ereignisse, die mit einer externen APP oder einem Gerät erstellt wurden** Dem Benutzer muss eine Datenstrom Lizenz zugewiesen sein.
 
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -47,14 +48,14 @@ Der Benutzer muss über Folgendes verfügen:
 - Video Freigabe in Teambesprechungen aktiviert (*der TeamsMeetingPolicy-AllowIPVideo-Parameter = wahr*).
 - Die Bildschirmfreigabe ist in Teams-Besprechungen aktiviert (*der TeamsMeetingPolicy-ScreenSharingMode-Parameter = EntireScreen*).
 - Live-Ereignisplanung in Teams aktiviert (*der TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling-Parameter = wahr*).
-- Berechtigungen zum Erstellen von Live Ereignissen in Microsoft Stream (für die Produktion externer Encoder).
+- Berechtigungen zum Erstellen von Live Ereignissen in Stream (für externe APP-oder Geräteproduktion).
 
 > [!IMPORTANT]
 > Office 365-Gäste, Partner und anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. Office 365 Guest-und Federated-Benutzer können Live-Ereignisse nur anonym überwachen. 
  
 ## <a name="who-can-watch-live-events"></a>Wer kann Live-Events sehen?
 
-|**Sichtbarkeit von Teilnehmern**       |**Schnellstart**  |**Externer Encoder**  |
+|**Sichtbarkeit von Teilnehmern**       |**Team Produktion**  |**Externe APP-oder Geräteproduktion**  |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
 |Gastbenutzer                   |  Nr.<sup>1</sup> |  Nein                  |
@@ -68,7 +69,7 @@ Der Benutzer muss über Folgendes verfügen:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams Live-Events und Skype-Live Konferenz
 In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Live Ereignissen sowie deren Unterschiede zwischen Skype-Live Konferenzen hervorgehoben. 
 
-|**Funktion**   |**Skype-Livekonferenzen** |**In Microsoft Teams erstellte Ereignisse** |**Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden** |
+|**Funktion**   |**Skype-Livekonferenzen** |**In Teams erstellte Ereignisse** |**Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden** |
 |---------|---------|---------|---------|
 |Maximale Zielgruppengröße |10.000-Teilnehmer |10.000 Teilnehmer * |10.000 Teilnehmer * |
 |Maximale Dauer des Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
@@ -87,7 +88,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Li
 |Präsentieren eines Bildschirms |X |&#x2714; (Teams) |Nicht zutreffend |
 |Präsentieren einer PowerPoint-Freigabe (PPT-Freigabe) |&#x2714; |X (durch Bildschirmübertragung verringert) |Nicht zutreffend |
 |Cloud-basierte Besprechungsaufzeichnung |&#x2714; |&#x2714; |&#x2714; |
-|Automatisches Veröffentlichen der Aufzeichnung in Microsoft Stream |X |X |&#x2714; |
+|Aufzeichnen in Datenstrom automatisch veröffentlichen |X |X |&#x2714; |
 |Untertitel und Übersetzungen in Echtzeit |&#x2714; |&#x2714; (in Kürze verfügbar) |X |
 |Beschriftungen in Live-Ereignisaufzeichnungen |&#x2714; |&#x2714; (in Kürze verfügbar) |&#x2714; |
 |Steuerelemente für Teilnehmer-DVR (anhalten, Zurückspulen) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ Sie können Teams Live-Events in mehreren Regionen in der ganzen Welt nutzen. Di
 - Go local Canada
 
 **Ausschlüsse und Überlegungen**
-- **Ortsansässige:** Großbritannien, Indien, Australien, Japan und andere Microsoft Teams gehen einheimische werden derzeit nicht unterstützt.
+- **Ortsansässige:** Großbritannien, Indien, Australien, Japan und andere Teams gehen ortsansässige werden derzeit nicht unterstützt.
 - **China:** Ereignis Teammitglieder und Teilnehmer können keine Teams-Live Ereignisse verwenden, da in China nicht auf Azure CDN zugegriffen werden kann. Eine Problemumgehung besteht darin, eine VPN-Verbindung des Unternehmens zu verwenden, wodurch der Client über das Unternehmensnetzwerk des Kunden mit CDN verbunden wird.
 
 ## <a name="next-steps"></a>Nächste Schritte

@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 40c334a1a0159614b77de11f8eb3e5a0e3dcc1b5
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857406"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012927"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -49,6 +49,16 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
+
+## <a name="teams-live-events"></a>Live-Events für Teams
+
+|Feature     | Obergrenze |
+|------------|---------------|
+|Zielgruppengröße | 10.000-Teilnehmer |
+|Dauer des Ereignisses | 4 Stunden |
+|Gleichzeitige Live Ereignisse in einem Office 365-Mandanten | 15 |
+
+Weitere Informationen zu Live Ereignissen und einem Vergleich der Live-Events von Teams mit Skype-Live Konferenz finden Sie unter [Teams Live-Events und Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)-Live Konferenz.
 
 ## <a name="storage"></a>Speicher
 

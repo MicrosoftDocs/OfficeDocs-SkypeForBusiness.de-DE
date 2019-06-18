@@ -12,128 +12,128 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Beispiele zum Festlegen von Richtlinien in Teams, um zu steuern, wer live Ereignisse in Ihrer Organisation und Features enthalten kann mithilfe von PowerShell stehen in der Ereignisse, die sie erstellen
+description: Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer Live Ereignisse in Ihrer Organisation aufnehmen kann, und Features, die in den von Ihnen erstellten Ereignissen zur Verfügung stehen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204570"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012974"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
-Die folgenden Windows PowerShell-Cmdlets können Sie festlegen, und weisen Sie Richtlinieneinstellungen für live Ereignisse in Teams: 
+Sie können die folgenden Windows PowerShell-Cmdlets verwenden, um in Teams Richtlinieneinstellungen für Live Ereignisse einzurichten und zuzuweisen: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Neue CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [GRANT-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Satz-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Neu – CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-Nachfolgend finden Sie einige Beispiele.
+Hier sind einige Beispiele.
 
-## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer live Ereignisse planen 
+## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer Live Ereignisse planen 
 
 > [!NOTE]
-> In diesen Beispielen werden für Schnellstart Ereignisse. Für externe Encoder-Ereignisse sind zusätzliche Schritte, die Sie ausführen müssen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern zum Planen von externen Encoder Ereignisse](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).
+> Diese Beispiele gelten für Ereignisse, die in Teams erstellt wurden. Bei Ereignissen, die mit einer externen APP oder einem Gerät erstellt wurden, müssen Sie weitere Schritte ausführen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern zum Planen von Ereignissen, die mit einer externen APP oder einem externen Gerät erstellt wurden](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
-**Damit der Benutzer live Ereignisse planen**
+**Zulassen, dass ein Benutzer Live-Ereignisse plant**
 
-Wenn der Benutzer die globale Richtlinie zugewiesen ist, führen Sie aus, und stellen Sie sicher, dass *AllowBroadcastScheduling* -Parameter auf *True*festgelegt ist:
+Wenn dem Benutzer die globale Richtlinie zugewiesen ist, führen Sie den Parameter *AllowBroadcastScheduling* aus, und überprüfen Sie, ob er auf *true*festgelegt ist:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Weisen Sie den Benutzer die globale Richtlinie, ausführen:
+Weisen Sie den Benutzer dann der globalen Richtlinie zu, führen Sie Folgendes aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>Benutzerszenarien
-**Sollen alle Benutzer in Ihrer Organisation planen, live Ereignisse können**
+**Sie möchten, dass alle Benutzer in Ihrer Organisation Live Ereignisse planen können**
 
-Wenn Benutzer die globale Richtlinie zugewiesen sind, ausführen, und stellen Sie sicher, *AllowBroadcastScheduling* * auf *True*festgelegt ist:
+Wenn Benutzern die globale Richtlinie zugewiesen ist, führen Sie den Vorgang aus, und vergewissern Sie sich, dass *AllowBroadcastScheduling* * auf *true*festgelegt ist:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Wenn Benutzer eine Richtlinie als globale Richtlinie zugewiesen sind, führen Sie aus, und stellen Sie sicher, dass *- AllowBroadcastScheduling* auf *True*festgelegt ist:
+Wenn Benutzer einer anderen Richtlinie als der globalen Richtlinie zugewiesen sind, führen Sie aus, und überprüfen Sie, ob *-AllowBroadcastScheduling* auf *true*festgelegt ist:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**Live Ereignisse planen in der Organisation deaktiviert werden soll**
+**Sie möchten, dass die Planung von Live Ereignissen in ihrer gesamten Organisation deaktiviert ist.**
 
-Deaktivieren Sie live Ereignisse planen, ausführen:
+Deaktivieren Sie die Live-Terminplanung, führen Sie folgende Aktionen aus:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Die globale Richtlinie, führen weisen Sie alle Benutzer in Ihrer Organisation zu:
+Weisen Sie alle Benutzer in Ihrer Organisation der globalen Richtlinie zu, führen Sie Folgendes aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**Eine große Anzahl von Benutzern, um planen zu können live Ereignisse und vermeiden, dass eine Gruppe von Benutzern werden sollen**
+**Sie möchten, dass eine große Anzahl von Benutzern in der Lage ist, Live-Ereignisse zu planen und zu verhindern, dass eine Gruppe von Benutzern Sie einplant**
 
-Führen Sie aus, und stellen Sie sicher, dass *AllowBroadcastScheduling* auf *True*festgelegt ist:
+Führen Sie aus, und überprüfen Sie, ob *AllowBroadcastScheduling* auf *true*festgelegt ist:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-Weisen Sie mindestens ein Benutzer die globale Richtlinie, ausführen:
+Weisen Sie dann einen Benutzer oder Benutzer der globalen Richtlinie zu, führen Sie Folgendes aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-Erstellen Sie eine neue Richtlinie, die keine Planung live Ereignisse erlaubt, ausführen:
+Erstellen einer neuen Richtlinie, die das Planen von Live Ereignissen nicht zulässt, führen Sie folgende Aktionen aus:
 ```
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
-Deaktivieren Sie live Ereignisse planen, ausführen:
+Deaktivieren Sie die Live-Terminplanung, führen Sie folgende Aktionen aus:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-Diese Richtlinie, und führen Sie dann weisen Sie Benutzer zu:
+Weisen Sie dann Benutzer dieser Richtlinie zu, führen Sie folgende Aktion aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**Planung für eine große Anzahl von Benutzern live-Ereignis deaktivieren möchten und eine Gruppe von Benutzern so planen sie zulassen**
+**Sie möchten die Live-Ereignisplanung für eine große Anzahl von Benutzern deaktivieren und es einer Gruppe von Benutzern ermöglichen, Sie zu planen.**
 
-Deaktivieren Sie live Ereignisse planen, ausführen:
+Deaktivieren Sie die Live-Terminplanung, führen Sie folgende Aktionen aus:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Die globale Richtlinie, und führen Sie anschließend weisen Sie diese Benutzer zu:
+Weisen Sie diese Benutzer dann der globalen Richtlinie zu, führen Sie Folgendes aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-Erstellen Sie eine Richtlinie führen Sie zum Zulassen live Ereignisse planen:
+Erstellen einer Richtlinie zum Zulassen der Terminplanung für Live Ereignisse führen Sie folgende Aktionen aus:
 ```
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
-Planen von live Ereignisse aktivieren, ausführen:
+Aktivieren der Terminplanung für Live Ereignisse führen Sie folgende Aktionen aus:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-Diese Richtlinie, und führen Sie dann weisen Sie Benutzer zu:
+Weisen Sie dann Benutzer dieser Richtlinie zu, führen Sie folgende Aktion aus:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
-## <a name="set-who-can-join-live-events"></a>Festlegen, die live Ereignisse beitreten können
+## <a name="set-who-can-join-live-events"></a>Bestimmen, wer an Live-Events teilnehmen kann
  
-Legen Sie die globale Richtlinie, damit Benutzer Ereignisse glücklich, einschließlich anonyme Benutzer zu erstellen, können teilnehmen, ausführen:
+Legen Sie die globale Richtlinie fest, um Benutzern das Erstellen von Ereignissen zu ermöglichen, die jeder, einschließlich anonymer Benutzer, teilnehmen kann:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-## <a name="set-the-recording-option-for-live-events"></a>Legen Sie die Aufzeichnung-Option für live Ereignisse
+## <a name="set-the-recording-option-for-live-events"></a>Einrichten der Aufzeichnungsoption für Live Ereignisse
 > [!NOTE]
-> Diese Einstellung gilt nur für Ereignisse Schnellstart.
+> Diese Einstellung gilt nur für Ereignisse, die in Teams erstellt wurden.
 
-Legen Sie die globale Richtlinie für die Aufzeichnung für live Ereignisse zu deaktivieren:
+Festlegen der globalen Richtlinie zum Deaktivieren der Aufzeichnung für Live Ereignisse:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Festlegen von Umsetzung und Übersetzung in live-Ereignisse (bald verfügbar)
+## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Einrichten von Transkription und Übersetzung in Live-Events (in Kürze verfügbar)
 > [!NOTE]
-> Diese Einstellung gilt nur für Ereignisse Schnellstart. 
+> Diese Einstellung gilt nur für Ereignisse, die in Teams erstellt wurden. 
 
-Legen Sie die globale Richtlinie zum Aktivieren von Umsetzung und Übersetzung für Ereignis Teilnehmer auf:
+Festlegen der globalen Richtlinie zum Aktivieren von Transkription und Übersetzung für Ereignis Teilnehmer:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

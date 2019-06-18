@@ -1,88 +1,118 @@
 ---
-title: Informationen Barrieren in Microsoft-Teams – Vorschau
+title: Informationsbarrieren in der Vorschau von Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/14/2019
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
-description: Informationen Sie zu Informationen Barrieren und deren Auswirkungen auf Teams.
+description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993921"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013021"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Informationen Barrieren in Microsoft-Teams – Vorschau
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Informationsbarrieren in der Vorschau von Microsoft Teams
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
-Informationen Hindernisse werden Richtlinien, die ein Administrator konfigurieren können, um zu verhindern, dass Personen oder Gruppen miteinander kommunizieren. Dies ist nützlich, wenn Sie beispielsweise einer Abteilung Informationen, die mit anderen Abteilungen gemeinsam genutzt werden sollte nicht behandelt wird oder eine Gruppe bei der Kommunikation mit externen Kontakten gehindert werden muss.
+Informationsbarrieren sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Dies ist hilfreich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
 
 > [!NOTE]
-> - Informationen Grenze Gruppen können nicht konstant erstellt werden.
-> - Verwenden zum Hinzufügen von Benutzern Bots wird in der Version 1 nicht unterstützt.
-> - Hürden mit Version 1 schließt keine Unterstützung für SharePoint und OneDrive für Unternehmen ein. Wir arbeiten zum Aktivieren des Features in SharePoint und kommuniziert, sobald sie verfügbar ist.
+> - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
+> - Die Verwendung von Bots zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
+> - Informationsbarrieren Version 1 enthält keine Unterstützung für SharePoint und OneDrive for Business. Wir arbeiten daran, das Feature in SharePoint zu aktivieren und kommunizieren, sobald es verfügbar ist.
 
-Informationsrichtlinien Grenze verhindert, dass auch Lookups und Erkennung. Das heißt, wenn Sie versuchen, mit einer anderen Person kommunizieren nicht dem eine Verbindung hergestellt werden soll, werden Sie der Benutzer in der Personenauswahl nicht gefunden.
+Richtlinien für Informationsbarrieren verhindern auch Nachschlagevorgänge und Ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, wird dieser Benutzer in der Personenauswahl nicht gefunden.
 
 ## <a name="background"></a>Hintergrund
 
-Der primäre Treiber für Informationen Hindernisse stammen aus Finanzdienstleister. Die finanziellen Branche behördlichen Behörde ([FINRA]( http://www.finra.org/)) überprüft Informationen Barrieren und Konflikte von Interesse in Firmen und erfahren Sie, wie zum Verwalten von solche Konflikte (FINRA 2241, [Behördlichen-Anmerkung zur Forderung Research 15 31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+Der wichtigste Treiber für Informationsbarrieren ist die Finanzdienstleistungsbranche. Die Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org)) überprüft Informationsbarrieren und Interessenkonflikte innerhalb von Mitgliedsunternehmen und bietet Anleitungen für die Verwaltung solcher Konflikte (FINRA 2241, [Debt Research Regulation Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
-## <a name="when-should-i-use-information-barriers"></a>Wann sollte ich Informationen Hindernisse werden verwendet?
+## <a name="when-should-i-use-information-barriers"></a>Wann sollte ich Informationsbarrieren verwenden?
 
-Sie sollten Informationen Barrieren in solchen Situationen verwenden:
+Möglicherweise möchten Sie Informationsbarrieren in Situationen wie den folgenden verwenden:
 
-- Ein Team muss verhindert werden kommunizieren oder Freigeben von Daten mit einem bestimmten anderen Team.
-- Ein Team muss nicht kommunizieren oder Freigeben von Daten für Benutzer außerhalb des Teams.
+- Ein Team muss daran gehindert werden, Daten mit einem bestimmten anderen Team zu kommunizieren oder zu teilen.
+- Ein Team darf keine Daten an Personen außerhalb des Teams weitergeben oder freigeben.
 
-Der Informationsdienst Grenze Richtlinie Auswertung bestimmt, ob eine Kommunikation mit Informationsrichtlinien Grenze entspricht. 
+Der Evaluierungs Dienst für Informations Barriere-Richtlinien bestimmt, ob eine Kommunikation den Richtlinien für Informationsbarrieren entspricht. 
 
-## <a name="managing-information-barrier-policies"></a>Verwalten von Informationsrichtlinien Grenze
+## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
 
-Grenze Informationsrichtlinien werden mit Sicherheit & Compliance Center (SCC) PowerShell-Cmdlets verwaltet. Weitere Informationen zur Verwendung dieser Cmdlets, [Melden Sie sich hier](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+Richtlinien für Informationsbarrieren werden mit PowerShell-Cmdlets des Security #a0 Compliance Center (SCC) verwaltet. Weitere Informationen zum Verwenden dieser Cmdlets finden Sie unter [Definieren von Richtlinien für Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Vor dem Einrichten oder Richtlinien, **müssen Sie bereichsbezogenen Verzeichnissuche finden, in der Microsoft-Teams aktivieren**definieren. Warten Sie mindestens 24 Stunden nach der Aktivierung bereichsbezogenen Verzeichnissuche finden, vor dem Einrichten oder Richtlinien für Informationen Hindernisse definieren.
+> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens 24 Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren.
 
-## <a name="information-barriers-administrator-role"></a>Informationen Hindernisse Administratorrolle
+## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 
-Informationen Hindernisse Administratorrolle ist verantwortlich für die Verwaltung von Informationsrichtlinien-Grenze. Weitere Informationen zu dieser Rolle und zur Teilnahme an der Vorschau, [Registrieren Sie sich hier](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+Die Administratorrolle für Informationsbarrieren (IB Compliance Management) ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Office 365 Security #a0 Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
-## <a name="when-are-information-barrier-policies-checked"></a>Wann sind Informationsrichtlinien Grenze überprüft?
+## <a name="when-are-information-barrier-policies-checked"></a>Wann werden die Richtlinien für Informationsbarrieren überprüft?
 
-Grenze Informationsrichtlinien werden überprüft, wenn die folgenden Ereignisse Teams stattfinden:
+Richtlinien für Informationsbarrieren werden überprüft, wenn die folgenden Teams-Ereignisse stattfinden:
 
-- **Ein Team Mitglieder hinzugefügt werden** - Wenn Sie einen Benutzer zu einem Team, die Richtlinie des Benutzers hinzufügen müssen gegen die Grenze Informationsrichtlinien der anderen Teammitglieder ausgewertet werden. Nachdem der Benutzer erfolgreich hinzugefügt wurde, kann der Benutzer alle Funktionen im Team ohne weitere Überprüfung durchführen. Wenn die Richtlinie des Benutzers werden blockiert an das Team hinzugefügt wird, wird der Benutzer nicht bei der Suche angezeigt.
-- **Ein neuer Chat angefordert wird** - jedes Mal ein neuer Chat zwischen zwei oder mehr Benutzer angefordert wird der Chat ausgewertet wird, stellen Sie sicher, dass es Grenze Informationsrichtlinien verletzen nicht zur Verfügung. Wenn die Unterhaltung eine Grenze Informationsrichtlinien verstößt gegen die Unterhaltung wird nicht eingeleitet, und es wird eine Fehlermeldung angezeigt.
-- **Ein Benutzer zur Teilnahme an einer Besprechung eingeladen** -, wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, die Richtlinie des Benutzers gegen die Richtlinien der anderen Teammitglieder ausgewertet wird und ist eine Verletzung, wird der Benutzer die Teilnahme an der Besprechung nicht zulässig sein und eine Fehlermeldung wird angezeigt.
-- **Ein Bildschirm gemeinsam genutzt wird, zwischen zwei oder mehr Benutzer** - ist jederzeit einen Bildschirm zwischen mindestens zwei Benutzern gemeinsam verwendet, die Freigabe Bildschirm ausgewertet werden muss, um sicherzustellen, dass sie nicht die Grenze Informationsrichtlinien anderer Benutzer verletzen. Wenn eine Grenze Informationsrichtlinien verletzt wird, die Freigabe Bildschirm wird nicht zulässig, und eine Fehlermeldung wird angezeigt.
-- **Ein Benutzer einen Anruf (VOIP) in Teams tätigt** - wird jedes Mal, wenn ein Anruf von einem Benutzer an einen anderen Benutzer oder Gruppe von Benutzern, den Anruf initiiert wird ausgewertet, stellen Sie sicher, dass sie nicht die Grenze Informationsrichtlinien Oher Teammitglieder verletzen. Wenn eine Verletzung vorhanden ist, wird der VoIP-Anruf blockiert.
+- **Mitglieder werden einem Team hinzugefügt** – Wenn Sie einen Benutzer zu einem Team hinzufügen, muss die Richtlinie des Benutzers mit den Richtlinien für Informationsbarrieren anderer Teammitglieder ausgewertet werden. Nachdem der Benutzer erfolgreich hinzugefügt wurde, kann der Benutzer alle Funktionen im Team ohne weitere Überprüfungen ausführen. Wenn die Richtlinie des Benutzers blockiert, dass Sie dem Team hinzugefügt wird, wird der Benutzer nicht in der Suche angezeigt.
+- **Ein neuer Chat wird angefordert** – jedes Mal, wenn ein neuer Chat zwischen zwei oder mehr Benutzern angefordert wird, wird der Chat ausgewertet, um sicherzustellen, dass er keine Richtlinien für Informationsbarrieren verletzt. Wenn die Unterhaltung gegen eine Richtlinie für Informationsbarrieren verstößt, wird die Unterhaltung nicht initiiert, und es wird eine Fehlermeldung angezeigt.
+- **Ein Benutzer ist eingeladen, an einer Besprechung teilzunehmen** – wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die Richtlinie des Benutzers anhand der Richtlinien anderer Teammitglieder ausgewertet, und wenn ein Verstoß vorliegt, kann der Benutzer nicht an der Besprechung teilnehmen, und es wird eine Fehlermeldung angezeigt.
+- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, wird die Bildschirmfreigabe nicht zugelassen, und es wird eine Fehlermeldung angezeigt.
+- **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Was geschieht mit vorhandenen Chat Threads, wenn eine Richtlinie geändert wird?
+## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Was passiert mit vorhandenen Chat-Threads, wenn eine Richtlinie geändert wird?
 
-Wenn die Informationen Grenze Richtlinie Admin ändert die Richtlinie oder eine Änderung der Richtlinie startet in Kraft aufgrund eines Benutzers Auftrag ändern oder einem ähnlichen Grund der Grenze Richtlinie Evaluation Dienst automatisch sucht die Member, um sicherzustellen, dass Teammitglieder werden alle Richtlinien nicht verletzen. 
+Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer Richtlinie vornimmt oder eine Richtlinienänderung aufgrund einer Änderung des Profils eines Benutzers (beispielsweise bei einer Auftragsänderung oder einem ähnlichen Grund) in Kraft tritt, sucht der Evaluierungs Dienst für Informations Barriere-Richtlinien automatisch nach die Mitglieder, um sicherzustellen, dass Mitglieder des Teams keine Richtlinien verletzen.
 
-Es ist eine vorhandene Chat oder andere Kommunikation zwischen Benutzern, und eine neue Richtlinie festgelegt ist, oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandenen Communications, um sicherzustellen, dass sie "werden nicht" sozusagen (nicht mehr zulässig): 
+Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
 
-- **1:1-Chat** - Kommunikation zwischen zwei Benutzern ist nicht mehr zulässig (sofern eine Richtlinie Blockieren der Kommunikation für eine oder beide Benutzer angewendet wird), weitere Kommunikation wird blockiert und die Chat-Unterhaltung wird als schreibgeschützt.
-- **Gruppenchat** - Wenn Kommunikation eines Benutzers zur Gruppe nicht mehr zulässig ist (z. B., wenn ein Benutzer Aufträge ändert), der Benutzer zusammen mit den anderen Benutzern, die die Richtlinie verletzen werden, von Gruppenchat entfernt kann und weitere Kommunikation mit der Gruppe nicht werden zulässig. Der Benutzer kann weiterhin sehen alte Unterhaltungen (die schreibgeschützt sein werden), werden jedoch nicht sehen, oder alle neuen Gespräche mit der Gruppe teilnehmen. Wenn die neue oder geänderte Richtlinie verhindert die Kommunikation an mehrere Benutzer angewendet wird, können der Benutzer, die von der Richtlinie betroffen sind aus Gruppenchat entfernt werden. Sie können weiterhin alte Unterhaltungen anzeigen. 
-- **Team** - alle Benutzer, die aus der Gruppe entfernt wurden aus dem Team entfernt werden und werden nicht sehen oder vorhandene oder neue Unterhaltungen teilnehmen.
+- **1:1-Chat** – wenn die Kommunikation zwischen den beiden Benutzern nicht mehr zulässig ist (wenn eine Richtlinie, die die Kommunikation blockiert, auf einen oder beide Benutzer angewendet wird), wird die weitere Kommunikation blockiert, und die Chat Unterhaltung wird schreibgeschützt.
+- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer den Arbeitsplatz wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe wird nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen. 
+- **Team** – alle Benutzer, die aus der Gruppe entfernt wurden, werden aus dem Team entfernt und können keine vorhandenen oder neuen Konversationen anzeigen oder daran teilnehmen.
 
-## <a name="required-licenses-and-permissions"></a>Erforderlichen Lizenzen und Berechtigungen
+## <a name="what-will-users-experience-if-another-user-is-blocked"></a>Was können Benutzer erleben, wenn ein anderer Benutzer blockiert ist?
 
-Derzeit sind die Informationen Grenze Features in öffentlichen Vorschau. Wenn diese Features im Allgemeinen verfügbar sind, können sie wie in Abonnements, aufgenommen werden:
+Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
+
+- **Registerkarte "Personen"** : ein Benutzer kann einige blockierte Benutzer auf der Registerkarte " **Personen** " sehen. Der Benutzer kann die blockierten Benutzer auswählen.
+- **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
+- **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, sieht der Benutzer den blockierten Benutzer im Diagramm und kann auf Aktionen im Diagramm klicken, aber die Aktionen (wie Anrufe) werden nicht durchlaufen.
+- **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und anschließend blockiert wird, können andere Benutzer weiterhin die Personen Karte für den blockierten Benutzer sehen. Alle auf der Karte aufgelisteten Aktionen (wie Anrufe und Chats) stehen zur Verfügung, aber die Aktionen werden nicht durchlaufen.
+- **Vorgeschlagene Kontakte** – in der Liste der vorgeschlagenen Kontakte (die erste Kontaktliste, die für neue Benutzer angezeigt wird) können Benutzer alle vorgeschlagenen Kontakte (einschließlich blockierter Benutzer) sehen. Wenn ein Benutzer jedoch auf den Namen eines blockierten Benutzers klickt, um den Chatbereich zu öffnen, wird die Nachricht blockiert.
+- **Chat-Kontakte** – ein Nutzer kann blockierte Nutzer in der Chat-Kontaktliste sehen.
+- **Anrufe an Kontakte** – ein Benutzer kann blockierte Benutzer in der Kontaktliste für Anrufe sehen und Aktionen wie Anrufe und Nachrichten werden angezeigt, aber wenn der Benutzer versucht, einen Anruf zu tätigen oder eine Nachricht an den blockierten Nutzer zu senden, wird der Anruf oder die Nachricht nicht durchlaufen.
+- **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
+
+In Kürze: Benutzer erfahren Folgendes, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
+
+- **Registerkarte "Personen"** – Benutzer können auf der Registerkarte **Personen** keine blockierten Benutzer sehen.
+- **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
+- **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer im Organigramm nicht angezeigt, und stattdessen wird eine Fehlermeldung angezeigt.
+- **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und der Benutzer anschließend blockiert wird, werden anderen Benutzern anstelle der Personen Karte eine Fehlermeldung angezeigt, wenn Sie den Mauszeiger über den Namen des blockierten Benutzers bewegen. Auf der Karte aufgelistete Aktionen (wie Anrufe und Chats) sind nicht verfügbar.
+- **Vorgeschlagene Kontakte** – blockierte Benutzer werden nicht in der Liste der vorgeschlagenen Kontakte angezeigt (die erste Kontaktliste, die für neue Benutzer angezeigt wird).
+- **Chat-Kontakte** – ein Nutzer kann in der Chat-Kontaktliste nicht blockierte Nutzer sehen.
+- **Anrufe an Kontakte** : ein Benutzer kann blockierte Benutzer in der Anruf Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen.
+- **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
+
+## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
+
+Derzeit befinden sich die Informations Barriere-Features in der öffentlichen Vorschau. Wenn diese Features in der Regel verfügbar sind, sind Sie in Abonnements enthalten, beispielsweise:
 
 - Microsoft 365 E5
 - Office 365 E5
-- Office 365 erweiterte Compliance
-- Microsoft 365 E5 Compliance
+- Office 365 Advanced Compliance
+- Microsoft 365 E5-Kompatibilität
 
-Weitere Informationen, einschließlich der Pläne und zu Preisen finden Sie unter [Compliance-Lösungen](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Compliance-Lösungen](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+
+## <a name="more-information"></a>Weitere Informationen
+
+- Weitere Informationen zu Informationsbarrieren finden Sie unter [Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+
+- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) .
