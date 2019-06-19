@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Microsoft Teams-Räumen in umfangreichen Bereitstellungen zu erhalten.
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305443"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062371"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 
@@ -129,6 +129,9 @@ Weitere Informationen finden Sie unter [Verwalten von Startabbildern mit System 
 > Sie können ein startbares USB-Medium erstellen, um auf Tasksequenz basierte Configuration Manager-Bereitstellungen für Umgebungen zu initiieren, die keine PXE-Unterstützung haben. Das startbare Medium enthält nur das Startabbild, optionale prestart-Befehle und die erforderlichen Dateien sowie Configuration Manager-Binärdateien, um das Booten in Windows PE zu unterstützen und die Verbindung mit Configuration Manager für den restlichen Bereitstellungsprozess herzustellen. Weitere Informationen finden Sie unter [Erstellen von Start](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)baren Medien.
 
 ## <a name="create-configuration-manager-packages"></a>Erstellen von Configuration Manager-Paketen
+
+> [!IMPORTANT]
+> Die erforderliche Betriebssystemversion für jede Version des SRS-Installationsprogramms ändert sich mit jeder MSI-Version. Wenn Sie die beste Version des Betriebssystems für eine bestimmte MSI-Datei ermitteln möchten, führen Sie das Setupskript für die Konsole einmal aus. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager](room-systems-scale.md).
 
 Configuration Manager erfordert eine Reihe von Paketen zum Bereitstellen und Konfigurieren der Microsoft Teams rooms-Einheiten.
 

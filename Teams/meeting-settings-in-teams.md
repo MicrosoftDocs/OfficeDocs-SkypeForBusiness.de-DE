@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433151"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062387"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -49,8 +49,10 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungseinladungen  
 
 1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist ziemlich klein).
-2. Speichern Sie das Bild im JPG-Format.
+2. Speichern Sie das Bild im JPG-oder PNG-Format.
 3. Speichern Sie das Bild an einem zentralen Speicherort, auf den jeder in Ihrer Organisation zugreifen kann, beispielsweise eine Netzwerkfreigabe.
+
+    Sie können Sie nun zu ihren Besprechungseinladungen hinzufügen. Lesen Sie die nächsten Schritte.
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: In diesem Thema finden Sie Informationen zum Konfigurieren von Konten für Microsoft Teams Rooms in Exchange und Skype for Business.
-ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe9413c8da7c50479ddceaa524813d4ab68d8c6
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305401"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062323"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft Teams-Chatrooms
  
@@ -52,7 +52,7 @@ Jedes Geräte Konto ist für ein einzelnes Microsoft Teams rooms-Gerät eindeuti
 - Ihre Infrastruktur muss so konfiguriert sein, dass Microsoft Teams-Chatrooms das Geräte Konto überprüfen und die entsprechenden Microsoft-Dienste erreichen können.
     
 > [!IMPORTANT]
-> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Aad-Synchronisierung aktiviert sein, da für die Authentifizierung in Microsoft Teams rooms die 0ffice 365-Authentifizierung erforderlich ist.
+> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Aad-Synchronisierung aktiviert sein, da für die Authentifizierung in Microsoft Teams rooms die Office 365-Authentifizierung erforderlich ist.
   
 Sie können sich ein Geräte Konto als das Ressourcenkonto vorstellen, das Personen als Besprechungsraum-oder Besprechungsraum Konto erkennen. Wenn Sie eine Besprechung in diesem Konferenzraum planen möchten, laden Sie das Konto zu dieser Besprechung ein. Damit Sie die Microsoft Teams-Räume am effektivsten nutzen können, gehen Sie mit dem Geräte Konto um, das jedem zugewiesen ist.
   

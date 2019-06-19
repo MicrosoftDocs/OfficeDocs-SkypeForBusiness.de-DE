@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667372"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062208"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -32,6 +32,8 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
 - [„Import-Module"-Fehler aufgrund der Windows PowerShell-Ausführungsrichtlinie](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
 - [„Import-Module"-Fehler aufgrund einer falschen Version von Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+    
+- [Die moderne Authentifizierung schlägt fehl, wenn die WinRM-Standardauthentifizierung deaktiviert wurde.](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [Fehler beim Herstellen der Verbindung mit dem Live ID-Server](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -69,6 +71,13 @@ Das Skype for Business Online-Connectormodul kann nur in Windows PowerShell 3.0 
 
 - **Lösung**: die einzige Möglichkeit, dieses Problem zu beheben, besteht darin, Windows PowerShell 3,0 zu installieren, die im Microsoft Download Center [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)unter verfügbar ist.
   
+## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Die moderne Authentifizierung schlägt fehl, wenn die WinRM-Standardauthentifizierung deaktiviert wurde.
+<a name="BKMKWinRMBasicAuth"> </a>
+
+Die aktuelle Version des Skype for Business Online-Connector-Moduls verwendet eine moderne Authentifizierung, aber der zugrunde liegende Windows-Remote Verwaltungsclient (WinRM) muss so konfiguriert sein, dass die Standardauthentifizierung zugelassen wird.  Bei der modernen Authentifizierung werden Inhaber Token verwendet, die normalerweise in der *Autorisierung: Bearer* -Kopfzeile übergeben werden. Windows PowerShell, auf der Skype for Business PowerShell aufbaut, ermöglicht keine Manipulation dieser Kopfzeile.  Stattdessen verwendet Skype for Business PowerShell den *Authorization: Basic* -Header, um das Inhaber Token zu übergeben.
+
+Anweisungen zum Aktivieren von WinRM für die Standardauthentifizierung finden Sie unter [herunterladen und Installieren von Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) .
+
 ## <a name="failed-to-connect-to-live-id-server"></a>Fehler beim Herstellen der Verbindung mit dem Live ID-Server
 <a name="BKMKFailedConnect"> </a>
 

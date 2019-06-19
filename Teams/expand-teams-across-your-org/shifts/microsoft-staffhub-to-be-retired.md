@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/18/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,56 +12,56 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d832081bcd610e5d367c5d3d62ffdfe13650e238
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245874"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062427"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
 
-Die Übermittlung wirksamer wird 1 Oktober 2019, Microsoft StaffHub zurückgezogen werden. Wir erstellen StaffHub-Funktionen in Microsoft-Teams. Heute, Teams enthält die Schichten app für zeitplanverwaltung und zusätzliche Funktionen, die über einen Zeitraum einführen werden.
+Ab dem 1. Oktober 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt.
 
-Diese Änderungen sind Teil der unser Engagement alle Mitarbeiter mit Microsoft 365 Webinhalte. Mit den Funktionen für die Firstline Arbeitnehmer jetzt von Teams werden alle Mitarbeiter in Ihrer Organisation können Teams zum Optimieren ihres Arbeitstages Zusammenarbeit mit Kollegen, und Zugriff auf Informationen und Kompetenzen helfen, ihre besten dazu verwenden.
+Diese Änderungen sind Teil unserer kontinuierlichen Bemühungen, jeden Mitarbeiter mit Microsoft 365 zu befähigen. Mit den Funktionen für First-work-Mitarbeiter in Teams können alle Mitarbeiter in Ihrer Organisation mithilfe von Teams ihre Arbeitstage straffen, mit Kollegen zusammenarbeiten und auf Informationen und Fachkenntnisse zugreifen, um Ihnen zu helfen, optimale Arbeit zu leisten.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-### <a name="about-staffhub-retirement"></a>Informationen zu StaffHub Stilllegung
+### <a name="about-staffhub-retirement"></a>Informationen zu StaffHub Pensionierung
 
-#### <a name="when-will-staffhub-be-retired"></a>Wann wird StaffHub werden zurückgezogen?
+#### <a name="when-will-staffhub-be-retired"></a>Wann wird StaffHub eingestellt?
 
-Starten von der Mitte der April 2019, Microsoft StaffHub wird nicht mehr für neue Mandanten verfügbar sein, und Sie werden nicht mehr die app über das Startprogramm für Office 365-app zugreifen. Aktueller Benutzer werden mithilfe des Diensts bis Oktober 1 2019, jedoch keine zusätzlichen Features zur Verfügung gestellt werden.
+Ab Mitte April 2019 steht Microsoft StaffHub für neue Mandanten nicht mehr zur Verfügung, und Sie können über das Office 365-App-Startfeld in vorhandenen Mandanten nicht mehr auf die App zugreifen. Aktuelle Benutzer können den Dienst bis zum 1. Oktober 2019, jedoch keine zusätzlichen Funktionen zur Verfügung gestellt werden.
 
-#### <a name="what-will-happen-once-staffhub-is-retired"></a>Was geschieht nach StaffHub zurückgezogen wird?
+#### <a name="what-will-happen-once-staffhub-is-retired"></a>Was passiert, wenn StaffHub eingestellt wird?
 
-Microsoft StaffHub werden nicht für alle Benutzer auf 1 Oktober 2019 mehr. Jeder Benutzer, der versucht, öffnen die app wird eine Nachricht mit der Weiterleitung zum Herunterladen von Teams angezeigt. Wenn der Benutzer eine gültige Lizenz verfügt, Teams enthält und die Organisation hat die entsprechenden Schritte zum Aktivieren von Teams, deren Daten übernommen und Basisfunktionalität von StaffHub wird Ihnen nach ihren Übergang zu Teams verfügbar sein.
+Microsoft StaffHub wird am 1. Oktober 2019 nicht mehr für alle Benutzer funktionieren. Jeder, der versucht, die APP zu öffnen, wird eine Meldung angezeigt, in der Sie an die Download Teams weitergeleitet werden. Wenn der Benutzer über eine aktive Lizenz verfügt, die Teams enthält, und die Organisation die erforderlichen Schritte zum Aktivieren von Teams durchgeführt hat, stehen Ihnen Ihre Daten und Kernfunktionen von StaffHub nach dem Wechsel zu Teams zur Verfügung.
 
-Zwischen April 2019 und Oktober 2019 erhält StaffHub Benutzer innerhalb der app-Benachrichtigungen werden Teams verwenden.
+Zwischen April 2019 und Oktober 2019 erhalten StaffHub-Benutzer in-App-Benachrichtigungen, die Sie ermutigen, Teams zu verwenden.
 
-#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Werden Teams, die alle gegenwärtig in StaffHub angebotenen Funktionen anbieten?
+#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Bietet Teams alle Funktionen, die derzeit in StaffHub angeboten werden?
 
-Im Januar 2019 begann Teams, anbietet Schichten zuvor in Microsoft StaffHub verfügbar war. Mithilfe dieses Features können Manager zum Planen und Verteilen von UMSCHALT Zeitpläne und Teammitglieder die Möglichkeit, überprüfen Sie ihren Zeitplan und stellen Zeitplan ändern von ihren mobilen Geräten Anforderungen. Finden Sie weitere Informationen finden Sie unter [verwalten die app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
+Im Januar 2019 begannen Teams, Schichten anzubieten, die zuvor in Microsoft StaffHub zur Verfügung standen. Dieses Feature ermöglicht es Managern, Schichtpläne zu planen und zu verteilen, und Teammitglieder haben die Möglichkeit, Ihren Terminplan zu überprüfen und Änderungsanforderungen auf Ihren mobilen Geräten zu ändern. Weitere Informationen finden Sie unter [Verwalten der Schichten-App für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-Wir setzen uns für spielt eine herausragende benutzerfreundlichkeit und Verwenden von Teams einzigartige Funktionen der StaffHub aus. Weitere Informationen Features auf dem in Teams verfügbar gemacht werden, finden Sie unter [Firstline Worker Features der bald Teams](firstline-worker-features-coming-to-teams.md).
+Wir sind bemüht, eine hervorragende Benutzererfahrung bereitzustellen und die einzigartigen Funktionen von StaffHub für Teams zu nutzen. Weitere Informationen darüber, welche Features in Teams zur Verfügung gestellt werden, finden Sie unter [First-Worker-Features](firstline-worker-features-coming-to-teams.md), die in Kürze in Teams verfügbar sind.
 
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>Was muss ich tun, um diese Änderung bei der Vorbereitung?
+#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>Was muss ich tun, um mich auf diese Änderung vorzubereiten?
 
-Gewusst wie: für den Übergang von StaffHub zu Schichten in Teams vorbereiten finden Sie unter So [Bereiten Sie die Ihre Teams StaffHub Schichten verschieben](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+Wenn Sie wissen möchten, wie Sie den Übergang von StaffHub zu Schichten in Teams vorbereiten können, gehen Sie zu vorbereiten, um [Ihre StaffHub-Teams in Schichten zu verschieben](move-staffhub-teams-to-shifts-in-teams.md#prepare).
 
-#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Warum können Benutzer in meiner Organisation nicht StaffHub des Teams von Schichten in Teams zugreifen?
+#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Warum können Benutzer in meiner Organisation nicht von Schichten in Teams auf Ihr StaffHub-Team zugreifen?
 
-Teams, die mit StaffHub erstellt wurden können nur angezeigt und in StaffHub verwaltet werden. Nach einer StaffHub wird Team verschoben, Teams, Benutzer ihre Zeitpläne in Schichten anzeigen können. Wir empfehlen Ihnen, diese Änderung zu einem frühen Zeitpunkt kommunizieren, und machen Sie vorhandene Benutzer mit Teams.
+Teams, die mit StaffHub erstellt wurden, können nur in StaffHub angezeigt und verwaltet werden. Nachdem ein StaffHub-Team in Teams verschoben wurde, können die Benutzer ihre Zeitpläne in Schichten anzeigen. Wir empfehlen Ihnen, diese Änderung frühzeitig zu kommunizieren und vorhandene Benutzer mit Teams vertraut zu machen.
 
-### <a name="about-shifts"></a>Zu Schichten
+### <a name="about-shifts"></a>Informationen zu Schichten
 
-#### <a name="what-is-shifts"></a>Was ist Schichten?
+#### <a name="what-is-shifts"></a>Was sind Schichten?
 
-Die Schichten-app in Teams ist ein Zeitplan Management Tool, das Firstline Mitarbeiter verbundenen und synchron bleibt. Manager erstellen, aktualisieren und Verwalten von UMSCHALT Zeitpläne für Teams und Teammitglieder können ihre Zeitpläne anzeigen, finden Sie unter, wer außer für den Tag geplant ist, zu vertauschen und bieten eine Schicht Anforderungszeit deaktiviert alle von ihren mobilen Geräten anfordern.  
+Bei der App "Schichten" in Teams handelt es sich um ein Zeit Plan Verwaltungstool, mit dem Mitarbeiter von First-work verbunden und synchronisiert bleiben. Manager erstellen, aktualisieren und verwalten Schichtpläne für Teams, und Teammitglieder können ihre Zeitpläne anzeigen, sehen, wer sonst noch für den Tag geplant ist, wie Sie eine Verschiebung anfordern oder eine Schicht anbieten können, und fordern Sie eine freie Zeit an, und zwar alle von ihren mobilen Geräten.  
 
-#### <a name="which-plans-is-shifts-available-in"></a>Die Pläne ist Schichten in verfügbar?
+#### <a name="which-plans-is-shifts-available-in"></a>In welchen Plänen sind Schichten verfügbar?
 
-Schichten ist als Teil des Teams in der folgenden ohne zusätzliche Kosten Pläne verfügbar:
+Schichten stehen in den folgenden Plänen ohne zusätzliche Kosten als Teil von Teams zur Verfügung:
 
 - Office 365 Business Premium 
 - Office 365 Enterprise F1, E1, E3, E5
@@ -73,138 +72,142 @@ Weitere Informationen finden Sie unter [Verfügbarkeit von Schichten](manage-the
 
 #### <a name="how-do-i-get-shifts"></a>Wie erhalte ich Schichten? 
 
-Wenn Sie bereits einen Plan die Schichten umfasst sind, können Sie beginnen, verwenden Schichten heute als Teil des Teams. [Erste Schritte in Schichten](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)Auschecken.
+Wenn Sie bereits einen Plan haben, der Schichten umfasst, können Sie im Rahmen von Teams heute Schichten verwenden. Schauen Sie sich die [ersten Schritte in Schichten an](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
-#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Welche Geräte oder Plattformen ist Schichten verfügbar?
+#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Auf welchen Geräten oder Plattformen ist die Schicht verfügbar?
 
-Schichten ist auf die WebClient-Teams, Teams Desktopclient und Teams mobilen Clients (iOS und Android) verfügbar.
+Schichten sind im Team-WebClient, in den Teams-Desktop Client und in den mobilen Clients von Teams verfügbar (IOS und Android).
  
-#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Gibt es Unterschiede zwischen den Schichten Desktop und Web-apps und die Mobile (iOS und Android) apps?
+#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Gibt es Unterschiede zwischen den Schichten Desktop-und Web-Apps und den mobilen (IOS-und Android-Apps)?
 
-Für Manager sind die Desktop- und Web-apps zum Erstellen von Teams, Hinzufügen von Mitgliedern, erstellen und Veröffentlichen von Zeitplänen und Freigabe von Inhalten mit dem Team optimiert. Manager verwenden im Allgemeinen die mobile app zum Genehmigen von Anfragen, schnelle-Nachrichten an das Team senden, rufen Sie ein Teammitglied und unterwegs zusammenarbeiten. 
+Für Manager sind die Desktop-und Web-Apps optimiert, um Teams zu erstellen, Mitglieder hinzuzufügen, Zeitpläne zu erstellen und zu veröffentlichen sowie Inhalte für das Team freizugeben. Manager verwenden die Mobile App im Allgemeinen, um Anfragen zu genehmigen, schnell Nachrichten an das Team zu senden, ein Teammitglied anzurufen und unterwegs zusammenzuarbeiten. 
 
-Für Teammitglieder ist die mobile app seinen Zeitplan anzuzeigen, angezeigt werden, die sie an einem Tag mit arbeiten, Uhr an-und Abmelden, festlegen Verfügbarkeit, Anforderungszeit deaktiviert, austauschen oder Schichten bieten und optimiert Schichten öffnen. Es gibt Unterschiede in was Benutzer, in der Desktop und Web-apps im Vergleich zu den mobilen apps machen können. Wir arbeiten auf Funktionsumfang.
+Für Teammitglieder ist die Mobile App optimiert, um Ihren Terminplan anzuzeigen, zu sehen, mit wem Sie an einem Tag arbeiten, ein-und Auschecken, die Verfügbarkeit festzulegen, die Arbeitszeit zu beantragen, zu wechseln oder Schichten zu öffnen und Schichten zu öffnen. Es gibt Unterschiede, was die Benutzer in den Desktop-und Web-Apps im Vergleich zu den mobilen apps tun können. Wir arbeiten an der funktionsparität.
 
-#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Gibt es Unterschiede zwischen den Schichten-app für iOS und Android-app?
+#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Gibt es Unterschiede zwischen der IOS-APP und der Android-App?
 
-Hauptfunktionalität entspricht zwischen den Schichten iOS und Android-apps. Es gibt geringfügige Benutzeroberfläche Unterschiede zwischen den zwei apps an ihre empfohlene Entwurfsmuster ausgerichtet.
+Kernfunktionen sind die gleichen zwischen den Schichten IOS-und Android-Apps. Es gibt kleinere UI-Unterschiede zwischen den beiden apps, um sich an den empfohlenen Entwurfsmustern auszurichten.
 
-#### <a name="what-browsers-does-shifts-work-on"></a>Welche Browser funktioniert Schichten auf?
+#### <a name="what-browsers-does-shifts-work-on"></a>An welchen Browsern funktioniert die Schichtung?
 
-Schichten funktioniert in allen Browsern, die Teams unterstützt, die die aktuellen Versionen von Microsoft Edge, Internet Explorer, Mozilla Firefox und Google Chrome enthält. Weitere Informationen finden Sie unter [Abrufen von Clients für Teams](../../get-clients.md).
+Schichten funktionieren in allen Browsern, die von Teams unterstützt werden und die die neuesten Versionen von Microsoft Edge, Internet Explorer, Google Chrome und Mozilla Firefox beinhalten. Weitere Informationen finden Sie unter [Abrufen von Clients für Teams](../../get-clients.md).
 
-#### <a name="what-languages-does-shifts-support"></a>Welche Sprachen unterstützt Schichten?
+#### <a name="what-languages-does-shifts-support"></a>Welche Sprachen werden von Schichten unterstützt?
 
-Schichten ist in den folgenden Sprachen verfügbar: Chinesisch (vereinfacht), Englisch (USA), Spanisch, Russisch, Japanisch, Französisch, Portugiesisch (Brasilien) Portugiesisch, Deutsch, Koreanisch, Italienisch, Chinesisch (traditionell), Niederländisch, Türkisch, Schwedisch, Dänische und Norwegisch. Wir möchten Unterstützung für zusätzliche Sprachen in der Zukunft hinzufügen.  
+Schichten sind in den folgenden Sprachen verfügbar: Chinesisch (vereinfacht), Englisch (USA), Spanisch, Russisch, Japanisch, Französisch, Brasilianisch-Portugiesisch, Deutsch, Koreanisch, Italienisch, Chinesisch (traditionell), Niederländisch, Türkisch, Schwedisch, Dänisch und Norwegisch. Wir planen, in der Zukunft Unterstützung für weitere Sprachen hinzuzufügen.  
 
-#### <a name="where-is-shifts-data-stored"></a>Wo ist Schichten Daten gespeichert?
+#### <a name="where-is-shifts-data-stored"></a>Wo werden schichtdaten gespeichert?
 
-Verschiebt Daten werden in Azure in Rechenzentren in Nordamerika und Europa Western gespeichert. SharePoint-Inhalte nutzt Office 365-Gruppen und verwendet die gleichen Speicher- und Support.
+Schichten Daten werden in Azure in Rechenzentren in Nordamerika und Westeuropa gespeichert. SharePoint-Inhalte nutzen Office 365-Gruppen und verwenden denselben Speicher und Support.
 
-Weitere Informationen finden Sie unter [Speicherort der Schichten Daten](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+Weitere Informationen finden Sie unter [Speicherort von schichtdaten](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
-#### <a name="where-can-i-learn-more-about-shifts"></a>Wo kann ich weitere Informationen zu Schichten erfahren?
+#### <a name="where-can-i-learn-more-about-shifts"></a>Wo finde ich weitere Informationen zu Schichten?
 
-Produktinformationen, finden Sie unter [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
+Informationen zu Produktinformationen finden Sie [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)unter.
 
-Admin-Anleitung finden Sie unter [verwalten die app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+Informationen zur Administratoranleitung finden Sie unter [Verwalten der Schichten-App für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md) .
 
-Endbenutzerhilfe finden Sie unter [Schichten für Mitarbeiter Firstline unterstützen](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
+Hilfe für Endbenutzer finden Sie unter [Hilfe zu Schichten für First-work-Mitarbeiter](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
 ### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Wechseln von StaffHub zu Schichten in Teams
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>Welche Lizenzen benötige ich für Teams?
 
-Jeder Benutzer benötigen eine aktive Microsoft 365 oder Office 365-Lizenz aus einem [Anspruch Plan](#which-plans-is-shifts-available-in) und Teams Lizenz zugewiesen sein. Weitere Informationen finden Sie unter [Verschieben Ihrer StaffHub Teams Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+Jeder Benutzer muss über eine aktive Microsoft 365-oder Office 365-Lizenz für einen [berechtigten Plan](#which-plans-is-shifts-available-in) verfügen und muss eine Teams-Lizenz zugewiesen werden. Weitere Informationen finden Sie unter [Verschieben von StaffHub-Teams auf Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Wie verschiebe ich meine Organisation StaffHub Teams Teams?
+#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Wie verschiebe ich die StaffHub-Teams meiner Organisation in Teams?
 
-Ausführliche Anleitungen für den Übergang von StaffHub Teams finden Sie unter [Verschieben Ihrer Microsoft StaffHub Teams Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+Detaillierte Anleitungen zum Umstieg von StaffHub in Teams finden Sie unter [Verschieben der Microsoft StaffHub-Teams in die Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>Wie aktiviere ich Teams in meiner Organisation?
 
-Standardmäßig ist für alle Organisationen Teams aktiviert. Sie Teams Benutzern zuweisen Lizenzen individuellen Zugriff für Teams steuern. Weitere Informationen finden Sie unter [Aktivieren von Teams in Ihrer Organisation](../../Office-365-set-up.md) und [Verwalten des Benutzerzugriffs für Teams](../../user-access.md).
+Standardmäßig ist Teams für alle Organisationen aktiviert. Sie weisen Benutzern Teams-Lizenzen zu, um den individuellen Zugriff auf Teams zu steuern. Weitere Informationen finden Sie unter [Aktivieren von Teams in Ihrer Organisation](../../Office-365-set-up.md) und [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>Was geschieht, wenn ich derzeit Skype für Unternehmen, die in meiner Organisation jedoch nicht Teams aktiviert werden?
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>Was ist zu tun, wenn ich Skype for Business derzeit in meiner Organisation, aber nicht in Teams aktiviert habe?
 
-Teams unterstützt die Koexistenz mit Skype für Unternehmen. Weitere Informationen finden Sie unter [Grundlegendes zu Teams und Skype für Interoperabilität und Koexistenz von Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) und [Migration und Interoperabilität Anleitungen für Organisationen mit Teams zusammen mit Skype für Unternehmen](../../migration-interop-guidance-for-teams-with-skype.md).
+Teams unterstützt die Koexistenz mit Skype for Business. Weitere Informationen finden Sie Untergrund Legendes zu [Teams und Skype for Business Koexistenz und Interoperabilität](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) sowie [Migrations-und Interoperabilitäts Anleitungen für Organisationen, die Teams zusammen mit Skype for Business nutzen](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Muss jeder Benutzer ein Office 365-Konto oder Azure Active Directory (AD Azure) Konto haben?
+#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Benötigt jeder Benutzer ein Office 365-Konto oder ein Azure Active Directory-Konto (Azure AD)?
 
-Ja, jedes Manager und Team Mitglied von Teams und Schichten innerhalb Teams benötigen ein Office 365-Konto (Azure AD) und muss eine gültige Lizenz zugewiesen werden.
+Ja, jeder Manager und jedes Teammitglied, das Teams und Schichten innerhalb von Teams verwendet, muss über ein Office 365-Konto (Azure AD) verfügen, und es muss eine gültige Lizenz zugewiesen sein.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub konnte ich ein bestimmten Präfix für alle Office 365-Gruppen hinzugefügt werden, die von Teams, die StaffHub erstellt wurden. Kann ich in Teams identisch?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub kann ich allen Office 365-Gruppen, die von StaffHub Teams erstellt wurden, ein spezielles Präfix hinzufügen. Kann ich dasselbe in Teams tun?
 
-Sie müssen nicht dieselbe Funktion, wenn Sie von StaffHub Teams verschieben. Wenn Sie alle Ihre Office 365-Gruppen Namen Konsistenz zuweisen müssen, können Sie die [Richtlinie zum Benennen von Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)verwenden.
+Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie die namens Konsistenz auf alle Ihre Office 365-Gruppen anwenden müssen, können Sie die [Namensgebungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)verwenden.
 
-#### <a name="will-team-names-be-the-same-in-teams"></a>Werden Teamnamen in Teams gleich?
+#### <a name="will-team-names-be-the-same-in-teams"></a>Werden Teamnamen in Teams identisch sein?
 
-Es ist möglich, der Namen eines Teams abweichen. Teamnamen in Teams verwenden Sie den Namen der Gruppe von Office 365. Wenn der StaffHub Teamname den Namen der entsprechenden Office 365 Gruppe anders ist, sehen Sie einen anderen Namen an, wenn Sie Teams zu wechseln.
+Es ist möglich, dass der Name eines Teams anders ist. Team Namen in Teams verwenden den Namen der Office 365-Gruppe. Wenn sich der Name des StaffHub-Teams vom Namen der entsprechenden Office 365-Gruppe unterscheidet, wird beim Umstieg auf Teams ein anderer Name angezeigt.
 
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Was geschieht mit Teammitgliedschaft, wenn ein Team StaffHub Teams verschoben wird?
+#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Was passiert mit der Teammitgliedschaft, wenn ein StaffHub-Team in Teams verschoben wird?
 
-Teammitgliedschaft wird beibehalten, wenn ein Team StaffHub Teams verschoben wird. Telefonnummern der Teammitglieder werden nicht in Schichten angezeigt. Wenn die StaffHub Telefonnummer die Telefonnummer im Azure AD in Azure Active Directory für dieses Benutzerkontos gespeichert werden soll stimmt. 
+Die Teammitgliedschaft wird beibehalten, wenn ein StaffHub-Team in Teams verschoben wird. Telefonnummern von Teammitgliedern werden nicht in Schichten angezeigt. Wenn die StaffHub-Telefonnummer mit der Telefonnummer in Azure AD übereinstimmt, wird Sie in Azure AD für dieses Benutzerkonto gespeichert. 
 
-Wir empfehlen Ihnen, überprüfen Sie Ihre vorhandenen Team konferenzlisten auf StaffHub und möglichst ausrichten Rufnummern für relevante Azure AD-Identitäten.
+Wir empfehlen Ihnen, Ihre vorhandenen Team Arbeitspläne auf StaffHub zu überprüfen und die Telefonnummern nach Möglichkeit an relevante Azure AD-Identitäten auszurichten.
  
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Was geschieht mit StaffHub Teammitglieder, die bereitgestellt werden nicht oder mit dem Status inaktiv ist?
+#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Was geschieht mit StaffHub-Teammitgliedern, die nicht bereitgestellt werden oder deren Status inaktiv ist?
 
-Zeitplan für den Benutzer wird in Schichten verschoben werden, jedoch nicht des Benutzers ein Mitglied der Team oder eine Office 365-Gruppe.
+Der Zeitplan des Benutzers wird in Schichten verschoben, aber der Benutzer ist nicht Mitglied des Teams oder einer Office 365-Gruppe.
 
-Für inaktive Konten, die mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, der Benutzer wird durch eine gültige e-Mail-Adresse für Office 365 auf der Seite StaffHub Team Mitglieder hinzu, sodass der Benutzer mit der richtigen Azure AD verknüpft ist als Mitglied des Teams hinzugefügt Konto in der Infrarot-Organisation.
+Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder-Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in der IR-Organisation.
 
-Eine weitere Option ist für Administratoren die **Hinzufügen-StaffHubMember** ausführen und **Remove-StaffHubUser** -Cmdlets zum Entfernen eines Kontos nicht bereitgestellte aus einem Team StaffHub, und fügen Sie den Benutzer an das Team mit ihrem Benutzerprinzipalnamen sichern.
+Eine weitere Möglichkeit besteht darin, dass Administratoren die Cmdlets **Add-StaffHubMember** und **Remove-StaffHubUser** ausführen, um ein nicht bereitgestelltes Konto aus einem StaffHub-Team zu entfernen und den Benutzer mit dem UPN wieder dem Team hinzuzufügen.
 
-Es wird empfohlen, dass Sie sicherstellen, dass alle Benutzer in Ihrer Organisation mit einer entsprechenden Lizenz Unterbrechung und Zugriff auf Dienste minimieren besprochen werden.
+Wir empfehlen, dass Sie sicherstellen, dass alle Benutzer in Ihrer Organisation mit einer geeigneten Lizenz abgedeckt sind, um Unterbrechungen und den Zugriff auf Dienste zu minimieren.
  
-#### <a name="what-happens-to-chats-in-staffhub"></a>Was geschieht mit Chats in StaffHub?
+#### <a name="what-happens-to-chats-in-staffhub"></a>Was passiert mit Chats in StaffHub?
 
-Um den Umstieg von Benutzern zu helfen, möchten wir Daten den Chatverlauf in StaffHub Teams migrieren. Der Chatverlauf, die in Teams werden hängt davon ab, wie schnell Sie Ihre Organisation für den Übergang zu konfigurieren. Es wird empfohlen, Aktion spätestens 30 Juni 2019 genügend Zeit für den Umstieg von 90 Tage von Daten durch 1 Oktober 2019 bereitstellen.
+Um Transition-Benutzer zu unterstützen, planen wir das Migrieren des Daten-Chat-Verlaufs in StaffHub in Teams. Die Anzahl der Chat-Protokolle, die in Teams verfügbar sein werden, hängt davon ab, wie schnell Sie Ihre Organisation für den Übergang konfigurieren. Wir empfehlen, die Aktion spätestens am 30. Juni 2019 zu ergreifen, um genügend Zeit für den Übergang von 90 Daten Tagen bis zum 1. Oktober 2019 bereitzustellen.
 
-Sicherstellen Sie, dass Office 365-Gruppe erstellen in der Microsoft-365-Verwaltungskonsole aktiviert ist, bevor der Übergang begonnen hat, wie dies für uns, Anwendungen oder Bildschirme StaffHub chatdaten in Teams verschieben entscheidend ist. Fehler beim Aktivieren dieses Diensts von 30 Juni 2019, führt in einem späteren Zeitpunkt für die Migration oder weniger chatdaten über kopiert werden.
+Stellen Sie sicher, dass die Office 365-Gruppenerstellung im Microsoft 365 Admin Center aktiviert ist, bevor der Übergang beginnt, da dies für uns wichtig ist, ihre StaffHub-Chat-Daten in Teams zu verschieben. Wenn Sie diesen Dienst nicht bis zum 30. Juni 2019 aktivieren, werden spätere Migrationsdaten oder geringere Chatdaten kopiert.
 
-#### <a name="can-i-export-shift-schedules-from-shifts"></a>Können die UMSCHALTTASTE Zeitpläne von Schichten werden exportiert?
+#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>Was geschieht mit Dateien, die in StaffHub hochgeladen wurden?
+
+Sie können die Dateien, die ihre Teams benötigen, aus StaffHub in Teams verschieben. Die Dateien, die Sie verschieben, werden im Ordner "Allgemein" der Teamwebsite in SharePoint Online gespeichert. In Teams können Benutzer auf die Dateien über die Registerkarte " **Dateien** " im allgemeinen Kanal des Teams zugreifen. Weitere Informationen finden Sie unter [Verschieben Ihrer Microsoft StaffHub-Teams auf Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+
+#### <a name="can-i-export-shift-schedules-from-shifts"></a>Kann ich Schichtpläne aus Schichten exportieren?
   
-Sie können aus den Schichten Desktop- und Web-apps UMSCHALT Zeitplaninformationen in eine Exceldatei exportieren. Sie können dann diese Informationen in Ihrer Organisation Systeme und Tools importieren.
+Sie können Schichtplan Informationen in eine Excel-Datei aus den Schichten Desktop-und Web-Apps exportieren. Sie können diese Informationen dann in die Systeme und Tools Ihrer Organisation importieren.
 
-#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Wie kann ich einen Zeitplan wiederhergestellt, wenn ich ein Team versehentlich gelöscht?
+#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Wie kann ich einen Terminplan wiederherstellen, wenn ich ein Team versehentlich gelöscht habe?
 
-Löschen einen Zeitplan ist für das Löschen von einem Team verknüpft. Wenn Sie ein Team wiederherstellen, ist nicht der Zeitplan wiederhergestellt.
+Das Löschen eines Zeitplans ist mit dem Löschen eines Teams verknüpft. Wenn Sie ein Team wiederherstellen, wird der Terminplan nicht wiederhergestellt.
 
-#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Was eignet sich ideal für die Dateifreigabe-Funktion in Teams? Speicherort von Dateien
+#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Was macht die Dateifreigabe Funktion in Microsoft Teams aus? Wo werden Dateien gespeichert?
 
-Das Dateifreigabe-Funktion, die Möglichkeit für einen Manager zum Verteilen von Dateien an die Teammitglieder, ist das Back-End von SharePoint Online eingeschaltet. Wenn ein Team erstellt wird, ist eine Office 365-Gruppe für dieses Team im Hintergrund automatisch bereitgestellt.
+Die Dateifreigabe Funktion, die Möglichkeit für einen Manager, Dateien an Teammitglieder zu verteilen, wird von SharePoint Online auf dem Back-End-Gerät bereitgestellt. Wenn ein Team erstellt wird, wird für dieses Team automatisch eine Office 365-Gruppe im Hintergrund bereitgestellt.
 
-Finden Sie weitere Informationen finden Sie unter [wie SharePoint Online und OneDrive für Unternehmen interagieren mit Teams](../../SharePoint-OneDrive-interact.md).
+Weitere Informationen finden Sie unter [Interaktion zwischen SharePoint Online und OneDrive for Business mit Teams](../../SharePoint-OneDrive-interact.md).
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Es ist die Integration von Schichten und dem Outlook-Kalender? Kann nach einen Zeitplan zu einem Kalender werden exportieren?
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Gibt es eine Integration zwischen Schichten und dem Outlook-Kalender? Kann ich einen Terminplan in einen Kalender exportieren?
  
-Firstline Mitarbeiter können ihre gesamte Arbeitszeitplan auf einen Blick in Schichten finden Sie unter. Wir werden systemeigene Integration von Outlook-Kalender als Teil des unsere Roadmap unterstützt werden. Verwenden Sie in der Zwischenzeit Microsoft Flow Integration von Schichten in Teams und Outlook und Google Kalender einrichten.
+First-work-Mitarbeiter können Ihren gesamten Arbeitsplan auf einen Blick in Schichten sehen. Wir unterstützen die systemeigene Integration in Outlook-Kalender als Teil unserer Roadmap. In der Zwischenzeit können Sie Microsoft Flow verwenden, um die Integration in die Schichten von Teams und Outlook sowie in Google Calendars einzurichten.
 
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Benötige ich Schulen von Benutzern zum Schichten verwenden, wenn sie bereits mit StaffHub vertraut sind?
+#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Muss ich Benutzer für die Verwendung von Schichten Schulen, wenn Sie bereits mit StaffHub vertraut sind?
 
-Keine zusätzliche Schulung ist erforderlich. Sie können Schichten auf ähnliche Weise, wie sie StaffHub verwendet. 
+Es ist keine zusätzliche Schulung erforderlich. Sie können Schichten auf ähnliche Weise verwenden, wie Sie StaffHub verwendet haben. 
  
-#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Welche Admin-Steuerelemente sind verfügbar, verwalten, ob Benutzer in meiner Organisation Schichten verwenden können?  
+#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Welche Administrator Steuerelemente stehen zur Verfügung, um zu verwalten, ob Benutzer in meiner Organisation Schichten verwenden können?  
   
-Sie können die aktivieren oder deaktivieren Sie Schichten Org geltende für alle Benutzer in Ihrer Organisation. In der Verwaltungskonsole von Microsoft-Teams können Sie auch die Firstline Worker app Setup Richtlinie zum Anpassen von Teams für Ihre Mitarbeiter Firstline verwenden. Die Richtlinie wird mit der Aktivität, Schichten, Chat und Aufrufen von apps konfiguriert. Zuweisen der Richtlinie Pins diese apps der app-Leiste in Teams für schnellen und einfachen Zugriff von Benutzern. 
+Sie können die Schichten für alle Benutzer in Ihrer Organisation auf Organisationsebene aktivieren oder deaktivieren. Im Microsoft Teams Admin Center können Sie auch die Richtlinie für die Einrichtung der ersten Arbeitsumgebung verwenden, um Teams für Ihre Mitarbeiter in erster Linie anzupassen. Die Richtlinie ist mit den apps Aktivitäten, Schichten, Chat und anrufen konfiguriert. Durch Zuweisen der Richtlinie werden diese apps an die APP-Leiste in Teams überwiesen, damit Benutzer schnell und einfach darauf zugreifen können. 
 
-Finden Sie weitere Informationen finden Sie unter [verwalten die app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
+Weitere Informationen finden Sie unter [Verwalten der Schichten-App für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-#### <a name="what-powershell-controls-are-available-for-teams"></a>Welche PowerShell Steuerelemente für Teams zur Verfügung stehen?
+#### <a name="what-powershell-controls-are-available-for-teams"></a>Welche PowerShell-Steuerelemente stehen für Teams zur Verfügung?
 
-Sie können über das Microsoft-Teams PowerShell-Modul und die Skype für Business PowerShell-Modul Teams verwalten. Weitere Informationen finden Sie unter [Übersicht über die PowerShell Teams](../../teams-powershell-overview.md). Zu diesem Zeitpunkt stehen keine bestimmte PowerShell-Cmdlets zum Verwalten von Schichten verfügbar.  
+Sie können Teams über das PowerShell-Modul von Microsoft Teams und das Skype for Business PowerShell-Modul verwalten. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](../../teams-powershell-overview.md). Derzeit gibt es keine bestimmten PowerShell-Cmdlets, die zum Verwalten von Schichten zur Verfügung stehen.  
 
-Wenn dies etwas, die Sie interessiert sind ist, senden Sie uns eine Anforderung über das [Teams Feedback Portal auf UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+Wenn Sie daran interessiert sind, senden Sie uns eine Anfrage über das Feedback- [Portal für Teams auf UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>Was geschieht mit der API StaffHub die derzeit in der privaten Vorschau ist?
+#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>Was geschieht mit der StaffHub-API, die sich derzeit in der privaten Vorschau befindet?
 
-Wenn Sie eine Integration mit der StaffHub-APIs erstellt haben, wird diese APIs veraltet. Microsoft Graph-APIs zur Unterstützung der Integration mit Ihrer Personalabteilung, Lohn und Gehalt oder Belegschaft Management-Lösungen veröffentlicht. Finden Sie weitere Informationen finden Sie unter [Verwenden der Microsoft Graph-API Teams entwickelt](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
+Wenn Sie Integrationen mit den StaffHub-APIs erstellt haben, werden diese APIs als veraltet markiert. Wir haben Microsoft Graph-APIs veröffentlicht, um Integrationen in Ihre Personal-, Gehalts-und Personalmanagementlösungen zu unterstützen. Weitere Informationen finden Sie unter [Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
-#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Meldet zur Verwendung von Schichten in der Organisation anzeigen?
+#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Ist die Berichterstellung verfügbar, um die Verwendung von Schichten in meiner Organisation anzuzeigen?
 
-Da Schichten ist eine app in Teams, können Sie die Verwendung durch Teams Berichte anzeigen. Weitere Informationen checken Sie [Teams Berichte in der Verwaltungskonsole von Microsoft-Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) und [Teams Berichte in der Microsoft-365-Verwaltungskonsole aus](../../teams-activity-reports.md).
+Da es sich bei Schichten um eine app in Teams handelt, können Sie die Verwendung über Teams-Berichte anzeigen. Weitere Informationen finden Sie Unterberichte für [Teams im Microsoft Teams Admin Center](../../teams-analytics-and-reports/teams-reporting-reference.md) und [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../../teams-activity-reports.md).
 
-#### <a name="where-can-i-provide-feedback"></a>Wo kann ich Feedback erhalten?
+#### <a name="where-can-i-provide-feedback"></a>Wo kann ich Feedback geben?
   
-In der mobilen app, tippen Sie auf **Weitere** in der linken oberen Ecke des Bildschirms, fahren Sie mit **Einstellungen** > **Senden Sie Feedback** oder einen **Bericht ein Problem**. In ähnlicher Weise wechseln in den Desktop und Web-apps in der unteren linken Ecke des Bildschirms **Hilfe** > **Freigeben eine Vorstellung vom Zweck** oder einen **Bericht ein Problem**.
+Tippen Sie in der mobilen App in der oberen linken Ecke des Bildschirms auf **mehr** , gehen Sie zu **Einstellungen** > **Feedback senden** oder **melden Sie ein Problem**. Auf ähnliche Weise können Sie in den Desktop-und Web-Apps in der unteren linken Ecke **** > des Bildschirms**eine Idee austauschen** oder **ein Problem melden**.

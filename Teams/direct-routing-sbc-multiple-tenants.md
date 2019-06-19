@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: 5392359307d97e010f86d3bb71f2f7c3f3d1ffb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290469"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062395"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -80,7 +80,7 @@ Wenn ein Anruf an der Office 365 Direct-Routing Schnittstelle eingeht, verwendet
 
 Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen und Kontakt Kopfzeilen zusammen.
 
-![Anforderungen für die Basisdomäne, Unterdomänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
+![Diagramm mit Voraussetzungen für Domänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
 
 Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \*. base_domain (beispielsweise \*Customers.adatum.biz)* anfordern. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
 
@@ -114,17 +114,17 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 1.  Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
 2.  Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
 
-    ![Hinzufügen einer Basisdomäne](media/direct-routing-2-sbc-add-domain.png)
+    ! [Screenshot mit der Seite ' Domäne hinzufügen]] (Media/Direct-Routing-2-SBC-Add-Domain. png)
 
 3. Klicken Sie auf **Weiter**.
 4. Im Beispiel hat der Mandant bereits adatum.biz als bestätigten Domänennamen. Der Assistent fragt keine zusätzliche Überprüfung ab, da Customers.adatum.biz eine Unterdomäne für den bereits registrierten Namen ist. Wenn Sie jedoch einen FQDN hinzufügen, der noch nicht überprüft wurde, müssen Sie den Verifizierungsprozess durchlaufen. Der Verifizierungsprozess wird im [folgenden beschrieben](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Bestätigung eines bestätigten Domänennamens](media/direct-routing-3-sbc-verify-domain.png)
+    ![Screenshot mit Bestätigung eines überprüften Domänennamens](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Klicken Sie auf **weiter**, und wählen Sie auf der Seite **DNS-Einstellungen aktualisieren** die Option **Ich möchte die DNS-Einträge selbst hinzufügen** aus, und klicken Sie auf **weiter**.
 6.  Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint oder Teams/Skype for Business verwenden), klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass sich Ihre neue Domäne im Status "Setup abgeschlossen" befindet.
 
-    ![Domänen mit dem Status "Setup abgeschlossen"](media/direct-routing-14-sbc-setup-complete.png)
+    ![Screenshot mit Domänen mit dem Status "Setup abgeschlossen"](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Aktivieren des Domänennamens
 
@@ -134,7 +134,7 @@ Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, i
 
 Beispiel: Test@Customers.adatum.biz
 
-![Seite "Basisdomänen Aktivierung"](media/direct-routing-4-sbc-domain-activation.png)
+![Screenshot der Seite "Basisdomänen Aktivierung"](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Registrieren eines Unterdomänen namens in einem Kundenmandanten
 
@@ -154,39 +154,39 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 1. Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
 2. Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Unterdomäne für diesen Mandanten ein. Im folgenden Beispiel ist die Unterdomäne sbc1.Customers.adatum.biz.
 
-    ![Hinzufügen einer Kunden-Unterdomäne](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Klicken Sie auf **Weiter**.
 4. Der FQDN wurde nie im Mandanten registriert. Im nächsten Schritt müssen Sie die Domäne überprüfen. Wählen Sie **stattdessen TXT-Eintrag hinzufügen**aus. 
 
-    ![Optionen auf der Seite "Domäne überprüfen"](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Screenshot der Seite "Domäne überprüfen"](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Klicken Sie auf **weiter**, und notieren Sie sich den generierten txt-Wert, um den Domänennamen zu überprüfen.
 
-    ![Text Einträge auf der Seite "Domäne überprüfen"](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Screenshot der Texteinträge auf der Seite "Domäne überprüfen"](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Erstellen Sie den TXT-Eintrag mit dem Wert aus dem vorherigen Schritt im DNS-Hostinganbieter des Carriers.
 
-    ![Erstellen des txt-Eintrags im DNS-Hostinganbieter des Netzbetreibers](media/direct-routing-8-sbc-txt-record.png)
+    ![Screenshot mit dem Erstellen des txt-Eintrags](media/direct-routing-8-sbc-txt-record.png)
 
     Weitere Informationen finden Sie unter [Erstellen von DNS-Einträgen bei einem beliebigen DNS-Hostinganbieter für Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Wechseln Sie zurück zum Microsoft 365 Admin Center des Kunden, und klicken Sie auf **überprüfen**. 
 8. Wählen Sie auf der nächsten Seite **die Option Ich füge die DNS-Einträge selbst hinzu** , und klicken Sie auf **weiter**.
 
-    ![Optionen auf der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-9-sbc-update-dns.png)
+    ![Screenshot der Optionen auf der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-9-sbc-update-dns.png)
 
 9. Deaktivieren Sie auf der Seite **Onlinedienste auswählen** alle Optionen, und klicken Sie auf **weiter**.
 
-    ![Seite "wählen Sie Ihre Onlinedienste aus"](media/direct-routing-10-sbc-choose-services.png)
+    ![Screenshot der Seite "wählen Sie Ihre Onlinedienste aus"](media/direct-routing-10-sbc-choose-services.png)
 
 10. Klicken Sie auf der Seite " **DNS-Einstellungen aktualisieren** " auf **Fertig stellen** .
 
-    ![Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Screenshot der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Stellen Sie sicher, dass der Status **Setup abgeschlossen**ist. 
     
-    ![Seite mit dem Status "Setup abgeschlossen"](media/direct-routing-12-sbc-setup-complete.png)
+    ![Screenshot der Seite mit dem Status "Setup abgeschlossen"](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>Aktivieren des Unterdomänen namens
 
@@ -196,33 +196,39 @@ Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, i
 
 Beispiel: Test@sbc1.Customers.adatum.biz
 
-![Aktivierung der Subdomain-Seite](media/direct-routing-13-sbc-activate-subdomain.png)
+![Screenshot der Aktivierung der Subdomain-Seite](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Erstellen eines Trunks und Bereitstellen von Benutzern
 
-> [!NOTE]
-> Basierend auf dem Feedback, das wir im technischen Adoptionsprogramm erhalten haben, kann Microsoft das Verfahren zum Erstellen von Trunks in den Kundenmandanten ändern, um den Prozess zu vereinfachen. Schauen Sie sich die Dokumentationsupdates auf dieser Seite an, und folgen Sie den Blogs der Microsoft Technical Community, um weitere Informationen zu erhalten. 
+Mit der ersten Version des direkten Routings benötigte Microsoft einen trunk, der jedem bedienten Mandanten (Kundenmandant) mithilfe von New-CSOnlinePSTNGateway hinzugefügt werden musste.
 
-Erstellen Sie einen trunk in der Kundendomäne mit dem Befehl New-CSonlinePSTNGateway. Der trunk-FQDN **muss** der für den Kunden erstellten Unterdomäne entsprechen.
+Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
+ 
+• **Overhead-Management**. Wenn Sie beispielsweise einen SBC entladen oder entladen, werden einige Parameter wie das Aktivieren oder Deaktivieren der medienumgehung geändert. Das Ändern des Ports erfordert das Ändern von Parametern in mehreren Mandanten (durch Ausführen von "Satz-CSonlinePSTNGateway)", ist aber tatsächlich derselbe SBC. • **Overhead-Bearbeitung**. Sammeln und Überwachen von trunk-Integritätsdaten – die SIP-Optionen, die aus mehreren logischen Stämmen gesammelt wurden, die in Wirklichkeit derselbe SBC und derselbe physische Stamm sind, verlangsamen die Verarbeitung der Routingdaten.
+ 
 
-Beispiel:
+Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+Es wurden zwei neue Entitäten eingeführt: • ein Carrier-trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert wurde, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
+• Ein abgeleiteter Stamm, für den keine Registrierung erforderlich ist. Es ist einfach ein gewünschter Hostname, der aus dem Carrier trunk hinzugefügt wurde. Er leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Der abgeleitete Stamm muss nicht in PowerShell erstellt werden, und die Zuordnung zum Netzbetreiber trunk basiert auf dem FQDN-Namen (siehe Details unten).
 
-Beim Erstellen des Trunks wird möglicherweise die folgende Fehlermeldung angezeigt:
+Bereitstellungslogik und-Beispiel.
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+• Carrier müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) einrichten und verwalten, indem Sie den Befehl "CSOnlinePSTNGateway" verwenden. Im obigen Beispiel ist adatum.biz; • Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Die Ausführung von New-CSOnlinePSTNGateway für einen trunk ist nicht erforderlich.
+• Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele: • Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
+• Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
 
-Bitte warten Sie, bis die Domänenregistrierung und-Aktivierung repliziert sind, und versuchen Sie es erneut.
+• Alle Änderungen, die an einem Netzbetreiber Stamm (auf dem Carrier-Mandanten) vorgenommen wurden, werden automatisch auf abgeleitete Stämme angewendet. Beispielsweise können Netzbetreiber einen SIP-Port auf dem Carrier-trunk ändern, und diese Änderung gilt für alle abgeleiteten Trunks. Neue Logik zum Konfigurieren der Trunks vereinfacht die Verwaltung, da Sie nicht zu jedem Mandanten wechseln und den Parameter für jeden trunk ändern müssen.
+• Die Optionen werden nur an den FQDN des Carrier Trunks gesendet. Der Integritätsstatus des Träger Trunks wird auf alle abgeleiteten Stämme angewendet und für Routingentscheidungen verwendet. Weitere Informationen zu den [Optionen für das direkte Routing](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+• Der Netzbetreiber kann den Kofferraum entladen, und alle abgeleiteten Stämme werden ebenfalls entleert. 
+ 
 
-Bereitstellen von Benutzern mit den Telefonnummern und Konfigurieren des VoIP-Routings
+Migration vom Vorgängermodell zum Carrier trunk
+ 
+Für die Migration von der aktuellen Implementierung des Carrier-Hosted-Modells zum neuen Modell müssen die Netzbetreiber die Stämme für Kundenmandanten neu konfigurieren. Entfernen Sie die Trunks von den Kundenmandanten mithilfe von Remove-CSOnluinePSTNGateway (verlassen des Stamms im Carrier-Mandanten).
 
-Weitere Informationen zu den neuen CSOnlinePSTNGateway und zur Bereitstellung von Benutzern sowie zum Konfigurieren des VoIP-Routings finden Sie unter [Konfigurieren des direkten Routings](direct-routing-configure.md).
-
+Wir empfehlen, so schnell wie möglich auf die neue Lösung zu migrieren, da wir die Überwachung und Bereitstellung mit dem Carrier und dem abgeleiteten trunk Modell verbessern werden.
+ 
 
 Lesen Sie dazu die [Anweisungen des SBC-Herstellers](#deploy-and-configure-the-sbc) zum Konfigurieren des Sendens des FQDN-namens von Unterdomänen in der Kontakt Kopfzeile.
 

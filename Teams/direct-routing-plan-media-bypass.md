@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493916"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062355"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -47,7 +47,7 @@ Angenommen, ein Benutzer befindet sich im selben Gebäude oder Netzwerk wie der 
 
 ![Zeigt Signalisierungs-und Medienfluss mit medienumgehung](media/direct-routing-media-bypass-2.png)
 
-Die medienumgehung nutzt die Protokolle namens Interactive Connectivity Establishment (ICE) auf dem Client für Teams und Ice Light auf dem SBC. Mithilfe dieser Protokolle können Sie Direktes Routing verwenden, um den direktesten Medienpfad für optimale Qualität zu verwenden. Ice und Ice lite sind WebRTC-Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
+Die medienumgehung nutzt die Protokolle namens Interactive Connectivity Establishment (ICE) auf dem Microsoft Teams-Client und Ice lite auf dem SBC. Mithilfe dieser Protokolle können Sie Direktes Routing verwenden, um den direktesten Medienpfad für optimale Qualität zu verwenden. Ice und Ice lite sind WebRTC-Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Anruffluss-und Firewall-Planung

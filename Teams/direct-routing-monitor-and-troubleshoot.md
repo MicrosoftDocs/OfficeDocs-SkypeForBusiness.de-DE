@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: In diesem Artikel wird beschrieben, wie Sie Ihre direkte Routing Konfiguration überwachen und beheben können.
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915156"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062379"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -66,6 +66,8 @@ Wenn der SBC in unserem Beispiel Optionen zu einem beliebigen Zeitraum zwischen 
 Herabstufung bedeutet, dass der SBC nicht zuerst getestet wird. Beispielsweise haben wir sbc1.contoso.com und sbc2.contoso.com mit gleicher Priorität.  
 
 Wenn sbc1.contoso.com die SIP-Optionen nicht wie oben beschrieben in regelmäßigen Abständen sendet, wird es herabgestuft. Als nächstes versucht sbc2.contoso.com den Anruf. Wenn sbc2. contoso. con den Anruf nicht übermitteln kann, wird der sbc1.contoso.com (degradiert) erneut versucht, bevor ein Fehler generiert wird. 
+
+Wenn zwei (oder mehr) SBCS in einer Route auf "gesund" und "gleich" bestanden, wurde Fisher-Yates shuffle angewendet, um die Aufrufe zwischen SBCS zu distrubute.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen von Anruf Qualitätsanalyse-Dashboard und SBC-Protokollen 
  
