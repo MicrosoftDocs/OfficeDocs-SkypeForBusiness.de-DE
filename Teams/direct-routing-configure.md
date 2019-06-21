@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667498"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116017"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -114,6 +114,7 @@ In der folgenden Tabelle sind die zusätzlichen Parameter aufgeführt, die Sie b
 |Nein|ForwardPAI|Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen. Wenn aktiviert, wird auch der Datenschutz: ID-Header gesendet. Der Standardwert ist **false** ($false).|Falsch|True<br/>Falsch|Boolean|
 |Nein|SendSIPOptions |Definiert, ob die SIP-Optionen von einem SBC gesendet werden sollen. Wenn diese Option deaktiviert ist, wird der SBC vom Überwachungs-und Warnungssystem ausgeschlossen. Wir empfehlen dringend, SIP-Optionen zu aktivieren. Der Standardwert ist **wahr**. |True|True<br/>Falsch|Boolean|
 |Nein|MaxConcurrentSessions |Wird vom Warnungssystem verwendet. Wenn ein beliebiger Wert gesetzt ist, generiert das Warnungssystem eine Benachrichtigung an den mandantenadministrator, wenn die Anzahl der gleichzeitigen Sitzungen 90% oder höher als dieser Wert ist. Wenn Parameter nicht gesetzt ist, werden die Benachrichtigungen nicht generiert. Das Überwachungssystem meldet jedoch die Anzahl der gleichzeitigen Sitzungen alle 24 Stunden. |NULL|NULL<br/>1 bis 100.000 ||
+|Nein|MediaRelayRoutingLocationOverride |Ermöglicht das manuelle auswählen von Pfad für Medien. Beim direkten Routing wird ein Datacenter für Medienpfad basierend auf der öffentlichen IP-Adresse des SBC zugewiesen. Wir wählen immer am nächsten zum SBC-Rechenzentrum aus. In einigen Fällen kann eine öffentliche IP-Adresse beispielsweise aus dem US-Bereich einem SBC in Europa zugewiesen werden. In diesem Fall wird kein optimaler Medienpfad verwendet. Mit diesem Parameter kann der bevorzugte Bereich für den Mediendatenverkehr manuell eingestellt werden. Wir empfehlen, diesen Parameter nur dann festzulegen, wenn die Anrufprotokolle eindeutig darauf hinweisen, dass die automatische Zuweisung des Rechenzentrums für Medienpfad dem SBC-Rechenzentrum nicht am nächsten kommt. |Keine|Landesvorwahl im ISO-Format||
 |Nein|Aktiviert|Wird verwendet, um diesen SBC für ausgehende Anrufe zu aktivieren. Kann verwendet werden, um den SBC vorübergehend zu entfernen, während er aktualisiert wird oder während der Wartung. |Falsch|True<br/>Falsch|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Überprüfen der SBC-Kopplung 

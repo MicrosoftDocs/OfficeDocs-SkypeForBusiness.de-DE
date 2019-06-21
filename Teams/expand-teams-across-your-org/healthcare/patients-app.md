@@ -13,16 +13,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548310"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115993"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Informationen zum teilnehmen an der privaten Vorschau finden Sie unter [registrieren in der privaten](#enroll-in-the-private-preview)Vorschau.
 
@@ -71,7 +71,16 @@ Die Dienst-zu-Service-Authentifizierung sollte über den OAuth 2,0- [Client Anme
 4. Der Metadaten-Endpunkt, der die Konformitäts Anweisung hostet, sollte nicht authentifiziert sein, er sollte ohne Authentifizierungstoken zugänglich sein.
 5. Der Partner Dienst stellt den Token-Endpunkt für die patients-App bereit, um mithilfe eines Client Anmelde Informationsflusses ein Zugriffstoken anzufordern. Die Token-URL als pro autorisierungsserver sollte Teil der FHIR-Konformitäts Anweisung (Capability) sein, die aus Metadaten auf dem FHIR-Server abgerufen wurde, wie in diesem Beispiel:
 
-![Screenshot der Token-URL in einem Codebeispiel](../../media/Patient-app-5.png)
+* * *
+    {"CapabilityStatement": ".
+        .
+        .
+        "Ruhezustand": [{"Modus": "Server"; "Sicherheit": {"Extension": [{"Extension": [{"URL": "Token"; "valueUri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL": "autorisieren"; "valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""}], "URL"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris: ""}], "Dienst": [{"Coding": [{"System"http://hl7.org/fhir/ValueSet/restful-security-service: "", "Code": "OAuth" } ] } ] }, .
+                .
+                .
+            } ] }
+
+* * *
 
 Eine Anforderung eines Zugriffstokens besteht aus den folgenden Parametern:
 
@@ -153,6 +162,6 @@ Nachdem Sie den Open-Source-FHIR-Server erstellt haben, ist es wirklich einfach,
 
     ![Screenshot der Einstellungen des Patienten-App-Servers](../../media/patients-server.png)
 
-5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-App-> FHIR Server-Flow einzurichten, müssen Sie sich über die zuvor erwähnte e-Mail-Anfrage im Offline-Dialog mit Microsoft Teams für Healthcare Product Engineering engagieren, und wir werden helfen Sie Ihnen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
+5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-app-#a0 FHIR-Server Fluss einzurichten, sollten Sie sich über die zuvor erwähnte e-Mail-Anfrage im Offline-Dialog mit Microsoft Teams für Healthcare Product Engineering engagieren, um die Anforderungen zu klären, und wir werden helfen Sie Ihnen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
 
 
