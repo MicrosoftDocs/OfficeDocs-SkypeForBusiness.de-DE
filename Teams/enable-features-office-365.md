@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421995"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116025"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -40,7 +40,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Apps
 
-Apps sind Registerkarten, Connectors, Bots oder eine Kombination dieser drei, die von Teams (Erstanbieter-Apps, auch bekannt als Standard-Apps) oder von einem Drittanbieter (auch bekannt als externe Apps) bereitgestellt werden.Unter **Apps** können Sie Standard-Apps aktivieren bzw. deaktivieren und Einstellungen für die Steuerung externer Apps konfigurieren. Um mehr über das Einführen von Apps, Bots, Connectors und Registerkarten in Teams zu erfahren, lesen Sie (Apps, Bots und Connectors)[deploy-apps-microsoft-teams-landing-page.md].
+Apps sind Registerkarten, Connectors, Bots oder eine Kombination dieser drei, die von Teams (Erstanbieter-Apps, auch bekannt als Standard-Apps) oder von einem Drittanbieter (auch bekannt als externe Apps) bereitgestellt werden. Unter**Apps** können Sie Standard-Apps aktivieren bzw. deaktivieren und Einstellungen für die Steuerung externer Apps konfigurieren. Um mehr über das Einführen von Apps, Bots, Connectors und Registerkarten in Teams zu erfahren, lesen Sie [Apps, Bots und Connectors](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page).
 
 #### <a name="default-apps"></a>Standard-Apps
 
