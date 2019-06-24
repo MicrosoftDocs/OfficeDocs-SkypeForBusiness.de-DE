@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667490"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133907"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -77,7 +77,7 @@ Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Micro
 
 |Frage|Aktion |
 |------------|-------|
-|<ul><li>Soll ich externen Zugriff für meine Organisation aktivieren?</li><li>Falls er aktiviert ist, soll ich die Domänen einschränken, mit denen meine Organisation kommunizieren kann?</li></ul> |<br>Um den externen Zugriff zu aktivieren, lesen Sie [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen).|
+|<ul><li>Soll ich externen Zugriff für meine Organisation aktivieren?</li><li>Falls er aktiviert ist, soll ich die Domänen einschränken, mit denen meine Organisation kommunizieren kann?</li></ul> |<br>Um den externen Zugriff zu aktivieren, lesen Sie [Let your Teams users chat and communicate with users in another Teams organization](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization) (Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen).|
 |||
 
 ### <a name="guest-access"></a>Gastzugriff

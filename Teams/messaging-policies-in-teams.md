@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über Messaging Richtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: 6bd340d6fe212af43828c19ccfd974fb159261e5
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915148"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134315"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 
@@ -89,7 +89,7 @@ Verwenden Sie die folgenden Einstellungen, um die globale Messagingrichtlinie zu
 - **URL-Vorschau zulassen** Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten ein-oder auszuschalten.
 - **Zulassen, dass Benutzer Nachrichten übersetzen** Aktivieren Sie diese Einstellung, damit Benutzer Teams-Nachrichten automatisch in die Sprache übersetzen können, die in Ihren persönlichen Spracheinstellungen für Office 365 angegeben ist.
 - **Ermöglichen des immersiven Readers zum Anzeigen von Nachrichten** Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in Microsoft immersive Reader anzeigen können. Der immersive Reader ist ein Lerntool, mit dem Sie die Lesbarkeit von Text verbessern können.
-- **Benutzer können Prioritäts Benachrichtigungen senden** Wenn Sie diese Option aktivieren, können Benutzer eine Nachricht senden, die Prioritäts Benachrichtigungen verwendet. Prioritäts Benachrichtigungen benachrichtigen Benutzer wiederholt über einen Zeitraum von 20 Minuten, oder bis Nachrichten vom Empfänger abgeholt und gelesen werden, sodass die Wahrscheinlichkeit maximiert wird, dass die Nachricht aufgenommen und rechtzeitig bearbeitet wird.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Benutzer können <a name="urgent-message">Prioritäts</a> Benachrichtigungen senden** Wenn Sie diese Option aktivieren, können Benutzer eine Nachricht senden, die Prioritäts Benachrichtigungen verwendet. Mit Prioritäts Benachrichtigungen werden Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten benachrichtigt, oder bis Nachrichten vom Empfänger abgeholt und gelesen werden, um die Wahrscheinlichkeit zu maximieren, dass die Nachricht abgeholt und rechtzeitig verarbeitet wird.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Erstellen von Sprachnachrichten** 
     - **Erlaubt in Chats und Kanälen** Das bedeutet, dass Benutzer Sprachnachrichten sowohl in Chats als auch in Kanälen hinterlassen können.
     - **Nur in Chats zulässig** Das bedeutet, dass Benutzer Sprachnachrichten in Chats, aber nicht in Kanälen hinterlassen können.

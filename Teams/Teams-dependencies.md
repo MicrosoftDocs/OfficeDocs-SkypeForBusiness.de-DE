@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548853"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131409"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -107,9 +107,9 @@ Teams nutzt SharePoint Online und OneDrive for Business zum Speichern von Dateie
    
 Um alle Gastzugriffsfunktionen in Microsoft Teams zu aktivieren, müssen Office 365-Administratoren für die folgenden Einstellungen die Option **Ein** auswählen:
 
-- In SharePoint Online: **Freigabe nur für bereits im Verzeichnis enthaltenen externen Benutzern zulassen**
+- In SharePoint Online: **Vorhandene Gäste**, **Neue und vorhandene Gäste** oder **Jeder**
     
-    Weitere Informationen finden Sie unter [Verwalten der externen Dateifreigabe für Ihre SharePoint-Onlineumgebung](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der externen Freigabe](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
     
 - In Office 365-Gruppen: **Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer zulassen**
     

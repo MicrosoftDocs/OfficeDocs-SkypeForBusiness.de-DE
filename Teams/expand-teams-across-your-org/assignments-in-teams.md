@@ -15,16 +15,14 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591720"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131520"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Aufgaben sind Aufgaben oder Arbeitseinheiten, die einem Kursteilnehmer oder Teammitglied in einer Klasse im Rahmen ihrer Studie zugewiesen sind. Sie können Aufgaben in Ihrer Team Klasse erstellen.
 
@@ -36,6 +34,8 @@ Mit den Administratoreinstellungen im Microsoft Teams Admin Center können Sie d
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-e-Mail-Digest
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Guardian-e-Mails sind wöchentliche e-Mails, die an die Eltern oder Erziehungsberechtigten der Schüler gesendet werden. Die e-Mail-Nachrichten enthalten Informationen zu den Aufgaben aus der vorherigen Woche und für die kommende Woche und werden über das Wochenende verschickt. Die e-Mail-Nachrichten müssen von den Administratoren über das School Data Sync-Feature aktualisiert werden.
 
 Diese Einstellung ist standardmäßig deaktiviert.
@@ -48,10 +48,11 @@ Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbie
 
 Diese Einstellung ist standardmäßig deaktiviert.
 
-[Weitere Informationen zu MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Weitere Informationen zu MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 

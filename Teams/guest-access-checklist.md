@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280925"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131417"
 ---
 <a name="teams-guest-access-checklist"></a>Checkliste für Teams-Gastzugriff
 ==========================================
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter [Was ist die Gastfreundlichkeit](guest-ex
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Wenn Ihre Gäste Lizenzfehler sehen
 
-Der Gastzugriff in Microsoft Teams verwendet Azure Active Directory Business to Business (B2B) und sein Lizenzierungsmodell. Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt die B2B-Lizenzierungs Anleitung, um die Lizenzierungsanforderungen Ihrer Organisation zu verstehen, damit Ihre Benutzer Gäste in Ihre Organisation einladen können.
+Der Gastzugriff in Microsoft Teams verwendet Azure Active Directory Business to Business (B2B) und sein Lizenzierungsmodell. Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt die B2B- [Lizenzierungs Anleitung](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) , um die Lizenzierungsanforderungen Ihrer Organisation zu verstehen, damit Ihre Benutzer Gäste in Ihre Organisation einladen können.
 
 Ein paar Dinge, die Sie beachten sollten:
 
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microso
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Schritt 2: Konfigurieren von Office 365-Gruppen
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Settings** > **Services & Add-ins** > **Office 365-Gruppen**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Settings** > **Services #a0 Add-ins** > **Office 365-Gruppen**.
 2. Stellen Sie sicher, dass **Gruppenmitglieder außerhalb des Organisations Zugriffsgruppen-Inhalts** auf **ein**gesetzt sind. Wenn diese Einstellung deaktiviert ist, können die Gäste nicht auf Gruppeninhalte zugreifen.
 3. Stellen Sie sicher, dass **Gruppenbesitzer Personen außerhalb der Organisation zu Gruppen hinzufügen** auf **ein**gesetzt ist. Wenn diese Einstellung deaktiviert ist, können Team Besitzer keine neuen Gäste hinzufügen. Diese Einstellung muss mindestens aktiviert sein, um den Gastzugriff zu unterstützen.
 
@@ -106,7 +106,7 @@ Ausführliche Anweisungen finden Sie unter [Aktivieren oder Deaktivieren des Gas
 
 Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Gehen Sie wie folgt vor:
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Sicherheit & Datenschutz**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Sicherheit #a0 Datenschutz**.
 
      ![Screenshot zeigt ein Beispiel für Diensteinstellungen](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298758"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131512"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -55,6 +55,26 @@ Das erste, was Sie tun müssen, ist, eine Lizenz für das Common Area Phone (GAP
 
 Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
+Die Telefon Lizenz für den öffentlichen Bereich unterstützt: 
+
+
+|   |  Telefon für gemeinsame Bereiche  |
+|---------|---------|
+|Skype for Business |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|Telefonanlagen |    &#x2714; |
+|Audiokonferenzen |       &#x2718; &sup1;  |
+|Microsoft InTune |        &#x2718; &sup2; |
+|Weltweite Verfügbarkeit |    &#x2714; |
+|Kanalverfügbarkeit |    EA, EAS, CSP, gcc, EBS, Web Direct  |
+|      |         |
+
+&sup1; Telefone im öffentlichen Bereich können mit einer vom Besprechungsorganisator bereitgestellten Einwahlnummer an Audiokonferenzen teilnehmen.
+
+&sup2; In souveränen Clouds nicht verfügbar  
+
+
+
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
 1. Wechseln Sie im Microsoft 365 Admin Center zu **Benutzer** > , denen**aktive** > Benutzer**einen Benutzer hinzufügen**.
@@ -77,7 +97,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers](https://doc
 
 Verwenden Sie das Skype for Business Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
-1. Wählen Sie im Microsoft 365 Admin Center die Option **Admin Center** > **Teams & Skype** > **Legacy Portal**aus.
+1. Wählen Sie im Microsoft 365 Admin Center die Option **Admin Center** > **Teams #a0 Skype** > **Legacy-Portal**aus.
 
 2. Wählen Sie im Skype for Business Admin Center die Option **Voice** > **Phone Numbers**aus.
 

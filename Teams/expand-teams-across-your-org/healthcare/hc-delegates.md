@@ -13,18 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Ein Benutzer kann einen anderen Benutzer explizit als Stellvertretung in seiner Statusmeldung einrichten.
-ms.openlocfilehash: be7092d2a68010d00a2d214f12bfe9011d44bbc5
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35119484"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131504"
 ---
-# <a name="set-a-delegate-in-a-status-message"></a>Einrichten einer Stellvertretung in einer Statusmeldung
+# <a name="message-delegation"></a>Nachrichten Delegierung
 
-Ein Benutzer kann seinen Status bereits explizit auf "Abwesend" oder "nicht stören" festlegen und benutzerdefinierten Text bereitstellen. Das Delegierungs Feature ermöglicht es Ihnen, einen anderen Benutzer in einem Teil einer Text Statusnachricht zu @username erwähnen, und es wird empfohlen, dass Personen, die sich mit Ihnen in Verbindung setzen möchten, Sie stattdessen an den @username genannten Nutzer wenden. Eine Person, die versucht, Sie zu kontaktieren, kann dann mit dem Mauszeiger auf den nominierten Stellvertreter zeigen und stattdessen einfach eine Nachricht senden.  Die Person, die als Stellvertretung zugewiesen wurde, wird benachrichtigt, dass Sie als Stellvertretung nominiert wurde.
+Ein Benutzer kann seinen Status bereits explizit auf "Abwesend" oder "nicht stören" festlegen und benutzerdefinierten Text bereitstellen. Das Feature Nachrichten Delegierung funktioniert wie folgt:
 
-Hierbei handelt es sich um einen vom Benutzer initiierten Prozess im Client, und es ist keine Einbindung des Administrators erforderlich.
+1. Ein Benutzer @username einen anderen Benutzer in einem Teil einer Text Statusnachricht erwähnt, was darauf hindeutet, dass Personen, die Sie kontaktieren möchten, sich stattdessen an den @username genannten Nutzer wenden können.
+2. Die Person, die als Stellvertretung zugewiesen wurde, wird benachrichtigt, dass Sie als Stellvertretung nominiert wurde.
+3. Eine Person, die versucht, sich mit dem ersten Benutzer in Verbindung zu setzen, kann dann mit dem Mauszeiger auf den nominierten Stellvertreter zeigen  
+
+Hierbei handelt es sich um einen vom Benutzer initiierten Prozess im Client, und es ist keine Einbindung des Administrators erforderlich, um das Feature zu aktivieren. 
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>Szenario für die Delegierungs Nutzung in Healthcare
 
@@ -34,7 +38,7 @@ Hierbei handelt es sich um einen vom Benutzer initiierten Prozess im Client, und
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Auswirkungen der Koexistenzmodus auf den Benutzerstatus im Team-Client
 
-Administratoren sollten beachten, dass Statushinweise und Delegierungs Erwähnungen teilweise vom Koexistenzmodus eines Benutzers abhängen. Diese Matrix zeigt die folgenden Möglichkeiten:
+Administratoren sollten beachten, dass Statushinweise und das Verhalten der Delegierungs Erwähnung teilweise vom Koexistenzmodus des Benutzers abhängig sind. Diese Matrix zeigt die folgenden Möglichkeiten:
 
 |Koexistenzmodus | Erwartetes Verhalten|
 |---|---|
@@ -49,15 +53,11 @@ Ein Benutzer kann in Teams nur dann eine Notiz setzen, wenn sein Modus TeamsOnly
   
 Es gibt keinen visuellen Hinweis darauf, dass eine Notiz in Skype for Business festgesetzt wurde.
 
-Skype for Business erzwingt keine Zeichenbeschränkung für Status Notizen. In Microsoft Teams werden nur die ersten 280-Zeichen einer Notizen Gruppe in Skype for Business angezeigt. Eine Ellipse (...) am Ende zeigt die Kürzung an.
+Skype for Business erzwingt keine Zeichenbeschränkung für Status Notizen. In Microsoft Teams werden nur die ersten 280-Zeichen einer Notizen Gruppe in Skype for Business angezeigt. Eine Ellipse (...) am Ende einer Notiz zeigt die Kürzung an.
   
 Skype for Business unterstützt keine Ablaufzeiten für Notizen.
 
 Die Migration von Notizen von Skype for Business zu Teams wird nicht unterstützt, wenn ein Benutzer auf den TeamsOnly-Modus aktualisiert wird.
-
-## <a name="configure-allowing-clients-to-use-delegates"></a>Konfigurieren, dass Clients die Verwendung von Stellvertretungen ermöglichen
-
-Für dieses Feature ist keine Konfiguration im Microsoft Teams Admin Center oder mithilfe von PowerShell erforderlich. In Mandanten, die Sie unterstützen, ist Sie standardmäßig im Team-Client verfügbar.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

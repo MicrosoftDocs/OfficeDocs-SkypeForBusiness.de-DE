@@ -27,7 +27,6 @@
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
-## [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 
 
@@ -70,7 +69,7 @@
 ### [Teams-Benutzereinstellungen im Batch bearbeiten](edit-user-settings-in-bulk.md)
 ### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
+### [Verwalten der externen Zugriffsrichtlinie](manage-external-access.md)
 ### [Verwenden der Inline-Nachrichtenübersetzung](inline-message-translation-teams.md)
 ### [Verwenden der Verzeichnissuche in Microsoft Teams](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Festlegen einer Stellvertretung in einer Statusmeldung](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
