@@ -3,7 +3,7 @@ title: Betriebshandbuch für Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erford
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548247"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198397"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -355,14 +355,12 @@ Um die Integrität Ihres Netzwerks zu gewährleisten, müssen in regelmäßigen 
 | Bereitstellen von Gebäudedaten                                          | Bereitstellen von aktualisierten Subnetz-Informationen für den Quality Champion (oder relevante Stakeholder), um sicherzustellen, dass die [Gebäude Definitionen in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) auf dem neuesten Stand gehalten werden. | Nach Bedarf              |               |
 | Implementieren von Änderungen                                               | Implementieren Sie Änderungen im Netzwerk, um die geschäftlichen und technischen Anforderungen des Teams zu ändern. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul>     | Nach Bedarf              |               |
 | Netzwerküberwachung und-Berichterstellung                               | Überwachen Sie das Ende des Netzwerks auf Verfügbarkeit, Auslastung und Kapazitäts Trends, indem Sie die vorhandenen Netzwerkverwaltungstools und Berichtsfunktionen von Drittanbietern verwenden, die von ihren Netzwerkanbietern zur Verfügung stehen. Verwenden Sie Trenddaten für die Netzwerkkapazitätsplanung.                                                                                                            | Täglich, wöchentlich, monatlich |               |
-| Kapazitätsplanung                                              | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten. Nutzen Sie die Ergebnisse des [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) , um sicherzustellen, dass für Microsoft Teams genügend Bandbreite zur Verfügung steht.                               | Nach Bedarf              |               |
+| Kapazitätsplanung                                              | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten.                                | Nach Bedarf              |               |
 | Netzwerkproblembehandlung und-Behebung                        | Unterstützen Sie die Teams-Helpdesks, Dienstbesitzer und wichtigen Teilnehmer bei der Problembehandlung und Beheben von Problemen im Zusammenhang mit der Konnektivität, Zuverlässigkeit oder Qualität von Teams. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul>    | Nach Bedarf              |               |
 | Testen von Disaster Recovery und Höchstverfügbarkeit                | Führen Sie regelmäßige hoch Verfügbarkeits-und Disaster Recovery-Tests für die Netzwerkinfrastruktur durch, um sicherzustellen, dass Sie die angegebenen Service Level Objectives (SLOs) oder Service Level Agreements (SLAs) für den Teams-Service erfüllt.                                                                                                                                                  | Monatlich                |               |
 
 
 ### <a name="references"></a>Referenzen 
-
-[Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
@@ -395,8 +393,6 @@ Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Na
 
 
 ### <a name="references"></a>Referenzen 
-
-[Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Hochladen von Mandantendaten Informationen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

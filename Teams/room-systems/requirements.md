@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344502"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203993"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -51,20 +51,6 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 |Surface pro (fünfte Generation)  |Core i5  |8 GB oder 4 GB  |128 GB oder mehr  |
 |Surface pro 4          |Core i5  |8 GB oder 4 GB  |128 GB oder mehr  |
 
-> [!NOTE]
-> Core M3-Prozessoren werden nicht unterstützt.
-
-**Unterstützte Konsolen**
-
-|Konsole|Prozessor|RAM|Festplatte|Firmware-Version|
-|:-----|:-----|:-----|:-----|:----|
-|[Crestron Flex-M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|1.0.16.490|
-|[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | |
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|Audio-92.10.0.15</br>Video-92.10.0.15|
-|
- 
-
 - Eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern. 
 
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
@@ -74,11 +60,25 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
   - [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
+**Unterstützte Konsolen**
+
+|Konsole|Prozessor|RAM|Festplatte|Firmware-Version|
+|:-----|:-----|:-----|:-----|:----|
+|[Crestron Flex-M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|1.0.16.490|
+|[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | |
+|[HP Elite Slice G2-Audio bereit mit Microsoft Teams-Räumen](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | |
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
+|[Logitech Tap Touch-Controller für Video Konferenzräume](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240 GB  |  |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|Audio-92.10.0.15</br>Video-92.10.0.15|
+|
+> [!NOTE]
+> Core M3-Prozessoren werden nicht unterstützt.
 
 **Zertifizierte Firmware-Versionen für USB-Audio-und Video-Peripheriegeräte**
 
 |Microsoft Teams rooms-Peripheriegeräte|Für Microsoft Teams-Chatrooms zertifizierte Firmware-Version|
 |:-----|:-----|
+|[Logitech-Rallye](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
 |[Logitech Brio](https://www.logitech.com/en-us/product/brio) <br/> |V240|
 |[Meetup zu Logitech](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio-1.0.172  <br/> Video-1.0.156  <br/> |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
@@ -86,10 +86,10 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 |[Logitech 930E](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
 |[Sennheiser SP 220 ms](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser sp20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -148,6 +148,7 @@ Wenn Sie Ihr eigenes Microsoft Teams rooms-Bild erstellen möchten, folgen Sie d
 Darüber hinaus benötigen Sie wahrscheinlich eine Kopie von [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), die Sie zum Bereitstellen von Microsoft Teams rooms-Konten verwenden können.
 
 ## <a name="see-also"></a>Siehe auch
+[Alle Bundles durchsuchen](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
 [Planen von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)
 

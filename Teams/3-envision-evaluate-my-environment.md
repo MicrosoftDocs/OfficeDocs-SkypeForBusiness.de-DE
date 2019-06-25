@@ -3,7 +3,7 @@ title: Bewerten Ihrer Umgebung für Microsoft Teams-Cloud Voice-Workloads
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 8aed7b648a3cd742fa7cf160d34aefced97ae31c
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548382"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198365"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
@@ -42,7 +42,7 @@ Sie sollten diese Informationen in das risikoregister aufnehmen.
 Nehmen Sie im Rahmen ihrer Umwelt Ermittlung alle Fragen im Zusammenhang mit dem Endbenutzer-Computing auf, beispielsweise eine Bereitschaftsbewertung von PCs und mobilen Geräten zur Unterstützung von Audiokonferenzen und Telefonsystemen mit Anruf Plan-Geschäfts Anwendungsfällen, von Hardwareanforderungen bis zu Softwareanforderungen.
 
 Mit der Umgebungserkennung kann auch ermittelt werden, ob Sie [Telefonnummern an Microsoft übertragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)müssen.
-Wenn Sie dies wissen, wird Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Sie können das [Rollout Umwelt Ermittlung für Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) von myadvisor zum Durchführen von Umgebungs Ermittlungen verwenden.
+Wenn Sie dies wissen, wird Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Sie können das [Rollout Umwelt Ermittlung für Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) verwenden, um Umgebungs Ermittlungen durchzuführen.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Wer ist für das Ausfüllen einer Umgebungs Bewertung verantwortlich?</li></ol></td></tr>
@@ -83,7 +83,7 @@ Dies sind die wichtigsten Hinweise aus dieser Anleitung. Du musst:
 
 -   Öffnen Sie die UDP-Ports 3478 bis 3481, die von Clients, die Teams verwenden, abgehenden werden.
 
--   Stellen Sie sicher, dass genügend Bandbreite für die Bereitstellung von Teams vorhanden ist, indem Sie den [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)ausfüllen.
+-   Stellen Sie sicher, dass genügend Bandbreite für die Bereitstellung von Teams vorhanden ist.
 
 -   Führen Sie das Tool für die [Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) aus, und stellen Sie sicher, dass Sie die Anforderungen unter [Medienqualität und Netzwerk Verbindungsleistung](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) sowohl im Edge-Segment als auch im Client Segment erfüllen.
 
@@ -106,8 +106,6 @@ Wenn Sie Ihr Netzwerk nicht vorbereiten, führt dies wahrscheinlich zu unzufried
 ## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
 Der erste Schritt in Richtung Netzwerk Bereitschaft besteht darin, sicherzustellen, dass Ihr Netzwerk über genügend Bandbreite für die Modalitäten verfügt, die Teams für Benutzer bereitstellen. Die Planung ausreichender Bandbreite ist eine relativ einfache Aufgabe und ein sehr geringer Hürden Anfang, um sicherzustellen, dass Ihre Benutzer über eine qualitativ hochwertige Teams-Erfahrung verfügen.
-
-Mit dem Netzwerk Planner starten Sie Ihre Bandbreiten Planungs Reise für Teams auf der [Website "mein Ratgeber](https://myadvisor.fasttrack.microsoft.com/) ". Der Network Planner bietet pro-Site-Bandbreitenplanung für Teams und bietet Empfehlungen zur Optimierung der Netzwerkleistung.
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
@@ -219,7 +217,7 @@ Weitere Informationen finden Sie unter [Quality of Service in Microsoft Teams](h
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Wer ist für die ordnungsgemäße Netzwerk Beurteilung über alle Netzwerksegmente und Organisationsstandorte verantwortlich?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Sie können eine detaillierte Netzwerkbewertung durchführen, um sicherzustellen, dass Ihr Netzwerk für Ihre Microsoft Teams-Bereitstellung bereit ist. Weitere Informationen finden Sie unter <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Netzwerk Bereitschaftsbewertung</a>.</li><li>Führen Sie die Netzwerk Bereinigung basierend auf den Ergebnissen der Netzwerk Readiness-Bewertung für jedes Netzwerksegment durch.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Sie können eine detaillierte Netzwerkbewertung durchführen, um sicherzustellen, dass Ihr Netzwerk für Ihre Microsoft Teams-Bereitstellung bereit ist.</li><li>Führen Sie die Netzwerk Bereinigung basierend auf den Ergebnissen der Bewertung für jedes Netzwerksegment durch.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

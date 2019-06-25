@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548278"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198421"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -118,7 +118,7 @@ Wenn Sie diese Kriterien nicht erfüllen, ist es an der Zeit, das Projekt zu pau
 |  |  |  |
 |---------|---------|---------|
 |![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Entscheidungspunkt         |Haben Sie Ihre Netzwerkfunktionen zur Unterstützung von Echt Zeit Medien bewertet?<br></br>Wenn Ihr Netzwerk nicht richtig bewertet wurde oder Sie wissen, dass es keine Echt Zeit Medien unterstützt, können Sie die Video-und Bildschirmfreigabe Funktionen deaktivieren, um die Auswirkungen auf das Netzwerk und schlechte Teams zu verringern?         |
-|![Ein Symbol, das die nächsten Schritte darstellt](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: Folgen Sie den Richtlinien zur [Beurteilung der Netzwerk Bereitschaft](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) , um festzustellen, ob Ihr Netzwerk für echt Zeit Medien bereit ist.<br></br>Schlechte Netzwerkqualität: führen Sie die Schritte zur Netzwerk Sanierung durch, um eine geeignete Umgebung für hochwertige Echt Zeit Medien bereitzustellen.<br></br>Netzwerk zufrieden stellend: Stellen Sie sicher, dass alle IP-Adressen und Ports ordnungsgemäß verfügbar sind.           |
+|![Ein Symbol, das die nächsten Schritte darstellt](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: führen Sie eine Netzwerk Bereitschaftsbewertung durch, um festzustellen, ob Ihr Netzwerk für echt Zeit Medien bereit ist.<br></br>Schlechte Netzwerkqualität: führen Sie die Schritte zur Netzwerk Sanierung durch, um eine geeignete Umgebung für hochwertige Echt Zeit Medien bereitzustellen.<br></br>Netzwerk zufrieden stellend: Stellen Sie sicher, dass alle IP-Adressen und Ports ordnungsgemäß verfügbar sind.           |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

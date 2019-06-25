@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Übersicht über das Management für Microsoft Teams-Chatrooms.
-ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01b2550c1a0ad691acf48c58f6c13a37f2b4b7e6
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288571"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198636"
 ---
 # <a name="management-overview"></a>Verwaltung (Übersicht) 
 
@@ -62,7 +62,7 @@ Anhand dieser Anleitung können Sie ein einfach zu bedienendes Dashboard erstell
 
 Wir empfehlen, dass Sie die laufenden Überwachungsverfahren zur betrieblichen Qualitäts-und Zuverlässigkeitsüberwachung im Rahmen ihrer Bereitstellung implementieren, um den Trend der Anruf-und Besprechungs Qualität und-Zuverlässigkeit zu überwachen, alle bedenklichen Bereiche zu identifizieren und auf eine Lösung hinzuarbeiten. 
 
-Wenn Sie Ihre Gebäudeinformationen auf CQD hochladen, können Sie die Trends für die Anrufqualität und-Zuverlässigkeit auf pro-Gebäude-Ebene untersuchen, wodurch es einfacher ist, Gebäude zu vergleichen und ihre Aufmerksamkeit auf bestimmte Probleme zu konzentrieren. Wenn Sie weitere Informationen wünschen, laden Sie den [Monitor-CQD für Skype for Business Online – Delivery and Operations Guide](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15)herunter. 
+Wenn Sie Ihre Gebäudeinformationen auf CQD hochladen, können Sie die Trends für die Anrufqualität und-Zuverlässigkeit auf pro-Gebäude-Ebene untersuchen, wodurch es einfacher ist, Gebäude zu vergleichen und ihre Aufmerksamkeit auf bestimmte Probleme zu konzentrieren.
 
 Wir empfehlen, dass Sie das [Review-Handbuch für die Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide) überprüfen und befolgen, um Qualitäts-und Zuverlässigkeits Trends zu identifizieren und einen Aktionsplan zum Beheben dieser Informationen zu erstellen. 
 

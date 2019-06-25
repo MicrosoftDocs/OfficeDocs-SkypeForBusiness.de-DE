@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548112"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198341"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -72,25 +72,23 @@ Das Betriebshandbuch enthält eine Liste mit allgemeinen Aufgaben, die typischen
 |Exchange-Aufgaben|Verwalten der Exchange-Umgebung|TBA|TBA|
 |Telefoniebetrieb|Verwalten der SBCs und der Telefonnummern|TBA|TBA|
 
-Sie können die detailliertere Zuordnung der operativen Rollen (einschließlich der mit jeder operativen Rolle verbundenen Aufgaben), vereinfachen, indem Sie in der [Arbeitsmappe für die Zuordnung von operativen Rollen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) die Details erfassen, die Ihnen einen Überblick über die Rollen und Verantwortlichkeiten für die Unterstützung von Cloud-VoIP-Arbeitsauslastungen geben.
-
 <!--ENDOFSECTION-->
 
 ## <a name="the-quality-champion-role"></a>Die Rolle des Qualitätspioniers
 
 Eine Gruppe oder Einzelperson muss für die Qualität in allen Organisationen verantwortlich sein.
-Dies ist die wichtigste Rolle bei der Dienstverwaltung. Beim Qualitätspionier handelt es sich um eine Kundenrolle, die einer Person oder Gruppe zugewiesen wird, die sich stark für die Benutzerfreundlichkeit engagiert. Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann.
-Der beste Kandidat als Qualitätspionier ist normalerweise der Besitzer des Kundendiensts. Dies kann – je nach Größe und Komplexität der Organisation – eine beliebige Person oder Gruppe sein, die sich stark für die Benutzerfreundlichkeit engagiert.
+Dies ist die wichtigste Rolle bei der Dienstverwaltung. Der Quality Champion ist eine Kundenrolle, die einer Person oder Gruppe zugewiesen ist, die leidenschaftlich über die Benutzererfahrung verfügt. Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann.
+Der beste Kandidat für den Quality Champion ist in der Regel der Kundendienst Besitzer, der – je nach Größe und Komplexität des Unternehmens – jede Person oder Gruppe sein könnte, die leidenschaftlich über die Benutzererfahrung verfügt.
 
-Der Qualitätspionier nutzt vorhandene Tools und dokumentierte Prozesse, beispielsweise das Anrufqualitäts-Dashboard (AQD) und das Handbuch für die Überprüfung der Erlebnisqualität, um die Benutzerfreundlichkeit zu überwachen, Qualitätstrends zu erkennen und gegebenenfalls Verbesserungen zu fördern. Der Qualitätspionier arbeitet mit den jeweiligen Teams zusammen, um Verbesserungsmaßnahmen voranzutreiben, und unterrichtet einen Lenkungsausschuss über den Fortschritt und die offenen Probleme.
+Der Quality Champion nutzt die vorhandenen Tools und dokumentierten Prozesse, wie das Anruf Qualitäts-Dashboard (CQD) und den Leitfaden zur Überprüfung der Qualität, um die Benutzererfahrung zu überwachen, qualitätstrends zu erkennen und bei Bedarf eine Problembehebung durchführen zu können. Der Quality Champion arbeitet mit den jeweiligen Teams zusammen, um die Behebungsaktionen zu unterhalten und dem Lenkungsausschuss über den Fortschritt und die offenen Probleme zu berichten.
 
-Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuch dokumentiert. Diese Rolle sollte zu einem frühen Zeitpunkt in der Konzeptionierungsphase zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
+Die Aufgaben und Aktivitäten, die der Rolle zugeordnet sind, werden im Betriebshandbuch dokumentiert. Diese Rolle sollte zu einem frühen Zeitpunkt in der Konzeptionierungsphase zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Einführung in das Handbuch für die Überprüfung der Erlebnisqualität
 
-Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten zum Bewerten und Bereitstellen von Verbesserungsanleitungen in wichtigen Bereichen, die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben (siehe folgende Abbildung).
+Der Leitfaden zur Überprüfung der Qualität von Erfahrungen enthält eine Reihe von Aktivitäten, die in wichtigen Bereichen, die die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben, die Behebungs Anleitung bewerten und bereitstellen, wie in der folgenden Abbildung dargestellt.
 
 ![Abbildung der wichtigsten Bereiche, die während der Überprüfung der Qualitätserfahrung zu untersuchen] sind (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Überprüfung der Qualitätsüberprüfung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
@@ -110,13 +108,13 @@ Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebe
 
 Die Anleitungen im Handbuch für die Überprüfung der Erlebnisqualität konzentrieren sich auf die Verwendung des online verfügbaren Anrufqualitäts-Dashboards (AQD) als primäres Tool zum Melden und Untersuchen der einzelnen beschriebenen Bereiche. Der Schwerpunkt liegt dabei auf Audio, um die Einführung und die Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Wir empfehlen dringend, den Qualitätspionier frühzeitig zu ernennen. Der ernannte Qualitätspionier sollte sich dann mit dem Inhalt des [Handbuchs für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) vertraut machen.
+Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit den Inhalten des [Quality Experience Review Guide](https://aka.ms/qerguide)vertraut machen.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für den Cloud-VoIP-Betrieb in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch zum Planen der Dienstverwaltung herunter.</li><li>Laden Sie das Handbuch für die Überprüfung der Erlebnisqualität herunter.</li><li>Lesen Sie das gesamte Betriebshandbuch.</li><li>Stellen Sie allen Mitgliedern der Betriebsteams sämtliche Handbücher zur Verfügung, damit sie diese lesen und sich mit den operativen Anforderungen vertraut machen können.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für Cloud-VoIP-Vorgänge in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch Planung für Dienstverwaltung herunter.</li><li>Laden Sie den Leitfaden zur Überprüfung der Quality Experience herunter.</li><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Bereitstellen aller Leitfäden für alle Betriebsteam Mitglieder, um Sie zu überprüfen und mit den Betriebsanforderungen vertraut zu sein.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

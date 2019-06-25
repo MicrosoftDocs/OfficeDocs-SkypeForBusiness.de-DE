@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694747"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203934"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -32,7 +32,7 @@ Mit dem Add-in "Teams-Besprechung" können Benutzer eine Teams-Besprechung aus O
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Teambesprechung-Add-in in Outlook für Windows
 
-Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013 oder Office 2016 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
+Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Microsoft Teams und entweder Office 2010, Office 2013 oder Office 2016 auf Ihrem Windows-PC installiert haben. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
 
 ![Screenshot des Add-Ins "Teams-Besprechung" im Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 

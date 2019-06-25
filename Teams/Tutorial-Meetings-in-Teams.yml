@@ -20,12 +20,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 67ed7972a6188225a3b4f81fcc3e99f541f76952
-  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+  ms.openlocfilehash: 331483c565292d60587de834cbb086af1b956969
+  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/23/2019
-  ms.locfileid: "32225732"
+  ms.lasthandoff: 06/24/2019
+  ms.locfileid: "35198437"
 items:
 - durationInMinutes: 1
   content: >
@@ -104,15 +104,13 @@ items:
     ### <a name="next-steps"></a>Nächste Schritte
 
 
-    1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.
+    1.  Beginnen Sie mit der Verwendung von Besprechungen in Microsoft Teams.
 
-    2.  Beginnen Sie mit der Verwendung von Besprechungen in Microsoft Teams.
-
-    3.  Senden Sie uns Feedback:
+    2.  Senden Sie uns Feedback:
         - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
         - Um Produktfeedback zu Microsoft Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zur [Microsoft Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.
-    4.  Bleiben Sie auf dem aktuellen Stand:
-        - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).
-        - Lesen Sie die [Teams Roadmap](https://aka.ms/O365Roadmap).
-        - Informationen Sie zu den neuesten veröffentlichten Funktionen [Anmerkungen zu dieser Version](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).
+    3.  Bleiben Sie auf dem laufenden:
+        - Folgen Sie [](https://aka.ms/teamsblog)dem Teamblog.
+        - Lesen Sie die [Roadmap für Teams](https://aka.ms/O365Roadmap).
+        - Informieren Sie sich über die neuesten veröffentlichten Features in den [Versions](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)hinweisen.
+    4.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).

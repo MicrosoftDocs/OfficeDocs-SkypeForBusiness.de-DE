@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: 7b71969358e17b98dbfe5e5437ed4b421c27ea85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288593"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198652"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
@@ -102,8 +102,6 @@ _Beispiel für Besprechung/Konferenzraum Inventar_
 | Londoner HQ | Curie         | Mittel        | 6&ndash;12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
 | Sydney HQ | Hill          | Große         | 12&ndash;16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
 
-**Pro-Tipp** : Wenn Sie über viele Websites verfügen, die Sie inventarisieren können, möchten Sie möglicherweise den [Website Rollout und die Migration Planning-Site Fragebogen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15)herunterladen und verwenden.
-
 ## <a name="device-selection"></a>Geräteauswahl 
 
 Bewerten Sie, welche Microsoft Teams rooms-Lösung für jeden Raum am besten geeignet ist, basierend auf den zukünftigen Funktionen, die Sie für den Raum wünschen. Entscheiden Sie, welche AV-Peripheriegeräte je nach Raumgröße und Layout am besten geeignet sind. 
@@ -128,7 +126,7 @@ _Beispiel für Microsoft Teams rooms-Bereitstellungsvorlage für Ihre Organisati
 | Mittel 18 ' von 20 '    | 6&ndash;12                  |                                  |                         |                 |
 | Groß 15 ' von 32 '     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro-Tipp –** Jetzt ist es eine tolle Zeit, Informationen über die von Ihnen ausgewählte Microsoft Teams rooms-Lösung zu sammeln. Wir empfehlen, dass Sie mit Ihrem Lieferanten zusammenarbeiten, um das Ausfüllen der Entwurfsvorlage zu besprechen, um Informationen zu erfassen, die für Ihre Bereitstellung relevant sind. Sie können [Diese praktische Vorlage](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) von myadvisor herunterladen. 
+**Pro-Tipp –** Jetzt ist es eine tolle Zeit, Informationen über die von Ihnen ausgewählte Microsoft Teams rooms-Lösung zu sammeln.
 
 ## <a name="procurement"></a>Beschaffung 
 

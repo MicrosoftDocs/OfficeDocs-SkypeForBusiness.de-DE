@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: c8060eae2a354f041b970f61729449eda6179188
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548533"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198493"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
 
@@ -357,13 +357,11 @@ Um die Integrität Ihres Netzwerks zu gewährleisten, müssen in regelmäßigen 
 | Bereitstellen von Gebäudedaten | Bereitstellen von aktualisierten Subnetz-Informationen für den Quality Champion (oder relevante Stakeholder), um sicherzustellen, dass die [Gebäude Definitionen in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) auf dem neuesten Stand gehalten werden. | Nach Bedarf | |
 | Implementieren von Änderungen | Implementieren Sie Änderungen im Netzwerk, um die geschäftlichen und technischen Anforderungen des Teams zu ändern. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
 | Netzwerküberwachung und-Berichterstellung | Überwachen Sie das Ende des Netzwerks auf Verfügbarkeit, Auslastung und Kapazitäts Trends, indem Sie die vorhandenen Netzwerkverwaltungstools und Berichtsfunktionen von Drittanbietern verwenden, die von ihren Netzwerkanbietern zur Verfügung stehen. Verwenden Sie Trenddaten für die Netzwerkkapazitätsplanung. | Täglich, wöchentlich, monatlich | |
-| Kapazitätsplanung | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten. Nutzen Sie die Ergebnisse des [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) , um sicherzustellen, dass für Microsoft Teams genügend Bandbreite zur Verfügung steht. | Nach Bedarf | |
+| Kapazitätsplanung | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten.  | Nach Bedarf | |
 | Netzwerkproblembehandlung und-Behebung | Unterstützen Sie die Teams-Helpdesks, Dienstbesitzer und wichtigen Teilnehmer bei der Problembehandlung und Beheben von Problemen im Zusammenhang mit der Konnektivität, Zuverlässigkeit oder Qualität von Teams. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
 | Testen von Disaster Recovery und Höchstverfügbarkeit | Führen Sie regelmäßige hoch Verfügbarkeits-und Disaster Recovery-Tests für die Netzwerkinfrastruktur durch, um sicherzustellen, dass Sie die angegebenen Service Level Objectives (SLOs) oder Service Level Agreements (SLAs) für den Teams-Service erfüllt. | Monatlich | |
 
 ### <a name="references"></a>Referenzen
-
-[Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
@@ -394,8 +392,6 @@ Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Na
 | Füllen der Rolle "Qualitäts Champion" | End-to-End-Verantwortung für die Qualität in der Organisation Dazu gehören:<ul><li>Stellen Sie sicher, dass die QER regelmäßig durchgeführt wird.</li><li>Melden Sie sich an wichtige Stakeholder zum Qualitätsstatus.</li><li>Stellen Sie sicher, dass die Definitionen für Gebäudedaten auf dem neuesten Stand sind.</li><li>Koordinieren Sie die Behebungs Bemühungen in der gesamten Organisation, um sicherzustellen, dass die Benutzer eine qualitativ hochwertige Erfahrung mit Teams haben.</li></ul> | Täglich | |
 
 ### <a name="references"></a>Referenzen
-
-[Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 

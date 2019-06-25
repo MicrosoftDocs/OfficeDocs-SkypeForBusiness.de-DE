@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: erfahren Sie mehr über die Umweltanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277174"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203956"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Umgebungsanforderungen des Edge-Servers in Skype for Business Server
  
@@ -81,8 +81,8 @@ Die folgende Tabelle hilft Ihnen bei der Auswahl, indem Sie eine Zusammenfassung
 |:-----|:-----|:-----|:-----|:-----|
 |Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
 |Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
-|Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Yes&sup1;  <br/> |
-|Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Yes&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
 |Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja  <br/> |
    
 &sup1; Exchange Unified Messaging (um) Remotebenutzer Failover mithilfe des DNS-Lastenausgleichs erfordert Exchange 2013 oder neuer.

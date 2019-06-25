@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b3bc311fc2099f6162115d1c341d088a49c94da0
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548669"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198525"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
@@ -131,7 +131,7 @@ Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuc
 
 Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten zum Bewerten und Bereitstellen von Verbesserungsanleitungen in wichtigen Bereichen, die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben (siehe folgende Abbildung).
 
-Diagramm, das die ![während der Überprüfung der Qualitätsprüfung untersuchten Schlüsselbereiche veranschaulicht] (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Ein Diagramm, das die wichtigsten Bereiche veranschaulicht, die während einer Überprüfung der Qualitätsüberprüfung untersucht werden.")
+Diagramm zur Veranschaulichung von Bereichen, die ![während der Beurteilung der Qualität überprüft] wurden (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Ein Diagramm, das die wichtigsten Bereiche veranschaulicht, die während einer Überprüfung der Qualitätsüberprüfung untersucht werden.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
@@ -188,8 +188,6 @@ Zum Messen der aktuellen Auslastung müssen Sie das Netzwerk überwachen. Diese 
 
 > [!NOTE]
 > Beim Überwachen der Netzwerkauslastung dürfen Sie auf keinen Fall Tagesdurchschnittswerte verwenden. Diese Durchschnittswerte können Zeiten außerhalb der Kernzeiten enthalten, die das Ergebnis verzerren. Bei Durchschnittswerten sind Spitzenzeiträume möglicherweise nicht sichtbar, sodass zugrunde liegende Probleme verschleiert werden.
-
-Der [Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) hilft Ihnen, mit wenigen einfachen Schritten die Netzwerkanforderungen für Ihre Bereitstellung zu ermitteln und zu organisieren. Wenn Sie mithilfe des Tools die Details zum Netzwerk Ihrer Organisation und zur Nutzung von Cloud-VoIP zusammenstellen, können Sie eine ungefähre Berechnung der Netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung erhalten und diese Details zur Berichterstellung verwalten und exportieren und Bereiche betrachten, die Sie näher untersuchen möchten. Außerdem erhalten Sie Informationen zu den nächsten Schritten.
 
 #### <a name="quality-of-service-qos"></a>Quality of Service (QoS)
 
@@ -268,7 +266,7 @@ Zu den Aktivitäten im Zusammenhang mit der Netzwerkbereitschaft gehört eine Ne
 
 Die Netzwerkbewertung sollte für Kabelnetzwerke und WLAN-Netzwerke in allen Gebäuden, die für Cloud-VoIP-Funktionen in Microsoft Teams aktiviert werden, ausgeführt werden.
 
-Die Netzwerkbewertung kann mit Unterstützung eines Microsoft-Partners, mit Drittanbietertools oder mit dem [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) durchgeführt werden. Darüber hinaus bieten wir weitere Anleitungen zum Ausführen der Bewertung mithilfe des Microsoft Network Assessment Tools als Teil unserer Readiness-Anleitung [hier](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+Die Netzwerkbewertung kann mit Unterstützung eines Microsoft-Partners, mit Drittanbietertools oder mit dem [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) durchgeführt werden.
 
 ## <a name="plan-for-endpoint-quality"></a>Planen der Endpunktqualität
 
@@ -329,8 +327,6 @@ Wenn Sie die Geräte ausgewählt haben, nehmen Sie sie zur endgültigen Validier
 
 Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Über dieses Programm zertifizierte Geräte finden Sie im Lösungskatalog für [USB-Geräte mit Skype for Business-Zertifizierung](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Weitere Details finden Sie unter [Client und Geräte – Vorbereitungsworkshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13).
-
 ## <a name="client-updates"></a>Clientupdates
 
 Einer der wichtigen Vorteile von Microsoft Teams besteht darin, dass der Client automatisch auf dem aktuellen Stand gehalten wird. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet. Die Downloadgröße des Clients beträgt etwa 100 MB.
@@ -344,20 +340,19 @@ Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links z
 | Bereich | Details | Referenzen |
 |---|---|---|
 | Planen der Dienstverwaltung | Durchführen einer Übung zur Zuordnung der operativen Rollen <br/> Genehmigung durch die verantwortlichen Teams <br/> Vorbereitung der Rollen | [Betriebshandbuch](1-drive-value-operate-my-service.md) |
-| | Ernennen von Qualitätspionieren <br/> Vorbereitung der Qualitätspioniere| [Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) |
+| | Ernennen von Qualitätspionieren <br/> Vorbereitung der Qualitätspioniere| <br/> [Handbuch für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) |
 | | Installieren von Vorlagen für die Überprüfung der Erlebnisqualität <br/> Hochladen einer Gebäudedatei | [QERLite-Vorlagen](https://aka.ms/qertemplates) <br/> [Hochladen von Gebäudeinformationen](turning-on-and-using-call-quality-dashboard.md)|
-| Planen der Netzwerkqualität | Ausführen des Netzwerkplaners | [Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| Planen der Netzwerkqualität | Durchführen der Netzwerkplanung |  |
 | | Implementieren von QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
 | | Umgehen von Proxyservern | [Anleitungen für Proxys](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | Implementieren eines VPNs mit geteiltem Tunnel | [Anleitung für VPNs mit geteiltem Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | Implementieren eines VPNs mit geteiltem Tunnel |  |
 | | Optimieren von WLAN-Netzwerken für Echtzeitmedien | Zurateziehen von Drittanbietern |
 | | Implementieren eines lokalen Internetausgangs | [Lokaler Internetausgang](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implementieren der Netzwerkkonnektivität <br/> Überprüfen der Netzwerkverbindung | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
-| | | [Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | Ausführen einer Netzwerkbewertung | [Bewertung der Netzwerkbereitschaft](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| | Ausführen einer Netzwerkbewertung |[Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885)  |
 | Planen der Endpunktqualität | Aktualisieren der Endpunktfirewalls | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
 | | Validieren der Softwareanforderungen | [Clients für Microsoft Teams abrufen](get-clients.md) |
 | | Implementieren der WLAN-Empfehlungen für Endpunkte | Zurateziehen von Drittanbietern |
-| | Erstellen einer Zuordnung von Personas zu Geräten <br/> Bereitstellen von Geräten und Durchführen von Pilottests für die Geräte | [Client und Geräte – Vorbereitungsworkshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | Erstellen einer Zuordnung von Personas zu Geräten <br/> Bereitstellen von Geräten und Durchführen von Pilottests für die Geräte |<br/> [Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
 Nachdem Sie die Planung fertig gestellt haben, fahren Sie mit dem nächsten Schritt fort: [Vorbereiten Ihrer Umgebung für Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

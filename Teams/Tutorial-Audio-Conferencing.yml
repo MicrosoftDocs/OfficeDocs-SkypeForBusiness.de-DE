@@ -2,7 +2,7 @@
 title: Audiokonferenzen in Microsoft Teams
 metadata:
   title: Audiokonferenzen in Microsoft Teams
-  description: Interaktives Lernprogramm führt Sie durch Audiokonferenzen in Microsoft-Teams.
+  description: Das interaktive Lernprogramm führt Sie durch Audiokonferenzen in Microsoft Teams.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,16 +20,16 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 441e1166547ac17842704df47d9e992d892de87f
-  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+  ms.openlocfilehash: 287f3d6f741e71e47dfa6fea835943779d689870
+  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/23/2019
-  ms.locfileid: "32231964"
+  ms.lasthandoff: 06/24/2019
+  ms.locfileid: "35198620"
 items:
 - durationInMinutes: 1
   content: >
-    In dieser Schulung eine Einführung in Microsoft-Teams, Audiokonferenzen – die Möglichkeit zur Teilnahme an einer Besprechung Teams über einen herkömmlichen Telefon und wählen Sie aus einer Besprechung an eine Telefonnummer. Die Funktionen von Audiokonferenzen in Teams neben Anforderungen und Planungsaspekte für Teams behandelt.
+    In dieser Schulung führen wir Audiokonferenzen in Microsoft Teams ein – die Möglichkeit, von einem regulären Telefon aus an einer Teams-Besprechung teilzunehmen und sich von einer Besprechung zu einer Telefonnummer zu wählen. Zusätzlich zu den Anforderungen und Planungsüberlegungen für Teams decken wir die Funktionen von Audiokonferenzen in Teams ab.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -41,19 +41,19 @@ items:
 
     -   Sie sind für die Planung, Bereitstellung oder Verwaltung von Microsoft Teams zuständig.
 
-    -   Erwägen planen, bereitstellen oder Verwalten von Audiokonferenzen in Teams.
+    -   Erwägen der Planung, Bereitstellung oder Verwaltung von Audiokonferenzen in Teams.
 
 
     Wir behandeln die folgenden Themen:
 
-    -   Audioanforderungen Konferenzen
+    -   Anforderungen für Audiokonferenzen
 
     -   Planungsschritte
 
     -   Berichterstellung
 
 
-    Audiokonferenzen werden Besprechungen in Teams Features und Funktionen hinzugefügt. Es wird empfohlen, dass Sie [Besprechungen in Microsoft-Teams,](https://aka.ms/tr-meetings) bevor Sie dieses Lernprogramm ausführen.
+    Audiokonferenz fügt Features und Funktionen zu Besprechungen in Teams hinzu. Wir empfehlen, Besprechungen [in Microsoft Teams](https://aka.ms/tr-meetings) vor diesem Lernprogramm abzuschließen.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -62,31 +62,31 @@ items:
     Wenn Sie Fragen oder Feedback zu dieser Schulung haben:
 
 
-    -   Stellen Sie in der Kommentarabschnitt am unteren Rand der Seite "Nächste Schritte" des Lernprogramms
+    -   Posten Sie im Abschnitt "Kommentare" unten auf der Seite "nächste Schritte" dieses Lernprogramms.
 
 
     Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Audiokonferenzen in Teams
   durationInMinutes: 12
-  content: "\nMit Audiokonferenz, Teilnehmer ein normales Telefon zur Teilnahme an Besprechungen Teams verwenden, indem Sie sich mit der Besprechung über das Telefon oder mithilfe von Anwahl Funktionen in der Besprechung. Überprüfen Sie die folgenden Ressourcen, um weitere Informationen zu Audiokonferenzen:\n-   [Audiokonferenzen features](https://products.office.com/skype-for-business/audio-conferencing#Features) (geschätzte Lesebereich Zeit 1 Minute)\n-   [9 Tipps für die Besprechung mit Microsoft-Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (geschätzte Zeit für Lesen \"\\#1 - Verknüpfung einer Besprechung über Audiokonferenzen\" ist 1 Minute; Wenn Sie den gesamten Artikel lesen)\n-   [Audiokonferenzen häufig gestellte Fragen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (7 Minuten lesen geschätzt)\n-   [Telefonverbindung aus einer Besprechung, damit andere Personen sie beitreten können](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (2 Minuten lesen geschätzt)\n"
+  content: "\nBei Audiokonferenzen verwenden die Teilnehmer ein normales Telefon, um an Teams-Besprechungen teilzunehmen, indem Sie sich entweder von Ihrem Telefon aus in die Besprechung einwählen oder über die Wählfunktionen in der Besprechung verwenden. Lesen Sie die folgenden Ressourcen, um mehr über Audiokonferenzen zu erfahren:\n-   [Audiokonferenz-Features](https://products.office.com/skype-for-business/audio-conferencing#Features) (geschätzte Lesezeiten 1 Minute)\n-   [9 Tipps für Besprechungen mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (geschätzte Lesezeiten für\\#\"1 – teilnehmen an einer Besprechung per Audiokonferenz\": 1 Minute; mehr, wenn Sie den gesamten Artikel lesen)\n-   [Häufig gestellte Fragen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) zu Audiokonferenzen (geschätzte Lesezeiten 7 Minuten)\n-   [Aus einer Besprechung heraus wählen, damit andere Personen daran teilnehmen können](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (geschätzte Lesezeiten 2 Minuten)\n"
 - title: Szenario – Audiokonferenzen
   durationInMinutes: 1
-  content: "\nGarth funktioniert bei Contoso, ein Unternehmen, das mehrere Büros hat. Garth muss häufig mit Personen an anderen Standorten in Verbindung, und, da er häufig von zu Hause funktioniert oder unterwegs abgeschaltet, er ist ein großer Anhänger Teams Besprechungen. Wenn eine Einladung zur Besprechung Garth sendet, werden automatisch Informationen für Audiokonferenzen hinzugefügt. Dies ermöglicht die folgenden Szenarien:\n-   Alice Garth der Besprechung teilnehmen möchte, aber er wird auf Reisen und hat keinen Zugriff auf eine zuverlässige Netzwerk. Aus diesem Grund teilnimmt er der Besprechung mit den Koordinaten Zugriffsnummer für Einwahl aus der Einladung zur Besprechung. Während des Aktivierungsvorgangs-Einwahl verwendet sie ihre PIN authentifiziert, damit er vom System als \"Alice.\" erkannt wird\n-   Bob, der derzeit in einem Hotel ist, werden mit dem Teams auf seinem PC der Besprechung teilnimmt. Leider die Audioqualität über das Internet-Verbindung in das Hotel nicht hervorragende ist, damit Bob wählt zwar sein eigenes Telefonnummer aus der Besprechung teilnehmen über das öffentliche Telefonfestnetz (PSTN) an.\n-   Wenn die Teilnehmer der Besprechung während des Anrufs entscheiden, dass sie die Benutzer an eine andere Rufnummer hinzufügen möchten, sie können nur ausgehende Anrufe an das Telefon zu nummerieren, und schalten Sie weitere Personen an der Besprechung teilnehmen.\n-   Andere Benutzer können auch vom Client Teams auf ihren PC, Mac oder mobilen Gerät teilnehmen.\n"
-- title: Überlegungen zur Skype für Geschäftskunden
+  content: "\nGarth arbeitet bei Contoso, einem Unternehmen, das mehrere Niederlassungen hat. Garth muss häufig mit Personen in anderen Office-Standorten in Kontakt treten, und weil er oft von zu Hause aus arbeitet oder unterwegs ist, ist er ein großer Fan von Teams-Besprechungen. Wenn Garth eine Besprechungseinladung sendet, werden automatisch Informationen für Audiokonferenzen hinzugefügt. Dadurch sind die folgenden Szenarien möglich:\n-   Alice möchte an Garths Besprechung teilnehmen, aber Sie ist unterwegs und hat keinen Zugriff auf ein zuverlässiges Netzwerk. Aus diesem Grund nimmt Sie mit den Einwahl Koordinaten aus der Besprechungseinladung an der Besprechung Teil. Während des Einwahl Prozesses verwendet Sie Ihre PIN zur Authentifizierung, damit Sie vom System als \"Alice\" erkannt wird.\n-   Bob, der sich derzeit in einem Hotel befindet, tritt der Besprechung mithilfe des Teams-Clients auf seinem PC bei. Leider ist die Audioqualität über die Internetverbindung im Hotel nicht besonders gut, daher wählt Bob seine eigene Telefonnummer aus der Besprechung aus, um über das öffentlich geschaltete Telefonnetz (PSTN) teilzunehmen.\n-   Wenn die Besprechungsteilnehmer während des Anrufs feststellen, dass Benutzer unter einer anderen Telefonnummer hinzugefügt werden sollen, können Sie sich einfach an die Telefonnummer anwählen und weitere Personen in die Besprechung bringen.\n-   Andere Benutzer können auch über den Microsoft Teams-Client auf Ihrem PC, Mac oder mobilen Gerät teilnehmen.\n"
+- title: Überlegungen für Skype for Business-Kunden
   durationInMinutes: 1
-  content: "\nWenn Sie bereits Skype für Unternehmen verwenden, benötigen Sie Folgendes berücksichtigen:\n\n###<a name=\"skype-for-business-serverhomed-users\"></a>Skype für Benutzer Business Server – verwaltet\nFalls Sie Skype für Business Server verwenden, müssen Teams geplant von Benutzern, die auf Skype für Business lokal verwaltet werden nicht PSTN meeting Koordinaten enthalten. (Dies ist bei der [Problembehandlung von Audiokonferenzen und bekannte Probleme](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)dokumentiert.)\n\n###<a name=\"skype-for-business-onlinehomed-users\"></a>Skype für Benutzer Business Online – verwaltet\nWenn Benutzer sich in Skype für Business Online befinden und für Audiokonferenzen bereits aktiviert sind, werden sie automatisch für Audiokonferenzen in Teams aktiviert werden. Die PIN-Nummer, die sie verwenden, für die Authentifizierung in Besprechungen, wenn diese sich einwählen, wird für Skype für Unternehmen und Teams identisch sein.\n"
-- title: Audiokonferenzen visionierung
+  content: "\nWenn Sie Skype for Business bereits nutzen, müssen Sie Folgendes in Frage stellen:\n\n###<a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business Server – Homed users\nWenn Sie Skype for Business Server verwenden, werden von Benutzern, die in Skype for Business lokal gehostet werden, Teambesprechungen keine PSTN-Besprechungs Koordinaten aufgenommen. (Dies ist unter [Problembehandlung und bekannte Probleme](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)bei Audiokonferenzen dokumentiert.)\n\n###<a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online – Home-Nutzer\nWenn Benutzer in Skype for Business Online verwaltet werden und bereits für Audiokonferenzen aktiviert sind, werden Sie automatisch für Audiokonferenzen in Teams aktiviert. Die PIN, die Sie für die Authentifizierung in Besprechungen verwenden, wenn Sie sich einwählen, ist für Skype for Business und Teams identisch.\n"
+- title: Envision-Audiokonferenzen
   durationInMinutes: 48
-  content: "\nIhnen praktische Leitfäden wird ausführlich behandelt planen und Implementieren erfolgreich Audiokonferenzen erforderlich. Überprüfen Sie die folgenden Artikel, um diese technischen Planungsschritte zu verstehen:\n\n-   [Meine Erfolg - Audiokonferenzen definieren](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (11 Minuten lesen geschätzt)\n-   [Treffe Meine Service - Audiokonferenzen](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) (12 Minuten lesen geschätzt)\n-   [Evaluate meine Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment) (12 Minuten lesen geschätzt)\n-   [Planen der Verwaltung von Meine service](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management) (geschätzt Lesen von 5 Minuten)\n-   [Planen von meiner Benutzer-Erlebnis](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience) (geschätzt Lesen von 5 Minuten)\n-   [Dokument meinem Plan Erfolg](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan) (6 Minuten lesen geschätzt)\n"
-- title: Integrierte Audiokonferenz
+  content: "\nIn der praktischen Anleitung wird ausführlich erläutert, was erforderlich ist, um Audiokonferenzen zu planen und erfolgreich zu implementieren. Lesen Sie die folgenden Artikel, um sich mit diesen technischen Planungsschritten vertraut zu machen:\n\n-   [Meinen Erfolg definieren – Audiokonferenzen](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (geschätzte Lese Zeit 11 Minuten)\n-   [Meine Dienst Entscheidungen treffen – Audiokonferenzen](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) (geschätzte Lese Zeit 12 Minuten)\n-   [Bewerten meiner Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment) (geschätzte Lese Zeit 12 Minuten)\n-   [Planen der Dienstverwaltung](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management) (geschätzte Lesedauer 5 Minuten)\n-   [Planen der Benutzererfahrung](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience) (geschätzte Lesedauer 5 Minuten)\n-   [Meinen Erfolgsplan dokumentieren](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan) (geschätzte Lesedauer 6 Minuten)\n"
+- title: Onboard-Audiokonferenzen
   durationInMinutes: 13
-  content: "\nGenau wie envisioning, wird Ihnen praktische Leitfäden Onboarding behandelt. Überprüfen Sie die folgenden Artikel zu verstehen, wie Sie integrierte Benutzer für Audiokonferenzen:\n\n-   [Meine Service vorbereiten](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service) (6 Minuten lesen geschätzt)\n-   [Vorbereiten der Benutzer](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users) (2 Minuten lesen geschätzt)\n-   [Meine Service bereitstellen](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service) (geschätzte Lesebereich Zeit 3 Minuten)\n-   [Audiokonferenzen Problembehandlung und bekannte Probleme](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (Lesebereich geschätzte Zeit für Teams benutzerspezifischen Inhalten ist 2 Minuten)\n"
-- title: 'Übung: Konfigurieren von Audiokonferenzen'
+  content: "\nWie bei der Bereitstellung wird auch Onboarding in den praktischen Anleitungen erläutert. Lesen Sie die folgenden Artikel, um zu verstehen, wie Benutzer für Audiokonferenzen an Bord sind:\n\n-   [Meinen Dienst vorbereiten](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service) (geschätzte Lesedauer 6 Minuten)\n-   [Vorbereiten meiner Benutzer](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users) (geschätzte Lesezeiten 2 Minuten)\n-   [Bereitstellen des Diensts](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service) (geschätzte Lesedauer 3 Minuten)\n-   [Problembehandlung und bekannte Probleme bei Audiokonferenzen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (geschätzte Lesezeiten für Team spezifische Inhalte: 2 Minuten)\n"
+- title: Übung – konfigurieren von Audiokonferenzen
   durationInMinutes: 20
-  content: "\nIn dieser Übung müssen Sie die Möglichkeit, Audiokonferenzen in Teams zu testen.\nWir beschreiben hier zwar nicht die Ausführung aller Aktionen, aber wir empfehlen Szenarien, die Sie ausprobieren können.\n\n###<a name=\"requirements\"></a>Anforderungen\n-   Ein Office 365-Mandant mit entsprechenden Lizenzen für die Verwendung von Microsoft Teams\n    -   Wir empfehlen dringend, einen dedizierten Testmandanten zu verwenden.\n    -   Wenn Sie keinen Testmandanten haben, können Sie sich hier für einen Testmandanten registrieren: [Office 365 Enterprise E5-Test](https://go.microsoft.com/fwlink/p/?LinkID=698279).\n    -   Führen Sie keine Tests in Ihrer Produktionsumgebung aus. Änderungen an Einstellungen oder Richtlinien können negative Auswirkungen auf alle Benutzer haben und die Benutzerfreundlichkeit beeinträchtigen.\n-   Mindestens zwei Endpunkte\n    -   Dabei kann es sich um zwei PCs handeln, Sie können aber auch den Client auf Ihrem Mobiltelefon verwenden.\n    -   Ein Telefon, das kann an Besprechungen einwählen und zum gewählt werden\n\n###<a name=\"suggested-scenarios-to-test\"></a>Vorgeschlagene Testszenarien\n-   Aktivieren von Benutzern für Audiokonferenzen.\n-   Legen Sie andere Konferenz Bridge Zahlen für verschiedene Benutzer.\n-   Ändern der Standard-Brücke Konferenztelefonnummer für den Mandanten an.\n-   Ändern Sie Einstellungen für die Konferenz Bridge Anzahl (verschiedene Sprachen).\n-   Ändern Sie die globale Einstellungen für die Konferenzbrücken (meeting Beitritts- und Benachrichtigungen, PIN-Mindestlänge, e-Mail-Benachrichtigungen).\n-   Beachten Sie die e-Mail an Benutzer gesendet wird.\n-   Planen von Besprechungen Teams, und überprüfen Sie die Einladung zur Besprechung.\n-   Teilnehmen an einer Besprechung über ein Telefon.\n-   Eine ausgehende Verbindung aus einer Besprechung ein Telefon.\n-   Verwenden Sie Dual-Tone Multi-Frequency-Steuerelemente in einer Besprechung stumm zu schalten und ein Telefon die stummschaltung aufheben.\n"
-- title: Laufwerk-Wert
+  content: "\nIn dieser Übung haben Sie die Möglichkeit, Audiokonferenzen in Teams zu testen.\nWir beschreiben hier zwar nicht die Ausführung aller Aktionen, aber wir empfehlen Szenarien, die Sie ausprobieren können.\n\n###<a name=\"requirements\"></a>Anforderungen\n-   Ein Office 365-Mandant mit entsprechenden Lizenzen für die Verwendung von Microsoft Teams\n    -   Wir empfehlen dringend, einen dedizierten Testmandanten zu verwenden.\n    -   Wenn Sie keinen Testmandanten haben, können Sie sich hier für einen Testmandanten registrieren: [Office 365 Enterprise E5-Test](https://go.microsoft.com/fwlink/p/?LinkID=698279).\n    -   Führen Sie keine Tests in Ihrer Produktionsumgebung aus. Änderungen an Einstellungen oder Richtlinien können negative Auswirkungen auf alle Benutzer haben und die Benutzerfreundlichkeit beeinträchtigen.\n-   Mindestens zwei Endpunkte\n    -   Dabei kann es sich um zwei PCs handeln, Sie können aber auch den Client auf Ihrem Mobiltelefon verwenden.\n    -   Ein Telefon, das sich in Besprechungen einwählen und zu wählen\n\n###<a name=\"suggested-scenarios-to-test\"></a>Vorgeschlagene Testszenarien\n-   Aktivieren Sie Benutzer für Audiokonferenzen.\n-   Unterschiedliche Konferenz Brücken Nummern für verschiedene Benutzer einrichten\n-   Ändern Sie die standardmäßige Konferenz Brücken Nummer für den Mandanten.\n-   Ändern Sie die Einstellungen für die Konferenz Brücken Nummer (verschiedene Sprachen).\n-   Ändern Sie die globalen Einstellungen für Konferenz Brücken (Besprechungs-und Exit-Benachrichtigungen, PIN-Länge, e-Mail-Benachrichtigungen).\n-   Beachten Sie, dass die e-Mail an die Benutzer gesendet wird.\n-   Planen Sie Teams-Besprechungen, und überprüfen Sie die Besprechungseinladung.\n-   Teilnehmen an einer Besprechung über ein Telefon\n-   Wählen Sie von einer Besprechung zu einem Telefon aus.\n-   Verwenden Sie Dual-Tone-Multi-Frequency-Steuerungen während einer Besprechung, um ein Telefon stummzuschalten und die Stummschaltung aufzuheben.\n"
+- title: Laufwerks Wert
   durationInMinutes: 1
-  content: "\nAus der Sicht reporting haben Sie zwei Bereiche zu untersuchen:\n-   Nutzung: Wie viele Besprechungen finden statt?\n-   Qualität: Wie ist die Qualität der Besprechungen?\n\nSie sollten beide Bereiche sorgfältig überwachen:\n-   Eine geringe Nutzung bedeutet, dass die Benutzer das Produkt aus verschiedenen Gründen nicht verwenden. Sie können nur die Gründe Untersuchen von weiteren bestimmen.\n    Beispiele für mögliche Gründe: Die Benutzer haben den Eindruck, dass die Besprechungen nicht ihren Anforderungen gerecht werden, es fehlt an Informationen oder Schulungen, oder es liegen Qualitätsprobleme vor.\n-   Eine niedrige Qualität dagegen weist auf Probleme mit der Konnektivität zwischen den Benutzern und Office 365 hin. Die niedrige Qualität kann zu mangelhafter Benutzerfreundlichkeit und einer geringeren Nutzung führen. Weitere Informationen zu den Nutzungsberichten finden Sie unter [Office 365-Berichte im Admin Center – Microsoft Teams-Benutzeraktivität](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (geschätzte Lesedauer: 5 Minuten).\n\nDie Verwaltung der Qualität gehört nicht zum Umfang dieser Schulung, wird aber in den folgenden Schulungsmaterialien behandelt:\n\n-   [Verwenden des Diensts](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+  content: "\nAus Sicht des Berichtswesens haben Sie zwei Bereiche, die Sie sehen können:\n-   Nutzung: Wie viele Besprechungen finden statt?\n-   Qualität: Wie ist die Qualität der Besprechungen?\n\nSie sollten beide Bereiche sorgfältig überwachen:\n-   Eine geringe Nutzung bedeutet, dass die Benutzer das Produkt aus verschiedenen Gründen nicht verwenden. Sie können die Ursachen nur ermitteln, indem Sie weiter untersuchen.\n    Beispiele für mögliche Gründe: Die Benutzer haben den Eindruck, dass die Besprechungen nicht ihren Anforderungen gerecht werden, es fehlt an Informationen oder Schulungen, oder es liegen Qualitätsprobleme vor.\n-   Eine niedrige Qualität dagegen weist auf Probleme mit der Konnektivität zwischen den Benutzern und Office 365 hin. Die niedrige Qualität kann zu mangelhafter Benutzerfreundlichkeit und einer geringeren Nutzung führen. Weitere Informationen zu den Nutzungsberichten finden Sie unter [Office 365-Berichte im Admin Center – Microsoft Teams-Benutzeraktivität](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (geschätzte Lesedauer: 5 Minuten).\n\nDie Verwaltung der Qualität gehört nicht zum Umfang dieser Schulung, wird aber in den folgenden Schulungsmaterialien behandelt:\n\n-   [Verwenden des Diensts](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
 - title: Nächste Schritte
   durationInMinutes: 1
   content: >-
@@ -94,7 +94,7 @@ items:
 
     -   Audiokonferenzen in Teams
 
-    -   Anforderungen für Audiokonferenzen
+    -   Voraussetzungen für Audiokonferenzen
 
     -   Berichterstellung
 
@@ -102,15 +102,13 @@ items:
     ### <a name="next-steps"></a>Nächste Schritte
 
 
-    1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.
+    1.  Beginnen Sie mit der Verwendung von Audiokonferenzen in Teams.
 
-    2.  Verwenden von Audiokonferenzen in Teams zu starten.
-
-    3.  Senden Sie uns Feedback:
+    2.  Senden Sie uns Feedback:
         - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
         - Um Produktfeedback zu Microsoft Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zur [Microsoft Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.
-    4.  Bleiben Sie auf dem aktuellen Stand:
-        - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).
-        - Lesen Sie die [Teams Roadmap](https://aka.ms/O365Roadmap).
-        - Informationen Sie zu den neuesten veröffentlichten Funktionen [Anmerkungen zu dieser Version](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).
+    3.  Bleiben Sie auf dem laufenden:
+        - Folgen Sie [](https://aka.ms/teamsblog)dem Teamblog.
+        - Lesen Sie die [Roadmap für Teams](https://aka.ms/O365Roadmap).
+        - Informieren Sie sich über die neuesten veröffentlichten Features in den [Versions](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)hinweisen.
+    4.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).
