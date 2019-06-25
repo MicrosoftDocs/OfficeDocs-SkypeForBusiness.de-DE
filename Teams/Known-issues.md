@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115954"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131432"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -30,7 +30,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|    
 |:-----|:-----|:-----|:-----|
-|Ressourcenkonto falsch konfigurierte Abteilung <br/> |Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Es gibt eine Lösung, um dieses Problem zu beheben. <br/> |Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> |8.5.2019 <br/> |
+|Ressourcenkonto falsch konfigurierte Abteilung <br/> |Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Es gibt eine Lösung, um dieses Problem zu beheben. <br/><br/> Bei Ressourcenkonten, die mit New-CsHybridApplicationEndpoint in Verbindung mit Skype for Business Server konfiguriert wurden, ist der Abteilungsparameter nicht ordnungsgemäß eingestellt. Dies führt dazu, dass die Erstellung des Ressourcenkontos in Skype for Business Online fehlschlägt. In diesem Fall müssen Sie den Abteilungsnamen in Active Directory konfigurieren, bevor Sie die Synchronisierung mit der Online-Anwendung vornehmen.|Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> |8.5.2019 <br/> |
 
 
 
@@ -271,7 +271,11 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Fehler beim Herunterladen der Datei <br/> |Wenn Sie den Microsoft Teams-Desktopclient verwenden und versuchen, eine Datei herunterzuladen, deren Dateipfad ein Apostroph enthält, wird ein Fehler "Die Datei wurde nicht herunterladen" ausgelöst. <br/> |Laden Sie die Datei über den Webclient oder SharePoint Online herunter. <br/> |10.5.2019  <br/> |
+|Fehler beim Herunterladen der Datei <br/> |Wenn Sie den Microsoft Teams-Desktopclient verwenden und versuchen, eine Datei herunterzuladen, deren Dateipfad ein Apostroph enthält, wird ein Fehler "Die Datei wurde nicht herunterladen" ausgelöst. <br/> |Laden Sie die Datei über den Webclient oder SharePoint Online herunter. <br/> |10.05.2019  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|OneNote-Datei kann nicht hochgeladen oder heruntergeladen werden <br/> |Das Hochladen oder Herunterladen einer OneNote-Datei oder eines Notizbuchs schlägt bei Verwendung von Microsoft Teams fehl. <br/> |Herunterladen oder Hochladen der Datei direkt in SharePoint Online <br/> |07.05.2019  <br/> |
 
 ## <a name="teams"></a>Teams
 
