@@ -10,12 +10,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d62cef3870e7134a628e0d5cedf20bb16200a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839543"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -133,7 +133,7 @@ Ein *Virus* ist eine Codeeinheit, deren Zweck darin besteht, zusätzliche, ähnl
 
 Microsoft lync Server 2013 hat das Potenzial, Informationen über ein öffentliches Netzwerk offenzulegen, die möglicherweise mit einer Person verknüpft werden können. Bei diesen Informationen kann es sich um zwei Kategorien von Angaben handeln:
 
-  - **Erweiterte Anwesenheitsdaten ** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer für die Freigabe oder nicht Freigabe über einen Link zu einem Föderationspartner oder mit Kontakten in einer Organisation auswählen kann. Diese Daten werden nicht an Benutzer in einem öffentlichen IM-Netzwerk weitergegeben. Client-Richtlinien und andere Client-Konfigurationen können dem Systemadministrator eine gewisse Kontrolle verschaffen. In lync Server 2013 kann der Erweiterte Anwesenheitsdaten Schutzmodus für einen einzelnen Benutzer so konfiguriert werden, dass lync-Benutzer nicht in der Kontaktliste des Benutzers die Anwesenheitsinformationen des Benutzers sehen können. Der Datenschutzmodus für erhöhte Anwesenheit verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Ausführliche Informationen finden Sie unter [Neuerungen für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md) in der Dokumentation "erste Schritte" und [Konfigurieren des Datenschutzmodus für erhöhte Anwesenheit in lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) in der Bereitstellungsdokumentation.
+  - **Erweiterte Anwesenheitsdaten** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer für die Freigabe oder nicht Freigabe über einen Link zu einem Föderationspartner oder mit Kontakten in einer Organisation auswählen kann. Diese Daten werden nicht an Benutzer in einem öffentlichen IM-Netzwerk weitergegeben. Client-Richtlinien und andere Client-Konfigurationen können dem Systemadministrator eine gewisse Kontrolle verschaffen. In lync Server 2013 kann der Erweiterte Anwesenheitsdaten Schutzmodus für einen einzelnen Benutzer so konfiguriert werden, dass lync-Benutzer nicht in der Kontaktliste des Benutzers die Anwesenheitsinformationen des Benutzers sehen können. Der Datenschutzmodus für erhöhte Anwesenheit verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Ausführliche Informationen finden Sie unter [Neuerungen für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md) in der Dokumentation "erste Schritte" und [Konfigurieren des Datenschutzmodus für erhöhte Anwesenheit in lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) in der Bereitstellungsdokumentation.
 
   - **Obligatorische Daten** Obligatorische Daten sind für den ordnungsgemäßen Betrieb des Servers oder des Clients erforderlich und unterliegen nicht der Kontrolle durch den Client oder die System Administration. Es handelt sich um Informationen, die auf Server- oder Netzwerkebene für das Routing, die Statuspflege und die Signalübermittlung erforderlich sind.
 
