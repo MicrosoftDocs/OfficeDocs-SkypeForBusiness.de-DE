@@ -1,9 +1,9 @@
 ---
-title: Verwenden der Inlineübersetzung von Nachrichten in Microsoft Teams
+title: Aktivieren der Inline Nachrichtenübersetzung in Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,33 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58e6fb04dd015e939125b75d604fe9692a32c0e2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222325"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222069"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="f67b0-103">Verwenden der Inlineübersetzung von Nachrichten in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f67b0-103">Use inline message translation in Microsoft Teams</span></span> 
+<a name="turn-on-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="e5aaf-103">Aktivieren der Inline Nachrichtenübersetzung in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e5aaf-103">Turn on inline message translation in Microsoft Teams</span></span> 
 =================================================
 
-<span data-ttu-id="f67b0-104">Die Inlineübersetzung von Nachrichten ist eine neue Microsoft Teams-Funktion, mit der Benutzer Microsoft Teams-Nachrichten automatisch in die [Sprache](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) übersetzen lassen können, die in ihren persönlichen Spracheinstellungen für Office 365 festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="f67b0-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
+<span data-ttu-id="e5aaf-104">Die Inlineübersetzung von Nachrichten ist eine neue Microsoft Teams-Funktion, mit der Benutzer Microsoft Teams-Nachrichten automatisch in die [Sprache](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) übersetzen lassen können, die in ihren persönlichen Spracheinstellungen für Office 365 festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
 
-<span data-ttu-id="f67b0-105">Die Inlineübersetzung von Nachrichten wird standardmäßig für Ihre Organisation eingeführt.</span><span class="sxs-lookup"><span data-stu-id="f67b0-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="f67b0-106">Wenn Sie Benutzern die Verwendung dieses Features innerhalb des Teams Clients zulassen möchten, müssen Sie diese Einstellung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="f67b0-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on.</span></span>
-
-> [!NOTE]
-><span data-ttu-id="f67b0-107">Einführung wird von Office 365-Abonnements in unserer Community-Cloud der Office 365 Government und Office 365 Deutschland Umgebungen ausgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="f67b0-107">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span>
-
-## <a name="enable-by-using-powershell"></a><span data-ttu-id="f67b0-108">Aktivieren mithilfe von PowerShell</span><span class="sxs-lookup"><span data-stu-id="f67b0-108">Enable by using PowerShell</span></span>
-
-<span data-ttu-id="f67b0-109">Sie können das Feature zum Inline-Nachricht Übersetzung mithilfe der Gruppenrichtlinien Messaging aktivieren.</span><span class="sxs-lookup"><span data-stu-id="f67b0-109">You can turn on the inline message translation feature by using the Messaging Policy.</span></span>
-
-1. <span data-ttu-id="f67b0-110">Aktivieren Sie die Richtlinie mit dem Cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="f67b0-110">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span>
-2. <span data-ttu-id="f67b0-111">Die Richtlinie hat ein paar Minuten anwenden.</span><span class="sxs-lookup"><span data-stu-id="f67b0-111">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="f67b0-112">Benutzer müssen sich abmelden und wieder anmelden, um Teams.</span><span class="sxs-lookup"><span data-stu-id="f67b0-112">Users might need to sign out and sign back in to Teams.</span></span>
-
-## <a name="enable-by-using-the-microsoft-teams-admin-center"></a><span data-ttu-id="f67b0-113">Aktivieren Sie mithilfe der Verwaltungskonsole von Microsoft-Teams</span><span class="sxs-lookup"><span data-stu-id="f67b0-113">Enable by using the Microsoft Teams admin center</span></span>
-
-<span data-ttu-id="f67b0-114">Wählen Sie in der **Microsoft-Teams, Administrationscenter**in der linken Leiste **Messaging Policies** , klicken Sie dann entweder eine neue Richtlinie erstellen oder Bearbeiten einer vorhandenen Richtlinie und legen Sie die Option **Benutzer zulassen, um Nachrichten zu übersetzen** , **Klicken Sie auf**.</span><span class="sxs-lookup"><span data-stu-id="f67b0-114">In the **Microsoft Teams admin center**, select **Messaging Policies** from the left-hand bar, then either create a new policy or edit an existing policy, and set the **Allow users to translate messages** option to **On**.</span></span>
+<span data-ttu-id="e5aaf-105">Die Inlineübersetzung von Nachrichten wird standardmäßig für Ihre Organisation eingeführt.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="e5aaf-106">Wenn Sie zulassen möchten, dass Benutzer dieses Feature innerhalb des Teams-Clients verwenden können, müssen Sie diese Einstellung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on.</span></span>
 
 > [!NOTE]
-><span data-ttu-id="f67b0-115">Übersetzung wird vom Dienst erfolgt, und an den Client Layoutelemente ohne Auswirkung auf die Inhalte in die Compliance-Datensätze erfasst übermittelt.</span><span class="sxs-lookup"><span data-stu-id="f67b0-115">Translation is done by the service and delivered to the client with no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="f67b0-116">Weitere Informationen zur Übersetzung hierzu finden Sie unter [Was ist Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span><span class="sxs-lookup"><span data-stu-id="f67b0-116">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>
+><span data-ttu-id="e5aaf-107">Dieser Rollout ist von Office 365-Abonnements in unseren Office 365 Government Community Cloud-und Office 365 Germany-Umgebungen ausgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-107">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span>
+
+## <a name="use-powershell-to-turn-on-inline-message-translation"></a><span data-ttu-id="e5aaf-108">Verwenden von PowerShell zum Aktivieren der Inline Nachrichtenübersetzung</span><span class="sxs-lookup"><span data-stu-id="e5aaf-108">Use PowerShell to turn on inline message translation</span></span>
+
+<span data-ttu-id="e5aaf-109">Sie können die Nachrichten Richtlinie verwenden, um die Übersetzung der Inline Nachricht zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-109">You can use the messaging policy to turn on the inline message translation.</span></span>
+
+<span data-ttu-id="e5aaf-110">Aktivieren Sie die Richtlinie mit dem Cmdlet " [Satz-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ".</span><span class="sxs-lookup"><span data-stu-id="e5aaf-110">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="e5aaf-111">Die Anwendung der Richtlinie dauert einige Minuten.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-111">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="e5aaf-112">Benutzer müssen sich möglicherweise abmelden und sich wieder bei Teams anmelden.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-112">Users might need to sign out and sign back in to Teams.</span></span>
+
+## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a><span data-ttu-id="e5aaf-113">Verwenden des Microsoft Teams admin Centers zum Aktivieren der Inline Nachrichtenübersetzung</span><span class="sxs-lookup"><span data-stu-id="e5aaf-113">Use the Microsoft Teams admin center to turn on inline message translation</span></span>
+
+<span data-ttu-id="e5aaf-114">Wählen Sie im **Microsoft Teams Admin Center**im linken Navigationsbereich **Messaging Richtlinien** aus, und erstellen Sie dann entweder eine neue Richtlinie oder bearbeiten Sie eine vorhandene Richtlinie, und legen Sie die Option \*\*\*\* **Benutzer können Nachrichten übersetzen** auf ein.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-114">In the **Microsoft Teams admin center**, select **Messaging Policies** from the left navigation, then either create a new policy or edit an existing policy, and set the **Allow users to translate messages** option to **On**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="e5aaf-115">Der Dienst führt die Übersetzung durch und übergibt ihn an den Client, ohne dass dies Auswirkungen auf die in den Konformitätsdaten Sätzen erfassten Inhalte hat.</span><span class="sxs-lookup"><span data-stu-id="e5aaf-115">The service does the translation and delivers it to the client with no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="e5aaf-116">Weitere Informationen zur Übersetzung finden Sie unter [Was ist Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span><span class="sxs-lookup"><span data-stu-id="e5aaf-116">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>
