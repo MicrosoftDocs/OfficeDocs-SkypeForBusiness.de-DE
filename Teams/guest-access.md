@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748388"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221668"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
-
-## <a name="guest-access-overview"></a>Übersicht Über Gastzugriff
 
 Bei Gastzugriff handelt es sich um eine der meistgewünschten Funktionen. So können Sie sich über unsere Fortschritte beim Gastzugriff auf dem Laufenden halten und uns Ihre Meinung sagen:
 
@@ -34,6 +32,8 @@ Bei Gastzugriff handelt es sich um eine der meistgewünschten Funktionen. So kö
 - Informationen zu geplanten neuen oder aktualisierten Funktionen finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap).
 - Teilen Sie uns auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website Ihre Wünsche mit.
 - Berichten Sie unten im Abschnitt „Kommentare“ über Ihre Erfahrungen.
+
+## <a name="guest-access-overview"></a>Übersicht Über Gastzugriff
 
 Gastzugriff ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf vorhandene Teams und Kanäle auf einem oder mehreren Ihrer Mandanten gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams.
 
@@ -59,7 +59,7 @@ Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freige
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Weitere Informationen
-    
+
 [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Gastzugriff in Office 365-Gruppen](https://support.office.com/de-DE/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 

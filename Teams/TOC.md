@@ -20,13 +20,13 @@
 ## [Planen der Bereitstellung](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Übersicht über Teams und Kanäle](teams-channels-overview.md)
 ## [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)
+## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
-## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
-## [Anwesenheit](presence-admins.md)
+## [Anwesenheit in Microsoft Teams](presence-admins.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 
 
@@ -39,17 +39,17 @@
 ### [Hinzufügen von Bots für persönliche Chats, Gruppen-Chats und Kanäle in Teams](add-bots.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
-### [Veröffentlichen von Apps im App-Katalog eines Teams-Mandanten](tenant-apps-catalog-teams.md)
+### [Veröffentlichen von Apps im App-Katalog eines Microsoft Teams-Mandanten](tenant-apps-catalog-teams.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 ## Gastzugriff
-### [Übersicht](guest-access.md)
+### [Informationen zum Gastzugriff](guest-access.md)
 ### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 ### [Gastfunktionalität](guest-experience.md)
 ### [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)
-### [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md)
+### [Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams](set-up-guests.md)
 ### [Verwalten des Gastzugriffs in Microsoft Teams](manage-guests.md)
 ### [Hinzufügen eines Gasts zu einem Team](add-guests.md)
 ### [Anzeigen von Gastbenutzern in einem Team](view-guests.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133860"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221983"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
@@ -29,12 +29,12 @@ Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken S
 
 
 
-Wenn Sie noch nicht mit Teams vertraut sind und mehr erfahren möchten, schauen Sie sich unser kurzes Video „Willkommen bei Teams“ an.
+Wenn Sie noch nicht mit Teams vertraut sind und mehr erfahren möchten, schauen Sie sich unser kurzes Video „Willkommen bei Teams“ an (55 Sekunden).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
 
-## <a name="teams-architecture"></a>Teams-Architektur
+## <a name="teams-architecture"></a>Microsoft Teams-Architektur
 
 Microsoft Teams basiert auf Office 365-Gruppen, Microsoft Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. 
 
@@ -66,7 +66,7 @@ Als Administrator können Sie Teams über das Microsoft Teams Admin Center verwa
 Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) und in der [Microsoft Teams-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams) nach, um sich über die Neuigkeiten für Microsoft Teams und alle anderen Office 365-Produkte und -Dienste in Ihrer Organisation auf dem Laufenden zu halten. Sie erhalten Ankündigungen zu neuen und aktualisierten Funktionen, geplanten Änderungen und Problemen, damit Sie stets informiert und vorbereitet sind. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Upgrade von Skype for Business auf Microsoft Teams
-Teams ist der primäre Client für intelligente Kommunikation in Office 365 und ersetzt in Zukunft Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](http://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
+Teams ist der primäre Client für intelligente Kommunikation in Office 365 und ersetzt in Zukunft Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](https://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
 
 Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen hierzu finden Sie unter [Upgrade to Teams](journey-skypeforbusiness-teams.md) (Upgrade zu Teams ausführen).
 

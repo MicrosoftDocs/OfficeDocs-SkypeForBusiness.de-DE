@@ -3,7 +3,7 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131432"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222077"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -216,6 +216,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Layoutunterschiede im mobilen Microsoft Teams-Client  <br/> |Im mobilen Client werden Teams in alphabetischer Reihenfolge angezeigt, und die Kanäle können nicht reduziert werden.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Probleme, die auftreten können, wenn Sie iOS 13 Beta verwenden  <br/> |1. Microsoft Teams-Benachrichtigungen werden nicht gesendet.  Dazu gehören Chats, Erwähnungen und Anrufe.  2. Die Dateivorschau funktioniert nicht mit dem Beta-Build.  <br/> |Für dieses Problem ist zurzeit keine Umgehung verfügbar.  Wir arbeiten mit Apple-Entwicklern gemeinsam an Lösungen für diese Probleme.  <br/> | 25.6.19  <br/>|
 
 
 ## <a name="people"></a>Kontakte
