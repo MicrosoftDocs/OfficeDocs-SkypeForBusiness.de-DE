@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245691"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221209"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboarding von Early Adopters von Microsoft Teams
 
@@ -64,7 +64,7 @@ Dies ist die einfachste Möglichkeit zum Installieren der Windows-Desktopclients
 3. Starten Sie Teams nach Abschluss der Installation.
 
 > [!NOTE]
-> Später, wenn Sie sich Gedanken über eine formellere Massenbereitstellung von Teams in der gesamten Organisation machen, sollten Sie das [Teams-Windows-Desktopclient](http://aka.ms/teams-clients)-Video ansehen, in dem Sie Details zu Planung und Bereitstellung erfahren. 
+> Später, wenn Sie sich Gedanken über eine formellere Massenbereitstellung von Teams in der gesamten Organisation machen, sollten Sie das [Teams-Windows-Desktopclient](https://aka.ms/teams-clients)-Video ansehen, in dem Sie Details zu Planung und Bereitstellung erfahren. 
 
 #### <a name="teams-for-mac"></a>Teams für Mac 
 Dies ist die einfachste Möglichkeit zum Installieren der Mac-Desktopclients:

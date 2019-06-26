@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen (Federation) konfigurieren, damit Benutzer aus diesen Domänen an Teams teilnehmen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133923"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221273"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 ======================================================
@@ -67,13 +67,13 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Features für den 
 | @Mentions werden unterstützt | Nein | Ja |
 | Private Anrufe tätigen | Ja | Ja |
 | IP-Video zulassen | Ja | Ja |
-| Bildschirmfreigabe Modus | Ja | Ja |
+| Bildschirmfreigabe Modus | Nein | Ja |
 | Sofortbesprechung zulassen | Nein | Ja |
-| Bearbeiten von gesendeten Nachrichten | Ja | Ja |
-| Kann gesendete Nachrichten löschen | Ja | Ja |
-| Verwenden von Giphy in einer Unterhaltung | Ja | Ja |
-| Verwenden von Memen in einer Unterhaltung | Ja | Ja |
-| Verwenden von Aufklebern in einer Unterhaltung | Ja | Ja |
+| Bearbeiten von gesendeten Nachrichten | Nein | Ja |
+| Kann gesendete Nachrichten löschen | Nein | Ja |
+| Verwenden von Giphy in einer Unterhaltung | Nein | Ja |
+| Verwenden von Memen in einer Unterhaltung | Nein | Ja |
+| Verwenden von Aufklebern in einer Unterhaltung | Nein | Ja |
 ||||
 
 <sup>1</sup> vorausgesetzt, dass der Benutzer als Gast hinzugefügt wurde und als Gast für den Gast Mandanten angemeldet ist.<br>

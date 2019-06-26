@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Skype for Business-oder Teams-Implementierung erläutert.
-ms.openlocfilehash: 98b4ebb61f4f287b94967f0cfd80b6f0ca9caeaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6536ee07ef64119d3529c7b9f279df3a7bbbdaed
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306550"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221387"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
  

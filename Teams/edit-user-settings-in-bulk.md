@@ -15,12 +15,12 @@ f1keywords:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245070"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221356"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Bearbeiten von Microsoft Teams-Benutzereinstellungen in Massen
 
@@ -33,7 +33,7 @@ Verwenden Sie das Microsoft Teams Admin Center, um die Einstellungen für mehrer
 1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams Admin Center die Option **Benutzer**aus.
 2. Suchen Sie nach den Benutzern, die Sie bearbeiten oder filtern möchten, um die Benutzer anzuzeigen, die Sie bearbeiten möchten.
 3. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Option Benutzer aus, indem Sie eine der folgenden Aktionen ausführen:
-    - Wählen Sie Benutzer einzeln aus. Neben jedem ausgewählten Benutzer wird ein **&#x2713;** angezeigt. Wenn Sie mehr als 20 Benutzer auswählen, werden Sie nicht blockiert, aber denken Sie daran, dass der Vorgang länger dauern wird, wenn Sie mehr Benutzer auswählen.
+    - Wählen Sie Benutzer einzeln aus. Neben jedem ausgewählten Benutzer wird ein **&#x2713;** angezeigt. Wenn Sie mehr als 20 Benutzer auswählen, werden Sie nicht blockiert, aber denken Sie daran, dass je mehr Benutzer Sie auswählen, desto länger dauert die Ausführung des Vorgangs.
 
         ![Screenshot der Seite "Benutzer" mit Benutzerauswahl](media/bulk-edit-user-settings-select-users.png)
 

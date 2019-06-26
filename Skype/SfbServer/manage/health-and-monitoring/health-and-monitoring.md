@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Zusammenfassung: erfahren Sie mehr über Überwachungs-und Integritäts Konfigurationsaufgaben in Skype for Business Server.'
-ms.openlocfilehash: 7328168a1a653586253766fb3fdae3156c9ea6b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305752"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221937"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Verwalten von Status und Überwachung in Skype for Business Server
 

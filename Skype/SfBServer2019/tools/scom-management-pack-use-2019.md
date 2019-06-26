@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Skype for Business Server 2019-Infrastruktur für die Zusammenarbeit mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: 5b33bae3f9ff3d71ec9cf5f33f5332afe58c6258
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288247"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221883"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2019 mithilfe des SCOM-Management Packs
  

@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933780"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221953"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -44,7 +44,7 @@ In der folgenden Tabelle werden die Abschnitte der Team Erfahrung, die migriert 
 
 |Abschnitt der Teams im Microsoft 365 Admin Center  |Einstellungsname (Mandantenebene)  |Microsoft Teams Admin Center-Richtlinie   |Ebene: Mandant oder Benutzer   |
 |---------|---------|---------|---------|
-|Allgemein     |Organisations-Chat im persönlichen Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mieter       |
+|Allgemein     |Organigramm im persönlichen Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mieter       |
 |Allgemein     |Verwenden von Skype for Business für Empfänger, die keine Teams haben         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mieter         |
 |E-Mail-Integration     |Zulassen, dass Benutzer e-Mails an Kanäle senden         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mieter         |
 |E-Mail-Integration     |Liste der Absender zulassen         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Mieter         |

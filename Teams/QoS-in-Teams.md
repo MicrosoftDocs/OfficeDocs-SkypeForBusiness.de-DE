@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548884"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222038"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -47,16 +47,13 @@ In den meisten Fällen ist das Netzwerk, das Ihr Unternehmen mit der Cloud verbi
 
 ## <a name="verify-your-network-is-ready"></a>Überprüfen, ob Ihr Netzwerk bereit ist
 
-Wenn Sie eine QoS-Implementierung in Betracht ziehen, sollten Sie bereits ihre Bandbreitenanforderungen und andere [Netzwerkanforderungen](prepare-network.md)festgelegt haben. Die Bandbreiten Berechnungen für Microsoft Teams sind komplex, und um dies zu unterstützen, wurde ein Rechner erstellt. Um auf den Rechner zuzugreifen, wechseln Sie in myadvisor zu [Network Planner](https://aka.ms/bwcalc/) .
+Wenn Sie eine QoS-Implementierung in Betracht ziehen, sollten Sie bereits ihre Bandbreitenanforderungen und andere [Netzwerkanforderungen](prepare-network.md)festgelegt haben. 
   
   Verkehrsüberlastung in einem Netzwerk beeinträchtigt die Medienqualität erheblich. Mangelnde Bandbreite führt zu Leistungseinbußen und einer schlechten Benutzererfahrung. Wenn die Akzeptanz und Nutzung von Teams wächst, verwenden Sie Berichterstellung, [anrufanalyse und Dashboard für die Anrufqualität](difference-between-call-analytics-and-call-quality-dashboard.md) , um Probleme zu erkennen und Anpassungen mithilfe von QoS und selektiver Bandbreiten Erweiterungen vorzunehmen.
 
 ### <a name="vpn-considerations"></a>VPN-Überlegungen
 
 QoS funktioniert nur erwartungsgemäß, wenn Sie für alle Verknüpfungen zwischen Anrufern implementiert werden. Wenn Sie QoS in einem internen Netzwerk verwenden und sich ein Benutzer von einem Remotestandort aus anmeldet, können Sie nur in Ihrem internen, verwalteten Netzwerk priorisiert werden. Obwohl Remotestandorte eine verwaltete Verbindung erhalten können, indem Sie ein VPN (virtuelles privates Netzwerk) implementieren, fügt ein VPN inhärent einen Paket Overhead hinzu und verursacht Verzögerungen im Echtzeitverkehr. Wir empfehlen, dass Sie den Echt Zeit Kommunikationsverkehr über ein VPN vermeiden.
-
-> [!NOTE]
-> VPN-verbundene Remotebenutzer sollten Split-Tunneling implementieren, um die Qualität der Benutzerfreundlichkeit zu maximieren. Das Dokument [Deploy-Guidance-VPN-Split-Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) steht in myadvisor zur Verfügung und enthält weitere Informationen.
 
 In einer globalen Organisation mit verwalteten Links, die sich über Kontinente erstrecken, empfehlen wir QoS, da die Bandbreite für diese Links im Vergleich zum LAN begrenzt ist.
 
@@ -183,9 +180,9 @@ Netzwerk Monitor ist ein Tool, das Sie [von Microsoft herunterladen](https://www
 
 3. Beenden Sie die Aufzeichnung.
 
-4. Verwenden Sie im Feld **Anzeige Filter** die Quell-IP-Adresse des Computers, der den Anruf getätigt hat, und verfeinern Sie den Filter, indem Sie den DSCP-Wert 46 (Hex 0xb8) als Suchkriterien definieren, wie im folgenden Beispiel gezeigt:
+4. Verwenden Sie im Feld **Anzeige Filter** die Quell-IP-Adresse des Computers, der den Anruf getätigt hat, und verfeinern Sie den Filter, indem Sie den DSCP-Wert 46 (Hex 0x2E) als Suchkriterien definieren, wie im folgenden Beispiel gezeigt:
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source = = "192.168.137.201" und IPv4. DifferentiatedServicesField = = 0x2E
 
     ![Screenshot Filter im Dialogfeld "Anzeigefilter] " (media/Qos-in-Teams-Image4.png "Das Dialogfeld \"Anzeigefilter\" im Netzwerk Monitor mit den Filtern, die angewendet werden sollen.")
 

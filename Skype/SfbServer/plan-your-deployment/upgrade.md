@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Zusammenfassung: informieren Sie sich über die Aspekte, die Sie bei der Planung eines Upgrades auf Skype for Business Server 2015 berücksichtigen sollten. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server 2015 aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296784"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222131"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planen des Upgrades auf Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ Stellen Sie einen Plan auf, der Folgendes umfasst:
 1. Verständnis für Ihre aktuelle Topologie.
     
     > [!NOTE]
-    > Stellen Sie sicher, dass Sie das LRS-Verwaltungstool für lync Server 2013 deinstallieren, bevor Sie ein direktes Upgrade ausführen. Das LRS-Verwaltungs Tool für lync Server 2013 kann nicht mit Skype for Business Server 2015 koexistieren. Installieren Sie nach dem Ausführen des direkten Upgrades das neue LRS-Verwaltungstool unter [Microsoft lync Room System administrative Web Portal für Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > Stellen Sie sicher, dass Sie das LRS-Verwaltungstool für lync Server 2013 deinstallieren, bevor Sie ein direktes Upgrade ausführen. Das LRS-Verwaltungs Tool für lync Server 2013 kann nicht mit Skype for Business Server 2015 koexistieren. Installieren Sie nach dem Ausführen des direkten Upgrades das neue LRS-Verwaltungstool. Weitere Informationen finden Sie unter [Microsoft lync Room System administrative Web Portal für Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) .
   
 2. Der primäre Pool für das Upgrade.
     
@@ -148,7 +148,7 @@ Zur Verwendung dieser Methode verschieben Sie die Benutzer in einen anderen Pool
    - Verwenden Sie Start-CSWindowsService für Server, die keine Front-End-Server sind.
     
 > [!NOTE]
->  Wenn Sie kein Upgrade für die bereits vorhandenen Datenbanken zur Archivierung und Überwachung durchführen möchten, entfernen Sie die Abhängigkeit, bevor Sie ein Upgrade der Topologie durchführen. Wenn Sie neue Datenbanken zur Archivierung und Überwachung erstellen möchten, können Sie einen neuen SQL-Speicher erstellen und ihn dem Pool zuweisen. Die Schritte zur Vorgehensweise finden Sie im Thema[Upgrade auf Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > in-Place-Upgrade unterstützt keine Hochverfügbarkeit oder Disaster Recovery für Skype for Business Server. Um zu verhindern, dass die Dienste der Benutzer unterbrechen, verwenden Sie die [Methode zum Verschieben von Benutzern (keine Ausfallzeit des Benutzers)](upgrade.md#bkmk_MoveUsersMethod) , um das Upgrade durchzuführen. > während des Upgradevorgangs wird das XDS-Replikat im lokalen freigegebenen Ordner auf dem Datenträger mit dem größten freien Speicherplatz gespeichert. Wird dieses Laufwerk später entfernt, treten unter Umständen Probleme auf, zum Beispiel starten Dienste möglicherweise nicht.
+>  Wenn Sie kein Upgrade für die bereits vorhandenen Datenbanken zur Archivierung und Überwachung durchführen möchten, entfernen Sie die Abhängigkeit, bevor Sie ein Upgrade der Topologie durchführen. Wenn Sie neue Datenbanken zur Archivierung und Überwachung erstellen möchten, können Sie einen neuen SQL-Speicher erstellen und ihn dem Pool zuweisen. Die Schritte zur Vorgehensweise finden Sie im Thema[Upgrade auf Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > in-Place-Upgrade unterstützt keine Hochverfügbarkeit oder Disaster Recovery für Skype for Business Server. Um zu verhindern, dass die Dienste der Benutzer unterbrechen, verwenden Sie die [Methode zum Verschieben von Benutzern (keine Ausfallzeit des Benutzers)](upgrade.md#bkmk_MoveUsersMethod) , um ein Upgrade durchzuführen. #a0 während des Upgradevorgangs wird das XDS-Replikat im lokalen freigegebenen Ordner auf dem Laufwerk mit dem meisten freien Speicherplatz abgelegt. Wird dieses Laufwerk später entfernt, treten unter Umständen Probleme auf, zum Beispiel starten Dienste möglicherweise nicht.
   
 ### <a name="upgrade-order"></a>Upgrade-Reihenfolge
 

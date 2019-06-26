@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informieren Sie sich über die Planungsüberlegungen für Telefonsysteme in Office 365 (Cloud PBX) mit lokalen PSTN-Konnektivität.
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287020"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221043"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen des Telefonsystems in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server
 
@@ -110,7 +110,7 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
 
     Wenn Sie lync Server 2013 verwenden, finden Sie weitere Informationen unter [lync Server 2013 Hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Empfohlen) Active Directory-Verbunddienste (AD FS)** Wir empfehlen die Bereitstellung von AD FS zur Unterstützung der einmaligen Registrierung. Weitere Informationen finden Sie unter [Active Directory-Verbunddienste (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **Empfohlen Active Directory-Verbunddienste (AD FS)** Wir empfehlen die Bereitstellung von ADFS zur Unterstützung einmaliger Anmeldung. Weitere Informationen finden Sie unter [Active Directory-Verbunddienste (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
 Informationen zum Bereitstellen von Telefonsystemen in Office 365 finden Sie unter [Aktivieren von Benutzern für Telefonsysteme in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server](enable-users-for-phone-system.md).
 

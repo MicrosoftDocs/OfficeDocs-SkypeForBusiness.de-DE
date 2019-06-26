@@ -3,7 +3,7 @@ title: Prüfliste für den Microsoft Teams-Gastzugriff
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131417"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221660"
 ---
 <a name="teams-guest-access-checklist"></a>Checkliste für Teams-Gastzugriff
 ==========================================
@@ -39,7 +39,7 @@ Die Gast Erfahrung hat Einschränkungen durch Design. Stellen Sie sicher, dass S
 - Erstellen oder Überarbeiten eines Teams
 - Suchen nach einem Team
 - Hochladen von Dateien in einen Chat zwischen zwei Personen
-- Gäste können weiterhin nach Benutzern außerhalb Ihres Teams suchen und diese finden, wenn Sie Ihre vollständige e-Mail-ID kennen. Um dies zu verhindern, können IT-Administratoren Muster wie [Bereichs Verzeichnissuche](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) verwenden, die die Möglichkeit haben, Gäste in Ihre eigene virtuelle GAL zu beschränken.
+- Gäste können weiterhin nach Benutzern (außerhalb Ihres Teams) suchen und diese finden, wenn Sie die vollständige e-Mail-ID des Benutzers kennen. Um dies zu verhindern, können IT-Administratoren Muster wie [Bereichs Verzeichnissuche](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) verwenden, die die Möglichkeit haben, Gäste in Ihre eigene virtuelle GAL zu beschränken.
 
 Weitere Informationen finden Sie unter [Was ist die Gastfreundlichkeit](guest-experience.md) und [Gastzugriff in Office 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)?
 
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter [Was ist die Gastfreundlichkeit](guest-ex
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Wenn Ihre Gäste Lizenzfehler sehen
 
-Der Gastzugriff in Microsoft Teams verwendet Azure Active Directory Business to Business (B2B) und sein Lizenzierungsmodell. Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt die B2B- [Lizenzierungs Anleitung](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) , um die Lizenzierungsanforderungen Ihrer Organisation zu verstehen, damit Ihre Benutzer Gäste in Ihre Organisation einladen können.
+Der Gastzugriff in Microsoft Teams verwendet Azure Active Directory (Azure AD) Business to Business (B2B) und sein Lizenzierungsmodell. Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt die B2B- [Lizenzierungs Anleitung](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) , um die Lizenzierungsanforderungen Ihrer Organisation zu verstehen, damit Ihre Benutzer Gäste in Ihre Organisation einladen können.
 
 Ein paar Dinge, die Sie beachten sollten:
 
@@ -60,7 +60,7 @@ Ein paar Dinge, die Sie beachten sollten:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Schritt 1: Konfigurieren von Einstellungen in Azure AD Business-to-Business
 
-1. Anmelden beihttps://portal.azure.com
+1. Anmelden bei https://portal.azure.com.
 2. Klicken Sie im linken Bereich auf **Azure Active Directory** .
 3. Klicken Sie unter **Verwalten**auf **Benutzereinstellungen**.
 4. Klicken Sie unter **externe Benutzer**auf Einstellungen für die **externe Zusammenarbeit verwalten**.
@@ -68,10 +68,10 @@ Ein paar Dinge, die Sie beachten sollten:
 
       ![Screenshot zeigt ein Beispiel für eine Umschaltfläche für Aad-Einstellungen. ](media/guest-access-checklist-AADSettings1.png)
 
-    Um Gäste zu unterstützen, **können Mitglieder einladen** muss auf **Ja**eingestellt sein. 
-   
-> [!NOTE] 
-> Wenn Sie festlegen, dass Mitglieder auf **Nein** **einladen** und dann den Gastzugriff in Office 365-Gruppen und Microsoft Teams aktivieren können, können Administratoren Gast Einladungen in Ihrem Verzeichnis steuern. Nachdem sich die Gäste im Verzeichnis befinden, können Sie Teams von Mitgliedern des nicht-Administrators hinzugefügt werden, die Teambesitzer sind.
+    Um Gäste zu unterstützen, **können Mitglieder einladen** muss auf **Ja**eingestellt sein.
+
+    > [!NOTE] 
+    > Wenn Sie festlegen, dass Mitglieder auf **Nein** **einladen** und dann den Gastzugriff in Office 365-Gruppen und Microsoft Teams aktivieren können, können Administratoren Gast Einladungen in Ihrem Verzeichnis steuern. Nachdem sich die Gäste im Verzeichnis befinden, können Sie Teams von Mitgliedern des nicht-Administrators hinzugefügt werden, die Teambesitzer sind.
 
 Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
 
@@ -84,7 +84,7 @@ Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microso
 
      ![Screenshot der Office 365 Groups-Umschalter](media/guest-access-checklist-office365.png)
 
-Ausführliche Anweisungen zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten des Gastzugriffs in Office 365-Gruppen](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) und im Abschnitt "Office 365-Gruppen" unter Autorisieren des [Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
+Ausführliche Anweisungen zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten des Gastzugriffs in Office 365-Gruppen](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) und [Steuern des Gastzugriffs in Office 365-Gruppen](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Schritt 3: Aktivieren des Gastzugriffs auf Mandantenebene

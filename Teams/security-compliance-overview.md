@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667409"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221066"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -130,7 +130,7 @@ Weitere Informationen zur Einführung der Datenspeicherung für Microsoft Teams 
 
 Weitere Informationen zu Kanada Data Residency für Teams finden Sie im Blogbeitrag von Varun Sagar, [Microsoft Teams startet Kanada Data Residency, Australien und Japan in Kürze](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Wenn Sie mehr über die Einführung von Australien und Japan Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet den Daten Wohnsitz in Australien und Japan ](https://go.microsoft.com/fwlink/?linkid=867773). 
+Wenn Sie mehr über die Einführung von Australien und Japan Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet den Daten Wohnsitz in Australien und Japan](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Wenn Sie mehr über die Einführung von France Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet France Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
 

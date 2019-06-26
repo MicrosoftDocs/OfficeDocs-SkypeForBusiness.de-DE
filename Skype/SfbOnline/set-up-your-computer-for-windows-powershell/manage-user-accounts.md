@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users.
-ms.openlocfilehash: ca690e272f7755e826ea7432eab124c66eaa81bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 973529682224231e997e3900664fb5163156dfc3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284663"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221763"
 ---
 # <a name="manage-user-accounts"></a>Verwalten von Benutzerkonten
 
@@ -37,7 +37,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 - [Abrufen von bestimmten Informationen zu bestimmten Benutzern in Skype for Business Online](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
 
-- [Abrufen einer gefilterten Liste mit Benutzern in Skype for Business Online ](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
+- [Zurückgeben einer gefilterten Liste mit Benutzern in Skype for Business Online](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
 > Das Cmdlet **Set-CsUser** ist auch in den Cmdlets enthalten, die für Skype for Business Online-Administratoren zur Verfügung stehen. **Set-CsUser** kann aber zurzeit nicht zum Verwalten von Skype for Business Online verwendet werden, mit einer Ausnahme: Festlegen des Parameters _AudioVideoDisabled_. Wenn Sie versuchen, das Cmdlet mit einem anderen Parameter auszuführen, schlägt dies mit etwa dieser Fehlermeldung fehl: „‚SipAddress' kann nicht festgelegt werden. Dieser Parameter ist auf die Remotemandanten-PowerShell eingeschränkt."

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Zusammenfassung: erfahren Sie mehr über den Benutzer Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e0a6a58be98469458a8c8e7063402ff6477c35f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274520"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221310"
 ---
 # <a name="user-service-for-cqd"></a>Benutzer Dienst für CQD
  
@@ -39,7 +39,7 @@ Die Repository-API enthält die RESTful-API-URIs, die einen ganzzahligen Wert zu
   
 Darüber hinaus akzeptiert die Repository-API zwei spezielle Benutzer-IDs bei {UserID} in URIs.
   
--  *Standard* – stellt den Benutzer dar, der gerade mit der API interagiert. Dies ermöglicht Anwendungen den Zugriff auf den Inhalt des aktuellen Benutzers, ohne den tatsächlichen Benutzer-ID-Wert zu verfolgen. Beispiel: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *Standard* – stellt den Benutzer dar, der gerade mit der API interagiert. Dies ermöglicht Anwendungen den Zugriff auf den Inhalt des aktuellen Benutzers, ohne den tatsächlichen Benutzer-ID-Wert zu verfolgen. Beispiel: `https://<portal>/QoERepositoryService/repository/user/default`.
     
 -  *System* – stellt den Systembenutzer dar. Dies ermöglicht Anwendungen den Zugriff auf die Inhalte des Systembenutzers, ohne den tatsächlichen Benutzer-ID-Wert zu kennen. Beispiel: `https://<portal>/QoERepositoryService/repository/user/system`.
     

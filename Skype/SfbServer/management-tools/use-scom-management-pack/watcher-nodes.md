@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für synthetische Skype for Business Server-Transaktionen.'
-ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277622"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221518"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
  
@@ -27,7 +27,7 @@ Watcher-Knoten sind Computer, die in regelmäßigen Abständen die synthetischen
   
 - **Standardwert** Synthetische Transaktionen, die ein Watcher-Knoten standardmäßig ausführt. Wenn Sie einen neuen Watcher-Knoten erstellen, können Sie angeben, welche synthetischen Transaktionen dieser Knoten ausführen soll. (Dies ist der Zweck des Parameters Tests, der vom Cmdlet New-CsWatcherNodeConfiguration verwendet wird.) Wenn Sie den Parameter Tests nicht verwenden, wenn der Watcher-Knoten erstellt wird, werden automatisch alle synthetischen Standardtransaktionen ausgeführt, und es werden keine der nicht standardmäßigen synthetischen Transaktionen ausgeführt. Dies bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert ist, dass er den Test-CsAddressBookService-Test ausführt, aber nicht für die Ausführung des Test-CsExumConnectivity-Tests konfiguriert ist.
     
-- **Nicht Standard** Testet, ob Watcher-Knoten standardmäßig nicht ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Allerdings kann der Watcher-Knoten aktiviert werden, um eine der nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten erstellen (mithilfe des Cmdlets New-CsWatcherNodeConfiguration) oder zu einem beliebigen Zeitpunkt nach der Erstellung des Watcher-Knotens. Beachten Sie, dass für viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Setupschritte erforderlich sind. Details zu diesen Schritten finden Sie unter spezielle Setup Anweisungen für synthetische Transaktionen. Weitere Informationen zu diesen Schritten finden Sie unter [spezielle Setup Anweisungen für synthetische Transaktionen ](test-users-and-settings.md#special_synthetictrans).
+- **Nicht Standard** Testet, ob Watcher-Knoten standardmäßig nicht ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Allerdings kann der Watcher-Knoten aktiviert werden, um eine der nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten erstellen (mithilfe des Cmdlets New-CsWatcherNodeConfiguration) oder zu einem beliebigen Zeitpunkt nach der Erstellung des Watcher-Knotens. Beachten Sie, dass für viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Setupschritte erforderlich sind. Weitere Informationen zu diesen Schritten finden Sie unter [spezielle Setup Anweisungen für synthetische Transaktionen](test-users-and-settings.md#special_synthetictrans).
     
 - **Erweitert** Eine spezielle Art von nicht standardmäßigen synthetischen Transaktionen. Im Gegensatz zu anderen synthetischen Transaktionen können erweiterte Tests während der einzelnen Durchlaufzeiten mehrmals ausgeführt werden. Dies ist hilfreich, wenn Sie das Verhalten überprüfen, beispielsweise mehrere PSTN-VoIP-Routen (Public Switched Telephone Network) für einen Pool. Sie können dies einfach konfigurieren, indem Sie einem Watcher-Knoten mehrere Instanzen eines erweiterten Tests hinzufügen.
     

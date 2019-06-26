@@ -3,7 +3,7 @@ title: Verwalten des Gastzugriffs in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,53 +14,53 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44769df812e667ab5b108dcb42d8bb96453f15af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d65060049204f13d32158ba6c21ee18917df154
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885106"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220912"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
 
-**Gast** ist ein Benutzer-Lizenz in Microsoft-Teams, die alle Abonnements für Office 365 Business Premium, Office 365 Enterprise und Office 365 Education enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Ausführliche Informationen zum Gastzugriff zu ermöglichen finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff auf Microsoft-Teams](set-up-guests.md).
+**Guest** ist ein Benutzer/Lizenztyp in Microsoft Teams, der in allen Office 365 Business Premium-, Office 365 Enterprise-und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Details zum Aktivieren des Gastzugriffs finden Sie unter Aktivieren [oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md).
 
-Nach Benutzer/Lizenztyp **Gast** aktiviert ist, können Sie zu konfigurieren für Gäste über die Steuerelemente in [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md) und [Teams verwalten während des Übergangs auf die neue Microsoft-Teams beschrieben Administrationscenter](manage-teams-skypeforbusiness-admin-center.md).     
+Nachdem der **Gast** Benutzer/Lizenztyp aktiviert ist, können Sie die Einstellungen für Gäste über die Steuerelemente konfigurieren, die unter [Verwalten von Microsoft Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md) und [Verwalten von Teams während des Übergangs zu den neuen Microsoft Teams beschrieben sind. Admin Center](manage-teams-skypeforbusiness-admin-center.md).     
     
-IT-Administratoren können Gäste auf der Ebene der Mandant hinzufügen, festlegen und Verwalten von Gast-Richtlinien für Benutzer und Berechtigungen und Pull Berichte über Benutzeraktivität Gast. Diese Steuerelemente sind über das Microsoft-Teams, Administrationscenter verfügbar. Inhalte und Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance- und Überwachungsschutz wie der Rest von Office 365.
+IT-Administratoren können Gäste auf Mandantenebene hinzufügen, Benutzerrichtlinien und-Berechtigungen für Gäste einrichten und verwalten sowie Berichte über Gastbenutzer Aktivitäten abrufen. Diese Steuerelemente stehen über das Microsoft Teams Admin Center zur Verfügung. Inhalte und Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance- und Überwachungsschutz wie der Rest von Office 365.
 
-Team Besitzer können neue Gäste einladen und ihre Teams vorhandenen Directory Gastbenutzer hinzuzufügen. Team Besitzer können Gastbenutzern über **Teams**identifizieren > **Verwalten Teams**und Set-Kanal-bezogenen Funktionen für Gäste über **Org geltende Einstellungen** > **Gast Access**, einschließlich Gästen zu erstellen, aktualisieren, sodass und Löschen Sie Kanäle, wie im folgenden Screenshot dargestellt.
+Team Besitzer können neue Gäste einladen und ihren Teams vorhandene Verzeichnis Gastbenutzer hinzufügen. Team Besitzer können Gastbenutzer mithilfe von **Teams** > , die**Teams verwalten**, identifizieren und die Kanal bezogenen Funktionen für Gäste über **organisationsweite Einstellungen** > für**Gastzugriff**festlegen, einschließlich der Möglichkeit, dass Gäste das Erstellen, aktualisieren und Löschen Sie Kanäle, wie in der nachstehenden Abbildung zu sehen ist.
 
-![Gast berechtigungseinstellungen in Teams](media/manage-guest-access-image1.png)
+![Einstellungen für Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
   
-Azure Active Directory-Portal können Sie Gäste und deren Zugriff auf Office 365 und Teams Ressourcen verwalten. Die Teams-Einstellung für Gastzugriff nutzt die Azure Active Directory-B2B-Funktionen (Business-to-Business) zur Zusammenarbeit als zugrunde liegende Infrastruktur zum Speichern der Informationen über Sicherheitsprinzipien, wie zum Beispiel Einstellungen für Identitätseigenschaften, Mitgliedschaften und für die mehrstufige Authentifizierung. Weitere Informationen zu Azure Active Directory B2B finden Sie unter [Was ist die Azure AD B2B-Zusammenarbeit?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Häufig gestellte Fragen zur Azure Active Directory B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Sie können das Azure Active Directory (Azure AD)-Portal verwenden, um Gäste und deren Zugriff auf Office 365-und Teamressourcen zu verwalten. Teams Guest Access nutzt Azure AD Business-to-Business (B2B)-Zusammenarbeitsfunktionen als zugrunde liegende Infrastruktur, um Informationen zu Sicherheitsgrundsätzen wie Identitätseigenschaften, Mitgliedschaften und mehrstufige Authentifizierungseinstellungen zu speichern. Weitere Informationen zu Azure AD B2B finden Sie unter [Was ist Azure AD B2B Collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Azure Active Directory B2B Collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
-> Microsoft-Teams berücksichtigt immer externe Azure Active Directory-Einstellungen zum Zulassen oder Sperren von Gast Benutzer Ergänzungen, die dem Mandanten. Weitere Informationen finden Sie unter [Autorisieren Gast Access in Microsoft-Teams](Teams-dependencies.md).
+> Microsoft Teams ehrt die externen Azure AD-Einstellungen immer, um Gastbenutzer Ergänzungen für den Mandanten zuzulassen oder zu verhindern. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
   
 ## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="review-guest-access-periodically"></a>Überprüfen Sie regelmäßig Gastzugriff
+## <a name="review-guest-access-periodically"></a>Regelmäßiges Überprüfen des Gastzugriffs
 
-Teams können Sie 5 Gäste für jeden lizenzierten Benutzer hinzufügen. Aufgrund dieser Einschränkung oder, da Sie Ihrem Mandanten auf dem aktuellen Stand beibehalten möchten, sollten Sie überprüfen, Gast Access in regelmäßigen Abständen zum Identifizieren von Benutzern, die Zugriff haben, die sie nicht mehr benötigt werden. Azure Active Directory (AD Azure) können Sie eine Access-Überprüfung für Mitglieder der Gruppe oder Benutzer zugewiesen sind, an eine Anwendung zu erstellen. Erstellen von sich wiederholenden Access Bewertungen können Sie Zeit sparen. Wenn Sie müssen Benutzer haben Zugriff auf eine Anwendung oder sind Mitglieder einer Gruppe Benutzer regelmäßig zu überprüfen, können Sie die Häufigkeit der diese Bewertungen definieren. 
+In Teams können Sie für jeden lizenzierten Benutzer fünf Gäste hinzufügen. Aufgrund dieser Einschränkung oder weil Sie Ihren Mandanten auf dem neuesten Stand halten möchten, sollten Sie den Gastzugriff in regelmäßigen Abständen überprüfen, um Benutzer zu identifizieren, die Zugriff haben, die Sie nicht mehr benötigen. Sie können Azure AD verwenden, um eine Zugriffsüberprüfung für Gruppenmitglieder oder Benutzer zu erstellen, die einer Anwendung zugewiesen sind. Durch das Erstellen von wiederkehrenden Zugriffs Bewertungen können Sie Zeit sparen. Wenn Sie Benutzer, die Zugriff auf eine Anwendung haben oder Mitglieder einer Gruppe sind, regelmäßig überprüfen müssen, können Sie die Häufigkeit dieser Bewertungen definieren. 
 
-Sie können Überprüfung Gast Access selbst, bitten Sie Gäste eigenen Mitgliedschaft überprüfen oder bitten Sie einen Besitzer der Anwendung oder Entscheidungsträger im Unternehmen die Access-Überprüfung ausführen. Sie verwenden das Azure-Portal, um Gast Access überprüft werden. Weitere Informationen finden Sie unter [Manage Gast Access Azure AD-Zugriff überprüft](https://docs.microsoft.com/en-us/azure/active-directory/governance/manage-guest-access-with-access-reviews).
+Sie können eine Bewertung des Gastzugriffs selbst durchführen, die Gäste bitten, ihre eigene Mitgliedschaft zu überprüfen, oder einen Anwendungsbesitzer oder Entscheidungsträger des Unternehmens bitten, die Zugriffsüberprüfung durchzuführen. Sie verwenden das Azure-Portal, um Bewertungen von Gastzugriffen durchzuführen. Weitere Informationen finden Sie unter [Verwalten des Gastzugriffs mit Azure AD Access-Rezensionen](https://docs.microsoft.com/en-us/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ###  <a name="prerequisites"></a>Voraussetzungen
 
-Access Bewertungen stehen zur Verfügung, mit der P2 Premium Edition von Azure Active Directory, die in Microsoft Enterprise Mobilität + Sicherheit, E5 enthalten ist. Weitere Informationen finden Sie unter "eine Edition in [Azure Active Directory-Editionen](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)wählen". Jeder Benutzer, die mit diesem Feature durch Erstellen einer Überprüfung, eine Überprüfung ausfüllen oder bestätigt wird deren Zugriff interagiert muss eine Lizenz verfügen. 
+Zugriffsüberprüfungen sind mit der Premium P2-Edition von Azure AD verfügbar, die in Microsoft Enterprise Mobility + Security, E5 enthalten ist. Weitere Informationen finden Sie unter [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)-Editionen. Jeder Benutzer, der mit diesem Feature interagiert, indem er eine Rezension erstellt, eine Rezension ausfüllt oder seinen Zugriff bestätigt, muss über eine Lizenz verfügen.
 
-Teams verhindert nicht die Anzahl von Gästen, die Sie hinzufügen können. Die Gesamtzahl der Gäste, die Ihre Mandanten hinzugefügt werden können, jedoch basiert auf welche Ihrer AAD lizenziert sind. Weitere Informationen finden Sie unter [Azure AD B2B Zusammenarbeit Lizenzierung](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Teams schränkt nicht die Anzahl der Gäste ein, die Sie hinzufügen können. Die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, basiert jedoch auf dem, was Ihre Aad-Lizenzierung zulässt. Weitere Informationen finden Sie unter [Azure AD B2B-Zusammenarbeit Lizenzierung](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
-## <a name="guest-access-latencies"></a>Gast Access Wartezeiten
+## <a name="guest-access-latencies"></a>Gastzugriffs Latenzen
 
-Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
+Die Gast Einstellungen werden in Azure AD eingestellt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
 
 ## <a name="more-information"></a>Weitere Informationen
 
-Informationen zum Verwenden von PowerShell zum Verwalten von Access Gast finden Sie unter [Verwenden von PowerShell zur Steuerung des Zugriffs auf ein Team Gast](guest-access-powershell.md).
+Informationen zum Verwenden von PowerShell zum Verwalten des Gastzugriffs finden Sie unter [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-powershell.md).
 
 

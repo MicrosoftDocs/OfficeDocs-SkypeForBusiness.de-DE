@@ -4,46 +4,44 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 09/21/2018
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Administratoren können Sie die Skype Besprechungen App entwickelt Teams konfigurieren die Microsoft-Teams-Verwaltungskonsole
+description: Administratoren können das Microsoft Teams Admin Center verwenden, um die Skype-Besprechungs-App für die Zusammenarbeit mit Teams zu konfigurieren.
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198352"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221691"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
 ===================================================
 
-Nach der Aktualisierung eines Benutzers auf der Microsoft-Teams, können Administratoren das Microsoft-Teams, Administrationscenter an die bevorzugte app, die Benutzern verwendet wird, Skype für Business-Besprechungen teilnehmen.
+Nachdem ein Benutzer auf Microsoft Teams aktualisiert wurde, können Administratoren das Microsoft Teams Admin Center verwenden, um die bevorzugte App anzugeben, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden werden.
 
-Um die Skype für Besprechungen App als die bevorzugte app anzugeben:
+So geben Sie die Skype for Meetings-App als bevorzugte APP an:
 
 1. Melden Sie sich beim Admin Center für Microsoft Teams an.
-2. Wählen Sie im linken Bereich, klicken Sie unter **Einstellungen für die gesamte Org** **Teams zu aktualisieren**.
-3. Die Teams aktualisieren Sie Seite unter **App-Einstellungen**, wählen Sie **Skype Besprechungen App** aus der Dropdownliste **Bevorzugter app für Benutzer Skype für Business Besprechungen beitreten** .
+2. Wählen Sie im linken Bereich unter **organisationsweite Einstellungen**die Option **Teams Upgrade**aus.
+3. Wählen Sie auf der Seite "Teams-Upgrade" unter **"App-Einstellungen"** in der Dropdown-Liste **bevorzugte App für Benutzer** die Option **Skype-Besprechungs** -App aus, um an einer Skype for Business-Besprechung teilzunehmen.
 
-![Wählen Sie bevorzugte app für Benutzer Skype für Business Besprechungen beitreten](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Auswählen der bevorzugten App für Benutzer zum teilnehmen an Skype for Business-Besprechungen](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 
-Benutzer, die die App Skype Besprechungen mit Teams verwenden gelten die folgenden Nachteile:
+Für Benutzer, die die Skype-Besprechungs-App für Teams verwenden, gelten die folgenden Einschränkungen:
 
-- Benutzer haben keine Möglichkeit, ihre Videogerät ändern.
-- Nachdem ein Benutzer auf Teams, aktualisiert wird, wenn der Benutzer befindet sich in einer Besprechung mit Skype Besprechungen App, und klicken Sie dann einen Anruf auf Teams erhält, wird die Besprechung in Skype Besprechungen App nicht in der Warteschleife platziert. Stattdessen wird der Benutzer sowohl für Anrufe verbunden.
+- Benutzer haben keine Möglichkeit, Ihr Videogerät zu ändern.
+- Nachdem ein Benutzer auf Teams aktualisiert wurde, wenn sich der Benutzer über die Skype-Besprechungs-app in einer Besprechung befindet und dann einen Anruf in Teams erhält, wird die Besprechung in der Skype-Besprechungs-APP nicht in Wartestellung gesetzt. Stattdessen ist der Benutzer mit beiden anrufen verbunden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="more-information"></a>Weitere Informationen
 
-Weitere Informationen zur App Besprechungen Skype finden Sie unter:
-
-- [Was ist Skype Besprechungen App (Skype für Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Was ist die Skype-Besprechungs-app (Skype for Business Web App)?](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Mindestnetzwerkanforderungen für die Skype-Besprechungs-App](https://technet.microsoft.com/library/mt845808.aspx)

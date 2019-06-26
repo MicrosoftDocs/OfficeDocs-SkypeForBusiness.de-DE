@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 3508ab081535ced2cad1610fcb1f7195aaeb3dfa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283402"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221683"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
 Wenn Sie **Audiokonferenz-** Lizenzen kaufen, hostet Microsoft Ihre Audiokonferenz-Brücke für Ihre Organisation. Die Audiokonferenz-Brücke gibt Einwahlnummern von verschiedenen Standorten aus, sodass Besprechungsorganisatoren und Teilnehmer Sie verwenden können, um mit einem Telefon an Skype for Business-oder Microsoft Teams-Besprechungen teilzunehmen.
   
-Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und diese dann der Konferenzbrücke zuweisen, damit Sie Erweitern Sie die Abdeckung für Ihre Benutzer.
+Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](/microsoftteams/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und diese dann der Konferenzbrücke zuweisen, damit Sie Erweitern Sie die Abdeckung für Ihre Benutzer.
   
 > [!NOTE]
 > Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy **** > -Portal zu**Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications haben muss zuerst eingerichtet werden, damit Benutzer in eine gebührenfreie Telefonnummer-Brücke einwählen können.
@@ -43,7 +43,7 @@ Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie zu **Microsoft 365 Admin Center** > **Admin** > Center**Teams & Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu **Microsoft 365 Admin Center** > -Teams für**Admin** > **#a0 Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisen**.
 
@@ -57,7 +57,7 @@ Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Kon
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie zu **Microsoft 365 Admin Center** > **Admin** > Center**Teams & Skype** > **Meetings** > **Conference Bridges**.
+2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **#a0 Skype** > -**Konferenz Brücken**für**Besprechungen** > .
 
 3. Heben Sie die Dienst Gebühren Nummer auf, die Sie als Standard festlegen möchten.
 
@@ -69,7 +69,7 @@ Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > -**Teams & Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams #a0 Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
 
 3. Klicken Sie im Aktionsbereich auf **Bearbeiten**.
 
@@ -133,7 +133,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams #a0 Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Bereich "Aktion" auf **Zuweisung**aufheben. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support](https://go.microsoft.com/fwlink/?linkid=2091806) , damit die Telefonnummer nicht zugewiesen ist.
 
@@ -153,7 +153,8 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 2. Geben Sie _Get-Host_ im **Windows PowerShell** -Fenster ein, um die Version zu überprüfen.
 
-3. Wenn Sie nicht über Version 3.0 oder eine höhere Version verfügen, müssen Sie Updates für Windows PowerShell herunterladen und installieren. Informationen zum Herunterladen von Windows PowerShell und zum Aktualisieren auf Version 4.0 finden Sie unter [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
+3. Wenn Sie nicht über Version 3.0 oder eine höhere Version verfügen, müssen Sie Updates für Windows PowerShell herunterladen und installieren. Informationen zum herunterladen und Aktualisieren von Windows PowerShell auf Version 4,0 finden Sie unter [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) .
+Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
 
 4. Außerdem müssen Sie das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul wird nur auf 64-Bit-Computern unterstützt und kann aus dem Microsoft Download Center unter [Windows PowerShell Module für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)heruntergeladen werden.
 Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.

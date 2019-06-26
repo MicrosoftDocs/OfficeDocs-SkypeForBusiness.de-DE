@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Microsoft-Teams, Administratorrollen zum Verwalten von Teams
+title: Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,61 +10,61 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 ms.reviewer: islubin
-description: Hier erfahren Sie, mit den verschiedenen Administratorrollen Teams verwalten.
+description: Erfahren Sie, wie Sie die verschiedenen Administratorrollen zum Verwalten von Teams verwenden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8b2d1c9f1dccc12f630625d880dad54b0497f12
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108739"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221217"
 ---
-# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Microsoft-Teams, Administratorrollen zum Verwalten von Teams
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams
 
-Azure Active Directory (AD Azure) können Sie Administratoren festlegen, die unterschiedliche Zugriffsebenen für die Verwaltung von Microsoft-Teams benötigen. Administratoren können die gesamte Teams Auslastung verwalten, oder sie können delegiert haben Berechtigungen für die Problembehandlung Qualitätsprobleme oder Verwalten von Ihrer Organisation Telefonie benötigten aufrufen. 
+Mit Azure Active Directory (Azure AD) können Sie Administratoren festlegen, die unterschiedliche Zugriffsebenen für die Verwaltung von Microsoft Teams benötigen. Administratoren können die gesamte Arbeitsauslastung der Teams verwalten, oder Sie können über Delegierte Berechtigungen zur Behandlung von Problemen mit der Anrufqualität oder zur Verwaltung der Telefon Anforderungen Ihrer Organisation verfügen. 
 
-## <a name="teams-roles-and-capabilities"></a>Teams Rollen und Funktionen
+## <a name="teams-roles-and-capabilities"></a>Rollen und Funktionen von Teams
 
-Es stehen vier Administratorrollen für Teams zur Verfügung: Dienstadministrator Teams, Teams Communications Administrator, Teams Communications Supportspezialisten und Teams Communications Engineer Unterstützung. Überprüfen Sie die Tabelle, um zu verstehen, was jede Rolle möglich ist, und die den Administrator tools in der Microsoft-Teams-Verwaltungskonsole und PowerShell verwenden kann.
+Es stehen vier Teams-Administratorrollen zur Verfügung: Teams Service Administrator, Teams Communications Administrator, Team Communications Support Specialist und Teams Communications Support Engineer. Sehen Sie sich die folgende Tabelle an, um zu erfahren, welche Aktionen die einzelnen Rollen ausführen können und welche Tools der Administrator in Microsoft Teams Admin Center und PowerShell verwenden kann.
 
 <!-- add Global admin role? -->
 
-| Rolle | Können diese Aufgaben | Können die folgenden Tools zugreifen |
+| Rolle | Kann diese Aufgaben ausführen. | Kann auf die folgenden Tools zugreifen |
 |----- | ------------------ | ------------------------------ |
-| Teams-Dienstadministrator | Verwalten des Diensts Microsoft-Teams und verwalten und Erstellen von Gruppen für Office 365 | Alles in der Microsoft-Teams-Verwaltungskonsole und die zugehörigen PowerShell-Steuerelemente, einschließlich:<br><br> Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Verwalten von messaging, einschließlich Richtlinien<sup>1,3</sup> messaging<br><br> Verwalten von Einstellungen für alle Org geltende, einschließlich Verbund, Teams Upgrade und Teams Clienteinstellungen<sup>1,3</sup><br><br> Verwalten der Teams in der Organisation sowie die zugehörigen Einstellungen, einschließlich des Mitgliedschaftsanbieters (Gruppenmanagement über PowerShell Teammanagement in der Verwaltungskonsole Teams unterstützt) <sup>23</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> <br><br> Und die Überwachung und Problembehandlung bei Anrufqualität Mandanten und Zuverlässigkeit von Daten verfügbar gemacht werden in Aufrufen Quality Dashboard (CQD), die vom schlechter Anrufqualität betroffene Benutzer. Neue Berichte erstellen, aktualisieren und Berichte wie gewünscht zu entfernen. Hochladen und Aktualisieren von CQD Daten erstellen |
-| Teams-Kommunikationsadministrator | Verwalten von Anruf- und besprechungsfeatures innerhalb des Teams-Dienstes | Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> <br><br> Und die Überwachung und Problembehandlung bei Anrufqualität Mandanten und Zuverlässigkeit von Daten verfügbar gemacht werden in Aufrufen Quality Dashboard (CQD) nach unten zu der Benutzer, die durch die Qualität der Anrufe schlechter Qualität betroffen sind. Neue Berichte erstellen, aktualisieren und Berichte wie gewünscht zu entfernen. Hochladen und Aktualisieren von CQD Daten erstellen |
-| Teams-Kommunikationssupporttechniker | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **erweiterten** Tools. | Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> <br><br> Und die Überwachung und Problembehandlung bei Anrufqualität Mandanten und Zuverlässigkeit von Daten verfügbar gemacht werden in Aufrufen Quality Dashboard (CQD) nach unten zu der Benutzer, die durch die Qualität der Anrufe schlechter Qualität betroffen sind |
-| Teams Communications-Supportspezialisten | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **grundlegenden** Tools.| Zugriff auf der Profilseite des Benutzers für die Problembehandlung bei ruft in Analytics aufrufen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup> <br><br> Und die Überwachung und Problembehandlung bei Anrufqualität Mandanten und Zuverlässigkeit von Daten verfügbar gemacht werden in Aufrufen Quality Dashboard (CQD).  
+| Teams-Dienstadministrator | Verwalten des Teams-Diensts sowie verwalten und Erstellen von Office 365-Gruppen | Alles im Microsoft Teams Admin Center und zugehörige PowerShell-Steuerelemente, einschließlich:<ul><li> Verwalten von Besprechungen, einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenz Brücken <sup>1, 3</sup></li><li>Verwalten von VoIP, einschließlich Anruf Richtlinien und Inventar und Zuordnung von Telefonnummern. <sup>1</sup></li><li>Verwalten von Nachrichten, einschließlich Messagingrichtlinien <sup>1, 3</sup></li><li>Verwalten Sie alle organisationsweiten Einstellungen, einschließlich der Föderation, des Teams-Upgrades und der Clienteinstellung für Teams. s<sup>1, 3</sup></li><li>Verwalten Sie die Teams in der Organisation und die zugehörigen Einstellungen, einschließlich der Mitgliedschaft (Gruppenverwaltung, die über PowerShell unterstützt wird, Team Verwaltung im Team Admin Center). <sup>23</sup></li><li>Zeigen Sie die Benutzerprofilseite an, und beheben Sie Probleme mit der Benutzer Anrufqualität mithilfe der erweiterten Problembehandlung-Toolset. <sup>3</sup> </li><li> Greifen Sie auf die Anrufqualität und Zuverlässigkeit von Mandanten auf, überwachen und behandeln Sie Sie mithilfe von Daten, die im CQD-Dashboard (Anrufqualität) angezeigt werden, bis hin zu Benutzern, die von schlechter Anrufqualität betroffen Erstellen Sie neue Berichte, aktualisieren Sie Berichte, und entfernen Sie Sie nach Bedarf. Hochladen und Aktualisieren von CQD-Gebäudedaten</li></ul> |
+| Teams-Kommunikationsadministrator | Verwalten von Anruf-und besprechungsfeatures innerhalb des Teams-Diensts. | Verwalten von Besprechungen, einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenz Brücken <sup>1, 3</sup><br><br> Verwalten von VoIP, einschließlich Anruf Richtlinien und Inventar und Zuordnung von Telefonnummern. <sup>1</sup><br><br> Zeigen Sie die Benutzerprofilseite an, und beheben Sie Probleme mit der Benutzer Anrufqualität mithilfe der erweiterten Problembehandlung-Toolset. <sup>3</sup> <br><br> Zugreifen auf, überwachen und behandeln von Problemen mit der Anrufqualität und-Zuverlässigkeit von Mandanten mithilfe von Daten, die im Dashboard für die Anrufqualität (CQD) verfügbar gemacht werden, bis hin zu Benutzern, die von schlechter Anrufqualität betroffen sind. Erstellen Sie neue Berichte, aktualisieren Sie Berichte, und entfernen Sie Sie nach Bedarf. Hochladen und Aktualisieren von CQD-Gebäudedaten|
+| Teams-Kommunikationssupporttechniker | Behandeln von Kommunikationsproblemen in Microsoft Teams mithilfe der **erweiterten** Tools | Zeigen Sie die Benutzerprofilseite an, und beheben Sie Probleme mit der Benutzer Anrufqualität mithilfe der erweiterten Problembehandlung-Toolset. <sup>3</sup> <br><br> Zugreifen auf, überwachen und behandeln von Problemen mit der Anrufqualität und-Zuverlässigkeit von Mandanten mithilfe von Daten, die im Dashboard für die Anrufqualität (CQD) verfügbar gemacht werden, bis hin zu Benutzern, die von schlechter Anrufqualität betroffen sind. |
+| Teams Communications-Support Spezialist | Behandeln von Kommunikationsproblemen in Teams mithilfe von **grundlegenden** Tools| Zugriff auf die Benutzerprofilseite für die Problembehandlung von Anrufen in der anrufanalyse. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup> <br><br> Zugreifen auf, überwachen und behandeln von Problemen mit der Anrufqualität und-Zuverlässigkeit von Mandanten mithilfe von Daten, die im Anruf Qualitäts Dashboard (CQD) verfügbar gemacht werden.  
 
-<sup>1</sup> [PowerShell - Skype für Business-Modul](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
-<sup>2</sup> [PowerShell - Modul für Microsoft-Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [-Verwaltungskonsole Microsoft-Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
+<sup>1</sup> [PowerShell – Skype for Business-Modul](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>2</sup> [PowerShell – Microsoft Teams-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
+<sup>3</sup> [Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-Weitere Informationen zum Verwalten von Microsoft-Teams, die Verwaltungstools finden Sie unter [Verwalten von Microsoft-Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Weitere Informationen zu den für die Verwaltung von Microsoft Teams verfügbaren Verwaltungstools finden Sie unter [Verwalten von Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
-Weitere Informationen zu den Grenzwerten Spezifikationen und anderen Anforderungen für Teams, finden Sie unter [Limits und Spezifikationen für Microsoft-Teams](limits-specifications-teams.md).
+Weitere Informationen zu Grenzwerten, Spezifikationen und anderen Anforderungen, die für Teams gelten, finden Sie unter [Grenzwerte und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).
 
-## <a name="assign-users-to-each-role"></a>Zuweisen von Benutzern zu einzelnen Rollen
+## <a name="assign-users-to-each-role"></a>Zuweisen von Benutzern zu jeder Rolle
 
-Sie können die Benutzer zu diesen Rollen in Azure Active Directory zuweisen. Zuweisen von administrativen Rollen zu einem Benutzer in Azure Active Directory finden Sie unter [Zuweisen eines Benutzers zu Administratorrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Sie können diesen Rollen in Azure AD Benutzer zuweisen. Informationen zum Zuweisen von Administratorrollen zu einem Benutzer in Azure AD finden Sie unter [Zuweisen eines Benutzers zu Administratorrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
-## <a name="cmdlets-available-for-each-role"></a>Verfügbaren Cmdlets für die einzelnen Rollen
+## <a name="cmdlets-available-for-each-role"></a>Für jede Rolle verfügbare Cmdlets
 
-Die meisten PowerShell Tools für diese Administratorrollen live in der Skype für Business PowerShell-Modul, und es ist zu beachten, dass einige der Cmdlets, dass diese Administratorrollen auf Steuerelement zugreifen Einstellungen gemeinsam verwendet, die auch für Skype für Business Online genutzt werden. Um die vollständige Liste der Cmdlets, die derzeit auf einer bestimmten Rolle in der Skype für Business PowerShell-Modul anzuzeigen, gehen Sie folgendermaßen vor:
+Die meisten PowerShell-Tools für diese Administratorrollen sind im Skype for Business PowerShell-Modul enthalten, und es ist wichtig zu beachten, dass einige Cmdlets, für die diese Administratorrollen verfügbar sind, Zugriff auf die Steuerung freigegebener Einstellungen haben, die auch für Skype for Business Online verwendet werden. Führen Sie die folgenden Schritte aus, um die vollständige Liste der derzeit für eine bestimmte Rolle verfügbaren Cmdlets im Skype for Business PowerShell-Modul anzuzeigen:
 
-1. Weisen Sie dieser Rolle zu einem Benutzer zu (und stellen Sie sicher, dass der Benutzer keine anderen Rollen).
-2. Verbinden Sie mit der Skype für Business PowerShell-Modul:<br>
-   a. $session = neue Csonlinesession<br>
-   b. Import-Pssession $session<br>
-   c. Verwenden Sie **Get-Modul** , um den Namen der importierten Sitzung identifizieren (einen willkürlich generierten Namen wird sein).<br>
-3. Verwendung **Get-Command - Modul** <> zum Identifizieren aller verfügbaren Cmdlets*Namen von oben*
+1. Weisen Sie diese Rolle einem Benutzer zu (und stellen Sie sicher, dass der Benutzer keine anderen Rollen hat).
+2. Stellen Sie eine Verbindung mit dem Skype for Business PowerShell-Modul her:<br>
+   a. $Session = neu-csonlinesession<br>
+   b. Importieren-PSSession $Session<br>
+   c. Verwenden **Sie "Get-Module** ", um den Namen der importierten Sitzung zu identifizieren (Dies ist ein zufällig generierter Name).<br>
+3. Verwenden Sie den Namen des **Befehls Moduls** <*von oben*>, um alle verfügbaren Cmdlets zu identifizieren.
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Übersicht über Microsoft-Teams, die PowerShell](teams-powershell-overview.md)
-- [Microsoft-Teams, PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [Microsoft Teams PowerShell-Übersicht](teams-powershell-overview.md)
+- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 - [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

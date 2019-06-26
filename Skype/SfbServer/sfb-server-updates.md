@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Hier können Sie Updates für Skype for Business Server 2015 und Lync 2013 an einer zentralen Stelle suchen und verwalten. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681818"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221858"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
@@ -119,9 +119,9 @@ Paketname/Link|Veröffentlichungsdatum|
 |[Resource Kit-Tools für Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |Januar 2014 |
 |[Belastungs-und Leistungstool für Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |März 2013 |
 |[Whiteboard-Archiv-Viewer für Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |Februar 2013 |
-|[Lync 2013 Virtual Desktop Infrastructure-Plug-In (32 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Oktober 2012 |
-|[Lync 2013 Virtual Desktop Infrastructure-Plug-In (32 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Oktober 2012 |
-|[Neue Office Visio-Schablone ](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Juli 2016 |
+|[Lync VDI 2013-Plug-in (32-Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Oktober 2012 |
+|[Lync VDI 2013-Plug-in (64-Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Oktober 2012 |
+|[Neue Office Visio-Schablone](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Juli 2016 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013-Dokumentation zum Herunterladen
 
@@ -180,25 +180,25 @@ Paketname/Link|Veröffentlichungsdatum|
 |Paketname/Link|Veröffentlichungsdatum|
 |:--- |:--- |
 |[Chat mit einem Experten für Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|März 2012 |
-|[Lync Server 2010 Best Practices Analyzer ](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Februar 2011 |
-|[Kapazitätsrechner für Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Februar 2012 |
-|[Planungstool für Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=19711)|Februar 2011 |
-|[Resource Kit-Tools für Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Mai 2012 |
-|[Belastungs-und Leistungstool für Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|März 2011 |
-|[Visio-Schablone für Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Februar 2011 |
-|[Lync Server 2010 Web Scheduler ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|April 2011 |
+|[Lync Server 2010 Best Practices Analyzer](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Februar 2011 |
+|[Lync Server 2010-Kapazitäts Rechner](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Februar 2012 |
+|[Lync Server 2010-Planungs Tool](https://www.microsoft.com/download/en/details.aspx?id=19711)|Februar 2011 |
+|[Lync Server 2010 Resource Kit-Tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Mai 2012 |
+|[Lync Server 2010-Tool für Stress und Leistung](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|März 2011 |
+|[Visio-Schablone für lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Februar 2011 |
+|[Lync Server 2010 Web Scheduler](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|April 2011 |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Lync 2010-Dokumentation zum Herunterladen
 
 Paketname/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[Lync Server 2010-Dokumentationshilfedatei ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|März 2012 |
-|[Lync Server 2010-Willkommensseite ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Oktober 2012 |
-|[Chat mit einem Experten für Microsoft Lync Server 2010, Dokumentation ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|März 2012 |
-|[Microsoft Lync 2010 – Anmerkungen zu dieser Version](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3) (ASPX-Datei)|Januar 2011 |
-|[Microsoft Lync Server 2010 – Anmerkungen zu dieser Version ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Januar 2011 |
-|[Microsoft Lync Server 2010, Infodatei zum Release Candidate (RC) des Planungstools ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Januar 2011 |
-|[Lync Server 2010 – Diagramme für Edgeserver-Referenzarchitektur ](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|März 2011 |
+|[Hilfedatei zur Dokumentation zu lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|März 2012 |
+|[Lync Server 2010-Willkommensseite](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Oktober 2012 |
+|[Chat-Experte für Microsoft lync Server 2010-Dokumentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|März 2012 |
+|[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3). aspx)|Januar 2011 |
+|[Anmerkungen zu dieser Version von lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Januar 2011 |
+|[Infodatei zum lync Server 2010-Planungs Tool](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Januar 2011 |
+|[Lync Server 2010-Referenzarchitektur Diagramme](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|März 2011 |
 
 ### <a name="resource-kit-technical-reference"></a>Resource Kit (technische Referenz)
 
@@ -208,9 +208,9 @@ Auf der [Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/dow
 
 Paketname/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[Lync Server 2010-Gruppen-Chat](https://www.microsoft.com/download/en/details.aspx?id=12480) |November 2010 |
-|[Lync Server 2010-Gruppen-Chat-Verwaltungstool](https://www.microsoft.com/download/en/details.aspx?id=3610) |November 2010 |
-|[Lync 2010-Gruppen-Chat](https://www.microsoft.com/download/en/details.aspx?id=2651) |November 2010 |
+|[Lync Server 2010-Gruppen-Chat](https://www.microsoft.com/download/en/details.aspx?id=12480) |November 2010 |
+|[Lync Server 2010-Gruppen Chat-Administrator Tool](https://www.microsoft.com/download/en/details.aspx?id=3610) |November 2010 |
+|[Lync 2010-Gruppen-Chat](https://www.microsoft.com/download/en/details.aspx?id=2651) |November 2010 |
 
 ### <a name="trial-software"></a>Testsoftware
 

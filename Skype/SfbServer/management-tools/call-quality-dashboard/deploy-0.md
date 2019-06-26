@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: erfahren Sie mehr über den Bereitstellungsprozess für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3cc3b81180453454f8615d31f57911c0958553c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274842"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221566"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen eines Anruf Qualitäts Dashboards für Skype for Business Server
  
@@ -140,7 +140,7 @@ Wenn der Debugmodus aktiviert ist, werden detaillierte Protokollmeldungen angeze
 Auf die Hauptseite des Portals `http://<machinename>/CQD`kann über zugegriffen werden. 
 ## <a name="managing-user-access-for-the-portal"></a>Verwalten des Benutzerzugriffs für das Portal
 
-Für die Verwaltung der Benutzerautorisierung für das Portal empfehlen wir die Verwendung der URL-Autorisierung, die in IIS 7,0 eingeführt wurde. Weitere Informationen zur IIS-Sicherheit finden Sie unter [Grundlegendes zur IIS 7,0-URL-Autorisierung ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+Für die Verwaltung der Benutzerautorisierung für das Portal empfehlen wir die Verwendung der URL-Autorisierung, die in IIS 7,0 eingeführt wurde. Weitere Informationen zur IIS-Sicherheit finden Sie unter [Grundlegendes zur IIS 7,0-URL-Autorisierung](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
 Jede Website oder Webanwendung erbt die für das gesamte IIS konfigurierte Standard-URL-Autorisierung, die in der Regel "alle Benutzer zulassen" lautet. Wenn der Zugriff auf das Portal restriktiver sein muss, können Administratoren den Zugriff nur für bestimmte Benutzergruppen gewähren, indem Sie die "Autorisierungsregeln" bearbeiten.
   
@@ -233,7 +233,7 @@ So aktivieren Sie SSL/TLS in IIS und erzwingen, dass Benutzer über sicheres HTT
   
 1. Konfigurieren von Secure Sockets Layer in IIS finden Sie unter [Konfigurieren von Secure Sockets Layer in IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Wenn Sie fertig sind `http` , `https`ersetzen Sie durch.
     
-2. Anweisungen zum Aktivieren von TLS in den SQL Server-Verbindungen finden Sie unter [Aktivieren der SSL-Verschlüsselung für eine Instanz von SQL Server mithilfe der Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
+2. Anweisungen zum Aktivieren von TLS in den SQL Server-Verbindungen finden Sie unter [Aktivieren der SSL-Verschlüsselung für eine Instanz von SQL Server mithilfe der Microsoft Management Console](https://support.microsoft.com/en-us/kb/316898/).
     
 ## <a name="cube-sync-fails"></a>Fehler bei der Cube-Synchronisierung
 

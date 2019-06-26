@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Ausführliche Informationen finden Sie unter Kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1.
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298539"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222116"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen der SQL-Spiegelung für den Back-End-Server mit höherer Verfügbarkeit in Skype for Business Server 2015
 
 
-Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Ausführliche Informationen finden Sie unter [Kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Ausführliche Informationen finden Sie unter [Kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 Im Allgemeinen müssen folgende Voraussetzungen erfüllt sein, um eine SQL-Spiegelung zwischen zwei Back-End-Servern mit einem Zeugen auszuführen:
 
@@ -50,7 +50,7 @@ Bei der SQL-Spiegelung können Sie die Topologie für die Spiegelung entweder be
 > Die Verwendung des Topologie-Generators oder von Cmdlets zum Einrichten und Entfernen der SQL-Spiegelung wird nur unterstützt, wenn die Server für primär-, Spiegel-und Zeugen (falls erwünscht) zur gleichen Domäne gehören. Wenn Sie die SQL-Spiegelung für Server einrichten möchten, die sich in unterschiedlichen Domänen befinden, erhalten Sie weitere Informationen in der Dokumentation zu SQL Server.
 
 > [!IMPORTANT]
-> Bei jeder Änderung an einer Spiegelungsbeziehung einer Back-End-Datenbank müssen Sie alle Front-End-Server im Pool neu starten.  > Wenn Sie eine Änderung der Spiegelung vornehmen möchten (beispielsweise die Position einer Spiegelung ändern), müssen Sie den Topologie-Generator verwenden, um diese drei Schritte auszuführen:
+> Bei jeder Änderung an einer Spiegelungsbeziehung einer Back-End-Datenbank müssen Sie alle Front-End-Server im Pool neu starten.  > Sie eine Änderung der Spiegelung vornehmen möchten (beispielsweise das Ändern des Speicherorts einer Spiegelung), müssen Sie den Topologie-Generator verwenden, um diese drei Schritte auszuführen:
 
 1. Entfernen Sie die Spiegelung vom alten Spiegelserver.
 
@@ -59,7 +59,7 @@ Bei der SQL-Spiegelung können Sie die Topologie für die Spiegelung entweder be
 3. Veröffentlichen Sie die Topologie.
 
 > [!NOTE]
-> Sie müssen eine Dateifreigabe erstellen, in die die Spiegeldateien geschrieben werden, und der Dienst, unter dem SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server-Dienst unter dem Kontext des Netzwerkdiensts ausgeführt wird, können Sie \<den\>\\Freigabe\>Berechtigungen Domänen <SQLSERVERNAME $ sowohl der Prinzipal-als auch der Spiegelungs-SQL-Server hinzufügen. Das $-Zeichen ist wichtig, um anzugeben, dass es sich um ein Computerkonto handelt.
+> Sie müssen eine Dateifreigabe erstellen, in die die Spiegeldateien geschrieben werden, und der Dienst, unter dem SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server-Dienst unter dem Kontext des Netzwerkdiensts ausgeführt wird, können Sie \<den\> \\ Freigabeberechtigungen Domänen<\>sqlservername $ sowohl der Prinzipal-als auch der Spiegelungs-SQL-Server hinzufügen. Das $-Zeichen ist wichtig, um anzugeben, dass es sich um ein Computerkonto handelt.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>So konfigurieren Sie die SQL-Spiegelung beim Erstellen eines Pools im Topologie-Generator
 

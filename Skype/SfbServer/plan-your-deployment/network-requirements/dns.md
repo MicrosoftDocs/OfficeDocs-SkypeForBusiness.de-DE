@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Zusammenfassung: Überprüfen Sie die DNS-Überlegungen in diesem Thema vor der Implementierung von Skype for Business Server.'
-ms.openlocfilehash: 13dd8b65c52329ff2db0ac3d7d57eeba990e29f6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297064"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221224"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>DNS-Anforderungen für Skype for Business Server
 
@@ -65,7 +65,7 @@ In den folgenden Tabellen werden die DNS-Einträge von Skype for Business Server
 |SRV   |\_sipfederationtls. \_TCP. * \<sipdomain\> * <br/>\_sipfederationtls. \_TCP. <span> </span> *contoso<span></span>. com*  | Access Edge Service-FQDN <br/> EdgePool-int.<span></span>*contoso<span></span>. com*  |Erstellen Sie für jede SIP-Domäne, in der sich mobile Clients für iOS oder Windows Phone befinden, einen SRV-Eintrag.   |Für die Unterstützung von mobilen Clients   |
 |A/AAAA   |Administrator-URL  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |VIP des HLB-Front-End-Pools  <br/> 192.168.21.121   |Skype for Business Server-Systemsteuerung, siehe [einfache URLs](dns.md#BK_Simple)  ||
 |A/AAAA   |Besprechungs-URL  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |VIP des HLB-Front-End-Pools  <br/> 192.168.21.121   |Online Besprechungen, siehe [einfache URLs](dns.md#BK_Simple)  ||
-|A/AAAA   |Einwahl-URL  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |VIP des HLB-Front-End-Pools  <br/> 192.168.21.121   |Einwahlkonferenzen, siehe [einfache URLs](dns.md#BK_Simple)  ||
+|A/AAAA   |Einwahl-URL  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |VIP des HLB-Front-End-Pools  <br/> 192.168.21.121   |Einwahlkonferenzen, siehe [Einfache URLs](dns.md#BK_Simple).  ||
 |A/AAAA   |FQDN für interne Webdienste  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |VIP des HLB-Front-End-Pools  <br/> 192.168.21.121   |Skype for Business-Web-Service, der von Skype for Business Web App verwendet wird   ||
 |A/AAAA   |Office Web Apps-Server Pool-FQDN  <br/> OWA. <span> </span>Contoso<span></span>. com   | Office Web Apps-Server Pool-VIP-Adresse <br/> 192.168.1.5   |Definiert den FQDN des Office Web Apps-Server Pools   ||
 |A/AAAA   |  Interner Web-FQDN <br/> Web-int.<span></span>Contoso<span></span>. com   | VIP-Adresse des Front-End-Pools <br/> 192.168.21.121   |Definiert den internen Web-FQDN, der von Skype for Business Web App verwendet wird.  <br/> Wenn Sie für diesen Pool den DNS-Lastenausgleich verwenden, können die FQDNs des Front-End-Pools und der internen Webfarm nicht identisch sein.   ||
@@ -98,8 +98,8 @@ Das folgende Diagramm zeigt ein Beispiel mit internen und externen DNS-Einträge
 |SRV   |\_sipfederationtls. \_TCP. * \<sipdomain\> * <br/>\_sipfederationtls. \_TCP. * <span> </span>Contoso<span></span>. com*  |FQDN des externen Zugriffs-Edge  <br/>*Access1. <span> </span>Contoso<span></span>. com*  |Um den Push-Benachrichtigungsdienst und den Apple Push-Benachrichtigungsdienst zu unterstützen, erstellen Sie für jede SIP-Domäne einen SRV-Eintrag. &#x2778;  ||
 |A/AAAA   |Externer Front-End-Pool-Webdienste-FQDN  <br/>*Web-extern.<span></span>Contoso<span></span>. com*  |Reverse Proxy Public IP Address, Proxies to the External Web Services VIP für Ihren Front-End-Pool #a0 <br/> 131.107.155.1 Proxy to 192.168.21.120   |Externe Schnittstelle des Front-End-Pools, die von Skype for Business Web App verwendet wird   |Y   |
 |A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. * <span> </span>Contoso<span></span>. com*  |Reverse Proxy Public IP Address, behebt die externen Webdienste VIP für Ihren Director-Pool, falls vorhanden, oder für Ihren Front-End-Pool, wenn Sie keinen Director haben #a0 <br/> 131.107.155.1 Proxy to 192.168.21.120   | Externer Eintrag für Client-AutoErmittlung, auch von Mobility, Skype for Business Web App und Scheduler Web App, vom Reverse-Proxy-Server aufgelöst <br/> Um den Push-Benachrichtigungsdienst und den Apple Push-Benachrichtigungsdienst zu unterstützen, erstellen Sie für jede SIP-Domäne mit Microsoft lync Mobile-Clients einen SRV-Eintrag. 3  |Y   |
-|A/AAAA   |treffen. * \<sipdomain\>* <br/> treffen. * <span> </span>Contoso<span></span>. com*  |Reverse Proxy Public IP Address, behebt die externe Weboberfläche für den Front-End-Pool  <br/> 131.107.155.1 Proxy to 192.168.21.120   |Proxy für Skype for Business Web Service  <br/> [Einfache URLs](dns.md#BK_Simple) anzeigen  |Y   |
-|A/AAAA   |Einwahl.*\<sipdomain\>* <br/> Einwahl.*<span></span><span></span>contoso. com*  |Reverse Proxy Public IP Address, Proxies an die externe Weboberfläche für den Front-End-Pool  <br/> 131.107.155.1 Proxy to 192.168.21.120   |Proxy für Skype for Business Web Service  <br/> [Einfache URLs](dns.md#BK_Simple) anzeigen  |Y   |
+|A/AAAA   |treffen. * \<sipdomain\>* <br/> treffen. * <span> </span>Contoso<span></span>. com*  |Reverse Proxy Public IP Address, behebt die externe Weboberfläche für den Front-End-Pool  <br/> 131.107.155.1 Proxy to 192.168.21.120   |Proxy für Skype for Business Web Service  <br/> Siehe [Einfache URLs](dns.md#BK_Simple).  |Y   |
+|A/AAAA   |Einwahl.*\<sipdomain\>* <br/> Einwahl.*<span></span><span></span>contoso. com*  |Reverse Proxy Public IP Address, Proxies an die externe Weboberfläche für den Front-End-Pool  <br/> 131.107.155.1 Proxy to 192.168.21.120   |Proxy für Skype for Business Web Service  <br/> Siehe [Einfache URLs](dns.md#BK_Simple).  |Y   |
 |A/AAAA   |Office Web Apps-Server Pool-FQDN  <br/> OWA. <span> </span>Contoso<span></span>. com   | Reverse Proxy Public IP Address, Proxies to the External Web Interface für den Office Web Apps Server <br/> 131.107.155.1 als Proxy für 192.168.1.5   | Office Web Apps-Server Pool-VIP-Adresse <br/> 192.168.1.5   |Definiert den FQDN des Office Web Apps-Server Pools   |
 
 &#x2776; erforderlich, um den Verbund bereitzustellen, andernfalls optional.

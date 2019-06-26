@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Sie können netzwerkregionen, Netzwerk Websites und Netzwerk-Subnetze in Skype for Business Server erstellen oder ändern. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP-Features verwendet: medienumgehung, Anrufsteuerung und standortbasiertes Routing.'
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291200"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221483"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business
 
 Sie können netzwerkregionen, Netzwerk Websites und Netzwerk-Subnetze in Skype for Business Server erstellen oder ändern. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP-Features verwendet: medienumgehung, Anrufsteuerung und standortbasiertes Routing.
 
-Die erweiterten Enterprise-VoIP-Funktionen sind [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Für alle diese Funktionen müssen Sie Netzwerkregionen, Netzwerkstandorte und Subnetze erstellen. Beispiel: Für alle diese Funktionen ist es erforderlich, dass jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort und jeder Netzwerkstandort einer Netzwerkregion zugeordnet ist. Weitere Informationen zu diesen Begriffen finden Sie unter [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Zu den erweiterten Enterprise-VoIP-Features gehören [Anrufsteuerung](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [medienumgehung](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [Orts basiertes Routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Für alle diese Funktionen müssen Sie Netzwerkregionen, Netzwerkstandorte und Subnetze erstellen. Beispiel: Für alle diese Funktionen ist es erforderlich, dass jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort und jeder Netzwerkstandort einer Netzwerkregion zugeordnet ist. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 Für die Anrufsteuerung und E9-1-1 gelten bei den Netzwerkstandorten zusätzliche Konfigurationsanforderungen:
 

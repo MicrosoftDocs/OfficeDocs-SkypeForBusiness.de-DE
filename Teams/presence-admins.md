@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748443"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222093"
 ---
 # <a name="user-presence-in-teams"></a>Benutzer Anwesenheit in Teams
 
@@ -56,10 +56,11 @@ Es gibt ein 15-minütiges Inaktivitäts-Timeout, nach dem der aktuelle Anwesenhe
 
 Benutzer können angeben, wer durchbrechen kann (setzen Sie die Einstellung "nicht stören" außer Kraft). Diese Einstellungen sind in-app verfügbar.
 
-## <a name="teams-is-not-skype-for-business"></a>Teams ist nicht Skype for Business
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 
-Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sich in Teams:
-- Die Anwesenheits Freigabe ist in Teams für Benutzer in der Organisation immer aktiviert. Der Datenschutz (die Entscheidung, wer Anwesenheitsinformationen sehen kann) steht in Teams nicht zur Verfügung.
+Die folgenden Administratoreinstellungen für Skype for Business unterscheiden sich in Teams:
+
+- In Teams ist die Anwesenheits Freigabe für Benutzer in der Organisation immer aktiviert. Der Datenschutz (die Entscheidung, wer Anwesenheitsinformationen sehen kann) steht in Teams nicht zur Verfügung.
 - Anwesenheits Freigaben für alle (einschließlich der Verbunddienste) sind für Benutzer in Teams immer aktiviert. Ihre Kontaktliste (wenn Sie eine in Skype for Business hatte) ist unter **Chat #a0 Kontakte** oder unter **Anrufe #a1 Kontakte**sichtbar.
 - Der Client stört nicht, und Durchbruch Features sind für Benutzer in Teams immer aktiviert.
 - Kalender (einschließlich Abwesenheits-und anderer Kalenderinformationen) die Integration ist für Benutzer in Microsoft Teams immer aktiviert, wenn Sie in Outlook integriert ist.
@@ -67,7 +68,6 @@ Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sic
 
 > [!NOTE]
 > Die Fähigkeit eines Teams-Administrators, diese Einstellungen anzupassen, wird derzeit nicht unterstützt.
-
 
 ## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 

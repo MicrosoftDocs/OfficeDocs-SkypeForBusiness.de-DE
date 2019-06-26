@@ -3,7 +3,7 @@ title: Gastfunktionalität
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/18
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 52ad89d253c58d8c840698c32f697d91d7d69695
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748380"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221899"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -29,9 +29,11 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
     
 ![Screenshot mit einem Beispiel einer Willkommens-e-Mail-Nachricht](media/guest-experience-image1.png)
     
-Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
+Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispiel Teams zu sehen ist, wird in einem Banner "dieses Team hat Gäste" angezeigt, und neben dem Namen jedes Gasts wird eine "(Gast)"-Beschriftung angezeigt.
     
 ![Screenshot mit Banner Benachrichtigungs Gastbenutzern] (media/guest-experience-image2.png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, die mit dem Wort Guest neben dem Namen der Person gekennzeichnet sind.")
+
+## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich von Teammitgliedern und Gast Funktionen
 
 In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
 
@@ -95,10 +97,10 @@ In der folgenden Tabelle sind die Anruf-und besprechungsfeatures aufgeführt, di
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 F. Wie verlasse ich eine Organisation, zu der ich eingeladen wurde?<br>
-Eine. Wenn Sie zu einer Organisation eingeladen wurden, in der Sie nicht Gast sein möchten, können Sie Self-Service die Organisation verlässt. Weitere Informationen finden Sie unter [verlassen einer Organisation als Gastbenutzer](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Alternativ können Sie auch den Administrator der Organisation bitten, Sie von Ihrem Mandanten zu entfernen. Beachten Sie, dass Sie in beiden Fällen erneut zu dem Mandanten eingeladen werden müssen, wenn Sie in Zukunft auf die Organisation zugreifen möchten.
+Eine. Wenn Sie zu einer Organisation eingeladen wurden, in der Sie nicht Gast sein möchten, können Sie die Organisation belassen. Weitere Informationen finden Sie unter [verlassen einer Organisation als Gastbenutzer](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Alternativ können Sie den Administrator der Organisation bitten, Sie von Ihrem Mandanten zu entfernen. Beachten Sie, dass Sie in beiden Fällen erneut zu dem Mandanten eingeladen werden müssen, wenn Sie zukünftig auf die Organisation zugreifen möchten.
 
 F. Haben Gäste die gleichen Fähigkeiten wie Teammitglieder?<br>
-Eine. Nummer Weitere Informationen dazu, was ein Gast tun kann und was nicht, finden Sie unter [Gast Funktionen in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+Eine. Nummer Weitere Informationen dazu, was ein Gast tun kann und was nicht, finden Sie unter [Vergleich von Teammitgliedern und Gast Funktionen](#comparison-of-team-member-and-guest-capabilities) in diesem Artikel.
 
 F. Wie viele Gäste kann ich einladen?<br>
 Eine. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
@@ -113,8 +115,10 @@ F. Können Gäste in Dateien suchen?<br>
 Eine. Nummer
 
 F. Können Gäste Dateien anfügen?<br>
-Eine. Ja, ein Gast kann Dateien auf diese zwei Arten anfügen: • Wählen Sie im linken Bereich Dateien aus, und navigieren Sie dann zum Dateispeicherort.
-• Hochladen von Ihrem Computer.
+Eine. Ja, ein Gast kann Dateien auf diese zwei Arten anfügen:
+
+   - Wählen Sie im linken Bereich Dateien aus, und navigieren Sie dann zum Dateispeicherort.
+   - Laden Sie Dateien von Ihrem Computer hoch.
 
 F. Kann ein Gast eine Datei in einem privaten Chat herunterladen?<br>
 Eine. Ja, Sie können eine Datei von einem Mitglied in einem privaten Chat empfangen und dann auf Ihren Desktop herunterladen.

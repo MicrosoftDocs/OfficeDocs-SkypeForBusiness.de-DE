@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Verwaltung von Front-End-Pools in Skype for Business Server, einschließlich Verwalten von Pools, Quorum Verlust und speziellen Schritten für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297470"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221723"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -70,7 +70,7 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann er keinen Quorum Verlust 
 |8-9  <br/> |Beliebige 4 der ersten 7 Server  <br/> |
 |10-12  <br/> |Beliebige 5 der ersten 9 Server  <br/> |
    
-In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronologischer Reihenfolge beim ersten Start des Pools aufgeholt wurden. Um diese Server zu ermitteln, können Sie das `Get-CsComputer` Cmdlet mit der ` -PoolFqdn` Option verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und die oben in der Liste sind die ersten Server.
+In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronologischer Reihenfolge beim ersten Start des Pools aufgeholt wurden. Um diese Server zu ermitteln, können Sie das `Get-CsComputer` Cmdlet mit der `-PoolFqdn` Option verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und die oben in der Liste sind die ersten Server.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte, um zu bestimmen, dass Pools funktionsbereit sind
 

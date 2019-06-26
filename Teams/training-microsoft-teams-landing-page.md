@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957541"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221333"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -120,7 +120,7 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
                 <div class="card">
                     <div class="cardText">
                         <h3>Einführung der Specialist-Zertifizierung</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.</a></p>
                     </div>
                 </div>
             </div>

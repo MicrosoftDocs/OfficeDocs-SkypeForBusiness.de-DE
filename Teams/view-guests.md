@@ -16,24 +16,24 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f86ef6a8bc152400b8f845b926b24b07b00067e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e068e6e754ab28f3c068c59c92c7a27d13e2da1d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884803"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220894"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================
-Jeder Benutzer in einem Team kann alle Mitglieder des Teams, einschließlich Gästen, über den **Verwalten Team** in Microsoft-Teams, finden Sie unter. [Anzeigen, die in einem Team oder in einem Kanal wird](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) hat weitere Details.
+Jeder in einem Team kann alle Mitglieder eines Teams, einschließlich Gäste, über Team in Microsoft Teams **Verwalten** sehen. Weitere Informationen [finden Sie unter Anzeigen von Personen in einem Team oder in einem Kanal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) .
 
-Gastbenutzer identifiziert:
+So identifizieren Sie Gastbenutzer:
 
-1.  Melden Sie sich bei Microsoft 365 Administrationscenter an.
-2.  Wählen Sie **Admin zentriert** > **Teams**.
-3.  Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Benutzer**. **Gast** an den Anzeigenamen aller Benutzer Gast angefügt wurden, werden angezeigt.
+1.  Anmelden beim Microsoft 365 Admin Center.
+2.  Wählen Sie **Admin Center** > **Teams**aus.
+3.  Wählen Sie im Microsoft Teams Admin Center die Option **Benutzer**aus. **Guest** wird an den Anzeigenamen von Gastbenutzern angefügt.
   
-Sie können auch Gastbenutzern über ein Team identifizieren, die Sie besitzen.  
+Sie können Gastbenutzer auch innerhalb eines Teams identifizieren, das Sie besitzen.  
 
 ## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 

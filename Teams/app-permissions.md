@@ -15,23 +15,23 @@ description: Hier erfahren Sie, welche Daten und Berechtigungen Apps von Ihrer O
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167e8d8e628927e470422bf9d0a21adb06e48b53
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 598fd2d9dc8c8942a2d82e136c8367afa4d8495e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859736"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221945"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
 Microsoft Teams-Apps stellen eine Möglichkeit dar, eine oder mehrere Funktionen in einem _App-Paket_ zu aggregieren, das installiert, aktualisiert und deinstalliert werden kann. Zu diesen Funktionen gehören folgende:
 
--   Bots
--   Messagingerweiterungen
--   Registerkarten
--   Connectors
+- Bots
+- Messagingerweiterungen
+- Registerkarten
+- Connectors
 
-Apps benötigen Einwilligungen der Benutzer und werden im Hinblick auf Richtlinien von der IT verwaltet. Größtenteils werden die Berechtigungen und Risikoprofile von Apps jedoch durch die Berechtigungen und Risikoprofile der jeweils enthaltenen Funktionen definiert. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf Funktionsebene.
+Apps benötigen Einwilligungen der Benutzer und werden im Hinblick auf Richtlinien von der IT verwaltet. Die Berechtigungen und das Risikoprofil einer App werden jedoch größtenteils durch die Berechtigungen und Risikoprofile der Funktionen definiert, die in der App enthalten sind. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf Funktionsebene.
 
 Die unten in Großbuchstaben aufgeführten Berechtigungen, zum Beispiel RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden in der [Entwicklerdokumentation für Microsoft Teams](https://aka.ms/teamsdevdocs) oder den [Berechtigungen für Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) nicht erwähnt. Es handelt sich einfach um eine nur in diesem Artikel verwendete beschreibende Kurzschreibweise.
 

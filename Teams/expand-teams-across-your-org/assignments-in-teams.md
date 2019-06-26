@@ -15,12 +15,12 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131520"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221257"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -66,7 +66,7 @@ Damit Sie Turnitin für Ihre Organisation erfolgreich aktivieren können, müsse
 Hier sind einige Anweisungen, die Ihnen bei der Behebung dieser Informationen helfen.
 
 Die TurnitinApiUrl ist die Hostadresse Ihrer Admin-Konsole.
-Beispiel. https:[]()//your-Tenant-Name.Turnitin.com
+Beispiel. `https://your-tenant-name.turnitin.com`
 
 In der Admin-Konsole können Sie eine Integration und einen API-Schlüssel erstellen, der der Integration zugeordnet ist.
 
