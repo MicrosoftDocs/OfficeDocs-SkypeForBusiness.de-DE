@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116025"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221536"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -44,13 +44,13 @@ Apps sind Registerkarten, Connectors, Bots oder eine Kombination dieser drei, di
 
 #### <a name="default-apps"></a>Standard-Apps
 
-Diese Apps, wie Planner, Lob und Wetter, werden von Teams bereitgestellt. Um eine App zu aktivieren, aktivieren Sie das Kontrollkästchen für diese App. Um eine App zu deaktivieren, deaktivieren Sie das Kontrollkästchen für diese App. 
+Standard-Apps, wie Planner, Lob und Wetter, werden von Teams bereitgestellt. Um eine App zu aktivieren, aktivieren Sie das Kontrollkästchen für diese App. Um eine App zu deaktivieren, deaktivieren Sie das Kontrollkästchen für diese App.
 
 ![Screenshot des Abschnitts für Standard-Apps.](media/teams-manage-features-in-office365-image1.png "Screenshot des Abschnitts für Standard-Apps")
 
 #### <a name="external-apps"></a>Externe Apps
 
-Diese Apps werden von Drittanbietern bereitgestellt. Sie können die folgenden Einstellungen für externe Apps konfigurieren.
+Externe Apps werden von Drittanbietern bereitgestellt. Sie können die folgenden Einstellungen für externe Apps konfigurieren.
 
 ![Screenshot des Abschnitts für externe Apps.](media/teams-manage-features-in-office365-image2.png "Screenshot des Abschnitts für externe Apps, mit Einstellungen, die Sie aktivieren oder deaktivieren können")
 
@@ -65,7 +65,7 @@ Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Ce
 
 ### <a name="external-access"></a>Externer Zugriff
 
-**Externer Zugriff** ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Um den externen Zugriff zu konfigurieren, wechseln Sie zu [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen).
+**Externer Zugriff** ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation oder Domäne. Um den externen Zugriff zu konfigurieren, wechseln Sie zu [Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen](let-your-teams-users-communicate-with-other-people.md).
 
 Hinzufügen oder Sperren einer Domäne:
 
@@ -118,7 +118,7 @@ Die Verzeichnissuche in Microsoft Teams verwendet Exchange-Adressbuchrichtlinien
 Mit diesen Einstellungen können Sie konfigurieren, wie die Benutzer von Skype for Business auf Microsoft Teams aktualisiert werden. 
 
 #### <a name="coexistence-mode"></a>Koexistenzmodus
-Sie können einen Koexistenzmodus angeben: **Teams only** (Nur Microsoft Teams), **Inseln** (Microsoft Teams und Skype for Business werden zusammen verwendet) oder **Skype for Business only** (Nur Skype for Business). Der ausgewählte Koexistenzmodus bestimmt, wie eingehende Anrufe und Chats weitergeleitet werden und welche App die Benutzer zum Einleiten von Chats und Anrufen oder zum Planen von Besprechungen verwenden. Detaillierte Informationen zu Koexistenzmodi finden Sie unter [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Sie können einen Koexistenzmodus angeben: **Nur Microsoft Teams**, **Inseln** (Microsoft Teams und Skype for Business werden zusammen verwendet) oder **Nur Skype for Business**. Der ausgewählte Koexistenzmodus bestimmt, wie eingehende Anrufe und Chats weitergeleitet werden und welche App die Benutzer zum Einleiten von Chats und Anrufen oder zum Planen von Besprechungen verwenden. Detaillierte Informationen zu Koexistenzmodi finden Sie unter [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>„App preferences“ (App-Einstellungen)
 
