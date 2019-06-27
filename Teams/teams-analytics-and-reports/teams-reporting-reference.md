@@ -3,7 +3,7 @@ title: Microsoft Teams – Analyse und Berichterstellung
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -14,38 +14,38 @@ f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Lernen Sie die Teams-Berichte, die in der Verwaltungskonsole von Microsoft-Teams zur Verfügung stehen.
+description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225016"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253794"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
-Eine neue Analyse und Berichte Erfahrung für Microsoft-Teams, ist im Microsoft-Teams, Administrationscenter verfügbar. Sie können verschiedene Berichte abzurufenden Einblicke in wie Benutzer in Ihrer Organisation Teams nutzen ausführen. Beispielsweise können Sie sehen, wie viele Benutzer kommunizieren über DDE-Kanal und Chatnachrichten und die Arten von Geräten, die sie zur Verbindung von Teams verwenden. Ihrer Organisation kann anhand der Informationen aus den Berichten besser verstehen Verwendungsmuster, Business treffe sowie Schulung und Kommunikation Maßnahmen informieren unterstützen.
+Eine neue Analyse-und Berichterstellungsumgebung für Microsoft Teams steht im Microsoft Teams Admin Center zur Verfügung. Sie können unterschiedliche Berichte ausführen, um Einblicke in die Verwendung von Teams durch Benutzer in Ihrer Organisation zu erhalten. So können Sie beispielsweise sehen, wie viele Benutzer über Kanal-und Chatnachrichten kommunizieren und welche Arten von Geräten für die Verbindung zu Teams verwendet werden. Ihre Organisation kann die Informationen aus den Berichten verwenden, um Nutzungsmuster besser zu verstehen, geschäftliche Entscheidungen zu treffen und Schulungs-und Kommunikationsaktivitäten zu informieren.
 
-## <a name="how-to-access-the-reports"></a>Gewusst wie: Zugriff auf die Berichte
+## <a name="how-to-access-the-reports"></a>So greifen Sie auf die Berichte zu
 
-Zugriff auf die Berichte müssen Sie ein globaler Administrator in Office 365, Teams Dienstadministrator oder Skype für Business-Administrator sein.  Wechseln Sie zur Microsoft-Teams-Verwaltungskonsole im linken Navigationsbereich, wählen Sie die **Analytics & Berichte**, und wählen Sie den Bericht, den Sie ausführen möchten, klicken Sie unter **Bericht**.
+Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administrator in Office 365, Team Dienstadministrator oder Skype for Business-Administrator sein.  Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analyse #a0 Berichte**aus, und wählen Sie dann unter **Bericht**den Bericht aus, den Sie ausführen möchten.
 
 > [!NOTE]
-> Die Berichte in der Verwaltungskonsole von Microsoft-Teams, unterscheiden sich von die Berichte für Teams, die Teil der Office 365-Berichte im Office 365 Administrationscenter sind. Weitere Informationen über die Berichte im Office 365 Administrationscenter finden Sie unter [Verwenden von Berichten für Microsoft-Teams, Aktivität](../teams-activity-reports.md)
+> Die Berichte im Microsoft Teams Admin Center sind unabhängig von den Aktivitätsberichten für Teams, die Teil der Office 365-Berichte im Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie unter [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md) .
 
-## <a name="teams-reporting-reference"></a>Teams reporting Verweis
+## <a name="teams-reporting-reference"></a>Referenz für Teams-Berichterstattung
 
-Hier ist eine Liste der Teams Berichte in der Microsoft-Teams-Verwaltungskonsole und eine Übersicht über die Informationen, die in jedem Bericht verfügbar ist verfügbar.
+Nachfolgend finden Sie eine Liste der Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen, sowie eine Übersicht über die Informationen, die in den einzelnen Berichten zur Verfügung stehen.
 
-Wir sind die Teams reporting Erfahrung und Hinzufügen von Features und Funktionen verbessern. Im Laufe der Zeit werden wir zusätzliche Funktionen, die in die Berichte erstellen und Hinzufügen von neuen Berichten in der Verwaltungskonsole von Microsoft-Teams.
+Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen in den Berichten erstellen und neue Berichte im Microsoft Teams Admin Center hinzufügen.
 
 |Bericht  |Was wird gemessen? |
 |---------|---------|
-|[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanäle<br/>Aktiven Kanäle<br/>Nachrichten<br/>Des Teams für den Datenschutz<br/>Gäste in einem team   |
-|[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, die, denen ein Benutzer teilgenommen<br/>Nachrichten pro Benutzer in einem Chat Team bereitgestellt<br/>Ein Benutzer von Nachrichten in einem privaten Chat ermöglichen<br/>Datum der letzten Aktivität eines Benutzers     |
-|[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>iOS-Benutzer<br/>Android-Telefon-Benutzer     |
+|[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanälen<br/>Aktive Kanäle<br/>Meldungen<br/>Datenschutzeinstellungen für Teams<br/>Gäste in einem Team   |
+|[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, an denen ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
+|[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>IOS-Benutzer<br/>Android-Telefon Nutzer     |
 
 > [!NOTE]
-> Die Berichte Teams anzeigen Daten für aktive Benutzer und aktiven Teams. Wenn ein Benutzer in Ihrer Organisation in Teams während der Datumsbereich nicht aktiv, die Sie für einen Bericht angegeben, ist beispielsweise nicht Daten für diesen Benutzer dieses Berichts enthalten.
+> In den Teams-Berichten werden Daten für aktive Benutzer und aktive Teams angezeigt. Wenn beispielsweise ein Benutzer in Ihrer Organisation während des für einen Bericht angegebenen Datumsbereichs nicht in Teams aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.

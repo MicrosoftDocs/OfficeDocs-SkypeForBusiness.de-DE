@@ -15,17 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221660"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253695"
 ---
 <a name="teams-guest-access-checklist"></a>Checkliste für Teams-Gastzugriff
 ==========================================
 
 Verwenden Sie diese Checkliste, damit Sie das Feature "Gastzugriff" in Microsoft Teams entsprechend den Einstellungen Ihrer Organisation aktivieren und konfigurieren können.
+
+> [!NOTE] 
+> Einschränkungen für die Zusammenarbeit finden Sie unter [Aktivieren der externen B2B-Zusammenarbeit und Verwalten der Personen, die Gäste einladen können](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="understand-the-limitations-for-guests"></a>Grundlegendes zu den Einschränkungen für Gäste
 
@@ -46,6 +49,9 @@ Weitere Informationen finden Sie unter [Was ist die Gastfreundlichkeit](guest-ex
 ### <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> Zurzeit unterstützt Microsoft Teams die Rolle gastinviter nicht. Die Umschaltfläche "Mitglieder können einladen" muss mindestens auf "Ja" gesetzt sein, damit Gastzugriff in Microsoft Teams funktioniert. Wenn Sie "Mitglieder können einladen" auf "Nein" festlegen und dann den Gastzugriff in Office 365-Gruppen und Microsoft Teams aktivieren, können Administratoren Gast Einladungen in Ihrem Verzeichnis steuern. Nachdem sich die Gäste im Verzeichnis befinden, können Sie Teams von Mitgliedern des nicht-Administrators hinzugefügt werden, die Teambesitzer sind.
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Wenn Ihre Gäste Lizenzfehler sehen
 

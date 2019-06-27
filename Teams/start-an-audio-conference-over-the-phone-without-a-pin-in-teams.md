@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie im Teams Admin Center die Teilnahme anonymer Anrufer an einer Besprechung aktivieren oder deaktivieren. '
-ms.openlocfilehash: 246eda17bd9e373a0dcecb4a75aa4f51efc8ae22
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 522970533565673b3fc68bcd5138006a6f6cf9d0
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344186"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253826"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
@@ -60,13 +60,13 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
 
 - Wenn Sie die PIN zurücksetzen möchten, lesen Sie [Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin-in-teams.md).
     
-- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN aktiviert ist, gilt Folgendes:
+- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN nicht erforderlich ist, ist deaktiviert:
     
   - Wenn die Besprechung nicht begonnen hat (also noch keine Teilnehmer anwesend sind): Der Anrufer wird gefragt, ob er der Organisator ist. Wenn er dies bejaht, wird er aufgefordert, seine PIN einzugeben. Wenn er die PIN eingegeben hat, wird die Besprechung gestartet, und der Benutzer nimmt teil.
     
   - Wenn die Besprechung bereits begonnen hat (also bereits Teilnehmer anwesend sind): Der Anrufer wird nicht gefragt, ob er der Organisator ist, und er wird nicht aufgefordert, die PIN einzugeben. Die Besprechung wurde bereits gestartet, und der Anrufer nimmt teil.
     
-- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN deaktiviert ist, gilt Folgendes:
+- Wenn der anonyme Zugriff oder das Starten einer Besprechung keine PIN erfordert, ist aktiviert:
     
   - Wenn die Besprechung nicht begonnen hat (also noch keine Teilnehmer anwesend sind): Der Anrufer wird nicht gefragt, ob er der Organisator ist, und er wird nicht aufgefordert, die PIN einzugeben. Da die Einstellung für den Organisator deaktiviert ist, beginnt die Besprechung, und der anonyme Anrufer nimmt an der Besprechung teil.
     

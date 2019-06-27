@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: In diesem Thema werden die Anforderungen an die Netzwerkleistung für Skype for Business Online-Dienste und die Art und Weise erläutert, wie Sie das Internet oder Express Route für die Verbindung zwischen Ihrem Netzwerk und Skype for Business Online verwenden können, basierend auf Ihrer Einschätzung des Netzwerks. Connectivity. Wenn Sie sich für die Bereitstellung von Azure Express Route für dedizierte Konnektivität mit Office 365 entschieden haben, finden Sie in diesem Dokument auch Anleitungen zum Planen Ihrer Express Route-Verbindungen in verschiedenen Szenarien für die Bereitstellung von Skype for Business Online.
-ms.openlocfilehash: 2ec74fb3137b8eac048187ac4015f857428b0851
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297836"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253719"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online
 
@@ -130,9 +130,9 @@ Für eine optimale Medienqualität von Skype for Business sind für eine Verbind
 |Latenz (eine Möglichkeit)  <br/> |< 50ms  <br/> |
 |Latenz (RTT oder Round-Trip-Zeit)  <br/> |< 100M  <br/> |
 |Burst-Paketverlust  <br/> |<10% während eines 200M-Intervalls  <br/> |
-|Paketverlust  <br/> |<1% in einem 15-15-Intervall  <br/> |
+|Paketverlust  <br/> |<1% in einem 15-minütigen Intervall  <br/> |
 |Paket Inter-arrival Jitter  <br/> |<30ms während eines 15-15-Intervalls  <br/> |
-|Paket Reihenfolge  <br/> |_lt_ 0,05% Pakete außerhalb der Reihenfolge  <br/> |
+|Paket Reihenfolge  <br/> |<0,05% Pakete außerhalb der Reihenfolge  <br/> |
    
  **Andere Leistungsziel Anforderungen:**
   
@@ -156,9 +156,9 @@ Im folgenden finden Sie die Netzwerk Leistungsziele oder-Schwellenwerte, die fü
 |Latenz (eine Möglichkeit)  <br/> |< 30ms  <br/> |
 |Latenz (RTT)  <br/> |< 60ms  <br/> |
 |Burst-Paketverlust  <br/> |<1% während eines beliebigen 200 MS-Intervalls  <br/> |
-|Paketverlust  <br/> |_lt_ 0,1% in einem 15-15-Intervall  <br/> |
+|Paketverlust  <br/> |<0,1% in einem 15-15-Intervall  <br/> |
 |Paket Inter-arrival Jitter  <br/> |<15ms während eines 15-15-Intervalls  <br/> |
-|Paket Reihenfolge  <br/> |_lt_ 0,01% Pakete außerhalb der Reihenfolge  <br/> |
+|Paket Reihenfolge  <br/> |<0,01% Pakete außerhalb der Reihenfolge  <br/> |
    
  **Andere Leistungsziel Anforderungen:**
   
@@ -288,7 +288,7 @@ Wenn Sie entschieden haben, dass Express Route basierend auf den oben aufgeführ
 
 Wenn alle Ihre Benutzer den Skype for Business Online-Dienst verwenden und ihre Büros an einem einzigen physikalischen Standort zentriert sind und Sie sich entscheiden, Azure Express Route bereitzustellen, sollten Sie eine einzelne Express Route-Verbindung zwischen Ihrer Unternehmenswebsite und der nächstgelegenen [Express Route-Peering-Standort](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
   
-Die folgende Abbildung zeigt ein Beispiel für diese Art der Bereitstellung. In diesem Beispiel ist Contoso eine Universität in Orlando, FL. Contoso hat 10.000-Dozenten und-Schüler. Die Internet Tests von Ihrem Standort auf Microsoft Edge-Websites zeigten einen Paketverlust von mehr als 5% während der Spitzenstunden. Das Unternehmen hat sich entschieden, eine dedizierte Verbindung zu Office 365 mithilfe von Express Route mit über bereitgestellter Bandbreite zu erhalten, damit Sie den Netzwerkengpass für Office 365 insbesondere für den Echtzeitverkehr von Skype for Business Online vermeiden können. Sie stellen eine Verbindung mit der Microsoft-Cloud über Express Route auf der Atlanta, GA MeetMe-Website her.
+Die folgende Abbildung zeigt ein Beispiel für diese Art der Bereitstellung. In diesem Beispiel ist Contoso eine Universität in Orlando, FL. Contoso hat 10.000-Dozenten und-Schüler. Die Internet Tests von Ihrem Standort auf Microsoft Edge-Websites zeigten einen Paketverlust von mehr als 5% während der Spitzenstunden. Sie haben sich entschieden, eine dedizierte Verbindung zu Office 365 mithilfe von Express Route mit über bereitgestellter Bandbreite zu erhalten, damit Sie den Netzwerkengpass für Office 365 insbesondere für den Echtzeitverkehr von Skype for Business Online vermeiden können. Sie stellen eine Verbindung mit der Microsoft-Cloud über Express Route auf der Atlanta, GA MeetMe-Website her.
   
 ![Express Route-einzelne Website.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
