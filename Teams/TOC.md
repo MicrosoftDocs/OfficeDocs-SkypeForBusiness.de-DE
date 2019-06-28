@@ -338,10 +338,12 @@
 ### [Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md)
 ### [Wie viele Telefonnummern können Sie bekommen?](how-many-phone-numbers-can-you-get.md)
+### [Suchen nach Telefonnummern für Benutzer](search-for-phone-numbers-for-users.md)
+### [Anzeigen einer Liste der Telefonnummern in Ihrer Organisation](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md)
 ### [Übertragen von Telefonnummern an Office 365](transfer-phone-numbers-to-office-365.md)
-### [Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+### [Übertragen von Telefonnummern – häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)
 
 ## Anrufweiterleitung
 ### [Was sind Wählpläne?](what-are-dial-plans.md)
