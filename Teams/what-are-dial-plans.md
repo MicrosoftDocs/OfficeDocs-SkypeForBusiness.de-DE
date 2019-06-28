@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) in Office 365 zur Verfügung stehen, und wie Sie eine für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288166"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347995"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -38,15 +38,15 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen
 
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
-Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. Die Bereiche unterscheiden sich von der lokalen Bereitstellung von Skype for Business Server. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Skype for Business Online anmelden. Als Administrator können Sie Bereichsebenen für Wähleinstellungen mithilfe von Remote-PowerShell verwalten und zuweisen.
+Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. Die Bereiche unterscheiden sich von der lokalen Bereitstellung von Skype for Business Server. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Teams oder Skype for Business Online anmelden. Als Administrator können Sie Bereichsebenen für Wähleinstellungen mithilfe von Remote-PowerShell verwalten und zuweisen.
 
-In Skype for Business Online gibt es zwei Arten von Wählplänen – Dienstbereich und Mandant (für Ihre Organisation), für die ein Bereich vorgesehen ist. Ein Wählplan für Dienstbereich ist für jedes Land/jede Region definiert, in dem das Office 365-Telefon System verfügbar ist. Jedem Benutzer wird automatisch der Dienst Land-Wählplan zugewiesen, der dem Benutzer zugewiesenen Office 365-Verwendungsstandort entspricht. Sie können den Wählplan für das Service Land nicht ändern, aber Sie können mandantenspezifische Wählpläne erstellen, die den Wählplan für das Service Land ergänzen. Wenn Clients bereitgestellt werden, erhalten Sie einen "effektiven Wählplan", der eine Kombination aus dem Wählplan des Service-Landes und dem entsprechend für den Mandanten verwendeten Wählplan ist. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandanten Wählplänen zu definieren, wie Sie möglicherweise bereits im Wählplan für das Service Land vorhanden sind.
+In Microsoft Teams und Skype for Business Online gibt es zwei Arten von Wählplänen: Dienstbereich und Mandant (für Ihre Organisation), für die ein Bereich vorgesehen ist. Ein Wählplan für Dienstbereich ist für jedes Land oder jede Region definiert, in dem das Office 365-Telefon System verfügbar ist. Jedem Benutzer wird automatisch der Dienst Land-Wählplan zugewiesen, der dem Benutzer zugewiesenen Office 365-Verwendungsstandort entspricht. Sie können den Wählplan für das Service Land nicht ändern, aber Sie können mandantenspezifische Wählpläne erstellen, die den Wählplan für das Service Land ergänzen. Wenn Clients bereitgestellt werden, erhalten Sie einen "effektiven Wählplan", der eine Kombination aus dem Wählplan des Service-Landes und dem entsprechend für den Mandanten verwendeten Wählplan ist. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandanten Wählplänen zu definieren, wie Sie möglicherweise bereits im Wählplan für das Service Land vorhanden sind.
 
 Mandantenwählpläne können weiter in zwei Bereiche unterteilt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Benutzers definiert und zuweist, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den zugewiesenen Benutzerwählplan. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Mandanten definiert, ohne einen Wählplan mit Bereichszuweisung eines Benutzers zuzuweisen, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den Mandantenwählplan.
 
-So sieht das Vererbungsmodell für Wahlpläne in Skype for Business Online aus:
+Im folgenden wird das Vererbungsmodell für Wählpläne in Teams und Skype for Business Online.
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Vererbung von Wählplänen in Teams und Skype for Business Online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Mögliche gültige Wählpläne:
 
@@ -85,9 +85,6 @@ Für Benutzer Wählpläne sollten Sie einen aussagekräftigen Namen angeben, der
 Wir empfehlen Ihnen, einen allgemeinen, schnell erkennbaren Namen des geografischen Standorts oder der Benutzergruppe zu verwenden, auf den der jeweilige Wählplan angewendet wird.
 
 ### <a name="external-access-prefix"></a>Präfix für externen Zugriff
-
-> [!CAUTION]
-> Der Präfix für externen Zugriff wird derzeit nicht unterstützt. 
 
 Sie können ein Präfix für externen Zugriff von bis zu vier Zeichen (#, * und 0-9) angeben, wenn Benutzer für eine externe Verbindung mindestens eine zusätzliche führende Ziffer (zum Beispiel 9) wählen müssen.
 
@@ -158,4 +155,4 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
