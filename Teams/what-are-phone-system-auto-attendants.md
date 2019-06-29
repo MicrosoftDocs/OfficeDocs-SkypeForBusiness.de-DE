@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Erfahren Sie, welche Cloud-automatischen Telefonzentralen sind und wie Sie verwendet werden.
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330356"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394547"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
 
@@ -55,8 +55,9 @@ Eine automatische Cloud-Telefonzentrale verfügt über die folgenden Features:
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen Telefonzentralen wichtig:
 
 - Für eine automatische Telefonzentrale ist ein zugeordnetes Ressourcenkonto erforderlich. Details zu Ressourcenkonten finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
-- Wenn Sie eine direkte Routing Nummer zuweisen möchten, müssen Sie die folgenden Lizenzen für Ihre Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5 mit dem Add-on\)Phone System erwerben und zuweisen.
-- Wenn Sie stattdessen eine Microsoft-Dienstnummer zuweisen, müssen Sie dem Ressourcenkonto \(Office 365 Enterprise E1, E3 oder E5 mit dem Telefon System-Add-on und einem Anrufplan die folgenden Lizenzen erwerben und zuweisen\).
+- Wenn Sie der automatischen Telefonzentrale eine Telefonnummer zuweisen möchten, müssen Sie eine der folgenden Lizenzen für Ihre Ressourcenkonten erwerben und zuweisen: 
+    - Office 365 Enterprise E1 oder E3 mit hinzugefügtem Telefon System
+    - Office 365 Enterprise E5 mit Telefon System
 - Sie müssen die Ressourcenkonten nur mit einer Telefonnummer lizenzieren, die Ihnen zugewiesen ist. In einer geschachtelten automatischen Telefonzentrale oder Anrufwarteschlange müssen Sie die restlichen automatischen Telefonzentralen oder Anrufwarteschlangen nicht lizenzieren, wenn Ihnen keine Telefonnummern zugeordnet sind. 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Jede automatische Telefonzentrale verfügt über Anruf Behandlungsoptionen, die 
 - Sie können auch folgende Aktionen ausführen:
   - Leiten Sie den Anruf an einen Microsoft Teams-Benutzer weiter, der über eine **Telefon System** Lizenz verfügt, die für Enterprise-VoIP aktiviert ist oder denen Anrufpläne zugewiesen sind. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
 
-  
   - Umleiten des Anrufs an eine Anrufwarteschlange Weitere Informationen zu Anrufwarteschlangen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Leiten Sie den Anruf an eine andere automatische Telefonzentrale weiter, die Sie eingerichtet haben.
-- Menüoptionen erstellen und eine Menüansage für die Anrufer wiedergeben. Beispiel: „Drücken Sie ‚1' für den Vertrieb oder ‚2' für den Service. Durch Drücken von ‚0' können Sie jederzeit mit der Vermittlung sprechen."
+  - Menüoptionen erstellen und eine Menüansage für die Anrufer wiedergeben. Beispiel: „Drücken Sie ‚1' für den Vertrieb oder ‚2' für den Service. Durch Drücken von ‚0' können Sie jederzeit mit der Vermittlung sprechen."
 
 ### <a name="menu-options"></a>Menüoptionen
 
@@ -234,9 +234,9 @@ Wenn Sie eine automatische Telefonzentrale und die Menü Optionen einrichten mö
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Zuweisen von Telefonnummern für eine automatische Telefonzentrale
 
-Sie können der automatischen Telefonzentrale eine Microsoft Calling Plan-Servicenummer oder eine Direct-Routing-Hybrid Nummer zuweisen. Weitere Informationen finden Sie unter [Planen des direkten Routings](direct-routing-plan.md) .
+Sie können der automatischen Telefonzentrale eine Microsoft-Dienstnummer, eine direkte Routingnummer oder eine Hybrid Nummer zuweisen. Weitere Informationen finden Sie unter [Planen des direkten Routings](direct-routing-plan.md) .
 
-Wenn Sie eine Service-Nummer zuweisen möchten, müssen Sie Ihre bestehenden gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Sobald Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie im <!-- validate nav path --> **Skype for Business Admin Center** > **** > -**Telefonnummern**, und der angegebene **Nummerntyp** wird als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Wenn Sie eine Dienstnummer zuweisen möchten, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Sobald Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie im <!-- validate nav path --> **Skype for Business Admin Center** > **** > -**Telefonnummern**, und der angegebene **Nummerntyp** wird als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie stattdessen zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um zu erfahren, wie das geht.

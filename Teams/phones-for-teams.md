@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304442"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394563"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -29,7 +29,7 @@ Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die
 
 ## <a name="teams-certified-ip-phones"></a>Zertifizierte IP-Telefone für Teams
 
-Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones zu bieten, arbeiten wir mit Yealink, Crestron, Polycom und AudioCodes zusammen, um ein breites Portfolio an Tischtelefonen und Konferenzraum-Audiogeräten zu entwickeln und zu zertifizieren. Aktuelle unterstützte Geräte finden Sie unter [derzeit zertifizierte IP-Telefone](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) .
+Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones zu bieten, arbeiten wir mit Yealink, Crestron, Polycom und AudioCodes zusammen, um ein breites Portfolio an Tischtelefonen und Konferenzraum-Audiogeräten zu entwickeln und zu zertifizieren. Aktuelle unterstützte Geräte finden Sie unter [derzeit zertifizierte IP-Telefone](teams-ip-phones.md#currently-certified-ip-phones) .
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft Teams Phones-Funktionssatz
 
@@ -68,27 +68,27 @@ Wenn ein Benutzer auf die Anmeldeschaltfläche in Teams klickt, wird die Anmeldu
 
 **Benutzeranmeldung mit Anmeldeinformationen**
 
-![Anmelden mit Anmeldeinformationen](media/sign-in-with-credentials.png)
+![Screenshot der Anmeldung mit Anmeldeinformationen](media/sign-in-with-credentials.png)
 
 **Benutzeranmeldung über PC/Smartphone**
 
-![Anmelden mit einem anderen Gerät](media/sign-in-with-device.jpg)
+![Screenshot der Anmeldung mit einem anderen Gerät](media/sign-in-with-device.jpg)
 
 ## <a name="personalshared-mode"></a>Persönlicher/freigegebener Modus
 
 Nach erfolgreicher Anmeldung kann der Benutzer auswählen, ob das Gerät für den privaten Gebrauch oder in einem gemeinsamen Konferenzraum genutzt wird.
 
-![Die Option "persönliches oder freigegebenes Konto"](media/personal-vs-shared-mode.jpg)
+![Screenshot der Option "persönliches Konto" oder "freigegebenes Konto"](media/personal-vs-shared-mode.jpg)
 
 Das Telefon Erlebnis für Teams wird basierend auf der Auswahl des Benutzers optimiert.
 
 **Persönlicher Modus**
 
-![Konto im persönlichen Modus](media/personal-mode.png)
+![Screenshot eines Kontos im persönlichen Modus](media/personal-mode.png)
 
 **Shared-Modus**
 
-![Konto im freigegebenen Modus](media/shared-mode.png)
+![Screenshot eines Kontos im freigegebenen Modus](media/shared-mode.png)
 
 ## <a name="calling-experience"></a>Anruferlebnis
 
@@ -96,11 +96,11 @@ Der Microsoft Teams-Benutzer kann den Hörer anheben oder die Lautsprecher-Taste
 
 **Wähltastatur auf dem Bildschirm**
 
-![Die Wähltastatur auf dem Bildschirm](media/on-screen-dial-pad.png)
+![Screenshot der Wähltastatur auf dem Bildschirm](media/on-screen-dial-pad.png)
 
 **Bildschirm "anrufen"**
 
-![Der Bildschirm "anrufen"](media/calling-screen.png)
+![Screenshot des Anruf Bildschirms](media/calling-screen.png)
 
 ## <a name="meeting-experience"></a>Besprechungs Erfahrung
 
@@ -108,24 +108,24 @@ Der Microsoft Teams-Benutzer kann zum Reiter "Besprechungen" navigieren, um sein
 
 **Kalenderansicht**
 
-![Besprechungen in der Kalenderansicht](media/calendar-view.png)
+![Screenshot von Besprechungen in der Kalenderansicht](media/calendar-view.png)
 
 **Besprechungs Verknüpfungsansicht**
 
-![Eine Besprechung in der Verknüpfungsansicht](media/meeting-join-view.png)
+![Screenshot einer Besprechung in der Verknüpfungsansicht](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>Voicemail
 
 Die Microsoft Teams-Benutzer können auf Ihre Voicemail zugreifen, wenn Sie zur Registerkarte **Voicemail** navigieren.
 
-![Die Registerkarte "Voicemail"](media/voicemail-tab.png)
+![Screenshot der Registerkarte "Voicemail"](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>Benutzerabmeldung
 
 Der Benutzer des Teams kann sich abmelden wählen, indem er **** im Menü oben links die Option Abmelden auswählt.
 
-![Abmelden von Teams](media/teams-sign-out.png)
+![Screenshot zum Abmelden von Teams](media/teams-sign-out.png)
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Suchen der Firmwareversion auf einem mobilen Gerät
 
@@ -133,11 +133,11 @@ Die Mindestversion der Firmware kann auf der Anmeldeseite für Teams überprüft
 
 **Anmeldeseite für Teams**
 
-![Die Anmeldeseite für Teams](media/teams-sign-in-page.jpg)
+![Screenshot der Anmeldeseite für Teams](media/teams-sign-in-page.jpg)
 
 **Seite "Einstellungen"**
 
-![Seite "Teams-Einstellungen"](media/teams-settings-page.jpg)
+![Screenshot der Seite "Teams-Einstellungen"](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
@@ -149,4 +149,4 @@ Weitere Informationen zum Abrufen von Teams finden Sie unter [wie erhalte ich Zu
 
 [Marketplace für Teams](http://office.com/teamsdevices)
 
-[Für Microsoft Teams zertifizierte IP-Telefone](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Für Microsoft Teams zertifizierte IP-Telefone](teams-ip-phones.md)

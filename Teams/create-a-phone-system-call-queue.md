@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen einrichten, damit Sie eine organisatorische Begrüßung, Musik in Wartestellung und Umleiten von Anrufen an Anruf-Agents in Verteilerlisten und Sicherheitsgruppen erhalten. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
+ms.openlocfilehash: b512d674a705c332213456ea639a015e15b51c2d
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549011"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394597"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
-Zu den Cloud-Anrufwarteschlangen gehören Begrüßungen, die verwendet werden, wenn sich jemand an eine Telefonnummer für Ihre Organisation anmeldet, die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Anruf Agenten zu suchen, um den Anruf zu führen, während die Anrufteilnehmer Musik hören in Wartestellung. Sie können eine oder mehrere Anrufwarteschlangen für Ihre Organisation erstellen.
+Cloud-Anrufwarteschlangen sind ein Dienst, der einen Gruß an Kundenanrufe abspielt, bevor er in einer Warteschlange platziert wird, während er zwischen einem vordefinierten Satz von Agents sucht, um diese Anrufe zu beantworten. Sie können eine oder mehrere Anrufwarteschlangen für Ihre Organisation erstellen.
   
 Cloud-Anrufwarteschlangen können Folgendes bereitstellen:
   
-- Eine Begrüßung der Organisation
+- Eine Grußnachricht.
 - Musik, während die wartenden Anrufer gehalten werden
 - Umleiten von Anrufen an Anruf-Agents in e-Mail-aktivierten Verteilerlisten und Sicherheitsgruppen.
-- Einstellungen für die maximale Größe, das Timeout und die Anruf Behandlungsoptionen für die Anrufwarteschlange
+- Einstellungen verschiedene Parameter wie maximale Größe der Warteschlange, Timeout und Anruf Behandlungsoptionen.
 
 Wenn sich jemand über ein [Ressourcenkonto](manage-resource-accounts.md)an eine Telefonnummer anmeldet, die mit einer Anrufwarteschlange verbunden ist, hören Sie zuerst eine Begrüßung (sofern vorhanden), und Sie werden dann in die Warteschlange gestellt und auf den nächsten verfügbaren Anruf Agenten gewartet. Die Einberufungs Person hört Musik, während Sie in Wartestellung sind, und die Anrufe werden den Anruf-Agents in *First in First Out* (FIFO)-Reihenfolge angeboten.
   
@@ -48,7 +48,7 @@ Alle in der Warteschlange wartenden Anrufe werden mithilfe einer der folgenden M
 - Bei Round Robin wird das Routing von eingehenden Anrufen ausgeglichen, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält.
 
     > [!NOTE]
-    > Telefonisten, die **Offline**sind, ihre Anwesenheit auf **Nicht stören** festgelegt haben, oder haben sich von der Warteschleife abgemeldet haben, werden nicht angerufen.
+    > Anruf-Agents, die **Offline**sind, ihre Anwesenheit auf " **nicht stören** " festgelegt haben oder die Anrufwarteschlange deaktiviert haben, werden keine Anrufe empfangen.
   
 - Es wird nur jeweils eine Benachrichtigung über einen eingehenden Anruf (für den ersten Anruf in der Warteschleife) an die Telefonisten gesendet.
 - Wenn ein Telefonist den Anruf angenommen hat, klingelt der nächste eingehende Anruf aus der Warteschleife bei den Telefonisten.
@@ -61,14 +61,15 @@ Alle in der Warteschlange wartenden Anrufe werden mithilfe einer der folgenden M
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwarteschleifen wichtig:
   
 - Für eine Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich. Details zu Ressourcenkonten finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
-- Wenn Sie eine direkte Routing Nummer zuweisen möchten, müssen Sie die folgenden Lizenzen für Ihre Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5 mit dem Add-on\)Phone System erwerben und zuweisen.
-- Wenn Sie stattdessen eine Microsoft-Dienstnummer zuweisen, müssen Sie dem Ressourcenkonto \(Office 365 Enterprise E1, E3 oder E5 mit dem Telefon System-Add-on und einem Anrufplan die folgenden Lizenzen erwerben und zuweisen\).
-- Sie müssen die Ressourcenkonten nur mit einer Telefonnummer lizenzieren, die Ihnen zugewiesen ist. In einer geschachtelten automatischen Telefonzentrale oder Anrufwarteschlange müssen Sie die restlichen automatischen Telefonzentralen oder Anrufwarteschlangen nicht lizenzieren, wenn Ihnen keine Telefonnummern zugeordnet sind. 
+- Wenn Sie Ihrer Anrufwarteschlange eine Telefonnummer zuweisen möchten, müssen Sie eine der folgenden Lizenzen für Ihre Ressourcenkonten erwerben und zuweisen:
+    - Office 365 Enterprise E1 oder E3 mit hinzugefügtem Telefon System
+    - Office 365 Enterprise E5 mit Telefon System
+- Sie müssen die Ressourcenkonten nur mit einer Telefonnummer lizenzieren, die Ihnen zugewiesen ist. In einer geschachtelten Anrufwarteschlange müssen Sie die restlichen Anrufwarteschlangen nicht lizenzieren, wenn Ihnen keine Telefonnummern zugeordnet sind.
 
-> [!NOTE] 
-> Direct Routing-Dienstnummern für die automatische Telefonzentrale und Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
+> [!NOTE]
+> Direct Routing-Dienstnummern für Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft arbeitet an einem kostenlosen Lizenzierungsmodell für Anwendungen wie automatische Cloud-Telefonzentralen und Anrufwarteschlangen, denn jetzt müssen Sie das Benutzer Lizenzierungsmodell verwenden.
 
 > [!NOTE]
@@ -107,7 +108,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Schritt 2 - Beziehen oder Übertragen von gebührenpflichtigen oder gebührenfreien Servicenummern
 
-Bevor Sie Ihre Anrufwarteschleifen erstellen und einrichten können, müssen Sie Ihre bestehenden kostenpflichtigen oder gebührenfreien Servicenummern einrichten oder übertragen. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **sprach** > **Telefonnummern**angezeigt, und der angegebene **Nummerntyp** wird als " **Dienst gebührenfrei**" aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Bevor Sie Ihre Anrufwarteschleifen erstellen und einrichten können, müssen Sie Ihre bestehenden kostenpflichtigen oder gebührenfreien Servicenummern einrichten oder übertragen. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service**** > -Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **-Legacy-Portal** > -**Telefonnummern**angezeigt, und der **Nummerntyp** wird angezeigt. als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , anstatt zu erfahren, wie Sie von außerhalb der Vereinigten Staaten aus Vorgehen.
@@ -171,16 +172,20 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
-Sie können bis zu 200 Anruf-Agents auswählen, die zu bestimmten Mailinglisten oder Gruppen gehören. Anruf-Agents müssen entweder:
+Sie können bis zu 200-Anruf-Agents auswählen, die zu einer der folgenden Mailinglisten oder-Gruppen gehören:
 
-- Ein Online-Benutzer mit einer **Telefonsystem**-Lizenz und Enterprise Voice oder einem Anrufplan.
+- Office 365-Gruppe
+- Sicherheitsgruppe
+- Verteilerliste
+
+Ausgewählte Anruf-Agents müssen **entweder** Online-Benutzer mit einer **Telefon System** Lizenz und Enterprise-VoIP sein **oder** über einen Anrufplan verfügen.
 
   > [!NOTE]
-  > Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) oder [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+  > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine **Telefon System** Lizenz und Enterprise-VoIP verfügen **oder** über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business-Lizenzen](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), Zuweisen von [Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
- Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+ Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Online-Benutzer mit einer **Telefonsystem**-Lizenz und einem Anrufplan, die einer Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt worden sind. Es kann bis zu 3 Stunden dauern, bis ein neuer Agent für eine Verteilerliste oder eine Sicherheitsgruppe hinzugefügt wurde, um mit dem Empfang von Anrufen aus einer Anrufwarteschlange zu beginnen. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Office 365-Gruppen sind fast sofort verfügbar.
+- Online Benutzer mit einer **Telefon System** Lizenz oder einem Anrufplan, die einer Office 365-Gruppe hinzugefügt werden eine e-Mail-aktivierte Verteilerliste oder eine Sicherheitsgruppe. Es kann bis zu drei Stunden dauern, bis ein neu hinzugefügter Agent in einer Verteilerliste oder einer Sicherheitsgruppe Anrufe von einer Anrufwarteschlange empfängt. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Office 365-Gruppen sind fast sofort verfügbar.
 
 - Wenn Ihre Agents die Microsoft Teams-App verwenden, um Anruf Warteschlangen Anrufe zu empfangen, müssen Sie sich im TeamsOnly-Modus befinden.
 
@@ -271,7 +276,7 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
   - **Sprachanwendung** Wählen Sie den Namen einer Anrufwarteschlange oder einer automatischen Telefonzentrale aus, die bereits erstellt wurde.
 
-## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Ändern der Rufnummernanzeige eines Benutzers für ausgehende Anrufe 
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Ändern der Rufnummernanzeige eines Benutzers für ausgehende Anrufe
 
 Sie können die Identität eines Benutzers schützen, indem Sie dessen Rufnummernanzeige für ausgehende Anrufe an eine Anrufwarteschlange, eine automatische Telefonzentrale oder eine beliebige Dienstnummer ändern, indem Sie stattdessen eine Richtlinie mit dem Cmdlet **New-CsCallingLineIdentity** erstellen.
 
@@ -288,14 +293,10 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ```
 
 Weitere Informationen zum vornehmen von Änderungen an den Einstellungen für die Rufnummernanzeige in Ihrer Organisation finden Sie im Artikel [wie kann die Rufnummernanzeige in Ihrer Organisation verwendet werden](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-  
-## <a name="want-to-know-more"></a>Möchten Sie mehr wissen?
 
-Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen zu erstellen und einzurichten.
-  
-### <a name="call-queue-cmdlets"></a>Cmdlets für Anrufwarteschleifen
+## <a name="call-queue-cmdlets"></a>Cmdlets für Anrufwarteschleifen
 
-Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
+Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen zu erstellen und einzurichten. Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
   
 - [Neu – CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 

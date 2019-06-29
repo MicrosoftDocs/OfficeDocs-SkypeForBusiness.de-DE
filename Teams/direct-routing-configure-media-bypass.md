@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems konfigurieren.
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290453"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394571"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
@@ -30,7 +29,7 @@ Um die medienumgehung zu aktivieren, müssen die folgenden Bedingungen erfüllt 
 
 1.  Stellen Sie sicher, dass Ihr SBC-Anbieter (Session Border Controller) die medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehungsfunktion für den SBC enthält. Informationen zu SBCS, welche die medienumgehung unterstützen, und Anweisungen finden Sie auf der Zertifizierungsseite.
 
-2.  Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **setzen-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.  Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
 3.  Stellen Sie sicher, dass die erforderlichen Anschlüsse geöffnet sind. 
 

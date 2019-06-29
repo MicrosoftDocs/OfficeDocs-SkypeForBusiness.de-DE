@@ -14,12 +14,12 @@ description: Erfahren Sie, wie Sie mit Live Ereignissen Videos und Inhalte an gr
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013010"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394539"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -75,6 +75,9 @@ Das Ziel von ECDN besteht darin, die Videoinhalte aus dem Internet zu übernehme
 Die Teilnehmer-Erfahrung ist der wichtigste Aspekt von Live Ereignissen, und es ist wichtig, dass die Teilnehmer am Live-Ereignis teilnehmen können, ohne dass Probleme auftreten. Die Teilnehmer-Oberfläche verwendet Azure Media Player (für Ereignisse, die in Teams erstellt wurden) und Stream Player (für Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden) und funktioniert auf Desktop-, Browser-und Mobilgeräten (Ios, Android). Office 365 bietet jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
 
 ![Screenshot der Live-Teilnehmer-Erfahrung] (../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
+
+### <a name="live-event-usage-report"></a>Bericht zur Live-Ereignis Nutzung 
+Mandantenadministratoren können Echtzeit-Nutzungsanalysen für Live-Ereignisse im Microsoft Teams Admin Center anzeigen.  Der Bericht zur Live-Ereignis Verwendung zeigt die Aktivitätsübersicht der in der Organisation gespeicherten Live Ereignisse an.  Administratoren können Informationen zur Ereignis Nutzung anzeigen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp.  
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zu [Plan für Teams-Live Ereignisse](plan-for-teams-live-events.md).
