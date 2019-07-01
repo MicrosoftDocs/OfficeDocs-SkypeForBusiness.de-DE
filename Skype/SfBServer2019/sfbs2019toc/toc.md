@@ -100,10 +100,10 @@
 ##### [Konfigurieren von Cloudvoicemail](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Automatische Cloudtelefonzentralen
 ##### [Planen automatischer Cloudtelefonzentralen](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [Konfigurieren automatischer Cloudtelefonzentralen](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [Konfigurieren von Ressourcenkonten](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### Cloud-Anrufwarteschlangen
 ##### [Planen von Cloud-Anrufwarteschlangen](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [Konfigurieren von Cloud-Anrufwarteschlangen](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [Konfigurieren von Ressourcenkonten](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Plan zur Integration von Skype for Business mit Exchange Server](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unified Messaging](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Übersicht zur Bereitstellung](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
