@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: bereiten Sie Ihre Skype for Business Server 2019-Server und die Domäneninfrastruktur in diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sowie Zertifikat-DNS, Dateifreigabe und Active Directory-Informationen sind hier, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm zu gewährleisten.'
-ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: c1703c28f7c095810044145c6b3e9512b017e901
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134283"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35415004"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System Anforderungen für Skype for Business Server 2019
  
@@ -439,7 +439,7 @@ Das ist viel zu überlegen, und es gibt verschiedene Komfortstufen, bei denen Ze
   
 ### <a name="certificates-for-your-internal-servers"></a>Zertifikate für Ihre internen Server
 
-Sie benötigen Zertifikate für die meisten internen Server, und Sie erhalten Sie wahrscheinlich von einer internen Zertifizierungsstelle (eine Zertifizierungsstelle, die sich in Ihrer Domäne befindet). Wenn Sie möchten, können Sie diese Zertifikate von einer externen Zertifizierungsstelle anfordern (eine im Internet). Wenn Sie sich Fragen, zu welcher öffentlichen Zertifizierungsstelle Sie wechseln sollten, sehen Sie sich die Liste der [Unified Communications-Zertifikat Partner](https://support.microsoft.com/kb/929395/en-us) an.
+Sie benötigen Zertifikate für die meisten internen Server, und Sie erhalten Sie wahrscheinlich von einer internen Zertifizierungsstelle (eine Zertifizierungsstelle, die sich in Ihrer Domäne befindet). Wenn Sie möchten, können Sie diese Zertifikate von einer externen Zertifizierungsstelle anfordern (eine im Internet). Wenn Sie sich Fragen, zu welcher öffentlichen Zertifizierungsstelle Sie wechseln sollten, sehen Sie sich die Liste der [Unified Communications-Zertifikat Partner](/SkypeForBusiness/certification/services-ssl) an.
   
 Außerdem benötigen Sie Zertifikate, wenn Skype for Business Server 2019 mit anderen Anwendungen und Servern wie Microsoft Exchange Server kommuniziert. Dies muss natürlich ein Zertifikat sein, das diese anderen apps und Server auf unterstützte Weise verwenden können. Skype for Business Server 2019 und andere Microsoft-Produkte unterstützen das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Wenn Sie daran interessiert sind, haben wir einen zusätzlichen Planungsartikel für OAuth und Skype for Business Server 2019.
   

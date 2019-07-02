@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, was Sie in Skype for Business Admin Center und anderen Features nutzen können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284877"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411569"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 
@@ -45,7 +45,7 @@ Als erstes brechen wir einige Begriffe auf.
     
 - **Migrieren** von Das ist ziemlich ähnlich wie "verschieben". In diesem Fall bedeutet dies, dass wir Ihre Skype for Business Online-Benutzer und-Einstellungen von einem Rechenzentrum in ein anderes verschieben, das Ihnen näher steht, um Ihren Service zu verbessern.
     
-- **Latenz** Dies ist die Zeitdauer, die Sie für den Zugriff auf das Office 365 Admin Center benötigt, um die Einstellungen zu ändern und diese Änderungen zu speichern.
+- **Latenz** Dies ist die Zeitdauer, die Sie für den Zugriff auf das Microsoft 365 Admin Center benötigt, um eine Änderung der Einstellungen vorzunehmen und diese Änderungen zu speichern.
     
 - **Korrelations-ID** Möglicherweise haben Sie dies in der Nachricht angezeigt, von der Sie gerade gekommen sind. Diese Informationen werden von Microsoft-Supportmitarbeitern verwendet, um Ihnen bei der Behebung eines Fehlers zu helfen. Wenn Sie sich an den Microsoft-Support wenden, werden Sie möglicherweise nach der Korrelations-ID gefragt.
     

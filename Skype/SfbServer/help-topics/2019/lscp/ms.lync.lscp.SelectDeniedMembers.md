@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ein beständiger Chat-Administrator kann Chatroom-Kategorien erstellen und verwalten. Im Rahmen des Erstellens und Verwaltens von Chatroom-Kategorien kann ein beständiger Chat-Administrator Prinzipale (Active Directory-Domänendienste-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein beständiger Chat-Administrator kann auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden explizite Ausschlüsse auf die Liste der zulässigen Listen. DeniedMembers außer Kraft setzen, was in AllowedMembers.
-ms.openlocfilehash: 0335805c8edfb665a6a68f8164f42312f7300817
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01494ee5d9e93b3ca8cc59ee13cbdc5a5377553d
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292389"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418136"
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
 
 > [!NOTE] 
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business zu Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer, die diese Funktion benötigen, an Teams migrieren oder die Verwendung von Skype for Business Server 2015 fortsetzen.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business zu Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer, die diese Funktion benötigen, an Teams migrieren oder die Verwendung von Skype for Business Server 2015 fortsetzen.

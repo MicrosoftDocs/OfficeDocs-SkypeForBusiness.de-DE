@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 Chatrooms für beständigen Chat Server verwalten.'
-ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279347"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417946"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279347"
 Das Erstellen und Verwalten von Chatrooms wird durch die ordnungsgemäße Verwendung von Kategorien wesentlich vereinfacht. Eine Kategorie definiert, wer die Chatrooms erstellen oder daran teilnehmen kann. Bevor Sie versuchen, Chatrooms zu verwalten, stellen Sie sicher, dass Sie in Skype for [Business Server 2015 beständige Chat-Kategorien, Chatrooms und Benutzerrollen](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) lesen und [Kategorien im beständigen Chat Server in Skype for Business Server 2015 verwalten](categories.md).
   
 > [!NOTE]
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
 
 Sie können Chatrooms konfigurieren und verwalten, indem Sie die Windows PowerShell-Befehlszeilenschnittstelle verwenden oder den Skype for Business-Client verwenden, wenn Sie Mitglied des Chatrooms sind. In diesem Thema wird beschrieben, wie Sie Chatrooms mit der Befehlszeilenschnittstelle von Windows PowerShell verwalten. Wenn Sie Chatrooms mit dem Skype for Business-Client verwalten möchten, lesen Sie die Hilfe für den Client. 
   

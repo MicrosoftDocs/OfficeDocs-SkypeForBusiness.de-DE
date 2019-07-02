@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server konfigurieren.'
-ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 813ea29d8ea8b75c866e12c056b40e237173922c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282294"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418167"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für Server für beständigen Chat in Skype for Business Server 2015
  
@@ -28,7 +28,7 @@ Skype for Business Server unterstützt mehrere Modi mit höherer Verfügbarkeit 
 > AlwaysOn-Verfügbarkeitsgruppen werden von beständigen Chat Servern nicht unterstützt. 
 
 > [!NOTE] 
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
   
 Stellen Sie sicher, dass Sie mit den Konzepten in [Plan für Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sind, bevor Sie die Bereitstellung des beständigen Chats für eine höhere Verfügbarkeit und Disaster Recovery konfigurieren. Die in diesen Themen beschriebene Disaster Recovery-Lösung für beständigen Chat Server basiert auf einem gedehnten beständigen Chat Serverpool. Der Planning-Inhalt beschreibt die Ressourcenanforderungen und die gedehnte Pooltopologie, die eine höhere Verfügbarkeit und Disaster Recovery für beständigen Chat Server ermöglicht, einschließlich der Verwendung der SQL Server-Spiegelung für die höchst Verfügbarkeit und des SQL Server-Protokollversands für Disaster Recovery.
   

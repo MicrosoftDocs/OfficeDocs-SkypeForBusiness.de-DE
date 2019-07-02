@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Erfahren Sie, wie Sie die verschiedenen Administratorrollen zum Verwalten von Teams verwenden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221217"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417982"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams
 
@@ -27,6 +27,8 @@ Mit Azure Active Directory (Azure AD) können Sie Administratoren festlegen, die
 ## <a name="teams-roles-and-capabilities"></a>Rollen und Funktionen von Teams
 
 Es stehen vier Teams-Administratorrollen zur Verfügung: Teams Service Administrator, Teams Communications Administrator, Team Communications Support Specialist und Teams Communications Support Engineer. Sehen Sie sich die folgende Tabelle an, um zu erfahren, welche Aktionen die einzelnen Rollen ausführen können und welche Tools der Administrator in Microsoft Teams Admin Center und PowerShell verwenden kann.
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ Sie können diesen Rollen in Azure AD Benutzer zuweisen. Informationen zum Zuwei
 
 ## <a name="cmdlets-available-for-each-role"></a>Für jede Rolle verfügbare Cmdlets
 
-Die meisten PowerShell-Tools für diese Administratorrollen sind im Skype for Business PowerShell-Modul enthalten, und es ist wichtig zu beachten, dass einige Cmdlets, für die diese Administratorrollen verfügbar sind, Zugriff auf die Steuerung freigegebener Einstellungen haben, die auch für Skype for Business Online verwendet werden. Führen Sie die folgenden Schritte aus, um die vollständige Liste der derzeit für eine bestimmte Rolle verfügbaren Cmdlets im Skype for Business PowerShell-Modul anzuzeigen:
+Die meisten PowerShell-Tools für diese Administratorrollen sind im Skype for Business PowerShell-Modul enthalten, und es ist wichtig zu beachten, dass einige Cmdlets, für die diese Administratorrollen verfügbar sind, Zugriff auf die Steuerung freigegebener Einstellungen haben, die auch für Skype for Business Online verwendet werden. Die Skype for Business-Administratorrolle hat auch Zugriff auf alle Cmdlets des Skype for Business PowerShell-Moduls.
+
+Führen Sie die folgenden Schritte aus, um die vollständige Liste der derzeit für eine bestimmte Rolle verfügbaren Cmdlets im Skype for Business PowerShell-Modul anzuzeigen:
 
 1. Weisen Sie diese Rolle einem Benutzer zu (und stellen Sie sicher, dass der Benutzer keine anderen Rollen hat).
 2. Stellen Sie eine Verbindung mit dem Skype for Business PowerShell-Modul her:<br>

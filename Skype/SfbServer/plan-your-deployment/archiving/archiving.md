@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die Archivierung in Skype for Business Server planen.'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277601"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417874"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planen der Archivierung in Skype for Business Server
  
@@ -69,7 +69,7 @@ Um die Archivierung zu implementieren, müssen Sie entscheiden, wie Sie die Anfo
     Skype for Business Server archiviert auch keine beständigen Chat Unterhaltungen. Zum Archivieren beständiger Chat Unterhaltungen müssen Sie den Kompatibilitätsdienst aktivieren und konfigurieren, bei dem es sich um eine Komponente handelt, die mit dem Server für beständigen Chat bereitgestellt werden kann. Ausführliche Informationen finden Sie unter [Planen des beständigen Chat Servers in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
-    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
+    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
     
 - **Dauer der Aufbewahrung archivierter Daten**. Die Archivierungsdatenbank ist nicht für die langfristige Aufbewahrung vorgesehen, und Skype for Business Server bietet keine e-Discovery-Lösung (Suche) für archivierte Daten, sodass Daten in andere Speicher verschoben werden müssen. Skype for Business Server bietet ein Sitzungs Export Tool, mit dem Sie archivierte Daten exportieren und durchsuchbare Transkripte der archivierten Daten erstellen können. 
     

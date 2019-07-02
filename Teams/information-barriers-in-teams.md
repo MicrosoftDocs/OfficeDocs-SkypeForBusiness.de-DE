@@ -1,9 +1,9 @@
 ---
 title: Informationsbarrieren in der Vorschau von Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.date: 06/17/2019
+ms.date: 07/01/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013021"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418288"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Informationsbarrieren in der Vorschau von Microsoft Teams
 
@@ -61,9 +61,9 @@ Die Administratorrolle für Informationsbarrieren (IB Compliance Management) ist
 Richtlinien für Informationsbarrieren werden überprüft, wenn die folgenden Teams-Ereignisse stattfinden:
 
 - **Mitglieder werden einem Team hinzugefügt** – Wenn Sie einen Benutzer zu einem Team hinzufügen, muss die Richtlinie des Benutzers mit den Richtlinien für Informationsbarrieren anderer Teammitglieder ausgewertet werden. Nachdem der Benutzer erfolgreich hinzugefügt wurde, kann der Benutzer alle Funktionen im Team ohne weitere Überprüfungen ausführen. Wenn die Richtlinie des Benutzers blockiert, dass Sie dem Team hinzugefügt wird, wird der Benutzer nicht in der Suche angezeigt.
-- **Ein neuer Chat wird angefordert** – jedes Mal, wenn ein neuer Chat zwischen zwei oder mehr Benutzern angefordert wird, wird der Chat ausgewertet, um sicherzustellen, dass er keine Richtlinien für Informationsbarrieren verletzt. Wenn die Unterhaltung gegen eine Richtlinie für Informationsbarrieren verstößt, wird die Unterhaltung nicht initiiert, und es wird eine Fehlermeldung angezeigt.
-- **Ein Benutzer ist eingeladen, an einer Besprechung teilzunehmen** – wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die Richtlinie des Benutzers anhand der Richtlinien anderer Teammitglieder ausgewertet, und wenn ein Verstoß vorliegt, kann der Benutzer nicht an der Besprechung teilnehmen, und es wird eine Fehlermeldung angezeigt.
-- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, wird die Bildschirmfreigabe nicht zugelassen, und es wird eine Fehlermeldung angezeigt.
+- **Ein neuer Chat wird angefordert** – jedes Mal, wenn ein neuer Chat zwischen zwei oder mehr Benutzern angefordert wird, wird der Chat ausgewertet, um sicherzustellen, dass er keine Richtlinien für Informationsbarrieren verletzt. Wenn die Unterhaltung gegen eine Richtlinie für Informationsbarrieren verstößt, wird die Unterhaltung nicht initiiert.
+- **Ein Benutzer ist eingeladen, an einer Besprechung teilzunehmen** – wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die Richtlinie des Benutzers anhand der Richtlinien anderer Teammitglieder ausgewertet, und wenn ein Verstoß vorliegt, ist der Benutzer nicht berechtigt, an der Besprechung teilzunehmen.
+- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig.
 - **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Was passiert mit vorhandenen Chat-Threads, wenn eine Richtlinie geändert wird?

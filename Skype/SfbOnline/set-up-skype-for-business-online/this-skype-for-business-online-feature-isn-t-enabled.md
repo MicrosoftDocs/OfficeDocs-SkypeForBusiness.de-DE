@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Finden Sie mögliche Ursachen und Aktionsvorschläge, wenn eine Skype for Business Online-Funktion nicht aktiviert ist. '
-ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 953d14f3e1741a6617f74cf87d6acd43c849e92b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285044"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411559"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Diese Skype for Business Online-Funktion ist nicht aktiviert
 
@@ -33,9 +33,9 @@ Es sieht so aus, als ob der Benutzer für diese Funktion nicht lizenziert ist.
   
 |**Mögliche Ursache**|**Vorgeschlagene Aktion**|
 |:-----|:-----|
-|Sie haben Lizenzen zur Verfügung, aber Sie haben das Feature für diesen Benutzer noch nicht aktiviert.  <br/> |Wechseln Sie zu den**aktiven Benutzern** des **Office 365 admin Centers** > , um diesen Benutzer zu lizenzieren. <br/> |
-|Der Benutzer befindet sich an einem Ort, an dem dieses Feature nicht verfügbar ist.  <br/> |Wechseln Sie nach Möglichkeit zu **Office 365 Admin Center** > -**aktive Benutzer** , und weisen Sie diesen Benutzer einem Speicherort zu, an dem das Feature verfügbar ist. <br/> |
-|Das Feature wurde für Ihre Organisation nicht aktiviert.  <br/> |Wechseln Sie zu **Office 365 Admin Center** > **Skype for Business** , und aktivieren Sie das Feature für die gesamte Organisation. <br/> |
+|Sie haben Lizenzen zur Verfügung, aber Sie haben das Feature für diesen Benutzer noch nicht aktiviert.  <br/> |Wechseln Sie zu den**aktiven Benutzern** des **Microsoft 365 admin Centers** > , um diesen Benutzer zu lizenzieren. <br/> |
+|Der Benutzer befindet sich an einem Ort, an dem dieses Feature nicht verfügbar ist.  <br/> |Wenn möglich, wechseln Sie zu den**aktiven Benutzern** des **Microsoft 365 admin Centers** > , und weisen Sie diesen Benutzer einem Speicherort zu, an dem das Feature verfügbar ist. <br/> |
+|Das Feature wurde für Ihre Organisation nicht aktiviert.  <br/> |Wechseln Sie zu **Microsoft 365 Admin Center** > **Skype for Business** , und aktivieren Sie das Feature für die gesamte Organisation. <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

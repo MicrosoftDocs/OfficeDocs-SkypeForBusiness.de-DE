@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: diese Features wurden von Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278112"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418361"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist in Skype for Business Server 2019 veraltet?
 
@@ -35,7 +35,7 @@ Mit Skype for Business Server 2015 und seinen Vorgängern können Sie einen Exte
 
 Der beständige Chat Server ist eine optionale Rolle, mit der mehrere Benutzer in Ihrer Organisation an Chatroom-Unterhaltungen teilnehmen können, die im Laufe der Zeit fortbestehen. Beständiger Chat kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Diese Serverrolle wird sowohl aus dem Topologie-Generator als auch aus dem Code entfernt. 
 
-In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).
+In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL-Spiegelung für Skype for Business Server
 

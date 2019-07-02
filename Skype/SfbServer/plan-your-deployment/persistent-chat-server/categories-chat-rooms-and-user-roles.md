@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Kategorien, Chatrooms sowie Benutzer-und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erhalten.'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297113"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418469"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
  
@@ -31,7 +31,7 @@ Sie können den Zugriff auf Chatrooms regulieren, indem Sie Chatroomkategorien e
 - Administratorrollen
 
 > [!NOTE] 
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Kategorien für die Organisation von Chatrooms
 
@@ -40,7 +40,7 @@ Mithilfe von Kategorien können Sie Chatrooms organisieren und bestimmen, welche
 Das primäre Grundprinzip für das Konzept der zulässigen und abgelehnten Mitglieder sind so genannte Chinesische Mauern. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen Chinesische Mauern definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Benutzer können einem Chatroom nicht hinzugefügt werden, wenn die übergeordnete Kategorie dies nicht zulässt.
   
 > [!IMPORTANT]
-> Zulässige und abgelehnte Mitglieder in einer Kategorie sind nicht identisch mit einer **Mitglieds** Rolle, die für einen beständigen Chatroom gilt. >-Suchvorgänge zeigen alle geöffneten und geschlossenen Chatrooms an, für die der Benutzer, der die Suche ausführt, in der Liste zugelassene und abgelehnte Mitglieder aufgeführt ist. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
+> Zulässige und abgelehnte Mitglieder in einer Kategorie sind nicht identisch mit einer **Mitglieds** Rolle, die für einen beständigen Chatroom gilt. #a0 suchen werden alle geöffneten und geschlossenen Chatrooms angezeigt, für die der Benutzer, der die Suche ausführt, in der Liste zugelassene und verweigerte Mitglieder aufgeführt ist. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Chatrooms und Benutzerrollen
 

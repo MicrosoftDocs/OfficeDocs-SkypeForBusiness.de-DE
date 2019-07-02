@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203993"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418217"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -53,24 +53,28 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 
 - Eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern. 
 
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
   - [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
-**Unterstützte Konsolen**
+**Andere unterstützte Microsoft Teams-Raum Konsolen**
 
-|Konsole|Prozessor|RAM|Festplatte|Firmware-Version|
-|:-----|:-----|:-----|:-----|:----|
-|[Crestron Flex-M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|1.0.16.490|
-|[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | |
-|[HP Elite Slice G2-Audio bereit mit Microsoft Teams-Räumen](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | |
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
-|[Logitech Tap Touch-Controller für Video Konferenzräume](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240 GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|Audio-92.10.0.15</br>Video-92.10.0.15|
-|
+|Konsole|Prozessor|RAM|Festplatte|
+|:-----|:-----|:-----|:-----|
+|[Crestron Flex-M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|
+|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8GB |128GB |
+[Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+|[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
+|[HP Elite Slice G2-Audio bereit mit Microsoft Teams-Räumen](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+|[Logitech Tap + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
+|[Logitech Tap Touch-Controller für Video Konferenzräume](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240 GB  |  
+|||||
+
 > [!NOTE]
 > Core M3-Prozessoren werden nicht unterstützt.
 

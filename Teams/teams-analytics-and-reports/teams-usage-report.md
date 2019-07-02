@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie, wie Sie den Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center verwenden, um sich einen Überblick über die Microsoft Teams-Aktivitäten in Ihrem Unternehmen zu verschaffen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 185e86ec85b386a06e6acec59f3737dd2ffbb697
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 1c7f5804bf4e251bffa4f391664da803f689ee56
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253818"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420020"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 
@@ -44,11 +44,9 @@ Screenshot ![des Teams-Nutzungsberichts im Admin Center] (../media/teams-reports
 |**2**   |Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. |
 |**3**   |<ul><li>Die X-Achse im Diagramm stellt den ausgewählten Datumsbereich für den Bericht dar.</li> <li> Die Y-Achse gibt die Anzahl der aktiven Elemente oder Aktivitäten an.</li> </ul>Bewegen Sie den Mauszeiger über den Punkt, der ein Element oder eine Aktivität an einem bestimmten Datum darstellt, um die Anzahl der Instanzen dieses Elements bzw. dieser Aktivität an dem bestimmten Datum anzuzeigen.|
 |**4**   |Sie können filtern, was im Diagramm angezeigt wird, indem Sie in der Legende auf ein Element klicken. Klicken Sie beispielsweise auf **Gesamtzahl aktiver Benutzer**, **Teams #a0 aktiven Benutzern**, **aktiven Kanälen**oder **Nachrichten** , um nur die Informationen anzuzeigen, die sich auf die einzelnen Personen beziehen. Durch das Ändern dieser Auswahl werden die Informationen in der Tabelle nicht geändert. |
-|**5**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung nach Team. <ul><li>**Teamname** ist der Anzeigename des Teams. Sie können auf den Teamnamen klicken, um zur Seite Einstellungen des Teams im Microsoft Teams Admin Center zu wechseln. </li> <li>**Datenschutz** gibt an, ob es sich um ein privates oder öffentliches Team handelt.</li> <li>**Aktive Benutzer** entspricht der Anzahl der aktiven Benutzer im Team im angegebenen Zeitraum.</li><li>**Gäste** entspricht der Anzahl der Gäste im Team im angegebenen Zeitraum.</li> </li> </ul>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
+|**5**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung nach Team. <ul><li>**Teamname** ist der Anzeigename des Teams. Sie können auf den Teamnamen klicken, um zur Seite Einstellungen des Teams im Microsoft Teams Admin Center zu wechseln. </li> <li>**Datenschutz** gibt an, ob es sich um ein privates oder öffentliches Team handelt.</li> <li>**Aktive Benutzer** entspricht der Anzahl der aktiven Benutzer im Team im angegebenen Zeitraum.</li><li>**Gäste** entspricht der Anzahl der Gäste im Team im angegebenen Zeitraum.</li> </li> </ul>Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**6**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 |**7**   |Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf der Registerkarte **Downloads** auf **herunterladen** , um den Bericht herunterzuladen, wenn er fertig ist.<br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten zum herunterladen](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Teams – Analyse und Berichterstellung](teams-reporting-reference.md)
-- [Teams-Benutzeraktivitätsbericht](user-activity-report.md)
-- [Teams-Gerätenutzungsbericht](device-usage-report.md)

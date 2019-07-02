@@ -14,12 +14,12 @@ description: Erfahren Sie, wie Sie mit Live Ereignissen Videos und Inhalte an gr
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394539"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420052"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -77,7 +77,7 @@ Die Teilnehmer-Erfahrung ist der wichtigste Aspekt von Live Ereignissen, und es 
 ![Screenshot der Live-Teilnehmer-Erfahrung] (../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
 
 ### <a name="live-event-usage-report"></a>Bericht zur Live-Ereignis Nutzung 
-Mandantenadministratoren können Echtzeit-Nutzungsanalysen für Live-Ereignisse im Microsoft Teams Admin Center anzeigen.  Der Bericht zur Live-Ereignis Verwendung zeigt die Aktivitätsübersicht der in der Organisation gespeicherten Live Ereignisse an.  Administratoren können Informationen zur Ereignis Nutzung anzeigen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp.  
+Mandantenadministratoren können Echtzeit-Nutzungsanalysen für Live-Ereignisse im Microsoft Teams Admin Center anzeigen.  Der [Bericht zur Live-Ereignis Verwendung](../teams-analytics-and-reports/teams-live-event-usage-report.md) zeigt die Aktivitätsübersicht der in der Organisation gespeicherten Live Ereignisse an.  Administratoren können Informationen zur Ereignis Nutzung anzeigen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp.  
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zu [Plan für Teams-Live Ereignisse](plan-for-teams-live-events.md).

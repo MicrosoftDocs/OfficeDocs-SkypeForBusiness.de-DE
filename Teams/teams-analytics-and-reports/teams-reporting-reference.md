@@ -3,7 +3,6 @@ title: Microsoft Teams – Analyse und Berichterstellung
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253794"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420036"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -46,6 +45,7 @@ Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Featur
 |[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanälen<br/>Aktive Kanäle<br/>Meldungen<br/>Datenschutzeinstellungen für Teams<br/>Gäste in einem Team   |
 |[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, an denen ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
 |[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>IOS-Benutzer<br/>Android-Telefon Nutzer     |
+|[Bericht zur Live-Ereignis Nutzung in Teams](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufnahmeeinstellung<br>Produktionsart    |
 
 > [!NOTE]
 > In den Teams-Berichten werden Daten für aktive Benutzer und aktive Teams angezeigt. Wenn beispielsweise ein Benutzer in Ihrer Organisation während des für einen Bericht angegebenen Datumsbereichs nicht in Teams aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.

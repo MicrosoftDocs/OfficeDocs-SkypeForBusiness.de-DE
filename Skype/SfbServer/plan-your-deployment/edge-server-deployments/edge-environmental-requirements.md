@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: erfahren Sie mehr über die Umweltanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203956"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414989"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Umgebungsanforderungen des Edge-Servers in Skype for Business Server
  
@@ -285,7 +285,7 @@ Wir besprechen externe und interne Zertifikate getrennt und sehen uns dann auch 
   
 ### <a name="external-certificates"></a>Externe Zertifikate
 
-Das Zertifikat, das Ihren externen Edge-Server-Schnittstellen zugewiesen ist, muss mindestens von einer öffentlichen Zertifizierungsstelle bereitgestellt werden. Wir können Ihnen keine bestimmte Zertifizierungsstelle empfehlen, aber wir haben eine Liste mit CAS, [Unified Communications-Zertifikat Partnern](https://support.microsoft.com/en-us/kb/929395) , die Sie sich ansehen können, um festzustellen, ob Ihre bevorzugte Zertifizierungsstelle aufgeführt ist.
+Das Zertifikat, das Ihren externen Edge-Server-Schnittstellen zugewiesen ist, muss mindestens von einer öffentlichen Zertifizierungsstelle bereitgestellt werden. Wir können Ihnen keine bestimmte Zertifizierungsstelle empfehlen, aber wir haben eine Liste mit CAS, [Unified Communications-Zertifikat Partnern](/SkypeForBusiness/certification/services-ssl) , die Sie sich ansehen können, um festzustellen, ob Ihre bevorzugte Zertifizierungsstelle aufgeführt ist.
   
 Wann müssen Sie eine Anforderung an eine CA für dieses öffentliche Zertifikat stellen und wie machen Sie das? Es gibt verschiedene Arten:
   

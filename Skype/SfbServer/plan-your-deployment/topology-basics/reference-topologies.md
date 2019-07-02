@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Referenz Topologien für Skype for Business Server, einschließlich Diagrammen und Entscheidungen, die für große, mittlere und kleine Organisationen zu treffen sind.
-ms.openlocfilehash: 6d3a3caa0dbad60909af54f153dcea416343c947
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296637"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418033"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Referenz Topologien für Skype for Business Server
 
@@ -132,7 +132,7 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 - **Beständiger Chat wird bereitgestellt.** Diese Organisation hat die erforderlichen Server zum Aktivieren des beständigen Chats bereitgestellt. Es wurden mehrere beständige Chat-Front-End-Server bereitgestellt, um die Last für die Anzahl der Benutzer im Pool zu behandeln und eine hohe Verfügbarkeit bereitzustellen. Darüber hinaus wurde Compliance für beständigen Chat bereitgestellt und der beständige Chat Speicher und der Compliance-Speicher für beständigen Chat auf separaten Servern gespeichert. Diese Stores können mit dem Back-End-Server kombiniert werden, aber diese Organisation hat sich entschieden, diese zu trennen, um eine bessere Leistung zu gewährleisten.
 
     > [!NOTE]
-    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
+    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
 
 - **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool nutzen den DNS-Lastenausgleich. Dadurch sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 

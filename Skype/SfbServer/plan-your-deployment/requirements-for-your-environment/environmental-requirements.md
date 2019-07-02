@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Reihe von Dingen, die Sie konfigurieren möchten, bevor Sie Ihre Bereitstellung ausführen, einschließlich Active Directory, DNS, certs und Dateifreigaben.'
-ms.openlocfilehash: b547d6c4e99f0b29a4e415a15e9c1307165245b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296861"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414982"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -255,7 +255,7 @@ Das ist also viel zu überlegen und auf jeden Fall gibt es eine Reihe von Komfor
   
 ### <a name="certificates-for-your-internal-servers"></a>Zertifikate für Ihre internen Server
 
-Sie benötigen Zertifikate für die meisten internen Server, und Sie erhalten Sie höchstwahrscheinlich von einer internen Zertifizierungsstelle (die sich in Ihrer Domäne befindet). Wahlweise können Sie diese Zertifikate von einer externen Zertifizierungsstelle (aus dem Internet) erhalten. Wenn Sie sich Fragen, zu welcher öffentlichen Zertifizierungsstelle Sie wechseln sollten, sehen Sie sich die Liste der [Unified Communications-Zertifikat Partner](https://support.microsoft.com/kb/929395/en-us) an.
+Sie benötigen Zertifikate für die meisten internen Server, und Sie erhalten Sie höchstwahrscheinlich von einer internen Zertifizierungsstelle (die sich in Ihrer Domäne befindet). Wahlweise können Sie diese Zertifikate von einer externen Zertifizierungsstelle (aus dem Internet) erhalten. Wenn Sie sich Fragen, zu welcher öffentlichen Zertifizierungsstelle Sie wechseln sollten, sehen Sie sich die Liste der [Unified Communications-Zertifikat Partner](/SkypeForBusiness/certification/services-ssl) an.
   
 Außerdem benötigen Sie Zertifikate, wenn Skype for Business Server 2015 mit anderen Anwendungen und Servern wie Microsoft Exchange Server kommuniziert. Dies muss offensichtlich ein Zertifikat sein, das von den anderen Anwendungen und Servern unterstützt wird. Skype for Business Server 2015 und andere Microsoft-Produkte unterstützen das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Wenn Sie daran interessiert sind, haben wir einen zusätzlichen Planungsartikel für OAuth und Skype for Business Server 2015.
   

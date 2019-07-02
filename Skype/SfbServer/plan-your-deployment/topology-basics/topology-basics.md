@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Zusammenfassung: Wählen Sie Ihre Topologie für Skype for Business Server aus. Informationen zur Server Zusammenstellung für Skype for Business Server.'
-ms.openlocfilehash: 5c8c4b7cc2a0bf1c392e3fad70a179b838a64606
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296623"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418011"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Grundlagen der Topologie für Skype for Business Server
 
@@ -184,7 +184,7 @@ Directors können die Benutzeranforderungen von Skype for Business Server authen
 ### <a name="persistent-chat-server-roles"></a>Server Rollen für beständigen Chat
 
 > [!NOTE]
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
 
 Durch den beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die langfristig erhalten bleiben. Auf dem Front-End-Server für beständigen Chat wird der beständige Chatdienst ausgeführt. Auf dem Back-End-Server für beständigen Chat werden die Chatverlaufsdaten sowie Informationen zu Kategorien und Chatrooms gespeichert. Auf dem optionalen Back-End-Server zur Kompatibilität für den beständigen Chat können Chatinhalte sowie Kompatibilitätsereignisse zum Zweck der Einhaltung von Bestimmungen gespeichert werden.
 
@@ -239,7 +239,7 @@ Hierbei handelt es sich um den Bereich mit echten unterschieden zwischen Standar
 Da sich SQL Server Express auf dem Standard Edition-Server befindet und nicht verschoben werden kann, ist dies ziemlich einfach. Darüber hinaus können Sie, wenn Sie den beständigen Chat Server auf einem Standard Edition-Server bereitstellen, auch den beständigen Chat und die Compliance-Datenbank für beständigen Chat auf dem Standard Edition-Server collocate.
 
     > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
 
 Diese können nicht auf dem Standard Edition-Server, sondern auf einem eigenen Datenbankserver abgelegt werden:
 
@@ -272,7 +272,7 @@ Nun gibt es einige zusätzliche Regeln, die beim Abstimmen von Skype for Busines
 - Der Datenbankserver kann nicht mehr als einen Enterprise Edition-Front-End-Pool, einen Server mit Archivierungsfunktion, einen Server mit Überwachung, eine einzelne beständige Chat-Datenbank und eine einzelne Datenbank für beständigen Chats unterstützen, kann aber jeweils eine davon unterstützen. unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
 
     > [!NOTE]
-    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
+    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
 
 ### <a name="file-shares"></a>Dateifreigaben
 
