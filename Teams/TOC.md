@@ -89,7 +89,7 @@
 ## [Planen der Bereitstellung](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
-## [Besprechungseinstellungen verwalten] (meeting-settings-in-teams.md
+## [Verwalten von Besprechungseinstellungen](meeting-settings-in-teams.md)
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -332,6 +332,7 @@
 
 ### Technische Referenz für direktes Routing
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
+#### [Medienpfad-Landesvorwahl](direct-routing-country-codes.md)
 
 ## Telefonnummern
 ### [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -630,7 +631,8 @@
 # 
 # 
 
-# [Erweitern von Teams in Ihrer Organisation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# Branchen- und Regierungsrichtlinien
+## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +668,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# Richtlinien für kleine und mittelständige Unternehmen
+## [Teamvorlagen für kleine und mittlere Unternehmen](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# Sicherheit und Compliance
+## [Übersicht](security-compliance-overview.md)
+## [Information Barriers in Teams](information-barriers-in-teams.md)
+## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](ediscovery-investigation.md)
+## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
+## [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
+## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
+## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
+## [Verwenden der Inhaltssuche in Teams](content-search.md)
+## [AppLocker-Anwendungssteuerungsrichtlinien in Teams](applocker-in-teams.md)
+## Aufbewahrungsrichtlinien in Teams
+### [Übersicht](retention-policies.md)
+### [Häufig gestellte Fragen zu Aufbewahrungsrichtlinien](retention-policies-FAQ.md)
+### [Bekannte Probleme im Zusammenhang mit Aufbewahrungsrichtlinien](retention-policies-known-issues.md)
+## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
+## [Konformitätserklärung zur Barrierefreiheit von Microsoft Teams in Frankreich](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Barrierefreiheitslösungen für Skype for Business Online und Microsoft Teams](accessibility-solutions-in-france.md)
+##  [Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Datensammlungsverfahren](data-collection-practices.md)
+## [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [Schulung](training-microsoft-teams-landing-page.md)
 ## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.md)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
 ## [Microsoft Teams-Schulungen für Endbenutzer](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # Referenz
@@ -743,27 +774,6 @@
 ### [Für Microsoft Teams zertifizierte IP-Telefone](teams-ip-phones.md)
 ### [Telefone für Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Sicherheit und Compliance
-### [Übersicht](security-compliance-overview.md)
-### [Information Barriers in Teams](information-barriers-in-teams.md)
-### [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](ediscovery-investigation.md)
-### [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
-### [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
-### [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
-### [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
-### [Verwenden der Inhaltssuche in Teams](content-search.md)
-### [AppLocker-Anwendungssteuerungsrichtlinien in Teams](applocker-in-teams.md)
-### Aufbewahrungsrichtlinien in Teams
-#### [Übersicht](retention-policies.md)
-#### [Häufig gestellte Fragen zu Aufbewahrungsrichtlinien](retention-policies-FAQ.md)
-#### [Bekannte Probleme im Zusammenhang mit Aufbewahrungsrichtlinien](retention-policies-known-issues.md)
-### [Speicherort von Daten in Teams](location-of-data-in-teams.md)
-### [Konformitätserklärung zur Barrierefreiheit von Microsoft Teams in Frankreich](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Barrierefreiheitslösungen für Skype for Business Online und Microsoft Teams](accessibility-solutions-in-france.md)
-###  [Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Datensammlungsverfahren](data-collection-practices.md)
-### [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 
 ## Problembehandlung und Support
