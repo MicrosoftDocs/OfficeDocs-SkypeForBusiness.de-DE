@@ -78,6 +78,7 @@
 #### [Teams-Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams-Gerätenutzungsbericht](teams-analytics-and-reports/device-usage-report.md)
+#### [Teams-Liveereignis-Nutzungsbericht](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](teams-activity-reports.md)
 
 
