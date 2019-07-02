@@ -1,7 +1,7 @@
 ---
 title: Administrator-Schulung für Microsoft Teams
 ms.reviewer: ''
-description: Erhalten Sie eine Schulung, die Sie Microsoft-Teams in Ihrer Organisation verwalten müssen
+description: Holen Sie sich die Schulung, die Sie zum Verwalten von Microsoft Teams in Ihrer Organisation benötigen
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896242"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417838"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
-Informationen Sie zum Verwalten von Teams für Ihre Organisation.
+Hier erfahren Sie, wie Sie Teams für Ihre Organisation verwalten.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ Informationen Sie zum Verwalten von Teams für Ihre Organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEU: Von Schulungsleitern gehaltene-Schulung für Teams</h3>
+                        <h3>Neu: Schulung von Kursleitern für Teams</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Informationen Sie zum Verwalten von Teams für Ihre Organisation.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -153,7 +153,7 @@ Informationen Sie zum Verwalten von Teams für Ihre Organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Neue features</h3>
+                        <h3>Neue Funktionen</h3>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Anrufpläne in Kanada (Allgemeine Verfügbarkeit)</a></p>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Anrufpläne in Australien (nur Vorschauversion)</a></p>
                     </div>
