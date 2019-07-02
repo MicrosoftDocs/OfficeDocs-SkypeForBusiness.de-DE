@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: c4b0b404fae8d9142333bed60de80697e350b4ab
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221983"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417924"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
@@ -68,7 +68,7 @@ Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminP
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Upgrade von Skype for Business auf Microsoft Teams
 Teams ist der primäre Client für intelligente Kommunikation in Office 365 und ersetzt in Zukunft Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](https://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
 
-Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen hierzu finden Sie unter [Upgrade to Teams](journey-skypeforbusiness-teams.md) (Upgrade zu Teams ausführen).
+Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen hierzu finden Sie unter [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen).
 
 ## <a name="teamwork-and-office-365"></a>Teamarbeit und Office 365
 Jedes Team ist anders, das heißt, es gibt keine Universallösung für die Zusammenarbeit. Office 365 ist für die individuellen Anforderungen jedes Teams konzipiert und ermöglicht Benutzern mit speziell entwickelten integrierten Anwendungen Kommunikation, Zusammenarbeit und eine Steigerung ihrer Produktivität. 
