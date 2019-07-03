@@ -97,6 +97,7 @@
 ## [Konfigurieren der Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ## [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
+## [Einrichten der Funktion „Rückruf“ für Ihre Benutzer](set-up-the-call-me-feature-for-your-users.md)
 ## [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams-Räume](room-systems/index.md)
 ## [Verwalten des Whiteboards in Teams](manage-whiteboard.md)
