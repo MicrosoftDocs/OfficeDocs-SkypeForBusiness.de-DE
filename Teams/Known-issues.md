@@ -15,22 +15,18 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
+ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222077"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "35541064"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
 Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktionsbereichen auf.
 
 ## <a name="administration"></a>Verwaltung
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|    
-|:-----|:-----|:-----|:-----|
-|Ressourcenkonto falsch konfigurierte Abteilung <br/> |Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Es gibt eine Lösung, um dieses Problem zu beheben. <br/><br/> Bei Ressourcenkonten, die mit New-CsHybridApplicationEndpoint in Verbindung mit Skype for Business Server konfiguriert wurden, ist der Abteilungsparameter nicht ordnungsgemäß eingestellt. Dies führt dazu, dass die Erstellung des Ressourcenkontos in Skype for Business Online fehlschlägt. In diesem Fall müssen Sie den Abteilungsnamen in Active Directory konfigurieren, bevor Sie die Synchronisierung mit der Online-Anwendung vornehmen.|Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> |8.5.2019 <br/> |
 
 
 
@@ -227,6 +223,35 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Benutzerprofilfotos  <br/> | Microsoft Teams verfügt zurzeit nicht über einen Mechanismus, mit dem verhindert werden kann, dass Benutzer Fotos ändern. Das BTS-Team hat sich mit dem Entwicklungsteam getroffen, das den folgenden Vorschlag eingereicht hat: Funktion 108874: IT-Richtlinie zum Deaktivieren des Hochladens von Profilfotos.   <br/> | Wenn Sie die Möglichkeit wünschen, das Hochladen von Profilfotos in Microsoft Teams zu verhindern, geben Sie hier in den Kommentaren Ihre Stimme ab, und beschreiben Sie ein Geschäftsszenario: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01.03.2017 <br/> |
+
+
+
+## <a name="phone-system"></a>Telefonsystem
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Ressourcenkonto falsch konfigurierte Abteilung <br/> |Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Es gibt eine Lösung, um dieses Problem zu beheben. <br/><br/> Bei Ressourcenkonten, die mit New-CsHybridApplicationEndpoint in Verbindung mit Skype for Business Server konfiguriert wurden, ist der Abteilungsparameter nicht ordnungsgemäß eingestellt. Dies führt dazu, dass die Erstellung des Ressourcenkontos in Skype for Business Online fehlschlägt. In diesem Fall müssen Sie den Abteilungsnamen in Active Directory konfigurieren, bevor Sie die Synchronisierung mit der Online-Anwendung vornehmen.|Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> |8.5.2019 <br/> |
+
+
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Verzögerung beim Synchronisieren von Ressourcenkonten|Sie können dem Ressourcenkonto keine Rufnummer zuweisen, oder Sie erhalten die Fehlermeldung "Die folgende Anwendungsinstanz ist in BVD nicht vorhanden".|Die Synchronisierung braucht bis zu 24 Stunden. Sind bereits 24 Stunden vergangen, entfernen Sie die Rufnummernzuordnung, löschen Sie das Ressourcenkonto, und erstellen Sie ein neues mit einem anderen Namen.|18.05.2019|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Sie können im Teams Admin Center keine gebührenpflichtige Servicerufnummer zuweisen|Wenn Sie versuchen, eine gebührenpflichtige Servicerufnummer im Teams Admin Center zuzuweisen, erhalten Sie die Fehlermeldung "Sie benötigen eine Lizenz für das Telefonsystem".|Verwenden Sie stattdessen die PowerShell-Cmdlets, um eine gebührenpflichtige Servicerufnummer zuzuweisen.|18.05.2019|
+
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Ressourcenkonto beschädigt|Ressourcenkonto funktioniert nicht|Wenn Sie die Lizenz eines Ressourcenkontos entfernen oder ersetzen, oder wenn Sie ein neues Ressourcenkonto mit demselben SIP-URI wie dem eines zuvor gelöschten Kontos erstellen, führt dies zu einem beschädigten Ressourcenkonto.|18.05.2019|
+
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Rufnummer gesperrt|Rufnummer gesperrt: Wenn Sie das Ressourcenkonto löschen, bevor Sie die Rufnummer entfernt haben, wird die Rufnummer gesperrt.|Wenden Sie sich an den Microsoft-Support, um die Rufnummer freizugeben.|18.05.2019|
+
 
 ## <a name="provisioning"></a>Bereitstellung
 

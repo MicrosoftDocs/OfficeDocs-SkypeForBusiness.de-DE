@@ -68,6 +68,7 @@
 ### [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ### [Teams-Benutzereinstellungen im Batch bearbeiten](edit-user-settings-in-bulk.md)
 ### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
+### [Verwalten von Feedbackrichtlinien in Teams](manage-feedback-policies-in-teams.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Verwalten der externen Zugriffsrichtlinie](manage-external-access.md)
 ### [Verwenden der Inline-Nachrichtenübersetzung](inline-message-translation-teams.md)
@@ -717,6 +718,7 @@
 ## Vorbereiten der Bereitstellung von Teams
 ### [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
+### [Verwenden des Netzwerkplaners für Teams](network-planner.md)
 ### [Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
 ### [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 ### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
