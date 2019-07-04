@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302770"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535866"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Skype for Business Online
 
@@ -65,13 +65,13 @@ Eine PIN ist für den Besprechungsorganisator nicht erforderlich, wenn eine ande
 
 - Wenn Sie die PIN zurücksetzen möchten, lesen Sie [Zurücksetzen der Audiokonferenz-Pin](reset-the-audio-conferencing-pin.md).
     
-- Wenn der anonyme Zugriff oder das Starten einer Besprechung keine PIN erfordert, ist aktiviert:
+- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN nicht erforderlich ist, ist deaktiviert:
     
   - Wenn die Besprechung noch nicht begonnen hat (es ist noch niemand in der Besprechung vorhanden): ein Anrufer wird aufgefordert, wenn er der Organisator ist; Wenn er "Ja" sagt, wird er aufgefordert, seine PIN einzugeben, und nachdem er die PIN angegeben hat, wird die Besprechung gestartet, und der Benutzer wird an der Besprechung teilnehmen.
     
   - Wenn die Besprechung bereits begonnen hat (eine andere Person befindet sich bereits in der Besprechung): ein Anrufer wird nicht gefragt, ob er der Organisator ist, und er wird nie zur Eingabe der PIN aufgefordert; die Besprechung wurde bereits gestartet, und der Anrufer wird teilnehmen.
     
-- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN nicht erforderlich ist, ist deaktiviert:
+- Wenn der anonyme Zugriff oder das Starten einer Besprechung keine PIN erfordert, ist aktiviert:
     
   - Wenn die Besprechung noch nicht begonnen hat (es ist noch niemand in der Besprechung vorhanden): ein Anrufer wird nicht dazu aufgefordert, wenn er der Organisator ist, und wird nie zur Eingabe der PIN aufgefordert. Da die Einstellung für Organizer auf aus festgelegt ist, wird die Besprechung gestartet, und die anonymen Anrufer werden an der Besprechung teilnehmen.
     
