@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493987"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587916"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
@@ -76,7 +76,7 @@ Der Bericht sieht wie folgt aus:
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange) 
      *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange)
-     *    **Hinweis:** Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
+     *    **Hinweis:** Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools #a0 Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
 *     
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
@@ -104,7 +104,7 @@ Der Bericht sieht wie folgt aus:
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch tabstoppgetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
+![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch tabstoppgetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren.<br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

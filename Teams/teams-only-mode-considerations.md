@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 11378d35e042a69c2eff8f171cdc266108505774
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34422003"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588119"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
@@ -52,6 +52,9 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
  - Skype for Business-Mandant wird in Südkorea gehostet **, und** die Organisation setzt voraus, dass die Teams-Daten in Südkorea gespeichert werden. Derzeit werden Organisationen mit Skype for Business-Daten, die in Südkorea gespeichert sind und für die ein Upgrade auf Teams durchgeführt wird, ihre Teams-Daten in der Region Asia Datacenter, nicht in der Region Süd-Korea, speichern.
 
 **Benutzerspezifische Überlegungen**: einige Benutzerszenarien werden weiterhin entwickelt, und Administratoren können beschließen, das Upgrade bestimmter Benutzer vorübergehend zu verschieben, während Sie andere Benutzer in der Organisation aktualisieren. Wir arbeiten an der Lösung dieser Szenarien; Überwachen Sie die [Office 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) -Website für Ankündigungen.
+
+> [!NOTE]
+> Bevor Sie in den Modus nur für Teams wechseln, müssen Sie Geräte ersetzen oder aktualisieren, die keine Teams unterstützen. 
 
 | Szenario | Hinweise |
 |----------|-------|

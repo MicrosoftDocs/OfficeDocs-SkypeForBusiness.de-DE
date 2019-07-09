@@ -1,9 +1,9 @@
 ---
-title: Informationsbarrieren in der Vorschau von Microsoft Teams
+title: Informationsbarrieren in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418288"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588127"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Informationsbarrieren in der Vorschau von Microsoft Teams
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
 Informationsbarrieren sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Dies ist hilfreich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
 
@@ -47,14 +45,14 @@ Der Evaluierungs Dienst für Informations Barriere-Richtlinien bestimmt, ob eine
 
 ## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
 
-Richtlinien für Informationsbarrieren werden mit PowerShell-Cmdlets des Security #a0 Compliance Center (SCC) verwaltet. Weitere Informationen zum Verwenden dieser Cmdlets finden Sie unter [Definieren von Richtlinien für Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+Richtlinien für Informationsbarrieren werden im Office 365 Security #a0 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens 24 Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren.
+> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens 24 Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. [Informieren Sie sich über die Voraussetzungen für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 
-Die Administratorrolle für Informationsbarrieren (IB Compliance Management) ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Office 365 Security #a0 Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Die IB-Compliance-Verwaltungsrolle ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Office 365 Security #a0 Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="when-are-information-barrier-policies-checked"></a>Wann werden die Richtlinien für Informationsbarrieren überprüft?
 
@@ -68,7 +66,7 @@ Richtlinien für Informationsbarrieren werden überprüft, wenn die folgenden Te
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Was passiert mit vorhandenen Chat-Threads, wenn eine Richtlinie geändert wird?
 
-Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer Richtlinie vornimmt oder eine Richtlinienänderung aufgrund einer Änderung des Profils eines Benutzers (beispielsweise bei einer Auftragsänderung oder einem ähnlichen Grund) in Kraft tritt, sucht der Evaluierungs Dienst für Informations Barriere-Richtlinien automatisch nach die Mitglieder, um sicherzustellen, dass Mitglieder des Teams keine Richtlinien verletzen.
+Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer Richtlinie vornimmt oder eine Richtlinienänderung aufgrund einer Änderung des Profils eines Benutzers (beispielsweise bei einer Auftragsänderung oder einem ähnlichen Grund) in Kraft tritt, wird der Evaluierungs Dienst für Informations Barriere-Richtlinien automatisch durchsucht die Mitglieder, um sicherzustellen, dass Mitglieder des Teams keine Richtlinien verletzen.
 
 Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
 
@@ -102,7 +100,7 @@ In Kürze: Benutzer erfahren Folgendes, wenn eine Richtlinie für Informationsba
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Derzeit befinden sich die Informations Barriere-Features in der öffentlichen Vorschau. Wenn diese Features in der Regel verfügbar sind, sind Sie in Abonnements enthalten, beispielsweise:
+Informationsbarrieren werden jetzt eingeführt und sind in Abonnements enthalten, wie beispielsweise:
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -113,6 +111,8 @@ Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Comp
 
 ## <a name="more-information"></a>Weitere Informationen
 
-- Weitere Informationen zu Informationsbarrieren finden Sie unter [Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Wenn Sie mehr über Informationsbarrieren erfahren möchten, lesen Sie [Informationen](https://docs.microsoft.com/office365/securitycompliance/information-barriers)zu Barrieren.
 
-- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) .
+- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+
+- Informationen zum Bearbeiten oder Entfernen von Richtlinien für Informationsbarrieren finden Sie unter [Bearbeiten (oder entfernen) von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)

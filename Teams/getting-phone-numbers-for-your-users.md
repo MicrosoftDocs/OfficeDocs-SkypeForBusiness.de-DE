@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347924"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588215"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -64,7 +64,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
   
 - Wenn Sie 999 oder weniger Telefonnummern für Ihre Benutzer benötigen, können Sie das Legacy Portal im Microsoft Teams Admin Center verwenden. Führen Sie die Schritte unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) aus, um ihre Telefonnummern an Teams zu übertragen.
     
-- Wenn Sie mehr als 999 Telefonnummern portieren müssen, finden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](/skypeforbusiness/manually-submit-a-custom-service-request) weitere Informationen zum Übermitteln einer Serviceanfrage für einen Portierungsauftrag oder einen Auftrag für die Portierung dieser Telefonnummern zu Office 365.
+- Wenn Sie mehr als 999 Telefonnummern portieren müssen, lesen Sie [Verwalten von Dienstanforderungen in Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) , um eine Serviceanfrage für einen Portierungs Auftrag zu übermitteln, oder um alle diese Telefonnummern auf Office 365 übertragen zu lassen.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Anzeigen von Telefonnummern für Ihr Unternehmen
 

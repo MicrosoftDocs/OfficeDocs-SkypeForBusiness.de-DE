@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290386"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588199"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290386"
 
 Mit dem direkt Routing von Microsoft Phone System können Sie einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen.  Mit dieser Funktion können Sie beispielsweise die lokale PSTN-Konnektivität mit Microsoft Teams-Client konfigurieren, wie in der folgenden Abbildung dargestellt: 
 
-![Zeigt die Konfiguration der lokalen PSTN-Konnektivität mit Microsoft Teams-Client](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Diagramm mit Konfiguration der lokalen PSTN-Konnektivität] (media/PlanDirectRouting1-PSTNwithTeams.png "Konfiguration der lokalen PSTN-Konnektivität mit Microsoft Teams-Client")
 
   > [!NOTE]
   > Mit Skype for Business Online können Sie auch einen vom Kunden bereitgestellten SBC koppeln, dies erfordert aber eine lokale Skype for Business Server-Bereitstellung oder eine spezielle Edition von Skype for Business, genannt Cloud Connector, zwischen dem SBC und der Microsoft-Cloud. Dieses Szenario wird als Hybridsprache bezeichnet. Im Gegensatz dazu ermöglicht die direkte Weiterleitung eine direkte Verbindung zwischen dem unterstützten SBC und der Microsoft-Cloud. 
@@ -89,10 +89,14 @@ Benutzern des direkten Routings muss in Office 365 die folgenden Lizenzen zugewi
 - Microsoft Teams 
 - Microsoft-Audiokonferenzen 
 
-Die Audiokonferenz-Lizenz ist erforderlich, um externe Teilnehmer zu geplanten Besprechungen hinzuzufügen, indem Sie sich entweder an Sie anwählen oder die Einwahlnummer angeben. 
- 
-  > [!NOTE]
-  > Die E5-Lizenz umfasst sowohl Telefon System als auch Audiokonferenzen.   
+> [!NOTE]
+> Wenn Sie von einem 1:1-Anruf eskalieren, ist die Audiokonferenz-Lizenz erforderlich.
+
+> [!IMPORTANT]
+>  Für den Fall, dass Sie externe Teilnehmer zu geplanten Besprechungen hinzufügen möchten, indem Sie sich entweder durch wählen oder die Einwahlnummer angeben, ist die Audiokonferenz-Lizenz *erforderlich*.
+
+> [!NOTE]
+> Die E5-Lizenz umfasst sowohl Telefon System als auch Audiokonferenzen.   
 
 Darüber hinaus müssen Sie Folgendes sicherstellen:
  

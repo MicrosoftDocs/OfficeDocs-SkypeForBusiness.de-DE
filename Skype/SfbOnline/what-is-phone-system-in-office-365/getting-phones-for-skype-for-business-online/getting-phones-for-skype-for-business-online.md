@@ -21,22 +21,23 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297998"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587934"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
-  
-Wenn Sie die neuesten Updates und die aktuellsten Informationen zu unterstützten Geräten erhalten möchten, lesen Sie den [Skype for Business-Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+
+> [!NOTE]
+> Skype for Business wird in Office 365 langsam durch Microsoft Teams als primäre Kommunikationsmethode ersetzt.  Weitere Informationen finden Sie unter [eine neue Vision für intelligente Kommunikation in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
+>
+>Informationen zu den neuesten Updates und den aktuellsten Informationen zu unterstützten Geräten finden Sie auf den [Microsoft Teams-Geräten für intelligente Kommunikation](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Unterstützte Telefone
-
-Für Skype for Business Online-Benutzer können Sie aus verschiedenen Modellen in den Skype ** for Business-zertifizierten Skype for Business-Telefonen und-Smartphones wählen, auf denen lync Phone Edition (LPE) unter der Skype for Business Online-Kategorie im [Skype for Business-Gerät aufgeführt ist. Katalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog)aus.
   
 Microsoft arbeitet in enger Partnerschaft mit Polycom, Yealink und AudioCodes zusammen, um über das Partner IP Phone Program (PIP) für das Telefonsystem in Office 365 und Skype for Business Server eine breite Palette von Geräten zu entwickeln und zu zertifizieren.
   
@@ -99,8 +100,8 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |Visuelle Mailbox  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Telefonsperre  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|In-Band-Bereitstellung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|QoE  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|In-Band-Bereitstellung  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|QoE  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur an das Microsoft-Support Team hochgeladen. der Kunden Zugriff auf Telefonprotokolle steht noch nicht zur Verfügung.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
