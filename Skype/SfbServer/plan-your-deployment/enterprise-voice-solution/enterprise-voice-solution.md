@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Zusammenfassung: erfahren Sie mehr über Ihre Optionen für die Planung einer einheitlichen Sprach-und Kommunikationslösung in Skype for Business Server.'
-ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276873"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602169"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planen Ihrer Enterprise-VoIP-Lösung in Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "34276873"
   
 Skype for Business Server bietet zwei lokale Enterprise-VoIP-Optionen – Enterprise-VoIP und-Anruf über Arbeit –, damit Sie das Telefonsystem Ihrer Organisation in Ihre Skype for Business Server-Bereitstellung integrieren können, was eine echte Unified Communications-Funktion ermöglicht. Lösung. Beide Optionen ermöglichen es Benutzern, Ihren Skype for Business-Client zu verwenden, um Sprachanrufe mit anderen Benutzern zu initiieren, sowohl innerhalb als auch außerhalb Ihrer Organisation.
   
-Sie können auch die Vorteile der Microsoft Cloud PBX-Dienste, einschließlich der PBX-Dienste und PSTN-Anrufe, nutzen, indem Sie Ihre lokale Telefonie-Infrastruktur mit den Diensten verbinden, die von Skype for Business Online bereitgestellt werden. Weitere Informationen finden Sie unter [Planen Ihres Telefonsystems in der Office 365 (Cloud PBX)-Lösung](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+Sie können auch die Vorteile der Microsoft Cloud PBX-Dienste, einschließlich der PBX-Dienste und PSTN-Anrufe, nutzen, indem Sie Ihre lokale Telefonie-Infrastruktur mit den Diensten verbinden, die von Skype for Business Online bereitgestellt werden. Weitere Informationen finden Sie unter [Cloud-VoIP in Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
   
 Sie können auch Enterprise-VoIP und-Anruf über die Zusammenarbeit nutzen.
   

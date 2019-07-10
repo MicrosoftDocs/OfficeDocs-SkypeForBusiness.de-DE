@@ -1,8 +1,9 @@
 ---
 title: Plan für Live-Ereignisse in Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,16 +15,16 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013029"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602255"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
-Wenn Sie Team-Live-Events planen, um umfangreiche Besprechungen in Ihrer Organisation zu führen, müssen Sie einige Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen. 
+Wenn Sie Team-Live-Events planen, um umfangreiche Besprechungen in Ihrer Organisation zu führen, müssen Sie vor Beginn der Einrichtung eine Reihe von Faktoren berücksichtigen. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>Wer kann Live-Events erstellen und planen? 
 Die folgenden Voraussetzungen sind erforderlich, damit der Benutzer ein Live-Event für Teams planen können.
@@ -51,7 +52,7 @@ Der Benutzer muss über Folgendes verfügen:
 - Berechtigungen zum Erstellen von Live Ereignissen in Stream (für externe APP-oder Geräteproduktion).
 
 > [!IMPORTANT]
-> Office 365-Gäste, Partner und anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. Office 365 Guest-und Federated-Benutzer können Live-Ereignisse nur anonym überwachen. 
+> Office 365-Gäste, Partner und anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. Office 365-Gäste und verbundene Benutzer können Live-Ereignisse nur anonym ansehen. 
  
 ## <a name="who-can-watch-live-events"></a>Wer kann Live-Events sehen?
 
@@ -59,11 +60,12 @@ Der Benutzer muss über Folgendes verfügen:
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
 |Gastbenutzer                   |  Nr.<sup>1</sup> |  Nein                  |
-|Jeder im Verbundunternehmen |  Nr.<sup>1</sup> |  Nein                  |
+|Jeder im Verbundunternehmen |  Nr.<sup>2</sup> |  Nein                  |
 |Jeder in Unternehmen           |  Ja             |  Ja                 |
 |Bestimmte Gruppen/Personen      |  Ja             |  Ja                 |
 
-<sup>1</sup> kann Live-Ereignisse nur als anonyme Benutzer ansehen.
+<sup>1</sup> kann Live Ereignisse beobachten, wenn das Live-Ereignis mithilfe der Option " **org-Wide** " eingerichtet ist.<br>
+<sup>2</sup> kann Live-Ereignisse nur als anonyme Benutzer ansehen.
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams Live-Events und Skype-Live Konferenz
@@ -89,8 +91,8 @@ In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Li
 |Präsentieren einer PowerPoint-Freigabe (PPT-Freigabe) |&#x2714; |X (durch Bildschirmübertragung verringert) |Nicht zutreffend |
 |Cloud-basierte Besprechungsaufzeichnung |&#x2714; |&#x2714; |&#x2714; |
 |Aufzeichnen in Datenstrom automatisch veröffentlichen |X |X |&#x2714; |
-|Untertitel und Übersetzungen in Echtzeit |&#x2714; |&#x2714; (in Kürze verfügbar) |X |
-|Beschriftungen in Live-Ereignisaufzeichnungen |&#x2714; |&#x2714; (in Kürze verfügbar) |&#x2714; |
+|Live Beschriftungen und Untertitel |&#x2714; |&#x2714; |X |
+|Beschriftungen in Live-Ereignisaufzeichnungen |&#x2714; |&#x2714; |&#x2714; |
 |Steuerelemente für Teilnehmer-DVR (anhalten, Zurückspulen) |&#x2714; |&#x2714; |&#x2714; |
 |Support für Partner-ECDN |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |
 |Teilnahmebericht nach der Übertragung für Hersteller |&#x2714; |&#x2714; |X |

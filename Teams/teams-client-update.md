@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie der Desktop Client von Teams aktualisiert wird.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588183"
+ms.locfileid: "35602271"
 ---
 # <a name="teams-update-process"></a>Updateprozess für Teams
 
@@ -31,7 +31,9 @@ Der Desktop-Client wird automatisch aktualisiert. Teams überprüft alle paar St
 
 Benutzer können Updates auch manuell herunterladen, indem Sie im Dropdownmenü **Profil** oben rechts in der APP auf auf **Updates überprüfen** klicken. Wenn ein Update verfügbar ist, wird es heruntergeladen und automatisch installiert, wenn sich der Computer im Leerlauf befindet.
 
-Benutzer müssen angemeldet sein, damit Updates heruntergeladen werden können. Ab dem 9. Juli 2019 verwenden Teams-Clientupdates während des Updates deutlich geringere Netzwerkbandbreite. Dies ist standardmäßig aktiviert und erfordert keine Aktion von Administratoren oder Benutzern.
+Benutzer müssen angemeldet sein, damit Updates heruntergeladen werden können. 
+
+Ab dem 9. Juli 2019 verwenden Teams-Clientupdates während des Updates deutlich geringere Netzwerkbandbreite. Dies ist standardmäßig aktiviert und erfordert keine Aktion von Administratoren oder Benutzern.
 
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>Was ist mit Updates für Office 365 ProPlus?

@@ -1,9 +1,9 @@
 ---
 title: Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,12 +15,12 @@ MS.collection:
 description: Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer Live Ereignisse in Ihrer Organisation aufnehmen kann, und Features, die in den von Ihnen erstellten Ereignissen zur Verfügung stehen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 825fe7e7e80b2653d35c8b0752124b50386395d6
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012974"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602263"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
@@ -129,11 +129,11 @@ Festlegen der globalen Richtlinie zum Deaktivieren der Aufzeichnung für Live Er
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Einrichten von Transkription und Übersetzung in Live-Events (in Kürze verfügbar)
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Einrichten von Live Beschriftungen und Untertiteln in Live Ereignissen
 > [!NOTE]
 > Diese Einstellung gilt nur für Ereignisse, die in Teams erstellt wurden. 
 
-Festlegen der globalen Richtlinie zum Aktivieren von Transkription und Übersetzung für Ereignis Teilnehmer:
+Festlegen der globalen Richtlinie zum Aktivieren von Live Beschriftungen und Untertiteln (Transkription) für Ereignis Teilnehmer:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
