@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418217"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614252"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -73,6 +73,7 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 |[Logitech Tap + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
 |[Logitech Tap Touch-Controller für Video Konferenzräume](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240 GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
 |||||
 
 > [!NOTE]
