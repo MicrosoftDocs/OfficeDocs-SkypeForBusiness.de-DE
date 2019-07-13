@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302831"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643178"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen von Skype-Konnektivität in Skype for Business Server
- 
+
 **Zusammenfassung:** Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.
   
 Dieser Artikel führt Sie durch die Bereitstellung für Skype-Konnektivität.
@@ -96,49 +96,48 @@ Skype for Business Server verwendet die Verbund Zugriffs Architektur, um die Kon
 > [!NOTE]
 > Wenn Skype for Business Server bereits für die Herstellung der Verbindung mit Windows Messenger über PIC (Public Instant Messaging Connectivity, Verbindung mit öffentlichen Chatdiensten) konfiguriert wurde, ist Ihre Bereitstellung schon für die Skype-Konnektivität konfiguriert. Als einzige Änderung sollten Sie ggf. den vorhandenen Messenger PIC-Eintrag in „Skype“ umbenennen.  
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Zugriff auf die Bereitstellung von Skype for Business Server für die öffentliche im-Konnektivität über Skype for Business Server
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Die Bereitstellungswebsite für den öffentlichen Chat in Skype for Business Server steht nicht mehr zur Verfügung.
 
-Je nach Anzahl der Anforderungen kann es bei diesem Bereitstellungsprozess bis zu 30 Tage oder auch nur einige Tage dauern, bis er abgeschlossen ist. Wir empfehlen, diesen Prozess zuerst zu starten und dann die verbleibenden Schritte in diesem Dokument auszuführen. Nachdem der Skype-Bereitstellungsprozess für Ihr Konto abgeschlossen wurde, wird das Konto aktiviert und den entsprechend berechtigten Benutzern wird die Verbindung mit öffentlichen Chatdiensten ermöglicht.  
+Die Website, die früher für die manuelle Bereitstellung der Föderation zwischen Skype for Business-Bereitstellungen und Skype verwendet wurde, ist nicht mehr erforderlich und wird auf 8/15/2019 heruntergefahren. In der Föderation mit Skype wird nun die Verbundpartner-Discovery verwendet, die derselbe Mechanismus ist, der für die Föderation mit Skype for Business Online erforderlich ist.
+
+Die Kommunikation zwischen einer beliebigen lokalen Skype for Business-Bereitstellung und Skype-Benutzern über die vorhandene öffentliche Chat-Infrastruktur erfordert jetzt, dass die lokale Edge-Server-Konfiguration mit Skype for Business Online kompatibel ist.
+
+> [!NOTE]
+> Die meisten Kunden benötigen keine Aktion, einschließlich aller Bereitstellungen, die mit Skype for Business Online zusammenlaufen.
   
-Für die Bereitstellung der Skype-Konnektivität benötigen Sie die folgenden Informationen:
-  
-- Die Microsoft-Vertragsnummer
-    
-- Den vollqualifizierten Domänenname (Fully Qualified Domain Name, FQDN) des Zugriffs-Edgediensts
-    
-- SIP-Domäne/n (Session Initiation Protocol)
-    
-- FQDNs für alle zusätzlichen Zugriffs-Edgedienste
-    
-- Kontaktinformationen
-    
-So starten Sie den Bereitstellungsprozess für die Skype-Konnektivität:
-  
-1. Registrieren Sie sich mit Ihrer Microsoft https://pic.lync.comWindows Live ID bei der Website.
-    
-2. Wählen Sie den Typ Ihres Microsoft-Lizenzvertrags aus.
-    
-3. Aktivieren Sie das Kontrollkästchen, um zu bestätigen, dass Sie die Produktbenutzungsrechte für Skype for Business Server gelesen haben und akzeptieren.
-    
-4. Klicken Sie auf der Seite „Initiate a Provisioning Request“ (Bereitstellungsprozess starten) auf den entsprechenden Link zum Starten eines Bereitstellungsprozesses.
-    
-5. Geben Sie auf der Seite Bereitstellungsinformationen angeben den FQDN des Access-Edgedienst ein. Beispiel: SIP.contoso.com.
-    
-    > [!IMPORTANT]
-    > Ab 1. Juli 2017 besteht seitens Microsoft auch die Anforderung an Kunden, den Federation DNS SRV-Eintrag für die Verbindung mit öffentlichen Chatdiensten bereitzustellen, um die weitere Funktionsfähigkeit zu sichern.  
-  
-6. Geben Sie mindestens einen SIP-Domänennamen ein und klicken Sie auf Hinzufügen.
-    
-    > [!NOTE]
-    > Mindestens ein Zugriffs-Edgeserver ist erforderlich, um den Bereitstellungsprozess abzuschließen. Während ein einzelner Zugriffs-Edge-FQDN mehrere SIP-Domänen unterstützen kann, kann eine einzige SIP-Domäne nicht von mehr als einem Zugriffs-Edge-FQDN dargestellt werden. SIP-Domäne und Zugriffs-Edge-Server müssen aktiv, betriebsbereit und im Netzwerk erreichbar sein.              
-  
-7. Wählen Sie in der Liste der Anbieter von öffentlichen Chatdiensten den Eintrag „Skype“ aus und klicken Sie auf Weiter, um Kontaktinformationen hinzuzufügen. Senden Sie anschließend die Bereitstellungsanforderung.
-    
-Nachdem die Bereitstellungsanforderung gesendet wurde, kann es je nach Warteschlange bis zu 30 Tage oder auch nur einige Tage dauern, bis das Konto aktiviert ist und die Benutzer für die Skype-Konnektivität aktiviert sind.
-  
+Lokale Bereitstellungen sind erforderlich, um einen Verbund-DNS-SRV-Eintrag für jede Domäne zu veröffentlichen, die er hostet. Anleitungen finden Sie in der [DNS-Planung](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Jede Domäne muss durch eine DNS-SRV-Abfrage zu einem Edgeserver-FQDN aufgelöst werden, der eine Übereinstimmung auf oberster Ebene der Domäne erfüllt. Nehmen Sie beispielsweise die Domäne "contoso.com" in Frage:
+
+|**Gültige FQDNs**|**Kommentar**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |In jedem Fall muss der exakte FQDN entweder im SN-oder im San des externen Zertifikats vorhanden sein, das auf dem Edgeserver installiert ist.   |
+|Access.contoso.com   ||
+|**Ungültige FQDNs**|**Grund**|
+|SIP.contoso-Edge.com   |Keine Suffix-Übereinstimmung.  |
+|SIP.it.contoso.com   |Das Suffix der obersten Ebene ist nicht identisch.   |
+
+Weitere Anleitungen zu externen Zertifikaten finden Sie unter [Zertifikats Planung](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
+
+#### <a name="faqs"></a>FAQs
+
+**Warum wird die Bereitstellungswebsite heruntergefahren?**
+Der in 2006 bereitgestellte öffentliche im (PIC)-Bereitstellungsmechanismus (PIC.lync.com) ist nicht mehr wartungsbar und wird auf 8/15/2019 beendet. Stattdessen übernimmt der öffentliche im-Verbund das gleiche Verbundmodell, das von Skype for Business Online verwendet wird, das unter dem Namen "Partner Discovery" bekannt ist, wodurch eine lokale Bereitstellung durch die DNS-SRV-Einträge (s) der Föderation öffentlich auffindbar ist.
+
+**Bedeutet diese Änderung, dass der öffentliche im-Verbund veraltet ist?**
+Nummer Der öffentliche Chat-Verbund wird weiterhin jahrelang unterstützt, wahrscheinlich erst, wenn das Skype for Business-Produkt am Ende der Nutzungsdauer erreicht ist.
+
+**Unser Unternehmen eine Hybrid Beziehung (freigegebener Adressraum) mit Skype for Business Online hat, sind wir davon betroffen?**
+Nein, da Sie bereits eine Föderation mit Skype for Business Online haben, hat diese Änderung keinen Einfluss auf Sie.
+ 
+**Bedeutet diese Änderung, dass unser Unternehmen Föderation mit Skype for Business Online aktivieren muss?**
+Nummer Wenn Ihre Edge-Server-Proxyeinstellungen die Föderation nicht mit dem Skype for Business Online-Hostinganbieter (sipfed.online.lync.com) aktivieren, wirkt sich diese Änderung nicht auf diese aus. Die gleichen DNS-und Zertifikatanforderungen, die für die Föderation mit Skype for Business Online gelten, gelten nun auch für die Föderation mit Skype-Nutzern.
+ 
+**Unser Unternehmen ist groß und kann seine Edge-Konfiguration aufgrund behördlicher/Compliance/etc-Gründe nicht ändern... Was können wir tun?**
+Jede lokale Organisation, die ihre Edge-Server-Konfiguration nicht wie angegeben ändern kann, sollte den Produktsupport so früh wie möglich erreichen.
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Aktivieren von Partnerverbünden und Verbindungen mit öffentlichen Chatdiensten (PIC)
 
-Nachdem Sie die Bereitstellungsanforderung gesendet haben, können Sie sich auf die Skype for Business Server-Umgebung und die Verwaltungsaufgaben konzentrieren, die zum Konfigurieren der Skype-Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der Administrator Skype for Business Server bereitgestellt und den externen Zugriff konfiguriert hat (auch als Edgeserver bezeichnet).  
+Konzentrieren Sie sich jetzt auf die Skype for Business Server-Umgebung und administrative Aufgaben, die für die Konfiguration der Skype-Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der Administrator Skype for Business Server bereitgestellt und den externen Zugriff konfiguriert hat (auch als Edgeserver bezeichnet). 
   
 Es gibt drei primäre Schritte zur Aktivierung des Partnerverbunds und der PIC:
   
@@ -153,7 +152,7 @@ Es gibt drei primäre Schritte zur Aktivierung des Partnerverbunds und der PIC:
 Der Partnerverbund ist erforderlich, damit Skype-Benutzer mit Skype for Business-Benutzern in Ihrer Organisation kommunizieren können. PIC (Public Instant Messaging Connectivity, Verbindung mit öffentlichen Chatdiensten) ist eine Partnerverbundklasse und muss konfiguriert werden, damit Skype for Business-Benutzer mit Skype-Benutzern kommunizieren können. Partnerverbund und PIC werden mit der Skype for Business Server-Systemsteuerung konfiguriert.
   
 > [!NOTE]
-> Der PIC-Partnerverbund wird von Live Communication Server 2005 SP1 oder Office Communications Server 2007 nicht mehr unterstützt. Zu den unterstützten Plattformen für PIC Federation Gehören Skype for Business Server, lync Server 2013, lync Server 2010 und Office Communications Server 2007 R2. 
+> PIC Federation wird von Produktversionen vor lync Server 2010 (Live Communication Server, Office Communications Server) nicht mehr unterstützt. Zu den unterstützten Plattformen für PIC Federation Gehören Skype for Business Server, lync Server 2013 und lync Server 2010. 
   
 Der Partnerverbund ist erforderlich, damit Skype-Benutzer mit Skype for Business-Benutzern in Ihrer Organisation kommunizieren können. PIC ist eine Partnerverbundklasse und muss konfiguriert werden, damit Skype for Business Server-Benutzer mit Skype-Benutzern kommunizieren können. Partnerverbund und PIC werden im Dialogfeld zur Edgeserverkonfiguration der Skype for Business Server-Systemsteuerung konfiguriert.
   

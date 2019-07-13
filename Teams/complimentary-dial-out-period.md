@@ -21,13 +21,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
-ms.openlocfilehash: be3a32f50399fb32268aa30c3f0c48b8b4b4c462
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenzen verwenden, wie Sie in den Skype for Business Online-und Microsoft Teams-PSTN-Diensten für die Verwendung von Geschäftsbedingungen und dem Volumenlizenzvertrag des Kunden zugelassen sind.
+ms.openlocfilehash: 4dc642ce59343b9d8699f31951c3cbe02b72ba08
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283370"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638589"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -41,26 +41,29 @@ Ab dem 1. Dezember 2019 endet die ﻿kostenlose Dial-Out-Funktion. Weitere Infor
 
 ### <a name="complimentary-dial-out-period-details"></a>Details zu den kostenlosen Wählzeiten
 
-Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern organisiert werden, denen eine Office 365-Abonnementlizenz für Audio-Conferencing bis November zugewiesen ist. 2019. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie Sie in den Einstellungen für Besprechungsrichtlinien definiert sind, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den nachstehend aufgeführten 44-Ländern "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
+Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern organisiert werden, denen eine Office 365-Abonnementlizenz für Audio-Conferencing bis November zugewiesen ist. 2019. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den unten aufgeführten Ländern und Regionen von 44 "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
 
 Darüber hinaus gibt es während des kostenlosen Wähl Zeitraums eine Grenze von 900 Minuten als solche:
 
-Benutzer, die über einen Speicherort für die Lizenznutzung verfügen (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Office 365-Administrator Portals definiert ist), können in einem beliebigen Land von einer Konferenz zu einem der 44 Zone a countries wählen. Jeder Benutzer erhält 900 Minuten pro Benutzer und Monat zu einem der Länder, die auf Mandantenebene gebündelt sind. Beispielsweise hat ein Kunde 115-Abonnements für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Indien, alle mit Lizenzen für Audio-Konferenz Abonnements, die Ihren Benutzern zugewiesen sind. Hinweis: die Größe des Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen.
+Benutzer, die über einen Speicherort für die Lizenzverwendung verfügen (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Office 365-Administrator Portals definiert ist), können in einem beliebigen Land von einer Konferenz zu einem der 44 Zone a Länder und Regionen wählen. Jeder Benutzer erhält 900 Minuten pro Benutzer pro Monat zu einem der Zonen A Länder und Regionen, die auf Mandantenebene gebündelt sind. Beispielsweise hat ein Kunde 115-Abonnements für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Indien, alle mit Lizenzen für Audio-Konferenz Abonnements, die Ihren Benutzern zugewiesen sind.
+
+> [!NOTE]
+> Die Größe des Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen.
  
-- Alle 115-Benutzer haben einen Pool von (115-Benutzer X 900 min.) = 103.500 Konferenz-Auswahl Minuten pro Kalendermonat, die verwendet werden können, um ausgehende Anrufe in alle Länder der Zone a zu tätigen.
+- Alle 115-Benutzer teilen sich einen Pool von (115 Benutzer X 900 min) = 103.500 Konferenz-Auswahl Minuten pro Kalendermonat, die für ausgehende Anrufe in eine der Länder und Regionen der Zone verwendet werden können.
 - Alle Anrufe, die die 103.500-Minuten pro Kalendermonat überschreiten, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an dieses Ziel abgerechnet. (Hinweis: der Mandant muss Kommunikationsguthaben einrichten und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zuweisen).
 - Alle ausgehenden Anrufe an Zielorte, die nicht in der Zone liegen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an diesen Zielort abgerechnet (vorausgesetzt, der Mandant hat Kommunikationsguthaben eingerichtet und die Lizenz für Kommunikations Kredite dem Besprechungsorganisator).
 
 > [!NOTE]
-> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A countries" bezeichnet.
+> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams #a0 Skype Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
 
 E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
 
-Für ausgehende Anrufe, die pro Minute abgerechnet werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Liste der Länder sind), basieren die Anrufe und die dazugehörigen Gebühren in erster Linie auf dem Bestimmungsort des Anrufs und nicht auf dem Land des der Organisator oder der Teilnehmer, der den Auswähl Enden Anruf initiiert hat. Beispielsweise wird ein Anruf an eine Telefonnummer in Frankreich mit dem gleichen Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten oder einem in Frankreich initiiert wurde.
+Für Anrufe, die pro Minute in Rechnung gestellt werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Zone eine Liste der Länder und Regionen liegen), basieren die Anrufe und die dazugehörigen Gebühren in erster Linie auf dem Bestimmungsort des Anrufs und nicht auf dem Land. oder die Region des Organisators oder der Teilnehmer, der den Auswähl Enden Anruf initiiert. Beispielsweise wird ein Anruf an eine Telefonnummer in Frankreich mit dem gleichen Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten oder einem in Frankreich initiiert wurde.
 
 Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikationsguthaben](what-are-communications-credits.md).
 
-**Zone A countries**
+**Zone A Länder und Regionen**
 
 |    |
 |-----|

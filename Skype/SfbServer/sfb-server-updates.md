@@ -10,19 +10,26 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: Hier können Sie Updates für Skype for Business Server 2015 und Lync 2013 an einer zentralen Stelle suchen und verwalten. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: Suchen und verwalten Sie Updates für Skype for Business Server 2015/2019 und lync 2013 an einem zentralen Ort. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
+ms.openlocfilehash: dcc267be9c7a77ea0a472941ff298d993c08ae7c
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221858"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638581"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
-Suchen und verwalten Sie Updates für [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [lync Server 2013](#lync-server-2013-update-history)und [lync Server 2010](#lync-server-2010-update-history) an einem zentralen Ort. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
+Suchen und verwalten Sie Updates für [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [lync Server 2013](#lync-server-2013-update-history)und [lync Server 2010](#lync-server-2010-update-history) an einem zentralen Ort. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
 
 Die neuesten Updates für Skype for Business Online und Office 365 finden Sie in der [Microsoft 365-Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+
+## <a name="skype-for-business-server-2019-update-history"></a>Updateverlauf für Skype for Business Server 2019
+
+|Paketname|KB-Nummer|Veröffentlichungsdatum|
+|:--- |:--- |:--- |
+|Skype for Business Server 2019 Kumulatives Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juli 2019 |
+| | | |
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Updateverlauf für Skype for Business Server 2015
 

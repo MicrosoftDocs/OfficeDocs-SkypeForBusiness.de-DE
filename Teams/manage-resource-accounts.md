@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: 4dcb9327efba7be70628ad71a90734940fc3317e
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394500"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643171"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -38,13 +38,17 @@ In Microsoft Teams oder Skype for Business Online ist für jede Anrufwarteschlan
 
 Wenn Ihr Telefon System Dienst eine Dienstnummer benötigt, können die verschiedenen Abhängigkeiten in der folgenden Reihenfolge erfüllt sein:
 
-1. Abrufen einer Dienstnummer
-2. Kaufen Sie eine Telefonsystem Lizenz (Office 365 Enterprise E1 oder E3 mit Telefonsystem hinzugefügt oder Office 365 Enterprise E5, das Telefonsystem umfasst)
-3. Erstellen Sie das Ressourcenkonto. Eine automatische Telefonzentrale oder eine Anrufwarteschlange ist für ein zugeordnetes Ressourcenkonto erforderlich.
-4. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefon System zu.
-5. Weisen Sie dem Ressourcenkonto eine Telefonnummer zu.
-6. Erstellen eines Telefon System Diensts (eine Anrufwarteschlange oder eine automatische Telefonzentrale)
-7. Zuordnen des Ressourcenkontos zu einem Dienst: (neu-CsApplicationInstanceAssociation)
+1. Rufen Sie eine Dienstnummer ab.
+2. Erstellen Sie das Ressourcenkonto. Eine automatische Telefonzentrale oder eine Anrufwarteschlange ist für ein zugeordnetes Ressourcenkonto erforderlich.
+3. Besorgen Sie sich eine virtuelle Benutzerlizenz für das Telefonsystem oder das Telefonsystem.
+4. Kaufen Sie einen Plan für Inlands-oder Auslandsgespräche.
+5. Weisen Sie dem Ressourcenkonto das Telefonsystem oder eine virtuelle Benutzerlizenz für das Telefonsystem zu.
+6. Weisen Sie dem Ressourcenkonto eine Lizenz für den Anrufplan zu.
+7. Weisen Sie dem Ressourcenkonto eine Lizenz für Kommunikationsguthaben zu.
+8. Einrichten von Kommunikationsguthaben und Einrichten der automatischen Aufladefunktion für Ihre Organisation.
+9. Weisen Sie dem Ressourcenkonto, dem Sie soeben Lizenzen zugewiesen haben, eine Dienst Telefonnummer zu.
+10. Erstellen Sie einen Telefon System Dienst (eine Anrufwarteschlange oder eine automatische Telefonzentrale).
+11. Verknüpfen des Ressourcenkontos mit einem Dienst
 
 Wenn die automatische Telefonzentrale oder Anrufwarteschlange unter einer automatischen Telefonzentrale der obersten Ebene geschachtelt ist, benötigt das zugeordnete Ressourcenkonto nur eine Telefonnummer, wenn Sie mehrere Einstiegspunkte in die Struktur von automatischen Telefonzentralen und Anrufwarteschlangen einbeziehen möchten.
 
@@ -64,18 +68,20 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
    Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **sprach** > **Telefonnummern**angezeigt, und der angegebene **Nummerntyp** wird als " **Dienst gebührenfrei**" aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
-2. Kaufen Sie eine Telefon System Lizenz. Sieh:  
-   - [Office 365 Enterprise E1- und E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Office 365 Enterprise E5-Software für Unternehmen](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die ﻿kostenlose virtuelle Benutzerlizenz für das Telefon System verwenden. Dies bietet Telefon System Funktionen für Telefonnummern auf Organisationsebene und ermöglicht Ihnen das Erstellen von automatischen Telefonzentralen-und Anruf Warteschlangenfunktionen.
 
-3. Erstellen Sie ein neues Ressourcenkonto. Weitere Informationen finden Sie unter [Erstellen eines Ressourcenkontos in Microsoft Teams Admin Center](#create-a-resource-account-in-microsoft-teams-admin-center) oder [Erstellen eines Ressourcenkontos in PowerShell](#create-a-resource-account-in-powershell)
-4. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefon System zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md) und [Zuweisen von Lizenzen zu einem Benutzer](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Weisen Sie dem Ressourcenkonto die Dienstnummer zu. Weitere Informationen finden Sie unter Zuweisen/Aufheben der [Zuweisung von Telefonnummern und Diensten](#assignunassign-phone-numbers-and-services).
-6. Richten Sie eine der folgenden Optionen ein:
+2. Erstellen Sie ein neues Ressourcenkonto. Weitere Informationen finden Sie unter [Erstellen eines Ressourcenkontos in Microsoft Teams Admin Center](#create-a-resource-account-in-microsoft-teams-admin-center) oder [Erstellen eines Ressourcenkontos in PowerShell](#create-a-resource-account-in-powershell)
+3. Besorgen Sie sich eine virtuelle Benutzerlizenz für das Telefonsystem oder das Telefonsystem. Wechseln Sie im Microsoft 365 Admin Center zu den Abonnements für **Billing** > **Purchase Services** > -**Add-on** , und Scrollen Sie bis zum Ende – es wird die Lizenz "Telefon System-virtueller Benutzer" angezeigt. Wählen Sie **Jetzt kaufen**aus.
+4. Kaufen Sie einen Plan für Inlands-oder Auslands [Gespräche](calling-plans-for-office-365.md).
+5. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefon System zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md) und [Zuweisen von Lizenzen zu einem Benutzer](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+6. Weisen Sie dem Ressourcenkonto eine Lizenz für den Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md) .
+7. Weisen Sie dem Ressourcenkonto die Dienstnummer zu. Weitere Informationen finden Sie unter Zuweisen/Aufheben der [Zuweisung von Telefonnummern und Diensten](#assignunassign-phone-numbers-and-services).
+8. Einrichten von Kommunikationsguthaben und Einrichten der automatischen Aufladefunktion für Ihre Organisation. Weisen Sie dem Ressourcenkonto [eine Lizenz für Kommunikationsguthaben](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) zu.
+9. Weisen Sie dem Ressourcenkonto, dem Sie soeben Lizenzen zugewiesen haben, [eine Dienst Telefonnummer](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) zu. 
+10. Richten Sie eine der folgenden Optionen ein:
    - [Automatische Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md)
    - [Cloud-Anrufwarteschlange](create-a-phone-system-call-queue.md)
-7. Weisen Sie dem Dienst das Ressourcenkonto zu. Siehe [zuweisen/Aufheben der Zuweisung von Telefonnummern und Diensten](#assignunassign-phone-numbers-and-services)
+11. Verknüpfen Sie das Ressourcenkonto mit der automatischen Telefonzentrale oder der Anrufwarteschlange. Siehe [zuweisen/Aufheben der Zuweisung von Telefonnummern und Diensten](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Erstellen eines Ressourcenkontos ohne Telefonnummer
 
@@ -89,7 +95,7 @@ Zum Erstellen eines Ressourcenkontos, das keine Telefonnummer benötigt, müssen
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Erstellen eines Ressourcenkontos in Microsoft Teams Admin Center
 
-Nachdem Sie eine Telefon System Lizenz und einen Anrufplan mit dem Microsoft Teams Admin Center gekauft haben, navigieren Sie zu den **organisationsweiten Einstellungen** > für**Ressourcenkonten**.
+Nachdem Sie eine Telefon System Lizenz erworben haben, navigieren Sie mithilfe des Microsoft Teams admin Centers zu **organisationsweiten Einstellungen** > -**Ressourcenkonten**.
 
 ![Screenshot der Seite "Ressourcenkonten"](media/r-a-master.png)
 

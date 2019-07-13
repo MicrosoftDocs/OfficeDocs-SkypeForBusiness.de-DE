@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062411"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643131"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -27,6 +27,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 | Release | Veröffentlicht in <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+In diesem Update eingeführt:
+- Skype Room System Store-App-Branding für "Microsoft Teams Room"
+- Microsoft Teams Room Console-Benutzeroberflächen Ausrichtung an Microsoft Teams
+- Design Update, um nur das benutzerdefinierte Hintergrundbild vor dem Raum anzuzeigen, während eine neutrale Konsolen Hintergrundfarbe festgestellt wird, um sicherzustellen, dass die Konsolen-UI-Steuerelemente Farbkontrast-Barrierefreiheitsanforderungen
+- Universelle Leiste für in-Besprechung-Anrufsteuerungen für Teams-Anrufe/Besprechungen, um konsistente Erfahrungen mit Microsoft Teams PC/Web/Mobile-Clients zu gewährleisten<sup>1</sup>
+- Bewertung der Anrufqualität nach Teams-anrufen/Besprechungen<sup>1</sup>
+- Empfangen/Rendern von Microsoft Whitebord in Microsoft Teams Room Front of room Display, wenn Sie von PC/Web/Mobile Teams Client<sup>1</sup><sup>2</sup> freigegeben  
+- Unterstützung für ein Upgrade auf Windows 10, Version 1809, wurde aufgrund von Kompatibilitätsproblemen mit dem Microsoft Teams Room-Client entfernt. Windows 10-Version 19H1-Unterstützung wird in zukünftigen Versionen hinzugefügt
+
+<sup>1</sup> Microsoft Teams Service-Rollout mit Teams klingelt. Dieses Feature steht möglicherweise früher oder später als 4.0.105.0-Client Update zur Verfügung.
+
+<sup>2</sup> erfordert IT-Administratoren, Microsoft Whiteboard Web einzuschalten. Darüber hinaus müssen Sie, wenn Sie die Bildschirmanzeige "Touch Front" haben, mehrere Touchscreens mithilfe von Windows-Einstellungen mit dem Geräteadministrator-Anmeldenamen kalibrieren, um die Verwendung von Microsoft Whiteboard für collboration von der Raum Anzeige nach der Freigabe in die Teams-Besprechung zu starten.
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
