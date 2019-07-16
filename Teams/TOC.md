@@ -301,6 +301,7 @@
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
 ### [Anrufrichtlinie](teams-calling-policy.md)
 ### [Funktion "Gemeinsame Leitungen"](shared-line-appearance.md)
+### [Grundlegendes zum Blockieren von PSTN-Anrufen in Teams-Clients](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Anrufpläne
