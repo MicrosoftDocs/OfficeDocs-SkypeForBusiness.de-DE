@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214823"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701567"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 
@@ -36,6 +36,8 @@ Network Planner bietet Ihnen folgende Möglichkeiten:
     > Die empfohlenen Personas wurden auf der Grundlage von Daten aus Teams entwickelt, die am besten verwendet werden, sowie typische Verwendungsmuster. Sie können jedoch zusätzlich zu den drei empfohlenen Personas bis zu drei benutzerdefinierte Personas erstellen.
 
 - Generieren von Berichten und Berechnen der Bandbreitenanforderungen für die Verwendung durch Teams.
+
+Um Network Planner verwenden zu können, müssen Sie ein globaler Administrator, Team Dienstadministrator oder Teams-Kommunikations Administrator sein.
 
 ## <a name="create-a-custom-persona"></a>Erstellen einer benutzerdefinierten Rolle
 
@@ -95,3 +97,7 @@ Nachdem Sie alle Websites hinzugefügt haben, können Sie einen Bericht wie folg
     - In einer zusätzlichen Ansicht werden die gesamten Anforderungen an die Bandbreite mit Empfehlungen angezeigt.
 
 4. Klicken Sie auf **Speichern**. Ihr Bericht steht in der Liste Berichte zur späteren Anzeige zur Verfügung.
+
+## <a name="example-scenario"></a>Beispielszenario
+
+Ein Beispiel für die Verwendung des Netzwerk Planner zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts mithilfe dieser Schritte finden Sie unter Herunterladen des Network Planner [-PowerPoint-Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) Blatts (nur Englisch).

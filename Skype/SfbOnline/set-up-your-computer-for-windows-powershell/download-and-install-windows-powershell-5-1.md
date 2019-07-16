@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Sie können Windows PowerShell 5,1 herunterladen, installieren und verwenden, um eine Remote-PowerShell-Sitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285114"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701555"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Herunterladen und Installieren von Windows PowerShell 5,1
 
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> Wenn Sie den vorhergehenden Befehl ausführen, wird möglicherweise die folgende Fehlermeldung angezeigt: > *-ExecutionPolicy: Zugriff auf\\die\\Registrierungs\\-\\key'HKEY_LOCAL_MACHINE\\-Software Microsoft PowerShell 1 ShellIds\\Micrsoft. PowerShell ' wurde verweigert.* Diese Fehlermeldung tritt in der Regel auf, wenn Sie PowerShell nicht unter Administratoranmeldeinformationen ausführen. Schließen Sie Ihre PowerShell-Sitzung, und starten Sie eine neue Sitzung als Administrator.
+> Wenn Sie den vorhergehenden Befehl ausführen, wird möglicherweise die folgende Fehlermeldung angezeigt: #a0 *Satz-ExecutionPolicy: Zugriff\\auf\\die\\Registrierungs\\-\\key'HKEY_LOCAL_MACHINE-Software Microsoft PowerShell 1 ShellIds\\Micrsoft. PowerShell ' wurde verweigert.* Diese Fehlermeldung tritt in der Regel auf, wenn Sie PowerShell nicht unter Administratoranmeldeinformationen ausführen. Schließen Sie Ihre PowerShell-Sitzung, und starten Sie eine neue Sitzung als Administrator.
  
 Um zu überprüfen, ob die Ausführungsrichtlinie richtig konfiguriert ist, geben Sie Folgendes an der PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
@@ -93,7 +93,7 @@ Vor der Installation von Windows Management Framework 5,1:
 
 Wenn Sie nicht sicher sind, welche Version von Windows ausgeführt wird oder ob Windows 7 Service Pack 1 installiert ist, klicken Sie auf **Start**, klicken Sie mit der rechten Maustaste auf **Computer**, und klicken Sie dann auf **Eigenschaften**. Diese Informationen werden im Dialogfeld „System" angezeigt.
   
-Zum Installieren von Windows Management Framework 5,1 führen Sie das Verfahren unter [Installieren und Konfigurieren von WMF 5,1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure) aus.
+Zum Installieren von Windows Management Framework 5,1 führen Sie das Verfahren unter [Installieren und Konfigurieren von WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure)aus.
   
 Überprüfen Sie nach dem Neustart des Computers, ob Windows PowerShell gestartet wird und ob die Anwendung mit Anmeldeinformationen ausgeführt werden kann. Gehen Sie dazu so vor:
   
