@@ -1,7 +1,7 @@
 ---
 title: Was sind Live-Ereignisse in Microsoft Teams?
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ description: Erfahren Sie, wie Sie mit Live Ereignissen Videos und Inhalte an gr
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
+ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420052"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756922"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -29,9 +29,9 @@ Mit Live-Ereignissen von Teams können Benutzer in Ihrer Organisation Video-und 
 
 Mit den Live-Ereignissen von Microsoft 365 können Live-Videoübertragungen auf eine neue Ebene durchführen, was die Verbindung über den gesamten Lebenszyklus des Engagements mit Teilnehmern vor, während und nach Live-Events anregt. Sie können ein Live-Ereignis erstellen, unabhängig davon, wo sich Ihre Zielgruppe, Ihr Team oder Ihre Community befindet, indem Sie Microsoft Stream, Teams oder jammern verwenden.  
 
-Teams bietet Chat basierte Zusammenarbeit, Anrufe, Besprechungen und Live Ereignisse, sodass Sie das Publikum ihrer Besprechungen erweitern können. Live-Events von Teams ist eine Erweiterung von Teams-Besprechungen, die es Benutzern ermöglichen, Video-und Besprechungsinhalte an eine große Online-Zielgruppe zu übertragen. Diese sind für eine 1: n-Kommunikation vorgesehen, in der der Gastgeber des Ereignisses die Interaktionen führt und die Teilnahme am Publikum in erster Linie dazu dient, die vom Host freigegebenen Inhalte anzuzeigen. Die Teilnehmer können das Live-oder aufgezeichnete Ereignis in "jammern", "Teams" und/oder "Stream" verfolgen und mit moderierten Q-#a0 einer Unterhaltung oder einer jammern-Konversation mit den Referenten interagieren. 
+Teams bietet Chat basierte Zusammenarbeit, Anrufe, Besprechungen und Live Ereignisse, sodass Sie das Publikum ihrer Besprechungen erweitern können. Live-Events von Teams ist eine Erweiterung von Teams-Besprechungen, die es Benutzern ermöglichen, Video-und Besprechungsinhalte an eine große Online-Zielgruppe zu übertragen. Diese sind für eine 1: n-Kommunikation vorgesehen, in der der Gastgeber des Ereignisses die Interaktionen führt und die Teilnahme am Publikum in erster Linie dazu dient, die vom Host freigegebenen Inhalte anzuzeigen. Die Teilnehmer können das Live-oder aufgezeichnete Ereignis in "jammern", "Teams" und/oder "Stream" verfolgen und mit moderierten Q-#a0 einer Unterhaltung oder einer jammern-Konversation mit den Referenten interagieren.
 
-Live-Events von Teams gelten als die nächste Version der Skype-Live Konferenz und ersetzen schließlich die Funktionen, die in der Skype-Live Konferenz zur Verfügung gestellt werden. An diesem Punkt wird Microsoft weiterhin Skype-Live Konferenz für Benutzer unterstützen, die Skype for Business in ihren Organisationen verwenden, ohne Unterbrechungen beim Service für neue oder zukünftige Ereignisse. Wir empfehlen Ihnen jedoch, Teams Live-Events zu testen, um alle neuen und spannenden Funktionen wie Bildschirmübertragung und Unterstützung externer Hardware/Software-Encoder zu nutzen. 
+Live-Events von Teams gelten als die nächste Version der Skype-Live Konferenz und ersetzen schließlich die Funktionen, die in der Skype-Live Konferenz zur Verfügung gestellt werden. An diesem Punkt wird Microsoft weiterhin Skype-Live Konferenz für Benutzer unterstützen, die Skype for Business in ihren Organisationen verwenden, ohne Unterbrechungen beim Service für neue oder zukünftige Ereignisse. Wir empfehlen Ihnen jedoch, Teams Live-Events zu testen, um alle neuen und spannenden Funktionen wie Bildschirmübertragung und Unterstützung externer Hardware/Software-Encoder zu nutzen.
 
 Also lasst uns loslegen. Sehen Sie sich zunächst das folgende Diagramm an, in dem die Komponenten auf hoher Ebene, die an Microsoft 365-Live Ereignissen beteiligt sind und wie diese verbunden sind, angezeigt werden. 
 
@@ -42,6 +42,9 @@ Mit Live Ereignissen in Teams können mehrere Rollen (Organisator, Produzent, Re
 
 ## <a name="key-components"></a>Schlüsselkomponenten
 Sie können aus dem Bild oben sehen, dass es vier wichtige Komponenten gibt, die in Teams für Live-Ereignisse verwendet werden.
+
+> [!NOTE]
+> Eine Übersicht darüber, wie Sie Live-Events und die Teilnehmer-Erfahrung einrichten, finden Sie in diesen kurzen [Videos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
 
 ### <a name="scheduling"></a>Planung
 Teams bietet den Organisatoren die Möglichkeit, ein Ereignis mit den entsprechenden Berechtigungen für Teilnehmer zu erstellen, Ereignis Teammitglieder festzulegen, eine Produktionsmethode auszuwählen und Teilnehmer einzuladen. Wenn das Live-Ereignis in einer Gruppe von "jammern" erstellt wurde, können die Teilnehmer des Live-Ereignisses für die Interaktion mit Personen in dem Ereignis eine Jammer Unterhaltung verwenden. 
