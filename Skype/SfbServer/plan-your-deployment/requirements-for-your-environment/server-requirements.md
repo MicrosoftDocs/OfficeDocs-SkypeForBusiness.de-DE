@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134261"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758949"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ Nachdem Sie die Hardware eingerichtet haben, müssen Sie Betriebssysteme install
 Nicht aufgeführte Betriebssysteme funktionieren nicht ordnungsgemäß. Versuchen Sie daher nicht, diese Betriebssysteme für neue Installationen von Skype for Business Server 2015 zu installieren.
   
 > [!NOTE]
-> Sie werden bemerkt haben, dass Windows Server 2008 R2 nicht in der Liste aufgeführt wird. Wir empfehlen stattdessen Windows Server 2012 R2 für alle neuen Server, die für SFB verwendet werden sollen. Sie sollten Windows Server 2008 R2 nur dann verwenden, wenn Sie bereits Server mit Lync Server 2013 installiert haben und versuchen möchten, ein direktes Update durchzuführen. Windows Server 2008 R2 hat am 13.01.2015 das Ende seines Supportlebenszyklus erreicht. 
+> Sie haben vielleicht bemerkt, dass Windows Server 2008 R2 nicht in dieser Liste enthalten ist. Das liegt daran, dass wir Windows Server 2012 R2 für alle neuen Server empfehlen, die für SFB verwendet werden. Sie sollten Windows Server 2008 R2 nur verwenden, wenn vorhandene Server mit lync Server 2013 bereits installiert sind und Sie beabsichtigen, ein in-Place-Upgrade von Ihnen durchzuführen. Windows Server 2008 R2 hat das Ende des Mainstream-Supportlebenszyklus auf 1/13/2015 erreicht und erreicht das Ende des Support-Lebenszyklus von 1/14/2020.
   
 Zusätzlich zum neuesten Service Pack sollten Sie gegebenenfalls sicherstellen, dass die folgenden Updates installiert werden:
   

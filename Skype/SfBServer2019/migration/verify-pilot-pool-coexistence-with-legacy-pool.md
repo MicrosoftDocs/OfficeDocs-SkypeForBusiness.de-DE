@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Prozess zur Überprüfung der Koexistenz von pilotpools mit Legacy Pool
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280653"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758904"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
 
@@ -65,7 +65,7 @@ Diese Topologie umfasst jetzt Legacy-und Skype for Business Server 2019-Serverro
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Versuchen Sie nicht, die Topologie im Legacy Topology Builder zu öffnen.
 <a name="sectionSection2"> </a>
 
-Wenn Sie versuchen, die Topologie mithilfe des Legacy Topology Builder zu öffnen, wird der folgende Fehler angezeigt. Die Topologie kann nur mit dem Skype for Business Server 2019-Topologie-Generator angezeigt werden. Der Skype for Business Server 2019-Topologie-Generator muss verwendet werden, um Pools für Skype for Business Server 2019 und die Legacy Installation zu erstellen.
+Die Topologie kann nur mit dem Skype for Business Server 2019-Topologie-Generator angezeigt werden. Der Skype for Business Server 2019-Topologie-Generator muss verwendet werden, um Pools für Skype for Business Server 2019 und die Legacy Installation zu erstellen.
 
   
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Zusammenfassung: Überprüfen von Szenarien für die Skype for Business Server-Bereitstellungsoptionen. Dieses Thema wird Ihnen helfen, egal ob Sie einen einzelnen Server oder einen Server-Pool mit DNS oder HLB bevorzugen.'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297071"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758942"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Advanced Edge Server-DNS-Planung für Skype for Business Server
  
@@ -112,7 +112,7 @@ Hier werden die DNS-Einträge für die internen und externen Zonen aufgelistet, 
     
 - Alle Skype for Business Server-internen Edge-Schnittstellen in Ihrem Umkreisnetzwerk verwenden diese interne DNS-Zone zum Auflösen von Abfragen in contoso.com.
     
-- Alle Server, auf denen Skype for Business ausgeführt wird, und Clients, die Skype for Business Server im Unternehmensnetzwerk ausführen, verweisen auf interne DNS-Server zum Auflösen von Abfragen an contoso.com, oder Sie verwenden die Hostdatei auf jedem Edgeserver und Listen a und AAAA (bei Verwendung von IPv6 Addressing)-Einträge für den Next Hop-Server (speziell für den Director oder Director Pool VIP, Front-End-Pool VIP oder Standard Edition-Server).
+- Alle Server, auf denen Skype for Business Server ausgeführt wird, und Clients, auf denen Skype for Business Server im Unternehmensnetzwerk ausgeführt wird, verweisen auf interne DNS-Server zum Auflösen von Abfragen an contoso.com, oder Sie verwenden die Hostdatei auf jedem Edgeserver und Listen a und AAAA (wenn Sie IPv6 Addressing)-Einträge für den Next Hop-Server (speziell für den Director oder Director Pool VIP, Front-End-Pool VIP oder Standard Edition-Server).
     
 ### <a name="external-dns"></a>Externes DNS
 

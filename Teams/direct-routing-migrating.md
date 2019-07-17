@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, was erforderlich ist, um aus einer Skype for Business Online-und Teams-Konfigurations Perspektive zur direkten Weiterleitung zu migrieren.
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290423"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759008"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu direktem Routing
 
@@ -72,7 +72,7 @@ Weitere Informationen zum Migrieren von Anrufplänen finden Sie unter:
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-Es wird empfohlen, dass Sie previouslycconfigured-Lizenzierungs Planinformationen wie folgt entfernen:
+Es wird empfohlen, zuvor konfigurierte Lizenzierungs Planinformationen wie folgt zu entfernen:
  
 ```
 $companyname = “contoso” 
