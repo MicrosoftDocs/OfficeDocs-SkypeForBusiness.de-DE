@@ -3,7 +3,6 @@ title: Autorisieren des Gastzugriffs in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3808a587de81c9d32fec15fce7bd942594b3aa82
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222014"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758920"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -28,7 +27,7 @@ ms.locfileid: "35222014"
 Um die Anforderungen Ihrer Organisation zu erfüllen, können Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen verwalten. Alle Autorisierungsebenen gelten für Ihren Office 365-Mandanten. Die einzelnen Autorisierungsebenen steuern den Gastzugriff wie unten beschrieben:
 
 - **Azure Active Directory**: Für den Gastzugriff in Microsoft Teams wird die Azure AD B2B-Plattform (Business-to-Business) genutzt. Diese Autorisierungsebene steuert den Gastzugriff auf Verzeichnis-, Mandanten- und Anwendungsebene.
-- **Microsoft Teams**:Steuert die Gastumgebung nur in Microsoft Teams.
+- **Microsoft Teams**: Steuert die Gastumgebung nur in Microsoft Teams.
 - **Office 365-Gruppen**: Steuert den Gastzugriff in Office 365-Gruppen und in Microsoft Teams.
 - **SharePoint Online und OneDrive for Business**: Steuert den Gastzugriff in SharePoint Online, OneDrive for Business, Office 365-Gruppen und Microsoft Teams.
 
@@ -122,3 +121,7 @@ Sie können SharePoint Online-Einstellungen für externe Benutzer für die mit M
 ## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="related-topics"></a>Verwandte Themen
+
+- [Referenz zu Gastfreigabeeinstellungen für Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
