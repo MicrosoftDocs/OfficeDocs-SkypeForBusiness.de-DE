@@ -31,7 +31,7 @@
 
 
 
-## Apps, Bot und Konnektoren
+## Apps, Bots und Connectors
 
 ### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
 ### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
@@ -41,6 +41,7 @@
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
 ### [Veröffentlichen von Apps im App-Katalog eines Microsoft Teams-Mandanten](tenant-apps-catalog-teams.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
