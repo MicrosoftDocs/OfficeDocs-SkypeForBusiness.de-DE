@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394579"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768172"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -234,7 +234,7 @@ Sie müssen Ports 3478 und 3479 für den Übergang öffnen. Wenn Microsoft Unter
 
 ### <a name="requirements-for-using-media-processors"></a>Voraussetzungen für die Verwendung von Medien Prozessoren
 
-Medien Prozessoren sind immer im Medienpfad für Sprachanwendungen. Die Anforderungen sind identisch mit der Konfiguration ohne Bypass.
+Medien Prozessoren sind immer im Medienpfad für Sprachanwendungen und für Web-Cleints (für exampe, Teams Cleint in Edge oder Google Chrome). Die Anforderungen sind identisch mit der Konfiguration ohne Bypass.
 
 
 Der IP-Bereich für den Mediendatenverkehr lautet 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254).
@@ -282,9 +282,9 @@ Informationen zum Konfigurieren von zwei Stämmen im gleichen SBC finden Sie in 
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Mit der medienumgehung unterstützte Client Endpunkte
 
-Die medienumgehung wird für alle Teams-Endpunkte unterstützt, mit Ausnahme von Teams-Webclients bis auf weiteres. 
+Die medienumgehung wird für alle Endpunkte von Teams unterstützt.
 
-Wenn Ihre Benutzer die Team-Web-App in Microsoft Edge, Google Chrome oder Mozilla Firefox bevorzugen, muss die medienumgehung für diese Benutzer deaktiviert sein. Wir werden Anrufe über einen Medien Umgehungs-Bypass in Zukunft einführen.   
+Hinweis für webcleints (Teams Web App in Microsoft Edge, Google Chrome oder Mozilla Firefox) werden wir den Anruf an non-Bypass verdecken, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen auf dem Administrator. 
  
 ## <a name="see-also"></a>Siehe auch
 

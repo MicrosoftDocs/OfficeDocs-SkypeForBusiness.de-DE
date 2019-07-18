@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588199"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768164"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -89,14 +89,15 @@ Benutzern des direkten Routings muss in Office 365 die folgenden Lizenzen zugewi
 - Microsoft Teams 
 - Microsoft-Audiokonferenzen 
 
-> [!NOTE]
-> Wenn Sie von einem 1:1-Anruf eskalieren, ist die Audiokonferenz-Lizenz erforderlich.
 
 > [!IMPORTANT]
 >  Für den Fall, dass Sie externe Teilnehmer zu geplanten Besprechungen hinzufügen möchten, indem Sie sich entweder durch wählen oder die Einwahlnummer angeben, ist die Audiokonferenz-Lizenz *erforderlich*.
 
 > [!NOTE]
-> Die E5-Lizenz umfasst sowohl Telefon System als auch Audiokonferenzen.   
+> Die Audiokonferenz-Lizenz ist *erforderlich* für:
+> - Eskalieren von 1:1-Anruf zu einem Gruppenanruf.
+> - Sie können externe Teilnehmer zu geplanten Besprechungen hinzufügen, indem Sie entweder anrufen oder die Einwahlnummer angeben. 
+
 
 Darüber hinaus müssen Sie Folgendes sicherstellen:
  

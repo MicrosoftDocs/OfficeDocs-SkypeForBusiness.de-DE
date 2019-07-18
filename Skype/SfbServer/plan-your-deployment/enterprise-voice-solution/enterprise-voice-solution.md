@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Zusammenfassung: erfahren Sie mehr über Ihre Optionen für die Planung einer einheitlichen Sprach-und Kommunikationslösung in Skype for Business Server.'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602169"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768032"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planen Ihrer Enterprise-VoIP-Lösung in Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602169"
   
 Skype for Business Server bietet zwei lokale Enterprise-VoIP-Optionen – Enterprise-VoIP und-Anruf über Arbeit –, damit Sie das Telefonsystem Ihrer Organisation in Ihre Skype for Business Server-Bereitstellung integrieren können, was eine echte Unified Communications-Funktion ermöglicht. Lösung. Beide Optionen ermöglichen es Benutzern, Ihren Skype for Business-Client zu verwenden, um Sprachanrufe mit anderen Benutzern zu initiieren, sowohl innerhalb als auch außerhalb Ihrer Organisation.
   
-Sie können auch die Vorteile der Microsoft Cloud PBX-Dienste, einschließlich der PBX-Dienste und PSTN-Anrufe, nutzen, indem Sie Ihre lokale Telefonie-Infrastruktur mit den Diensten verbinden, die von Skype for Business Online bereitgestellt werden. Weitere Informationen finden Sie unter [Cloud-VoIP in Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
+Sie können auch die Vorteile der Microsoft Cloud PBX-Dienste, einschließlich der PBX-Dienste und PSTN-Anrufe, nutzen, indem Sie Ihre lokale Telefonie-Infrastruktur mit den Diensten verbinden, die von Skype for Business Online bereitgestellt werden. Weitere Informationen finden Sie unter [Microsoft-Telefonie-Lösungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
 Sie können auch Enterprise-VoIP und-Anruf über die Zusammenarbeit nutzen.
   

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: In diesem Artikel wird beschrieben, wie Sie Ihre direkte Routing Konfiguration überwachen und beheben können.
-ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062379"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768156"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -48,20 +48,17 @@ Das folgende Diagramm zeigt ein Beispiel für die Konfiguration:
 
 Wenn ein Benutzer einen Anruf an Number + 1 425 \<mit sieben Ziffern> durchführt, wird die Route von einem direkten Routing ausgewertet. Die Route umfasst zwei SBCS: sbc1.contoso.com und sbc2.contoso.com. Beide SBCS haben in der Route dieselbe Priorität. Vor der Auswahl eines SBC bewertet der Routingmechanismus die Integrität des SBCS basierend auf dem Zeitpunkt, zu dem der SBC die SIP-Optionen beim letzten Mal gesendet hat. 
 
-Ein SBC wird als "fehlerfrei" eingestuft, wenn beim Senden des Anrufs Statistiken angezeigt werden, dass die SBC-Optionen in regelmäßigen Abständen gesendet werden.  
+Ein SBC wird als "fehlerfrei" eingestuft, wenn beim Senden des Anrufs Statistiken angezeigt werden, dass die SBC-Optionen jede Minute gesendet werden.  
 
-Beim direkten Routing werden reguläre Intervalle berechnet, indem der SBC zwei Mal den Mittelwert einnimmt, wenn der SBC Optionen sendet, bevor er den Anruf annimmt und fünf Minuten hinzufügt. 
+Wenn ein Anruf durchgeführt wird, gilt die folgende Logik:
 
-Nehmen Sie beispielsweise Folgendes an: 
-
-- Ein SBC ist so konfiguriert, dass Optionen jede Minute gesendet werden. 
 - Der SBC wurde um 11,00 Uhr gekoppelt.  
 - Der SBC sendet Optionen für 11,01 Uhr, 11,02 Uhr usw.  
 - Bei 11,15 führt ein Benutzer einen Anruf aus, und der Routingmechanismus wählt diesen SBC aus. 
 
-Die folgende Logik wird angewendet: das Zweifache des durchschnittlichen Intervalls, wenn der SBC Optionen sendet (eine Minute plus eine Minute = zwei Minuten) plus fünf Minuten = sieben Minuten. Dies ist der Wert des regulären Intervalls für den SBC.
- 
-Wenn der SBC in unserem Beispiel Optionen zu einem beliebigen Zeitraum zwischen 11,08 und 11,15 Uhr (der Zeitpunkt, zu dem der Anruf getätigt wurde) gesendet hat, wird er als fehlerfrei angesehen. Wenn dies nicht der Fall ist, wird der SBC von der Route herabgestuft. 
+Beim direkten Routing werden die regulären Intervall Optionen dreimal verwendet (das reguläre Intervall beträgt eine Minute). Wenn Optionen in den letzten drei Minuten gesendet wurden, gilt der SBC als fehlerfrei.
+
+Wenn der SBC im Beispiel Optionen zu einem beliebigen Zeitraum zwischen 11,12 und 11,15 Uhr (der Zeitpunkt, zu dem der Anruf getätigt wurde) gesendet hat, wird er als fehlerfrei angesehen. Wenn dies nicht der Fall ist, wird der SBC von der Route herabgestuft. 
 
 Herabstufung bedeutet, dass der SBC nicht zuerst getestet wird. Beispielsweise haben wir sbc1.contoso.com und sbc2.contoso.com mit gleicher Priorität.  
 
