@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informieren Sie sich über Add-on-Lizenzen, welche Funktionen Sie mit den einzelnen Lizenzen erhalten, wie Sie Sie für Ihr Produkt kaufen und wie Sie Ihren vorhandenen Netzbetreiber nutzen können. Informationen zu Preisen und Plan Details für Office 365, Kommunikations Kredite und Anrufpläne finden Sie hier.
-ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298579"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793072"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
@@ -74,7 +74,7 @@ Die für Sie verfügbaren Optionen für die Add-on-Lizenzierung hängen von Ihre
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Wie Sie Preise finden und Add-On-Lizenzen kaufen können
 <a name="bkmk_how"> </a>
 
- **Nachdem Sie einen Office 365-Plan gekauft haben, können Sie im Office 365 Admin Center Preise anzeigen und Add-Ons erwerben**.
+ **Nachdem Sie einen Office 365-Plan gekauft haben, sehen Sie die Preise und kaufen Add-ons über das Admin Center**.
 
 Je nachdem, welche Add-Ons Sie wünschen, empfehlen wir, zu [vergleichen, ob es für Sie kostengünstiger ist](https://go.microsoft.com/fwlink/?linkid=844053), zu einem Plan zu wechseln, in dem diese Funktionen bereits enthalten sind.
 

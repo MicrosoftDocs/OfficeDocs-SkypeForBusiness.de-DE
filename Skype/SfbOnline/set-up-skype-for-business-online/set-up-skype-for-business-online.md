@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Erfahren Sie, wie Sie Ihre Domäne, Benutzer, Chat-und Anwesenheitsinformationen für Ihre Organisation einrichten, um Skype for Business zu installieren. Sehen Sie sich auch an, wie Sie Audiokonferenz-, Telefon System-und Anrufpläne sowie Skype-Live Konferenz einrichten. '
-ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285254"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792620"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
 
@@ -59,9 +59,9 @@ Skype for Business Online ist Bestandteil der Office 365-Suite von Diensten. Um 
 
     ![Beispiel für die Willkommens-E-Mail, die Sie erhalten haben, nachdem Sie sich bei Skype for Business Online angemeldet haben. Sie enthält Ihre Office 365-Benutzer-ID.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Melden Sie sich beim Office 365 Admin Center an, und geben Sie Ihre Office 365-Benutzer-ID und Ihr Kennwort ein. Nach der Anmeldung wird das Office 365 Admin Center angezeigt.
+2. Melden Sie sich beim Admin Center an, und geben Sie Ihre Office 365-Benutzer-ID und Ihr Kennwort ein. Nachdem Sie sich angemeldet haben, wird das Microsoft 365 Admin Center angezeigt:
 
-    ![Beispiel für das Office 365 Admin Center, wenn Sie über einen Skype for Business Online-Plan verfügen](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+    ![Ein Beispiel für das Aussehen des Admin Centers, wenn Sie über einen Skype for Business Online-Plan verfügen.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. Einrichten der Domäne und der Benutzer
 <a name="bkmk_users"> </a>

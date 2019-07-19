@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: df46f6a8fa029936911d8cafd463e683d25b4551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298018"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793244"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
@@ -35,11 +35,11 @@ Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/arti
 Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu den Aktivitäten in Ihrer Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
   
 > [!NOTE]
-> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator im Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>So rufen Sie den Bericht „Skype for Business-Aktivität" ab
 
-1. Navigieren Sie zu **Office 365 Admin Center** > **Berichte** > **Nutzung**.
+1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
 2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf **Skype for Business-Aktivität** , oder klicken Sie auf das Widget **Skype for Business-Aktivität** .
     
@@ -90,7 +90,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 * **An Konferenzen teilgenommen** zeigt die Gesamtzahl der Konferenzen an, an denen dieser Benutzer teilgenommen hat.
 * **Zugewiesenes Produkt** bezeichnet die Office 365-Produkte, die diesem Benutzer zugewiesen sind.<br/>
 
-Wenn die Richtlinien Ihrer Organisation das Anzeigen von Berichten verhindern, die personenbezogene Benutzerinformationen enthalten, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt " **Benutzer Details ausblenden" im** Abschnitt "Berichte" in den [Aktivitätsberichten im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Wenn die Richtlinien Ihrer Organisation das Anzeigen von Berichten verhindern, die personenbezogene Benutzerinformationen enthalten, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt " **Benutzer Details ausblenden" im** Abschnitt "Berichte" in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Nummer 8](../images/sfbcallout8.png)<br/>
 Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -116,7 +116,7 @@ Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportiere
 
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

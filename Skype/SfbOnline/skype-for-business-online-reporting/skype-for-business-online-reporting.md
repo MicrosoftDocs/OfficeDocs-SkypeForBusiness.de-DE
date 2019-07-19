@@ -18,21 +18,21 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 386a449bae262ac073433d487f57570ae0cf9f7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302421"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793042"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online-Berichterstellung
 
 Als Administrator für Ihre Organisation wäre es praktisch, eine vollständige Liste aller unterschiedlichen Berichte zu erhalten, die in Skype for Business Online zur Verfügung stehen. Dazu gehören alle verschiedenen Berichte und die Informationen, die in den einzelnen Berichten enthalten sein können.
   
-Um auf Skype for Business Online-Berichte zuzugreifen, melden Sie sich mit Ihrem Benutzerkonto und Ihrem Kennwort beim Office 365 Admin Center an. Dem für die Anmeldung verwendeten Konto muss entweder die globale Administratorrolle zugewiesen sein, oder Sie müssen die Rolle des Dienstadministrators für Skype for Business delegieren, um die Berichte anzuzeigen.
+Wenn Sie auf die Skype for Business Online-Berichte zugreifen möchten, melden Sie sich mit Ihrem Benutzerkonto und Kennwort beim Microsoft 365 Admin Center an. Dem für die Anmeldung verwendeten Konto muss entweder die globale Administratorrolle zugewiesen sein, oder Sie müssen die Rolle des Dienstadministrators für Skype for Business delegieren, um die Berichte anzuzeigen.
   
 > [!NOTE]
-> Um Berechtigungen zu überprüfen, navigieren Sie zu Office 365 Admin Center > **Benutzer** > **Aktive Benutzer**. Klicken Sie auf den Anzeigenamen des Benutzers und dann auf **Bearbeiten**. Klicken Sie auf der Seite mit den Kontoeigenschaften auf **Rollen**.
+> Zum Überprüfen von Berechtigungen im Admin Center #a0 **Benutzer** > **aktive Benutzer**. Klicken Sie auf den Anzeigenamen des Benutzers und dann auf **Bearbeiten** , und klicken Sie auf der Seite Kontoeigenschaften auf **Rollen** .
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online-Berichterstellungsreferenz
 
@@ -40,7 +40,7 @@ In den Admin Centern von Office 365 und Skype for Business können Sie unterschi
   
  **So zeigen Sie die Berichte an**
   
-1. Wechseln Sie zum **Office 365 Admin Center** oder zu **Skype for Business Admin Center** > -**Berichten**.
+1. Wechseln Sie zum Admin Center oder zu den **Skype for Business Admin Center** > -**Berichten**.
     
 2. Klicken Sie im Fenster „Dashboards" auf das Widget „Berichte", oder wählen Sie den gewünschten Bericht aus der Liste aus.
     
@@ -58,7 +58,7 @@ In den Admin Centern von Office 365 und Skype for Business können Sie unterschi
 |[Bericht "Skype for Business-Sitzungsdetails"](session-details-report.md) <br/> | Benutzer-Alias <br/> Dialog Feld-ID  <br/> Medientypen  <br/> Anfangs-und Endzeit <br/> Zu und von URI <br/> Konferenz-URL <br/> Telefonnummer <br/> |
  
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

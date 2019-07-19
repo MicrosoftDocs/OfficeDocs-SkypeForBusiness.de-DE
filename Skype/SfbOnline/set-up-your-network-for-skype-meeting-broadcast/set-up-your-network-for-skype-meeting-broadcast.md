@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: f9a85a1f64f88b55d99c7a27694a46b7ea885849
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301288"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792920"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Einrichten Ihres Netzwerks für Skype-Livekonferenz
 
@@ -39,9 +39,9 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
 ## #
 
- **Methode 1: Verwenden des Office 365 Admin Center**
+ **Methode 1: Verwenden des Admin Centers**
 
-1. Wechseln Sie zum **Office 365 Admin Center** , und klicken Sie dann im linken Navigationsbereich auf **Einstellungen** > **Services &amp; -Add-ins**, und wählen Sie dann **Skype for Business**aus.
+1. Wechseln Sie zum Admin Center, und klicken Sie dann im linken Navigationsbereich auf **Einstellungen** > **Services &amp; -Add-ins**, und wählen Sie dann **Skype for Business**aus.
 
 2. Wählen Sie auf der Seite **externe Freigabe** unter **Domänen Ausnahmen**die Option **alle Domänen werden blockiert mit Ausnahme**aus, und geben Sie die folgenden Domänen ein, die durch ein Komma (,) getrennt sind:
 

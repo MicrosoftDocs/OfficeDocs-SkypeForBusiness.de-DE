@@ -21,19 +21,19 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 5648855dc13225dfcb525ddfc82b31a13e90c862
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 48a0d06241af18b1d36d9bc23293f2a2cd3de004
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290555"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793384"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Warum ist die Nummern Aktivierung als unvollständig aufgeführt?
 
 Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der **** Adressüberprüfung als unvollständig aufgeführt ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
-1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
+1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
 2. Teilen Sie uns im Bereich **Need help?** (Benötigen Sie Hilfe?) mit, wobei Sie Hilfe benötigen. Wählen Sie dann **Get help** (Hilfe erhalten) aus.
 3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
@@ -43,7 +43,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
     
-2. Klicken Sie im Office 365 Admin Center in der linken Navigationsleiste auf **Support** > **Neue Serviceanfrage**.
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf**neue Dienstanfrage** **unterstützen** > .
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -93,7 +93,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
+> Die Referenznummer wird im Microsoft 365 Admin Center auf der Seite **Service Anfragen** angezeigt.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

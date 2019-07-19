@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. '
-ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494005"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793014"
 ---
 # <a name="users-blocked-report"></a>Bericht „Benutzer gesperrt“
 
@@ -32,13 +32,13 @@ Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersic
  Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
 > [!NOTE]
-> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>So erhalten Sie den Bericht "Skype for Business-gesperrte Benutzer"
 
 ![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
-- Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Centers**Skype for Business Admin Center** > **meldet** > **Blockierte Benutzer**.
+- Wechseln Sie zum Admin Center #a0 **Admin** > Centers**Skype for Business Admin Center** > **meldet** > **Benutzer blockiert**.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretieren des Berichts "Skype for Business-gesperrte Benutzer"
 
@@ -85,7 +85,7 @@ Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier
 - [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

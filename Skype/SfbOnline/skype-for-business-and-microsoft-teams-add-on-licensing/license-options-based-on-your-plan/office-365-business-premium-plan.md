@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290073"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792892"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -61,7 +61,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
 
  **So erhalten Sie die Add-Ons für Audiokonferenzen und Guthaben für Kommunikationen**
 
-1. Melden Sie sich beim Office 365 Admin Center an.
+1. Anmelden beim Admin Center.
 
 2. Navigieren Sie zu **Abrechnung** > **Abonnements** > **Add-ons** > **Add-ons kaufen**.
 
@@ -73,8 +73,8 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
 
 1. Wechseln Sie zum E1- oder E3-Plan.
 
-2. Gehen Sie zu Office 365 Admin Center > **Abrechnung** > **Abonnements**.
+2. Wechseln Sie zum Admin Center #a0 **Abrechnungs** > **Abonnements**.
 
-3. Wählen Sie **Add-Ons** aus. Jetzt werden die Preise für das Telefonsystem-Add-On und die Kaufoption angezeigt.
+3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
 4. Nachdem Sie eine Lizenz für **Telefonsystem** gekauft haben, sehen Sie die Preise und die Option für den Kauf eines Anrufplans.

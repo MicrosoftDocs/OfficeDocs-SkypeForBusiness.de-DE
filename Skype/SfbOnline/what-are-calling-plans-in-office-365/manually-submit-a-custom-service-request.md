@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 498f69070e7dfed8d367effd83715fa3ee8001cd
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293783"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793354"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
@@ -38,7 +38,7 @@ In einigen Ländern/Regionen müssen Sie auch manuell eine benutzerdefinierte Se
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Führen Sie die folgenden Schritte aus, wenn Sie eine Serviceanfrage erstellen und übermitteln müssen:
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
-1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
+1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
 2. Teilen Sie uns im Bereich **Need help?** (Benötigen Sie Hilfe?) mit, wobei Sie Hilfe benötigen. Wählen Sie dann **Get help** (Hilfe erhalten) aus.
 3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
@@ -46,9 +46,9 @@ In einigen Ländern/Regionen müssen Sie auch manuell eine benutzerdefinierte Se
 
 ### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Für Organisationen mit mehr als 150 Benutzern führen Sie die folgenden Schritte aus, um eine Serviceanfrage zu erstellen:
 
-1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto als Administrator bei Office 365 an.
     
-2. Klicken Sie im Office 365 Admin Center in der linken Navigationsleiste auf **Support** > **Neue Serviceanfrage**.
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf**neue Dienstanfrage** **unterstützen** > .
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -98,7 +98,7 @@ In einigen Ländern/Regionen müssen Sie auch manuell eine benutzerdefinierte Se
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
+> Die Referenznummer wird im Microsoft 365 Admin Center auf der Seite **Service Anfragen** angezeigt.
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie sonst noch über die Nummernportierung wissen?
 

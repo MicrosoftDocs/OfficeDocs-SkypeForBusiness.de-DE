@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie, wie Sie mithilfe von Aktivitätsberichten sehen können, wie Benutzer in Ihrer Organisation Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85184f1de59338282ddd676009f000794b1b4b07
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 18076fd3aeb47e0afadaf7eb1917369a1a55ea3b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548677"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792823"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================
@@ -45,7 +45,7 @@ Es gibt derzeit zwei Aktivitätsberichte, die Sie anzeigen können:
 
 Der Bericht "Team-Benutzeraktivität" bietet eine Ansicht der am häufigsten vorkommenden Aktivitäten, die Ihre Benutzer in Teams ausführen. Dazu gehört, wie viele Personen an einem Chat in einem Kanal teilnehmen, wie viele Personen per privater Chatnachricht kommunizieren und wie viele an anrufen oder Besprechungen teilnehmen. Sie können diese Informationen für Ihre gesamte Organisation sowie für jeden einzelnen Benutzer anzeigen.
 
-![Screenshot des Benutzer Aktivitätsberichts im Office 365 Admin Center](media/teams-user-activity-report.png)
+![Screenshot des Benutzer Aktivitätsberichts im Admin Center](media/teams-user-activity-report.png)
 
 #### <a name="interpret-the-microsoft-teams-user-activity-report"></a>Interpretieren des Berichts "Microsoft Teams-Benutzeraktivität"
 

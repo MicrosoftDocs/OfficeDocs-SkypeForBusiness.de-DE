@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302087"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793062"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
@@ -34,11 +34,11 @@ Weitere verfügbare Berichte finden Sie unter [Übersicht über Berichte](https:
 Dieser Bericht sowie die anderen Skype for Business-Berichte geben Ihnen detaillierte Informationen zu Aktivitäten, einschließlich Sitzungsdetails in Ihrer Organisation. Diese Informationen sind sehr hilfreich, wenn Sie untersuchen, planen und andere geschäftliche Entscheidungen für Ihre Organisation treffen und [Kommunikationsguthaben](/microsoftteams/what-are-communications-credits)einrichten.
   
 > [!NOTE]
-> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>So erhalten Sie den Bericht "Skype for Business-Sitzungsdetails"
 
-1. Wechseln Sie zu den **Office 365 Admin Center** > -**Berichten** .
+1. Wechseln Sie zum Admin Center-#a0 **Berichte**
     
 2. Wählen Sie im linken Menü **Berichte** aus, und klicken Sie dann auf **Verwendung**.
     
@@ -118,7 +118,7 @@ Für jede Sitzung steht je nach Szenario eine unter Tabelle mit unterschiedliche
 - [Skype for Business-PSTN-Minuten Pools-Bericht](pstn-minute-pools-report.md) Sie können die Anzahl der Minuten anzeigen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

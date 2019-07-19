@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: fd3544c287dca28c1ab0408ee58209d8f9e8a7b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305423"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793334"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 
@@ -36,7 +36,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
-1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
+1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
 2. Teilen Sie uns im Bereich **Need help?** (Benötigen Sie Hilfe?) mit, wobei Sie Hilfe benötigen. Wählen Sie dann **Get help** (Hilfe erhalten) aus.
 3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
@@ -46,7 +46,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
     
-2. Klicken Sie im Office 365 Admin Center in der linken Navigationsleiste auf **Support** > **Neue Serviceanfrage**.
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf**neue Dienstanfrage** **unterstützen** > .
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -96,7 +96,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
+> Die Referenznummer wird im Microsoft 365 Admin Center auf der Seite **Service Anfragen** angezeigt.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)

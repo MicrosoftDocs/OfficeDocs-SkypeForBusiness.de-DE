@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl-oder Audiokonferenzen für die Personen in Ihrem Unternehmen einrichten, die ein Telefon für die Teilnahme an Konferenzgesprächen verwenden müssen. '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494196"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792173"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Einrichten von Audiokonferenzen für Skype for Business
 
@@ -94,7 +94,7 @@ Als nächstes möchten Sie die [Sprachen der automatischen Telefonzentrale für 
 
 ![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**:
 
-1. Wechseln Sie zum **Office 365 Admin Center** > **Admin** > Center**Teams** > **Legacy Portal**.
+1. Wechseln Sie zum Admin Center #a0 **Admin** > Center**Teams** > **Legacy-Portal**.
 2. Wählen Sie **Audio Conferencing** > **Microsoft Bridge**aus. 
 3. Wählen Sie die Telefonnummer der Konferenzbrücke aus, wählen Sie **Sprachen festlegen**aus, und wählen Sie dann die Standardsprache aus.
 

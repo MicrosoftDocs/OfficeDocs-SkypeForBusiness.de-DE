@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Zusammenfassung: Informationen für Organisationen, die Office 365 nicht verwenden und auf von Organisationen gehostete Besprechungen zugreifen müssen.'
-ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277482"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792856"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
  
@@ -35,8 +35,8 @@ Bei den hier aufgelisteten Informationen handelt es sich um eine Teilmenge der [
  
 |App |Ziel-FQDNs  |IP-Adressen  |Ports  |
 |---|---------|---------|---------|
-|**Skype-Besprechungs-App** | \*. lync.com <br/>\*. Infra.lync.com<br/>\*. Pipe.Aria.Microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.Live.com <br/>\*Power<span></span>Point. officeapps.Live.com <br/>\*. Office.Live.com<br/>\*. CDN.Office.net<br/>*.s-microsoft.com<br/>        |   Diese IP-Adressen werden häufig aktualisiert.  Sehen Sie sich die [IP-Bereiche von Skype for Business](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie die [IP-Bereiche von Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) an         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
-|**Microsoft Teams**    | \*<span></span>. Microsoft.com <br/>\*<span></span>. Skype.com | Diese IP-Adressen werden häufig aktualisiert.  Sehen Sie sich die [IP-Bereiche von Skype for Business](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie die [IP-Bereiche von Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) an      |TCP: 443 <br/> UDP: 3478–3481
+|**Skype-Besprechungs-App** | \*. lync.com <br/>\*. Infra.lync.com<br/>\*. Pipe.Aria.Microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.Live.com <br/>\*Power<span></span>Point. officeapps.Live.com <br/>\*. Office.Live.com<br/>\*. CDN.Office.net<br/>*.s-microsoft.com<br/>        |   Diese IP-Adressen werden häufig aktualisiert.  Weitere Informationen finden Sie unter [Skype for Business-IP-Bereiche](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office IP-Bereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) .         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
+|**Microsoft Teams**    | \*<span></span>. Microsoft.com <br/>\*<span></span>. Skype.com | Diese IP-Adressen werden häufig aktualisiert.  Weitere Informationen finden Sie unter [Skype for Business-IP-Bereiche](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office IP-Bereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) .      |TCP: 443 <br/> UDP: 3478–3481
 
 ## <a name="see-also"></a>Siehe auch
 <a name="BKMK_Conferencing"> </a>

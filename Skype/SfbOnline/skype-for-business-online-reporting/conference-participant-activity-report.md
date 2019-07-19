@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3be118c02e260688f89bea31283c3914d657d045
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303674"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793158"
 ---
 # <a name="conference-participant-activity-report"></a>Bericht „Konferenzteilnehmer-Aktivität“
 
@@ -35,11 +35,11 @@ Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/arti
 Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten detaillierte Informationen zu den Konferenz Aktivitäten in Ihrer Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
   
 > [!NOTE]
-> Sie können alle Skype for Business-Berichte anzeigen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>So erhalten Sie den Bericht „Skype for Business: Konferenzteilnehmer"
 
-1. Navigieren Sie zu **Office 365 Admin Center** > **Berichte** > **Nutzung**.
+1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
 2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf **Skype for Business-Konferenzteilnehmer Aktivitäten** . Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzteilnehmer Aktivitäten** .
     
@@ -87,7 +87,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 *    **Ein-/Auswahl - Drittanbieter** zeigt die Gesamtanzahl an organisierten Einwahl-/Auswahlkonferenzen an, die einen Drittanbieter-Audiokonferenzanbieter nutzen. 
 *    **Audio-/Videominuten** zeigt die Gesamtanzahl an Minuten an, die bei der Teilnahme an Konferenzen mithilfe von Audio/Video benötigt wurden. 
 
-Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte angezeigt werden, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt **wie kann ich Details zu Benutzerebene ausblenden?** in den [Aktivitätsberichten im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte angezeigt werden, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt **wie kann ich Details zu Benutzerebene ausblenden?** in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.
 ***
@@ -112,7 +112,7 @@ Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte
 - [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

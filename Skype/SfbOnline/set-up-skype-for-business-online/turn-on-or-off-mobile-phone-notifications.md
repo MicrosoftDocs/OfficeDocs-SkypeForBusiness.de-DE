@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Hier erfahren Sie, wie Sie Benachrichtigungen über Mobiltelefone aktivieren oder deaktivieren können, damit Ihre Benutzer Benachrichtigungen zu eingehenden, Voicemail-und verpassten Sofortnachrichten erhalten.
-ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494053"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792125"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
@@ -39,7 +39,7 @@ Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Ben
 
 1. Anmelden bei Office 365
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zu Admin Center #a0 **Skype for Business**.
     
 3. Wechseln Sie zu **Organisation** > **Allgemein**. 
     

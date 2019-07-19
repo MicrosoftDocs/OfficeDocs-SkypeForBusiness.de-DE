@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im Bereich "neue Skype for Business Admin Center-Berichte" werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht Skype for Business PSTN-Minuten Pools verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494015"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793090"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -37,13 +37,13 @@ Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https
 Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu den Aktivitäten in Ihrer Organisation. Diese Informationen sind sehr hilfreich, wenn Sie untersuchen, planen und andere geschäftliche Entscheidungen für Ihre Organisation treffen und [Kommunikationsguthaben](/microsoftteams/what-are-communications-credits) einrichten.
   
 > [!NOTE]
-> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>So erhalten Sie den Bericht "Skype for Business PSTN-Minuten Pools"
 
 ![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
-- Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Center**Skype for Business Admin Center** > **meldet** > **PSTN-Minuten Pools**.
+- Wechseln Sie zum Admin Center #a0 **Admin** > Centers im**Skype for Business Admin Center** > werden**PSTN-Minuten Pools****gemeldet** > .
     
 > [!NOTE]
 > Je nach Ihrem Office 365-Abonnement sehen Sie möglicherweise nicht alle Details, die hier angezeigt werden. 
@@ -62,7 +62,7 @@ Der Bericht sieht folgendermaßen aus:
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Minuten Pools nach Lizenz (Funktion) und Verwendungsstandort. 
 *    **Funktion** ist der für den Anruf verwendete Lizenz-/Service Plan. Die Lizenz-/Servicepläne, die in diesem Bericht möglicherweise angezeigt werden, sind unter anderem:
      * MCOPSTN1-Domestic Calling Plan (3000-Minute US/1200-Minute EU-Pläne
-     * MCOPSTN2-Domestic & International Calling Plan, von dem Sie einen inländischen Pool (3000-Minuten-US/Kanada/PR, 1200-minütige europäische Länder) und ein internationales Schwimmbad (600-Minuten) sehen werden. Die Minuten Obergrenze wird erreicht, wenn innerhalb des Kalendermonats die nationale oder internationale Grenze erreicht wird. 
+     * MCOPSTN2-Domestic #a0 International Calling Plan, von dem Sie einen inländischen Pool (3000-Minuten-US/Kanada/PR, 1200-minütige europäische Länder) und ein internationales Schwimmbad (600-Minuten) sehen werden. Die Minuten Obergrenze wird erreicht, wenn innerhalb des Kalendermonats die nationale oder internationale Grenze erreicht wird. 
      * MCOPSTN5-Domestic Calling Plan (120-Minute Calling Plan)
      * MCOPSTN6-Domestic Calling Plan (240-Minute Calling Plan)
      * MCOMEETADD: Audiokonferenz
@@ -93,7 +93,7 @@ Der Bericht sieht folgendermaßen aus:
 - [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

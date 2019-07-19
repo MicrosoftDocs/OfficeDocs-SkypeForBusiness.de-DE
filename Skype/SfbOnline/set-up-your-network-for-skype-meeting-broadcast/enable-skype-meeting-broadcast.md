@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221642"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793234"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -36,7 +36,7 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
 
 1. Registrieren Sie sich mit ihrem globalen Administratorkonto für Office 365 oder dem Skype for Business [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)-Administratorkonto unter.
     
-2. Wechseln Sie im Office 365 Admin Center zu **Admin Center** > **Teams**.
+2. Wechseln Sie im Admin Center zu **Admin Center** > **Teams**.
     
 3. Wechseln Sie **im Team Admin Center**zu **Legacy Portal** > **Online Besprechungen** > ****, und wählen Sie dann Skype-Live **Konferenz aktivieren**aus.
     

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Erfahren Sie, welche Länder und Regionen Einwahlkonferenz-Nummern haben und wie diese automatisch zugeordnet werden.
-ms.openlocfilehash: feaa7972766ffeb21517080e97ee67dcd597edb4
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134252"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792309"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
@@ -63,7 +63,7 @@ Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugew
 Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zugewiesen, wenn sie für Audiokonferenzen aktiviert sind. Bei der Zuweisung der Telefonnummern wird eine Telefonnummer als Standardtelefonnummer der Konferenzbrücke zugewiesen. Die als Standardtelefonnummer der Brücke zugewiesene Telefonnummer stammt aus dem Land/der Region der Organisation.
   
 > [!NOTE]
-> Das Land oder die Region, in dem sich Ihre Organisation befindet, kann gefunden werden, indem Sie sich beim **Office 365 Admin Center** anmelden und unter **Organisationsprofil**suchen. 
+> Das Land oder die Region, in dem sich Ihre Organisation befindet, kann gefunden werden, indem Sie sich beim Microsoft 365 Admin Center anmelden und unter **Organisationsprofil**suchen. 
   
 > [!CAUTION]
 > Aufgrund der geringen Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien, Vietnam und den Vereinigten Arabischen Emiraten (VAE) sind Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audio-Conferencing-Nummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 

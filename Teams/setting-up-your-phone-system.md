@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie das Telefon System (Cloud PBX) für Ihre Organisation einrichten. '
-ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643163"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793168"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -252,7 +252,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Anmelden bei Microsoft 365 mit Ihrem Geschäfts-oder Schulkonto.
 
-2. Navigieren Sie in der linken Navigationsleiste des Office 365 Admin Center zu **Abrechnung** > **Abonnements** > **Add-Ons** > **Add-Ons kaufen**. Wählen Sie dann **Guthaben für Kommunikationen** > **Jetzt kaufen** aus.
+2. Wechseln Sie in der linken Navigationsleiste des Admin Centers zu **Abrechnungs** > **Abonnements** > **Add** > -ons**kaufen Add-ons**, und wählen Sie dann **Communications Credits** > **Buy Now**aus.
 
 3. Geben Sie auf der Seite **Communications Credits** -Abonnement Ihre Informationen ein, und klicken Sie dann auf **weiter**.
 

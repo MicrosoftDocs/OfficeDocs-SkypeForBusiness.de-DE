@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: b6895a45f59de2c73e445c7c26345f3b3d191a5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dedf142e316f502185bc2de0d0e37fee0513d2c3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285284"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792183"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Den Skype for Business-Client in Office 365 bereitstellen
 
@@ -44,21 +44,21 @@ Bevor Sie Skype for Business für Ihre Benutzer bereitstellen, stellen Sie siche
 
 Als [Administrator](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US) können Sie auswählen, ob Sie die Skype for Business-App für Ihre Benutzer verfügbar machen möchten.
   
-- **So steuern Sie, ob jeder in Ihrem Unternehmen die Software erhält**: Anmelden beim Office 365 Admin Center, wechseln Sie zu **meine Software installieren**, und wählen Sie dann die Software aus, die für die Benutzer verfügbar sein soll.
+- **So steuern Sie, ob jeder in Ihrem Unternehmen die Software erhält**: Anmelden beim Microsoft 365 Admin Center, wechseln Sie zu **meine Software installieren**, und wählen Sie dann die Software aus, die für die Benutzer verfügbar sein soll.
     
     ![Choose the software you want to make available to the people in your company.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **So steuern Sie, ob bestimmte Personen in Ihrem Unternehmen die Software erhalten**: Anmelden beim Office 365 Admin Center, wechseln Sie zu **Benutzer** > **aktive Benutzer**, wählen Sie die Person aus, der Sie Zugriff auf die Software gewähren möchten, und klicken Sie dann auf **Bearbeiten** . neben **Produktlizenzen** , und aktivieren oder deaktivieren Sie die Lizenz.
+- **So steuern Sie, ob bestimmte Personen in Ihrem Unternehmen die Software erhalten**: Anmelden beim Microsoft 365 Admin Center, wechseln Sie zu **Benutzer** > **aktive Benutzer**, wählen Sie die Person aus, der Sie Zugriff auf die Software gewähren möchten, und klicken Sie dann auf **Bearbeiten. **neben **Produktlizenzen** , und aktivieren oder deaktivieren Sie die Lizenz.
     
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Wenn Sie sehen möchten, welche Pläne Personen in Ihrer Organisation zugewiesen sind, müssen Sie sich beim neuen Office 365 Admin Center > **Benutzern** > von**aktiven**Benutzern anmelden. Wählen Sie die Person in der Liste aus, und schauen Sie unter **Produktlizenzen**nach. Wenn Sie das klassische Office 365 Admin Center verwenden, suchen Sie unter **zugewiesene Lizenz**. 
+> Wenn Sie sehen möchten, welche Pläne den Personen in Ihrer Organisation zugewiesen sind, müssen Sie sich beim Microsoft 365 Admin Center anmelden, #a0 **Benutzer** > **aktive**Benutzer. Wählen Sie die Person in der Liste aus, und schauen Sie unter **Produktlizenzen**nach. Wenn Sie das klassische Admin Center verwenden, suchen Sie unter **zugewiesene Lizenz**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Manuelle Bereitstellung von Skype for Business für Ihre Benutzer
 <a name="bkmk_manual_1"> </a>
 
-If you want your users to install the Skype for Business app from a location on your network instead of from the Internet, you can download the setup files. To do this go to the **Manually deploy user software** section of the Office 365 admin center. You can then select **Install** and save the setup .exe file to a network location.
+If you want your users to install the Skype for Business app from a location on your network instead of from the Internet, you can download the setup files. Gehen Sie dazu im Abschnitt **Benutzer Software manuell bereitstellen** des Microsoft 365 admin Centers. You can then select **Install** and save the setup .exe file to a network location.
   
 Sie haben auch die Möglichkeit, die Skype for Business Basic-App für die Benutzer herunterzuladen. Sie können [Microsoft Skype for Business Basic (32 oder 64 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=49440)herunterladen.
   
@@ -75,11 +75,11 @@ In vielen Großunternehmen haben Benutzer nicht die Berechtigung zum Installiere
   
 Mit Office 365 haben Sie verschiedene Möglichkeiten, die Skype for Business-App bereitzustellen, wenn Sie steuern möchten, von wo aus Sie installiert werden soll. Zu den folgenden Optionen gehören:
   
-- Laden Sie die Skype for Business-App vom Office 365 Admin Center wie in [Manuelle Bereitstellung von Skype for Business für Ihre Benutzer](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1) in Ihr lokales Netzwerk herunter.
+- Laden Sie die Skype for Business-App aus dem Microsoft 365 Admin Center in Ihr lokales Netzwerk herunter, wie in [Manuelle Bereitstellung von Skype for Business für Ihre Benutzer](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)beschrieben.
     
 - Verwenden Sie das **[Office-Bereitstellungstool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** zum Herunterladen von Office 365 ProPlus oder der Skype for Business-App in ihr lokales Netzwerk. Verwenden Sie das Office-Bereitstellungstool anschließend zum Bereitstellen der App für Ihre Benutzer. Mit dem Office-Bereitstellungstool können Sie unterschiedliche Aspekte der Bereitstellung festlegen, wie etwa Sprachen oder Version (32 Bit oder 64 Bit).
     
-- Verwenden Sie Ihre vorhandenen Software-Bereitstellungstools und -Prozesse, wie z. B. System Center Configuration Manager, zum Bereitstellen von Office 365 ProPlus oder der Skype for Business-App für Ihre Benutzer. Sie können Ihre vorhandenen Tools und Prozesse mit dem [Office-Bereitstellungstool](https://go.microsoft.com/fwlink/p/?LinkID=626065) oder der Software verwenden, die Sie aus dem Office 365 Admin Center heruntergeladen haben.
+- Verwenden Sie Ihre vorhandenen Softwarebereitstellungstools und-Prozesse wie System Center Configuration Manager, um Office 365 ProPlus oder die Skype for Business-App für Ihre Benutzer bereitzustellen. Sie können Ihre vorhandenen Tools und Prozesse mit dem [Office-Bereitstellungs Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) oder mit der Software verwenden, die Sie aus dem Microsoft 365 Admin Center heruntergeladen haben.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Zusätzliche Informationen zur Verwendung des Office-Bereitstellungstools
 
@@ -103,7 +103,7 @@ Details zur Verwendung des Office-Bereitstellungstools und zur configuration.xml
     
 ### <a name="more-info-on-using-system-center-configuration-manager"></a>Weitere Informationen zur Verwendung von System Center Configuration Manager
 
-Sie können Ihre vorhandenen Software-Bereitstellungstools und -Prozesse, wie etwa System Center Configuration Manager, zur Bereitstellung der Skype for Business-App verwenden. Sie können diese Tools und Prozesse mit der Software, die Sie vom Office 365 Admin Center herunterladen, oder mit dem Office-Bereitstellungstool verwenden.
+Sie können Ihre vorhandenen Software-Bereitstellungstools und -Prozesse, wie etwa System Center Configuration Manager, zur Bereitstellung der Skype for Business-App verwenden. Sie können diese Tools und Prozesse entweder mit der Software verwenden, die Sie aus dem Microsoft 365 Admin Center oder mit dem Office-Bereitstellungs Tool herunterladen.
   
 Weitere Informationen zur Bereitstellung von Software mit Configuration Manager finden Sie in den folgenden Artikeln:
   
