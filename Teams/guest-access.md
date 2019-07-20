@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4af2c6870cb636703ae35a9d3c7c5c19bd2f3105
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221668"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804684"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ Bei Gastzugriff handelt es sich um eine der meistgewünschten Funktionen. So kö
 
 Gastzugriff ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf vorhandene Teams und Kanäle auf einem oder mehreren Ihrer Mandanten gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams.
 
-Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements ohne zusätzliche Lizenzanforderungen enthalten. Sie können bis zu 5 Gäste pro lizenziertem Benutzer auf Ihrem Mandanten unterstützen. Weitere Informationen zu Lizenzierung finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/licensing-guidance). 
+Bei vielen Office 365-Abonnements ist der Gastzugriff ohne zusätzliche Lizenzierungsanforderung enthalten. Weitere Informationen zu Lizenzierung finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die standardmäßig deaktiviert ist. Gastzugriff unterliegt Azure AD- und Office 365-Dienstbegrenzungen.
 

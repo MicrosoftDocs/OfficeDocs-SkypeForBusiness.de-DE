@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133907"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804801"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -42,7 +41,7 @@ Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu
 
 |Frage|Aktion |
 |------------|-------|
-|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li> [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)</li><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Office 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)|
+|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li> [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)</li><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Office 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
@@ -51,7 +50,7 @@ Dies sind die Einstellungen für Chat, Teams und Kanäle, deren Änderung in den
 
 ### <a name="teams-administrators"></a>Teamadministratoren
 
-Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalten von Teams für Ihre Organisation verwendet werden können. Die Rollen stellen Administratoren verschiedene Funktionen zur Verfügung. 
+Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalten von Teams für Ihre Organisation verwendet werden können. Die Rollen stellen Administratoren verschiedene Funktionen zur Verfügung.
 
 | Frage | Aktion |
 |--------------|--------|
@@ -60,13 +59,23 @@ Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalt
 |Wem wird die Rolle des Teams-Kommunikationssupportexperten zugewiesen?||
 |||
 
+### <a name="teams-owners-and-members"></a>Teambesitzer und -mitglieder
+
+In Microsoft Teams können Sie zusätzlich zu den Administratorrollen die Benutzerrollen "Besitzer" und "Mitglieder" zuweisen und ihnen selektiv Moderatorenfunktionen zuordnen (wenn die Moderation eingerichtet wurde), um zu steuern, wer bestimmte Aktionen in einem Kanal ausführen kann. Mit der Moderation können Sie steuern, wer neue Beiträge in einem Kanal starten kann, Teammitglieder als Moderatoren hinzufügen und entfernen sowie steuern, ob Teammitglieder auf vorhandene Kanalmeldungen antworten können.
+
+|Frage|Aktion |
+|------------|-------|
+|Wem sollten die einzelnen Rollen zugewiesen werden? | Einen Vergleich der Funktionen der einzelnen Rollen finden Sie unter [Zuweisen von Teambesitzern, Moderatoren und Mitgliedern in Microsoft Teams](assign-roles-permissions.md).
+|Wie kann ich eine Benutzerrolle zuweisen? | Informationen zum Zuweisen oder Ändern einer Rolle finden Sie unter [Zuweisen einer Benutzerrolle](assign-roles-permissions.md#assign-a-user-role).
+|Muss ich steuern, wer in einem Kanal Beiträge senden und beantworten kann? | Informationen zum Konfigurieren der Moderation finden Sie unter [Einrichten und Verwalten der Kanalmoderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
 ### <a name="messaging-policies"></a>Messagingrichtlinien
 
 Mithilfe von Messagingrichtlinien wird gesteuert, welche Chat- und Messagingfunktionen den Benutzern in Teams zur Verfügung stehen. Beispielsweise, wer gesendete Nachrichten bearbeiten und löschen, wer Chat verwenden, wer Memes in Unterhaltungen verwenden kann und mehr. Standardmäßig wird den Benutzern die globale Messagingrichtlinie zugewiesen, und alle Funktionen sind **Aktiviert**. Sie können die globale Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messagingrichtlinien für die Benutzer in Ihrer Organisation erstellen. 
 
 |Frage|Aktion |
 |------------|-------|
-|Soll ich die globale Messagingrichtlinie anpassen?|Informationen zur Verwendung des Microsoft Teams Admin Centers zum Ändern der globalen Messagingrichtlinie oder zum Hinzufügen einer neuen Richtlinie finden Sie unter [Was sind Messagingrichtlinien in Teams?](messaging-policies-in-teams.md).|
+|Soll ich die globale Messagingrichtlinie anpassen?|Informationen zur Verwendung des Microsoft Teams Admin Centers zum Ändern der globalen Messagingrichtlinie oder zum Hinzufügen einer neuen Richtlinie finden Sie unter [Verwalten von Messagingrichtlinien in Teams](messaging-policies-in-teams.md).|
 |Benötige ich mehrere Messagingrichtlinien?|Informationen zum Erstellen und Zuweisen einer Messagingrichtline in PowerShell finden Sie unter [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md) (PowerShell-Beispielskript – Erstellen und Zuweisen einer Messagingrichtlinie).|
 |Wie bestimme ich, welche Benutzergruppen welche Messagingrichtlinie erhalten?|Informationen zu den CsTeamsMessagingPolicy-Cmdlets finden Sie unter [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 

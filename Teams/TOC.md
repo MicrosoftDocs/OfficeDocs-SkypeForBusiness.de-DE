@@ -24,6 +24,7 @@
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
+## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)

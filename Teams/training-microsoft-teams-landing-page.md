@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221333"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804841"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -93,6 +93,17 @@ ms.locfileid: "35221333"
 Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
 <ul class="panelContent cardsW">
     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams in 30</h3>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Interaktive Live-Workshops, die Ihnen den Einstieg in Microsoft Teams in nur 30 Tagen ermöglichen.</a></p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
