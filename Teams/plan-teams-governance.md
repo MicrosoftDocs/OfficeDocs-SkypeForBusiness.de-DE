@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10fb80667a957ac4f4a7d9e25713a9232129b0b7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344380"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804865"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -62,11 +62,11 @@ Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemen
 
 Nachdem Sie Ihre Anforderungen festgelegt haben, können Sie diese mithilfe von Azure AD-Steuerelementen implementieren. Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
--   [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
--   [Erzwingen einer Benennungsrichtlinie für Office 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Erzwingen einer Benennungsrichtlinie für Office 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
--   [Office 365-gruppenbenennungsrichtlinie](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Office 365-gruppenbenennungsrichtlinie](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Ablauf, Aufbewahrung und Archivierung von Gruppen und Teams
@@ -84,7 +84,7 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 |Funktion |Details |Azure AD Premium-Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
 |Ablaufrichtlinie |Verwalten des Lebenszyklus von Office 365-Gruppen durch Festlegen einer Ablaufrichtlinie |P1 |TBD|
-|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security & Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
+|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security #a0 Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
 |Archivieren und Wiederherstellen |Archivieren Sie ein Team, wenn es nicht mehr aktiv ist, möchten Sie es aber zu Referenzzwecken behalten oder in Zukunft wieder aktivieren. |Nein |TBD |
 
 > [!Note]
@@ -94,11 +94,11 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 
 Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
--   [Einrichten von Office 365 Groups-Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Einrichten von Office 365 Groups-Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Einrichten von Aufbewahrungsrichtlinien für Teams](retention-policies.md)
+- [Einrichten von Aufbewahrungsrichtlinien für Teams](retention-policies.md)
 
--   [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
 ## <a name="teams-feature-management"></a>Team-Funktionsverwaltung
@@ -117,10 +117,12 @@ Teams bietet granulare Funktionen zum Steuern von Messaging-, Besprechungs-, Anr
 
 Detaillierte Listen aller Einstellungen, einschließlich technischer Anleitungen zur Implementierung für Ihre Organisation, finden Sie in den folgenden Artikeln:
 
--   [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
--   [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
--   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
+- [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
+- [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
+- [Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md)
 
+Darüber hinaus können Sie die Moderation für einen Kanal einrichten und bestimmten Benutzern Moderatorfunktionen zur Verfügung stellen, damit Sie steuern können, wer Kanal Beiträge erstellen und darauf antworten kann. Weitere Informationen finden Sie unter [Einrichten und Verwalten von Kanal Moderation in Microsoft Teams](manage-channel-moderation-in-teams.md) .
 
 ## <a name="security-and-compliance"></a>Sicherheit und Compliance
 

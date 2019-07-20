@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c139efb2079a010c802b1c49ab18e0297cd8520
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5c9c0986053fbfa5df2369205f75718abf5f114a
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221907"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804873"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -51,15 +51,19 @@ Um Ihr organisationsweites Team optimal zu nutzen, empfehlen wir Teambesitzern, 
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Nur Teambesitzern die Bereitstellung im allgemeinen Kanal gestatten
 
-Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen**, und wählen Sie dann **nur Besitzer können Nachrichten senden**aus.
+Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** #a0 **nur Besitzer können Nachrichten senden**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren von @Team und @ [Teamname]-Erwähnungen
 
-Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@Mentions</strong>, und deaktivieren Sie dann **Mitglieder anzeigen die Option @Team oder @ [Teamname]**.
+ Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@Mentions</strong> #a0 deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
 
 ### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugten wichtigen Kanälen
 
 Bevorzugte wichtige Kanäle, um sicherzustellen, dass sich jeder in Ihrer Organisation an bestimmten Konversationen beteiligt. Weitere Informationen finden Sie unter [automatisch bevorzugte Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### <a name="set-up-channel-moderation"></a>Einrichten der Kanal Moderation
+
+In diesem Fall sollten Sie die Kanal Moderation einrichten und bestimmten Teammitgliedern Moderatorfunktionen zuweisen. (Wenn die Moderation eingerichtet ist, erhalten die Teambesitzer automatisch Moderatorfunktionen.) Moderatoren können steuern, wer einen neuen Beitrag in einem Kanal beginnen kann, Moderatoren hinzufügen und entfernen, Steuern, ob Teammitglieder auf vorhandene Kanal Nachrichten antworten können, und Steuern, ob Bots und Connectors Kanal Nachrichten senden können. Weitere Informationen finden Sie unter [Einrichten und Verwalten der Kanal Moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Entfernen von Konten, die möglicherweise nicht dazugehören
 
