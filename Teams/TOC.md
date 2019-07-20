@@ -759,6 +759,7 @@
 ### [Verwalten des kommerziellen Teams-Testangebots](iw-trial-teams.md)
 ### [Aktualisieren der kostenlosen Version von Teams auf die Office 365-Abonnementversion](upgrade-freemium.md)
 ### [Lizenzierung von Nachrichtenrichtlinien](teams-add-on-licensing/pri-message.md)
+### [Virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md)
 
 
 ## Interoperabilität mit Office 365
