@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818216"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821062"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -213,16 +213,16 @@ Für Implementierungen, die mit Skype for Business Server Hybrid sind:
 
    [Planen automatischer Cloudtelefonzentralen](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Planen von Cloud-Anrufwarteschlangen](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Planen von Cloud-Anrufwarteschlangen](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Konfigurieren von onprem-Ressourcenkonten](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Konfigurieren von onprem-Ressourcenkonten](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Für Implementierungen in Teams oder Skype for Business Online:
 
    [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 
-   [Einrichten einer automatischen Cloudtelefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa)
 

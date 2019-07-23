@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818176"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820985"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -43,7 +43,7 @@ _Abbildung 1 Die Beziehung zwischen den Netzwerken einer Organisation und den Of
 
 ![Abbildung der Beziehung zwischen Netzwerken und Diensten] (media/Qos-in-Teams-Image1.png "Die Beziehung zwischen den Netzwerken einer Organisation und den Office 365-Diensten: lokales Netzwerk und Geräte stellen eine Verbindung mit einem Interconnect-Netzwerk her, das wiederum eine Verbindung mit Office 365 Cloud-VoIP-und-Audiokonferenzdienst herstellt.")
 
-In den meisten Fällen ist das Netzwerk, das Ihr Unternehmen mit der Cloud verbindet, ein nicht verwaltetes Netzwerk, in dem Sie keine zuverlässigen QoS-Optionen einrichten können. Eine mögliche Lösung für die End-to-End-QoS ist [Azure Express Route](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), aber wir empfehlen weiterhin, QoS in Ihrem lokalen Netzwerk zu implementieren. Dadurch wird die Qualität von Arbeitslasten in Echtzeit während der gesamten Bereitstellung erhöht und Engpässe verringert.
+In den meisten Fällen ist das Netzwerk, das Ihr Unternehmen mit der Cloud verbindet, ein nicht verwaltetes Netzwerk, in dem Sie keine zuverlässigen QoS-Optionen einrichten können. Eine mögliche Lösung für den End-to-End-QoS ist [Azure Express Route](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), aber wir empfehlen weiterhin, QoS in Ihrem lokalen Netzwerk für eingehenden und ausgehenden Datenverkehr zu implementieren. Dadurch wird die Qualität von Arbeitslasten in Echtzeit während der gesamten Bereitstellung erhöht und Engpässe verringert.
 
 ## <a name="verify-your-network-is-ready"></a>Überprüfen, ob Ihr Netzwerk bereit ist
 

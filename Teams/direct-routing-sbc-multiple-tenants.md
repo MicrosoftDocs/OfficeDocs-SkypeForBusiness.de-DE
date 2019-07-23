@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062395"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821070"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -114,7 +114,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 1.  Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
 2.  Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
 
-    ! [Screenshot mit der Seite ' Domäne hinzufügen]] (Media/Direct-Routing-2-SBC-Add-Domain. png)
+    ![Screenshot mit der Seite "Domäne hinzufügen"](media/direct-routing-2-sbc-add-domain.png)
 
 3. Klicken Sie auf **Weiter**.
 4. Im Beispiel hat der Mandant bereits adatum.biz als bestätigten Domänennamen. Der Assistent fragt keine zusätzliche Überprüfung ab, da Customers.adatum.biz eine Unterdomäne für den bereits registrierten Namen ist. Wenn Sie jedoch einen FQDN hinzufügen, der noch nicht überprüft wurde, müssen Sie den Verifizierungsprozess durchlaufen. Der Verifizierungsprozess wird im [folgenden beschrieben](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
