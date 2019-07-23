@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222038"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818176"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -37,7 +37,7 @@ Ohne eine Art von QoS sehen Sie möglicherweise die folgenden Qualitätsprobleme
 
 Die am wenigsten komplexe Möglichkeit, diese Probleme zu beheben, besteht darin, die Größe der Datenverbindungen sowohl intern als auch über das Internet zu erhöhen. Da dies oft Kosten unerschwinglich ist, bietet QoS eine Möglichkeit, die Ressourcen effektiver zu verwalten, anstatt neue Ressourcen hinzuzufügen. Zur vollständigen Behebung von Qualitätsproblemen verwenden Sie QoS in der gesamten Implementierung, und fügen Sie dann nur dann Konnektivität hinzu, wenn dies absolut notwendig ist.
 
-Damit QoS effektiv ist, müssen Sie konsistente QoS-Einstellungen in Ihrer Organisation beenden (Dies umfasst alle Benutzer-PCs, Netzwerk-Switches und Router für das Internet), da ein Teil des Pfads, der Ihre QoS-Prioritäten nicht unterstützt, die Qualität von anrufen, Video und Bildschirm Freigaben
+Damit QoS effektiv ist, haben Sie in Ihrer Organisation die konsistenten QoS-Einstellungen angewendet, da ein Teil des Pfads, der Ihre QoS-Prioritäten nicht unterstützt, die Qualität von anrufen, Video und Bildschirm Freigaben beeinträchtigen kann. Dazu gehören das Anwenden von Einstellungen auf alle Benutzer-PCs oder-Geräte, Netzwerk-Switches, Router zum Internet und der Online-Service von Teams.
 
 _Abbildung 1 Die Beziehung zwischen den Netzwerken einer Organisation und den Office 365-Diensten_
 
