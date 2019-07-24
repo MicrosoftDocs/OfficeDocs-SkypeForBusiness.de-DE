@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588079"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841376"
 ---
 <a name="teams-guest-access-checklist"></a>Checkliste für Teams-Gastzugriff
 ==========================================
@@ -59,7 +59,6 @@ Der Gastzugriff in Microsoft Teams verwendet Azure Active Directory (Azure AD) B
 
 Ein paar Dinge, die Sie beachten sollten:
 
-- Für jede kostenpflichtige Azure AD-Lizenz, die Sie einem Benutzer zuweisen, können Ihre Benutzer bis zu fünf Gastbenutzer unter dem Kontingent für externe Benutzer einladen.
 - Gäste sind Benutzer außerhalb Ihrer Organisation. Ihre Mitarbeiter, Onsite-Vertragspartner, vor-Ort-Agents usw. können nicht als Gäste hinzugefügt werden. Das gleiche gilt für Ihre Affiliates.
 - Gast Lizenzen werden gegen die einladende Organisation gezählt. Bedenken Sie dies, wenn Sie die Anzahl der benötigten Lizenzen berechnen.
 - Lizenzen werden für Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste von einem anderen Office 365-Mandanten stammen oder Ihre persönlichen e-Mail-Adressen verwenden.
