@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über Messaging Richtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 6bd340d6fe212af43828c19ccfd974fb159261e5
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134315"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861864"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 
@@ -72,9 +72,9 @@ Verwenden Sie die folgenden Einstellungen, um die globale Messagingrichtlinie zu
 - **Besitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die Benutzer im Chat gesendet haben.
 - **Benutzer können gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, damit Benutzer Nachrichten, die Sie im Chat gesendet haben, löschen können.
 - **Benutzer können gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, damit Benutzer die Nachrichten bearbeiten können, die Sie im Chat gesendet haben.
-- **Lesebestätigungen** Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen vom Benutzer gesteuert werden, für jeden aktiviert oder für jeden deaktiviert sind. Die Standardeinstellung ist Benutzer gesteuert. 
-    - **Benutzer gesteuert** Das bedeutet, dass Benutzer entscheiden können, ob Lesebestätigungen ein-oder ausgeschaltet werden sollen. Die Standardeinstellung in der APP ist aktiviert. Benutzer können Sie dann deaktivieren.
-    - **Für jeden** frei Dies bedeutet, dass jeder im Mandanten das Feature aktiviert hat, ohne die Option zum Deaktivieren. 
+- **Lesebestätigungen** Lesebestätigungen ermöglichen dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn deren Nachricht vom Empfänger in 1:1 und Gruppen-Chats von 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten entfernen unklar, ob eine Nachricht gelesen wurde, und verbessern die Team Kommunikation.  
+    - **Benutzer gesteuert** Das bedeutet, dass Benutzer entscheiden können, ob Lesebestätigungen ein-oder ausgeschaltet werden sollen. Die Standardeinstellung in der APP ist aktiviert. Benutzer können Sie dann deaktivieren. 
+    - **Für jeden** frei Dies bedeutet, dass jeder im Mandanten das Feature aktiviert hat, ohne die Option zum Deaktivieren. Beachten Sie, dass die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten bei Verwendung der Einstellung **für alle** für den gesamten Mandanten nur eine Messagingrichtlinie (die Standardrichtlinie mit dem Namen "Global (org-Wide Standard)") oder alle Messagingrichtlinien in der Mandant verwendet die gleichen Einstellungen für Belege. Das Feature Lesebestätigungen ist am effektivsten, wenn das Feature **für jeden**aktiviert ist.
     - **Für jeden frei** Dies bedeutet, dass das Feature deaktiviert ist und niemand im Mandanten Lesebestätigungen hat, und dass es nicht aktiviert werden kann. 
 <a name="bkchat"> </a>
 

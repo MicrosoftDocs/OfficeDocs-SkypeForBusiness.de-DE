@@ -17,12 +17,12 @@ description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc8d737ada80e6cd7e62e795e820e47246c29715
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 406805760829c2246f47fe9641606eea5b0eadc2
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841462"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861872"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwalten des externen Zugriffs in Microsoft Teams
 ======================================================
@@ -109,9 +109,9 @@ Weitere Informationen zur kostenlosen Version von Teams und deren Funktionsweise
 
 Externer Zugriff ermöglicht es ihren Teams und Skype for Business-Benutzern, mit anderen Benutzern zu kommunizieren, die sich außerhalb Ihrer Organisation befinden. Standardmäßig kann Ihre Organisation mit allen externen Domänen kommunizieren. Wenn Sie Blockierte Domänen hinzufügen, werden alle anderen Domänen zugelassen, aber wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Sie können ganz einfach externen Zugriff für Ihre Organisation einrichten. Es gibt drei Szenarien für die Einrichtung:
 
-- **Szenario 1** : Sie können **Open Federation**verwenden. Dies ist die Standardeinstellung, mit der Personen in Ihrer Organisation Sofortnachrichten suchen, anrufen und senden sowie Besprechungen mit Personen einrichten können, die sich außerhalb Ihrer Organisation befinden.
+- **Szenario 1** : Sie können **Open Federation**verwenden. Dies ist die Standardeinstellung, mit der Personen in Ihrer Organisation Chatnachrichten/-Chats suchen, anrufen und senden sowie Besprechungen mit Personen einrichten können, die sich außerhalb Ihrer Organisation befinden.
 
-    Wenn Sie diese Einrichtung verwenden, können Ihre Benutzer mit allen externen Domänen kommunizieren, die Teams ausführen, aber Ihre Domäne/Organisation so eingerichtet haben, dass Ihre Domäne zugelassen wird.
+    Wenn Sie diese Einrichtung verwenden, können Ihre Benutzer mit allen externen Domänen kommunizieren, in denen Teams oder Skype for Business ausgeführt wird und die offene Föderation verwenden oder Ihre Domäne zur Zulassungsliste hinzugefügt haben.
 
 - **Szenario 2** – Sie können eine Domäne oder Domänen zur **Zulassungs** Liste hinzufügen. Klicken Sie dazu auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf Aktion, die für **diese Domäne ausgeführt werden soll**, und wählen Sie dann **zulässig**aus. Wenn Sie dies tun, ist es wichtig zu wissen, dass alle anderen Domänen **blockiert** werden.
 

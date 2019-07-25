@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298734"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861841"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -35,7 +35,7 @@ Sie müssen Kommunikations-Guthaben einrichten, wenn Sie gebührenfreie Nummern 
 > [!NOTE]
 > Wenn Sie wissen möchten, welche Kosten anfallen, [finden Sie hier die Tarife](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
-## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>Schritt 1: Zuweisen einer Audiokonferenz- und Anrufplanlizenz für Ihre Benutzer
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Schritt 1: Zuweisen einer Audiokonferenz-oder Anruf Plan Lizenz für Ihre Benutzer
 
 Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Minuten. [Hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)können Sie die Anzahl der Minuten sehen, die Sie für die Suche nach dem Land oder der Region erhalten. Anrufe werden getrennt, sobald Sie diese Minuten aufgebraucht haben. Um dies zu verhindern, müssen Sie Guthaben für Kommunikationen einrichten.
   

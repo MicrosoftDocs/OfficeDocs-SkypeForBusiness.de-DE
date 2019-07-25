@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198652"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851546"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
@@ -51,12 +51,13 @@ Zusätzlich zur Kombination aus Surface pro/Dock können Sie auch Microsoft Team
 
 In der Regel enthalten die Pakete und die integrierten Einheiten vorinstallierte Software, während Sie, wenn Sie unterstützte Komponenten einzeln für Surface pro-Systeme kaufen, die Software installieren müssen. Anweisungen hierzu finden Sie in [diesem Artikel Informationen zum Installieren von Software auf Geräten](room-systems-scale.md). 
 
-Sie können Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Online oder Skype for Business-Hybrid-oder lokalen Bereitstellungen bereitstellen.  Informationen zu den erforderlichen Lizenzen finden Sie in der [Microsoft Teams rooms-Lizenzierung](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
+Sie können Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Online oder Skype for Business-Hybrid-oder lokalen Bereitstellungen bereitstellen.  Informationen zu den erforderlichen Lizenzen finden Sie im [Lizenzierungs Update für Teams im Besprechungsraum](skype-room-systems-v2.md) .
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie Microsoft Teams-Räume in Ihrer Organisation bereitstellen? </li><li>Wie können Sie Ihre Microsoft Teams rooms-Systeme – gebündelt, als separate Komponenten oder als integrierte Einheit – beschaffen?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Ermitteln Sie, wer die wichtigsten Aktivitäten während der gesamten Bereitstellung übernimmt.</li><li>Überprüfen Sie die Besprechungsräume, die Sie haben (und planen Sie die Einrichtung), um zu verstehen, wo Sie Microsoft Teams-Räume und Peripheriegeräte bereitstellen möchten, die für die Raumgröße geeignet sind.</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Ermitteln, wer die wichtigsten Aktivitäten während der gesamten Bereitstellung übernimmt
 
