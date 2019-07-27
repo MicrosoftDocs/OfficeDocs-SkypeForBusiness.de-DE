@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 7e78c2f33a52d5848b8b996c65fefbeabdab4c3e
+ms.sourcegitcommit: dcc5c09e6b891fe44c9d2cf384fe7ef678e7768c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614252"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "35911960"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -64,15 +64,14 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 
 |Konsole|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
-|[Crestron Flex-M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|
-|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8GB |128GB |
+|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB |
 [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+|[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
 |[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
 |[HP Elite Slice G2-Audio bereit mit Microsoft Teams-Räumen](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
-|[Logitech Tap + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
+|[Logitech Tap](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8GB |128GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
-|[Logitech Tap Touch-Controller für Video Konferenzräume](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240 GB  |  
 |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
 |||||
 
@@ -97,6 +96,7 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 |[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
 |[Sennheiser SP 220 ms](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser sp20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
+|[Sennheiser SP30](https://en-us.sennheiser.com/sp-30) <br/> |2.1.52 <br/>|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
