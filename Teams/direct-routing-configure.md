@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588151"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925497"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -34,7 +34,9 @@ In diesem Artikel wird beschrieben, wie Sie das direkte Routing des Microsoft Ph
 Wir empfehlen, dass Sie sicherstellen, dass Ihr SBC bereits gemäß den Empfehlungen Ihres SBC-Herstellers konfiguriert wurde: 
 
 - [AudioCodes-Bereitstellungsdokumentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle-Bereitstellungsdokumentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Bereitstellungsdokumentation zur Multifunktionsleisten-Kommunikation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode)-Bereitstellungsdokumentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Sie können Ihr Microsoft Phone-System konfigurieren und Benutzern die Verwendung des direkten Routings ermöglichen und anschließend Microsoft Teams als bevorzugten Anruf Client einrichten, indem Sie die folgenden Verfahren ausführen: 
 

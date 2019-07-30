@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821070"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925481"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -58,6 +58,7 @@ Die detaillierten Schritte zum Bereitstellen und Konfigurieren von SBCS für ein
 
 - **AudioCodes:** [Direct Routing-Konfigurationshinweise](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), die Konfiguration des SBC-Host Szenarios, das unter "Verbinden von AudioCodes SBC mit Microsoft Teams Direct Routing Hosting Model Configuration Note" beschrieben wird. 
 - **Band Kommunikation:**  Weitere Informationen finden Sie im [Menüband Communications SBC Core Microsoft Teams-Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) für die Dokumentation zur Konfiguration der Menüband-Core-Serie SBCS und zu diesem Seiten [Menüband bewährte Methode – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Te-Systems (anynode):**  Bitte melden Sie sich auf der [te-Systems Community-Seite](https://community.te-systems.de/) an, um Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten zu erhalten.
 
 > [!NOTE]
 > Bitte achten Sie darauf, wie Sie die Kopfzeile "Kontakt" konfigurieren. Der Kontakt Kopf wird verwendet, um den Kundenmandanten in der eingehenden Einladungsnachricht zu finden. 

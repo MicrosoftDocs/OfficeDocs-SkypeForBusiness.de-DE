@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems konfigurieren.
-ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 47b537a9feff22a24b97fa5c54669359992b8a31
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394571"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925473"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
@@ -48,9 +48,10 @@ Sie können alle Benutzer gleichzeitig wechseln, oder Sie können eine Phased ap
 
 Anweisungen zum Konfigurieren der Trunks und zur Durchführung der Migration finden Sie in der Dokumentation Ihres SBC-Anbieters:
 
-- AudioCodes
-- Multifunktionsleiste
-- TE-Systems (AnyNode)    
+- [AudioCodes-Bereitstellungsdokumentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle-Bereitstellungsdokumentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Bereitstellungsdokumentation zur Multifunktionsleisten-Kommunikation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode)-Bereitstellungsdokumentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Eine Liste der für die direkte Weiterleitung zertifizierten Session Border Controllers (SBCS) finden Sie in [der Liste der für das direkte Routing zertifizierten Session Broder-Controller](direct-routing-border-controllers.md).
 

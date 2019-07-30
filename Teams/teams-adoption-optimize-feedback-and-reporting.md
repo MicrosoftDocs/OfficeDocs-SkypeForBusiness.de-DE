@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 65b3ec1b12f4e5074513378671044177a2ad9a6d
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494816"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925455"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
@@ -46,7 +46,7 @@ Lassen Sie in Ihrem Champions Program Design deutlich machen, was Ihre Mitarbeit
 
 Bewährte Methode: halten Sie eine monatliche Teams-Besprechung für Ihre internen Champions. Teilen Sie ihre Tagesordnung zwischen dem Erlernen neuer Funktionen, dem Adressieren von Feedback und dem Bereitstellen von Self-Service-Tools für Ihre Mitarbeiter Community.
 
-Bewährte Methode: Ave-Repräsentanten ihrer internen Supportabteilung oder des IT-Helpdesks nehmen an ihrer Champions-Community Teil, um über neue Informationen zur Nutzung Ihrer Teams auf dem Laufenden zu bleiben. 
+Bewährte Methode: wenden Sie sich an ihre Champions-Community, um über neue Informationen zur Nutzung Ihrer Teams auf dem Laufenden zu bleiben. 
 
 ## <a name="service-reporting"></a>Dienst Berichterstattung
 

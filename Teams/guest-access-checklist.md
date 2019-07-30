@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841376"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925358"
 ---
 <a name="teams-guest-access-checklist"></a>Checkliste für Teams-Gastzugriff
 ==========================================
@@ -72,8 +72,6 @@ Ein paar Dinge, die Sie beachten sollten:
    > Die **Einstellungen für die externe Zusammenarbeit** sind auch auf der Seite " **organisatorische Beziehungen** " verfügbar. Wechseln Sie in Azure Active Directory unter **Verwalten**zu**Einstellungen**für **Organisationsbeziehungen** > .
 4. Wählen Sie auf der Seite Einstellungen für die **externe Zusammenarbeit** die Richtlinien aus, die Sie aktivieren möchten.
 
-   ![Einstellungen für die externe Zusammenarbeit](media/control-who-to-invite.png)
-
   - **Gastbenutzer Berechtigungen sind limitiert**: Diese Richtlinie bestimmt die Berechtigungen für Gäste in Ihrem Verzeichnis. Wählen Sie **Ja** aus, um Gäste aus bestimmten Verzeichnisaufgaben wie dem Aufzählen von Benutzern, Gruppen oder anderen Verzeichnis Ressourcen zu blockieren. Wählen Sie **Nein** aus, um den Gästen denselben Zugriff auf Verzeichnisdaten wie reguläre Benutzer in Ihrem Verzeichnis zu gewähren.
    - **Administratoren und Benutzer in der Rolle gastinviter können Folgendes einladen**: damit Administratoren und Benutzer in der Rolle "gastinviter" Gäste einladen können, setzen Sie diese Richtlinie auf " **Ja**".
    - **Mitglieder können Folgendes einladen**: damit nicht-Administrator-Mitglieder Ihres Verzeichnisses Gäste einladen können, setzen Sie diese Richtlinie auf " **Ja**".
@@ -82,7 +80,7 @@ Ein paar Dinge, die Sie beachten sollten:
        > Wenn Sie festlegen, dass Mitglieder auf **Nein** **einladen** und dann den Gastzugriff in Office 365-Gruppen und Microsoft Teams aktivieren können, können Administratoren Gast Einladungen in Ihrem Verzeichnis steuern. Nachdem sich die Gäste im Verzeichnis befinden, können Sie Teams von Mitgliedern des nicht-Administrators hinzugefügt werden, die Teambesitzer sind. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
    
    - **Gäste können Folgendes einladen**: damit Gäste andere Gäste einladen können, setzen Sie diese Richtlinie auf " **Ja**".
-   - **Aktivieren der einmaligen e-Mail-Kennung für Gäste (Preview)**: Weitere Informationen zur einmaligen Kennungs Funktion finden Sie unter e-Mail-einmal [Kennungs Authentifizierung (Preview)](one-time-passcode.md).
+   - **Aktivieren der einmaligen e-Mail-Kennung für Gäste (Preview)**: Weitere Informationen zur einmaligen Kennungs Funktion finden Sie unter e-Mail-einmal [Kennungs Authentifizierung (Preview)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
    - **Einschränkungen für die Zusammenarbeit**: Weitere Informationen zum Zulassen oder Blockieren von Einladungen zu bestimmten Domänen finden Sie unter [zulassen oder Blockieren von Einladungen an B2B-Benutzer aus bestimmten Organisationen](allow-deny-list.md).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Schritt 2: Konfigurieren von Office 365-Gruppen
