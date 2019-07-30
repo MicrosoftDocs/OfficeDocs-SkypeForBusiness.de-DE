@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588087"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925334"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -251,6 +251,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |:-----|:-----|:-----|:-----|
 |Rufnummer gesperrt|Rufnummer gesperrt: Wenn Sie das Ressourcenkonto löschen, bevor Sie die Rufnummer entfernt haben, wird die Rufnummer gesperrt.|Wenden Sie sich an den Microsoft-Support, um die Rufnummer freizugeben.|18.05.2019|
 
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Sie können in der Desktop-App nicht festlegen, dass nicht beantwortete Anrufe zu Voicemail umgeleitet werden.|Bei Benutzern im Nur-Teams-Modus sind deren Exchange-Postfächer lokal verfügbar. Wenn sie in der Microsoft Team-Desktop-App auf **Einstellungen** > **Anrufe** zugreifen, können sie die Option zum Weiterleiten von Anrufen an Voicemail (nicht beantwortete Anrufe oder alle Anrufe) nicht auswählen. Wurde eine der beiden Optionen bereits zuvor konfiguriert, wird durch Öffnen der Registerkarte "Anrufe" in "Einstellungen" die Weiterleitung zu Voicemail deaktiviert.|Konfigurieren Sie die Weiterleitung an Voicemail mithilfe der mobilen Microsoft Teams-App.|27.5.2019|
+
 
 ## <a name="provisioning"></a>Bereitstellung
 
@@ -345,4 +349,8 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Dateien können nach dem Bearbeiten nicht verschoben, gelöscht oder umbenannt werden  <br/> |Nachdem eine Datei in Teams bearbeitet wurde, kann sie nicht mehr sofort verschoben, umbenannt oder gelöscht werden. <br/> |Dies ist derzeit ein bekanntes Problem, und die Problemumgehung besteht darin, einige Zeit zu warten, bevor administrative Änderungen vorgenommen werden.  <br/> |12.03.2019  <br/> |
+|Dateien können nach dem Bearbeiten nicht verschoben, gelöscht oder umbenannt werden  <br/> |Nachdem eine Datei in Teams bearbeitet wurde, kann sie nicht mehr sofort verschoben, umbenannt oder gelöscht werden. <br/> |Dies ist derzeit ein bekanntes Problem, und die Problemumgehung besteht darin, einige Zeit zu warten, bevor administrative Änderungen vorgenommen werden.  <br/> |12.03.19  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Interoperabilitätsproblem zwischen Symantec DLP und Microsoft Teams <br/> |Symantec DLP-Endpunkt-Agents können Prozesse von Microsoft Team behindern, was zu einem Fehler beim Starten oder Beenden führen kann.  <br/> |Schließen Sie Teams.exe vom Symantec DLP-Endpunkt-Agent aus (Whitelist), wie in diesem <a href="https://support.symantec.com/us/en/article.TECH220322.html">Artikel auf der Symantec-Supportseite</a> beschrieben. <br/> |15.07.19  <br/> |
