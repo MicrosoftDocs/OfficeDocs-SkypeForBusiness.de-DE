@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 97a7cad35787583db74adfc3ef77c877c9e8a75d
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804841"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934606"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -98,21 +98,10 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams in 30</h3>
-                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Interaktive Live-Workshops, die Ihnen den Einstieg in Microsoft Teams in nur 30 Tagen ermöglichen.</a></p>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Interaktive Live-Workshops, die Ihnen den Einstieg in Microsoft Teams in nur 30 Tagen ermöglichen. </a></p>
                     </div>
                 </div>
             </div> 
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Von Skype for Business zu Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Lernprogramm: Von Skype for Business zu Teams</a></p>
-                    </div>
-                </div>
-            </div>
         </div>
     </li><li>
         <div class="cardSize">
