@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804761"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934486"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -108,7 +108,6 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Lernprogramme</h2>
 
-- [Lernprogramm: Von Skype for Business zu Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audiokonferenzen in Teams](tutorial-audio-conferencing.yml)
 - [Lernprogramm: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 - [Die Zusammenarbeit in Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
-- [Teams in 30 interaktiven Schulungen](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)

@@ -1,12 +1,12 @@
 ---
-title: Planen der Microsoft-Teams Upgrade Skype für Unternehmen | Annahme-Framework
+title: Planen des Upgrades von Skype for Business für Microsoft Teams | Adoptions Framework
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Planen des Upgrades von zuerst eintragen der Beteiligten, und klicken Sie dann das Projekt Bereichsdefinierung.
+description: Planen Sie das Upgrade, indem Sie die Projekt beteiligten zuerst einreihen und dann das Projekt definieren.
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -15,19 +15,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885618"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934558"
 ---
-![Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.] (media/upgrade-banner-main.png "Beginnen Sie Ihre Upgrade Reise")
+![Diagramm der Teams-Upgrade-Reise] (media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
 
 # <a name="plan-for-your-upgrade"></a>Planen des Upgrades
 
-Beginnen mit gründliche Planung, eine fehlerfreie technischen Umgebung, fortwährende Benutzerakzeptanz und die Ihre Unternehmensziele alle Umsetzungsphase sehr hilfreich sein. Ein einfarbige Plan bietet Ihnen einen Rahmen für das Upgrade-Projekt und wird sichergestellt, dass alle Beteiligten in Richtung die gleichen Ziele arbeiten. Teilnahme an ordnungsgemäß Erfolg definieren, können Sie Ergebnisse im Verlauf messen, über die Bereitstellung und stellen Sie sicher, dass Sie die Ergebnisse erzielen sind, werden sollte. Planen Ihrer Reise umfasst:
+Ein gesundes technisches Umfeld, eine nachhaltige Benutzerakzeptanz und die Realisierung Ihrer geschäftlichen Ziele beginnen mit der richtigen Planung. Ein vollständiger Plan bietet Ihnen ein Framework für Ihr Upgradeprojekt und stellt sicher, dass alle Projekt Beteiligten auf die gleichen Ziele hinarbeiten. Wenn Sie sich Zeit nehmen, um den Erfolg richtig zu definieren, können Sie die Ergebnisse im Verlauf Ihrer Bereitstellung Messen und sicherstellen, dass Sie die gewünschten Ergebnisse erzielen. Ihre Reiseplanung umfasst:
 
-- [Eintragen der Projektbeteiligten](upgrade-enlist-stakeholders.md).
-- [Definieren des Umfangs des Projekts](https://aka.ms/SkypetoTeams-Scope).
-- [Grundlegendes zur Koexistenz und Interoperabilität von Skype für Unternehmen und Teams](https://aka.ms/SkypeToTeams-Coexist).
+- [Sie haben die Projekt Beteiligten in die Liste einbezogen](upgrade-enlist-stakeholders.md).
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!TIP]
+> Begleiten Sie uns in interaktiven, interaktiven Workshops, in denen wir Anleitungen, bewährte Methoden und Ressourcen austauschen, die für die Planung und Implementierung von Upgrades entwickelt wurden.
+>
+> Nehmen Sie zuerst an der [Planung Ihrer Upgrade](https://aka.ms/SkypeToTeamsPlanning) -Sitzung Teil, bevor Sie beginnen.

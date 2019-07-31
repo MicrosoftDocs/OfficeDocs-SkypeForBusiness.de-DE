@@ -3,7 +3,6 @@ title: Info zum Upgrade-Framework
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432976"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934566"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
@@ -125,5 +124,4 @@ Um zu veranschaulichen, wie sich die Upgrade-Reise entwickeln kann, haben wir un
 > Unser Upgrade-Content wird ständig weiterentwickelt. Schauen Sie sich die neuesten Anleitungen an und lesen Sie den Teamblog [](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Wenn Sie ein Administrator für Ihren Office 365-Mandanten sind, sehen Sie möglicherweise die Upgrade-Optionen in Ihrem PowerShell-Cmdlet oder Microsoft Teams Admin Center. Die Option für ein Upgrade bedeutet nicht unbedingt, dass Ihre Organisation für diese Änderung bereit ist. Stellen Sie für eine optimale Benutzererfahrung sicher, dass Teams Ihre Anforderungen an Zusammenarbeit und Kommunikation erfüllen, überprüfen Sie, ob Ihr Netzwerk zur Unterstützung von Teams bereit ist, und implementieren Sie Ihren Benutzer Bereitschaftsplan, bevor Sie Benutzer auf Teams aktualisieren.
- 
+> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach wird es nicht mehr barrierefrei oder unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für die Implementierung Ihres Upgrades hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.

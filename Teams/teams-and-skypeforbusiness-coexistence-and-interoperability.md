@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933849"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934630"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Projekt Definitions Stufe] (media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
@@ -31,10 +31,14 @@ Dieser Artikel ist Teil der Projekt Definitionsphase Ihres Upgrade-Vorgangs, ein
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
-Wenn Ihre Organisation Skype for Business heute verwendet und Sie beabsichtigen, Teams zusammen mit Skype for Business zu verwenden, oder wenn Sie mit dem Upgrade auf Teams beginnen möchten, ist es wichtig zu verstehen, wie die beiden Anwendungen koexistieren, wann und wie Sie zusammenarbeiten und wie Verwalten Sie die Migration von Benutzern bis hin zu ihrem eventuellen Upgrade von Skype for Business auf Teams.
+Wenn Ihre Organisation Skype for Business heute verwendet und Sie mit der Nutzung von Teams zusammen mit Skype for Business beginnen – oder wenn Sie mit dem Upgrade auf Teams beginnen – ist es wichtig zu verstehen, wie die beiden Anwendungen koexistieren, wann und wie Sie zusammenarbeiten und wie Sie verwaltet werden. die Migration der Benutzer bis hin zu ihrem eventuellen Upgrade von Skype for Business zu Teams.
 
 > [!Tip]
-> Sehen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop) zu erfahren.
+> Schauen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)zu erfahren.
+>
+> Darüber hinaus können Sie an interaktiven Workshops teilnehmen, in denen wir Anleitungen, bewährte Methoden und Ressourcen austauschen, die für die Planung und Implementierung von Upgrades entwickelt wurden.
+>
+> Nehmen Sie zuerst an der [Planung Ihrer Upgrade](https://aka.ms/SkypeToTeamsPlanning) -Sitzung Teil, bevor Sie beginnen.
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Koexistenz von Teams und Skype for Business
 
@@ -87,6 +91,9 @@ Dieser Koexistenzmodus eignet sich besonders für Benutzer in Skype for Business
 
 > [!Note]
 > Wenn Sie in bestimmten Koexistenzmodus bereitgestellt werden, können Teams und Skype for Business zusammen [arbeiten](#interoperability-of-teams-and-skype-for-business)und es Benutzern ermöglichen, mit Ihnen zu chatten und sich gegenseitig anzurufen, und sicherzustellen, dass die Kommunikation während der Upgrade-Reise zu Teams in Ihrer Organisation flüssig bleibt. Koexistenzmodus steuert die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob die Interoperabilität verfügbar ist. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chat nur in einem Client verfügbar ist (sagen wir, Teams), ist Chat-Interoperabilität in der Regel verfügbar, falls der Initiator den anderen Client (in diesem Fall Skype for Business) verwendet, um den Chat zu starten. Wenn sich der Receiver hingegen in einem Modus befindet, in dem Chats in beiden Clients verfügbar sind (Inseln-Modus), steht die Interoperabilität für den Chat nicht zur Verfügung. Die Nachricht wird vom Empfänger in dem gleichen Client empfangen, in dem der Initiator den Chat gestartet hat. Daher erfordert die ordnungsgemäße Kommunikation im Modus "Inseln" eine Sättigung der Teams. Das bedeutet, dass alle Benutzer beide Clients aktiv verwenden und überwachen.
+
+> [!TIP]
+> Wenn Sie den empfohlenen Aktualisierungsmodus basierend auf den Funktionen ermitteln möchten, die Sie in Microsoft Teams aktivieren möchten, während Skype for Business noch verwendet wird, nutzen Sie den [Upgrade-Assistenten von Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
 
 Weitere Informationen zu den Modi für Koexistenz, Voraussetzungen und Verwaltung finden Sie unter [Leitfaden zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](https://aka.ms/SkypeToTeams-Interop) , und [die Einstellungen für Koexistenz und Upgrade festlegen](https://aka.ms/SkypeToTeams-SetCoexistence).
 

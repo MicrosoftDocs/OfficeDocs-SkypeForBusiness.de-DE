@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432936"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934574"
 ---
 ![Diagramm zum Upgrade von Routen, mit dem die Projekt Definitions Stufe markiert wird] (media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
@@ -81,7 +81,7 @@ In der folgenden Tabelle sind Beispiele für OKRs und KSIs für die Anfangsphase
 
 | Ziel | Hauptergebnis | zu tun |
 |---|---|---|
-| Pilot Teams zusammen mit Skype for Business im [Modus "nur Zusammenarbeit"](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY18Q2:500 – Benutzer Pilot durchgeführt und abgeschlossen | <ul><li>Ermitteln von Pilotbenutzern</li><li>Erstellen eines Pilot Testplans</li><li>Aktivieren von Pilotbenutzern in Teams</li><li>Implementieren des Pilotprojekts</li><li>Durchführen einer Pilot Feedback Umfrage</li><li>Messen des Pilot Erfolgs</li></ul> |
+| Pilot Teams zusammen mit Skype for Business im [Modus "nur Zusammenarbeit"](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2:500 – Benutzer Pilot durchgeführt und abgeschlossen | <ul><li>Ermitteln von Pilotbenutzern</li><li>Erstellen eines Pilot Testplans</li><li>Aktivieren von Pilotbenutzern in Teams</li><li>Implementieren des Pilotprojekts</li><li>Durchführen einer Pilot Feedback Umfrage</li><li>Messen des Pilot Erfolgs</li></ul> |
 | Erfolgreiches Ausführen des Modus "nur Zusammenarbeit" für alle Benutzer in der Organisation neben Skype for Business | <ul><li>60% der Skype for Business-Benutzer verwenden Teams innerhalb von 30 Tagen nach der Einführung</li><li>Die Benutzerzufriedenheit mit Teams ist &#8805;80%.</li></ul> | <ul><li>Entwerfen und Durchführen eines breiten Kommunikations-und Schulungsplans</li><li>Aktivieren aller Benutzer für Teams im Modus "nur Zusammenarbeit"</li><li>Monatliche nach verfolgbare Nutzung</li><li>Sammeln von Benutzer Feedback</li><li>Überwachen von Netzwerkstatus/-Qualität</li><li>Nach Bedarf verringern</li></ul> |
 
 | Typ | Schlüssel Erfolgsindikator | Messmethode | Erfolgskriterien | Bemessungszeitpunkt |
@@ -119,3 +119,5 @@ Achten Sie beim Umfang der Upgrade-Reise darauf, dass Sie eine Zeitachse für wi
 Als Referenzpunkt wird eine Beispiel Zeitachse für die Phasen Pre-Upgrade, Upgrade und nach dem Upgrade des [Upgrades pro Journey](https://aka.ms/UpgradePro)bereitgestellt, die Sie ermutigen, nach Bedarf anzupassen, um den spezifischen Anforderungen Ihrer Organisation gerecht zu werden.
 
 Nachdem Sie die oben beschriebenen Aktivitäten abgeschlossen haben, sollten Sie über ein solides Fundament für Ihr Projekt verfügen. Fahren Sie mit den Planungsaktivitäten für [technische Bereitschaft](https://aka.ms/SkypeToTeams-TechnicalReadiness) und [organisatorische Bereitschaft](https://aka.ms/SkypeToTeams-UserReadiness) fort.
+
+Beachten Sie bitte: Skype for Business Online wird am 31. Juli 2021 eingestellt. Nach dieser Zeit ist der Skype for Business Online-Dienst nicht mehr verfügbar oder wird nicht mehr unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für das Upgrade hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen.

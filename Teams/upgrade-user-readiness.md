@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344114"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934494"
 ---
 ![Phasen der Upgrade-Reise, wobei die Benutzer Bereitschaftsstufe hervorzuheben ist] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
@@ -47,7 +47,7 @@ Ein optimaler Benutzer Bereitschaftsplan beinhaltet, wie Sie Ihre Benutzer währ
 <table>
 <tbody>
 <tr><th>Welche Kommunikationskanäle werden Sie nutzen?</th><th>Welche Schulungs Kanäle werden Sie nutzen?</th><th>Welche Supportkanäle werden Sie verwenden?</th></tr>
-<tr><td><ul><li>E-Mail<br><strong>Tipp:</strong> Verwenden Sie unsere Beispiel-Pilot-, Koexistenz-und Upgrade-e-Mails, um Ihre e-Mail-Kampagne anzupassen.</li><li>Plakate und Digital Beschilderung</li><li>Starten von Ereignissen</li><li>Abteilungsleiter</li><li>Pioniere</li><li>Teams/Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Von Microsoft veröffentlichte Online Artikel und-Videos</li><li>Ressourcen<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Video Schulung für Teams</a></li></ul></li><li>In-Product-Unterstützung (Hilfe)</li><li>Internes Schulungsteam</li><li>Partner Schulungsteam</li></ul></td><td><ul><li>In-House-Helpdesk</li><li>Outsourcing-Support-Desk</li><li>Self-Service (Intranet-Website)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online Hilfe und Anleitungen</a></li><li>Boden Wanderer und Champions</li><li>Rückkopplungsschleife (Umfragen, Bewertungen)</li></ul></td></tr>
+<tr><td><ul><li>E-Mail<br><strong>Tipp:</strong> Verwenden Sie unsere Beispiel-Pilot-, Koexistenz-und Upgrade-e-Mails, um Ihre e-Mail-Kampagne anzupassen.</li><li>Plakate und Digital Beschilderung</li><li>Starten von Ereignissen</li><li>Abteilungsleiter</li><li>Pioniere</li><li>Teams/Kanäle</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Von Microsoft Kursleiter geführte Schulungen</a></li><li>Von Microsoft veröffentlichte Online Artikel und-Videos</li><li>Ressourcen<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Video Schulung für Teams</a></li></ul></li><li>In-Product-Unterstützung (Hilfe)</li><li>Internes Schulungsteam</li><li>Partner Schulungsteam</li></ul></td><td><ul><li>In-House-Helpdesk</li><li>Outsourcing-Support-Desk</li><li>Self-Service (Intranet-Website)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online Hilfe und Anleitungen</a></li><li>Boden Wanderer und Champions</li><li>Rückkopplungsschleife (Umfragen, Bewertungen)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
