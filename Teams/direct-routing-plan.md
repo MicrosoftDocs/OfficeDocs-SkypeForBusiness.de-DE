@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
+ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768164"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36166282"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -234,8 +234,8 @@ Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt:
 Gilt für Case-und Non-Bypass-Fälle in der medienumgehung
 
 Die direkte Routing Schnittstelle auf dem Bein zwischen dem Session Border Controller und dem Cloud Media Processor (ohne medienumgehung) oder zwischen dem Teams-Client und dem SBC (sofern die medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
-- Nicht medienumgehung (SBC to Cloud Media Processor): Seide, g. 711, g. 722, g, 729
-- Medienumgehung (SBC to Teams Client): Seide, g. 711, g. 722, g, 729, Opus
+- Nicht medienumgehung (SBC to Cloud Media Processor): Seide, g. 711, g. 722, g. 729
+- Medienumgehung (SBC to Teams Client): Seide, g. 711, g. 722, g. 729, Opus
 
 Sie können die Verwendung des jeweiligen Codecs auf dem Session Border Controller erzwingen, indem Sie unerwünschte Codecs aus dem Angebot ausschließen.
 

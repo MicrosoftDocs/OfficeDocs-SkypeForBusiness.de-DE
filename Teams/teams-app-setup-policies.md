@@ -3,7 +3,6 @@ title: Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,13 +17,13 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
 f1keywords:
-- ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221806"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171081"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -45,8 +44,6 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten, um die gew�
 
 ![Screenshot mit der Seite "Richtlinien für die APP-Einrichtung"](media/app-setup-policies.png)
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 > [!NOTE]
 > Wenn Sie über Teams für Bildung verfügen, ist es wichtig zu wissen, dass die Aufgaben-App standardmäßig in der globalen Richtlinie angeheftet ist, obwohl Sie in der globalen Richtlinie zurzeit nicht aufgeführt ist. Es handelt sich um die vierte app in der Liste der angehefteten apps auf Teams-Clients.
 
@@ -55,9 +52,9 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten, um die gew�
 Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinierte Richtlinie zu erstellen.
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
-2. Wählen Sie **neue Richtlinie**aus.
-3. Geben Sie einen aussagekräftigen Namen für die Richtlinie ein, und klicken Sie dann auf **apps hinzufügen**.
-4. Aktivieren oder deaktivieren Sie das **Hochladen benutzerdefinierter apps zulassen**, je nachdem, ob Sie Benutzer benutzerdefinierte apps in Teams hochladen lassen möchten.
+2. Klicken Sie auf **Hinzufügen**.
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein, und klicken Sie dann auf **apps hinzufügen**.
+4. Aktivieren oder deaktivieren Sie das **Hochladen benutzerdefinierter apps zulassen**, je nachdem, ob Sie Benutzer benutzerdefinierte apps in Teams hochladen lassen möchten. Sie können diese Einstellung nicht ändern, wenn das **Zulassen von Drittanbieter-oder benutzerdefinierten apps** in den [organisationsweiten App-Einstellungen](teams-app-permission-policies.md#manage-org-wide-app-settings) unter APP-Berechtigungsrichtlinien deaktiviert ist.
 5. Suchen Sie im Bereich **angeheftete apps hinzufügen** nach den apps, die Sie hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
 
      ![Screenshot mit dem Bereich "angeheftete apps hinzufügen"](media/app-setup-policies-add-apps.png)
@@ -71,7 +68,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinier
 Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der Global (org-Wide Standard)-Richtlinie und der von Ihnen erstellten benutzerdefinierten Richtlinien.
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
-2. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten. 
+2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken und dann auf **Bearbeiten**klicken.
 3. Nehmen Sie hier die gewünschten Änderungen vor. Sie können die Reihenfolge der apps hinzufügen, entfernen und ändern.
 4. Klicken Sie auf **Speichern**.
 
@@ -79,24 +76,21 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu be
 
 Sie können das Microsoft Teams Admin Center verwenden, um einzelnen Benutzern oder dem Skype for Business PowerShell-Modul eine benutzerdefinierte Richtlinie zuzuweisen, um Gruppen von Benutzern, beispielsweise einer Sicherheitsgruppe oder Verteilergruppe, eine benutzerdefinierte Richtlinie zuzuweisen.
 
-> [!IMPORTANT]
-> Es wird empfohlen, PowerShell nur zum Zuweisen von Richtlinien für Benutzer zu verwenden. Verwenden Sie das Microsoft Teams Admin Center, um Richtlinien zu erstellen, zu bearbeiten und zu verwalten.
-
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für einzelne Benutzer
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für Benutzer
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
-2. Wählen Sie neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus.
-3. Wählen Sie unter **Teams-App-Setup Richtlinie**die APP-Setup Richtlinie aus, die Sie zuweisen möchten, und wählen Sie dann **Speichern**aus.
+2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Wählen Sie unter **App-Setup Richtlinie**die APP-Setup Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-    ![Screenshot mit dem Bereich "Benutzerrichtlinien bearbeiten"](media/app-setup-policies-assign-policy.png)
+Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
 
-Sie können auch eine APP-Setup Richtlinie einem oder mehreren Benutzern wie folgt zuweisen:
+Oder Sie können auch die folgenden Aktionen ausführen:
 
-1. Wechseln Sie zu den > **Setup Richtlinien**für Apps für **Microsoft Teams Admin Center** > **Teams**.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
 2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
 3. Wählen Sie **Benutzer verwalten**aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern**aus.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für Benutzer in einer Gruppe
 
