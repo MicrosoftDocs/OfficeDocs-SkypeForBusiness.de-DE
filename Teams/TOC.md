@@ -23,6 +23,7 @@
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
+## [Verwalten von Teams und Kanalrichtlinien](teams-policies.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
@@ -69,14 +70,16 @@
 ### [Verwalten der kostenlosen Version von Teams](manage-freemium.md)
 ### [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ### [Teams-Benutzereinstellungen im Batch bearbeiten](edit-user-settings-in-bulk.md)
+### [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
 ### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
+### [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 ### [Verwalten von Feedbackrichtlinien in Teams](manage-feedback-policies-in-teams.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Verwalten der externen Zugriffsrichtlinie](manage-external-access.md)
 ### [Verwenden der Inline-Nachrichtenübersetzung](inline-message-translation-teams.md)
 ### [Verwenden der Verzeichnissuche in Microsoft Teams](teams-scoped-directory-search.md)
 
-### Teams-Analysen und -Berichte im Microsoft Teams Admin Center
+### Analysen und Berichte im Microsoft Team Admin Center 
 #### [Übersicht](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams-Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +629,6 @@
 ### [Überwachen der Qualität](upgrade-monitor-quality.md)
 ### [Verbessern Ihres Diensts](upgrade-enhance-my-service.md)
 
-## [Tutorial: Von Skype for Business zu Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Häufig gestellte Fragen](FAQ-journey.md)
 ## Weitere Informationen
 ### [Migration von und Interoperabilität mit Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
