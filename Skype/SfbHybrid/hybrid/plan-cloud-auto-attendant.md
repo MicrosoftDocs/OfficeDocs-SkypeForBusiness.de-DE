@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36160597"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207030"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
@@ -56,14 +56,14 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
    Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
 
 - Wenn Sie Ihrer automatischen Telefonzentrale eine Telefonnummer zuweisen, benötigen Sie eine [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) -Lizenz.
-- Erstellen Sie für jede automatische Telefonzentrale ein lokales [Ressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) , und weisen Sie Telefonnummern und Lizenzen zu. 
+- Erstellen Sie für jede automatische Telefonzentrale ein Online- [Ressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md), und weisen Sie Telefonnummern und Lizenzen zu. 
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
 Wenn Sie Skype for Business Server 2019 und/oder Exchange Server 2019 bereitstellen möchten, müssen Sie die Migration sorgfältig planen, um eine kontinuierliche Unterstützung für automatische Telefonzentralen sicherzustellen. Denken Sie dabei an Folgendes:
 
 - Exchange Server 2019 bietet keine Exchange um Funktionalität mehr
-- Exchange Unified Messaging Online befindet sich im Ruhestands Modus
+- Exchange Unified Messaging befindet sich im Ruhestands Modus
 - Skype for Business Server 2019 nicht mehr in Exchange Online um integriert
 
 Automatische Cloud-Telefonzentralen können mit Skype for Business Server 2019, 2015 und 2013 konfiguriert werden.
@@ -91,7 +91,7 @@ Ausführliche Informationen zu diesen Schritten finden Sie unter [Verschieben ei
 
 ## <a name="additional-planning-resources"></a>Zusätzliche Planungsressourcen
 
-Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) durchläuft den Prozess der Erfassung von Informationen zu Benutzeranforderungen, der Planung einer Struktur von automatischen Telefonzentralen und Benutzern (und möglicherweise auch von Anrufwarteschlangen), dem Schreiben der Menüansagen und Implementieren des Plans im Online Admin Center. Lesen Sie das Lernprogramm, und verwenden Sie die Übungseinheiten, um Ihren Plan zu erstellen.
+Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) durchläuft den Prozess der Erfassung von Informationen zu Benutzeranforderungen, der Planung einer Struktur von automatischen Telefonzentralen und Benutzern (und möglicherweise auch von Anrufwarteschlangen), dem Schreiben der Menüansagen und Implementieren des Plans im Teamadministrator Center. Lesen Sie das Lernprogramm, und verwenden Sie die Übungseinheiten, um Ihren Plan zu erstellen.
 
 Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient leitet, fahren Sie mit [Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)fort.
 

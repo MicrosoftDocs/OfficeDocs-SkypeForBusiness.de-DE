@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a16b56c6886215f46ca40a7898353af010c840b3
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288483"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207143"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -141,7 +141,13 @@ Skype for Business Online PowerShell wird verwendet, um Dienste für Microsoft T
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Führen Sie den folgenden Befehl aus, um Ihr Microsoft Teams rooms-Konto zu aktivieren:
+2. SIP-Adresse des Kontos abrufen:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. Führen Sie den folgenden Befehl aus, um Ihr Microsoft Teams rooms-Konto zu aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

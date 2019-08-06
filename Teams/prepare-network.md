@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198421"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206957"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -58,10 +58,7 @@ Die Verbindung Ihres Firmenstandorts mit dem Microsoft-Netzwerk-Edge umfasst den
 
 Die Netzwerk Leistungsziele gehen von der richtigen Bandbreiten-und/oder [QoS-Planung](QoS-in-Teams.md)aus. Anders ausgedrückt: die Anforderungen gelten direkt für Teams in Echtzeit-Mediendatenverkehr, wenn die Netzwerkverbindung unter einer Spitzenauslastung liegt.
 
-Zum Testen beider Netzwerksegmente können Sie das [Tool Netzwerkbewertung](https://go.microsoft.com/fwlink/?linkid=855799)verwenden. Dieses Tool kann sowohl auf dem Client-PC direkt als auch auf einem PC bereitgestellt werden, der mit dem Kundennetzwerk-Edge verbunden ist. Das Tool enthält eine begrenzte Dokumentation, aber eine umfassendere Dokumentation rund um die Verwendung des Tools finden Sie hier: [Netzwerk Bereitschaftsbewertung](https://go.microsoft.com/fwlink/?linkid=855800). Wenn Sie diese Netzwerk Bereitschaftsbewertung ausführen, können Sie die Bereitschaft Ihres Netzwerks zur Ausführung von Echt Zeit Medienanwendungen wie Microsoft Teams überprüfen.
-
-> [!NOTE]
-> Hierbei handelt es sich um die gleiche Netzwerk Bereitschaftsbewertung, die für Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.
+Weitere Hilfe zur Vorbereitung Ihres Netzwerks für Teams finden Sie unter [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
 ## <a name="bandwidth-requirements"></a>Bandbreitenanforderungen

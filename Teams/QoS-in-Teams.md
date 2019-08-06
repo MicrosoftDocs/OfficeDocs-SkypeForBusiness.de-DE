@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820985"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206965"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -101,7 +101,7 @@ Der DSCP-Wert weist einem entsprechend konfigurierten Netzwerk die Priorität zu
 
 Die relative Größe der Portbereiche für verschiedene Echtzeit-Streaming-Arbeitsauslastungen legt den Anteil der gesamten verfügbaren Bandbreite für diese Arbeitsauslastung fest. So kehren Sie zu unserer früheren postalischen Analogie zurück: ein Brief mit dem Stempel "Luft Post" kann innerhalb einer Stunde zum nächstgelegenen Flughafen abgeholt werden, während ein kleines Paket, das als "Bulk-Mail" markiert ist, einen Tag warten kann, bevor er auf einer Reihe von Lastwagen über Land reist.
 
-In der folgenden Tabelle sind die erforderlichen DSCP-Markierungen für Teams mit Express Route und die zugehörigen Ports für Arbeits Auslastungs Warteschlangen aufgeführt. Diese Bereiche sind möglicherweise ein guter Ausgangspunkt für Kunden, die unsicher sind, was in ihrer eigenen Umgebung zu verwenden ist. Weitere Informationen finden Sie unter [QoS-Anforderungen für ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+In der folgenden Tabelle sind die erforderlichen DSCP-Markierungen und die vorgeschlagenen entsprechenden Medien Portbereiche aufgeführt, die von Teams und Express Route verwendet werden. Diese Bereiche sind möglicherweise ein guter Ausgangspunkt für Kunden, die unsicher sind, was in ihrer eigenen Umgebung zu verwenden ist. Weitere Informationen finden Sie unter [QoS-Anforderungen für ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Empfohlene anfängliche Portbereiche_
 
