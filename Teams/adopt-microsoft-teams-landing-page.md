@@ -17,15 +17,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34494498"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
-Wenn Sie ein kleines Unternehmen sind, oder wenn Sie Teams starten möchten, die mit Chats, Teams &-Kanälen und Besprechungen beginnen, verwenden Sie unsere [Richtlinien für erste Schritte](get-started-with-teams-quick-start.md), mit denen Sie schnell in Betrieb gehen können. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Office 365-Anrufpläne oder Telefonsystem) bereitstellen möchten, können Sie mit unserem Leitfaden für erste Schritte beginnen, aber Sie benötigen die zusätzlichen Anleitung unten, unter **tiefer**gehende Einführung.
+Wenn Sie ein kleines Unternehmen sind, oder wenn Sie Teams starten möchten, die mit Chat, Teams #a0 Kanälen und Besprechungen beginnen, verwenden Sie unsere [Richtlinien für erste Schritte](get-started-with-teams-quick-start.md), mit denen Sie schnell in Betrieb gehen können. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Office 365-Anrufpläne oder Telefonsystem) bereitstellen möchten, können Sie mit unserem Leitfaden für erste Schritte beginnen, aber Sie benötigen die zusätzlichen Anleitung unten, unter **tiefer**gehende Einführung.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -112,7 +112,7 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Sie Teams starten möchten, die
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schulung &-Zertifizierung</h3>
+                        <h3>Schulung #a0 Zertifizierung</h3>
                     </div>
                 </div>
             </div>
