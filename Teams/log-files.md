@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206949"
+ms.locfileid: "36212613"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -86,11 +86,11 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 
 |Client |Speicherort |
 |---------|---------|
-|Windows     |%APPDATA%\Microsoft\Teams\media-Stack\*. Blog         |
-|            |%APPDATA%\Microsoft\Teams\skylib\*. Blog
-|            |%APPDATA%\Microsoft\Teams\media-Stack\*. ETL         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib\*. Blog         |
+|Windows     |%APPDATA%\Microsoft\Teams\media-Stack\\*. Blog         |
+|            |%APPDATA%\Microsoft\Teams\skylib\\*. Blog
+|            |%APPDATA%\Microsoft\Teams\media-Stack\\*. ETL         |
+|Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/Media-Stack/*. Blog         |
+|            |~/Library/Application-Unterstützung/Microsoft/Teams/skylib/*. Blog         |
 
 
 

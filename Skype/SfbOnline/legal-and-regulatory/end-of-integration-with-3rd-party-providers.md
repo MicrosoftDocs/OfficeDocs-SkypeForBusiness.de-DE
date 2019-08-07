@@ -20,10 +20,10 @@ ms.custom:
 hideEdit: true
 description: Am 31. Juli, 2021, wird das Programm für den Lebenszyklusende für die Integration von Skype for Business mit externen Audiokonferenz-Anbietern (Drittanbieter-ACP) abgeschlossen.
 ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36170993"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programm zum Ende des Lebenszyklus zur Integration von Skype for Business mit Audiokonferenz-Anbietern von Drittanbietern 

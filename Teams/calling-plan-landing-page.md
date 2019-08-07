@@ -12,26 +12,26 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: Aufrufen von Plan Zielseite
+description: Startseite des Anruf Plans
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 9b9d1a012c545dbaf8f8c65d87f58718bda13946
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108755"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34381837"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>Welche aufrufen planen ist das richtige für Sie? 
+# <a name="which-calling-plan-is-right-for-you"></a>Welcher Anrufplan ist das richtige für Sie? 
 
-Sie haben das [Erste Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud VoIP Arbeitslasten hinzufügen, und Sie haben entschieden, Microsoft Telefonsystem mit Aufrufen planen Verbindung zu im Public Switched Telephone Network, (PSTN) zu verwenden. 
+Sie haben die ersten [Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen #a0 Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Cloud-sprach Auslastungen hinzufügen, und Sie haben sich entschieden, Microsoft Phone System mit einem Anrufplan zu verwenden, um eine Verbindung mit dem öffentlichen Telefonnetz (PSTN) herzustellen. 
 
-Dieser Artikel beschreibt Core Bereitstellung Entscheidungen für das Aufrufen von plant sowie weitere Aspekte zu beachten, dass Sie möglicherweise konfigurieren möchten, basierend auf der Anforderungen Ihrer Organisation. [Cloud-VoIP in Microsoft-Teams,](cloud-voice-landing-page.md) lesen Sie auch weitere Informationen zu VoIP Cloudlösungen von Microsoft.
+In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne sowie weitere Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation möglicherweise konfigurieren möchten. Sie sollten auch [Cloud-VoIP in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-sprach angeboten von Microsoft zu erhalten.
 
 
-## <a name="learn-more-about-calling-plans"></a>Erfahren Sie mehr über die Pläne aufrufen
+## <a name="learn-more-about-calling-plans"></a>Weitere Informationen zu Anrufplänen
 
-Die folgenden Artikel enthalten weitere Informationen zur Bereitstellung und Verwendung von Microsoft plant aufrufen:
+In den folgenden Artikeln finden Sie weitere Informationen zur Bereitstellung und Verwendung von Microsoft-Anrufplänen:
 
 - [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
 - [Anrufpläne für Office 365](calling-plans-for-office-365.md)
@@ -40,42 +40,42 @@ Die folgenden Artikel enthalten weitere Informationen zur Bereitstellung und Ver
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
-Um Microsoft als Ihr Netzbetreiber Telefonie verwenden, müssen Sie planen der Aufruf von Lizenzen zu erhalten, und weisen Sie diese den Benutzern Telefonsystem. 
+Wenn Sie Microsoft als Telefonnetzbetreiber verwenden möchten, müssen Sie Lizenzen für den Anrufplan erwerben und diese ihren Telefon System Benutzern zuweisen. 
 
-Es gibt zwei Arten von Aufrufen Pläne verfügbar:
+Es stehen zwei Arten von Anrufplänen zur Verfügung:
 
-- Anrufe von nationalen Pläne 
-- Aufrufen von nationalen und internationalen Pläne
+- Tarife für Inlandsanrufe 
+- Tarife für Inlands-und Auslandsgespräche
 
 |Frage|Aktion |
 |------------|-------|
-|Stehen plant aufrufen im Bereich Meine? Welche Benutzerstandorte müssen Service aufrufen planen? | Weitere Informationen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
-Benötigen die Benutzer internationaler? | Weitere Informationen finden Sie unter [Aufrufen für Office 365 Plans](calling-plans-for-office-365.md). |
-Müssen meine Benutzer Lizenzen plant aufrufen? | Zu erwerben, Lizenzen zuweisen, finden Sie unter [Schritt2: kaufen und Zuweisen von Lizenzen](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
-Sind meine Benutzer ein direkt nach innen (DID) Telefonnummer vorhanden? | Wenn Sie Rufnummern erhalten möchten, finden Sie unter [Schritt 3: Abrufen von Telefonnummern](set-up-calling-plans.md#step-3-get-phone-numbers). |
+|Sind Anrufpläne in meinem Gebiet verfügbar? An welchen Speicherorten des Benutzers wird ein Anruf Plan Dienst durchgestellt? | Weitere Informationen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
+Benötigen meine Nutzer Auslandsanrufe? | Weitere Informationen finden Sie unter [Aufrufen von Plänen für Office 365](calling-plans-for-office-365.md). |
+Verfügen meine Benutzer über Anruf Plan Lizenzen? | Informationen zum kaufen und Zuweisen von Lizenzen finden Sie unter [Schritt 2: erwerben und Zuweisen von Lizenzen](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
+Haben meine Benutzer jeweils eine direkte Durchwahl (DID)? | Informationen zum Abrufen von Telefonnummern finden Sie unter [Schritt 3: Abrufen von Telefonnummern](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
 ### <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
-Es ist einfach, Ihre Rufnummern aus Ihren aktuellen Dienstanbieter Teams übertragen. Nachdem Sie Ihre Rufnummern Teams port, wird Microsoft Ihr Dienstanbieter und Sie für diese Nummern Rechnung wird. Weitere Informationen finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Es ist einfach, ihre Telefonnummern von Ihrem aktuellen Dienstanbieter in Teams zu übertragen. Nachdem Sie Ihre Telefonnummern in Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern. Weitere Informationen finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
-Mit Aufrufen in Office 365-Pläne () jedem Benutzer in Ihrer Organisation muss eine eindeutige nach innen Durchwahl Anzahl und eine entsprechende überprüfte Notfall Adresse Telefon. Sie können auch einen Notfall Ort innerhalb der Notfall Adresse (zum Beispiel geschäftliche Rufnummer oder Floor-Nummer) angeben. 
+Bei Anrufplänen in Office 365 muss jeder Benutzer in Ihrer Organisation über eine eindeutige direkte Durchwahl (DID)-Telefonnummer und eine entsprechende validierte Notfalladresse verfügen. Sie können auch einen Notfall Standort innerhalb der Notfalladresse angeben (beispielsweise eine Büro-oder Boden Nummer). 
 
 |Frage|Aktion |
 |:------------|:-------|
-|Wie detailliert soll ich die Notfall-Adresse und den Ort Informationen werden? |Weitere Informationen finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
+|Wie detailliert soll die Notfalladresse und die Standortinformationen sein? |Weitere Informationen finden Sie unter [Was sind Notfall Standorte, Adressen und Anrufweiterleitung?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
-### <a name="calling-identity"></a>Aufrufen von Identität
+### <a name="calling-identity"></a>Identität des Anrufs
 
-Alle ausgehenden Anrufe verwenden standardmäßig die zugewiesene Telefonnummer als aufrufende Identität (Anrufer-ID). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
+Standardmäßig verwenden alle ausgehenden Anrufe die zugewiesene Telefonnummer als Anruf Identität (Rufnummernanzeige). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
 
 |Frage|Aktion |
 |:------------|:-------|
-|Soll so aktivieren oder Deaktivieren der Anrufer-ID werden? | Ändern oder die Anrufer-ID zu blockieren, finden Sie unter [Legen Sie die Anrufer-ID für einen Benutzer](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Soll die Rufnummernanzeige maskiert oder deaktiviert werden? | Informationen zum Ändern oder Blockieren der Rufnummernanzeige finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md). |
 |||
 
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Erfahren Sie mehr über die anrufanalyse und das Anruf Qualitäts Dashboard, und wann Sie diese verwenden können, um Probleme mit der Anrufqualität zu überwachen und zu beheben.
-ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281878"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433599"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -42,11 +42,11 @@ In der anrufanalyse werden detaillierte Informationen zu den Geräten, Netzwerke
 
 Wenn Sie diese Informationen für einen Benutzer im Microsoft Teams Admin Center anzeigen möchten, klicken Sie auf der Seite Benutzerdetail auf die Registerkarte **Anrufverlauf** für diesen Benutzer, und zeigt alle Anrufe und Besprechungen an, an denen der Benutzer während der letzten 30 Tage teilgenommen hat.
 
-![Rufen Sie Analytics-Benutzerdaten auf.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Screenshot aller Analytics-Benutzerdaten](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Wenn Sie weitere Informationen zu einer bestimmten Sitzung einschließlich detaillierter Medien-und Netzwerkstatistiken erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
 
-![Anrufanalyse-Benutzersitzungsdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Screenshot der Benutzersitzungsdaten der anrufanalyse](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Wenn Sie nicht-Administratoren wie Helpdesk-Agents eines externen Anbieters die Verwendung von Anruf Analysen verwenden möchten, können Sie Berechtigungen zuweisen, damit Sie die anrufanalyse verwenden können, aber nicht auf das restliche Microsoft Teams Admin Center zugreifen können: 
   
@@ -70,11 +70,11 @@ Während die anrufanalyse dazu dient, Administratoren und Helpdesk-Agents bei de
   
 Die schlechte Anrufqualität des Benutzers ist vielleicht auf ein Netzwerkproblem zurückzuführen, das auch viele andere Benutzer betrifft. Die individuelle Anruf Erfahrung wird in CQD nicht angezeigt, aber die Gesamtqualität der Anrufe, die über Microsoft Teams oder Skype for Business getätigt werden, wird erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD stellt Berichte über Anruf Qualitäts Metriken bereit, mit denen Sie Einblicke in die allgemeine Anrufqualität, Server-Client-Streams, Client-Client-Streams und [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)für die Sprachqualität erhalten.
   
-![Screenshot des Dashboards für die Anrufqualität. Angezeigte Registerkarten sind die allgemeine Anrufqualität, Server-Client-, Client-Client-und Sprachqualität-SLA.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Screenshot des Dashboards für die Anrufqualität.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
 Mithilfe der Standort optimierten Berichte von CQD können aggregierte Anrufqualität und Zuverlässigkeit im Gebäude des Benutzers ermittelt werden, um festzustellen, ob das Problem für einen einzelnen Benutzer isoliert ist oder ein größeres Segment von Benutzern betrifft.
 
-![Screenshot der Standort optimierten Berichte des Anruf Qualitäts Dashboards Angezeigte Reiter sind Übersicht, Gebäude-Wired, Gebäude-WLAN und Mobile (LTE). Es wird ein Filter angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Screenshot der Standort optimierten Berichte des Anruf Qualitäts Dashboards](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Damit Gebäude-oder Endpunkt spezifische Ansichten in CQD aktiviert werden können, muss ein Administrator [Gebäude-oder Endpunktinformationen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) auf der CQD-Seite "Mandantendaten hochladen" hochladen. 

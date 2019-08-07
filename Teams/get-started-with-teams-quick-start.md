@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: c86fa96418f22ebc9dba0d6497e3ef09487a7d7f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433120"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35638638"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -40,7 +40,7 @@ So stellen Sie Ihre erste Reihe von Teams und Kanälen bereit, damit Ihre Early 
 
 Wenn Sie in einer großen Organisation arbeiten, über eine hybride oder lokale Skype for Business-Konfiguration verfügen, strengen behördlichen Vorschriften oder Complianceanforderungen genügen müssen oder die Bereitstellung von Besprechungs- und Sprachfunktionen (wie etwa Anrufplänen oder Telefonanlagen) planen, lesen Sie zuerst [Bereitstellen von Teams](how-to-roll-out-teams.md). Wir empfehlen Ihnen trotzdem, mit diesem **Erste Schritte**-Abschnitt anzufangen, um Ihre Fähigkeiten auszubauen und mit der Planung Ihrer organisationsweiten Bereitstellung zu beginnen. Setzen Sie Microsoft Teams schon bei der Planung ein! Beginnen Sie ganz einfach, indem Sie Teams mit Chat, Teams, Kanälen und Apps einführen, und bauen Sie darauf auf. Diese anfänglichen Erfahrungen helfen Ihnen, Teams bekannt zu machen und die Erwartung für Ihre nächste Einführungsphase in der ganzen Organisation zu schüren. 
 
-Wenn Sie in einem kleinen Unternehmen arbeiten, können Sie möglicherweise die gesamte Bereitstellung von Teams in Ihrer Organisation mit diesem Erste Schritte-Leitfaden bewältigen. Für kleine Unternehmen ist eine gestaffelte Bereitstellung von Teams nicht zwingend erforderlich.
+Wenn Sie in einem kleinen Unternehmen arbeiten, können Sie möglicherweise die gesamte Bereitstellung von Teams in Ihrer Organisation mit diesem Erste Schritte-Leitfaden bewältigen. Für kleine Unternehmen ist eine gestaffelte Bereitstellung von Teams nicht zwingend erforderlich. Beachten Sie die Vorlagen, die speziell für kleine Unternehmen verfügbar sind, um die Bereitstellung in Ihrer Organisation einfacher und effizienter zu gestalten. Siehe [Erste Schritte mit Teamvorlagen für kleine und mittlere Unternehmen](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 

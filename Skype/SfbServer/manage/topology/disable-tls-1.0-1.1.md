@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Vorbereiten und Implementieren der Deaktivierung von TLS 1,0 und 1,1 in Ihrer Umgebung.'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275241"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deaktivieren von TLS 1.0/1.1 in Skype for Business Server 2015
@@ -451,7 +451,7 @@ Sie haben vielleicht bemerkt, dass wir hier mehr tun, als nur TLS 1,0 und 1,1 zu
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Überprüfen, ob Arbeitslasten wie erwartet funktionieren
 
-Nachdem TLS 1,0 und 1,1 in Ihrer Umgebung deaktiviert wurden, stellen Sie sicher, dass alle Ihre wichtigsten Arbeitslasten wie erwartet funktionieren, wie etwa im &-Anwesenheitsstatus, P2P-anrufen, Enterprise-VoIP usw.
+Nachdem TLS 1,0 und 1,1 in Ihrer Umgebung deaktiviert wurden, stellen Sie sicher, dass alle Ihre Haupt Arbeitsauslastungen wie erwartet funktionieren, beispielsweise Chat #a0 Anwesenheit, P2P-Anrufe, Enterprise-VoIP usw.
 
 **Nur überprüfen, ob TLS 1,2 verwendet wird**
 
@@ -480,7 +480,7 @@ Da einige Abhängigkeits Voraussetzungen zur Unterstützung von TLS 1,2 in Skype
 
 **Option 2:** Lokale SQL-Instanzen (RTCLOCAL und LYNCLOCAL) vor der Installation
 
-1. Laden Sie SQL Express 2014 SP2 (SQLEXPR_x64. exe) in den lokalen Ordner auf FE herunter, und kopieren Sie Sie. Sagen wir Ordnerpfad <SQL_FOLDER_PATH>.
+1. Laden Sie SQL Express 2014 SP2 (SQLEXPR_x64. exe) in den lokalen Ordner auf FE herunter, und kopieren Sie Sie. Angenommen, der Ordnerpfad <SQL_FOLDER_PATH>.
 2. Starten Sie PowerShell oder Eingabeaufforderung, und navigieren Sie zu <SQL_FOLDER_PATH>.
 3. Erstellen Sie die RTCLOCAL-SQL-Instanz, indem Sie den folgenden Befehl ausführen. Warten Sie, bis "SQLEXPR_x64. exe" abgeschlossen ist, bevor Sie fortfahren:
 

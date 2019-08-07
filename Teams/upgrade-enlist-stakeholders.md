@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344625"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433479"
 ---
-![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
+![Abbildung des Stakeholder-Status der Upgrade-Reise] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
 
 Dieser Artikel ist Teil der Project Stakeholder-Phase ihres Upgrade-Vorgangs, der ersten und wichtigsten Aktivität, die Sie für den Erfolg Ihres Projekts abgeschlossen haben.
 

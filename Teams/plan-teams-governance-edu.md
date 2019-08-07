@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0faa5f24ea64ae0fcfc967281126a4852dd139cf
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35804833"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren

@@ -1,6 +1,6 @@
 # [Microsoft Teams-Räume](index.md)
 ## Plan
-### [Übersicht über die Planung von Microsoft Teams-Räumen](skype-room-systems-v2-0.md) (Microsoft Docs)
+### [Übersicht über die Planung von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)
 ### [Versionsunterstützung](srs2-lifecycle-support.md)
 ### [Anmerkungen zu dieser Version](srs2-release-note.md)
 ### [Vorbereiten der Umgebung](srs-v2-prep.md)
