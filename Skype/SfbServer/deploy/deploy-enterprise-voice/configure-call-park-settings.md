@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern Sie die Einstellungen für den Anruf Park in Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: df7334734784a773abd1df66a7544c3141a9aec9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303390"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233707"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren von Einstellungen für den Anruf Park in Skype for Business
 

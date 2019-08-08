@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Windows Server-Dateifreigabe im Rahmen der Installation von Skype for Business Server erstellen. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292165"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235242"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen einer Dateifreigabe in Skype for Business Server
  
@@ -64,7 +64,7 @@ Sehen Sie sich im Video die Schritte zum **Erstellen einer Dateifreigabe** an:
 > [!NOTE]
 >Wenn der Dateispeicher auf einer DFS-Freigabe gehostet wird, wird die folgende Warnung empfangen:
 
-Warnung: auf Freigabeberechtigungen für "\\<domain>\<share>" kann nicht zugegriffen werden.
+Warnung: der Zugriff auf Freigabeberechtigungen für "\\<domain>\<> freigeben" ist nicht möglich.
 
 >Dies wird erwartet, wenn Sie kein Administrator auf dem Dateiserver sind oder wenn es sich um eine DFS-Freigabe (Distributed File System) handelt. Wenn die Freigabeberechtigungen bereits konfiguriert sind, kann diese Warnung ignoriert werden. Wenn es sich um eine neue Freigabe handelt, finden Sie in der Dokumentation Einzelheiten zum manuellen Konfigurieren von Freigabeberechtigungen.
 

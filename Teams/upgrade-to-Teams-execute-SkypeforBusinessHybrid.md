@@ -1,59 +1,60 @@
 ---
-title: Aktualisieren von Skype für Business hybridbereitstellung zu Microsoft-Teams | PSTN
+title: Upgrade von Skype for Business-hybridbereitstellungen auf Microsoft Teams | PSTN
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
-description: Überlegungen zum Upgrade von Teams aus einer Skype für Business hybridbereitstellung.
+description: Überlegungen zum Upgrade von einer Skype for Business-hybridbereitstellung auf Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c043d870c719d4427494ab24dade4f733febf5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7729cd65ff5d58d348229c4ec5ec6182f06aa5de
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926115"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235907"
 ---
-![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
+![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt] (media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
-Dieser Artikel ist Teil der Bereitstellung und Implementierung Stufe der Ihrem Upgrade Weg. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten ausgeführt haben:
+Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
-- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
-- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
-- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Die Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Ihre Organisation vorbereitet](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Ein Pilotprojekt durchgeführt.](https://aka.ms/SkypeToTeams-Pilot)
+- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Upgrade von einer Skype für Business hybridbereitstellung auf Teams
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Upgrade von einer Skype for Business-hybridbereitstellung in Teams
 
-Befolgen Sie die Anweisungen in diesem Artikel, wenn Sie Skype für Unternehmen bereitgestellt haben oder Microsoft Lync lokal und in einer hybridbereitstellung mit Ihrem Office 365-Mandanten konfiguriert und möchte, dass Ihre Organisation auf Teams entweder selektiv aktualisieren – durch die Verwendung mehrerer Koexistenz Modi – oder-Ansatz repräsentieren. Für ein Upgrade Weg müssen Sie Ihre Benutzer (Wenn sie bereits online verwaltet werden nicht) zu Skype für Business Online verschieben, und weisen Sie diese der entsprechenden Koexistenz und Upgrade-Modus.
+Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft lync lokal bereitgestellt und in einer hybridbereitstellung mit Ihrem Office 365-Mandanten konfiguriert haben, und Ihre Organisation ein Upgrade auf Teams einzeln durchführen möchte – mithilfe mehrerer Koexistenzmodus – oder All-in Wenn Sie eine Upgrade-Reise durchführen möchten, müssen Sie Ihre Benutzer in Skype for Business Online verschieben (sofern Sie nicht bereits online sind) und Ihnen dann den entsprechenden Koexistenz-und Aktualisierungsmodus zuweisen.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-move-users-to-skype-for-business-online"></a>Schritt 1: Migrieren von Benutzern zu Skype für Business Online
+## <a name="step-1-move-users-to-skype-for-business-online"></a>Schritt 1: Verschieben von Benutzern in Skype for Business Online
 
-Dieser Schritt gilt für Benutzer, die derzeit lokal sind. Weitere Informationen zum Verschieben von Benutzern zu Skype für Business Online finden Sie unter [Verschieben von Benutzern aus lokal - auf Skype für Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+Dieser Schritt bezieht sich auf Benutzer, die derzeit lokal verwaltet werden. Weitere Informationen zum Verschieben dieser Benutzer in Skype for Business Online finden Sie unter [Verschieben von Benutzern von lokal in Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
-## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Schritt 2: Zuweisen einer Koexistenz und Aktualisierungsmodus
+## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Schritt 2: Zuweisen einer Koexistenz und eines Aktualisierungsmodus
 
-Nachdem Sie Ihre Benutzer in Skype für Business Online verschoben haben, können Sie diese Zuordnen des entsprechenden Koexistenzmodus basierend auf der Upgrade Weg, die Ihre Organisation ausgewählt hat. Weitere Informationen finden Sie unter [Festlegen der Koexistenz und Durchführen eines Upgrades Einstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Nachdem Sie Ihre Benutzer in Skype for Business Online verschoben haben, können Sie Ihnen den passenden Koexistenzmodus zuweisen, der auf der von Ihrer Organisation ausgewählten Upgrade-Reise basiert. Weitere Informationen finden Sie unter [Festlegen von Koexistenz-und Upgradeeinstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 > [!NOTE]
-> Mit Skype für Business Server 2019 und einem zukünftigen kumulativen Update von Skype für Business Server 2015 können Sie Schritt 1 (Migrieren von Benutzern zu Skype für Business Online) und Schritt2 (Upgrade Benutzer Teams) in einem einzigen Schritt ausführen können. Weitere Informationen werden nach der Veröffentlichung von Skype für Business Server 2019 bereitgestellt.
+> Mit Skype for Business Server 2019 und einem zukünftigen kumulativen Update von Skype for Business Server 2015 können Sie Schritt 1 (Verschieben von Benutzern in Skype for Business Online) und Schritt 2 (Benutzer auf Teams aktualisieren) in einem einzigen Schritt ausführen. Weitere Informationen werden nach der Veröffentlichung von Skype for Business Server 2019 bereitgestellt.
 
-## <a name="phone-system-and-teams-upgrade"></a>Upgrade Telefonsystem und Teams
+## <a name="phone-system-and-teams-upgrade"></a>Upgrade für Telefonsysteme und Teams
 
-Wenn Sie Ihre Skype für Business hybridbereitstellung zu Telefonsystem mit Aufrufen plant übergebenden und Microsoft Ihren öffentlichen Telefonnetz Netzwerkanbieter (PSTN) – und unter der Annahme, dass Sie das Telefon Nummer Portieren abgeschlossen haben – aktualisieren die Benutzer Teams werden automatisch eingehende PSTN-Aufruf von Teams umzustellen.
+Wenn Sie Ihre Skype for Business-hybridbereitstellung in das Telefon System mit Anrufplänen umstellen und Microsoft Ihr öffentlich geschaltetes Telefonnetz (PSTN)-Anbieter ist – und davon ausgehend, dass Sie die Portierung von Telefonnummern abgeschlossen haben – aktualisieren Sie Ihre Benutzer auf Teams über gehen automatisch eingehende PSTN-Anrufe an Teams.
 
-Wenn plant aufrufen, ist nicht verfügbar, oder Sie Ihre vorhandenen PSTN-Konnektivität-Dienstanbieter verwenden möchten, müssen Sie für den Übergang Ihrer Enterprise-VoIP-bereitstellungs – oder Hybrid-VoIP-Bereitstellung, die Ihre vorhandenen verwendet lokale Bereitstellung oder Cloud Connector Edition – an Microsoft Telefonsystem direktes Routing. Wenn Ihre Benutzer auf Teams aktualisieren, finden Sie unter die [zusätzliche Überlegungen für das Telefon System direkte Routing](2-envision-make-my-service-decisions-direct-routing.md).
+Wenn keine Anrufpläne verfügbar sind oder Sie beabsichtigen, Ihren vorhandenen PSTN-Verbindungsanbieter zu verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung – oder die Hybrid-sprach Bereitstellung, die Ihre vorhandene lokale Bereitstellung oder Cloud Connector Edition verwendet – umleiten, um Microsoft Phone-System Direktes Routing Wenn Sie Ihre Benutzer auf Teams aktualisieren möchten, lesen Sie die [zusätzlichen Überlegungen für das direkte Routing von Telefonsystemen](2-envision-make-my-service-decisions-direct-routing.md).

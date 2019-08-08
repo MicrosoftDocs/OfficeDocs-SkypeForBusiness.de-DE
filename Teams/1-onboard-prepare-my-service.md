@@ -3,6 +3,7 @@ title: Vorbereiten der Bereitstellung des Microsoft Teams-Cloud Voice-Diensts
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Verwenden Sie Onboarding-Checklisten, um Office 365 für Teams vorzubereiten und die Kernfunktionen von Teams, Netzwerke und Cloud-VoIP-Workloads zu konfigurieren.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344829"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236198"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -112,7 +113,7 @@ Nachdem Sie Ihren Testansatz definiert haben, besteht der nächste Schritt darin
 
 Weitere Informationen finden Sie unter:
 
-- [Technische Planung für Audiokonferenzen](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [Technische Planung für Audiokonferenzen](cloud-voice-deployment.md)
 
 - [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

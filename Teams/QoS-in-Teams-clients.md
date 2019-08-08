@@ -7,99 +7,100 @@ ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Quality of Service (QoS) für Microsoft-Teams, Clients zu implementieren.
+audience: admin
+description: Implementieren Sie Quality of Service (QoS) für Microsoft Teams-Clients.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194698"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246196"
 ---
 # <a name="set-qos-on-windows-clients"></a>Festlegen von QoS auf Windows-Clients
 
-Sie können Richtlinienbasierte QoS innerhalb der Gruppenrichtlinien verwenden, um den Quellportbereich für den vordefinierten DSCP-Wert in der Teams Client festzulegen. Die Portbereiche in der folgenden Tabelle angegeben sind, als Ausgangspunkt zum Erstellen einer Richtlinie für jeden Workload.
+Sie können richtlinienbasierte QoS in Gruppenrichtlinien verwenden, um den Quellportbereich für den vordefinierten DSCP-Wert im Teams-Client festzulegen. Die in der folgenden Tabelle angegebenen Portbereiche stellen einen Ausgangspunkt zum Erstellen einer Richtlinie für jede Arbeitsauslastung dar.
 
-_Anfängliche Portbereiche empfohlen_
+_Empfohlene anfängliche Portbereiche_
 
-Media-Datenverkehrstyp| Client-Quellportbereich |Protokoll|DSCP-Wert|DSCP-Klasse|
+Media Traffic-Typ| Client Quellportbereich |Protokoll|DSCP-Wert|DSCP-Klasse|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50.000 – 50,019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Video| 50,020 – 50,039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Anwendung/Bildschirmfreigabe| 50,040 – 50,059|TCP/UDP|18|Assured Forwarding (AF21)|
+|Audio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Video| 50020 – 50039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Anwendung/Bildschirmübertragung| 50040 – 50059|TCP/UDP|18|Sichere Weiterleitung (AF21)|
 | | | | |
 
-Konfigurieren Sie nach Möglichkeit, Richtlinienbasierte QoS-Einstellungen in ein Gruppenrichtlinienobjekt. Die folgenden Schritte sind sehr ähnlich [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für die Skype für Business Server-Clients](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), die über einige zusätzliche Details verfügt, die möglicherweise nicht erforderlich.
+Konfigurieren Sie, wenn möglich, richtlinienbasierte QoS-Einstellungen in einem Gruppenrichtlinienobjekt. Die folgenden Schritte ähneln dem [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), die einige zusätzliche Details enthält, die möglicherweise nicht erforderlich sind.
 
-Zum Erstellen einer audio QoS-Richtlinie für die Domäne eingebundener Windows 10 Computer zuerst melden Sie sich an einem Computer, auf dem die Gruppenrichtlinien-Verwaltungskonsole installiert wurde. Öffnen Sie die Gruppenrichtlinien-Verwaltungskonsole (klicken Sie auf Start, zeigen Sie auf Verwaltung, und klicken Sie dann auf die Gruppenrichtlinien-Verwaltungskonsole), und führen Sie dann die folgenden Schritte aus:
+Wenn Sie eine QoS-audiorichtlinie für mit der Domäne verbundene Windows 10-Computer erstellen möchten, melden Sie sich zuerst bei einem Computer an, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie die Gruppenrichtlinienverwaltung (Klicken Sie auf Start, zeigen Sie auf Verwaltung, und klicken Sie dann auf Gruppenrichtlinienverwaltung), und führen Sie dann die folgenden Schritte aus:
 
-1. Suchen Sie in der Gruppenrichtlinien-Verwaltungskonsole den Container, in dem die neue Richtlinie erstellt werden soll. Beispielsweise sollte alle Client-Computer in einer Organisationseinheit mit dem Namen **Clients**befinden, die neue Richtlinie in der Organisationseinheit Client erstellt werden.
+1. Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Ihre Clientcomputer in einer Organisationseinheit mit dem Namen " **Clients**" befinden, sollte die neue Richtlinie in der Client Organisationseinheit erstellt werden.
 
-2. Maustaste auf den entsprechenden Container, und klicken Sie dann auf **Erstellen Sie ein Gruppenrichtlinienobjekt in dieser Domäne, und Verknüpfen des Arbeitsbereichs hier**.
+2. Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf **Gruppenrichtlinienobjekt in dieser Domäne erstellen, und verknüpfen Sie es hier**.
 
-3. Klicken Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** Geben Sie im Feld **Name** einen Namen für das neue Gruppenrichtlinienobjekt ein, und klicken Sie dann auf **OK**.
+3. Geben Sie im Dialogfeld **neues GPO** im Feld **Name** einen Namen für das neue Gruppenrichtlinienobjekt ein, und klicken Sie dann auf **OK**.
 
-4. Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **Bearbeiten**.
+4. Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **Bearbeiten**.
 
-5. In den Gruppenrichtlinienverwaltungs-Editor, erweitern Sie **Computerkonfiguration**, erweitern Sie **Windows-Einstellungen**, mit der rechten Maustaste **Richtlinienbasierte QoS**, und klicken Sie dann auf **neue Richtlinie erstellen**.
+5. Erweitern Sie im Gruppenrichtlinien-Verwaltungs-Editor **Computer Konfiguration**, erweitern Sie **Windows-Einstellungen**, klicken Sie mit der rechten Maustaste auf **richtlinienbasierte QoS**, und klicken Sie dann auf **neue Richtlinie erstellen**.
 
-6. Geben Sie im Dialogfeld **Richtlinienbasierte QoS** auf der ersten Seite einen Namen für die neue Richtlinie in das Feld **Name** ein. Wählen Sie die **DSCP-Wert angeben** , und legen Sie den Wert auf **46 fest**. Lassen Sie **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+6. Geben Sie im Dialogfeld **richtlinienbasierte QoS** auf der Seite öffnen im Feld **Name** einen Namen für die neue Richtlinie ein. Wählen Sie **DSCP-Wert angeben** aus, und legen Sie den Wert auf **46**fest. Geben Sie die **ausgehende Drosselungs Rate** nicht ausgewählt ein, und klicken Sie dann auf **weiter**.
 
-7. Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem Namen ausführbare** und geben Sie den Namen **Teams.exe**, und klicken Sie dann auf **Weiter**. Diese Einstellung weist die Richtlinie nur übereinstimmenden Datenverkehr vom Client Teams priorisieren.
+7. Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem ausführbaren Namen** aus, geben Sie den Namen **Teams. exe**ein, und klicken Sie dann auf **weiter**. Mit dieser Einstellung wird die Richtlinie angewiesen, nur den übereinstimmenden Datenverkehr vom Team-Client zu priorisieren.
 
-8. Stellen Sie auf der dritten Seite sicher, dass **alle Quell-IP-Adresse** und **einer beliebigen Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **Weiter**. Diese zwei Einstellungen stellen Sie sicher, dass Pakete verwaltet werden unabhängig vom Computer (IP-Adresse), die die Pakete gesendet, und welchen Computern (IP-Adresse) wird die Pakete empfangen.
+8. Stellen Sie auf der dritten Seite sicher, dass sowohl **eine Quell-** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt ist, und klicken Sie dann auf **weiter**. Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, auf welchem Computer (IP-Adresse) die Pakete gesendet werden und auf welchem Computer (IP-Adresse) die Pakete empfangen werden.
 
-9. Wählen Sie auf Seite vier **TCP und UDP** aus der Dropdownliste **Wählen Sie das Protokoll, dem diese QoS-Richtlinie angewendet wird** . TCP (Transmission Control Protocol) und UDP (User Datagram Protocol) werden die am häufigsten verwendeten zwei Netzwerkprotokollen.
+9. Wählen Sie auf Seite 4 **TCP und UDP** aus der Dropdownliste **Wählen Sie das Protokoll aus, auf das diese QoS-Richtlinie angewendet werden soll** . TCP (Transmission Control Protocol) und UDP (User Datagram Protocol) sind die beiden am häufigsten verwendeten Netzwerkprotokolle.
 
-10. Wählen Sie unter der Überschrift **Geben Sie die Quellportnummer** **aus dieser Quellport oder der Bereich**. Geben Sie in das Textfeld zugehörige den Portbereich für audio Übertragungen reserviert. Angenommen, wenn Sie Ports 50000 über Ports 50019 für audio-Datenverkehr reserviert ist, geben Sie den Portbereich, der mit diesem Format: **50000:50019**. Klicken Sie auf **Fertig stellen**.
+10. Wählen Sie unter der Überschrift **die Quellportnummer**aus, und wählen Sie **aus diesem Quell Port oder-Bereich aus**. Geben Sie im Feld Begleittext den Portbereich ein, der für Audioübertragungen reserviert ist. Wenn Sie beispielsweise Ports 50000 über Ports 50019 für den Audioverkehr reserviert haben, geben Sie den Portbereich mit folgendem Format ein: **50000:50019**. Klicken Sie auf **Fertig stellen**.
 
-11. Wiederholen Sie die Schritte 5 bis 10, um Richtlinien für Video und Anwendung/Desktop freigeben, ersetzen die entsprechenden Werte in Schritt 6 und 10 zu erstellen.
+11. Wiederholen Sie die Schritte 5-10, um Richtlinien für die Video-und Anwendungs-und Desktop Freigabe zu erstellen und die entsprechenden Werte in den Schritten 6 und 10 zu ersetzen.
 
-Die neuen Richtlinien, die von die Ihnen erstellten werden nicht erst wirksam, Gruppenrichtlinien auf den Clientcomputern aktualisiert wurde. Obwohl Gruppenrichtlinien allein in regelmäßigen Abständen aktualisiert wurde, können Sie eine sofortige Aktualisierung erzwingen, durch die folgenden Schritte ausführen:
+Die neu erstellten Richtlinien werden erst wirksam, nachdem die Gruppenrichtlinien auf Ihren Clientcomputern aktualisiert wurden. Obwohl Gruppenrichtlinien regelmäßig für sich selbst aktualisiert werden, können Sie eine sofortige Aktualisierung erzwingen, indem Sie die folgenden Schritte ausführen:
 
-1. Öffnen Sie auf jedem Computer, für die Sie die Gruppenrichtlinie aktualisieren möchten eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
+1. Öffnen Sie auf jedem Computer, für den Sie die Gruppenrichtlinie aktualisieren möchten, eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole auf als Administrator ausführen festgesetzt ist.
 
-2. Geben Sie an der Befehlszeile
+2. Geben Sie an der Eingabeaufforderung Folgendes ein:
 
    ``` powershell
     gpupdate.exe /force
    ```
 
-## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Überprüfen Sie die DSCP-Auswahlmöglichkeiten in das Gruppenrichtlinienobjekt
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Überprüfen von DSCP-Markierungen im Gruppenrichtlinienobjekt
 
-Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus dem Gruppenrichtlinienobjekt festgelegt wurden.
+Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem Gruppenrichtlinienobjekt festgesetzt wurden.
 
-1. Öffnen Sie eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
+1. Öffnen Sie eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole auf als Administrator ausführen festgesetzt ist.
 
-2. Geben Sie an der Befehlszeile Folgendes ein:
+2. Geben Sie an der Eingabeaufforderung Folgendes ein:
 
    ``` powershell
    gpresult /R > gp.txt
    ```
 
-   Dies einen Bericht generiert und in eine Textdatei mit dem Namen gp.txt zu senden. Alternativ können Sie den folgenden Befehl aus, um die gleichen Daten in einem besser lesbar HTML-Bericht mit dem Namen gp.html zu erzeugen eingeben:
+   Dadurch wird ein Bericht generiert und an eine Textdatei mit dem Namen "GP. txt" gesendet. Alternativ können Sie den folgenden Befehl eingeben, um dieselben Daten in einem besser lesbaren HTML-Bericht mit dem Namen "GP. html" zu erstellen:
 
    ``` powershell
    gpresult /H >gp.html
    ```
 
-   ![Screenshot des Konsolenfenster des Befehls Gpresult.] (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfenster des Befehls Gpresult.")
+   ![Screenshot des Konsolenfensters mit dem Befehl "Gpresult] " (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfensters mit dem Befehl \"Gpresult") "
 
-3. Suchen Sie in der generierten Datei nach der Überschrift **Gruppenrichtlinienobjekte angewendet** , und stellen Sie sicher, dass die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der Richtlinien angewendet werden.
+3. Suchen Sie in der generierten Datei nach der Überschrift **angewendete Gruppenrichtlinienobjekte** , und überprüfen Sie, ob die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der angewendeten Richtlinien aufgeführt sind.
 
 4. Öffnen Sie den Registrierungs-Editor, und wechseln Sie zu:
 
    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-   Überprüfen Sie die Werte für die in Tabelle 4 aufgeführten Registrierungseinträge.
+   Überprüfen Sie die Werte für die Registrierungseinträge, die in Tabelle 4 aufgeführt sind.
 
-   _In Tabelle 4. Werte für Windows-Registrierungseinträge für QoS_
+   _Tabelle 4. Werte für Windows-Registrierungseinträge für QoS_
 
    |          Name          |  Typ  |    Daten     |
    |         :---:          |:---:   |    :---:    |
@@ -114,4 +115,4 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus d
    |      Remote Port       | REG_SZ |     \*      |
    |     Throttle Rate      | REG_SZ |     -1      |
 
-5. Stellen Sie sicher, dass der Wert für den Anwendungsnamen-Eintrag für den Client korrekt ist, den Sie verwenden, und stellen Sie sicher, dass sowohl die DSCP-Wert und der lokalen Port Einträge die Einstellungen in das Gruppenrichtlinienobjekt aktualisiert.
+5. Überprüfen Sie, ob der Wert für den Anwendungsnamen Eintrag für den verwendeten Client richtig ist, und überprüfen Sie, ob der DSCP-Wert und die lokalen Port Einträge die Einstellungen im Gruppenrichtlinienobjekt widerspiegeln.

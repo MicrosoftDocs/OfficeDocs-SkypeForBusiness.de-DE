@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Informationen Sie zum Erstellen und Einrichten von netzwerkregionen, Standorten und Subnetzen für standortbasierte Routing zum direkten weiterleiten.
+description: Hier erfahren Sie, wie Sie netzwerkregionen,-Standorte und-Subnetze für standortbasiertes Routing für das direkte Routing erstellen und einrichten.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,76 +17,76 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222363"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245106"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Wenn Sie noch nicht haben lesen [Plan Location-Based Routing für das direkte Routing getan](location-based-routing-plan.md) , um weitere Schritte überprüfen müssen Sie ergreifen, bevor Sie Netzwerkeinstellungen für standortbasierte Routing konfigurieren.
+Wenn Sie dies noch nicht getan haben, lesen Sie [Planen des ortsbasierten Routings für das direkte Routing](location-based-routing-plan.md) , um weitere Schritte zu überprüfen, die Sie ausführen müssen, bevor Sie die Netzwerkeinstellungen für standortbasiertes Routing konfigurieren.
 
-In diesem Artikel wird beschrieben, wie Netzwerk für standortbasierte Routing konfigurieren. Nach der Bereitstellung von Telefon System direkten Routing in Ihrer Organisation sind die nächsten Schritte zum Erstellen und Einrichten von netzwerkregionen, Netzwerkstandorten und Netzwerksubnetzen. Um die Schritte in diesem Artikel ausführen zu können, benötigen Sie einige gute Kenntnisse im Umgang mit PowerShell-Cmdlets. Weitere Informationen finden Sie unter [Teams PowerShell (Übersicht)](teams-powershell-overview.md).
+In diesem Artikel wird beschrieben, wie Sie Netzwerkeinstellungen für standortbasiertes Routing konfigurieren. Nachdem Sie die direkte Weiterleitung des Telefonsystems in Ihrer Organisation bereitgestellt haben, besteht der nächste Schritt darin, netzwerkregionen, Netzwerk Websites und Netzwerk-Subnets zu erstellen und einzurichten. Um die Schritte in diesem Artikel ausführen zu können, müssen Sie sich mit PowerShell-Cmdlets vertraut machen. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Definieren von netzwerkregionen
- Eine netzwerkregion sind die verschiedenen Teile eines Netzwerks über mehrere geografische Bereiche. Verwenden Sie das Cmdlet " [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) ", um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter RegionID ein logischer Name der Region des Bereichs darstellt und hat keine Abhängigkeiten oder Einschränkungen und der CentralSite &lt;site-ID&gt; Parameter ist optional. 
+ Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Verwenden Sie das Cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) , um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter "Regions-ID" ein logischer Name ist, der die Geographie des Bereichs darstellt &lt;und keine&gt; Abhängigkeiten oder Einschränkungen aufweist, und der CentralSite-Parameter der Website-ID optional ist. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-In diesem Beispiel erstellen wir eine netzwerkregion, die mit dem Namen Indien. 
+In diesem Beispiel erstellen wir eine netzwerkregion mit dem Namen Indien. 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-## <a name="define-network-sites"></a>Definieren von Netzwerkstandorten
+## <a name="define-network-sites"></a>Definieren von Netzwerk Websites
 
-Verwenden Sie das [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) -Cmdlet, um Netzwerkstandorte zu definieren. 
+Verwenden Sie das Cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) , um Netzwerk Websites zu definieren. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
-In diesem Beispiel erstellen wir zwei neue Netzwerkstandorte Delhi und Hyderabad, in dem Bereich Indien. 
+In diesem Beispiel erstellen wir zwei neue Netzwerkstandorte, Delhi und Hyderabad, in der Region Indien. 
 ```
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
 ```
-Die folgende Tabelle zeigt der Netzwerkstandorte, die in diesem Beispiel definiert. 
+In der folgenden Tabelle sind die Netzwerk Websites aufgeführt, die in diesem Beispiel definiert sind. 
 
-||Standort 1 |Standort 2 |
+||Website 1 |Website 2 |
 |---------|---------|---------|
-|Site-ID    |    Website 1 (Delhi)     |  Standort 2 (Hyderabad)       |
-|Bereichs-ID  |     Region 1 (Indien)    |   Region 1 (Indien)      |
+|Website-ID    |    Website 1 (Delhi)     |  Website 2 (Hyderabad)       |
+|Regions-ID  |     Region 1 (Indien)    |   Region 1 (Indien)      |
 
-## <a name="define-network-subnets"></a>Definieren von Netzwerksubnetzen
+## <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Verwenden Sie das Cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) von Netzwerksubnetzen definieren und diese zu Netzwerkstandorten zuordnen. Jeder internen Subnetz kann nur einem einzigen Standort zugeordnet werden. 
+Verwenden Sie das Cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) , um Netzwerk-Subnetze zu definieren und Sie den Netzwerkstandorten zuzuordnen. Jedes interne Subnetz kann nur einer Website zugeordnet werden. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-In diesem Beispiel erstellen wir eine Zuordnung zwischen Subnetz 192.168.0.0 und dem Netzwerkstandort Delhi und zwischen Subnetz 192.168.1.0 und dem Netzwerkstandort Hyderabad.
+In diesem Beispiel erstellen wir eine Zuordnung zwischen Subnetz-192.168.0.0 und der Delhi-Netzwerk Website und zwischen Subnetz 2001:4898: E8:25:844E: 926f: 85ad: dd8e und der Hyderabad-Netzwerk Website.
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
+New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
 ```
-Die folgende Tabelle zeigt die Subnetze in diesem Beispiel definiert. 
+In der folgenden Tabelle sind die in diesem Beispiel definierten Subnets aufgeführt. 
 
-||Standort 1 |Standort 2 |
+||Website 1 |Website 2 |
 |---------|---------|---------|
-|Subnetz-ID   |    192.168.0.0     |  192.168.1.0     |
-|Maske  |     24    |   24      |
-|Site-ID  | Website (Delhi) | Standort 2 (Hyderabad) |
+|Subnet-ID   |    192.168.0.0     |  2001:4898: E8:25:844E: 926f: 85ad: dd8e     |
+|Format  |     24    |   120      |
+|Website-ID  | Website (Delhi) | Website 2 (Hyderabad) |
 
-Für mehrere Subnetze können Sie eine CSV-Datei mithilfe eines Skripts wie die folgenden importieren.
+Bei mehreren Subnetzen können Sie eine CSV-Datei mit einem Skript wie dem folgenden importieren.
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-In diesem Beispiel sieht die CSV-Datei etwa so aussehen:
+In diesem Beispiel sieht die CSV-Datei etwa wie folgt aus:
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 
@@ -93,18 +94,18 @@ Identity, Mask, SiteID
 172.11.14.0, 25, Vancouver 
 172.11.15.0, 28, Paris
 ```
-## <a name="define-external-subnets"></a>Definieren der externen Subnetze
-Verwenden Sie das Cmdlet " [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) " zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
+## <a name="define-external-subnets"></a>Definieren externer Subnetze
+Verwenden Sie das Cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) , um externe Subnetze zu definieren und dem Mandanten zuzuweisen. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Beispiel:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Nächste Schritte
-Wechseln Sie zur [speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md).
+Wechseln Sie zum [Aktivieren des ortsbasierten Routings für das direkte Routing](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
 - [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)

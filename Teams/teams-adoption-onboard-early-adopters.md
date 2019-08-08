@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie für die Testphase der Einführung von Teams Early Adopters aus, und sammeln Sie dann Feedback für Ihr Projekt.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548757"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242305"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 

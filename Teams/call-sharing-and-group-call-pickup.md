@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Mit der Anruf Freigabe und der Gruppenanruf-Pickup können Benutzer eingehende Anrufe an Kollegen weiterleiten, damit Anrufe aufgenommen werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283479"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237164"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -48,11 +48,13 @@ Um die Gruppenanruf Abholung einzurichten, konfiguriert ein Benutzer zuerst eine
 
 Anrufgruppen Erstellung und Benachrichtigungseinstellungen sind benutzergesteuerte Funktionen. Administratoren müssen diese Features nicht für Ihre Benutzer konfigurieren. Anrufgruppen können nicht aus Sicherheitsgruppen oder Office 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
 
-Administratoren sollten Anrufgruppen über die TeamsCallingPolicy- **AllowCallGroups** -Einstellung für einen Benutzer aktivieren. Administratoren können nur steuern, ob dieser Benutzer Anrufgruppen konfigurieren kann. Sobald das Bit auf "true" festgelegt ist, können Administratoren den Benutzer nicht daran hindern, die Benutzer der anrufgruppe Ihrer Wahl zu konfigurieren und hinzuzufügen.
+Administratoren sollten Anrufgruppen über die TeamsCallingPolicy- **AllowCallGroups** -Einstellung für einen Benutzer aktivieren. Administratoren können dies auch über das Team-Administratorportal aktivieren.  Darüber hinaus kann der konfigurierte Benutzer seine Anrufgruppen auch direkt über den Client konfigurieren. Administratoren oder Endbenutzer können die Konfiguration nicht voneinander blockieren, aber Teams-Administratorportal und Teams-Client sollten diese Beziehung an beiden Stellen genau anzeigen. 
+
+Wichtig: Wenn Administratoren Anrufgruppen für Benutzer deaktivieren (nachdem Sie aktiviert wurde und die Anrufgruppen Beziehungen konfiguriert sind), müssen die Administratoren die Anrufgruppen Beziehungen für Benutzer im Team Admin Center bereinigen, um ein fehlerhaftes Anrufrouting zu vermeiden. 
 
 ## <a name="limitations"></a>Einschränkungen
 
-Ein Mandant kann maximal 32.768 Anrufgruppen enthalten. In jeder anrufgruppe können maximal 5 Benutzer vorhanden sein. 
+Ein Mandant kann maximal 32.768 Anrufgruppen enthalten. In jeder anrufgruppe können maximal 25 Benutzer vorhanden sein. 
 
 ## <a name="more-information"></a>Weitere Informationen
 

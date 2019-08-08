@@ -14,16 +14,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.meetingsettings.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062387"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236560"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 

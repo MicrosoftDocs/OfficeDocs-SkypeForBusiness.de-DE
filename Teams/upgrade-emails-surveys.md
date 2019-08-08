@@ -1,34 +1,35 @@
 ---
-title: Microsoft-Teams Übergang-e-Mails und Umfragen | Basis-Upgrade
+title: Microsoft Teams-Übergangs-e-Mails und-Umfragen | Einfaches Upgrade
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Beispiel-e-Mails und Umfragen in Conjunciton mit der beschleunigten zehn-Schritt-Aktion verwenden, Planen für das Upgrade von Skype für Unternehmen, die Teams
+audience: admin
+description: Beispiel-e-Mails und-Umfragen zur Verwendung in conjunciton mit dem beschleunigten zehnstufigen Aktionsplan für das Upgrade von Skype for Business auf Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920366"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236387"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-e-Mails und Umfragen für grundlegende Upgrade-Kommunikation
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-e-Mails und-Umfragen für Upgrade Basic Communications
 
 ## <a name="sample-emails"></a>Beispiel-e-Mails
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>Beteiligten e-Mails, die für Schritt 1
+### <a name="stakeholder-email-for-step-1"></a>E-Mail-Adresse für Stakeholder für Schritt 1
 
 Betreffzeile:
 
@@ -36,7 +37,7 @@ Betreffzeile:
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -50,7 +51,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Benachrichtigen Sie Benutzer-e-Mail, Schritt 4
+### <a name="notify-users-email-for-step-4"></a>Benachrichtigen von Benutzern per e-Mail, für Schritt 4
 
 Betreffzeile:
 
@@ -58,7 +59,7 @@ Betreffzeile:
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -79,15 +80,15 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Erinnern Sie die Benutzer-e-Mail, Schritt 6
+### <a name="remind-users-email-for-step-6"></a>Benutzer an e-Mail erinnern, für Schritt 6
 
-Betreffzeile: Erinnerung: machen Sie sich bereit für das Upgrade auf Teams
+Betreffzeile: Erinnerung: bereiten Sie sich auf Ihr Upgrade für Teams vor
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -110,7 +111,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Willkommen bei den Benutzer e-Mail-Nachrichten von der executive Sponsor, von Schritt 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Willkommene Benutzer-e-Mail vom Executive-Sponsor für Schritt 7
 
 Betreffzeile:
 
@@ -118,7 +119,7 @@ Betreffzeile:
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -145,7 +146,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>Einchecken-e-Mail, Schritt 9
+### <a name="check-in-email-for-step-9"></a>E-Mail-Eincheckvorgang für Schritt 9
 
 Betreffzeile:
 
@@ -153,7 +154,7 @@ Betreffzeile:
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -167,7 +168,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>E-Mail an Benutzer dazu auffordern, Teams und Kanäle für Schritt 10 auszuprobieren,
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>E-Mail-Adresse, um Benutzer zu bitten, Teams und Kanäle zu versuchen, für Schritt 10
 
 Betreffzeile:
 
@@ -175,7 +176,7 @@ Betreffzeile:
 CALL TO ACTION: Give teams and channels a try
 ```
 
-E-Mail-Text:
+Textkörper der e-Mail:
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -198,29 +199,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Beispielumfragen
 
-Geben Sie an, wie geübt Sie befinden sich in die folgenden Aktivitäten ausführen Teams und befinden sich eine oder mehrere Aktivitäten, denen Sie weitere Informationen zu finden möchten.
+Geben Sie an, wie kompetent Sie bei der Durchführung der folgenden Aktivitäten in Teams sind, und ob es mindestens eine Aktivität gibt, über die Sie mehr erfahren möchten.
 
-| &nbsp; | Sehr geübt | Etwas geübt | Überhaupt nicht geübt | Möchten Sie mehr erfahren | Nicht zutreffend | Nicht sicher/nicht vertraut | | | | |
+| &nbsp; | Sehr kompetent | Etwas geschickt | Überhaupt nicht qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Verwenden von Teams für Sofortnachrichten/chatten mit anderen Personen | | | | | | | | | | |
-| Verwenden des Teams für onlinebesprechungen | | | | | | | | | | |
-| Verwenden des Teams für die Zusammenarbeit (Teams und Kanäle) | | | | | | | | | | |
-| Verwenden von Teams auf dem mobilen Gerät | | | | | | | | | | |
+| Verwenden von Teams für Chats und Chats mit anderen Personen | | | | | | | | | | |
+| Verwenden von Teams für Onlinebesprechungen | | | | | | | | | | |
+| Verwenden von Teams für die Zusammenarbeit (Teams und Kanäle) | | | | | | | | | | |
+| Verwenden von Teams auf meinem mobilen Gerät | | | | | | | | | | |
 
-| **Hält was geschieht, wenn beliebig, Sie mithilfe von Microsoft-Teams?** | **Wählen Sie alle zutreffenden** |
+| **Was, wenn überhaupt, hindert Sie daran, Microsoft Teams zu verwenden?** | **Wählen Sie alle zutreffenden aus.** |
 |---|---|
-| Ich habe noch nie davon gehört. | & #9744; |
-| Ich haben nicht auf meinem Computer installiert | & #9744; |
-| Ich verstehe nicht, wie profitieren würden me oder die Personen, denen ich entwickelt | & #9744; |
-| Ich hatte keine Zeit zur Auswertung für meine Anforderungen hatte. | & #9744; |
-| Ich verwende bereits andere Anwendungen, die meine für Kommunikation und Zusammenarbeit Anforderungen | & #9744; |
-| Ich würde vor der Nutzung eine Schulung benötigen. | & #9744; |
-| Ich habe versucht, es zu verwenden sind, aber technischen Problemen oder eine schlechte Erfahrung | & #9744; |
-| Unsere Helpdesk konnte nicht mir mit Meine Fragen helfen. | & #9744; |
-| Nichts, ich derzeit verwenden | & #9744; |
-| Andere (Bitte angeben) | & #9744; |
+| Ich habe noch nie davon gehört | &#9744; |
+| Ich habe es auf meinem Computer nicht installiert | &#9744; |
+| Ich verstehe nicht, wie ich oder die Personen, mit denen ich arbeite, davon profitieren würden | &#9744; |
+| Ich habe keine Zeit gehabt, es für meine Bedürfnisse zu bewerten | &#9744; |
+| Ich verwende bereits andere Anwendungen, die meinen Anforderungen für Kommunikation und Zusammenarbeit entsprechen. | &#9744; |
+| Ich würde vor der Verwendung eine Schulung benötigen | &#9744; |
+| Ich habe versucht, es zu verwenden, hatte aber technische Probleme oder eine schlechte Erfahrung. | &#9744; |
+| Unser Support-Desk konnte mir bei meinen Fragen nicht helfen | &#9744; |
+| Nichts, ich verwende es derzeit | &#9744; |
+| Sonstiges (bitte angeben) | &#9744; |
 
-**Wie wahrscheinlich ist es Sie Microsoft-Teams an einen Freund/Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)**
+**Wie wahrscheinlich ist es, dass Sie Microsoft Teams einem Freund/Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = äußerst wahrscheinlich)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

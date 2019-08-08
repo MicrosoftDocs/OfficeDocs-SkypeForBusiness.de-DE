@@ -7,20 +7,21 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Befolgen Sie die grundlegenden Aufgaben und Aktivitäten in dieser Checkliste, wenn Sie Ihr Netzwerk für Teams konfigurieren.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885e483c6f0c2d79f850cdb78ff401cef15ff3a7
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 2a9a8c6eb4c015a1fc86f35fac72117766cab326
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198245"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238507"
 ---
 # <a name="configure-networking"></a>Netzwerk konfigurieren
 

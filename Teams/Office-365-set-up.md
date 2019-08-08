@@ -7,22 +7,23 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Erfahren Sie, wie Microsoft-Teams für Office 365-Organisation zu aktivieren.
+audience: admin
+description: Hier erfahren Sie, wie Sie Microsoft Teams für Ihre Office 365-Organisation aktivieren.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180129"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245830"
 ---
 # <a name="enable-teams-in-your-organization"></a>Aktivieren von Teams in Ihrer Organisation
 
@@ -32,7 +33,7 @@ ms.locfileid: "32180129"
 Microsoft Teams ist standardmäßig für alle Organisationen aktiviert. Wenn Sie Microsoft Teams im Vorschauzeitraum verwendet haben, bleibt die Einstellung erhalten, die Sie in der Microsoft Teams-Vorschau festgelegt haben. 
 
 
-Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für einzelne Teams Zugriffsteuerung zuweisen, und können Sie zulassen oder blockieren, welche Inhaltsquellen in Teams verwendet werden können. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für die Organisation](enable-features-office-365.md) oder [administratoreinstellung für apps im Microsoft-Teams](admin-settings.md) . 
+Als Administrator für Ihre Organisation können Sie Benutzerlizenzen zuweisen, um den individuellen Zugriff auf Teams zu steuern, und Sie können zulassen oder blockieren, welche Inhaltsquellen in Teams verwendet werden können. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md) oder [Administratoreinstellungen für apps in Microsoft Teams](admin-settings.md) . 
 
 
  

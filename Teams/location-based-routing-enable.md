@@ -7,8 +7,9 @@ ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
-description: Erfahren Sie, wie speicherortbasierte Routing für die direkte Weiterleitung zu aktivieren.
+description: Hier erfahren Sie, wie Sie standortbasiertes Routing für direktes Routing aktivieren.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,30 +17,30 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245254"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245128"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, stellen Sie sicher, Sie [Plan Location-Based Routing für das direkte Routing](location-based-routing-plan.md) gelesen und die Schritte unter [Configure Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)abgeschlossen haben.
+Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, stellen Sie sicher, dass Sie den [Plan standortbasiertes Routing für das direkte Routing](location-based-routing-plan.md) gelesen haben, und führen Sie die Schritte unter [Konfigurieren von Netzwerkeinstellungen für standortbasiertes Routing](location-based-routing-configure-network-settings.md)aus.
 
-In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die direkte Weiterleitung zu aktivieren. Nachdem Sie Phone System direkten Routing bereitstellen und von netzwerkregionen, Standorten und Subnetzen einrichten, können Sie standortbasierte Routing zu aktivieren. Um die Schritte in diesem Artikel ausführen zu können, benötigen Sie einige gute Kenntnisse im Umgang mit PowerShell-Cmdlets. Weitere Informationen finden Sie unter [Teams PowerShell (Übersicht)](teams-powershell-overview.md).
+In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direkte Routing aktiviert wird. Nachdem Sie das direkte Routing für das Telefon System bereitgestellt und netzwerkregionen,-Standorte und-Subnetze eingerichtet haben, können Sie das standortbasierte Routing aktivieren. Um die Schritte in diesem Artikel ausführen zu können, müssen Sie sich mit PowerShell-Cmdlets vertraut machen. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
 
- Sie müssen den speicherortbasierte Routing für Folgendes aktivieren:
+ Sie müssen standortbasiertes Routing für Folgendes aktivieren:
 - Nutzer
-- Netzwerkstandorte
+- Netzwerk Websites
 - Gateway-Konfigurationen
-- Aufrufen von Richtlinien
+- Anruf Richtlinien
 
-## <a name="enable-location-based-routing-for-users"></a>Speicherortbasierte Routing für Benutzer aktivieren
+## <a name="enable-location-based-routing-for-users"></a>Aktivieren des standortbasierten Routings für Benutzer
 
-1. Verwenden Sie das [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) -Cmdlet, um PSTN-Verwendungen festzulegen. Trennen Sie mehrere Verwendungen jeder Verwendung durch ein Komma.
+1. Verwenden Sie das Cmdlet " [Satz-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) ", um die PSTN-Verwendung festzulegen. Für mehrere Verwendungen trennen Sie jede Verwendung durch ein Komma.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,81 +49,81 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Verwenden Sie das Cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) zum Erstellen einer VoIP-Routingrichtlinie, um den Benutzer mit den entsprechenden PSTN-Verwendungen verknüpfen.
+2. Verwenden Sie das Cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) , um eine VoIP-Routing Richtlinie zu erstellen, um den Benutzer mit den entsprechenden PSTN-Verwendungen zu verknüpfen.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
-    Wenn Sie eine VoIP-Routingrichtlinie mit PSTN-Verwendungen zuweisen, stellen Sie sicher, dass Sie einen der folgenden Schritte ausführen:
-    - Verwenden von PSTN-Verwendungen, die VoIP-Routen, mit denen ein PSTN-Gateway lokalen zu der Website zugeordnet sind
-    - Verwenden Sie die PSTN-Verwendungen, VoIP-Routen, die ein PSTN-Gateway befindet sich in einem Bereich, in dem Routing speicherortbasierte Einschränkungen nicht benötigte, verwenden zugeordnet ist.
+    Wenn Sie einer VoIP-Routing Richtlinie PSTN-Nutzungen zuweisen, stellen Sie sicher, dass Sie eine der folgenden Aktionen ausführen:
+    - Verwenden von PSTN-Nutzungen, die VoIP-Routen zugeordnet sind, die ein lokales PSTN-Gateway für die Website verwenden
+    - Verwenden Sie PSTN-Nutzungen für VoIP-Routen, die ein PSTN-Gateway verwenden, das sich in einer Region befindet, in der standortbasierte Routing Einschränkungen nicht erforderlich sind.
 
-    In diesem Beispiel werden zwei neue VoIP-Routingrichtlinien erstellen und PSTN-Verwendungen zuweisen. 
+    In diesem Beispiel erstellen wir zwei neue VoIP-Routing Richtlinien und weisen Ihnen PSTN-Nutzungen zu. 
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
-    In der folgenden Tabelle zeigt die in diesem Beispiel definierten VoIP-Routingrichtlinien zurückgegeben. 
+    In der folgenden Tabelle sind die in diesem Beispiel definierten VoIP-Routing Richtlinien aufgeführt. 
     
-    ||VoIP-routing-Richtlinie 1|VoIP-routing-Richtlinie 2|
+    ||VoIP-Routing Richtlinie 1|VoIP-Routing Richtlinie 2|
     |---------|---------|---------|
-    |Online VoIP-Richtlinien-ID   |Delhi online VoIP-routing-Richtlinie   |Hyderabad online VoIP-routing-Richtlinie    |
-    |Online PSTN-Verwendungen  |Ferngespräche  |Long Distance, lokale, interne  |
+    |Online-VoIP-Richtlinien-ID   |Delhi Online-VoIP-Routing Richtlinie   |Hyderabad Online-VoIP-Routing Richtlinie    |
+    |Online PSTN-Nutzungen  |Ferngespräche  |Fern-, Orts-, binnen-und fern-  |
 
-3. Verwenden Sie das Cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) online VoIP-Routingrichtlinien zurückgegeben Benutzern zuordnen, die benötigen routing Einschränkungen erzwungen werden.
+3. Verwenden Sie das Cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) , um Benutzern, die Routing Einschränkungen erfordern, das Erzwingen von Online-VoIP-Routing Richtlinien zuzuordnen.
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>Speicherortbasierte Routing für Netzwerkstandorte aktivieren
-1.  Verwenden Sie das Cmdlet [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) speicherortbasierte Routing aktivieren und Zuordnen von VoIP-Routingrichtlinien zurückgegeben zu Netzwerkstandorten, die routing Einschränkungen erzwingen müssen.
+## <a name="enable-location-based-routing-for-network-sites"></a>Aktivieren des standortbasierten Routings für Netzwerk Websites
+1.  Verwenden Sie das Cmdlet " [festlegen-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) ", um standortbasiertes Routing zu aktivieren und Ihren Netzwerk Websites VoIP-Routing Richtlinien zuzuordnen, die Routing Einschränkungen erzwingen müssen.
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
-    In diesem Beispiel können wir speicherortbasierte Routing für die Delhi und der Hyderabad-Website. 
+    In diesem Beispiel wird standortbasiertes Routing für die Delhi-Website und die Hyderabad-Website aktiviert. 
 
     ```
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    Die folgende Tabelle zeigt die Websites für standortbasierte Routing in diesem Beispiel wird aktiviert.
+    In der folgenden Tabelle sind die Websites aufgeführt, die in diesem Beispiel für standortbasiertes Routing aktiviert sind.
 
-    ||Website 1 (Delhi)  |Standort 2 (Hyderabad)  |
+    ||Website 1 (Delhi)  |Website 2 (Hyderabad)  |
     |---------|---------|---------|
-|Standortname    |Website 1 (Delhi)    |Standort 2 (Hyderabad)   
+|Standortname    |Website 1 (Delhi)    |Website 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
     |Subnetze     |Subnetz 1 (Delhi)     |Subnetz 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>Aktivieren Sie standortbasierte Routing für gateways
-1. Verwenden Sie das Cmdlet " [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) " So erstellen Sie eine Gatewaykonfiguration für jeden Standort Gateway oder Netzwerk. 
+## <a name="enable-location-based-routing-for-gateways"></a>Aktivieren des standortbasierten Routings für Gateways
+1. Verwenden Sie das Cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) , um eine Gateway-Konfiguration für jede Gateway-oder Netzwerk Website zu erstellen. 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
-    Wenn mehrere Gateways mit einem System (beispielsweise Gateway oder PBX) verbunden sind, ändern Sie jedes Gateway, um Einschränkungen speicherortbasierte Routing zu aktivieren. 
+    Wenn einem System mehrere Gateways zugeordnet sind (beispielsweise Gateway oder Telefonanlage), ändern Sie die einzelnen Gateways, um standortbasierte Routing Einschränkungen zu ermöglichen. 
 
-    In diesem Beispiel erstellen wir eine Gatewaykonfiguration für jedes Gateway. 
+    In diesem Beispiel erstellen wir für jedes Gateway eine Gateway-Konfiguration. 
     ```
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
-    Weitere Informationen finden Sie unter [Konfigurieren von direkten Routing](direct-routing-configure.md).
+    Weitere Informationen finden Sie unter [Konfigurieren des direkten Routings](direct-routing-configure.md).
     
-2. Verwenden Sie das Cmdlet [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) speicherortbasierte Routing für Ihre-Gateways zu aktivieren, die routing Einschränkungen erzwingen müssen. 
+2. Verwenden Sie das Cmdlet " [festlegen-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) ", um standortbasiertes Routing für Ihre Gateways zu aktivieren, die Routing Einschränkungen erzwingen müssen. 
 
-    Aktivieren speicherortbasierte Routing zu Gateways, die Anrufe weiterleiten an PSTN-Gateways, die Anrufe an das Telefonfestnetz weiterleiten, und ordnen Sie den Netzwerkstandort das Gateway gespeichert ist.
+    Aktivieren Sie das standortbasierte Routing für Gateways, die Anrufe an PSTN-Gateways weiterleiten, die Anrufe an das PSTN weiterleiten, und ordnen Sie die Netzwerk Website zu, auf der sich das Gateway befindet.
 
     ```
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    In diesem Beispiel können wir speicherortbasierte Routing für jedes Gateway, das zum PSTN-Gateways an den Standorten Delhi und Hyderabad zugeordnet ist. 
+    In diesem Beispiel aktivieren wir standortbasiertes Routing für jedes Gateway, das PSTN-Gateways in den Websites Delhi und Hyderabad zugeordnet ist. 
     ```
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
-    Aktivieren Sie nicht speicherortbasierte Routing für Gateways, die Anrufe an das Telefonfestnetz weiterleiten nicht. Sie haben jedoch weiterhin das Gateway auf den Netzwerkstandort zuzuordnen, in das System gespeichert ist. Dies ist, da Routing speicherortbasierte Einschränkungen müssen erzwungen werden, die für PSTN-Anrufe erreichen von Endpunkten, die über dieses Gateway verbunden sind. In diesem Beispiel wird nicht speicherortbasierte Routing für jedes Gateway aktiviert, die mit PBX-Systemen auf den Websites Delhi und Hyderabad zugeordnet ist.
+    Aktivieren Sie das standortbasierte Routing nicht für Gateways, die keine Anrufe an das PSTN weiterleiten. Sie müssen das Gateway jedoch weiterhin der Netzwerk Website zuordnen, auf der sich das System befindet. Dies liegt daran, dass standortbasierte Routing Einschränkungen für PSTN-Anrufe erzwungen werden müssen, die Endpunkte erreichen, die über dieses Gateway verbunden sind. In diesem Beispiel ist die standortbasierte Weiterleitung für jedes Gateway, das PBX-Systemen in den Websites Delhi und Hyderabad zugeordnet ist, nicht aktiviert.
 
     ```
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -136,27 +137,27 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
     GatewaySiteLbrEnabled: $false 
     ```
 
-    Endpunkte mit Systemen, die Anrufe an das Telefonfestnetz (beispielsweise eine Nebenstellenanlage (PBX) weitergeleitet werden nicht verbunden werden als Endpunkte des Teams für standortbasierte Routing aktivierten Benutzern ähnliche Einschränkungen haben. Dies bedeutet, dass diese Benutzer tätigen und Entgegennehmen von Anrufen zu und von Teams Benutzer unabhängig vom Standort des Benutzers können. Sie können auch Anrufe tätigen und empfangen zu und von anderen Systemen, die Aufrufe an das PSTN-Netzwerk (beispielsweise einen Endpunkt zu einer anderen Nebenstellenanlage verbunden) unabhängig von den Netzwerkstandort weiterleiten nicht, die das System zugeordnet ist. Speicherortbasierte Routing Bescheide werden alle eingehenden Anrufe, ausgehende Anrufe, Call gehandelt und die anrufweiterleitung, die PSTN-Endgeräten betreffen erhoben. Bei diesen anrufen müssen nur PSTN-Gateways verwenden, die als lokale Systeme dieser definiert sind. 
+    Endpunkte, die mit Systemen verbunden sind, die keine Anrufe an das PSTN (beispielsweise eine Telefonanlage) weiterleiten, weisen ähnliche Einschränkungen wie Endpunkte von Team Benutzern auf, die für standortbasiertes Routing aktiviert sind. Dies bedeutet, dass diese Benutzer unabhängig vom Standort des Benutzers Anrufe an und von Teams-Benutzern tätigen und empfangen können. Sie können auch Anrufe von und zu anderen Systemen tätigen und empfangen, die keine Anrufe an das PSTN-Netzwerk weiterleiten (beispielsweise einen Endpunkt, der mit einer anderen Telefonanlage verbunden ist), und zwar unabhängig von der Netzwerk Website, der das System zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anruf Übertragungen und Anrufweiterleitung, die PSTN-Endpunkte einbeziehen, unterliegen standortbasierten Routing-Erzwingungen. Bei diesen anrufen müssen nur PSTN-Gateways verwendet werden, die für solche Systeme als lokal definiert sind. 
 
-    Die folgende Tabelle enthält die Gateway-Konfiguration der vier Gateways in zwei verschiedenen Netzwerkstandorten: zwei mit PSTN-Gateways und zwei verbunden mit PBX-Systemen verbunden ist. 
+    Die folgende Tabelle zeigt die Gateway-Konfiguration von vier Gateways auf zwei verschiedenen Netzwerkstandorten: zwei mit PSTN-Gateways verbunden und zwei mit PBX-Systemen verbunden. 
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway:Gateway 1 DEL-GW    |    True     |   Website 1 (Delhi)      |
-    |PstnGateway:Gateway 2 HYD-GW     |   True      |      Standort 2 (Hyderabad)   |
-    |DEL PstnGateway:Gateway 3-PBX-Ressource    |    Falsch     |     Website 1 (Delhi)    |
-    |PstnGateway:Gateway 4 HYD-PBX-Ressource    |    Falsch     |    Standort 2 (Hyderabad)     |
+    |PstnGateway: Gateway 1 del-GW    |    True     |   Website 1 (Delhi)      |
+    |PstnGateway: Gateway 2 Hyd-GW     |   True      |      Website 2 (Hyderabad)   |
+    |PstnGateway: Gateway 3 del-PBX    |    Falsch     |     Website 1 (Delhi)    |
+    |PstnGateway: Gateway 4 Hyd-PBX    |    Falsch     |    Website 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>Aktivieren Sie standortbasierte Routing für den Aufruf von Richtlinien
+## <a name="enable-location-based-routing-for-calling-policies"></a>Aktivieren des standortbasierten Routings für Anruf Richtlinien
 
-Zum Erzwingen der speicherortbasierte Routing für bestimmte Benutzer einrichten der Benutzer VoIP-Richtlinie verhindert PTSN gebührenpflichtige umgehen. 
+Wenn Sie ein standortbasiertes Routing für bestimmte Benutzer erzwingen möchten, richten Sie die VoIP-Richtlinie der Benutzer ein, um PTSN Gebühren Umgehung zu verhindern. 
 
-Verwenden Sie das Cmdlet [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) speicherortbasierte routing, indem Sie verhindern, dass PSTN gebührenpflichtige Umgehung aktivieren.
+Verwenden Sie das Cmdlet [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) , um standortbasiertes Routing zu aktivieren, indem Sie die PSTN-Maut Umgehung verhindern.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
-In diesem Beispiel wird verhindert, dass wir PSTN gebührenpflichtige umgangen Benutzer1 Richtlinien aufrufen. 
+In diesem Beispiel verhindern wir die PSTN-Maut Umgehung für von Benutzer1-Anruf Richtlinien. 
 
 ```
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 

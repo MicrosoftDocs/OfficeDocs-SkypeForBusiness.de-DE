@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
+audience: admin
 description: Clientumgebung für Teams und comformance in Koexistenzmodus
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08bc09ac316a41dfe7ff39bc741dbaa514f30044
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 85f74b63f465bd0004e8b9a2ef93c79b00196495
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548653"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243905"
 ---
 <a name="about-upgrade-basic"></a>
 

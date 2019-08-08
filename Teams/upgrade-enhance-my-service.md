@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Regelmäßige Auswertung von Möglichkeiten zur Verbesserung des Teams-Diensts nach dem Upgrade überwachen Sie die Roadmap für Teams auf interessante Funktionsverbesserungen.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3a577f3d43e3eb6942a5fdd1d704a74adfc0b67
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548517"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236456"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
 

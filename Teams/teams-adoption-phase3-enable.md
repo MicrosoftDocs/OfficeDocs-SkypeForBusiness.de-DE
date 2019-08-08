@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die umfassende Aktivierung von Teams für Ihre Organisation unterstützen.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237838"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams-Einführungsphase 3 – Skalieren
 
@@ -35,6 +35,6 @@ In dieser Phase verwenden Sie Ihre Lernenden, talentierten Projektteams und Bezi
 5. Entwerfen und starten Sie ein Schulungsprogramm.
 6. Grundlegendes zu Berichtstools
 7. Vorbereiten des laufenden geschäftlichen Engagements
-8. Vorbereiten der laufenden Dienststatus-& Adoptions Bewertungen.
+8. Vorbereiten der laufenden Dienst Integrität #a0 Akzeptanz Bewertungen.
 
 ![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)

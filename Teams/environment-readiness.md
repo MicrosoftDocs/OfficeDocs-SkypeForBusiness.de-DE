@@ -6,30 +6,31 @@ manager: serdars
 ms.date: 5/11/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dansteve
 description: Hier erfahren Sie, auf was Sie achten müssen, wenn Sie die Bereitschaft Ihrer Umgebung für Microsoft Teams überprüfen.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1794b87beb1c6b1f1e499c214cde8d3e0b9b0a34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c0609efd8ac0286857b44996939378e57ce2702f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235405"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234921"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams
 ===========================================
 
 Der Übergang zur Cloud verläuft bei jeder Organisation anders, und der aktuelle Zustand kann sich auf die Funktionsweise von Microsoft Teams auswirken.
 
-Bildungseinrichtungen werden vor der Bereitstellung von Microsoft-Teams, dringend empfohlen, [Schule Daten Sync bereitstellen](https://docs.microsoft.com/schooldatasync/) . Schule Daten Sync verwendet Ihre Schule SIS Teilnehmerliste Daten Klassen und Gruppen automatisch für Microsoft-Teams und andere Anwendungen zu erstellen.
+Bildungseinrichtungen werden dringend ermutigt, [School Data Sync bereitzustellen](https://docs.microsoft.com/schooldatasync/) , bevor Sie Microsoft Teams bereitstellen. School Data Sync verwendet die SIS-Dienstplan Daten Ihrer Schule, um automatisch Klassen und Gruppen für Microsoft Teams und andere Anwendungen zu erstellen.
 
-Rufen Sie die beste Erfahrung Teams Ihrer Organisation muss Exchange Online und SharePoint Online bereitgestellt worden sein. Sie müssen außerdem sicherstellen, dass Ihre aktuelle Umgebung für Teams bereit ist.  Finden Sie unter folgenden Links, um Hilfe:
+Damit Sie die optimale Nutzung von Teams erzielen können, muss Ihre Organisation Exchange Online und SharePoint Online bereitgestellt haben. Darüber hinaus müssen Sie sicherstellen, dass Ihre aktuelle Umgebung für Teams bereit ist.  Weitere Informationen finden Sie unter den folgenden Links:
 
 -   Wenn Ihre Organisation keine Office 365-Arbeitsauslastungen bereitgestellt hat, finden Sie weitere Informationen unter [Erste Schritte mit Office 365 for Business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
@@ -41,6 +42,6 @@ Rufen Sie die beste Erfahrung Teams Ihrer Organisation muss Exchange Online und 
 
 -   Wenn Ihre Organisation nicht über SharePoint Online verfügt, finden Sie weitere Informationen unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Wenn Ihre Organisation eine Bildungseinrichtung ist, und Sie eine Student Informationen System (SIS) verwenden, vor der Bereitstellung von Microsoft-Teams [Schule Daten Sync bereitstellen](https://docs.microsoft.com/schooldatasync/) .
+- Wenn es sich bei Ihrer Organisation um eine Bildungseinrichtung handelt und Sie ein Student Information System (SIS) verwenden, [Stellen Sie School Data Sync bereit](https://docs.microsoft.com/schooldatasync/) , bevor Sie Microsoft Teams bereitstellen.
 
-- Wenn Ihre Organisation einen vorhandenen lokalen Skype für die Bereitstellung von Business Server (oder Lync Server) verfügt, müssen Sie zum Synchronisieren von Ihrem lokalen Verzeichnis mit Office 365 Azure AD-Verbindung konfigurieren.  Weitere Informationen finden Sie unter [Konfigurieren von Azure Active Directory verbinden für Teams und Skype für Unternehmen](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).
+- Wenn Ihre Organisation über eine vorhandene lokale Skype for Business Server (oder lync Server)-Bereitstellung verfügt, müssen Sie Azure AD Connect so konfigurieren, dass Ihr lokales Verzeichnis mit Office 365 synchronisiert wird.  Weitere Informationen finden Sie unter [Konfigurieren von Azure AD Connect für Teams und Skype for Business](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).

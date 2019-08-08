@@ -8,58 +8,58 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245882"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232250"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
-Microsoft-Teams Vorlagen können Sie schnell und einfach Teams durch die Bereitstellung von Einstellungen, Kanäle und vorinstallierte apps einer vordefinierten Vorlage erstellen.
+Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
-Für Unternehmen aus dem Gesundheitswesen können Vorlagen besonders leistungsstarke entsprechen, wie Struktur für Benutzer mit der Verwendung Verwaltungsberichte von Teams am besten effektiv zu nutzen ausgerichtet werden. Vorlagen ermöglichen Administratoren das konsistente Teams in ihrer Organisation bereitstellen. Dieser Artikel ist für Sie, wenn Sie die für die Planung, Bereitstellung und Verwaltung mehrere Teams für Ihre Organisation zuständig sind.
+Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsstark sein, da Sie die Struktur für Benutzer bereitstellen, um sich mit der effektiven Nutzung von Teams auszurichten. Mit Vorlagen können Administratoren auch konsistente Teams in ihren Organisationen bereitstellen. Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer gesamten Gesundheitsorganisation verantwortlich sind.
 
-Wir derzeit bieten zwei ersten Teilnehmer aus dem Gesundheitswesen Vorlagen, die Sie für eine Vielzahl von Situationen nutzen können. Weitere Informationen zu Team finden finden Sie unter Vorlagen im Allgemeinen bitte [Erste Schritte mit Teams Vorlagen](../../get-started-with-teams-templates.md).
+Wir bieten derzeit zwei First Party Healthcare-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](../../get-started-with-teams-templates.md).
 
-## <a name="ward-template"></a>Bezirk-Vorlage
+## <a name="ward-template"></a>Ward-Vorlage
 
-Die Vorlage Bezirk ist für die Kommunikation und Zusammenarbeit innerhalb einer Bezirk, Pod oder Abteilung vorgesehen. Die Vorlage kann verwendet werden, um patientenverwaltungs-als auch Bedarf für den Betrieb von einem Bezirk zu vereinfachen. Beispielsweise Bezirk Ansagen im Kanal *Ankündigungen* gebucht werden und Schichten in *Personal*verwaltet werden können. Wenn Sie zur Optimierung Ihrer Bezirk Vorgänge angezeigt werden, ist dieser Vorlage für Sie.
+Die Ward-Vorlage ist für die Kommunikation und Zusammenarbeit innerhalb einer Station, eines Pod oder einer Abteilung vorgesehen. Die Vorlage kann verwendet werden, um die Patientenverwaltung sowie die betrieblichen Anforderungen einer Station zu vereinfachen. So können beispielsweise Ward-Ankündigungen im *Ankündigungen* -Kanal veröffentlicht werden, und Schichten können in der *Besetzung*verwaltet werden. Wenn Sie Ihre Abteilungen optimieren möchten, ist diese Vorlage für Sie.
 
-|Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
+|Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Bezirk | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Ansagen\* <br> Huddles\* <br> Rundet\* <br> Koordiniertes\* <br> Schulung\* |
+|Healthcare – Ward | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Ankündigungen\* <br> Kauert\* <br> Runden\* <br> Personal\* <br> Ausbildung\* |
 |     | |         |
 
-\*Automatische favorisierte
+\*Automatisch Favoriten
 
-## <a name="hospital-template"></a>Krankenhaus-Vorlage
+## <a name="hospital-template"></a>Vorlage für Krankenhaus
 
-Die Vorlage Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen mehreren Patientenbett einsetzen, folgende und Abteilungen innerhalb einer Krankenhaus vorgesehen. In dieser Vorlage sind mehrere operative Kanäle einschließlich, *Ansagen*, *Custodial*und *Apotheke*enthalten, aber wir auch stellen ein Skript Unterschreitung erweitert die Vorlage mit einer Vielzahl von zusätzlichen Abteilung oder spezielle-centric Kanäle, denen Sie hinzufügen können, löschen aus, oder bearbeiten nach Belieben. Beispielsweise wenn Sie über eine Abteilung *Endokrinologie* , jedoch nicht einen Kanal für *Ophthalmology benötigen*, kann dann das Skript angepasst werden, um einen DDE-Kanal *Endokrinologie* enthalten, und entfernen Sie den Kanal *Ophthalmology* . Es wird empfohlen, diese spezielle oder Bezirk modelliert Kanäle nicht automatisch-favorisierte Benachrichtigung Sättigung vermieden werden. Im Allgemeinen bevorzugten Benutzer alle Kanäle, dass sie relevanten finden.
+Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen mehreren Stationen, Hülsen und Abteilungen innerhalb eines Krankenhauses vorgesehen. In dieser Vorlage sind mehrere operationelle Kanäle enthalten, einschließlich *Ankündigungen*, *Freiheitsentzug*und *Pharmazie*, aber auch ein Skript, das die Vorlage mit einer Reihe weiterer Abteilungen erweitert oder Spezial zentrierte Kanäle, die Sie Ihren Wünschen entsprechend hinzufügen, löschen oder bearbeiten können. Wenn Sie beispielsweise über eine *Endokrinologie* -Abteilung verfügen, aber keinen Kanal für die *Augenheilkunde*benötigen, kann das Skript so angepasst werden, dass es einen *Endokrinologie* -Kanal enthält, und den *Ophthalmologie* -Kanal entfernen. Wir empfehlen, dass diese Spezial-oder Stations modellierten Kanäle nicht automatisch als Favorit festgelegt werden, um eine Benachrichtigungs Sättigung zu vermeiden. Benutzer können in der Regel alle Kanäle, die für Sie relevant sind, als Favoriten festlegen.
 
-|Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
+|Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ansagen\* <br> Beachtung\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
+|Gesundheitswesen – Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ankündigungen\* <br> Compliance\* <br> Freiheits <br> Personalwesen <br> Apotheke |
 | | |  |
 
-\*Automatische favorisierte 
+\*Automatisch Favoriten 
 
-## <a name="how-to-use-first-party-templates"></a>So verwenden Sie die erste Partei-Vorlagen
+## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
 
-Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Textkörper Anforderung von'standard' der oben genannten TemplateIDs.  Weitere Informationen zum Bereitstellen von Vorlagen für Teams, finden im Microsoft Graph- [Artikel über das Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die "Template@odata.Bind"-Eigenschaft im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph- [Artikel zum Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
-> Die Kanäle in der Vorlage werden automatisch unter der Registerkarte "Allgemein" erstellt.
+> Die Kanäle in der Vorlage werden auf der RegisterkarteAllgemein automatisch erstellt.
 
-### <a name="example-hospital-template-extension-script"></a>Beispiel: Krankenhaus Vorlage Erweiterungsskript
+### <a name="example-hospital-template-extension-script"></a>Beispiel: Erweiterungs Skript für Krankenhaus Vorlagen
 
 ``` Powershell
 { 

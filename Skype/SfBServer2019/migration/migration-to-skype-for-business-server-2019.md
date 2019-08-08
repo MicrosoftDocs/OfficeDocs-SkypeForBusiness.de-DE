@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration zu Skype for Business Server 2019.
-ms.openlocfilehash: bd1513e5ca2a33449f982394e4abc15b9616393b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298148"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237772"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration zu Skype for Business Server 2019
 

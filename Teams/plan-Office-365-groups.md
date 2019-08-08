@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Informationen Sie zu den Entscheidungen, die Sie erstellen sollten, bei der Planung für Office 365 Gruppen wie die Auswahl von öffentlichen und privaten Gruppen mithilfe der Client Teams oder der Office 365-Verwaltungskonsole Web und wie Sie Ihren Teams zur Verwendung von Unterhaltungen zu informieren.
+audience: admin
+description: Informieren Sie sich über die Entscheidungen, die Sie bei der Planung für Office 365-Gruppen treffen sollten, wie beispielsweise das auswählen öffentlicher und privater Gruppen, die Verwendung des Teams-Clients oder die Office 365-Administrator-Webkonsole, und erfahren Sie, wie Sie Ihre Teams über die Verwendung von Unterhaltungen
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: b23525181de02cfe8498aa68db5c6c34e9feaded
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835015"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237433"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -29,9 +30,9 @@ Berücksichtigen Sie bei Ihren Überlegungen zur Verwendung von Office 365-Grup
 
 Es gibt zwei Szenarien im Zusammenhang mit der Planung von Office 365-Gruppen und ihren Auswirkungen auf (oder durch) Microsoft Teams, die der Erläuterung bedürfen:
 
--   Da Kunden vorhandene Investitionen in Gruppen sein können, unterstützen wir zunächst derzeit öffentlichen und privaten Gruppen von weniger als 5000 Mitglieder. Wie bereits erwähnt, möchten Sie die Mitgliedschaft von Personen zu einem Team mit dem Client Teams statt der Office 365-Verwaltungskonsole Web verwalten. In diesem Szenario erhält, wenn Personen zu Threading Unterhaltungen in Office 365-Gruppen verwendet werden, ist es sinnvoll, die besagt, dass eine Unterhaltung Gruppen im Wesentlichen e-Mails und nicht dasselbe wie eine Chatnachricht in einem Kanal Teams ist. Schulen Sie Ihre Mitarbeiter über diesen Unterschied und schlagen Sie vor, dass sie das flexiblere Chat Nachrichtenformat in Teams einführen, im Vergleich zu senden per e-Mail mit Outlook oder OWA die Gruppe.
+-   Da Kunden möglicherweise bereits in Gruppen tätig sind, unterstützen wir derzeit sowohl öffentliche als auch private Gruppen mit weniger als 5000 Mitgliedern. Wie bereits erwähnt, möchten Sie die Mitgliedschaft von Personen in einem Team mithilfe des Teams-Clients und nicht der Office 365-Administrator-Webkonsole verwalten. In diesem Fall ist es sinnvoll, wenn Personen für Thread Unterhaltungen in Office 365-Gruppen verwendet werden, dass eine Gruppenunterhaltung im Wesentlichen eine e-Mail und nicht die gleiche wie eine Chatnachricht in einem Teams-Kanal ist. Informieren Sie Ihre Mitarbeiter über diesen Unterschied, und empfehlen Sie, das flexiblere Chatnachrichten Format in Teams zu übernehmen, anstatt die Gruppe mithilfe von Outlook oder OWA per e-Mail zu senden.
 
--   Zweitens können für Kunden, die nicht vorhandene Gruppen in Office 365 definiert haben, Sie entweder mit dem Office 365-Verwaltungsportal, Teams Web oder Desktopclients erstellen. Wie bereits erwähnt, verwalten Sie alle zukünftigen Mitgliedschaft des Teams-Clients mit der Office 365-Gruppe. Da die Mitgliedschaft in einer Team auch Mitgliedschaft zu Office 365-Gruppen definiert, sollten Sie Personen für diese Änderung vorbereiten.
+-   Für Kunden, die in Office 365 keine vorhandenen Gruppen definiert haben, können Sie diese entweder mithilfe des Office 365-Administrator Portals, des Teams Web oder der Desktop Clients erstellen. Wie bereits erwähnt, verwalten Sie alle zukünftigen Mitgliedschaften in der Office 365-Gruppe mithilfe des Teams-Clients. Da die Mitgliedschaft in einem Team auch die Mitgliedschaft in Office 365-Gruppen definiert, sollten Sie die Personen auf diese Änderung vorbereiten.
  
 
 
@@ -44,10 +45,10 @@ Benennungsrichtlinien für Office 365-Gruppen, die Ihr Administrator festgelegt
 
 Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-In den folgenden Artikeln sind eine ausgezeichnete Quelle für Bereitschaft und Annahme Inhalte für Ihre Office 365-Gruppen zu suchen:
+Die folgenden Artikel sind ein guter Ort, um Eignungs-und Adoptions Inhalte für Ihre Office 365-Gruppen zu finden:
 
 -   [Mehr Möglichkeiten mit Gruppen in Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [Hinzufügen oder Entfernen von Mitgliedern aus Office 365-Gruppen mit dem Microsoft 365 Administrationscenter](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Hinzufügen oder Entfernen von Mitgliedern aus Office 365-Gruppen mithilfe des Microsoft 365 admin Centers](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [Wiederherstellen einer gelöschten Office 365-Gruppe](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

@@ -6,40 +6,41 @@ manager: serdars
 ms.date: 10/10/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
-description: Entdecken Sie alle Methoden zum Abrufen von Hilfe in Microsoft-Teams.
+description: Entdecken Sie alle Möglichkeiten, Hilfe in Microsoft Teams zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc7fca2689810c0f78e14afeb954c161b5c8a2f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245738"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245903"
 ---
 <a name="get-help-in-microsoft-teams"></a>Anfordern von Hilfe in Microsoft Teams
 ============================================
 
-Die Schaltfläche "Hilfe" in der Microsoft-Teams ist, wo Ihre Benutzer und Champions Unterstützung finden sie müssen möglicherweise während der Verwendung von Teams.
+Über die Schaltfläche "Hilfe" in Microsoft Teams können Ihre Benutzer und Champions alle Unterstützung finden, die Sie möglicherweise bei der Verwendung von Teams benötigen.
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
-Teams bietet lokalisierten sprachunterstützung für Hilfe-Inhalten. Aktuelle Liste der unterstützten Sprachen finden Sie unter [Microsoft-Teams Hilfeinhalte Sprachen unterstützt](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
+Teams bietet Unterstützung für lokalisierte Sprachen für Hilfeinhalte. Die aktuelle Liste der unterstützten Sprachen finden Sie unter [Unterstützte Sprachen in Microsoft Teams für Hilfeinhalte](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
- - **Navigieren Sie Themen** - diese geht, Inhalte, sortiert nach Teams Feature unterstützen. Einfacher Anleitungen für die Benutzer die optimale Nutzung von Teams. 
+ - **Themen durchsuchen** – dies geht an Hilfeinhalte, die nach Teams geordnet sind. Einfache und unkomplizierte Anleitung, mit der Benutzer die besten Teams optimal nutzen können. 
 
- - **Videos** - unsere Videoinhalte bei Bedarf können Benutzer bestimmte Aufgaben schnell vertraut machen. Wir sind ständig neue Videos erzeugt, so häufig überprüfen zurück. Natürlich ist Internetzugriff erforderlich. 
+ - **Videos** – mithilfe unserer on-Demand-Videoinhalte können Benutzer bestimmte Aufgaben schnell erlernen. Wir sind ständig dabei, neue Videos zu produzieren, schauen Sie also regelmäßig vorbei. Internet Zugang ist natürlich erforderlich. 
 
- - **Was ist neu** - 
-   Regelmäßigen Anmerkungen zu dieser Version für Benutzer und Team Besitzer zu neuen oder aktualisierten Teams Features.
+ - **Neuerungen** - 
+   Regelmäßige Anmerkungen zu dieser Version von Benutzern und Teambesitzern zu neuen oder aktualisierten Features von Teams.
 
- - **Freigabe eine Vorstellung vom Zweck** - wir immer möchten über von Ihnen Informationen zum Teams verbessern. Diese Option gelangen Sie zu unserer Produkt Feedback Forum in dem neuen Feature Anforderungen übermitteln oder auf vorhandene abstimmen. Ständig überprüfen wir diese Informationen, wie wir neue Features planen. 
+ - **Teilen Sie eine Idee** – wir möchten Ihnen immer von Ihnen mitteilen, wie Sie die Teams verbessern können. Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können. Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen. 
 
 > [!NOTE]
-> Hilfe ersetzt T-Bot in Teams. Einige Benutzer möglicherweise ein Chatsymbol T-Bot in ihren Chatverlauf finden Sie unter. Durch Klicken auf dieses Symbol gelangen sie zur neuen Hilfeinhalte. 
+> Hilfe ersetzt T-bot in Teams. Einige Benutzer sehen in Ihrem Chat-Protokoll möglicherweise ein Chat-Symbol für T-bot. Wenn Sie auf dieses Symbol klicken, gelangen Sie zur neuen Hilfe. 
 

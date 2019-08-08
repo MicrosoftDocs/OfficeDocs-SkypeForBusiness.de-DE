@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: In diesem Artikel werden die Schritte beschrieben, wie Sie eine vorhandene Skype for Business Server-Installation für die Nutzung des mobilitätsdiensts konfigurieren können, damit Ihre mobilen Geräte die Mobilitätsfunktionen von Skype for Business Server nutzen können.
-ms.openlocfilehash: 35b9ca6a69dc5add9331aa5399a59a572bdf6906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303554"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234574"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Bereitstellen und Konfigurieren von Mobility für Skype for Business Server  
  

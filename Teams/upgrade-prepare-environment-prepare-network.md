@@ -4,23 +4,24 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Verwenden Sie diese Anleitung, um Ihr Netzwerk für die Bereitstellung und den Rollout von Microsoft Teams vorzubereiten.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 0ede6e6ce211393211e7c1d31365c2f22c26751a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548621"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236136"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
@@ -77,9 +78,9 @@ Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Customer
 |**Latenz (eine Möglichkeit)** |< 50 ms |< 30 ms |
 |**Latenz (Roundtrip-Zeit oder RTT)** |< 100 MS |< 60 ms |
 |**Burst-Paketverlust** |<10% während eines beliebigen 200-MS-Intervalls |<1% während eines beliebigen 200-MS-Intervalls |
-|**Paketverlust** |<1% während eines 15-Sekunden-Intervalls |_lt_ 0,1% während eines 15-Sekunden-Intervalls |
-|**Paket Inter-arrival Jitter** |<30 MS während eines 15-Sekunden-Intervalls |<15 MS während eines 15-Sekunden-Intervalls |
-|**Paket Reihenfolge** |_lt_ 0,05% Pakete außerhalb der Reihenfolge |_lt_ 0,01% Pakete außerhalb der Reihenfolge |
+|**Paketverlust** |<1% während eines 15-Sekunden-Intervalls |<0,1% in einem Intervall von 15 Sekunden |
+|**Paket Inter-arrival Jitter** |<30 ms während eines 15-Sekunden-Intervalls |<15 MS während eines 15-Sekunden-Intervalls |
+|**Paket Reihenfolge** |<0,05% Pakete außerhalb der Reihenfolge |<0,01% Pakete außerhalb der Reihenfolge |
 
 Zum Testen beider Netzwerksegmente können Sie das [Tool Netzwerkbewertung](https://go.microsoft.com/fwlink/?linkid=855799)verwenden. Dieses Tool kann sowohl auf dem Client-PC direkt als auch auf einem PC bereitgestellt werden, der mit dem Kundennetzwerk-Edge verbunden ist. Das Tool enthält eine begrenzte Dokumentation, aber eine umfassendere Dokumentation rund um die Verwendung des Tools finden Sie hier: [Netzwerk Bereitschaftsbewertung](https://go.microsoft.com/fwlink/?linkid=855800). Wenn Sie diese Netzwerk Bereitschaftsbewertung ausführen, können Sie die Bereitschaft Ihres Netzwerks zur Ausführung von Echt Zeit Medienanwendungen wie Microsoft Teams überprüfen.
 
@@ -195,7 +196,7 @@ Quality of Service (QoS) kann verwendet werden, um Beeinträchtigungen zu bekäm
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Entscheidungspunkt</td><td><ul><li>Wer ist für die ordnungsgemäße Netzwerk Beurteilung über alle Netzwerksegmente und Organisationsstandorte verantwortlich?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Sie können eine detaillierte Netzwerkbewertung durchführen, um sicherzustellen, dass Ihr Netzwerk für Ihre Microsoft Teams-Bereitstellung bereit ist. Weitere Informationen finden Sie unter <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Netzwerk Bereitschaftsbewertung</a>.</li><li>Führen Sie die Netzwerk Bereinigung basierend auf den Ergebnissen der Netzwerk Readiness-Bewertung für jedes Netzwerksegment durch.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Sie können eine detaillierte Netzwerkbewertung durchführen, um sicherzustellen, dass Ihr Netzwerk für Ihre Microsoft Teams-Bereitstellung bereit ist. </li><li>Führen Sie die Netzwerk Bereinigung basierend auf den Ergebnissen der Netzwerk Readiness-Bewertung für jedes Netzwerksegment durch.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -208,7 +209,7 @@ Dies sind die wichtigsten Hinweise aus dieser Anleitung. Du musst:
 
 - Öffnen Sie die UDP-Ports 3478 bis 3481, die von Clients, die Teams verwenden, abgehenden werden.
 
-- Stellen Sie sicher, dass genügend Bandbreite für die Bereitstellung von Teams vorhanden ist, indem Sie den [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)ausfüllen.
+- Stellen Sie sicher, dass genügend Bandbreite für die Bereitstellung von Teams vorhanden ist.
 
 - Führen Sie das Tool für die [Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) aus, und stellen Sie sicher, dass Sie die Anforderungen unter [Medienqualität und Netzwerk Verbindungsleistung](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) sowohl im Edge-Segment als auch im Client Segment erfüllen.
 

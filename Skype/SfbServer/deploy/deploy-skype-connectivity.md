@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.'
-ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643178"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235704"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen von Skype-Konnektivität in Skype for Business Server
 
@@ -111,10 +111,10 @@ Lokale Bereitstellungen sind erforderlich, um einen Verbund-DNS-SRV-Eintrag für
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |In jedem Fall muss der exakte FQDN entweder im SN-oder im San des externen Zertifikats vorhanden sein, das auf dem Edgeserver installiert ist.   |
-|Access.contoso.com   ||
+|access.contoso.com   ||
 |**Ungültige FQDNs**|**Grund**|
-|SIP.contoso-Edge.com   |Keine Suffix-Übereinstimmung.  |
-|SIP.it.contoso.com   |Das Suffix der obersten Ebene ist nicht identisch.   |
+|sip.contoso-edge.com   |Keine Suffix-Übereinstimmung.  |
+|sip.it.contoso.com   |Das Suffix der obersten Ebene ist nicht identisch.   |
 
 Weitere Anleitungen zu externen Zertifikaten finden Sie unter [Zertifikats Planung](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
 

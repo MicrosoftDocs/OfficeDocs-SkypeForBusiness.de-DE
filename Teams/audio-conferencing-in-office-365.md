@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-audience: Admin
+audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 592f9bd4e336ae454ce74146f462bfbab2a2924c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283540"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235748"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 können Benutzer von ihren Telefonen aus zu Besprechungen anrufen. Audiokonferenzen ermöglichen bis zu 250 Telefonteilnehmer.
@@ -85,7 +85,7 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Wie erhalten Sie dedizierte Telefonnummern?
 Dedizierte Audiokonferenz-Telefonnummern sind Dienstnummern, die Sie abrufen und dann Ihrer Organisation zuweisen können. Sie können dedizierte gebührenpflichtige und gebührenfreie Telefonnummern für Ihre Konferenz Brücken auf eine von drei Arten erhalten:
 
-- **Verwenden Sie das Skype for Business Admin Center.** In einigen Ländern/Regionen können Sie mithilfe des Skype for Business admin Centers Nummern für Ihre Konferenz Brücken abrufen. Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+- **Verwenden Sie das Skype for Business Admin Center.** In einigen Ländern/Regionen können Sie mithilfe des Skype for Business admin Centers Nummern für Ihre Konferenz Brücken abrufen. Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](/microsoftteams/getting-service-phone-numbers).
     
 - **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber an Office 365 portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   

@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Zusammenfassung: Konfigurieren von Exchange Server Unified Messaging für Skype for Business Server-Voicemail.'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278185"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238006"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Konfigurieren von Exchange Server Unified Messaging für Voicemail on Skype for Business Server
  
@@ -153,7 +153,7 @@ Wenn Sie Microsoft Skype for Business Server mit Exchange Unified Messaging (um)
 - Erstellt einen um-Sammelanschluss für jedes um-IP-Gateway. Die Pilotkennung der einzelnen Sammelanschlüsse gibt den um-SIP-URI-Wählplan an, der vom Skype for Business Server-Front-End-Pool oder Standard Edition-Server verwendet wird, der dem um-IP-Gateway zugeordnet ist.
 - Erteilt Skype for Business Server-Berechtigung zum Lesen von Active Directory um-Containerobjekten wie um-Wählpläne, automatischen Telefonzentralen, um-IP-Gateways und um-Sammelanschlüssen.
   > [!IMPORTANT]
-  > Jede um-Gesamtstruktur muss so konfiguriert sein, dass Sie der Gesamtstruktur vertraut, in der Skype for Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype for Business Server 2013 bereitgestellt wird, muss so konfiguriert sein, dass Sie jeder um-Gesamtstruktur vertraut Wenn Exchange um in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server-Integrationsschritte für jede um-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype for Business Server-Domäne angeben. Beispiel: ExchUcUtil. ps1 – Forest: <lync-Domain-Controller-fqdn>. 
+  > Jede um-Gesamtstruktur muss so konfiguriert sein, dass Sie der Gesamtstruktur vertraut, in der Skype for Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype for Business Server 2013 bereitgestellt wird, muss so konfiguriert sein, dass Sie jeder um-Gesamtstruktur vertraut Wenn Exchange um in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server-Integrationsschritte für jede um-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype for Business Server-Domäne angeben. Beispiel: ExchUcUtil. ps1 – Forest: <lync-Domänencontroller-FQDN>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Verwenden der Shell zum Ausführen des ExchUcUtil. ps1-Skripts
 
@@ -164,7 +164,7 @@ Führen Sie das ExchUcUtil. ps1-Skript auf einem beliebigen Exchange-Server in I
 > Sie müssen über die Berechtigungen der Exchange-Organisations Verwaltungsrolle verfügen oder ein Mitglied der Sicherheitsgruppe Exchange-Organisationsadministratoren sein, um das Skript ausführen zu können. 
 
 1. Öffnen Sie die Exchange-Verwaltungsshell.
-2. Geben Sie an der Eingabeaufforderung "c ** \</c" letter>: \Programme\Microsoft Server\V15\Scripts>. ExchUcUtil. ps1**aus, und drücken Sie dann die EINGABETASTE.
+2. Geben Sie an der Eingabeaufforderung von "c/c" den **Buchstaben CD \<-Laufwerk> ein: \Programme\Microsoft Server\V15\Scripts>. ExchUcUtil. ps1**aus, und drücken Sie dann die EINGABETASTE.
 
 #### <a name="how-do-you-know-this-worked"></a>Woher wissen Sie, ob dies funktioniert hat?
 
@@ -189,7 +189,7 @@ Der Exchange-Server muss mit einem Server Zertifikat konfiguriert sein, um eine 
 
 **So laden Sie das CA-Zertifikat herunter:**
 
-1. Klicken Sie auf dem Server, auf dem Exchange um ausgeführt wird, auf **Start**, klicken Sie auf **Ausführen**, geben Sie **http://\<Namen der ausstellenden CA Server>/certsrv**ein, und klicken Sie dann auf **OK**.
+1. Klicken Sie auf dem Server, auf dem Exchange um ausgeführt wird, auf **Start**, klicken Sie auf **Ausführen**, geben Sie **http://\<Namen des ausstellenden CA-Servers>/certsrv**ein, und klicken Sie dann auf **OK**.
 2. Klicken Sie unter Aufgabe auswählen auf **Zertifizierungsstellenzertifikat, Zertifikatkette oder CRL Herunterladen**.
 3. Wählen Sie unter **Download eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer CRL** **die Option Encoding method to base 64**aus, und klicken Sie dann auf**CA-Zertifikat herunterladen**.
    > [!NOTE]

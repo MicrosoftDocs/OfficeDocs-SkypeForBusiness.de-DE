@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Lesen Sie dieses Thema, um mehr über die Bereitstellung von Skype Room System in einer Umgebung zu erfahren, in der mehrere Versionen von Skype for Business Server und lync Server enthalten sind.
-ms.openlocfilehash: 35dd7cff34134791ebaf62bf4d0fcd1cf3b83a4c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5da7f92c7ab947d5e6d68c19823d227f8ae3ca3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293522"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234208"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Überlegungen zur Skype Room System-Migration
  

@@ -20,16 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich, was das Telefon System für Sie tun kann. '
-ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643139"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237289"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
-
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Telefon System in Office 365 und Skype for Business Server
 
 **Telefon System** ist die Microsoft-Technologie zum Aktivieren von Anrufsteuerung und Telefonanlagenfunktionen in der Office 365-Cloud mit Skype for Business Online und Microsoft Teams. Das Telefonsystem ermöglicht Ihnen, Ihr bestehendes PBX-System durch eine Reihe von Funktionen zu ersetzen, die von Office 365 geliefert wurden, und eng in die Cloud-Umgebung Ihres Unternehmens integriert sind. Weitere Informationen zu den Features finden [Sie unter was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md).
   

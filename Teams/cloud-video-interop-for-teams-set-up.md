@@ -5,105 +5,106 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
-description: In diesem Artikel wird erläutert, wie Sie planen und Einrichten von Cloud-Video-Interop für Benutzer in Ihrer Organisation können.
+description: In diesem Artikel wird erläutert, wie Sie Cloud-Video-Interop für Benutzer in Ihrer Organisation planen und einrichten können.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198861"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237052"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
-Nachdem Sie [auf Ihren Partnern Cloud Video Interop ausgewählt](cloud-video-interop.md)haben, müssen Sie der Planung Ihrer Bereitstellung, Get mit provisioning Details und Partner mandantenschlüssel und Zustimmung der video Interop-App in Ihrer Organisation einrichten. Im folgende Diagramm wird das Verfahren erläutert. 
+Nachdem Sie sich [für Ihre Brightcove-Video-Interop-Partner (n) entschieden](cloud-video-interop.md)haben, müssen Sie Ihre Bereitstellung planen, mit Bereitstellungsdetails und dem Partner Mandanten Schlüssel einrichten und der Video-Interop-app in Ihrer Organisation zustimmen. Das folgende Diagramm beschreibt den Prozess. 
 
-![CVI in Ihrer Organisation bereitstellen.](media/deploying-cvi.png)
+![Bereitstellen von CVI in Ihrer Organisation](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
-Informationen zum Identifizieren eines Partners oder Partner für die Verwendung in Ihrer Organisation finden Sie unter [Cloud-Video-Interop für Microsoft-Teams](cloud-video-interop.md) . 
+Informationen dazu, wie Sie einen Partner oder Partner identifizieren können, der in Ihrer Organisation verwendet werden soll, finden Sie unter [Cloud Video-Interop für Microsoft Teams](cloud-video-interop.md) . 
 
-Planen der Benutzer basierte/gleichzeitigen/Site breit-Aktivierung: 
+So planen Sie die benutzerbasierte/Concurrent/Site Wide-Aktivierung: 
 
-- Wählen Sie für die Verwendung ein Bereitstellungsmodells Modell/gehostet
-- Wählen Sie den Lizenz Plan ideal für Ihre Organisation. 
-- Planen der Kapazität von virtuellen Maschinen ist, dass Sie Ihr video-Infrastruktur gehostet werden.
+- Wählen Sie ein Bereitstellungsmodell/gehostetes Modell für ihre Verwendung aus.
+- Wählen Sie den Lizenzplan aus, der ideal für Ihre Organisation ist. 
+- Plan für die Kapazität von VMS ist, dass Sie Ihre Video Infrastruktur hosten.
 
 ## <a name="configure"></a>Konfigurieren 
 
-Gehen Sie folgendermaßen vor, um Cloud Video Interop zu konfigurieren. 
+Führen Sie die folgenden Schritte aus, um Brightcove-Video Interop zu konfigurieren. 
 
-1. Abrufen von Konfigurationsinformationen von Partner/Partner haben Sie ausgewählte (mandantenschlüssel, AppIds...). Sie können eine oder mehrere Interop-videopartnern in Ihrer Organisation verwenden. 
+1. Besorgen Sie sich Konfigurationsinformationen von den von Ihnen ausgewählten Partnern/Partnern (Mandanten Schlüssel, Daten-und-dann...). Sie können einen oder mehrere Video-Interop-Partner in Ihrer Organisation verwenden. 
 
-2. Stellen Sie sicher, dass das Netzwerk ordnungsgemäß konfiguriert ist. Konfigurieren Sie Ihrer Standards basierende video Firewall für Perimeter Network durchqueren unterstützen. Beispiel: 
+2. Stellen Sie sicher, dass Ihr Netzwerk ordnungsgemäß konfiguriert ist. Konfigurieren Sie Ihre standardbasierte Video Firewall für den Umkreisnetzwerk Durchlauf, um Sie zu unterstützen. Beispiel: 
     - Cisco VCS-e                  
     - Polycom RPAD
 
-3. Konfigurieren von integrierten Räumen mit Exchange und OTD. In den meisten Fällen zusätzliche Relay eingerichtet werden müssen und in Ihrer Umgebung konfiguriert.
+3. Konfigurieren Sie integrierte Räume mit Exchange und OTD. In den meisten Fällen müssten zusätzliche Relays in Ihrer Umgebung eingerichtet und konfiguriert werden.
 
 
 ## <a name="provision"></a>Bereitstellung
  
-Die Mandanten-Taste wird der Client mit dem Dienst Partner sein. Im folgenden Beispiel wird die 813878896@t.plcm.vc die Mandanten-Taste. 
+Der Mandanten Schlüssel ist die Wählfunktion des Partner Diensts. Im folgenden Beispiel ist 813878896@t.PLCM.VC der Mandanten Schlüssel. 
 
-![Beispiel zu einem Mandanten](media/tenant-key-example.png) 
+![Beispiel für Mandanten Schlüssel](media/tenant-key-example.png) 
 
-Sie müssen zum Ausführen der folgenden Cmdlets zum Bereitstellen des Mandanten-Schlüssels, und auch die Auswahl von Benutzern oder der gesamten Organisation Besprechungen mit video interop Koordinaten erstellen aktivieren.
+Sie müssen die folgenden Cmdlets ausführen, um den Mandanten Schlüssel bereitzustellen, und Sie können auch SELECT-Benutzer oder Ihre gesamte Organisation aktivieren, um Besprechungen mit Video-Interop-Koordinaten zu erstellen.
 
  
-- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft stellt vorab erstellte Richtlinien für alle unsere unterstützte Partner, mit denen Sie die Partner für video Interop Cloud zu verwendenden festlegt.
+- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft stellt für jeden unserer unterstützten Partner vorgefertigte Richtlinien bereit, mit denen Sie festlegen können, welche Partner für die Cloud-Video-Interop verwendet werden.
 
-    Mit diesem Cmdlet können Sie die Überprüfung vor dem erstellten Richtlinien zu identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können eine oder mehrere Benutzer mit dem Cmdlet Grant-CsTeamsVideoInteropServicePolicy nutzen diese Richtlinie zuweisen.
+    Mit diesem Cmdlet können Sie die vorab erstellten Richtlinien identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können diese Richtlinie einem oder mehreren Benutzern zuweisen, indem Sie das Cmdlet Grant-CsTeamsVideoInteropServicePolicy nutzen.
  
-- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Das Cmdlet Grant-CsTeamsVideoInteropServicePolicy können Sie eine vorab erstellte Richtlinie für die Verwendung in Ihrer Organisation zuweisen, oder weisen die Richtlinie auf bestimmte Benutzer.
+- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Mit dem Cmdlet Grant-CsTeamsVideoInteropServicePolicy können Sie eine vordefinierte Richtlinie für die Verwendung in Ihrer Organisation zuweisen oder die Richtlinie bestimmten Benutzern zuweisen.
  
-- ** [Neue CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Verwenden Sie das New-CsVideoInteropServiceProvider zum Angeben von Informationen zu unterstützten CVI Partner, dass Ihre Organisation verwenden möchten.
+- ** [Neu-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Verwenden Sie die CsVideoInteropServiceProvider, um Informationen zu einem unterstützten CVI-Partner anzugeben, den Ihre Organisation verwenden möchte.
  
-- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Verwenden Sie das Set-CsVideoInteropServiceProvider, um Informationen zu unterstützten CVI Partner zu aktualisieren, die Ihrer Organisation verwendet werden.
+- ** [Satz-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Verwenden Sie das CsVideoInteropServiceProvider, um Informationen zu einem unterstützten CVI-Partner zu aktualisieren, der in Ihrer Organisation verwendet wird.
  
-- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Rufen Sie alle Anbieter, die konfiguriert wurden, für die Verwendung innerhalb der Organisation.
+- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Rufen Sie alle Anbieter ab, die für die Verwendung innerhalb der Organisation konfiguriert wurden.
  
-- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Verwenden Sie Remove-CsVideoInteropServiceProvider, um alle für Anbieterinformationen zu einem Anbieter zu entfernen, die Ihre Organisation nicht mehr verwendet.  
+- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Verwenden Sie Remove-CsVideoInteropServiceProvider, um alle Anbieter Informationen zu einem Anbieter zu entfernen, den Ihre Organisation nicht mehr verwendet.  
  
 ## <a name="consent"></a>Zustimmung
 
-Sie benötigen die Berechtigung Zustimmung für die Geräte für Videokonferenzen (VTCs) zur Teilnahme an Ihre Organisationen Besprechungen über die Partner-Dienst bereitstellen. Dieses Consent Link wird auch von Ihrem Partner bereitgestellt.  
+Sie müssen die Genehmigungs Genehmigung für Video Teleconferencing Devices (VTCs) bereitstellen, um über den Partnerdienst an ihren Organisationen teilzunehmen. Dieser Link zur Zustimmung wird auch von Ihrem Partner zur Verfügung gestellt.  
  
-Wenn diese Schritte abgeschlossen haben, müssen die Benutzer einzeln über das Cmdlet Grant oberhalb oder alle Benutzer in der Organisation aktiviert sind, wenn Sie der Mandanten aktiviert ist, VTC Koordinaten in alle Teams Besprechungen, die sie planen. Alle VTC kann diese über den entsprechenden Koordinaten Besprechungen teilnehmen.
+Wenn diese Schritte abgeschlossen sind, werden die Benutzer, die über das Grant-Cmdlet oben einzeln aktiviert sind, oder alle Benutzer in der Organisation, wenn der Mandant aktiviert ist, VTC-Koordinaten in allen von Ihnen geplanten Teams-Besprechungen haben. Alle VTC können über diese Koordinaten an diesen Besprechungen teilnehmen.
 
 
-|Name|Kurzbeschreibung der Anwendung die Berechtigung| Beschreibung|
+|Name|Kurzbeschreibung der Anwendungsberechtigung| Beschreibung|
 |--|--|---|
-|Calls.JoinGroupCall.All|Besuchen Sie Gruppe Anrufe und Besprechungen als einer app (Preview)|Die app in Ihrer Organisation, ohne dass ein angemeldeten Benutzer Gruppe Anrufe und geplante Besprechungen beitreten können.  Die app wird mit den Berechtigungen eines Benutzers Directory bei Besprechungen in Ihrem Mandanten verknüpft werden.|
-|Calls.JoinGroupCallasGuest.All|Besuchen Sie Gruppe Anrufe und Besprechungen als Gast (Preview)|Die app anonym Gruppe Anrufe und geplante Besprechungen in Ihrer Organisation, ohne dass ein angemeldeten Benutzer beitreten können.  Die app wird als Gast bei Besprechungen in Ihrem Mandanten verknüpft werden.|
-|Calls.AccessMedia.All|Access Mediendatenströme im Gespräch als einer app (Preview)|Ermöglicht die direkten Zugriff auf Mediendatenströme im Gespräch, ohne dass ein angemeldeten Benutzer erhalten-app.|
-|OnlineMeetings.Read.All|Lesen Online-Besprechungsdetails (Preview)|Die app in Ihrer Organisation, ohne dass ein angemeldeten Benutzer Online Besprechungsdetails lesen können.|
+|Calls. JoinGroupCall. all|Teilnehmen an Gruppen anrufen und Besprechungen als app (Preview)|Ermöglicht der APP die Teilnahme an Gruppen anrufen und geplanten Besprechungen in Ihrer Organisation, ohne dass ein Benutzer angemeldet ist.  Die APP wird mit den Berechtigungen eines Verzeichnis Benutzers für Besprechungen in Ihrem Mandanten verbunden.|
+|Calls. JoinGroupCallasGuest. all|Teilnehmen an Gruppen anrufen und Besprechungen als Gastbenutzer (Preview)|Ermöglicht der APP, anonym an Gruppen anrufen und geplanten Besprechungen in Ihrer Organisation teilzunehmen, ohne dass ein Benutzer angemeldet ist.  Die APP wird als Gast zu Besprechungen in Ihrem Mandanten verbunden.|
+|Calls. AccessMedia. all|Zugreifen auf Mediendatenströme in einem Anruf als app (Preview)|Ermöglicht der APP den direkten Zugriff auf Mediendatenströme in einem Anruf ohne einen angemeldeten Benutzer.|
+|OnlineMeetings. Read. all|Online Besprechungsdetails lesen (Preview)|Ermöglicht der APP, Online Besprechungsdetails in Ihrer Organisation zu lesen, ohne dass ein Benutzer angemeldet ist.|
 
 ## <a name="schedule"></a>Zeitplan
 
-Im nächsten Schritt planen Sie Teams-Besprechung mit video interop Koordinaten. Der aktivierte Benutzer kann Teams Besprechungen über planen:
-- [Teams Meeting-add-in für Outlook](teams-add-in-for-outlook.md)
-- Teams Client Desktop- und mobilen
+Als nächstes planen Sie Teams-Besprechung mit Video-Interop-Koordinaten. Der aktivierte Benutzer kann Teams-Besprechungen über Folgendes planen:
+- [Teambesprechung-Add-in für Outlook](teams-add-in-for-outlook.md)
+- Teams Clientdesktop und Mobiltelefon
 
 
 ## <a name="join"></a>Join
 
-Sie können Teams Besprechungen mit Ihren Geräten VTC teilnehmen, wie folgt:
+Sie können mit ihren VTC-Geräten mit den folgenden Methoden an Teams-Besprechungen teilnehmen:
  
-- IVR (Interactive Voice Response)
-    - Sie können mithilfe der tenantkey@domain des Partners IVR im einwählen. 
-    - Sobald Sie den IVR-Partner sind, werden Sie aufgefordert, zur Eingabe der ConferenceId VTC dann Sie die Besprechung Teams eine Verbindung herstellt.
-- Durchwahl
-    - Sie können direkt in die Besprechung Teams einwählen, ohne Interaktion mit der Partner IVR mit der Durchwahl-Funktion unter Verwendung der vollständigen Zeichenfolge des Tenantkey. VTC ConferenceId@domain.
-- One Touch-Wählplan
-    - Wenn Sie eine integrierte Teams Platz haben, können Sie einem Tastendruck Dial Funktionen von Ihrem Partner (ohne Geben Sie eine beliebige Zeichenfolge Dial) verwenden.
+- IVR (Interaktive Sprachantwort)
+    - Sie können sich über die tenantkey @-Domäne in die IVR des Partners einwählen. 
+    - Sobald Sie in der Partner-IVR sind, werden Sie aufgefordert, die VTC-Konferenz-Nr einzugeben, die Sie dann mit der Teams-Besprechung verbindet.
+- Direktwahl
+    - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC-Konferenz-Nr. @ Domäne.
+- One-Touch-Dial
+    - Wenn Sie über einen integrierten TeamRoom verfügen, können Sie die von Ihrem Partner angebotenen One-Touch-Wählfunktionen nutzen (ohne eine Wählzeichenfolge eingeben zu müssen).
 
-Bitten Sie schließlich Teams Benutzer in Ihre Besprechungen mit der Freigabe von audio und video sowie Content. 
+Und schließlich können Sie sich mithilfe von Audio, Video und Inhaltsfreigabe in ihren Besprechungen mit Teams besprechen. 

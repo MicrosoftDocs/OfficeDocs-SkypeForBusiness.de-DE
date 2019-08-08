@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie den Skype for Business Server-Bereitstellungs-Assistenten verwenden, um Komponenten und Dienste von Skype for Business Server 2015 zu installieren.'
-ms.openlocfilehash: 2b19599ff3523a1b96a2349d62c948ed3fe72d7b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5b8205cb2ab828001eae76eeaab8cd4f697c9315
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418160"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234744"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Installieren der Komponenten für beständigen Chat in Skype for Business Server 2015
  
