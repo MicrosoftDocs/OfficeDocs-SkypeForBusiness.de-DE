@@ -1,11 +1,12 @@
 ---
 title: Microsoft Teams Education
-description: Verwenden Sie diese Ressourcen, um die optimale Nutzung von Teams innerhalb Ihrer Organisation abzurufen.
+description: Verwenden Sie diese Ressourcen, um Teams in ihrer gesamten Organisation optimal zu nutzen.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -13,16 +14,16 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20e186ac9ab0dc98dda503738160f09c4f55b07
-ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
+ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472556"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235359"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams Education
 
-Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, verbinden in Communitys professional Lern- und kommunizieren mit Schüler und Lehrer. Verwenden Sie die Admin-Ressourcen Hier können Sie die erfolgreiche Bereitstellung, einführen und Teams in Ihrer Schule oder Institution verwalten. 
+Mit Teams können Lehrer und Dozenten gemeinschaftliche Klassenräume erstellen, in professionellen Lerngemeinschaften eine Verbindung herstellen und mit Schülern und Lehrern kommunizieren. Verwenden Sie die Administrator Ressourcen hier, um Ihnen beim erfolgreichen bereitstellen, übernehmen und Verwalten von Teams in Ihrer Bildungseinrichtung zu helfen. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,7 +33,7 @@ Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,11 +51,11 @@ Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Zuordnungen in Teams für Bildungseinrichtungen</h3>
+                        <h3>Aufgaben in Teams für Bildungseinrichtungen</h3>
                     </div>
                 </div>
             </div>
@@ -68,11 +69,11 @@ Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ressourcen für Teams für Bildungseinrichtungen-admins</h3>
+                        <h3>Ressourcen für Teams für Education-Administratoren</h3>
                     </div>
                 </div>
             </div>
@@ -85,11 +86,11 @@ Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Häufig gestellte Fragen zu Steuerung für Teams für Bildungseinrichtungen-admins</h3>
+                        <h3>Häufig gestellte Fragen zu Governance für Teams für Education-Administratoren</h3>
                     </div>
                 </div>
             </div>
