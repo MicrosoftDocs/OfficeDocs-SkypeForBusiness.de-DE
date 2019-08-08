@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
@@ -14,37 +15,37 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 097161fee62e4d0c0339cc5b6bbc2399e86ac959
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233046"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244870"
 ---
-<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="2df22-103">Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2df22-103">Place a Microsoft Teams user or team on legal hold</span></span>
+<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="f12a3-103">Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f12a3-103">Place a Microsoft Teams user or team on legal hold</span></span>
 ==================================================
 
-<span data-ttu-id="2df22-p101">Um die gesetzliche Aufbewahrung für einen Benutzer oder ein Team festzulegen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). Wenn Sie einen neuen Anwendungsfall erstellen, wird die Option zum Aufbewahren von Postfächern und Sites angezeigt.</span><span class="sxs-lookup"><span data-stu-id="2df22-p101">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
+<span data-ttu-id="f12a3-p101">Um die gesetzliche Aufbewahrung für einen Benutzer oder ein Team festzulegen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). Wenn Sie einen neuen Anwendungsfall erstellen, wird die Option zum Aufbewahren von Postfächern und Sites angezeigt.</span><span class="sxs-lookup"><span data-stu-id="f12a3-p101">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2df22-106">Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).</span><span class="sxs-lookup"><span data-stu-id="2df22-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
+> <span data-ttu-id="f12a3-106">Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).</span><span class="sxs-lookup"><span data-stu-id="f12a3-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="2df22-107">Wenn ein Benutzer oder eine Gruppe in der Warteschleife platziert wird, werden alle Nachrichtenkopien beibehalten.</span><span class="sxs-lookup"><span data-stu-id="2df22-107">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="2df22-108">Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert.</span><span class="sxs-lookup"><span data-stu-id="2df22-108">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="2df22-109">In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="2df22-109">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="2df22-110">Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="2df22-110">Without Legal Hold, only the latest message is retained.</span></span>
+> <span data-ttu-id="f12a3-107">Wenn ein Benutzer oder eine Gruppe in Wartestellung gesetzt wird, bleiben alle Nachrichten-Kopien erhalten.</span><span class="sxs-lookup"><span data-stu-id="f12a3-107">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="f12a3-108">Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert.</span><span class="sxs-lookup"><span data-stu-id="f12a3-108">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="f12a3-109">In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="f12a3-109">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="f12a3-110">Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="f12a3-110">Without Legal Hold, only the latest message is retained.</span></span>
 
 
 
-<span data-ttu-id="2df22-111">In der Abbildung unten sehen Sie eine Untersuchung im Zusammenhang mit Clay.</span><span class="sxs-lookup"><span data-stu-id="2df22-111">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="2df22-112">Clay ist ein Mitglied des Makler-Händler-Teams.</span><span class="sxs-lookup"><span data-stu-id="2df22-112">Clay is a member of the Brokers-Dealers team.</span></span>
+<span data-ttu-id="f12a3-111">In der Abbildung unten sehen Sie eine Untersuchung im Zusammenhang mit Clay.</span><span class="sxs-lookup"><span data-stu-id="f12a3-111">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="f12a3-112">Clay ist ein Mitglied des Makler-Händler-Teams.</span><span class="sxs-lookup"><span data-stu-id="f12a3-112">Clay is a member of the Brokers-Dealers team.</span></span>
 
-<span data-ttu-id="2df22-113">Wenn für alle Kanäle, über die Clay Maklerpläne diskutiert haben könnte, eine gesetzliche Aufbewahrungspflicht festgelegt ist, stellen Sie sicher, dass die SharePoint-Site des Teams zur Siteliste „Gesetzliche Aufbewahrungspflicht“ sowie zu Clays OneDrive for Business-Site hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="2df22-113">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
+<span data-ttu-id="f12a3-113">Wenn für alle Kanäle, über die Clay Maklerpläne diskutiert haben könnte, eine gesetzliche Aufbewahrungspflicht festgelegt ist, stellen Sie sicher, dass die SharePoint-Site des Teams zur Siteliste „Gesetzliche Aufbewahrungspflicht“ sowie zu Clays OneDrive for Business-Site hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="f12a3-113">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
 
 ![Screenshot des Dialogfelds „Neuen Fallspeicher erstellen“](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
 
-<span data-ttu-id="2df22-115">Zusammenfassung: Verwenden Sie die Tabelle unten, um zu verstehen, für welche Daten basierend auf den Datenanforderungen eine gesetzliche Aufbewahrungspflicht besteht.</span><span class="sxs-lookup"><span data-stu-id="2df22-115">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
+<span data-ttu-id="f12a3-115">Zusammenfassung: Verwenden Sie die Tabelle unten, um zu verstehen, für welche Daten basierend auf den Datenanforderungen eine gesetzliche Aufbewahrungspflicht besteht.</span><span class="sxs-lookup"><span data-stu-id="f12a3-115">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
 
-|<span data-ttu-id="2df22-116">Szenario</span><span class="sxs-lookup"><span data-stu-id="2df22-116">Scenario</span></span>  |<span data-ttu-id="2df22-117">Was muss aufbewahrt werden</span><span class="sxs-lookup"><span data-stu-id="2df22-117">What to place on hold</span></span>  |
+|<span data-ttu-id="f12a3-116">Szenario</span><span class="sxs-lookup"><span data-stu-id="f12a3-116">Scenario</span></span>  |<span data-ttu-id="f12a3-117">Was muss aufbewahrt werden</span><span class="sxs-lookup"><span data-stu-id="f12a3-117">What to place on hold</span></span>  |
 |---------|---------|
-|<span data-ttu-id="2df22-118">**Private Microsoft Teams-Chats**</span><span class="sxs-lookup"><span data-stu-id="2df22-118">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="2df22-119">Benutzerpostfächer</span><span class="sxs-lookup"><span data-stu-id="2df22-119">User mailbox</span></span>         |
-|<span data-ttu-id="2df22-120">**Microsoft Teams-Kanalchats**</span><span class="sxs-lookup"><span data-stu-id="2df22-120">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="2df22-121">Für das Team verwendete Gruppenpostfach</span><span class="sxs-lookup"><span data-stu-id="2df22-121">Group mailbox used for the team</span></span>         |
-|<span data-ttu-id="2df22-122">**Microsoft Teams-Inhalt (z. B. Wiki, Dateien)**</span><span class="sxs-lookup"><span data-stu-id="2df22-122">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="2df22-123">Vom Team verwendete SharePoint-Site</span><span class="sxs-lookup"><span data-stu-id="2df22-123">SharePoint site used by the team</span></span>         |
-|<span data-ttu-id="2df22-124">**Privater Inhalt**</span><span class="sxs-lookup"><span data-stu-id="2df22-124">**Private Content**</span></span>     |<span data-ttu-id="2df22-125">OneDrive for Business-Site des Benutzers</span><span class="sxs-lookup"><span data-stu-id="2df22-125">OneDrive for Business site of the user</span></span>         |
+|<span data-ttu-id="f12a3-118">**Private Microsoft Teams-Chats**</span><span class="sxs-lookup"><span data-stu-id="f12a3-118">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="f12a3-119">Benutzerpostfächer</span><span class="sxs-lookup"><span data-stu-id="f12a3-119">User mailbox</span></span>         |
+|<span data-ttu-id="f12a3-120">**Microsoft Teams-Kanalchats**</span><span class="sxs-lookup"><span data-stu-id="f12a3-120">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="f12a3-121">Für das Team verwendete Gruppenpostfach</span><span class="sxs-lookup"><span data-stu-id="f12a3-121">Group mailbox used for the team</span></span>         |
+|<span data-ttu-id="f12a3-122">**Microsoft Teams-Inhalt (z. B. Wiki, Dateien)**</span><span class="sxs-lookup"><span data-stu-id="f12a3-122">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="f12a3-123">Vom Team verwendete SharePoint-Site</span><span class="sxs-lookup"><span data-stu-id="f12a3-123">SharePoint site used by the team</span></span>         |
+|<span data-ttu-id="f12a3-124">**Privater Inhalt**</span><span class="sxs-lookup"><span data-stu-id="f12a3-124">**Private Content**</span></span>     |<span data-ttu-id="f12a3-125">OneDrive for Business-Site des Benutzers</span><span class="sxs-lookup"><span data-stu-id="f12a3-125">OneDrive for Business site of the user</span></span>         |

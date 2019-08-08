@@ -1,31 +1,32 @@
 ---
 title: Tools und Downloads für die Einführung
 ms.reviewer: karuanag
-description: Verwenden Sie diese Annahme Ressourcen zur Microsoft-Teams Akzeptanz und andere Office 365-Dienste.
+description: Verwenden Sie diese Adoptions Ressourcen, um Sie bei der Einführung von Microsoft Teams und anderen Office 365-Diensten zu unterstützen.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
+audience: admin
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902848"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236654"
 ---
-# <a name="tools-for-driving-adoption"></a>Tools für die Akzeptanz fördern 
+# <a name="tools-for-driving-adoption"></a>Tools für das Steuern der Einführung 
 
-Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Projektplans Annahme Service.  
+Verwenden Sie die nachstehenden Tools, um die einzelnen Phasen Ihres Service Adoptions Plans zu unterstützen.  
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -40,8 +41,8 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Annahme Projektplänen</h3>
-                        <p>JumpStart Ihrer Planung mit unserem Annahme Plan Dateien</p>
+                        <h3>Adoptions Projektpläne</h3>
+                        <p>JumpStart your Planning mit unseren Adoptions Plandateien</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +61,8 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Beispiel-Rollen und Arbeitsweisen</h3>
-                        <p>Verwenden Sie diese Vorlagen zum zuordnen, was Ihre Mitarbeiter wichtig ist<p>
+                        <h3>Beispiel für Personas und Arbeitsstile</h3>
+                        <p>Verwenden Sie diese Vorlagen, um zu sehen, was für Ihre Mitarbeiter wichtig ist.<p>
                     </div>
                 </div>
             </div>
@@ -80,7 +81,7 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Verwenden Sie diese Vorlage, weisen Sie wichtige Teammitglieder Arbeitsabläufe sichergestellt ist und mit Projektbeteiligten zu kommunizieren</h3>
+                        <h3>Verwenden Sie diese Vorlage, um wichtigen Teammitgliedern Arbeitsstreams zuzuweisen und mit den Beteiligten zu kommunizieren.</h3>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Gelten Sie Ihre Mitarbeiter mit diesen Tag in den Lebenszyklus quicksheets</h3>
+                        <h3>Inspirieren Sie Ihre Mitarbeiter mit diesen Tagen im Leben quicksheets</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Embeddable Videoressourcen für Champions und IT-Fachleute</h3>
+                        <h3>Integrierbare Videoressourcen für Champions und ITPros</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Vorbereiten Sie Ihrer Helpdesk für Microsoft-Teams</h3>
+                        <h3>Vorbereiten Ihres Helpdesks für Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -146,10 +147,10 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
 
 
 ### <a name="office-365-champions-program"></a>Office 365 Champions-Programm
-Das Office 365 Champions Programm ist ein kostenlose Programm, mit der Personen, die von Microsoft-Teams und andere Office 365-Dienste Weitere abrufen möchten. Unsere online-Community in der [Technischen Microsoft-Community](https://aka.ms/DriveAdoption) kombiniert mit monatlichen Community-Anrufe, die alle Komponenten der Annahme von Governance bewährte Methoden zu neuen Features gesteuerter markieren. Schließen Sie unsere Community unter https://aka.ms/O365Champions und Zugriff auf aufrecht erhalten möchten, aus anderen Kunden zu hören, und lernen Sie von Microsoft-Experten.  
+Das Office 365 Champions-Programm ist ein kostenloses Programm, das Personen hilft, die mehr von Microsoft Teams und anderen Office 365-Diensten erhalten möchten. Wir kombinieren unsere Online-Community in der [technischen Microsoft-Community](https://aka.ms/DriveAdoption) mit monatlichen Community-anrufen, die alle Komponenten der Einführung von Governance auf bewährte Methoden für neue Funktionen unterstreichen. Nehmen Sie an https://aka.ms/O365Champions unserer Community Teil und erhalten Sie Zugriff auf Vorzeitige Freigabe, hören Sie von anderen Kunden und lernen Sie von Microsoft-Experten.  
 
-### <a name="teams-adoption-guide"></a>Teams Annahme Guide
-Auschecken die [Teams Annahme Daumenkino](https://aka.ms/teamstoolkit), ein online-Entwicklerhandbuch, die Ihnen helfen einführen Teams in Ihrem Unternehmen. Sie enthält viele herunterladbare Tools, Vorlagen und anderen Ressourcen, die Sie entlang Ihrer Teams Weg unterstützen.
+### <a name="teams-adoption-guide"></a>Leitfaden zur Einführung von Teams
+Schauen Sie sich das [Daumenkino für Teams](https://aka.ms/teamstoolkit)an, einen Online-Leitfaden, der Ihnen bei der Einführung von Teams in Ihrem Unternehmen helfen wird. Es enthält viele herunterladbare Tools, Vorlagen und andere Ressourcen, die Ihnen bei der Einführung ihrer Teams helfen.
 
-### <a name="teams-customer-success-kit"></a>Teams Customer Success Kit
-Das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) enthält Tools, damit Teams in Ihrer Organisation bereitstellen. Sie umfasst e-Mail-Vorlagen für Ankündigungen, Handzettel Poster, Countdown und Tipps & Tricks. Darüber hinaus Leitfäden für Teamleiter und IT-Administratoren erste Schritte.
+### <a name="teams-customer-success-kit"></a>Kunden-Erfolgs-Kit für Teams
+Das [Team Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) bietet Tools, die Ihnen beim Rollout von Teams in Ihrer Organisation helfen. Dazu gehören e-Mail-Vorlagen für Ankündigungen, Flyer Poster, Countdown und Tipps #a0 Tricks. Dazu gehören auch erste Schritte für Teamleiter und IT-Administratoren.
