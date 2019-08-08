@@ -644,7 +644,6 @@
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Features für Mitarbeiter in Service und Produktion in Kürze in Microsoft Teams verfügbar](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Installieren des Microsoft StaffHub PowerShell-Moduls](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
