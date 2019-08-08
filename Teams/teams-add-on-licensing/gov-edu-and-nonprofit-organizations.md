@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: 1e9fc8f4cc7d658285e3e871700caa651736acfd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b52fdea992d2b759ad7ae252a179e5f6c771327b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298587"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242813"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 

@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbea76639fe1be0edb3269fc345d3e0d4a89e721
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305393"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243333"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -44,21 +44,12 @@ Weitere Informationen zu diesen Abhängigkeiten finden Sie in den folgenden Link
 -   [Zertifikate](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Pro Tipp** : Wenn Sie beabsichtigen, Proxy Server für den Zugriff auf Microsoft Teams oder Skype for Business Online zu verwenden, [Lesen Sie diesen Artikel](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)zuerst. Beachten Sie, dass es bei Skype for Business-Datenverkehr über Proxy-Server empfehlenswert ist, Proxy Server komplett zu umgehen. Skype for Business-Datenverkehr ist bereits verschlüsselt, sodass Proxy Server ihn nicht sicherer machen. Im Rahmen ihrer umfassenderen Bereitstellung empfehlen wir, dass Sie die Anleitungen unter [evaluieren meiner Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für die Bandbreitenplanung befolgen und die Eignung Ihres Netzwerks für den Echtzeitverkehr bewerten. Verwenden Sie für die gesamte Bandbreitenplanung den myadvisor- [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Es wird empfohlen, dass Sie eine Microsoft Teams rooms-Rolle erstellen, um die vorgesehene Verwendung von Microsoft Teams Rooms zu reflektieren [Video, Bildschirmübertragung, Audio], und weisen Sie eine Reihe von Benutzern zu, die der Anzahl der Microsoft Teams Room-Einheiten entsprechen, die auf jeder Website bereitgestellt werden sollen.) 
+**Pro Tipp** : Wenn Sie beabsichtigen, Proxy Server für den Zugriff auf Microsoft Teams oder Skype for Business Online zu verwenden, [Lesen Sie diesen Artikel](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)zuerst. Beachten Sie, dass es bei Skype for Business-Datenverkehr über Proxy-Server empfehlenswert ist, Proxy Server komplett zu umgehen. Skype for Business-Datenverkehr ist bereits verschlüsselt, sodass Proxy Server ihn nicht sicherer machen. Im Rahmen ihrer umfassenderen Bereitstellung empfehlen wir, dass Sie die Anleitungen unter [evaluieren meiner Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für die Bandbreitenplanung befolgen und die Eignung Ihres Netzwerks für den Echtzeitverkehr bewerten.
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites die wichtigsten Anforderungen für Microsoft Teams-Chatrooms erfüllen.</li><li>Vergewissern Sie sich, dass Sie für jede Website genügend Bandbreite bereitgestellt haben.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihrer Gerätebereitstellung und-Konfiguration.</li></ul>| 
-
-**Pro-Tipp-** Aus Sicht der Website-für-Website-Planung können Sie die folgenden Ressourcen nützlich finden. Sie decken mehr als nur Microsoft Teams-Räume ab und können in einem vollständigen Rollout von Skype for Business Online verwendet werden:
-
--   [Bereitstellungshandbuch für Website Rollout/Migrationsplanung](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [Website Rollout und Migrationsplanung – Textbuch](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > Führen Sie im Textbuch die Aufgaben im Abschnitt "4,3 – > Konferenzräume" unter dem "4-Endpunkte"-Bogen für jede Website aus, auf der Sie Microsoft Teams rooms-Geräte bereitstellen möchten. Auf diese Weise können Sie das Bereitstellungsskript für das Massen Konto später während des Prozesses verwenden. 
 
 ## <a name="service-readiness"></a>Bereitschaft für den Dienst
 
@@ -129,9 +120,6 @@ Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ress
 
 **Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den*Namen*der Konventions *Website*-(max. Raumkapazität)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs.** 
 
-Wenn Ihre Organisation über viele Konferenzräume verfügt, für die mehrere, bereitgestellte Konten erforderlich sind, sollten Sie die Bereitstellungs [Skripts für Skype Room Systems-Konten](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) verwenden, um mehrere Dienstkonten in automatisierter Weise zu Massen bereitzustellen.
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie sich für die Benennungskonvention für Ihre Microsoft Teams rooms-Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen oder Massen Bereitstellungsskripts verwenden möchten.</li></ul>| 
@@ -144,7 +132,7 @@ Wenn Sie die Bereitstellung von Microsoft Teams-Räumen planen, haben Sie eine R
 
 | **Szenario**            | **Ansatz**         |
 |-------------------------|-----------------------|   
-|Bereitstelleneiner kleinen Anzahl von Microsoft Teams rooms-Geräten (<10) | Wenn Sie Surface pro-basierte Microsoft Teams-Räume verwenden, folgen Sie den [Installationsanweisungen für die Installation pro Gerät](console.md). [Dieses handliche Video führt Sie durch den Vorgang.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, verwenden Sie das Image des Herstellers, und konfigurieren Sie die Einstellungen nach Bedarf. |
+|Bereitstelleneiner kleinen Anzahl von Microsoft Teams rooms-Geräten (<10). | Wenn Sie Surface pro-basierte Microsoft Teams-Räume verwenden, folgen Sie den [Installationsanweisungen für die Installation pro Gerät](console.md). [Dieses handliche Video führt Sie durch den Vorgang.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, verwenden Sie das Image des Herstellers, und konfigurieren Sie die Einstellungen nach Bedarf. |
 | Bereitstellen von 10-und 50-Geräten von einem einzelnen Anbieter.     | Erstellen Sie ein WIM-basiertes Bild, pausieren Sie nach [Schritt 6 in der Anleitung](console.md), und erfassen Sie ein Verteilungs Bild, das mit ihrer Verteilungstechnologie für das Klonen verwendet werden soll.    |
 | Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Task Sequenzer basierende Software-Build-und-Verteilungsplattform, wie etwa [System Center Configuration Manager](room-systems-scale.md).  |
 
@@ -200,9 +188,7 @@ Nachdem das Microsoft Teams rooms-System bereitgestellt wurde, sollten Sie es te
 
 Wir empfehlen, dass Sie im Rahmen der allgemeinen Teams oder des Skype for Business-Rollouts Bausteine für das Anruf Qualitäts Dashboard (CQD) konfigurieren, qualitätstrends überwachen und sich an der Prüfung der Qualität der Erfahrung beteiligen. Weitere Informationen finden Sie im [Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide). 
 
-**Pro-Tipp** – die [Test Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) , die in myadvisor zur Verfügung steht, enthält eine Registerkarte mit einer Reihe von Microsoft Teams rooms-Tests, die Sie im Rahmen Ihrer Tests überprüfen sollten. [](https://myadvisor.fasttrack.microsoft.com/) 
-
-### <a name="asset-management"></a>Ressourcenverwaltung 
+### <a name="asset-management"></a>Ressourcenverwaltung
 
 Als Teil der Bereitstellung sollten Sie Ihr Anlagenregister mit dem Raumnamen, dem Gerätenamen für Microsoft Teams rooms, dem Ressourcenkonto für signierte Microsoft Teams und den zugewiesenen Peripheriegeräten (und den verwendeten USB-Ports) aktualisieren. 
 

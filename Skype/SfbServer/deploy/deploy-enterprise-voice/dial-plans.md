@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie einen Wählplan mithilfe der Skype for Business Server-Systemsteuerung erstellen oder ändern.'
-ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291651"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240505"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Erstellen oder Ändern eines Wählplans in Skype for Business Server
 
@@ -45,12 +45,12 @@ ms.locfileid: "34291651"
 4. Wenn Sie einen Wählplan erstellen, geben Sie im Dialogfeld **Neuer Wählplan** im Feld **Name** einen beschreibenden Namen ein. Nach dem Speichern kann dieser Name nicht mehr geändert werden.
 
     > [!NOTE]
-    > Bei Website Wählplänen ist das Feld **Name** mit dem Namen der Website gefüllt und kann nicht geändert werden. > für Pool-Wählpläne ist das Feld **Name** mit dem Namen des PSTN-Gateways oder der Registrierungsstelle belegt und kann nicht geändert werden.
+    > Bei Website Wählplänen ist das Feld **Name** mit dem Namen der Website gefüllt und kann nicht geändert werden. #a0 für Pool Wählpläne ist das Feld **Name** mit dem Namen des PSTN-Gateways oder der Registrierungsstelle belegt und kann nicht geändert werden.
 
 5. Das Feld **Einfacher Name** wird mit demselben Namen vorausgefüllt, der im Feld **Name** erscheint. Sie können dieses Feld optional bearbeiten, um einen aussagekräftigeren Namen anzugeben, der den Standort, Dienst oder Benutzer zur Anwendung des Wählplans besser beschreibt.
 
    > [!IMPORTANT]
-   > Der **einfache Name** muss bei allen Wählplänen in Ihrer Bereitstellung eindeutig sein. Sie kann 256-Unicode-Zeichen nicht überschreiten, die jeweils ein alphabetisches oder numerisches Zeichen, einen Bindestrich (-), einen Punkt (.) oder einen Unterstrich (_) aufweisen können. >-Zeichen, die **nicht unterstützt** werden,<http://www.ietf.org/rfc/rfc3966.txt>umfassen Leerzeichen und reservierte Zeichen, wie in RFC 3966 () definiert. Reservierte Zeichen, die im **einfachen Namen** **nicht unterstützt** werden, umfassen Folgendes: > ";" "/" "?" ":" "@"&amp;"" "=" "+" "$" ";"
+   > Der **einfache Name** muss bei allen Wählplänen in Ihrer Bereitstellung eindeutig sein. Sie kann 256-Unicode-Zeichen nicht überschreiten, die jeweils ein alphabetisches oder numerisches Zeichen, einen Bindestrich (-), einen Punkt (.) oder einen Unterstrich (_) aufweisen können. #a0 Zeichen, die **nicht unterstützt** werden, umfassen<http://www.ietf.org/rfc/rfc3966.txt>Leerzeichen und reservierte Zeichen gemäß Definition in RFC 3966 (). Reservierte Zeichen, die im **einfachen Namen** **nicht unterstützt** werden, umfassen Folgendes: #a0 ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Optional) Geben Sie im Feld **Beschreibung** zusätzliche beschreibende Informationen zum Wählplan ein.
 
@@ -109,7 +109,7 @@ ms.locfileid: "34291651"
 5. (Optional) Bearbeiten Sie im Abschnitt **Wähleinstellungen bearbeiten** das Feld **Einfacher Name** (dieses wird mit dem Namen im Feld **Name** vorausgefüllt), um einen beschreibenderen Namen einzugeben, der den Standort, Dienst oder Benutzer angibt, für den die Wähleinstellungen gelten.
 
     > [!IMPORTANT]
-    > Der **einfache Name** muss bei allen Wählplänen innerhalb der lync Server 2013-Bereitstellung eindeutig sein. Sie kann 256-Unicode-Zeichen nicht überschreiten, die jeweils ein alphabetisches oder numerisches Zeichen, einen Bindestrich (-), einen Punkt (.), ein Pluszeichen (+) oder einen Unterstrich (_) aufweisen können. > Leerzeichen sind im Feld " **einfacher Name** " nicht zulässig.
+    > Der **einfache Name** muss bei allen Wählplänen innerhalb der lync Server 2013-Bereitstellung eindeutig sein. Sie kann 256-Unicode-Zeichen nicht überschreiten, die jeweils ein alphabetisches oder numerisches Zeichen, einen Bindestrich (-), einen Punkt (.), ein Pluszeichen (+) oder einen Unterstrich (_) aufweisen können. #a0 Leerzeichen sind im Feld " **einfacher Name** " nicht zulässig.
 
 6. (Optional) Geben Sie im Feld **Beschreibung** beschreibende Informationen zu den Wähleinstellungen ein.
 

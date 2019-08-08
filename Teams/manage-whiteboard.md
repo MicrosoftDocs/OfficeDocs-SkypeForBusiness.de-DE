@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Informationen zur Verwendung der Whiteboard Web App (Preview) in Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dad25767c5269b55a186d6d3c460c6fbd27fc6
-ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
+ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433734"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233258"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 ==========================================
@@ -42,7 +43,7 @@ Gehen Sie wie folgt vor, um die Whiteboard Web App (Preview) zu aktivieren oder 
 
 2. Wechseln Sie zu **Einstellungen** > **Dienste und Add-Ins**.
 
-3. Scrollen Sie auf der Seite " **Dienst &-Add-ins** " nach unten, und wählen Sie dann **Whiteboard**aus.
+3. Scrollen Sie auf der Seite **Dienst #a0 Add-ins** nach unten, und wählen Sie dann **Whiteboard**aus.
 
 4. Wenn Sie die Whiteboard-App aktivieren möchten, wechseln Sie im **Whiteboard** -Bereich zu **Aktivieren oder Deaktivieren der Whiteboard-Vorschau für die gesamte Organisation** auf **ein**.
 

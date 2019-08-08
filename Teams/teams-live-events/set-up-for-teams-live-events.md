@@ -1,31 +1,32 @@
 ---
 title: Einrichten von Live-Ereignissen in Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 03/06/2019
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Informieren Sie sich über die Schritte zum Einrichten von Live für Ereignisse in Microsoft Teams, einschließlich der Vorbereitung Ihres Netzwerks, dem Zuweisen von Lizenzen, dem Verwenden von Richtlinien zum Aktivieren von Live Ereignis Features und der Terminplanung für Benutzer sowie dem Einrichten eines Drittanbieters für den Vertrieb.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012997"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237368"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
-Wenn Sie für Live-Events einrichten, müssen Sie mehrere Schritte ausführen:
+Wenn Sie für Live-Events einrichten, müssen Sie mehrere Schritte ausführen.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Schritt 1: Einrichten Ihres Netzwerks für Live-Events in Teams
 Bei Live Ereignissen, die in Teams erstellt wurden, müssen Sie [das Netzwerk Ihrer Organisation für Teams vorbereiten](https://docs.microsoft.com/microsoftteams/prepare-network).  
@@ -37,7 +38,7 @@ Stellen Sie sicher, dass Sie über korrekte Lizenzzuweisungen für [Personen ver
 Mithilfe von Live Ereignisrichtlinien können Sie steuern, wer in Ihrer Organisation Live Ereignisse und die Features enthalten kann, die in den von Ihnen erstellten Ereignissen zur Verfügung stehen. Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Live Ereignisrichtlinien erstellen. Nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, weisen Sie Sie einem Benutzer oder Gruppen von Benutzern in Ihrer Organisation zu.
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation erhalten die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen. Standardmäßig ist in der globalen Richtlinie die Live-Ereignisplanung für Teams-Benutzer aktiviert, die Transkription ist deaktiviert, jeder in der Organisation kann an Live-Ereignissen teilnehmen, und die Aufnahmeeinstellung ist auf immer aufzeichnen festgelegt. 
+> Benutzer in Ihrer Organisation erhalten die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen. Standardmäßig ist in der globalen Richtlinie die Live-Ereignisplanung für Teams-Benutzer aktiviert, Live Beschriftungen und Untertitel (Transkription) deaktiviert, jeder in der Organisation kann an Live Ereignissen teilnehmen, und die Aufnahmeeinstellung ist auf immer aufzeichnen festgelegt. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Live Ereignis Richtlinie
 <a name="bkcreatepolicy"> </a>
@@ -59,8 +60,8 @@ Mithilfe von Live Ereignisrichtlinien können Sie steuern, wer in Ihrer Organisa
 |**Name**     |Dies ist der Name der Richtlinie, die auf der Seite "Live-Ereignisrichtlinien" angezeigt wird. Sie darf nicht länger als 64 Zeichen sein oder Sonderzeichen enthalten.          |
 |**Beschreibung**    |Verwenden Sie diese, um eine benutzerfreundliche Beschreibung für die Richtlinie hinzuzufügen.         |
 |**Planen zulassen**     |Wenn Sie diese Option aktivieren, können Benutzer in Ihrer Organisation Live Ereignisse in Teams erstellen und planen. Es ist wichtig zu wissen, dass Sie, wenn Sie möchten, dass Benutzer ein Live-Ereignis planen, das mit einer externen APP oder einem Gerät erstellt wurde, weitere Schritte ausführen müssen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern zum Planen von Ereignissen, die mit einer externen APP oder einem externen Gerät erstellt wurden](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Transkription für Teilnehmer zulassen** (in Kürze verfügbar) |Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams erstellt wurden. Wenn Sie diese Option aktivieren, können Live-Event-Teilnehmer während des Ereignisses Echt Zeit Beschriftungen und Übersetzungen anzeigen.         |
-|**Wer kann an geplanten Live-Events teilnehmen?**    |Wählen Sie eine der folgenden Optionen aus:<br><br>**Alle Personen** Benutzer können Live Ereignisse erstellen, an denen alle Personen, einschließlich Personen außerhalb Ihrer Organisation, teilnehmen können. Diese Einstellung aktiviert den **öffentlichen** Berechtigungstyp in Teams, wenn ein Benutzer ein Live-Ereignis plant.<br> **Jeder in der Organisation** Benutzer können Live Ereignisse erstellen, an denen nur Personen in Ihrer Organisation teilnehmen können. Benutzer können keine Live Ereignisse erstellen, die von anonymen Benutzern besucht werden. Mit dieser Einstellung wird der **organisationsweite** Berechtigungstyp in Teams aktiviert, wenn ein Benutzer ein Live-Ereignis plant.<br> **Bestimmte Benutzer oder Gruppen** Benutzer können Live Ereignisse erstellen, an denen nur bestimmte Benutzer oder Gruppen in Ihrer Organisation teilnehmen können. Benutzer können keine Live Ereignisse erstellen, die von allen Personen in Ihrer Organisation oder von anonymen Benutzern besucht werden. Diese Einstellung aktiviert den Berechtigungstyp **Personen und Gruppen** in Teams, wenn ein Benutzer ein Live Ereignis plant.       |
+|**Transkription für Teilnehmer zulassen** |Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams erstellt wurden. Wenn Sie diese Option aktivieren, können Live-Event-Teilnehmer während des Ereignisses Live-Beschriftungen und Untertitel sehen.         |
+|**Wer kann an geplanten Live-Events teilnehmen?**    |Wählen Sie eine der folgenden Optionen aus:<br><br>**Alle Personen** Benutzer können Live Ereignisse erstellen, an denen alle Personen, einschließlich Personen außerhalb Ihrer Organisation, teilnehmen können. Diese Einstellung aktiviert den **öffentlichen** Berechtigungstyp in Teams, wenn ein Benutzer ein Live-Ereignis plant.<br> **Jeder in der Organisation** Benutzer können Live Ereignisse erstellen, die Personen in Ihrer Organisation, einschließlich [Gastbenutzern](../add-guests.md) , die Ihrer Organisation hinzugefügt wurden, teilnehmen können. Benutzer können keine Live Ereignisse erstellen, die von anonymen Benutzern besucht werden. Mit dieser Einstellung wird der **organisationsweite** Berechtigungstyp in Teams aktiviert, wenn ein Benutzer ein Live-Ereignis plant.<br> **Bestimmte Benutzer oder Gruppen** Benutzer können Live Ereignisse erstellen, an denen nur bestimmte Benutzer oder Gruppen in Ihrer Organisation teilnehmen können. Benutzer können keine Live Ereignisse erstellen, die von allen Personen in Ihrer Organisation oder von anonymen Benutzern besucht werden. Diese Einstellung aktiviert den Berechtigungstyp **Personen und Gruppen** in Teams, wenn ein Benutzer ein Live Ereignis plant.       |
 |**Aufnahmeeinstellung**  <br>     | Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams erstellt wurden. Wählen Sie eine der folgenden Optionen aus: <br><br> **Immer aufzeichnen** Von Benutzern erstellte Live Ereignisse werden immer aufgezeichnet. Nachdem das Ereignis beendet ist, können die Mitglieder des veranstaltungsteams die Aufzeichnung herunterladen, und die Teilnehmer können das Ereignis sehen. <br> **Niemals aufzeichnen** Von Benutzern erstellte Live Ereignisse werden nie aufgezeichnet. <br>**Organizer kann Daten aufzeichnen oder nicht** Benutzer können entscheiden, ob Sie das Live-Ereignis aufzeichnen möchten. Wenn die Aufzeichnung nach dem Ereignis beendet ist, können die Mitglieder des veranstaltungsteams die Aufzeichnung herunterladen, und die Teilnehmer können das Ereignis sehen.      
 
 Sie können dies auch mithilfe von Windows PowerShell tun. Weitere Informationen finden Sie unter [Verwenden von PowerShell zum Einrichten von Live Ereignisrichtlinien in Teams](set-teams-live-events-policies-using-powershell.md). 

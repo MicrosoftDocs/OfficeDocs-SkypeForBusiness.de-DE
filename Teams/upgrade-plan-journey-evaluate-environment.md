@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Verwenden Sie diese Anleitung, um sich über die Anforderungen für eine ordnungsgemäße Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf Teams zu informieren.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494610"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236103"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
@@ -138,15 +139,12 @@ Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation zu
 > | Wie (oder wie werden) die Benutzer im Bereich für die Migration <br>Access Teams, wenn Sie im Büro sind? <br/>Wählen Sie alle zutreffenden aus. | <input type="checkbox">Weitergeleitete NAT-Verbindung <br/> <input type="checkbox">Proxy Server <br/> <input type="checkbox">Öffentliches Wi-Fi <br/> <input type="checkbox">Verwaltetes (nicht öffentliches) Wi-Fi <br/> <input type="checkbox">Express Route (Microsoft Peering) ||
 > | Wenn der Zugriff auf Office 365 über einen Proxy Server erfolgt, gibt es <br>gibt es eine Möglichkeit, den Proxy zu umgehen? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Wird ExpressRoute zurzeit genutzt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein <br/> <input type="checkbox">Nein, aber es ist geplant. | |
-> | Haben Sie eine Netzwerk Bereitschafts Beurteilung durchgeführt? <br/>Weitere Informationen finden Sie unter [Netzwerk Bereitschaftsbewertung](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
+> | Haben Sie eine Netzwerk Bereitschafts Beurteilung durchgeführt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Sind Benutzer für die Verwendung eines VPNs beim Herstellen einer Verbindung erforderlich <br>Unternehmensressourcen Remote? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Wenn ein VPN verwendet wird, kann der Datenverkehr von Teams ausgeschlossen werden. <br>das VPN für den direkten Zugriff auf Office 365-Dienste? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Unterstützt Ihr Netzwerk QoS? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Können Sie den Team-Audio-und Videoverkehr priorisieren <br>um eine hohe Qualität zu erzielen? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Verfügen alle Standorte innerhalb einer Region über einen Internet Ausstieg, <br>oder ist der Internet Ausstieg für die gesamte Region zentralisiert? | <input type="checkbox">Regionaler Zugriff auf das Internet <br/> <input type="checkbox">Zentralisierter Zugriff auf das Internet | |
-
-> [!TIP]
-> Informationen zum Berechnen der Bandbreite und anderer Netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung finden Sie unter [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in myadvisor, abhängig von [](https://myadvisor.fasttrack.microsoft.com/)den Details Ihrer Organisation und der geschätzten Verwendung.
 
 ## <a name="endpoints"></a>Endpunkte
 

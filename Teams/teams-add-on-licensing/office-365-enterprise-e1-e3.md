@@ -8,7 +8,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E1-und E3-Plänen. '
-ms.openlocfilehash: 429435fe03578df149b8e141e30bfc894a528061
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 30a7f18382c6fcbc28d80089c5cd9f855c00aa8e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298479"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242647"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1- und E3
 

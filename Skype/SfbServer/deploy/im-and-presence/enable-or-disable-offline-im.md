@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Erfahren Sie, wie Sie offline-Sofortnachrichten (im) in Skype for Business Server aktivieren oder deaktivieren können.
-ms.openlocfilehash: 77078b6092dc1d23dde1315c505c5baf26798b86
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 363f7c54d682dc619417a8d9601c7beafc8283c6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289707"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235547"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von Instant Messaging (im) für Offline-Chats in Skype for Business Server
  

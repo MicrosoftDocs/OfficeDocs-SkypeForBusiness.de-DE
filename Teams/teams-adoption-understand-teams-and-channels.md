@@ -1,7 +1,7 @@
 ---
 title: Vertrautmachen mit Teams und Kanälen in Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,51 +10,51 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Weitere Informationen zur Strukturierung von Teams und Kanäle in Microsoft-Teams.
+description: Weitere Informationen zum Strukturieren von Teams und Kanälen in Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 449ab839a12c26f9fd1b67d49fbcaf98363e8bfa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227009"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240771"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
-Die Konzepte von Teams und Kanäle sind ein wesentlicher Bestandteil einer fehlerfreien, produktive Implementierung der Microsoft-Teams. 
+Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produktive Implementierung von Microsoft Teams. 
 
-- Ein Team ist eine Auflistung von Personen, Inhalt und Tools, die zusammenarbeiten, um eine Geschäftsergebnisse für Ihr Unternehmen zu erstellen. Teams basieren auf Office 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. 
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Office 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. 
 
-- Kanäle werden die Leerzeichen für die Zusammenarbeit innerhalb eines Teams, in dem die aktuelle Arbeit geleistet wird. 
+- Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 
-Weitere Informationen zu Teams und Kanäle finden Sie unter [Übersicht über Teams und Kanäle in Microsoft-Teams](teams-channels-overview.md). Umfassende Teams Annahme Anleitungen lesen Sie den [Teams Annahme Guide](https:aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365 Gruppen zu finden, finden Sie unter [Office 365-Gruppen und Microsoft-Teams,](office-365-groups.md) und [erfahren Sie mehr über Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Weitere Informationen zu Teams und Kanälen finden Sie in der [Übersicht zu Teams und Kanälen in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen zur Einführung von Teams finden Sie im [Leitfaden zur Einführung von Teams](https:aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365-Gruppen finden Sie unter [Office 365-Gruppen und Microsoft Teams](office-365-groups.md) und [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
-| In diesem kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Dieses kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 
 
 
-Team Zugriffsarten bestimmen, die zu einem Team stoßen können:
+Team Zugriffstypen bestimmen, wer einem Team beitreten kann:
 
 - *Private* Teams sind auf Teammitglieder beschränkt, die von den Teambesitzern genehmigt werden. Dies ist eine typische Einstellung für Projektteams und virtuelle Teams in einer großen Organisation.
 
-- *Öffentliche* Teams an alle Personen in der Organisation geöffnet sind, und Benutzer können sie direkt teilnehmen. Öffentliche Teams eignen sich für die Zusammenarbeit in Themen von allgemeinem Interesse an Personen in anderen Abteilungen oder anderen Personen, die verschiedene Projekte arbeiten. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
+- *Öffentliche* Teams sind für alle Personen in der Organisation geöffnet, und die Benutzer können direkt daran teilnehmen. Öffentliche Teams sind hilfreich für die Zusammenarbeit in Themen von allgemeinem Interesse für Personen in verschiedenen Abteilungen oder für Personen, die an verschiedenen Projekten arbeiten. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden von Teams auf Laufwerk organisationsübergreifende für die Zusammenarbeit
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden von Teams zum Steuern der organisationsübergreifenden Zusammenarbeit
 
-Es ist ratsam, Teams nutzen, um für die organisationsübergreifende Zusammenarbeit zu verbessern und viele Projekte eignen sich für dieses Modell. Darüber hinaus beispielsweise leitender Position im Unternehmen oder Abteilungen innerhalb einer Organisation ein dediziertes Team für Ihren eigenen möchten. Berücksichtigen Sie die Organisationseinheit, und projizieren Sie Modelle, die in der folgenden Abbildung dargestellt.
+Es empfiehlt sich, Teams zu verwenden, um die organisationsübergreifende Zusammenarbeit zu verbessern, und viele Projekte werden diesem Modell zur Verfügung stehen. Darüber hinaus möchten Führungskräfte oder Abteilungen innerhalb einer Organisation möglicherweise ein dediziertes Team für Ihre eigenen Personen suchen. Denken Sie an die in der nachstehenden Abbildung gezeigten Organisations-und Projektmodelle.
 
-![Organisation und Project-Modelle](media/teams-adoption-organization-project.png)
+![Organisations-und Projektmodelle](media/teams-adoption-organization-project.png)
 
-In einer Organisationseinheit Team (siehe Abbildung auf der linken Seite) können wichtige Informationen über die Möglichkeit, dass Organisation ausgeführt, dessen Business, Teamereignisse, Core Strategien wird und andere betriebliche Informationen, wie Business Reviews (engl.), gemeinsam genutzt werden. Für das Team auf der rechten Seite angezeigt wird ist der Bezirk Informationen in Kanäle unterteilt, die die Kategorien von Arbeit darstellen, die von diesem Team abgewickelt werden. Mitglieder dieser Gruppe können oder meldet möglicherweise nicht auf die gleiche Person, aber alle in die Ergebnisse für Bezirk gesteuerter tätig sind.
+In einem Organisationsteam (das auf der linken Seite angezeigt wird) werden wichtige Informationen über die Art und Weise, in der die Organisation Ihr Unternehmen ausführt, Teamereignisse, Kernstrategien und andere operative Informationen, wie etwa Unternehmens Rezensionen, möglicherweise freigegeben. Für das Team, das auf der rechten Seite angezeigt wird, werden die Informationen des Distrikts in Kanäle aufgeteilt, die die Arbeitskategorien darstellen, die von diesem Team durchgeführt werden. Mitglieder dieses Teams können der gleichen Person Berichten oder nicht, aber Sie sind alle daran beteiligt, die Ergebnisse für den Distrikt zu steuern.
   
-Arbeiten Sie mehr über die Struktur des Teams in [Phase 2](teams-adoption-phase2-experiment.md) Ihrer Implementierung.
+Sie werden in [Phase 2](teams-adoption-phase2-experiment.md) ihrer Implementierung mehr an der Struktur Ihrer Teams arbeiten.
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)
+![Ein Symbol, das den nächsten Schritt](media/teams-adoption-next-icon.png) als nächstes zeigt: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)

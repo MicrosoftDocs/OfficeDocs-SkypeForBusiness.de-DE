@@ -7,6 +7,7 @@ ms.reviewer: mikedav, oscarr
 ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 5226df97db101088e5a843b6a130dd36c16eb460
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 43ddad059b0028d7d79bc5e5f2430148e463d9be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334855"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235169"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Einschränkungen für gebührenfreie Telefonnummern in Indien
 

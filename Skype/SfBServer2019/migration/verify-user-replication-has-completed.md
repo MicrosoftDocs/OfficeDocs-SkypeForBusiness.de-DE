@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Bei der Ausführung des Cmdlets Move-CsUser tritt möglicherweise ein Fehler auf, da die Benutzerinformationen zwischen den Active Directory-Domänendiensten (AD DS) und den Skype for Business Server 2019-Datenbanken nicht synchronisiert sind, weil die anfängliche Replikation unvollständig ist. Die Zeitdauer für den erfolgreichen Abschluss der ersten Synchronisierung des Skype for Business Server 2019-Benutzerreplikationsdiensts hängt von der Anzahl der Domänencontroller ab, die in der Active Directory-Gesamtstruktur gehostet werden, die das Skype for Business hostet. Server 2019-Pool. Der erste Synchronisierungsvorgang des Skype for Business Server 2019-Benutzerreplikationsdiensts erfolgt, wenn der Skype for Business Server 2019-Front-End-Server zum ersten Mal gestartet wird. Danach basiert die Synchronisierung auf dem Intervall des Benutzerreplikationsdiensts. Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Benutzerreplikation abgeschlossen ist, bevor Sie das Cmdlet Move-CsUser ausführen.
-ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12bb3c29f703287934358f331dc945830e318afb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280646"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243711"
 ---
 # <a name="verify-user-replication-has-completed"></a>Überprüfen, ob die Benutzerreplikation abgeschlossen wurde
 

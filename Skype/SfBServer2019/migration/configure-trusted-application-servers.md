@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als Skype for Business Server 2019-Pool einrichten. In einer gemischten Umgebung werden sowohl der Legacy Pool als auch der Skype for Business Server 2019-Pool in der Dropdownliste angezeigt. Das Auswählen des Legacy Pools wird nicht unterstützt.
-ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b715cd7f3f067c5e54dbc085350fcc7f96b5c4be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289599"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239298"
 ---
 # <a name="configure-trusted-application-servers"></a>Konfigurieren von vertrauenswürdigen Anwendungsservern
 

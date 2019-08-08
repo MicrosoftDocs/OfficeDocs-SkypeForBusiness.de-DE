@@ -1,4 +1,5 @@
 ---
+title: Gebührenfreie Wähleinschränkungen in Australien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 7201b2fd540d5703aa6f051cceb99677245d768c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330572"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241833"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Gebührenfreie Wähleinschränkungen in Australien
 

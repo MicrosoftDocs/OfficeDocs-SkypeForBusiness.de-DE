@@ -1,46 +1,47 @@
 ---
-title: Upgrade auf Microsoft-Teams | Skype für Teams Unternehmensziele
+title: Upgrade auf Microsoft Teams | Roadmap für Skype for Business Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Wählen Sie einen Aktualisierungspfad zu Microsoft-Teams, basierend auf Ihrer aktuellen Skype für die Business-Bereitstellung
+audience: admin
+description: Wählen Sie Ihren Upgrade-Pfad zu Microsoft Teams basierend auf Ihrer aktuellen Skype for Business-Bereitstellung aus.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78df5b35ae0e63544f68fd8fe335cf98eb41033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911411"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235886"
 ---
-![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
+![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt] (media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
-Dieser Artikel ist Teil der Bereitstellung und Implementierung Stufe der Ihrem Upgrade Weg. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten ausgeführt haben:
+Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
-- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
-- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
-- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Die Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Ihre Organisation vorbereitet](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Ein Pilotprojekt durchgeführt.](https://aka.ms/SkypeToTeams-Pilot)
+- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="perform-your-upgrade-to-teams"></a>Ausführen des Upgrades auf Teams
+# <a name="perform-your-upgrade-to-teams"></a>Durchführen des Upgrades für Teams
 
-Wählen Sie Ihre Upgrade Reise basierend auf Ihrer aktuellen Bereitstellung von Skype für Unternehmen:
+Wählen Sie Ihre Upgrade-Reise basierend auf Ihrer aktuellen Bereitstellung von Skype for Business aus:
 
 - [Upgrade von Skype for Business Online auf Microsoft Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [Upgrade von Skype für hybride Business auf Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [Aktualisieren von Skype für Business lokal auf Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+- [Upgrade von Skype for Business-Hybrid zu Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
+- [Upgrade von Skype for Business lokal in Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

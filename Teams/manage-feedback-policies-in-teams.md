@@ -16,41 +16,52 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe von Feedback Richtlinien steuern können, ob Teams-Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft übermitteln können.
-ms.openlocfilehash: 3c9d05a3003906377447ee119b8cfc9bd137db81
-ms.sourcegitcommit: f26bb86d38c3b45a82e6d77c5aa521360a81ee9b
+ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35540953"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242160"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedback Richtlinien in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Benutzer können Kommentare und Vorschläge zu Microsoft Teams an Microsoft senden, indem **** > Sie Feedback zu den Teams-Clients**geben** . Wir arbeiten ständig an der Verbesserung der Teams, und wir nutzen dieses Feedback, um Teams besser zu machen.
+Benutzer in Ihrer Organisation können Feedback zu Teams an Microsoft senden lassen Sie uns wissen, wie wir vorgehen, und zwar direkt von den Desktop-und Webclients der Teams aus. Wir arbeiten ständig an der Verbesserung der Teams, und wir nutzen dieses Feedback, um Teams besser zu machen.
+
+**Das Feature "Feedback senden"**
+
+Benutzer können Kommentare und Vorschläge zu Teams an uns senden, indem Sie **** > **Feedback** in Teams geben. Daten, die durch **Feedback** gesendet werden, werden unter Ihrer Office 365-Vereinbarung als "Support Daten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "personenbezogene Daten" gelten.
 
 ![Screenshot der Option "Feedback geben" in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Daten, die durch **Feedback** gesendet werden, werden unter Ihrer Office 365-Vereinbarung als "Support Daten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "personenbezogene Daten" gelten.
+**Umfragen**
+
+Benutzer können auch Ihre Erfahrungen mit Teams bewerten und uns Informationen über die von Ihnen gegebene Bewertung senden. Diese Popup Umfrage wird Benutzern von Zeit zu Zeit in Teams angezeigt. Wenn ein Benutzer in der Benachrichtigung auf **Feedback bereitstellen** klickt, wird die Umfrage angezeigt, damit Sie abgeschlossen werden kann.
+
+![Screenshot der Umfrage Benachrichtigung und des Formulars in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Festlegen, ob Benutzer Feedback zu Teams an Microsoft senden können
 
-Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft senden können. Standardmäßig wird allen Benutzern in Ihrer Organisation automatisch die globale (org-Wide Standard)-Richtlinie zugewiesen, und das Feature ist in der Richtlinie aktiviert. Die Ausnahme bilden Teams für Bildungseinrichtungen, in denen das Feature für Lehrer und Behinderte für Schüler aktiviert ist.
+Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft senden können, indem Sie **Feedback geben und angeben** , ob Sie die Umfrage erhalten. Standardmäßig werden allen Benutzern in Ihrer Organisation automatisch die globale (org-Wide Standard)-Richtlinie zugewiesen, und das Feature " **Feedback senden** " und die Umfrage sind in der Richtlinie aktiviert. Die Ausnahme bilden Teams für Bildungseinrichtungen, in denen die Features für Lehrer und Behinderte für Schüler aktiviert sind.
 
 Sie können die globale Richtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Wenn einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen ist, gilt die globale Richtlinie für den Benutzer. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
 
-Angenommen, Sie möchten allen Benutzern in Ihrer Organisation das Senden von Feedback mit Ausnahme der neuen Mitarbeiter in der Schulung gestatten. In diesem Szenario erstellen Sie eine benutzerdefinierte Richtlinie, um die Funktion zu deaktivieren und neuen Mitarbeitern zuzuweisen. Alle anderen Benutzer in Ihrer Organisation erhalten die globale Richtlinie mit aktiviertem Feature.  
+Angenommen, Sie möchten allen Benutzern in Ihrer Organisation das Senden von Feedback über Feedback und empfangen von **** Umfragen mit Ausnahme von neuen Mitarbeitern in der Schulung gestatten. In diesem Szenario erstellen Sie eine benutzerdefinierte Richtlinie, um beide Features zu deaktivieren und neuen Mitarbeitern zuzuweisen. Alle anderen Benutzer in Ihrer Organisation erhalten die globale Richtlinie mit aktivierten Features.  
 
-Sie verwenden das Cmdlet **New-CsTeamsFeedbackPolicy** zum Erstellen einer benutzerdefinierten Richtlinie und des Cmdlets **Grant-CsTeamsFeedbackPolicy** , um es einem oder mehreren Benutzern oder Gruppen von Benutzern, beispielsweise einer Sicherheitsgruppe oder Verteilergruppe, zuzuweisen. 
+Sie verwenden das Cmdlet **New-CsTeamsFeedbackPolicy** zum Erstellen einer benutzerdefinierten Richtlinie und des Cmdlets **Grant-CsTeamsFeedbackPolicy** , um es einem oder mehreren Benutzern oder Gruppen von Benutzern, beispielsweise einer Sicherheitsgruppe oder Verteilergruppe, zuzuweisen.
 
-Legen Sie den **userInitiatedMode** -Parameter auf **Enabled** , damit Benutzer, denen die Richtlinie zugewiesen ist, Feedback geben können. Durch Festlegen des Parameters auf **deaktiviert** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, haben keine Möglichkeit, Feedback zu geben.
+Um die Features zu deaktivieren und zu aktivieren, setzen Sie die folgenden Parameter:
+
+ - **Feedback geben**: Legen Sie den **userInitiatedMode** -Parameter auf **Enabled** , damit Benutzer, denen die Richtlinie zugewiesen ist, Feedback geben können. Durch Festlegen des Parameters auf **deaktiviert** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, haben keine Möglichkeit, Feedback zu geben.
+ - **Umfragen**: setzen Sie den **receiveSurveysMode** -Parameter auf **Enabled** , damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und Sie Sie deaktivieren können, setzen Sie den Parameter auf **enabledUserOverride**. In Teams können Benutzer dann zu **Einstellungen** > **Datenschutz** wechseln und auswählen, ob Sie an Umfragen teilnehmen möchten. Durch Festlegen des Parameters auf **deaktiviert** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten die Umfrage nicht.
 
 ## <a name="create-a-custom-feedback-policy"></a>Erstellen einer benutzerdefinierten Feedback Richtlinie
 
-In diesem Beispiel erstellen wir eine Feedback-Richtlinie namens "New Hire Feedback Policy" und deaktivieren die Möglichkeit, Feedback zu geben.
+In diesem Beispiel erstellen wir eine Feedback-Richtlinie namens "New Hire Feedback Policy" und deaktivieren die Möglichkeit, Feedback durch **** Feedback und die Umfrage zu geben.
 
 ```
-New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
 ## <a name="assign-a-custom-feedback-policy"></a>Zuweisen einer benutzerdefinierten Feedback Richtlinie
@@ -78,7 +89,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Weisen Sie allen Benutzern in der Gruppe eine bestimmte Feedback Richtlinie zu. In diesem Beispiel handelt es sich um eine neue Richtlinie für Einstellungs Feedback.
 ```
-$members | ForEach-Object { Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
 ``` 
 Je nach Anzahl der Mitglieder in der Gruppe kann dieser Befehl mehrere Minuten dauern.
 

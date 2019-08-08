@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Die Darstellung der freigegebenen Zeile ermöglicht es einem Benutzer, eine Stellvertretung zu wählen, um Anrufe in deren Auftrag zu beantworten oder zu behandeln.
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298655"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243112"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
@@ -37,13 +37,18 @@ Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit d
 
 Ein Benutzer muss ein Enterprise-VoIP-Benutzer sein, um Stellvertretung zu sein oder eine Delegierung einzurichten und anderen Personen das tätigen oder empfangen von Anrufen in deren Auftrag zu ermöglichen.
 
-Für Manager und Stellvertretungen muss Enterprise-VoIP aktiviert sein. Die Erfahrung der freigegebenen Leitung ist Teil der Delegierung und erfordert keine zusätzliche Lizenz. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
+Für Manager und Stellvertretungen muss Enterprise-VoIP aktiviert sein. Die freigegebene Leitungserfahrung ist Teil der Delegierung und erfordert keine zusätzliche Lizenz. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierungs-und freigegebenen Leitungen
 
 Die Darstellung der Delegierung und der freigegebenen Zeile sind benutzergesteuerte Features: Es sind keine Administratoreinstellungen zum Konfigurieren vorhanden. Informationen zum Verwenden des Features finden Sie unter [Freigeben einer Telefonleitung mit einer Stellvertretung](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-Der mandantenadministrator sollte die Delegierung über die **TeamsCallingPolicy-AllowDelegation** -Einstellung aktivieren, damit dieses Feature funktioniert.
+Der mandantenadministrator kann die Delegierung über die **TeamsCallingPolicy AllowDelegation** -Einstellung oder über das Team-Administrator Portal aktivieren, damit dieses Feature funktioniert. 
+
+Der mandantenadministrator kann auch Delegierungs Beziehungen für einen Benutzer im Team Admin Center konfigurieren. Darüber hinaus kann der Endbenutzer seine Delegierungs Beziehungen auch direkt in Teams konfigurieren. Der mandantenadministrator oder der Benutzer kann die Konfiguration nicht voneinander blockieren, aber das Team-Admin Center und der Team-Client sollten diese Beziehung an beiden Stellen genau anzeigen. 
+
+> [!IMPORTANT]
+> Wenn der mandantenadministrator die Delegierung für einen Benutzer deaktiviert (nachdem er aktiviert wurde), muss er auch Delegierungs Beziehungen für diesen Benutzer im Team Admin Center bereinigen, um eine falsche Anrufweiterleitung zu vermeiden.
 
 ## <a name="shared-line-appearance-feature-availability"></a>Verfügbarkeit von freigegebenen Leitungs Darstellungs Features
 

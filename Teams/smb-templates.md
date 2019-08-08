@@ -8,19 +8,19 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: Erste Schritte mit Microsoft Teams-Vorlagen für kleine und mittelständische Unternehmen
-ms.openlocfilehash: fd0d17ac78dc7dea0efde95315604189671caa9e
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: d9e626dad9bbdde655448d0a2052c394fff2ffb7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420555"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242964"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Erste Schritte mit Microsoft Teams-Vorlagen für kleine und mittelständische Unternehmen
 

@@ -4,20 +4,21 @@ ms.reviewer: ''
 author: kenwith
 ms.author: kenwith
 manager: serdars
+audience: admin
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 description: Mit diesem PowerShell-Skript können Sie Microsoft Teams auf bestimmten Computern oder für bestimmte Benutzer bereinigen.
 localization_priority: Normal
-ms.openlocfilehash: f89f35bb34ec3b72cfaec79c651b4c95d5e5bbdd
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: aa5ba0c6e94510449e1afd9c2fc03524c1846f9c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993856"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242876"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell-Skriptbeispiel – Bereinigen von Microsoft Teams-Bereitstellungen
 -------------------------------------------------------------------------

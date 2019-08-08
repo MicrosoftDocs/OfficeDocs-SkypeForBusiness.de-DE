@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: Mit der Cloud-Video Interoperabilität können Besprechungsraum Geräte von Drittanbietern an Microsoft Teams-Besprechungen teilnehmen.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549019"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237071"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -47,9 +48,9 @@ Die folgenden Partner verfügen über Video-Interop-Lösungen für Microsoft Tea
 
 |Partner|Partner Lösung|
 |----|---|
-|![Das Logo für Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom-RealConnect-Dienst</a> |
-|![Das Logo für Pexip Unendlichkeit](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft Teams</a> | 
-|![Das Logo für das Bluejeans-Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Bluejeans-Gateway für Microsoft Teams</a> |
+|![Das Logo, das Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom-RealConnect-Dienst</a> |
+|![Das Logo, das Pexip Unendlichkeit darstellt](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft Teams</a> | 
+|![Das Logo, das Bluejeans-Gateway darstellt](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Bluejeans-Gateway für Microsoft Teams</a> |
 
 ### <a name="cloud-video-interop-overview"></a>Übersicht über die Cloud-Video Interoperabilität
 

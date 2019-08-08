@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: rowille
 description: Messen Sie die Ergebnisse Ihres Telefonsystems mit der Bereitstellung von Anrufplänen, und überprüfen Sie, ob Sie die gewünschten Ergebnisse erzielt haben.
@@ -13,12 +14,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: fe438ec45d5cb6e9eb57e6f98bc3e59ace51218e
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b91820b017549fd2d6fc2184f98ccba96bb1523f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400852"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243801"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 

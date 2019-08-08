@@ -5,20 +5,21 @@ ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: ''
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Moodle-Integrations-App für Microsoft Teams installieren und konfigurieren.
 keywords: Integration des Plugins für Moodle-Apps für Teams
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f0350e3dd57988065cc04443aca83c6c19dbab1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 4b712a6261a73472b6f134e3b38359f30e489cce
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433247"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245380"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installieren der Moodle-Integration in Microsoft Teams
 
@@ -96,10 +97,10 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Geben Sie den Namen der Azure AD-Anwendung ein (z. b. Moodle/Moodle-Plugin).
     * Geben Sie die URL Ihres Moodle-Servers ein.
     * Kopieren Sie die **Anwendungs-ID** und den **Anwendungsschlüssel** , die vom Skript generiert wurden, und speichern Sie Sie.
-1. Als nächstes müssen Sie die ID und den Schlüssel zum Office 365 Moodle-Plug-in hinzufügen. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung > Plugins > Microsoft Office 365 Integration).
+1. Als nächstes müssen Sie die ID und den Schlüssel zum Office 365 Moodle-Plug-in hinzufügen. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung #a0 Plugins #a1 Microsoft Office 365-Integration).
 1. Fügen Sie auf der Registerkarte **Setup** die zuvor kopierte **Anwendungs-ID** und den **Anwendungsschlüssel** hinzu, und klicken Sie dann auf **Änderungen speichern**.
 1. Sobald die Seite aktualisiert wird, sollten Sie nun einen neuen Abschnitt **"Verbindungsmethode auswählen"** sehen. Klicken Sie auf das Kontrollkästchen **Standard** , und klicken Sie dann erneut auf **Änderungen speichern** .
-1. Sobald die Seite aktualisiert wird, sehen Sie eine weitere neue Abschnitts- **Administrator-Einwilligung & zusätzliche Informationen**.
+1. Sobald die Seite aktualisiert wird, sehen Sie eine weitere neue Abschnitts **Administrator Zustimmung #a0 zusätzliche Informationen**.
     * Klicken Sie auf den Link Administrator **Zustimmung bereitstellen** , geben Sie Ihre Office3 365-Global Administrator Anmeldeinformationen ein, und **akzeptieren** Sie dann, um die Berechtigungen zu erteilen.
     * Klicken Sie neben dem Feld **Azure AD-Mandant** auf die Schaltfläche **erkennen** .
     * Klicken Sie neben der **OneDrive for Business-URL** auf die Schaltfläche **erkennen** .
@@ -116,7 +117,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
 1. Um die cron-Aufträge zu überprüfen (und diese manuell auszuführen, wenn Sie für den ersten Durchlauf vorgesehen sind) klicken Sie im Abschnitt **Benutzer mit Azure AD synchronisieren** auf den Link **geplante Aufgaben Verwaltungsseite** . Dadurch gelangen Sie zur Seite " **geplante Vorgänge** ".
     * Scrollen Sie nach unten, und suchen Sie den Job **Synchronisieren von Benutzern mit Azure AD** Job, und klicken Sie auf **jetzt ausführen**.
     * Wenn Sie Gruppen basierend auf vorhandenen Kursen erstellen möchten, können Sie auch die Option **Benutzergruppen erstellen in Office 365** -Auftrag ausführen.
-1. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung > Plugins > Microsoft Office 365 Integration), und wählen Sie die Seite " **Teams-Einstellungen** " aus. Sie müssen einige Sicherheitseinstellungen konfigurieren, um die Integration der Teams-APP zu ermöglichen.
+1. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung #a0 Plugins #a1 Microsoft Office 365-Integration), und wählen Sie die Seite " **Teams-Einstellungen** " aus. Sie müssen einige Sicherheitseinstellungen konfigurieren, um die Integration der Teams-APP zu ermöglichen.
     * Um OpenID Connect zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** , und klicken Sie auf das Augensymbol in der **OpenID Connect** -Zeile, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame Einbettung aktivieren. Klicken Sie auf den Link **http-Sicherheit** , und klicken Sie dann auf das Kontrollkästchen neben **Frame Einbettung zulassen**.
     * Der nächste Schritt besteht darin, Webdienste zu aktivieren, die die Moodle-API-Funktionen aktivieren werden. Klicken Sie auf den Link **Erweiterte Funktionen** , und stellen Sie sicher, dass das Kontrollkästchen neben Webdienste **aktivieren** aktiviert ist.
@@ -142,7 +143,7 @@ Der ﻿kostenlose Moodle Assistant-bot für Microsoft Teams hilft Lehrern und Sc
 
 Um den bot zu installieren, müssen Sie ihn zunächst auf der [Microsoft Identity-Plattform](https://identity.microsoft.com/Landing)registrieren. Dadurch kann sich Ihr bot für Ihre Microsoft-Endpunkte authentifizieren. So registrieren Sie Ihren bot:
 
-1. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung > Plugins > Microsoft Office 365 Integration), und wählen Sie die Registerkarte **Einstellungen für Teams** aus.
+1. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung #a0 Plugins #a1 Microsoft Office 365-Integration), und wählen Sie die Registerkarte **Einstellungen für Teams** aus.
 1. Klicken Sie auf den Link " **Microsoft Application Registration Portal** " und melden Sie sich mit Ihrer Microsoft-ID an.
 1. Geben Sie einen Namen für Ihre APP ein (z. b. MoodleBot) und klicken Sie auf die Schaltfläche **Erstellen** .
 1. Kopieren Sie die **Anwendungs-ID** , und fügen Sie Sie auf der Seite **Team Einstellungen** in das Feld **bot-Anwendungs-ID** ein.

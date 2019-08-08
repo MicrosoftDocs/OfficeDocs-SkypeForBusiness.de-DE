@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433375"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243619"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
 
@@ -195,7 +195,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 ### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, auf der aktive Geräte angezeigt werden
 
 1.  Wählen Sie **Dashboard anzeigen** aus, um das Hinzufügen Ihrer Kacheln zu beginnen.
-2.  Wählen Sie im Katalog die **Nummer & Liste** aus.
+2.  Wählen Sie **Zahl #a0 Liste** aus dem Katalog aus.
 3.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Heartbeat-Status<br>
     **Neue Gruppe:** Ausgewählten
@@ -213,7 +213,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Erstellen einer Kachel, auf der Geräte mit Verbindungsproblemen angezeigt werden
 
-1.  Wählen Sie im Katalog **Number & List** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
@@ -231,7 +231,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Erstellen einer Kachel, die Geräte mit einem Hardwarefehler anzeigt
 
-1.  Wählen Sie im Katalog **Number & List** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Hardware Status<br>
     **Neue Gruppe:** Ausgewählten
@@ -249,7 +249,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>Erstellen einer Kachel, in der die Betriebs System Versionen von Microsoft Teams rooms angezeigt werden
 
-1.  Wählen Sie im Katalog die **Liste Donut-&** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Donut #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Details zum Betriebs System<br>
     **Neue Gruppe:** Ausgewählten
@@ -273,7 +273,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>Erstellen einer Kachel, in der Microsoft Teams rooms-Anwendungsversionen angezeigt werden
 
-1.  Wählen Sie im Katalog die **Liste Donut-&** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Donut #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Anwendungsdetails für Microsoft Teams rooms<br>
     **Neue Gruppe:** Ausgewählten
@@ -297,7 +297,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Erstellen einer Kachel, die Geräte mit einem Anwendungsfehler anzeigt
 
-1.  Wählen Sie im Katalog **Number & List** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
@@ -315,7 +315,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Erstellen einer Kachel, auf der neu gestartete Geräte angezeigt werden
 
-1.  Wählen Sie im Katalog **Number & List** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt

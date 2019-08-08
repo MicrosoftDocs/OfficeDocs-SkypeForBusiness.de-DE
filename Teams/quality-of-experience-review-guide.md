@@ -7,20 +7,21 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Leitfaden zur Analyse der Echt Zeit Medien Leistung für Microsoft Teams mithilfe des Anruf Qualitäts Dashboards (CQD).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793274"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243731"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 

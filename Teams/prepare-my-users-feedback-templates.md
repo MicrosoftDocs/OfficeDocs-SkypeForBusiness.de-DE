@@ -7,65 +7,66 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Sammeln von Feedback der Benutzer zur Verbesserung der Cloud VoIP-Implementierung in Microsoft-Teams oder Skype für Unternehmen.
+audience: admin
+description: Sammeln Sie Benutzer Feedback, um die Cloud-VoIP-Implementierung in Microsoft Teams oder Skype for Business zu verbessern.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16a535701088afd4e094e2762e9b278b74cb1ee7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898574"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232853"
 ---
-# <a name="user-feedback-surveys"></a>Benutzer Feedback Umfragen 
+# <a name="user-feedback-surveys"></a>Benutzer Feedback-Umfragen 
 
-Verwenden Sie Feedback Umfragen Erfahrung und Einblicke in die Benutzer nach der Bereitstellung erfasst. Feedback zu Receptiveness Ändern der Benutzer sollte Einstufung, die Effektivität des Schulungsressourcen, wie bereit wurde die Support-Plan und der Benutzer insgesamt wünschen. Bewerten Sie der Umfrageantworten gegen die intelligente (bestimmte, messbare, erreichbare, relevant, Zeit gebundene) Ziele messen, die Sie bei der projektplanung definiert haben, und bestimmen Sie zusätzliche Maßnahmen erforderlich.
+Verwenden Sie Feedback Umfragen, um die Benutzererfahrung und Einblicke nach der Bereitstellung zu erfassen. Fragen sollten Feedback über die Empfänglichkeit der Benutzer für Änderungen, die Effektivität von Schulungsressourcen, die Bereitstellung des Support Plans und die allgemeine Benutzererfahrung hervorrufen. Bewerten Sie die Umfrage Antworten, um Sie anhand der intelligenten (spezifischen, messbaren, erreichbaren, relevanten, zeitgebundenen) Ziele zu messen, die Sie während der Projektplanung definiert haben, und ermitteln Sie alle weiteren erforderlichen Aktionen.
 
-Passen Sie die folgenden Fragen, und klicken Sie dann auf eine Umfrage Tool wie SharePoint für einfache Verteilung und Analyse übertragen.
+Passen Sie die folgenden Fragen an, und übertragen Sie Sie dann in ein Umfrage Tool wie SharePoint, um eine einfache Verteilung und Analyse zu ermöglichen.
 
-Bezieht sich für die Teilnahme an diesen Umfragen *neue Telefonsystem* auf Verwendung in Microsoft-Teams oder Skype Anruffunktionen für Unternehmen, zusätzlich zu den Geräten wie ein Media-Telefon oder Mobiltelefon. Alle Verweise auf die Microsoft-Teams an diese Umfragen gelten auch für Skype für Unternehmen.
+Für die Zwecke dieser Umfragen bezieht sich das *neue Telefonsystem* auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräten wie einem Medien-oder Mobiltelefon. Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
 
-Geben Sie an, der Vereinbarung mit der folgenden Aussagen im Zusammenhang mit Teams als Ihr Telefon. 
+Geben Sie Ihre Zustimmungs Stufe mit den folgenden Aussagen an, die sich auf die Verwendung von Teams als Telefon beziehen. 
 
-|     &nbsp;                              | Stimme vollständig zu | Etwas stimmen | Neutral | Stimme nicht zu | Gar nicht | Nicht verfügbar, oder verwenden Sie nicht |
+|     &nbsp;                              | Vollständig einverstanden | Etwas zustimmen | Neutral | Etwas anderer Meinung | Völlig anderer Meinung | N/A oder nicht verwendet |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Ich kann auf einfache Weise anrufen und Entgegennehmen von Anrufen mit meinem Computer.                                                             |                      |                    |             |                       |                         |                        |
-| Ich kann auf einfache Weise anrufen und Entgegennehmen von Anrufen mit meinen neue Telefonapparat.                                              |                      |                    |             |                       |                         |                        |
-| Ich konnte auf einfache Weise meine neue Telefonapparat anmelden.                                                                              |                      |                    |             |                       |                         |                        |
-| Ich konnte erfolgreich tätigen und Entgegennehmen von Anrufen auf dem mobilen Gerät.                                                   |                      |                    |             |                       |                         |                        |
-| Das neue Telefonsystem erfüllt alle aufrufenden führe (Übertragung, halten, Voicemail und usw.)                                      |                      |                    |             |                       |                         |                        |
-| Den Wert der Integration von unserer Telefonsystems in Teams angezeigt.                                                 |                      |                    |             |                       |                         |                        |
-| Verwenden von Teams als mein Handy vereinfacht die bietet für meine Arbeit.                                          |                      |                    |             |                       |                         |                        |
-| Meine Audioqualität mit Teams ist so gut wie oder besser als in unseren alten Telefonsystem war.                   |                      |                    |             |                       |                         |                        |
+| Ich kann mit meinem Computer problemlos Telefonanrufe tätigen und empfangen.                                                             |                      |                    |             |                       |                         |                        |
+| Ich kann über meinen neuen Telefonapparat problemlos Telefonanrufe tätigen und empfangen.                                              |                      |                    |             |                       |                         |                        |
+| Ich konnte mich einfach bei meinem neuen Tischtelefon anmelden.                                                                              |                      |                    |             |                       |                         |                        |
+| Ich konnte auf meinem mobilen Gerät erfolgreich Anrufe tätigen und empfangen.                                                   |                      |                    |             |                       |                         |                        |
+| Das neue Telefonsystem erfüllt alle meine Anrufanforderungen (übertragen, halten, Voicemail usw.)                                      |                      |                    |             |                       |                         |                        |
+| Ich sehe den Wert der Integration unseres Telefonsystems in Teams.                                                 |                      |                    |             |                       |                         |                        |
+| Die Verwendung von Teams als mein Telefon macht es einfacher für mich, meine Arbeit zu erledigen.                                          |                      |                    |             |                       |                         |                        |
+| Mein Audio-Erlebnis mit Teams ist so gut wie oder besser als bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
 
-Wenn Sie **Stimme nicht zu** oder aus einem der oben genannten Aussagen **gar nicht** ausgewählt haben, erläutern. (Open Text)
+Wenn Sie sich für eine der vorstehenden Aussagen **etwas** nicht einverstanden erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
 
-Geben Sie an, der Vereinbarung mit der folgenden Aussagen in Bezug auf Ihre Onboarding-Erfahrung mit dem neuen Telefon.  
+Geben Sie Ihren Zustimmungsgrad mit den folgenden Aussagen an, da es sich um Ihre Onboarding-Erfahrung mit Ihrem neuen Telefon handelt.  
 
-|          &nbsp;                  | Stimme vollständig zu | Etwas stimmen | Neutral | Stimme nicht zu | Gar nicht | Nicht verfügbar, oder verwenden Sie nicht |
+|          &nbsp;                  | Vollständig einverstanden | Etwas zustimmen | Neutral | Etwas anderer Meinung | Völlig anderer Meinung | N/A oder nicht verwendet |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Meine Organisation bereitgestellte ausreichend Informationen (Kommunikation, Ressourcen und Anrufe an die Aktion) für mich über die Verwendung das neuen Telefonsystem. |                      |                    |             |                       |                         |                        |
-| Ich hatte angemessene Schulungsressourcen für schnell an die neue Telefonsystem integrierte.                                                          |                      |                    |             |                       |                         |                        |
-| Helpdesk konnte alle meine Fragen zu den neuen Telefonsystem beantworten.                                                           |                      |                    |             |                       |                         |                        |
+| Meine Organisation hat genügend Informationen (Kommunikation, Ressourcen und Aktionen) bereitgestellt, damit ich mit der Verwendung des neuen Telefonsystems beginnen kann. |                      |                    |             |                       |                         |                        |
+| Ich hatte ausreichende Schulungsressourcen, um schnell an Bord des neuen Telefonsystems zu werden.                                                          |                      |                    |             |                       |                         |                        |
+| Unser Helpdesk könnte alle meine Fragen zur neuen Telefonanlage beantworten.                                                           |                      |                    |             |                       |                         |                        |
 
-Wenn Sie **Stimme nicht zu** oder aus einem der oben genannten Aussagen **gar nicht** ausgewählt haben, erläutern. (Open Text)
+Wenn Sie sich für eine der vorstehenden Aussagen **etwas** nicht einverstanden erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
 
-Teams, die Sie verwenden sollten wie wahrscheinlich ist es als ein Telefon an Freunde oder Kollegen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)
-
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|--------|---|---|---|---|---|---|---|---|---|---|----|
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-
-Wie wahrscheinlich ist es Sie Telefongerät Freunde oder Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)  
+Wie wahrscheinlich ist es, dass Sie einem Freund oder Kollegen die Verwendung von Teams als Telefon empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = äußerst wahrscheinlich)
 
 | 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
+Wie wahrscheinlich ist es, dass Sie Ihr Telefongerät einem Freund oder Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = äußerst wahrscheinlich)  
 
-Freigeben von bitte zusätzliche uns Ihr Feedback zu Ihrer Erfahrung Telefon. (Open Text)
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|--------|---|---|---|---|---|---|---|---|---|---|----|
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+
+
+Bitte geben Sie weiteres Feedback zu ihrer Telefon Erfahrung an. (Text öffnen)

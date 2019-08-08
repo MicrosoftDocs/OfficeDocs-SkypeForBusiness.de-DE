@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Prozess zur Überprüfung der Koexistenz von pilotpools mit Legacy Pool
-ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: e71160a2a20d4a80979e3c3c4875c19db181f2da
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758904"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243750"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
 

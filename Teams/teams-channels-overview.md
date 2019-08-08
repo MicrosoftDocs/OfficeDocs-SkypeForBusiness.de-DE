@@ -6,23 +6,24 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a7366c9b4f09fa9c06b7d7f4cd40a24892f840
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: cab50101f23b9d687d744031c14412b5a65a5dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35804676"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237153"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen, um einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu erlangen. Wechseln Sie dann zu [Chat, Teams, Kanäle, #a0-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , um eine Liste der Entscheidungen zu durchlaufen, die für das Rollout Ihres Teams wichtig sind.

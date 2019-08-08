@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548908"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242404"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -66,7 +66,7 @@ Beispiel für Ergebnisse in jeder Kategorie:
  
 Im Allgemeinen sollten Sie sich diese Measures als Aggregation vorstellen, um einen Änderungs Quotienten für Ihr Unternehmen auf diese Weise zu erstellen:
 
-![Greifbare Maßnahmen, dividiert durch individuelles empfinden gleichen Änderungs Quotienten](media/teams-adoption-change-quotient.png)
+![Greifbare Maßnahmen dividiert durch individuelles Sentiment = Änderungs Quotient](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>Auswählen einer Dienst Aktivierungsstrategie
 

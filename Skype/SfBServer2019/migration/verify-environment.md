@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor der Bereitstellung von Skype for Business Server 2019 in einem Koexistenzmodus müssen Sie überprüfen, ob Legacy Dienste konfiguriert und gestartet wurden. Vor der Bereitstellungeines Skype for Business Server 2019-pilotpools ist es wichtig, die wichtigsten Dienste und Features zu identifizieren, die in ihrer Legacyumgebung vorhanden sind. Bevor Sie Microsoft Skype for Business Server 2019 xmpp in einem koexistenzstatus mit einer Legacy-XMPP-Bereitstellung bereitstellen, müssen Sie überprüfen, ob die Legacy-XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welchen Verbundpartner die Legacy-XMPP-Konfiguration ist stützen.
-ms.openlocfilehash: 9495c68085f3fc3495d4c2ced05be8b20039eb4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280660"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243775"
 ---
 # <a name="verify-the-legacy-environment"></a>Überprüfen der Legacyumgebung
 

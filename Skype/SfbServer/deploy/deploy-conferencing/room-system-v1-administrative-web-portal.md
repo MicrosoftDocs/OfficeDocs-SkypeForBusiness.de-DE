@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Der Skype for Business-Server Skype Room Systems v1 (SRS v1, ehemals lync Room System) administratives Webportal ist ein Webportal, das Organisationen verwenden können, um Ihre Skype Room Systems-Konferenzräume zu verwalten. Administratoren können das administrative Web Portal für SRS v1 verwenden, um die Geräte Integrität zu überwachen, beispielsweisedurch überwachen von Audio/Video-Geräten. Mit diesem Portal können Administratoren über Remoteverbindungen Diagnoseinformationen sammeln, um die Konferenzraumintegrität zu überwachen.
-ms.openlocfilehash: 5ad4ffb08ecbc32feaa87aa2f7d48d82003e2e3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307161"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234174"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Bereitstellen des Administrator-Web-Portals für SRS V1 in Skype for Business Server
 
@@ -195,7 +195,7 @@ Der Abschnitt "Gesundheit" bietet eine visuelle Anzeige des Zustands der Skype f
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Weitere Hinweise zum Webportal für die Verwaltung
 
 > [!NOTE]
->  Das Festlegen von Änderungen wird erst nach dem Neustart des SRS-Systems angewendet. > wenn das Kennwort für das LRSApp-Konto abläuft, können Sie den Status der Räume nicht sehen. Konfigurieren Sie das Kennwort für das LRSAppuser-Konto so, dass es nie abläuft, oder aktualisieren Sie das Kennwort, wenn es sich in der Nähe des Ablaufs befindet. > das SRS-Verwaltungs Webportal wird nur für lokale Bereitstellungen unterstützt.
+>  Das Festlegen von Änderungen wird erst nach einem Neustart des SRS-Systems übernommen. #a0 Wenn das LRSApp-Kontokennwort abläuft, können Sie den Status der Räume nicht sehen. Konfigurieren Sie das Kennwort für das LRSAppuser-Konto so, dass es nie abläuft, oder aktualisieren Sie das Kennwort, wenn es nahezu abgelaufen ist. #a0 das SRS-Verwaltungs Webportal wird nur für lokale Bereitstellungen unterstützt.
 
 ### <a name="bulk-management"></a>Massenverwaltung 
 

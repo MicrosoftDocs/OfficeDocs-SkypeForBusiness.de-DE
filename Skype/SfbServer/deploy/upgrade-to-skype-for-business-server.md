@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie ein Upgrade von lync Server 2013 auf Skype for Business Server 2015 durchführen. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server 2015 aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275514"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237448"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -72,7 +72,7 @@ Das Upgrade von lync Server 2013 auf Skype for Business Server 2015 beinhaltet d
 Bevor Sie den Upgradevorgang starten, müssen alle Dienste für die Pools ausgeführt werden, die Sie aktualisieren möchten. Die Topologieänderungen werden in der lokalen Datenbank der Server im Pool repliziert.
   
 > [!IMPORTANT]
->  Speichern Sie vor dem Upgrade eine Kopie Ihrer Topologiedatei. Nachdem Sie ein Upgrade ausgeführt haben, können Sie die Topologie nicht downgraden. > wenn sich ihre Dienste auf denselben Servern wie Ihre Datenbanken befinden, wie der beständige Chatdienst sich auf demselben Server wie die persistente Chat-Datenbank befindet, überspringen Sie diesen Schritt, und fahren Sie mit Schritt 4 fort. Wenn Sie die Dienste angehalten haben, führen Sie das Setup der Funktion für direkte Upgrades auf jedem Server zum Aktualisieren der lokalen Datenbanken aus.
+>  Speichern Sie vor dem Upgrade eine Kopie Ihrer Topologiedatei. Nachdem Sie ein Upgrade ausgeführt haben, können Sie die Topologie nicht downgraden. #a0 Wenn sich ihre Dienste auf denselben Servern wie Ihre Datenbanken befinden, wie sich der beständige Chatdienst auf demselben Server wie die persistente Chat-Datenbank befindet, überspringen Sie diesen Schritt, und fahren Sie mit Schritt 4 fort. Wenn Sie die Dienste angehalten haben, führen Sie das Setup der Funktion für direkte Upgrades auf jedem Server zum Aktualisieren der lokalen Datenbanken aus.
   
 > [!NOTE]
 > Wenn die Topologie eine gespiegelte Back-End-Datenbank hat, werden Sie feststellen, dass sowohl der Prinzipalserver als auch die gespiegelten Datenbanken angezeigt werden, **wenn Sie die Topologie mithilfe des Topologie-Generators veröffentlichen**. Stellen Sie sicher, dass sämtliche Datenbanken auf dem Prinzipalserver laufen und dass Sie beim Veröffentlichen der Topologie nur die Prinzipaldatenbank und nicht die Spiegelung auswählen, andernfalls wird nach der Veröffentlichung der Topologie eine Warnung angezeigt.
@@ -180,7 +180,7 @@ Es wird empfohlen, Disable-CsComputer zu verwenden, da Sie möglicherweise den S
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Schritt 5: Upgrades für Front-End-Pools und Nicht-Front-End-Pool-Server durchführen
 
 > [!NOTE]
->  Vor dem Upgrade installieren Sie bitte alle neuen Voraussetzungen, die für Skype for Business Server 2015 erforderlich sind: > mindestens 32 GB freien Speicherplatz, bevor Sie ein Upgrade durchführen. Stellen Sie außerdem sicher, dass es sich um ein festes lokales Laufwerk handelt, das nicht über USB oder FireWire verbunden ist, mit dem NTFS-Dateisystem formatiert ist, nicht komprimiert ist und keine Auslagerungsdatei enthält. > PowerShell-Version 6.2.9200.0 oder höher. > der neuesten lync Server 2013 Kumulatives Update installiert. > SQL Server 2012 SP1 installiert. > die folgenden KB-Installationen (automatisch bei Verwendung von Microsoft Update installiert): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Vor dem Upgrade installieren Sie bitte alle neuen Voraussetzungen für Skype for Business Server 2015, die Folgendes beinhalten: #a0 mindestens 32 GB freien Speicherplatz, bevor Sie ein Upgrade durchführen. Stellen Sie außerdem sicher, dass es sich um ein festes lokales Laufwerk handelt, das nicht über USB oder FireWire verbunden ist, mit dem NTFS-Dateisystem formatiert ist, nicht komprimiert ist und keine Auslagerungsdatei enthält. #a0 PowerShell-Version 6.2.9200.0 oder höher. #a1 der neuesten lync Server 2013 Kumulatives Update installiert. #a2 SQL Server 2012 SP1 installiert. #a3 die folgenden KB installiert (automatisch bei Verwendung von Microsoft Update installiert): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Verwenden Sie das in-Place-Upgrade auf jedem Server zum Aktualisieren des Front-End-Pools, des Edge-Pools, des Vermittlungsservers und des beständigen Chat Pools.
   

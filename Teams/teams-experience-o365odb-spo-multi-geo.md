@@ -6,32 +6,33 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
-description: Informationen Sie zum Verwenden von Teams in einer Office 365 OneDrive und SharePoint Online Multi-Geo-enabled-Instanz.
+audience: admin
+description: Erfahren Sie mehr über die Verwendung von Teams in einer Office 365 OneDrive-und SharePoint Online-Multi-Geo-fähigen Mietdauer.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204499"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243831"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Teams-Umgebung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-fähigen Mandanteneinheit
 ===========================================
 
-Microsoft-Teams ist Group Chat Software, den Hub für die Zusammenarbeit in Office 365. Es wird von der Gruppen von Office 365-Dienst zusammen mit SharePoint Online und OneDrive für Unternehmen für ihre Dateien Erfahrung bereitgestellt. In einer OneDrive for Business/SharePoint Online Multi-Geo-Instanz, in dem der Mandant auf viele geografische Standorte hinweg wie Nordamerika und Europa Australien, erweitert wird bildet die zugrunde liegenden Dateien Multi-Geo beachten, damit die Teams bei Datei auftreten Zusammenarbeit ist auch Multi-Geo berücksichtigen. Dies spielt eine wichtige führender für Teams Fläche Dateien über mehrere Geos in ihre Erfahrung systemeigene Dateien gehostet.
+Microsoft Teams ist eine Gruppen-Chat-Software, der Hub für Teamarbeit in Office 365. Sie wird vom Office 365 Groups-Dienst zusammen mit SharePoint Online und OneDrive for Business für die Dateinutzung unterstützt. In einer OneDrive for Business/SharePoint Online-Multi-Geo-Mietdauer, in der der Mandant auf viele geografische Standorte wie Nordamerika, Europa und Australien ausgeweitet wird, ist die zugrunde liegende Datei Erfahrung Multi-Geo-bewusst, sodass die Teams mit Datei vertraut sind. die Zusammenarbeit ist auch Multi-Geo-fähig. Hierbei handelt es sich um eine der wichtigsten Spitzenfunktionen für Teams, um Dateien, die über mehrere GEOSS gehostet werden, in der nativen Datei Oberfläche zu beleben.
 
-Beispielsweise eines Mandanten "Contoso" mit Europa als eine Satelliten Geo und Nordamerika als die zentralen Geo sieht ein Benutzers Europäischen Satelliten seinem OneDrive-Dateien im linken Bereich auf der Registerkarte Dateien zwar die Dateien in den Speicherort der Europa und der Stat United gehostet werden Es ist die zentrale Stelle des Mandanten. Darüber hinaus kann der Benutzer die zuletzt geöffneten Dateien unter der aktuellen Ansicht Blade zugreifen. Zuletzt verwendeten Dateien enthalten möglicherweise mit dem Benutzer von Benutzern in anderen Geos freigegebenen Dateien und möglicherweise in anderen Geo-Standorte, denen der Mandanten auf erweitert wird gesteuert werden. 
+In einer contoso-Mietdauer mit Europa als Satelliten Geo und Nordamerika als zentrales Geo sieht ein europäischer Satelliten Benutzer beispielsweise seine OneDrive-Dateien im linken Bereich unter der Registerkarte "Dateien", obwohl die Dateien im Europa-Datenspeicherort und im United stat gehostet werden. Es ist der zentrale Standort des Mandanten. Darüber hinaus kann der Benutzer auf die zuletzt verwendeten Dateien unter dem Blade für zuletzt verwendete Ansichten zugreifen. Aktuelle Dateien enthalten möglicherweise Dateien, die für den Benutzer von Benutzern in anderen GEOS freigegeben wurden, und möglicherweise an anderen geografischen Standorten, auf die der Mandant erweitert wird. 
 
-Ein bestimmtes Team Gruppe Website ist auch Multi-Geo berücksichtigen. D. h., wenn ein Benutzer Europäischen Satelliten ein Team erstellt, die entsprechende Website Gruppen in Europa Speicherort erstellt werden und die Dateien zugeordnet, dass Team Gruppe im Ruhezustand an diesem Speicherort gespeichert werden. Alle nachfolgenden Erfahrungen, wie eine neue Datei hochladen oder Bearbeiten der Datei werden auf diesen Europäischen Speicherort, halten umfassende Daten vor-Ort-Dateien verwendet werden. Dies wird alle von der zugrunde liegenden Foundation Office 365 Gruppen zunehmend Multi-Geo-fähigen ermöglicht.
+Die Gruppen Website eines bestimmten Teams ist auch Multi-Geo-fähig. Das heißt, wenn ein europäischer Satelliten Benutzer ein Team erstellt, wird die entsprechende Gruppen Website am Standort Europa erstellt, und die Dateien, die dieser Team Gruppe zugeordnet sind, werden an diesem Speicherort beibehalten. Alle nachfolgenden Erfahrungen, wie das Hochladen einer neuen Datei oder das Bearbeiten der Datei, werden auf diesen europäischen Standort ausgerichtet, wobei das Versprechen einer Daten Residency für diese Dateien bleibt. Dies ist möglich, wenn die zugrunde liegenden Foundation Office 365-Gruppen multigeo-fähig werden.
 
-Da Multi-Geo-Instanz eine einzelne globale Mandanten ist, werden während @ erwähnungen Satelliten Benutzer Lage zu sehen ihre Kollegen in der ganzen Welt, unabhängig davon, wo sie sich befinden. 
+Da es sich bei einer Multi-Geo-Mietdauer um einen einzigen globalen Mandanten handelt, können die Satelliten Nutzer während der @ Erwähnungen Ihre Kollegen aus der ganzen Welt sehen – ganz gleich, wo Sie sich befinden. 
 
-Beachten Sie, dass Unterhaltungen in Chats und Instant Messaging-Besprechungsnotizen innerhalb des Teams den Endbenutzer nicht Multi-Geo bewusst sind und alle werden gespeichert nur innerhalb der zentralen Speicherort des Mandanten. Chat Unterhaltungen werden nicht in der Regel auf Daten vor-Ort-Anforderungen angewendet.
+Beachten Sie, dass Unterhaltungen in Chats und Besprechungsnotizen innerhalb der Teams nicht multigeo-fähig sind und alle nur innerhalb des zentralen Standorts des Mandanten aufbewahrt werden. In der Regel werden Chat Unterhaltungen nicht auf die Anforderungen von Daten Wohnsitz angewendet.
 
-Weitere Informationen zu Office 365 Multi-Geo finden Sie auf der [Microsoft Multi-Geo Funktionen Seite](https://aka.ms/multi-geo).
+Weitere Informationen zu Office 365 Multi-Geo finden Sie auf der [Seite Microsoft Multi-Geo-Funktionen](https://aka.ms/multi-geo).

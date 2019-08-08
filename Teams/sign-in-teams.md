@@ -9,51 +9,51 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Informationen zur Anmeldung bei Microsoft-Teams, mithilfe der modernen Authentifizierung.
+description: So können Sie sich mithilfe der modernen Authentifizierung bei Microsoft Teams anmelden.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201058"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242511"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
 
-Microsoft-Teams, wird die modernen Authentifizierung, um die Anmeldung einfach und sicher zu halten. Um herauszufinden, wie Benutzer Teams anmelden, lesen Sie [Teams anmelden](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
+Microsoft Teams verwendet die moderne Authentifizierung, um die Anmelde Erfahrung einfach und sicher zu halten. Wenn Sie sehen möchten, wie sich Benutzer bei Teams anmelden, lesen Sie [Anmelden bei Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
-## <a name="how-modern-authentication-works"></a>Wie modernen Funktionsweise der Authentifizierung
+## <a name="how-modern-authentication-works"></a>Funktionsweise der modernen Authentifizierung
 
-Moderne Authentifizierung ist ein Prozess, der kann Teams wissen, dass Benutzer bereits ihre Anmeldeinformationen (wie ihre geschäftliche e-Mail und Kennwort) an anderer Stelle eingegeben haben und sollte nicht benötigt werden, geben sie erneut aus, um die Anwendung zu starten. Die Erfahrung variiert je nach einige Faktoren, wie wenn Benutzer unter Windows oder auf einem Mac arbeiten Es wird ebenfalls variieren abhängig davon, ob Ihre Organisation einfache oder mehrstufige Authentifizierung aktiviert hat (Multi-Factor Authentication sind meist Überprüfen der Anmeldeinformationen über ein Telefon, bietet einen eindeutigen Code, indem Sie eine PIN eingeben oder Präsentation eines Fingerabdrucks). Nachfolgend finden Sie einen Überblick über jedes Szenario modernen Authentifizierung.
+Die moderne Authentifizierung ist ein Prozess, bei dem Teams wissen, dass Benutzer ihre Anmeldeinformationen (wie Ihre geschäftliche e-Mail-Adresse und Ihr Kennwort) bereits an einem anderen Ort eingegeben haben, und Sie sollten nicht verpflichtet werden, Sie erneut einzugeben, um die APP zu starten. Die Erfahrung hängt von einigen Faktoren ab, wie etwa, wenn Benutzer in Windows oder auf einem Mac arbeiten. Es hängt auch davon ab, ob Ihre Organisation die einstufige Authentifizierung oder die mehrstufige Authentifizierung aktiviert hat (die mehrstufige Authentifizierung umfasst in der Regel die Überprüfung von Anmeldeinformationen über ein Telefon, die Bereitstellungeines eindeutigen Codes, das Eingeben einer PIN oder präsentieren eines Fingerabdrucks) Hier finden Sie einen Überblick über die einzelnen modernen Authentifizierungsszenarien.
 
 ### <a name="windows-users"></a>Windows-Benutzer: 
 
-- Wenn Benutzer bereits für andere Office-apps über ihr Office 365 Enterprise-Konto beim Starten von Teams angemeldet haben sind die für die app gerade verwendet. Es ist nicht erforderlich sind, um ihre Anmeldeinformationen eingeben.
+- Wenn sich Benutzer bereits über Ihr Office 365 Enterprise-Konto bei anderen Office-Apps angemeldet haben, werden Sie beim Starten von Teams direkt zur APP weitergeleitet. Sie müssen Ihre Anmeldeinformationen nicht eingeben.
 
-- Wenn der Benutzer nicht an anderer Stelle, ihre Office 365 Enterprise-Konto angemeldet sind beim Starten von Teams, sie aufgefordert werden, bieten einfache oder mehrstufige Authentifizierung (SFA oder mehrstufiger Authentifizierung das), je nachdem was Ihrem Unternehmen beschlossen wurde, muss auch die Prozess zum unterstützen könnte.
+- Wenn Benutzer nicht bei Ihrem Office 365 Enterprise-Konto angemeldet sind, wenn Sie Ihre Teams starten, werden Sie aufgefordert, eine Einzelfaktor-oder mehrstufige Authentifizierung (SFA oder MFA) bereitzustellen, je nachdem, was Ihre Organisation entschieden hat, wie Sie die zu bestehender Prozess.
 
-- Wenn Benutzer zu einer Domäne gehörenden Computer beim Starten von Teams angemeldet sind, sie werden möglicherweise aufgefordert, wechseln über eine weitere Authentifizierungsschritt, je nachdem, ob Ihre Organisation mehrstufiger Authentifizierung das erforderlich, um bestätigt oder ihren Computer bereits mehrstufiger Authentifizierung das zur Anmeldung bei erfordert. Wenn ihre Computer bereits mehrstufiger Authentifizierung das benötigt So melden Sie sich beginnt beim von Teams, die app automatisch öffnen.
+- Wenn Benutzer bei einem mit der Domäne verbundenen Computer angemeldet sind, werden Sie möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt zu durchlaufen, je nachdem, ob Ihre Organisation MFA erfordert oder wenn Ihr Computer bereits MFA zur Anmeldung benötigt. Wenn Ihr Computer bereits MFA zur Anmeldung benötigt, wird die APP automatisch gestartet, wenn Sie Teams öffnen.
 
 ### <a name="mac-users"></a>Mac-Benutzer 
 
-Wenn Benutzer Teams starten, werden ihren Computer kann nicht ihre Anmeldeinformationen für ihre Office 365 Enterprise-Konto oder eine ihrer anderen Office-Anwendung abgerufen. Stattdessen wird gefragt, deren für SFA oder mehrstufiger Authentifizierung das (abhängig von Ihrer Organisation Einstellungen) angezeigt. Nachdem Benutzer ihre Anmeldeinformationen eingeben, werden sie wird nicht benötigt diese erneut bereitstellen. Ab diesem Zeitpunkt auf Teams, die automatisch startet immer auf demselben Computer arbeiten.
+Wenn Benutzer Teams starten, kann Ihr Computer Ihre Anmeldeinformationen nicht von Ihrem Office 365 Enterprise-Konto oder einer anderen Office-Anwendung abrufen. Stattdessen sehen Sie eine Aufforderung, in der Sie nach SFA oder MFA gefragt werden (je nach den Einstellungen Ihrer Organisation). Nachdem die Benutzer ihre Anmeldeinformationen eingegeben haben, müssen Sie Sie nicht erneut angeben. Ab diesem Zeitpunkt werden die Teams automatisch gestartet, wenn Sie am gleichen Computer arbeiten.
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>Wechseln nach Abschluss der modernen Authentifizierung Konten
+## <a name="switching-accounts-after-completing-modern-authentication"></a>Wechseln von Konten nach Abschluss der modernen Authentifizierung
 
-Wenn Benutzer auf einer Domäne gehörenden Computer (beispielsweise, wenn ihre Mandanten Kerberos aktiviert hat) arbeiten, können nicht sie Benutzerkonten wechseln, sobald sie modernen Authentifizierung abgeschlossen haben. Wenn Benutzer nicht auf einer Domäne gehörenden Computer arbeiten, können sie Konten wechseln.
+Wenn Benutzer an einem Computer mit einer Domäne arbeiten (Wenn beispielsweise der Mandant Kerberos aktiviert hat), können Benutzerkonten nicht gewechselt werden, nachdem Sie die moderne Authentifizierung abgeschlossen haben. Wenn Benutzer nicht an einem Computer mit Domänenbeitritt arbeiten, können Sie die Konten wechseln.
 
-## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Abmelden von Microsoft-Teams, klicken Sie nach Abschluss der modernen Authentifizierung
-Um sich abzumelden Teams können Benutzer klicken Sie auf das Profilbild am oberen Rand der app, und wählen Sie dann auf **Abmelden**. Sie können auch auf das app-Symbol in der Taskleiste und wählen Sie dann auf **Abmelden**. Sobald sie abmelden Teams haben, müssen sie ihre Anmeldeinformationen erneut aus, um die app starten eingeben.
+## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Abmelden bei Microsoft Teams nach Abschluss der modernen Authentifizierung
+Zum Abmelden von Teams können Benutzer oben in der APP auf Ihr Profilbild klicken und dann Abmelden auswählen. **** Sie können auch mit der rechten Maustaste auf das App-Symbol in der Taskleiste **** klicken und dann Abmelden auswählen. Nachdem Sie sich bei Microsoft Teams abgemeldet haben, müssen Sie Ihre Anmeldeinformationen erneut eingeben, um die APP zu starten.
 
-## <a name="troubleshooting-modern-authentication"></a>Problembehandlung bei modernen Authentifizierung
+## <a name="troubleshooting-modern-authentication"></a>Problembehandlung bei der modernen Authentifizierung
 
-Moderne Authentifizierung ist für jede Organisation, dass Verwendungsmöglichkeiten Teams, also wenn Benutzer nicht für die Durchführung des Aktivierungsvorgangs können möglicherweise Problem in Ihrer Domäne oder Office 365 Enterprise-Konto Ihrer Organisation verfügbar sind. 
+Die moderne Authentifizierung ist für alle Organisationen verfügbar, in denen Teams verwendet werden, wenn Benutzer den Vorgang also nicht abschließen können, liegt möglicherweise ein Fehler mit Ihrer Domäne oder dem Office 365 Enterprise-Konto Ihrer Organisation vor. 
 
-Weitere Informationen finden Sie unter [Warum treten Probleme bei der Anmeldung an Microsoft-Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Weitere Informationen finden Sie unter [Warum habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 

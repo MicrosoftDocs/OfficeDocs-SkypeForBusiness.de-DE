@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,16 +16,16 @@ search.appverid: MET150
 description: Startseite zum Bereitstellen von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185324"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236979"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
-Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Ihren Benutzern Cloud-Sprachfunktionen hinzufügen. 
+Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen #a0 Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Ihren Benutzern Cloud-Sprachfunktionen hinzufügen. 
 
 Cloud Voice bietet Funktionen für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlich geschalteten Telefonnetz (PSTN).
 
@@ -99,7 +100,7 @@ Standardmäßig verwenden alle ausgehenden Anrufe die zugewiesene Telefonnummer 
 
 |Frage|Aktion |
 |:------------|:-------|
-|Soll die Rufnummernanzeige maskiert oder deaktiviert werden? | Informationen zum Ändern oder Blockieren der Rufnummernanzeige finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Soll die Rufnummernanzeige maskiert oder deaktiviert werden? | Informationen zum Ändern oder Blockieren der Rufnummernanzeige finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md). |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft

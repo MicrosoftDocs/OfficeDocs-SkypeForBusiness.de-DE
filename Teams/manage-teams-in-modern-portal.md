@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: islubin
 description: Hier erfahren Sie, wie Sie Ihre Teams im Microsoft Teams Admin Center anzeigen oder aktualisieren.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f495a9cc5b3bfb1fd270e85b2a1fb17bd5f11e68
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548270"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233352"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Admin Center für Microsoft Teams
 ==========================================
@@ -113,7 +114,7 @@ Ersetzen Sie **{Gruppen** -Nr} in der Abfrage für die eigentliche fragliche Gru
 
 2. Anmelden beim Diagramm-Explorer im linken Menü
 
-3. Ändern Sie die Abfragezeile in: Patch > v 1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
+3. Ändern Sie die Abfragezeile in: Patch #a0 v 1.0 #a1https://graph.microsoft.com/v1.0/groups/{groupid}
 
 4. Fügen Sie den folgenden Wert für den Anforderungstext hinzu: {"resourceProvisioningOptions": ["Team"]}
 

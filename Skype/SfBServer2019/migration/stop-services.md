@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können die Skype for Business Server-Systemsteuerung verwenden, um alle Legacy Dienste zu starten oder zu beenden, die auf einem bestimmten Computer ausgeführt werden, oder um einen bestimmten Legacy Dienst zu starten oder zu beenden.
-ms.openlocfilehash: 90cd9c0c7d2fbd87a4ae796c94f025b60d1a1f87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241244"
 ---
 # <a name="stop-legacy-services"></a>Beenden von Legacydiensten
 

@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Zusammenfassung: informieren Sie sich über die Server und Serverrollen, die Sie vor der Installation von Skype for Business Server konfigurieren müssen. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 7b2369af5a95d027edff0db291af37c710813465
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2fbf90a1ee6f517cad2c716e6a50dd814352993e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306605"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240606"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installieren von Voraussetzungen für Skype for Business Server
  
