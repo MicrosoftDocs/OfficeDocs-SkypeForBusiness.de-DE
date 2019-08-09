@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfügbaren Clienteinstellungen und Standardwerte sowie deren Bearbeitung außerhalb der App.
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234190"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271278"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clienterfahrung in Skype for Business
  
@@ -34,7 +34,7 @@ Um diese Einstellungen festzulegen, wechseln Sie auf dem Mac des Clients zu eine
 
 | Schlüssel | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)    |Geben Sie an, wie Skype for Business den Transport und den Server identifiziert, die Sie bei der Anmeldung verwenden möchten. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)    |Geben Sie an, wie Skype for Business den Transport und den Server identifiziert, die Sie bei der Anmeldung verwenden möchten. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
 |internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Interne URL zur automatischen Erkennung    |
 |externalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Externe URL zur automatischen Erkennung    |
 |httpProxyDomain    |Zeichenfolge    ||HTTP-Proxy-Domäne    |

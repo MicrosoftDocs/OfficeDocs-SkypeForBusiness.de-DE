@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: erfahren Sie mehr über den Konferenz Detail Bericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305787"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271395"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenz Detail Bericht in Skype for Business Server
 
@@ -33,7 +33,7 @@ Auf den detaillierten Konferenzbericht kann über die folgenden Berichte zugegri
 
 - [User Activity Report](call-diagnostic-reports-per-user.md) (durch Klicken auf die Metrik „Konferenz-URI“)
 
-Im Konferenz Detail Bericht können Sie auf den [Diagnose](diagnostic-report.md) -Repor zugreifen, indem Sie auf die Metrik Diagnosebericht (Detail) klicken.
+Über den detaillierten Konferenzbericht können Sie auf den [Diagnostic Report](diagnostic-report.md) zugreifen, indem Sie auf die Metrik für den Diagnosebericht (Detail) klicken.
 
 ## <a name="filters"></a>Filter
 

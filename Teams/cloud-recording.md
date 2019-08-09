@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funktionen in Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237030"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271398"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -32,7 +32,7 @@ Related: [Teams Besprechung Aufzeichnung Endbenutzer-Dokumentation](https://aka.
 Damit Besprechungen eines Teams-Benutzers aufgezeichnet werden, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus sind die folgenden Voraussetzungen für den Besprechungsorganisator und die Person erforderlich, die die Aufzeichnung initiiert:
 
 - Der Benutzer verfügt über ein Office 365 E1, E3, E5, a1, a3, A5, M365 Business, Business Premium oder Business Essentials
-- Der Benutzer muss für Microsoft Stream lizenziert sein.
+- Der Benutzer muss für Microsoft Stream<sup>1</sup> lizenziert sein. 
 - Benutzer hat Microsoft Stream-Upload-Video Berechtigungen
 - Der Benutzer hat den Richtlinien des Unternehmens zugestimmt, wenn er vom Administrator eingerichtet wurde.
 - Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, damit Aufzeichnungen gespeichert werden.
@@ -41,6 +41,8 @@ Damit Besprechungen eines Teams-Benutzers aufgezeichnet werden, muss Microsoft S
 
 > [!NOTE]
 > Darüber hinaus muss die TeamsMeetingPolicy-AllowTranscription-Einstellung des Benutzers auf "true" festgelegt werden, damit die Person, die die Aufzeichnung initiiert, auswählen kann, ob die Aufzeichnung automatisch transkribiert werden soll.
+
+<sup>1</sup> Der Benutzer muss zum Hochladen/Herunterladen von Besprechungen von/zu Microsoft Stream lizenziert werden, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Microsoft Teams-Besprechung zu speichern, müssen Sie einen TeamsMeetingPolicy gewähren, der AllowCloudRecording auf $false festzulegen hat.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Cloud-Besprechungsaufzeichnung von Teams für Benutzer in Ihrer Organisation
 

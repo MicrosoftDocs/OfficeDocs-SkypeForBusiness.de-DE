@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236599"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271446"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -155,9 +155,17 @@ Teams-Transport-Relays befinden sich immer im Medienpfad in den folgenden Szenar
 Stellen Sie sicher, dass Ihr SBC wie unten beschrieben auf die Transport-Relays zugreifen kann.    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP-Signalisierung: FQDNs und Firewall-Ports
+## <a name="sip-signaling-fqdns"></a>SIP-Signalisierung: FQDNs
 
 Für SIP-Signalisierungen sind die Anforderungen für FQDN und Firewall dieselben wie für nicht Umgehungs Fälle. 
+
+Das direkte Routing wird in den folgenden Office 365-Umgebungen angeboten:
+- Office 365
+- Office 365 gcc
+- Office 365 gcc-höchst
+- Office 365 DoD Weitere Informationen zu [Office 365-und US Government-Umgebungen](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) wie gcc, gcc-groß und DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
 
 Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:
 
@@ -182,7 +190,43 @@ Die FQDNs **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**und **sip
 - 52.114.7.24
 - 52.114.14.70
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN- **SIP-all.pstnhub.Microsoft.com** in alle oben genannten IP-Adressen aufgelöst. Sie müssen die folgenden Ports verwenden:
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN- **SIP-all.pstnhub.Microsoft.com** in alle diese IP-Adressen aufgelöst. 
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+
+Der Verbindungspunkt für das direkte Routing ist der folgende FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.US** – globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und tertiären FQDNs.
+
+Die FQDNs – SIP.pstnhub.DoD.Teams.Microsoft.US werden in eine der folgenden IP-Adressen aufgelöst:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.DoD.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
+
+Der Verbindungspunkt für das direkte Routing ist der folgende FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.US** – globaler FQDN. Da die gcc-höchst Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und tertiären FQDNs.
+
+Die FQDNs – SIP.pstnhub.gov.Teams.Microsoft.US werden in eine der folgenden IP-Adressen aufgelöst:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.gov.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+
+## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Anschlüsse
+
+Die Port Anforderungen sind für alle Office 365-Umgebungen identisch, in denen Direktes Routing angeboten wird:
+- Office 365
+- Office 365 gcc
+- Office 365 gcc-höchst
+- Office 365 DoD
+
+Sie müssen die folgenden Ports verwenden:
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ Hinweis: Wenn Sie über ein Netzwerkgerät verfügen, das die Quell Anschlüsse 
 
 ### <a name="requirements-for-using-transport-relays"></a>Voraussetzungen für die Verwendung von Transport-Relays
 
-Transport-Relays befinden sich im gleichen Bereich wie Medien Prozessoren (für nicht-Bypass-Fälle): 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254).
+Transport-Relays befinden sich im gleichen Bereich wie Medien Prozessoren (für nicht-Bypass-Fälle): 
 
-In der folgenden Tabelle wird der Portbereich der Teams-Transport-Relays angezeigt:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
+
+-52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
+
+- 52.127.88.0/21
+
+
+Der Portbereich der Teams-Transport-Relays (für alle Umgebungen) ist in der folgenden Tabelle aufgeführt:
 
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
@@ -236,9 +293,21 @@ Sie müssen Ports 3478 und 3479 für den Übergang öffnen. Wenn Microsoft Unter
 Medien Prozessoren sind immer im Medienpfad für Sprachanwendungen und für Web-Cleints (für exampe, Teams Cleint in Edge oder Google Chrome). Die Anforderungen sind identisch mit der Konfiguration ohne Bypass.
 
 
-Der IP-Bereich für den Mediendatenverkehr lautet 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254).
+Der IP-Bereich für den Medien Verkehr ist 
 
-Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
+
+-52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
+
+- 52.127.88.0/21
+
+In der folgenden Tabelle wird der Portbereich der Medien Prozessoren (für alle Umgebungen) angezeigt:
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|

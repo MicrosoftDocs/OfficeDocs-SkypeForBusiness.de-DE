@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240807"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271435"
 ---
 # <a name="make-my-service-decisions"></a>Meine Dienst Entscheidungen treffen
 
@@ -191,7 +191,7 @@ SBCS erfordern bidirektionale Konnektivität für die Kommunikation mit den Clou
 
 Sie müssen für jeden SBC für SIP-Signalisierungs-und medienspezifische Portnummern definieren und ihre Firewalls so konfigurieren, dass bidirektionaler Datenverkehr zu diesen Ports und den zugehörigen IP-Adressen zugelassen wird.
 
-Weitere Informationen finden Sie unter [SIP-Signalisierungen: FQDNs und Firewall-Ports](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) und [Mediendatenverkehr: Port Bereiche](direct-routing-plan.md#media-traffic-port-ranges).
+Weitere Informationen finden Sie unter [SIP-Signalisierungen: FQDNs](direct-routing-plan.md#sip-signaling-fqdns) und [Mediendatenverkehr: Port Bereiche](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]

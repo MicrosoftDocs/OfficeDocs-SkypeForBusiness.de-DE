@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166282"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271424"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -55,9 +55,10 @@ Die Planung der Bereitstellung des direkten Routings ist der Schlüssel zu einer
 - [Lizenzierung und andere Anforderungen](#licensing-and-other-requirements)
 - [SBC-Domänennamen](#sbc-domain-names)
 - [Öffentliches vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc)
-- [SIP-Signalisierung: FQDNs und Firewall-Ports](#sip-signaling-fqdns-and-firewall-ports)
-- [Medien Verkehr: Portbereiche](#media-traffic-port-ranges)
-- [Unterstützte SBCS](#supported-session-border-controllers-sbcs)
+- [SIP-Signalisierung: FQDNs](#sip-signaling-fqdns)
+- [SIP-Signalisierung: Anschlüsse](#sip-signaling-ports)
+- [Medien Verkehr: Port Bereiche](#media-traffic-port-ranges)
+- [Unterstützte Session Border Controllers (SBCS)](#supported-session-border-controllers-sbcs)
 
 Detaillierte Informationen zum Konfigurieren des direkten Routings finden Sie unter [Konfigurieren des direkten Routings](direct-routing-configure.md).
 
@@ -75,7 +76,7 @@ In der folgenden Tabelle sind die Infrastrukturanforderungen für die unterstüt
 |Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den SBC|Ein FQDN für den SBC, wobei der Domänenanteil des FQDN eine der registrierten Domänen in Ihrem Office 365-Mandanten ist. Weitere Informationen finden Sie unter [SBC-Domänennamen](#sbc-domain-names).|
 |Öffentlicher DNS-Eintrag für den SBC |Ein öffentlicher DNS-Eintrag, der den SBC-FQDN an die öffentliche IP-Adresse anordnet. |
 |Öffentliches vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für den SBC, der für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [öffentliches vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
-|Verbindungspunkte für die direkte Weiterleitung |Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globaler FQDN, muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundärer FQDN, der geografisch dem zweiten Prioritätsbereich zugeordnet ist.<br/>`sip3.pstnhub.microsoft.com`– Tertiärer FQDN, der geografisch dem dritten Prioritätsbereich zugeordnet ist.<br/><br/>Informationen zu den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierungen: FQDNs und Firewall-Ports](#sip-signaling-fqdns-and-firewall-ports).|
+|Verbindungspunkte für die direkte Weiterleitung |Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globaler FQDN, muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundärer FQDN, der geografisch dem zweiten Prioritätsbereich zugeordnet ist.<br/>`sip3.pstnhub.microsoft.com`– Tertiärer FQDN, der geografisch dem dritten Prioritätsbereich zugeordnet ist.<br/><br/>Informationen zu den Konfigurationsanforderungen finden Sie unter SIP-Signalisierungen [: FQDNs](#sip-signaling-fqdns).|
 |Firewall-IP-Adressen und Ports für Direct-Routing Medien |Der SBC kommuniziert mit den folgenden Diensten in der Cloud:<br/><br/>SIP-Proxy, der die Signalübertragung übernimmt<br/>Medienprozessor, der Medien verarbeitet, es sei denn, die medienumgehung ist aktiviert.<br/><br/>Diese beiden Dienste verfügen über separate IP-Adressen in der Microsoft-Cloud, die weiter unten in diesem Dokument beschrieben werden.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Medien Transport Profil|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall-IP-Adressen und Ports für Microsoft Teams-Medien |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -120,7 +121,7 @@ Die folgende Tabelle enthält Beispiele für DNS-Namen, die für den Mandanten r
 
 |**DNS-Name**|**Kann für SBC-FQDN verwendet werden**|**Beispiele für FQDN-Namen**|
 |:--- |:--- |:--- |
-contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
+contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Nein|<br/>Die Verwendung von *. onmicrosoft.com-Domänen wird für SBC-Namen nicht unterstützt.
 
 Angenommen, Sie möchten einen neuen Domänennamen verwenden. Beispielsweise hat ihr Mandant contoso.com als Domänennamen, der in Ihrem Mandanten registriert ist, und Sie möchten sbc1.SIP.contoso.com verwenden. Bevor Sie einen SBC mit dem Namen sbc1.SIP.contoso.com koppeln können, müssen Sie den Domänennamen SIP.contoso.com in "Domains" in Ihrem Mandanten registrieren. Wenn Sie versuchen, einen SBC mit sbc1.SIP.contoso.com zu koppeln, bevor Sie den Domänennamen registrieren, erhalten Sie die folgende Fehlermeldung: "die Domäne" sbc1.SIP.contoso.com "kann nicht verwendet werden, da Sie für diesen Mandanten nicht konfiguriert wurde."
@@ -169,7 +170,17 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 
 Microsoft arbeitet daran, zusätzliche Zertifizierungsstellen basierend auf Kundenanforderungen hinzuzufügen. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP-Signalisierung: FQDNs und Firewall-Ports 
+## <a name="sip-signaling-fqdns"></a>SIP-Signalisierung: FQDNs 
+
+Das direkte Routing wird in den folgenden Office 365-Umgebungen angeboten:
+- Office 365
+- Office 365 gcc
+- Office 365 gcc-höchst
+- Office 365 DoD
+
+Erfahren Sie mehr über [Office 365 und US Government-Umgebungen](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) wie gcc, gcc-höchst-und DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
 
 Der Verbindungspunkt für das direkte Routing sind die folgenden drei FQDNs:
 
@@ -191,7 +202,44 @@ Die FQDNs – SIP.pstnhub.Microsoft.com, sip2.pstnhub.Microsoft.com und sip3.pst
 - 52.114.7.24 
 - 52.114.14.70
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP-all.pstnhub.Microsoft.com in alle oben genannten IP-Adressen aufgelöst.  Sie müssen die folgenden Ports verwenden:
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP-all.pstnhub.Microsoft.com in alle diese IP-Adressen aufgelöst. 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+
+Der Verbindungspunkt für das direkte Routing ist der folgende FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.US** – globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und tertiären FQDNs.
+
+Die FQDNs – SIP.pstnhub.DoD.Teams.Microsoft.US werden in eine der folgenden IP-Adressen aufgelöst:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.DoD.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
+
+Der Verbindungspunkt für das direkte Routing ist der folgende FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.US** – globaler FQDN. Da die gcc-höchst Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und tertiären FQDNs.
+
+Die FQDNs – SIP.pstnhub.gov.Teams.Microsoft.US werden in eine der folgenden IP-Adressen aufgelöst:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.gov.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+
+## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Anschlüsse
+
+Die Port Anforderungen sind für alle Office 365-Umgebungen identisch, in denen Direktes Routing angeboten wird:
+- Office 365
+- Office 365 gcc
+- Office 365 gcc-höchst
+- Office 365 DoD
+
+Sie müssen die folgenden Ports verwenden:
 
 |**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Medien Verkehr: Port Bereiche
-Hinweis die folgenden Anforderungen gelten, wenn Sie die direkte Weiterleitung ohne medienumgehung bereitstellen. Informationen zu den Firewall-Anforderungen für die medienumgehung finden Sie unter [Planen der medienumgehung mit direktem Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+Beachten Sie, dass die folgenden Anforderungen gelten, wenn Sie Direktes Routing ohne medienumgehung bereitstellen möchten. Informationen zu den Firewall-Anforderungen für die medienumgehung finden Sie unter [Planen der medienumgehung mit direktem Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+
+
 
 Der Mediendatenverkehr fließt in die und aus einem separaten Dienst in der Microsoft-Cloud. Der IP-Bereich für Mediendatenverkehr:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
+
 - 52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254).
 
+### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>Port Bereich (gilt für alle Umgebungen)
 Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt: 
 
 |**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|

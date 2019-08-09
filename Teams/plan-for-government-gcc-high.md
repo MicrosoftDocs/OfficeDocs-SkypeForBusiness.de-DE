@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237668"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271381"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan für Microsoft 365 Government-gcc-höchst Bereitstellungen
 
@@ -78,14 +78,14 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 |-----------------------------|-----------------------------|----------------|
 | Basis | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Auf dem Government-Rückstand |
+| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Verfügbar |
 | Aktivität | Feed | Verfügbar |
 |  | Meine Aktivitäten | Verfügbar |
 | Chat | Unterhaltung | Verfügbar |
 | | Dateien | Verfügbar |
 | | Organigramm | Verfügbar |
 | | Aktivität | Verfügbar |
-| | Interop (1:1 Teams – Skype for Business-Chat) | Auf dem Government-Rückstand |
+| | Interop (1:1 Teams – Skype for Business-Chat) | Verfügbar |
 | Teams | Kanal Nachricht | Verfügbar |
 | | Kanaldateien | Verfügbar |
 | | OneNote-Registerkarte | Auf dem Government-Rückstand |

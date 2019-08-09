@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925481"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36254020"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -90,10 +90,10 @@ Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
 
 |Neuer Domänenname |Typ|Registriert  |Zertifikat-San für SBC  |Standarddomäne des Mandanten im Beispiel  |FQDN-Name, den SBC beim Senden von Anrufen an Benutzer in der Kontakt Kopfzeile vorlegen muss|
 |---------|---------|---------|---------|---------|---------|
-|Customers.adatum.biz|    Basis     |     In Carrier-Mandant  |    \*. Customers.adatum.biz  |   adatum.biz      |Na, dies ist ein Dienst Mandant, keine Benutzer |
-|sbc1.Customers.adatum.biz|    Subdomain  |    In einem Kundenmandanten  |    \*. Customers.adatum.biz  | woodgrovebank.US  |  sbc1.Customers.adatum.biz|
-|sbc2.Customers.adatum.biz  |   Subdomain | In einem Kundenmandanten   |   \*. Customers.adatum.biz   |contoso.com   |sbc2.Customers.adatum.biz |
-|sbc3.Customers.adatum.biz |   Subdomain | In einem Kundenmandanten |   \*. Customers.adatum.biz  |  AdventureWorks.com | sbc3.Customers.adatum.biz |
+|customers.adatum.biz|    Basis     |     In Carrier-Mandant  |    \*. Customers.adatum.biz  |   adatum.biz      |Na, dies ist ein Dienst Mandant, keine Benutzer |
+|sbc1.customers.adatum.biz|    Subdomain  |    In einem Kundenmandanten  |    \*. Customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
+|sbc2.customers.adatum.biz  |   Subdomain | In einem Kundenmandanten   |   \*. Customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
+|sbc3.customers.adatum.biz |   Subdomain | In einem Kundenmandanten |   \*. Customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
 Führen Sie die nachstehenden Schritte aus, um die Basis-und Subdomänen zu konfigurieren. Im Beispiel konfigurieren wir einen Basisdomänen Namen (Customers.adatum.biz) und eine Unterdomäne für einen Kunden (sbc1.Customers.adatum.biz in Woodgrove Bank-Mandanten).
@@ -205,7 +205,7 @@ Mit der ersten Version des direkten Routings benötigte Microsoft einen trunk, d
 
 Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
  
-• **Overhead-Management**. Wenn Sie beispielsweise einen SBC entladen oder entladen, werden einige Parameter wie das Aktivieren oder Deaktivieren der medienumgehung geändert. Das Ändern des Ports erfordert das Ändern von Parametern in mehreren Mandanten (durch Ausführen von "Satz-CSonlinePSTNGateway)", ist aber tatsächlich derselbe SBC. • **Overhead-Bearbeitung**. Sammeln und Überwachen von trunk-Integritätsdaten – die SIP-Optionen, die aus mehreren logischen Stämmen gesammelt wurden, die in Wirklichkeit derselbe SBC und derselbe physische Stamm sind, verlangsamen die Verarbeitung der Routingdaten.
+• **Overhead-Management**. Wenn Sie beispielsweise einen SBC entladen oder entladen, werden einige Parameter wie das Aktivieren oder Deaktivieren der medienumgehung geändert. Das Ändern des Ports erfordert das Ändern von Parametern in mehreren Mandanten (durch Ausführen von "Satz-CSOnlinePSTNGateway)", ist aber tatsächlich derselbe SBC. • **Overhead-Bearbeitung**. Sammeln und Überwachen von trunk-Integritätsdaten – die SIP-Optionen, die aus mehreren logischen Stämmen gesammelt wurden, die in Wirklichkeit derselbe SBC und derselbe physische Stamm sind, verlangsamen die Verarbeitung der Routingdaten.
  
 
 Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
@@ -226,7 +226,7 @@ Bereitstellungslogik und-Beispiel.
 
 Migration vom Vorgängermodell zum Carrier trunk
  
-Für die Migration von der aktuellen Implementierung des Carrier-Hosted-Modells zum neuen Modell müssen die Netzbetreiber die Stämme für Kundenmandanten neu konfigurieren. Entfernen Sie die Trunks von den Kundenmandanten mithilfe von Remove-CSOnluinePSTNGateway (verlassen des Stamms im Carrier-Mandanten).
+Für die Migration von der aktuellen Implementierung des Carrier-Hosted-Modells zum neuen Modell müssen die Netzbetreiber die Stämme für Kundenmandanten neu konfigurieren. Entfernen Sie die Trunks von den Kundenmandanten mithilfe von Remove-CSOnlinePSTNGateway (verlassen des Stamms im Carrier-Mandanten).
 
 Wir empfehlen, so schnell wie möglich auf die neue Lösung zu migrieren, da wir die Überwachung und Bereitstellung mit dem Carrier und dem abgeleiteten trunk Modell verbessern werden.
  

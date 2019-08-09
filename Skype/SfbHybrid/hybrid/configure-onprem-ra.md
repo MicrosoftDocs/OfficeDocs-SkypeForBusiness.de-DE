@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207156"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253954"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -31,7 +31,7 @@ Wenn Sie über eine Exchange um automatische Telefonzentrale und ein Anruf Warte
 Wenn für die automatische Telefonzentrale oder die Anrufwarteschlange eine Dienstnummer erforderlich ist, können die verschiedenen Abhängigkeiten in der folgenden Reihenfolge erfüllt werden:
 
 1. Abrufen einer Dienstnummer
-2. Erhalten Sie eine ﻿kostenlose Telefonsystem- [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) oder eine gebührenpflichtige Telefonsystem Lizenz, die mit dem Ressourcenkonto verwendet werden soll.
+2. Erhalten Sie eine ﻿kostenlose Telefonsystem- [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user) oder eine gebührenpflichtige Telefonsystem Lizenz, die mit dem Ressourcenkonto verwendet werden soll.
 3. Erstellen Sie das Ressourcenkonto. Für eine automatische Telefonzentrale oder Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich.
 4. Warten Sie, bis eine Active Directory-Synchronisierung zwischen Online und vor Ort durchgeschaltet wird.
 5. Weisen Sie dem Ressourcenkonto die Telefon System Lizenz zu.
