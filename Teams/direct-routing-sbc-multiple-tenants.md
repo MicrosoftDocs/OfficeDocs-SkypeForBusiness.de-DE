@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36254020"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271457"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -57,6 +57,7 @@ Im folgenden finden Sie die Schritte zur technischen Implementierung zum Konfigu
 Die detaillierten Schritte zum Bereitstellen und Konfigurieren von SBCS für ein SBC-Hosting-Szenario finden Sie in der Dokumentation des SBC-Anbieters.
 
 - **AudioCodes:** [Direct Routing-Konfigurationshinweise](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), die Konfiguration des SBC-Host Szenarios, das unter "Verbinden von AudioCodes SBC mit Microsoft Teams Direct Routing Hosting Model Configuration Note" beschrieben wird. 
+- **Oracle:** [Direct Routing-Konfigurationshinweise](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)die Konfiguration des SBC-Host Szenarios wird im Abschnitt "Microsoft" beschrieben. 
 - **Band Kommunikation:**  Weitere Informationen finden Sie im [Menüband Communications SBC Core Microsoft Teams-Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) für die Dokumentation zur Konfiguration der Menüband-Core-Serie SBCS und zu diesem Seiten [Menüband bewährte Methode – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **Te-Systems (anynode):**  Bitte melden Sie sich auf der [te-Systems Community-Seite](https://community.te-systems.de/) an, um Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten zu erhalten.
 
