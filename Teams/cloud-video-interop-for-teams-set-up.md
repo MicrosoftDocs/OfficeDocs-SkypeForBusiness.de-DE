@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237052"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286256"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
-Nachdem Sie sich [für Ihre Brightcove-Video-Interop-Partner (n) entschieden](cloud-video-interop.md)haben, müssen Sie Ihre Bereitstellung planen, mit Bereitstellungsdetails und dem Partner Mandanten Schlüssel einrichten und der Video-Interop-app in Ihrer Organisation zustimmen. Das folgende Diagramm beschreibt den Prozess. 
+Nachdem Sie [Ihre Brightcove-Video-Interop-Partner (n) ausgewählt](cloud-video-interop.md)haben, müssen Sie Ihre Bereitstellung planen, mit Bereitstellungsdetails und dem Partner Mandanten Schlüssel einrichten und der Video-Interop-app in Ihrer Organisation zustimmen. Das folgende Diagramm beschreibt den Prozess. 
 
 ![Bereitstellen von CVI in Ihrer Organisation](media/deploying-cvi.png)
 

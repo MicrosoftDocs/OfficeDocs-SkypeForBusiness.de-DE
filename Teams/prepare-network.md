@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
+ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235179"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36279167"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -36,22 +36,20 @@ Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
 Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt in Peer-zu-Peer-Szenarien direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
-> [!NOTE]
-> Besprechungen werden auf mobilen IOS-und Android-Geräten unterstützt. 
 
-Damit Sie die optimale Nutzung von Echt Zeit Medien in Microsoft Teams erzielen können, muss Ihr Netzwerk die Netzwerkanforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Damit Sie die optimale Nutzung von Echt Zeit Medien in Microsoft Teams erzielen können, muss Ihr Netzwerk die Netzwerkanforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Für die beiden definierenden Netzwerksegmente (Client zum Edge von Microsoft und Kundenedge zum Edge von Microsoft) gelten die folgenden Empfehlungen.
+Bei den beiden Definitions Netz Segmenten (Client zu Microsoft Edge und Customer Edge to Microsoft Edge) sollten die folgenden Empfehlungen berücksichtigt werden.
 
 
-|Wert  |Client zu Microsoft Edge  |Kundenedge zu Microsoft Edge  |
+|Wert  |Client zu Microsoft Edge  |Kunden-Edge zu Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latenz (eine Möglichkeit)**\*  |< 50 ms          |< 30 ms         |
-|**Latenz (RTT oder Round-Trip-Zeit)**\* |< 100 ms   |< 60 ms |
-|**Burstverlust von Paketen**    |< 10 % in einem Intervall von 200 ms         |< 1% in einem Intervall von 200 ms         |
-|**Paketverlust**     |< 1% in einem Intervall von 15 s          |< 0,1% in einem Intervall von 15 s         |
-|**Jitter zwischen der Ankunftszeit von Paketen**    |< 30 ms in einem Intervall von 15 s         |< 15 ms in einem Intervall von 15 s         |
-|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01% Pakete in falscher Reihenfolge         |
+|**Latenz (eine Möglichkeit)**\*  |< 50ms          |< 30ms         |
+|**Latenz (RTT oder Round-Trip-Zeit)**\* |< 100M   |< 60ms |
+|**Burst-Paketverlust**    |<10% während eines 200M-Intervalls         |<1% während eines 200M-Intervalls         |
+|**Paketverlust**     |<1% in einem 15-minütigen Intervall          |<0,1% in einem 15-15-Intervall         |
+|**Paket Inter-arrival Jitter**    |<30ms während eines 15-15-Intervalls         |<15ms während eines 15-15-Intervalls         |
+|**Paket Reihenfolge**    |<0,05% Pakete außerhalb der Reihenfolge         |<0,01% Pakete außerhalb der Reihenfolge         |
 
 \*Bei den Metrikdaten für Latenzen wird davon ausgegangen, dass Ihre Unternehmenswebsite oder Ihre Websites und die Microsoft-Ränder auf demselben Kontinent sind.
 
