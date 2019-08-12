@@ -72,6 +72,7 @@
 ### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 ### [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 ### [Verwalten von Feedbackrichtlinien in Teams](manage-feedback-policies-in-teams.md)
+### [Verwalten von Richtlinienpaketen in Teams](manage-policy-packages.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Verwalten der externen Zugriffsrichtlinie](manage-external-access.md)
 ### [Verwenden der Inline-Nachrichtenübersetzung](inline-message-translation-teams.md)
