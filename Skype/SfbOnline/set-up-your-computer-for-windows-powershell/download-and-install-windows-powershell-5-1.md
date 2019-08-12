@@ -1,5 +1,5 @@
 ---
-title: Herunterladen und Installieren von Windows PowerShell 5,1
+title: Herunterladen und Installieren von Windows PowerShell 5.1
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: Sie können Windows PowerShell 5,1 herunterladen, installieren und verwenden, um eine Remote-PowerShell-Sitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
+description: Sie können Windows PowerShell 5.1 herunterladen, installieren und dann verwenden, um eine Remote-PowerShell-Sitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
 ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
 ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/16/2019
 ms.locfileid: "35701555"
 ---
-# <a name="download-and-install-windows-powershell-51"></a>Herunterladen und Installieren von Windows PowerShell 5,1
+# <a name="download-and-install-windows-powershell-51"></a>Herunterladen und Installieren von Windows PowerShell 5.1
 
-Wenn Sie Windows 10 Anniversary Update oder Windows Server 2016 verwenden, sollten Sie Windows PowerShell 5,1 bereits verwenden. Das liegt daran, dass die Anwendung unter diesen Betriebssystemen vorinstalliert ist.
+Wenn Sie das Windows 10 Anniversary Update oder Windows Server 2016 verwenden, sollten Sie bereits über Windows PowerShell 5.1 verfügen. Das liegt daran, dass diese Anwendung mit diesen Betriebssystemen vorinstalliert wird.
   
-Wenn Sie ermitteln möchten, welche Version von Microsoft PowerShell Sie verwenden, führen Sie die folgenden Schritte auf Ihrem Windows 7-oder Windows Server 2008 R2-oder Windows Server 2012-Computer aus:
+Um zu ermitteln, welche Version von Microsoft PowerShell Sie verwenden, gehen Sie auf Ihrem Computer unter Windows 7 oder Windows Server 2008 R2 oder Windows Server 2012 wie folgt vor:
   
 1. Klicken Sie auf **Start**, auf **Alle Programme**, auf **Zubehör**, auf **Windows PowerShell** und dann auf **Windows PowerShell**.
     
@@ -40,7 +40,7 @@ Wenn Sie ermitteln möchten, welche Version von Microsoft PowerShell Sie verwend
    Get-Host | Select-Object Version
    ```
 
-3. Im Konsolenfenster sollten dann etwa die folgenden Informationen angezeigt werden:
+3. Nun werden im Konsolenfenster Informationen wie die folgenden angezeigt:
     
     <pre>
     Version <BR>
@@ -48,15 +48,15 @@ Wenn Sie ermitteln möchten, welche Version von Microsoft PowerShell Sie verwend
     4.0
     </pre>
 
-    Wenn die zurückgegebene Versionsnummer 5,1 ist, führen Sie Windows PowerShell 5,1 aus. Wenn die zurückgegebene Versionsnummer nicht 5,1 ist, müssen Sie Windows PowerShell 5,1 installieren. Sie können das Windows Management Framework 5,1, einschließlich Windows PowerShell 5,1, aus dem [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616)herunterladen.
+    Wenn die Versionsnummer 5.1 zurückgegeben wird, führen Sie Windows PowerShell 5.1 aus. Wenn anstelle von 5.1 eine andere Versionsnummer zurückgegeben wird, müssen Sie Windows PowerShell 5.1 installieren. Sie können Windows Management Framework 5.1 (einschließlich Windows PowerShell 5.1) aus dem [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616) herunterladen.
   
-Nachdem Sie überprüft haben, dass Windows PowerShell 5,1 installiert ist, müssen Sie sicherstellen, dass PowerShell für die Ausführung von Remoteskripts konfiguriert wurde. Starten Sie dazu PowerShell als Administrator. Unter Windows 7, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 gehen Sie wie folgt vor:
+Wenn Sie sich vergewissert haben, dass Windows PowerShell 5.1 installiert ist, müssen Sie sicherstellen, dass PowerShell für die Ausführung von Remoteskripts konfiguriert ist. Starten Sie dazu PowerShell als Administrator. Unter Windows 7, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 gehen Sie wie folgt vor:
   
 1. Klicken Sie auf **Start**, auf **Alle Programme**, auf **Zubehör** und auf **Windows PowerShell**. Klicken Sie mit der rechten Maustaste auf **Windows PowerShell**, und klicken Sie dann auf **Als Administrator ausführen**.
     
-2. Wenn das Dialogfeld **Benutzerkontensteuerung** angezeigt wird, klicken Sie auf **Ja**. Damit bestätigen Sie, dass Sie PowerShell mit Administratoranmeldeinformationen ausführen möchten.
+2. Klicken Sie dann im Dialogfeld **Benutzerkontensteuerung** auf **Ja**, um zu bestätigen, dass Sie PowerShell mit den Administratoranmeldeinformationen ausführen möchten.
     
-Unter Windows 8 gehen Sie stattdessen so vor:
+Wenn Sie Windows 8 verwenden, gehen Sie stattdessen wie folgt vor:
   
 1. Greifen Sie auf die Charmsleiste zu, klicken Sie auf **Suchen**, und klicken Sie dann mit der rechten Maustaste auf **Windows PowerShell**. Auf Windows 8-Computern (mit oder ohne Touchscreen) können Sie schnell auf die Charmsleiste zugreifen, indem Sie die WINDOWS-TASTE gedrückt halten und C drücken.
     
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> Wenn Sie den vorhergehenden Befehl ausführen, wird möglicherweise die folgende Fehlermeldung angezeigt: #a0 *Satz-ExecutionPolicy: Zugriff\\auf\\die\\Registrierungs\\-\\key'HKEY_LOCAL_MACHINE-Software Microsoft PowerShell 1 ShellIds\\Micrsoft. PowerShell ' wurde verweigert.* Diese Fehlermeldung tritt in der Regel auf, wenn Sie PowerShell nicht unter Administratoranmeldeinformationen ausführen. Schließen Sie Ihre PowerShell-Sitzung, und starten Sie eine neue Sitzung als Administrator.
+> Wenn Sie den vorstehenden Befehl ausführen, wird möglicherweise die folgende Fehlermeldung angezeigt:> *Set-ExecutionPolicy : Der Zugriff auf den Registrierungsschlüssel „HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShel“ wird verweigert.* Diese Fehlermeldung wird normalerweise ausgegeben, wenn Sie PowerShell nicht mit Administratorrechten ausführen. Schließen Sie die PowerShell-Sitzung, und starten Sie eine neue Sitzung als Administrator.
  
 Um zu überprüfen, ob die Ausführungsrichtlinie richtig konfiguriert ist, geben Sie Folgendes an der PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
@@ -79,21 +79,21 @@ Um zu überprüfen, ob die Ausführungsrichtlinie richtig konfiguriert ist, gebe
 Get-ExecutionPolicy
 ```
 
-Wenn der folgende Wert zurückgegeben wird, ist alles richtig konfiguriert:
+Wenn der folgende Wert zurückgegeben wird, wurde alles ordnungsgemäß konfiguriert:
   
 `RemoteSigned`
 
-Wenn Sie derzeit nicht mit Windows PowerShell 5,1 arbeiten, müssen Sie auch Windows Management Framework 5,1 aus dem Microsoft Download Center herunterladen und installieren. Hierbei handelt es sich um ein Installationspaket, das Windows PowerShell 5,1 und Windows Remote Management (WinRM) 3,0 umfasst. Dieses Installationspaket ist möglicherweise erforderlich, wenn Sie beispielsweise Windows 7 SP1 ausführen und noch nicht auf Windows PowerShell 5,1 aktualisiert wurden. Wenn Sie Windows Server 2016 oder Windows 10 Anniversary Update ausführen, sollten Sie Windows PowerShell 5,1 nicht installieren müssen. Windows PowerShell 5,1 ist auf diesen Betriebssystemen vorinstalliert.
+Wenn Sie zurzeit nicht Windows PowerShell 5.1 ausführen, müssen Sie auch Windows Management Framework 5.1 aus dem Microsoft Download Center herunterladen. Dabei handelt es sich um ein Installationspaket, in dem Windows PowerShell 5.1 und Windows-Remoteverwaltung (WinRM) 3.0 enthalten sind. Das Installationspaket ist möglicherweise erforderlich, wenn Sie beispielsweise Windows 7 SP1 ausführen und noch nicht auf Windows PowerShell 5.1 aktualisiert haben. Wenn Sie Windows Server 2016 oder das Windows 10 Anniversary Update ausführen, sollte es nicht erforderlich sein, Windows PowerShell 5.1 zu installieren. Unter diesen Betriebssystemen ist Windows PowerShell 5.1 vorinstalliert.
   
-Vor der Installation von Windows Management Framework 5,1:
+Vor der Installation von Windows Management Framework 5.1:
   
-- Vergewissern Sie sich, dass Sie die richtige Version des Installationspakets heruntergeladen haben. Wenn Sie die 64-Bit-Version von Windows 7 SP1 ausführen, laden Sie die Datei Win7AndW2K8R2-KB3191566-x64. zip herunter. Wenn Sie die 32-Bit-Version von Windows 7 ausführen, laden Sie die Datei Win7-KB3191566-x86. zip herunter.
+- Vergewissern Sie sich, dass Sie die korrekte Version des Installationspakets heruntergeladen haben. Wenn Sie die 64-Bit-Version von Windows 7 SP1 verwenden, laden Sie die Datei "Win7AndW2K8R2-KB3191566-x64.ZIP" herunter. Für die 32-Bit-Version von Windows 7 laden Sie die Datei "Win7-KB3191566-x86.ZIP" herunter.
     
-- Wenn Sie auf Ihrem Computer Windows 7 ausführen, vergewissern Sie sich, dass Windows 7 Service Pack 1 installiert ist.
+- Wenn auf Ihrem Computer Windows 7 ausgeführt wird, vergewissern Sie sich, dass Sie Windows 7 Service Pack 1 installiert haben.
 
 Wenn Sie nicht sicher sind, welche Version von Windows ausgeführt wird oder ob Windows 7 Service Pack 1 installiert ist, klicken Sie auf **Start**, klicken Sie mit der rechten Maustaste auf **Computer**, und klicken Sie dann auf **Eigenschaften**. Diese Informationen werden im Dialogfeld „System" angezeigt.
   
-Zum Installieren von Windows Management Framework 5,1 führen Sie das Verfahren unter [Installieren und Konfigurieren von WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure)aus.
+Um Windows Management Framework 5.1 zu installieren, führen Sie die Schritte unter [Installieren und Konfigurieren von WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure) aus.
   
 Überprüfen Sie nach dem Neustart des Computers, ob Windows PowerShell gestartet wird und ob die Anwendung mit Anmeldeinformationen ausgeführt werden kann. Gehen Sie dazu so vor:
   
@@ -107,7 +107,7 @@ Wenn die PowerShell-Konsole angezeigt wird, überprüfen Sie, ob der WinRM-Diens
 Get-Service winrm
 ```
 
-Auf dem Bildschirm werden dann Informationen zum WinRM-Dienst angezeigt:
+Auf dem Bildschirm werden nun Informationen zum Dienst WinRM angezeigt:
   
 <pre>
 Status   Name               DisplayName
@@ -121,13 +121,13 @@ Wenn der Dienststatus nicht „Running" (Wird ausgeführt) entspricht, starten S
 Start-Service winrm
 ```
 
-Nachdem der Dienst gestartet wurde, führen Sie den folgenden Befehl aus, um sicherzustellen, dass WinRM Standardauthentifizierung verwendet:
+Nachdem der Dienst gestartet wurde, führen Sie den folgenden Befehl aus, um sich zu vergewissern, dass WinRM mit der Standardauthentifizierung arbeitet:
   
 ```
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 
-Auf dem Bildschirm werden etwa die folgenden Informationen angezeigt:
+Auf dem Bildschirm werden nun Informationen wie die folgenden angezeigt:
   
 <pre>
 Auth
@@ -139,7 +139,7 @@ Auth
     CredSSP = false
 </pre>
 
-Wenn die Standardauthentifizierung auf "true" festgelegt wurde, können Sie PowerShell verwenden, um eine Verbindung mit Skype for Business Online herzustellen.
+Wenn die Standardauthentifizierung auf „true" festgelegt ist, können Sie PowerShell verwenden, um eine Verbindung mit Skype for Business Online herzustellen.
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
