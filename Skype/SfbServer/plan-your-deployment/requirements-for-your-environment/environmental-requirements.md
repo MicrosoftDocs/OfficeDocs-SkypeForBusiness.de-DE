@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Reihe von Dingen, die Sie konfigurieren möchten, bevor Sie Ihre Bereitstellung ausführen, einschließlich Active Directory, DNS, certs und Dateifreigaben.'
-ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253925"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393373"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -55,7 +55,7 @@ Während viele Konfigurationsdaten für Server und Dienste im zentralen Verwaltu
 
 Welches Betriebssystem für Domänencontroller kann verwendet werden? Hier die Liste:
 
-- Windows Server 2019
+- Windows Server 2019 (Sie müssen über Skype for Business Server 2015 Kumulatives Update 5 oder höher verfügen)
   
 - Windows Server 2016
     
@@ -69,7 +69,7 @@ Welches Betriebssystem für Domänencontroller kann verwendet werden? Hier die L
     
 Nun müssen die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2015 bereitstellen, und die Gesamtstruktur-Funktionsebene einer beliebigen Gesamtstruktur, in der Sie Skype for Business Server 2015 bereitstellen, eine der folgenden sein:
 
-- Windows Server 2019
+- Windows Server 2019 (Sie müssen über Skype for Business Server 2015 Kumulatives Update 5 oder höher verfügen)
   
 - Windows Server 2016
     

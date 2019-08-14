@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237667"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393438"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan für Microsoft 365 Government-gcc-Bereitstellungen
 
@@ -98,9 +98,9 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 | | Geben und übernehmen der Steuerung in der Freigabe | Verfügbar |
 | | Verbinden von einem Konferenzraum | Verfügbar |
 | | Anonyme Verknüpfung | Verfügbar |
-| | Cloud-Aufzeichnung | Auf dem Government-Rückstand |
+| | Cloud-Aufzeichnung | Verfügbar |
 | | Besprechungsnotizen | Verfügbar |
-| | Broadcast Besprechungen | Auf dem Government-Rückstand |
+| | Liveereignisse | Verfügbar |
 | | Verbund Besprechungen | Verfügbar |
 | | Surface Hub-Unterstützung | Nicht verfügbar |
 | Anrufe | Kontakte | Verfügbar |
