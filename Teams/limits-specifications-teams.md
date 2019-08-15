@@ -3,7 +3,6 @@ title: Grenzwerte und Spezifikationen für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244837"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407881"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -45,7 +44,19 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 &sup3; gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin für den 200-Kanal pro Team Grenze gezählt. Nach 30 Tagen werden ein gelöschter Kanal und dessen Inhalt endgültig gelöscht, und der Kanal zählt nicht mehr zu den 200-Kanälen pro Team Grenze.
 
-## <a name="meetings-and-calls"></a>Besprechungen und Anrufe 
+## <a name="channel-names"></a>Kanalnamen
+
+Kanalnamen dürfen die folgenden Zeichen oder Wörter nicht enthalten.
+
+|||
+|---------|---------|
+|Zeichen     | ~ #% & * {} +/\: #a3? &#124; ""..        |
+|Zeichen in diesen Bereichen    | 0 bis 1F<br>80 bis 9F        |
+|Wörter     | Formulare, con, konische $, CONOUT $, PRN, AUX, NUL, COM1 zu COM9, LPT1 zu LPT9, Desktop. ini, &#95;VTI&#95;|
+
+Kanalnamen können auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen oder mit einem Punkt (.) enden.
+
+## <a name="meetings-and-calls"></a>Besprechungen und Anrufe
 
 |Feature     | Obergrenze |
 |------------|---------------|
@@ -57,7 +68,12 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |------------|---------------|
 |Zielgruppengröße | 10.000-Teilnehmer |
 |Dauer des Ereignisses | 4 Stunden |
-|Gleichzeitige Live Ereignisse in einem Office 365-Mandanten | 15 |
+|Spalte1  |Spalte2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+| Gleichzeitige Live Ereignisse in einem Office 365-Mandanten | 15 |
 
 Weitere Informationen zu Live Ereignissen und einem Vergleich der Live-Events von Teams mit Skype-Live Konferenz finden Sie unter [Teams Live-Events und Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)-Live Konferenz.
 
