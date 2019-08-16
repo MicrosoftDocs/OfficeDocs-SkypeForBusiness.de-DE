@@ -3,7 +3,7 @@ title: Plan für Live-Ereignisse in Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243659"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429992"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -42,6 +42,9 @@ Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um als a
 
 - **Für Ereignisse, die in Teams erstellt wurden**  Dem Benutzer muss eine Teams-Lizenz zugewiesen sein.
 - **Für Ereignisse, die mit einer externen APP oder einem Gerät erstellt wurden** Dem Benutzer muss eine Datenstrom Lizenz zugewiesen sein.
+
+> [!NOTE]
+> Teams Live-Events sind jetzt für die US Government Cloud Community (gcc)-Organisationen verfügbar.
 
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

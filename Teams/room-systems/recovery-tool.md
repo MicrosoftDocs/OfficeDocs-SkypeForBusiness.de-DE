@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305484"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427987"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
  
@@ -33,7 +33,7 @@ Möglicherweise müssen Sie auch [KB4089848](http://download.windowsupdate.com/d
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Überprüfen der Windows-Version 
 
-1. Melden Sie sich bei einem Administratorkonto an, indem Sie **Settings> Windows Setting> Administrator anmelden** vom Microsoft Teams rooms-Gerät aus anmelden. Mit dieser Option gelangen Sie zum Anmeldebildschirm.
+1. Melden Sie sich bei einem Administratorkonto an, indem Sie unter **Einstellungen> Windows-Einstellung> Administrator** beim Microsoft Teams rooms-Gerät anmelden. Mit dieser Option gelangen Sie zum Anmeldebildschirm.
 2. Melden Sie sich `admin` bei einem Administratorkonto an, dem standardmäßigen Administrator `sfb`Konto, das das Kennwort hat.
 3. Klicken Sie auf das Startmenü und geben `winver.exe` Sie in das Suchfeld ein und klicken Sie auf*Befehl "ausführen* " im Ergebnis.
 4. Notieren Sie sich die Zahl nach "Version" in der zweiten Zeile des Infobereichs.

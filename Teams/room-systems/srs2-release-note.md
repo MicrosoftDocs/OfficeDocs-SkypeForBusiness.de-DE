@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243289"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427654"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -27,6 +27,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br> Microsoft Store |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+In diesem Update eingeführt:
+- Eine neue Inhalts Kamerafunktion, mit der Benutzer ein herkömmliches Whiteboard intelligent in Ihre Teams-Besprechung einbeziehen können
+- Zusätzliche Verbesserungen an der Benutzeroberfläche der Konsole, um die Einstellungen in einer neuen Seitenleiste zu verringern, auf die über mehr auf der Konsole zugegriffen wird
+- Schaltfläche für freigabebereich deaktiviert, wenn lokales Inhalts Kabel nicht angeschlossen ist oder eine Inhalts Kamera nicht verbunden ist
+- Ein Problem mit der Bildschirmtastatur wurde behoben, bei dem die Fehleranzeige erst nach einem Neustart des MTR-Systems zum ersten Mal aufgetreten ist.
+- Qualitäts-und Zuverlässigkeits Korrekturen.
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 In diesem Update eingeführt:

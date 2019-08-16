@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288563"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427943"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -80,7 +80,10 @@ Dieser Abschnitt behandelt die Systemeinstellungen, von denen Microsoft Teams-R�
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
-  
+
+> [!NOTE]
+> Wenn das Gerät von Microsoft Teams Rooms mit der nächsten Version von Windows 10 kompatibel ist, wird das Gerät automatisch auf die nächste Version über Windows Update aktualisiert. Microsoft Teams rooms-Gerät sollte nicht manuell auf die nächste Version von Windows 10 aktualisiert werden oder über die Aktivierung von Windows Update for Business (WUFB)-Gruppenrichtlinien "wählen Sie die Windows-Bereitschaftsstufe für die Updates aus, die Sie empfangen möchten" und "wählen Sie aus, wann die Vorschau erstellt und Funktions Updates werden über das Gruppenrichtlinienobjekt empfangen. Auf einem Gerät mit aktivierten Gruppenrichtlinien ist bekannt, dass es Probleme mit dem Windows 10-Betriebssystemupdate durch die Microsoft Teams rooms-App gibt.
+
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell
 <a name="RemotePS"> </a>
 

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erforderlich sind, einschließlich der Überwachung des Dienststatus sowie der Beurteilung und Gewährleistung der Netzwerkqualität und-Nutzung.
+localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erforderlich sind, einschließlich der Überwachung des Dienststatus sowie der Beurteilung und Gewährleistung der Netzwerkqualität und-Nutzung.
-localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244074"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427612"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
