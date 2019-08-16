@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240839"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436354"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
-Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Jetzt können Sie die Besprechungsarbeitslast hinzufügen, einschließlich [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md), Video und Freigabe. Vorgehensweise: 
+Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Jetzt können Sie die Besprechungsarbeitslast hinzufügen, einschließlich [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md), Video und Freigabe. Vorgehensweise. 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>Bereitstellungsentscheidungen für Besprechungen und Konferenzen
+## <a name="meetings-and-conferencing-deployment-decisions"></a>Bereitstellungsentscheidungen für Besprechungen und Konferenzen
 
 Teams bietet ohne weitere Konfiguration eine hervorragende Erfahrung, und die meisten Organisationen stellen fest, dass die Standardeinstellungen für sie sinnvoll sind. Dieser Artikel hilft Ihnen bei der Entscheidung, ob einige der Standardeinstellungen geändert werden sollen, berücksichtigt dazu das Profil und die geschäftlichen Anforderungen Ihrer Organisation und führt Sie dann schrittweise durch die einzelnen Änderungen. Wir haben die Einstellungen in zwei Gruppen aufgeteilt und beginnen mit der Kernmenge der [Änderungen, die Sie mit größerer Wahrscheinlichkeit vornehmen](#core-deployment-decisions) werden. Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann.
 
@@ -36,7 +36,7 @@ Teams bietet ohne weitere Konfiguration eine hervorragende Erfahrung, und die me
 > Schauen Sie sich die folgende Sitzung an, um mehr über Besprechungen zu erfahren: [Einführung in Besprechungen in Microsoft Teams für IT-Experten](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings--conferencing-prerequisites"></a>Voraussetzungen für Besprechungen und Konferenzen 
+## <a name="meetings-and-conferencing-prerequisites"></a>Voraussetzungen für Besprechungen und Konferenzen 
 
 Bevor Sie Ihre Besprechungsumgebung für Ihre gesamte Organisation skalieren, sollten Sie sich die Zeit nehmen, zu überprüfen und zu bestätigen, dass Ihre Umgebung dafür bereit ist, Benutzern eine bestmögliche Erfahrung zu bieten. Lesen Sie die folgenden Informationen durch, und nehmen Sie alle erforderlichen Änderungen an Ihrer Umgebung vor.
 
