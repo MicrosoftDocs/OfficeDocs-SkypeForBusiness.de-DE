@@ -18,16 +18,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu kostenlosen virtuellen Benutzerlizenzen.
-ms.openlocfilehash: 73edbae2fce7cdb2ed1fd5c499d58153d91e7086
-ms.sourcegitcommit: 5f3c8ea2b3d68704885d212c8f2787c6bc7d1cf7
+ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35907673"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447911"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Telefon System – virtuelle Benutzerlizenz 
 
-Ab dem 2. Juli 2019 kann eine Organisation mit lizenzierten Benutzern des Telefonsystems nun eine ﻿kostenlose Telefonanlage – eine virtuelle Benutzerlizenz oder eine gebührenpflichtige Telefonsystem-Benutzerlizenz für Ressourcenkonten erwerben und zuweisen. Ein Anrufplan ist nicht mehr erforderlich. Für alle automatischen Telefonzentralen oder Anrufwarteschlangen ist ein zugeordnetes Ressourcenkonto erforderlich. Ressourcenkonten, für die eine Telefonnummer benötigt wird, benötigen ein kostenloses Telefonsystem – eine virtuelle Benutzerlizenz oder eine kostenpflichtige Telefonsystem-Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
+Ab dem 2. Juli 2019 kann eine Organisation mit lizenzierten Benutzern des Telefonsystems nun eine ﻿kostenlose Telefonanlage – eine virtuelle Benutzerlizenz oder eine gebührenpflichtige Telefonsystem-Benutzerlizenz für Ressourcenkonten erwerben und zuweisen. Ein Anrufplan ist nicht mehr erforderlich. Für alle automatischen Telefonzentralen oder Anrufwarteschlangen ist ein zugeordnetes Ressourcenkonto erforderlich. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen ein kostenloses Telefonsystem – eine virtuelle Benutzerlizenz oder eine kostenpflichtige Telefonsystem-Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
 
 > [!TIP]
 > Für Ressourcenkonten, die mit geschachtelten automatischen Telefonzentralen oder Anrufwarteschlangen verwendet werden, denen keine Telefonnummer zugewiesen ist, ist keine Lizenz erforderlich. In der folgenden Abbildung finden Sie eine Referenz: 
@@ -36,18 +36,18 @@ Ab dem 2. Juli 2019 kann eine Organisation mit lizenzierten Benutzern des Telefo
 
 ## <a name="virtual-user-license-allocation"></a>Zuweisung virtueller Benutzerlizenzen
 
-Ihr Unternehmen ist abhängig von der Gesamtgröße Telefon System – virtuelle Benutzerlizenzen zugeteilt. Es gibt 25 Lizenzen für virtuelle Benutzer für jede Organisation, die über mindestens eine Lizenz verfügt, die das Telefonsystem enthält oder das Telefonsystem hinzugefügt hat. Wenn Sie in Ihrer Organisation 10 Telefonsystem-Benutzerlizenzen hinzufügen, wird eine weitere Telefonsystem – virtuelle Benutzerlizenz verfügbar.
+Ihr Unternehmen ist abhängig von der Gesamtgröße Telefon System – virtuelle Benutzerlizenzen zugeteilt. Jede Organisation, die über mindestens eine Lizenz mit Telefonsystem oder über das Telefonsystem verfügt, verfügt über 25 virtuelle Benutzerlizenzen, die kostenlos zur Verfügung stehen. Wenn Sie in Ihrer Organisation 10 Telefonsystem-Benutzerlizenzen hinzufügen, wird eine weitere Telefonsystem – virtuelle Benutzerlizenz verfügbar.
 
 > [!NOTE]
-> Telefon System ist eine Add-on-Lizenz, die mit Office 365 F1-, E1-, E3-und Office Premium-Lizenzen zur Verfügung steht. Das Telefon System ist auch als Teil der Office 365 E5-Lizenzen enthalten.
+> Telefon System ist eine Add-on-Lizenz, die mit Office 365 E1 und E3 zur Verfügung steht. Das Telefon System ist auch als Teil der Office 365 E5-Lizenzen enthalten.
 
 Wenn Ihre Organisation das verfügbare ﻿kostenlose Telefonsystem – virtuelle Benutzerlizenzen beim Erstellen von automatischen Telefonzentralen oder Anruf Warteschlangen Knoten – verwendet, können Sie weiterhin die gebührenpflichtigen Telefonsystem Lizenzen mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen über genügend virtuelle Benutzerlizenzen basierend auf dem Skalierungs Plan. 
 
 ### <a name="license-allocation-example"></a>Beispiel für die Lizenzzuteilung
 
-Contoso, Inc. hat 600-Lizenzen erworben, die das Telefonsystem enthielten (eines für jeden Mitarbeiter), damit Ihnen ein anfängliches 25-und ein zusätzliches 60-Telefonsystem zugeteilt werden – virtuelle Benutzerlizenzen. Contoso verfügt über insgesamt 85 Telefon System – virtuelle Benutzerlizenzen. Ihre Organisation verfügt über 90-Anrufwarteschlangen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle Telefonsystem-Lizenzen für virtuelle Benutzer zuweisen und fünf reguläre Telefonsystem Lizenzen erwerben. 
+Contoso, Inc. hat 600-Lizenzen erworben, die das Telefon System enthielten (eines für jeden Mitarbeiter). Contoso wird ein anfängliches 25 plus 60-Telefon System zugeteilt – virtuelle Benutzerlizenzen, 85 insgesamt. Ihre Organisation verfügt über 90-Anrufwarteschlangen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle Telefonsystem-Lizenzen für virtuelle Benutzer zuweisen und fünf reguläre Telefonsystem Lizenzen erwerben. 
 
-Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anruf Warteschlangensystems in Frage stellen, um weniger Telefonnummern und verschachtelte Knoten zu verwenden, für die keine Telefonnummer oder Lizenz erforderlich ist. Das Entfernen unnötiger Telefonnummern vereinfacht die Implementierung und senkt die Kosten. 
+Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anruf Warteschlangensystems in Frage stellen. Wenn Sie weniger Telefonnummern und verschachtelte Knoten verwenden, die keine Telefonnummern benötigen, vereinfachen Sie die Implementierung und senken die Kosten. 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Telefon System erwerben – Lizenzen für virtuelle Benutzer 
 
@@ -56,11 +56,11 @@ Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anru
 3. Scrollen Sie bis zum Ende, um die Lizenz **"Telefon System – virtueller Benutzer"** zu finden. Wählen Sie **Jetzt kaufen**aus.
 
 > [!WARNING]
-> Beachten Sie, dass Sie die Lizenz auch dann **kaufen** müssen, wenn Sie die Kosten für NULL hat. 
+> Beachten Sie, dass Sie die Lizenz weiterhin **kaufen** müssen, auch wenn Sie Kosten von NULL hat. 
 
 ## <a name="change-an-existing-resource-account-to-use-a-phone-systemvirtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos zur Verwendung eines Telefonsystems – virtuelle Benutzerlizenz
 
-Wenn Sie sich entschließen, die Lizenzen für Ihr Ressourcenkonto von einer Telefonsystem Lizenz auf eine Telefonanlage umzustellen – virtuelle Benutzerlizenz: 
+Wenn Sie sich entschließen, die Lizenz für Ihr Ressourcenkonto von einer Telefonsystem Lizenz auf eine Telefonanlage umzustellen – virtuelle Benutzerlizenz: 
 
 1. Holen Sie sich das neue Telefon System – Virtual User License. 
 2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 

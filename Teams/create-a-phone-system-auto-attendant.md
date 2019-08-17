@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35807536"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447941"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -37,14 +37,14 @@ Wenn Sie mehr über automatische Telefonzentralen erfahren möchten, lesen Sie [
 > [!NOTE]
 > Dieser Artikel bezieht sich auf Microsoft Teams und Skype for Business Online.
 
-## <a name="step-1---get-started"></a>Schritt 1 – erste Schritte
+## <a name="step-1--get-started"></a>Schritt 1 – erste Schritte
 
 - Für eine automatische Telefonzentrale ist ein zugeordnetes Ressourcenkonto erforderlich. Informationen zu Ressourcenkonten und allen erforderlichen Lizenzen finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
 
 > [!TIP]
 > Wenn Sie Anrufe an einen Operator oder eine Menüoption umleiten möchten, bei der es sich um einen Online Benutzer mit einer **Telefon System** Lizenz handelt, müssen Sie diese für Enterprise-VoIP aktivieren. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) oder [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
+## <a name="step-2--create-a-new-auto-attendant"></a>Schritt 2: Erstellen einer neuen automatischen Telefonzentrale
 
 > [!IMPORTANT]
 > Für jede automatische Telefonzentrale ist ein zugeordnetes [Ressourcenkonto](manage-resource-accounts.md)erforderlich. Sie müssen zuerst das Ressourcenkonto erstellen, dann können Sie es der automatischen Telefonzentrale zuordnen.
@@ -61,19 +61,19 @@ Klicken Sie im **Microsoft Teams Admin Center**auf **Automatische Voicemail** > 
 
 ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
-**Name** Geben Sie einen aussagekräftigen Anzeige Namen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Er wird in der Spalte **Name** der Registerkarte **Automatische Telefonzentralen** aufgeführt.
+**Name** Geben Sie einen aussagekräftigen Anzeige Namen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Sie wird in der Spalte **Name** auf der Registerkarte **automatische Telefonzentralen** angezeigt.
 
 * * *
 
 ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
-**Ressourcenkonto** Klicken Sie auf diese Schaltfläche, um ein oder mehrere Ressourcenkonten auszuwählen, um eine Verbindung mit der neuen automatischen Telefonzentrale herzustellen. Für alle automatischen Telefonzentralen ist ein zugeordnetes Ressourcenkonto erforderlich. Ein Ressourcenkonto kann eine Telefonnummer haben, die dem Konto zugeordnet ist, aber möglicherweise nicht. Eine automatische Telefonzentrale der obersten Ebene verfügt in der Regel über ein Ressourcenkonto mit einer zugewiesenen Telefonnummer, aber eine geschachtelte automatische Telefonzentrale (wird als Menü der Ebene 2 verwendet, mit dem die automatische Telefonzentrale eine Verbindung herstellt) möglicherweise nicht über eine Telefonnummer, die dem Ressourcenkonto zugeordnet ist.
+**Ressourcenkonto** Klicken Sie auf diese Schaltfläche, um ein oder mehrere Ressourcenkonten auszuwählen, um eine Verbindung mit der neuen automatischen Telefonzentrale herzustellen. Für alle automatischen Telefonzentralen ist ein zugeordnetes Ressourcenkonto erforderlich. Ein Ressourcenkonto kann eine Telefonnummer haben, die mit dem Konto verknüpft ist, aber eine Telefonnummer ist nicht erforderlich. Eine automatische Telefonzentrale der obersten Ebene weist normalerweise ein Ressourcenkonto mit einer zugewiesenen Telefonnummer auf, aber eine geschachtelte automatische Telefonzentrale (wird als Menü der Ebene 2 verwendet, mit dem die automatische Telefonzentrale eine Verbindung herstellt) hat möglicherweise keine Telefonnummer, die dem Ressourcenkonto zugeordnet ist.
 
 * * *
 
 ![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
 
-**Zeitzone**: Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen. Die Zeitzone muss jedoch nicht der Zeitzone der für Ihre Organisation angegebenen Hauptadresse entsprechen. Sie können für jede automatische Telefonzentrale eine andere Zeitzone festlegen. Die Geschäftszeiten für die automatische Telefonzentrale werden basierend auf der Zeitzone festgelegt, die Sie hier auswählen.
+**** Zeitzone Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen, Sie muss aber nicht der Zeitzone der Hauptadresse entsprechen, die für Ihre Organisation aufgeführt ist. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen, und die für die automatische Telefonzentrale festgelegten Geschäftszeiten werden basierend auf der hier ausgewählten Zeitzone festgesetzt.
 
 * * *
 
@@ -85,35 +85,35 @@ Klicken Sie im **Microsoft Teams Admin Center**auf **Automatische Voicemail** > 
 
 ![Symbol der Zahl 5, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout5.png)
 
-**Operator**: Diese Einstellung ist optional und muss für die automatische Telefonzentrale nicht festgelegt werden. Sie können allerdings die Option " **Operator** " für Personen einrichten, die in der Lage sind, die Menüs auszubrechen, um mit einer Person zu sprechen, um Ihnen zu helfen.
+**Operator** Dies ist optional, aber Sie können die Option " **Operator** " so einstellen, dass Anrufer die Menüs ausbrechen und mit einer Person sprechen können.
 
-Die Taste „0" wird automatisch der Vermittlung zugewiesen.
+Die 0-Taste wird standardmäßig dem Operator zugewiesen.
 
-Wenn Sie dies eingerichtet haben, müssen Sie auch Personen mitteilen, dass dies eine verfügbare Option in den **Menü Optionen "Bearbeiten"** auf der Seite " **Geschäftszeiten-Anrufbehandlung** " ist. Wenn Sie einen Operator für Ihre automatische Telefonzentrale festlegen, müssen Sie den entsprechenden Eingabeaufforderungstext im Feld **Anrufer werden hören** eingeben oder Ihre Audiodatei so ändern, dass diese Option einbezogen wird. Beispiel: „Drücken Sie ‚0', um mit der Vermittlung zu sprechen".
+Wenn Sie einen Operator einrichten, müssen Sie auch Personen, die über die Option in den **Menü Optionen "Bearbeiten"** anrufen, auf der Seite " **Geschäftszeiten-Anrufbehandlung** " informieren. Wenn Sie einen Operator für Ihre automatische Telefonzentrale festlegen, müssen Sie den entsprechenden Eingabeaufforderungstext im Feld **Anrufer werden hören** eingeben oder Ihre Audiodatei so ändern, dass diese Option einbezogen wird. Beispiel: „Drücken Sie ‚0', um mit der Vermittlung zu sprechen".
 
-Als Vermittlung können Sie Folgendes festlegen:
+Sie haben mehrere Möglichkeiten, den Operator einzurichten:
 
 - **Person in Ihrem Unternehmen** mit einer **Telefonsystem**-Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist.
 
      > [!Note]
      > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet.
 
-- Eine **Anrufwarteschlange** , die Sie eingerichtet haben.
-- Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Wählen Sie dazu **Person in Ihrem Unternehmen** aus, und legen Sie fest, dass die Anrufe dieser Person direkt an Voicemail weitergeleitet werden.
+- **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
+- Sie können es so einrichten, dass die Person, die anruft, an Voicemail gesendet wird. Wählen Sie dazu **Person in Ihrem Unternehmen** aus, und legen Sie fest, dass die Anrufe dieser Person direkt an Voicemail weitergeleitet werden.
 
 * * *
 
 ![Symbol der Zahl 6, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout6.png)
 
-**Aktivieren von Spracheingaben** Wenn diese Option ausgewählt ist, steht die Spracherkennung zur Verfügung. Personen, die sich einwählen, können die Spracheingabe in der von [Ihnen festgelegten Sprache](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)verwenden. Sie können die Spracherkennung deaktivieren, indem Sie Sie auf aus setzen, wenn Sie nur Personen Ihre Telefontastatur verwenden lassen möchten.
+**Aktivieren von Spracheingaben** Wenn diese Option ausgewählt ist, steht die Spracherkennung zur Verfügung. Personen, die sich einwählen, können die Spracheingabe in der von [Ihnen festgelegten Sprache](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)verwenden. Wenn Sie nur Personen Ihre Telefontastatur verwenden lassen möchten, können Sie die Spracherkennung deaktivieren, indem Sie Sie auf aus setzen.
 
 * * *
 
-Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
+Wenn Sie die gewünschten Optionen ausgewählt haben, klicken Sie auf **weiter**.
 
 #### <a name="business-hours-page"></a>Seite "Geschäftszeiten"
 
-Standardmäßig sind die Geschäftszeiten von Montag bis Freitag auf 9:00 Uhr bis 17:00 Uhr eingestellt.  Alle Zeiten, die nicht innerhalb der Geschäftszeiten liegen, werden als außerhalb der Geschäftszeiten angesehen. Sie können auf **24/7 auswählen** klicken, um die Geschäftszeiten für alle Stunden zu übernehmen. Wenn Sie die Option **24/7 auswählen** auswählen, wird die Seite **After Hours-Anrufeinstellungen** verwendet, um die Anrufbehandlung für die automatische Telefonzentrale für After Business Hours zu konfigurieren.
+Standardmäßig werden die Geschäftszeiten von Montag bis Freitag auf 9:00 Uhr bis 5:00 Uhr eingestellt. Alle Stunden, die nicht in Geschäftszeiten enthalten sind, werden nach Geschäftszeiten berücksichtigt. Sie können auf **24/7 auswählen** klicken, um die Geschäftszeiten für alle Stunden zu übernehmen. Wenn Sie die Option **Select 24/7** auswählen, wird die Seite **After Hours-Anrufeinstellungen** verwendet, um die Regeln für die Anrufbehandlung für die automatische Telefonzentrale für After Business Hours zu konfigurieren.
 
 ![Screenshot der Seite "Geschäftszeiten"](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -121,24 +121,24 @@ Standardmäßig sind die Geschäftszeiten von Montag bis Freitag auf 9:00 Uhr bi
 
 ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
-Standardmäßig sind die Geschäftszeiten auf Montag bis Freitag, 9:00 Uhr-5:00 Uhr, eingestellt. Wählen Sie die Option **alle Stunden löschen** aus, um die Auswahl aller Stunden Stunden im Terminplan aufzuheben. Wenn Sie **auf Standard zurücksetzen**klicken, werden die Geschäftszeiten auf Montag bis Freitag 9:00 Uhr-5:00 Uhr zurückgesetzt.
+Standardmäßig sind die Geschäftszeiten auf Montag bis Freitag, 9:00 Uhr-5:00 Uhr, eingestellt. Wählen Sie die Option **alle Stunden löschen** aus, um die Auswahl aller Stunden im Terminplan aufzuheben. Wenn Sie **auf Standard zurücksetzen**klicken, werden die Geschäftszeiten auf Montag bis Freitag 9:00 Uhr-5:00 Uhr zurückgesetzt.
 
 * * *
 
 ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
-Um Geschäftszeiten zu ändern, markieren Sie die Geschäftszeiten, die Sie einstellen möchten, im Kalender. Der Kalender ermöglicht Ihnen die Auswahl von Geschäftszeiten in Abständen von 30 Minuten, und die Geschäftszeiten, die Sie hier auswählen, werden entsprechend der Zeitzone eingestellt, die Sie auf der Seite „ **Allgemeine Daten“** festlegen. Um eine Pause (beispielsweise eine Mittagspause) einzurichten, deaktivieren, oder ziehen Sie zum Deaktivieren die Zeit im Kalender. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
+Um die Geschäftszeiten zu ändern, markieren Sie die Geschäftszeiten, die Sie im Kalender festlegen möchten. Im Kalender können Sie Geschäftszeiten in Intervallen von 30 Minuten auswählen, und die hier ausgewählten Geschäftszeiten basieren auf der Zeitzone, die Sie auf der Seite **Allgemeine Informationen** festzulegen. Um eine Pause (beispielsweise eine Mittagspause) einzurichten, deaktivieren, oder ziehen Sie zum Deaktivieren die Zeit im Kalender. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
 
 * * *
 
-Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
+Wenn Sie die gewünschten Optionen ausgewählt haben, klicken Sie auf **weiter**.
 
 #### <a name="business-hours-call-settings"></a>Anrufeinstellungen für Geschäftszeiten
 
 > [!TIP]
 > Wenn Sie einen benutzerdefinierten Terminplan für Geschäftszeiten verwenden, müssen Sie auch die Anrufübergabe nach Geschäftszeiten über die Seite **After Hours-Anrufbehandlung** einrichten, auf der Sie die gleichen Optionen wie die **Anrufeinstellungen für Geschäftszeiten**erhalten.
 
-Sie können Begrüßungen, Eingabeaufforderungen und Menüs einrichten, die Personen, die sich in der Telefonnummer der automatischen Telefonzentrale Ihrer Organisation einwählen, während der Geschäftszeiten hören.
+Sie können Begrüßungen, Ansagen und Menüs einrichten, die Personen hören, wenn Sie die Telefonnummer anrufen, die mit der automatischen Telefonzentrale Ihrer Organisation während der Geschäftszeiten verknüpft ist.
 
 ![Screenshot des Abschnitts "Begrüßungs](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 ![Bildschirm der Geschäftszeiten-Anrufbehandlung" im Abschnitt "Geschäftszeiten-Anrufbehandlung"](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
@@ -148,8 +148,6 @@ Sie können Begrüßungen, Eingabeaufforderungen und Menüs einrichten, die Pers
 ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Gruß** Eine Begrüßung in Geschäftszeiten ist optional und kann auf **keine Ansage**eingestellt werden. In diesem Fall hört der Anrufer keine Nachricht oder Begrüßung, bevor der Anruf von einer der von Ihnen ausgewählten Aktionen bearbeitet wird. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
-
-- **Keine Begrüßung** Wenn Personen die Telefonnummer der automatischen Telefonzentrale anrufen, wird keine Begrüßung wiedergegeben.
 - **Hochladen einer Audiodatei:** Wenn Sie diese Option wählen, zeichnen Sie die Begrüßung auf und laden Sie anschließend Ihre Audiodatei hoch (im wav-, .mp3- oder .wma-Format).
 - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Beispielsweise können Sie „Willkommen bei Contoso, Ihr Anruf ist uns sehr wichtig“ im Feld **Anrufer hört** eingeben.
 
@@ -209,7 +207,7 @@ Wenn Sie Ihre Menü Optionen einrichten möchten, müssen Sie, nachdem Sie die W
         > [!Note]
         > Die **Geschäftszeiten** geschachtelter automatischer Telefonzentralen (oder mit zweiter Ebene) werden ebenfalls eingesetzt, einschließlich der Anrufe, die von anderen Telefonzentralen eingehen, die eingerichtet wurden.
 
-     - **Anrufwarteschlange** Wenn Sie eine Anruf warteschlangenoption verwenden, können Sie den Anruf an eine vorhandene Anrufwarteschlange übertragen, die Sie eingerichtet haben. 
+       - **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
 
 * * *
 
@@ -269,8 +267,7 @@ Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche
     > [!Note]
     > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet.
 
-  - Eine **Anrufwarteschlange** , um den Anruf an eine vorhandene Anrufwarteschlange zu übertragen, die Sie eingerichtet haben.
-  - Eine andere **automatische Telefonzentrale**, um eine zweite Ebene von Menü Optionen zu erstellen, die ein Untermenü enthält. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet.
+   - **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
 
     > [!Note]
     > Standardmäßig werden alle während eines Feiertags eingehenden Anrufe festgelegt, deren Verbindung nach der Ansage (falls vorhanden) getrennt wird, somit müssen Sie eine Umleitung angeben, wenn ein anderes Verhalten erwünscht ist.
