@@ -1,5 +1,5 @@
 ---
-title: Benutzer Anwesenheit in Teams
+title: Anwesenheit in Microsoft Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Informations Administratoren müssen sich mit der Anwesenheit in Teams vertraut machen.
+description: Informationen, die Administratoren benötigen, um Anwesenheit in Teams zu verstehen.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,58 +18,58 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8b3c36f0f83937e72ae4477ad38c9bd3187c6577
 ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/07/2019
 ms.locfileid: "36244827"
 ---
-# <a name="user-presence-in-teams"></a>Benutzer Anwesenheit in Teams
+# <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
-Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und in Office 365) – und zeigt die aktuelle Verfügbarkeit und den Status des Benutzers an, die anderen Benutzern in der Organisation zur Verfügung stehen. Standardmäßig können alle Personen in Ihrer Organisation, die Teams verwenden, in nahezu Echtzeit sehen, ob andere Benutzer online verfügbar sind oder nicht.
+Anwesenheit ist Teil des Benutzerprofils in Microsoft Teams (und innerhalb von Office 365). Sie zeigt anderen Benutzern in der Organisation die gegenwärtige Verfügbarkeit und den Status des Benutzers an. Standardmäßig kann jeder Mitarbeiter in Ihrer Organisation, der Teams verwendet, in beinahe in Echtzeit sehen, ob andere Benutzer online gerade verfügbar sind oder nicht.
 
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
-Die in Teams verfügbaren Benutzer Anwesenheitsstatus sind:
+Die Anwesenheitsstatus in Team sind:
 
-|Benutzer konfiguriert|App konfiguriert|
+|Benutzerdefiniert|Durch die App konfiguriert|
 |:--- |:---|
-| ![Vollständiges grünes Chek-Zeichen mit verfügbarem Anwesenheitsstatus](media/Presence_Available.png) Verfügbar|![Vollständiges grünes Chek-Zeichen mit verfügbarem Anwesenheitsstatus](media/Presence_Available.png) Verfügbar|
-|| ![Open Green Chek Mark, der angibt, dass OOF verfügbar ist](media/Presence_Available_OOF.png) Verfügbar, außer Haus |
-|  ![Vollständiger roter Kreis mit Anzeige von "beschäftigt"](media/Presence_Busy.png) Beschäftigt |  ![Vollständiger roter Kreis mit Anzeige von "beschäftigt"](media/Presence_Busy.png) Beschäftigt  |
-|| ![Vollständiger roter Kreis mit Anzeige von beschäftigt in einem Anruf](media/Presence_Busy.png) In einem Anruf|
-|| ![Vollständiger roter Kreis, der angibt, dass in einer Besprechung beschäftigt ist](media/Presence_Busy.png) In einer Besprechung |
-|| ![Roter Kreis öffnen, der auf busy OOF hinweist](media/Presence_Busy_OOF.png) In einem Anruf: Abwesenheit|
-|  ![Roter Kreis mit weißer Zeile, Anzeige "nicht stören"](media/Presence_DND.png) Nicht stören ||
-|| ![Roter Kreis mit weißer Zeile, der die Präsentation angibt](media/Presence_DND.png) Präsentieren|
-| ![Symbol "gelbe Uhr" mit Anzeige "Abwesend"](media/Presence_Away.png) Abwesend| ![Symbol "gelbe Uhr" mit Anzeige "Abwesend"](media/Presence_Away.png) Abwesend|
-|| ![Symbol "gelbe Uhr", das](media/Presence_Away.png) die letzte Anzeige *Zeit* entfernt|
-|![Das gelbe Uhr-Symbol, das wegzeigt, ist gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
-|| ![Symbol "gelbe Uhr" mit Anzeige "Abwesend"](media/Presence_Away.png)  Off-Arbeit|
-|| ![Grauer Kreis mit x, der Offline angibt](media/Presence_Offline.png) Offline |
-|| ![Grauer Kreis öffnen, Anzeige des Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
-||![Öffnen des roten Kreises mit einer Diagonalen Zeile, die auf "blockiert" hinweist](media/Presence_Blocked.png) Blockiert |
-|| ![Lila Kreis mit Pfeil, der auf Abwesenheit hinweist](media/Presence_OOF.png) Abwesenheit|
+| ![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|
+|| ![Ein nicht gefülltes grünes Häckchen zeigt an: verfügbar – abwesend](media/Presence_Available_OOF.png) Verfügbar – außer Haus |
+|  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt |  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt  |
+|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – in einem Gespräch](media/Presence_Busy.png) Am Telefon|
+|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – in einer Besprechung](media/Presence_Busy.png) In einer Besprechung |
+|| ![Ein offener roter Kreis zeigt an: beschäftigt – abwesend](media/Presence_Busy_OOF.png) Am Telefon – abwesend|
+|  ![Ein roter Kreis mit weißer Linie zeigt an: nicht stören](media/Presence_DND.png) Nicht stören ||
+|| ![Ein roter Kreis mit weißer Linie zeigt an: hält Präsentation](media/Presence_DND.png) Hält Präsentation|
+| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend|
+|| ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
+|![Das Symbol „gelbe Uhr“ zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
+|| ![Das Symbol "gelbe Uhr" zeigt an: abwesend – nicht bei der Arbeit](media/Presence_Away.png)  Nicht bei der Arbeit|
+|| ![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline |
+|| ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
+||![Offener roter Kreis mit diagonaler Linie zeig an: gesperrt](media/Presence_Blocked.png) Geblockt |
+|| ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Außer Haus|
 |||
  
-Benutzer können Ihren aktuellen Anwesenheitsstatus manuell auf einige Optionen einstellen, und Ihr Status wird für alle anderen Benutzer wiedergegeben. Zusätzliche Benutzeranwesenheitsinformationen werden auch automatisch auf der Grundlage von Benutzeraktivitäten (wie "verfügbar" oder "Abwesend"), von Outlook-Kalenderstatus (wie in einer Besprechung) oder von Teams-App-Zuständen (in einem Aufruf, Präsentation) an Zustände aktualisiert, die in der Liste eingerückt sind.
+Benutzer haben verschiedene Möglichkeiten, Ihren aktuellen Anwesenheitsstatus festzulegen, und ihr Status wird für alle anderen Benutzer sichtbar. Weitere Details zum Anwesenheitsstatus eines Benutzers werden basierend auf Benutzeraktivitäten (z. b. "verfügbar" oder "abwesend"), dem Outlook-Kalenderstatus (z. b. in einer Besprechung) oder dem Teams-App-Status (in einem Aufruf, hält Präsentation) aktualisiert, die in der Liste aufgeführt sind.
 
-Es gibt ein 15-minütiges Inaktivitäts-Timeout, nach dem der aktuelle Anwesenheitsstatus Ihrer Benutzer auf "Abwesend" zurückgesetzt wird.
+Es gibt ein Inaktivitätszeitlimit von 15 Minuten. Danach wird der aktuelle Anwesenheitsstatus des Benutzers auf „abwesend“ zurückgesetzt.
 
-Benutzer können angeben, wer durchbrechen kann (setzen Sie die Einstellung "nicht stören" außer Kraft). Diese Einstellungen sind in-app verfügbar.
+Benutzer können festlegen, wer sie unterbrechen darf, d. h. sie trotz der „Nicht stören“-Einstellung kontaktieren kann. Diese Einstellungen stehen In-App zur Verfügung.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 
-Die folgenden Administratoreinstellungen für Skype for Business unterscheiden sich in Teams:
+Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sich in Teams:
 
-- In Teams ist die Anwesenheits Freigabe für Benutzer in der Organisation immer aktiviert. Der Datenschutz (die Entscheidung, wer Anwesenheitsinformationen sehen kann) steht in Teams nicht zur Verfügung.
-- Anwesenheits Freigaben für alle (einschließlich der Verbunddienste) sind für Benutzer in Teams immer aktiviert. Ihre Kontaktliste (wenn Sie eine in Skype for Business hatte) ist unter **Chat #a0 Kontakte** oder unter **Anrufe #a1 Kontakte**sichtbar.
-- Der Client stört nicht, und Durchbruch Features sind für Benutzer in Teams immer aktiviert.
-- Kalender (einschließlich Abwesenheits-und anderer Kalenderinformationen) die Integration ist für Benutzer in Microsoft Teams immer aktiviert, wenn Sie in Outlook integriert ist.
-- Die *zuletzt* gesehene oder *Abwesenheits* Anzeige (falls in einer dualen Umgebung mit Skype for Business) ist für Benutzer in Teams immer aktiviert.
+- In Teams ist die Freigabe des Anwesenheitsstatus für Benutzer in der Organisation immer aktiviert. Datenschutz (d. h. die Entscheidung, wer den Anwesenheitsstatus sehen kann) ist in Teams nicht verfügbar.
+- Die Freigabe des Anwesenheitsstatus für jeden (einschließlich Verbunddienste) ist für Benutzer in Teams immer aktiviert. Die Kontaktliste der Benutzer (sofern sie in Skype for Business eine hatten) wird unter **Chat > Kontakte** oder unter **Anrufe > Kontakte** angezeigt.
+- Die Features „Nicht stören“ und „Unterbrechen“ sind für Benutzer in Teams immer aktiviert.
+- Die Kalenderintegration (einschließlich Abwesenheits- und andere Kalenderinformationen) ist für Benutzer in Teams, die in Outlook integriert sind, immer aktiviert.
+- Die Anzeige *zuletzt anwesend* oder *abwesend seit* (in einem dualen Umfeld mit Skype for Business) ist für Benutzer in Teams immer aktiviert.
 
 > [!NOTE]
-> Die Fähigkeit eines Teams-Administrators, diese Einstellungen anzupassen, wird derzeit nicht unterstützt.
+> Die Möglichkeit diese Einstellungen durch den Teams-Administrator anzupassen, wird derzeit nicht unterstützt.
 
 ## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
-Weitere Informationen dazu, wie die Anwesenheit von Teams funktioniert, wenn Sie mit Skype for Business zusammen existieren, finden Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) . 
+Erfahren Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) mehr über die Anwesenheitsfunktionen im Rahmen einer Koexistenz mit Skype for Business. 
