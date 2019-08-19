@@ -645,46 +645,31 @@
 
 # Hybridverbindungen 
 
-## 
-  [Planen von Hybridverbindungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Planen von Hybridverbindungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Konfigurieren von Hybridverbindungen
-### 
-  [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### 
-  [Konfigurieren von Azure AD Connect für Hybridumgebungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### 
-  [Konfigurieren der Hybridbereitstellung von Skype for Business](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Konfigurieren von Azure AD Connect für Hybridumgebungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Konfigurieren der Hybridbereitstellung von Skype for Business](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
-### 
-  [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### 
-  [Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### 
-  [Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### 
-  [Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### 
-  [Verwalten der Besprechungsmigration](https://docs.microsoft.com/de-DE/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Verwalten der Besprechungsmigration](https://docs.microsoft.com/de-DE/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## 
-  [Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## 
-  [Bereitstellen einer Topologie mit Ressourcengesamtstruktur](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Bereitstellen einer Topologie mit Ressourcengesamtstruktur](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Cloudkonsolidierung für Microsoft Teams und Skype for Business Online
-### 
-  [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation)
-### 
-  [Aktualisieren des Edgezertifikats](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### 
-  [Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzuschließen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Übersicht](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Aktualisieren des Edgezertifikats](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzuschließen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## 
-  [Integration mit Exchange und SharePoint](https://docs.microsoft.com/de-DE/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Integration mit Exchange und SharePoint](https://docs.microsoft.com/de-DE/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 
 #       
