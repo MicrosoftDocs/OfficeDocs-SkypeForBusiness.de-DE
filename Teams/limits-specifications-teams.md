@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
 ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/16/2019
 ms.locfileid: "36436315"
@@ -31,30 +31,30 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Feature    | Obergrenze |
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
-|Anzahl der Mitglieder in einem Team | 5.000       |
-|Anzahl der in einem Mandanten zulässigen organisationsweiten Teams | 5     |
+|Anzahl der Mitglieder in einem Team | 5,000       |
+|Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
 |Anzahl der Teams in einem Office 365-Mandanten    | 500.000&sup2;     |
-|Anzahl der Kanäle pro Team    | 200 (enthält gelöschte Kanäle) &sup3;         |
+|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
 
 &sup1;Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
 
-&sup2; Dieser Grenzwert umfasst Archivierte Teams.
+&sup2;Diese Beschränkung umfasst archivierte Teams.
 
-&sup3; gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin für den 200-Kanal pro Team Grenze gezählt. Nach 30 Tagen werden ein gelöschter Kanal und dessen Inhalt endgültig gelöscht, und der Kanal zählt nicht mehr zu den 200-Kanälen pro Team Grenze.
+&sup3;Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das 200-Kanallimit pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal zählt nicht mehr in das 200-Kanallimit pro Team eingerechnet.
 
 ## <a name="channel-names"></a>Kanalnamen
 
-Kanalnamen dürfen die folgenden Zeichen oder Wörter nicht enthalten.
+Kanalnamen dürfen keine der folgenden Zeichen oder Worte enthalten.
 
 |||
 |---------|---------|
-|Zeichen     | ~ #% & * {} +/\: #a3? &#124; ""..        |
-|Zeichen in diesen Bereichen    | 0 bis 1F<br>80 bis 9F        |
-|Wörter     | Formulare, con, konische $, CONOUT $, PRN, AUX, NUL, COM1 zu COM9, LPT1 zu LPT9, Desktop. ini, &#95;VTI&#95;|
+|Zeichen     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Zeichen in diesen Bereichen:    | 0 bis 1F<br>80 bis 9F        |
+|Words     | Formulare, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
-Kanalnamen können auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen oder mit einem Punkt (.) enden.
+Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen oder mit einem Punkt (.) enden.
 
 ## <a name="meetings-and-calls"></a>Besprechungen und Anrufe
 
@@ -62,15 +62,15 @@ Kanalnamen können auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
 
-## <a name="teams-live-events"></a>Live-Events für Teams
+## <a name="teams-live-events"></a>Teams-Liveereignisse
 
-|Feature     | Obergrenze |
+|Funktion     | Obergrenze |
 |------------|---------------|
-|Zielgruppengröße | 10.000-Teilnehmer |
-|Dauer des Ereignisses | 4 Stunden |
-|Gleichzeitige Live Ereignisse in einem Office 365-Mandanten | 15 |
+|Zielgruppengröße | 10.000 Teilnehmer |
+|Dauer des Ereignisses | 4 Stunden |
+|Gleichzeitige Liveereignisse in einem Office 365-Mandanten | 15 |
 
-Weitere Informationen zu Live Ereignissen und einem Vergleich der Live-Events von Teams mit Skype-Live Konferenz finden Sie unter [Teams Live-Events und Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)-Live Konferenz.
+Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
 ## <a name="storage"></a>Speicher
 
@@ -86,9 +86,9 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
-|Beschränkung des Dateiuploads (pro Datei)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|Maximale Größe für Dateiuploads (pro Datei)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Kanäle werden durch Ordner in der für das Team erstellten SharePoint Online-Websitesammlung gesichert, sodass Dateiregisterkarten in Kanälen die Speichergrenzwerte des Teams teilen, dem Sie angehören.
+Kanäle werden durch Ordner innerhalb der SharePoint Online-Websitesammlung, die für das Team erstellt wurde, gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Grenzwerte](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -98,19 +98,19 @@ Benutzer, die an Gesprächen teilnehmen, die Teil der Chat-Liste in Microsoft Te
 
 Die Chat-Funktion von Microsoft Teams funktioniert in einem Microsoft Exchange-Backend, damit Sie die Grenzwerte für das Exchange-Messaging auf die Chat-Funktion in Microsoft Teams anwenden können. Wenn Benutzer eine E-Mail an einen Kanal in Teams senden möchten, verwenden sie die E-Mail-Adresse des Kanals. Wenn eine E-Mail Teil eines Kanals ist, kann jeder antworten, um eine Unterhaltung zu beginnen. Hier einige geltende Grenzwerte zum Senden von E-Mails an einen Kanal: 
 
-|Feature  | Obergrenze  |
+|Funktion  | Obergrenze  |
 |---------|---------|
 |Anzahl der Personen in einem privaten Chat  | 100    |
-|Nachrichtengröße&dagger;  |25 KB   |
-|Anzahl der Dateianlagen&Dagger;  |10     |
-|Anzahl der Inline Bilder&Dagger; |50   |
+|Nachrichtengröße &dagger;  |25 KB   |
+|Anzahl der Anlagen &Dagger;  |10     |
+|Anzahl von Inlinebildern &Dagger; |50   |
 
 &dagger; Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschaunachricht generiert und der Benutzer wird gebeten, die Original-E-Mail aus dem bereitgestellten Link anzuzeigen/herunterzuladen.
 
-&Dagger;Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet, und eine NDR-e-Mail wird an den Absender zurückgesendet, der Sie über den Fehler benachrichtigt.
+&Dagger; Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet und eine NDR-E-Mail mit einer Benachrichtigung über den Fehler zurück an den Absender gesendet.
 
 > [!NOTE]
-> Die Grenzwerte für Nachrichtengröße, Dateianlagen und Inline Bilder sind für alle Office 365-Lizenzen identisch.
+> Die Beschränkungen für Nachrichtengröße, Dateianlagen und Inline-Bilder sind für alle Office 365-Lizenzen identisch.
 
 Weitere Informationen finden Sie unter [Exchange Online-Grenzwerte](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
