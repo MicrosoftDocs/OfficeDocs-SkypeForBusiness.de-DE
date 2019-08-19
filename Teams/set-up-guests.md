@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
 ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/07/2019
 ms.locfileid: "36242620"
@@ -65,8 +65,8 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
     - **Giphy-Inhaltsbewertung**: Wählen Sie eine Bewertung aus der Dropdown-Liste aus:
        - **Alle Inhalte zulassen**: Gäste können alle Giphys in Chats einfügen, unabhängig von der Inhaltsbewertung.
        - **Moderat**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber moderat eingeschränkt.
-       - **Strict** – die Gäste können Giphys in Chats einfügen, aber Sie werden von der Einfügung von Inhalten für Erwachsene eingeschränkt.
-    - **Verwenden von Memen in Konversationen** : **** aktivieren Sie diese Einstellung, damit Gäste in Konversationen Meme verwenden können.
+       - **Streng**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber eingeschränkt.
+    - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
     - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen. 
 
 
