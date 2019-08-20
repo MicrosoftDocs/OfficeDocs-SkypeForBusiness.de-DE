@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160568"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464678"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrieren von Benutzern von lokalen zu Teams
 
@@ -38,6 +38,11 @@ Wenn ein Benutzer nur von einem Standort in ein Microsoft Teams verschoben wird,
     ![Nachrichten, die einen Benutzer zu Teams umleiten](../media/go-to-teams-page.png)
 
 Lesen Sie vor dem Verschieben von Benutzern unbedingt die [voraus](move-users-between-on-premises-and-cloud.md#prerequisites) setzungen, um Benutzer in die Cloud zu verschieben. Stellen Sie außerdem sicher, dass [Migrations-und Interoperabilitäts Anleitungen für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype), überprüft werden.
+
+
+> [!NOTE]
+> Der Unified Contact Store sollte auf dem SFB-Konto auf dem Prem deaktiviert sein, damit der Kontakt in Microsoft Teams verschoben werden kann.
+
 
 Es gibt zwei Methoden, um einen Benutzer von lokal in Microsoft Teams zu migrieren:
 
@@ -86,6 +91,9 @@ Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnl
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Benachrichtigen Ihrer Skype for Business lokalen Benutzern über den bevorstehenden Wechsel zu Microsoft Teams
 
 Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie Skype for Business Server 2019 können Sie lokale Skype for Business Benutzer über Ihren bevorstehenden Wechsel zu Microsoft Teams informieren. Wenn Sie diese Benachrichtigungen aktivieren, wird den Benutzern eine Benachrichtigung in Ihrem Skype for Business-Client (Win32, Mac, Internet und Mobile) angezeigt, wie unten dargestellt. Wenn Benutzer auf die Schaltfläche " **Testen** " klicken, wird der Microsoft Teams-Client bei der Installation gestartet. Andernfalls werden die Benutzer in Ihrem Browser zur Webversion von Microsoft Teams navigiert. Wenn Benachrichtigungen aktiviert werden, lädt Win32 Skype for Business Clients den Microsoft Teams-Client automatisch herunter, sodass der Rich-Client verfügbar ist, bevor der Benutzer in den Microsoft Teams-Modus verschoben wird. Sie können dieses Verhalten jedoch auch deaktivieren.  Benachrichtigungen werden mit der lokalen Version von `TeamsUpgradePolicy`konfiguriert, und der unbeaufsichtigte Download für Win32-Clients wird über das lokale `TeamsUpgradeConfiguration` Cmdlet gesteuert.
+
+> [!TIP]
+> Einige Server müssen möglicherweise neu gestartet werden, damit diese in Skype for Business 2015 mit ku8 funktionieren.
 
 ![Benachrichtigung über bevorstehendes umsteigen in Teams](../media/teams-upgrade-notification.png)
 

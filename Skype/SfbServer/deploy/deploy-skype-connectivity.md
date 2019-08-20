@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235704"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464600"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen von Skype-Konnektivität in Skype for Business Server
 
@@ -98,9 +98,9 @@ Skype for Business Server verwendet die Verbund Zugriffs Architektur, um die Kon
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Die Bereitstellungswebsite für den öffentlichen Chat in Skype for Business Server steht nicht mehr zur Verfügung.
 
-Die Website, die früher für die manuelle Bereitstellung der Föderation zwischen Skype for Business-Bereitstellungen und Skype verwendet wurde, ist nicht mehr erforderlich und wird auf 8/15/2019 heruntergefahren. In der Föderation mit Skype wird nun die Verbundpartner-Discovery verwendet, die derselbe Mechanismus ist, der für die Föderation mit Skype for Business Online erforderlich ist.
+Die Website, die früher für die manuelle Bereitstellung der Föderation zwischen Skype for Business-lokalen Bereitstellungen und Skype verwendet wurde, ist nicht mehr erforderlich und wird auf 8/15/2019 heruntergefahren. In der Föderation mit Skype wird nun die Verbundpartner-Discovery verwendet, die derselbe Mechanismus ist, der für die Föderation mit Skype for Business Online erforderlich ist.
 
-Die Kommunikation zwischen einer beliebigen lokalen Skype for Business-Bereitstellung und Skype-Benutzern über die vorhandene öffentliche Chat-Infrastruktur erfordert jetzt, dass die lokale Edge-Server-Konfiguration mit Skype for Business Online kompatibel ist.
+Die Kommunikation zwischen einer lokalen Skype for Business-Bereitstellung und Skype-Benutzern über die vorhandene öffentliche Chat-Infrastruktur erfordert jetzt, dass die lokale Edge-Server-Konfiguration mit Skype for Business Online kompatibel ist.
 
 > [!NOTE]
 > Die meisten Kunden benötigen keine Aktion, einschließlich aller Bereitstellungen, die mit Skype for Business Online zusammenlaufen.
@@ -121,10 +121,10 @@ Weitere Anleitungen zu externen Zertifikaten finden Sie unter [Zertifikats Planu
 #### <a name="faqs"></a>FAQs
 
 **Warum wird die Bereitstellungswebsite heruntergefahren?**
-Der in 2006 bereitgestellte öffentliche im (PIC)-Bereitstellungsmechanismus (PIC.lync.com) ist nicht mehr wartungsbar und wird auf 8/15/2019 beendet. Stattdessen übernimmt der öffentliche im-Verbund das gleiche Verbundmodell, das von Skype for Business Online verwendet wird, das unter dem Namen "Partner Discovery" bekannt ist, wodurch eine lokale Bereitstellung durch die DNS-SRV-Einträge (s) der Föderation öffentlich auffindbar ist.
+Der in 2006 bereitgestellte öffentliche im (PIC)-Bereitstellungsmechanismus (PIC.lync.com) ist nicht mehr wartungsbar und wird auf 8/15/2019 beendet. Stattdessen übernimmt der öffentliche im-Verbund das gleiche Verbundmodell, das von Skype for Business Online verwendet wird, das unter dem Namen "Partner Discovery" bekannt ist, wodurch eine lokale Bereitstellung durch die DNS-SRV-Einträge der Föderation öffentlich auffindbar ist.
 
 **Bedeutet diese Änderung, dass der öffentliche im-Verbund veraltet ist?**
-Nummer Der öffentliche Chat-Verbund wird weiterhin jahrelang unterstützt, wahrscheinlich erst, wenn das Skype for Business-Produkt am Ende der Nutzungsdauer erreicht ist.
+Nummer Der öffentliche Chat-Verbund wird weiterhin viele Jahre lang unterstützt, wahrscheinlich, bis das Skype for Business-Produkt am Ende des Lebenszyklus erreicht ist.
 
 **Unser Unternehmen eine Hybrid Beziehung (freigegebener Adressraum) mit Skype for Business Online hat, sind wir davon betroffen?**
 Nein, da Sie bereits eine Föderation mit Skype for Business Online haben, hat diese Änderung keinen Einfluss auf Sie.

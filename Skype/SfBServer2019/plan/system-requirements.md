@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: bereiten Sie Ihre Skype for Business Server 2019-Server und die Domäneninfrastruktur in diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sowie Zertifikat-DNS, Dateifreigabe und Active Directory-Informationen sind hier, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm zu gewährleisten.'
-ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925326"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464414"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System Anforderungen für Skype for Business Server 2019
  
@@ -540,10 +540,13 @@ Skype for Business Server 2019 kann dieselbe Dateifreigabe für alle Dateispeich
   
 - Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 gruppieren. Warum die neuesten Windows-Version? Ältere Versionen verfügen möglicherweise nicht über die erforderlichen Berechtigungen, um alle Features zu aktivieren. Sie können die Clusterverwaltung verwenden, um die Dateifreigaben zu erstellen, und dieses [Erstellen eines Cluster](https://support.microsoft.com/en-us/help/224967) -KB-Artikels wird Ihnen bei diesen Details helfen.
+- Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie bereits ein Konto verwenden, sollten Sie Windows Server 2012 oder höhere Versionen Clustern
+
+> [!Note]
+> **Warum die neuesten Windows-Version?** Ältere Versionen verfügen möglicherweise nicht über die erforderlichen Berechtigungen, um alle Features zu aktivieren. Sie können die Dateifreigaben mithilfe der Cluster Verwaltung erstellen. Weitere Informationen finden Sie in diesem Support Artikel [so wird es gemacht: Erstellen von Dateifreigaben in einem Cluster](https://support.microsoft.com/help/224967) .
     
 > [!CAUTION]
-> Beachten Sie, dass Network Attached Storage (NAS) als Dateifreigabe nicht unterstützt wird. Verwenden Sie daher eine der oben genannten Optionen. 
+> Beachten Sie, dass Network Attached Storage (NAS) als Dateifreigabe nicht unterstützt wird. Verwenden Sie daher eine der oben genannten Optionen. Diese Support Einschränkung wird durch das Variable Design von NAS-Geräten verursacht, die Dateisystem Anpassungsfähigkeit an den Windows Server-basierten Computer bereitstellen müssen, der auf das freigegebene Dateisystem des Geräts zugreift.
   
 
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271424"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464579"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -87,8 +87,11 @@ Firewall-IP-Adressen und Ports für Microsoft Teams-Medien |Weitere Informatione
 Benutzern des direkten Routings muss in Office 365 die folgenden Lizenzen zugewiesen sein: 
 
 - Microsoft Phone-System 
-- Microsoft Teams 
+- Microsoft Teams + Skype for Business Plan 2, falls in der Lizenz-SKU enthalten
 - Microsoft-Audiokonferenzen 
+
+> [!NOTE]
+> Skype for Business-Plan sollte nicht von einer Lizenzierungs-SKU entfernt werden, in der es enthalten ist. 
 
 
 > [!IMPORTANT]

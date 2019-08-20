@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271446"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464590"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -290,7 +290,7 @@ Sie müssen Ports 3478 und 3479 für den Übergang öffnen. Wenn Microsoft Unter
 
 ### <a name="requirements-for-using-media-processors"></a>Voraussetzungen für die Verwendung von Medien Prozessoren
 
-Medien Prozessoren sind immer im Medienpfad für Sprachanwendungen und für Web-Cleints (für exampe, Teams Cleint in Edge oder Google Chrome). Die Anforderungen sind identisch mit der Konfiguration ohne Bypass.
+Medien Prozessoren sind immer im Medienpfad für Sprachanwendungen und für Webclients (beispielsweise Teams-Clients in Edge oder Google Chrome). Die Anforderungen sind identisch mit der Konfiguration ohne Bypass.
 
 
 Der IP-Bereich für den Medien Verkehr ist 
@@ -353,7 +353,7 @@ Informationen zum Konfigurieren von zwei Stämmen im gleichen SBC finden Sie in 
 
 Die medienumgehung wird für alle Endpunkte von Teams unterstützt.
 
-Hinweis für webcleints (Teams Web App in Microsoft Edge, Google Chrome oder Mozilla Firefox) werden wir den Anruf an non-Bypass verdecken, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen auf dem Administrator. 
+Hinweis für Webclients (Teams Web App in Microsoft Edge, Google Chrome oder Mozilla Firefox) werden wir den Anruf an non-Bypass verdecken, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. 
  
 ## <a name="see-also"></a>Siehe auch
 
