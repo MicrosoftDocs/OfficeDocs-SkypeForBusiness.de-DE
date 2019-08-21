@@ -14,18 +14,30 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 102572c8ef25ff93ca66a92c94e4ff244918ad31
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236048"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483946"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
 Herzlichen Glückwunsch zu Ihrem ausstehenden Upgrade von Skype for Business auf Microsoft Teams. Ganz gleich, ob Sie neu bei Microsoft Teams sind, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für das Upgrade sind – wir möchten sicherstellen, dass Sie alles haben, was Sie für eine erfolgreiche Umstellung auf Microsoft Teams benötigen.
+
+Ganz gleich, ob Sie ein Upgrade von Skype for Business Online auf Microsoft Teams oder von einer lokalen Skype for Business-Umgebung zu Microsoft Teams durchführen – das Upgrade Framework führt Sie basierend auf Ihrem Geschäftsszenario durch den Prozess.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Warum auf Microsoft Teams aktualisieren?
 
