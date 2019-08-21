@@ -17,15 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie benutzerdefinierte App-Richtlinien und-Einstellungen verwalten, um zu steuern, wer in Ihrer Organisation benutzerdefinierte apps in Microsoft Teams hochladen kann.
 f1keywords:
-- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
-ms.openlocfilehash: e892b5e7fa8fa1886de8d22fc93bd4cc49725fc0
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+ms.openlocfilehash: cd2f28df6b5b831d260f3d0070250249dfc90f6e
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171657"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483583"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 

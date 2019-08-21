@@ -17,14 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über APP-Berechtigungsrichtlinien in Microsoft Teams und wie Sie Sie verwenden können, um zu steuern, welche apps für Benutzer in Ihrer Organisation verfügbar sind.
 f1keywords:
+- ms.teamsadmincenter.apppermspolicies.overview
+- ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 75940330958870407c04c20629e212f799cd5fdf
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 02f626db773adc2d64547397c793d214187758de
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171089"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483734"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 

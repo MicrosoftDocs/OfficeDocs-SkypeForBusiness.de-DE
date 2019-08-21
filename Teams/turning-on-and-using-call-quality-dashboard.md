@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
-- ms.lync.lac.ToolsCallQualityDashboard
 - ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: eaadd80030b04d5fb10fd8f29d656fe07e24a1db
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: cf937a159eba723ee4ac7fc2ae01aa733e57170f
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393493"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483770"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 

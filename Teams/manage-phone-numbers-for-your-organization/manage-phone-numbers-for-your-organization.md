@@ -18,17 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.phonenumbers.overview
+- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie Telefonnummern für Microsoft Teams für Ihre Organisation abrufen und verwalten.
-ms.openlocfilehash: 4260e87a5efe16d3b59053e672be3a348e8a5bdf
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347860"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483688"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 
@@ -51,6 +53,7 @@ Wenn Sie wissen, welche Art von Formularen Sie suchen, verwenden Sie die Dropdow
 > - [Frankreich](phone-number-management-for-france.md)
 > - [Deutschland](phone-number-management-for-germany.md)
 > - [Irland](phone-number-management-for-ireland.md)
+> - [Japan](phone-number-management-for-japan.md)
 > - [Niederlande](phone-number-management-for-the-netherlands.md)
 > - [Spanien](phone-number-management-for-spain.md)
 > - [Vereinigtes Königreich](phone-number-management-for-the-u-k.md)
@@ -79,7 +82,8 @@ Wenn Sie Telefonnummern übertragen müssen, laden Sie eine **Schriftliche Vollm
 
 Wenn Sie weiterhin Hilfe benötigen, lassen Sie uns wissen, wie wir Ihnen helfen können. Bitte geben Sie in Ihrer Anfrage folgende Informationen an: Ihre Organisations-ID, Domains, welche Arten von Nummern Sie benötigen, wie viele Nummern Sie wünschen, die verantwortliche Person für das Konto und andere wichtige Details zu Ihrem Problem.
 - Für Hilfe bei Telefonnummern innerhalb der USA: [Anfrage senden](mailto:ptn@microsoft.com).
-- Hilfe zu Telefonnummern außerhalb der USA: [Anfrage senden](mailto:ptneu@microsoft.com).
+- Wenn Sie Hilfe bei Telefonnummern in Europa benötigen, [Senden Sie Ihre Anfrage](mailto:ptneu@microsoft.com).
+- Wenn Sie Hilfe bei der Rufnummer in Asien benötigen, [Senden Sie Ihre Anfrage](mailto:ptnapac@microsoft.com).
 
 #### <a name="additional-resources"></a>Weitere Ressourcen
 
