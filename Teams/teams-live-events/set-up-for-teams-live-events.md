@@ -17,12 +17,12 @@ description: Informieren Sie sich über die Schritte zum Einrichten von Live fü
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237368"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493098"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -57,7 +57,7 @@ Mithilfe von Live Ereignisrichtlinien können Sie steuern, wer in Ihrer Organisa
 
 |Einstellung  |Beschreibung  |
 |---------|---------|
-|**Name**     |Dies ist der Name der Richtlinie, die auf der Seite "Live-Ereignisrichtlinien" angezeigt wird. Sie darf nicht länger als 64 Zeichen sein oder Sonderzeichen enthalten.          |
+|**Titel**     |Dies ist der Titel der Richtlinie, die auf der Seite "Live-Ereignisrichtlinien" angezeigt wird. Sie darf nicht länger als 64 Zeichen sein oder Sonderzeichen enthalten.          |
 |**Beschreibung**    |Verwenden Sie diese, um eine benutzerfreundliche Beschreibung für die Richtlinie hinzuzufügen.         |
 |**Planen zulassen**     |Wenn Sie diese Option aktivieren, können Benutzer in Ihrer Organisation Live Ereignisse in Teams erstellen und planen. Es ist wichtig zu wissen, dass Sie, wenn Sie möchten, dass Benutzer ein Live-Ereignis planen, das mit einer externen APP oder einem Gerät erstellt wurde, weitere Schritte ausführen müssen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern zum Planen von Ereignissen, die mit einer externen APP oder einem externen Gerät erstellt wurden](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Transkription für Teilnehmer zulassen** |Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams erstellt wurden. Wenn Sie diese Option aktivieren, können Live-Event-Teilnehmer während des Ereignisses Live-Beschriftungen und Untertitel sehen.         |

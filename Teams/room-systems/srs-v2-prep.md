@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel werden die Infrastruktur Vorbereitungen für die Bereitstellung von Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427852"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493085"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -61,6 +61,9 @@ Um ordnungsgemäß zu funktionieren, muss das Microsoft Teams rooms-Gerät Zugri
 
 > [!IMPORTANT]
 > Verwenden Sie unbedingt eine 1-GBit/s-Kabelnetzwerkverbindung, um sicherzustellen, dass die benötigte Bandbreite verfügbar ist.
+
+> [!NOTE]
+> Software Updates für Microsoft Teams-Chatrooms werden automatisch aus dem Microsoft Store für Unternehmen heruntergeladen. Weitere Informationen finden Sie unter [Voraussetzungen für Microsoft Store für Unternehmen und Bildungseinrichtungen](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) , um zu überprüfen, ob die Raum Konsole auf den Store zugreifen und sich selbst aktualisieren kann.
   
 ### <a name="certificates"></a>Zertifikate
 
@@ -169,3 +172,5 @@ Das Kennwort des lokalen Administrators wird während des Setups nicht als Auswa
 [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
   
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)
+
+[Voraussetzungen für Microsoft Store for Business und Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
