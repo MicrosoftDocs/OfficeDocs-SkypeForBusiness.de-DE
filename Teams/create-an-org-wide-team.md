@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881996d5f8acbc7458a775e02adfad9b38a231a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241235"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493112"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -40,11 +40,12 @@ Diese Arten von Konten werden Ihrem organisationsweiten Team nicht hinzugefügt:
 - Raum- oder Gerätekonten
 - Konten, die durch ein freigegebenes Postfach gesichert sind
 
-Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer hinzuzufügen und Teams-Lizenzen von Benutzern zu deaktivieren, die in Ihrem Unternehmen nicht mehr arbeiten, werden die Änderungen automatisch synchronisiert, d. h. die Benutzer werden zum Team hinzugefügt bzw. entfernt. Teammitglieder können ein organisationsweites Team nicht verlassen. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
+Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer hinzuzufügen und Konten von Benutzern zu deaktivieren, die in Ihrem Unternehmen nicht mehr arbeiten, werden die Änderungen automatisch synchronisiert, d. h. die Benutzer werden zum Team hinzugefügt bzw. entfernt. Teammitglieder können ein organisationsweites Team nicht verlassen. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
 > [!NOTE]
-> - Wenn die Option **organisationsweit** beim Erstellen eines Teams nicht angezeigt wird, obwohl Sie ein globaler Administrator sind, kann es sein, dass das Feature erst noch bereitgestellt wird, oder dass Ihre Organisation mehr als 5.000 Mitglieder hat und damit das derzeit gültige Größenlimit überschreitet. Wir arbeiten daran, dieses Limit künftig zu erhöhen.
+> - Wenn die Option **organisationsweit** beim Erstellen eines Teams nicht angezeigt wird, obwohl Sie ein globaler Administrator sind, kann es sein, dass das Feature erst noch bereitgestellt wird, dass Sie das Limit der maximal fünf organisationsweiten Teams erreicht haben oder dass Ihre Organisation mehr als 5.000 Mitglieder hat und damit das derzeit gültige Größenlimit überschreitet. Wir arbeiten daran, dieses Limit künftig zu erhöhen.
 > - Räume, die nicht Teil einer Raumliste sind, Geräte und Ressourcenkonten werden möglicherweise dem organisationsweiten Team hinzugefügt bzw. mit ihm synchronisiert. Teambesitzer können diese Konten ganz einfach wieder aus dem Team entfernen.
+> - Alle Aktionen des Systems zum Hinzufügen oder Entfernen von Mitgliedern werden im Kanal "Allgemein" gepostet. Der Kanal wird außerdem im Teams-Client mit "Neue Aktivität" gekennzeichnet.
 
 ## <a name="best-practices"></a>Bewährte Methoden
 
@@ -68,7 +69,7 @@ Erwägen Sie das Einrichten einer Kanalmoderation und übertragen Sie ausgewähl
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Entfernen Sie Konten, die möglicherweise nicht dazugehören
 
-Auch wenn Mitglieder ein organisationsweites Team nicht verlassen können, kann ein Teambesitzer die Teamliste verwalten, indem er Konten entfernt, die nicht dazugehören. Stellen Sie sicher, dass Sie Teams zum Entfernen von Benutzern aus Ihrem organisationsweiten Team verwenden. Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers verwenden, z. b. das Microsoft 365 Admin Center oder das Entfernen aus einer Gruppe in Outlook, wird der Benutzer möglicherweise wieder zum organisationsweiten Team hinzugefügt.
+Auch wenn Mitglieder ein organisationsweites Team nicht verlassen können, kann ein Teambesitzer die Teamliste verwalten, indem er Konten entfernt, die nicht dazugehören. **Stellen Sie sicher, dass Sie Teams zum Entfernen von Benutzern aus Ihrem organisationsweiten Team verwenden**. Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers verwenden, z. B. das Microsoft 365 Admin Center oder das Entfernen aus einer Gruppe in Outlook, wird der Benutzer möglicherweise wieder zum organisationsweiten Team hinzugefügt.
 
 ## <a name="faq"></a>Häufig gestellte Fragen
 

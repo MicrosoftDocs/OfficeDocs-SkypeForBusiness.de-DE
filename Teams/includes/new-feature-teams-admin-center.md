@@ -1,0 +1,1 @@
+Sie sehen diese Funktion noch nicht im Microsoft Teams Admin Center? Sie wird zurzeit eingeführt und ist in Ihrer Organisation möglicherweise noch nicht verfügbar. Weitere Informationen zu bevorstehenden Features von Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
