@@ -23,18 +23,18 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
+ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483202"
+ms.lasthandoff: 08/24/2019
+ms.locfileid: "36622061"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
 Als Administrator können Sie die Teamrichtlinien in Microsoft Teams verwenden, um zu steuern, welche Benutzer in Ihrer Organisation in Teams und Kanälen tun können. So können Sie beispielsweise festlegen, ob Benutzer private Teams in Suchergebnissen und in der Team Galerie entdecken dürfen und ob Benutzer private Kanäle erstellen dürfen.
 
-Sie verwalten die Teamrichtlinien im Microsoft Teams Admin Center. Sie können die globale Standardrichtlinie (org-Wide) verwenden oder benutzerdefinierte Richtlinien erstellen und diesen Benutzern zuweisen. Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen.
+Sie verwalten die Teamrichtlinien, indem Sie im Microsoft Teams Admin Center zu **Teams** > Teams-**Richtlinien** wechseln. Sie können die globale Standardrichtlinie (org-Wide) verwenden oder benutzerdefinierte Richtlinien erstellen und diesen Benutzern zuweisen. Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen.
 
 Sie können die globale Richtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Wenn einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen ist, gilt die globale Richtlinie für den Benutzer. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
 
