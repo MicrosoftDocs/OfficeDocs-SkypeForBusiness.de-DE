@@ -17,7 +17,7 @@ appliesto:
 description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
 ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
 ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/29/2019
 ms.locfileid: "35925489"
@@ -44,13 +44,13 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 
 |                                                       Anbieter                                                        |       Produkt       | Ohne Medienumgehung | Medienumgehung | Softwareversion |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7,2 a. 250   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7,2 a. 250   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7,2 a. 250   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7,2 a. 250   |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Ausstehend     |  7,2 a. 250  |
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7,2 a. 250   |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7,2 a. 250 |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Ausstehend     |  7.20A.250  |
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.250   |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250 |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
@@ -68,4 +68,4 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-Wenn Sie uns Produktfeedback zu Teams geben möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie bitte [UserVoice](https://microsoftteams.uservoice.com) beachten Sie die Zertifizierung, die einer Hauptversion gewährt wird. Das bedeutet, dass die Firmware mit einer beliebigen Nummer in der SBC-Firmware, die der Hauptversion folgt, unterstützt wird.
+Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [Uservoice](https://microsoftteams.uservoice.com). Beachten Sie die Zertifizierung einer Hauptversion. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.
