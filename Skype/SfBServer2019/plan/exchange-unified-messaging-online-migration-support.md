@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243894"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645248"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -23,8 +23,7 @@ In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/201
  
 Der Dienst wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschlange und Fax-Integrationsdienste bereitgestellt. Microsoft plant, Kunden dabei zu helfen, zu Telefon System Diensten zu migrieren, die bereits Tausende von Kunden in Skype for Business Online und Microsoft Teams unterstützen. 
 
-Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; für eine Teilmenge der Kunden ist eine Beteiligung des Administrators und Investitionen erforderlich. Automatische Telefonzentralen und Anrufwarteschlangen verfügen über eine von Administratoren gesteuerte Migration. Administratoren müssen die vorhandenen automatischen Telefonzentralen-Bäume im Telefon System der automatischen Telefonzentrale erneut erstellen. Kunden, die ein beliebiges Feature von Drittanbieter-Telefonanlagen verwenden, werden nicht zu den Cloud-Diensten für Telefonsysteme migriert, da diese Dienste keine PBX-Anlagen von Drittanbietern unterstützen. In [diesem Blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)wurde letztes Jahr ein Pensionsplan für Drittanbieter angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer von Microsoft Unified Communications-Plattformen/-Diensten migrieren oder eine Voicemail oder ein Auto von einem Drittanbieter erwerben. Attendant-Lösung für diese Benutzer. Die Integration von Faxen wird in der Telefonanlage nicht unterstützt. die Kunden müssen zu einer Drittanbieterlösung migrieren. 
+Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; eine Beteiligung des Administrators und/oder Investitionen für eine Teilmenge von Kunden sind möglicherweise erforderlich. Bei der automatischen Telefonzentrale handelt es sich um eine von Administratoren gesteuerte Migration. Sie müssen die vorhandenen, von der automatischen Telefonzentrale stammenden Bäume im clouddienst der Cloud für automatische Telefonzentralen neu erstellen. Kunden, die mit einer Drittanbieter-Telefonanlage eine der Funktionen von "fremd" nutzen, werden nicht zu Skype Cloud Services migriert, da Sie keine PBX-Anlagen von Drittanbietern unterstützen. In [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)wurde ein ruhestandsplan für Drittanbieter-Support angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer der Unified Communications-Plattformen/-Dienste von Microsoft migrieren oder eine Voicemail und/oder ein Auto von Drittanbietern erwerben. Attendant-Lösung für diese Benutzer. Die Integration von Faxen wird in den cloudbasierten Diensten nicht unterstützt. die Kunden müssen zu einer Drittanbieterlösung migrieren.
 
 ### <a name="who-is-affected"></a>Wer ist betroffen?
 

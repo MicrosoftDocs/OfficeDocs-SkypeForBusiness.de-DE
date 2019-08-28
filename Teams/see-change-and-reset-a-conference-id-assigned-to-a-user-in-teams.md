@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie einem Benutzer in Microsoft Teams eine Konferenzkennung zuweisen und welche Parameter Sie für die Konferenzkennung verwenden sollten. '
-ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 8c4832050626dadd1bec068be262281d1303ef46
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344316"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645281"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Anzeigen und Zurücksetzen einer Konferenzkennung, die einem Benutzer zugewiesen ist, in Microsoft Teams
 
@@ -84,9 +84,7 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
   
     
 - Die Länge der Konferenzkennung muss der Ziffernanzahl entsprechen, die in der Audiokonferenzbrücke festgelegt ist. Konferenzkennungen dürfen keine Buchstaben und Sonderzeichen, sondern nur Zahlen enthalten.
-    
-- Die Konferenzkennung für alle Audiokonferenzbenutzer besteht standardmäßig aus sieben Ziffern. Die Anzahl der Ziffern kann nicht geändert werden.
-    
+   
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 

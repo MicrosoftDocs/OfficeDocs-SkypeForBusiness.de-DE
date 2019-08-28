@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie das Telefon System (Cloud PBX) für Ihre Organisation einrichten. '
-ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793168"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645300"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -235,8 +235,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Für Audiokonferenzen können Sie einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu **Microsoft 365 Admin Center** > **Admin** > Centers**Skype for Business** > **-Audiokonferenzen** wechseln und auf die Konferenzbrücke oder sehen [Sie Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf Ihrer Audiokonferenz-Brücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- Für automatische Telefonzentralen können Sie einer automatischen Telefonzentrale eine dedizierte Nummer zuweisen, indem Sie zu **Microsoft 365 Admin Center** > **Admin** > **Skype for Business** > **Anruf Weiterleitungs** > -**automatische Telefonzentralen wechseln **und klicken Sie auf die automatische Telefonzentrale. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Ausführliche Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
-
+- Für automatische Telefonzentralen können Sie einer automatischen Telefonzentrale eine dedizierte Nummer zuweisen, indem Sie zu **Microsoft 365 Admin Center** > **Admin** > **Skype for Business** > **Anruf Weiterleitungs** > -**automatische Telefonzentralen wechseln **klicken Sie auf die automatische Telefonzentrale. Auf der Seite " **Allgemein** " ist die bereits vorhandene Service-Nummer in der Dropdown-Liste der **Rufnummern** aufgeführt. Ausführliche Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 - Bei Anrufwarteschlangen können Sie einer Anrufwarteschlange eine dedizierte Nummer zuweisen, indem Sie zu den **Microsoft 365 Admin Center** > **Admin** > Centers**Skype for Business** > -Anruf**Warteschlangen** für**Anrufweiterleitung** > wechseln und auf in der Anrufwarteschlange. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Ausführliche Informationen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](/microsoftteams/getting-service-phone-numbers).**

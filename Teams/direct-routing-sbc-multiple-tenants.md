@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493126"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645311"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -84,7 +84,8 @@ Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen 
 
 ![Diagramm mit Voraussetzungen für Domänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
 
-Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \*. base_domain (beispielsweise \*Customers.adatum.biz)* anfordern. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
+Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \*. base_domain (Beispiel: \*. Customers.adatum.biz)* anfordern. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
+
 
 Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
 
@@ -98,6 +99,9 @@ Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
 ||         |         |         |         |         |
 
 Führen Sie die nachstehenden Schritte aus, um die Basis-und Subdomänen zu konfigurieren. Im Beispiel konfigurieren wir einen Basisdomänen Namen (Customers.adatum.biz) und eine Unterdomäne für einen Kunden (sbc1.Customers.adatum.biz in Woodgrove Bank-Mandanten).
+
+> [!NOTE]
+> Verwenden Sie sbcX.Customers.adatum.biz, um die Sprachausgabe im Mandanten Mandanten zu aktivieren.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrieren eines Basisdomänen namens im Carrier-Mandanten
 

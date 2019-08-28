@@ -10,18 +10,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: e5342ee92825eabc98037d5cf2ef1dfeab2a8031
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447932"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645291"
 ---
 # <a name="content-cameras"></a>Content-Kameras
 
 Sie können jetzt eine Inhalts Kamera mit einem Microsoft Teams Room-System verwenden. Eine Inhalts Kamera interagiert mit spezieller Bildverarbeitungssoftware und einem Whiteboard, damit ein Referent auf einem analogen Whiteboard zeichnen und den Inhalt für Remote Teilnehmer freigeben kann.
 
-Sehen Sie sich die Video [Arbeit an, wie Sie sich an einem Ort befinden, mit Microsoft Teams-Räumen](https://www.youtube.com/watch?v=1XvgH2rNpmk) für Beispiele für Funktionen der Inhalts Kamera.
+Im folgenden Video finden Sie Beispiele für Funktionen der Inhalts Kamera.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>Einrichten einer Inhalts Kamera
 
