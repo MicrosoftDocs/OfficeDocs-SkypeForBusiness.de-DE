@@ -15,18 +15,16 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie den Bericht zur Live-Ereignis Verwendung von Teams im Microsoft Teams Admin Center verwenden, um sich einen Überblick über die Aktivitäten von Team Live Events in Ihrer Organisation zu verschaffen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239806"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667061"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams Live-Ereignis Verwendungsbericht
 
 Der Bericht "Live-Ereignis Verwendung" von Teams im Microsoft Teams Admin Center zeigt die Aktivitätsübersicht für Live Ereignisse in Ihrer Organisation an. Sie können die Nutzungsinformationen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp für jedes Ereignis anzeigen. Sie können Einblicke in Nutzungstrends gewinnen und sehen, wer in Ihrer Organisation Live-Events plant, präsentiert und produziert. 
-
-![Screenshot des Berichts zur Verwendung von Live Ereignissen in Teams im Microsoft Teams Admin Center] Screenshot (../media/teams-live-event-usage-report.png "des Teams-Nutzungsberichts im Admin Center")
 
 ## <a name="view-the-report"></a>Anzeigen des Berichts
 
@@ -35,9 +33,9 @@ Der Bericht "Live-Ereignis Verwendung" von Teams im Microsoft Teams Admin Center
 3. Optional Unter **Organizer**können Sie auswählen, dass nur Live-Ereignisse angezeigt werden, die von einem bestimmten Benutzer organisiert werden.
 4. Klicken Sie auf **Bericht ausführen**.  
 
-## <a name="interpret-the-report"></a>Interpretieren des Berichts
+    ![Screenshot des Berichts "Live-Ereignis Nutzung in Teams" im Team Admin Center mit Beschriftungen] (../media/teams-live-event-usage-report-with-callouts.png "Screenshot des Berichts \"Live-Ereignis Nutzung in Teams\" im Team Admin Center mit Beschriftungen")
 
-![Screenshot des Berichts zur Verwendung von Live Ereignissen in Teams im Microsoft Teams Admin Center] (../media/teams-live-event-usage-report-with-callouts.png "Screenshot des Nutzungsberichts für Live-Ereignisse von Teams im Admin Center mit nummerierten Beschriftungen")
+## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
 |Beschriftung |Beschreibung  |
 |--------|-------------|
@@ -56,5 +54,6 @@ Auf der Seite Live-Ereignisdetails erhalten Sie eine Zusammenfassung der Details
 Wenn Ihre Organisation für [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ECDN oder [Kollective](https://kollective.com) ECDN aktiviert ist, können Sie zusätzliche Teilnehmer-Analysen abrufen, indem Sie auf den Link Partner Bericht klicken.
 
 ## <a name="related-topics"></a>Verwandte Themen
+
 - [Teams – Analyse und Berichterstellung](teams-reporting-reference.md)
 - [Was sind Teams-Liveereignisse?](../teams-live-events/what-are-teams-live-events.md)
