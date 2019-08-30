@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483315"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675406"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -173,7 +173,11 @@ Sie können bis zu 200-Anruf-Agents auswählen, die zu einer der folgenden Maili
 - Sicherheitsgruppe
 - Verteilerliste
 
-Ausgewählte Anruf-Agents müssen **entweder** Online-Benutzer mit einer **Telefon System** Lizenz und Enterprise-VoIP sein **oder** über einen Anrufplan verfügen.
+Ausgewählte Anruf-Agents müssen eine der folgenden sein: 
+
+- Online-Benutzer mit einer Telefon System Lizenz und Enterprise-VoIP aktiviert 
+- Online Benutzer mit einem Anrufplan
+- Lokale Skype for Businesss-Server Benutzer
 
   > [!NOTE]
   > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine **Telefon System** Lizenz und Enterprise-VoIP verfügen **oder** über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)

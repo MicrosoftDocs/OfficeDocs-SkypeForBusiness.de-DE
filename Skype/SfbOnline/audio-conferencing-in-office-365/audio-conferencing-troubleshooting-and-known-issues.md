@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Rufen Sie eine Liste bekannter Probleme ab, wenn Sie Microsoft als Einwahlkonferenz Anbieter, Status und einige Problemumgehungen verwenden. '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289583"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675237"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problembehandlung und bekannte Probleme bei Audiokonferenzen
 
@@ -43,6 +43,7 @@ Verwenden Sie diese Option im Moment als Referenz, wenn Sie mögliche Probleme b
 |Wenn ein Benutzer durch Zuweisen einer E5-Lizenz erstmals bereitgestellt wird und das Postfach nicht aktiviert ist, wird die Begrüßungs-E-Mail für Audiokonferenzen möglicherweise nicht zugestellt.  <br/> |In diesem Fall können Sie die Informationen zur Audiokonferenz jederzeit mit der Option **Audio conferencing** (Audiokonferenz) im Skype for Business Admin Center oder mit PowerShell erneut an den Benutzer senden. Weitere Informationen finden Sie unter [Aktivieren oder deaktivieren](enable-or-disable-sending-emails-when-their-settings-change.md)des Sendens von e-Mails, wenn audiokonferenzeinstellungen geändert werden.  <br/> **Hinweis:** Um die PIN für die Audiokonferenz an den Benutzer erneut zu senden, muss die PIN zurückgesetzt werden. Dies kann auch mithilfe von Audiokonferenzen **** im Skype for Business Admin Center oder mithilfe von PowerShell erfolgen.          |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
 |Es kann bis zu 24 Stunden dauern, bis Audiokonferenzanrufe in den Nutzungsberichten angezeigt werden.  <br/> |Für diesen Bereich sind in zukünftigen Dienstupdates Verbesserungen geplant.  <br/> |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
 |Wenn sich ein Anrufer in eine Konferenzbrücke einwählt, nachdem die Besprechung von einem Skype for Business-Benutzer gesperrt wurde, wird in derSkype for Business-App keine Benachrichtigung dazu angezeigt, dass der Benutzer im Wartebereich wartet.  <br/> |Dies ist zurzeit entwurfsbedingt, wir werden jedoch Ihr Feedback hinsichtlich der Unterstützung dieser Funktion in zukünftigen Dienstupdates berücksichtigen.  <br/> |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
+|Ein Skype for Business Server (on-Prem)-Benutzer, dem die Audiokonferenz-Lizenz vor dem 1. März 2019 zugewiesen wurde, wird möglicherweise nicht in seinen Besprechungseinladungen die Einwahl Koordinaten angezeigt.  <br/> |Die Bereitstellung von Skype for Business Server-Benutzern für Teams-Audiokonferenzen wurde bis zu diesem Datum nicht unterstützt. Sie wird jetzt unterstützt und ist eine Komponente [](https://docs.microsoft.com/microsoftteams/meetings-first)von Besprechungen. Der Benutzer muss über eine Teams-Lizenz verfügen.  <br/> |Die Bereitstellungs Pipeline muss erneut aktiviert werden. Entfernen Sie die Audiokonferenz-Lizenz des Benutzers, warten Sie ein paar Stunden, und weisen Sie die Lizenz erneut zu.  <br/> |01.03.2019  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 
