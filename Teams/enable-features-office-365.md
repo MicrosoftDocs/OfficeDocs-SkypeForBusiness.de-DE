@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483290"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699372"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -56,15 +56,19 @@ Hinzufügen oder Sperren einer Domäne:
 
 ### <a name="teams-settings"></a>„Teams settings“ (Microsoft Teams-Einstellungen)
 
-Unter **Teams settings** (Microsoft Teams-Einstellungen) können Sie E-Mail-Integration, Cloudspeicheroptionen, Interoperabilität mit Skype for Business und Geräte einrichten.
+In **Teams-Einstellungen** können Sie Features für Teams einrichten, einschließlich Benachrichtigungen und Feeds, E-Mail-Integration, Cloudspeicher-Optionen und Geräte.
+
+#### <a name="notifications-and-feeds"></a>Benachrichtigungen und Feeds
+
+Hier können Sie steuern, ob vorgeschlagene Feeds im Aktivitätsfeed der Benutzer in Teams angezeigt werden. Weitere Informationen zum Aktivitätsfeed finden Sie unter [Kennenlernen des Aktivitätsfeeds in Microsoft Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### <a name="email-integration"></a>E-Mail-Integration
 
-Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Stellen Sie zum Aktivieren der E-Mail-Integration sicher, dass für **Allow users to send emails to a channel email address** (Zulassen, dass Benutzer E-Mails an eine Kanal-E-Mail-Adresse senden) die Option **Ein** festgelegt ist. 
+Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Stellen Sie zum Aktivieren der E-Mail-Integration sicher, dass für **Allow users to send emails to a channel email address** (Zulassen, dass Benutzer E-Mails an eine Kanal-E-Mail-Adresse senden) die Option **Ein** festgelegt ist.
 
 #### <a name="files"></a>Dateien
 
-Hier können Sie die Dateifreigabe und Optionen für Cloudspeicherdateien aktivieren oder deaktivieren. 
+Hier können Sie die Dateifreigabe und Optionen für Cloudspeicherdateien aktivieren oder deaktivieren.
 
 Benutzer können Dateien aus Cloudspeicherdiensten in Microsoft Teams-Kanäle und -Chats hochladen und dort freigeben. Zu den Cloudspeicheroptionen in Microsoft Teams gehören zurzeit ShareFile, Dropbox, Box und Google Drive. Aktivieren Sie die Option für die Cloudspeicheranbieter, die Ihre Organisation verwenden möchte.
 
