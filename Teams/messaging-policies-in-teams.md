@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Messaging-Richtlinien in Teams
+title: Verwalten von Nachrichtenrichtlinien in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,87 +15,87 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
-description: Erfahren Sie mehr über Messaging Richtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
+description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
 ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
 ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/25/2019
 ms.locfileid: "35861864"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
+# <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
 <!--- Add zone marker here--->
 
-Mit Messagingrichtlinien wird gesteuert, welche Chat-und Kanal-Messaging Features für Benutzer in Microsoft Teams verfügbar sind. Sie können die Standardrichtlinie verwenden, die automatisch erstellt wird, oder Sie können eine oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, können Sie Sie einem Benutzer oder einer Gruppe von Benutzern in Ihrer Organisation zuweisen.
+Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen. Sie können die Standardrichtlinie verwenden, die automatisch erstellt wird, oder eine oder mehrere benutzerdefinierte Nachrichtenrichtlinien für die Benutzer in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, können Sie sie einem Benutzer oder einer Benutzergruppe in Ihrer Organisation zuweisen.
 
-Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Messagingrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, die die auf Sie angewendeten Einstellungen benötigen. 
+Standardmäßig wird eine Richtlinie namens „Global“ (organisationsweiter Standard) erstellt. Allen Benutzern in Ihrer Organisation wird diese Messagingrichtlinie standardmäßig zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und sie den Benutzern zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer zur Verfügung stehen. Sie können sie dann einem oder mehreren Benutzern zuweisen, die diese Einstellungen benötigen. 
 
-## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Messagingrichtlinie
+## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Nachrichtenrichtlinie
 
-Sie können auf einfache Weise Messagingrichtlinien im Microsoft Teams Admin Center verwaltenhttp://admin.teams.microsoft.com) (indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Messagingrichtlinien** auswählen. Wenn Sie die vorhandene Standard-Messagingrichtlinie für Ihre Organisation bearbeiten möchten, wählen Sie die **globale Zeile (org-Wide Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Wenn Sie eine neue benutzerdefinierte Nachrichten Richtlinie erstellen möchten, wählen Sie **neue Richt**Linie aus, geben Sie der neuen Richtlinie einen Namen, und wählen Sie dann Ihre Einstellungen aus. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
+Sie können die Nachrichtenrichtlinien im Microsoft Teams Admin Center ganz einfach verwalten, http://admin.teams.microsoft.com)indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Nachrichtenrichtlinien** auswählen. Um die vorhandene Standard-Nachrichtenrichtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweiter Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** aus, geben Sie der neuen Richtlinie einen Namen und wählen Sie dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, wählen Sie **Speichern** aus.
 
-Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden. Erstellen Sie eine neue benutzerdefinierte Richtlinie mit dem Namen "gesendete Nachrichten beibehalten", und deaktivieren Sie die folgenden Einstellungen:
+Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden können. Sie erstellen dann eine neue benutzerdefinierte Richtlinie namens „Gesendete Nachrichten aufbewahren“ und deaktivieren die folgenden Einstellungen:
 
 - Besitzer können gesendete Nachrichten löschen
 - Benutzer können gesendete Nachrichten löschen
 - Benutzer können gesendete Nachrichten bearbeiten
 
-Weisen Sie die Richtlinie dann den Benutzern zu.
+Weisen Sie dann die Richtlinie den Benutzern zu.
 
 > [!NOTE] 
-> Einem Benutzer kann immer nur eine Nachrichten Richtlinie zugewiesen werden.
+> Einem Benutzer kann jeweils nur eine Nachrichtenrichtlinie zugewiesen werden.
  
-## <a name="assign-a-messaging-policy-to-a-user"></a>Zuweisen einer Messagingrichtlinie zu einem Benutzer
+## <a name="assign-a-messaging-policy-to-a-user"></a>Einem Benutzer eine Nachrichtenrichtlinie zuweisen
 
-Wenn Sie eine benutzerdefinierte Messagingrichtlinie erstellen, ist Sie nur für einen Benutzer aktiv, wenn die Richtlinie dem Benutzer zugewiesen ist. Wenn Sie einem Benutzer eine benutzerdefinierte Richtlinie zuweisen möchten, wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und wählen Sie den Benutzer aus, dem Sie die Richtlinie zuweisen möchten. Wählen Sie auf der Seite des Benutzers neben **zugewiesene Richtlinien**die Option **Bearbeiten** aus. Wählen Sie dann im Bereich **Benutzerrichtlinien bearbeiten** unter **Nachrichten Richtlinie**die Messagingrichtlinie aus der Dropdownliste aus, und wählen Sie **Speichern**aus. Sie können die Einstellungen auch in der Liste der Benutzer bearbeiten. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**aus. Wählen Sie dann im Bereich **Bearbeitungseinstellungen** unter **Nachrichten Richtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus.
+Wenn Sie eine benutzerdefinierte Nachrichtenrichtlinie erstellen, ist Sie nur für einen Benutzer aktiv, wenn sie ihm zugewiesen wurde. Wenn Sie einem Benutzer eine benutzerdefinierte Richtlinie zuweisen möchten, wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie den Benutzer, dem Sie die Richtlinie zuweisen möchten. Wählen Sie auf der Seite des Benutzers neben **Zugewiesene Richtlinien** auf **Bearbeiten**. Wählen Sie nun im Bereich **Benutzerrichtlinien bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**. Sie können die Einstellungen auch in der Benutzerliste bearbeiten. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**. Wählen Sie nun im Bereich **Einstellungen bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**.
 
-Wenn Sie eine Richtlinie auf mehrere Benutzer anwenden, wählen Sie die einzelnen Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und wählen Sie dann **Einstellungen bearbeiten**aus. Wählen Sie im Bereich **Bearbeitungseinstellungen** unter **Nachrichten Richtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus.
+Wenn Sie eine Richtlinie auf mehrere Benutzer anwenden möchten, wählen die einzelnen Benutzer aus, indem Sie links neben dem Benutzernamen klicken und dann **Einstellungen bearbeiten** wählen. Wählen Sie nun im Bereich **Einstellungen bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**.
 
-Sie können eine Messagingrichtlinie auch einem oder mehreren Benutzern wie folgt zuweisen:
+Sie können einem oder mehreren Benutzern eine Nachrichtenrichtlinie auch folgendermaßen zuweisen:
 
-1. Wechseln Sie zu den **Microsoft Teams Admin Center** > -**Nachrichtenrichtlinien**.
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten**aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+1. Wechseln Sie zu **Microsoft Teams Admin Center** > **Nachrichtenrichtlinien**.
+2. Wählen Sie die Richtlinie aus, indem Sie links neben ihren Namen klicken.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**.  Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
+5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 > [!NOTE]
-> Sie können eine Richtlinie nicht löschen, wenn Benutzer ihr zugewiesen sind. Sie müssen zunächst allen betroffenen Benutzern eine andere Richtlinie zuweisen, und Sie können dann die ursprüngliche Richtlinie löschen.
+> Sie können eine Richtlinie nicht löschen, solange Sie Benutzern zugewiesen ist. Sie müssen allen betroffenen Benutzern erst eine andere Richtlinie zuweisen, bevor Sie die ursprüngliche Richtlinie löschen können.
 
 <!--- End zone marker here--->
 
-## <a name="messaging-policy-settings"></a>Nachrichtenrichtlinien Einstellungen
+## <a name="messaging-policy-settings"></a>Nachrichtenrichtlinie – Einstellungen
 
-Verwenden Sie die folgenden Einstellungen, um die globale Messagingrichtlinie zu ändern oder eine neue benutzerdefinierte Richtlinie zu erstellen:
+Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie zu ändern oder eine neue benutzerdefinierte Richtlinie zu erstellen:
 
-- **Besitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die Benutzer im Chat gesendet haben.
-- **Benutzer können gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, damit Benutzer Nachrichten, die Sie im Chat gesendet haben, löschen können.
-- **Benutzer können gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, damit Benutzer die Nachrichten bearbeiten können, die Sie im Chat gesendet haben.
-- **Lesebestätigungen** Lesebestätigungen ermöglichen dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn deren Nachricht vom Empfänger in 1:1 und Gruppen-Chats von 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten entfernen unklar, ob eine Nachricht gelesen wurde, und verbessern die Team Kommunikation.  
-    - **Benutzer gesteuert** Das bedeutet, dass Benutzer entscheiden können, ob Lesebestätigungen ein-oder ausgeschaltet werden sollen. Die Standardeinstellung in der APP ist aktiviert. Benutzer können Sie dann deaktivieren. 
-    - **Für jeden** frei Dies bedeutet, dass jeder im Mandanten das Feature aktiviert hat, ohne die Option zum Deaktivieren. Beachten Sie, dass die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten bei Verwendung der Einstellung **für alle** für den gesamten Mandanten nur eine Messagingrichtlinie (die Standardrichtlinie mit dem Namen "Global (org-Wide Standard)") oder alle Messagingrichtlinien in der Mandant verwendet die gleichen Einstellungen für Belege. Das Feature Lesebestätigungen ist am effektivsten, wenn das Feature **für jeden**aktiviert ist.
-    - **Für jeden frei** Dies bedeutet, dass das Feature deaktiviert ist und niemand im Mandanten Lesebestätigungen hat, und dass es nicht aktiviert werden kann. 
+- **Besitzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die von Benutzern im Chat gesendet wurden.
+- **Benutzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten löschen können, die sie im Chat gesendet haben.
+- **Benutzer können gesendete Nachrichten bearbeiten**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten bearbeiten können, die sie im Chat gesendet haben.
+- **Lesebestätigungen**: Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn die Nachricht vom Empfänger in 1:1-Chats und Gruppenchats mit höchstens 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team.  
+    - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern. 
+    - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Achten Sie darauf, dass bei Verwendung der Einstellung **Für alle aktiviert** die einzige Möglichkeit zum Festlegen von Bestätigungen für den gesamten Mandanten darin besteht, nur eine Nachrichtenrichtlinie für den gesamten Mandanten zu nutzen (die Standardrichtlinie namens "Global (organisationsweiter Standard)) oder alle Nachrichtenrichtlinien im Mandanten dieselben Einstellungen für Bestätigungen verwenden zu lassen. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
+    - **Für alle deaktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten deaktiviert ist und dass niemand im Mandanten Lesebestätigungen erhält. Auch kann das Feature nicht aktiviert werden. 
 <a name="bkchat"> </a>
 
-- **Chat**  Aktivieren Sie diese Einstellung, wenn Benutzer in Ihrer Organisation in der Lage sein sollen, die Teams-App zum chatten mit anderen Personen zu verwenden.
-- **Verwenden von Giphys in Unterhaltungen**  Wenn Sie diese Option aktivieren, können Benutzer Giphys in Chat Unterhaltungen mit anderen Personen einbeziehen. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen.
-- **Giphy-Inhaltsbewertung** 
-    - **Keine Einschränkung** Das bedeutet, dass Ihre Benutzer unabhängig von der Inhaltsbewertung in der Lage sind, beliebige Giphy in Chats einzufügen.
-    - Mittel **mäßig**  Das bedeutet, dass Ihre Benutzer in der Lage sein werden, Giphys in Chats einzufügen, die aber von Erwachseneninhalten moderat eingeschränkt werden.
-    - **Strenge**  Das bedeutet, dass Ihre Benutzer in der Lage sein werden, Giphys in Chats einzufügen, die jedoch strikt von Erwachseneninhalten eingeschränkt werden.
-- **Verwenden von Memen in Konversationen** Wenn Sie diese Option aktivieren, können Benutzer Meme in Chat Unterhaltungen mit anderen Personen einbeziehen. 
-- **Verwenden von Aufklebern in Konversationen** Wenn Sie diese Option aktivieren, können Benutzer Aufkleber in Chat Unterhaltungen mit anderen Personen einbeziehen.
-- **URL-Vorschau zulassen** Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten ein-oder auszuschalten.
-- **Zulassen, dass Benutzer Nachrichten übersetzen** Aktivieren Sie diese Einstellung, damit Benutzer Teams-Nachrichten automatisch in die Sprache übersetzen können, die in Ihren persönlichen Spracheinstellungen für Office 365 angegeben ist.
-- **Ermöglichen des immersiven Readers zum Anzeigen von Nachrichten** Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in Microsoft immersive Reader anzeigen können. Der immersive Reader ist ein Lerntool, mit dem Sie die Lesbarkeit von Text verbessern können.
-- **Benutzer können <a name="urgent-message">Prioritäts</a> Benachrichtigungen senden** Wenn Sie diese Option aktivieren, können Benutzer eine Nachricht senden, die Prioritäts Benachrichtigungen verwendet. Mit Prioritäts Benachrichtigungen werden Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten benachrichtigt, oder bis Nachrichten vom Empfänger abgeholt und gelesen werden, um die Wahrscheinlichkeit zu maximieren, dass die Nachricht abgeholt und rechtzeitig verarbeitet wird.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Erstellen von Sprachnachrichten** 
-    - **Erlaubt in Chats und Kanälen** Das bedeutet, dass Benutzer Sprachnachrichten sowohl in Chats als auch in Kanälen hinterlassen können.
-    - **Nur in Chats zulässig** Das bedeutet, dass Benutzer Sprachnachrichten in Chats, aber nicht in Kanälen hinterlassen können.
-    - **Deaktiviert** Das bedeutet, dass Benutzer keine Sprachnachrichten in Chats oder Kanälen erstellen können.  
-- **Auf mobilen Geräten: Anzeigen von bevorzugten Kanälen über den letzten Chats** Aktivieren Sie diese Einstellung, um die bevorzugten Kanäle an den oberen Rand des Bildschirms des mobilen Geräts zu verschieben, damit ein Benutzer nicht scrollen muss, um ihn zu finden. 
-- **Zulassen, dass ein Benutzer Benutzer aus einem Gruppen-Chat entfernt** Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppen-Chat entfernen kann. Mit dieser Funktion können Sie einen Chat mit einer kleineren Gruppe von Personen fortsetzen, ohne das Chat-Protokoll zu verlieren.
+- **Chat**: Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Benutzer in Ihrer Organisation mithilfe der Teams-App mit anderen Personen chatten können.
+- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen.
+- **Giphy-Inhaltsklassifikation** 
+    - **Keine Einschränkung**: Das bedeutet, dass Ihre Benutzer beliebige Giphys in Chats einfügen können – unabhängig von ihrer Inhaltsbewertung.
+    - **Moderat**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber moderat eingeschränkt wird.
+    - **Streng**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber streng eingeschränkt wird.
+- **Memes in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Memes in Chats mit anderen Personen verwenden. 
+- **Sticker in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Sticker in Chats mit anderen Personen verwenden.
+- **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
+- **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Office 365 festgelegt ist.
+- **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
+- **Benutzer können <a name="urgent-message">Prioritätsbenachrichtigungen</a> senden**: Wenn Sie diese Funktion aktivieren, können die Benutzer eine Nachricht senden, die Prioritätsbenachrichtigungen verwendet. Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis die Nachricht vom Empfänger abgeholt und gelesen wird, um die Wahrscheinlichkeit einer zeitnahen Bearbeitung zu erhöhen.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Erzeugen von Sprachnachrichten** 
+    - **In Chats und Kanälen zugelassen**: Das bedeutet, dass Benutzer sowohl in Chats als auch in Kanälen Sprachnachrichten hinterlassen können.
+    - **Nur in Chats zugelassen**: Das bedeutet, dass Benutzer in Chats, nicht aber in Kanälen Sprachnachrichten hinterlassen können.
+    - **Deaktiviert**: Das bedeutet, dass Benutzer keine Sprachnachrichten in Chats oder Kanälen erstellen können.  
+- **Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen**: Aktivieren Sie diese Einstellung, um die bevorzugten Kanäle an den oberen Rand des Bildschirms für mobile Geräte zu verschieben, damit ein Benutzer nicht scrollen muss, um Sie zu finden. 
+- **Einem Benutzer das Entfernen von Benutzern aus einem Gruppenchat gestatten**: Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppenchat entfernen kann. Mithilfe dieses Features können Sie mit einer kleineren Gruppe von Personen chatten, ohne den Chatverlauf zu verlieren.
 
 ### <a name="related-topics"></a>Verwandte Themen
-[Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
+[Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)
