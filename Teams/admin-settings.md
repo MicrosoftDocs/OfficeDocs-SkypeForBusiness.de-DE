@@ -12,18 +12,21 @@ description: Erfahren Sie mehr über die Richtlinien und Einstellungen, mit dene
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.apppolicies.adminsettings
+f1keywords:
+- ms.teamsadmincenter.apppermspolicies.adminsettings
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
+- ms.teamsadmincenter.apppolicies.adminsettings
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6bbce8ae007b5b35f33e99bfbc7866d625256af
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: efeb467c5cf3cad5e427a26b01f972d40922db21
+ms.sourcegitcommit: 16345e8a19dba6fd1b39f876755088f9d8368f13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236302"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "36620437"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
@@ -59,8 +62,6 @@ Nachfolgend finden Sie einige Beispiele für die Verwendung von App-Setup-Richtl
 Weitere Informationen finden Sie unter [Verwalten von App-Setup-Richtlinien in Teams](teams-app-setup-policies.md).
 
 ## <a name="custom-app-policies-and-settings"></a>Richtlinien und Einstellungen für benutzerdefinierte Apps
-
->[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 Teams ermöglicht Entwicklern in Ihrer Organisation, benutzerdefinierte Apps für andere Benutzer zu erstellen, zu testen und bereitzustellen. Sie können benutzerdefinierte Apps Teams hinzufügen, indem Sie ein App-Paket in einer ZIP-Datei direkt in ein Team oder in den persönlichen Kontext hochladen. Sie können Richtlinien für das App-Setup verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte Apps hochladen kann. Sie können auch organisationsweite Einstellungen festlegen, um zu steuern, ob Benutzer mit bestimmten benutzerdefinierten Apps interagieren können.
 
