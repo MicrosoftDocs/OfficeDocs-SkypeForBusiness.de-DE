@@ -82,8 +82,7 @@ Informationen zum Planen und Einrichten des Office 365-Telefonsystems in Ihrem U
 
 - [Einrichten von Anrufplänen](set-up-calling-plans.md): Dieser Artikel beinhaltet eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder zum Übertragen Ihrer vorhandenen Telefonnummern an Skype for Business.
     
-- 
-  [Microsoft-Telefonielösungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel werden alle Bereitstellungsoptionen aufgeführt. Außerdem finden Sie hier Informationen zur Planung einer Nur-Cloud-Lösung. 
+- [Microsoft-Telefonielösungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel werden alle Bereitstellungsoptionen aufgeführt. Außerdem finden Sie hier Informationen zur Planung einer Nur-Cloud-Lösung. 
     
 - [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Erfahren Sie, welche Lizenzen Sie erwerben müssen, um das Office 365-Telefonsystem zu erhalten.
     

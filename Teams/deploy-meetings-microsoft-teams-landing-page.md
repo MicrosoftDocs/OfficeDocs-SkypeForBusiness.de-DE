@@ -51,9 +51,7 @@ Sie können den [Netzwerktest](https://www.powershellgallery.com/packages/Networ
 
 | Frage | Aktion |
 |--------------|--------|
-|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>
-  [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/de-DE/MicrosoftTeams/prepare-network)</li><li>
-  [URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/de-DE/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/de-DE/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/de-DE/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung

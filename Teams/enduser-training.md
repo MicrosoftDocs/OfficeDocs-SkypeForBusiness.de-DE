@@ -203,8 +203,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                     <div class="cardText">
                         <h3>Beiträge und Nachrichten</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Erstellen und Formatieren eines Beitrags</a></p>
-                         <p>
-  <a href="https://support.office.com/de-DE/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Auf etwas aufmerksam machen mit Erwähnungen</a></p>
+                         <p><a href="https://support.office.com/de-DE/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Auf etwas aufmerksam machen mit Erwähnungen</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Speichern eines Beitrags oder einer Nachricht</a></p>
                     </div>
                 </div>

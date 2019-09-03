@@ -71,6 +71,5 @@ Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.co
 - AllowWhiteboard
 - AllowSharedNotes
 
-
-  [Erfahren Sie mehr über das csTeamsMeetingPolicy-Cmdlet ](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Erfahren Sie mehr über das csTeamsMeetingPolicy-Cmdlet ](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

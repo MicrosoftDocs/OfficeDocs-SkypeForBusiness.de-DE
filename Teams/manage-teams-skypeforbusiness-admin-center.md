@@ -58,8 +58,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Teams und Kanäle     |         |Weiterleitung an die AAD-Gruppenverwaltung (identisch mit der aktuellen Benutzeroberfläche).             |Benutzer          |
 |Apps|Neue externe Apps standardmäßig aktivieren|Organisationsweite App-Einstellungen|Mandant|
 |Apps|Externe Apps zulassen|Organisationsweite App-Einstellungen|Mandant|
-|Apps|Querladen von externen Apps zulassen<sup>2</sup>|
-  [TeamsAppSetupPolicy](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
+|Apps|Querladen von externen Apps zulassen<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
 |Apps|Standard-Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Apps|Externe Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Anrufe und Besprechungen     |Zeitplanung für private Besprechungen zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |

@@ -62,6 +62,5 @@ Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freige
 ## <a name="more-information"></a>Weitere Informationen
 
 [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-
-  [Gastzugriff in Office 365-Gruppen](https://support.office.com/de-DE/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Gastzugriff in Office 365-Gruppen](https://support.office.com/de-DE/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
