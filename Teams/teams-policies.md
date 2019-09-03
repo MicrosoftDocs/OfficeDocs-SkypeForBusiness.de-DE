@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Teamrichtlinien in Ihrer Organisation verwenden und verwalten, um zu steuern, welche Aktionen Benutzer in Teams und Kanälen durchführen können.
+description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
 f1keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
@@ -25,84 +25,84 @@ f1keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
 ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/24/2019
 ms.locfileid: "36622061"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
-Als Administrator können Sie die Teamrichtlinien in Microsoft Teams verwenden, um zu steuern, welche Benutzer in Ihrer Organisation in Teams und Kanälen tun können. So können Sie beispielsweise festlegen, ob Benutzer private Teams in Suchergebnissen und in der Team Galerie entdecken dürfen und ob Benutzer private Kanäle erstellen dürfen.
+Als Administrator, können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. Sie können z. B. festlegen, ob private Teams für Benutzer in den Suchergebnissen und im Teamkatalog sichtbar sind und ob Benutzer private Kanäle erstellen dürfen.
 
-Sie verwalten die Teamrichtlinien, indem Sie im Microsoft Teams Admin Center zu **Teams** > Teams-**Richtlinien** wechseln. Sie können die globale Standardrichtlinie (org-Wide) verwenden oder benutzerdefinierte Richtlinien erstellen und diesen Benutzern zuweisen. Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen.
+Zum Verwalten von Teamrichtlinien wechseln Sie im Microsoft Teams Admin Center zu **Teams** > **Teamrichtlinien**. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
 
-Sie können die globale Richtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Wenn einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen ist, gilt die globale Richtlinie für den Benutzer. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
+Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Sofern einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen wurde, gilt diese Richtlinie für den Benutzer. Wurde einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen, gilt für diesen Benutzer die globale Standardrichtlinie. Nachdem Sie die globale Standardrichtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
 
-## <a name="create-a-custom-teams-policy"></a>Erstellen einer benutzerdefinierten Teams-Richtlinie
+## <a name="create-a-custom-teams-policy"></a>Erstellen einer benutzerdefinierten Teamrichtlinie.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams** > Teams-**Richtlinien**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams** > **Teamrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
-    ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
+    ![Screenshot der Einstellungen für Teamrichtlinien.](media/teams-policies.png)
 4. Wählen Sie die gewünschten Einstellungen aus:
 
-- [**Entdecken Sie private Teams**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Aktivieren Sie diese Einstellung, damit Benutzer private Teams in Suchergebnissen und im Team Katalog entdecken können.
-- [**Private Kanäle erstellen**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Aktivieren Sie diese Einstellung, damit Benutzer private Kanäle erstellen können.
+- [**Private Teams entdecken**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Aktivieren Sie diese Einstellung, um Benutzern zu ermöglichen, private Teams in den Suchergebnissen und im Teamkatalog zu entdecken.
+- [**Private Kanäle erstellen**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Aktivieren Sie diese Einstellung, um Benutzern zu ermöglichen, private Kanäle zu erstellen.
 
 5. Klicken Sie auf **Speichern**.
 
-## <a name="edit-a-teams-policy"></a>Bearbeiten einer Teams-Richtlinie
+## <a name="edit-a-teams-policy"></a>Bearbeiten einer Teamrichtlinie
 
-Sie können die globale Richtlinie oder alle von Ihnen erstellten benutzerdefinierten Richtlinien bearbeiten.
+Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstellte, benutzerdefinierte Richtlinie zuweisen.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams** > Teams-**Richtlinien**.
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken und dann auf **Bearbeiten**klicken.
-3. Aktivieren oder deaktivieren Sie die gewünschten Einstellungen, und klicken Sie dann auf **Speichern**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams** > **Teamrichtlinien**.
+2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf**Edit** klicken.
+3. Aktivieren oder deaktivieren Sie die gewünschten Einstellungen und klicken Sie dann auf **Speichern**.
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>Zuweisen einer benutzerdefinierten Teams-Richtlinie zu Benutzern
+## <a name="assign-a-custom-teams-policy-to-users"></a>Zuweisen einer benutzerdefinierten Teamrichtlinie an Benutzer
 
-Mit dem Microsoft Teams Admin Center können Sie einem oder mehreren Benutzern oder dem Skype for Business PowerShell-Modul eine benutzerdefinierte Richtlinie zuweisen, um Gruppen von Benutzern, beispielsweise einer Sicherheitsgruppe oder Verteilergruppe, eine benutzerdefinierte Richtlinie zuzuweisen.
+Um einem oder mehreren Benutzern eine benutzerdefinierte Richtlinie zuzuweisen, können Sie das Microsoft Teams Admin Center verwenden. Um Benutzergruppen, z. B. einer Sicherheitsgruppe oder einer Verteilergruppe, eine benutzerdefinierte Richtlinie zuzuweisen, können Sie das Skype for Business PowerShell-Modul verwenden.
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten Teams-Richtlinie zu einem Benutzer
+### <a name="assign-a-custom-teams-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten Teamrichtlinie an einen Benutzer
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
-2. Klicken Sie auf **Richtlinien**und dann neben **zugewiesene Richtlinien**auf **Bearbeiten**.
-3. Wählen Sie unter **Teamrichtlinien**die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Benutzer** und klicken Sie dann den gewünschten Benutzer an.
+2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
+3. Wählen Sie unter **Teamrichtlinien** diejenige Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
 
-Informationen zum Zuweisen einer benutzerdefinierten Teams-Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine benutzerdefinierte Teamrichtlinie mehreren Benutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Benutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
-Oder Sie können auch die folgenden Aktionen ausführen:
+Sie können auch die folgenden Schritte ausführen:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams** > Teams-**Richtlinien**.
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten**aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, klicken Sie auf **Speichern**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams** > **Teamrichtlinien**.
+2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
+3. Wählen Sie **Benutzer verwalten**.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
-### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten Teams-Richtlinie zu Benutzern in einer Gruppe
+### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten Teamrichtlinie an Benutzer in einer Gruppe.
 
-Möglicherweise möchten Sie mehreren Benutzern, die Sie bereits identifiziert haben, eine benutzerdefinierte Teams-Richtlinie zuweisen. So können Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe eine Richtlinie zuweisen. Sie können dies tun, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Teams finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
+Möglicherweise möchten Sie mehreren Benutzern, die Sie bereits identifiziert haben, eine benutzerdefinierte Teamrichtlinie zuweisen. So möchten Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe eine Richtlinie zuweisen. Dies ist möglich, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](teams-powershell-overview.md).
 
-In diesem Beispiel weisen wir allen Benutzern in der Contoso-Marketinggruppe eine Teams-Richtlinie namens "Marketingteams-Richtlinie" zu.  
+In diesem Beispiel wird eine als „Marketing-Teamrichtlinie“ bezeichnete Teamrichtlinie allen Benutzern in der Contoso-Marketinggruppe zugewiesen.  
 
 > [!NOTE]
-> Stellen Sie sicher, dass Sie zunächst eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
+> Stellen Sie sicher, dass Sie zuerst eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
 
-Rufen Sie die GroupObjectId der jeweiligen Gruppe ab.
+Abrufen der GroupObject-ID der jeweiligen Gruppe.
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
-Rufen Sie die Mitglieder der angegebenen Gruppe ab.
+Abrufen der Mitglieder der gewählten Gruppe.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Weisen Sie alle Benutzer in der Gruppe einer bestimmten Teams-Richtlinie zu. In diesem Beispiel handelt es sich um die Richtlinie für Marketing Teams.
+Zuweisen aller Benutzer in der Gruppe zu einer bestimmten Teamrichtlinie. Bei diesem Beispiel handelt es sich um die „Marketing-Teamrichtlinie“.
 ```
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
 ``` 
-Je nach Anzahl der Mitglieder in der Gruppe kann dieser Befehl mehrere Minuten dauern.
+Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
+- [Verwalten der Sichtbarkeit privater Teams unter Teams](manage-discovery-of-private-teams.md)
