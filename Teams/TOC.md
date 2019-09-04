@@ -691,6 +691,7 @@
 ### [Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Planen des Verschiebens Ihrer StaffHub-Teams in Shifts in Microsoft Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Beispiel für die E-Mail-Kommunikation mit Benutzern](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams für das Gesundheitswesen
