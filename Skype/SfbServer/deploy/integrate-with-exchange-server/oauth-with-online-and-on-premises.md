@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Wenn Sie die OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online konfigurieren, werden die unter Funktionsunterstützung beschriebenen Funktionen für Skype for Business und die Exchange-Integration aktiviert.
-ms.openlocfilehash: 3c896e8b430276e5bb48bc425425292a382a1021
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244219"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715807"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
@@ -142,7 +142,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. Der Konversations Verlauf für mobile Clients bestätigen ist im Outlook-Ordner "Konversations Verlauf" sichtbar.
 
-3. Vergewissern Sie sich, dass archivierte Chatnachrichten im Postfach des Benutzers auf dem Gelände im Ordner "Säuberungen" unter Verwendung von [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)hinterlegt sind.
+3. Vergewissern Sie sich, dass archivierte Chatnachrichten im lokalen Postfach des Benutzers im Ordner "Säuberungen" unter Verwendung von [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)hinterlegt sind.
 
 Schauen Sie sich alternativ Ihren Traffic an. Der Datenverkehr in einem OAuth-Handshake ist wirklich charakteristisch (und sieht nicht wie die Standardauthentifizierung aus), insbesondere im Bereich der Realms, wo Sie beginnen, den Emittenten-Traffic zu sehen, der wie folgt aussieht: 00000004-0000-0ff1-ce00-000000000000 @ (manchmal mit a/before das @-Zeichen) in den Token, die übergeben werden. Sie sehen keinen Benutzernamen oder kein Kennwort, was der OAuth-Punkt ist. Sie sehen aber den Aussteller "Office" – in diesem Fall "4" ist Skype for Business – und das Reich Ihres Abonnements.
 

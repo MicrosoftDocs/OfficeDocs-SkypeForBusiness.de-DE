@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0804b3fb0783a588fdd79dfec1a8dd39e4d92f34
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447966"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715917"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planen, ihre StaffHub-Teams in Microsoft Teams zu verschieben
 
@@ -44,7 +44,7 @@ Verwenden Sie die Zeitachse als Leitfaden für die Planung Ihres Umstiegs von St
 |7     |Bestimmen der Zeitachse und Identifizieren von StaffHub-Benutzern für den Wechsel zu Teams       |[Ausführen eines Berichts zur Anzeige der aktiven StaffHub-Verwendung](run-report-to-show-staffhub-usage.md) |
 |8     |Identifizieren von StaffHub-Benutzern, die nicht über ein Azure AD-Konto verfügen (wird in StaffHub als "inaktiv" angezeigt), und Verknüpfen eines Kontos für Sie     |[Verknüpfen eines Azure AD-Kontos für StaffHub-Teammitglieder, die nicht über ein Konto verfügen](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |9    |Erstellen von Schulungsinhalten für Benutzer, die für Ihre Organisation zugeschnitten sind         |[Vorbereiten eines Benutzer Bereitschaftsplans für Teams](../../upgrade-user-readiness.md)     |
-|10    |Kommunizieren von StaffHub-Benutzern über den Übergang zu Schichten in Teams         |         |
+|10    |Kommunizieren von StaffHub-Benutzern über den Übergang zu Schichten in Teams         |[StaffHub zu Teams Beispiel-e-Mail-Kommunikation an Benutzer](staffhub-to-teams-email-template.md)         |
 |11     |Installieren von Teams-Clients         |[Beziehen von Clients für Teams](../../get-clients.md) |
 |12    |Zuweisen der FirstLineWorker-App-Setup Richtlinie zu Benutzern (oder erstellen und Zuweisen einer benutzerdefinierten App-Setup Richtlinie), um die Schicht-APP an Teams-Clients zu anheften  |[Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzern](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |13     |Schulen von Benutzern beim Verwenden von Schichten und Teams         |[Onboard-Benutzer für Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Hilfedokumentation zu Schichten](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams-Hilfedokumentation](https://support.office.com/teams)<br><br>[Teams-Schulungsvideos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
