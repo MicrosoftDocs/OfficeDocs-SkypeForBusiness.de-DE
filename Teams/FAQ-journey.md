@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec2df17ca154ca01aac5febe572068225165435
-ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
+ms.openlocfilehash: d5910a363032a35bd7096e4048d38d51f260b72b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "36404543"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715729"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -80,7 +80,9 @@ Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte 
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Wie wirkt sich die Ankündigung der Einstellung von Skype for Business Online auf Organisationen mit Hybridkonfigurationen (Skype for Business Online und Skype for Business Server) aus?
 
-Kunden mit Hybridkonfigurationen (online und lokal) müssen ihre Benutzer vor dem Einstellungsdatum am 31. Juli 2021 von Skype for Business Online zu Microsoft Teams überführen. Kunden mit entsprechenden berechtigten Abonnements werden ermuntert, die [FastTrack](https://fasttrack.microsoft.com/) for Teams-Onboardingunterstützung in Anspruch zu nehmen.
+Kunden mit Online- und lokalen Hybridkonfigurationen müssen ihre Benutzer vor dem Ausmusterungsdatum am 31. Juli 2021 von Skype for Business Online zu Microsoft Teams überführen. Aktualisierungspfade für Hybridkonfigurationen, die auf Grundsätzen der Koexistenz und der Interoperabilität basieren, bleiben nach dem Ausmustern von Skype for Business Online erhalten. 
+
+Kunden mit berechtigten Abonnements werden ermuntert, die [FastTrack](https://fasttrack.microsoft.com/) for Teams-Onboardingunterstützung in Anspruch zu nehmen.
 
 ## <a name="skype-for-business-to-teams-upgrade"></a>Upgrade von Skype for Business auf Microsoft Teams
 
@@ -102,9 +104,9 @@ Im Microsoft Teams Admin Center werden Sie Optionen für Koexistenzmodi feststel
 
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>Was sollte ich tun, um das Upgrade vorzubereiten?
 
-A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn’t quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
+Zu einem erfolgreichen Upgrade gehören neben dem Validieren der technischen Bereitschaft die Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der [Umstellung von Skype auf Microsoft Teams](https://aka.ms/skypetoteams-home).
 
-Microsoft bietet zudem interaktive Liveworkshops an, in denen wir Anweisungen, bewährte Methoden und Ressourcen für den Einstieg in die Upgradeplanung und -implementierung teilen. [Hier finden Sie Workshops zur Upgradeplanung](https://aka.ms/SkypeToTeamsPlanning).
+Microsoft bietet zudem interaktive Liveworkshops an, in denen wir Anleitungen, bewährte Methoden und Ressourcen für den Einstieg in die Upgradeplanung und -implementierung besprechen. [Hier finden Sie Workshops zur Upgradeplanung](https://aka.ms/SkypeToTeamsPlanning).
 
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Meine Organisation verwendet Microsoft Teams bereits parallel zu Skype for Business. Kann ich Skype for Business einfach deaktivieren?
 
