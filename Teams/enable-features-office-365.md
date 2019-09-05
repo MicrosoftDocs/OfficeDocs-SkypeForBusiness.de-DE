@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699372"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715926"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
-## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Einstellungen von Teams-Apps im Admin Center für Microsoft Teams
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Einstellungen von Teams-Apps im Microsoft Teams Admin Center
 
-Sie verwalten Apps für Ihre Organisation in **Teams-Apps** im Microsoft Teams Admin Center. Sie können z. B. Richtlinien festlegen, um zu steuern, welche Apps organisationsweit oder für bestimmte Microsoft Teams-Benutzer verfügbar sind, und Sie können Microsoft Teams anpassen, indem Sie die Apps anheften, die für Ihre Benutzer am wichtigsten sind.
+Sie verwalten Apps für Ihre Organisation in **Teams-Apps** im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com). Z. B. können Sie Richtlinien festlegen, um zu steuern, welche Apps organisationsweit oder für bestimmte Benutzer von Microsoft Teams verfügbar sind, und Sie können Microsoft Teams anpassen, indem Sie die Apps anheften, die für Ihre Benutzer am wichtigsten sind.
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).  
 
