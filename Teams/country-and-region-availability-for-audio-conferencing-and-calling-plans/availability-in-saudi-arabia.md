@@ -3,7 +3,7 @@ title: Verfügbarkeit in Saudi-Arabien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Saudi-Arabien verfügbar sind.
-ms.openlocfilehash: f9c4e84669079baa801e9ed7193678e20a4157e0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 87cbdcf35cf523a68f53b434a7d2d29a3945125f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331308"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775466"
 ---
 # <a name="availability-in-saudi-arabia"></a>Verfügbarkeit in Saudi-Arabien
 
@@ -67,8 +67,8 @@ Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams, di
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> | Riyadh ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).

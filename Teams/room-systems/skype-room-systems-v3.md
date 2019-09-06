@@ -2,7 +2,7 @@
 title: Übersicht über die Verwaltung für Microsoft Teams-Chatrooms
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Übersicht über das Management für Microsoft Teams-Chatrooms.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427874"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775095"
 ---
-# <a name="management-overview"></a>Verwaltung (Übersicht) 
+# <a name="management-overview"></a>Verwaltung (Übersicht)
 
 Es ist wichtig, dass Sie kontinuierliche Wartung und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams rooms-Systeme für Ihre Benutzer verfügbar sind und eine hervorragende Benutzererfahrung bieten. 
 
@@ -27,14 +27,12 @@ Es ist wichtig, dass Sie kontinuierliche Wartung und Vorgänge entwickeln und au
 
 Das Überwachen von Microsoft Teams rooms Systems umfasst zwei Hauptaktivitäten:
 
--  Überwachung von Geräten, Anwendungen und Peripheriegeräten
-
--  Qualitäts-und Zuverlässigkeitsüberwachung (CQD)
+- Überwachung von Geräten, Anwendungen und Peripheriegeräten
+- Qualitäts-und Zuverlässigkeitsüberwachung (CQD)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Geräte-, Anwendungs-und Peripheriegeräte Überwachung in Microsoft Teams
 
 Um sicherzustellen, dass die Benutzer die Microsoft Teams-Zimmereinheiten verwenden können, müssen die Einheiten aktiviert sein, mit dem Netzwerk verbunden sein, wobei die Microsoft Teams rooms-Anwendung ordnungsgemäß konfiguriert ist und mit funktionierenden Peripheriegeräten verbunden sein. 
-
 
 Informationen zum Status der Microsoft Teams rooms-Anwendung und verbundenen Peripheriegeräte werden von der Microsoft Teams rooms-Anwendung in das Windows-Ereignisprotokoll geschrieben und in [verstehen der Protokolleinträge](azure-monitor-manage.md#understand-the-log-entries)dokumentiert. 
 
@@ -43,7 +41,7 @@ Informationen zum Status der Microsoft Teams rooms-Anwendung und verbundenen Per
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Ermöglicht das Starten von Microsoft Teams-Räumen  <br/> |
 |Power Management-\> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management-\> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
-   
+
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell

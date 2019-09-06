@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428100"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774684"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
 
@@ -29,18 +29,18 @@ Sie können die Protokollanalyse in Azure Monitor konfigurieren, um grundlegende
 
 Wenn Sie diesem Leitfaden folgen, können Sie ein Dashboard wie im folgenden Beispiel verwenden, um detaillierte Statusberichte für die Geräteverfügbarkeit, die Anwendungs-und Hardware Integrität sowie die Microsoft Teams rooms-Anwendung und die Versions Verteilung des Betriebssystems zu erhalten.
 
-Screenshot ![der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms] (../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams") -Chatrooms
+Screenshot ![der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms] (../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams-Chatrooms")
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
 
-1.  [Überprüfen der Protokollanalyse Konfiguration](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Konfigurieren von Testgeräten für die Protokollanalyse-Verwaltungseinrichtung](azure-monitor-deploy.md#configure_test_devices)
-3.  [Zuordnen benutzerdefinierter Felder](azure-monitor-deploy.md#Custom_fields)
-4.  [Definieren der Ansichten von Microsoft Teams Rooms in der Protokollanalyse](azure-monitor-deploy.md#Define_Views)
-5.  [Definieren von Benachrichtigungen](azure-monitor-deploy.md#Alerts)
-6.  [Konfigurieren aller Geräte für die Überwachung](azure-monitor-deploy.md#configure_all_devices)
-7.  [Konfigurieren zusätzlicher Azure Monitor-Lösungen](azure-monitor-deploy.md#Solutions)
+1. [Überprüfen der Protokollanalyse Konfiguration](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Konfigurieren von Testgeräten für die Protokollanalyse-Verwaltungseinrichtung](azure-monitor-deploy.md#configure_test_devices)
+3. [Zuordnen benutzerdefinierter Felder](azure-monitor-deploy.md#Custom_fields)
+4. [Definieren der Ansichten von Microsoft Teams Rooms in der Protokollanalyse](azure-monitor-deploy.md#Define_Views)
+5. [Definieren von Benachrichtigungen](azure-monitor-deploy.md#Alerts)
+6. [Konfigurieren aller Geräte für die Überwachung](azure-monitor-deploy.md#configure_all_devices)
+7. [Konfigurieren zusätzlicher Azure Monitor-Lösungen](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Obwohl die Azure Monitor-Protokollanalyse bei minimaler Konfiguration einen Computer unter einem Windows-Betriebssystem überwachen kann, gibt es immer noch einige Microsoft Teams-Räume – bestimmte Schritte, die Sie ausführen müssen, bevor Sie mit der Bereitstellung von Agents für alle Microsoft Teams beginnen. Geräte für Räume.
@@ -256,7 +256,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 3.  Definieren Sie die **Header** Eigenschaften:<br>
     **Titel:** Betriebs System Versionen<br>
     Unter **Titel:** Geräte mit bestimmten Betriebssystemversionen
-4.  Definieren Sie **** die Donut-Eigenschaften:<br>
+4.  Definieren Sie die **Donut** -Eigenschaften:<br>
     **Abfrage:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
     **Zentrieren von Text:** Geräte<br>
     **Operation:** Summe
@@ -280,7 +280,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 3.  Definieren Sie die **Header** Eigenschaften:<br>
     **Titel:** Anwendungsversionen<br>
     Unter **Titel:** Geräte, auf denen bestimmte Anwendungsversionen ausgeführt werden
-4.  Definieren Sie **** die Donut-Eigenschaften:<br>
+4.  Definieren Sie die **Donut** -Eigenschaften:<br>
     **Abfrage:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
     **Zentrieren von Text:** Geräte<br>
     **Operation:** Summe
@@ -380,7 +380,7 @@ Konfigurieren Sie eine Warnungsregel, die auf Geräte von Microsoft Teams rooms 
 
 7. Konfigurieren von Aktionsgruppen:
     1.  Wählen Sie **neu erstellen** aus.
-    2.  Geben Sie geeignete Namen für die Felder *Aktionsgruppenname* und Kurzname an. **
+    2.  Geben Sie geeignete Namen für die Felder *Aktionsgruppenname* und *Kurzname* an.
     3.  Geben Sie einen eindeutigen *Aktionsnamen* an, wählen Sie **e-Mail/SMS/Push/Voice**aus, und wählen Sie dann **Details bearbeiten**aus.
     4.  Aktivieren Sie das Kontrollkästchen e-Mail, und geben Sie die e-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
     5.  Sie können auch Ihre Telefonnummer angeben, um mit SMS, einem Sprachanruf oder beides benachrichtigt zu werden.
@@ -498,7 +498,7 @@ Stop-Transcript
 ## <a name="additional-solutions"></a>Weitere Lösungen
 <a name="Solutions"> </a>
 
-Azure Monitor bietet integrierte Verwaltungslösungen über seinen [Lösungskatalog](https://docs.microsoft.com/azure/azure-monitor/insights/solutions) , damit Sie Ihre Umgebung weiter überwachen können. Wir empfehlen dringend, dass Sie Ihrem Arbeitsbereich auch [Warnungsverwaltung](https://docs.microsoft.com/azure/azure-monitor/platform/alert-management-solution) und [Azure Log Analytics-Agent](https://docs.microsoft.com/azure/azure-monitor/insights/solution-agenthealth) -Integritäts Lösungen hinzufügen.
+Azure Monitor bietet integrierte Verwaltungslösungen über seinen [Lösungskatalog](https://docs.microsoft.com/azure/azure-monitor/insights/solutions) , damit Sie Ihre Umgebung weiter überwachen können. Wir empfehlen dringend, dass Sie Ihrem Arbeitsbereich auch [Warnungsverwaltung](https://docs.microsoft.com/azure/azure-monitor/platform/alert-management-solution) und [Azure Log Analytics-Agent-Integritäts](https://docs.microsoft.com/azure/azure-monitor/insights/solution-agenthealth) Lösungen hinzufügen.
 
 > [!NOTE]
 > Die Lösung für den Agentenstatus kann Ihnen dabei helfen, veraltete oder beschädigte Microsoft-Überwachungs-Agents in Ihrer Umgebung zu identifizieren, und die Warnungs Verwaltungslösung enthält Details zu den Benachrichtigungen, die innerhalb eines bestimmten Zeitraums ausgelöst wurden.

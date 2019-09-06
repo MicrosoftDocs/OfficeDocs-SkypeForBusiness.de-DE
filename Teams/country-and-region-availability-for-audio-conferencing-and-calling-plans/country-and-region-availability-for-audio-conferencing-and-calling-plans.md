@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
-ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
+ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "35908227"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774653"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -38,18 +38,21 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Wählen Sie Ihr Land oder Ihre Region aus, um zu sehen, was für Ihre Organisation verfügbar ist.
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [Algerien](availability-in-algeria.md)    
 > - [Argentinien](availability-in-argentina.md)
 > - [Australien](availability-in-australia.md)
 > - [Österreich](availability-in-austria.md)
 > - [Bahrain](availability-in-bahrain.md)
-> - [Belarus (Weißrussland)](availability-in-belarus.md)
+> - [Belarus](availability-in-belarus.md)
 > - [Belgien](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
+> - [Benin](availability-in-benin.md)
 > - [Bosnien und Herzegowina](availability-in-bosniaherzegovina.md)
 > - [Brasilien](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgarien](availability-in-bulgaria.md)
+> - [Kambodscha](availability-in-cambodia.md)
 > - [Kanada](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
@@ -68,6 +71,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Frankreich](availability-in-france.md)
 > - [Georgien](availability-in-georgia.md)
 > - [Deutschland](availability-in-germany.md)
+> - [Ghana](availability-in-ghana.md)
 > - [Griechenland](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hongkong](availability-in-hong-kong.md)
@@ -79,7 +83,9 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Italien](availability-in-italy.md)
 > - [Japan](availability-in-japan.md)
 > - [Jordan](availability-in-jordan.md)
+> - [Kasachstan](availability-in-kazakhstan.md)
 > - [Kenia](availability-in-kenya.md)
+> - [Kuwait](availability-in-kuwait.md)
 > - [Lettland](availability-in-latvia.md)
 > - [Litauen](availability-in-lithuania.md)
 > - [Luxemburg](availability-in-luxembourg.md)
@@ -89,8 +95,11 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Mexiko](availability-in-mexico.md)
 > - [Moldova](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
+> - [Marokko](availability-in-morocco.md)
 > - [Niederlande](availability-in-the-netherlands.md)
 > - [Neuseeland](availability-in-new-zealand.md)
+> - [Nicaragua](availability-in-nicaragua.md)
+> - [Nigeria](availability-in-nigeria.md)
 > - [Norwegen](availability-in-norway.md)
 > - [Pakistan](availability-in-pakistan.md)
 > - [Panama](availability-in-panama.md)
@@ -117,6 +126,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Taiwan](availability-in-taiwan.md)
 > - [Thailand](availability-in-thailand.md)
 > - [Trinidad und Tobago](availability-in-trinidad-and-tobago.md)
+> - [Tunesien](availability-in-tunisia.md)
 > - [Türkei](availability-in-turkey.md)
 > - [Ukraine](availability-in-the-ukraine.md)
 > - [Vereinigte Arabische Emirate (VAE)](availability-in-the-united-arab-emirates-uae.md)
@@ -126,7 +136,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
+**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
 
 ***
 
@@ -141,7 +151,7 @@ Nachdem Sie überprüft haben, welche Skype for Business- oder Microsoft Teams-D
 
 ### <a name="audio-conferencing"></a>Audiokonferenz
 
-Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Skype for Business und Microsoft Teams enthalten genau für diese Situation die Funktion Audiokonferenz. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Nachdem Sie sich für eine Audiokonferenz für Ihre Organisation entschieden haben, müssen Sie für jede **** Person in Ihrer Organisation eine Lizenz für Audiokonferenzen erwerben, die eine Audiobesprechung planen/hosten soll.
+Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Skype for Business und Microsoft Teams enthalten genau für diese Situation die Funktion Audiokonferenz. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Nachdem Sie sich für eine Audiokonferenz für Ihre Organisation entschieden haben, müssen Sie für jede Person in Ihrer Organisation eine Lizenz für **Audiokonferenzen** erwerben, die eine Audiobesprechung planen/hosten soll.
   
 Mit Audiokonferenz können Benutzer gebührenpflichtige und gebührenfreie Telefonnummern zum Einwählen in Besprechungen verwenden. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Für weitere Städte können Ihrer Organisation dedizierte gebührenpflichtige und gebührenfreie Telefonnummern zugewiesen werden.
 

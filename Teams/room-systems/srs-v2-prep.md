@@ -2,7 +2,7 @@
 title: Vorbereiten Ihrer Umgebung
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel werden die Infrastruktur Vorbereitungen für die Bereitstellung von Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493085"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775054"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -28,22 +28,17 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die erforderlich s
 2. Stellen Sie sicher, dass eine funktionierende Netzwerk-/Internetverbindung vorhanden ist, die für das Gerät verwendet werden kann. 
     
    - Sie muss eine IP-Adresse über DHCP empfangen können. (Microsoft Teams-Räume können beim ersten Start der Einheit nicht mit einer statischen IP-Adresse konfiguriert werden, aber anschließend kann die statische IP für das Gerät auf dem Gerät oder auf dem Upstream-Switch oder-Router konfiguriert werden.)
-    
    - Diese Ports müssen geöffnet sein (zusätzlich zum Öffnen der normalen Ports für Medien):
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
     
      > [!NOTE]
-     > Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, dass sie Probleme mit der HDMI-Erfassungsfunktion (Video, Audio) verursacht. Stellen Sie sicher, dass die HDCP-Optionen der mit Microsoft Teams Rooms verbundenen Switches deaktiviert sind. 
+     > Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, dass sie Probleme mit der HDMI-Erfassungsfunktion (Video, Audio) verursacht. Stellen Sie sicher, dass die HDCP-Optionen der mit Microsoft Teams Rooms verbundenen Switches deaktiviert sind.
   
-3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Für die Erfassung der Daten müssen die folgenden Sites in der Whitelist enthalten sein:
-    
+3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Um Microsoft das Sammeln von Daten zu gestatten, Whitelist diese Websites:
+
    - Telemetrie-Clientendpunkt:https://vortex.data.microsoft.com/
-    
    - Endpunkt der Telemetrie-Einstellungen:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Erstellen und Testen eines Gerätekontos
@@ -90,13 +85,13 @@ Microsoft Teams rooms wurde entwickelt, um Proxy Einstellungen vom Windows-Betri
  
 8. Öffnen Sie den Skype-Schlüssel und navigieren Sie zu den HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet-Einstellungen, und stellen Sie sicher, dass diese Einstellungen eingegeben werden: 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     Wenn „ProxyServer“ nicht vorhanden ist, müssen Sie diesen Schlüssel möglicherweise als Zeichenfolge hinzufügen. Ändern Sie „xx.xx.xx.xx:8080“ zu IP/Host und Port Ihres Proxyservers.
     
@@ -113,7 +108,7 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 |Verwendungszweck|Quelle oder Anmeldeinformationen|Quellport|Ziel|CDN|ExpressRoute für Office 365|Ziel-IP|Zielport|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentifizierung und Identität  <br/> |Siehe [Office 365-Authentifizierung und-Identität](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portal und gemeinsame Dienste  <br/> |Siehe [Office 365-Portal und frei](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) gegebene <br/> |||
+|Portal und gemeinsame Dienste  <br/> |Siehe [Office 365-Portal und freigegebene](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP-Signalisierung  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Webkonferenzen über PSOM-Verbindungen (Persistent Shared Object Model)  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS-Downloads  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,7 +118,7 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 |Lync Mobile-Pushbenachrichtigungen für Lync Mobile 2010 auf iOS-Geräten. Für Android-, Nokia Symbian- oder Windows Phone-Mobilgeräte benötigen Sie dies nicht.  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype-Telemetrie  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
 |Skype-Client-Hinweise  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |quicktips.skypeforbusiness.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > Der Platzhalter für contoso.com und broadcast.skype.com steht für eine lange Liste von Knoten, die ausschließlich für Office 365 verwendet werden. 
   

@@ -3,7 +3,7 @@ title: Verfügbarkeit in Vietnam
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 86208bc1-fbf9-449e-913b-2e3654fc33e4
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Vietnam verfügbar sind.
-ms.openlocfilehash: c01c7306015a99545470db742336d3f1fbd78abf
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f65b8685b10d7c21a996aa1c75d95e558f8a3562
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330932"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774546"
 ---
 # <a name="availability-in-vietnam"></a>Verfügbarkeit in Vietnam
 
@@ -67,8 +67,8 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Hanoi ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<li>Ho Chi Minh ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).

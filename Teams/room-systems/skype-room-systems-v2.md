@@ -3,7 +3,7 @@ title: Lizenzen für Microsoft Teams-Räume
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859728"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775060"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung 
+# <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Lizenzierungslösungen für freigegebene Kommunikationsgeräte
 
@@ -43,7 +43,7 @@ Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen un
 |Audiokonferenzen|&#x2714; &sup1;|
 |Microsoft InTune|&#x2714;|  
 |Weltweite Verfügbarkeit | &#x2714; &sup2;|
-|Kanalverfügbarkeit | EA, EAS, CSP, <br>Web Direct |
+|Kanalverfügbarkeit | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
 &sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  

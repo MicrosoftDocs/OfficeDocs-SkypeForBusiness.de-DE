@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Skype for Business Server.
-ms.openlocfilehash: 0c970adeae5531b76b1ebfe55ab750efe8bd3ba3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427764"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774946"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server
   

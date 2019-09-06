@@ -16,16 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für die Moderation in Microsoft Teams einrichten, einschließlich des Hinzufügens von Teammitgliedern als Kanal Moderatoren.
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244975"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775379"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanal Moderation in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 In Microsoft Teams können Teambesitzer die Moderation für einen Kanal aktivieren, um zu steuern, wer neue Beiträge starten und auf Beiträge in diesem Kanal Antworten kann.
 
@@ -59,13 +57,15 @@ In diesem Szenario ermöglicht der Lehrer seinen Lehrassistenten, den Kanal zu m
 
 Wechseln Sie in Microsoft Teams zum Kanal, klicken Sie auf **Weitere Optionen...**  >  **Kanal verwalten**. Hier können Sie die Moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen vornehmen.
 
+Kanal Moderation ist eine kanalspezifische Einstellung. Für die Kanal Moderation gibt es keine Einstellung auf Mandantenebene. Wenn Sie möchten, dass wir eine Kanal Moderations Einstellung auf Mandantenebene hinzufügen, fordern Sie diese in [Teams UserVoice](https://microsoftteams.uservoice.com/)an.
+
 ![Manage-Channel-Moderation-in-Teams-Preferences. png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Aktivieren oder Deaktivieren der Moderation für einen Kanal
 
-Standardmäßig ist die Moderation deaktiviert, und Sie können neue Beiträge nur auf Teammitglieder beschränken oder allen, einschließlich Gästen, erlauben, neue Beiträge zu starten.
+Standardmäßig ist Moderation deaktiviert, was bedeutet, dass die üblichen Kanaleinstellungen für Teambesitzer und Teammitglieder gelten. So können Sie beispielsweise neue Beiträge nur auf Teammitglieder einschränken oder allen, einschließlich Gästen, erlauben, neue Beiträge zu starten.
 
-Wenn Sie die Moderation für einen Kanal aktivieren möchten, klicken Sie **** unter **Kanal Moderation**auf ein. Wenn die Kanal Moderation aktiviert ist, können nur Moderatoren neue Beiträge beginnen. 
+Wenn Sie die Moderation für einen Kanal aktivieren möchten **, klicken Sie**unter **Kanal Moderation**auf ein. Wenn die Kanal Moderation aktiviert ist, können nur Moderatoren neue Beiträge beginnen. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanal Moderatoren
 

@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room System-Anwendungs-PC hinzufügen.
-ms.openlocfilehash: 3c9471fe07cdacd4bb9dbb26a4b4591ed9945d9f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: be8fd60b67efb356e09678eef21fbfab425ce304
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428067"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774642"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -28,27 +28,17 @@ Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room
 Sie können den PC der Skype Room-System Einheit an die Active Directory-Domäne anschließen oder in einer Arbeitsgruppe belassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
   
 - Domain-Beitritt zum Skype Room System Appliance PC hilft beim automatischen Importieren der privaten root-Zertifikatkette Ihres Unternehmens.
-    
 - Domain-Beitritt zum Skype Room System Appliance PC können Sie Domänenbenutzern und Gruppenadministrator Rechte erteilen. Dadurch müssten Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
-    
 - Wenn Sie der Domäne einen Skype Room-systemappliance-PC beitreten, ist es erforderlich, dass Sie eine separate Organisationseinheit (Organizational Unit, OU) erstellen, damit Sie der Organisationseinheit, in der sich alle Skype Room-System Computerobjekte befinden, Gruppenrichtlinienobjekt-Ausschlüsse bereitstellen können. Wenn Sie dies tun, erstellen Sie in der Organisationseinheit Computerobjekte, bevor Sie dem PC der Skype Room-System Einheit zur Domäne beitreten.
-    
-- Viele Organisationen verfügen über die folgenden GPOs, die sich auf die PC-Funktionen der Skype Room-System Einheit auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser GPOs in der Skype Room System ou außer Kraft setzen oder blockieren: 
-    
+- Viele Organisationen verfügen über die folgenden GPOs, die sich auf die PC-Funktionen der Skype Room-System Einheit auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser GPOs in der Skype Room System ou außer Kraft setzen oder blockieren:
+
   - Timeout von Anmeldesitzungen (automatische Sperre)
-    
   - Richtlinien in Bezug auf die Energieverwaltung
-    
   - Notwendigkeit zusätzlicher Authentifizierungsschritte
-    
   - Verweigern des Zugriffs auf lokale Laufwerke
-    
   - Benutzeraufforderungen bei langsamen Netzwerkverbindungen
-    
   - Starten eines bestimmten Programms bei der Anmeldung
-    
   - Erstellen eines weiteren Domänennutzerkontos auf allen Computern in der Domäne.
-    
   - Windows Update auf das Skype Room-System pushen
     
 - Alternativ könnten Sie sich dazu entschließen, den Anwendungs-PC in der Arbeitsgruppe zu belassen. Wie bei den Desktop-Microsoft Teams oder dem Skype for Business-Client müssen Sie die Root-Zertifikatkette manuell auf dem PC der Skype Room-System Einheit importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn Ihre Bereitstellung ein öffentliches Zertifikat verwendet (beispielsweise Entrust, VeriSign usw.). 

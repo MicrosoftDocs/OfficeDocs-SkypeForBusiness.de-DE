@@ -1,11 +1,10 @@
 ---
-title: Verfügbarkeit in Honduras
-ms.author: crowe
-author: CarolynRowe
+title: Verfügbarkeit in Ghana
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
-ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -24,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Honduras verfügbar sind.
-ms.openlocfilehash: dac59b3afa79252a9a91b48904935a225c4f55fa
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Ghana verfügbar sind.
+ms.openlocfilehash: f04d8ddf0afaf95705c9210167a1a79dad83d903
 ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774417"
+ms.locfileid: "36775584"
 ---
-# <a name="availability-in-honduras"></a>Verfügbarkeit in Honduras
+# <a name="availability-in-ghana"></a>Verfügbarkeit in Ghana
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Honduras verfügbar sind.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Ghana verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenz
 
@@ -44,14 +43,14 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
-| Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
+|Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
 |Anrufwarteschleifen  <br/> |Verfügbar  <br/> |
 |Voicemail  <br/> |Verfügbar  <br/> |
    
@@ -60,18 +59,18 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
+## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Nummern für Dienstleistungen
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Tegucigalpa ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht geografisch. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
+|Sind gebührenfreie Nummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen erhalten möchten, lesen Sie [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

@@ -2,7 +2,7 @@
 title: Planen von Microsoft Teams-Räumen
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428020"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775106"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 

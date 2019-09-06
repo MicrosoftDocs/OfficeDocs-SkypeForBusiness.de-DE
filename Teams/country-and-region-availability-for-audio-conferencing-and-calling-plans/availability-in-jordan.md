@@ -3,7 +3,7 @@ title: Verfügbarkeit in Jordanien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Jordanien verfügbar sind.
-ms.openlocfilehash: 0ec12ec7dfb4529a43ec1ebe9d758b6a20609239
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: bd3da6716a4449722fadd1b227e96fbe3032cc1e
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331700"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775433"
 ---
 # <a name="availability-in-jordan"></a>Verfügbarkeit in Jordanien
 
@@ -67,9 +67,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Amman ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
   

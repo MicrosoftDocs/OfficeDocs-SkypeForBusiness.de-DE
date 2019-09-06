@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Office 365.
-ms.openlocfilehash: 1d0bd8270671ba1a666d07fd2e7826704c309f01
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 8e41b06b8f5cf76a45fd09f4b8820fb2fcaaa6d5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427736"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775030"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
@@ -29,7 +29,7 @@ Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht darin, Sie
 
 ## <a name="requirements"></a>Voraussetzungen
 
-Stellen Sie sicher, dass Sie die Anforderungen erfüllt haben, bevor Sie Microsoft Teams-Räume mit Office 365 bereitstellen. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams](requirements.md)-Chatrooms.
+Stellen Sie sicher, dass Sie die Anforderungen erfüllt haben, bevor Sie Microsoft Teams-Räume mit Office 365 bereitstellen. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams-Chatrooms](requirements.md).
 
 Damit Sie Skype for Business aktivieren können, müssen Sie über Folgendes verfügen:
 
@@ -169,7 +169,7 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
 
    Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-7. Als nächstes müssen Sie das Geräte Konto in Skype for Business aktivieren. Stellen Sie sicher, dass Ihre Umgebung die Anforderungen erfüllt, die in den [Microsoft Teams](requirements.md)-Chatrooms festgelegt sind.
+7. Als nächstes müssen Sie das Geräte Konto in Skype for Business aktivieren. Stellen Sie sicher, dass Ihre Umgebung die Anforderungen erfüllt, die in den [Microsoft Teams-Chatrooms](requirements.md)festgelegt sind.
 
    Starten Sie eine [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) -Remotesitzung wie folgt (stellen Sie sicher, dass Sie die [Skype for Business Online PowerShell-Komponenten installieren](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 

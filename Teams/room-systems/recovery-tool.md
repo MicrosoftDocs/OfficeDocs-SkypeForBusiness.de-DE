@@ -3,7 +3,7 @@ title: Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: aded92fac90f20246444419bff19415922175856
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427987"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775205"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
  

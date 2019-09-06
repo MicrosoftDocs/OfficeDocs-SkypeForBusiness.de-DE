@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
-ms.openlocfilehash: 229e81aceb5e63152a35bbe00148015e124cf96f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427998"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775128"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -68,7 +68,7 @@ Je nach den Zusammenarbeitsszenarien, die Sie für die Bereitstellung in Microso
 | Einwahlkonferenzen            | Aktivieren von Besprechungen, die *direkt* von der Microsoft Teams rooms-Konsole aus mit Einwahlkonferenz Koordinaten gestartet wurden | Für Audiokonferenzen aktiviert                                          |
 | Ausgehende/eingehende PSTN-Anrufe | Aktivieren der Microsoft Teams rooms-Konsole zum tätigen und empfangen von PSTN-anrufen                                         | Für Telefon System aktiviert                                                |
 
-Weitere Informationen zu Microsoft Teams rooms-Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams](room-systems-v2-configure-accounts.md)-Chatrooms.
+Weitere Informationen zu Microsoft Teams rooms-Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Chatrooms](room-systems-v2-configure-accounts.md).
 
 
 |    |     |
@@ -116,9 +116,9 @@ Die Planung für Konfiguration und Bereitstellung umfasst die folgenden Hauptber
 
 ### <a name="account-provisioning"></a>Kontobereitstellung 
 
-Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ressourcenkonto erforderlich, das für Microsoft Teams oder Skype for Business und Exchange aktiviert sein muss. Dieses Konto muss über ein Chatroom-Postfach verfügen, das in Exchange gehostet wird, und als Besprechungsraum in der Microsoft Teams-oder Skype for Business-Bereitstellung aktiviert sein. Auf der Exchange-Seite muss die Kalenderverarbeitung so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams](room-systems-v2-configure-accounts.md)-Chatrooms. 
+Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ressourcenkonto erforderlich, das für Microsoft Teams oder Skype for Business und Exchange aktiviert sein muss. Dieses Konto muss über ein Chatroom-Postfach verfügen, das in Exchange gehostet wird, und als Besprechungsraum in der Microsoft Teams-oder Skype for Business-Bereitstellung aktiviert sein. Auf der Exchange-Seite muss die Kalenderverarbeitung so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Chatrooms](room-systems-v2-configure-accounts.md). 
 
-**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den*Namen*der Konventions *Website*-(max. Raumkapazität)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs.** 
+**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den*Namen*der Konventions *Website*-(*Max. Raumkapazität*)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs. 
 
 |    |     |
 |-----------|------------|
@@ -142,7 +142,7 @@ Als Teil der Bereitstellung müssen Sie auch Ihre Strategie für die Verwaltung 
 
 Wir bieten eine Anleitung zur Verwendung des [Microsoft Azure Monitors](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) , um die Bereitstellung von Microsoft Teams Rooms zu überwachen und auf Verfügbarkeit, Hardware/Softwarefehler und Microsoft Teams rooms-Anwendungsversion zu melden. Wenn Sie sich entschließen, Microsoft Operations Management Suite zu verwenden, sollten Sie den Operations Management Suite-Agent als Teil des Software Installationsprozesses installieren und die Arbeitsbereichs Verbindungsinformationen für Ihren Arbeitsbereich konfigurieren. 
 
-Eine weitere Überlegung ist, ob die Microsoft Teams-Chatrooms Domänen verbunden sind. Informationen zu den Vorteilen einer Domänenmitgliedschaft finden Sie unter Überlegungen zu den [Domänenbeitritt von Skype Room System](domain-joining-considerations.md). 
+Eine weitere Überlegung ist, ob die Microsoft Teams-Chatrooms Domänen verbunden sind. Informationen zu den Vorteilen einer Domänenmitgliedschaft finden Sie unter [Überlegungen zu den Domänenbeitritt von Skype Room System](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|
@@ -184,7 +184,7 @@ Sie können [Remote-PowerShell](room-systems-v2-operations.md#remote-management-
 
 ### <a name="testing"></a> Tests
 
-Nachdem das Microsoft Teams rooms-System bereitgestellt wurde, sollten Sie es testen. Überprüfen Sie, ob die in [Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -Chatrooms aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren. Wir empfehlen dringend, dass das Bereitstellungsteam überprüft, ob die Microsoft Teams-Räume in Microsoft Operations Management Suite (falls verwendet) angemeldet sind. Es ist auch wichtig, dass Sie eine Reihe von Testanrufen und Besprechungen vornehmen, um die Qualität zu überprüfen. Weitere Informationen finden Sie in dieser [hilfreichen Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist).
+Nachdem das Microsoft Teams rooms-System bereitgestellt wurde, sollten Sie es testen. Überprüfen Sie, ob die in [Microsoft Teams-Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren. Wir empfehlen dringend, dass das Bereitstellungsteam überprüft, ob die Microsoft Teams-Räume in Microsoft Operations Management Suite (falls verwendet) angemeldet sind. Es ist auch wichtig, dass Sie eine Reihe von Testanrufen und Besprechungen vornehmen, um die Qualität zu überprüfen. Weitere Informationen finden Sie in dieser [hilfreichen Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist).
 
 Wir empfehlen, dass Sie im Rahmen der allgemeinen Teams oder des Skype for Business-Rollouts Bausteine für das Anruf Qualitäts Dashboard (CQD) konfigurieren, qualitätstrends überwachen und sich an der Prüfung der Qualität der Erfahrung beteiligen. Weitere Informationen finden Sie im [Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide). 
 

@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: Lesen Sie dieses Thema und erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
-ms.openlocfilehash: 2b2aeb98e3b1b6efe585e565c1e288d635fdb26e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a63ecbfe9ed8e71656bd21988e297897b62e9cf3
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235014"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775240"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype Room System – Vertrauenswürdige Domänen
  

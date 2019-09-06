@@ -2,7 +2,7 @@
 title: Anmerkungen zu dieser Version
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,21 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427654"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775216"
 ---
-# <a name="release-notes"></a>Anmerkungen zu dieser Version 
+# <a name="release-notes"></a>Anmerkungen zu dieser Version
 
 In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
 
-
 ## <a name="version-history"></a>Versionsverlauf
 
-|Release |Veröffentlicht in <br> Microsoft Store |
+|Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -55,18 +54,21 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 In diesem Update eingeführt:
+
 - Eine neue Inhalts Kamerafunktion, mit der Benutzer ein herkömmliches Whiteboard intelligent in Ihre Teams-Besprechung einbeziehen können
 - Zusätzliche Verbesserungen an der Benutzeroberfläche der Konsole, um die Einstellungen in einer neuen Seitenleiste zu verringern, auf die über mehr auf der Konsole zugegriffen wird
 - Schaltfläche für freigabebereich deaktiviert, wenn lokales Inhalts Kabel nicht angeschlossen ist oder eine Inhalts Kamera nicht verbunden ist
 - Ein Problem mit der Bildschirmtastatur wurde behoben, bei dem die Fehleranzeige erst nach einem Neustart des MTR-Systems zum ersten Mal aufgetreten ist.
-- Qualitäts-und Zuverlässigkeits Korrekturen.
+- Fehlerbehebungen für Qualität und Zuverlässigkeit
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 In diesem Update eingeführt:
+
 - Skype Room-System Store-App wird in "Microsoft Teams Rooms" umbenannt
 - Microsoft Teams rooms Console-Benutzeroberfläche wurde an Microsoft Teams neu ausgerichtet
 - Design Update: nur benutzerdefiniertes Hintergrundbild auf der Vorderseite des Chatrooms anzeigen, während der Konsolen Hintergrund eine neutrale Farbe bildet, um sicherzustellen, dass die Konsolen-UI-Steuerelemente dem Farbkontrast entsprechen – Barrierefreiheitsanforderungen
@@ -127,7 +129,7 @@ In diesem Update eingeführt:
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 
 In diesem Update eingeführt:
- 
+
 - Code Änderungen, die erforderlich sind, um die Microsoft Teams rooms-App für spätere Updates für Windows 10 Version 1803 vorzubereiten
 - Beheben von Formatierungsproblemen mit lokalisierten EULAs (speziell Norwegisch), die das Vordringen über das OOBE-Setup Fenster von EULA verhindern
 - Code Änderungen, die erforderlich sind, damit Microsoft Teams rooms-Anwendungen auf Legacy-lync-Raumsystemen ausgeführt werden. Weitere Informationen finden Sie [hier](https://aka.ms/lrsupgrade).
@@ -203,11 +205,10 @@ In diesem Update eingeführt:
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
 In diesem Update eingeführt:
- 
+
 - Behebt ein Problem mit der Funktion "Feedback senden".
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
@@ -217,7 +218,6 @@ In diesem Update eingeführt:
 - Unterstützung für die Dock-Hardware der [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Unterstützung für die [Logitech Brio](https://www.logitech.com/en-us/product/brio)
 - Behebt ein Problem, bei dem Anzeige (Konsole und Front-of-room) nicht in den Ruhemodus wechselt, wenn keine Aktivitäten im Chatroom vorhanden sind
-
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -248,7 +248,6 @@ In diesem Update eingeführt:
 - Möglichkeit für IT-Administratoren, Geräte remote zu konfigurieren
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
 In diesem Update eingeführt:
@@ -261,7 +260,7 @@ In diesem Update eingeführt:
 **Feature (s):**
 
  **Für Skype for Business konzipiert**
- 
+
 - One-Touch-Teilnahme an Skype-Besprechungen
 - Optimierte Skype-Besprechungs Erfahrung für Räume mit HD-Video-und HD-Breitband-Audio mit Bildschirm Füllung
 - Alle Teilnehmer können über ihr bevorzugtes Gerät eine Verbindung mit der Skype-Besprechung herstellen – ganz gleich, wo sie sich gerade aufhalten.

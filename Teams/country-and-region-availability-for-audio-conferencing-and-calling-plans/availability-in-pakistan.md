@@ -3,7 +3,7 @@ title: Verfügbarkeit in Pakistan
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Pakistan verfügbar sind.
-ms.openlocfilehash: 29d925bc24f07e9a907b004eb59b8e59e42254fa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331468"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775488"
 ---
 # <a name="availability-in-pakistan"></a>Verfügbarkeit in Pakistan
 
@@ -71,7 +71,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Beachten Sie, dass Dienstnummern in Pakistan nur für Audiokonferenzen verwendet werden können. Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, finden Sie weitere Informationen unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

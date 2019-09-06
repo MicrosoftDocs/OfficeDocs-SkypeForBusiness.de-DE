@@ -3,7 +3,7 @@ title: Verfügbarkeit in Ägypten
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Ägypten verfügbar sind.
-ms.openlocfilehash: 410840eac1158a0aed9abadf442cd9e021dd3634
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331972"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775444"
 ---
 # <a name="availability-in-egypt"></a>Verfügbarkeit in Ägypten
 
@@ -68,7 +68,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
   

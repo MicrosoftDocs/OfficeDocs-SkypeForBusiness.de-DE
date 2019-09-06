@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 5000c46e4eb37e068f573aee45310537e1504630
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 3dd749e14acabae40da444894dfb89aea97f9e38
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427738"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774967"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -29,7 +29,7 @@ Microsoft bietet [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwl
   
 ## <a name="requirements"></a>Voraussetzungen
 
-Stellen Sie sicher, dass Sie die Anforderungen erfüllt haben, bevor Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams](requirements.md)-Chatrooms.
+Stellen Sie sicher, dass Sie die Anforderungen erfüllt haben, bevor Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams-Chatrooms](requirements.md).
   
 Wenn Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie die Active Directory-Verwaltungstools, um eine e-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit Office 365 synchronisiert. Sie müssen die folgenden Schritte ausführen:
   

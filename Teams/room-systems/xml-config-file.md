@@ -2,7 +2,7 @@
 title: Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: c66aaba35fc678400118e67d7c66f362842c869f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427621"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774913"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
-In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
+In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs. In diesem Artikel wird erläutert, wie Sie eine Master Einstellungsdatei erstellen, und Links zu Diskussionen darüber, wie Sie auf den Remote verwalteten Geräten nach Bedarf platziert werden.
   
-Wenn Sie eine Master-XML-Datei aktualisieren und Kopien an die von Ihnen verwalteten Konsolen senden, können Sie die Standardeinstellungen für Remote verwaltete Geräte ändern. In diesem Artikel wird beschrieben, wie Sie eine solche Datei erstellen, und Links zu Diskussionen darüber, wie Sie auf den Remote verwalteten Geräten nach Bedarf platziert werden. Mit dieser Methode können Sie auch benutzerdefinierte Designs auf Ihren Microsoft Teams rooms-Konsolen implementieren.
+Sie können die Standardeinstellungen von Remote verwalteten Geräten ändern, indem Sie eine Master-XML-Datei aktualisieren und Kopien an die verwalteten Konsolen senden. Sie können auch benutzerdefinierte Designs auf Ihren Microsoft Teams rooms-Konsolen mit XML-Konfigurationsdateien implementieren.
   
 ## <a name="create-an-xml-configuration-file"></a>Erstellen einer XML-Konfigurationsdatei
 
-In der folgenden Tabelle werden die in dieser Beispielkonfigurationsdatei SkypeSettings. XML (Dateinamen erforderlich) angezeigten Elemente erläutert.
+Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu erstellen. In der Tabelle **XML-Elemente** werden die Elemente erläutert, die in dieser Beispielkonfigurationsdatei SkypeSettings. XML (required File Name) angezeigt werden.
   
 ```
 <SkypeSettings>
@@ -69,7 +69,7 @@ In der folgenden Tabelle werden die in dieser Beispielkonfigurationsdatei SkypeS
 </SkypeSettings>
 ```
 
-Wenn die XML-Datei schlecht geformt ist (ein Variablenwert ist vom falschen Typ, Elemente sind nicht in der richtigen Reihenfolge, Elemente werden nicht geschlossen usw.), Einstellungen, die bis zu dem Punkt gefunden wurden, an dem der Fehler gefunden wurde, werden angewendet, und die restliche Datei wird während der Verarbeitung ignoriert. Unbekannte Elemente im XML-Code werden ignoriert. Wenn ein Parameter ausgelassen wird, bleibt er auf dem Gerät unverändert. Wenn ein Parameterwert ungültig ist, bleibt sein vorheriger Wert unverändert.
+Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Reihenfolge sind, Elemente nicht geschlossen sind oder ein anderer Fehler gefunden wird, ist die XML-Datei *schlecht geformt*. Beim Verarbeiten einer schlecht ausgebildeten XML-Datei werden die Einstellungen, die bis zu dem Punkt gefunden wurden, an dem der Fehler auftritt, übernommen, und der restliche Teil der Datei wird ignoriert. Unbekannte Elemente im XML-Code werden ignoriert. Wenn ein Parameter ausgelassen wird, bleibt er auf dem Gerät unverändert. Wenn ein Parameterwert ungültig ist, bleibt sein vorheriger Wert unverändert.
   
 **XML-Elemente**
 
@@ -94,43 +94,42 @@ Wenn die XML-Datei schlecht geformt ist (ein Variablenwert ist vom falschen Typ,
 |\<SendLogsAndFeedback\> |Boolescher #a0  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
 | \<Geräte\>  |Container |Erste #a0  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
 |\<MicrophoneForCommunication\> |Zeichenfolge #a0  ||Legt das Mikrofon fest, das in einer Konferenz als Aufnahmegerät verwendet wird. |
-|\<SpeakerForCommunication\> |Zeichenfolge #a0  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird. |
+|\<SpeakerForCommunication\> |Zeichenfolge #a0  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das für einen Anruf verwendete Lautsprecher Gerät festzulegen. |
 |\<DefaultSpeaker\> |Zeichenfolge #a0  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.  |
 |\<ContentCameraId>  | Zeichenfolge #a0  | | Definieren Sie den instanzweg für die Kamera, die in Room so konfiguriert ist, dass analoge Whiteboard-Inhalte in einer Besprechung freigegeben werden. Weitere Informationen finden Sie unter [Suchen des USB-Instanzen Pfads der Inhalts Kamera](#locate-the-content-camera-usb-instance-path).|
 |\<ContentCameraInverted>  | Boolescher #a0 | | Geben Sie an, ob die Inhalts Kamera physisch auf den Kopf gestellt wird. Für Inhalts Kameras, die die automatische Drehung unterstützen, geben Sie false an. |
-|\<ContentCameraEnhancement>  | Boolescher #a0 | |Wenn Sie auf "true" (Standardeinstellung) festgelegt ist, wird das Bild der Inhalts Kamera Digital verbessert: der Whiteboard-Rand wird erkannt und ein geeigneter Zoom ausgewählt, frei Handlinien werden verbessert, und die Person, die auf dem Whiteboard schreibt, wird transparent gemacht.  <br><br> Legen Sie diesen Wert auf "false" fest, wenn Sie einen unformatierten Videofeed an Besprechungsteilnehmer für Räume senden möchten, in denen ein Whiteboard nicht mit einem Stift gezeichnet wird, und stattdessen die Kamera verwendet wird, um Haftnotizen, Poster oder andere Medien anzuzeigen.  |
-| \<Design\>  |Container |Erste #a0  |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
-|\<ThemeName\> |Zeichenfolge #a0  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Für benutzerdefinierte Namen sollte immer der Name *Benutzerdefiniert* verwendet werden. Die Client-UI kann an der Konsole auf "Standard" oder eine der Werkseinstellungen festgelegt werden. Die Anwendung eines benutzerdefinierten Designs muss jedoch remote von einem Administrator festgelegt werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
-|\<CustomThemeImageUrl\> |Zeichenfolge #a0  ||Bei Verwendung eines benutzerdefinierten Designs erforderlich, andernfalls optional. Weitere Informationen zum benutzerdefinierten Design Bild finden Sie unten im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .  |
-|\<CustomThemeColor\> |Container ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". diese Werte sind bei Verwendung eines benutzerdefinierten Designs erforderlich. |
+|\<ContentCameraEnhancement>  | Boolescher #a0 | |Wenn Sie auf "true" (Standardeinstellung) festgelegt ist, wird das Bild der Inhalts Kamera Digital verbessert: der Whiteboard-Rand wird erkannt und ein geeigneter Zoom ausgewählt, frei Handlinien werden verbessert, und die Person, die auf dem Whiteboard schreibt, wird transparent gemacht.  <br><br> Auf "false" festlegen, wenn Sie einen unformatierten Videofeed an Besprechungsteilnehmer für Räume senden möchten, in denen ein Whiteboard nicht mit einem Stift gezeichnet wird, und stattdessen die Kamera verwendet wird, um Haftnotizen, Poster oder andere Medien anzuzeigen.  |
+| \<Design\>  |Container |Erste #a0  |Eines der Features, die mit einer XML-Datei angewendet werden können, ist ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
+|\<ThemeName\> |Zeichenfolge #a0  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen verwenden immer den Namen *Custom*. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Verwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
+|\<CustomThemeImageUrl\> |Zeichenfolge #a0  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
+|\<CustomThemeColor\> |Container ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
 |\<Komponente\> |Byte (0-255) ||Stellt die rote Komponente dar. |
 |\<GreenComponent\> |Byte (0-255) ||Stellt die grüne Komponente dar. |
 |\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. |
 | | | |
- 
+
 &#x2776; alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
   
-&#x2777; ein boolesches Flag kann einen der folgenden Werte aufweisen: true, false, 0 oder 1. Wenn Sie boolesche oder numerische Werte leer lassen, wird die XML-Datei möglicherweise fehlerhaft gerendert, und Änderungen an den Einstellungen werden verhindert.
+&#x2777; ein boolesches Flag kann: wahr, falsch, 0 oder 1 sein. Wenn Sie boolesche oder numerische Werte leer lassen, kann die XML-Datei fehlerhaft gerendert werden, sodass Änderungen an den Einstellungen verhindert werden.
   
- &#x2778; Wenn ein Zeichenfolgenparameter vorhanden, leer und leer ein gültiger Wert ist, wird der Parameter auf dem Gerät gelöscht.
+&#x2778; Wenn ein Zeichenfolgenparameter vorhanden und leer ist und Empty ein gültiger Wert ist, wird der Parameter auf dem Gerät gelöscht.
   
-## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Verwalten von Konsoleneinstellungen unter Verwendung einer XML-Konfigurationsdatei
+## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Verwalten von Konsoleneinstellungen unter Verwendung einer XML-Konfigurationsdatei
 
-Wenn eine Microsoft Teams rooms-Konsole beim Start eine XML-Datei mit dem Namen "SkypeSettings. xml" am Standort **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**findet, wendet Sie die Konfigurationseinstellungen an. durch die XML-Datei gekennzeichnet, und löschen Sie dann die XML-Datei.
+Wenn eine Microsoft Teams rooms-Konsole beim Start eine XML-Datei mit dem Namen "SkypeSettings. `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`XML" gefunden hat, wendet Sie die von der XML-Datei angegebenen Konfigurationseinstellungen an und löscht dann die XML-Datei.
   
 Je nachdem, wie viele Microsoft Teams rooms-Geräte in Ihrem Unternehmen vorhanden sind und wie Sie diese Konfiguration verwalten, gibt es verschiedene Möglichkeiten, die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die für Microsoft Teams Room-Geräte vorgeschlagenen Verwaltungsmethoden werden in folgenden Themen erörtert:
   
 - [Konfigurieren von Gruppenrichtlinien für Microsoft Teams-Chatrooms](room-systems-v2-operations.md#GroupPolicy)
-
 - [Remote Verwaltung mithilfe von PowerShell](room-systems-v2-operations.md#RemotePS) und [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
-Sie können jede beliebige Methode so lange verwenden, wie Sie Sie verwenden können, um Dateien zu übertragen und einen Neustart auf dem Konsolengerät auszulösen. Die Datei muss für das lokale Benutzerkonto des Geräts lesbar, beschreibbar und löschbar sein (vorzugsweise sollte Sie im Besitz des Besitzers sein und die vollständigen Berechtigungen besitzen, die diesem Benutzer gewährt wurden). Wenn die Dateiberechtigungen nicht richtig gesetzt sind, kann es vorkommen, dass die Software die Einstellungen nicht anwendet, die Datei bei erfolgreicher Verarbeitung möglicherweise nicht löscht und sogar potenziell abstürzt.
+Sie können jede beliebige Methode so lange verwenden, wie Sie Sie verwenden können, um Dateien zu übertragen und einen Neustart auf dem Konsolengerät auszulösen. Die Datei muss für das lokale Benutzerkonto des Geräts lesbar, schreibbar und Lösch fähig sein. Vorzugsweise ist es im Besitz von und hat alle Rechte, die diesem Nutzer gewährt werden. Wenn die Dateiberechtigungen nicht richtig gesetzt sind, kann die Software die Einstellungen nicht anwenden, kann die Datei bei erfolgreicher Verarbeitung nicht löschen und kann sogar abstürzen.
   
 ## <a name="custom-theme-images"></a>Benutzerdefinierte Designbilder
 
 <a name="Themes"> </a>
 
-Die benutzerdefinierte Design-Bilddatei muss in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**abgelegt werden, geben Sie den Dateinamen und \<die\> Erweiterung in die CustomThemeImageUrl-Variable ein.
+Die Image-Datei für ein benutzerdefiniertes Design`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` muss im Ordner abgelegt werden. Geben Sie den Dateinamen und die Erweiterung \<in\> die CustomThemeImageUrl-Variable ein.
   
 Die Bilddatei sollte genau 3840X1080 Pixel sein und eines der folgenden Dateiformate aufweisen: JPG, JPEG, PNG und BMP. Wenn Ihre Organisation ein benutzerdefiniertes Bild wünscht, kann ein Grafikdesigner die [Photoshop-Vorlage "benutzerdefiniertes Design](https://go.microsoft.com/fwlink/?linkid=870441)" verwenden. Sie enthält weitere Details zur Platzierung der verschiedenen Elemente in einem Designbild und zu den Bereichen, die auf Konsolen und Displays angezeigt werden.
   

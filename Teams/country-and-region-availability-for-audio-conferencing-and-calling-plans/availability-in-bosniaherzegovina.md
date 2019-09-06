@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Bosnien und Herzegowina verfügbar sind.
-ms.openlocfilehash: f75172efe76a4423872c321484855c8daf04ba9e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1d382c02249f39a42f7f61a70c7687367e0cbad4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332180"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774480"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Verfügbarkeit in Bosnien und Herzegowina
 
@@ -68,7 +68,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).

@@ -2,7 +2,7 @@
 title: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
-ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279263"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775316"
 ---
 # <a name="manage-windows-updates"></a>Verwalten von Windows-Updates
 
