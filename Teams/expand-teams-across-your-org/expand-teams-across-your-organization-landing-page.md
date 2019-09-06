@@ -7,22 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232239"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767166"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Erweitern von Microsoft Teams in Ihrer Organisation
 
-<br>
+Diese Ressourcen basieren auf dem standardmäßigen Bereitstellungsleitfaden für Teams und sollen Ihnen dabei helfen, Teams für bestimmte Organisationstypen optimal zu nutzen. Wenn Sie noch keine Teams bereitgestellt haben, lesen Sie den empfohlenen Pfad zu Teams in [so wird es gemacht, Microsoft Teams zu Rollen](../How-to-roll-out-teams.md).
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
