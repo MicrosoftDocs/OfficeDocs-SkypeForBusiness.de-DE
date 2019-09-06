@@ -3,7 +3,6 @@ title: Planen von Microsoft 365 Government – GCC-Bereitstellungen – Micro
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393438"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767123"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan für Microsoft 365 Government-gcc-Bereitstellungen
 
@@ -158,9 +157,9 @@ Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen könn
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
 
-Nachdem Sie mit dem Microsoft 365 Government-gcc an Bord waren, können Sie den Standard Bereitstellungsansatz der Verwendung von [](https://www.microsoft.com/fasttrack) "Kurzhilfe" und des von Ihnen ausgewählten Partners für die integrierte Nutzung des Diensts befolgen.
+Nachdem Sie die Microsoft 365 Government – gcc installiert haben, befolgen Sie den empfohlenen Bereitstellungspfad, der in [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md)beschrieben wird. Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-und Team-Champion beschäftigen.
 
-Wenn Sie bereit sind, stellen Sie Teams bereit, um die [Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle zu ermöglichen](teams-overview.md). Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-oder Team-Champion beschäftigen.
+Sie können auch mit der [Zusammenarbeit](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner an Bord des Diensts arbeiten.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Schritt 7. Bereitstellen von Teams für Besprechungen und Sprachanrufe
 

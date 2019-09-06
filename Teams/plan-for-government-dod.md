@@ -3,7 +3,6 @@ title: Planen von Microsoft 365 Government – DoD-Bereitstellungen – Micro
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237706"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767183"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
@@ -153,6 +152,6 @@ Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen könn
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
 
-Nachdem Sie Microsoft 365 Government – DoD zur Verfügung gestellt haben, können Sie den Standard Bereitstellungsansatz der Verwendung von [](https://www.microsoft.com/fasttrack) "Kurzarbeit" und des von Ihnen ausgewählten Partners für die Onboard-Nutzung des Diensts befolgen.
+Nachdem Sie die Microsoft 365 Government – DoD installiert haben, befolgen Sie den empfohlenen Bereitstellungspfad, der in [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md)beschrieben wird. Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-und Team-Champion beschäftigen.
 
-Wenn Sie bereit sind, stellen Sie Teams bereit, um die [Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle zu ermöglichen](teams-overview.md). Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-oder Team-Champion beschäftigen.
+Sie können auch mit der [Zusammenarbeit](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner an Bord des Diensts arbeiten.

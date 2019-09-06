@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: d4cebe45d37726dafc4f0e1fbc7c8c13addb9bd5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232206"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767155"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -30,7 +30,7 @@ Microsoft Teams bietet eine Reihe von Funktionen, die für Krankenhäuser und an
 - Integration elektronischer Gesundheitsakte (EPA) 
 - Integration von Arbeitssystemen in ersterLinie 
 
-Dies gilt zusätzlich zu den grundlegenden Funktionen von Microsoft Teams wie Besprechungen/anrufen und Nachrichten. 
+Der Inhalt dieses Abschnitts basiert auf den grundlegenden Funktionen von Teams wie Besprechungen, anrufen und Nachrichten und geht davon aus, dass Sie bereits in Ihrer Organisation bereitgestellte Teams bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst, [wie Sie Microsoft Teams Ausrollen](../../How-to-roll-out-teams.md).
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Pflege Koordination – Microsoft Teams patients-App
 

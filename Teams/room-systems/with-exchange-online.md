@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online.
-ms.openlocfilehash: de91560311aa3e1af72a3af69bf2b59780c09d6f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0aa03f9e37ad6edd0343a1b99c8c3da87ba2d2cd
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427753"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767090"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -31,12 +31,12 @@ Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht darin, Sie
 
 ## <a name="requirements"></a>Voraussetzungen
 
-Bevor Sie Microsoft Teams-Räume mit Exchange Online bereitstellen, müssen Sie sicherstellen, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams](requirements.md)-Chatrooms.
+Bevor Sie Microsoft Teams-Räume mit Exchange Online bereitstellen, müssen Sie sicherstellen, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams-Chatrooms](requirements.md).
   
 Zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online führen Sie die folgenden Schritte aus. Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen. 
 
    > [!NOTE]
-   >  Das [Azure Active Directory-Modul für Windows PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) -Cmdlets in diesem Abschnitt (beispielsweise "MsolUser") wurden beim Einrichten von Konten für Microsoft Teams rooms-Geräte getestet. Es ist möglich, dass andere Cmdlets funktionieren, jedoch in diesem speziellen Szenario nicht getestet wurden.
+   >  Das [Azure Active Directory-Modul für Windows PowerShell-Cmdlets](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) in diesem Abschnitt (beispielsweise "MsolUser") wurden beim Einrichten von Konten für Microsoft Teams rooms-Geräte getestet. Es ist möglich, dass andere Cmdlets funktionieren, jedoch in diesem speziellen Szenario nicht getestet wurden.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Erstellen eines Kontos und Festlegen der Exchange-Eigenschaften
 
@@ -47,6 +47,7 @@ Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
 $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+Import-PSSession $Session -DisableNameChecking
 ```
 
 2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount, oder Sie können die Einstellungen für ein vorhandenes Raumpostfach ändern. Dadurch kann sich das Konto bei Microsoft Teams-Räumen authentifizieren.

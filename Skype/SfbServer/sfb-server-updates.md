@@ -1,7 +1,7 @@
 ---
 title: Updates für Skype for Business Server
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und verwalten Sie Updates für Skype for Business Server 2015/2019 und lync 2013 an einem zentralen Ort. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715711"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766962"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
@@ -37,10 +37,10 @@ Die neuesten Updates für Skype for Business Online und Office 365 finden Sie in
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Kumulatives Update 10 Hotfix 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
+|Skype for Business Server 2015 Kumulatives Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| September 2019 |
 |Kumulatives Update 9 für Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
 |Kumulatives Update 8 für Skype for Business Server 2015, Front-End-Server und Edgeserver|[KB 4464355](https://support.microsoft.com/kb/4464355)|Januar 2019|
-|Kumulatives Update 7 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB 4340904](https://support.microsoft.com/kb/3134260) |Juli 2018 |
+|Kumulatives Update 7 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB 4340904](https://support.microsoft.com/kb/4340904) |Juli 2018 |
 |Kumulatives Update 6 Hotfix 2 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB 4086059](https://support.microsoft.com/kb/4086059) |März 2018 |
 |Kumulatives Update 6 Hotfix 1 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB 4074701](https://support.microsoft.com/kb/4074701)|Januar 2018 |
 |Kumulatives Update 6 für Skype for Business Server 2015, Front-End-Server und Edgeserver|[KB 4036312](https://support.microsoft.com/kb/4036312) |Dezember 2017 |

@@ -3,7 +3,6 @@ title: Planen von Microsoft 365 Government – GCC High-Bereitstellungen – 
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271381"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767112"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan für Microsoft 365 Government-gcc-höchst Bereitstellungen
 
@@ -154,6 +153,7 @@ Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen könn
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
 
-Nachdem Sie die Microsoft 365 Government – gcc-hoch installiert haben, können Sie den Standard Bereitstellungsansatz der Verwendung von " [](https://www.microsoft.com/fasttrack) schnell" und des von Ihnen ausgewählten Partners für die Onboard-Nutzung des Diensts befolgen.
+Nachdem Sie die Microsoft 365 Government – gcc-hoch installiert haben, befolgen Sie den empfohlenen Bereitstellungspfad, der in [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md)beschrieben wird. Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-und Team-Champion beschäftigen.
 
-Wenn Sie bereit sind, stellen Sie Teams bereit, um die [Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle zu ermöglichen](teams-overview.md). Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-oder Team-Champion beschäftigen.
+Sie können auch mit der [Zusammenarbeit](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner an Bord des Diensts arbeiten.
+

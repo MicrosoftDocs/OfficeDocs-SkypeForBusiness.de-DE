@@ -20,16 +20,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483301"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767194"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
-Als Administrator verwenden Sie die Einstellungen für Teams-Besprechungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können, Besprechungseinladungen anpassen und wenn Sie Quality of Service (QoS) aktivieren möchten, indem Sie Portbereiche für den Echtzeitverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese Einstellungen aus **** > den**Besprechungseinstellungen** im Microsoft Teams Admin Center.
+Als Administrator verwenden Sie die Einstellungen für Teams-Besprechungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können, Besprechungseinladungen anpassen und wenn Sie Quality of Service (QoS) aktivieren möchten, indem Sie Portbereiche für den Echtzeitverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese **Einstellungen aus** > den**Besprechungseinstellungen** im Microsoft Teams Admin Center.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Zulassen, dass anonyme Benutzer an Besprechungen teilnehmen
 
@@ -37,7 +37,7 @@ Mit Anonymous Join kann jeder Teilnehmer an der Besprechung als anonymer Benutze
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
-1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Aktivieren Sie unter **Teilnehmer** **die Option Anonyme Benutzer können an einer Besprechung teilnehmen**.
 
     ![Screenshot der Teilnehmereinstellungen für Besprechungen im Admin Center] Screenshot (media/meeting-settings-participants.png "der Teilnehmereinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
@@ -60,7 +60,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
-1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Gehen Sie unter **e-Mail-Einladung**wie folgt vor:
 
     ![Screenshot der Einstellungen für Besprechungseinladungen, die Sie anpassen können] Screenshot (media/meeting-settings-invitation.png "der Einstellungen für Besprechungseinladungen, die Sie für Teambesprechungen anpassen können")
@@ -82,12 +82,14 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
 
  ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
-1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Führen Sie unter **Netzwerk**die folgenden Aktionen aus:
 
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center] Screenshot (media/meeting-settings-network.png "der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
     - Damit DSCP-Markierungen für QoS verwendet werden können, aktivieren Sie **Quality of Service (QoS)-Marker für echt Zeit Mediendatenverkehr einfügen**. Sie haben nur die Möglichkeit, Marker zu verwenden oder nicht; Sie können keine benutzerdefinierten Marker für jeden Datenverkehrstyp einrichten. Weitere Informationen zu DSCP-Marken finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    > [!NOTE] 
+    > Wenn Sie die **QoS-Marker (Quality of Service) einfügen für den Echt Zeit Mediendatenverkehr** aktivieren, wird auch die Kommunikation mit dem Transport-Relay mit UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) aktiviert.
     - Wenn Sie Portbereiche angeben möchten, wählen Sie neben **Auswählen eines Portbereichs für jeden Typ von Echt Zeit Mediendatenverkehr**die Option **Portbereiche angeben**aus, und geben Sie dann die Start-und endanschlüsse für Audio-, Video-und Bildschirm Freigaben ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren.
     > [!IMPORTANT]
     > Wenn Sie **alle verfügbaren Anschlüsse automatisch verwenden**auswählen, werden die verfügbaren Anschlüsse zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.
