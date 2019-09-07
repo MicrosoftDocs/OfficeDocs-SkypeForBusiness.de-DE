@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und verwalten Sie Updates für Skype for Business Server 2015/2019 und lync 2013 an einem zentralen Ort. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766962"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790814"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
@@ -30,6 +30,16 @@ Die neuesten Updates für Skype for Business Online und Office 365 finden Sie in
 |:--- |:--- |:--- |
 |Skype for Business Server 2019 Kumulatives Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juli 2019 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019-Tools
+
+|Paketname/Link|Veröffentlichungsdatum|
+|:--- |:--- |
+|[UCMA 6,0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Juni 2019       |
+|[Unified Communications Managed API 5,0-Laufzeit](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Juni 2018        |
+|[Skype for Business Server 2019, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Juni 2018        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Updateverlauf für Skype for Business Server 2015
 
@@ -54,7 +64,14 @@ Die neuesten Updates für Skype for Business Online und Office 365 finden Sie in
 |Kumulatives Update für Skype for Business Server 2015, Front-End-Server und Edgeserver|[KB 3061059](https://support.microsoft.com/kb/3061059) |Juni 2015 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015-Tools
+
+|Paketname/Link|Veröffentlichungsdatum|
+|:--- |:--- |
+|[UCMA 5,0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
+|[Unified Communications Managed API 5,0-Laufzeit](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   Mai 2015      |
+|[Skype for Business Server 2015, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Juni 2019       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Updateverlauf für Lync Server 2013
 

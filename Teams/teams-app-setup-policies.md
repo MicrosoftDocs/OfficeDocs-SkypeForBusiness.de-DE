@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171081"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790909"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -137,6 +137,8 @@ Die Anruf-App steht in Teams für Education nicht zur Verfügung. Wenn Sie eine 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Wie viele apps können einer Richtlinie hinzugefügt werden?
 
 Mindestens zwei apps müssen an die mobilen Teams (IOS und Android) angeheftet sein. Wenn eine Richtlinie weniger als zwei apps aufweist, geben die mobilen Clients die Richtlinieneinstellungen nicht wieder und verwenden stattdessen weiterhin die vorhandene Konfiguration.
+
+Die Anzahl der apps, die Sie einer Richtlinie hinzufügen können, ist unbegrenzt.
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Wie lange dauert es, bis Richtlinienänderungen wirksam werden?
 

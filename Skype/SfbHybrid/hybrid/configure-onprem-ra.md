@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253954"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790861"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -56,12 +56,12 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 1. Port oder erhalten Sie eine gebührenpflichtige oder gebührenfreie Servicenummer. Die Nummer kann keinem anderen VoIP-Dienst oder Ressourcenkonto zugewiesen werden.
 
-   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in **Microsoft Teams Admin Center** > -**VoIP** > -**Telefonnummern**angezeigt, und der aufgeführte **Nummerntyp** wird als **Dienst gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst Rufnummern](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [übertragen von Telefonnummern zu Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie **in Microsoft Teams Admin Center** > **-VoIP** > -**Telefonnummern**angezeigt, und der aufgeführte **Nummerntyp** wird als **Dienst gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst Rufnummern](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [übertragen von Telefonnummern zu Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
    Wenn Sie sich außerhalb der USA befinden, können Sie das Microsoft Teams Admin Center nicht zum Abrufen von Dienstnummern verwenden. Wechseln Sie zu [Verwalten von Telefonnummern für Ihre Organisation](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) , anstatt zu sehen, wie es von außerhalb der Vereinigten Staaten zu tun.
 
 2. Kaufen Sie eine Telefon System Lizenz. Siehe:  
-   - [Telefon System – virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [Telefon System – virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 und E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5-Business-Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -103,7 +103,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer automatischen Telefonzentrale oder einer Anrufwarteschlange zugewiesen wird. Benutzer (Teilnehmer-) Telefonnummern können keinem Ressourcenkonto zugewiesen werden, es dürfen nur Dienst gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
 
-  Sie können Ihrem Ressourcenkonto eine direkte Routing-Hybrid Nummer zuweisen.  Details finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) .
+  Sie können Ihrem Ressourcenkonto eine direkte Routing-Hybrid Nummer zuweisen.  Details finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) .
 
   > [!NOTE]
   > Direkte Routing-Dienstnummern, die Ressourcenkonten für die automatische Telefonzentrale und Anrufwarteschlangen zugewiesen werden, werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
@@ -115,7 +115,7 @@ Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer auto
 
 8. Ordnen Sie das Ressourcenkonto der automatischen Telefonzentrale oder der Anrufwarteschlange zu, die Sie zuvor ausgewählt haben.
 
-Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Erstellen eines Ressourcenkontos ohne Telefonnummer
 
@@ -146,11 +146,14 @@ Melden Sie sich am Skype for Business Front-End-Server an, und führen Sie die f
    - [Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Ordnen Sie das Ressourcenkonto und die automatische Telefonzentrale oder Anrufwarteschlange, die Sie zuvor ausgewählt haben, zu.
 
-Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Testen der Implementierung
 
-Die beste Möglichkeit zum Testen der Implementierung besteht darin, die für eine automatische Telefonzentrale oder Anrufwarteschlange konfigurierte Nummer aufzurufen und eine Verbindung mit einem der Agents oder Menüs herzustellen. Sie können auch schnell einen Test Anruf tätigen, indem Sie die **Schaltfläche Test** im Aktionsbereich Admin Center verwenden. Wenn Sie Änderungen an einer automatischen Telefonzentrale oder einer Anrufwarteschlange vornehmen möchten, wählen Sie Sie aus, und klicken Sie dann im Aktionsbereich auf **Bearbeiten**.
+Die beste Möglichkeit zum Testen der Implementierung besteht darin, die für eine automatische Telefonzentrale oder Anrufwarteschlange konfigurierte Nummer aufzurufen und eine Verbindung mit einem der Agents oder Menüs herzustellen. Sie können auch schnell einen Test Anruf tätigen, indem Sie die **Schaltfläche Test** im Aktionsbereich Admin Center verwenden. Wenn Sie Änderungen an einer automatischen Telefonzentrale oder einer Anrufwarteschlange vornehmen möchten, wählen Sie Sie aus, und klicken Sie dann im Aktionsbereich auf **Bearbeiten**. 
+
+> [!TIP]
+> Wenn Ihr Ressourcenkonto Schwierigkeiten mit dem Zuweisen einer Anrufwarteschlange oder einer automatischen Telefonzentrale hat, lesen Sie [bekannte Probleme für Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) und den Abschnitt [How to Fix My Hybrid Application Instances](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) im Microsoft Teams-Blog.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Verschieben einer Exchange um automatischen Telefonzentrale oder Anrufwarteschlange in das Telefon System
 
@@ -180,7 +183,7 @@ Bei der Migration von Exchange um zu Telefon System müssen die Struktur der Anr
 
 4. Konfigurieren Sie eine automatische Telefonzentrale oder Anrufwarteschlange, die die Endpunkte verwendet, wie zuvor beschrieben.
 
-   Möglicherweise ist es hilfreich, die Übungen im Tutorial mit dem Titel [Small Business Beispiel-Einrichten einer automatischen Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) zum Erstellen einer logischen Zuordnung der Hierarchien in Ihrem alten Exchange um System zu verwenden.
+   Möglicherweise ist es hilfreich, die Übungen im Tutorial mit dem Titel [Small Business Beispiel-Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) zum Erstellen einer logischen Zuordnung der Hierarchien in Ihrem alten Exchange um System zu verwenden.
 5. Testen Sie die automatische Telefonzentrale oder die Anrufwarteschlange.
 6. Weisen Sie die Telefonnummer, die mit der Exchange um Anrufwarteschlange oder der automatischen Telefonzentrale verknüpft ist, der entsprechenden automatischen Telefonzentrale oder Anrufwarteschlange des Telefonsystems neu zu.  
 
