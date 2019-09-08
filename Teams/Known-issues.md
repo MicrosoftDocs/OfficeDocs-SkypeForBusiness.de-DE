@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464486"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790832"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -225,8 +225,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Ressourcenkonto falsch konfigurierte Abteilung <br/> |Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Es gibt eine Lösung, um dieses Problem zu beheben. <br/><br/> Bei Ressourcenkonten, die mit New-CsHybridApplicationEndpoint in Verbindung mit Skype for Business Server konfiguriert wurden, ist der Abteilungsparameter nicht ordnungsgemäß eingestellt. Dies führt dazu, dass die Erstellung des Ressourcenkontos in Skype for Business Online fehlschlägt. In diesem Fall müssen Sie den Abteilungsnamen in Active Directory konfigurieren, bevor Sie die Synchronisierung mit der Online-Anwendung vornehmen.|Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> |8.5.2019 <br/> |
-
+|Ressourcenkonto falsch konfigurierte Abteilung <br/> | Lokale Ressourcenkonten, die mit einer vor Januar 2019 erstellten automatischen Vermittlungsstelle oder Anrufwarteschlange verknüpft sind, haben möglicherweise den Abteilungsparameter nicht richtig eingestellt, was dazu führen kann, dass eine Rufnummernzuweisung fehlschlägt. Wir arbeiten derzeit an einer Lösung, um dieses Problem zu beheben. <br/><br/> Bei Ressourcenkonten, die mit New-CsHybridApplicationEndpoint in Verbindung mit Skype for Business Server konfiguriert wurden, kann der Abteilungsparameter nicht ordnungsgemäß eingestellt sein. Dies führt dazu, dass die Erstellung des Ressourcenkontos im Teams Admin-Center fehlschlägt. In diesem Fall müssen Sie den Abteilungsnamen in Active Directory lokal konfigurieren, bevor Sie die Synchronisierung mit der Online-Anwendung vornehmen.|Um dieses Problem zu vermeiden, können Sie das folgende Cmdlet ausführen, um den Abteilungsparameter zu setzen. Set-MsolUser -ObjectId <Resource Account Object ID> -Department „Microsoft Communication-Anwendungs-Instance“ <br/> Lesen Sie außerdem: [Update für die automatische Telefonzentrale und den Anrufwarteschlangen-Dienst](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |8.5.2019 <br/> |
 
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
