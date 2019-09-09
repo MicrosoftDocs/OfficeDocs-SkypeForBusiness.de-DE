@@ -37,7 +37,7 @@ Wir empfehlen allen Organisationen, zuerst die grundlegenden Änderungen durchzu
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>Weitere Informationen Cloud Voice
+## <a name="learn-more-about-cloud-voice"></a>Weitere Informationen zu Cloud Voice
 
 In den folgenden Artikeln finden Sie weitere Informationen zur Bereitstellung und Verwendung der Cloud Voice-Features in Teams:
 
@@ -60,7 +60,7 @@ Das Telefonsystem ist die Technologie von Microsoft, die Anrufsteuerung und Funk
 
 |Frage|Aktion |
 |:------------|:-------|
-|An welchen Benutzerstandorten oder Büros wird das Telefonsystem implementiert? |Weitere Informationen zum Telefonsystem finden Sie unter [Was ist das Telefonsystem in Office 365?](what-is-phone-system-in-office-365.md)</li></ul>|
+|An welchen Benutzerstandorten oder in welchen Büros wird das Telefonsystem implementiert? |Weitere Informationen zum Telefonsystem finden Sie unter [Was ist das Telefonsystem in Office 365?](what-is-phone-system-in-office-365.md)</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN)
@@ -70,8 +70,8 @@ Wenn Sie das Telefonsystem mit dem Festnetz verbinden möchten, damit Benutzer i
 
 |Frage|Aktion |
 | :------------|:-------|
-| Möchte ich Microsoft Anrufplan als meinen Telefonie-Anbieter verwenden? | Weitere Informationen hierzu finden Sie unter [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md).|
-| Muss ich meinen bestehenden Telefonie-Anbieter verwenden? | Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
+| Möchte ich den Microsoft-Anrufplan als meinen Netzbetreiber verwenden? | Weitere Informationen hierzu finden Sie unter [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md).|
+| Muss ich meinen bestehenden Netzbetreiber verwenden? | Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
 |||
 
 
@@ -88,12 +88,12 @@ Je nach den Anforderungen und der Konfiguration Ihrer Organisation kann es sinnv
 
 ### <a name="voicemail"></a>Voicemail
 
-Cloud-Voicemail, unterstützt von Azure Voicemail-Diensten, unterstützt die Ablage von Voicemails nur in Exchange-Postfächern. E-Mail-Systeme von Drittanbietern werden nicht unterstützt. Cloud-Voicemail umfasst Voicemailaufzeichnung. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Möglicherweise muss Ihr Unternehmen die Voicemailaufzeichnung für bestimmte Benutzer oder für alle in der gesamten Organisation deaktivieren.
+Cloud-Voicemail, unterstützt von Azure Voicemail-Diensten, unterstützt die Ablage von Voicemails nur in Exchange-Postfächern. E-Mail-Systeme von Drittanbietern werden nicht unterstützt. Cloud-Voicemail umfasst die Voicemailaufzeichnung. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Möglicherweise muss Ihr Unternehmen die Voicemailaufzeichnung für bestimmte Benutzer oder für alle in der gesamten Organisation deaktivieren.
 
 |Frage|Aktion |
 |:------------|:-------|
 | Möchte ich die Cloud-Voicemail aktivieren? | Das Vorgehen für die Einrichtung von Voicemail finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
-| Möchte ich die Voicemailaufzeichnung für einige oder alle meiner Benutzer aktivieren? | Wenn Sie die Aufzeichnung von Voicemails deaktivieren möchten, lesen Sie [Festlegen von Voicemail-Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
+| Möchte ich die Voicemailaufzeichnung für einige oder alle meiner Benutzer aktivieren? | Wenn Sie die Aufzeichnung von Voicemails deaktivieren möchten, lesen Sie [Einrichten von Voicemailrichtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
 ### <a name="calling-identity"></a>Anrufer-ID
@@ -107,12 +107,12 @@ Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer
 
 ### <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft
 
-Microsoft verfügt über zwei Arten von Telefonnummern: Nummern für *Abonnenten* (Benutzer), die Benutzern in Ihrer Organisation zugewiesen werden können, sowie *Servicenummen*, die als gebührenpflichtige und gebührenfreie Dienste verfügbar sind. Letztere bieten eine höhere Kapazität für gleichzeitige Anrufe als Abonnentennummern und können Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden.
+Microsoft verfügt über zwei Arten von Telefonnummern: Nummern für *Abonnenten* (Benutzer), die Benutzern in Ihrer Organisation zugewiesen werden können, sowie *Dienstnummern*, die gebührenpflichtig und gebührenfrei verfügbar sind. Letztere bieten eine höhere Kapazität für gleichzeitige Anrufe als Abonnentennummern und können Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden.
 
 |Frage|Aktion |
 | :------------|:-------|
-| Welche Benutzerstandorte benötigen neue Telefonnummern von Microsoft? | Informationen zum Abrufen neuer Telefonnummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) und [Telefonnummern für Benutzer erhalten](getting-phone-numbers-for-your-users.md). 
-| Welche Art von Telefonnummer (Abonnenten oder Service) benötige ich? | Informationen, wie Sie die Art der Telefonnummer auswählen, die Sie benötigen, finden Sie unter [Unterschiedliche Arten von Telefonnummern für Anrufpläne](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+| Welche Benutzerstandorte benötigen neue Telefonnummern von Microsoft? | Informationen zum Abrufen neuer Telefonnummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) und [Reservieren von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md). 
+| Welche Art von Telefonnummer (Abonnenten oder Dienst) benötige ich? | Informationen, wie Sie die Art der Telefonnummer auswählen, die Sie benötigen, finden Sie unter [Unterschiedliche Arten von Telefonnummern für Anrufpläne](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 Wie kann ich vorhandene Telefonnummern nach Office 365 übertragen?|Weitere Informationen finden Sie unter [Übertragen von Telefonnummern nach Office 365](transfer-phone-numbers-to-office-365.md).
 |||
 
@@ -130,12 +130,12 @@ Welche Benutzer benötigen einen angepassten Wählplan und welcher Mandantenwäh
 
 ### <a name="call-queues"></a>Anrufwarteschleifen
 
-Cloudanrufwarteschleifen beinhalten die beim Wählen einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf zu entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören. Sie können eine oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. 
+Cloudanrufwarteschleifen beinhalten die telefonischen Begrüßungen Ihrer Organisation sowie die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Ansprechpartner zu suchen, während für den Anrufer Musik abgespielt wird. Sie können eine oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. 
 
 
 |Frage|Aktion |
 |:------------|:-------|
-| Benötigt meine Organisation Anrufwarteschleifen? | Weitere Informationen hierzu finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](https://docs.microsoft.com/de-DE/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten des Telefonsystems](setting-up-your-phone-system.md). |
+| Benötigt meine Organisation Anrufwarteschleifen? | Weitere Informationen hierzu finden Sie unter [Erstellen einer Cloudanrufwarteschleife](https://docs.microsoft.com/de-DE/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten des Telefonsystems](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Automatische Telefonzentralen
 
@@ -143,11 +143,11 @@ Sie können automatische Telefonzentralen verwenden, um ein Menüsystem für Ihr
 
 |Frage|Aktion |
 |:------------|:-------|
-| Benötigt meine Organisation automatische Telefonzentralen? | Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) und [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md). |
+| Benötigt meine Organisation automatische Telefonzentralen? | Weitere Informationen finden Sie unter [Was sind automatische Cloudtelefonzentralen](what-are-phone-system-auto-attendants.md) und [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md). |
 
 ### <a name="devices"></a>Geräte
 
-Weitere Informationen unterstützten Geräten finden Sie unter den folgenden Themen:
+Weitere Informationen zu unterstützten Geräten finden Sie in den folgenden Themen:
 
 - [Verwalten Ihrer Geräte in Microsoft Teams](device-management.md)
 - [IP-Telefone](https://docs.microsoft.com/de-DE/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
