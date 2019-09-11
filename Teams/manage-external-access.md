@@ -18,12 +18,12 @@ description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 71aad6a5b19c1d641347b9e0f119acf2f72d5ce9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242129"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838112"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================
@@ -42,6 +42,9 @@ Externer Zugriff ermöglicht externen Benutzern das Auffinden, Anrufen und Sende
 
 > [!IMPORTANT]
 > Um innerhalb der Microsoft Teams-App einen Verbund mit einem externen Benutzer außerhalb Ihrer Organisation zu erstellen, der derzeit kein Gastbenutzer in Azure Active Directory (Azure AD) oder Mandant ist, müssen Sie ordnungsgemäß für Hybridumgebungen konfiguriert und bereits auf Skype for Business Online umgestiegen sein. Seit dem 25.2.2019 unterstützt Microsoft Teams keinen nativen Verbund, ohne dass der Benutzer des SIP-Profils in Skype for Business Online verwaltet wird. Weitere Informationen dazu, wie Sie Ihr Konto für die Hybridumgebung einrichten und dann zu Teams wechseln, finden Sie unter [Upgrade von einer Skype for Business-Hybridbereitstellung zu Microsoft Teams](https://docs.microsoft.com/de-DE/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+
+> [!IMPORTANT]
+> Gastbenutzer folgen den organisationsweiten Einstellungen für den Koexistenzmodus. Dies kann nicht geändert werden.
 
 ## <a name="external-access-vs-guest-access"></a>Externer Zugriff und Gastzugriff im Vergleich
 
@@ -122,7 +125,7 @@ Führen Sie diese Schritte aus, um Domänen zuzulassen oder zu blockieren.
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>Schritt 1: Aktivieren Ihrer Organisation für die Kommunikation mit einer anderen Microsoft Teams-Organisation
 
-![Symbol des Microsoft Teams-Logos](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich zu **Organisationsweite Einstellungen** > **Externer Zugriff**.
 
@@ -157,7 +160,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 
 Wenn Sie den externen Zugriff so einrichten, dass Ihre Microsoft Teams-Benutzer Benutzer in einer Skype for Business-Organisation mit eingeschränktem Zugriff finden und kontaktieren können, führen Sie die Schritte zum Einrichten des externen Zugriffs von Ihrer Domäne auf die Domäne der anderen Organisation aus. Bitten Sie den Administrator des anderen Unternehmens anschließend, die nachstehenden Schritte auszuführen, um den externen Zugriff für Skype for Business Online zu konfigurieren.
 
-![Symbol des Skype for Business-Logos](media/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 Lassen Sie die folgenden Schritte vom Administrator in dieser Organisation durchführen:
 
