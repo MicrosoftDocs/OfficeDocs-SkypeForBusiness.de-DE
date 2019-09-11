@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: erfahren Sie, wie Sie mithilfe von PowerShell SEFAUtil-Funktionen in Skype for Business Server 2019 nach der Installation des kumulativen Updates 1 erhalten.'
-ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464548"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838098"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Verwenden der SEFAUtil-Funktionalität über PowerShell in Skype for Business Server 2019
 
@@ -30,25 +30,25 @@ SEFAUtil (Aktivierung der sekundären Erweiterungsfunktion) ermöglicht es Skype
 
 Administratoren können die Einstellungen für die Anrufweiterleitung mithilfe des folgenden Cmdlets in PowerShell ändern:
 
-- `Get-CsUserForwardingSettings -Identity <UserIdParameter>`
+- `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
 Mit diesem Cmdlet werden die Einstellungen für die Anrufweiterleitung des angegebenen Benutzers als Objekt zurückgegeben und auf dem Bildschirm angezeigt.
 
-- `Set-CsUserForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
 Mit diesem Cmdlet werden die Einstellungen für die Anrufweiterleitung des angegebenen Benutzers geändert. Mit diesem Cmdlet werden die Einstellungen für die Anrufweiterleitung des angegebenen Benutzers als Objekt zurückgegeben und im Erfolgsfall auf dem Bildschirm angezeigt. Falls ein Fehler auftritt, wird eine entsprechende Fehlermeldung angezeigt.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 Dieses Cmdlet deaktiviert die Einstellungen für die Anrufweiterleitung des Benutzers (hier werden zwei verschiedene Parameter Beispiele gezeigt).
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 Dieses Cmdlet ändert die Einstellungen für die Anrufweiterleitung des Benutzers.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
 Mit diesem Cmdlet werden die SimulRing-Einstellungen geändert (erneut mit zwei Parameter Beispielen: eine für unbeantwortete Voicemail und die zweite für andere nicht beantwortet).
 
