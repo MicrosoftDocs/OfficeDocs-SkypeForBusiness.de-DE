@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232250"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852839"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -54,7 +54,7 @@ Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit z
 
 ## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
 
-Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die "Template@odata.Bind"-Eigenschaft im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph- [Artikel zum Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die "Template@odata.Bind"-Eigenschaft im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Die Kanäle in der Vorlage werden auf der RegisterkarteAllgemein automatisch erstellt.
