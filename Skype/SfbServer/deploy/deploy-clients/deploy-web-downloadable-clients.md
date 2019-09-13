@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Zusammenfassung: Bereitstellen der Skype for Business Web App-und Skype-Besprechungs-APP, die mit Skype for Business verwendet wird.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234393"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972876"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von Webdownload-Clients in Skype for Business Server
 
@@ -140,6 +140,10 @@ Diese Vorgehensweise ist optional und gilt für Skype for Business Server 2015 C
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Bei MeetingUxUseCdn in Skype for Business Server 2015 Kumulatives Update 5 ist der Standardwert auf false festgelegt. Dies führt zu einem Problem, bei dem Skype for Business für Mac-Client nicht in der Lage ist, als Gast an den Besprechungen von nicht verbundenen Partnern teilzunehmen, selbst wenn der Skype for Business-Administrator MeetingUxUseCdn auf "true" festgelegt hat. Damit dies funktioniert, muss Skype for Business Server 2015 über das kumulative Update 7, 6.0.9319.534 oder höher verfügen. Weitere Informationen finden Sie unter [Aktivieren der Skype-Besprechungs-APP, um Skype for Business Web App in Skype for Business Server 2015 zu ersetzen](https://support.microsoft.com/kb/4132312).
+
 
 ## <a name="see-also"></a>Siehe auch
 <a name="SMA_Enable"> </a>
