@@ -27,6 +27,7 @@
 ## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)
+## [Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 
 
@@ -291,6 +292,7 @@
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](languages-for-voicemail-greetings-and-messages.md)
 ### Anrufer-ID
 #### [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md)
+#### [Verwalten von Anrufer-ID-Richtlinien](caller-id-policies.md)
 #### [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md)
 #### [Mehr über Telefonnummer-ID und Name des Anrufers](more-about-calling-line-id-and-calling-party-name.md)
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
@@ -304,8 +306,7 @@
 ### [Parken von Anrufen und Holen](call-park-and-retrieve.md)
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
 ### [Anrufrichtlinie](teams-calling-policy.md)
-### [Anrufer-ID-Richtlinie](caller-id-policies.md)
-### [Funktion „Gemeinsame Leitungen“](shared-line-appearance.md)
+### [Funktion "Gemeinsame Leitungen"](shared-line-appearance.md)
 ### [Grundlegendes zum Blockieren von PSTN-Anrufen in Teams-Clients](block-pstn-calls-on-Teams-clients.md)
 
 
