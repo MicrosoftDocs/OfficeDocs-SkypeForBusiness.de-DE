@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie das direkte Routing für das Microsoft-Telefonsystem konfigurieren.
-ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464611"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018768"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -42,7 +42,7 @@ Sie können Ihr Microsoft-Telefonsystem konfigurieren und Benutzern die Verwendu
 
 - [Koppeln des SBC mit einem Microsoft-Telefonsystem und Überprüfen der Kopplung](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Aktivieren von Benutzern für den Direct Routing-Dienst](#enable-users-for-direct-routing-service)
-- [Sicherstellen, dass Microsoft Teams der bevorzugte Anrufclient für die Benutzer ist](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Sicherstellen, dass Microsoft Teams der bevorzugte Anrufclient für die Benutzer ist
 
 ## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Koppeln des SBC mit dem Direct Routing-Dienst des Telefonsystems 
 
@@ -528,9 +528,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 Das Ergebnis ist, dass die VoIP-Richtlinie, die auf die Anrufe von John Woods angewendet wird, keine Einschränkungen aufweist und der Logik der Anrufweiterleitung folgt, die für USA, Kanada und internationale Gespräche verfügbar ist.
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Festlegen von Microsoft Teams als bevorzugten Anrufclient für Benutzer
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Ordnen Sie den Benutzern den Modus „Nur Teams“ zu, um sicherzustellen, dass Anrufe in Microsoft Teams eingehen.
 
-Das direkte Routing leitet Anrufe nur an und von Benutzern weiter, die den Teams-Client verwenden. Wenn Ihre Organisation nur Teams verwendet, wird die Einstellung „Nur Teams“ in der Upgraderichtlinie empfohlen. Wenn in Ihrer Organisation Skype for Business Server oder Skype for Business Online verwendet wird, lesen Sie den folgenden Artikel, um weitere Informationen zu erhalten, und wählen Sie die entsprechende Option aus: [Grundlegendes zur Koexistenz von Skype for Business und Teams und zum Upgrade](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+Das direkte Routing erfordert, dass sich die Benutzer im Modus „Nur Teams“ befinden, um sicherzustellen, dass eingehende Anrufe im Team-Client eingehen. Um Benutzer im Modus „Nur Teams“ zu setzen, weisen Sie ihnen die Instanz "UpgradeToTeams" von TeamsUpgradePolicy zu. Falls Ihre Organisation Skype for Business Server oder Skype for Business Online verwendet, lesen Sie den folgenden Artikel für Informationen zur Interoperabilität zwischen Skype und Teams: [Anleitung zur Migration und Interoperabilität für Unternehmen, die Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Siehe auch
