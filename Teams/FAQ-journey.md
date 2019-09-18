@@ -58,7 +58,7 @@ Neben den Innovationen in den Bereichen VoIP, Video und Besprechungen haben wir 
 
 Wir beabsichtigen, Support für Skype for Business Online und den Client bis zur Einstellung am 31. Juli 2021 bereitzustellen.
 
-Seit dem 1. Oktober 2019 werden neue alle Office 365-Kunden in Microsoft Teams integriert und erhalten keinen Zugriff auf Skype for Business Online. Mandanten, die bereits Skype for Business Online verwenden, können dies weiterhin tun, bis ihr Übergang zu Teams abgeschlossen ist. Dies gilt auch für die Bereitstellung neuer Benutzer.
+Seit dem 1. September 2019 werden neue alle Office 365-Kunden in Microsoft Teams integriert und erhalten keinen Zugriff auf Skype for Business Online. Mandanten, die bereits Skype for Business Online verwenden, können dies weiterhin tun, bis ihr Übergang zu Teams abgeschlossen ist. Dies gilt auch für die Bereitstellung neuer Benutzer.
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Was empfehlen Sie Kunden, die zurzeit die Bereitstellung von Skype for Business in Office 365 durchführen (oder planen)?
 
