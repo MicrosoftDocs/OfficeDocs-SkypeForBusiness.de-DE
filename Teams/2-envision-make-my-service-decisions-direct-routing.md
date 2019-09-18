@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: c57b3c8950f7e1618f578862290e8fb1696b6bc0
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271435"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018779"
 ---
 # <a name="make-my-service-decisions"></a>Meine Dienst Entscheidungen treffen
 
@@ -135,7 +135,7 @@ Für das Hinzufügen von externen Teilnehmern zu geplanten Besprechungen ist ein
 Audiokonferenz-und Telefonsysteme können separat als Add-on-Dienste für bestehende Kunden lizenziert werden, die über Office 365 E3-oder E1-Abonnement Pläne verfügen. Sie sind bereits im Rahmen des Office 365 E5-Abonnementplans enthalten.
 
 > [!TIP]
-> Sie können auch die direkte Weiterleitung für die Benutzer verwenden, die für die Anrufpläne aktiviert sind, wenn Sie Ihre Anrufe an PBX-Anlagen von Drittanbietern weiterleiten. Weitere Informationen finden Sie unter [Lizenzierung und andere voraus](direct-routing-plan.md#licensing-and-other-requirements)setzungen für die direkte Weiterleitung.
+> Sie können auch die direkte Weiterleitung für die Benutzer verwenden, die für die Anrufpläne aktiviert sind, wenn Sie Ihre Anrufe an PBX-Anlagen von Drittanbietern weiterleiten. Weitere Informationen finden Sie unter [Lizenzierung und andere Voraussetzungen](direct-routing-plan.md#licensing-and-other-requirements)für die direkte Weiterleitung.
 
 
 |         |         |         |
@@ -271,7 +271,7 @@ Sie können Ihre Benutzer so konfigurieren, dass Teams als bevorzugter Client f�
 
 -   Konfigurieren Sie Teams als bevorzugten Anruf Client, indem Sie TeamsCallingPolicy und TeamsInteropPolicy zuweisen.
 
-Weitere Informationen finden Sie unter [Einrichten von Microsoft Teams als bevorzugter Anruf Client für Benutzer](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
+Weitere Informationen finden Sie unter [Zuweisen des Modus "nur für Teams an Benutzer", um sicherzustellen, dass Anrufe in Microsoft Teams landen](direct-routing-configure.md#assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams).
 
 
 |         |         |         |

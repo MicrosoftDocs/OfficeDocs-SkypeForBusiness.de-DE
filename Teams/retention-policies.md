@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: anach
+ms.reviewer: prvijay
 description: Erfahren Sie mehr über das Verwalten von Richtlinien und deren Verwaltung in Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f2f3cc0c74b85d0b243dd8fefcd6bce1f2451fae
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243597"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018812"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -40,11 +40,11 @@ Teams-Aufbewahrungsrichtlinien unterstützen noch nicht:
 - Erweiterte Aufbewahrungsrichtlinien gelten nicht für Team-Chats und Teams Kanal Nachrichtenspeicher Orte
 - Dauer von weniger als 30 Tagen
 
-Administratoren können separate Aufbewahrungsrichtlinien für private Microsoft-Chats (1:1 oder 1: viele Chats) und für Teams Kanal Nachrichten einrichten. In vielen Fällen sehen Organisationen private Chat-Daten eher als eine Haftung als Kanal Nachrichten an, die in der Regel mehr projektbezogene Unterhaltungen sind. Richten Sie diese Richtlinien im Security #a0 Compliance Center,**Aufbewahrung**von **Datenverwaltungen** > ein. Aktivieren Sie die **Channel-Nachrichten** und **Teams** -Chats von Teams, und definieren Sie dann Aufbewahrungsrichtlinien für diese Speicherorte (siehe Abbildung unten). 
+Administratoren können separate Aufbewahrungsrichtlinien für private Microsoft-Chats (1:1 oder 1: viele Chats) und für Teams Kanal Nachrichten einrichten. In vielen Fällen sehen Organisationen private Chat-Daten eher als eine Haftung als Kanal Nachrichten an, die in der Regel mehr projektbezogene Unterhaltungen sind. Richten Sie diese Richtlinien im Security #a0 Compliance Center,**Aufbewahrung**von **Datenverwaltungen** > ein. Aktivieren Sie die **Channel-Nachrichten** und **Teams-Chats** von Teams, und definieren Sie dann Aufbewahrungsrichtlinien für diese Speicherorte (siehe Abbildung unten). 
 
 Wenn Sie Channel- **Nachrichten für Teams**aktivieren, können Sie Teams angeben, für die diese Richtlinie gelten soll. Beispielsweise kann der Administrator für Teams X, Y und Z die Löschrichtlinien für ein Jahr festlegen (durch Auswahl dieser Teams einzeln) und eine 3-jährige Löschrichtlinie für die restlichen Teams anwenden. 
 
-Sie können für **Teams** -Chats dasselbe tun, indem Sie bestimmte Benutzer auswählen und eindeutige Aufbewahrungsrichtlinien anwenden. 
+Sie können für **Teams-Chats** dasselbe tun, indem Sie bestimmte Benutzer auswählen und eindeutige Aufbewahrungsrichtlinien anwenden. 
 
 ![Diagramm des Workflows von Microsoft Teams-Daten zu Exchange und SharePoint](media/Retention-Policies.png)
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Häufig gestellte Fragen zu Aufbewahrungsrichtlinien in Microsoft Teams.
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243553"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018790"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien
 
@@ -45,7 +45,7 @@ Standardmäßig werden die Daten für Teams-Chat, Kanal und Dateien für immer a
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Kann ich auf Gruppen von Benutzern oder Teams in einer Richtlinie abzielen? 
 
-Ja, das ist möglich. Im Assistenten zum Erstellen von Richtlinien können Sie im Schritt Standorte Teams (Teams-**Kanal Nachrichten**) oder Benutzer (Teamchat)**** einbeziehen oder ausschließen und zielgerichtete Richtlinien für Ihre Organisation erstellen. 
+Ja, das ist möglich. Im Assistenten zum Erstellen von Richtlinien können Sie im Schritt Standorte Teams (Teams-**Kanal Nachrichten**) oder Benutzer (**Teamchat**) einbeziehen oder ausschließen und zielgerichtete Richtlinien für Ihre Organisation erstellen. 
 
 ### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>Was ist der Hauptunterschied zwischen der Verwendung der Zeile für den Speicherort des Gruppen Postfachs und der Zeile "Standort" des Teams Kanal Nachrichten in Aufbewahrungsrichtlinien? 
 
@@ -59,7 +59,7 @@ Ja, Skype for Business Online und Teams-Interop-Chats funktionieren auf die glei
 
 ### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Kann ich diese mithilfe von Security #a0 Compliance Center-Cmdlets durchführen? Was sollte ich verwenden? 
 
-Absolut. Sie können Teams-Aufbewahrungsrichtlinien mithilfe von [Security #a0 Compliance Center-PowerShell]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)-Cmdlets erstellen. Beachten Sie, dass es sich nicht um Exchange Online-Cmdlets handelt. Hier sind die für Teams erstellten Cmdlets. Sie folgen der vorhandenen Nomenklatur und dem Stil aus den heute verfügbaren Aufbewahrungs-Cmdlets im Security #a0 Compliance Center.
+Absolut. Sie können Teams-Aufbewahrungsrichtlinien mithilfe von [Security #a0 Compliance Center-PowerShell-Cmdlets]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)erstellen. Beachten Sie, dass es sich nicht um Exchange Online-Cmdlets handelt. Hier sind die für Teams erstellten Cmdlets. Sie folgen der vorhandenen Nomenklatur und dem Stil aus den heute verfügbaren Aufbewahrungs-Cmdlets im Security #a0 Compliance Center.
 
 |Richtlinie|Regel|
 |---|---|

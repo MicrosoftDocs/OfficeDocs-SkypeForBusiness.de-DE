@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 99e12ba4ee8bf983a62dee87a82f3bb7b9cb1ccc
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675406"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018855"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -101,9 +101,12 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 
   - Microsoft Teams Android-App
 
+    > [!NOTE]
+    > Anrufwarteschlangen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, lync-Clients oder Skype for Business-IP-Telefone als Agents. 
+
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Schritt 2: Abrufen oder übertragen von gebührenpflichtigen oder gebührenfreien Telefonnummern für Dienstleistungen
 
-Bevor Sie Ihre Anrufwarteschlangen erstellen und einrichten können, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service**** > -Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **-Legacy-Portal** > -**Telefonnummern**angezeigt, und der **Nummerntyp** wird als **Service – gebührenfrei**. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Bevor Sie Ihre Anrufwarteschlangen erstellen und einrichten können, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service **-Telefonnummern** > erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > -**Legacy-Portal** > -**Telefonnummern**angezeigt, und der **Nummerntyp** wird als **Service – gebührenfrei**. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , anstatt zu erfahren, wie Sie von außerhalb der Vereinigten Staaten aus Vorgehen.
@@ -119,7 +122,7 @@ Wenn Sie mehrere automatische Telefonzentralen einrichten, können Sie dem Haupt
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
 
-Klicken Sie im **Microsoft Teams Admin Center**auf Warteschlangen für **sprach** > **Anrufe**und dann auf **+ Neu hinzufügen**:
+Klicken Sie im **Microsoft Teams Admin Center**auf**Warteschlangen**für **sprach** > Anrufe und dann auf **+ Neu hinzufügen**:
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>Einrichten des Anzeige namens und des Ressourcenkontos für die Anrufwarteschlange
 
@@ -177,7 +180,7 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 
 - Online-Benutzer mit einer Telefon System Lizenz und Enterprise-VoIP aktiviert 
 - Online Benutzer mit einem Anrufplan
-- Lokale Skype for Businesss-Server Benutzer
+- Lokale Skype for Business Server-Benutzer
 
   > [!NOTE]
   > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine **Telefon System** Lizenz und Enterprise-VoIP verfügen **oder** über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
@@ -265,7 +268,7 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
 ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
 
-**Beim Timeout** des Anrufs Wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit diesem Anruf geschieht:
+**Beim Timeout des Anrufs** Wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit diesem Anruf geschieht:
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:

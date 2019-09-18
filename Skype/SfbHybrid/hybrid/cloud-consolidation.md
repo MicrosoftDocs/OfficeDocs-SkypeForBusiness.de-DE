@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie eine Konsolidierung für Organisationen mit lokalen Bereitstellungen von Skype for Business (oder lync) erreichen können, die ihre UC-Arbeitsauslastung in Microsoft Teams und/oder Skype for Business Online umsetzen möchten.
-ms.openlocfilehash: 46e84f9a65ec7626c5285196af83d63baa46c15e
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160604"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018844"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Cloud-Konsolidierung für Teams und Skype for Business
 
@@ -95,7 +95,7 @@ Die folgenden Diagramme zeigen die Konfiguration an verschiedenen wichtigen Punk
 
 ##### <a name="figure-b"></a>Abbildung B:
 
-- AcquiredCompany. <span>com ist eine [](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) deaktivierte Online-SIP-Domäne. Alle Benutzer sind lokal. Wenn Sie Teams verwenden, haben Sie keinen Verbund oder keine Interoperabilität. In dieser Phase empfiehlt Microsoft die Verwendung von Teams nur für Kanäle.
+- AcquiredCompany. <span>com ist eine [Deaktivierte](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) Online-SIP-Domäne. Alle Benutzer sind lokal. Wenn Sie Teams verwenden, haben Sie keinen Verbund oder keine Interoperabilität. In dieser Phase empfiehlt Microsoft die Verwendung von Teams nur für Kanäle.
 - Skype for Business Hybrid wurde für eine der lokalen Organisationen aktiviert.
 - Einige Benutzer in der Hybrid Organisation wurden in die Cloud verschoben (Benutzer A wird durch violette Schattierung angezeigt). Diese Benutzer können entweder Skype for Business Online Benutzer oder nur Microsoft Teams-Benutzer mit vollständiger Interoperabilität und Verbundunterstützung sein.<br><br>
     ![Abbildung B-Diagramm](../media/cloudconsolidationfigb.png)
@@ -168,13 +168,13 @@ In den Schritten im kanonischen Beispiel wird davon ausgegangen, dass die Organi
 Wenn Sie Benutzer in einer Hybridumgebung von lokal in die Cloud migrieren, können Sie Sie in Skype for Business oder in den TeamsOnly-Modus versetzen. *Wenn Sie beabsichtigen, die Benutzer in den TeamsOnly-Modus zu versetzen, lesen Sie diesen Abschnitt zuerst.*
 
 - Wenn Sie einem Benutzer den TeamsOnly-Modus zuweisen, werden alle Chats und Anrufe von anderen Benutzern in den Microsoft Teams-Client des Benutzers gelandet. 
-- Um eine ordnungsgemäße Weiterleitung von Chats und anrufen zwischen Benutzern, die TeamsOnly sind, und Benutzern, die noch Skype for Business lokal verwenden, sicherzustellen, müssen Sie sicherstellen, dass lokale Benutzer über einen der SFB-Modi TeamsUpgradePolicy, statt auf Inseln (standardmäßig ). 
+- Wenn Benutzer mit Skype for Business lokal in erster Linie Skype for Business-Client und keine Teams verwenden, sollten Sie TeamsUpgradePolicy so festlegen, dass das Routing zu diesen lokalen Benutzern immer in Skype for Business statt in Teams landet. Um eine ordnungsgemäße Weiterleitung von Chats und anrufen zwischen Benutzern, die TeamsOnly sind, und Benutzern, die noch Skype for Business lokal verwenden, sicherzustellen, müssen lokale Benutzer einen effektiven Wert von TeamsUpgradePolicy mit einem der SFB-Modi haben, statt Islands (Dies ist die Standard). 
     - Hierzu *müssen Sie zuerst die globale Instanz von TeamsUpgradePolicy des Mandanten auf einen der folgenden Werte festlegen*:
         - SfBWithTeamsCollab (empfohlen)
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
     - Sie können eine Mandantenweite Richtlinie mithilfe dieses Befehls erteilen:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-    - Hinweis: derzeit müssen Sie dies auf einer Mandanten weiten Ebene tun, da Richtlinien nicht einzelnen Benutzern zugewiesen werden können, die keine SIP-Adresse im Online Verzeichnis haben. Während Sie Online-SIP-Domänen für Ihre reinen lokalen Bereitstellungen deaktiviert haben, haben Benutzer in diesen Domänen keine SIP-Adressen im Online-Verzeichnis nach Design. Die einzige Möglichkeit, Richtlinien auf diese lokalen Benutzer anzuwenden, ist daher die Zuweisung auf Mandantenebene. Im Gegensatz dazu verfügen Benutzer in der hybridbereitstellung über eine SIP-Adresse im Online Verzeichnis, sodass Ihnen eine Richtlinie explizit zugewiesen werden kann, wenn Sie einen anderen Wert als die globale Mandanten Richtlinie haben soll.
+    - Hinweis: Sie müssen dies auf einer Mandanten weiten Ebene tun, da Richtlinien nicht einzelnen Benutzern zugewiesen werden können, die keine SIP-Adresse im Online Verzeichnis haben. Während Sie Online-SIP-Domänen für Ihre reinen lokalen Bereitstellungen deaktiviert haben, haben Benutzer in diesen Domänen keine SIP-Adressen im Online-Verzeichnis nach Design. Die einzige Möglichkeit, Richtlinien auf diese lokalen Benutzer anzuwenden, ist daher die Zuweisung auf Mandantenebene. Im Gegensatz dazu verfügen Benutzer in der hybridbereitstellung über eine SIP-Adresse im Online Verzeichnis, sodass Ihnen eine Richtlinie explizit zugewiesen werden kann, wenn Sie einen anderen Wert als die globale Mandanten Richtlinie haben soll.
 - Der Client-UX von Teams ehrt die SFB-Modi von TeamsUpgradePolicy noch nicht. Wenn in diesen Modi beispielsweise die Initiierung von Anrufen und Chats in Microsoft Teams derzeit möglich ist, ist dies in Zukunft nicht der Fall. Dies kann zu Verwechslungen zwischen Benutzern führen, da Antworten manchmal in Teams und manchmal Skype for Business, je nach den jeweiligen Umständen, landen können. Es wird empfohlen, dass Sie Anrufe und Chats über TeamsMessagingPolicy und TeamsCallingPolicy für Benutzer, die sich weiterhin lokal befinden, separat deaktivieren.
 
 ## <a name="see-also"></a>Siehe auch
