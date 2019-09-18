@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6135a96e588c881f1f3548632da9e14182c9e53
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245398"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018834"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -47,7 +47,7 @@ Die Servicepläne in diesem Angebot umfassen Folgendes:
 - Whiteboard
 - Yammer Enterprise 
 
-Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisation. Die Testversion umfasst 500.000 Lizenzen. Jeder zugewiesenen Lizenz werden im Rahmen der Testversion 2 GB SharePoint Onlinespeicher zur Verfügung gestellt. 
+Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisation. Jeder zugewiesenen Lizenz werden im Rahmen der Testversion 2 GB SharePoint Onlinespeicher zur Verfügung gestellt. 
 
 ## <a name="who-is-eligible"></a>Wer ist berechtigt?
 
@@ -146,6 +146,6 @@ Weitere Informationen finden Sie unter [Office 365-Lizenzen für Microsoft Teams
 
 Ab dem 22. April 2019 können Benutzer damit beginnen, die neueste Microsoft Teams Commercial Cloud-Testlizenz anzufordern. Wenn Sie mit Benutzern in Ihrer Organisation von der Legacy-Testlizenz auf die neueste Testversion umsteigen möchten, müssen Sie zuerst die alte Microsoft Teams-Testlizenz für jeden Benutzer entfernen. Nach dem Entfernen der Legacy-Lizenz kann jeder betroffene Benutzer die aktualisierte Microsoft Teams Commercial Cloud-Testlizenz anfordern.
 
-- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/de-DE/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
+- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
 
-- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern in Office 365 Business](https://docs.microsoft.com/de-DE/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
