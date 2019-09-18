@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: Angebotsseite für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484059"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018801"
 ---
 # <a name="phone-system-direct-routing"></a>Direktes Routing für Telefonsysteme
 
@@ -75,13 +75,13 @@ Sie müssen das Telefonsystem so konfigurieren, um die Anrufe an die jeweiligen 
 | Welche Benutzer werden der von mir definierten VoIP-Routing-Richtlinie zugeordnet? | Weitere Beispiele finden Sie unter [Konfigurieren von VoIP](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### <a name="calling-and-interop-policies"></a>Anruf-und Interop-Richtlinien
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Stellen Sie sicher, dass eingehende Anrufe mit TeamsUpgradePolicy im Team-Client eingehen.
 
-Direktes Routing wird nur von Microsoft Teams unterstützt. Um PSTN-Anrufe über das direkte Routing zu tätigen oder zu empfangen, müssen Sie die erforderlichen Richtlinien konfigurieren, um sicherzustellen, dass eingehende Anrufe in Teams empfangen werden. Sie können Benutzer konfigurieren, um Teams als bevorzugten Client für Anrufe festzulegen, indem Sie entweder den Benutzer für den „Nur Teams“-Modus konfigurieren oder Teams als bevorzugten Anruf-Client konfigurieren, indem Sie die TeamsCallingPolicy und die TeamsInteropPolicy zuweisen.
+Direktes Routing wird nur von Microsoft Teams unterstützt. Um PSTN-Anrufe über das direkte Routing zu tätigen oder zu empfangen, müssen Sie die erforderlichen TeamsUpgradePolicy konfigurieren, um sicherzustellen, dass eingehende Anrufe in Teams empfangen werden. Benutzer müssen sich im Modus „Nur Teams“ befinden, indem Sie ihnen die Instanz "UpgradeToTeams" von TeamsUpgradePolicy zuweisen. 
 
 |Frage|Aktion |
 |:------------|:-------|
-|Wie kann ich Teams als bevorzugten Client für Anrufe festlegen? | Weitere Informationen finden Sie unter [Microsoft Teams als bevorzugten Anruf-Client für Benutzer festlegen](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|Was bedeutet der Modus „Nur Teams“? | Weitere Informationen finden Sie unter[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Zusätzliche Bereitstellungsüberlegungen
