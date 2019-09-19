@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Informationen zum Kauf von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715907"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040736"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -39,7 +39,7 @@ Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfan
 
     1. [Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Daher empfehlen wir, dass Sie einen Enterprise E5-Plan evaluieren, um festzustellen, ob dies kosteneffektiver ist.
 
-    2. Wenn Sie sich entschließen, eine Enterprise E5-Lizenz zu erwerben, enthält Sie eine Lizenz für das Telefon System. Wenn Sie eine Enterprise E1-oder E3-Lizenz oder ein Office 365 Business Essentials-oder Office 365 Business Premium-licsense verwenden, müssen Sie das Telefon System-Add-on kaufen.
+    2. Wenn Sie sich entschließen, eine Enterprise E5-Lizenz zu erwerben, enthält Sie eine Lizenz für das Telefon System. Wenn Sie eine Enterprise E1-oder E3-Lizenz verwenden, müssen Sie das Telefon System-Add-on kaufen.
     
     3. Kaufen Sie einen [Anrufplan für Office 365](../calling-plans-for-office-365.md): Sie können diesen erst kaufen, nachdem Sie das Telefon System-Add-on gekauft haben.
 
@@ -64,7 +64,7 @@ Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfan
 
 3. Wenn Sie Guthaben zu Kommunikationsguthaben hinzufügen möchten, wechseln Sie zu **Abrechnungs** > **Abonnements** > -**Kommunikationsguthaben**.
 
-    Sie können Guthaben hinzufügen und das automatische Aufladen aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Hinzufügen von Guthaben und Verwalten von Guthaben](../add-funds-and-manage-communications-credits.md) für Kommunikationen. 
+    Sie können Guthaben hinzufügen und das automatische Aufladen aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](../add-funds-and-manage-communications-credits.md) . 
 
 
 **So erhalten Sie das Telefonsystem-Add-On und einen Anrufplan**
