@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790832"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047040"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -154,6 +154,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Wenn Sie ein Laufwerk symbolisch mit „C:\users“ verknüpfen oder diesem Verzeichnis zuordnen, wird die App mit einem weißen Bildschirm gestartet.  <br/> |Wenn der Standardspeicherort von `C:\users\<user>\appData` durch Verschieben des Ordners `C:\users` oder mithilfe einer symbolischen Verknüpfung geändert wird, wird die App mit einem weißen Bildschirm gestartet.   <br/> |Eine Problemumgehung ist nicht bekannt. Wenn die Zuordnung erforderlich ist, sollten Sie die Webversion von Microsoft Teams verwenden.   <br/> |13.03.2017  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Anwesenheitsinformationen in der Office-Anwendung werden nicht angezeigt, nachdem der Benutzer in die TeamsOnly-Umgebung verschoben wurde. <br/> |Wenn ein Benutzer in die TeamsOnly-Umgebung verschoben und der Skype for Business-Client deinstalliert wird, funktionieren die Anwesenheitsinformationen nicht mehr.  <br/> |Damit Anwesenheitsinformationen in Outlook funktionieren, müssen Sie Skype for Business in die Office-Bereitstellung einbeziehen, auch wenn Sie beabsichtigen, nur Microsoft Teams zu verwenden.  Für die Zukunft ist geplant, die Skype for Business-Abhängigkeit zu entfernen, aber es gibt noch keinen Zeitplan dafür.     <br/> |9/2019  <br/> |
 
 ## <a name="environment"></a>Umgebung
 
