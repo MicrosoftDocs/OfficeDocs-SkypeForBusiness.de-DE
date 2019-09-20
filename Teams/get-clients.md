@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 1d656e78ca839255f45e9335ca881c564e07c4cc
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245753"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047000"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -31,9 +31,9 @@ ms.locfileid: "36245753"
 Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
 
 > [!NOTE]
-> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie nun den Teams-Desktopclient auf Geräte herunterladen und installieren, die mit Windows 10 S-Modus betrieben werden. Den Desktopclient zum Herunterladen finden Sie unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI-Builds des Teams-Desktopclients stehen für Geräte, die mit Windows 10 S-Modus betrieben werden, derzeit noch nicht zur Verfügung.
+> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie jetzt den Desktop-Client für Teams auf Geräten mit Windows 10 S-Modus herunterladen und installieren. Wechseln Sie zum Herunterladen des Desktop- [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)Clients zu. MSI-Builds des Teams-Desktop Clients sind noch nicht für Geräte verfügbar, auf denen Windows 10 S-Modus ausgeführt wird.
 >
-> Weitere Informationen zum Windows 10 S-Modus finden Sie unter [Einführung in den Windows 10-Modus](https://www.microsoft.com/windows/s-mode). 
+> Weitere Informationen zum Windows 10 s-Modus finden Sie unter [Einführung in Windows 10 im s-Modus](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Desktopclient
 --------------
@@ -41,7 +41,7 @@ Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betr
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
 
-Der Microsoft Teams-Desktopclient ist eine eigenständige Anwendung und auch [in Office 365 ProPlus verfügbar](https://docs.microsoft.com/de-DE/deployoffice/teams-install). Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
+Der Microsoft Teams-Desktop Client ist eine eigenständige Anwendung und steht auch [in Office 365 ProPlus zur Verfügung](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
 
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 
@@ -63,7 +63,7 @@ Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitge
 
 - %LocalAppData%\\Microsoft\\Teams
 
-- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
 - %AppData%\\Microsoft\\Teams
 
@@ -124,7 +124,7 @@ Unterstützte mobile Plattformen für mobile Microsoft Teams-Apps:
 > [!NOTE]
 > Die mobile Version muss der Öffentlichkeit zur Verfügung stehen, damit Teams wie erwartet funktioniert.
 
-Mobile Apps werden nur über den jeweiligen App Store für ihre mobile Plattform verteilt und aktualisiert. Sie können nicht über MDM-Lösungen (Mobile Device Management, mobile Geräteverwaltung) verteilt oder quergeladen werden.
+Mobile Apps werden nur über den App Store der jeweiligen mobilen Plattform vertrieben und aktualisiert. Die Verteilung der mobilen Apps über MDM oder das Laden von Seiten wird von Microsoft nicht unterstützt. Nachdem die Mobile App auf einer unterstützten mobilen Plattform installiert wurde, wird die Mobile Teams-APP selbst unterstützt, vorausgesetzt, die Version befindet sich innerhalb von drei Monaten nach der aktuellen Version.
 
 
 | | | |
@@ -135,7 +135,7 @@ Mobile Apps werden nur über den jeweiligen App Store für ihre mobile Plattform
 <a name="client-update-management"></a>Verwaltung von Clientupdates
 ------------------------
 
-Clients werden aktuell vom Microsoft Teams-Dienst aktualisiert, ohne dass ein IT-Administrator eingreifen muss. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen und wenn die App für einen bestimmten Zeitraum nicht verwendet wurde, beginnt der Updatevorgang.
+Clients werden derzeit vom Microsoft Teams-Dienst automatisch aktualisiert, ohne dass ein IT-Administratoreingriff erforderlich ist. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen, und wenn die APP für einen bestimmten Zeitraum inaktiv ist, wird der Updatevorgang gestartet.
 
 <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 ---------------------------

@@ -17,12 +17,12 @@ description: Informieren Sie sich über die Schritte zum Einrichten von Live fü
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493098"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047071"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -53,7 +53,7 @@ Mithilfe von Live Ereignisrichtlinien können Sie steuern, wer in Ihrer Organisa
 
     Hier sind die Einstellungen, die Sie ändern können, um den Anforderungen Ihrer Organisation zu entsprechen.
 
-    Screenshot ![der Richtlinieneinstellungen für Live Ereignisse] Screenshot (../media/teams-live-events-policies.png "der Richtlinieneinstellungen für Live Ereignisse im Microsoft Teams Admin Center") 
+    Screenshot der Richtlinieneinstellungen für ![Live Ereignisse], Screenshot(../media/teams-live-events-policies.png "der Richtlinieneinstellungen für Live Ereignisse im Microsoft Teams Admin Center") 
 
 |Einstellung  |Beschreibung  |
 |---------|---------|
@@ -80,7 +80,7 @@ Sie können einer oder mehreren Benutzern auch eine Live-Ereignis Richtlinie wie
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
-1. Wechseln Sie **** > zu den**Live Events-Richtlinien**für Besprechungen.
+1. Wechseln Sie zu den**Live Events-Richtlinien**für **Besprechungen** > .
 2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
 3. Wählen Sie **Benutzer verwalten**aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
@@ -108,7 +108,7 @@ Die folgenden Sdn/ECDN-Lösungen sind bereits integriert und können für die Ve
 
 - **Hive-Streaming** bietet eine einfache und leistungsstarke Lösung für Live-und on-Demand-Unternehmens-Videoverteilung. Hive ist eine softwarebasierte Lösung, die keine zusätzliche Hardware oder Bandbreite benötigt und eine sichere Methode bietet, um Tausende von gleichzeitigen Videoprojektoren ohne Auswirkungen auf Ihr Netzwerk zu ermöglichen. Für Kunden, die das Impact-Video vor dem Kauf einer Sdn/ECDN-Lösung in Ihrem Netzwerk verstehen möchten, bietet Hive-Streaming auch eine browserbasierte Analyse Lösung für Microsoft-Kunden. [Weitere Informationen](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** ist eine Cloud-basierte, intelligente Peering-Verteilungsplattform, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formularen zu liefern (Live-Streaming-Video, on-Demand-Video, Software-Updates, Sicherheitspatches usw.) schneller, mehr zuverlässig und mit geringerer Bandbreite. Unsere sichere Plattform wird von den größten Finanzinstituten der Welt als vertrauenswürdig eingestuft, und ohne zusätzliche Hardware sind Setup und Wartung einfach. [Weitere Informationen](http://www.kollective.com).
+- **Kollective** ist eine Cloud-basierte, intelligente Peering-Verteilungsplattform, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formularen zu liefern (Live-Streaming-Video, on-Demand-Video, Software-Updates, Sicherheitspatches usw.) schneller, mehr zuverlässig und mit geringerer Bandbreite. Unsere sichere Plattform wird von den größten Finanzinstituten der Welt als vertrauenswürdig eingestuft, und ohne zusätzliche Hardware sind Setup und Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
  
 - Das **OmniCache** bietet eine Netzwerk Verteilung der nächsten Generation und gewährleistet die nahtlose Bereitstellung von Videoinhalten über das globale WANs hinweg, wodurch Event Producer die Netzwerkbandbreite optimieren und erfolgreiche Live-Event-Broadcasts und on-Demand unterstützen können. Streaming. Die Unterstützung für OmniCache für Live-Events, die in Teams erstellt wurden, wird in Kürze verfügbar sein. [Weitere Informationen](http://www.ramp.com). 
  

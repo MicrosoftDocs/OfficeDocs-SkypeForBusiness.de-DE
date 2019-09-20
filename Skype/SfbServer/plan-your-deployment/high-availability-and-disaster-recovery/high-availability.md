@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Verwaltung von Front-End-Pools in Skype for Business Server, einschließlich Verwalten von Pools, Quorum Verlust und speziellen Schritten für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221723"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047092"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -52,7 +52,7 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 |11  <br/> |9  <br/> |
 |12  <br/> |10  <br/> |
    
-Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit Sie nicht auf einem Quorum Verlust auf Poolebene sind), können Sie `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` das Cmdlet verwenden, um den Pool zu aktivieren, um den Quorum Verlust auf Routinggruppen Ebene wiederherzustellen und Fortschritte zu erzielen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter <link Reset-CsPoolRegistrarState>.
+Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit Sie nicht auf einem Quorum Verlust auf Poolebene sind), können Sie `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` das Cmdlet verwenden, um den Pool zu aktivieren, um den Quorum Verlust auf Routinggruppen Ebene wiederherzustellen und Fortschritte zu erzielen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
 > In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren, zur Spiegelkopie wechseln und ausreichend Front-End-Server herunterfahren, sodass (entsprechend der vorstehenden Tabelle) nicht genügend von ihnen aktiv sind, fällt der gesamte Pool aus. Weitere Informationen finden Sie unter [Daten Bank Spiegelungs Zeuge](https://go.microsoft.com/fwlink/?LinkId=393672). 
