@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047040"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062891"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -155,10 +155,6 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |:-----|:-----|:-----|:-----|
 |Wenn Sie ein Laufwerk symbolisch mit „C:\users“ verknüpfen oder diesem Verzeichnis zuordnen, wird die App mit einem weißen Bildschirm gestartet.  <br/> |Wenn der Standardspeicherort von `C:\users\<user>\appData` durch Verschieben des Ordners `C:\users` oder mithilfe einer symbolischen Verknüpfung geändert wird, wird die App mit einem weißen Bildschirm gestartet.   <br/> |Eine Problemumgehung ist nicht bekannt. Wenn die Zuordnung erforderlich ist, sollten Sie die Webversion von Microsoft Teams verwenden.   <br/> |13.03.2017  <br/> |
 
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Anwesenheitsinformationen in der Office-Anwendung werden nicht angezeigt, nachdem der Benutzer in die TeamsOnly-Umgebung verschoben wurde. <br/> |Wenn ein Benutzer in die TeamsOnly-Umgebung verschoben und der Skype for Business-Client deinstalliert wird, funktionieren die Anwesenheitsinformationen nicht mehr.  <br/> |Damit Anwesenheitsinformationen in Outlook funktionieren, müssen Sie Skype for Business in die Office-Bereitstellung einbeziehen, auch wenn Sie beabsichtigen, nur Microsoft Teams zu verwenden.  Für die Zukunft ist geplant, die Skype for Business-Abhängigkeit zu entfernen, aber es gibt noch keinen Zeitplan dafür.     <br/> |9/2019  <br/> |
-
 ## <a name="environment"></a>Umgebung
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -253,6 +249,12 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Sie können in der Desktop-App nicht festlegen, dass nicht beantwortete Anrufe zu Voicemail umgeleitet werden.|Bei Benutzern im Nur-Teams-Modus sind deren Exchange-Postfächer lokal verfügbar. Wenn sie in der Microsoft Team-Desktop-App auf **Einstellungen** > **Anrufe** zugreifen, können sie die Option zum Weiterleiten von Anrufen an Voicemail (nicht beantwortete Anrufe oder alle Anrufe) nicht auswählen. Wurde eine der beiden Optionen bereits zuvor konfiguriert, wird durch Öffnen der Registerkarte "Anrufe" in "Einstellungen" die Weiterleitung zu Voicemail deaktiviert.|Konfigurieren Sie die Weiterleitung an Voicemail mithilfe der mobilen Microsoft Teams-App.|27.5.2019|
+
+## <a name="presence"></a>Anwesenheit
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Anwesenheitsinformationen in Outlook und anderen Office-Anwendung werden nicht angezeigt, nachdem ein Benutzer in den **TeamsOnly**-Modus verschoben wurde. <br/> |Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **TeamsOnly**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei.  <br/> |Wenn Sie die Anwesenheitsinformationen in Outlook (und anderen Office-Apps) anzeigen möchten, muss Skype for Business installiert sein, auch wenn Sie Microsoft Teams im **Teams Only**-Modus ausführen. Das Problem ist Microsoft bekannt, und es wird gerade an einer Lösung gearbeitet.  <br/> |9/2019  <br/> |
+
 
 
 ## <a name="provisioning"></a>Bereitstellung
