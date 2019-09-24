@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645311"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131647"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -111,7 +111,7 @@ Führen Sie die nachstehenden Schritte aus, um die Basis-und Subdomänen zu konf
 
 Wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben, können Sie nur neue Domänen hinzufügen. 
 
-Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsofthttps://portal.office.com)365 Admin Center **** > an (wechseln Sie zu**aktive**Benutzer von Benutzern, und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
+Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsofthttps://portal.office.com)365 Admin Center an (wechseln Sie zu > **aktive**Benutzer **von Benutzern,** und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter Informationen zu [Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -152,7 +152,7 @@ Sie müssen für jeden Kunden einen eindeutigen Subdomain-Namen erstellen. In di
 
 Wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben, können Sie nur neue Domänen hinzufügen. 
 
-Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsofthttps://portal.office.com)365 Admin Center **** > an (wechseln Sie zu**aktive**Benutzer von Benutzern, und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
+Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsofthttps://portal.office.com)365 Admin Center an (wechseln Sie zu > **aktive**Benutzer **von Benutzern,** und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter Informationen zu [Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -169,7 +169,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 5. Klicken Sie auf **weiter**, und notieren Sie sich den generierten txt-Wert, um den Domänennamen zu überprüfen.
 
-    ![Screenshot der Texteinträge auf der Seite "Domäne überprüfen"](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Screenshot von Texteinträgen auf der Seite "Domäne überprüfen"](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Erstellen Sie den TXT-Eintrag mit dem Wert aus dem vorherigen Schritt im DNS-Hostinganbieter des Carriers.
 
@@ -229,6 +229,7 @@ Es wurden zwei neue Entitäten eingeführt:
 -    Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
 -   Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
 -   Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
+-   Der Netzbetreiber muss den DNS-Eintrag einrichten, der den FQDN des abgeleiteten Trunks zu Carrier SBC-IP-Adresse auflöst.
 
 -   Alle Änderungen, die an einem Netzbetreiber Stamm (auf dem Carrier-Mandanten) vorgenommen wurden, werden automatisch auf abgeleitete Stämme angewendet. Beispielsweise können Netzbetreiber einen SIP-Port auf dem Carrier-trunk ändern, und diese Änderung gilt für alle abgeleiteten Trunks. Neue Logik zum Konfigurieren der Trunks vereinfacht die Verwaltung, da Sie nicht zu jedem Mandanten wechseln und den Parameter für jeden trunk ändern müssen.
 -   Die Optionen werden nur an den FQDN des Carrier Trunks gesendet. Der Integritätsstatus des Träger Trunks wird auf alle abgeleiteten Stämme angewendet und für Routingentscheidungen verwendet. Weitere Informationen zu den [Optionen für das direkte Routing](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).

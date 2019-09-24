@@ -15,12 +15,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht "Geräteverwendung für Teams" verwenden, um zu sehen, wie Benutzer in Ihrer Organisation mit Teams verbunden sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfe8b11d633a8848d73e87c8fe0b4ecc8854062f
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667116"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131625"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams – Gerätenutzungsbericht
 
@@ -28,10 +28,10 @@ Der Bericht "Teams-Gerätenutzung" im Microsoft Teams Admin Center bietet Inform
 
 ## <a name="view-the-report"></a>Anzeigen des Berichts
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analyse #a0 Berichte**, und wählen Sie dann unter **Bericht**die Option **Teams-Gerätenutzung**aus.
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Gerätenutzung**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-    Screenshot ![des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen] Screenshot (../media/teams-reports-device-usage-with-callouts.png "des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen")
+    ![Screenshot des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen] (../media/teams-reports-device-usage-with-callouts.png "Screenshot des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 

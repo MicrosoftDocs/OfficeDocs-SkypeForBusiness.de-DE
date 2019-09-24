@@ -16,12 +16,12 @@ ms.collection:
 description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29675485d9a23b184641e8fa855fe2d87b4b80ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234745"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131574"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -36,7 +36,7 @@ Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administr
 
 ## <a name="teams-reporting-reference"></a>Referenz für Teams-Berichterstattung
 
-Nachfolgend finden Sie eine Liste der Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen, sowie eine Übersicht über die Informationen, die in den einzelnen Berichten zur Verfügung stehen.
+Nachfolgend finden Sie eine Liste der Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen, sowie eine Übersicht über einige der Informationen, die in den einzelnen Berichten zur Verfügung stehen.
 
 Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen in den Berichten erstellen und neue Berichte im Microsoft Teams Admin Center hinzufügen.
 
@@ -46,6 +46,9 @@ Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Featur
 |[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, an denen ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
 |[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>IOS-Benutzer<br/>Android-Telefon Nutzer     |
 |[Bericht zur Live-Ereignis Nutzung in Teams](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufnahmeeinstellung<br>Produktionsart    |
+|[Berichte über PSTN-blockierte Benutzer von Teams](pstn-blocked-users-report.md)   |  Anzeigename<br>Telefonnummer<br>Grund<br>Aktionstyp<br>Datum und Uhrzeit der Aktion   |
+|[PSTN-Nutzungsbericht für Teams – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefonnummer<br>Anruftyp <br>Aufgerufen an<br>Zu Land oder Region <br>Aufgerufen von <br>Aus Land oder Region<br>Kostenlos<br>Währung<br>Dauer<br>Domestic/International<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|
+|[PSTN-Nutzungsbericht für Teams – Direktes Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefonnummer <br>Anruftyp<br>Aufgerufen an<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Bereich<br>Ereignistyp<br>Endgültiger SIP-Code<br>Letzter Microsoft-Subcode<br>Endgültige SIP-Phrase<br>Kennung  |
 
 > [!NOTE]
 > In den Teams-Berichten werden Daten für aktive Benutzer und aktive Teams angezeigt. Wenn beispielsweise ein Benutzer in Ihrer Organisation während des für einen Bericht angegebenen Datumsbereichs nicht in Teams aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.
