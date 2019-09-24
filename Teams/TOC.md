@@ -82,8 +82,10 @@
 ### Analysen und Berichte im Microsoft Team Admin Center 
 #### [Übersicht](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams-Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md)
-#### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams-Gerätenutzungsbericht](teams-analytics-and-reports/device-usage-report.md)
+#### [Bericht "PSTN-blockierte Benutzer"](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Bericht "PSTN-Verbrauch"](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams-Liveereignis-Nutzungsbericht](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](teams-activity-reports.md)
 
@@ -780,6 +782,7 @@
 ### [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ### [Verwenden des Netzwerkplaners für Teams](network-planner.md)
+### [Netzwerkplanner – Exemplarische Vorgehensweise](tutorial-network-planner-example.yml)
 ### [Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
 ### [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 ### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
