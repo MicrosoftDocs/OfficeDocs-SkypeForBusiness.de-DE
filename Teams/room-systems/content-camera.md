@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774567"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142066"
 ---
 # <a name="content-cameras"></a>Content-Kameras
 
@@ -97,3 +97,7 @@ Sie können diese Einstellungen auch Remote mithilfe einer [XML-Konfigurationsda
 [Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md)
 
 [Anforderungen für Microsoft Teams-Räume](requirements.md)
+
+> [!NOTE]
+> Bestimmte Microsoft Teams Room-Geräte mit Microsoft Surface pro-basierten Konsolen (wie Logitech Smartdock und Crestron SR) unterstützen noch keine Inhalts Kamera. Die Unterstützung für diese Geräte wird später in CY2019 hinzugefügt. 
+>

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240771"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142056"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -32,7 +32,7 @@ Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produkti
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie in der [Übersicht zu Teams und Kanälen in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen zur Einführung von Teams finden Sie im [Leitfaden zur Einführung von Teams](https:aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365-Gruppen finden Sie unter [Office 365-Gruppen und Microsoft Teams](office-365-groups.md) und [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Weitere Informationen zu Teams und Kanälen finden Sie in der [Übersicht zu Teams und Kanälen in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen zur Einführung von Teams finden Sie im [Leitfaden zur Einführung von Teams](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365-Gruppen finden Sie unter [Office 365-Gruppen und Microsoft Teams](office-365-groups.md) und [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
