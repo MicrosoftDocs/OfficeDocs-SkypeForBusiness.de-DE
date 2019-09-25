@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233283"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142045"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in Shifts in Microsoft Teams
 
@@ -88,9 +88,11 @@ Sie verwalten Microsoft Teams-Lizenzen im Microsoft 365 Admin Center. Weitere In
 > [!NOTE]
 > Wenn Ihre Organisation Skype for Business verwendet und Sie nicht bereit sind, alle Ihre Benutzer in Microsoft Teams zu verschieben, können Sie Microsoft Teams für Ihre Mitarbeiter in Service und Produktion aktivieren, die dann Microsoft Teams neben Skype for Business ausführen können. In diesem Koexistenzmodus, der als *Inseln* genannt wird, arbeitet jede Client-App als separate Lösung. Weitere Informationen finden Sie unter [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="install-the-staffhub-powershell-module"></a>Installieren des StaffHub PowerShell-Moduls
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>Installieren der Vorabversion des StaffHub PowerShell-Moduls
 
-Falls noch nicht installiert, [installieren Sie das StaffHub PowerShell-Modul](install-the-staffhub-powershell-module.md). 
+[Installieren Sie die Vorabversion des StaffHub PowerShell-Moduls](install-the-staffhub-powershell-module.md), sofern noch nicht geschehen. 
+
+Sie müssen die Vorabversion des-Moduls installiert haben, um Ihre StaffHub-Teams in Microsoft Teams zu verschieben.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>Verknüpfen eines Azure AD-Kontos für StaffHub-Teammitglieder, die über keines verfügen
 
