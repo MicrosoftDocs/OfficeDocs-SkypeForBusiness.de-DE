@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Hier erfahren Sie, wie Sie Probleme für Administratoren und Benutzer von Skype for Business in Office 365 beheben.
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285054"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275514"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business
 
@@ -31,7 +31,7 @@ Manchmal funktioniert nicht alles wie erwartet. Hier finden Sie eine Liste von T
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Beheben von Administrator-Problemen in Skype for Business Online
 
-Sie können Antworten auf die meisten Ihrer Skype for Business Online-Fragen erhalten, indem Sie [auf häufige Ursachen für Anmeldefehler in Skype for Business Online prüfen](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Dieser KB-Artikel enthält zudem viele Problembehandlungsressourcen und Fehlercodeverweise: [Problembehandlung bei Anmeldefehlern in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Antworten auf die meisten Ihrer Skype for Business Online-Fragen finden Sie im Artikel [Überprüfen der häufigsten Ursachen für Anmeldefehler in Skype for Business Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Der folgende KB-Artikel enthält auch viele Problembehandlungsressourcen und Fehlercode Verweise: [Problembehandlung bei Anmeldefehlern bei Skype for Business Online für Administratoren](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
 
 Informationen zu Problemen bei Einwahlkonferenzen finden Sie unter [Problembehandlung und bekannte Probleme bei Audiokonferenzen](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
