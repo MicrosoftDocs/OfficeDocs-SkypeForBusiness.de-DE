@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 154588eb1008bd1cd2749642fb2b9c994d9fb647
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232336"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306682"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -47,8 +47,6 @@ Die folgenden Einstellungen sind für medizinische Anwendungen von besonderem In
     *Verwendungsbeispiel mit Lesebestätigungen:* Jakob Roth, ein Patient mit einem Höchstrisiko, wird zum Krankenhaus zugelassen.Sofia Krause ist eine Krankenschwester, die als Teil des interdisziplinären Teams (IDT) von medizinischen Arbeitern, darunter verschiedene Spezialisten, als primärer Betreuer für diesen Patienten verantwortlich ist.  Sofia startet einen Gruppen-Chat mit einer Reihe von Ärzten und anderen Krankenschwestern, die mit dem Patienten zusammenarbeiten werden, um die Behandlung zu koordinieren und eine Notfall-Triage zu starten.Die Krankenschwestern und Ärzte kommunizieren und Arbeiten über den Pflegeplan des Patienten während des Pflege Koordinationsprozesses zusammen.  Wichtige und dringende Nachrichten werden über 1:1 und Gruppen-Chat-Unterhaltungen gesendet. Sofia verwendet die Lese Bestätigungsfunktion, um festzustellen, ob Nachrichten, die Support anfordern, von den Ziel Ärzten oder Krankenschwestern zugestellt und gelesen werden. Jakobs Patientenergebnisse sind nahezu optimal und er geht früher nach Hause, weil sein Betreuerteam reibungslos kommuniziert.
 
 ## <a name="priority-notifications"></a>Prioritäts Benachrichtigungen
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
