@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062891"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305686"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -59,11 +59,11 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Die App „Aufgaben“ bleibt sichtbar, obwohl sie deaktiviert wurde.  <br/> |Wenn die App „Aufgaben“ im Admin Center deaktiviert wird, bleibt sie für Benutzer mit EDU-Lizenz im Microsoft Teams-Client sichtbar. Wenn die deaktivierte App ausgewählt wird, wird die folgende Fehlermeldung zurückgegeben: „Leider ist etwas schiefgegangen ...“.  <br/> |Keine Problemumgehung.  <br/> |29.12.2017  <br/> |
+|Die App „Assignments“ (Aufgaben) bleibt sichtbar, auch wenn diese deaktiviert wurde.  <br/> |Wenn die App „Aufgaben“ im Admin Center deaktiviert wird, bleibt sie für Benutzer mit EDU-Lizenz im Microsoft Teams-Client sichtbar. Wenn die deaktivierte App ausgewählt wird, wird die folgende Fehlermeldung zurückgegeben: „Leider ist etwas schiefgegangen ...“.  <br/> |Keine Problemumgehung.  <br/> |29.12.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Es ist nicht möglich, als Teambesitzer Connectors zu löschen.  <br/> |Beim Versuch, als Besitzer, der sonst Connectors hinzufügen kann, einen Connector zu löschen, während „Zulassen, dass Mitglieder Connectors erstellen, aktualisieren und entfernen“ deaktiviert ist, wird eine Fehlermeldung ausgelöst. Aus dieser geht hervor, dass der Benutzer nicht über die entsprechende Berechtigung verfügt. <br/> |Wenn „Zulassen, dass Mitglieder Connectors erstellen, aktualisieren und entfernen“ vorübergehend aktiviert wird, kann der Besitzer den Connector löschen.  <br/> |27.07.2018  <br/> |
+|Es ist nicht möglich, als Teambesitzer Connectors zu löschen.  <br/> |Beim Versuch, als Besitzer, der ansonsten Connectoren hinzufügen kann, einen Connector zu löschen, während „Zulassen, dass Mitglieder Connectoren erstellen, aktualisieren und entfernen“ deaktiviert ist, wird eine Fehlermeldung ausgelöst. Aus dieser geht hervor, dass der Benutzer nicht über die entsprechende Berechtigung verfügt. <br/> |Wenn „Zulassen, dass Mitglieder Connectors erstellen, aktualisieren und entfernen“ vorübergehend aktiviert wird, kann der Besitzer den Connector löschen.  <br/> |27.07.2018  <br/> |
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -76,6 +76,8 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
 |Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Siehe [Verwenden von dynamischen IDs für Audiokonferenzen in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
 |PSTN-Besprechungs-Koordinaten sind nicht verfügbar für lokale Benutzer von Skype for Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype Business-Benutzer handelt, der mit Lizenzen für Skype for Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung.  <br/> |01.02.2018  <br/> |
+
+|Informationen zur Cloud Video Interoperabilität in „Meet Now“  <br/> |Wenn Sie in Microsoft Teams mit einer vorhandenen CVI-Lizenz einen Meet Now-Vorgang für eine Besprechung erstellen, werden die CVI-Informationen nicht ausgefüllt. <br/> |Die Empfehlung lautet, die Besprechung so zu planen, dass diese Informationen ausgefüllt werden.  <br/> |11.06.2019  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
 
@@ -192,7 +194,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Kein Audio beim Freigeben von Inhalten während einer Livekonferenz  <br/> |Beim Freigeben von Inhalten während einer Livekonferenz können die Teilnehmer das Audio des freigegebenen Inhalts (YouTube-Link oder gespeicherte Videodatei) nicht hören.  <br/> |Dies ist nicht vorgesehen.  Microsoft Teams unterstützt zurzeit kein Audio bei der Inhaltsfreigabe.  <br/> |09.10.2018  <br/> |
+|Kein Audio beim Freigeben von Inhalten während einer Livekonferenz  <br/> |Beim Freigeben von Inhalten während einer Livekonferenz können die Teilnehmer das Audio des freigegebenen Inhalts (YouTube-Link oder eine gespeicherte Videodatei) nicht hören.  <br/> |Dies ist nicht vorgesehen.  Microsoft Teams unterstützt zurzeit kein Audio bei der Inhaltsfreigabe.  <br/> |09.10.2018  <br/> |
 
 ## <a name="mobile"></a>Mobil
 
@@ -318,6 +320,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
+|Teams Voicemail-E-Mails treffen mit SPF-Fehler ein, wenn es sich um einen SIP-Anruf handelt. Handelt es sich um einen PSTN-Anruf an einen Benutzer, werden Sie mit dem Form-Attribut ohne den richtigen Wert eintreffen, sofern der Kunde eine Regel hat, derzufolge er die SPF-Voicemails analysiert, wo dies über ETR festgelegt wird. <br/> | <br/> | 29.08.2019 Eine Problemumgebung fügt in ETR eine Ausnahme hinzu, wenn es sich bei der Nachricht um eine Voicemail handelt.
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
 |Der Upload von Fotos in Microsoft Teams wird in OWA/Outlook nicht gemäß der Richtlinie blockiert.   <br/> | Microsoft Teams lässt zu, dass Benutzer Fotos direkt in Office 365 hochladen, obwohl Richtlinieneinstellungen vorhanden sind, die Fotouploads für OWA verhindern.   <br/> |<br/>  |16.10.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -326,7 +332,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Teamnamen mit Sonderzeichen können zu Fehlern beim Erstellen von Besprechungen führen.  <br/> |Benutzern wird in Rot die Fehlermeldung **error has occured** (Ein Fehler ist aufgetreten) angezeigt, wenn sie versuchen, eine Besprechung für ein Team zu erstellen, dessen Name Sonderzeichen enthält.   <br/> |Benennen Sie das Team um, oder erstellen Sie ein neues Team mit einem Namen, in dem das Zeichen „/“ nicht enthalten ist.  <br/> |13.07.2017  <br/> |
+|Teamnamen mit Sonderzeichen können zu Fehlern beim Erstellen von Besprechungen führen.  <br/> |Benutzern wird in Rot die Fehlermeldung **Error has occured** (Ein Fehler ist aufgetreten) angezeigt, wenn diese versuchen, eine Besprechung für ein Team zu erstellen, dessen Name Sonderzeichen enthält.   <br/> |Benennen Sie das Team um, oder erstellen Sie ein neues Team mit einem Namen, in dem das Zeichen „/“ nicht enthalten ist.  <br/> |13.07.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -346,7 +352,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzer erhält keine Willkommens-E-Mail, wenn er durch den Administrator hinzugefügt wird.  <br/> |Wenn Sie ein Mitglied mit PowerShell oder über das Teams Admin Center zu einem Team hinzufügen, erhalten Sie keine Willkommens-E-Mail von Microsoft Teams.  <br/> |Wenn Sie ein Mitglied direkt über die Teams-Benutzeroberfläche hinzufügen, wird eine E-Mail gesendet. Derzeit gibt es keine Problemumgehung beim Durchführen dieser Aufgabe durch den Administrator.  <br/> |12.2.19  <br/> |
+|Benutzer erhält keine Willkommens-E-Mail, wenn er durch den Administrator hinzugefügt wird.  <br/> |Wenn Sie ein Mitglied mit PowerShell oder über das Teams-Admin Center zu einem Team hinzufügen, erhalten Sie keine Willkommens-E-Mail von Microsoft Teams.  <br/> |Wenn Sie ein Mitglied direkt über die Teams-Benutzeroberfläche hinzufügen, wird eine E-Mail gesendet. Derzeit gibt es keine Problemumgehung beim Durchführen dieser Aufgabe durch den Administrator.  <br/> |12.2.19  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

@@ -18,12 +18,12 @@ description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838112"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305761"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================
@@ -70,8 +70,8 @@ In der folgenden Tabelle finden Sie einen Vergleich der Features des externen Zu
 | Der Benutzer wird als externer Partner gekennzeichnet | Ja | Ja |
 | Anwesenheit wird angezeigt | Ja | Ja |
 | Abwesenheitsnachricht wird angezeigt | Nein | Ja |
-| Ein einzelner Benutzer kann blockiert werden | Nein | Ja |
-| @Erwähnungen werden unterstützt | Nein | Ja |
+| Ein einzelner Benutzer kann blockiert werden | Nein | Nein |
+| @Mentions werden unterstützt | Nein | Ja |
 | Private Anrufe führen | Ja | Ja |
 | IP-Video zulassen | Ja | Ja |
 | Bildschirmfreigabemodus | Nein | Ja |

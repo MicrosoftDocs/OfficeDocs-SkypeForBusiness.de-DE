@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie mehr über die Funktionen, die Verfügbarkeit und die Planung und Einrichtung eines Telefonsystem (Cloud-PBX) für Ihr Unternehmen. '
-ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645259"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305785"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
@@ -65,7 +65,9 @@ Bei Verwendung des Office 365-Telefonsystems erhalten Ihre Skype for Business-Be
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sendet Ihre Anrufe entweder sofort oder nach einem bestimmten Zeitraum an Ihr Team.  <br/> |
 |[Tätigen und Annehmen eines Videoanrufs mit Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Sie können den Namen und den Videostream des Sprechers in einem kleinen unverankerten Fenster sehen, sodass Sie immer in der Lage sind, auf eine Frage zu antworten. <br/> |
 |[Prüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |So funktioniert Cloud-Voicemail: Wenn ein Nutzer eine Voicemail erhält, wird diese als E-Mail an das Postfach dieses Nutzers zugestellt, wobei die Voicemail-Nachricht als Anhang gesendet wird. Benutzer können ihre Nachrichten auch über ein Skype-zertifiziertes Festnetztelefon, alle Skype for Business-Anwendungen oder Lync für Mac 2011 anhören.  <br/> Cloud-Voicemail beinhaltet eine persönliche Begrüßung, eine Anzeige für wartende Nachrichten und das Antworten per Anruf. Ihre Voicemails können alle in Postfächern gespeichert und über Skype for Business auf Ihrem PC, Ihrem Mobilgerät und Ihrem IP-Telefon abgehört werden.  <br/> |
-|Wartemusik | Ab September 2019 wird eine vom Telefonsystem definierte Standardmusik wiedergegeben, wenn ein externer Anruf über das öffentliche Festnetz (PSTN) gehalten wird.  Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. (Alle anderen Plattformen geben einen visuellen Hinweis, wenn ein Benutzer auf Halten gesetzt wird, was für einen PSTN-Anrufer aber nicht ersichtlich ist). Beim ersten Release kann dieses Feature durch den Administrator nicht konfiguriert werden.| 
+|Wartemusik | Ab September 2019 wird eine vom Telefonsystem definierte Standardmusik wiedergegeben, wenn ein externer Anruf über das öffentliche Festnetz (PSTN) gehalten wird.  Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. (Alle anderen Plattformen geben einen visuellen Hinweis, wenn ein Benutzer auf Halten gesetzt wird, was für einen PSTN-Anrufer jedoch nicht ersichtlich ist). Beim ersten Release kann dieses Feature durch den Administrator nicht konfiguriert werden.| 
+|Umgekehrte Nummernsuche (Reverse Number Lookup, RNL) | Ab September 2019 wird im Telefonsystem die angerufene ID für eine externe Rufnummer angezeigt, wenn die Nummer einem Benutzer im AAD zugeordnet ist. Wenn sich die Telefonnummer nicht im AAD befindet, wird der bereitgestellte Telco-Anzeigenname angezeigt, sofern ein solcher verfügbar ist.  |
+
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planen und Einrichten des Office 365-Telefonsystems
 <a name="bkmk_setup"> </a>

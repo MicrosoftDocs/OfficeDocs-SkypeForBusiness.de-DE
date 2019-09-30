@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483946"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305750"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
@@ -41,7 +41,7 @@ Ganz gleich, ob Sie ein Upgrade von Skype for Business Online auf Microsoft Team
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Warum auf Microsoft Teams aktualisieren?
 
-Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicherung in einer einzigen Benutzeroberfläche an. Dieser neue zentrale Hub für Teamwork hilft Ihnen, die Art und Weise zu optimieren, wie Benutzer ihre Aufgaben erledigen, die Zufriedenheit der Benutzer zu steigern und Unternehmensergebnisse zu beschleunigen. Wir erweitern die Funktionen von Microsoft Teams kontinuierlich, damit Sie auf neue Weise kommunizieren und zusammenarbeiten, organisatorische und geographische Hindernisse überwinden und die Effizienz von Prozessen und Entscheidungsfindung zu steigern. Im Forrester-Bericht [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf) erfahren Sie mehr über die Vorteile des Upgrades auf Microsoft Teams.  
+Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicherung in einer einzigen Benutzeroberfläche an. Dieser neue zentrale Hub für Teamwork hilft Ihnen, die Art und Weise zu optimieren, wie Benutzer ihre Aufgaben erledigen, die Zufriedenheit der Benutzer zu steigern und Unternehmensergebnisse zu beschleunigen. Wir erweitern die Funktionen von Microsoft Teams kontinuierlich, damit Sie auf neue Weise kommunizieren und zusammenarbeiten, organisatorische und geographische Hindernisse überwinden und die Effizienz von Prozessen und Entscheidungsfindung zu steigern. Im Forrester-Bericht [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/de-DE/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf) erfahren Sie mehr über die Vorteile des Upgrades auf Microsoft Teams.  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>Wann sollte meine Organisation ein Upgrade auf Microsoft Teams durchführen?
 
@@ -53,7 +53,7 @@ Ja, Microsoft bietet mehrere Optionen für die gleichzeitige Verwendung von Skyp
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Wie hilft Microsoft seinen Kunden beim Upgrade auf Microsoft Teams? 
 
-Microsoft ist bestrebt, Ihnen bei einem erfolgreichen Umstieg von Skype for Business auf Microsoft Teams zu helfen. Microsoft stellt einen soliden Leitfaden bereit, der auf einem bewährten Framework für ein erfolgreiches End-to-End-Upgrade basiert und Ihnen bei der Planung und Durchführung des Upgrades für Microsoft Teams hilft. In unserem Leitfaden wird jede Phase des Upgrades behandelt – ganz gleich, ob Sie gerade erst mit der Planung beginnen, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für die Umstellung auf Microsoft Teams sind.
+Microsoft ist bestrebt, Ihnen bei einem erfolgreichen Umstieg von Skype for Business auf Microsoft Teams zu helfen. Microsoft stellt einen soliden Leitfaden bereit, der auf einem bewährten Framework für ein erfolgreiches End-to-End-Upgrade basiert und Ihnen bei der Planung und Durchführung des Upgrades auf Teams hilft. In unserem Leitfaden wird jede Phase des Upgrades behandelt – ganz gleich, ob Sie gerade erst mit der Planung beginnen, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für die Umstellung auf Microsoft Teams sind.
 
 Um die Planung und Implementierung Ihres Upgrades zu vereinfachen, bietet Microsoft ergänzende, interaktive Liveworkshops zur Upgradeplanung, die dazu bestimmt sind, sich mit dem Upgradeframeworks vertraut machen, Einblicke in die Vorbereitung Ihrer Benutzer auf das Upgrade zu geben und den richtigen Weg zur die Umstellung auf Microsoft Teams für Ihre Organisation zu finden. Nehmen Sie an der Sitzung "Übersicht über die Upgradeplanung" teil: [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning).
  
