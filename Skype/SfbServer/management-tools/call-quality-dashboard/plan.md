@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Hier erfahren Sie, was Sie bei der Planung des Anruf Qualitäts Dashboards Bedenken sollten.'
-ms.openlocfilehash: 84fa8672e561cbf91714b3d18276de401f2ab377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274667"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328437"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen des Anruf Qualitäts Dashboards für Skype for Business Server 
  
@@ -27,15 +27,14 @@ ms.locfileid: "34274667"
 Das Skype for Business Server-Anruf Qualitäts Dashboard (CQD) ist eine Bericht Erstellungs Schicht über der Datenbank "Quality of Experience" auf dem Monitoring Server in Skype for Business Server. CQD verwendet Microsoft SQL Server Analysis Services, um aggregierte Verwendung und Informationen zur Anrufqualität sowie zum Filtern und pivotieren für das Dataset bereitzustellen. Zu den CQD-Features gehören:
   
 - **Archivierungsspeicher von QoE-Daten über die QoE-Archivierungs Komponente von CQD.** Die QoE-Archiv Komponente kann QoE-Daten für eine wesentlich längere Dauer als der Überwachungs Server speichern. Dies ermöglicht Trend-und Berichterstellung für bis zu sieben Monate Daten zu einem Zeitpunkt, wobei die Möglichkeit besteht, das Berichtsfenster so weit zurück zu schieben, wie Daten vorhanden sind.
-    
 - **Berichterstellung und Analyse mithilfe der Leistungsfähigkeit und Geschwindigkeit von Microsoft SQL Server Analysis Services.** CQD verwendet Microsoft SQL Analysis Services, um schnelle Zusammenfassungs-, Filter-und Schwenkfunktionen bereitzustellen, um das Dashboard über einen Analyse Cube zu schalten. Die Berichts Ausführungsgeschwindigkeit und die Möglichkeit, einen Drilldown in die Daten durchführen, können die Analysezeiten drastisch reduzieren.
-    
 - **Neues Datenschema, das für die Anruf Qualitätsberichterstattung optimiert wurde.** Der Cube verfügt über ein Schema, das für Berichte und Untersuchungen zur Sprachqualität entwickelt wurde. Portal Benutzer können sich auf die Berichterstattungsaufgaben konzentrieren, anstatt herauszufinden, wie das Datenbankschema der QoE-Metrik den Ansichten zugeordnet ist, die Sie benötigen. Die Kombination aus QoE-Archiv und Cube bietet eine Abstraktion, die die Komplexität von Berichterstellung und Analyse mithilfe von CQD verringert. Das QoE-Archivdaten Bank Schema enthält auch Tabellen, die mit bereitstellungsspezifischen Daten aufgefüllt werden können, um den Gesamtwert der Daten zu verbessern.
-    
 - **Integrierter Berichts-Designer und die direkte Berichts Bearbeitung.** Die Portal-Komponente enthält verschiedene integrierte Berichte, die nach der Methode der Anrufqualität modelliert wurden. Portalbenutzer können mithilfe der Bearbeitungsfunktion des Portals die Berichte ändern und neue Berichte erstellen.
-    
 - **Web-API-Zugriff auf die Berichtsstruktur und die Analysis-Cubedaten.** Das Dashboard-Berichterstattungs Framework ist nicht die einzige Möglichkeit, die Daten aus dem Cube anzuzeigen. CQD bietet einige Beispiele für die Verwendung von HTML und JavaScript zum Abrufen von Daten aus den CQD-webapis und zum Rendern der Daten in einem benutzerdefinierten Format. Die Kombination aus dem Berichts-Editor und den CQD Web-APIs ermöglicht ein schnelles Prototyping von Berichten und ein benutzerdefiniertes Berichtslayout.
-    
+
+> [!NOTE]
+> Ein Administrator kann nun Skype for Business Server 2019 mit [CQD Version 3](https://cqd.teams.microsoft.com) (mit Administratoranmeldeinformationen anmelden) verwalten. Dies erfordert eine Hybrid Implementierung und die Verwendung von Call Data Connector (CDC). Weitere Informationen zum Aktivieren von CDC finden Sie unter [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) . Informationen zu CQD Version 3-Dokumentation finden Sie unter [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) , um weitere Informationen zu CQD Version 3 zu erhalten.
+
 ## <a name="cqd-design-goals"></a>CQD-Entwurfsziele
 
 Mit CQD können IT-Profis Daten aggregieren, um die Bereiche in ihrer Umgebung zu ermitteln, in denen die Medienqualität beeinträchtigt ist. CQD ermöglicht den Vergleich von Statistiken für verschiedene Benutzergruppen und die Ermittlung von Trends und Mustern. Dabei liegt der Schwerpunkt nicht auf der Lösung individueller Probleme mit Anrufen, sondern auf der Erkennung von Problemen und Lösungen, die auf viele Benutzer in einer bestimmten Umgebung anwendbar sind. 
@@ -162,8 +161,15 @@ CQD, einschließlich aller Komponenten und abhängigen Komponenten, kann auf ein
   
 |||
 |:-----|:-----|
+|Für CQD 2015 <br/> |  <br/> |
 |Unterstützte Betriebssysteme  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
 |Unterstützte SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
+
+|||
+|:-----|:-----|
+|Für CQD 2019 <br/> |  <br/> |
+|Unterstützte Betriebssysteme  <br/> |Windows Server 2016, Windows Server 2019  <br/> |
+|Unterstützte SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
    
 CQD nutzt Microsoft SQL Server, Microsoft SQL Server Analysis Services und Microsoft Internet Information Services, damit die Mindestanforderungen an Hardware und Software von CQD im Grunde dieselben sind wie diese abhängigen Komponenten. Basierend auf den Anforderungen der Organisation bezüglich der Datenaktualität (die zum Teil vom Umfang der von der Organisation generierten QoE-Daten abhängen wird) und den Bereitstellungskosten sollten jedoch weitere Überlegungen zur Bereitstellung getroffen werden.
   
@@ -187,7 +193,7 @@ In diesem Abschnitt wird davon ausgegangen, dass es in der Umgebung eine einzeln
 
 |**Maschine**|**CPU-Kerne**|**RAM**|**QoE-Archiv und Cube auf demselben Datenträger**|**QoE-Archiv und SQL Temp DB auf demselben Datenträger**|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtueller Computer  <br/> |4  <br/> |7 GB  <br/> |Ja   <br/> |Ja  <br/> |
+|Virtueller Computer  <br/> |4  <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
 |4 Kern  <br/> |4  <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
 |8 Kern  <br/> |8  <br/> |32 GB  <br/> |Ja  <br/> |Nein  <br/> |
 |16 Kern  <br/> |16  <br/> |128 GB  <br/> |Nein  <br/> |Nein  <br/> |
@@ -240,6 +246,8 @@ Die folgenden Betriebssysteme sind für CQD erforderlich:
 - Windows Server 2012 R2 mit IIS 8,5
 
 - Windows Server 2016 mit IIS 10,0 (nur Skype for Business Server 2019 CQD)
+
+- Windows Server 2019 (nur Skype for Business Server 2019 CQD)
     
 Im folgenden finden Sie die erforderlichen IIS-Rollendienste (in hierarchischer Reihenfolge):
   
@@ -253,7 +261,7 @@ Im folgenden finden Sie die erforderlichen IIS-Rollendienste (in hierarchischer 
     
   - Anwendungsentwicklung
     
-  - ASP.net
+  - ASP.NET
     
   - ISAPI-Filter
     
@@ -272,7 +280,7 @@ Im folgenden finden Sie die erforderlichen IIS-Rollendienste (in hierarchischer 
   - IIS-Verwaltungskonsole
     
 > [!NOTE]
->  Beachten Sie die folgenden Punkte für die oben genannten Anforderungen: > 3,5-und 4,5-Versionen von .NET Framework stehen zur Verfügung. Beide sind erforderlich (genauer gesagt, 3,5 SP1 erforderlich). > in einigen Systemen, wenn ASP.net vor der IIS-Installation eingerichtet ist, ist ASP.net möglicherweise nicht in IIS registriert. Das Problem manifestiert sich dadurch, dass für die entsprechende .NET-Version keine Anwendungspools vorhanden sind und auch die .NET CLR-Version in der APP-Pool-Konfiguration fehlt. Wenn Sie ein solches Problem unter Windows Server 2008 R2 beheben `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`möchten, führen Sie. Unter Windows Server 2012 und Windows Server 2012 R2 wird Execute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` befolgt, indem das ServiceModel-Modul von der Standardwebsite in IIS-Manager entfernt wird. >-Verwaltungstools sind optional, werden jedoch empfohlen.
+>  Beachten Sie die folgenden Punkte für die oben genannten Anforderungen: #a0 3,5-und 4,5-Versionen von .NET Framework verfügbar sind. Beide sind erforderlich (genauer gesagt, 3,5 SP1 erforderlich). #a0 in einigen Systemen, wenn ASP.net vor der IIS-Installation eingerichtet ist, ist ASP.net möglicherweise nicht in IIS registriert. Das Problem manifestiert sich dadurch, dass für die entsprechende .NET-Version keine Anwendungspools vorhanden sind und auch die .NET CLR-Version in der APP-Pool-Konfiguration fehlt. Wenn Sie ein solches Problem unter Windows Server 2008 R2 beheben `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`möchten, führen Sie. Unter Windows Server 2012 und Windows Server 2012 R2 wird Execute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` befolgt, indem das ServiceModel-Modul von der Standardwebsite in IIS-Manager entfernt wird. #a0-Verwaltungstools sind optional, werden jedoch empfohlen.
   
 Führen Sie die folgenden Schritte aus, um diese Anforderungen mithilfe von PowerShell zu installieren:
   
@@ -293,6 +301,8 @@ Die folgenden Versionen von SQL Server werden unterstützt:
 - SQL Server 2016
 
 - SQL Server 2017
+
+- SQL Server 2019 (nur Skype for Business Server 2019 CQD)
     
 Business Intelligence oder Enterprise Edition wird aus Leistungsgründen empfohlen. Diese Editionen ermöglichen die Verwendung mehrerer Partitionsdateien, die parallel verarbeitet werden können, was für die Verarbeitung von Daten, die mehrere Monate oder länger dauern, vorteilhaft ist. 
   

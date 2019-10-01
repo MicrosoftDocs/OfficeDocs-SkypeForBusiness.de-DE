@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online Telemetrie-Tools zum Überwachen einer lokalen Implementierung in einem Hybrid Szenario.
-ms.openlocfilehash: dc129ed99e1ed69e3faf5d2a7b6923f818c482eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160589"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328427"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Connectors für die Anrufdaten
 
@@ -23,8 +23,6 @@ ms.locfileid: "36160589"
 
 In diesem Thema werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung Skype for Business Server Anrufdaten-Konnektors beschrieben. Weitere Informationen zum Konfigurieren des Anruf datenkonnektors finden Sie unter [configure Call Data Connector](configure-call-data-connector.md).
 
-> [!NOTE]
-> Im öffentlichen Preview-Release steht nur das anrufanalyse-Dashboard zur Verfügung.
 
 Call Data Connector vereinfacht die Anrufüberwachung in einer Hybridumgebung erheblich, da Sie nicht mehr unterschiedliche Sätze von lokalen und Online Tools verwenden müssen, um die Anrufqualität Ihrer Benutzer zu überwachen. Unabhängig davon, ob Ihre Benutzer lokal oder online verwaltet werden, können Sie die Anrufqualität für Ihre gesamte Organisation online anzeigen.
 
@@ -54,7 +52,7 @@ Natürlich möchten Sie möglicherweise einige Daten zur Anrufqualität lokal sp
 
 ![SFB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
 Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zum Bereitstellen von Skype for Business Server und unterstützten Topologien finden Sie unter [Topologie Basics](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Zum Konfigurieren von Call Data Connector müssen Sie Folgendes tun:
 
@@ -73,6 +71,8 @@ Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for B
 
 > [!IMPORTANT]
 > Der Anrufdaten-Konnektor funktioniert nicht, wenn die Überwachung im Front-End-Pool nicht aktiviert ist.
+
+- [Server-zu-Server-Authentifizierung](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)ordnungsgemäß konfiguriert. 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Vergleich von CQD-Berichten (on-premises und Online Call Quality Dashboard)
 

@@ -10,19 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Konfigurieren des Anruf datenconnectors, mit dem die Telemetrie aus Skype for Business lokal mit Skype for Business Online Tools angezeigt werden kann.
-ms.openlocfilehash: 1851e1e0c430107a27d706f7bc16ad974c5abaed
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160603"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328374"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren des Connectors für die Anrufdaten
 
-In diesem Artikel wird beschrieben, wie Sie den Anruf Datenkonnektor konfigurieren – ein einzelnes Toolset, mit dem Skype for Business Server Daten zur Anrufqualität mithilfe von Skype for Business Online CQD-und Call Analytics (ca)-Tools angezeigt werden können. 
-
-> [!NOTE]
-> Im öffentlichen Preview-Release steht nur das anrufanalyse-Dashboard zur Verfügung.
+In diesem Artikel wird beschrieben, wie Sie den Anruf Datenkonnektor konfigurieren – ein einzelnes Toolset, mit dem Skype for Business Server Daten zur Anrufqualität mithilfe von Skype for Business Online CQD-und Call Analytics (ca)-Tools angezeigt werden können.
 
 Weitere Informationen zu den Vorteilen und Voraussetzungen des Anruf datenconnectors, wie beispielsweise die Rollenanforderungen und das Einrichten von Hybrid Konnektivität, finden Sie unter [Plan Call Data Connector](plan-call-data-connector.md).
 
@@ -139,12 +136,11 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Anzeigen lokaler Daten über das Online Dashboard
 
- Nachdem der Anrufdaten-Konnektor aktiviert wurde, können Sie Ihre lokalen Anrufdaten im anrufanalyse-Dashboard anzeigen, wie unter [Verwenden der anrufanalyse zur Behandlung schlechter Qualität](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)beschrieben.
-
+ Nachdem der Anrufdaten-Konnektor aktiviert wurde, können Sie Ihre lokalen Anrufdaten im anrufanalyse-Dashboard oder im Anruf qualitätsdashboard anzeigen, wie unter [Verwenden der anrufanalyse zur Behandlung schlechter Qualität](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) und [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## <a name="for-more-information"></a>Weitere Informationen
 
-Weitere Informationen zu den Cmdlets finden Sie im Get-Help-Befehl in der Skype for Business Server-Verwaltungsshell. Zum Beispiel:
+Weitere Informationen zu den Cmdlets finden Sie im Get-Help-Befehl in der Skype for Business Server-Verwaltungsshell. Beispiel:
 
 Get-Help Get-CsCloudCallDataConnector | Weitere
 

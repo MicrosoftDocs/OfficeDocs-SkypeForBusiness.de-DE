@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790861"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328299"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
 In Skype for Business Server 2019-Hybrid Implementierungen werden nur Cloud-Dienste verwendet, die vom Telefon System für Unified Messaging bereitgestellt werden und nicht in Exchange Online integriert werden können. In Skype for Business Server 2019 können Sie nun die Cloud-Anrufwarteschlangen und die hier beschriebenen automatischen Telefonzentralen verwenden, [was Sie mit dem Telefon System in Office 365 erhalten](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Um eine automatische Telefonzentrale oder eine Anrufwarteschlange mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann das Online Teams Admin Center verwenden, um die Anrufwarteschlange zu konfigurieren oder automatische Telefonzentrale. Dieses Ressourcenkonto kann online verwaltet werden (Weitere Informationen finden Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von Online verwalteten Ressourcenkonten) oder vor Ort, wie in diesem Artikel beschrieben. Normalerweise verfügen Sie über mehrere Telefon System-automatische Telefonzentralen oder Anrufwarteschlangen-Knoten, die jeweils einem Ressourcenkonto zugeordnet sind, das Online oder in Skype for Business Server 2019 verwaltet werden kann.
+Um eine automatische Telefonzentrale oder eine Anrufwarteschlange mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann das Online Teams Admin Center verwenden, um die Anrufwarteschlange zu konfigurieren oder automatische Telefonzentrale. Dieses Ressourcenkonto kann online verwaltet werden (Weitere Informationen finden Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von Online verwalteten Ressourcenkonten) oder lokal wie in diesem Artikel beschrieben. Normalerweise verfügen Sie über mehrere Telefon System-automatische Telefonzentralen oder Anrufwarteschlangen-Knoten, die jeweils einem Ressourcenkonto zugeordnet sind, das Online oder in Skype for Business Server 2019 verwaltet werden kann.
 
 Wenn Sie über eine Exchange um automatische Telefonzentrale und ein Anruf Warteschlangensystem verfügen, müssen Sie vor dem Wechsel zu Exchange Server 2019 oder Exchange Online die Details wie unten beschrieben manuell aufzeichnen und dann mithilfe des Teams Admin Center ein vollständig neues System implementieren. .
 
@@ -33,7 +33,7 @@ Wenn für die automatische Telefonzentrale oder die Anrufwarteschlange eine Dien
 1. Abrufen einer Dienstnummer
 2. Erhalten Sie eine ﻿kostenlose Telefonsystem- [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user) oder eine gebührenpflichtige Telefonsystem Lizenz, die mit dem Ressourcenkonto verwendet werden soll.
 3. Erstellen Sie das Ressourcenkonto. Für eine automatische Telefonzentrale oder Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich.
-4. Warten Sie, bis eine Active Directory-Synchronisierung zwischen Online und vor Ort durchgeschaltet wird.
+4. Warten Sie, bis eine Active Directory-Synchronisierung zwischen Online und lokal durchsteht.
 5. Weisen Sie dem Ressourcenkonto die Telefon System Lizenz zu.
 6. Weisen Sie dem Ressourcenkonto eine Dienstnummer zu.
 7. Dient zum Erstellen einer Telefon System-Anrufwarteschlange oder einer automatischen Telefonzentrale.
@@ -46,7 +46,7 @@ Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online verwaltet wer
 Wenn die automatische Telefonzentrale oder die Anrufwarteschlange, die Sie erstellen, geschachtelt ist und keine Telefonnummer benötigt, lautet der Vorgang wie folgt:
 
 1. Erstellen des Ressourcenkontos  
-2. Warten auf eine Active Directory-Synchronisierung zwischen Online und vor Ort
+2. Warten auf eine Active Directory-Synchronisierung zwischen Online und lokal
 3. Erstellen einer automatischen Telefonzentrale oder Anrufwarteschlange
 4. Zuordnen des Ressourcenkontos zu einer automatischen Telefonzentrale oder Anrufwarteschlange
 
@@ -74,7 +74,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
     Weitere Informationen zu diesem Befehl finden Sie unter [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-4. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und vor Ort synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen zur Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
+4. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -133,7 +133,7 @@ Melden Sie sich am Skype for Business Front-End-Server an, und führen Sie die f
 
     Weitere Informationen zu diesem Befehl finden Sie unter [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-2. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und vor Ort synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen zur Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
+2. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta

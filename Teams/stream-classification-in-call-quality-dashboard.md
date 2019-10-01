@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298632"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328331"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -33,77 +33,80 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 ## <a name="classifier-definitions"></a>Klassifizierungsdefinitionen
 
-Streams in CQD are classified as good, poor, or unclassified based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables below. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a poor classification. See [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information on these dimensions.
+Streams in CQD werden basierend auf den Werten der verfügbaren Schlüssel Qualitäts Metriken als " _gut_", " _schlecht_" oder "nicht _klassifiziert_ " klassifiziert. Die Metriken und Bedingungen, die für die Klassifizierung von Datenstrom verwendet werden, werden in den folgenden Tabellen angezeigt. Die "CQD"-Dimensionen können verwendet werden, um zu verstehen, welche Metrik für eine _unzureichende_ Klassifizierung verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie unter [Dimensionen und Measures, die im Dashboard für die Anrufqualität verfügbar sind](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Audio-Klassifizierung
 
-Ein Audiodatenstrom wird als schlecht gekennzeichnet, wenn eine oder mehrere der folgenden Bedingungen erfüllt sind:
+Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiostream als " _schlecht_" gekennzeichnet:
 
-|**Metrik**|**Bedingung**|**Erklärung**|
+|Metrik|Bedingung|Erklärung|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
-|Round Trip|> 500|Durchschnittliche in Millisekunden berechnete Roundtripzeit bei der Netzwerkverteilung, wie in RFC3550 angegeben.|
+|Audio Degradation Avg|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Wie viel Netzwerk Verlust und Jitter die Qualität der empfangenen Audiodaten beeinträchtigt haben.|
+|Round Trip|> 500|Durchschnittliche Roundtrip-Netzwerk Laufzeit, berechnet in Millisekunden. Einzelheiten sind in [rfc3550 angegeben](https://tools.ietf.org/html/rfc3550)verfügbar.|
 |Packet Loss Rate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
 |Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis der Anzahl von Audioframes mit verborgenen Samples, die durch Paketverlust-Heilung an die Gesamtzahl der Audioframes generiert wurden.|
+||||
 
 ### <a name="video-classifier"></a>Video-Klassifizierung
 
-Ein Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik in der folgenden Reihenfolge als gut oder schlecht gekennzeichnet:
+Ein Videostream wird basierend auf dem Wert der ersten verfügbaren Metrik in der folgenden Reihenfolge als " _gut_ " oder " _schlecht_ " gekennzeichnet:
 
-|**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 7|Poor|Good|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
+|Schritt #|Metrik|Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Der Mittelwert umfasst Frames, die von Netzwerk Verlusten wiederhergestellt werden.|
+|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
+|  |  |  |  |  |  |  |
 
 ### <a name="vbss-classifier"></a>VBSS-Klassifizierung
 
-Ein VBSS-Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik in der folgenden Reihenfolge als gut oder schlecht gekennzeichnet:
+Ein schlechte VBSS-Datenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik in der folgenden Reihenfolge als " _gut_ " oder " _schlecht_ " gekennzeichnet:
 
-|**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
+|Schritt # |Metrik |Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 2|Poor|Good|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Der Mittelwert umfasst Frames, die von Netzwerk Verlusten wiederhergestellt werden.|
+|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
+| |  | | | |  ||
 
 ### <a name="application-sharing-classifier"></a>Anwendungsfreigabe-Klassifizierung
 
-Ein Anwendungsfreigabedatenstrom wird als schlecht gekennzeichnet, wenn eine oder mehrere der folgenden Bedingungen erfüllt sind:
+Ein Anwendungsfreigabe Datenstrom ist als " _schlecht_ " gekennzeichnet, wenn mindestens eine der folgenden Bedingungen erfüllt ist:
 
-
-| **Metrik**                                     | **Bedingung** | **Erklärung**                                                                                                                                                                                                        |
-|:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | > 400         | Durchschnittliche Latenz in Millisekunden bei der Verarbeitung von Kacheln im RDP-Stapel auf dem Konferenzserver.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Durchschnittliche relative unidirektionale Verzögerung zwischen den Endpunkten in Sekunden für Anwendungsfreigabe Datenströme.                                                                                                                       |
+| Metrik     | Bedingung | Erklärung |
+|:---        |:---       | :--- |
+| Spoiled Tile Percent Total | > 36 | Prozentsatz der Kacheln, die verworfen werden, anstatt an einen Remotepeer gesendet zu werden (beispielsweise von der MCU zu einem Viewer). Verworfene (oder verdorbene) Kacheln können durch Bandbreiteneinschränkungen zwischen Client und Server verursacht werden. |
+| AppSharing RDP Tile Processing Latency Average | > 400 | Durchschnittliche Latenz in Millisekunden bei der Verarbeitung von Kacheln im RDP-Stapel auf dem Konferenzserver. |
+| AppSharing Relative OneWay Average | > 1,75 | Durchschnittliche relative unidirektionale Verzögerung zwischen den Endpunkten in Sekunden für Anwendungsfreigabe Datenströme. |
+| | | |
 
 ## <a name="unclassified-streams"></a>Nicht klassifizierte Datenströme
 
-In AQD wird ein Datenstrom als nicht klassifiziert gekennzeichnet, wenn die ICE-Konnektivität fehlschlägt oder wenn nicht alle für die Berechnung der Datenstromklassifizierung erforderlichen Metriken gemeldet werden.
+In CQD wird ein Datenstrom als "nicht _klassifiziert_ " gekennzeichnet, wenn die Verbindung zwischen der Interaktions Einrichtung (ICE) fehlschlägt oder wenn alle zur Berechnung der Datenstrom Klassifizierung erforderlichen Metriken nicht gemeldet werden.
 
-To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream will be marked as unclassified.
+Zum Prüfen von ICE-Verbindungsfehlern überprüfen Sie die Dimensionen "Erste ICE-Konnektivität" und "Zweite ICE-Konnektivität" für einen Wert "FEHLGESCHLAGEN". Wenn einer der beiden Werte einen Fehler angibt, wird der Datenstrom als nicht _klassifiziert_markiert.
 
-If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
+Wenn die Ice-Konnektivität für einen nicht _klassifizierten_ Datenstrom erfolgreich war, wird der Datenstrom wahrscheinlich als nicht _klassifiziert_ angesehen, da Schlüsseldaten Strom Metriken nicht gemeldet wurden. Es gibt einige Gründe, warum diese Metriken nicht gemeldet werden können:
 
-- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
-
-> [!TIP]
-> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
-
-- **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+- **QoE-Berichte wurden nicht empfangen** – die für die Klassifizierung verwendeten Metriken werden in einem QoE-Bericht gemeldet, der am Ende eines Anrufs gesendet wird. Wenn dieser Bericht nicht erstellt wird (beispielsweise weil einige Drittanbieter-Endpunkte möglicherweise keine QoE-Nachricht senden) oder nicht gesendet werden konnten (beispielsweise aufgrund eines Netzwerkausfalls), kann CQD den Datenstrom nicht klassifizieren.
 
 > [!TIP]
-> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+> Mit der Dimension "QoE-Bericht verfügbar" können Sie feststellen, ob ein QoE-Bericht für einen Datenstrom empfangen wurde. Beachten Sie, dass diese Dimension den Wert "Wahr" haben wird, wenn ein QoE-Bericht von einem der beiden Endpunkte empfangen wurde. Ein QoE-Bericht von beiden Endpunkten ist erforderlich, um eine möglichst genaue Berichterstellung der Metriken zu ermöglichen.
 
-- **Low packet utilization** - Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
-    - A common low packet utilization scenario occurs when a user joins a meeting to listen to the presenter but never speaks (likely muting the microphone for most of the call). In such a scenario, one audio stream will have high packet utilization (inbound to the client) while the other will have little to no packet utilization (outbound from the client). In this scenario, the duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server will be extremely low due to the microphone being muted, resulting in an unclassified stream.
+- **Kurze Anrufe** – kurze Anrufe haben möglicherweise nicht genügend Medienaktivitäten, um wichtige Datenstrom Metriken zu berechnen. Ohne diese Metriken ist AQD nicht in der Lage, den Datenstrom zu klassifizieren.
+
+> [!TIP]
+> Die Dimensionen "Dauer (Sekunden)", "Dauer (Minuten)", "Dauer 5 Sekunden oder weniger" und "Dauer 60 Sekunden oder mehr" können zur Bestimmung der Dauer eines Datenstrom verwendet werden. Mithilfe der Messung "Durchschnittliche Anrufdauer" können Sie die durchschnittliche Dauer eines Satzes von Datenströmen berechnen.
+
+- **Niedrige Paket Auslastung** – wie im Szenario "Short Call" ist für die Berechnung von Schlüsseldaten Strom Metriken eine ausreichende Paket Nutzung erforderlich. Ohne diese Metriken ist AQD nicht in der Lage, den Datenstrom zu klassifizieren.
+  - Ein häufiges Szenario für niedrige Paket Auslastung tritt auf, wenn ein Teilnehmer einer Besprechung Beitritt, um den Referenten zu hören, aber nie spricht (das Mikrofon ist für die meisten Anrufe stumm geschaltet). Hier verfügt der für den Client eingehende Audiostream über eine große Paket Auslastung, während der vom Client ausgehende Audiostream nur wenig bis gar keine Paket Nutzung hat. Die Dauer des Datenstroms kann eine Stunde oder länger sein, die Paket Auslastung des Datenstroms vom Client zum Server ist jedoch gering, da das Mikrofon stumm geschaltet wurde und ein nicht _klassifizierter_ Datenstrom entsteht.
 
 > [!TIP]
 > Mit der Dimension "Paketauslastung" und der Messung "Durchschnittliche Paketauslastung" kann die Paketaktivität eines Datenstroms bestimmt werden.
 
-
 ## <a name="related-topics"></a>Verwandte Themen
+
 [Aktivieren und Verwenden des Dashboards für die Anrufqualität (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
