@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie mehr über die Funktionen, die Verfügbarkeit und die Planung und Einrichtung eines Telefonsystem (Cloud-PBX) für Ihr Unternehmen. '
-ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305785"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328364"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
@@ -51,7 +51,7 @@ Bei Verwendung des Office 365-Telefonsystems erhalten Ihre Skype for Business-Be
 |[Suchen nach früheren Unterhaltungen in Skype for Business (Lync)](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Speichern Sie alle Unterhaltungen an einem Ort - egal ob Chatunterhaltungen, Telefonanrufe oder spontane und geplante Besprechungen. Unterhaltungen werden in Ihrem Anrufverlauf aufgezeichnet.  <br/> |
 |Anruf anhalten/fortsetzen  <br/> | Verwenden Sie diese Option, wenn mehrere Anrufe zur gleichen Zeit getätigt werden. Wenn Sie den nächsten eingehenden Anruf beantworten oder einen ausgehenden Anruf tätigen, wird Ihr aktueller Anruf automatisch gehalten. <br/> |
 |[Durchstellen eines Skype for Business-Anrufs](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Stellt Anrufe an andere Personen durch. Wenn Sie Ihr Büro verlassen müssen, Ihre Unterhaltung jedoch fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon an Ihr Mobiltelefon oder Tablet übergeben.  <br/> |
-|Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position. Bei Anrufen von externen Telefonnummern wird die vom Telefondienstanbieter bereitgestellte Anrufer-ID angezeigt.   <br/> |
+|Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position. Bei Anrufen von externen Telefonnummern wird die vom Telefondienstanbieter bereitgestellte Anrufer-ID angezeigt. Wenn es sich bei den externen Telefonnummern um sekundäre Nummern in Ihrem Firmenverzeichnis handelt, werden die Informationen aus dem Unternehmensverzeichnis angezeigt.  <br/> |
 |[Erstellen einer Cloudanrufwarteschleife](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Cloudanrufwarteschleifen beinhalten die beim Wählen einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf zu entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören.  <br/> |
 |[Ich möchte Statusänderungen mitgeteilt bekommen](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Mit dieser Funktion können Sie Personen markieren, die derzeit nicht erreichbar sind, und mit der Sie benachrichtigt werden, wenn sich ihr Anwesenheitsstatus ändert und sie Telefonanrufe entgegennehmen können. <br/> |
 |Clients für PC, Mac und mobile Clients  <br/> | Damit erhalten Sie Anruffunktionen auf zahlreichen Geräten: Tablets, Mobiltelefonen, PCs und IP-Telefonen. <br/> |
