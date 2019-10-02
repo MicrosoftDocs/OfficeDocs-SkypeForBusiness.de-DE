@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
+ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447941"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37349249"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -67,23 +67,30 @@ Klicken Sie im **Microsoft Teams Admin Center**auf **Automatische Voicemail** > 
 
 ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
+<a name="phonenumber"> </a>
+
 **Ressourcenkonto** Klicken Sie auf diese Schaltfläche, um ein oder mehrere Ressourcenkonten auszuwählen, um eine Verbindung mit der neuen automatischen Telefonzentrale herzustellen. Für alle automatischen Telefonzentralen ist ein zugeordnetes Ressourcenkonto erforderlich. Ein Ressourcenkonto kann eine Telefonnummer haben, die mit dem Konto verknüpft ist, aber eine Telefonnummer ist nicht erforderlich. Eine automatische Telefonzentrale der obersten Ebene weist normalerweise ein Ressourcenkonto mit einer zugewiesenen Telefonnummer auf, aber eine geschachtelte automatische Telefonzentrale (wird als Menü der Ebene 2 verwendet, mit dem die automatische Telefonzentrale eine Verbindung herstellt) hat möglicherweise keine Telefonnummer, die dem Ressourcenkonto zugeordnet ist.
 
 * * *
 
-![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
+![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot](media/sfbcallout3.png)
+ <a name="timezone"> </a> verweist
 
-**** Zeitzone Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen, Sie muss aber nicht der Zeitzone der Hauptadresse entsprechen, die für Ihre Organisation aufgeführt ist. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen, und die für die automatische Telefonzentrale festgelegten Geschäftszeiten werden basierend auf der hier ausgewählten Zeitzone festgesetzt.
+**Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen, Sie muss aber nicht der Zeitzone der Hauptadresse entsprechen, die für Ihre Organisation aufgeführt ist. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen, und die für die automatische Telefonzentrale festgelegten Geschäftszeiten werden basierend auf der hier ausgewählten Zeitzone festgesetzt.
 
 * * *
 
 ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
+
+<a name="language"> </a>
 
 **Sprache**: Wählen Sie unter den aufgeführten verfügbaren Sprachen die Sprache aus, die Sie für die automatische Telefonzentrale verwenden möchten. Bei der hier festgelegten Sprache handelt es sich um die Sprache, die von der automatischen Telefonzentrale für die Interaktion mit Personen verwendet wird, die diese automatische Telefonzentrale anrufen, und alle Systemansagen werden in dieser Sprache wiedergegeben.
 
 * * *
 
 ![Symbol der Zahl 5, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout5.png)
+
+<a name="operator"> </a>
 
 **Operator** Dies ist optional, aber Sie können die Option " **Operator** " so einstellen, dass Anrufer die Menüs ausbrechen und mit einer Person sprechen können.
 
@@ -147,6 +154,8 @@ Sie können Begrüßungen, Ansagen und Menüs einrichten, die Personen hören, w
 
 ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **Gruß** Eine Begrüßung in Geschäftszeiten ist optional und kann auf **keine Ansage**eingestellt werden. In diesem Fall hört der Anrufer keine Nachricht oder Begrüßung, bevor der Anruf von einer der von Ihnen ausgewählten Aktionen bearbeitet wird. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
 - **Hochladen einer Audiodatei:** Wenn Sie diese Option wählen, zeichnen Sie die Begrüßung auf und laden Sie anschließend Ihre Audiodatei hoch (im wav-, .mp3- oder .wma-Format).
 - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Beispielsweise können Sie „Willkommen bei Contoso, Ihr Anruf ist uns sehr wichtig“ im Feld **Anrufer hört** eingeben.
@@ -156,6 +165,8 @@ Sie können Begrüßungen, Ansagen und Menüs einrichten, die Personen hören, w
 ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 Sie können auswählen, was mit Anrufen geschieht, die während der Geschäftszeiten eingehen. Sie können aus den folgenden Aktionen auswählen:
+
+<a name="redirectcalls"> </a>
 
 - **Verbindung trennen:** Wenn Sie diese Option auswählen, wird die Verbindung der Anrufer nach einer Begrüßung mit Informationen zu den Geschäftszeiten getrennt.
 - **Umleiten von Anrufen:** Dies kann verwendet werden, um den Anruf automatisch weiterzuleiten, an:
@@ -224,7 +235,7 @@ Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
 Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
 > [!TIP]
-> Sie können den Bildschirm bei den **organisationsweiten Einstellungen** > **** für Feiertage öffnen, um Feiertage zu erstellen, oder Sie können Sie im Rahmen des Erstellens eines neuen Anruf Handlers erstellen.
+> Sie können den Bildschirm bei den **organisationsweiten Einstellungen** > **für Feiertage öffnen, um Feiertage** zu erstellen, oder Sie können Sie im Rahmen des Erstellens eines neuen Anruf Handlers erstellen.
 
 ![Screenshot der Seite "Feiertags Anrufeinstellungen"](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
@@ -297,7 +308,7 @@ Mit der Option **ausschließen** haben Sie zwei Möglichkeiten:
 > [!NOTE]
 > Es kann bis zu 36 Stunden dauern, bis ein neuer Benutzer seinen Namen im Verzeichnis aufgeführt hat, wenn jemand die Wählfunktion mit der Spracherkennung verwendet.
 
-Nachdem Sie alle erforderlichen Felder eingegeben und die Menüs und Optionen für die Anrufbehandlung eingerichtet haben ****, klicken Sie auf Absenden.
+Nachdem Sie alle erforderlichen Felder eingegeben und die Menüs und Optionen für die Anrufbehandlung eingerichtet haben, klicken Sie auf **Absenden**.
 
 ## <a name="editing-and-testing-auto-attendants"></a>Bearbeiten und Testen von automatischen Telefonzentralen
 
