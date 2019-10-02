@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018834"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341868"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -71,9 +71,9 @@ Alle Testversionen innerhalb Ihrer Organisation haben das gleiche Start- und End
 
 ## <a name="manage-the-trial"></a>Verwalten der Testversion
 
-Testlizenzen werden genauso wie bei allen anderen Abonnements von einem Administrator zugewiesen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+Die Testversion von Microsoft Teams ist für die Initialisierung durch einzelne Endbenutzer bestimmt, und Sie sind nicht berechtigt, das Microsoft Teams-Testangebot im Namen von Endbenutzern oder Angestellten zu initiieren.
 
-Darüber hinaus können Administratoren die Option für Endbenutzer deaktivieren, Test-Apps und -dienste in der Organisation in Anspruch zu nehmen. Derzeit ist die in diesem Artikel beschriebene Testversion die einzige in dieser Kategorie, aber die Angaben können in Zukunft auch für andere ähnliche Programme gelten. 
+Administratoren können die Option für Endbenutzer deaktivieren, Test-Apps und -dienste in der Organisation in Anspruch zu nehmen. Derzeit ist die in diesem Artikel beschriebene Testversion die einzige in dieser Kategorie, aber die Angaben können in Zukunft auch für andere ähnliche Programme gelten. 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Verhindern, dass Benutzer Test-Apps und -dienste installieren
 
