@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Erfahren Sie, welche Cloud-automatischen Telefonzentralen sind und wie Sie verwendet werden.
-ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: fd1fd053c0ecab8e0a36835f6d26127db91431be
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35536005"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375687"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
 
@@ -55,13 +55,13 @@ Eine automatische Cloud-Telefonzentrale verfügt über die folgenden Features:
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen Telefonzentralen wichtig:
 
 - Für eine automatische Telefonzentrale ist ein zugeordnetes Ressourcenkonto erforderlich. Details zu Ressourcenkonten finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
-- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die ﻿kostenlose virtuelle Benutzerlizenz für das Telefon System verwenden. Dies bietet Telefon System Funktionen für Telefonnummern auf Organisationsebene und ermöglicht Ihnen das Erstellen von automatischen Telefonzentralen-und Anruf Warteschlangenfunktionen.
+- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die ﻿kostenlose virtuelle Benutzerlizenz des Telefonsystems verwenden. Auf diese Weise können Telefonsystem-Funktionen für Telefonnummern auf Organisationsebene bereitgestellt werden, und Sie können die Funktionen der automatischen Telefonzentrale und der Anrufwarteschleife erstellen.
 
 > [!NOTE]
 > Direct Routing-Dienstnummern für die automatische Telefonzentrale und Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
   
    > [!TIP]
-   > Wenn Sie Anrufe an einen Operator oder eine Menüoption umleiten möchten, bei der es sich um einen Online Benutzer mit einer **Telefon System** Lizenz handelt, müssen Sie diese für Enterprise-VoIP aktivieren oder Ihnen Anrufpläne zuweisen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Wenn Sie Anrufe an einen Operator oder eine Menüoption umleiten möchten, bei der es sich um einen Online Benutzer mit einer **Telefon System** Lizenz handelt, müssen Sie diese für Enterprise-VoIP aktivieren oder Ihnen Anrufpläne zuweisen. Nähers hierzu erfahren Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Um gebührenfreie Servicenummern für Ihre automatischen Telefonzentralen zu erhalten und zu verwenden, müssen Sie Kommunikationsguthaben einrichten. Informationen hierzu finden Sie unter [Was sind Kommunikationsguthaben?](what-are-communications-credits.md) und [Einrichten von Kommunikationsguthaben für Ihre Organisation](set-up-communications-credits-for-your-organization.md).
 
@@ -90,7 +90,6 @@ Die Active Directory-Größe, für die ein Dial by-Name unterstützt wird, ist u
 > Wenn Sie "Dial by Name" mit Spracherkennung verwenden, das Active Directory Ihrer Organisation jedoch größer als 80.000-Benutzer ist und Sie den Umfang der Wählfunktion nicht mit der Funktion "Wählbereich" beschränkt haben, funktioniert das Wählen nach Namen weiterhin für Ihre Anrufer mit einem Telefontasten Feld. und Spracheingaben sind für alle anderen Szenarien verfügbar. Sie können das Feature "Wählbereich" verwenden, um die Namen zu verkleinern, die erreichbar sind, indem Sie den Bereich des Wähl namens für eine bestimmte automatische Telefonzentrale ändern.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Namensanwahl - Eingabe über die Wähltastatur (MFV)
-
 Personen, die sich einwählen, können mithilfe von Dial by Name die Benutzer erreichen, indem Sie entweder den vollständigen oder teilweise Namen der Person angeben, die Sie erreichen möchten. Es gibt verschiedene Formate, die verwendet werden können, wenn der Name eingegeben wird.
 
 Wenn Sie das Verzeichnis Ihrer Organisation durchsuchen, können Benutzer die Taste "0" (null) verwenden, um ein Leerzeichen zwischen dem Vornamen und dem Nachnamen und dem letzten Namen anzugeben. Wenn Sie den Namen eingeben, werden Sie aufgefordert, ihren Tastatur Eintrag mit der #-Taste zu kündigen. Wenn Sie beispielsweise den Namen der Person eingeben, die Sie erreichen möchten, drücken Sie #. Wenn mehrere Namen gefunden werden, erhält der Gesprächspartner eine Liste der Namen, aus denen Sie auswählen können.

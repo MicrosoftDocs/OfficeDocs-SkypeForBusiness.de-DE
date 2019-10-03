@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349249"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375709"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -59,7 +59,7 @@ Klicken Sie im **Microsoft Teams Admin Center**auf **Automatische Voicemail** > 
 
 * * *
 
-![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Name** Geben Sie einen aussagekräftigen Anzeige Namen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Sie wird in der Spalte **Name** auf der Registerkarte **automatische Telefonzentralen** angezeigt.
 
@@ -126,7 +126,7 @@ Standardmäßig werden die Geschäftszeiten von Montag bis Freitag auf 9:00 Uhr 
 
 * * *
 
-![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Standardmäßig sind die Geschäftszeiten auf Montag bis Freitag, 9:00 Uhr-5:00 Uhr, eingestellt. Wählen Sie die Option **alle Stunden löschen** aus, um die Auswahl aller Stunden im Terminplan aufzuheben. Wenn Sie **auf Standard zurücksetzen**klicken, werden die Geschäftszeiten auf Montag bis Freitag 9:00 Uhr-5:00 Uhr zurückgesetzt.
 
@@ -152,7 +152,7 @@ Sie können Begrüßungen, Ansagen und Menüs einrichten, die Personen hören, w
 
 * * *
 
-![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 <a name="greetingsandrouting"> </a>
 
@@ -211,14 +211,15 @@ Wenn Sie Ihre Menü Optionen einrichten möchten, müssen Sie, nachdem Sie die W
 
     > [!Note]
     > **Die Person in Ihrem Unternehmen** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server oder lync Server 2013 gehostet wird.
-    - Eine andere **automatische Telefonzentrale**
+
+  - Eine andere **automatische Telefonzentrale**
 
        Sie können eine vorhandene automatische Telefonzentrale verwenden, um eine zweite Ebene von Menü Optionen zu erstellen, die ein Untermenü enthält. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet. Wenn Sie den Anruf an eine geschachtelte automatische Telefonzentrale senden möchten, wählen Sie **Person in Company aus** , und weisen Sie ein Ressourcenkonto zu, das entweder bereits über eine zugeordnete automatische Telefonzentrale verfügt oder das Sie einer automatischen Telefonzentrale zuordnen, sobald Sie mit dem Erstellen der automatischen Telefonzentrale fertig sind.
 
         > [!Note]
-        > Die **Geschäftszeiten** geschachtelter automatischer Telefonzentralen (oder mit zweiter Ebene) werden ebenfalls eingesetzt, einschließlich der Anrufe, die von anderen Telefonzentralen eingehen, die eingerichtet wurden.
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
+    - **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
 
 * * *
 
@@ -232,6 +233,8 @@ Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
 
 #### <a name="holiday-call-settings"></a>Einstellungen für Feiertags Anrufe
 
+<a name="holidaygreetings"> </a>
+
 Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
 > [!TIP]
@@ -239,7 +242,7 @@ Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinz
 
 ![Screenshot der Seite "Feiertags Anrufeinstellungen"](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Wenn Sie bereits andere automatische Telefonzentralen erstellt haben, wird möglicherweise eine Option angezeigt, die Sie verwenden oder bearbeiten können, in der Liste, die Sie benötigen. Wenn dies nicht der Fall ist, müssen Sie einen neuen Anruf Handler erstellen.
 
@@ -249,7 +252,7 @@ Wenn Sie einen neuen Anruf Handler hinzufügen möchten, klicken Sie auf **+ Neu
 
 ![Screenshot mit dem Hinzufügen eines neuen Anruf Handlers](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Geben Sie im Fenster neu einen Namen für den neuen Anruf Handler am oberen Rand des Bildschirms ein.
 
@@ -283,6 +286,7 @@ Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche
     > [!Note]
     > Standardmäßig werden alle während eines Feiertags eingehenden Anrufe festgelegt, deren Verbindung nach der Ansage (falls vorhanden) getrennt wird, somit müssen Sie eine Umleitung angeben, wenn ein anderes Verhalten erwünscht ist.
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>Seite „Wählbereich auswählen"
 
 Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in Ihrem Verzeichnis aufgeführt und für die Wahl nach Namen verfügbar sein sollen, wenn eine Person, die sich in Ihre Organisation einwählt.
