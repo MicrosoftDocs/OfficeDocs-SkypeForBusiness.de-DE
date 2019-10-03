@@ -18,16 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: 0508408fbf5bde620cefe9233df4aa62ecf880df
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349263"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375698"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
-
-<a name="bk">phonenumber</a>
 
 Ein Ressourcenkonto wird in Azure AD auch als *deaktiviertes Benutzerobjekt* bezeichnet und kann verwendet werden, um Ressourcen allgemein darzustellen. In Exchange kann es z. B. verwendet werden, um Konferenzräume darzustellen und ermöglicht, dass diese eine Telefonnummer haben. Ein Ressourcenkonto kann in Microsoft 365 oder lokal unter Verwendung von Skype for Business Server 2019 verwaltet werden.
 
@@ -118,6 +116,7 @@ Wenden Sie als nächstes im O365 Admin Center eine Lizenz auf das Ressourcenkont
 ![Symbol der Zahl 2, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png) Sie können den Anzeigenamen des Ressourcenkontos mit der Option **Bearbeiten** ändern. Klicken Sie abschließend auf **Speichern**.
 ![Screenshot der Option „Ressourcenkonto bearbeiten“](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### <a name="assignunassign-phone-numbers-and-services"></a>Zuweisen oder aufheben der Zuweisung von Telefonnummern und Diensten
 
 ![Symbol der Zahl 3, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png) Sobald Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf **Zuweisen/Aufheben der Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen oder um das Ressourcenkonto einer automatischen Telefonzentrale oder Anrufwarteschleife zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Ihre Anrufwarteschleife oder automatische Telefonzentrale noch erstellt werden muss, können Sie das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
