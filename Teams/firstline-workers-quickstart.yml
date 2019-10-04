@@ -1,0 +1,121 @@
+### YamlMime:Tutorial
+title: Schnell Start Handbuch für Arbeitskräfte in erster Linie
+metadata:
+  title: Schnell Start Handbuch für Arbeitskräfte in erster Linie
+  description: Einrichten eines effektiven Pilotprojekts für First-work-worker basierend auf Agile-Prinzipien und einem iterativen Ansatz
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: heidip
+  ms.reviewer: keschm
+  manager: serdars
+  ms.date: 02/09/2019
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  - M365-collaboration
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 3ded0147624291af1555dbec31d2c34fa950c6bd
+  ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "37391463"
+items:
+- durationInMinutes: 2
+  content: >
+    In dieser Schulung erfahren Sie, wie Sie ein effektives Pilotprojekt für First-Worker basierend auf Agile-Prinzipien und einem iterativen Ansatz einrichten.
+
+    > [!NOTE]
+
+    > Bitte überprüfen und vervollständigen Sie die [Voraussetzungen und Umgebungs Abhängigkeiten für Teams](upgrade-plan-journey-prerequisites.md) , bevor Sie mit der Arbeit beginnen.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    Diese Schulung richtet sich an Sie, wenn Folgendes auf Sie zutrifft:
+
+    -   Sie sind IT-Spezialist.
+
+    -   Verantwortlich für die Planung oder Bereitstellung von Teams für First-work-Mitarbeiter.
+
+
+    Wir behandeln die folgenden Themen:
+
+    -   Bringen Sie Ihre Leute zusammen
+
+    -   Planen der Pilot Logistik
+
+    -   Konfiguration für technisches und Pilot Team
+
+    -   Kommunizieren
+
+    -   Maßnahme
+
+    -   Durchlaufen und erweitern
+
+
+    Die folgenden Themen werden nicht behandelt:
+
+    -   Diese Inhalte beziehen sich auf die Dokumentation zur Vorbereitung von Teams für ein First-Worker-Pilotprojekt, aber die Konfiguration der gesamten Teams liegt außerhalb des Anwendungsbereichs dieses Artikels.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    Wenn Sie Fragen oder Feedback zu dieser Schulung haben:
+
+
+    -   Schreiben Sie etwas im Abschnitt für Kommentare unten auf der Seite „Nächste Schritte“ dieses Tutorials.
+
+
+    Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+- title: Bringen Sie Ihre Leute zusammen
+  durationInMinutes: 4
+  content: "\nStellen Sie eine Gruppe von Personen aus Ihren Geschäfts-, IT-und First-Communities zusammen, um als Stakeholder-und Entscheidungs Gruppe für Ihr Team-Pilot Projekt für First-work-Mitarbeiter zu fungieren. Stellen Sie sicher, dass Sie Personen aus allen 3 Communities einbeziehen, um sich die beste Chance für den Erfolg zu geben:\n\nIdentifizieren Sie als nächstes Ihre Phase 1-Pilot Community, und stellen Sie sicher, dass Sie die tatsächlichen First-work-Mitarbeiter in der kleinsten logischen Gruppierung für Ihre Organisation umfasst. Beispiel: ein Restaurant, eine Abteilung eines Kaufhauses, ein Geschäft, eine klinische Abteilung, ein Revier, ein Werk, ein Distributionszentrum usw. Der Schlüssel ist die Optimierung um die durchschnittliche First-Worker-Komponente, die nur Teil eines Teams ist. Manager oder Spezialisten können mehr als eine haben:\n\n### <a name=\"best-practice\"></a>Bewährte Methode\nEs ist wichtig, alle Rollen innerhalb dieser kleinsten logischen Gruppierung einzubeziehen, von Managern zu Teilzeit-oder Saisonarbeitern, um wertvolle Einblicke aufzudecken und moderne Kommunikationsszenarien zu ermöglichen. Ihre meisten Junior-Mitarbeiter werden Sie überraschen! Einige der wichtigsten attraktiven und unbeabsichtigten wichtigen Szenarien, die bei Piloten mit Beispiel Kunden aufgedeckt wurden, sind:\n-   Standardisierte Erwartungen und Schulungen: Aufnahme eines sauberen Kamins, um dem Küchenpersonal zu zeigen, was sauber ist. \"Wenn es nicht so aussieht, ist es nicht sauber!\"\n\n-   Reduzieren der Schrumpfung: Aufnehmen eines Bilds eines bekannten laden Diebs und Benachrichtigen anderer Mitarbeiter unverzüglich. Teams für zukünftige Schichten sehen dieses Bild auch, um zukünftige Risiken zu minimieren.\n\n### <a name=\"decision-point\"></a>Entscheidungspunkt\nAm Ende dieser Phase sollten Sie in der Lage sein, die folgenden Fragen zu beantworten:\n-   Wer nimmt an Ihrem Pilot Projekt Teil?\n\n-   Was ist die kleinste logische Gruppierung für Ihre Organisation?\n"
+- title: Planen der Pilot Logistik
+  durationInMinutes: 4
+  content: "\nFür ein erfolgreiches Pilot Projekt für First-work-Mitarbeiter ist Einfachheit entscheidend! Für die meisten Kunden stellt diese Community in der Regel keine von Unternehmen unterstützten Kommunikations-oder Zusammenarbeits Technologien bereit, nutzt aber wahrscheinlich bereits nicht unterstützte Consumer-Tools, um einige grundlegende Anforderungen zu erfüllen. Eine empfohlene bewährte Methode, um zu beginnen, wo Ihre Benutzer sind, und die Funktionen zu imitieren, die Sie heute in Consumer Tools verwenden. Wenn Ihr Pilotprojekt weiter läuft und der Iterations Prozess beginnt, können Sie die Erfahrung erweitern.\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>Sie wissen nicht genau, welche Verbraucher Tools diese Benutzer zurzeit verwenden?\nIn der ersten Arbeitskraft \"Pilot in a Box\" enthalten sind Beispiel Benutzer Umfragen. Verwenden Sie die Pre-Pilot-Umfrage, um die Tools, Funktionen und Szenarien zu inventarisieren.\n\n### <a name=\"chat-configuration-options\"></a>Chat-Konfigurationsoptionen\nIm Chat auf mobilen Geräten können Sie das normale herkömmliche Chat-Layout für Teams oder ein Layout mit bevorzugten Kanälen im Chat einrichten. Diese zweite vereinfachte Benutzeroberfläche eignet sich hervorragend für First-work-Mitarbeiter, die nur in einem Team arbeiten und die empfohlene bewährte Methode sind. Wenn Sie \"Bevorzugte Kanäle im Chat anzeigen\" konfigurieren, wird auch die Möglichkeit geschaffen, die Schaltfläche \"Teams\" aus der Setup-Richtlinie der ersten Arbeitsumgebung zu entfernen, um die Benutzeroberfläche ohne Funktionalitätsverlust weiter zu rationalisieren und zu vereinfachen. Für Benutzer, die in mehreren Teams sein werden, wird dies nicht empfohlen. Glücklicherweise kann dies für einzelne Benutzer konfiguriert werden und bei Bedarf in Raffinesse vergrößert werden.\n\n### <a name=\"best-practice\"></a>Bewährte Methode\nKonfigurieren Sie Phase 1 der First-Teams-Umgebung, um die Consumer-Tools zu imitieren, die diese Benutzer bereits verwenden! Wir empfehlen, dass Sie Ihr Pilot Projekt für die Arbeit mit \"Bevorzugte Kanäle im Chat anzeigen\" für vereinfachte Kommunikation und Verschiebungen (optional) starten.\n\n|  Mit Schichten  |  Ohne Schichten  |\n|---------------|------------------|\n|![Ein Telefon Bildschirm mit der Option \"Schichten\" auf der Unterseite.](media/firstline-worker-chat-with-shifts.png)    |![Eine Telefon-Bildschirmabbildung mit der Option \"keine Schichten\" wird auf der unteren Leiste hinzugefügt.](media/firstline-worker-chat-without-shifts.png)|\n\n### <a name=\"decision-points\"></a>Entscheidungspunkte:\n\n-  Welche Funktionen gibt es in Phase 1 Ihres Pilot Projekts für First-work-Mitarbeiter?\n-  Benötigen Ihre Mitarbeiter in der ersten Arbeitsschicht Schichten?\n-  Welche Chat-Konfiguration verwenden Sie?\n"
+- title: Konfiguration für technisches und Pilot Team
+  durationInMinutes: 25
+  content: "\nWenn Sie dies noch nicht getan haben, füllen Sie bitte die technischen Voraussetzungen, die am Anfang dieses Dokuments hervorgehoben wurden, [Voraussetzungen und Umgebungs Abhängigkeiten für Teams aus](upgrade-plan-journey-prerequisites.md). Grundlegendes zu den technischen Voraussetzungen und zum Konfigurieren des anfänglichen Pilot Teams effiziente technische Planung ist die Grundlage für eine hervorragende Benutzererfahrung. Dazu gehören das Erstellen des Teams und die Einladung der identifizierten Mitarbeiter von First-work.\n\n### <a name=\"app-policy-configuration\"></a>App-Richtlinienkonfiguration\nErstellen Sie eine benutzerdefinierte App-Setup Richtlinie basierend auf den Entscheidungen in Schritt 2.\n\n1. Navigieren Sie zur Skype-und Team-Administratorkonsole [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)unter.\n1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps #a0 Setup Richtlinien**.\n1. Wählen Sie **neue Richtlinie** aus (es gibt eine standardmäßige FirstLineWorker-Richtlinie, die Sie verwenden können, anstatt eine benutzerdefinierte Richtlinie zu erstellen).\n1. Geben Sie einen aussagekräftigen Namen für die Richtlinie ein. Entfernen Sie die angehefteten apps, und ordnen Sie Sie neu an, damit Sie dem gewünschten Zustand entsprechen. Klicken Sie auf **apps hinzufügen** , um Anwendungen von Drittanbietern oder benutzerdefinierte Branchenanwendungen hinzuzufügen, die Sie einbeziehen möchten.\n\n![Eine Liste der angehefteten apps.](media/firstline-worker-pinned-apps.png)\n\n### <a name=\"messaging-policy-configuration\"></a>Nachrichtenrichtlinien Konfiguration\nErstellen Sie eine benutzerdefinierte Messaging Richtlinie basierend auf den Entscheidungen in Schritt 2. Wenn Sie sich für die Aktivierung von Prioritäts Benachrichtigungen, Sprachnachrichten oder der Konfiguration \"Bevorzugte Kanäle im Chat anzeigen\" entscheiden, müssen Sie eine First-Worker-spezifische Nachrichten Richtlinie einrichten.\n\n1. Navigieren Sie zur Skype-und Team-Administratorkonsole [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)unter.\n1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Messaging Richtlinien**.\n1. Wählen Sie **neue Richtlinie**aus.\n1. Geben Sie einen aussagekräftigen Namen für die Richtlinie ein, und konfigurieren Sie die Einstellungen nach Wunsch, um die Entscheidungen in Schritt 2 zu erfüllen.\n\n### <a name=\"pilot-team-configuration\"></a>Konfiguration des Pilot Teams\nKonfigurieren Sie das anfängliche Team für die in Schritt 2 identifizierten Pilot Benutzer.\n1. Navigieren Sie zur Skype-und Team-Administratorkonsole [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)unter.\n1. Navigieren Sie zu Teams.\n\n![Menüauswahl für Teams.](media/firstline-worker-teams-bar.png)\n\n3. Wählen Sie auf der Seite \"Teams\" die Option **Neues Team** aus.\n\n![Seite \"Teams\"](media/firstline-worker-teams-page.png)\n\n4. Füllen Sie die erforderlichen Felder aus, einschließlich Teamname, Beschreibung, und wählen Sie einen geeigneten Teambesitzer und die Datenschutzstufe aus. Stellen Sie sicher, dass Sie in Ihrem Teamnamen beschreibend sind, und antizipieren Sie die Ausweitung des Pilotprojekts auf mehrere Teams. Wählen Sie **Team erstellen**aus.\n\n![Teams erstellen ein neues Team Menü.](media/firstline-worker-create-new-team.png)\n\n5. Wählen Sie das Team aus, das Sie erstellt haben, um die Seite **Team Details** zu öffnen.\n\n![Detailseite für Teams.](media/firstline-worker-team-details-page.png)\n\n6. Wählen Sie **Kanäle** aus, um die aktuelle Liste der Kanäle anzuzeigen.\n7. Wählen Sie **Kanal hinzufügen** aus, um dem allgemeinen Kanal zusätzliche Kanäle hinzuzufügen, die ihrer Meinung nach für Ihre Pilotgruppe benötigt werden.\n![Teams hinzufügen Kanalauswahl Fenster.](media/firstline-worker-add-channel.png)\n\n### <a name=\"decision-point\"></a>Entscheidungspunkt\n\n-  Wie viele Kanäle/Unterhaltungsthemen möchten Sie für ihr Pilotprojekt nutzen?\n-  Welche Themen fühlen sich für Ihre Szenarien richtig?\n\n### <a name=\"best-practice\"></a>Bewährte Methode\n**Halten Sie die Kanäle einfach**. Wir empfehlen, sich dem Drang zu widersetzen, einen Kanal für jedes mögliche Gesprächsthema zu schaffen, und stattdessen die Dinge sehr einfach zu halten. Es ist OK, wenn Kanäle nach Bedarf im Laufe der Zeit erstellt werden.\n  \n![Der Inhalt der Registerkarte Kanäle wird in Teams angezeigt.](media/firstline-worker-channels-tab.png)\n\n### <a name=\"user-configuration-admin-console\"></a>Benutzerkonfiguration: Administratorkonsole\nWenden Sie die oben erstellte Richtlinie für die APP-Einrichtungs-und Messaging Einstellungen für Ihre Pilot Benutzer an.\n1. Navigieren Sie zur Skype-und Team-Administratorkonsole [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)unter.\n1. Navigieren Sie zu Benutzern.\n\n![Auswahl des Benutzermenüs für Teams.](media/firstline-worker-users-bar.png)\n\n3. Suchen Sie nach den Pilotbenutzern nach dem Namen.\n\n![Seite \"Teams-Benutzerinformationen\".](media/firstline-worker-users-page.png)\n\n4. Klicken Sie auf den Anzeigenamen des Benutzers, um den Benutzer Details-Bildschirm zu öffnen.\n5. Wählen Sie neben zugewiesene Richtlinien die Option **Bearbeiten** aus.\n\n![Seite \"Teams-Benutzer Details\".](media/firstline-worker-user-details-page.png)\n\n6. Klicken Sie auf die Dropdown-Liste **Richtlinie für Teams-App-Setup** , wählen Sie die für Ihr Pilot Projekt erstellte Richtlinie aus, und klicken Sie auf speichern.\n7. Klicken Sie auf die Dropdownliste \" **Teams-Messaging Richtlinie** \", wählen Sie die für Ihr Pilot Projekt erstellte Richtlinie aus, und klicken Sie auf speichern.\n\n![Teams: Fenster \"Benutzerrichtlinien bearbeiten\".](media/firstline-worker-edit-user-policies.png)\n\n8. Wiederholen Sie diese Schritte für alle Pilotbenutzer.\n\n### <a name=\"user-configuration-powershell\"></a>Benutzerkonfiguration: PowerShell\nIn dem Advent, in dem Sie eine große Anzahl von Benutzern haben, mit denen Sie eine Richtlinie anwenden möchten, ist es möglicherweise eine effizientere Option, PowerShell zu verwenden.\n\n#### <a name=\"assign-the-firstlineworker-app-setup-policy-to-users-in-a-group\"></a>Zuweisen der FirstLineWorker-App-Setup Richtlinie zu Benutzern in einer Gruppe\nSie können die FirstLineWorker-App-Setup Richtlinie Benutzern in einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Teams finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).\nIn diesem Beispiel weisen wir die FirstLineWorker-App-Setup Richtlinie allen Benutzern in der Gruppe Bellevue Contoso Store 1302 zu.\n\n> [!NOTE]\n> Stellen Sie sicher, dass Sie zunächst eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.\n\nRufen Sie die GroupObjectId der jeweiligen Gruppe ab.\n`$group = Get-AzureADGroup -SearchString \"Bellevue Contoso Store 1302\"`\n\nRufen Sie die Mitglieder der angegebenen Gruppe ab.\n`$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq \"User\"}`\n\nWeisen Sie alle Benutzer in der Gruppe der FirstLineWorker-App-Setup Richtlinie zu.\n`$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName \"FirstLineWorker\" -Identity $_.EmailAddress}`\nJe nach Anzahl der Mitglieder in der Gruppe kann dieser Befehl mehrere Minuten dauern.\n\n#### <a name=\"invite-the-manager-and-firstline-workers\"></a>Einladen des Vorgesetzten und erster Mitarbeiter\nNachdem nun die Team Struktur eingerichtet ist und die Benutzerrichtlinien angewendet werden, ist es an der Zeit, mit der Einladung Ihrer Mitarbeiter in erster Linie zu beginnen.\n1. Navigieren Sie zur Skype-und Team-Administratorkonsole [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)unter.\n1. Navigieren Sie zu Teams.\n\n![Menüauswahl für Teams.](media/firstline-worker-teams-bar.png)\n\n3. Suchen Sie nach dem Team, das während der Konfigurationsphase des Pilot Teams erstellt wurde.\n4. Wählen Sie das Team aus, das Sie erstellt haben, um die Seite Teamdetails zu öffnen.\n\n![Seite \"Teamdetails\".](media/firstline-worker-team-details-page.png)\n\n5. Wählen Sie **Mitglieder hinzufügen**aus.\n6. Suchen Sie nach den Namen der Pilot Mitglieder, und klicken Sie auf **Speichern**.\n"
+- title: Kommunizieren
+  durationInMinutes: 1
+  content: "\nInformieren Sie Ihre ersten Mitarbeiter über Ihre Teilnahme am Pilotprojekt, die Pilot Ziele, und geben Sie bei Bedarf Schulungen zu den grundlegenden Funktionen an. Für die meisten Kunden kann dies eine einfache Anweisung für diese Benutzer sein, zum Google Play-oder Apple Store auf Ihren privaten mobilen Geräten zu wechseln, die Microsoft Teams-Anwendung herunterzuladen und sich mit den Anmeldeinformationen Ihres Unternehmens anzumelden. Wir haben Microsoft Teams mit einer einfachen und einfach zu bedienenden Oberfläche entwickelt, die von den meisten Mitarbeitern der First-work-Anwendung intuitiv zu finden ist. Wenn Sie weitere Schulungsmaterialien und Kommunikations Vorlagen wünschen, können Sie diese in Ihrem First-Pilot-Pilot Projekt in einem Feld finden.\n\n### <a name=\"best-practice\"></a>Bewährte Methode\nVergessen Sie nicht, Ihre Manager in Schichten zu Schulen. Wenn Sie in Ihrem Pilotprojekt Schichten einbeziehen möchten, stellen Sie sicher, dass Sie eine separate Schulungssitzung mit ihren Managern durchführen, um zu erfahren, wie Sie in Ihrem Team Zeitpläne erstellen, verwalten und veröffentlichen können. Wenn Sie weitere Schulungsmaterialien und Kommunikations Vorlagen wünschen, können Sie diese in Ihrem First-Pilot-Pilot Projekt in einem Feld finden.\n"
+- title: Maßnahme
+  durationInMinutes: 1
+  content: "\nIhre Mitarbeiter von First-work zu bevollmächtigen, ist mehr als nur die Technologie. Um die Auswirkungen von Teams zu verstehen, konzentrieren Sie sich auf die Erfahrung Ihrer Mitarbeiter in erster Linie. Begutachten Sie Sie vor, während und nach dem Pilot Projekt, um deren Bedürfnisse, Schmerzpunkte und Reaktionen zu verstehen. Wenn Sie Ihr Pilotprojekt durchlaufen und neue Features im Laufe der Zeit hinzufügen, kann dieses Feedback dazu beitragen, die Reihenfolge, das Tempo oder sogar die Notwendigkeit zusätzlicher Features zu steuern. Damit Sie den Erfolg Ihres Pilotprojekts bewerten können, können Sie diese in Ihrem First-Pilot-Pilotprojekt in einem Feld finden.\n### <a name=\"best-practice\"></a>Bewährte Methode\n**Pflegen Sie Ihre Champions und heben Sie Ihre Gewinne**auf. Belohnen Sie Ihre First-work-Mitarbeiter, um diese neuen Tools zu nutzen und auf innovative Weise zu verwenden, die sich auf geschäftliche Ergebnisse für Ihr Unternehmen beziehen. Dadurch wird sichergestellt, dass Teams und der Wert für Ihr Unternehmen weiterhin angenommen werden.\n"
+- title: Durchlaufen
+  durationInMinutes: 1
+  content: "\nNachdem Sie Ihr erstes Pilotprojekt erfolgreich mit einer ersten Gruppe von Mitarbeitern von First-work abgeschlossen haben, ist es an der Zeit, zu expandieren! Es ist an der Zeit, mit einer der folgenden Erweiterungsoptionen zurück zu Schritt 1 zu wechseln. Wir empfehlen, diesen Vorgang so oft wie erforderlich zu durchlaufen, um eine Lösung, eine Reihe bewährter Methoden und Schulungsdokumentation für alle Mitarbeiter von First-work zu erhalten.\n\n-   Erweitern der Anzahl der Teams\n    -   Können Sie statt eines einzigen Standorts eine Region durchführen? Möchten Sie für jeden Standort ein Team für die gesamte Region oder einzelne Teams?\n-   Erweitern Sie die bereitgestellten Features.\n   -   Gab es eine wichtige Funktion, die Ihre Mitarbeiter von First-work-Feedback-Formularen wie Schichten vorgeschlagen haben, die Sie nicht in ihren anfänglichen Funktionssatz aufgenommen haben?\n"
+- title: Nächste Schritte
+  durationInMinutes: 1
+  content: >-
+    Wir haben mit dieser Schulung die folgenden wichtigen Lernergebnisse erzielt:
+
+    -   Planen eines ersten Arbeits Piloten in Teams
+
+    -   Konfigurieren des Pilotprojekts
+
+    -   Kommunikations-, Mess-und Iterations basiert auf der Pilotimplementierung
+
+
+    ### <a name="next-steps"></a>Nächste Schritte
+
+
+    1.  Verwenden Sie weiterhin Teams für die sich wandelnden Bedürfnisse Ihrer Organisation in vorderster Linie.
+
+    2.  Senden Sie uns Feedback:
+        - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
+        - Um Produktfeedback zu Microsoft Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zur [Microsoft Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.
+    3.  Bleiben Sie auf dem laufenden:
+        - Folgen Sie dem [Teamblog](https://aka.ms/teamsblog).
+        - Lesen Sie die [Roadmap für Teams](https://aka.ms/O365Roadmap).
+        - Informieren Sie sich über die neuesten veröffentlichten Features in den [Versions](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)hinweisen.
+    4.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).
