@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen und Aktualisieren von Standortdaten
+title: Hinzufügen und Aktualisieren von Berichts Etiketten
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie auf eine Website hochladen.
+description: Hier erfahren Sie, wie Sie eine Textdatei hochladen, die eine Liste von physischem Standort und zugehörigen Subnetzen enthält, die als Bericht Erstellungs Etiketten für anrufanalyse-und Anruf Qualitäts Dashboard-Berichte verwendet werden.
 ms.custom:
 - NewAdminCenter_Update
 f1keywords:
@@ -21,33 +21,33 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bed4487a944bafb8092f63fb4582b165375a1e83
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
+ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484026"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37396432"
 ---
-<a name="adding-and-updating-locations-data"></a>Hinzufügen und Aktualisieren von Standortdaten
+<a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Berichts Etiketten
 ============================
 
-In Ihrer Organisation werden Standorte verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Orte" können Administratoren eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste mit physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse und dem Anruf Qualitäts Dashboard zum Generieren von Berichten verwendet. Wenn Kunden ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.
+Bericht Erstellungs Beschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Bericht Erstellungs Etiketten" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste von physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse und dem Anruf Qualitäts Dashboard zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.
 
-Die von Ihnen bereitgestellten Positionsdaten sind eine einzige Datenstruktur – derzeit steht keine Schnittstelle zur Verfügung, um einzelne Änderungen an Standortdaten vorzunehmen. 
+Die von Ihnen bereitgestellten Berichts Beschriftungen und Speicherorte sind eine einzige Datenstruktur – derzeit ist keine Schnittstelle verfügbar, um einzelne Änderungen an den Daten vorzunehmen.
 
 **So bearbeiten Sie die Tabelle von Subnetzen und Speicherorten**
 
-1. Klicken Sie auf **Daten von Speicherorten ersetzen**.
-2. Klicken Sie im Bereich **Standortdaten ersetzen** auf **Datei auswählen**, und navigieren Sie dann zu der bearbeiteten CSV-oder TSV-Datei, und laden Sie Sie hoch. 
-3. Klicken Sie auf **hochladen**. 
-
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Speicherorte** > , an denen**Etiketten gemeldet**werden.
+2. Klicken Sie auf **Daten von Speicherorten ersetzen**.
+3. Klicken Sie im Bereich **Standortdaten ersetzen** auf **Datei auswählen**, und navigieren Sie dann zu der bearbeiteten CSV-oder TSV-Datei, und laden Sie Sie hoch.
+4. Klicken Sie auf **hochladen**.
 
 Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)eine Beispielvorlage herunterladen.
 
-Mit dem folgenden Beispiel können Sie Ihre Datendatei erstellen. 
+Verwenden Sie das folgende Beispiel, um Ihre Datendatei zu erstellen.
 
 > [!IMPORTANT]
-> Ihre Datendatei darf keine Spaltenüberschriften (wie Netzwerk, Netzwerk Name usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. </br>
+> Ihre Datendatei darf keine Spaltenüberschriften (wie Netzwerk, Netzwerk Name usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. <br>
 
 |Netzwerk|Netzwerk Name|Netzwerkbereich|Gebäude Name|Besitzertyp|Gebäudetyp|Gebäude-Office-Typ|Ort|PLZ|Land|Bundesland|Region|In Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,9 +56,7 @@ Mit dem folgenden Beispiel können Sie Ihre Datendatei erstellen.
 |10.0.131.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
 |10.0.132.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
 
-
 Weitere Informationen zum Formatieren Ihrer Datendatei finden Sie unter [Mandantendaten Dateiformat und Erstellen von Datendatei Strukturen](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 
