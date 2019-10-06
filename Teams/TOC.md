@@ -361,13 +361,19 @@
 ## Anrufweiterleitung
 ### [Was sind Wählpläne?](what-are-dial-plans.md)
 ### [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
+### [Hinzufügen und Aktualisieren von Labels zur Berichterstellung](learn-more-about-site-upload.md)
 ## Notrufe
-### [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Hinzufügen, Ändern oder Entfernen einer Notfalladresse für Ihre Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Zuweisen oder Ändern einer Notfalladresse für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Zuweisen oder Ändern des Notfallstandorts für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Bezeichnungen für Notrufe](emergency-calling-labels.md)
+### [Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md)
+### Verwalten von Notruf-Adressen
+#### [Was sind Notfallstandorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
+#### [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
+#### [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer](assign-change-emergency-location-user.md)
+#### [Zuweisen oder Ändern eines Ortes als Notfallstandort für einen Benutzer](assign-change-emergency-place-user.md)
+#### [Bezeichnungen für Notrufe](emergency-calling-labels.md)
+### [Verwalten von Notruf-Richtlinien](manage-emergency-calling-policies.md)
+### [Verwalten von Notfall-Anrufweiterleitungsrichtlinien](manage-emergency-call-routing-policies.md)
+
 
 
 ## Referenz
