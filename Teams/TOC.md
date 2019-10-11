@@ -85,6 +85,7 @@
 #### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams-Gerätenutzungsbericht](teams-analytics-and-reports/device-usage-report.md)
 #### [Bericht "PSTN-blockierte Benutzer"](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Bericht „PSTN-Minutenpools“](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [Bericht "PSTN-Verbrauch"](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams-Liveereignis-Nutzungsbericht](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](teams-activity-reports.md)
