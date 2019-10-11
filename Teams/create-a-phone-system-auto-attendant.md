@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401978"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434964"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -44,7 +44,7 @@ Für automatische Telefonzentralen-Implementierungen sind häufig mehrere automa
 ## <a name="step-1--get-started"></a>Schritt 1 – erste Schritte
 
 - Für eine automatische Telefonzentrale ist ein zugeordnetes Ressourcenkonto erforderlich. Informationen zu Ressourcenkonten und allen erforderlichen Lizenzen finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) . 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ Sie haben mehrere Möglichkeiten, den Operator einzurichten:
      > [!Note]
      > **Die Person in Ihrer Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird.
 
-- **Sprach Feature**  Wählen Sie den Namen des Ressourcenkontos aus, das mit einer automatischen Telefonzentrale oder einer Anrufwarteschlange verknüpft ist, die bereits erstellt wurde. Anrufer, die einen Operator anfordern, werden dorthin umgeleitet.  
+- **Sprach-App**  Wählen Sie den Namen des Ressourcenkontos aus, das mit einer automatischen Telefonzentrale oder einer Anrufwarteschlange verknüpft ist, die bereits erstellt wurde. Anrufer, die einen Operator anfordern, werden dorthin umgeleitet.  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ Sie haben mehrere Möglichkeiten, den Operator einzurichten:
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![Symbol der Zahl 3, einer Legende in der vorherigen Screenshot](media/teamscallout3.png)<a name="timezone"> </a>  
-- **Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale einstellen. Die Einstellung kann mit der Zeitzone der Hauptadresse, die für Ihre Organisation aufgelistet ist, oder einer anderen Zeitzone identisch sein. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen. Die für die automatische Telefonzentrale eingestellten Geschäftszeiten verwenden ebenfalls diese Zeitzone.
+<a name="timezone"> </a>
+
+![Symbol der Zahl 3, einer Legende in der vorherigen Screenshot](media/teamscallout3.png) - **Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale einstellen. Die Einstellung kann mit der Zeitzone der Hauptadresse, die für Ihre Organisation aufgelistet ist, oder einer anderen Zeitzone identisch sein. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen. Die für die automatische Telefonzentrale eingestellten Geschäftszeiten verwenden ebenfalls diese Zeitzone.
 
 * * *
 
@@ -147,7 +148,6 @@ Sie können angepasste Begrüßungen, Eingabeaufforderungen und Menüs einrichte
 ![Symbol der Zahl 3, eine Beschriftung im vorherigen Screenshot](media/teamscallout3.png) **Geben Sie eine Grußnachricht ein** , wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Geben Sie beispielsweise "Willkommen bei Contoso" ein. Ihr Anruf ist uns sehr wichtig“ Die Ausgabe wird von der Text-zu-Sprache-Software erstellt.
 
 * * *
-
 
 Im Abschnitt **Anruf weiterleiten** können Sie auswählen, was neben anrufen aus den folgenden Aktionen geschieht. Einstellungen sind die Optionen " **trennen**", " **Anruf umleiten** **" oder "Wiedergabe"**.
 
@@ -197,13 +197,9 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 > [!NOTE]
 > Die Tasten \* (wiederholen) \# und (zurück) werden vom System reserviert und können nicht neu zugewiesen werden. Wenn die Spracherkennung aktiviert ist, entspricht das Drücken von * mit "Wiederholen", und # entspricht den Sprachbefehlen "zurück".
 
-![Symbol der Zahl 3, eine Legende im vorherigen Screenshot](media/teamscallout3.png)
+![Symbol der Zahl 3, einer Legende im vorherigen Screenshot](media/teamscallout3.png) zum Einrichten einer Menüoption klicken Sie auf die Schaltfläche **+ Zuweisen einer Wähl Taste** , und geben Sie Informationen für die folgenden Optionen ein:
 
-Um eine Menüoption einzurichten, klicken Sie auf die **+ Wähl Taste zuweisen** und geben Sie Informationen für die folgenden Optionen ein:
-
-![Symbol der Zahl 4, eine Legende im vorherigen Screenshot](media/teamscallout4.png) 
-
-Die Spalte mit den **Sprachbefehlen** für eine Option kann bis zu 64 Zeichen lang sein und mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten. Wenn die Spracherkennung aktiviert ist, wird der Name automatisch erkannt, und der Anrufer ist in der Lage, 3 zu drücken, "drei" zu sagen oder "Kundendienst" zu wählen, um die Option auszuwählen, die Key 3 zugeordnet ist.
+![Symbol der Zahl 4: ein Callout in der vorherigen Screenshot](media/teamscallout4.png)-**Sprachbefehls** Spalte für eine Option kann bis zu 64 Zeichen lang sein und mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten.   Wenn die Spracherkennung aktiviert ist, wird der Name automatisch erkannt, und der Anrufer ist in der Lage, 3 zu drücken, "drei" zu sagen oder "Kundendienst" zu wählen, um die Option auszuwählen, die Key 3 zugeordnet ist. Dieser Text wird auch von Text in Sprache für die Bestätigungsaufforderung des Diensts gerendert, die möglicherweise so etwas wie "übertragen des Anrufs an den Operator" sein könnte.
 
 ![Symbol der Zahl 5, ein Callout im vorherigen Screenshot](media/teamscallout5.png) die Option " **Umleiten an** " legt fest, wo der Anruf abläuft, wenn die entsprechende Taste gedrückt wird, oder die Option wird mithilfe der Spracherkennung ausgewählt. Der Anruf kann gesendet werden an:
 
@@ -219,13 +215,14 @@ Die Spalte mit den **Sprachbefehlen** für eine Option kann bis zu 64 Zeichen la
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Symbol der Zahl 6, eine Legende im vorherigen Screenshot](media/teamscallout6.png) 
-
-**Verzeichnissuche** In diesem Abschnitt können Sie die **Wählfunktion nach Namen** und **die Durchwahl für** die automatische Telefonzentrale aktivieren. Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Die Verzeichnissuche ist standardmäßig auf **keine** eingestellt.
+![Symbol der Zahl 6, einer Legende in der vorherigen](media/teamscallout6.png)Screenshot-**Verzeichnissuche** in diesem Abschnitt können Sie die Wählfunktion **nach Namen** und **die Durchwahl für** die automatische Telefonzentrale aktivieren.   Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Die Verzeichnissuche ist standardmäßig auf **keine** eingestellt.
 
 **Wählen nach Name** Wenn Sie diese Option aktivieren, können Anrufer nach Personen in Ihrer Organisation mithilfe **von Dial by Name**suchen. Sie sagen, dass der Name und die Spracherkennung des Benutzers mit einem Benutzer übereinstimmen. Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden.
 
 **Durchwahl** Wenn Sie diese Option aktivieren, können Anrufer mit Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie Ihre Telefon Durchwahl angeben, **vorausgesetzt, Sie haben einen Wählplan konfiguriert, in dem Erweiterungen verwendet**werden. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
+
+> [!NOTE]
+> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption 3 zu wählen, wenn Sie die Erweiterung des Benutzers kennen, und die Option 3 auf Tran festzulegen. Sfer Sie den Anruf an eine automatische Telefonzentrale, die für die Durchwahl aktiviert ist. 
 
 * * *
 
@@ -328,7 +325,9 @@ Wenn Sie **alle Online Benutzer**auswählen, werden alle berechtigten Benutzer i
 
 **Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine in Ihrer Organisation bereits erstellte Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden, und Sie sind **Online Benutzer mit einer Telefon System Lizenz** oder lokal mit Skype for Business Server gehostet. Sie können dem Verzeichnis mehrere Office 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
 
+<a name="dialscope"> </a>
 
+Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in Ihrem Verzeichnis aufgeführt und für die Wahl nach Namen verfügbar sein sollen, wenn eine Person, die sich in Ihre Organisation einwählt.
 
 ![Symbol der Zahl 2: eine Legende im vorherigen Screenshot](media/teamscallout2.png) **schließt** die Optionen in diesem Abschnitt aus, mit denen Sie bestimmte Benutzer oder Gruppen von Benutzern aus dem Verzeichnis der Organisation ausschließen können.
 

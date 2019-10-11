@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1a6d27dc2e01d433f36196394f7d3b98871c597
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 81609298a580594e8c54d185d7dea3be86824139
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244777"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435111"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
@@ -42,7 +42,7 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
 > Benutzer, die auf Teams aktualisiert werden, können nur mit Benutzern kommunizieren, die Skype für Verbraucher verwenden.
 
 > [!IMPORTANT]
-> Ausführlichere Informationen zur Koexistenz finden Sie Untergrund Legendes zu [Microsoft Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Ausführlichere Informationen zur Koexistenz finden Sie Untergrund [Legendes zu Microsoft Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
 
 **Mandantenweite Überlegungen**: Wir arbeiten daran, Teams in den folgenden Umgebungen zu aktivieren: im Moment sollten Administratoren jedoch keine Benutzer in Ihrer Organisation aktualisieren, wenn Ihr Skype for Business-Mandant in einer der folgenden Umgebungen gehostet wird:
 
@@ -52,18 +52,10 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
  - Office 365 Deutschland
  - Skype for Business-Mandant wird in Südkorea gehostet **, und** die Organisation setzt voraus, dass die Teams-Daten in Südkorea gespeichert werden. Derzeit werden Organisationen mit Skype for Business-Daten, die in Südkorea gespeichert sind und für die ein Upgrade auf Teams durchgeführt wird, ihre Teams-Daten in der Region Asia Datacenter, nicht in der Region Süd-Korea, speichern.
 
-**Benutzerspezifische Überlegungen**: einige Benutzerszenarien werden weiterhin entwickelt, und Administratoren können beschließen, das Upgrade bestimmter Benutzer vorübergehend zu verschieben, während Sie andere Benutzer in der Organisation aktualisieren. Wir arbeiten an der Lösung dieser Szenarien; Überwachen Sie die [Office 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) -Website für Ankündigungen.
+**Benutzerspezifische Überlegungen**: einige Benutzerszenarien werden weiterhin entwickelt, und Administratoren können beschließen, das Upgrade bestimmter Benutzer vorübergehend zu verschieben, während Sie andere Benutzer in der Organisation aktualisieren. Insbesondere arbeiten wir weiterhin an Szenarien für Benutzer, deren primäres Gerät VDI-basiert ist. Überwachen Sie die [Office 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) -Website für Ankündigungen.
 
 > [!NOTE]
 > Bevor Sie in den Modus nur für Teams wechseln, müssen Sie Geräte ersetzen oder aktualisieren, die keine Teams unterstützen. 
-
-| Szenario | Hinweise |
-|----------|-------|
-|Das primäre Arbeitsgerät des Benutzers ist ein Mac, und der Benutzer muss die Verfügbarkeit von Kollegen in Outlook anzeigen. | Die Outlook-Anwesenheit in Microsoft Teams wird für Mac-Geräte noch nicht vollständig unterstützt. |
-| Der Benutzer führt regelmäßig Besprechungen mit Kunden oder externen Partnern in verschiedenen internationalen Regionen. | Externe Teilnehmer, deren Mandant an einem anderen Geo-Standort befindet, werden im Chat nicht angezeigt **** , während Sie sich in einer Föderations Besprechung befinden. Teilnehmer können weiterhin als anonyme Benutzer an der Besprechung teilnehmen. |
-| Der Benutzer führt Skype for Business-Broadcast Besprechungen durch. |  Während Teams Live-Events (die Skype-Übertragung ersetzen) bereits in der öffentlichen Vorschau vorhanden sind, muss dieser Benutzer möglicherweise bis zur allgemeinen Verfügbarkeit von Teams Live-Events auf Skype for Business bleiben.
-| Das primäre Gerät des Benutzers ist VDI-basiert. | |
-|||
 
 > [!IMPORTANT]
 > **Denken Sie daran**: der Wechsel zu Teams ist mehr als eine technische Migration. Bei einem erfolgreichen Upgrade werden sowohl die technische Bereitschaft als auch die Bereitschaft des Endbenutzers bewertet. Lesen Sie unseren [Leitfaden](upgrade-framework.md) für Skype for Business für Teams, um weitere Informationen zur Planung einer Implementierung des Upgrades für Teams zu erhalten.  

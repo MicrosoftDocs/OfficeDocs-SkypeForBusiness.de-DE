@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie mehr über die Funktionen, die Verfügbarkeit und die Planung und Einrichtung eines Telefonsystem (Cloud-PBX) für Ihr Unternehmen. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
-ms.translationtype: HT
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328364"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434864"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
@@ -35,7 +35,7 @@ Eine PBX ist ein Telefonsystem in einem Unternehmen. Das Office 365-Telefonsyste
   
 Mit dem Telefonsystem können Sie Skype for Business verwenden, um grundlegende Aufgaben von nahezu allen Orten mit Internetzugang auszuführen. Dazu zählen: Anrufe tätigen und empfangen, Anrufe übertragen sowie Anrufe stumm schalten und die Stummschaltung aufheben. Es ist weltweit verfügbar. 
   
-Weitere Informationen hierzu finden Sie in der [Preisübersicht für das Office 365-Telefonsystem](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+Weitere Informationen hierzu finden Sie in der [Preisübersicht für das Office 365-Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## <a name="phone-system-in-office-365-features"></a>Features des Office 365-Telefonsystems
 
@@ -84,7 +84,7 @@ Informationen zum Planen und Einrichten des Office 365-Telefonsystems in Ihrem U
 
 - [Einrichten von Anrufplänen](set-up-calling-plans.md): Dieser Artikel beinhaltet eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder zum Übertragen Ihrer vorhandenen Telefonnummern an Skype for Business.
     
-- [Microsoft-Telefonielösungen](https://docs.microsoft.com/de-DE/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel werden alle Bereitstellungsoptionen aufgeführt. Außerdem finden Sie hier Informationen zur Planung einer Nur-Cloud-Lösung. 
+- [Microsoft-Telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel werden alle Bereitstellungsoptionen aufgeführt. Außerdem finden Sie hier Informationen zur Planung einer Nur-Cloud-Lösung. 
     
 - [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Erfahren Sie, welche Lizenzen Sie erwerben müssen, um das Office 365-Telefonsystem zu erhalten.
     

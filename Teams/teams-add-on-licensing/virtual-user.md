@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu kostenlosen virtuellen Benutzerlizenzen.
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447911"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435125"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Telefon System – virtuelle Benutzerlizenz 
 
@@ -51,9 +51,12 @@ Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anru
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Telefon System erwerben – Lizenzen für virtuelle Benutzer 
 
+> [!NOTE] 
+> Wenn Sie diese Anweisungen befolgen, deaktivieren Sie den Vorschaumodus, um eine Telefon System-Virtual User-Lizenz zu erwerben.
+
 1. Anmelden beim Microsoft 365 Admin Center.
 2. Wechseln Sie zu den**Add-on-Abonnements** für **Billing** > **Purchase Services** > .
-3. Scrollen Sie bis zum Ende, um die Lizenz **"Telefon System – virtueller Benutzer"** zu finden. Wählen Sie **Jetzt kaufen**aus.
+3. Scrollen Sie bis zum Ende, um die Lizenz **"Telefon System – virtueller Benutzer"** zu finden. Wählen Sie **Jetzt kaufen** aus.
 
 > [!WARNING]
 > Beachten Sie, dass Sie die Lizenz weiterhin **kaufen** müssen, auch wenn Sie Kosten von NULL hat. 

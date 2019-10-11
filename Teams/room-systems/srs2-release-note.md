@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 9bf1cfa76b9049f426dd2b54e77e9461127df092
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775216"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435136"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -26,6 +26,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
@@ -54,6 +55,13 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+
+### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
+
+In diesem Update eingeführt:
+
+- Windows 10 1903-Unterstützung. Windows 10 1903-Update wird in wenigen Tagen nach dem App-Update angeboten
+- Korrekturen der Bildschirmtastatur werden nicht zuverlässig angezeigt
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 

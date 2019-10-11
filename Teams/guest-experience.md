@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241997"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434659"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -32,7 +32,7 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispiel Teams zu sehen ist, wird in einem Banner "dieses Team hat Gäste" angezeigt, und neben dem Namen jedes Gasts wird eine "(Gast)"-Beschriftung angezeigt.
     
-![Screenshot mit Banner Benachrichtigungs Gastbenutzern] (media/guest-experience-image2.png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, die mit dem Wort Guest neben dem Namen der Person gekennzeichnet sind.")
+![Screenshot mit Banner Benachrichtigung Gastbenutzer](media/guest-experience-image2.png "-Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, mit der Word Guest neben dem Namen.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich von Teammitgliedern und Gast Funktionen
 
@@ -54,24 +54,25 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 |Team erstellen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Öffentliches Team finden und daran teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Organisationschat anzeigen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Verwenden der Inline Übersetzung  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 In der folgenden Tabelle sind die Anruf-und besprechungsfeatures aufgeführt, die den Gästen zur Verfügung stehen.
 
 | Anruffunktion | Gäste | E1-und E3-Benutzer | E5 und EV-Benutzer |
 | --------------- | ----- | -------------- | -------------- |
-| VoIP-Anrufe | Ja | Ja | Ja |
-| Gruppenanrufe | Ja | Ja | Ja |
-| Unterstützte zentrale Anrufsteuerungen (halten, stumm schalten, Video ein/aus, Bildschirmübertragung) | Ja | Ja | Ja |
-| Übergabeziel | Ja | Ja | Ja |
-| Kann einen Anruf übertragen | Ja | Ja | Ja |
-| Kann beratend übertragen | Ja | Ja | Ja |
-| Kann andere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja | Ja |
+| VoIP-Anrufe | Ja | Ja  | Ja  |
+| Gruppenanrufe | Ja | Ja  | Ja  |
+| Unterstützte zentrale Anrufsteuerungen (halten, stumm schalten, Video ein/aus, Bildschirmübertragung) | Ja | Ja  | Ja  |
+| Übergabeziel | Ja | Ja  | Ja  |
+| Kann einen Anruf übertragen | Ja | Ja  | Ja  |
+| Kann beratend übertragen | Ja | Ja  | Ja  |
+| Kann andere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja  | Ja  |
 | Kann Nutzer per Telefonnummer zu einem Anruf hinzufügen | Nein | Nein | Ja |
-| Ziel weiterleiten | Nein | Ja | Ja |
-| Anrufgruppen Ziel | Nein | Ja | Ja |
-| Unbeantwortetes Ziel | Nein | Ja | Ja |
-| Kann das Ziel eines Föderations Anrufs sein | Nein | Ja | Ja |
-| Kann einen Verbund Anruf führen | Nein | Ja | Ja |
+| Ziel weiterleiten | Nein | Ja | Ja  |
+| Anrufgruppen Ziel | Nein | Ja | Ja  |
+| Unbeantwortetes Ziel | Nein | Ja | Ja  |
+| Kann das Ziel eines Föderations Anrufs sein | Nein | Ja | Ja  |
+| Kann einen Verbund Anruf führen | Nein | Ja | Ja  |
 | Kann Ihre Anrufe sofort weiterleiten | Nein | Nein | Ja |
 | Können gleichzeitig anrufen | Nein | Nein | Ja |
 | Kann Ihre unbeantworteten Anrufe weiterleiten | Nein | Nein | Ja |

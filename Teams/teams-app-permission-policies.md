@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 02f626db773adc2d64547397c793d214187758de
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b6b655fd60687cb24ed6c2c8721bd889ea97548b
+ms.sourcegitcommit: cf97815f18b08fd67479844170540edc7b467099
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483734"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37449719"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
@@ -49,7 +49,7 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, welche apps i
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**.
 2. Wählen Sie **organisationsweite Einstellungen**aus. Anschließend können Sie die gewünschten Einstellungen im Panel konfigurieren. 
-![Screenshot der organisationsweiten App-Einstellungen](media/app-permission-policies-org-wide-settings.png)
+    ![Screenshot der neuen App-Berechtigungsrichtlinie](media/app-permission-policies-org-wide-settings.png)
 3. Deaktivieren oder aktivieren Sie unter **apps von Drittanbietern**diese Einstellungen, um den Zugriff auf Drittanbieter-apps zu steuern:
 
     - **Zulassen von Drittanbieter-oder benutzerdefinierten apps in Teams**: Dadurch wird gesteuert, ob Benutzer Drittanbieter-oder benutzerdefinierte Apps verwenden können.
@@ -67,7 +67,7 @@ Wenn Sie die apps steuern möchten, die für unterschiedliche Benutzergruppen in
 2. Klicken Sie auf **Hinzufügen**.
     ![Screenshot der neuen App-Berechtigungsrichtlinie](media/app-permission-policies-new-policy.png)
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
-4. Wählen Sie unter **Microsoft-apps**, **Drittanbieter-apps**und Mandanten- **apps**eine der folgenden Optionen aus:
+4. Wählen Sie unter **Microsoft-apps**, **Drittanbieter-apps**und **Mandanten-apps**eine der folgenden Optionen aus:
 
     - **Alle apps zulassen**
     - **Zulassen bestimmter apps und Blockieren aller anderen Personen**

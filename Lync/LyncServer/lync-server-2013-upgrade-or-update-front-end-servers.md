@@ -10,12 +10,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e4edb5ea009960fe0456f266a428431049f542b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847415"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ Die Front-End-Server in einem Enterprise Edition-Pool sind in *Upgrade-Domänen*
 
 Wenn Sie Server aktualisieren, müssen Sie eine Upgrade-Domäne gleichzeitig ausführen. Führen Sie die einzelnen Server in einer Upgrade-Domäne herunter, aktualisieren Sie Sie, und starten Sie Sie dann neu, bevor Sie zu einer anderen Upgrade-Domäne wechseln. Achten Sie darauf, nachzuverfolgen, welche Upgrade-Domänen und-Server Sie bisher aktualisiert haben. Verwenden Sie das folgende Flussdiagramm Diagramm, wenn Sie jeden Server aktualisieren.
 
-![42ed59a4-1c26-49f7-ADE4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ADE4-a5a788457ab9")
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Aktualisieren oder Aktualisieren von Front-End-Servern":::
 
 <div>
 

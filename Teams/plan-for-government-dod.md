@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767183"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435217"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
@@ -108,7 +108,7 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 | | VoIP-Anruf | Verfügbar |
 | | Skype for Business – Teams anrufen | Verfügbar |
 | | Anrufpläne | Nicht verfügbar |
-| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Auf dem Government-Rückstand |
+| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Verfügbar |
 | | Microsoft Phone-System Direktes Routing | Auf dem Government-Rückstand |
 | | Lobby für PSTN-Anrufer | Auf dem Government-Rückstand |
 | | Anrufwarteschlange | Auf dem Government-Rückstand |

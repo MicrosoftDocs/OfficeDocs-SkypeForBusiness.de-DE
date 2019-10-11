@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838078"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435147"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -43,7 +43,7 @@ Die Protokolle werden in c:\rigel. als ZIP-Datei ausgegeben
 Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. Auf diese Weise wird sichergestellt, dass die Konsolen-Benutzeroberfläche nicht auf dieser Anzeige dupliziert wird, wenn Sie die Anzeige auf dem Bildschirm ausschalten.
   
 > [!NOTE]
-> Wenn Sie möchten, dass ein Front-Room-Display automatisch zu einer aktiven Videoquelle (wie einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus aktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von der Microsoft Teams Rooms-Software unterstützt, sofern die zugrunde liegende Hardware das Feature unterstützt. Ein Consumer-Fernsehgerät, das als Front-of-room-Display verwendet wird, muss die Funktion Consumer Electronics Control (CEC) von HDMI unterstützen.  Je nachdem, welches Dock oder welche Konsole ausgewählt wurde (das CEC möglicherweise nicht unterstützt, lesen Sie die Dokumentation zum Hersteller Support), kann ein Arbeitsbereichs Controller wie eine [newtron HD CTL 100](https://www.extron.com/article/hdctl100ad) benötigt werden, um das gewünschte Verhalten zu ermöglichen. 
+> Wenn Sie möchten, dass ein Front-Room-Display automatisch zu einer aktiven Videoquelle (wie einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus aktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von der Microsoft Teams Rooms-Software unterstützt, sofern die zugrunde liegende Hardware das Feature unterstützt. Ein Consumer-Fernsehgerät, das als Front-of-room-Display verwendet wird, muss die Funktion Consumer Electronics Control (CEC) von HDMI unterstützen.  Je nach ausgewähltem Dock oder der ausgewählten Konsole (die CEC möglicherweise nicht unterstützt, beziehen Sie sich bitte auf die Hersteller-Support-Dokumentation), kann ein Controller wie ein [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) von Crestron oder die [newtron HD CTL 100](https://www.extron.com/article/hdctl100ad) von Tron benötigt werden, um die gewünschte Verhalten. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams rooms Reset (Factory Restore)
 <a name="Reset"> </a>

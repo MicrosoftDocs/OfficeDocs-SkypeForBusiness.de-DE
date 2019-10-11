@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Clientumgebung für Teams und comformance in Koexistenzmodus
+description: Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,43 +16,45 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85f74b63f465bd0004e8b9a2ef93c79b00196495
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243905"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435239"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 
-> [!NOTE]
-> Auf dieser Seite werden wichtige, kürzlich veröffentlichte Änderungen des Verhaltens des Teams-Clients beschrieben, wenn sich Benutzer in einem der Skype for Business-Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) befinden.
 
+Der Zweck der Koexistenz-Modi von Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht darin, den Endbenutzern eine einfache, vorhersagbare Erfahrung zu bieten, wenn Organisationen von Skype for Business zu Teams wechseln.  Für eine Organisation, die in Teams wechselt, ist der Modus **nur für Teams** das endgültige Ziel für jeden Benutzer, wobei nicht allen Benutzern gleichzeitig **nur Teams** (oder ein beliebiger anderer Modus) zugewiesen werden müssen.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen alle Skype for Business-Koexistenzmodus verwenden, um eine vorhersagbare Kommunikation zwischen Benutzern zu gewährleisten, die **nur Teams** sind und die noch nicht sind. 
 
-Der Zweck der Koexistenz-Modi ist es, eine einfache, vorhersagbare Benutzeroberfläche für Endbenutzer bereitzustellen, während Organisationen von Skype for Business zu Teams wechseln.  Für eine Organisation, die in Teams wechselt, ist der TeamsOnly-Modus das endgültige Ziel für jeden Benutzer, wobei nicht allen Benutzern gleichzeitig TeamsOnly (oder ein beliebiger anderer Modus) zugewiesen werden muss.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen alle Skype for Business-Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) verwenden, um eine vorhersagbare Kommunikation zwischen Benutzern, die TeamsOnly sind, und denjenigen, die noch nicht sind, zu gewährleisten. 
+Wenn sich ein Nutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Skype for Business-Client des Benutzers weitergeleitet. Um die Verwirrung des Endbenutzers zu vermeiden und die ordnungsgemäße Weiterleitung zu gewährleisten, ist die Funktion für Anrufe und Chats im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business-Modi befindet. Ebenso wird die Terminplanung in Teams explizit deaktiviert, wenn sich Benutzer im SfBOnly-oder SfBWithTeamsCollab-Modus befinden und explizit aktiviert werden, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.
 
-Wenn sich ein Nutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Skype for Business-Client des Benutzers weitergeleitet. Um die Verwirrung des Endbenutzers zu vermeiden und die ordnungsgemäße Weiterleitung zu gewährleisten, ist die Funktion für Anrufe und Chats im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business-Modi befindet. Ebenso wird die Terminplanung in Teams explizit deaktiviert, wenn sich Benutzer im SfBOnly-oder SfBWithTeamsCollab-Modus befinden und explizit aktiviert werden, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.   
+Da Anwesenheitsinformationen durch Chats und Anrufe eine Erreichbarkeit darstellen, wenn Chats und Anrufe deaktiviert sind, ist die selbst Anwesenheit in Teams (also die Anzeige der eigenen Anwesenheit im Team-Client im Bild des Benutzers) ebenfalls verborgen. 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Wie sich die verfügbaren Funktionen in Teams Client basierend auf dem Modus ändern
+
 Die verfügbare Funktionalität in Microsoft Teams hängt vom Koexistenzmodus des Benutzers ab, wie von TeamsUpgradePolicy. In der folgenden Tabelle wird das Verhalten zusammengefasst:
 
 |Effektiver Modus des Benutzers|Erfahrung im Team-Client|
 |---|---|
-|Skype for Business-Modus|Anrufe und Chats sind deaktiviert.|
+|Skype for Business-Modus|Anrufe, Chats und selbst Anwesenheit sind deaktiviert.|
 |SfBWithTeamsCollabAndMeetings|Besprechungsplanung steht zur Verfügung|
 |SfBWithTeamsCollab oder SfBOnly<sup>1</sup>|Besprechungsplanung steht nicht zur Verfügung|
 |||
 
-Die folgenden Screenshots veranschaulichen den Unterschied zwischen TeamsOnly-oder Islands-Modus und allen anderen Modi. Beachten Sie, dass die Chat-und Anruf Symbole im TeamsOnly-oder Islands-Modus (linker Screenshot) zur Verfügung stehen, aber nicht bei den anderen Modi (rechter Screenshot):
+Die folgenden Screenshots veranschaulichen den Unterschied zwischen dem **nur für Teams** oder dem **Inseln** -Modus und allen anderen Modi. Beachten Sie, dass die Symbole für Chats und Anrufe standardmäßig im Modus " **nur für Teams** " oder " **Inseln** " verfügbar sind (Screenshot Links), aber nicht mit den anderen Modi (rechter Screenshot):
 
 ![Ein nebeneinander angeordneter Vergleich der Modi "Teams"](media/teams-mode-comparison.png)
 
+Darüber hinaus steht die selbst Anwesenheit in den anderen Modi nicht zur Verfügung, wie hier gezeigt.
 
+![Screenshot der selbst Anwesenheit in Besprechungen zuerst](media/meetings-first-no-self-presence-general.png)
  
 **Hinweis:**
-<sup>1</sup> im Moment Verhalten sich SfBwithTeamsCollab und SfBOnly identisch, aber die Absicht ist, dass der SfBOnly-Modus auch die Kanäle und Dateien in Teams deaktiviert. Es gibt jedoch derzeit keine Einstellung, mit der diese Funktion in Teams deaktiviert werden kann.
+<sup>1</sup> zu diesem Zeitpunkt Verhalten sich SfBwithTeamsCollab und SfBOnly identisch, aber die Absicht ist, dass der SfBOnly-Modus auch Kanäle und Dateien in Teams deaktiviert. In der Zwischenzeit können Kanäle mithilfe der APP-Berechtigungsrichtlinie ausgeblendet werden.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Auswirkungen des Modus auf andere Richtlinieneinstellungen
@@ -74,7 +76,7 @@ Administratoren müssen diese Richtlinieneinstellungen *nicht* explizit festlege
 |SfBWithTeamsCollab oder SfBOnly|Deaktiviert|Deaktiviert|Deaktiviert|Deaktiviert|
 ||||||
 
-Bei Verwendung von PowerShell überprüft `Grant-CsTeamsUpgradePolicy` das Cmdlet die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy, um festzustellen, ob diese Einstellungen von TeamsUpgradePolicy übergegangen werden, und wenn dies der Fall ist, wird eine eine Informationsmeldung wird in PowerShell bereitgestellt.  Wie bereits erwähnt, ist es nicht mehr notwendig, diese anderen Richtlinieneinstellungen festzulegen. Nachfolgend finden Sie ein Beispiel dafür, wie die PowerShell-Warnung aussieht:
+Bei Verwendung von PowerShell überprüft `Grant-CsTeamsUpgradePolicy` das Cmdlet die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy, um festzustellen, ob diese Einstellungen durch TeamsUpgradePolicy ersetzt würden, und wenn dies der Fall ist, wird eine eine Informationsmeldung wird in PowerShell bereitgestellt.  Wie bereits erwähnt, ist es nicht mehr notwendig, diese anderen Richtlinieneinstellungen festzulegen. Im folgenden sehen Sie ein Beispiel dafür, wie die PowerShell-Warnung aussieht:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -84,7 +86,7 @@ Bei Verwendung von PowerShell überprüft `Grant-CsTeamsUpgradePolicy` das Cmdle
 
 # <a name="related-topics"></a>Verwandte Themen
 
-[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 

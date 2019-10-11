@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328353"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435100"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -40,7 +40,7 @@ Derzeit stehen CQD Version 3 und CQD Version 2 zur Verwendung zur Verfügung. CQ
 
 ## <a name="latest-changes-and-updates"></a>Aktuelle Änderungen und Updates
 
-CQD Version 3 bietet ein nahezu Echtzeit-CQD-Dashboard (Wartezeit in der Nähe von 30 Minuten) und verwendet Endbenutzer-identifizierbare Informationen (EUII), sodass Administratoren die Benutzerebene vergrößern können. Darüber hinaus gibt es Interaktivität und Berichte, die neue Szenarien unterstützen, wie etwa:
+CQD Version 3 bietet ein nahezu Echtzeit-CQD-Dashboard (Wartezeit in der Nähe von 30 Minuten) und verwendet Endbenutzer-identifizierbare Informationen (EUII), sodass Administratoren die Benutzerebene vergrößern können. Darüber hinaus gibt es Berichts Interaktivität zur Unterstützung neuer Szenarien wie:
 
 - Anrufqualität nach Regionen:
   - Datum-für-Region
@@ -129,11 +129,11 @@ Wenn ein Drillthrough-Feld ausgewählt ist, navigiert das Dashboard automatisch 
 
 In einem Drill-Through-Bericht zur Anrufqualität kann ein Benutzer beispielsweise auf das Datum klicken, an dem er "durchbohren" möchte, was zur Registerkarte "Standort" führt.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![Screenshot: zeigt den Drill-Thru-Bericht](media/CQD-drill-thru-report.png)
 
 Sie können mehrere Datumsangaben auf der Registerkarte Standort hinzufügen, beispielsweise das Hinzufügen von 2019-09-22 zu Datum: 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![Screenshot: Hinzufügen eines Datums zum Drill-Thru-Bericht](media/CQD-add-date.png)
 
 > [!NOTE]
 > Springen Sie nicht direkt zur letzten Registerkarte. Ohne Filter, die aus einem vorherigen Drilldown ausgewählt wurden, sind die Ergebnisse zu groß, um Sie in einer Tabelle anzuzeigen.
@@ -339,6 +339,8 @@ Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Manda
 ### <a name="building-data-file"></a>Erstellen einer Datendatei
 
 CQD verwendet eine Gebäude Datendatei, die hilfreiche Anrufdetails bereitstellt. Die Spalte Subnet wird durch Erweitern der Spalte Netzwerk + NetworkRange abgeleitet, und anschließend wird die Spalte Subnetz mit der Spalte erstes Subnetz oder Zweites Subnetz des Anrufdaten Satzes verknüpft, um die Informationen für Gebäude, Stadt, Land oder Region anzuzeigen. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Gültigkeitsprüfung vor dem Upload durchführen zu können:
+
+Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) eine Beispielvorlage herunterladen.
   
 - Bei der Datei muss es sich um eine TSV-Datei (Spalten werden durch eine Registerkarte getrennt) oder um eine CSV-Datei (Spalten werden durch ein Komma getrennt) handeln.
 - Die Datendatei enthält keine Tabellenkopfzeile. Die erste Zeile der Datendatei wird als reelle Daten erwartet, nicht für Kopfzeilen Beschriftungen wie "Netzwerk".
@@ -359,9 +361,7 @@ CQD verwendet eine Gebäude Datendatei, die hilfreiche Anrufdetails bereitstellt
 
 **Beispiel Zeile:**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich).
@@ -382,11 +382,11 @@ CQD verwendet eine Endpunkt Datendatei. Die Spaltenwerte werden in der ersten Cl
 
   **Feld Reihenfolge:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Beispiel Zeile:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>Erstellen benutzerdefinierter detaillierter Berichte
 

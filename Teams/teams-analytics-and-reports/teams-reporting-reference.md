@@ -16,12 +16,12 @@ ms.collection:
 description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131574"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439544"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -45,10 +45,10 @@ Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Featur
 |[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanälen<br/>Aktive Kanäle<br/>Meldungen<br/>Datenschutzeinstellungen für Teams<br/>Gäste in einem Team   |
 |[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, an denen ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
 |[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>IOS-Benutzer<br/>Android-Telefon Nutzer     |
-|[Bericht zur Live-Ereignis Nutzung in Teams](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufnahmeeinstellung<br>Produktionsart    |
+|[Teams-Liveereignis-Nutzungsbericht](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufnahmeeinstellung<br>Produktionsart    |
 |[Berichte über PSTN-blockierte Benutzer von Teams](pstn-blocked-users-report.md)   |  Anzeigename<br>Telefonnummer<br>Grund<br>Aktionstyp<br>Datum und Uhrzeit der Aktion   |
+|[Berichte für PSTN-Minuten Pools für Teams](pstn-minute-pools-report.md) |  Land oder Region<br>Funktion (Lizenz) <br>Gesamtzahl der Minuten<br>Verwendete Minuten<br>Minuten verfügbar|
 |[PSTN-Nutzungsbericht für Teams – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefonnummer<br>Anruftyp <br>Aufgerufen an<br>Zu Land oder Region <br>Aufgerufen von <br>Aus Land oder Region<br>Kostenlos<br>Währung<br>Dauer<br>Domestic/International<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|
-|[PSTN-Nutzungsbericht für Teams – Direktes Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefonnummer <br>Anruftyp<br>Aufgerufen an<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Bereich<br>Ereignistyp<br>Endgültiger SIP-Code<br>Letzter Microsoft-Subcode<br>Endgültige SIP-Phrase<br>Kennung  |
+|[PSTN-Nutzungsbericht für Teams – Direktes Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefonnummer <br>Anruftyp<br>Aufgerufen an<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Bereich<br>Ereignistyp<br>Endgültiger SIP-Code<br>Letzter Microsoft-Subcode<br>Endgültige SIP-Phrase<br>Korrelations-ID  |
 
-> [!NOTE]
-> In den Teams-Berichten werden Daten für aktive Benutzer und aktive Teams angezeigt. Wenn beispielsweise ein Benutzer in Ihrer Organisation während des für einen Bericht angegebenen Datumsbereichs nicht in Teams aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

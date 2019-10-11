@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Verwaltung von Front-End-Pools in Skype for Business Server, einschließlich Verwalten von Pools, Quorum Verlust und speziellen Schritten für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047092"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435178"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -51,6 +51,9 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 |10  <br/> |8  <br/> |
 |11  <br/> |9  <br/> |
 |12  <br/> |10  <br/> |
+|16 **für Skype for Business Server 2019** <br/> |12  <br/> |
+
+
    
 Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit Sie nicht auf einem Quorum Verlust auf Poolebene sind), können Sie `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` das Cmdlet verwenden, um den Pool zu aktivieren, um den Quorum Verlust auf Routinggruppen Ebene wiederherzustellen und Fortschritte zu erzielen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
@@ -69,9 +72,13 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann er keinen Quorum Verlust 
 |7  <br/> |Beliebige 4  <br/> |
 |8-9  <br/> |Beliebige 4 der ersten 7 Server  <br/> |
 |10-12  <br/> |Beliebige 5 der ersten 9 Server  <br/> |
+|12-16 **für Skype for Business Server 2019**  <br/> |7 der ersten 12 Server  <br/> |
    
 In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronologischer Reihenfolge beim ersten Start des Pools aufgeholt wurden. Um diese Server zu ermitteln, können Sie das `Get-CsComputer` Cmdlet mit der `-PoolFqdn` Option verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und die oben in der Liste sind die ersten Server.
   
+> [!IMPORTANT]
+> Die maximale Anzahl der Front-End-Server wurde in [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019) auf 16 erhöht
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte, um zu bestimmen, dass Pools funktionsbereit sind
 
 Sie sollten auf eine Reihe anderer Faktoren achten, um sicherzustellen, dass Ihre Front-End-Pools funktionsbereit bleiben.

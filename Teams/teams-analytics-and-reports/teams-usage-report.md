@@ -15,12 +15,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie den Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center verwenden, um sich einen Überblick über die Microsoft Teams-Aktivitäten in Ihrem Unternehmen zu verschaffen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131598"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439572"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 
@@ -31,7 +31,7 @@ Der Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center gibt Ihnen e
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Verwendung**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-    ![Screenshot des Teams-Nutzungsberichts im Team Admin Center mit Beschriftungen] (../media/teams-reports-teams-usage-with-callouts.png "Screenshot des Teams-Nutzungsberichts im Team Admin Center mit Beschriftungen")
+    ![Screenshot des Teams-Nutzungsberichts im Team Admin Center mit]den(../media/teams-reports-teams-usage-with-callouts.png "Screenshots des Teams-Nutzungsberichts im Team-Admin Center mit Legenden")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -44,6 +44,8 @@ Der Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center gibt Ihnen e
 |**5**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung nach Team. <ul><li>**Teamname** ist der Anzeigename des Teams. Sie können auf den Teamnamen klicken, um zur Seite Einstellungen des Teams im Microsoft Teams Admin Center zu wechseln. </li> <li>**Datenschutz** gibt an, ob es sich um ein privates oder öffentliches Team handelt.</li> <li>**Aktive Benutzer** entspricht der Anzahl der aktiven Benutzer im Team im angegebenen Zeitraum.</li><li>**Gäste** entspricht der Anzahl der Gäste im Team im angegebenen Zeitraum.</li> </li> </ul>Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**6**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 |**7**   |Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf der Registerkarte **Downloads** auf **herunterladen** , um den Bericht herunterzuladen, wenn er fertig ist.<br><br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten zum herunterladen](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>Verwandte Themen
 

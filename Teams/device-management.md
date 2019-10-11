@@ -18,17 +18,17 @@ description: Hier erfahren Sie, wie Sie Geräte verwalten, die mit Teams in Ihre
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483825"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434900"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
 ::: zone target="docs"
-Als Administrator verwalten Sie alle Geräte, die mit Teams in Ihrer Organisation verwendet werden, im Microsoft Teams #a0 Skype for Business Admin Center. Sie können die Geräte Inventur für Ihre Organisation anzeigen und verwalten sowie Aufgaben wie aktualisieren, Neustarten und Überwachen der Diagnose für Geräte ausführen. Sie können auch einem Gerät oder einer Gruppe von Geräten Konfigurationsprofile erstellen und zuweisen. 
+Als Administrator verwalten Sie alle Geräte, die mit Teams in Ihrer Organisation verwendet werden, vom Microsoft Teams Admin Center. Sie können die Geräte Inventur für Ihre Organisation anzeigen und verwalten sowie Aufgaben wie aktualisieren, Neustarten und Überwachen der Diagnose für Geräte ausführen. Sie können auch einem Gerät oder einer Gruppe von Geräten Konfigurationsprofile erstellen und zuweisen. 
 
 ## <a name="what-devices-can-you-manage"></a>Welche Geräte können verwaltet werden?
 Geräte müssen für Teams zertifiziert und in Teams registriert sein. Ein Gerät wird automatisch registriert, wenn sich ein Benutzer zum ersten Mal bei Teams auf dem Gerät anmeldet. Eine Liste der zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenztelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) und [Tischtelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).

@@ -18,21 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
-ms.translationtype: HT
+ms.openlocfilehash: 998436e48acec3552bc88f960d12771d9f1e941b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401848"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435158"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
-Ein Ressourcenkonto wird in Azure AD auch als *deaktiviertes Benutzerobjekt* bezeichnet und kann verwendet werden, um Ressourcen allgemein darzustellen. In Exchange kann es z. B. verwendet werden, um Konferenzräume darzustellen und ermöglicht, dass diese eine Telefonnummer haben. Ein Ressourcenkonto kann in Microsoft 365 oder in Skype for Business Server 2019 verwaltet werden.
+Ein Ressourcenkonto wird in Azure AD auch als *deaktiviertes Benutzerobjekt* bezeichnet und kann verwendet werden, um Ressourcen allgemein darzustellen. In Exchange kann es z. B. verwendet werden, um Konferenzräume darzustellen und ermöglicht, dass diese eine Telefonnummer haben. Ein Ressourcenkonto kann in Microsoft 365 oder lokal unter Verwendung von Skype for Business Server 2019 verwaltet werden.
 
 In Microsoft Teams oder Skype for Business Online ist für jede Telefonsystem-Anrufwarteschleife oder automatische Telefonzentrale mindestens ein zugeordnetes Ressourcenkonto erforderlich. Ob ein Ressourcenkonto eine zugewiesene Telefonnummer benötigt, hängt von der vorgesehenen Verwendung der zugehörigen Anrufwarteschleife oder der automatischen Telefonzentrale ab, wie im folgenden Diagramm dargestellt. Sie können auch die Artikel zu Anrufwarteschleifen und automatischen Telefonzentralen, die am Ende dieses Artikels verknüpft sind, zu Rate ziehen, bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen.
-
-> [!IMPORTANT]
-> Eine Telefonnummer wird nicht direkt der automatischen Telefonzentrale oder Anrufwarteschlange, sondern dem Ressourcenkonto zugewiesen, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist.
 
 ![Beispiel für Ressourcenkonten und Benutzerlizenzen](media/resource-account.png)
 
@@ -124,7 +121,8 @@ Wenden Sie als nächstes im O365 Admin Center eine Lizenz auf das Ressourcenkont
 ![Symbol der Zahl 2, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png) Sie können den Anzeigenamen des Ressourcenkontos mit der Option **Bearbeiten** ändern. Klicken Sie abschließend auf **Speichern**.
 ![Screenshot der Option „Ressourcenkonto bearbeiten“](media/r-a-edit.png)
 
-<a name="phonenumber"></a>
+<a name="phonenumber"> </a>
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Zuweisen oder aufheben der Zuweisung von Telefonnummern und Diensten
 
 ![Symbol der Zahl 3, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png) Sobald Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf **Zuweisen/Aufheben der Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen oder um das Ressourcenkonto einer automatischen Telefonzentrale oder Anrufwarteschleife zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Ihre Anrufwarteschleife oder automatische Telefonzentrale noch erstellt werden muss, können Sie das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
@@ -133,6 +131,9 @@ Wenn Sie einem Ressourcenkonto eine direkte Routing-oder Hybrid-Nummer zuweisen 
 
 > [!IMPORTANT]
 > Wenn Ihr Ressourcenkonto nicht über eine gültige Lizenz verfügt, führt eine interne Prüfung zu einem Fehler, wenn Sie versuchen, die Telefonnummer dem Ressourcenkonto zuzuweisen. Sie sind dann nicht in der Lage, die Nummer zuzuweisen oder das Ressourcenkonto einer Anrufwarteschleife oder automatischen Telefonzentrale zuzuordnen.
+
+> [!IMPORTANT]
+> Eine Telefonnummer wird nicht direkt der automatischen Telefonzentrale oder Anrufwarteschlange, sondern dem Ressourcenkonto zugewiesen, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist.
 
 ![Screenshot der Optionen „Zuweisen/Aufheben der Zuweisung“](media/r-a-assign.png)
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305686"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435004"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -195,6 +195,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Kein Audio beim Freigeben von Inhalten während einer Livekonferenz  <br/> |Beim Freigeben von Inhalten während einer Livekonferenz können die Teilnehmer das Audio des freigegebenen Inhalts (YouTube-Link oder eine gespeicherte Videodatei) nicht hören.  <br/> |Dies ist nicht vorgesehen.  Microsoft Teams unterstützt zurzeit kein Audio bei der Inhaltsfreigabe.  <br/> |09.10.2018  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Besprechung kann aus Outlook nicht als Organisator gestartet werden, da Sie möglicherweise in der virtuellen Lobby stecken bleiben  <br/> |Dieses Problem tritt möglicherweise auf, wenn Ihr Outlook-Client bei einem anderen Konto als Ihr Teams-Clients angemeldet ist. <br/> |Wenn Sie an der Besprechung teilnehmen möchten, stellen Sie sicher, dass Ihr Outlook-Client und der Teams-Client bei demselben Konto angemeldet sind, unter dem die Besprechung geplant wurde.  <br/> |5.11.18  <br/> |
 
 ## <a name="mobile"></a>Mobil
 

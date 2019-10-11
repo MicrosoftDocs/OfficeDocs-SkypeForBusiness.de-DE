@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Schulungsvideos, Tutorials und weitere Ressourcen für Benutzer in Ihrer Organisation zum Kennenlernen und Verwenden von Teams.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+- ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 148a9a325c38f575a6453ce5011aa605e1a10aa4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: ee93aa39cf0c37c3a7defd690582eb6941337ec8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234929"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439453"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Endbenutzer-Schulungen für Microsoft Teams
 
@@ -102,7 +104,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -112,7 +114,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams-Kanal auf YouTube ansehen</h3>
+                        <h3>Schauen Sie sich den Schulungs Kanal für Teams auf YouTube an.</h3>
                     </div>
                 </div>
             </div>
@@ -203,7 +205,8 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                     <div class="cardText">
                         <h3>Beiträge und Nachrichten</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Erstellen und Formatieren eines Beitrags</a></p>
-                         <p><a href="https://support.office.com/de-DE/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Auf etwas aufmerksam machen mit Erwähnungen</a></p>
+                         <p>
+  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Auf etwas aufmerksam machen mit Erwähnungen</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Speichern eines Beitrags oder einer Nachricht</a></p>
                     </div>
                 </div>

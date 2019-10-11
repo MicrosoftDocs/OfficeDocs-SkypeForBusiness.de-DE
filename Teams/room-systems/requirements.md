@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: b05cb7638314ce583ce97d98e3bb5d56e264ca62
-ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
+ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37159741"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439528"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams Rooms ist für die Verwendung mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online vorgesehen.
 >
-> Frühere Plattformen wie lync Server 2013 funktionieren nicht mit Microsoft Teams-Räumen.
+> Frühere Plattformen wie lync Server 2013 funktionieren nicht mit Microsoft Teams-Räumen. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in den gcc-, gcc-oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen auf-Prem Exchange-Server verfügen, erfordert Microsoft Teams rooms die Verwendung von Exchange Server 2013 SP1 oder höher.
 
