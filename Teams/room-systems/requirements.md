@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439528"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468476"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -111,7 +111,7 @@ Diese Geräte sind unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices)erhä
 
 #### <a name="usb-extenders"></a>USB-Extender
 
-- USB-Anschlüsse an Tablet-Docks sind USB-3,0-kompatibel. Sie können einen USB 2. x-Extender verwenden. Dadurch werden Sie auf USB 2. x-Geschwindigkeiten am Ende der Seite begrenzt, was für USB 3,0-Peripheriegeräte nicht empfohlen wird.
+- USB-Anschlüsse an Tablet-Docks sind USB-3,0-kompatibel. Sie können einen USB 2. x-Extender verwenden, doch dies schränkt Sie auf USB 2. x-Geschwindigkeiten am anderen Ende ein. Extender werden für USB 3,0-Peripheriegeräte nicht empfohlen.
 - Ein Extender muss USB 2,0 oder neuere Spezifikationen erfüllen.
   - Tablet-Docks unterstützen mindestens zwei Phasen der externen USB-Hub-Erweiterung. Wenn Sie mehr als zwei USB-Hubs in Serie anschließen, erkundigen Sie sich beim Hersteller des Docks, ob er die Reihenverbindung unterstützt.
   - Kabelgebundene GbE-Verbindung im Raum. Ethernet-Kabel mit geeigneter Länge.

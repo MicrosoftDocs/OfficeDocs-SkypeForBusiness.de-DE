@@ -18,19 +18,19 @@ description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
-ms.translationtype: HT
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305761"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468498"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================
 
 Mit dem externen Zugriff auf Microsoft Teams können Teams-Benutzer aus anderen Domänen an ihren Chats und Anrufen teilnehmen. Sie können auch anderen externen Benutzern, die noch Skype for Business Online, Skype for Business (lokal) oder sogar Skype verwenden, die Teilnahme gestatten.
 
-Verwenden Sie in folgenden Fällen die Schritte in diesem Artikel:
+Verwenden Sie den externen Zugriff in folgenden Fällen:
   
 - In Ihrem Unternehmen befinden sich Benutzer in verschiedenen Domänen. Beispiel: Rob@contoso.com und Ann@northwindtraders.com.
 
@@ -41,7 +41,7 @@ Verwenden Sie in folgenden Fällen die Schritte in diesem Artikel:
 Externer Zugriff ermöglicht externen Benutzern das Auffinden, Anrufen und Senden von Chatnachrichten sowie das Einrichten von Besprechungen mit Ihnen. Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren möchten, ist der Gastzugriff möglicherweise besser geeignet. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Externer Zugriff und Gastzugriff im Vergleich](#external-access-vs-guest-access) weiter unten. Informationen zum Aktivieren des Gastzugriffs, um Benutzern zu ermöglichen, miteinander zu kommunizieren, finden Sie unter [Aktivieren des Gastzugriffs](set-up-guests.md).
 
 > [!IMPORTANT]
-> Um innerhalb der Microsoft Teams-App einen Verbund mit einem externen Benutzer außerhalb Ihrer Organisation zu erstellen, der derzeit kein Gastbenutzer in Azure Active Directory (Azure AD) oder Mandant ist, müssen Sie ordnungsgemäß für Hybridumgebungen konfiguriert und bereits auf Skype for Business Online umgestiegen sein. Seit dem 25.2.2019 unterstützt Microsoft Teams keinen nativen Verbund, ohne dass der Benutzer des SIP-Profils in Skype for Business Online verwaltet wird. Weitere Informationen dazu, wie Sie Ihr Konto für die Hybridumgebung einrichten und dann zu Teams wechseln, finden Sie unter [Upgrade von einer Skype for Business-Hybridbereitstellung zu Microsoft Teams](https://docs.microsoft.com/de-DE/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> Um innerhalb der Microsoft Teams-App einen Verbund mit einem externen Benutzer außerhalb Ihrer Organisation zu erstellen, der derzeit kein Gastbenutzer in Azure Active Directory (Azure AD) oder Mandant ist, müssen Sie ordnungsgemäß für Hybridumgebungen konfiguriert und bereits auf Skype for Business Online umgestiegen sein. Seit dem 25.2.2019 unterstützt Microsoft Teams keinen nativen Verbund, ohne dass der Benutzer des SIP-Profils in Skype for Business Online verwaltet wird. Weitere Informationen dazu, wie Sie Ihr Konto für die Hybridumgebung einrichten und dann zu Teams wechseln, finden Sie unter [Upgrade von einer Skype for Business-Hybridbereitstellung zu Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 > [!IMPORTANT]
 > Gastbenutzer folgen den organisationsweiten Einstellungen für den Koexistenzmodus. Dies kann nicht geändert werden.
