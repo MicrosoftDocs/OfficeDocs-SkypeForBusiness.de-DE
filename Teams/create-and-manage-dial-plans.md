@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie Anruf Wählpläne (PSTN-Wählpläne) in Office 365 erstellen und verwalten können. '
-ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221922"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508789"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -39,7 +39,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
  **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
   
  **Starten einer Windows PowerShell-Sitzung**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -126,7 +126,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
 - Um die effektiven Einstellungen eines Wählplans zu testen, führen Sie Folgendes aus:
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).

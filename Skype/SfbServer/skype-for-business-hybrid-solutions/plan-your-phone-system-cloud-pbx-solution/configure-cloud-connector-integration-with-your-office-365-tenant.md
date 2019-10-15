@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Erfahren Sie, wie Sie die Integration von Cloud Connectors in Ihren Office 365-Mandanten konfigurieren.
-ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287615"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508810"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
  
 Erfahren Sie, wie Sie die Integration von Cloud Connectors in Ihren Office 365-Mandanten konfigurieren.
   
@@ -112,7 +112,7 @@ Nachdem Sie Ihre Benutzer zu Office 365 hinzugefügt haben, aktivieren Sie Ihre 
   ```
 
     > [!NOTE]
-    > Sie können die Identität eines Benutzer auch über seine SIP-Adresse, den Benutzerprinzipalnamen (UPN), den Domänennamen (Domäne\Benutzername) und den Displaynamen in Active Directory („Bob Kelly“) kenntlich machen.  
+    > Eine Benutzeridentität kann mit der SIP-Adresse des Benutzers, dem Benutzerprinzipalnamen (User Principal Name, UPN) oder dem Active Directory-Anzeigenamen des Benutzers (beispielsweise "Bob Kelly") angegeben werden. Das Sternchen (\*)-Zeichen kann auch mit dem Anzeigenamen als Benutzeridentität verwendet werden. Die Identität "\*Smith" gibt beispielsweise alle Benutzer zurück, die einen Anzeigenamen aufweisen, der mit dem Zeichenfolgenwert "Smith" endet.
   
 Mit dem folgenden Skript können Sie dann überprüfen, ob die Benutzer hinzugefügt und aktiviert wurden:
   
@@ -138,7 +138,7 @@ Um internationale Anrufe auf einer Pro-Benutzer-Basis zu deaktivieren, führen S
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-Wenn Sie die internationale Anruffunktion nach der Deaktivierung pro Benutzer wieder aktivieren möchten, führen Sie dasselbe Cmdlet aus, aber ändern Sie den **** Wert für PolicyName in *InternationalCallsAllowed* .
+Wenn Sie die internationale Anruffunktion nach der Deaktivierung pro Benutzer wieder aktivieren möchten, führen Sie dasselbe Cmdlet aus, aber ändern Sie den Wert für **PolicyName** in *InternationalCallsAllowed* .
   
 ## <a name="assign-users-to-pstn-sites"></a>Zuweisen von Benutzern zu PSTN-Standorten
 
@@ -169,7 +169,7 @@ Wenn ein P2P-Anruf an eine PSTN-Konferenz weitergeleitet wird, sendet der Skype 
     
     Bitte beachten Sie, dass die Lizenzzuweisung nur für die Verbreitung des Nutzers in das Skype for Business Online-Verzeichnis erforderlich ist. Weisen Sie dem von Ihnen erstellten Konto eine Office 365-Lizenz (wie E5) zu, damit die Änderungen bis zu einer Stunde lang übertragen werden können, überprüfen Sie, ob die Benutzerkonten ordnungsgemäß für das Skype for Business Online-Verzeichnis bereitgestellt wurden, indem Sie folgendes Cmdlet ausführen, und entfernen Sie dann die Lizenz von diesem Konto.
     ```
-   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Starten Sie eine Tenant Azure AD-Remote-PowerShell-Sitzung mit ihren globalen oder Benutzer-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um die Abteilung für das Azure AD-Benutzerkonto festzulegen, das in Schritt 1 auf "HybridMediationServer" konfiguriert ist:
