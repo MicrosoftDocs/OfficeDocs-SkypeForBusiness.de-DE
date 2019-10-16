@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Erstellen Sie einen Plan, um die Benutzerakzeptanz zu steigern, indem Sie Ihre Ziele definieren, verstehen, wie Akzeptanz aussieht, und Schulungen und Support bereitstellen.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245845"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516273"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -46,7 +46,7 @@ Durch das Festlegen ihrer Projekt Vision können Ihre wichtigsten Stakeholder da
 
 Die folgende Abbildung ist ein Beispiel für eine Vision-to-Value-Anweisung für Kunden, die von Skype for Business auf Teams aktualisieren.
 
-![Tabelle mit zwei Spalten mit Sicht und Wert] (media/prepare-my-users-new-image1.png "Zweispaltige Tabelle mit Vision – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
+![Tabelle mit zwei Spalten,](media/prepare-my-users-new-image1.png "die die zweispaltige Tabelle mit Visionen und Werten zeigt – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie die Vorteile und den Nutzen für Ihre Benutzer in einer Weise artikuliert, die das Buy-in für diese neue Lösung gewinnt?</li></ul></td></tr>
@@ -126,7 +126,7 @@ Besprechen Sie für jede Persona-Gruppe Folgendes mit Ihrem Projektteam:
 
 Die folgende Abbildung zeigt ein Beispiel für eine persona-Tabelle.
 
-Tabelle "Werte" mit den ![Rollendetails] (media/prepare-my-users-image2.png "Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
+Tabelle "Werte" mit der Tabelle " ![Persona-Details]"(media/prepare-my-users-image2.png ", die Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen auflistet. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
 
 Besprechen Sie für jeden Anwendungsfall Folgendes mit Ihrem Projektteam:
 

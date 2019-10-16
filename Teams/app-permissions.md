@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
@@ -16,12 +16,12 @@ description: Hier erfahren Sie, welche Daten und Berechtigungen Apps von Ihrer O
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e841943a4a6bf5f6fcc242d83f4a02d4ca1aa06
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241973"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516784"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -168,7 +168,7 @@ REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen umsetzbare Nachric
 
 ## <a name="outgoing-webhooks"></a>Ausgehende webhooks
 
-*Ausgehende* webhooks werden von Teambesitzern oder Teammitgliedern dynamisch erstellt, wenn Sideloading für einen Mandanten aktiviert ist. Sie sind keine Funktionen von Teams-apps; Diese Informationen sind zur Vollständigkeit enthalten.
+*Ausgehende webhooks* werden von Teambesitzern oder Teammitgliedern dynamisch erstellt, wenn Sideloading für einen Mandanten aktiviert ist. Sie sind keine Funktionen von Teams-apps; Diese Informationen sind zur Vollständigkeit enthalten.
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 

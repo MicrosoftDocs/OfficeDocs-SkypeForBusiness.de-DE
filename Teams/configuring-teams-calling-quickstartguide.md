@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236573"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516480"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -32,7 +31,7 @@ Dieses Handbuch soll Ihnen helfen, eine Gruppe von Benutzern vorzubereiten, dami
 Lesen Sie die Ankündigung vom 12. Dezember 2017 zu Anrufplänen in Microsoft Teams: [Der nächste Schritt bei der intelligenten Kommunikation: Anrufe in Microsoft Teams](https://aka.ms/ipyqus).
 
 > [!NOTE]
-> Wir empfehlen, dass Sie parallel zu diesem Schnellstarthandbuch das [Telefon System mit Anrufplänen](calling-plan-landing-page.md) und Kurzübersicht lesen [](https://aka.ms/cloudvoice) , um einen erfolgreichen Rollout zu planen und voranzutreiben.
+> Wir empfehlen, dass Sie parallel zu diesem Schnellstarthandbuch das [Telefon System mit Anrufplänen](calling-plan-landing-page.md) und Kurzübersicht lesen [, um einen](https://aka.ms/cloudvoice) erfolgreichen Rollout zu planen und voranzutreiben.
 
 Durch Hinzufügen von Anrufplänen – einer Office 365-Funktion, die von Skype for Business unterstützt wird – können Sie jetzt mit Microsoft Teams Festnetz- und Mobiltelefone über das Telefonfestnetz (Public Switched Telephone Network, PSTN) anrufen oder von diesen angerufen werden.
 
@@ -75,9 +74,9 @@ Wenn Sie sicherstellen möchten, dass Benutzer alle eingehenden VoIP-und PSTN-An
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Anrufplänen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Telefon System mit Anrufplänen](calling-plan-landing-page.md)
+[Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
 
 [Skype for Business PowerShell-Cmdlet-Referenz](https://docs.microsoft.com/powershell/module/skype)
 

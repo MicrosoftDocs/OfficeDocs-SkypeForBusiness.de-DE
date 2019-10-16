@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center einen Notfall Standort für Ihre Organisation hinzufügen, ändern oder entfernen. '
-ms.openlocfilehash: e0befb48ce5cc6c896db89d7defbde94d01c9278
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396509"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516830"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -62,6 +61,6 @@ Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, fin
 ## <a name="related-topics"></a>Verwandte Themen
 
 -[Was sind Notfall Standorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Hinzufügen, ändern oder Entfernen eines Orts für einen Notfall Standort in Ihrer Organisation](add-change-remove-emergency-place-organization.md)
+- [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)

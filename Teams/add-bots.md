@@ -7,26 +7,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: Erfahren Sie, wie Sie Bots in Microsoft Teams für persönliche Chats, Gruppen-Chats und Kanäle hinzufügen und ihre eigenen Bots für persönliche Chats, Gruppen-Chats und Kanäle Hochladen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239057"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516161"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Hinzufügen von Bots für persönliche Chats, Gruppen-Chats und Kanäle in Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und Benachrichtigungen zu Details herausgeben, die Benutzer interessant finden oder über die sie auf dem Laufenden bleiben möchten. Mithilfe von Bots können Benutzer über Chat Unterhaltungen in Microsoft Teams mit Cloud-Diensten wie Aufgabenverwaltung,-Planung und-Polling interagieren. Bots für Teams sind auf dem [Microsoft bot-Framework](https://go.microsoft.com/fwlink/?linkid=854370)aufgebaut. Die Bots, die mithilfe dieses Frameworks entwickelt wurden, können für Teams problemlos aktiviert werden. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md).
+Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und Benachrichtigungen über Informationen liefern, die Nutzer interessant finden oder über die Sie auf dem Laufenden bleiben möchten. Mithilfe von Bots können Benutzer über Chat Unterhaltungen in Microsoft Teams mit Cloud-Diensten wie Aufgabenverwaltung,-Planung und-Polling interagieren. Bots für Teams sind auf dem [Microsoft bot-Framework](https://go.microsoft.com/fwlink/?linkid=854370)aufgebaut. Die Bots, die mithilfe dieses Frameworks entwickelt wurden, können für Teams problemlos aktiviert werden. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md).
 
 Derzeit unterstützt Teams Bots in persönlichen Chats, Gruppen-Chats und Kanälen innerhalb eines Teams. Administratoren können steuern, ob die Verwendung von Bots innerhalb des Office 365-Mandanten zulässig oder verboten ist.<span id="_T-Bot" class="anchor"></span>
 

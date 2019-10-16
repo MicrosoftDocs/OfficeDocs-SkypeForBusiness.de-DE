@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Wählen Sie ein Bereitstellungsmodell aus, entwickeln Sie eine verantwortungsbewusste, beratene-informierte (RACI)-Matrix, erstellen Sie Ausführungs-und Governance-Pläne.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245160"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515992"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
@@ -88,8 +88,8 @@ Der folgende Code ist ein Beispiel für einen Quartals Ausführungsplan für die
 
 | Website/Abteilung                            | Anzahl der Mitarbeiter | Audiokonferenzen | Telefonsystem                    | Quartal, das ausgeführt werden soll |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| USA: New York                             | 2000                | Ja                | Telefon System mit Anrufplänen | Q1 CY2018          |
-| Irland: Dublin                          | 300                 | Ja                | Telefon System mit Anrufplänen | Q1 CY2018          |
+| USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
+| Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Österreich: Wien                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
 | Italien: Mailand                             | 200                 | Ja                | n/v                             | Q2 CY2018          |
 | Südamerika: Brasilien                    | 1500                | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |

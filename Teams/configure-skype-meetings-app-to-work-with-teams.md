@@ -12,15 +12,14 @@ search.appverid: MET150
 description: Administratoren können das Microsoft Teams Admin Center verwenden, um die Skype-Besprechungs-App für die Zusammenarbeit mit Teams zu konfigurieren.
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236862"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516922"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
 ===================================================
@@ -31,7 +30,7 @@ So geben Sie die Skype for Meetings-App als bevorzugte APP an:
 
 1. Melden Sie sich beim Admin Center für Microsoft Teams an.
 2. Wählen Sie im linken Bereich unter **organisationsweite Einstellungen**die Option **Teams Upgrade**aus.
-3. Wählen Sie auf der Seite "Teams-Upgrade" unter **"App-Einstellungen"** in der Dropdown-Liste **bevorzugte App für Benutzer** die Option **Skype-Besprechungs** -App aus, um an einer Skype for Business-Besprechung teilzunehmen.
+3. Wählen Sie auf der Seite "Teams-Upgrade" unter **"App-Einstellungen"** in der Dropdown-Liste Bevorzugte App für Benutzer die Option **Skype-Besprechungs** -App aus, um an einer **Skype for Business-Besprechung teilzunehmen** .
 
     ![Auswählen der bevorzugten App für Benutzer zum teilnehmen an Skype for Business-Besprechungen](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 

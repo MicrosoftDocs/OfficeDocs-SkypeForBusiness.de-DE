@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erforderlich sind, einschließlich der Überwachung des Dienststatus sowie der Beurteilung und Gewährleistung der Netzwerkqualität und-Nutzung.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427612"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516619"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -39,7 +39,7 @@ Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
+![Ein Diagramm, in dem eine Liste der Kategorien von Aufgaben und Aktivitäten dargestellt]wird ein(media/operate-my-service-image1.png "Diagramm mit einer Liste der Kategorien von Aufgaben und Aktivitäten, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 
 <table>
@@ -171,7 +171,7 @@ Der erste Schritt bei der Änderungsverwaltung ist das Überwachen der für Team
 Im [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)finden Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Produktupdates für Teams. Erwarten Sie, dass Sie wichtige Funktionsupdates für Teams finden, die hier angekündigt werden. Sie können den Blog auch über einen RSS-Feed abonnieren. Sie können [den RSS-Feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) dann direkt in einen Teams-Kanal einfügen, damit alle wichtigen Nachrichten direkt innerhalb von Teams bereitgestellt werden.
 
 Alle freigegebenen Features sind in den Versionshinweisen [für Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)dokumentiert.
-Hier finden Sie eine Liste der Funktionen, die für Desktop-, Web-und mobile Geräte freigegeben wurden. Die gleichen Anmerkungen zu dieser Version finden Sie auch auf der **** Registerkarte Neuerungen in der [Hilfe](get-help-in-microsoft-teams.md).
+Hier finden Sie eine Liste der Funktionen, die für Desktop-, Web-und mobile Geräte freigegeben wurden. Die gleichen Anmerkungen zu dieser Version finden Sie auch auf der Registerkarte **Neuerungen** in der [Hilfe](get-help-in-microsoft-teams.md).
 
 Machen Sie sich mit den verfügbaren Ressourcen vertraut, und stellen Sie sicher, dass Sie entsprechende Besitzer zuweisen, um Änderungen zu überwachen.
 
@@ -316,7 +316,7 @@ Bei NPS handelt es sich um einen Index, der von-100 bis 100 reicht und die Berei
 
 -   Von 1 bis 6 sind Kritiker: unzufriedene Kunden, die Ihren Service beschädigen und das Wachstum behindern können.
 
-![Ein Diagramm, das die NPS-Skalierung veranschaulicht] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
+![Ein Diagramm, das die NPS-Skalierung veranschaulicht](media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
 
 Obwohl die NPS-Basisnummer hilfreich ist, erhalten Sie den größten Nutzen aus der Analyse von Benutzerkommentaren. Sie werden Ihnen helfen zu verstehen, warum der Benutzer Teams anderen Personen empfehlen würde (oder nicht). Diese Kommentare können wertvolle Rückmeldungen liefern, damit die Projekt-oder Service Management Teams die Anpassungen verstehen, die erforderlich sind, um einen Qualitätsdienst bereitzustellen.
 
@@ -429,7 +429,7 @@ Ein Katalog mit unterstützten Endpunkten und Schnittstellengeräten (wie Headse
 Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in Ihrer Organisation weiterhin Probleme mit Teams eingehen. Obwohl das Problem möglicherweise nicht mit dem Endpunkt selbst verbunden ist, werden die Symptome des Problems in der Regel über den Client für den Benutzer angezeigt. Die folgenden Anleitungen sollen allgemeine Schritte zur Behebung des Problems bereitstellen. Es handelt sich nicht um eine umfassende Anleitung zur Fehlerbehebung. Die Schritte werden in einer bestimmten Reihenfolge bereitgestellt, müssen aber nicht explizit befolgt werden und sind je nach Art des Problems möglicherweise nicht anwendbar.
 
 1.  Über **prüfen des Dienststatus:** Das von einem Benutzer auftretende Problem kann sich auf ein Ereignis beziehen, das sich negativ auf den Teams-Dienst oder dessen abhängige Dienste auswirkt. Als ersten Schritt empfehlen wir, dass Sie bestätigen, dass es keine aktiven Dienst Probleme gibt. Informieren [Sie sich, wie Sie den Office 365-Dienststatus überprüfen können](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0).
-    Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, Überwachen des [Dienststatus](#monitor-service-health), ausführlicher erläutert.
+    Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, [Überwachen des Dienststatus](#monitor-service-health), ausführlicher erläutert.
 
 2.  Über **Prüfen der Clientkonnektivität:** Verbindungsprobleme führen zu Funktions-oder Anmeldeproblemen in Teams. Wir empfehlen (insbesondere für neue Websites oder Standorte), dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgenden [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jede Website befolgt werden. Sie können das Tool für die [Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) nutzen, um einen Verbindungstest durchzuführen, um zu überprüfen, ob die Medienanschlüsse für Cloud-Sprachfunktionen ordnungsgemäß geöffnet wurden. Detaillierte Anweisungen zum Ausführen der Verbindungstests finden Sie im [Netzwerk Readiness](3-envision-evaluate-my-environment.md#network-readiness) -Leitfaden.
 
@@ -509,7 +509,7 @@ Zur Unterstützung von Benutzern erfordert eine Organisation möglicherweise ein
 
 ### <a name="license-management"></a>Lizenzverwaltung
 
-Wenn Ihre Organisation wächst oder Verträge aufnimmt, ist es wichtig, dass Sie die Lizenzierung für aktuelle und zukünftige Anforderungen planen. Neben der Lizenzierung für Cloud-Sprachfunktionen ([Telefon System](here-s-what-you-get-with-phone-system.md) und Audiokonferenz) gibt es eine Basis [](https://products.office.com/skype-for-business/audio-conferencing)Teams-Lizenz.
+Wenn Ihre Organisation wächst oder Verträge aufnimmt, ist es wichtig, dass Sie die Lizenzierung für aktuelle und zukünftige Anforderungen planen. Neben der Lizenzierung für Cloud-Sprachfunktionen ([Telefon System](here-s-what-you-get-with-phone-system.md) und [Audiokonferenz](https://products.office.com/skype-for-business/audio-conferencing)) gibt es eine Basis Teams-Lizenz.
 
 Für Teams benötigen Lizenzen für Telefonsysteme zugeordnete [Anrufpläne](calling-plan-landing-page.md) . Mit der Anruf Plan Lizenzierung können Sie inländische und/oder internationale Telefonanrufe tätigen und empfangen. Diese Pläne sind Verwendungs basiert und mit Minuten Pools verbunden. Durch die Bereitstellung von [Kommunikationsguthaben](what-are-communications-credits.md) wird sichergestellt, dass Sie nie außer Dienst stehen.
 
@@ -548,7 +548,7 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, die am stärksten zur Verbesserung der Benutzerfreundlichkeit führen, die Behebungs Anleitung bewerten und bereitstellen, wie unten dargestellt.
 
-![Diagramm der zu untersuchenden Bereiche während einer Überprüfung der Qualität der Erfahrung] (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
+![Diagramm der zu überprüfenden Bereiche während einer erfahrungsqualität überprüfen](media/plan-my-service-management-image2.png "Sie die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Benutzerumfrage Ergebnisse.")
 
 Indem Sie die im Leitfaden beschriebenen Bereiche kontinuierlich bewerten und korrigieren, können Sie deren Potenzial verringern, die Benutzererfahrung negativ zu beeinflussen. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: c9d4927b29438c47763941b0d1d73b7fef98c78b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241984"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516875"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -44,7 +43,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
  
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
     
-1. Klicken Sie in der linken Navigationsleiste auf **VoIP** > ****-Rufnummern.
+1. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
 2. Wählen Sie auf der Seite **Telefonnummern** eine nicht zugewiesene Nummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
 3. Suchen Sie im **Bearbeitungs** Bereich unter **zugewiesen an**nach dem Benutzer nach Anzeigename oder Benutzername, und klicken Sie dann auf **zuweisen**.
 4. Wenn Sie den zugehörigen Notfall Standort zuweisen oder ändern möchten, suchen Sie unter **Notfall Standort**nach dem Speicherort, und wählen Sie ihn aus.
@@ -57,7 +56,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
     
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
-2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > ****-Rufnummern.
+2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
 3. Wählen Sie auf der Seite **Telefonnummern** die Nummer aus, die Sie in Schritt 1 angegeben haben, und klicken Sie dann auf **Bearbeiten**.  
 4. Klicken Sie im **Bearbeitungs** Bereich unter **zugewiesen an**auf das **X** , um den Benutzer zu entfernen.
 5. Klicken Sie auf **Speichern**.
@@ -71,7 +70,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
-2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > ****-Rufnummern.
+2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
 3. Wählen Sie auf der Seite **Telefonnummern** die Nummer aus, die Sie in Schritt 2 angegeben haben, und klicken Sie dann auf **Bearbeiten**.  
 4. Klicken Sie im **Bearbeitungs** Bereich unter **zugewiesen an**auf das **X** , um den Benutzer zu entfernen.
 5. Klicken Sie auf **Speichern**.

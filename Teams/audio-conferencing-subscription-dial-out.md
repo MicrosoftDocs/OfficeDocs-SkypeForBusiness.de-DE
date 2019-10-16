@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Kunden wurde eine ﻿kostenlose Dial-Out-Funktion zur Verfügung gestellt, die am 30. November 2019 endet.  Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer und Monat zu einem der Zone A-Länder, wie in diesem Dokument beschrieben. '
-ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283524"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515881"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audiokonferenz-Abonnement "Dial-Out"/"rufen Sie mich an"-Minuten Vorteil
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams und Skype for Business PSTN-Audiokonferenzen
 
-Kunden wurde eine [﻿Kostenlose Dial-Out-Funktion](complimentary-dial-out-period.md) zur Verfügung gestellt, die am 30. November 2019 endet. Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer pro Monat, die verwendet werden können, um in einem der Zone A-Länder, wie in diesem Dokument beschrieben, zu nicht-Premium-Nummern zu wählen. Die Größe Ihres Mandanten-Dial-Out-Minuten ** Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen. Dieser Vorteil ist auf die *monatlichen Abonnement* Lizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen. 
+Kunden wurde eine [﻿Kostenlose Dial-Out-Funktion](complimentary-dial-out-period.md) zur Verfügung gestellt, die am 30. November 2019 endet. Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer pro Monat, die verwendet werden können, um in einem der Zone A-Länder, wie in diesem Dokument beschrieben, zu nicht-Premium-Nummern zu wählen. Die Größe Ihres Mandanten-Dial-Out-Minuten Pools basiert auf *zugewiesenen* Lizenzen und nicht auf erworbenen Lizenzen. Dieser Vorteil ist auf die *monatlichen Abonnement* Lizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen. 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audiokonferenzen "wählen Sie aus einer Besprechung" & "rufen Sie mich an" Details an.
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audiokonferenz "wählen Sie aus einer Besprechung" #a0 "rufen Sie mich an" Details an.
 
 Für Kunden, die unseren Audiokonferenzdienst annehmen, bietet Microsoft die Möglichkeit, aus Besprechungen zu wählen, die von Benutzern organisiert wurden, denen eine Audio Conferencing-Abonnementlizenz zugewiesen ist. Auswahl Anrufe in Länder, die nicht in der Länderliste "Zone A" enthalten sind, werden pro Minute über Kommunikationsguthaben abgerechnet. Für ausgehende Anrufe, die pro Minute abgerechnet werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Liste der Länder aufgeführt sind), basieren die Anrufe und die dazugehörigen Gebühren auf dem Ziel des Anrufs und nicht auf dem Land des Organisators Wohnsitz oder der Besprechungsteilnehmer, der den Auswähl Enden Anruf initiiert. So wird beispielsweise bei einem Audiokonferenz-Anruf an eine Telefonnummer in Frankreich, bei der es sich um eine Zone in einem Land handelt, der gleiche Minutentarif in Rechnung gestellt, wenn er von einem Besprechungsteilnehmer in den USA, Frankreich oder Simbabwe initiiert wurde. 
 

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435100"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522759"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -310,9 +310,15 @@ Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Manda
 - Eine Karte der einzelnen WLAN-AP und deren Mac-Adresse
 - Eine Karte des Endpunkt-zu-Endpunkt-Marke/-Modells/-Typs usw.
   
+> [!NOTE]
+> Berichts Etiketten, die Sie auf CQD hochladen, werden unter ihrer Vereinbarung für Office 365 als *Support Daten* behandelt, einschließlich aller Informationen, die andernfalls als *Kundendaten* oder *persönliche Daten*gelten. Bitte geben Sie keine Daten an, die Sie Microsoft nicht als Support- *Daten*zur Verfügung stellen möchten, diese Informationen sind für Microsoft-Ingenieure zu Supportzwecken sichtbar.
+
 ![Screenshot: zeigt die Mandantendaten des Anruf Qualitäts Dashboards](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. Verwenden Sie auf der Seite **Mandantendaten Upload** das Dropdownmenü, um einen Datendateityp auszuwählen, der hochgeladen werden soll. Der Datentyp "Datei" gibt den Inhalt der Datei an (beispielsweise "Gebäude" bezieht sich auf die Zuordnung von IP-Adresse und Gebäude und anderen geografischen Informationen; "Endpunkt" bezieht sich auf die Zuordnung von Endpunkt Name zu Endpunkt-Marke/Modell/Typ-Informationen). CQD unterstützt derzeit "Gebäude"-und "Endpunkt"-Datentypen für CQD.Teams.Microsoft.com (in der Preview-Phase und noch nicht offiziell verfügbar), CQD.lync.com unterstützt nur den "Building"-Datentyp.
+
+
+
 2. Nachdem Sie den Datentyp "Datei" ausgewählt haben, klicken Sie auf **Durchsuchen** , um eine Datendatei auszuwählen.
 
    - Bei einer Datendatei muss es sich um eine TSV-Datei (durch tabstoppgetrennte Werte) oder um eine CSV-Datei (durch Kommas getrennte Werte) handeln. Bei einer CSV-Datei müssen alle Felder, die ein Komma enthalten, in Anführungszeichen gesetzt oder das Komma entfernt werden. Wenn Ihr Gebäudename beispielsweise NY, NY lautet, geben Sie "NY, NY" in die CSV-Datei ein.

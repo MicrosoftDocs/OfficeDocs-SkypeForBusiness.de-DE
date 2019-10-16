@@ -10,17 +10,17 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten von Chats, Anrufweiterleitung und Anwesenheitsinformationen zwischen Benutzern von Teams und Skype for Business, sowohl im Mandanten als auch im Verbund, basierend auf den zugewiesenen TeamsUpgrade-Modi. Es umfasst Routing Optimierungen, Anwesenheits Verhalten sowie die Änderung des standardmäßigen TeamsUpgrade-Modus von *Legacy* auf *Inseln* und die bevorstehende Pensionierung von *Legacy*.
-ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236911"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515862"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -188,7 +188,7 @@ In der Tabelle wird die Anwesenheit des Herausgebers beschrieben, die von einem 
 
 |Überwachungselement <br/><br/>Client| |<br/><br/>Inseln |Publisher <br/><br/>SFB\* |<br/>Nur für Teams|
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
+|Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
 |Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
 | | | | |
 
@@ -202,7 +202,7 @@ In der folgenden Tabelle wird die Anwesenheit des Herausgebers beschrieben, die 
 
 |Überwachungselement <br/><br/> Client | |<br/><br/> Inseln  |Publisher <br/><br/> SFB\* |<br/><br/> Nur für Teams |
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
+|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
 |Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
@@ -213,6 +213,6 @@ Um die Anwesenheits-und Erreichbarkeit in bereits vorhandenen Threads auszuricht
 Insbesondere, wenn ein Empfänger, für den Sie zuvor einen beständigen Interop-konversationsthread hatten, auf Teams aktualisiert wurde, reflektiert dieser Thread nicht mehr die genaue Anwesenheit und ist nicht mehr routingfähig. Beginnen Sie einen neuen Thread.
 
 ## <a name="related-links"></a>Verwandte Links
-[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Video: Verwalten der Koexistenz und Interoperabilität zwischen SFB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

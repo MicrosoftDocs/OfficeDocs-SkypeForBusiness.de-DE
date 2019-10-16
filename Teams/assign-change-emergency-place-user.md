@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: Hier erfahren Sie, wie Sie den Ort für einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern.
-ms.openlocfilehash: 612d93f8d24678c28485ed0f5be190ce37465f18
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396504"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515842"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
 
@@ -43,9 +42,9 @@ Informationen dazu, wie Sie Anrufpläne in Office 365 erhalten und wie viel Sie 
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was sind Notfall Standorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Was sind Notfallstandorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
-- [Hinzufügen, ändern oder Entfernen eines Orts für einen Notfall Standort in Ihrer Organisation](add-change-remove-emergency-place-organization.md)
-- [Zuweisen oder Ändern eines Notfall Standorts für einen Benutzer](assign-change-emergency-location-user.md)
+- [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
+- [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer](assign-change-emergency-location-user.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)

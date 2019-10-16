@@ -8,8 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
+- M365-voice
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie Audiokonferenzen mit direktem Routing in GCCH-und DoD-Umgebungen verwenden können.
-ms.openlocfilehash: 54458087b508c607b797cf7e7e877a8a793d8ed8
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36272241"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516735"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für gcc-höchst-und DoD
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
 Audiokonferenz mit direktem Routing für gcc-höchst-und DoD ermöglicht Teilnehmern, mithilfe eines telefongeräts an Teams-Besprechungen in ihrer gcc-oder DoD-Organisation teilzunehmen. Besprechungsteilnehmer möchten möglicherweise ein Telefongerät verwenden, um an Teams-Besprechungen in Szenarien teilzunehmen, beispielsweise wenn die Internetkonnektivität limitiert ist oder wenn Benutzer unterwegs sind und keinen Zugriff auf Teams haben. Teilnehmer können an Besprechungen teilnehmen, indem Sie entweder eine Einwahl Telefonnummer für Ihre Organisation einwählen oder die Besprechung auf Ihrem Telefongerät anrufen.
 

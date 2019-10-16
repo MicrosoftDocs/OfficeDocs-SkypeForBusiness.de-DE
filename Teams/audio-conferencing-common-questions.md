@@ -11,9 +11,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten.
-ms.openlocfilehash: fe98ac1bab2dfe61f9e511ad9ff14519792bcb36
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241861"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516988"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -95,7 +94,7 @@ Wir haben eine neue Funktion hinzugefügt, die es Ihnen, dem [Administrator](htt
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Können Audiokonferenzen von den Benutzern verwendet werden, die Teil einer lokalen Bereitstellung von Skype for Business Server sind?
 
-Wir sind nicht ganz da. Sie können jedoch weiterhin Audiokonferenzen verwenden, die in Skype for Business Server zusammen mit einem PSTN-Gateway für Ihre lokalen Benutzer verfügbar sind. 
+Mit den [ersten Besprechungen](meetings-first.md)können Skype for Business Server-Benutzer von Teams-Besprechungen und Teams-Audiokonferenzen profitieren. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Kann ein Benutzer eine persönliche Konferenz-ID erhalten?
 
@@ -147,7 +146,7 @@ Das Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon zur Ei
 
 - **Option #1**: Wenn der Besprechungsorganisator und alle Teilnehmer über ein Telefon an einer Besprechung teilnehmen, muss der Besprechungsorganisator die PIN für die Audiokonferenz eingeben, um ihn zu starten. Anrufer werden gefragt, ob Sie sich als Organisator einer bestimmten Besprechung authentifizieren möchten, wenn Sie die Telefonnummer einer Onlinebesprechung wählen. Alle Teilnehmer, die sich per Einwahl an der Besprechung beteiligen, bevor der Organisator beginnt, werden in der Lobby gespeichert und hören Musik in Wartestellung. Bei Skype for Business-Besprechungen werden alle Teilnehmer in der Lobby automatisch an der Besprechung teilnehmen, sobald der Organisator Sie durch Eingabe der Audiokonferenz-Pin gestartet hat. Bei Microsoft Teams-Besprechungen werden die Teilnehmer entsprechend dem Wert der Einstellung Personen automatisch zulassen in der Besprechungsrichtlinie des Organisators an der Besprechung teilnehmen.
 
-- **Option #2**: Wenn die Einstellung "nicht authentifizierte Anrufer als erste Personen in einer Besprechung zulassen" (standardmäßig deaktiviert) für einen bestimmten Organisator aktiviert ist, können alle von diesem Benutzer geplanten Besprechungen gestartet werden, ohne dass der Organisator seine oder Ihre Audiokonferenz-PIN. Wenn diese Einstellung aktiviert ist, wird die Besprechung gestartet, sobald der erste Teilnehmer Sie über eine Einwahl Telefonnummer anschließt und nicht in die Lobby gestellt wird. Weitere Informationen finden Sie unter [Verwalten von Einstellungen für Audiokonferenzen für einen Benutzer in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder Verwalten von audiokonferenzeinstellungen [für einen Benutzer in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option #2**: Wenn die Einstellung "nicht authentifizierte Anrufer als erste Personen in einer Besprechung zulassen" (standardmäßig deaktiviert) für einen bestimmten Organisator aktiviert ist, können alle von diesem Benutzer geplanten Besprechungen gestartet werden, ohne dass der Organisator seine oder Ihre Audiokonferenz-PIN. Wenn diese Einstellung aktiviert ist, wird die Besprechung gestartet, sobald der erste Teilnehmer Sie über eine Einwahl Telefonnummer anschließt und nicht in die Lobby gestellt wird. Weitere Informationen finden Sie unter [Verwalten von Einstellungen für Audiokonferenzen für einen Benutzer in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder [Verwalten von audiokonferenzeinstellungen für einen Benutzer in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Verwandte Themen
 

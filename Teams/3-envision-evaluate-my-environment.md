@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Verwenden Sie Personas und Netzwerkanalyse, um die Bereitschaft Ihrer Organisation zu bewerten, die richtigen TCP-und UDP-Ports zu öffnen und eine Netzwerk Bereinigung durchzuführen.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1500c9e10d3e8d951c465ce278595c5b17f7cc7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232316"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516016"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
@@ -74,7 +74,7 @@ Verwenden Sie die folgenden Überlegungen, um die Bereitschaft Ihrer Organisatio
 
 In Teams werden Audio-und Videotechnologien (Codecs) verwendet, die sich an die meisten Netzwerkbedingungen anpassen können und daher besser funktionieren. Um eine optimale und konsistente Leistung zu gewährleisten, sollten Sie Ihr Netzwerk für Teams vorbereiten.
 
-![Diagramm, in dem die drei Komponenten der Qualität beschrieben werden] (media/evaluate-my-environment-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
+![Diagramm, in dem die drei Komponenten des Qualitäts](media/evaluate-my-environment-image1.png "Diagramms beschrieben werden, in denen die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
 
 ## <a name="key-takeaways"></a>Wichtige Imbissbuden
 
@@ -189,7 +189,7 @@ Die häufigsten Netzwerkbeeinträchtigungen sind Verzögerung (Latenz), Paketver
 Die Höchstwerte für diese Beeinträchtigungen werden unter [Medienqualität und Leistung der Netzwerkkonnektivität](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)beschrieben.
 Beim Testen dieser Beeinträchtigungen unterscheiden wir zwischen zwei getrennten Segmenten:
 
--   Das *Edge-Segment* ist das Segment, in dem der Router lebt. Hierbei handelt es sich um das nächstgelegene logische Netzwerksegment, das an jedem Standort mit dem Internet verbunden ist. In den meisten Fällen handelt es sich hierbei um den Verbindungspunkt des Routers oder möglicherweise um ein Umkreisnetzwerk (auch bekannt als *DMZ*, demilitarisierte *Zone*und abgeschirmtes *Subnetz*). Kein weiterer Datenverkehr, der andere Geräte als den Router betrifft, sollte zwischen diesem Segment und dem Internet erfolgen.
+-   Das *Edge-Segment* ist das Segment, in dem der Router lebt. Hierbei handelt es sich um das nächstgelegene logische Netzwerksegment, das an jedem Standort mit dem Internet verbunden ist. In den meisten Fällen handelt es sich hierbei um den Verbindungspunkt des Routers oder möglicherweise um ein Umkreisnetzwerk (auch bekannt als *DMZ*, *demilitarisierte Zone*und *abgeschirmtes Subnetz*). Kein weiterer Datenverkehr, der andere Geräte als den Router betrifft, sollte zwischen diesem Segment und dem Internet erfolgen.
 
 -   Das *Client Segment* ist das logische Netzwerksegment, in dem sich Ihre Clients befinden.
 

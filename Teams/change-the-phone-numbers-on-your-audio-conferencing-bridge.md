@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221683"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516963"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -35,7 +35,7 @@ Wenn Sie **Audiokonferenz-** Lizenzen kaufen, hostet Microsoft Ihre Audiokonfere
 Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](/microsoftteams/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und diese dann der Konferenzbrücke zuweisen, damit Sie Erweitern Sie die Abdeckung für Ihre Benutzer.
   
 > [!NOTE]
-> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy **** > -Portal zu**Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications haben muss zuerst eingerichtet werden, damit Benutzer in eine gebührenfreie Telefonnummer-Brücke einwählen können.
+> Damit Sie eine Telefonnummer für eine Konferenzbrücke zuweisen/aufheben können, muss die Telefonnummer eine "*Dienst*Nummer" sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy- **Portal zu** > **Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications-Guthaben muss zuerst eingerichtet werden, damit die Benutzer eine gebührenfreie Nummer in die Brücke einwählen können.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke
 
@@ -57,7 +57,7 @@ Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Kon
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **#a0 Skype** > -**Konferenz Brücken**für**Besprechungen** > .
+2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **Center #a0 Skype** > -**Konferenz Brücken**für**Besprechungen** > .
 
 3. Heben Sie die Dienst Gebühren Nummer auf, die Sie als Standard festlegen möchten.
 
@@ -121,7 +121,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 ### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>Schritt 2 - Anzeigen des Status der Besprechungsmigration mit Windows PowerShell
 
-Alle Besprechungen werden neu geplant, sobald keine Vorgänge im Status Ausstehend oder *in Bearbeitung* sind. **
+Alle Besprechungen werden neu geplant, sobald keine Vorgänge im Status *Ausstehend* oder *in Bearbeitung* sind.
 
 ```
 Get-CsMeetingMigrationStatus -SummaryOnly
@@ -165,7 +165,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
  **Starten einer Windows PowerShell-Sitzung**
 
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
 
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
 

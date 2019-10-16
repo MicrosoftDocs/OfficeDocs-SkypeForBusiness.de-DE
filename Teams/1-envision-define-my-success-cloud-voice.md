@@ -11,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Messen Sie die Ergebnisse ihrer Audiokonferenzen, Ihres Telefonsystems mit Anrufplänen oder einer direkten Routing Bereitstellung für das Telefonsystem, und überprüfen Sie, ob Sie die gewünschten Ergebnisse erzielt haben.
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a84f0d38afbac74b296ccdfed626d6f8830d46a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244166"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517075"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -230,7 +230,7 @@ Sie müssen Geschäftsrisiken im Rahmen dieser Übung ermitteln und einen Minder
 
 ## <a name="establish-a-steering-committee"></a>Einrichten eines Lenkungsausschusses
 
-Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für ** die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das Projekt dem Unternehmen liefert.
+Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das *Projekt dem unter* nehmen liefert.
 
 Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse aus dem Projekt zu liefern, muss die Vision klar definiert sein, und Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
 

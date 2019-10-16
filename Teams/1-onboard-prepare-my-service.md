@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Verwenden Sie Onboarding-Checklisten, um Office 365 für Teams vorzubereiten und die Kernfunktionen von Teams, Netzwerke und Cloud-VoIP-Workloads zu konfigurieren.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236198"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516496"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -140,7 +140,7 @@ Nach der Konfiguration der Benutzerumgebung und des Diensts umfasst der letzte T
 
 -   Die Liste der dedizierten und freigegebenen Audiokonferenz-Einwahlnummern mit Spracheinstellungen wurden identifiziert und konfiguriert.
 
--   [Guthaben](what-are-communications-credits.md) für Kommunikationen (falls erforderlich) wurden für Ihre Organisation eingerichtet.
+-   Für Ihre Organisation wurden [Kommunikationsguthaben](what-are-communications-credits.md) (falls erforderlich) eingerichtet.
 
 -   Die Einstellungen für Audiokonferenz-Konferenz Brücken wurden identifiziert und konfiguriert (PIN-Länge, Benachrichtigungen für ein-und Ausstiege, Aktivierung der Benachrichtigungseinstellung).
 
@@ -158,7 +158,7 @@ Nach der Konfiguration der Benutzerumgebung und des Diensts umfasst der letzte T
 
 -   Telefonnummern, die Benutzern zugewiesen werden sollen, wurden erworben oder an Microsoft portiert und stehen im mandantenportal zur Verfügung.
 
--   [Guthaben](what-are-communications-credits.md) für Kommunikationen (falls erforderlich) wurden für Ihre Organisation eingerichtet.
+-   Für Ihre Organisation wurden [Kommunikationsguthaben](what-are-communications-credits.md) (falls erforderlich) eingerichtet.
 
 -   Mandanten Benutzerrichtlinien und Einstellungen für den Wählplan, die Szenarien für Anrufpläne unterstützen, wurden identifiziert, konfiguriert und angewendet.
 

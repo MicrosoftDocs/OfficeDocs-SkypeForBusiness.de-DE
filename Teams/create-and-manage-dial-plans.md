@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie Anruf Wählpläne (PSTN-Wählpläne) in Office 365 erstellen und verwalten können. '
-ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: 3b96c2f504096b3f77c7080feda1dac982f46e9c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508789"
+ms.locfileid: "37516672"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 

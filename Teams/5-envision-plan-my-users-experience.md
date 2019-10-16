@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Wählen Sie Teams-Client-Apps aus, planen Sie die Endpunkt Qualität, erhalten Sie Empfehlungen für die Bereitstellung von WLAN-Endpunkten und das Auswählen von Audiogeräten.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235187"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515973"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -41,7 +41,7 @@ Einer der Hauptvorteile von Teams besteht darin, dass der Client automatisch auf
 
 Wie Sie aus dem nachstehenden Diagramm sehen können, stellen Endpunkte einen wichtigen Baustein dar, um Benutzern eine Qualität zu ermöglichen.
 
-![Diagramm, in dem die drei Komponenten der Qualität beschrieben werden] (media/plan-my-users-experience-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
+![Diagramm, in dem die drei Komponenten des Qualitäts](media/plan-my-users-experience-image1.png "Diagramms beschrieben werden, in denen die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
 Die Endpunkte von Teams können auf vielen Geräten, einschließlich PCs, Macs, Tablets und mobilen Geräten, ausgeführt werden. Ein Teil der Oberfläche umfasst nicht nur das Gerät, sondern auch, wie ein Benutzer eine Verbindung mit dem Gerät herstellt, beispielsweise mit dem integrierten Mikrofon/Lautsprecher, Ohrhörer oder einem optimierten Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 
