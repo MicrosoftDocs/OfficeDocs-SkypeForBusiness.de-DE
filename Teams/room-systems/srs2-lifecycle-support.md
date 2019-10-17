@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: In diesem Artikel wird die Lebenszyklus Unterstützung für Microsoft Teams-Chatrooms erläutert.
-ms.openlocfilehash: 89706c2459c8f27c71017cc4f2b19395afaf5ead
-ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.openlocfilehash: ddbca7ce03fb361d591f72571804f547d7062612
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37468465"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553760"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
@@ -43,22 +43,25 @@ Für Microsoft Teams Rooms sind die Windows 10-Enterprise-oder Windows 10 Enterp
 
 Ein Windows 10-Funktions Update wird auf den Microsoft Teams rooms-Geräten nicht sofort angeboten oder aktualisiert. Eine absichtliche Verzögerung von bis zu sechs Monaten nach dem allgemeinen Verfügbarkeitsdatum, das auf der [Windows 10-Veröffentlichungs Informations](https://docs.microsoft.com/windows/release-information/) Seite veröffentlicht wurde. Die Verzögerungszeit wird verwendet, um die Windows 10-Release-Kompatibilität für die Microsoft Teams rooms-Anwendung, die Gerätehardware und die zertifizierten Audio-Video-Peripheriegeräte zu überprüfen. Die Validierung beginnt und wird während der aktiven Entwicklung jeder Hauptversion von Windows 10 fortgesetzt. Es wird mehr Zeit benötigt, um zu überprüfen, ob alle Gerätehersteller aktualisierte Bilder für Ihre Geräte erstellt haben, und Microsoft Teams diese Bilder zertifizieren und testen. Während des Gültigkeits Prüfungszeitraums verwendet die Microsoft Teams Room-APP [Windows Update für Business-Gruppenrichtlinien](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) , um Windows 10-Funktionsupdates zu verzögern. Nachdem Kompatibilitätsprobleme gefunden und behoben wurden, wird der Block durch Aktualisieren von Gruppenrichtlinien über eine neue App-Version im Windows Store aufgehoben. Geräte, auf denen die Microsoft Teams rooms-app ausgeführt wird, werden beim nächtlichen Wartungs Neustart automatisch auf eine geeignete Windows 10-Version aktualisiert. Für Kunden, die Updates manuell verwalten möchten, wird eine MSI-Version bereitgestellt.  
 
-Während des Gültigkeitszeitraums sollten Microsoft Teams rooms-Geräte **auf keinen Fall** auf die nächste Version von Windows 10 aktualisiert werden. Dies umfasst das Überschreiben der Gruppenrichtlinien direkt oder die Verwendung von System Center oder anderen Geräte Verwaltungsdiensten von Drittanbietern. Dies kann zu Problemen bei der Microsoft Teams Room-Anwendung oder zu unbrauchbaren Geräten führen.  
+> [!IMPORTANT]
+> Während des Gültigkeitszeitraums sollten Microsoft Teams rooms-Geräte **auf keinen Fall** auf die nächste Version von Windows 10 aktualisiert werden. Dies umfasst das Überschreiben der Gruppenrichtlinien direkt oder die Verwendung von System Center oder anderen Geräte Verwaltungsdiensten von Drittanbietern. Dies kann zu Problemen bei der Microsoft Teams Room-Anwendung oder zu unbrauchbaren Geräten führen.  
 
 In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von Windows 10 aufgeführt, die für die Unterstützung von Microsoft Teams-Räumen überprüft werden. Alle Datumsangaben sind im ISO 8601-Format aufgeführt: yyyy-mm-tt.
 
 |Version  |Verfügbarkeitsdatum   |Support Status für Microsoft Teams rooms   |Microsoft Teams-Chatrooms, minimale Anwendungsversion | Empfohlener Betriebssystem-Build  |
-|:---  |:---       |:---                |:---    |:--- |
-| 1903 |2019-05-21 |Stützt <br/>Empfohlen |4.2.4.0 |18362,356 |
-| 1809 |2019-03-28 |Übersprungen <br/>Nicht empfehlenswert #a0 |&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |Unterstützt           |4.1.22.0 |17134,191 |
-| 1709 |2018-01-18 |Nicht unterstützt       |&#x2014; |&#x2014;|
-| 1703 |2017-07-11 |Nicht unterstützt       |&#x2014; |&#x2014;|
-||||| |
+|:---  |:---       |:---                                  |:---     |:---     |
+| 1903 |2019-05-21 |Unterstützte #a0 <br/>Empfohlen  |4.2.4.0 |18362,356 |
+| 1809 |2019-03-28 |Übersprungen <br/>Nicht empfehlenswert #a0|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |Unterstützt                             |4.1.22.0 |17134,191|
+| 1709 |2018-01-18 |Nicht unterstützt                         |&#x2014; |&#x2014; |
+| 1703 |2017-07-11 |Nicht unterstützt                         |&#x2014; |&#x2014; |
+||||||
+
+&#x2780; Windows 10 1903 steht aufgrund eines Problems mit einem Intel-Grafikgeräte Treiber für Crestron Flex-Geräte nicht zur Verfügung. Windows 10 1903 wird auf diesen Geräten nicht angeboten. Benutzer sollten diese Geräte nicht auf 1903 aktualisieren und auf Windows 10 1803 aufbewahren, bis ein Grafiktreiber Update von Crestron zur Verfügung gestellt wird. 
+
+&#x2781; die Windows 10 1809-Version wird aufgrund von Kompatibilitätsproblemen, die mit der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach einem nächtlichen Neustart nicht gestartet werden konnte. Dieses Problem wurde in der Windows 10 1903-Version behoben.  
 
 Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer die neuesten Anwendungsupdates für die Microsoft Teams rooms-app.  
-
-&#x2780; die Windows 10 1809-Version wird aufgrund von Kompatibilitätsproblemen, die mit der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach einem nächtlichen Neustart nicht gestartet werden konnte. Dieses Problem wurde in der Windows 10 1903-Version behoben.  
 
 ## <a name="see-also"></a>Siehe auch
 

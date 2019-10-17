@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
-ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
+ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37522770"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553782"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -220,7 +220,7 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Durchwahl** Wenn Sie diese Option aktivieren (derzeit nur in einigen Mandanten verfügbar), können Anrufer mit Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons eingeben. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
+**Dial-by-Erweiterung** (diese Vorschaufunktion ist noch nicht für die Allgemeinheit verfügbar) Wenn Sie diese Option aktivieren, können Anrufer mit Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons eingeben. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
 
 > [!IMPORTANT]
 > Beachten Sie bitte Folgendes:
@@ -231,7 +231,7 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 >- Eine automatische Telefonzentrale kann entweder für die Wahl nach Namen oder für die Durchwahl, aber nicht für beide konfiguriert werden.
 
 > [!NOTE]
-> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption auszuwählen, wenn Sie die Durchwahl des Benutzers kennen, und diese Option auf übertragen Sie den Anruf an eine automatische Telefonzentrale, die für die Durchwahl aktiviert ist. 
+> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption auszuwählen, wenn Sie die Durchwahl des Benutzers kennen, und diese Option auf übertragen Sie den Anruf an eine automatische Telefonzentrale, die für die Durchwahl aktiviert ist.
 
 * * *
 
@@ -326,7 +326,7 @@ Klicken Sie auf **weiter** , um den Wählbereich zu ändern, **zurück** , um Ä
 
 ![Screenshot mit der Seite "Wählbereich"](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-Auf dieser Seite können Sie festlegen, wer in Ihrem Verzeichnis aufgeführt und für Dial by Name verfügbar ist, wenn eine Person Ihre Organisation anruft. Dial by Name ist in einem früheren Fenster standardmäßig auf **Off** eingestellt. Wenn Sie Wählpläne erstellt haben, stehen alle Benutzer mit einer Durchwahl zur Verfügung, wenn die Option **"Durchwahl" zuvor ausgewählt wurde.**
+Auf dieser Seite können Sie festlegen, wer in Ihrem Verzeichnis aufgeführt und für Dial by Name verfügbar ist, wenn eine Person Ihre Organisation anruft. Dial by Name ist in einem früheren Fenster standardmäßig auf **Off** eingestellt. Alle Benutzer mit einer Erweiterung stehen zur Verfügung **,** wenn die Wähl-Erweiterung zuvor ausgewählt wurde.
 
 ![Symbol der Zahl 1](media/teamscallout1.png) **: die Optionen** in diesem Abschnitt sind entweder **alle Online Benutzer** oder Benutzer **definierte Benutzergruppen** .
 

@@ -20,12 +20,12 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483979"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547279"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -75,7 +75,7 @@ Beispiel. `https://your-tenant-name.turnitin.com`
 
 In der Admin-Konsole können Sie eine Integration und einen API-Schlüssel erstellen, der der Integration zugeordnet ist.
 
-Wählen **** Sie Integrationen aus dem Seitenmenü und dann **Integration hinzufügen** aus, und geben Sie der Integration einen Namen.
+Wählen Sie **Integrationen** aus dem Seitenmenü und dann **Integration hinzufügen** aus, und geben Sie der Integration einen Namen.
 ![Screenshot mit dem Hinzufügen einer neuen Integration](./educationImages/Assignments_mopo_turnitin2.png)
 
 Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Kopieren Sie den API-Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein.  Dies ist das einzige Mal, dass Sie den Schlüssel anzeigen können.
@@ -83,6 +83,4 @@ Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Ko
 
 Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, dürfen diese Einstellungen bis zu 24 Stunden in Kraft treten.
 
-[Weitere Informationen zur Integration von Turnitin und Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Weitere Informationen zu Turnitin](https://www.turnitin.com/)
+Sind Sie bereit, die Turnitin-Integration in Teams zu verwenden? Registrieren Sie sich für das [Early Access-Programm](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

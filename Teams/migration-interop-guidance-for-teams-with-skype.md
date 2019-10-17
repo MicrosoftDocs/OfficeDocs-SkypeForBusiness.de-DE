@@ -1,5 +1,5 @@
 ---
-title: Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
+title: Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac2b42094484ce711760a793053bf619aab66884
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 33a56cb9844a9c40da41d411e537f7cedb2bf2a5
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484004"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553771"
 ---
-# <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
+# <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden
 
 > [!Tip] 
 > Sehen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop) zu erfahren.
@@ -84,11 +84,11 @@ Die Modi sind im folgenden aufgeführt.
 
 |Modus|Anrufen und chatten|Besprechungsplanung<sup>1</sup>|Teams #a0 Kanäle|Anwendungsfall|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*Erfordert Home in Skype for Business Online*|Microsoft Teams|Microsoft Teams|Ja|Der endgültige Zustand des Upgrades. Auch die Standardeinstellung für neue Mandanten mit <500-Plätzen.|
+|**TeamsOnly<sup>2</sup>**</br>*Erfordert Home in Skype for Business Online*|Microsoft Teams|Microsoft Teams|Ja|Der endgültige Zustand des Upgrades. Auch die Standardeinstellung für neue Mandanten.|
 |Inseln|Entweder|Entweder|Ja|Standardkonfiguration. Ermöglicht einem einzelnen Benutzer die Auswertung beider Clients nebeneinander. Chats und Anrufe können in einem der beiden Clients erfolgen, sodass Benutzer stets beide Clients ausführen müssen. Um eine verwirrende oder rückläufige Skype for Business-Erfahrung zu vermeiden, werden externe (Verbund-) Kommunikationen, PSTN-Sprachdienste und Sprachanwendungen, Office-Integration und verschiedene andere Integrationen weiterhin von Skype for Business gehandhabt.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Ja|"Besprechungen zuerst". In erster Linie für lokale Organisationen, um von den Funktionen der Teambesprechung zu profitieren, wenn Sie noch nicht bereit sind, Anrufe in die Cloud zu verschieben.|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|Ja|Alternativer Ausgangspunkt für komplexe Organisationen, die eine strengere administrative Steuerung benötigen.|
-|SfBOnly|Skype for Business|Skype for Business|Nr.<sup>3</sup>|Spezielles Szenario für Organisationen mit strengen Anforderungen im Hinblick auf die Datensteuerung. Teams wird nur für die Teilnahme an Besprechungen verwendet, die von anderen Personen geplant wurden.|
+|SfBOnly|Skype for Business|Skype for Business|No<sup>3</sup>|Spezielles Szenario für Organisationen mit strengen Anforderungen im Hinblick auf die Datensteuerung. Teams wird nur für die Teilnahme an Besprechungen verwendet, die von anderen Personen geplant wurden.|
 ||||||
 
 </br>
@@ -98,7 +98,7 @@ Die Modi sind im folgenden aufgeführt.
 
 <sup>1</sup> die Möglichkeit, an einer vorhandenen Besprechung teilzunehmen (unabhängig davon, ob Sie in Teams oder in Skype for Business geplant ist), wird nicht vom Modus geregelt. Standardmäßig können Benutzer immer an einer Besprechung teilnehmen, zu der Sie eingeladen wurden.
 
-<sup>2</sup> Wenn Sie einem einzelnen Benutzer entweder TeamsOnly oder SfbWithTeamsCollabAndMeetings zuweisen, werden alle vorhandenen Skype for Business-Besprechungen, die dieser Benutzer für die Zukunft geplant hat, in Teams-Besprechungen umgewandelt. Falls gewünscht, können Sie diese Besprechungen als Skype for Business-Besprechungen belassen, indem Sie entweder angeben `-MigrateMeetingsToTeams $false` , ob Sie TeamsUpgradePolicy gewähren möchten, oder indem Sie das Kontrollkästchen im Team-Administratorportal deaktivieren.   Beachten Sie, dass die Möglichkeit, Besprechungen von Skype for Business in Teams umzuwandeln, nicht avaialble ist, wenn TeamsUpgradePolicy auf Mandantenebene gewährt wird. 
+<sup>2</sup> Wenn Sie einem einzelnen Benutzer entweder TeamsOnly oder SfbWithTeamsCollabAndMeetings zuweisen, werden alle vorhandenen Skype for Business-Besprechungen, die dieser Benutzer für die Zukunft geplant hat, in Teams-Besprechungen umgewandelt. Falls gewünscht, können Sie diese Besprechungen als Skype for Business-Besprechungen belassen, indem Sie entweder angeben `-MigrateMeetingsToTeams $false` , ob Sie TeamsUpgradePolicy gewähren möchten, oder indem Sie das Kontrollkästchen im Team-Administratorportal deaktivieren.   Beachten Sie, dass die Möglichkeit, Besprechungen von Skype for Business in Teams umzuwandeln, nicht verfügbar ist, wenn TeamsUpgradePolicy auf Mandantenebene gewährt wird. 
 
 <sup>3</sup> zurzeit hat Teams nicht die Möglichkeit, die Funktionen Teams und Kanäle zu deaktivieren, sodass dies für jetzt aktiviert bleibt.
 
@@ -123,13 +123,13 @@ Teams stellt alle relevanten Instanzen von TeamsUpgradePolicy über integrierte,
 |Identität |Modus|NotifySfbUsers|
 |---|---|---|
 |Inseln|Inseln|Falsch|
-|IslandsWithNotify|Inseln|True|
+|IslandsWithNotify|Inseln|Wahr|
 |SfBOnly|SfBOnly|Falsch|
-|SfBOnlyWithNotify|SfBOnly|True|
+|SfBOnlyWithNotify|SfBOnly|Wahr|
 |SfBWithTeamsCollab|SfBWithTeamsCollab|Falsch|
-|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|
+|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|Wahr|
 |SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Falsch|
-|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|
+|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|Wahr|
 |UpgradeToTeams|TeamsOnly|Falsch|
 |Global</br>*Standard*|Inseln|Falsch|
 ||||
@@ -143,10 +143,10 @@ Diese Richtlinieninstanzen können entweder einzelnen Benutzern oder auf Mandant
 
 ## <a name="federation-considerations"></a>Überlegungen zu Föderationen
 
-Föderation von Teams zu einem anderen Benutzer unter Verwendung von Skype for Business setzt voraus, dass der Benutzer von Teams in Skype for Business Online ist. Schließlich können sich die Benutzer von Teams, die sich in Skype for Business lokal befinden, nur mit Benutzern in Teams vereinigen.
+Föderation von Teams zu einem anderen Benutzer unter Verwendung von Skype for Business setzt voraus, dass der Benutzer von Teams in Skype for Business Online ist.
 
 TeamsUpgradePolicy steuert das Routing für eingehende Federated-Chats und-Anrufe. Das Verhalten des Verbund Routings ist identisch mit den Szenarien für denselben Mandanten, *mit Ausnahme des Modus "Inseln"*.  Wenn sich die Empfänger im Inseln-Modus befinden: 
-- Chats und Anrufe, die von Teams initiiert werden, landen im SFB, wenn sich der Empfänger in einem *Federated*-Mandanten befindet.
+- Chats und Anrufe, die von Teams initiiert werden, landen im SFB, wenn sich der Empfänger in einem *Federated-Mandanten*befindet.
 - Chats und Anrufe, die von Teams initiiert werden, landen in Teams, wenn sich der Empfänger im *gleichen Mandanten*befindet.
 - Chats und Anrufe, die vom SFB initiiert werden, landen immer in Skype for Business.
 
@@ -187,6 +187,6 @@ Wenn sich ein Nutzer in einem der Skype for Business-Modi (SfBOnly, SfBWithTeams
 
 [Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Satz-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
 [Verwenden des Besprechungs Migrations Diensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
