@@ -12,25 +12,18 @@ description: Erfahren Sie, wo Sie tiefgreifende Ressourcen zu Bereitstellung und
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3410dfc54521bea2ff7f29dfcc9046ea984a7cc6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eedd234c248e7c217d23a378989cc5e90f55d01d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241572"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570780"
 ---
-# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="0bbe7-103">Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0bbe7-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="d1efb-103">Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d1efb-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
 
-<span data-ttu-id="0bbe7-104">Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern.</span><span class="sxs-lookup"><span data-stu-id="0bbe7-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="0bbe7-105">Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="0bbe7-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
+<span data-ttu-id="d1efb-104">Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern.</span><span class="sxs-lookup"><span data-stu-id="d1efb-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="d1efb-105">Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="d1efb-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
 
-<span data-ttu-id="0bbe7-106">Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).</span><span class="sxs-lookup"><span data-stu-id="0bbe7-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
-
-## <a name="let-us-know-what-you-think"></a><span data-ttu-id="0bbe7-107">Teilen Sie uns Ihre Meinung mit</span><span class="sxs-lookup"><span data-stu-id="0bbe7-107">Let us know what you think</span></span>
-
-:memo: <span data-ttu-id="0bbe7-108">Wären Sie so freundlich, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">diese Umfrage</a> auszufüllen (nimmt etwa eine Minute in Anspruch), um uns mitzuteilen, was Sie von diesem **Erste Schritte**-Abschnitt halten?</span><span class="sxs-lookup"><span data-stu-id="0bbe7-108">Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?</span></span> <span data-ttu-id="0bbe7-109">Sie bleiben anonym.</span><span class="sxs-lookup"><span data-stu-id="0bbe7-109">It's anonymous.</span></span>
-
-<span data-ttu-id="0bbe7-110">Sie können darüber hinaus Feedback zu einem bestimmten Artikel geben, indem Sie zum Abschnitt **Feedback** des betreffenden Artikels navigieren.</span><span class="sxs-lookup"><span data-stu-id="0bbe7-110">You can also give feedback for a specific article by going to the **Feedback** section of that article.</span></span> 
+<span data-ttu-id="d1efb-106">Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).</span><span class="sxs-lookup"><span data-stu-id="d1efb-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
