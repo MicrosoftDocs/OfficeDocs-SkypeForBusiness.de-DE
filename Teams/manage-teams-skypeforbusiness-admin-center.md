@@ -58,7 +58,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Teams und Kanäle     |         |Weiterleitung an die AAD-Gruppenverwaltung (identisch mit der aktuellen Benutzeroberfläche).             |Benutzer          |
 |Apps|Neue externe Apps standardmäßig aktivieren|Organisationsweite App-Einstellungen|Mandant|
 |Apps|Externe Apps zulassen|Organisationsweite App-Einstellungen|Mandant|
-|Apps|Querladen von externen Apps zulassen<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
+|Apps|Querladen von externen Apps zulassen<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
 |Apps|Standard-Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Apps|Externe Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Anrufe und Besprechungen     |Zeitplanung für private Besprechungen zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
@@ -80,7 +80,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <br><br>
 <sup>2</sup> Querladen wird wie folgt aufgeteilt:
 
-- Zulassen, dass ein Benutzer Apps querlädt, die auf Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/de-DE/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps) verwaltet werden können.
+- Zulassen, dass ein Benutzer Apps querlädt, die auf Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps) verwaltet werden können.
 - Zulassen, dass Benutzer in einem Mandanten mit benutzerdefinierten Apps interagieren, die auf Mandantenebene in organisationsweiten App-Einstellungen verwaltet werden können.
  
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden. 
