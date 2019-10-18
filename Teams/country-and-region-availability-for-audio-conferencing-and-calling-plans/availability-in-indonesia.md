@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indonesien verfügbar sind.
-ms.openlocfilehash: 027f8c9c70ef97665584f80714befe0a39899df5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 80bdcf46e7f2bd83cb1736d702ccce78c4a3e467
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774428"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571736"
 ---
 # <a name="availability-in-indonesia"></a>Verfügbarkeit in Indonesien
 

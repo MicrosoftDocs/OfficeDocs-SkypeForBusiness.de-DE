@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation sowie alle Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen wurden.
-ms.openlocfilehash: c167902c1f012f48ddcdbea00d4219b264f7b3e6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348838"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571433"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 

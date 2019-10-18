@@ -10,7 +10,6 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
-ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391442"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564966"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -164,7 +163,7 @@ Sehen wir uns das folgende Beispiel an:
 |User |Besprechungsrichtlinie  |Cloud-Aufzeichnung zulassen |
 |---------|---------|---------|
 |Daniela | Global   | Falsch |
-|Amanda | Location1MeetingPolicy | True|
+|Amanda | Location1MeetingPolicy | Wahr|
 |John (externer Benutzer) | Nicht zutreffend | Nicht zutreffend|
 
 Von Daniela organisierte Besprechungen können nicht aufgezeichnet werden, und Amanda, deren Richtlinieneinstellung aktiviert ist, kann keine von Daniela organisierten Besprechungen aufzeichnen. Von Amanda organisierte Besprechungen können aufgezeichnet werden, doch Daniela, die die Richtlinieneinstellung deaktiviert hat, und John, der ein externer Benutzer ist, kann keine von Amanda organisierten Besprechungen aufzeichnen.
@@ -181,7 +180,7 @@ Sehen wir uns das folgende Beispiel an:
 
 |User |Besprechungsrichtlinie  |IP-Video zulassen |
 |---------|---------|---------|
-|Daniela   | Global   | True        |
+|Daniela   | Global   | Wahr        |
 |Amanda    | Location1MeetingPolicy        | Falsch      |
 
 Von Daniela moderierte Besprechungen ermöglichen das Aktivieren von Videos. Daniela kann an der Besprechung teilnehmen und Video aktivieren. Amanda kann in Danielas Besprechung kein Video einschalten, weil Amandas Richtlinie so eingestellt ist, dass Video nicht zulässig ist. Amanda kann Videos sehen, die von anderen Teilnehmern an der Besprechung freigegeben wurden.
@@ -259,7 +258,7 @@ Sehen wir uns das folgende Beispiel an:
 
 |User |Besprechungsrichtlinie  |Zulassen, dass Teilnehmer die Steuerung erteilen oder anfordern |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Wahr       |
 |Babək    | Location1MeetingPolicy        | Falsch   |
 
 Daniela kann die Steuerung des freigegebenen Desktops oder Fensters an andere Teilnehmer an einer von Babək organisierten Besprechung übergeben, während Babək anderen Teilnehmern keine Kontrolle geben kann.
@@ -283,7 +282,7 @@ Sehen wir uns das folgende Beispiel an:
 
 |User |Besprechungsrichtlinie  |PowerPoint-Freigabe zulassen |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy        | Falsch   |
 
 Amanda kann PowerPoint-Folienstapel in Besprechungen auch dann nicht freigeben, wenn Sie der Organisator der Besprechung ist. Daniela kann PowerPoint-Folienstapel auch dann freigeben, wenn die Besprechung von Amanda organisiert ist. Amanda kann die von anderen Personen in der Besprechung freigegebenen PowerPoint-Folienstapel anzeigen, auch wenn Sie PowerPoint-Folienstapel nicht freigeben kann.
@@ -296,7 +295,7 @@ Sehen wir uns das folgende Beispiel an:
 
 |User |Besprechungsrichtlinie  |Whiteboard zulassen|
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy        | Falsch   |
 
 Amanda kann das Whiteboard nicht in einer Besprechung freigeben, auch wenn Sie der Organisator der Besprechung ist. Daniela kann das Whiteboard auch dann freigeben, wenn eine Besprechung von Amanda organisiert ist.  
@@ -309,7 +308,7 @@ Sehen wir uns das folgende Beispiel an:
 
 |User |Besprechungsrichtlinie  |Zulassen von freigegebenen Notizen |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy | Falsch |
 
 Daniela kann in Amandas Besprechungen Notizen machen, und Amanda kann in keiner Besprechung Notizen machen.
@@ -355,7 +354,7 @@ Hier sehen Sie das Join-Verhalten anonymer Personen, wenn authentifizierte Benut
 
 |Zulassen, dass anonyme Personen eine Besprechung starten  |Automatisches zulassen von Personen |Join-Verhalten anonymer Personen |
 |---------|---------|---------|
-|True    | Jeder      | Direkt teilnehmen         |
+|Wahr    | Jeder      | Direkt teilnehmen         |
 |   | Jeder in Ihrer Organisation       | In der Lobby warten        |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen       | In der Lobby warten         |
 |Falsch    | Jeder        | Direkt teilnehmen        |
@@ -366,7 +365,7 @@ Hier sehen Sie das Join-Verhalten anonymer Personen, wenn keine authentifizierte
 
 |Zulassen, dass anonyme Personen eine Besprechung starten |Automatisches zulassen von Personen  |Join-Verhalten anonymer Personen |
 |---------|---------|---------|
-|True    | Jeder      | Direkt teilnehmen         |
+|Wahr    | Jeder      | Direkt teilnehmen         |
 |   | Jeder in Ihrer Organisation       | In der Lobby warten        |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen       | In der Lobby warten         |
 |Falsch    | Jeder        | Warten Sie in der Lobby. Benutzer werden automatisch zugelassen, wenn der erste authentifizierte Benutzer der Besprechung Beitritt.        |
@@ -381,7 +380,7 @@ Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 
 |Zulassen, dass Einwahlbenutzer die Lobby umgehen können  |Automatisches zulassen von Benutzern  |Join-Verhalten von Personen, die sich einwählen |
 |---------|---------|---------|
-|True    | Jeder      | Direkt teilnehmen         |
+|Wahr    | Jeder      | Direkt teilnehmen         |
 |   | Jeder in Ihrer Organisation       | Direkt teilnehmen        |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen       | Direkt teilnehmen         |
 |Falsch    | Jeder        | Direkt teilnehmen        |

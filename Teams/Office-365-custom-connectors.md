@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8235ce9eb950df0c04ab41949500a640376e612
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245208"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563855"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
@@ -36,7 +35,7 @@ Office 365-Connectors können sowohl mit Microsoft Teams als auch mit Office 365
 
 Derzeit können Sie mithilfe von Microsoft Teams-Desktop-und-Webclienten Connectors hinzufügen. Informationen, die von diesen Konnektoren gepostet werden, können jedoch auf **allen Clients** , einschließlich Handy, angezeigt werden.
 
-1. Wenn Sie einen Verbinder zu einem Kanal hinzufügen möchten, klicken Sie auf die Auslassungszeichen **(...)** rechts neben einem Kanalnamen, und klicken Sie dann auf **Verbinder**.
+1. Wenn Sie einen Verbinder zu einem Kanal hinzufügen möchten, klicken Sie auf die **Auslassungszeichen (...)** rechts neben einem Kanalnamen, und klicken Sie dann auf **Verbinder**.
 
     ![Screenshot der Benutzeroberfläche von Teams mit ausgewählter Option "Verbinder".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 

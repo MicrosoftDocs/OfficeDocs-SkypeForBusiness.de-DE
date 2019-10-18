@@ -11,17 +11,16 @@ ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Erfahren Sie, wie Sie mithilfe von Aktivitätsberichten sehen können, wie Benutzer in Ihrer Organisation Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7346ef19f70366ec32ad6d7a6bcf24fc98e6e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6f568dfdf51cb34da340e8192336f4c0c8cca19a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242384"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565636"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================
@@ -84,7 +83,7 @@ Sie können sich einen Überblick über die Geräteverwendung von Teams verschaf
 |**3**   |In der Ansicht **Benutzer** wird die Anzahl der täglichen Benutzer nach Gerätetyp angezeigt. |
 |**4**   |In der Ansicht " **Verteilung** " wird die Anzahl der Benutzer nach Gerät für den ausgewählten Zeitraum angezeigt.  |
 |**5**   | <ul><li>Im Diagramm **Benutzer** stellt die X-Achse den ausgewählten Datumsbereich für den Bericht und die Y-Achse die Anzahl der Benutzer nach Gerätetyp dar.</ul></li> <ul><li>Im **Verteilungs** Diagramm zeigt die X-Achse die verschiedenen Geräte an, die zum Herstellen der Verbindung mit Teams verwendet werden, und die Y-Achse entspricht der Anzahl der Benutzer, die das Gerät verwenden.</ul></li> |
-|**6**   |Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie Beispiels **** Weise im Verteilungsdiagramm auf **Windows**, **Mac**, **Web**, **IOS**oder **Android** , um nur die zugehörigen Informationen anzuzeigen. Wenn Sie diese Auswahl ändern, werden die Informationen in der Raster Tabelle nicht geändert. |
+|**6**   |Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im **Verteilungs** Diagramm auf **Windows**, **Mac**, **Web**, **IOS**oder **Android** , um nur die zugehörigen Informationen anzuzeigen. Wenn Sie diese Auswahl ändern, werden die Informationen in der Raster Tabelle nicht geändert. |
 |**7**   |Die Liste der aktiven Teams über den breitesten (180-tägigen) Berichterstellungszeitraum.  Die Anzahl der Aktivitäten variiert entsprechend der Datumsauswahl. <br><br> Wenn Sie die folgenden Informationen in der Tabelle anzeigen möchten, stellen Sie sicher, dass Sie die Spalten zur Tabelle hinzufügen. <ul><li>**Username** ist die e-Mail-Adresse des Benutzers. Sie können die tatsächliche e-Mail-Adresse anzeigen oder dieses Feld anonym machen.</ul></li> <ul><li>**Datum der letzten Aktivität (UTC)** bezieht sich auf das letzte Datum, an dem der Benutzer an einer Team Aktivität teilgenommen hat.</ul></li> <ul><li>**Gelöscht** gibt an, ob das Team gelöscht wurde. Wenn das Team gelöscht wird, aber im Berichtszeitraum Aktivitäten ausgeführt wurde, wird es im Raster angezeigt, wobei Deleted auf true festgelegt ist.</ul></li><ul><li>**Gelöscht** am ist das Datum, an dem der Benutzer gelöscht wurde.</ul></li> <ul><li>**Windows** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem Windows-basierten Computer aktiv war.</ul></li> <ul><li>**Mac** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem macOS-Computer aktiv war.</ul></li>  <ul><li>**Web** ist ausgewählt, wenn der Benutzer im Team-WebClient aktiv war.</ul></li> <ul><li>**IOS** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für IOS aktiv war.</ul></li> <ul><li>**Android-Telefon** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für Android aktiv war.</ul></li></li> <ui>Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte angezeigt werden, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt **wie kann ich Details zu Benutzerebene ausblenden?** in den [Aktivitätsberichten in der Microsoft 365 Admin Center Preview](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263).</ui> |
 |**8**   |Klicken oder tippen Sie auf **Spalten** , um Spalten in der Tabelle hinzuzufügen oder daraus zu entfernen. |
 |**9**   |Klicken oder tippen Sie auf **exportieren** , um die Berichtsdaten in eine Excel-CSV-Datei zu exportieren. Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Wenn Sie weniger als 2.000-Benutzer haben, können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Wenn Sie mehr als 2.000-Benutzer haben, müssen Sie die Daten exportieren, um den Bericht zu filtern und zu sortieren. 

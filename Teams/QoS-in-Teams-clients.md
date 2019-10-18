@@ -12,16 +12,15 @@ description: Implementieren Sie Quality of Service (QoS) für Microsoft Teams-Cl
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572563"
 ---
 # <a name="set-qos-on-windows-clients"></a>Festlegen von QoS auf Windows-Clients
 
@@ -90,7 +89,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem
    gpresult /H >gp.html
    ```
 
-   ![Screenshot des Konsolenfensters mit dem Befehl "Gpresult] " (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfensters mit dem Befehl \"Gpresult") "
+   ![Screenshot des Konsolenfensters mit dem Befehl "Gpresult"](media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfensters mit dem Befehl "Gpresult"")
 
 3. Suchen Sie in der generierten Datei nach der Überschrift **angewendete Gruppenrichtlinienobjekte** , und überprüfen Sie, ob die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der angewendeten Richtlinien aufgeführt sind.
 

@@ -11,17 +11,14 @@ audience: admin
 description: Befolgen Sie die grundlegenden Aufgaben und Aktivitäten in dieser Checkliste, wenn Sie die direkte Weiterleitung in Teams konfigurieren.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffb57ce19625c0e4b0cf51598fc2461393cef1e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61d23d2aa9aeef58a581233c07ed950b494531b6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239236"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573351"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Konfigurieren des direkten Routings in Microsoft Teams
 

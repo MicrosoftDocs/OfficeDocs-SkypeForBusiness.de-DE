@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Informieren Sie sich über die Schritte zum Einrichten von Live für Ereignisse in Microsoft Teams, einschließlich der Vorbereitung Ihres Netzwerks, dem Zuweisen von Lizenzen, dem Verwenden von Richtlinien zum Aktivieren von Live Ereignis Features und der Terminplanung für Benutzer sowie dem Einrichten eines Drittanbieters für den Vertrieb.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047071"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570157"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -53,7 +52,7 @@ Mithilfe von Live Ereignisrichtlinien können Sie steuern, wer in Ihrer Organisa
 
     Hier sind die Einstellungen, die Sie ändern können, um den Anforderungen Ihrer Organisation zu entsprechen.
 
-    Screenshot der Richtlinieneinstellungen für ![Live Ereignisse], Screenshot(../media/teams-live-events-policies.png "der Richtlinieneinstellungen für Live Ereignisse im Microsoft Teams Admin Center") 
+    ![Screenshot der Richtlinieneinstellungen für Live Ereignisse](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Live Ereignisse im Microsoft Teams Admin Center") 
 
 |Einstellung  |Beschreibung  |
 |---------|---------|

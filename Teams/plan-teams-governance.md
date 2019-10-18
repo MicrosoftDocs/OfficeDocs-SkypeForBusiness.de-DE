@@ -12,16 +12,15 @@ description: Hier erfahren Sie, wie Sie die Implementierung von Governance-Funkt
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237695"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573251"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -76,7 +75,7 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 
 |           |            |
 |-----------|------------|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation die Angabe eines Ablaufdatums für Teams?</li><li>Erfordert Ihre Organisation, dass bestimmte Datenaufbewahrungsrichtlinien auf Teams angewendet werden?</li><li>Erwartet Ihre Organisation die Möglichkeit, inaktive Teams zu archivieren, um den Inhalt im schreibgeschützten Zustand zu erhalten?</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation die Angabe eines Ablaufdatums für Teams?</li><li>Erfordert Ihre Organisation, dass bestimmte Datenaufbewahrungsrichtlinien auf Teams angewendet werden?</li><li>Erwartet Ihre Organisation die Möglichkeit, inaktive Teams zu archivieren, um den Inhalt im schreibgeschützten Zustand zu erhalten?</li></ul>|
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team Ablauf, Datenaufbewahrung und Archivierung.</li><li>Planen Sie die Implementierung dieser Anforderungen als Teil des Rollouts Ihres Teams.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Benutzer über das Verhalten zu informieren, das Sie erwarten können.</li></ul>|
 
 > [!TIP]
@@ -109,7 +108,7 @@ Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams
 
 |         |         |
 |---------|---------|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für den gesamten Mandanten?</li><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für bestimmte Benutzer?</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für den gesamten Mandanten?</li><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für bestimmte Benutzer?</li></ul>|
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation, um die Funktionen von Teams auf Mandanten-und Benutzerebene zu begrenzen.</li><li>Planen Sie, Ihre spezifischen Anforderungen als Teil des Rollouts für Teams zu implementieren.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Benutzer über das Verhalten zu informieren, das Sie erwarten können.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Fokusbereiche der Featureverwaltung in Teams

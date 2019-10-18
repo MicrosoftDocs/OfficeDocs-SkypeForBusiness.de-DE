@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Hier erfahren Sie, wie Sie den Bericht "PSTN-blockierte Benutzer" im Microsoft Teams Admin Center verwenden, um sich einen Überblick über die Team Benutzer in Ihrer Organisation zu verschaffen, die keine PSTN-Anrufe tätigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131677"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564897"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams-Bericht "PSTN-blockierte Benutzer"
 
@@ -30,7 +29,7 @@ Der Bericht "PSTN-blockierte Benutzer" im Microsoft Teams Admin Center zeigt die
 
 Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **PSTN-blockierte Benutzer**aus, und klicken Sie dann auf **Bericht ausführen**.
 
-![Screenshot des Berichts "PSTN-blockierte Benutzer" im Admin Center] (../media/teams-reports-pstn-blocked-users-with-callouts.png "Screenshot des Berichts \"PSTN-blockierte Benutzer\" im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
+![Screenshot des Berichts "PSTN-blockierte Benutzer" im Admin Center](../media/teams-reports-pstn-blocked-users-with-callouts.png "Screenshot des Berichts "PSTN-blockierte Benutzer" im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 

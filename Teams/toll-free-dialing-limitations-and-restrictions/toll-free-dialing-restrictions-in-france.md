@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 4f2dbb83989d72113a8c15349c8652b440313259
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 87e483c960e8c709efc99c2f9b3bec78834c35f5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334919"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569254"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Einschränkungen für gebührenfreie Telefonnummern in Frankreich
 
@@ -41,7 +40,7 @@ ms.locfileid: "34334919"
 |Wählformate  <br/> |0 800 9XX XXX  <br/> |
 |ISO-Code des Lands/der Region  <br/> |FR  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> | Französisches Festland und Korsika <br/> |
-|Nicht abgedeckte Inseln/Gebiete  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
+|Nicht abgedeckte Inseln/Gebiete  <br/> |Kein Zugriff von Monaco, Réunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, Neukaledonien, Französisch-Polynesien, Wallis &amp; Futuna.  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Ja  <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff: Die Übertragungszeit wird berechnet.  <br/> |

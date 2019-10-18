@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie standortbasiertes Routing für das direkte Routing planen.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245117"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570688"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -89,7 +87,7 @@ In diesem Abschnitt werden verschiedene Szenarien für die Einschränkung der Ma
 
 Das folgende Diagramm zeigt die Einschränkungen, die in jedem Szenario durch standortbasiertes Routing aktiviert sind. Benutzer, Netzwerk Websites und Gateways, die für standortbasierte Routings aktiviert sind, haben einen Rahmen um Sie herum. Verwenden Sie das Diagramm als Leitfaden, damit Sie verstehen, wie standortbasiertes Routing in jedem Szenario funktioniert.  
 
-![Diagramm mit Szenarien für standortbasiertes Routing] (media/lbr-direct-routing.png "Diagramm mit Szenarien für standortbasiertes Routing")
+![Diagramm mit Szenarien für standortbasiertes Routing](media/lbr-direct-routing.png "Diagramm mit Szenarien für standortbasiertes Routing")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams-Benutzer platziert einen ausgehenden Anruf an das PSTN
 
@@ -219,7 +217,7 @@ Die Weiterleitung an Voicemail ist ebenfalls gestattet.
 
 Benutzer von Teams können Stellvertretungen auswählen, die in Ihrem Auftrag Anrufe tätigen und empfangen können. Die Delegierungsfunktionen in Teams sind vom standortbasierten Routing wie folgt betroffen: 
 - Für ausgehende Anrufe von einem standortbasierten Routing fähigen Stellvertreter im Auftrag eines delegierenden gelten die gleichen Regeln. Das Anrufrouting basiert auf den Richtlinien für die Anruf Autorisierung der Stellvertretung, der VoIP-Routing Richtlinie und dem Standort. Weitere Informationen finden Sie unter [Teams-Benutzer platziert einen ausgehenden Anruf an das PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
-- Für eingehende PSTN-Anrufe an einen Teilnehmer gelten die gleichen standortbasierten Routing Regeln, die für die Anrufweiterleitung gelten, oder gleichzeitiges Anrufen an andere Benutzer, auch für Stellvertretungen. Weitere Informationen finden Sie unter [Teams-Benutzer Transfers oder Weiterleiten eines Anrufs an einen anderen Teams-Benutzer](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams, die den Anruf an den PSTN-Endpunkt weiterleiten oder ihn anrufen](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), und gleichzeitiges [Klingeln](#simultaneous-ringing). Wenn ein Stellvertreter einen PSTN-Endpunkt als Ziel für das gleichzeitige Klingeln festlegt, wird die VoIP-Routing Richtlinie der Stellvertretung verwendet, um den Anruf an das PSTN weiterzuleiten. 
+- Für eingehende PSTN-Anrufe an einen Teilnehmer gelten die gleichen standortbasierten Routing Regeln, die für die Anrufweiterleitung gelten, oder gleichzeitiges Anrufen an andere Benutzer, auch für Stellvertretungen. Weitere Informationen finden Sie unter [Teams-Benutzer Transfers oder Weiterleiten eines Anrufs an einen anderen Teams-Benutzer](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams, die den Anruf an den PSTN-Endpunkt weiterleiten oder ihn anrufen](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), und [Gleichzeitiges Klingeln](#simultaneous-ringing). Wenn ein Stellvertreter einen PSTN-Endpunkt als Ziel für das gleichzeitige Klingeln festlegt, wird die VoIP-Routing Richtlinie der Stellvertretung verwendet, um den Anruf an das PSTN weiterzuleiten. 
 - Für die Delegierung empfiehlt es sich, dass sich der delegator und die zugehörigen Stellvertretungen auf derselben Netzwerk Website befinden. 
 
 ## <a name="other-planning-considerations"></a>Andere Planungsentscheidungen

@@ -11,23 +11,20 @@ audience: admin
 description: Ermitteln einer Gruppe von Hauptbeteiligten und Projektleitern zur Ermittlung von Bereitstellungszielen, Nachverfolgen des Fortschritts und Entfernen von Blockierungen
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f264195a6c378f3724d99677f108abf631fed8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232094"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564562"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
 ## <a name="steering-committee-overview"></a>Übersicht des Lenkungsausschusses
 
-Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für ** die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das Projekt dem Unternehmen liefert.
+Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das *Projekt dem unter* nehmen liefert.
 
 Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse der Projekte zu liefern, muss die Vision klar definiert sein, Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
 

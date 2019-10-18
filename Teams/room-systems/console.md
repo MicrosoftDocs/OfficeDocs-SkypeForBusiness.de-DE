@@ -9,23 +9,22 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
-ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493054"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569907"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft Teams rooms-Konsole
 
 In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
   
-Führen Sie diese Schritte nur aus, wenn die erforderlichen Microsoft Teams oder Skype for Business-und Exchange-Konten bereits erstellt und getestet wurden, wie unter [Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)beschrieben. Sie benötigen die in den [Microsoft Teams](requirements.md)-Chatrooms beschriebene Hardware und Software. Dieses Thema enthält die folgenden Abschnitte:
+Führen Sie diese Schritte nur aus, wenn die erforderlichen Microsoft Teams oder Skype for Business-und Exchange-Konten bereits erstellt und getestet wurden, wie unter [Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)beschrieben. Sie benötigen die in den [Microsoft Teams-Chatrooms](requirements.md)beschriebene Hardware und Software. Dieses Thema enthält die folgenden Abschnitte:
   
 - [Vorbereiten der Installationsmedien](console.md#Prep_Media)
 - [Installieren eines privaten Zertifizierungsstellenzertifikats auf der Konsole](console.md#Certs)

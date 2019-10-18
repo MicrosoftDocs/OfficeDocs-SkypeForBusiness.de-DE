@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435217"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573295"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
@@ -50,7 +49,7 @@ Die [Office 365 US Government Service Description](https://docs.microsoft.com/en
 
 |    |     |
 |-----------|------------|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government-DoD für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government-DoD für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-DoD steht nur in den Vereinigten Staaten zur Verfügung. Kunden außerhalb der US-Regierung können aus einer Reihe von [Office 365 Government-Plänen](https://products.office.com/en/government/compare-office-365-government-plans)wählen.

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Erfahren Sie, wie Sie den Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center verwenden, um sich einen Überblick über die Microsoft Teams-Aktivitäten in Ihrem Unternehmen zu verschaffen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439572"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570972"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 
@@ -31,7 +30,7 @@ Der Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center gibt Ihnen e
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Verwendung**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-    ![Screenshot des Teams-Nutzungsberichts im Team Admin Center mit]den(../media/teams-reports-teams-usage-with-callouts.png "Screenshots des Teams-Nutzungsberichts im Team-Admin Center mit Legenden")
+    ![Screenshot des Teams-Nutzungsberichts im Team Admin Center mit Beschriftungen](../media/teams-reports-teams-usage-with-callouts.png "Screenshot des Teams-Nutzungsberichts im Team Admin Center mit Beschriftungen")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 

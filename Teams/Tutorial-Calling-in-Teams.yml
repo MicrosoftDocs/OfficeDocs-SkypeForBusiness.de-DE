@@ -13,17 +13,15 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
-  - M365-collaboration
+  - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e94334eb0cfab8b4e9bf9c42035d33d3584aef5f
-  ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+  ms.openlocfilehash: a2e373c46ee3c07f3842f4c9632d42c84ceef496
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/22/2019
-  ms.locfileid: "34381777"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37566989"
 items:
 - durationInMinutes: 1
   content: >
@@ -250,4 +248,4 @@ items:
   content: "\nNun haben Sie das Telefonsystem richtig geplant und in Ihrer Umgebung bereitgestellt und müssen sicherstellen, dass es verwendet wird und eine hohe Benutzerfreundlichkeit bietet. Auf sämtliche Details einzugehen würde den Rahmen dieser Schulung sprengen. Wir möchten jedoch die Punkte hervorheben, um die Sie sich vorrangig kümmern müssen:\n\n-   Annahme-und Änderungsverwaltung Benutzer können den Dienst möglicherweise einfach verwenden, wenn Sie ihn anbieten. Andererseits kann es auch sein, dass sie ihn nicht nutzen. Daher ist es wichtig, das Adoption and Change Management richtig durchzuführen.\n\n-   Überwachung und Fahr Nutzung wir empfehlen, dass einer ihrer KSIs die Anzahl aktiver Benutzer ist, damit Sie messen können, wie gut Teams als Telefonclient akzeptiert werden.\n\n-   Überwachen und Fördern der Qualität\n\nDie Zufriedenheit der Benutzer steht in direktem Zusammenhang mit der Qualität ihrer Anrufe. Daher ist es wichtig, dass Sie die Anrufqualität überwachen und gegebenenfalls verbessern. In der Schulung zum Anrufqualitäts-Dashboard erfahren Sie, wie Sie Berichte zur Anrufqualität erstellen. Obwohl diese Videos für Skype for Business entwickelt wurden, gelten Sie auch für Teams: <https://aka.ms/sof-cqd>.\n"
 - title: Nächste Schritte
   durationInMinutes: 1
-  content: "\nWir haben mit dieser Schulung die folgenden wichtigen Lernergebnisse erzielt:\n-   Was sind Anrufe in Microsoft Teams?\n\n-   Planen von Anrufen in Microsoft Teams\n\n-   Konfigurieren von Anrufen in Microsoft Teams\n\nWeitere Informationen finden Sie unter:\n\n-   [Telefon System mit Anrufplänen](calling-plan-landing-page.md)\n\n-   [Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nNächste Schritte\n\n1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.\n2.  Starten Sie Ihre Bereitstellung des Telefonsystems für Microsoft Teams.\n3.  Senden Sie uns Feedback:\n    - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.\n    - Wenn Sie Feedback zu Microsoft Teams geben möchten oder Ideen für neue Funktionen haben, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Bleiben Sie auf dem laufenden:\n    - Folgen Sie [](https://aka.ms/teamsblog)dem Teamblog.\n    - Lesen Sie die [Roadmap für Teams](https://aka.ms/O365Roadmap).\n    - Informieren Sie sich über die neuesten veröffentlichten Features in den [Versions](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)hinweisen.\n5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy)."
+  content: "\nWir haben mit dieser Schulung die folgenden wichtigen Lernergebnisse erzielt:\n-   Was sind Anrufe in Microsoft Teams?\n\n-   Planen von Anrufen in Microsoft Teams\n\n-   Konfigurieren von Anrufen in Microsoft Teams\n\nWeitere Informationen finden Sie unter:\n\n-   [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)\n\n-   [Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nNächste Schritte\n\n1.  Starten Sie Ihre Bereitstellung des Telefonsystems für Microsoft Teams.\n2.  Senden Sie uns Feedback:\n    - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.\n    - Wenn Sie Feedback zu Microsoft Teams geben möchten oder Ideen für neue Funktionen haben, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n3.  Bleiben Sie auf dem laufenden:\n    - Folgen Sie dem [Teamblog](https://aka.ms/teamsblog).\n    - Lesen Sie die [Roadmap für Teams](https://aka.ms/O365Roadmap).\n    - Informieren Sie sich über die neuesten veröffentlichten Features in den [Versions](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)hinweisen.\n4.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy)."

@@ -9,7 +9,6 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434720"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565069"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Hardwareanforderungen für die Microsoft Teams-App
 
@@ -41,7 +40,7 @@ ms.locfileid: "37434720"
 |Video    |  USB 2,0-Videokamera       |
 |Geräte    |   Standard-Laptop Kamera,-Mikrofon und-Lautsprecher    | 
 |Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale **Hintergrund** Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
-|Live-Events für Teams | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
+|Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Hardware Anforderungen für die Desktop-App "Teams" auf einem Mac
 

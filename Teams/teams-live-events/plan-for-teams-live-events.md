@@ -10,18 +10,17 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464555"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570179"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -78,8 +77,8 @@ In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Li
 
 |**Funktion**   |**Skype-Livekonferenzen** |**In Teams erstellte Ereignisse** |**Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden** |
 |---------|---------|---------|---------|
-|Maximale Zielgruppengröße |10.000-Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
-|Maximale Dauer des Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
+|Maximale Zielgruppengröße |10.000 Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
+|Maximale Dauer des Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
 |Maximale Anzahl von gleichzeitigen Live Ereignissen pro Office 365-Mandanten |15  | 15  | 15  |
 |Erstellen von Live Ereignissen |   Skype-Live Konferenz-Portal |Teams, jammern über Teams | Teams, über Teams jammern, streamen |
 |Publikums Engagement – jammern |&#x2714; |&#x2714; (integrierte Benutzeroberfläche) |&#x2714; (integrierte Benutzeroberfläche) |
@@ -115,10 +114,10 @@ Sie können Teams Live-Events in mehreren Regionen in der ganzen Welt nutzen. Di
 - Nord
 - Europa/Afrika
 - Asien/Pazifik
-- Go local Canada
+- Go local Canada, Indien, Australien, Japan, Großbritannien
 
 **Ausschlüsse und Überlegungen**
-- **Ortsansässige:** Vereinigtes Königreich und andere Teams go Locals werden zurzeit nicht unterstützt.
+- **Ortsansässige:** Teams gehen ortsansässige, außerhalb der oben aufgeführten, werden zurzeit nicht unterstützt.
 - **China:** Ereignis Teammitglieder und Teilnehmer können keine Teams-Live Ereignisse verwenden, da in China nicht auf Azure CDN zugegriffen werden kann. Eine Problemumgehung besteht darin, eine VPN-Verbindung des Unternehmens zu verwenden, wodurch der Client über das Unternehmensnetzwerk des Kunden mit CDN verbunden wird.
 
 ## <a name="next-steps"></a>Nächste Schritte

@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Verwenden Sie Details zur anrufanalyse zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams und Skype for Business-anrufen und-Besprechungen.
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548980"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568634"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
@@ -86,7 +85,7 @@ Bei audiositzungen, die QoE-Daten (Quality of Experience) aufweisen, werden in d
 |:-----|:-----|:-----|
 |Anrufeinrichtung  <br/> |Session  <br/> |Der Fehlercode MS-Diag 20-29 gibt an, dass die Anrufeinrichtung fehlgeschlagen ist. Der Benutzer konnte nicht an dem Anruf oder der Besprechung teilnehmen.  <br/> |
 |Audionetz klassifizierter schlechter Anruf  <br/> |Session  <br/> |Probleme mit der Netzwerkqualität (wie Paketverlust, Jitter, NMOS-Verschlechterung, RTT oder verdecktes Verhältnis) waren aufgetreten. Weitere Informationen zu den Bedingungen, die für die Klassifizierung schlechter Anrufe verwendet werden, finden Sie in diesem [Microsoft-Blogbeitrag](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|Gerät funktioniert nicht  <br/> |Gerät  <br/> | Ein Gerät funktioniert nicht ordnungsgemäß. Das Funktions Verhältnis des Geräts funktioniert nicht: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|Gerät funktioniert nicht  <br/> |Gerät  <br/> | Ein Gerät funktioniert nicht ordnungsgemäß. Das Funktions Verhältnis des Geräts funktioniert nicht: <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Anrufanalyse](set-up-call-analytics.md)

@@ -9,7 +9,6 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -19,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee93aa39cf0c37c3a7defd690582eb6941337ec8
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439453"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567468"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Endbenutzer-Schulungen für Microsoft Teams
 

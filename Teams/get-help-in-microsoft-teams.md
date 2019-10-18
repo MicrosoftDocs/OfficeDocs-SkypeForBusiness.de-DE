@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Entdecken Sie alle Möglichkeiten, Hilfe in Microsoft Teams zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245903"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565289"
 ---
 <a name="get-help-in-microsoft-teams"></a>Anfordern von Hilfe in Microsoft Teams
 ============================================
@@ -36,10 +35,10 @@ Teams bietet Unterstützung für lokalisierte Sprachen für Hilfeinhalte. Die ak
 
  - **Videos** – mithilfe unserer on-Demand-Videoinhalte können Benutzer bestimmte Aufgaben schnell erlernen. Wir sind ständig dabei, neue Videos zu produzieren, schauen Sie also regelmäßig vorbei. Internet Zugang ist natürlich erforderlich. 
 
- - **Neuerungen** - 
-   Regelmäßige Anmerkungen zu dieser Version von Benutzern und Teambesitzern zu neuen oder aktualisierten Features von Teams.
+ - **Neue** - 
+   regelmäßige Versionshinweise für Benutzer und Teambesitzer über neue oder aktualisierte Features von Teams.
 
- - **Teilen Sie eine Idee** – wir möchten Ihnen immer von Ihnen mitteilen, wie Sie die Teams verbessern können. Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können. Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen. 
+ - Teilen Sie eine Idee – wir möchten Ihnen immer von Ihnen **mitteilen** , wie Sie die Teams verbessern können. Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können. Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen. 
 
 > [!NOTE]
 > Hilfe ersetzt T-bot in Teams. Einige Benutzer sehen in Ihrem Chat-Protokoll möglicherweise ein Chat-Symbol für T-bot. Wenn Sie auf dieses Symbol klicken, gelangen Sie zur neuen Hilfe. 

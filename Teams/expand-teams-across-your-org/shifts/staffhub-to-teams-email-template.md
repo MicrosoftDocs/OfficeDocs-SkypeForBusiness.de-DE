@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Verwenden Sie diese e-Mail-Vorlage, um Benutzer in Ihrer Organisation über den Übergang von Microsoft StaffHub zu Microsoft Teams zu informieren.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebe9db78b1f210d1ebf96ca4bbd2552372a6a1cf
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36716130"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569654"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub zu Teams Beispiel-e-Mail für Benutzer
 
 > [!IMPORTANT]
-> Ab dem 1. Oktober 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird für alle Benutzer am 1. Oktober 2019 nicht mehr funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Um sicherzustellen, dass Ihr Wechsel von StaffHub zu Teams erfolgreich war, haben wir eine e-Mail-Vorlage erstellt, die Sie verwenden können, um die Änderung Benutzern in Ihrer Organisation zu vermitteln. Verwenden Sie dies als Teil ihrer Onboarding-Strategie, damit Ihre Benutzerinformationen zu Schichten und dem Übergang zu Teams erhalten und die Einführung in Ihrer Organisation vorangetrieben werden können.
 
@@ -58,5 +58,5 @@ Wenn Sie Soforthilfe benötigen, wenden Sie sich &lt;an die Contoso&gt;IT &lt;-e
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Planen des Verschiebens ihrer StaffHub-Teams auf Schichten in Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [Planen des Verschiebens Ihrer StaffHub-Teams in Shifts in Microsoft Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 - [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md)

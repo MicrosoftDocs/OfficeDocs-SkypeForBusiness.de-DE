@@ -11,7 +11,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Erfahren Sie, welche Cloud-automatischen Telefonzentralen sind und wie Sie verwendet werden.
-ms.openlocfilehash: 43b5b023660c22a719b84079416df8ac3a7cff98
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 88a9282bc6f16d0fae5f2753b9f6612728eaf9dd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401859"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568542"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloud-Telefonzentralen?
 

@@ -12,75 +12,74 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
-description: Erfahren Sie, wie Teams Vorlagen verwenden, um ein Team mit vordefinierten Kanälen zu erstellen.
+description: Hier erfahren Sie, wie Sie mithilfe von Microsoft Teams-Vorlagen ein Team mit vordefinierten Kanälen erstellen.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245593"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569564"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen 
 
-Teams Vorlagen werden vor dem Definitionen von ein Team Struktur entwickelt, um eine geschäftlicher Bedarf oder ein Projekt erstellt. Vorlagen für Teams können schnell und erstellen umfassender Zusammenarbeit Leerzeichen mit Kanäle für verschiedene Themen und Vorinstallieren von apps in unternehmenswichtige Inhalte und Dienste abrufen. Teams Vorlagen bieten eine vordefinierte Teamstruktur, die Sie auf einfache Weise konsistent Teams innerhalb Ihrer Organisation helfen. 
+In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. 
 
-In diesem Artikel wird die Eigenschaften, die in Vorlagen, welche Basisvorlage definiert werden können, sind, erläutert, und wie Sie verwenden können, Beispiel wenige Anforderungen an ein Team aus einer Vorlage zu erstellen.
+In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie ein Team anhand einer Vorlage mit einigen Beispiel Anforderungen erstellen können.
  
-Dieser Artikel ist für Sie, wenn Sie sind:
+Dieser Artikel ist für Sie da:
 
-- Verantwortlich für die Planung, Bereitstellung und Verwaltung mehrerer Teams innerhalb Ihrer Organisation<br>
-- Ein Entwickler aus, um ein Team programmgesteuert mit vordefinierten Kanäle und apps erstellen werden soll 
+- Verantwortlich für das Planen, bereitstellen und Verwalten mehrerer Teams in Ihrer Organisation<br>
+- Entwickler, die ein Team programmgesteuert mit vordefinierten Kanälen und Apps erstellen möchten 
 
-## <a name="teams-template-capabilities"></a>Teams Vorlage Funktionen
+## <a name="teams-template-capabilities"></a>Teams-Vorlagen Funktionen
 
-Die meisten Eigenschaften in einem Team sind enthalten und von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. Die folgende Tabelle enthält eine kurze Zusammenfassung der Umfang von hat und was nicht in Teams Vorlagen enthalten ist.
+Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werden von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. In der folgenden Tabelle finden Sie eine kurze Zusammenfassung der Inhalte und der nicht in den Teamvorlagen enthaltenen Informationen.
 
-| **Eigenschaften von Team von Teams Vorlagen unterstützt** | **Eigenschaften von Team von Teams Vorlagen noch nicht unterstützt.** |
+| **Team Eigenschaften, die von Teams-Vorlagen unterstützt werden** | **Team Eigenschaften, die von den Teams-Vorlagen noch nicht unterstützt werden** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Basisvorlage-Typ | Teammitgliedschaft |
-| Teamname | Team-Bild |
-| Team Beschreibung | Kanal-Einstellungen |
-| Team Sichtbarkeit (öffentlich oder privat) | Connectors |
-| Team-Einstellungen (beispielsweise Member, Gast @ erwähnungen) | Dateien und Inhalte |
-| Automatische Favoriten DDE-Kanal | |
-| Installierte app | |
-| Angeheftete Registerkarten | | 
+| Basis Vorlagentyp | Team Mitgliedschaft |
+| Teamname | Teambild |
+| Team Beschreibung | Kanaleinstellungen |
+| Team Sichtbarkeit (öffentlich oder privat) | Verbinder |
+| Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
+| Automatisch bevorzugter Kanal | |
+| Installierte App | |
+| Angeheftete Tabstopps | | 
 
 > [!NOTE]
-> Wir werden werden weitere Funktionen in zukünftigen Versionen des Microsoft-Teams, hinzufügen, für die die aktuellsten Informationen zu unterstützten Eigenschaften überprüfen.
+> In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagen Funktionen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
 
-## <a name="what-are-base-template-types"></a>Was sind Basisvorlage Typen?
+## <a name="what-are-base-template-types"></a>Was sind Basisvorlagen Typen?
 
-Basisvorlage Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt. Diese Basis Vorlagen enthalten häufig proprietäre apps, die nicht in den Speicher und die Team-Eigenschaften zur Verfügung stehen, die noch nicht einzeln in Teams Formularvorlagen unterstützt werden.
+Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die in den Store-und teameigenschaften nicht verfügbar sind, die in den Teams-Vorlagen noch nicht einzeln unterstützt werden.
 
-Nachdem ein Basisvorlage Typ definiert ist, können Sie erweitern oder außer Kraft setzen diese speziellen Vorlagen mit zusätzlichen Eigenschaften, die Sie angeben möchten. Jedoch einige Basisvorlage Typen enthalten Eigenschaften, die nicht überschrieben werden können. 
+Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten jedoch Eigenschaften, die nicht überschrieben werden können. 
 
-Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zusätzlichen proprietäre apps oder spezielle Eigenschaften enthält. Unten ist die aktuelle Liste der Typen Basisvorlage verfügbar.
+Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Unten ist die aktuelle Liste der verfügbaren Basisvorlagen Typen aufgeführt.
 
-| Basisvorlage-Typ | baseTemplateId | Eigenschaften, die im Lieferumfang von diese Basisvorlage |
+| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine zusätzliche apps und Eigenschaften |
-| Education-<br>Klasse-Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
-| Education-<br>Mitarbeiter-Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
-|Education-<br>PLC-team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
-| Retail-<br>abspeichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
-| Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
-| Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle: <ul><li>Ansagen\*</li><li>Huddles\*</li><li>Rundet</li><li>Koordiniertes\*</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
-|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle:<ul><li>Ansagen\*</li><li>Beachtung\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine weiteren apps und Eigenschaften |
+| Bildung<br>Kurs Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps<ul><li>OneNote-Kurs Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet) </li><li>Aufgaben-app (angeheftet an die Registerkarte " **Allgemein** ")</li></ul> Team Eigenschaften:<ul><li>Team Sichtbarkeit auf **HiddenMembership** (kann nicht außer Kraft gesetzt werden)</li></ul> |
+| Bildung<br>Mitarbeiter Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps<ul><li>OneNote-Mitarbeiter Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</li></ul> |
+|Bildung<br>SPS-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps<ul><li>OneNote PLC-Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</ul></li>|
+| Retail<br>Speichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften<ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul>Mitglieder Berechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul> |
+| Retail<br>Manager-Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften:<ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul>Mitglieder Berechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul>|
+| Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Ausbildung\*</li></ul>\*Automatisch bevorzugte Kanäle |
+|Im Gesundheitswesen<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
 |||
 
 > [!NOTE]
-> Wir können Sie Hinzufügen weiterer Basisvorlage Typen in zukünftigen Versionen von Microsoft-Teams, damit die Kontrollkästchen für die aktuellsten Informationen zu Eigenschaften unterstützt.
+> In zukünftigen Versionen von Microsoft Teams werden weitere Basisvorlagen Typen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Create-team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
+- [Team erstellen](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
 - [Neues Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
 - [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)

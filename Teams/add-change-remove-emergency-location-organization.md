@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 'Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center einen Notfall Standort für Ihre Organisation hinzufügen, ändern oder entfernen. '
-ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516830"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568699"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -39,7 +39,7 @@ Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, fin
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
-   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass für eine erfolgreiche Aktivierung einer Telefonnummer in Office 365 die Adress Einrichtung am Notfall Standort, die für das Betriebssystem verwendet wurde, um die Nummer zu erwerben, dem Bereich der Telefonnummer entsprechen muss. Code.
+   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Office 365 die Adresse, die in dem Notfall Standort eingerichtet ist, der zum Abrufen der Nummer verwendet wird, mit der Telefonnummer übereinstimmen muss. Ortsvorwahl.
 5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie das **Adressformular manuell bearbeiten, wenn die ausgewählte Adresse nicht gefunden werden kann**.
 6. Klicken Sie auf **Speichern**.
     

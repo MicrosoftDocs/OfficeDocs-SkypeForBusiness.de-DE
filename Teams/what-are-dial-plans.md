@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) in Office 365 zur Verfügung stehen, und wie Sie eine für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483968"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568564"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -70,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um benutzerdefinierte Wählpläne zu pla
 
 - **Schritt 4**: Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
 
-Das [](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) Kurzprojekt bietet zusätzliche Ressourcen und Partner, die Ihnen bei der Implementierung von Mandanten Wählplänen behilflich sein können.
+Das Kurzprojekt bietet zusätzliche Ressourcen und Partner [, die Ihnen](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) bei der Implementierung von Mandanten Wählplänen behilflich sein können.
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Erstellen Ihres neuen Mandantenwählplans
 

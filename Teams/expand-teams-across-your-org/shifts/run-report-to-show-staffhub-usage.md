@@ -1,5 +1,5 @@
 ---
-title: Ausführen eines Berichts zur Anzeige der aktiven StaffHub-Verwendung
+title: Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie einen Bericht ausführen, um eine Liste der aktiven StaffHub-Benutzer in Ihrer Organisation abzurufen.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb337fdb79c0977f4bcacd782d6705947b5b8466
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235386"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569663"
 ---
-# <a name="run-a-report-to-show-active-staffhub-usage"></a>Ausführen eines Berichts zur Anzeige der aktiven StaffHub-Verwendung
+# <a name="run-a-report-to-show-active-staffhub-usage"></a>Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung
 
 > [!IMPORTANT]
-> Ab dem 1. Oktober 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird für alle Benutzer am 1. Oktober 2019 nicht mehr funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 Führen Sie die Schritte in diesem Artikel aus, um einen Bericht auszuführen, um eine Liste der aktiven StaffHub-Benutzer in Ihrer Organisation abzurufen. Diese Informationen sind möglicherweise praktisch, wenn Sie sich vorbereiten, [Ihre StaffHub-Teams in Microsoft Teams zu verschieben](move-staffhub-teams-to-shifts-in-teams.md). Aus dem Bericht Wissen Sie, wer Sie in Ihre Kommunikation einbeziehen müssen, wenn Sie den Wechsel von StaffHub zu Teams durchführen.
 
@@ -37,7 +37,7 @@ Sie müssen Azure AD Premium haben, um die Schritte in diesem Artikel ausführen
 4. Geben **** Sie unter Anwendung **Microsoft StaffHub**.
 5. Legen Sie den gewünschten Datumsbereich für den Bericht fest, und klicken Sie dann auf über **nehmen**. 
 
-    ![Screenshot mit Schritten zur Anzeige der aktiven StaffHub-Verwendung](../../media/staffhub-active-usage-report.png)
+    ![Screenshot mit Schritten zum Anzeigen der Verwendung von Active StaffHub](../../media/staffhub-active-usage-report.png)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

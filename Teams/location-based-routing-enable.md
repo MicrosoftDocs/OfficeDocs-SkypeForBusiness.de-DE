@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie standortbasiertes Routing für direktes Routing aktivieren.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245128"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572022"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
@@ -93,7 +91,7 @@ In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direk
     ||Website 1 (Delhi)  |Website 2 (Hyderabad)  |
     |---------|---------|---------|
 |Standortname    |Website 1 (Delhi)    |Website 2 (Hyderabad)   
-    |EnableLocationBasedRouting    |True    |True    |
+    |EnableLocationBasedRouting    |Wahr    |Wahr    |
     |Subnetze     |Subnetz 1 (Delhi)     |Subnetz 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Aktivieren des standortbasierten Routings für Gateways
@@ -143,8 +141,8 @@ In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direk
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway: Gateway 1 del-GW    |    True     |   Website 1 (Delhi)      |
-    |PstnGateway: Gateway 2 Hyd-GW     |   True      |      Website 2 (Hyderabad)   |
+    |PstnGateway: Gateway 1 del-GW    |    Wahr     |   Website 1 (Delhi)      |
+    |PstnGateway: Gateway 2 Hyd-GW     |   Wahr      |      Website 2 (Hyderabad)   |
     |PstnGateway: Gateway 3 del-PBX    |    Falsch     |     Website 1 (Delhi)    |
     |PstnGateway: Gateway 4 Hyd-PBX    |    Falsch     |    Website 2 (Hyderabad)     |
 

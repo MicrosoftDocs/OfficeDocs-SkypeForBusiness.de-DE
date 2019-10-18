@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328331"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569995"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -41,7 +40,7 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiost
 
 |Metrik|Bedingung|Erklärung|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Wie viel Netzwerk Verlust und Jitter die Qualität der empfangenen Audiodaten beeinträchtigt haben.|
+|Audio Degradation Avg|> 1,0|Durchschnittlicher Netzwerk-Mittelwert der Meinungs Bewertung für Datenstrom. Wie viel Netzwerk Verlust und Jitter die Qualität der empfangenen Audiodaten beeinträchtigt haben.|
 |Round Trip|> 500|Durchschnittliche Roundtrip-Netzwerk Laufzeit, berechnet in Millisekunden. Einzelheiten sind in [rfc3550 angegeben](https://tools.ietf.org/html/rfc3550)verfügbar.|
 |Packet Loss Rate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|

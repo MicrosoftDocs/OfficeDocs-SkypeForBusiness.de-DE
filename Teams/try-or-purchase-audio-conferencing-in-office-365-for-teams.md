@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588191"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571491"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
 
@@ -43,7 +42,7 @@ Sie müssen ein [globaler Administrator oder rechnungsadministrator](https://sup
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Erwerben und Zuweisen von Benutzerlizenzen für Audiokonferenz:
 
-1. Finden Sie heraus **** , ob Audiokonferenzen in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Wenn Sie:
 
@@ -59,7 +58,7 @@ Sie müssen ein [globaler Administrator oder rechnungsadministrator](https://sup
 
 Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Lizenzen für Audiokonferenz erhalten. Weitere Informationen zu Pay-per Minute Lizenzen für Audio Conferencing finden Sie unter [Pay-per-Minute Audio Conferencing](audio-conferencing-pay-per-minute.md). 
   
-1. Finden Sie heraus **** , ob Audiokonferenzen in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Um Pay-per-Minute Lizenzen zu erwerben, wenden Sie sich bitte an Ihren Kundenbetreuer.
     

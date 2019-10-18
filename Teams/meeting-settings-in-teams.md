@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767194"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564933"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -40,7 +39,7 @@ Mit Anonymous Join kann jeder Teilnehmer an der Besprechung als anonymer Benutze
 1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Aktivieren Sie unter **Teilnehmer** **die Option Anonyme Benutzer können an einer Besprechung teilnehmen**.
 
-    ![Screenshot der Teilnehmereinstellungen für Besprechungen im Admin Center] Screenshot (media/meeting-settings-participants.png "der Teilnehmereinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
+    ![Screenshot der Teilnehmereinstellungen für Besprechungen im Admin Center](media/meeting-settings-participants.png "Screenshot der Teilnehmereinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
 Wenn Sie nicht möchten, dass anonyme Benutzer an Besprechungen teilnehmen, die von Benutzern in Ihrer Organisation geplant wurden, deaktivieren Sie diese Einstellung.
 
@@ -63,7 +62,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Gehen Sie unter **e-Mail-Einladung**wie folgt vor:
 
-    ![Screenshot der Einstellungen für Besprechungseinladungen, die Sie anpassen können] Screenshot (media/meeting-settings-invitation.png "der Einstellungen für Besprechungseinladungen, die Sie für Teambesprechungen anpassen können")
+    ![Screenshot der Einstellungen für Besprechungseinladungen, die Sie anpassen können](media/meeting-settings-invitation.png "Screenshot der Einstellungen für Besprechungseinladungen, die Sie für Teambesprechungen anpassen können")
 
     - **Logo-URL** Geben Sie die URL ein, in der Ihr Logo gespeichert ist.
     - **Rechtliche URL** Wenn Ihre Organisation über eine rechtliche Website verfügt, zu der Sie Personen für rechtliche Belange wechseln möchten, geben Sie die URL hier ein.
@@ -85,7 +84,7 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
 1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Führen Sie unter **Netzwerk**die folgenden Aktionen aus:
 
-    ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center] Screenshot (media/meeting-settings-network.png "der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
+    ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
     - Damit DSCP-Markierungen für QoS verwendet werden können, aktivieren Sie **Quality of Service (QoS)-Marker für echt Zeit Mediendatenverkehr einfügen**. Sie haben nur die Möglichkeit, Marker zu verwenden oder nicht; Sie können keine benutzerdefinierten Marker für jeden Datenverkehrstyp einrichten. Weitere Informationen zu DSCP-Marken finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method) .
     > [!NOTE] 

@@ -7,7 +7,8 @@ ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Für Microsoft Teams zertifizierte IP-Desk-und Konferenztelefone
-ms.openlocfilehash: 887393825d2894f97afa6f811455e349fd91d877
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427591"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570201"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 

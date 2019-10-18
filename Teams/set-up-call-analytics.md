@@ -9,8 +9,7 @@ ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Sie können Anruf Analysen einrichten und verwenden, um Probleme mit der Anrufqualität von Skype for Business und Microsoft Teams zu identifizieren und zu beheben.
+ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432777"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571249"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 
@@ -81,7 +80,7 @@ Informationen zum Zuweisen von Administratorrollen in Azure Active Directory fin
 
 Sie können Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzufügen, indem Sie eine CSV- oder TSV-Datei hochladen. Anhand aller dieser Informationen kann die Anrufanalyse IP-Adressen zu physischen Standorten zuordnen. Sie oder die Helpdesk-Agents können diese Informationen nutzen, um Trends bei Anrufproblemen zu erkennen. Beispiel: Warum haben zahlreiche Benutzer im gleichen Gebäude ähnliche Probleme mit der Anrufqualität? 
 
-Wenn Sie ein Team und ein Skype for Business-Administrator sind, können Sie eine vorhandene Datendatei aus dem Dashboard "Teams & Skype for Business-Anrufqualität" verwenden. Zuerst laden Sie die Datei aus dem Anrufqualitätsdashboard herunter, und dann laden Sie sie in die Anrufanalyse hoch. 
+Wenn Sie ein Team und ein Skype for Business-Administrator sind, können Sie eine vorhandene Datendatei aus dem Dashboard Teams #a0 Skype for Business-Anrufqualität verwenden. Zuerst laden Sie die Datei aus dem Anrufqualitätsdashboard herunter, und dann laden Sie sie in die Anrufanalyse hoch. 
 
 - Wenn Sie eine vorhandene Datendatei herunterladen möchten, wechseln Sie jetzt zum **Microsoft Teams Admin Center** > -**Anruf Quality-Dashboard** > **hochladen**. Klicken Sie in der Liste **Meine Uploads** neben der gewünschten Datei auf **Herunterladen**.
 

@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie mithilfe des Integritäts Dashboards die Verbindung zwischen dem Sitzungs Grenz Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237492"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572201"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Status-Dashboard für direktes Routing
 
@@ -52,7 +51,7 @@ Das Integritäts Dashboard bietet die folgenden Informationen im Zusammenhang mi
   
    Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen. Wenn die Anzahl der Anrufe kleiner als 100 ist, ist die ner möglicherweise relativ gering, aber dennoch normal. 
 
-   Die für calcuate ner verwendete Formel lautet:
+   Die Formel zur Berechnung von ner ist:
 
    NER = beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal Reject Anfälle x 100
 
@@ -107,7 +106,7 @@ In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
    - Paketverlust – ist ein Maß für ein Paket, das nicht ankommt; Sie wird zwischen zwei Endpunkten berechnet.
 
-   - Latancy-(auch als "Roundtrip-Zeit" bezeichnet) ist die Zeitdauer, die für das Senden eines Signals benötigt wird, sowie die Zeitdauer, die für die Empfangsbestätigung des Signals benötigt wird. Diese Zeitverzögerung besteht aus den Ausbreitungs Zeiten zwischen den beiden Punkten eines Signals.
+   - Latenz – (auch als Roundtrip-Zeit bezeichnet) ist die Zeitdauer, die für das Senden eines Signals benötigt wird, sowie die Zeitdauer, die für die Empfangsbestätigung des Signals benötigt wird. Diese Zeitverzögerung besteht aus den Ausbreitungs Zeiten zwischen den beiden Punkten eines Signals.
 
    Sie können die Daten nach Anzahl der Tage und in der Anrufrichtung (eingehend/ausgehend/alle Streams) verschieben.
 

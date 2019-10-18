@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie Informationen zu den Schritten, mit denen Sie in Microsoft Teams einem Benutzer eine Lizenz für Dial-in-Konferenzen und eine Konferenzkennung zuweisen, sowie zu vielen anderen Einstellungen für Dial-in-Konferenzen. '
-ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7cb0e76771563305ce98445818c77364b0849845
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570575"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenz-Einstellungen für Ihre Organisation in Microsoft Teams.
 
@@ -79,9 +78,9 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken **** Sie unter Audiokonferenzen auf **Konferenz-ID zurücksetzen**.  
+2. Klicken Sie unter **Audiokonferenzen**auf **Konferenz-ID zurücksetzen**.  
 
-3. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+3. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. Eine Konferenz-ID wird automatisch erstellt, und eine e-Mail, die an den Benutzer mit der neuen Konferenz-ID gesendet wird, wenn das Senden von e-Mails an Ihre Benutzer aktiviert ist. It's enabled by default.
 
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -93,7 +92,7 @@ Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewies
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken **** Sie unter Audiokonferenzen auf **PIN zurücksetzen**und dann auf **Zurücksetzen**. 
+2. Klicken Sie unter **Audiokonferenzen**auf **PIN zurücksetzen**und dann auf **Zurücksetzen**. 
   
 Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert werden oder wenn die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird allerdings keine E-Mail zum Zurücksetzen der PIN gesendet. In diesem Fall müssen Sie die PIN manuell an den Benutzer senden. Die PIN wird nach dem Zurücksetzen nur einmal angezeigt. Nachdem sie unmittelbar nach dem Zurücksetzen angezeigt wurde, wird die PIN in den Benutzereigenschaften nicht mehr angezeigt. Stattdessen wird ***** angezeigt. 
   
@@ -105,7 +104,7 @@ Siehe [Zurücksetzen der Audiokonferenz-Pin](reset-the-audio-conferencing-pin-in
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken **** Sie unter Audiokonferenz auf **Konferenz Informationen in einer e-Mail senden**. 
+2. Klicken Sie unter **Audiokonferenz**auf **Konferenz Informationen in einer e-Mail senden**. 
 
     > [!NOTE]
     > Damit wird die Audiokonferenz-PIN nicht an den Benutzer gesendet. 
@@ -118,7 +117,7 @@ Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen B
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie **** neben Audiokonferenzen auf **Bearbeiten**.
+2. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.
  
 3. Im Bereich **Audiokonferenz** können Sie die **gebührenpflichtige Nummer** und, falls zulässig, die **gebührenfreie Nummer**einstellen.
 
@@ -143,7 +142,7 @@ Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Ei
 
 4. Wählen Sie unter **Eintrag/Exit Announcement**entweder **Töne** oder **Namen oder Telefonnummern**aus. 
 
-    Wenn Sie **Namen oder Telefonnummern**wählen, können Sie auch festlegen, dass Anrufer **bitten, Ihren Namen aufzuzeichnen, bevor Sie an der Besprechung teilnehmen**. 
+    Wenn Sie **Namen oder Telefonnummern**wählen, können Sie auch festlegen, dass **Anrufer bitten, Ihren Namen aufzuzeichnen, bevor Sie an der Besprechung teilnehmen**. 
 
 5. Klicken Sie auf **Speichern**.
 
@@ -177,7 +176,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-set
     
     Damit wird eine E-Mail gesendet, die nur die Konferenz-ID und die Konferenztelefonnummer enthält, nicht aber die PIN.
 
-See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären (Standard-) und sekundären (Alternativen) Sprachen auf einer Audiokonferenz-Brücke
 

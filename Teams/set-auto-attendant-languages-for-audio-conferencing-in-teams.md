@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
-ms.openlocfilehash: e99892ad42a8e7340558b8f0db7daa1da025777a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344251"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571304"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
 
@@ -46,7 +45,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die a
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Wählen Sie **** in der Liste eine dedizierte Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern. Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.
+2. Wählen Sie in der Liste eine **dedizierte** Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern. Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.
 
 3. Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und alle alternativen Sprachen aus. 
  

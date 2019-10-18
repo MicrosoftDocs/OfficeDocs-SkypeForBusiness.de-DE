@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775106"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573583"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
@@ -29,7 +30,7 @@ Nachfolgend finden Sie Planungsinformationen zu den empfohlenen Vorgehensweisen 
 
 Microsoft Teams Rooms bietet eine vollständige Besprechungs Erfahrung, die HD-Video-, Audio-und Content-Freigaben für Besprechungen jeder Größe ermöglicht, von kleinen zusammendrängenden Bereichen bis zu großen Konferenzräumen.
 
-![Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.] (../media/room-systems-image1.png "Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.")
+![Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.](../media/room-systems-image1.png "Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.")
 
 Die [Hilfe zu Microsoft Teams rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) ist eine hervorragende Ressource, um mehr über die Microsoft Teams-Räume zu erfahren und zu erfahren, wie Sie einen Mehrwert als Teil Ihrer Bereitstellung hinzufügen können. Darüber hinaus empfehlen wir, dieses Übersichts [Video](https://youtu.be/tNey5KZVCl0)zu sehen. 
 
@@ -65,7 +66,7 @@ Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Bereitstellung 
 
 Beginnen Sie mit dem Verständnis, welche Konferenzräume Sie haben, und sehen Sie sich an, was in Zukunft für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz und Entwicklung von Betriebs-und Wartungsverfahren.
 
-![Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Geräts, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz und Entwickeln von Vorgängen und Wartungsverfahren] (../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Geräts, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz und Entwickeln von Vorgängen und Wartungsverfahren")
+![Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie Entwicklung Vorgangs-und Wartungsverfahren.](../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie Entwicklung Vorgangs-und Wartungsverfahren.")
 
 Möglicherweise müssen Sie diese Aktivitäten über mehrere Teams hinweg koordinieren. Wir bieten eine allgemeine Ansicht der wichtigsten Aktivitäten, die Sie behandeln sollten, sowie Vorschläge für die Teams, die normalerweise an der Bereitstellung und Verwaltung von Konferenzraum Systemen beteiligt sind, um Ihnen zu helfen, zu entscheiden, mit wem Sie arbeiten müssen.
 

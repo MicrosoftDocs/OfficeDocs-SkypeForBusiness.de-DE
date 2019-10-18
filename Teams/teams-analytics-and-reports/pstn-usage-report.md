@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Hier erfahren Sie, wie Sie den Bericht "PSTN-Nutzung von Teams" im Microsoft Teams Admin Center verwenden, um einen Überblick über die Verwendung von Anrufen und Audiokonferenzen in Ihrer Organisation zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3674759844cc268fc503f4f617e0d18d16914593
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 89d33f15401d25767c905f16e38d93744d7929c3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131685"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570566"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -37,7 +36,7 @@ Auf der Registerkarte " **Anrufpläne** " werden Informationen einschließlich d
 
 ### <a name="calling-plans"></a>Anrufpläne
 
-![Screenshot des Berichts "Anrufpläne PSTN-Nutzungsbericht" im Admin Center] (../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot des Berichts zur PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
+![Screenshot des Berichts "Anrufpläne PSTN-Nutzungsbericht" im Admin Center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot des Berichts zur PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
 
 |Beschriftung |Beschreibung  |
 |--------|-------------|
@@ -52,7 +51,7 @@ Auf der Registerkarte " **Anrufpläne** " werden Informationen einschließlich d
 
 ### <a name="direct-routing"></a>Direktes Routing
 
-![Screenshot des Berichts zur direkten Weiterleitung des PSTN-Nutzungsberichts im Admin Center] (../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot des Berichts zur direkten Weiterleitung der PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
+![Screenshot des Berichts zur direkten Weiterleitung des PSTN-Nutzungsberichts im Admin Center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot des Berichts zur direkten Weiterleitung der PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
 
 |Beschriftung |Beschreibung  |
 |--------|-------------|

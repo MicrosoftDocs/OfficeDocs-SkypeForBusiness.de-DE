@@ -12,16 +12,16 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434659"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563475"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -32,7 +32,7 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispiel Teams zu sehen ist, wird in einem Banner "dieses Team hat Gäste" angezeigt, und neben dem Namen jedes Gasts wird eine "(Gast)"-Beschriftung angezeigt.
     
-![Screenshot mit Banner Benachrichtigung Gastbenutzer](media/guest-experience-image2.png "-Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, mit der Word Guest neben dem Namen.")
+![Screenshot mit Banner Benachrichtigungs Gastbenutzern](media/guest-experience-image2.png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, die mit dem Wort Guest neben dem Namen der Person gekennzeichnet sind.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich von Teammitgliedern und Gast Funktionen
 

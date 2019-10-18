@@ -1,5 +1,5 @@
 ---
-title: Was sind Notfall Standorte, Orte und Anrufweiterleitung?
+title: Was sind Notfallstandorte, Orte und Anrufweiterleitung?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Informieren Sie sich, welche Notfall Standorte, Orte und Notfall-Anrufweiterleitung sind und wie Sie diese planen und ihren Benutzern zuweisen. '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396402"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568553"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>Was sind Notfall Standorte, Orte und Anrufweiterleitung?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>Was sind Notfallstandorte, Orte und Anrufweiterleitung?
 
 Wenn Sie Anrufpläne konfigurieren, müssen Sie jeder Telefonnummer einen Notfall Standort zuweisen, wenn Sie entweder die Telefonnummer erhalten oder Sie einem Benutzer zuweisen, um Notrufe zu unterstützen. Bevor Sie einer Telefonnummer einen Notfall Standort zuweisen können, müssen Sie einen Notfall Standort hinzufügen und überprüfen. Durch die Überprüfung wird sichergestellt, dass der Notfall Standort erkannt wird und dass er in einem korrekten Format vorliegt und von Notfalldiensten verwendet werden kann. Optional können Sie einen Ort innerhalb des Notfall Standorts hinzufügen, um einen spezifischeren Standort für den Benutzer bereitzustellen. Bei dem Ort kann es sich beispielsweise um eine Boden-, Flügel-oder Bürofläche handeln, die mit einem bestimmten Notfall Standort verknüpft ist. Obwohl Notfall Speicherorte überprüft werden, gibt es keine Orte.
   

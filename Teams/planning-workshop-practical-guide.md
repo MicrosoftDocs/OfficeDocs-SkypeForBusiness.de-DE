@@ -11,17 +11,14 @@ ms.reviewer: lolaj, rowille
 description: Planungstools, Workshops und Kits für die ersten Schritte von Organisationen mit Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253910"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567725"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 
@@ -53,7 +50,7 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 [Skype for Business für Teams Upgrade Planning Workshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[Verschieben von Benutzern von lokal in Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
 [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 

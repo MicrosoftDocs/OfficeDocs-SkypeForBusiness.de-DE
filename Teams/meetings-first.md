@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ae38caa6671b3b5b46d8f295947bdbd9527379
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675532"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564905"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -53,7 +52,7 @@ Darüber hinaus sind Besprechungen zunächst hilfreich für Organisationen, dere
 In der Besprechung werden zunächst die folgenden Funktionen zusammengeführt:
 
 - [Bereitstellen eines Skype for Business Server-Benutzers (lokal)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) mit [Teams-Audiokonferenzen](tutorial-audio-conferencing.yml).
-- [Migrationsdienst](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)für Besprechungen: die vom Benutzer organisierten Besprechungen werden in die Cloud migriert und in Teams-Besprechungen konvertiert, während der Benutzer zuerst zu Besprechungen heraufgestuft wird (erfordert Exchange Online).
+- [Migrationsdienst für Besprechungen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): die vom Benutzer organisierten Besprechungen werden in die Cloud migriert und in Teams-Besprechungen konvertiert, während der Benutzer zuerst zu Besprechungen heraufgestuft wird (erfordert Exchange Online).
 - Optimierte Benutzererfahrung in Teams, zentriert auf Teams-Besprechungen und Teams und Kanäle (die optional mithilfe der [App-Berechtigungsrichtlinie](teams-app-permission-policies.md)ausgeblendet werden können) [Private Chats, Anrufe und selbst Anwesenheit von Teams](teams-client-experience-and-conformance-to-coexistence-modes.md) werden in Besprechungen nicht zuerst verfügbar gemacht, wodurch sich die Bereitstellung und Einführung in vollem Umfang auf Besprechungen konzentrieren kann.
 - Überlegene [Teams-Besprechungs Erfahrung](tutorial-meetings-in-teams.yml).
 - "Besser zusammen" zwischen Teams und Skype for Business: 
@@ -94,7 +93,7 @@ Damit Ihre Benutzer die bestmögliche Erfahrung in Teambesprechungen haben, soll
 - [Bereiten Sie das Netzwerk Ihrer Organisation für Microsoft Teams](prepare-network.md)vor.
 - Aktualisieren Sie Ihre Besprechungsräume mit teamfähigen [Besprechungsraum Geräten und-Lösungen](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), oder verwenden Sie [Cloud-Video-Interop für Microsoft Teams](cloud-video-interop.md) , damit Ihre vorhandenen Drittanbieter Räume und-Geräte an Teams-Besprechungen teilnehmen können.
 - Rüsten Sie Ihre Benutzer mit [zertifizierten USB-Audio-und-Videogeräten](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)aus.
-- Vorbereiten der [Sensibilisierung und Akzeptanz für Teams](adopt-microsoft-teams-landing-page.md)-Besprechungen
+- Vorbereiten der [Sensibilisierung und Akzeptanz für Teams-Besprechungen](adopt-microsoft-teams-landing-page.md)
 - [Planen Sie Ihr Dienstmanagement](4-envision-plan-my-service-management.md).
 - Machen Sie sich mit den reichen anrufanalyse Berichten vertraut, um eine [schlechte Anrufqualität zu beheben](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 
@@ -104,7 +103,7 @@ In diesem Schritt sollten Sie in der Lage sein, ein Pilotprojekt mit mittlerer S
 
 Nachdem Sie Ihre Benutzer lizenziert und Ihre Organisation für Teams-Besprechungen vorbereitet haben, ist es an der Zeit, Ihre Benutzer zuerst für Besprechungen zu aktivieren. Wir haben es ganz einfach gemacht: eine einzige Einstellung bietet alles!
 
-Alle Funktionen und Benutzeroberflächen in Besprechungen, einschließlich der Clientkonfiguration für Teams und der [automatischen Konformität](teams-client-experience-and-conformance-to-coexistence-modes.md) der Benutzeroberfläche, des Migrations Diensts für Besprechungen und der besseren Zusammenarbeit, werden konfiguriert, indem der Benutzer (oder Gruppe von Benutzern oder Mandanten Standard) der [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) -Koexistenzmodus entweder im [Microsoft Teams Admin Center](manage-teams-in-modern-portal.md) oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Alle Funktionen und Benutzeroberflächen in Besprechungen, einschließlich der Clientkonfiguration für Teams und der [automatischen Konformität](teams-client-experience-and-conformance-to-coexistence-modes.md) der Benutzeroberfläche, des Migrations Diensts für Besprechungen und der besseren Zusammenarbeit, werden konfiguriert, indem der Benutzer (oder Gruppe von Benutzern oder Mandanten Standard) der [SfBWithTeamsCollabAndMeetings-Koexistenzmodus](setting-your-coexistence-and-upgrade-settings.md) entweder im [Microsoft Teams Admin Center](manage-teams-in-modern-portal.md) oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Screenshot der Administratoreinstellungen, um zuerst Besprechungen zu aktivieren](media/teams-meeting-admin-settings.png)
 

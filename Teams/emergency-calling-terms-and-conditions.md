@@ -9,7 +9,6 @@ ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Notrufdienste (911) von herkömmlichen Telefondiensten abweichen und wie Sie einen Anruf führen. '
-ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 356e858f39b1e7c6b812b99f46ecde42a35de81d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279033"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568419"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Nutzungsbedingungen für Notrufe
 
@@ -35,7 +34,7 @@ ms.locfileid: "34279033"
 
 Anrufe bei Notdiensten funktionieren mit Anrufplänen in Office 365 anders als bei herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und sie allen Benutzern mit Anrufplänen in Office 365 vermitteln. Sie erklären sich einverstanden und stimmen zu, dass Sie die Unterschiede in Bezug auf Anrufe bei Notdiensten gelesen und verstanden haben und alle Benutzer mit Anrufplänen in Office 365 darauf hinweisen.
   
-Zu den Unterschieden bei den Notruffunktionen gehören die folgenden: (i) Skype for Business und Teams wissen möglicherweise nicht, ob ein Anrufer einen Notruf durchführt, was dazu führen kann, dass der Anruf an den falschen Notfall weitergeleitet wird. Services Call Center und/oder Notfalldienste werden an den falschen Ort versandt; (II) Wenn das Gerät des Benutzers keinen Strom hat, einen Stromausfall hat oder aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann der Benutzer keinen Notruf über Anrufpläne in Office 365 tätigen; und (III) Obwohl Anrufpläne in Office 365 überall in der Welt verwendet werden können, in denen eine Internet Verbindung verfügbar ist, sollten Benutzer keinen Notruf an einem Standort außerhalb ihres Heimatlandes/der Region tätigen, da der Anruf wahrscheinlich nicht an das entsprechende Callcenter in diesem Land/dieser Region.
+Zu den Unterschieden bei den Notruffunktionen gehören die folgenden: (i) Skype for Business und Teams wissen möglicherweise nicht, ob ein Anrufer einen Notruf durchführt, was dazu führen kann, dass der Anruf an den falschen Notfall weitergeleitet wird. Services Call Center und/oder Notfalldienste werden an den falschen Ort versandt; (II) Wenn der Team-Client des Benutzers offline ist oder wenn das Gerät des Benutzers aus irgendeinem Grund nicht auf das Internet zugreifen kann, wie beispielsweise einen Netzwerkausfall oder Stromausfall, werden Notrufe über das Telefon System in Office 365 nicht unterstützt, und es wird davon ausgegangen, dass Sie nicht funktionieren. und (III) Obwohl Anrufpläne in Office 365 überall in der Welt verwendet werden können, in denen eine Internetverbindung verfügbar ist, sollten Benutzer keinen Notruf an einem Standort außerhalb ihres Heimatlandes/der Region tätigen, da der Anruf wahrscheinlich nicht an das entsprechende Callcenter in diesem Land/dieser Region.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)

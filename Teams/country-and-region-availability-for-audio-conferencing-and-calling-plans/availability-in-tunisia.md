@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Tunesien verfügbar sind.
-ms.openlocfilehash: 5b1e99f490999d84d1547076e0d1c8eb880b5783
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a106889ba37d07c323918a34acdb24566d9659f0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775648"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569521"
 ---
 # <a name="availability-in-tunisia"></a>Verfügbarkeit in Tunesien
 
