@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
+ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493078"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568575"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -61,14 +60,14 @@ Für die Verwendung von gebührenfreien Telefonnummern in Skype for Business ist
 > [!NOTE]
 > Sie müssen Kommunikationsguthaben einrichten und dann für jeden Benutzer in den **Microsoft 365 Admin Center** > -**Benutzern** > **aktive**Benutzer eine Lizenz für Kommunikations Kredite zuweisen. 
   
-Es wird empfohlen, die Verwendung des PSTN-Diensts in Ihrer Organisation sorgfältig zu bewerten, um die beste Einrichtung für Kommunikationsguthaben zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie unter Lesen von [Telefon System-und Anrufplänen](calling-plan-landing-page.md) sowie [häufig gestellte Fragen](Audio-Conferencing-common-questions.md)zu Audiokonferenzen.
+Es wird empfohlen, die Verwendung des PSTN-Diensts in Ihrer Organisation sorgfältig zu bewerten, um die beste Einrichtung für Kommunikationsguthaben zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie unter Lesen von [Telefon System-und Anrufplänen](calling-plan-landing-page.md) sowie [häufig gestellte Fragen zu Audiokonferenzen](Audio-Conferencing-common-questions.md).
   
 Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   
 > [!NOTE]
 > Sie können sich die Pläne und Preise ansehen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs** > **Abonnements** > Abonnements**Hinzufügen**wechseln. 
   
-In den **Microsoft 365 Admin Center** > -**Abrechnungs** > **Abonnements**können Sie jederzeit Guthaben manuell hinzufügen. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+In den **Microsoft 365 Admin Center** > -**Abrechnungs** > **Abonnements**können Sie jederzeit Guthaben manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

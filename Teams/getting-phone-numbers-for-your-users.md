@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588215"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572091"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -50,10 +49,10 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
     1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
-    1. Wählen **** Sie unter Zahlentyp den gewünschten Typ von Zahl aus.
+    1. Wählen Sie unter **Zahlentyp**den gewünschten Typ von Zahl aus.
     1. Wählen Sie unter **Standort**einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **Ort hinzufügen**.
     1. Wählen Sie unter **Vorwahl**eine Ortsvorwahl aus. 
-    2. Geben **** Sie unter Anzahl die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
+    2. Geben **Sie unter Anzahl**die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
 4. Wählen Sie die gewünschten Nummern aus. Sie haben 10 Minuten Zeit, um ihre Telefonnummern auszuwählen und Ihre Bestellung aufzugeben. Wenn Sie mehr als 10 Minuten benötigen, werden die Telefonnummern in den Nummern Pool zurückgegeben.
 5. Wenn Sie bereit sind, Ihre Bestellung aufzugeben, klicken Sie auf **Bestellung aufgeben**.
     

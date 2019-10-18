@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
-ms.openlocfilehash: 88efe30018a5724ea901e1e1b456b86c74ff4393
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: d92eb5cf9fbdeee715de3f9f94b735457dbad3a6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34332235"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570810"
 ---
 # <a name="availability-in-austria"></a>Verfügbarkeit in Österreich
 

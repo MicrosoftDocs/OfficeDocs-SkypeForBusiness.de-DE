@@ -11,15 +11,16 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie die Moodle-Integrations-App für Microsoft Teams installieren und konfigurieren.
 keywords: Integration des Plugins für Moodle-Apps für Teams
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b712a6261a73472b6f134e3b38359f30e489cce
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245380"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572058"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installieren der Moodle-Integration in Microsoft Teams
 
@@ -120,9 +121,9 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
 1. Kehren Sie zur Seite Plugin-Verwaltung zurück (Websiteverwaltung #a0 Plugins #a1 Microsoft Office 365-Integration), und wählen Sie die Seite " **Teams-Einstellungen** " aus. Sie müssen einige Sicherheitseinstellungen konfigurieren, um die Integration der Teams-APP zu ermöglichen.
     * Um OpenID Connect zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** , und klicken Sie auf das Augensymbol in der **OpenID Connect** -Zeile, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame Einbettung aktivieren. Klicken Sie auf den Link **http-Sicherheit** , und klicken Sie dann auf das Kontrollkästchen neben **Frame Einbettung zulassen**.
-    * Der nächste Schritt besteht darin, Webdienste zu aktivieren, die die Moodle-API-Funktionen aktivieren werden. Klicken Sie auf den Link **Erweiterte Funktionen** , und stellen Sie sicher, dass das Kontrollkästchen neben Webdienste **aktivieren** aktiviert ist.
+    * Der nächste Schritt besteht darin, Webdienste zu aktivieren, die die Moodle-API-Funktionen aktivieren werden. Klicken Sie auf den Link **Erweiterte Funktionen** , und stellen Sie sicher, dass das Kontrollkästchen neben **Webdienste aktivieren** aktiviert ist.
     * Schließlich müssen Sie die externen Dienste für Office 365 aktivieren. Klicken Sie dann auf den Link **externe Dienste** :
-        * Klicken Sie in der Zeile **Moodle Office 365** Webservices auf **Bearbeiten** .
+        * Klicken Sie in der Zeile **Moodle Office 365 Webservices** auf **Bearbeiten** .
         * Markieren Sie das Kontrollkästchen neben **aktiviert**, und klicken Sie dann auf **Änderungen speichern** .
     * Als nächstes müssen Sie die Berechtigungen für authentifizierte Benutzer bearbeiten, damit diese Webdienst Tokens erstellen können. Klicken Sie auf den Link **"authentifizierter Benutzer" der Rolle "Bearbeiten"** . Scrollen Sie nach unten, und suchen Sie nach der Funktion **Create a Web Service Token** , und markieren Sie das Kontrollkästchen **zulassen** .
 
@@ -150,7 +151,7 @@ Um den bot zu installieren, müssen Sie ihn zunächst auf der [Microsoft Identit
 1. Klicken Sie auf die Schaltfläche **Neues Kennwort generieren** . Kopieren Sie das generierte Kennwort, und fügen Sie es auf der Seite " **Team Einstellungen** " in das Feld " **bot-Anwendungs Kennwort** " ein.
 1. Scrollen Sie zum Ende des Formulars, und klicken Sie auf **Änderungen speichern**.
 
-Nachdem Sie Ihre Anwendungs-ID und Ihr Kennwort generiert haben, ist es an der Zeit, ihren bot in Azure bereitzustellen. Klicken Sie auf die Schaltfläche **in Azure bereitstellen** , und füllen Sie das Formular mit den erforderlichen Informationen aus (die bot-Anwendungs-ID, das Kennwort für **** die bot-Anwendung und das Moodle-Kennwort befinden sich auf der Seite Teameinstellungen, und die Azure-Informationen finden Sie auf der Seite **Setup** ). . Nachdem Sie das Formular ausgefüllt haben, klicken Sie auf das Kontrollkästchen, um den allgemeinen Geschäftsbedingungen zuzustimmen, und klicken Sie dann auf die Schaltfläche " **kaufen** " (alle Azure-Ressourcen werden auf der kostenlosen Ebene bereitgestellt).
+Nachdem Sie Ihre Anwendungs-ID und Ihr Kennwort generiert haben, ist es an der Zeit, ihren bot in Azure bereitzustellen. Klicken Sie auf die Schaltfläche **in Azure bereitstellen** , und füllen Sie das Formular mit den erforderlichen Informationen aus (die bot-Anwendungs-ID, das Kennwort für die bot-Anwendung und das Moodle-Kennwort befinden sich auf der Seite **Teameinstellungen** , und die Azure-Informationen finden Sie auf der Seite **Setup** ). . Nachdem Sie das Formular ausgefüllt haben, klicken Sie auf das Kontrollkästchen, um den allgemeinen Geschäftsbedingungen zuzustimmen, und klicken Sie dann auf die Schaltfläche " **kaufen** " (alle Azure-Ressourcen werden auf der kostenlosen Ebene bereitgestellt).
 
 Nachdem die Ressourcen in Azure bereitgestellt wurden, müssen Sie das Office 365 Moodle-Plug-in mit dem Messaging Endpunkt konfigurieren. Zunächst müssen Sie den Endpunkt von Ihrem bot in Azure abrufen. Gehen Sie dazu wie folgt vor:
 
@@ -160,7 +161,7 @@ Nachdem die Ressourcen in Azure bereitgestellt wurden, müssen Sie das Office 36
 4. Wählen Sie in der Liste der Ressourcen in der Gruppe die Ressource für den Webressourcen- **bot** aus.
 5. Kopieren Sie den **Nachrichten Endpunkt** aus dem Abschnitt **Übersicht** .
 6. Öffnen Sie in Moodle die Seite **Team Einstellungen** Ihres Office 365 Moodle-Plugins.
-7. Fügen Sie im Feld **bot-Endpunkt** die URL ein, die Sie soeben kopiert haben, und ändern Sie die Word- *Nachrichten* in webhook. ** Die URL sollte nun wie folgt aussehen`https://botname.azurewebsites.net/api/webhook`
+7. Fügen Sie im Feld **bot-Endpunkt** die URL ein, die Sie soeben kopiert haben, und ändern Sie die Word- *Nachrichten* in *webhook*. Die URL sollte nun wie folgt aussehen`https://botname.azurewebsites.net/api/webhook`
 8. Klicken Sie auf **Änderungen speichern** .
 9. Nachdem Sie Ihre Änderungen gespeichert haben, wechseln Sie zurück zur Registerkarte **Team Einstellungen** , klicken Sie auf die Schaltfläche **Manifestdatei herunterladen** , und speichern Sie das Manifest-Paket auf dem Computer (im nächsten Abschnitt verwenden Sie es).
 

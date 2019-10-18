@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, wie Sie die Möglichkeit zum Aufzeichnen des Benutzernamens beim Teilnehmen an einer Besprechung in Microsoft Teams aktivieren oder deaktivieren.
-ms.openlocfilehash: 44ae945b8ea17b68652e03ab3cb072e5491c5497
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20888f206e3ffbca72227ff1b9cd5d5f624101f3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344122"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573052"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung in Microsoft Teams
 
@@ -44,7 +44,7 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
 
 3. Aktivieren oder Deaktivieren von **Benachrichtigungen zur Besprechungs Eingabe und-Beendigung**
 
-4. Wenn Sie Benachrichtigungen aktivieren, wählen Sie unter **Entry/Exit**-Ankündigungs **Namen oder Telefonnummern** aus, und aktivieren Sie dann die Option **Anrufer bitten, Ihren Namen aufzuzeichnen, bevor Sie an einer Besprechung teilnehmen.**
+4. Wenn Sie Benachrichtigungen aktivieren, wählen Sie unter **Entry/Exit-Ankündigungs** **Namen oder Telefonnummern** aus, und aktivieren Sie dann die Option **Anrufer bitten, Ihren Namen aufzuzeichnen, bevor Sie an einer Besprechung teilnehmen.**
 
 6. Klicken Sie auf **Speichern**.
     

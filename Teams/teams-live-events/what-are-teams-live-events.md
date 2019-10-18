@@ -6,7 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483232"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570146"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -38,7 +37,7 @@ Live-Events von Teams gelten als die nächste Version der Skype-Live Konferenz u
 
 Also lasst uns loslegen. Sehen Sie sich zunächst das folgende Diagramm an, in dem die Komponenten auf hoher Ebene, die an Microsoft 365-Live Ereignissen beteiligt sind und wie diese verbunden sind, angezeigt werden. 
 
-![Diagramm mit wichtigen Komponenten von Live Ereignissen] (../media/teams-live-events.png  "Diagramm mit wichtigen Komponenten von Live Ereignissen, Terminplanung, Produktion, Datenstrom Plattform, zertifizierten Drittanbieter-ECDN")
+![Diagramm mit wichtigen Komponenten von Live Ereignissen](../media/teams-live-events.png  "Diagramm mit wichtigen Komponenten von Live Ereignissen, Terminplanung, Produktion, Datenstrom Plattform, zertifizierten Drittanbieter-ECDN")
 
 ### <a name="event-group-roles"></a>Ereignisgruppen Rollen
 Mit Live Ereignissen in Teams können mehrere Rollen (Organisator, Produzent, Referent und Teilnehmer) erfolgreich übertragen und an einem Ereignis teilnehmen. Weitere Informationen finden Sie unter [Rollen der Ereignisgruppe](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
@@ -52,18 +51,18 @@ Sie können aus dem Bild oben sehen, dass es vier wichtige Komponenten gibt, die
 ### <a name="scheduling"></a>Planung
 Teams bietet den Organisatoren die Möglichkeit, ein Ereignis mit den entsprechenden Berechtigungen für Teilnehmer zu erstellen, Ereignis Teammitglieder festzulegen, eine Produktionsmethode auszuwählen und Teilnehmer einzuladen. Wenn das Live-Ereignis in einer Gruppe von "jammern" erstellt wurde, können die Teilnehmer des Live-Ereignisses für die Interaktion mit Personen in dem Ereignis eine Jammer Unterhaltung verwenden. 
 
-Screenshot ![mit dem Bildschirm "neue Live Ereignisse"] Screenshot mit (../media/teams-live-events-schedule.png "dem neuen Live Ereignis Bildschirm zum Erstellen und Planen eines neuen Liveereignisses")
+![Screenshot mit dem Bildschirm "neue Live Ereignisse"](../media/teams-live-events-schedule.png "Screenshot mit dem neuen Live Ereignis Bildschirm zum Erstellen und Planen eines neuen Liveereignisses")
 
 ### <a name="production"></a>Produktions
 Der Videoeingang ist das Fundament des Live-Events und kann von einer einzelnen Webcam bis hin zu einer professionellen Videoproduktion mit mehreren Kameras variieren. Die Live Ereignisse in Microsoft 365 unterstützen ein Spektrum von Produktionsszenarien, einschließlich eines Ereignisses, das in Teams mit einer Webcam oder einem Ereignis in einer externen APP oder einem Gerät erstellt wurde. Sie können diese Optionen je nach Projektanforderungen und Budget auswählen. Es gibt zwei Möglichkeiten zum Erstellen von Ereignissen:
 
 - **Teams**: mit dieser Produktionsmethode können Benutzer ihre Live-Events in Teams mit Ihrer Webcam oder mit einer/V-Eingabe von Teams Room Systems erstellen. Diese Option ist die beste und schnellste Option, wenn Sie die Audio-und Videogeräte, die mit dem PC verbunden sind, verwenden möchten, oder wenn Sie Remote Referenten einladen, an der Veranstaltung teilzunehmen. Diese Option ermöglicht es Benutzern, Ihre Webcams einfach zu nutzen und Ihren Bildschirm als Eingabe für die Veranstaltung freizugeben. 
 
-    ![Screenshot mit einem Live Ereignis, das mit der Schnellstart Methode erstellt] wurde (../media/teams-live-events-quick-start.png "Screenshot mit einem Live Ereignis, das mithilfe der Schnellstart-Produktionsmethode erstellt wird")
+    ![Screenshot mit einem Live Ereignis, das mit der Schnellstart Methode erstellt wurde](../media/teams-live-events-quick-start.png "Screenshot mit einem Live Ereignis, das mithilfe der Schnellstart-Produktionsmethode erstellt wird")
 
 - **Externe APP oder Gerät**: externe Encoder ermöglichen Benutzern, Ihre Live Ereignisse direkt von einem externen Hardware-oder softwarebasierten Encoder mit [Stream](https://stream.microsoft.com)zu produzieren. Diese Option ist am besten geeignet, wenn Sie bereits über Studio-qualitätsgeräte (beispielsweise Medien Mischer) verfügen, die das Streaming zu einem RTMP-Dienst (Real-Time Messaging Protocol) unterstützen. Diese Art der Produktion wird in der Regel in großflächigen Ereignissen wie exekutiven Stadthallen verwendet, in denen ein einzelner Datenstrom von einem Medien Mixer an das Publikum übertragen wird. 
 
-    ![Screenshot mit einem Live Ereignis, das mit einer externen APP oder einem Gerät erstellt] wurde (../media/teams-live-events-external-encoder.png "Screenshot mit einem Live Ereignis, das mit der externen APP oder Geräte Produktionsmethode erstellt wird")
+    ![Screenshot mit einem Live Ereignis, das mit einer externen APP oder einem Gerät erstellt wurde](../media/teams-live-events-external-encoder.png "Screenshot mit einem Live Ereignis, das mit der externen APP oder Geräte Produktionsmethode erstellt wird")
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Die Live-Event-Streaming-Plattform besteht aus den folgenden Teilen:
@@ -80,7 +79,7 @@ Das Ziel von ECDN besteht darin, die Videoinhalte aus dem Internet zu übernehme
 ### <a name="attendee-experience"></a>Teilnehmer-Erfahrung 
 Die Teilnehmer-Erfahrung ist der wichtigste Aspekt von Live Ereignissen, und es ist wichtig, dass die Teilnehmer am Live-Ereignis teilnehmen können, ohne dass Probleme auftreten. Die Teilnehmer-Oberfläche verwendet Azure Media Player (für Ereignisse, die in Teams erstellt wurden) und Stream Player (für Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden) und funktioniert auf Desktop-, Browser-und Mobilgeräten (Ios, Android). Office 365 bietet jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
 
-![Screenshot der Live-Teilnehmer-Erfahrung] (../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
+![Screenshot der Live-Teilnehmer-Erfahrung](../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
 
 ### <a name="live-event-usage-report"></a>Bericht zur Live-Ereignis Nutzung 
 Mandantenadministratoren können Echtzeit-Nutzungsanalysen für Live-Ereignisse im Microsoft Teams Admin Center anzeigen.  Der [Bericht zur Live-Ereignis Verwendung](../teams-analytics-and-reports/teams-live-event-usage-report.md) zeigt die Aktivitätsübersicht der in der Organisation gespeicherten Live Ereignisse an.  Administratoren können Informationen zur Ereignis Nutzung anzeigen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp.  

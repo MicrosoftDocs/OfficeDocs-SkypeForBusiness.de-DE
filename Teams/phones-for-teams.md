@@ -11,17 +11,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394563"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573309"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -123,7 +121,7 @@ Die Microsoft Teams-Benutzer können auf Ihre Voicemail zugreifen, wenn Sie zur 
 
 ## <a name="user-sign-out"></a>Benutzerabmeldung
 
-Der Benutzer des Teams kann sich abmelden wählen, indem er **** im Menü oben links die Option Abmelden auswählt.
+Der Benutzer des Teams kann sich abmelden wählen, indem er im Menü oben links die Option **Abmelden** auswählt.
 
 ![Screenshot zum Abmelden von Teams](media/teams-sign-out.png)
 

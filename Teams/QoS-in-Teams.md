@@ -15,16 +15,15 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a75acd23f818615630ff4f6ca9e1890ae87cc9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483185"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567147"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -44,7 +43,7 @@ Damit QoS effektiv ist, haben Sie in Ihrer Organisation die konsistenten QoS-Ein
 
 _Abbildung 1 Die Beziehung zwischen den Netzwerken einer Organisation und den Office 365-Diensten_
 
-![Abbildung der Beziehung zwischen Netzwerken und Diensten] (media/Qos-in-Teams-Image1.png "Die Beziehung zwischen den Netzwerken einer Organisation und den Office 365-Diensten: lokales Netzwerk und Geräte stellen eine Verbindung mit einem Interconnect-Netzwerk her, das wiederum eine Verbindung mit Office 365 Cloud-VoIP-und-Audiokonferenzdienst herstellt.")
+![Abbildung der Beziehung zwischen Netzwerken und Diensten](media/Qos-in-Teams-Image1.png "Die Beziehung zwischen den Netzwerken einer Organisation und den Office 365-Diensten: lokales Netzwerk und Geräte stellen eine Verbindung mit einem Interconnect-Netzwerk her, das wiederum eine Verbindung mit Office 365 Cloud-VoIP-und-Audiokonferenzdienst herstellt.")
 
 In den meisten Fällen ist das Netzwerk, das Ihr Unternehmen mit der Cloud verbindet, ein nicht verwaltetes Netzwerk, in dem Sie keine zuverlässigen QoS-Optionen einrichten können. Eine mögliche Lösung für den End-to-End-QoS ist [Azure Express Route](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), aber wir empfehlen weiterhin, QoS in Ihrem lokalen Netzwerk für eingehenden und ausgehenden Datenverkehr zu implementieren. Dadurch wird die Qualität von Arbeitslasten in Echtzeit während der gesamten Bereitstellung erhöht und Engpässe verringert.
 
@@ -70,7 +69,7 @@ Bei der Implementierung von QoS definieren Sie mehrere Warteschlangen mit einer 
 
 _Abbildung 2. Beispiele für QoS-Warteschlangen_
 
-![Illustration von QoS-Warteschlangen und Bandbreiten Teilung] (media/Qos-in-Teams-Image2.png "Die gesamte verfügbare Bandbreite ist auf mehrere Warteschlangen – Audio, Video und anderer Datenverkehr – aufgeteilt, denen unterschiedliche Prioritäten zugewiesen wurden.")
+![Illustration von QoS-Warteschlangen und Bandbreiten Teilung](media/Qos-in-Teams-Image2.png "Die gesamte verfügbare Bandbreite ist auf mehrere Warteschlangen – Audio, Video und anderer Datenverkehr – aufgeteilt, denen unterschiedliche Prioritäten zugewiesen wurden.")
 
 Eine einfache Analogie ist, dass QoS virtuelle "Fahrgemeinschaften-Lanes" in Ihrem Datennetzwerk erstellt, sodass einige Datentypen nie oder nur selten einer Verzögerung begegnen. Nachdem Sie diese Spuren erstellt haben, können Sie Ihre relative Größe anpassen und die von Ihnen genutzte Verbindungsbandbreite effektiver verwalten, während Sie dennoch unternehmensspezifische Erfahrungen für die Benutzer Ihrer Organisation bereitstellen.
 
@@ -137,7 +136,7 @@ Auf einer sehr hohen Ebene erfordert die Implementierung von QoS die folgenden S
 2. [Auswählen einer QoS-Implementierungsmethode](#select-a-qos-implementation-method)
 3. [Auswählen von anfänglichen Portbereichen für die einzelnen Medientypen](#choose-initial-port-ranges-for-each-media-type)
 4. Implementieren von QoS-Einstellungen:
-   1. Auf Clients, die ein GPO verwenden, um [Clientgeräte-Portbereiche und-Markierungen](QoS-in-Teams-clients.md) einzurichten
+   1. Auf Clients, die ein GPO verwenden, um [Clientgeräte-Portbereiche und-Markierungen einzurichten](QoS-in-Teams-clients.md)
    2. Auf Routern (siehe Herstellerdokumentation) oder auf anderen Netzwerkgeräten. Dies kann Portbasierte ACLs oder einfach die Definition von QoS-Warteschlangen und DSCP-Markierungen oder all diesen umfassen.
 
       > [!IMPORTANT]
@@ -187,7 +186,7 @@ Netzwerk Monitor ist ein Tool, das Sie [von Microsoft herunterladen](https://www
 
     Source = = "192.168.137.201" und IPv4. DifferentiatedServicesField = = 0x2E
 
-    ![Screenshot Filter im Dialogfeld "Anzeigefilter] " (media/Qos-in-Teams-Image4.png "Das Dialogfeld \"Anzeigefilter\" im Netzwerk Monitor mit den Filtern, die angewendet werden sollen.")
+    ![Screenshot Filter im Dialogfeld "Anzeigefilter"](media/Qos-in-Teams-Image4.png "Das Dialogfeld "Anzeigefilter" im Netzwerk Monitor mit den Filtern, die angewendet werden sollen.")
 
 5. Wählen Sie über **nehmen** aus, um den Filter zu aktivieren.
 
@@ -195,7 +194,7 @@ Netzwerk Monitor ist ein Tool, das Sie [von Microsoft herunterladen](https://www
 
 7. Erweitern Sie im Fenster **Frame Details** das Element IPv4-Liste, und notieren Sie sich den Wert am Ende der Zeile, die mit **DSCP**beginnt.
 
-    ![Screenshot mit DSCP-Einstellungen im Dialogfeld ' Frame Details '] (media/Qos-in-Teams-Image5.png "Dialogfeld ' Frame Details ' im Netzwerk Monitor, mit dem die DSCP-Einstellungen markiert werden.")
+    ![Screenshot mit DSCP-Einstellungen im Dialogfeld ' Frame Details '](media/Qos-in-Teams-Image5.png "Dialogfeld ' Frame Details ' im Netzwerk Monitor, mit dem die DSCP-Einstellungen markiert werden.")
 
 In diesem Beispiel wird der DSCP-Wert auf 46 gesetzt. Das ist richtig, da der verwendete Quell Port 50019 ist, was darauf hindeutet, dass es sich um eine sprach Auslastung handelt.
 

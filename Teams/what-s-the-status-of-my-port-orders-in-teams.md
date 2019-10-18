@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungs Bestellungen abrufen und die verschiedenen Aktionen kennenlernen können, die Sie für Sie ausführen können. '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298976"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568520"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Wie lautet der Status meiner Portierungsaufträge in Teams?
 
@@ -38,7 +39,7 @@ In der folgenden Tabelle sind die Port Auftragsstatus sowie Aktionen aufgeführt
 |**Kontaktaufnahme mit dem Netzbetreiber** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde von Microsoft eingegangen und genehmigt, und wir arbeiten mit dem verlorenen Netzbetreiber zusammen, um ihn genehmigt zu erhalten.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Verbindliche Auftrags Bindung (BAK)  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde vom Verlust Träger akzeptiert, und das LWL-Datum wurde gesetzt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (zu diesem Zeitpunkt können Sie die Portierungs Reihenfolge nicht löschen, wenn ein Fehler vorliegt. Die Portierungs Reihenfolge muss neu erstellt werden, oder Sie müssen sich an den [Support für Business-Produkte wenden – Hilfe für Administratoren](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |Der verlorene Beförderer hat die Bestellung abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt können Sie die Portierungs Reihenfolge nicht löschen, wenn ein Fehler vorliegt. Die Portierungs Reihenfolge muss neu erstellt werden, oder Sie müssen sich an den [Support für Business-Produkte wenden – Hilfe für Administratoren](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |Der verlorene Beförderer hat die Bestellung abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Nummern wurden erfolgreich übertragen.  <br/> |
 |**Storniert** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag storniert.  <br/> |
    

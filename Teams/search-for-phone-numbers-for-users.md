@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie nach Telefonnummern suchen, die Sie Ihren Benutzern nach Land, Region und Ort zuweisen können, und die Anzahl der benötigten Nummern angeben.
-ms.openlocfilehash: 59f97e3e2aa7a1c68d4727a06ac0e4f897f9e6b3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348840"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573437"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -43,7 +43,7 @@ Wenn Sie Hilfe beim Abrufen von Telefonnummern benötigen, finden Sie unter [Ver
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
-2. Wählen Sie in der linken **** > **** > Navigationsleiste die Option Rufnummern**Abrufen**.
+2. Wählen Sie in der linken Navigationsleiste die**** >  **Option** > Rufnummern**Abrufen**.
   
     > [!IMPORTANT]
     > Damit Sie die **sprach** Option in der linken Navigationsleiste des Microsoft Teams admin Centers sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für eine **Audio-Conferencing** -Add-on erwerben.  
@@ -56,17 +56,17 @@ Wenn Sie Hilfe beim Abrufen von Telefonnummern benötigen, finden Sie unter [Ver
 
 6. Wählen Sie die Ortsvorwahl für den Standort aus.
 
-7. Geben **** Sie unter Anzahl die gewünschte Anzahl von Telefonnummern für Ihre Organisation ein, und klicken Sie dann auf **weiter**. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen. Wenn Sie länger als zehn Minuten brauchen, werden die Nummern wieder an den Telefonnummernpool zurückgegeben.
+7. Geben **Sie unter Anzahl**die gewünschte Anzahl von Telefonnummern für Ihre Organisation ein, und klicken Sie dann auf **weiter**. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen. Wenn Sie länger als zehn Minuten brauchen, werden die Nummern wieder an den Telefonnummernpool zurückgegeben.
 
     > [!NOTE]
-    > Sie können die Anzahl der Telefonnummern sehen, die Ihnen zur Verfügung stehen (die auf der Anzahl der Lizenzen basiert), **** die neben Quantity aufgeführt sind. 
+    > Sie können die Anzahl der Telefonnummern sehen, die Ihnen zur Verfügung stehen (die auf der Anzahl der Lizenzen basiert), die neben **Quantity**aufgeführt sind. 
   
 8. Wählen Sie auf der Seite **Nummern abrufen** die gewünschten Telefonnummern aus, klicken Sie auf **Nummern erwerben**, und klicken Sie dann auf **weiter**.
 
     > [!IMPORTANT]
     > Sie können mehr Telefonnummern erwerben als Sie Lizenzen haben. Um zu bestimmen, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl an Lizenzen, fügen Sie 10 Prozent der Anzahl an Lizenzen und dann 10 hinzu. Wenn Sie beispielsweise über 100 **Domestic Calling Plan** und/oder Lizenzen für den **internationalen Anrufplan** verfügen, können Sie 120-Telefonnummern reservieren, vorausgesetzt, Sie haben noch keine Telefonnummern für diese 100-Nutzer erworben. Weitere Informationen finden Sie unter [wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
-9. Überprüfen **** Sie auf der Bestätigungsseite Ihre Auswahl, und klicken Sie dann auf **Bestellung aufgeben**.
+9. Überprüfen Sie auf der **Bestätigungs** Seite Ihre Auswahl, und klicken Sie dann auf **Bestellung aufgeben**.
 
 10. Wenn Sie zur Seite **Telefonnummern** zurückkehren, wählen Sie die Telefonnummer oder Nummern aus, die Sie zuweisen möchten, und klicken Sie dann auf **Bearbeiten** , um Sie einem Benutzer zuzuweisen.  
 

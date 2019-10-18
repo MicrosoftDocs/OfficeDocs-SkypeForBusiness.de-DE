@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328406"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572256"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -392,8 +393,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Erster Endpunkt Produkt Name|Zeichenfolge|Der Produktname des ersten Endpunkts (entweder Skype for Business oder Microsoft Teams).|
 | Name des zweiten Endpunkts|Zeichenfolge|Der Produktname des zweiten Endpunkts (entweder Skype for Business oder Microsoft Teams).|
 | First usertype|Aufzählungszeichen Folge|Der Typ des Benutzers für den ersten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, anonym, Anwendung, PSTN, Voicemail, unbekannt <br/> <br/>**Unbekannt** – der Standardwert, wenn usertype nicht basierend auf den empfangenen Informationen ermittelt werden kann. <br/>**PSTN** – ein PSTN-Benutzer. <br/>**Anonym** – ein Team Nutzer oder Skype for Business-Besucher. <br/>**Anwendung** – ein bot. <br/>**Benutzer** – ein Aad-Benutzer kann entweder Skype for Business-Benutzer oder Teams-Nutzer sein. <br/>**Server** – für Konferenzen ist mindestens eine Seite ein Server. <br/>**Voicemail** – der Endpunkt wurde vom Voicemaildienst beantwortet.||
-| Second usertype|Aufzählungszeichen Folge|Der Typ des Benutzers für den zweiten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, anonym, Anwendung, PSTN, Voicemail, unbekannt <br/> <br/>**Unbekannt** – der Standardwert, wenn usertype nicht basierend auf den empfangenen Informationen ermittelt werden kann. <br/>**PSTN** – ein PSTN-Benutzer. <br/>**Anonym** – ein Team Nutzer oder Skype for Business-Besucher. <br/>**Anwendung** – ein bot. <br/>**Benutzer** – ein Aad-Benutzer kann entweder Skype for Business-Benutzer oder Teams-Nutzer sein. <br/>**Server** für Konferenzen, mindestens eine Seite ist Server.
-<br/>**Voicemail** – der Endpunkt wurde vom Voicemaildienst beantwortet.||
+| Second usertype|Aufzählungszeichen Folge|Der Typ des Benutzers für den zweiten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, anonym, Anwendung, PSTN, Voicemail, unbekannt <br/> <br/>**Unbekannt** – der Standardwert, wenn usertype nicht basierend auf den empfangenen Informationen ermittelt werden kann. <br/>**PSTN** – ein PSTN-Benutzer. <br/>**Anonym** – ein Team Nutzer oder Skype for Business-Besucher. <br/>**Anwendung** – ein bot. <br/>**Benutzer** – ein Aad-Benutzer kann entweder Skype for Business-Benutzer oder Teams-Nutzer sein. <br/>**Server** für Konferenzen, mindestens eine Seite ist Server. <br/>**Voicemail** – der Endpunkt wurde vom Voicemaildienst beantwortet.||
 |**Datapair**|||
 | Network Connection Detail Pair  | Aufgezähltes Paar <br/>**Mögliche Werte:** <br/> WiFi:WiFi <br/> WiFi:Verkabelt <br/> Verkabelt:WiFi <br/> Verkabelt:Verkabelt <br/> MobileBB:MobileBB <br/> MobileBB:Sonstiges <br/> MobileBB:Tunnel <br/> MobileBB:WiFi <br/> MobileBB:Verkabelt <br/> Sonstige:Sonstiges <br/> Sonstiges:WiFi <br/> Sonstiges:Verkabelt <br/> Tunnel:Tunnel <br/> Tunnel:WiFi <br/> Tunnel:Verkabelt <br/> :MobileBB <br/> :Sonstiges <br/> :Tunnel <br/> :WiFi <br/> :Verkabelt <br/> :  | Paar aus Netzwerkverbindungsdetails für den ersten und zweiten Endpunkt.  | &bull;Der Endpunkt Netzwerkverbindungstyp war unbekannt. Dieser Fall kann eintreten, wenn der Anruf nicht aufgebaut werden konnte.   |
 | User Agent Category Pair  | Aufgezähltes Paar  | Paar aus Benutzer-Agent-Kategorien für ersten und zweiten Endpunkt. <br/> **Beispielwert:** AV-MCU: OC  | &bull;Endpunkt-Benutzer-Agent war kein bekannter Typ  |

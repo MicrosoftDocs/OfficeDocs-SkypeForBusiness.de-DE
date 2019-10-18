@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie die Schritte zum Zurücksetzen der Konferenzkennung eines Benutzers in Microsoft Teams sowie Links zu Tools, mit denen Sie Besprechungen aktualisieren und migrieren können. '
-ms.openlocfilehash: 6062eb69f6ef27462a3ea9edc47f5e5647ef6d65
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 894761811bfc9c353c7a145c83c7a201a587f1e2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344585"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568367"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
@@ -42,9 +42,9 @@ Eine dynamische Konferenzkennung befindet sich unten in Besprechungseinladungen 
 
 2. Klicken Sie auf **Bearbeiten**.
 
-3. Klicken **** Sie unter Audiokonferenz auf **Konferenz-ID zurücksetzen**.
+3. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.
 
-2. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
+2. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. Eine Konferenz-ID wird automatisch erstellt und eine e-Mail mit der neuen Konferenz-ID an den Benutzer gesendet. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
 
     
 > [!NOTE]
@@ -55,7 +55,7 @@ Eine dynamische Konferenzkennung befindet sich unten in Besprechungseinladungen 
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Sie können alle Konferenz Informationen an den Benutzer in einer e-Mail-Nachricht senden, die die Konferenz-ID und Einwahlnummern enthält, indem Sie im Abschnitt Audiokonferenzen in e-Mail für **** den Benutzer auf **Konferenz Informationen senden** klicken. Die PIN wird nicht gesendet.
+- Sie können alle Konferenz Informationen an den Benutzer in einer e-Mail-Nachricht senden, die die Konferenz-ID und Einwahlnummern enthält, indem Sie im Abschnitt **Audiokonferenzen** in e-Mail für den Benutzer auf **Konferenz Informationen senden** klicken. Die PIN wird nicht gesendet.
     
 - Eine Konferenz-ID enthält sieben Ziffern, und Sie können deren Länge nicht ändern.
     

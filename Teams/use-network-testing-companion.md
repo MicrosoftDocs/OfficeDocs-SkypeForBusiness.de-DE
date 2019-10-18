@@ -1,5 +1,5 @@
 ---
-title: Verwenden des Netzwerktest-Assistenten
+title: Verwenden des Netzwerktest-Begleiters
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,14 +17,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236632"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568603"
 ---
-<a name="use-the-network-testing-companion"></a>Verwenden des Netzwerktest-Assistenten
+<a name="use-the-network-testing-companion"></a>Verwenden des Netzwerktest-Begleiters
 =================================
 
 Der [Netzwerktest-Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) für Skype for Business und Microsoft Teams bietet Ihnen eine einfache Möglichkeit, ihre Netzwerkqualität und ihre Verbindung zu Skype for Business Online oder Microsoft Teams zu testen. Sie können die Ergebnisse ganz einfach interpretieren und für Netzwerkadministratoren freigeben, um Einblicke in potenzielle Netzwerkprobleme zu erhalten.
