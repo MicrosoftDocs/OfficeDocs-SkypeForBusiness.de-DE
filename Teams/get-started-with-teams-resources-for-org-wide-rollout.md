@@ -12,25 +12,18 @@ description: Erfahren Sie, wo Sie tiefgreifende Ressourcen zu Bereitstellung und
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3410dfc54521bea2ff7f29dfcc9046ea984a7cc6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eedd234c248e7c217d23a378989cc5e90f55d01d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241572"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570780"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams
 
 Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern. Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
-
-## <a name="let-us-know-what-you-think"></a>Teilen Sie uns Ihre Meinung mit
-
-:memo: Wären Sie so freundlich, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">diese Umfrage</a> auszufüllen (nimmt etwa eine Minute in Anspruch), um uns mitzuteilen, was Sie von diesem **Erste Schritte**-Abschnitt halten? Sie bleiben anonym.
-
-Sie können darüber hinaus Feedback zu einem bestimmten Artikel geben, indem Sie zum Abschnitt **Feedback** des betreffenden Artikels navigieren. 

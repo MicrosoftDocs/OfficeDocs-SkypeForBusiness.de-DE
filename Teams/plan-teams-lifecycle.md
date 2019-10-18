@@ -11,16 +11,15 @@ audience: admin
 description: Hier erfahren Sie, wie Sie die Implementierung von Funktionen für die Lebenszyklusverwaltung in Microsoft Teams planen.
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: bf965386ce471458ed47edb0083d2b6f18b4ba8a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435195"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573240"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
