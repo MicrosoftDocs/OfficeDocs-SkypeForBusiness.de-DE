@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,44 +20,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548924"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571780"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="43cc5-103">Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können</span><span class="sxs-lookup"><span data-stu-id="43cc5-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="2bd39-103">Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können</span><span class="sxs-lookup"><span data-stu-id="2bd39-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
 
-<span data-ttu-id="43cc5-104">Als Besprechungsorganisator können Sie mithilfe der Teams-App wählen, um andere Personen mit ihren Telefonen an derselben Besprechung teilhaben zu lassen.</span><span class="sxs-lookup"><span data-stu-id="43cc5-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
+<span data-ttu-id="2bd39-104">Als Besprechungsorganisator können Sie mithilfe der Teams-App wählen, um andere Personen mit ihren Telefonen an derselben Besprechung teilhaben zu lassen.</span><span class="sxs-lookup"><span data-stu-id="2bd39-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
 
-<span data-ttu-id="43cc5-105">Wenn Sie eine Person anrufen, empfehlen wir, dass Sie Ihre vollständigen Telefonnummern verwenden (einschließlich des Formats "Land/Region-Code-E. 164").</span><span class="sxs-lookup"><span data-stu-id="43cc5-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
+<span data-ttu-id="2bd39-105">Wenn Sie eine Person anrufen, empfehlen wir, dass Sie Ihre vollständigen Telefonnummern verwenden (einschließlich des Formats "Land/Region-Code-E. 164").</span><span class="sxs-lookup"><span data-stu-id="2bd39-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
   
-  <span data-ttu-id="43cc5-106">Bitte beachten Sie Folgendes:</span><span class="sxs-lookup"><span data-stu-id="43cc5-106">Please note that:</span></span>
+  <span data-ttu-id="2bd39-106">Bitte beachten Sie Folgendes:</span><span class="sxs-lookup"><span data-stu-id="2bd39-106">Please note that:</span></span>
 
-- <span data-ttu-id="43cc5-107">Sie können sich nur dann anrufen, wenn Sie mit Teams an einer Besprechung teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="43cc5-107">You can dial out only if you join a meeting using Teams.</span></span>
-- <span data-ttu-id="43cc5-108">Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="43cc5-108">You, as the meeting organizer, have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="2bd39-107">Sie können sich nur dann anrufen, wenn Sie mit Teams an einer Besprechung teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="2bd39-107">You can dial out only if you join a meeting using Teams.</span></span>
+- <span data-ttu-id="2bd39-108">Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="2bd39-108">You, as the meeting organizer, have been enabled for audio conferencing.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-<span data-ttu-id="43cc5-109">Gehen Sie wie folgt vor, um die Arbeit zu wählen:</span><span class="sxs-lookup"><span data-stu-id="43cc5-109">Here's how to get dial out to work:</span></span>
+<span data-ttu-id="2bd39-109">Gehen Sie wie folgt vor, um die Arbeit zu wählen:</span><span class="sxs-lookup"><span data-stu-id="2bd39-109">Here's how to get dial out to work:</span></span>
 
- <span data-ttu-id="43cc5-110">**Schritt 1:** Verwenden Sie in der Besprechung den Screenshot ![ **Personen hinzufügen** der Schaltfläche "](media/add-people-button.png) Personen hinzufügen", um eine Telefonnummer auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="43cc5-110">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
- <span data-ttu-id="43cc5-111">**Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich der Landes-und Regions Vorwahl in das Feld **jemanden einladen oder Nummer wählen ein** .</span><span class="sxs-lookup"><span data-stu-id="43cc5-111">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
+ <span data-ttu-id="2bd39-110">**Schritt 1:** Verwenden Sie in der Besprechung den Screenshot ![ **Personen hinzufügen** der Schaltfläche "](media/add-people-button.png) Personen hinzufügen", um eine Telefonnummer auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="2bd39-110">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
+ <span data-ttu-id="2bd39-111">**Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich der Landes-und Regions Vorwahl in das Feld **jemanden einladen oder Nummer wählen ein** .</span><span class="sxs-lookup"><span data-stu-id="2bd39-111">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
   
 ![Screenshot des Felds "jemanden einladen" oder "Nummer wählen"](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="43cc5-113">Unterstützte Länder und Regionen</span><span class="sxs-lookup"><span data-stu-id="43cc5-113">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="2bd39-113">Unterstützte Länder und Regionen</span><span class="sxs-lookup"><span data-stu-id="2bd39-113">Supported countries and regions</span></span>
 
-<span data-ttu-id="43cc5-114">Dial-out is only available to some countries/regions.</span><span class="sxs-lookup"><span data-stu-id="43cc5-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="43cc5-115">Eine vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="43cc5-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="2bd39-114">Dial-Out ist nur für einige Länder/Regionen verfügbar.</span><span class="sxs-lookup"><span data-stu-id="2bd39-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="2bd39-115">Eine vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="2bd39-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
 
-## <a name="allow-users-to-dial-in"></a><span data-ttu-id="43cc5-116">Zulassen, dass Benutzer sich einwählen</span><span class="sxs-lookup"><span data-stu-id="43cc5-116">Allow users to dial in</span></span>
+## <a name="allow-users-to-dial-in"></a><span data-ttu-id="2bd39-116">Zulassen, dass Benutzer sich einwählen</span><span class="sxs-lookup"><span data-stu-id="2bd39-116">Allow users to dial in</span></span>
 
-<span data-ttu-id="43cc5-117">Wenn Sie nach Anleitungen zum Einwählen Ihrer Benutzer in eine Teams-Besprechung suchen, lesen Sie [Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="43cc5-117">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
+<span data-ttu-id="2bd39-117">Wenn Sie nach Anleitungen zum Einwählen Ihrer Benutzer in eine Teams-Besprechung suchen, lesen Sie [Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="2bd39-117">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
 
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="43cc5-118">Möchten Sie mehr über Audiokonferenzen erfahren?</span><span class="sxs-lookup"><span data-stu-id="43cc5-118">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="2bd39-118">Möchten Sie mehr über Audiokonferenzen erfahren?</span><span class="sxs-lookup"><span data-stu-id="2bd39-118">Want to know more about audio conferencing?</span></span>
 
-[<span data-ttu-id="43cc5-119">Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365</span><span class="sxs-lookup"><span data-stu-id="43cc5-119">Try or purchase Audio Conferencing in Office 365</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[<span data-ttu-id="2bd39-119">Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365</span><span class="sxs-lookup"><span data-stu-id="2bd39-119">Try or purchase Audio Conferencing in Office 365</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[<span data-ttu-id="43cc5-120">Lizenzierung für Microsoft Teams-Add-On</span><span class="sxs-lookup"><span data-stu-id="43cc5-120">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[<span data-ttu-id="2bd39-120">Lizenzierung für Microsoft Teams-Add-On</span><span class="sxs-lookup"><span data-stu-id="2bd39-120">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
