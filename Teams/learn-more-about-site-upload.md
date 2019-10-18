@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen und Aktualisieren von Berichts Etiketten
+title: Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie eine Textdatei hochladen, die eine Liste von physischem Standort und zugehörigen Subnetzen enthält, die als Bericht Erstellungs Etiketten für anrufanalyse-und Anruf Qualitäts Dashboard-Berichte verwendet werden.
 ms.custom:
@@ -21,14 +20,14 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396432"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572036"
 ---
-<a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Berichts Etiketten
+<a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================
 
 Bericht Erstellungs Beschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Bericht Erstellungs Etiketten" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste von physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse und dem Anruf Qualitäts Dashboard zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.

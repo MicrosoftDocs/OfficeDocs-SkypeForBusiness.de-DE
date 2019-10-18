@@ -11,14 +11,15 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Microsoft Teams-Räumen in umfangreichen Bereitstellungen zu erhalten.
-ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428009"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573627"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 
@@ -105,7 +106,7 @@ Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features
 
 ### <a name="configure-a-boot-image"></a>Konfigurieren eines Startabbilds
 
-1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Start**Abbildern des **Software Bibliothek** \> - **Betriebssystems** \> .
+1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Startabbildern**des **Software Bibliothek** \> - **Betriebssystems** \> .
 
 2.  Wählen Sie **Startabbild (x64)** aus, und wählen Sie dann **Eigenschaften**aus.
 
@@ -388,7 +389,7 @@ Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, di
 
 ### <a name="create-the-sysprep-package"></a>Erstellen des Sysprep-Pakets
 
-1. Erstellen Sie im Ordner **SRS v2 – Sysprep-Paket** eine neue XML-Datei mit dem Namen Unattend **. XML** .
+1. Erstellen Sie im Ordner **SRS v2 – Sysprep-Paket** eine neue XML-Datei mit dem Namen **Unattend. XML** .
 
 2. Kopieren Sie den folgenden Text in die Datei **Unattend. XML** . Alternativ können Sie die Datei "Unattend. xml" [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
    ```
@@ -459,7 +460,7 @@ Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, di
 
 1.  Besorgen Sie sich ein Windows 10 Enterprise x64-Medium, und kopieren Sie die Datei " **install. wim** " in den **\\Windows 10 Enterprise** -Ordner der Betriebssysteme.
 
-2.  Wechseln Sie in der Configuration Manager-Konsole zu den Betriebs **System**Abbildern der **Software Bibliothek** \> **** \> , und wählen Sie dann **Betriebssystemabbild hinzufügen**aus.
+2.  Wechseln Sie in der Configuration Manager-Konsole zu **den Betriebs** \> **System**Abbildern der **Software Bibliothek** \> , und wählen Sie dann **Betriebssystemabbild hinzufügen**aus.
 
 3.  Geben Sie den Pfad zu der soeben kopierten **install. wim** -Datei an, und wählen Sie dann **weiter**aus.
 
@@ -486,7 +487,7 @@ Microsoft Teams Rooms wird sowohl für Surface pro als auch Surface pro 4 unters
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
-3.  Wechseln Sie in der Configuration Manager-Konsole zu den Treibern der **Software Bibliothek** \> - **Betriebssysteme** \> ****, und wählen Sie dann **Treiber importieren**aus.
+3.  Wechseln Sie in der Configuration Manager-Konsole zu den **Treibern**der **Software Bibliothek** \> - **Betriebssysteme** \> , und wählen Sie dann **Treiber importieren**aus.
 
 4.  Wählen Sie **alle Treiber importieren im folgenden Netzwerkpfad (UNC)** aus, wählen Sie den Quellordner aus (beispielsweise\\C\\:\\_Sources Driver Surface pro), und wählen Sie dann **weiter**aus.
 
@@ -502,7 +503,7 @@ Microsoft Teams Rooms wird sowohl für Surface pro als auch Surface pro 4 unters
 
 10. Wählen Sie **Schließen**aus.
 
-11. Wechseln Sie zu den Treibern der **Software Bibliothek** \> - **Betriebssysteme** \> ****, wählen Sie Ordner ** \> erstellen**aus, und geben Sie einen Ordnernamen ein, der dem Surface pro-Modell entspricht, für das Sie die Treiber gerade importiert haben.
+11. Wechseln Sie zu den **Treibern**der **Software Bibliothek** \> - **Betriebssysteme** \> , wählen Sie Ordner ** \> erstellen**aus, und geben Sie einen Ordnernamen ein, der dem Surface pro-Modell entspricht, für das Sie die Treiber gerade importiert haben.
 
 12. Verschieben Sie alle importierten Treiber in den neu erstellten Ordner, um die Navigation und den Vorgang zu vereinfachen.
 
@@ -557,7 +558,7 @@ Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrol
 
 3.  Verteilen von Betriebssystempaketen
 
-    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **** \> **Betriebssystem**Abbildern der **Software Bibliothek** \> . Wählen Sie alle Betriebssystem Bilder aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
+    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **** \> **Betriebssystemabbildern**der **Software Bibliothek** \> . Wählen Sie alle Betriebssystem Bilder aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
 
     2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann **weiter**aus.
 
@@ -570,7 +571,7 @@ Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrol
 > 
 > Alle Pakete müssen verteilt werden, bevor Sie mit der Bereitstellung einer Microsoft Teams rooms-Einheit beginnen können.
 > 
-> Sie können den Status Ihrer Paketverteilung in der Configuration Manager-Konsole überprüfen, indem **** \> Sie auf den **Inhaltsstatus**des **Verteilungsstatus** \> überwachen wechseln.
+> Sie können den Status Ihrer Paketverteilung in der Configuration Manager-Konsole überprüfen, indem Sie auf den **Inhaltsstatus**des **Verteilungsstatus** \> über **Wachen** \> wechseln.
 
 ## <a name="configuration-manager-task-sequences"></a>Tasksequenzen für Configuration Manager
 
@@ -625,17 +626,17 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
 
    9. **Installieren des Stammzertifikats**: mit diesem Schritt wird das Stammzertifikat für nicht-Domänen verbundene Geräte verteilt und ist daher standardmäßig optional und deaktiviert.
       -   Aktivieren Sie diesen Schritt, wenn Sie ein Stammzertifikat für die Microsoft Teams-Zimmereinheiten bereitstellen müssen.
-      -   Wenn Sie diesen Schritt ausführen müssen, stellen Sie sicher, dass das **SRS v2 – Stammzertifikat Paket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
+      -   Wenn Sie diesen Schritt ausführen müssen, stellen Sie sicher, dass das **SRS v2 – Stammzertifikat Paket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.
 
    10. **Installieren und Konfigurieren des Überwachungs-Agents**: mit diesem Schritt wird die 64-Bit-Version des Microsoft Azure Monitor-Agents installiert und der Agent so konfiguriert, dass eine Verbindung mit Ihrem Protokollanalyse Arbeitsbereich hergestellt wird.
        -   Dieser Schritt ist standardmäßig deaktiviert. Aktivieren Sie diesen Schritt nur, wenn Sie den Überwachungs-Agent verwenden möchten, um den Status Ihrer Microsoft Teams-Zimmereinheiten zu überwachen.
        -   Bearbeiten Sie diesen Schritt, und aktualisieren Sie die Befehlszeilenparameter, um die **Arbeitsbereichs-ID** und den **Arbeitsbereichs Schlüssel**anzugeben.
        -   Weitere Informationen zum Abrufen der Arbeitsbereichs-ID der Operations Management Suite und des Primärschlüssels finden Sie unter [Konfigurieren von Testgeräten für die Azure-Überwachung](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
-       -   Vergewissern Sie sich, dass das **SRS v2 – Microsoft Monitoring Agent-Paket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
+       -   Vergewissern Sie sich, dass das **SRS v2 – Microsoft Monitoring Agent-Paket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.
        -   Weitere Informationen zum Überwachen der Integrität Ihrer Microsoft Teams rooms-Bereitstellung finden Sie unter [Planen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-plan.md), [Bereitstellen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-deploy.md) und [Verwalten von Microsoft Teams Räume Geräte mit Azure Monitor](azure-monitor-manage.md).
 
    11. **Kopieren von SRS v2-Konfigurationsdateien**: dieser Schritt kopiert die erforderlichen Setup-und Konfigurationsdateien aus dem Microsoft Teams rooms Deployment Kit auf die lokale Festplatte. Für diesen Schritt sind keine Anpassungen erforderlich.
-       -   Vergewissern Sie sich, dass das **SRS v2-SRS-Anwendungspaket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
+       -   Vergewissern Sie sich, dass das **SRS v2-SRS-Anwendungspaket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.
 
    12. **Installieren-SRSv2-OS-Updates**: in diesem Schritt werden alle obligatorischen Betriebssystemupdates bereitgestellt, die für die Microsoft Teams rooms-Bereitstellung erforderlich sind. Gehen Sie wie folgt vor:
        -   Aktivieren Sie das Kontrollkästchen [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md) , um festzustellen, welche Updates erforderlich sind.
@@ -669,11 +670,11 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
 
 4. Wählen Sie **weiter**aus.
 
-5. Wählen Sie in der **** Dropdownliste Purpose **available (verfügbar** ) aus.
+5. Wählen Sie in der Dropdownliste **Purpose** **available (verfügbar** ) aus.
 
 6. Wählen Sie **nur Medien und PXE** in der Liste in der **folgenden Liste verfügbar machen** aus, und wählen Sie dann **weiter**aus.
    > [!WARNING]
-   > Es ist sehr wichtig, **** dass Purpose auf **available**festgesetzt ist. Stellen Sie sicher, dass der **Zweck** **nicht** auf **erforderlich**festgesetzt ist. Stellen Sie außerdem sicher, dass Sie **nur Medien und PXE** in der **folgenden verfügbar machen**auswählen.
+   > Es ist sehr wichtig, dass **Purpose** auf **available**festgesetzt ist. Stellen Sie sicher, dass der **Zweck** **nicht** auf **erforderlich**festgesetzt ist. Stellen Sie außerdem sicher, dass Sie **nur Medien und PXE** in der **folgenden verfügbar machen**auswählen.
    >
    > Wenn diese Werte auf etwas anderes festgelegt werden, kann dies dazu führen, dass alle Computer beim Booten das Bereitstellungs Bild von Microsoft Teams rooms erhalten.
 7. Geben Sie keinen Zeitplan an, und wählen Sie **weiter**aus.
@@ -682,7 +683,7 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
 
 9. Ändern Sie im Abschnitt **Benachrichtigungen** nichts, und wählen Sie **weiter**aus.
 
-10. Ändern Sie im Abschnitt Verteilungs **Punkte** nichts, und wählen Sie **weiter**aus.
+10. Ändern Sie im Abschnitt **Verteilungspunkte** nichts, und wählen Sie **weiter**aus.
 
 11. Bestätigen Sie die Einstellungen, und wählen Sie dann **weiter**aus.
 
@@ -730,7 +731,7 @@ Nachdem Sie die Tasksequenzen des System Center Configuration Manager abgeschlos
 
 10.  Schließen Sie das Surface pro an die Microsoft Teams rooms-Konsole an, und konfigurieren Sie die Anwendungseinstellungen.
 
-11.  Überprüfen Sie, ob die in [Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -Chatrooms aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren.
+11.  Überprüfen Sie, ob die in [Microsoft Teams-Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren.
 
 
 Wenn Sie eine fehlerhafte Installation beheben möchten, überprüfen Sie die Datei **"smsts. log** , in der alle in einer Configuration Manager-Tasksequenz ausgeführten Schritte protokolliert werden.

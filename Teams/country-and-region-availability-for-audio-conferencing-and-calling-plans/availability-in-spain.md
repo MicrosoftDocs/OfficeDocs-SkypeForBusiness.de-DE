@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Spanien verfügbar sind.
-ms.openlocfilehash: abf408c7a62770ef8e33c3906ccc637dc36e78f4
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 342f5ca5bd42e0e4b78c8b52f16b329358366643
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331204"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572355"
 ---
 # <a name="availability-in-spain"></a>Verfügbarkeit in Spanien
 

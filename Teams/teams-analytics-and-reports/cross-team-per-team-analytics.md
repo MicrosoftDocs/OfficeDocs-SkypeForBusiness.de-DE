@@ -1,5 +1,5 @@
 ---
-title: Anzeigen von teamübergreifenden und pro-Team-Analysen in Teams
+title: Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,19 +10,18 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Erfahren Sie mehr über teamübergreifende Analysen und Analyseteams in Teams, in denen Benutzer Nutzungsdaten für Teams anzeigen können, denen Sie angehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978771"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569703"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Anzeigen von teamübergreifenden und pro-Team-Analysen in Teams
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams
 
 In Microsoft Teams können Benutzer Analysen für Teams anzeigen, deren Mitglieder oder Besitzer Sie sind. Diese Informationen geben Benutzern Einblicke in Nutzungsmuster und Aktivitäten in ihren Teams. Sie können Daten wie die Anzahl der aktiven Benutzer, Gäste und Nachrichten in jedem Team anzeigen.
 

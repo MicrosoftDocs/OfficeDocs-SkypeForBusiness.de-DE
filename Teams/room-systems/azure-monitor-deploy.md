@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 12936113a951f90bb1a3bed72f71d09f1f72ccd9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774684"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569940"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
 
@@ -29,7 +28,7 @@ Sie können die Protokollanalyse in Azure Monitor konfigurieren, um grundlegende
 
 Wenn Sie diesem Leitfaden folgen, können Sie ein Dashboard wie im folgenden Beispiel verwenden, um detaillierte Statusberichte für die Geräteverfügbarkeit, die Anwendungs-und Hardware Integrität sowie die Microsoft Teams rooms-Anwendung und die Versions Verteilung des Betriebssystems zu erhalten.
 
-Screenshot ![der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms] (../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams-Chatrooms")
+![Screenshot der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms](../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams-Chatrooms")
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
@@ -64,7 +63,7 @@ Sie müssen Protokollanalyse konfigurieren, um die Protokolle zu sammeln, die zu
 
 Informationen zum Konfigurieren von Protokollanalysen zum Sammeln der Microsoft Teams rooms-Ereignisse finden Sie unter [Windows-Ereignisprotokoll-Datenquellen in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events) .
 
-Screenshot ![der Ereignisprotokolleinstellungen] (../media/Deploy-Azure-Monitor-2.png "Ereignisprotokolleinstellungen")
+![Screenshot der Ereignisprotokolleinstellungen](../media/Deploy-Azure-Monitor-2.png "Ereignisprotokolleinstellungen")
 
 > [!IMPORTANT]
 > Konfigurieren Sie die Windows-Ereignisprotokolleinstellungen, und geben Sie **Skype Room System** als Ereignisprotokollnamen ein, und aktivieren Sie dann die Kontrollkästchen **Fehler**, **Warnung**und **Informationen** .
@@ -122,7 +121,7 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Felder aus d
 3. Wählen Sie einen der Datensätze aus, wählen Sie die Schaltfläche links aus, und starten Sie den Feld Extraktions-Assistenten.
 4. Markieren Sie die Daten, die Sie aus dem RenderedDescription extrahieren möchten, und geben Sie einen Feld Titel ein. Die Feldnamen, die Sie verwenden sollten, werden in Tabelle 1 bereitgestellt.
 
-   ![Benutzerdefinierte Felddefinition] (../media/Deploy-Azure-Monitor-4.png "Benutzerdefinierte Felddefinition")
+   ![Benutzerdefinierte Felddefinition](../media/Deploy-Azure-Monitor-4.png "Benutzerdefinierte Felddefinition")
 
 5. Verwenden Sie die in *Tabelle 1*gezeigten Zuordnungen. Log Analytics fügt die ** \_CF** -Zeichenfolge beim Definieren des neuen Felds automatisch an.
 
@@ -131,7 +130,7 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Felder aus d
 > 
 > Achten Sie auf die Abfragen, die für jedes benutzerdefinierte Feld in der folgenden Tabelle erforderlich sind. Sie müssen die richtigen Abfragen für die Protokollanalyse verwenden, um benutzerdefinierte Feldwerte erfolgreich zu extrahieren.
 > 
- ![Benutzerdefinierte Felddefinition] (../media/Deploy-Azure-Monitor-5.png "Benutzerdefinierte Felddefinition")
+ ![Benutzerdefinierte Felddefinition](../media/Deploy-Azure-Monitor-5.png "Benutzerdefinierte Felddefinition")
 
 **Tabelle 1**
 
@@ -412,7 +411,7 @@ Sie haben nun die Definition von Benachrichtigungen abgeschlossen. Mithilfe der 
 
 Wenn eine Benachrichtigung generiert wird, erhalten Sie eine e-Mail mit einer Liste der Geräte, die innerhalb der letzten Stunde auf ein Problem gestoßen sind.
 
-![Beispiel für eine Azure Monitor-Warnungs-e-Mail] (../media/Deploy-Azure-Monitor-6.png "Beispiel für eine Azure Monitor-Warnungs-e-Mail")
+![Beispiel für eine Azure Monitor-Warnungs-e-Mail](../media/Deploy-Azure-Monitor-6.png "Beispiel für eine Azure Monitor-Warnungs-e-Mail")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>Konfigurieren aller Geräte für die Azure-Überwachung
 <a name="configure_all_devices"></a> Nachdem die Dashboards und Benachrichtigungen konfiguriert sind, können Sie den Microsoft-Überwachungs-Agent auf allen Microsoft Teams rooms-Geräten einrichten und konfigurieren, um die Überwachungs Bereitstellung abzuschließen.

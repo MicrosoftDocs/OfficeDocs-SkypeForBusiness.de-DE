@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+description: 'Hier erfahren Sie, wie Sie Abrechnungs Lizenzen für Kommunikations Kredite (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
+ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861841"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571582"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -41,11 +40,11 @@ Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Min
   
 Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für Telefonsysteme zuweisen**.
   
-- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Nähers hierzu erfahren Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
     
     Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schritt-für-Schritt-Anleitungen finden Sie unter [Testen oder kaufen von Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Weisen Sie Ihren Benutzern eine **Telefonanlage** und eine Lizenz für Inlands-, Inlands-und Auslandsgespräche zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+- Weisen Sie Ihren Benutzern eine **Telefonanlage** und eine Lizenz für Inlands-, Inlands-und Auslandsgespräche zu. Nähers hierzu erfahren Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
     
     > [!NOTE]
     > Obwohl es für Kommunikationsguthaben nicht erforderlich ist, müssen Sie auch einen **Plan für Inlandsanrufe** oder eine Lizenz für **Inlands-und Auslandsanrufe** zuweisen.
@@ -83,7 +82,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](tea
     >[!IMPORTANT]
     >Wenn Sie ein Kunde mit Volumenlizenz sind, können Sie die Nummer Ihres Enterprise-Vertrages für die Zahlung auswählen. Wenn Sie mehrere Enterprise-Vertragsnummern haben, können Sie den Enterprise-Vertrag auswählen, den Sie für die Zahlung verwenden möchten. Sie haben auch die Möglichkeit, eine Bestellnummer anzugeben, die Sie mit der Enterprise-Vertragsnummer verknüpfen können (falls zutreffend).
     
-Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
+Jede Organisation verfügt über eine unterschiedliche Verwendung des Anrufplan-Volumes und-Gebühren, die berücksichtigt werden sollen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die bereits Skype for Business Online als Ihren Dienstanbieter verwenden, können Nutzungsdaten abrufen, indem Sie im **Skype for Business Admin Center** > **Berichte** > **über PSTN-Nutzungsdetails** melden.
   
 Wenn Sie Kommunikationsguthaben einrichten, müssen Sie die Anruf Nutzung für Ihre Organisation untersuchen, um die benötigten Beträge zu ermitteln. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. In diesem Bericht können Sie die anrufdatensätze nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen müssen. Wenn Sie wissen möchten, wie die Verwendung angezeigt wird, lesen Sie [Skype for Business-PSTN-Nutzungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
@@ -91,7 +90,7 @@ Wenn Sie Kommunikationsguthaben einrichten, müssen Sie die Anruf Nutzung für I
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **** > den**aktiven**Benutzern des Benutzers, und wählen Sie dann einen Benutzer oder Benutzer aus der Liste aus.
+2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 admin **Center zu** > den**aktiven**Benutzern des Benutzers, und wählen Sie dann einen Benutzer oder Benutzer aus der Liste aus.
     
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
     

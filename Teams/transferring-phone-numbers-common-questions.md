@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Im folgenden finden Sie häufig gestellte Fragen zum Übertragen von Telefonnummern an Teams. Nachdem Sie die Antworten überprüft haben, sollten Sie bereit sein, eine Portierungs Reihenfolge zu erstellen und ihre Telefonnummern zu übertragen. Anweisungen hierzu finden Sie unter Übertragen von Telefonnummern zu Office 365.
-ms.openlocfilehash: 4e4a908594f9efdd80094af58dfdde6bc1e58e90
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: a75112170454def65ebcfe333d5e05e2b0dbfa46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347770"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571502"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefonnummern – häufig gestellte Fragen
 
@@ -165,7 +164,7 @@ Hier sind die häufigsten Fehler, die Kunden beim Portieren von Nummern feststel
 ## <a name="can-you-transfer-or-port-out-numbers"></a>Können Sie Nummern übertragen oder portieren?
 <a name="bkmk_type_1"> </a>
 
-Um Telefonnummern ** von Teams an einen anderen Telefondienstanbieter oder Netzbetreiber zu übertragen oder zu portieren, müssen Sie eine PIN einstellen. Nachdem Sie die PIN festgestellt haben, müssen Sie diese angeben, wenn Sie eine Telefonnummer portieren möchten. Informationen dazu, wie Sie Ihre PIN einrichten können, finden Sie unter [Einrichten der PIN für die Übertragung von Nummern an einen neuen Dienstanbieter](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+Um Telefonnummern von Teams an einen anderen Telefondienstanbieter oder Netzbetreiber zu übertragen oder zu *portieren* , müssen Sie eine PIN einstellen. Nachdem Sie die PIN festgestellt haben, müssen Sie diese angeben, wenn Sie eine Telefonnummer portieren möchten. Informationen dazu, wie Sie Ihre PIN einrichten können, finden Sie unter [Einrichten der PIN für die Übertragung von Nummern an einen neuen Dienstanbieter](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -9,8 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können den Typ von Audiokonferenz-und Endbenutzer-PSTN-anrufen steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: eb54a1c3cefb934c3523d915ab83b9e47b337d8b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34379246"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573331"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -52,15 +51,15 @@ Steuerelemente für ausgehende Anrufe können auf Benutzerebene angewendet werde
 
 2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 
-3. Klicken Sie **** neben Audiokonferenzen auf **Bearbeiten**.
+3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.
 
-4. Wählen Sie unter " **Wähl Berechtigung**für Besprechungen" die gewünschte Option für die Wahl Beschränkung aus.
+4. Wählen Sie unter " **Wähl Berechtigung für Besprechungen**" die gewünschte Option für die Wahl Beschränkung aus.
 
 5. Klicken Sie auf **Speichern**. 
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1.  Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu Audiokonferenz **** > -**Benutzer**, und wählen Sie den Benutzer in der Liste der verfügbaren Benutzer aus.
+1.  Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu **Audiokonferenz** > -**Benutzer**, und wählen Sie den Benutzer in der Liste der verfügbaren Benutzer aus.
 
 2.  Klicken Sie im Bereich „Aktion" auf **Bearbeiten**.
 

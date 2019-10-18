@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434950"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570336"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 

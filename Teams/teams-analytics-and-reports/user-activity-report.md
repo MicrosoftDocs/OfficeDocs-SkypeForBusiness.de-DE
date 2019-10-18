@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht "Benutzeraktivitäten für Teams" verwenden, um zu sehen, wie Benutzer in Ihrer Organisation Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439561"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571378"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
@@ -31,7 +30,7 @@ Der Bericht "Teams-Benutzeraktivität" gibt Ihnen einen Einblick in die Arten vo
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Benutzeraktivität**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-    ![Screenshot des Berichts "Teams-Benutzeraktivität" im Team Admin Center mit]den(../media/teams-reports-user-activity-with-callouts.png "Screenshots des Teams-Benutzer Aktivitätsberichts im Team-Admin Center mit Legenden")
+    ![Screenshot des Teams-Benutzer Aktivitätsberichts im Team Admin Center mit Beschriftungen](../media/teams-reports-user-activity-with-callouts.png "Screenshot des Teams-Benutzer Aktivitätsberichts im Team Admin Center mit Beschriftungen")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Die Darstellung der freigegebenen Zeile ermöglicht es einem Benutzer, eine Stellvertretung zu wählen, um Anrufe in deren Auftrag zu beantworten oder zu behandeln.
-ms.openlocfilehash: 67708c05105b83cca80702292a1766a2224681bc
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483701"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571758"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
 Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit dem Benutzer eine Stellvertretung auswählen können, um Anrufe in Ihrem Auftrag zu beantworten oder zu behandeln. Dieses Feature ist hilfreich, wenn ein Benutzer über einen administrativen Assistenten verfügt, der regelmäßig die Anrufe des Benutzers abwickelt. Im Zusammenhang mit der Darstellung der freigegebenen Zeile ist ein Manager jemand, der eine Stellvertretung autorisiert, in seinem Namen Anrufe zu tätigen oder zu empfangen, und eine Stellvertretung kann Anrufe im Namen einer anderen Person tätigen und empfangen.
 
 > [!IMPORTANT]
-> Dieses Feature steht nur im Bereitstellungsmodus für Teams zur Verfügung. Weitere Informationen zu den Bereitstellungsmodi für Teams finden Sie Untergrund Legendes zu [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) .
+> Dieses Feature steht nur im Bereitstellungsmodus für Teams zur Verfügung. Weitere Informationen zu den Bereitstellungsmodi für Teams finden Sie Untergrund [Legendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) .
 
 ## <a name="license-required"></a>Lizenz erforderlich
 

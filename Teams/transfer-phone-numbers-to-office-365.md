@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Informieren Sie sich, was Sie wissen müssen, bevor Sie Telefonnummern an Teams portieren, und erfahren Sie, wie Sie eine Portierungs Reihenfolge erstellen, um Sie zu übertragen.
-ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: a876309f8404002a76f13913d64926132b315d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464568"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571513"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
@@ -45,7 +44,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
   > [!NOTE]
   > Wenn Sie über Servicenummern für Einwahlkonferenzen, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder mehr als 999-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um das richtige Land oder die richtige Region auszuwählen und die richtigen Formulare herunterzuladen und an uns zu senden.
  
-![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
 
@@ -95,7 +94,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
 
 Nachdem der Portierungsauftrag übermittelt und erhalten wurde, wird eine E-Mail zur Verifizierung Ihres Portierungsauftrags an Sie gesendet. 
   
-Your port order request will be checked and updated daily and you will be notified of its progress and status in email. If your request is rejected, you will be asked to open a support ticket and in that support ticket we ask that you provide **Port Order ID**. The port order ID can be found in the Skype for Business admin center under **Voice** > **Port orders** > **Order ID** column.
+Ihre Portierungs Anfrage wird täglich überprüft und aktualisiert, und Sie werden per e-Mail über den Fortschritt und Status benachrichtigt. Wenn Ihre Anfrage abgelehnt wird, werden Sie aufgefordert, ein Support-Ticket zu öffnen, und in diesem Support-Ticket bitten wir Sie, die **Portierungs Auftrags-ID**anzugeben. Die Port Auftrags-ID finden Sie im Skype for Business Admin Center unter der Spalte "**Auftrags-ID** " der **VoIP** > -**Port Bestellungen** > .
   
 ## <a name="what-if-i-have-problems"></a>Was ist, wenn Probleme auftreten?
 <a name="bk_LNPcountries_1"> </a>

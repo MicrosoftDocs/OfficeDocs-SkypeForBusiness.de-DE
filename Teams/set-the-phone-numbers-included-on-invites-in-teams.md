@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Führen Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer aus, um an einer Microsoft Teams-Besprechung teilzunehmen. '
-ms.openlocfilehash: 92f5d2d0773444e3e167ed4c4e944ecd0eeb95a1
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: edaed53ddd25dee875753b76bb612888ebb45cef
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344300"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571282"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -59,7 +59,7 @@ Sobald der Benutzer für den Audiokonferenzdienst aktiviert ist, können die sta
 
     ![Klicken Sie im Microsoft Teams Admin Center auf Bearbeiten.](media/teams-set-phone-numbers-on-invites-image2.png)
 
-3. Klicken Sie **** neben Audiokonferenzen auf **Bearbeiten**. 
+3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
     
     ![Klicken Sie neben Audiokonferenzen auf Bearbeiten.](media/teams-set-phone-numbers-on-invites-image3.png)
 

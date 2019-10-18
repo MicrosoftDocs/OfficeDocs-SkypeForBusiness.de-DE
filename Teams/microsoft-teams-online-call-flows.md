@@ -11,18 +11,16 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Beschreibt, wie Teams Office 365-Flows in verschiedenen Topologien verwenden.
-ms.openlocfilehash: d98f789017c0f5388a0adebd382d947e716d7fc9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 91be46f556419dfd1ba8c52a99b8f06a19c63542
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239353"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573412"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams-Anrufflüsse
 
@@ -85,7 +83,7 @@ Die Konnektivität von Teams Media Flows wird über Standardverfahren für IETF 
 
 >**Hinweis**: Obwohl der Titel lync ist, gilt er auch für Teams.
 
-**Paket**-Shaper: jede Art von Paket-Schnapper, Packet-Inspection oder Packet Shaper-Geräten wird nicht empfohlen, und die Qualität kann erheblich beeinträchtigt werden. 
+**Paket-shaper**: jede Art von Paket-Schnapper, Packet-Inspection oder Packet Shaper-Geräten wird nicht empfohlen, und die Qualität kann erheblich beeinträchtigt werden. 
 
 ### <a name="principles"></a>Prinzipien
 Es gibt vier allgemeine Grundsätze, die Ihnen helfen, die Anruf Flüsse für Microsoft Teams zu verstehen:

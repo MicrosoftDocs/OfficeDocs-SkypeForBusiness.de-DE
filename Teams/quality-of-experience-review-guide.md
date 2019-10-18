@@ -12,16 +12,15 @@ description: Leitfaden zur Analyse der Echt Zeit Medien Leistung für Microsoft 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243731"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568378"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -33,7 +32,7 @@ In diesem Leitfaden geht es um die Antriebs Wert Phase für Microsoft Teams und 
 Um die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit zu haben, müssen Unternehmen die wichtigsten Bereiche, die in der folgenden Abbildung gezeigt werden, operativisieren. Zu den weiteren Bereichen zählen das Identifizieren von operativen Aufgaben, das Festlegen von Zielen für Qualitäts Metriken, das Ermitteln der Metriken zum Messen des organisatorischen Erfolgs sowie das Einschränken von Ermittlungs Bereichen nach Bedarf.
 
 
-![Wichtige Bereiche für die Qualität der Benutzerfreundlichkeit] (media/qerguide-image-keyareas.png "Die wichtigsten Bereiche für die Qualität der Benutzererfahrung sind Audio, Zuverlässigkeit, Benutzer Umfragen, Geräte und Clients.")
+![Wichtige Bereiche für die Qualität der Benutzerfreundlichkeit](media/qerguide-image-keyareas.png "Die wichtigsten Bereiche für die Qualität der Benutzererfahrung sind Audio, Zuverlässigkeit, Benutzer Umfragen, Geräte und Clients.")
 
 _Abbildung 1: wichtige operative Bereiche, die in diesem Leitfaden behandelt werden_
 
@@ -82,7 +81,7 @@ Alternativ können Sie einem Office 365-Benutzerkonto die folgende Rolle zuweise
 Bei der Besprechung von Qualität in Teams und Skype for Business ist es wichtig, den Begriff zu definieren, um ein gemeinsames Verständnis zu erreichen. Qualität, wie hier definiert, ist eine Kombination aus Dienst Metriken und Benutzerfreundlichkeit.
 
 <!-- Note: need to update graphic-->
-![Abbildung von Dienst Metriken und der Benutzeroberfläche] (media/qerguide-image-whatisquality.png "Dienst Metriken bestehen aus unzureichendem Datenstrom Verhältnis, Zuverlässigkeit, Endpunkten/Geräten und Clientversionen. Die Benutzererfahrung besteht aus der Einschätzung des Benutzers zur Qualität des Diensts.")
+![Abbildung von Dienst Metriken und der Benutzeroberfläche](media/qerguide-image-whatisquality.png "Service-Metriken bestehen aus einem schlechten Datenstrom Verhältnis, Zuverlässigkeit, Endpunkten/Geräten und Clientversionen. Die Benutzererfahrung basiert auf der Einschätzung des Benutzers über die Qualität des Diensts. ")
 
 _Abbildung 2: Was ist Qualität?_
 
@@ -99,7 +98,7 @@ Dienst Metriken bestehen aus bestimmten clientbasierten Metriken. Bei jedem Anru
 
 Die schlechte Datenstrom Rate (PSR) steht für den Gesamtanteil der Organisation an Datenströmen, die eine schlechte Qualität aufweisen. Diese Metrik dient zum Hervorheben von Bereichen, in denen Ihre Organisation die Anstrengungen konzentrieren kann, um die stärksten Auswirkungen auf die Verringerung dieses Werts und die Verbesserung der Benutzerfreundlichkeit zu haben, weshalb [verwaltete Netzwerke](#managed-vs-unmanaged-networks) beim Betrachten von PSR den primären Schwerpunkt darstellen. Externe Benutzer sind ebenfalls wichtig, die Untersuchung ist jedoch auf organisatorischer Grundlage unterschiedlich. Sie sollten bewährte Methoden für externe Benutzer bereitstellen und externe Anrufe unabhängig von der gesamten Organisation untersuchen.
 
-Die tatsächliche Messung in CQD variiert je nach Arbeitsauslastung, aber für die Zwecke der Überprüfung der Qualitätserfahrung konzentrieren wir uns in erster Linie auf die _schlechte_ Messung des Audiosignals. PSR besteht aus den fünf in der folgenden Tabelle beschriebenen Netzwerk metrischen Mittelwerten. Damit ein Stream als "schlecht" klassifiziert werden kann, muss nur eine Metrik den definierten Schwellenwert überschreiten. Weitere Informationen zum Stream-Klassifizierungsprozess finden Sie in [diesem Artikel](stream-classification-in-call-quality-dashboard.md).
+Die tatsächliche Messung in CQD variiert je nach Arbeitsauslastung, aber für die Zwecke der Überprüfung der Qualitätserfahrung konzentrieren wir uns in erster Linie auf die schlechte Messung des _Audiosignals_ . PSR besteht aus den fünf in der folgenden Tabelle beschriebenen Netzwerk metrischen Mittelwerten. Damit ein Stream als "schlecht" klassifiziert werden kann, muss nur eine Metrik den definierten Schwellenwert überschreiten. Weitere Informationen zum Stream-Klassifizierungsprozess finden Sie in [diesem Artikel](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD bietet das "schlechte wegen..." Messungen, um besser zu verstehen, welche Bedingung dazu führte, dass der Datenstrom als "schlecht" klassifiziert wurde.
@@ -215,7 +214,7 @@ Der Erfolg von Operationalisierung eine qualitativ hochwertige und zuverlässige
 
     -   Zweitens sind Aufgaben, die Ihre Organisation verwalten muss, um einen zuverlässigen Zugriff auf den Dienst zu gewährleisten, beispielsweise das Aktualisieren von Gebäudeinformationen und das Verwalten von Firewalls für neue Office 365-IP-Adressen, wenn dem Dienstinfrastruktur hinzugefügt wird.
 
-![Diagramm der Kategorien von Qualität in einer Organisation] (media/qerguide-image-categories.png "Die Kategorien der Qualität in einer Organisation: Dienstverwaltung, Endpunkte und das Netzwerk.")
+![Diagramm der Kategorien von Qualität in einer Organisation](media/qerguide-image-categories.png "Die Kategorien der Qualität in einer Organisation: Dienstverwaltung, Endpunkte und das Netzwerk.")
 
 _Abbildung 3: kritische Kategorien für Teams und die Bereitstellung von Skype for Business Online_
 
@@ -224,7 +223,7 @@ Die folgende Grafik beschreibt die Aufgaben, die Sie für jede Kategorie ausfüh
 Wenn Sie diese Aufgaben zum ersten Mal ausführen, benötigen Sie mehr Aufwand als nachfolgende Iterationen, da für viele dieser Kategorien die Überprüfung ihrer Bereitstellungskonfigurationen erforderlich ist. Nachdem Sie den gewünschten Zustand erreicht haben, indem Sie die von Ihnen festgelegten Ziele erfüllen, können Sie diesen Status durch Ausführen dieser Aufgaben beibehalten.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Liste der wöchentlichen Aufgaben pro Qualitätskategorie] (media/qerguide-image-tasks.png "Liste der wöchentlichen Aufgaben pro Qualitätskategorie")
+![Liste der wöchentlichen Aufgaben pro Qualitätskategorie](media/qerguide-image-tasks.png "List der wöchentlichen Aufgaben pro Qualitätskategorie ")
 
 #### <a name="service-management-tasks"></a>Dienstverwaltungsaufgaben
 
@@ -475,13 +474,13 @@ Sie können auf CQD auf eine von drei Arten zugreifen:
 
 -   Wechseln Sie zum **Microsoft Teams Admin Center** , und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung dargestellt.
 
-Screenshot ![des Dashboards "Anrufqualität" ausgewählt.] (media/qerguide-image-mopo.png "Im linken Navigationsbereich ist das Dashboard \"Link zur Anrufqualität\" ausgewählt.")
+![Screenshot des Dashboards "Anrufqualität" ausgewählt.](media/qerguide-image-mopo.png "Im linken Navigationsbereich ist das Dashboard "Link zur Anrufqualität" ausgewählt.")
 
 _Abbildung 7: Zugreifen auf CQD über das Microsoft Teams Admin Center_
 
 -   Wechseln Sie zu den Legacy**Tools** **für Skype for Business Admin Center** > , und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung dargestellt.
 
-![Screenshot der im Hauptbereich ausgewählten CQD] (media/qerguide-image-legacyui.png "Im linken Navigationsbereich ist \"Tools\" ausgewählt, und im Hauptbereich ist der Link zu CQD ausgewählt.")
+![Screenshot der im Hauptbereich ausgewählten CQD](media/qerguide-image-legacyui.png "Im linken Navigationsbereich ist "Tools" ausgewählt, und im Hauptbereich ist der Link zu CQD ausgewählt.")
 
 _Abbildung 8: Zugreifen auf CQD über das Skype for Business Admin Center_
 
@@ -500,14 +499,14 @@ Die Seite detaillierte Berichte in CQD sieht wie in der folgenden Abbildung aus.
 
 |             |           |
 | ------------|-----------|
-| ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout1.png "ein") | Der Bereich "Zusammenfassung" zeigt den Kontext für den auf der rechten Seite angezeigten Berichtssatz an. |
-| ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout2.png "zwei") | Sie können im Zusammenfassungsbereich **Bearbeiten** auswählen, um die Eigenschaften auf Berichtsebene (einschließlich der Höhe der y-Achse) zu definieren und neue Vorlagen zu importieren. |
-| ![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout3.png "drei") | Mithilfe der Breadcrumb-Struktur können Benutzer Ihre aktuelle Position in der Berichtssatz Hierarchie ermitteln. |
-| ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout4.png "vier") | Berichte mit untergeordneten Berichten werden mit einem blauen Link angezeigt. Wenn Sie den Link auswählen, können Sie einen Drilldown zu den untergeordneten Berichten durchführen. |
+| ![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout1.png "eine") | Der Bereich "Zusammenfassung" zeigt den Kontext für den auf der rechten Seite angezeigten Berichtssatz an. |
+| ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout2.png "zwei") | Sie können im Zusammenfassungsbereich **Bearbeiten** auswählen, um die Eigenschaften auf Berichtsebene (einschließlich der Höhe der y-Achse) zu definieren und neue Vorlagen zu importieren. |
+| ![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout3.png "drei") | Mithilfe der Breadcrumb-Struktur können Benutzer Ihre aktuelle Position in der Berichtssatz Hierarchie ermitteln. |
+| ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout4.png "vier") | Berichte mit untergeordneten Berichten werden mit einem blauen Link angezeigt. Wenn Sie den Link auswählen, können Sie einen Drilldown zu den untergeordneten Berichten durchführen. |
 
 _Abbildung 10 – Seite "detaillierte Berichte"_
 
-Zeigen Sie auf Balkendiagramme und Trendlinien im Bericht, um detaillierte Werte anzuzeigen. In dem Bericht, der den Fokus hat, wird das Menü Aktion angezeigt: **Bearbeiten**, Klonen, **Löschen**, **herunterladen**und **Exportieren der Berichtsstruktur**. ****
+Zeigen Sie auf Balkendiagramme und Trendlinien im Bericht, um detaillierte Werte anzuzeigen. In dem Bericht, der den Fokus hat, wird das Menü Aktion angezeigt: **Bearbeiten**, **Klonen**, **Löschen**, **herunterladen**und **Exportieren der Berichtsstruktur**.
 
 ### <a name="editing-reports"></a>Bearbeiten von Berichten
 
@@ -517,10 +516,10 @@ Wenn Sie im Aktionsmenü eines Berichts **Bearbeiten** auswählen, öffnen Sie d
 
 |             |           |
 | ------------|-----------|
-| ![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout1.png "ein") | Im linken Bereich Wählen Sie Bemaßungen, Measures und Filter aus. Wenn Sie auf einen vorhandenen Wert zeigen, wird die Schaltfläche Schließen (**X**) angezeigt, die Sie auswählen können, um den Wert zu entfernen.<ul><li>Wenn Sie die Bemaßung oder das Measure auswählen, können Sie den Titel ändern, indem Sie das Feld " **Titel** " bearbeiten. Sie können die Reihenfolge auch ändern, indem Sie im oberen Bereich den blauen aufwärts-oder Abwärtspfeil auswählen.</li><li>Wenn Sie**+**() neben einer Überschrift auswählen, wird das Dialogfeld zum Hinzufügen einer neuen Bemaßung, eines Measures oder eines Filters geöffnet.</li><li>Geben Sie die ersten Buchstaben der Bemaßung, des Measures oder des Filters in das Feld **suchen ein** , um die Liste zu filtern, um die Suche zu vereinfachen.</li></ul> |
-| ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout2.png "zwei") | Der obere Bereich zeigt Optionen für die Anpassung des Diagramms an. |
-| ![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout3.png "drei") | Der Abfrage-Editor zeigt eine Vorschau des Berichts an. |
-| ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist] (media/qerguide-image-callout4.png "vier") | Verwenden Sie das **Bearbeitungs** Feld unten auf dem Bildschirm, um eine detaillierte Beschreibung des Berichts zu erstellen oder zu bearbeiten. |
+| ![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout1.png "eine") | Im linken Bereich Wählen Sie Bemaßungen, Measures und Filter aus. Wenn Sie auf einen vorhandenen Wert zeigen, wird die Schaltfläche Schließen (**X**) angezeigt, die Sie auswählen können, um den Wert zu entfernen.<ul><li>Wenn Sie die Bemaßung oder das Measure auswählen, können Sie den Titel ändern, indem Sie das Feld " **Titel** " bearbeiten. Sie können die Reihenfolge auch ändern, indem Sie im oberen Bereich den blauen aufwärts-oder Abwärtspfeil auswählen.</li><li>Wenn Sie**+**() neben einer Überschrift auswählen, wird das Dialogfeld zum Hinzufügen einer neuen Bemaßung, eines Measures oder eines Filters geöffnet.</li><li>Geben Sie die ersten Buchstaben der Bemaßung, des Measures oder des Filters in das Feld **suchen ein** , um die Liste zu filtern, um die Suche zu vereinfachen.</li></ul> |
+| ![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout2.png "zwei") | Der obere Bereich zeigt Optionen für die Anpassung des Diagramms an. |
+| ![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout3.png "drei") | Der Abfrage-Editor zeigt eine Vorschau des Berichts an. |
+| ![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/qerguide-image-callout4.png "vier") | Verwenden Sie das **Bearbeitungs** Feld unten auf dem Bildschirm, um eine detaillierte Beschreibung des Berichts zu erstellen oder zu bearbeiten. |
 
 _Abbildung 11: Abfrage-Editor_
 
@@ -603,7 +602,7 @@ Dieser Leitfaden enthält [zwei kuratierte CQD-Vorlagen](https://aka.ms/qertempl
 
 5. Nachdem die Vorlage hochgeladen wurde, wird in einem Popupfenster die Meldung "Bericht Import war erfolgreich" angezeigt. Wählen Sie **OK aus.**
 
-   Screenshot ![der erfolgreichen Import Benachrichtigung] (media/qerguide-image-importmessage.png "Benachrichtigung, dass die Vorlage erfolgreich importiert wurde")
+   ![Screenshot der erfolgreichen Import Benachrichtigung](media/qerguide-image-importmessage.png "Benachrichtigung, dass die Vorlage erfolgreich importiert wurde")
 
 6. Wiederholen Sie die Schritte 4 und 5 für die zweite CQD-Vorlage.
 
@@ -678,7 +677,7 @@ Hier sind ein paar Dinge zu bedenken, bevor Sie Supernetting implementieren:
 
 -   Es ist wichtig, sicherzustellen, dass die überarbeiteten Adressen richtig sind und keine unerwünschten Subnetze fangen.
 
--   Es ist ziemlich üblich, 192.168.0.0 in Daten zu finden. Für viele Organisationen deutet dies darauf hin, dass der Benutzer zu Hause ist. Bei anderen handelt es sich um das IP-Adressschema für eine Satelliten Niederlassung. Wenn Ihre Organisation über Büros verfügt, die diese Konfiguration verwenden, fügen Sie Sie nicht in ihre Gebäude Datei ein, da es schwierig ist, zwischen privaten und internen Netzwerken unterscheiden zu können, indem Sie allgemeine Subnetze verwenden. Weitere Informationen finden Sie im Abschnitt zu [häufig verwendeten](#common-subnets)Subnetzen weiter oben in diesem Leitfaden.
+-   Es ist ziemlich üblich, 192.168.0.0 in Daten zu finden. Für viele Organisationen deutet dies darauf hin, dass der Benutzer zu Hause ist. Bei anderen handelt es sich um das IP-Adressschema für eine Satelliten Niederlassung. Wenn Ihre Organisation über Büros verfügt, die diese Konfiguration verwenden, fügen Sie Sie nicht in ihre Gebäude Datei ein, da es schwierig ist, zwischen privaten und internen Netzwerken unterscheiden zu können, indem Sie allgemeine Subnetze verwenden. Weitere Informationen finden Sie im Abschnitt zu [häufig verwendeten Subnetzen](#common-subnets)weiter oben in diesem Leitfaden.
 
 > [!IMPORTANT]
 > Der Netzwerkbereich kann verwendet werden, um einen Supernet darzustellen. Alle neuen Uploads von Gebäudedaten Dateien werden auf alle überlappenden Bereiche geprüft. Wenn Sie zuvor eine Building-Datei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um Überlappungen zu identifizieren und das Problem zu beheben. Jede Überlappung in zuvor hochgeladenen Dateien kann zu einer falschen Zuordnung von Subnetzen zu Gebäuden in den Berichten führen.
@@ -908,7 +907,7 @@ _Tabelle 8 – weitere Schritte zur Fehlerbehebung bei der Anrufeinrichtung_
 
 |      Wartung      |                                                                                                                                                                                                                                                                                                                                                                   Anleitung                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Firewall (s) konfigurieren | Arbeiten Sie mit Ihrem Netzwerkteam zusammen, und überprüfen Sie Ihre Firewall (s)-Konfiguration mit [der Office 365-IP-Adressliste](https://aka.ms/o365ips).<br><br>Überprüfen Sie, ob die [Medien](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) -Subnetze und-Ports in den Firewall-Regeln enthalten sind. <br><br>Überprüfen Sie, ob die erforderlichen Anschlüsse (siehe unten) in der Firewall geöffnet sind. UDP sollte Vorrang eingeräumt werden, da TCP ein Failback-Protokoll für Audio-, Video-und videobasierte Bildschirm Übertragungen ist und sich die Nutzung auf die Qualität des Anrufs auswirkt. Die Legacy-RDP-Anwendungsfreigabe verwendet nur TCP.<br><ul><li>**TCP:** Port 443</li><li>**UDP:** Ports 3478 – 3481</li><ul> |
+| Firewall (s) konfigurieren | Arbeiten Sie mit Ihrem Netzwerkteam zusammen, und überprüfen Sie Ihre Firewall (s)-Konfiguration mit [der Office 365-IP-Adressliste](https://aka.ms/o365ips).<br><br>Überprüfen Sie, ob die [Medien-Subnetze](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) und-Ports in den Firewall-Regeln enthalten sind. <br><br>Überprüfen Sie, ob die erforderlichen Anschlüsse (siehe unten) in der Firewall geöffnet sind. UDP sollte Vorrang eingeräumt werden, da TCP ein Failback-Protokoll für Audio-, Video-und videobasierte Bildschirm Übertragungen ist und sich die Nutzung auf die Qualität des Anrufs auswirkt. Die Legacy-RDP-Anwendungsfreigabe verwendet nur TCP.<br><ul><li>**TCP:** Port 443</li><li>**UDP:** Ports 3478 – 3481</li><ul> |
 |        Prüfen         |                                                                                                                                                                                                                                                                 Verwenden Sie das [Tool Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) , um die Konnektivität aus dem betroffenen Gebäude oder Subnetz mithilfe der Funktion zur Überprüfung der Konnektivität zu überprüfen.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Abwurf Fehler
@@ -1049,7 +1048,7 @@ _Tabelle 10 – häufige Mitwirkende für "hoher PSR"_
 
 | Wartung                              | Anleitung                         |
 |------------------------------------------|----------------------------------|
-| **Netzwerke**                                 | **Überlastung**: ein über lastetes oder unter bereitgestelltes Netzwerk kann zu Problemen mit der Medienqualität führen. Arbeiten Sie mit dem Netzwerkteam zusammen, um festzustellen, ob die Netzwerkverbindungen des Benutzers mit dem Internet-Ausgangspunkt genügend Bandbreite zur Unterstützung von Medien aufweisen. <br><br>**Durchführen einer Netzwerk Eignungsbeurteilung**: eine Netzwerkbewertung enthält Details zur erwarteten Bandbreitennutzung, zur Bewältigung von Bandbreiten-und Netzwerkänderungen sowie Empfohlene Netzwerkmethoden für Teams und Skype for Business. Wenn Sie die vorhergehende Tabelle als Quelle verwenden, verfügen Sie über eine Liste von Gebäuden oder Subnetzen, die hervorragende Kandidaten für eine Bewertung sind.<ul><li>[Microsoft Teams-Netzwerk Bereitschaftsbewertung](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft Network Assessment Tool:** Mit diesem Tool können Sie einen einfachen Test der Netzwerkleistung durchführen, um festzustellen, wie gut das Netzwerk für ein Team oder einen Skype for Business Online-Anruf ist. Das Tool hilft Ihnen, die Leistung eines Subnetzes zu bewerten und die Bereitschaft des Netzwerks gegen die Microsoft-Leistungs [Anforderungen](https://aka.ms/performancerequirements)zu überprüfen.<ul><li>[Herunterladen des Netzwerk Bewertungstools](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
+| **Netzwerke**                                 | Überlastung: ein über **lastetes**oder unter bereitgestelltes Netzwerk kann zu Problemen mit der Medienqualität führen. Arbeiten Sie mit dem Netzwerkteam zusammen, um festzustellen, ob die Netzwerkverbindungen des Benutzers mit dem Internet-Ausgangspunkt genügend Bandbreite zur Unterstützung von Medien aufweisen. <br><br>**Durchführen einer Netzwerk Eignungsbeurteilung**: eine Netzwerkbewertung enthält Details zur erwarteten Bandbreitennutzung, zur Bewältigung von Bandbreiten-und Netzwerkänderungen sowie Empfohlene Netzwerkmethoden für Teams und Skype for Business. Wenn Sie die vorhergehende Tabelle als Quelle verwenden, verfügen Sie über eine Liste von Gebäuden oder Subnetzen, die hervorragende Kandidaten für eine Bewertung sind.<ul><li>[Microsoft Teams-Netzwerk Bereitschaftsbewertung](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft Network Assessment Tool:** Mit diesem Tool können Sie einen einfachen Test der Netzwerkleistung durchführen, um festzustellen, wie gut das Netzwerk für ein Team oder einen Skype for Business Online-Anruf ist. Das Tool hilft Ihnen, die Leistung eines Subnetzes zu bewerten und die Bereitschaft des Netzwerks gegen die Microsoft-Leistungs [Anforderungen](https://aka.ms/performancerequirements)zu überprüfen.<ul><li>[Herunterladen des Netzwerk Bewertungstools](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **Quality of Service (QoS)**  | QoS ist ein bewährtes Tool, mit dem Sie Pakete in einem überlasteten Netzwerk priorisieren können, um sicherzustellen, dass Sie intakt und pünktlich an Ihrem Zielort ankommen. Sie sollten QoS in Ihrer Organisation implementieren, um die Qualität der Benutzerfreundlichkeit zu maximieren, bei der die Bandbreite beschränkt ist. QoS hilft bei der Lösung von Problemen, die in der Regel mit einem hohen Paketverlust verbunden sind, und – in geringerem Maße – Jitter-und Roundtrip-Zeiten.<ul><li>[QoS-Anleitung für Microsoft Teams](qos-in-teams.md)</li></ul> |
 | **WLAN**               | Wi-Fi kann sich erheblich auf die Anrufqualität auswirken. Wi-Fi-Bereitstellungen berücksichtigen in der Regel nicht die Netzwerkanforderungen für VoIP-Dienste und sind häufig eine Quelle schlechter Qualität. Weitere Informationen zum Optimieren Ihrer Wi-Fi-Infrastruktur finden Sie in [diesem Artikel über die WLAN-Planung](/skypeforbusiness/certification/plan-wifi).<br><br>**WLAN-Treiber**: Stellen Sie sicher, dass drahtlose Treiber auf dem neuesten Stand sind. Auf diese Weise können Sie eine unzureichende Benutzererfahrung im Zusammenhang mit einem veralteten Treiber reduzieren. Viele Organisationen schließen keine WLAN-Treiber in Ihre Patch-Zyklen ein, und diese Treiber können jahrelang ungepatcht bleiben. Viele WLAN-Probleme werden behoben, indem Sie sicherstellen, dass die WLAN-Treiber auf dem neuesten Stand sind.<br><br>**WMM**: drahtlose Multimedia-Erweiterungen (WMM), auch bekannt als WLAN-Multimedia, bietet grundlegende QoS-Funktionen für drahtlose Netzwerke. Moderne drahtlose Netzwerke müssen viele Geräte unterstützen. Diese Geräte konkurrieren um die Bandbreite und können zu Qualitätsproblemen für VoIP-Dienste führen, bei denen Geschwindigkeit und Latenz wichtig sind. Erkundigen Sie sich bei Ihrem Mobilfunkanbieter nach Einzelheiten, und ziehen Sie die Implementierung von WMM in Ihrem Drahtlosnetzwerk in Frage, um Skype for Business-und Team Medien zu priorisieren.<br><br>**Zugriffspunkt Dichte**: die Zugriffspunkte sind möglicherweise zu weit auseinander oder nicht an einem idealen Ort. Um mögliche Interferenzen zu minimieren, platzieren Sie zusätzliche Zugriffspunkte in Konferenzräumen und an Orten, die nicht von Wänden oder anderen Objekten behindert werden, bei denen das WLAN-Signal schwach ist.<br><br>**2,4 GHz versus 5 GHz**: 5 GHz bietet geringere Hintergrundstörungen und höhere Geschwindigkeiten und sollte bei der Bereitstellung von VoIP über WLAN priorisiert werden. 5 GHz ist jedoch nicht so stark wie 2,4 GHz und dringt nicht so einfach in die Wände ein. Überprüfen Sie Ihr Gebäude Layout, um festzustellen, auf welche Häufigkeit Sie für die beste Verbindung vertrauen können. |
 |**Netzwerkgerät** | Größere Organisationen haben möglicherweise Hunderte von Geräten, die über das Netzwerk verteilt sind. Arbeiten Sie mit Ihrem Netzwerkteam zusammen, um sicherzustellen, dass die Netzwerkgeräte des Benutzers mit dem Internet verwaltet und auf dem neuesten Stand sind. |
@@ -1281,7 +1280,7 @@ In der Regel müssen Sie nicht zertifizierte Geräte entdecken und Auslaufen und
 
 ##### <a name="audio"></a>Audio
 
-Die nächste Aufgabe besteht in der Ermittlung der allgemeinen Nutzung [zertifizierter](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)Audiogeräte. Wir empfehlen, dass mindestens 80 Prozent aller Audiostreams ein zertifiziertes Audiogerät verwenden. Dies wird am besten erreicht, wenn der Bericht "Mikrofon Geräte" nach Excel exportiert wird, um die Verwendung von zertifizierten oder genehmigten Geräten zu berechnen. Organisationen führen in der Regel eine Liste aller genehmigten Geräte, sodass das Filtern und Sortieren der Daten unkompliziert sein sollte.
+Die nächste Aufgabe besteht in der Ermittlung der allgemeinen Nutzung [zertifizierter Audiogeräte](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). Wir empfehlen, dass mindestens 80 Prozent aller Audiostreams ein zertifiziertes Audiogerät verwenden. Dies wird am besten erreicht, wenn der Bericht "Mikrofon Geräte" nach Excel exportiert wird, um die Verwendung von zertifizierten oder genehmigten Geräten zu berechnen. Organisationen führen in der Regel eine Liste aller genehmigten Geräte, sodass das Filtern und Sortieren der Daten unkompliziert sein sollte.
 
 ##### <a name="video"></a>Video
 

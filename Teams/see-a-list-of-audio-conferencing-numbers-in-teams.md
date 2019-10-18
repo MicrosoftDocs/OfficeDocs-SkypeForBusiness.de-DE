@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie Ihre Dial-in-Konferenznummern in Microsoft Teams nachschlagen. '
-ms.openlocfilehash: e86cd8a57857c16b42df45a23e212ce2d8bfc27b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: cc18194c8a0eea6dbf7c995bb5c661007d33ec1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344468"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573423"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 

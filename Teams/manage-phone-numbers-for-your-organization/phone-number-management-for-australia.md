@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,15 +18,15 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Australien für Microsoft Teams zu finden.
-ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348003"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573162"
 ---
 # <a name="phone-number-management-for-australia"></a>Telefonnummernverwaltung für Australien
-In Australien sind wir mit Telstra für den Erwerb und die Bereitstellung von Anrufplänen eine Partnerschaft eingegangen. Telstra verkauft Anrufpläne und bietet die Unterstützung für die Telefonnumernverwaltung für Benutzer- und Servicenummern für automatische Telefonzentralen und Anruf-Warteschleifen. Allerdings werden Servicenummern und Lizenzen für Audiokonferenzen weiterhin von Office 365 verkauft und verwaltet.
+In Australien haben wir eine Partnerschaft mit Telstra für den Kauf und die Bereitstellung von Anrufplänen für Kunden mit einer Rechnungsadresse in Australien durchgestellt. Telstra verkauft ihre Anrufpläne, stellt australische Nutzer Nummern zur Verfügung und bietet auch die Unterstützung für die Verwaltung von Telefonnummern für Benutzer-und Servicenummern für automatische Telefonzentralen und Anrufwarteschlangen. Allerdings werden Servicenummern und Lizenzen für Audiokonferenzen weiterhin von Office 365 verkauft und verwaltet.
 
 Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
 
@@ -38,7 +37,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Neue Benutzer-Telefonnummern für Anrufpläne in Australien erhalten.   <br/> |Bitte wenden Sie sich an [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan) für neue Telefonnummern für Ihre Benutzer. Telstra fügt Sie diese Nummern Ihrer Organisation hinzu, damit Sie sie Ihren Benutzern zuweisen können. <br/>
-|Wenn Sie Telstra-Anrufe für Office 365 verwenden, erhalten Sie möglicherweise neue Service-Telefonnummern, die mit automatischen Cloud-Telefonzentralen und Anrufwarteschlangen für Australien von Telstra verwendet werden können. <br/> |Bitte wenden Sie sich an [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan) für neue Telefonnummern. Telstra fügt Sie diese Nummern Ihrer Organisation hinzu, damit Sie sie Ihren automatischen Telefonzentralen und Warteschlangen zuweisen können. Wenn Sie keine Telstra-Anrufe nutzen, können Sie sich an unseren Microsoft Number Managementservice Desk wenden, um Servicenummern von [](mailto:ptnapac@microsoft.com)Microsoft zu erhalten. <br/>|
+|Wenn Sie Telstra-Anrufe für Office 365 verwenden, erhalten Sie möglicherweise neue Service-Telefonnummern, die mit automatischen Cloud-Telefonzentralen und Anrufwarteschlangen für Australien von Telstra verwendet werden können. <br/> |Bitte wenden Sie sich an [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan) für neue Telefonnummern. Telstra fügt Sie diese Nummern Ihrer Organisation hinzu, damit Sie sie Ihren automatischen Telefonzentralen und Warteschlangen zuweisen können. Wenn Sie keine Telstra-Anrufe nutzen, können [Sie sich an](mailto:ptnapac@microsoft.com)unseren Microsoft Number Managementservice Desk wenden, um Servicenummern von Microsoft zu erhalten. <br/>|
 |Neue Service-Rufnummern für Audiokonferenzen in Australien erhalten.   <br/> |[Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com).|
 |Rufen Sie Telefonnummern an, die für Benutzer, automatische Telefonzentralen und Anrufwarteschlangen an Office 365 übertragen wurden.  <br/> |Bitte wenden Sie sich an [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan) um Telefonnummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.  <br/> |
 |Rufen Sie Telefonnummern an, die für die Verwendung mit Audiokonferenzen an Office 365 übertragen wurden.  |[Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com) |

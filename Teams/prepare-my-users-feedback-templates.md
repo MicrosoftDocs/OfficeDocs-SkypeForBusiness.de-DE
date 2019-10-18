@@ -11,17 +11,14 @@ audience: admin
 description: Sammeln Sie Benutzer Feedback, um die Cloud-VoIP-Implementierung in Microsoft Teams oder Skype for Business zu verbessern.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232853"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567679"
 ---
 # <a name="user-feedback-surveys"></a>Benutzer Feedback-Umfragen 
 
@@ -44,7 +41,7 @@ Geben Sie Ihre Zustimmungs Stufe mit den folgenden Aussagen an, die sich auf die
 | Die Verwendung von Teams als mein Telefon macht es einfacher für mich, meine Arbeit zu erledigen.                                          |                      |                    |             |                       |                         |                        |
 | Mein Audio-Erlebnis mit Teams ist so gut wie oder besser als bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
 
-Wenn Sie sich für eine der vorstehenden Aussagen **etwas** nicht einverstanden erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
+Wenn Sie sich für eine der vorstehenden Aussagen **etwas nicht einverstanden** erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
 
 Geben Sie Ihren Zustimmungsgrad mit den folgenden Aussagen an, da es sich um Ihre Onboarding-Erfahrung mit Ihrem neuen Telefon handelt.  
 
@@ -54,7 +51,7 @@ Geben Sie Ihren Zustimmungsgrad mit den folgenden Aussagen an, da es sich um Ihr
 | Ich hatte ausreichende Schulungsressourcen, um schnell an Bord des neuen Telefonsystems zu werden.                                                          |                      |                    |             |                       |                         |                        |
 | Unser Helpdesk könnte alle meine Fragen zur neuen Telefonanlage beantworten.                                                           |                      |                    |             |                       |                         |                        |
 
-Wenn Sie sich für eine der vorstehenden Aussagen **etwas** nicht einverstanden erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
+Wenn Sie sich für eine der vorstehenden Aussagen **etwas nicht einverstanden** erklärt haben oder **völlig anderer Meinung** sind, erläutern Sie dies bitte. (Text öffnen)
 
 Wie wahrscheinlich ist es, dass Sie einem Freund oder Kollegen die Verwendung von Teams als Telefon empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = äußerst wahrscheinlich)
 

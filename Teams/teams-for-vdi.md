@@ -12,16 +12,15 @@ description: Erfahren Sie, wie Sie Microsoft Teams in einer VDI-Umgebung (virtua
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d0680e81799152bfc6eb9a976634384eb70954c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243820"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570223"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -208,7 +207,7 @@ Hier sehen Sie den Prozess und die Tools zum Bereitstellen der Desktop-App von T
 
 Im folgenden sind bekannte Probleme und Einschränkungen für Teams in VDI zu finden.
 
-- **Bereitstellungen für Shared Session**-Hosttypen: Bereitstellungen für Shared Session-Hosttypen (beispielsweise freigegebene nicht persistente VM-Konfiguration) sind nicht im Bereich.
+- **Bereitstellungen für Shared Session-Hosttypen**: Bereitstellungen für Shared Session-Hosttypen (beispielsweise freigegebene nicht persistente VM-Konfiguration) sind nicht im Bereich.
 - **Anrufe und Besprechungen**:
 
     - Anruf-und Besprechungs Szenarien sind für VDI nicht optimiert. Diese Szenarien werden schlecht ausgeführt. Wir empfehlen die Verwendung von Richtlinien auf Benutzerebene, wie im Abschnitt [Richtlinien zum Deaktivieren von Anrufen und Besprechungsfunktionen in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) beschrieben.  

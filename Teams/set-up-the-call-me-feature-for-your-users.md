@@ -1,5 +1,5 @@
 ---
-title: Einrichten der Funktion "anrufen" für Ihre Benutzer
+title: Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -10,17 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die Funktion "anrufen" in Microsoft Teams einrichten, damit Benutzer in Szenarien, in denen die Verwendung Ihres Computers für Audio möglicherweise nicht möglich ist, über das Telefon teilnehmen können.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243173"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571546"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion "anrufen" für Ihre Benutzer
+# <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 
 In Microsoft Teams bietet die Funktion " **anrufen** " Benutzern eine Möglichkeit, den Audioteil einer Besprechung per Telefon anzunehmen. Dies ist praktisch in Szenarien, in denen die Verwendung eines Computers für Audio möglicherweise nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über Ihr Mobiltelefon oder Ihre Festnetz-und den Inhaltsbereich der Besprechung&mdash;, beispielsweise, wenn ein anderer Besprechungsteilnehmer seinen Bildschirm freigibt&mdash;oder ein Video über seinen Computer abspielt.
 

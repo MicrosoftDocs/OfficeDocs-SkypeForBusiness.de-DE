@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (und Puerto Rico) für Microsoft Teams zu finden.
-ms.openlocfilehash: a7b8180423c8d02384ad9ceac4cfc9f96fbd9de1
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: ee4c8fb867395977e342dfc6986923731ab949ca
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347828"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573107"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 

@@ -9,21 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Hier erfahren Sie, wie Sie Feiertage in Microsoft Teams einrichten und mit der automatischen Telefonzentrale verbinden.
-ms.openlocfilehash: ae960cddb2c5e8d590e5eb73d9f0763dacd582b6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483254"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571568"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 

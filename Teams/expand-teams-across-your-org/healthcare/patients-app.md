@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115993"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569290"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 

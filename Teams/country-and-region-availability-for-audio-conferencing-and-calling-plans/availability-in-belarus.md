@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Belarus verfügbar sind.
-ms.openlocfilehash: d6ba52a0764cb603436ce1cc363f02ad1a1372fb
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: ce623271b3a619271ba9c89b860b0944e19719de
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332204"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571136"
 ---
 # <a name="availability-in-belarus"></a>Verfügbarkeit in Belarus
 

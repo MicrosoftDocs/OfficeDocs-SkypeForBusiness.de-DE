@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774913"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573462"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -131,7 +132,7 @@ Sie können jede beliebige Methode so lange verwenden, wie Sie Sie verwenden kö
 
 Die Image-Datei für ein benutzerdefiniertes Design`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` muss im Ordner abgelegt werden. Geben Sie den Dateinamen und die Erweiterung \<in\> die CustomThemeImageUrl-Variable ein.
   
-Die Bilddatei sollte genau 3840X1080 Pixel sein und eines der folgenden Dateiformate aufweisen: JPG, JPEG, PNG und BMP. Wenn Ihre Organisation ein benutzerdefiniertes Bild wünscht, kann ein Grafikdesigner die [Photoshop-Vorlage "benutzerdefiniertes Design](https://go.microsoft.com/fwlink/?linkid=870441)" verwenden. Sie enthält weitere Details zur Platzierung der verschiedenen Elemente in einem Designbild und zu den Bereichen, die auf Konsolen und Displays angezeigt werden.
+Die Bilddatei sollte genau 3840X1080 Pixel sein und eines der folgenden Dateiformate aufweisen: JPG, JPEG, PNG und BMP. Wenn Ihre Organisation ein benutzerdefiniertes Bild wünscht, kann ein Grafikdesigner die [Photoshop-Vorlage "benutzerdefiniertes Design](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)" verwenden. Sie enthält weitere Informationen darüber, wo sich verschiedene Benutzeroberflächenelemente relativ zum restlichen Design Bild befinden und welche Bereiche auf Konsolen und Displays angezeigt werden.
   
 Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, damit das Designbild erkannt wird. Nachdem die neue XML-Datei verarbeitet und gelöscht wurde, wird die Design Grafikdatei aus dem Verzeichnis gelöscht.
   

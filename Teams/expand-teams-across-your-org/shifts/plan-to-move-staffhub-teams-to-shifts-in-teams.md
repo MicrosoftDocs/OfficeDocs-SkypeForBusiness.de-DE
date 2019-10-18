@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Ihre StaffHub-Teams auf Schichten in Microsoft Teams verschieben können.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715917"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569673"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planen, ihre StaffHub-Teams in Microsoft Teams zu verschieben
 
 > [!IMPORTANT]
-> Ab dem 1. Oktober 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird für alle Benutzer am 1. Oktober 2019 nicht mehr funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Der Übergang von StaffHub zu Teams beginnt, wenn Sie mit der Planung der Änderung beginnen. Um sicherzustellen, dass Ihr Umzug in Teams erfolgreich ist, haben wir eine Beispiel Zeitachse erstellt, die einen typischen Übergangsplan veranschaulicht. In der Beispiel Zeitachse werden Planungsaktivitäten zur Vorbereitung des Umzugs beschrieben, und Sie gelangen durch das Verschieben der StaffHub-Teams Ihrer Organisation in Teams.
 
@@ -41,7 +41,7 @@ Verwenden Sie die Zeitachse als Leitfaden für die Planung Ihres Umstiegs von St
 |4    |Sicherstellen, dass die Voraussetzungen erfüllt sind         |[Überprüfen, ob Voraussetzungen erfüllt sind](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Zuweisen von Teams-Lizenzen zu StaffHub-Benutzern in Ihrer Organisation|[Zuweisen von Teams-Lizenzen](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Verwalten des Benutzerzugriffs auf Teams](../../user-access.md)      |
 |6    |Installieren des StaffHub PowerShell-Moduls        |[Installieren des StaffHub PowerShell-Moduls](install-the-staffhub-powershell-module.md)        |
-|7     |Bestimmen der Zeitachse und Identifizieren von StaffHub-Benutzern für den Wechsel zu Teams       |[Ausführen eines Berichts zur Anzeige der aktiven StaffHub-Verwendung](run-report-to-show-staffhub-usage.md) |
+|7     |Bestimmen der Zeitachse und Identifizieren von StaffHub-Benutzern für den Wechsel zu Teams       |[Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung](run-report-to-show-staffhub-usage.md) |
 |8     |Identifizieren von StaffHub-Benutzern, die nicht über ein Azure AD-Konto verfügen (wird in StaffHub als "inaktiv" angezeigt), und Verknüpfen eines Kontos für Sie     |[Verknüpfen eines Azure AD-Kontos für StaffHub-Teammitglieder, die nicht über ein Konto verfügen](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |9    |Erstellen von Schulungsinhalten für Benutzer, die für Ihre Organisation zugeschnitten sind         |[Vorbereiten eines Benutzer Bereitschaftsplans für Teams](../../upgrade-user-readiness.md)     |
 |10    |Kommunizieren von StaffHub-Benutzern über den Übergang zu Schichten in Teams         |[StaffHub zu Teams Beispiel-e-Mail-Kommunikation an Benutzer](staffhub-to-teams-email-template.md)         |

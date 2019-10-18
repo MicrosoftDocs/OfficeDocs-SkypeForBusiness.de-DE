@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330516"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571651"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
@@ -61,7 +60,7 @@ Wenn Sie bereit sind, wählen Sie ein Land oder eine Region aus:
 > - [Frankreich](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Deutschland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Honduras](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [Hongkong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [Hongkong (SAR)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Ungarn](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [Indien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Indonesien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)

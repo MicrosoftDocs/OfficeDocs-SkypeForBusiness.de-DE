@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881437654744ef1d314f239ee98b7119e774cd00
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236398"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568487"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Aktualisieren der kostenlosen Version von Microsoft Teams auf die Office 365-Abonnementversion
 ======================================================
@@ -53,7 +52,7 @@ Die Vollversion von Teams, die in einem Office 365-Abonnement enthalten sind, bi
 - OneDrive, SharePoint, Planner, jammern und weitere Office 365-Dienste
 - 1 TB Speicher pro Benutzer
 - Geplante Besprechungen
-- Audiokonferenzen
+- Audiokonferenz
 - Erweiterte Sicherheits-und Kompatibilitätsfeatures, einschließlich mehrstufiger Authentifizierung, einmaliges Anmelden und erweiterte Überwachung und Berichterstellung
 - Administrative Steuerelemente und Support Features, darunter 24 x 7 Telefon-und WebSupport, Verwaltungstools für die Verwaltung von Benutzern und apps, Verwendungsberichterstattung für Office 365-Dienste, Vereinbarung zum Service Level sowie konfigurierbare Benutzereinstellungen und-Richtlinien
 

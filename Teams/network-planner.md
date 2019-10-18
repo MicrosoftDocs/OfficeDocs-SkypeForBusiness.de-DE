@@ -12,19 +12,18 @@ description: Erfahren Sie, wie Sie mithilfe des Netzwerk Planers Netzwerkanforde
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69de49397baab5e1a9dc037799aa3ac5ba4f6421
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484048"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573365"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 
@@ -49,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Rolle zu erst
 
 1. Wechseln Sie im Microsoft Teams Admin Center zum Netzwerk Planner.
 
-2. Klicken Sie **** auf der Registerkarte Personas auf **+ benutzerdefinierte Rolle**. 
+2. Klicken Sie auf der Registerkarte **Personas** auf **+ benutzerdefinierte Rolle**. 
 
 3. Fügen Sie im Bereich **neue benutzerdefinierte Rolle** einen Namen und eine Beschreibung für die neue Person hinzu.
 

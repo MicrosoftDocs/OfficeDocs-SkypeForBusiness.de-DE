@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: a2d8d21c7ec8f66278c381c3644b08795e0ea3b7
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 7f60e95539af32bc80bc4922f61648aacb601de9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329756"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572585"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Einschränkungen für gebührenfreie Telefonnummern in Vietnam
 
@@ -44,7 +43,7 @@ ms.locfileid: "34329756"
 | Nicht abgedeckte Inseln/Gebiete  <br/>              | Nicht zutreffend  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/>             | Partiell. Siehe Kommentare.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Verfügbarkeit über Mobilnetze  <br/>               | Partiell. Siehe die Kommentare.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Kommentare, Einschränkungen und Zugriffsaspekte  <br/> | Das Nummernformat 120 XX XXX funktioniert aus den Festnetzen und Mobilnetzen von Vietnam Telecom International (VTI) und VNPT (Vietnam Post and Telecommunications). <br/> <br/> Ab Juni 2018 kann das 120 XX XXX-Zahlenformat nicht über das MobiFone-Mobilfunknetz aufgerufen werden. <br/> <br/>**Hinweis:** MobiFone &amp; Vinaphone sind Teil von VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
+| Kommentare, Einschränkungen und Zugriffsaspekte  <br/> | Das Nummernformat 120 XX XXX funktioniert aus den Festnetzen und Mobilnetzen von Vietnam Telecom International (VTI) und VNPT (Vietnam Post and Telecommunications). <br/> <br/> Ab Juni 2018 kann das 120 XX XXX-Zahlenformat nicht über das MobiFone-Mobilfunknetz aufgerufen werden. <br/> <br/>**Hinweis:** MobiFone &amp; Vinaphone sind Teil von VNPT. Das Zahlenformat 122 XXX XX-Netzwerkabdeckung: viettel (fest und mobil). Gemäß dem Vietnam-Ministerium für Telekommunikation beträgt die maximal zulässige Anrufdauer 2 Stunden. |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

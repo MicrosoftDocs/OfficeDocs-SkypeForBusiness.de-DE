@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Live-Ereignisse von Teams verwalten, die in Ihrer Organisation gespeichert sind.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243702"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570190"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 
@@ -30,7 +29,7 @@ Verwenden Sie die Einstellungen für Live Ereignisse von Teams, um Einstellungen
 
 Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach verwalten. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen** > **Live Events-Einstellungen**. 
 
-Screenshot ![der Einstellungen für Live-Events in Teams] Screenshot (../media/teams-live-events-settings.png "der Einstellungen für Teams-Live Ereignisse, die Sie im Microsoft Teams Admin Center konfigurieren können") 
+![Screenshot der Einstellungen für Live-Events in Teams](../media/teams-live-events-settings.png "Screenshot der Einstellungen für Teams-Live Ereignisse, die Sie im Microsoft Teams Admin Center konfigurieren können") 
 
 ## <a name="set-up-event-support-url"></a>Einrichten der URL für die Ereignisunterstützung
 
@@ -38,10 +37,10 @@ Diese URL wird für Live-Event-Teilnehmer angezeigt. Fügen Sie die Support-URL 
 
 ### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste **** > zu Live-**Ereigniseinstellungen**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste zu**Live-Ereigniseinstellungen**für **Besprechungen** > .
 2. Geben Sie unter **Support-URL**die Support-URL Ihrer Organisation ein. 
 
-    ![Support-URL-Einstellung für Live-Ereignisse im Admin Center] Screenshot (../media/teams-live-events-settings-supporturl.png "der Support-URL-Einstellung für Live-Events in Teams")
+    ![Support-URL-Einstellung für Live-Ereignisse im Admin Center](../media/teams-live-events-settings-supporturl.png "Screenshot der Support-URL-Einstellung für Live-Events in Teams")
 
 ### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
 Führen Sie Folgendes aus:
@@ -55,10 +54,10 @@ Wenn Sie eine Lösung für Software Defined Network (SDN) oder Enterprise Conten
 
 ### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste **** > zu Live-**Ereigniseinstellungen**für Besprechungen.
-2. Führen Sie unter Anbieter von Video Verteilern von **Drittanbietern**die folgenden Schritte aus: 
+1. Wechseln Sie in der linken Navigationsleiste zu**Live-Ereigniseinstellungen**für **Besprechungen** > .
+2. Führen Sie unter **Anbieter von Video Verteilern von Drittanbietern**die folgenden Schritte aus: 
 
-    ![Einstellungen für Video Verteilungs Anbieter von Drittanbietern im Admin Center] (../media/teams-live-events-settings-distribution-provider.png "Screenshot der Einstellungen des Drittanbieters für Videoverteiler für Live Ereignisse")
+    ![Einstellungen für Video Verteilungs Anbieter von Drittanbietern im Admin Center](../media/teams-live-events-settings-distribution-provider.png "Screenshot der Einstellungen des Drittanbieters für Videoverteiler für Live Ereignisse")
 
     - **Verwenden eines Dritt** Anbieters für die Verteilung Aktivieren Sie diese Option, um den Video Verteilungs Anbieter eines Drittanbieters zu aktivieren.
     - **Sdn-Anbietername** Wählen Sie den von Ihnen verwendeten Anbieter aus.
