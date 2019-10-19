@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Für Disaster Recovery bietet Skype for Business Server Pool-Kopplung mit Failover für den Fall, dass ein Pool ausfällt.
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297505"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341931"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Disaster Recovery des Front-End-Pools in Skype for Business Server
  
@@ -56,7 +56,7 @@ Bei Pool-Failover und Pool-Failback beträgt das Engineering-Ziel für das Wiede
   
 Für Poolfailover und Poolfailbacks liegt das Entwicklungsziel für das Recovery Time Objective (RTO) bei 5 Minuten. Dies definiert die Zeitspanne, in der Daten aufgrund des Notfalls und aufgrund der Replikationswartezeit des Sicherungsdienstes verloren gehen können. Wenn beispielsweise ein Pool um 10:00 Uhr herunterfällt und die RPO 5 Minuten beträgt, werden die Daten in den Pool zwischen 9:55 Uhr geschrieben. und 10:00 A. M. möglicherweise nicht in den Backup-Pool repliziert und gehen verloren.
   
-Bei allen RTO-und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass sich die beiden Rechenzentren innerhalb desselben Welt Bereichs mit hoch Geschwindigkeits Transporten mit niedriger Latenz zwischen den beiden Standorten befinden. Diese Nummern werden für einen Pool mit 40.000-aktiven Benutzern und 200.000-Benutzern für lync in Bezug auf ein vordefiniertes Benutzermodell gemessen, bei dem es bei der Datenreplikation keinen Rückstand gibt. Sie unterliegen Änderungen auf der Grundlage von Leistungstests und-Validierungen.
+Bei allen RTO-und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass sich die beiden Rechenzentren innerhalb desselben Welt Bereichs mit hoch Geschwindigkeits Transporten mit niedriger Latenz zwischen den beiden Standorten befinden. Diese Nummern werden für einen Pool mit 40.000-aktiven Benutzern und 200.000-Benutzern, die für Skype for Business aktiviert sind, in Bezug auf ein vordefiniertes Benutzermodell gemessen, bei dem es bei der Datenreplikation keinen Rückstand gibt. Sie unterliegen Änderungen auf der Grundlage von Leistungstests und-Validierungen.
   
 ## <a name="central-management-store-failover"></a>Failover des zentralen Verwaltungsspeichers
 

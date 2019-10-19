@@ -12,14 +12,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: In diesem Artikel erfahren Sie, welche Onlinetopologien und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden und welche Sicherheitsmerkmale die Topologien jeweils aufweisen.
-ms.openlocfilehash: 04dc6933fb63db7ebaec4f2c346e3cfbc60f9e24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297337"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34408630"
 ---
-# <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business topologies supported with Modern Authentication
+# <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Mit moderner Authentifizierung unterstützte Skype for Business-Topologien
  
 In diesem Artikel erfahren Sie, welche Onlinetopologien und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden und welche Sicherheitsmerkmale die Topologien jeweils aufweisen.
   
@@ -77,7 +77,7 @@ Betrachten wir zunächst MA mit Skype for Business in rein lokalen Topologien un
 |Topologiename  <br/> |Beispiel  <br/> |Beschreibung  <br/> |Unterstützt  <br/> |
 |:-----|:-----|:-----|:-----|
 |Nur Cloud  <br/> |![Unterstützung für SFB mit MA-Topologie, nur Cloud.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Verwaltung der Benutzer/Speicherort der Postfächer: online   <br/> |MA ist für EXO und SFBO aktiviert.  <br/> Daher ist Azure AD der Autorisierungsserver.  <br/> |Mehrstufige Authentifizierung (MFA), Client-Zertifikat-basierte Authentifizierung (CBA), Conditional Access (ca)/Mobile-Faltblatt Application Management (MAM) mit InTune. \*  <br/> |
-|Nur lokal  <br/> |![Unterstützung für SFB mit MA-Topology, nur lokal.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Verwaltung der Benutzer/Speicherort der Postfächer: lokal  <br/> |MA ist für SFB (lokal) aktiviert.  <br/> Daher ist AD FS der Autorisierungsserver.  <br/> Informationen zur Konfiguration finden Sie in [diesem Artikel.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Nur Windows-Desktop – mobile Clients werden nicht unterstützt.) Keine Exchange-Integrationsfunktionen.  <br/> |
+|Nur lokal  <br/> |![Unterstützung für SFB mit MA-Topology, nur lokal.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Verwaltung der Benutzer/Speicherort der Postfächer: lokal  <br/> |MA ist für SFB (lokal) aktiviert.  <br/> Daher ist AD FS der Autorisierungsserver.  <br/> Informationen zur Konfiguration finden Sie in [diesem Artikel.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Nur Windows-Desktop – mobile Clients werden nicht unterstützt.) Keine Exchange-Integrationsfunktionen.  <br/><p> **Wir empfehlen diesen Ansatz nicht. Weitere Informationen finden Sie hier:**[https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)<p/> |
    
 > [!IMPORTANT]
 > Der MA-Status sollte in Skype for Business und Exchange (und deren Onlinependants) gleich sein, um die Anzahl der Eingabeaufforderungen zu verringern. 

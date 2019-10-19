@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516650"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
@@ -27,7 +27,7 @@ Organisationsweite Teams bieten eine automatische Möglichkeit für alle Persone
 
 Mit organisationsweiten Teams können globale Administratoren problemlos ein öffentliches Team erstellen, das alle Benutzer in der Organisation anzieht und die Mitgliedschaft mit Active Directory auf dem neuesten Stand hält, während Benutzer teilnehmen und die Organisation verlässt. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 5.000-Benutzern begrenzt. Es gibt auch eine Grenze von fünf organisationsweiten Teams pro Mandant. Wenn diese Voraussetzungen erfüllt sind, sehen globale Administratoren **org-Wide** als Option, wenn Sie beim Erstellen eines Teams ein **Team von Grund auf neu erstellen** auswählen. 
 
-Screenshot der ![Option "org-Wide" zum Erstellen eines organisationsweiten Team]-Screenshot der Option "org-Wide"(media/create-org-wide-team.png "zum Erstellen eines organisationsweiten Teams")
+![Screenshot der Option "org-Wide" zum Erstellen eines organisationsweiten Teams](media/create-org-wide-team.png "Screenshot der Option "org-Wide" zum Erstellen eines organisationsweiten Teams")
 
 Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird dem Benutzer eine Microsoft Teams Commercial Cloud-Testlizenz zugewiesen. Wenn Sie mehr über die Testlizenz erfahren möchten, lesen Sie [das Angebot Verwalten des Teams für kommerzielle Cloud-Testversionen](iw-trial-teams.md). 
 

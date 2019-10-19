@@ -19,10 +19,10 @@ ms.custom:
 - PowerShell
 description: Ermitteln Sie die Anforderungen für die Remoteverwaltung von Skype for Business Online mithilfe von Windows PowerShell, einschließlich unterstützter Betriebssysteme.
 ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36645155"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten Ihres Computers für Windows PowerShell
@@ -55,7 +55,7 @@ Informationen zum herunterladen und Installieren dieser Elemente finden Sie unte
   
 - [Herunterladen und Installieren des Skype for Business Online-Connector-Moduls](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Herunterladen und Installieren von Windows PowerShell 5,1](download-and-install-windows-powershell-5-1.md)
+- [Herunterladen und Installieren von Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
 - [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     

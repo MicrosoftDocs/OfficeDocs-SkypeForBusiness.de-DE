@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Skype for Business Server 2015-Infrastruktur für die Zusammenarbeit mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790892"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824548"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2015 mithilfe von SCOM Management Packs
  
@@ -85,7 +85,7 @@ Das Überwachungspaket für Skype for Business Server 2015 umfasst die folgenden
 
 Die folgenden Features sind neu bei den Skype for Business Server 2015-Verwaltungs Paketen.
 
-- **Änderungen im [Juni 2019-Update](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Bei einigen Benachrichtigungen wurden Sonderzeichen entfernt. In einigen Fällen stören Sonderzeichen die Benachrichtigungsfunktion des SCOM-Befehls Kanals.
+- **Änderungen im [Sept 2019-Update](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Bei einigen Benachrichtigungen wurden Sonderzeichen entfernt. In einigen Fällen stören Sonderzeichen die Benachrichtigungsfunktion des SCOM-Befehls Kanals.
 
 - **Automatische Ermittlung für die Client Anmeldung** Client Anwendungen, die sich bei Skype for Business Server 2015 anmelden, erkennen oft automatisch den Server, bei dem Sie sich anmelden. Synthetische Transaktionen unterstützen jetzt die Überprüfung, ob die automatische Ermittlung ordnungsgemäß konfiguriert ist.
     

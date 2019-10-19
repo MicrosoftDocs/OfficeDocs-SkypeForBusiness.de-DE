@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie QoS für in Ihrer Organisation verwendete Geräte aktivieren, die ein anderes Betriebssystem als Windows verwenden.
-ms.openlocfilehash: adb879d2319c5eeeb84578907ce57a3a408d9a13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 956fff0e7fc69b1950e35261c02f9f44977510ce
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279410"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341941"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows basieren
 
@@ -65,5 +65,9 @@ Sie können QoS für Geräte deaktivieren, die ein anderes Betriebssystem als Wi
 Dadurch haben Sie die Möglichkeit, QoS in einigen Teilen Ihres Netzwerks (beispielsweise auf der Website "Redmond") zu implementieren, während Sie die Dienstqualität für andere Teile Ihres Netzwerks deaktiviert lassen.
 
 QoS kann nur mithilfe von Windows PowerShell aktiviert und deaktiviert werden. Diese Optionen stehen im Skype Control Panel für Unternehmen-Server nicht zur Verfügung.
+
+> [!NOTE]
+> Skype for Business-Clients für IOS, Version 6,17 und höher, unterstützen jetzt QoS.  Diese QoS-Funktion gilt nur für Skype for Business-Clients und IP-Telefongeräte, die direkt bei einem internen Skype for Business-oder lync-Pool-Server in verwalteten Netzwerken registriert sind. QoS gilt nicht für Datenverkehr, der über das Internet weitergeleitet wird.
+
 
 

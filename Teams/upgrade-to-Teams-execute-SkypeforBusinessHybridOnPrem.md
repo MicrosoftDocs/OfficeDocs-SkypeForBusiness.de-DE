@@ -18,20 +18,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37396421"
 ---
-![Diagramm zum Upgrade von Fahrten, hervorheben der Bereitstellungs-und Implementierungs](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
 Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
--   [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+-   [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 -   [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
--   [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 -   [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
@@ -41,7 +41,7 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 Wenn Sie Skype for Business Server oder Microsoft lync lokal bereitgestellt haben und Ihre Organisation ein Upgrade auf Teams durchführen möchte, befolgen Sie die Anleitungen in diesem Artikel. Sie müssen eine hybridverbindung mit Ihrem Office 365-Mandanten einrichten und die Anforderungen an die Koexistenz ermitteln, wenn Sie Ihre Benutzer in Phasen in Teams verschieben. 
 
 > [!IMPORTANT]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für die Implementierung Ihres Upgrades hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Schritt 1: Konfigurieren der Hybrid Konnektivität 
 

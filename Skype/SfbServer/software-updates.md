@@ -1,5 +1,5 @@
 ---
-title: Skype for Business – Downloads and Updates
+title: Skype for Business – Downloads und Updates
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Suchen und Verwalten von Updates für Skype for Business Server oder lync 2013 Verwenden Sie die Links, um weitere Informationen zu erhalten, und laden Sie dann die Updates herunter.
-ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286796"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "35746449"
 ---
-# <a name="skype-for-business-downloads-and-updates"></a>Skype for Business – Downloads and Updates
+# <a name="skype-for-business-downloads-and-updates"></a>Skype for Business – Downloads und Updates
 
 Die Website " _Skype for Business Downloads und Updates_ ", die sich einmal auf TechNet befand, wurde eingestellt. Der Inhalt wurde in Client-und Server Seiten neu organisiert. Folgen Sie diesen Links zu den benötigten Inhalten:
 
@@ -36,6 +36,7 @@ Die Website " _Skype for Business Downloads und Updates_ ", die sich einmal auf 
         - [Updates für Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - [Skype for Business Server-Updates](sfb-server-updates.md) , die die Abschnitte enthalten:
+    - [Updateverlauf für Skype for Business Server 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [Updateverlauf für Skype for Business Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Updateverlauf für Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Entwicklertools für Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Skype for Business Server 2019-Infrastruktur für die Zusammenarbeit mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221883"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37318957"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2019 mithilfe des SCOM-Management Packs
  
@@ -74,16 +74,18 @@ Zum Ausführen eines Watcher-Knotens für synthetische Transaktionen müssen Sie
 
 Das Überwachungspaket für Skype for Business Server 2019 umfasst die folgenden Dateien:
   
-- Microsoft.ls.2019.Monitoring.ActiveMonitoring.MP
+- Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp
     
-- Microsoft.ls.2019.Monitoring.ComponentAndUser.MP
+- Microsoft.LS.2019.Monitoring.ComponentAndUser.mp
     
 - WatcherNode.msi
     
 ## <a name="whats-new"></a>Neuerungen
 
 Die folgenden Features sind neu bei den Skype for Business Server 2019-Verwaltungs Paketen.
-  
+
+- **Änderungen im [Sept 2019-Update](https://www.microsoft.com/download/details.aspx?id=57511) ** Bei einigen Benachrichtigungen wurden Sonderzeichen entfernt. In einigen Fällen stören Sonderzeichen die Benachrichtigungsfunktion des SCOM-Befehls Kanals.
+
 - **Automatische Ermittlung für die Client Anmeldung** Client Anwendungen, die sich bei Skype for Business Server 2019 anmelden, erkennen oft automatisch den Server, bei dem Sie sich anmelden. Synthetische Transaktionen unterstützen jetzt die Überprüfung, ob die automatische Ermittlung ordnungsgemäß konfiguriert ist.
     
 - **Angepasste synthetische Transaktions Ausführungs Intervalle** Um den Setupprozess von Watcher-Knoten zu vereinfachen, können synthetische Transaktionen Benutzerkonten freigeben. Dadurch wird die Häufigkeit reduziert, mit der die Tests ausgeführt werden, da die Tests zur Vermeidung von Konflikten serialisiert werden. Standardmäßig werden synthetische Transaktionen alle 15 Minuten ausgeführt, damit Zeit zum Ausführen aller Tests vorhanden ist. Administratoren, die mehr Benutzer oder weniger Tests pro Benutzer verwenden möchten, können jetzt auch das Ausführungsintervall verringern.

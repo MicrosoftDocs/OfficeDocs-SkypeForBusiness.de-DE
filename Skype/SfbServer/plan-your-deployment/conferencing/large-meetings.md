@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von umfangreichen Besprechungen in Skype for Business Server zu erhalten.'
-ms.openlocfilehash: 0ed044a811d4a482690be13c8626f93089aa24a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277321"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34696043"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen großer Besprechungen in Skype for Business Server
  
@@ -189,13 +189,23 @@ Erstellen Sie eine neue Konferenzrichtlinie speziell für große Besprechungen u
 > [!NOTE]
 > Die Unterstützung für große Besprechungen in Skype for Business Server setzt voraus, dass die **AllowLargeMeetings** -Einstellung auf "true" festgelegt ist. Wenn diese Einstellung auf "true" festgelegt ist, wird die Skype for Business-Benutzeroberfläche für besonders große Besprechungen optimiert, wenn Benutzer an der Besprechung teilnehmen. Insbesondere in einer umfangreichen Besprechung wird in Skype for Business nicht das erste oder das Update der vollständigen Besprechungsteilnehmer Liste angezeigt, was ein Leistungsengpass für den Client und den Skype for Business-Server darstellt. Stattdessen werden in Skype for Business nur Informationen über den Benutzer und die Liste der Referenten der Besprechung angezeigt. Skype for Business zeigt weiterhin die Gesamtzahl der Teilnehmer an, die in den umfangreichen Besprechungen zur Verfügung stehen.
 
-Die Einstellung-AllowLargeMeetings $true bewirkt Folgendes: · Blendet die Teilnehmerliste aus. · Deaktiviert Fehler im Chatfenster.
-· Deaktiviert Video mit mehreren Teilnehmern.
-· Deaktiviert die Möglichkeit zum Heraufstufen eines Teilnehmers zum Referenten. Sie müssen voraus planen und alle Referenten vor der Besprechung deklarieren.
-· Deaktiviert die Möglichkeit zum Aufheben der Stummschaltung einzelner Teilnehmer.
-· Deaktiviert die Möglichkeit, das Feature "Video Spotlight sperren" auf Teilnehmer anzuwenden.
-· Das PSTN-einwählen in den Benutzern kann die Stummschaltung mit * 6 nicht aufheben, da keine persönliche virtuelle Unterstützung vorhanden ist, die für DTMF-Befehle in aktiven groß Besprechungen verantwortlich ist.
-· Wenn der Referent/Organisator eine Besprechung plant, in der jeder zuerst stumm geschaltet werden soll ("alle stumm schalten"), werden PSTN-Benutzer während des gesamten Anrufs stumm geschaltet und können die Stummschaltung selbst nicht aufheben.
+Die **AllowLargeMeetings $true** -Einstellung bewirkt Folgendes:
+
+- Blendet die Teilnehmerliste aus. 
+
+- Deaktiviert Fehler im Chatfenster.
+
+- Deaktiviert Video mit mehreren Teilnehmern.
+
+- Deaktiviert die Möglichkeit zum Heraufstufen eines Teilnehmers zum Referenten. Sie müssen voraus planen und alle Referenten vor der Besprechung deklarieren.
+
+- Deaktiviert die Möglichkeit zum Aufheben der Stummschaltung einzelner Teilnehmer.
+
+- Deaktiviert die Möglichkeit, das Feature "Video Spotlight sperren" auf Teilnehmer anzuwenden.
+
+- Das PSTN-einwählen in den Benutzern kann die Stummschaltung selbst nicht mithilfe von 6 aufheben, da die persönliche virtuelle Unterstützung, die für DTMF-Befehle in aktiven groß Besprechungen zuständig ist, nicht vorhanden ist.
+
+- Wenn der Referent/Organisator eine Besprechung plant, in der jeder zuerst stumm geschaltet werden soll ("alle stumm schalten"), werden PSTN-Benutzer während des gesamten Anrufs stumm geschaltet und können die Stummschaltung selbst nicht aufheben.
 
 Mit Ausnahme der Einstellung **Maximale Besprechungsgröße** sind alle anderen hier angegeben Konferenzrichtlinieneinstellungen erforderlich, um die Konferenzfunktionen, die für große Besprechungen nicht erforderlich sind, zu deaktivieren.
   

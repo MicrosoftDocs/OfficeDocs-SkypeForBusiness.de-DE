@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.'
 ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34277146"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Systemanforderungen für Edge-Server in Skype for Business Server
@@ -41,7 +41,7 @@ Denken Sie daran, dass Sie die folgenden Komponenten benötigen, um Ihren Edgese
     
 - [Directors](system-requirements.md#Directors) (diese sind optional und werden auf Ihrem internen Netzwerk befinden, falls sie enthalten sind)
     
-- [Lastenausgleich](system-requirements.md#LoadBalancers) (Sie können DNS-Lastenausgleich oder ein Hardwarelastenausgleich (Hardware Load Balancer, HLB), aber für einen einzelnen Edgeserver haben, ist dies nicht erforderlich)
+- [Load](system-requirements.md#LoadBalancers) -Balancings (Sie können DNS-Lastenausgleich oder ein Hardwarelastenausgleich (Hardware Load Balancer, HLB), aber für einen einzelnen Edgeserver haben, ist dies nicht erforderlich)
     
 Zu jedem der unteren Punkte gibt es weitere Details:
   
@@ -50,11 +50,11 @@ Zu jedem der unteren Punkte gibt es weitere Details:
 
 Hierbei handelt es sich um die Skype for Business-Server, die in ihrer Umkreis Umgebung bereitgestellt werden. Ihre Rolle ist das Senden und empfangen von Netzwerkdatenverkehr an externe Benutzer für die Dienste, die von ihrer internen Skype for Business Server-Bereitstellung angeboten werden. Um dies erfolgreich durchführen zu können, wird jeder Edgeserver ausgeführt:
   
-- **Access**-Edgedienst: stellt einen einzelnen, vertrauenswürdigen Verbindungspunkt für ausgehende und eingehende SIP-Datenverkehr (Session Initiation Protocol) bereit.
+- **Access-Edgedienst**: stellt einen einzelnen, vertrauenswürdigen Verbindungspunkt für ausgehende und eingehende SIP-Datenverkehr (Session Initiation Protocol) bereit.
     
 - **Webkonferenz-Edgedienst**: ermöglicht externen Benutzern, an Besprechungen teilzunehmen, die in ihrer internen Skype for Business Server-Umgebung gehostet werden.
     
-- **A/V**-Edgedienst: ermöglicht externen Benutzern die Bereitstellung von Audio, Video, Anwendungsfreigabe und Dateiübertragung.
+- **A/V-Edgedienst**: ermöglicht externen Benutzern die Bereitstellung von Audio, Video, Anwendungsfreigabe und Dateiübertragung.
     
 - **XMPP-Proxy Dienst**: akzeptiert und sendet Nachrichten zu und von konfigurierten XMPP-Verbundpartnern (Extensible Messaging and Presence Protocol).
     
