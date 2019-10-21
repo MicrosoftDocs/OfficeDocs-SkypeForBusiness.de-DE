@@ -12,16 +12,15 @@ description: Steigen Sie in Microsoft Teams ein, indem Sie Ihre ersten Teams und
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0607544da01d6dce094f64684a717d2704acee4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 62e7b361f47c802e626821a2d3c97bc20e7c933f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241595"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569575"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -30,7 +29,7 @@ Um schnell in Microsoft Teams einzusteigen, empfehlen wir Ihnen, zwei oder drei 
 
 Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie Zugriff auf gemeinsame Notizen, Webseiten und Apps mit einem Fingertipp hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Gravitationszentrum für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
 
-![Screenshot mit den Benutzeroberflächen des Desktop- und Mobile-Clients](media/get-started-microsoft-teams.png "Screenshot mit dem Teams Desktop-Client und der Benutzeroberfläche für mobile Clients" ) 
+![Screenshot der Benutzeroberfläche des Desktops und des mobilen Clients](media/get-started-microsoft-teams.png "Screenshot der Benutzeroberfläche des Teams-Desktopclients und des mobilen Clients" ) 
 
 So stellen Sie Ihre erste Reihe von Teams und Kanälen bereit, damit Ihre Early Adopter mit dem Chatten, dem Teilen von Dateien und der Zusammenarbeit beginnen können.
 

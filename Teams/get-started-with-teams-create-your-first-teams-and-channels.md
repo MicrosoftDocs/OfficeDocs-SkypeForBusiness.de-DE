@@ -12,16 +12,15 @@ description: Erfahren Sie, wie Sie Ihre erste Reihe von Teams und Kanälen in Mi
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c70a6c7d344c656ab559031a369033774ef25dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a2dd779097119050e6aa9671b6f8ad248c9165d1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245881"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569597"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
@@ -63,7 +62,7 @@ Klicken Sie auf der linken Seite von Teams auf **Teams**, und klicken Sie dann u
 
 Laden Sie nach dem Erstellen des Teams Personen zum Beitritt ein. Sie können einzelne Benutzer, Gruppen und sogar gesamte Kontaktgruppen (vormals als “Verteilerlisten” bezeichnet) hinzufügen. 
 
-![Screenshot eines Beispiel-Teams, der den Teamnamen und die Beschreibung zeigt](media/get-started-with-teams-create-team.png "Screenshot eines Beispielteams mit dem Namen „Teams kennenlernen“, der den Teamnamen und die Beschreibung zeigt.") 
+![Screenshot eines Beispielteams, das den Namen und die Beschreibung des Teams zeigt](media/get-started-with-teams-create-team.png "Screenshot eines „Teams kennenlernen“-Beispielteams mit Teamname und -beschreibung") 
 
 ### <a name="add-a-team-owner"></a>Hinzufügen eines Teambesitzers
 Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen ˙˙˙** > **Team verwalten**. Navigieren Sie anschließend zur Registerkarte **Mitglieder**. Suchen Sie die Personen, die Sie als Teambesitzer einsetzen möchten. Klicken Sie unter **Rolle** auf **Besitzer**.
@@ -71,7 +70,7 @@ Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen 
 ### <a name="create-a-channel-in-a-team"></a>Erstellen eines Kanals in einem Team
 Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen...** > **Kanal hinzufügen**. Alternativ können Sie auf **Team verwalten** klicken und auf der Registerkarte **Kanäle** einen Kanal hinzufügen. 
 
-![Screenshot der verfügbaren Optionen, wenn man auf „Weitere Optionen“ klickt](media/get-started-with-teams-add-channel.png "Screenshot der Option „Kanal hinzufügen”, der Option „Team verwalten” und anderer Optionen, die nach dem Klicken auf „Weitere Optionen” in einem Team verfügbar sind") 
+![Screenshot der Optionen, die verfügbar sind, wenn Sie auf „Weitere Optionen“ klicken](media/get-started-with-teams-add-channel.png "Screenshot der Option „Kanal hinzufügen“, der Option „Team verwalten“ und anderer Optionen, die nach dem Klicken auf „Weitere Optionen“ in einem Team verfügbar sind") 
 
 Geben Sie dem Kanal einen anschaulichen Namen, damit die Benutzer den Zweck des Kanals leichter verstehen können. 
 
@@ -79,7 +78,7 @@ Als Teambesitzer können Sie Kanäle dem gesamten Team automatisch vorschlagen, 
 
 Dies ist ein Beispiel für den "Gewusst wie"-Kanal im Team "Teams kennenlernen" mit angehefteten Registerkarten, die Links zu Teams-Webseiten, &ndash; Teams-Videoschulung, dem Teams-Hilfecenter und Teams-Downloadlinks enthalten. 
 
-![Screenshot von Registerkarten, die an ein Beispielteam angeheftet sind](media/get-started-with-teams-add-tabs.png "Screenshot von Registerkarten, die an das Beispielteam „Teams kennenlernen” angeheftet sind.") 
+![Screenshot von Registerkarten, die an das Beispielteam angeheftet sind](media/get-started-with-teams-add-tabs.png "Screenshot von Tabs, die an das Beispielteam „Teams kennenlernen“ angeheftet sind.") 
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zu [Onboarding von Early Adopters](get-started-with-teams-onboard-early-adopters.md).
