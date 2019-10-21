@@ -347,6 +347,7 @@
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Medienpfad-Landesvorwahl](direct-routing-country-codes.md)
 #### [PowerShell-Skript zum Testen von Session Border Controller-Verbindungen](sip-tester-powershell-script.md)
+#### [Verwalten von Anrufbenachrichtigungen](direct-routing-call-notifications.md)
 
 ## Telefonnummern
 ### [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,6 +810,7 @@
 ### [Empfehlungen für Hardware Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md)
 ### [Installieren von Teams mithilfe von MSI](msi-deployment.md).
 ### [Aktivieren von Teams in Ihrer Organisation](Office-365-set-up.md)
+### [Teamdateien und -ordner, die vom Antivirusscan ausgeschlossen werden sollen](teams-files-folders-antivirus-perf.md)
 ### [URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams für Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Bereitstellen von Teams für Surface Hub](teams-surface-hub.md)
