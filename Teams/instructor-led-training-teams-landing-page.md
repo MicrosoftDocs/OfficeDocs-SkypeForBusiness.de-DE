@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484015"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570724"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Kursleitergeführte Schulung für Microsoft Teams</h1>
-Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Wenn Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, finden Sie bestimmt den richtigen Kurs. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Weitere Schulungsmöglichkeiten, darunter On-Demand-Versionen von Liveschulungen, finden Sie hier: <a href="https://docs.microsoft.com/microsoftteams/enduser-training">On-Demand-Endbenutzerschulungen</a>.<br><br>Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
+Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Wenn Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, finden Sie bestimmt den richtigen Kurs. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere <a href="https://aka.ms/TeamsOnDemand">On-Demand-Schulung für Endbenutzer</a>.<br><br>Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -144,8 +143,8 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
                     </div>
                     <div class="cardText">
                         <h3>Teams für US-Regierung (GCC)</h3>
-                        <p>Erfahren Sie in unserer interaktiven Übersicht über Teams in Office 365 GCC, welches bewährte Methoden für die Zusammenarbeit sind.</p>
-                    <p><i>Zielgruppe: IT-Spezialisten, Endbenutzer</i></p>
+                        <p>Erfahren Sie in unserer interaktiven Übersicht über Teams in Office 365 GCC, welche bewährte Methoden für die Zusammenarbeit sind.</p>
+                    <p><i>Zielgruppe: alle</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mitarbeiter in Service und Produktion mit Teams</h3>
-                        <p>Erfahren Sie mehr über die Funktionen für Mitarbeiter in Service und Produktion in Teams.</p>
+                        <h3>Erlernen der Verwendung von Apps in Teams</h3>
+                        <p>Erfahren Sie, wie Sie Teamwork mit Apps verbessern.</p>
                         <p><i>Zielgruppe: Endbenutzer</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Mitarbeiter in Service und Produktion mit Teams</h3>
+                        <p>Erfahren Sie mehr über die Funktionen für Mitarbeiter in Service und Produktion in Teams.</p>
+                        <p><i>Zielgruppe: Endbenutzer</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>
