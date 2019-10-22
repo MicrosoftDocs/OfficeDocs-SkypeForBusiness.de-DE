@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645248"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616088"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -208,3 +208,14 @@ Neue Skype for Business-Benutzer werden automatisch für Cloud Voicemail bereitg
 #### <a name="admin-auto-attendant-management-experience"></a>Verwaltungserfahrung des Administrators für die automatische Telefonzentrale 
 
 Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+
+#### <a name="known-issues"></a>Bekannte Probleme
+
+**Freigegebenes Postfach:** Ein freigegebenes Postfach, das mit Exchange um Online konfiguriert ist, erhält weiterhin Nachrichten, nachdem es in das zusammen gehen migriert wurde, und wird weiterhin für Benutzer über Outlook zugänglich sein. Der Zugriff zum Ändern der Grußnachrichten dieser Postfächer steht jedoch nicht mehr zur Verfügung, sobald Sie in das Unternehmen migriert wurden. Kunden mit freigegebenen Postfächern, die zum Erfassen der automatischen Telefonzentralen-Anrufer verwendet werden, sollten die Funktionen für automatische Telefonzentralen und freigegebene Postfächer nach der Veröffentlichung (ETA Oktober 2019) nutzen.
+  
+**Upgrade auf das Banner "Teams" auf dem SFB-Client:** Der Dienst "Dienstleistungen" basiert auf der Microsoft Teams-Infrastruktur. Anrufe von Skype for Business-Client können dazu führen, dass ein Informationsbanner auf dem Client angezeigt wird, der lautet: "Nutzername verwendet Skype for Business nicht. Für eine umfassendere Nutzung wechseln Sie zu Teams oder starten Sie eine Skype-Besprechung. "
+Achten Sie darauf, den Skype for Business-Client Ihrer Benutzer auf das neueste C2R-Client Update zu aktualisieren, um zu verhindern, dass dieses Banner angezeigt wird. 
+  
+Wenn **Sie Ihre Voicemail einrichten, gelangen Sie zu OWA:** Wenn Sie auf "Voicemail einrichten" klicken, werden die Skype for Business Server 2015/2013-Kunden weiterhin auf die Office Web Access-Portalseite (OWA) übertragen, nachdem Sie nach der Migration zu einem solchen Programm migriert haben. Alle Einstellungen wurden von der Registerkarte "Voicemail" in OWA entfernt, und ein Banner wird mit einem Redirect-Link angezeigt, um die Benutzer in das Benutzereinstellungen-Portal zu übernehmen. 
+ 
+**Ändern des mobilen Zugriffs auf Grußkarten:** Der Zugriff auf den PSTN-Abonnenten wird in der Zugriffssteuerung nicht unterstützt. Für Benutzer, die Ihre Ansage Remote ändern müssen, wird der Voicemail IVR-Dienst für mobile Clients die Menüoption "Ihre Ansage ändern" hinzugefügt. Benutzer können diesen Service anrufen, indem Sie die Taste "1" auf der Wähltastatur des mobilen Clients gedrückt halten. 

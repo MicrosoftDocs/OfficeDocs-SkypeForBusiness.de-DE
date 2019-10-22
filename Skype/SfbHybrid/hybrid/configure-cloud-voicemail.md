@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren von Cloud-basierter Voicemail für Benutzer, die in Skype for Business Server verwaltet werden.
-ms.openlocfilehash: 99fc250ff4c01a0b51e784c165edb99cbb867b3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160574"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616073"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren des Cloud Voicemail-Diensts für lokale Benutzer
 
@@ -75,7 +75,7 @@ Um sicherzustellen, dass Voicemail für Ihre Organisation an den Cloud-Voicemail
 Um die globale Richtlinie zu ändern, führen Sie den folgenden Befehl in der Skype for Business Server-Verwaltungsshell aus, nachdem Sie Ihre Organisation und die Mandanten-und Verwaltungskonsole aktualisiert haben:
 
 ```
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -TenantID “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
 - **Destination** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Cloud-Voicemail-Diensts an. Dieser Wert sollte auf **exap.um.Outlook.com**festgelegt werden.
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     Der Name der Organisation ist auch der Standarddomänenname in Office 365.
 
-- **Mandanten** -Nr wird verwendet, um ihren Mandanten in Office 365 zu identifizieren. Weitere Informationen finden Sie unter [Suchen Ihrer Office 365 Mandanten-ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- **Mandant** wird verwendet, um ihren Mandanten in Office 365 zu identifizieren. Weitere Informationen finden Sie unter [Suchen Ihrer Office 365 Mandanten-ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Um sicherzustellen, dass eine Richtlinie für gehostete Voicemail erfolgreich erstellt wurde, führen Sie den folgenden Befehl aus:
 

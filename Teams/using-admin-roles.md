@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1keywords:
 - ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
 - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
@@ -19,12 +18,12 @@ ms.reviewer: islubin
 description: Erfahren Sie, wie Sie die verschiedenen administrativen Rollen zum Verwalten von Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0bc064e6f01b215f4af53a3e7cb51f2b529cd4a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 97288109f7998a8d29520169e229a5546da94bc5
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483880"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616057"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams
 
@@ -41,7 +40,7 @@ Vier Teams-Administratorrollen sind verfügbar: Teams-Dienstadministrator, Teams
 | Rolle | kann diese Aufgaben ausführen | kann auf die folgenden Tools zugreifen |
 |----- | ------------------ | ------------------------------ |
 | Teams-Dienstadministrator | Verwalten des Microsoft Teams-Diensts und Verwalten und Erstellen von Office 365-Gruppen | Alles im Microsoft Teams Admin Center und zugeordneten PowerShell-Steuerelementen, darunter:<ul><li> Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken.<sup>1,3</sup></li><li>Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung.<sup>1</sup></li><li>Verwalten von Messaging einschließlich Messagingrichtlinien.<sup>1,3</sup></li><li>Verwalten aller organisationsweiten Einstellungen einschließlich Partnerverbund, Microsoft Teams-Upgrade und Einstellungen des Microsoft Teams-Clients<sup>1,3</sup></li><li>Verwalten Sie die Teams in der Organisation und ihre zugehörigen Einstellungen einschließlich der Mitgliedschaft (über PowerShell unterstützte Gruppenverwaltung, Teamverwaltung im Teams Admin Center).<sup>23</sup></li><li>Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung von Problemen mit der Qualität von Benutzeranrufen mithilfe des erweiterten Problembehandlungstoolsets<sup>3</sup> </li><li> Greifen Sie auf die Anrufqualität und Zuverlässigkeit des Mandanten zu, überwachen Sie sie und behandeln Sie Probleme damit mithilfe von Daten, die im Anrufqualitäts-Dashboard (CQD) angezeigt werden, bis hin zu den von schlechter Anrufqualität betroffenen Benutzern. Erstellen Sie neue Berichte, aktualisieren Sie sie und entfernen Sie sie nach Bedarf. Hochladen und Aktualisieren von CQD-Gebäudedaten.</li><li> [Veröffentlichen von Apps im Mandanten-App-Katalog vom Teams-Client aus](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams)</li></ul> |
-| Teams-Kommunikationsadministrator | Verwalten von Anruf- und Besprechungsfunktionen innerhalb des Microsoft Teams-Diensts. | Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken.<sup>1,3</sup><br><br> Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung.<sup>1</sup><br><br> Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung von Problemen mit der Qualität von Benutzeranrufen mithilfe des erweiterten Problembehandlungstoolsets<sup>3</sup> <br><br> Greifen Sie auf die Anrufqualität und Zuverlässigkeit des Mandanten zu, überwachen Sie sie und behandeln Sie Probleme damit mithilfe von Daten, die im Anrufqualitäts-Dashboard (CQD) angezeigt werden, bis hin zu den von schlechter Anrufqualität betroffenen Benutzern. Erstellen Sie neue Berichte, aktualisieren Sie sie und entfernen Sie sie nach Bedarf. Hochladen und Aktualisieren von CQD-Gebäudedaten.|
+| Teams-Kommunikationsadministrator | Verwalten von Anruf- und Besprechungsfunktionen innerhalb des Microsoft Teams-Diensts. | Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken.<sup>1,3</sup><br><br> Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung.<sup>1</sup><br><br> Zeigen Sie die Benutzerprofilseite an, und beheben Sie Probleme mit der Benutzer Anrufqualität mit dem Toolset für erweiterte Problembehandlung. <sup>3</sup> <br><br> Greifen Sie auf die Anrufqualität und Zuverlässigkeit des Mandanten zu, überwachen Sie sie und behandeln Sie Probleme damit mithilfe von Daten, die im Anrufqualitäts-Dashboard (CQD) angezeigt werden, bis hin zu den von schlechter Anrufqualität betroffenen Benutzern. Erstellen Sie neue Berichte, aktualisieren Sie sie und entfernen Sie sie nach Bedarf. Hochladen und Aktualisieren von CQD-Gebäudedaten.|
 | Supporttechniker für die Teams-Kommunikation | Ausführen einer Problembehandlung von Kommunikationsproblemen innerhalb von Microsoft Teams unter Verwendung **erweiterter** Tools. | Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung von Problemen mit der Qualität von Benutzeranrufen mithilfe des erweiterten Problembehandlungstoolsets<sup>3</sup> <br><br> Greifen Sie auf die Anrufqualität und Zuverlässigkeit des Mandanten zu, überwachen Sie sie und behandeln Sie Probleme damit mithilfe von Daten, die im Anrufqualitäts-Dashboard (CQD) angezeigt werden, bis hin zu den von schlechter Anrufqualität betroffenen Benutzern. |
 | Supportfachmann für die Teams-Kommunikation | Ausführen einer Problembehandlung von Kommunikationsproblemen innerhalb von Microsoft Teams unter Verwendung **grundlegender** Tools.| Zugreifen auf Benutzerprofilseiten, um mit der Anrufanalyse eine Problembehandlung von Anrufen durchzuführen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup> <br><br> Greifen Sie auf die Anrufqualität und Zuverlässigkeit des Mandanten zu, überwachen Sie sie und behandeln Sie darauf bezogene Probleme mithilfe von Daten, die im Anrufqualitäts-Dashboard (CQD) angezeigt werden.  
 

@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+description: Problembehandlung beim Erstellen einer Remote-PowerShell-Sitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Import Modul, paralleler Shell, Live-ID und Berechtigungsfehlern.
+ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062208"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615972"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -49,6 +49,13 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
 
 - [Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten in Skype for Business Online wurde überschritten](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> Standardmäßig sind PowerShell-Sitzungen nach 60 Minuten Timeout. Um die Verbindung wiederherzustellen, müssen Sie die Sitzung schließen und eine neue PowerShell-Sitzung starten. Eine neue Version von [Skype for Business Online, Windows PowerShell-Modul (2046,123-veröffentlicht 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), wurde kürzlich gestartet, das ein neues Cmdlet namens **enable-CsOnlineSessionForReconnection** enthält, das die 60 Minuten verringert Timeout Problem.
+> Die PowerShell-Sitzung wird erneut verbunden und authentifiziert, sodass Sie wieder verwendet werden kann, ohne dass eine neue Instanz gestartet werden muss, um erneut eine Verbindung herzustellen.
+
+
+
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>„Import-Module"-Fehler aufgrund der Windows PowerShell-Ausführungsrichtlinie
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
