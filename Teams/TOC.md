@@ -28,6 +28,7 @@
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)
 ## [Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Ablauf und Verlängerung von Microsoft Teams](team-expiration-renewal.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 
 
