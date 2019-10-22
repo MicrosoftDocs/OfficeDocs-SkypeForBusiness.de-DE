@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5dc1dcdb679ff9629d5b2da495865b724e1401d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566520"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615982"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -98,6 +98,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
+|Maximale Größe von PowerPoint-Dateien | 2GB|
 
 ## <a name="teams-live-events"></a>Teams-Liveereignisse
 
