@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242404"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749273"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -75,7 +75,7 @@ Teams ist eine transformative Technologie, und abhängig von der Größe Ihrer O
 | Teams zuerst | Team-Core | Teams gehen groß | Skype nebeneinander | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Führen der Cloud-Bereitstellung mit Teams | Lead Zusammenarbeitsszenario-Aktivierung mit Teams | Alle Mitarbeiter in Teams und organisationsweiten Teams | Aktivieren von Teams und Skype for Business | Migrieren von Benutzern von Skype for Business zu Teams |
-| -Anwendbar auf neue oder niedrige Nutzung von Office 365-Kunden <br/>-Führen mit Teams in kundenspezifischem Szenario <br/>– Integrierte Benutzeroberfläche und beschleunigte Wertschöpfung für Office 365 <br/>-Durchführen einer Zusammenarbeit zur Vermeidung der seriellen Implementierung | -Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen eines Unternehmensintranets zum Freigeben von Nachrichten Ressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen**: <br/>Teams<br/>SharePoint<br/>Jammern<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 1000 Plätzen (aktuelle Beschränkung)<br/>– Aktivieren der organisationsübergreifenden Zusammenarbeit mit einem Team für alle<br/>-Automatisieren allgemeiner Aufgaben (Urlaubsanfragen, Mitarbeiterbefragungen, Executive-Engagement) |-Einsatz von Teams-Core-Taktiken zur Beschleunigung der Zusammenarbeit<br/>– Hervorheben von Szenarien für Besprechungen auf der Grundlage der erforderlichen Größe und Funktionsgruppe</br>-Nutzung von Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybrid Szenarien<br/>– Verwenden der öffentlichen Roadmap für die Planung von Funktionen |-Planen des Umzugs in Teams von Skype for Business durch Erstellen einer Service Strategy-Roadmap für den Kunden<br/>-An Funktionsfreigabe Zeitplan anfügen<br/>-Empfehlen Sie, dass Sie den Übergang von Seite zu Seite und Teams Core erleichtern
+| -Anwendbar auf neue oder niedrige Nutzung von Office 365-Kunden <br/>-Führen mit Teams in kundenspezifischem Szenario <br/>– Integrierte Benutzeroberfläche und beschleunigte Wertschöpfung für Office 365 <br/>-Durchführen einer Zusammenarbeit zur Vermeidung der seriellen Implementierung | -Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen eines Unternehmensintranets zum Freigeben von Nachrichten Ressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen**: <br/>Teams<br/>SharePoint<br/>Jammern<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 5000 Plätzen (aktuelle Beschränkung)<br/>– Aktivieren der organisationsübergreifenden Zusammenarbeit mit einem Team für alle<br/>-Automatisieren allgemeiner Aufgaben (Urlaubsanfragen, Mitarbeiterbefragungen, Executive-Engagement) |-Einsatz von Teams-Core-Taktiken zur Beschleunigung der Zusammenarbeit<br/>– Hervorheben von Szenarien für Besprechungen auf der Grundlage der erforderlichen Größe und Funktionsgruppe</br>-Nutzung von Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybrid Szenarien<br/>– Verwenden der öffentlichen Roadmap für die Planung von Funktionen |-Planen des Umzugs in Teams von Skype for Business durch Erstellen einer Service Strategy-Roadmap für den Kunden<br/>-An Funktionsfreigabe Zeitplan anfügen<br/>-Empfehlen Sie, dass Sie den Übergang von Seite zu Seite und Teams Core erleichtern
 
 Die folgenden Empfehlungen gelten für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Wenn Sie Anleitungen für ein Szenario erhalten möchten, das hier nicht behandelt wird, stellen Sie Ihre Fragen in unserer Driving Adoption-Community, oder wenden Sie sich an das schnell Team oder das Microsoft-Partnernetzwerk.
 

@@ -3,7 +3,6 @@ title: Gastfunktionalität
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -16,27 +15,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563475"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753430"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
 
-Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willkommensnachricht mit einigen Informationen über das Team und darüber, was er als Teammitglied zu erwarten hat. Der Gast muss die Einladung in der E-Mail-Nachricht annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
+Wenn ein Gast zur Teilnahme an einem Team eingeladen wird, erhält er eine Willkommens-e-Mail-Nachricht. Diese Nachricht enthält einige Informationen über das Team und was Sie jetzt erwarten können, wenn Sie Mitglied sind. Der Gast muss die Einladung akzeptieren, indem er in der e-Mail-Nachricht **Microsoft Teams öffnen** auswählt, bevor er auf das Team und seine Kanäle zugreifen kann.
     
 ![Screenshot mit einem Beispiel einer Willkommens-e-Mail-Nachricht](media/guest-experience-image1.png)
     
-Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispiel Teams zu sehen ist, wird in einem Banner "dieses Team hat Gäste" angezeigt, und neben dem Namen jedes Gasts wird eine "(Gast)"-Beschriftung angezeigt.
+Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispiel Teams zu sehen ist, wird in einem Banner "dieses Team hat Gäste" angezeigt, und neben dem Namen jedes Gasts wird eine **(Gast-)** Beschriftung angezeigt.
     
 ![Screenshot mit Banner Benachrichtigungs Gastbenutzern](media/guest-experience-image2.png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, die mit dem Wort Guest neben dem Namen der Person gekennzeichnet sind.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich von Teammitgliedern und Gast Funktionen
 
-In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
+In der folgenden Tabelle werden die für die Teammitglieder und ihre Gäste des Unternehmens verfügbaren Funktionen für Teams verglichen.
 
 |**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
 |:-----|:-----|:-----|
@@ -56,9 +55,9 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 |Organisationschat anzeigen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Verwenden der Inline Übersetzung  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-In der folgenden Tabelle sind die Anruf-und besprechungsfeatures aufgeführt, die den Gästen zur Verfügung stehen.
+In der folgenden Tabelle sind die für Gäste verfügbaren Anruf-und besprechungsfeatures im Vergleich zu anderen Benutzertypen aufgeführt.
 
-| Anruffunktion | Gäste | E1-und E3-Benutzer | E5 und EV-Benutzer |
+| Anruffunktion | Gäste | E1-und E3-Benutzer | E5 und Enterprise-VoIP-Benutzer |
 | --------------- | ----- | -------------- | -------------- |
 | VoIP-Anrufe | Ja | Ja  | Ja  |
 | Gruppenanrufe | Ja | Ja  | Ja  |
@@ -91,36 +90,29 @@ In der folgenden Tabelle sind die Anruf-und besprechungsfeatures aufgeführt, di
 
 > [!NOTE]
 > Office 365-Administratoren steuern die für Gäste verfügbaren Funktionen. 
- 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-F. Wie verlasse ich eine Organisation, zu der ich eingeladen wurde?<br>
-Eine. Wenn Sie zu einer Organisation eingeladen wurden, in der Sie nicht Gast sein möchten, können Sie die Organisation belassen. Weitere Informationen finden Sie unter [verlassen einer Organisation als Gastbenutzer](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Alternativ können Sie den Administrator der Organisation bitten, Sie von Ihrem Mandanten zu entfernen. Beachten Sie, dass Sie in beiden Fällen erneut zu dem Mandanten eingeladen werden müssen, wenn Sie zukünftig auf die Organisation zugreifen möchten.
+### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>Wie verlasse ich eine Organisation, zu der ich eingeladen wurde?
+Wenn Sie zu einer Organisation eingeladen wurden, in der Sie nicht Gast sein möchten, können Sie die Organisation belassen. Weitere Informationen finden Sie unter [verlassen einer Organisation als Gastbenutzer](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternativ können Sie den Administrator der Organisation bitten, Sie von Ihrem Mandanten zu entfernen. Beachten Sie, dass Sie in beiden Fällen erneut zu dem Mandanten eingeladen werden müssen, wenn Sie zukünftig auf die Organisation zugreifen möchten.
 
-F. Haben Gäste die gleichen Fähigkeiten wie Teammitglieder?<br>
-Eine. Nummer Weitere Informationen dazu, was ein Gast tun kann und was nicht, finden Sie unter [Vergleich von Teammitgliedern und Gast Funktionen](#comparison-of-team-member-and-guest-capabilities) in diesem Artikel.
+### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>Haben Gäste die gleichen Fähigkeiten wie Teammitglieder?
+Nummer Weitere Informationen dazu, was ein Gast tun kann und was nicht, finden Sie unter [Vergleich von Teammitgliedern und Gast Funktionen](#comparison-of-team-member-and-guest-capabilities) in diesem Artikel.
 
-F. Wie viele Gäste kann ich einladen?<br>
-Eine. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
+### <a name="do-guests-have-access-to-onedrive-for-business"></a>Haben Gästezugriff auf OneDrive for Business?
+Nummer
 
-F. Haben Gästezugriff auf OneDrive for Business?<br>
-Eine. Nummer
+### <a name="do-guests-have-access-to-sharepoint-files"></a>Haben Gästezugriff auf SharePoint-Dateien?
+Ja.
 
-F. Haben Gästezugriff auf SharePoint-Dateien?<br>
-Eine. Ja.
+### <a name="can-guests-search-within-files"></a>Können Gäste in Dateien suchen?
+Nummer
 
-F. Können Gäste in Dateien suchen?<br>
-Eine. Nummer
+### <a name="can-guests-attach-files"></a>Können Gäste Dateien anfügen?
+Ja, ein Gast kann Dateien auf diese zwei Arten anfügen:
 
-F. Können Gäste Dateien anfügen?<br>
-Eine. Ja, ein Gast kann Dateien auf diese zwei Arten anfügen:
-
-   - Wählen Sie im linken Bereich Dateien aus, und navigieren Sie dann zum Dateispeicherort.
+   - Wählen Sie im linken Bereich **Dateien** aus, und navigieren Sie dann zum Dateispeicherort.
    - Laden Sie Dateien von Ihrem Computer hoch.
 
-F. Kann ein Gast eine Datei in einem privaten Chat herunterladen?<br>
-Eine. Ja, Sie können eine Datei von einem Mitglied in einem privaten Chat empfangen und dann auf Ihren Desktop herunterladen.
+### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>Kann ein Gast eine Datei in einem privaten Chat herunterladen?
+Ja, Sie können eine Datei von einem Mitglied in einem privaten Chat empfangen und dann auf Ihren Desktop herunterladen.

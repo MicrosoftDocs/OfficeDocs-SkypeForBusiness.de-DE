@@ -3,12 +3,11 @@ title: Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242620"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753350"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 ===================================================
 
-Als Office 365-Administrator müssen Sie die Gastfunktion aktivieren, bevor Sie oder die Benutzer Ihrer Organisation (vor allem Teambesitzer) Gäste hinzufügen können.
+Standardmäßig ist der Gastzugriff deaktiviert. Als Office 365-Administrator müssen Sie den Gastzugriff für Teams aktivieren, bevor die Administratoren oder Teambesitzer Gäste hinzufügen können. Verwenden Sie die [Checkliste für den Gastzugriff](guest-access-checklist.md), um den Gastzugriff zu aktivieren. 
 
-Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
+Nachdem Sie den Gastzugriff aktiviert haben, dauert es 2-24 Stunden, bis die Änderungen wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind.
 
 > [!IMPORTANT]
-> Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
+> Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Office 365, SharePoint Online und Teams ab. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Konfigurieren von Teams im Admin Center für Microsoft Teams
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Konfigurieren des Gastzugriffs im Team Admin Center
 
 1.  Melden Sie sich beim Admin Center für Microsoft Teams an.
 
 2.  Wählen Sie **Organisationsweite Einstellungen** > **Gastzugriff** aus.
 
-3. Legen Sie **Gastzugriff in Teams ermöglichen** auf **An** fest.
+3. **Aktivieren Sie "** **Gastzugriff in Microsoft Teams zulassen** ".
 
     ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/set-up-guests-image1.png)
 
-4.  Legen Sie die Schalter unter **Anruf**, **Besprechung** und **Messaging** je nach den Funktionen, die Sie Gastbenutzern bereitstellen möchten, auf **An** oder **Aus** fest.
+4.  Wählen Sie unter **anrufen**, **Besprechungen**und nach **richten**für jede Funktion **ein** oder **aus** , je nachdem, was Sie für Gastbenutzer zulassen möchten.
 
     - **Private Anrufe führen**: **Aktivieren** Sie diese Einstellung, um Gästen Peer-to-Peer-Anrufe zu ermöglichen.
     - **IP-Video zulassen**: **Aktivieren** Sie diese Einstellung, damit Gäste Video in ihren Anrufen und Besprechungen verwenden dürfen.
@@ -73,45 +70,16 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
 5.  Klicken Sie auf **Speichern**.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden Sie PowerShell zum Aktivieren oder Deaktivieren von Gastzugriff.
+Lesen [Verwenden von PowerShell zum Aktivieren oder Deaktivieren des Gastzugriffs](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  Laden Sie das Skype for Business Online PowerShell-Modul unter https://www.microsoft.com/en-us/download/details.aspx?id=39366 herunter.
- 
-2.  Verbinden Sie eine PowerShell-Sitzung mit dem Skype for Business Online-Endpunkt.
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  Überprüfen Sie Ihre Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) zum Einstellen auf `$True`.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-Sie können jetzt Gastbenutzer für Ihre Organisation in Teams unterstützen.
-
-## <a name="more-information"></a>Weitere Informationen
-
-In den folgenden Videos erfahren Sie mehr über den Gastzugriff.
+## <a name="video-adding-guests-in-teams"></a>Video: Hinzufügen von Gästen in Teams
 
 |  |  |
 |---------|---------|
 | Hinzufügen von Gästen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Föderation) vs. Gastzugriff
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

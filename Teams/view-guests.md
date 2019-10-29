@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d586ca6f05fc52812506a020ff707fd1fc45eb46
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 16c2c65bc63e41e712be740c68edcc57916d347b
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562996"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753230"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================
@@ -30,12 +29,9 @@ Jeder in einem Team kann alle Mitglieder eines Teams, einschließlich Gäste, ü
 
 So identifizieren Sie Gastbenutzer:
 
-1.  Anmelden beim Microsoft 365 Admin Center.
+1.  Melden Sie sich beim Microsoft 365 Admin Center an.
 2.  Wählen Sie **Admin Center** > **Teams**aus.
 3.  Wählen Sie im Microsoft Teams Admin Center die Option **Benutzer**aus. **Guest** wird an den Anzeigenamen von Gastbenutzern angefügt.
   
 Sie können Gastbenutzer auch innerhalb eines Teams identifizieren, das Sie besitzen.  
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

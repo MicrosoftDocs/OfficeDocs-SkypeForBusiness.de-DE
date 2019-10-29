@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31aa30401f345d58c4c30cffbc89c618ea94b0cb
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483957"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749283"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>Upgrade Basic
+
+<a name="about-upgrade-basic"></a>
 
 Die Upgrade Basic-Checkliste ist für kleinere Organisationen oder diejenigen gedacht, die Skype for Business Online für Chats und Besprechungen nutzen, und bietet einen gestrafften Aktionsplan mit den wichtigsten empfohlenen Aktivitäten und den zugehörigen Ressourcen für einen erfolgreichen Wechsel von Skype for Business zu Teams.
 
@@ -41,7 +41,7 @@ Diese zehn einfachen Schritte decken alles ab, was Sie für ein erfolgreiches Up
 Was geschieht mit Skype for Business nach dem Upgrade? Nach dem Upgrade der Benutzer auf Microsoft Teams (Modus **Teams only** (Nur Microsoft Teams)) gilt Folgendes:
 
 - Der Skype for Business-Client der Benutzer ist deaktiviert und kann nicht mehr verwendet werden, alle Chats und Anrufe laufen dann über Microsoft Teams. Beachten Sie, dass der Client dabei nicht von ihren Desktops deinstalliert wird.
-- Vor dem Upgrade geplante Skype for Business-Besprechungen funktionieren wie vorgesehen, aber alle neuen Besprechungen werden in Microsoft Teams geplant.
+- Vor dem Upgrade geplante Skype for Business-Besprechungen funktionieren wie vorgesehen, aber alle neuen Besprechungen werden in Microsoft Teams geplant. Das Skype for Business-Plugin steht in Outlook nicht mehr zur Verfügung. 
 - Wenn Benutzer versuchen, sich bei Skype for Business anzumelden, werden sie vom Client benachrichtigt, dass sie auf Microsoft Teams aktualisiert wurden.
 - Auf mobilen Geräten müssen die Benutzer den Skype for Business-Client manuell deinstallieren.
 
@@ -73,7 +73,7 @@ Leitende Mitarbeiter sind für den Erfolg des Unternehmens verantwortlich. Achte
 
 *(Ca. vier bis sechs Wochen vor dem Upgrade)*
 
-Teams bietet mit Skype for Business kompatible Funktionen wie etwa Chat und Meetings, es kann aber noch weitaus mehr. Als echter Hub für die Teamarbeit ermöglicht Teams Arbeitsgruppen die Verwaltung von Projekten, Dateien, Unterhaltungen und Apps an einem Ort. Entscheiden Sie, wie Ihre Organisation Teams verwenden soll, um ideale Rahmenbedingungen für den Erfolg zu schaffen.
+Teams bietet mit Skype for Business kompatible Funktionen wie etwa Chat und Meetings, es kann aber noch weitaus mehr. Als echter Hub für die Teamarbeit ermöglicht Teams Arbeitsgruppen die Verwaltung von Projekten, Dateien, Unterhaltungen und Apps an einem Ort. Microsoft Teams ist standardmäßig für alle Organisationen aktiviert. Entscheiden Sie, wie Ihre Organisation Teams verwenden soll, um ideale Rahmenbedingungen für den Erfolg zu schaffen. 
 
 > [!Note]
 > Als bestehender Skype for Business-Kunde ist Ihre aktuelle Netzwerkinfrastruktur wahrscheinlich bereits für Teams konfiguriert. Um dies zu überprüfen können Sie die nachstehend verlinkte Anleitung für das „Durchführen der technischen Planung“ befolgen (optional).
@@ -81,9 +81,7 @@ Teams bietet mit Skype for Business kompatible Funktionen wie etwa Chat und Meet
 **Ressourcen:**
 
 - [Übersicht über Microsoft Teams](Teams-overview.md)
-- [Informationen zu Teams und Kanälen](teams-channels-overview.md)
-- [Durchführen der technischen Planung](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Microsoft Teams Rooms verwalten](https://aka.ms/MTRDocs)
+- [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Nach oben](#about-upgrade-basic)
 
