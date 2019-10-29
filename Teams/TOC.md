@@ -47,21 +47,30 @@
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## Kommunikation mit externen Benutzern
+### [Kommunizieren mit Benutzern aus anderen Organisationen](communicate-with-users-from-other-organizations.md)
 
-## Gastzugriff
-### [Informationen zum Gastzugriff](guest-access.md)
-### [Beitritt eines Gasts zu einem Team](guest-joins.md)
-### [Gastfunktionalität](guest-experience.md)
-### [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)
-### [Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams](set-up-guests.md)
-### [Verwalten des Gastzugriffs in Microsoft Teams](manage-guests.md)
-### [Hinzufügen eines Gasts zu einem Team](add-guests.md)
-### [Anzeigen von Gastbenutzern in einem Team](view-guests.md)
-### [Bearbeiten von Gastbenutzerinformationen](edit-guests-information.md)
-### [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-PowerShell.md)
-### [Checkliste für den Gastzugriff](guest-access-checklist.md)
+### Externer Zugriff (Partnerverbund)
+#### [Verwalten der externen Zugriffsrichtlinie](manage-external-access.md)
+#### [Nativer Teams-Chat für externe Benutzer](native-chat-for-external-users.md)
 
-## [Externer Zugriff (Partnerverbund)](manage-external-access.md)
+
+### Gastzugriff
+#### [Informationen zum Gastzugriff](guest-access.md)
+#### [Checkliste für den Gastzugriff](guest-access-checklist.md)
+#### [Beitritt eines Gasts zu einem Team](guest-joins.md)
+#### [Gastfunktionalität](guest-experience.md)
+#### [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)
+#### [Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams](set-up-guests.md)
+#### [Verwalten des Gastzugriffs in Microsoft Teams](manage-guests.md)
+#### [Hinzufügen eines Gasts zu einem Team](add-guests.md)
+#### [Anzeigen von Gastbenutzern in einem Team](view-guests.md)
+#### [Bearbeiten von Gastbenutzerinformationen](edit-guests-information.md)
+#### [Verwenden von PowerShell zum Steuern des Gastzugriffs](guest-access-PowerShell.md)
+#### [Problembehandlung beim Gastzugriff](troubleshoot-guest-access.md)
+
+
+
 
 ## Verwalten von Teams
 ### [Administratorrollen](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [Übersicht der Patienten-App](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [Überwachungsprotokolle für die Patienten-App](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams für Bildung](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
