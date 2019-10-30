@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590138"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772349"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Hardwareanforderungen für die Microsoft Teams-App
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590138"
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatible Mikrofone und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
 |Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale Hintergrund Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Hardware Anforderungen für die Desktop-App "Teams" unter Linux
+
+|**Komponente**|**Anforderung**  |
+|---------|---------|
+|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher) (32-Bit oder 64-Bit).        |
+|Arbeitsspeicher     |    2,0 GB Arbeitsspeicher     |
+|Festplatte    | 3,0 GB verfügbarer Speicherplatz        |
+|Anzeige    |   1024 x 768 Bildschirmauflösung |
+|Grafikhardware |  Minimaler 128 MB-Grafikspeicher
+|Betriebssystem  | Linux-Distribution, die deb, Snap oder RPM installieren kann. |
+|Video    |  USB 2,0-Videokamera       |
+|Geräte    |   Standard-Laptop Kamera,-Mikrofon und-Lautsprecher    | 
+|VoIP    |  Kompatible Mikrofone und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
+|Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale Hintergrund Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Hardware Anforderungen für die Teams-App auf mobilen Geräten
 

@@ -14,12 +14,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht "Geräteverwendung für Teams" verwenden, um zu sehen, wie Benutzer in Ihrer Organisation mit Teams verbunden sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 76831972e4f813b9e7b8c0dcc9a8cdbebb9e3a34
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568397"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772608"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams – Gerätenutzungsbericht
 
@@ -38,8 +38,8 @@ Der Bericht "Teams-Gerätenutzung" im Microsoft Teams Admin Center bietet Inform
 |--------|-------------|
 |**1**   |Der Bericht "Geräteverwendung für Teams" kann für Trends in den letzten 7 Tagen oder 28 Tagen angezeigt werden.  |
 |**2**   |Jeder Bericht hat ein Datum, an dem der Bericht generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. |
-|**3**   |<ul><li>Die X-Achse im Diagramm stellt die verschiedenen Geräte (**Windows**, **Mac**, **IOS**, **Android-Telefon**) dar, die für die Verbindung zu Teams verwendet werden. </li><li>Bei der Y-Achse handelt es sich um die Anzahl der Benutzer, die das Gerät über den ausgewählten Zeitraum verwenden.</li> </ul>Zeigen Sie mit der Maus auf die Leiste, die ein Gerät darstellt, um die Anzahl der Benutzer anzuzeigen, die das Gerät zum Herstellen einer Verbindung mit Teams verwenden.|
-|**4**   |Die Tabelle zeigt eine Aufschlüsselung der Gerätenutzung durch den Benutzer. <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Sie können auf den Anzeigenamen klicken, um zur Einstellungsseite des Benutzers im Microsoft Teams Admin Center zu wechseln. </li><li>**Windows** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem Windows-basierten Computer aktiv war.</li><li>**Mac** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem macOS-Computer aktiv war. </li> <li>**IOS** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für IOS aktiv war.</li><li>**Android-Telefon** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für Android aktiv war. <li>**Letzte Aktivität** ist das letzte Datum (UTC), an dem der Benutzer an einer Team Aktivität teilgenommen hat.</li> </ul> Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
+|**3**   |<ul><li>Die X-Achse im Diagramm steht für die verschiedenen Geräte (**Windows**, **Mac**, **Linux**, **IOS**, **Android-Telefon**), die für die Verbindung zu Teams verwendet werden. </li><li>Bei der Y-Achse handelt es sich um die Anzahl der Benutzer, die das Gerät über den ausgewählten Zeitraum verwenden.</li> </ul>Zeigen Sie mit der Maus auf die Leiste, die ein Gerät darstellt, um die Anzahl der Benutzer anzuzeigen, die das Gerät zum Herstellen einer Verbindung mit Teams verwenden.|
+|**4**   |Die Tabelle zeigt eine Aufschlüsselung der Gerätenutzung durch den Benutzer. <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Sie können auf den Anzeigenamen klicken, um zur Einstellungsseite des Benutzers im Microsoft Teams Admin Center zu wechseln. </li><li>**Windows** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem Windows-basierten Computer aktiv war.</li><li>**Mac** ist ausgewählt, wenn der Benutzer im Desktop Client von Teams auf einem macOS-Computer aktiv war. </li> <li>**Linux** ist ausgewählt, wenn der Benutzer im Team-Desktop Client auf einem Linux-Computer aktiv war. </li> <li>**IOS** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für IOS aktiv war.</li><li>**Android-Telefon** ist ausgewählt, wenn der Benutzer auf dem mobilen Team-Client für Android aktiv war. <li>**Letzte Aktivität** ist das letzte Datum (UTC), an dem der Benutzer an einer Team Aktivität teilgenommen hat.</li> </ul> Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**5**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen. |
 |**6**   |Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf der Registerkarte **Downloads** auf **herunterladen** , um den Bericht herunterzuladen, wenn er fertig ist.<br><br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten](../media/teams-reports-export-to-csv.png)|
 

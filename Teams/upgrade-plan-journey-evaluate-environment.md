@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236103"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772319"
 ---
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
-Dieser Artikel ist Teil der technischen Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur Benutzer Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
-- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
 
@@ -152,7 +152,7 @@ Verwenden Sie die folgende Tabelle, um die Details der verwendeten Clients und E
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
-> | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (geben Sie die Version in der Spalte Kommentare an.) <br/> <input type="checkbox">Sonstiges (Notieren Sie sich die Details in der Spalte Kommentare.) | |
+> | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (geben Sie die Version in der Spalte Kommentare an.) <br/> <input type="checkbox">Linux (geben Sie die Verteilung in der Spalte Kommentare an.) <br/> <input type="checkbox">Sonstiges (Notieren Sie sich die Details in der Spalte Kommentare.) | |
 > | Welche Version von Microsoft Office bereitgestellt wird <br>zu diesen Geräten? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox">Sonstiges (Notieren Sie sich die Details in der Spalte Kommentare.) | |
 > | Welche Office-Bereitstellungstechnologie wird verwendet <br>in Ihrer Organisation? | <input type="checkbox">MSI <br/> <input type="checkbox">Klick-und-Los | |
 > | Was sind die zulässigen und unterstützten Mobiltelefone? <br>verwendete Plattformen? <br/>Wählen Sie alle zutreffenden aus. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">IOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Sonstiges (Notieren Sie sich die Details in der Spalte Kommentare.) | |

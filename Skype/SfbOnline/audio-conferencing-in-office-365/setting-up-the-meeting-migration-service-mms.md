@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS wurde entwickelt, um zu verhindern, dass Benutzer das Besprechungs Migrations Tool ausführen können, um Ihre Skype for Business-und Microsoft Teams-Besprechungen zu aktualisieren.
+ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306290"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772279"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden des Besprechungs Migrations Diensts (MMS)
 
@@ -94,11 +94,11 @@ In beiden Fällen werden die Besprechungen mit Einwahl Koordinaten erstellt, wen
 In den folgenden Fällen aktualisiert MMS vorhandene Skype for Business-und Microsoft Teams-Besprechungen, um Einwahl Koordinaten hinzuzufügen, zu entfernen oder zu ändern:
 
 - Wenn Sie einem Benutzer eine Microsoft Audio Conferencing Service-Lizenz zuweisen oder daraus entfernen und dieser Benutzer für einen Audiokonferenz-Anbieter eines Drittanbieters nicht aktiviert ist.
-- Wenn Sie den Anbieter für Audiokonferenzen eines Benutzers von einem anderen Anbieter zu Microsoft ändern, sofern dem Benutzer eine Microsoft Audio Conferencing-Lizenz zugewiesen ist. Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Audiokonferenz-Anbieter](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Beachten Sie auch, dass die Unterstützung für Audiokonferenz-Anbieter von Drittanbietern [ACP] für das Ende des Lebenszyklus am 1. April 2019 geplant ist, wie [zuvor angekündigt](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
+- Wenn Sie den Anbieter für Audiokonferenzen eines Benutzers von einem anderen Anbieter zu Microsoft ändern, sofern dem Benutzer eine Microsoft Audio Conferencing-Lizenz zugewiesen ist. Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Audiokonferenz-Anbieter](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Beachten Sie auch, dass die Unterstützung für Audiokonferenz-Anbieter von Drittanbietern [ACP] für das Ende des Lebenszyklus am 1. April 2019 geplant ist, wie [zuvor angekündigt](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - Wenn Sie Audiokonferenzen für einen Benutzer aktivieren oder deaktivieren.
 - Wenn Sie die Konferenz-ID für einen Benutzer, der für die Verwendung öffentlicher Besprechungen konfiguriert ist, ändern oder zurücksetzen.
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
-- Wenn eine Telefonnummer von einer Audiokonferenz-Brücke nicht zugewiesen ist. Hierbei handelt es sich um ein komplexes Szenario, das zusätzliche Schritte erfordert. Weitere Informationen finden Sie unter [Ändern der Telefonnummern auf der Audiokonferenz-Brücke](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- Wenn eine Telefonnummer von einer Audiokonferenz-Brücke nicht zugewiesen ist. Hierbei handelt es sich um ein komplexes Szenario, das zusätzliche Schritte erfordert. Weitere Informationen finden Sie unter [Ändern der Telefonnummern auf der Audiokonferenz-Brücke](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen MMS aus. Insbesondere die folgenden beiden Änderungen führen nicht dazu, dass MMS Besprechungen aktualisiert:
 
@@ -112,7 +112,7 @@ Standardmäßig wird die Besprechungs Migration automatisch ausgelöst, wenn ein
 
 Beachten Sie außerdem Folgendes:
 
-- Die Besprechungs Migration wird nur aufgerufen, wenn `TeamsUpgradePolicy` Sie für einen bestimmten Benutzer erteilen. Wenn Sie mit `TeamsUpgradePolicy` `mode=TeamsOnly` oder `mode=SfBWithTeamsCollabAndMeetings` auf Mandanten ** Ebene gewähren, wird keine Besprechungs Migration aufgerufen.
+- Die Besprechungs Migration wird nur aufgerufen, wenn `TeamsUpgradePolicy` Sie für einen bestimmten Benutzer erteilen. Wenn Sie mit `TeamsUpgradePolicy` `mode=TeamsOnly` oder `mode=SfBWithTeamsCollabAndMeetings` auf *Mandanten* Ebene gewähren, wird keine Besprechungs Migration aufgerufen.
 - Einem Benutzer kann nur der TeamsOnly-Modus gewährt werden, wenn der Benutzer online ist. Benutzer, die lokal gehostet werden, müssen `Move-CsUser` wie zuvor beschrieben verschoben werden.
 - Wenn Sie einen anderen Modus als TeamsOnly oder SfBWithTeamsCollabAndMeetings gewähren, werden vorhandene Teams-Besprechungen nicht in Skype for Business-Besprechungen konvertiert.
 
@@ -174,7 +174,7 @@ Wenn Migrationsfehler angezeigt werden, müssen Sie diese Probleme so schnell wi
 1. Stellen Sie fest, welche Benutzer betroffen sind. Führen Sie den folgenden Befehl aus, um die Liste der betroffenen Benutzer und den spezifischen gemeldeten Fehler zu erhalten:
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. Führen Sie für jeden betroffenen Benutzer das Besprechungs Migrations Tool aus, um die Besprechungen manuell zu migrieren.
 
@@ -212,4 +212,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Verschieben von Benutzern zwischen lokal und Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

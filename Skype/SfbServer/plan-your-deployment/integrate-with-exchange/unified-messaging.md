@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server mit Exchange 2013 oder 2016 zu integrieren.'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297344"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772618"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der Integration von Exchange Unified Messaging in Skype for Business
 
@@ -36,7 +36,6 @@ Damit diese Features in einer lokalen Exchange um-Bereitstellung unterstützt we
 - Microsoft Exchange Server 2010 oder neuestes Service Pack (nur Skype for Business Server 2015)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (nur Skype for Business Server 2019)
 
 > [!NOTE]
 > Exchange Unified Messaging, wie zuvor bekannt, ist in Skype for Business Server 2019 nicht mehr verfügbar, das Telefon System zum Aufzeichnen von Sprachnachrichten verwendet und die Aufzeichnung dann im Exchange-Postfach eines Benutzers belassen. Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
@@ -94,7 +93,7 @@ Im Folgenden sind Richtlinien und bewährte Methoden aufgeführt, die Sie beim B
 
 - Besprechen Sie mit den Exchange-Administratoren, wer welche Aufgaben ausführt, um eine reibungslose und erfolgreiche Integration sicherzustellen.
 
-- Stellen Sie die Exchange-Postfachserverrollen in jeder Exchange Unified Messaging (um)-Gesamtstruktur bereit, in der Sie die Benutzer für Exchange um aktivieren möchten. Ausführliche Informationen zum Installieren von Exchange-Serverrollen finden Sie in der Dokumentation zu Microsoft Exchange Server 2013.
+- Stellen Sie die Exchange-Postfachserverrollen in jeder Exchange Unified Messaging (um)-Gesamtstruktur bereit, in der Sie die Benutzer für Exchange um aktivieren möchten. Details zum Installieren von Exchange-Serverrollen finden Sie in der Dokumentation zu Microsoft Exchange Server.
 
     > [!IMPORTANT]
     > Wenn Exchange Unified Messaging (um) installiert ist, ist es für die Verwendung eines selbstsignierten Zertifikats konfiguriert. Durch das selbstsignierte Zertifikat ist Skype for Business Server und Exchange um nicht in der Lage, sich gegenseitig zu vertrauen, weshalb es notwendig ist, ein separates Zertifikat von einer Zertifizierungsstelle anzufordern, der beide Server Vertrauen.
