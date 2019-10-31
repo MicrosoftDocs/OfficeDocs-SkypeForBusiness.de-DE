@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Patienten-App für Teams-Administratoren
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749557"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885499"
 ---
 # <a name="patients-app-overview"></a>Übersicht der Patienten-App
 
@@ -43,6 +43,30 @@ Informationen dazu, wie Sie Ihre Umgebung auf die Verwendung der EMR-Modus-Patie
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ)
+
+**Wo werden die Daten der Patienten-APP gespeichert?**
+
+Alle von Endbenutzern in die Patienten-App eingegebenen Daten, einschließlich des Spalten-/Feld Schemas, der tatsächlichen Daten, die in die Liste und Listenelemente eingegeben wurden (also Patienten), werden in der sicheren und kompatiblen Exchange Online-Infrastruktur gespeichert. Alle Daten werden in dem Gruppenpostfach gespeichert, das dem Team zugeordnet ist. Diese Architektur ermöglicht der Patienten-APP die einfache Erfüllung von Daten Wohnsitz, staatlicher Cloud-Unterstützung (in der Zukunft) sowie andere Compliance-und Informationsschutz Features wie eDiscovery-Unterstützung. Die Patienten-APP arbeitet in einem Teambereich. Sie müssen eine Instanz der APP pro Team installieren.
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**Wo kann ich die Patienten-App abrufen?**
+
+Wenn die patients-App für Ihre Organisation von Ihrem Administrator aktiviert ist, kann jeder Endbenutzer zum Teams-App-Store wechseln und die Patienten-APP einem Team hinzufügen, in dem Sie Mitglied sind. Weitere Informationen finden Sie unter [Verwalten von App-Setup Richtlinien in Microsoft Teams](../../teams-app-setup-policies.md).
+
+**Kann ich in einem Team mehrere Instanzen der Patienten-APP haben, denn so funktioniert meine Station/Einheit?**
+
+Derzeit können Sie nur eine Instanz der Patienten-App für ein bestimmtes Team und nur im Kanal "Allgemein" installieren. In der App können jedoch mehrere Listen erstellt werden, um Szenarien mit mehreren Kanälen oder Isolierung/Separation zu beheben. Standardmäßig können alle Mitglieder des Teams auf die Registerkarte "Patienten" im Kanal "Allgemein" zugreifen. 
+
+**Kann ich alle Daten aus der Patienten-App exportieren?**
+Nicht im Moment, aber diese Funktion wird in Kürze verfügbar sein. 
+
+**Da diese APP Phi beherbergt, gibt es Audits, um unbefugten Zugriff zu verhindern oder Vorschriften zu erfüllen?**
+
+Ja, das gibt es. Jede einzelne Benutzeroberflächen Aktion, die von einem Microsoft Teams-Benutzer in der Patienten-app ausgeführt wird, wird überwacht und im Security and Compliance Center zur Verfügung gestellt. Die Details werden im Artikel [hier](patients-audit.md) erläutert.
+
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570347"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886438"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -48,6 +48,17 @@ Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit z
 |Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
 |:--- |:---|:---|
 |Gesundheitswesen – Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ankündigungen\* <br> Compliance\* <br> Freiheits <br> Personalwesen <br> Apotheke |
+| | |  |
+
+\*Automatisch Favoriten 
+
+## <a name="care-coordination-template"></a>Vorlage für die Pflege Koordination
+
+Die Vorlage für die Pflege Koordination soll die Kommunikation innerhalb eines Patienten Betreuer-Teams erleichtern, mit einigen Beispielen, darunter interdisziplinäre und multidisziplinäre Teams. Unsere Anwendung für proprietäre Patienten ist in dieser Vorlage vorinstalliert und befindet sich im Kanal allgemein. Mit der Anwendung "Patienten" können Sie Listen von Patienten und deren zugehörigen Werten und vitalen erstellen und diese für Rundungs-und Patientenmanagement Szenarien nutzen. 
+
+|Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
+|:--- |:---|:---|
+|Koordinierung im Gesundheitswesen | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Überprüfung nach der Behandlung\* <br> Planung\* <br> Ausbildung\* |
 | | |  |
 
 \*Automatisch Favoriten 

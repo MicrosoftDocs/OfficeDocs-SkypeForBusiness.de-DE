@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772588"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885529"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -64,7 +64,7 @@ Richtlinien für Informationsbarrieren werden überprüft, wenn die folgenden Te
 - **Ein Benutzer ist eingeladen, an einer Besprechung teilzunehmen** – wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die Richtlinie des Benutzers anhand der Richtlinien anderer Teammitglieder ausgewertet, und wenn ein Verstoß vorliegt, ist der Benutzer nicht berechtigt, an der Besprechung teilzunehmen.
 - **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig.
 - **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
-- **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies). 
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Was passiert mit vorhandenen Chat-Threads, wenn eine Richtlinie geändert wird?
 
