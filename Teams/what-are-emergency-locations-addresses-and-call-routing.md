@@ -21,30 +21,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Informieren Sie sich, welche Notfall Standorte, Orte und Notfall-Anrufweiterleitung sind und wie Sie diese planen und ihren Benutzern zuweisen. '
-ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
+ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568553"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37901904"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>Was sind Notfallstandorte, Orte und Anrufweiterleitung?
 
-Wenn Sie Anrufpläne konfigurieren, müssen Sie jeder Telefonnummer einen Notfall Standort zuweisen, wenn Sie entweder die Telefonnummer erhalten oder Sie einem Benutzer zuweisen, um Notrufe zu unterstützen. Bevor Sie einer Telefonnummer einen Notfall Standort zuweisen können, müssen Sie einen Notfall Standort hinzufügen und überprüfen. Durch die Überprüfung wird sichergestellt, dass der Notfall Standort erkannt wird und dass er in einem korrekten Format vorliegt und von Notfalldiensten verwendet werden kann. Optional können Sie einen Ort innerhalb des Notfall Standorts hinzufügen, um einen spezifischeren Standort für den Benutzer bereitzustellen. Bei dem Ort kann es sich beispielsweise um eine Boden-, Flügel-oder Bürofläche handeln, die mit einem bestimmten Notfall Standort verknüpft ist. Obwohl Notfall Speicherorte überprüft werden, gibt es keine Orte.
+Wenn Sie Anrufpläne konfigurieren, müssen Sie jeder Telefonnummer einen Notfall Standort zuweisen, entweder wenn Sie die Telefonnummer erwerben oder wenn Sie Sie einem Nutzer zuweisen, um Notrufe zu unterstützen. Bevor Sie einer Telefonnummer einen Notfall Standort zuweisen können, müssen Sie einen Notfall Standort hinzufügen und überprüfen. Durch die Überprüfung wird sichergestellt, dass der Notfall Standort erkannt wird und dass er in einem korrekten Format vorliegt und von Notfalldiensten verwendet werden kann. Wenn Sie möchten, können Sie einen Ort innerhalb des Notfall Standorts hinzufügen, um einen spezifischeren Standort für den Benutzer bereitzustellen. Bei dem Ort kann es sich beispielsweise um eine Boden-, Flügel-oder Bürofläche handeln, die mit einem bestimmten Notfall Standort verknüpft ist. Obwohl Notfall Speicherorte überprüft werden, gibt es keine Orte.
   
 ## <a name="what-are-emergency-locations"></a>Was sind Notfallstandorte?
 
-Für aktive Telefonnummern ist ein Notfall Standort erforderlich, je nach Land/Region. In den Vereinigten Staaten ist ein Notfall Standort erforderlich, wenn einem Benutzer eine Nummer zugewiesen wird. Für andere Länder wie in Europa, dem Nahen Osten und Afrika (EMEA) ist ein Notfall Standort erforderlich, wenn Sie die Telefonnummer von Office 365 erhalten oder wenn Sie von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird.
+Für aktive Telefonnummern ist ein Notfall Standort erforderlich, je nach Land/Region. In den Vereinigten Staaten ist ein Notfall Standort erforderlich, wenn einem Benutzer eine Nummer zugewiesen wird. Für andere Länder wie in Europa, dem Nahen Osten und Afrika (EMEA) ist ein Notfall Standort erforderlich, wenn Sie die Telefonnummer von Teams erhalten oder wenn Sie von einem anderen Dienstanbieter oder Netzbetreiber an Teams übertragen wird.
   
-Ein Notfall Standort kann als bürgerliche Adresse, Anschrift oder physikalische Adresse bezeichnet werden. Es handelt sich um die Straßen-oder staatsbürgerliche Adresse eines Geschäfts Orts für Ihre Organisation. So wird beispielsweise die Adresse *12345 North Main Street, Redmond, WA 98052* verwendet, um Notrufe an die entsprechenden Versand Behörden weiterzuleiten und den Notruf Anruf zu unterstützen. Es ist wahrscheinlich, dass Sie mehr als einen Notfall Standort benötigen, wenn Ihr Unternehmen über mehr als einen physischen Unternehmensstandort verfügt.
+Ein Notfall Standort kann als bürgerliche Adresse, Straßenadresse oder eine physikalische Adresse mit dem optionalen Ort bezeichnet werden. Es handelt sich um die Straßen-oder staatsbürgerliche Adresse eines Geschäfts Orts für Ihre Organisation. So wird beispielsweise die Adresse *12345 North Main Street, Redmond, WA 98052* verwendet, um Notrufe an die entsprechenden Versand Behörden weiterzuleiten und den Notruf Anruf zu unterstützen. Es ist wahrscheinlich, dass Sie mehr als einen Notfall Standort benötigen, wenn Ihr Unternehmen über mehr als einen physischen Unternehmensstandort verfügt.
   
-Bei der Überprüfung eines Notfall Standorts muss sichergestellt sein, dass es für Notfalldienste legitim und ordnungsgemäß formatiert ist. Es ist möglich, einen Notfall Standort hinzuzufügen und zu speichern, der nicht überprüft wird, aber nur validierte Speicherorte können einem Benutzer zugeordnet werden. Nachdem ein Notfall Standort überprüft und gespeichert wurde, können Sie ihn einem Benutzer zuweisen. Wenn Sie einen Notfall Speicherort ändern möchten, der gespeichert und überprüft wurde, müssen Sie eine neue erstellen.
+Bei der Überprüfung einer Notfalladresse müssen Sie sicherstellen, dass Sie für Notrufdienste legitim und ordnungsgemäß formatiert ist. Es ist möglich, einen Notfall Standort hinzuzufügen und zu speichern, der nicht überprüft wird, aber nur validierte Speicherorte können einem Benutzer zugeordnet werden. Nachdem ein Notfall Standort überprüft und gespeichert wurde, können Sie ihn einem Benutzer zuweisen. Wenn Sie einen Notfall Speicherort ändern möchten, der gespeichert und überprüft wurde, müssen Sie eine neue erstellen.
   
 ## <a name="what-are-places"></a>Was sind Orte?
 
-Ein Ort ist mit einem Notfall Standort verknüpft, um eine genauere Position innerhalb eines Gebäudes zu erhalten. Ein Ort ist in der Regel ein Stockwerk, ein Gebäudeflügel oder eine Büronummer, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten haben, die mit einem Notfall Standort verknüpft sind. 
+Ein Ort ist mit einem Notfall Standort verknüpft, um eine genauere Position innerhalb eines Gebäudes zu erhalten. Ein Ort ist in der Regel ein Stockwerk, ein Gebäudeflügel oder eine Büronummer, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten haben, die einer Notfalladresse zugeordnet sind.
   
-Wenn Sie einem Benutzer einen Notfall Standort zuweisen, handelt es sich tatsächlich um eine Standort-ID, auf die verwiesen wird, wenn Sie den Standort zuweisen. Die Standort-ID enthält den referenzierten Notfall Standort (die Straßen-oder staatsbürgerliche Adresse). In Fällen, in denen Baustellen nicht benötigt werden, ist ein standardmäßiger Ort in einem Notfall Standort enthalten.
+Wenn Sie einem Benutzer einen Notfall Standort zuweisen, handelt es sich tatsächlich um eine Standort-ID, auf die verwiesen wird, wenn Sie den Standort zuweisen. Die Standort-ID enthält die referenzierte Notfalladresse (die Straßen-oder staatsbürgerliche Adresse). In Fällen, in denen Baustellen nicht benötigt werden, ist ein standardmäßiger Ort in einem Notfall Standort enthalten.
   
 ## <a name="what-is-emergency-call-routing"></a>Was ist Notrufweiterleitung?
 
