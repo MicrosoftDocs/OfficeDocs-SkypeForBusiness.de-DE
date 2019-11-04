@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
-ms.translationtype: HT
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494706"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925316"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
@@ -49,7 +48,7 @@ Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 
 - **Verwenden des Skype for Business Admin Centers.** Für einige Länder/Regionen können Sie Telefonnummern für Ihre Benutzer über das Skype for Business Admin Center erhalten, siehe [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
     
-- **Portieren von bestehenden Nummern.** Sie können vorhandene Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Office 365 portieren oder übertragen. Weitere hilfreiche Informationen hierzu finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+- **Portieren von bestehenden Nummern.** Sie können vorhandene Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Office 365 portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal können Sie (je nach Land/Region) Ihre neuen Telefonnummern nicht über das Skype for Business Admin Center beziehen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahlen. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
@@ -104,7 +103,7 @@ Im Folgenden erfahren Sie, wie die eigene Telefonnummer in der **Skype for Busin
     
     ![Screenshot der Option "Telefone auswählen"](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-In **Microsoft Teams** können Benutzer ihre Telefonnummer sehen, indem sie im linken Navigationsbereich auf **Anrufe** klicken. Über der Wähltastatur wird die Telefonnummer angezeigt.
+In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
 ![Screenshot der Auswahl von "Anrufe" im linken Navigationsbereich](media/teams-phone-number.png)
 

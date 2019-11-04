@@ -15,12 +15,12 @@ ms.collection:
 description: Hier erhalten Sie Informationen zu den verschiedenen Identitätsmodellen in Microsoft Teams, beispielsweise „Cloud-Identität“, „Synchronisierte Identität“ und „Partneridentität“. Außerdem erhalten Sie Informationen zur mehrstufigen Authentifizierung.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c7b5d619812284bc60aab7bcc2dbea6e9ec0173
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565039"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931623"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Identitätsmodelle und Authentifizierung in Microsoft Teams
 ==========================================
@@ -61,4 +61,4 @@ Wenn sich die Benutzer für MFA registriert haben, sehen sie bei der nächsten A
 |Mandantentyp  |Verfügbare Optionen für den zweiten MFA-Faktor  |Notizen  |
 |---------|---------|---------|
 |**Nur Cloud**     |MFA für Office 365 <ul><li>Telefonanruf</li><li>SMS</li><li>Benachrichtigung in einer mobilen App</li><li>Prüfcode in einer mobilen App</li></ul>        |[Planen der mehrstufigen Authentifizierung für Office 365-Bereitstellungen](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybridsetup (Modell für synchronisierte Identität oder Partneridentität)**     |<ul><li>MFA für Office 365</li><li>Azure MFA-Modul (in AD FS integriert)</li><li>Physische oder virtuelle Smartcard (in AD FS integriert)</li></ul>         |Hinweis: Zusätzliche MFS-Lösungen sind verfügbar über [Identitätsanbieter, die mit dem Azure AD-Verbund kompatibel sind](https://go.microsoft.com/fwlink/p/?LinkId=510953).         |
+|**Hybridsetup (Modell für synchronisierte Identität oder Partneridentität)**     |<ul><li>MFA für Office 365</li><li>Azure MFA-Modul (in AD FS integriert)</li><li>Physische oder virtuelle Smartcard (in AD FS integriert)</li></ul>         |Hinweis: zusätzliche MFA-Lösungen sind mit [Azure AD Identity Provider Compatibility docs](https://www.microsoft.com/en-us/download/details.aspx?id=56843) verfügbar         |

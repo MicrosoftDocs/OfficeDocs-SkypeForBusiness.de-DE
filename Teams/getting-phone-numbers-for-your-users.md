@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572091"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925286"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -34,9 +34,9 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 
 - **Verwenden Sie das Microsoft Teams Admin Center.** In einigen Ländern/Regionen können Sie über das Microsoft Teams Admin Center Zahlen für Ihre Benutzer abrufen. Weitere Informationen finden Sie unter [Abrufen neuer Telefonnummern für Ihre Benutzer](#get-new-phone-numbers-for-your-users).
     
-- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) oder [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) oder [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
   
-- **Verwenden Sie ein Anforderungsformular für neue Nummern.** Manchmal (je nach Land/Region) können Sie Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center abrufen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und es an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal (je nach Land/Region) können Sie Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center abrufen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und es an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, können Sie [sich an den PSTN-Service-Desk wenden](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
@@ -61,7 +61,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
   
    **Portieren oder Übertragen von Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber**
   
-- Wenn Sie 999 oder weniger Telefonnummern für Ihre Benutzer benötigen, können Sie das Legacy Portal im Microsoft Teams Admin Center verwenden. Führen Sie die Schritte unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) aus, um ihre Telefonnummern an Teams zu übertragen.
+- Wenn Sie 999 oder weniger Telefonnummern für Ihre Benutzer benötigen, können Sie das Legacy Portal im Microsoft Teams Admin Center verwenden. Führen Sie die Schritte unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) aus, um ihre Telefonnummern an Teams zu übertragen.
     
 - Wenn Sie mehr als 999 Telefonnummern portieren müssen, lesen Sie [Verwalten von Dienstanforderungen in Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) , um eine Serviceanfrage für einen Portierungs Auftrag zu übermitteln, oder um alle diese Telefonnummern auf Office 365 übertragen zu lassen.
     
@@ -75,14 +75,14 @@ Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern** ,
     
 - Nachdem Sie Ihre Telefonnummern erhalten haben, müssen Sie jedem Benutzer eine Nummer zuweisen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Sie können die Seite " **Telefonnummern** " im Microsoft teamd Admin Center verwenden, um die Liste der verfügbaren Telefonnummern in der Spalte " **Telefonnummer** " anzuzeigen, festzustellen, ob die Telefonnummer in der Spalte " **Status** " zugewiesen wurde, und den Speicherort für die Telefonnummer in der Spalte " **Standort** ". 
+- Sie können die Seite " **Telefonnummern** " im Microsoft Teams Admin Center verwenden, um die Liste der verfügbaren Telefonnummern in der Spalte " **Telefonnummer** " anzuzeigen, festzustellen, ob die Telefonnummer in der Spalte " **Status** " zugewiesen wurde, und den Speicherort für die Telefonnummer in der Spalte " **Standort** ". 
 
 > [!NOTE]
 > Wenn Sie weitere Telefonnummern erhalten möchten, [wenden Sie sich an den PSTN-Service-Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

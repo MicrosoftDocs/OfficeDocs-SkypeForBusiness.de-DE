@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Informieren Sie sich, welche Notfall Standorte, Orte und Notfall-Anrufweiterleitung sind und wie Sie diese planen und ihren Benutzern zuweisen. '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901904"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925386"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>Was sind Notfallstandorte, Orte und Anrufweiterleitung?
 
@@ -59,7 +59,7 @@ Notfall Standorte und-Orte werden während der Weiterleitung von Notrufen an das
     > [!IMPORTANT]
     > Zum Überprüfen einer Straßen-oder bürgerlichen Adresse müssen Sie sicherstellen, dass Sie legitim und ordnungsgemäß formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, beispielsweise ein falsch eingegebener Name des Orts, weiterhin die Validierung durchlaufen kann. Der Überprüfungsprozess verwendet alle Teile einer bestimmten Adresse, um festzustellen, ob er genügend Informationen enthält, um den Anruf an das entsprechende Notfall-Dispatch-Center weiterzuleiten. Wenn dies der Fall ist, wird Sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
   
-3. **Holen Sie sich Telefonnummern**. Der nächste Schritt besteht darin, Telefonnummern für Ihre Benutzer zu erhalten. Sie können dies tun, indem Sie neue Telefonnummern von Office 365 oder durch "portieren" oder übertragen Ihrer vorhandenen Telefonnummern auf Office 365. Die vollständigen Schritte finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+3. **Holen Sie sich Telefonnummern**. Der nächste Schritt besteht darin, Telefonnummern für Ihre Benutzer zu erhalten. Sie können dies tun, indem Sie neue Telefonnummern von Office 365 oder durch "portieren" oder übertragen Ihrer vorhandenen Telefonnummern auf Office 365. Die vollständigen Schritte finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
     
 4. **Zuweisen von Telefonnummern** Der letzte Schritt besteht darin, es Benutzern zu ermöglichen, Telefonanrufe zu tätigen und zu empfangen. Dazu müssen Sie jedem Benutzer eine Telefonnummer zuweisen. Informationen zum Zuweisen einer Telefonnummer finden Sie unter [zuweisen, ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 

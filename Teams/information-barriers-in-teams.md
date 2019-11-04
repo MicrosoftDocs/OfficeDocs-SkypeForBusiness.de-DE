@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885529"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931803"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -27,7 +27,7 @@ Informationsbarrieren sind Richtlinien, die ein Administrator konfigurieren kann
 > [!NOTE]
 > - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
 > - Die Verwendung von Bots zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
-> - Informationsbarrieren Version 1 enthält keine Unterstützung für SharePoint und OneDrive for Business. Wir arbeiten daran, das Feature in SharePoint zu aktivieren und kommunizieren, sobald es verfügbar ist.
+> - Neu: Informations Barriere-Unterstützung für SharePoint-Websites, die mit Teams verbunden sind, befindet sich jetzt in privater Vorschau. Bitte klicken Sie [hier](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) , um an der privaten Preview teilzunehmen. .
 
 Richtlinien für Informationsbarrieren verhindern auch Nachschlagevorgänge und Ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, wird dieser Benutzer in der Personenauswahl nicht gefunden.
 
@@ -76,45 +76,37 @@ Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, e
 - **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer den Arbeitsplatz wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe wird nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen. 
 - **Team** – alle Benutzer, die aus der Gruppe entfernt wurden, werden aus dem Team entfernt und können keine vorhandenen oder neuen Konversationen anzeigen oder daran teilnehmen.
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>Was können Benutzer erleben, wenn ein anderer Benutzer blockiert ist?
 
 Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
 
-- **Registerkarte "Personen"** : ein Benutzer kann einige blockierte Benutzer auf der Registerkarte " **Personen** " sehen. Der Benutzer kann die blockierten Benutzer auswählen.
-- **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
-- **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, sieht der Benutzer den blockierten Benutzer im Diagramm und kann auf Aktionen im Diagramm klicken, aber die Aktionen (wie Anrufe) werden nicht durchlaufen.
-- **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und anschließend blockiert wird, können andere Benutzer weiterhin die Personen Karte für den blockierten Benutzer sehen. Alle auf der Karte aufgelisteten Aktionen (wie Anrufe und Chats) stehen zur Verfügung, aber die Aktionen werden nicht durchlaufen.
-- **Vorgeschlagene Kontakte** – in der Liste der vorgeschlagenen Kontakte (die erste Kontaktliste, die für neue Benutzer angezeigt wird) können Benutzer alle vorgeschlagenen Kontakte (einschließlich blockierter Benutzer) sehen. Wenn ein Benutzer jedoch auf den Namen eines blockierten Benutzers klickt, um den Chatbereich zu öffnen, wird die Nachricht blockiert.
-- **Chat-Kontakte** – ein Nutzer kann blockierte Nutzer in der Chat-Kontaktliste sehen.
-- **Anrufe an Kontakte** – ein Benutzer kann blockierte Benutzer in der Kontaktliste für Anrufe sehen und Aktionen wie Anrufe und Nachrichten werden angezeigt, aber wenn der Benutzer versucht, einen Anruf zu tätigen oder eine Nachricht an den blockierten Nutzer zu senden, wird der Anruf oder die Nachricht nicht durchlaufen.
-- **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
-
-In Kürze: Benutzer erfahren Folgendes, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
-
 - **Registerkarte "Personen"** – Benutzer können auf der Registerkarte **Personen** keine blockierten Benutzer sehen.
+- **Personenauswahl** – blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
 - **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
 - **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer im Organigramm nicht angezeigt, und stattdessen wird eine Fehlermeldung angezeigt.
 - **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und der Benutzer anschließend blockiert wird, werden anderen Benutzern anstelle der Personen Karte eine Fehlermeldung angezeigt, wenn Sie den Mauszeiger über den Namen des blockierten Benutzers bewegen. Auf der Karte aufgelistete Aktionen (wie Anrufe und Chats) sind nicht verfügbar.
 - **Vorgeschlagene Kontakte** – blockierte Benutzer werden nicht in der Liste der vorgeschlagenen Kontakte angezeigt (die erste Kontaktliste, die für neue Benutzer angezeigt wird).
-- **Chat-Kontakte** – ein Nutzer kann in der Chat-Kontaktliste nicht blockierte Nutzer sehen.
+- **Chat-Kontakte** : ein Benutzer kann blockierte Benutzer in der Chat-Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen. Der Benutzer kann auch darauf klicken, um seine frühere Konversation anzuzeigen.
 - **Anrufe an Kontakte** : ein Benutzer kann blockierte Benutzer in der Anruf Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen.
 - **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
 
+
+
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Informationsbarrieren werden jetzt eingeführt und sind in Abonnements enthalten, wie beispielsweise:
+Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und dem Team für die Datei Oberfläche zugeordnet. Der Zugriff auf diese SharePoint-Website und Dateien honoriert die IB-Richtlinie des Unternehmens, d.h. nur die Benutzer, deren IB-Segment Übereinstimmungen pro IB-Richtlinie haben, haben Zugriff. Auch zum Zeitpunkt der Dateifreigabe wird die IB-Richtlinie berücksichtigt.
 
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 Advanced Compliance
-- Microsoft 365 E5-Kompatibilität
+Beispiel: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten. Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
 
-Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Compliance-Lösungen](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+
 
 ## <a name="more-information"></a>Weitere Informationen
 
 - Wenn Sie mehr über Informationsbarrieren erfahren möchten, lesen Sie [Informationen zu Barrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - Informationen zum Bearbeiten oder Entfernen von Richtlinien für Informationsbarrieren finden Sie unter [Bearbeiten (oder entfernen) von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+

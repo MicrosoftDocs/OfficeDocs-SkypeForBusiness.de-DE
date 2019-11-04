@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571912"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925176"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 ==========================================
@@ -31,21 +31,7 @@ Microsoft Whiteboard ist eine frei Form digitale Leinwand, auf der Personen, Inh
 
 Benutzer können ein Whiteboard freigeben, damit es allen Teilnehmern in einer Teambesprechung zur Verfügung steht. Das gleiche Whiteboard steht gleichzeitig in allen Whiteboard-Anwendungen unter Windows 10, IOS und der Web-App zur Verfügung.
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>Aktivieren oder Deaktivieren der Whiteboard-App
-
-Führen Sie die folgenden Schritte aus, um die Whiteboard Web App zu aktivieren oder zu deaktivieren:
-
-1. Wechseln Sie zum Microsoft 365 Admin Center.
-
-2. Wechseln Sie zu **Einstellungen** > **Dienste und Add-Ins**.
-
-3. Scrollen Sie auf der Seite **Dienst #a0 Add-ins** nach unten, und wählen Sie dann **Whiteboard**aus.
-
-4. Um die Whiteboard-APP zu aktivieren, schalten Sie im **Whiteboard** -Bereich **Whiteboard für die gesamte Organisation auf ein ein oder aus** . ****
-
-    Um die Whiteboard-APP zu deaktivieren, schalten Sie im **Whiteboard** -Bereich **Whiteboard für die gesamte Organisation** auf **aus**.
-
-5. Klicken Sie auf **Speichern**.
+Informationen zum Aktivieren oder Deaktivieren der Whiteboard-App finden Sie unter [Aktivieren von Microsoft Whiteboard für Ihre Organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Beachten Sie, dass diese Einstellung das Whiteboard für Ihre gesamte Organisation aktivieren oder deaktivieren wird, und nicht nur für Teams.
 
 ## <a name="whiteboard-on-surface-hub"></a>Whiteboard auf Surface Hub
 

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 805010aa16ca8159b5e274847ca7ca2b296f214d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160586"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924966"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der hybridbereitstellung zur vollständigen Migration in die Cloud
 
@@ -35,7 +35,7 @@ Nachdem Sie alle Benutzer aus der lokalen Umgebung in die Cloud verschoben haben
 3. Deaktivieren der Fähigkeit in "on-Prem" zur Kommunikation mit Office 365.
 
 
-Diese Schritte sollten zusammen als Einheit ausgeführt werden. Details finden Sie weiter unten.
+Diese Schritte sollten zusammen als Einheit ausgeführt werden. Details finden Sie weiter unten. Außerdem Richtlinien für die Verwaltung von Telefonnummern für migrierte Benutzer, sobald die lokale Bereitstellung getrennt wurde.
 
 > [!Note] 
 > In seltenen Fällen kann es dazu führen, dass der Verbund mit einigen anderen Organisationen nicht mehr funktionsfähig ist, wenn das Ändern von DNS von einem Standort auf einen Office 365 für Ihre Organisation erfolgt, bis eine andere Organisation ihre Verbund Konfiguration aktualisiert:<ul><li>
@@ -62,6 +62,13 @@ Der folgende Befehl muss in einem Skype for Business Online PowerShell-Fenster a
 Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden.  Wenn Sie zuvor eine Skype for Business Online Sitzung importiert haben, starten Sie eine neue Skype for Business PowerShell-Sitzung.
 
     `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Verwalten von Telefonnummern für Benutzer, die von lokal migriert wurden
+
+Administratoren können Benutzer verwalten, die zuvor von lokalen Skype for Business Server in die Cloud verschoben wurden, auch wenn die lokale Bereitstellung außer Betrieb genommen wurde. Es gibt zwei verschiedene Möglichkeiten:
+1.  Wenn der Benutzer vor dem Wechsel eine lokale LineUri hatte (vermutlich weil der Benutzer für Enterprise-VoIP aktiviert war), wenn Sie den LineUri ändern möchten, müssen Sie dies in On-Premise AD durchführen und den Wert auf Aad übertragen lassen. Dies erfordert keine lokale Skype for Business Server. Stattdessen kann dieses Attribut, msRTCSIP-Reihe direkt in der lokalen Active Directory, entweder mithilfe von Active Directory Benutzer und Computer MMC-Snap-in oder über PowerShell bearbeitet werden. Wenn Sie das MMC-Snap-in verwenden, öffnen Sie die Seite Eigenschaften des Benutzers, und klicken Sie auf Attribut-Editor-Registerkarte, und suchen Sie msRTCSIP-Reihe.
+
+2.  Wenn der Benutzer vor dem Wechsel nicht über einen Wert für LineUri on-Prem verfügt, können Sie die LineUri mithilfe der-onpremLineUri-Parameter im Cmdlet "CSUser" im Skype for Business Online PowerShell-Modul ändern.
 
 ## <a name="see-also"></a>Siehe auch
 
