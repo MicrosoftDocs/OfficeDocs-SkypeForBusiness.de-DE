@@ -15,16 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Teams-apps von der Entwicklung zur Bereitstellung bringen.
-ms.openlocfilehash: cd64ff0a3307ada0f1fbfaf29b94cfcd1da3c0df
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 6064c4408fba367d0623f4b4dec85800d33718f9
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37682715"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962069"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Verwalten Ihrer Branchen-apps in Microsoft Teams
 
-Dieser Artikel enthält eine umfassende Anleitung, wie Sie Ihre Teams-APP von der Entwicklung zur Bereitstellung führen können. Dieser Leitfaden konzentriert sich auf die Team Aspekte der APP und ist für IT-Experten vorgesehen. Weitere Informationen zum Entwickeln von Teams-apps finden Sie [hier](https://docs.microsoft.com/microsoftteams/platform).
+Dieser Artikel enthält eine umfassende Anleitung, wie Sie Ihre Teams-APP von der Entwicklung zur Bereitstellung führen können. Dieser Leitfaden konzentriert sich auf die Team Aspekte der APP und ist für IT-Experten vorgesehen. Weitere Informationen zum Entwickeln von Teams-apps finden Sie <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">hier</a>.
 
 ![Übersicht über Ihre APP von der Entwicklung bis zur Bereitstellung](media/manage-your-lob-apps.png)
 
@@ -33,13 +33,13 @@ Dieser Artikel enthält eine umfassende Anleitung, wie Sie Ihre Teams-APP von de
 Zum Erstellen und Verwalten von Lob-apps in Teams benötigen Sie zwei Mandanten: einen Testmandanten für die Entwicklung und einen Produktions Mandanten.
 
 > [!NOTE]
-> Wenn Sie noch nicht über einen Testmandanten verfügen, können Sie mit dem Office 365-Entwicklerprogramm schnell eins erstellen und es mit Testdaten füllen. [Weitere Informationen finden Sie hier](https://developer.microsoft.com/office/dev-program).
+> Wenn Sie noch nicht über einen Testmandanten verfügen, können Sie mit dem Office 365-Entwicklerprogramm schnell eins erstellen und es mit Testdaten füllen. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Weitere Informationen finden Sie hier</a>.
 
 ## <a name="step-1-develop-and-test"></a>Schritt 1: entwickeln und testen
 
 ### <a name="create-test-users"></a>Erstellen von Testbenutzern
 
-Stellen Sie sicher, dass Ihre Entwickler, ob intern oder extern, über Konten in Ihrem Testmandanten verfügen. [Weitere Informationen zum Hinzufügen von Benutzern](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Stellen Sie sicher, dass Ihre Entwickler, ob intern oder extern, über Konten in Ihrem Testmandanten verfügen. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Weitere Informationen zum Hinzufügen von Benutzern</a>.
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>Zulassen von benutzerdefinierten apps im Testmandanten
 
@@ -48,35 +48,35 @@ Damit Entwickler den Zugriff haben, den Sie für Tests benötigen, können Sie a
 Führen Sie die folgenden Schritte aus, um Benutzern das Hochladen benutzerdefinierter apps zu ermöglichen:
 
 1. Aktivieren Sie die organisationsweite Einstellung **Interaktion mit benutzerdefinierten apps zulassen** . Gehen Sie dazu so vor:
-    1. Wechseln Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu **Teams-apps** > -**Berechtigungsrichtlinien**, und klicken Sie dann auf **organisationsweite Einstellungen**.
+    1. Wechseln Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams-apps** > -**Berechtigungsrichtlinien**, und klicken Sie dann auf **organisationsweite Einstellungen**.
     2. Aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**, und klicken Sie dann auf **Speichern**.
 
     ![Screenshot der organisationsweiten Einstellung "Interaktion mit benutzerdefinierten apps zulassen"](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Aktivieren Sie die Einstellung **benutzerdefinierte apps hochladen** in der globalen App-Setup Richtlinie. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
     2. Aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
 
     ![Screenshot der Richtlinieneinstellung "benutzerdefinierte apps hochladen" für die APP](media/manage-your-lob-apps-app-setup-custom-apps.png)
 
 > [!NOTE]
-> Es gibt auch die Einstellung "benutzerdefinierte App hochladen" auf Team Ebene. Diese Einstellung ist standardmäßig aktiviert. Wenn Entwickler jedoch keine benutzerdefinierte app in ein Team hochladen können, überprüfen Sie die Einstellungen, indem Sie die [folgenden Schritte ausführen](teams-custom-app-policies-and-settings.md#configure-the-team-custom-app-setting).
+> Es gibt auch die Einstellung "benutzerdefinierte App hochladen" auf Team Ebene. Diese Einstellung ist standardmäßig aktiviert. Wenn Entwickler jedoch keine benutzerdefinierte app in ein Team hochladen können, überprüfen Sie die Einstellungen, indem Sie die <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#configure-the-team-custom-app-setting" target="_blank">folgenden Schritte ausführen</a>.
 
 ### <a name="create-your-app"></a>Erstellen Ihrer APP
 
-Entwickler sollten nun über die erforderlichen Elemente verfügen, um Ihre APP zu erstellen. [Hier](https://docs.microsoft.commicrosoftteams/platform) finden Sie Anleitungen dazu.
+Entwickler sollten nun über die erforderlichen Elemente verfügen, um Ihre APP zu erstellen. <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Hier</a> finden Sie Anleitungen dazu.
 
 ## <a name="step-2-validate-in-production"></a>Schritt 2: Überprüfen in der Produktion
 
 ### <a name="get-the-app-package"></a>Abrufen des App-Pakets
 
-Wenn die APP für die Verwendung in der Produktion bereit ist, sollte der Entwickler ein App-Paket erstellen. Sie können dafür [App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio) verwenden. Sie senden Ihnen die Datei im ZIP-Format.
+Wenn die APP für die Verwendung in der Produktion bereit ist, sollte der Entwickler ein App-Paket erstellen. Sie können dafür <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> verwenden. Sie senden Ihnen die Datei im ZIP-Format.
 
-Microsoft verwendet [Diese Richtlinien](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval) , um sicherzustellen, dass apps den Qualitäts-und Sicherheitsstandards des globalen Teams Apps Store entsprechen.
+Microsoft verwendet <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">Diese Richtlinien</a> , um sicherzustellen, dass apps den Qualitäts-und Sicherheitsstandards des globalen Teams Apps Store entsprechen.
 
 ### <a name="allow-trusted-users-to-upload-custom-apps-in-the-production-tenant"></a>Zulassen, dass vertrauenswürdige Benutzer benutzerdefinierte apps im Produktions Mandanten hochladen
 
-Um zu überprüfen, ob die app in Ihrem Produktions Mandanten ordnungsgemäß funktioniert, müssen Sie sich selbst und/oder vertrauenswürdigen Benutzern in Ihrer Organisation erlauben, benutzerdefinierte apps hochzuladen.  Ähnlich wie in den vorherigen Schritten für [benutzerdefinierte apps im Testmandanten zulassen](#allow-custom-apps-in-the-test-tenant) verwenden Sie dazu die APP-Setup Richtlinien.
+Um zu überprüfen, ob die app in Ihrem Produktions Mandanten ordnungsgemäß funktioniert, müssen Sie sich selbst und/oder vertrauenswürdigen Benutzern in Ihrer Organisation erlauben, benutzerdefinierte apps hochzuladen.  Ähnlich wie im vorherigen <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">Schritt</a>verwenden Sie dazu die APP-Setup Richtlinien.
 
 > [!NOTE]
 > Wenn es Ihnen unangenehm ist, die APP für die Validierung selbst oder für vertrauenswürdige Benutzer in ihren Produktions Mandanten hochzuladen, können Sie diesen Schritt überspringen und die Schritte 3 und 4 ausführen, um die nicht validierte app in ihren Mandanten-Apps-Store hochzuladen. Dann beschränken Sie den Zugriff auf diese APP nur auf sich selbst und auf Benutzer, denen Sie vertrauen. Diese Benutzer können dann die APP aus dem Mandanten-Apps-Store abrufen, um eine Validierung durchzuführen. Verwenden Sie nach der Überprüfung der APP dieselben Berechtigungsrichtlinien, um Access zu öffnen und die APP für die Produktion zu verwenden.
@@ -84,13 +84,13 @@ Um zu überprüfen, ob die app in Ihrem Produktions Mandanten ordnungsgemäß fu
 Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hochladen benutzerdefinierter apps zu ermöglichen:
 
 1. Aktivieren Sie die organisationsweite Einstellung **Interaktion mit benutzerdefinierten apps zulassen** . Gehen Sie dazu so vor:
-    1. Wechseln Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu **Teams-apps** > -**Berechtigungsrichtlinien**, und klicken Sie dann auf **organisationsweite Einstellungen**.
+    1. Wechseln Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams-apps** > -**Berechtigungsrichtlinien**, und klicken Sie dann auf **organisationsweite Einstellungen**.
     2. Aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**, und klicken Sie dann auf **Speichern**.
 2. Deaktivieren Sie die Einstellung **benutzerdefinierte apps hochladen** in der globalen App-Setup Richtlinie. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
     2. Deaktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
 3. Erstellen Sie eine neue Richtlinie für die APP-Einrichtung, die das Hochladen benutzerdefinierter apps und die Zuweisung an Ihre vertrauenswürdigen Benutzer ermöglicht. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf **Hinzufügen**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf **Hinzufügen**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
     2. Wählen Sie die neu erstellte Richtlinie aus, und klicken Sie dann auf **Benutzer verwalten**. Suchen Sie nach einem Benutzer, klicken Sie auf **Hinzufügen**, und klicken Sie dann auf über **nehmen**. Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
 
         ![Screenshot der Seite "App-Setup Richtlinie hinzufügen"](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -99,7 +99,7 @@ Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hoc
 
 ## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>Schritt 3: Hochladen in den Mandanten-apps-Katalog
 
-Wenn Sie die APP für Benutzer im Mandanten-App-Store verfügbar machen möchten, laden Sie die APP hoch. Sie können dies über den Desktop-Client von Teams tun. Führen Sie die [folgenden Schritte aus](tenant-apps-catalog-teams.md#go-to-the-tenant-apps-catalog).
+Wenn Sie die APP für Benutzer im Mandanten-App-Store verfügbar machen möchten, laden Sie die APP hoch. Sie können dies über den Desktop-Client von Teams tun. Führen Sie die <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">folgenden Schritte aus</a>.
 
 ![Screenshot der Seite "Apps"](media/manage-your-lob-apps-store.png)
 
@@ -107,13 +107,13 @@ Wenn Sie die APP für Benutzer im Mandanten-App-Store verfügbar machen möchten
 
 ### <a name="control-access-to-the-app"></a>Steuern des Zugriffs auf die APP
 
-Standardmäßig haben alle Benutzer Zugriff auf diese APP im Store für Teams-apps. Um zu beschränken und zu steuern, wer die Berechtigung zum Verwenden der APP hat, können Sie eine neue APP-Berechtigungsrichtlinie erstellen und zuweisen. Führen Sie die [folgenden Schritte aus](teams-app-permission-policies.md#create-a-custom-app-permission-policy).
+Standardmäßig haben alle Benutzer Zugriff auf diese APP im Store für Teams-apps. Um zu beschränken und zu steuern, wer die Berechtigung zum Verwenden der APP hat, können Sie eine neue APP-Berechtigungsrichtlinie erstellen und zuweisen. Führen Sie die <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">folgenden Schritte aus</a>.
 
 ![Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen"](media/manage-your-lob-apps-new-app-permission-policy.png)
 
 ### <a name="pin-the-app-for-users-to-discover"></a>Anheften der APP für Benutzer zum Ermitteln
 
-Standardmäßig müssten die Benutzer diese APP finden, wenn Sie zu den Apps für Teams wechseln müssten, um Sie zu speichern und zu durchsuchen. Um Benutzern das Abrufen der APP zu erleichtern, können Sie die app in Teams an die APP-Leiste anheften. Erstellen Sie dazu eine neue APP-Setup Richtlinie, und weisen Sie Sie Benutzern zu. Führen Sie die [folgenden Schritte aus](teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+Standardmäßig müssten die Benutzer diese APP finden, wenn Sie zu den Apps für Teams wechseln müssten, um Sie zu speichern und zu durchsuchen. Um Benutzern das Abrufen der APP zu erleichtern, können Sie die app in Teams an die APP-Leiste anheften. Erstellen Sie dazu eine neue APP-Setup Richtlinie, und weisen Sie Sie Benutzern zu. Führen Sie die <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies#create-a-custom-app-setup-policy" target="_blank">folgenden Schritte aus</a>.
 
 ![Screenshot des Bereichs "angeheftete apps hinzufügen"](media/manage-your-lob-apps-pinned-apps.png)
 

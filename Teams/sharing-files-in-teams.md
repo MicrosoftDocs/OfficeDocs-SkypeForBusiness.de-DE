@@ -14,14 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 4114444da68e7a18fe66f7d32e3f64ab98a0b00b
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931793"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962079"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Freigabe von Dateien in Microsoft Teams
+
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 Mit den Dateifreigabe Features in Teams können Benutzer Inhalte für andere Team Benutzer in Ihrer Organisation freigeben. Die Freigabe in Teams basiert auf den in SharePoint und OneDrive konfigurierten Einstellungen, sodass die für SharePoint und OneDrive eingerichteten Einstellungen auch die Freigabe in Teams steuern.
 

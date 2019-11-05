@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 516d49c84efc43000597d74756c699012cacf28e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37515741"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968026"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -45,7 +45,11 @@ Nachdem Sie Ihr Team erstellt haben, empfiehlt es sich, sich mit den unterschied
 
 Erfahren Sie mehr über die [Arbeit in Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) mit diesen schnellen Tipps für Endbenutzer. 
 
-Unsere bewährten Methoden sind das Erstellen von Teams mit einer größeren Gruppe von Mitgliedern und mehr Kanälen. Um eine hohe Qualität der Benutzererfahrung zu gewährleisten, ist es hilfreich, die Anzahl der Teams zu minimieren, die die Teilnahme einer Person erfordern. Kanäle innerhalb eines Teams sollten als Themen oder Arbeitsstreams betrachtet werden, um das Team bei der Organisation ihrer Arbeit zu unterstützen, um Ihre Teilnahme Ziele zu erreichen. Es gibt keine bestimmte Anzahl von Kanälen, die erstellt werden sollen. Jedes Team sollte Kanäle basierend auf seinen Aufgaben, Prioritäten und Stilen erstellen. Größere Organisationen möchten möglicherweise Teams als "Vorlagen" erstellen, um die von Ihnen erfassten Informationen zu bestimmten Arbeitstypen zu standardisieren. Dies ist für die strategische Kundenverwaltung, die Verwaltung von Unterrichtsräumen, Szenarien für die Gesundheitsversorgung, das Schadenmanagement, das Incident Management und andere Szenarien nützlich, die für eine bestimmte Branche geeignet sind.
+Unsere bewährten Methoden sind das Erstellen von Teams mit einer größeren Gruppe von Mitgliedern und mehr Kanälen.  Um eine hohe Qualität der Benutzererfahrung zu gewährleisten, ist es hilfreich, die Anzahl der Teams zu minimieren, die die Teilnahme einer Person erfordern. Kanäle innerhalb eines Teams sollten als Themen oder Arbeitsstreams betrachtet werden, um das Team bei der Organisation ihrer Arbeit zu unterstützen, um Ihre Teilnahme Ziele zu erreichen. Es gibt keine bestimmte Anzahl von Kanälen, die erstellt werden sollen. Jedes Team sollte auf der Grundlage seiner Arbeit, seiner Prioritäten und seines Stils Kanäle herstellen. 
+
+Verwenden Sie Standardkanäle für Unterhaltungen, die jeder im Team zu und privaten Kanälen leisten kann, wenn ein stärker fokussierter Platz zur Zusammenarbeit für eine Teilmenge von Personen im Team benötigt wird. Weitere Informationen zu privaten Kanälen und deren Erstellung finden Sie unter [private Kanäle in Teams](private-channels.md).
+
+Größere Organisationen möchten möglicherweise Teams als "Vorlagen" erstellen, um die von Ihnen erfassten Informationen zu bestimmten Arbeitstypen zu standardisieren.  Dies ist für die strategische Kundenverwaltung, die Verwaltung von Unterrichtsräumen, Szenarien für die Gesundheitsversorgung, Anspruchsverwaltung, Incident Management und andere Szenarien nützlich, die für eine bestimmte Branche geeignet sind.
 
 ## <a name="use-the-general-channel"></a>Verwenden des Kanals "Allgemein"
 

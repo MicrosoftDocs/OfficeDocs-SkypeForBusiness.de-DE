@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569973"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968306"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien
+
+> [!NOTE]
+> Wir unterstützen noch keine Konfiguration für die Aufbewahrung privater Kanal Nachrichten. Die Aufbewahrung von Dateien, die in privaten Kanälen freigegeben sind, wird unterstützt.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Welche Arten von Richtlinien kann ich in Aufbewahrungsrichtlinien einrichten und wie funktionieren Sie?
 
@@ -40,7 +43,7 @@ Ja, das sind Sie. Wenn Sie eine Aufbewahrungsrichtlinie erstellen, um Daten zu l
 
 ### <a name="what-is-the-default-retention-policy"></a>Was ist die Standardaufbewahrungsrichtlinie? 
 
-Standardmäßig werden die Daten für Teams-Chat, Kanal und Dateien für immer aufbewahrt. Ein Benutzer kann etwas löschen, aber wenn keine Aufbewahrungsrichtlinien vorhanden sind, werden die Teams-Daten immer in Exchange Online-Postfächern (Benutzer und Gruppe) archiviert und bleiben für eDiscovery verfügbar. 
+Standardmäßig werden die Daten für Teams-Chat, Kanal und Dateien für immer aufbewahrt.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Kann ich auf Gruppen von Benutzern oder Teams in einer Richtlinie abzielen? 
 

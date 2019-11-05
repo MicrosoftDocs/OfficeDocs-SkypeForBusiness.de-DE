@@ -19,23 +19,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924966"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962053"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der hybridbereitstellung zur vollständigen Migration in die Cloud
 
 Nachdem Sie alle Benutzer aus der lokalen Umgebung in die Cloud verschoben haben, können Sie die lokale Skype for Business Bereitstellung außer Betrieb nehmen. Neben dem Entfernen von Hardware besteht ein wichtiger Schritt darin, die lokale Bereitstellung logisch von Office 365 durch Deaktivieren von Hybrid zu trennen. Das Deaktivieren von Hybriden besteht aus drei Schritten:
 
 1. Aktualisieren Sie die DNS-Einträge so, dass Sie auf Office 365 deuten.
+
 2. Deaktivieren Sie die geteilte Domäne im Office 365 Mandanten.
-3. Deaktivieren der Fähigkeit in "on-Prem" zur Kommunikation mit Office 365.
 
+3. Deaktivieren Sie die Möglichkeit in der lokalen Kommunikation mit Office 365.
 
-Diese Schritte sollten zusammen als Einheit ausgeführt werden. Details finden Sie weiter unten. Außerdem Richtlinien für die Verwaltung von Telefonnummern für migrierte Benutzer, sobald die lokale Bereitstellung getrennt wurde.
+Diese Schritte sollten zusammen als Einheit ausgeführt werden. Details finden Sie weiter unten. Darüber hinaus werden Richtlinien für die Verwaltung von Telefonnummern für migrierte Benutzer bereitgestellt, sobald die lokale Bereitstellung getrennt wird.
 
 > [!Note] 
 > In seltenen Fällen kann es dazu führen, dass der Verbund mit einigen anderen Organisationen nicht mehr funktionsfähig ist, wenn das Ändern von DNS von einem Standort auf einen Office 365 für Ihre Organisation erfolgt, bis eine andere Organisation ihre Verbund Konfiguration aktualisiert:<ul><li>
@@ -56,19 +57,30 @@ Das externe DNS der Organisation für die lokale Organisation muss so aktualisie
 2.  *Deaktivieren Sie den freigegebenen SIP-Adressraum in Office 365 Mandanten.*
 Der folgende Befehl muss in einem Skype for Business Online PowerShell-Fenster ausgeführt werden.
 
-    `Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false`
+    ```
+    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
+    ```
  
 3.  *Deaktivieren der Fähigkeit in "on-Prem" zur Kommunikation mit Office 365.*  
-Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden.  Wenn Sie zuvor eine Skype for Business Online Sitzung importiert haben, starten Sie eine neue Skype for Business PowerShell-Sitzung.
+Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden.  Wenn Sie zuvor eine Skype for Business Online Sitzung importiert haben, starten Sie eine neue Skype for Business PowerShell-Sitzung wie folgt:
 
-    `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+```
+    Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+```
 
-### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Verwalten von Telefonnummern für Benutzer, die von lokal migriert wurden
+### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Verwalten von Telefonnummern für Benutzer, die von lokal migriert wurden
 
-Administratoren können Benutzer verwalten, die zuvor von lokalen Skype for Business Server in die Cloud verschoben wurden, auch wenn die lokale Bereitstellung außer Betrieb genommen wurde. Es gibt zwei verschiedene Möglichkeiten:
-1.  Wenn der Benutzer vor dem Wechsel eine lokale LineUri hatte (vermutlich weil der Benutzer für Enterprise-VoIP aktiviert war), wenn Sie den LineUri ändern möchten, müssen Sie dies in On-Premise AD durchführen und den Wert auf Aad übertragen lassen. Dies erfordert keine lokale Skype for Business Server. Stattdessen kann dieses Attribut, msRTCSIP-Reihe direkt in der lokalen Active Directory, entweder mithilfe von Active Directory Benutzer und Computer MMC-Snap-in oder über PowerShell bearbeitet werden. Wenn Sie das MMC-Snap-in verwenden, öffnen Sie die Seite Eigenschaften des Benutzers, und klicken Sie auf Attribut-Editor-Registerkarte, und suchen Sie msRTCSIP-Reihe.
+Administratoren können Benutzer verwalten, die zuvor von einem lokalen Skype for Business Server in die Cloud verschoben wurden, auch wenn die lokale Bereitstellung außer Betrieb genommen wurde. Es gibt zwei verschiedene Möglichkeiten:
 
-2.  Wenn der Benutzer vor dem Wechsel nicht über einen Wert für LineUri on-Prem verfügt, können Sie die LineUri mithilfe der-onpremLineUri-Parameter im Cmdlet "CSUser" im Skype for Business Online PowerShell-Modul ändern.
+- Der Benutzer hat vor dem Wechsel keinen Wert für LineUri lokal bereitstellen können. 
+
+  In diesem Fall können Sie die LineURI mithilfe der-onpremLineUri-Parameter im Cmdlet " [Csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) " im Skype for Business Online PowerShell-Modul ändern.
+
+- Der Benutzer hatte eine lokale LineUri vor dem Wechsel (vermutlich, weil der Benutzer für Enterprise-VoIP aktiviert wurde). 
+
+  Wenn Sie das lineURI ändern möchten, müssen Sie dies in der lokalen Active Directory durchführen und den Wert auf Azure AD übernehmen. Dies erfordert keine lokale Skype for Business Server. Dieses Attribut, msRTCSIP, kann vielmehr direkt im lokalen Active Directory bearbeitet werden, indem entweder das MMC-Snap-in Active Directory Benutzer und Computer oder die PowerShell verwendet wird. Wenn Sie das MMC-Snap-in verwenden, öffnen Sie die Seite Eigenschaften des Benutzers, klicken Sie auf Registerkarte Attribut-Editor, und suchen Sie nach msRTCSIP-Reihe.
+
+  ![Tool zum Active Directory von Benutzern und Computern](../media/disable-hybrid-1.png)
 
 ## <a name="see-also"></a>Siehe auch
 

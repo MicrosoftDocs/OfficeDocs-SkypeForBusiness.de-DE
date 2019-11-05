@@ -12,18 +12,17 @@ description: Eine Übersicht über die Sicherheits- und Compliance-Funktionen vo
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea0231ae9ad654e360a153029d06ea9fb564d49a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483032"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968176"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -38,7 +37,10 @@ Microsoft Teams erzwingt außerdem teamweite und organisationsweite zweistufige 
 
 Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Wechseln Sie zum Office 365 Security & Compliance Center, um diese Einstellungen zu verwalten. 
 
-Weitere Informationen zu Office 365 Sicherheit & Compliance finden Sie unter [Konfigurieren Ihres Office 365-Mandanten für höhere Sicherheit](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+Weitere Informationen zu Office 365-Sicherheit und-Compliance finden Sie unter [Konfigurieren Ihres Office 365-Mandanten für erhöhte Sicherheit](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+
+> [!NOTE]
+> Derzeit unterstützt [privater Kanal](private-channels.md) begrenzte Sicherheits-und Compliance-Funktionen. Die Unterstützung für den vollständigen Satz von Sicherheits-und Compliance-Features in privaten Kanälen wird in Kürze verfügbar sein.
 
 ## <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
 
@@ -48,7 +50,7 @@ Die Überwachungsprotokollsuche ist direkt in das Office 365 Security & Complia
 
 Die Inhaltssuche kann dazu verwendet werden, mit umfangreichen Filterfunktionen nach allen Microsoft Teams-Daten zu suchen. Die Inhalte können zur Unterstützung von Compliance und Rechtsstreitigkeiten in einen speziellen Container exportiert werden. Dies kann mit oder ohne eDiscovery-Fall geschehen. Auf diese Weise können Complianceadministratoren Microsoft Teams-Daten für alle Benutzer sammeln, überprüfen und zur weiteren Verarbeitung exportieren. Unter diesem [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) finden Sie weitere Informationen zum Durchführen einer Compliancesuche in Microsoft Teams-Inhalten im Office 365 Security & Compliance Center. 
 
-Tipp: Wenn Sie ausschließlich nach Microsoft Teams-Inhalten (zum Beispiel nach Chat- und Kanalnachrichten, Besprechungen und Anrufen) filtern möchten, können Sie den Typ „Microsoft Teams“ verwenden. 
+Tipp: Wenn Sie ausschließlich nach Microsoft Teams-Inhalten (zum Beispiel nach Chat- und Kanalnachrichten, Besprechungen und Anrufen) filtern möchten, können Sie den Typ „Microsoft Teams“ verwenden.
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -100,13 +102,13 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 
 | Funktion für den Schutz von Informationen | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archiv              |               -                |              -              |            -             |             Ja             |           Ja            |
-|        Compliance-eDiscovery        |               -                |              -              |            -             |             Ja             |           Ja            |
+|              Archiv              |               -                |              -              |            -             |             Ja              |           Ja             |
+|        Compliance-eDiscovery        |               -                |              -              |            -             |             Ja              |           Ja             |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Ja            |
-|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja             |           Ja            |
-|     Compliancesuche in Inhalten     |               -                |             Ja             |           Ja            |             Ja             |           Ja            |
-|      Überwachung und Berichterstellung       |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
-|       Bedingter Zugriff\*        |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
+|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja              |           Ja             |
+|     Compliancesuche in Inhalten     |               -                |             Ja              |           Ja             |             Ja              |           Ja             |
+|      Überwachung und Berichterstellung       |              Ja               |             Ja              |           Ja             |             Ja              |           Ja             |
+|       Bedingter Zugriff\*        |              Ja               |             Ja              |           Ja             |             Ja              |           Ja            |
 
 > [!NOTE]
 > \*Für bedingten Zugriff sind zusätzliche Lizenzen erforderlich.

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568509"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972486"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -60,7 +60,7 @@ CQD Version 3 bietet ein nahezu Echtzeit-CQD-Dashboard (Wartezeit in der Nähe v
 - Clientversionen: zeigen Sie die Sitzungs-und Benutzeranzahl für jede Client Version an, oder führen Sie einen Drilldown zu Benutzernamen für jede Client Version durch. Vordefinierte Filter für Produkt-und Client Typen helfen bei der Fokussierung der Versionen auf bestimmte Clients.
 - Endpunkte: zeigt Computer Endpunkte an, die dem Hersteller/Modell des PC/Mac zugeordnet sind. Zeigt die aggregierte Qualität nach Marke/Modell. Zuordnungsdaten werden ähnlich wie Gebäudedaten hochgeladen.
 
-Version 3 bietet auch RBAC-Unterstützung, falls EUII-Zugriff nicht verfügbar ist.  
+Advanced CQD (v3) bietet auch RBAC-Unterstützung, falls der EUII-Zugriff nicht verfügbar ist.  
 
 Ein Administrator kann Skype for Business Server 2019 (nicht nur Skype for Business Online und Microsoft Teams) über CQD Version 3 verwalten. Dies erfordert eine Hybrid Implementierung und die Verwendung des Anrufdaten-Konnektors. Weitere Informationen finden Sie unter [Planen von Anrufdaten-Konnektoren](/SkypeForBusiness/hybrid/plan-call-data-connector) .
 
@@ -84,7 +84,7 @@ CQD Version 1 hat den Skype for Business Server 2015-Administratoren die folgend
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD (NRT)-Daten (Near-Real-Time)
 
-CQD V3 verwendet einen nahezu Echtzeitdaten-Feed. Anrufdatensätze sind im CQD-Portal innerhalb von 30 Minuten nach dem Ende des Anrufs verfügbar. Anrufdatensätze aus der NRT-Pipeline stehen nur einige Monate zur Verfügung, bevor Sie aus dem Datensatz entfernt werden. CQD V3 führt Daten aus der aktuellen v2-Pipeline mit NRT-Daten aus der V3-Pipeline zusammen. Abfragen auf den V2-und V3-Portalen für die Daten aus dem Archivierungszeitraum liefern dieselben Ergebnisse. V2-und V3-Daten Abfragen für die NRT-Daten und NRT-Daten + PII-Perioden unterscheiden sich.
+Advanced CQD (v3, veröffentlicht am 2019) verwendet einen Near-Real-Time-Datenfeed. Anrufdatensätze sind im CQD-Portal innerhalb von 30 Minuten nach dem Ende des Anrufs verfügbar. Anrufdatensätze aus der NRT-Pipeline stehen nur einige Monate zur Verfügung, bevor Sie aus dem Datensatz entfernt werden. CQD V3 führt Daten aus der aktuellen v2-Pipeline mit NRT-Daten aus der V3-Pipeline zusammen. Abfragen auf den V2-und V3-Portalen für die Daten aus dem Archivierungszeitraum liefern dieselben Ergebnisse. V2-und V3-Daten Abfragen für die NRT-Daten und NRT-Daten + PII-Perioden unterscheiden sich.
 
 ### <a name="piieuii-data"></a>PII/EUII-Daten
 
@@ -170,7 +170,7 @@ Nachdem Sie sich angemeldet haben, wird das Dashboard für die Anrufqualität na
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detaillierte Berichte geplant sind. Die Unterschiede zwischen den Editionen sind hier zusammengefasst:
   
 |Feature|Zusammenfassungsberichte|Detaillierte Berichte|
@@ -211,7 +211,7 @@ Die vier Registerkarten umfassen:
 - **SLA zur Sprachqualität** – bietet Informationen zu anrufen, die in der Skype for Business Online-SLA für Sprachqualität enthalten sind.
 
 > [!NOTE]
-> CQD Version 3 arbeitet mit Microsoft Teams, Skype for Business Online und Skype for Business Server zusammen. Wenn Sie CQD mit Skype for Business Server 2019 verwenden möchten, müssen Sie den [Anrufdaten-Konnektor konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). Weitere Informationen finden Sie unter [Planen von Anrufdaten-Konnektoren](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector) vor dem Start.
+> CQD Version 3 arbeitet mit Microsoft Teams, Skype for Business Online und Skype for Business Server zusammen. Wenn Sie CQD mit Skype for Business Server 2019 verwenden möchten, müssen Sie den [Anrufdaten-Konnektor konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). Weitere Informationen finden Sie unter [Planen von Anrufdaten-Konnektoren](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) vor dem Start.
 
 - Anrufqualität nach Regionen:
 
@@ -453,6 +453,6 @@ Wenn Sie Daten für diese beiden Dienste vergleichen:
 
 [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
 
-[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)

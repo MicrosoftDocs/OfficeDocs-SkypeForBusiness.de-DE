@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515914"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968266"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
 
-Im Laufe der Zeit kann ein Team, das in Microsoft Teams erstellt wurde, möglicherweise nicht mehr verwendet werden, oder Sie möchten ein Team am Ende eines Projekts archivieren oder löschen. Wenn Sie ein Microsoft Teams-Administrator sind, führen Sie die in diesem Artikel aufgeführten Schritte aus, um ein nicht mehr benötigtes Team zu archivieren oder zu löschen. Wenn Sie ein Team archivieren, werden alle Aktivitäten für dieses Team beendet, aber Sie können weiterhin Mitglieder hinzufügen oder entfernen sowie Rollen aktualisieren, und Sie können weiterhin alle Teamaktivitäten in Kanälen, Dateien und Chats anzeigen. Wenn Sie ein Team löschen, werden die Teamaktivitäten in zugeordneten Kanälen, Dateien und Chats ebenfalls gelöscht.
+Im Laufe der Zeit kann ein Team, das in Microsoft Teams erstellt wurde, möglicherweise nicht mehr verwendet werden, oder Sie möchten ein Team am Ende eines Projekts archivieren oder löschen. Wenn Sie ein Microsoft Teams-Administrator sind, führen Sie die in diesem Artikel aufgeführten Schritte aus, um ein nicht mehr benötigtes Team zu archivieren oder zu löschen.
+
+Wenn Sie ein Team archivieren, werden alle Aktivitäten für dieses Team eingestellt. Durch die Archivierung eines Teams werden auch private Kanäle im Team und die zugehörigen Websitesammlungen archiviert.  Sie können jedoch weiterhin Mitglieder hinzufügen oder entfernen sowie Rollen aktualisieren, und Sie können weiterhin alle Teamaktivitäten in Standard-und privaten Kanälen, Dateien und Chats anzeigen.
+
+Wenn Sie ein Team löschen, werden auch die Teamaktivitäten in Standard-und privaten Kanälen (und zugehörigen Websitesammlungen), Dateien und Chats gelöscht.
 
 > [!IMPORTANT]
 > Archivierte Teams können wieder aktiviert werden, aber Sie können ein gelöschtes Team nicht direkt löschen. In diesem Fall sollten Sie das Team zunächst archivieren und den Löschvorgang verschieben, bis Sie sicher sind, dass Sie das Team nicht mehr benötigen.
@@ -63,7 +67,9 @@ Wenn das Team in Zukunft nicht mehr benötigt wird, können Sie es löschen, ans
 
 ## <a name="restore-a-deleted-team"></a>Wiederherstellen eines gelöschten Teams
 
-Führen Sie die folgenden Schritte aus, um ein gelöschtes Team wiederherzustellen, indem Sie die Office 365-Gruppe wiederherstellen, die dem Team zugeordnet ist. Standardmäßig wird eine gelöschte Office 365-Gruppe 30 Tage lang aufbewahrt. Dieser Zeitraum von 30 Tagen wird als "Soft-Delete" bezeichnet, da Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Office 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Führen Sie die folgenden Schritte aus, um ein gelöschtes Team wiederherzustellen, indem Sie die Office 365-Gruppe wiederherstellen, die dem Team zugeordnet ist. Beim Wiederherstellen der Office 365-Gruppe für ein Team werden Team Inhalte, einschließlich Tabstopps, Standardkanälen und privaten Kanälen sowie deren zugehörigen Websitesammlungen, wiederhergestellt.
+
+Standardmäßig wird eine gelöschte Office 365-Gruppe 30 Tage lang aufbewahrt. Dieser Zeitraum von 30 Tagen wird als "Soft-Delete" bezeichnet, da Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Office 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installieren des AzureADPreview-Moduls
 

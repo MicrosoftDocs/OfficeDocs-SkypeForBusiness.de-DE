@@ -17,15 +17,15 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886428"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37971661"
 ---
-<a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
-===========================
+# <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
+
 
 Microsoft Teams verfügt über Clients für Desktop (Windows, Mac und Linux), Web und Mobile (Android und IOS). Diese Clients benötigen alle eine aktive Internetverbindung und unterstützen keinen Offlinemodus.
 
@@ -34,8 +34,7 @@ Microsoft Teams verfügt über Clients für Desktop (Windows, Mac und Linux), We
 >
 > Weitere Informationen zum Windows 10 s-Modus finden Sie unter [Einführung in Windows 10 im s-Modus](https://www.microsoft.com/windows/s-mode). 
 
-<a name="desktop-client"></a>Desktopclient
---------------
+## <a name="desktop-client"></a>Desktopclient
 
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
@@ -125,8 +124,7 @@ Sie können Teams über Aktivitäten oder per Terminal starten, indem `Teams`Sie
 
 Sie können Teams über Aktivitäten oder per Terminal starten, indem `Teams`Sie eine Eingabe durchführen.
 
-<a name="web-client"></a>Webclient 
-----------
+## <a name="web-client"></a>Webclient 
 
 Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständig funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Der Webclient unterstützt Anrufe und Besprechungen mit WebRTC, es ist also kein Plug-In oder Download erforderlich, um Teams in einem Webbrowser ausführen. Der Browser muss so konfiguriert sein, dass Drittanbietercookies zulässig sind. 
 
@@ -134,8 +132,7 @@ Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 Der Webclient führt beim Herstellen einer Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) eine Ermittlung der Browserversion durch. Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Webschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.
 
-<a name="mobile-clients"></a>Mobile Clients
---------------
+## <a name="mobile-clients"></a>Mobile Clients
 
 Die Microsoft Teams-Apps für Mobilgeräte stehen für Android und iOS zur Verfügung und sind auf mobile Benutzer ausgelegt, die an Chat-basierten Unterhaltungen teilnehmen. Außerdem ermöglichen sie Peer-to-Peer-Audioanrufe. Rufen Sie den entsprechenden Store für mobile Apps – Google Play oder Apple App Store – auf, um die Apps herunterzuladen. Die Windows Phone-App wurde am 20. Juli 2018 eingestellt und funktioniert möglicherweise nicht mehr. 
 
@@ -156,25 +153,21 @@ Mobile Apps werden nur über den App Store der jeweiligen mobilen Plattform vert
 |![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
 |![Ein Symbol, das die nächsten Schritte darstellt](media/Get_clients_for_Microsoft_Teams_image5.png)     |Nächste Schritte         |Wenn Ihre Organisation Softwareinstallationen einschränkt, stellen Sie sicher, dass dieser Prozess mit Microsoft Teams kompatibel ist. Hinweis: Administratorrechte sind zum Installieren von Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich.         |
 
-<a name="client-update-management"></a>Verwaltung von Clientupdates
-------------------------
+## <a name="client-update-management"></a>Verwaltung von Clientupdates
 
 Clients werden derzeit vom Microsoft Teams-Dienst automatisch aktualisiert, ohne dass ein IT-Administratoreingriff erforderlich ist. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen, und wenn die APP für einen bestimmten Zeitraum inaktiv ist, wird der Updatevorgang gestartet.
 
-<a name="client-side-configurations"></a>Clientseitige Konfigurationen
----------------------------
+## <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 
 Zurzeit sind keine unterstützten Optionen zum Konfigurieren des Clients durch den Mandantenadministrator, PowerShell, Gruppenrichtlinienobjekte oder die Registrierung verfügbar.
 
-<a name="notification-settings"></a>Benachrichtigungseinstellungen
-----------------------------
+## <a name="notification-settings"></a>Benachrichtigungseinstellungen
 
 Zurzeit sind keine Optionen verfügbar, mit denen IT-Administratoren clientseitige Benachrichtigungseinstellungen konfigurieren können. Alle Benachrichtigungsoptionen werden von den Benutzern festgelegt. Die folgende Abbildung zeigt die Standardclienteinstellungen.
 
 ![Screenshot der Benachrichtigungseinstellungen](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a>PowerShell-Beispielskript
-----------------------------
+## <a name="sample-powershell-script"></a>PowerShell-Beispielskript
 
 Dieses Beispielskript, das auf Clientcomputern im Kontext eines Administratorkontos mit erweiterten Berechtigungen ausgeführt werden muss, erstellt eine neue eingehende Firewallregel für jeden Benutzerordner unter C:\Users. Wenn Teams diese Regel findet, kann sie verhindern, dass die Teams-Anwendung Benutzer zum Erstellen von Firewallregeln auffordert, wenn der Benutzer seinen ersten Aufruf über Teams tätigt. 
 

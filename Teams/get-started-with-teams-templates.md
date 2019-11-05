@@ -17,14 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569564"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968316"
 ---
-# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen 
+# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen
+
+> [!NOTE]
+> In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten. 
 
 In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. 
 
@@ -33,7 +36,7 @@ In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert we
 Dieser Artikel ist für Sie da:
 
 - Verantwortlich für das Planen, bereitstellen und Verwalten mehrerer Teams in Ihrer Organisation<br>
-- Entwickler, die ein Team programmgesteuert mit vordefinierten Kanälen und Apps erstellen möchten 
+- Entwickler, die ein Team programmgesteuert mit vordefinierten Kanälen und Apps erstellen möchten
 
 ## <a name="teams-template-capabilities"></a>Teams-Vorlagen Funktionen
 
@@ -48,7 +51,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 | Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
 | Automatisch bevorzugter Kanal | |
 | Installierte App | |
-| Angeheftete Tabstopps | | 
+| Angeheftete Tabstopps | |
 
 > [!NOTE]
 > In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagen Funktionen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
@@ -57,7 +60,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 
 Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die in den Store-und teameigenschaften nicht verfügbar sind, die in den Teams-Vorlagen noch nicht einzeln unterstützt werden.
 
-Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten jedoch Eigenschaften, die nicht überschrieben werden können. 
+Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten jedoch Eigenschaften, die nicht überschrieben werden können.
 
 Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Unten ist die aktuelle Liste der verfügbaren Basisvorlagen Typen aufgeführt.
 
@@ -75,7 +78,6 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zus
 
 > [!NOTE]
 > In zukünftigen Versionen von Microsoft Teams werden weitere Basisvorlagen Typen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 

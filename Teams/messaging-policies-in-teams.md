@@ -7,7 +7,8 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
-ms.translationtype: HT
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861864"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968236"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -33,7 +34,7 @@ Standardmäßig wird eine Richtlinie namens „Global“ (organisationsweiter St
 
 ## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Nachrichtenrichtlinie
 
-Sie können die Nachrichtenrichtlinien im Microsoft Teams Admin Center ganz einfach verwalten, http://admin.teams.microsoft.com)indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Nachrichtenrichtlinien** auswählen. Um die vorhandene Standard-Nachrichtenrichtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweiter Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** aus, geben Sie der neuen Richtlinie einen Namen und wählen Sie dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, wählen Sie **Speichern** aus.
+Sie können die Nachrichtenrichtlinien im Microsoft Teams Admin Center ganz einfach verwalten, https://admin.teams.microsoft.com)indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Nachrichtenrichtlinien** auswählen. Um die vorhandene Standard-Nachrichtenrichtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweiter Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** aus, geben Sie der neuen Richtlinie einen Namen und wählen Sie dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, wählen Sie **Speichern** aus.
 
 Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden können. Sie erstellen dann eine neue benutzerdefinierte Richtlinie namens „Gesendete Nachrichten aufbewahren“ und deaktivieren die folgenden Einstellungen:
 
@@ -96,6 +97,9 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
     - **Deaktiviert**: Das bedeutet, dass Benutzer keine Sprachnachrichten in Chats oder Kanälen erstellen können.  
 - **Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen**: Aktivieren Sie diese Einstellung, um die bevorzugten Kanäle an den oberen Rand des Bildschirms für mobile Geräte zu verschieben, damit ein Benutzer nicht scrollen muss, um Sie zu finden. 
 - **Einem Benutzer das Entfernen von Benutzern aus einem Gruppenchat gestatten**: Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppenchat entfernen kann. Mithilfe dieses Features können Sie mit einer kleineren Gruppe von Personen chatten, ohne den Chatverlauf zu verlieren.
+
+> [!NOTE]
+> Einige dieser Einstellungen, wie die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater Kanalebene von privaten Kanal Besitzern konfiguriert werden.
 
 ### <a name="related-topics"></a>Verwandte Themen
 [Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)

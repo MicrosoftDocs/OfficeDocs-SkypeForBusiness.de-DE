@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37564433"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968056"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen, um einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu erlangen. Wechseln Sie dann zu [Chat, Teams, Kanäle, #a0-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , um eine Liste der Entscheidungen zu durchlaufen, die für das Rollout Ihres Teams wichtig sind.
@@ -38,15 +38,13 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 - **Teams** sind Sammlungen von Personen, Inhalten und Tools für unterschiedliche Projekte und Ergebnisse innerhalb einer Organisation.
 
     - Teams können so aufgesetzt werden, dass nur eingeladene Benutzer Zugriff erhalten.
-
     - Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 5000 Mitglieder).
     
     Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 
 - **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden. Dateien, die Sie in einem Kanal freigeben (auf der Registerkarte "Dateien"), werden in SharePoint gespeichert. Weitere Informationen finden Sie unter [Interaktion zwischen SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md).
 
-    - Team Kanäle sind Orte, an denen jeder im Team offen Unterhaltungen führen kann. Private Chats sind nur für Personen im Chat sichtbar (und Dateien, die Sie in einem Chat freigeben, werden in OneDrive for Business gespeichert). 
-
+    - Kanäle sind Orte, an denen Unterhaltungen stattfinden und wo die Arbeit tatsächlich durchgeführt wird. Kanäle können für alle Teammitglieder geöffnet sein, oder wenn Sie eine größere Auswahl an Zielgruppen benötigen, können Sie privat sein. Standard Kanäle sind für Konversationen, an denen sich jeder in einem Team beteiligen kann, und [private Kanäle](private-channels.md) beschränken die Kommunikation auf eine Teilmenge von Personen in einem Team.
     - Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern. Weitere Informationen finden Sie unter [apps, Bots, #a0-Connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen.
@@ -73,9 +71,9 @@ Wenn die Moderation eingerichtet ist, können Teambesitzer und Mitglieder auch M
 
 **Team Einstellungen** 
 
-Teambesitzer können teamübergreifende Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
+Teambesitzer können teamübergreifende Einstellungen direkt in Microsoft Teams verwalten. Zu den Einstellungen gehören die Möglichkeit zum Hinzufügen eines teambilds, das Festlegen von Berechtigungen für Teammitglieder für die Erstellung von standardmäßigen und [privaten Kanälen](private-channels.md), das Hinzufügen von Registerkarten und Konnektoren, das @mentioning des gesamten Teams oder Kanals sowie die Verwendung von GIFs, Aufklebern und Memen.
 
-Nehmen Sie sich drei Minuten Zeit, um sich dieses Handbuch für Teambesitzer anzusehen: 
+Nehmen Sie sich drei Minuten Zeit, um sich dieses Handbuch für Teambesitzer anzusehen:
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 

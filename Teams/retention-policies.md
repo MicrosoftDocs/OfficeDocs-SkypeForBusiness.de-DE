@@ -3,7 +3,6 @@ title: Aufbewahrungsrichtlinien in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569951"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968326"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
-Teams-Unterhaltungen sind dauerhaft und werden standardmäßig für immer aufbewahrt. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren im Security #a0 Compliance Center für Teams-Chats und Kanal Nachrichtenaufbewahrungsrichtlinien (sowohl Konservierung als auch Löschung) konfigurieren. Dies hilft Organisationen, Daten für einen bestimmten Zeitraum für die Compliance (nämlich die Erhaltungs Richtlinie) zu speichern oder Daten (nämlich Löschrichtlinien) loszuwerden, wenn Sie nach einem bestimmten Zeitraum als verbindlich erachtet werden. Durch die Aufbewahrungsrichtlinien von Teams wird sichergestellt, dass Sie beim Löschen von Daten aus allen permanenten Datenspeicherorten des Teams-Diensts entfernt werden. 
+Teams-Unterhaltungen sind dauerhaft und werden standardmäßig für immer aufbewahrt. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren im Security #a0 Compliance Center für Teams-Chats und Kanal Nachrichtenaufbewahrungsrichtlinien (sowohl Konservierung als auch Löschung) konfigurieren. Dies hilft Organisationen, Daten für einen bestimmten Zeitraum für die Compliance (nämlich die Erhaltungs Richtlinie) zu speichern oder Daten (nämlich Löschrichtlinien) loszuwerden, wenn Sie nach einem bestimmten Zeitraum als verbindlich erachtet werden. Durch die Aufbewahrungsrichtlinien von Teams wird sichergestellt, dass Sie beim Löschen von Daten aus allen permanenten Datenspeicherorten des Teams-Diensts entfernt werden.
+
+> [!NOTE]
+> Wir unterstützen noch keine Konfiguration für die Aufbewahrung privater Kanal Nachrichten. Die Aufbewahrung von Dateien, die in privaten Kanälen freigegeben sind, wird unterstützt.
 
 Verwenden Sie zum Verwalten von Aufbewahrungsrichtlinien für Teams die Einstellungen und Cmdlets im Office 365 Security #a0 Compliance Center unter **Daten Governance** > -**Aufbewahrung**.
 
