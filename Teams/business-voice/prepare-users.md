@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa78681bbad0fb5b4c46a2ac424f3be01e9a857
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
+ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972286"
+ms.locfileid: "37973214"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>Wie bereite ich meine Benutzer auf Business Voice vor?
 
@@ -32,7 +32,7 @@ Wenn Sie dies noch nicht getan haben, müssen Sie Teams auf jedem Computer und S
 
 Für PCs und Macs können Sie Teams bei https://teams.microsoft.com/downloads herunterladen. Wenn ein Benutzer Windows 10 im S-Modus ausführt, kann er Teams aus dem Microsoft Windows Store installieren.
 Für Android- und iPhone-Geräte können Sie die App installieren, indem Sie in Google Play und im Apple App Store nach Microsoft Teams suchen. Beachten Sie, dass auf den Smartphones Android 4.4 oder höher oder iOS 10.0 oder höher installiert sein muss.
-Um Teams im Internet nutzen zu können, müssen Sie einen unterstützten Browser verwenden. Eine Liste der unterstützten Browser finden Sie im [Abschnitt „WebClient“ unter „Abrufen von Clients für Microsoft Teams“](../get-clients#web-client).
+Um Teams im Internet nutzen zu können, müssen Sie einen unterstützten Browser verwenden. Eine Liste der unterstützten Browser finden Sie im [Abschnitt „WebClient“ unter „Abrufen von Clients für Microsoft Teams“](../get-clients.md#web-client).
 
 ## <a name="devices-for-microsoft-teams"></a>Geräte für Microsoft Teams
 
