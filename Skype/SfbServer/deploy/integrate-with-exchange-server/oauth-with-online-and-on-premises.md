@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Wenn Sie die OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online konfigurieren, werden die unter Funktionsunterstützung beschriebenen Funktionen für Skype for Business und die Exchange-Integration aktiviert.
-ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715807"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979778"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
@@ -41,7 +41,7 @@ Dieses Thema bezieht sich auf die Integration in Exchange Server 2013 bis 2019.
 
 Führen Sie die im folgenden Artikel aufgeführten Schritte aus:
 
-[Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 2: Erstellen eines neuen e-Mail-Benutzerkontos für die Skype for Business Online-Partner Anwendung
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 Führen Sie in Exchange PowerShell in Ihrer lokalen Exchange-Organisation das soeben erstellte PowerShell-Skript aus. Beispiel: .\ExportAuthCert.ps1
 
-### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Schritt 6: Hochladen des lokalen Autorisierungszertifikats nach Azure Active Directory ACS
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Schritt 5: Hochladen des lokalen Autorisierungs Zertifikats in Azure Active Directory ACS
 
 Verwenden Sie im nächsten Schritt Windows PowerShell, um das im vorigen Schritt exportierte Autorisierungszertifikat auf Azure Active Directory Access Control Services (ACS) hochzuladen. Dafür muss das Azure Active Directory-Modul für Windows PowerShell-Cmdlets bereits installiert sein. Wenn Sie nicht installiert ist, wechseln [https://aka.ms/aadposh](https://aka.ms/aadposh) Sie zu installieren des Azure Active Directory-Moduls für Windows PowerShell. Schließen Sie die folgenden Schritte ab, nachdem das Azure Active Directory-Modul für Windows PowerShell installiert worden ist.
 
@@ -126,7 +126,7 @@ Verwenden Sie im nächsten Schritt Windows PowerShell, um das im vorigen Schrit
 
 4. Nach dem Start des Skripts wird ein Dialogfeld zur Eingabe Ihrer Anmeldeinformationen angezeigt. Geben Sie die Anmeldeinformationen für das Mandantenadministratorkonto Ihrer Microsoft Online Azure AD-Organisation ein. Nachdem das Skript ausgeführt worden ist, lassen Sie die Windows PowerShell für die Azure AD-Sitzung offen. Sie brauchen sie, um im nächsten Schritt ein PowerShell-Skript auszuführen.
 
-### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Schritt 7: überprüfen, ob das Zertifikat in den Skype for Business-Dienstprinzipal hochgeladen wurde
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Schritt 6: überprüfen, ob das Zertifikat in den Skype for Business-Dienstprinzipal hochgeladen wurde
 1. Führen Sie in der PowerShell, die in Azure Active Directory geöffnet und authentifiziert wurde, die folgenden Schritte aus:
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -146,10 +146,10 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Schauen Sie sich alternativ Ihren Traffic an. Der Datenverkehr in einem OAuth-Handshake ist wirklich charakteristisch (und sieht nicht wie die Standardauthentifizierung aus), insbesondere im Bereich der Realms, wo Sie beginnen, den Emittenten-Traffic zu sehen, der wie folgt aussieht: 00000004-0000-0ff1-ce00-000000000000 @ (manchmal mit a/before das @-Zeichen) in den Token, die übergeben werden. Sie sehen keinen Benutzernamen oder kein Kennwort, was der OAuth-Punkt ist. Sie sehen aber den Aussteller "Office" – in diesem Fall "4" ist Skype for Business – und das Reich Ihres Abonnements.
 
-Wenn Sie sicher sein möchten, dass Sie OAuth erfolgreich verwenden, stellen Sie sicher, dass Sie wissen, was Sie erwarten und wissen, wie der Datenverkehr aussehen soll. Hier [](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)sehen Sie also ein ziemlich Standard [Beispiel für OAuth-Datenverkehr in einer Microsoft-Anwendung](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (wirklich hilfreich zum Lesen, obwohl es keine Aktualisierungs Tokens verwendet), und es gibt Fiddler-Erweiterungen, mit denen Sie Ihre OAuth-JWT (JSON Web-Token).
+Wenn Sie sicher sein möchten, dass Sie OAuth erfolgreich verwenden, stellen Sie sicher, dass Sie wissen, was Sie erwarten und wissen, wie der Datenverkehr aussehen soll. Hier [sehen Sie also ein](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)ziemlich Standard [Beispiel für OAuth-Datenverkehr in einer Microsoft-Anwendung](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (wirklich hilfreich zum Lesen, obwohl es keine Aktualisierungs Tokens verwendet), und es gibt Fiddler-Erweiterungen, mit denen Sie Ihre OAuth-JWT (JSON Web-Token).
 
 Hier ist ein [Beispiel für die Einrichtung](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), aber Sie können jedes Netzwerk-Tracing-Tool verwenden, mit dem Sie diesen Prozess durchführen möchten.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

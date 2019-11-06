@@ -22,10 +22,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Führen Sie die Schritte aus, die Sie zum Ändern der Einstellungen für eine Konferenzbrücke benötigen, mit der Anrufer aufgefordert und Namen und Pins für Besprechungsorganisatoren gesammelt werden, wenn Sie keine Skype for Business-oder Microsoft Teams-Apps verwenden. '
 ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37516952"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
@@ -87,9 +87,9 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
     
 **Festlegen der Länge der PIN für Besprechungen**
   
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
-2. Wechseln Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
+2. Navigieren Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
     
 3. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audiokonferenz** > -**Einstellungen für Microsoft Bridge**.
     
@@ -100,9 +100,9 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
 **Auswählen, ob E-Mails an Ihre Benutzer gesendet werden sollen**
   
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
-2. Wechseln Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
+2. Navigieren Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
     
 3. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audiokonferenz** > -**Einstellungen für Microsoft Bridge**.
     

@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: f9cdb6acd98fed0c20aed74fc5bdce3dff02b3d6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9173108fa6c7047e7e10e45b59d8038cf2d3446e
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573638"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38001354"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -33,7 +33,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams Rooms ist für die Verwendung mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online vorgesehen.
 >
-> Frühere Plattformen wie lync Server 2013 funktionieren nicht mit Microsoft Teams-Räumen. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in den gcc-, gcc-oder DoD-Umgebungen nicht unterstützt.
+> Ältere Plattformen wie Lync Server 2013 funktionieren vermutlich nicht mehr mit Microsoft Teams-Räume. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in den gcc-, gcc-oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen auf-Prem Exchange-Server verfügen, erfordert Microsoft Teams rooms die Verwendung von Exchange Server 2013 SP1 oder höher.
 
@@ -86,7 +86,7 @@ Diese Geräte sind unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices)erhä
 |Periphere Microsoft Teams rooms|Zertifizierte Firmware-Version | Kamera unterstützt die Verwendung von Kamera Inhalten|
 |:--- |:--- | :--- |
 |[Crestron-Kuschel-IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech Brio](https://www.logitech.com/en-us/product/brio)   |V240| &#x2714; |
+|[Logitech Brio](https://www.logitech.com/en-us/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930E](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech-Rallye](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
 |[Meetup zu Logitech](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio – 1.0.172 <br/> Video – 1.0.156  |

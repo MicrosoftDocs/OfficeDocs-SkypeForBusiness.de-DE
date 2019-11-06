@@ -1,7 +1,7 @@
 ---
 title: Upgrade auf Microsoft Teams | Roadmap für Skype for Business Teams
-author: lanachin
-ms.author: v-lanac
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,32 +16,42 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235886"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "36437561"
 ---
-![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt] (media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
+![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
 Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
-- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="perform-your-upgrade-to-teams"></a>Durchführen des Upgrades für Teams
 
-Wählen Sie Ihre Upgrade-Reise basierend auf Ihrer aktuellen Bereitstellung von Skype for Business aus:
 
-- [Upgrade von Skype for Business Online auf Microsoft Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [Upgrade von Skype for Business-Hybrid zu Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [Upgrade von Skype for Business lokal in Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+# <a name="overview"></a>Übersicht
+
+Die Schritte, die Sie zum Durchführen des Upgrades für Teams ausführen, sind von der aktuellen Bereitstellung von Skype for Business abhängig:
+
+1. Bevor Sie mit dem Upgrade beginnen, stellen Sie sicher, dass Sie [einen Benutzer Pilot durchführen](pilot-essentials.md).
+
+2.  Wählen Sie als nächstes basierend auf Ihrer aktuellen Umgebung ihren Ausgangspunkt aus:  
+
+    - **Wenn Sie von Skype for Business Online auf Teams aktualisieren**, führen Sie die Schritte unter [Upgrade von Skype for Business Online auf Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)aus.
+
+    -  **Wenn Sie ein Upgrade von einer lokalen Skype for Business-Umgebung**durchführen, müssen Sie einige zusätzliche Schritte ausführen, um die Konnektivität zwischen Ihren lokalen und Online Umgebungen einzurichten, bevor Sie Ihre Benutzer in Teams verschieben. Weitere Informationen finden Sie unter [Upgrade von Skype for Business lokal in Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+
+
+
+
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
