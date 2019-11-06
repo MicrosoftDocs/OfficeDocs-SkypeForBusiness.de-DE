@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Anrufwarteschlangen
+title: Einrichten von Warteschlangen.
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,10 +16,10 @@ description: ''
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bf26731dac9d3ee60099fdbfde6021e7613f332d
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37972306"
 ---
 [!INCLUDE [create-a-phone-system-call-queue](../create-a-phone-system-call-queue.md)]
