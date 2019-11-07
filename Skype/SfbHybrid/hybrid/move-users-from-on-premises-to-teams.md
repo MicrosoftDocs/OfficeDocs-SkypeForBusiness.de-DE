@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464678"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010618"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrieren von Benutzern von lokalen zu Teams
 
@@ -37,7 +37,7 @@ Wenn ein Benutzer nur von einem Standort in ein Microsoft Teams verschoben wird,
 - Benutzer können keine Anrufe oder Chats von Skype for Business initiieren und keine neuen Besprechungen in Skype for Business planen. Wenn Sie versuchen, den Skype for Business-Client zu öffnen, werden Sie wie unten dargestellt zur Verwendung von Teams umgeleitet. Wenn der Microsoft Teams-Client nicht installiert ist, werden Sie mithilfe des Browsers an die Webversion von Teams weitergeleitet.<br><br>
     ![Nachrichten, die einen Benutzer zu Teams umleiten](../media/go-to-teams-page.png)
 
-Lesen Sie vor dem Verschieben von Benutzern unbedingt die [voraus](move-users-between-on-premises-and-cloud.md#prerequisites) setzungen, um Benutzer in die Cloud zu verschieben. Stellen Sie außerdem sicher, dass [Migrations-und Interoperabilitäts Anleitungen für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype), überprüft werden.
+Lesen Sie vor dem Verschieben von Benutzern unbedingt die [Voraussetzungen](move-users-between-on-premises-and-cloud.md#prerequisites) , um Benutzer in die Cloud zu verschieben. Stellen Sie außerdem sicher, dass [Migrations-und Interoperabilitäts Anleitungen für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype), überprüft werden.
 
 
 > [!NOTE]
@@ -67,7 +67,7 @@ So stellen Sie einen Benutzer mithilfe von "CsUser" in den Microsoft Teams-Modus
 - Geben Sie den-target-Parameter mit dem Wert "sipfed. online. lync" an. <span>com ".
 - Geben Sie `MoveToTeams` den Schalter an.
 - Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch Office 365 verfügen, verwenden `-credential` Sie den-Parameter, um ein Konto mit ausreichenden Berechtigungen in Office 365 bereitzustellen.
-- Wenn das Konto mit den Berechtigungen in Office 365 nicht in "on. Microsoft" endet. <span>com "müssen Sie den `-HostedMigrationOverrideUrl` Parameter mit dem korrekten Wert angeben, wie unter" [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)"beschrieben.
+- Wenn das Konto mit den Berechtigungen in Office 365 nicht "onmicrosoft" endet. <span>com "müssen Sie den `-HostedMigrationOverrideUrl` Parameter mit dem korrekten Wert angeben, wie unter" [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)"beschrieben.
 
 Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnly zu migrieren, und es wird davon ausgegangen, dass die Office 365 Credential ein separates Konto ist und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben wird.
 
@@ -82,7 +82,7 @@ Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnl
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung-app.
 2. Wählen Sie im linken Navigationsbereich **Benutzer**aus.
 3. Verwenden Sie **Suchen** , um die Benutzer zu finden, die Sie in Teams verschieben möchten.
-4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Teams**verlagern aus.
+4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Teams verlagern**aus.
 5. Klicken Sie im Assistenten auf **Weiter**.
 6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
 7. Klicken Sie auf **weiter**und dann auf **weiter** , um den Benutzer zu verlagern.
@@ -112,9 +112,9 @@ Der Wert von DownloadTeams ist standardmäßig true; Es wird jedoch *nur* dann b
 
 ## <a name="see-also"></a>Siehe auch
 
-[CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [Leitfaden zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

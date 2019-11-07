@@ -12,16 +12,15 @@ description: Informationen für Administratoren zur Anwesenheit in Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd57165cbb88df135827ae72fa3952dd8ddd452
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062961"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010598"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -29,6 +28,8 @@ ms.locfileid: "37062961"
 
 > [!IMPORTANT]
 > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **Nur-Teams**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Problemumgehung: Wenn Sie die Anwesenheitsinformationen in Outlook (und anderen Office-Apps) anzeigen möchten, muss Skype for Business installiert sein, auch wenn Sie Microsoft Teams im **Nur-Teams**-Modus ausführen. Das Problem ist Microsoft bekannt, und es wird gerade an einer Lösung gearbeitet.
+
+Die Anwesenheit von Teams in Outlook wird in der Outlook 2013-Desktop-App und höher unterstützt.
 
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
@@ -55,9 +56,9 @@ Die Anwesenheitsstatus in Team sind:
 || ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Außer Haus|
 |||
  
-Benutzer haben verschiedene Möglichkeiten, ihren aktuellen Anwesenheitsstatus festzulegen, und ihr Status wird für alle anderen Benutzer sichtbar. Weitere Details zur Benutzeranwesenheit werden ebenfalls automatisch aktualisiert. Dies geschieht auf Basis von Benutzeraktivitäten (z. B. "verfügbar" oder "abwesend"), des Outlook-Kalenderstatus (z. B. "in einer Besprechung") oder des Teams-App-Status ("am Telefon", "hält Präsentation"), die in der Liste aufgeführt sind.
+Benutzer haben verschiedene Möglichkeiten, ihren aktuellen Anwesenheitsstatus festzulegen, und ihr Status wird für alle anderen Benutzer sichtbar. Weitere Details zur Benutzeranwesenheit werden ebenfalls automatisch aktualisiert. Dies geschieht auf Basis von Benutzeraktivitäten (z. B. "verfügbar" oder "abwesend"), des Outlook-Kalenderstatus (z. B. "in einer Besprechung") oder des Teams-App-Status ("am Telefon", "hält Präsentation"), die in der Liste aufgeführt sind. 
 
-Es gibt ein Inaktivitätszeitlimit von 15 Minuten. Danach wird der aktuelle Anwesenheitsstatus eines Benutzers auf "abwesend" zurückgesetzt.
+Es gibt ein 15-minütiges Inaktivitäts-Timeout, nach dem ein aktueller Anwesenheitsstatus auf "Abwesend" zurückgesetzt wird.
 
 Benutzer können festlegen, wer sie unterbrechen darf, d. h. sie trotz eines „Nicht stören“-Status kontaktieren kann. Diese Einstellungen stehen im Teams-Client zur Verfügung.
 

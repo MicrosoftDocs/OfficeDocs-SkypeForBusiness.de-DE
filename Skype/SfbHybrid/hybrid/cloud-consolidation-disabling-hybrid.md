@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962053"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010578"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der hybridbereitstellung zur vollständigen Migration in die Cloud
 
@@ -61,9 +61,8 @@ Der folgende Befehl muss in einem Skype for Business Online PowerShell-Fenster a
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *Deaktivieren der Fähigkeit in "on-Prem" zur Kommunikation mit Office 365.*  
-Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden.  Wenn Sie zuvor eine Skype for Business Online Sitzung importiert haben, starten Sie eine neue Skype for Business PowerShell-Sitzung wie folgt:
-
+3.  *Deaktivieren der Fähigkeit in der lokalen Umgebung zur Kommunikation mit Office 365.*  
+Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden:
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,13 +71,13 @@ Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden
 
 Administratoren können Benutzer verwalten, die zuvor von einem lokalen Skype for Business Server in die Cloud verschoben wurden, auch wenn die lokale Bereitstellung außer Betrieb genommen wurde. Es gibt zwei verschiedene Möglichkeiten:
 
-- Der Benutzer hat vor dem Wechsel keinen Wert für LineUri lokal bereitstellen können. 
+- Der Benutzer hat vor dem Wechsel keinen Wert für LineURI lokal bereitstellen können. 
 
-  In diesem Fall können Sie die LineURI mithilfe der-onpremLineUri-Parameter im Cmdlet " [Csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) " im Skype for Business Online PowerShell-Modul ändern.
+  In diesem Fall können Sie die LineURI mithilfe der-onpremLineUri-Parameter im Cmdlet " [CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) " im Skype for Business Online PowerShell-Modul ändern.
 
-- Der Benutzer hatte eine lokale LineUri vor dem Wechsel (vermutlich, weil der Benutzer für Enterprise-VoIP aktiviert wurde). 
+- Der Benutzer hatte eine lokale LineURI vor dem Wechsel (vermutlich, weil der Benutzer für Enterprise-VoIP aktiviert wurde). 
 
-  Wenn Sie das lineURI ändern möchten, müssen Sie dies in der lokalen Active Directory durchführen und den Wert auf Azure AD übernehmen. Dies erfordert keine lokale Skype for Business Server. Dieses Attribut, msRTCSIP, kann vielmehr direkt im lokalen Active Directory bearbeitet werden, indem entweder das MMC-Snap-in Active Directory Benutzer und Computer oder die PowerShell verwendet wird. Wenn Sie das MMC-Snap-in verwenden, öffnen Sie die Seite Eigenschaften des Benutzers, klicken Sie auf Registerkarte Attribut-Editor, und suchen Sie nach msRTCSIP-Reihe.
+  Wenn Sie das LineURI ändern möchten, müssen Sie dies in der lokalen Active Directory durchführen und den Wert auf Azure AD übernehmen. Dies erfordert keine lokale Skype for Business Server. Dieses Attribut, msRTCSIP, kann vielmehr direkt im lokalen Active Directory bearbeitet werden, indem entweder das MMC-Snap-in Active Directory Benutzer und Computer oder die PowerShell verwendet wird. Wenn Sie das MMC-Snap-in verwenden, öffnen Sie die Seite Eigenschaften des Benutzers, klicken Sie auf Registerkarte Attribut-Editor, und suchen Sie nach msRTCSIP-Reihe.
 
   ![Tool zum Active Directory von Benutzern und Computern](../media/disable-hybrid-1.png)
 
