@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573572"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038734"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Lizenzierungslösungen für freigegebene Kommunikationsgeräte
 
-Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen und Anrufe auf Gerätebasis für Besprechungsraum Geräte (wie Microsoft Teams Rooms und Microsoft Surface Hub).
+Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen und Anrufe auf einzelnen Geräten für Besprechungsraum Geräte (wie Microsoft Teams Rooms und Microsoft Surface Hub).
 
 ||Microsoft Room-SKU |  
 |:--- |:---: |
@@ -60,8 +60,8 @@ In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-R
 |  | Sie haben Microsoft Teams oder Skype for Business Online <br/> Sie müssen folgende Lizenz erwerben:   |Sie verfügen über Skype for Business Server 2015/2019 (lokal oder Hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
 |:-----|:-----|:-----|
 |An einer geplanten Besprechung teilnehmen  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  |
-|Ad-hoc-Besprechung beginnen | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Eine Ad-hoc-Besprechung beginnen und aus einer Besprechung heraus Telefonnummern anrufen |  SKU des Besprechungsraums |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Initiieren einer Ad-hoc-Besprechung | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Initiieren einer Ad-hoc-Besprechung und Abwählen von einer Besprechung zu Telefonnummern |  SKU des Besprechungsraums |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Geben Sie dem Raum eine Telefonnummer, und tätigen oder empfangen Sie Anrufe aus dem Chatroom oder nehmen Sie mit einer Telefonnummer an einer Audiokonferenz Teil  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Verwalten Ihres Raum Geräts mit Microsoft InTune |SKU des Besprechungsraums  |Microsoft InTune-Abonnement mit [lokalem MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||
