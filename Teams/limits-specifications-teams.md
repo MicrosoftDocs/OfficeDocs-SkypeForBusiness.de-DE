@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615982"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010518"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -109,6 +109,10 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Gleichzeitige Liveereignisse in einem Office 365-Mandanten | 15 |
 
 Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+## <a name="presence-in-outlook"></a>Anwesenheit in Outlook
+
+Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und höher unterstützt. Wenn Sie mehr über die Anwesenheit in Teams wissen möchten, lesen Sie [Anwesenheit von Benutzern in Teams](presence-admins.md).
 
 ## <a name="storage"></a>Speicher
 
