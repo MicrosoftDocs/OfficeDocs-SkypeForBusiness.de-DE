@@ -11,22 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über die Interoperabilität des Antivirus-Scanners mit Skype for Business Server.
-ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296973"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074627"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Ausschlüsse für Antivirus-Scans für Skype for Business Server
 
 Übersicht über die Interoperabilität des Antivirus-Scanners mit Skype for Business Server.
-
-Dieser Artikel enthält Empfehlungen, die einem Administrator helfen können, die Ursache einer potenziellen Instabilität auf einem Computer zu ermitteln, auf dem eine unterstützte Version von Microsoft Windows ausgeführt wird, wenn diese mit Antivirensoftware in einer Active Directory-Domäne verwendet wird. Umgebung oder in einer verwalteten Unternehmensumgebung.
-
-Wir empfehlen, diese Verfahren vorübergehend zur Auswertung eines Systems anzuwenden. Wenn sich die Leistung oder Stabilität Ihres Systems durch die Empfehlungen in diesem Artikel verbessert hat, wenden Sie sich an den Hersteller Ihrer Antivirensoftware, um Anweisungen oder eine aktualisierte Version der Antivirensoftware zu erhalten.
-
-Dieser Artikel enthält Informationen, die zeigen, wie Sie die Sicherheitseinstellungen verringern oder wie Sie Sicherheitsfunktionen vorübergehend auf einem Computer deaktivieren können. Sie können diese Änderungen vornehmen, um die Art eines bestimmten Problems zu verstehen. Bevor Sie diese Änderungen vornehmen, empfehlen wir, dass Sie die Risiken bewerten, die mit der Implementierung dieser Problemumgehung in ihrer jeweiligen Umgebung verbunden sind. Wenn Sie diese Problemumgehung implementieren, führen Sie alle geeigneten zusätzlichen Schritte aus, um den Computer für die Dateien zu schützen, die von Ihrer Antivirensoftware nicht mehr gescannt werden.
 
 Um sicherzustellen, dass der Virenscanner den Betrieb von Skype for Business Server nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server-Server oder jede Serverrolle ausschließen, auf der Sie einen Antivirus-Scanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie private Kanäle in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969383"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077428"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -112,11 +112,11 @@ In der folgenden Tabelle wird erläutert, welche Aktionen Besitzer, Mitglieder u
 |Bearbeiten von Einstellungen|Nein|Nicht zutreffend|Nicht zutreffend|Ja|Nein|Nein|
 |Verwalten von Registerkarten und Apps|Nein|Nicht zutreffend|Nicht zutreffend|Ja<sup>4</sup>|Ja<sup>5</sup>|Nein|
 
-<sup>1</sup> Angenommen, die von Ihnen, dem Administrator, konfigurierte Richtlinie ermöglicht es dem Benutzer, private Kanäle zu erstellen.<br>
-<sup>2</sup> Jedes Team verfügt über eine Einstellung, die Teambesitzer aktivieren oder deaktivieren können, damit Teammitglieder private Kanäle erstellen können. Team Besitzer können immer private Kanäle erstellen.<br>
-<sup>3</sup> Angenommen, der Besitzer des privaten Kanals ist nicht der letzte Besitzer des Kanals. <br>
-<sup>4</sup> Erfordert, dass das Team eine APP für einen privaten Kanal installiert hat, um Sie zu verwenden.<br>
-<sup>5</sup> Private Kanalbesitzer können dies konfigurieren.
+<sup>1</sup> vorausgesetzt, die von Ihnen, dem Administrator, konfigurierte Richtlinie ermöglicht es dem Benutzer, private Kanäle zu erstellen.<br>
+<sup>2</sup> jedes Team hat eine Einstellung, die Teambesitzer aktivieren oder deaktivieren können, damit Teammitglieder private Kanäle erstellen können. Team Besitzer können immer private Kanäle erstellen.<br>
+<sup>3</sup> vorausgesetzt, der Besitzer des privaten Kanals ist nicht der letzte Besitzer des Kanals. <br>
+<sup>4</sup> erfordert, dass das Team eine APP für einen privaten Kanal installiert hat, um Sie zu verwenden.<br>
+<sup>5</sup> private Kanalbesitzer können dies konfigurieren.
 
 ### <a name="manage-private-channel-membership-and-settings"></a>Verwalten der Mitgliedschaft und Einstellungen für den privaten Kanal
 
@@ -126,7 +126,7 @@ Der private Kanalbesitzer kann auf **Kanal verwalten**klicken und dann die Regis
 
 ![Screenshot der Einstellungen für den privaten Kanal](media/private-channels-in-teams-channel-settings.png)
 
-## <a name="manage-the-life-cycle-of-private-channels"></a>Verwalten des Lebenszyklus privater Kanäle
+## <a name="manage-the-life-cycle-of-private-channels"></a>Verwalten des Lebenszyklus von privaten Kanälen
 
 Anleitungen zum Verwalten des Lebenszyklus privater Kanäle in Ihrer Organisation finden Sie unter [Verwalten des Lebenszyklus privater Kanäle in Teams](private-channels-life-cycle-management.md) . Hier erfahren Sie, wie Sie steuern können, ob Benutzer in Ihrer Organisation private Kanäle erstellen können, wie Sie im Auftrag eines Team Besitzers einen privaten Kanal erstellen, wie Sie eine Liste aller privaten Kanal Nachrichten zu Archivierungs-und Überwachungszwecken sowie zu anderen Verwaltungsaufgaben erhalten.  
 

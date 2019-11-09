@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573462"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074617"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -60,7 +60,7 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |\<ContentCameraEnhancement>  | Boolescher #a0 | |Wenn Sie auf "true" (Standardeinstellung) festgelegt ist, wird das Bild der Inhalts Kamera Digital verbessert: der Whiteboard-Rand wird erkannt und ein geeigneter Zoom ausgewählt, frei Handlinien werden verbessert, und die Person, die auf dem Whiteboard schreibt, wird transparent gemacht.  <br><br> Auf "false" festlegen, wenn Sie einen unformatierten Videofeed an Besprechungsteilnehmer für Räume senden möchten, in denen ein Whiteboard nicht mit einem Stift gezeichnet wird, und stattdessen die Kamera verwendet wird, um Haftnotizen, Poster oder andere Medien anzuzeigen.  |
 | \<Design\>  |Container |Erste #a0  |Eines der Features, die mit einer XML-Datei angewendet werden können, ist ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
 |\<ThemeName\> |Zeichenfolge #a0  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen verwenden immer den Namen *Custom*. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Verwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
-|\<CustomThemeImageUrl\> |Zeichenfolge #a0  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
+|\<CustomThemeImageUrl\> |Zeichenfolge #a0  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional. Geben Sie nur den Dateinamen ein.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
 |\<CustomThemeColor\> |Container ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
 |\<Komponente\> |Byte (0-255) ||Stellt die rote Komponente dar. |
 |\<GreenComponent\> |Byte (0-255) ||Stellt die grüne Komponente dar. |
@@ -150,7 +150,7 @@ So suchen Sie den Instanzen Pfad:
 
 ## <a name="see-also"></a>Siehe auch
 
-[Content-Kameras](content-camera.md)
+[Inhalts-Kameras](content-camera.md)
 
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)
 

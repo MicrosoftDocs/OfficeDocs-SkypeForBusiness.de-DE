@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038734"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077418"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -44,13 +44,16 @@ Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen un
 |Kanalverfügbarkeit | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  
+&sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  
 
 &sup2; In souveränen Clouds nicht verfügbar  
 
 
 > [!NOTE]
-> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business Standalone Plan 1 oder Skype for Business Plan 2 oder Skype for Business Plan 2 mit Audiokonferenzen oder mit Office365-Telefon System und einem Anrufplan verwenden, werden diese weiterhin funktionieren. Sie sollten jedoch in der obigen Tabelle nach dem Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell wechseln.  
+> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business Standalone Plan 1 oder Skype for Business Plan 2 oder Skype for Business Plan 2 mit Audiokonferenzen oder mit Office365-Telefon System und einem Anrufplan verwenden, werden diese weiterhin funktionieren. Sie sollten jedoch in der obigen Tabelle nach dem Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell wechseln. 
+
+> [!IMPORTANT]
+> Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfehlen wir, dass Sie die Microsoft Room-Lizenz erwerben. 
 
 In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-Räumen zur Verfügung stehen, und welche Lizenzen Sie erwerben müssen, um Sie zu erhalten.
   
