@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System-Konten in Office 365 bereitgestellt werden.
-ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775389"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231266"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Bereitstellung von Skype Room System-Konten in Office 365
  
@@ -91,7 +91,7 @@ Nach dem Erstellen des Postfachs können Sie das Cmdlet "Satz-CalendarProcessing
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Online-Lizenz
 
-Sie können jetzt eine Lizenz für Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) mithilfe des Office 365-Verwaltungsportals zuweisen, wie unter [zuweisen oder Entfernen von Lizenzen für Office 365 for Business](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in [Skype for Business-Add-on beschrieben Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Sie können jetzt eine Lizenz für Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) mithilfe des Office 365-Verwaltungsportals zuweisen, wie unter [zuweisen oder Entfernen von Lizenzen für Office 365 for Business](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in der [Skype for Business-Add-on-Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
   
 Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können Sie sich anmelden und überprüfen, ob das Konto mit einem Skype for Business-Client aktiv ist.
   
@@ -119,7 +119,9 @@ Nachdem ein Ressourcen Raum-Postfachkonto wie zuvor angezeigt erstellt und aktiv
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>Die mehrstufige Authentifizierung (MFA) wird für Skype Room-System Konten nicht unterstützt. 
+
 ## <a name="password-expiration"></a>Kennwortablauf
 
 In Office 365 sieht die Standardrichtlinie für den Ablauf von Kennwörtern für alle Ihre Benutzerkonten eine Laufzeit von 90 Tagen vor, es sei denn, Sie konfigurieren einer andere Richtlinie für den Ablauf von Kennwörtern. Bei Skype Room-System Konten können Sie die Einstellung Kennwort läuft nie ab mit den folgenden Schritten auswählen.

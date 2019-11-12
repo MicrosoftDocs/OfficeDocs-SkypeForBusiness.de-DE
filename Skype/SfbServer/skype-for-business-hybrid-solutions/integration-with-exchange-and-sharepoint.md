@@ -1,5 +1,5 @@
 ---
-title: Integration in Exchange und SharePoint
+title: Integration mit Exchange und SharePoint
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,17 +15,18 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: erfahren Sie mehr über die Integration von Skype for Business Server 2015 in Exchange und SharePoint.'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294313"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231146"
 ---
-# <a name="integration-with-exchange-and-sharepoint"></a>Integration in Exchange und SharePoint
+# <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
 
 **Zusammenfassung:** Erfahren Sie mehr über die Integration von Skype for Business Server 2015 in Exchange und SharePoint.
 
@@ -38,7 +39,7 @@ In den folgenden Tabellen sind die Features aufgeführt, die in einer hybridbere
  **Skype for Business Server lokal und Exchange lokal**
 
 
-|**Funktion**|**Hinweise**|
+|**Feature**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Chat und Anwesenheits](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)Informationen.  <br/> |
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> |Weitere Informationen finden Sie unter [integrieren von Skype for Business Server 2015 mit Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
@@ -58,7 +59,7 @@ In den folgenden Tabellen sind die Features aufgeführt, die in einer hybridbere
  **Skype for Business-Server lokal und Exchange Online**
 
 
-|**Funktion**|**Hinweise**|
+|**Feature**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) . <br/> |
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> ||
@@ -78,7 +79,7 @@ In den folgenden Tabellen sind die Features aufgeführt, die in einer hybridbere
  **Skype for Business Online und Exchange lokal**
 
 
-|**Funktion**|**Hinweise**|
+|**Feature**|**Hinweise**|
 |:-----|:-----|
 |Anwesenheit in Outlook  <br/> ||
 |Antworten per Chat, Festnetzanruf, Skype-Anruf oder Videoanruf aus einer Outlook-E-Mail heraus  <br/> ||
@@ -95,7 +96,7 @@ In den folgenden Tabellen sind die Features aufgeführt, die in einer hybridbere
  **Skype for Business Online und Exchange Online**
 
 
-|**Funktion**|**Hinweise**|
+|**Feature**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> ||
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> ||

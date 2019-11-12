@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Informationen zur Inhaltssuche in Microsoft Teams und zum Suchen nach Kanal Unterhaltungen aus Exchange, Dateiuploads und Änderungen aus SharePoint und OneNote-Änderungen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968286"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231156"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
@@ -30,7 +31,7 @@ Die Inhaltssuche bietet eine Möglichkeit zum Abfragen von Microsoft Teams-Infor
 
 Weitere Informationen finden Sie unter [Inhaltssuche in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-So können Sie beispielsweise mithilfe der **Inhaltssuche** auf der SharePoint-Website für die Produktionsspezifikationen für das Postfach und die Fertigungsspezifikationen nach Teams Standardkanal Unterhaltungen von Exchange, Dateiuploads und Änderungen aus SharePoint Online suchen. und OneNote ändert sich.
+So können Sie beispielsweise mithilfe der **Inhaltssuche** auf der SharePoint-Website für die Produktionsspezifikationen für das Postfach und die Fertigungsspezifikationen nach Teams Standardkanal Unterhaltungen von Exchange, Dateiuploads und Änderungen aus SharePoint Online und OneNote-Änderungen suchen.
 
 Sie können der **Inhaltssuche** auch Abfragekriterien hinzufügen, um die zurückgegebenen Ergebnisse einzuschränken. Im obigen Beispiel können Sie nach Inhalten suchen, bei denen die Schlüsselwörter "**New Factory Specs"** verwendet wurden.
 
