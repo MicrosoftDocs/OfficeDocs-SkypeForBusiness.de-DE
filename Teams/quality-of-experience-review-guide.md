@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568378"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290975"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -62,15 +62,17 @@ Dieser Leitfaden ist auch für die Verwendung durch die Designated Quality Champ
 
 Bevor Sie dieses Handbuch verwenden, stellen Sie sicher, dass Sie die richtigen Mandanten [Rollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) zugewiesen haben, damit Sie auf CQD zugreifen können.
 
--   **Office 365-globale Administrator Rolle** 
+-   **Office 365-globaler Administrator** 
 
--   **Skype for Business-Administrator Rolle** 
+-   **Skype for Business-Administrator** 
 
--   **Team Dienst Administrator (Rolle)** 
+-   **Teams-Dienstadministrator** 
 
--   **Rolle des Teams Communications Support Engineer** 
+-   **Teams-Kommunikationsadministrator** 
 
--   **Rolle des Teams Communications Support Specialist** 
+-   **Teams-Kommunikationssupporttechniker** 
+
+-   **Supportfachmann für die Teams-Kommunikation** 
 
 Alternativ können Sie einem Office 365-Benutzerkonto die folgende Rolle zuweisen, um nur den Zugriff auf Berichtsfeatures zu ermöglichen.
 
@@ -227,7 +229,7 @@ Wenn Sie diese Aufgaben zum ersten Mal ausführen, benötigen Sie mehr Aufwand a
 
 #### <a name="service-management-tasks"></a>Dienstverwaltungsaufgaben
 
-In einer Cloud-First-Welt müssen Sie bestimmte Dienstverwaltungsaufgaben ausführen, um eine qualitativ hochwertige Benutzererfahrung zu gewährleisten. Diese Aufgaben reichen davon ab, sicherzustellen, dass genügend Bandbreite vorhanden ist, um den Dienst zu erreichen, ohne Internet-Links zu sättigen, zu überprüfen, ob QoS (Quality of Service) in allen verwalteten Netzwerkbereichen vorhanden ist, und – zuletzt – über die [IP-Bereiche von Office 365 zu bleiben. Firewalls](https://aka.ms/o365ips).
+In einer Cloud-First-Welt müssen Sie bestimmte Dienstverwaltungsaufgaben ausführen, um eine qualitativ hochwertige Benutzererfahrung zu gewährleisten. Diese Aufgaben reichen davon ab, sicherzustellen, dass genügend Bandbreite vorhanden ist, um den Dienst zu erreichen, ohne Internet-Links zu sättigen, zu überprüfen, ob QoS (Quality of Service) in allen verwalteten Netzwerkbereichen vorhanden ist, und – zuletzt – über die [IP-Bereiche von Office 365 auf Firewalls](https://aka.ms/o365ips)zu bleiben.
 
 #### <a name="network-tasks"></a>Netzwerkaufgaben
 
@@ -265,9 +267,6 @@ Weitere detaillierte Schulungen und Ressourcen finden Sie im [Anhang](#other-res
 
 Sie verwenden das Anruf Qualitäts Dashboard (CQD), um Einblicke in die Qualität von Anrufen zu gewinnen, die mithilfe von Teams und Skype for Business-Diensten erfolgen. CQD wurde entwickelt, um Skype for Business-und Teams-Administratoren und Netzwerk Ingenieuren zu helfen, das Netzwerk zu optimieren und die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit genau im Auge zu behalten. CQD befasst sich mit der aggregierten Telemetrie für eine gesamte Organisation, in der allgemeine Muster sichtbar werden können, sodass Mitarbeiter fundierte Bewertungen vornehmen und Sanierungs Aktivitäten planen können, um die Auswirkungen zu maximieren. CQD stellt Berichte zu Metriken bereit, die Einblicke in die allgemeine Qualität, Zuverlässigkeit und Benutzerfreundlichkeit bieten.
 
-> [!Note]
-> CQD enthält keine persönlich identifizierbaren Informationen (PII). PII sind Informationen, die allein oder mit anderen Informationen verwendet werden können, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Person im Kontext zu identifizieren.
-
 Dieser Leitfaden hilft Ihnen, die grundlegenden Konzepte von CQD zu verstehen, damit Sie die Auswirkungen maximieren können, die Sie bei der Verbesserung der Benutzererfahrung mit Teams oder Skype for Business Online erzielen können. Weitere CQD-Ressourcen finden Sie im [Anhang](#other-resources).
 
 ### <a name="expectations-using-cqd"></a>Erwartungen mit CQD
@@ -277,18 +276,15 @@ CQD, obwohl nützlich zum Analysieren von Trends und Subnetzen, stellt nicht imm
 -   CQD stellt nicht die Ursache für jedes Szenario dar.
 -   CQD enthält keine Telefon System-oder Audiokonferenz-Streams.
 -   CQD ruft Bereiche zur weiteren Untersuchung basierend auf Trends auf.
--   CQD enthält keine PII.
 
 ### <a name="report-editions"></a>Berichts Editionen
 
-Es gibt zwei Berichtsausgaben in CQD online: Zusammenfassung und detailliert. Verwenden Sie das Dropdownmenü in der blauen Leiste oben auf dem Bildschirm, um eine Berichtsversion zu öffnen. Der Name der ausgewählten Berichts Edition wird oben auf dem Bildschirm angezeigt.
+Es gibt zwei Berichtsausgaben in CQD online: Zusammenfassung und detailliert. Verwenden Sie das Dropdownmenü in der Leiste am oberen Rand des Bildschirms, um eine Berichts Edition zu öffnen. Der Name der ausgewählten Berichts Edition wird oben auf dem Bildschirm angezeigt.
 
 -   Zusammenfassungsberichte sind statisch und können nicht bearbeitet, heruntergeladen oder exportiert werden. 
 -   Detaillierte Berichte sind vollständig anpassbar und können in eine CSV-Datei, exportiert oder geklont heruntergeladen werden.
 
 Eine vollständige Beschreibung der Unterschiede zwischen den beiden Editionen finden Sie in [diesem Artikel](turning-on-and-using-call-quality-dashboard.md).
-
-![Screenshot des Dropdownmenüs mit ausgewählten Zusammenfassungsberichten](media/qerguide-image-reportcategories.png)
 
 _Abbildung 4: CQD-Berichtskategorien_
 
@@ -801,36 +797,6 @@ Der Network Planner ermittelt und organisiert Ihre Netzwerkanforderungen für Ih
 
 Obwohl der Network Planner den Gebäude Zuordnungsprozess nicht vollständig automatisiert, kann nach dem Eintragen von Netzwerkinformationen in den Netzwerk Planner dann in eine für den Upload bereite Datei exportiert werden.
 
-## <a name="diagnostic-alerts"></a>Diagnose Benachrichtigungen
-
-Microsoft überwacht proaktiv die CQD-Telemetrie, um Diagnose Benachrichtigungen für bekannte Probleme zu erstellen, die sich negativ auf die Benutzerfreundlichkeit auswirken. Diese Benachrichtigungen werden dann über das Nachrichtencenter automatisch an den Dienstadministrator übermittelt. In der folgenden Tabelle werden die im Nachrichtencenter angezeigten Diagnose Warnungen sowie Links zu weiteren Informationen erläutert.
-
-_Tabelle 6 – Diagnose Benachrichtigungen_
-
-| Benachrichtigung                                                                | Weitere Informationen             |
-|----------------------------------------------------------------------|------------------------------|
-| Bekannte schlecht funktionierende Clientversionen werden verwendet                   | [Client Versionen](#client-versions)              |
-| Audiotreiber verursachen Anruf Abbrüche                                 | [Geräte](#devices)                      |
-| Einschränkungen in der Firewall verursachen Fehler beim Einrichten von Anrufen         | [Ermittlungen beim Setup Fehler](#setup-failure-investigations) |
-| Tiefe Paketinspektion verursacht Fehler bei der Anrufeinrichtung                | [Ermittlungen beim Setup Fehler](#setup-failure-investigations) |
-| Besprechungsraum Geräte in Wi-Fi-Netzwerken verursachen schlechte Anrufqualität | [Qualitätsuntersuchungen](#quality-investigations)       |
-| UDP-Datenverkehr wird limitiert, was zu schlechter Anrufqualität führt         | [TCP](#tcp)                          |
-| Die VPN-Nutzung beeinträchtigt die Anrufqualität.                                  | [Qualitätsuntersuchungen](#quality-investigations)       |
-
-
-### <a name="message-center"></a>Nachrichtencenter
-
-Das Nachrichtencenter benachrichtigt Sie über neue Updates, Features oder Probleme. Das Nachrichtencenter steht im Microsoft 365 Admin Center für Dienstadministratoren zur Verfügung. Jeder Beitrag bietet eine allgemeine Übersicht darüber, wie sich die Aktualisierung, das Feature oder das Problem auf die Benutzer auswirkt, und enthält Links zu ausführlicheren Informationen.
-
-Wenn Sie das Nachrichtencenter öffnen möchten, wechseln Sie im Microsoft 365 Admin Center zum **Health** > **Message Center**, oder wählen Sie die Nachricht Center-Karte im **Home** -Dashboard aus. Im Dashboard werden die letzten drei Nachrichten angezeigt, die gepostet wurden, und Links zur vollständigen Nachrichtencenter Seite.
- 
-
-![Screenshot des Nachrichten Centers mit den letzten drei geposteten Nachrichten](media/qerguide-image-messagecentercard.png)
-
-_Abbildung 18 – Message Center-Karte_
-
-Sie können auch die [Office 365-Administrator-App](https://go.microsoft.com/fwlink/p/?linkid=627216) auf Ihrem mobilen Gerät verwenden, um das Nachrichtencenter anzuzeigen, was eine hervorragende Möglichkeit ist, mit Push-Benachrichtigungen auf dem Laufenden zu bleiben. Weitere Informationen finden Sie in [diesem Artikel](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
-
 ## <a name="reliability-investigations"></a>Zuverlässigkeits Ermittlungen
 
 Der erste Schritt zur Verbesserung der Qualität besteht darin, den Zuverlässigkeits Status in der gesamten Organisation zu bewerten. Da Zuverlässigkeit für eine positive Benutzererfahrung von entscheidender Bedeutung ist, beginnen wir mit den beiden Komponenten zur Messung der Zuverlässigkeit:
@@ -884,10 +850,6 @@ Dieser Zusammenfassungsbericht wird verwendet, um alle Gebäude oder Netzwerke z
 ![Screenshot mit Setupfehlern](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Abbildung 20: Fehler bei der Audioeinrichtung nach Subnetz_
-
-##### <a name="diagnostic-alert"></a>Diagnosewarnung
-
-Wenn Sie eine diagnostische Warnung erhalten haben, dass "Einschränkungen in der Firewall Fehler bei der Anrufeinrichtung verursachen" oder "Deep Packet Inspection" Fehler beim Einrichten von Anrufen verursacht, konzentrieren Sie Ihre Behebungs Bemühungen zunächst auf die identifizierten Subnetze. Die Benachrichtigung hat Subnets identifiziert, die sich negativ auf die Zuverlässigkeit des Anrufs auswirken. Sie können die im Abschnitt Zuverlässigkeit gefundenen Setup Fehlerberichte verwenden, um bei der Behebung behilflich zu sein.
 
 ##### <a name="remediation"></a>Wartung 
 
@@ -956,7 +918,7 @@ Häufige Ursachen für Anruf Abbrüche:
 -   Ältere Clientversionen
 -   Benutzerverhalten
 
-Nachdem Sie Ihre Problembereiche ermittelt haben, können Sie mithilfe der [anrufanalyse](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) die Benutzer in diesem Gebäude für bestimmte Probleme weiter überprüfen. Die anrufanalyse enthält PII-Daten und kann hilfreich sein, um mögliche Ursachen für die Fehler beim Ablegen weiter zu isolieren.
+Nachdem Sie Ihre Problembereiche ermittelt haben, können Sie mithilfe der [anrufanalyse](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) die Benutzer in diesem Gebäude für bestimmte Probleme weiter überprüfen. Die anrufanalyse enthält zusätzliche PII-Daten und kann hilfreich sein, um mögliche Ursachen für die Fehler beim Ablegen weiter zu isolieren.
 
 Unabhängig von Ihrem nächsten Schritt empfiehlt es sich, dem Helpdesk mitzuteilen, dass ein Problem mit bestimmten Gebäuden oder Subnetzen erkannt wurde. Auf diese Weise können Sie schnell auf eingehende Anrufe reagieren und Benutzer effizienter selektieren. Gekennzeichnete Benutzer können anschließend zur weiteren Untersuchung an das Entwicklungsteam zurückgemeldet werden.
 
@@ -1025,12 +987,6 @@ Obwohl sich die verwendeten Dimensionen Zwischenbericht etwas unterscheiden kön
 ![Screenshot der unzureichenden Audiostream-Zusammenfassung](media/qerguide-image-poorqualitysummary.png)
 
 _Abbildung 24 – schlechte Audiostream-Zusammenfassung durch Gebäude-und Subnet-Conferencing_
-
-##### <a name="diagnostic-alert"></a>Diagnosewarnung
-
-Wenn Sie eine Diagnose Benachrichtigung erhalten haben, dass "Besprechungsraum Geräte in Wi-Fi-Netzwerken schlechte Anrufqualität verursachen," können Sie diese Geräte in Ihre Behebungs Bemühungen einbeziehen und priorisieren. Die Benachrichtigung hat Besprechungsräume für WLANs identifiziert, die aktiv zu schlechter Anrufqualität beitragen.
-
-Wenn Sie eine Diagnose Benachrichtigung erhalten, dass die VPN-Nutzung die Anrufqualität beeinträchtigt, untersuchen Sie eine Lösung für Split-Tunneling, um die VPN-Appliance zu umgehen und Medien eine direkte Verbindung mit dem Dienst zu ermöglichen. Die Benachrichtigung hat festgestellt, dass sich VPN negativ auf die Anrufqualität auswirkt.
 
 ##### <a name="remediation"></a>Wartung
 
@@ -1116,10 +1072,6 @@ Navigieren Sie in den bereitgestellten CQD-Vorlagen zu den TCP-Datenströmen, in
 
 _Abbildung 27 – TCP-Streams nach Gebäude-und Subnet-Conferencing_
 
-##### <a name="diagnostic-alert"></a>Diagnosewarnung
-
-Wenn Sie eine diagnostische Benachrichtigung erhalten haben, dass "UDP-Datenverkehr nur bedingt ist, was schlechte Anrufqualität verursacht", konzentrieren Sie Ihre TCP-Behebungs Bemühungen zunächst auf diese Subnetze. Die Benachrichtigung hat Subnets identifiziert, bei denen sich die Verwendung von TCP negativ auf die Anrufqualität auswirkt.
-
 ##### <a name="remediation"></a>Wartung
 
 In diesem Bericht werden bestimmte Gebäude und Subnetze identifiziert, die zum Volumen der TCP-Nutzung beitragen. Darüber hinaus wird ein zusätzlicher Bericht zur Identifizierung der im Anruf verwendeten Microsoft Relay-IP-Adresse angezeigt, die die Isolierung fehlender Firewall-Regeln unterstützt. Konzentrieren Sie Ihre Behebungs Bemühungen auf jene Gebäude, die das höchste Aufkommen an TCP-Streams haben, um die Auswirkungen zu maximieren.
@@ -1159,7 +1111,7 @@ Sie möchten so wenig http-Mediendatenströme wie möglich sehen. Wenn Sie über
 
 Wenn in Ihrer Organisation nur ein Internet Proxy vorhanden ist, überprüfen Sie die korrekten [Office 365-URLs und-Ausnahmen für den IP-Adressbereich](https://aka.ms/o365ips). Wenn in Ihrer Organisation mehr als ein Internet Proxy konfiguriert ist, verwenden Sie den HTTP-Unterbericht, um zu isolieren, welches Gebäude oder Subnetz betroffen ist.
 
-Für Organisationen, die den Proxy nicht umgehen können, stellen Sie sicher, dass der Skype for Business-Client so konfiguriert ist, dass er sich ordnungsgemäß anmeldet, wenn er sich hinter einem Proxy befindet, wie in dem Artikel erläutert wird, den [Skype for Business Proxy Server für die Anmeldung verwenden sollte, anstatt direkt zu versuchen. Verbindung](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
+Für Organisationen, die den Proxy nicht umgehen können, stellen Sie sicher, dass der Skype for Business-Client so konfiguriert ist, dass er sich ordnungsgemäß anmeldet, wenn er sich hinter einem Proxy befindet, wie in dem Artikel beschrieben, den [Skype for Business Proxy Server für die Anmeldung verwenden soll, anstatt eine direkte Verbindung zu versuchen](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
 
 #### <a name="http-proxy-investigations"></a>HTTP-Proxy Ermittlungen
@@ -1209,10 +1161,6 @@ Die Berichte in diesem Bereich konzentrieren sich auf die Ermittlung der verwend
 ![Screenshot des Berichts "Client und Geräte"](media/qerguide-image-clientversionreport.png)
 
 _Abbildung 30 – Bericht zur Client Version_
-
-#### <a name="diagnostic-alert"></a>Diagnosewarnung
-
-Wenn Sie eine Diagnose Benachrichtigung erhalten haben, dass "bekannte, schlecht ausgeführte Clientversionen verwendet werden", konzentrieren Sie sich zunächst auf die Aktualisierung dieser Clients. Die Benachrichtigung hat festgestellt, dass sich diese Clients negativ auf ihre Anrufqualität auswirken. Sie können den Bericht Client #a0 Geräte (siehe oben) verwenden, um sicherzustellen, dass die Clients, die bekannte Probleme haben, nicht mehr aktualisiert werden.
 
 #### <a name="remediation"></a>Wartung
 
@@ -1266,10 +1214,6 @@ Die Geräte Berichte werden verwendet, um die Geräteverwendung nach Volumen und
 
 _Abbildung 31 – Bericht "Geräte (Mikrofon)"_
 
-##### <a name="diagnostic-alert"></a>Diagnosewarnung
-
-Wenn Sie eine Diagnose Benachrichtigung erhalten haben, dass die Audiotreiber Anrufausfälle verursachen, konzentrieren Sie sich zunächst auf die erneute Vermittlung dieser Treiber. Die Benachrichtigung hat festgestellt, dass bekannte fehlerhafte Treiber zu einer Abwurf Funktion führen und die Zuverlässigkeit der Anrufe negativ beeinflussen. Sie können den Bericht mit den Mikrofon Treibern (siehe oben) verwenden, der im Abschnitt Client #a0 Geräte zu finden ist, um den Vorgang zu unterstützen.
-
 ##### <a name="remediation"></a>Wartung
 
 In der Regel müssen Sie nicht zertifizierte Geräte entdecken und Auslaufen und durch zertifizierte Geräte ersetzen. Bei der Überprüfung der Geräte Berichte sind einige Überlegungen zu berücksichtigen:
@@ -1314,14 +1258,14 @@ Die Qualität von Echt Zeit Medien (Audio-, Video-und Anwendungsfreigabe) über 
 
 _Tabelle 12 – Anforderungen an die Netzwerkleistung_
 
-| Metrik                            | Client zu Microsoft Edge           | Kunden-Edge zu Microsoft Edge    |
+| Metrik                            | Vom Client zum Edge von Microsoft           | Vom Kundenedge zum Edge von Microsoft    |
 |-----------------------------------|------------------------------------|------------------------------------|
-| Latenz (eine Möglichkeit)                 | \<50 ms                            | \<30 ms                            |
+| Latenz (unidirektional)                 | \<50 ms                            | \<30 ms                            |
 | Latenz (RTT oder Round-Trip-Zeit) | \<100 MS                           | \<60 ms                            |
-| Burst-Paketverlust                 | \<10% während eines beliebigen 200-MS-Intervalls   | \<1% während eines beliebigen 200-MS-Intervalls    |
+| Burstverlust von Paketen                 | \<10% während eines beliebigen 200-MS-Intervalls   | \<1% während eines beliebigen 200-MS-Intervalls    |
 | Paketverlust                       | \<1% während eines 15-Sekunden-Intervalls    | \<0,1% während eines 15-Sekunden-Intervalls  |
 | Paket Inter-arrival Jitter       | \<30 ms während eines 15-Sekunden-Intervalls | \<15 MS während eines 15-Sekunden-Intervalls |
-| Paket Reihenfolge                    | \<0,05% Pakete außerhalb der Reihenfolge       | \<0,01% Pakete außerhalb der Reihenfolge      |
+| Neuanordnung von Paketen                    | \<0,05% Pakete außerhalb der Reihenfolge       | \<0,01% Pakete außerhalb der Reihenfolge      |
 
 Weitere Informationen finden Sie in [diesem Artikel unter Medienqualität und Netzwerkleistung](https://aka.ms/performancerequirements) für Teams und Skype for Business Online.
 

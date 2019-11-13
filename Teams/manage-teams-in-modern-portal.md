@@ -13,21 +13,24 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
-ms.translationtype: HT
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286233"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290935"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 ==========================================
 
 ## <a name="overview"></a>Übersicht
+
+Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams im Microsoft Teams Admin Center. Schauen Sie sich dieses kurze Video an (3 Minuten):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Wartungsaktionen ausführen, z. b. Teams, die keinen Besitzer haben, einen zuweisen. Sie können die in Ihrer Organisation bestehenden Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Um die vollständigen Verwaltungsfunktionen, die diese beiden Toolsets bieten, nutzen zu können, sollten Sie sicherstellen, dass Sie eine der folgenden Rollen besitzen:
 
@@ -36,13 +39,13 @@ Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisie
 
 Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Um mehr über die Nutzung von PowerShell-Cmdlets für die Verwaltung von Teams zu erfahren, lesen Sie die [Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-In diesem Artikel finden Sie eine Übersicht über die Verwaltungstools für Teams im Microsoft Teams Admin Center.
+
 
 ## <a name="teams-overview-grid"></a>Teams-Übersichtraster
 
 Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie im Admin Center **Teams** > **Teams verwalten** aus.) Jedes Team wird von einer Office 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
 
-![Screenshot des Teams-Übersichtrasters](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot des Rasters ' Teams-Übersicht '](media/manage-teams-in-modern-portal-grid.png)  
 
 Das Raster zeigt die folgenden Eigenschaften an:
 
@@ -70,7 +73,7 @@ Wenn Sie gruppen- und teamspezifische Einstellungen bearbeiten möchten, wählen
 
 ### <a name="archive"></a>Archivieren
 
-Sie können ein Team archivieren. Durch die Archivierung wird das Team in Microsoft Teams in den schreibgeschützten Modus versetzt. Als Administrator können Sie Teams im Namen Ihrer Organisation im Admin Center archivieren oder die Archivierung wieder aufheben. 
+Sie können ein Team archivieren. Durch die Archivierung wird das Team in Microsoft Teams in den schreibgeschützten Modus versetzt. Als Administrator können Sie Teams im Namen Ihrer Organisation im Admin Center archivieren und UN-archivieren. 
 
 ### <a name="delete"></a>Löschen
 
@@ -88,7 +91,7 @@ Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigier
 - Hinzufügen oder Entfernen von Kanälen. (beachten Sie, dass Sie den Kanal „Allgemein“ nicht entfernen können.)
 - Ändern von Team- und Gruppeneinstellungen.
  
-![Screenshot eines Beispiel-Teamprofils](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot eines Beispiel Team Profils](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Vornehmen von Änderungen an Teams
 
@@ -117,7 +120,7 @@ Einige ihrer Teams fehlen in der Liste der Teams im Team-Übersichtraster.
 
 Ersetzen Sie **{groupid}** in der Abfrage durch die tatsächliche zutreffende GroupId, die Sie über Exchange Online PowerShell mit dem Cmdlet **„[Get-Unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)“** als „**ExternalDirectoryObjectId**“-Attribut abrufen können.
 
-1. Auf [Graph-Tester](https://developer.microsoft.com/de-DE/graph/graph-explorer) zugreifen.
+1. Auf [Graph-Tester](https://developer.microsoft.com/graph/graph-explorer) zugreifen.
 
 2. Melden Sie sich bei Graph Explorer im linken Menü an.
 

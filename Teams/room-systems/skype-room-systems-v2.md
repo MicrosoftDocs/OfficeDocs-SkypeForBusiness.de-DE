@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077418"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290925"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -37,7 +37,7 @@ Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen un
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
-|Telefonanlagen|  &#x2714;|
+|Telefonsystem|  &#x2714;|
 |Audiokonferenzen|&#x2714; &sup1;|
 |Microsoft InTune|&#x2714;|  
 |Weltweite Verfügbarkeit | &#x2714; &sup2;|
