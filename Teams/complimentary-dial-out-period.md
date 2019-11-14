@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenzen verwenden, wie Sie in den Skype for Business Online-und Microsoft Teams-PSTN-Diensten für die Verwendung von Geschäftsbedingungen und dem Volumenlizenzvertrag des Kunden zugelassen sind.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516897"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311230"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>Ende des kostenlosen Wähl Zeitraums
 
 Ab dem 1. Dezember 2019 endet die ﻿kostenlose Dial-Out-Funktion. Weitere Informationen finden Sie unter [Abonnement für Audio-Konferenz-Abonnements und Anruf an mich unter Benefit](audio-conferencing-subscription-dial-out.md) . 
+
+Diese Änderung findet nicht für Länder statt, in denen das Audiokonferenz-Abonnement zur Verfügung steht, aber wir bieten derzeit keine Möglichkeit zur Einrichtung von Kommunikationsguthaben. Diese Länder sind Russland, Südkorea und Taiwan.
 
 ### <a name="complimentary-dial-out-period-details"></a>Details zu den kostenlosen Wählzeiten
 

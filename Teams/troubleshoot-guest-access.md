@@ -15,12 +15,12 @@ description: Erhalten Sie Hilfe bei der Problembehandlung und Beheben von Proble
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754361"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311260"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Behandeln von Problemen mit dem Gastzugriff in Microsoft Teams
 ======================================================
@@ -44,6 +44,9 @@ Wenn Lizenzierungsfehler angezeigt werden, lesen Sie die [Azure Active Directory
 
 - Gastlizenzen werden für die einladende Organisation gezählt. Denken Sie daran, wenn Sie die Anzahl der benötigten Lizenzen berechnen.
 - Lizenzen werden gegen Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste von einem anderen Office 365-Mandanten stammen oder Ihre persönlichen e-Mail-Adressen verwenden.
+
+## <a name="support-for-b2b-user-types"></a>Unterstützung für B2B-Benutzertypen
+Zurzeit unterstützt Teams nur die Typen von Gastbenutzern des Status 1 und des Status 2 [, wie Sie von Azure B2B definiert werden](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer automatischen Cloudtelefonzentrale
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972476"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318110"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -103,7 +103,7 @@ Sie haben mehrere Möglichkeiten, den Operator einzurichten:
 
 <a name="timezone"> </a>
 
-![Symbol der Zahl 3, einer Legende in der vorherigen Screenshot](media/teamscallout3.png) - **Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale einstellen. Die Einstellung kann mit der Zeitzone der Hauptadresse, die für Ihre Organisation aufgelistet ist, oder einer anderen Zeitzone identisch sein. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen. Die für die automatische Telefonzentrale eingestellten Geschäftszeiten verwenden ebenfalls diese Zeitzone.
+![Symbol der Zahl 3, einer Legende in der vorherigen Screenshot](media/teamscallout3.png) - **Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale einstellen. Die Einstellung kann mit der Zeitzone der Hauptadresse, die für Ihre Organisation aufgelistet ist, oder einer anderen Zeitzone identisch sein. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen. Die für die automatische Telefonzentrale eingestellten Geschäftszeiten verwenden ebenfalls diese Zeitzone. Stellen Sie sicher, dass Sie die richtige Zeitzone einrichten, um Geschäftsstunden Unterschiede zu vermeiden, da nicht alle Regionen Sommerzeit haben. 
 
 * * *
 
@@ -231,7 +231,7 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 >- Eine automatische Telefonzentrale kann entweder für die Wahl nach Namen oder für die Durchwahl, aber nicht für beide konfiguriert werden.
 
 > [!NOTE]
-> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption auszuwählen, wenn Sie die Durchwahl des Benutzers kennen, und diese Option auf übertragen Sie den Anruf an eine automatische Telefonzentrale, die für die Durchwahl aktiviert ist.
+> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption auszuwählen, wenn Sie die Durchwahl des Benutzers kennen, und diese Option so festlegen, dass der Anruf an eine automatische Telefonzentrale übertragen wird, die für die Durchwahl aktiviert ist
 
 * * *
 
@@ -249,7 +249,7 @@ Wenn Sie Ihre Auswahl getroffen haben, können Sie auf **weiter** klicken, wenn 
 - Wählbereich
 - Ressourcenkonten
 
-Da für Ihre automatische Telefonzentrale ein Ressourcenkonto erforderlich ist, haben Sie die Möglichkeit, zur Seite " **Ressourcenkonto** " zu wechseln und ein bereits konfiguriertes Ressourcenkonto zuzuordnen oder ein Ressourcenkonto zu erstellen und es dem Auto zuzuordnen. Attendant wie unter [Verwalten von Ressourcenkonten in Microsoft Teams](manage-resource-accounts.md)beschrieben. Sie können diese automatische Telefonzentrale erst dann verwenden, wenn Sie einem Ressourcenkonto zugeordnet wurde. Klicken Sie dazu unten auf dem Bildschirm auf die Schaltfläche **weiter** , und klicken Sie dann im linken Navigationsbereich auf **Ressourcenkonten** , um direkt zur Seite Ressourcenkonten zu wechseln und die automatische Telefonzentrale einem Ressourcenkonto zuzuordnen.
+Da für Ihre automatische Telefonzentrale ein Ressourcenkonto erforderlich ist, haben Sie die Möglichkeit, zur Seite " **Ressourcenkonto** " zu wechseln und ein bereits konfiguriertes Ressourcenkonto zu verknüpfen oder ein Ressourcenkonto zu erstellen und es der automatischen Telefonzentrale zuzuordnen, wie es unter [Verwalten von Ressourcenkonten in Microsoft Teams](manage-resource-accounts.md)beschrieben ist. Sie können diese automatische Telefonzentrale erst dann verwenden, wenn Sie einem Ressourcenkonto zugeordnet wurde. Klicken Sie dazu unten auf dem Bildschirm auf die Schaltfläche **weiter** , und klicken Sie dann im linken Navigationsbereich auf **Ressourcenkonten** , um direkt zur Seite Ressourcenkonten zu wechseln und die automatische Telefonzentrale einem Ressourcenkonto zuzuordnen.
 
 #### <a name="advanced-settings-optional"></a>Erweiterte Einstellungen (optional)
 
@@ -273,7 +273,7 @@ Zunächst werden die Geschäftszeiten so festgelegt, dass Sie um 12:00 Uhr begin
 
 ![Symbol der Zahl 3: eine Legende im vorherigen Screenshot](media/teamscallout3.png) wählen Sie **alle Stunden löschen** aus, um den Terminplan vollständig zu löschen. Wenn Sie diese Option auswählen und die festgelegten Stunden nicht mehr benötigen, sollten Sie diese Option nur verwenden, wenn Sie Ihre Geschäftszeiten vollständig wiederholen möchten.
 
-![Symbol der Zahl 4, eine Beschriftung im vorherigen Screenshot](media/teamscallout4.png)![-Symbol der Zahl 5, eine Legende im vorherigen Screenshot](media/teamscallout5.png) zum Anpassen der Start-oder Endzeit für einen Wochentag, klicken Sie auf **Start at** oder **Ende** , wenn Sie die Uhrzeit zurücksetzen möchten, und Wählen Sie in der angezeigten Liste die neue Uhrzeit aus.   In der Liste können Sie Geschäftszeiten in 15-Minuten-Intervallen auswählen, und die hier ausgewählten Geschäftszeiten basieren auf der Zeitzone, die Sie auf der Seite **Allgemeine Informationen** festzulegen.
+![Symbol der Zahl 4, einer Legende im vorherigen Screenshot](media/teamscallout4.png)![-Symbol der Zahl 5, einer Legende im vorherigen Screenshot](media/teamscallout5.png) zum Anpassen der Start-oder Endzeit für einen Wochentag, klicken Sie auf **Start at** oder **Ende** zum Zeitpunkt, zu dem Sie das zurücksetzen möchten, und wählen Sie die neue Uhrzeit in der angezeigten Liste aus.   In der Liste können Sie Geschäftszeiten in 15-Minuten-Intervallen auswählen, und die hier ausgewählten Geschäftszeiten basieren auf der Zeitzone, die Sie auf der Seite **Allgemeine Informationen** festzulegen.
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinz
 
 Ein Feiertags-Anruffluss Name kann bis zu 64 Zeichen lang sein und muss für die Organisation eindeutig sein. So können Sie beispielsweise in der gleichen Organisation nicht zwei Urlaubs Anruf Flüsse mit dem Namen "Thanksgiving" haben. Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den Sie eingerichtet haben, aber möglicherweise möchten Sie eine gemeinsame Reihe von Verhaltensweisen planen, die nicht mit einer benutzerdefinierten Begrüßung geplant sind.
 
-![Symbol der Zahl 3, eine Legende im vorherigen Screenshot](media/teamscallout3.png) die für einen Feiertags Anruffluss verfügbaren [Gruß](#call-flow) Optionen entsprechen den Optionen, die während der Geschäftszeiten zur Verfügung stehen. Die **Aktionen** , die nach der Wiedergabe der Ansage ausgeführt werden, sind ebenfalls ähnlich, mit der Ausnahme, dass es sich bei den einzigen verfügbaren Aktionen um die **Trennung** oder **Umleitung**handelt, und bei der Auswahl der Option " **Umleitung zu** " ist der Operator keine der verfügbaren . Sie können kein spezielles Menü für einen Feiertags Fluss einrichten.
+![Symbol der Zahl 3, eine Legende im vorherigen Screenshot](media/teamscallout3.png) die für einen Feiertags Anruffluss verfügbaren [Gruß](#call-flow) Optionen entsprechen den Optionen, die während der Geschäftszeiten zur Verfügung stehen. Die **Aktionen** , die nach der Wiedergabe der Ansage ausgeführt werden, sind ebenfalls ähnlich, mit der Ausnahme, dass es sich bei den einzigen verfügbaren Aktionen um die **Trennung** oder **Umleitung**handelt, und bei der Auswahl der Option **zum Umleiten an** ist der Operator nicht eine der verfügbaren Optionen. Sie können kein spezielles Menü für einen Feiertags Fluss einrichten.
 
 > [!NOTE]
 > Standardmäßig werden alle während eines Urlaubs Zeitraums empfangenen Anrufe nach der Ansage (sofern vorhanden) auf " **trennen** " festgelegt, sodass Sie eine Umleitung angeben müssen, wenn Sie ein benutzerdefiniertes Verhalten wünschen.
@@ -414,11 +414,11 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
   - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Warum Sie Office 365 PowerShell verwenden müssen](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn nur das Microsoft 365 Admin Center verwendet wird, beispielsweise das vornehmen von Einstellungsänderungen für viele Benutzer gleichzeitig. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Verwalten von Office 365 mit Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Verwalten von Office 365 mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 
