@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570223"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638805"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -165,6 +165,9 @@ Die Teams-App wurde bei führenden Anbietern von Virtualisierungslösungen valid
 
 ### <a name="virtual-machine-requirements"></a>Anforderungen virtueller Computer
 
+> [!NOTE]
+> Die folgenden Voraussetzungen gelten für die Team-Desktop-App und die Teams Web App.
+
 Mit den unterschiedlichen Arbeitslasten und Benutzeranforderungen in einer virtualisierten Umgebung ist die folgende Mindestkonfiguration für VM empfohlen.
 
 |Parameter  |Maßnahme  |
@@ -184,24 +187,24 @@ Die unterstützten Betriebssysteme für VM sind:
 
 Hier sehen Sie den Prozess und die Tools zum Bereitstellen der Desktop-App von Teams. 
 
-1. Laden Sie das MSI-Paket für Teams mit einem der folgenden Links in Abhängigkeit von der Umgebung herunter. Wir empfehlen die 64-Bit-Version für eine VDI-VM mit einem 64-Bit-Betriebssystem.
+1. Laden Sie das MSI-Paket für Teams mithilfe eines der folgenden Links (je nach Umgebung) herunter. Wir empfehlen die 64-Bit-Version für eine VDI-VM mit einem 64-Bit-Betriebssystem.
 
     - [32-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [64-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Führen Sie den folgenden Befehl aus, um die MSI-Datei auf der VDI-VM zu installieren (oder vollständig zu aktualisieren).
+2. Führen Sie den folgenden Befehl aus, um die MSI-Datei auf der VDI-VM zu installieren (oder die Aktualisierung durchzuführen).
 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-    Dadurch werden Teams in Programmdateien installiert. An diesem Punkt ist die Einrichtung des goldenen Bilds abgeschlossen.
+    Dadurch wird Teams im Ordner Programmdateien installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen.
  
-    In der nächsten interaktiven Anmeldesitzung werden Teams gestartet, und es werden Anmeldeinformationen angefordert. Beachten Sie, dass es nicht möglich ist, den automatischen Start von Teams bei der Installation von Teams auf VDI mithilfe der alluser-Eigenschaft zu deaktivieren. 
+    Bei der nächsten interaktiven Anmeldesitzung startet Teams und fordert Anmeldeinformationen an. Beachten Sie, dass es nicht möglich ist, das automatische Starten von Teams bei der Installation von Teams auf der VDI mithilfe der ALLUSER-Eigenschaft zu deaktivieren. 
 
 3. Führen Sie den folgenden Befehl aus, um die MSI-Datei von der VDI-VM zu deinstallieren (oder die Aktualisierung vorzubereiten).
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    Dadurch wird Microsoft Teams aus Programmdateien deinstalliert.
+    Dadurch wird Teams aus den-Programmdateien deinstalliert.
 
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
@@ -214,7 +217,7 @@ Im folgenden sind bekannte Probleme und Einschränkungen für Teams in VDI zu fi
     - Die Anwendung der in diesem Artikel beschriebenen Richtlinien wirkt sich auf die Möglichkeit aus, die Funktionalität von Anrufen und Besprechungen zu verwenden, die sich je nach anderen Richtlinien auf andere Benutzer in Ihrer Organisation auswirken kann. Wenn Benutzer in Ihrer Organisation nicht-VDI-Clients verwenden, können Sie festlegen, dass die Richtlinien nicht angewendet werden.  
 
 - **Teilnahme an anrufen und Besprechungen, die von anderen Benutzern erstellt wurden**: Obwohl die Richtlinien Benutzer daran hindern, Besprechungen zu erstellen, können Sie weiterhin an Besprechungen teilnehmen, wenn sich ein anderer Benutzer aus der Besprechung anwählt. In diesen Besprechungen hängt die Möglichkeit des Benutzers, Video zu teilen, die Verwendung von Whiteboard und anderen Features davon ab, ob Sie diese Features mithilfe von TeamsMeetingPolicy deaktiviert haben.  
-- **Zwischengespeicherter Inhalt**: Wenn die virtuelle Umgebung, in der die Teams ausgeführt werden, nicht persistent ist (und die Daten am Ende jeder Benutzersitzung bereinigt werden), können Benutzer die Leistungsverschlechterung aufgrund der Inhaltsaktualisierung bemerken, unabhängig davon, ob der Benutzer auf dieselbe Inhalt in einer vorherigen Sitzung.
+- **Zwischengespeicherter Inhalt**: Wenn die virtuelle Umgebung, in der die Teams ausgeführt werden, nicht persistent ist (und die Daten am Ende jeder Benutzersitzung bereinigt werden), können Benutzer die Leistungsverschlechterung aufgrund der Inhaltsaktualisierung bemerken, unabhängig davon, ob der Benutzer auf denselben Inhalt in einer vorherigen Sitzung zugegriffen hat.
 - **Client Updates**: Teams auf VDI werden nicht automatisch mit der MSI-Installation pro Computer aktualisiert. Sie müssen das VM-Abbild aktualisieren, indem Sie eine neue MSI-Datei installieren, wie im Abschnitt [Installieren von Teams im VDI](#install-teams-on-vdi) beschrieben. Sie müssen die aktuelle Version deinstallieren, um Sie auf eine neuere Version zu aktualisieren.
 - **Benutzererfahrung**: die Benutzeroberfläche von Teams in einer VDI-Umgebung kann sich von einer nicht-VDI-Umgebung unterscheiden. Die Unterschiede sind möglicherweise auf Richtlinieneinstellungen und/oder Funktionsunterstützung in der Umgebung zurückzuführen.
 

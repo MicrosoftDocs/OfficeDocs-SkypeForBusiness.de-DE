@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563322"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626981"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -36,9 +35,11 @@ Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Mic
 ![Screenshot des Add-Ins "Teams-Besprechung" im Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Benutzerberechtigungen zum Ausführen der Datei "regsvr32. exe" sind eine Mindestanforderung, damit das Add-in "Teams-Besprechung" auf dem Computer installiert werden kann.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 > - Windows 7-Benutzer müssen das [Update für die universelle C-Laufzeit unter Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows installieren, damit das Teambesprechung-Add-in funktioniert.
-> - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Add-in Teams-Besprechungen nicht unterstützt. Benutzern, die dieses Add-in benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie in [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben. 
+> - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Teambesprechung-Add-in nicht unterstützt. Benutzern, die dieses Add-in benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie in [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teambesprechung-Add-in in Outlook für Mac
 
@@ -102,7 +103,7 @@ Wenn Benutzer im Insel Modus eine Besprechung in Outlook planen, erwarten Sie in
 | Nur Skype for Business | Skype for Business |
 | Skype for Business mit Zusammenarbeit in Teams | Skype for Business |
 | Skype for Business mit Zusammenarbeit und Besprechungen in Teams | Teams |
-| Nur für Teams | Teams |
+| Nur Teams | Teams |
 
 ## <a name="other-considerations"></a>Andere Überlegungen
 
@@ -123,7 +124,7 @@ Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren kö
 - Stellen Sie sicher, dass der Name des angemeldeten Benutzerkontos keine Leerzeichen enthält. (Dies ist ein bekanntes Problem, das in einem zukünftigen Update behoben wird.)
 - Stellen Sie sicher, dass Single Sign-On (SSO) aktiviert ist.
 
-Wenn Ihr Administrator Microsoft Exchange zum Steuern des [Zugriffs auf Exchange Web Server (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)konfiguriert hat, kann eine Stellvertretung keine Teams-Besprechung im Auftrag des Vorgesetzten planen. Die Lösung für diese Konfiguration befindet sich in der Entwicklung und wird in Zukunft veröffentlicht. 
+Wenn Ihr Administrator Microsoft Exchange zum Steuern des [Zugriffs auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)konfiguriert hat, kann eine Stellvertretung keine Teams-Besprechung im Auftrag des Vorgesetzten planen. Die Lösung für diese Konfiguration befindet sich in der Entwicklung und wird in Zukunft veröffentlicht. 
 
 Eine allgemeine Anleitung zum Deaktivieren von Add-Ins finden Sie unter [Anzeigen, Verwalten und Installieren von Add-Ins in Office-Programmen](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
