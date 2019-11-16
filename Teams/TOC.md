@@ -25,6 +25,7 @@
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
 ## [Verwalten von Teams und Kanalrichtlinien](teams-policies.md)
+## [Vertraulichkeitsbezeichnungen für Teams](sensitivity-labels.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
+### [Microsoft Teams-Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 ### [Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren](plan-teams-governance-edu.md)
 ### [Installieren von Moodle-Integration](install-moodle-integration.md)
 
