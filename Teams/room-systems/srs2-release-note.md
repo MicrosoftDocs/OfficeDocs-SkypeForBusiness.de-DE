@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573528"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676113"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -225,7 +225,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Unterstützung für die Dock-Hardware der [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-- Unterstützung für die [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- Unterstützung für die [Logitech Brio](https://www.logitech.com/product/brio)
 - Behebt ein Problem, bei dem Anzeige (Konsole und Front-of-room) nicht in den Ruhemodus wechselt, wenn keine Aktivitäten im Chatroom vorhanden sind
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,7 +297,7 @@ In diesem Update eingeführt:
 <a name="See"> </a> 
 ## <a name="see-also"></a>Siehe auch
 
-[Microsoft Teams Rooms-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Vorbereiten der Umgebung](srs-v2-prep.md)
 

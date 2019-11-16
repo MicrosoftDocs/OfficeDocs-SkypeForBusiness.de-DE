@@ -1,7 +1,7 @@
 ---
 title: Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Skype for Business-oder Teams-Implementierung erläutert.
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569918"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675783"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569918"
   
 [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitzustellen und zu verwalten, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können innerhalb weniger Minuten buchstäblich in Betrieb sein. Mit einigen Anpassungsarbeiten kann Sie die Verwaltung von Microsoft Teams rooms-Konferenzsystemen unterstützen, indem Sie Echtzeitbenachrichtigungen über den Systemstatus oder Fehler für einzelne Raumsysteme bereitstellen und diese potenziell auf die Verwaltung Tausender Microsoft Teams skalieren können. Zimmer Konferenzräume.
   
-Dieser Artikel enthält eine Erläuterung der Best Practices für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der Azure Monitor-basierten Verwaltung von Microsoft Teams rooms-Konferenz Geräten erforderlich sind, und enthält Links zu detaillierten Artikeln zu Implementieren von Azure Monitor für Microsoft Teams Rooms und wichtige Referenzinformationen für die laufende Überwachung von Microsoft Teams-Chatrooms. 
+Dieser Artikel enthält eine Erläuterung der Best Practices für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der Azure Monitor-basierten Verwaltung von Microsoft Teams rooms-Konferenz Geräten erforderlich sind, und enthält Links zu detaillierten Artikeln zur Implementierung von Azure Monitor für Microsoft Teams-Räume sowie zu wichtigen Referenzinformationen für die laufende Überwachung von Microsoft Teams-Chatrooms. 
   
 ## <a name="functional-overview"></a>Funktionsübersicht
 

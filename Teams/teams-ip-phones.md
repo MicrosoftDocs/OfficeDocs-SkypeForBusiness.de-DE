@@ -1,7 +1,7 @@
 ---
 title: Telefone und Geräte für Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Für Microsoft Teams zertifizierte IP-Desk-und Konferenztelefone
-ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570201"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675823"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -44,6 +44,7 @@ Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 |Telefonmodell|Firmware-Version|Veröffentlichungsdatum |
 |:---|:---|:---|
 |AudioCodes C450HD | C450HD_TEAMS_0.225 | März 2019|
+|AudioCodes C448HD (nur Cap-Modus) | C450HD_TEAMS_0.225 | März 2019|
 |Crestron M100|2.3875.00068|Dezember 2018|
 |Crestron Flex UC-P100-t #a0 UC-P110-t  | 58.15.91.6 |Januar 2019|
 |Poly Trio 8500/8800 (nur Shared-Modus)| 5.9.0.10869|Juni 2019|
@@ -51,7 +52,7 @@ Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 |Yealink T55 | 58.15.0.36 |Mai 2019|
 |Yealink CP 960 |73.15.0.20|Dezember 2018|
 |Yealink T58 #a0 T56-Serie |58.15.0.20|Dezember 2018|
-||||
+
 
 Informationen zu den von diesen Geräten unterstützten Features finden Sie unter [Microsoft Teams Phones-Funktionssatz](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) .
 
@@ -63,10 +64,10 @@ Weitere Informationen zum Abrufen von Teams finden Sie unter [wie erhalte ich Zu
 
 * * *
 
-Wenn Sie ein Anbieter sind und versuchen, dem Zertifizierungsprogramm beizutreten, lesen Sie so wird es [gemacht: Teilnahme](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) an Anforderungen und verfügbare Programme.
+Wenn Sie ein Anbieter sind und versuchen, dem Zertifizierungsprogramm beizutreten, lesen Sie so wird es [gemacht: Teilnahme](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) an Anforderungen und verfügbare Programme.
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
 Informieren Sie sich über [Skype for Business-und Microsoft Teams-Zertifizierungsprogramme](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
-[Erkunden Sie Microsoft Teams-Telefone und zertifizierte Geräte.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Erkunden Sie Microsoft Teams-Telefone und zertifizierte Geräte.](https://products.office.com/microsoft-teams/across-devices/devices)

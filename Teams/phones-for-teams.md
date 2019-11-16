@@ -1,7 +1,7 @@
 ---
 title: Telefone für Microsoft Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -14,16 +14,16 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573309"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675389"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
-Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die ein herkömmliches Telefon Erlebnis benötigen. Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden. Wenn Sie die neuesten und aktuellen Informationen zu Teams Certified Devices erhalten möchten, wechseln Sie zu [Teams Marketplace](http://office.com/teamsdevices).
+Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die ein herkömmliches Telefon Erlebnis benötigen. Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden. Wenn Sie die neuesten und aktuellen Informationen zu Teams Certified Devices erhalten möchten, wechseln Sie zu [Teams Marketplace](https://office.com/teamsdevices).
 
 ## <a name="teams-certified-ip-phones"></a>Zertifizierte IP-Telefone für Teams
 
@@ -139,12 +139,12 @@ Die Mindestversion der Firmware kann auf der Anmeldeseite für Teams überprüft
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
-Microsoft Teams-Lizenzen können als Teil ihrer [Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/en-us/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können als Teil ihrer [Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Abrufen von Teams finden Sie unter [wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Marketplace für Teams](http://office.com/teamsdevices)
+[Marketplace für Teams](https://office.com/teamsdevices)
 
 [Für Microsoft Teams zertifizierte IP-Telefone](teams-ip-phones.md)
