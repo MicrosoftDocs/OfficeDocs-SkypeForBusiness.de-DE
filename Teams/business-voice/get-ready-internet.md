@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972276"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653551"
 ---
 # <a name="check-your-internet-connection"></a>Überprüfen Ihrer Internetverbindung
 
@@ -57,17 +57,17 @@ Bevor Sie beginnen, müssen Sie die folgenden Informationen kennen:
 Nachstehend wird beschrieben, wie Sie vorgehen müssen:
 
 1. Öffnen Sie einen Browser, navigieren Sie zu https://admin.teams.microsoft.com, und melden Sie sich mit einem Konto an, das über die Berechtigungen eines globalen Administrators verfügt. Das Konto, mit dem Sie sich bei Office 365 registriert haben, verfügt über diese Berechtigungen.
-1. Öffnen Sie **Organisationsweite Einstellungen**, und wählen Sie dann **Netzwerkplaner** aus.
+1. Öffnen Sie **Planung** und dann **Netzwerkplaner** aus.
 1. Wählen Sie unter **Netzwerkpläne** die Option **Hinzufügen** aus. Weisen Sie Ihrem Plan einen Namen zu, und wählen Sie dann **Übernehmen** aus. Ihr Netzwerkplan sollte wie folgt aussehen:
 
     ![Netzwerkplaner: Hauptbildschirm](../media/network-planner-main.png)
 1. Klicken Sie auf den Namen Ihres Netzwerkplans (**Hauptbüro** in der obigen Abbildung).
 1. Wählen Sie auf der nächsten Seite auf der Registerkarte **Netzwerkstandorte** die Option **Netzwerkstandort hinzufügen** aus.
-1. Geben Sie die folgenden Informationen ein, und wählen Sie dann **Speichern** aus.
+1. Füllen Sie nur die im Screenshot unten angegebenen Felder aus, und wählen Sie dann **Speichern**. Lassen Sie die anderen Felder auf diesem Bildschirm leer, und deaktivieren Sie entweder die Option **ExpressRoute** oder die Option **Verbunden mit WAN**.
 
     ![Netzwerkplaner: Informationen zu Standorten](../media/network-planner-site-info.png)
 1. Wählen Sie auf der Registerkarte **Bericht** die Option **Bericht starten** aus.
-1. Geben Sie die folgenden Informationen ein, und wählen Sie dann **Bericht generieren** aus.
+1. Geben Sie die folgenden Informationen ein, und wählen Sie dann **Bericht erstellen**, um einen Bericht mit den Bandbreitenanforderungen für Teams zu erstellen. Im nächsten Abschnitt wird beschrieben, wie Sie den Bericht lesen.
 
     ![Netzwerkplaner: Berichtsinformationen](../media/network-planner-report-info.png)
 

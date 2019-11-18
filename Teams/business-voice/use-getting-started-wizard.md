@@ -15,18 +15,18 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972196"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653531"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 
 Der Assistent für erste Schritte für Microsoft 365 Business Voice bietet Ihnen eine einfache und schnelle Möglichkeit, mit dem Empfangen und Tätigen von Telefonanrufen in Microsoft Teams zu beginnen. Wenn Sie ein kleines junges Unternehmen sind, können Sie mit dem Assistenten in ein paar Minuten mit Telefonnummern, Anrufmenüs, Begrüßungen und mehr loslegen. Wenn Sie ein größeres Unternehmen mit einer festgelegten Telefonielösung sind, hilft Ihnen der Assistent beim Einrichten eines Business Voice-Pilotprojekts, damit Sie es mit ein paar Benutzern ausprobieren können, bevor Sie es für jeden einrichten. In beiden Fällen können Sie Business Voice verwenden, sobald der Assistent abgeschlossen ist!
 
-Es ist empfehlenswert, diesen Artikel zu lesen, bevor Sie den Assistenten starten. Wenn Sie fertig sind, können Sie den Assistenten im [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage) öffnen. Stellen Sie sicher, dass Sie sich mit dem Konto anmelden, das Sie zum Erstellen Ihres Abonnements verwendet haben, oder mit einem anderen Konto, das ein globaler Administrator ist.
+Es ist empfehlenswert, diesen Artikel zu lesen, bevor Sie den Assistenten starten. Wenn Sie fertig sind, können Sie den Assistenten öffnen, indem Sie auf der Seite [Erste Schritte mit Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) die Option **Los geht's** auswählen. Stellen Sie sicher, dass Sie sich mit dem Konto anmelden, das Sie zum Erstellen Ihres Abonnements verwendet haben, oder mit einem anderen Konto, das ein globaler Administrator ist.
 
 > [!IMPORTANT]
 > Business Voice ist derzeit in Kanada und im Vereinigten Königreich verfügbar. Weitere Länder und Regionen werden in 2020 verfügbar.
@@ -56,7 +56,7 @@ Wenn Sie mehr wissen möchten, lesen Sie [Was sind Notfallstandorte, Notfalladre
 
 <table>
     <tr>
-        <td>Zusätzlich zur Einrichtung einer neuen lokalen Telefonnummer können Sie eine gebührenfreie Nummer kaufen oder eine bestehende Nummer nach Microsoft 365 portieren. Wenn Sie sich für die Einrichtung einer gebührenfreien Rufnummer entschieden haben, müssen Sie einen Anrufplan erwerben. Wenn Sie eine Nummer nach Microsoft 365 portieren möchten, haben Sie die Möglichkeit, dies im [Teams Admin Center](https://admin.teams.microsoft.com) nach Abschluss des Assistenten zu tun.
+        <td>Zusätzlich zur Einrichtung einer neuen lokalen Telefonnummer können Sie eine gebührenfreie Nummer kaufen oder eine bestehende Nummer nach Microsoft 365 portieren. Wenn Sie sich für die Einrichtung einer gebührenfreien Rufnummer entschieden haben, müssen Sie einen Anrufplan erwerben. Wenn Sie eine oder mehrere Nummern nach Microsoft 365 portieren möchten, haben Sie die Möglichkeit, dies im [Teams Admin Center](https://admin.teams.microsoft.com) nach Abschluss des Assistenten zu tun.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ Wenn Sie mehr wissen möchten, lesen Sie [Was sind Notfallstandorte, Notfalladre
 </table>
 
 > [!IMPORTANT]
-> Wenn Sie sich entscheiden, eine vorhandene Telefonnummer an Microsoft 365 zu portieren, wird im Assistenten weiterhin eine temporäre Telefonnummer angezeigt. Dies geht in Ordnung. Nachdem Sie den Assistenten durchgeführt und den Portierungsvorgang abgeschlossen haben, wird die temporäre Telefonnummer durch Ihre Rufnummer ersetzt.
+> Wenn Sie sich entscheiden, eine oder mehrere vorhandene Telefonnummern an Microsoft 365 zu portieren, wird im Assistenten weiterhin eine temporäre Telefonnummer angezeigt. Dies geht in Ordnung. Nachdem Sie den Assistenten durchgeführt und den Portierungsvorgang abgeschlossen haben, wird die temporäre Telefonnummer durch Ihre Rufnummer ersetzt.
 
 ## <a name="assigning-licenses-to-users"></a>Zuweisen von Lizenzen zu den Benutzern
 
@@ -96,12 +96,15 @@ Wenn Sie mehr wissen möchten, lesen Sie [Was sind Notfallstandorte, Notfalladre
 <table>
     <tr>
         <td>Sie können alle Anrufe an einen bestimmten Benutzer weiterleiten oder Sie können ein Anrufmenü einrichten, aus dem die Benutzer verschieden Optionen auswählen können. Wenn Sie ein Anrufmenü erstellen, können Sie die Optionen angeben, die ein Anrufer auswählen kann, indem er eine Zahl auf der Tastatur eines Telefons drückt oder sie über einen Sprachbefehl durchgibt. Jede Menüoption kann an einen Benutzer weitergeleitet werden. <br>
-Sie können auswählen, ob eine Audiodatei (MP3 oder WAV) mit bis zu 5 MB hochgeladen werden soll, die dem Anrufer Anweisungen gibt, oder Sie können stattdessen die Anweisungen über die Tastatur eingeben. Microsoft 365 verwendet Text-zu-Sprache, um die Anweisungen für den Anrufer vorzulesen. Möglicherweise müssen Sie Wörter phonetisch buchstabieren, bis die Aussprache korrekt ist.
+        Sie können auswählen, ob eine Audiodatei (MP3 oder WAV) mit bis zu 5 MB hochgeladen werden soll, die dem Anrufer Anweisungen gibt, oder Sie können stattdessen die Anweisungen über die Tastatur eingeben. Microsoft 365 verwendet Text-zu-Sprache, um die Anweisungen für den Anrufer vorzulesen. Möglicherweise müssen Sie Wörter phonetisch buchstabieren, bis die Aussprache korrekt ist.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> Der Assistent für die ersten Schritte hilft Ihnen beim Einrichten eines einfachen Anrufmenüs, damit Sie schnell und problemlos loslegen können. Wenn Sie auf mehreren Rufnummern Anrufmenüs einrichten oder komplexere Anrufmenüs (auch als automatische Telefonzentrale bezeichnet) einrichten möchten, führen Sie die Schritte in [Einrichten einer automatischen Cloudtelefonzentrale](set-up-auto-attendants.md) aus, nachdem Sie den Assistenten abgeschlossen haben.
 
 <table>
     <tr>
