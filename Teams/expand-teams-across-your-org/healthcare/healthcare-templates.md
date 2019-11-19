@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886438"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702316"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -43,7 +43,7 @@ Die Ward-Vorlage ist für die Kommunikation und Zusammenarbeit innerhalb einer S
 
 ## <a name="hospital-template"></a>Vorlage für Krankenhaus
 
-Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen mehreren Stationen, Hülsen und Abteilungen innerhalb eines Krankenhauses vorgesehen. In dieser Vorlage sind mehrere operationelle Kanäle enthalten, einschließlich *Ankündigungen*, *Freiheitsentzug*und *Pharmazie*, aber auch ein Skript, das die Vorlage mit einer Reihe weiterer Abteilungen erweitert oder Spezial zentrierte Kanäle, die Sie Ihren Wünschen entsprechend hinzufügen, löschen oder bearbeiten können. Wenn Sie beispielsweise über eine *Endokrinologie* -Abteilung verfügen, aber keinen Kanal für die *Augenheilkunde*benötigen, kann das Skript so angepasst werden, dass es einen *Endokrinologie* -Kanal enthält, und den *Ophthalmologie* -Kanal entfernen. Wir empfehlen, dass diese Spezial-oder Stations modellierten Kanäle nicht automatisch als Favorit festgelegt werden, um eine Benachrichtigungs Sättigung zu vermeiden. Benutzer können in der Regel alle Kanäle, die für Sie relevant sind, als Favoriten festlegen.
+Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen mehreren Stationen, Hülsen und Abteilungen innerhalb eines Krankenhauses vorgesehen. In dieser Vorlage sind mehrere operationelle Kanäle enthalten, einschließlich *Ankündigungen*, *Freiheitsentzug*und *Pharmazie*, aber wir bieten auch ein Skript, das die Vorlage mit einer Reihe weiterer Abteilungs-oder Spezial orientierter Kanäle erweitert, die Sie Ihren Wünschen hinzufügen, löschen oder bearbeiten können. Wenn Sie beispielsweise über eine *Endokrinologie* -Abteilung verfügen, aber keinen Kanal für die *Augenheilkunde*benötigen, kann das Skript so angepasst werden, dass es einen *Endokrinologie* -Kanal enthält, und den *Ophthalmologie* -Kanal entfernen. Wir empfehlen, dass diese Spezial-oder Stations modellierten Kanäle nicht automatisch als Favorit festgelegt werden, um eine Benachrichtigungs Sättigung zu vermeiden. Benutzer können in der Regel alle Kanäle, die für Sie relevant sind, als Favoriten festlegen.
 
 |Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Die Vorlage für das Krankenhaus ist für die Kommunikation und Zusammenarbeit z
 
 \*Automatisch Favoriten 
 
-## <a name="care-coordination-template"></a>Vorlage für die Pflege Koordination
-
-Die Vorlage für die Pflege Koordination soll die Kommunikation innerhalb eines Patienten Betreuer-Teams erleichtern, mit einigen Beispielen, darunter interdisziplinäre und multidisziplinäre Teams. Unsere Anwendung für proprietäre Patienten ist in dieser Vorlage vorinstalliert und befindet sich im Kanal allgemein. Mit der Anwendung "Patienten" können Sie Listen von Patienten und deren zugehörigen Werten und vitalen erstellen und diese für Rundungs-und Patientenmanagement Szenarien nutzen. 
-
-|Basis Vorlagentyp |baseTemplateId |Baseline-Vorlagen Kanäle|
-|:--- |:---|:---|
-|Koordinierung im Gesundheitswesen | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Überprüfung nach der Behandlung\* <br> Planung\* <br> Ausbildung\* |
-| | |  |
-
-\*Automatisch Favoriten 
-
 ## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
 
-Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die "Template@odata.Bind"-Eigenschaft im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die Eigenschaft "Template@odata. Bind" im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Die Kanäle in der Vorlage werden auf der RegisterkarteAllgemein automatisch erstellt.

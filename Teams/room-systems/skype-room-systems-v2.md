@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: e02a59d4b1ec99872fd544ab4828e609a1e3ea80
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290925"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702326"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -50,7 +50,7 @@ Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen un
 
 
 > [!NOTE]
-> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business Standalone Plan 1 oder Skype for Business Plan 2 oder Skype for Business Plan 2 mit Audiokonferenzen oder mit Office365-Telefon System und einem Anrufplan verwenden, werden diese weiterhin funktionieren. Sie sollten jedoch in der obigen Tabelle nach dem Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell wechseln. 
+> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business-Plan 2 mit Audiokonferenz oder mit Office 365-Telefon System und einem Anrufplan verwenden, funktionieren diese weiterhin. Sie sollten jedoch in der obigen Tabelle nach dem Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell wechseln.  
 
 > [!IMPORTANT]
 > Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfehlen wir, dass Sie die Microsoft Room-Lizenz erwerben. 

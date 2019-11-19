@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616088"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702306"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -23,7 +23,7 @@ In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/201
  
 Der Dienst wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschlange und Fax-Integrationsdienste bereitgestellt. Microsoft plant, Kunden dabei zu helfen, zu Telefon System Diensten zu migrieren, die bereits Tausende von Kunden in Skype for Business Online und Microsoft Teams unterstützen. 
 
-Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; eine Beteiligung des Administrators und/oder Investitionen für eine Teilmenge von Kunden sind möglicherweise erforderlich. Bei der automatischen Telefonzentrale handelt es sich um eine von Administratoren gesteuerte Migration. Sie müssen die vorhandenen, von der automatischen Telefonzentrale stammenden Bäume im clouddienst der Cloud für automatische Telefonzentralen neu erstellen. Kunden, die mit einer Drittanbieter-Telefonanlage eine der Funktionen von "fremd" nutzen, werden nicht zu Skype Cloud Services migriert, da Sie keine PBX-Anlagen von Drittanbietern unterstützen. In [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)wurde ein ruhestandsplan für Drittanbieter-Support angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer der Unified Communications-Plattformen/-Dienste von Microsoft migrieren oder eine Voicemail und/oder ein Auto von Drittanbietern erwerben. Attendant-Lösung für diese Benutzer. Die Integration von Faxen wird in den cloudbasierten Diensten nicht unterstützt. die Kunden müssen zu einer Drittanbieterlösung migrieren.
+Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; eine Beteiligung des Administrators und/oder Investitionen für eine Teilmenge von Kunden sind möglicherweise erforderlich. Bei der automatischen Telefonzentrale handelt es sich um eine von Administratoren gesteuerte Migration. Sie müssen die vorhandenen, von der automatischen Telefonzentrale stammenden Bäume im clouddienst der Cloud für automatische Telefonzentralen neu erstellen. Kunden, die mit einer Drittanbieter-Telefonanlage eine der Funktionen von "fremd" nutzen, werden nicht zu Skype Cloud Services migriert, da Sie keine PBX-Anlagen von Drittanbietern unterstützen. In [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)wurde ein ruhestandsplan für Drittanbieter-Support angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer der Unified Communications-Plattformen/-Dienste von Microsoft migrieren oder eine Voicemail-und/oder automatische Telefonzentralen-Lösung für diese Benutzer erwerben. Die Integration von Faxen wird in den cloudbasierten Diensten nicht unterstützt. die Kunden müssen zu einer Drittanbieterlösung migrieren.
 
 ### <a name="who-is-affected"></a>Wer ist betroffen?
 
@@ -156,7 +156,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | AA | Dienst Features | Unterstützung für mehrere Sprachen | Einzelheiten zur Sprache finden Sie hier:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | Dienst Features | An Operator, CQ oder einen Benutzer übertragen |  | Y | Y    |
 | AA | Dienst Features | Interne Übertragung an eine PSTN-Nummer (did RNL)  |  | Y | Y    |
-| AA | Dienst Features | Externe Übertragung an PSTN-Nummer  |  | Q3CY19 | Y    |
+| AA | Dienst Features | Externe Übertragung an PSTN-Nummer  |  | Lesen Sie den Abschnitt bekannte Probleme unten. | Y    |
 | AA | Dienst Features | Geschäftszeiten |  | Y | Y    |
 | AA | Dienst Features | Menü Optionen | IVR-Menü Optionen  | Y | Y    |
 | AA | Dienst Features | Zuweisen einer Cloud-PSTN-Nummer zu AA |  | J | N    |
@@ -210,6 +210,15 @@ Neue Skype for Business-Benutzer werden automatisch für Cloud Voicemail bereitg
 Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
 #### <a name="known-issues"></a>Bekannte Probleme
+
+**Anrufübergabe der automatischen Telefonzentrale an PSTN** Kunden werden ermutigt, eine vorübergehende Problemumgehung zu konfigurieren, um die Anforderungen für die Übertragung eines Anrufs einer automatischen Telefonzentrale an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen. 
+ 
+Bei der Qualitätssicherung wurde ein Problem mit der Funktion "an PSTN-Nummer übertragen" festgestellt, die nicht in der Lage ist, in-Time für Kunden zu beginnen, den Exchange-UMO-Dienst vor dem geplanten pensionierungs Termin von 2020. Februar zu migrieren. Um dieses Problem zu umgehen, können Administratoren die Anrufer der automatischen Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Anruf Weiterleitungseinstellung auf die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. 
+ 
+Erwartete Erfahrung
+- Administratoren müssen den virtuellen Benutzer nicht lizenzieren, da es sich um eine Problem Umgehungslösung handelt. 
+- Administratoren können die Rufnummernanzeige des PSTN-Receivers manipulieren, indem Sie dem virtuellen Benutzer die gewünschte Nummer zuweisen oder die Funktionen für die SBC-Zahl Bearbeitung verwenden. 
+- Für PSTN-Anrufer wird während der Anrufübertragung keine Verzögerung auftreten, und die Rufnummernanzeige der automatischen Telefonzentrale wird nach erfolgreicher Übertragung weiterhin angezeigt.  
 
 **Freigegebenes Postfach:** Ein freigegebenes Postfach, das mit Exchange um Online konfiguriert ist, erhält weiterhin Nachrichten, nachdem es in das zusammen gehen migriert wurde, und wird weiterhin für Benutzer über Outlook zugänglich sein. Der Zugriff zum Ändern der Grußnachrichten dieser Postfächer steht jedoch nicht mehr zur Verfügung, sobald Sie in das Unternehmen migriert wurden. Kunden mit freigegebenen Postfächern, die zum Erfassen der automatischen Telefonzentralen-Anrufer verwendet werden, sollten die Funktionen für automatische Telefonzentralen und freigegebene Postfächer nach der Veröffentlichung (ETA Oktober 2019) nutzen.
   

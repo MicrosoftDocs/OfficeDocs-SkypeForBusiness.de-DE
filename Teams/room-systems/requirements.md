@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675369"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696815"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
-In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
+Microsoft Teams-Räume Skalieren auf unterschiedliche Raumgrößen, indem Sie eine große Auswahl an zertifizierten Audio-und Video-Peripheriegeräten verwenden, die auf der Größe und Nutzung des Raums basieren. Durch die Auswahl des richtigen Core-Geräts und der richtigen Konsole, kombiniert mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den jeweiligen Platz geeignet sind, können Sie Microsoft Teams-Räume in Räumen beliebiger Größe aus sehr kleinen Chatrooms in sehr großen Konferenzräumen bereitstellen. und Sitzungssäle.  Der vollständige Satz aller verfügbaren zertifizierten Audio-und Video-Peripheriegeräte, die für die Konfiguration Ihres Chatrooms verwendet werden können, finden Sie im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices).
+
+In diesem Artikel werden die Geräte Bereitstellungs-und Konfigurationsanforderungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
 
 Ihre Bereitstellung umfasst die Kontoerstellung, wie unter [Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md) und Einrichten von Besprechungskonsolen beschrieben, wie unter [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)beschrieben.
 
@@ -31,34 +33,18 @@ Weitere Informationen finden Sie unter:
 - [Lizenzoptionen auf Grundlage Ihres Plans: Microsoft Teams-Chatrooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams Rooms ist für die Verwendung mit Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online vorgesehen.
+> Microsoft Teams-Chatrooms melden Sie sich bei Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von diesen Diensten gehostet werden.
 >
-> Ältere Plattformen wie Lync Server 2013 funktionieren vermutlich nicht mehr mit Microsoft Teams-Räume. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in den gcc-, gcc-oder DoD-Umgebungen nicht unterstützt.
+> Frühere Plattformen wie lync Server 2013 werden von Microsoft Teams-Räumen nicht unterstützt. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in Umgebungen mit gcc-hoher oder DoD nicht unterstützt.
 >
 > Wenn Sie über einen auf-Prem Exchange-Server verfügen, erfordert Microsoft Teams rooms die Verwendung von Exchange Server 2013 SP1 oder höher.
 
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
+Eine Hardwarebereitstellung umfasst eine Auswahl eines Microsoft Teams Room-Systems, kombiniert mit zertifizierten Audio-und Video-Peripheriegeräten und einer Verkabelungslösung, um diese Geräte zusammen zu integrieren.  Diese Optionen werden hier beschrieben.
 
-Microsoft Teams-Räume werden auf unterschiedliche Raumgrößen skaliert, indem unterschiedliche Audio-und Video-Peripheriegeräte entsprechend der Größe des Raums verwendet werden. Die in diesem Artikel aufgelistete Hardware unterstützt Skype-und Teams-Besprechungs Modi. Audio-und Video-Peripheriegeräte werden über einen USB-oder HDMI-Anschluss auf dem Docking-Gerät mit Microsoft Teams-Räumen verbunden. Sie benötigen außerdem:
+**Unterstützte Microsoft Teams-Raumsysteme**
 
-- Ein 32 GB-oder größeres USB-Laufwerk, das Sie als startfähige Windows-Installationsmedien für Windows 10 Enterprise konfigurieren.
-- Eine der folgenden Tablets oder Konsolen:
-
-  **Unterstützte Tablets**
-
-  |Tablet|Prozessor|RAM|Festplatte|
-  |:-----|:-----|:-----|:-----|
-  |Surface pro 6| Core i5 |16 GB oder 8 GB |128 GB oder mehr |
-  |Surface pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
-  |Surface pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
-
-- Eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern.
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **Andere unterstützte Microsoft Teams rooms-Konsolen**
+Alle aktuellen Microsoft Teams-Room-Geräte und-Bundles sind in der [Produktpräsentation Room Systems](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)erhältlich.
 
   |Konsole|Prozessor|RAM|Festplatte|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Microsoft Teams-Räume werden auf unterschiedliche Raumgrößen skaliert, indem 
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> Core M3-Prozessoren werden nicht unterstützt.
+> - Core M3-Prozessoren werden nicht unterstützt.
+> - Sie benötigen ein 32 GB-oder größeres USB-Laufwerk, das als startfähige Windows-Installationsmedien für Windows 10 Enterprise konfiguriert ist.
+
+**Unterstützte Surface pro-Tablets für Systeme im Dock-Stil**
+
+  |Tablet|Prozessor|RAM|Festplatte|
+  |:-----|:-----|:-----|:-----|
+  |Surface pro 6| Core i5 |16 GB oder 8 GB |128 GB oder mehr |
+  |Surface pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
+  |Surface pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
+
+- Eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern.
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Zertifizierte Firmware-Versionen für USB-Audio-und Video-Peripheriegeräte
 
-Diese Geräte sind unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices)erhältlich.
+Diese Geräte sind in der [Produktpräsentation Room System Zubehör](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) erhältlich und [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
 |Periphere Microsoft Teams rooms|Zertifizierte Firmware-Version | Kamera unterstützt die Verwendung von Kamera Inhalten|
 |:--- |:--- | :--- |

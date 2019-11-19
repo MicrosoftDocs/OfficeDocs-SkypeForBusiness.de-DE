@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968256"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696825"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -74,7 +74,7 @@ Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer
 Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
 
 - **1:1-Chat** – wenn die Kommunikation zwischen den beiden Benutzern nicht mehr zulässig ist (wenn eine Richtlinie, die die Kommunikation blockiert, auf einen oder beide Benutzer angewendet wird), wird die weitere Kommunikation blockiert, und die Chat Unterhaltung wird schreibgeschützt.
-- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer den Arbeitsplatz wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe wird nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen. 
+- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer die Arbeit wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe ist nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen. 
 - **Team** – alle Benutzer, die aus der Gruppe entfernt wurden, werden aus dem Team entfernt und können keine vorhandenen oder neuen Konversationen anzeigen oder daran teilnehmen.
 
 
@@ -92,16 +92,15 @@ Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarri
 - **Anrufe an Kontakte** : ein Benutzer kann blockierte Benutzer in der Anruf Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen.
 - **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
 
-
-
-## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Sind Dateien und SharePoint-Websites mit Teams mit der IB-Richtlinie verbunden?
+ 
 Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und dem Team für die Datei Oberfläche zugeordnet. Der Zugriff auf diese SharePoint-Website und Dateien honoriert die IB-Richtlinie des Unternehmens, d.h. nur die Benutzer, deren IB-Segment Übereinstimmungen pro IB-Richtlinie haben, haben Zugriff. Auch zum Zeitpunkt der Dateifreigabe wird die IB-Richtlinie berücksichtigt.
 
 Beispiel: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten. Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
 
-Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
+Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## <a name="more-information"></a>Weitere Informationen
 
