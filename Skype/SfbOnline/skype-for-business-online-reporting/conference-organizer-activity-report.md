@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie Sie den Bericht "Skype for Business-Konferenz organisierter Aktivitäten" erhalten und wie Sie ihn interpretieren und anpassen können. '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793186"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746328"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
@@ -41,12 +41,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
-2. Klicken Sie auf der Seite " **Nutzung** " in der **Liste "Bericht auswählen** " auf der linken Seite auf **Skype for Business-Konferenzorganisator-Aktivität** . Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzorganisator-Aktivität** .
-    
-     ![Menü für Skype-Berichte mit hervorgehobenen Aktivitäten des Business Conference Organizer](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > Je nach vorhandenem Office 365-Abonnement sehen Sie möglicherweise nicht alle Produkte und Aktivitätsberichte, die hier angezeigt werden. 
+2. Wählen Sie auf der Seite " **Nutzung** " in der **Liste "Bericht auswählen** " auf der linken Seite die Aktivität **Skype for Business** >-**Konferenzorganisator** aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzorganisator-Aktivität** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretieren des Berichts "Skype for Business-Konferenzorganisator"
 
@@ -63,11 +58,11 @@ Sie können sich einen Überblick über Ihre Skype for Business-Konferenzen vers
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im **Aktivitäts** Diagramm, um die Verwendungstrends zu verstehen und die Gesamtzahl der organisierten Konferenzen und die Art der Konferenzen zu sehen, die in Ihrer Organisation abgehalten werden. Sie zeigt die Gesamtzahl und die Typen von **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Einwahl/out-3rd Party**sowie Einwahl-und **/oder Microsoft** -Konferenzen an, die in Ihrer Organisation organisiert wurden. 
+![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im **Aktivitäts** Diagramm, um die Verwendungstrends zu verstehen und die Gesamtzahl der organisierten Konferenzen und die Art der Konferenzen zu sehen, die in Ihrer Organisation abgehalten werden. Sie zeigt die Gesamtzahl und die Typen von **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Einwahl/out-3rd Party**sowie **Einwahl-und/oder Microsoft** -Konferenzen an, die in Ihrer Organisation organisiert wurden. 
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im Diagramm " **Benutzer** ", um die Verwendungstrends zu verstehen und die Anzahl der eindeutigen Benutzer anzuzeigen, die Konferenzen organisiert haben, die in Ihrer Organisation abgehalten werden. Sie zeigt die Gesamtzahl der Benutzer zusammen mit den Typen von **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, Einwahl **/out-3rd Party**sowie **Einwahl-in/out-Microsoft** von Konferenzen an, die organisiert wurden. 
+![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im Diagramm " **Benutzer** ", um die Verwendungstrends zu verstehen und die Anzahl der eindeutigen Benutzer anzuzeigen, die Konferenzen organisiert haben, die in Ihrer Organisation abgehalten werden. Sie zeigt die Gesamtzahl der Benutzer zusammen mit den Typen von **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Einwahl/out-3rd Party**sowie **Einwahl-in/out-Microsoft** von Konferenzen an, die organisiert wurden. 
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im **Minuten** Diagramm, um die Verwendungstrends zu verstehen und die Anzahl der Minuten anzuzeigen, die von Benutzern verwendet werden, wenn Sie eine Konferenz mithilfe von Audio/Video organisieren, und Einwahl-und Einwahl-Microsoft als Konferenz Anbieter. Sie zeigt die Gesamtzahl der Minuten für **Audio/Video** -und Einwahl Minuten sowie **** **Microsoft-** Minuten für die Auswahl an, die während einer Organisation verwendet werden.
+![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie das interaktive Diagramm und Echtzeitdaten im **Minuten** Diagramm, um die Verwendungstrends zu verstehen und die Anzahl der Minuten anzuzeigen, die von Benutzern verwendet werden, wenn Sie eine Konferenz mithilfe von Audio/Video organisieren, sowie Einwahl-und DFÜ-Microsoft als Konferenzanbieter. Sie zeigt die Gesamtzahl der Minuten für **Audio/Video** -und **Einwahl**Minuten sowie Microsoft-Minuten für die **Auswahl** an, die während einer Organisation verwendet werden.
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>
 Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
@@ -78,7 +73,7 @@ Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht. 
 ***
 ![Zahl 7](../images/sfbcallout7.png)<br/>
-Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im **Aktivitäts** Diagramm auf **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, Einwahl **/out-3rd Party**, und wählen Sie **Microsoft aus** , um nur die Informationen anzuzeigen, die sich auf die jeweilige Person beziehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
+Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im **Aktivitäts** Diagramm auf **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Einwahl/out-3rd Party**, und wählen Sie **Microsoft aus** , um nur die Informationen anzuzeigen, die sich auf die jeweilige Person beziehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
 ***
 ![Nummer 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der organisierten Konferenz Aktivitäten pro Benutzer. Dies zeigt alle Benutzer an, denen Skype for Business zugewiesen ist, sowie Konferenzen, die Sie organisiert haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
 * **Benutzername** ist der Name des Benutzers. 
@@ -102,7 +97,7 @@ Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.
 ***
-![Zahl 10](../images/sfbcallout10.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Zahl 10](../images/sfbcallout10.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 

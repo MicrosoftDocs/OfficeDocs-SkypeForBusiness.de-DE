@@ -18,17 +18,17 @@ f1keywords:
 - O365E_ReportsS4BActivity
 ms.custom:
 - Reporting
-description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Hier erfahren Sie, wie Sie die Skype for Business-Aktivitätsberichte abrufen, was Sie enthält und wie Sie die Daten interpretieren. '
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793244"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746308"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
-Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
+Das Dashboard für Office 365- **Berichte** zeigt die Vorgangsübersicht über die Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
 
 Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an, um weitere Informationen zu erhalten.
   
@@ -41,12 +41,8 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
-2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf **Skype for Business-Aktivität** , oder klicken Sie auf das Widget **Skype for Business-Aktivität** .
-    
-     ![Skype for Business DashBoard Widget.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > Je nach vorhandenem Office 365-Abonnement sehen Sie möglicherweise nicht alle hier genannten Produkte und Berichte. 
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > -**Aktivität** in der **Liste Bericht auswählen** auf der linken Seite aus, oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget.
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretieren des Berichts „Skype for Business-Aktivitäten"
 
@@ -93,7 +89,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 Wenn die Richtlinien Ihrer Organisation das Anzeigen von Berichten verhindern, die personenbezogene Benutzerinformationen enthalten, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt " **Benutzer Details ausblenden" im** Abschnitt "Berichte" in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Nummer 8](../images/sfbcallout8.png)<br/>
-Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>
 Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren. 

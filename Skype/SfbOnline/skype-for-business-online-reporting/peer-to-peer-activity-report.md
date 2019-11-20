@@ -20,13 +20,13 @@ f1keywords:
 - O365P_ReportsS4BPeerActivity
 ms.custom:
 - Reporting
-description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Erhalten Sie einen Skype for Business-Peer-to-Peer-Aktivitätsbericht, und erfahren Sie, wie Sie ihn für Ihre Anforderungen interpretieren und anpassen können. '
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792650"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746338"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
@@ -43,13 +43,8 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
-2. Klicken Sie auf der Seite **Nutzung** auf **Skype for Business Peer-to-Peer-Aktivität** in der **Liste Bericht auswählen** Links. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann auf **Skype for Business-Peer-to-Peer-Aktivität** in der **Skype for** Business-Aktivitätsliste.
-    
-     ![Skype-Peer-to-Peer-Menü ausgewählt](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > Je nach vorhandenem Office 365-Abonnement sehen Sie möglicherweise nicht alle Produkte und Aktivitätsberichte, die hier angezeigt werden. 
-  
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > **-Peer-to-Peer-Aktivität** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann auf **Skype for Business-Peer-to-Peer-Aktivität** in der **Skype for** Business-Aktivitätsliste.
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretieren des Berichts „Skype for Business - Peer-zu Peer-Aktivitäten"
 
 Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten Sie, wenn Sie sich die Diagramme **Aktivität**, **Benutzer** und **Minuten** ansehen.
@@ -97,7 +92,7 @@ Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.
 ***
-![Zahl 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.         
+![Zahl 10](../images/sfbcallout10.png)<br/>![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.         
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 

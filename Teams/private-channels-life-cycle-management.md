@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Lebenszyklus privater Kanäle in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077408"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714481"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus privater Kanäle in Microsoft Teams
 
 Hier finden Sie die Anleitungen, die Sie zum Verwalten des Lebenszyklus [privater Kanäle](private-channels.md) in Ihrer Organisation benötigen.
 
 > [!IMPORTANT]
-> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog installieren und verwenden. Eine schrittweise Anleitung hierzu finden Sie unter [Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) unterstützt keine Verwaltung privater Kanäle.
+> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog installieren und verwenden. Eine schrittweise Anleitung hierzu finden Sie unter [Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) unterstützt keine Verwaltung privater Kanäle.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 
@@ -292,7 +292,7 @@ Sie können diese Befehle über den [Diagramm-Explorer](https://developer.micros
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog
 
-Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) unterstützt keine Verwaltung privater Kanäle. Führen Sie die folgenden Schritte aus, um die neueste Version des Teams PowerShell-Moduls mit privater Kanal Unterstützung (derzeit 1.0.18) aus dem PowerShell-Test Katalog zu installieren.
+Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) unterstützt keine Verwaltung privater Kanäle. Führen Sie die folgenden Schritte aus, um die neueste Version des Teams PowerShell-Moduls mit privater Kanal Unterstützung (derzeit 1.0.18) aus dem PowerShell-Test Katalog zu installieren.
 
 > [!NOTE]
 > Installieren Sie das Teams PowerShell-Modul nicht aus dem PowerShell-Test Katalog parallel mit einer Version des Moduls aus dem öffentlichen PowerShell-Katalog. Führen Sie die folgenden Schritte aus, um das Team-PowerShell-Modul zunächst aus dem öffentlichen PowerShell-Katalog zu deinstallieren und dann die neueste Version des Moduls aus dem PowerShell-Test Katalog zu installieren.

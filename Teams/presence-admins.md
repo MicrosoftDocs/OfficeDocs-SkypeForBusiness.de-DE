@@ -3,7 +3,6 @@ title: Anwesenheit in Microsoft Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010598"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714491"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -29,7 +28,7 @@ ms.locfileid: "38010598"
 > [!IMPORTANT]
 > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **Nur-Teams**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Problemumgehung: Wenn Sie die Anwesenheitsinformationen in Outlook (und anderen Office-Apps) anzeigen möchten, muss Skype for Business installiert sein, auch wenn Sie Microsoft Teams im **Nur-Teams**-Modus ausführen. Das Problem ist Microsoft bekannt, und es wird gerade an einer Lösung gearbeitet.
 
-Die Anwesenheit von Teams in Outlook wird in der Outlook 2013-Desktop-App und höher unterstützt.
+Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und höher unterstützt.
 
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
@@ -56,11 +55,13 @@ Die Anwesenheitsstatus in Team sind:
 || ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Außer Haus|
 |||
  
-Benutzer haben verschiedene Möglichkeiten, ihren aktuellen Anwesenheitsstatus festzulegen, und ihr Status wird für alle anderen Benutzer sichtbar. Weitere Details zur Benutzeranwesenheit werden ebenfalls automatisch aktualisiert. Dies geschieht auf Basis von Benutzeraktivitäten (z. B. "verfügbar" oder "abwesend"), des Outlook-Kalenderstatus (z. B. "in einer Besprechung") oder des Teams-App-Status ("am Telefon", "hält Präsentation"), die in der Liste aufgeführt sind. 
+Benutzer haben verschiedene Möglichkeiten, ihren aktuellen Anwesenheitsstatus festzulegen, und ihr Status wird für alle anderen Benutzer sichtbar. Weitere Details zur Benutzeranwesenheit werden ebenfalls automatisch aktualisiert. Dies geschieht auf Basis von Benutzeraktivitäten (z. B. "verfügbar" oder "abwesend"), des Outlook-Kalenderstatus (z. B. "in einer Besprechung") oder des Teams-App-Status ("am Telefon", "hält Präsentation"), die in der Liste aufgeführt sind. Es gibt ein 15-minütiges Inaktivitäts-Timeout, nach dem ein aktueller Anwesenheitsstatus auf "Abwesend" zurückgesetzt wird.
 
-Es gibt ein 15-minütiges Inaktivitäts-Timeout, nach dem ein aktueller Anwesenheitsstatus auf "Abwesend" zurückgesetzt wird.
+Benutzer erhalten alle Chat-Nachrichten, die Ihnen in Teams gesendet werden, unabhängig von Ihrem Anwesenheitsstatus. Wenn ein Benutzer offline ist, wenn jemand ihm eine Nachricht sendet, wird die Chatnachricht in Teams angezeigt, wenn der Benutzer das nächste Mal online ist. Wenn sich ein Benutzer im Status "nicht stören" befindet, erhält der Benutzer weiterhin Chatnachrichten, aber eine Banner Benachrichtigung wird nicht angezeigt.
 
-Benutzer können festlegen, wer sie unterbrechen darf, d. h. sie trotz eines „Nicht stören“-Status kontaktieren kann. Diese Einstellungen stehen im Teams-Client zur Verfügung.
+Benutzer erhalten Anrufe in allen Anwesenheitsstatus mit Ausnahme von "nicht stören"-Zustände, in denen eingehende Anrufe an Ihre Voicemail übermittelt werden. Wenn der Empfänger den Anrufer blockiert hat, wird der Anruf nicht zugestellt, und der Anrufer sieht die Anwesenheit des Empfängers als offline.
+
+Benutzer können Ihrer Prioritäts Zugriffsliste Personen hinzufügen, indem Sie in Microsoft Teams auf **Einstellungen** > **Datenschutz** zugreifen. Personen mit Prioritätszugriff können sich an den Benutzer wenden, selbst wenn sich der Benutzer im Status "nicht stören" befindet.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 

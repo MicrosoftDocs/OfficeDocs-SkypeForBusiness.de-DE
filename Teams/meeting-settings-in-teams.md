@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564933"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746448"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -32,7 +32,8 @@ Als Administrator verwenden Sie die Einstellungen für Teams-Besprechungen, um z
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Zulassen, dass anonyme Benutzer an Besprechungen teilnehmen
 
-Mit Anonymous Join kann jeder Teilnehmer an der Besprechung als anonymer Benutzer teilnehmen, indem er auf den Link in der Besprechungseinladung klickt.
+Mit Anonymous Join kann jeder Teilnehmer an der Besprechung als anonymer Benutzer teilnehmen, indem er auf den Link in der Besprechungseinladung klickt. Weitere Informationen finden Sie unter [teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
@@ -62,7 +63,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 1. Wechseln Sie in der linken Navigationsleiste zu > **Besprechungseinstellungen** **für Besprechungen**.
 2. Gehen Sie unter **e-Mail-Einladung**wie folgt vor:
 
-    ![Screenshot der Einstellungen für Besprechungseinladungen, die Sie anpassen können](media/meeting-settings-invitation.png "Screenshot der Einstellungen für Besprechungseinladungen, die Sie für Teambesprechungen anpassen können")
+    ![Screenshot der Einstellungen für Besprechungseinladungen, die Sie anpassen können](media/meeting-settings-invitation.png "Screenshot der Einstellungen für Besprechungseinladungen, die Sie für Teams-Besprechungen anpassen können")
 
     - **Logo-URL** Geben Sie die URL ein, in der Ihr Logo gespeichert ist.
     - **Rechtliche URL** Wenn Ihre Organisation über eine rechtliche Website verfügt, zu der Sie Personen für rechtliche Belange wechseln möchten, geben Sie die URL hier ein.

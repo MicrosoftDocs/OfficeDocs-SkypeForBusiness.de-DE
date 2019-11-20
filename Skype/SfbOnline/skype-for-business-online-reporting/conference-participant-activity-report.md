@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BPartActivity
 ms.custom:
 - Reporting
-description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Hier erfahren Sie, wie Sie den Skype for Business-Konferenzteilnehmer-Aktivitätsbericht erhalten und wie Sie ihn interpretieren und anpassen. '
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793158"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746298"
 ---
 # <a name="conference-participant-activity-report"></a>Bericht „Konferenzteilnehmer-Aktivität“
 
@@ -41,12 +41,8 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten de
 
 1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
     
-2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf **Skype for Business-Konferenzteilnehmer Aktivitäten** . Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzteilnehmer Aktivitäten** .
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > -**Konferenzteilnehmer Aktivitäten** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzteilnehmer Aktivitäten** .
     
-     ![Menüelement "Skype-Konferenzteilnehmer Aktivitäten" ausgewählt](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > Je nach vorhandenem Office 365-Abonnement sehen Sie möglicherweise nicht alle Produkte und Aktivitätsberichte, die hier angezeigt werden. 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretieren des Skype for Business - Konferenzteilnehmer-Aktivitätsberichts
 
@@ -64,7 +60,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten de
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Benutzer**, um Nutzungstrends nachzuvollziehen und um die Anzahl an eindeutigen Benutzern, die an den innerhalb Ihrer Organisation abgehaltenen Konferenzen teilgenommen haben, anzuzeigen. Es zeigt Ihnen die Gesamtanzahl der Benutzer sowie die Arten von **Chat**-, **Audio/Video**-, **Anwendungsfreigabe**-, **Web**- und **Ein-/Auswahl-Drittanbieter**-Konferenzen, die organisiert wurden.  
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im **Minuten** Diagramm, um die Verwendungstrends zu verstehen und die Anzahl der Minuten anzuzeigen, die von Benutzern verwendet werden, wenn Sie eine Konferenz mithilfe von Audio/Video organisieren, und Einwahl und Dial-Out – Microsoft als Audiokonferenz Anbieter. Es zeigt Ihnen die Gesamtanzahl an **Audio/Video**-Minuten, die während der Konferenzen, an denen teilgenommen wurde, benötigt wurden.
+![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im **Minuten** Diagramm, um die Verwendungstrends zu verstehen und die Anzahl der Minuten anzuzeigen, die von Benutzern verwendet werden, wenn Sie eine Konferenz mithilfe von Audio/Video organisieren, und Einwahl und Dial-Out-Microsoft als Anbieter von Audiokonferenzen. Es zeigt Ihnen die Gesamtanzahl an **Audio/Video**-Minuten, die während der Konferenzen, an denen teilgenommen wurde, benötigt wurden.
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie im Diagramm **Aktivität** auf **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web** und **Ein-/Auswahl - Drittanbieter** klicken oder tippen, um nur jene Informationen anzuzeigen, die sich auf die jeweilige Option beziehen. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht.  
 ***
@@ -91,7 +87,7 @@ Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.
 ***
-![Zahl 10](../images/sfbcallout10.png)<br/>Klicken oder tippen Sie auf **Spalten**, um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Zahl 10](../images/sfbcallout10.png)<br/>Klicken oder tippen Sie auf **Spalten**, um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 
