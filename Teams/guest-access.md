@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290855"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746288"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -79,9 +79,6 @@ Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Stellen Sie sicher,
 
 Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie in der Tabelle [Vergleich der Funktionen von Teammitgliedern und Gästen](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Wenn Sie mehr über den Gastzugriff auf der Office 365-Ebene wissen möchten, lesen Sie [Hinzufügen von Gästen zu Office 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>Inwiefern unterscheidet sich der externe Zugriff (Partnerverbund) vom Gastzugriff?
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Weitere Informationen
 
