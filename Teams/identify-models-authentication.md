@@ -15,12 +15,12 @@ ms.collection:
 description: Hier erhalten Sie Informationen zu den verschiedenen Identitätsmodellen in Microsoft Teams, beispielsweise „Cloud-Identität“, „Synchronisierte Identität“ und „Partneridentität“. Außerdem erhalten Sie Informationen zur mehrstufigen Authentifizierung.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931623"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753352"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Identitätsmodelle und Authentifizierung in Microsoft Teams
 ==========================================
@@ -55,7 +55,7 @@ Office 365-Pläne unterstützen die mehrstufige Authentifizierung (Multi-Factor
 
 Die mehrstufige Authentifizierung wird mit einem Office 365-Plan unterstützt, der Microsoft Teams umfasst. Die Office 365-Abonnement Pläne, die Microsoft Teams enthalten, werden später im Abschnitt Lizenzierung weiter unten erläutert.
 
-Wenn sich die Benutzer für MFA registriert haben, sehen sie bei der nächsten Anmeldung eine Meldung, in der sie aufgefordert werden, ihren zweiten Authentifizierungsfaktor einzurichten. Die folgenden Authentifizierungsmethoden werden unterstützt:
+Nachdem die Benutzer für MFA registriert sind, wird beim nächsten Anmelden eines Benutzers eine Meldung angezeigt, in der Sie aufgefordert werden, den zweiten Authentifizierungs Faktor einzurichten. Unterstützte Authentifizierungsmethoden sind:
 
 
 |Mandantentyp  |Verfügbare Optionen für den zweiten MFA-Faktor  |Notizen  |

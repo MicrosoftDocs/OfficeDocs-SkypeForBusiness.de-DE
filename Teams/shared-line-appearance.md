@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Die Darstellung der freigegebenen Zeile ermöglicht es einem Benutzer, eine Stellvertretung zu wählen, um Anrufe in deren Auftrag zu beantworten oder zu behandeln.
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571758"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753422"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
@@ -36,9 +36,9 @@ Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit d
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Ein Benutzer muss ein Enterprise-VoIP-Benutzer sein, um Stellvertretung zu sein oder eine Delegierung einzurichten und anderen Personen das tätigen oder empfangen von Anrufen in deren Auftrag zu ermöglichen.
+Ein Benutzer muss über ein Telefon System mit PSTN-Konnektivität verfügen (entweder eine Anruf Plan Lizenz oder ein direktes Routing-OnlineVoiceRoutingPolicy), um eine Stellvertretung zu sein oder eine Delegierung einzurichten und anderen Personen das tätigen oder empfangen von Anrufen in Ihrem Auftrag zu ermöglichen.
 
-Für Manager und Stellvertretungen muss Enterprise-VoIP aktiviert sein. Die freigegebene Leitungserfahrung ist Teil der Delegierung und erfordert keine zusätzliche Lizenz. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
+Sowohl Manager als auch Stellvertretungen müssen über ein Telefon System mit PSTN-Konnektivität verfügen (entweder über eine Anruf Plan Lizenz oder über ein direktes Routing-OnlineVoiceRoutingPolicy). Die freigegebene Leitungserfahrung ist Teil der Delegierung und in der Telefonanlage enthalten. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierungs-und freigegebenen Leitungen
 
