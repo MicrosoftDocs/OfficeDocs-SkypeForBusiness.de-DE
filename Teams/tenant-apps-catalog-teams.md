@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570080"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793531"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Veröffentlichen von apps im Microsoft Teams-Mandanten-apps-Katalog
 =======================================================
@@ -45,13 +45,13 @@ Ein Team-App-Paket wird mithilfe von [Teams App Studio](https://docs.microsoft.c
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Wechseln zum Mandanten-apps-Katalog
 
-Starten Sie den Microsoft Teams-Client, und melden Sie sich mit Ihren Dienstadministrator Anmeldeinformationen für Global oder Teams an. Wählen Sie im Microsoft Teams-Store den neuen Abschnitt aus, der für Ihre spezifische Organisation benannt ist (in diesem Beispiel Contoso). Benutzer in Ihrer Organisation können apps im Katalog anzeigen und für Teams installieren, deren Mitglied Sie sind.
+Starten Sie den Microsoft Teams-Client, und melden Sie sich mit Ihren Dienstadministrator Anmeldeinformationen für Global oder Teams an. Wählen Sie auf der linken Seite der APP **apps** aus, und wählen Sie dann den neuen Abschnitt aus, der für Ihre spezifische Organisation benannt ist (in diesem Beispiel Contoso). Benutzer in Ihrer Organisation können apps im Katalog anzeigen und für Teams installieren, deren Mitglied Sie sind.
 
 ![Screenshot des Teams-APP-Speichers mit dem App-Katalog](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Hinzufügen einer App zum Mandanten-apps-Katalog
 
-1. Wählen Sie im Store **einen benutzerdefinierten App** > -**Upload für Contoso**Hochladen aus.
+1. Wählen Sie auf der Seite **apps** die Option **Hochladen eines benutzerdefinierten App** > -**Uploads für Contoso**aus.
 
     ![Screenshot des Teams-APP-Speichers mit dem App-Katalog](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ Die APP wird auf Version 2,0 überarbeitet. In diesem Menü können Sie auch die
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Verwenden des Office 365-Administrator Portals zum Verwalten des Mandanten-apps-Katalogs
 
-Wenn Sie apps haben, die Fehlerbehebungen benötigen, können Sie apps vorübergehend über das Office 365-Administratorportal deaktivieren. Wählen Sie **Settings** > **Services #a0 Add-ins** > **Microsoft Teams**aus. Zusätzlich zu den vorherigen Einstellungen gibt es jetzt einen Abschnitt, der den apps Ihres Unternehmens gewidmet ist. Sie können auswählen, welche apps Sie aktivieren oder deaktivieren möchten.
+Wenn Sie apps haben, die Fehlerbehebungen benötigen, können Sie apps vorübergehend über die Microsoft 365 Admin Center-#a0 **Teams Admin Center** > **Teams apps** > -**Berechtigungsrichtlinien** > <Richtliniennamen deaktivieren, beispielsweise "Global (org-Wide Standard)" #a3 **Mandanten-apps** > bestimmte apps blockieren und alle anderen Personen und Ihre APP zur Liste hinzufügen.
 
 ![Screenshot des Teams-APP-Speichers mit dem App-Katalog](media/private-app-store-teams-image05.png)
 

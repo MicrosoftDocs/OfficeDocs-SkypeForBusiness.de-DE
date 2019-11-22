@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968306"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793501"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien
 
@@ -44,6 +44,10 @@ Ja, das sind Sie. Wenn Sie eine Aufbewahrungsrichtlinie erstellen, um Daten zu l
 ### <a name="what-is-the-default-retention-policy"></a>Was ist die Standardaufbewahrungsrichtlinie? 
 
 Standardmäßig werden die Daten für Teams-Chat, Kanal und Dateien für immer aufbewahrt.
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>Welche Lizenzierung ist für Aufbewahrungsrichtlinien erforderlich?
+
+Die Mindestanforderungen für die Lizenzierung für Aufbewahrungsrichtlinien sind Office 365 E3. Weitere Informationen zur Lizenzierung finden Sie unter [Office 365-Lizenzierung für Teams](office-365-licensing.md).
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Kann ich auf Gruppen von Benutzern oder Teams in einer Richtlinie abzielen? 
 

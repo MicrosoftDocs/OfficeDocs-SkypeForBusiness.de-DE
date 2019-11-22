@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968056"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793391"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen, um einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu erlangen. Wechseln Sie dann zu [Chat, Teams, Kanäle, #a0-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , um eine Liste der Entscheidungen zu durchlaufen, die für das Rollout Ihres Teams wichtig sind.
@@ -46,6 +46,8 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     - Kanäle sind Orte, an denen Unterhaltungen stattfinden und wo die Arbeit tatsächlich durchgeführt wird. Kanäle können für alle Teammitglieder geöffnet sein, oder wenn Sie eine größere Auswahl an Zielgruppen benötigen, können Sie privat sein. Standard Kanäle sind für Konversationen, an denen sich jeder in einem Team beteiligen kann, und [private Kanäle](private-channels.md) beschränken die Kommunikation auf eine Teilmenge von Personen in einem Team.
     - Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern. Weitere Informationen finden Sie unter [apps, Bots, #a0-Connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
+    
+Informationen zur Verwendung von Teams und Kanälen finden Sie unter [Teams und Kanäle](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen.
 
