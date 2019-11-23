@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925286"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209201"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -45,7 +45,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
     
-1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **neue Rufnummern abrufen**.
+1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
     1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
@@ -75,7 +75,7 @@ Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern** ,
     
 - Nachdem Sie Ihre Telefonnummern erhalten haben, müssen Sie jedem Benutzer eine Nummer zuweisen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Sie können die Seite " **Telefonnummern** " im Microsoft Teams Admin Center verwenden, um die Liste der verfügbaren Telefonnummern in der Spalte " **Telefonnummer** " anzuzeigen, festzustellen, ob die Telefonnummer in der Spalte " **Status** " zugewiesen wurde, und den Speicherort für die Telefonnummer in der Spalte " **Standort** ". 
+- Sie können die Seite **Rufnummern** im Microsoft Teams Admin Center verwenden, um die Liste der verfügbaren Telefonnummern in der Spalte **Telefonnummer** anzuzeigen, festzustellen, ob die Telefonnummer in der Spalte **Status** zugewiesen wurde, und den Standort für die Telefonnummer in der Spalte **Standort** anzeigen. 
 
 > [!NOTE]
 > Wenn Sie weitere Telefonnummern erhalten möchten, [wenden Sie sich an den PSTN-Service-Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

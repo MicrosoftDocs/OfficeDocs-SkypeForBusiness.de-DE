@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516437"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209111"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
@@ -53,9 +53,9 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 ## <a name="develop-custom-tabs"></a>Entwickeln von benutzerdefinierten Registerkarten
 
-Zusätzlich zu den integrierten Registerkarten können Sie eigene Registerkarten entwerfen und entwickeln, um Sie in Teams zu integrieren oder für die restliche Community freizugeben. Sie können den [Zugriff auf Ihre benutzerdefinierte Registerkarte steuern,](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) indem Sie die entsprechenden Office 365-Gruppen konfigurieren.
+Zusätzlich zu den integrierten Registerkarten können Sie eigene Registerkarten entwerfen und entwickeln, um Sie in Teams zu integrieren oder für die restliche Community freizugeben. Sie können den [Zugriff auf Ihre benutzerdefinierte Registerkarte steuern,](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) indem Sie die entsprechenden Office 365-Gruppen konfigurieren.
 
-Das Microsoft-Entwicklernetzwerk enthält [Beispiel Registerkarten](https://go.microsoft.com/fwlink/?linkid=855787) , die von Microsoft entwickelt wurden, die Sie herunterladen können, sowie [detaillierte Anweisungen](https://go.microsoft.com/fwlink/?linkid=855786) zum Entwerfen und Erstellen eigener Registerkarten.
+Das Microsoft-Entwicklernetzwerk enthält [Beispiel Registerkarten](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) , die von Microsoft entwickelt wurden, die Sie herunterladen können, sowie [detaillierte Anweisungen](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) zum Entwerfen und Erstellen eigener Registerkarten.
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

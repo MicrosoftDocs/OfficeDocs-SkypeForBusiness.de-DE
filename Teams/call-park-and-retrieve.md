@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Verwenden Sie parken und abrufen, um einen Anruf im Teams-Dienst in der Cloud zu halten.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517029"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209181"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -74,10 +74,10 @@ Führen Sie die folgenden Schritte aus, um eine Anruf Park Richtlinie zu aktivie
 Führen Sie die folgenden Schritte aus, um einem oder mehreren Benutzern eine Anruf Park Richtlinie zuzuweisen:
 
 1. Wechseln Sie zu den Richtlinien für**VoIP** > -**Anruf Park des** **Microsoft Teams Admin Center** > .
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten**aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
+3. Wählen Sie **Benutzer verwalten**.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
+5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Konfigurieren des Anruf Parks und Abrufen mit PowerShell
 
@@ -99,7 +99,7 @@ Wenn Benutzer die Schaltfläche "Parken" oder "abrufen" nicht sehen können:
 Wenn ein Benutzer versucht, einen Anruf abzurufen und nicht erfolgreich ist, überprüfen Sie Folgendes:
 
 - Überprüfen, ob der Benutzer den Teams-Client oder ein Team fähiges Gerät/Telefon verwendet
-- Gruppieren – ist der Benutzer ein Mitglied der Anruf Park Gruppe?
+- Gruppieren – ist der Benutzer ein Mitglied der Gruppe "Anruf parken", die darauf basiert, dass dieselbe Teams-Anruf Park Richtlinie zugewiesen ist. 
 - Island-Modus – Parken und Abrufen von anrufen ist im Modus "Teams Island" nicht verfügbar.
 - Der Anruf wurde bereits abgerufen oder beendet.
 
