@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie Geräte verwalten, die mit Teams in Ihre
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972456"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211953"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "37972456"
 Als Administrator verwalten Sie alle Geräte, die mit Teams in Ihrer Organisation verwendet werden, vom Microsoft Teams Admin Center. Sie können die Geräte Inventur für Ihre Organisation anzeigen und verwalten sowie Aufgaben wie aktualisieren, Neustarten und Überwachen der Diagnose für Geräte ausführen. Sie können auch einem Gerät oder einer Gruppe von Geräten Konfigurationsprofile erstellen und zuweisen. 
 
 ## <a name="what-devices-can-you-manage"></a>Welche Geräte können verwaltet werden?
-Geräte müssen für Teams zertifiziert und in Teams registriert sein. Ein Gerät wird automatisch registriert, wenn sich ein Benutzer zum ersten Mal bei Teams auf dem Gerät anmeldet. Eine Liste der zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenztelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) und [Tischtelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
+Geräte müssen für Teams zertifiziert und in Teams registriert sein. Ein Gerät wird automatisch registriert, wenn sich ein Benutzer zum ersten Mal bei Teams auf dem Gerät anmeldet. Eine Liste der zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenztelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16) und [Tischtelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34).
 
 > [!NOTE]
 > Wenn Sie über Microsoft InTune verfügen, werden Geräte automatisch in InTune registriert. Nachdem ein Gerät registriert wurde, wird die Gerätekompatibilität bestätigt, und auf das Gerät werden Richtlinien für den bedingten Zugriff angewendet. 
