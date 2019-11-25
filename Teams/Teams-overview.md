@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290845"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209061"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).

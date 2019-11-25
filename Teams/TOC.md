@@ -33,6 +33,7 @@
 ## [Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Ablauf und Verlängerung von Microsoft Teams](team-expiration-renewal.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
+## [Migrieren von Slack auf Teams](migrate-slack-to-teams.md)
 
 
 
@@ -820,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [Schulung](training-microsoft-teams-landing-page.md)
 ## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.md)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
@@ -835,6 +836,7 @@
 ## Vorbereiten der Bereitstellung von Teams
 ### [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
+### [Verwenden des Ratgebers für Teams zum Bereitstellen von Teams](use-advisor-teams-roll-out.md)
 ### [Verwenden des Netzwerkplaners für Teams](network-planner.md)
 ### [Netzwerkplanner – Exemplarische Vorgehensweise](tutorial-network-planner-example.yml)
 ### [Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
