@@ -19,12 +19,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 024ee4b0a75f2563eb281518ac098d12aaea3337
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37616072"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753362"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -110,6 +110,11 @@ Der ausgewählte Koexistenzmodus bestimmt, wie eingehende Anrufe und Chats weite
 #### <a name="app-preferences"></a>„App preferences“ (App-Einstellungen)
 
 Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/de-DE/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
+
+
+#### <a name="network-planner"></a>Netzwerkplaner
+
+Der Netzwerkplaner kann Sie beim Ermitteln und Organisieren von Netzwerkanforderungen für die Verbindung von Teams-Benutzern in Ihrer Organisation unterstützen.  Hier erfahren Sie mehr über die [Verwenden des Netzwerkplaners für Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
 Sie können auch die Option „Teams-App im Hintergrund für Benutzer von Skype for Business herunterladen“ auswählen.  Standardmäßig ist diese Einstellung aktiviert. Ist diese Einstellung aktiviert, so wird für diejenigen Benutzer, die auf Windows-PCs die Skype for Business-App nutzen, im Hintergrund die Teams-App heruntergeladen. Dies erfolgt, wenn der Koexistenzmodus für den Benutzer auf „Nur Teams“ gesetzt ist oder eine ausstehende Aktualisierungsbenachrichtigung in der Skype for Business-App aktiviert ist.
 
