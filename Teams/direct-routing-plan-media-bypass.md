@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572157"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257484"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -145,15 +145,15 @@ Der IP-Bereich ist 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254).
 
 - Transport-Relays sind nicht B2BUA, was bedeutet, dass der Codec nie zwischen dem Client und dem SBC geändert wird – auch wenn der Datenverkehr über Relays abläuft.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Verwendung von Teams Transport-Relays in Eskalationsszenarien, wenn trunk für die medienumgehung konfiguriert ist
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Verwendung von Teams-Medien Prozessoren, wenn trunk für die medienumgehung konfiguriert ist
 
-Teams-Transport-Relays befinden sich immer im Medienpfad in den folgenden Szenarien:
+Teams-Medien Prozessoren werden in den folgenden Szenarien immer in den Medienpfad eingefügt:
 
 - Anruf wird von 1:1 zu einem Gruppenanruf eskaliert
 - Der Anruf wird an einen Benutzer von Federated Teams weiterleiten.
 - Der Anruf wird an einen Skype for Business-Nutzer weitergeleitet oder übertragen
 
-Stellen Sie sicher, dass Ihr SBC wie unten beschrieben auf die Transport-Relays zugreifen kann.    
+Stellen Sie sicher, dass Ihr SBC Zugriff auf die Medien Prozessoren und Transport-Relays-Bereiche hat, wie nachstehend beschrieben.    
 
 
 ## <a name="sip-signaling-fqdns"></a>SIP-Signalisierung: FQDNs
@@ -243,7 +243,7 @@ Der Mediendatenverkehr fließt zwischen dem SBC-und dem Teams-Client, wenn direk
 
 Der Client muss Zugriff auf die angegebenen Ports (siehe Tabelle) für die öffentliche IP-Adresse des SBC haben. 
 
-Hinweis: Wenn sich der Client in einem internen Netzwerk befindet, fließt das Medium an die öffentliche IP-Adresse des SBC. Sie können hairpinning auf Ihrem NAT-Gerät so konfigurieren, dass der Datenverkehr nie das Netzwerkequipment des Unternehmens verlässt.
+Hinweis: Wenn sich der Client in einem internen Netzwerk befindet, fließt das Medium an die öffentliche IP-Adresse des SBC. Sie können das Anheften von Haaren auf Ihrem NAT-Gerät so konfigurieren, dass der Datenverkehr nie das Netzwerkequipment des Unternehmens verlässt.
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|

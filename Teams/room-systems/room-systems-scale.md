@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Microsoft Teams-Räumen in umfangreichen Bereitstellungen zu erhalten.
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573627"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218032"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 
@@ -489,7 +506,7 @@ Microsoft Teams Rooms wird sowohl für Surface pro als auch Surface pro 4 unters
 
 3.  Wechseln Sie in der Configuration Manager-Konsole zu den **Treibern**der **Software Bibliothek** \> - **Betriebssysteme** \> , und wählen Sie dann **Treiber importieren**aus.
 
-4.  Wählen Sie **alle Treiber importieren im folgenden Netzwerkpfad (UNC)** aus, wählen Sie den Quellordner aus (beispielsweise\\C\\:\\_Sources Driver Surface pro), und wählen Sie dann **weiter**aus.
+4.  Wählen Sie **alle Treiber importieren im folgenden Netzwerkpfad (UNC)** aus, wählen Sie den Quellordner aus (beispielsweise\\C\\:\\_Sources Treiber Surface pro), und wählen Sie dann **weiter**aus.
 
 5.  Wählen Sie auf der Seite **Geben Sie die Details für die importierten Treiber** an alle aufgeführten Treiber aus, und wählen Sie dann **Diese Treiber aktivieren aus, und ermöglichen Sie es Computern, Sie zu installieren**.
 
@@ -633,7 +650,7 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
        -   Bearbeiten Sie diesen Schritt, und aktualisieren Sie die Befehlszeilenparameter, um die **Arbeitsbereichs-ID** und den **Arbeitsbereichs Schlüssel**anzugeben.
        -   Weitere Informationen zum Abrufen der Arbeitsbereichs-ID der Operations Management Suite und des Primärschlüssels finden Sie unter [Konfigurieren von Testgeräten für die Azure-Überwachung](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
        -   Vergewissern Sie sich, dass das **SRS v2 – Microsoft Monitoring Agent-Paket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.
-       -   Weitere Informationen zum Überwachen der Integrität Ihrer Microsoft Teams rooms-Bereitstellung finden Sie unter [Planen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-plan.md), [Bereitstellen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-deploy.md) und [Verwalten von Microsoft Teams Räume Geräte mit Azure Monitor](azure-monitor-manage.md).
+       -   Weitere Informationen zum Überwachen der Integrität Ihrer Microsoft Teams rooms-Bereitstellung finden Sie unter [Planen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-plan.md), [Bereitstellen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-deploy.md) und [Verwalten von Microsoft Teams rooms-Geräten mit Azure Monitor](azure-monitor-manage.md).
 
    11. **Kopieren von SRS v2-Konfigurationsdateien**: dieser Schritt kopiert die erforderlichen Setup-und Konfigurationsdateien aus dem Microsoft Teams rooms Deployment Kit auf die lokale Festplatte. Für diesen Schritt sind keine Anpassungen erforderlich.
        -   Vergewissern Sie sich, dass das **SRS v2-SRS-Anwendungspaket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.

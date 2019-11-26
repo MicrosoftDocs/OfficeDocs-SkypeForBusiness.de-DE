@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572146"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257474"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -264,7 +264,7 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Medien Verkehr: Port Bereiche
-Beachten Sie, dass die folgenden Anforderungen gelten, wenn Sie Direktes Routing ohne medienumgehung bereitstellen möchten. Informationen zu den Firewall-Anforderungen für die medienumgehung finden Sie unter [Planen der medienumgehung mit direktem Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+Beachten Sie, dass die folgenden Anforderungen gelten, wenn Sie Direktes Routing ohne medienumgehung bereitstellen möchten. Informationen zu den Firewall-Anforderungen für die medienumgehung finden Sie unter [Planen der medienumgehung mit direktem Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
 
 
 
@@ -287,9 +287,8 @@ Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt:
 
 |**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Medienprozessor|Sbchttps|49 152 – 53 247|Im SBC definiert|
-|UDP/SRTP|Sbchttps|Medienprozessor|Im SBC definiert|49 152 – 53 247|
-|
+|UDP/SRTP|Medienprozessor|Sbchttps|49152 – 53247|Im SBC definiert|
+|UDP/SRTP|Sbchttps|Medienprozessor|Im SBC definiert|49152 – 53247|
 
   > [!NOTE]
   > Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigen Anruf im SBC.
