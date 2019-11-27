@@ -115,6 +115,7 @@
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Teams-Besprechungen in nicht unterstützten Browsern](unsupported-browsers.md)
 ## [Konfigurieren der Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ## [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 ### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
 ### Standortbasiertes Routing
-#### [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)
 #### [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 #### [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
 #### [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [Was sind Wählpläne?](what-are-dial-plans.md)
 ### [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 ### [Hinzufügen und Aktualisieren von Labels zur Berichterstellung](learn-more-about-site-upload.md)
+
+## Netzwerkeinstellungen und -topologie
+### [Netzwerkeinstellungen für Cloud Voice-Features](cloud-voice-network-settings.md)
+### [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features](manage-your-network-topology.md)
+
 ## Notrufe
-### [Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md)
+### [Übersicht](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md)
 ### Verwalten von Notruf-Adressen
-#### [Was sind Notfallstandorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 #### [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
 #### [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer](assign-change-emergency-location-user.md)
