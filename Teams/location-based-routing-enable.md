@@ -3,7 +3,6 @@ title: Aktivieren des standortbasierten Routings für direktes Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572022"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615795"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
@@ -31,7 +30,7 @@ Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, stellen Sie s
 In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direkte Routing aktiviert wird. Nachdem Sie das direkte Routing für das Telefon System bereitgestellt und netzwerkregionen,-Standorte und-Subnetze eingerichtet haben, können Sie das standortbasierte Routing aktivieren. Um die Schritte in diesem Artikel ausführen zu können, müssen Sie sich mit PowerShell-Cmdlets vertraut machen. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
 
  Sie müssen standortbasiertes Routing für Folgendes aktivieren:
-- Nutzer
+- Benutzer
 - Netzwerk Websites
 - Gateway-Konfigurationen
 - Anruf Richtlinien
@@ -47,7 +46,7 @@ In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direk
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Verwenden Sie das Cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) , um eine VoIP-Routing Richtlinie zu erstellen, um den Benutzer mit den entsprechenden PSTN-Verwendungen zu verknüpfen.
+2. Verwenden Sie das Cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) , um eine VoIP-Routing Richtlinie zu erstellen, um den Benutzer mit den entsprechenden PSTN-Verwendungen zu verknüpfen.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -161,7 +160,6 @@ In diesem Beispiel verhindern wir die PSTN-Maut Umgehung für von Benutzer1-Anru
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>Verwandte Themen
-- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
-- [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
-- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)
+## <a name="related-topics"></a>Verwandte Themen
+
+- [Netzwerkeinstellungen für Cloud-Sprachfeatures in Teams](cloud-voice-network-settings.md)

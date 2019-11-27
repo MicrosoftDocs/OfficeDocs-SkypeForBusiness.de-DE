@@ -17,14 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734a7ef020c36a38b43aad3d996b2eb6648a5442
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1631ac21a71e19088a05aedb629b9245a06a08f9
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563828"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615685"
 ---
-# <a name="enable-teams-in-your-organization"></a>Aktivieren von Teams in Ihrer Organisation
+# <a name="turn-on-teams-in-your-organization"></a>Aktivieren von Teams in Ihrer Organisation
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

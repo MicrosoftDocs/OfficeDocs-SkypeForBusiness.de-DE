@@ -3,7 +3,6 @@ title: Planen des standortbasierten Routings für direktes Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570688"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615815"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -49,7 +48,7 @@ Wenn ein Team Benutzer für standortbasiertes Routing aktiviert ist, gilt Folgen
 
 Standortbasiertes Routing verwendet die gleichen netzwerkregion-, Website-und Subnetz-Definitionen, die Skype for Business Server verwendet. Wenn die Gebühren Umgehung für einen Standort eingeschränkt ist, ordnet ein Administrator jedes IP-Subnetz und jedes PSTN-Gateway für diesen Standort einer Netzwerk Website zu. Der Standort eines Benutzers wird durch das IP-Subnetz bestimmt, mit dem die Endpunkte des Benutzers verbunden sind, zum Zeitpunkt eines PSTN-Anrufs. Ein Benutzer kann mehrere Teams-Clients an verschiedenen Standorten haben, wobei standortbasiertes Routing die einzelnen Client-Routings je nach Standort des Endpunkts separat erzwingt. 
 
-Wenn Sie sich mit einigen der in diesem Artikel verwendeten Netzwerkterminologie vertraut machen möchten, lesen Sie [standortbasierte Routing Terminologie](location-based-routing-terminology.md).
+Wenn Sie sich mit einigen der in diesem Artikel verwendeten Netzwerkterminologie vertraut machen möchten, lesen Sie [Netzwerkeinstellungen für Cloud-Sprachfeatures in Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Anwenden von Standort basiertem Routing
 
@@ -72,7 +71,7 @@ Netzwerk Websites müssen für standortbasiertes Routing aktiviert sein, damit S
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Anwenden von Standort basiertem Routing auf dem PSTN-Gateway 
 
-Gateways werden Websites zugeordnet, um festzustellen, wo ein Benutzer, der für standortbasiertes Routing aktiviert ist, beim vornehmen oder empfangen eines PSTN-Anrufs gefunden werden kann. Gateways müssen für standortbasiertes Routing aktiviert sein, um sicherzustellen, dass die gebührenpflichtigen Umgehungs Einschränkungen gelten und nicht von Benutzern verwendet werden können, die für standortbasiertes Routing nicht aktiviert sind. Das gleiche Gateway ist möglicherweise mehreren Websites zugeordnet und kann je nach Standort so konfiguriert werden, dass es für standortbasiertes Routing aktiviert oder nicht für standortbasiertes Routing aktiviert ist. 
+Gateways werden Websites zugeordnet, um festzustellen, wo ein Benutzer, der für standortbasiertes Routing aktiviert ist, beim vornehmen oder empfangen eines PSTN-Anrufs gefunden werden kann. Gateways müssen für standortbasiertes Routing aktiviert sein, um sicherzustellen, dass die gebührenpflichtigen Umgehungs Einschränkungen gelten und nicht von Benutzern verwendet werden können, die für standortbasiertes Routing nicht aktiviert sind. Das gleiche Gateway ist möglicherweise mehreren Websites zugeordnet und kann je nach Standort so konfiguriert werden, dass es für standortbasiertes Routing aktiviert oder nicht für standortbasiertes Routing aktiviert ist.
 
 ## <a name="scenarios-for-location-based-routing"></a>Szenarien für das standortbasierte Routing
 
@@ -250,8 +249,10 @@ Standortbasiertes Routing gilt nicht für die folgenden Arten von Interaktionen.
 Ein standortbasierter Routing aktivierter Benutzer für einen PSTN-Anruf ist nicht berechtigt, eine Konferenz mit einem anderen Benutzer oder einer anderen PSTN-Nummer zu starten. Das Herstellen einer Verbindung mit automatischen Telefonzentralen oder Anrufwarteschlangen ist zulässig. Wenn der Benutzer eine Konferenz Lizenz hat, muss der Benutzer eine Konferenz mit den entsprechenden Benutzern starten und das PSTN über die Konferenzbrücke anrufen, um einen Konferenzanruf zu starten.  
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Wechseln Sie zu [Konfigurieren von Netzwerkeinstellungen für standortbasiertes Routing](location-based-routing-configure-network-settings.md).
 
-### <a name="related-topics"></a>Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
+
 - [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
-- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)
+- [Netzwerkeinstellungen für Cloud-Sprachfeatures in Teams](cloud-voice-network-settings.md)

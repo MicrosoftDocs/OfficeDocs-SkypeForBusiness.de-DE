@@ -3,7 +3,6 @@ title: Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570699"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615845"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Wenn Sie dies noch nicht getan haben, lesen Sie [Planen des ortsbasierten Routings für das direkte Routing](location-based-routing-plan.md) , um weitere Schritte zu überprüfen, die Sie ausführen müssen, bevor Sie die Netzwerkeinstellungen für standortbasiertes Routing konfigurieren.
 
-In diesem Artikel wird beschrieben, wie Sie Netzwerkeinstellungen für standortbasiertes Routing konfigurieren. Nachdem Sie die direkte Weiterleitung des Telefonsystems in Ihrer Organisation bereitgestellt haben, besteht der nächste Schritt darin, netzwerkregionen, Netzwerk Websites und Netzwerk-Subnets zu erstellen und einzurichten. Um die Schritte in diesem Artikel ausführen zu können, müssen Sie sich mit PowerShell-Cmdlets vertraut machen. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
+In diesem Artikel wird beschrieben, wie Sie Netzwerkeinstellungen für standortbasiertes Routing konfigurieren. Nachdem Sie die direkte Weiterleitung des Telefonsystems in Ihrer Organisation bereitgestellt haben, besteht der nächste Schritt darin, netzwerkregionen, Netzwerk Websites und Netzwerk-Subnets zu erstellen und einzurichten.
 
 ## <a name="define-network-regions"></a>Definieren von netzwerkregionen
- Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Verwenden Sie das Cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) , um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter "Regions-ID" ein logischer Name ist, der die Geographie des Bereichs darstellt &lt;und keine&gt; Abhängigkeiten oder Einschränkungen aufweist, und der CentralSite-Parameter der Website-ID optional ist. 
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
-
-In diesem Beispiel erstellen wir eine netzwerkregion mit dem Namen Indien. 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+Eine netzwerkregion enthält eine Sammlung von Netzwerk Websites und verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Eine schrittweise Anleitung zum Konfigurieren von netzwerkregionen finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
 
 ## <a name="define-network-sites"></a>Definieren von Netzwerk Websites
 
-Verwenden Sie das Cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) , um Netzwerk Websites zu definieren. 
+Eine Netzwerk Website steht für einen Standort, an dem Ihre Organisation über einen physikalischen Ort verfügt, beispielsweise ein Büro, einen Satz von Gebäuden oder einen Campus. Sie müssen jede Netzwerk Website in Ihrer Topologie einem Netzwerkbereich zuordnen. Eine schrittweise Anleitung zum Konfigurieren von Netzwerk Websites finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-In diesem Beispiel erstellen wir zwei neue Netzwerkstandorte, Delhi und Hyderabad, in der Region Indien. 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-In der folgenden Tabelle sind die Netzwerk Websites aufgeführt, die in diesem Beispiel definiert sind. 
-
-||Website 1 |Website 2 |
-|---------|---------|---------|
-|Website-ID    |    Website 1 (Delhi)     |  Website 2 (Hyderabad)       |
-|Regions-ID  |     Region 1 (Indien)    |   Region 1 (Indien)      |
+Eine bewährte Methode für standortbasiertes Routing ist das Erstellen einer separaten Website für jeden Standort, der über eine eindeutige PSTN-Konnektivität verfügt. Sie können eine Website erstellen, die für standortbasiertes Routing oder eine Website aktiviert ist, die für standortbasiertes Routing nicht aktiviert ist. So können Sie beispielsweise eine Website erstellen, die für standortbasiertes Routing nicht aktiviert ist, damit Benutzer, die für standortbasiertes Routing aktiviert sind, PSTN-Anrufe tätigen können, wenn Sie zu dieser Website wechseln.
 
 ## <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Verwenden Sie das Cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) , um Netzwerk-Subnetze zu definieren und Sie den Netzwerkstandorten zuzuordnen. Jedes interne Subnetz kann nur einer Website zugeordnet werden. 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-In diesem Beispiel erstellen wir eine Zuordnung zwischen Subnetz-192.168.0.0 und der Delhi-Netzwerk Website und zwischen Subnetz 2001:4898: E8:25:844E: 926f: 85ad: dd8e und der Hyderabad-Netzwerk Website.
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-In der folgenden Tabelle sind die in diesem Beispiel definierten Subnets aufgeführt. 
+Jedes Subnetz muss einer bestimmten Netzwerk Website zugeordnet sein. Sie können mehrere Subnetze mit derselben Netzwerk Website verknüpfen, aber Sie können nicht mehrere Websites mit demselben Subnetz verknüpfen. Eine schrittweise Anleitung zum Konfigurieren von Netzwerksubnets finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
 
-||Website 1 |Website 2 |
-|---------|---------|---------|
-|Subnet-ID   |    192.168.0.0     |  2001:4898: E8:25:844E: 926f: 85ad: dd8e     |
-|Format  |     24    |   120      |
-|Website-ID  | Website (Delhi) | Website 2 (Hyderabad) |
+Für standortbasiertes Routing müssen IP-Subnetze an der Stelle, an der Teams-Endpunkte eine Verbindung mit dem Netzwerk herstellen können, definiert und einem definierten Netzwerk zugeordnet werden, um eine Maut Umgehung durchzusetzen. Diese Zuordnung von Subnetzen ermöglicht standortbasiertes Routing, die Endpunkte geografisch zu finden, um festzustellen, ob ein bestimmter PSTN-Anruf zulässig ist. Sowohl IPv6-als auch IPv4-Subnetze werden unterstützt. Wenn Sie feststellen, ob sich ein Teams-Endpunkt an einer Website befindet, überprüft standortbasiertes Routing zunächst auf eine übereinstimmende IPv6-Adresse. Wenn keine IPv6-Adresse vorhanden ist, überprüft standortbasiertes Routing auf eine IPv4-Adresse.
 
-Bei mehreren Subnetzen können Sie eine CSV-Datei mit einem Skript wie dem folgenden importieren.
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-In diesem Beispiel sieht die CSV-Datei etwa wie folgt aus:
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a>Definieren externer Subnetze
-Verwenden Sie das Cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) , um externe Subnetze zu definieren und dem Mandanten zuzuweisen. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-Beispiel:
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+## <a name="define-trusted-ip-addresses-external-subnets"></a>Definieren von vertrauenswürdigen IP-Adressen (externe Subnetze)
+
+Vertrauenswürdige IP-Adressen sind die Internet externen IP-Adressen des Unternehmensnetzwerks und werden verwendet, um zu ermitteln, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Eine schrittweise Anleitung zum Konfigurieren von vertrauenswürdigen IP-Adressen finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+
+Wenn die externe IP-Adresse des Benutzers mit einer IP-Adresse übereinstimmt, die sich in der Liste der vertrauenswürdigen IP-Adressen befindet, überprüft standortbasiertes Routing, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse übereinstimmt, die in der Liste vertrauenswürdiger IP-Adressen definiert ist, wird der Endpunkt als an einem unbekannten Speicherort klassifiziert, und alle PSTN-Anrufe an oder von einem Benutzer, der für standortbasiertes Routing aktiviert ist, werden blockiert.
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Wechseln Sie zum [Aktivieren des ortsbasierten Routings für das direkte Routing](location-based-routing-enable.md).
 
-### <a name="related-topics"></a>Verwandte Themen
-- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
-- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)
+## <a name="related-topics"></a>Verwandte Themen
+
+- [Netzwerkeinstellungen für Cloud-Sprachfeatures in Teams](cloud-voice-network-settings.md)
