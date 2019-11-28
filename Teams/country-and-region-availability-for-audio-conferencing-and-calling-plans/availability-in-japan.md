@@ -24,25 +24,22 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams für Japan verfügbar.
-ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
+ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571692"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631975"
 ---
 # <a name="availability-in-japan"></a>Verfügbarkeit in Japan
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams für Japan verfügbar.
-
-> [!IMPORTANT]
-> Die Verwendung von Softbank für Anrufe in Japan steht derzeit nur für Early Adopters (EA) zur Verfügung.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Tokio</ul> Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
@@ -50,7 +47,7 @@ Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams fü
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -61,7 +58,7 @@ Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams fü
 > [!IMPORTANT]
 > Nur verfügbar über SoftBank für in Japanisch ansässige Mandanten. Weitere Informationen finden Sie unter [Softbank-Aufruf für Office 365](https://aka.ms/SoftBankVoicePlan)).
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Softbank-Anrufe nach Office 365](https://aka.ms/SoftBankVoicePlan).  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Weitere Informationen finden Sie unter [Softbank-Aufruf für Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
@@ -74,7 +71,7 @@ Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams fü
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Tokio  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja <br/> |
@@ -84,7 +81,7 @@ Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams fü
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    
