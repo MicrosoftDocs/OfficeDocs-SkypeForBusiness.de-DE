@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570724"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621273"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Kursleitergeführte Schulung für Microsoft Teams</h1>
-Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Wenn Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, finden Sie bestimmt den richtigen Kurs. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere <a href="https://aka.ms/TeamsOnDemand">On-Demand-Schulung für Endbenutzer</a>.<br><br>Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
+Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten.Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Sie wissen nicht, wo Sie anfangen sollen? Nutzen Sie unseren <a href="https://aka.ms/TeamsKnowledgeCheck">Teams-Wissenscheck</a>. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere <a href="https://aka.ms/TeamsOnDemand">On-Demand-Schulung für Endbenutzer</a>.<br><br>Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
