@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675773"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665438"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft Teams rooms-Konsole
 
@@ -45,6 +45,9 @@ Zum Installieren der Microsoft Teams rooms Console-APP ist ein USB-Speichergerä
 
 > [!NOTE]
 > Nachfolgend wird beschrieben, wie Sie Installationsmedien für die Erstellung von neuen Microsoft Teams rooms-Geräten erstellen. Vorhandene Geräte werden standardmäßig automatisch von Windows Update und dem Windows Store aktualisiert.
+
+> [!IMPORTANT]
+> Der Windows 10-Computer, der zum Erstellen der Microsoft Teams rooms-Installationsmedien verwendet wird, muss sich in derselben oder einer höheren Version von Windows befinden wie das Ziel Installationsmedium.
   
 1. Laden Sie das [CreateSrsMedia. ps1-Skript](https://go.microsoft.com/fwlink/?linkid=867842)herunter.
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.

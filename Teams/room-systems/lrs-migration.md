@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: In diesem Thema erfahren Sie, wie Sie lync Room-System Geräte zur Verwendung der Microsoft Teams Rooms-Software migrieren.
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675359"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669273"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrieren von lync-Geräten (lync Room System) zu Microsoft Teams-Räumen
 
@@ -25,7 +25,7 @@ Lync-Geräte (LRS) mit der Software für das Skype Room System Version 1 (SRS v1
 
 Microsoft Teams Rooms-Software arbeitet mit Microsoft Teams zusätzlich zu Skype for Business Server und Online Diensten für Besprechungen und Anrufe auf allen Microsoft Teams rooms unterstützte Geräte.
 
-Ihre vorhandenen Geräte funktionieren **möglicherweise** nach dem Ende des Skype Room System V1-Software Supports weiterhin. Wenn diese Software jedoch einen Softwarefehler trifft, der von Microsoft benötigt wird, um einen Fix freizugeben, wird er nicht unterstützt. SRS v1 verwendet TLS 1.0/1,1, das in Zukunft von Microsoft als veraltet markiert wird. Weitere Informationen finden Sie unter [vorbereiten auf TLS 1.0/1.1-deprecated](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Microsoft Teams rooms unterstützt die Verwendung von TLS 1,2 und funktioniert weiterhin am 31. Oktober 2018. Skype for Business-lokale Kunden sollten TLS 1.0/1.1 nicht deaktivieren, bis Microsoft Teams rooms Unterstützung für TLS 1,2 ankündigt, unabhängig von den allgemeinen Richtlinien für die Verwendung von TLS 1.0/1.1-deprecated.
+Ihre vorhandenen Geräte funktionieren **möglicherweise** nach dem Ende des Skype Room System V1-Software Supports weiterhin. Wenn diese Software jedoch einen Softwarefehler trifft, der von Microsoft benötigt wird, um einen Fix freizugeben, wird er nicht unterstützt. SRS v1 verwendet TLS 1.0/1,1, das in Zukunft von Microsoft als veraltet markiert wird. Weitere Informationen finden Sie unter [vorbereiten auf TLS 1.0/1.1-deprecated](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## <a name="which-devices-are-affected"></a>Welche Geräte sind betroffen?
 
@@ -57,8 +57,6 @@ Für Smart LRS-Kunden arbeitet Smart mit Ausnahme des Crestron-Hardware-Trade-in
 
 Wir empfehlen, dass Sie die lync Room-System Geräte vor der TLS 1.0/1.1-Missbilligung mithilfe der oben genannten Upgrade-Optionen in Microsoft Teams rooms aktualisieren. Darüber hinaus empfiehlt es sich, vorhandene Geräte durch neue Geräte zu ersetzen, die für Microsoft Teams-Räume zertifiziert sind. Weitere Informationen finden Sie unter [Room Devices](https://aka.ms/roomdevices) , und schauen Sie sich auch die [Anforderungen von Microsoft Teams rooms](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)an.  
 
-> [!NOTE]
-> Touch-und Whiteboard-Funktionen werden in Microsoft Teams-Räumen noch nicht unterstützt. Die Unterstützung für Touch-und Whiteboards ist derzeit für Microsoft Teams-Räume vorgesehen und wird in 2019 hinzugefügt.
 
 > [!NOTE]
 > Microsoft Teams Rooms-Software unterstützt das TLS 1,2-Protokoll ab dem 14. Dezember 2018 mit App-Version 4.0.64.0. Für lokale Kunden erfordert die Aktivierung der Kommunikation über TLS 1,2 für Microsoft Teams-Räume Skype for Business Server 2015 Kumulatives Update 9 (CU9) oder Skype for Business Server 2019 Kumulatives Update 1 (CU1). Die Änderung sollte keine Auswirkungen auf Skype for Business Online-Kunden haben, da Kunden Änderungen Forward-und abwärtskompatibel sind.
