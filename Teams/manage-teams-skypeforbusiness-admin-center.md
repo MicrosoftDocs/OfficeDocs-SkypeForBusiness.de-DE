@@ -3,7 +3,6 @@ title: Verwalten von Microsoft Teams während der Umstellung auf das neue Admin 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -15,17 +14,16 @@ ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5369206deda7a9d4c9e17a87406f208383927f05
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232955"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679245"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -58,7 +56,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Teams und Kanäle     |         |Weiterleitung an die AAD-Gruppenverwaltung (identisch mit der aktuellen Benutzeroberfläche).             |Benutzer          |
 |Apps|Neue externe Apps standardmäßig aktivieren|Organisationsweite App-Einstellungen|Mandant|
 |Apps|Externe Apps zulassen|Organisationsweite App-Einstellungen|Mandant|
-|Apps|Querladen von externen Apps zulassen<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
+|Apps|Querladen von externen Apps zulassen<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
 |Apps|Standard-Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Apps|Externe Apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Anrufe und Besprechungen     |Zeitplanung für private Besprechungen zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
@@ -67,7 +65,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Anrufe und Besprechungen     |Videos in Besprechungen zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |Bildschirmübertragung in Besprechungen zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |Private Anrufe zulassen         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Benutzer          |
-|Messaging     |Giphy aktivieren, damit Benutzer Unterhaltungen GIFs hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Aktivieren von Giphy, damit Benutzer GIFs zu Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Inhaltsklassifikation         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Memes aktivieren, die Benutzer bearbeiten und Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Sticker aktivieren, die Benutzer bearbeiten und Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
@@ -80,7 +78,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <br><br>
 <sup>2</sup> Querladen wird wie folgt aufgeteilt:
 
-- Zulassen, dass ein Benutzer Apps querlädt, die auf Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps) verwaltet werden können.
+- Zulassen, dass ein Benutzer Apps querlädt, die auf Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps) verwaltet werden können.
 - Zulassen, dass Benutzer in einem Mandanten mit benutzerdefinierten Apps interagieren, die auf Mandantenebene in organisationsweiten App-Einstellungen verwaltet werden können.
  
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden. 
@@ -114,32 +112,3 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der Migration
 
 Nach Abschluss der Migration dieser Einstellungen werden sie im Office 365 Admin Center und im Skype for Business Admin Center deaktiviert und können dann im neuen Microsoft Teams Admin Center verwaltet werden.
-
-
-## <a name="edu-migration-june-july-2019"></a>EDU-Migration Juni-Juli 2019
-
-Im Juni und Juli 2019 werden die übrigen EDU-Mandanten aus der alten Verwaltungsoberfläche (im Microsoft 365 Admin Center) zum Microsoft Team Admin Center migriert. Im Nachrichtencenter (im Microsoft 365 Admin Center) erfahren Sie, wann Sie migriert werden. Nach der Migration werden folgende Informationen angezeigt:
-
-|Abschnitt von Microsoft Teams im Microsoft 365 Admin Center  |Einstellungsname (Mandantenebene)  |Microsoft Teams Admin Center-Richtlinie   |Ebene: Mandant oder Benutzer   |
-|---------|---------|---------|---------|  
-| Messaging  |Besitzer können gesendete Nachrichten löschen |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging | Benutzer können gesendete Nachrichten löschen |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging  | Benutzer können gesendete Nachrichten bearbeiten |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Benutzer|
-| Messaging | Benutzern das Chatten gestatten |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging | Giphys in Unterhaltungen verwenden | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging | Giphy-Inhaltsklassifikation | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging | Memes in Unterhaltungen verwenden  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-| Messaging | Sticker in Unterhaltungen verwenden |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-
-Darüber hinaus stehen Ihnen die folgenden Einstellungen nur im Microsoft Teams Admin Center zur Verfügung:
-
-|Name der Einstellung | Microsoft Teams Admin Center-Richtlinie | Ebene: Mandant oder Benutzer
-|-------------|-------------------------------------|---------|
-|URL-Vorschau zulassen | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-|Einem Benutzer das Entfernen von Benutzern aus einem Gruppenchat gestatten |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-|Plastischen Reader zum Anzeigen von Nachrichten zulassen |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Benutzer |
-|Übersetzung von Nachrichten durch Benutzer zulassen |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Benutzer |
-|Lesebestätigungen | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-|Benutzer können Prioritätsbenachrichtigungen senden | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Benutzer |
-|Erzeugen von Sprachnachrichten |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Benutzer |
-|Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Benutzer |

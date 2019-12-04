@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572047"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679305"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
 
-Microsoft Teams ist ein hervorragendes Tool für die Zusammenarbeit in Ihrem Unternehmen. Microsoft Teams ermöglicht Einzelpersonen und Teams Diskussionen, Innovationen und den Austausch von Ideen, und dabei von der Leistungsfähigkeit von Office 365 zu profitieren. Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine einjährige Testversion des Produkts zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. 
+Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine einjährige Testversion des Produkts zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. 
 
 > [!IMPORTANT]
 > Die Testversion der kommerziellen Cloud von Microsoft Teams wurde um zusätzliche Servicepläne für erweiterte Teams-Funktionen erweitert. Sie gehört nun wird nun dem Abrechnungsadministrator der Organisation und wird von diesem gesteuert. Dies macht es einfacher, die Testversion zu verwalten und Konformität mit allen anderen Microsoft 365-Angeboten zu gewährleisten. 
