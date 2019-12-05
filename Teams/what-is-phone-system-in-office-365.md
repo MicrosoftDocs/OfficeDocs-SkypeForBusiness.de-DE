@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, welchen Nutzen das Telefonsystem für Sie hat. '
-ms.openlocfilehash: 94fcff8e694eaee7bb57963519f67307f6754644
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
-ms.translationtype: HT
+ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447922"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37568531"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 

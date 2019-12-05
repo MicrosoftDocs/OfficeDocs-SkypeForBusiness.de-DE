@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie diesen Artikel, um die Landesvorwahl für den Medienpfad für das direkte Routing zu finden.
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572212"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837567"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing-Medienpfad Landesvorwahl
 
@@ -46,7 +46,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Amerikanisch-Samoa  | Als |
 | Andorra         | AD |
 | Angola          | Ao |
-| Anguilla        | Al |
+| Anguilla        | Ai |
 | Antarktis      | AQ | 
 | Antigua und Barbuda | AG |
 | Argentinien       | AR |

@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675339"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842477"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -49,10 +49,10 @@ Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. A
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-Wenn die Microsoft Teams-Räume nicht gut ausgeführt werden, kann es hilfreich sein, einen Factory-Reset durchzuführen. Dies kann in der Einstellungs-APP auf der Registerkarte " **Wiederherstellung** " erfolgen. Klicken Sie unter " **diesen PC zurücksetzen**" auf " **Erste Schritte**" und dann auf " **Alle entfernen**". Folgen Sie den restlichen Eingabeaufforderungen, um das Gerät zurückzusetzen.
-  
+Wenn die Microsoft Teams-Räume nicht gut ausgeführt werden, kann es hilfreich sein, einen Factory-Reset durchzuführen. Verwenden Sie dazu das [Microsoft Teams Room Recovery Tool](recovery-tool.md) , und folgen Sie den Anweisungen für die Werks Wiederherstellung.
+
 > [!NOTE]
-> Es gibt ein bekanntes Problem, bei dem die Microsoft Teams-Räume unbrauchbar werden können, wenn die Option **meine Dateien beibehalten-apps und Einstellungen entfernt, aber Ihre persönlichen Dateien beibehalten** aktiviert ist, während des Windows-Reset-Vorgangs. Verwenden Sie diese Option _nicht_ .
+> Es gibt ein bekanntes Problem, bei dem die Microsoft Teams-Räume unbrauchbar werden können, wenn die Option **meine Dateien beibehalten-apps und Einstellungen entfernt, aber Ihre persönlichen Dateien beibehalten** aktiviert ist, während des Windows-Reset-Vorgangs. Verwenden Sie diese Option *nicht* .
   
 ## <a name="supported-remote-options"></a>Unterstützte Remoteoptionen
 <a name="RemoteOptions"> </a>

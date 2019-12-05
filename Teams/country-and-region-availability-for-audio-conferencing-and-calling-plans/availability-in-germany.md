@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Deutschland sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 745d73ffc54a027e10a428cf5d97d5cebf2e7207
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
-ms.translationtype: HT
+ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331852"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37569882"
 ---
 # <a name="availability-in-germany"></a>Verfügbarkeit in Deutschland
 

@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Erfahren Sie mehr über Add-On-Lizenzen, die Features, die Sie bei den einzelnen Lizenzen erhalten, wie Sie sie für Ihr Produkt kaufen können, und wie Sie sie bei Ihrem bestehenden Netzbetreiber nutzen können. Sie können Informationen über Preise und Details zu den Plänen für Office 365, Kommunikationsguthaben und Anrufpläne erhalten.
-ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242741"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37571202"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
