@@ -15,18 +15,18 @@ description: Erhalten Sie Hilfe bei der Problembehandlung und Beheben von Proble
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311260"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871731"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Behandeln von Problemen mit dem Gastzugriff in Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
-> Sie müssen ggf. bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
+> Möglicherweise müssen Sie bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
 
 
 - Wenn Sie nach aktuellen Supportproblemen mit Gastzugriff in Teams suchen möchten, wechseln Sie zur [Problembehandlung für Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
