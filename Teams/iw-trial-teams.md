@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679305"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871691"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679305"
 Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine einjährige Testversion des Produkts zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. 
 
 > [!IMPORTANT]
-> Die Testversion der kommerziellen Cloud von Microsoft Teams wurde um zusätzliche Servicepläne für erweiterte Teams-Funktionen erweitert. Sie gehört nun wird nun dem Abrechnungsadministrator der Organisation und wird von diesem gesteuert. Dies macht es einfacher, die Testversion zu verwalten und Konformität mit allen anderen Microsoft 365-Angeboten zu gewährleisten. 
+> Die Microsoft Teams Commercial Cloud-Testversion wird ab Januar 2020 durch Microsoft Teams Exploratory ersetzt. Informationen zu diesem neuen Angebot finden Sie unter [Manage Teams Exploratory-Lizenz](teams-exploratory.md).
 
 ## <a name="whats-in-the-offer"></a>Was ist im Angebot enthalten?
 
