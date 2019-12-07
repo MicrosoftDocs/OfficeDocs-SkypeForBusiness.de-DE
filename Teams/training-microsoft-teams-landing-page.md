@@ -8,21 +8,19 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c96bac2296b07de7eae637ef428c412865fa07f5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 123cb1b8962122c2b19aefd785a0796e3de885c4
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241583"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886246"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -36,7 +34,7 @@ ms.locfileid: "36241583"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -55,7 +53,7 @@ ms.locfileid: "36241583"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -74,7 +72,7 @@ ms.locfileid: "36241583"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user.svg" alt="A person icon representing a user" />
+                            <img src="https://docs.microsoft.com/office/media/icons/user.svg" alt="A person icon representing a user" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -94,6 +92,17 @@ ms.locfileid: "36241583"
 Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
 <ul class="panelContent cardsW">
     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams-Grundlagen für IT</h3>
+                         <p><a href="https://aka.ms/MicrosoftTeamsforIT">Die Microsoft Mechanics-Videoreihe "Teams für IT" veranschaulicht Administratoren das Rollout sowie die Konfiguration und Verwaltung von Microsoft Teams.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
