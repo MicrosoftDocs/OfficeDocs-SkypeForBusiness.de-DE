@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842467"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890579"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -99,7 +99,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Richtlinien zur automatischen Telefonzentralen Migration
 
-Office 365-mandantenadministratoren müssen Ihre automatischen Exchange um Online-Telefonzentralen in der automatischen Microsoft Cloud-Telefonzentrale neu erstellen und ihre lokalen Telefonnummern vor dem 1. Februar 2020, wenn der Exchange-UMO-Dienst wird ehemaliger. Dies ist die empfohlene Richtlinie für das erfolgreiche Migrieren und Testen neuer Cloud-automatischen Telefonzentralen. Wenn Sie über eine große Anzahl von automatischen Telefonzentralen verfügen, können Sie die automatische Exchange UM-Telefonzentrale [zur Cloud-Migrationsskripts für die automatische Telefonzentrale](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) verwenden, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
+Office 365-mandantenadministratoren müssen Ihre automatischen Exchange um Online-Telefonzentralen in der automatischen Microsoft Cloud-Telefonzentrale neu erstellen und ihre lokalen Telefonnummern vor dem 28. Februar 2020, der beim Exchange UMO-Dienst ist, umschalten. ehemaliger. Dies ist die empfohlene Richtlinie für das erfolgreiche Migrieren und Testen neuer Cloud-automatischen Telefonzentralen. Wenn Sie über eine große Anzahl von automatischen Telefonzentralen verfügen, können Sie die automatische Exchange UM-Telefonzentrale [zur Cloud-Migrationsskripts für die automatische Telefonzentrale](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) verwenden, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
 
 ### <a name="setup"></a>Installationsanforderungen
 

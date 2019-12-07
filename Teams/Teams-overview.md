@@ -16,17 +16,15 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: ef56b6e62b39d0ef0d9464c9d24b9b34d17e87cc
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209061"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886192"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
-
-Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams). Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md). 
 
 Wenn Sie noch nicht mit Teams vertraut sind und mehr erfahren möchten, schauen Sie sich unser kurzes Video [Willkommen bei Teams](https://www.youtube.com/embed/s3aQV3T0D6c) an (55 Sekunden).
 
@@ -34,7 +32,9 @@ Verpassen Sie nicht unser Video „Willkommen bei Teams für Teams-Admins“ (et
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-## <a name="teams-architecture"></a>Microsoft Teams-Architektur
+Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams). Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md). 
+
+## <a name="teams-architecture"></a>Teams-Architektur
 
 Microsoft Teams basiert auf Office 365-Gruppen, Microsoft Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. Teams funktioniert auch, wenn Sie offline sind oder unter instabilen Netzwerkbedingungen arbeiten.
 

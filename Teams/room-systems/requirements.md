@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
-ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
+ms.openlocfilehash: d0740146629a25ed5c8ccf72ac9977a7285764c4
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38696815"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890589"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -108,7 +108,7 @@ Diese Geräte sind in der [Produktpräsentation Room System Zubehör](https://pr
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100C   |
-|[Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29|  
+|[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Biamp Tesira Fore AVB VT4 Fixed Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect decken 2-Mikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira Ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> Ex-UBT: 3.12.0.15 |  |
 ||||||
 

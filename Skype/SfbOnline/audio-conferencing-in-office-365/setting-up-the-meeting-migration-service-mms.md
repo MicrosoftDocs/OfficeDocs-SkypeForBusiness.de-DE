@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS wurde entwickelt, um zu verhindern, dass Benutzer das Besprechungs Migrations Tool ausführen können, um Ihre Skype for Business-und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772279"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890529"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden des Besprechungs Migrations Diensts (MMS)
 
@@ -128,7 +128,7 @@ Neben automatischen Besprechungs Migrationen können Administratoren die Besprec
 **SourceMeetingType:**
 - Die `SourceMeetingType SfB` Verwendung zeigt an, dass nur Skype for Business-Besprechungen (ob lokal oder Online) aktualisiert werden sollen.
 - Verwenden `SourceMeetingType Teams` gibt an, dass nur Teams-Besprechungen aktualisiert werden sollen.
-- Mit `SourceMeetingType All` gibt an, dass sowohl Skype for Business-Besprechungen als auch Teams-Besprechungen aktualisiert werden sollten. Dies ist der Standardwert für SourceMeetingType.
+- Die `SourceMeetingType All` Verwendung zeigt an, dass sowohl Skype for Business-Besprechungen als auch Teams-Besprechungen aktualisiert werden sollten. Dies ist der Standardwert für SourceMeetingType.
     
 
 Im folgenden Beispiel wird gezeigt, wie Sie die Besprechungs Migration für Benutzer ashaw@contoso.com initiieren, damit alle Besprechungen in Teams migriert werden:
