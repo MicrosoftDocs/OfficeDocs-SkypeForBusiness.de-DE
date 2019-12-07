@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563879"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886182"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -91,6 +90,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 | Modul | Video | PowerPoint-Foliensatz |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft Mechanics-Teams Essentials für IT-YouTube-Kanal](https://aka.ms/MicrosoftTeamsforIT) | [Video: Team Essentials für IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: bereitstellen #a0 Konfigurieren von Teams – Einführung](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  ||
 | Grundlagen – Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Foliensatz](https://aka.ms/teams-foundations-deck) |
 | Windows-Desktopclient | [Video](https://aka.ms/teams-clients) | [Foliensatz](https://aka.ms/teams-clients-deck) |
 | Governance, Verwaltung und Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Foliensatz](https://aka.ms/teams-governance-deck) |
