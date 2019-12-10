@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (Preview), um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209191"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909471"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -35,6 +35,8 @@ Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.mi
 
 > [!IMPORTANT]
 > Der Ratgeber für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
+
+Sehen Sie sich den Ratgeber für Teams im Video [Deploy & Configure Teams Intro](https://youtu.be/o2mlsUubIO4?t=44) (Einführung in das Bereitstellen und Konfigurieren von Teams) an (Ratgeber für Teams: Minute 0:50 bis Minute 3:15).
 
 ## <a name="using-advisor-for-teams-preview"></a>Den Ratgeber für Teams (Vorschau) verwenden
 
