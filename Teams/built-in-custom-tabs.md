@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209111"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909361"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
@@ -53,9 +53,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 ## <a name="develop-custom-tabs"></a>Entwickeln von benutzerdefinierten Registerkarten
 
-Zusätzlich zu den integrierten Registerkarten können Sie eigene Registerkarten entwerfen und entwickeln, um Sie in Teams zu integrieren oder für die restliche Community freizugeben. Sie können den [Zugriff auf Ihre benutzerdefinierte Registerkarte steuern,](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) indem Sie die entsprechenden Office 365-Gruppen konfigurieren.
-
-Das Microsoft-Entwicklernetzwerk enthält [Beispiel Registerkarten](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) , die von Microsoft entwickelt wurden, die Sie herunterladen können, sowie [detaillierte Anweisungen](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) zum Entwerfen und Erstellen eigener Registerkarten.
+Zusätzlich zu den integrierten Registerkarten können Sie eigene Registerkarten entwerfen und entwickeln, um Sie in Teams zu integrieren oder für die restliche Community freizugeben. Weitere Informationen finden Sie in unserer [Entwicklerdokumentation](/microsoftteams/platform/tabs/what-are-tabs) .
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

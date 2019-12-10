@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563855"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909331"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
@@ -52,24 +52,6 @@ Derzeit können Sie mithilfe von Microsoft Teams-Desktop-und-Webclienten Connect
     ![Screenshot der Microsoft Teams-Benutzeroberfläche mit einer Unterhaltung in einem Kanal](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Entwickeln von benutzerdefinierten Connectors
------------------------------
+----------------------------
 
-Es ist sehr einfach, benutzerdefinierte Connectors zu entwickeln, die in Ihre Branchenanwendungen integriert werden können. Sie können den integrierten **eingehenden webhook** -Connector verwenden, um einen Endpunkt für einen Kanal zu erstellen, der Daten aus einer beliebigen Anwendung mithilfe von HTTP Post-Methoden abruft.
-
-1. Fügen Sie den **eingehenden Webhook** wie jeden anderen Connector hinzu.
-
-    ![Screenshot der Option zum Hinzufügen des Connectors „Incoming Webhook“ (Eingehender Webhook)](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
-
-2. Um einen Webhook zu erstellen, geben Sie einen **Namen** an, aktualisieren Sie bei Bedarf das Webhook-Image, und klicken Sie auf **Erstellen**.
-
-    ![Screenshot der Konfigurationsseite für den eingehenden webhook-Connector](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
-
-3. Für Anwendungen, die Daten in diesen Kanal verschieben, ist die webhook-Connector-URL erforderlich. Beim Erstellen des webhooks wird eine eindeutige URL erstellt. Geben Sie diese URL für Ihre Entwickler frei, damit Sie Ihre Anwendungen so konfigurieren können, dass Sie bei Bedarf Daten pushen.
-
-    ![Screenshot der eindeutigen URL des Webhooks](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
-
-4. Wenn eine externe Anwendung mithilfe von Push Daten an einen Connector überträgt, wird die Nachricht in der Kanalunterhaltungsliste als spezielle Nachricht, das heißt als **Connectorkartennachricht**, angezeigt.
-
-    ![Screenshot der Microsoft Teams-Benutzeroberfläche mit einer Connectorkartennachricht](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
-
-     Entwickler können Ihre Anwendungen so konfigurieren, dass Sie diese Karten erstellen, indem Sie eine HTTP-Anforderung mit einer einfachen JSON-Nutzlast an die webhook-Adresse eines Teams senden, bei der es sich um eine eindeutige URL dieses Endpunkts handelt, die vom Assistenten bereitgestellt wird. Lassen Sie Ihre Entwickler auf [Erste Schritte mit Office 365-Connectors für Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors)im Microsoft Developer Network verweisen, in dem detaillierte Anweisungen und Connector-Beispiele enthalten sind. Zu den anderen Ressourcen gehören das [Verbinden von apps mit ihren Gruppen in Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) und dem [Office dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).
+Sie können auch benutzerdefinierte Connectors sowie eingehende und ausgehende webhooks erstellen. Weitere Informationen finden Sie in unserer [Entwicklerdokumentation](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) .

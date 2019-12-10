@@ -5,7 +5,6 @@ ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
-ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,13 +18,13 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) in Office 365 zur Verfügung stehen, und wie Sie eine für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
+ms.openlocfilehash: f23dd2797f70b41a4bed8fd3ddc4bf467dd459db
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568564"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919288"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -37,23 +36,23 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen
 
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
-Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. Die Bereiche unterscheiden sich von der lokalen Bereitstellung von Skype for Business Server. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Teams oder Skype for Business Online anmelden. Als Administrator können Sie Bereichsebenen für Wähleinstellungen mithilfe von Remote-PowerShell verwalten und zuweisen.
+Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Teams anmelden. Als Administrator können Sie die Bereichsebenen für Wähleinstellungen mithilfe des Microsoft Teams Admin Center oder der Remote-PowerShell verwalten und zuweisen.
 
-In Microsoft Teams und Skype for Business Online gibt es zwei Arten von Wählplänen: Dienstbereich und Mandant (für Ihre Organisation), für die ein Bereich vorgesehen ist. Ein Wählplan für Dienstbereich ist für jedes Land oder jede Region definiert, in dem das Office 365-Telefon System verfügbar ist. Jedem Benutzer wird automatisch der Dienst Land-Wählplan zugewiesen, der dem Benutzer zugewiesenen Office 365-Verwendungsstandort entspricht. Sie können den Wählplan für das Service Land nicht ändern, aber Sie können mandantenspezifische Wählpläne erstellen, die den Wählplan für das Service Land ergänzen. Wenn Clients bereitgestellt werden, erhalten Sie einen "effektiven Wählplan", der eine Kombination aus dem Wählplan des Service-Landes und dem entsprechend für den Mandanten verwendeten Wählplan ist. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandanten Wählplänen zu definieren, wie Sie möglicherweise bereits im Wählplan für das Service Land vorhanden sind.
+In Teams gibt es zwei Arten von Wählplänen: Dienstbereich und MANDANTENBEREICH (für Ihre Organisation. Ein dienstbezogener Wählplan wird für jedes Land oder jede Region definiert, in dem das Telefon System verfügbar ist. Jedem Benutzer wird automatisch der Dienst Land-Wählplan zugewiesen, der dem dem Benutzer zugewiesenen Verwendungsstandort entspricht. Sie können den Wählplan für das Service Land nicht ändern, aber Sie können mandantenspezifische Wählpläne erstellen, die den Wählplan für das Service Land ergänzen. Wenn Clients bereitgestellt werden, erhalten Sie einen "effektiven Wählplan", der eine Kombination aus dem Wählplan des Service-Landes und dem entsprechend für den Mandanten verwendeten Wählplan ist. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandanten Wählplänen zu definieren, wie Sie möglicherweise bereits im Wählplan für das Service Land vorhanden sind.
 
-Mandantenwählpläne können weiter in zwei Bereiche unterteilt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Benutzers definiert und zuweist, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den zugewiesenen Benutzerwählplan. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Mandanten definiert, ohne einen Wählplan mit Bereichszuweisung eines Benutzers zuzuweisen, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den Mandantenwählplan.
+Mandanten Wählpläne können weiter in zwei Bereiche aufgeteilt werden: MANDANTENBEREICH oder Benutzerbereich. Wenn ein Mandant einen Wählplan definiert und zuweist, wird dieser Benutzer mit einem effektiven Wählplan des Dienst Land-Wählplans des Benutzers und dem zugewiesenen Benutzer Wählplan bereitgestellt. Wenn ein Mandant einen Wählplan mit MANDANTENBEREICH definiert, aber keinen Wählplan mit Benutzerbereich zuweist, wird dieser Benutzer mit einem effektiven Wählplan des Dienst Land-Wählplans des Benutzers und dem Mandanten Wähl Plan bereitgestellt.
 
-Im folgenden wird das Vererbungsmodell für Wählpläne in Teams und Skype for Business Online.
+Im folgenden wird das Vererbungsmodell von Wählplänen in Microsoft Teams.
 
-![Vererbung von Wählplänen in Teams und Skype for Business Online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Erben von Wählplänen in Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Mögliche gültige Wählpläne:
 
- **Dienstleistungs Land** Wenn kein Mandanten bezogener Wählplan definiert ist und dem bereitgestellten Benutzer keine Wähleinstellungen für Mandanten mit Gültigkeitsbereich zugewiesen sind, erhält der Benutzer einen effektiven Wählplan, der dem Dienst Land zugeordnet ist, das seinem Office 365-Verwendungsstandort zugeordnet ist.
+ **Dienstleistungs Land** Wenn kein Mandanten bezogener Wählplan definiert ist und dem bereitgestellten Benutzer kein Wählplan für Mandanten Benutzer zugewiesen ist, erhält der Benutzer einen effektiven Wählplan, der dem Dienst Land zugeordnet ist, das seinem Verwendungsstandort zugeordnet ist.
 
- **Mandant Global-Service Land** Wenn ein Mandanten-Wählplan definiert, aber keinem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus einem zusammengeführten Mandanten Wählplan und dem für den Office 365-Verwendungsstandort zugeordneten Service Land-Wählplan besteht.
+ **Mandant Global-Service Land** Wenn ein Mandanten-Wählplan definiert, aber keinem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus einem zusammengeführten Mandanten Wählplan und dem mit dem Verwendungsstandort verknüpften Dienst Land Wähl Plan besteht.
 
- **Mandanten Benutzer – Dienst Land** Wenn ein Mandanten-Wählplan definiert und einem Benutzer zugewiesen wird, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus dem zusammengeführten Mandanten Benutzer-Wählplan und dem für den Office 365-Verwendungsstandort zugeordneten Service Country-Wählplan besteht.
+ **Mandanten Benutzer – Dienst Land** Wenn ein Mandanten-Wählplan definiert und einem Benutzer zugewiesen wird, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus dem zusammengeführten Mandanten Benutzer-Wählplan und dem für den Verwendungsstandort zugeordneten Service Country-Wählplan besteht.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen Ihrer Mandanten Wählpläne.
 
@@ -77,22 +76,24 @@ Wenn Sie einen neuen Wählplan erstellen, müssen Sie die erforderlichen Informa
 
 ### <a name="name-and-simple-name"></a>Name und einfacher Name
 
-Für Benutzer Wählpläne sollten Sie einen aussagekräftigen Namen angeben, der für die Benutzer identifiziert wird, denen der Wählplan zugewiesen wird. Der einfache Name des Wählplans ist mit einer Zeichenfolge gefüllt, die vom Namen des Wählplans abgeleitet wird. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert Einfacher Name darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+Für Benutzer Wählpläne sollten Sie einen aussagekräftigen Namen angeben, der für die Benutzer identifiziert wird, denen der Wählplan zugewiesen wird. Der Wählplan Einfacher Name ist bereits mit einer vom Namen des Wählplans abgeleiteten Zeichenfolge aufgefüllt. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert Einfacher Name darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
 
 ### <a name="description"></a>Beschreibung
 
 Wir empfehlen Ihnen, einen allgemeinen, schnell erkennbaren Namen des geografischen Standorts oder der Benutzergruppe zu verwenden, auf den der jeweilige Wählplan angewendet wird.
 
 ### <a name="external-access-prefix"></a>Präfix für externen Zugriff
+<a name="bkexternalprefix"> </a>
 
 Sie können ein Präfix für externen Zugriff von bis zu vier Zeichen (#, * und 0-9) angeben, wenn Benutzer für eine externe Verbindung mindestens eine zusätzliche führende Ziffer (zum Beispiel 9) wählen müssen.
 
 > [!NOTE]
-> Wenn Sie ein Präfix für externen Zugriff angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix aufzunehmen. 
+> Wenn Sie ein Präfix für externen Zugriff angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix aufzunehmen.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen Ihrer Mandanten Wählpläne.
 
 ## <a name="normalization-rules"></a>Normalisierungsregeln
+<a name="bknormalizationrule"> </a>
 
 Normalisierungsregeln definieren, wie die in verschiedenen Formaten ausgedrückten Telefonnummern übersetzt werden. Je nach dem lokalen Standort, von dem aus eine Nummernzeichenfolge gewählt wird, kann diese unterschiedlich interpretiert und übersetzt werden. Normalisierungsregeln sind unter Umständen notwendig, wenn Benutzer interne oder externe Kurzwahlnummern wählen müssen.
 
@@ -103,6 +104,7 @@ Dem Wählplan müssen mindestens eine Normalisierungsregel zugewiesen sein. Norm
 Da jeder Mandantenwählplan effektiv mit einem Wählplan eines landesspezifischen Diensts eines vorhandenen Benutzers zusammengeführt wird, müssen wahrscheinlich die Normalisierungsregeln des Wählplans eines landesspezifischen Diensts ausgewertet werden, um festzulegen, welche Normalisierungsregeln des Mandantenwählplans erforderlich sind. Zu diesem Zweck kann das **Get-CsEffectiveTenantDialPlan** -Cmdlet verwendet werden. Das Cmdlet verwendet eine Benutzeridentität als Eingabeparameter und gibt alle auf den Benutzer anwendbaren Normalisierungsregeln zurück.
 
 ### <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
+<a name="createrule"> </a> <a name="regularexpression"> </a>
 
 Normalisierungsregeln verwenden reguläre Ausdrücke von .NET Framework, um numerische Vergleichsmuster anzugeben, mit denen der Server zum Zweck der umgekehrten Nummernsuche Wählzeichenfolgen in das E.164-Format übersetzen kann. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
@@ -114,7 +116,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen
 
 Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als reguläre Ausdrücke von .NET Framework formuliert sind. Diese Regeln sind nur Beispiele und stellen keine verbindliche Referenz für die Erstellung Ihrer eigenen Normalisierungsregeln dar.
 
- **Normalisierungsregeln mit regulären Ausdrücken in .NET Framework**
+ **Normalisierungsregeln mit regulären Ausdrücken in .NET Framework**<a name="#regularexpression"> </a>
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -130,8 +132,9 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 
  **Wählplan für Redmond, basierend auf den oben gezeigten Normalisierungsregeln**
 
+ Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
 
-| Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert. |
+| |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Wählplan für Redmond** <br/>                                                                                                                              |
 | 5digitExtension <br/>                                                                                                                                    |
@@ -140,18 +143,16 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 | RedmondOperator <br/>                                                                                                                                    |
 
 > [!NOTE]
-> Die Namen der Normalisierungsregeln in der vorstehenden Tabelle enthalten keine Leerzeichen, aber dies ist nicht obligatorisch. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet. 
-
+> Die Namen der Normalisierungsregeln, die in der obigen Tabelle angezeigt werden, enthalten keine Leerzeichen, doch dies ist eine Frage der Wahl. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
-
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 [Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
