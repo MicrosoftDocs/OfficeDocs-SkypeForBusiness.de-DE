@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78e5a420bdadf7417388aef48679b28e438aeec4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563887"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919157"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -37,7 +37,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Microsoft Teams, um das Problem zu umgehen. Unter [Richtlinien zu EMET-Sicherheitstechnologien zur Schadensbegrenzung](https://support.microsoft.com/de-DE/help/2909257/emet-mitigations-guidelines) können Sie mehr über dieses Problem lesen. Weitere Informationen zu Windows Defender ATP und zur EAF-Richtlinie finden Sie unter [Anpassen des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
+|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Teams, um dieses Problem zu umgehen. Sie können mehr über das Problem [EMET-Minderungsrichtlinien](https://support.microsoft.com/de-DE/help/2909257/emet-mitigations-guidelines) lesen. Weitere Informationen zu Windows Defender ATP- und EAF-Richtlinien finden Sie unter [Aktivieren des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |11.10.2018 <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|[Bedingter Zugriff](https://docs.microsoft.com/de-DE/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
+|[Bedingter Zugriff](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -172,6 +172,44 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Für von Gästen erstellte Kanäle wird kein Wiki erstellt.  <br/> |Wenn Gäste einen neuen Kanal erstellen, wird die **Wiki**-Registerkarte nicht erstellt. Es gibt keine Möglichkeit, eine **Wiki**-Registerkarte manuell an den Kanal anzufügen. <br/> |Keine Problemumgehung.  <br/> |20.09.2017  <br/>|
+
+## <a name="linux"></a>Linux
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|AutoStart unter Linux funktioniert nicht. <br/> |AutoStart unter Linux startet die Teamanwendung nicht. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Weißer Bildschirm, wenn aus dem Energiesparmodus/Ruhezustand fortgesetzt wird. <br/> |Wenn Ihr Computer aus dem Energiesparmodus oder Ruhezustand zurückkehrt/aufwacht, kann sich das Netzwerkänderung auftreten (insbesondere, wenn der Computer vor dem Energiesparmodus/Ruhezustand mit einem VPN verbunden ist) und es einige Zeit dauert, bis der Computer die Verbindung wiederherstellt. Die Kombination dieser Dinge kann zu einem weißen Bildschirm von Teams führen. <br/> |Der Neustart des Teams-Clients ist hilfreich.  <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Cursor fehlt bei Bildschirmfreigabe. <br/> |Während der Bildschirmfreigabe sieht der andere Teilnehmer nicht den Cursor der Person, die den Bildschirm freigibt. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Problem wird parallel zur VMWare-Workstation ausgeführt. <br/> |Bei der Ausführung der Team-Anwendung parallel zur VMWare-Workstation treten Probleme auf. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|KDE-Benachrichtigungen erstellen eine neue Taskleiste.<br/> |Die Benachrichtigung in KDE erstellt ein neues Fenster in der Taskleiste. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Paketmanager zeigen keine Änderungsliste an. <br/> |Der Paketmanager zeigt keine Änderungsliste an. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Der Teams-Client kann nicht im Offline-Modus gestartet werden. <br/> |Teams können im Linux-Client nicht offline gestartet werden. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Geräteeinstellungen während eines Meetings. <br/> |Wenn Sie sich in einer Besprechung befinden und Geräteeinstellungen ändern, registriert die Mikrofonanzeige nicht, dass etwas aufgenommen wurde. <br/> | <br/> |05.12.19  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Team-Anwendung kann nicht über die Tastatur geschlossen werden. <br/> |Die Team-Anwendung kann nicht mit der Standardeinstellung `$mod + shift + q`oder durch Klicken auf die Schaltfläche zum Schließen in der App geschlossen werden. <br/> | <br/> |05.12.19  <br/>|
 
 ## <a name="meetings"></a>Besprechungen
 
