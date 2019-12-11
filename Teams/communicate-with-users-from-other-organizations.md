@@ -15,12 +15,12 @@ description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in M
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665448"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966768"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
 ======================================================
@@ -84,7 +84,7 @@ Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, start
 <sup>1</sup> Vorausgesetzt, der Benutzer wurde als Gast hinzugefügt und hat sich als Gast beim Gastmandanten angemeldet.<br>
 <sup>2</sup> Nur per E-Mail- oder SIP-Adresse (Session Initiation Protocol).<br>
 <sup>3</sup> Externer Chat (Verbundchat) nur 1:1.<br>
-<sup>4</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams Benutzer aus zwei verschiedenen Organisation. *Dies ist eine Vorschauversion oder eine Vorabfunktion.*
+<sup>4</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams Benutzer aus zwei verschiedenen Organisation. 
 
 ## <a name="related-topics"></a>Verwandte Themen
 

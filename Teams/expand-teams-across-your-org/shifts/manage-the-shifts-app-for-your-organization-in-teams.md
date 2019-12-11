@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568719"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961610"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -37,9 +37,7 @@ Es ist wichtig zu wissen, dass Schichten die Gastbenutzer derzeit nicht unterst�
 
 ## <a name="availability-of-shifts"></a>Verfügbarkeit von Schichten
 
-Schichten sind in allen Office 365-Abonnements verfügbar, in denen Teams mit einigen Ausnahmen enthalten sind. Die Ausnahmen sind US Government Cloud Community (gcc) und Teams kostenlos. Schichten sind in den kostenlosen Angeboten von Office 365 US Government oder Teams nicht verfügbar.
-
-Weitere Informationen zur Lizenzierung für Teams, einschließlich einer Liste von Office 365-Abonnements, in denen Teams enthalten sind, finden Sie unter [Office 365-Lizenzierung für Teams](../../Office-365-licensing.md).
+Schichten sind in allen Enterprise-SKUs verfügbar, in denen Teams verfügbar sind.
 
 ## <a name="location-of-shifts-data"></a>Speicherort von schichtdaten
 
@@ -81,18 +79,18 @@ Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie in der l
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzern in einer Gruppe
 
-Sie können die FirstlineWorker-App-Setup Richtlinie Benutzern in einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Teams finden Sie unter [Übersicht über Teams PowerShell](../../teams-powershell-overview.md).
+Sie können die FirstlineWorker-App-Setup Richtlinie Benutzern in einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
 
 In diesem Beispiel weisen wir die FirstlineWorker-App-Setup Richtlinie allen Benutzern in der Contoso-Team Gruppe zu.
 
 > [!NOTE]
-> Stellen Sie sicher, dass Sie zunächst eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
+> Stellen Sie sicher, dass Sie zuerst eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
 
-Rufen Sie die GroupObjectId der jeweiligen Gruppe ab.
+Abrufen der GroupObject-ID der jeweiligen Gruppe.
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
-Rufen Sie die Mitglieder der angegebenen Gruppe ab.
+Abrufen der Mitglieder der gewählten Gruppe.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
@@ -100,7 +98,7 @@ Weisen Sie alle Benutzer in der Gruppe der FirstlineWorker-App-Setup Richtlinie 
 ```
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
-Je nach Anzahl der Mitglieder in der Gruppe kann dieser Befehl mehrere Minuten dauern.
+Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Schicht Hilfe für Mitarbeiter von First-work](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

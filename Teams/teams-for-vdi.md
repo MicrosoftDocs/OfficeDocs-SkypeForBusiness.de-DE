@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890603"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966778"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -131,7 +131,7 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
     - [32-Bit-Version](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [64-Bit-Version](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357.
+    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt)
 
 2. Installieren Sie die MSI-Karte auf der VDI-VM, indem Sie einen der folgenden Befehle ausführen:
 

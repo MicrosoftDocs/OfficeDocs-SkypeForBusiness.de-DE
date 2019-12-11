@@ -12,17 +12,15 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Erfahren Sie mehr über die native Teams-Chat-Erfahrung für externe Access (Federated)-Benutzer in Microsoft Teams, die zwischen externen Benutzern verfügbar sind, bei denen sich beide Benutzer im TeamsOnly-Aktualisierungsmodus befinden.
-ms.openlocfilehash: a7a66693bbff98aa707c369a9da08d0ccfe48f69
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754341"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966758"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Systemeigene Chat-Umgebung für externe (Federated-) Benutzer in Microsoft Teams
 ======================================
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Wenn ein Microsoft Teams-Benutzer mit einem externen (Föderations-) Benutzer chattet, ist die Chat-Erfahrung auf Text begrenzt. Wenn sich jedoch sowohl der Mandant des Teams als auch der des externen Benutzers im TeamsOnly-Upgrademodus befinden, können Sie eine "Native-Teams-Chat Erfahrung" verwenden, die Rich-Formatierung, @Mentions und andere Chat Features umfasst. Mit anderen Worten: Sie können dieselbe Rich-1:1-Team-Chat-Erfahrung mit berechtigten externen Benutzern haben, wie Sie dies bei Benutzern in Ihrer Organisation tun würden. Native Teams-Chats mit externen Benutzern sind weiterhin nur auf 1:1-Chats limitiert (externe Benutzer können keine Gruppen-Chats durchführen).
 

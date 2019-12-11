@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568708"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961600"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
 
@@ -64,14 +64,7 @@ Bei der App "Schichten" in Teams handelt es sich um ein Zeit Plan Verwaltungstoo
 
 #### <a name="which-plans-is-shifts-available-in"></a>In welchen Plänen sind Schichten verfügbar?
 
-Schichten stehen in den folgenden Plänen ohne zusätzliche Kosten als Teil von Teams zur Verfügung:
-
-- Office 365 Business Premium 
-- Office 365 Enterprise F1, E1, E3, E5
-- Office 365 für Bildungseinrichtungen
-- Microsoft 365 F1, E1, E3, E5
-
-Weitere Informationen finden Sie unter [Verfügbarkeit von Schichten](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Schichten sind in allen Enterprise-SKUs verfügbar, in denen Teams verfügbar sind.
 
 #### <a name="how-do-i-get-shifts"></a>Wie erhalte ich Schichten? 
 
