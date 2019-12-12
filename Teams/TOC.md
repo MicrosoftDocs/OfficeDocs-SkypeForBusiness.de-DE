@@ -353,6 +353,7 @@
 #### [Medienpfad-Landesvorwahl](direct-routing-country-codes.md)
 #### [PowerShell-Skript zum Testen von Session Border Controller-Verbindungen](sip-tester-powershell-script.md)
 #### [Verwalten von Anrufbenachrichtigungen](direct-routing-call-notifications.md)
+#### [Einrichten des Rückruf-Bots](direct-routing-ringback-bot.md)
 
 ## Telefonnummern
 ### [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
