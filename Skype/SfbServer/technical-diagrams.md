@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Zusammenfassung: Überprüfen Sie diese Poster nach Bedarf, während Sie Skype for Business Server planen, implementieren oder verwalten.'
-ms.openlocfilehash: 571f64f27cba7b5d1fa2a5818b4fca4ad157a264
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 60c7550d095c68f5fff1a7d9da8292adaa86922c
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291406"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002249"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 
@@ -38,6 +38,8 @@ Möglicherweise benötigen Sie zusätzliche Software, um diese Dateien anzeigen 
 ## <a name="posters"></a>Poster
 
 Diese Plakate beschreiben einen bestimmten technischen Bereich und sind für die Verwendung mit entsprechenden Artikeln oder Inhalten vorgesehen, die im Download Center zur Verfügung stehen.
+
+Weitere Informationen zur Verwendung von Microsoft Teams finden Sie unter [Microsoft Teams-IT-Architektur und Telefonlösungen-Poster](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters).
 
 |Titel|Beschreibung|
 |:---|:---|
