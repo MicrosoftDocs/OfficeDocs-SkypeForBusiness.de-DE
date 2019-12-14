@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966708"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019959"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Hardwareanforderungen für die Microsoft Teams-App
 
@@ -41,7 +41,7 @@ Alle Anforderungen in den folgenden Abschnitten gelten sowohl für die Desktop-A
 |.NET-Version    |  Erfordert .NET 4,5 CLR oder höher       |
 |Video    |  USB 2,0-Videokamera       |
 |Geräte    |   Standard-Laptop Kamera,-Mikrofon und-Lautsprecher    | 
-|Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale **Hintergrund** Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
+|Video Anrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Der optionale **Hintergrund** Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom ist Bluetooth Le erforderlich, bei dem Bluetooth auf dem Clientgerät aktiviert werden muss und für Windows-Clients der 64-Bit Teams-Client erforderlich ist. Es ist nicht auf 32-Bit-Teams-Clients verfügbar.</li></ul> |
 |Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Hardware Anforderungen für die Desktop-App "Teams" auf einem Mac
@@ -55,7 +55,7 @@ Alle Anforderungen in den folgenden Abschnitten gelten sowohl für die Desktop-A
 |Betriebssystem  |    Mac OS X 10,11 El Capitan oder höher     |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatible Mikrofone und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale Hintergrund Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .|
+|Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden.  <ul><li>Der optionale **Hintergrund** Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .</li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter Mac OS nicht zur Verfügung.</li></ul> |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Hardware Anforderungen für die Desktop-App "Teams" unter Linux
 
@@ -70,7 +70,7 @@ Alle Anforderungen in den folgenden Abschnitten gelten sowohl für die Desktop-A
 |Video    |  USB 2,0-Videokamera       |
 |Geräte    |   Standard-Laptop Kamera,-Mikrofon und-Lautsprecher    | 
 |VoIP    |  Kompatible Mikrofone und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Video Anrufe und Besprechungen | Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. Der optionale Hintergrund Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .
+|Video Anrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfiehlt es sich, einen Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Der optionale Hintergrund Videoeffekt "Blur" erfordert einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) .</li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter Linux nicht zur Verfügung.</li></ul>
 |Unterstützte Linux-Distributionen | Ubuntu 16,04 LTS, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 

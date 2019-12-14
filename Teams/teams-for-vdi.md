@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966778"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020059"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -68,12 +68,14 @@ Citrix-Virtual-apps und-Desktops (ehemals XenApp und XenDesktop) bieten AV-Optim
 
 Die neuesten Server-und Clientanforderungen finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>Installieren der Desktop-App "Teams" auf VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installieren oder Aktualisieren der Desktop-App "Teams" auf VDI
 
 Sie können die Desktop-App "Teams" für VDI mithilfe einer pro-Computer-Installation oder einer Einzelbenutzerinstallation mithilfe des MSI-Pakets bereitstellen. Die Entscheidung, welcher Ansatz zu verwenden ist, hängt davon ab, ob Sie eine dauerhafte oder nicht beständige Einrichtung und die zugehörigen Funktionsanforderungen Ihrer Organisation verwenden.
 Für eine dedizierte, dauerhafte Einrichtung würde jeder Ansatz funktionieren.  Bei einem nicht beständigen Setup ist die Installation pro Computer erforderlich, damit Teams effizient arbeiten können. Weitere Informationen finden Sie im Abschnitt " [nicht persistente Einrichtung](#non-persistent-setup) ".
 
 Bei der Installation pro Computer sind die automatischen Updates deaktiviert. Dies bedeutet, dass Sie zum Aktualisieren der Teams-APP die aktuelle Version deinstallieren müssen, um Sie auf eine neuere Version zu aktualisieren. Bei der Installation pro Benutzer sind die automatischen Updates aktiviert. Für die meisten VDI-Bereitstellungen empfehlen wir die Bereitstellung von Teams mithilfe der Installation pro Computer.
+
+Wenn Sie auf die neueste Version von Teams aktualisieren möchten, beginnen Sie mit dem Deinstallationsverfahren, gefolgt von der neuesten Version der Teams-Bereitstellung.
 
 Damit die AV-Optimierung von Teams in VDI-Umgebungen ordnungsgemäß funktioniert, muss der Thin Client-Endpunkt Zugriff auf das Internet haben. Wenn Internetzugriff am Thin Client-Endpunkt nicht zur Verfügung steht, ist der Optimierungs Start nicht erfolgreich. Dies bedeutet, dass sich der Benutzer in einem nicht optimierten Medien Zustand befindet.
 
@@ -93,7 +95,7 @@ Es folgt die empfohlene minimale VM-Konfiguration.
 
 Bei einem nicht persistenten Setup werden die Änderungen des lokalen Betriebssystems des Benutzers nicht beibehalten, nachdem sich die Benutzer abgemeldet haben. Bei solchen Setups handelt es sich um häufig freigegebene mehr Benutzersitzungen. Die VM-Konfiguration variiert je nach der Anzahl der Benutzer und den verfügbaren physikalischen Feld Ressourcen.
 
-Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [Installieren der Desktop-App "Teams" im](#install-the-teams-desktop-app-on-vdi) Abschnitt "VDI"). Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird. Für die Verwendung von Teams mit einem nicht beständigen Setup ist auch ein Profilcache-Manager für eine effiziente Team Laufzeit-Datensynchronisierung erforderlich. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (beispielsweise Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden.  Es stehen verschiedene Caching Manager-Lösungen zur Verfügung. Beispiel: [FSLogix](https://docs.microsoft.com/fslogix/overview). Wenden Sie sich an Ihren Caching Manager-Anbieter, um bestimmte Konfigurationsanweisungen anzuzeigen.
+Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [installieren oder Aktualisieren der Desktop-App "Teams" im](#install-or-update-the-teams-desktop-app-on-vdi) Abschnitt "VDI"). Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird. Für die Verwendung von Teams mit einem nicht beständigen Setup ist auch ein Profilcache-Manager für eine effiziente Team Laufzeit-Datensynchronisierung erforderlich. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (beispielsweise Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden.  Es stehen verschiedene Caching Manager-Lösungen zur Verfügung. Beispiel: [FSLogix](https://docs.microsoft.com/fslogix/overview). Wenden Sie sich an Ihren Caching Manager-Anbieter, um bestimmte Konfigurationsanweisungen anzuzeigen.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Ausschlussliste für in Teams zwischengespeicherte Inhalte für nicht persistente Einrichtung
 
@@ -110,11 +112,11 @@ Beim Bereitstellen von Teams mit Office 365 ProPlus auf VDI sollten Sie Folgende
 
 Bevor Sie Teams über Office 365 ProPlus bereitstellen, müssen Sie zuerst alle bereits vorhandenen Teams-apps deinstallieren, wenn Sie mithilfe der Installation pro Computer bereitgestellt wurden.
 
-Teams über Office 365 ProPlus werden pro Benutzer installiert. Weitere Informationen finden Sie im Abschnitt [Installieren der Desktop-App für Teams im VDI](#install-the-teams-desktop-app-on-vdi) .
+Teams über Office 365 ProPlus werden pro Benutzer installiert. Weitere Informationen finden Sie im Abschnitt [installieren oder Aktualisieren der Desktop-App für Teams im VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Teams-Bereitstellungen über Office 365 ProPlus-Updates
 
-Teams werden auch vorhandenen Installationen von Office 365 ProPlus hinzugefügt. Da Office 365 ProPlus nur Teams pro Benutzer installiert, lesen Sie den Abschnitt [Installieren der Desktop-App für Teams im VDI](#install-the-teams-desktop-app-on-vdi) .
+Teams werden auch vorhandenen Installationen von Office 365 ProPlus hinzugefügt. Da Office 365 ProPlus nur Teams pro Benutzer installiert, lesen Sie [installieren oder Aktualisieren der Desktop-App für Teams im VDI](#install-or-update-the-teams-desktop-app-on-vdi) -Abschnitt.
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Verwenden von Teams mit pro-Computer-Installation und Office 365 ProPlus
 
@@ -331,7 +333,8 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 
 ### <a name="client-deployment-installation-and-setup"></a>Client Bereitstellung,-Installation und-Setup
 
-- Bei der Installation pro Computer werden die Teams für VDI nicht automatisch so aktualisiert, wie es Clients außerhalb der VDI-Teams sind. Sie müssen das VM-Abbild aktualisieren, indem Sie eine neue MSI-Datei installieren, wie im Abschnitt [Installieren der Desktop-App für Teams im VDI](#install-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen die aktuelle Version deinstallieren, um Sie auf eine neuere Version zu aktualisieren.
+- Bei der Installation pro Computer werden die Teams für VDI nicht automatisch so aktualisiert, wie es Clients außerhalb der VDI-Teams sind. Sie müssen das VM-Abbild aktualisieren, indem Sie eine neue MSI-Datei installieren, wie im Abschnitt [installieren oder Aktualisieren der Desktop-App "Teams" im VDI](#install-or-update-the-teams-desktop-app-on-vdi) -Abschnitt beschrieben. Sie müssen die aktuelle Version deinstallieren, um Sie auf eine neuere Version zu aktualisieren.
+- Teams sollten entweder pro Benutzer oder pro Computer bereitgestellt werden. Die Bereitstellung von Teams für Concurrent pro Benutzer und pro Computer wird nicht unterstützt.  Wenn Sie von einem einzelnen Computer oder pro Benutzer zu einem dieser Modi migrieren möchten, folgen Sie dem Deinstallationsverfahren, und stellen Sie den jeweiligen Modus erneut bereit.
 - MacOS-und Linux-basierte Clients werden zurzeit nicht von Citrix unterstützt.
 - Citrix unterstützt nicht die Verwendung von expliziten HTTP-Proxys, die für einen Endpunkt definiert sind. 
 

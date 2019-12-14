@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie private Kanäle in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077428"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020049"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -139,6 +139,12 @@ Um eine größere Anzahl von Websitesammlungen pro Mandanten aufnehmen zu könne
 Teams verwaltet den Lebenszyklus der SharePoint-Websitesammlung für private Kanäle. Wenn die Websitesammlung außerhalb von Teams gelöscht wird, stellt ein Hintergrund Auftrag die Website innerhalb von vier Stunden wieder her, solange der private Kanal weiterhin aktiv ist. Wenn die Website gelöscht und schwer gelöscht wird, wird eine neue Websitesammlung für den privaten Kanal bereitgestellt.
 
 Wenn ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wiederhergestellt wird, werden die Websitesammlungen damit wiederhergestellt. Wenn eine private Kanal-Websitesammlung wiederhergestellt wird und es jenseits des 30-tägigen Soft-Delete-Fensters für den privaten Kanal liegt, fungiert die Websitesammlung als eigenständige Websitesammlung.
+
+## <a name="private-channel-message-compliance-records"></a>Konformitätsdatensätze für private Kanal Nachrichten
+
+Datensätze für Nachrichten, die in einem privaten Kanal gesendet wurden, werden an das Postfach aller privaten Kanalmitglieder und nicht an ein Gruppenpostfach übermittelt. Die Titel der Datensätze werden so formatiert, dass Sie angeben, von welchem privaten Kanal Sie gesendet wurden.
+
+Weitere Informationen zum Durchführen einer eDiscovery-Suche für private Kanal Nachrichten finden Sie unter [eDiscovery privater Kanäle](ediscovery-investigation.md#ediscovery-of-private-channels).
 
 ## <a name="considerations-around-access-in-private-channels"></a>Überlegungen rund um den Zugriff in privaten Kanälen
 
