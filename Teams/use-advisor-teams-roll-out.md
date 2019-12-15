@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (Preview), um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
+ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909471"
+ms.lasthandoff: 12/14/2019
+ms.locfileid: "40032818"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -31,72 +31,86 @@ ms.locfileid: "39909471"
 
 Ratgeber für Teams (Preview) führt Sie durch Ihren Rollout von Microsoft Teams. Er analysiert Ihre Office 365-Mandantenumgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams und Office 365-Administratoren, Supportmitarbeitern und ihrer Umstiegs- und Benutzerbereitschafts-Teams. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
-Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Wenn Sie das erste Mal den Ratgeber für Teams verwenden möchten, klicken Sie auf die Schaltfläche **Start** auf dem Widget **Bereitstellen der Teams-Workload** auf dem Dashboard. Oder wechseln Sie zu **Planen** > **Ratgeber**.
+Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Office 365 Business Essentials-Lizenz, um in den Genuss der Integration von Advisor für Teams in Forms und Planner zu kommen. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planen** > **Ratgeber**.
 
 > [!IMPORTANT]
 > Der Ratgeber für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
 
-Sehen Sie sich den Ratgeber für Teams im Video [Deploy & Configure Teams Intro](https://youtu.be/o2mlsUubIO4?t=44) (Einführung in das Bereitstellen und Konfigurieren von Teams) an (Ratgeber für Teams: Minute 0:50 bis Minute 3:15).
+Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Sie im Microsoft Mechanics-Video [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) (Bereitstellen und Konfigurieren von Microsoft Teams).
 
 ## <a name="using-advisor-for-teams-preview"></a>Den Ratgeber für Teams (Vorschau) verwenden
 
-Sie müssen kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um auf die Bereitschaftsbewertung der Mandanten zugreifen zu können.
+Sie müssen kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
 
-Wenn Sie den Ratgeber für Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Teams erstellt. Es fügt Kanäle für jede Workload hinzu, die Sie bereitstellen möchten. 
+Wenn Sie Advisor für Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Teams erstellt. Für jede ausgewählte Workload wird ein Kanal hinzugefügt.
 
+> [!IMPORTANT]
+> Wenn bereits ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich Informationen zu den vorhandenen Teams und deren Mitgliedern offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
 
-## <a name="available-advisor-for-teams-plans"></a>Verfügbare Plans für den Ratgeber für Teams
+## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
-Während der Ratgeber für Teams in der Vorschauversion ist, stellen wir diese beiden Pläne bereit:
+Während Advisor für Teams in der Vorschauversion vorliegt, stellen wir diese beiden Pläne bereit:
 
 1. Chat, Teams, Kanäle und Apps
     - Mandantenbewertung
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
+    - Advisor für Teams – Bot
 1. Besprechungen und Konferenzen
     - Mandantenbewertung
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
+    - Advisor für Teams – Bot
 
-Wir empfehlen, dass Sie mit dem Plan „Chat, Teams, Kanäle und Apps“ starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zum Ratgeber und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten. 
+Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
 
 ## <a name="tenant-assessment"></a>Mandantenbewertung
-Jeder Plan umfasst eine Mandantenbereitschaftsbewertung, die Sie verwenden können, um Mängel in Ihrer Umgebung zu erkennen und zu beheben, bevor Sie Teams bereitstellen. Hier sehen Sie, was in jeder Bewertung überprüft wird:
+Jeder Plan umfasst eine Mandantenbereitschaftsbewertung, mit der Sie Mängel in Ihrer Umgebung erkennen und beheben können, bevor Sie Teams bereitstellen. Die Bewertungen umfassen Voraussetzungen und bewährte Methoden. Bei jedem Bewertungstest wird ein grünes Häkchen oder ein orangefarbenes Warndreieck angezeigt. 
 
-### <a name="chat-teams-channels-and-apps"></a>Chat, Teams, Kanäle und Apps
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Ein grünes Häkchen bedeutet, dass der Mandant den spezifischen Test bestanden hat. 
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Ein orangefarbenes Warndreieck bedeutet, dass Sie nachforschen müssen, ob eine Maßnahme erforderlich ist (so empfiehlt sich beispielsweise eine Ablaufrichtlinie für Office 365-Gruppen, ist aber nicht erforderlich).
 
+> [!IMPORTANT]
+> Sobald ein Benutzer mit einer administrativen Rolle Advisor für Teams gestartet hat, werden alle Bewertungen im Hintergrund ausgeführt. Wenn Sie etwas aktualisieren oder korrigieren, kann es bis zu 24 Stunden dauern, bis es in ihren Bewertungen berücksichtigt wird. Dieser Zustand ist temporär – Sobald Advisor für Teams den Vorschaustatus verlässt und allgemein verfügbar ist, werden die Bewertungen nahezu in Echtzeit aktualisiert.
 
-|Bewertung  |Was sie Ihnen sagt  |
+In den nachstehenden Abschnitten werden die einzelnen Bewertungen beschrieben, und es wird erläutert, ob es sich bei den einzelnen Angaben um Voraussetzungen oder bewährte Methoden handelt, was bei den einzelnen Bewertungen überprüft wird und warum die Überprüfung erfolgt. Zudem erhalten Sie bei Bedarf Anleitungen zur Problembehebung.
+
+### <a name="assessment-tests-for-all-workloads"></a>Bewertungstests für alle Workloads
+
+|Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Teams-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Teams-Lizenzen verfügen |
-|Exchange-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung.         |
-|SharePoint Online-Lizenzen     | Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Sie benötigen eine SharePoint Online-Lizenz pro Benutzer für die Dateispeicherung, die Kanalzusammenarbeit und den Chat. 
-|Gastzugriff aktiviert     |Ob der Gastzugriff auf Teams aktiviert ist. Azure Active Directory-Einstellungen für den Gastzugriff werden nicht überprüft.   |
-|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist  |
-|Benennungsstandard für die Office 365-Gruppen konfiguriert     | Ob Benennungsstandards für Office 365-Gruppen konfiguriert wurden        |
-|Ablaufrichtlinie für Office 365-Gruppen konfiguriert     |  Ob eine Gruppenablaufrichtlinie für Office 365-Gruppen festgelegt wurde. Wenn nicht, wird der Wert auf "nie" gesetzt.        |
-|Externer Zugriff konfiguriert     |Ob der externe Zugriff aktiviert ist, damit Sie mit externen Organisationen in Teams kommunizieren können.          |
+|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen ** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Office 365-Lizenzierung für Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).    |
+|Exchange Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung. Fragt Microsoft Graph ab, um die mit Ihrem Mandanten verbundenen Abonnements zu analysieren und zu überprüfen, ob Sie über Abonnements mit einer berechtigten Exchange Online-Lizenz verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von Exchange und Teams](exchange-teams-interact.md).    |
+|SharePoint Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Wir empfehlen SharePoint Online-Lizenzen auf Benutzerbasis zur Bereitstellung von OneDrive for Business für die Dateispeicherung in Chats. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über SharePoint Online-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
+|Gastzugriff aktiviert     |Bestimmt, ob der [Gastzugriff](guest-access.md) aktiviert ist. Mit Gastzugriff können Sie externe Benutzer in Ihre Teams einladen. Verwenden Sie die [Checkliste für den Teams-Gastzugriff](guest-access-checklist.md) zur Aktivierung des Gastzugriffs in Teams. Die Checkliste enthält die erforderlichen Azure AD-Konfigurationen. |
+|Externer Zugriff konfiguriert     |Bestimmt, ob der [externe Zugriff](manage-external-access.md) aktiviert ist. Standardmäßig ist der externe Zugriff aktiviert, mit offenem Verbund. |
 
-### <a name="meetings-and-conferencing"></a>Besprechungen und Konferenzen
+### <a name="assessments-for-chat-teams-channels-and-apps"></a>Bewertungen für Chat, Teams, Kanäle und Apps
 
+Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-all-workloads) werden die folgenden zusätzlichen Bewertungen für die Chat-, Teams-, Kanal- und App-Workloads ausgeführt:
 
-|Bewertung  |Was sie Ihnen sagt  |
+|Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Teams-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Teams-Lizenzen verfügen |
-|Exchange-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung. |
-|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen |
-|Stream-Lizenzen     |Ob Sie über ein aktives Abonnement mit Stream-Lizenzen verfügen, das verwendet werden kann, wenn Besprechungssaufzeichnungen erwünscht sind. |
-|Gastzugriff     |Ob der Gastzugriff auf Teams aktiviert ist. Azure Active Directory-Einstellungen für den Gastzugriff werden nicht überprüft.|
-|Benutzerdefinierte Domäne     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist.  |
-|Externer Zugriff     |Ob der externe Zugriff aktiviert ist, damit Sie mit externen Organisationen in Teams kommunizieren können. |
+|Konfigurierte Benennungsrichtlinien für Office 365-Gruppen     |Ob Benennungsstandards für Office 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie für Office 365-Gruppen ermöglicht es Ihrer Organisation, eine einheitliche Benennungsstrategie auf vom Benutzer erstellte Teams anzuwenden und gilt auch für andere Gruppenworkloads (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über Microsoft Graph nach der Existenz von Benennungsrichtlinien ab, die für Office 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Konfigurierte Ablaufrichtlinien für Office 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Office 365-Gruppen festgelegt wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
+### <a name="assessments-for-meetings-and-conferencing"></a>Bewertungen für Besprechungen und Konferenzen
 
-### <a name="advisor-bot"></a>Ratgeber-Bot
-Sobald der Ratgeber Ihr Bereitstellungsteam erstellt hat, schickt der Ratgeber-Bot die folgende Nachricht.
+Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-all-workloads) werden die folgenden zusätzlichen Bewertungen für die Besprechungs- und Konferenzworkloads ausgeführt:
+
+|Bewertungstest  |Was sie erfahren  |
+|---------|---------|
+|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Stream-Lizenzen     |Ob Sie über ein aktives Abonnement mit Microsoft Stream-Lizenzen verfügen. Dies ist eine Voraussetzung, wenn Sie die Besprechungsaufzeichnung aktivieren möchten. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Microsoft Stream-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen zu Stream und dessen Aktivierung finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md).
+
+### <a name="advisor-for-teams-bot"></a>Advisor für Teams – Bot
+
+Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advisor für Teams-Bot die folgende Nachricht im Kanal "Allgemein".
 
 >**Willkommen bei Ihrem Bereitstellungsteam für Microsoft Teams!**
 >  
->Der Zweck dieses Teams besteht darin, Sie durch das Rollout Ihrer Organisation zu führen, indem es Ihnen alle benötigten Ressourcen zur Verfügung stellt und dem Projektteam einen Platz zur Zusammenarbeit bietet. Jeder Kanal, der mit dem Ratgeber für Teams erstellt wird, umfasst einen schrittweisen Plan für Planner und andere Ressourcen, z. B. eine Formular-Benutzerumfrage, die während des Rollouts verwendet werden kann. Sie können zu einem beliebigen Zeitpunkt zurückkehren und die Bewertung der Mandantenbereitschaft überprüfen oder zusätzliche Workloads-Pläne über das Teams Admin Center hinzufügen. 
+>Der Zweck dieses Teams besteht darin, Sie durch das Rollout Ihrer Organisation zu führen, indem es Ihnen alle benötigten Ressourcen zur Verfügung stellt und dem Projektteam einen Platz zur Zusammenarbeit bietet. Jeder Kanal, der mit dem Ratgeber für Teams erstellt wird, umfasst einen schrittweisen Plan für Planner und andere Ressourcen, z. B. eine Formular-Benutzerumfrage, die während des Rollouts verwendet werden kann. Sie können zu einem beliebigen Zeitpunkt zurückkehren und die Bewertung der Mandantenbereitschaft überprüfen oder zusätzliche Workloads-Pläne über das Teams Admin Center hinzufügen.
 > 
 >**Handlungsaufforderung** 
 >- Wenn Sie noch nicht mit Teams oder Planner vertraut sind, schauen Sie sich unsere [Teams-Vorgehensweise](https://teamsdemo.office.com/) an und sehen Sie die [Planner-Schnellstartvideos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
@@ -104,19 +118,19 @@ Sobald der Ratgeber Ihr Bereitstellungsteam erstellt hat, schickt der Ratgeber-B
 > 
 >Wenn Sie mehr über den Ratgeber für Teams wissen möchten, lesen Sie [Verwenden des Ratgebers für Teams, um Microsoft Teams bereitzustellen](use-advisor-teams-roll-out.md).
 >
+
 > [!IMPORTANT]
 > Der Ratgeber für Teams-Bot wird nur verwendet, um eine Willkommensnachricht an Ihr Bereitstellungsteam zu schicken. Es werden keine weiteren Daten gesammelt.
 
 > [!IMPORTANT]
-> Der Ratgeber für Teams-Bot ist standardmäßig aktiviert. Deaktivieren Sie ihn nicht, wenn Sie den Ratgeber für Teams verwenden oder wenn Sie es vorhaben, ihn zu verwenden.
-
+> Der Advisor für Teams-Bot ist standardmäßig aktiviert. Deaktivieren Sie ihn nicht, wenn Sie Advisor für Teams verwenden oder vorhaben, Advisor für Teams zu verwenden.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Welche Lizenzanforderungen gelten für den Ratgeber für Teams?
-Es gibt keine zusätzlichen Lizenzanforderungen außer über eine Lizenz für Teams zu verfügen.
+Sie benötigen mindestens Office 365 Business Essentials, um in den Genuss der Integration von Advisor für Teams in Forms und Planner zu kommen.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Kann ich das Bereitstellungsteam löschen?
-Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass, wenn Sie das Team nicht mithilfe des Teams Admin Center löschen, berichtet wird, dass das Team vorhanden ist.
+Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde. Dieser Zustand ist temporär – Sobald Advisor für Teams den Vorschauzeitraum verlässt und allgemein verfügbar ist, wird dies korrigiert.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Kann ich im Bereitstellungsteam Kanäle hinzufügen oder entfernen?
 Ja, nachdem das Bereitstellungsteam erstellt wurde, können Sie die Kanäle auf die gleiche Weise wie bei jedem anderen Team verwalten.
@@ -126,7 +140,6 @@ Ja, nachdem das Bereitstellungsteam erstellt wurde, können Sie Projektteammitgl
 
 ### <a name="can-i-modify-the-planner-plans"></a>Kann ich die Planner-Pläne ändern?
 Ja, nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, sollten Sie den Planner-Plan so aktualisieren, dass er den Rollout ihrer Teams am besten unterstützt. Sie können alles ändern – Buckets, Aufgaben, Aufgabendetails, – ebenso wie bei jedem anderen Planner-Plan.
-
 
 ### <a name="can-i-modify-the-forms-survey"></a>Kann ich die Formulare-Umfrage ändern?
 Ja, nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie die Formulare-Umfrage nach Bedarf ändern.
@@ -149,3 +162,6 @@ Wechseln Sie zum [Formulare-Hilfecenter](https://support.office.com/forms).
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Bereitstellen von Teams](How-to-roll-out-teams.md)
+
+[Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
+) 
