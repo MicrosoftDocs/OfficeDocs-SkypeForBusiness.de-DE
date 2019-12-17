@@ -289,21 +289,26 @@
 
 
 # Cloud Voice 
+
 ## [Planen der Bereitstellung](cloud-voice-landing-page.md)
+
 ## Telefonsystem
 ### [Was ist das Telefonsystem?](what-is-phone-system-in-office-365.md)
 ### [Das Telefonsystem bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 ### [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
 ### [Einrichten von Telefonen in öffentlichen Bereichen](set-up-common-area-phones.md)
+
 ### Voicemail
 #### [Einrichten von Cloudvoicemail](set-up-phone-system-voicemail.md)
 #### [Ändern der Standardsprache für Voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](languages-for-voicemail-greetings-and-messages.md)
+
 ### Anrufer-ID
 #### [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md)
 #### [Verwalten von Anrufer-ID-Richtlinien](caller-id-policies.md)
 #### [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md)
 #### [Mehr über Telefonnummer-ID und Name des Anrufers](more-about-calling-line-id-and-calling-party-name.md)
+
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
 #### [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 #### [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)
@@ -312,6 +317,7 @@
 #### [Verwalten von Ressourcenkonten in Microsoft Teams](manage-resource-accounts.md)
 #### [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
+
 ### [Parken von Anrufen und Holen](call-park-and-retrieve.md)
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
 ### [Anrufrichtlinie](teams-calling-policy.md)
@@ -353,7 +359,12 @@
 #### [Medienpfad-Landesvorwahl](direct-routing-country-codes.md)
 #### [PowerShell-Skript zum Testen von Session Border Controller-Verbindungen](sip-tester-powershell-script.md)
 #### [Verwalten von Anrufbenachrichtigungen](direct-routing-call-notifications.md)
+#### Protokolle
+##### [Definitionen und RFC-Standards](direct-routing-protocols.md)
+##### [SIP-Protokoll](direct-routing-protocols-SIP.md)
+##### [Media-Protokolle](direct-routing-protocols-media.md)
 #### [Einrichten des Rückruf-Bots](direct-routing-ringback-bot.md)
+
 
 ## Telefonnummern
 ### [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
