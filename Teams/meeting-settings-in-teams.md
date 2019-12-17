@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746448"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069456"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -52,7 +52,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 
 1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist ziemlich klein).
 2. Speichern Sie das Bild im JPG-oder PNG-Format.
-3. Speichern Sie das Bild an einem zentralen Speicherort, auf den jeder in Ihrer Organisation zugreifen kann, beispielsweise eine Netzwerkfreigabe.
+3. Speichern Sie das Bild an einem Speicherort, auf den jeder, der die Einladung erhält, zugreifen kann, beispielsweise auf eine öffentliche Website.
 
     Sie können Sie nun zu ihren Besprechungseinladungen hinzufügen. Lesen Sie die nächsten Schritte.
 

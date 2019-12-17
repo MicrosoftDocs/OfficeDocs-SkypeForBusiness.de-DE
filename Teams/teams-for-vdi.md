@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020059"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069346"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -128,12 +128,12 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Bereitstellen der Desktop-App "Teams" auf dem virtuellen Computer
 
-1. Laden Sie das MSI-Paket für Teams herunter, das Ihrem VDI-VM-Betriebssystem entspricht, und verwenden Sie einen der folgenden Links.
+1. Laden Sie das MSI-Paket für Teams, das Ihrem VDI-VM-Betriebssystem entspricht, mit einem der folgenden Links herunter:
 
-    - [32-Bit-Version](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64-Bit-Version](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt)
+    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
 
 2. Installieren Sie die MSI-Karte auf der VDI-VM, indem Sie einen der folgenden Befehle ausführen:
 
@@ -155,14 +155,13 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
  
         Bei der nächsten interaktiven Anmeldesitzung startet Teams und fordert Anmeldeinformationen an.
 
-3. Deinstallieren der MSI-Karte aus der VDI-VM 
+3. Deinstallieren Sie die MSI-Karte aus der VDI-VM. 
 
-    Es gibt zwei Möglichkeiten, Teams zu deinstallieren.  
+    Es gibt zwei Möglichkeiten, Teams zu deinstallieren:  
   
     - PowerShell-Skript (empfohlen): Sie können dieses [PowerShell-Skript](scripts/powershell-script-teams-deployment-clean-up.md) verwenden, um Teams von Zielcomputern oder Benutzern zu bereinigen. Es sollte für jeden Benutzer auf einem Zielcomputer ausgeführt werden. 
     
-    - Befehlszeile: dieser Ansatz entfernt Teams, verhindert aber eine erneute Installation von Teams.  
-    Führen Sie den folgenden Befehl aus:
+    - Befehlszeile: dieser Ansatz entfernt Teams, verhindert aber eine erneute Installation von Teams. Führen Sie den folgenden Befehl aus:
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Wenn Sie von Skype for Business auf VDI zu Teams auf VDI migrieren, gibt es nebe
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Teams im Chrome-Browser versus Teams-Desktop-App für VDI
 
-Teams im Chrome-Browser bieten keinen Ersatz für die Desktop-App "Teams" für VDI mit AV-Optimierung. Die Chat-und Zusammenarbeits Erfahrung funktioniert wie erwartet. Wenn Medien benötigt werden, gibt es einige Erfahrungen, die möglicherweise die Erwartungen der Benutzer im Chrome-Browser nicht erfüllen.
+Teams im Chrome-Browser bieten keinen Ersatz für die Desktop-App "Teams" für VDI mit AV-Optimierung. Die Chat-und Zusammenarbeits Erfahrung funktioniert wie erwartet. Wenn Medien benötigt werden, gibt es einige Erfahrungen, die möglicherweise die Erwartungen der Benutzer im Chrome-Browser nicht erfüllen:
 
 - Die Audio-und Video-Streaming-Funktionalität ist möglicherweise nicht optimal. Benutzer können Verzögerungen oder reduzierte Qualität erleben.
 - Geräteeinstellungen stehen in den Browsereinstellungen nicht zur Verfügung.

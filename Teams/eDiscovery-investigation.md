@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, was Sie tun müssen, wenn Sie eine eDiscovery durchführen, zum Beispiel, wenn Sie alle elektronisch gespeicherten Informationen für Gerichtsverfahren eingereicht müssen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231116"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069186"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 ============================
@@ -42,6 +42,8 @@ Alle Teams 1:1-oder Gruppen-Chats werden über die Postfächer der jeweiligen Be
 3.  Um private Chats im Postfach eines Benutzers anzuzeigen, befinden Sie sich auch im Team-Chat-Ordner unter "Konversationsprotokoll".
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>eDiscovery von Gast-zu-Gast-Chats
+
+In einem Szenario, in dem nur Gäste an 1:1 oder 1: N Chat teilnehmen, unterstützen wir keine eDiscovery dieser Chatnachrichten. 
 
 Ohne ein Postfach würden Gast-zu-Gast-Chats (1xN-Chats, in denen keine Home-Tenant-Benutzer vorhanden sind) nicht indiziert und daher nicht in eDiscovery enthalten sein. Um eDiscovery für Gast-zu-Gast-Chats zu vereinfachen, wird ein Cloud-basiertes Postfach (oder ein Phantom Postfach) zum Speichern der 1xN-Daten erstellt. Nachdem die Chat-Daten des Teams im cloudbasierten Postfach gespeichert wurden, ist es für die eDiscovery-und Compliance-Inhaltssuche indiziert.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515973"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069196"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -41,7 +41,7 @@ Einer der Hauptvorteile von Teams besteht darin, dass der Client automatisch auf
 
 Wie Sie aus dem nachstehenden Diagramm sehen können, stellen Endpunkte einen wichtigen Baustein dar, um Benutzern eine Qualität zu ermöglichen.
 
-![Diagramm, in dem die drei Komponenten des Qualitäts](media/plan-my-users-experience-image1.png "Diagramms beschrieben werden, in denen die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
+![Diagramm, in dem die drei Komponenten der Qualität beschrieben werden](media/plan-my-users-experience-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
 Die Endpunkte von Teams können auf vielen Geräten, einschließlich PCs, Macs, Tablets und mobilen Geräten, ausgeführt werden. Ein Teil der Oberfläche umfasst nicht nur das Gerät, sondern auch, wie ein Benutzer eine Verbindung mit dem Gerät herstellt, beispielsweise mit dem integrierten Mikrofon/Lautsprecher, Ohrhörer oder einem optimierten Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 
@@ -106,7 +106,9 @@ Im Rahmen des Planungsprozesses sollte eine Zuordnung von Personas zu Geräten e
 Wenn Sie die Geräte ausgewählt haben, nehmen Sie sie zur endgültigen Validierung in den Pilottestplan auf. Nutzen Sie in der Pilotphase Umfragen, um Feedback zu sammeln, damit Sie sicherstellen können, dass Sie die optimale Gerätestrategie verwenden.
 
 > [!NOTE]
-> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Informationen zur Suche nach Geräten, die unter diesem Programm zertifiziert sind, finden Sie im Katalog [für USB-Geräte, die für Skype for Business-Lösungen zertifiziert](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) sind.
+> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Informationen zu Geräten, die unter diesem Programm zertifiziert sind, finden Sie auf den [Microsoft Teams-Geräten](https://products.office.com/en-us/microsoft-teams/across-devices/devices) und [USB-Audio-und-Videogeräten](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für die gesamte Geräte Strategie Ihrer Organisation für Benutzer-und Besprechungsraum Erlebnisse.</li></ul></td></tr>

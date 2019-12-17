@@ -14,12 +14,12 @@ MS.collection:
 description: Erfahren Sie mehr über teamübergreifende Analysen und Analyseteams in Teams, in denen Benutzer Nutzungsdaten für Teams anzeigen können, denen Sie angehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37569703"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069446"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams
 
@@ -39,7 +39,7 @@ Pro-Team-Analysen bietet Benutzern eine detailliertere Ansicht der Nutzungsdaten
     |Element |Beschreibung  |
     |--------|-------------|
     |**Name**   |Name des Teams. |
-    |**Aktive Benutzer**   |Die Anzahl aktiver Benutzer in der Team-und Trend Zeile der Team Aktivität während des angegebenen Zeitraums.
+    |**Aktive Benutzer**   |Die Anzahl aktiver Benutzer in der Team-und Trend Zeile der Team Aktivität während des angegebenen Zeitraums. Wir definieren 
     |**Kontakte**   |Die Gesamtzahl der Personen im Team innerhalb des angegebenen Zeitraums. Dazu gehören Teambesitzer, Teammitglieder und Gäste.|
     |**Gäste**   |Die Anzahl der Gäste im Team während des angegebenen Zeitraums. |
     |**Meldungen**   |Die Anzahl der eindeutigen Nachrichten, die im Team-Chat während des angegebenen Zeitraums gepostet wurden. |
@@ -59,6 +59,9 @@ Pro-Team-Analysen bietet Benutzern eine detailliertere Ansicht der Nutzungsdaten
     |**Rolle**   |Die Anzahl der Benutzer im Team nach Rolle, einschließlich Teambesitzer, Teammitglieder und Gäste.|
     |Diagramm " **aktive Benutzer** "  |Die Anzahl der aktiven Benutzer im Team nach Datum. Zeigen Sie mit der Maus auf den Punkt an einem bestimmten Datum, um die Anzahl der aktiven Benutzer an diesem Datum anzuzeigen.|
     |**Nachrichten** -Diagramm  |Die Anzahl der eindeutigen Nachrichten, die im Team-Chat nach Datum gepostet wurden. Zeigen Sie mit der Maus auf den Punkt an einem bestimmten Datum, um die Anzahl der eindeutigen Nachrichten anzuzeigen, die an diesem Datum gepostet wurden.|
+    
+> [!NOTE]
+> Wir definieren aktive Benutzer als Benutzer, die eine absichtliche Aktion im Desktop Client, dem mobilen Client und dem WebClient durchführen. Beispiele für eine absichtliche Aktion sind das Starten eines Chats, das Platzieren eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung usw. Wir entfernen passive Aktionen wie automatisches Booten, Minimieren eines Bildschirms oder Schließen der app. Wir deduplizieren auch alle Aktionen über eine einzelne Benutzer-ID.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -15,19 +15,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571524"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069376"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Wenn Sie Ihre Skype for Business-Benutzer für die Verwendung von Teams upgraden, stehen Ihnen mehrere Optionen zur Verfügung, mit denen Sie einen nahtlosen Prozess für Ihre Benutzer durchführen können. Sie haben die Möglichkeit, Koexistenz-und Upgradeeinstellungen für alle Benutzer in Ihrer Organisation gleichzeitig zu erstellen, oder Sie können Änderungen an Einstellungen für eine einzelne Person oder eine Gruppe von Benutzern in Ihrer Organisation vornehmen. Beachten Sie, dass diese Einstellungen für ältere Versionen von Skype for Business-Clients nicht berücksichtigt werden. Weitere Informationen zu den Skype for Business-Clientversionen finden Sie auf der [Seite Skype for Business-Downloads und-Updates](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
+Wenn Sie Ihre Skype for Business-Benutzer für die Verwendung von Teams upgraden, stehen Ihnen mehrere Optionen zur Verfügung, mit denen Sie einen nahtlosen Prozess für Ihre Benutzer durchführen können. Sie haben die Möglichkeit, Koexistenz-und Upgradeeinstellungen für alle Benutzer in Ihrer Organisation gleichzeitig zu erstellen, oder Sie können Änderungen an Einstellungen für eine einzelne Person oder eine Gruppe von Benutzern in Ihrer Organisation vornehmen. Beachten Sie, dass diese Einstellungen für ältere Versionen von Skype for Business-Clients nicht berücksichtigt werden. Weitere Informationen zu den Skype for Business-Clientversionen finden Sie auf der [Seite Skype for Business-Downloads und-Updates](https://docs.microsoft.com/skypeforbusiness/software-updates). 
 
 Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur Verfügung stehen, indem Sie verstehen, wie Sie [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) oder [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)lesen.  
 
@@ -45,6 +45,8 @@ Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur
     - Setzen Sie den **Koexistenzmodus** .
         - **Inseln** – verwenden Sie diese Einstellung, wenn Benutzer in der Lage sein sollen, Skype for Business und Teams gleichzeitig zu verwenden.
         - **Nur Skype for Business** – verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer nur Skype for Business verwenden.
+        - **Skype for Business mit Teamzusammenarbeit** – verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer Skype for Business zusätzlich zur Verwendung von Teams für die Gruppenzusammenarbeit (Kanäle) verwenden.
+        - **Skype for Business in Zusammenarbeit und Besprechungen in Teams** – verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer Skype for Business zusätzlich zur Verwendung von Teams für Gruppenzusammenarbeit (Kanäle) und Teams-Besprechungen verwenden.
         - **Nur für Teams** (in der Vorschau für einige Organisationen) – verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer nur Teams verwenden können. Beachten Sie, dass Benutzer auch bei dieser Einstellung weiterhin an Besprechungen teilnehmen können, die in Skype for Business gehostet werden.
     - Einrichten von **Skype for Business-Benutzern Benachrichtigen, dass Teams für ein Upgrade verfügbar sind**. Wenn Sie diese Option aktivieren, werden Sie den Skype for Business-Benutzern mitteilen, dass Sie in Kürze auf die Team-APP aktualisiert werden.
     - Wählen **Sie die bevorzugte App für Benutzer aus, um an Skype for Business-Besprechungen teilzunehmen**. Diese Einstellung bestimmt, welche App für die Teilnahme an Skype for Business-Besprechungen verwendet wird, und wird unabhängig vom Wert des Koexistenzmodus geehrt.
@@ -62,7 +64,9 @@ Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur
 3. Sie können den **Koexistenzmodus**einstellen. Wählen Sie eine der folgenden Optionen aus:
      - **Verwenden von organisationsweiten Einstellungen** – verwenden Sie diese Einstellung, wenn der Benutzer die Einstellungen in den **organisationsweiten** Einstellungen verwenden soll. 
      - **Inseln** – verwenden Sie diese Einstellung, wenn der Benutzer in der Lage sein soll, Skype for Business und Teams zu verwenden. 
-     - **Nur Skype for Business** – verwenden Sie diese Einstellung, wenn Sie möchten, dass der Benutzer Skype for Business verwendet. 
+     - **Nur Skype for Business** – verwenden Sie diese Einstellung, wenn Sie möchten, dass der Benutzer Skype for Business verwendet.
+     - **Skype for Business in Zusammenarbeit mit Teams** – verwenden Sie diese Einstellung, wenn der Benutzer Skype for Business zusätzlich zur Verwendung von Teams für die Gruppenzusammenarbeit (Kanäle) verwenden soll.
+      - **Skype for Business in Zusammenarbeit und Besprechungen in Teams** – verwenden Sie diese Einstellung, wenn der Benutzer Skype for Business zusätzlich zur Verwendung von Teams für Gruppenzusammenarbeit (Kanäle) und Teams-Besprechungen verwenden soll.
      - **Nur für Teams** – verwenden Sie diese Einstellung, wenn der Benutzer nur Teams verwenden soll. Der Benutzer kann weiterhin an Skype for Business-Besprechungen teilnehmen.
 4. Wenn Sie einen anderen **Koexistenzmodus** als die **Verwendung von organisationsweiten Einstellungen**auswählen, haben Sie die Möglichkeit, Benachrichtigungen in der Skype for Business-App des Benutzers zu aktivieren, die in Kürze auf Teams aktualisiert wird. Sie können diese Benachrichtigung für den Benutzer aktivieren, indem Sie die Option **Skype for Business-Benutzer benachrichtigen** aktivieren.
 5. Klicken Sie auf **Speichern** , nachdem Sie die Änderungen vorgenommen haben.

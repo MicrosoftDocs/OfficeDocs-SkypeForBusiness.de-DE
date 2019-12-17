@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: 5fc7c8970f87cbb998c8803fe1dd230e693ed040
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 70a99da3d3e8c9c6cdbff5d68cdb7fe8c255ca3d
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714471"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069386"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 
@@ -44,6 +44,7 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:---  |:---  |:---  |
+|Update für Skype for Business 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | Oktober 2019|
 |Update für Skype for Business 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | September 2019|
 |Update für Skype for Business 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | August 2019|
 |Update für Skype for Business 2016 |[KB 4475545](https://support.microsoft.com/kb/4475545) | Juli 2019|

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318110"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070230"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -218,9 +218,8 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 **Wählen nach Name** Wenn Sie diese Option aktivieren, können Anrufer nach Personen in Ihrer Organisation mithilfe **von Dial by Name**suchen. Sie sagen, dass der Name und die Spracherkennung des Benutzers mit einem Benutzer übereinstimmen. Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Dial-by-Erweiterung** (diese Vorschaufunktion ist noch nicht für die Allgemeinheit verfügbar) Wenn Sie diese Option aktivieren, können Anrufer mit Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons eingeben. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
+**Durchwahl** Wenn Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons eingeben. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
 
 > [!IMPORTANT]
 > Beachten Sie bitte Folgendes:

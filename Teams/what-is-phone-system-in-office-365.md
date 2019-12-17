@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, welchen Nutzen das Telefonsystem für Sie hat. '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568531"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069396"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
-**Telefonsystem** ist die Microsoft-Technologie zum Aktivieren der Anrufsteuerung und der PBX-Funktionen in der Office 365-Cloud mit Skype for Business Online und Microsoft Teams. Mit dem Telefonsystem können Sie Ihr vorhandenes Nebenstellensystem durch eine Reihe von Funktionen ersetzen, die über Office 365 bereitgestellt werden und die eng in Ihre Cloudlösung integriert sind. Weitere Informationen zu diesen Funktionen finden Sie unter [ Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet](here-s-what-you-get-with-phone-system.md).
+**Telefonsystem** ist die Microsoft-Technologie zum Aktivieren der Anrufsteuerung und der PBX-Funktionen in der Office 365-Cloud mit Skype for Business Online und Microsoft Teams. Mit dem Telefonsystem können Sie Ihr vorhandenes Nebenstellensystem durch eine Reihe von Funktionen ersetzen, die über Office 365 bereitgestellt werden und die eng in Ihre Cloudlösung integriert sind. Weitere Informationen zu den Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md).
   
 Mit dem Telefonsystem können Benutzer Skype for Business Online und Microsoft Teams verwenden, um Anrufe zu tätigen und entgegenzunehmen, Anrufe weiterzuleiten sowie Anrufe vorübergehend stummzuschalten. Telefonsystem-Benutzer können auf einen Namen in Ihrem Adressbuch klicken, und Skype for Business oder Microsoft Teams wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business und Microsoft Teams verwendet werden können. Telefonsystem-Administratoren können Anrufoptionen und Einstellungen von der gleichen Konsole aus verwalten, die für Mitteilungen und die Zusammenarbeit usw. verwendet wird.
   
