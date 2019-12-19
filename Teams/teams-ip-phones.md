@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Für Microsoft Teams zertifizierte IP-Desk-und Konferenztelefone
-ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: bf14bed7846b8c1b3dea1d79f3ecae99706dc034
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675823"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744849"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -48,6 +48,7 @@ Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 |Crestron M100|2.3875.00068|Dezember 2018|
 |Crestron Flex UC-P100-t #a0 UC-P110-t  | 58.15.91.6 |Januar 2019|
 |Poly Trio 8500/8800 (nur Shared-Modus)| 5.9.0.10869|Juni 2019|
+|Poly-CCX500 | 1.0.0.2535| Dezember 2019|
 |Yealink VP59 | 91.15.0.16 |Juni 2019|
 |Yealink T55 | 58.15.0.36 |Mai 2019|
 |Yealink CP 960 |73.15.0.20|Dezember 2018|
@@ -60,7 +61,7 @@ Weitere Informationen finden Sie unter [Suchen der Firmwareversion auf einem mob
 
 Microsoft Teams-Lizenzen können als Teil ihrer [Office 365-Abonnements](/MicrosoftTeams/Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
-Weitere Informationen zum Abrufen von Teams finden Sie unter [wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 

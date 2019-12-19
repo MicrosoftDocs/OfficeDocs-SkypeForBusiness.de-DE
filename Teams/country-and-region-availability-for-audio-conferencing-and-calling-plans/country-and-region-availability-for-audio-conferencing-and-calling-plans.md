@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573085"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741389"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -39,21 +39,26 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Wählen Sie Ihr Land oder Ihre Region aus, um zu sehen, was für Ihre Organisation verfügbar ist.
 
 > [!div class="op_single_selector"]
-> - [Algerien](availability-in-algeria.md)    
+> - [Algerien](availability-in-algeria.md)
+> - [Antigua und Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentinien](availability-in-argentina.md)
 > - [Australien](availability-in-australia.md)
 > - [Österreich](availability-in-austria.md)
+> - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahrain](availability-in-bahrain.md)
-> - [Belarus](availability-in-belarus.md)
+> - [Barbados](availability-in-barbados.md)
+> - [Belarus (Weißrussland)](availability-in-belarus.md)
 > - [Belgien](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Benin](availability-in-benin.md)
+> - [Bermuda](availability-in-bermuda.md)
 > - [Bosnien und Herzegowina](availability-in-bosniaherzegovina.md)
 > - [Brasilien](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgarien](availability-in-bulgaria.md)
 > - [Kambodscha](availability-in-cambodia.md)
 > - [Kanada](availability-in-canada.md)
+> - [Kaimaninseln](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
 > - [Kolumbien](availability-in-colombia.md)
@@ -62,6 +67,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Zypern](availability-in-cyprus.md)
 > - [Tschechien](availability-in-the-czech-republic.md)
 > - [Dänemark](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [Dominikanische Republik](availability-in-the-dominican-republic.md)
 > - [Ecuador](availability-in-ecuador.md)
 > - [Ägypten](availability-in-egypt.md)
@@ -73,6 +79,8 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Deutschland](availability-in-germany.md)
 > - [Ghana](availability-in-ghana.md)
 > - [Griechenland](availability-in-greece.md)
+> - [Grenada](availability-in-grenada.md)
+> - [Guam](availability-in-guam.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hongkong (SAR)](availability-in-hong-kong.md)
 > - [Ungarn](availability-in-hungary.md)
@@ -81,6 +89,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Irland](availability-in-ireland.md)
 > - [Israel](availability-in-israel.md)
 > - [Italien](availability-in-italy.md)
+> - [Jamaika](availability-in-jamaica.md)
 > - [Japan](availability-in-japan.md)
 > - [Jordan](availability-in-jordan.md)
 > - [Kasachstan ](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Qatar](availability-in-qatar.md)
 > - [Rumänien](availability-in-romania.md)
 > - [Russische Föderation](availability-in-russia.md)
+> - [St. Kitts und Nevis](availability-in-saint-kitts-and-nevis.md)
+> - [St. Lucia](availability-in-saint-lucia.md)
 > - [Saudi Arabien](availability-in-saudi-arabia.md)
 > - [Serbien](availability-in-serbia.md)
 > - [Singapur](availability-in-singapore.md)
@@ -136,7 +147,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
+**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
 
 ***
 
@@ -188,7 +199,7 @@ Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe t�
 Informationen zur Lizenzierung finden Sie zudem unter [Lizenzierung von Telefonsystem und Anrufplänen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den**aktiven Benutzern** des **Microsoft 365 admin Centers** > und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im Microsoft 365-Administrator aufgeführt ist. ** Center**. 
+> Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den**aktiven Benutzern** des **Microsoft 365 admin Centers** > und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**aufgeführt ist. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

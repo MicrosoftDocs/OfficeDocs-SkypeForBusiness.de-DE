@@ -3,7 +3,7 @@ title: Verfügbarkeit in Belize
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
@@ -24,33 +24,33 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Belize verfügbar sind.
-ms.openlocfilehash: 0a0f1de71a64c0bd9c1cd11cd7570442626a5073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571114"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741349"
 ---
 # <a name="availability-in-belize"></a>Verfügbarkeit in Belize
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Belize verfügbar sind.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [Minuten Zahlung pro Minute](../audio-conferencing-pay-per-minute.md) <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
-| Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
+|Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
 |Anrufwarteschleifen  <br/> |Verfügbar  <br/> |
 |Voicemail  <br/> |Verfügbar  <br/> |
    
@@ -64,7 +64,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
@@ -74,9 +74,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
-|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Nein  <br/> |
+|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    
 Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../set-up-communications-credits-for-your-organization.md).
   

@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in Kambodscha
+title: Verfügbarkeit in Antigua und Barbuda
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -22,26 +22,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kambodscha verfügbar sind.
-ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
+ms.openlocfilehash: 78954a6f1b118118affde08fbc94b4b2cfb19d9d
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741369"
+ms.locfileid: "40741569"
 ---
-# <a name="availability-in-cambodia"></a>Verfügbarkeit in Kambodscha
+# <a name="availability-in-antigua-and-barbuda"></a>Verfügbarkeit in Antigua und Barbuda
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kambodscha verfügbar sind.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [Minuten Zahlung pro Minute](../audio-conferencing-pay-per-minute.md)  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [Minuten Zahlung pro Minute](../audio-conferencing-pay-per-minute.md) <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -65,9 +65,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Phnom Penh |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja <br/> |
-|Sind gebührenfreie Nummern verfügbar?  <br/> |Nein <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht zutreffend |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein <br/> |
+|Sind gebührenfreie Nummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen erhalten möchten, lesen Sie [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

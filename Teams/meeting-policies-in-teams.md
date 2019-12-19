@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564966"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744869"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -40,7 +40,7 @@ Sie können Richtlinien wie folgt implementieren, die sich auf die Besprechungs 
 |Pro Benutzer    |Wenn Sie eine Richtlinie pro Benutzer implementieren, gilt nur die Richtlinie pro Benutzer, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer zu beschränken. Beispielsweise ist " **jetzt** besprechen" eine Richtlinie pro Benutzer.     |
 |Pro Organisator und pro Benutzer     |Wenn Sie eine Kombination aus einer pro-Organizer-und pro-Benutzer-Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. So können Sie beispielsweise für die **Cloud-Aufzeichnung** eine pro-Organizer-und pro-Benutzer-Richtlinie verwenden. Aktivieren Sie diese Einstellung, damit der Besprechungsorganisator und die Teilnehmer eine Aufzeichnung starten und beenden können. 
 
-Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Besprechungsrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, auf die die Einstellungen angewendet werden. 
+Standardmäßig wird eine Richtlinie namens „Global“ (organisationsweiter Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Besprechungsrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und sie den Benutzern zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, auf die die Einstellungen angewendet werden. 
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern oder Erstellen einer Besprechungsrichtlinie
 
@@ -57,27 +57,27 @@ Unter **Inhaltsfreigabe**:
 - Deaktivieren des Whiteboards
 - Deaktivieren von freigegebenen Notizen
 
-Weisen Sie die Richtlinie dann den Benutzern zu.
+Weisen Sie dann die Richtlinie den Benutzern zu.
 
 > [!NOTE] 
 > Einem Benutzer kann immer nur eine Besprechungsrichtlinie zugewiesen werden. 
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Zuweisen einer Besprechungsrichtlinie zu Benutzern
 
-Wenn Sie die Richtlinie auf einen Benutzer anwenden, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und klicken Sie dann auf den Anzeigenamen des Benutzers. Wählen Sie auf der Seite des Benutzers neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus. Wählen Sie dann im Bereich **Benutzerrichtlinien bearbeiten** unter **Besprechungsrichtlinie**die Besprechungsrichtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. Sie können auch Richtlinien aus der Liste der Benutzer zuweisen. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**aus. Wählen Sie dann im Bereich **Bearbeitungseinstellungen** unter **Besprechungsrichtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. 
+Wenn Sie die Richtlinie auf einen Benutzer anwenden, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und klicken Sie dann auf den Anzeigenamen des Benutzers. Wählen Sie auf der Seite des Benutzers neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus. Wählen Sie dann im Bereich **Benutzerrichtlinien bearbeiten** unter **Besprechungsrichtlinie**die Besprechungsrichtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. Sie können auch Richtlinien aus der Liste der Benutzer zuweisen. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**. Wählen Sie dann im Bereich **Bearbeitungseinstellungen** unter **Besprechungsrichtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. 
  
 Wenn Sie eine Richtlinie auf mehr als einen Benutzer anwenden, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und wählen Sie dann die einzelnen Benutzer aus, indem Sie links neben dem Benutzernamen klicken und dann auf **Einstellungen bearbeiten**klicken. Wählen Sie im Bereich **Bearbeitungseinstellungen** unter **Besprechungsrichtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus.
  
 Sie können auch eine Besprechungsrichtlinie einem oder mehreren Benutzern wie folgt zuweisen:
 
 1. Wechseln Sie zu den **Microsoft Teams Admin Center** > -**Besprechungsrichtlinien**für**Besprechungen** > .
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten**aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
 5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern**aus.
  
 > [!NOTE] 
-> Sie können eine Richtlinie nicht löschen, wenn Benutzer ihr zugewiesen sind. Sie müssen zunächst allen betroffenen Benutzern eine andere Richtlinie zuweisen, und Sie können dann die ursprüngliche Richtlinie löschen.
+> Sie können eine Richtlinie nicht löschen, solange Sie Benutzern zugewiesen ist. Sie müssen allen betroffenen Benutzern erst eine andere Richtlinie zuweisen, bevor Sie die ursprüngliche Richtlinie löschen können.
  
 ## <a name="meeting-policy-settings"></a>Einstellungen für Besprechungsrichtlinien
 
@@ -95,7 +95,7 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 ## <a name="meeting-policy-settings---general"></a>Einstellungen für Besprechungsrichtlinien – allgemein
 
 - [Sofortbesprechung in Kanälen zulassen](#allow-meet-now-in-channels)
-- [Private Besprechung jetzt zulassen (in Kürze verfügbar)](#allow-private-meet-now-coming-soon)
+- [Private Besprechung jetzt zulassen](#allow-private-meet-now)
 - [Zulassen des Outlook-Add-ins](#allow-the-outlook-add-in)
 - [Planen der Kanal Besprechung zulassen](#allow-channel-meeting-scheduling)
 - [Planen privater Besprechungen zulassen](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Begi
 
 ![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Private Besprechung jetzt zulassen (in Kürze verfügbar)
+### <a name="allow-private-meet-now"></a>Private Besprechung jetzt zulassen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  
 
@@ -160,7 +160,7 @@ Personen außerhalb Ihrer Organisation, wie etwa Föderations-und anonyme Benutz
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |Cloud-Aufzeichnung zulassen |
+|Benutzer |Besprechungsrichtlinie  |Cloud-Aufzeichnung zulassen |
 |---------|---------|---------|
 |Daniela | Global   | Falsch |
 |Amanda | Location1MeetingPolicy | Wahr|
@@ -178,7 +178,7 @@ Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |IP-Video zulassen |
+|Benutzer |Besprechungsrichtlinie  |IP-Video zulassen |
 |---------|---------|---------|
 |Daniela   | Global   | Wahr        |
 |Amanda    | Location1MeetingPolicy        | Falsch      |
@@ -213,7 +213,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinien Einstellungen – Inhaltsfreigabe
 
-- [Bildschirmfreigabemodus](#screen-sharing-mode)
+- [Bildschirmübertragungsmodus](#screen-sharing-mode)
 - [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](#allow-a-participant-to-give-or-request-control)
 - [Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert](#allow-an-external-participant-to-give-or-request-control)
 - [PowerPoint-Freigabe zulassen](#allow-powerpoint-sharing)
@@ -221,7 +221,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 - [Zulassen von freigegebenen Notizen](#allow-shared-notes)
 - [Chat in Besprechungen zulassen (in Kürze verfügbar)](#allow-chat-in-meetings-coming-soon)
 
-### <a name="screen-sharing-mode"></a>Bildschirmfreigabemodus
+### <a name="screen-sharing-mode"></a>Bildschirmübertragungsmodus
 
 Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User-Richtlinie. Mit dieser Einstellung wird gesteuert, ob die Desktop-und/oder Fenster Freigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmern, denen keine Richtlinien zugewiesen sind (beispielsweise anonyme, Gast-, B2B-und Verbund Teilnehmer) erben die Richtlinie des Besprechungsorganisators.
 
@@ -233,7 +233,7 @@ Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie |Bildschirmfreigabemodus |
+|Benutzer |Besprechungsrichtlinie |Bildschirmübertragungsmodus |
 |---------|---------|---------|
 |Daniela  | Global   | Ganzer Bildschirm |
 |Amanda   | Location1MeetingPolicy  | Deaktiviert |
@@ -256,7 +256,7 @@ Wenn die Einstellungen für den Benutzer deaktiviert sind, steht die Option " **
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |Zulassen, dass Teilnehmer die Steuerung erteilen oder anfordern |
+|Benutzer |Besprechungsrichtlinie  |Zulassen, dass Teilnehmer die Steuerung erteilen oder anfordern |
 |---------|---------|---------|
 |Daniela   | Global   | Wahr       |
 |Babək    | Location1MeetingPolicy        | Falsch   |
@@ -280,7 +280,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung 
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |PowerPoint-Freigabe zulassen |
+|Benutzer |Besprechungsrichtlinie  |PowerPoint-Freigabe zulassen |
 |---------|---------|---------|
 |Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy        | Falsch   |
@@ -293,7 +293,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung 
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |Whiteboard zulassen|
+|Benutzer |Besprechungsrichtlinie  |Whiteboard zulassen|
 |---------|---------|---------|
 |Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy        | Falsch   |
@@ -306,7 +306,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung 
 
 Sehen wir uns das folgende Beispiel an:
 
-|User |Besprechungsrichtlinie  |Zulassen von freigegebenen Notizen |
+|Benutzer |Besprechungsrichtlinie  |Zulassen von freigegebenen Notizen |
 |---------|---------|---------|
 |Daniela   | Global   | Wahr       |
 |Amanda   | Location1MeetingPolicy | Falsch |
@@ -387,8 +387,6 @@ Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
-
-[Vollständiger Artikel](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Nachrichtenrichtlinien in Teams](messaging-policies-in-teams.md)

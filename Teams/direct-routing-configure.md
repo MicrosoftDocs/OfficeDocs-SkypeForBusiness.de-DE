@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020069"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741379"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -556,7 +556,7 @@ Manchmal möchten mandantenadministratoren die Anrufer-oder Rufnummernanzeige f�
 
 Die Richtlinie wird auf der SBC-Ebene angewendet. Sie können einem SBC mehrere Übersetzungsregeln zuweisen, die in der Reihenfolge angewendet werden, in der Sie angezeigt werden, wenn Sie Sie in PowerShell auflisten. Sie können auch die Reihenfolge der Regeln in der Richtlinie ändern.
 
-Zum Erstellen, ändern, anzeigen und Löschen von Regeln für die Nummern Manipulation verwenden Sie die Cmdlets New-TeamsTranslationRule, Sets-TeamsTranslationRule, Get-TeamsTranslationRule und Remove-TeamsTranslationRule.
+Zum Erstellen, ändern, anzeigen und Löschen von Regeln für die Nummern Manipulation verwenden Sie die Cmdlets New-CsTeamsTranslationRule, Sets-CsTeamsTranslationRule, Get-CsTeamsTranslationRule und Remove-CsTeamsTranslationRule.
 
 Zum zuweisen, konfigurieren und Auflisten von Regeln für die Nummern Manipulation auf SBCS verwenden Sie die Cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) und [setCSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) zusammen ```InboundPSTNNumberTranslationRules```mit ```OutboundTeamsNumberTranslationRules```den ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList``` ```InboundTeamsNumberTranslationRules```,,,,, ```OutboundPSTNNumberTranslationRulesList``` ,, und Parametern.
 
