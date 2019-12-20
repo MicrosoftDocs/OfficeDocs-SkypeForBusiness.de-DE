@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679235"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823910"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -101,6 +101,18 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
+
+### <a name="meeting-expiration"></a>Ablauf der Besprechung
+
+|Besprechungstyp  |Besprechung läuft nach diesem Zeitraum ab  |Jedes Mal, wenn Sie eine Besprechung starten oder aktualisieren, verlängert sich der Ablaufzeitpunkt um die entsprechende Zeit  |
+|---------|---------|---------|
+|Besprechung beginnen     |Startzeitpunkt + 8 Stunden         |Nicht zutreffend         |
+|Regulär ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         | 60 Tage        |
+|Regulär mit Endzeitpunkt     |Endzeitpunkt + 60 Tage         |60 Tage         |
+|Wiederkehrend ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         |60 Tage         |
+|Wiederkehrend mit Endzeitpunkt     |Endzeitpunkt des letzten Vorkommens + 60 Tage         |60 Tage         |
+
+
 
 ## <a name="teams-live-events"></a>Teams-Liveereignisse
 
