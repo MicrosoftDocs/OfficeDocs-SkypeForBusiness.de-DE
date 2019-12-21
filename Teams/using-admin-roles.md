@@ -19,10 +19,10 @@ description: Erfahren Sie, wie Sie die verschiedenen administrativen Rollen zum 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97288109f7998a8d29520169e229a5546da94bc5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 12/20/2019
 ms.locfileid: "37616057"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams

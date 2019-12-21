@@ -16,20 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236455"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "36437627"
 ---
-![Abbildung des Stakeholder-Status der Upgrade-Reise] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
+![Abbildung des Stakeholder-Status der Upgrade-Reise](media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
 
 Dieser Artikel ist Teil der Project Stakeholder-Phase ihres Upgrade-Vorgangs, der ersten und wichtigsten Aktivität, die Sie für den Erfolg Ihres Projekts abgeschlossen haben.
 
+
 # <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
-Von der Implementierung von Projektergebnissen bis hin zur vermehrten Verantwortlichkeit halten Ihre Stakeholder den Schlüssel zum Erfolg Ihres Projekts. Es gibt zwei Gruppen von Stakeholdern, die Sie zuweisen möchten: (1) eine _Sponsoring-Koalition_ , die Führungskräfte und Projektsponsoren umfasst, die über ein Interesse an dem Erfolg des Projekts verfügen und (2) das _Projektteam_, bestehend aus dem Personen, die dafür verantwortlich sind, die technische und Benutzer Bereitschaft zu gewährleisten, die die verschiedenen Aufgaben im Projektplan durchführen. Der gemeinsame Thread zwischen diesen beiden Gruppen ist der _Projektmanager_, der sicherstellt, dass Projektaufgaben planmäßig abgeschlossen werden und der Koalition den Projektstatus zurückgibt.
+Von der Implementierung von Projektergebnissen bis hin zur vermehrten Verantwortlichkeit halten Ihre Stakeholder den Schlüssel zum Erfolg Ihres Projekts. Es gibt zwei Gruppen von Teilnehmern, die Sie zuweisen möchten: (1) eine _Sponsoring-Koalition_ , die Führungskräfte und Projektsponsoren umfasst, die über ein Interesse an dem Erfolg des Projekts verfügen, und (2) das _Projektteam_, bestehend aus den Personen, die für die Bereitstellungtechnischer und Benutzer Bereitschaft verantwortlich sind, die die verschiedenen Aufgaben im Projektplan durchführen werden. Der gemeinsame Thread zwischen diesen beiden Gruppen ist der _Projektmanager_, der sicherstellt, dass Projektaufgaben planmäßig abgeschlossen werden und der Koalition den Projektstatus zurückgibt.
 
 > [!Tip]
 > Nehmen Sie sich Zeit, um den idealen Executive-Sponsor zu identifizieren, jemanden, der Ihnen helfen kann, den Ton Ihres Projekts festzulegen, führt mit gutem Beispiel und hält andere zur Rechenschaft. Dies sollte ein leitender Manager oder leitender Mitarbeiter sein, der über den Projektumfang und die Vision verfügt. Darüber hinaus sollten Sie die endgültige Entscheidungshilfe beim Entfernen von Blockierungen und der Konfliktlösung sein, damit das Projekt Zeit-und Budget gerecht bleibt.
@@ -38,7 +39,7 @@ Optional können Sie ein Lenkungskomitee erstellen. Manchmal sind große oder ko
 
 | | |
 |---|---|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte | <ul><li>Wer sind die richtigen Personen, die als Ihr Stakeholder-Team für dieses Projekt fungieren?</li></ul> |
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte | <ul><li>Wer sind die richtigen Personen, die als Ihr Stakeholder-Team für dieses Projekt fungieren?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Überdenken Sie den Umfang Ihres Projekts, und weisen Sie die relevanten Stakeholder zu.</li><li>Verwenden Sie die folgende Tabelle als Richtlinie, doch beachten Sie, dass diese Liste nicht "All-Inclusive" ist.<br><strong>Tipp</strong><br>Erstellen Sie eine verantwortungsbewusste, beratene [(RACI)-Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) , um diejenigen zu unterscheiden, die von denjenigen, die in einem bestimmten Bereich des Projekts informiert werden müssen, zur Rechenschaft gezogen werden.</li> |
 | <li>Entscheiden Sie, ob Sie ein Lenkungskomitee erstellen möchten, und weisen Sie Rollen nach Bedarf zu.</li></ul> | |
 

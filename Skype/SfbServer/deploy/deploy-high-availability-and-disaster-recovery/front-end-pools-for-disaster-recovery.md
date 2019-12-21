@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Sie können Front-End-Poolpaare verwenden, um Schutz durch Notfallwiederherstellung bereitzustellen. Dies ist jedoch nicht erforderlich.
-ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240035"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "39254394"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen gekoppelter Front-End-Pools für Disaster Recovery in Skype for Business Server
  
@@ -39,25 +39,27 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
     
 6. Verwenden Sie den Topologie-Generator zum Veröffentlichen der Topologie.
     
-7. Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Die letzten beiden Schritte in diesem Verfahren können Sie überspringen.
+7. Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Sie können die letzten Schritte in diesem Verfahren überspringen.
     
-    Wenn die Pools jedoch bereits bereitgestellt waren, bevor Sie die Paarbeziehung definiert haben, müssen Sie die beiden folgenden abschließenden Schritte ausführen.
+    Wenn die Pools jedoch bereits bereitgestellt wurden, bevor Sie die gekoppelte Beziehung definiert haben, müssen Sie die folgenden letzten Schritte ausführen.
     
 8. Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.
     
-9. Führen Sie in der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell die folgenden Aktionen aus: 
+9. Nachdem Bootstrapper die Installation der erforderlichen Komponenten für die Backup-Kopplung auf jedem Front-End-Server in beiden Pools abgeschlossen hat, stellen Sie sicher, dass Sie alle vorhandenen kumulativen Updates erneut anwenden, die zuvor auf diesen Front-End-Servern in beiden Pools angewendet wurden, und dann fortfahren. mit dem nächsten Schritt.
+
+10. Führen Sie in der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell die folgenden Aktionen aus: 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:
+11. Erzwingen Sie die Synchronisierung der Benutzer-und Konferenzdaten beider Pools mit den folgenden Cmdlets:
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
