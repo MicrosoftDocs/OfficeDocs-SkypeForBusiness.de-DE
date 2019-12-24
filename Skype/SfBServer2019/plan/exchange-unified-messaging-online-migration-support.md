@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890579"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854090"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -185,7 +185,7 @@ Wir raten dringend davon ab, die Einrichtung ihrer neuen automatischen Telefonze
 | AA | Dienst Features | After-Hours-und Feiertags Behandlung  |  | Y | Y    |
 | AA | Dienst Features | Benutzerdefinierte Begrüßung mithilfe von Text zu Sprache  |  | Y | Y    |
 | AA | Dienst Features | Durchwahl Wahl   | Erreichen eines Benutzers durch Wählen der Durchwahl  | Y   | Y    |
-| AA | Dienst Features | Postfach für AA-Anrufer, um eine Nachricht zu hinterlassen    |  | CY19   | Y    |
+| AA | Dienst Features | Postfach für AA-Anrufer, um eine Nachricht zu hinterlassen    |  | Y   | Y    |
 | AA | Dienst Features | Zuweisung mehrerer PSTN-Nummern zu einem AA|  | Y | Y    |
 | AA | Mandanten-Administratorfunktionen | Web Portal-Verwaltung   |  | J | N    |
 | AA | Mandanten-Administratorfunktionen | PowerShell-Cmdlets  |  | Y | Y    |
