@@ -19,18 +19,18 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069326"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891214"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
 Ein Wählplan ist ein Norminalisierungsregelsatz, der die von einem einzelnen Benutzer gewählten Telefonnummern zur Anrufautorisierung und Anrufweiterleitung in ein anderes Format (normalerweise E.164) übersetzt.
 
-Ein Wählplan besteht aus einer oder mehreren Normalisierungsregeln, die definieren, wie Telefonnummern, die in verschiedenen Formaten ausgedrückt werden, in ein alternatives Format übersetzt werden. Die gleiche Wählzeichenfolge kann in verschiedenen Wählplänen anders interpretiert und übersetzt werden, je nachdem, welcher Wählplan einem bestimmten Benutzer zugewiesen ist, kann dieselbe gewählte Nummer unterschiedlich übersetzt und weitergeleitet werden.
+Ein Wählplan besteht aus einer oder mehreren Normalisierungsregeln, die definieren, wie Telefonnummern, die in verschiedenen Formaten ausgedrückt werden, in ein alternatives Format übersetzt werden. Die gleiche Wählzeichenfolge kann in verschiedenen Wählplänen anders interpretiert und übersetzt werden, je nachdem, welcher Wählplan einem bestimmten Benutzer zugewiesen ist, kann dieselbe gewählte Nummer unterschiedlich übersetzt und weitergeleitet werden. Es können maximal 1.000 Mandanten Wählpläne vorhanden sein.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Mandanten Wählplänen.
 
