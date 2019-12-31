@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>Week of November 18, 2019
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 11/18/2019 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
-| 11/18/2019 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/room-systems/requirements) | Geändert |
-| 11/18/2019 | [Erstellen einer Anrufwarteschlange](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 11/18/2019 | [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | Geändert |
-| 11/18/2019 | [Lizenzen für Microsoft Teams-Räume](/MicrosoftTeams/room-systems/skype-room-systems-v2) | Geändert |
-| 11/19/2019 | [Anwesenheit in Microsoft Teams](/MicrosoftTeams/presence-admins) | Geändert |
-| 11/19/2019 | [Verwalten des Lebenszyklus privater Kanäle in Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | Geändert |
-| 11/19/2019 | [Lizenzen für Microsoft Teams-Räume](/MicrosoftTeams/room-systems/skype-room-systems-v2) | Geändert |
-| 11/19/2019 | [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Geändert |
-| 11/19/2019 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
-| 11/19/2019 | [Verwalten Sie die Besprechungseinstellungen](/MicrosoftTeams/meeting-settings-in-teams) | Geändert |
-| 11/20/2019 | [Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Geändert |
-| 11/20/2019 | [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
-| 11/20/2019 | [Clients für Microsoft Teams abrufen](/MicrosoftTeams/get-clients) | Geändert |
-| 11/20/2019 | [Identitätsmodelle und Authentifizierung in Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | Geändert |
-| 11/20/2019 | [Teamschaltung in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Geändert |
-| 11/21/2019 | [Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams](/MicrosoftTeams/audit-log-events) | Geändert |
-| 11/21/2019 | [Migrieren von Slack auf Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Geändert |
-| 11/21/2019 | [Verwenden von Network Planner für Microsoft Teams](/MicrosoftTeams/network-planner) | Geändert |
-| 11/21/2019 | [Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien](/MicrosoftTeams/retention-policies-faq) | Geändert |
-| 11/21/2019 | [Aufbewahrungsrichtlinien in Microsoft Teams](/MicrosoftTeams/retention-policies) | Geändert |
-| 11/21/2019 | [Versionsunterstützung](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | Geändert |
-| 11/21/2019 | [Übersicht über Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Geändert |
-| 11/21/2019 | [Veröffentlichen von apps im Microsoft Teams-Mandanten-apps-Katalog](/MicrosoftTeams/tenant-apps-catalog-teams) | Geändert |
-| 11/22/2019 | [Willkommen bei Microsoft Teams](/MicrosoftTeams/teams-overview) | Geändert |
-| 11/22/2019 | [Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | Geändert |
-| 11/22/2019 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Geändert |
-| 11/22/2019 | [Erstellen einer Anrufwarteschlange](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 11/22/2019 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | Geändert |
-| 11/22/2019 | [Clients für Microsoft Teams abrufen](/MicrosoftTeams/get-clients) | Geändert |
-| 11/22/2019 | [Abrufen von Telefonnummern für Ihre Benutzer](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Geändert |
-| 11/22/2019 | [Verwenden Sie den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Geändert |
-| 11/22/2019 | [Verwalten des Benutzerzugriffs auf Microsoft Teams](/MicrosoftTeams/user-access) | Geändert |
-
-
 ## <a name="week-of-november-25-2019"></a>Week of November 25, 2019
 
 
@@ -54,7 +14,7 @@
 | 11/26/2019 | [Aktivieren von Microsoft Teams in Ihrer Office 365-Organisation](/MicrosoftTeams/office-365-set-up) | Geändert |
 | 11/26/2019 | [Konfigurieren dynamischer Notrufe](/MicrosoftTeams/configure-dynamic-emergency-calling) | Geändert |
 | 11/26/2019 | [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-configure-network-settings) | Geändert |
-| 11/26/2019 | [Aktivieren des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-enable) | geändert |
+| 11/26/2019 | [Aktivieren des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-enable) | Geändert |
 | 11/26/2019 | [Planen des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-plan) | Geändert |
 | 11/26/2019 | Terminologie für das standortbasierte Routing | Entfernt |
 | 11/26/2019 | [Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | Geändert |
@@ -173,3 +133,11 @@
 | 12/18/2019 | [Planen von Microsoft 365 Government – GCC High-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Geändert |
 | 12/18/2019 | [Telefone und Geräte für Teams](/MicrosoftTeams/teams-ip-phones) | Geändert |
 | 12/19/2019 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+
+
+## <a name="week-of-december-23-2019"></a>Woche vom Dezember 23, 2019
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 12/27/2019 | [Was sind Wählpläne?](/MicrosoftTeams/what-are-dial-plans) | Geändert |
