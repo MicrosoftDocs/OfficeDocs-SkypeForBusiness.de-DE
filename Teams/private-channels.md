@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie private Kanäle in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020049"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929561"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -132,7 +132,7 @@ Anleitungen zum Verwalten des Lebenszyklus privater Kanäle in Ihrer Organisatio
 
 ## <a name="private-channel-sharepoint-sites"></a>Private Kanal-SharePoint-Websites
 
-Jeder private Kanal verfügt über eine eigene SharePoint-Websitesammlung, die für die Dateifreigabe und schnelle Bereitstellung optimiert wurde. Die separate Websitesammlung dient dazu, sicherzustellen, dass der Zugriff auf private Kanaldateien nur auf Mitglieder des privaten Kanals beschränkt ist, die mit der Teamwebsite verglichen werden, auf der Teambesitzer auf alle Ressourcen in der Websitesammlung zugreifen können. Diese Websitesammlungen werden standardmäßig mit einer Dokumentbibliothek erstellt und können mithilfe der [Website Verwaltungsoberfläche](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)problemlos auf eine vollständige Websitesammlung erweitert werden. Jede Websitesammlung wird in derselben geografischen Region wie die Websitesammlung des übergeordneten Teams erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Diagramm-API zu vereinfachen.
+Jeder private Kanal verfügt über eine eigene SharePoint-Websitesammlung, die für die Dateifreigabe und schnelle Bereitstellung optimiert wurde. Die separate Websitesammlung dient dazu, sicherzustellen, dass der Zugriff auf private Kanaldateien nur auf Mitglieder des privaten Kanals beschränkt ist, die mit der Teamwebsite verglichen werden, auf der Teambesitzer auf alle Ressourcen in der Websitesammlung zugreifen können. Diese Websitesammlungen werden standardmäßig mit einer Dokumentbibliothek erstellt und können mithilfe der [Website Verwaltungsoberfläche](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)problemlos auf eine vollständige Websitesammlung erweitert werden. Jede Websitesammlung wird in derselben geografischen Region wie die Websitesammlung des übergeordneten Teams erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Diagramm-API zu vereinfachen.  Sie werden im SharePoint Admin Center nicht angezeigt.
 
 Um eine größere Anzahl von Websitesammlungen pro Mandanten aufnehmen zu können, ist der Grenzwert von 500.000 auf 2 Millionen gestiegen. Eine private Kanal-Websitesammlung synchronisiert die Datenklassifizierung und erbt die Gastzugriffs Berechtigungen aus der Websitesammlung des übergeordneten Teams.  Die Mitgliedschaft beim Besitzer der Websitesammlung und in den Mitgliedsgruppen wird mit der Mitgliedschaft des privaten Kanals in Microsoft Teams synchronisiert. Alle Änderungen an der Mitgliedschaft von Besitzer-oder Mitgliedsgruppen in SharePoint Online werden innerhalb von vier Stunden automatisch auf eine private Kanal Mitgliedschaft zurückgesetzt. In Szenarien, in denen bestimmte Benutzer auf Dokumente zugreifen müssen, ohne auf private Kanal Nachrichten zugreifen zu müssen, fügen Sie Sie der Gruppe Besucher auf der Website oder einer neuen Gruppe hinzu, die von Besitzern und Mitgliedern getrennt ist.
 
