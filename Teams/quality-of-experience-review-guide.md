@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290975"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952808"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -83,7 +83,7 @@ Alternativ können Sie einem Office 365-Benutzerkonto die folgende Rolle zuweise
 Bei der Besprechung von Qualität in Teams und Skype for Business ist es wichtig, den Begriff zu definieren, um ein gemeinsames Verständnis zu erreichen. Qualität, wie hier definiert, ist eine Kombination aus Dienst Metriken und Benutzerfreundlichkeit.
 
 <!-- Note: need to update graphic-->
-![Abbildung von Dienst Metriken und der Benutzeroberfläche](media/qerguide-image-whatisquality.png "Service-Metriken bestehen aus einem schlechten Datenstrom Verhältnis, Zuverlässigkeit, Endpunkten/Geräten und Clientversionen. Die Benutzererfahrung basiert auf der Einschätzung des Benutzers über die Qualität des Diensts. ")
+![Abbildung von Dienst Metriken und der Benutzeroberfläche](media/qerguide-image-whatisquality.png "Dienst Metriken bestehen aus unzureichendem Datenstrom Verhältnis, Zuverlässigkeit, Endpunkten/Geräten und Clientversionen. Die Benutzererfahrung besteht aus der Einschätzung des Benutzers zur Qualität des Diensts.")
 
 _Abbildung 2: Was ist Qualität?_
 
@@ -225,7 +225,7 @@ Die folgende Grafik beschreibt die Aufgaben, die Sie für jede Kategorie ausfüh
 Wenn Sie diese Aufgaben zum ersten Mal ausführen, benötigen Sie mehr Aufwand als nachfolgende Iterationen, da für viele dieser Kategorien die Überprüfung ihrer Bereitstellungskonfigurationen erforderlich ist. Nachdem Sie den gewünschten Zustand erreicht haben, indem Sie die von Ihnen festgelegten Ziele erfüllen, können Sie diesen Status durch Ausführen dieser Aufgaben beibehalten.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Liste der wöchentlichen Aufgaben pro Qualitätskategorie](media/qerguide-image-tasks.png "List der wöchentlichen Aufgaben pro Qualitätskategorie ")
+![Liste der wöchentlichen Aufgaben pro Qualitätskategorie](media/qerguide-image-tasks.png "Liste der wöchentlichen Aufgaben pro Qualitätskategorie")
 
 #### <a name="service-management-tasks"></a>Dienstverwaltungsaufgaben
 
@@ -323,7 +323,7 @@ Bei einigen CQD-Berichten müssen Sie einen Filter für Ihre Mandanten-ID angebe
 
 2. Öffnen Sie ein Azure PowerShell-Befehlsfenster, und führen Sie das folgende Skript aus, und geben Sie bei der entsprechenden Aufforderung Ihre Office 365-Anmeldeinformationen ein: 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ Bei einigen CQD-Berichten müssen Sie einen Filter für Ihre Mandanten-ID angebe
 
 2. Führen Sie den folgenden Befehl aus:
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _Abbildung 5: Auswählen eines Produkt Filters_
 
 Wenn Sie alle detaillierten Berichte filtern möchten, fügen Sie in der Browserleiste am Ende der URL Folgendes an:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ Das Ausschließen von Verbund Daten aus CQD-Berichten ist hilfreich, wenn Sie ve
 
 Wenn Sie einen URL-Filter implementieren möchten, fügen Sie in der Adressleiste des Browsers folgendes an das Ende der URL an:
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ Beispiel
 
 Wenn Sie die Berichte für Teams oder Skype for Business filtern möchten, fügen Sie am Ende der URL Folgendes an:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 

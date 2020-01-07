@@ -1,6 +1,5 @@
 ---
 title: Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741389"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952438"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -147,7 +146,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
+**Wenn Sie nach einem Arbeitsblatt mit allen Ländern und Regionen suchen, laden Sie das [Feature Land/Region-Verfügbarkeitstabelle für Cloud-VoIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)herunter, und speichern Sie**es.
 
 ***
 

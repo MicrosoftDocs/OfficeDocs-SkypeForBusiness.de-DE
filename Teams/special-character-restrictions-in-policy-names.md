@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Sehen Sie sich die Probleme mit Sonderzeichen in den Namen der Richtlinien an, und was Sie tun können, um Sie zu beheben.
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568656"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952758"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 
@@ -40,7 +40,7 @@ Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie entweder
 
 **Schritt 1: Erstellen einer Remoteverbindung mit PowerShell** 
  [Richten Sie Ihren Computer für Windows PowerShell ein](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , wenn Sie dies noch nicht getan haben.
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie entweder
 > [!NOTE]
 > In diesem Beispiel handelt es sich um eine [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) Richtlinie.  Die Schritte wären für andere Richtlinientypen identisch, aber Sie müssen das richtige Cmdlet verwenden. 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen,
 
 Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen und dann ausführen:
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **Schritt 4: Zuweisen der Richtlinie**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
@@ -76,14 +76,14 @@ Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingP
 **Schritt 5: Löschen der alten Richtlinie**
 
 Dadurch wird die alte Richtlinie mit den Sonderzeichen gelöscht.
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 Weitere Informationen zu diesem Cmdlet finden Sie unter [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
 Wenn dieser Befehl erfolgreich ausgeführt wird, sind Sie fertig. Wenn der obige Befehl einen Fehler zurückgibt, liegt dies daran, dass die alte Richtlinie Benutzern zugewiesen ist, damit Sie alle zugewiesenen Benutzer aus der Richtlinie entfernen müssen:
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?

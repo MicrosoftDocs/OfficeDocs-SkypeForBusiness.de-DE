@@ -3,7 +3,7 @@ title: Verfügbarkeit in Georgien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
@@ -24,30 +24,30 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Georgien verfügbar sind.
-ms.openlocfilehash: c6745aac2f50e16d973f925e0b0da59744af7324
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fa419a70674852e47e70bba2da5e922339b3dd33
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572911"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952778"
 ---
 # <a name="availability-in-georgia"></a>Verfügbarkeit in Georgien
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Georgien verfügbar sind.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Tiflis</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [Minuten Zahlung pro Minute](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -64,7 +64,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Tiflis  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
@@ -74,9 +74,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
-|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Nein  <br/> |
+|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    
 Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../set-up-communications-credits-for-your-organization.md).
   

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
-ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 2c88dc5ba754e907ab32b41ea1731dc6f367d5a9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665438"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952738"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft Teams rooms-Konsole
 
@@ -133,7 +133,7 @@ Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skri
 11. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
     
 12. Führen Sie den folgenden Befehl aus: 
-    ```
+    ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
@@ -190,7 +190,7 @@ Die Microsoft Teams rooms-Konsole muss den Zertifikaten vertrauen, die von den S
     
 3. Führen Sie den folgenden Befehl aus:
     
-   ```
+   ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
@@ -207,13 +207,13 @@ Sie können an Microsoft Teams rooms-Konsolen an Ihre Domäne teilnehmen. Micros
     
 3. Geben Sie in PowerShell den folgenden Befehl ein:
     
-   ```
+   ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
 Wenn Ihre vollqualifizierte Domäne beispielsweise Redmond.Corp.Microsoft.com ist und Sie möchten, dass sich Ihre Microsoft Teams rooms-Konsolen in einer OU "Microsoft Teams Rooms" befinden, die ein untergeordnetes Element einer "Resources"-ou ist, lautet der Befehl wie folgt:
   
-```
+```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 

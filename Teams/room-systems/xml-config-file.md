@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074617"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952458"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -30,7 +30,7 @@ Sie können die Standardeinstellungen von Remote verwalteten Geräten ändern, i
 
 Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu erstellen. In der Tabelle **XML-Elemente** werden die Elemente erläutert, die in dieser Beispielkonfigurationsdatei SkypeSettings. XML (required File Name) angezeigt werden.
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>

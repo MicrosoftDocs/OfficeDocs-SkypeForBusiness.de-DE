@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 62840e0a28ee1eba2a9b5a94f976f169eab628da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910053"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952718"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -71,7 +71,7 @@ Wenn Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie 
 
 2. Verschachteln Sie in Exchange PowerShell ein Postfach für das Konto (Postfach aktivieren Sie das Konto), indem Sie den folgenden Befehl ausführen:
 
-   ``` Powershell
+   ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
@@ -95,7 +95,7 @@ Wenn Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie 
 
    In diesem Beispiel werden diese Einstellungen für das Raumpostfach mit dem Namen Project-Rigel-01 konfiguriert.
 
-   ``` PowerShell
+   ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 

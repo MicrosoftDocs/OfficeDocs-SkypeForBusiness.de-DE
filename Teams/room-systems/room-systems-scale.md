@@ -31,12 +31,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: c8d460f4ad94adaccce9fb84b12e37ab5adc0cc6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218032"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952748"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 
@@ -299,7 +299,7 @@ Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, di
 1.  Erstellen Sie im **Paketordner SRS v2-Set-SRSComputerName** eine neue HTML-Anwendung mit dem Namen **Set-SRSComputerName. HTA** .
 
 2.  Kopieren Sie das folgende Skript in die **Set-SRSComputerName. HTA** -Datei. Alternativ können Sie die Set-SRSComputerName. HTA-Datei [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
-    ```
+    ```HTML
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -409,7 +409,7 @@ Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, di
 1. Erstellen Sie im Ordner **SRS v2 – Sysprep-Paket** eine neue XML-Datei mit dem Namen **Unattend. XML** .
 
 2. Kopieren Sie den folgenden Text in die Datei **Unattend. XML** . Alternativ können Sie die Datei "Unattend. xml" [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
-   ```
+   ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
    <settings pass="specialize">

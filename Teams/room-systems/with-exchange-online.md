@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online.
-ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: c9192dad3ffc8cb45a5b4a213865a1daa998075d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979788"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952488"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -102,7 +102,7 @@ Import-PSSession $Session -DisableNameChecking
 3. Verwenden Sie als nächstes`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> , um eine Liste der verfügbaren SKUs für Ihren Office 365-Mandanten abzurufen.
 4. Nachdem Sie die SKUs aufgelistet haben, können Sie eine Lizenz mit dem`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“). 
 
-  ```
+  ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense

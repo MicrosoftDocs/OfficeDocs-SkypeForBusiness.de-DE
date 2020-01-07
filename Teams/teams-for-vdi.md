@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069346"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952848"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -254,7 +254,7 @@ Sie können auch die folgenden Schritte ausführen:
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP** > -**Anruf Richtlinien**, und klicken Sie dann auf **DisallowCalling**.
     - Wechseln Sie zu den**Besprechungsrichtlinien**für **Besprechungen** > , und klicken Sie dann auf **AllOff**.
-3. Wählen Sie **Benutzer verwalten**.
+3. Wählen Sie **Benutzer verwalten** aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** nach dem Benutzer mit Anzeigename oder nach Benutzername, wählen Sie den Namen aus, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
@@ -262,7 +262,7 @@ Sie können auch die folgenden Schritte ausführen:
 
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) die DisallowCalling-Anrufrichtlinie einem Benutzer zuweisen.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 ```
 
@@ -270,7 +270,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richt
 
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) die AllOff-Besprechungsrichtlinie einem Benutzer zuweisen.
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 ```
 
@@ -306,7 +306,7 @@ Sie können auch die folgenden Schritte ausführen:
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP** > -**Anruf Richtlinien**, und klicken Sie dann auf **AllowCalling**.
     - Wechseln Sie zu den**Besprechungsrichtlinien**für **Besprechungen** > , und klicken Sie dann auf **Allon**.
-3. Wählen Sie **Benutzer verwalten**.
+3. Wählen Sie **Benutzer verwalten** aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** nach dem Benutzer mit Anzeigename oder nach Benutzername, wählen Sie den Namen aus, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
@@ -314,7 +314,7 @@ Sie können auch die folgenden Schritte ausführen:
 
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) die AllowCalling-Anrufrichtlinie einem Benutzer zuweisen.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
 ```
 
@@ -322,7 +322,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richt
 
 Im folgenden Beispiel wird gezeigt, wie Sie den [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um die Allon-Besprechungsrichtlinie einem Benutzer zuzuweisen.
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 ```
 
