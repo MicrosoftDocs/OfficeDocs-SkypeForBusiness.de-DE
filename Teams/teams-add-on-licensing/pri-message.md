@@ -17,16 +17,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informieren Sie sich über Prioritäts Benachrichtigungen in Teams-Messaging.
-ms.openlocfilehash: d5ef07a2aff31281d8d0429c74751bf53ec7e556
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e39af4c400fef5b44e0994d95821ea9005edbba
+ms.sourcegitcommit: 1329ddd54d2a22c493677581c838eb6b3456bacc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572443"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947075"
 ---
 # <a name="messaging-policies-licensing"></a>Lizenzierung von Nachrichtenrichtlinien
 
-Ab dem 1. Januar 2020 können lizenzierte Benutzer dringende Nachrichten mit Prioritäts Benachrichtigungen gemäß den Vertragsbestimmungen senden. IT-Administratoren erhalten Berichte über die Verwendung von Prioritäts Benachrichtigungen, um eine entsprechende Benutzer Lizenzierung zu unterstützen. Die Benutzer können ungeachtet der Lizenz unbegrenzt dringende Nachrichten mit Prioritäts Benachrichtigungen erhalten. 
+Bis April 1, 2020, sind unbegrenzte Prioritäts Benachrichtigungen in Microsoft Teams für alle Benutzer verfügbar. Diese Werbeaktion wird auf den 1. April 2020 vom ursprünglichen Endtermin des 31. Dezember 2019 verlängert. Nach dem 1. April werden lizenzierte Benutzer in der Lage sein, Prioritäts Benachrichtigungen gemäß den Vertragsbestimmungen zu senden.
+
+Wie im Juni 2019 angekündigt, können Benutzer eine Teams-Nachricht als dringend kennzeichnen, wenn Sie Zugriff auf das Feature "Prioritäts Benachrichtigungen" haben. Dringende Nachrichten werden mit Prioritäts Benachrichtigungen gesendet, die den Empfänger alle zwei (2) Minuten für einen Zeitraum von 20 Minuten Benachrichtigen, oder bis der Empfänger die Nachricht liest. Dieses Feature maximiert die Wahrscheinlichkeit, dass eine Nachricht rechtzeitig verarbeitet wird.
+
+IT-Administratoren erhalten Berichte über die Verwendung von Prioritäts Benachrichtigungen, um eine entsprechende Benutzer Lizenzierung zu unterstützen. Die Benutzer können ungeachtet der Lizenz unbegrenzt dringende Nachrichten mit Prioritäts Benachrichtigungen erhalten. [Weitere Informationen zu Prioritäts Benachrichtigungen](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
 
 |Segment| |Senden von bis zu 5 Nachrichten pro Benutzer pro Monat| Senden unbegrenzter Nachrichten pro Benutzer und Monat|
 |---|---|---|---|

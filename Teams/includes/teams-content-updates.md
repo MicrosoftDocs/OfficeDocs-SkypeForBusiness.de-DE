@@ -3,27 +3,6 @@
 
 
 
-## <a name="week-of-november-25-2019"></a>Week of November 25, 2019
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 11/25/2019 | [Planen der Medienumgehung mit direktem Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | Geändert |
-| 11/25/2019 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
-| 11/25/2019 | [Microsoft Teams PSTN-Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Geändert |
-| 11/26/2019 | [Aktivieren von Microsoft Teams in Ihrer Office 365-Organisation](/MicrosoftTeams/office-365-set-up) | Geändert |
-| 11/26/2019 | [Konfigurieren dynamischer Notrufe](/MicrosoftTeams/configure-dynamic-emergency-calling) | Geändert |
-| 11/26/2019 | [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-configure-network-settings) | Geändert |
-| 11/26/2019 | [Aktivieren des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-enable) | Geändert |
-| 11/26/2019 | [Planen des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-plan) | Geändert |
-| 11/26/2019 | Terminologie für das standortbasierte Routing | Entfernt |
-| 11/26/2019 | [Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | Geändert |
-| 11/26/2019 | [Verwalten von Notfall Anruf Richtlinien in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Geändert |
-| 11/26/2019 | [Planen von Notrufen, Notfalladressen, Notfall Anrufrouting, dynamische Notrufe](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | Geändert |
-| 11/26/2019 | [Kursleitergeführte Schulung und Videos für Microsoft Teams-Benutzer](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Geändert |
-| 11/27/2019 | [Verfügbarkeit in Japan](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | Geändert |
-
-
 ## <a name="week-of-december-02-2019"></a>Woche vom Dezember 02, 2019
 
 
@@ -48,7 +27,7 @@
 | 12/5/2019 | [Migration zu direktem Routing](/MicrosoftTeams/direct-routing-migrating) | Geändert |
 | 12/5/2019 | [Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | Geändert |
 | 12/5/2019 | [Behandeln von Problemen mit dem Gastzugriff in Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Geändert |
-| 12/6/2019 | [Administratorschulung für Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | geändert |
+| 12/6/2019 | [Administratorschulung für Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
 | 12/6/2019 | [Willkommen bei Microsoft Teams](/MicrosoftTeams/teams-overview) | Geändert |
 | 12/6/2019 | [Chat, Teams, Kanäle und Apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Geändert |
 | 12/6/2019 | [Microsoft Teams-Schulung](/MicrosoftTeams/training-microsoft-teams-landing-page) | Geändert |
@@ -113,7 +92,7 @@
 | 12/16/2019 | [Erstellen und Verwalten von Wählplänen](/MicrosoftTeams/create-and-manage-dial-plans) | Geändert |
 | 12/16/2019 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 12/16/2019 | [Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | Geändert |
-| 12/16/2019 | [Verwalten Sie die Besprechungseinstellungen](/MicrosoftTeams/meeting-settings-in-teams) | geändert |
+| 12/16/2019 | [Verwalten Sie die Besprechungseinstellungen](/MicrosoftTeams/meeting-settings-in-teams) | Geändert |
 | 12/16/2019 | [Microsoft Teams-Anrufflüsse](/MicrosoftTeams/microsoft-teams-online-call-flows) | Geändert |
 | 12/16/2019 | [Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Geändert |
 | 12/16/2019 | [Anmerkungen zu dieser Version](/MicrosoftTeams/room-systems/srs2-release-note) | Geändert |
@@ -129,7 +108,7 @@
 | 12/18/2019 | [Verfügbarkeit in Honduras](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | Geändert |
 | 12/18/2019 | [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
 | 12/18/2019 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | Geändert |
-| 12/18/2019 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 12/18/2019 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | geändert |
 | 12/18/2019 | [Planen von Microsoft 365 Government – GCC High-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Geändert |
 | 12/18/2019 | [Telefone und Geräte für Teams](/MicrosoftTeams/teams-ip-phones) | Geändert |
 | 12/19/2019 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
@@ -141,3 +120,11 @@
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
 | 12/27/2019 | [Was sind Wählpläne?](/MicrosoftTeams/what-are-dial-plans) | Geändert |
+
+
+## <a name="week-of-december-30-2019"></a>Woche vom Dezember 30, 2019
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 1/2/2020 | [Private Kanäle in Microsoft Teams](/MicrosoftTeams/private-channels) | Geändert |
