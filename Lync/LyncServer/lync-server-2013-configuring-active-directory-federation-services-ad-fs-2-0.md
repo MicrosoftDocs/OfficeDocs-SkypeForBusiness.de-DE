@@ -10,12 +10,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839295"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,37 +57,37 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Partnerverbunddien
 2.  Starten Sie Windows PowerShell.
 
 3.  Führen Sie aus der Windows PowerShell-Befehlszeile den folgenden Befehl aus:
-    
-        add-pssnapin Microsoft.Adfs.PowerShell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 4.  Einrichten einer Partnerschaft mit jedem lync Server 2013 mit kumulativen Updates für lync Server 2013: Juli 2013 Director, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie den folgenden Befehl ausführen, wobei die für Ihre Bereitstellung spezifischer Servername:
-    
-        Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Starten Sie aus dem Menü „Verwaltung“ die AD FS 2.0-Verwaltungskonsole.
 
-6.  Erweitern von Vertrauensstellungen für **vertrauenswürdige Beziehungen** \> ****.
+6.  Erweitern **von Vertrauensstellungen**für **vertrauenswürdige Beziehungen** \> .
 
 7.  Überprüfen Sie, ob eine neue Vertrauensstellung für Ihren lync Server 2013 mit kumulativen Updates für lync Server 2013: Juli 2013 Enterprise-Pool oder Standard Edition-Server erstellt wurde.
 
 8.  Erstellen Sie eine Ausstellungsautorisierungsregel für Ihre Vertrauensstellung der vertrauenden Seite und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
 9.  Erstellen Sie eine Ausstellungstransformationsregel für Ihre Vertrauensstellung der vertrauenden Seite und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
-       ```
+       ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 

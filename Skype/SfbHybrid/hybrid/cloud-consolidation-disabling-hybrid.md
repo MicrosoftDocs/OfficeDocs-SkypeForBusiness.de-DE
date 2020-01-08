@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren der hybridbereitstellung zur vollständigen Migration in die Cloud
+title: Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010578"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963073"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der hybridbereitstellung zur vollständigen Migration in die Cloud
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud
 
-Nachdem Sie alle Benutzer aus der lokalen Umgebung in die Cloud verschoben haben, können Sie die lokale Skype for Business Bereitstellung außer Betrieb nehmen. Neben dem Entfernen von Hardware besteht ein wichtiger Schritt darin, die lokale Bereitstellung logisch von Office 365 durch Deaktivieren von Hybrid zu trennen. Das Deaktivieren von Hybriden besteht aus drei Schritten:
+Nachdem Sie alle Benutzer von lokal in die Cloud verschoben haben, können Sie die lokale Skype for Business-Bereitstellung außer Betrieb nehmen. Abgesehen davon, dass Hardware entfernt wird, besteht ein wichtiger Schritt darin, die lokale Bereitstellung von Office 365 durch Deaktivieren der Hybridbereitstellung zu trennen. Das Deaktivieren von Hybriden besteht aus drei Schritten:
 
-1. Aktualisieren Sie die DNS-Einträge so, dass Sie auf Office 365 deuten.
+1. Aktualisieren Ihrer DNS-Einträge derart, dass sie auf Office 365 verweisen.
 
-2. Deaktivieren Sie die geteilte Domäne im Office 365 Mandanten.
+2. Deaktivieren der geteilten Domäne im Office 365-Mandanten.
 
 3. Deaktivieren Sie die Möglichkeit in der lokalen Kommunikation mit Office 365.
 
@@ -57,13 +57,13 @@ Das externe DNS der Organisation für die lokale Organisation muss so aktualisie
 2.  *Deaktivieren Sie den freigegebenen SIP-Adressraum in Office 365 Mandanten.*
 Der folgende Befehl muss in einem Skype for Business Online PowerShell-Fenster ausgeführt werden.
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *Deaktivieren der Fähigkeit in der lokalen Umgebung zur Kommunikation mit Office 365.*  
 Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden:
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 

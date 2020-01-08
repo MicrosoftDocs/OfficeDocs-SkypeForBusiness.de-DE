@@ -10,12 +10,12 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9464e83370690e018374c4ffb60e0b61c30fe300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 69aa99d94843c6daa1483911325d45ede0a39f4a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832854"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,19 +77,19 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
 
 2.  Führen Sie für jedes Bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet „New-CsNetworkBandwidthPolicyProfile“ aus. Führen Sie beispielsweise den folgenden Befehl aus:
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
        ```
 

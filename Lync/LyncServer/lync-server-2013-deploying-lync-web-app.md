@@ -10,12 +10,12 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca2a0d2da0b10b8e60df8489b8cc0a584cd70e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c355be1c1709cede9c032d59790d6beefb337ff6
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832543"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971135"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,25 +81,25 @@ Die lync Server 2013-Version von lync Web App unterstützt die mehrstufige Authe
 2.  Erstellen Sie Zertifikate für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" im Abschnitt Planen und Bereitstellen von AD FS für die Verwendung mit dem Thema für einmaliges [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)anmelden unter.
 
 3.  Führen Sie über die Windows PowerShell-Befehlszeilenschnittstelle den folgenden Befehl aus:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Richten Sie durch Ausführen des folgenden Befehls eine Partnerschaft ein:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Legen Sie die folgenden vertrauenswürdigen Parteienregeln fest:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 

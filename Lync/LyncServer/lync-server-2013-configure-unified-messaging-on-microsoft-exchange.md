@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +57,15 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!WARNING]  
-    > Wenn Sie den Wert für die Sicherheitseinstellung auf <STRONG>SIP secured</STRONG> festgelegt haben, um die Verschlüsselung für den SIP-Datenverkehr zu erzwingen, wie zuvor empfohlen, beachten Sie, dass diese Sicherheitseinstellung für einen Wählplan unzureichend ist, wenn der Front-End-Pool so konfiguriert ist, dass eine Verschlüsselung erforderlich ist, was bedeutet der Pool erfordert Verschlüsselung für SIP-und RTP-Datenverkehr. Wenn die Sicherheitseinstellungen für Wählplan und Pool nicht kompatibel sind, schlagen alle Anrufe an Exchange um aus dem Front-End-Pool fehl, was zu einem Fehler führt, der besagt, dass Sie über eine "inkompatible Sicherheitseinstellung" verfügen.
+    > Wenn Sie den Wert für die Sicherheitseinstellung auf <STRONG>SIP secured</STRONG> festgelegt haben, um die Verschlüsselung für den SIP-Datenverkehr zu erzwingen, wie zuvor empfohlen, beachten Sie, dass diese Sicherheitseinstellung für einen Wählplan unzureichend ist, wenn der Front-End-Pool so konfiguriert ist, dass eine Verschlüsselung erforderlich ist, was bedeutet, dass der Pool für SIP-und RTP-Datenverkehr verschlüsselt Wenn die Sicherheitseinstellungen für Wählplan und Pool nicht kompatibel sind, schlagen alle Anrufe an Exchange um aus dem Front-End-Pool fehl, was zu einem Fehler führt, der besagt, dass Sie über eine "inkompatible Sicherheitseinstellung" verfügen.
 
     
     </div>
     
     Wenn Sie die Exchange-Verwaltungsshell verwenden, geben Sie Folgendes ein:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     Ausführliche Informationen finden Sie hier:
     
       - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP-URI [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) -Wählplans für Unified Messaging" unter und "neu-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Exchange 2007-Hilfe" unter.
@@ -85,7 +85,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
 
 2.  Führen Sie das folgende Cmdlet aus, um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für die einzelnen um-Wähleinstellungen zu erhalten:
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -119,12 +119,12 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
         Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
     
       - Wenn Sie die Exchange-Verwaltungsshell verwenden, führen Sie für jeden Ihrer Exchange um-Server die folgenden Aktionen aus:
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -135,13 +135,13 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     </div>
 
 5.  Navigieren Sie \<zu Exchange-\>\\Installationsverzeichnis Skripts, und geben Sie Folgendes ein, wenn Exchange in einer einzelnen Gesamtstruktur bereitgestellt wird:
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     Wenn Exchange in mehreren Gesamtstrukturen bereitgestellt wird, geben Sie Folgendes ein:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     wobei Gesamtstruktur-FQDN die Gesamtstruktur angibt, in der lync Server bereitgestellt wird.
     
     Wenn Sie über einen oder mehrere um-Wählpläne verfügen, die mehreren IP-Gateways zugeordnet sind, fahren Sie mit Schritt 6 fort. Wenn Ihre Wählpläne jeweils nur einem einzigen IP-Gateway zugeordnet sind, überspringen Sie Schritt 6.
@@ -176,9 +176,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     </div>
     
       - Wenn Sie die Exchange-Verwaltungsshell verwenden, deaktivieren Sie die einzelnen IP-Gateways, indem Sie den folgenden Befehl ausführen:
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         Informationen zu Exchange 2007 finden Sie unter "einrichten-UMIPGateway: Exchange 2007- [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)Hilfe" unter.
         
         Informationen zu Exchange 2010 finden Sie unter "einrichten-UMIPGateway: Exchange 2010- [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)Hilfe" unter.
@@ -205,8 +205,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     Ausführliche Informationen finden Sie hier:
     
       - Informationen zu Exchange 2007 finden Sie unter "New-UMAutoAttendant: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)" unter.
@@ -226,8 +227,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     Ausführliche Informationen finden Sie hier:
     
       - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)" unter.

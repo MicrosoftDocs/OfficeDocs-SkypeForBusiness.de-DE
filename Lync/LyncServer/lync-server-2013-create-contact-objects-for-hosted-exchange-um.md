@@ -10,12 +10,12 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0ce65ed39e67068fcd57aba1177ecb72f553ccf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53d5bdfe3b341f534a3e8066fe85be5e93b0a7f7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832848"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,11 +63,11 @@ Details zum Konfigurieren von Kontaktobjekten finden Sie in der Dokumentation zu
 
 2.  Führen Sie das Cmdlet New-CsExUmContact aus, um alle für Ihre Bereitstellung erforderlichen Kontaktobjekte zu erstellen. Führen Sie beispielsweise die folgenden Schritte aus, um ein AA-und ein SA-Kontaktobjekt zu erstellen:
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
        ```
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     
@@ -90,7 +90,7 @@ Details zum Konfigurieren von Kontaktobjekten finden Sie in der Dokumentation zu
     
       - **DisplayNumber** gibt die Telefonnummer des Kontaktobjekts an. Die Telefonnummer für jedes Kontaktobjekt muss eindeutig sein.
     
-      - **** Autoattender gibt an, ob es sich bei dem Kontaktobjekt um eine automatische Telefonzentrale handelt. Die automatische Telefonzentrale bietet eine Reihe von Sprachansagen, mit denen Anrufer in das Telefonsystem navigieren und die Partei erreichen können, mit der Sie Kontakt aufnehmen möchten. Der Wert **false** (Standardeinstellung) für diesen Parameter gibt ein Kontaktobjekt für den Abonnenten Zugriff an.
+      - **Autoattender** gibt an, ob es sich bei dem Kontaktobjekt um eine automatische Telefonzentrale handelt. Die automatische Telefonzentrale bietet eine Reihe von Sprachansagen, mit denen Anrufer in das Telefonsystem navigieren und die Partei erreichen können, mit der Sie Kontakt aufnehmen möchten. Der Wert **false** (Standardeinstellung) für diesen Parameter gibt ein Kontaktobjekt für den Abonnenten Zugriff an.
 
 </div>
 

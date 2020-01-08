@@ -10,12 +10,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941c1ab56feea557dfc792ea0af6415dd2a56851
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ac13f066c24f66640aee1360caf1d341d604474
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839872"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -91,7 +91,7 @@ Wenn Sie die Standardoption für das **Unternehmensbild** auswählen, ruft lync 
 
 Der Benutzer kann das Bild, das in seinem Active Directory-Domänendienst Profil verwendet wird, nicht direkt über den lync 2010-Client ändern. Sie können eine der folgenden Optionen verwenden, falls verfügbar:
 
-  - **SharePoint Server**   -Benutzer können ein Foto auf "Meine Website" auf einem SharePoint-Server hochladen und dann die [Profilsynchronisierung in SharePoint konfigurieren](http://go.microsoft.com/fwlink/p/?linkid=507466) , um das Foto mit dem **thumbnailPhoto** -Attribut in der Active Directory-Domäne zu synchronisieren. Services.
+  - **SharePoint Server**   -Benutzer können ein Foto auf "Meine Website" auf einem SharePoint-Server hochladen und dann die [Profilsynchronisierung in SharePoint konfigurieren](http://go.microsoft.com/fwlink/p/?linkid=507466) , um das Foto mit dem **thumbnailPhoto** -Attribut in den Active Directory-Domänendiensten zu synchronisieren.
 
   - **Foto, das auf öffentlich zugänglichen URL**   -Benutzern gespeichert ist, kann das Benutzer Foto konfigurieren, das eine öffentlich zugängliche URL für das Bild angibt, das Sie verwenden möchten. Das Bild muss ohne Kennwort öffentlich zugänglich sein. Das Bild, das bei der angegebenen Webadresse gespeichert ist, wird über die Kategorie Visitenkarte in den Anwesenheitsinformationen an andere Benutzer übertragen. Wenn der lync-Client ein Benutzer Foto anzeigen muss, wird das Bild von der angegebenen Webadresse abgerufen.
 
@@ -121,7 +121,7 @@ Wenn Sie die Option **Bild aus einer Webadresse anzeigen** auswählen, ruft lync
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>Verwalten des Fotos eines Benutzers mit Client Richtlinien-Cmdlets
 
-In lync Server 2010 werden Clientrichtlinien Einstellungen mit den CsClientPolicy-Cmdlets konfiguriert. Die konfigurierten Richtlinieneinstellungen werden über die in-Band-Bereitstellung an Clients gesendet. Die beiden Parameter der CsClientPolicy-Cmdlets, die die Benutzer Fotoerfahrung bestimmen, sind **DisplayPhoto** und **MaxPhotoSizeKB**. Der entsprechende in-Band-Bereitstellungsparameter für **DisplayPhoto** und **MaxPhotoSizeKB** hat den **** Namen "fotousage". Werte für den **** Parameter "fotousage" werden über die **endpointConfiguration** **** provisiongroup an Clients gesendet. Weitere Informationen finden Sie unter [Übersicht über Client Richtlinien und-Einstellungen](http://go.microsoft.com/fwlink/?linkid=507470) .
+In lync Server 2010 werden Clientrichtlinien Einstellungen mit den CsClientPolicy-Cmdlets konfiguriert. Die konfigurierten Richtlinieneinstellungen werden über die in-Band-Bereitstellung an Clients gesendet. Die beiden Parameter der CsClientPolicy-Cmdlets, die die Benutzer Fotoerfahrung bestimmen, sind **DisplayPhoto** und **MaxPhotoSizeKB**. Der entsprechende in-Band-Bereitstellungsparameter für **DisplayPhoto** und **MaxPhotoSizeKB** hat den Namen " **fotousage**". Werte für den Parameter " **fotousage** " werden über die **endpointConfiguration** **provisiongroup**an Clients gesendet. Weitere Informationen finden Sie unter [Übersicht über Client Richtlinien und-Einstellungen](http://go.microsoft.com/fwlink/?linkid=507470) .
 
 Der **DisplayPhoto** -Parameterwert bestimmt die Quelle des Foto Bilds des Benutzers. Die unterstützten Werte sind in der folgenden Tabelle enthalten.
 
@@ -194,7 +194,7 @@ Als nächstes vergleicht der lync 2010-Client nach dem Abrufen der Bilddatei die
 Darüber hinaus überprüft der Client den Server alle 24 Stunden ab dem Zeitpunkt, zu dem die zwischengespeicherte Version der Bilddatei erstellt wurde, um den Wert des Foto **Hash** Attributs auf dem Server mit dem Wert auf dem Client zu vergleichen. Wenn sich die Werte unterscheiden, weiß der Client, dass sich die Bilddatei geändert hat. Um die aktualisierte Image-Datei abzurufen, fragt der Client erneut den ABWQ-Dienst ab, um die Bilddatei im Clientcache mit der Bilddatei auf dem Server zu aktualisieren, wodurch auch der **Zeitstempel** für die Datei im Clientcache zurückgesetzt wird.
 
 Im folgenden wird eine Beispielantwort auf eine Abfrage des ABWQ-Diensts veranschaulicht:
-
+```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
               <Value>efa6096aed2746cb9ab2037f7dbdde9d.f2eeeb5946db54a7aa607ecd3ae09d
@@ -212,6 +212,7 @@ Im folgenden wird eine Beispielantwort auf eine Abfrage des ABWQ-Diensts veransc
          <Valuesxmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
     i:nil="true" />
     </Attribute>
+```
 
 </div>
 
@@ -245,23 +246,23 @@ Wenn Sie die Option " **mein Bild anzeigen** " auswählen, wird das Benutzer Fot
 
 ## <a name="show-a-picture-from-a-website"></a>Anzeigen eines Bilds von einer Website
 
-Die Option **Bild von einer Website anzeigen** steht in lync 2013 nach dem Festlegen einer Clientrichtlinie zum Aktivieren zur Verfügung. Die Client Version muss neuer als 15.0.4535.1002 sein, die mit den kumulierten [Updates für lync installiert wird: November 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Benutzer müssen sich möglicherweise abmelden und dann wieder zurück, um die Änderungen im Client anzuzeigen.
+Die Option **Bild von einer Website anzeigen** steht in lync 2013 nach dem Festlegen einer Clientrichtlinie zum Aktivieren zur Verfügung. Die Client Version muss neuer als 15.0.4535.1002 sein, die mit den [kumulierten Updates für lync installiert wird: November 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Benutzer müssen sich möglicherweise abmelden und dann wieder zurück, um die Änderungen im Client anzuzeigen.
 
 Sie können festlegen, dass die Clientrichtlinie für die **Anzeige von Bildern aus einer Website** Einstellung aktiviert ist, indem Sie die Richtlinie für die CsClientPolicy in der lync Server [-](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) Verwaltungsshell ausführen. Die folgenden Beispiel-Cmdlets veranschaulichen, wie Sie die Richtlinie für alle Benutzer in Ihrer Bereitstellung global festlegen:
 
-   ```
+   ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
    ```
 
-   ```
+   ```powershell
     $po=Get-CsClientPolicy -Identity Global
    ```
 
-   ```
+   ```powershell
     $po.PolicyEntry.Add($pe)
    ```
 
-   ```
+   ```powershell
     Set-CsClientPolicy -Instance $po
    ```
 

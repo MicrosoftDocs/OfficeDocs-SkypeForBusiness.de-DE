@@ -10,12 +10,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c706f9fdd8932456a9f1617e55dc9231dbd6a84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839754"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +49,23 @@ Nachdem Sie das Kerberos-Konto erstellt haben, müssen Sie es einer Website zuwe
 
 3.  Führen Sie in der Befehlszeile die beiden folgenden Befehle aus:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     Beispiel:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -73,15 +73,16 @@ Nachdem Sie das Kerberos-Konto erstellt haben, müssen Sie es einer Website zuwe
     
 
     > [!NOTE]  
-    > Sie müssen den Benutzerkonto-Parameter unter Verwendung des Formats Domäne \ Benutzer angeben. Das Format User @ Domain. Extension wird für den Verweis auf die für die Kerberos-Authentifizierung erstellten Computerobjekte nicht unterstützt.
+    > Sie müssen den Benutzerkonto-Parameter unter Verwendung des Formats Domäne \ Benutzer angeben. Das User@Domain. Extension-Format wird nicht unterstützt, um auf die für die Kerberos-Authentifizierung erstellten Computerobjekte zu verweisen.
 
     
     </div>
 
 4.  **Optional**: Sie haben möglicherweise einen überschreiben-FQDN (Fully Qualified Domain Name, vollständig qualifizierter Domänenname) für Ihre Webdienste konfiguriert, wie pro [Änderung der URL für Webdienste in lync Server 2013](lync-server-2013-change-the-web-services-url.md). Wenn dies der Fall ist, müssen Sie auch einen SPN für diesen FQDN hinzufügen. Wenn der FQDN beispielsweise Webservices. contoso. local lautete, würden Sie Folgendes ausführen:
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     

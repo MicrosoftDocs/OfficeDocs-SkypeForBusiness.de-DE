@@ -10,12 +10,12 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6a388c602d30e6f60eac0c575d7640f63993f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a11b24fc8d4be54f5645853c050891d3821945e4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839462"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,16 +58,17 @@ Die Remote Anrufsteuerung setzt voraus, dass jeder lync Server-Pool mit einem Pf
     
       - Bei einer TLS-Verbindung (Transport Layer Security) geben Sie Folgendes an der Eingabeaufforderung ein:
         
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
+        ```
         Beispiel:
-        
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
+        ```
         Wenn UseDefaultCertificate auf "false" festgelegt ist, müssen Sie TLSCertIssuer-und TLSCertSerialNumber-Parameter angeben. Diese Parameter geben den Namen der Zertifizierungsstelle an, die das in der statischen Route verwendete Zertifikat ausgestellt hat, und die Seriennummer des jeweiligen TLS-Zertifikats. Details zu diesen Parametern finden Sie unter Hilfe zur lync Server-Verwaltungsshell, indem Sie an der Eingabeaufforderung Folgendes eingeben:
-        
-            Get-Help New-CsStaticRoute -Full
-    
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
       - Bei einer TCP-Verbindung (Transmission Control Protocol) geben Sie Folgendes an der Eingabeaufforderung ein:
         
         <div class="">
@@ -79,12 +80,13 @@ Die Remote Anrufsteuerung setzt voraus, dass jeder lync Server-Pool mit einem Pf
         
         </div>
         
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
+        ```
         Beispiel:
-        
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
+        ```
         Im folgenden finden Sie die Standardwerte für optionale Parameter für statische Routen:
         
           - Enabled = wahr
@@ -94,16 +96,16 @@ Die Remote Anrufsteuerung setzt voraus, dass jeder lync Server-Pool mit einem Pf
           - ReplaceHostInRequestUri = falsch
         
         Wir empfehlen dringend, diese Standardwerte nicht zu ändern. Wenn Sie jedoch einen dieser Parameter ändern müssen, lesen Sie Hilfe zur lync Server-Verwaltungsshell, indem Sie an der Eingabeaufforderung Folgendes eingeben:
-        
-            Get-Help New-CsStaticRoute -Full
-
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
 4.  Führen Sie eine der folgenden Aktionen aus, um eine neu erstellte statische Route im zentralen Verwaltungsspeicher beizubehalten:
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
        ```
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
        ```
 

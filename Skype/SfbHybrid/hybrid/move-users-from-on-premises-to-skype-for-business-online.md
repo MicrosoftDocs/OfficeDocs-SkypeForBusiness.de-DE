@@ -16,22 +16,22 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Informationen zum Migrieren von Benutzern zu Skype for Business Online.
-ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715893"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963023"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Migrieren von Benutzern von lokal in Skype for Business Online
 
 Nachdem Sie einen Benutzer von lokal in Skype for Business Online umgezogen haben, interagiert der Benutzer mit Skype for Business Online für seine Funktionalität. Alle Kontakte, die lokal vorhanden waren, werden in Skype for Business Online zur Verfügung stehen, und alle vorhandenen Besprechungen, die der Benutzer für die Zukunft organisiert hat, werden so aktualisiert, dass die Links auf Skype for Business Online verweisen. Wenn der Benutzer für Audiokonferenzen aktiviert ist, enthalten die Besprechungen auch Einwahl Koordinaten.  Um Benutzer aus einer lokalen Umgebung in Skype for Business Online zu migrieren, verwenden Sie entweder das Cmdlet "CsUser" oder die Skype for Business Server-Systemsteuerung, beide lokale Tools. 
 
-Lesen Sie vor dem Verschieben von Benutzern unbedingt die [voraus](move-users-between-on-premises-and-cloud.md#prerequisites) setzungen, um Benutzer in die Cloud zu verschieben.
+Lesen Sie vor dem Verschieben von Benutzern unbedingt die [Voraussetzungen](move-users-between-on-premises-and-cloud.md#prerequisites) , um Benutzer in die Cloud zu verschieben.
  
 ## <a name="move-users-with-move-csuser"></a>Migrieren von Benutzern mit "CsUser" 
 
-CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch im Office 365-Mandanten verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` -Parameter verwenden, um Anmeldeinformationen für eine Office 365 anzugeben. Konto mit der erforderlichen Office 365 Administratorrolle.
+CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch im Office 365-Mandanten verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" in "Online" ein:
 
@@ -45,7 +45,7 @@ So stellen Sie einen Benutzer mithilfe von "CsUser" in "Online" ein:
 
 Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu Skype for Business Online zu migrieren, und es wird davon ausgegangen, dass die Office 365 Credential ein separates Konto ist und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben wird.
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
@@ -59,7 +59,7 @@ Wenn das Administratorkonto MFA (Multi-Factor Authentication) aktiviert ist, geb
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung-app.
 2. Wählen Sie im linken Navigationsbereich **Benutzer**aus.
 3. Verwenden Sie **Suchen** , um die Benutzer zu finden, die Sie in Skype for Business Online verschieben möchten.
-4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Skype for Business Online**verlagern aus.
+4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Skype for Business Online verlagern**aus.
 5. Klicken Sie im Assistenten auf **Weiter**.
 6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
 7. Klicken Sie auf **weiter**und dann auf **weiter** , um den Benutzer zu verlagern.
@@ -67,4 +67,4 @@ Wenn das Administratorkonto MFA (Multi-Factor Authentication) aktiviert ist, geb
 
 ## <a name="see-also"></a>Siehe auch
 
-[CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

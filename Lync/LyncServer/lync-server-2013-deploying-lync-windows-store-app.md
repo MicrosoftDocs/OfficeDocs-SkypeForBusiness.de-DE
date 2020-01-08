@@ -10,12 +10,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eef2e96b1e58bb9a92b2dc9748624d38f605965f
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832551"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,24 +69,24 @@ Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für di
 2.  Erstellen Sie Zertifikate für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" im Abschnitt Planen und Bereitstellen von AD FS für die Verwendung mit dem Thema für einmaliges [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)anmelden unter.
 
 3.  Führen Sie über die Windows PowerShell-Befehlszeilenschnittstelle den folgenden Befehl aus:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Richten Sie durch Ausführen des folgenden Befehls eine Partnerschaft ein:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  Legen Sie die folgenden vertrauenswürdigen Parteienregeln fest:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -101,9 +101,9 @@ Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für di
 ## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>Die Uhrzeit und das Datum sind auf dem Gerät, auf dem die lync Windows Store-App ausgeführt wird, nicht genau eingestellt.
 
 Die Zeiteinstellung auf dem Gerät muss mit der Zeiteinstellung auf dem Server synchronisiert werden. Dies ist besonders wichtig für Geräte wie Microsoft Surface und andere Geräte mit Windows RT, die nicht mit einer Domäne verbunden sind. Wenn Sie die Uhrzeit auf diesen Geräten automatisch von einem Zeitserver einstellen möchten, führen Sie den folgenden Befehl an einer Eingabeaufforderung mit erhöhten Rechten auf dem Gerät aus:
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -127,9 +127,9 @@ Wenn Ihre Topologie aus lync Server 2010 mit Office Communications Server 2007 R
     1.  Öffnen Sie die Lync Server-Verwaltungsshell.
     
     2.  Führen Sie den folgenden Befehl aus:
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>

@@ -10,12 +10,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c85bd20222a5fa70d052b21f62d0c19c76eea46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590a196ca0e34c0c063b10703c7edd131eb82c50
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,9 +60,10 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
 2.  Starten Sie die lync Server 2013-Verwaltungsshell.
 
 3.  Erstellen Sie über die Befehlszeile der lync Server-Verwaltungsshell eine neue Webdienstkonfiguration für jeden Director-, Enterprise-Pool-und Standard Edition-Server, der für die passive Authentifizierung aktiviert ist, indem Sie den folgenden Befehl ausführen:
-    
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-    
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
     <div class="">
     
 
@@ -73,17 +74,17 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
     </div>
 
 4.  Überprüfen Sie, ob die Werte von „UseWsFedPassiveAuth“ und „WsFedPassiveMetadataUri“ richtig festgelegt wurden, indem Sie den folgenden Befehl ausführen:
-    
-        Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-
+     ```powershell
+     Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+     ```
 5.  Für Clients stellt die passive Authentifizierung die am wenigsten vorzuziehende Authentifizierungsmethode für die Authentifizierung mithilfe von Webtickets dar. Für alle Directors, Enterprise-Pools und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, müssen alle anderen Authentifizierungstypen in lync-Webdiensten deaktiviert werden, indem Sie den folgenden Befehl ausführen:
-    
-        Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+     ```
 6.  Überprüfen Sie, ob alle anderen Authentifizierungstypen erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
-    
-        Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+     ```
 </div>
 
 <div>
@@ -98,21 +99,21 @@ In den folgenden Schritten wird die Erstellung einer angepassten Proxykonfigurat
 
 1.  Erstellen Sie über die Befehlszeile der lync Server-Verwaltungsshell eine neue Proxykonfiguration für jeden lync Server 2013 mit kumulativen Updates: Juli 2013 Edge-Pool, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie die folgenden Befehle:
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
 2.  Überprüfen Sie, ob alle anderen Proxyauthentifizierungsarten erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
-    
-        Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+     ```
 </div>
 
 </div>

@@ -10,12 +10,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839369"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,11 +45,11 @@ Führen Sie die Schritte in diesem Abschnitt aus, um die Interoperabilität zwis
 
 Mithilfe der Föderation können Benutzer in Ihrer lokalen Bereitstellung mit Office 365-Benutzern in Ihrer Organisation kommunizieren. Führen Sie die folgenden Cmdlets aus, um den Verbund zu konfigurieren:
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -66,26 +66,26 @@ Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner f�
 Move-CsUser: HostedMigration fault: Error=(510), Description=(Der Mandant dieses Benutzers ist nicht für den freigegebenen SIP-Adressbereich aktiviert.)
 
 Um einen freigegebenen SIP-Adressraum zu konfigurieren, richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein, und führen Sie dann das folgende Cmdlet aus:
-
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
-
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
 Zum Einrichten einer PowerShell-Remotesitzung mit Skype for Business Online müssen Sie zunächst das Skype for Business Online-Modul für Windows PowerShell installieren, das Sie hier abrufen können: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 Nach der Installation des Moduls können Sie mit den folgenden Cmdlets eine Remotesitzung einrichten:
 
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 

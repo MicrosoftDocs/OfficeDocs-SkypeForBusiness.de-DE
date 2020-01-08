@@ -10,12 +10,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fd9f07b979f89a28b6fa545f3a43009402f4ed1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832741"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,13 +79,13 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 3.  Verwenden Sie das Cmdlet " **install-CsDatabase** ", um den zentralen Verwaltungsspeicher zu installieren.
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
        ```
     
@@ -101,9 +101,9 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 4.  **Install-CsDatabase – DatabasePaths** kann bis zu sechs Pfadparameter verwenden, die jeweils die Pfade für die Laufwerke definieren, wie Sie in SQL Server-Daten und in der Protokolldatei Platzierung definiert sind. Nach den logischen Regeln der Datenbankkonfiguration in lync Server 2013 werden Laufwerke in Buckets von zwei, vier oder sechs analysiert. Je nach SQL Server-Konfiguration und Anzahl der Buckets werden zwei Pfade, vier Pfade oder sechs Pfade bereitgestellt.
     
     Wenn Sie über drei Laufwerke verfügen, erhält das Protokoll Priorität, und danach werden die Datendateien verteilt. Ein Beispiel für einen auf SQL Server basierenden Server, der mit sechs Laufwerken konfiguriert ist:
-    
-        Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
-
+    ```powershell
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
 5.  Nach Abschluss der Datenbankinstallation können Sie die lync Server 2013-Verwaltungsshell schließen oder mit der Installation der im Topologie-Generator definierten lync Server 2013-Datenbanken fortfahren.
 
 </div>
@@ -129,12 +129,12 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 4.  Verwenden Sie das Cmdlet " **install-CsDatabase** ", um die konfigurierten Datenbanken des Topologie-Generators zu installieren.
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
        ```
@@ -173,21 +173,21 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 4.  Verwenden Sie das Cmdlet **install-CsDatabase** mit dem DatabasePathMap-Parameter und einer PowerShell-Hashtabelle, um die konfigurierten Datenbanken des Topologie-Generators zu installieren.
 
-5.  Im Beispielcode können die für die Datenbanken definierten Pfade auf granulare Weise mithilfe des – DatabasePathMap-Parameters und einer definierten Hashtabelle wie folgt bestimmt werden (im Beispiel wird "c\\: CSData" für alle Datenbankdateien (MDF) verwendet, und "\\ c: CSLogFiles "für alle Protokolldateien (LDF). Der Ordner wird nach Bedarf von install-CsDatabase erstellt):
-    
-        $pathmap = @{
-        "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
-        "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
-        "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
-        }
-        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
-
+5.  Im Beispielcode können die für die Datenbanken definierten Pfade auf granulare Weise mithilfe des – DatabasePathMap-Parameters und einer definierten Hashtabelle wie folgt bestimmt werden (im Beispiel wird "c\\: CSData" für alle Datenbankdateien (MDF) und "c:\\CSLogFiles" für alle Protokolldateien (LDF) verwendet. Der Ordner wird nach Bedarf von install-CsDatabase erstellt):
+    ```powershell
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
+    "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
+    "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
+    }
+    Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
 6.  Da die Datenbank-und Protokolldateien explizit mit ihrem Speicherort auf dem Zieldatenbankserver benannt sind, können Sie bestimmte Speicherorte für die tatsächliche Datenbank und den Speicherort des jeweiligen Diensttyps definieren. Im folgenden Beispiel werden Datenbanken für jeden bestimmten Diensttyp auf separaten Datenträgern und zugehörigen Protokolldateien auf einer anderen Festplatte platziert. Beispiel:
     
       - Alle RTC-Datenbanken auf "\\D: RTCDatabase"
@@ -216,8 +216,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
     
     <!-- end list -->
     
-    ``` 
-    
+    ```powershell    
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="D:\RTCDatabase";"BackendStore:BlobStore:LogPath"="E:\RTCLogs"
     "BackendStore:RtcSharedDatabase:DbPath"="D:\RTCDatabase";"BackendStore:RtcSharedDatabase:LogPath"="E:\RTCLogs"

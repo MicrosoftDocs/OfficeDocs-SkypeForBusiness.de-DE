@@ -11,12 +11,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e972b8729126615a375f4d82f4c378a71642a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 185a52322ad0eea681e9a3318787921d9c49453a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233249"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -100,11 +100,11 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 17. Nachdem Sie das öffentliche Zertifikat empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserver-Dienste beenden und neu starten. Hierzu geben Sie in der lync Server-Verwaltungskonsole Folgendes ein:
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 
@@ -140,11 +140,11 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
     
       - **Öffentlich überprüft** ein **öffentlicher überprüfte** Partner ist ein öffentlicher XMPP-Anbieter, der als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Kontakte in öffentlich überprüfte Netzwerke können lync-Kontakte hinzufügen und deren Anwesenheit anzeigen und Ihnen Sofortnachrichten senden, ohne die ausdrückliche Autorisierung der lync-Benutzer zu haben.Bei XMPP-Kontakten in öffentlich überprüften Netzwerken werden die Status Notizen der lync-Benutzer nie angezeigt.Diese Einstellung wird nicht empfohlen.
     
-      - **Öffentliche nicht bestätigt** Ein **öffentlicher** , nicht überprüfter Partner ist ein öffentlicher XMPP-Anbieter, der nicht als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken können nicht mit lync-Benutzern kommunizieren, es sei denn, der lync-Benutzer hat Sie ausdrücklich autorisiert, indem Sie Sie der Kontaktliste hinzugefügt.Für XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken werden die Status Notizen von lync-Benutzern nie angezeigt.Diese Einstellung wird für alle Föderationen mit öffentlichen XMPP-Anbietern wie Google Talk empfohlen.
+      - **Öffentliche nicht bestätigt** Ein **öffentlicher, nicht überprüfter** Partner ist ein öffentlicher XMPP-Anbieter, der nicht als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken können nicht mit lync-Benutzern kommunizieren, es sei denn, der lync-Benutzer hat Sie ausdrücklich autorisiert, indem Sie Sie der Kontaktliste hinzugefügt.Für XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken werden die Status Notizen von lync-Benutzern nie angezeigt.Diese Einstellung wird für alle Föderationen mit öffentlichen XMPP-Anbietern wie Google Talk empfohlen.
 
 9.  **Verbindungstyp:** Definiert die verschiedenen Regeln und Dialback-Einstellungen.
     
-      - **TLS**   -Aushandlung definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. So zeigen Sie alle möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung an – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter Aushandlungs [Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+      - **TLS-Aushandlung**   definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. So zeigen Sie alle möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung an – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
         
            - **Erforderlich**   der XMPP-Dienst erfordert TLS-Aushandlung.
         
@@ -152,7 +152,7 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
         
            - **Nicht unterstützt**   der XMPP-Dienst unterstützt keine TLS-Funktion.
     
-      - **SASL**   -Aushandlung definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
+      - **SASL-Aushandlung**   definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
         
            - **Erforderlich**   der XMPP-Dienst erfordert SASL-Aushandlung.
         
@@ -160,9 +160,9 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
         
            - **Nicht unterstützt**   der XMPP-Dienst unterstützt keine SASL-Funktion.
     
-      - **Support Server-Dialback** -Aushandlung Der Dialback-Aushandlungsprozess für Support Server verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
+      - **Support Server-Dialback-Aushandlung** Der Dialback-Aushandlungsprozess für Support Server verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
         
-        Es gibt zwei gültige Zustände für **Dialback**-Aushandlung:
+        Es gibt zwei gültige Zustände für **Dialback-Aushandlung**:
         
            - **True**   : der XMPP-Server ist für die Verwendung von Dialback-Aushandlung konfiguriert, wenn eine Anforderung von einem Ursprungsserver empfangen werden soll.
         

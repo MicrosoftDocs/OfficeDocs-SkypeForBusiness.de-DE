@@ -16,19 +16,19 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Hier erfahren Sie, wie Sie Benutzer von Skype for Business Online zu lokal migrieren.
-ms.openlocfilehash: ec3aa727753ed9ac6564712d591ab6d2beac4ebf
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434728"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963013"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Migrieren von Benutzern aus der Cloud in eine lokale Umgebung 
 
 Falls erforderlich, können Sie einen Benutzer, der zuvor von lokal in die Cloud migriert wurde (unabhängig davon, ob Sie Skype for Business Online oder nur Teams verwenden) wieder in den lokalen Standort versetzen. Um Benutzer aus dem Skype for Business Online-oder TeamsOnly-Modus wieder in eine lokale Bereitstellung von Skype for Business Server zu versetzen, verwenden Sie entweder das Cmdlet "CsUser" oder die Skype for Business Server-Systemsteuerung, beide lokale Tools. Wenn Sie einen Benutzer wieder in eine lokale Bereitstellung zurückversetzen, müssen Sie entscheiden, in welchen Pool der Benutzer zu migrieren ist.
 
 > [!Important]
-> Wenn sich der Benutzer zuvor im TeamsOnly-Modus befand und Sie eine frühere Version als Skype for Business Server 2015 mit ku8 verwenden, müssen Sie auch die TeamsOnly-Modus-Zuweisung von TeamsUpgradePolicy für diesen Benutzer entfernen. Lokale Benutzer dürfen nicht über Mode = TeamsOnly verfügen.  In nachfolgenden Versionen von Skype for Business Server wird diese Zuordnung automatisch entfernt. Weitere Informationen finden Sie unter [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy).
+> Wenn sich der Benutzer zuvor im TeamsOnly-Modus befand und Sie eine frühere Version als Skype for Business Server 2015 mit ku8 verwenden, müssen Sie auch die TeamsOnly-Modus-Zuweisung von TeamsUpgradePolicy für diesen Benutzer entfernen. Lokale Benutzer dürfen nicht über Mode = TeamsOnly verfügen.  In nachfolgenden Versionen von Skype for Business Server wird diese Zuordnung automatisch entfernt. Weitere Informationen finden Sie unter [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -47,7 +47,7 @@ Nachdem Sie einen Benutzer aus der Cloud wieder in den lokalen Standort zurückv
 
 ### <a name="move-users-with-move-csuser"></a>Migrieren von Benutzern mit "CsUser"
 
-CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen sowohl in der lokalen Umgebung als auch im Office 365 Mandanten über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` -Parameter verwenden, um Anmeldeinformationen für eine Office 365 anzugeben. Konto mit der erforderlichen Office 365 Administratorrolle.
+CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen sowohl in der lokalen Umgebung als auch im Office 365 Mandanten über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" lokal zur Verschiebung ein:
 
@@ -58,7 +58,7 @@ So stellen Sie einen Benutzer mithilfe von "CsUser" lokal zur Verschiebung ein:
 
 Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu Skype for Business Server zu migrieren, und es wird davon ausgegangen, dass die Office 365 Credential ein separates Konto ist und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben wird.
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
 Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred -HostedMigrationOverrideUrl $url
@@ -88,4 +88,4 @@ Alternativ können Sie den Namen der gewünschten Instanz als Wert des Parameter
 
 ## <a name="see-also"></a>Siehe auch
 
-[CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

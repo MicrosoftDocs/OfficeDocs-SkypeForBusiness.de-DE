@@ -10,12 +10,12 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528ed67243fb0ab0451abf504a458afc420d94ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678cab0ea8b473e6ea33ab5db951b105a11fa78
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839341"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,15 +69,15 @@ Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beis
 
 2.  Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerk Websites zu erstellen und auf jede Website ein entsprechendes bandbreitenrichtlinienprofil anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
        ```
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
        ```
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 

@@ -10,12 +10,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78c0d6b266f6401c9ba48bfe38ee54b7b4281717
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832528"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
 
 4.  Wählen Sie im Feld unter **Zugeordneter Sicherungspool** den Pool aus, mit dem dieser Pool ein Paar bilden soll. Zur Auswahl stehen nur vorhandene Pools, die noch nicht mit einem anderen Pool ein Paar bilden.
     
-    ![36080581-DB76-497d-bf9e-f02b39574d0e] (images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-DB76-497d-bf9e-f02b39574d0e")  
+    ![36080581-DB76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-DB76-497d-bf9e-f02b39574d0e")  
 
 5.  Wählen Sie **Automatisches Failover und Failback für Sprachdienste** aus, und klicken Sie dann auf **OK**.
     
@@ -62,32 +62,32 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
     Wenn die Pools jedoch bereits bereitgestellt waren, bevor Sie die Paarbeziehung definiert haben, müssen Sie die beiden folgenden abschließenden Schritte ausführen.
 
 8.  Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:
-    
-        <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
-    
+    ```console
+    <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
+    ```
     Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.
 
 9.  Führen Sie an einer Eingabeaufforderung der lync Server-Verwaltungsshell die folgenden Aktionen aus:
-    
-        Start-CsWindowsService -Name LYNCBACKUP
-
+    ```powershell
+    Start-CsWindowsService -Name LYNCBACKUP
+    ```
 10. Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
     Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu überprüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
        ```
 
