@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich, was Sie über Pins wissen sollten, und wie Sie Sie in Skype for Business Online zurücksetzen können. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792278"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962693"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz-PIN in Skype for Business Online
 
@@ -38,9 +38,9 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mit 
   
 ## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
-2. Wechseln Sie zum Admin Center #a0 **Skype for Business**, und klicken Sie im linken Navigationsbereich **** auf Audiokonferenzen.
+2. Wechseln Sie zum Admin Center #a0 **Skype for Business**, und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
 3. Klicken Sie auf **Benutzer**, und wählen Sie den Benutzer aus, für den Sie die PIN zurücksetzen möchten.
     
@@ -81,7 +81,7 @@ Ein Benutzer kann eine PIN mithilfe der Option " **PIN zurücksetzen** " auf der
     
 - Sie können die PIN für Amos Marble konfigurieren, indem Sie Folgendes ausführen:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
@@ -91,7 +91,7 @@ Ein Benutzer kann eine PIN mithilfe der Option " **PIN zurücksetzen** " auf der
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Learn about these advantages in the following topics:
+- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

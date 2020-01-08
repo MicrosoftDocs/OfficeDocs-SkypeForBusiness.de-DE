@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich, welche Informationen automatisch per e-Mail an Benutzer gesendet werden, wenn sich die Einstellungen für Einwahlkonferenzen in Skype for Business Online ändern. '
-ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8a0ecc27e3184b8258db7e094beb9f3c4b64796d
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792435"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962723"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendete E-Mails, wenn ihre Einstellungen in Skype for Business Online geändert werden
 
@@ -96,7 +96,7 @@ You can make changes to the email that is automatically sent to users including 
     
 Sie können Änderungen an der e-Mail vornehmen, die an Benutzer gesendet wird, beispielsweise die e-Mail-Adresse, von der die e-Mail gesendet wird, und den Anzeigenamen für die e-Mail, indem Sie Folgendes ausführen:
   
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -113,7 +113,7 @@ Standardmäßig werden e-Mails an Ihre Benutzer gesendet, aber wenn Sie verhinde
  
 ![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png)Logo**im Skype for Business Admin Center**  
     
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+1. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audiokonferenz** > -**Einstellungen für Microsoft Bridge**.
     
 2. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** **automatisch e-Mails an Benutzer senden, wenn sich Ihre audiokonferenzeinstellungen ändern**. 
     
@@ -126,7 +126,7 @@ Standardmäßig werden e-Mails an Ihre Benutzer gesendet, aber wenn Sie verhinde
   
 1. Führen Sie das Folgende aus, um das Senden von E-Mails an alle Benutzer zu deaktivieren:
     
-   ```
+   ```PowerShell
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
@@ -152,7 +152,7 @@ Sie können das Cmdlet " [Satz-CsOnlineDialInConferencingTenantSettings](https:/
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Learn about these advantages in the following topics: 
+- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Weitere Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

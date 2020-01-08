@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In Skype for Business Online haben Sie die Möglichkeit, Punkt-zu-Punkt-Dateiübertragungen (P2P) als Teil der vorhandenen konferenzrichtlinieneinstellungen zu steuern. Auf diese Weise können jedoch Dateiübertragungen für Benutzer blockiert werden, unabhängig davon, ob Sie Dateien an einen Benutzer übertragen, der sich in derselben Organisation oder einem Verbundbenutzer aus einer anderen Organisation befindet. Führen Sie die folgenden Schritte aus, um P2P-Dateiübertragungen mit Verbundorganisationen oder-Partnern zu blockieren.
-ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792514"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962523"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Blockieren von Punkt-zu-Punkt-Dateiübertragungen
 
@@ -35,7 +35,7 @@ In Skype for Business Online haben Sie die Möglichkeit, Punkt-zu-Punkt-Dateiüb
     
 - Erstellen Sie eine globale Richtlinie für externe Benutzerkommunikation, um externe P2P-Dateiübertragungen zu blockieren (_EnableP2PFileTransfer_ auf " _false_" festgelegt), und weisen Sie Sie einem Benutzer in Ihrer Organisation zu. 
     
-Weitere Informationen zu diesen Einstellungen finden Sie [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Weitere Informationen zu diesen Einstellungen finden Sie [hier](https://technet.microsoft.com/library/mt228132.aspx).
   
 Wenn ein Verbundbenutzer außerhalb Ihrer Organisation versucht, eine Datei an einen Benutzer zu senden, auf den die Richtlinie angewendet wurde, wird der Fehler " **Übertragung fehlgeschlagen** " angezeigt. Und wenn ein Benutzer versucht, eine Datei zu senden, wird der Fehler " **Dateiübertragung ist deaktiviert** " angezeigt.
   
@@ -54,7 +54,7 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version einer 2016
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im **Windows PowerShell** _-Fenster Get-Host_ eingeben.
     
@@ -62,25 +62,25 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version einer 2016
     
 4. Sie müssen auch das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul, das nur auf 64-Bit-Computern unterstützt wird, kann aus dem Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden. Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
-    Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Deaktivieren von P2P-Dateiübertragungen für Ihre Organisation
 
@@ -88,7 +88,7 @@ Standardmäßig ist _EnableP2PFileTransfer_ in der globalen Richtlinie der Organ
   
 Um P2P-Übertragungen innerhalb Ihrer Organisation zu ermöglichen, aber externe Dateiübertragungen an eine andere Organisation zu blockieren, müssen Sie Sie nur auf globaler Ebene ändern. Führen Sie dazu die folgenden Schritte aus:
     
-  ```
+  ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
@@ -96,11 +96,11 @@ Um P2P-Übertragungen innerhalb Ihrer Organisation zu ermöglichen, aber externe
 
 Sie können dies auf einen Benutzer anwenden, indem Sie eine neue Richtlinie erstellen und diesem Benutzer erteilen. Führen Sie dazu die folgenden Schritte aus: 
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
 >   ```
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 >   ```
 

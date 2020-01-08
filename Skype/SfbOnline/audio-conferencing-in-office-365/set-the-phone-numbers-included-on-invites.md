@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Führen Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer aus, um an einer Skype for Business Online-Besprechung teilzunehmen. '
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792153"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962513"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten der in Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "35792153"
 Audiokonferenzen in Office 365 ermöglicht es Benutzern in Ihrer Organisation, Skype for Business-Besprechungen zu erstellen und Benutzern dann das Einwählen in diese Besprechungen mithilfe eines Telefons zu ermöglichen. In Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenz-Brücke oder eine Audio-Konferenzbrücke eines Drittanbieters zu verwenden, die von einem zugelassenen Audiokonferenz-Anbieter (ACP) gehostet wird.
   
 > [!NOTE]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie die**** > **Telefonnummern** **für Skype for Business Admin Center** > , klicken Sie auf neue Service Nummern **Hinzufügen** . ** **. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Region** und **Ort** , um Ihre Suche zu filtern. #a0 auch wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie die **Skype for Business Admin Center** > **-sprach** > **Nummern**, klicken Sie auf **neue Service Nummern** **Hinzufügen** . Verwenden Sie die Listen für **Land/Region**, **Bundesland/Region** und **Ort** , um Ihre Suche zu filtern. #a0 auch wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -67,7 +67,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. Wählen **** Sie Audiokonferenzen aus.
+6. Wählen Sie **Audiokonferenzen**aus.
     
 7. Wählen Sie auf der Seite **Eigenschaften** in der Liste **Anbietername** den Anbieter für den Benutzer aus. Füllen Sie je nach Anbieter die folgenden Felder aus.
     
@@ -100,7 +100,7 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     
     Führen Sie Folgendes aus, um die gebührenfreie Standardnummer für einen Benutzer zu ändern:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -109,25 +109,25 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     > [!NOTE]
     > Verwenden Sie das Cmdlet **Get-CsOnlineDialInConferencingBridge** , um die Brücke zu finden.
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
   - Führen Sie Folgendes aus, um die standardmäßige gebührenfreie Telefonnummer für alle Benutzer bis auf einen auf +18005551234 festzulegen:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
   - Führen Sie Folgendes aus, um die standardmäßige gebührenfreie Telefonnummer aller Benutzer, deren standardmäßige gebührenfreie Telefonnummer +18005551234 lautet, in +18005551239 zu ändern:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - Führen Sie Folgendes aus, um die standardmäßige gebührenfreie Telefonnummer aller Benutzer in den USA auf +18005551234 festzulegen:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?

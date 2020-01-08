@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 61e57b39954df8931b9612e853fccf1e74e9623f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Hier erfahren Sie, wie Sie vorab geladene Inhalte für Skype for Business-Besprechungen mithilfe von Dateien oder Anlagen in einer Outlook-Besprechungseinladung aktivieren oder deaktivieren. '
+ms.openlocfilehash: f876519ba7d3cf25e61f4f6458129d724d1bcb84
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792984"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962783"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Das Vorab-Laden von Inhalten für Besprechungen mit Outlook ein- oder ausschalten
 
@@ -38,7 +38,7 @@ Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungs
 
  **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -46,27 +46,27 @@ Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungs
     
 4. Sie müssen auch das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul, das nur auf 64-Bit-Computern unterstützt wird, kann aus dem Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden. Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
-Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
   
 ### 
 
  **Starten einer Windows PowerShell-Sitzung**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 $credential = Get-Credential
 $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Aktivieren oder Deaktivieren dieser Funktion
 
@@ -77,13 +77,13 @@ Die Möglichkeit zum Laden von Inhalten, die an eine Outlook-Besprechungseinladu
   
  **Um die Funktion zu deaktivieren, öffnen Sie Windows PowerShell und führen Sie die folgenden Schritte aus:**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphDisabled 
 ```
 
  **Wenn Sie sie wieder aktivieren möchten, öffnen Sie Windows PowerShell und gehen Sie wie folgt vor:**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 

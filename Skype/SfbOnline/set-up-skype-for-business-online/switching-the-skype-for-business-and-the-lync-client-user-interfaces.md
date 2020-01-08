@@ -18,13 +18,13 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: 'Informationen zum Wechseln zwischen Skype for Business-und lync-Clientbenutzeroberflächen mithilfe von PowerShell in Office 365 '
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221509"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962883"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 
@@ -43,7 +43,7 @@ Mit dem Windows PowerShell-Modul für Skype for Business Online können Sie eine
 > [!IMPORTANT]
 > Die  _Global_-Richtlinieneinstellungen für den Wechsel der Benutzeroberfläche, wird bei einem Benutzer, der bereits über eine benutzerdefinierter Richtlinie verfügt, nicht eingerichtet . Sie müssen für den Wechsel der Benutzeroberfläche für jeden Benutzer mit benutzerdefinierter Richtlinie folgende Schritte ausführen:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,7 +52,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 Öffnen Sie Remote-PowerShell, um für alle Benutzern Ihrer Organisation die Verwendung des Skype for Business-Clients zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -62,7 +62,7 @@ Wenn Sie die Richtlinie richtig eingerichtet haben, wird dies folgendermaßen an
   
 Öffnen Sie Remote-PowerShell, um für alle Benutzern Ihrer Organisation die Verwendung des Skype for Business-Clients (Lync) zu aktivieren. Tippen Sie Folgendes ein: 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -72,7 +72,7 @@ Wenn Sie die Richtlinie richtig eingerichtet haben, wird dies folgendermaßen an
   
 Öffnen Sie Remote-PowerShell, um für einen einzelnen Benutzern Ihrer Organisation die Verwendung des Skype for Business-Clients zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Wenn Sie die Richtlinie richtig eingerichtet haben, wird dies folgendermaßen an
   
 Öffnen Sie Remote-PowerShell, um für einen einzelnen Benutzern Ihrer Organisation die Verwendung des Skype for Business-Clients (Lync) zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Wenn Sie die Richtlinie richtig eingerichtet haben, wird dies folgendermaßen an
 Öffnen Sie Remote-PowerShell, um für mehrere Benutzer Ihrer Organisation die Verwendung des Skype for Business-Clients zu aktivieren. Tippen Sie Folgendes ein:
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Öffnen Sie Remote-PowerShell, um für mehrere Benutzer Ihrer Organisation die Verwendung des Skype for Business-Clients (Lync) zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Öffnen Sie Remote-PowerShell, um für eine Benutzergruppe Ihrer Organisation die Verwendung des Skype for Business-Clients zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 Öffnen Sie Remote-PowerShell, um für eine Benutzergruppe Ihrer Organisation die Verwendung des Skype for Business-Clients (Lync) zu aktivieren. Tippen Sie Folgendes ein:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -172,7 +172,7 @@ Informieren Sie sich in den folgenden Themen über die Verwendung von Windows Po
     
 ## <a name="first-launch-client-behaviors"></a>Verhalten beim ersten Start des Clients
 
-Wenn Benutzer Skype for Business zum ersten Mal starten, sehen Sie standardmäßig immer die Benutzeroberfläche von Skype for Business – auch wenn Sie die lync-Clientumgebung ausgewählt haben, indem Sie die Clientrichtlinie auf die lync-Clientumgebung (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) festlegen zuvor. Nach einigen Minuten wird der Benutzer aufgefordert, in den Lync-Modus zu wechseln.
+Wenn Benutzer Skype for Business zum ersten Mal starten, sehen Sie standardmäßig immer die Benutzeroberfläche von Skype for Business – auch wenn Sie die lync-Clientumgebung ausgewählt haben, indem Sie die Clientrichtlinie wie zuvor beschrieben auf die lync-`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`Clientumgebung () festlegen. Nach einigen Minuten wird der Benutzer aufgefordert, in den Lync-Modus zu wechseln.
   
 Wenn beim ersten Start des Skype for Business-Clients die Lync-Benutzeroberfläche angezeigt werden soll, führen Sie die folgenden Schritte aus, bevor der Client nach der Aktualisierung zum ersten Mal gestartet wird:
   
@@ -186,7 +186,7 @@ Wenn beim ersten Start des Skype for Business-Clients die Lync-Benutzeroberfläc
     
     Der Schlüssel sollte wie folgt aussehen:
     
-    [HKEY_CURRENT_USER\\-\\Software\\Microsoft\\Office lync]
+    [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\lync]
     
     "CanSharePptInCollab" = DWORD: 00000001
     
@@ -214,7 +214,7 @@ Wenn Sie nicht möchten, dass die Benutzer auf das Lernprogramm zugreifen, könn
   
 Erstellen Sie im Schlüssel **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** einen neuen **DWORD-(32-Bit-)Wert**. Der **Wertname** muss **TutorialFeatureEnabled** sein und die **Wertdaten** müssen auf **0** festgelegt sein.
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 

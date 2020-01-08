@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und was die Konferenz-IDs-Parameter sein sollten. '
-ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 4932eb9a7124f0ddefcf9f6dc7ffeb8b9e29c162
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793004"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962683"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
@@ -45,11 +45,11 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>So zeigen Sie die Konferenz-ID an
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
 
 2. Wechseln Sie zum Admin Center #a0 **Skype for Business**.
 
@@ -64,7 +64,7 @@ Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```
+  ```PowerShell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
@@ -75,9 +75,9 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese beispielsweise vergessen hat.
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
 
 2. Wechseln Sie zum Admin Center #a0 **Skype for Business**.
 
@@ -89,7 +89,7 @@ Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese b
 
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Learn about these advantages in the following topics:
+- Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Weitere Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 28da70d829972a7b9d3659290652c2482d409364
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Erfahren Sie, wie Sie Skype beim Senden von e-Mails an Benutzer aktivieren oder deaktivieren können, wenn sich Einstellungen wie PIN-Änderungen oder die standardmäßige Konferenznummer ändern. '
+ms.openlocfilehash: d4947012e98c45e108a2cc8d9f84bb4f16a24d3c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792328"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962713"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
 
@@ -62,16 +62,16 @@ Im folgenden finden Sie ein Beispiel für die e-Mail, die an Benutzer gesendet w
 Sie können das Skype for Business Admin Center oder Windows PowerShell verwenden, um e-Mails zu aktivieren oder zu deaktivieren, die an Benutzer gesendet werden.
 
  
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
     
-1. Klicken Sie im **Skype for Business Admin Center**im linken Navigationsbereich auf Audiokonferenzen. ****
+1. Klicken Sie im **Skype for Business Admin Center**im linken Navigationsbereich auf **Audiokonferenzen**.
     
 2. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** die Option **Automatically send emails to users if any of the audio conferencing configuration changes** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
     
 3. Klicken Sie auf **Speichern**.
     
     > [!TIP]
-    > Sie können auch eine e-Mail mit den Einstellungen für Audiokonferenzen an einen Benutzer senden, **** > indem Sie zu Audiokonferenz-**Benutzer**wechseln, den Benutzer auswählen und auf **Konferenz Informationen per e-Mail senden**klicken.  Wenn Sie dies tun, wird eine e-Mail gesendet, die nur Konferenz-ID und Konferenztelefonnummer enthält, aber nicht die PIN.  Weitere Informationen finden Sie unter [Senden einer e-Mail-Nachricht an einen Benutzer mit den zugehörigen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md) zur Audiokonferenz.
+    > Sie können auch eine e-Mail mit den Einstellungen für Audiokonferenzen an einen Benutzer senden, indem Sie zu **Audiokonferenz** > -**Benutzer**wechseln, den Benutzer auswählen und auf **Konferenz Informationen per e-Mail senden**klicken.  Wenn Sie dies tun, wird eine e-Mail gesendet, die nur Konferenz-ID und Konferenztelefonnummer enthält, aber nicht die PIN.  Weitere Informationen finden Sie unter [Senden einer e-Mail-Nachricht an einen Benutzer mit den zugehörigen Informationen zur Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information.md) .
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -80,7 +80,7 @@ Sie können das Skype for Business Admin Center oder Windows PowerShell verwende
   
 - Führen Sie die folgenden Schritte aus, um das Senden von e-Mails zu deaktivieren: 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
@@ -110,7 +110,7 @@ Sie können das Skype for Business Admin Center oder Windows PowerShell verwende
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Learn about these advantages in the following topics: 
+- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

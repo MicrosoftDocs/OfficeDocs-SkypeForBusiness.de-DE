@@ -3,7 +3,6 @@ title: Checkliste für den Microsoft Teams-Gastzugriff
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813775"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962533"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Checkliste für den Microsoft Teams-Gastzugriff
 ==========================================
@@ -84,11 +83,11 @@ Wenn Sie den Gastzugriff aktivieren möchten, wechseln Sie zum **Microsoft Teams
 
 ## <a name="step-3-configure-office-365-groups"></a>Schritt 3: Konfigurieren von Office 365-Gruppen
 
-1. Navigieren Sie dazu im Microsoft 365 Admin Center zu **Einstellungen** > **Dienste und Add-Ins** > **Office 365-Gruppen**.
-2. Stellen Sie sicher, dass **Gruppenmitglieder von außerhalb Ihrer Organisation dürfen auf Gruppeninhalte zugreifen** auf **Ein** gestellt ist. Wenn diese Einstellung deaktiviert ist, können Gäste nicht auf Gruppeninhalte zugreifen.
-3. Stellen Sie sicher, dass **Gruppenbesitzer dürfen Personen außerhalb der Organisation zu Gruppen hinzufügen** auf **Ein** gestellt ist. Wenn diese Einstellung deaktiviert ist, können Teambesitzer keine neuen Gäste hinzufügen. Mindestens diese Einstellung muss aktiviert sein, um den Gastzugriff zu unterstützen.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Services #a0-Add-ins**, und wählen Sie dann **Office 365-Gruppen**aus.
 
      ![Screenshot der Schaltflächen für Office 365-Gruppen](media/guest-access-checklist-office365.png)
+2. Stellen Sie sicher, dass das Kontrollkästchen **Gruppenmitglieder außerhalb des Organisations Zugriffs auf Gruppeninhalte zulassen** aktiviert ist. Wenn diese Einstellung nicht aktiviert ist, können Gäste nicht auf Gruppeninhalte zugreifen.
+3. Stellen Sie sicher, dass das Kontrollkästchen **Gruppenbesitzer Personen außerhalb des Unternehmens hinzufügen** aktiviert ist. Wenn diese Einstellung nicht aktiviert ist, können Teambesitzer keine neuen Gäste hinzufügen. Diese Einstellung muss mindestens aktiviert sein, um den Gastzugriff zu unterstützen.
 
 Detaillierte Anweisungen zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten des Gastzugriffs in Office 365-Gruppen](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) und [Steuern des Gastzugriffs in Office 365-Gruppen](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
@@ -115,14 +114,16 @@ Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Dazu gehen Sie so 
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>Schritt 5: Überprüfen der Freigabe Einstellung in SharePoint
 
-Das hier ist ein bisschen ein Rätsel. Gastzugriff in Teams funktioniert nicht, wenn im SharePoint Admin Center die Einstellung " **Freigabe außerhalb Ihrer Organisation nicht zulassen** " aktiviert ist.
-
 1. Melden Sie sich beim Microsoft 365 Admin Center an.
-2. Klicken Sie auf **Admin Center** und wählen Sie dann **SharePoint** aus.
-3. Wählen Sie im SharePoint Admin Center **Freigabe** aus.
-4. Vergewissern Sie sich, dass die Option für **Freigabe außerhalb Ihrer Organisation nicht zulassen** *nicht* aktiviert ist.
+2. Wählen Sie unter **Admin Center**die Option **SharePoint**aus.
+3. Wählen Sie im neuen SharePoint Admin Center unter **Websites**die Option **aktive Websites**aus.
+
+    ![Aktive Websites im SharePoint Admin Center](media/guest-access-checklist-SPOSettings0.png)
+
+3. Wählen Sie die Website aus, und klicken Sie dann auf **Freigabe**.
+4. Stellen Sie sicher, dass die Option auf **jeder** oder **neuen und vorhandenen Gästen**festgesetzt ist.
  
-     ![Screenshot zeigt ein Beispiel für einen Umschalter von Einstellungen in SharePoint.](media/guest-access-checklist-SPOSettings1.png)
+     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche für SharePoint Online-Einstellungen](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>Schritt 6: Einrichten von Gastbenutzer Berechtigungen

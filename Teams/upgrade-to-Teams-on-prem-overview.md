@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010628"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963083"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Upgrade von Skype for Business auf Teams &mdash; für IT-Administratoren
 
@@ -148,25 +148,25 @@ Benutzer mit Skype for Business-Konten, die sich lokal [benetzen, müssen](https
 
 Im Gegensatz zu anderen Richtlinien ist es nicht möglich, neue Instanzen von TeamsUpgradePolicy in Office 365 zu erstellen. Alle vorhandenen Instanzen sind in den Dienst integriert.  (Beachten Sie, dass Mode eine Eigenschaft in TeamsUpgradePolicy und nicht der Name einer Richtlinieninstanz ist.) In einigen-aber nicht in allen Fällen ist der Name der Richtlinieninstanz derselbe wie der Modus. Um einem Benutzer den TeamsOnly-Modus zuzuweisen, erteilen Sie diesem Benutzer die Instanz "UpgradeToTeams" von TeamsUpgradePolicy. Um eine Liste aller Instanzen anzuzeigen, können Sie den folgenden Befehl ausführen:
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 Wenn Sie einen Online Benutzer auf den TeamsOnly-Modus aktualisieren möchten, weisen Sie die "UpgradeToTeams"-Instanz zu: 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 Um einen lokalen Skype for Business-Benutzer in den TeamsOnly-Modus zu aktualisieren, verwenden Sie Move-CsUser im lokalen Toolset:
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 Führen Sie den folgenden Befehl aus, um den Modus für alle Benutzer im Mandanten zu ändern, mit Ausnahme derjenigen, die über eine explizite pro-Benutzer-Grant (die Vorrang hat) verfügen:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Wenn Ihre Benutzer in Skype for Business online gehostet werden, weisen Sie einf
 
 Wenn Ihre Benutzer in Skype for Business Server lokal gehostet werden, müssen Sie das lokale Toolset verwenden, und Sie benötigen Skype for Business Server 2019 oder CU8 für Skype for Business Server 2015. Erstellen Sie im lokalen PowerShell-Fenster eine neue Instanz von TeamsUpgradePolicy mit NotifySfbUsers = true:
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 Weisen Sie dann mithilfe desselben lokalen PowerShell-Fensters die neue Richtlinie den gewünschten Benutzern zu:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Im folgenden finden Sie die wichtigsten Befehle:
 
 1. Setzen Sie die Mandantenweite Standardeinstellung auf Mode SfbWithTeamsCollab wie folgt:
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Im folgenden finden Sie die wichtigsten Befehle:
 
    - Wenn der Benutzer bereits online ist:
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - Wenn der Benutzer lokal ist:
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Wenn einige Benutzer in Ihrer Organisation Teams im Modus "Inseln" aktiv verwend
 
 2. Weisen Sie für jeden in Schritt 1 gefundenen aktiven Teams-Benutzer den Modus "Inseln" in der Remote-PowerShell zu. So können Sie mit dem nächsten Schritt fortfahren und sicherstellen, dass Sie die Benutzeroberfläche nicht ändern.  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Wenn einige Benutzer in Ihrer Organisation Teams im Modus "Inseln" aktiv verwend
 
 3. Setzen Sie die Mandantenweite Richtlinie auf SfbWithTeamsCollab:
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Wenn einige Benutzer in Ihrer Organisation Teams im Modus "Inseln" aktiv verwend
 
    Für Benutzer, die in Skype for Business Online verwaltet werden:  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    Für Benutzer, die in Skype for Business Server lokal verwaltet werden:  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ Unabhängig davon, ob Sie das direkte Routing oder einen Microsoft-Anrufplan ver
 
 - Wenn einem vorhandenen TeamsOnly-oder Skype for Business Online-Benutzer eine Telefon System Lizenz zugewiesen ist, ist EV-Enabled standardmäßig nicht auf "true" festgelegt.  Dies ist auch der Fall, wenn ein lokales Benutzer vor dem Zuweisen der Telefon System Lizenz in die Cloud verschoben wird. In beiden Fällen muss der Administrator das folgende Cmdlet angeben: 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 

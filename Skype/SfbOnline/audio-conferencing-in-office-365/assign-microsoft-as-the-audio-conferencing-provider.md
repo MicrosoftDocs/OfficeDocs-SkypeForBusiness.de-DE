@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Erfahren Sie, wie Sie Microsoft den Anbieter von Einwahlkonferenzen für Skype for Business zuweisen.
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432603"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962733"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
@@ -43,7 +43,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
     
-2. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu Audiokonferenzen. ****
+2. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audiokonferenzen**.
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
@@ -65,7 +65,7 @@ Um Zeit zu sparen oder den Vorgang zu automatisieren, können Sie mit dem folgen
 > Wenn Sie den Anbieter in **Microsoft** ändern, werden die Audiokonferenzinformationen für den Benutzer (Konferenzkennung, gebührenpflichtige und gebührenfreie Telefonnummern) ersetzt. Sie sollten diese Informationen speichern, bevor Sie den Anbieter ändern. 
 
   
-Wenn Sie den Anbieter für eine kleine Anzahl von Benutzern zu Microsoft ändern möchten, können Sie das Cmdlet [enable-csonlinedialinconferencinguser zeigt](https://technet.microsoft.com/en-us/library/mt243813.aspx) verwenden.
+Wenn Sie den Anbieter für eine kleine Anzahl von Benutzern zu Microsoft ändern möchten, können Sie das Cmdlet [enable-csonlinedialinconferencinguser zeigt](https://technet.microsoft.com/library/mt243813.aspx) verwenden.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Verwenden eines Windows PowerShell-Skripts für eine große Anzahl von Benutzern
@@ -77,27 +77,27 @@ Sie können das folgende Skript als eine PowerShell-Skriptdatei speichern und es
 
 **Beispiel 1:** Sie können dieses Skript ausführen, indem Sie eine Liste der Benutzer bereitstellen, die aktualisiert werden sollen.
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Beispiel 2:** Sie können dieses Skript ausführen, indem Sie eine CSV-Datei bereitstellen, die die E-Mail-Adresse (den Alias) jedes Benutzers enthält, der aktualisiert werden soll.
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
 **Beispiel 3:** In diesem Beispiel können Sie mit diesem Skript den Audiokonferenz-Anbieter von InterCall (oder einem anderen Anbieter) zu **Microsoft** für eine große Anzahl von Benutzern in Ihrer Organisation ändern.
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   Hier ist das Skript:
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 
