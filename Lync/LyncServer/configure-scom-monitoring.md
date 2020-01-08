@@ -11,12 +11,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d48e08854b3c7aa66ca0f40224131b2785533e5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e114d3f18e482c11a8e83c9d4308f3c5712932c
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233239"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +24,7 @@ ms.locfileid: "36233239"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a><span data-ttu-id="3c978-102">Konfigurieren der SCOM-Überwachung</span><span class="sxs-lookup"><span data-stu-id="3c978-102">Configure SCOM monitoring</span></span>
+# <a name="configure-scom-monitoring"></a><span data-ttu-id="9c991-102">Konfigurieren der SCOM-Überwachung</span><span class="sxs-lookup"><span data-stu-id="9c991-102">Configure SCOM monitoring</span></span>
 
 </div>
 
@@ -34,35 +34,35 @@ ms.locfileid: "36233239"
 
 <span> </span>
 
-<span data-ttu-id="3c978-103">_**Letztes Änderungsdatum des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="3c978-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="9c991-103">_**Letztes Änderungsdatum des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="9c991-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="3c978-104">Nach der Migration zu Microsoft lync Server 2013 müssen Sie einige Aufgaben ausführen, um lync Server 2013 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="3c978-104">After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.</span></span>
+<span data-ttu-id="9c991-104">Nach der Migration zu Microsoft lync Server 2013 müssen Sie einige Aufgaben ausführen, um lync Server 2013 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="9c991-104">After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.</span></span>
 
-  - <span data-ttu-id="3c978-105">Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.</span><span class="sxs-lookup"><span data-stu-id="3c978-105">Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.</span></span>
+  - <span data-ttu-id="9c991-105">Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.</span><span class="sxs-lookup"><span data-stu-id="9c991-105">Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.</span></span>
 
-  - <span data-ttu-id="3c978-106">Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.</span><span class="sxs-lookup"><span data-stu-id="3c978-106">Update the central discovery candidate server registry key.</span></span>
+  - <span data-ttu-id="9c991-106">Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.</span><span class="sxs-lookup"><span data-stu-id="9c991-106">Update the central discovery candidate server registry key.</span></span>
 
-  - <span data-ttu-id="3c978-107">Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für die zentrale Ermittlung außer Kraft setzt.</span><span class="sxs-lookup"><span data-stu-id="3c978-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
+  - <span data-ttu-id="9c991-107">Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für die zentrale Ermittlung außer Kraft setzt.</span><span class="sxs-lookup"><span data-stu-id="9c991-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
 
-<span data-ttu-id="3c978-108">Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.</span><span class="sxs-lookup"><span data-stu-id="3c978-108">Instructions for carrying out each of these tasks are provided below.</span></span>
+<span data-ttu-id="9c991-108">Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.</span><span class="sxs-lookup"><span data-stu-id="9c991-108">Instructions for carrying out each of these tasks are provided below.</span></span>
 
-<span data-ttu-id="3c978-109">**Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.**</span><span class="sxs-lookup"><span data-stu-id="3c978-109">**Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.**</span></span>
+<span data-ttu-id="9c991-109">**Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.**</span><span class="sxs-lookup"><span data-stu-id="9c991-109">**Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.**</span></span>
 
-1.  <span data-ttu-id="3c978-110">Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und als Knoten für die Kandidaten Ermittlung konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="3c978-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span>
+1.  <span data-ttu-id="9c991-110">Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und als Knoten für die Kandidaten Ermittlung konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="9c991-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span>
 
-2.  <span data-ttu-id="3c978-111">Wenden Sie lync Server 2010-Updates auf diesen Server an.</span><span class="sxs-lookup"><span data-stu-id="3c978-111">Apply Lync Server 2010 updates to this server.</span></span> <span data-ttu-id="3c978-112">Lesen Sie das Thema [Anwenden von lync Server 2010-Updates](apply-lync-server-2010-updates.md).</span><span class="sxs-lookup"><span data-stu-id="3c978-112">See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).</span></span>
+2.  <span data-ttu-id="9c991-111">Wenden Sie lync Server 2010-Updates auf diesen Server an.</span><span class="sxs-lookup"><span data-stu-id="9c991-111">Apply Lync Server 2010 updates to this server.</span></span> <span data-ttu-id="9c991-112">Lesen Sie das Thema [Anwenden von lync Server 2010-Updates](apply-lync-server-2010-updates.md).</span><span class="sxs-lookup"><span data-stu-id="9c991-112">See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).</span></span>
 
-<span data-ttu-id="3c978-113">**Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.**</span><span class="sxs-lookup"><span data-stu-id="3c978-113">**Update the central discovery candidate server registry key.**</span></span>
+<span data-ttu-id="9c991-113">**Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.**</span><span class="sxs-lookup"><span data-stu-id="9c991-113">**Update the central discovery candidate server registry key.**</span></span>
 
-1.  <span data-ttu-id="3c978-114">Öffnen Sie auf dem Server, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde, ein Windows PowerShell-Befehlsfenster.</span><span class="sxs-lookup"><span data-stu-id="3c978-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span>
+1.  <span data-ttu-id="9c991-114">Öffnen Sie auf dem Server, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde, ein Windows PowerShell-Befehlsfenster.</span><span class="sxs-lookup"><span data-stu-id="9c991-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span>
 
-2.  <span data-ttu-id="3c978-115">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="3c978-115">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="9c991-115">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="9c991-115">At the command line, type the following:</span></span>
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
        ```
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
        ```
     
@@ -70,22 +70,22 @@ ms.locfileid: "36233239"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3c978-116">Wenn Sie die Registrierung bearbeiten, tritt möglicherweise ein Fehler auf, dass der Befehl fehlgeschlagen ist, wenn der Registrierungsschlüssel bereits vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="3c978-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="3c978-117">Wenn Sie dies erleben, können Sie den Fehler bedenkenlos ignorieren.</span><span class="sxs-lookup"><span data-stu-id="3c978-117">If you experience this, you can safely ignore the error.</span></span>
+    > <span data-ttu-id="9c991-116">Wenn Sie die Registrierung bearbeiten, tritt möglicherweise ein Fehler auf, dass der Befehl fehlgeschlagen ist, wenn der Registrierungsschlüssel bereits vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="9c991-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="9c991-117">Wenn Sie dies erleben, können Sie den Fehler bedenkenlos ignorieren.</span><span class="sxs-lookup"><span data-stu-id="9c991-117">If you experience this, you can safely ignore the error.</span></span>
 
     
     </div>
 
-<span data-ttu-id="3c978-118">**Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für den Central Discovery Watcher-Knoten außer Kraft setzt.**</span><span class="sxs-lookup"><span data-stu-id="3c978-118">**Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.**</span></span>
+<span data-ttu-id="9c991-118">**Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für den Central Discovery Watcher-Knoten außer Kraft setzt.**</span><span class="sxs-lookup"><span data-stu-id="9c991-118">**Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.**</span></span>
 
-1.  <span data-ttu-id="3c978-119">Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte** , und wählen Sie dann **Objektermittlungen**aus.</span><span class="sxs-lookup"><span data-stu-id="3c978-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
+1.  <span data-ttu-id="9c991-119">Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte** , und wählen Sie dann **Objektermittlungen**aus.</span><span class="sxs-lookup"><span data-stu-id="9c991-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
 
-2.  <span data-ttu-id="3c978-120">Klicken Sie auf **Bereich ändern...**</span><span class="sxs-lookup"><span data-stu-id="3c978-120">Click **Change Scope...**</span></span>
+2.  <span data-ttu-id="9c991-120">Klicken Sie auf **Bereich ändern...**</span><span class="sxs-lookup"><span data-stu-id="9c991-120">Click **Change Scope...**</span></span>
 
-3.  <span data-ttu-id="3c978-121">Wählen Sie auf der Seite **Objekte des Bereichs Management Packs** die Option **ls Discovery Candidate**aus.</span><span class="sxs-lookup"><span data-stu-id="3c978-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
+3.  <span data-ttu-id="9c991-121">Wählen Sie auf der Seite **Objekte des Bereichs Management Packs** die Option **ls Discovery Candidate**aus.</span><span class="sxs-lookup"><span data-stu-id="9c991-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
 
-4.  <span data-ttu-id="3c978-122">Überschreiben Sie den Wert für den **effektiven ls-Ermittlungs Kandidaten** auf den Namen des Kandidaten Servers, der im vorherigen Verfahren gewählt wurde.</span><span class="sxs-lookup"><span data-stu-id="3c978-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span>
+4.  <span data-ttu-id="9c991-122">Überschreiben Sie den Wert für den **effektiven ls-Ermittlungs Kandidaten** auf den Namen des Kandidaten Servers, der im vorherigen Verfahren gewählt wurde.</span><span class="sxs-lookup"><span data-stu-id="9c991-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span>
 
-<span data-ttu-id="3c978-123">Um Ihre Änderungen abzuschließen, starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server erneut.</span><span class="sxs-lookup"><span data-stu-id="3c978-123">Lastly, to finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="9c991-123">Um Ihre Änderungen abzuschließen, starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server erneut.</span><span class="sxs-lookup"><span data-stu-id="9c991-123">Lastly, to finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
 
 </div>
 
