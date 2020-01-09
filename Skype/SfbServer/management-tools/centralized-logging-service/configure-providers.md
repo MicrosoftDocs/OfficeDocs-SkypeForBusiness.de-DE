@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 Szenario-Anbieter für den zentralisierten Protokollierungsdienst konfigurieren.'
-ms.openlocfilehash: a9987d99b2caf00acc92de92a8d997845ad8f921
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dcfa16ffa00e81153172570e67020cf287350cd9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274450"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991470"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -27,13 +27,13 @@ Die Konzepte und die Konfiguration von Anbietern im zentralisierten Protokollier
   
 Wenn Sie die Funktionen für den zentralisierten Protokollierungsdienst mithilfe der Skype for Business Server-Verwaltungsshell ausführen möchten, müssen Sie Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein, die enthält eine dieser beiden Gruppen. Führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell oder der Windows PowerShell aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen (einschließlich aller benutzerdefinierten RBAC-Rollen) zurückzugeben, die Sie selbst erstellt haben. Aufforderung
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Beispiel:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -84,19 +84,19 @@ Im [zentralisierten Protokollierungsdienst in Skype for Business 2015](centraliz
     
 2. Mit dem folgenden Befehl können Sie die Konfiguration vorhandener Anbieter überprüfen:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity <scope and scenario name>
    ```
 
     Wenn Sie beispielsweise Informationen über die globale Konferenzzentrale überprüfen möchten, geben Sie Folgendes ein:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
     Der Befehl listet Anbieter mit den zugehörigen Flags, Einstellungen und Komponenten auf. Wenn die angezeigten Informationen nicht ausreichen oder die Liste für das standardmäßige Windows PowerShell-Listenformat zu lang ist, können Sie zusätzliche Informationen anzeigen, indem Sie eine andere Ausgabemethode definieren. Geben Sie dazu Folgendes ein:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
    ```
 
@@ -108,19 +108,19 @@ Im [zentralisierten Protokollierungsdienst in Skype for Business 2015](centraliz
     
 2. Ein Szenarioanbieter besteht aus einer nachzuverfolgenden Komponente, zu verwendenden Flags und einer Detailstufe für die Erfassung. Geben Sie dazu Folgendes ein:
     
-   ```
+   ```PowerShell
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
    ```
 
     Beispiel: Die Definition eines Ablaufverfolgungsanbieters, in der festgelegt ist, was und mit welcher Detailstufe vom Anbieter „Lyss“ erfasst werden soll, sieht so aus:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
-Die-Ebene sammelt fatale, Fehler-, Warnungs-und Informationsnachrichten. Die verwendeten Flags sind alle für den Lysser-Anbieter definierten Flags und umfassen TF_Connection, TF_Diag und TF_Protocol. Nachdem die Variable $LyssProvider definiert wurde, können Sie Sie mit dem Cmdlet **New-CsClsScenario** verwenden, um Ablaufverfolgungen des Lysser Anbieters zu erfassen. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
+Die-Ebene sammelt fatale, Fehler-, Warnungs-und Informationsnachrichten. Die verwendeten Flags sind alle für den Lysser-Anbieter definierten Flags und beinhalten TF_Connection, TF_Diag und TF_Protocol. Nachdem die Variable $LyssProvider definiert wurde, können Sie Sie mit dem Cmdlet **New-CsClsScenario** verwenden, um Ablaufverfolgungen des Lysser Anbieters zu erfassen. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
 
-```
+```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
@@ -131,13 +131,13 @@ Hierbei ist „$LyssProvider“ die Variable, in der sich das definierte Szenari
     
 2. Geben Sie Folgendes ein, um die Konfiguration eines vorhandenen Anbieters zu aktualisieren oder zu ändern:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
    ```
 
     Aktualisieren Sie das Szenario anschließend mit der folgenden Eingabe, um den Anbieter zuzuweisen:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
@@ -147,7 +147,7 @@ Dieser Befehl bewirkt, dass beim Szenariostandort „Redmond/RedmondLyssInfo“ 
   
 Wenn Sie diesem Szenario weitere Anbieter hinzufügen möchten, geben Sie Folgendes ein:
 
-```
+```PowerShell
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
@@ -158,23 +158,23 @@ Hierbei wurde jeder mit der „Add“-Anweisung festgelegte Anbieter bereits mit
     
 2. Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter „-Provider“ die Anweisung „Replace“ verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung „Update“ zu verwenden. Beispiel: Der Anbieter „LyssProvider“ ist mit dem Protokollierungstyp „WPP“, der Protokollierungsebene „Debug“ und den gesetzten Flags „TF_CONNECTION“ und „TF_DIAG“ definiert. Sie müssen die Flags in "alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
    ```
 
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
    ```
 
 3. Wenn Sie ein Szenario mit den zugehörigen Anbietern vollständig entfernen möchten, geben Sie den folgenden Befehl ein:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <scope and name of scenario>
    ```
 
     Beispiel:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
    ```
 

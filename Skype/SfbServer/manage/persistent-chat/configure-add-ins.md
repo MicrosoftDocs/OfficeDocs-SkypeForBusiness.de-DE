@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Add-Ins für Chatrooms für beständigen Chat-Server in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: 4614387149eb264d5c59ca7a0642408093312a18
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417953"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992110"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015
  
@@ -71,7 +71,7 @@ Sie können ein neues Add-in mit dem Cmdlet **New-CsPersistentChatAddin** erstel
   
 Mit dem folgenden Befehl wird beispielsweise ein neues Add-in (mit dem Namen ITPersistentChatAddin) für den Pool ATL-CS-001.contoso.com erstellt. Der URL-Parameter und der Parameter http://atl-cs-001.contoso.com/itchat Wert geben den Speicherort der Webseite des Add-Ins an:
   
-```
+```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
 ```
 
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 Sie können die Einstellungen für ein vorhandenes Add-in mithilfe des Cmdlets " **Satz-CsPersistentChatAddIn** " konfigurieren. Mit dem folgenden Befehl wird beispielsweise die URL geändert, die dem Add-in ITPersistentChatAddin für beständigen Chat zugewiesen ist. In diesem Fall wird die URL inhttp://atl-cs-001.contoso.com/itchat2:
   
-```
+```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
 ```
 
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 Mithilfe des Cmdlets **Get-CsPersistentChatAddin** können Sie Informationen über Add-Ins abrufen. Beispielsweise liefert der folgende Befehl Informationen über alle Add-Ins für beständigen Chat, die zur Verwendung in der Organisation konfiguriert wurden:
   
-```
+```PowerShell
 Get-CsPersistentChatAddin
 ```
 
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 Mithilfe des Cmdlets **Remove-CsPersistentChatAddIn** können Sie ein Add-in entfernen. Beispielsweise entfernt der folgende Befehl das Add-In für beständigen Chat namens „ITChatAddin“ aus dem Pool „atl-cs-001.contoso.com“:
   
-```
+```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"
 ```
 

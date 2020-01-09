@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Zusammenfassung: Informationen zur reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289336"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992060"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Bericht zur Antwortgruppen-Anrufliste in Skype for Business Server
 
@@ -67,7 +67,7 @@ Bei einer Frage wie „Welcher Einzelworkflow hat die meisten Anrufe empfangen?�
 
 Wenn Sie beispielsweise die Daten in einer Datei mit dem Namen „C:\Data\Response_Group_Call_List_Report.csv“gespeichert haben, können Sie anschließend mithilfe des folgenden Befehls die Gesamtzahl empfangener Anrufe für alle Workflows zurückgeben, die im Bericht aufgelistet sind:
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von dynamischen Notrufen
+title: Konfigurieren dynamischer Notrufe
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: Konfigurieren von dynamischen Notrufen
+description: Konfigurieren dynamischer Notrufe
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615855"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992090"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -61,7 +61,7 @@ Weitere Informationen zu Notrufen – einschließlich Informationen zu Notfallad
 
 - [Notfallanrufe verwalten](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Verwalten von Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md)
-- [Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures](manage-your-network-topology.md)
+- [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features](manage-your-network-topology.md)
 
 
 ## <a name="supported-clients"></a>Unterstützte Clients
@@ -164,25 +164,25 @@ Die TeamsEmergencyCallRouting-Richtlinie gilt nur für die direkte Weiterleitung
 
 Wenn Sie beispielsweise einen bestimmten Benutzer für die Benachrichtigung über das Security Desk aktivieren möchten, verwenden Sie den folgenden Befehl:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 Verwenden Sie den folgenden Befehl, um eine Richtlinie namens "Contoso Emergency Calling Policy 1" zu Site 1 zuzuweisen:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 Verwenden Sie den folgenden Befehl, um einen bestimmten direkten Routing Benutzer für Notrufe zu aktivieren:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 Verwenden Sie den folgenden Befehl, um eine Richtlinie namens "Contoso New York Emergency Call Routing" zu Site 1 zuzuweisen:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -204,5 +204,5 @@ Einige Notverwaltungsdienste (Emergency Routing Service Providers, ERSPs) in den
 - [Verwalten von Notfall Anrufrouting Richtlinien](manage-emergency-call-routing-policies.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 - [Zuweisen oder Ändern eines Notfall Standorts für Ihren Benutzer](assign-change-emergency-location-user.md)
-- [Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md)
-- [Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures](manage-your-network-topology.md)
+- [Netzwerkeinstellungen für Cloud Voice-Features](cloud-voice-network-settings.md)
+- [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features](manage-your-network-topology.md)

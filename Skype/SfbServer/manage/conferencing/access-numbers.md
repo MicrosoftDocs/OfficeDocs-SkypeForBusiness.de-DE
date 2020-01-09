@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Access-Nummern für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289034"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991920"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Einwahlkonferenz-Zugriffsnummern in Skype for Business Server
  
@@ -47,7 +47,7 @@ Verwenden Sie das Cmdlet **Get-CsDialInConferencingAccessNumber**, um Informatio
   
 Mit dem folgenden Befehl wird eine Sammlung aller Zugriffsnummern für Einwahlkonferenzen zurückgegeben, die für die Verwendung in der Organisation konfiguriert sind: 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Verwenden Sie das Cmdlet **Set-CsDialInConferencingAccessNumber**, um die Zugrif
   
 Der folgende Befehl ändert die Eigenschaft „DisplayName“ für die Zugriffsnummer für Einwahlkonferenzen mit dem Identitätswert „sip:RedmondDialIn@litwareinc.com“. In diesem Beispiel wurde als Anzeigename „Redmond Dial-In Access Number“ festgelegt:
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 In nächsten Beispiel wird die Zugriffsnummer für Einwahlkonferenzen mit dem Identitätswert „sip:RedmondDialIn@litwareinc.com“ geändert, um zwei Regionen anzugeben: „Redmond“ und „Seattle“. Hierzu wird der Parameter „Region“ aufgerufen, gefolgt von den beiden Regionen (zwei durch Kommas voneinander getrennte Werte). Beachten Sie, dass beim Ausführen dieses Befehls ein Fehler auftreten kann, wenn die beiden Regionen („Redmond“ und „Seattle“) noch nicht in den Wähleinstellungen definiert wurden.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Sie können eine Access-Nummer für Einwahlkonferenzen mithilfe der Skype for Bu
   
 Mit dem folgenden Befehl wird die Zugriffsnummer für Einwahlkonferenzen mit der Identität „sip:RedmondDialInAccess@litwareinc.com“ gelöscht:
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 Mit dem folgenden Befehl werden alle Zugriffsnummern für Einwahlkonferenzen gelöscht, die der Region „Northwest“ zugeordnet sind:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 Mit dem folgenden Befehl werden alle Zugriffsnummern für Einwahlkonferenzen mit der primären Sprache Italienisch gelöscht:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

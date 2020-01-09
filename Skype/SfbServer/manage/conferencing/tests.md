@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server testen.'
-ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a19adba9d36fd7f862b9b40d3c7c239933fa7847
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280362"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992272"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testen von Einwahlkonferenzen in Skype for Business Server
  
@@ -31,7 +31,7 @@ Zur endgültigen Bestätigung der Einwahlkonferenzkonfiguration können Sie nach
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](ht
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
@@ -71,7 +71,7 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-   ```
+   ```PowerShell
    $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********

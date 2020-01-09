@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: In diesem Artikel wird beschrieben, wie Sie Dienste verwalten, die in einer Skype for Business Server-Topologie ausgeführt werden.
-ms.openlocfilehash: 9d1a79226422da57eee36e27590769f76b89b560
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76628840c37bdb0eb85d58887d8bfdcedd20f27c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279620"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991670"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Verwalten von Diensten für Skype for Business Server
 
@@ -59,7 +59,7 @@ Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet
 
 Wenn Sie den Dienststatus auf einem Computer anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell einen Befehl ähnlich dem folgenden ein, und drücken Sie dann die EINGABETASTE:
   
-```
+```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
 ```
 
@@ -104,7 +104,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um alle Sky
 
 1. Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. . Sie können feststellen, ob Ihnen die CsServerAdministrator-oder CsAdministrator-RBAC-Rolle zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
     
-   ```
+   ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 

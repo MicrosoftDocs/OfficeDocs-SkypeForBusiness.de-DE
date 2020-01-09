@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter.
-ms.openlocfilehash: dd8bd94bb8831fc3e406bed46015b2d955a2359c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274870"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992552"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Anzeigen von trunk-Konfigurationsinformationen in Skype for Business Server
 
@@ -29,7 +29,7 @@ Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von 
 **So zeigen Sie SIP-Trunk-Konfigurationsinformationen mithilfe der Skype for Business Server-Systemsteuerung an**
 
 1. Klicken Sie im Skype for Business Server-Control Panel auf **VoIP-Routing**und dann auf trunk- **Konfiguration**.
-2. Auf dem Reiter " **trunk Configuration** " sehen Sie eine Liste aller ihrer trunk Configuration Settings-Sammlungen. für jede Sammlung werden Werte für die Eigenschaften **Name**, **Scope**, **Zustand**und **medienumgehung** sowie die Anzahl der **PSTN**-Nutzungen, **Regeln**für die Rufnummernanzeige und **benannte Nummern Regeln** angezeigt. mit der Sammlung. Wenn Sie weitere Details zu einer Sammlung von trunk-Konfigurationseinstellungen anzeigen möchten, klicken Sie auf die Sammlung von Interesse, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**. Beachten Sie, dass Sie detaillierte Informationen nur für eine Sammlung von trunk-Konfigurationseinstellungen gleichzeitig anzeigen können.
+2. Auf dem Reiter " **trunk Configuration** " sehen Sie eine Liste aller ihrer trunk Configuration Settings-Sammlungen. für jede Sammlung werden Werte für die Eigenschaften **Name**, **Scope**, **State**und **Media Bypass** sowie die Anzahl der **PSTN-Nutzungen**, **Regeln**für die Rufnummernanzeige und **benannte Nummern Regeln** für die Sammlung angezeigt. Wenn Sie weitere Details zu einer Sammlung von trunk-Konfigurationseinstellungen anzeigen möchten, klicken Sie auf die Sammlung von Interesse, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**. Beachten Sie, dass Sie detaillierte Informationen nur für eine Sammlung von trunk-Konfigurationseinstellungen gleichzeitig anzeigen können.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von SIP-Trunk-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets
 
@@ -44,7 +44,7 @@ Wenn Sie Informationen zu allen Ihren SIP-Trunk-Konfigurationseinstellungen anze
 
 Es werden etwa folgende Informationen zurückgegeben:
 
-```
+```console
 Identity                                  : Global
 OutboundTranslationRulesList              : {}
 SipResponseCodeTranslationRulesList       : {}

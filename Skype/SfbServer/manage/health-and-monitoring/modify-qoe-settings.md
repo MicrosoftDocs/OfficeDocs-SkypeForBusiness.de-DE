@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Beibehaltung von QoE-Daten in Skype for Business Server angeben.'
-ms.openlocfilehash: 89e20b18aa285bd4ee61df12c822e487dd6b37a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c597c0e5e3fbd2a8a92304ffd55d866a15c121a9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280005"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992040"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Ändern der Einstellungen für die Qualität der Benutzerfreundlichkeit in Skype for Business Server
 
@@ -52,7 +52,7 @@ Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
 
 - Dieser Befehl ermöglicht das Löschen von QoE-Daten für den Standort Redmond. Zudem wird damit für die QoE-Daten eine Aufbewahrungsdauer von 20 Tagen konfiguriert.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -60,7 +60,7 @@ Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
 
 - Mit diesem Befehl wird die Beibehaltung von QoE-Daten für alle in einer Organisation verwendeten QoE-Konfigurationseinstellungen konfiguriert.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

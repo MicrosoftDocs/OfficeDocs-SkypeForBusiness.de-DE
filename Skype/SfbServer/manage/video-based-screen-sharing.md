@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Informationen zur Planung und Konfiguration von Skype for Business Server für die Video basierte Bildschirmfreigabe (schlechte VBSS)
-ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548995"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992392"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 
  
@@ -141,13 +141,13 @@ Das tolle ist, dass nach der Installation von Skype for Business Server 2015 Kum
 
 - Sie können einer Benutzerrichtlinie, die schlechte VBSS nicht zulässt, Benutzer zuweisen, die schlechte VBSS nicht verwenden dürfen, indem Sie dieses Cmdlet in der Skype for Business-Verwaltungskonsole ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - Sie können auch die globale Konferenzrichtlinie aktualisieren, von der alle Benutzer ohne zugewiesene Richtlinie betroffen sind:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -155,7 +155,7 @@ Das tolle ist, dass nach der Installation von Skype for Business Server 2015 Kum
     
 - Wenn Sie VbSS vollständig deaktivieren möchten, können Sie folgenden Befehl ausführen:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -168,13 +168,13 @@ Das tolle ist, dass nach der Installation von Skype for Business Server 2015 Kum
 
 - Sie können eine bestimmte Benutzerrichtlinie zuweisen, die schlechte VBSS für alle Benutzer zulässt, die schlechte VBSS verwenden müssen, indem Sie dieses Cmdlet in der Skype for Business-Verwaltungskonsole ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - Sie können auch die globale Konferenzrichtlinie aktualisieren, von der alle Benutzer ohne zugewiesene Richtlinie betroffen sind:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -182,7 +182,7 @@ Das tolle ist, dass nach der Installation von Skype for Business Server 2015 Kum
     
 - Wenn Sie VbSS nach dem Deaktivieren wieder aktivieren möchten (die Funktion ist standardmäßig aktiviert), können Sie folgenden Befehl ausführen:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

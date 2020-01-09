@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Ausführen von Abfragen, der Teil der Daten-API für das Dashboard für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274562"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991400"
 ---
 # <a name="run-query"></a>Ausführen von Abfragen
 
@@ -39,7 +39,7 @@ Abfragevorgang ausführen bietet die Möglichkeit, eine Abfrage auf dem Cube bas
 
  **Anforderungstext** – hier finden Sie eine Beispiel Nutzlast für Anforderungen in JSON. Sie enthält Dimensionen, Filter und Maße, die für eine Abfrage erforderlich sind.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -88,7 +88,7 @@ Abfragevorgang ausführen bietet die Möglichkeit, eine Abfrage auf dem Cube bas
 
  **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON. Sie enthält eine Datentabelle, die die Daten enthält, außerdem enthält Sie eine Meta-Datei, die die Ausführungszeit der Abfrage zeigt und angibt, ob die Daten aus dem Cache abgerufen werden.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",

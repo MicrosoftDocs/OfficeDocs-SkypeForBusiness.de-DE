@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Chat-und Konferenzsitzungen blockieren, wenn ein Skype for Business Server-Fehler auftritt, der die Archivierung verhindert.'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286239"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992752"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen zur Behandlung von Fehlern in Skype for Business Server
 
@@ -45,13 +45,13 @@ Sie können auch angeben, ob Kommunikationssitzungen zulässig sein sollen, wenn
   
 Mit dem folgenden Befehl wird beispielsweise die Kommunikation im Fall eines Archivierungs Fehlers deaktiviert:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 Mit dem nächsten Befehl kann die Kommunikation bei einem Archivierungsfehler aktiviert werden:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

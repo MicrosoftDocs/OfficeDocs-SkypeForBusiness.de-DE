@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Tastenzuordnung von DTMF-Befehlen (Dual Tone Multi-Frequency) in Skype for Business Server verwalten.'
-ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283760"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991820"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "34283760"
   
 Einwahlkonferenzbenutzer können DTMF-Befehle (Dual-Tone Multi-Frequency) mithilfe der Tasten ihres Telefons ausführen. Mit DTMF-Befehlen können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen mit der Telefontastatur steuern (z. B. eigene Person stummschalten bzw. die Stummschaltung der eigenen Person aufheben oder Konferenz sperren bzw. entsperren). 
   
-Wenn Sie die für die DTMF-Befehle verwendeten Tasten verwalten möchten, verwenden Sie die Skype for Business Server-Verwaltungsshell mit den Funktionen " **Get-CsDialinConferencingDtmfConfiguration**", " **CsDialinConferencingDtmfConfiguration**" und **" **Cmdlets für neue CsDialinConferencingDtmfConfiguration
+Um die für die DTMF-Befehle verwendeten Schlüssel zu verwalten, verwenden Sie die Skype for Business Server-Verwaltungsshell mit den Cmdlets " **Get-CsDialinConferencingDtmfConfiguration**", " **CsDialinConferencingDtmfConfiguration**" und " **New-CsDialinConferencingDtmfConfiguration** ".
   
 Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstellungen Vorrang vor den globalen Einstellungen. 
 
@@ -35,13 +35,13 @@ Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstel
     
 3. Um die verwendeten DTMF-Einstellungen anzuzeigen, führen Sie an der Eingabeaufforderung den folgenden Befehl aus:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
 4. Um die verwendeten DTMF-Einstellungen zu ändern, führen Sie das folgende Cmdlet aus und geben Sie für jede Option, die Sie ändern möchten, die gewünschte Taste an:
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
    [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
    [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
@@ -53,7 +53,7 @@ Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstel
     
 In diesem Beispiel wird die Taste zur Aktivierung und Deaktivierung von Ankündigungen mit der Taste zur Stummschaltung und Aufhebung der Stummschaltung aller Teilnehmer getauscht. Da kein Identitätswert angegeben ist, wirken sich diese Änderungen auf die globalen DTMF-Einstellungen aus.
   
-```
+```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 

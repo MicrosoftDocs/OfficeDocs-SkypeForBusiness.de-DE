@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Wenn Sie das Stress-und Leistungstool für Skype for Business Server 2015 ausführen möchten, müssen Sie in der Lage sein, Benutzer, Kontakte und Benutzerprofile zu verwalten, das Tool für die Ausführung zu konfigurieren und dann die vom Tool erstellte Ausgabe oder Ergebnisse zu überprüfen.
-ms.openlocfilehash: e0cf241417272cfa16b3e332e7bafe7a112af38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277720"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992482"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden des Skype for Business Server 2015 Stress-und Leistungstools
  
@@ -228,7 +228,7 @@ Die Registerkarte " **Allgemeine Konfiguration** " des Tools "Load Configuration
     
 8. Geben Sie im Feld **mpop-Prozent** Satz (mehrfacher Punkt des Anwesenheits Prozentsatzes) einen Wert für den Prozentsatz der Benutzer ein, die von mehreren Computern oder Geräten angemeldet sind, beispielsweise 10 Prozent.
     
-9. Geben Sie die maximale Anzahl von gleichzeitigen Endpunkten im Feld **Anmeldung pro Sekunde (pro Instanz)** ein. Hierbei handelt es sich um die maximale Anzahl von Protokoll-ins für Ihre Benutzer, und die Empfehlung ist eine Rate von kleiner als/gleich 2 pro Sekunde (< = 2).
+9. Geben Sie die maximale Anzahl von gleichzeitigen Endpunkten im Feld **Anmeldung pro Sekunde (pro Instanz)** ein. Hierbei handelt es sich um die maximale Anzahl von Protokoll-ins für Ihre Benutzer, und die Empfehlung ist eine Rate von kleiner als/gleich 2 pro Sekunde (<= 2).
     
 10. Geben Sie im Feld **Zugriffs Proxy oder Pool-FQDN** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers ein, mit dem die Clients eine Verbindung herstellen sollen. Wenn sich die Benutzer extern anmelden, müssen Sie den Zugriffsproxy eingeben. Wenn die Benutzer intern sind, geben Sie den FQDN Ihres Enterprise-Pools oder Standard Edition-Servers ein.
     
@@ -298,7 +298,7 @@ Ihre Optionen sind:
 - **Vermittlungs Server und PSTN –** Jeder Vermittlungs Server, den Sie verwenden möchten, benötigt einen eigenen PSTN-Simulator. Nachdem Sie festgestellt haben, welchen Client Sie für den Simulator verwenden werden, konfigurieren Sie den Vermittlungs Server so, dass Anrufe an diesen Computer im von Ihnen konfigurierten PSTN-Simulator weitergeleitet werden. Klicken Sie auf die Schaltfläche **Hinzufügen** , um einen Wert für den Vermittlungs Server zu konfigurieren.
     
     > [!NOTE]
-    > In jedem Szenario befindet sich daneben eine Schaltfläche "Erweitert". Erweiterte Dialogfelder enthalten spezifische Einstellungen für jedes Szenario, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung aktivieren. > für jedes Szenario wählen Sie auf der Registerkarte VoIP-Szenarien, wenn der Wert der Auslastungsstufe **Benutzerdefiniert**ist, die Konversations Rate mithilfe des entsprechenden Felds im Dialogfeld Erweitert aus. Der Feldname kann je nach Szenario unterschiedlich sein, aber die Feld Beschreibung gibt an: *Hinweis Diese Nummer wird nur verwendet, wenn im Dropdownmenü die Option Benutzerdefiniert ausgewählt ist* .
+    > In jedem Szenario befindet sich daneben eine Schaltfläche "Erweitert". Erweiterte Dialogfelder enthalten spezifische Einstellungen für jedes Szenario, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung aktivieren. > für jedes Szenario auf der Registerkarte VoIP-Szenarien, wenn der Wert der Ladeebene **Benutzerdefiniert**ist, wird die Konversations Rate mithilfe des entsprechenden Felds im Dialogfeld erweitert berechnet. Der Feldname kann je nach Szenario unterschiedlich sein, aber die Feld Beschreibung gibt an: *Hinweis Diese Nummer wird nur verwendet, wenn im Dropdownmenü die Option Benutzerdefiniert ausgewählt ist* .
   
 #### <a name="web-app-tab"></a>Web App-Registerkarte
 
@@ -317,7 +317,7 @@ Web App unterstützt Konferenzszenarien über den Unified Communications Web API
 - **Sprachkonferenzen –** Wählen Sie einen Wert für Load Level aus.
     
 > [!NOTE]
-> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung. > für jedes der Web-App-Szenarien aktivieren, wenn die Auslastungsstufe **Benutzerdefiniert**ist, und dann der Wert, der in der ** ConversationsPerHour** -Feld wird anstelle der Standardeinstellung verwendet.
+> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung ermöglichen. #a0 für jedes der Web-App-Szenarien wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
   
 #### <a name="mobility-tab"></a>Reiter "Mobilität"
 
@@ -332,7 +332,7 @@ Die folgenden Optionen sind verfügbar:
 - **Anwesenheits-und P2P-Instant Messaging/-Audio –** Wählen Sie einen Wert für Load Level aus, um die Mobilitäts Simulation zu aktivieren.
     
 > [!NOTE]
-> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung. > für die einzelnen Mobilitätsszenarien aktivieren, wenn die Auslastungsstufe **Benutzerdefiniert**ist, und dann der Wert, der in der ** ConversationsPerHour** -Feld wird anstelle der Standardeinstellung verwendet.
+> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung aktivieren. #a0 für jedes Mobilitäts Szenario wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
   
 #### <a name="summary-tab"></a>Registerkarte "Zusammenfassung"
 
@@ -365,19 +365,19 @@ Das Load Configuration Tool (UserProfileGenerator. exe) erstellt eine Batchdatei
     
 2. Navigieren Sie zum Clientordner, und führen Sie das **RunClient** -Batchskript aus. Sie können in Windows-Explorer auf die Batchdatei doppelklicken, und alle Konfigurationsdateien für diesen Client werden ausgeführt. Sie können das Skript auch über einen Clientordner ausführen, indem Sie die folgende Syntax verwenden:
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 Wenn Sie das Tool für die Spannungs-und Leistungsfähigkeit direkt ausführen möchten, öffnen Sie eine Eingabeaufforderung, und geben Sie den folgenden Befehl in der Befehlszeile ein (und wenn Sie dies zum ersten `regsvr32 /i /n /s LyncPerfToolPerf.dll`Mal tun, müssen Sie die Leistungsindikatoren registrieren, wie in der Notiz weiter unten in diesem Thema dargestellt):
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 Damit das Tool die Werte in der Konfigurationsdatei anzeigt, fügen Sie den `/displayfile` Parameter für den vorhergehenden Befehl ein, damit er wie folgt aussieht:
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 

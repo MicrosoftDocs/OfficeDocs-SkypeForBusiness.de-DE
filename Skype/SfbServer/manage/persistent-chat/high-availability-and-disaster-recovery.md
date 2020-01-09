@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server verwalten.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418705"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991980"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten der hohen Verfügbarkeit und der Notfallwiederherstellung für Server für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server verwalten.
   
-In diesem Thema wird beschrieben, wie ein Failover und ein Failback des beständigen Chat Servers ausgeführt werden. Bevor Sie dieses Thema lesen, lesen Sie den [Plan für Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) , und konfigurieren Sie die Einstellungen für die Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype für Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+In diesem Thema wird beschrieben, wie ein Failover und ein Failback des beständigen Chat Servers ausgeführt werden. Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie [Plan für Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) lesen und die Funktion " [höhere Verfügbarkeit und Disaster Recovery für beständigen Chat Server" in Skype for Business Server 2015 konfigurieren](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
 > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
@@ -55,13 +55,13 @@ Ausführen eines Failovers für den Server für beständigen Chat
     
    - Verwenden Sie den folgenden Befehl, um den Protokollversand zu verwerfen:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
 2. Kopieren Sie alle nicht kopierten Sicherungsdateien von der Sicherungsfreigabe in den Kopierzielordner des Sicherungsservers.
     
-3. Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Ausführliche Informationen finden Sie unter Vorgehens [Weise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL)](https://go.microsoft.com/fwlink/p/?linkid=247428).
+3. Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Ausführliche Informationen finden Sie unter [Vorgehensweise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL)](https://go.microsoft.com/fwlink/p/?linkid=247428).
     
 4. Stellen Sie die mgc-Sicherungsdatenbank online bereit. Führen Sie im Abfragefenster, das in Schritt 1b oben geöffnet wird, folgende Aufgaben aus:
     
@@ -161,7 +161,7 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
     
    - Klicken Sie auf **OK**, um mit dem Wiederherstellungsvorgang zu beginnen.
     
-5. Konfigurieren Sie den SQL Server-Protokollversand für die primäre Datenbank. Führen Sie die Vorgehensweisen unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) aus, um den Protokollversand für die primäre MGC-Datenbank festzulegen.
+5. Konfigurieren Sie den SQL Server-Protokollversand für die primäre Datenbank. Führen Sie die Vorgehensweisen unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) aus, um den Protokollversand für die primäre MGC-Datenbank festzulegen.
     
 6. Setzen Sie die aktiven Server für den beständigen Chat Server. Verwenden Sie in der Skype for Business Server-Verwaltungsshell das Cmdlet " **Satz-CsPersistentChatActiveServer** ", um die Liste der aktiven Server einzurichten.
     
@@ -170,7 +170,7 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
   
 Führen Sie den folgenden Windows PowerShell-Befehl aus, um den Pool auf seinen normalen Zustand zurückzusetzen:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

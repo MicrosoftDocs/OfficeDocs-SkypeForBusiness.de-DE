@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: In den Abschnitten in diesem Artikel wird beschrieben, wie Sie Active Directory-Benutzer in Skype for Business Server aktivieren, vorübergehend deaktivieren oder entfernen.
-ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 45217593dd010c4daf73d6b5edcbf6f5f4e681a5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275108"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992402"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Verwalten von Benutzerkonten für Skype for Business Server
 
@@ -84,7 +84,7 @@ Sie können auch ein Cmdlet verwenden, insbesondere [enable-CsUser](https://docs
 
 5. Klicken Sie im Dialogfeld **neuer lync Server-Benutzer** auf **Hinzufügen**.
 
-6. Geben Sie im Feld **Benutzer durchsuchen** den gesamten oder den ersten Teil des Namens, den Anzeigenamen, den Vornamen, den Nachnamen, den Kontonamen, die e-Mail-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein. , und klicken Sie dann auf **Suchen**.
+6. Geben Sie im Feld Benutzer suchen den gesamten oder den ersten Teil des Namens, den Anzeigenamen, den Vornamen, den **Nachnamen** , den Kontonamen, die e-Mail-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
 
 7. Wählen Sie in der Tabelle das Konto aus, das Sie zu Skype for Business Server hinzufügen möchten, und klicken Sie dann auf **OK**.
 
@@ -101,7 +101,7 @@ Mit dem folgenden Verfahren können Sie ein zuvor aktiviertes Benutzerkonto in S
 
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des Benutzerkontos ein, das Sie deaktivieren oder erneut aktivieren möchten. und klicken Sie dann auf **Suchen**.
+4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des Benutzerkontos ein, das Sie deaktivieren oder erneut aktivieren möchten, und klicken Sie dann auf **Suchen**.
 
 5. Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie deaktivieren oder erneut aktivieren möchten.
 
@@ -119,7 +119,7 @@ Mithilfe des Cmdlets " **Satz-CsUser** " können Benutzerkonten vorübergehend d
 
 - Wenn Sie ein Benutzerkonto vorübergehend deaktivieren möchten, legen Sie den Wert der Enabled-Eigenschaft auf false ($false) fest. Beispiel:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -127,7 +127,7 @@ Mithilfe des Cmdlets " **Satz-CsUser** " können Benutzerkonten vorübergehend d
 
 - Wenn Sie ein deaktiviertes Benutzerkonto erneut aktivieren möchten, legen Sie den Wert der Enabled-Eigenschaft auf true ($true) fest. Beispiel:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -174,7 +174,7 @@ Sie können das folgende Verfahren verwenden, um ein zuvor hinzugefügtes Benutz
 
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des Benutzerkontos ein, das Sie deaktivieren oder erneut aktivieren möchten. und klicken Sie dann auf **Suchen**.
+4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des Benutzerkontos ein, das Sie deaktivieren oder erneut aktivieren möchten, und klicken Sie dann auf **Suchen**.
 
 5. Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie entfernen möchten.
 
@@ -189,7 +189,7 @@ Sie können Benutzerkonten mithilfe des Cmdlets Disable-CsUser entfernen. Dieses
 ### <a name="to-remove-a-user-account"></a>So entfernen Sie ein Benutzerkonto
 Wenn Sie ein Benutzerkonto entfernen möchten, verwenden Sie das Cmdlet Disable-CsUser. Beispiel:
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

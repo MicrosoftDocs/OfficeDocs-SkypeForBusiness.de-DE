@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: erfahren Sie mehr über den gerätebericht in Skype for Business Server.'
-ms.openlocfilehash: 2c92faaca47ef78aca403fe436562029f5fde551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b9198d8080c8f1e22e59e2cd496bb7fb318eaae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303870"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992412"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
@@ -109,7 +109,7 @@ Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beisp
   
 Diese Detailgenauigkeit ist häufig sehr nützlich. In manchen Situationen möchten Sie aber vielleicht nur wissen, von wie vielen Anrufen ein beliebiges Aastra-Mikrofon, unabhängig von der Modellnummer, verwendet wird. Dazu können Sie die Geräteberichtsdaten nach Microsoft Excel exportieren und dann in einer CSV-Datei (Comma-Separated Values, Datei mit durch Trennzeichen getrennten Werten) speichern (z. B. C:\Data\Gerätebericht.csv). Anschließend können Sie mithilfe von Befehlen wie den folgenden die CSV-Datei in Windows PowerShell importieren und die Gesamtzahl der Anrufe ausgeben, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
-```
+```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
 $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
 $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}

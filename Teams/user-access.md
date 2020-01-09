@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ec004e98c54f8b8e81594c54407fd2078c7f80
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 1d5db525054e1233d4532f6a7819735b1415e7cd
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209071"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989800"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
 =====================================
@@ -51,7 +51,7 @@ Eine Benutzerlizenz für Teams kann jederzeit deaktiviert werden. Nachdem die Li
 ## <a name="manage-via-powershell"></a>Verwalten über PowerShell
 
 > [!IMPORTANT]
-> New-MsolLicenseOptions aktiviert alle Dienste, die zuvor deaktiviert wurden, es sei denn, explictitly identitied in Ihrem angepassten Skript. Wenn Sie beispielsweise beide Exchange #a0 Sway deaktiviert lassen möchten, während Sie Additonally deaktivieren, müssten Sie dies in das Skript einbeziehen, oder beide Exchange #a1 Sway werden für die von Ihnen identifizierten Benutzer aktiviert. Informationen zum Verwenden einer Benutzeroberfläche zum Verwalten dieser Funktionen finden Sie unter [Office 365-Lizenz Berichterstattung und-Verwaltungs Tool – Zuweisen von "Lizenzen entfernen" in loser Schüttung](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) , um weitere Informationen zu erhalten.
+> New-MsolLicenseOptions aktiviert alle Dienste, die zuvor deaktiviert wurden, es sei denn, Sie werden in Ihrem angepassten Skript ausdrücklich angegeben. Wenn Sie beispielsweise beide Exchange-#a0 Sway deaktiviert lassen möchten, während Sie die Teams zusätzlich deaktivieren, müssen Sie dies in das Skript einbeziehen, oder beide Exchange-#a1 Sway werden für die von Ihnen identifizierten Benutzer aktiviert. Informationen zum Verwenden einer Benutzeroberfläche zum Verwalten dieser Funktionen finden Sie unter [Office 365-Lizenz Berichterstattung und-Verwaltungs Tool – Zuweisen von "Lizenzen entfernen" in loser Schüttung](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) , um weitere Informationen zu erhalten.
 
 Das Aktivieren und Deaktivieren von Microsoft Teams als Arbeitsauslastungslizenz über PowerShell funktioniert genau wie bei jeder anderen Arbeitsauslastung. Der Name des Dienstplans für Microsoft Teams lautet TEAMS1. Für gcc lautet der Service Plan Name TEAMS_GOV. Für gcc ist der Name des Service Plans TEAMS_GCCHIGH. Für DoD lautet der Service Plan Name TEAMS_DOD (Weitere Informationen finden Sie unter [Deaktivieren des Zugriffs auf Dienste mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Zusammenfassung: Stage AV-und OAuth-Zertifikate für Skype for Business Server.'
-ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7591464d55970a9aee4fb1f7ddbb28c2efbac601
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278356"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992722"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Zuweisen einer pro-Benutzer-PIN-Richtlinie in Skype for Business Server
 
@@ -84,7 +84,7 @@ Sie können benutzerspezifische PIN-Richtlinien mithilfe von Windows PowerShell 
 
 - Mit dem folgenden Befehl wird die benutzerbasierte PIN-Richtlinie RedmondPinPolicy dem Benutzer Ken Myer zugewiesen.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
   ```
 
@@ -92,7 +92,7 @@ Sie können benutzerspezifische PIN-Richtlinien mithilfe von Windows PowerShell 
 
 - Mit dem folgenden Befehl wird die benutzerbasierte Richtlinie RedmondUsersPinPolicy allen Benutzern in der Stadt Redmond zugewiesen. Details zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
   ```
 
@@ -100,7 +100,7 @@ Sie können benutzerspezifische PIN-Richtlinien mithilfe von Windows PowerShell 
 
 - Mit dem folgenden Befehl wird jede benutzerbasierte PIN-Richtlinie, die zuvor Ken Myer zugewiesen wurde, aufgehoben. Anschließend wird Ken Myer automatisch mithilfe der globalen Richtlinie oder, soweit vorhanden, mit seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

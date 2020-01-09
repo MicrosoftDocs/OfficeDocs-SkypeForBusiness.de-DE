@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968176"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988800"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Microsoft Teams basiert auf der Office 365-Cloud auf Unternehmensniveau mit Hyp
 
 Microsoft Teams ist mit Stufe D konform. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und SOC 2, HIPAA und EU-Standardvertragsklauseln (EU Model Clauses, EUMC). Microsoft klassifiziert innerhalb des Microsoft-Compliance-Frameworks Office 365-Anwendungen und -Dienste in vier Kategorien. Jede Kategorie wird durch bestimmte Compliance-Verpflichtungen definiert, die ein Office 365-Dienst oder ein zugehöriger Microsoft-Dienst erfüllen muss, um in dieser Kategorie geführt zu werden.
 
-Dienste in den Compliance-Kategorien C und D, für die branchenführende Compliance-Verpflichtungen gelten, sind standardmäßig aktiviert. Dienste der Kategorien A und B verfügen über Steuermöglichkeiten, mit denen diese Dienste organisationsweit aktiviert oder deaktiviert werden können. Details hierzu finden Sie im Dokument zum [Compliance-Framework für Branchenstandards und -bestimmungen](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf). Microsoft Teams unterstützt außerdem Cloud Security Alliance-Compliance.
+Dienste in den Compliance-Kategorien C und D, für die branchenführende Compliance-Verpflichtungen gelten, sind standardmäßig aktiviert. Dienste der Kategorien A und B verfügen über Steuermöglichkeiten, mit denen diese Dienste organisationsweit aktiviert oder deaktiviert werden können. Details hierzu finden Sie im Dokument zum [Compliance-Framework für Branchenstandards und -bestimmungen](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Microsoft Teams unterstützt außerdem Cloud Security Alliance-Compliance.
 
 Microsoft Teams erzwingt außerdem teamweite und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory und Verschlüsselung der übertragenen Daten sowie der ruhenden Daten. Dateien werden in SharePoint gespeichert und mit dem entsprechenden SharePoint-Mechanismus verschlüsselt. Notizen werden in OneNote gespeichert und mit dem entsprechenden OneNote-Mechanismus verschlüsselt. Die OneNote-Daten werden auf der SharePoint-Website des Teams gespeichert. Die Wiki-Registerkarte kann ebenfalls zum Erstellen von Notizen verwendet werden. Auch ihre Inhalte werden auf der SharePoint-Website des Teams gespeichert.
 
@@ -79,7 +79,7 @@ Kunden können je nach ihren Anforderungen In-Situ-eDiscovery oder Advanced eDis
 
 ## <a name="legal-hold"></a>Aufbewahrung für juristische Zwecke
 
-Bei einem Rechtsstreit müssen oft alle Daten, die einem Benutzer (Verwahrer) oder Team zugeordnet sind, unveränderlich erhalten bleiben, damit sie als Beweise für den Fall verwendet werden können. Dazu wird für einen Benutzer (Benutzerpostfach) oder ein Team die Aufbewahrung für juristische Zwecke festgelegt. Wenn für ein Team in Microsoft Teams ein In-Situ-Speicher (Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder Filtern der Inhalte) oder Beweissicherungsverfahren (gesamtes Postfach oder gesamte Websitesammlung) aktiviert wird, gilt dies für das Gruppenpostfach. Dadurch wird sichergestellt, dass auch wenn Endbenutzer im Gruppenpostfach erfasste Kanalnachrichten löschen oder bearbeiten, unveränderbare Kopien dieser Inhalte beibehalten werden und in einer eDiscovery-Suche verfügbar sind. Die Aufbewahrung für juristische Zwecke wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. In [diesem Hilfeartikel](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) finden Sie weitere Informationen zur Erhaltung und Aufbewahrung im Office 365 Security & Compliance Center. 
+In einem Rechtsstreit müssen häufig alle Daten, die einem Benutzer (Depotbank) oder einem Team zugeordnet sind, als unveränderlich beibehalten werden, damit er als Beweis für den Fall verwendet werden kann. Dazu wird für einen Benutzer (Benutzerpostfach) oder ein Team die Aufbewahrung für juristische Zwecke festgelegt. Wenn für ein Team in Microsoft Teams ein In-Situ-Speicher (Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder Filtern der Inhalte) oder Beweissicherungsverfahren (gesamtes Postfach oder gesamte Websitesammlung) aktiviert wird, gilt dies für das Gruppenpostfach. Dadurch wird sichergestellt, dass auch wenn Endbenutzer im Gruppenpostfach erfasste Kanalnachrichten löschen oder bearbeiten, unveränderbare Kopien dieser Inhalte beibehalten werden und in einer eDiscovery-Suche verfügbar sind. Die Aufbewahrung für juristische Zwecke wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. In [diesem Hilfeartikel](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) finden Sie weitere Informationen zur Erhaltung und Aufbewahrung im Office 365 Security & Compliance Center. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Informationsschutzarchitektur für Microsoft Teams 
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzern in Skype for Business Server eine Archivierungsrichtlinie zuweisen.'
-ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5dbd1624813b187e8c0981aa1a84b6096b79e86a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282049"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992782"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server
 
@@ -51,19 +51,19 @@ Sie können eine Benutzerrichtlinie auch mithilfe des Windows PowerShell-Cmdlets
   
 Mithilfe des folgenden Befehls wird die benutzerbezogene Archivierungsrichtlinie „RedmondArchivingPolicy“ dem Benutzer Jonas Baar zugeordnet.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
 Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie „RedmondArchivingPolicy“ allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool „atl-cs-001.contoso.com“ befinden. Details zu dem in diesem Befehl verwendeten Filter Parameter finden Sie in der Dokumentation zum Cmdlet " [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) ".
   
-```
+```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
 Mithilfe des folgenden Befehls wird die Zuordnung aller benutzerbezogenen Archivierungsrichtlinien aufgehoben, die zuvor Jonas Baar zugeordnet wurden. Nach dem Aufheben der Zuordnung der benutzerbezogenen Richtlinie wird Jonas Baar automatisch mithilfe der globalen Richtlinie oder, sofern vorhanden, mithilfe seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 

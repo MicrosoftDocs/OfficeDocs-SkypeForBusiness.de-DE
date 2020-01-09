@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2015.'
-ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adee7ef72e6b59854e2b458aa33fdb4880923eed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277671"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992462"
 ---
 # <a name="configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
@@ -61,7 +61,7 @@ Sie können die Funktionen von System Center Operations Manager erweitern, indem
     > [!NOTE]
     >  Details zum Konfigurieren der Operations Manager-Benachrichtigung finden Sie unter [Konfigurieren der Benachrichtigung](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Das aktive Überwachungs Management Pack** (Microsoft.ls.2015.Monitoring.ActiveMonitoring.MP) testet die Schlüsselkomponenten von Skype for Business Server proaktiv, beispielsweise die Anmeldung beim System, den Austausch von Sofortnachrichten oder Anrufe an ein Telefon, das sich im öffentlichen Telefonnetz befindet (PSTN ). Diese Tests werden mithilfe der Skype for Business Server-Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
+- **Das Active Monitoring Management Pack** (Microsoft.ls.2015.Monitoring.ActiveMonitoring.MP) testet die wichtigen Komponenten von Skype for Business Server proaktiv, wie beispielsweise die Anmeldung beim System, den Austausch von Sofortnachrichten oder das Anrufen an ein Telefon, das sich im öffentlichen Telefonnetz (PSTN) befindet. Diese Tests werden mithilfe der Skype for Business Server-Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
 
 Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht zum Überwachen von Skype for Business Server-Ereignissen verwenden und keine synthetischen Skype for Business Server-Transaktionen ausführen.
 
@@ -102,12 +102,12 @@ Im Allgemeinen ist es einfacher, die Management Packs mit der Operations Manager
 
 2. Geben Sie in der Operations Manager-Shell den folgenden Befehl an der Eingabeaufforderung ein und drücken Sie die EINGABETASTE. Verwenden Sie dabei den tatsächlichen Pfad zur Kopie der Datei „Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp“:
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. Wiederholen Sie nach dem Importieren des ersten Management Packs den Prozess, indem Sie den Pfad zur Kopie der Datei „Microsoft.LS.2015.Monitoring.ComponentAndUser.mp“ verwenden:
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
    ```

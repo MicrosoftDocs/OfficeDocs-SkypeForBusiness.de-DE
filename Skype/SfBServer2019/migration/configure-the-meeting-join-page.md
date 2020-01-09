@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, erkennt die Seite "Besprechungsteilnahme", welcher Client bereits auf dem Computer des Benutzers installiert ist. Wenn ein Client bereits installiert ist, wird dieser Client geöffnet und der Besprechung beitreten. Wenn ein Client nicht installiert ist, wird die Web-App standardmäßig geöffnet.
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239326"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989560"
 ---
 # <a name="configure-the-meeting-join-page"></a>Konfigurieren der Seite für den Besprechungsbeitritt
 
@@ -35,7 +35,7 @@ Sie können das Verhalten der Besprechungsteilnahme Seite ändern, wenn Sie Benu
     
 2. Führen Sie das folgende Cmdlet aus: 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -43,7 +43,7 @@ Sie können das Verhalten der Besprechungsteilnahme Seite ändern, wenn Sie Benu
     
 3. Führen Sie den folgenden Befehl aus, wobei die Parameter je nach ihrer Einstellung auf "true" oder "false" festgelegt sind (Einzelheiten zu den Parametern für dieses Cmdlet finden Sie in der Dokumentation zur [Skype for Business Server-Verwaltungsshell](../../SfbServer/manage/management-shell.md) ):
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

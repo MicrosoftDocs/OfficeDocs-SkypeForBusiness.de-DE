@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793391"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991000"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
+
 > [!NOTE]
 > Lesen Sie die folgenden Informationen, um einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu erlangen. Wechseln Sie dann zu [Chat, Teams, Kanäle, #a0-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , um eine Liste der Entscheidungen zu durchlaufen, die für das Rollout Ihres Teams wichtig sind.
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
-=================================================
 
 Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst organisieren und in verschiedenen Geschäftsszenarien zusammenarbeiten können:
 
@@ -51,7 +50,7 @@ Informationen zur Verwendung von Teams und Kanälen finden Sie unter [Teams und 
 
 Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen.
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 ------------------------------

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Fehlerliste in Skype for Business Server.'
-ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305759"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992822"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Bericht zur Fehlerliste in Skype for Business Server 
  
@@ -53,7 +53,7 @@ Interner Serverfehler erstellt Medien für Benutzer.
   
 Dabei muss beachtet werden, dass der Fehlerlistenbericht weder eine einfache Methode zum direkten Abrufen einer Liste aller Benutzer, die an mindestens einer fehlerhaften Sitzung beteiligt waren, noch eine Methode zur Ermittlung der Benutzer, die am häufigsten an einer fehlerhaften Sitzung beteiligt waren, darstellt. (Zum einen hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um Antworten auf Fragen wie diese zu finden. Zum Beispiel können Sie die Daten in einer CSV-Datei mit dem Namen „C:\Data\Failure_List.csv“ speichern. Auf Basis der in dieser Datei gespeicherten Daten können mithilfe dieses Befehls alle Benutzer aufgelistet werden, die an mindestens einer fehlerhaften Sitzung beteiligt waren: 
   
-```
+```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
@@ -72,7 +72,7 @@ Die Ausgabe für den Befehl ist eine Liste, die der folgenden Liste ähnelt:
 
 Diese beiden Befehle melden die Gesamtzahl der fehlerhaften Sitzungen zurück, an denen Benutzer beteiligt waren:
   
-```
+```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```

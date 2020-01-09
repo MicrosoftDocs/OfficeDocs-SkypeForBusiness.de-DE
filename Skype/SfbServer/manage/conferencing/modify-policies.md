@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server ändern.'
-ms.openlocfilehash: b2c192948f0119a70f031c1c2bbe5de8e776c2f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9cfb13436a01439a8d5ea152ca1d8ac543bc0e88
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280411"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991810"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Ändern von Konferenzrichtlinien in Skype for Business Server
  
@@ -43,7 +43,7 @@ Wenn Sie Konferenzrichtlinien ändern möchten, verwenden Sie das Cmdlet " **Sat
   
 Im folgenden Beispiel wird ein Eigenschaftswert der Konferenzrichtlinien-SalesConferencingPolicy geändert. Mit dem Befehl wird der Wert der AllowConferenceRecording-Eigenschaft auf false festgelegt:
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 

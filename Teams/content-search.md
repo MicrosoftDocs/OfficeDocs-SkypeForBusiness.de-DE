@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Informationen zur Inhaltssuche in Microsoft Teams und zum Suchen nach Kanal Unterhaltungen aus Exchange, Dateiuploads und Änderungen aus SharePoint und OneNote-Änderungen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231156"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991080"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
@@ -54,18 +54,18 @@ Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Ver
 
 1. Führen Sie die folgenden Schritte aus, um eine Liste aller SharePoint-Websitesammlungen abzurufen, die privaten Kanälen im Team zugeordnet sind.
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. Führen Sie das folgende PowerShell-Skript aus, um eine Liste aller URLs einer SharePoint-Websitesammlung abzurufen, die privaten Kanälen im Team zugeordnet sind, und die Gruppen-ID der übergeordneten Gruppe.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. Führen Sie für jede Team-oder Gruppen-ID das folgende PowerShell-Skript aus, um alle relevanten privaten Kanal Websites zu identifizieren.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -77,12 +77,12 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass die [neueste Versi
 
 1. Führen Sie die folgenden Schritte aus, um eine Liste privater Kanäle im Team abzurufen.
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. Führen Sie die folgenden Schritte aus, um eine Liste privater Kanalmitglieder abzurufen.
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. Fügen Sie die Postfächer aller Mitglieder aus jedem privaten Kanal im Team als Teil der Inhalts Suchabfrage ein.

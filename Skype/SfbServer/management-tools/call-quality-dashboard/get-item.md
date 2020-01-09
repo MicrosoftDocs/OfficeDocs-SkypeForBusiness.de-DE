@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "Element abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: bfd5015603ac73fb48c4e30635cf8ae0fb14bf13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 208ad3d1852ab58b7fcd0d01eeb440097328f733
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274716"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992672"
 ---
 # <a name="get-item"></a>Abrufen eines Elements
  
@@ -46,7 +46,7 @@ Get Item gibt ein bestimmtes Element im Repository zurück.
   
  **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,
@@ -64,6 +64,6 @@ Get Item gibt ein bestimmtes Element im Repository zurück.
   
  *Type* – der Typ des Inhalts. Dieses Feld wird von den Anwendungen gesetzt.
   
- ** subitemids-die IDs der untergeordneten Elemente (sofern vorhanden). Hierbei handelt es sich um einen Kurzschluss des Vorgangs "untergeordnete Elemente abrufen", um einen Anruf zu speichern. Anwendungen können die gleichen Informationen auch mithilfe von untergeordneten Elementen abrufen.
+ *subitemids* -die IDs der untergeordneten Elemente (sofern vorhanden). Hierbei handelt es sich um einen Kurzschluss des Vorgangs "untergeordnete Elemente abrufen", um einen Anruf zu speichern. Anwendungen können die gleichen Informationen auch mithilfe von untergeordneten Elementen abrufen.
   
 

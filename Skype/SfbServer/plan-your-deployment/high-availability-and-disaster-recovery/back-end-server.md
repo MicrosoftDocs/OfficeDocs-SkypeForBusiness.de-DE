@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Informieren Sie sich über die in Skype for Business Server unterstützten Hochverfügbarkeits-Optionen für den Back-End-Server, einschließlich AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failovercluster-Instanzen, Datenbankspiegelung und SQL-Failover-Clusterunterstützung.
-ms.openlocfilehash: db732d106546e5139725713da28bcb9c8b82bb93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297484"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991490"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Verfügbarkeit von Back-End-Servern in Skype for Business Server
  
@@ -42,6 +42,8 @@ Wenn Sie für den Back-End-Server eine höhere Verfügbarkeit in einem Front-End
 
 Skype for Business Server unterstützt die Spiegelung mit der folgenden Datenbanksoftware:
   
+- SQL Server 2019, Enterprise Edition und Standard Edition
+
 - SQL Server 2017, Enterprise Edition und Standard Edition
 
 - SQL Server 2016, Enterprise Edition und Standard Edition
@@ -108,6 +110,10 @@ Um AlwaysOn-Verfügbarkeitsgruppen oder AlwaysOn-Failovercluster-Instanzen zu ve
 
 Skype for Business Server unterstützt AlwaysOn mit folgender Datenbanksoftware:
 
+- SQL Server 2019 Enterprise Edition
+
+- SQL Server 2019 Standard Edition mit Einschränkungen, siehe Hinweis unten
+
 - SQL Server 2017 Enterprise Edition
 
 - SQL Server 2017 Standard Edition mit Einschränkungen, siehe Hinweis unten
@@ -121,10 +127,10 @@ Skype for Business Server unterstützt AlwaysOn mit folgender Datenbanksoftware:
 - SQL Server 2012 SP2 und Cu2 Enterprise Edition
 
 > [!NOTE]
-> SQL Server 2017 und SQL Server 2016 sind die einzigen Versionen, die von Skype for Business Server 2019 unterstützt werden.
+> SQL Server 2019, 2017 und 2016 sind die einzigen Versionen, die von Skype for Business Server 2019 unterstützt werden.
 
 > [!NOTE]
-> Immer auf Verfügbarkeitsgruppen wird in den Standard Editionen von SQL 2016 und 2017 **nicht** unterstützt, Sie können jedoch immer für Failovercluster-Instanzen verwendet werden. Weitere Informationen finden Sie unter [Editionen und unterstützte Features von SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) .
+> Immer für Verfügbarkeitsgruppen wird in den Standard Editionen SQL 2016, 2017 und 2019 **nicht** unterstützt, Sie können jedoch immer für Failovercluster-Instanzen verwendet werden. Weitere Informationen finden Sie unter [Editionen und unterstützte Features von SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) .
   
 > [!IMPORTANT]
 > Instanzennamen für mehrere AlwaysOn-Verfügbarkeitsgruppen Instanzen müssen identisch sein. 
@@ -135,6 +141,8 @@ Schritte zum Bereitstellen von AlwaysOn-Verfügbarkeitsgruppen finden Sie unter 
 
 Skype for Business Server unterstützt die SQL Server-Failover-Clusterunterstützung mit der folgenden Datenbanksoftware:
   
+- SQL Server 2019, Enterprise Edition und Standard Edition
+
 - SQL Server 2017, Enterprise Edition und Standard Edition
 
 - SQL Server 2016, Enterprise Edition und Standard Edition
@@ -143,13 +151,12 @@ Skype for Business Server unterstützt die SQL Server-Failover-Clusterunterstüt
     
 - SQL Server 2012 SP2 und Cu2, Enterprise Edition und Standard Edition
 
-Wenn Sie die SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zuerst den SQL Server-Cluster einrichten und konfigurieren, bevor Sie den Front-End-Pool bereitstellen. Bewährte Methoden und Setupanweisungen für Failovercluster in SQL Server 2012 finden Sie unter [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx).
+Wenn Sie die SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zuerst den SQL Server-Cluster einrichten und konfigurieren, bevor Sie den Front-End-Pool bereitstellen. Bewährte Methoden und Setupanweisungen für Failovercluster in SQL Server 2012 finden Sie unter [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx).
 
 > [!NOTE]
-> SQL Server 2017 und SQL Server 2016 sind die einzigen Versionen, die von Skype for Business Server 2019 unterstützt werden.
+> SQL Server 2019, 2017 und SQL Server 2016 sind die einzigen Versionen, die von Skype for Business Server 2019 unterstützt werden.
     
-Wenn Sie die SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zuerst den SQL Server-Cluster einrichten und konfigurieren, bevor Sie den Front-End-Pool bereitstellen. Bewährte Methoden und Setupanweisungen für Failovercluster in SQL Server 2014 und 2016 finden Sie unter [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Informationen zum Failover-Clustering in SQL Server 2008 [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)finden Sie unter.
+Wenn Sie die SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zuerst den SQL Server-Cluster einrichten und konfigurieren, bevor Sie den Front-End-Pool bereitstellen. Bewährte Methoden und Setupanweisungen für Failovercluster in SQL Server 2014 und 2016 finden Sie unter [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx). Informationen zum Failover-Clustering in SQL Server 2008 [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx)finden Sie unter.
   
 Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studio installieren, um die Speicherorte für Datenbank und Protokolldateien zu verwalten. SQL Server Management Studio ist eine optionale Komponente bei der Installation von SQL Server.
   
-

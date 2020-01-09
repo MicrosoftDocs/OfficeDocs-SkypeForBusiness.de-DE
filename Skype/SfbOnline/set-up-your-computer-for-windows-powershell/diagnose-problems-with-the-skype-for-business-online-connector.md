@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Problembehandlung beim Erstellen einer Remote-PowerShell-Sitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Import Modul, paralleler Shell, Live-ID und Berechtigungsfehlern.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615972"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991310"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -51,7 +51,7 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
     
 
 > [!IMPORTANT]
-> Standardmäßig sind PowerShell-Sitzungen nach 60 Minuten Timeout. Um die Verbindung wiederherzustellen, müssen Sie die Sitzung schließen und eine neue PowerShell-Sitzung starten. Eine neue Version von [Skype for Business Online, Windows PowerShell-Modul (2046,123-veröffentlicht 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), wurde kürzlich gestartet, das ein neues Cmdlet namens **enable-CsOnlineSessionForReconnection** enthält, das die 60 Minuten verringert Timeout Problem.
+> Standardmäßig sind PowerShell-Sitzungen nach 60 Minuten Timeout. Um die Verbindung wiederherzustellen, müssen Sie die Sitzung schließen und eine neue PowerShell-Sitzung starten. Eine neue Version von [Skype for Business Online, dem Windows PowerShell-Modul (2046,123-veröffentlicht 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), wurde kürzlich gestartet, das ein neues Cmdlet namens **enable-CsOnlineSessionForReconnection** enthält, das das Timeout Problem von 60 Minuten verringert.
 > Die PowerShell-Sitzung wird erneut verbunden und authentifiziert, sodass Sie wieder verwendet werden kann, ohne dass eine neue Instanz gestartet werden muss, um erneut eine Verbindung herzustellen.
 
 
@@ -61,10 +61,10 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
 
 Mithilfe der PowerShell-Ausführungsrichtlinie kann ermittelt werden, welche Konfigurationsdateien in der PowerShell-Konsole geladen werden können und welche Skripts ein Benutzer über diese Konsole ausführen kann. Dabei gilt mindestens, dass das Skype for Business Online-Connectormodul nur importiert werden kann, wenn die Ausführungsrichtlinie auf „RemoteSigned" festgelegt ist. Wenn dies nicht der Fall ist, erhalten Sie beim Versuch, das Modul zu importieren, die folgende Fehlermeldung:
   
-- **Fehler**: <em>Import-Module: Datei C:\\Programmdateien\\(allgemeine\\Dateien) Microsoft lync\\Server\\2013\\-Module LyncOnlineConnector LyncOnlineConnectorStartup. psm1 können nicht geladen werden, weil ausgeführt wird Skripts sind auf diesem System deaktiviert. Weitere Informationen finden Sie unter about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170.</em>
+- **Fehler**: <em>Import-Module: Datei C:\\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\-\\Module\\LyncOnlineConnector LyncOnlineConnectorStartup. psm1 können nicht geladen werden, weil ausgeführte Skripts auf diesem System deaktiviert sind. Weitere Informationen finden Sie unter about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Auflösung** Um dieses Problem zu beheben, starten Sie PowerShell als Administrator, und führen Sie dann den folgenden Befehl aus:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Details zur Ausführungsrichtlinie finden Sie unter [Informationen zu Ausführungsrichtlinien](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -93,11 +93,11 @@ Es gibt drei typische Gründe, aus denen beim Verbindungsversuch Fehler auftrete
   - **Fehler**: *Get-CsWebTicket: Fehler beim Verbinden von Live ID-Servern. Stellen Sie sicher, dass Proxy aktiviert ist oder Computer über eine Netzwerkverbindung mit Live ID-Servern verfügt.*
 
 - **Lösung**: häufig bedeutet dieser Fehler, dass der Microsoft Online Services-Anmelde-Assistent nicht ausgeführt wird. Sie können den Status dieses Diensts überprüfen, indem Sie an der PowerShell-Eingabeaufforderung den folgenden Befehl ausführen: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Wenn der Dienst nicht ausgeführt wird, starten Sie ihn mit diesem Befehl:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

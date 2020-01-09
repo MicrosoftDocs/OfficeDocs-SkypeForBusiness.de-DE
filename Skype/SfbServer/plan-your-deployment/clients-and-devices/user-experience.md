@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Zusammenfassung: erfahren Sie mehr über die neuen Skype for Business-und die Schritte, die Sie Unternehmen können, um Ihre Umgebung und Ihre Benutzer für das Update vorzubereiten – ganz gleich, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype für Business Server 2015, lync Server 2013 oder Lync Server 2010.'
-ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277293"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989850"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype for Business 2015-Clientumgebung für Ihre Benutzer
  
-**Zusammenfassung:** Informieren Sie sich über die neuen Skype for Business-und die Schritte, die Sie Unternehmen können, um Ihre Umgebung und Ihre Benutzer für das Update vorzubereiten – ganz gleich, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, lync Server 2013 oder lync Server verwenden. 2010.
+**Zusammenfassung:** Informieren Sie sich über die neuen Skype for Business-und die Schritte, die Sie Unternehmen können, um Ihre Umgebung und Ihre Benutzer für das Update vorzubereiten, ganz gleich, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype für Business Server 2015, lync Server 2013 oder lync Server 2010 verwenden.
   
 Das 2015-Office-Update für lync 2013 vom 14. April umfasst die neue Benutzeroberfläche von Skype for Business. Mit diesem Update können Administratoren das Aussehen und Verhalten des Clients steuern und entscheiden, ob Sie die lync 2013-Clientumgebung beibehalten oder die verbesserte Skype for Business-Clientumgebung verwenden möchten. Der Skype for Business-Client hat den lync 2013-Client effektiv ersetzt und die Möglichkeit für Administratoren, zwischen der vorhandenen lync-Clientumgebung und der neuen Skype for Business-Clientumgebung zu wählen, hinzugefügt. Informationen zu diesem Update finden Sie unter [April 14, 2015-Update für lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
@@ -84,25 +84,25 @@ Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Skype-Clientumgeb
   
   **Option 1:** Legen Sie die Skype-Clientumgebung mithilfe einer globalen Richtlinie fest. Beachten Sie, dass die globale Richtlinie für alle Benutzer in Ihrer Bereitstellung gilt, dass Benutzer- und Standortrichtlinien jedoch Vorrang vor der globalen Richtlinie haben:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **Option 2:** Ändern Sie eine vorhandene Clientrichtlinie, die Sie in Ihrer Umgebung verwenden, so ab, dass sie die Einstellung zum Aktivieren der Skype-Clientumgebung enthält. Dadurch können Sie die Skype-Clientumgebung nur für diejenigen Benutzer festlegen, denen die vorhandene Richtlinie zugewiesen ist:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **Option 3:** Erstellen Sie eine neue Richtlinie, die Sie Benutzern zuweisen und in der die Einstellung für die Skype-Clientumgebung enthalten ist. Erstellen Sie zunächst die neue Clientrichtlinie und geben Sie den Namen der Richtlinie als Wert für den Parameter **Identity** an:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 Weisen Sie die Richtlinie dann den Benutzern zu, indem Sie den Namen der Richtlinie (den Wert, den Sie für den Parameter **Identity** verwendet haben) als Wert für den Parameter **PolicyName** verwenden:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -130,25 +130,25 @@ Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Skype-Clientumgeb
   
  **Option 1:** Legen Sie die Lync-Clientumgebung mithilfe einer globalen Richtlinie fest. Beachten Sie, dass die globale Richtlinie für alle Benutzer in Ihrer Bereitstellung gilt, dass Benutzer- und Standortrichtlinien jedoch Vorrang vor der globalen Richtlinie haben:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **Option 2:** Ändern Sie eine vorhandene Clientrichtlinie, die Sie in Ihrer Umgebung verwenden, so ab, dass sie die Einstellung zum Aktivieren der Lync-Clientumgebung enthält. Dadurch können Sie die Lync-Clientumgebung nur für diejenigen Benutzer festlegen, denen die vorhandene Richtlinie zugewiesen ist:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **Option 3:** Erstellen Sie eine neue Richtlinie, die Sie Benutzern zuweisen und in der die Einstellung für die Lync-Clientumgebung enthalten ist. Erstellen Sie zunächst die neue Clientrichtlinie und geben Sie den Namen der Richtlinie als Wert für den Parameter **Identity** an:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 Weisen Sie die Richtlinie dann den Benutzern zu, indem Sie den Namen der Richtlinie (den Wert, den Sie für den Parameter **Identity** verwendet haben) als Wert für den Parameter **PolicyName** verwenden:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -165,25 +165,25 @@ Wenn Sie Skype for Business Online verwenden, können Sie die lync-Clientumgebun
   
  **Option 1:** Stellen Sie die lync-Clientumgebung mithilfe einer globalen Richtlinie ein. Beachten Sie, dass Client-und Website Richtlinien, die auf Benutzer angewendet werden, Vorrang vor einer globalen Richtlinie haben.
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 2:** Ändern Sie eine vorhandene Clientrichtlinie, die Sie in Ihrer Umgebung verwenden, so ab, dass sie die Einstellung zum Aktivieren der Lync-Clientumgebung enthält. Dadurch können Sie die Lync-Clientumgebung nur für diejenigen Benutzer festlegen, denen die vorhandene Richtlinie zugewiesen ist:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 3:** Verwenden Sie eine benutzerdefinierte Richtlinieninstanz, die die Einstellung für die lync-Clientumgebung umfasst.
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
 Nachdem Sie Ihre Clientrichtlinien konfiguriert haben, müssen Sie den Skype for Business-Client, Build 4711,1002 (April, 2015) oder höher, bereitstellen.
   
-Detaillierte Informationen zum Konfigurieren der Clientumgebung mit Skype for Business Online, einschließlich der Schritte zum Steuern der ersten Ausführung und PowerShell-Skripts, mit denen Sie Ihre Umgebung konfigurieren können, finden Sie unter [Umschalten zwischen den Skype for Business und die lync-Clientbenutzeroberflächen](https://aka.ms/SfBOUI).
+Detaillierte Informationen dazu, wie Sie die Clientumgebung mit Skype for Business Online konfigurieren, einschließlich der Schritte zum Steuern der ersten Ausführung und PowerShell-Skripts, die Sie zum Konfigurieren Ihrer Umgebung verwenden können, finden Sie unter [Wechseln zwischen den Benutzeroberflächen von Skype for Business und lync-Client](https://aka.ms/SfBOUI).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Ressourcen zur besseren Vorbereitung Ihrer Supportteams und Endbenutzer auf das Update
 <a name="support"> </a>

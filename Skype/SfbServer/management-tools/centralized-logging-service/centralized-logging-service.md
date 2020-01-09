@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274513"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992602"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
  
@@ -36,7 +36,7 @@ Der zentralisierte Protokollierungsdienst kann:
   - Sie können einen vorhandenen Anbieter verwenden oder einen neuen Anbieter erstellen. Anbieter definiert, was die Protokollierungssitzung sammelt, welche Detailebene, welche Komponenten nachzuverfolgen und welche Flags angewendet werden.
     
     > [!TIP]
-    >  Wenn Sie mit OCSLogger vertraut sind, bezieht sich die termproviders auf die Sammlung von **Komponenten** (beispielsweise S4, SIPStack), **** einen Protokollierungs (beispielsweise WPP, EventLog oder IIS-Protokolldatei), eine **Ablaufverfolgungsebene** (beispielsweise all, Verbose, Debug). und **Flags** (beispielsweise TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter (eine Windows PowerShell-Variable) definiert und an den Befehl "zentralisierter Protokollierungsdienst" übergeben.
+    >  Wenn Sie mit OCSLogger vertraut sind, bezieht sich die termproviders auf die Sammlung von **Komponenten** (beispielsweise S4, SIPStack), einen **Protokollierungs** (beispielsweise WPP, EventLog oder IIS-Protokolldatei), eine **Ablaufverfolgungsebene** (beispielsweise alle, Verbose, Debug) und **Flags** (beispielsweise TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter (eine Windows PowerShell-Variable) definiert und an den Befehl "zentralisierter Protokollierungsdienst" übergeben.
   
   - Konfigurieren Sie Protokolle für bestimmte Computer und Pools.
     
@@ -95,7 +95,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
     
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

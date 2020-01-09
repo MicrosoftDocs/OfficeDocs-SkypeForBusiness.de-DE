@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzrichtlinien erstellen.'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304012"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991890"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server
  
@@ -120,7 +120,7 @@ Verwenden Sie das Cmdlet **New-CsConferencingPolicy**, um Konferenzrichtlinien z
   
 Im folgenden Beispiel wird eine neue konferenzrichtlinie mit dem Identitäts SalesConferencingPolicy erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit einer Ausnahme: MaxMeetingSize. In diesem Beispiel wird die maximale Besprechungsgröße statt auf den Standardwert 250 auf 50 festgelegt:
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

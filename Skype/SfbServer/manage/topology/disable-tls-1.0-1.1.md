@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Vorbereiten und Implementieren der Deaktivierung von TLS 1,0 und 1,1 in Ihrer Umgebung.'
-ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f10bd213be62b2d1dfa705e8ec8e0cc762706ee6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919309"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991550"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deaktivieren von TLS 1.0/1.1 in Skype for Business Server 2015
 
@@ -193,7 +193,7 @@ Umfassende Abhängigkeits Updates sind erforderlich, bevor Sie mit der Deaktivie
 
 Kopieren/fügen Sie den folgenden Test in den Editor ein, und benennen Sie TLSPreReq. reg oder einen Namen Ihrer Wahl um, und importieren Sie dann:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -245,7 +245,7 @@ Bevor Sie mit den nächsten Schritten fortfahren, *Stellen Sie sicher, dass Sie 
 
 Kopieren Sie den folgenden Text in eine Notepad-Datei, und benennen Sie ihn **TLSDisable. reg**um:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]

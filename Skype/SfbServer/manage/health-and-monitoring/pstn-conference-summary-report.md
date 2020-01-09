@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server.'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279984"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992160"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server
  
@@ -35,7 +35,7 @@ Um den Prozentsatz aller ihrer Konferenzen zu ermitteln, die Einwahlbenutzer ein
   
 Wenn Sie nicht so viele PSTN-Konferenzen sehen, wie Sie vielleicht erwartet hätten, sollten Sie Bedenken, dass die Möglichkeit zum Organisieren einer Konferenz, die Einwahlbenutzer ermöglicht, von der konferenzrichtlinie abhängt, die einem Benutzer zugewiesen wurde: Wenn nur wenige ihrer Benutzer PS halten dürfen TN-Konferenzen sehen Sie offensichtlich nur sehr wenige PSTN-Konferenzen. Sie können schnell überprüfen, welche ihrer Konferenzrichtlinien (sofern vorhanden) es Benutzern ermöglichen, PSTN-Konferenzen zu planen, indem Sie den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ausführen:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.openlocfilehash: 529b0b550d60123a94b36944e8f1831acb09839a
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 6953828ce3b97598a0173bc344bf7d43d7fe8097
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069426"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995105"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -55,9 +55,9 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |  Intrado ERS <br>Intrado EGW    |Nein|    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |   Intrado ERS <br>Intrado EGW  |  Nein  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |   Intrado ERS <br>Intrado EGW |   Nein |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |     |    |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |    |    |    
-|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v8.0.1    |     |    |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Intrado ERS <br>Intrado EGW  |  Ausstehend  |    
+|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v8.0.1    |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Steht noch aus    |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    

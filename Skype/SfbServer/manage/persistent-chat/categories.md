@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 Kategorien für beständigen Chat Server verwalten.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417939"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992000"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -69,11 +69,11 @@ Sie können Kategorien über die Systemsteuerung oder mit Windows PowerShell-Cmd
     
 7. Führen Sie unter **Kategorie bearbeiten** die folgenden Schritte aus:
     
-   - Fügen Sie unter **Mitgliedschaft**im Abschnitt **zulässige Mitglieder** Benutzer und andere Active Directory-Domänendienst Prinzipale (Benutzer, Verteilergruppen, Organisationseinheiten usw.) hinzu, die als Mitglieder von Chatrooms hinzugefügt werden dürfen. gehören zur Kategorie. Prinzipale, die in einer Kategorie zugelassen sind, können nach den Räumen in der Kategorie suchen (es sei denn, der Raum ist ausgeblendet; in diesem Fall können nur Mitglieder des Raums im Verzeichnis danach suchen).
+   - Fügen Sie unter **Mitgliedschaft**im Abschnitt **zulässige Mitglieder** Benutzer und andere Active Directory-Domänendienst Prinzipale (Benutzer, Verteilergruppen, Organisationseinheiten usw.) hinzu, die als Mitglieder von Chatrooms, die der Kategorie angehören, hinzugefügt werden dürfen. Prinzipale, die in einer Kategorie zugelassen sind, können nach den Räumen in der Kategorie suchen (es sei denn, der Raum ist ausgeblendet; in diesem Fall können nur Mitglieder des Raums im Verzeichnis danach suchen).
     
    - Fügen Sie in der **Mitgliedschaft**im Abschnitt **Abgelehnte Mitglieder** Benutzer und andere Active Directory-Prinzipale hinzu, die Mitgliedern zugeordnet sind, die aus dem Chatroom verweigert werden.
     
-   - Fügen Sie unter **Mitgliedschaft**im **** Abschnitt Creators Benutzer und andere Active Directory-Prinzipale hinzu, die den Erstellern für die Kategorie zugeordnet sind. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
+   - Fügen Sie unter **Mitgliedschaft**im Abschnitt **Creators** Benutzer und andere Active Directory-Prinzipale hinzu, die den Erstellern für die Kategorie zugeordnet sind. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
     
 8. Klicken Sie auf **Commit ausführen**.
     
@@ -109,7 +109,7 @@ Umfassende Informationen über die Cmdlet-Syntax sowie alle Parameter finden Sie
 
 Mithilfe des Cmdlets **New-CsPersistentChatCategory** können Sie eine neue Kategorie erstellen. Beispielsweise wird mit dem folgenden Befehl eine neue Kategorie mit dem Namen „HelpDesk“ im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist das Hochladen von Dateien aktiviert:
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -119,7 +119,7 @@ Mithilfe des Cmdlets **Set-CsPersistentCategory** können Sie eine vorhandene Ka
   
 Der folgende Befehl gibt beispielsweise an, dass Benutzer1 ein AllowedMember und ein Ersteller ist, während User2 Zugriff auf die Räume in der Kategorie verweigert wird:
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 Mithilfe des Cmdlets **Get-CsPersistentChatCategory** können Sie Informationen über Kategorien abrufen. Mit dem folgenden Befehl werden beispielsweise Informationen über alle Kategorien für den beständigen Chat in der Organisation zurückgegeben:
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 Mithilfe des Cmdlets **Remove-CsPersistentChatCategory** können Sie eine Kategorie löschen. Bevor Sie eine Kategorie löschen, müssen Sie zunächst alle darin befindlichen Chatrooms entweder löschen oder in eine neue Kategorie verschieben. Beispielsweise wird mit dem folgenden Befehl die Kategorie mit der Identität „atl-cs-001.contoso.com\helpdesk“ gelöscht:
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

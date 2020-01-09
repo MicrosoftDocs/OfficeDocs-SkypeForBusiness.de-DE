@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Informationen dazu, wie Sie aus der Ansicht einer Skype for Business Online- und Teams-Konfiguration zu Direct Routing migrieren können.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871711"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992582"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu Direct Routing
 
@@ -86,7 +86,7 @@ Weitere Informationen zur Migration ausgehend von einem Telefonsystem mit lokale
 
 Es wird empfohlen, zuvor konfigurierte Sprachanruf-Weiterleitungsinformationen wie folgt zu entfernen:
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > Wenn ein globaler CsVoiceRoutingPolicy konfiguriert ist, empfiehlt es sich, alle PSTN-Nutzungen zu entfernen, die dieser globalen Richtlinie zugeordnet sind. 
@@ -101,7 +101,7 @@ Weitere Informationen zur Migration ausgehend von einem Telefonsystem mit lokale
 
 Es wird empfohlen, zuvor konfigurierte Sprachanruf-Weiterleitungsinformationen wie folgt zu entfernen:
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

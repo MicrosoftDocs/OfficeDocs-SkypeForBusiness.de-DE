@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Benutzerregistrierung in Skype for Business Server.'
-ms.openlocfilehash: efdb701a61f527e3dd56c1f1e0662f3f1b7f0f8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279669"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991690"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Bericht zur Benutzerregistrierung in Skype for Business Server
  
@@ -51,7 +51,7 @@ Insgesamt fanden fünf Anmeldungen statt, es sind jedoch nur zwei eindeutige an
   
 Sie müssen nicht nur die Anzahl der eindeutigen Anmeldungen kennen, sondern auch die Gesamtzahl der Benutzer, die für Skype for Business Server aktiviert wurden. Dieser Wert kann abgerufen werden, indem Sie die Skype for Business Server-Verwaltungsshell öffnen und den folgenden Windows PowerShell-Befehl ausführen:
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 

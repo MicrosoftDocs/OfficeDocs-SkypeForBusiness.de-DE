@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Zusammenfassung: erfahren Sie mehr über das Feature "meine Anruf Rate" in Skype for Business Server.'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279858"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991740"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server abstimmen
 
@@ -51,7 +51,7 @@ Das Feature "mein Anruf abstimmen" ist standardmäßig in der Client Richtlinie 
 
 Es ist keine Aktion erforderlich, um das Basis Feature zu aktivieren, doch wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Das folgende Windows PowerShell-Cmdlet ist ein Beispiel für die Aktivierung benutzerdefinierter Endbenutzer Feedbacks und das Ändern des Intervalls von 10% auf 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -114,7 +114,7 @@ Die folgenden SQL-Abfragen können verwendet werden:
 
  **Audio**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **Video**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 Die neuesten Skype for Business-Clients melden neue Problemtoken-\> IDs (100), die möglicherweise nicht in Ihrem [Datenbank QoEMetrics werden] vorhanden sind. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Token-Definitionen zu aktualisieren, kann der unter SQL-Befehl mit Microsoft SQL Server Management Studio in der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge im [Datenbank QoEMetrics werden] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

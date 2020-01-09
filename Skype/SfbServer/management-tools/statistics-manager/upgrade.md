@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299723"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992502"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
@@ -50,7 +50,7 @@ Das Skript sammelt Ihre aktuellen Zertifikatinformationen und das Listener-Kennw
     
 2. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Listener-Komponente:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ Das Skript sammelt Ihre aktuellen Zertifikatinformationen und das Listener-Kennw
     
 4. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Website-Komponente:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ Das Skript sammelt Ihre aktuellen Zertifikatinformationen und das Listener-Kennw
     
 8. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Agent-Komponente:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

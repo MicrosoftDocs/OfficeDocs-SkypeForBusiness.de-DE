@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: erfahren Sie mehr über den Bereitstellungsprozess für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: aa7f5d81fd9778e148dcf64f84c757676bd1df2d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221566"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992692"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen eines Anruf Qualitäts Dashboards für Skype for Business Server
  
@@ -83,7 +83,7 @@ Die Bereitstellung des Dashboards für die Anrufqualität umfasst das Einrichten
   
    - **Partitionsdatei Verzeichnis:** Der Pfad, in dem die Partitionen für die QoE-Archivdatenbank gespeichert werden sollen. Dies sollte sich auf einem Laufwerk (HDD3 in der empfohlenen Hardwarekonfiguration) befinden, das vom Laufwerk des Betriebssystems und vom SQL-Datenbank-Protokolldateien getrennt ist. Beachten Sie, dass, da die Dateinamen in der Installation behoben werden, ein leeres Verzeichnis ohne Dateien verwendet werden sollte, um potenzielle Konflikte zu vermeiden.
     
-   - **SQL-Agent-Auftrags Benutzer- &amp; Kennwort für Benutzer Name:** Name und Kennwort des Domänendienstkontos (maskiert), das zum Ausführen des Schritts "QoE-Archivdaten" des SQL Server-Agent-Auftrags verwendet wird (der die gespeicherte Prozedur ausführt, um Daten aus QoE-Metriken DB in die Archivdatenbank zu übertragen, damit dieses Konto über Lesezugriff auf QoE-Metriken DB verfügt,  wie im Abschnitt "Konten" angegeben. Dieses Konto muss auch über eine Anmeldung in der SQL Server-Instanz des QoE-Archivs verfügen.
+   - **SQL-Agent-Auftrags Benutzer- &amp; Kennwort für Benutzer Name:** Name und Kennwort des Domänendienstkontos (maskiert), das verwendet wird, um den Schritt "QoE-Archivdaten" des SQL Server-Agent-Auftrags auszuführen (der die gespeicherte Prozedur ausführt, um Daten aus QoE-Metriken DB in Archiv DB abzurufen, damit dieses Konto über Lesezugriff auf QoE-Metriken DB verfügt, wie im Abschnitt "Konten" angegeben. Dieses Konto muss auch über eine Anmeldung in der SQL Server-Instanz des QoE-Archivs verfügen.
     
      > [!NOTE]
      > Das Konto, unter dem die SQL Server-Instanz ausgeführt wird, beispielsweise NT-SERVICE\MSSQLSERVER, muss über Zugriff/Berechtigung für die oben angegebenen Verzeichnisse verfügen, damit die Installation erfolgreich durchgeführt werden kann. Ausführliche Informationen finden Sie unter [Konfigurieren von Datei System Berechtigungen für den Zugriff auf Datenbankmodul](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
@@ -159,7 +159,7 @@ Als nächstes sollten Administratoren neue Zulassungsregeln hinzufügen und best
   
 Die Konfigurationsdetails werden in der Web. config-Datei gespeichert, die sich im physikalischen Verzeichnis des Portals befindet.
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -282,7 +282,7 @@ Beispiele
     
   **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -313,7 +313,7 @@ Beispiele
     
   **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -343,7 +343,7 @@ Beispiele
     
   **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -365,7 +365,7 @@ Bevor Sie ein neues Gebäude importieren, sollten Sie bereits einen vordefiniert
   
  **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -390,7 +390,7 @@ Importieren Sie Subnets, und ordnen Sie Sie den Gebäuden zu, die im letzten Sch
   
  **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -410,7 +410,7 @@ Durch das Auffüllen von BSSID-Informationen erhalten Sie zusätzliche WLAN-Date
   
  **SQL-Beispiel Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],

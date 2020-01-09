@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users.
-ms.openlocfilehash: 973529682224231e997e3900664fb5163156dfc3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: Verwenden Sie das Cmdlet Get-CsOnlineUser in Windows PowerShell, um Informationen zu den Skype for Business Online-Benutzern Ihrer Organisation abzurufen.
+ms.openlocfilehash: a61d698b5218c37c786bdba9ab7f7711e9ab47b4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221763"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989240"
 ---
 # <a name="manage-user-accounts"></a>Verwalten von Benutzerkonten
 
@@ -47,19 +47,19 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Um Informationen zu allen Benutzern abzurufen, die für Skype for Business Online aktiviert sind, rufen Sie das Cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) ohne zusätzliche Parameter auf.
 
-```
+```PowerShell
 Get-CsOnlineUser
 ```
 
 Um Informationen zu einem einzelnen nach dem Zufallsprinzip ausgewählten Benutzer abzurufen (zum Beispiel, um dieses Konto zu Testzwecken zu verwenden), rufen Sie das Cmdlet **Get-CsOnlineUser** auf, und legen Sie den Parameter _ResultSize_ auf „1" fest.
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
 Dies bewirkt, dass das Cmdlet **Get-CsOnlineUser** Informationen für nur einen Benutzer zurückgibt, unabhängig davon, wie viele Benutzer in der Organisation vorhanden sind. Um Informationen für fünf Benutzer abzurufen, legen Sie den Wert des Parameters _ResultSize_ auf „5" fest.
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 5
 ```
 
@@ -68,19 +68,19 @@ Get-CsOnlineUser -ResultSize 5
 
 Es gibt mehrere Möglichkeiten, beim Aufruf des Cmdlets [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) auf ein bestimmtes Benutzerkonto zu verweisen. Sie können den Active Directory-Domänendienste (AD DS, Active Directory Domain Services)-Anzeigenamen des Benutzers verwenden.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
 Sie können die SIP-Adresse des Benutzers verwenden.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
 Sie können den Benutzerprinzipalnamen (User Principal Name, UPN) des Benutzers verwenden.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
@@ -89,19 +89,19 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 
 Standardmäßig gibt das Cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) eine große Menge von Informationen zu den einzelnen Skype for Business Online-Benutzerkonten zurück. Wenn Sie sich nur für eine Teilmenge dieser Informationen interessieren, reichen Sie die zurückgegebenen Daten an das Cmdlet **Select-Object** weiter. Dieser Befehl zum Beispiel gibt alle Daten für den Benutzer Ken Myer zurück und beschränkt dann mit dem Cmdlet **Select-Object** die auf dem Bildschirm angezeigten Informationen auf Kens AD DS-Anzeigenamen und Wählplan.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
 Der folgende Befehl gibt die Anzeigenamen und Wählpläne für alle Benutzer zurück.
 
-```
+```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
 Mit dem folgenden Befehl können Sie die Eigenschaften eines Skype for Business Online-Benutzerkontos suchen.
 
-```
+```PowerShell
 Get-CsOnlineUser | Get-Member
 ```
 
@@ -110,7 +110,7 @@ Get-CsOnlineUser | Get-Member
 
 Mit dem Cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) und dem Parameter _LdapFilter_ oder _Filter_ können Sie leicht Informationen zu einer bestimmten Gruppe von Benutzern abrufen. Dieser Befehl zum Beispiel gibt alle Benutzer aus der Finanzabteilung zurück.
 
-```
+```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 

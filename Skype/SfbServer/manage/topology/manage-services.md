@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie den Dienststatus anzeigen, Dienste starten und beenden sowie Sitzungen für Dienste verhindern.
-ms.openlocfilehash: c3c0ad3a61543caf7866582413a67968c4c1c2d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275150"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991520"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Verwalten von Diensten in Skype for Business Server
 
@@ -61,7 +61,7 @@ Wenn Sie den Dienststatus auf einem Computer anzeigen möchten, geben Sie in der
 
 Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running

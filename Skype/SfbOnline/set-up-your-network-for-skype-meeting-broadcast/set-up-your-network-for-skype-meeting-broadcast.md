@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: Erfahren Sie mehr über die Skype-Live Konferenz-Funktion von Skype for Business Online, mit der Sie Besprechungen oder Ereignisse für große Online-Zielgruppen bis zu 10.000 Teilnehmer planen, erstellen und übertragen können.
+ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792920"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990980"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Einrichten Ihres Netzwerks für Skype-Livekonferenz
 
@@ -59,29 +59,29 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
  **Methode 2: Verwenden von Windows PowerShell**
 
-- Klicken Sie im **Startmenü**mit der rechten Maustaste auf **Windows PowerShell** , und klicken Sie dann auf **als Administrator ausführen**. In the **Windows PowerShell** window, type each line and press Enter.
+- Klicken Sie im **Startmenü**mit der rechten Maustaste auf **Windows PowerShell** , und klicken Sie dann auf **als Administrator ausführen**. Geben Sie im **Windows PowerShell** -Fenster jede Zeile ein, und drücken Sie die EINGABETASTE.
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
@@ -89,7 +89,7 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
 Im zweiten Schritt des Setupvorgangs fügen Sie zuerst die benötigten Domänen hinzu. Anschließend fügen Sie die IP-Adressen und URLs hinzu, die erforderlich sind, damit Skype-Livekonferenz funktioniert.
 
-- **Fügen Sie die erforderlichen Skype for Business Online-Endpunkt-URLs und IP-Adressen hinzu, indem Sie sehen, welche erforderlich sind** . [hier](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
+- **Fügen Sie die erforderlichen Skype for Business Online-Endpunkt-URLs und IP-Adressen hinzu, indem Sie sehen, welche hier erforderlich sind** [](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Einrichten von Skype-Livekonferenz in Hybridbereitstellungen und -organisationen
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Änderungen oder Bereitstellung von Skype for Business Server 2015-Topologie, um Benutzern das erfolgreiche Ausführen des Stress-und Leistungstools zu ermöglichen.
-ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299702"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992492"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Bereitstellen der Topologie zum Ausführen der Auslastung in Stress-und Leistungs Szenarien
  
@@ -27,13 +27,13 @@ Je nach Ihren vorhandenen Einstellungen und der Konfiguration für Ihre Bereitst
   
 1. Setzen Sie die Windows PowerShell-Ausführungsrichtlinie auf Unrestricted. Wenn Sie nicht genau wissen, auf was Sie derzeit eingestellt ist, können Sie die Skype for Business Server-Verwaltungsshell öffnen und diesen Befehl ausführen:
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    Wenn der Wert Unrestricted nicht zurückgegeben wird, müssen Sie Folgendes ausführen:
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -45,7 +45,7 @@ Je nach Ihren vorhandenen Einstellungen und der Konfiguration für Ihre Bereitst
     
 3. Wenn Sie ein Skript über die Befehlszeile ausführen möchten, können Sie Folgendes verwenden:
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

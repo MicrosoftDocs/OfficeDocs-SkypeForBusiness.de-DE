@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für synthetische Skype for Business Server-Transaktionen.'
-ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221518"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992442"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
  
@@ -110,9 +110,9 @@ So installieren Sie die Core-Dateien von Skype for Business Server 2015 und die 
   
 1. Klicken Sie auf dem Monitorknotencomputer auf „Start“, auf „Alle Programme“ und auf „Zubehör“. Klicken Sie mit der rechten Maustaste auf „Eingabeaufforderung“ und klicken Sie dann auf „Als Administrator ausführen“.
     
-2. Geben Sie im Konsolenfenster den folgenden Befehl ein und drücken Sie die EINGABETASTE. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihren Skype for Business Server-Setupdateien eingeben: D:\setup.exe/BootstrapLocalMgmtTo stellen Sie sicher, dass die Kernkomponenten von Skype for Business Server erfolgreich installiert wurden, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, Klicken Sie auf **Skype for Business Server 2015**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**. Geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Windows PowerShell-Befehl ein, und drücken Sie die EINGABETASTE:
+2. Geben Sie im Konsolenfenster den folgenden Befehl ein und drücken Sie die EINGABETASTE. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihren Skype for Business Server-Setupdateien eingeben: D:\setup.exe/BootstrapLocalMgmtTo stellen Sie sicher, dass die Kernkomponenten von Skype for Business Server erfolgreich installiert sind, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server 2015**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**. Geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Windows PowerShell-Befehl ein, und drücken Sie die EINGABETASTE:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -169,26 +169,26 @@ Zum Konfigurieren der Authentifizierung über vertrauenswürdige Server müssen 
   
 Wenn Sie einen vertrauenswürdigen Anwendungspool erstellen möchten, öffnen Sie die Skype for Business Server-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden aus:
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > Einzelheiten zu den Parametern im vorhergehenden Befehl geben Sie in der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell Folgendes ein: 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 Konfigurieren Sie nach der Erstellung des Pools vertrauenswürdiger Anwendungen den Monitorknotencomputer für die Ausführung synthetischer Transaktionen als vertrauenswürdige Anwendung. Verwenden Sie dazu das Cmdlet **New-CsTrustedApplication** und einen Befehl wie den folgenden:
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 Nachdem dieser Befehl ausgeführt wurde und die vertrauenswürdige Anwendung erstellt ist, müssen Sie das Cmdlet **Enable-CsTopology** ausführen, um sicherzustellen, dass die Änderungen übernommen werden:
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
@@ -196,7 +196,7 @@ Führen Sie nach der Ausführung von „Enable-CsTopology“ einen Neustart des 
   
 Um zu überprüfen, ob die neue vertrauenswürdige Anwendung erstellt wurde, geben Sie Folgendes an der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell ein:
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -231,7 +231,7 @@ So installieren und konfigurieren Sie einen Monitorknoten
     
 2. Geben Sie in der Verwaltungsshell den folgenden Befehl ein und drücken Sie die EINGABETASTE (geben Sie den tatsächlichen Pfad Ihrer Kopie von „Watchernode.msi“ ein):
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -241,7 +241,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > Im vorstehenden Befehl unterliegt das Namen-/Wertepaar „Authentication=TrustedServer“ der Groß-/Kleinschreibung. Es muss genau wie angezeigt eingegeben werden. Bei der Ausführung dieses Befehls tritt ein Fehler auf, wenn nicht die richtige Abfolge von Groß- und Kleinbuchstaben verwendet wird: 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -282,7 +282,7 @@ Führen Sie im nächsten Schritt die Datei „Watchernode.msi“ aus:
     
 2. Geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein und drücken Sie dann die EINGABETASTE (achten Sie darauf, den tatsächlichen Pfad zu Ihrer Kopie der Datei „Watchernode.msi“ anzugeben):
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

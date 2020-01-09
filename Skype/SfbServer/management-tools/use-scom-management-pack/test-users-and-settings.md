@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Zusammenfassung: Konfigurieren von Testbenutzerkonten und Watcher-Knoten Einstellungen für synthetische Skype for Business Server-Transaktionen.'
-ms.openlocfilehash: 02c24d4f23b59dfa8ddab68e1c4a992312916b3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3aa711e9da588b6843f7e31940e15772b1376084
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277657"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992452"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Konfigurieren von Testbenutzern und Einstellungen für Monitorknoten
  
@@ -36,7 +36,7 @@ Test Konten müssen keine tatsächlichen Personen darstellen, Sie müssen jedoch
   
 Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und wie bereits erwähnt konfiguriert werden. Sie sollten mindestens zwei Testbenutzer für jeden Pool zuweisen, den Sie testen möchten. Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet "Satz-CsTestUserCredential" und die Skype for Business Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen funktionieren. Führen Sie dazu einen Befehl ähnlich wie den folgenden aus (bei diesen Befehlen wird davon ausgegangen, dass die beiden Active Directory-Benutzerkonten erstellt wurden und diese Konten für Skype for Business Server aktiviert sind):
   
-```
+```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
@@ -45,7 +45,7 @@ Sie müssen zusätzlich zur SIP-Adresse auch den Benutzernamen und das Kennwort 
   
 Führen Sie die folgenden Befehle aus der Skype for Business Server-Verwaltungsshell aus, um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurden:
   
-```
+```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
@@ -60,7 +60,7 @@ Daraufhin werden für jeden Benutzer Informationen zurückgegeben werden, die de
 
 Nachdem die Testbenutzer erstellt wurden, können Sie mithilfe eines Befehls, der dem Folgenden ähnelt, einen Watcher-Knoten erstellen:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -68,7 +68,7 @@ Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Sta
   
 Um zu überprüfen, ob die automatische Ermittlung des Zielpools zur Anmeldung ordnungsgemäß konfiguriert ist, führen Sie diese Schritte aus, statt einen Pool direkt vorzugeben:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -76,7 +76,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 Wenn Sie den PSTN-Test aktivieren möchten, mit dessen Hilfe die Verbindung mit dem Telefonfestnetz überprüft wird, müssen Sie beim Einrichten des Watcher-Knotens einige zusätzliche Konfigurationsschritte ausführen. Zuerst müssen Sie die Testbenutzer dem PSTN-Testtyp zuweisen. Führen Sie dazu in der Skype for Business Server-Verwaltungsshell einen Befehl aus, der dem Folgenden ähnelt:
   
-```
+```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
   
 Als nächstes können Sie das Cmdlet **New-CsWatcherNodeConfiguration** verwenden, um den in der Variablen $pstnTest gespeicherten Testtyp einem Skype for Business-Server Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Watcher-Knoten Konfiguration für den Pool ATL-CS-001.litwareinc.com erstellt, wobei die beiden zuvor erstellten Testbenutzer hinzugefügt und der PSTN-Testtyp hinzugefügt wurde:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
@@ -145,13 +145,13 @@ Die folgenden Komponenten werden standardmäßig nicht getestet:
 
 Nachdem ein Watcher-Knoten konfiguriert wurde, können Sie dem Knoten mithilfe des Cmdlets Set-CsWatcherNodeConfiguration synthetische Transaktionen hinzufügen oder Knoten daraus entfernen. Wenn Sie beispielsweise dem Watcher-Knoten den Test PersistentChatMessage hinzufügen möchten, verwenden Sie die Add-Methode und einen Befehl, der dem Folgenden ähnelt:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
 Sie können mehrere Tests hinzufügen, indem Sie die Testnamen durch Kommas voneinander trennen. Beispiel:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
@@ -163,13 +163,13 @@ Wenn dieser Fehler auftritt, werden keine Änderungen wirksam. Führen Sie den B
   
 Wenn Sie eine synthetische Transaktion aus einem Watcher-Knoten entfernen möchten, verwenden Sie die Remove-Methode. Mithilfe des folgenden Befehls wird beispielsweise der ABWQ-Test aus einem Watcher-Knoten entfernt:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
 Sie können die Replace-Methode verwenden, um alle momentan aktivierten Tests durch einen oder mehrere neue Tests zu ersetzen. Wenn Sie beispielsweise möchten, dass ein Watcher-Knoten nur den IM-Test ausführt, können Sie dieses Verhalten mithilfe des folgenden Befehls konfigurieren:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
@@ -179,7 +179,7 @@ Wenn Sie diesen Befehl ausführen, werden mit Ausnahme von IM alle synthetischen
 
 Wenn Sie die Tests anzeigen möchten, die einem Watcher-Knoten zugewiesen wurden, verwenden Sie einen Befehl, der dem Folgenden ähnelt:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
@@ -189,13 +189,13 @@ Registrierung im GroupIM P2PAV AvConference Anwesenheits PersistentChatMessage d
 > [!TIP]
 > Wenn Sie die synthetischen Transaktionen in alphabetischer Reihenfolge anzeigen möchten, verwenden Sie stattdessen den folgenden Befehl: 
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
 Wenn Sie überprüfen möchten, ob ein Watcher-Knoten erstellt wurde, geben Sie den folgenden Befehl über die Skype for Business Server-Verwaltungsshell ein:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -203,13 +203,13 @@ Sie erhalten Informationen, die den Folgenden ähneln:
   
 Identität: ATL-CS-001.litwareinc.com <br/>
 TestUsers: {SIP:watcher1@litwareinc.com, SIP:watcher2@litwareinc.com...}<br/>
-ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+ExtendedTests: {TestUsers = IList<System. String>; Name = PSTN-Test; Te...}<br/>
 TargetFqdn: ATL-CS-001.litwareinc.com<br/>
 PortNumber: 5061<br/>
 
 Wenn Sie überprüfen möchten, ob der Watcher-Knoten ordnungsgemäß konfiguriert wurde, geben Sie den folgenden Befehl über die Skype for Business Server-Verwaltungsshell ein:
   
-```
+```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
@@ -232,20 +232,20 @@ Mit dem **Set-CsWatcherNodeConfiguration**-Cmdlet können Sie nicht nur die auf 
   
 In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal müssen solche Transaktionen jedoch angehalten werden. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Verbindung mit dem Netzwerk würden solche Transaktionen fehlschlagen. Wenn Sie einen Watcher-Knoten vorübergehend deaktivieren, führen Sie in der Skype for Business Server-Verwaltungsshell einen Befehl aus, der in etwa so aussieht:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
 Dieser Befehl deaktiviert die Ausführung synthetischer Transaktionen auf dem Watcher-Knoten „atl-watcher- 001.litwareinc.com“. Wenn die synthetischen Transaktionen wieder aufgenommen werden sollen, setzen Sie die Eigenschaft „Enabled“ wieder zurück auf „True“ ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
 > Mithilfe der Eigenschaft „Enabled“ können Watcher-Knoten ein- und ausgeschaltet werden. Wenn Sie einen Watcher-Knoten dauerhaft löschen möchten, verwenden Sie das **Remove-CsWatcherNodeConfiguration**-Cmdlet:
   
-```
+```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
@@ -253,13 +253,13 @@ Dieser Befehl entfernt auf dem angegebenen Computer alle Konfigurationseinstellu
   
 In der Standardeinstellung verwenden Watcher-Knoten bei der Durchführung ihrer Tests externe Web-URLs des Unternehmens. Es ist jedoch auch möglich, die Verwendung interner Web-URLs zu konfigurieren. Dies ermöglicht es Administratoren, den URL-Zugriff für innerhalb des Umkreisnetzwerks befindliche Benutzer zu überprüfen. Wenn Sie einen Watcher-Knoten so konfigurieren möchten, dass er interne anstatt externe URLs verwendet, legen Sie die Eigenschaft UseInternalWebURls auf „True“ ($True) fest:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
 Zurücksetzen dieser Eigenschaft auf den Standardwert „False“ ($False) führt dazu, dass der Watcher-Knoten wieder externe URLs verwendet:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
@@ -276,15 +276,15 @@ Wenn sich Ihr Watcher-Knoten-Computer außerhalb Ihres Umkreisnetzwerks befindet
     
 2. Geben Sie im Konsolenfenster den folgenden Befehl ein und drücken Sie dann die EINGABETASTE. 
     
-```
+```console
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 ```
 
 Die folgende Meldung wird im Befehlsfenster angezeigt:
   
-BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
+BITSAdmin ist veraltet und nicht garantiert in zukünftigen Versionen von Windows verfügbar. Die Verwaltungstools für den Bits-Dienst werden jetzt von Bits PowerShell-Cmdlets bereitgestellt.
   
-Internet proxy settings for account NetworkService set to NO_PROXY. 
+Internet Proxyeinstellungen für Account Network Service auf NO_PROXY eingestellt. 
   
 (connection = default)
   
@@ -341,13 +341,13 @@ Für die Verwendung dieser synthetischen Transaktion müssen die folgenden Bedin
     
 Nachdem diese Bedingungen erfüllt sind, können Sie das folgende Windows PowerShell-Cmdlet ausführen, um die Kontaktlisten der Testbenutzer in Exchange zu migrieren:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
 Es kann einige Zeit dauern, bis die Migration der Testbenutzer-Kontaktlisten Migration nach Exchange abgeschlossen ist. Um den Migrationsstatus zu überwachen, kann dieselbe Befehlszeile ohne das-Setup-Flag ausgeführt werden:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
@@ -359,7 +359,7 @@ Für die synthetische XMPP-IM-Transaktion (Extensible Messaging and Presence Pro
   
 Zum Aktivieren der synthetischen XMPP-Transaktion müssen Sie den Parameter XmppTestReceiverMailAddress mit einem Benutzerkonto bei einer routingfähigen XMPP-Domäne angeben. Beispiel:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
@@ -420,7 +420,7 @@ Diese Informationen werden bei jeder Ausführung einer synthetischen Transaktion
   
 Zum Abrufen der Informationen zur Problembehandlung geben Sie den Parameter OutLoggerVariable an, gefolgt von einem Variablennamen, den Sie auswählen:
   
-```
+```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
@@ -433,13 +433,13 @@ Ziel-FQDN: ATL-CS-001.litwareinc.com-Ergebnis: Fehler Latenz: 00:00:00-Fehlermel
 
 Sie können einen ähnlichen Befehl wie den folgenden verwenden, um auf diese Informationen im HTML-Format zuzugreifen und die in der Variablen RegistrationTest gespeicherten Informationen in einer HTML-Datei zu speichern:
   
-```
+```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
 Alternativ können Sie die ToXML()-Methode verwenden, um Dateien in einer XML-Datei zu speichern:
   
-```
+```PowerShell
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 

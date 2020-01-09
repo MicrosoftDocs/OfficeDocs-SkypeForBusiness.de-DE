@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Zusammenfassung: Lesen Sie dieses Thema beim Planen des Überwachungsdiensts in Skype for Business Server.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297281"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991780"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planen der Überwachung in Skype for Business Server
 
@@ -80,13 +80,13 @@ Für viele Organisationen ist die Datenbankkapazität nicht der entscheidende Fa
 
 Sie sollten auch berücksichtigen, dass Skype for Business Server die Verwendung von Spiegeldatenbanken unterstützt. Die „Datenbankspiegelung“ bietet die Möglichkeit, zwei Kopien einer Datenbank gleichzeitig zu verwalten, wobei die Datenbanken auf unterschiedlichen Servern gespeichert werden. Immer wenn Daten in eine primäre Datenbank geschrieben werden, werden diese Daten auch in die Spiegeldatenbank geschrieben. Wenn die primäre Datenbank fehlschlägt oder anderweitig nicht mehr zur Verfügung steht, können Sie mit einem einfachen Skype for Business Server PowerShell-Befehl "Failover" zur Spiegeldatenbank durchführen. Beispiel:
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 
 Dies spielt eine wichtige Rolle für die Planung, da Sie für die Spiegelung die erforderliche Anzahl von Datenbanken verdoppeln müssen. Denn zusätzlich zu jeder primären Datenbank benötigen Sie eine zweite Datenbank als Spiegeldatenbank.
 
- **Benötigen Ihre Skype for Business Server-Websites eigene benutzerdefinierte Überwachungskonfigurationen?** Wenn Sie Skype for Business Server installieren, installieren Sie auch globale Sammlungen mit CDR-und QoE-Konfigurationseinstellungen. Diese globalen Auflistungen bieten Ihnen die Möglichkeit, die gleichen CDR-und QoE-Einstellungen auf Ihre gesamte Organisation anzuwenden. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
+ **Benötigen Ihre Skype for Business Server-Websites eigene benutzerdefinierte Überwachungskonfigurationen?** Wenn Sie Skype for Business Server installieren, installieren Sie auch globale Sammlungen mit CDR-und QoE-Konfigurationseinstellungen. Diese globalen Auflistungen bieten Ihnen die Möglichkeit, die gleichen CDR-und QoE-Einstellungen auf Ihre gesamte Organisation anzuwenden. In vielen Fällen wird dies ausreichen: oftmals möchten Sie beispielsweise, dass die CDR-Überwachung für alle Benutzer aktiviert ist.
 
 Es kann aber auch vorkommen, dass Sie unterschiedliche Einstellungen auf verschiedene Websites anwenden möchten. Vielleicht möchten Sie beispielsweise die CDR-und QoE-Überwachung auf Ihrer Website in Redmond verwenden, aber nur die CDR-Überwachung in Ihrer Dublin-Website verwenden. Ebenso möchten Sie möglicherweise Überwachungsdaten für 60 Tage auf der Website "Redmond" beibehalten, müssen aber nur diese Art von Daten 30 Tage lang auf der Website von Dublin verwalten. Skype for Business Server ermöglicht Ihnen, getrennte Sammlungen von CDR-und QoE-Konfigurationseinstellungen im Website Bereich zu erstellen. Damit können Sie jede Website unterschiedlich verwalten. (Dazu gehören sowohl das Aktivieren und Deaktivieren der Überwachung als auch das Konfigurieren von Verwaltungseinstellungen, wie beispielsweise die Aufbewahrungsdauer von Daten.)
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Elementen, der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274702"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992662"
 ---
 # <a name="get-items"></a>Abrufen von Elementen
  
@@ -49,7 +49,7 @@ Elemente abrufen gibt alle Elemente im Repository zurück.
 > [!NOTE]
 > Ein Array von Item-Objekten wird zurückgegeben. Details zu Item-Objekten finden Sie unter Abrufen von Elementen. 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

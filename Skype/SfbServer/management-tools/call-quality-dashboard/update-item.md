@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "Element aktualisieren", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: aa46be0babf5998fcf2fabea797cb7a769914f8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 55d21d1e1b8f3814dab7699ff864ba8fea1d23be
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274534"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991390"
 ---
 # <a name="update-item"></a>Aktualisieren von Elementen
  
@@ -40,7 +40,7 @@ Element aktualisieren aktualisiert ein bestimmtes Element im Repository.
   
 Beispiel für eine Anforderungsnutzlast:
   
-```
+```json
 {
   content : "{ 'Product' : 'New Product Name'",
   type: "application/json"

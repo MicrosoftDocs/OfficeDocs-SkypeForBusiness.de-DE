@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Verwenden Sie Windows PowerShell und die Cmdlets Get-CsTenant und Get-CsTenantLicensingConfiguration, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284690"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989230"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Verwalten von Skype for Business Online-Organisationen
 
@@ -33,13 +33,13 @@ Sie können Informationen zu Ihrem Skype for Business Online-Mandanten mithilfe 
 
 Wenn Sie Informationen zu Ihrem Skype for Business Online-Mandanten zurückgeben möchten, rufen Sie das Cmdlet " [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) " ohne zusätzliche Parameter auf.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 Wenn Sie nur den Mandantennamen und die ID zurückgeben möchten, verwenden Sie diesen Befehl.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 

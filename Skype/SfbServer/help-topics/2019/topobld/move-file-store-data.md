@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server-Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht mehr verfügbar machen, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
-ms.openlocfilehash: e065ab7a14f76df33ddfa0ade26561c486edb050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9909412d81240d87b8d1211453118780d1745744
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288690"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988930"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server
 
@@ -69,7 +69,7 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 16. Geben Sie an der Befehlszeile Folgendes ein:
 
-    ```
+    ```console
     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
     ```
 

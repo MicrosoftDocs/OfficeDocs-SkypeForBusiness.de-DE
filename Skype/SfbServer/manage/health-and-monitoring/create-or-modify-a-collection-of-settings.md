@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Zusammenfassung: erfahren Sie mehr über die Anrufdetailaufzeichnung (CDR) in Skype for Business Server.'
-ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305832"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992522"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Erstellen oder Ändern einer Sammlung von CDR-Konfigurationseinstellungen in Skype for Business Server
  
@@ -64,7 +64,7 @@ Sie können CdR-Konfigurationseinstellungen erstellen, die auch mithilfe von Win
 
  Mit dem folgenden Befehl wird eine neue Auflistung von KDS-Konfigurationseinstellungen für den Standort „Redmond“ erstellt:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -72,7 +72,7 @@ Sie können CdR-Konfigurationseinstellungen erstellen, die auch mithilfe von Win
 
  Da im vorherigen Befehl keine weiteren Parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, werden in der neuen Auflistung von Konfigurationseinstellungen für alle Eigenschaften die Standardwerte verwendet. Um Einstellungen zu erstellen, die andere Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und Parameterwert ein. Wenn Sie beispielsweise eine Auflistung von KDS-Konfigurationseinstellungen erstellen möchten, die standardmäßig das Deaktivieren der Aufzeichnung von Kommunikationsdatensätzen erlauben, verwenden Sie den folgenden Befehl:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -80,7 +80,7 @@ Sie können CdR-Konfigurationseinstellungen erstellen, die auch mithilfe von Win
 
  Durch die Angabe mehrerer Parameter können Sie mehrere Eigenschaftswerte ändern. Beispielsweise werden mit dem folgenden Befehl die neuen Einstellungen so konfiguriert, dass Kommunikationsdatensätze 30 Tage und Fehlerberichte 90 Tage lang aufbewahrt werden:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 

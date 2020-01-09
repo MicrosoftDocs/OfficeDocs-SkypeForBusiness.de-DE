@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
-ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Laden Sie den Skype for Business Online-Connector herunter, installieren Sie ihn, und verwenden Sie ihn, um eine Windows PowerShell-Remotesitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt. '
+ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284710"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991300"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Herunterladen und Installieren des Skype for Business Online-Connectormoduls
 
@@ -37,19 +37,19 @@ Das Skype for Business Online-Connectormodul umfasst das **New-CsOnlineSession**
     
 Das Setupprogramm kopiert das Skype for Business Online-Connectormodul (und das **New-CsOnlineSession** -Cmdlet) auf den Computer. Um auf das Modul zuzugreifen, starten Sie eine Windows PowerShell-Sitzung mit Administratoranmeldeinformationen, und führen Sie dann den folgenden Befehl aus:
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 ```
 
 Wenn Sie diesen Befehl nicht bei jedem Start von Windows PowerShell eingeben möchten, können Sie ihn zu Ihrem Windows PowerShell-Profil hinzufügen. Geben Sie dazu den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
-```
+```PowerShell
 notepad.exe $profile
 ```
 
  Wenn Editor angezeigt wird, fügen Sie die folgende Zeile am Ende der gegebenenfalls bereits im Profil vorhandenen Befehle hinzu:
   
-```
+```PowerShell
 Import-Module SkypeOnlineConnector
 ```
 

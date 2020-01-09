@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Hier erfahren Sie, was Sie bei der Planung des Anruf Qualitäts Dashboards Bedenken sollten.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328437"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991410"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen des Anruf Qualitäts Dashboards für Skype for Business Server 
  
@@ -284,11 +284,11 @@ Im folgenden finden Sie die erforderlichen IIS-Rollendienste (in hierarchischer 
   
 Führen Sie die folgenden Schritte aus, um diese Anforderungen mithilfe von PowerShell zu installieren:
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ Weitere Hilfe zum Installieren und Konfigurieren von SQL Server Business Intelli
 
 Für das Prinzip der geringsten Rechte werden drei Domänendienstkonten empfohlen: 
   
-- Eine Person, die bereits über einen Anmelde Sicherheitsprinzipal für QoE Metrics-Datenbank (mit db_datareader-Berechtigung) und einen Anmelde Sicherheitsprinzipal in der QoE-Archiv-SQL Server-Instanz verfügt (zum Erstellen eines verknüpften Server Objekts während des Setups erforderlich). Dieses Konto wird zum Ausführen des Schritts "QoE-Archivdaten" des SQL Server-Agent-Auftrags verwendet.
+- Eine Person, die bereits über einen Anmelde Sicherheitsprinzipal für QoE Metrics-Datenbank (mit db_datareader Berechtigung) und einen Anmelde Sicherheitsprinzipal in der QoE-Archiv-SQL Server-Instanz verfügt (zum Erstellen eines verknüpften Server Objekts während des Setups erforderlich). Dieses Konto wird zum Ausführen des Schritts "QoE-Archivdaten" des SQL Server-Agent-Auftrags verwendet.
     
 - Eine, die zum Ausführen des Schritts "Prozess Cube" des SQL Server-Agent-Auftrags verwendet wird. Mit dem Setup wird ein Anmelde Sicherheitsprinzipal für die QoE-Archivdatenbank (mit Lese-und Schreibberechtigungen) erstellt und außerdem ein Mitglied in der QoE-Rolle (mit Vollzugriff) für den Cube erstellt.
     

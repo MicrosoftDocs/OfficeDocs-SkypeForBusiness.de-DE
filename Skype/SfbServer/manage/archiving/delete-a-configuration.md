@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286197"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992372"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server
 
@@ -46,25 +46,25 @@ Sie können eine Archivierungskonfiguration auch mithilfe des Cmdlets **Remove-C
   
 Zum Beispiel werden mit dem folgenden Befehl die Einstellungen der Archivierungskonfiguration gelöscht, die auf den Standort „Redmond“ angewendet werden. Wenn eine auf Standortebene konfigurierte Richtlinie gelöscht wird, wird für Benutzer, für die zuvor die Standortrichtlinie galt, stattdessen automatisch die globale Archivierungsrichtlinie angewendet.
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 Mit dem folgenden Befehl werden alle Einstellungen der Archivierungskonfiguration entfernt, die auf Standortebene angewendet werden:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 Mit dem nächsten Befehl werden alle Einstellungen der Archivierungskonfiguration entfernt, für die die Exchange-Archivierung deaktiviert wurde:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 Sie können auch das Cmdlet **Remove-CsArchivingConfiguration** verwenden, um die globalen Einstellungen auf Standardwerte zurückzusetzen. Angenommen, Sie haben die Chat-Sitzungs Archivierung auf globaler Ebene aktiviert. mit dem folgenden Befehl wird der Wert auf den Standardwert None zurückgesetzt, wodurch die Archivierung auf globaler Ebene deaktiviert wird:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

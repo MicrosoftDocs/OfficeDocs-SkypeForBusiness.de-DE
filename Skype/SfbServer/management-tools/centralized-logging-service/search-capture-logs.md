@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 die Protokolle für zentralisierte Protokollierungsdienste durchsuchen und lesen können.'
-ms.openlocfilehash: 81bf539c6a06c52354db23bbeea97fb9525cbbd5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 563f2c5e08da0830c3bd03e562d0d94052fa359b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274373"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991450"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Suche nach vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellten Erfassungsprotokollen
  
@@ -39,13 +39,13 @@ Um den größten Nutzen aus dem zentralisierten Protokollierungsdienst zu ziehen
   
 Wenn Sie die Suchfunktionen für den zentralisierten Protokollierungsdienst mithilfe der Skype for Business Server-Verwaltungsshell ausführen möchten, müssen Sie Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein. , die eine dieser beiden Gruppen enthält. Führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Beispiel:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -57,7 +57,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
 2. Stellen Sie sicher, dass das Szenario „AlwaysOn“ in Ihrer Bereitstellung auf globaler Ebene ausgeführt wird, und geben Sie dann Folgendes an der Eingabeaufforderung ein:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
    ```
 
@@ -66,7 +66,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
   
 Beispiel:
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
@@ -74,19 +74,19 @@ Beispiel:
 
 1. Wenn Sie die Suche auf einen bestimmten Pool oder Computer einschränken möchten, verwenden Sie den-Computers-Parameter mit dem Computer, der durch einen vollqualifizierten Computernamen definiert ist, in Anführungszeichen eingeschlossen und wie folgt durch ein Komma getrennt:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
    ```
 
 Beispiel:
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
 2. Geben Sie zum Suchen auf mehreren Computern mehrere Computernamen in Anführungszeichen und durch Komma getrennt ein:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
@@ -94,7 +94,7 @@ Beispiel:
     
     Beispiel:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -102,7 +102,7 @@ Beispiel:
     
     Beispiel:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -114,7 +114,7 @@ Beispiel:
     
     Wenn Sie beispielsweise-StartTime und-EndTime verwenden, um einen Zeit-und Datumsbereich zu definieren, können Sie eine Suche zwischen 8 und 9 Uhr auf 11/20/2012 im Pool definieren. Sie können den Ausgabepfad angeben, sodass die Ergebnisse folgendermaßen in eine Datei namens „c:\logfile.txt“ geschrieben werden:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -125,7 +125,7 @@ Beispiel:
     
 Beispiel:
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
@@ -143,13 +143,13 @@ Beispiel:
     
 2. Geben Sie zum Ausführen eines Befehls zum Erfassen von Ablaufverfolgungen für bestimmte Komponenten Folgendes ein:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
    ```
 
 Beispiel:
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
@@ -157,19 +157,19 @@ Die Suche gibt alle Protokolleinträge zurück, die Ablaufverfolgungskomponenten
     
 3. Wenn Sie die Suche auf die gleichen Komponenten nur auf Ihren Front-End-Pool mit dem Namen pool01.contoso.net beschränken möchten, geben Sie Folgendes ein:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 4. Die Standardsuchlogik für Befehle mit mehreren Parametern besteht darin, das logische „Oder“ mit den einzelnen definierten Parametern zu verwenden. Sie können dieses Verhalten ändern, indem Sie den Parameter **-MatchAll** angeben. Geben Sie dazu Folgendes ein:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 5. Wenn Ihre Szenarien für eine ständige Ausführung festgelegt sind (wie AlwaysOn) oder wenn Sie ein langfristiges Szenario festgelegt haben, werden Protokolle möglicherweise vom lokalen Computer auf die Dateifreigabe verschoben. Sie legen die Dateifreigabe  mithilfe des Parameters „CacheFileNetworkFolder“ fest, um mithilfe von „New-CsClsConfiguration“ eine neue Konfiguration zu erstellen oder mithilfe von „Set-CsClsConfiguration“ eine vorhandene Konfiguration zu ändern. Wenn die Dateifreigabe in der Auflistung der zu durchsuchenden Protokolle nicht durchsucht werden soll, verwenden Sie den Parameter „SkipNetworkLogs“ folgendermaßen:
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 

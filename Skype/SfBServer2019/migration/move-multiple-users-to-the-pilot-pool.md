@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können mehrere Benutzer aus Ihrem Legacy Pool in Ihren Skype for Business Server 2019-Pilot Pool mit der Skype for Business Server 2019-Systemsteuerung oder der Skype for Business Server 2019-Verwaltungsshell verschieben.
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244572"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988950"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Verschieben mehrerer Benutzer in den Pilot Pool
 
@@ -57,7 +57,7 @@ Sie können mehrere Benutzer aus Ihrem Legacy Pool in Ihren Skype for Business S
     
 2. Geben Sie in der Befehlszeile Folgendes ein, und ersetzen Sie **Benutzer1** und **User2** durch bestimmte Benutzernamen, die Sie verschieben möchten, und ersetzen Sie **pool_FQDN** durch den Namen des Ziel Pools. In diesem Beispiel werden die Benutzer Hao Chen und Katie Jordan verschoben. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,7 +65,7 @@ Sie können mehrere Benutzer aus Ihrem Legacy Pool in Ihren Skype for Business S
   
 3. Geben Sie an der Befehlszeile Folgendes ein: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
@@ -82,7 +82,7 @@ In diesem Beispiel wurden alle Benutzer an den Legacy Pool (pool01.contoso.net) 
     
 2. Geben Sie an der Befehlszeile Folgendes ein: 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,7 +90,7 @@ In diesem Beispiel wurden alle Benutzer an den Legacy Pool (pool01.contoso.net) 
   
 3. Führen **Sie Get-CsUser** für einen der Pilotbenutzer aus. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 

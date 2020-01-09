@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Zusammenfassung: Verwalten der Registrierungs Konfigurationseinstellungen für Skype for Business Server.'
-ms.openlocfilehash: 4ad7815da0744a78cd72208ef390362bff26c2ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8aac78f782b7a9db23d3bb124943c55cdbd8565a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291172"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992302"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Verwalten von Registrierungs Konfigurationseinstellungen in Skype for Business Server
  
@@ -28,7 +28,7 @@ Mithilfe der Registrierungsstelle können Sie Proxyserver-Authentifizierungsmeth
     
 - **NTLM** Hierbei handelt es sich um die kennwortbasierte Authentifizierung, die für Clients verfügbar ist, die ein Abfrage-Hash Schema für das Kennwort verwenden. Für Clients ohne Verbindung mit einem Schlüsselverteilungscenter (Kerberos-Domänencontroller), beispielsweise für Remotebenutzer, steht nur diese Form der Authentifizierung zur Verfügung. Wenn ein Server ausschließlich Remotebenutzer authentifiziert, sollten Sie NTLM auswählen.
     
-- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Serverzertifikate von lync Phone Edition-Clients, öffentlichen Telefonen, Skype for Business und der lync Windows Store-App abrufen muss. Wenn sich ein Benutzer bei lync Phone Edition-Clients anmeldet und erfolgreich durch eine persönliche Identifikationsnummer (PIN) authentifiziert wird, stellt Skype for Business Server dem Telefon den SIP-URI zur Verfügung und stellt einen signierten Skype for Business-Server bereit. Zertifikat oder ein Benutzerzertifikat, das Joe (ex: SN=Joe@Contoso.com) auf dem Smartphone kennzeichnet. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
+- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Serverzertifikate von lync Phone Edition-Clients, öffentlichen Telefonen, Skype for Business und der lync Windows Store-App abrufen muss. Wenn sich ein Benutzer bei lync Phone Edition-Clients anmeldet und erfolgreich authentifiziert wird, indem er eine persönliche Identifikationsnummer (PIN) angibt, stellt Skype for Business Server den SIP-URI dem Telefon zur Verfügung und stellt ein signiertes Zertifikat von Skype for Business Server oder ein Benutzerzertifikat bereit, das Joe (ex: SN=Joe@Contoso.com) auf dem Smartphone identifiziert. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
     
 > [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet. 
@@ -108,7 +108,7 @@ Sie können die Konfigurationseinstellungen der Registrierungsstelle mithilfe vo
 
 - Mithilfe des folgenden Befehls werden die auf den Edgeserver „atl-edge-011.litwareinc.com“ angewendeten Sicherheitseinstellungen für die Registrierungsstelle entfernt:
     
-  ```
+  ```PowerShell
   Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
   ```
 
@@ -116,7 +116,7 @@ Sie können die Konfigurationseinstellungen der Registrierungsstelle mithilfe vo
 
 - Mithilfe des folgenden Befehls werden alle auf den Registrierungsstellendienst angewendeten Sicherheitseinstellungen für die Registrierungsstelle entfernt:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
   ```
 
@@ -124,7 +124,7 @@ Sie können die Konfigurationseinstellungen der Registrierungsstelle mithilfe vo
 
 - Mithilfe des folgenden Befehls werden alle Sicherheitseinstellungen für die Registrierungsstelle gelöscht, die die Verwendung von NTLM für die Clientauthentifizierung zulassen:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 

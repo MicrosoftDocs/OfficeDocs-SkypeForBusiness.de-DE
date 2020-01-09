@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Zum Migrieren der Kontaktobjekte muss das Cmdlet Move-CsApplicationEndpoint ausgeführt werden, um Einwahlnummern in Skype for Business Server 2019 zu migrieren. Während des Koexistenz Zeitraums für Legacy Installationen und Skype for Business Server 2019 Verhalten sich Einwahlnummern, die Sie in Skype for Business Server 2019 erstellt haben, ähnlich wie die Einwahl Zugriffsnummern, die Sie in der Legacy Installation erstellt haben, wie in diesem Beispiel beschrieben. Abschnitt.
-ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238046"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991140"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrieren von Zugriffsnummern für die Einwahl
 
@@ -50,7 +50,7 @@ Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf den Legac
 
 2. Um jede Einwahl-Zugriffsnummer in einen Pool zu verschieben, der in Skype for Business Server 2019 gehostet wird, führen Sie in der Befehlszeile Folgendes aus: 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -83,7 +83,7 @@ Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf den Legac
 
 2. Um alle migrierten Zugriffsnummern für Einwahlkonferenzen zurückzugeben, führen Sie über die Befehlszeile Folgendes aus:
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

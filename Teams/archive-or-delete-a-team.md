@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968266"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992905"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
@@ -33,7 +33,7 @@ Wenn Sie ein Team archivieren, werden alle Aktivitäten für dieses Team eingest
 Wenn Sie ein Team löschen, werden auch die Teamaktivitäten in Standard-und privaten Kanälen (und zugehörigen Websitesammlungen), Dateien und Chats gelöscht.
 
 > [!IMPORTANT]
-> Archivierte Teams können wieder aktiviert werden, aber Sie können ein gelöschtes Team nicht direkt löschen. In diesem Fall sollten Sie das Team zunächst archivieren und den Löschvorgang verschieben, bis Sie sicher sind, dass Sie das Team nicht mehr benötigen.
+> Archivierte Teams können erneut aktiviert werden, aber Sie können ein gelöschtes Team nicht direkt wiederherstellen. In diesem Fall sollten Sie das Team zunächst archivieren und den Löschvorgang verschieben, bis Sie sicher sind, dass Sie das Team nicht mehr benötigen.
 
 ## <a name="archive-a-team"></a>Archivieren eines Teams
 
@@ -76,37 +76,37 @@ Standardmäßig wird eine gelöschte Office 365-Gruppe 30 Tage lang aufbewahrt. 
 1. Öffnen Sie Windows PowerShell als Administrator.
 2. Wenn Sie eine frühere Version des AzureADPreview-Moduls installiert oder das AzureAD-Modul installiert haben, deinstallieren Sie es, indem Sie eine der folgenden Aktionen ausführen:
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. Installieren Sie die neueste Version des AzureADPreview-Moduls, indem Sie Folgendes ausführen:
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### <a name="restore-the-deleted-office-365-group"></a>Wiederherstellen der gelöschten Office 365-Gruppe
 
 1. Stellen Sie eine Verbindung mit Azure AD her, indem Sie Folgendes ausführen:
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihrem Administratorkonto und Kennwort an.  
 2. Führen Sie die folgenden Schritte aus, um eine Liste aller Soft-Deleted Office 365-Gruppen anzuzeigen, die sich noch innerhalb des Aufbewahrungszeitraums von 30 Tagen befinden. Verwenden Sie den Parameter **-all $true** , wenn viele Gruppen vorhanden sind.
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. Suchen Sie die Gruppe, die Sie wiederherstellen möchten, und notieren Sie sich die ID.
 4. Führen Sie die folgenden Schritte aus, um die Gruppe wiederherzustellen, wobei [ID] die Gruppen-ID ist.
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Gruppe erfolgreich wiederhergestellt wurde, wobei [ID] die Gruppen-ID ist.
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

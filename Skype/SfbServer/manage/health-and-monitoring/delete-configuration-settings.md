@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie CDR-Konfigurationseinstellungen in Skype for Business Server entfernen.'
-ms.openlocfilehash: 91ee9676b3087c5b125c6cfe935f706bbfb22812
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16b797fb59e16038411c722ce064e14ab756cdfa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305833"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992432"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Löschen einer vorhandenen Sammlung von CDR-Konfigurationseinstellungen in Skype for Business Server
  
@@ -47,7 +47,7 @@ Sie können die Konfigurationseinstellungen für die Anrufdetailaufzeichnung mit
 
  Mit diesem Befehl werden die KDS-Konfigurationseinstellungen entfernt, die auf den Standort „Redmond“ angewendet wurden:
     
-  ```
+  ```PowerShell
   Remove-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -55,15 +55,15 @@ Sie können die Konfigurationseinstellungen für die Anrufdetailaufzeichnung mit
 
  Mit diesem Befehl werden alle KDS-Konfigurationseinstellungen entfernt, die auf Standortebene angewendet wurden:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
-  ```
+  ```PowerShell
 
-### <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a>So entfernen Sie alle KDS-Konfigurationseinstellungen, die die Aufzeichnung von Kommunikationsdatensätzen deaktivieren
+### To remove all the CDR configuration settings that disable call detail recording
 
- Mit diesem Befehl werden alle KDS-Konfigurationseinstellungen entfernt, bei denen die Aufzeichnung von Kommunikationsdatensätzen deaktiviert wurde:
+ This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 

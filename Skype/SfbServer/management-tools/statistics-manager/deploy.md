@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server bereitstellen können.'
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288761"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990610"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
@@ -98,7 +98,7 @@ Installieren Sie den Listener-Dienst auf dem Hostcomputer, indem Sie die Datei S
     
      Sie finden den Zertifikatfingerabdruck, indem Sie den Zertifikat-Manager oder den folgenden PowerShell-Befehl verwenden:
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -185,7 +185,7 @@ Um die Skype for Business Server-Topologie zu importieren, gehen Sie folgenderma
     
     a. Führen Sie den folgenden Befehl aus: 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. Kopieren Sie die Datei „mypoolinfo.xml“ auf den Server, auf dem der Listener ausgeführt wird.
@@ -196,25 +196,25 @@ Um die Skype for Business Server-Topologie zu importieren, gehen Sie folgenderma
     
    b. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Die Standardeinstellung ist: 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. Führen Sie den folgenden Befehl aus, um zu bestätigen, welche Server hinzugefügt und aktualisiert werden:
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 Mit dem folgenden Befehl können Sie alle Optionen anzeigen:
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 Führen Sie das folgende Skript aus, um die Informationen zu den aktuell importierten Servern anzuzeigen: 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
   
 1. Melden Sie sich als Administrator an und geben Sie in einer PowerShell-Konsole Folgendes ein:
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

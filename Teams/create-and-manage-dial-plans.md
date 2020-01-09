@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Informationen zum Erstellen und Verwalten von Wählplänen für Anrufe (PSTN-Wählpläne) und deren Verwaltung.
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069436"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991660"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -62,8 +62,8 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach** > **Wähl**Einstellungen.
 2. Wählen Sie den Wählplan aus, indem Sie links neben dem Namen des Wählplans klicken.
-3. Wählen Sie **Benutzer verwalten**.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
 5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie über **nehmen**aus.
 
 ## <a name="using-powershell"></a>Verwenden von PowerShell
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit allen Of
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
 
 - Wenn Sie einen neuen Wählplan erstellen möchten, führen Sie Folgendes aus:
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Um die Einstellungen eines vorhandenen Wählplans zu bearbeiten, führen Sie Folgendes aus:
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Führen Sie Folgendes aus, um Benutzer zu einem Wählplan hinzuzufügen:
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Führen Sie die folgenden Optionen aus, um die Einstellungen für einen Wählplan anzuzeigen:
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Um einen Wählplan zu löschen, führen Sie Folgendes aus:
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Um die Einstellungen des effektiven Wählplans anzuzeigen, führen Sie Folgendes aus:
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     
 - Um die effektiven Einstellungen eines Wählplans zu testen, führen Sie Folgendes aus:
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
 #### <a name="using-a-powershell-script"></a>Verwenden eines PowerShell-Skripts
 
 Führen Sie diese Aktion aus, um eine Normalisierungsregel zu löschen, die einem Mandanten Wählplan zugeordnet ist, ohne zuerst den Mandanten Wähl Plan löschen zu müssen:
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 Führen Sie diese Schritte aus, um die folgende Normalisierungsregel zum vorhandenen Mandanten Wähl Plan mit dem Namen redmonddialplan "hinzuzufügen.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 Führen Sie diese Option aus, um die folgende Normalisierungsregel aus dem vorhandenen Mandanten Wähl Plan mit dem Namen redmonddialplan "zu entfernen.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Führen Sie die folgenden Schritte aus, wenn Sie auch die vorhandenen Normalisierungsregeln untersuchen, ermitteln möchten, welche Sie löschen möchten, und dann deren Index verwenden, um Sie zu entfernen. Das Array von Normalisierungsregeln beginnt mit Index 0. Wir möchten die dreistellige Normalisierungsregel entfernen, also Index 1.
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 Führen Sie diese Aktion aus, um alle Benutzer zu finden, denen der redmonddialplan "-Mandanten Wählplan gewährt wurde.
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 Führen Sie diesen Vorgang aus, um alle zugewiesenen TenantDialPlan von allen Benutzern zu entfernen, die über einen Hostinganbieter von sipfed.online.lync.com verfügen.
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ Führen Sie diese aus, um den vorhandenen lokalen Wählplan mit dem Namen OPDP1 
   
 Führen Sie diese Aktion aus, um den lokalen Wählplan in der XML-Datei zu speichern.
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 Führen Sie diese Aktion aus, um den neuen Mandanten Wählplan zu erstellen.
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

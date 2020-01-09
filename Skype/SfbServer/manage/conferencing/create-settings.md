@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Einstellungen für die besprechungskonfiguration in Skype for Business Server erstellen.'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293844"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991880"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von Einstellungen für die besprechungskonfiguration in Skype for Business Server
  
@@ -69,7 +69,7 @@ Verwenden Sie das **New-CsMeetingConfiguration**-Cmdlet, um Besprechungskonfigur
   
 Mit dem folgenden Befehl wird ein neuer Satz von Besprechungskonfigurationseinstellungen für den Standort „Redmond“ erstellt:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,13 +77,13 @@ Da im vorherigen Befehl keine weiteren Parameter (außer dem obligatorischen Ide
   
 Um Einstellungen zu erstellen, die andere Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und Parameterwert ein. Wenn Sie beispielsweise eine Auflistung von Besprechungskonfigurationseinstellungen erstellen möchten, die standardmäßig jeden als Referent zu einer Besprechung zulassen, verwenden Sie den folgenden Befehl:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 Mehrere Eigenschaftswerte können eingestellt werden, indem Sie mehrere Parameter angeben. Beispielsweise wird mit dem folgenden Befehl jeder als Referent zu einer Besprechung zugelassen und außerdem werden PSTN-Benutzer gezwungen, im Wartebereich zu warten, bis sie formell zur Besprechung zugelassen werden:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 

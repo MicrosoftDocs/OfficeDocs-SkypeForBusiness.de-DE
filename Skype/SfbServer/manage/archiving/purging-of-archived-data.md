@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie das Löschen archivierter Daten für Skype for Business Server verwalten.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278391"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991610"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Verwalten der Bereinigung archivierter Daten in Skype for Business Server
 
@@ -57,13 +57,13 @@ Mit den folgenden Windows PowerShell-Cmdlets können Sie archivierte Daten lösc
     
 Der folgende Befehl ermöglicht beispielsweise, alle archivierten Daten zu löschen. Nachdem dieser Befehl ausgeführt wurde, löscht Skype for Business Server alle Archivierungsdaten Sätze, die älter als der für den "keeparchivingdatafordays"-Parameter angegebene Wert sind. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 Der folgende Befehl beschränkt das Löschen auf archivierte Datensätze, die (mit dem Cmdlet **Export-CSArchivingData**) in eine Datendatei exportiert wurden. Außerdem müssen Sie den Parameter PurgeExportedArchivesOnly auf „True“ ($True) setzen:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Nachdem dieser Befehl ausgeführt wurde, werden von Skype for Business Server nu
   
 Setzen Sie zum Deaktivieren der automatischen Löschung archivierter Datensätze den Parameter „EnablePurging“ auf „False“ ($False).
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 Im folgenden Beispiel wird das **Invoke-CsArchivingDatabasePurge-** Cmdlet verwendet, um alle Datensätze, die mehr als 24 Stunden alt sind, aus der Archivierungsdatenbank auf ATL-SQL-001.contoso.com zu entfernen. Um sicherzustellen, dass alle Datensätze gelöscht werden (also auch Datensätze, die nicht exportiert wurden), wird der Parameter „PurgeExportedArchivesOnly“ auf „False“ ($False) festgelegt:
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

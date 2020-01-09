@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Lesen Sie ein Lernprogramm und Entwicklungsbeispiele für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274828"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992862"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
@@ -64,7 +64,7 @@ Lassen Sie uns zuerst ein einfaches Beispiel anschauen. Angenommen, wir möchten
 
 Dazu müssen wir eine Abfrage mit den entsprechenden Parametern an den Datendienst senden und die Ergebnisse in einer HTML-Tabelle darstellen. Im Folgenden sehen Sie ein Beispiel für den JavaScript-Code:
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ Dieses Beispiel lässt sich weiter in drei Schritte unterteilen:
 
 Nach Einfügen des Java Script-Codes in eine HTML-Seite erhält man eine ähnliche Berichtseite wie in der Abbildung. Die vollständige HTML sieht wie folgt aus:
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ Zur Erstellung eines Anzeigetools für die Berichtdefinition muss eine Anfrage a
 
 Ein kurzes Beispiel sieht wie folgt aus: der Code enthält einen Block, der ein einfaches Beispiel zum Senden einer Abfrage an den Repository-Dienst ist, um den Inhalt eines Repository-Elements basierend auf dessen Bezeichner abzurufen. Und der nächste Teil des Codes (processReportSetData-Methode) sendet AJAX-Aufrufe, um die Definition der einzelnen Berichte innerhalb dieses Berichtssatzes abzurufen. Da die ID im CQD-Webportal die ID eines Berichtssatzes ist, gibt der Ajax-Aufruf ein Berichtssatz Element zurück. Weitere Informationen zur Repository-API und insbesondere zu GetItems finden Sie in den [Get-Elementen](get-items.md). 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ Im Folgenden erhalten Sie detaillierte Anweisungen zum Abruf der Scorecard-Seite
 
 2. Aktualisieren Sie die Filter. Die JSON-Daten für Filter in Beispiel 1 verfügen über einen Filter, der für die Dimension `[StartDate].[Month]`gesetzt ist. Da Filter JSON-Arrays sind, können zur Liste der Filter weitere Dimensionen hinzugefügt werden. Wenn Sie beispielsweise den Server-Client in Wired-anrufen für das "currentMonth" abrufen möchten, sollten die folgenden Filter vorhanden sein:
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ Im Folgenden erhalten Sie detaillierte Anweisungen zum Abruf der Scorecard-Seite
    ],
    ```
 
-   Hier wird die `[Scenarios].[ScenarioPair]` Dimension auf "gleich `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`" gesetzt. Das `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die zur Vereinfachung der Berichterstellung erstellt wurde. Sie hat sechs Werte, die `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`dem entsprechen. Um ein Szenario definieren zu können, brauchen wir also anstelle einer Kombination von 6 Filtern nur 1 Filter. In unserem Beispiel wird der Wert `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: First ist Server, zweiter ist kein Server, zunächst innerhalb, zweite befindet sich innerhalb, erster Verbindungstyp ist verkabelt, und zweiter Verbindungstyp ist verkabelt, was die exakte Definition von "ist. Server – Client – in Wired ".
+   Hier wird die `[Scenarios].[ScenarioPair]` Dimension auf "gleich `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`" gesetzt. Das `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die zur Vereinfachung der Berichterstellung erstellt wurde. Sie hat sechs Werte, die `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`dem entsprechen. Um ein Szenario definieren zu können, brauchen wir also anstelle einer Kombination von 6 Filtern nur 1 Filter. In unserem Beispiel wird der Wert `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: First ist Server, zweiter ist kein Server, zunächst innerhalb, zweite befindet sich innerhalb, erster Verbindungstyp ist verkabelt, und zweiter Verbindungstyp ist verkabelt, was die exakte Definition von "Server-Client-Inside Wired" ist.
 
 3. Erstellen Sie einen einzelnen Filtersatz pro Szenario. In der Abbildung steht jede Zeile in der Scorecard für ein anderes Szenario, das wiederum für einen anderen Filter steht (während Dimensionen und Messwerte gleich bleiben). 
 
@@ -360,7 +360,7 @@ Im Folgenden erhalten Sie detaillierte Anweisungen zum Abruf der Scorecard-Seite
 
 HTML-Code für Beispiel 3 (Scorecard-Beispiel):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

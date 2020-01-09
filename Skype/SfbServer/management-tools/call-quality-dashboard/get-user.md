@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen des Benutzers, der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09dcbbaeaae98ed7b01f3d710cfda23aa5fa986f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274597"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992622"
 ---
 # <a name="get-user"></a>Abrufen eines Benutzers
  
@@ -46,7 +46,7 @@ Der Benutzer erhält einen Benutzerdatensatz aus dem Repository zurück.
   
  **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
-```
+```json
 {
 "userId": 0,
 "loginName": "system",

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Front-End-Server in Skype for Business Server hinzufügen, entfernen, Patchen oder aktualisieren.'
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275157"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991530"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Verwalten von Front-End-Servern in Skype for Business Server
  
@@ -37,7 +37,7 @@ Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hi
 
 1. Wenn Sie alle Front-End-Server entfernen, beenden Sie zunächst neue Verbindungen mit diesen Servern. Dazu können Sie das folgende Cmdlet verwenden:
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -53,7 +53,7 @@ Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hi
   
 4. Wenn Sie die Anzahl der Server im Front-End-Pool auf eine der folgenden Arten geändert haben, setzen Sie den Pool zurück, indem Sie folgendes Cmdlet eingeben: Reset-CsPoolRegistrarState-resettype FullReset-PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hi
     
 5. Starten Sie den Pool neu, indem Sie das folgende Cmdlet eingeben
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ Wenn Sie die Server in einem Front-End-Pool Patchen, tun Sie dies jeweils auf ei
 
 1. Geben Sie das folgende Cmdlet ein:
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      Wenn für dieses Cmdlet fehlende Replikate angezeigt werden, führen Sie vor dem Anwenden von Patches das folgende Cmdlet aus, um den Pool wiederherzustellen.
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. Führen Sie auf dem ersten Server, auf den ein Patch angewendet werden soll, das folgende Cmdlet aus:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ Wenn Sie die Server in einem Front-End-Pool Patchen, tun Sie dies jeweils auf ei
     
 4. Führen Sie das folgende Cmdlet auf dem aktualisierten Server aus:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

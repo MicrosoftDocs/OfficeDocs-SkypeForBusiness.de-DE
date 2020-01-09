@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. '
-ms.openlocfilehash: 9f254d833f5d679343a39062bc2ed68c9122af56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274919"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992562"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testen der SIP-Trunk-Konfigurationseinstellungen in Skype for Business Server
 
@@ -32,7 +32,7 @@ Trunk-Konfigurationseinstellungen können nur mit Windows PowerShell und dem Tes
 
 Mit dem folgenden Befehl wird überprüft, ob mit den Trunk-Konfigurationseinstellungen für den Standort Redmond die gewählte Rufnummer 4255551212 ordnungsgemäß konvertiert werden kann.
 
-```
+```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
 Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
 ```

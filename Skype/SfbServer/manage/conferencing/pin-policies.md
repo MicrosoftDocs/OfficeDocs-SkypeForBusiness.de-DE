@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280355"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992292"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
  
@@ -47,7 +47,7 @@ Sie können Informationen zu PIN-Richtlinien über die Skype for Business Server
 
 Wenn Sie Informationen zu den PIN-Richtlinien anzeigen möchten, verwenden Sie das Cmdlet **Get-CsPinPolicy**. Der folgende Befehl gibt zum Beispiel Informationen über eine einzelne PIN-Richtlinie mit der Identität „site:Redmond“ zurück:
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Um die globale Richtlinie für Einwahlkonferenz-PINs zu ändern, verwenden Sie d
   
 Der folgende Befehl ändert den Wert von „MinPasswordLength“ für alle PIN-Richtlinien, die für die Organisation konfiguriert wurden. Dazu ruft der Befehl zunächst das Cmdlet **Get-CsPinPolicy** ohne Parameter auf, um eine Auflistung aller vorhandenen PIN-Richtlinien abzurufen. Diese Auflistung wird dann an das Cmdlet **Set-CsPinPolicy** weitergeleitet, das wiederum den Wert der Eigenschaft „MinPasswordLength“ für jede Richtlinie in der Auflistung ändert.
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Verwenden Sie das Cmdlet **New-CsPinPolicy**, um eine PIN-Richtlinie auf Benutze
   
 Der folgende Befehl erstellt eine neue PIN-Richtlinie mit dem Identitätswert „site:Redmond“. Dieser Befehl enthält nur einen optionalen Parameter, „MinPasswordLength“, mit dem die Eigenschaft „MinPasswordLength“ auf 7 festgelegt wird. Alle übrigen Richtlinieneigenschaften werden mit den Standardwerten konfiguriert.
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ Wenn die Richtlinie für Einwahlkonferenz-PINs geändert werden soll, verwenden 
   
 Der folgende Befehl ändert die dem Standort „Redmond“ zugewiesene PIN-Richtlinie. In diesem Fall ändert der Befehl den Wert der Eigenschaft „MinPasswordLength“ in 10. Das heißt, dass neue PINs mindestens 10 Stellen umfassen müssen:
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Verwenden Sie das Cmdlet **Remove-CsPinPolicy**, um eine PIN-Richtlinie auf Benu
   
 Der folgende Befehl entfernt alle PIN-Richtlinien, die auf Standortebene konfiguriert wurden. Hierzu wird das Cmdlet **Get-CsPinPolicy** mit dem Parameter „Filter“ aufgerufen, um eine Auflistung aller Richtlinien zurückzugeben, deren Identitätswert mit der Zeichenfolge „site:“ beginnt. Diese Auflistung wird dann an das Cmdlet **Remove-CsPinPolicy** weitergeleitet, das jede Richtlinie in der Auflistung löscht.
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 

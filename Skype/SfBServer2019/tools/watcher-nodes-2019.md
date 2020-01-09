@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agentdateien auf dem Skype for Business Server 2019-Computer, die überwacht werden sollen, und konfigurieren Sie den Computer so, dass er als System Center-Proxy fungiert.'
-ms.openlocfilehash: f979b348b8fe79d3e274007a08b5caef005d38b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fbe75b50faa0896d2458525734239317d21e49e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284046"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988970"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Konfigurieren von Skype for Business Server-Computern, die überwacht werden sollen
 
@@ -43,7 +43,7 @@ Wenn Sie einen Agenten an einem dieser Speicherorte bereitstellen, müssen Sie a
 
 5. Wählen Sie auf der Seite „Verwaltungsgruppenkonfiguration“ die Option **Verwaltungsgruppeninformationen angeben** aus und klicken Sie auf **Weiter**.
 
-6. Geben Sie auf der Seite Verwaltungsgruppenkonfiguration den Namen Ihrer Operations Manager-Verwaltungsgruppe im Feld **Verwaltungsgruppenname** ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) auf dem **Verwaltungsserver ein. **Feld ein. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld **Verwaltungs Server Port** ein. Behalten Sie andernfalls den Port mit dem Standardwert 5723 bei, und klicken Sie dann auf **weiter**.
+6. Geben Sie auf der Seite Verwaltungsgruppenkonfiguration den Namen Ihrer Operations Manager-Verwaltungsgruppe im Feld **Verwaltungsgruppenname** ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) im Feld **Verwaltungsserver** ein. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld **Verwaltungs Server Port** ein. Behalten Sie andernfalls den Port mit dem Standardwert 5723 bei, und klicken Sie dann auf **weiter**.
 
 7. Wählen Sie auf der Seite „Agentaktionskonto“ die Option **Lokales System** aus und klicken Sie auf **Weiter**.
 
@@ -55,8 +55,8 @@ Wenn Sie einen Agenten an einem dieser Speicherorte bereitstellen, müssen Sie a
 
 11. Klicken Sie auf **Beenden**.
 
-Bei System Center 2012 können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **System Center Operations Manager 2012**und dann auf **Operations 2012-Manager-Shell**klicken. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+Bei System Center 2012 können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **System Center Operations Manager 2012**und dann auf **Operations 2012-Manager-Shell**klicken. Geben Sie in der Operations Manager-Shell den folgenden Windows PowerShell-Befehl ein, und drücken Sie dann die EINGABETASTE:
+```PowerShell
 Get-SCOMAgent
 ```
 

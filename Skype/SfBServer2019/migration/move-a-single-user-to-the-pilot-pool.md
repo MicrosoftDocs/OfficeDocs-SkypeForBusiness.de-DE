@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können einen Benutzer aus Ihrem Legacy Pool in Ihren Skype for Business Server 2019-Pilot Pool mit der Skype for Business Server 2019-Systemsteuerung oder der Skype for Business Server 2019-Verwaltungsshell verschieben. Im folgenden Beispiel ist in der Spalte "Registrar Pool" pool01.contoso.net der Legacy Pool, und alle sechs dieser Benutzer sind mit diesem Pool verbunden. Führen Sie die folgenden Verfahren aus, um einen Benutzer in den Skype for Business Server 2019-Pool mit der Skype for Business Server 2019-Systemsteuerung und der Skype for Business Server-Verwaltungsshell zu verschieben.
-ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237765"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988960"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Verschieben eines einzelnen Benutzers in den Pilot Pool
 
@@ -44,13 +44,13 @@ Sie können einen Benutzer aus Ihrem Legacy Pool in Ihren Skype for Business Ser
     
 2. Geben Sie an der Befehlszeile Folgendes ein: 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. Geben Sie als nächstes in der Befehlszeile Folgendes ein: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

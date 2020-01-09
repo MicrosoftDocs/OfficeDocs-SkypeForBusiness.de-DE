@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Mit den Verfahren in diesem Abschnitt können Sie einzelne Benutzerkontoeigenschaften ändern.
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222061"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991430"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Anpassen der Eigenschaften des Benutzerkontos für Skype for Business Server
  
@@ -50,7 +50,7 @@ Details zum Konfigurieren der Telefonie für eine Organisation finden Sie unter 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **suchen. **.
+4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
     
 5. Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie ändern möchten.
     
@@ -60,7 +60,7 @@ Details zum Konfigurieren der Telefonie für eine Organisation finden Sie unter 
     
    - Wenn Sie Audio-und Videoanrufe für den Benutzer deaktivieren möchten, klicken Sie auf **Audio/Video deaktiviert**.
     
-   - Wenn Sie die PC-zu-PC-Audiokommunikation für den Benutzer, aber nicht die Remoteanrufsteuerung oder Enterprise-VoIP aktivieren möchten, klicken Sie auf **nur PC-zu-** PC. Geben Sie einen Wert für den Leitungs- **URI** für das Telefon an, das der Benutzer für die PC-zu-PC-Audiokommunikation verwendet.
+   - Wenn Sie die PC-zu-PC-Audiokommunikation für den Benutzer, aber nicht die Remoteanrufsteuerung oder Enterprise-VoIP aktivieren möchten, klicken Sie auf **nur PC-zu-** PC. Geben Sie einen Wert für den **Leitungs-URI** für das Telefon an, das der Benutzer für die PC-zu-PC-Audiokommunikation verwendet.
     
    - Klicken Sie auf **Enterprise-VoIP**, um die Telefonanrufe des Benutzers über die Skype for Business-Infrastruktur in Übereinstimmung mit der Service Richtlinienklasse zu leiten, einschließlich der PC-zu-PC-Audiokommunikation. Geben Sie in der **Zeile URI**die Telefonnummer für Enterprise-VoIP an. Geben Sie in der Richtlinie für **Wähl Plan Richtlinien** und **VoIP**die entsprechenden Richtlinien für den Benutzer an. Wenn Sie die Normalisierungsregeln für die Übersetzung von Telefonnummern angeben möchten, die vom Benutzer im E. 164-Format gewählt wurden, wählen Sie das entsprechende Standortprofil in der **ortungsrichtlinie**aus.
     
@@ -82,7 +82,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **suchen. **. 
+4. Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **Suchen**. 
     
 5. Wählen Sie in der Tabelle einen bestimmten Benutzer oder Benutzer in der Liste aus. 
     
@@ -144,7 +144,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
 
 1. Je nachdem, wie Sie Windows PowerShell-Befehle ausführen (lokal oder Remote), müssen Sie sich wie folgt als Mitglied der richtigen Skype for Business Server-Administratorrolle anmelden:
     
-   a. Wenn Sie die Befehle auf dem lokalen Computer ausführen (beispielsweise melden Sie sich direkt bei einem Front-End-Server an): Melden Sie sich bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe installiert ist, oder mit den erforderlichen Benutzerrechte wie unter Delegieren von **Setup Berechtigungen**beschrieben.
+   a. Wenn Sie die Befehle auf dem lokalen Computer ausführen (beispielsweise melden Sie sich direkt bei einem Front-End-Server an): Melden Sie sich bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegieren von Setup Berechtigungen**beschrieben.
     
    b. Wenn Sie die Befehle Remote auf einem anderen Computer ausführen (beispielsweise melden Sie sich bei Ihrem Computer an, und führen Sie die Befehle Remote auf einem Standard Edition-Front-End-Server aus): von einem Benutzerkonto, das der CsUserAdministrator-Rolle oder dem CsAdministrator zugewiesen ist. Rolle, melden Sie sich bei einem beliebigen Computer in ihrer internen Bereitstellung an.
     
@@ -152,7 +152,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
     
 3. Verwenden Sie zum Verschieben einzelner Benutzer das Cmdlet Move-CsUser wie folgt:
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
     
 4. Wenn Sie eine große Anzahl von Benutzern verschieben möchten, verwenden Sie Filter mit dem Cmdlet **Get-CsUser** , und übergeben Sie die resultierenden Benutzersätze an **Move-CsUser**:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     Die kombinierten Befehle von **Get-CsUser** und **Move-CsUser** können dazu führen:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

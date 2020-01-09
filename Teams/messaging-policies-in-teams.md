@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Nachrichtenrichtlinien in Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968236"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991560"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -73,7 +73,7 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
 - **Besitzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die von Benutzern im Chat gesendet wurden.
 - **Benutzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten löschen können, die sie im Chat gesendet haben.
 - **Benutzer können gesendete Nachrichten bearbeiten**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten bearbeiten können, die sie im Chat gesendet haben.
-- **Lesebestätigungen**: Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn die Nachricht vom Empfänger in 1:1-Chats und Gruppenchats mit höchstens 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team.  
+- **Lesebestätigungen**: Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn die Nachricht vom Empfänger in 1:1-Chats und Gruppenchats mit höchstens 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. Beachten Sie, dass Lesebestätigungen in eDiscovery-Berichten nicht erfasst werden.  
     - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern. 
     - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Achten Sie darauf, dass bei Verwendung der Einstellung **Für alle aktiviert** die einzige Möglichkeit zum Festlegen von Bestätigungen für den gesamten Mandanten darin besteht, nur eine Nachrichtenrichtlinie für den gesamten Mandanten zu nutzen (die Standardrichtlinie namens "Global (organisationsweiter Standard)) oder alle Nachrichtenrichtlinien im Mandanten dieselben Einstellungen für Bestätigungen verwenden zu lassen. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
     - **Für alle deaktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten deaktiviert ist und dass niemand im Mandanten Lesebestätigungen erhält. Auch kann das Feature nicht aktiviert werden. 
@@ -91,10 +91,10 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
 - **Benutzer können <a name="urgent-message">Prioritätsbenachrichtigungen</a> senden**: Wenn Sie diese Funktion aktivieren, können die Benutzer eine Nachricht senden, die Prioritätsbenachrichtigungen verwendet. Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis die Nachricht vom Empfänger abgeholt und gelesen wird, um die Wahrscheinlichkeit einer zeitnahen Bearbeitung zu erhöhen.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Erzeugen von Sprachnachrichten** 
-    - **In Chats und Kanälen zugelassen**: Das bedeutet, dass Benutzer sowohl in Chats als auch in Kanälen Sprachnachrichten hinterlassen können.
-    - **Nur in Chats zugelassen**: Das bedeutet, dass Benutzer in Chats, nicht aber in Kanälen Sprachnachrichten hinterlassen können.
-    - **Deaktiviert**: Das bedeutet, dass Benutzer keine Sprachnachrichten in Chats oder Kanälen erstellen können.  
+- **Erstellung von Audionachrichten** -wichtig: Audionachrichten werden nicht in der eDiscovery-Berichterstellung erfasst. 
+    - **Erlaubt in Chats und Kanälen** Das bedeutet, dass Benutzer Audio-Nachrichten sowohl in Chats als auch in Kanälen hinterlassen können.
+    - **Nur in Chats zulässig** Das bedeutet, dass Benutzer Audionachrichten in Chats, aber nicht in Kanälen hinterlassen können.
+    - **Deaktiviert** Das bedeutet, dass Benutzer keine Audionachrichten in Chats oder Kanälen erstellen können.  
 - **Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen**: Aktivieren Sie diese Einstellung, um die bevorzugten Kanäle an den oberen Rand des Bildschirms für mobile Geräte zu verschieben, damit ein Benutzer nicht scrollen muss, um Sie zu finden. 
 - **Einem Benutzer das Entfernen von Benutzern aus einem Gruppenchat gestatten**: Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppenchat entfernen kann. Mithilfe dieses Features können Sie mit einer kleineren Gruppe von Personen chatten, ohne den Chatverlauf zu verlieren.
 

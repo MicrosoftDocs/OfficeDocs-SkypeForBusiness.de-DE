@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Archivierungskonfiguration für Skype for Business Server erstellen.'
-ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2a139e7321542e3b13259ebc2ec1e4ba731caf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286218"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992742"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Erstellen einer Archivierungskonfiguration in Skype for Business Server
 
@@ -65,7 +65,7 @@ Mithilfe des Cmdlets **New-CsArchivingConfiguration** können Sie ebenfalls Arch
   
 Mit dem folgenden Befehl wird eine neue Auflistung von Archivierungskonfigurationseinstellungen für den Standort „Redmond“ erstellt:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
@@ -73,13 +73,13 @@ Da im vorherigen Befehl keine weiteren Parameter außer dem obligatorischen Iden
   
 Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Im folgenden Beispiel wird eine Auflistung von Konfigurationseinstellungen erstellt, die standardmäßig nur die Archivierung von Chatsitzungen zulassen:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 ```
 
 Mehrere Eigenschaftswerte können geändert werden, indem Sie mehrere Parameter angeben. Beispielsweise werden mit dem folgenden Befehl die neuen Einstellungen so konfiguriert, dass Chatsitzungen archiviert werden und Chats blockiert werden, falls der Archivierungsdienst nicht verfügbar ist:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 

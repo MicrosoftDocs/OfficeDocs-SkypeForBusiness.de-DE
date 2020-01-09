@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Zusammenfassung: erfahren Sie mehr über die in Skype for Business Server verwendeten pro-Benutzer-Anruf Diagnoseberichte.'
-ms.openlocfilehash: 2361d25b69d92682336e7e2d5320a32974d62b80
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c2ef55243680cbb8bc088c2b056b298428b70b50
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289357"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992070"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Anruf Diagnoseberichte (pro Benutzer) in Skype for Business Server
   
@@ -58,13 +58,13 @@ Obwohl im Berichtbenutzer Aktivität viele gute Informationen vorhanden sind, k�
 
 Wenn Sie Antworten auf Fragen wie diese benötigen, können Sie die von den Überwachungsberichten abgerufenen Daten in ein Excel-Arbeitsblatt exportieren. Sie können dieses Arbeitsblatt und/oder eine CSV-Datei dann verwenden, um die Daten zu analysieren. Angenommen, Sie haben Berichtsdaten nach Excel und dann in eine CSV-Datei exportiert. Zu diesem Zeitpunkt können Sie die Daten aus dem Importieren. CSV-Datei in Windows PowerShell mithilfe eines Befehls ähnlich der folgenden:
 
-```
+```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
 Nachdem die Daten importiert wurden, können Sie mithilfe von einfachen Windows PowerShell-Befehlen Ihre Fragen beantworten. Mit dem folgenden Befehl wird beispielsweise eine Liste von eindeutigen Benutzern zurückgegeben, die in mindestens einer Sitzung als „Absenderbenutzer“ fungiert haben:
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
 ```
 
@@ -82,7 +82,7 @@ Pilar.Ackerman@litwareinc.com
 
 Mit diesem Befehl werden eindeutige Benutzer aufgelistet (basierend auf der Gesamtanzahl der Sitzungen, an denen sie teilgenommen haben:
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -100,7 +100,7 @@ Count    Name
 
 Dieser Befehl beschränkt die gemeldeten Sitzungen auf diejenigen mit Audio als Modalität ein:
 
-```
+```PowerShell
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 

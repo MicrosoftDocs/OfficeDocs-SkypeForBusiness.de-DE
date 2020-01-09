@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Zusammenfassung: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.'
-ms.openlocfilehash: 7198c103a771029ec93e589169fafb652f5d8842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0332ba66c1cad69470b0007c4d9524a3025e0be7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278349"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991770"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
 **Zusammenfassung:** Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.
   
 Wenn Sie feststellen möchten, ob einem Server-zu-Server-Authentifizierungszertifikat bereits Skype for Business Server zugewiesen wurde, führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell aus:
   
-```
+```PowerShell
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
@@ -31,7 +31,7 @@ Wenn keine Zertifikatinformationen zurückgegeben werden, müssen Sie ein Token-
   
 Wenn Sie über kein Zertifikat verfügen, das für die Server-zu-Server-Authentifizierung verwendet werden kann, können Sie ein neues Zertifikat beziehen, das neue Zertifikat importieren und anschließend für die Server-zu-Server-Authentifizierung verwenden. Nachdem Sie das neue Zertifikat angefordert und erhalten haben, können Sie sich bei einem der Front-End-Server anmelden und einen Windows PowerShell-Befehl wie den folgenden verwenden, um das Zertifikat zu importieren und zuzuweisen:
   
-```
+```PowerShell
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
@@ -39,7 +39,7 @@ Im vorangehenden Befehl stellt der path-Parameter den vollständigen Pfad zur Ze
   
 Alternativ können Sie ein vorhandenes Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. (Wie bereits erwähnt, kann das Standardzertifikat als Server-zu-Server-Authentifizierungszertifikat verwendet werden.) Das folgende Paar von Windows PowerShell-Befehlen Ruft den Wert der Eigenschaft "Fingerabdruck" des Standardzertifikats ab und verwendet diesen Wert, um das Standardzertifikat zum Server-zu-Server-Authentifizierungszertifikat zu machen:
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
@@ -50,7 +50,7 @@ Das Cmdlet "festlegen-CsCertificate" übernimmt das fragliche Zertifikat und kon
   
 Mit dem Set-CsCertificate-Cmdlet können Sie auch ein neues Zertifikat „rollen“. Das „Rollen“ eines Zertifikats bedeutet einfach, dass Sie festlegen, dass ein neues Zertifikat ab einem bestimmten Zeitpunkt das aktuelle OAuthTokenIssuer-Zertifikat wird. Beispielsweise wird mit dem folgenden Befehl das Standardzertifikat abgerufen und dann dieses Zertifikat ab dem Mittwoch, 1. Juli 2015 als das aktuelle OAuthTokenIssuer-Zertifikat konfiguriert:
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```
@@ -64,7 +64,7 @@ Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-K
   
 Nachdem das Zertifikat auf alle Ihre Front-End-Server importiert wurde, kann dieses Zertifikat über den Skype for Business Server-Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
   
-1. Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server**-Bereitstellungs-Assistent.
+1. Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Bereitstellungs-Assistent**.
     
 2. Klicken Sie im Bereitstellungs-Assistenten auf **Skype for Business Server-System installieren oder aktualisieren**.
     

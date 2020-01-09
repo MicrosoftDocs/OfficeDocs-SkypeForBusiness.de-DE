@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Richtlinien für die Benutzer Archivierung für Skype for Business Server ändern.'
-ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 00f22b9afa5332bd7075b03823d321d35a0e4b8b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282021"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992772"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
  
@@ -58,19 +58,19 @@ Archivierungsrichtlinien können auch mit dem Windows PowerShell-Cmdlet **Set-Cs
 
 Setzen Sie den Wert des Parameters „ArchiveInternal“ auf „True ($True)“, um die Archivierung von internen Kommunikationssitzungen zu aktivieren. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 ```
 
 Setzen Sie den Wert des Parameters „ArchiveExternal“ auf „True ($True)“, um die Archivierung von externen Kommunikationssitzungen zu aktivieren. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
 Um die Archivierung sowohl interner als auch externer Kommunikationssitzungen zu ermöglichen, setzen Sie den Wert für die ArchiveInternal-und ArchiveExternal-Parameter auf true: 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
@@ -78,6 +78,6 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
 
 Setzen Sie die Werte der Parameter für „ArchiveInternal“ und „ArchiveExternal“ auf „False ($False)“, um die Archivierung vollständig zu deaktivieren. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 ```

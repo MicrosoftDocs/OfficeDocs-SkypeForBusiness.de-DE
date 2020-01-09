@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Die Skype for Business Server-Verwaltungsshell bietet die Befehlszeilenschnittstelle für die Serververwaltung und-Verwaltung. Es basiert auf Windows PowerShell und enthält eine umfassende Sammlung von Verwaltungs-und Verwaltungs-Cmdlets, die für Skype-und Legacy-lync Server-Produkte spezifisch sind.
-ms.openlocfilehash: ce031b15e2146036d77c7336aa9c2b73f000fe4a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4890194824caaea771d31e008d4546d871d0da8a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279592"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991590"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server-Verwaltungsshell
  
@@ -29,7 +29,7 @@ Mit Windows PowerShell können Sie Microsoft-Anwendungen über die Befehlszeile 
   
 Skype for Business Server ist mit mehr als 700-Cmdlets ausgeliefert, die es Administratoren ermöglichen, Skype for Business Server über die Skype for Business Server-Verwaltungsshell zu verwalten. Sie können Hilfe für ein Cmdlet direkt über die Befehlszeile abrufen, wenn Sie einen Befehl wie den folgenden eingeben:
   
-```
+```PowerShell
 Get-Help New-CsVoicePolicy -Full
 ```
 
@@ -37,7 +37,7 @@ Mit dem oben genannten Befehl rufen Sie alle verfügbaren Hilfeinformationen zum
   
 Geben Sie den folgenden Befehl an der Eingabeaufforderung ein, um eine vollständige Liste der verfügbaren Cmdlets für Skype for Business Server anzuzeigen: 
   
-```
+```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 ```
 
@@ -48,7 +48,7 @@ Wissenswertes zu Windows PowerShell in Skype for Business Server:
 - Wenn Sie die Skype for Business Server-Cmdlets ausführen möchten, öffnen Sie die Skype for Business Server-Verwaltungsshell.
     
     > [!CAUTION]
-    > Wenn Sie ein Windows PowerShell-Fenster anstelle der Skype for Business Server-Verwaltungsshell öffnen, sind Sie möglicherweise nicht in der Lage, die Skype-Cmdlets auszuführen. Wenn Sie die Skype for Business Server-Cmdlets in Windows PowerShell ausführen möchten, geben Sie zuerst Folgendes an der Windows PowerShell-Eingabeaufforderung ein: >`Import-Module SkypeforBusiness`
+    > Wenn Sie ein Windows PowerShell-Fenster anstelle der Skype for Business Server-Verwaltungsshell öffnen, sind Sie möglicherweise nicht in der Lage, die Skype-Cmdlets auszuführen. Wenn Sie die Skype for Business Server-Cmdlets in Windows PowerShell ausführen möchten, geben Sie zuerst Folgendes an der Windows PowerShell-Eingabeaufforderung ein: #a0`Import-Module SkypeforBusiness`
   
 - Die Skype for Business Server-Verwaltungsshell wird automatisch auf jedem Skype for Business Server Enterprise Edition-Front-End-Server oder Standard Edition-Server installiert.
     
@@ -56,13 +56,13 @@ Wissenswertes zu Windows PowerShell in Skype for Business Server:
     
     Standardmäßig aktualisiert das Cmdlet **Update-Help** alle Module, die auf Ihrem Skype for Business-Server installiert sind. Wenn Sie nur bestimmte Module aktualisieren möchten, können Sie den Umfang des Cmdlets anhand des Parameters _Module_ einschränken. Im folgenden Beispiel wird nur das Skype for Business-Modul aktualisiert.
     
-  ```
+  ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
     Wenn Sie die Hilfe auf Servern aktualisieren müssen, die nicht mit dem Internet verbunden sind, können Sie das Cmdlet [Save-Help](https://technet.microsoft.com/en-us/library/hh849724.aspx) verwenden, um die neueste Version der Hilfe abzurufen und an einem von Ihnen angegebenen Speicherort zu speichern. Sie können dann das **Update-Help-** Cmdlet mit dem _-SourcePath-_ Parameter auf Servern verwenden, die nicht mit dem Internet verbunden sind, um die aktualisierte Hilfe von dem von Ihnen ausgewählten Speicherort abzurufen. Im folgenden Beispiel wird gezeigt, wie Sie die Hilfedateien in einer Netzwerkdateifreigabe speichern und dann die Hilfe für das Skype for Business-Modul aus der Dateifreigabe aktualisieren.
     
-  ```
+  ```PowerShell
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
   // Run Update-Help against the local help files

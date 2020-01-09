@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie Audiokonferenzen mit direktem Routing in GCCH-und DoD-Umgebungen verwenden können.
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516735"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992895"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -64,12 +64,12 @@ Einwahl Telefonnummern sind die Telefonnummern, die ihrer Audiokonferenz-Brücke
 
 Sie können das PowerShell-Cmdlet New-csHybridTelephoneNumber verwenden, um Dienst Rufnummern in Ihrem Mandanten zu definieren, die zum Weiterleiten von Anrufen an den Audiokonferenzdienst über direktes Routing verwendet werden können. 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 Beispiel:
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ Beispiel:
 
 Mithilfe des PowerShell-Cmdlets Register-csOnlineDialInConferencingServiceNumber können Sie der Audiokonferenz-Brücke Ihrer Organisation Service-Telefonnummern zuweisen.
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 Sie können die ID Ihrer Audiokonferenz-Bridge mithilfe von Get-CsOnlineDialInConferencingBridge anzeigen. Beispiel:
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

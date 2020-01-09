@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Im Allgemeinen wird das Adressbuch zusammen mit der restlichen Topologie migriert. Möglicherweise müssen Sie jedoch einige Schritte nach der Migration durchführen, wenn Sie die folgenden Schritte in ihrer Legacyumgebung angepasst haben:'
-ms.openlocfilehash: 4a3a85715b73c3a6b5996ba677b0647c87a8db1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238053"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990100"
 ---
 # <a name="migrate-address-book"></a>Migrieren des Adressbuchs
 
@@ -34,7 +34,7 @@ Wenn Sie in ihrer Legacyumgebung Adressbuch-Normalisierungsregeln angepasst habe
 
  **UseNormalizationRules auf "false" festgelegt**
 
-Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Benutzer Telefonnummern verwenden können, wie Sie in den Active Directory-Domänendiensten definiert sind, ohne dass Skype for Business Server 2019 die Normalisierungsregeln anwenden, müssen Sie die ** UseNormalizationRules** -und **IgnoreGenericRules** -Parameter auf true fest. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um diese Parameter auf "true" festzulegen. 
+Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Benutzer Telefonnummern verwenden können, wie Sie in Active Directory-Domänendiensten definiert sind, ohne dass Skype for Business Server 2019 Normalisierungsregeln anwenden, müssen Sie die **UseNormalizationRules** -und **IgnoreGenericRules** -Parameter auf "true" festlegen. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um diese Parameter auf "true" festzulegen. 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>So migrieren Sie Adressbuch angepasste Normalisierungsregeln
 
@@ -67,13 +67,13 @@ Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Be
 
    - Wenn Ihre Bereitstellung nur Skype for Business Server 2019 umfasst, führen Sie das folgende Cmdlet auf globaler Ebene aus, um die Werte für **UseNormalizationRules** und **IgnoreGenericRules** auf "true" zu ändern: 
 
-   ```
+   ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
    - Wenn Ihre Bereitstellung eine Kombination aus Skype for Business Server 2019 und einer Legacy Installation umfasst, führen Sie das folgende Cmdlet aus, und weisen Sie es jedem Skype for Business Server 2019-Pool in der Topologie zu:
 
-   ```
+   ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
@@ -85,7 +85,7 @@ Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Be
 
 6. Führen Sie das folgende Cmdlet für jeden Skype for Business Server 2019-Pool in Ihrer Bereitstellung aus:
 
-   ```
+   ```PowerShell
    Update-CsAddressBook
    ```
 

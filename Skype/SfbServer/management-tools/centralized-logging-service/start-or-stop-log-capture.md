@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 eine zentralisierte Protokollierungsdienst-protokollaufnahme Sitzung starten oder beenden.'
-ms.openlocfilehash: 49c36620cd58bf113ad1ce7823fcc438d88d8724
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274387"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991440"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
@@ -37,13 +37,13 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgebe
     
 2. Starten Sie ein Protokollierungsszenario mit dem zentralen Protokollierungsdienst, indem Sie Folgendes eingeben:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario <name of scenario>
    ```
 
     Geben Sie beispielsweise zum Starten des Szenarios **AlwaysOn** Folgendes ein:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
@@ -59,7 +59,7 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgebe
   
 4. Um ein weiteres Szenario zu starten, verwenden Sie das Cmdlet **Start-CsClsLogging** mit dem Namen des zusätzlichen Szenarios (z. B. des Szenarios **Authentifizierung**) wie folgt:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario Authentication
    ```
 
@@ -74,7 +74,7 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgebe
     
     Sie starten eine Protokollierungssitzung für das Szenario  UserReplicator im Pool „pool01.contoso.net“. Außerdem legen Sie als Dauer der Protokollierungssitzung 8 Stunden fest. Geben Sie hierzu Folgendes ein:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
    ```
 
@@ -96,13 +96,13 @@ Nachdem Sie das Problem und den Umfang der Auswirkungen analysiert haben, sollte
   
 Um die Funktionen für den zentralisierten Protokollierungsdienst mithilfe der Skype for Business Server-Verwaltungsshell zu steuern, müssen Sie Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein. , die eine dieser beiden Gruppen enthält. Führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Beispiel:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -115,7 +115,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Fragen Sie den zentralisierten Protokollierungsdienst ab, um herauszufinden, welche Szenarien zurzeit ausgeführt werden, indem Sie Folgendes eingeben:
     
-   ```
+   ```PowerShell
    Show-CsClsLogging
    ```
 
@@ -125,12 +125,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Geben Sie zum Anhalten einer aktuell ausgeführten Protokollierungssitzung mit einem bestimmten Szenario Folgendes ein:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
    ```
    Beispiel:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
    ```
 

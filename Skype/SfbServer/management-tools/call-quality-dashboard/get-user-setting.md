@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen der Benutzereinstellung, der Teil des Benutzer Einstellungs Diensts ist. Der Benutzer Einstellungsdienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274653"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992642"
 ---
 # <a name="get-user-setting"></a>Abrufen einer Benutzereinstellung
  
@@ -47,7 +47,7 @@ Benutzereinstellung abrufen gibt eine Einstellung für einen einzelnen Benutzer 
   
  **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",

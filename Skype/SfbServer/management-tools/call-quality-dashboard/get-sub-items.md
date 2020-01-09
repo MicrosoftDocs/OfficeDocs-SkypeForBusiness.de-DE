@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "untergeordnete Elemente abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75fc4fcd331925c224d8dfb72c681d25e3485eb6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274660"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992652"
 ---
 # <a name="get-sub-items"></a>Abrufen von untergeordneten Elementen
  
@@ -50,7 +50,7 @@ Abrufen untergeordneter Elemente gibt die untergeordneten Elemente eines bestimm
 > [!NOTE]
 > Ein Array von Item-Objekt wird zurückgegeben. 
   
-```
+```json
 [{
 "itemId": 1653,
 "userId": 0,

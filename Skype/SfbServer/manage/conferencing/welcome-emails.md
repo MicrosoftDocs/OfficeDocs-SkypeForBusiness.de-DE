@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzer für Einwahlkonferenzen in Skype for Business Server willkommen heißen.'
-ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280306"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992832"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden von Willkommens-e-Mails an Einwahlbenutzer in Skype for Business Server
  
@@ -39,7 +39,7 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-   ```
+   ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
    -From <email address of sender> [-Subject <subject for email message>]
    [-UserEmailAddress <destination email address>]
@@ -58,14 +58,14 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
     
 Im folgenden Beispiel wird eine neue PIN erstellt und anschließend eine Begrüßungs-E-Mail von Marco an Bob gesendet. Hierbei wird der E-Mail-Text der Standardvorlage verwendet und die E-Mail-Nachricht wird im HTML-Format erstellt. Die standardmäßige Betreffzeile lautet „Willkommen bei der Funktion für Einwahlkonferenzen“.
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
 Das nächste Beispiel wird eine neue PIN mit dem Wert „383042650“ für Bob erzwungen, obwohl Bob bereits über eine PIN verfügt, und anschließend wird eine Begrüßungs-E-Mail von Marco an Bob gesendet. Da der Parameter „Credential“ angegeben ist, wird die Person, die den Befehl ausführt, zur Eingabe eines Kennworts aufgefordert. Die E-Mail wird über SSL (Secure Sockets Layer) gesendet.
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
 -Pin "383042650" -Force

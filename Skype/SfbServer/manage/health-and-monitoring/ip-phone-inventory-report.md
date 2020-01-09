@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Zusammenfassung: Informationen zum IP Phone-Inventurbericht in Skype for Business Server.'
-ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305668"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992170"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Bericht zum IP Phone-Inventar in Skype for Business Server
  
@@ -40,7 +40,7 @@ Der Zugriff auf den Bericht für den IP-Telefonbestand erfolgt über die Startse
 
 Wenn Sie nur an Verwendungsinformationen für einen bestimmten Telefontyp interessiert sind (Beispiel: „Wie oft verwenden die Benutzer ein Polycom CX600-Telefon?“), können Sie diese Informationen direkt aus dem Bericht für den IP-Telefonbestand abrufen, indem Sie eine Filterung nach diesem bestimmten Telefontyp ausführen. Wenn Sie jedoch zusammenfassende Informationen für alle Telefone erhalten möchten (wie viele Personen verwenden ein Polycom CX600, wie viele verwenden ein LG-Nortel IP8540 usw.), müssen Sie die Daten exportieren und diese Analyse mithilfe einer anderen Anwendung (z. B. mit Windows PowerShell) ausführen. Nehmen wir beispielsweise an, Sie exportieren die Daten in eine Datei mit durch Komma getrennten Werten (C:\Data\IP_Phone_Inventory_Report.csv). In diesem Fall können Sie die folgenden beiden Befehle verwenden, um für alle Ihre Telefone zusammenfassende Daten bereitzustellen:
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
@@ -65,7 +65,7 @@ Count    Name
 
 Gleichermaßen erhalten Sie mithilfe dieser beiden Befehle Informationen dazu, welche Telefone zwar beim System angemeldet, aber tatsächlich nie zum Telefonieren genutzt wurden (der Wert der Metrik „Letzte Aktivität“ ist leer und gibt somit an, dass es keine letzte Aktivität gab):
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```

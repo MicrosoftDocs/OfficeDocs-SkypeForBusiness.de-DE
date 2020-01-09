@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Zusammenfassung: erfahren Sie, wie Sie weitere Skype for Business Server-Datenbanken zu einer vorhandenen AlwaysOn-verfügbarkeitsgruppe hinzufügen, und erfahren Sie mehr über die erforderlichen zusätzlichen Schritte, nachdem Sie einen Back-End-Server, der Teil einer AlwaysOn-verfügbarkeitsgruppe ist, in Skype for installieren oder aktualisieren. Business Server.'
-ms.openlocfilehash: c6d8877448a68aa2331f3c290170418f6dca08ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 221964eb7d8dfcbb0303a0e1148de4fcef6cec51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275185"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991540"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Verwalten von Datenbanken mit einer AlwaysOn-verfügbarkeitsgruppe in Skype for Business Server
 
@@ -45,7 +45,7 @@ Nachdem Sie einen Back-End-Server gepatcht haben, der Teil einer AlwaysOn-verfü
     
 2. Führen Sie den folgenden PowerShell-Befehl in Ihrer Skype for Business-Verwaltungsshell aus (angemeldet mit einem Konto, das entsprechend berechtigt ist, Änderungen auf die SQL AlwaysOn-Datenbanken anzuwenden) wie folgt:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 

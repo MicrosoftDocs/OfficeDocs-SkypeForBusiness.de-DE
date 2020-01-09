@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Benutzern, der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cf2248035c780c2efce6b1f4539a39cd2a5829a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274646"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992612"
 ---
 # <a name="get-users"></a>Abrufen von Benutzern
  
@@ -49,7 +49,7 @@ Benutzer abrufen gibt eine Liste der Benutzer im Repository zurück.
 > [!NOTE]
 > Ein Array von Benutzerobjekten wird zurückgegeben. Details zum Benutzerobjekt finden Sie unter Abrufen von Benutzern. 
   
-```
+```json
 [{
 "userId": 0,
 "loginName": "system",

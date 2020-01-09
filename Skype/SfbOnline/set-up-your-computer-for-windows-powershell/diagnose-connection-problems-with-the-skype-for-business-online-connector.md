@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+description: Problembehandlung beim Erstellen einer Remote-PowerShell-Sitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Import Modul, paralleler Shell, Live-ID und Berechtigungsfehlern.
+ms.openlocfilehash: 38f6195a6c8e0c2a5f963d476e26abeb46f6ff4f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667382"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991320"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -53,10 +53,10 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
 
 Mithilfe der PowerShell-Ausführungsrichtlinie kann ermittelt werden, welche Konfigurationsdateien in der PowerShell-Konsole geladen werden können und welche Skripts ein Benutzer über diese Konsole ausführen kann. Dabei gilt mindestens, dass das Skype for Business Online-Connectormodul nur importiert werden kann, wenn die Ausführungsrichtlinie auf „RemoteSigned" festgelegt ist. Wenn dies nicht der Fall ist, erhalten Sie beim Versuch, das Modul zu importieren, die folgende Fehlermeldung:
   
-- **Fehler**: <em>Import-Module: Datei C:\\Programmdateien\\(allgemeine\\Dateien) Microsoft lync\\Server\\2013\\-Module LyncOnlineConnector LyncOnlineConnectorStartup. psm1 können nicht geladen werden, weil ausgeführt wird Skripts sind auf diesem System deaktiviert. Weitere Informationen finden Sie unter about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170.</em>
+- **Fehler**: <em>Import-Module: Datei C:\\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\-\\Module\\LyncOnlineConnector LyncOnlineConnectorStartup. psm1 können nicht geladen werden, weil ausgeführte Skripts auf diesem System deaktiviert sind. Weitere Informationen finden Sie unter about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Lösung**: um dieses Problem zu beheben, starten Sie PowerShell als Administrator, und führen Sie dann den folgenden Befehl aus:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Details zur Ausführungsrichtlinie finden Sie unter [Informationen zu Ausführungsrichtlinien](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -78,11 +78,11 @@ Es gibt drei typische Gründe, aus denen beim Verbindungsversuch Fehler auftrete
   - **Fehler**: *Get-CsWebTicket: Fehler beim Verbinden von Live ID-Servern. Stellen Sie sicher, dass Proxy aktiviert ist oder Computer über eine Netzwerkverbindung mit Live ID-Servern verfügt.*
 
 - **Lösung**: häufig bedeutet dieser Fehler, dass der Microsoft Online Services-Anmelde-Assistent nicht ausgeführt wird. Sie können den Status dieses Diensts überprüfen, indem Sie an der PowerShell-Eingabeaufforderung den folgenden Befehl ausführen: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Wenn der Dienst nicht ausgeführt wird, starten Sie ihn mit diesem Befehl:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

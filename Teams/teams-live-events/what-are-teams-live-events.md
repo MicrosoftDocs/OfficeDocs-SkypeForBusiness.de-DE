@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638835"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992802"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -62,7 +62,7 @@ Der Videoeingang ist das Fundament des Live-Events und kann von einer einzelnen 
 
 - **Externe APP oder Gerät**: externe Encoder ermöglichen Benutzern, Ihre Live Ereignisse direkt von einem externen Hardware-oder softwarebasierten Encoder mit [Stream](https://stream.microsoft.com)zu produzieren. Diese Option ist am besten geeignet, wenn Sie bereits über Studio-qualitätsgeräte (beispielsweise Medien Mischer) verfügen, die das Streaming zu einem RTMP-Dienst (Real-Time Messaging Protocol) unterstützen. Diese Art der Produktion wird in der Regel in großflächigen Ereignissen wie exekutiven Stadthallen verwendet, in denen ein einzelner Datenstrom von einem Medien Mixer an das Publikum übertragen wird. 
 
-    ![Screenshot mit einem Live Ereignis, das mit einer externen APP oder einem Gerät erstellt wurde](../media/teams-live-events-external-encoder.png "Screenshot mit einem Live Ereignis, das mit der externen APP oder Geräte Produktionsmethode erstellt wird")
+    ![Screenshot eines Live-Ereignisses, das mit einer externen APP oder einem Gerät erstellt wurde](../media/teams-live-events-external-encoder.png "Screenshot mit einem Live Ereignis, das mit der externen APP oder Geräte Produktionsmethode erstellt wird")
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Die Live-Event-Streaming-Plattform besteht aus den folgenden Teilen:
@@ -77,9 +77,9 @@ Das Ziel von ECDN besteht darin, die Videoinhalte aus dem Internet zu übernehme
 - [Typhierarchie](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Teilnehmer-Erfahrung 
-Die Teilnehmer-Erfahrung ist der wichtigste Aspekt von Live Ereignissen, und es ist wichtig, dass die Teilnehmer am Live-Ereignis teilnehmen können, ohne dass Probleme auftreten. Die Teilnehmer-Oberfläche verwendet Azure Media Player (für Ereignisse, die in Teams erstellt wurden) und Stream Player (für Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden) und funktioniert auf Desktop-, Browser-und Mobilgeräten (Ios, Android). Office 365 bietet jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
+Die Teilnehmer-Erfahrung ist der wichtigste Aspekt von Live Ereignissen, und es ist wichtig, dass die Teilnehmer am Live-Ereignis teilnehmen können, ohne dass Probleme auftreten. Die Teilnehmer-Oberfläche verwendet den Stream-Player (für in Teams erstellte Ereignisse) und Azure Media Player (für Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden) und funktioniert auf Desktop-, Browser-und Mobilgeräten (Ios, Android). Office 365 bietet jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
 
-![Screenshot der Live-Teilnehmer-Erfahrung](../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
+![Screenshot der Live-Event-Teilnehmer-Erfahrung](../media/teams-live-events-attendee.png "Screenshot der Live-Teilnehmer-Erfahrung")
 
 ### <a name="live-event-usage-report"></a>Bericht zur Live-Ereignis Nutzung 
 Mandantenadministratoren können Echtzeit-Nutzungsanalysen für Live-Ereignisse im Microsoft Teams Admin Center anzeigen.  Der [Bericht zur Live-Ereignis Verwendung](../teams-analytics-and-reports/teams-live-event-usage-report.md) zeigt die Aktivitätsübersicht der in der Organisation gespeicherten Live Ereignisse an.  Administratoren können Informationen zur Ereignis Nutzung anzeigen, einschließlich Ereignisstatus, Startzeit, Ansichten und Produktionstyp.  

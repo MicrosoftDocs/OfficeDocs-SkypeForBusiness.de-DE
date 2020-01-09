@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Zusammenfassung: Stage AV-und OAuth-Zertifikate für Skype for Business Server.'
-ms.openlocfilehash: 6a2e851aac8aae9aaecac424290195270415706c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286130"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991960"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Stage AV-und OAuth-Zertifikate in Skype for Business Server Using-Rolle in Satz-CsCertificate
  
@@ -27,12 +27,12 @@ Audio/Video (a/V)-Kommunikation ist eine wichtige Komponente von Skype for Busin
 > [!IMPORTANT]
 > Dieses neue Feature ist für den A/V-Edgedienst und das OAuthTokenIssuer-Zertifikat konzipiert. Andere Zertifikattypen können zusammen mit dem a/v-Edgedienst und dem OAuth-Zertifikattyp bereitgestellt werden, profitieren aber nicht vom Koexistenzsystem, das vom a/v-Edgedienst-Zertifikat bereitgestellt wird.
   
-Die für die Verwaltung von Skype for Business Server-Zertifikaten verwendeten PowerShell-Cmdlets der Skype for Business Server-Verwaltungsshell bezieht sich auf das A/V-Edgedienst-Zertifikat als AudioVideoAuthentication-Zertifikattyp und das OAuthServer-Zertifikat als typeOAuthTokenIssuer. Im weiteren Verlauf dieses Themas und zum eindeutigen Identifizieren der Zertifikate werden Sie mit dem gleichen Identifier-Typ, AudioVideoAuthentication andOAuthTokenIssuer, bezeichnet.
+Die für die Verwaltung von Skype for Business Server-Zertifikaten verwendeten PowerShell-Cmdlets für Skype for Business Server-Verwaltungsshell bezieht sich auf das A/V-Edgedienst Zertifikat als AudioVideoAuthentication-Zertifikattyp und das OAuthServer-Zertifikat als typeOAuthTokenIssuer. Im weiteren Verlauf dieses Themas und zum eindeutigen Identifizieren der Zertifikate werden Sie mit dem gleichen Identifier-Typ, AudioVideoAuthentication andOAuthTokenIssuer, bezeichnet.
   
 Der a/v-Authentifizierungsdienst ist für das Ausgeben von Token verantwortlich, die von Clients und anderen a/v-Consumern verwendet werden. Die Token werden aus Attributen auf dem Zertifikat generiert, und wenn das Zertifikat abläuft, führt dies zu einem Verbindungsabbruch und einer Anforderung, erneut mit einem neuen Token zu verbinden, das vom neuen Zertifikat generiert wird. Ein neues Feature in Skype for Business Server wird dieses Problem lindern – die Möglichkeit, ein neues Zertifikat im Vorfeld des alten zu inszenieren, das abläuft und es ermöglicht, dass beide Zertifikate während eines bestimmten Zeitraums weiterhin funktionieren. Dieses Feature verwendet aktualisierte Funktionen im Cmdlet "Satz-CsCertificate" von Skype for Business Server-Verwaltungsshell. Mit dem neuen Parameter-Rolle mit dem vorhandenen Parameter-EffectiveDate wird das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher platziert. Das ältere AudioVideoAuthentication-Zertifikat bleibt für ausgestellte Token weiterhin gültig. Beginnend mit dem Setzen des neuen AudioVideoAuthentication-Zertifikats wird die folgende Reihe von Ereignissen auftreten:
   
 > [!TIP]
-> Mit den Skype for Business Server-Verwaltungsshell-Cmdlets für die Verwaltung von Zertifikaten können Sie für jeden Zweck auf dem Edgeserver getrennte und unterschiedliche Zertifikate anfordern. Die Verwendung des Zertifikat-Assistenten im Bereitstellungs-Assistenten von Skype for Business Server unterstützt Sie beim Erstellen von Zertifikaten, **** ist in der Regel aber der Standardtyp, mit dem alle Zertifikat Verwendungen für den Edgeserver auf einem einzigen Zertifikat kombiniert werden. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer, der an (beispielsweise) einer Sofortnachrichtenunterhaltung teilhat, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das neue Zertifikat zu verwenden, das dem Access Edge-Dienst zugeordnet ist. Ein ähnliches Verhalten tritt für einen Benutzer ein, der mit dem Webkonferenz-Edgedienst an einer Webkonferenz teilnimmt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer zentralen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
+> Mit den Skype for Business Server-Verwaltungsshell-Cmdlets für die Verwaltung von Zertifikaten können Sie für jeden Zweck auf dem Edgeserver getrennte und unterschiedliche Zertifikate anfordern. Die Verwendung des Zertifikat-Assistenten im Bereitstellungs-Assistenten von Skype for Business Server unterstützt Sie beim Erstellen von Zertifikaten, ist in der Regel aber der **Standardtyp** , mit dem alle Zertifikat Verwendungen für den Edgeserver auf einem einzigen Zertifikat kombiniert werden. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer, der an (beispielsweise) einer Sofortnachrichtenunterhaltung teilhat, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das neue Zertifikat zu verwenden, das dem Access Edge-Dienst zugeordnet ist. Ein ähnliches Verhalten tritt für einen Benutzer ein, der mit dem Webkonferenz-Edgedienst an einer Webkonferenz teilnimmt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer zentralen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
   
 Zusätzliche Informationen werden benötigt, um die Optionen und Anforderungen bei der Verwendung des Set-CsCertificate-Cmdlets zum Bereitstellen von Zertifikaten vor dem Ablauf des aktuellen Zertifikats nachvollziehen zu können. Der-Rolle-Parameter ist wichtig, aber im Wesentlichen ein einziger Zweck. Wenn Sie es als Parameter definieren, geben Sie "CsCertificate" an, dass Sie Informationen zu dem Zertifikat bereitstellen werden, das von Typ (beispielsweise AudioVideoAuthentication und OAuthTokenIssuer) betroffen sein wird, wenn das Zertifikat effektiv definiert von-EffectiveDate.
   
@@ -57,11 +57,11 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
 4. Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet "Satz-CsCertificate", und verwenden Sie den Parameter "-Rolle" mit dem Parameter-EffectiveDate. Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokenlebensdauer (standardmäßig acht Stunden) festgelegt werden. Dadurch erhalten wir eine Uhrzeit, zu der das Zertifikat auf "aktiv" festgesetzt werden muss, \<und\>ist die-EffectiveDate-Zeichenfolge: "7/22/2015 6:00:00 am". 
     
     > [!IMPORTANT]
-    > Bei einem Edge-Pool müssen alle AudioVideoAuthentication-Zertifikate bereitgestellt und durch das Datum und die Uhrzeit bereitgestellt werden, die durch den-EffectiveDate-Parameter des ersten bereitgestellten Zertifikats definiert sind, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN aufgrund der älteren Zertifikat läuft ab, bevor alle Client-und Consumer-Token mit dem neuen Zertifikat erneuert wurden. 
+    > Bei einem Edge-Pool müssen alle AudioVideoAuthentication-Zertifikate bereitgestellt und durch das Datum und die Uhrzeit bereitgestellt werden, die durch den-EffectiveDate-Parameter des ersten bereitgestellten Zertifikats definiert wurden, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN zu vermeiden, weil das ältere Zertifikat abläuft, bevor alle Client-und Consumer-Token mit dem neuen Zertifikat erneuert wurden. 
   
     Der Befehl "Satz-CsCertificate" mit dem Parameter "-Rolle" und "-effektiv":
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
@@ -69,7 +69,7 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
 
     Ein Set-CsCertificate-Beispielbefehl:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
@@ -85,13 +85,13 @@ So verstehen Sie den Prozess, der von CsCertificate,-Rolle und-EffectiveDate ver
 |**Beschriftung**|**Phase**|
 |:-----|:-----|
 |1  <br/> |Start: 22.07.2015 12:00:00 Uhr  <br/> Das aktuelle AudioVideoAuthentication-Zertifikat endet am 22.07.2015 um 14:00 Uhr. Das wird durch den Ablaufzeitstempel auf dem Zertifikat festgelegt. Planen Sie für Ersatz und Rollover Ihres Zertifikats eine Überschneidung von acht Stunden ein (Standardtokenlebensdauer), bevor das vorhandene Zertifikat die Ablaufzeit erreicht. Die Vorlaufzeit von 2:00:00 Uhr wird in diesem Beispiel verwendet, damit der Administrator genügend Zeit hat, um die neuen Zertifikate vor der Ablaufzeit um 6:00:00 Uhr zu platzieren und bereitzustellen.  <br/> |
-|2  <br/> |22.07.2015 02:00:00 Uhr – 22.07.2015 05:59:59 Uhr  <br/> Sie können Zertifikate auf Edgeserver mit einer effektiven Zeitspanne von 6:00:00 am (4 Stunden Vorlaufzeit für dieses Beispiel, aber länger) verwenden, indem Sie \<die CsCertificate-\> Art des \<Zertifikat Verwendungs Typs-\> Fingerabdruck des neuen Zertifikats-Daumenabdruck des neuen Zertifikats- EffectiveDate \<DateTime-Zeichenfolge für die effektive Zeit für neues Zertifikat\>  <br/> |
+|2  <br/> |22.07.2015 02:00:00 Uhr – 22.07.2015 05:59:59 Uhr  <br/> Sie können Zertifikate auf Edgeserver mit einer effektiven Zeitspanne von 6:00:00 am (4 Stunden Vorlaufzeit für dieses Beispiel, aber länger) verwenden, indem Sie \<die CsCertificate-\> Art des \<Zertifikat Verwendungs Typs-\> Fingerabdruck des neuen \<Zertifikats-Rollen-EffectiveDate DateTime-Zeichenfolge der Gültigkeitsdauer für neues Zertifikat\>  <br/> |
 |3  <br/> |22.07.2015 06:00 Uhr – 22.07.2015 14:00 Uhr  <br/> Zur Überprüfung von Token wird zunächst das neue Zertifikat ausprobiert und wenn das neue Zertifikat das Token nicht validieren kann, wird das alte Zertifikat verwendet. Dieser Prozess wird während der Überscheidungszeit von 8 Stunden (Standardtokenlebensdauer) für alle Token verwendet.  <br/> |
 |4  <br/> |Ende: 22.07.2015 14:00:01 Uhr  <br/> Das alte Zertifikat ist abgelaufen und das neue Zertifikat ist nun in Kraft. Altes Zertifikat kann sicher mit Remove-CsCertificate-Type \<Certificate Usage Type\> -Previous entfernt werden  <br/> |
    
 Wird das Gültigkeitsdatum (22.07.2015 06:00:00 Uhr) erreicht, werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Sobald das alte Zertifikat abgelaufen ist (22.07.2015 14:00:00 Uhr), werden Token nur durch das neue Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets Remove-CsCertificate mit dem Parameter-Previous problemlos entfernt werden.
 
-```
+```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
@@ -107,7 +107,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     Der Befehl "Satz-CsCertificate" mit dem Parameter "-Rolle" und "-effektiv":
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
@@ -115,7 +115,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 Ein Set-CsCertificate-Beispielbefehl:
     
-  ```
+  ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
           1:00:00 PM" 
@@ -125,7 +125,7 @@ Ein Set-CsCertificate-Beispielbefehl:
 > Die EffectiveDate muss so formatiert sein, dass Sie den Regions-und Spracheinstellungen Ihres Servers entspricht. Im Beispiel werden die englischen (USA) Regions- und Spracheinstellungen verwendet. 
   
 Wird das Gültigkeitsdatum (21.07.2015 01:00:00 Uhr) erreicht, werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Sobald das alte Zertifikat abgelaufen ist (22.07.2015 14:00:00 Uhr), werden Token nur durch das neue Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets Remove-CsCertificate mit dem Parameter-Previous problemlos entfernt werden.
-```
+```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
