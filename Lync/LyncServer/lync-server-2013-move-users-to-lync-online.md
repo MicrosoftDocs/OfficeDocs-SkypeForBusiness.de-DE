@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826661"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,15 +53,15 @@ Bevor Sie beginnen, Benutzer nach lync online zu verschieben, möchten Sie mögl
 
 Wenn Sie einen lokalen Benutzer in ihren lync Online-Mandanten verschieben möchten, führen Sie die folgenden Cmdlets in der lync Server-Verwaltungsshell aus, und verwenden Sie die Administratoranmeldeinformationen für Ihren Microsoft Office 365-Mandanten. Ersetzen Sie „benutzername@contoso.com“ mit den Informationen des zu verschiebenden Benutzers.
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format:\<https://Pool\>FQDN/HostedMigration/ hostedmigrationService. svc.
+Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format:\<https://Pool\>FQDN/HostedMigration/hostedmigrationService.svc.
 
 Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto ermitteln.
 

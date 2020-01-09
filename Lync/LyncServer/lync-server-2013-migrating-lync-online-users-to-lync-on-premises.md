@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857491"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,11 +57,11 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     
       - Geben Sie in Ihrer lokalen Bereitstellung in der lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für lync online zu erstellen:
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
@@ -127,11 +127,11 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     
     Geben Sie Folgendes ein, um einen einzelnen Benutzer zu verschieben:
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
@@ -139,7 +139,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format *:\<https://Pool\>FQDN/HostedMigration/ hostedmigrationService. svc*.
+    Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format *:\<https://Pool\>FQDN/HostedMigration/hostedmigrationService.svc*.
     
     Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto ermitteln.
     
@@ -214,8 +214,8 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     <tr class="odd">
     <td><p>Attribut msRTCSIP-UserEnabled</p></td>
     <td><p>Aktiviert</p></td>
-    <td><p>True</p></td>
-    <td><p>True</p></td>
+    <td><p>Wahr</p></td>
+    <td><p>Wahr</p></td>
     </tr>
     </tbody>
     </table>

@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847789"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,11 +109,11 @@ Wenn Sie den XMPP-Proxy auf dem Edgeserver bereitstellen möchten, müssen Sie d
 
 22. Nachdem Sie das öffentliche Zertifikat empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserver-Dienste beenden und neu starten. Hierzu geben Sie in der lync Server-Verwaltungskonsole Folgendes ein:
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -130,39 +130,39 @@ Wenn Sie den XMPP-Proxy auf dem Edgeserver bereitstellen möchten, müssen Sie d
 
 24. Konfigurieren Sie eine neue Richtlinie für den externen Zugriff, um alle Benutzer zu aktivieren, indem Sie die lync Server-Verwaltungsshell auf dem Front-End öffnen und Folgendes eingeben:
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     Aktivieren Sie den XMPP-Zugriff für externe Benutzer, indem Sie Folgendes eingeben:
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. Öffnen Sie auf dem Edgeserver, auf dem der XMPP-Proxy bereitgestellt wird, eine Eingabeaufforderung oder eine Windows PowerShell-™ Befehlszeilenschnittstelle, und geben Sie Folgendes ein:
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     
-    Der Befehl **netstat – ano** ist ein Netzwerkstatistik Befehl, die Parameter **– Ano-** Anforderung, dass netstat alle Verbindungen und Abhör Anschlüsse anzeigt, Adresse und Ports werden in einer numerischen Form angezeigt, und die besitzende Prozess-ID ist zugeordnet bei jeder Verbindung. Das Zeichen **|** definiert eine Pipe für den nächsten Befehl, die **findstr**oder die Suchzeichenfolge. Die Zahl 5269 und 23456, die als Parameter an findstr übergeben wird, weist findstr an, die Ausgabe von netstat für die Zeichenfolgen 5269 und 23456 zu durchsuchen. Wenn XMPP ordnungsgemäß konfiguriert ist, sollte das Ergebnis der Befehle zum Überwachen und Herstellen von Verbindungen führen, die sowohl auf dem externen (Port 5269) als auch auf den internen (Port 23456)-Schnittstellen des Edge-Servers erfolgen.
+    Der Befehl **netstat – ano** ist ein Netzwerkstatistik Befehl, die Parameter **– Ano-** Anforderung, dass netstat alle Verbindungen und Abhör Anschlüsse anzeigt, die Adresse und die Ports werden in einer numerischen Form angezeigt, und die besitzende Prozess-ID ist mit jeder Verbindung verknüpft. Das Zeichen **|** definiert eine Pipe für den nächsten Befehl, die **findstr**oder die Suchzeichenfolge. Die Zahl 5269 und 23456, die als Parameter an findstr übergeben wird, weist findstr an, die Ausgabe von netstat für die Zeichenfolgen 5269 und 23456 zu durchsuchen. Wenn XMPP ordnungsgemäß konfiguriert ist, sollte das Ergebnis der Befehle zum Überwachen und Herstellen von Verbindungen führen, die sowohl auf dem externen (Port 5269) als auch auf den internen (Port 23456)-Schnittstellen des Edge-Servers erfolgen.
     
     Wenn die Befehle keine festgelegten oder abhörenden Ports auf 5269 und 23456 zurückgeben, überprüfen Sie Folgendes:
 
@@ -184,7 +184,7 @@ Wenn Sie den XMPP-Proxy auf dem Edgeserver bereitstellen möchten, müssen Sie d
     
     Wenn der Dienst nicht erfolgreich gestartet wurde, öffnen Sie in den Verwaltungs Tools die Ereignisanzeige, und verweisen Sie auf die Fehler und Warnungen im **lync Server** -Abschnitt unter **Anwendungen und Dienstprotokolle**.
 
-6.  Nachdem der **lync Server XMPP** -Konvertierungs-Gatewayserver ausgeführt wurde, überprüfen Sie die zuvor verwendeten netstat-Befehle erneut. Wenn Sie keine festgelegten oder anhörenden Sitzungen sehen, überprüfen und sicherstellen, dass die **XMPP-Föderations Route** im Topologie-Generator richtig konfiguriert ist
+6.  Nachdem der **lync Server XMPP-Konvertierungs-Gatewayserver** ausgeführt wurde, überprüfen Sie die zuvor verwendeten netstat-Befehle erneut. Wenn Sie keine festgelegten oder anhörenden Sitzungen sehen, überprüfen und sicherstellen, dass die **XMPP-Föderations Route** im Topologie-Generator richtig konfiguriert ist
 
 7.  Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
 

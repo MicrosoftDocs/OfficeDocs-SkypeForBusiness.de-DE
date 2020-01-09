@@ -10,12 +10,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce954eff790bae6974f144360637d6061318d3d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -104,7 +104,7 @@ Setup. **doc**
 RHDSetup. **exe**  
 pldok. **Protokoll**
 
-Obwohl Windows PowerShell unterschiedliche Terminologie verwendet, ist der grundlegende Ansatz für die Arbeit mit Windows PowerShell identisch mit der Arbeit mit dem Befehlsfenster: Sie geben Befehle ein, fügen Argumente und Argumentwerte nach Bedarf ein und drücken dann die EINGABETASTE, um Sie auszuführen. Diese Befehle. Wie bereits erwähnt, verwendet Windows PowerShell jedoch eine andere Terminologie als die Befehlsshell verwendet. In Windows PowerShell werden die ausgeführten Befehle als Cmdlets bezeichnet **. Die an ein Cmdlet übergebenen Argumente werden wiederum als *Parameter*bezeichnet, und die an einen Parameter übergebenen Werte werden als *Parameterwerte*bezeichnet.
+Obwohl Windows PowerShell unterschiedliche Terminologie verwendet, ist der grundlegende Ansatz für die Arbeit mit Windows PowerShell identisch mit der Arbeit mit dem Befehlsfenster: Sie geben Befehle ein, fügen Argumente und Argumentwerte nach Bedarf ein und drücken dann die EINGABETASTE, um Sie auszuführen. Diese Befehle. Wie bereits erwähnt, verwendet Windows PowerShell jedoch eine andere Terminologie als die Befehlsshell verwendet. In Windows PowerShell werden die ausgeführten Befehle als *Cmdlets*bezeichnet. Die an ein Cmdlet übergebenen Argumente werden wiederum als *Parameter*bezeichnet, und die an einen Parameter übergebenen Werte werden als *Parameterwerte*bezeichnet.
 
 Die vorhergehenden Definitionen sind etwas vereinfacht. Cmdlets sind im wesentlichen Minianwendungen, die nur in der Windows PowerShell-Umgebung ausgeführt werden können. Sie können jedoch auch andere Befehle und Anwendungen in Windows PowerShell ausführen, einschließlich der meisten Befehle und Anwendungen, die über ein Befehlsfenster ausgeführt werden können. Wenn Sie den Editor beispielsweise in Windows PowerShell starten möchten, müssen Sie nur Folgendes eingeben und die EINGABETASTE drücken:
 
@@ -128,7 +128,7 @@ Dieser Befehl besteht aus drei Teilen:
     
     Dies ist hilfreich, um nicht nur zu wissen, dass den Parametern ein Bindestrich vorangestellt werden muss, sondern auch, weil sich dies vom Befehlsfenster unterscheidet, in dem Argumente mit einem Schrägstrich (/) vorangestellt werden:
     
-    ``` 
+    ```console 
     /b
     ```
 

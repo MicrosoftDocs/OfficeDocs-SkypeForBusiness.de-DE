@@ -10,12 +10,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0d58c79fcd66229ffda43fa60ab99cedc308ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653becc1cc22abc8b3c04e0ab3d2a2d1260a98d9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847555"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -150,7 +150,7 @@ Zeile: 1 Zeichen: 27
 
 Die Meldung "Push-Benachrichtigungsanforderung wurde abgelehnt" tritt in der Regel auf, wenn Sie die URL-Filterung aktiviert haben und die Präfixe http: und https: blockieren. Sie können bestimmen, welche Präfixe blockiert werden, indem Sie einen Befehl wie den folgenden verwenden:
 
-``` 
+```PowerShell 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 

@@ -10,12 +10,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824036"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +107,7 @@ Der lync Server-Speicherdienst verwendet Windows-Fabric für die Replikation. We
 
 **Workaround**
 
-Um dieses Problem zu umgehen, wenn die Ereignisse Lyss\_DB\_Space\_verwendet\_Fehler (ID = 32058) und Lyss\_DB\_Speicher\_Platz\_verwendet kritisch (ID = 32059) werden im Ereignisprotokoll generiert, sollten Administratoren die Überprüfung der Leistungsindikator auf dem Front-End-Server unter **ls: Lyss-Storage Service API** mit dem Namen **Lyss-aktuelle Anzahl von veralteten Warteschlangenelementen des Speicher Diensts**. Wenn dieser Leistungsindikator einen höheren Wert aufweist, beispielsweise größer als 50000, sollte der Administrator das Tool "CleanuUpStorageServiceData. exe" im lync Server 2013 Resource Kit ausführen, in dem alle verwaisten Daten aus dem Pool gelöscht werden. Details zum Tool finden Sie in der Dokumentation zum lync Server 2013 Resource Kit.
+Um dieses Problem zu umgehen, sollten Administratoren den Leistungs\_Indikator\_auf\_dem\_Front-End-Server unter **ls: Lyss-Storage-Service-API** mit dem Namen **Lyss-aktuelle Anzahl von veralteten Warteschlangenelementen**überprüfen, wenn der Speicherplatz für die Ereignisse Lyss (ID = 32058) und Lyss\_-DB\_-Speicherplatz\_\_kritisch (ID = 32059) im Ereignisprotokoll generiert wird. Wenn dieser Leistungsindikator einen höheren Wert aufweist, beispielsweise größer als 50000, sollte der Administrator das Tool "CleanuUpStorageServiceData. exe" im lync Server 2013 Resource Kit ausführen, in dem alle verwaisten Daten aus dem Pool gelöscht werden. Details zum Tool finden Sie in der Dokumentation zum lync Server 2013 Resource Kit.
 
 </div>
 
@@ -123,11 +123,11 @@ Wenn die IP-Adressenkonfiguration für eine lync Server 2013-Bereitstellung geä
 
 Um dieses Problem zu umgehen, starten Sie lync Server Services neu, nachdem Sie die IP-Adressenkonfiguration für die Bereitstellung geändert haben. Führen Sie dazu die folgenden Cmdlets in der lync Server-Verwaltungsshell aus:
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -449,11 +449,11 @@ Um dieses Problem zu umgehen, aktualisieren Sie die Systemregistrierung, bevor S
 
 1.  Starten Sie Windows PowerShell, und führen Sie die folgenden Cmdlets aus:
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 
@@ -949,7 +949,7 @@ Für diese Probleme gibt es keine Problemumgehung. Weitere Informationen zum Pla
 
 **Problem**
 
-Nachdem Sie Ihren Entwurf mithilfe des Planungstools abgeschlossen haben, können Sie, wenn Sie Änderungen an den Edge-Netzwerkoptionen vornehmen, dem Entwurf zusätzliche IP-Adressen hinzugefügt werden, anstatt die vorhandenen IP-Adressen zu aktualisieren. Dies kann auftreten, wenn Sie die Details des Edge-Netzwerkdiagramms anzeigen, wählen Sie **Klicken Sie hier, um Ihre Optionen zu aktualisieren**, und wählen Sie dann im Dialogfeld Konfigurationsoptionen die Option Edge-Netzwerk auswählen **Ich möchte dieselben FQDNs und IP-Adressen verwenden, aber verschiedene Ports für die Edgedienst auf meinem Edgeserver** Das Anwenden von Änderungen kann dazu führen, dass neue IP-Adressen und Edgeserver dem Entwurf hinzugefügt werden.
+Nachdem Sie Ihren Entwurf mithilfe des Planungstools abgeschlossen haben, können Sie, wenn Sie Änderungen an den Edge-Netzwerkoptionen vornehmen, dem Entwurf zusätzliche IP-Adressen hinzugefügt werden, anstatt die vorhandenen IP-Adressen zu aktualisieren. Dies kann auftreten, wenn Sie die Details des Edge-Netzwerkdiagramms anzeigen, wählen Sie **Klicken Sie hier, um Ihre Optionen zu aktualisieren**aus, und wählen Sie dann im Dialogfeld Konfigurationsoptionen die Option Edge-Netzwerk auswählen **Ich möchte dieselben FQDNs und IP-Adressen verwenden, aber verschiedene Ports für die Edgedienst auf meinem Edgeserver**aus. Das Anwenden von Änderungen kann dazu führen, dass neue IP-Adressen und Edgeserver dem Entwurf hinzugefügt werden.
 
 **Workaround**
 
@@ -963,7 +963,7 @@ Für dieses Problem gibt es zurzeit keine Problemumgehung.
 
 **Problem**
 
-Wenn Sie die lync Server-Systemsteuerung verwenden, um alle Benutzer von einem Pool in einen anderen Pool in einer komplexen Active Directory-Umgebung zu verschieben, wie etwa eine mit mehreren Domänencontrollern und übergeordneten/untergeordneten Domänen, wird möglicherweise eine Fehlermeldung zurückgegeben, die besagt: "der angegebene Benutzer ist kein Legacy-Benutzer, verwenden Sie stattdessen das Cmdlet Move-CsUser. " Dies ist ein Ergebnis längerer Replikationszeiten in komplexen Active Directory-Umgebungen.
+Wenn Sie die lync Server-Systemsteuerung verwenden, um alle Benutzer aus einem Pool in einen anderen Pool in einer komplexen Active Directory-Umgebung zu verschieben, wie etwa eine mit mehreren Domänencontrollern und übergeordneten/untergeordneten Domänen, wird möglicherweise eine Fehlermeldung zurückgegeben, die besagt, dass "angegebene Benutzer kein Legacy Benutzer sind, stattdessen das Cmdlet Move-CsUser verwenden". Dies ist ein Ergebnis längerer Replikationszeiten in komplexen Active Directory-Umgebungen.
 
 **Workaround**
 
@@ -1003,7 +1003,7 @@ Führen Sie eine der folgenden Aktionen aus, um dieses Problem zu umgehen:
 
 **Problem**
 
-Wenn ein Administrator eine Spiegelungsdatenbank im Topologie-Generator deaktiviert und dann die Spiegelungsdatenbank im Topologie-Generator löscht, wird eine Meldung in der Aufgabenliste angezeigt, damit der Administrator das Deinstallations **-csMirrorDatabase-** Cmdlet ausführt, um es zu entfernen. Spiegelung von SQL Server. Wenn der Administrator versucht, das Cmdlet auszuführen, schlägt er fehl.
+Wenn ein Administrator eine Spiegelungsdatenbank im Topologie-Generator deaktiviert und dann die Spiegelungsdatenbank im Topologie-Generator löscht, wird eine Meldung in der Aufgabenliste angezeigt, damit der Administrator das Cmdlet " **deinstallieren-csMirrorDatabase** " ausführt, um die Spiegelung von SQL Server zu entfernen. Wenn der Administrator versucht, das Cmdlet auszuführen, schlägt er fehl.
 
 **Workaround**
 
@@ -1041,7 +1041,7 @@ Der *DropExistingDatabasesOnMirror* -Parameter bewirkt, dass die betroffenen Dat
 
 **Problem**
 
-Wenn ein Administrator versucht, mithilfe des Befehls " **Bereitstellung entfernen** " im Topologie-Generator eine Bereitstellung zu entfernen, die einen Front-End-Pool mit einem zugeordneten Zeugen Speicher enthält, wird im Topologie-Generator ein Validierungsfehler angezeigt, und die Aktion wird nicht fortgesetzt. .
+Wenn ein Administrator versucht, mithilfe des Befehls " **Bereitstellung entfernen** " im Topologie-Generator eine Bereitstellung zu entfernen, die einen Front-End-Pool mit einem zugeordneten Zeugen Speicher enthält, wird im Topologie-Generator ein Validierungsfehler angezeigt, und die Aktion wird nicht fortgesetzt.
 
 **Workaround**
 
@@ -1181,7 +1181,7 @@ Die folgenden Zeichen und Gebietsschemas können nicht indiziert werden:
 
 **Problem**
 
-Bei der Auswahl eines neutralen Gebietsschemas in einem Webbrowser (beispielsweise in Internet Explorer, dem Namen der Sprache ohne weitere Angabe wie " \[Norwegisch\]Nein") anstelle eines Gebietsschemas, das Sprache, Skript und Gebietsschema angibt (wie "Norwegisch, Nynorsk ( Norwegen) \[nb-no\]") kann zu einem unerwarteten Anzeigeverhalten für bestimmte Sprachen in lync Web Scheduler, Einwahl, Teilnehmer-Startfeld, beständiger Chatroom-Verwaltung und OCTab führen. Beispielsweise können Benutzer die englische Seite sehen, wenn eine der folgenden Sprachen ausgewählt ist:
+Bei der Auswahl eines neutralen Gebietsschemas in einem Webbrowser (in Internet Explorer) so kann beispielsweise der Sprachname ohne weitere Angabe, \[wie\]"Norwegisch Nein") statt eines Gebietsschemas, das die Sprache, das Skript und das Gebietsschema angibt ( \[wie "Norwegian\], Norwegisch (Norwegen) nb-no"), zu einem unerwarteten Anzeigeverhalten für bestimmte Sprachen in lync Web Scheduler, Einwahl-, Start-und OCTab, beständiger chatroomverwaltung führen. Beispielsweise können Benutzer die englische Seite sehen, wenn eine der folgenden Sprachen ausgewählt ist:
 
   - Norwegisch
 
