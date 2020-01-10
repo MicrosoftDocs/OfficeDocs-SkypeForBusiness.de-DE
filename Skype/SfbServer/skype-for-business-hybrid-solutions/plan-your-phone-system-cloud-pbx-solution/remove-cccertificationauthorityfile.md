@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei des Zertifizierungsstellendiensts im Ordner "Zertifizierungsstelle" unter dem Website Freigabeverzeichnis für Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287090"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003295"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-Mit dem Cmdlet Remove-CcCertificationAuthorityFile wird die Sicherungsdatei des Zertifizierungs&lt;stellen&gt;Diensts "SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unter dem Verzeichnis "Website Freigabe" für Skype for Business Cloud Connector entfernt Edition. 
+Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Zertifizierungsstellen-Dienst Sicherungs&lt;Datei&gt;"SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unter dem Website Freigabeverzeichnis für Skype for Business Cloud Connector Edition. 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -37,7 +37,7 @@ Keine
 
 Im folgenden Beispiel wird die Sicherungsdatei des Zertifizierungsstellen&lt;Diensts&gt;"SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unterhalb des Website Freigabe Verzeichnisses entfernt:
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Front-End-Pools einem von Skype for Business Server verwendeten Überwachungsspeicher zuordnen.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239991"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001225"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 
 **Zusammenfassung:** Erfahren Sie, wie Sie Front-End-Pools mit einem von Skype for Business Server verwendeten Überwachungsspeicher verknüpfen.
@@ -54,7 +54,7 @@ Nachdem Sie den Überwachungsspeicher einem Front-End-Pool zugeordnet haben, mü
     
 Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenbank auf dem Computer installieren, auf dem der Überwachungsspeicher gehostet wird. Die Überwachungsdatenbank kann mithilfe der Skype for Business Server-Verwaltungsshell und Windows PowerShell installiert werden. Wenn Sie die Datenbank lokal installieren möchten (um die Datenbank auf demselben Computer zu installieren, auf dem Sie die Skype for Business Server-Verwaltungsshell ausführen), starten Sie die Verwaltungsshell auf dem entsprechenden Computer, und geben Sie dann den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,13 +64,13 @@ Zum Installieren der Datenbank auf einem Remotecomputer (also einem anderen Comp
   
 Beispielsweise wird mit dem folgenden Befehl die Überwachungsdatenbank auf dem Computer atl-sql-001.litwareinc.com installiert:
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 
 Alternativ können Sie die Überwachungsdatenbank installieren, indem Sie den Bereitstellungs-Assistenten für Skype for Business Server auf dem Computer ausführen, auf dem der Überwachungsspeicher gehostet wird. Dazu melden Sie sich am entsprechenden Computer an und führen das folgende Verfahren aus:
   
-1. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server 2015**, und klicken Sie dann auf **Skype for Business Server**-Bereitstellungs-Assistent.
+1. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server 2015**, und klicken Sie dann auf **Skype for Business Server-Bereitstellungs-Assistent**.
     
 2. Klicken Sie im Bereitstellungs-Assistenten auf **Skype for Business Server-System installieren oder aktualisieren**.
     

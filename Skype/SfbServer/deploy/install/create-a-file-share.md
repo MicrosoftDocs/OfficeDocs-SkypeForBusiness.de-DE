@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Windows Server-Dateifreigabe im Rahmen der Installation von Skype for Business Server erstellen. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235242"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001015"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen einer Dateifreigabe in Skype for Business Server
  
@@ -68,6 +68,7 @@ Warnung: der Zugriff auf Freigabeberechtigungen für "\\<domain>\<> freigeben" i
 
 >Dies wird erwartet, wenn Sie kein Administrator auf dem Dateiserver sind oder wenn es sich um eine DFS-Freigabe (Distributed File System) handelt. Wenn die Freigabeberechtigungen bereits konfiguriert sind, kann diese Warnung ignoriert werden. Wenn es sich um eine neue Freigabe handelt, finden Sie in der Dokumentation Einzelheiten zum manuellen Konfigurieren von Freigabeberechtigungen.
 
->Da es nicht möglich ist, auf die Freigabeberechtigungen für eine DFS-Freigabe zuzugreifen, kann Skype for Business Server keine expliziten Gruppen für die Dateifreigabe einrichten. Um sicherzustellen, dass Skype for Business Server-Komponenten mit den entsprechenden Berechtigungen auf die Dateifreigabe zugreifen können, stellen Sie sicher, dass die folgenden RTC-Gruppen zusätzlich zu den lokalen Administratoren mit den Freigabeberechtigungen für den Zugriff auf die Freigabeberechtigungen für die Änderungs Ebene hinzugefügt werden.
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>Da es nicht möglich ist, auf die Freigabeberechtigungen für eine DFS-Freigabe zuzugreifen, kann Skype for Business Server keine expliziten Gruppen für die Dateifreigabe einrichten. Wenn Sie sicherstellen möchten, dass Skype for Business Server-Komponenten mit den entsprechenden Berechtigungen auf die Dateifreigabe zugreifen können, stellen Sie sicher, dass die folgenden RTC-Gruppen mit Lese-und Änderungs Freigabeberechtigungen sowie den lokalen Administratoren mit der Freigabe "Vollzugriff" hinzugefügt werden. Berechtigungen.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

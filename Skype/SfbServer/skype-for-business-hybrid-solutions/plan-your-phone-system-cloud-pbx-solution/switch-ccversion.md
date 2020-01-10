@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: Das Cmdlet Switch-CcVersion trennt die laufende Appliance und wechselt zu einer neu bereitgestellten oder Backup-Appliance.
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286929"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003155"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
 Das Cmdlet Switch-CcVersion trennt die laufende Appliance und wechselt zu einer neu bereitgestellten oder Backup-Appliance. 
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 Im folgenden Beispiel werden die Dienste der aktuell ausgeführten Appliance entladen und dann zu einer neu bereitgestellten oder Backup-Appliance gewechselt:
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 Im nächsten Beispiel werden die Dienste der aktuell ausgeführten Appliance entleert, und Dienste werden nicht mehr erzwungen, wenn das Entladen der Dienste fehlschlägt. Der Befehl wechselt dann zu einer neu bereitgestellten oder Backup-Appliance:
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 

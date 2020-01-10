@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Überwachung in Skype for Business Server bereitstellen.'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239951"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001146"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen der Überwachung in Skype for Business Server
 
@@ -67,7 +67,7 @@ Schritt-für-Schritt-Anleitungen zum Zuordnen von Front-End-Servern oder Front-E
 
 Um mit der Datensammlung beginnen zu können, müssen Sie die CDR-und/oder QoE-Überwachung aktivieren. (Beachten Sie, dass Sie nicht sowohl die CDR-als auch die QoE-Überwachung aktivieren müssen; Wenn Sie möchten, können Sie eine Art von Überwachung aktivieren, während der andere Typ deaktiviert bleibt.) Führen Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl aus, um die CDR-Überwachung auf globaler Ebene zu aktivieren:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ Alternativ können Sie die CDR-Überwachung über das Skype Control Panel für U
 
 Um die QoE-Überwachung im globalen Bereich zu aktivieren, führen Sie diesen Befehl in der Skype for Business Server-Verwaltungsshell aus:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

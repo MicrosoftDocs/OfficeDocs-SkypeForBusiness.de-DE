@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie einen Anruf über die Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234254"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002705"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen von Anrufen über die Arbeit in Skype for Business Server
  
@@ -58,13 +58,13 @@ Wenn alle Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
 
 - Geben Sie das folgende Cmdlet ein
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     Mit dem folgenden Cmdlet wird die globale Telefonnummer beispielsweise auf 1-555-123-4567 festgelegt.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ Wenn alle Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
 
 - Geben Sie das folgende Cmdlet ein
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Das folgende Cmdlet erstellt beispielsweise einen Anruf über die Arbeitsrichtlinie mit dem Namen ContosoUser1CvWP, erfordert, dass der Benutzer eine Administrator Rückrufnummer verwendet, und legt diese Rückrufnummer auf 1-555-789-1234 fest.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ Wenn alle Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
 
 - Geben Sie das folgende Cmdlet ein
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     Das folgende Cmdlet weist beispielsweise dem Benutzer mit dem Namen **ContosoUser1**den Anruf über die Arbeitsrichtlinie "ContosoUser1CvWP" zu.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. '
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286978"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003215"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -24,7 +24,7 @@ Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Sk
   
 Mit Cloud Connector, Version 2,0 und höher, kann dieses Cmdlet auch die Kontoinformationen für den Virtual Machine-Administrator und für den Domänenadministrator einrichten.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 Im folgenden Beispiel werden der Kontoname und das Kennwort für den Mandantenadministrator angegeben:
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Zusammenfassung: Verwenden des Office-Anpassungstools mit dem Skype for Business-Client'
-ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234600"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001595"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Verwenden des Office-Anpassungstools (OAT) in Skype for Business Server
  
@@ -25,13 +25,13 @@ Das Office-Anpassungstool (OAT) ist Teil des Setup-Programms und wird als Tool f
   
 Das OAT ist Teil des Setups und wird nur für volumenlizenzierte Versionen des Produkts verwendet. Sie führen das OAT durch Eingabe `setup.exe /admin` über die Befehlszeile aus dem Stammverzeichnis des Netzwerkinstallationspfads, der die Office-Quelldateien enthält. Verwenden Sie beispielsweise folgenden Befehl:
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   
 Administratoren verwenden das OAT zum Erstellen einer Setup Customization. msp-Datei und können die folgenden Bereiche anpassen:
   
-- **Einrichtung** Dient zum Angeben des Standard Installationsspeicherorts auf dem Client und dem Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Office-Versionen, benutzerdefinierte Programme, die ausgeführt werden sollen. Installations-, Sicherheitseinstellungen und Setup Eigenschaften.
+- **Einrichtung** Dient zum Angeben des Standard Installationsspeicherorts auf dem Client und dem Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Versionen von Office, benutzerdefinierte Programme, die während der Installation, Sicherheitseinstellungen und Setup Eigenschaften ausgeführt werden sollen.
     
 - **Funktionen** Wird verwendet, um Benutzereinstellungen zu konfigurieren und die Installation von Office-Features anzupassen. Administratoren können das OAT verwenden, um anfängliche Standardwerte für die Office-Anwendungseinstellungen für Benutzer festzulegen. Benutzer können die meisten Einstellungen nach der Installation ändern.
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Der Skype for Business-Server Skype Room Systems v1 (SRS v1, ehemals lync Room System) administratives Webportal ist ein Webportal, das Organisationen verwenden können, um Ihre Skype Room Systems-Konferenzräume zu verwalten. Administratoren können das administrative Web Portal für SRS v1 verwenden, um die Geräte Integrität zu überwachen, beispielsweisedurch überwachen von Audio/Video-Geräten. Mit diesem Portal können Administratoren über Remoteverbindungen Diagnoseinformationen sammeln, um die Konferenzraumintegrität zu überwachen.
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234174"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002885"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Bereitstellen des Administrator-Web-Portals für SRS V1 in Skype for Business Server
 
@@ -86,7 +86,7 @@ Wenn Sie das Webportal zur Verwaltung von SRS v1 installieren möchten, gehen S
 
 1. Konfigurieren Sie den Port für vertrauenswürdige Anwendungen, indem Sie das folgende Cmdlet in der Skype for Business Server-Verwaltungsshell ausführen:
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -94,23 +94,23 @@ Wenn Sie das Webportal zur Verwaltung von SRS v1 installieren möchten, gehen S
 
 3. Öffnen Sie die Datei Web.config aus folgendem Speicherort:
 
-    %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
+    % Program Files%\Skype for Business Server 2015 \ Web Components\Meeting Room Portal\Int\Handler\
 
 4. Ändern Sie in der Datei Web. config die PortalUserName in den in Schritt 2 erstellten Benutzernamen unter dem Abschnitt "[Konfigurieren der Umgebung für das administrative Web-Portal für SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)" (der empfohlene Name im Schritt lautet LRSApp):
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. Da das Webportal zur Verwaltung von SRS v1 eine vertrauenswürdige Anwendung ist, müssen Sie das Kennwort bei der Portalkonfiguration nicht angeben. Wenn für diesen Benutzer nicht die lokale Registrierungsstelle, sondern eine andere Registrierungsstelle verwendet wird, müssen Sie diese für den Benutzer angeben, indem Sie folgende Zeile in die Datei Web.Config einfügen: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. Wenn der verwendete Port nicht der Port 5061 ist, fügen Sie folgende Zeile in die Datei Web.Config ein: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -221,7 +221,7 @@ Wenn Sie öffnen https://localhost/lrs, können Sie die Anmeldeseite sehen, aber
 
 - Wenn Sie SRS-Konten erstellt haben und die Konten im Webportal für die Verwaltung nicht sehen können, erfassen Sie die Clientprotokolle unter Verwendung von Fiddler, kopieren Sie das Konsolenprotokoll aus den Browserentwicklungstools und senden Sie diese dann an Ihren SRS-Supportkontakt. Sie können außerdem den Wert für die Verfolgungsstufe in der Datei Web.Confi ändern, um ein ausführliches Protokoll zu erhalten.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

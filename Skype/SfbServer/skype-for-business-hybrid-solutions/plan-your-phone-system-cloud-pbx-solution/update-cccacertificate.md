@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: Das Cmdlet Update-CcCACertificate erneuert das Skype for Business Cloud Connector Edition-Stammzertifizierungsstellen-Zertifikat, das nahezu abgelaufen ist oder bereits abgelaufen ist.
-ms.openlocfilehash: e32b910d07aa4f2370af72d0a04bb939b80b3034
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15be5d4518d7e375b4804ed2d9f22bd35a45ca7e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286845"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003125"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
 Das Cmdlet Update-CcCACertificate erneuert das Skype for Business Cloud Connector Edition-Stammzertifizierungsstellen-Zertifikat, das nahezu abgelaufen ist oder bereits abgelaufen ist. 
   
-```
+```powershell
 Update-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Keine.
 
 Im folgenden Beispiel wird das Zertifikat der Stammzertifizierungsstelle erneuert:  
   
-```
+```powershell
 Update-CcCACertificate 
 ```
 

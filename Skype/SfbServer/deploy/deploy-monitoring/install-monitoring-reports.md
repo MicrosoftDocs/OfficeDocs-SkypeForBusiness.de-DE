@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie einen Dienst installieren, in dem Überwachungsberichte in Skype for Business Server generiert werden.'
-ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a2d10e8025b2107da8a0b5c3866faf210b77ada
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239981"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001165"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installieren von Überwachungsberichten in Skype for Business Server
  
@@ -34,7 +34,7 @@ Skype for Business Server-Überwachungsberichte enthalten mehr als 30 Berichte, 
   
 - **Neue Berichte zur Sprachqualität**. Diese neuen Berichte beinhalten den [Bericht zur Medienqualität in Skype for Business Server, in](../../manage/health-and-monitoring/comparison.md)dem die Qualität zwischen verschiedenen Anrufarten verglichen wird (beispielsweise zwischen kabelgebundenen anrufen und WLAN-anrufen). und den [Bericht "Konferenzteilnahme Zeit" in Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md), der Informationen darüber enthält, wie viel Zeit für die Teilnahme von Benutzern an einer Konferenz erforderlich ist. 
     
-- **Verbesserte Berichte zur Analyse und Problembehandlung bei Video- und Anwendungsfreigabesitzungen.** der [Bericht zur Zusammenfassung der Medienqualität in Skype for Business Server](../../manage/health-and-monitoring/summary.md) bietet eine Möglichkeit, Video-und Anwendungsfreigabe Aufrufe zu analysieren, während der [Bericht zur Serverleistung in Skype for Business Server](../../manage/health-and-monitoring/server-performance.md) die Leistung der Server beschreibt, die diese generieren. Anrufe. Die Metriken für die Video-und Anwendungsfreigabe werden jetzt auch über den [Bericht Peer-to-Peer-Sitzungsdetails in Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) und dem [Konferenz Detailbericht in Skype for Business Server](../../manage/health-and-monitoring/detail-report.md)gemeldet.
+- **Verbesserte Berichte zur Analyse und Problembehandlung bei Video- und Anwendungsfreigabesitzungen.** der [Bericht zur Zusammenfassung der Medienqualität in Skype for Business Server](../../manage/health-and-monitoring/summary.md) bietet eine Möglichkeit, Video-und Anwendungsfreigabe Aufrufe zu analysieren, während der [Bericht zur Serverleistung in Skype for Business Server](../../manage/health-and-monitoring/server-performance.md) die Leistung der Server beschreibt, die diese Anrufe generieren. Die Metriken für die Video-und Anwendungsfreigabe werden jetzt auch über den [Bericht Peer-to-Peer-Sitzungsdetails in Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) und dem [Konferenz Detailbericht in Skype for Business Server](../../manage/health-and-monitoring/detail-report.md)gemeldet.
     
 - **Verbesserte Berichtsleistung**. Dazu gehören kürzere Reaktions- und Datenabrufzeiten sowie eine schnellere und einfachere Navigation durch die Berichte.
     
@@ -51,7 +51,7 @@ Es gibt zwei Möglichkeiten, Skype for Business Server-Überwachungsberichte zu 
     
 Führen Sie folgende Schritte durch, um die Überwachungsberichte mithilfe des Bereitstellungs-Assistenten zu installieren:
   
-1. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server**-Bereitstellungs-Assistent.
+1. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Bereitstellungs-Assistent**.
     
 2. Klicken Sie im Bereitstellungs-Assistenten auf **Überwachungsberichte bereitstellen**, um den Assistenten für die Bereitstellung der Überwachungsberichte zu starten.
     
@@ -67,7 +67,7 @@ Führen Sie folgende Schritte durch, um die Überwachungsberichte mithilfe des B
     
 Überwachungsberichte können auch über die Skype for Business Server-Verwaltungsshell installiert werden, indem Sie das Skript DeployReports. ps1 ausführen. Dieses Windows PowerShell-Skript befindet sich im Ordner \<"Installations\>Speicherort \Skype for Business Server 2015 \ Deployment\Setup". Wenn Sie Überwachungsberichte mit DeployReports. ps1 installieren möchten, geben Sie an der Eingabeaufforderung der Verwaltungsshell einen Befehl ähnlich der folgenden ein:
   
-```
+```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 ```
 
@@ -83,7 +83,7 @@ Die im vorstehenden Befehl verwendeten Parameter werden in der folgenden Tabelle
    
 Verwenden Sie, nachdem die Überwachungsberichte installiert wurden, das New-CsReportingConfiguration-Cmdlet, um die URL für den Zugriff auf die Berichte zu konfigurieren. Diese Aufgabe kann über die Skype for Business Server-Verwaltungsshell ausgeführt werden, indem Sie den folgenden Windows PowerShell-Befehl ausführen. Beachten Sie, dass es zwar ratsam, aber nicht erforderlich ist, das HTTPS-Protokoll für die Konfiguration der Berichts-URL zu verwenden:
   
-```
+```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
 ```
 

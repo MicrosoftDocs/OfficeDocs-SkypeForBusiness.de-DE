@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570179"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001265"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -55,7 +55,7 @@ Der Benutzer muss über Folgendes verfügen:
 - Berechtigungen zum Erstellen von Live Ereignissen in Stream (für externe APP-oder Geräteproduktion).
 
 > [!IMPORTANT]
-> Office 365-Gäste, Partner und anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. Office 365-Gäste und verbundene Benutzer können Live-Ereignisse nur anonym ansehen. 
+> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. 
  
 ## <a name="who-can-watch-live-events"></a>Wer kann Live-Events sehen?
 

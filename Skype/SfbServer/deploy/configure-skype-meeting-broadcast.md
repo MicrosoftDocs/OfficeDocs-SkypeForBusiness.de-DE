@@ -15,14 +15,14 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: erfahren Sie mehr über die Schritte, die Sie ausführen müssen, um Skype-Live Konferenz für Ihre lokale Skype for Business Server-hybridbereitstellung zu konfigurieren.'
-ms.openlocfilehash: bd87c64dd1e54c8092186a3e233557ebd11eec77
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac08707a60e0c71719ab2cb85141e89329a947f9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234441"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002805"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz
  
 **Zusammenfassung:** Informieren Sie sich über die Schritte, die Sie ausführen müssen, um Skype-Live Konferenz für Ihre lokale Skype for Business Server-hybridbereitstellung zu konfigurieren.
   
@@ -55,7 +55,7 @@ Um die Föderation mit Skype for Business Online-Ressourcen zu aktivieren, müss
    
 Sie können auch den Verbund mit Skype for Business Online-Ressourcen aktivieren, indem Sie in der Skype for Business Server-Verwaltungsshell das folgende Cmdlet ausführen:
   
-```
+```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
@@ -79,7 +79,7 @@ Als nächstes müssen Sie SIP-Verbunddomänen zur Liste der zulässigen Domänen
     
 Sie können den externen Zugriff für SIP-Verbunddomänen auch konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server-Verwaltungsshell ausführen:
   
-```
+```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"

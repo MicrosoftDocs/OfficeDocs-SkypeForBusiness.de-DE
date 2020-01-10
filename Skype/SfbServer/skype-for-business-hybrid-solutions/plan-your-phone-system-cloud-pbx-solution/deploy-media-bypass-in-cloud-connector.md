@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema, um Informationen zu den Schritten zum Bereitstellen der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu erhalten.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287545"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003485"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Bereitstellen der medienumgehung in Cloud Connector Edition
  
@@ -37,7 +37,7 @@ Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skyp
   
 Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -54,14 +54,14 @@ Sie können die Medienumgehungseinstellungen wie folgt überprüfen.
   
 Führen Sie den folgenden Befehl in Remote PowerShell aus, um die Online Replikation auf ihren Mandanten Pool zu überprüfen:
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 Um die lokale Replikation zu überprüfen, stellen Sie eine Verbindung mit dem Cloud Connector-Vermittlungsserver her, führen Sie in PowerShell den folgenden Befehl aus, und bestätigen Sie, dass Enabled = true und AlwaysBypass = true sind.
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -75,7 +75,7 @@ Um die Clienteinstellungen zu überprüfen, melden Sie sich beim Skype for Busin
 
 Mandantenadministratoren können den DNS-Namen des Webdiensts ändern, indem sie das folgende Cmdlet ausführen:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -86,14 +86,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 Dieses Szenario kann bei der Problembehandlung oder Wartung hilfreich sein. Um den Dienst zu deaktivieren, führen Sie die folgenden Cmdlets aus:
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 Nachdem Sie die Änderung vorgenommen haben, kann es eine Weile dauern, bis die Änderungen an alle Cloud Connector-Appliances repliziert sind. Führen Sie zum Überprüfen des Replikationsstatus das folgende Cmdlet in PowerShell auf Mediations Servern für Cloud Connector aus: 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -103,7 +103,7 @@ Nach der Replikation der Änderungen lehnt der Webdienst auf dem Vermittlungsser
 
 Um die Medienumgehung dauerhaft zu deaktivieren, muss ein Mandantenadministrator die folgenden Befehle ausführen: 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 

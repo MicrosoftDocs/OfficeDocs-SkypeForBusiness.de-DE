@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server-Umgebung bereitstellen.'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233884"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001445"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Bereitstellen von Edgeserver in Skype for Business Server
  
@@ -82,7 +82,7 @@ Damit Sie diese Schritte erfolgreich ausführen können, müssen Sie die Schritt
     
 2. Sie benötigen die Topologie-Konfigurationsdatei, die Sie am Ende der Dokumentation zur Edge-Server-Topologie auf diesem Computer kopiert haben. Greifen Sie auf den externen Datenträger zu, auf dem Sie die Konfigurationsdatei gespeichert haben (z. B. ein USB-Laufwerk oder eine Netzwerkfreigabe).
     
-3. Starten Sie den Bereitstellungs- **Assistenten**.
+3. Starten Sie den **Bereitstellungs-Assistenten**.
     
 4. Klicken Sie nach dem Öffnen des Assistenten auf **Skype for Business Server System installieren oder aktualisieren**.
     
@@ -119,17 +119,17 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Öffnen Sie **Start**, und **führen** Sie (oder **Suchen** und **Ausführen** ) aus, und geben Sie Folgendes ein:
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zum Beispiel:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Klicken Sie auf der certsrv-Webseite der ausstellenden Zertifizierungsstelle unter **Aufgabe auswählen**auf Zertifizierungsstellen **Zertifikat, Zertifikatkette oder CRL Herunterladen**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Klicken Sie auf der certsrv-Webseite der ausstellenden Zertifizierungsstelle unter **Aufgabe auswählen**auf **Zertifizierungsstellenzertifikat, Zertifikatkette oder CRL Herunterladen**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV. Klicken Sie unter **Download eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer Zertifikatssperrliste** auf **Download der Zertifizierungsstellen-Zertifikatkette**.
     
@@ -290,7 +290,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;f. Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen**.
     
-&nbsp;&nbsp;&nbsp;g. Nachdem Sie dieses Verfahren abgeschlossen haben, empfiehlt es sich, das MMC-Snap-in Zertifikate auf jedem Edgeserver zu öffnen, **Zertifikate (lokaler Computer)** zu erweitern, **Personal**zu erweitern, auf **Zertifikate**zu klicken und zu bestätigen, dass der interne Edge das Zertifikat wird im Detailbereich aufgelistet.
+&nbsp;&nbsp;&nbsp;g. Nachdem Sie dieses Verfahren abgeschlossen haben, empfiehlt es sich, das MMC-Snap-in Zertifikate auf jedem Edgeserver zu öffnen, **Zertifikate (lokaler Computer)** zu erweitern, **Personal**zu erweitern, auf **Zertifikate**zu klicken und sicherzustellen, dass das Zertifikat für das interne Edge im Detailbereich aufgeführt ist.
     
 ### <a name="external-edge-interface-certificates"></a>Zertifikate der externen Edgeschnittstelle
 
@@ -423,7 +423,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;f. Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen**.
     
-&nbsp;&nbsp;&nbsp;g. Nachdem Sie dieses Verfahren abgeschlossen haben, empfiehlt es sich, das MMC-Snap-in Zertifikate auf jedem Server zu öffnen, **Zertifikate (lokaler Computer)** zu erweitern, **Personal**zu erweitern, auf **Zertifikate**zu klicken und zu bestätigen, dass der interne Edge das Zertifikat wird im Detailbereich aufgelistet.
+&nbsp;&nbsp;&nbsp;g. Nachdem Sie dieses Verfahren abgeschlossen haben, empfiehlt es sich, das MMC-Snap-in Zertifikate auf jedem Server zu öffnen, **Zertifikate (lokaler Computer)** zu erweitern, **Personal**zu erweitern, auf **Zertifikate**zu klicken und sicherzustellen, dass das Zertifikat für das interne Edge im Detailbereich aufgeführt ist.
     
    > [!NOTE]
    > Sie müssen außerdem die Zertifikate für die Reverseproxyserver eingerichtet haben. 

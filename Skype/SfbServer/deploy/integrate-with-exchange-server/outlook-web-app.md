@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integration von Skype for Business Server und Outlook Web App.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244209"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002875"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App
 
@@ -37,7 +37,7 @@ Wenn Sie lokale Skype for Business-Server in Exchange Online integrieren möchte
 
 Konfigurieren Sie mithilfe der Skype for Business Server-Verwaltungsshell den Edgeserver für Federation, indem Sie das Cmdlet " **Satz-csaccessedgeconfiguration nicht angeben** " mit den im folgenden Beispiel angezeigten Parametern ausführen:
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Details zur Verwendung der Skype for Business Server-Verwaltungsshell finden Sie
 
 Konfigurieren Sie mithilfe der Skype for Business Server-Verwaltungsshell einen Hostinganbieter auf dem Edgeserver, indem Sie das Cmdlet **New-CsHostingProvider** mithilfe der Parameter im folgenden Beispiel ausführen:
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -76,14 +76,14 @@ Die Änderungen, die Sie mithilfe der Cmdlets in den vorhergehenden Abschnitten 
 
 Führen Sie zum Überprüfen von Replikationsupdates auf einem Server, der in Ihrer Skype for Business Server-Bereitstellung intern ist, das folgende Cmdlet aus:
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Überprüfen Sie, ob uptodate-Wert für alle Replikate "true" angezeigt wird.
 
 Um zu bestätigen, dass die Änderungen übernommen wurden, führen Sie auf dem Edgeserver das folgende Cmdlet aus:
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Überprüfen Sie, ob die angezeigten Informationen mit den Änderungen übereinstimmen, die in den vorherigen Schritten zugesichert wurden.

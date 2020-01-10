@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Das Cmdlet „Set-CcSiteDirectory“ legt das Verzeichnis fest, in dem die Konfigurationsdateien auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. Der Ordner enthält die Konfigurationsdateien für die Basis-VHD und für Cloud Connector.
-ms.openlocfilehash: d2627da8bcd2cae5e388571457f4d6d9eb6813c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0cc8d2a66adb831ea2d85381902eb9d3df7ba6a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286964"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003195"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -24,7 +24,7 @@ Das Cmdlet „Set-CcSiteDirectory“ legt das Verzeichnis fest, in dem die Konfi
   
 Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1 und 1.4.2.
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -35,7 +35,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 Im folgenden Beispiel wird das Websitestamm Verzeichnis auf \\SiteShare\CloudConnector festgelegt:
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 

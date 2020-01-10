@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211954"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005178"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -36,6 +36,7 @@ Cloud-Anrufwarteschlangen können Folgendes bereitstellen:
 - Musik, während die wartenden Anrufer gehalten werden
 - Umleitung von Anrufen an Telefonisten in die von E-Mail-aktivierten Verteilerlisten und Sicherheitsgruppen
 - Festlegen unterschiedlicher Parameter wie maximale Größe der Warteschlange, Timeout und Anruf Behandlungsoptionen.
+- Voicemail für Anrufer freigegeben, um eine Nachricht für eine Organisation zu hinterlassen.
 
 Sie würden einer Anrufwarteschlange mithilfe eines [Ressourcenkontos](manage-resource-accounts.md)eine Telefonnummer zuweisen. Eine Anrufwarteschlange kann direkt gewählt oder über eine Auswahl in einer automatischen Telefonzentrale aufgerufen werden.
 
@@ -165,9 +166,11 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ### <a name="select-the-call-answering-options"></a>Wählen Sie die Optionen für die Anrufannahme aus.
 
-![Screenshot der Optionen für die Anrufannahme mit nummerierten Beschriftungen](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Screenshot der Optionen für die Anrufannahme](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+Wenn Sie einzelne Agents direkt hinzufügen möchten, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
+
+Anrufe werden zuerst an einzelne Agents und dann an die Agents in Gruppen weitergeleitet. 
 
 Sie können bis zu 200-Anruf-Agents auswählen, die zu einer der folgenden Mailinglisten oder-Gruppen gehören:
 

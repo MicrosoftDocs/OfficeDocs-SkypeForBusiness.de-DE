@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464600"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003075"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen von Skype-Konnektivität in Skype for Business Server
 
@@ -187,14 +187,14 @@ Die Skype-Konnektivität kann auch nur mit PowerShell konfiguriert werden. So ko
     
 2. Führen Sie die folgenden beiden Befehle aus:
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Wenn kein PIC-Anbieter in Ihrer Umgebung vorhanden ist und Sie einen neuen PIC-Anbieter erstellen, muss das Cmdlet „Remove-CsPublicProvider“ nicht ausgeführt werden.  
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -210,7 +210,7 @@ Die Skype-Konnektivität kann auch nur mit PowerShell konfiguriert werden. So ko
      > Wenn Änderungen vorgenommen werden, müssen öffentliche Anbieter entweder und erneut hinzugefügt werden. Direkte Änderungen sind nicht zulässig. 
   
      > [!NOTE]
-     > In lync Server 2013 CU5 &amp; lync-Desktop Client in Office 2013 SP1 wurden die NameDecorationRoutingDomain und NameDecorationExcludedDomainList verbessert, wenn lync-Benutzer Skype-Kontakte hinzufügen, die erforderlich sind, um nicht-Microsoft-Domänen zu "verzieren" identifizieren und leiten Sie Sie an Skype weiter (das Format: User (contoso. com) @MSN. com). Diese neuen Einstellungen ermöglichen die automatische Formatierung der Eingabe der Adresse des Benutzers im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (das auf MSN.com festzulegen ist), wenn es die Domänen im NameDecorationExcludedDomainList nicht enthält ( Wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen. 
+     > In lync Server 2013 CU5 &amp; lync-Desktop Client in Office 2013 SP1 wurde die Situation verbessert, in der lync-Benutzer Skype-Kontakte hinzufügen, um nicht-Microsoft-Domänen zu "schmücken", um Sie zu identifizieren und an Skype weiterzuleiten (das Format von: User (contoso. com) @MSN. com). Diese neuen Einstellungen ermöglichen die automatische Formatierung der Eingabe der Adresse des Benutzers im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (das auf MSN.com festzulegen ist), wenn es die Domänen im NameDecorationExcludedDomainList nicht enthält ( Wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen. 
   
 3. Benutzer können nun auf einem Skype for Business-Client nach Skype-Benutzern suchen und diese hinzufügen.
     
@@ -232,9 +232,9 @@ Die folgende Tabelle umreißt die Status der Interoperabilität zwischen der jü
 |**Client**|**Skype-Verzeichnissuche und Hinzufügen von Kontakten**|**Skype Audio/Video, Chatnachrichten-Interoperabilität**|
 |:-----|:-----|:-----|
 |Skype for Business  <br/> |Ja  <br/> |Ja  <br/> |
-|Skype for Business auf dem Mac  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
+|Skype for Business unter Mac  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2013  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
-|Lync Web App – online und lokal  <br/> |-  <br/> |Nicht zutreffend  <br/> |
+|Lync Web App – online und lokal  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |
 |Lync Mobile – Windows Phone  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – Android  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – iOS  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
@@ -243,6 +243,6 @@ Die folgende Tabelle umreißt die Status der Interoperabilität zwischen der jü
 |Lync Mac 2011  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2010  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Phone Edition  <br/> |-  <br/> |Nicht zutreffend  <br/> |
-|Lync Attendant  <br/> |n/v  <br/> |n/v  <br/> |
+|Lync Attendant  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |
    
 

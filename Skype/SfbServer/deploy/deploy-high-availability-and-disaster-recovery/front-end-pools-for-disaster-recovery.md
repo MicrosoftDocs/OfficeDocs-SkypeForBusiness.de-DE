@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Sie können Front-End-Poolpaare verwenden, um Schutz durch Notfallwiederherstellung bereitzustellen. Dies ist jedoch nicht erforderlich.
-ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "39254394"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002905"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen gekoppelter Front-End-Pools für Disaster Recovery in Skype for Business Server
  
@@ -45,7 +45,7 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
     
 8. Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:
     
-   ```
+   ```powershell
    <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
@@ -55,27 +55,27 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
 
 10. Führen Sie in der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell die folgenden Aktionen aus: 
     
-   ```
+   ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
 11. Erzwingen Sie die Synchronisierung der Benutzer-und Konferenzdaten beider Pools mit den folgenden Cmdlets:
     
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
     Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu überprüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
     
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
     ```
 

@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Einwahlkonferenzen in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234139"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002925"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Konfigurieren von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server konfigurieren.
   
-Nachdem Sie eine Topologie erstellt haben, die die Konferenz Arbeitsauslastung und ausgewählte Einwahlkonferenzen umfasst, müssen Sie zusätzliche Schritte ausführen, um Einwahlkonferenzen zu konfigurieren. Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie den [Plan für Einwahlkonferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)und das [Bereitstellungs Flussdiagramm und die Checkliste für Einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+Nachdem Sie eine Topologie erstellt haben, die die Konferenz Arbeitsauslastung und ausgewählte Einwahlkonferenzen umfasst, müssen Sie zusätzliche Schritte ausführen, um Einwahlkonferenzen zu konfigurieren. Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie den [Plan für Einwahlkonferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)und das [Bereitstellungs Flussdiagramm und die Checkliste für Einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)gelesen haben. 
   
 Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Aufgaben ausführen:
   
@@ -83,13 +83,13 @@ Verwenden Sie das Cmdlet **Get-CsDialPlan**, um zu überprüfen, ob die Region f
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    Beispiel:
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ Weitere Informationen finden Sie unter [Get-CsDialPlan](https://docs.microsoft.c
     
 3. Führen Sie für alle Wähleinstellungen, in denen die Region für Einwahlkonferenzen fehlt, den folgenden Befehl aus:
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    Beispiel:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 
@@ -198,9 +198,9 @@ Weitere Informationen zum Konfigurieren von Konferenzrichtlinien finden Sie unte
 ## <a name="assign-a-line-uri-to-a-user-account"></a>Weisen Sie einem Benutzerkonto einen Anschluss-URI zu
 <a name="BKMK_AssignaLineURI"> </a>
 
-Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Die in den Skype for Business Server-Benutzerkonten angegebene Telefon Leitungs- **URI** ist für die Authentifizierung erforderlich.
+Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Die in den Skype for Business Server-Benutzerkonten angegebene Telefon **Leitungs-URI** ist für die Authentifizierung erforderlich.
   
-In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Details zur Verwendung eines Beispielskripts zum Zuweisen von **Leitungs-URI** zu mehreren Benutzerkonten finden Sie unter Zuweisen von Leitungs- [URIs zu mehreren Benutzern](https://go.microsoft.com/fwlink/p/?linkId=196945).
+In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Details zur Verwendung eines Beispielskripts zum Zuweisen von **Leitungs-URI** zu mehreren Benutzerkonten finden Sie unter [Zuweisen von Leitungs-URIs zu mehreren Benutzern](https://go.microsoft.com/fwlink/p/?linkId=196945).
   
 1. Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle **Cs-UserAdministrator** oder **CsAdministrator** an.
     

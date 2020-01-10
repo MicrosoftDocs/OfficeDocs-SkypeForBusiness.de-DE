@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Zusammenfassung: Konfigurieren von im-Transkripten für Exchange Server 2016 oder Exchange Server 2013 und Skype for Business Server.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244151"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003565"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Konfigurieren von Skype for Business Server für die Verwendung der Exchange Server-Archivierung
 
@@ -42,19 +42,19 @@ Die Archivierung in Skype for Business Server wird hauptsächlich mithilfe der A
 
 - **Keine**. Die Archivierung ist deaktiviert. Dies ist der Standardwert. Wenn EnableArchiving auf "keine" gesetzt ist, wird in Ihrer Skype for Business Server-Archivierungsdatenbank oder in Exchange Server nichts archiviert.
 
-- **** Ist nicht verfügbar. Es werden nur Sofortnachrichten Abschriften archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange Server archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle in Skype for Business Server archiviert.
+- Ist nicht **verfügbar.** Es werden nur Sofortnachrichten Abschriften archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange Server archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle in Skype for Business Server archiviert.
 
 - **ImAndWebConf**. Sowohl Sofortnachrichten Protokolle als auch Webkonferenz-Transkripte werden archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange Server archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle in Skype for Business Server archiviert.
 
 Die EnableExchangeArchiving-Eigenschaft ist ein boolescher Wert: setzen Sie EnableExchangeArchiving auf true ($true), um die Exchange-Archivierung zu aktivieren oder EnableExchangeArchiving auf false festzulegen ($false), um die Exchange-Archivierung zu deaktivieren. Mit diesem Befehl können Sie beispielsweise die Archivierung von Sofortnachrichten Abschriften und die Exchange-Archivierung aktivieren:
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Wenn Sie die Exchange-Archivierung deaktivieren möchten, verwenden Sie einen Befehl ähnlich der folgenden, der die Sofortnachrichten Archivierung ermöglicht, aber die Archivierung in Exchange deaktiviert (d. h., Transkripte werden in Skype for Business Server archiviert):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -88,19 +88,19 @@ Nachdem Sie die Archivierung (und die Exchange-Archivierung) aktiviert haben, m�
 
 Standardmäßig sind beide Eigenschaftenwerte auf "false" festgelegt, was bedeutet, dass weder interne noch externe Kommunikationssitzungen archiviert werden. Zum Ändern der globalen Richtlinie können Sie die Skype for Business Server-Verwaltungsshell und das Cmdlet "Satz-CsArchivingPolicy" verwenden. Dieser Befehl ermöglicht die Archivierung interner und externer Kommunikationssitzungen:
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Alternativ können Sie „New-CsArchivingPolicy“ verwenden, um entweder auf Standort- oder auf Einzelbenutzerebene eine neue Richtlinie zu erstellen. Mit diesem Befehl wird z. B. eine neue Archivierungsrichtlinie auf Benutzerebene namens „RedmondArchivingPolicy“ erstellt:
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Wenn Sie eine Richtlinie auf Einzelbenutzerebene erstellen, müssen Sie diese Richtlinie den entsprechenden Benutzern zuweisen. Beispiel:
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -114,19 +114,19 @@ Wenn sich Skype for Business Server und Exchange Server in unterschiedlichen Ges
 
 2. **UseLyncArchivingPolicy**. Gibt an, dass die Protokolle für Sofortnachrichten und Webkonferenzen des Benutzers in Skype for Business Server und nicht in Exchange archiviert werden sollen.
 
-3. **** Noarchiving. Gibt an, dass die Protokolle für Chatnachrichten und Webkonferenzen des Benutzers überhaupt nicht archiviert werden sollen. Beachten Sie, dass diese Einstellung alle Skype for Business Server-Archivierungsrichtlinien außer Kraft setzt, die dem Benutzer zugewiesen sind.
+3. **Noarchiving**. Gibt an, dass die Protokolle für Chatnachrichten und Webkonferenzen des Benutzers überhaupt nicht archiviert werden sollen. Beachten Sie, dass diese Einstellung alle Skype for Business Server-Archivierungsrichtlinien außer Kraft setzt, die dem Benutzer zugewiesen sind.
 
 4. **ArchivingToExchange**: zeigt an, dass die Chat- und Webkonferenzaufzeichnungen des Benutzers unabhängig von den Compliance-Archiv-Einstellungen, die ggf. Gibt an, dass die Protokolle des Benutzers für Sofortnachrichten und Webkonferenzen in Exchange unabhängig von den in-situ-Speicher-Einstellungen, die dem Postfach des Benutzers zugewiesen wurden (oder nicht), archiviert werden sollen.
 
 Wenn Sie beispielsweise ein Benutzerkonto so konfigurieren möchten, dass Sofortnachrichten und Webkonferenz Protokolle immer in Exchange archiviert werden, können Sie einen ähnlichen Befehl wie den folgenden in der Skype for Business Server-Verwaltungsshell verwenden:
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 Wenn Sie dieselbe Archivierungsrichtlinie für eine Gruppe von Benutzern (z. B. alle Benutzer, die im angegebenen Registrierungsstellenpool verwaltet werden) festlegen möchten, können Sie einen ähnlichen Befehl wie den folgenden verwenden:
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ Beachten Sie, dass Sie die Skype for Business Server-Verwaltungsshell (und Windo
 
 Wenn Sie eine Liste aller Benutzer anzeigen möchten, denen eine bestimmte Archivierungsrichtlinie zugewiesen wurde, können Sie einen ähnlichen Befehl wie den folgenden verwenden. Der Befehl gibt den Active Directory-Anzeigenamen aller Benutzer zurück, für die die Eigenschaft „ExchangeArchivingPolicy“ auf „Uninitialized“ festgelegt ist:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 Entsprechend gibt dieser Befehl den Anzeigenamen aller Benutzer zurück, für die die Eigenschaft „ExchangeArchivingPolicy“ auf „UseLyncArchivingPolicy“ festgelegt ist:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

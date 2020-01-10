@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Informationen zum Bereitstelleneiner einzelnen PSTN-Website in Cloud Connector Edition.
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287363"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001025"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
@@ -31,7 +31,7 @@ Sie können die Skype for Business Cloud Connector Edition mit oder ohne Support
 
 Um die erste Appliance in einer Site bereitzustellen, öffnen Sie eine PowerShell-Konsole als Administrator. Führen Sie das folgende Cmdlet aus, um die Appliance zu registrieren:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Befolgen Sie in Version 2,0 und höher die Anweisungen zum Bereitstellen des ext
   
 Um die Installation zu starten, öffnen Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -55,19 +55,19 @@ Sie können eine vorhandene Cloud Connector-Website zur Unterstützung von ha er
     
 2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um die Topologieinformationen in der Konfiguration Ihres Office 365-Mandanten zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem der neu hinzugefügten Hostserver aus:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. Aktualisieren Sie die Topologie in vorhandenen Appliances, indem Sie das folgende Cmdlet auf jedem Hostserver ausführen. Führen Sie das Cmdlet nur in den vorhandenen Appliances aus.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. Führen Sie das folgende Cmdlet nur auf neu hinzugefügten Hostservern aus. Führen Sie es nicht in der vorhandenen Appliance aus. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem der neu hinzugefügten Hostserver aus:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -80,13 +80,13 @@ Wenn Sie eine Appliance aus einer vorhandenen Site entfernen möchten, gehen Sie
   
 1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie aus dem Standort entfernen möchten, um die Topologieinformationen in der Konfiguration Ihres Office 365-Mandanten zu aktualisieren.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, von denen Sie alle virtuellen Maschinen der Appliance entfernen möchten.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

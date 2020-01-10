@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286999"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001945"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
 
@@ -54,7 +54,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
 1. Öffnen Sie eine PowerShell-Konsole als Administrator, und stellen Sie sicher, dass die Skype for Business Cloud Connector Edition-Cmdlets mit dem folgenden Cmdlet verfügbar sind:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
     Den Speicherort des **Websiteverzeichnisses** können Sie mit dem folgenden Cmdlet ermitteln:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
      Um das **Websiteverzeichnis** auf einen anderen Speicherort als den Standard festzulegen, führen Sie das folgende Cmdlet aus:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
     Um den Speicherort des **Appliance-Verzeichnisses** zu suchen, führen Sie das folgende Cmdlet aus:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     Um das **Appliance-Verzeichnis** auf einen anderen Speicherort als den Standard festzulegen, führen Sie das folgende Cmdlet aus:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
 - Führen Sie das folgende Cmdlet aus, um den Pfad einschließlich des Dateinamens zum externen Zertifikat des Edges festzulegen. Beispiel: „C:\certs\cce\ap.contoso.com.pfx“. Das Zertifikat muss private Schlüssel enthalten.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
 Wenn Sie zwischen dem Vermittlungsserver und dem PSTN-Gateway/SBC TLS verwenden, führen Sie das folgende Cmdlet aus, um den Pfad (einschließlich des Dateinamens) zum Gatewayzertifikat festzulegen. Beispiel: C:\certs\cce\sbc.contoso.com.cer. Das Zertifikat muss die Stammzertifizierungsstelle und die Zwischenkette für das Zertifikat enthalten, das dem Gateway zugewiesen ist:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -154,7 +154,7 @@ Bereiten Sie die Datei CloudConnector. ini unter Verwendung der Informationen vo
 
 Führen Sie zum Aktualisieren der Datei zunächst das folgende Cmdlet aus, um die Beispielvorlage (CloudConnector.Sample.ini) zu erhalten:
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -165,7 +165,7 @@ Nachdem Sie sie mit den Werten für Ihre Umgebung aktualisiert haben, speichern 
 Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
 
 > [!NOTE]
-> In diesem Abschnitt werden nicht alle Werte für die INI-Datei besprochen, sondern nur die wichtigsten. Eine vollständige Liste finden Sie im Abschnitt [Festlegen von Bereitstellungs Parametern](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema Planen von [Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) . Weitere Informationen zu den Werten, die Sie für zusätzliche Appliances oder neue Standorte ändern müssen, finden Sie unter [Bereitstellung eines einzelnen Standort mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> In diesem Abschnitt werden nicht alle Werte für die INI-Datei besprochen, sondern nur die wichtigsten. Eine vollständige Liste finden Sie im Abschnitt [Festlegen von Bereitstellungs Parametern](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema [Planen von Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) . Weitere Informationen zu den Werten, die Sie für zusätzliche Appliances oder neue Standorte ändern müssen, finden Sie unter [Bereitstellung eines einzelnen Standort mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
 
 - **SiteName:** Der Standardwert lautet **Site1**. Sie müssen ihn aktualisieren, bevor Sie Cloud Connector bereitstellen können. Der Grund: Wenn Sie **Register-CcAppliance** ausführen, um eine Appliance an einem vorhandenen oder neuen Standort zu registrieren, bestimmt das Cmdlet anhand von **SiteName**, welcher Standort registriert werden soll.
 
@@ -227,7 +227,7 @@ Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
 
 Führen Sie das folgende Cmdlet aus, um die Bits und Versionsinformationsdateien in das **Websiteverzeichnis** herunterzuladen:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Bevor Sie mit diesem Schritt fortfahren, vergewissern Sie sich, dass der Switch 
 
 Starten Sie eine PowerShell-Konsole als Administrator und führen Sie das folgende Cmdlet aus, um das ISO-Image in eine virtuelle Festplatte (VHD) zu konvertieren:
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ Wenn Sie eine Bereitstellung mit mehreren Standorten bereitstellen, ist es nicht
 
 Für die bereitgestellten PowerShell-Skripts muss die Ausführungsrichtlinie auf „RemoteSigned“ festgelegt werden. Um die aktuelle Einstellung anzuzeigen, öffnen Sie eine PowerShell-Konsole als Administrator und führen Sie dann das folgende Cmdlet aus:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 Wenn die Einstellung nicht „RemoteSigned“ lautet, führen Sie das folgende Cmdlet aus, um sie zu ändern:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

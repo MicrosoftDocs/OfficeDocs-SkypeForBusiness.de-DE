@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhandenen Skype for Business Cloud Connector Edition 1.4.1-oder höher-Bereitstellung zu ändern.
-ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ead952c0ba567a8e5d81c52144de597e50d24014
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287048"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002285"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
  
 Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhandenen Skype for Business Cloud Connector Edition 1.4.1-oder höher-Bereitstellung zu ändern. 
   
@@ -32,13 +32,13 @@ Wenn die Site nur eine Appliance enthält und Sie die Konfigurationseinstellunge
   
 1. Führen Sie das folgende Cmdlet aus, um alle vorhandenen virtuellen Maschinen auf dem Hostserver zu deinstallieren:  
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Führen Sie das folgende Cmdlet aus, um die Registrierung der Appliance aufzuheben:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -46,19 +46,19 @@ Wenn die Site nur eine Appliance enthält und Sie die Konfigurationseinstellunge
     
 4. Führen Sie das folgende Cmdlet aus, um die Konfiguration zu aktualisieren: (dieser Schritt gilt nur für Version 2; für vorherige Versionen fahren Sie mit dem nächsten Schritt fort.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Führen Sie das folgende Cmdlet aus, um die Appliance wieder zu registrieren:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Führen Sie das folgende Cmdlet aus, um Skype for Business Cloud Connector Edition zu installieren:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -66,13 +66,13 @@ Wenn am Standort mehrere Appliances vorhanden sind, müssen Sie diese Schritte a
   
 1. Führen Sie das folgende Cmdlet aus, um alle vorhandenen virtuellen Computer auf der aktuellen Appliance zu deinstallieren: 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Führen Sie das folgende Cmdlet aus, um die Registrierung der Appliance aufzuheben:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -80,25 +80,25 @@ Wenn am Standort mehrere Appliances vorhanden sind, müssen Sie diese Schritte a
     
 4. Führen Sie das folgende Cmdlet aus, um die Konfiguration zu aktualisieren: (dieser Schritt gilt nur für Version 2; für vorherige Versionen fahren Sie mit dem nächsten Schritt fort.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Führen Sie das folgende Cmdlet aus, um die Appliance wieder zu registrieren:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Führen Sie das folgende Cmdlet in allen anderen Appliances am Standort aus, um die aktuelle Konfiguration zu übernehmen:
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 7. Führen Sie das folgende Cmdlet aus, um den Cloud Connector für die aktuelle Appliance erneut bereitzustellen:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -116,7 +116,7 @@ Wenn Sie automatische Updates für das Betriebssystem oder automatische Updates 
   
 1. Die EnableAutoUpdate-Eigenschaft der Website muss auf "true" (der Standardwert) festgelegt werden. Führen Sie das folgende Cmdlet aus, um sicherzustellen, dass „EnableAutoUpdate“ auf „true“ festgelegt ist:
     
-   ```
+   ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
@@ -132,19 +132,19 @@ Wenn Sie automatische Updates für das Betriebssystem oder automatische Updates 
     
    - Für jeden Mandanten können 20 Zeitfenster definiert sein. Das Standardzeitfenster wird für einen neuen Mandanten als Standardzeitfenster für Betriebssystemupdates und Updates der Bits erstellt. Führen Sie die folgenden Cmdlets aus, um tägliche, wöchentliche oder monatliche Zeitfenster festzulegen:
     
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
@@ -152,7 +152,7 @@ Wenn Sie automatische Updates für das Betriebssystem oder automatische Updates 
     
      Die Zeitfenster für BITS-Updates und Betriebssystemupdates werden getrennt konfiguriert. Beiden Updatearten können Sie ein oder mehrere Zeitfenstern zuweisen. Jedes Zeitfenster kann verschiedenen Sites und Zwecken zugewiesen sein (BITS-Update und Betriebssystemupdate). Führen Sie das folgende Cmdlet aus, um das Zeitfenster für die Website einzurichten: 
     
-   ```
+   ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
@@ -163,7 +163,7 @@ Administrative Änderungen im Office 365-Mandanten für Cloud Connector erfolgen
   
 Wenn sich die Anmeldeinformationen für Ihr Administratorkonto in Office 365 ändern, müssen Sie auch die lokal zwischengespeicherten Anmeldeinformationen in Cloud Connector aktualisieren, indem Sie den folgenden Administrator PowerShell-Befehl auf jeder von Ihnen bereitgestellten Cloud Connector-Appliance ausführen:
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
@@ -179,11 +179,11 @@ Wenn Sie die lokal gespeicherten Anmeldeinformationen auf der Cloud Connector-Ap
   
 1. Führen Sie die folgenden Befehle aus, um die Kennwörter abzurufen, die Sie später benötigen:  
     
-   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   - Get-CcCredential-AccountType DomainAdmin-DisplayPassword
     
-   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential-AccountType VMAdmin-DisplayPassword
     
-   - Get-CcCredential -AccountType CceService -DisplayPassword
+   - Get-CcCredential-AccountType CceService-DisplayPassword
     
 2. Ändern Sie das Kennwort Ihres Kontos auf dem Hostserver.
     
@@ -227,7 +227,7 @@ Für jede Appliance, die zur gleichen PSTN-Website gehört, müssen Sie Folgende
   
 1. Führen Sie die folgenden Befehle aus, um die Kontonamen und Kennwörter abzurufen, die Sie später verwenden werden:
     
-   ```
+   ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
    Get-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
@@ -269,11 +269,11 @@ Für jede Appliance, die zur gleichen PSTN-Website gehört, müssen Sie Folgende
     
     - CcLockFile
     
-    - Site_\<Edge externer SIP-Pool-FQDN\>
+    - FQDN\<des externen SIP-Pools Site_ Edge\>
     
-    - Tenant_\<Edge externer SIP-Pool-FQDN\>
+    - FQDN\<des externen SIP-Pools Tenant_ Edge\>
     
-    - TenantConfigLock_\<Edge externer SIP-Pool-FQDN\>
+    - FQDN\<des externen SIP-Pools TenantConfigLock_ Edge\>
     
 ## <a name="add-a-new-sip-domain"></a>Hinzufügen einer neuen SIP-Domäne 
 <a name="BKMK_UpdatePassword"> </a>
@@ -288,7 +288,7 @@ Gehen Sie wie folgt vor, um Ihrer vorhandenen Cloud Connector-Bereitstellung ein
     
 4. Legen Sie den Pfad für das neue externe Zertifikat des Edges wie folgt fest:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -309,7 +309,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
 4. Legen Sie den Pfad für das neue externe Zertifikat des Edges wie folgt fest:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -317,7 +317,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
     Entfernen Sie die mandantenregistrierung für jede Appliance auf einer Website, indem Sie das folgende Cmdlet in Administrator-PowerShell auf Cloud Connector ausführen:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -325,7 +325,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
     Entfernen Sie die Siteregistrierung für jede Site, indem Sie das folgende Cmdlet in Skype for Business Online-PowerShell ausführen:
     
-   ```
+   ```powershell
    Remove-CsHybridPSTNSite
    ```
 
@@ -333,7 +333,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
     Deinstallieren Sie jede Appliance, indem Sie das folgende Cmdlet in der Administrator-PowerShell auf Cloud Connector ausführen:
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
@@ -341,7 +341,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
      Registrieren Sie die einzelnen Appliances, indem Sie das folgende Cmdlet in der Administrator-PowerShell auf Cloud Connector ausführen:
     
-   ```
+   ```powershell
    Register-ccAppliance
    ```
 
@@ -349,7 +349,7 @@ Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung änder
     
      Installieren Sie jede Appliance einzeln, indem Sie das folgende Cmdlet in der Administrator-PowerShell auf Cloud Connector ausführen:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -362,7 +362,7 @@ Wenn Sie das Zertifikat für externe Edge auf Ihren Cloud Connector-Appliances e
     
 2. Führen Sie den folgenden Befehl aus: 
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
    ```
 

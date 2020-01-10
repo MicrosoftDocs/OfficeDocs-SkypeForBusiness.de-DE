@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System in einer lokalen Umgebung mit einer einzelnen Gesamtstruktur bereitgestellt wird.
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775263"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002945"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System – Lokale Bereitstellungen mit einzelner Gesamtstruktur
  
@@ -31,13 +31,13 @@ Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpost
   
 1. Führen Sie den folgenden PowerShell-Befehl für die Exchange-Verwaltung aus:
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. Wenn Sie planen, ein neues Postfach zu erstellen, führen Sie für eine lokale Exchange-Organisation mit einer einzelnen Gesamtstruktur folgenden Befehl aus:
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpost
     
 3. Konfigurieren Sie das Konto so, dass Konflikte automatisch aufgelöst werden, indem Sie Besprechungen annehmen/ablehnen. Skype Room-System ausgestattete Konferenzraum Konten in Exchange können von Einzelpersonen verwaltet werden, beachten Sie jedoch, dass die Person, die eine Besprechung annimmt, nicht im Skype Room System-Startbildschirm Kalender angezeigt wird.
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpost
     
    Führen Sie den folgenden Befehl aus, um die Besprechungsorganisatoren daran zu erinnern, dass Sie eine Online-Skype for Business-Besprechung in Outlook führen, um einen QuickInfo für das neue Konto einzurichten: 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. Verwenden Sie die folgenden Befehle, um lokalisierte Meldungen zu konfigurieren. Sofern es für Ihr Unternehmen erforderlich ist, können Sie angepasste Übersetzungen hinzufügen: 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpost
 
 5. Optional: Konfigurieren von Besprechungs Akzeptanz Text, der Benutzern Informationen zu Skype for Business-Besprechungsräumen bietet und was Sie erwarten können, wenn Sie Besprechungen planen und daran teilnehmen. 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ Deshalb gilt: Wenn das Konto deaktiviert ist, müssen Sie das Konto in Active D
   
 1. Führen Sie in Active Directory den folgenden Befehl aus, um die Kontoanmeldung zu aktivieren: 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ Deshalb gilt: Wenn das Konto deaktiviert ist, müssen Sie das Konto in Active D
     
 2. Führen Sie, nachdem das Kennwort festgelegt worden ist, den folgenden Befehl aus, um das Konto zu aktivieren: 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,18 +100,18 @@ Nachdem Sie ein Ressourcen Postfachkonto für die Konferenzräume erstellt haben
   
 1. Führen Sie den folgenden Befehl aus, um das Skype Room-System Konto in einem Skype for Business Server-Pool zu aktivieren:
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. Optional: Erlauben Sie, dass dieses Konto Festnetzanrufe tätigt und empfängt, indem Sie das Konto für Enterprise-VoIP aktivieren. Enterprise-VoIP ist für das Skype Room System nicht erforderlich, wenn Sie es aber nicht für Enterprise-VoIP aktivieren, kann der Skype Room-System Client keine PSTN-Wählfunktionen bereitstellen:
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```
 
 > [!NOTE]
-> Wenn Sie Enterprise-VoIP für das Skype Room System-Konferenzraum Konto aktivieren, stellen Sie sicher, dass Sie eine für Ihre Organisation geeignete Richtlinie für eingeschränkte VoIP konfigurieren. Wenn es sich bei dem Skype for Business-Besprechungsraum um eine öffentlich verfügbare Ressource handelt, kann jeder Teilnehmer an einer Besprechung teilnehmen, entweder geplant oder Ad-hoc. Nach dem Beitritt zu einer Besprechung kann die Person beliebige Nummern anwählen. In Skype for Business Server verwendet das Feature für die Auswahl von Konferenzen die VoIP-Richtlinie des Benutzers, in diesem Fall das Skype Room-System Konto, das für die Teilnahme an der Besprechung verwendet wurde. In früheren Versionen von Lync Server wird die VoIP-Richtlinie des Organisators verwendet. Wenn ein Benutzer einer früheren Version von lync Server einen Besprechungsraum plant und das Skype Room-System Raum Konto einlädt, könnte jeder Nutzer den Skype for Business-Besprechungsraum nutzen, um an der Besprechung teilzunehmen und ein beliebiges nationales/regionales oder internationales Telefon zu wählen. Nummer, solange der Organisator diese Nummern anrufen darf. 
+> Wenn Sie Enterprise-VoIP für das Skype Room System-Konferenzraum Konto aktivieren, stellen Sie sicher, dass Sie eine für Ihre Organisation geeignete Richtlinie für eingeschränkte VoIP konfigurieren. Wenn es sich bei dem Skype for Business-Besprechungsraum um eine öffentlich verfügbare Ressource handelt, kann jeder Teilnehmer an einer Besprechung teilnehmen, entweder geplant oder Ad-hoc. Nach dem Beitritt zu einer Besprechung kann die Person beliebige Nummern anwählen. In Skype for Business Server verwendet das Feature für die Auswahl von Konferenzen die VoIP-Richtlinie des Benutzers, in diesem Fall das Skype Room-System Konto, das für die Teilnahme an der Besprechung verwendet wurde. In früheren Versionen von Lync Server wird die VoIP-Richtlinie des Organisators verwendet. Wenn ein Benutzer einer früheren Version von lync Server einen Besprechungsraum plant und das Skype Room-System Raum Konto einlädt, kann jeder Nutzer den Skype for Business-Besprechungsraum nutzen, um an der Besprechung teilzunehmen, und kann eine beliebige nationale/regionale oder internationale Telefonnummer wählen, sofern dem Organisator die Wahl dieser Nummern gestattet ist. 
   
 

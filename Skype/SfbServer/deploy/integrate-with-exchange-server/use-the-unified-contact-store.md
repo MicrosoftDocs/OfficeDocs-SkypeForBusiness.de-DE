@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Zusammenfassung: Konfigurieren des Unified Contacts Store für Exchange Server und Skype for Business Server.'
-ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244131"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003555"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Konfigurieren von Skype for Business Server für die Verwendung des einheitlichen Kontaktspeichers
  
@@ -38,19 +38,19 @@ Wenn Sie Skype for Business Server installieren, wird auch eine Richtlinie für 
   
 Wenn Sie lieber nicht alle Kontakte zum einheitlichen Kontaktspeicher migrieren möchten, können Sie den einheitlichen Kontaktspeicher für alle Benutzer deaktivieren, indem Sie die Eigenschaft „UcsAllowed“ in der globalen Richtlinie auf „False“ setzen:
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 Nachdem Sie den Unified Contact Store in der globalen Richtlinie deaktiviert haben, können Sie eine benutzerspezifische Richtlinie erstellen, die die Verwendung des einheitlichen Kontaktspeichers ermöglicht. auf diese Weise können einige Benutzer Ihre Kontakte im Unified Contact Store behalten, während andere Benutzer weiterhin Ihre Kontakte in Skype for Business Server behalten. Sie können eine Benutzer dienstrichtlinie pro Benutzer erstellen, indem Sie einen Befehl wie den folgenden verwenden:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 Nachdem Sie die neue Richtlinie erstellt haben, müssen Sie sie jedem Benutzer zuweisen, der Zugang zum einheitlichen Kontaktspeicher haben soll. Das Zuweisen von benutzerbezogenen Richtlinien zu Benutzern führen Sie mit Befehlen wie dem folgenden durch:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -58,23 +58,23 @@ Nachdem die Richtlinie zugewiesen wurde, wird Skype for Business Server beginnen
   
 Sie können überprüfen, ob die Kontakte eines Benutzers erfolgreich in den Unified Contact Store migriert wurden, indem Sie das Cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) in der Skype for Business Server-Verwaltungsshell ausführen:
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Wenn Test-CsUnifiedContactStore erfolgreich ist, bedeutet dies, dass die Kontakte für den Benutzer SIP:<span></span>kenmyer<span></span>@ "litwareinc. com in den einheitlichen Kontaktspeicher migriert wurden.
+Wenn Test-CsUnifiedContactStore erfolgreich ist, bedeutet dies, dass die Kontakte für den Benutzer SIP<span></span>:<span></span>kenmyer@ "litwareinc. com in den einheitlichen Kontaktspeicher migriert wurden.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Zurückverlegung aus dem einheitlichen Kontaktspeicher
 
 Wenn Sie die Kontakte eines Benutzers aus dem Unified Contact Store entfernen müssen (wenn der Benutzer beispielsweise auf Microsoft lync Server 2010 verlagert werden muss und daher den einheitlichen Kontaktspeicher nicht mehr verwenden kann), müssen Sie zwei Schritte ausführen. Zunächst müssen Sie dem Benutzer eine neue Richtlinie für Benutzer Dienste zuweisen, die verhindert, dass Kontakte im Unified Contact Store gespeichert werden. (Dies ist eine Richtlinie, bei der die UcsAllowed-Eigenschaft auf $false festgesetzt wurde.) Wenn Sie nicht über eine solche Richtlinie verfügen, können Sie Sie mithilfe eines Befehls wie den folgenden erstellen:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 Anschließend können Sie diese neue benutzerbezogene Richtlinie (NoUnifiedContactStore) mit dem folgenden Befehl zuweisen:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -87,7 +87,7 @@ Die Terminologie "verhindert, dass Ken-Kontakte in den einheitlichen Kontaktspei
   
 Das bedeutet auch, dass Sie nach dem Zuweisen des Benutzers zu einer neuen Richtlinie für Benutzer Dienste das Cmdlet [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) ausführen müssen, um die Kontakte des Benutzers aus dem Exchange-Server zu entfernen und zurück zu Skype for Business Server zu wechseln. Beispiel: Nachdem Sie dem Benutzer „Ken Myer“ eine neue Benutzerdienst-Richtlinie zugewiesen haben, können Sie seine Kontakte mit dem folgenden Befehl aus dem einheitlichen Kontaktspeicher verlegen:
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

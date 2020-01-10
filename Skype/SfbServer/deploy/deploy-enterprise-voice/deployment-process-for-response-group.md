@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Bereitstellungsprozess und Schritte für die Reaktionsgruppe in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233299"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001185"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Bereitstellungsprozess für die Reaktionsgruppe in Skype for Business
 
@@ -85,7 +85,7 @@ Führen Sie zum Ändern der Datei „Web.config“ die folgenden Schritte aus:
 
 3. Fügen Sie im `<machineKey>` `<system.web>` Abschnitt den folgenden Abschnitt hinzu:
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -93,7 +93,7 @@ Führen Sie zum Ändern der Datei „Web.config“ die folgenden Schritte aus:
 
 5. Starten Sie den Dienst Internet Informationsdienste (IIS) neu, indem Sie an einer Eingabeaufforderung den folgenden Befehl ausführen:
 
-   ```
+   ```console
    iisreset
    ```
 
@@ -116,7 +116,7 @@ Um Yi-, Meng- oder Zang-Zeichen zu unterstützen, müssen Sie die Sortierung fü
 
 - dbo.Workflows
 
-Verwenden Sie für SQL Server 2008 R2 und SQL Server 2012 die Latin_General_100 (Accent sensitiv)-Sortierung. Bei Verwendung dieser Sortierung wird die Groß-/Kleinschreibung bei Objektnamen nicht beachtet.
+Verwenden Sie für SQL Server 2008 R2 und SQL Server 2012 die Sortierung Latin_General_100 (Akzent sensitiv). Bei Verwendung dieser Sortierung wird die Groß-/Kleinschreibung bei Objektnamen nicht beachtet.
 
 Die Sortierung kann über Microsoft SQL Server Management Studio geändert werden. Ausführliche Informationen zur Verwendung dieses Tools finden Sie unter ["Verwenden von SQL Server Management Studio"](https://go.microsoft.com/fwlink/p/?linkId=196184). Führen Sie die folgenden Schritte aus, um die Sortierung zu ändern:
 

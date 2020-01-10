@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine Archivierungs Verzichterklärung für Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234358"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001055"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Konfigurieren von Archivierungs Ausschlüssen für externe Benutzer in Skype for Business Server
  
@@ -45,13 +45,13 @@ Damit externe Benutzer mit Benutzern in Ihrer Skype for Business Server-Bereitst
 
 Zum Aktivieren des Archivierungshaftungsausschlusses legen Sie den Wert der Eigenschaft **EnableArchivingDisclaimer** auf „True“ ($True) fest:
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 Zum Deaktivieren des Archivierungshaftungsausschlusses legen Sie den Wert der Eigenschaft **EnableArchivingDisclaimer** auf „False“ ($False) fest:
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

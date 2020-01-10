@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069376"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003315"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
@@ -39,7 +39,7 @@ Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
-1. Wechseln Sie in der linken Navigationsleiste zu **organisationsweiten Einstellungen** > **Teams Upgrade**. 
+1. Wechseln Sie im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)im linken Navigationsbereich zu **organisationsweiten Einstellungen** > **Teams Upgrade**. 
 
 2. Nehmen Sie oben auf der Seite " **Teams-Upgrade** " die folgenden Änderungen vor, wenn Sie für Sie funktionieren.
     - Setzen Sie den **Koexistenzmodus** .

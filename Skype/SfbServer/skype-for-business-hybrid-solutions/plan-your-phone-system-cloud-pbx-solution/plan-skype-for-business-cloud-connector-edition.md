@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
-ms.openlocfilehash: 1ef79cc9d50e21dc8b3376901638cd4f34e03f62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287013"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002275"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
@@ -244,7 +244,7 @@ Bevor Sie Cloud Connector Edition bereitstellen, stellen Sie sicher, dass Sie f�
 
   - Geben Sie Proxyeinstellungen pro Computer und nicht pro Benutzer an. Andernfalls schlägt der Download von Cloud Connector fehl. Sie können Proxyeinstellungen wie folgt mit einer Registrierungsänderung oder mit einer Gruppenrichtlinieneinstellung pro Computer angeben:
 
-  - **Registrierung:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet-Einstellungen] ProxySettingsPerUser DWORD: 00000000
+  - **Registrierung:** HKEY_LOCAL_MACHINE \software\policies\microsoft\windows\currentversion\internet-Einstellungen] ProxySettingsPerUser DWORD: 00000000
 
   - **Gruppenrichtlinien:** Computer\>administrative Vorlagen\>Windows-\> Komponenten Internet Explorer: Proxy Einstellungen pro Computer vornehmen (und nicht pro Benutzer)
 
@@ -360,13 +360,13 @@ Aus Sicherheitsgründen können Sie den Portbereich für die Mediations Komponen
 
 Mit dem folgenden Befehl können Sie beispielsweise die Anzahl der Ports einschränken, die von der Mediations Komponente für den Mediendatenverkehr auf 50 000-51 000 für Audio (ein-und ausgehend) verwendet werden. Mit dieser Konfiguration kann die Vermittlungskomponente 250 Anrufe gleichzeitig verarbeiten. Beachten Sie, dass es ratsam sein kann, diesen Bereich auch am SBC/PSTN-Gateway zu begrenzen:
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
 Wenn Sie den Namen der Mediations Komponente abrufen und Standardanschlüsse sehen möchten, können Sie das Cmdlet [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) wie folgt verwenden:
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
@@ -516,7 +516,7 @@ Beachten Sie beim Konfigurieren der Gateway-Informationen Folgendes:
 |VoIP-Gateway 1-IP-Adresse  <br/> |IP-Adresse des VoIP-Gateways  <br/> ||
 |IP-Adresse des VoIP-Gateways 2 (Kopieren Sie diese Zeile, wenn Sie über mehr als zwei Gateways verfügen)  <br/> |IP-Adresse des VoIP-Gateways  <br/> ||
 |Voice Gateway 1 Port # (Kopieren Sie diese Zeile, wenn Sie über mehr als zwei Gateways verfügen)  <br/> |Nummer des Ports, den der VoIP-Gateway-SIP-Trunk überwacht, z. B. 5060  <br/> ||
-|Voice Gateway 2 Port #  <br/> |Nummer des Ports, den der VoIP-Gateway-SIP-Trunk überwacht, z. B. 5060  <br/> ||
+|VoIP-Gateway 2-Port #  <br/> |Nummer des Ports, den der VoIP-Gateway-SIP-Trunk überwacht, z. B. 5060  <br/> ||
 |Voice Gateway 1-Protokoll für SIP-Datenverkehr  <br/> |TCP oder TLS  <br/> ||
 |Voice Gateway 2-Protokoll für SIP-Datenverkehr (Kopieren Sie diese Zeile, wenn Sie über mehr als zwei Gateways verfügen)  <br/> |TCP oder TLS  <br/> ||
 |Externer Medienportbereich für Datenverkehr von der bzw. zur Edgekomponente  <br/> |TCP/UDP-Portbereich für Mediendatenverkehr an und von der externen Schnittstelle von Edge. Muss immer von 50 000 beginnen. Weitere Informationen finden Sie unter "Ports and Protocols".  <br/> |50000 - 59 999  <br/> |

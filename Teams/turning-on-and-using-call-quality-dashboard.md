@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972486"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005177"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -35,11 +35,13 @@ Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, u
   
 Das Anruf Qualitäts Dashboard (CQD) bietet Einblicke in die Qualität von anrufen, die mit Microsoft Teams und Skype for Business Online-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, mit denen Sie Daten sammeln können, um Probleme mit der Anrufqualität zu beheben.
 
-Derzeit stehen CQD Version 3 und CQD Version 2 zur Verwendung zur Verfügung. CQD V3 steht unter <span>https://cqd.teams.microsoft.com</span>. Melden Sie sich mit Ihren Microsoft Teams-Administratoranmeldeinformationen an.
+Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügbar unter <span>https://cqd.teams.microsoft.com</span>. Neue URL, aber dieselbe Anmeldung mit Ihren Administratoranmeldeinformationen.
 
 ## <a name="latest-changes-and-updates"></a>Aktuelle Änderungen und Updates
 
-CQD Version 3 bietet ein nahezu Echtzeit-CQD-Dashboard (Wartezeit in der Nähe von 30 Minuten) und verwendet Endbenutzer-identifizierbare Informationen (EUII), sodass Administratoren die Benutzerebene vergrößern können. Darüber hinaus gibt es Berichts Interaktivität zur Unterstützung neuer Szenarien wie:
+
+Das aktualisierte CQD (ab Anfang November 2019) bietet ein nahezu Echt Zeit CQD-Dashboard. CQD-Daten sind jetzt im Durchschnitt in 30 Minuten verfügbar (im Vergleich zum vorherigen CQD, der durchschnittlich 24 Stunden beträgt).  Der aktualisierte CQD verwendet Endbenutzer identifizierbare Informationen (EUII), sodass Administratoren die Möglichkeit haben, einen Drilldown durchführen und die Benutzerebene zu vergrößern. Darüber hinaus gibt es Berichts Interaktivität zur Unterstützung neuer Szenarien wie:
+
 
 - Anrufqualität nach Regionen:
   - Datum-für-Region
@@ -387,11 +389,11 @@ CQD verwendet eine Endpunkt Datendatei. Die Spaltenwerte werden in der ersten Cl
 
   **Feld Reihenfolge:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Beispiel Zeile:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+"1409W3534, 123-Hersteller, Fabrikam-Modell 123, Laptop, IT-Designated 2018-Laptop, Inventar-Tag 5678, Kauf 2018
 
 ## <a name="create-custom-detailed-reports"></a>Erstellen benutzerdefinierter detaillierter Berichte
 

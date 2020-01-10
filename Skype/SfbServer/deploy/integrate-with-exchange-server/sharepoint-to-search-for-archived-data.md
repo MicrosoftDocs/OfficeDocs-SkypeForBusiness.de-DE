@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Zusammenfassung: Konfigurieren Sie SharePoint Server für die Suche nach Daten, die von Exchange Server und Skype for Business Server archiviert werden.'
-ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d896d6acecd808e5b153e931b8c4b3a8ba62ed9a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244141"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003575"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Konfigurieren von SharePoint Server für die Suche nach archivierten Skype for Business-Daten
  
 **Zusammenfassung:** Konfigurieren Sie SharePoint Server für die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype for Business Server archiviert werden.
   
-Einer der Hauptvorteile für das Speichern von Instant Messaging-und Webkonferenz Protokollen in Exchange Server anstelle von Skype for Business Server besteht darin, dass Administratoren mithilfe eines einzigen Tools nach archivierten Exchange-Daten suchen können. und/oder archivierte Skype for Business Server-Daten. Da alle Daten an derselben Stelle (Exchange) gespeichert sind, können alle Tools, die nach archivierten Exchange-Daten suchen können, auch nach archivierten Skype for Business Server-Daten suchen.
+Einer der Hauptvorteile für das Speichern von Instant Messaging-und Webkonferenz Protokollen in Exchange Server anstelle von Skype for Business Server besteht darin, dass Administratoren mithilfe eines einzigen Tools nach archivierten Exchange-Daten und/oder archivierten Skype for Business Server-Daten suchen können. Da alle Daten an derselben Stelle (Exchange) gespeichert sind, können alle Tools, die nach archivierten Exchange-Daten suchen können, auch nach archivierten Skype for Business Server-Daten suchen.
   
-Ein Tool, mit dem Sie nach archivierten Daten einfach suchen können, ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint für die Suche nach Skype for Business Server-Daten verwenden möchten, müssen Sie zunächst alle Schritte ausführen, die bei der Konfiguration der Exchange-Archivierung in Skype for Business Server erforderlich sind. Nachdem Exchange Server und Skype for Business Server erfolgreich integriert wurden, müssen Sie die [verwaltete API](https://go.microsoft.com/fwlink/p/?LinkId=258305) für Exchange-Webdienste auf dem SharePoint-Server installieren. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
+Ein Tool, mit dem Sie nach archivierten Daten einfach suchen können, ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint für die Suche nach Skype for Business Server-Daten verwenden möchten, müssen Sie zunächst alle Schritte ausführen, die bei der Konfiguration der Exchange-Archivierung in Skype for Business Server erforderlich sind. Nachdem Exchange Server und Skype for Business Server erfolgreich integriert wurden, müssen Sie die verwaltete API für Exchange [-Webdienste](https://go.microsoft.com/fwlink/p/?LinkId=258305) auf dem SharePoint-Server installieren. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
   
 Wenn die Datei vollständig heruntergeladen ist, führen Sie auf dem SharePoint-Server folgendes Verfahren aus:
   
@@ -33,25 +33,25 @@ Wenn die Datei vollständig heruntergeladen ist, führen Sie auf dem SharePoint-
     
 2. Verwenden Sie im Befehlsfenster den Befehl cd, um das aktuelle Verzeichnis in den Ordner zu ändern, in dem die Datei „EWSManagedAPI.msi“ gespeichert wurde. Wenn Sie beispielsweise die Datei auf C:\Downloads gespeichert haben, geben Sie den folgenden Befehl im Befehlsfenster ein, und drücken Sie dann die EINGABETASTE:
     
-   ```
+   ```console
    cd C:\Downloads
    ```
 
 3. Zum Installieren der API geben Sie den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
     
-   ```
+   ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
    ```
 
 4. Nachdem die API installiert wurde, setzen Sie IIS zurück, indem Sie den folgenden Befehl eingeben und die EINGABETASTE drücken:
     
-   ```
+   ```console
    iisreset
    ```
 
 Nachdem Exchange-Webdienste installiert wurden, müssen Sie die Server-zu-Server-Authentifizierung zwischen SharePoint Server und Exchange Server konfigurieren. Öffnen Sie dazu zunächst die SharePoint-Verwaltungsshell, und führen Sie die folgenden Befehlssätze aus:
   
-```
+```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 $service = Get-SPSecurityTokenServiceConfig
 $service.HybridStsSelectionEnabled = $True
@@ -65,7 +65,7 @@ $service.Update()
   
 Nachdem Sie den Token-Aussteller erstellt und den Tokendienst konfiguriert haben, führen Sie diese Befehle aus, und stellen Sie sicher, dass Sie die URL Ihrer SharePoint-Website für die Beispiel-URL ersetzen.http://atl-sharepoint-001:
   
-```
+```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
 $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
 $site = Get-SPSite  "https://atl-sharepoint-001"
@@ -74,13 +74,13 @@ Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "Site
 
 Wenn Sie die Server-zu-Server-Authentifizierung für Exchange Server konfigurieren möchten, öffnen Sie die Exchange-Verwaltungsshell, und führen Sie einen ähnlichen Befehl aus (vorausgesetzt, Exchange wurde auf Laufwerk C: installiert und verwendet den Standardordnerpfad):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
 Nachdem Sie die Partneranwendung konfiguriert haben, empfiehlt es sich, Internet Informationsdienste (IIS) auf allen Exchange-Post Fach-und Clientzugriffsservern zu beenden und neu zu starten. Sie können IIS neu starten, indem Sie einen ähnlichen Befehl verwenden, mit dem der Dienst auf dem Computer "ATL-Exchange-001" neu gestartet wird:
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -88,13 +88,13 @@ Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehl
   
 Führen Sie als nächstes einen Befehl aus, der dem folgenden ähnelt, wodurch der angegebene Benutzer (in diesem Beispiel kenmyer) das Recht hat, eine Ermittlung in Exchange durchzuführen:
   
-```
+```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
 Nachdem die Server-zu-Server-Authentifizierung zwischen Exchange und SharePoint hergestellt wurde, besteht der nächste Schritt darin, eine eDiscovery-Website in SharePoint zu erstellen. Dies kann durch Ausführen von Befehlen ähnlich wie in der SharePoint-Verwaltungsshell erfolgen:
   
-```
+```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
 New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 ```

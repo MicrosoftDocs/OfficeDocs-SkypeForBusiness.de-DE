@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Zusammenfassung: Aktivieren des Unified Contact Stores in Skype for Business Server.'
-ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239317"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003065"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Bereitstellen des einheitlichen Kontaktspeichers in Skype for Business Server
  
@@ -44,37 +44,37 @@ Wenn Sie Skype for Business Server bereitstellen und die Topologie veröffentlic
     
    - Wenn Sie den Unified Contact Store Global für alle Skype for Business Server-Benutzer aktivieren möchten, unter dem folgenden Cmdlet auf der Windows PowerShell-Befehlszeilenschnittstelle:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
    - Wenn Sie den einheitlichen Kontaktspeicher für die Benutzer an einem bestimmten Standort aktivieren möchten, geben Sie an der Eingabeaufforderung Folgendes ein:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
    Beispiel:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
    ```
 
    - Wenn Sie den einheitlichen Kontaktspeicher nach Mandant aktivieren möchten, geben Sie an der Eingabeaufforderung Folgendes ein:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
    Beispiel:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
    - Wenn Sie den einheitlichen Kontaktspeicher für bestimmte Benutzer aktivieren möchten, geben Sie an der Eingabeaufforderung Folgendes ein:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
    ```
@@ -84,7 +84,7 @@ Wenn Sie Skype for Business Server bereitstellen und die Topologie veröffentlic
   
     Beispiel:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
    ```
@@ -108,13 +108,13 @@ Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eine
   
 - Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP-\>URL \UCS
+    HKEY_CURRENT_USER \software\microsoft\office\15.0\lync\\<SIP-\>URL \UCS
     
     Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel den Wert InUCSMode mit dem Wert 2165.
     
 - Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus. Geben Sie in der Befehlszeile der Skype for Business Server-Verwaltungsshell Folgendes ein:
     
-  ```
+  ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
@@ -139,6 +139,6 @@ Durch das Importieren der Daten eines einheitlichen Kontaktspeichers aus einer S
 > [!IMPORTANT]
 > Bevor Sie ein Exchange-Postfach von Exchange 2013 auf Exchange 2010 verschieben, muss der Exchange-Administrator sicherstellen, dass der Skype for Business Server-Administrator zuerst die Skype for Business Server-Benutzer Kontakte von Exchange 2013 auf Skype für zurückgesetzt hat. Business Server. Informationen zum Rollback von Unified Contact Store-Kontakten in Skype for Business Server finden Sie unter Verfahren "So führen Sie einen Rollback für Unified Contact Store-Kontakte von Exchange 2013 zu Skype for Business Server" weiter unten in diesem Abschnitt durch. 
   
- **Wiederherstellen von Benutzerkontakten:** Wenn Sie das Cmdlet **Move-CsUser** verwenden, um Benutzer zwischen Skype for Business Server 2015 und lync Server 2010 zu verschieben, können Sie diese Schritte überspringen, da das Cmdlet **Move-CsUser** den Unified Contact Store automatisch zurücksetzt, wenn Nutzer von Skype für verschoben werden. Business Server 2015 auf lync Server 2010. **Verschieben-CsUser** deaktiviert die Unified Contact Store-Richtlinie nicht, sodass die Migration in den Unified Contact Store wiederholt wird, wenn der Benutzer zurück zu Skype for Business Server 2015 verschoben wird.
+ **Wiederherstellen von Benutzerkontakten:** Wenn Sie das Cmdlet **Move-CsUser** verwenden, um Benutzer zwischen Skype for Business Server 2015 und lync Server 2010 zu verschieben, können Sie diese Schritte überspringen, da das Cmdlet **Move-CsUser** den Unified Contact Store automatisch zurücksetzt, wenn Benutzer von Skype for Business Server 2015 nach lync Server 2010 verschoben werden. **Verschieben-CsUser** deaktiviert die Unified Contact Store-Richtlinie nicht, sodass die Migration in den Unified Contact Store wiederholt wird, wenn der Benutzer zurück zu Skype for Business Server 2015 verschoben wird.
   
 

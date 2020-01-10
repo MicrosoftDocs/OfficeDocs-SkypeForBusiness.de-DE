@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die Clientumgebung für Skype for Business-Benutzer konfigurieren.'
-ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234452"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003535"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Konfigurieren der Clientumgebung mit Skype for Business 2015
  
@@ -35,7 +35,7 @@ Skype for Business Server unterstützt die neue Skype for Business-Clientumgebun
 
 Sie können die Client-Erfahrung Ihres Unternehmens, die den Benutzern angezeigt wird, angeben, indem Sie das Cmdlet **Set-CSClientPolicy** mit dem Parameter EnableSkypeUI verwenden:
   
-```
+```powershell
 Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 ```
 
@@ -43,33 +43,33 @@ wobei sich XdsIdentity auf die globale Richtlinie oder eine benannte Standortric
   
 Mit dem folgenden Befehl wird die Skype for Business-Clientumgebung für alle Benutzer in Ihrer Organisation ausgewählt, die von der globalen Richtlinie betroffen sind (denken Sie daran, dass Website-oder benutzerspezifische Richtlinien die globale Richtlinie außer Kraft setzen): 
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
 Der nächste Befehl wählt die lync-Clientumgebung für alle Benutzer in Ihrer Organisation aus, die von der globalen Richtlinie betroffen sind:
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
 Mit dem folgenden Befehl wird die Skype for Business-Clientumgebung für alle Benutzer auf der Website "Redmond" ausgewählt:
   
-```
+```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-Wenn Sie die Clientumgebung für bestimmte Benutzer in Ihrer Organisation konfigurieren möchten, können Sie mithilfe des Cmdlets **New-CsClientPolicy** eine neue Benutzerrichtlinie erstellen und dann die Richtlinie bestimmten Benutzern zuweisen, indem Sie die **Grant-CsClientPolicy** Cmdlet.
+Wenn Sie die Clientumgebung für bestimmte Benutzer in Ihrer Organisation konfigurieren möchten, können Sie mithilfe des Cmdlets **New-CsClientPolicy** eine neue Benutzerrichtlinie erstellen und dann die Richtlinie bestimmten Benutzern zuweisen, indem Sie das Cmdlet **Grant-CsClientPolicy** verwenden.
   
 Mit dem folgenden Befehl wird beispielsweise eine neue Clientrichtlinie, SalesClientUI, erstellt, die die Skype for Business-Clientumgebung auswählt:
   
-```
+```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 ```
 
 Der nächste Befehl weist die Richtlinie „SalesClientUI“ allen Mitgliedern der Verkaufsabteilung zu:
   
-```
+```powershell
 Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 ```
 
@@ -117,7 +117,7 @@ Erstellen Sie im Schlüssel **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\
   
 Lync
   
-```
+```console
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -131,10 +131,10 @@ Wenn in Ihrer Organisation sowohl Skype for Business Server als auch lync Server
 |**Serverversion**|**EnableSkypeUI-Einstellung**|**Client-Erfahrung**|
 |:-----|:-----|:-----|
 |Skype for Business Server |Standard  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |Wahr  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |Falsch  <br/> |Der Benutzer hat gebeten, in den lync-Modus zu wechseln (der Benutzer kann später zu Skype for Business wechseln, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |Standard  <br/> |Der Benutzer hat gebeten, in den lync-Modus zu wechseln (der Benutzer kann später zu Skype for Business wechseln, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
-|Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |Wahr  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |Falsch  <br/> |Der Benutzer hat gebeten, in den lync-Modus zu wechseln (der Benutzer kann später zu Skype for Business wechseln, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder lync Server 2013 (ohne Patches)  <br/> |Standard  <br/> |Der Benutzer hat gebeten, in den lync-Modus zu wechseln (der Benutzer kann später nicht mehr zu Skype for Business wechseln)  <br/> |
    
@@ -143,9 +143,9 @@ Die nächste Tabelle zeigt die Clientumgebung, wenn der Administrator die anfän
 
 |**Serverversion**|**EnableSkypeUI-Einstellung**|**Client-UI = lync**|**Client-Benutzeroberfläche = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |True  <br/> |Benutzer hat gebeten, zu Skype for Business zu wechseln  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |Wahr  <br/> |Benutzer hat gebeten, zu Skype for Business zu wechseln  <br/> |Skype for Business  <br/> |
 |Skype for Business Server |Falsch  <br/> |Lync-Modus  <br/> |Der Benutzer hat aufgefordert, in den lync-Modus zu wechseln  <br/> |
-|Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |True  <br/> |Benutzer hat gebeten, zu Skype for Business zu wechseln  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |Wahr  <br/> |Benutzer hat gebeten, zu Skype for Business zu wechseln  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)  <br/> |Falsch  <br/> |Lync-Modus  <br/> |Der Benutzer hat aufgefordert, in den lync-Modus zu wechseln  <br/> |
 |Lync Server 2010 oder lync Server 2013 (ohne Patches)  <br/> |Standard  <br/> |Lync-Modus (kann nicht zu Skype for Business wechseln)  <br/> |Lync-Modus (kann nicht zu Skype for Business wechseln)  <br/> |
    
@@ -200,7 +200,7 @@ Anschließend müssen Sie das erstellte Gruppenrichtlinienobjekt mit der Gruppe 
     
 3. Öffnen Sie auf dem Computer des Zielbenutzers eine Eingabeaufforderung und geben Sie den folgenden Befehl ein:
        
-```
+```console
 gpupdate /target:user
 ```
 
