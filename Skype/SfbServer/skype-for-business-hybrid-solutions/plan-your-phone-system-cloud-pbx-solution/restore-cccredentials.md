@@ -11,51 +11,51 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.
-ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287083"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003245"
 ---
-# <a name="restore-cccredentials"></a><span data-ttu-id="01900-103">Restore-CcCredentials</span><span class="sxs-lookup"><span data-stu-id="01900-103">Restore-CcCredentials</span></span>
+# <a name="restore-cccredentials"></a><span data-ttu-id="591a0-103">Restore-CcCredentials</span><span class="sxs-lookup"><span data-stu-id="591a0-103">Restore-CcCredentials</span></span>
  
-<span data-ttu-id="01900-104">Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.</span><span class="sxs-lookup"><span data-stu-id="01900-104">The Restore Cc-Credentials cmdlet restores all credentials of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
+<span data-ttu-id="591a0-104">Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.</span><span class="sxs-lookup"><span data-stu-id="591a0-104">The Restore Cc-Credentials cmdlet restores all credentials of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
   
-<span data-ttu-id="01900-105">Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.</span><span class="sxs-lookup"><span data-stu-id="01900-105">This cmdlet applies to Skype for Business Cloud Connector Edition 2.1.</span></span>
+<span data-ttu-id="591a0-105">Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.</span><span class="sxs-lookup"><span data-stu-id="591a0-105">This cmdlet applies to Skype for Business Cloud Connector Edition 2.1.</span></span>
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="01900-106">Detaillierte Beschreibung</span><span class="sxs-lookup"><span data-stu-id="01900-106">Detailed Description</span></span>
+## <a name="detailed-description"></a><span data-ttu-id="591a0-106">Detaillierte Beschreibung</span><span class="sxs-lookup"><span data-stu-id="591a0-106">Detailed Description</span></span>
 
-<span data-ttu-id="01900-107">Das Cmdlet Restore-CcCredentials bereinigt alle Anmeldeinformationen und fordert Sie auf, alle für die aktuelle Skype for Business Cloud Connector-Bereitstellung verwendeten Anmeldeinformationen erneut einzugeben.</span><span class="sxs-lookup"><span data-stu-id="01900-107">The Restore-CcCredentials cmdlet cleans up all credentials and prompts you to re-enter all the credentials used for the current Skype for Business Cloud Connector deployment.</span></span>
+<span data-ttu-id="591a0-107">Das Cmdlet Restore-CcCredentials bereinigt alle Anmeldeinformationen und fordert Sie auf, alle für die aktuelle Skype for Business Cloud Connector-Bereitstellung verwendeten Anmeldeinformationen erneut einzugeben.</span><span class="sxs-lookup"><span data-stu-id="591a0-107">The Restore-CcCredentials cmdlet cleans up all credentials and prompts you to re-enter all the credentials used for the current Skype for Business Cloud Connector deployment.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="01900-108">Parameter</span><span class="sxs-lookup"><span data-stu-id="01900-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="591a0-108">Parameter</span><span class="sxs-lookup"><span data-stu-id="591a0-108">Parameters</span></span>
 
-<span data-ttu-id="01900-109">Keine</span><span class="sxs-lookup"><span data-stu-id="01900-109">None</span></span>
+<span data-ttu-id="591a0-109">Keine</span><span class="sxs-lookup"><span data-stu-id="591a0-109">None</span></span>
   
-## <a name="input-types"></a><span data-ttu-id="01900-110">Eingabetypen</span><span class="sxs-lookup"><span data-stu-id="01900-110">Input Types</span></span>
+## <a name="input-types"></a><span data-ttu-id="591a0-110">Eingabetypen</span><span class="sxs-lookup"><span data-stu-id="591a0-110">Input Types</span></span>
 
-<span data-ttu-id="01900-111">Keine.</span><span class="sxs-lookup"><span data-stu-id="01900-111">None.</span></span> <span data-ttu-id="01900-112">Das Cmdlet "Restore-CcCredentials" akzeptiert keine Pipeline-Eingaben.</span><span class="sxs-lookup"><span data-stu-id="01900-112">The Restore-CcCredentials cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="591a0-111">Keine.</span><span class="sxs-lookup"><span data-stu-id="591a0-111">None.</span></span> <span data-ttu-id="591a0-112">Das Cmdlet "Restore-CcCredentials" akzeptiert keine Pipeline-Eingaben.</span><span class="sxs-lookup"><span data-stu-id="591a0-112">The Restore-CcCredentials cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="01900-113">Rückgabetypen</span><span class="sxs-lookup"><span data-stu-id="01900-113">Return Types</span></span>
+## <a name="return-types"></a><span data-ttu-id="591a0-113">Rückgabetypen</span><span class="sxs-lookup"><span data-stu-id="591a0-113">Return Types</span></span>
 
-<span data-ttu-id="01900-114">Keine.</span><span class="sxs-lookup"><span data-stu-id="01900-114">None.</span></span>
+<span data-ttu-id="591a0-114">Keine.</span><span class="sxs-lookup"><span data-stu-id="591a0-114">None.</span></span>
   
-## <a name="example"></a><span data-ttu-id="01900-115">Beispiel</span><span class="sxs-lookup"><span data-stu-id="01900-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="591a0-115">Beispiel</span><span class="sxs-lookup"><span data-stu-id="591a0-115">Example</span></span>
 
-<span data-ttu-id="01900-116">Im folgenden Beispiel werden alle Anmeldeinformationen der aktuellen Cloud Connector-Bereitstellung wiederhergestellt:</span><span class="sxs-lookup"><span data-stu-id="01900-116">The following example restores all credentials of the current Cloud Connector deployment:</span></span>
+<span data-ttu-id="591a0-116">Im folgenden Beispiel werden alle Anmeldeinformationen der aktuellen Cloud Connector-Bereitstellung wiederhergestellt:</span><span class="sxs-lookup"><span data-stu-id="591a0-116">The following example restores all credentials of the current Cloud Connector deployment:</span></span>
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 
-## <a name="see-also"></a><span data-ttu-id="01900-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="01900-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="591a0-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="591a0-117">See also</span></span>
 
-[<span data-ttu-id="01900-118">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="01900-118">Get-CcCredential</span></span>](get-cccredential.md)
+[<span data-ttu-id="591a0-118">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="591a0-118">Get-CcCredential</span></span>](get-cccredential.md)
   
-[<span data-ttu-id="01900-119">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="01900-119">Set-CcCredential</span></span>](set-cccredential.md)
+[<span data-ttu-id="591a0-119">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="591a0-119">Set-CcCredential</span></span>](set-cccredential.md)
   
 

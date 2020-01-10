@@ -14,179 +14,179 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema, um Informationen zu den Schritten zum Bereitstellen der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu erhalten.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287545"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003485"
 ---
-# <a name="deploy-media-bypass-in-cloud-connector-edition"></a><span data-ttu-id="6d9d9-103">Bereitstellen der medienumgehung in Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="6d9d9-103">Deploy media bypass in Cloud Connector Edition</span></span>
+# <a name="deploy-media-bypass-in-cloud-connector-edition"></a><span data-ttu-id="dd146-103">Bereitstellen der medienumgehung in Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="dd146-103">Deploy media bypass in Cloud Connector Edition</span></span>
  
-<span data-ttu-id="6d9d9-104">Lesen Sie dieses Thema, um Informationen zu den Schritten zum Bereitstellen der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-104">Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later.</span></span> 
+<span data-ttu-id="dd146-104">Lesen Sie dieses Thema, um Informationen zu den Schritten zum Bereitstellen der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="dd146-104">Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later.</span></span> 
   
-<span data-ttu-id="6d9d9-105">Die medienumgehung ermöglicht es einem Client, Medien direkt an das öffentlich geschaltete Telefon Netzwerk (PSTN) nächster Hop zu senden – einen Gateway-oder Session Border Controller (SBC) – und die Cloud Connector Edition-Komponente aus dem Medienpfad zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-105">Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path.</span></span> <span data-ttu-id="6d9d9-106">Siehe auch [Planen der medienumgehung in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span><span class="sxs-lookup"><span data-stu-id="6d9d9-106">See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span></span>
+<span data-ttu-id="dd146-105">Die medienumgehung ermöglicht es einem Client, Medien direkt an das öffentlich geschaltete Telefon Netzwerk (PSTN) nächster Hop zu senden – einen Gateway-oder Session Border Controller (SBC) – und die Cloud Connector Edition-Komponente aus dem Medienpfad zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="dd146-105">Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path.</span></span> <span data-ttu-id="dd146-106">Siehe auch [Planen der medienumgehung in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span><span class="sxs-lookup"><span data-stu-id="dd146-106">See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span></span>
   
-## <a name="enable-media-bypass"></a><span data-ttu-id="6d9d9-107">Medienumgehung aktivieren</span><span class="sxs-lookup"><span data-stu-id="6d9d9-107">Enable media bypass</span></span>
+## <a name="enable-media-bypass"></a><span data-ttu-id="dd146-107">Medienumgehung aktivieren</span><span class="sxs-lookup"><span data-stu-id="dd146-107">Enable media bypass</span></span>
 
-<span data-ttu-id="6d9d9-108">Um die medienumgehung zu aktivieren, müssen Sie den DNS-Namen des Media Bypass-Webdiensts konfigurieren und die medienumgehung in der Mandanten Konfiguration aktivieren.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-108">To enable media bypass, you must configure the DNS name of the media bypass web service and turn on media bypass in the tenant configuration.</span></span> <span data-ttu-id="6d9d9-109">Der Medien Umgehungs-Web-Service wird automatisch auf jedem Vermittlungs Server bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-109">The media bypass web service deploys automatically on every Mediation Server.</span></span> <span data-ttu-id="6d9d9-110">Ein mandantenadministrator muss einen Namen für einen Hybrid-Voice-Service (Website) aussuchen, und dieser Name sollte aus einer für Hybrid-VoIP registrierten SIP-Domäne sein.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-110">A tenant administrator must pick a name for a hybrid voice service (site), and this name should be from a SIP domain registered for hybrid voice.</span></span> <span data-ttu-id="6d9d9-111">Der Dienstname sollte unabhängig vom Clientstandort für alle Cloud Connector-Appliances und alle PSTN-Standorte identisch sein.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-111">The service name should be the same across all Cloud Connector appliances and all PSTN sites regardless of the client location.</span></span> <span data-ttu-id="6d9d9-112">Der Webdienst sollte nur intern im Netzwerk zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-112">The web service should only be available internally on the network.</span></span>
+<span data-ttu-id="dd146-108">Um die medienumgehung zu aktivieren, müssen Sie den DNS-Namen des Media Bypass-Webdiensts konfigurieren und die medienumgehung in der Mandanten Konfiguration aktivieren.</span><span class="sxs-lookup"><span data-stu-id="dd146-108">To enable media bypass, you must configure the DNS name of the media bypass web service and turn on media bypass in the tenant configuration.</span></span> <span data-ttu-id="dd146-109">Der Medien Umgehungs-Web-Service wird automatisch auf jedem Vermittlungs Server bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="dd146-109">The media bypass web service deploys automatically on every Mediation Server.</span></span> <span data-ttu-id="dd146-110">Ein mandantenadministrator muss einen Namen für einen Hybrid-Voice-Service (Website) aussuchen, und dieser Name sollte aus einer für Hybrid-VoIP registrierten SIP-Domäne sein.</span><span class="sxs-lookup"><span data-stu-id="dd146-110">A tenant administrator must pick a name for a hybrid voice service (site), and this name should be from a SIP domain registered for hybrid voice.</span></span> <span data-ttu-id="dd146-111">Der Dienstname sollte unabhängig vom Clientstandort für alle Cloud Connector-Appliances und alle PSTN-Standorte identisch sein.</span><span class="sxs-lookup"><span data-stu-id="dd146-111">The service name should be the same across all Cloud Connector appliances and all PSTN sites regardless of the client location.</span></span> <span data-ttu-id="dd146-112">Der Webdienst sollte nur intern im Netzwerk zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="dd146-112">The web service should only be available internally on the network.</span></span>
   
-<span data-ttu-id="6d9d9-113">Ein Mandantenadministrator muss einen DNS-A-Eintrag in der internen Active Directory-Produktionsinstanz konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-113">A tenant administrator must configure a DNS A record in the internal production Active Directory.</span></span> <span data-ttu-id="6d9d9-114">Wenn Sie über eine komplexe Multi-Site-Umgebung verfügen, lesen Sie das Beispiel in [Beispiel: medienumgehung von Website-DNS-Einträgen in komplexen Multi-Site-Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="6d9d9-114">If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span> <span data-ttu-id="6d9d9-115">Der DNS-Eintrag sollte nur für interne Netzwerkclients aufgelöst werden, nicht für externe Netzwerkclients.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-115">The DNS record should only resolve for internal network clients; it should not resolve for external network clients.</span></span>
+<span data-ttu-id="dd146-113">Ein Mandantenadministrator muss einen DNS-A-Eintrag in der internen Active Directory-Produktionsinstanz konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="dd146-113">A tenant administrator must configure a DNS A record in the internal production Active Directory.</span></span> <span data-ttu-id="dd146-114">Wenn Sie über eine komplexe Multi-Site-Umgebung verfügen, lesen Sie das Beispiel in [Beispiel: medienumgehung von Website-DNS-Einträgen in komplexen Multi-Site-Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="dd146-114">If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span> <span data-ttu-id="dd146-115">Der DNS-Eintrag sollte nur für interne Netzwerkclients aufgelöst werden, nicht für externe Netzwerkclients.</span><span class="sxs-lookup"><span data-stu-id="dd146-115">The DNS record should only resolve for internal network clients; it should not resolve for external network clients.</span></span>
   
-<span data-ttu-id="6d9d9-116">Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skype for Business-Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-116">After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials.</span></span> <span data-ttu-id="6d9d9-117">Weitere Informationen finden Sie unter [Einrichten Ihres Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .</span><span class="sxs-lookup"><span data-stu-id="6d9d9-117">For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .</span></span>
+<span data-ttu-id="dd146-116">Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skype for Business-Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her.</span><span class="sxs-lookup"><span data-stu-id="dd146-116">After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials.</span></span> <span data-ttu-id="dd146-117">Weitere Informationen finden Sie unter [Einrichten Ihres Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .</span><span class="sxs-lookup"><span data-stu-id="dd146-117">For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .</span></span>
   
-<span data-ttu-id="6d9d9-118">Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-118">In the PowerShell session, enter the following commands to enable media bypass:</span></span>
+<span data-ttu-id="dd146-118">Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="dd146-118">In the PowerShell session, enter the following commands to enable media bypass:</span></span>
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-<span data-ttu-id="6d9d9-119">Die Aktivierung der Medienumgehung besteht aus zwei Schritten.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-119">Enabling media bypass is a two-step process.</span></span> <span data-ttu-id="6d9d9-120">Das Cmdlet „New-CsNetworkMedia“ speichert die neue Konfiguration nicht sofort, es erstellt die Einstellungen nur im Arbeitsspeicher.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-120">The New-CsNetworkMedia cmdlet does not immediately save the new configuration; it only creates the settings in memory.</span></span> <span data-ttu-id="6d9d9-121">Das von diesem Cmdlet erstellte Objekt muss in einer Variablen gespeichert und dann der Eigenschaft „MediaBypassSettings“ der Netzwerkkonfiguration zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-121">The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration.</span></span> <span data-ttu-id="6d9d9-122">Weitere Informationen finden Sie unter [Beispiel: Website-DNS-Einträge für die medienumgehung in komplexen Multi-Site-Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="6d9d9-122">For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span>
+<span data-ttu-id="dd146-119">Die Aktivierung der Medienumgehung besteht aus zwei Schritten.</span><span class="sxs-lookup"><span data-stu-id="dd146-119">Enabling media bypass is a two-step process.</span></span> <span data-ttu-id="dd146-120">Das Cmdlet „New-CsNetworkMedia“ speichert die neue Konfiguration nicht sofort, es erstellt die Einstellungen nur im Arbeitsspeicher.</span><span class="sxs-lookup"><span data-stu-id="dd146-120">The New-CsNetworkMedia cmdlet does not immediately save the new configuration; it only creates the settings in memory.</span></span> <span data-ttu-id="dd146-121">Das von diesem Cmdlet erstellte Objekt muss in einer Variablen gespeichert und dann der Eigenschaft „MediaBypassSettings“ der Netzwerkkonfiguration zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="dd146-121">The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration.</span></span> <span data-ttu-id="dd146-122">Weitere Informationen finden Sie unter [Beispiel: Website-DNS-Einträge für die medienumgehung in komplexen Multi-Site-Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="dd146-122">For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span>
   
-<span data-ttu-id="6d9d9-123">Die Replikation zwischen den lokalen Komponenten und den Onlinekomponenten kann bis zu 24 Stunden dauern. Daher empfiehlt Microsoft, die notwendigen Befehle auszuführen, bevor Sie Benutzer aktivieren. 
-</span><span class="sxs-lookup"><span data-stu-id="6d9d9-123">The replication between the on-premises and online components can take up to 24 hours, so Microsoft recommends that you run the necessary commands before enabling users.</span></span>
+<span data-ttu-id="dd146-123">Die Replikation zwischen den lokalen Komponenten und den Onlinekomponenten kann bis zu 24 Stunden dauern. Daher empfiehlt Microsoft, die notwendigen Befehle auszuführen, bevor Sie Benutzer aktivieren. 
+</span><span class="sxs-lookup"><span data-stu-id="dd146-123">The replication between the on-premises and online components can take up to 24 hours, so Microsoft recommends that you run the necessary commands before enabling users.</span></span>
   
-## <a name="confirm-media-bypass-settings"></a><span data-ttu-id="6d9d9-124">Überprüfen der Medienumgehungseinstellungen</span><span class="sxs-lookup"><span data-stu-id="6d9d9-124">Confirm media bypass settings</span></span>
+## <a name="confirm-media-bypass-settings"></a><span data-ttu-id="dd146-124">Überprüfen der Medienumgehungseinstellungen</span><span class="sxs-lookup"><span data-stu-id="dd146-124">Confirm media bypass settings</span></span>
 
-<span data-ttu-id="6d9d9-125">Sie können die Medienumgehungseinstellungen wie folgt überprüfen. </span><span class="sxs-lookup"><span data-stu-id="6d9d9-125">You can check the media bypass settings as follows.</span></span> 
+<span data-ttu-id="dd146-125">Sie können die Medienumgehungseinstellungen wie folgt überprüfen. </span><span class="sxs-lookup"><span data-stu-id="dd146-125">You can check the media bypass settings as follows.</span></span> 
   
-<span data-ttu-id="6d9d9-126">Führen Sie den folgenden Befehl in Remote PowerShell aus, um die Online Replikation auf ihren Mandanten Pool zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-126">To check online replication to your tenant pool, run the following command in remote PowerShell:</span></span>
+<span data-ttu-id="dd146-126">Führen Sie den folgenden Befehl in Remote PowerShell aus, um die Online Replikation auf ihren Mandanten Pool zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="dd146-126">To check online replication to your tenant pool, run the following command in remote PowerShell:</span></span>
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="6d9d9-127">Um die lokale Replikation zu überprüfen, stellen Sie eine Verbindung mit dem Cloud Connector-Vermittlungsserver her, führen Sie in PowerShell den folgenden Befehl aus, und bestätigen Sie, dass Enabled = true und AlwaysBypass = true sind.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-127">To check the on-premises replication, connect to the Cloud Connector Mediation servers, run the following command in PowerShell, and confirm that Enabled=True and AlwaysBypass=True</span></span>
+<span data-ttu-id="dd146-127">Um die lokale Replikation zu überprüfen, stellen Sie eine Verbindung mit dem Cloud Connector-Vermittlungsserver her, führen Sie in PowerShell den folgenden Befehl aus, und bestätigen Sie, dass Enabled = true und AlwaysBypass = true sind.</span><span class="sxs-lookup"><span data-stu-id="dd146-127">To check the on-premises replication, connect to the Cloud Connector Mediation servers, run the following command in PowerShell, and confirm that Enabled=True and AlwaysBypass=True</span></span>
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="6d9d9-128">Um die Clienteinstellungen zu überprüfen, melden Sie sich beim Skype for Business-Client ab, melden Sie sich wieder an, und bestätigen Sie, dass der Client die Dienst-URL wie folgt erhalten hat:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-128">To check the client settings, sign out of the Skype for Business client, sign back in, and confirm that the client has received the service URL as follows:</span></span>
+<span data-ttu-id="dd146-128">Um die Clienteinstellungen zu überprüfen, melden Sie sich beim Skype for Business-Client ab, melden Sie sich wieder an, und bestätigen Sie, dass der Client die Dienst-URL wie folgt erhalten hat:</span><span class="sxs-lookup"><span data-stu-id="dd146-128">To check the client settings, sign out of the Skype for Business client, sign back in, and confirm that the client has received the service URL as follows:</span></span>
   
-1. <span data-ttu-id="6d9d9-129">Öffnen Sie „%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog“.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-129">Open %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.</span></span> 
+1. <span data-ttu-id="dd146-129">Öffnen Sie „%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog“.</span><span class="sxs-lookup"><span data-stu-id="dd146-129">Open %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.</span></span> 
     
-2. <span data-ttu-id="6d9d9-130">Suchen Sie nach „hybridconfigserviceinternalurl“, und vergewissern Sie sich, dass die URL mit der übereinstimmt, die Sie definiert haben.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-130">Search for hybridconfigserviceinternalurl and confirm the URL matches the one you defined.</span></span>
+2. <span data-ttu-id="dd146-130">Suchen Sie nach „hybridconfigserviceinternalurl“, und vergewissern Sie sich, dass die URL mit der übereinstimmt, die Sie definiert haben.</span><span class="sxs-lookup"><span data-stu-id="dd146-130">Search for hybridconfigserviceinternalurl and confirm the URL matches the one you defined.</span></span>
     
-## <a name="change-media-bypass-parameters"></a><span data-ttu-id="6d9d9-131">Ändern von Medienumgehungsparametern</span><span class="sxs-lookup"><span data-stu-id="6d9d9-131">Change media bypass parameters</span></span>
+## <a name="change-media-bypass-parameters"></a><span data-ttu-id="dd146-131">Ändern von Medienumgehungsparametern</span><span class="sxs-lookup"><span data-stu-id="dd146-131">Change media bypass parameters</span></span>
 
-<span data-ttu-id="6d9d9-132">Mandantenadministratoren können den DNS-Namen des Webdiensts ändern, indem sie das folgende Cmdlet ausführen:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-132">Tenant administrators are able to change the DNS name of the web service by running the following cmdlet:</span></span>
+<span data-ttu-id="dd146-132">Mandantenadministratoren können den DNS-Namen des Webdiensts ändern, indem sie das folgende Cmdlet ausführen:</span><span class="sxs-lookup"><span data-stu-id="dd146-132">Tenant administrators are able to change the DNS name of the web service by running the following cmdlet:</span></span>
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
 > [!IMPORTANT]
-> <span data-ttu-id="6d9d9-133">Clients müssen sich abmelden und dann wieder anmelden, um den neuen Dienstnahmen zu erhalten und die Änderung zu erkennen. </span><span class="sxs-lookup"><span data-stu-id="6d9d9-133">Clients need to sign out and sign in to get the new service name and recognize the change.</span></span> 
+> <span data-ttu-id="dd146-133">Clients müssen sich abmelden und dann wieder anmelden, um den neuen Dienstnahmen zu erhalten und die Änderung zu erkennen. </span><span class="sxs-lookup"><span data-stu-id="dd146-133">Clients need to sign out and sign in to get the new service name and recognize the change.</span></span> 
   
-## <a name="temporarily-disable-media-bypass"></a><span data-ttu-id="6d9d9-134">Vorübergehendes Deaktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="6d9d9-134">Temporarily disable media bypass</span></span>
+## <a name="temporarily-disable-media-bypass"></a><span data-ttu-id="dd146-134">Vorübergehendes Deaktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="dd146-134">Temporarily disable media bypass</span></span>
 
-<span data-ttu-id="6d9d9-p106">Dieses Szenario kann bei der Problembehandlung oder Wartung hilfreich sein. Um den Dienst zu deaktivieren, führen Sie die folgenden Cmdlets aus:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-p106">This scenario might be useful for troubleshooting or maintenance. To disable the service, run the following cmdlets:</span></span>
+<span data-ttu-id="dd146-p106">Dieses Szenario kann bei der Problembehandlung oder Wartung hilfreich sein. Um den Dienst zu deaktivieren, führen Sie die folgenden Cmdlets aus:</span><span class="sxs-lookup"><span data-stu-id="dd146-p106">This scenario might be useful for troubleshooting or maintenance. To disable the service, run the following cmdlets:</span></span>
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-<span data-ttu-id="6d9d9-137">Nachdem Sie die Änderung vorgenommen haben, kann es eine Weile dauern, bis die Änderungen an alle Cloud Connector-Appliances repliziert sind.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-137">After making the change, it could take some time for changes to replicate to all Cloud Connectors.</span></span> <span data-ttu-id="6d9d9-138">Führen Sie zum Überprüfen des Replikationsstatus das folgende Cmdlet in PowerShell auf Mediations Servern für Cloud Connector aus:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-138">To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers:</span></span> 
+<span data-ttu-id="dd146-137">Nachdem Sie die Änderung vorgenommen haben, kann es eine Weile dauern, bis die Änderungen an alle Cloud Connector-Appliances repliziert sind.</span><span class="sxs-lookup"><span data-stu-id="dd146-137">After making the change, it could take some time for changes to replicate to all Cloud Connectors.</span></span> <span data-ttu-id="dd146-138">Führen Sie zum Überprüfen des Replikationsstatus das folgende Cmdlet in PowerShell auf Mediations Servern für Cloud Connector aus:</span><span class="sxs-lookup"><span data-stu-id="dd146-138">To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers:</span></span> 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="6d9d9-139">Nach der Replikation der Änderungen lehnt der Webdienst auf dem Vermittlungsserver Clientanforderungen für den Medienumgehungsdienst ab.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-139">After the changes replicate, the web service on the Mediation Server will start rejecting client requests for the media bypass service.</span></span>
+<span data-ttu-id="dd146-139">Nach der Replikation der Änderungen lehnt der Webdienst auf dem Vermittlungsserver Clientanforderungen für den Medienumgehungsdienst ab.</span><span class="sxs-lookup"><span data-stu-id="dd146-139">After the changes replicate, the web service on the Mediation Server will start rejecting client requests for the media bypass service.</span></span>
   
-## <a name="disable-media-bypass-permanently"></a><span data-ttu-id="6d9d9-140">Dauerhaftes Deaktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="6d9d9-140">Disable media bypass permanently</span></span>
+## <a name="disable-media-bypass-permanently"></a><span data-ttu-id="dd146-140">Dauerhaftes Deaktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="dd146-140">Disable media bypass permanently</span></span>
 
-<span data-ttu-id="6d9d9-141">Um die Medienumgehung dauerhaft zu deaktivieren, muss ein Mandantenadministrator die folgenden Befehle ausführen:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-141">To permanently disable media bypass, a tenant administrator needs to run the following commands:</span></span> 
+<span data-ttu-id="dd146-141">Um die Medienumgehung dauerhaft zu deaktivieren, muss ein Mandantenadministrator die folgenden Befehle ausführen:</span><span class="sxs-lookup"><span data-stu-id="dd146-141">To permanently disable media bypass, a tenant administrator needs to run the following commands:</span></span> 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-<span data-ttu-id="6d9d9-142">Außerdem muss ein Administrator die Webadressen für die Medienumgehung von internen DNS-Servern entfernen.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-142">An administrator will also need to remove the web addresses for media bypass from internal DNS servers.</span></span> <span data-ttu-id="6d9d9-143">Nach der Änderung kann es einige Zeit dauern, bis Änderungen an allen Cloud Connector-Appliances repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-143">After making the change, it could take some time for changes to replicate to all Cloud Connector appliances.</span></span> 
+<span data-ttu-id="dd146-142">Außerdem muss ein Administrator die Webadressen für die Medienumgehung von internen DNS-Servern entfernen.</span><span class="sxs-lookup"><span data-stu-id="dd146-142">An administrator will also need to remove the web addresses for media bypass from internal DNS servers.</span></span> <span data-ttu-id="dd146-143">Nach der Änderung kann es einige Zeit dauern, bis Änderungen an allen Cloud Connector-Appliances repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="dd146-143">After making the change, it could take some time for changes to replicate to all Cloud Connector appliances.</span></span> 
   
-## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a><span data-ttu-id="6d9d9-144">Beispiel: DNS-Einträge für Medienumgehungs-Website in komplexen Umgebungen mit mehreren Standorten</span><span class="sxs-lookup"><span data-stu-id="6d9d9-144">Example: media bypass web site DNS records in complex multi-site environments</span></span>
-<span data-ttu-id="6d9d9-145"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="6d9d9-145"></span></span>
+## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a><span data-ttu-id="dd146-144">Beispiel: DNS-Einträge für Medienumgehungs-Website in komplexen Umgebungen mit mehreren Standorten</span><span class="sxs-lookup"><span data-stu-id="dd146-144">Example: media bypass web site DNS records in complex multi-site environments</span></span>
+<span data-ttu-id="dd146-145"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="dd146-145"></span></span>
 
-<span data-ttu-id="6d9d9-146">Clients erhalten die Webadresse des Medienumgehungs-Webdiensts von einem internen DNS-Server.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-146">Clients will receive the web address of the media bypass web service from an internal DNS server.</span></span> <span data-ttu-id="6d9d9-147">Der Name des Webdiensts ist in allen Cloud Connector-Appliances und den PSTN-Websites für Cloud Connector identisch.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-147">The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites.</span></span> <span data-ttu-id="6d9d9-148">In einer komplexen Umgebung mit mehreren Standorten empfehlen wir die Verwendung einer Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs, damit Clients an den für ihr Netzwerk lokalen Webdienst umgeleitet werden können.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-148">In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network.</span></span> 
+<span data-ttu-id="dd146-146">Clients erhalten die Webadresse des Medienumgehungs-Webdiensts von einem internen DNS-Server.</span><span class="sxs-lookup"><span data-stu-id="dd146-146">Clients will receive the web address of the media bypass web service from an internal DNS server.</span></span> <span data-ttu-id="dd146-147">Der Name des Webdiensts ist in allen Cloud Connector-Appliances und den PSTN-Websites für Cloud Connector identisch.</span><span class="sxs-lookup"><span data-stu-id="dd146-147">The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites.</span></span> <span data-ttu-id="dd146-148">In einer komplexen Umgebung mit mehreren Standorten empfehlen wir die Verwendung einer Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs, damit Clients an den für ihr Netzwerk lokalen Webdienst umgeleitet werden können.</span><span class="sxs-lookup"><span data-stu-id="dd146-148">In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network.</span></span> 
   
-<span data-ttu-id="6d9d9-149">Weitere Informationen zu DNS-Richtlinien für Windows 2016 finden Sie unter [Verwenden der DNS-Richtlinie für die Geolocation-basierte Datenverkehrsverwaltung mit primären Servern](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).</span><span class="sxs-lookup"><span data-stu-id="6d9d9-149">Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).</span></span>
+<span data-ttu-id="dd146-149">Weitere Informationen zu DNS-Richtlinien für Windows 2016 finden Sie unter [Verwenden der DNS-Richtlinie für die Geolocation-basierte Datenverkehrsverwaltung mit primären Servern](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).</span><span class="sxs-lookup"><span data-stu-id="dd146-149">Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).</span></span>
   
-<span data-ttu-id="6d9d9-150">Das folgende Beispiel zeigt eine Konfiguration für eine Firma mit mehreren Standorten, in der eine Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-150">The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.</span></span>
+<span data-ttu-id="dd146-150">Das folgende Beispiel zeigt eine Konfiguration für eine Firma mit mehreren Standorten, in der eine Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="dd146-150">The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.</span></span>
   
-<span data-ttu-id="6d9d9-151">Der Name für den Bypass-Dienst lautet "hybridvoice.adatum.biz".</span><span class="sxs-lookup"><span data-stu-id="6d9d9-151">The name for the bypass service is 'hybridvoice.adatum.biz'.</span></span>
+<span data-ttu-id="dd146-151">Der Name für den Bypass-Dienst lautet "hybridvoice.adatum.biz".</span><span class="sxs-lookup"><span data-stu-id="dd146-151">The name for the bypass service is 'hybridvoice.adatum.biz'.</span></span>
   
-<span data-ttu-id="6d9d9-152">Die Website in Amsterdam verfügt über vier Cloud Connector-Appliances, die mit den folgenden IP-Adressen des Vermittlungsservers bereitgestellt werden:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-152">The site in Amsterdam has four Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
+<span data-ttu-id="dd146-152">Die Website in Amsterdam verfügt über vier Cloud Connector-Appliances, die mit den folgenden IP-Adressen des Vermittlungsservers bereitgestellt werden:</span><span class="sxs-lookup"><span data-stu-id="dd146-152">The site in Amsterdam has four Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
   
-- <span data-ttu-id="6d9d9-153">192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="6d9d9-153">192.168.1.45</span></span>
+- <span data-ttu-id="dd146-153">192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="dd146-153">192.168.1.45</span></span>
     
-- <span data-ttu-id="6d9d9-154">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="6d9d9-154">192.168.1.46</span></span>
+- <span data-ttu-id="dd146-154">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="dd146-154">192.168.1.46</span></span>
     
-- <span data-ttu-id="6d9d9-155">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="6d9d9-155">192.168.1.47</span></span>
+- <span data-ttu-id="dd146-155">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="dd146-155">192.168.1.47</span></span>
     
-- <span data-ttu-id="6d9d9-156">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="6d9d9-156">192.168.1.48</span></span>
+- <span data-ttu-id="dd146-156">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="dd146-156">192.168.1.48</span></span>
     
-<span data-ttu-id="6d9d9-157">Die Website in Seattle verfügt über drei Cloud Connector-Appliances, die mit den folgenden Vermittlungs Server-IP-Adressen bereitgestellt werden:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-157">The site in Seattle has three Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
+<span data-ttu-id="dd146-157">Die Website in Seattle verfügt über drei Cloud Connector-Appliances, die mit den folgenden Vermittlungs Server-IP-Adressen bereitgestellt werden:</span><span class="sxs-lookup"><span data-stu-id="dd146-157">The site in Seattle has three Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
   
-- <span data-ttu-id="6d9d9-158">10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="6d9d9-158">10.10.1.8</span></span>
+- <span data-ttu-id="dd146-158">10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="dd146-158">10.10.1.8</span></span>
     
-- <span data-ttu-id="6d9d9-159">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="6d9d9-159">10.10.1.9</span></span>
+- <span data-ttu-id="dd146-159">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="dd146-159">10.10.1.9</span></span>
     
-- <span data-ttu-id="6d9d9-160">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="6d9d9-160">10.10.1.10</span></span>
+- <span data-ttu-id="dd146-160">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="dd146-160">10.10.1.10</span></span>
     
-<span data-ttu-id="6d9d9-161">Mithilfe von geolocationbasierter Verwaltung des Datenverkehrs würden Sie die DNS-Server so konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="6d9d9-161">Using Geo-Location Based Traffic Management, the DNS servers would be configured as follows:</span></span>
+<span data-ttu-id="dd146-161">Mithilfe von geolocationbasierter Verwaltung des Datenverkehrs würden Sie die DNS-Server so konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="dd146-161">Using Geo-Location Based Traffic Management, the DNS servers would be configured as follows:</span></span>
   
-1. <span data-ttu-id="6d9d9-162">Erstellen Sie DNS-Clientsubnetze für die Subnetze von Amsterdam und Seattle.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-162">Create DNS Client Subnets for both the Amsterdam and Seattle subnets.</span></span>
+1. <span data-ttu-id="dd146-162">Erstellen Sie DNS-Clientsubnetze für die Subnetze von Amsterdam und Seattle.</span><span class="sxs-lookup"><span data-stu-id="dd146-162">Create DNS Client Subnets for both the Amsterdam and Seattle subnets.</span></span>
     
-2. <span data-ttu-id="6d9d9-163">Erstellen Sie für Amsterdam und Seattle DNS-Zonenbereiche für „adatum.biz“.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-163">Create DNS Zone Scopes for adatum.biz for both Amsterdam and Seattle.</span></span>
+2. <span data-ttu-id="dd146-163">Erstellen Sie für Amsterdam und Seattle DNS-Zonenbereiche für „adatum.biz“.</span><span class="sxs-lookup"><span data-stu-id="dd146-163">Create DNS Zone Scopes for adatum.biz for both Amsterdam and Seattle.</span></span>
     
-3. <span data-ttu-id="6d9d9-164">Erstellen Sie in jedem DNS-Zonenbereich DNS-Einträge.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-164">Create DNS records in each DNS Zone Scope.</span></span>
+3. <span data-ttu-id="dd146-164">Erstellen Sie in jedem DNS-Zonenbereich DNS-Einträge.</span><span class="sxs-lookup"><span data-stu-id="dd146-164">Create DNS records in each DNS Zone Scope.</span></span>
     
-    <span data-ttu-id="6d9d9-165">Amsterdam</span><span class="sxs-lookup"><span data-stu-id="6d9d9-165">Amsterdam</span></span>
+    <span data-ttu-id="dd146-165">Amsterdam</span><span class="sxs-lookup"><span data-stu-id="dd146-165">Amsterdam</span></span>
     
-   - <span data-ttu-id="6d9d9-166">Typ A</span><span class="sxs-lookup"><span data-stu-id="6d9d9-166">Type A;</span></span>
+   - <span data-ttu-id="dd146-166">Typ A</span><span class="sxs-lookup"><span data-stu-id="dd146-166">Type A;</span></span>
     
-   - <span data-ttu-id="6d9d9-167">Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“</span><span class="sxs-lookup"><span data-stu-id="6d9d9-167">Name : hybridvoice in the adatum.biz DNS zone</span></span>
+   - <span data-ttu-id="dd146-167">Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“</span><span class="sxs-lookup"><span data-stu-id="dd146-167">Name : hybridvoice in the adatum.biz DNS zone</span></span>
     
-   - <span data-ttu-id="6d9d9-168">Ziel: 192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="6d9d9-168">Target: 192.168.1.45</span></span>
+   - <span data-ttu-id="dd146-168">Ziel: 192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="dd146-168">Target: 192.168.1.45</span></span>
     
-     <span data-ttu-id="6d9d9-169">Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-169">Create additional records for additional mediation servers</span></span>
+     <span data-ttu-id="dd146-169">Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.</span><span class="sxs-lookup"><span data-stu-id="dd146-169">Create additional records for additional mediation servers</span></span>
     
-   - <span data-ttu-id="6d9d9-170">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="6d9d9-170">192.168.1.46</span></span>
+   - <span data-ttu-id="dd146-170">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="dd146-170">192.168.1.46</span></span>
     
-   - <span data-ttu-id="6d9d9-171">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="6d9d9-171">192.168.1.47</span></span>
+   - <span data-ttu-id="dd146-171">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="dd146-171">192.168.1.47</span></span>
     
-   - <span data-ttu-id="6d9d9-172">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="6d9d9-172">192.168.1.48</span></span>
+   - <span data-ttu-id="dd146-172">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="dd146-172">192.168.1.48</span></span>
     
-     <span data-ttu-id="6d9d9-173">Seattle</span><span class="sxs-lookup"><span data-stu-id="6d9d9-173">Seattle</span></span>
+     <span data-ttu-id="dd146-173">Seattle</span><span class="sxs-lookup"><span data-stu-id="dd146-173">Seattle</span></span>
     
-   - <span data-ttu-id="6d9d9-174">Typ A</span><span class="sxs-lookup"><span data-stu-id="6d9d9-174">Type A</span></span>
+   - <span data-ttu-id="dd146-174">Typ A</span><span class="sxs-lookup"><span data-stu-id="dd146-174">Type A</span></span>
     
-   - <span data-ttu-id="6d9d9-175">Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“</span><span class="sxs-lookup"><span data-stu-id="6d9d9-175">Name : hybridvoice in adatum.biz DNS zone</span></span>
+   - <span data-ttu-id="dd146-175">Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“</span><span class="sxs-lookup"><span data-stu-id="dd146-175">Name : hybridvoice in adatum.biz DNS zone</span></span>
     
-   - <span data-ttu-id="6d9d9-176">Ziel: 10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="6d9d9-176">Target: 10.10.1.8</span></span>
+   - <span data-ttu-id="dd146-176">Ziel: 10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="dd146-176">Target: 10.10.1.8</span></span>
     
-     <span data-ttu-id="6d9d9-177">Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-177">Create additional records for additional mediation servers</span></span>
+     <span data-ttu-id="dd146-177">Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.</span><span class="sxs-lookup"><span data-stu-id="dd146-177">Create additional records for additional mediation servers</span></span>
     
-   - <span data-ttu-id="6d9d9-178">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="6d9d9-178">10.10.1.9</span></span>
+   - <span data-ttu-id="dd146-178">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="dd146-178">10.10.1.9</span></span>
     
-   - <span data-ttu-id="6d9d9-179">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="6d9d9-179">10.10.1.10</span></span>
+   - <span data-ttu-id="dd146-179">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="dd146-179">10.10.1.10</span></span>
     
-4. <span data-ttu-id="6d9d9-180">Erstellen Sie die DNS-Richtlinie, die die Clientsubnetze mit den entsprechenden Zonenbereichen verbindet, um die gewünschte DNS-Auflösung sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-180">Create the DNS policy that connects the client subnets to the appropriate zone scopes to ensure desired DNS resolution.</span></span>
+4. <span data-ttu-id="dd146-180">Erstellen Sie die DNS-Richtlinie, die die Clientsubnetze mit den entsprechenden Zonenbereichen verbindet, um die gewünschte DNS-Auflösung sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="dd146-180">Create the DNS policy that connects the client subnets to the appropriate zone scopes to ensure desired DNS resolution.</span></span>
     
-<span data-ttu-id="6d9d9-181">An dieser Stelle geben Clients aus dem Amsterdam-Subnetz die DNS-Abfragen für „hybridvoice.adatum.biz“ ausführen, die Adressen 192.168.1.45, 192.168.1.46, 192.168.1.47 und 192.168.1.48 zurück. Clients, die die gleiche Abfrage aus Seattle ausführen, geben dagegen 10.10.1.8, 10.10.1.9 und 10.10.1.10 zurück.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-181">At this point, clients making DNS queries from the Amsterdam subnet for hybridvoice.adatum.biz will return the 192.168.1.45, 192.168.1.46, 192.168.1.47 and 192.168.1.48 addresses, while clients making the same query form Seattle will return 10.10.1.8, 10.10.1.9 and 10.10.1.10.</span></span>
+<span data-ttu-id="dd146-181">An dieser Stelle geben Clients aus dem Amsterdam-Subnetz die DNS-Abfragen für „hybridvoice.adatum.biz“ ausführen, die Adressen 192.168.1.45, 192.168.1.46, 192.168.1.47 und 192.168.1.48 zurück. Clients, die die gleiche Abfrage aus Seattle ausführen, geben dagegen 10.10.1.8, 10.10.1.9 und 10.10.1.10 zurück.</span><span class="sxs-lookup"><span data-stu-id="dd146-181">At this point, clients making DNS queries from the Amsterdam subnet for hybridvoice.adatum.biz will return the 192.168.1.45, 192.168.1.46, 192.168.1.47 and 192.168.1.48 addresses, while clients making the same query form Seattle will return 10.10.1.8, 10.10.1.9 and 10.10.1.10.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6d9d9-182">Wenn die CCE-Appliance die aktualisierten Einstellungen anscheinend nicht erhält, überprüfen Sie, ob die Appliance über die Remote-PowerShell mit dem Mandanten Kontakt aufnehmen kann.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-182">If the CCE appliance doesn't seem to be getting the updated settings, check to see if the appliance is able to contact the tenant via remote PowerShell.</span></span> <span data-ttu-id="6d9d9-183">Sie können Remote-PowerShell verwenden, um den Appliance-Status mit Get-CsHybridPSTNAppliance zu überprüfen oder PowerShell auf dem CCE-Host zu verwenden, um den Status mithilfe von Get-CcApplianceStatus zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="6d9d9-183">You can use Remote PowerShell to check appliance status with Get-CsHybridPSTNAppliance or use PowerShell on the CCE host to check status with Get-CcApplianceStatus.</span></span>
+> <span data-ttu-id="dd146-182">Wenn die CCE-Appliance die aktualisierten Einstellungen anscheinend nicht erhält, überprüfen Sie, ob die Appliance über die Remote-PowerShell mit dem Mandanten Kontakt aufnehmen kann.</span><span class="sxs-lookup"><span data-stu-id="dd146-182">If the CCE appliance doesn't seem to be getting the updated settings, check to see if the appliance is able to contact the tenant via remote PowerShell.</span></span> <span data-ttu-id="dd146-183">Sie können Remote-PowerShell verwenden, um den Appliance-Status mit Get-CsHybridPSTNAppliance zu überprüfen oder PowerShell auf dem CCE-Host zu verwenden, um den Status mithilfe von Get-CcApplianceStatus zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="dd146-183">You can use Remote PowerShell to check appliance status with Get-CsHybridPSTNAppliance or use PowerShell on the CCE host to check status with Get-CcApplianceStatus.</span></span>
 
   
-## <a name="see-also"></a><span data-ttu-id="6d9d9-184">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="6d9d9-184">See also</span></span>
-<span data-ttu-id="6d9d9-185"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="6d9d9-185"></span></span>
+## <a name="see-also"></a><span data-ttu-id="dd146-184">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dd146-184">See also</span></span>
+<span data-ttu-id="dd146-185"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="dd146-185"></span></span>
 
-[<span data-ttu-id="6d9d9-186">Planen der Medienumgehung in der Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="6d9d9-186">Plan for media bypass in Cloud Connector Edition</span></span>](plan-for-media-bypass-in-cloud-connector-edition.md)
+[<span data-ttu-id="dd146-186">Planen der Medienumgehung in der Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="dd146-186">Plan for media bypass in Cloud Connector Edition</span></span>](plan-for-media-bypass-in-cloud-connector-edition.md)
