@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952598"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023389"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 
@@ -81,14 +81,21 @@ Wenn ein Benutzer Microsoft Teams in seinem Benutzerprofil deinstalliert, erkenn
 > [!TIP]
 > Für die Schritte 1 und 2 können Sie unser Skript für die [Bereinigung von Microsoft Teams-Bereitstellungen](scripts/Powershell-script-teams-deployment-clean-up.md) über SCCM verwenden.
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>Deaktivieren des automatischen Starts für das MSI-Installationsprogramm
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Verhindern, dass Teams nach der Installation automatisch gestartet werden
 
-Standardmäßig installiert das MSI-Paket den Teams-Client, sobald sich ein Benutzer anmeldet, und startet dann automatisch Teams. Sie können dieses Verhalten mit folgenden Parametern wie folgt ändern:
+Das Standardverhalten der MSI-Anwendung besteht darin, die Teams-APP zu installieren, sobald sich ein Benutzer anmeldet und dann Teams automatisch startet. Wenn Sie nicht möchten, dass Teams nach der Installation automatisch für Benutzer gestartet werden, können Sie mithilfe von Gruppenrichtlinien eine Richtlinieneinstellung festlegen oder den automatischen Start für das MSI-Installationsprogramm deaktivieren.
 
-- Wenn sich ein Benutzer bei Windows anmeldet, wird Teams mit dem MSI-Paket installiert.
-- Jedoch wird der Teams-Client nicht gestartet, bis der Benutzer Teams manuell startet.
-- Auf dem Desktop des Benutzers wird eine Verknüpfung zum Starten von Teams hinzugefügt.
-- Nach dem erstmaligen manuellen Start wird Teams automatisch gestartet, wenn sich der Benutzer anmeldet.
+#### <a name="use-group-policy-recommended"></a>Verwenden von Gruppenrichtlinien (empfohlen)
+
+Aktivieren Sie das **automatische Starten von Microsoft Teams nach der Installations** Gruppenrichtlinieneinstellung verhindern. Diese Richtlinieneinstellung finden Sie unter Benutzer sich Computerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Teams. Dies ist die empfohlene Methode, da Sie die Richtlinieneinstellung entsprechend den Anforderungen Ihrer Organisation deaktivieren oder aktivieren können.
+
+Wenn Sie diese Richtlinieneinstellung vor der Installation von Teams aktivieren, werden die Teams nicht automatisch gestartet, wenn sich Benutzer bei Windows anmelden. Nachdem sich ein Benutzer zum ersten Mal bei Teams angemeldet hat, wird das Team automatisch gestartet, wenn sich der Benutzer das nächste Mal anmeldet.
+
+Weitere Informationen finden Sie unter [Verwenden von Gruppenrichtlinien, um zu verhindern, dass Teams nach der Installation automatisch gestartet](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)werden.
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>Deaktivieren des automatischen Starts für das MSI-Installationsprogramm
+
+Sie können den automatischen Start für das MSI-Installationsprogramm deaktivieren, indem Sie den Parameter **Options = "noAutoStart = true"** wie folgt verwenden.  
 
 Für die 32-Bit-Version
 ```PowerShell
@@ -99,5 +106,7 @@ Für die 64-Bit-Version
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
+Wenn sich ein Benutzer bei Windows anmeldet, wird Teams mit dem MSI installiert, und eine Verknüpfung zum Starten von Teams wird dem Desktop des Benutzers hinzugefügt. Teams werden erst gestartet, wenn der Benutzer Teams manuell startet. Nachdem der Benutzer Teams manuell gestartet hat, werden die Teams automatisch gestartet, wenn sich der Benutzer anmeldet.
+
 > [!Note]
-> Wenn Sie das MSI-Paket manuell ausführen, sollten Sie es unbedingt mit erweiterten Berechtigungen ausführen. Auch wenn Sie es als Administrator ausführen, kann das Installationsprogramm die Option zum Deaktivieren des automatischen Starts nicht deaktivieren, wenn keine erweiterten Berechtigungen vorhanden sind.
+> Wenn Sie das MSI-Paket manuell ausführen, sollten Sie es unbedingt mit erweiterten Berechtigungen ausführen. Auch wenn Sie es als Administrator ausführen, ohne es mit erhöhten Berechtigungen auszuführen, kann das Installationsprogramm die Option zum Deaktivieren des automatischen Starts nicht konfigurieren.
