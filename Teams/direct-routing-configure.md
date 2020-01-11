@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
+ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992592"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022290"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -193,9 +193,9 @@ Für die direkte Weiterleitung muss der Benutzer in Skype for Business Online ve
 1. Herstellen einer Verbindung mit der Remote-PowerShell
 2. Geben Sie den folgenden Befehl ein: 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Konfigurieren Sie die Telefonnummer, und aktivieren Sie Enterprise-VoIP und Voicemail. 
 
@@ -206,9 +206,9 @@ So fügen Sie die Telefonnummer hinzu und aktivieren für Voicemail:
 1. Stellen Sie eine Verbindung mit einer PowerShell-Remotesitzung her. 
 2. Geben Sie den folgenden Befehl ein: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 Wenn Sie beispielsweise eine Telefonnummer für den Benutzer "Spencer Low" hinzufügen möchten, geben Sie Folgendes ein: 
 
@@ -556,7 +556,7 @@ Manchmal möchten mandantenadministratoren die Anrufer-oder Rufnummernanzeige f�
 
 Die Richtlinie wird auf der SBC-Ebene angewendet. Sie können einem SBC mehrere Übersetzungsregeln zuweisen, die in der Reihenfolge angewendet werden, in der Sie angezeigt werden, wenn Sie Sie in PowerShell auflisten. Sie können auch die Reihenfolge der Regeln in der Richtlinie ändern.
 
-Zum Erstellen, ändern, anzeigen und Löschen von Regeln für die Nummern Manipulation verwenden Sie die Cmdlets New-CsTeamsTranslationRule, Sets-CsTeamsTranslationRule, Get-CsTeamsTranslationRule und Remove-CsTeamsTranslationRule.
+Zum Erstellen, ändern, anzeigen und Löschen von Regeln für die Nummern Manipulation verwenden Sie die Cmdlets [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Sets-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)und [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
 Zum zuweisen, konfigurieren und Auflisten von Regeln für die Nummern Manipulation auf SBCS verwenden Sie die Cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) und [setCSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) zusammen ```InboundPSTNNumberTranslationRules```mit ```OutboundTeamsNumberTranslationRules```den ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList``` ```InboundTeamsNumberTranslationRules```,,,,, ```OutboundPSTNNumberTranslationRulesList``` ,, und Parametern.
 
