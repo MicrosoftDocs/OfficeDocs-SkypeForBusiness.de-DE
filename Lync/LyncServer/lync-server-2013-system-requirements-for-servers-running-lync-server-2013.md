@@ -10,20 +10,22 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad30b9687c9566adb7936612e71ae9f41e69095
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847658"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104494"
 ---
+# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Systemanforderungen für Server mit Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Systemanforderungen für Server mit Lync Server 2013
+
 
 </div>
 
@@ -73,11 +75,13 @@ Standard Edition und Enterprise Edition Server können eine der folgenden Aktion
 
 Installieren Sie die Betriebssystemsoftware auf dem Standard Edition-Server oder Enterprise Edition-Front-End-Server. Wenden Sie alle Updates an, um das Betriebssystem auf das neueste Update und die erforderliche Aktualisierungsstufe zu bringen, die mit den Standards Ihrer Organisation in Einklang steht. Weitere Informationen zu den Betriebsanforderungen finden Sie unter unter [Stützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
 
+> [!NOTE] Das in-Place-Upgrade des Betriebssystems wird von lync Server 2013 nicht unterstützt.  Sie müssen einen separaten Pool bereitstellen und Benutzer mit einem anderen Betriebssystem in den neuen Pool migrieren.
+
 <div>
 
 
 > [!NOTE]  
-> Damit lync Server 2013 unter Windows Server 2012 R2 funktioniert, müssen Sie möglicherweise den Wert eines Registrierungsschlüssels in Windows Server ändern. Diese Änderung ist möglicherweise erforderlich, damit Zertifikate ordnungsgemäß funktionieren, und Clients können sich bei Überlebenden Branch-Appliances registrieren. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>.
+> Damit lync Server 2013 unter Windows Server 2012 R2 funktioniert, müssen Sie möglicherweise den Wert eines Registrierungsschlüssels in Windows Server ändern. Diese Änderung ist möglicherweise erforderlich, damit Zertifikate ordnungsgemäß funktionieren, und Clients können sich bei Überlebenden Branch-Appliances registrieren. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>.
 
 
 
