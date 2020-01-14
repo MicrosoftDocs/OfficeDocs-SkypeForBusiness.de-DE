@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für synthetische Skype for Business Server-Transaktionen.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992442"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104484"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
  
@@ -192,7 +192,7 @@ Nachdem dieser Befehl ausgeführt wurde und die vertrauenswürdige Anwendung ers
 Enable-CsTopology
 ```
 
-Führen Sie nach der Ausführung von „Enable-CsTopology“ einen Neustart des Computers durch.
+Das Watcher-Knoten Computerkonto erfordert die Möglichkeit, CMS für einige synthetische Transaktionen abzufragen. Um diese Möglichkeit zu ermöglichen, fügen Sie das Computerkonto des Watcher-Knotens der RTCUniversalReadOnlyAdmins-Sicherheitsgruppe hinzu. Starten Sie den Computer neu, sobald die AD-Replikation stattgefunden hat.
   
 Um zu überprüfen, ob die neue vertrauenswürdige Anwendung erstellt wurde, geben Sie Folgendes an der Eingabeaufforderung der Skype for Business Server-Verwaltungsshell ein:
   

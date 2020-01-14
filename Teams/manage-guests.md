@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753290"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111359"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753290"
 > [!IMPORTANT]
 > Möglicherweise müssen Sie bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
 
-**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Office 365 Business Premium-, Office 365 Enterprise-und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
+**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Office 365 Business Premium-, Office 365 Enterprise-, Office 365 Business Essentials-und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 
 Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Details zum Aktivieren des Gastzugriffs finden Sie unter Aktivieren oder Deaktivieren des Gast [Zugriffs auf Teams](set-up-guests.md)oder verwenden der Checkliste für den [Gastzugriff](guest-access-checklist.md) , um Sie durch das Setup zu führen.
 
@@ -47,7 +47,7 @@ Sie können das Azure Active Directory-Portal zum Verwalten von Gästen und dere
 
 ## <a name="guest-access-licensing-limits"></a>Einschränkungen für Gastzugriffs Lizenzen
 
-Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, basiert jedoch auf dem, was Ihre Azure AD-Lizenzierung zulässt – in der Regel 5 Gäste pro lizenziertem Benutzer. Weitere Informationen finden Sie unter [Lizenzierung für die Azure AD B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Allerdings basiert die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, darauf, was gemäß Ihrer Azure AD-Lizenzierung zulässig ist – in der Regel 5 Gäste pro lizenziertem Benutzer. Weitere Informationen finden Sie unter [Lizenzierung für die Azure AD B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 Aufgrund dieser Lizenzierungseinschränkungen (und um ihren Mandanten auf dem neuesten Stand zu halten) sollten Sie den Gastzugriff in regelmäßigen Abständen überprüfen, um Benutzer zu identifizieren, die Zugriff haben, die Sie nicht mehr benötigen. Mit Azure AD können Sie eine Zugriffsüberprüfung für Mitglieder einer Gruppe oder Benutzer, die einer Anwendung zugewiesen sind, erstellen. Das Erstellen regelmäßiger Zugriffsüberprüfungen kann Zeit sparen. Wenn Sie Benutzer, die Zugriff auf eine Anwendung haben oder Mitglied einer Gruppe sind, routinemäßig überprüfen, können Sie die Häufigkeit dieser Überprüfungen definieren. 
 
@@ -64,7 +64,7 @@ Zugriffsüberprüfungen sind mit der Premium P2-Edition von Azure AD (in Microso
 Für die Einstellungen für den Gastzugriff in Azure Active Directory dauert es 2-24 Stunden, bis die Änderungen in Ihrer Office 365-Organisation wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder das gastfeature nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. Hilfe zu Problemen beim Einrichten des Gastzugriffs finden Sie unter [Problembehandlung beim Gastzugriff in Teams](troubleshoot-guest-access.md).
 
   
-## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Föderation) vs. Gastzugriff
+## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

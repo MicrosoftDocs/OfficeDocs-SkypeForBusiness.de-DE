@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: bereiten Sie Ihre Skype for Business Server 2019-Server und die Domäneninfrastruktur in diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sowie Zertifikat-DNS, Dateifreigabe und Active Directory-Informationen sind hier, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm zu gewährleisten.'
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988810"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111379"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System Anforderungen für Skype for Business Server 2019
  
@@ -92,7 +92,7 @@ Nachdem Sie die Hardware eingerichtet haben, müssen Sie das Betriebssystem inst
 |Windows Server 2016 <br/> ||
 ||
    
-Alle anderen als die hier aufgelisteten Betriebssysteme funktionieren nicht richtig; versuchen Sie es bitte nicht für die Installation von Skype for Business Server 2019. Die Option Server Core ist beispielsweise nicht aufgeführt und wird daher nicht unterstützt.
+Alle anderen als die hier aufgelisteten Betriebssysteme funktionieren nicht richtig; versuchen Sie es bitte nicht für die Installation von Skype for Business Server 2019. Die Option Server Core ist beispielsweise nicht aufgeführt und wird daher nicht unterstützt.  Hinweis: in-Place-Upgrades des Betriebssystems werden von lync Server 2013 nicht unterstützt.  Sie müssen einen separaten Pool bereitstellen und Benutzer mit einem unterschiedlichen Betriebssystem in den neuen Pool migrieren.
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ Es gibt einige Dinge, die Sie für einen Server installieren oder konfigurieren 
 |**Software/Rolle**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Auf allen Skype for Business Server-Servern muss Windows PowerShell 3.0 installiert sein.  <br/> • Dieser sollte standardmäßig mit Windows Server 2016 installiert werden.<br/> |
-|Microsoft .NET Framework  <br/> |WCF-Dienste ist ein **Feature** , das als Windows-Feature installiert ist, und unter **Server-Manager**zunächst keine Downloads erforderlich sind. <br/> • Wenn Sie diese Funktion installieren oder wenn die Funktion bereits installiert ist und Sie sie überprüfen möchten, müssen Sie sicherstellen, dass wie in dieser Abbildung auch die Option **HTTP-Aktivierung** aktiviert und installiert ist: <br/> ![Screenshot mit HTTP-Aktivierungsoption unter den .NET Framework 4.5-Features](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Machen Sie sich keine Sorgen, wenn ein zusätzliches Popup-Fenster angezeigt wird und Sie darüber informiert, dass für die HTTP-Aktivierung noch andere Komponenten installiert werden müssen. Das ist normal; Klicken Sie auf OK, und gehen Sie weiter. Wenn Sie dieses Popup nicht erhalten, können Sie davon ausgehen, dass diese Dinge bereits installiert sind und weiter gehen.  <br/> Microsoft .NET Framework wird normalerweise installiert, wenn Windows Server 2016 installiert ist. Skype for Business Server erfordert zwar Microsoft .NET Framework 4,7 oder 4,8, daher müssen Sie es wahrscheinlich aktualisieren. Sie können das Update [hier](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) finden.<br/> |
+|Microsoft .NET Framework  <br/> |WCF-Dienste ist ein **Feature** , das als Windows-Feature installiert ist, und unter **Server-Manager**zunächst keine Downloads erforderlich sind. <br/> • Wenn Sie diese Funktion installieren oder wenn die Funktion bereits installiert ist und Sie sie überprüfen möchten, müssen Sie sicherstellen, dass wie in dieser Abbildung auch die Option **HTTP-Aktivierung** aktiviert und installiert ist: <br/> ![Screenshot mit HTTP-Aktivierungsoption unter den .NET Framework 4.5-Features](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Machen Sie sich keine Sorgen, wenn ein zusätzliches Popup-Fenster angezeigt wird und Sie darüber informiert, dass für die HTTP-Aktivierung noch andere Komponenten installiert werden müssen. Das ist normal; Klicken Sie auf OK, und gehen Sie weiter. Wenn Sie dieses Popup nicht erhalten, können Sie davon ausgehen, dass diese Dinge bereits installiert sind und weiter gehen.  <br/> Microsoft .NET Framework wird normalerweise installiert, wenn Windows Server 2016 installiert ist. Skype for Business Server erfordert zwar Microsoft .NET Framework 4,7 oder 4,8, daher müssen Sie es wahrscheinlich aktualisieren. Sie können das Update [hier](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) finden.<br/> |
 |Media Foundation  <br/> |Bei Windows Server 2016 wird die Windows Media-Format Laufzeit mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition-Server, die für Konferenzen verwendet werden, benötigen die Windows Media-Format-Laufzeitkomponente, damit die WMA-Dateien (Windows Media Audio) ausgeführt werden können. Über diese Dateien geben die Anwendungen für das Parken von Anrufen, für Ankündigungen und für Reaktionsgruppen Ankündigungen und Musik wieder.  <br/> |
 |Windows Identity Foundation  <br/> |Wir benötigen Windows Identity Foundation 3,5, um Server-zu-Server-Authentifizierungsszenarien für Skype for Business Server 2019 zu unterstützen.  <br/> • Für Windows Server 2016 müssen Sie nichts herunterladen. Öffnen Sie den **Server-Manager** und rufen Sie den **Assistenten zum Hinzufügen von Rollen und Features** auf. **Windows Identity Foundation 3.5** wird unter dem Abschnitt **Funktionen** aufgelistet. Wenn diese Option ausgewählt ist, sind Sie gut. Wählen Sie andernfalls die Option aus, und klicken Sie auf **weiter** , um die Schaltfläche **Installieren** zu erreichen. <br/> |
 |Remoteserver-Verwaltungstools  <br/> |Rollenverwaltungstools: AD DS- und AD LDS-Tools  <br/> |
@@ -273,7 +273,7 @@ Die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2
     
 Dürfen in diesen Umgebungen schreibgeschützte Domänencontroller vorhanden sein? Sicher, solange auch schreibbare Domänencontroller verfügbar sind.
   
-Es ist wichtig zu wissen, dass Skype for Business Server 2019 keine Single-Labeling-Domains unterstützt. Was ist das? Wenn Sie über eine Stammdomäne mit der Bezeichnung "contoso. local" verfügen, wird das in Ordnung sein. Wenn Sie über eine Stammdomäne verfügen, die nur den Namen local hat, wird dies nicht funktionieren und wird daher nicht unterstützt. Ein wenig mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
+Es ist wichtig zu wissen, dass Skype for Business Server 2019 keine Single-Labeling-Domains unterstützt. Was ist das? Wenn Sie über eine Stammdomäne mit der Bezeichnung "contoso. local" verfügen, wird das in Ordnung sein. Wenn Sie über eine Stammdomäne verfügen, die nur den Namen local hat, wird dies nicht funktionieren und wird daher nicht unterstützt. Ein wenig mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/)geschrieben.
   
 Skype for Business Server 2019 unterstützt auch keine Umbenennung von Domänen. Wenn Sie Ihre Domäne wirklich umbenennen müssen, müssen Sie Skype for Business Server 2019 deinstallieren, die Domäne umbenennen und dann Skype for Business Server 2019 erneut installieren.
   
@@ -541,7 +541,7 @@ Dieser SAN muss dem Zertifikat zugewiesen werden, das dem SSL-Listener (Secure S
 
 Skype for Business Server 2019 kann dieselbe Dateifreigabe für alle Dateispeicher verwenden. Beachten Sie bitte Folgendes:
   
-- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie bereits ein Konto verwenden, sollten Sie Windows Server 2012 oder höhere Versionen Clustern
 

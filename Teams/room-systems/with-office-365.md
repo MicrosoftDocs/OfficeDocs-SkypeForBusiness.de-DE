@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Office 365.
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675439"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104474"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
@@ -205,7 +205,7 @@ Nachdem Sie die vorstehenden Schritte zum Aktivieren Ihres Microsoft Teams rooms
 
 4. Klicken Sie auf die Option **Lizenzen**.
 
-5. Im Abschnitt **Lizenzen zuweisen** müssen Sie Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) auswählen – je nach ihrer Lizenzierung und dem, was Sie im Hinblick auf die Notwendigkeit von Enterprise-VoIP entschieden haben. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie Cloud PBX in Microsoft Teams-Räumen verwenden möchten. Minimal benötigen Sie CloudPBX für die sprach Konnektivität. Konfigurieren Sie dann Hybrid-sprach-oder PSTN-Anrufe basierend auf der PSTN-Verbindungsmethode. Weitere Informationen finden Sie unter [Microsoft Teams rooms-Lizenzen](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) .
+5. Im Abschnitt **Lizenzen zuweisen** müssen Sie Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) auswählen – je nach ihrer Lizenzierung und dem, was Sie im Hinblick auf die Notwendigkeit von Enterprise-VoIP entschieden haben. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie Cloud PBX in Microsoft Teams-Räumen verwenden möchten. Minimal benötigen Sie CloudPBX für die sprach Konnektivität. Konfigurieren Sie dann Hybrid-sprach-oder PSTN-Anrufe basierend auf der PSTN-Verbindungsmethode. Weitere Informationen finden Sie unter [Microsoft Teams rooms-Lizenzen](skype-room-systems-v2.md) .
 
 6. Klicken Sie auf **Speichern**, um die Aufgabe abzuschließen.
 
@@ -263,4 +263,4 @@ Zur Überprüfung sollten Sie in der Lage sein, sich mit einem Skype for Busines
 
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)
 
-[Lizenzierung von Microsoft Teams rooms](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Lizenzierung von Microsoft Teams rooms](skype-room-systems-v2.md)

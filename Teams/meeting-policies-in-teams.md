@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744869"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111709"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -262,6 +262,9 @@ Sehen wir uns das folgende Beispiel an:
 |Babək    | Location1MeetingPolicy        | Falsch   |
 
 Daniela kann die Steuerung des freigegebenen Desktops oder Fensters an andere Teilnehmer an einer von Babək organisierten Besprechung übergeben, während Babək anderen Teilnehmern keine Kontrolle geben kann.
+
+> [!NOTE]
+> Um freigegebene Inhalte während der Freigabe zu übernehmen und zu steuern, müssen beide Parteien den Desktop Client von Teams verwenden. Das Steuerelement wird nicht unterstützt, wenn beide Teilnehmer Teams in einem Browser ausführen. Dies ist auf eine technische Einschränkung zurückzuführen, die behoben werden soll. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert
 

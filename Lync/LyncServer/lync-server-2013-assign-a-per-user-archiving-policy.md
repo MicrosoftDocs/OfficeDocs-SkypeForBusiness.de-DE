@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111579"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Zuweisen einer pro-Benutzer-Archivierungsrichtlinie in lync Server 2013
 
@@ -28,7 +28,7 @@ Die Bereitstellung einer oder mehrerer Archivierungsrichtlinien für einzelne Be
 
 Nachdem Sie mindestens eine Archivierungsrichtlinie für einzelne Benutzer erstellt haben, verwenden Sie die Verfahren in diesem Thema, um die Richtlinie zuzuweisen, die entsprechend angibt, ob die interne Kommunikation, die externe Kommunikation oder beides vom Server archiviert wird.
 
-Details zum Erstellen von Archivierungsrichtlinien für einzelne Benutzer finden Sie unter [Erstellen einer Archivierungsrichtlinie in lync Server 2013, um die Archivierung interner oder externer Kommunikation für bestimmte Websites oder Benutzer zu aktivieren oder zu deaktivieren](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+Details zum Erstellen von Archivierungsrichtlinien für einzelne Benutzer finden Sie unter [Erstellen einer Archivierungsrichtlinie in lync Server 2013, um die Archivierung interner oder externer Kommunikation für bestimmte Websites oder Benutzer zu aktivieren oder zu deaktivieren](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>So weisen Sie eine Archivierungsrichtlinie für einzelne Benutzer zu
 
@@ -90,7 +90,7 @@ Details zum Erstellen von Archivierungsrichtlinien für einzelne Benutzer finden
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer pro-Benutzer-Archivierungsrichtlinie mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Archivierungsrichtlinien für einzelne Benutzer mithilfe von Windows PowerShell und dem Cmdlet **Grant-CsArchivingPolicy** zuweisen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Archivierungsrichtlinien für einzelne Benutzer mithilfe von Windows PowerShell und dem Cmdlet **Grant-CsArchivingPolicy** zuweisen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Archivierungsrichtlinie pro Benutzer zu
 
@@ -100,7 +100,7 @@ Sie können Archivierungsrichtlinien für einzelne Benutzer mithilfe von Windows
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>So weisen Sie eine Archivierungsrichtlinie für einzelne Benutzer mehreren Benutzern zu
 
-  - Dieser Befehl weist allen Benutzern, die Konten im Registrierungspool ATL-CS-001.litwareinc.com haben, die Archivierungsrichtlinien für einzelne Benutzer zu RedmondArchivingPolicy. Weitere Informationen zu dem in diesem Befehl verwendeten Filter Parameter finden Sie in der Dokumentation für das Cmdlet " [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) ".
+  - Dieser Befehl weist allen Benutzern, die Konten im Registrierungspool ATL-CS-001.litwareinc.com haben, die Archivierungsrichtlinien für einzelne Benutzer zu RedmondArchivingPolicy. Weitere Informationen zu dem in diesem Befehl verwendeten Filter Parameter finden Sie in der Dokumentation für das Cmdlet " [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) ".
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ Sie können Archivierungsrichtlinien für einzelne Benutzer mithilfe von Windows
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) .
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Erstellen einer Archivierungsrichtlinie in lync Server 2013 zum Aktivieren oder Deaktivieren der Archivierung interner oder externer Kommunikation für bestimmte Websites oder Benutzer](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Erstellen einer Archivierungsrichtlinie in lync Server 2013 zum Aktivieren oder Deaktivieren der Archivierung interner oder externer Kommunikation für bestimmte Websites oder Benutzer](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)

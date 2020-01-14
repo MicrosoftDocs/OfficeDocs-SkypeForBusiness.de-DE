@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793080"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111449"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
@@ -38,7 +38,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 - Wechseln Sie zum Admin Center #a0 **Admin** > Centers im**Skype for Business Admin Center** > werden die**PSTN-Nutzungsdetails****gemeldet** > .
     
@@ -102,12 +102,10 @@ Der Bericht sieht wie folgt aus:
 > [!NOTE]
 > Wenn Sie über einen Telstra-Anrufplan verfügen, werden in dem Bericht zur PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich an Telstra für Ihre Berichterstattung. 
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
+![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden.
  ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch tabstoppgetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren.<br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch trennzeichengetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren, es sei denn, die landesspezifische Verordnung verbietet die Aufbewahrung der Daten für 12 Monate.<br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 
 - [Skype for Business-Aktivitätsbericht](activity-report.md) : Sie können sehen, in welchem Umfang Ihre Benutzer Peer-zu-Peer-Konferenzsitzungen nutzen, organisieren und daran teilnehmen.

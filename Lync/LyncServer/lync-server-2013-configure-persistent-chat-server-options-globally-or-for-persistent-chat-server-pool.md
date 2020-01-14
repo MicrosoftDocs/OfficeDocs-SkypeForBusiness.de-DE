@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204731(v=OCS.15)
 ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed79d1144c1ccb7abeac8dcf7d1f4d44c63e93e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fedd0d1adb4149c3dc2ea41c5321259f571524f
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839355"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013
 
@@ -35,7 +35,7 @@ ms.locfileid: "34839355"
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 
-In der lync Server 2013-Systemsteuerung können Sie auf der Seite "beständiger **** Chat" den Abschnitt "beständiger **Chat** " verwenden, um die Einstellungen für beständigen Chat Global zu konfigurieren, wenn Sie für alle beständigen Chat Server Pools gelten, oder Server Pool für beständigen Chat
+In der lync Server 2013-Systemsteuerung können Sie auf der Seite " **beständiger** Chat" den Abschnitt " **beständiger Chat** " verwenden, um die Einstellungen für beständigen Chat Global zu konfigurieren, wenn Sie für alle beständigen Chat Server Pools gelten, oder für einen bestimmten beständigen Chat Serverpool.
 
 <div>
 
@@ -59,7 +59,7 @@ In der lync Server 2013-Systemsteuerung können Sie auf der Seite "beständiger 
     
 
     > [!IMPORTANT]  
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter Konfigurieren des beständigen <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Chat Servers mithilfe von Windows PowerShell</A> -Cmdlets in der Bereitstellungsdokumentation.
+    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des beständigen Chat Servers mithilfe von Windows PowerShell-Cmdlets</A> in der Bereitstellungsdokumentation.
 
     
     </div>
@@ -127,7 +127,7 @@ In der lync Server 2013-Systemsteuerung können Sie auf der Seite "beständiger 
     
 
     > [!IMPORTANT]  
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter Konfigurieren des beständigen <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Chat Servers mithilfe von Windows PowerShell</A> -Cmdlets in der Bereitstellungsdokumentation.
+    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des beständigen Chat Servers mithilfe von Windows PowerShell-Cmdlets</A> in der Bereitstellungsdokumentation.
 
     
     </div>

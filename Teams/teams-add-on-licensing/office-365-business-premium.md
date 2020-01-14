@@ -17,23 +17,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Informationen zum Kauf von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e9c71da15938bb35956dbbeb2f35288e900623d
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571326"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111699"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Wenn Sie über [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Microsoft Teams verwenden, um Anrufe an andere Personen in Ihrem Unternehmen zu tätigen, die sich in Ihrem Abonnement befinden. Wenn Ihr Unternehmen beispielsweise 10 Personen umfasst, können Sie Teams für Anrufe und Chats nutzen.
 
+
 Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfangen möchten, haben Sie folgende Möglichkeiten**:
 
-- **Option 1** Verwenden Sie die [﻿Kostenlose Teams-App](https://products.office.com/microsoft-teams/free). Wenn Sie ein sehr kleines Unternehmen haben (beispielsweise 1-2 Personen), ist die Verwendung der Teams-APP die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin 1:1 und Gruppen-Audio-und Videoanrufe tätigen und Ihren Desktop für Präsentationen freigeben. [Vergleichen Sie die Features, Gebühren und Zahlungsoptionen](https://products.office.com/microsoft-teams/free).
+- **Option 1** Verwenden Sie die [Teams-app in Ihrem Plan](https://products.office.com/microsoft-teams/free). Wenn Sie ein sehr kleines Unternehmen haben (beispielsweise 1-2 Personen), ist die Verwendung der Teams-APP die bessere Lösung. Es ist kostenlos, und Sie können 1:1 über Chat kommunizieren, Gruppen-Audio-und Videoanrufe tätigen und Ihren Desktop für Präsentationen freigeben. [Vergleichen Sie die Features, Gebühren und Zahlungsoptionen](https://products.office.com/microsoft-teams/free).
 
-     Wir empfehlen, mit Teams kostenlos zu beginnen, um festzustellen, ob Sie Ihren Anforderungen entspricht. Wenn dies nicht der Fall ist, haben Sie dennoch zwei Optionen.
-    
 - **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Sie ein Telefon System sowie einen Inlands-, Inlands-und Auslandsanruf Plan**.
 
     1. [Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Daher empfehlen wir, dass Sie einen Enterprise E5-Plan evaluieren, um festzustellen, ob dies kosteneffektiver ist.
@@ -42,12 +41,18 @@ Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfan
     
     3. Kaufen Sie einen [Anrufplan für Office 365](../calling-plans-for-office-365.md): Sie können diesen erst kaufen, nachdem Sie das Telefon System-Add-on gekauft haben.
 
+
+ > [!IMPORTANT]
+ > Wenn Sie bereits über eine Office 365 Business Premium-Lizenz verfügen, wenn Sie Office 365 aus dem Portal herunterladen, enthält Sie bereits Microsoft Teams, damit Sie mit Kollegen und externen Personen sprechen können, ähnlich wie in der alten Version von Skype for Business. Sie können jedoch erst dann Anrufe über Telefone empfangen oder tätigen, wenn Sie mindestens zwei Add-on-Lizenzen erhalten:
+ >- **Telefonsystem**
+ >- **Ein Plan für Inlandsanrufe oder ein** Plan für **Inlands-und Auslandsgespräche**.
+
 ## <a name="how-to-see-prices-and-buy"></a>So können Sie Preise anzeigen und kaufen
 <a name="bkmk_buypremium"> </a>
 
  **So erhalten Sie Audiokonferenzen:**
 
-1. Anmelden beim Microsoft 365 Admin Center.
+1. Melden Sie sich beim Microsoft 365 Admin Center an.
 
 2. Wechseln Sie zu den**Add-on-Abonnements**für **Billing** > **Purchase Services** > .
 
@@ -55,7 +60,7 @@ Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfan
 
 **So erhalten Sie Kommunikationsguthaben**
 
-1. Anmelden beim Microsoft 365 Admin Center.
+1. Melden Sie sich beim Microsoft 365 Admin Center an.
 
 2. Wechseln Sie zu den**Add-on-Abonnements**für **Billing** > **Purchase Services** > .
 

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023419"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111729"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -453,7 +453,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der Routing Richtlinie "keine
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Beispiel für eine VoIP-Routing Richtlinie für Benutzer John Woods
 
-Die Schritte zum Erstellen der PSTN-Nutzung "International", VoIP-Route "International", "VoIP-Routing-Richtlinie" ohne Einschränkungen, und dann dem Benutzer "John Woods" zuweisen, sind wie folgt.
+Die Schritte zum Erstellen der PSTN-Nutzung "International", VoIP-Route "International", "VoIP-Routing-Richtlinie" ohne Einschränkungen, und dann dem Benutzer "John Woods" zuweisen, sind wie folgt.   
 
 
 **Schritt 1**: Erstellen der PSTN-Nutzung "International" 
