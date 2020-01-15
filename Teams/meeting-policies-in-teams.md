@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111709"
+ms.locfileid: "41120397"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -120,7 +120,7 @@ Wenn Sie diese Option deaktivieren, können die Benutzer keine Teams-Besprechung
 
 ### <a name="allow-channel-meeting-scheduling"></a>Planen der Kanal Besprechung zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können.  Wenn Sie diese Option deaktivieren, steht die Option " **Besprechung planen** " für den Benutzer nicht zur Verfügung, wenn er eine Besprechung in einem Teams-Kanal startet und die Option **"Kanal auswählen"** nicht für den Benutzer verfügbar ist, wenn er eine Besprechung aus Besprechungen in Teams plant.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können.  Wenn Sie **diese Option deaktivieren, steht der Benutzer** beim Starten einer Besprechung in einem Teams-Kanal und der Option **Kanal hinzufügen** für Benutzer in Teams deaktiviert zur Verfügung.
 
 ![Screenshot der Option "Besprechung planen" in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Begi
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer private Besprechungen in Teams planen können. Eine Besprechung ist privat, wenn Sie nicht in einem Kanal in einem Team veröffentlicht wurde.
 
-Beachten Sie, dass die Option **Planen einer Besprechung** nicht verfügbar ist und Benutzer keine Besprechungen in Teams planen können, wenn Sie zulassen, dass **private Besprechungen** planen und **Kanal Besprechungsplanung zulassen**deaktiviert ist.
+Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zulassen** " deaktivieren und die **Kanal Besprechungsplanung zulassen**, sind die Optionen " **erforderliche Teilnehmer hinzufügen** " und " **Kanal hinzufügen** " für Benutzer in Teams deaktiviert.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,8 +263,10 @@ Sehen wir uns das folgende Beispiel an:
 
 Daniela kann die Steuerung des freigegebenen Desktops oder Fensters an andere Teilnehmer an einer von Babək organisierten Besprechung übergeben, während Babək anderen Teilnehmern keine Kontrolle geben kann.
 
+Verwenden Sie das AllowParticipantGiveRequestControl-Cmdlet, um mithilfe von PowerShell Steuern zu können, wer Steuerelemente steuern oder akzeptieren kann.
+
 > [!NOTE]
-> Um freigegebene Inhalte während der Freigabe zu übernehmen und zu steuern, müssen beide Parteien den Desktop Client von Teams verwenden. Das Steuerelement wird nicht unterstützt, wenn beide Teilnehmer Teams in einem Browser ausführen. Dies ist auf eine technische Einschränkung zurückzuführen, die behoben werden soll. 
+> Um freigegebene Inhalte während der Freigabe zu übernehmen und zu steuern, müssen beide Parteien den Desktop Client von Teams verwenden. Die Steuerung wird nicht unterstützt, wenn eine der beiden Parteien Teams in einem Browser ausführt. Dies ist auf eine technische Einschränkung zurückzuführen, die wir planen zu beheben. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert
 
@@ -276,6 +278,8 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steue
    - Federated-Benutzer  
 
 Ob Verbundbenutzer externen Benutzern die Kontrolle überlassen können, während die Freigabe von **einem externen Teilnehmer** gesteuert wird, der die Steuerungseinstellung in Ihrer Organisation erteilt oder anfordert.
+
+Verwenden Sie das AllowExternalParticipantGiveRequestControl-Cmdlet, um mithilfe von PowerShell Steuern zu können, ob externe Teilnehmer Steuerelemente steuern oder akzeptieren können.
 
 ### <a name="allow-powerpoint-sharing"></a>PowerPoint-Freigabe zulassen
 
