@@ -17,17 +17,19 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988800"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165615"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
 
 Microsoft Teams basiert auf der Office 365-Cloud auf Unternehmensniveau mit Hyperskalierung und bietet die erweiterten Sicherheits- und Compliance-Funktionen, die unsere Kunden erwarten.
+
+Eine kurze Einführung (12:42 min) zur Sicherheit und Compliance von Teams finden Sie in diesem Video: [Microsoft Teams Essentials für IT: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4).
 
 Microsoft Teams ist mit Stufe D konform. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und SOC 2, HIPAA und EU-Standardvertragsklauseln (EU Model Clauses, EUMC). Microsoft klassifiziert innerhalb des Microsoft-Compliance-Frameworks Office 365-Anwendungen und -Dienste in vier Kategorien. Jede Kategorie wird durch bestimmte Compliance-Verpflichtungen definiert, die ein Office 365-Dienst oder ein zugehöriger Microsoft-Dienst erfüllen muss, um in dieser Kategorie geführt zu werden.
 
@@ -106,8 +108,8 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 |        Compliance-eDiscovery        |               -                |              -              |            -             |             Ja              |           Ja             |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Ja            |
 |            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja              |           Ja             |
-|     Compliancesuche in Inhalten     |               -                |             Ja              |           Ja             |             Ja              |           Ja             |
-|      Überwachung und Berichterstellung       |              Ja               |             Ja              |           Ja             |             Ja              |           Ja             |
+|     Compliancesuche in Inhalten     |               -                |             Ja              |           Ja             |             Ja              |           Ja            |
+|      Überwachung und Berichterstellung       |              Ja               |             Ja              |           Ja             |             Ja              |           Ja            |
 |       Bedingter Zugriff\*        |              Ja               |             Ja              |           Ja             |             Ja              |           Ja            |
 
 > [!NOTE]
