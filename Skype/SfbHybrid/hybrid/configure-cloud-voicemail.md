@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren von Cloud-basierter Voicemail für Benutzer, die in Skype for Business Server verwaltet werden.
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963003"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230355"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren des Cloud Voicemail-Diensts für lokale Benutzer
 
@@ -36,7 +36,7 @@ Das Konfigurieren der Cloud-Voicemail umfasst die folgenden Aufgaben:
 
 2.  Stellen Sie sicher, dass Sie die Hybrid Konnektivität wie unter [Plan Hybrid](plan-hybrid-connectivity.md) Connectivity und [configure Hybrid Connectivity](configure-hybrid-connectivity.md)beschrieben eingerichtet haben. 
 
-3.  [Konfigurieren Sie die Cloud-Voicemail als Hostanbieter auf dem Edgeserver](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) , wie in diesem Artikel beschrieben.
+3.  [Konfigurieren Sie die Cloud-Voicemail als Hostanbieter auf dem Edgeserver](#configure-cloud-voicemail-as-the-hosting-provider) , wie in diesem Artikel beschrieben.
 
 4.  [Konfigurieren Sie eine Richtlinie für gehostete Voicemail](#configure-a-hosted-voicemail-policy) wie in diesem Artikel beschrieben.
 
@@ -45,7 +45,7 @@ Das Konfigurieren der Cloud-Voicemail umfasst die folgenden Aufgaben:
 6.  [Aktivieren Sie einen Benutzer für Cloud-Voicemail](#enable-a-user-for-cloud-voicemail) , wie in diesem Artikel beschrieben.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>Konfigurieren der Cloud-Voicemail als Hostanbieter im Edgeserver 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Konfigurieren der Cloud-Voicemail als Hostanbieter 
 
 Sie konfigurieren Cloud-Voicemail als Hostanbieter auf einem Front-End-Server mithilfe des New-CsHostingProvider-Cmdlets mit den folgenden Parametern:
 
