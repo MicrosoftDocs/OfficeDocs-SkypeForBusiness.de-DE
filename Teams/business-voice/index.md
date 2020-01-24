@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Erfahren Sie, wie Sie Microsoft 365 Business Voice planen, bereitstellen und verwenden.
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972336"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268681"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice – Ressourcen</h1>
-        <P>Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrer Organisation planen, einrichten und verwenden. Business Voice macht es kleinen und mittleren Organisationen leicht, ein leistungsfähiges und flexibles ohne die Kosten und Komplexität von firmenintern Telefonsystem aufzubauen. </p>
+        <P>Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrer Organisation planen, einrichten und verwenden. Business Voice macht es kleinen und mittleren Organisationen leicht, ein leistungsfähiges und flexibles ohne die Kosten und Komplexität von firmenintern Telefonsystem aufzubauen.</p>
         <P></p>
         <ul class="pivots">
             <li>
