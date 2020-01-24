@@ -132,7 +132,7 @@
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ## [Einrichten der Funktion „Rückruf“ für Ihre Benutzer](set-up-the-call-me-feature-for-your-users.md)
 ## [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams-Räume](room-systems/index.md)
+## [Microsoft Teams-Räume](rooms/index.md)
 ## [Verwalten des Whiteboards in Teams](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Verbinden der Patienten-App mit Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [Überwachungsprotokolle für die Patienten-App](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [Teams für Bildung](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
