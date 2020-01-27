@@ -20,85 +20,54 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Erfahren Sie mehr über die Funktionen, die Verfügbarkeit und die Planung und Einrichtung eines Telefonsystem (Cloud-PBX) für Ihr Unternehmen. '
-ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
+ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885519"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554352"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
-Eine PBX ist ein Telefonsystem in einem Unternehmen. Das Office 365-Telefonsystem bietet Ihnen PBX-Funktionen ohne komplizierte und teure Ausrüstung. 
-  
-Mit dem Telefonsystem können Sie Skype for Business verwenden, um grundlegende Aufgaben von nahezu allen Orten mit Internetzugang auszuführen. Dazu zählen: Anrufe tätigen und empfangen, Anrufe übertragen sowie Anrufe stumm schalten und die Stummschaltung aufheben. Es ist weltweit verfügbar. 
-  
-Weitere Informationen hierzu finden Sie in der [Preisübersicht für das Office 365-Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements).
-  
-## <a name="phone-system-in-office-365-features"></a>Features des Office 365-Telefonsystems
+In diesem Artikel werden die Telefon System Funktionen in Office 365 beschrieben. Weitere Informationen zur Verwendung des Telefonsystems als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz (PSTN) finden Sie unter [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md).
 
-Bei Verwendung des Office 365-Telefonsystems erhalten Ihre Skype for Business-Benutzer die folgenden Funktionen:
+Clients stehen für PC, Mac und Handy zur Verfügung und bieten Funktionen auf Geräten von Tablets und Mobiltelefonen bis hin zu PCs und Desktop-IP-Telefonen. Weitere Informationen finden Sie unter [Abrufen von Clients für Microsoft Teams](get-clients.md).
+
+  
+## <a name="phone-system-in-office-365-features"></a>Telefon System in Office 365-Features
+
+Das Telefon System bietet die folgenden Funktionen. Sofern nicht anders angegeben, stehen Features sowohl in Teams als auch in Skype for Business Online zur Verfügung.
   
 |||
 |:-----|:-----|
-|**Funktion des Office 365-Telefonsystems** <br/> |**Beschreibung** <br/> |
-|[Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md) <br/> |Sie können automatische Telefonzentralenverwenden, um ein Menüsystem für Ihre Organisation zu erstellen. Dann können externe und interne Anrufer durch das Menüsystem navigieren, um Benutzer in der Firma oder Abteilungen in der Organisation zu finden und sie anzurufen oder Anrufe an sie durchzustellen.  <br/> |
-|Anruf annehmen/initiieren (nach Name und Nummer)  <br/> |Beantworten Sie eingehende Anrufe mit einer Touchbewegung, und tätigen Sie ausgehende Anrufe entweder durch Wählen der vollständigen Nummer oder durch Klicken auf einen Namen in Skype for Business oder Outlook.  <br/> |
-|[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Tätigen oder beantworten Sie Anrufe im Namen eines Ihrer Manager. Wenn Anrufe für eine andere Person beantwortet oder getätigt werden, werden alle Teilnehmer durch Benachrichtigungen darüber informiert.  <br/> |
-|[Rufumleitung und gleichzeitiges Anrufen](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Mit diesen Funktionen können Sie Weiterleitungsregeln einrichten, damit Sie von überall aus angerufen werden können und Ihre Anrufe an Kollegen oder an Ihre Voicemail weiterleiten können.  <br/> |
-|[Suchen nach früheren Unterhaltungen in Skype for Business (Lync)](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Speichern Sie alle Unterhaltungen an einem Ort - egal ob Chatunterhaltungen, Telefonanrufe oder spontane und geplante Besprechungen. Unterhaltungen werden in Ihrem Anrufverlauf aufgezeichnet.  <br/> |
-|Anruf anhalten/fortsetzen  <br/> | Verwenden Sie diese Option, wenn mehrere Anrufe zur gleichen Zeit getätigt werden. Wenn Sie den nächsten eingehenden Anruf beantworten oder einen ausgehenden Anruf tätigen, wird Ihr aktueller Anruf automatisch gehalten. <br/> |
-|[Durchstellen eines Skype for Business-Anrufs](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Stellt Anrufe an andere Personen durch. Wenn Sie Ihr Büro verlassen müssen, Ihre Unterhaltung jedoch fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon an Ihr Mobiltelefon oder Tablet übergeben.  <br/> |
-|Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position. Bei Anrufen von externen Telefonnummern wird die vom Telefondienstanbieter bereitgestellte Anrufer-ID angezeigt. Wenn es sich bei den externen Telefonnummern um sekundäre Nummern in Ihrem Firmenverzeichnis handelt, werden die Informationen aus dem Unternehmensverzeichnis angezeigt.  <br/> |
-|[Erstellen einer Cloudanrufwarteschleife](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Cloudanrufwarteschleifen beinhalten die beim Wählen einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf zu entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören.  <br/> |
-|[Ich möchte Statusänderungen mitgeteilt bekommen](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Mit dieser Funktion können Sie Personen markieren, die derzeit nicht erreichbar sind, und mit der Sie benachrichtigt werden, wenn sich ihr Anwesenheitsstatus ändert und sie Telefonanrufe entgegennehmen können. <br/> |
-|Clients für PC, Mac und mobile Clients  <br/> | Damit erhalten Sie Anruffunktionen auf zahlreichen Geräten: Tablets, Mobiltelefonen, PCs und IP-Telefonen. <br/> |
-|Gerät wechseln  <br/> |Ermöglicht Ihnen die Wiedergabe Ihres Anrufs oder Ihrer Besprechung auf einem anderen Gerät.  <br/> |
-|[Ändern von Lync-Benachrichtigungen](https://support.office.com/article/15DB9F71-A3D1-4AD7-9D84-39F05520B4C2) <br/> |Geben Sie unterschiedliche Klingeltöne für die unterschiedlichen Anrufarten wieder, die Sie jeden Tag erhalten, damit Sie immer wissen, von wem der Anruf stammt.  <br/> |
-|[Ändern Ihres Anwesenheitsstatus in Skype for Business](https://support.office.com/article/9b64eef5-47b8-46d8-a744-f490e6f88feb) <br/> |Steuert Ihre eingehende Kommunikation mit einem Anwesenheitsmodus, sodass Sie bis auf bestimmte von Ihnen festgelegte Telefonnummern die gesamte eingehende Kommunikation blockieren können.  <br/> |
-|Enterprise-Kalender-Anrufweiterleitung  <br/> |Die Enterprise-Kalender-Anrufweiterleitung ermöglicht Ihnen, anhand der in Ihrem Exchange-Kalender festgelegten Geschäftszeiten die Anrufweiterleitung und das gleichzeitige Klingeln in Skype for Business zu aktivieren bzw. zu deaktivieren.  <br/> |
-|Integrierte Wähltastatur  <br/> | Wählen Sie nach Name oder Nummer an einer beliebigen Stelle in der Suchleiste und auf der Wähltastatur, und erhöhen Sie damit die Schnelligkeit beim Tätigen von ausgehenden Anrufen. <br/> |
-|[Verwenden des Festnetztelefons für Skype for Business-Anrufe](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |Wenn Ihr Festnetztelefon so konfiguriert ist, dass es bei Skype for Business Online mit Ihren Office 365-Anmeldeinformationen registriert ist, können Sie Personen in Ihrer Organisation mit Ihrem Festnetztelefon anrufen.  <br/>  |
-|Skype und Verbundanrufe  <br/> |Sie können nach einer beliebigen Person im Skype-Telefonbuch suchen und dann eine sichere Verbindung zu ihnen herstellen, mit ihnen kommunizieren und zusammenzuarbeiten.  <br/> |
-|[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sendet Ihre Anrufe entweder sofort oder nach einem bestimmten Zeitraum an Ihr Team.  <br/> |
-|[Tätigen und Annehmen eines Videoanrufs mit Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Sie können den Namen und den Videostream des Sprechers in einem kleinen unverankerten Fenster sehen, sodass Sie immer in der Lage sind, auf eine Frage zu antworten. <br/> |
-|[Prüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |So funktioniert Cloud-Voicemail: Wenn ein Nutzer eine Voicemail erhält, wird diese als E-Mail an das Postfach dieses Nutzers zugestellt, wobei die Voicemail-Nachricht als Anhang gesendet wird. Benutzer können ihre Nachrichten auch über ein Skype-zertifiziertes Festnetztelefon, alle Skype for Business-Anwendungen oder Lync für Mac 2011 anhören.  <br/> Cloud-Voicemail beinhaltet eine persönliche Begrüßung, eine Anzeige für wartende Nachrichten und das Antworten per Anruf. Ihre Voicemails können alle in Postfächern gespeichert und über Skype for Business auf Ihrem PC, Ihrem Mobilgerät und Ihrem IP-Telefon abgehört werden.  <br/> |
-|Wartemusik | Ab September 2019 wird eine vom Telefonsystem definierte Standardmusik wiedergegeben, wenn ein externer Anruf über das öffentliche Festnetz (PSTN) gehalten wird.  Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. (Alle anderen Plattformen geben einen visuellen Hinweis, wenn ein Benutzer auf Halten gesetzt wird, was für einen PSTN-Anrufer jedoch nicht ersichtlich ist). Beim ersten Release kann dieses Feature durch den Administrator nicht konfiguriert werden. Bei der Beratenden Übertragung eines PSTN-Anrufs wird "Musik speichern" ebenfalls nicht unterstützt.| 
-|Umgekehrte Nummernsuche (Reverse Number Lookup, RNL) | Ab September 2019 wird im Telefonsystem die angerufene ID für eine externe Rufnummer angezeigt, wenn die Nummer einem Benutzer im AAD zugeordnet ist. Wenn sich die Telefonnummer nicht im AAD befindet, wird der bereitgestellte Telco-Anzeigenname angezeigt, sofern ein solcher verfügbar ist.  |
+|**Telefon System in Office 365-Feature** <br/> |**Beschreibung** <br/> |
+|[Automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) <br/> |Mit dieser Option können Sie ein Menü System erstellen, das es externen und internen Anrufern ermöglicht, Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.  <br/> |
+|[Cloud-Anrufwarteschlangen](create-a-phone-system-call-queue.md) <br/> |Mit dieser Option können Sie konfigurieren, wie Anrufwarteschlangen für Ihre Organisation verwaltet werden: Sie können beispielsweise Begrüßungen und Musik in Wartestellung einrichten, nach dem nächsten verfügbaren Anruf Agenten suchen, um den Anruf zu behandeln, und so weiter.  <br/> |
+|Wartemusik | Gibt die vom Dienst definierte Standardmusik wieder, wenn ein externer Anruf über das öffentlich geschaltete Telefonnetz (PSTN) in Wartestellung gesetzt wird. Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. Bei der ersten Version kann dieses Feature vom Administrator nicht konfiguriert werden. Bei der Beratenden Übertragung eines PSTN-Anrufs wird "Musik speichern" ebenfalls nicht unterstützt.|
+|Anruf annehmen/initiieren (nach Name und Nummer)  <br/> |Ermöglicht Benutzern, eingehende Anrufe per Tastendruck zu beantworten und ausgehende Anrufe zu tätigen, indem Sie entweder die vollständige Telefonnummer wählen oder im Client auf einen Namen klicken.  <br/> |
+|[Optionen für die Anrufweiterleitung und gleichzeitiges Klingeln](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Ermöglicht es Benutzern, Weiterleitungsregeln einzurichten, damit Anrufe überall mitgehen können oder Anrufe an Kollegen oder Voicemail weitergeleitet werden können.  <br/> |
+|[Gruppenanruf Abholung und Weiterleiten an Gruppe](call-sharing-and-group-call-pickup.md) <br/> | Ermöglicht Benutzern das Freigeben eingehender Anrufe an Kollegen, damit die Kollegen Anrufe annehmen können, die eintreten, während der Benutzer nicht verfügbar ist. Weniger störend für Empfänger als andere Formen der Anruf Freigabe (wie Anrufweiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie Sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten. |
+|[Übertragen eines Anrufs und konsultieren der Übertragung](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Ermöglicht Benutzern die Übertragung von Anrufen an eine andere Person. Oder wenn Sie Ihr Büro verlässt, aber die Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon an Ihr Mobiltelefon übertragen.  <br/> |
+|[Übertragung an Voicemail Mid-Anruf](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Ermöglicht es Benutzern, während eines Anrufs eine Sprachnachricht zu übertragen. |
+|[Parken von Anrufen und Holen](call-park-and-retrieve.md)  <br/> | Ermöglicht Benutzern, einen Anruf im Teams-Dienst in der Cloud zu halten. Wenn ein Anruf abgestellt wird, generiert der Dienst einen eindeutigen Code für den Abruf des Anrufs. Der Benutzer, der den Anruf abgestellt hat, oder eine andere Person kann diesen Code und eine unterstützte APP oder ein unterstütztes Gerät verwenden, um den Anruf abzurufen. <br/> |
+|Telefonnummer von der Suche aus anrufen  <br/> | Ermöglicht Benutzern, einen Anruf über das Suchfeld zu tätigen, indem Sie den Befehl/Call verwenden und einen Namen oder eine Zahl angeben. <br/> |
+|[Anrufer-ID](how-can-caller-id-be-used-in-your-organization.md)  <br/> |Bei Anrufen innerhalb des Unternehmens wird eine detaillierte Rufnummernanzeige angezeigt, die Informationen aus dem Unternehmensverzeichnis abruft, wobei die Bild-ID und die Position anstelle nur einer Telefonnummer angezeigt werden. Für Anrufe von externen Telefonnummern wird die Rufnummernanzeige angezeigt, die vom Telefondienstanbieter bereitgestellt wird. Wenn die externen Telefonnummern im Unternehmensverzeichnis Sekundär Nummern sind, werden die Informationen aus dem Unternehmensverzeichnis angezeigt.  <br/> |
+|Gerät wechseln  <br/> |Ermöglicht Benutzern das Wiedergeben eines Anrufs oder einer Besprechung auf einem anderen HID-Gerät, das mit Teams verbunden ist. So können Sie beispielsweise von Ihren PC-Lautsprechern zu einem Headset wechseln.   <br/> |
+|Anwesenheits basiertes Anrufrouting <br/> |Steuert die eingehende Kommunikation mit Anwesenheitsinformationen, sodass der Benutzer alle eingehenden Kommunikationen mit Ausnahme der ausdrücklich angegebenen blockieren kann.  <br/> |
+|[Integrierte Wähltastatur](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Ermöglicht Benutzern, sich über den Namen oder die Nummer an beliebiger Stelle in der Suchleiste und in der Wähltastatur anzuwählen, wodurch der Prozess der ausgehenden Anrufe beschleunigt wird. <br/> |
+|Föderations Anrufe  <br/> |Ermöglicht Benutzern eine sichere Verbindung, Kommunikation und Zusammenarbeit mit Benutzern in Verbund Mandanten.  <br/> |
+|[Führen und Empfangen eines Videoanrufs](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Wenn das Konto des Benutzers für Videoanrufe aktiviert ist, kann der Benutzer persönliche Videoanrufe mit seinen Kontakten führen. Sie benötigen lediglich eine Kamera, die Lautsprecher und das Mikrofon Ihres Computers. Benutzer können auch ein Headset verwenden, wenn Ihr Computer nicht über ein integriertes Audiogerät verfügt.<br/> |
+|[Cloud-Voicemail](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Sprachnachricht erhält, wird er an sein Exchange-Postfach als e-Mail-Nachricht mit der Sprachnachricht als Anlage übermittelt. Die Benutzer können Ihre Nachrichten auf Ihrem zertifizierten Desktoptelefon und in allen Teams oder Skype for Business-Anwendungen anhören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert.   <br/> |
+|[Cloud Voicemail-Benutzereinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern die Konfiguration Ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anruf Antwort Regeln und Gruß Sprache, einschließlich Abwesenheits Begrüßungen.   |
+|[Sekundärer Rufton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren Lautsprecher-Geräten, die an Ihren PC angeschlossen sind, können neben dem Standardlautsprecher auch ein sekundäres Gerät festlegen. Ein Benutzer mit einem Headset, das an den PC angeschlossen ist, und die Schreibtisch-Lautsprecher können beispielsweise festlegen, dass sowohl das Headset als auch die Schreibtisch-Lautsprecher Klingeln, wenn ein Anruf eingeht, damit er keinen Anruf verpasst.  |
+|[Markante Anrufbenachrichtigungen](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (nur für Teams)<br/> |Ermöglicht Benutzern das auswählen separater Klingeltöne für normale Anrufe, weitergeleitete Anrufe und Delegierte Anrufe, damit diese die Art des Anrufs unterscheiden können.  <br/> |
+|[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern die Freigabe Ihrer Telefonleitung, damit ein anderer Benutzer in seinem Namen Anrufe tätigen und empfangen kann.|
+|[Beschäftigt bei besetzt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe gehandhabt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf in Wartestellung gesetzt wurde. Der Anrufer hört ein Besetztzeichen, wenn der Anrufer bereits am Telefon ist. Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann aber keine eingehenden Anrufe annehmen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom mandantenadministrator aktiviert werden. |
+|[Anruf Blockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von (PSTN-) Telefonnummern zu einer blockierten Liste, damit der nächste Anruf von dieser Nummer blockiert wird.|
+|[Telefone im öffentlichen Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon im öffentlichen Bereich wird normalerweise in einem Bereich wie einer Lobby oder einem Konferenzraum bereitgestellt, wodurch es für mehrere Personen verfügbar ist. Telefone im öffentlichen Bereich sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
+|[Unterstützung für medienumgehung](direct-routing-plan-media-bypass.md) (nur für Teams, die nur Direktes Routing durchführen) <br/> | Um die Leistung zu verbessern, werden Medien zwischen dem Session Border Controller (SBC) und dem Client aufbewahrt, anstatt Sie über das Microsoft Phone-System zu senden. |
 
-   
-## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planen und Einrichten des Office 365-Telefonsystems
-<a name="bkmk_setup"> </a>
-
-Richten Sie das Office 365-Telefonsystem so ein, dass es optimal zu Ihren betrieblichen Erfordernissen passt:
-  
-- Sie können das Office 365-Telefonsystem Add-on mit den vorhandenen Telefonleitungen Ihres Unternehmens oder mit dem [Office 365-Anrufplan](calling-plan-landing-page.md) für eingehende und ausgehende Anrufe verwenden.
-    
-- Sie können neue Telefonnummern aus Office 365 vergeben oder bestehende Telefonnummern in Skype for Business übertragen. 
-    
-Informationen zum Planen und Einrichten des Office 365-Telefonsystems in Ihrem Unternehmen finden Sie in den folgenden Artikeln:
-
-- [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
-
-- [Einrichten von Anrufplänen](set-up-calling-plans.md): Dieser Artikel beinhaltet eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder zum Übertragen Ihrer vorhandenen Telefonnummern an Skype for Business.
-    
-- [Microsoft-Telefonielösungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel werden alle Bereitstellungsoptionen aufgeführt. Darüber hinaus gibt es Informationen zum Planen einer gesamten Cloud-only-Lösung. 
-    
-- [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Erfahren Sie, welche Lizenzen Sie erwerben müssen, um das Office 365-Telefonsystem zu erhalten.
-    
-- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
-    
-- [Entdecken Sie Skype forBusiness](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Helfen Sie den Benutzern in Ihrem Unternehmen, die Skype for Business-Features zu nutzen. 
-
-
-## <a name="availability"></a>Verfügbarkeit
-<a name="bkmk_setup"> </a>
-
-||||
-|:-----|:-----|:-----|
-|**Rich Clients** <br/> |**Mobile Clients** <br/> |**IP-Telefone** <br/> |
-| Kann mit allen unterstützten PC- und Mac-Clients in Office 365 verwendet werden. <br/> [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Einrichten von Lync für Mac 2011 für Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Wir haben Skype for Business-Clients für: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Treffen Sie eine Auswahl unter den vielen mit Skype for Business kompatiblen Festnetztelefonen. Weitere Informationen finden Sie unter [Kauf von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Verfügbarkeit in gcc-und DoD-Wolken
 <a name="bkmk_setup"> </a>
@@ -108,12 +77,19 @@ Die folgenden Funktionen stehen in den Clouds für gcc-höchst-und DoD-Wolken no
 - [Übertragung an Voicemail Mid-Anruf](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Telefonnummer von der Suchleiste anrufen
 - Wartemusik
-- Aad Reverse Number Lookup
+- Azure AD Reverse Number Lookup
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
+- [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md)
+- [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
+- [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
+- [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
+- [Überwachen und Verwalten des Lebenszyklus](monitor-call-quality-qos.md)
+- [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Preise für Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Teams für virtualisierte Desktop Infrastruktur mit anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   
  

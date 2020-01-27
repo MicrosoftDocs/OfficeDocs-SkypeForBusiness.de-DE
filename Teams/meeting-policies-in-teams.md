@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120397"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554342"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -105,10 +105,10 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie diese Option aktivieren und ein Benutzer eine Nachricht in einem Teams-Kanal sendet, kann der Benutzer unter dem Feld zum Verfassen auf **jetzt** besprechen klicken, um eine Ad-hoc-Besprechung im Kanal zu starten.
 
 ![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>Private Besprechung jetzt zulassen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Zulassen des Outlook-Add-ins
 
@@ -140,7 +140,6 @@ Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zu
 - [Cloud-Aufzeichnung zulassen](#allow-cloud-recording)
 - [IP-Video zulassen](#allow-ip-video)
 - [Medien-Bitrate (KBS)](#media-bit-rate-kbs)
-- [Aktivieren von Live Beschriftungen (Preview)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Transkription zulassen
 
@@ -197,20 +196,6 @@ Wenn für eine Besprechung nicht genügend Bandbreite zur Verfügung steht, sehe
 
 Für Besprechungen, die die höchste Videoqualität benötigen, wie CEO-Board-Meetings und Teams-Live-Events, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Auch wenn die maximale Benutzererfahrung festgelegt ist, passt sich der Medien Stapel von Teams an niedrige Bandbreitenbedingungen an, wenn bestimmte Netzwerkbedingungen je nach Szenario erkannt werden. 
 
-### <a name="enable-live-captions-preview"></a>Aktivieren von Live Beschriftungen (Preview)
-
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob die Option " **Live Beschriftungen aktivieren** " für den Benutzer verfügbar ist, um in Besprechungen, an denen der Benutzer teilnimmt, Live Beschriftungen zu aktivieren und zu deaktivieren.  
-
-![Screenshot mit der Option "Live-Beschriftungen aktivieren"](media/meeting-policies-live-captions.png)
-
-|Einstellungswert |Verhalten  |
-|---------|---------|
-|**Deaktiviert und der Benutzer kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü (**.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
-|**Deaktiviert**     | Live Beschriftungen sind für den Benutzer während einer Besprechung deaktiviert. Der Benutzer kann nicht aktiviert werden.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinien Einstellungen – Inhaltsfreigabe
 
 - [Bildschirmübertragungsmodus](#screen-sharing-mode)
@@ -219,7 +204,6 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 - [PowerPoint-Freigabe zulassen](#allow-powerpoint-sharing)
 - [Whiteboard zulassen](#allow-whiteboard)
 - [Zulassen von freigegebenen Notizen](#allow-shared-notes)
-- [Chat in Besprechungen zulassen (in Kürze verfügbar)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>Bildschirmübertragungsmodus
 
@@ -320,19 +304,16 @@ Sehen wir uns das folgende Beispiel an:
 
 Daniela kann in Amandas Besprechungen Notizen machen, und Amanda kann in keiner Besprechung Notizen machen.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>Chat in Besprechungen zulassen (in Kürze verfügbar)
-
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob der Besprechungs Chat in der Besprechung des Benutzers zulässig ist. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinien Einstellungen – Teilnehmer #a0 Gäste
 
 Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, bevor Sie an der Besprechung teilnehmen, sowie die Teilnahmestufe, die Sie in einer Besprechung zugelassen sind.
 
 - [Automatisches zulassen von Personen](#automatically-admit-people)
 - [Zulassen, dass anonyme Personen eine Besprechung starten](#allow-anonymous-people-to-start-a-meeting)
-- [Zulassen, dass Einwahlbenutzer die Lobby umgehen können](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Zulassen, dass Einwahlbenutzer die Lobby umgehen können](#allow-dial-in-users-to-bypass-the-lobby)
+- [Private Besprechung jetzt zulassen](#allow-private-meet-now)
+- [Aktivieren von Live Beschriftungen](#enable-live-captions)
+- [Chat in Besprechungen zulassen](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Die Optionen für die Teilnahme an einer Besprechung unterscheiden sich je nach den Einstellungen für die einzelnen Teams und der Verbindungsmethode. Wenn Ihre Gruppe über Audiokonferenzen verfügt und diese zum Herstellen einer Verbindung verwendet, lesen Sie [Audio-Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Wenn Ihre Gruppe "Teams" keine Audiokonferenzen hat, finden Sie unter [teilnehmen an einer Besprechung in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -379,7 +360,7 @@ Hier sehen Sie das Join-Verhalten anonymer Personen, wenn keine authentifizierte
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Erlauben Sie Einwahl Benutzern, die Lobby zu umgehen (in Kürze verfügbar)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
 Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ".
 
@@ -394,6 +375,29 @@ Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
+### <a name="allow-private-meet-now"></a>Private Besprechung jetzt zulassen
+
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann. 
+
+### <a name="enable-live-captions"></a>Aktivieren von Live Beschriftungen
+
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob die Option " **Live Beschriftungen aktivieren** " für den Benutzer verfügbar ist, um in Besprechungen, an denen der Benutzer teilnimmt, Live Beschriftungen zu aktivieren und zu deaktivieren.  
+
+![Screenshot mit der Option "Live-Beschriftungen aktivieren"](media/meeting-policies-live-captions.png)
+
+|Einstellungswert |Verhalten  |
+|---------|---------|
+|**Deaktiviert und der Benutzer kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü (**.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
+|**Deaktiviert**     | Live Beschriftungen sind für den Benutzer während einer Besprechung deaktiviert. Der Benutzer kann nicht aktiviert werden.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>Chat in Besprechungen zulassen
+
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob der Besprechungs Chat in der Besprechung des Benutzers zulässig ist. 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Nachrichtenrichtlinien in Teams](messaging-policies-in-teams.md)

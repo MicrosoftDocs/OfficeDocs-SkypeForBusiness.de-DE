@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Active Directory-Domäne für eine Installation von Skype for Business Server vorbereiten. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000885"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554052"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype for Business Server
  
@@ -35,7 +35,7 @@ Skype for Business Server arbeitet eng mit Active Directory zusammen. Sie müsse
 Skype for Business Server ist eng in die Active Directory-Domänendienste (AD DS) integriert. Bevor Sie Skype for Business Server zum ersten Mal installieren können, muss Active Directory vorbereitet sein. Der Abschnitt des Bereitstellungs-Assistenten mit dem Titel **Prepare Active Directory** bereitet die Active Directory-Umgebung für die Verwendung mit Skype for Business Server vor.
   
 > [!NOTE]
-> Skype for Business Server verwendet (AD DS), um alle Server in einer Topologie zu überwachen und mit Ihnen zu kommunizieren. Jeder Server muss mit der Domäne verbunden sein, damit Skype for Business Server ordnungsgemäß funktionieren kann. 
+> Skype for Business Server verwendet (AD DS), um alle Server in einer Topologie zu überwachen und mit Ihnen zu kommunizieren. Die Mehrzahl dieser Server muss der Domäne beigetreten sein, damit Skype for Business Server ordnungsgemäß funktionieren kann. Beachten Sie, dass Server wie Edge und Reverse Proxy nicht Domänen verbunden sein sollten.
   
 > [!IMPORTANT]
 > Das Verfahren zur Vorbereitung von Active Directory muss nur einmal für jede Domäne in der Bereitstellung durchgeführt werden. 

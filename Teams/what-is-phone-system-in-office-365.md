@@ -18,61 +18,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Erfahren Sie, welchen Nutzen das Telefonsystem für Sie hat. '
-ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+description: Erfahren Sie, welchen Nutzen das Telefonsystem für Sie hat.
+ms.openlocfilehash: 78183c8b72af3ab713bea4b10ded4033f667ef1d
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069396"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554212"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
-**Telefonsystem** ist die Microsoft-Technologie zum Aktivieren der Anrufsteuerung und der PBX-Funktionen in der Office 365-Cloud mit Skype for Business Online und Microsoft Teams. Mit dem Telefonsystem können Sie Ihr vorhandenes Nebenstellensystem durch eine Reihe von Funktionen ersetzen, die über Office 365 bereitgestellt werden und die eng in Ihre Cloudlösung integriert sind. Weitere Informationen zu den Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md).
+Eine Private Branch Exchange (PBX) ist eine Telefonanlage innerhalb eines Unternehmens. Telefon System in Office 365 bietet Ihnen PBX-Funktionen, aber ohne komplizierte und kostspielige Geräte. 
+
+Mit dem Telefon System können Sie Ihr vorhandenes lokales PBX-System durch eine Reihe von Features ersetzen, die von Office 365 bereitgestellt werden, das eng in Ihre Cloud-Umgebung integriert ist. Weitere Informationen zu den Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md).
+
+## <a name="phone-system-technology"></a>Telefon System Technologie
+
+Telefon System ermöglicht Anrufsteuerung und Telefonanlagenfunktionen in der Office 365-Cloud mit Microsoft Teams und Skype for Business Online. 
   
-Mit dem Telefonsystem können Benutzer Skype for Business Online und Microsoft Teams verwenden, um Anrufe zu tätigen und entgegenzunehmen, Anrufe weiterzuleiten sowie Anrufe vorübergehend stummzuschalten. Telefonsystem-Benutzer können auf einen Namen in Ihrem Adressbuch klicken, und Skype for Business oder Microsoft Teams wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business und Microsoft Teams verwendet werden können. Telefonsystem-Administratoren können Anrufoptionen und Einstellungen von der gleichen Konsole aus verwalten, die für Mitteilungen und die Zusammenarbeit usw. verwendet wird.
+Mit dem Telefon System können Benutzer Teams oder Skype for Business Online verwenden, um Anrufe zu tätigen und zu empfangen, Anrufe zu übertragen sowie Anrufe stummzuschalten oder stummzuschalten. Telefon System Benutzer können in Ihrem Adressbuch auf einen Namen klicken und Teams oder Skype for Business Online-Anrufe an diese Person tätigen. Um Anrufe zu tätigen und zu empfangen, können Telefon System Nutzer Ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen nutzen, die mit Teams und Skype for Business Online funktionieren. Telefon System Administratoren können Anrufoptionen und-Einstellungen über die gleiche Konsole verwalten, die für Messaging, Zusammenarbeit usw. verwendet wird.
   
-Herkömmliche PBX-Systeme bieten Anrufe zwischen Benutzern in Ihrer Organisation, die intern mittels des Telefonsystems verwaltet werden, und die nie zum Telefonfestnetz wechseln. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb des Telefonsystems gehandhabt und gehen nie in das öffentlich geschaltete Telefonnetz (PSTN). Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
+
+Für Anrufe außerhalb Ihrer Organisation bietet Microsoft mehrere Optionen zum Verbinden von Telefonsystemen mit dem öffentlich geschalteten Telefonnetz (PSTN).
+
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Herstellen einer Verbindung mit dem öffentlich geschalteten Telefonnetz (PSTN)
   
-Um Anrufe an Festnetzanschlüsse und Mobiltelefone zu ermöglichen, kann das Telefonsystem auf zwei Arten an das Festnetz angebunden werden:
+Das Telefon System kann auf eine von zwei Arten mit dem PSTN verbunden werden:
   
-- Erwerben Sie einen Anrufplan für Office 365 (für Inlandsgespräche oder auch für internationale Anrufe). Siehe [Telefonsystem und Anrufpläne](calling-plan-landing-page.md)
+- Erwerben Sie einen Microsoft-Anrufplan (im in-und Ausland) für Office 365. Microsoft Calling Plan ist eine vollständige Cloud-Lösung mit Microsoft als PSTN-Netzbetreiber. Weitere Informationen finden Sie unter [Telefon System und Anrufpläne](calling-plan-landing-page.md).
 
-- Verwenden Sie eine lokale Festnetzanbindung, bei der die lokale Software eine Verbindung zu Ihrer vorhandenen Telefonieinfrastruktur herstellt. Siehe [Microsoft-Telefonielösungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+- Verwenden Sie Ihre vorhandene Telefonie-Infrastruktur für lokale PSTN-Konnektivität.
 
-## <a name="more-about-calling-plans"></a>Weitere Informationen zu Anrufplänen
+  Für Ihre Teams-Benutzer können Sie Ihre lokale Telefonie-Infrastruktur über direkte Weiterleitung mit dem Telefon System verbinden. Weitere Informationen finden Sie unter [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md).
 
-Die Verwendung eines Anrufplan-Add-ons für das Telefonsystem in Office 365 ermöglicht Festnetzkonnektivität für Anrufe zu Festnetzanschlüssen und Mobiltelefonen in aller Welt (je nach lizenzierter Servicestufe). Ihre Benutzer werden in der Cloud verwaltet und mittels des Anrufplan-Add-Ons für das Telefonsystem aktiviert, welches von Microsoft aktiviert wird. Für Anrufpläne ist keine lokale Server-Bereitstellung erforderlich. Anrufpläne funktionieren nur mit dem Telefonsystem in Office 365, und Sie können diese Anrufpläne nicht mit einem anderen PBX-System verwenden.
+  Weitere Informationen zu allen Microsoft-Telefonie-Lösungen finden Sie unter [Microsoft-Telefonie-Lösungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
-![Topologiediagramm, das Cloud-PBX mit PSTN-Anrufanschluss zeigt](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Da Anrufpläne innerhalb von Office 365 ausgeführt werden, ist dies ein vollständiges Cloud-Angebot, für das keine lokale Server-Bereitstellung erforderlich ist. Sie haben die Möglichkeit, einen nationalen oder nationalen und internationalen Anrufplan zu verwenden, der jedem Benutzer zugewiesen wird, dem Sie Anrufe gestatten möchten. [Möchten Sie mehr wissen?](calling-plan-landing-page.md).
-  
-Benutzer, die in Skype for Business Online oder in Microsoft Teams in Office 365 gehostet werden, haben Zugriff auf Office 365 Voice Services. Microsoft ist Anbieter sowohl von Kernanrufen als auch von PSTN-Anrufen und kann sogar die Telefonnummern Ihrer Benutzer bereitstellen oder portieren.
-  
-Anrufpläne in Office 365 ermöglichen Ihnen die Suche nach, den Zugriff auf und die Zuweisung von Telefonnummern für Benutzer in Ihrem Unternehmen, damit diese Telefonanrufe zu Personen innerhalb und außerhalb Ihres Unternehmens tätigen und entgegennehmen können.
-  
-Für alle Arten von Unternehmen ist es eine wichtige Geschäftsvoraussetzung, dass sie eine Telefonnummer verwenden, mit der Benutzer Sprachanrufe senden und empfangen können. Telefonnummern werden häufig verwendet, um einen Benutzer zu identifizieren und die Kommunikation in Organisationen zu ermöglichen. Benutzer, denen Telefonnummern zugewiesen worden sind, können Sprachanrufe über sämtliche Skype for Business und Microsoft Teams-Geräte einschließlich VoIP-Telefone, PCs und Mobilgeräte abwickeln.
+## <a name="phone-system-with-services"></a>Telefon System mit Diensten
 
-Anrufpläne (nationale und internationale Anrufe) sind an bestimmten, aber stetig wachsenden geografischen Standorten verfügbar. Überprüfen Sie die [Verfügbarkeit](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) in Ihrem Land / Ihrer Region.
+ Das Telefon System kann für Dienste und Voicemail verwendet werden, beispielsweise:
 
-**Sind Sie bereit für die ersten Schritte?**  Informationen zum Einrichten von Anrufplänen für Ihre Benutzer finden Sie unter [Einrichten von Anrufplänen](set-up-calling-plans.md).  
+- **Automatische Telefonzentralen** – automatische Telefonzentralen können verwendet werden, um ein Menü System für Ihre Organisation zu erstellen, mit dem externe und interne Anrufer das System durchlaufen, um Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen. Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen?](what-are-phone-system-auto-attendants.md)
 
-## <a name="phone-system-with-services"></a>Telefonsystem mit Diensten
+- **Anrufwarteschlangen** – Gruß Warteschlangen Begrüßungen können verwendet werden, wenn sich jemand an eine Telefonnummer für Ihre Organisation anmeldet. Diese Begrüßungen beinhalten die Möglichkeit, die Anrufe automatisch in Wartestellung zu setzen, und die Möglichkeit, nach dem nächsten verfügbaren Anruf Agenten zu suchen, um den Anruf zu behandeln, während die Gesprächspartner Musik hören, wenn Sie in Wartestellung sind. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md).
 
- Telefonsystem kann auch für Dienste und Voicemail verwendet werden:
+- **Voicemail** – Wenn Sie eine Telefon System-Lizenz für einen Benutzer erhalten, kann dieser Nutzer Voicemail erhalten, die von Anrufern hinterlassen wurde. Cloud Voicemail für Telefonsysteme wird automatisch eingerichtet und für die Benutzer bereitgestellt, nachdem Sie den Benutzern eine Telefonsystemlizenz und eine Telefonnummer zugewiesen haben. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-- **Automatische Telefonzentrale** Die automatische Telefonzentrale in Office 365 kann verwendet werden, um ein Menüsystem für Ihre Organisation zu erstellen. Dann können externe und interne Anrufer durch das Menüsystem navigieren, um Benutzer in der Firma oder Abteilungen in der Organisation zu finden und sie anzurufen oder Anrufe an sie durchzustellen. Siehe [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
-
-- **Anrufwarteschleife** Mit dem Telefonsystem können Sie Begrüßungen für Anrufwarteschleifen, die verwendet werden, wenn eine Person eine Rufnummer Ihrer Organisation anruft. Dazu gehört auch die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
-
-- **Voicemail** Wenn Sie eine Telefonsystem-Lizenz für einen Benutzer erhalten, kann dieser Benutzer Voicemails abrufen, die von Anrufern hinterlassen wurden. Cloud Voicemail für Telefonsysteme wird automatisch eingerichtet und für die Benutzer bereitgestellt, nachdem Sie den Benutzern eine Telefonsystemlizenz und eine Telefonnummer zugewiesen haben. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
-
-Um zu beginnen, lesen Sie [Einrichten desTelefonsystems in Ihrer Organisation](setting-up-your-phone-system.md).
+Weitere Informationen zu Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md). Wenn Sie bereit für die ersten Schritte sind, lesen Sie [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+- [Telefon System Funktionen](here-s-what-you-get-with-phone-system.md)
+- [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md)
+- [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
+- [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
+- [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Erwerben von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+
