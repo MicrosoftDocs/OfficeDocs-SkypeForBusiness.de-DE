@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8a25b7db3a254c4bc1c1266b6b9be48ed798f331
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580902"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634888"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -288,7 +288,7 @@ Es gibt zwei Berichtsausgaben in CQD online: Zusammenfassung und detailliert. Ve
 
 Eine vollständige Beschreibung der Unterschiede zwischen den beiden Editionen finden Sie in [diesem Artikel](turning-on-and-using-call-quality-dashboard.md).
 
-Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
 
 _Abbildung 4: CQD-Berichtskategorien_
 

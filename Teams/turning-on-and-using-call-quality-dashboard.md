@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41620027"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41636842"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -196,7 +196,7 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 
 Alle Editionen von CQD bieten eine Erfahrung, die Ihnen bei der Anruf Qualitätsmetrik hilft, ohne neue Berichte erstellen zu müssen. Nachdem die Daten im Back-End verarbeitet wurden, sehen Sie in den Berichten die Daten zur Anrufqualität.
 
-Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
   
 ### <a name="overview-reports"></a>Übersichtsberichte
 
