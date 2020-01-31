@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
-ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 346747d3d5731f5b4504c45066a39a28f5289e70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775316"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628681"
 ---
 # <a name="manage-windows-updates"></a>Verwalten von Windows-Updates
 
@@ -33,11 +33,11 @@ Windows-Updates können auf verschiedene Arten verwaltet werden:
 
 ## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows-Updates für Unternehmen](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO oder InTune)   
 - Updates werden von Wu oder Ihrem WSUS heruntergeladen, aber mit konfigurierten Verzögerungen nach dem ursprünglichen Veröffentlichungsdatum der KB. 
-- In Kombination mit mehreren ou-oder gefilterten Richtlinien kann dadurch die Bereitstellung von "Ringen" erstellt werden, in denen Administratoren angeben können, welche Geräte zuerst Qualitäts Updates installieren und welche später installiert werden. Auf diese Weise können Zuverlässigkeits-und Leistungstests für eine Teilmenge von Systemen durchgeführt werden, bevor Updates für die gesamte Bereitstellung ohne den Aufwand für die Verwaltung von Windows-Updates in SCCM bereitgestellt werden.
+- In Kombination mit mehreren ou-oder gefilterten Richtlinien kann dadurch die Bereitstellung von "Ringen" erstellt werden, in denen Administratoren angeben können, welche Geräte zuerst Qualitäts Updates installieren und welche später installiert werden. Auf diese Weise können Zuverlässigkeits-und Leistungstests für eine Teilmenge von Systemen durchgeführt werden, bevor Updates für die gesamte Bereitstellung ohne den Aufwand für die Verwaltung von Windows-Updates im Microsoft Endpoint Configuration Manager bereitgestellt werden.
 - WSUS und Windows-Updates für Unternehmen können [gleichzeitig konfiguriert](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) werden, wenn Sie sowohl die Bandbreitenverwaltung als auch die Steuerung von Windows-Updates für Unternehmen wünschen.
 - Funktionsupdates. Weitere Informationen finden Sie weiter unten.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsusconfiguration-managerhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Ähnlich wie Windows Update für Unternehmen, aber mit der zusätzlichen Option zur Zielgruppenadressierung spezifischer KB-Daten in jedem "Ring" oder der gesamten Bereitstellung. Jedes Update kann einzeln bereitgestellt und getestet werden, anstatt sich nur auf eine Verzögerung zu verlassen. 
 - Funktionsupdates. Weitere Informationen finden Sie weiter unten.
 
@@ -48,4 +48,4 @@ Im Gegensatz zu Qualitäts-und nicht verzögerten Updates werden die Windows 10-
 
 Der Microsoft Teams-Raum "Out-of-Box" mit dem Ansatz "Hands Off" wird kein Windows-Update installiert oder ein Gerät wird aufgrund eines Windows-Updates automatisch neu gestartet. Systeme können jedoch ein Update herunterladen und auf den nächsten Neustart warten, um es zu installieren. Wenn jemand die Datei nicht manuell neu startet, sollte die Installation beim automatischen nächtlichen Neustart erfolgen. Windows-Updates sollten im Raum transparent sein, die Benutzeroberfläche sollte niemals von Windows-Updates unterbrochen werden.
 
-Wenn Sie sich für die Domänenmitgliedschaft entscheiden, verwenden Sie SCCM oder WSUS, und achten Sie besonders auf Richtlinien oder Aktionen, die dazu führen können, dass das Gerät ein Update installiert oder während der Geschäftszeiten einen Neustart erzwungen. Wenn während der Verwendung von Systemen in der Bereitstellung ein Neustart durchführen oder eine Warnung zu Windows-Updates über die Benutzeroberfläche vorhanden ist, sollten Sie sich mit Ihrer Konfiguration vertraut machen.
+Wenn Sie sich für den Domänenbeitritt entscheiden, verwenden Sie den Microsoft Endpoint Configuration Manager oder WSUS, und achten Sie besonders auf Richtlinien oder Aktionen, die dazu führen können, dass das Gerät ein Update installiert oder während der Geschäftszeiten einen Neustart erzwungen. Wenn während der Verwendung von Systemen in der Bereitstellung ein Neustart durchführen oder eine Warnung zu Windows-Updates über die Benutzeroberfläche vorhanden ist, sollten Sie sich mit Ihrer Konfiguration vertraut machen.

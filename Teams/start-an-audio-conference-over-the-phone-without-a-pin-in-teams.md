@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie im Teams Admin Center die Teilnahme anonymer Anrufer an einer Besprechung aktivieren oder deaktivieren. '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570006"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580842"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
@@ -48,9 +48,9 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
 
 3. Klicken Sie neben **Audiokonferenz** auf **Bearbeiten**.
 
-4. Aktivieren oder deaktivieren Sie im Bereich **Audiokonferenz** die Option **Unauthenticated callers can be the first person in a meeting** (Nicht authentifizierte Anrufer als erste Teilnehmer an einer Besprechung zulassen).
+4. Aktivieren oder deaktivieren Sie im Bereich **Audiokonferenz** **-Einwahl Anrufer die erste Person in einer Besprechung**.
     
-4. Klicken Sie auf **Speichern**. 
+4. Klicken Sie auf **Anwenden**. 
 
 **Verwenden von Windows PowerShell**
   

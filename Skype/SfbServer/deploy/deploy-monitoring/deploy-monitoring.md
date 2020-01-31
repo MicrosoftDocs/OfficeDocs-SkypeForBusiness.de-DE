@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Überwachung in Skype for Business Server bereitstellen.'
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001146"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634848"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen der Überwachung in Skype for Business Server
 
@@ -29,7 +29,7 @@ Anhand der folgenden beiden Schritte können Sie Überwachungsdienste in Ihrer T
 
 2. Zuordnen eines Überwachungsspeichers (d. h. einer Überwachungsdatenbank) zum neuen Pool. Ein einzelner Überwachungsspeicher kann mehreren Pools zugeordnet werden. Abhängig von der Anzahl von Benutzern, die in Ihren Registrierungsstellenpools verwaltet werden, bedeutet dies, dass Sie keine separate Überwachungsdatenbank für jeden Pool einrichten müssen. Stattdessen können einzelne Überwachungsspeicher von mehreren Pools verwendet werden.
 
-Oft ist es zwar einfacher, die Überwachung gleichzeitig mit der Erstellung eines neuen Pools zu aktivieren, es ist jedoch auch möglich, bei deaktivierter Überwachung einen neuen Pool zu erstellen. In diesem Fall können Sie später den Topologie-Generator verwenden, um den Dienst zu aktivieren. Mithilfe des Topologie-Generators kann die Überwachung für einen Pool aktiviert bzw. deaktiviert oder ein Pool kann einem anderen Überwachungsspeicher zugeordnet werden. Beachten Sie, dass weiterhin mindestens ein Überwachungsspeicher erstellt werden muss, auch wenn keine Monitoring Server-Rolle mehr vorhanden ist: Back-End-Datenbanken, die zum Speichern der vom Überwachungsdienst gesammelten Daten dienen. Diese Back-End-Datenbanken können mithilfe von Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012 oder Microsoft SQL Server 2014 erstellt werden.
+Zwar ist es oft einfacher, die Überwachung zur gleichen Zeit zu aktivieren, in der Sie einen neuen Pool erstellen, aber es ist auch möglich, einen neuen Pool mit deaktivierter Überwachung zu erstellen. In diesem Fall können Sie später mithilfe des Topologie-Generators den Dienst aktivieren: Topologie-Generator bietet eine Möglichkeit zum Aktivieren oder Deaktivieren der Überwachung für einen Pool oder zum Zuordnen eines Pools zu einem anderen Überwachungsspeicher. Beachten Sie, dass Sie zwar nicht mehr über eine Überwachungs Server Rolle verfügen, aber dennoch mindestens einen Überwachungsspeicher erstellen müssen: Back-End-Datenbanken, die zum Speichern der vom Überwachungsdienst gesammelten Daten verwendet werden. Diese Back-End-Datenbankenkönnen mit Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 oder Microsoft SQL Server 2019 erstellt werden.
 
 > [!NOTE]
 > Wenn die Überwachung für einen Pool aktiviert wurde, können Sie den Prozess des Sammelns von Überwachungsdaten deaktivieren, ohne Ihre Topologie ändern zu müssen: Skype for Business Server bietet eine Möglichkeit, die Anruf Detail Aufzeichnung (CDR) oder die Qualität von Experience (QoE)-Datensammlung. Weitere Informationen finden Sie in diesem Dokument im Abschnitt „Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen)“ und „QoE (Quality of Experience)-Einstellungen“.

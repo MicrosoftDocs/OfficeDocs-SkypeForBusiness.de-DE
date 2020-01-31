@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (und Puerto Rico) für Microsoft Teams zu finden.
-ms.openlocfilehash: 580d6683680adc393c4cad5cdc77bc7250eb5153
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d65dc8727d99d2387721176b9ee94242db6ff04a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925066"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580812"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Neue Telefonnummern für Benutzer abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.  <br/> |Laden Sie das Formular zur [Anforderung neuer Telefonnummern für die USA (Benutzernummern) (v.3.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true) herunter, füllen Sie es aus, und [senden Sie es an uns](mailto:gcstnmsd@microsoft.com).  <br/> |
-|Rufen Sie neue Service-Telefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> |Für Dienstnummern innerhalb der USA laden Sie bitte [dieses Formular herunter](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), füllen Sie es aus und [Senden Sie es an uns](mailto:ptn@microsoft.com).
+|Rufen Sie neue Service-Telefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> |Für Dienstnummern innerhalb der USA laden Sie bitte [dieses Formular herunter](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), füllen Sie es aus und [Senden Sie es an uns](mailto:gcstnmsd@microsoft.com).
 |Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> | Laden Sie eines dieser Formulare herunter: <br/> [Letter of Authorization (LoA) für die USA (Benutzer-und Servicenummern) (v. 3.2) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[Schriftliche Vollmacht für die USA (gebührenfreie Nummern) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**Hinweis:** Wenn Sie mehr als 999 Teilnehmer- oder Benutzertelefonnummern benötigen, müssen Sie eine schriftliche Vollmacht ausfüllen und an uns senden. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) .          <br/>  <br/>   Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptn@microsoft.com).  <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) Ihre PIN und eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Übertragen Sie Nummern von einer Office 365-Organisation auf eine andere.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) eine Liste der Benutzertelefonnummern (Teilnehmernummern), die Sie übertragen möchten, sowie die PIN der Quellorganisation, von der Sie die Nummern übertragen möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |

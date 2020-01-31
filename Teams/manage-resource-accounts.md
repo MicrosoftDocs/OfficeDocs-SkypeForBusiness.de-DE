@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Ressourcenkonten in Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925466"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628361"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -107,24 +107,34 @@ Nachdem Sie eine Telefon System Lizenz erworben haben, navigieren Sie mithilfe d
 
 ![Screenshot der Seite „Ressourcenkonten“](media/r-a-master.png)
 
-![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
+![Symbol der Zahl 1, das auf eine Legende im vorherigen Screenshot verweist](media/teamscallout1.png)
 
-Wenn Sie ein neues Ressourcenkonto erstellen möchten, klicken Sie auf **+ neues Konto**. Geben Sie im Pop-up-Fenster den Anzeigenamen und den Benutzernamen für das Ressourcenkonto ein (der Domänenname sollte automatisch ausgefüllt werden), und klicken Sie dann auf **Speichern**.
+Klicken Sie zum Erstellen eines neuen Ressourcenkontos auf **+ Hinzufügen**. Füllen Sie im Popup-Fenster den **Anzeigenamen**, den **Benutzernamen** (der Domänenname sollte automatisch aufgefüllt werden) und den Typ des Ressourcen **Kontos** für das Ressourcenkonto aus. Der Ressourcen Kontotyp kann abhängig von der APP, die Sie dem Ressourcenkonto zuordnen möchten, entweder eine **automatische Telefonzentrale** oder eine **Anrufwarteschlange** sein. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ![Screenshot der Optionen für „Neues Ressourcenkonto“](media/res-acct.png)
 
 Wenden Sie als nächstes im O365 Admin Center eine Lizenz auf das Ressourcenkonto an, wie unter Zuweisen von [Lizenzen zu Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) beschrieben.
 
-### <a name="edit-resource-account-name"></a>Name des Ressourcenkontos bearbeiten
+### <a name="edit-resource-account"></a>Ressourcenkonto bearbeiten 
 
-![Symbol der Zahl 2, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png) Sie können den Anzeigenamen des Ressourcenkontos mit der Option **Bearbeiten** ändern. Klicken Sie abschließend auf **Speichern**.
+![Symbol der](media/teamscallout2.png) Zahl 2, die auf eine Legende im vorherigen Screenshot verweist Sie können den **Anzeigenamen** des Ressourcenkontos und den **Ressourcen Kontotyp** mithilfe der Option " **Bearbeiten** " bearbeiten. Klicken Sie abschließend auf **Speichern**.
+
 ![Screenshot der Option „Ressourcenkonto bearbeiten“](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Zuweisen oder aufheben der Zuweisung von Telefonnummern und Diensten
 
-![Symbol der Zahl 3, das auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png) Sobald Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf **Zuweisen/Aufheben der Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen oder um das Ressourcenkonto einer automatischen Telefonzentrale oder Anrufwarteschleife zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Ihre Anrufwarteschleife oder automatische Telefonzentrale noch erstellt werden muss, können Sie das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
+![Symbol der Zahl 3, auf eine Beschriftung im vorherigen Screenshot](media/teamscallout3.png) verweisen nachdem Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf zuweisen/Aufheben der **Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen, den Typ der Telefonnummer festzulegen oder das Ressourcenkonto einer bestimmten automatischen Telefonzentrale oder Anrufwarteschlange zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Sie die Anrufwarteschlange oder die automatische Telefonzentrale, die Sie dem Ressourcenkonto zuordnen, noch nicht erstellt haben, lassen Sie das Feld leer. Sie können das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
+
+Die Optionen für den **Typ "Telefonnummer** " lauten wie folgt:
+
+- Keine
+- Online
+- Gebührenfrei
+- Lokal
+
+![Screenshot der Optionen „Zuweisen/Aufheben der Zuweisung“](media/r-a-assign.png)
 
 Wenn Sie einem Ressourcenkonto eine direkte Routing-oder Hybrid-Nummer zuweisen möchten, müssen Sie PowerShell verwenden, siehe hierzu den folgenden Abschnitt.
 
@@ -134,7 +144,7 @@ Wenn Sie einem Ressourcenkonto eine direkte Routing-oder Hybrid-Nummer zuweisen 
 > [!IMPORTANT]
 > Eine Telefonnummer wird nicht direkt der automatischen Telefonzentrale oder Anrufwarteschlange, sondern dem Ressourcenkonto zugewiesen, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist.
 
-![Screenshot der Optionen „Zuweisen/Aufheben der Zuweisung“](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos, um eine virtuelle Benutzerlizenz zu verwenden
 
@@ -149,7 +159,7 @@ Je nachdem, ob Ihr Ressourcenkonto online oder in Skype for Business 2019 vorlie
 
 - In den folgenden Beispielen für PowerShell-Cmdlets wird gezeigt, wie Sie mit [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) ein online verwaltetes Ressourcenkonto erstellen. 
 
-- Informationen zu Ressourcenkonten, die in Skype for Business Server 2019 verwaltet werden und mit Cloud-Anrufwarteschleifen und automatischen Cloud-Telefonzentralen verwendet werden können, finden Sie unter [Konfigurieren von Cloud-Anrufwarteschlangen](/skypeforbusiness/hybrid/configure-call-queue.md) oder [Konfigurieren von automatischen Cloud-Telefonzentralen](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Bei Hybrid-Implementierungen (Nummern, die auf direktem Routing verwaltet werden) wird [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) verwendet.
+- Informationen zu Ressourcenkonten, die in Skype for Business Server 2019 verwaltet werden und mit Cloud-Anrufwarteschleifen und automatischen Cloud-Telefonzentralen verwendet werden können, finden Sie unter [Konfigurieren von Cloud-Anrufwarteschlangen](/skypeforbusiness/hybrid/configure-call-queue.md) oder [Konfigurieren von automatischen Cloud-Telefonzentralen](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Hybrid Implementierungen (Zahlen, die im direkten Routing verwaltet werden) werden mithilfe des Cmdlets [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
 
 Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen benötigen, sind Folgende:
 

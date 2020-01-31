@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
+title: Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268989"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628641"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager
 
-Dieser Artikel enthält alle erforderlichen Informationen zum Erstellen Ihrer Microsoft Teams rooms-Bereitstellungen mithilfe von System Center Configuration Manager.
+In diesem Artikel erhalten Sie alle erforderlichen Informationen zum Erstellen Ihrer Microsoft Teams rooms-Bereitstellungen mithilfe von Microsoft Endpoint Configuration Manager.
 
-Mit den einfach zu verwendenden Methoden, die von System Center Configuration Manager bereitgestellt werden, können Sie das Betriebs System und andere Anwendungen auf mehreren Zielgeräten bereitstellen.
+Mit den einfach zu verwendenden Methoden, die von Configuration Manager bereitgestellt werden, können Sie das Betriebssystem und andere Anwendungen auf mehreren Zielgeräten bereitstellen.
 
 Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Configuration Manager-Konfiguration führt, und passen Sie die Beispielpakete und Skripts an, die in diesem Leitfaden nach Bedarf für Ihre Organisation bereitgestellt werden.
 
@@ -54,17 +54,17 @@ Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Configuration M
 
 Stellen Sie zum Bereitstellen von Microsoft Teams-Räumen mit Configuration Manager sicher, dass Sie die folgenden Voraussetzungen und Anforderungen erfüllen.
 
-### <a name="system-center-configuration-manager-requirements"></a>System Center-Konfigurations-Manager-Anforderungen
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager-Anforderungen
 
--   Die System Center Configuration Manager-Version muss mindestens 1706 oder höher sein. Wir empfehlen die Verwendung von 1710 oder höher. Schauen Sie sich die [Unterstützung für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) an, um mehr über die Windows 10-Versionen zu erfahren, die von Configuration Manager unterstützt werden.
+-   Die Microsoft Endpoint Configuration Manager-Version muss mindestens 1706 oder höher sein. Wir empfehlen die Verwendung von 1710 oder höher. Schauen Sie sich die [Unterstützung für Windows 10 in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) an, um mehr über die Windows 10-Versionen zu erfahren, die von Configuration Manager unterstützt werden.
 
--   Es muss eine unterstützte Version von Windows Assessment und Deployment Kit (ADK) für Windows 10 installiert sein. Sehen Sie sich die Versionen von [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) an, die Sie in verschiedenen Versionen von Configuration Manager verwenden können, und stellen Sie sicher, dass Ihre Bereitstellung die richtige Version enthält.
+-   Es muss eine unterstützte Version von Windows Assessment und Deployment Kit (ADK) für Windows 10 installiert sein. Sehen Sie sich die Versionen von [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) an, die Sie in verschiedenen Versionen von Configuration Manager verwenden können, und stellen Sie sicher, dass Ihre Bereitstellung die richtige Version enthält.
 
--   Den Standortsystemservern muss die Verteilungspunktrolle zugewiesen worden sein, und die Startabbilder sollten für [PXE-Unterstützung (Preboot Execution Environment)](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) aktiviert werden, um Netzwerk initiierte Bereitstellungen zu ermöglichen. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie für Ihre Bereitstellungen [startfähige Medien](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) verwenden.
+-   Den Standortsystemservern muss die Verteilungspunktrolle zugewiesen worden sein, und die Startabbilder sollten für [PXE-Unterstützung (Preboot Execution Environment)](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) aktiviert werden, um Netzwerk initiierte Bereitstellungen zu ermöglichen. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie für Ihre Bereitstellungen [startfähige Medien](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) verwenden.
 
--   Ein Netzwerkzugriffskonto muss so konfiguriert sein, dass es neue Bereitstellungsszenarien für Computer (Bare Metal) unterstützt. Wenn Sie mehr über die Konfiguration eines Netzwerkzugriffskontos erfahren möchten, lesen Sie [Verwalten von Konten für den Zugriff auf Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   Ein Netzwerkzugriffskonto muss so konfiguriert sein, dass es neue Bereitstellungsszenarien für Computer (Bare Metal) unterstützt. Wenn Sie mehr über die Konfiguration eines Netzwerkzugriffskontos erfahren möchten, lesen Sie die [in Configuration Manager verwendeten Konten](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Wir empfehlen, dass Sie die [Multicastunterstützung](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)aktivieren, wenn Sie wahrscheinlich dasselbe Microsoft Teams rooms-Bild gleichzeitig auf mehreren Geräten bereitstellen.
+-   Wir empfehlen, dass Sie die [Multicastunterstützung](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)aktivieren, wenn Sie wahrscheinlich dasselbe Microsoft Teams rooms-Bild gleichzeitig auf mehreren Geräten bereitstellen.
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 
@@ -73,14 +73,14 @@ Stellen Sie zum Bereitstellen von Microsoft Teams-Räumen mit Configuration Mana
     > [!NOTE]
     > Die DHCP-Leasingdauer muss auf einen Wert gesetzt werden, der länger als die Dauer der Bild Bereitstellung ist. Andernfalls schlägt die Bereitstellung möglicherweise fehl.
 
--   Ihr Netzwerk, einschließlich Switches und virtuellen LANs (VLANs), sollte so konfiguriert werden, dass es PXE unterstützt. Weitere Informationen zur IP-Helper-und PXE-Konfiguration finden Sie bei Ihrem Netzwerkanbieter. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie auch [startfähige Medien](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) für Ihre Bereitstellungen verwenden.
+-   Ihr Netzwerk, einschließlich Switches und virtuellen LANs (VLANs), sollte so konfiguriert werden, dass es PXE unterstützt. Weitere Informationen zur IP-Helper-und PXE-Konfiguration finden Sie bei Ihrem Netzwerkanbieter. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie auch [startfähige Medien](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) für Ihre Bereitstellungen verwenden.
 
     > [!NOTE]
     > Bei Surface pro-Geräten wird das Booten vom Netzwerk (PXE-Start) nur unterstützt, wenn Sie einen Ethernet-Adapter oder eine Docking-Station von Microsoft verwenden. Ethernet-Adapter von Drittanbietern unterstützen keinen PXE-Start mit Surface pro. Weitere Informationen finden Sie unter [Ethernet-Adapter und Surface-Bereitstellung](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) .
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>Konfigurieren von System Center Configuration Manager für die Betriebs System Bereitstellung
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Konfigurieren des Microsoft Endpoint Configuration Manager für die Betriebssystembereitstellung
 
-In diesem Artikel wird davon ausgegangen, dass Sie bereits über eine gesunde System Center Configuration Manager-Bereitstellung verfügen und nicht alle erforderlichen Schritte zum Bereitstellen und Konfigurieren von Configuration Manager von Grund auf detailliert ausführen. Die [Dokumentation und die Konfigurationsanleitungen](https://docs.microsoft.com/sccm/) im System Center Configuration Manager sind eine hervorragende Ressource; Wenn Sie Configuration Manager noch nicht bereitgestellt haben, empfehlen wir, mit diesen Ressourcen zu beginnen.
+In diesem Artikel wird davon ausgegangen, dass Sie bereits über eine fehlerfreie Configuration Manager-Bereitstellung verfügen und nicht alle erforderlichen Schritte zum Bereitstellen und Konfigurieren von Configuration Manager von Grund auf detailliert ausführen. Die [Dokumentation und die Konfigurationsanleitungen](https://docs.microsoft.com/configmgr/) für den Microsoft Endpoint Configuration Manager sind eine hervorragende Ressource; Wenn Sie Configuration Manager noch nicht bereitgestellt haben, empfehlen wir, mit diesen Ressourcen zu beginnen.
 
 Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features (Operating System Deployment) ordnungsgemäß konfiguriert sind.
 
@@ -90,7 +90,7 @@ Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features
 
 2.  Überprüfen Sie den installierten Build und die anwendbaren Updates, die noch nicht installiert wurden.
 
-3.  Überprüfen des [Supports für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) Wenn Sie Ihre Bereitstellung aktualisieren müssen, wählen Sie das Update aus, das Sie installieren möchten, und wählen Sie dann **herunterladen**aus.
+3.  Überprüfen des [Supports für Windows 10 in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) Wenn Sie Ihre Bereitstellung aktualisieren müssen, wählen Sie das Update aus, das Sie installieren möchten, und wählen Sie dann **herunterladen**aus.
 
 4.  Nachdem der Download abgeschlossen ist, wählen Sie das Update aus, und wählen Sie dann **Update Pack installieren**aus.
 
@@ -118,7 +118,7 @@ Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features
 3.  Wählen Sie die Registerkarte **Netzwerkzugriffskonto** aus. richten Sie mindestens ein Konto ein, und wählen Sie dann **OK**aus.
 
 > [!NOTE]
-> Die Konten benötigen keine besonderen Rechte, mit Ausnahme des **Zugriffs auf diesen Computer vom Netzwerk aus** direkt auf dem Verteilungspunktserver. Ein generisches Domänenbenutzerkonto ist angemessen. Weitere Informationen finden Sie unter [Verwalten von Konten für den Zugriff auf Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> Die Konten benötigen keine besonderen Rechte, mit Ausnahme des **Zugriffs auf diesen Computer vom Netzwerk aus** direkt auf dem Verteilungspunktserver. Ein generisches Domänenbenutzerkonto ist angemessen. Weitere Informationen finden Sie unter [in Configuration Manager verwendete Konten](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### <a name="configure-a-boot-image"></a>Konfigurieren eines Startabbilds
 
@@ -140,15 +140,15 @@ Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features
 
 6.  Wenn Sie dazu aufgefordert werden, wählen Sie **Ja** aus, und verteilen Sie das aktualisierte Startabbild an Ihre Verteilungspunkte.
 
-Weitere Informationen finden Sie unter [Verwalten von Startabbildern mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+Weitere Informationen finden Sie unter [Verwalten von Startabbildern mit Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images).
 
 > [!NOTE]
-> Sie können ein startbares USB-Medium erstellen, um auf Tasksequenz basierte Configuration Manager-Bereitstellungen für Umgebungen zu initiieren, die keine PXE-Unterstützung haben. Das startbare Medium enthält nur das Startabbild, optionale prestart-Befehle und die erforderlichen Dateien sowie Configuration Manager-Binärdateien, um das Booten in Windows PE zu unterstützen und die Verbindung mit Configuration Manager für den restlichen Bereitstellungsprozess herzustellen. Weitere Informationen finden Sie unter [Erstellen von Start](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)baren Medien.
+> Sie können ein startbares USB-Medium erstellen, um auf Tasksequenz basierte Configuration Manager-Bereitstellungen für Umgebungen zu initiieren, die keine PXE-Unterstützung haben. Das startbare Medium enthält nur das Startabbild, optionale prestart-Befehle und die erforderlichen Dateien sowie Configuration Manager-Binärdateien, um das Booten in Windows PE zu unterstützen und die Verbindung mit Configuration Manager für den restlichen Bereitstellungsprozess herzustellen. Weitere Informationen finden Sie unter [Erstellen von startfähigen Medien](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Erstellen von Configuration Manager-Paketen
 
 > [!IMPORTANT]
-> Die erforderliche Betriebssystemversion für jede Version des SRS-Installationsprogramms ändert sich mit jeder MSI-Version. Wenn Sie die beste Version des Betriebssystems für eine bestimmte MSI-Datei ermitteln möchten, führen Sie das Setupskript für die Konsole einmal aus. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager](rooms-scale.md).
+> Die erforderliche Betriebssystemversion für jede Version des SRS-Installationsprogramms ändert sich mit jeder MSI-Version. Wenn Sie die beste Version des Betriebssystems für eine bestimmte MSI-Datei ermitteln möchten, führen Sie das Setupskript für die Konsole einmal aus. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager](rooms-scale.md).
 
 Configuration Manager erfordert eine Reihe von Paketen zum Bereitstellen und Konfigurieren der Microsoft Teams rooms-Einheiten.
 
@@ -168,13 +168,13 @@ Sie müssen die folgenden Pakete erstellen und konfigurieren und dann an die Con
 | Surface pro                          | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro                     |
 | Surface pro 4                        | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro 4                   |
 
-Weitere Informationen finden Sie unter [Pakete und Programme in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+Weitere Informationen finden Sie unter [Pakete und Programme in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 ### <a name="create-folders-for-the-package-source-files"></a>Erstellen von Ordnern für die Paketquelldateien
 
 Configuration Manager erfordert, dass Paketquelldateien in einer bestimmten Ordnerstruktur organisiert werden, wenn Sie zum ersten Mal erstellt und aktualisiert werden.
 
-Erstellen Sie die folgende Ordnerstruktur auf der System Center Configuration Manager-Website für die Zentraladministration oder auf der primären Website oder auf einer Serverfreigabe, die Sie zum Hosten von Paketquelldateien verwenden:
+Erstellen Sie die folgende Ordnerstruktur auf der Microsoft Endpoint Configuration Manager-Website für die Zentraladministration oder auf der primären Website oder auf einer Serverfreigabe, die Sie zum Hosten von Paketquelldateien verwenden:
 
 -   SRS V2 – Paket für Microsoft-Überwachungs-Agents
 -   SRS v2-Betriebssystem Updates-Paket
@@ -486,7 +486,7 @@ Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, di
 
 6.  Wählen Sie **Schließen**aus.
 
-Weitere Informationen finden Sie unter [Verwalten von Betriebssystemabbildern mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
+Weitere Informationen finden Sie unter [Verwalten von Betriebssystemabbildern mit Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images).
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Erstellen von Surface pro-Gerätetreiberpaketen
 
@@ -524,7 +524,7 @@ Microsoft Teams Rooms wird sowohl für Surface pro als auch Surface pro 4 unters
 12. Verschieben Sie alle importierten Treiber in den neu erstellten Ordner, um die Navigation und den Vorgang zu vereinfachen.
 
 > [!NOTE]
-> Wiederholen Sie diese Schritte für andere Surface pro-Modelle, die Sie möglicherweise haben. Weitere Informationen finden Sie unter [Verwalten von Treibern in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+> Wiederholen Sie diese Schritte für andere Surface pro-Modelle, die Sie möglicherweise haben. Weitere Informationen finden Sie unter [Verwalten von Treibern in Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers).
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Konfigurationspaket "Microsoft Teams-Chatrooms erstellen"
 
@@ -591,7 +591,7 @@ Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrol
 
 ## <a name="configuration-manager-task-sequences"></a>Tasksequenzen für Configuration Manager
 
-Sie verwenden Tasksequenzen mit System Center Configuration Manager, um die Schritte zum Bereitstellen eines Betriebs System Abbilds auf einem Zielcomputer zu automatisieren. Wenn Sie eine Microsoft Teams rooms-Einheit auf automatisierte Weise bereitstellen möchten, erstellen Sie eine Tasksequenz, die auf das Startabbild verweist, das zum Starten des Microsoft Teams Room-Zielcomputers, des Windows 10 Enterprise-Betriebssystemabbilds, das Sie installieren möchten, und allen andere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
+Sie verwenden Tasksequenzen mit Configuration Manager, um die Schritte zum Bereitstellen eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Wenn Sie eine Microsoft Teams rooms-Einheit auf automatisierte Weise bereitstellen möchten, erstellen Sie eine Tasksequenz, die auf das Startabbild verweist, das zum Starten des Microsoft Teams Room-Zielcomputers, des Windows 10 Enterprise-Betriebssystemabbilds, das Sie installieren möchten, und allen andere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
 
 ### <a name="import-the-sample-task-sequence"></a>Importieren der Beispiel Tasksequenz
 
@@ -708,9 +708,9 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
 <a name="validate-and-troubleshoot-the-solution"></a>Überprüfen und Problembehandlung der Lösung
 --------------------------------------
 
-Nachdem Sie die Tasksequenzen des System Center Configuration Manager abgeschlossen haben, müssen Sie einen Testlauf durchführen, um zu überprüfen, ob die Tasksequenz Microsoft Teams-Zimmereinheiten bereitstellen und konfigurieren kann.
+Nachdem Sie die Tasksequenzen des Microsoft Endpoint-Configuration-Managers abgeschlossen haben, müssen Sie einen Testlauf durchführen, um zu überprüfen, ob die Tasksequenz Microsoft Teams-Zimmereinheiten bereitstellen und konfigurieren kann.
 
-1.  Verbinden Sie das Test Gerät mit dem kabelgebundenen Netzwerk, indem Sie einen der unterstützten Ethernet-Adapter verwenden oder die Surface-Docking-Station verwenden. Wenn die PXE-Start Funktionalität für Ihre Umgebung nicht konfiguriert wurde, können Sie das Startabbild auf dem USB-Stick verwenden, den [Sie zuvor erstellt](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) haben, um von USB zu booten und mit Configuration Manager zu verbinden.
+1.  Verbinden Sie das Test Gerät mit dem kabelgebundenen Netzwerk, indem Sie einen der unterstützten Ethernet-Adapter verwenden oder die Surface-Docking-Station verwenden. Wenn die PXE-Start Funktionalität für Ihre Umgebung nicht konfiguriert wurde, können Sie das Startabbild auf dem USB-Stick verwenden, den [Sie zuvor erstellt](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) haben, um von USB zu booten und mit Configuration Manager zu verbinden.
 
 2.  Zugreifen auf die Firmware und Initiieren des PXE-Starts:
 
@@ -772,4 +772,4 @@ Wenn Sie Probleme mit dem PXE-Start beheben möchten, überprüfen Sie die beide
 
 -   **"SMSPXE. log**, befindet sich im Configuration Manager-Verwaltungspunkt (MP)-Protokollverzeichnis
 
-Eine vollständige Liste der Protokolldateien, die Sie zur weiteren Problembehandlung bei der Installation von Configuration Manager verwenden können, finden Sie unter [Protokolldateien in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+Eine vollständige Liste der Protokolldateien, die Sie zur weiteren Problembehandlung bei der Installation von Configuration Manager verwenden können, finden Sie im Microsoft Endpoint Configuration Manager- [Protokolldatei Verweis](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files).

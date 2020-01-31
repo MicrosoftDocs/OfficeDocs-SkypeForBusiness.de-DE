@@ -16,12 +16,12 @@ f1keywords:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165605"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573611"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -90,7 +90,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 | Modul | Video | PowerPoint-Foliensatz |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics-Teams Essentials für IT-YouTube-Kanal](https://aka.ms/MicrosoftTeamsforIT) | [Video: Team Essentials für IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: bereitstellen #a0 Konfigurieren von Teams – Einführung](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)||
+| [Microsoft Mechanics-Teams Essentials für IT-YouTube-Kanal](https://aka.ms/MicrosoftTeamsforIT) | [Video: Team Essentials für IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: bereitstellen #a0 Konfigurieren von Teams – Einführung](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams-Steuerelemente für Sicherheit und Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Grundlagen – Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Foliensatz](https://aka.ms/teams-foundations-deck) |
 | Windows-Desktopclient | [Video](https://aka.ms/teams-clients) | [Foliensatz](https://aka.ms/teams-clients-deck) |
 | Governance, Verwaltung und Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Foliensatz](https://aka.ms/teams-governance-deck) |

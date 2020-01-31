@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992802"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634878"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -73,7 +73,7 @@ Die Live-Event-Streaming-Plattform besteht aus den folgenden Teilen:
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise Content Delivery Network (ECDN)
 Das Ziel von ECDN besteht darin, die Videoinhalte aus dem Internet zu übernehmen und die Inhalte im gesamten Unternehmen zu verteilen, ohne die Netzwerkleistung zu beeinträchtigen. Sie können einen der folgenden Certified ECDN-Partner verwenden, um Ihr Netzwerk für Live-Events in Ihrer Organisation zu optimieren:
 - [Struktur](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/microsoft-pilot/)
+- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Typhierarchie](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Teilnehmer-Erfahrung 

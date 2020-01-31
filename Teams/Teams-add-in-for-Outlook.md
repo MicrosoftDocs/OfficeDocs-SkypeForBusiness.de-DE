@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626981"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573621"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -40,10 +40,9 @@ Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Mic
 > - Windows 7-Benutzer müssen das [Update für die universelle C-Laufzeit unter Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows installieren, damit das Teambesprechung-Add-in funktioniert.
 > - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Teambesprechung-Add-in nicht unterstützt. Benutzern, die dieses Add-in benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie in [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teambesprechung-Add-in in Outlook für Mac
 
-Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn Outlook den Produktions-Build 16.24.414.0 und höher ausführt.
+Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn Outlook den Produktions-Build 16.24.414.0 und höher ausführt und mit einem Office 365-Clientabonnement aktiviert wird.
 
 Die Besprechungs Koordinaten (der Link "Teams beitreten" und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf " **senden**" geklickt hat.  
 

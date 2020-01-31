@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925306"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628391"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -34,7 +34,7 @@ Ein Telefon im öffentlichen Bereich befindet sich normalerweise in einem Bereic
 
 In den nachstehenden Schritten unterstützen wir Sie beim Einrichten eines Kontos für das Telefon System für die Bereitstellung von Telefonen im allgemeinen Bereich für Ihre Organisation. Für eine vollständige Besprechungsraum-Erfahrung, einschließlich Audiokonferenzen, sollten Sie erwägen, die dedizierte Besprechungsraum-Lizenz mit einem Besprechungsraum Gerät zu erwerben. 
 
-Das erste, was Sie tun müssen, ist, eine Lizenz für das Common Area Phone (GAP) zu erwerben und sicherzustellen, dass Sie über ein zertifiziertes Telefon verfügen. Informationen zu zertifizierten Telefonen finden Sie unter [Microsoft Teams-Geräte](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+Zunächst müssen Sie eine Lizenz für das Common Area Phone (GAP) erwerben und sicherstellen, dass Sie über ein zertifiziertes Telefon verfügen. Informationen zu zertifizierten Telefonen finden Sie unter [Microsoft Teams-Geräte](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
@@ -44,7 +44,7 @@ Das erste, was Sie tun müssen, ist, eine Lizenz für das Common Area Phone (GAP
 
 2. Wählen Sie den **Bereich Telefon** > **Jetzt kaufen**.
 
-3. Klicken Sie auf der **Checkout** -Seite auf **Jetzt kaufen**.
+3. Klicken Sie auf der Seite Checkout auf **Jetzt kaufen**.
 
 4. Erweitern Sie **Add-on-Abonnements** , und klicken Sie dann, um einen Anrufplan zu kaufen. Wählen Sie entweder den Plan für **Inlandsanrufe** oder den Tarif für **Inlands-und Auslandsgespräche**.
 
@@ -59,7 +59,7 @@ Die Telefon Lizenz für den öffentlichen Bereich unterstützt:
 |   |  Telefon für gemeinsame Bereiche  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
 |Telefonanlagen |    &#x2714; |
 |Audiokonferenzen |       &#x2718; &sup1;  |
 |Microsoft InTune |        &#x2718; &sup2; |
@@ -93,17 +93,15 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers](https://doc
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Schritt 3 - Eine Telefonnummer dem Benutzerkonto Telefon für gemeinsame Bereich zuweisen
 
-Verwenden Sie das Skype for Business Admin Center, um dem Benutzer eine Nummer zuzuweisen.
+Verwenden Sie das Team Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
-1. Wählen Sie im Microsoft 365 Admin Center die Option **Admin Center** > **Teams #a0 Skype** > **Legacy-Portal**aus.
-
-2. Wählen Sie im Skype for Business Admin Center die Option **Voice** > **Phone Numbers**aus.
+1. Wählen Sie im Team Admin Center die Option **Voicemail** > -**Nummern**aus.
 
 3.  Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 
 4. Geben Sie auf der Seite **zuweisen** im Feld VoIP-Benutzer den Namen des Benutzers ein, der das Telefon verwenden soll, und wählen Sie dann den Benutzer in der Dropdownliste **Sprachbenutzer auswählen** aus.
 
-5. Hier müssen Sie eine Notfalladresse angeben. Wählen Sie in der Dropdownliste **Suchen**nach Ort, nach **Beschreibung suchen**oder nach **Ort suchen** aus, und geben Sie dann den Ort, die Beschreibung oder den Ort in das Textfeld ein. Wenn Sie nach der Suche suchen, suchen Sie unter **Notfalladresse auswählen** , um das richtige für Sie auszuwählen.
+5. Als nächstes müssen Sie eine Notfalladresse hinzufügen. Wählen Sie in der Dropdownliste **Suchen**nach Ort, nach **Beschreibung suchen**oder nach **Ort suchen** aus, und geben Sie dann den Ort, die Beschreibung oder den Ort in das Textfeld ein. Wenn Sie nach der Suche suchen, suchen Sie unter **Notfalladresse auswählen** , um das richtige für Sie auszuwählen.
 
 6. Klicken Sie auf **Speichern** und Ihr Benutzer sollte so aussehen:
 
@@ -112,7 +110,7 @@ Verwenden Sie das Skype for Business Admin Center, um dem Benutzer eine Nummer z
 > [!NOTE]
 > Benutzer werden nur angezeigt, wenn Sie über eine Telefon System Lizenz verfügen. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
 
-Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
+Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md).
 
 Sie können auch Ihre Telefonnummer, die Sie mit einem anderen Netzbetreiber haben, übernehmen und "portieren" oder auf Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 

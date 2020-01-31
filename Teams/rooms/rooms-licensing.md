@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informieren Sie sich über die Features, die in Microsoft Teams-Räumen verfügbar sind. '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268941"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628251"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -66,7 +66,7 @@ In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-R
 |Initiieren einer Ad-hoc-Besprechung | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Initiieren einer Ad-hoc-Besprechung und Abwählen von einer Besprechung zu Telefonnummern |  SKU des Besprechungsraums |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Geben Sie dem Raum eine Telefonnummer, und tätigen oder empfangen Sie Anrufe aus dem Chatroom oder nehmen Sie mit einer Telefonnummer an einer Audiokonferenz Teil  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Verwalten Ihres Raum Geräts mit Microsoft InTune |SKU des Besprechungsraums  |Microsoft InTune-Abonnement mit [lokalem MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|Verwalten Ihres Raum Geräts mit Microsoft InTune |SKU des Besprechungsraums  |Microsoft InTune-Abonnement mit [lokalem MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]

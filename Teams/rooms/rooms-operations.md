@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268970"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628661"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -61,9 +61,9 @@ In der folgenden Tabelle sind die möglichen Remotevorgänge und die Methoden zu
 
 |Arbeitsgruppe |Nicht Mitglied einer Domäne|Mitglied einer Domäne|
 |:-----|:-----|:-----|
-|Neustart  <br/> |Remotedesktop  <br/> Remote-Powershell  <br/> |Remote Desktop (erfordert weitere Konfiguration)  <br/> Remote-PowerShell (weitere Konfiguration erforderlich)  <br/> SCCM  <br/> |
+|Neustart  <br/> |Remotedesktop  <br/> Remote-Powershell  <br/> |Remote Desktop (erfordert weitere Konfiguration)  <br/> Remote-PowerShell (weitere Konfiguration erforderlich)  <br/> Configuration Manager  <br/> |
 |Betriebssystemupdate  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|App-Update  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
+|App-Update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Skype-Kontokonfiguration  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
 |Zugriff auf Protokolle  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
    
@@ -166,7 +166,7 @@ Standardmäßig versucht Microsoft Teams rooms, eine Verbindung mit dem Windows 
   
 Standardmäßig stellt Microsoft Teams rooms eine Verbindung mit Windows Update her, um Betriebssystem-und USB-Peripheriegeräte-Firmware-Aktualisierungen abzurufen und außerhalb der konfigurierten Geschäftszeiten zu installieren. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und die Einstellungen-App ausführen.
   
-Wenn Sie Updates manuell verwalten möchten und dem normalen Verfahren für [Microsoft Store for Business](https://businessstore.microsoft.com/store) zum [Verteilen von Offline-Apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)nicht folgen können, können Sie die entsprechenden APPX-Dateien und-Abhängigkeiten aus dem [Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168) (in den Anweisungen zum [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)) abrufen, die mit SCCM verwendet werden können. Das Deployment Kit-Release hinkt hinter der Store-Version zurück, daher ist es möglicherweise nicht immer mit dem neuesten verfügbaren Build identisch.
+Wenn Sie Updates manuell verwalten möchten und dem normalen Verfahren für [Microsoft Store for Business](https://businessstore.microsoft.com/store) zum [Verteilen von Offline-Apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)nicht folgen können, können Sie die entsprechenden APPX-Dateien und-Abhängigkeiten aus dem [Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168) (in den Anweisungen zum [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)) abrufen, die mit Configuration Manager verwendet werden können. Das Deployment Kit-Release hinkt hinter der Store-Version zurück, daher ist es möglicherweise nicht immer mit dem neuesten verfügbaren Build identisch.
   
 ### <a name="to-update-using-powershell"></a>So aktualisieren Sie die Verwendung von PowerShell
 

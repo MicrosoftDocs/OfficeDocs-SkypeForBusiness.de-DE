@@ -19,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572256"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580892"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -167,7 +167,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | First User Agent  | Zeichenfolge  | Benutzer-Agent-Zeichenfolge für den ersten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent vom ersten Endpunkt gemeldet   |
 | Second User Agent  | Zeichenfolge  | Benutzer-Agent-Zeichenfolge für den zweiten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent wurde vom zweiten Endpunkt gemeldet   |
 | Conference Type  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: Audio-Video <br/>&bull;conf: Fokus | Typ des Konferenz-URI.  <br/> **Beispielwert:** conf: Audio-Video | &bull;Szenario ohne Konferenz   |
-| Conference Id  | Zeichenfolge  | Mit den Datenströmen verbundene Konferenz-ID. Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert:** 0001P6GK  | &bull;Szenario ohne Konferenz |
+| Konferenz-ID (in lync.CQD.com)<br/>Anruf-ID (in CQD.Teams.Microsoft.com)  | Zeichenfolge  | Konferenz-ID (oder Anruf-ID), die den Streams zugeordnet ist. In CQD.Teams.Microsoft.com verfügen alle Anrufe über Anruf-IDs, unabhängig davon, ob es sich um einen P2P-Anruf oder einen Konferenzanruf handelt.  Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert:** 0001P6GK  | &bull;Szenario ohne Konferenz |
 | First Client App Version  | Zeichenfolge  | Version der Anwendung, die für den ersten Endpunkt verwendet wird. Daten werden aus der Benutzer-Agent-Zeichenfolge analysiert.<br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet.   |
 | Second Client App Version  | Zeichenfolge  | Version der Anwendung, die für den zweiten Endpunkt verwendet wird. Daten werden aus der Benutzer-Agent-Zeichenfolge analysiert.<br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet. |
 |Besprechungs-ID|Zeichenfolge |Der Bezeichner für die Besprechung, der beim Erstellen der Besprechung generiert wurde. | |
@@ -319,7 +319,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Der erste empfangene Geräuschpegel  | Bereich (dB-Dezibel)  | Durchschnittliche Energiestufe des Mono Rauschens oder des Stereo linken Kanal Rauschens, das vom ersten Endpunkt empfangen wurde. Die Werte sind nach Bereich gruppiert. <br/> **Beispielwert:** 048: [-50--45)  | &bull;Dies war ein nicht-Audio-Datenstrom <br/>&bull;Daten wurden nicht vom ersten Endpunkt gemeldet |
 | Geräuschpegel des zweiten empfangenen  | Bereich (dB-Dezibel)  | Durchschnittliche Energiestufe des Mono Rauschens oder des Stereo linken Kanal Rauschens, das vom zweiten Endpunkt empfangen wurde. Die Werte sind nach Bereich gruppiert. <br/> **Beispielwert:** 048: [-50--45)  | &bull;Kennzeichnet einen nicht-Audiostream <br/>&bull;Daten wurden vom zweiten Endpunkt nicht gemeldet |
 |Erster anfänglicher Signal Pegel RMS | Bereich (dB-Dezibel) | Das Root-Mean-Square (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den ersten Endpunkt. Siehe [2.2.1.28.1-untergeordnete Elemente](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)  | |
-| Zweiter anfänglicher Signal Pegel RMS |Bereich (dB-Dezibel) | Das Root-Mean-Square (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den zweiten Endpunkt. Weitere Informationen finden Sie unter [untergeordnete 2.2.1.28.1-Elemente](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) .||
+| Zweiter anfänglicher Signal Pegel RMS |Bereich (dB-Dezibel) | Das Root-Mean-Square (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den zweiten Endpunkt. Weitere Informationen finden Sie unter [untergeordnete 2.2.1.28.1-Elemente](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) .||
 | Erste RxAGC-Signal Stufe |Bereich (dB-Dezibel)| Signal Pegel, der bei der automatischen Gain-Steuerung (AGC) für den ersten eingehenden Audiostream empfangen wurde.| |
 | Zweites RxAGC-Signal Niveau |Bereich (dB-Dezibel)|Signal Pegel, der bei der automatischen Gain-Steuerung (AGC) für den zweiten eingehenden Audiostream empfangen wurde.|| 
 | Erster RxAGC-Rauschpegel|Bereich (dB-Dezibel)|Rauschpegel, der bei der automatischen Gain-Steuerung (AGC) für den ersten eingehenden Audiostream empfangen wurde. ||
@@ -550,7 +550,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Avg Second Echo Percent Mic In |Prozentsatz |Durchschnittlicher Prozentsatz des Zeitraums während des Datenstroms, in dem die zweiten Endpunkte ein Echo im Audiodatenstrom über das Aufzeichnungsgerät oder Mikrofon vor der Rauschunterdrückung erkannt haben. |
 |Avg First Echo Percent Send |Prozentsatz |Durchschnittlicher Prozentsatz des Zeitraums während des Datenstroms, in dem die ersten Endpunkte ein Echo im Audiodatenstrom über das Aufzeichnungsgerät oder Mikrofon nach der Rauschunterdrückung erkannt haben. |
 |Avg Second Echo Percent Send |Prozentsatz |Durchschnittlicher Prozentsatz des Zeitraums während des Datenstroms, in dem die zweiten Endpunkte ein Echo im Audiodatenstrom über das Aufzeichnungsgerät oder Mikrofon nach der Rauschunterdrückung erkannt haben. |
-| AVG First Initial Signal Level RMS| Bereich (Dezibel) |Mittelwert des Stamm-Mittel-Quadrats (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den ersten Endpunkt.  Weitere Informationen finden Sie unter [untergeordnete 2.2.1.28.1-Elemente](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) .|
+| AVG First Initial Signal Level RMS| Bereich (Dezibel) |Mittelwert des Stamm-Mittel-Quadrats (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den ersten Endpunkt.  Weitere Informationen finden Sie unter [untergeordnete 2.2.1.28.1-Elemente](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) .|
 | Durchschnittlicher Sekunden-anfangs Signal Pegel RMS|Bereich (Dezibel) |Mittelwert des Stamm-Mittel-Quadrats (RMS) des empfangenen Signals für die ersten 30 Sekunden des Anrufs für den zweiten Endpunkt.||
 | AVG First RxAGC-Signal Pegel|Bereich (Dezibel)  |Durchschnittlicher Signalpegel, der beim automatischen Gain-Regler für den ersten eingehenden Audiostream empfangen wurde. | |
 | AVG Second RxAGC-Signal Pegel|Bereich (Dezibel) |Durchschnittlicher Signalpegel, der beim automatischen Gain-Regler für den zweiten eingehenden Audiostream empfangen wurde.| |

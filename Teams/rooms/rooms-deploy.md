@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268947"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628261"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -133,7 +133,8 @@ Wenn Sie die Bereitstellung von Microsoft Teams-Räumen planen, haben Sie eine R
 |-------------------------|-----------------------|   
 |Bereitstelleneiner kleinen Anzahl von Microsoft Teams rooms-Geräten (<10). | Wenn Sie Surface pro-basierte Microsoft Teams-Räume verwenden, folgen Sie den [Installationsanweisungen für die Installation pro Gerät](console.md). [Dieses handliche Video führt Sie durch den Vorgang.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, verwenden Sie das Image des Herstellers, und konfigurieren Sie die Einstellungen nach Bedarf. |
 | Bereitstellen von 10-und 50-Geräten von einem einzelnen Anbieter.     | Erstellen Sie ein WIM-basiertes Bild, pausieren Sie nach [Schritt 6 in der Anleitung](console.md), und erfassen Sie ein Verteilungs Bild, das mit ihrer Verteilungstechnologie für das Klonen verwendet werden soll.    |
-| Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Task Sequenzer basierende Software-Build-und-Verteilungsplattform, wie etwa [System Center Configuration Manager](rooms-scale.md).  |
+| Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Aufgaben Sequenzer basierende Software-und Verteilungsplattform, wie etwa den [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
+
 
 **Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den gekennzeichneten Microsoft Teams-Räumen suchen kann. eine Aktion erforderlich ist. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site*-*Room Name* (MTR-Lon-Curie). 
 

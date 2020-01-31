@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1ee70e39595d5891736dcd4e4830a9a7ef67213
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277440"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628271"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen für Clients und Geräte
 
@@ -48,7 +48,7 @@ Außerdem ist ein kostenloser Standardclient verfügbar, der weniger Funktionen 
 
 Skype for Business 2015 ist ein Client mit vollem Funktionsumfang für Skype for Business Server 2015 oder 2019. Die Benutzeroberfläche von Skype for Business wurde vollständig überarbeitet und enthält neue integrierte Funktionen wie die Anrufüberwachung, Skype-Verzeichnisintegration, Emoticons und vieles mehr. Eine Zusammenfassung der Änderungen finden Sie unter [Lync ist jetzt Skype for Business – entdecken Sie die Neuigkeiten](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612). Die von den Clients unterstützten Funktionen werden im Detail unter [Vergleich der Funktionen der Skype for Business-Desktopclients](desktop-feature-comparison.md) beschrieben, und die Benutzerdokumentation finden Sie in der [Hilfe zu Skype for Business](https://support.office.com/en-US/Skype-for-business). Dieser Client ist enthalten, wenn Benutzer Office 365 installieren.
 
-### <a name="skype-for-business-on-mac"></a>Skype for Business auf dem Mac
+### <a name="skype-for-business-on-mac"></a>Skype for Business unter Mac
 
 Der [Skype for Business für Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) -Client steht zum Download zur Verfügung. Weitere Informationen finden Sie unter [Skype for Business für Mac-Clientanforderungen](mac-requirements.md) zur Überprüfung der Voraussetzungen.
 
@@ -91,9 +91,9 @@ Wenn Ihre Organisation die entsprechenden Lizenzen erworben hat, wählen Sie den
 
 Ihre Benutzer können den Client für sich selbst installieren, indem Sie [Skype for Business auf allen ihren Geräten herunterladen](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). Der Client wird auch installiert, wenn Benutzer Office 365 unter Windows installieren. Wenn einige Ihrer Benutzer Macs haben, verfügen diese Benutzer über eine andere Gruppe von Features, wie in früheren Abschnitten beschrieben.
 
-Einige der in Skype for Business Server 2015 verfügbaren Funktionen stehen in Skype for Business Online oder Skype for Business Server 2019 nicht zur Verfügung, siehe [Online-oder Hybrid-Benutzerkonto Einschränkungen für 2015](desktop-feature-comparison.md#Online-Hybrid) -oder [Online-oder Hybrid-Benutzerkonto Einschränkungen für 2019 ](desktop-feature-comparison.md#Online-Hybrid)für Einzelheiten. Skype for Business Online-Administratoren möchten möglicherweise auf die [Beschreibung des Skype for Business Online-Diensts](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) verweisen, um Informationen zu den unterschiedlichen Plänen zu erhalten, die Ihnen zur Verfügung stehen.
+Einige der in Skype for Business Server 2015 verfügbaren Funktionen stehen in Skype for Business Online oder Skype for Business Server 2019 nicht zur Verfügung, finden Sie unter [Einschränkungen für Online-oder Hybrid Benutzerkonten für 2015](desktop-feature-comparison.md#Online-Hybrid) -oder [Online-oder Hybrid-Benutzerkonten Einschränkungen für 2019](desktop-feature-comparison.md#Online-Hybrid) für Einzelheiten. Skype for Business Online-Administratoren finden unter [Skype for Business Online-Dienstbeschreibung](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) Informationen zu den verschiedenen verfügbaren Plänen.
 
- Überprüfen Sie vor der Bereitstellung oder dem Upgrade auf Skype for Business, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie den [Vergleich der Desktop-Clientfunktionen für Skype for Business](desktop-feature-comparison.md) , um zu verstehen, wie sich die Auswirkungen auf diese Clients auf das Feature unterstützen. Dann können Sie den Benutzern die Änderungen vermitteln sowie das Tempo des Rollouts bestimmen und die Vorteile des Upgrades auf den neuesten Client in vollem Umfang verstehen.
+ Bevor Sie Skype for Business bereitstellen oder auf diese Version aktualisieren, sollten Sie überprüfen, welche Clients bereits in der Organisation verwendet werden. Verwenden Sie den [Vergleich der Desktop-Clientfunktionen für Skype for Business](desktop-feature-comparison.md) , um zu verstehen, wie sich die Auswirkungen auf diese Clients auf das Feature unterstützen. Dann können Sie den Benutzern die Änderungen vermitteln sowie das Tempo des Rollouts bestimmen und die Vorteile des Upgrades auf den neuesten Client in vollem Umfang verstehen.
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>Methoden für die Bereitstellung des Clients für Ihre Benutzer
 <a name="BK_User_Deploy"> </a>
@@ -128,7 +128,7 @@ Sowohl die Basic-als auch die Full-Client-Version (mit einer Auswahl von 32-und 
 
 ### <a name="msi"></a>MSI
 
-MSI ist eine herkömmlichere Installationsmethode, die auf den Skype for Business 2015-und 2016-Clients verwendet wird. Sie können Updates und Patches manuell installieren, die Volumenlizenzierung und-Aktivierung verwenden und über das [Office-Anpassungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030)anpassbar sein. Sie können Clients verteilen, indem Sie Gruppenrichtlinien anwenden, System Center Configuration Manager verwenden oder ein Tool eines Drittanbieters nutzen.
+MSI ist eine herkömmlichere Installationsmethode, die auf den Skype for Business 2015-und 2016-Clients verwendet wird. Sie können Updates und Patches manuell installieren, die Volumenlizenzierung und-Aktivierung verwenden und über das [Office-Anpassungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030)anpassbar sein. Sie können Clients durch Anwenden von Gruppenrichtlinien, mithilfe von Microsoft Endpoint Configuration Manager oder mithilfe eines Tools eines Drittanbieters verteilen.
 
 
 
@@ -137,7 +137,7 @@ MSI ist eine herkömmlichere Installationsmethode, die auf den Skype for Busines
 
 Skype for Business Server 2019 und Skype for Business Online unterstützen die folgenden zuvor veröffentlichten Clients: Skype for Business 2016, Skype for Business 2015, lync 2013.
 
-Skype for Business Server 2015 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2013, lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Client Vergleichstabellen für lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) und [Client Vergleichstabellen für lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype for Business Server 2015 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2013, lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Client Vergleichstabellen für lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) und [Client Vergleichstabellen für lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Clientsystemanforderungen

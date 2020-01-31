@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268965"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628651"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -311,7 +311,7 @@ In diesem Update eingeführt:
 - Always-On-Appliance, die die Anzeige automatisch aktiviert, wenn Sie Personen im Chatroom erkennt
 - Einfache Bereitstellung und Aktualisierung der UWP-App (Universal Windows Platform) für Skype-Besprechungen
 - Feste Bindung des Geräts an die Skype-Besprechungs-App durch Windows AppLocker
-- Überwachung und Verwaltung als Windows 10 Enterprise-Gerät über Intune und SCCM (MDM)
+- Überwachung und Verwaltung als Windows 10 Enterprise-Gerät über InTune und Configuration Manager (MDM)
 - Zuverlässigkeit der Unternehmensklasse
 - Geringer Aufwand für Endbenutzerschulungen dank der vertrauten Skype-Benutzeroberfläche
 - Läuft auf Surface pro 4-Tablet

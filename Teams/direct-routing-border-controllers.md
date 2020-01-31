@@ -14,34 +14,34 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111749"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634868"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
 Microsoft arbeitet mit ausgewählten SBC-Anbietern (Session Border Controller) zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren. 
 
-Die Zusammenarbeit zwischen Microsoft und den einzelnen Anbietern sieht so aus: 
+Microsoft arbeitet mit jedem Kreditor an: 
 
-- Microsoft arbeitet gemeinsam mit den SBC-Anbietern an den SIP-Verbindungsprotokollen.
-- Über ein unabhängiges Labor werden intensive Tests durchgeführt. Nur Geräte, die Test bestanden haben, werden zertifiziert. 
-- Alle zertifizierten Geräte werden täglich in Produktions- und Präproduktionsumgebungen getestet. Die Validierung der Geräte in Präproduktionsumgebungen gewährleistet, dass neue Versionen des Codes für direktes Routing in der Cloud auf zertifizierten SBCs funktionieren. 
-- Microsoft stellt mit den SBC-Anbietern einen gemeinsamen Supportprozess bereit.
+- Arbeiten Sie gemeinsam an den SIP-Verbindungs Protokollen.
+- Führen Sie intensive Tests mit einem Drittanbieter Labor durch. Nur Geräte, die die Tests bestehen, sind zertifiziert. 
+- Führen Sie tägliche Tests mit allen zertifizierten Geräten in Produktions-und Pre-Production-Umgebungen durch. Die Validierung der Geräte in Präproduktionsumgebungen gewährleistet, dass neue Versionen des Codes für direktes Routing in der Cloud auf zertifizierten SBCs funktionieren. 
+- Einrichten eines gemeinsamen Supportprozesses mit den SBC-Anbietern
 
 
   > [!NOTE]
-  > Microsoft unterstützt das Telefonsystem nur, wenn zertifizierte Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, bei denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. 
+  > Microsoft unterstützt nur das Telefon System, wenn ein zertifiziertes Gerät oder Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direkte Weiterleitung an das Telefon System angeschlossen ist. 
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. 
 
-[Hier finden Sie weitere Informationen zu direktem Routing](https://aka.ms/dr). Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wenden Sie sich per E-Mail an drsbccertification@microsoft.com.
+[Hier finden Sie weitere Informationen zu direktem Routing](https://aka.ms/dr). Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für die direkte Weiterleitung haben, wenden Sie sich bitte an drsbccertification@Microsoft.com.
 
 
-|                                                       Anbieter                                                        |       Produkt       | Ohne Medienumgehung | Medienumgehung | Softwareversion | Vaidated mit E911-Anbietern | Elin-fähig
+|                                                       Anbieter                                                        |       Produkt       | Nicht medienumgehung | Medienumgehung | Software Version | Validiert mit E911-Anbietern | Elin-fähig
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |    |    |
@@ -55,10 +55,10 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado ERS <br>Intrado EGW    |Nein|    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  |  Nein  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado ERS <br>Intrado EGW |   Nein |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Intrado ERS <br>Intrado EGW  |  Ausstehend  |    
-|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v8.0.1    |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Steht noch aus    |       V1.4       |     |    |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW  |  Ausstehend  |    
+|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v 8.0.3 (Build 216)    |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Ausstehend    |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
@@ -67,4 +67,4 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
-Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [Uservoice](https://microsoftteams.uservoice.com). Beachten Sie die Zertifizierung einer Hauptversion. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.
+Wenn Sie uns Produktfeedback zu Teams geben möchten, beispielsweise Ideen für neue Features, lesen Sie [UserVoice](https://microsoftteams.uservoice.com) beachten Sie die Zertifizierung, die einer Hauptversion gewährt wird. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.

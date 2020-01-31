@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41557856"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620005"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -202,9 +202,9 @@ Die ausgewählten Anruf Agenten müssen folgende sein:
 **Routing Methode** Sie können entweder **Attendant**, **Serial**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
 - Das **Attendant-Routing** bewirkt, dass der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig klingelt. Der Anruf wird vom ersten Anruf Agenten abgeholt.
-- **Serielles Routing** eingehende Anrufe klingeln Sie nacheinander vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
+- **Serielles Routing** eingehende Anrufe Klingeln alle Anruf-Agents eins nach dem anderen vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
   > [!NOTE]
-  > Serielles Routing überspringt Telefonisten, die **Offline** sind, ihren Anwesenheitsstatus auf **Nicht stören**festgelegt haben oder sich von Anrufen aus dieser Anrufwarteschleife**abgemeldet haben**.
+  > Bei der seriellen Weiterleitung für Agents, die **Offline** sind oder deren Anwesenheit auf " **nicht stören**" festgelegt wurde, wird der Anruf an diese Benutzer weitergeleitet, und die Verbindung zu nicht verfügbarem Benutzer, dem Routing zum nächsten Agenten in der Agentliste, ist nicht möglich. Dies ist nicht der Fall, wenn sich der Agent für das Abrufen von Anrufen aus der Anrufwarteschlange **entschieden** hat. Um das Zeitintervall zu verkürzen, in dem der Anruf an den nächsten Agenten weitergeleitet wird, kann die Benachrichtigungszeit für Agenten verringert werden.
 - **Round Robin** balanciert das Routing von eingehenden Anrufen aus, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält. Dies kann in einer eingehenden Vertriebsumgebung wünschenswert sein, um die Chancengleichheit zwischen allen Anruf Agenten zu gewährleisten.
 
 ### <a name="select-an-agent-opt-out-option"></a>Auswählen einer Option für den Agenten Ausstieg

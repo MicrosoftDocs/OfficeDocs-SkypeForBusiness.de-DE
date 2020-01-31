@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854090"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628671"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -233,7 +233,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einric
 
 **Anrufübergabe der automatischen Telefonzentrale an PSTN** Kunden werden ermutigt, eine vorübergehende Problemumgehung zu konfigurieren, um die Anforderungen für die Übertragung eines Anrufs einer automatischen Telefonzentrale an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen. 
  
-Bei der Qualitätssicherung wurde ein Problem mit der Funktion "an PSTN-Nummer übertragen" festgestellt, die nicht in der Lage ist, in-Time für Kunden zu beginnen, den Exchange-UMO-Dienst vor dem geplanten pensionierungs Termin von 2020. Februar zu migrieren. Um dieses Problem zu umgehen, können Administratoren die Anrufer der automatischen Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Anruf Weiterleitungseinstellung auf die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. 
+Bei der Qualitätssicherung wurde ein Problem mit der Funktion "an PSTN-Nummer übertragen" festgestellt, die nicht in der Lage ist, in-Time für Kunden zu migrieren, die den Exchange-UMO-Service vor dem geplanten pensionierungs Termin vom 28. Februar 2020. Um dieses Problem zu umgehen, können Administratoren die Anrufer der automatischen Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Anruf Weiterleitungseinstellung auf die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. 
  
 Erwartete Erfahrung
 - Administratoren müssen den virtuellen Benutzer nicht lizenzieren, da es sich um eine Problem Umgehungslösung handelt. 

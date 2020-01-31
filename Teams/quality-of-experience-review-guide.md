@@ -3,7 +3,6 @@ title: Leitfaden zur Überprüfung der Qualität der Umgebung für Microsoft Tea
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952808"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580902"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -58,25 +57,28 @@ Dieser Leitfaden soll von Partner-und Kundeninteressen Gruppen mit Rollen wie de
 
 Dieser Leitfaden ist auch für die Verwendung durch die Designated Quality Champion (s) vorgesehen. Weitere Informationen finden Sie in [der Rolle "Quality Champion"](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="prerequisites"></a>Voraussetzungen
+## <a name="assign-roles-for-accessing-cqd"></a>Zuweisen von Rollen für den Zugriff auf CQD
 
 Bevor Sie dieses Handbuch verwenden, stellen Sie sicher, dass Sie die richtigen Mandanten [Rollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) zugewiesen haben, damit Sie auf CQD zugreifen können.
 
--   **Office 365-globaler Administrator** 
+Diese Tabelle zeigt Ihnen, was jede Rolle in CQD tun kann:
 
--   **Skype for Business-Administrator** 
 
--   **Teams-Dienstadministrator** 
+|  |Anzeigen von Berichten  |Anzeigen von EUII-Feldern  |Erstellen von Berichten  |Hochladen von Gebäudedaten  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365-globaler Administrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Dienstadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationsadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationssupporttechniker     |Ja          |Ja          |Ja         |Nein         |
+|Supportfachmann für die Teams-Kommunikation     |Ja         |Nein         |Ja         |Nein         |
+|Skype for Business-Administrator     |Ja          |Ja          |Ja          |Ja          |
+|Azure AD-globaler Reader |Ja          |Ja          |Ja         |Nein         |
+|Office 365-berichtsleser<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
 
--   **Teams-Kommunikationsadministrator** 
+<sup>1</sup> neben dem Lesen von CQD-Berichten kann der Office 365-berichtsleser alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte des [Microsoft 365-Inhaltspakets zur Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)anzeigen.
 
--   **Teams-Kommunikationssupporttechniker** 
-
--   **Supportfachmann für die Teams-Kommunikation** 
-
-Alternativ können Sie einem Office 365-Benutzerkonto die folgende Rolle zuweisen, um nur den Zugriff auf Berichtsfeatures zu ermöglichen.
-
--   **Reader für Berichte:** Kann alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center, alle Berichte aus dem [Microsoft 365-Inhaltspaket zur Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)und CQD-Berichte anzeigen.
+> [!NOTE]
+> Wenn Sie EUII (Endbenutzer-identifizierbare Informationen) nicht sehen und über eine der Rollen verfügen, die diese Informationen anzeigen dürfen, sollten Sie beachten, dass CQD nur 30 Tage lang EUII. Alle Elemente, die älter als 30 Tage sind, werden gelöscht.
 
 ## <a name="what-is-quality"></a>Was ist Qualität?
 
@@ -286,6 +288,8 @@ Es gibt zwei Berichtsausgaben in CQD online: Zusammenfassung und detailliert. Ve
 
 Eine vollständige Beschreibung der Unterschiede zwischen den beiden Editionen finden Sie in [diesem Artikel](turning-on-and-using-call-quality-dashboard.md).
 
+Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+
 _Abbildung 4: CQD-Berichtskategorien_
 
 Die Zusammenfassungsberichte sind in vier Kategorien unterteilt:
@@ -331,7 +335,7 @@ Bei einigen CQD-Berichten müssen Sie einen Filter für Ihre Mandanten-ID angebe
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype for Business Online Admin Center
 
-1.  Wechseln Sie <https://portal.office.com>zu.
+1.  Navigieren Sie in das Verzeichnis <https://portal.office.com>.
 
 2.  Mit Ihrem mandantenadministrator-organisationskonto anmelden
 
@@ -466,7 +470,7 @@ Weitere detaillierte Schulungen und Ressourcen finden Sie im [Anhang](#other-res
 
 Sie können auf CQD auf eine von drei Arten zugreifen:
 
--   Wechseln Sie <https://cqd.lync.com>zu.
+-   Navigieren Sie in das Verzeichnis <https://cqd.lync.com>.
 
 -   Wechseln Sie zum **Microsoft Teams Admin Center** , und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung dargestellt.
 
@@ -585,7 +589,7 @@ Dieser Leitfaden enthält [zwei kuratierte CQD-Vorlagen](https://aka.ms/qertempl
 
 **So importieren Sie die Vorlagen (. CQDX) into CQD Online**
 
-1. Wechseln Sie <https://cqd.lync.com>zu.
+1. Navigieren Sie in das Verzeichnis <https://cqd.lync.com>.
 
 2. Authentifizieren Sie sich mithilfe ihrer administrativen Office 365-Anmeldeinformationen.
 

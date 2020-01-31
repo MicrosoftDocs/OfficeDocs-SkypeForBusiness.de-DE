@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516886"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628711"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 ============================================
@@ -28,7 +28,7 @@ Mit der Desktop Freigabe können Benutzer während einer Besprechung oder eines 
 
 Wenn Sie die Bildschirmfreigabe konfigurieren möchten, erstellen Sie eine neue Besprechungsrichtlinie, und weisen Sie diese den Benutzern zu, die Sie verwalten möchten.
 
-**Im Microsoft Teams Admin Center**
+**Im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)**
 
 1. Wählen Sie**Besprechungsrichtlinien**für **Besprechungen** > aus.
 
@@ -60,7 +60,7 @@ Wenn Sie die Bildschirmfreigabe konfigurieren möchten, erstellen Sie eine neue 
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Verwenden von PowerShell zum Konfigurieren des freigegebenen Desktops
 
-Sie können auch das Cmdlet " [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) " verwenden, um die Desktopfreigabe zu steuern. Setzen Sie die folgenden Parameter:
+Sie können auch das Cmdlet " [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) " verwenden, um die Desktopfreigabe zu steuern. Setzen Sie die folgenden Parameter:
 
 - Beschreibung
 - ScreenSharingMode
@@ -70,5 +70,5 @@ Sie können auch das Cmdlet " [Satz-CsTeamsMeetingPolicy](https://docs.microsoft
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Weitere Informationen zur Verwendung des csTeamsMeetingPolicy-Cmdlets](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Weitere Informationen zur Verwendung des csTeamsMeetingPolicy-Cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

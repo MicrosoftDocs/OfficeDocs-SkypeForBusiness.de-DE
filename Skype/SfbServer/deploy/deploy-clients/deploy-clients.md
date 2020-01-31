@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Zusammenfassung: Übersicht über Unternehmensclient-Installationsmethoden für Skype for Business.'
-ms.openlocfilehash: f40a4948deb495998debd033f449d9439fd8329b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b791a4f460eaeac86345eae8896046d90d88831b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234129"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628291"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Bereitstellen von Clients für Skype for Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "36234129"
   
 Wie Sie Skype for Business für Ihre Benutzer bereitstellen, hängt davon ab, ob Sie Skype for Business im Rahmen eines Office 365-Plans erworben haben oder eine Volumenlizenzversion von Skype for Business erworben haben. 
   
-- **Office 365** Wenn Sie über einen Office 365-Plan verfügen, der Skype for Business umfasst, wird die verwendete Installationstechnologie als Klick-und-Los bezeichnet. Mit Office 365 können Sie es Ihren Benutzern ermöglichen, Skype for Business für sich selbst aus dem Office 365-Portal zu installieren. Oder Sie können Skype for Business für Ihre Benutzer bereitstellen, indem Sie die Software in Ihr lokales Netzwerk herunterladen und dann Ihre vorhandenen Softwarebereitstellungstools verwenden, beispielsweise mit Microsoft System Center Configuration Manager. Installationsinformationen zu Skype for Business, die in Office 365 enthalten sind, finden Sie unter [Bereitstellen des Skype for Business-Clients in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
+- **Office 365** Wenn Sie über einen Office 365-Plan verfügen, der Skype for Business umfasst, wird die verwendete Installationstechnologie als Klick-und-Los bezeichnet. Mit Office 365 können Sie es Ihren Benutzern ermöglichen, Skype for Business für sich selbst aus dem Office 365-Portal zu installieren. Oder Sie können Skype for Business für Ihre Benutzer bereitstellen, indem Sie die Software in Ihr lokales Netzwerk herunterladen und dann Ihre vorhandenen Softwarebereitstellungstools verwenden, beispielsweise mit Microsoft Endpoint Configuration Manager. Installationsinformationen zu Skype for Business, die in Office 365 enthalten sind, finden Sie unter [Bereitstellen des Skype for Business-Clients in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
 - **Volumen lizenziert** Wenn Sie über eine Volumenlizenzversion des Skype for Business 2015-oder 2016-Clients verfügen, ist die verwendete Installationstechnologie Windows Installer (MSI). Ein Windows Installer-basiertes Installationspaket besteht aus mehreren MSI-Dateien. Ein MSI-Paket mit sprachneutralem Kern wird mit einem oder mehreren sprachenspezifischen Paketen zu einem vollständigen Produkt kombiniert. Setup fügt die einzelnen Pakete zusammen und führt während und nach der Installation von Office auf den Computern der Benutzer Anpassungs- und Wartungsaufgaben aus. Der Skype for Business 2019-Client verwendet Klick-und-Los-Installationsprogramme.
     

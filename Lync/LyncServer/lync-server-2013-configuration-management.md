@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Konfigurationsverwaltung in lync Server 2013
 
@@ -41,7 +41,7 @@ Konfigurationsverwaltung ist der Vorgang zum Aufzeichnen und Nachverfolgen von H
 
   - **Software**   diese Kategorie verfolgt Software, die auf jedem Computer installiert ist, die Versionsnummern und die Position, an der die Lizenzen aufbewahrt werden. Diese Informationen helfen bei der Planung von Upgrades, um sicherzustellen, dass Software lizenziert ist, und erkennen das vorhanden sein von nicht autorisierten (und nicht lizenzierten) Software.
 
-  - **Standard**   -Builds mit dieser Kategorie wird der aktuelle Standard Build für die Clientcomputer und Server nachverfolgt, und ob die Clientcomputer und Server diesen Standard erfüllen. Die Definition und Erzwingung von Standard-Builds hilft dem Supportpersonal, da das Personal nur eine begrenzte Anzahl von Versionen jeder Software verwalten muss.
+  - **Standard-Builds**   mit dieser Kategorie wird der aktuelle Standard Build für die Clientcomputer und Server nachverfolgt, und ob die Clientcomputer und Server diesen Standard erfüllen. Die Definition und Erzwingung von Standard-Builds hilft dem Supportpersonal, da das Personal nur eine begrenzte Anzahl von Versionen jeder Software verwalten muss.
 
   - **Kumulative Updates und Hotfixes**   diese Kategorie verfolgt, welche Service Packs getestet und für die Verwendung genehmigt wurden und welche Computer auf dem neuesten Stand sind. Diese Informationen sind wichtig, um das Risiko zu verringern, dass Computer gefährdet sind, und um Benutzer zu erkennen, die nicht genehmigte Updates installiert haben.
 
@@ -73,7 +73,7 @@ Es gibt viele Tools zum ermitteln, überwachen und melden von Ressourcen. Einige
 
   - **Automatisierte Skripts**   Sie können einfache Skripts schreiben, um Elemente wie das Betriebssystem, die Service Pack-Ebene zu melden und zu bestimmen, ob Software auf einem bestimmten Satz von Computern vorhanden ist. Sie können diese Skripts in die genauen Anforderungen einer Organisation schreiben. Die erforderliche Anzahl von Skripts und deren Komplexität können jedoch dazu führen, dass Skripts für die Erstellung und Verwaltung kostspielig sind.
 
-  - **Automatisierte Tools**   je nach Größe Ihres Unternehmens und Ihren organisatorischen Anforderungen können Sie die Verwendung automatisierter Tools in Frage stellen. Tools wie System Center Configuration Manager enthalten standardberichtsvorlagen (wie die Service Pack-Ebene) und ermöglichen es Ihnen auch, angepasste Berichte zu erstellen, beispielsweise für eine benutzerdefinierte Anwendung. Der System Center-Konfigurations-Manager kann auch verwendet werden, um Hardware-und Softwarekonfigurationen zu melden.
+  - **Automatisierte Tools**   je nach Größe Ihres Unternehmens und Ihren organisatorischen Anforderungen können Sie die Verwendung automatisierter Tools in Frage stellen. Tools wie Microsoft Endpoint Configuration Manager enthalten standardberichtsvorlagen (wie die Service Pack-Ebene) und ermöglichen Ihnen auch das Erstellen angepasster Berichte, beispielsweise für eine benutzerdefinierte Anwendung. Der Microsoft Endpoint Configuration Manager kann auch verwendet werden, um Hardware-und Softwarekonfigurationen zu melden.
 
 </div>
 
