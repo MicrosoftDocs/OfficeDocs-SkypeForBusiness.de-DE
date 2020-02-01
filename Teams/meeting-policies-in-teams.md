@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554342"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41649100"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -37,51 +37,53 @@ Sie können Richtlinien wie folgt implementieren, die sich auf die Besprechungs 
 |Implementierungs  |Beschreibung  |
 |---------|---------|
 |Pro Organisator    |Wenn Sie eine Richtlinie pro Organisation implementieren, erben alle Besprechungsteilnehmer die Richtlinie des Organisators. So ist beispielsweise " **Personen automatisch zulassen** " eine Richtlinie pro Organisator und steuert, ob Benutzer direkt an der Besprechung teilnehmen oder in der Lobby auf Besprechungen warten, die der Benutzer, dem die Richtlinie zugewiesen ist, geplant hat.          |
-|Pro Benutzer    |Wenn Sie eine Richtlinie pro Benutzer implementieren, gilt nur die Richtlinie pro Benutzer, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer zu beschränken. Beispielsweise ist " **jetzt** besprechen" eine Richtlinie pro Benutzer.     |
-|Pro Organisator und pro Benutzer     |Wenn Sie eine Kombination aus einer pro-Organizer-und pro-Benutzer-Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. So können Sie beispielsweise für die **Cloud-Aufzeichnung** eine pro-Organizer-und pro-Benutzer-Richtlinie verwenden. Aktivieren Sie diese Einstellung, damit der Besprechungsorganisator und die Teilnehmer eine Aufzeichnung starten und beenden können. 
+|Pro Benutzer    |Wenn Sie eine Richtlinie pro Benutzer implementieren, gilt nur die Richtlinie pro Benutzer, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer zu beschränken. So ist beispielsweise die Option "jetzt besprechen" **in Kanälen** eine Richtlinie pro Benutzer.     |
+|Pro Organisator und pro Benutzer     |Wenn Sie eine Kombination aus einer pro-Organizer-und pro-Benutzer-Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. So können Sie beispielsweise für die **Cloud-Aufzeichnung** eine pro-Organizer-und pro-Benutzer-Richtlinie verwenden. Aktivieren Sie diese Einstellung, damit der Besprechungsorganisator und die Teilnehmer eine Aufzeichnung starten und beenden können.
 
-Standardmäßig wird eine Richtlinie namens „Global“ (organisationsweiter Standard) erstellt. Standardmäßig werden allen Benutzern in Ihrer Organisation diese Besprechungsrichtlinie zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und sie den Benutzern zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, auf die die Einstellungen angewendet werden. 
+Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Allen Benutzern in Ihrer Organisation wird standardmäßig die globale Besprechungsrichtlinie zugewiesen. Sie können entweder Änderungen daran vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Benutzer erhalten die globale Richtlinie, es sei denn, Sie erstellen eine benutzerdefinierte Richtlinie und weisen diese zu. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, auf die die Einstellungen angewendet werden.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern oder Erstellen einer Besprechungsrichtlinie
 
-Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zum Microsoft Teams Admin Center #a0**Besprechungsrichtlinien**für **Besprechungen** > . Wählen Sie eine Richtlinie aus der Liste aus, oder wählen Sie **neue Richtlinie**aus. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen oder mehr als 64 Zeichen enthalten. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
+Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zum Microsoft Teams Admin Center #a0**Besprechungsrichtlinien**für **Besprechungen** > . Wählen Sie eine Richtlinie aus der Liste aus, oder wählen Sie **Hinzufügen**aus. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen oder mehr als 64 Zeichen enthalten. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
 
 Angenommen, Sie verfügen über eine Reihe von Benutzern, und Sie möchten die Bandbreite begrenzen, die für Ihre Besprechung erforderlich ist. Erstellen Sie eine neue benutzerdefinierte Richtlinie mit dem Namen "begrenzte Bandbreite", und deaktivieren Sie die folgenden Einstellungen:
 
 Unter **Audio #a0 Video**:
-- Deaktivieren der Cloud-Aufzeichnung
-- Deaktivieren der Option "IP-Video zulassen"
+- Deaktivieren Sie die Option "Cloud-Aufzeichnung zulassen".
+- Deaktivieren Sie IP-Video zulassen.
 
 Unter **Inhaltsfreigabe**:
-- Deaktivieren des Bildschirmfreigabe Modus
-- Deaktivieren des Whiteboards
-- Deaktivieren von freigegebenen Notizen
+- Deaktivieren Sie den Bildschirmfreigabe Modus.
+- Deaktivieren Sie Whiteboard zulassen.
+- Deaktivieren Sie freigegebene Notizen zulassen.
 
 Weisen Sie dann die Richtlinie den Benutzern zu.
 
-> [!NOTE] 
-> Einem Benutzer kann immer nur eine Besprechungsrichtlinie zugewiesen werden. 
+> [!NOTE]
+> Einem Benutzer kann immer nur eine Besprechungsrichtlinie zugewiesen werden.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Zuweisen einer Besprechungsrichtlinie zu Benutzern
 
-Wenn Sie die Richtlinie auf einen Benutzer anwenden, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und klicken Sie dann auf den Anzeigenamen des Benutzers. Wählen Sie auf der Seite des Benutzers neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus. Wählen Sie dann im Bereich **Benutzerrichtlinien bearbeiten** unter **Besprechungsrichtlinie**die Besprechungsrichtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. Sie können auch Richtlinien aus der Liste der Benutzer zuweisen. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**. Wählen Sie dann im Bereich **Bearbeitungseinstellungen** unter **Besprechungsrichtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus. 
- 
-Wenn Sie eine Richtlinie auf mehr als einen Benutzer anwenden, wählen Sie im linken Navigationsbereich die Option **Benutzer** aus, und wählen Sie dann die einzelnen Benutzer aus, indem Sie links neben dem Benutzernamen klicken und dann auf **Einstellungen bearbeiten**klicken. Wählen Sie im Bereich **Bearbeitungseinstellungen** unter **Besprechungsrichtlinie**die Richtlinie aus der Dropdownliste aus, und wählen Sie dann **Speichern**aus.
- 
-Sie können auch eine Besprechungsrichtlinie einem oder mehreren Benutzern wie folgt zuweisen:
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
+2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Wählen Sie unter **Besprechungsrichtlinie**die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-1. Wechseln Sie zu den **Microsoft Teams Admin Center** > -**Besprechungsrichtlinien**für**Besprechungen** > .
+Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+
+Sie können auch die folgenden Schritte ausführen:
+
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu**Besprechungsrichtlinien**für **Besprechungen** > .
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Benutzer verwalten** aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern**aus.
- 
-> [!NOTE] 
+5. Nachdem Sie das Hinzufügen von Benutzern abgeschlossen haben, wählen Sie **Speichern**aus.
+
+> [!NOTE]
 > Sie können eine Richtlinie nicht löschen, solange Sie Benutzern zugewiesen ist. Sie müssen allen betroffenen Benutzern erst eine andere Richtlinie zuweisen, bevor Sie die ursprüngliche Richtlinie löschen können.
- 
+
 ## <a name="meeting-policy-settings"></a>Einstellungen für Besprechungsrichtlinien
 
-Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie auswählen oder **neue** Richtlinie auswählen, um eine neue Richtlinie hinzuzufügen, können Sie die Einstellungen für Folgendes konfigurieren.
+Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie auswählen oder auf **Hinzufügen** klicken, um eine neue Richtlinie hinzuzufügen, können Sie die Einstellungen für Folgendes konfigurieren.
 
 - [Allgemein](#meeting-policy-settings---general)
 - [Audio #a0 Video](#meeting-policy-settings---audio--video)
@@ -95,7 +97,6 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 ## <a name="meeting-policy-settings---general"></a>Einstellungen für Besprechungsrichtlinien – allgemein
 
 - [Sofortbesprechung in Kanälen zulassen](#allow-meet-now-in-channels)
-- [Private Besprechung jetzt zulassen](#allow-private-meet-now)
 - [Zulassen des Outlook-Add-ins](#allow-the-outlook-add-in)
 - [Planen der Kanal Besprechung zulassen](#allow-channel-meeting-scheduling)
 - [Planen privater Besprechungen zulassen](#allow-scheduling-private-meetings)
@@ -105,10 +106,6 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie diese Option aktivieren und ein Benutzer eine Nachricht in einem Teams-Kanal sendet, kann der Benutzer unter dem Feld zum Verfassen auf **jetzt** besprechen klicken, um eine Ad-hoc-Besprechung im Kanal zu starten.
 
 ![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht](media/meeting-policies-meet-now.png)
-### <a name="allow-private-meet-now"></a>Private Besprechung jetzt zulassen
-
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  
-
 
 ### <a name="allow-the-outlook-add-in"></a>Zulassen des Outlook-Add-ins
 
@@ -256,10 +253,10 @@ Verwenden Sie das AllowParticipantGiveRequestControl-Cmdlet, um mithilfe von Pow
 
 Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steuert, ob externe Teilnehmer an einer Besprechung anderen Teilnehmern an der Besprechung die Steuerung Ihres freigegebenen Desktops oder Fensters gewähren können. Externe Teilnehmer an Teams-Besprechungen können wie folgt kategorisiert werden:  
 
-   - Anonymer Benutzer
-   - Gastbenutzer  
-   - B2B-Nutzer
-   - Federated-Benutzer  
+- Anonymer Benutzer
+- Gastbenutzer  
+- B2B-Nutzer
+- Federated-Benutzer  
 
 Ob Verbundbenutzer externen Benutzern die Kontrolle überlassen können, während die Freigabe von **einem externen Teilnehmer** gesteuert wird, der die Steuerungseinstellung in Ihrer Organisation erteilt oder anfordert.
 
@@ -293,7 +290,7 @@ Amanda kann das Whiteboard nicht in einer Besprechung freigeben, auch wenn Sie d
 
 ### <a name="allow-shared-notes"></a>Zulassen von freigegebenen Notizen
 
-Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, ob ein Benutzer Notizen in einer Besprechung erstellen und freigeben kann. Externe Benutzer, einschließlich anonymen, B2B-und Verbundbenutzern, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte " **Besprechungsnotizen** " wird derzeit nur in Besprechungen mit weniger als 20 Teilnehmern unterstützt. 
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, ob ein Benutzer Notizen in einer Besprechung erstellen und freigeben kann. Externe Benutzer, einschließlich anonymen, B2B-und Verbundbenutzern, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte " **Besprechungsnotizen** " wird derzeit nur in Besprechungen mit weniger als 20 Teilnehmern unterstützt.
 
 Sehen wir uns das folgende Beispiel an:
 
@@ -308,31 +305,17 @@ Daniela kann in Amandas Besprechungen Notizen machen, und Amanda kann in keiner 
 
 Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, bevor Sie an der Besprechung teilnehmen, sowie die Teilnahmestufe, die Sie in einer Besprechung zugelassen sind.
 
+- [Zulassen, dass anonyme Personen eine Besprechung starten](#let-anonymous-people-start-a-meeting)
 - [Automatisches zulassen von Personen](#automatically-admit-people)
-- [Zulassen, dass anonyme Personen eine Besprechung starten](#allow-anonymous-people-to-start-a-meeting)
 - [Zulassen, dass Einwahlbenutzer die Lobby umgehen können](#allow-dial-in-users-to-bypass-the-lobby)
-- [Private Besprechung jetzt zulassen](#allow-private-meet-now)
+- ["Besprechung jetzt in privaten Besprechungen zulassen"](#allow-meet-now-in-private-meetings)
 - [Aktivieren von Live Beschriftungen](#enable-live-captions)
 - [Chat in Besprechungen zulassen](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Die Optionen für die Teilnahme an einer Besprechung unterscheiden sich je nach den Einstellungen für die einzelnen Teams und der Verbindungsmethode. Wenn Ihre Gruppe über Audiokonferenzen verfügt und diese zum Herstellen einer Verbindung verwendet, lesen Sie [Audio-Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Wenn Ihre Gruppe "Teams" keine Audiokonferenzen hat, finden Sie unter [teilnehmen an einer Besprechung in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
-### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
-
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden.
-
-![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
-
- Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern. **(in Kürze verfügbar)**
-  
-|Einstellungswert  |Join-Verhalten |
-|---------|---------|
-|**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, Verbundbenutzer, Gäste, anonyme Benutzer und Personen, die sich per Telefon einwählen.       |
-|**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus Föderations Organisationen, nehmen direkt an der Besprechung Teil, ohne in der Lobby zu warten.  Anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.   |
-|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Föderationsbenutzer, anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.           |
-
-### <a name="allow-anonymous-people-to-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
+### <a name="let-anonymous-people-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
 
 Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob anonyme Personen, einschließlich B2B-und Verbundbenutzern, an der Besprechung des Benutzers teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. 
 
@@ -360,13 +343,27 @@ Hier sehen Sie das Join-Verhalten anonymer Personen, wenn keine authentifizierte
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
+### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
+
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden.
+
+![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
+
+ Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern. **(in Kürze verfügbar)**
+  
+|Einstellungswert  |Join-Verhalten |
+|---------|---------|
+|**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, Verbundbenutzer, Gäste, anonyme Benutzer und Personen, die sich per Telefon einwählen.       |
+|**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus Föderations Organisationen, nehmen direkt an der Besprechung Teil, ohne in der Lobby zu warten.  Anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.   |
+|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Föderationsbenutzer, anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.           |
+
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
 Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ".
 
 Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 
-|Zulassen, dass Einwahlbenutzer die Lobby umgehen können  |Automatisches zulassen von Benutzern  |Join-Verhalten von Personen, die sich einwählen |
+|Zulassen, dass Einwahlbenutzer die Lobby umgehen können  |Automatisches zulassen von Personen  |Join-Verhalten von Personen, die sich einwählen |
 |---------|---------|---------|
 |Wahr    | Jeder      | Direkt teilnehmen         |
 |   | Jeder in Ihrer Organisation       | Direkt teilnehmen        |
@@ -375,7 +372,7 @@ Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
-### <a name="allow-private-meet-now"></a>Private Besprechung jetzt zulassen
+### <a name="allow-meet-now-in-private-meetings"></a>"Besprechung jetzt in privaten Besprechungen zulassen"
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann. 
 
@@ -387,17 +384,17 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
-|**Deaktiviert und der Benutzer kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü (**.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
+|**Deaktiviert, aber der Organisator kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü (**.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
 |**Deaktiviert**     | Live Beschriftungen sind für den Benutzer während einer Besprechung deaktiviert. Der Benutzer kann nicht aktiviert werden.          |
-
 
 <a name="bkcontentsharing"> </a>
 
 ### <a name="allow-chat-in-meetings"></a>Chat in Besprechungen zulassen
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob der Besprechungs Chat in der Besprechung des Benutzers zulässig ist. 
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob der Besprechungs Chat in der Besprechung des Benutzers zulässig ist.
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Verwandte Themen
+
 [Nachrichtenrichtlinien in Teams](messaging-policies-in-teams.md)

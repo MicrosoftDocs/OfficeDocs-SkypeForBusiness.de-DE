@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913043"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628371"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -55,7 +55,7 @@ Diese bestimmen, wer dem Team beitreten kann:
 Teambenutzertypen bestimmen, wie viel Kontrolle ein Teammitglied hat:
 
 -   Der _Teamersteller_ verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   Der _Teambesitzer_ verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu zehn Teambesitzer möglich.
+-   Der _Teambesitzer_ verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu 100 Teambesitzer möglich.
 -   Ein _Teammitglied_ ist ein Mitglied Ihrer Organisation, das an einem Team teilnimmt.
 -   Ein _Gast_ ist ein Benutzer, der nicht zu Ihrer Organisation gehört. Jeder, der über eine E-Mail-Adresse verfügt, kann als Gast eingeladen werden, sofern Ihre Organisation den [Gastzugriff](guest-access.md) aktiviert hat.
 

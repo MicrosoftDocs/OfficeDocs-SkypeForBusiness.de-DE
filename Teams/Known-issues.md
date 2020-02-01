@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990650"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628531"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -312,6 +312,14 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Integration zwischen Microsoft Teams und Planner mit der Onlineversion von Planner <br/> |Aufgabenbuckets in Planner werden in der Onlineversion von Planner nicht angezeigt.  <br/> |Keine Problemumgehung. <br/> |28.02.2017  <br/>|
+
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Integration zwischen Microsoft Teams und Planner mit der Onlineversion von Planner <br/> |Besitzer können keinen Plan für ein Team erstellen, das aus einer vorhandenen Office 365-Gruppe erstellt wurde.  <br/> |Erteilen Sie dem Besitzer der Gruppe Mitgliedsberechtigungen. <br/> |14.01.2020  <br/>|
+
+
+
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
