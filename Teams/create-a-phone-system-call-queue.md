@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41620005"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664372"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -130,16 +130,15 @@ Klicken Sie im **Microsoft Teams Admin Center**auf**Warteschlangen**für **sprac
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
+![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout1.png)
 -**Namen** geben Sie einen beschreibenden Anzeigenamen für die Anrufwarteschlange ein. Dieser Name ist erforderlich und kann bis zu 64 Zeichen enthalten, einschließlich Leerzeichen.
 
  Dieser Name wird in der Benachrichtigung für den eingehenden Anruf angezeigt.
 
 * * *
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png)
-
-**Hinzufügen von Konten** Wählen Sie ein Ressourcenkonto aus. Alle Anrufwarteschlangen sind für ein Ressourcenkonto erforderlich. Für Ressourcenkonten ist keine Dienst gebührenpflichtige oder gebührenfreie Telefonnummer erforderlich.
+![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout2.png)
+**Hinzufügen von Konten** wählen Sie ein Ressourcenkonto aus. Alle Anrufwarteschlangen sind für ein Ressourcenkonto erforderlich. Für Ressourcenkonten ist keine Dienst gebührenpflichtige oder gebührenfreie Telefonnummer erforderlich.
 
 Wenn keine Liste aufgeführt ist, rufen Sie Dienstnummern ab, und weisen Sie Sie einem Ressourcenkonto zu, bevor Sie die Anrufwarteschlange erstellen, wie zuvor beschrieben. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](getting-service-phone-numbers.md). Einzelheiten zum Zuweisen einer Telefonnummer finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
 
@@ -152,15 +151,13 @@ Wenn keine Liste aufgeführt ist, rufen Sie Dienstnummern ab, und weisen Sie Sie
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
-
-**Gruß** an die optionale Ansage, die für Personen, die die Anruf Warteschlangennummer anrufen, abgespielt wird.
+![Symbol der Zahl 1, verweist auf eine Legende im](media/teamscallout1.png)
+**vorherigen Screenshot,** in der die optionale Ansage für Personen, die die Anruf Warteschlangennummer anrufen, abgespielt wird.
 
 Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png)
-
-**Musik in Warte** Stellung Sie können die standardmäßige Musik in der Warteschlange verwenden, die mit der Anrufwarteschlange bereitgestellt wird. Sie können auch eine Audiodatei in WAV-, MP3-oder WMA-Formaten hochladen, um Sie als benutzerdefinierte Musik in Wartestellung zu verwenden.
+![Symbol der Zahl 2, verweist auf eine Legende in der vorherigen Screenshot](media/teamscallout2.png)
+-**Musik** in der Warteschleife können Sie die standardmäßige Musik in der Warteschlange verwenden. Sie können auch eine Audiodatei in WAV-, MP3-oder WMA-Formaten hochladen, um Sie als benutzerdefinierte Musik in Wartestellung zu verwenden.
 
 * * *
 
@@ -168,9 +165,8 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ![Screenshot der Optionen für die Anrufannahme](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
-
-Wenn Sie einzelne Agents direkt hinzufügen möchten, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
+![Symbol der Zahl 1, verweist auf eine Legende in den vorherigen Screenshot](media/teamscallout1.png)
+-**Anruf-Agents und-Gruppen** , um einzelne Agents direkt hinzuzufügen, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
 
 Anrufe werden zuerst an einzelne Agents und dann an die Agents in Gruppen weitergeleitet. 
 
@@ -195,11 +191,8 @@ Die ausgewählten Anruf Agenten müssen folgende sein:
 
 - Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
 
-![Screenshot des Bereichs "Anruf-Agents hinzufügen"](media/skype-for-business-add-agents-to-call-queue.png)
-
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png)
-
-**Routing Methode** Sie können entweder **Attendant**, **Serial**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
+![Symbol der Zahl 2, verweist auf eine Legende in der vorherigen Screenshot](media/teamscallout2.png)
+ **-Routing Methode** Sie können entweder **Attendant**, **Serial**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
 - Das **Attendant-Routing** bewirkt, dass der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig klingelt. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 - **Serielles Routing** eingehende Anrufe Klingeln alle Anruf-Agents eins nach dem anderen vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
@@ -213,9 +206,8 @@ Die ausgewählten Anruf Agenten müssen folgende sein:
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
-
-**Der Agent kann das Abrufen von Anrufen ablehnen** Sie können festlegen, dass Anruf Warteschlangen-Agents das ablehnen von Anrufen aus einer bestimmten Warteschlange zulassen, indem Sie diese Option aktivieren.
+![Symbol der Zahl 1, bezieht sich auf eine Legende im vorherigen](media/teamscallout1.png)
+Screenshot-**Agent kann das Abrufen von Anrufen ablehnen** Sie können festlegen, dass Anruf Warteschlangen-Agents das ablehnen von Anrufen aus einer bestimmten Warteschlange zulassen, indem Sie diese Option aktivieren.
 
 Wenn Sie diese Option aktivieren, können alle Agents in dieser Warteschlange die Anrufe von dieser Anrufwarteschlange nach befolgen starten oder beenden. Sie können das die Möglichkeit, sich von Anrufen abzumelden, durch Deaktivieren des Kontrollkästchens jederzeit sperren, wodurch Telefonisten automatisch wieder für diese Anrufwarteschleife angemeldet werden (die Standardeinstellung für alle Telefonisten).
 
@@ -230,9 +222,8 @@ Um auf die Option "ablehnen" zuzugreifen, können Agents:
     >
     > Wenn sich die Agents in Microsoft Teams-Desktop Clients befinden, können Sie diese mithilfe der Anrufeinstellungen ablehnen. 
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png)
-
-**Agent-Warnungseinstellung**
+![Symbol der Zahl 2, bezieht sich auf einen Callout in der](media/teamscallout2.png)
+**Benachrichtigungseinstellung** vorheriger Screenshot-Agent
 
 Damit wird festgelegt, wie lange ein Agent über einen Anruf benachrichtigt wird, bevor die seriellen oder Round Robin-Routingmethoden zum nächsten Agenten wechseln.
 
@@ -246,15 +237,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
-
-**Maximale Anrufe in der Warteschlange**: Legen Sie mit dieser Option fest, wie lange Anrufe maximal in der Warteschleife warten können, bis es zu einem Timeout kommt. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so gehandhabt, wie Sie den Wert für die **Maximale Anzahl von Anrufen** festgelegt haben.
+![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout1.png)
+**Maximale Anrufe in der Warteschlange** verwenden Sie diese Einstellung, um die maximale Anzahl von Anrufen festzulegen, die gleichzeitig in der Warteschlange warten können. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so gehandhabt, wie Sie den Wert für die **Maximale Anzahl von Anrufen** festgelegt haben.
 
 * * *
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png)
-
-**Wenn die maximale Anzahl von Anrufen erreicht ist** Wenn die Anrufwarteschlange die maximale Größe erreicht (festgelegt mit den **maximalen anrufen in der Warteschlangen** Einstellung), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
+![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout2.png)
+,**Wenn die maximale Anzahl von Anrufen erreicht wird** , wenn die Anrufwarteschlange die maximale Größe erreicht (mit der Einstellung Maximale Anzahl von **anrufen in der Warteschlange** festlegen), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
@@ -267,15 +256,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 * * *
 
-![Symbol der Zahl 3, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout3.png)
-
-**Anruf Timeout: maximale Wartezeit** Sie können auch entscheiden, wie viel Zeit ein Anruf in der Warteschlange halten kann, bevor er ein Zeitlimit überschritten hat, und er muss umgeleitet oder getrennt werden. Die Stelle, an der Sie umgeleitet wird, basiert auf der Festlegung des Timeouts für **einen Anruf** . Sie können eine Dauer von 0 bis 45 Minuten festlegen.
+![Symbol der Zahl 3, bezieht sich auf eine Legende im vorherigen](media/teamscallout3.png)
+Screenshot-**Timeout: maximale Wartezeit** Sie können auch entscheiden, wie viel Zeit ein Anruf in der Warteschlange halten kann, bevor er ein Zeitlimit überschritten hat, und muss umgeleitet oder getrennt werden. Die Stelle, an der Sie umgeleitet wird, basiert auf der Festlegung des Timeouts für **einen Anruf** . Sie können eine Dauer von 0 bis 45 Minuten festlegen.
 
 Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werden. Dadurch können Sie den Anruffluss mit feinerer Granularität bearbeiten. So können Sie beispielsweise festlegen, dass alle Anrufe, die von einem Agenten nicht innerhalb von 30 Sekunden beantwortet werden, zu einer automatischen Telefonzentrale für Verzeichnis suchen wechseln.
 
-![Symbol der Zahl 4, verweist auf eine Legende im vorherigen Screenshot](media/sfbcallout4.png)
-
-**Beim Timeout des Anrufs** Wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit dem Anruf geschieht:
+![Symbol der Zahl 4, bezieht sich auf eine Legende im vorherigen](media/teamscallout4.png)
+Screenshot, wenn der Anruf**ausfällt** , wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit dem Anruf geschieht:
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:

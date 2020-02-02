@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005180"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664358"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -162,22 +162,9 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
   > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird.
 
   - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das dem Dienst zugeordnet ist.
-  - **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation darstellt, die auf diese Voicemail zugreifen müssen. Hier können Sie auch die Transkription von Voicemail aktivieren. Erfordert eine Office 365-Gruppe.
+  - **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf Voicemail zugreifen müssen, die von dieser automatischen Telefonzentrale empfangen wurde. Voicemail-Nachrichten werden an die von Ihnen angegebene Office 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
-  > [!NOTE]
-> Sprachnachrichten, die an Benutzer dieses Voicemail-Kontos der automatischen Telefonzentrale gesendet werden, können in Teams nicht zugegriffen werden. Sie werden als e-Mail geliefert.
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
 
  * * *
 
@@ -214,7 +201,9 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das der Anwendung zugeordnet ist.
 
-- **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation darstellt, die auf diese Voicemail zugreifen müssen. Hier können Sie auch die Transkription von Voicemail aktivieren. Erfordert eine Office 365-Gruppe.
+- **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf Voicemail zugreifen müssen, die von dieser automatischen Telefonzentrale empfangen wurde. Voicemail-Nachrichten werden an die von Ihnen angegebene Office 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
+
+    Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
