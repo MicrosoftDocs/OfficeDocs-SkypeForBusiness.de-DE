@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überwachen des mobilitätsdiensts und der UCWA-Verwen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring Mobility Service and UCWA usage
 ms:assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 758fef9e3f2c31bec88927c75b271808d5bbc43c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4968c1a3b3dc30bdab2a3c19fd8e930da6122cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826703"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Neben den Leistungsindikatoren für die CPU- und Speicherauslastung können Sie 
 
   - **Ls: Web – Drosselungs-und\\Authentifizierungs Web – Gesamtanforderungen in der Verarbeitung**, die die Anzahl der ausstehenden Webanforderungen auf dem Server angeben. Wenn dieser Leistungsindikator 10.000 erreicht, schlagen nachfolgende Anforderungen mit der Fehlermeldung „503 - Dienst nicht verfügbar“ fehl.
 
-  - **ASP.net\\-Anforderungen in der Warteschlange** (sollte immer 0 sein).
+  - **ASP.net\\-Anforderungen in der Warteschlange** (sollten immer 0 sein).
 
 <div>
 
@@ -73,7 +75,7 @@ Neben den Leistungsindikatoren für die CPU- und Speicherauslastung können Sie 
 
   - **ASP.NET v 2.0.50727\\fordert Current**auf, wodurch die Anzahl ausstehender Webanforderungen auf dem Server angegeben wird. Wenn dieser Leistungsindikator 5.000 erreicht, schlagen nachfolgende Anforderungen mit der Fehlermeldung „503 - Dienst nicht verfügbar“ fehl.
 
-  - **ASP.net\\-Anforderungen in der Warteschlange** (sollte immer 0 sein).
+  - **ASP.net\\-Anforderungen in der Warteschlange** (sollten immer 0 sein).
 
 <div>
 

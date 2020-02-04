@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Technische Anforderungen für Konferenzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847599"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Für lync Server 2013 können Einwahlkonferenzen, A/V-Konferenzen, Sofortnachric
 
 In diesem Abschnitt werden die Hardware-und Softwareanforderungen für diese Server sowie die unterstützte Zusammensetzung erläutert.
 
-Einwahlkonferenzen sind eine Funktion, die eine Vielzahl von Komponenten umfasst. Einige der Komponenten gelten speziell für Einwahlkonferenzen und einige sind Enterprise-VoIP-Komponenten. In diesem Abschnitt werden die Anforderungen für die Komponenten beschrieben, die für Einwahlkonferenzen spezifisch sind. Details zu den Anforderungen des Vermittlungsservers und des PSTN-Gateways (Public Switched Telephone Network) finden Sie unter [Mediation Server-Komponente in lync Server 2013](lync-server-2013-mediation-server-component.md) und [Komponenten und Topologien für Mediation Server in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planung. Dokumentation.
+Einwahlkonferenzen sind eine Funktion, die eine Vielzahl von Komponenten umfasst. Einige der Komponenten gelten speziell für Einwahlkonferenzen und einige sind Enterprise-VoIP-Komponenten. In diesem Abschnitt werden die Anforderungen für die Komponenten beschrieben, die für Einwahlkonferenzen spezifisch sind. Details zu den Anforderungen des Vermittlungsservers und des PSTN-Gateways (Public Switched Telephone Network) finden Sie in der Planning-Dokumentation unter [Mediation Server-Komponente in lync Server 2013](lync-server-2013-mediation-server-component.md) und [Komponenten und Topologien für Mediation Server in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) .
 
 <div>
 
@@ -192,9 +194,9 @@ Auf der Seite Einstellungen für Einwahlkonferenzen werden die in der folgenden 
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Audio-Dateianforderungen für Einwahlkonferenzen
 
-Lync Server 2013 unterstützt keine Anpassung von Sprachansagen und Musik für Einwahlkonferenzen. Wenn Sie jedoch eine starke geschäftliche Anforderung haben, die erfordert, dass Sie die standardmäßigen Audiodateien ändern, lesen Sie den Microsoft Knowledge Base-Artikel 961177, [Anleitung zum Anpassen von Sprachansagen oder Musikdateien für Einwahlkonferenzen in Microsoft Office Communications Server. 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 unterstützt keine Anpassung von Sprachansagen und Musik für Einwahlkonferenzen. Wenn Sie jedoch eine starke geschäftliche Anforderung haben, die erfordert, dass Sie die standardmäßigen Audiodateien ändern, lesen Sie den Microsoft Knowledge Base-Artikel 961177, [Anleitung zum Anpassen von Sprachansagen oder Musikdateien für Einwahlkonferenzen in Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Sie können auch das Verwaltungsdienstprogramm für [benutzerdefinierte Sprachansagen für Microsoft lync Server Conferencing](http://go.microsoft.com/fwlink/p/?linkid=396880) verwenden, das es Administratoren ermöglicht, die standardmäßigen Sprachaufforderungen zu ersetzen, die verwendet werden, wenn ein Telefon Anrufer eine lync-Besprechung mit benutzerdefinierten Eingabeaufforderungen verbindet unterschiedliche Erfahrungen mit dem Besprechungseintrag. Die benutzerdefinierten Sprachansagen können auf einem Server mit lync Server 2010 oder lync Server 2013, entweder Enterprise oder Standard Edition, installiert werden.
+Sie können auch das Verwaltungsdienstprogramm für [benutzerdefinierte Sprachansagen der Microsoft lync Server-Konferenzzentrale](http://go.microsoft.com/fwlink/p/?linkid=396880) verwenden, das es Administratoren ermöglicht, die standardmäßigen Sprachaufforderungen zu ersetzen, die verwendet werden, wenn ein Telefon Anrufer eine lync-Besprechung mit benutzerdefinierten Ansagen annimmt, um eine andere Besprechungs Eingabe zu ermöglichen Die benutzerdefinierten Sprachansagen können auf einem Server mit lync Server 2010 oder lync Server 2013, entweder Enterprise oder Standard Edition, installiert werden.
 
 Anwendung für die Conferencing Attendant-Anwendung und Konferenzankündigung gelten für die folgenden Voraussetzungen für Musik in Wartestellung, aufgezeichnete Namen und Audio-Ansagedateien:
 

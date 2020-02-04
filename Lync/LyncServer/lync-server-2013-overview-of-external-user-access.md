@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Übersicht über den Zugriff durch externe Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of external user access
 ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a527df5a3bc7b296d17860c7a02876dbc31fbc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1007dfb330aaa21dbac269f606102c51712c9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825520"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ Ihre Edge-Bereitstellung bietet externen Zugriff für die folgenden Kommunikatio
     
     Sowohl SIP-als auch XMPP-Protokolle werden unterstützt. Informationen zum Bereitstellen von Diensten für XMPP finden Sie unter [Planen von SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
 
-  - ****   Autorisierte Webkonferenzen externe Benutzer können an Konferenzen teilnehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Remote Benutzer, verbundene Benutzer und anonyme Benutzer können für die Teilnahme an Webkonferenzen aktiviert werden, aber öffentliche Chat-Benutzer können nicht an Konferenzen teilnehmen. Je nach den von Ihnen ausgewählten Optionen können Webkonferenzen aktivierte Benutzer an der Desktop-und Anwendungsfreigabe teilnehmen und als Besprechungsorganisatoren oder Referenten fungieren.
+  - **Autorisierte Webkonferenzen**   externe Benutzer können an Konferenzen teilnehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Remote Benutzer, verbundene Benutzer und anonyme Benutzer können für die Teilnahme an Webkonferenzen aktiviert werden, aber öffentliche Chat-Benutzer können nicht an Konferenzen teilnehmen. Je nach den von Ihnen ausgewählten Optionen können Webkonferenzen aktivierte Benutzer an der Desktop-und Anwendungsfreigabe teilnehmen und als Besprechungsorganisatoren oder Referenten fungieren.
 
   - **A/V-Konferenz**   autorisierte externe Benutzer können an Audio-und Videokonferenzen teilnehmen, die ihre lync Server-Bereitstellung hostet. Audio/Video in der Peer-to-Peer-Kommunikation wird für Windows Messenger 2011-Benutzer, aber nicht für andere Benutzer von öffentlichen Chat Dienstanbietern unterstützt.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren eines Vermittlungsservers im Topologie-Gene
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -105,7 +107,7 @@ Wenn Sie bereits Vermittlungsserver an Front-End-Pools auf dieser Website bereit
 
 
 > [!NOTE]  
-> In diesem Abschnitt wird davon ausgegangen, dass Sie bereits mindestens einen Front-End-Pool eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> im Bereitstellungshandbuch beschrieben ist. Dokumentation.
+> In diesem Abschnitt wird davon ausgegangen, dass Sie bereits mindestens einen Front-End-Pool eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungshandbuch-Dokumentation beschrieben wird.
 
 
 
@@ -144,7 +146,7 @@ Wenn Sie bereits Vermittlungsserver an Front-End-Pools auf dieser Website bereit
 
 8.  Führen Sie auf der Seite **Edgeserver auswählen** einen der folgenden Schritte aus:
     
-      - Wenn Sie die PSTN-Konnektivität für externe Benutzer bereitstellen möchten, die für Enterprise-VoIP aktiviert sind, klicken Sie unter Wählen Sie den **von diesem Vermittlungsserver verwendeten Edge-Pool**aus auf den FQDN des Edgeserver-Pools, der diesen vermittlungsserverpool verwendet, um die PSTN-Konnektivität für Diese externen Benutzer aus, und klicken Sie dann auf **weiter**.
+      - Wenn Sie die PSTN-Konnektivität für externe Benutzer bereitstellen möchten, die für Enterprise-VoIP aktiviert sind, klicken Sie unter Wählen Sie den **von diesem Vermittlungsserver verwendeten Edge-Pool**aus auf den FQDN des Edgeserver-Pools, der diesen vermittlungsserverpool verwendet, um PSTN-Konnektivität für diese externen Benutzer bereitzustellen, und klicken Sie dann auf **weiter**.
     
       - Wenn Sie nicht beabsichtigen, externe Benutzer für Enterprise-VoIP zu aktivieren, oder wenn Sie keine PSTN-Konnektivität für Benutzer bereitstellen möchten, wenn diese sich außerhalb des internen Netzwerks befinden, klicken Sie auf **weiter**.
 

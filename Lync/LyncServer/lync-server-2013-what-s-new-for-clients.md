@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Neue Funktionen für Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: What's new for clients
 ms:assetid: 5c144677-4d58-4fc3-8445-74b76c9fcf07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204933(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf37f68d0ea11e17a799956f285d8ca82eb2a27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f938ccc4e4a040307a7cf86a8084353c480cfdca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -151,7 +153,7 @@ Lync 2013 integriert nun die Features, die zuvor vom lync 2010-Gruppen-Chat bere
 
   - Benutzer können Themen Feeds erstellen, damit Sie benachrichtigt werden, wenn jemand in einem Chatroom einen Beitrag hinzufügt, der bestimmte Stichwörter enthält.
 
-  - Auf der Seite neue Optionen für beständigen **Chat** können Benutzer Benachrichtigungs Benachrichtigungen und Sounds festlegen, die gelten, wenn Personen Nachrichten in ihren Chatrooms Posten.
+  - Auf der Seite neue Optionen für **beständigen Chat** können Benutzer Benachrichtigungs Benachrichtigungen und Sounds festlegen, die gelten, wenn Personen Nachrichten in ihren Chatrooms Posten.
 
 </div>
 
@@ -227,7 +229,7 @@ Das neu gestaltete Unterhaltungsfenster bietet schnelleren Zugriff auf wichtige 
 
 Das neue optimierte aussehen behält vertraute Funktionen wie das aktuelle Feature " **What es Happening Today?** ", die Statusauswahl und die **Einstellung "Standort** Auswahl" bei.
 
-  - Wenn Chatrooms aktiviert sind, wird den Benutzern auf **** der lync-Hauptseite ein neues Symbol für Chatrooms angezeigt. Mit dem **** Symbol Chatrooms können Benutzer schnell auf Ihre Chatrooms und Filter zugreifen.
+  - Wenn Chatrooms aktiviert sind, wird den Benutzern auf der lync-Hauptseite ein neues Symbol für **Chatrooms** angezeigt. Mit dem Symbol **Chatrooms** können Benutzer schnell auf Ihre Chatrooms und Filter zugreifen.
 
   - Benutzer können auf die Ansichtssymbole klicken, um zur Ansicht **Kontakte** , **chatroomansicht** , **Konversations** Ansicht oder **Telefon** Ansicht zu wechseln.
 

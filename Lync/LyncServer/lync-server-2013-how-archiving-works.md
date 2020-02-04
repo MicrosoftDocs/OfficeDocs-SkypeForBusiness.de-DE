@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Funktionsweise der Archivierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204900(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 097b40ef4194a618c090e0d67f73583d6aa427b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca026dcfb9b994353de139b6e10ecd419c9dd165
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Die folgenden Inhaltstypen werden nicht archiviert:
 
   - Desktop- und Anwendungsfreigaben für Peer-zu-Peer-Chatnachrichten und -konferenzen
 
-Lync Server archiviert auch keine beständigen Chat Unterhaltungen. Zum Archivieren beständiger Chat Unterhaltungen müssen Sie den Kompatibilitätsdienst aktivieren und konfigurieren, bei dem es sich um eine Komponente handelt, die mit dem persistenten Chat Server von Microsoft lync Server 2013 bereitgestellt werden kann. Ausführliche Informationen finden Sie unter Planen des beständigen [Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
+Lync Server archiviert auch keine beständigen Chat Unterhaltungen. Zum Archivieren beständiger Chat Unterhaltungen müssen Sie den Kompatibilitätsdienst aktivieren und konfigurieren, bei dem es sich um eine Komponente handelt, die mit dem persistenten Chat Server von Microsoft lync Server 2013 bereitgestellt werden kann. Ausführliche Informationen finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
 
 </div>
 
@@ -83,7 +85,7 @@ Die Archivierung wird automatisch auf jedem Front-End-Server installiert, wenn S
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Archivierungs Setup bei Verwendung der Microsoft Exchange-Integration
 
-Wenn sich Ihre Benutzer in Exchange 2013 befinden und ihre Postfächer in einem in-situ-Speicher abgelegt wurden, können Sie die **Microsoft Exchange-Integrations** Option (wie weiter unten in diesem Abschnitt beschrieben) zum Archivieren von lync Server 2013 für diese Benutzer auswählen und dann Steuern Archivierung für diese Benutzer durch Angabe von Exchange in-situ-Speicherrichtlinien und-Einstellungen sowie von lync Server-Konfigurationen, um Folgendes zu steuern:
+Wenn sich Ihre Benutzer in Exchange 2013 befinden und ihre Postfächer in der Warteschleife gespeichert wurden, können Sie die **Microsoft Exchange-Integrations** Option (wie weiter unten in diesem Abschnitt beschrieben) zum Archivieren von lync Server 2013 für diese Benutzer auswählen und dann die Archivierung für diese Benutzer steuern, indem Sie die Richtlinien und Einstellungen für Exchange in-situ-Speicher sowie lync Server-Konfigurationen angeben, um Folgendes zu
 
   - Ob Sie Chat, Konferenz oder beides archivieren möchten.
 
@@ -208,7 +210,7 @@ Der Zugriff auf archivierte Daten ist abhängig davon, wo die Daten gespeichert 
 
   - **Microsoft Exchange-Speicher**. Wenn Sie die Option für die Exchange-Integration auswählen, wird der Archivierungs Inhalt im Exchange 2013-Store für alle Benutzer abgelagert, die sich in Exchange 2013 befinden und deren Postfächer in-situ-Speicher abgelegt wurden. Archivierte Daten werden im Ordner "Wiederherstellbare Elemente" der Benutzerpostfächer gespeichert, der für Benutzer in der Regel nicht sichtbar ist und nur von Benutzern mit einer Exchange **Discovery-Verwaltungs** Rolle durchsucht werden kann. Exchange ermöglicht die Verbundsuche und-Erkennung zusammen mit SharePoint, wenn Sie bereitgestellt wird. Weitere Informationen zu Speicher, Aufbewahrung und Ermittlung der in Exchange gespeicherten Daten finden Sie in der Exchange 2013-und SharePoint-Dokumentation.
 
-  - **Lync Server-Speicher**. Wenn Sie lync Server 2013-Archivierungsdatenbanken für die Speicherung von lync Server-Daten einrichten, stellt lync Server Archivierungs Inhalte in den lync Server-Archivierungsdatenbanken (SQL Server-Datenbanken) für alle Benutzer ein, die sich nicht in Exchange 2013 befinden und deren Postfächer nicht aktiviert wurden. In-situ-Speicher. This data is not searchable, but it can be exported to formats that are searchable using other tools. Ausführliche Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [Exportieren von archivierten Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md) in der Betriebsdokumentation.
+  - **Lync Server-Speicher**. Wenn Sie lync Server 2013-Archivierungsdatenbanken für die Speicherung von lync Server-Daten einrichten, stellt lync Server Archivierungs Inhalte in den lync Server-Archivierungsdatenbanken (SQL Server-Datenbanken) für alle Benutzer ein, die sich nicht in Exchange 2013 befinden und deren Postfächer nicht aktiviert wurden. In-situ-Speicher. Diese Daten sind nicht durchsuchbar, können aber in Formate exportiert werden, die mit anderen Tools durchsucht werden können. Ausführliche Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [Exportieren von archivierten Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md) in der Betriebsdokumentation.
 
 Weitere Informationen dazu, wie lync Server 2013 und Exchange 2013 zusammenarbeiten, finden Sie unter Unterstützung für [Exchange Server und SharePoint-Integration in lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) in der Dokumentation zur Unterstützung.
 

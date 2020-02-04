@@ -3,6 +3,8 @@ title: 'Lync Server 2013: lync-Tool zur voranruf Diagnose'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,17 +123,17 @@ Lync PCD umfasst die folgenden Features:
 
   - Diagnostizieren von Anmeldefehlern (nur lync PCD für Windows 8)
 
-![Bildschirmfoto der lync PCD-Features für den Anmeldestatus] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Bildschirmfoto der lync PCD-Features für den Anmeldestatus")
+![Bildschirmfoto der lync PCD-Features für den Anmeldestatus](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Bildschirmfoto der lync PCD-Features für den Anmeldestatus")
 
   - Grafische Ansicht von Netzwerk Metriken – Netzwerk-MOS, Paketverlust und interarrival-Jitter im Vollbildmodus und angedockten Ansicht.
 
 **Vollbildansicht**
 
-![Testergebnis Diagramme für precall-Diagnosetools] (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Testergebnis Diagramme für precall-Diagnosetools")
+![Testergebnis Diagramme für precall-Diagnosetools](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Testergebnis Diagramme für precall-Diagnosetools")
 
 **Angedockte Ansicht**
 
-![Testergebnisse] für die Nutzung des precall-Diagnosetools (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Testergebnisse") für die Nutzung des precall-Diagnosetools
+![Testergebnisse für die Nutzung des precall-Diagnosetools](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Testergebnisse für die Nutzung des precall-Diagnosetools")
 
 </div>
 
@@ -149,9 +151,9 @@ Lync PCD umfasst die folgenden Features:
     
     Wenn Sie die PCD unter einem Windows 8-System starten möchten, wählen Sie das Symbol auf dem Startbildschirm aus, oder suchen Sie nach "Diagnose für Vorgespräche".
     
-    Symbol für das precall- ![Diagnosetool] Symbol für das precall- (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Diagnosetool")
+    ![Symbol für das precall-Diagnosetool](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Symbol für das precall-Diagnosetool")
 
-2.  Wenn das Tool gestartet wird, wählen Sie die bevorzugte Methode zum Bereitstellen von Anmeldeinformationen aus, und wählen Sie im Dialogfeldoptionen für das Tool für die voranruf- **Diagnose** den Netzwerkmodus aus, und wählen Sie dann **OK**aus:
+2.  Wenn das Tool gestartet wird, wählen Sie die bevorzugte Methode zum Bereitstellen von Anmeldeinformationen aus, und wählen Sie im Dialogfeldoptionen für das Tool für die **voranruf-Diagnose** den Netzwerkmodus aus, und wählen Sie dann **OK**aus:
 
 3.  Wählen Sie die Schaltfläche **Test starten** aus, um mit der Ausführung der Diagnose zu beginnen.
     
@@ -171,7 +173,7 @@ Lync PCD umfasst die folgenden Features:
 
 Um lync PCD zu entfernen, führen Sie das Verfahren für Ihr Betriebssystem aus:
 
-  - Öffnen Sie auf einem Windows 7-System **** die Systemsteuerung, wählen Sie **Programme und Funktionen**aus, und doppelklicken Sie auf **lync 2013-Diagnose**.
+  - Öffnen Sie auf einem Windows 7-System **die Systemsteuerung,** wählen Sie **Programme und Funktionen**aus, und doppelklicken Sie auf **lync 2013-Diagnose**.
 
   - Klicken Sie unter Windows 8 mit der rechten Maustaste auf die PCD-Kachel, und klicken Sie auf der APP-Leiste am unteren Rand des Startbildschirms auf **deinstallieren** .
 

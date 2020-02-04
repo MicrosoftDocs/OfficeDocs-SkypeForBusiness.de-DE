@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bearbeiten des Entwurfs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Nach Beantwortung der anfänglichen Fragen können Sie den vollqualifizierten Do
 
 Das Planungs Tool zeigt die Standorttopologie für die ausgewählte Website an. Im unteren Bereich der Seite für den Standort werden vier Registerkarten angezeigt:
 
-![Standorttopologie des Planungstools] (images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Standorttopologie des Planungstools")
+![Standorttopologie des Planungstools](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Standorttopologie des Planungstools")
 
   - Standorttopologie - Die aktuell angezeigte Seite mit einer optischen Übersicht der empfohlenen Topologie.
 
@@ -47,7 +49,7 @@ Das Planungs Tool zeigt die Standorttopologie für die ausgewählte Website an. 
 
   - Edgeverwaltungsbericht - Der Edgeverwaltungsbericht umfasst insgesamt vier Berichte:
     
-    ![Seite "Edge-Administrator Bericht] " (images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Seite \"Edge-Administrator Bericht") "  
+    ![Seite "Edge-Administrator Bericht"](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Seite "Edge-Administrator Bericht"")  
     
       - Zusammenfassungsbericht – Ein allgemeiner Bericht zu den Einstellungen der Edgenetzwerkkonfiguration. Wenn Sie auf der Seite **Edge-Netzwerkdiagramm** die TCP-IP- und FQDN-Werte der Topologie in die der tatsächlichen Bereitstellung ändern, werden diese Adressen und Namen hier dargestellt. Andernfalls wird hier der Standardtext angezeigt.
     

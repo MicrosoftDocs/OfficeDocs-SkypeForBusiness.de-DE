@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Zertifikaten für Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a0e239074b4f6d4638214fad41ff8ba18078fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 303724fa705fa94e9bbacacb4764bba7b918c460
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839427"
 
 _**Letztes Änderungsdatum des Themas:** 2013-03-17_
 
-Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der ein Mitglied der RTCUniversalServerAdmins-Gruppe ist oder über die richtigen Berechtigungen delegiert wurde. Details zum Delegieren von Berechtigungen finden Sie unter Berechtigungen für das Delegieren von [Setup in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Je nach Organisation und Anforderungen für das Anfordern von Zertifikaten müssen Sie möglicherweise weitere Gruppenmitgliedschaften anfordern. Konsultieren Sie die Gruppe, die Ihre PKI-Zertifizierungsstelle (Public Key Infrastructure) verwaltet.
+Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der ein Mitglied der RTCUniversalServerAdmins-Gruppe ist oder über die richtigen Berechtigungen delegiert wurde. Details zum Delegieren von Berechtigungen finden Sie unter Berechtigungen für das [Delegieren von Setup in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Je nach Organisation und Anforderungen für das Anfordern von Zertifikaten müssen Sie möglicherweise weitere Gruppenmitgliedschaften anfordern. Konsultieren Sie die Gruppe, die Ihre PKI-Zertifizierungsstelle (Public Key Infrastructure) verwaltet.
 
 <div>
 
@@ -65,7 +67,7 @@ Gehen Sie wie folgt vor, um die Standard Edition-Server-oder Front-End-Serverzer
 
 
 > [!IMPORTANT]  
-> Im folgenden Verfahren wird beschrieben, wie Sie Zertifikate aus einer internen Unternehmens PKI, die von Ihrer Organisation bereitgestellt wird, und mit der Offline Anforderungsverarbeitung konfigurieren. Informationen zum Abrufen von Zertifikaten von einer öffentlichen Zertifizierungsstelle finden Sie unter <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">Zertifikatanforderungen für interne Server in lync Server 2013</A> in der Planungsdokumentation. In diesem Verfahren wird auch beschrieben, wie Sie während der Einrichtung des Front-End-Servers Zertifikate anfordern, zuweisen und installieren. Wenn Sie Zertifikate im Voraus angefordert haben, wie im Abschnitt <A href="lync-server-2013-request-certificates-in-advance-optional.md">anfordern von Zertifikaten im Voraus (optional) für lync Server 2013</A> dieser Bereitstellungsdokumentation beschrieben, oder wenn Sie keine interne, in Ihrer Organisation bereitgestellte Unternehmens PKI verwenden, um Zertifikate müssen Sie diese Prozedur nach Bedarf ändern.
+> Im folgenden Verfahren wird beschrieben, wie Sie Zertifikate aus einer internen Unternehmens PKI, die von Ihrer Organisation bereitgestellt wird, und mit der Offline Anforderungsverarbeitung konfigurieren. Informationen zum Abrufen von Zertifikaten von einer öffentlichen Zertifizierungsstelle finden Sie unter <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">Zertifikatanforderungen für interne Server in lync Server 2013</A> in der Planungsdokumentation. In diesem Verfahren wird auch beschrieben, wie Sie während der Einrichtung des Front-End-Servers Zertifikate anfordern, zuweisen und installieren. Wenn Sie Zertifikate im Voraus angefordert haben, wie im Abschnitt <A href="lync-server-2013-request-certificates-in-advance-optional.md">anfordern von Zertifikaten im Voraus (optional) für lync Server 2013</A> dieser Bereitstellungsdokumentation beschrieben wird, oder wenn Sie keine interne, in Ihrer Organisation bereitgestellte Unternehmens PKI verwenden, um Zertifikate zu erhalten, müssen Sie dieses Verfahren nach Bedarf ändern.
 
 
 
@@ -83,7 +85,7 @@ Gehen Sie wie folgt vor, um die Standard Edition-Server-oder Front-End-Serverzer
 
 4.  Sie können auf der Seite **Verzögerte oder sofortige Anforderungen** die Standardoption **Anforderung unmittelbar an eine Onlinezertifizierungsstelle senden** akzeptieren, indem Sie auf **Weiter** klicken. Bei Auswahl dieser Option muss die interne Zertifizierungsstelle mit automatischer Onlineregistrierung verfügbar sein. Wenn Sie die Option zur verzögerten Anforderung auswählen, werden Sie aufgefordert, einen Namen und einen Speicherort zur Speicherung der Zertifikatanforderungsdatei anzugeben. Die Zertifikatanforderung muss entweder von einer Zertifizierungsstelle in Ihrer Organisation oder von einer öffentlichen Zertifizierungsstelle bereitgestellt und verarbeitet werden. Anschließend müssen Sie die Zertifikatantwort importieren und der entsprechenden Zertifikatrolle zuweisen.
 
-5.  Wählen Sie auf der Seite Zertifizierungs **Stelle auswählen** die Option eine Zertifizierungsstelle in **der Liste in Ihrer Umgebung gefunden** auswählen aus, und wählen Sie dann in der Liste eine bekannte Zertifizierungsstelle (durch Registrierung in Active Directory-Domänendienste) aus. Alternativ können Sie die Option **Andere Zertifizierungsstelle angeben** auswählen, den Namen einer anderen Zertifizierungsstelle in das Feld eingeben und auf **Weiter** klicken.
+5.  Wählen Sie auf der Seite Zertifizierungs **Stelle auswählen** die Option **eine Zertifizierungsstelle in der Liste in Ihrer Umgebung gefunden** auswählen aus, und wählen Sie dann in der Liste eine bekannte Zertifizierungsstelle (durch Registrierung in Active Directory-Domänendienste) aus. Alternativ können Sie die Option **Andere Zertifizierungsstelle angeben** auswählen, den Namen einer anderen Zertifizierungsstelle in das Feld eingeben und auf **Weiter** klicken.
 
 6.  Auf der Seite **Certificate Authority-Konto** werden Sie zur Eingabe der Anmeldeinformationen aufgefordert, um die Zertifikatanforderung bei der Zertifizierungsstelle anzufordern und zu verarbeiten. Sie sollten festgestellt haben, ob ein Benutzername und ein Kennwort erforderlich sind, um ein Zertifikat im Voraus anzufordern. Ihr Zertifizierungsstellenadministrator verfügt über die erforderlichen Informationen und kann Sie in diesem Schritt unterstützen. Wenn Sie alternative Anmeldeinformationen angeben müssen, aktivieren Sie das Kontrollkästchen, geben Sie in den Textfeldern einen Benutzernamen und ein Kennwort ein, und klicken Sie dann auf **weiter**.
 
@@ -123,7 +125,7 @@ Gehen Sie wie folgt vor, um die Standard Edition-Server-oder Front-End-Serverzer
 
 15. Klicken Sie auf der Seite **Befehle werden ausgeführt** auf **Weiter**.
 
-16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. Wenn Sie als ausgestellt und installiert, aber ungültig gemeldet wird, stellen Sie sicher, dass das Zertifizierungsstellen-Stammzertifikat im Speicher der vertrauenswürdigen Stammzertifizierungsstelle des Servers installiert wurde. Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. Standardmäßig ist das Kontrollkästchen für **die Verwendung des Zertifikats für lync Server-Zertifikate zuweisen** aktiviert. If you want to manually assign the certificate, clear the check box, and then click **Finish**.
+16. Überprüfen Sie auf der Seite **Status der Online Zertifikatanforderung** die zurückgegebenen Informationen. Beachten Sie, dass das Zertifikat ausgestellt und im lokalen Zertifikatspeicher installiert wurde. Wenn Sie als ausgestellt und installiert, aber ungültig gemeldet wird, stellen Sie sicher, dass das Zertifizierungsstellen-Stammzertifikat im Speicher der vertrauenswürdigen Stammzertifizierungsstelle des Servers installiert wurde. Informationen zum Abrufen eines vertrauenswürdigen Stammzertifizierungsstellen-Zertifikats finden Sie in ihrer Zertifizierungsstellen-Dokumentation. Wenn Sie das abgerufene Zertifikat anzeigen müssen, klicken Sie auf **Zertifikat Details anzeigen**. Standardmäßig ist das Kontrollkästchen für **die Verwendung des Zertifikats für lync Server-Zertifikate zuweisen** aktiviert. Wenn Sie das Zertifikat manuell zuweisen möchten, deaktivieren Sie das Kontrollkästchen, und klicken Sie dann auf **Fertig stellen**.
 
 17. Wenn Sie das Kontrollkästchen für **das Zuweisen des Zertifikats zu lync Server-Zertifikat Verwendungen** auf der vorherigen Seite deaktiviert haben, wird die Seite **zertifikatzuweisung** angezeigt. Click **Next**.
 

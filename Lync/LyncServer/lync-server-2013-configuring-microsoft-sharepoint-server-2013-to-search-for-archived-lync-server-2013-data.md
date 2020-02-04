@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Microsoft SharePoint Server 2013 fü
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SharePoint Server 2013 to search for archived Lync Server 2013 data
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687978(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381db352aae635358dfd62cc1965ea238960bf8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e000f6116b112b3de9840c22c29510745303035
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839206"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839206"
 
 _**Letztes Änderungsdatum des Themas:** 2014-02-04_
 
-Einer der Hauptvorteile für das Speichern von Instant Messaging-und Webkonferenz Protokollen in Microsoft Exchange Server 2013 anstelle von Microsoft lync Server 2013 ist die Tatsache, dass das Speichern von Daten am gleichen Speicherort Administratoren die Verwendung eines einzelnen Tools für die Suche ermöglicht. für archivierte Exchange-Daten und/oder archivierte lync Server-Daten. Da alle Daten an derselben Stelle (Exchange) gespeichert sind, können alle Tools, die nach archivierten Exchange-Daten suchen können, auch nach archivierten lync Server-Daten suchen.
+Einer der Hauptvorteile für das Speichern von Instant Messaging-und Webkonferenz Protokollen in Microsoft Exchange Server 2013 anstelle von Microsoft lync Server 2013 besteht darin, dass Administratoren mithilfe eines einzigen Tools nach archivierten Exchange-Daten und/oder archivierten lync Server-Daten suchen können. Da alle Daten an derselben Stelle (Exchange) gespeichert sind, können alle Tools, die nach archivierten Exchange-Daten suchen können, auch nach archivierten lync Server-Daten suchen.
 
 Ein Tool, mit dem Sie nach archivierten Daten einfach suchen können, ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint zum Suchen nach lync Server-Daten verwenden möchten, müssen Sie zunächst alle Schritte ausführen, die bei der Konfiguration der Exchange-Archivierung in lync Server erforderlich sind. Nachdem Exchange 2013 und lync Server 2013 erfolgreich integriert wurden, müssen Sie die verwaltete API für Exchange-Webdienste, Version 2,0, auf Ihrem SharePoint-Server installieren. Das Setup-Programm für diese API kann aus dem Microsoft-Download Center ([http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305)) heruntergeladen werden. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
 

@@ -3,6 +3,8 @@ title: Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstell
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of SIP trunk configuration settings
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b896d53760184d15b02afed14b8a9c0d660f96b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0dbb07a11cd96a330d503dc18db9102a7b33ca3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832619"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Administratoren können auch benutzerdefinierte Trunkkonfigurationseinstellungen
 
 5.  Klicken Sie im Dialogfeld **Microsoft lync Server 2013-System** Steuerung auf **OK**.
 
-6.  If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Wenn das Dialogfeld **Microsoft lync Server 2013-System** Steuerung angezeigt wird, klicken Sie auf **OK**.
+6.  Wenn Sie es sich anders überlegen und die Sammlung nicht löschen möchten, klicken Sie auf **Commit** , und klicken Sie dann auf **alle nicht übernommenen Änderungen abbrechen**. Wenn das Dialogfeld **Microsoft lync Server 2013-System** Steuerung angezeigt wird, klicken Sie auf **OK**.
 
 </div>
 

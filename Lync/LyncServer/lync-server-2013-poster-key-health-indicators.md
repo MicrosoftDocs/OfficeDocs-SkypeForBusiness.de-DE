@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Poster: wichtige Integritätsindikatoren'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824008"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747445"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-02-10_
 
 Dieser Artikel ist ein Begleiter zu den [wichtigsten Integritätsindikatoren: die Grundlage für die Verwaltung eines fehlerfreien lync Servers](http://go.microsoft.com/fwlink/?linkid=391838) -Plakats, das Sie aus dem Download Center herunterladen können.
 
-Poster, das die ![Problembehandlung mithilfe von KHI-Daten beschreibt] Poster, das die (images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Problembehandlung mithilfe von KHI-Daten beschreibt")
+![Poster, das die Problembehandlung mithilfe von KHI-Daten beschreibt](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Poster, das die Problembehandlung mithilfe von KHI-Daten beschreibt")
 
 Sie können dieses Poster verwenden, um Informationen zu wichtigen Integritätsindikatoren (KHIs), Leistungsindikatoren mit Schwellenwerten für die Anzeige von Problemen mit der Benutzeroberfläche zu erhalten. Das Sammeln von KHI-Daten ist in der Regel der erste Schritt zur Implementierung der Methode für die Anrufqualität (Call Quality Method, CQM), die auf die Gewährleistung einer Audioqualität für lync-Benutzer ausgerichtet ist.
 

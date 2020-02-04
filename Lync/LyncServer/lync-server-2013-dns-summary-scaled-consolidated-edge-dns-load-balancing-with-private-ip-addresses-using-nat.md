@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Zusammenfassung für einen skalierten konsolidiert
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398201(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476f258ddd70adad7f200db90b39438a19f4f84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a7836a8d9ce998a8de9185de7aeb12eb088f190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ Sie können zwei Netzwerkadapter auf jedem Edgeserver wie folgt konfigurieren:
     
     Die öffentliche IP-Adresse des Zugriffs Rands ist primär mit dem Standardgateway auf den integrierten Router (10.45.16.1) eingestellt.
     
-    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol, Version 4 (TCP/IPv4)** und **Internetprotokoll, Version 6 (TCP/IPv6)** des **lokalen Bereichs Verbindungseigenschaften** in Windows Server
+    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** der Eigenschaften für den **lokalen Verbindungsbereich** in Windows Server.
 
   - **Netzwerkadapter 2 Knoten 2 (externe Schnittstelle)**
     
@@ -90,7 +92,7 @@ Sie können zwei Netzwerkadapter auf jedem Edgeserver wie folgt konfigurieren:
     
     Die öffentliche IP-Adresse des Zugriffs Rands ist primär mit dem Standardgateway auf den integrierten Router (10.45.16.1) eingestellt.
     
-    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol, Version 4 (TCP/IPv4)** und **Internetprotokoll, Version 6 (TCP/IPv6)** des **lokalen Bereichs Verbindungseigenschaften** in Windows Server
+    Private IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** der Eigenschaften für den **lokalen Verbindungsbereich** in Windows Server.
 
 <div>
 

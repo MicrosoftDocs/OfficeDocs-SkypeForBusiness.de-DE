@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Architektur für die Integration gehosteter Exchange U
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM integration architecture
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2991bb35298534943d030b04c1cae7a438318c62
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49fbb815514d9a338412b638bdf373a285ebf6f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die lync Server 2013 ExUM-Routing Anwendung unterstützt die Integration in eine
 
 **Integration in eine lokale Exchange um-Bereitstellung und zwei gehostete Exchange-Anbieter**
 
-![Lokale lync Server Exchange um-Bereitstellung] (images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Lokale lync Server Exchange um-Bereitstellung")
+![Lokale lync Server Exchange um-Bereitstellung](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Lokale lync Server Exchange um-Bereitstellung")
 
 Die folgenden Modi werden unterstützt:
 

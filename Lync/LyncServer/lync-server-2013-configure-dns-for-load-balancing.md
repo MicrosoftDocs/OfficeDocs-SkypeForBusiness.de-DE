@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von DNS für den Lastenausgleich'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,13 +85,13 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie die folgenden S
 
 2.  Erweitern Sie in der Konsolenstruktur den Knoten Enterprise Edition-Front-End-Pools.
 
-3.  Klicken Sie mit der rechten Maustaste auf den Pool, klicken Sie auf **** **Eigenschaften bearbeiten**, und klicken Sie dann auf Webdienste.
+3.  Klicken Sie mit der rechten Maustaste auf den Pool, klicken Sie auf **Eigenschaften bearbeiten**, und klicken Sie dann auf **Webdienste**.
 
-4.  Aktivieren Sie unter **interne**Webdienste das Kontrollkästchen **FQDN überschreiben** .
+4.  Aktivieren Sie unter **interne Webdienste**das Kontrollkästchen **FQDN überschreiben** .
 
 5.  Geben Sie den FQDN des Pools ein, der in die physischen IP-Adressen der Server im Pool aufgelöst wird.
 
-6.  Geben Sie unter **externe**Webdienste den FQDN des externen Pools ein, der in die virtuellen IP-Adressen des Pools aufgelöst wird, und klicken Sie dann auf **OK**.
+6.  Geben Sie unter **externe Webdienste**den FQDN des externen Pools ein, der in die virtuellen IP-Adressen des Pools aufgelöst wird, und klicken Sie dann auf **OK**.
 
 7.  Klicken Sie in der Konsolenstruktur auf **lync Server 2013**, und klicken Sie dann im Bereich **Aktionen** auf **Topologie veröffentlichen**.
 
@@ -162,7 +164,7 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie die folgenden S
 
 3.  Klicken Sie auf die Registerkarte **erweitert** , wählen Sie **Round Robin aktivieren** und **Netzmaske aktivieren**aus, und klicken Sie dann auf **OK**.
     
-    ![DNS Round Robin (Dialogfeld] ) (images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin (Dialogfeld") )
+    ![DNS Round Robin (Dialogfeld)](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin (Dialogfeld)")
 
 <div>
 

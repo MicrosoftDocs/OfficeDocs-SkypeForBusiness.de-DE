@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planen von hybridbereitstellungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -137,7 +139,7 @@ Wenn Sie Ihre Bereitstellung für Hybrid mit Skype for Business Online konfiguri
 
 
 > [!IMPORTANT]  
-> Die gesamte Benutzerverwaltung, einschließlich des Benutzers, der zwischen lokalen und UNRESOLVED_TOKEN_VAL (skypeforbusiness) Online wechselt, muss mithilfe der neuesten installierten Version der Verwaltungstools ausgeführt werden. Die Verwaltungstools müssen auf einem separaten Server installiert sein, auf dem der Zugriff auf die vorhandene lokale Bereitstellung und das Internet verbunden ist. Das Cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> zum Verschieben von Benutzern aus Ihrer lokalen Bereitstellung in UNRESOLVED_TOKEN_VAL (skype16_online) muss über die Verwaltungstools ausgeführt werden, die mit Ihrer lokalen Bereitstellung verbunden sind.
+> Die gesamte Benutzerverwaltung, einschließlich des Benutzers, der zwischen lokal und UNRESOLVED_TOKEN_VAL (skypeforbusiness) Online wechselt, muss mithilfe der neuesten installierten Version der Verwaltungstools ausgeführt werden. Die Verwaltungstools müssen auf einem separaten Server installiert sein, auf dem der Zugriff auf die vorhandene lokale Bereitstellung und das Internet verbunden ist. Das Cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> zum Verschieben von Benutzern aus Ihrer lokalen Bereitstellung in UNRESOLVED_TOKEN_VAL (skype16_online) muss über die Verwaltungstools ausgeführt werden, die mit Ihrer lokalen Bereitstellung verbunden sind.
 
 
 

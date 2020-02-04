@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen des Zugriffs durch externe Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Durch die Bereitstellung von Edge-Komponenten für Microsoft lync Server 2013 k�
 
 
 > [!IMPORTANT]  
-> Die Installation und Konfiguration&nbsp;von Microsoft lync Server 2013 Edge Server kann ein komplexer Prozess sein, der einen potenziell erheblichen Planungsaufwand und eine Koordinierung mit ihren internen Teams erfordert, einschließlich – aber nicht nur – Sicherheit, Netzwerke, Firewall, Domain Name System (DNS), Load Balancer und Public Key Infrastructure (PKI)-Überlegungen. Es wird dringend empfohlen, den Planungsprozess und die Dokumentation zu überprüfen und zu verwenden, die vor der Bereitstellung Ihrer externen Access-Komponenten bereitgestellt werden. Auf diese Weise können Sie die Anzahl und Häufigkeit unerwünschter Änderungen und Probleme begrenzen, während Sie den Bereitstellungsprozess durchlaufen. Informationen zum Planen des Zugriffs externer Benutzer finden Sie unter <A href="lync-server-2013-planning-for-external-user-access.md">Planen des Zugriffs externer Benutzer in lync Server 2013</A>.
+> Die Installation und Konfiguration&nbsp;von Microsoft lync Server 2013 Edge Server kann ein komplexer Prozess sein, der eine potenziell beträchtliche Planung und Koordination mit ihren internen Teams erfordert, einschließlich – aber nicht nur – Sicherheit, Netzwerk, Firewall, DNS (Domain Name System), Load Balancer und Public Key Infrastructure (PKI)-Überlegungen. Es wird dringend empfohlen, den Planungsprozess und die Dokumentation zu überprüfen und zu verwenden, die vor der Bereitstellung Ihrer externen Access-Komponenten bereitgestellt werden. Auf diese Weise können Sie die Anzahl und Häufigkeit unerwünschter Änderungen und Probleme begrenzen, während Sie den Bereitstellungsprozess durchlaufen. Informationen zum Planen des Zugriffs externer Benutzer finden Sie unter <A href="lync-server-2013-planning-for-external-user-access.md">Planen des Zugriffs externer Benutzer in lync Server 2013</A>.
 
 
 
@@ -59,7 +61,7 @@ Durch die Bereitstellung von Edge-Komponenten für Microsoft lync Server 2013 k�
 
   - [Erstellen einer Edge- und Director-Topologie in Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Einrichten des Directors in lync Server 2013](lync-server-2013-setting-up-the-director.md) optional
+  - [Einrichten des Directors in lync Server 2013](lync-server-2013-setting-up-the-director.md) (optional)
 
   - [Einrichten von Edgeservern in Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 

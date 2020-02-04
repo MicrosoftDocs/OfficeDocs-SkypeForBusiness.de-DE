@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ClientVersions-Ansicht'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d219b8666afc0684b0d61f02f06618ea6ef60f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -80,7 +82,7 @@ In der ClientVersions-Ansicht werden Informationen zu den verschiedenen Clientty
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Die Kategorie, zu der der Client gehört. Beispielsweise gehört der Client conferencing_attendant_ 1.0 zum ClientCategory CAA.</p></td>
+<td><p>Die Kategorie, zu der der Client gehört. Beispielsweise gehört der Client Conferencing_Attendant_1 .0 zu ClientCategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vergleichstabellen für mobile Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client comparison tables
 ms:assetid: f3ba3379-afe4-4bc8-a038-9dff9dfd3bff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691004(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bacedb24a484ee68719427dbac2cfb2c1a11ba45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -246,7 +248,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzerdefinierte Notiz hinzufügen</p></td>
+<td><p>Eigene Notiz hinzufügen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -335,7 +337,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Kontakte für Statusänderungsbenachrichtigungen markieren</p></td>
+<td><p>Kennzeichnen von Kontakten für Benachrichtigungen bei Statusänderungen</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -343,7 +345,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Private Beziehungen verwalten</p></td>
+<td><p>Private Beziehungen steuern</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -448,7 +450,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>An Chats mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -616,7 +618,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>An Chats mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -648,7 +650,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Video mit mehreren Teilnehmern anzeigen (Katalogansicht)</p></td>
+<td><p>Video mit mehreren Teilnehmern ansehen (Katalogansicht)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -799,7 +801,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>● 2</p></td>
 </tr>
 <tr class="even">
-<td><p>Anrufdurchstellung</p></td>
+<td><p>Anruf weiterleiten</p></td>
 <td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -815,7 +817,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Einstellungen für Teamanrufe verwalten</p></td>
+<td><p>Einstellungen für Teamanruf verwalten</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td></td>
@@ -847,7 +849,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario)</p></td>
+<td><p>Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td></td>
@@ -934,7 +936,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chat mit Partnerkontakt initiieren</p></td>
+<td><p>Chatnachricht mit Partnerkontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>

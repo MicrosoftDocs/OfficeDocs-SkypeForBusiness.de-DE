@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientinteroperabilität in Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839580"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010-Vermittlung</p></td>
+<td><p>Lync 2010 Attendant</p></td>
 <td><p>Unterstützt </p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
@@ -233,7 +235,7 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 <td><p>Ja</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010-Vermittlung</p></td>
+<td><p>Lync 2010 Attendant</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
@@ -448,7 +450,7 @@ In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutz
 
 Die Server Unterstützung für die verschiedenen Terminplan-Add-Ins ist mit der Kompatibilität zwischen Server-und Clientversionen konsistent. Im Allgemeinen werden die folgenden Planungs-Add-Ins in lync Server 2013 unterstützt. In früheren Versionen von Add-Ins werden jedoch keine neuen lync 2013-Add-in-Features bereitgestellt, wie beispielsweise die Option zum stumm schalten aller Teilnehmer-Audio-und-Videoanrufe nach dem Besprechungseintrag.
 
-  - **Das Online Besprechungs-Add-in für lync 2013**   bietet dieselben Features wie das Online Besprechungs-Add-in für lync 2010 mit dem Hinzufügen von Steuerelementen für Teilnehmer-stumm Schaltungen, mit denen Besprechungsorganisatoren Konferenzen planen können, in denen Teilnehmer-Audio und-Video stumm geschaltet sind. Standard. Administratoren können die Besprechungseinladungen des Unternehmens auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL zur rechtlichen Verzichtserklärung oder einen benutzerdefinierten Fußzeilentext hinzufügen.
+  - **Das Online Besprechungs-Add-in für lync 2013**   bietet dieselben Funktionen wie das Online Besprechungs-Add-in für lync 2010 mit dem Hinzufügen von Steuerelementen für Teilnehmer-stumm Schaltungen, mit denen Besprechungsorganisatoren Konferenzen planen können, bei denen die Teilnehmer Audio und Videostandard mäßig stumm geschaltet sind. Administratoren können die Besprechungseinladungen des Unternehmens auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL zur rechtlichen Verzichtserklärung oder einen benutzerdefinierten Fußzeilentext hinzufügen.
 
   - **Das Online Besprechungs-Add-in für lync 2010**   bietet Zeitplanung für lync-Besprechungen und entfernt die Möglichkeit zum Planen von Office Live Meeting-Konferenzen.
 

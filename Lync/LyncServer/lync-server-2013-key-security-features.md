@@ -3,6 +3,8 @@ title: 'Lync Server 2013: wichtige Sicherheitsfeatures'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ Microsoft lync Server 2013 bietet rollenbasierte Zugriffssteuerung, mit der Sie 
 
 ## <a name="network-address-translation-nat"></a>Netzwerkadressenübersetzung (Network Address Translation, NAT)
 
-Lync Server 2013 unterstützt nicht die Verwendung der Netzwerkadressübersetzung (Network Address Translation, NAT) auf der internen Schnittstelle des Edge-Servers, aber es unterstützt das Platzieren der externen Schnittstelle des Access Edge-Diensts, des Webkonferenz-Edgedienst und des a/V-Edgedienst hinter einer Router oder Firewall, der Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne und skalierte konsolidierte Edgeserver-Topologien ausführt. Mehrere Edgeserver hinter einem Hardware-Lastenausgleichsmodul können NAT nicht verwenden. Wenn mehrere Edgeserver für Ihre externen Schnittstellen NAT verwenden, ist ein DNS-Lastenausgleich (Domain Name System) erforderlich. Mithilfe des DNS-Lastenausgleichs können Sie wiederum die Anzahl der öffentlichen IP-Adressen pro Edgeserver in einem Edgeserver-Pool reduzieren. Ausführliche Informationen finden Sie unter[Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+Lync Server 2013 unterstützt nicht die Verwendung der Netzwerkadressübersetzung (Network Address Translation, NAT) auf der internen Schnittstelle des Edge-Servers, aber es unterstützt das Platzieren der externen Schnittstelle des Zugriffs-Edgedienst, des Webkonferenz-Edgedienst und des a/V-Edgedienst hinter einem Router oder einer Firewall, die Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne und Mehrere Edgeserver hinter einem Hardware-Lastenausgleichsmodul können NAT nicht verwenden. Wenn mehrere Edgeserver für Ihre externen Schnittstellen NAT verwenden, ist ein DNS-Lastenausgleich (Domain Name System) erforderlich. Mithilfe des DNS-Lastenausgleichs können Sie wiederum die Anzahl der öffentlichen IP-Adressen pro Edgeserver in einem Edgeserver-Pool reduzieren. Ausführliche Informationen finden Sie unter[Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
 <div>
 
@@ -131,7 +133,7 @@ Lync Server 2013 wurde in Übereinstimmung mit dem Microsoft Trustworthy Computi
 
   - **Vertrauenswürdig**standardmäßig werden Netzwerkkommunikationen in lync Server 2013 standardmäßig verschlüsselt.    Da alle Serverzertifikate und Kerberos-Authentifizierung, TLS, SRTP (Secure Real-Time Transport Protocol) und andere Industriestandard-Verschlüsselungstechniken verwenden, einschließlich AES-Verschlüsselung (128-Bit Advanced Encryption Standard), praktisch alle lync Server Daten sind im Netzwerk geschützt. Darüber hinaus ermöglicht die rollenbasierte Zugriffssteuerung die Bereitstellung von Servern mit lync Server 2013, damit jede Serverrolle nur die Dienste ausführt und nur die Berechtigungen enthält, die sich auf diese Dienste beziehen, die für die Serverrolle geeignet sind.
 
-  - **Vertrauenswürdig durch Bereitstellung**   alle lync Server 2013-Dokumentation enthält bewährte Methoden und Empfehlungen, die Ihnen helfen, die optimalen Sicherheitsstufen für Ihre Bereitstellung zu ermitteln und zu konfigurieren und die Sicherheitsrisiken bei der Aktivierung nicht standardmäßiger Funktionen zu bewerten. Optionen.
+  - **Vertrauenswürdig durch Bereitstellung**   alle lync Server 2013-Dokumentation umfasst bewährte Methoden und Empfehlungen, die Ihnen dabei helfen, die optimalen Sicherheitsstufen für Ihre Bereitstellung zu ermitteln und zu konfigurieren und die Sicherheitsrisiken bei der Aktivierung nicht standardmäßiger Optionen zu bewerten.
 
 </div>
 

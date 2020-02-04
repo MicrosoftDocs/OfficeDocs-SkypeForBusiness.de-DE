@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Chat und Anwesenheit'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IM and presence
 ms:assetid: 6a93ae95-3b64-410b-ab72-74dea232f065
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417162(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18eb3d4a7fa5daaa59817d2eefde7af3a8e3f494
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57f57d4fae488a7d4946a0adb1f8350d02114a7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832037"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-10-07_
 
 Instant Messaging (im) und Anwesenheit werden in jeder lync Server-Bereitstellung automatisch installiert.
 
-** Mit Anwesenheitsinformationen können Benutzer sich zur richtigen Zeit mit der richtigen Kommunikationsform an Kollegen wenden und so zu einer produktiveren Arbeitsumgebung führen. Die Anwesenheit eines Benutzers ist eine Sammlung von Informationen, die Verfügbarkeit, Kommunikationsbereitschaft, zusätzliche Notizen (wie Standort und Status) sowie die Art und Weise, wie der Benutzer kontaktiert werden kann. Der Anwesenheitsstatus wird in lync Server mit Bildern, Standortinformationen und einem umfangreichen Satz an Anwesenheitsstatus verbessert, in dem "aus Arbeit", "nicht stören" und "gleich zurück", zusätzlich zu den grundlegenden Zuständen wie "verfügbar", "beschäftigt" und "in einer Konferenz" enthalten sind. Administratoren können auch benutzerdefinierte, organisationsspezifische Anwesenheitsstatus definieren.
+Mit *Anwesenheits* Informationen können Benutzer sich zur richtigen Zeit mit der richtigen Kommunikationsform an Kollegen wenden und so zu einer produktiveren Arbeitsumgebung führen. Die Anwesenheit eines Benutzers ist eine Sammlung von Informationen, die Verfügbarkeit, Kommunikationsbereitschaft, zusätzliche Notizen (wie Standort und Status) sowie die Art und Weise, wie der Benutzer kontaktiert werden kann. Der Anwesenheitsstatus wird in lync Server mit Bildern, Standortinformationen und einem umfangreichen Satz an Anwesenheitsstatus verbessert, in dem "aus Arbeit", "nicht stören" und "gleich zurück", zusätzlich zu den grundlegenden Zuständen wie "verfügbar", "beschäftigt" und "in einer Konferenz" enthalten sind. Administratoren können auch benutzerdefinierte, organisationsspezifische Anwesenheitsstatus definieren.
 
 Mit den Optionen für die Kontaktverwaltung und den Benutzer Zugriff können Benutzer steuern, welche Informationen andere Personen sehen können. Benutzer können unterschiedliche Ebenen von Kontakten einrichten, die jeweils unterschiedliche Ebenen von Anwesenheitsinformationen anzeigen können.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen oder Bearbeiten einer XMPP-Verbundpartnerkon
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488fa84a3f24133c6ebcde4467cacdbdcffe7ff8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 488665bca5cd2ad1b4d2d91a3c85a6a1ddaa3916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Microsoft lync Server 2013 integriert einen Extensible Messaging and Presence Pr
 
 6.  Zum Erstellen oder Bearbeiten von Konfigurationen für **XMPP-Verbundpartner**definieren Sie die folgenden Einstellungen:
 
-7.  **Primäre Domäne** (Erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Geben Sie beispielsweise **Fabrikam.com** für den Namen der XMPP-Partnerdomäne ein. Dies ist ein erforderlicher Eintrag.
+7.  **Primäre Domäne** (erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Geben Sie beispielsweise **Fabrikam.com** für den Namen der XMPP-Partnerdomäne ein. Dies ist ein erforderlicher Eintrag.
 
 8.  **Beschreibung**aus. Die Beschreibung ist für Notizen oder andere identifizierende Informationen für diese bestimmte Konfiguration. Dieser Eintrag ist optional.
 
@@ -75,7 +77,7 @@ Microsoft lync Server 2013 integriert einen Extensible Messaging and Presence Pr
     
     Weitere Informationen finden Sie im IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0 <http://tools.ietf.org/html/rfc6120>, STARTTLS-Aushandlung.
     
-      - **TLS**-Aushandlung. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. Informationen zum Anzeigen aller möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter Aushandlungs [Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
+      - **TLS-Aushandlung**. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. Informationen zum Anzeigen aller möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
             **Erforderlich**. Der XMPP-Dienst erfordert TLS-Aushandlung.
@@ -86,7 +88,7 @@ Microsoft lync Server 2013 integriert einen Extensible Messaging and Presence Pr
           - <span></span>  
             **Nicht unterstützt**. Der XMPP-Dienst unterstützt keine TLS-Funktion.
     
-      - **SASL**-Aushandlung. Definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
+      - **SASL-Aushandlung**. Definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
         
         <div>
         
@@ -106,9 +108,9 @@ Microsoft lync Server 2013 integriert einen Extensible Messaging and Presence Pr
           - <span></span>  
             **Nicht unterstützt**. SASL wird vom XMPP-Dienst nicht unterstützt.
     
-      - **Dialback**-Aushandlung. Dialback-Aushandlung wird vom XSF im Dokument **XEP-220: Server Dialback** <http://xmpp.org/extensions/xep-0220.html>definiert. Der Server Dialback-Prozess verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
+      - **Dialback-Aushandlung**. Dialback-Aushandlung wird vom XSF im Dokument **XEP-220: Server Dialback** <http://xmpp.org/extensions/xep-0220.html>definiert. Der Server Dialback-Prozess verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
         
-        Es gibt zwei gültige Zustände für **Dialback**-Aushandlung:
+        Es gibt zwei gültige Zustände für **Dialback-Aushandlung**:
         
           - <span></span>  
             **True**. Der XMPP-Server ist für die Verwendung von Dialback-Aushandlung konfiguriert, wenn eine Anforderung von einem Ursprungsserver empfangen werden soll.

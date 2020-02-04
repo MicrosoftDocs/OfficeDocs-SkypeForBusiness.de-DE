@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Änderungsverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd6e60749e35c9680300925f07e84d98d675884c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839621"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Der Change Management-Prozess definiert die Zuständigkeiten der einzelnen Teams
 
   - **Geringfügige Änderungen**   geringfügige Änderungen haben keine nennenswerten Auswirkungen auf die IT-Umgebung, beispielsweise das Ändern bestimmter lync-Richtlinien über die Microsoft lync Server 2013-Systemsteuerung.
 
-  - ****   Standardänderungen Standardänderungen werden regelmäßig durchgeführt und sind gut verstanden und dokumentiert. Der Change Management-Prozess sollte alle Änderungen an den Prozeduren überprüfen. Es sollte nicht für Routineänderungen wie das Erstellen einer Inhaltsdatenbank oder das Hinzufügen eines Benutzers benötigt werden.
+  - **Standardänderungen**   Standardänderungen werden regelmäßig durchgeführt und sind gut verstanden und dokumentiert. Der Change Management-Prozess sollte alle Änderungen an den Prozeduren überprüfen. Es sollte nicht für Routineänderungen wie das Erstellen einer Inhaltsdatenbank oder das Hinzufügen eines Benutzers benötigt werden.
 
 Im folgenden Beispiel für die Änderungsverwaltung wird untersucht, wie verschiedene Teams interagieren und welche Aktionen ausgeführt werden, wenn ein neues Service Pack bereitgestellt wird. Diese Aktionen werden vom Change Management-Prozess organisiert und verwaltet.
 
@@ -63,7 +65,7 @@ Im folgenden Beispiel für die Änderungsverwaltung wird untersucht, wie verschi
 
   - **Informationen zu Service Pack-Versions**   hinweisen das lync-Administrator Team überprüft die Versionshinweise des Service Packs, um die Auswirkungen auf das System zu ermitteln.
 
-  - **Eine Reihe von Lab-Tests wird durchgeführt**   das lync-Administrator Team muss Test Updates auf einem Server in einer Testumgebung durchführen, um zu entscheiden, ob das Service Pack erfolgreich angewendet werden kann, ohne dass dies Auswirkungen auf installierte Anwendungen und Server hat. Systeme. Wenn es sich um von Drittanbietern oder intern erstellte Anwendungen handelt, die eine Schnittstelle zu lync Server in einer Produktionsumgebung aufweisen, sollten diese ebenfalls getestet werden. Diese Tests können auch verwendet werden, um die Zeit zu schätzen, die für die Ausführung der Upgrades erforderlich ist.
+  - **Eine Reihe von Lab-Tests wird durchgeführt**   das lync-Administrator Team muss Test Updates auf einem Server in einer Testumgebung durchführen, um zu entscheiden, ob das Service Pack erfolgreich angewendet werden kann, ohne dass sich dies auf installierte Anwendungen und Server Systeme auswirkt. Wenn es sich um von Drittanbietern oder intern erstellte Anwendungen handelt, die eine Schnittstelle zu lync Server in einer Produktionsumgebung aufweisen, sollten diese ebenfalls getestet werden. Diese Tests können auch verwendet werden, um die Zeit zu schätzen, die für die Ausführung der Upgrades erforderlich ist.
 
   - **Die Benutzer werden über den Ausfall**   informiert, den das lync-Administrator Team, das Kommunikationsteam oder der Benutzer-Helpdesk alle betroffenen Benutzer über den geplanten Wartungszyklus informiert und wie lange der Dienst nicht verfügbar ist.
 

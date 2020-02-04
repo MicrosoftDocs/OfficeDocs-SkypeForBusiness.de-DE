@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anzeigen von trunk-Konfigurationsinformationen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trunk configuration information
 ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721927(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abf496382ed33b95e8de9f387a8623fb0984ed28
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77f53a4263fd0e0b64ccd6894d27e30c0c5be95c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847235"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Wenn Sie Microsoft lync Server 2013 installieren, wird eine globale Sammlung von
 
 1.  Klicken Sie in der lync Server-Systemsteuerung auf **VoIP-Routing** , und klicken Sie dann auf **trunk-Konfiguration**.
 
-2.  Auf dem Reiter " **trunk Configuration** " sehen Sie eine Liste aller ihrer trunk Configuration Settings-Sammlung. für jede Sammlung werden Werte für die Eigenschaften **Name**, **Scope**, **Zustand**und **medienumgehung** sowie die Anzahl der **PSTN**-Nutzungen, **Regeln**für die Rufnummernanzeige und **benannte Nummern Regeln** angezeigt. mit der Sammlung. Wenn Sie weitere Details zu einer Sammlung von trunk-Konfigurationseinstellungen anzeigen möchten, klicken Sie auf die Sammlung von Interesse, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**. Beachten Sie, dass Sie detaillierte Informationen nur für eine Sammlung von trunk-Konfigurationseinstellungen gleichzeitig anzeigen können.
+2.  Auf dem Reiter " **trunk Configuration** " sehen Sie eine Liste aller ihrer trunk Configuration Settings-Sammlung. für jede Sammlung werden Werte für die Eigenschaften **Name**, **Scope**, **State**und **Media Bypass** sowie die Anzahl der **PSTN-Nutzungen**, **Regeln**für die Rufnummernanzeige und **benannte Nummern Regeln** für die Sammlung angezeigt. Wenn Sie weitere Details zu einer Sammlung von trunk-Konfigurationseinstellungen anzeigen möchten, klicken Sie auf die Sammlung von Interesse, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**. Beachten Sie, dass Sie detaillierte Informationen nur für eine Sammlung von trunk-Konfigurationseinstellungen gleichzeitig anzeigen können.
 
 </div>
 

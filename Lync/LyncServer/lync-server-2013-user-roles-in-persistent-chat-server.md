@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Benutzerrollen im beständigen Chat Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User roles in Persistent Chat Server
 ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36f84f71ca5253d28d9182acc9279010127ee6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 771eac8e5c8ff1c72bfb2ce64d9b6c04853b30a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ Die folgenden Rollen sind Administratorrollen für den Server für beständigen 
 
   - **Administrator für beständigen Chat (CsPersistentChatAdministrator):** Hierbei handelt es sich um eine neue rollenbasierte zugriffssteuerungsrolle, um den Server für beständigen Chat zu verwalten und zu verwalten. Benutzer oder Sicherheitsgruppen, die als CsPersistentChatAdministrator bezeichnet werden, können beständigen Chat Server mithilfe von Windows PowerShell-Cmdlets remote verwalten (also von einem anderen Computer als dem beständigen Chat Server). Der beständige Chat Server überprüft, ob der Administrator des beständigen Chats Mitglied der lokalen Gruppe RTC Local Administrator auf dem Front-End-Server des beständigen Chats ist.
     
-    Die CsPersistentChatAdministrator-Rolle kann Chatrooms verwalten (alle Eigenschaften wie Mitgliedschaft, Manager, Kategorien, als deaktiviert kennzeichnen) sowie Chatrooms erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration) und auch die Migration von einer älteren Gruppen-Chat Server Bereitstellung in lync Server 2013 beständigen Chat planen und implementieren. Server.
+    Die CsPersistentChatAdministrator-Rolle kann Chatrooms verwalten (alle Eigenschaften wie Mitgliedschaft, Manager, Kategorien, als deaktiviert kennzeichnen) sowie Chatrooms erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert kennzeichnen und Chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen des Erstellers oder der zulässigen Mitglieder. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied zu einem Chatroom hinzufügen. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration) und auch die Migration von einer älteren Gruppen-Chat Server Bereitstellung in lync Server 2013 beständigen Chat planen und implementieren. Server.
 
   - **Lync-Administrator:** Gesamtunternehmens Administrator für lync Server 2013, der für die Bereitstellung verantwortlich ist.
 

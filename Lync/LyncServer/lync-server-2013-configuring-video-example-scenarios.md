@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Video Beispielszenarien'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839161"
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
-Lync 2013 fügt neue Videofeatures zur Unterstützung von 1920 x 1080 Full High Definition (HD) Video-und Galerieansicht-Video hinzu. Messungen, die auf Kundendaten basieren, zeigen, dass die typische Videobandbreite im Vergleich zu lync 2010 nur geringfügig zugenommen hat, die maximale Bandbreite des Videostreams jedoch aufgrund der Full-HD-Unterstützung zugenommen hat (Einzelheiten finden Sie im Abschnitt "Nutzung des Media Traffic-Netzwerks" in [ Netzwerkbandbreite-Anforderungen für den Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)) Daher möchten Administratoren möglicherweise die Videobandbreite für bestimmte Benutzer (wie Benutzer in einer Zweigstelle, die eine geringere Netzwerkkapazität aufweisen) einschränken und dabei helfen, die bestmögliche Videoqualität für andere Benutzer (wie Führungskräfte) zu gewährleisten.
+Lync 2013 fügt neue Videofeatures zur Unterstützung von 1920 x 1080 Full High Definition (HD) Video-und Galerieansicht-Video hinzu. Maße, die auf Kundendaten basieren, zeigen, dass die typische Videobandbreite im Vergleich zu lync 2010 nur geringfügig zugenommen hat, die maximale Bandbreite des Videostreams jedoch aufgrund der Full-HD-Unterstützung zugenommen hat (Einzelheiten finden Sie im Abschnitt "Verwendung des Medien Verkehrsnetzwerk" unter [Netzwerkbandbreite für den Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Daher möchten Administratoren möglicherweise die Videobandbreite für bestimmte Benutzer (wie Benutzer in einer Zweigstelle, die eine geringere Netzwerkkapazität aufweisen) einschränken und dabei helfen, die bestmögliche Videoqualität für andere Benutzer (wie Führungskräfte) zu gewährleisten.
 
 Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die Konfiguration von Video für verschiedene Netzwerkkapazitäten. Diese Einstellungen beschränken einige Benutzerszenarien auf das Senden und empfangen von Videos mit höherer Auflösung (siehe Spalte ganz rechts). Die Mindesteinstellungen führen dazu, dass Gallery-Video aufgrund der geringen maximalen Netzwerkbandbreite für den Empfang nicht verfügbar ist.
 
@@ -63,8 +65,8 @@ Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die 
 <tbody>
 <tr class="odd">
 <td><p>Optimal</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
+<td><p>Wahr</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
 <td><p>Peer-to-Peer: bis zu 1920 x 1080 Videoauflösung</p>
@@ -72,8 +74,8 @@ Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die 
 </tr>
 <tr class="even">
 <td><p>Good</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
+<td><p>Wahr</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
 <td><p>Peer-to-Peer: bis zu 1280 x 720 Videoauflösung</p>
@@ -81,8 +83,8 @@ Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die 
 </tr>
 <tr class="odd">
 <td><p>Mittel</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
+<td><p>Wahr</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
 <td><p>Peer-to-Peer: bis zu 960 x 540 Videoauflösung</p>
@@ -90,7 +92,7 @@ Die folgende Tabelle enthält eine Liste der empfohlenen Einstellungen für die 
 </tr>
 <tr class="even">
 <td><p>Mindestens</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>Falsch</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>

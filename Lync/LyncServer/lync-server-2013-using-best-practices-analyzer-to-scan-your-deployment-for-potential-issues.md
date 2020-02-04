@@ -3,6 +3,8 @@ title: Verwenden von Best Practices Analyzer zum Überprüfen Ihrer Bereitstellu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f787268301570d4440240289c19fdd1e266a607
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Wenn Sie einen Best Practices Analyzer-Scan ausführen möchten, müssen Sie Fol
 
   - **Art des Scans**   zurzeit ist der Integritäts Prüfungs Scan der einzige verfügbare Scantyp (standardmäßig aktiviert). Mit dem Integritäts Prüfungs Scan wird ein Bericht generiert, der Fehler, Warnungen und andere Informationen für alle im Bereich angegebenen Server enthält.
 
-  - ****   Netzwerkgeschwindigkeit-Netzwerk Geschwindigkeitsoptionen umfassen schnelles LAN (100 Mbit/s oder mehr), LAN (10 Mbit/s), fast WAN (1,5 MBit/s) oder WAN (64 Kbit/s). Die geschätzte Zeit zum Durchführen des Scans basiert auf dieser Einstellung. Diese Einstellung wird auch zum Festlegen des Timeoutzeitraums verwendet. Während des Scans wartet der Best Practices Analyzer auf eine Antwort von einem Server für einen bestimmten Zeitraum. Wenn Sie innerhalb des angegebenen Timeoutzeitraums keine Antwort erhält, wechselt Sie zum nächsten Server in der Überprüfung. In langsameren Netzwerken ist dieser angegebene Timeoutzeitraum länger, um längere Netzwerk Latenzen zu berücksichtigen. Wir empfehlen, dass Sie den langsamsten Link in Ihrer Topologie für diesen Parameter auswählen, damit das Tool nicht zu schnell abläuft.
+  - **Netzwerkgeschwindigkeit-**   Netzwerk Geschwindigkeitsoptionen umfassen schnelles LAN (100 Mbit/s oder mehr), LAN (10 Mbit/s), fast WAN (1,5 MBit/s) oder WAN (64 Kbit/s). Die geschätzte Zeit zum Durchführen des Scans basiert auf dieser Einstellung. Diese Einstellung wird auch zum Festlegen des Timeoutzeitraums verwendet. Während des Scans wartet der Best Practices Analyzer auf eine Antwort von einem Server für einen bestimmten Zeitraum. Wenn Sie innerhalb des angegebenen Timeoutzeitraums keine Antwort erhält, wechselt Sie zum nächsten Server in der Überprüfung. In langsameren Netzwerken ist dieser angegebene Timeoutzeitraum länger, um längere Netzwerk Latenzen zu berücksichtigen. Wir empfehlen, dass Sie den langsamsten Link in Ihrer Topologie für diesen Parameter auswählen, damit das Tool nicht zu schnell abläuft.
 
 <div>
 
@@ -59,7 +61,7 @@ Wenn Sie einen Best Practices Analyzer-Scan ausführen möchten, müssen Sie Fol
     
       - Wenn Sie einen Scan mit den Anmeldeinformationen ausführen möchten, die Sie für die Anmeldung am Computer verwendet haben, klicken Sie auf mit **dem Active Directory-Server verbinden**.
     
-      - Wenn Sie andere Anmeldeinformationen angeben möchten, die Sie für Active Directory-Domänendienste, Edgeserver oder Exchange Server verwenden möchten, klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**, aktivieren Sie die einzelnen Kontrollkästchen, für die getrennte Anmeldeinformationen erforderlich sind, geben Sie die Anmeldeinformationen an. für jedes ausgewählte Kontrollkästchen aus, und klicken Sie dann auf **mit dem Active Directory-Server verbinden**.
+      - Wenn Sie andere Anmeldeinformationen angeben möchten, die Sie für Active Directory-Domänendienste, Edgeserver oder Exchange Server verwenden möchten, klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**, aktivieren Sie jedes Kontrollkästchen, für das separate Anmeldeinformationen erforderlich sind, geben Sie die Anmeldeinformationen für jedes ausgewählte Kontrollkästchen an, und klicken Sie dann auf mit **dem Active Directory-Server verbinden**.
     
     <div>
     
@@ -86,7 +88,7 @@ Wenn Sie einen Best Practices Analyzer-Scan ausführen möchten, müssen Sie Fol
     
 
     > [!NOTE]
-    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer identifiziert werden. in lync Server 2013</A>.
+    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert</A>werden.
 
     
     </div>

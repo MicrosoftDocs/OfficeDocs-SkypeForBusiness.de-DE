@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ausführen informeller VoIP-Routing Tests'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,19 +43,19 @@ Sie können das Dialogfeld **Informationen zum Erstellen von sprach Routing Test
 
 ## <a name="to-run-an-informal-voice-routing-test"></a>So führen Sie einen informellen VoIP-Routing Test aus
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**, und klicken Sie dann auf VoIP- **Routing testen**.
 
-4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf VoIP-Weiterleitungs **testfallinformationen erstellen**.
+4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf **VoIP-Weiterleitungstest Fall Informationen erstellen**.
 
-5.  Geben Sie im Feld **gewählte Nummer** die Telefonnummer ein, die Sie für diesen Test verwenden möchten. Diese Nummer wird normalisiert und im Feld "normalisierte **Zahl** " des **Ergebnis** Bereichs angezeigt.
+5.  Geben Sie im Feld **gewählte Nummer** die Telefonnummer ein, die Sie für diesen Test verwenden möchten. Diese Nummer wird normalisiert und im Feld " **normalisierte Zahl** " des **Ergebnis** Bereichs angezeigt.
 
 6.  Wählen Sie in der Liste **Wählplan** die Wähleinstellungen aus, die Sie zum Testen der gewählten Nummer verwenden möchten. Standardmäßig ist der globale Wählplan vorgesehen.
     
-    Wenn Sie den Test ausführen, wird die erste Normalisierungsregel in diesem Wählplan, die der gewählten Nummer entspricht, im Feld normalisierungs **Regel** des **Ergebnis** Bereichs angezeigt.
+    Wenn Sie den Test ausführen, wird die erste Normalisierungsregel in diesem Wählplan, die der gewählten Nummer entspricht, im Feld **Normalisierungsregel** des **Ergebnis** Bereichs angezeigt.
 
 7.  Wählen Sie in der Liste **VoIP-Richtlinie** die VoIP-Richtlinie aus, die Sie zum Testen der gewählten Nummer verwenden möchten. Standard ist die globale VoIP-Richtlinie.
     

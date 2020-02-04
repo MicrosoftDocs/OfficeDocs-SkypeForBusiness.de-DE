@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Anforderungen für den Front-End-Pool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c033d8f1a4167e423d5663b0c9b0b7dbfb2d760
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832381"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Sie müssen die erforderlichen DNS-Einträge (Domain Name System) vor dem Veröf
 
 
 > [!IMPORTANT]  
-> Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Standardmäßig ist der Computername eines Computers, der nicht zu einer Domäne gehört, ein kurzer Name und kein FQDN. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. <STRONG>Nur Standardzeichen verwenden</STRONG> (einschließlich a – z, a – z, 0 – 9 und Bindestriche) beim Zuweisen von FQDNs Ihrer Server mit lync Server, Edgeserver und Pools. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Nicht standardmäßige Zeichen in einem FQDN werden häufig nicht von externen DNS-und öffentlichen Zertifizierungsstellen (CAS) unterstützt (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss).
+> Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Standardmäßig ist der Computername eines Computers, der nicht zu einer Domäne gehört, ein kurzer Name und kein FQDN. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Verwenden Sie beim Zuweisen von FQDNs Ihrer Server mit lync Server, Edgeserver und Pools <STRONG>nur Standardzeichen</STRONG> (einschließlich a – z, a – z, 0 – 9 und Bindestriche). Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Nicht standardmäßige Zeichen in einem FQDN werden häufig nicht von externen DNS-und öffentlichen Zertifizierungsstellen (CAS) unterstützt (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss).
 
 
 
@@ -109,7 +111,7 @@ Die Tabelle folgt den Referenzarchitekturen, die im Abschnitt Planung vorgestell
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>A</p></td>
 <td><p>fe01.contoso.net</p>
-<p>FE02.contoso.net</p>
+<p>fe02.contoso.net</p>
 <p>fe03.contoso.net</p>
 <p>…</p></td>
 <td><p>Pool01-Front-End-Server (Knoten 1).</p>
@@ -120,7 +122,7 @@ Die Tabelle folgt den Referenzarchitekturen, die im Abschnitt Planung vorgestell
 <tr class="even">
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>A</p></td>
-<td><p>FE02.contoso.net</p></td>
+<td><p>fe02.contoso.net</p></td>
 <td><p>Pool01-Front-End-Server (Knoten 2).</p></td>
 </tr>
 <tr class="odd">
@@ -156,7 +158,7 @@ Die Tabelle folgt den Referenzarchitekturen, die im Abschnitt Planung vorgestell
 <tr class="even">
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>A</p></td>
-<td><p>Meet.contoso.com</p></td>
+<td><p>meet.contoso.com</p></td>
 <td><p>Einfache URL für intern veröffentlichte Konferenzen – der Front-End-Server (oder Director, falls installiert) reagiert auf einfache URL-Abfragen.</p></td>
 </tr>
 <tr class="odd">
@@ -227,7 +229,7 @@ Die Tabelle folgt den Referenzarchitekturen, die im Abschnitt Planung vorgestell
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>SRV</p></td>
 <td><p>_ntp._udp.contoso.com</p></td>
-<td><p>DC01.contoso.com</p></td>
+<td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>Für Geräte, auf denen lync Phone Edition ausgeführt wird, ist eine NTP-Quelle (Network Time Protocol) erforderlich. Intern sollte dies auf den Domänencontroller verweisen. Wenn der Domänencontroller nicht definiert ist, wird versucht, den NTP-Server time.Windows.com zu verwenden.</p></td>
 </tr>

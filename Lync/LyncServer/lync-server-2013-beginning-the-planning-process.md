@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Beginnen des Planungsprozesses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Beginning the planning process
 ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582769109a3792ddc2efdbef5d4a557b781c39b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9da1c5535f190a6f57aa76b78a04845d4a073e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ Wir empfehlen die folgenden allgemeinen Verfahren für die Verwendung der Dokume
 
 1.  Wenn Sie mit früheren Versionen von lync Server vertraut sind, lesen Sie [neue Features in lync Server 2013](lync-server-2013-new-features.md) , um sich mit den neuen Features und Anforderungen in lync Server 2013 vertraut zu machen.
 
-2.  Lesen Sie die anderen Themen in diesem Abschnitt der Dokumentation: [Topologie-Grundlagen, die Sie vor dem Planen von lync Server 2013 wissen müssen](lync-server-2013-topology-basics-you-must-know-before-planning.md), [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md), [erste Planungsentscheidungen für lync Server 2013](lync-server-2013-initial-planning-decisions.md)und [ Clients für lync Server 2013](lync-server-2013-clients.md) Beachten Sie die Planungsentscheidungen, die in [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md)dargestellt werden.
+2.  Lesen Sie die anderen Themen in diesem Abschnitt der Dokumentation: [Topologie-Grundlagen, die Sie kennen müssen, bevor Sie lync Server 2013 planen](lync-server-2013-topology-basics-you-must-know-before-planning.md), [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md), [erste Planungsentscheidungen für lync Server 2013](lync-server-2013-initial-planning-decisions.md)und [Clients für lync Server 2013](lync-server-2013-clients.md). Beachten Sie die Planungsentscheidungen, die in [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md)dargestellt werden.
 
 3.  Nachdem Sie sich nun mit den lync Server-Features und den Arten von Fragen vertraut gemacht haben, die beantwortet werden müssen, führen Sie das Planungs Tool aus, und zeigen Sie die resultierende Topologie und deren Details an. Stellen Sie sicher, dass die Topologie den eindeutigen Anforderungen für Ihre Organisation entspricht.
 
@@ -97,7 +99,7 @@ Wir empfehlen die folgenden allgemeinen Verfahren für die Verwendung der Dokume
 
 6.  Wenn Sie den Topologieplan abgeschlossen haben, verwenden Sie das Planungs Tool zum Erstellen und Drucken eines Visio-Diagramms Ihrer Topologie. Sie können diesen Ausdruck während der Arbeit mit dem Topologie-Generator verwenden, um Ihre Topologie einzugeben.
 
-7.  Bevor Sie mit der Bereitstellung beginnen, lesen Sie [Ermitteln der Systemanforderungen für lync Server 2013](lync-server-2013-determining-your-system-requirements.md) und [Ermitteln der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) , um sich mit den Voraussetzungen und der erforderlichen Infrastruktur vertraut zu machen. für lync Server. Stellen Sie außerdem sicher, dass Sie alle Abschnitte der [Planning für lync Server 2013](lync-server-2013-planning.md) gelesen haben, die für die Arbeitslasten und Features gelten, die Sie bereitstellen möchten.
+7.  Bevor Sie mit der Bereitstellung beginnen, lesen Sie [Ermitteln der Systemanforderungen für lync Server 2013](lync-server-2013-determining-your-system-requirements.md) und [Ermitteln der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) , um sich mit den Voraussetzungen und der erforderlichen Infrastruktur für lync Server vertraut zu machen. Stellen Sie außerdem sicher, dass Sie alle Abschnitte der [Planning für lync Server 2013](lync-server-2013-planning.md) gelesen haben, die für die Arbeitslasten und Features gelten, die Sie bereitstellen möchten.
 
 </div>
 

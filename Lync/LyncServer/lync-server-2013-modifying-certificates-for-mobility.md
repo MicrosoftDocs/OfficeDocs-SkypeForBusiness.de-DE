@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ändern der Zertifikate für Mobilität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modifying certificates for mobility
 ms:assetid: 4e9107af-20f4-4c2a-8c98-ca35b39a4e2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bccb901f241089a21fd7428e28b005f46e157300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 150dc8c7b4021e1e2c7ccab6ccc71823c01c388e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826857"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,11 +37,11 @@ ms.locfileid: "34826857"
 
 _**Letztes Änderungsdatum des Themas:** 2014-06-20_
 
-Um sichere Verbindungen zwischen Ihrer lync-Umgebung und ihren mobilen Clients zu unterstützen, müssen die Secure Socket Layer (SSL)-Zertifikate für Ihren Director-Pool, Front-End-Pool und Reverse-Proxy mit einem zusätzlichen alternativen Betreff-Namen aktualisiert werden ( San)-Einträge. Wenn Sie weitere Details zu den Zertifikatanforderungen für Mobilität lesen müssen, lesen Sie den Abschnitt Zertifikatanforderungen unter [Technische Anforderungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), aber im Grunde müssen Sie neue Zertifikate aus dem Zertifizierungsstelle mit den zusätzlichen San-Einträgen und fügen Sie diese Zertifikate mit den Schritten dieses Artikels hinzu.
+Um sichere Verbindungen zwischen Ihrer lync-Umgebung und ihren mobilen Clients zu unterstützen, müssen die Secure Socket Layer (SSL)-Zertifikate für Ihren Director-Pool, Front-End-Pool und Reverse-Proxy mit einem zusätzlichen alternativen Betreff-Namen aktualisiert werden ( San)-Einträge. Wenn Sie weitere Details zu den Zertifikatanforderungen für Mobilität lesen müssen, lesen Sie den Abschnitt Zertifikatanforderungen unter [Technische Anforderungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), aber im Grunde müssen Sie neue Zertifikate von der Zertifizierungsstelle mit den zusätzlichen San-Einträgen abrufen und diese Zertifikate dann mithilfe der Schritte dieses Artikels hinzufügen.
 
 Bevor Sie beginnen, ist es in der Regel ratsam, zu wissen, welche alternativen Namen ihre Zertifikate bereits haben. Wenn Sie sich nicht sicher sind, was bereits konfiguriert wurde, gibt es viele Möglichkeiten, dies herauszufinden. Während die Option zum Ausführen der Befehle " **Get-CsCertificate** " und "andere PowerShell" zum Anzeigen dieser Informationen (die wir weiter unten durchlaufen) standardmäßig die Daten abgeschnitten werden, werden möglicherweise nicht alle benötigten Eigenschaften angezeigt. Um sich das Zertifikat und alle seine Eigenschaften genauer anzusehen, können Sie zur Microsoft Management Console (MMC) wechseln und das Zertifikat-Snap-In laden (das wir auch weiter unten durchlaufen), oder Sie können einfach den lync Server-Bereitstellungs-Assistenten einchecken.
 
-Wie bereits erwähnt, führen Sie die folgenden Schritte durch die Aktualisierung der Zertifikate mithilfe der lync Server-Verwaltungsshell und der MMC. Wenn Sie stattdessen den Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten für diesen Zweck verwenden möchten, können Sie für den Director-oder Director-Pool die [Konfiguration von Zertifikaten für den Director in lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md) überprüfen, wenn Sie einen konfiguriert haben (möglicherweise nicht haben). Für den Front-End-Server oder den Front-End-Pool empfiehlt es sich, [Zertifikate für Server in lync Server 2013 zu konfigurieren](lync-server-2013-configure-certificates-for-servers.md).
+Wie bereits erwähnt, führen Sie die folgenden Schritte durch die Aktualisierung der Zertifikate mithilfe der lync Server-Verwaltungsshell und der MMC. Wenn Sie stattdessen den Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten für diesen Zweck verwenden möchten, können Sie für den Director-oder Director-Pool die [Konfiguration von Zertifikaten für den Director in lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md) überprüfen, wenn Sie einen konfiguriert haben (Dies ist möglicherweise nicht der Fall). Für den Front-End-Server oder den Front-End-Pool empfiehlt es sich, [Zertifikate für Server in lync Server 2013 zu konfigurieren](lync-server-2013-configure-certificates-for-servers.md).
 
 Als letztes sollten Sie Bedenken, dass Sie möglicherweise über ein einzelnes Standardzertifikat in ihrer lync Server 2013-Umgebung verfügen, oder dass Sie möglicherweise getrennte Zertifikate für den Standardwert (alles andere als die Webdienste), WebServicesExternal und WebServicesInternal. Was auch immer Ihre Konfiguration ist, diese Schritte sollten Ihnen helfen.
 
@@ -61,7 +63,7 @@ Als letztes sollten Sie Bedenken, dass Sie möglicherweise über ein einzelnes S
     
         Set-CsCertificate -Type <type of certificate as displayed in the Use parameter> -Thumbprint <unique identifier>
     
-    Wenn beispielsweise das Cmdlet " **Get-CsCertificate** " ein Zertifikat mit der Verwendung von Default, einem anderen mit einer Verwendung von WebServicesInternal und einem anderen mit einer Verwendung von WebServicesExternal angezeigt hat und alle denselben Fingerabdruckwert hatten, sollten Sie in der Befehlszeile Geben
+    Wenn beispielsweise das Cmdlet " **Get-CsCertificate** " ein Zertifikat mit der Verwendung von Default, einem anderen mit einer Verwendung von WebServicesInternal und einem anderen mit einer Verwendung von WebServicesExternal angezeigt hat und alle denselben Fingerabdruckwert hatten, sollten Sie in der Befehlszeile Folgendes eingeben:
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
     
@@ -77,7 +79,7 @@ Als letztes sollten Sie Bedenken, dass Sie möglicherweise über ein einzelnes S
 
 7.  Wählen Sie im MMC-Menü **Datei**aus, wählen Sie **Snap-in hinzufügen/entfernen**aus, und wählen Sie Zertifikate aus. Klicken Sie auf **Hinzufügen**. Wenn Sie dazu aufgefordert werden, wählen Sie **Computer Konto**aus, und klicken Sie auf **weiter**.
 
-8.  Wenn es sich um den Server handelt, auf dem sich das Zertifikat befindet, wählen Sie **lokaler Computer**aus. Wenn sich das Zertifikat auf einem anderen Computer befindet, sollten Sie **einen anderen Computer**auswählen, und dann können Sie entweder den vollqualifizierten Domänennamen des Computers eingeben, oder Sie klicken auf **Durchsuchen** **Geben Sie den zu wählenden Objektnamen**ein, und geben Sie den Namen des den Computer. Klicken Sie auf **Namen überprüfen**. Wenn der Name des Computers aufgelöst wird, wird er unterstrichen. Klicken Sie auf **OK**und dann auf **Fertig stellen**. Klicken Sie auf **OK** , um die Auswahl zu bestätigen, und schließen Sie das Dialogfeld **Snap-Ins hinzufügen oder entfernen** .
+8.  Wenn es sich um den Server handelt, auf dem sich das Zertifikat befindet, wählen Sie **lokaler Computer**aus. Wenn sich das Zertifikat auf einem anderen Computer befindet, sollten Sie **einen anderen Computer**auswählen, und dann können Sie entweder den vollqualifizierten Domänennamen des Computers eingeben, oder Sie klicken auf **Durchsuchen** **Geben Sie den zu wählenden Objektnamen**ein, und geben Sie den Namen des Computers ein. Klicken Sie auf **Namen überprüfen**. Wenn der Name des Computers aufgelöst wird, wird er unterstrichen. Klicken Sie auf **OK**und dann auf **Fertig stellen**. Klicken Sie auf **OK** , um die Auswahl zu bestätigen, und schließen Sie das Dialogfeld **Snap-Ins hinzufügen oder entfernen** .
 
 9.  Wenn Sie die Eigenschaften des Zertifikats anzeigen möchten, erweitern Sie **Zertifikate**, erweitern Sie **Personal**, und wählen Sie **Zertifikate**aus. Wählen Sie das Zertifikat aus, das Sie anzeigen möchten, klicken Sie mit der rechten Maustaste auf das Zertifikat, und wählen Sie **Öffnen**aus.
 

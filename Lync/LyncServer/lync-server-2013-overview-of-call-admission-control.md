@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Übersicht über die Anrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b38fbb1ae1e209e5b5332e896d806d1ca24975
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825842"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ Die folgende Abbildung zeigt, wie die Anrufsteuerung für PSTN-Verbindungen mit 
 
 **Erzwingen der Anrufsteuerung für Verbindungen mit dem PSTN**
 
-![Voice CAC Media Bypass-Verbindungserzwingung] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass-Verbindungserzwingung")
+![Voice CAC Media Bypass-Verbindungserzwingung](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass-Verbindungserzwingung")
 
 </div>
 
@@ -131,7 +133,7 @@ Die Anrufsteuerung kann auf Endpunkten mit Office Communicator 2007 R2 oder frü
 
 **Anwendung von CAC in verschiedenen lync Server-Versionen**
 
-![Sprach-CAC-Versionsvergleichs Diagramm] (images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Sprach-CAC-Versionsvergleichs Diagramm")
+![Sprach-CAC-Versionsvergleichs Diagramm](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Sprach-CAC-Versionsvergleichs Diagramm")
 
 </div>
 
