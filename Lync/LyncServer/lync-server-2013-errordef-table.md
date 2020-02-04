@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ErrorDef-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorDef table
 ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef21484d564419a5ab5cce7373ceb0b0b71e4a29
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -76,7 +78,7 @@ In der ErrorDef-Tabelle werden Informationen zu den einzelnen Fehlertypen gespei
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>Int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der Typ des Anrufs. Weitere Informationen finden Sie in der Tabelle "CallType" <a href="lync-server-2013-calltype-table.md">in lync Server 2013</a> .</p></td>
+<td><p>Der Typ des Anrufs. Weitere Informationen finden Sie <a href="lync-server-2013-calltype-table.md">in der Tabelle "CallType" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>

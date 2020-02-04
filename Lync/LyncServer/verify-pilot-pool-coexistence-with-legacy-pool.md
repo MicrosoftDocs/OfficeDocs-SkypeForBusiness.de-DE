@@ -3,6 +3,8 @@ title: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversio
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846975"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Nachdem Sie den Pilot Pool bereitgestellt haben, müssen Sie die Koexistenz der 
 
 **Lync Server 2013-Dienste**
 
-![Liste der gestarteten lync Server-Dienste] (images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste der gestarteten lync Server-Dienste")
+![Liste der gestarteten lync Server-Dienste](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste der gestarteten lync Server-Dienste")
 
 </div>
 
@@ -59,7 +61,7 @@ Nachdem Sie den Pilot Pool bereitgestellt haben, müssen Sie die Koexistenz der 
 
 **Öffnen der lync Server 2013-Systemsteuerung**
 
-![Dialogfeld ' URL auswählen] ' (images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Dialogfeld ' URL auswählen") '
+![Dialogfeld ' URL auswählen '](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Dialogfeld ' URL auswählen '")
 
 <div>
 
@@ -75,7 +77,7 @@ Diese Topologie umfasst jetzt lync Server 2010 und lync Server 2013-Serverrollen
 
 **Lync Server 2013-Seite "Systemsteuerung"**
 
-![Lync Server Control Panel – Seite "Topologie"] (images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server Control Panel – Seite \"Topologie\"")
+![Lync Server Control Panel – Seite "Topologie"](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server Control Panel – Seite "Topologie"")
 
 </div>
 
@@ -87,7 +89,7 @@ Wenn Sie versuchen, die Topologie mit lync Server 2010 Topology Builder zu öffn
 
 **Fehlermeldung zum lync Server 2010-Topologie-Generator**
 
-![MMC-Snap-Fehler in lync Server Topology Builder] (images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "MMC-Snap-Fehler in lync Server Topology Builder")
+![MMC-Snap-Fehler in lync Server Topology Builder](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "MMC-Snap-Fehler in lync Server Topology Builder")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Für Reaktionsgruppen unterstützte Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3da4701a2520f38bd6b4718f51f60342bd6685e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839547"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Die reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
   - Lync 2010-Desktop Client
 
-  - Lync 2010-Vermittlung
+  - Lync 2010 Attendant
 
   - Office Communications Server 2007 R2 Attendant
 
@@ -63,9 +65,9 @@ Der spezifische Client, den Sie verwenden können, hängt vom Typ des Reaktionsg
 
   - **Anrufer** können eine Reaktionsgruppe über einen der zuvor aufgeführten Clients und unter Verwendung eines Standardtelefons über das Festnetz anrufen.
 
-  - **Informelle Agents** (Agents, die sich nicht an-und abmelden, um Anrufe entgegenzunehmen), können Anrufe über Attendant, lync oder lync Phone Edition annehmen. Informelle Agents werden bei der Anmeldung bei lync Server 2013 automatisch bei ihren Gruppen angemeldet, indem Sie einen dieser Clients verwenden.
+  - **Informelle Agents** (Agents, die sich nicht an-und abmelden, um Anrufe zu akzeptieren) können Anrufe über Attendant, lync oder lync Phone Edition annehmen. Informelle Agents werden bei der Anmeldung bei lync Server 2013 automatisch bei ihren Gruppen angemeldet, indem Sie einen dieser Clients verwenden.
 
-  - **Formelle Agents** (Agents, die sich an-und abmelden müssen, um Anrufe entgegenzunehmen), können Anrufe über lync 2013 und den Zugriff auf die Agentenkonsole über das Menüelement oder mithilfe von Attendant und direkt über Internet Explorer auf die Agentenkonsole übernehmen.
+  - **Formelle Agents** (Agents, die sich an-und abmelden müssen, um Anrufe anzunehmen) können Anrufe mithilfe von lync 2013 und dem Zugriff auf die Agentenkonsole über das Menüelement oder mithilfe von Attendant und dem direkten Zugriff auf die Agentenkonsole über Internet Explorer akzeptieren.
 
 </div>
 

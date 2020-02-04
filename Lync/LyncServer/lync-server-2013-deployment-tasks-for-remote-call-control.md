@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellungsaufgaben für die Remoteanrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Sie können auf der Website Microsoft Unified Communications Open Interoperabili
 
 ## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>Schritt 2: Konfigurieren von lync Server zum Weiterleiten von CSTA-Anforderungen an das SIP/CSTA-Gateway
 
-Sie müssen statische Routen in lync Server-Pools an die Zieladresse (Server-URI) aller SIP/CSTA-Gateways in Ihrer Bereitstellung erstellen, an die Sie Remote Anruf Steuerungsanforderungen weiterleiten möchten. Sie müssen auch einen Eintrag für vertrauenswürdige Anwendungen erstellen, der den einzelnen Zieladressen entspricht. Wenn Sie das Gateway als vertrauenswürdige Anwendung festgelegt haben, wird der vertrauenswürdige Status für die Ausführung als Teil der lync Server-Umgebung gewährt, obwohl es von einem Drittanbieter entwickelt wurde (und den als *externen Dienst* bezeichneten Dienst ausführt, da es sich um einen Dienst handelt, der kein integrierter Teil des Produkts). Wenn lync Server eine Verbindung mit dem SIP/CSTA-Gateway über eine TCP-Verbindung (Transmission Control Protocol) anstelle einer TLS-Verbindung (Transport Layer Security) herstellen soll, müssen Sie auch die Gateway-IP-Adresse mithilfe von Topology Builder definieren.
+Sie müssen statische Routen in lync Server-Pools an die Zieladresse (Server-URI) aller SIP/CSTA-Gateways in Ihrer Bereitstellung erstellen, an die Sie Remote Anruf Steuerungsanforderungen weiterleiten möchten. Sie müssen auch einen Eintrag für vertrauenswürdige Anwendungen erstellen, der den einzelnen Zieladressen entspricht. Wenn Sie das Gateway als vertrauenswürdige Anwendung festgelegt haben, wird der vertrauenswürdige Status für die Ausführung als Teil der lync Server-Umgebung gewährt, obwohl es von einem Drittanbieter entwickelt wurde (und den als *externer Dienst* bezeichneten Dienst ausführt, da es sich um einen Dienst handelt, der kein integrierter Teil des Produkts ist). Wenn lync Server eine Verbindung mit dem SIP/CSTA-Gateway über eine TCP-Verbindung (Transmission Control Protocol) anstelle einer TLS-Verbindung (Transport Layer Security) herstellen soll, müssen Sie auch die Gateway-IP-Adresse mithilfe von Topology Builder definieren.
 
 Details zum Konfigurieren von statischen Routen finden Sie unter [Konfigurieren einer statischen Route für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md).
 

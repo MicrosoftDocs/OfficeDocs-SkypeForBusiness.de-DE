@@ -3,6 +3,8 @@ title: Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security and configuration prerequisites for Enterprise Voice
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d06cdb4c679d1a40eb5c6fa0e8cf837ec8d2e332
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822055"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ Wenn Sie die Enterprise-VoIP-Arbeitsauslastung zu diesem Zeitpunkt neu bereitste
 
 Nachdem Sie die Voraussetzungen für Software und Umwelt für Enterprise-VoIP überprüft haben, können Sie die folgenden Inhalte für folgende Zwecke verwenden:
 
-  - Installieren Sie den Vermittlungsserver, wie unter [Installieren der Dateien für den Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder Pool bereitstellen möchten, weil Vermittlungsserver als Teil des Front-End-Pools oder Standard installiert werden. Edition Server-Bereitstellungsprozess, wenn er sich befindet.
+  - Installieren Sie den Vermittlungsserver, wie unter [Installieren der Dateien für den Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder-Pool bereitstellen möchten, da Vermittlungsserver als Teil des Front-End-Pools oder des Standard Edition-Server Bereitstellungsprozesses installiert werden, wenn Sie zusammengestellt sind.
 
   - Oder beginnen Sie mit der Konfiguration von Einstellungen für die Weiterleitung von Anrufen für Enterprise-VoIP-Benutzer, wie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.
 

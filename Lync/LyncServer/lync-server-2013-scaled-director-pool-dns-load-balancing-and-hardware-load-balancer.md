@@ -3,6 +3,8 @@ title: Skalierter Directorpool – DNS-Lastenausgleich und Hardwarelastenausglei
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cd92304ca3a1147737958ad9d9fc94a49b2e5e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Ein skalierten Director-Pool, in dem mehr als ein Director zur Behandlung zusät
 
 In den folgenden Themen werden die Planungsüberlegungen zum Bereitstellen eines Director-Pools mithilfe des DNS-Lastenausgleichs in Verbindung mit dem Hardwarelastenausgleich beschrieben. Wenn Sie beabsichtigen, den Hardwarelastenausgleich, aber nicht den DNS-Lastenausgleich für den Director-Pool zu verwenden, lesen Sie das Thema [skalierten Director-Pool – Hardwarelastenausgleich in lync Server 2013, in](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) dem die Planungsanforderungen für diese Topologie beschrieben sind.
 
-![Skalierter Director-Pool] (images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Skalierter Director-Pool")
+![Skalierter Director-Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Skalierter Director-Pool")
 
 <div>
 

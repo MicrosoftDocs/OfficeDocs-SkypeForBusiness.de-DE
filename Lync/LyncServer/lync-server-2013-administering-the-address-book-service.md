@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verwalten des Adressbuchdiensts'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8acf59a898f8da14b9c5c4151728206cc501ceaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d12b904cbb679b66579c7c669ba46e0d732034b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -260,7 +262,7 @@ Die Zahlen in der Spalte " **ID** " müssen eindeutig sein und nie wieder verwen
 </tr>
 <tr class="even">
 <td><p>0x10000</p></td>
-<td><p>Wenn diese Einstellung eingestellt ist, stellt dies ein Group-Objekt dar. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um <strong></strong> Kontakte mit dem GroupType-Attribut einzubeziehen, deren Anwesenheitsstatus auf eine Gruppe (beispielsweise eine Verteilerliste oder eine Sicherheitsgruppe) hinweist.</p></td>
+<td><p>Wenn diese Einstellung eingestellt ist, stellt dies ein Group-Objekt dar. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um Kontakte mit dem <strong>GroupType</strong> -Attribut einzubeziehen, deren Anwesenheitsstatus auf eine Gruppe (beispielsweise eine Verteilerliste oder eine Sicherheitsgruppe) hinweist.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x20000</p></td>
@@ -270,7 +272,7 @@ Die Zahlen in der Spalte " **ID** " müssen eindeutig sein und nie wieder verwen
 </table>
 
 
-In früheren Versionen von lync Server musste der Administrator beim Anwenden einer Änderung an Active Directory CSUserDatabase und **Update – CSAddressBook** Windows PowerShell-Cmdlets ausführen, um die Änderung auf dem lync **-** Server beizubehalten. Benutzerdatenbank und RTCab-Datenbank sofort. In lync Server 2013 wird der lync Server-Benutzerreplikationsdienst die Änderungen aus Active Directory aufnehmen und die lync Server-Benutzerdatenbank basierend auf einem konfigurierten Intervall aktualisieren. Der lync Server-Benutzerreplikationsdienst gibt die Änderungen auch schnell an die RTCab-Datenbank weiter, ohne dass der Administrator Update-CSAddressBook ausführen muss. Wenn die Adressbuch-Webabfrage aktiviert ist, werden die Änderungen in den Suchergebnissen von lync-Clients wiedergegeben. Administratoren müssen nur Update-CSAddressBook ausführen, wenn der Download der Adressbuchdatei aktiviert ist.
+In früheren Versionen von lync Server musste der Administrator beim Anwenden einer Änderung an Active Directory die Windows PowerShell-Cmdlets **Update-CSUserDatabase** und **Update – CSAddressBook** ausführen, um die Änderung an der lync Server-Benutzerdatenbank und der RTCab-Datenbank sofort beizubehalten. In lync Server 2013 wird der lync Server-Benutzerreplikationsdienst die Änderungen aus Active Directory aufnehmen und die lync Server-Benutzerdatenbank basierend auf einem konfigurierten Intervall aktualisieren. Der lync Server-Benutzerreplikationsdienst gibt die Änderungen auch schnell an die RTCab-Datenbank weiter, ohne dass der Administrator Update-CSAddressBook ausführen muss. Wenn die Adressbuch-Webabfrage aktiviert ist, werden die Änderungen in den Suchergebnissen von lync-Clients wiedergegeben. Administratoren müssen nur Update-CSAddressBook ausführen, wenn der Download der Adressbuchdatei aktiviert ist.
 
 <div>
 
@@ -345,7 +347,7 @@ Derzeit gibt es drei verschiedene Filter. In der folgenden Tabelle sind diese Fi
 
 Zwar können Sie das Adressbuch so filtern, dass nur bestimmte Benutzer eingeschlossen werden, aber das Einschränken von Einträgen schränkt nicht die Möglichkeit anderer Benutzer ein, die gefilterten Benutzer zu kontaktieren oder Ihren Anwesenheitsstatus anzuzeigen. Benutzer können jederzeit Sofortnachrichten suchen, manuell senden oder Anrufe an Benutzer, die sich nicht im Adressbuch befinden, manuell initiieren, indem Sie den vollständigen Anmeldenamen eines Benutzers eingeben. Auch Kontaktinformationen für einen Benutzer finden Sie in Outlook.
 
-Wenn Sie über vollständige Kontaktdatensätze in den Adressbuchdateien verfügen, können Sie mithilfe von lync Server e-Mail-, Telefon-oder Enterprise-Sprachanrufe initiieren (das heißt, wenn Enterprise-VoIP auf dem Server aktiviert ist), mit Benutzern, die nicht für die Sitzungs Initiierung konfiguriert sind. Protocol (SIP) verwenden, ziehen einige Organisationen es vor, nur SIP-fähige Benutzer in Ihre Adressbuch Server Einträge einzubeziehen. Sie können das Adressbuch so filtern, dass nur SIP-fähige Benutzer eingeschlossen werden, indem Sie das 0x800-Bit in der Spalte **Flags** der folgenden erforderlichen Attribute löschen: mailNickname, **telephoneNumber**, **homePhone**und **Handy**. **** Sie können das Adressbuch auch filtern, um nur SIP-fähige Benutzer einzubeziehen, indem Sie das 0X8000 (Include-Attribut) in der Spalte **Flags** des **Attribut msRTCSIP-PrimaryUserAddress-** Attributs festlegen. Dadurch können auch Dienstkonten aus den Adressbuchdateien ausgeschlossen werden.
+Wenn Sie über vollständige Kontaktdatensätze in den Adressbuchdateien verfügen, können Sie mithilfe von lync Server e-Mail-, Telefon-oder Enterprise-Sprachanrufe initiieren (das heißt, wenn Enterprise-VoIP auf dem Server aktiviert ist), mit Benutzern, die nicht für die Sitzungs Initiierung konfiguriert sind. Protocol (SIP) verwenden, ziehen einige Organisationen es vor, nur SIP-fähige Benutzer in Ihre Adressbuch Server Einträge einzubeziehen. Sie können das Adressbuch so filtern, dass nur SIP-fähige Benutzer eingeschlossen werden, indem Sie das 0x800-Bit in der Spalte **Flags** der folgenden erforderlichen Attribute löschen: **mailNickname**, **telephoneNumber**, **homePhone**und **Handy**. Sie können das Adressbuch auch filtern, um nur SIP-fähige Benutzer einzubeziehen, indem Sie das 0X8000 (Include-Attribut) in der Spalte **Flags** des **Attribut msRTCSIP-PrimaryUserAddress-** Attributs festlegen. Dadurch können auch Dienstkonten aus den Adressbuchdateien ausgeschlossen werden.
 
 Nachdem Sie die AbAttribute-Tabelle geändert haben, können Sie die Daten in der Tabelle AbUserEntry-Tabelle aktualisieren, indem Sie den Befehl Cmdlet **Update-CsUserDatabase** ausführen. Nach Abschluss der ur-Replikation können Sie die Datei im Dateispeicher des Adressbuchservers aktualisieren, indem Sie den Befehl Cmdlet **UpdateCsAddressBook** manuell ausführen.
 
@@ -363,7 +365,7 @@ Nachdem Sie die AbAttribute-Tabelle geändert haben, können Sie die Daten in de
 
 
 > [!IMPORTANT]  
-> Wenn Sie Ihre Infrastruktur von einer Bereitstellung mit mehreren Gesamtstrukturen oder von einer übergeordneten/untergeordneten Bereitstellung konsolidiert oder anderweitig geändert haben (wie etwa das Konsolidieren Ihrer Infrastruktur, bevor Sie zu lync Server wechseln), stellen Sie möglicherweise fest, dass der Adressbuchdienst heruntergeladen wird, und die Die Adressbuch-Webabfrage schlägt für einige Benutzer fehl. Bei einer Bereitstellung mit mehreren Domänen oder Gesamtstrukturen wird das Attribut <STRONG>Attribut msRTCSIP-OriginatorSid</STRONG> für die Benutzerobjekte aufgefüllt, die das Problem aufweisen. Das <STRONG>Attribut msRTCSIP-OriginatorSid-</STRONG> Attribut muss für diese Objekte auf Null festgesetzt werden, um das Problem zu beheben.
+> Wenn Sie Ihre Infrastruktur von einer Bereitstellung mit mehreren Gesamtstrukturen oder von einer übergeordneten/untergeordneten Bereitstellung konsolidiert oder anderweitig geändert haben (wie etwa das Konsolidieren Ihrer Infrastruktur vor dem Wechsel zu lync Server), stellen Sie möglicherweise fest, dass der Download des Adressbuchdiensts und die Adressbuch-Webabfrage für einige Benutzer fehlschlägt. Bei einer Bereitstellung mit mehreren Domänen oder Gesamtstrukturen wird das Attribut <STRONG>Attribut msRTCSIP-OriginatorSid</STRONG> für die Benutzerobjekte aufgefüllt, die das Problem aufweisen. Das <STRONG>Attribut msRTCSIP-OriginatorSid-</STRONG> Attribut muss für diese Objekte auf Null festgesetzt werden, um das Problem zu beheben.
 
 
 

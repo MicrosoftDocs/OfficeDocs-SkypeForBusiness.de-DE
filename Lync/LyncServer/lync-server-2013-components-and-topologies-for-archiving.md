@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Komponenten und Topologien für die Archivierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Archiving
 ms:assetid: 5893063d-a44a-4034-aba9-cbe883ecf710
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c434fd8216689b42e664b5b421101470ad984bf2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b3ccb77d8d2d0b7bd7d4d564087a69b7605863fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839529"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ Wenn Sie die Archivierungsdatenbank mit der Überwachungsdatenbank, der Back-End
 
   - Jede SQL-Instanz kann nur eine einzige Back-End-Datenbank, eine einzige Überwachungsdatenbank und eine einzelne Archivierungsdatenbank enthalten.
 
-Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter unterstützte Server [in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter [unterstützte Server in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
 
 </div>
 

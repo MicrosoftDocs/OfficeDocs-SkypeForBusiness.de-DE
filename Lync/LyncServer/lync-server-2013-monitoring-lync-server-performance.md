@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überwachen der lync Server-Leistung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring Lync Server 2013 performance
 ms:assetid: 2acfd720-6120-4816-a2d4-30476bd5cd0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9610dddfa9748b7d28dfe040a36214f3f969826
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f7859ea116e4ae63a5777e816c37893f11cf1c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Im Mittelpunkt der Leistung einer lync Server 2013-Bereitstellung steht die Serv
 
 Das Überwachen der Serverleistung ist daher äußerst wichtig, um zu ermitteln, ob die implementierte Serverinfrastruktur über geeignete Hardwareressourcen für die täglichen Spitzenlastanforderungen verfügt. Die Überwachung der Serverleistung hilft, Systemengpässe zu erkennen, die es Administratoren ermöglichen, korrigierende Aktionen anzuwenden, bevor die Benutzererfahrung beeinträchtigt wird. Die Leistungsdaten sollten für die langfristige Kapazitätsplanung verwendet werden.
 
-Während detaillierte Informationen zu allen zu beobachtenden Leistungsobjekten und Leistungsindikatoren beim Überwachen von [lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)verknüpft sind, können einige Leistungsindikatoren, denen Sie folgen sollten, Administratoren eine Schnellansicht zur Verfügung stellen. der Systemleistung:
+Während detaillierte Informationen zu allen zu beobachtenden Leistungsobjekten und Leistungsindikatoren beim über [Wachen von lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)verknüpft sind, können einige Leistungsindikatoren, denen Sie folgen sollten, Administratoren einen schnellen Überblick über die Systemleistung bieten:
 
   - Um die Gesamtsystem Integrität des Front-End-Servers nachvollziehen zu können, ist es ein guter\\Ausgangspunkt, Prozessor% Prozessorzeit zu überprüfen. Der Wert sollte immer unter 80 Prozent liegen.
 

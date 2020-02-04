@@ -3,6 +3,8 @@ title: Konfigurieren von Partneranwendungen in lync Server 2013 und Exchange Ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dad815a67dafea510513e334c910a5dbb8a2e82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c60e018a86ec0838791d5fc46845460b5f039f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ In lync Server werden Partneranwendungen mithilfe des Cmdlets [New-CsPartnerAppl
 
 Sie können eine Partneranwendung auch erstellen, indem Sie den Skriptcode, der in der Dokumentation zur Server-zu-Server-Authentifizierung von lync Server 2013 gefunden wurde, kopieren und ändern. Weitere Informationen finden Sie im Artikel [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) .
 
-Wenn Sie erfolgreich Partneranwendungen für lync Server und Exchange konfiguriert haben, bedeutet dies, dass Sie auch die Server-zu-Server-Authentifizierung zwischen den beiden Produkten erfolgreich konfiguriert haben. Lync Server 2013 enthält ein Windows PowerShell-Cmdlet, [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15)), mit dem Sie überprüfen können, ob die Server-zu-Server-Authentifizierung ordnungsgemäß konfiguriert wurde und der lync Server-Speicherdienst eine Verbindung mit Exchange herstellen kann. 2013. Das Cmdlet führt dazu eine Verbindung mit dem Postfach eines Exchange 2013-Benutzers, wobei ein Element in den Ordner "Konversations Verlauf" für diesen Benutzer geschrieben wird, und dann optional das Element gelöscht.
+Wenn Sie erfolgreich Partneranwendungen für lync Server und Exchange konfiguriert haben, bedeutet dies, dass Sie auch die Server-zu-Server-Authentifizierung zwischen den beiden Produkten erfolgreich konfiguriert haben. Lync Server 2013 enthält ein Windows PowerShell-Cmdlet, [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15)), mit dem Sie überprüfen können, ob die Server-zu-Server-Authentifizierung ordnungsgemäß konfiguriert wurde und der lync Server-Speicherdienst eine Verbindung mit Exchange 2013 herstellen kann. Das Cmdlet führt dazu eine Verbindung mit dem Postfach eines Exchange 2013-Benutzers, wobei ein Element in den Ordner "Konversations Verlauf" für diesen Benutzer geschrieben wird, und dann optional das Element gelöscht.
 
 Um die Integration von lync Server 2013 und Exchange 2013 zu testen, führen Sie in der lync Server-Verwaltungsshell einen ähnlichen Befehl wie den folgenden aus:
 

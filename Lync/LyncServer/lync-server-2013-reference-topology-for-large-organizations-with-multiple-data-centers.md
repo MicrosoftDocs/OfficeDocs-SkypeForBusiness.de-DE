@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Referenztopologie für große Organisationen mit mehre
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d9edde5ab097f3244919d6dd2c572b4a1dc112
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823833"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746885"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,25 +45,25 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
 **Überblick über die Referenztopologie für große Organisationen mit mehreren Rechenzentren**
 
-![Referenztopologie für mehrere Rechenzentren] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Referenztopologie für mehrere Rechenzentren")
+![Referenztopologie für mehrere Rechenzentren](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Referenztopologie für mehrere Rechenzentren")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts A**
 
-![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
+![dab33f19-e77b-42da-9047-858fb9851264](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts B**
 
-![5ccaf1d4-bd53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts C**
 
-![7238ca40-340c-491f-b497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
+![7238ca40-340c-491f-b497-ddc2665dadb6](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
-  - **Front-End-Pools sind gekoppelt, um eine Disaster Recovery zu ermöglichen.**    Die Front-End-Pools an Standort a und Standort B sind miteinander gekoppelt, um Disaster Recovery-Unterstützung bereitzustellen. Wenn der Pool an einer Website fehlschlägt, kann der Administrator für die Benutzer von dieser Website an den gekoppelten Front-End-Pool am anderen Standort ein Failover durchführen, wobei für die Benutzer mindestens eine Dienstunterbrechung erforderlich ist. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Weitere Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Front-End-Pools sind gekoppelt, um eine Disaster Recovery zu ermöglichen.**    Die Front-End-Pools an Standort a und Standort B sind miteinander gekoppelt, um Disaster Recovery-Unterstützung bereitzustellen. Wenn der Pool an einer Website fehlschlägt, kann der Administrator für die Benutzer von dieser Website an den gekoppelten Front-End-Pool am anderen Standort ein Failover durchführen, wobei für die Benutzer mindestens eine Dienstunterbrechung erforderlich ist. Jeder dieser beiden Front-End-Pools verfügt über sechs Server, was für alle 40.000-Benutzer in beiden Pools ausreichend ist, wenn ein Failover durchgeführt wird. Weitere Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
   - **Back-End-Server werden gespiegelt**   , um eine höhere Verfügbarkeit für grundlegende Benutzer Features bereitzustellen, hat die Organisation ein gespiegeltes paar von Back-End-Servern für jeden Front-End-Pool bereitgestellt. Hierbei handelt es sich um eine optionale Topologie, und Sie können stattdessen einen einzelnen Back-End-Server bereitstellen.
 
-  - **Verwenden des Standard Edition-Servers an einer Zweigstelle**    Diese Organisation berücksichtigt Website C als Zweigstellen Website, da Sie nur 600 Mitarbeiter hat. However, the users there have many A/V conferences among themselves. Wenn Sie in lync Server als Verzweigungs Website bereitgestellt wurde, würden die Medien für diese Konferenzen über das WAN (Wide Area Network) zu und von einem zentralen Standort aus ausgeführt werden, auf dem ein Front-End-Server bereitgestellt wurde. Um diese potenzielle Bandbreitenauslastung zu vermeiden, haben Sie auf dieser Website ein paar Standard Edition-Server installiert, auf denen diese Konferenzen gehostet werden. Da die Standard Edition-Server dort installiert sind, sieht lync Server per Definition eine zentrale Website und wird als solche im Topologie-Generator und im Planungs Tool behandelt.
+  - **Verwenden des Standard Edition-Servers an einer Zweigstelle**    Diese Organisation berücksichtigt Website C als Zweigstellen Website, da Sie nur 600 Mitarbeiter hat. Allerdings haben die Benutzer dort viele A/V-Konferenzen unter sich. Wenn Sie in lync Server als Verzweigungs Website bereitgestellt wurde, würden die Medien für diese Konferenzen über das WAN (Wide Area Network) zu und von einem zentralen Standort aus ausgeführt werden, auf dem ein Front-End-Server bereitgestellt wurde. Um diese potenzielle Bandbreitenauslastung zu vermeiden, haben Sie auf dieser Website ein paar Standard Edition-Server installiert, auf denen diese Konferenzen gehostet werden. Da die Standard Edition-Server dort installiert sind, sieht lync Server per Definition eine zentrale Website und wird als solche im Topologie-Generator und im Planungs Tool behandelt.
     
     Nur ein Standard Edition-Server würde hier die Leistung ausreichen, aber die Organisation hat zwei bereitgestellt und zusammengefügt, um eine höhere Verfügbarkeit zu gewährleisten, wenn ein Server ausfällt.
     
@@ -87,7 +89,7 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
   - **Directors können hinzugefügt werden.**   Wenn diese Organisation die Sicherheit gegen Denial-of-Service-Angriffe erhöhen möchte, könnte Sie auch einen Pool von Directors bereitstellen. Bei einem Director handelt es sich um eine separate, optionale Serverrolle in lync Server, auf der keine Benutzerkonten zu Hause sind, oder Anwesenheits-oder Konferenzdienste bereitstellen. Sie fungiert als interner Server für den nächsten Hop, auf dem ein Edgeserver eingehenden SIP-Datenverkehr für interne Server weiterleitet. Der Director authentifiziert eingehende Anforderungen vorab und leitet Sie an den privaten Pool oder Server des Benutzers weiter. Die Vorabauthentifizierung durch den Director ermöglicht das Verwerfen von Anfragen von Benutzerkonten, die der Bereitstellung nicht bekannt sind. Ein Director hilft, Front-End-Server vor böswilligem Datenverkehr zu isolieren, wie DOS-Attacken (Denial-of-Service). Wenn das Netzwerk bei einem solchen Angriff mit einem ungültigen externen Datenverkehr überflutet wird, endet der Datenverkehr beim Director.
 
-  - **System Center Operations Manager wird bereitgestellt.**   Wir empfehlen, dass Sie den Status Ihrer lync Server-Bereitstellung überwachen, um die Dienstverfügbarkeit für Endbenutzer zu gewährleisten. Sie können lync mit dem System Center Operations Manager-Management Pack für lync überwachen, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem lync-Management Pack können Sie proaktiv Echtzeitbenachrichtigungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um die End-to-End-lync-Funktionalität zu testen, Berichte für die Dienstverfügbarkeit abzurufen usw. This helps you to proactively respond to issues with your deployment before end-users experience them.
+  - **System Center Operations Manager wird bereitgestellt.**   Wir empfehlen, dass Sie den Status Ihrer lync Server-Bereitstellung überwachen, um die Dienstverfügbarkeit für Endbenutzer zu gewährleisten. Sie können lync mit dem System Center Operations Manager-Management Pack für lync überwachen, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem lync-Management Pack können Sie proaktiv Echtzeitbenachrichtigungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um die End-to-End-lync-Funktionalität zu testen, Berichte für die Dienstverfügbarkeit abzurufen usw. Dadurch können Sie proaktiv auf Probleme mit Ihrer Bereitstellung reagieren, bevor Endbenutzer davon betroffen sind.
     
     Diese Organisation hat einen System Center Operations Manager-Server an jedem zentralen Standort bereitgestellt.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren der Unterstützung für den externen Ben
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for external user access
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f10e266674d102b25753aeb58c89a365e7bb8e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 143e7e661f793f7a05cb2fdbad8cdab8acaf660e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Nachdem Sie die Einrichtung eines Edge-Servers oder Edge-Pools abgeschlossen hab
 
 Zur Unterstützung des Zugriffs externer Benutzer müssen Sie die beiden folgenden Schritte ausführen:
 
-  - **Aktivieren Sie die Unterstützung für Ihre Organisation**   , um die Unterstützung für den Zugriff durch externe Benutzer in Ihrer Bereitstellung zu aktivieren, und aktivieren Sie die einzelnen externen Zugriffstypen, die Sie unterstützen möchten. Sie können die Unterstützung für den Zugriff durch externe Benutzer aktivieren und deaktivieren, indem Sie die globalen Einstellungen bearbeiten oder eine Website-oder Benutzerrichtlinie auf der Seite " **Richtlinien für den externen Zugriff** " in der Gruppe " **Föderation und externer Zugriff** " der lync Server-Systemsteuerung erstellen und konfigurieren. oder mithilfe der lync Server-Verwaltungsshell und zugehörigen Cmdlets. Cmdlets für die Verwaltung der **Richtlinie für den externen Zugriff** finden Sie im Thema [Föderation und externe Zugriffs-Cmdlets in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/). Durch Aktivieren der Unterstützung für externen Zugriff wird angegeben, dass Ihre Server, auf denen der lync Server Access Edge-Dienst ausgeführt wird, die Kommunikation mit externen Benutzern und Servern unterstützen. Interne und externe Benutzer können nicht kommunizieren, während der Zugriff auf externe Benutzer deaktiviert ist oder wenn Richtlinien noch nicht für die Unterstützung konfiguriert wurden.
+  - **Aktivieren Sie die Unterstützung für Ihre Organisation**   , um die Unterstützung für den Zugriff durch externe Benutzer in Ihrer Bereitstellung zu aktivieren, und aktivieren Sie die einzelnen externen Zugriffstypen, die Sie unterstützen möchten. Sie können die Unterstützung für den Zugriff durch externe Benutzer aktivieren und deaktivieren, indem Sie die globalen Einstellungen bearbeiten oder eine Website-oder Benutzerrichtlinie auf der Seite " **Richtlinie für den externen Zugriff** " in der Gruppe " **Föderation und externer Zugriff** " der lync Server-Systemsteuerung oder mithilfe der lync Server-Verwaltungsshell und der zugehörigen Cmdlets erstellen und konfigurieren. Cmdlets für die Verwaltung der **Richtlinie für den externen Zugriff** finden Sie im Thema [Föderation und externe Zugriffs-Cmdlets in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/). Durch Aktivieren der Unterstützung für externen Zugriff wird angegeben, dass Ihre Server, auf denen der lync Server Access Edge-Dienst ausgeführt wird, die Kommunikation mit externen Benutzern und Servern unterstützen. Interne und externe Benutzer können nicht kommunizieren, während der Zugriff auf externe Benutzer deaktiviert ist oder wenn Richtlinien noch nicht für die Unterstützung konfiguriert wurden.
 
   - **Konfigurieren und Zuweisen einer oder mehrerer Richtlinien**   zur Unterstützung des Zugriffs durch externe Benutzer konfigurieren Sie Richtlinien für die Behebung von Anforderungen, die Folgendes umfassen:
     
@@ -49,7 +51,7 @@ Zur Unterstützung des Zugriffs externer Benutzer müssen Sie die beiden folgend
     
       - **Konferenzrichtlinien**   Sie erstellen und konfigurieren Richtlinien zum Steuern von Konferenzen in Ihrer Organisation, einschließlich der Benutzer in Ihrer Organisation, die anonyme Benutzer zu Konferenzen einladen können, die Sie hosten. Auf der lync Server Control Panel- **Konferenz** Seite sind Richtlinieneinstellungen auf globaler, Website-und Benutzerebene, mit denen die Einstellungen für die eigentlichen Konferenzen gesteuert werden. Ausführliche Informationen finden Sie unter [Verwalten von Besprechungen und Konferenzen in lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md). Sie aktivieren anonyme Benutzer für Konferenzen, Remotebenutzer und Verbundbenutzer auf der Seite **Access Edge-Konfiguration** . Die Richtlinie für die **Access-Edge-Konfiguration** ist im Bereich Global. Es gibt keine Optionen zum Definieren einer Website-oder Benutzerrichtlinie. Der Bereich wird auf der Seite mit den **Richtlinien für den externen Zugriff** durch die Verwendung globaler, Website-oder Benutzerrichtlinieneinstellungen gesteuert.
         
-        Wenn Sie beispielsweise Benutzern das Erstellen, einladen und Verwalten von Konferenzen mit Remotebenutzern gestatten möchten, müssen Sie in der globalen, Website-oder Benutzerrichtlinie für **externe Zugriffsrichtlinien** die **Option Kommunikation mit Remotebenutzern aktivieren** festlegen und die **Kommunikation aktivieren. mit Remotebenutzern** auf der Seite " **Zugriffs-Edge-Konfiguration** ". Um Konferenzen mit anonymen Benutzern oder Verbundpartnern zu ermöglichen, mit denen Sie eine definierte Beziehung haben (wie etwa konfigurierte Federated-SIP-Domänen und-Anbieter – die XMPP-Föderation unterstützt keine Konferenzen), wird die **Option "Kommunikation aktivieren" festgelegt. mit öffentlichen Benutzern** und **ermöglichen Sie die Kommunikation mit Verbundbenutzern** in der globalen Richt **Linie für externe Zugriffsrichtlinien** , Website-oder Benutzerrichtlinien. Wählen Sie dann ﻿kostenlose globale Richtlinieneinstellungen aktivieren Sie den **anonymen Benutzer Zugriff auf Konferenzen,** und aktivieren Sie die **Konnektivität für Verbund-und öffentliche Chats** auf der Seite **Access-Edge-Konfiguration** .
+        Wenn Sie beispielsweise Benutzern das Erstellen, einladen und Verwalten von Konferenzen mit Remotebenutzern gestatten möchten, müssen Sie auf der globalen Website-oder Benutzerrichtlinie für **externe Zugriffsrichtlinien** die **Option Kommunikation mit Remotebenutzern aktivieren** festlegen und die **Kommunikation mit Remotebenutzern** auf der Seite **Access-Edge-Konfiguration** aktivieren. Um Konferenzen mit anonymen Benutzern oder Verbundpartnern zu ermöglichen, mit denen Sie eine definierte Beziehung haben (wie etwa konfigurierte Federated-SIP-Domänen und-Anbieter – die XMPP-Föderation unterstützt keine Konferenzen), setzen Sie die **Option Kommunikation mit öffentlichen Benutzern aktivieren** und die **Kommunikation mit Verbundbenutzern** in der globalen Richtlinie für die **externe Zugriffsrichtlinie** , Website oder Benutzerrichtlinie aktivieren. Wählen Sie dann ﻿kostenlose globale Richtlinieneinstellungen aktivieren Sie den **anonymen Benutzer Zugriff auf Konferenzen,** und aktivieren Sie die **Konnektivität für Verbund-und öffentliche Chats** auf der Seite **Access-Edge-Konfiguration** .
 
 Sie können Einstellungen für den externen Benutzer Zugriff konfigurieren, einschließlich aller Richtlinien, die Sie zum Steuern des Zugriffs auf externe Benutzer verwenden möchten, auch wenn Sie den Zugriff auf externe Benutzer für Ihre Organisation nicht aktiviert haben. Die Richtlinien und anderen Einstellungen, die Sie konfigurieren, sind jedoch nur wirksam, wenn der Zugriff auf externe Benutzer für Ihre Organisation aktiviert ist. Externe Benutzer können nicht mit Benutzern Ihrer Organisation kommunizieren, wenn der Zugriff auf externe Benutzer deaktiviert ist oder wenn keine Richtlinien für den externen Benutzer Zugriff für die Unterstützung konfiguriert sind.
 

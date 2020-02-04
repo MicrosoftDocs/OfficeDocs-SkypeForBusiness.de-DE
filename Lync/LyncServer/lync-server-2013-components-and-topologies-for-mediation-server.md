@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Komponenten und Topologien für den Vermittlungsserver
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ Die folgende Abbildung zeigt eine einfache Topologie, bestehend aus zwei Website
 
 **Beispiel für über eine WAN-Leitung verbundene Standorte mit einem Vermittlungsserver an Standort 1 und einem PSTN-Gateway an Standort 2**
 
-![Sprach Topologie mit dem Vermittlungs Server-WAN-Gateway] (images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Sprach Topologie mit dem Vermittlungs Server-WAN-Gateway")
+![Sprach Topologie mit dem Vermittlungs Server-WAN-Gateway](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Sprach Topologie mit dem Vermittlungs Server-WAN-Gateway")
 
 Die nächste Abbildung zeigt eine einfache Topologie, in der der Vermittlungs Server mit der Registrierungsstelle im Front-End-Pool von Standort 1 zusammengeführt wird und über eine direkte SIP-Verbindung mit der IP-PBX-Anlage an Standort 1 verfügt. In dieser Abbildung steuert der Vermittlungs Server auch ein PSTN-Gateway an Standort 2. Angenommen, lync-Benutzer sind an beiden Standorten 1 und 2 vorhanden. Gehen Sie auch davon aus, dass die IP-PBX über einen zugeordneten medienprozessor verfügt, der von allen Medien, die von lync-Endpunkten stammen, durchlaufen werden muss, bevor Sie an Medien Endpunkte gesendet werden, die von der IP-Telefonanlage gesteuert In dieser Topologie ist die medienumgehung Global für die Verwendung von Website-und Regionsinformationen aktiviert, und für die Trunks an die Telefonanlage und das PSTN-Gateway ist die medienumgehung aktiviert.
 
 **Beispiel für Standorte, die über eine WAN-Leitung mit einem Vermittlungsserver an Standort 1 und einer Nebenstellenanlage an Standort 2 verbunden sind**
 
-![Vermittlungs Server für sprach Topologie-WAN-PBX] (images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "Vermittlungs Server für sprach Topologie-WAN-PBX")
+![Vermittlungs Server für sprach Topologie-WAN-PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "Vermittlungs Server für sprach Topologie-WAN-PBX")
 
 Ausführliche Informationen zur Planung von PBX-Topologien finden Sie unter [Bereitstellungsrichtlinien für den Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) und [direkte SIP-Bereitstellungsoptionen in lync Server 2013](lync-server-2013-direct-sip-deployment-options.md).
 

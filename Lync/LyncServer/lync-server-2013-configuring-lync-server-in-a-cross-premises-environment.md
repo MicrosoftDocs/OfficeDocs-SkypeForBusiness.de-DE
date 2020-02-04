@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von lync Server in einer standortübergr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
 ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44a47dc3bf3c832819fe431cb0177bfc1a03f330
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02696b85921e2f408b7a7ec5531b0596aaef49ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ Nachdem das Skript abgeschlossen ist, müssen Sie eine Vertrauensstellung zwisch
 
 Nachdem Sie Office 365 konfiguriert haben und nachdem Sie Office 365-Dienst Prinzipale für lync Server 2013 und Exchange 2013 erstellt haben, müssen Sie Ihre Anmeldeinformationen bei diesen Dienst Prinzipalen registrieren. Zu diesem Zweck müssen Sie zunächst ein Base64-kodiertes X.509-Zertifikat anfordern, das als CER-Datei gespeichert wird. Dieses Zertifikat wird dann auf die Office 365-Dienst Prinzipale angewendet.
 
-Wenn Sie das X. 509-Zertifikat erhalten haben, starten Sie das Microsoft Online Services-Modul (Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Online Services**, und klicken Sie dann auf Microsoft Online Services **-Modul für Windows. PowerShell**). Nachdem das Modul Dienste geöffnet wurde, geben Sie Folgendes ein, um das Microsoft Online Windows PowerShell-Modul zu importieren, das die Cmdlets enthält, die zum Verwalten von Dienst Prinzipalen verwendet werden können:
+Wenn Sie das X. 509-Zertifikat erhalten haben, starten Sie das Microsoft Online Services-Modul (Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Online Services**, und klicken Sie dann auf **Microsoft Online Services-Modul für Windows PowerShell**). Nachdem das Modul Dienste geöffnet wurde, geben Sie Folgendes ein, um das Microsoft Online Windows PowerShell-Modul zu importieren, das die Cmdlets enthält, die zum Verwalten von Dienst Prinzipalen verwendet werden können:
 
     Import-Module MSOnlineExtended
 

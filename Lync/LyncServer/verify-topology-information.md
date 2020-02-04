@@ -3,6 +3,8 @@ title: Überprüfen von Topologieinformationen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ Der erste Schritt beim erfolgreichen Überprüfen des Seriendrucks besteht darin
     
     </div>
 
-![Dialogfeld ' BackCompatSite '] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Dialogfeld ' BackCompatSite '")
+![Dialogfeld ' BackCompatSite '](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Dialogfeld ' BackCompatSite '")
 
 Sie können auch die lync Server 2013-Systemsteuerung verwenden, um Ihre zusammengeführte Topologie anzuzeigen. In der lync Server 2013-Systemsteuerung können Sie jeden Server-FQDN, Pool-FQDN und Websitenamen für Ihre zusammengeführte Topologie sehen. Verbundene Server verfügen über den **Website** Namen **BackCompatSite**.
 
@@ -72,7 +74,7 @@ Sie können auch die lync Server 2013-Systemsteuerung verwenden, um Ihre zusamme
 
 3.  Überprüfen Sie auf der Registerkarte **Status** , ob die zusammengeführten Server und Pools angezeigt werden, indem Sie in der Spalte **Websites** nach **BackCompatSite** suchen.
 
-![Lync Server-Systemsteuerung mit zusammengeführter Topologie] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server-Systemsteuerung mit zusammengeführter Topologie")
+![Lync Server-Systemsteuerung mit zusammengeführter Topologie](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server-Systemsteuerung mit zusammengeführter Topologie")
 
 Wenn Sie weitere Details zu einem zusammengeführten Pool anzeigen möchten, verwenden Sie das Cmdlet **Get-CsPool** . Zusätzlich zu den Informationen, die im Topologie-Generator und in der lync Server 2013-Systemsteuerung zur Verfügung stehen, zeigt dieses Cmdlet die Dienste an, die im lync Server 2013-Pool ausgeführt werden.
 

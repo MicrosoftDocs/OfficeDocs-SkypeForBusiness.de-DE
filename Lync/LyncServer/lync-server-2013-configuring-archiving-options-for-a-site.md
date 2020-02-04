@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Archivierungsoptionen für eine Webs
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options for a site
 ms:assetid: 59b48fd9-d5fc-40b4-abae-e9cf89ee5573
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14b0e29a2796c23c13a16bfb3e8a202a0a535aaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb2b70242388ca00a7bf43ec535ae1231fb77644
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-09_
 
 Sie können Archivierungsoptionen angeben, die auf bestimmte Websites angewendet werden sollen, indem Sie Optionen in einer Archivierungskonfiguration für jede dieser Websites erstellen und konfigurieren. Eine Standortkonfiguration überschreibt die globale Konfiguration, aber nur für den in der Standortkonfiguration angegebenen Standort. Pool Konfigurationen überschreiben Websitekonfigurationen
 
-Ausführliche Informationen zur Funktionsweise von Archivierungs Konfigurationen, einschließlich der Hierarchie für Global-, Website-und Poolkonfigurationen, finden Sie unter [wie funktioniert die Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation .
+Ausführliche Informationen zur Funktionsweise von Archivierungs Konfigurationen, einschließlich der Hierarchie für Global-, Website-und Poolkonfigurationen, finden Sie unter [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 <div>
 

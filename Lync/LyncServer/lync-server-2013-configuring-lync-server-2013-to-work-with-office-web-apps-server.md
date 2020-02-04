@@ -3,6 +3,8 @@ title: Konfigurieren von lync Server 2013 für die Zusammenarbeit mit Office Web
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to work with Office Web Apps Server
 ms:assetid: 6231e519-9010-4ff9-b5a6-b5859c2b3e11
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ba6926af243b15449c5b8baa4b29706a2ec8ade
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f3516822064d0fd42b44edb7af73b321644c36c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839238"
 
 _**Letztes Änderungsdatum des Themas:** 2013-04-22_
 
-Bevor Sie lync Server 2013 für die Verwendung von Office Web Apps Server konfigurieren können, muss Office Web Apps Server bereitgestellt und konfiguriert werden. Im Dokument **Handbuch zum Bereitstellen von Office Web Apps Server und Office Web Apps** finden Sie ausführliche Informationen zum Installieren und Konfigurieren eines einzelnen Office Web Apps-Servers oder Informationen zum Installieren und Konfigurieren einer Office Web Apps-Server Farm für eine höhere Verfügbarkeit.
+Bevor Sie lync Server 2013 für die Verwendung von Office Web Apps Server konfigurieren können, muss Office Web Apps Server bereitgestellt und konfiguriert werden. Informationen dazu, wie Sie einen einzelnen Office Web Apps-Server installieren und konfigurieren, finden Sie im Dokument **Handbuch zum Bereitstellen von Office Web Apps Server und Office Web Apps** , oder Sie erfahren, wie Sie eine Office Web Apps-Server Farm für eine höhere Verfügbarkeit installieren und konfigurieren.
 
 Nachdem Office Web Apps Server erfolgreich installiert und die Webfarm ordnungsgemäß konfiguriert wurde, müssen Sie lync Server für die Kommunikation mit dem neuen Server konfigurieren. Dies erfolgt durch Hinzufügen der Office Web Apps Server Discovery-URL zu ihrer lync Server-Topologie. Gehen Sie dazu wie folgt vor:
 

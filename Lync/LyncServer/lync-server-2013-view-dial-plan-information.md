@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anzeigen von Wähl Planinformationen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View dial plan information
 ms:assetid: 25ed0112-a8a7-418a-8c2c-580081be692a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be912be5bd421310b1806165db7aac744f7ab23f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a83de5daf33764dd08be9c08141d338e73a675d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um Informationen zu einem v
 
 ## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a>So zeigen Sie Informationen zu einem Wählplan in der lync Server-Systemsteuerung an
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 

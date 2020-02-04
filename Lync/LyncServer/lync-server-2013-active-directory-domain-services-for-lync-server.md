@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory-Domänendienste für lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a7dd0a5d5c6d8323abab3a8abfbc5f1025379e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839963"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839963"
 
 _**Letztes Änderungsdatum des Themas:** 2013-11-13_
 
-Active Directory-Domänendienste fungiert als Verzeichnisdienst für Windows Server 2003, Windows Server 2008, Windows Server 2012 und Windows Server 2012 R2-Netzwerke. Active Directory-Domänendienste dient auch als Grundlage für die Erstellung der Microsoft lync Server 2013-Sicherheitsinfrastruktur. In diesem Abschnitt wird beschrieben, wie lync Server 2013 die Active Directory-Domänendienste zum Erstellen einer vertrauenswürdigen Umgebung für Chats, Webkonferenzen, Medien und Sprachanrufe verwendet. Details zu den lync-Server Erweiterungen für Active Directory-Domänendienste und zum Vorbereiten Ihrer Umgebung für Active Directory-Domänendienste finden Sie unter [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellung. Dokumentation. Details zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation zur Version des verwendeten Betriebssystems.
+Active Directory-Domänendienste fungiert als Verzeichnisdienst für Windows Server 2003, Windows Server 2008, Windows Server 2012 und Windows Server 2012 R2-Netzwerke. Active Directory-Domänendienste dient auch als Grundlage für die Erstellung der Microsoft lync Server 2013-Sicherheitsinfrastruktur. In diesem Abschnitt wird beschrieben, wie lync Server 2013 die Active Directory-Domänendienste zum Erstellen einer vertrauenswürdigen Umgebung für Chats, Webkonferenzen, Medien und Sprachanrufe verwendet. Details zu den lync-Server Erweiterungen für Active Directory-Domänendienste und zum Vorbereiten Ihrer Umgebung für Active Directory-Domänendienste finden Sie unter [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellungsdokumentation. Details zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation zur Version des verwendeten Betriebssystems.
 
 Lync Server 2013 verwendet die Active Directory-Domänendienste zum Speichern von:
 
@@ -99,7 +101,7 @@ Während der Vorbereitung der Gesamtstruktur erstellt lync Server 2013 verschied
 
   - **Infrastrukturgruppen:** Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server-Infrastruktur. Sie dienen als Komponenten von administrativen Gruppen und Sie sollten sie weder ändern noch ihnen direkt Nutzer hinzufügen. Während der Gesamtstrukturvorbereitung werden den entsprechenden Infrastrukturgruppen bestimmte Dienst- und Administrationsgruppen hinzugefügt.
 
-Details zu den spezifischen universellen Gruppen, die beim Vorbereiten von AD für lync Server erstellt wurden, sowie zu den Dienst-und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter [Änderungen der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) im Bereitstellungsdokumentation
+Details zu den bei der Vorbereitung von AD für lync Server erstellten universellen Gruppen sowie zu den Dienst-und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
 
 <div>
 
@@ -129,7 +131,7 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche A
 
 Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen ACEs (Access Control Entries, Zugriffssteuerungseinträge) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
 
-Details zu den öffentlichen ACEs, die von der Gesamtstrukturvorbereitung und Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter [Änderungen der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) und Änderungen, die [von der Domänenvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) in der Bereitstellung vorgenommen wurden. Dokumentation.
+Details zu den öffentlichen ACEs, die von der Gesamtstrukturvorbereitung und Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter [Änderungen der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) und Änderungen, die [von der Domänenvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
 
 Organisationen Sperren häufig Active Directory-Domänendienste (AD DS), um Sicherheitsrisiken zu minimieren. Eine gesperrte Active Directory-Umgebung kann jedoch die von lync Server 2013 erforderlichen Berechtigungen einschränken. Dazu kann das Entfernen von ACEs aus Containern und Organisationseinheiten und das Deaktivieren der Vererbung von Berechtigungen für Nutzer-, Kontakt-, InetOrgPerson- oder Computerobjekten gehören. In einer gesperrten Active Directory-Umgebung müssen Berechtigungen für Container und OUs, für die Sie erforderlich sind, manuell festgelegt werden. Ausführliche Informationen finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
 

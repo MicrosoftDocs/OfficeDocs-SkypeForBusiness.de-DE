@@ -3,6 +3,8 @@ title: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu lync Ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63d4e5e3ac8c544e83ab9cfb8f82a5c70f86131b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06372be3808f3855bc0172cc408308a0c9c9cab2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734015"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-K
 
 Nachdem das Zertifikat auf alle Ihre Front-End-Server importiert wurde, kann dieses Zertifikat mithilfe des lync Server-Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
 
-1.  Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server**-Bereitstellungs-Assistent.
+1.  Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Bereitstellungs-Assistent**.
 
 2.  Klicken Sie im Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren**.
 

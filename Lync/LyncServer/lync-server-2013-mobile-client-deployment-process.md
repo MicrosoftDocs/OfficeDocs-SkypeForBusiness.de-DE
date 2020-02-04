@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellungsprozess für mobile Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client deployment process
 ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0d0bf17fe4906d49fefd8bd319d25d1268191e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6beaeac91dae0ff5fbf755c4ccb33cae288df75
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827081"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +105,7 @@ Nachdem eine Bereitstellung von Microsoft lync Server 2013 abgeschlossen wurde, 
 <li><p>Installieren Sie die Voraussetzungen.</p></li>
 <li><p>Installieren Sie von dem für das Mobile Gerät spezifischen Marktplatz.</p></li>
 </ol></td>
-<td><p>User</p></td>
+<td><p>Benutzer</p></td>
 <td><p>Spezifische Installationsanweisungen für das Mobile Gerät bei der <a href="lync-server-2013-deploying-mobile-clients.md">Bereitstellung von mobilen Clients in lync Server 2013</a></p></td>
 </tr>
 </tbody>

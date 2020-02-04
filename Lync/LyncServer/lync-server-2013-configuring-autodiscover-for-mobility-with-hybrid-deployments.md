@@ -3,6 +3,8 @@ title: Konfigurieren der AutoErmittlung für Mobilität mit hybriden Bereitstell
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Autodiscover for mobility with hybrid deployments
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215885(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1865cab188bace472996db6207de62ce8498976
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-18_
 
 Hybrid Bereitstellungen sind Konfigurationen, die sowohl den Microsoft lync Online-clouddienst als auch die lokale Bereitstellung verwenden. Bei dieser Art von Konfiguration muss der AutoErmittlungsdienst in der Lage sein, zu ermitteln, wo sich der Benutzer gerade befindet. Das heißt, die AutoErmittlung unterstützt Sie bei der Suche nach dem Benutzerkonto und dem Server, auf dem sich das Konto des Benutzers befindet, unabhängig davon, ob es sich um die lokale Bereitstellung oder die lync Online-Bereitstellung handelt.
 
-Wenn beispielsweise das Konto eines Benutzers auf einem Server in lync online gehostet wird, erfolgt der Versuch, den Benutzer zu finden, in einem Vorgang, der als Auffindbarkeit ** bekannt ist, wie folgt:
+Wenn beispielsweise das Konto eines Benutzers auf einem Server in lync online gehostet wird, erfolgt der Versuch, den Benutzer zu finden, in einem Vorgang, der als *Auffindbarkeit*bekannt ist, wie folgt:
 
   - Der Benutzer initiiert einen Verbindungsversuch mit der lokalen Bereitstellung, **contoso.com**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Neue Funktionen für den Server für beständigen Chat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6d5cd0b8197b64abfc0761dfb333f338b507ff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe207d2469a36d880e9ed519ff1d47d942ed79aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826206"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Weitere Informationen zur neuesten Version des beständigen Chat Servers finden 
 
   - In <http://go.microsoft.com/fwlink/p/?linkid=270945> der Hilfe für beständigen Chat finden Sie eine detaillierte Liste der beständigen Chat Features, ihre Funktionsweise und ihre Verwendung während des beständigen Chat Servers.
 
-  - Der [Server für die Planung des beständigen Chats in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Bereitstellen des beständigen Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat mit lync Server 2013, beständiger Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anleitungen für Einrichten des beständigen Chat Servers
+  - Der [Server für die Planung des beständigen Chats in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation [Bereitstellen des beständigen Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppenchat zu lync Server 2013, beständiger Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anleitungen für die Einrichtung enthalten Beständiger Chat Server.
 
   - Mit der Datei "beständiger Chat Server Documentation. msi" (Windows Installer-Datei) können Benutzer auf eine umfassende offlinedokumentation über den Server für beständigen Chat zugreifen.
 
@@ -139,7 +141,7 @@ In lync Server 2013 gibt es Verbesserungen bei der Hochverfügbarkeits-und Disas
 
   - Verbesserungen bei der Disaster Recovery: der beständige Chat Server unterstützt eine ausgestreckte Pool Architektur, die es ermöglicht, einen einzelnen beständigen Chat Serverpool über zwei Standorte (also einen einzigen logischen Pool in der Topologie) zu dehnen, wobei die Server im Pool physisch befindet sich über zwei Standorte). Der SQL Server-Protokollversand wird für die websiteübergreifende Notfallwiederherstellung verwendet.
 
-Weitere Informationen zu Hochverfügbarkeits-und Disaster Recovery finden Sie unter Konfigurieren des beständigen [Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in der Bereitstellungsdokumentation.
+Weitere Informationen zu Hochverfügbarkeits-und Disaster Recovery finden Sie unter [Konfigurieren des beständigen Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in der Bereitstellungsdokumentation.
 
 </div>
 

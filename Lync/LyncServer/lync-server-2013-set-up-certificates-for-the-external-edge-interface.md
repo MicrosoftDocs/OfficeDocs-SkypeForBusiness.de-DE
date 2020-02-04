@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Einrichten der Zertifikate für die externe Edgeschnit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the external edge interface
 ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1c836191c19eeadd915d0263c89b52289f60fe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822118"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Jeder Edgeserver erfordert ein öffentliches Zertifikat auf der Schnittstelle zw
 
 Ausführliche Informationen zu diesen und anderen Zertifikatanforderungen finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate zur Verfügung stellen, die bestimmte Anforderungen für Unified Communications-Zertifikate erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie unter Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners für Exchange Server und für Communications Server", [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)unter.
+Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate bereitstellen, die bestimmte Anforderungen für Unified Communications-Zertifikate erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie im [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners für Exchange Server und für Communications Server" unter.
 
 <div>
 
@@ -211,7 +213,7 @@ Wenn Sie die Zertifikate Microsoft Management Console (MMC) zum Importieren der 
 
 4.  Klicken Sie unter **Snap-Ins hinzufügen oder entfernen**auf **Zertifikate**, und klicken Sie dann auf **Hinzufügen**.
 
-5.  Wählen Sie im Dialogfeld **Zertifikate** die Option **Computerkonto**aus, klicken Sie auf **weiter**, wählen Sie **lokaler Computer aus: (der Computer, auf dem diese Konsole ausgeführt wird)** klicken Sie auf Computer **auswählen**, klicken Sie auf **Fertig stellen** , und klicken Sie dann auf **OK** , um vollständige Konfiguration der MMC-Konsole.
+5.  Wählen Sie im Dialogfeld **Zertifikate** die Option **Computerkonto**aus, klicken Sie auf **weiter**, wählen Sie **lokaler Computer aus: (der Computer, auf dem diese Konsole ausgeführt wird)** klicken Sie auf Computer **auswählen**, klicken Sie auf **Fertig stellen** , und klicken Sie dann auf **OK** , um die Konfiguration der MMC-Konsole abzuschließen.
 
 6.  Doppelklicken Sie auf **Zertifikate (lokaler Computer)** , um die Zertifikatspeicher zu erweitern, doppelklicken Sie auf **persönlich**, und doppelklicken Sie dann auf **Zertifikate**.
     
@@ -293,7 +295,7 @@ Wenn Sie die Zertifikate Microsoft Management Console (MMC) zum Importieren der 
 
 7.  Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen**.
 
-8.  Nachdem Sie dieses Verfahren zum Zuweisen des Edge-Zertifikats verwendet haben, öffnen Sie das Zertifikat-Snap-in auf jedem Server, erweitern Sie **Zertifikate (lokaler Computer)**, erweitern Sie **Personal**, klicken Sie auf **Zertifikate**, und überprüfen Sie dann im Detailbereich, dass der Zertifikat ist aufgelistet.
+8.  Nachdem Sie dieses Verfahren zum Zuweisen des Edge-Zertifikats verwendet haben, öffnen Sie das Zertifikat-Snap-in auf jedem Server, erweitern Sie **Zertifikate (lokaler Computer)**, erweitern Sie **Personal**, klicken Sie auf **Zertifikate**, und überprüfen Sie im Detailbereich, ob das Zertifikat aufgeführt ist.
 
 9.  Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, wiederholen Sie diesen Vorgang für jeden Edgeserver.
 

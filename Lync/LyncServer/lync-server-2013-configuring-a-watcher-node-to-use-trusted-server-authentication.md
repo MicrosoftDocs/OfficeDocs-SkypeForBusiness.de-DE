@@ -3,6 +3,8 @@ title: Konfigurieren eines Watcher-Knotens zur Verwendung der vertrauenswürdige
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a watcher node to use Trusted Server authentication
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6634fa55424190d2e0a05aece38d88977d2f6bca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7279e18c73ecca9340f57d40794a3e9eb2dd160b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839298"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ Für jeden Watcher-Knoten muss ein Standardzertifikat mit dem lync Server-Bereit
 
 **So weisen Sie ein Standardzertifikat zu**
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **lync Server**, und klicken Sie dann auf **lync Server**-Bereitstellungs-Assistent.
+1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **lync Server**, und klicken Sie dann auf **lync Server-Bereitstellungs-Assistent**.
 
 2.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren** , und klicken Sie dann unter der Überschrift **anfordern, installieren oder Zertifikat zuweisen**auf **Ausführen** .
     

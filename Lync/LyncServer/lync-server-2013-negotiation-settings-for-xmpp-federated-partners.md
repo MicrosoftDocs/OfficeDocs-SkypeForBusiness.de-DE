@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Aushandlungseinstellungen für XMPP-Verbundpartner'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Negotiation settings for XMPP federated partners
 ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02d72870e4060be6aa4ec428159af7ab19cb68b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 995ee34d0a2dcf28ca6aa4f8158d0e08d1533191
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,21 +69,21 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="even">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><p>Wenn der XMPP-Föderationspartner SASL auf optional oder erforderlich SASL gesetzt hat, wird eine TLS-Anforderung verwendet. Wenn SASL nicht zur Verfügung steht, wird Dialback über TLS verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Optional </p></td>
 <td><p>Optional</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><p>Obwohl die angebotenen Verhandlungsmethoden sehr flexibel sind, basieren diese Einstellungen auf den Einstellungen des XMPP-Verbundpartners. Wenn der Partner TLS optional oder erforderlich hat, aber SASL nicht unterstützt wird, steht TLS-Dialback zur Verfügung. Wenn der Partner TLS und SASL auf optional oder required eingestellt hat, wird die optimale Auswahl von TLS über SASL verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TCP-Dialback</p></td>
 <td><p>In vielen Fällen ist TCP-Dialback die einzige mögliche Lösung. Weniger wünschenswert als andere Optionen, bietet dies ein gewisses Maß an Vertrauen.</p></td>
 </tr>
@@ -112,7 +114,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p> Erforderlich</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS</p></td>
 <td><div>
 
@@ -132,7 +134,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><div>
 
@@ -158,7 +160,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TCP-Dialback</p></td>
 <td><div>
 
@@ -190,7 +192,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS, TLS-Dialback</p></td>
 <td></td>
 </tr>
@@ -204,7 +206,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Optional </p></td>
 <td><p>Optional</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>SASL über TLS, TLS-Dialback, TCP-Dialback</p></td>
 <td><div>
 
@@ -230,7 +232,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Optional</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TCP-Dialback</p></td>
 <td><div>
 
@@ -262,7 +264,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Erforderlich</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TLS-Dialback</p></td>
 <td><p>Die Konfiguration ermöglicht TLS-Dialback.</p></td>
 </tr>
@@ -282,7 +284,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TLS-Dialback, TCP-Dialback</p></td>
 <td><p>Basierend auf den Aushandlungs Optionen des anderen Endpunkts werden TCP-oder TLS-Dialback akzeptiert.</p></td>
 </tr>
@@ -302,7 +304,7 @@ Die Einstellungen für die Aushandlungs Typen in der Konfiguration eines XMPP-Pa
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>TCP-Dialback</p></td>
 <td><p>TCP-Dialback ist die einzige verfügbare Aushandlungsmethode.</p></td>
 </tr>

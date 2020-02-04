@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Wiederherstellen eines Enterprise Edition-Back-End-Ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring an Enterprise Edition Back End Server
 ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e0121ee654846bcb60acc6da6847995b967a880
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2bd57054505b3200f63bed8a60c47b400f7e7642
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823049"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Verwenden Sie das in diesem Thema beschriebene Verfahren in den beiden folgenden
 
   - Ein Enterprise Edition-Back-End-Server, der nicht gespiegelt wird, schlägt fehl.
 
-Wenn Sie ein Back-End für eine gespiegelte Enterprise-Edition haben und nur die Spiegelungs-oder primäre Datenbank fehlschlägt, finden Sie Informationen dazu unter [Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013 – primär](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) zum Wiederherstellen der primären Datenbank und [Wiederherstellen Enterprise Edition-Back-End-Server in lync Server 2013 – Spiegelung](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) zum Wiederherstellen der Spiegelung.
+Wenn Sie über ein Back-End für die Spiegelungs-Enterprise-Edition verfügen und nur die Spiegelungs-oder primäre Datenbank fehlschlägt, finden Sie Informationen unter [Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013 – primär](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) zum Wiederherstellen der primären Datenbank und [Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers 2013 in](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md)
 
 Wenn der zentrale Verwaltungsspeicher fehlschlägt, lesen Sie [Wiederherstellen des Servers, auf dem der zentrale Verwaltungsspeicher in lync Server 2013 gehostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)wird. Wenn ein Enterprise Edition-Mitgliedsserver, der nicht der Back-End-Server ist, fehlschlägt, lesen Sie [Wiederherstellen eines Enterprise Edition-Mitgliedsservers in lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
 
@@ -93,7 +95,7 @@ Wenn der zentrale Verwaltungsspeicher fehlschlägt, lesen Sie [Wiederherstellen 
     
     4.  Klicken Sie mit der rechten Maustaste auf den **lync Server 2013** -Knoten, und klicken Sie dann auf **Topologie veröffentlichen**.
     
-    5.  Folgen Sie dem Assistenten zum **Veröffentlichen der Topologie** . Wählen Sie auf der Seite **Create** Databases die Datenbanken aus, die Sie neu erstellen möchten.
+    5.  Folgen Sie dem Assistenten zum **Veröffentlichen der Topologie** . Wählen Sie auf der Seite **create databases** die Datenbanken aus, die Sie neu erstellen möchten.
         
         <div>
         

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Komponenten und Topologien für Konferenzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for conferencing
 ms:assetid: eb83052a-3360-4ba1-a6a0-6ee419942809
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5caf5ba33e863e08bf4f728d2bf11394f37f20b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db44e7c8430865fcf8138c9b51f6e700ff85dd7b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,11 +53,11 @@ Zusätzlich zu den Anforderungen für Webkonferenzen und A/V-Konferenzen verwend
 
   - ****   Die Application Conferencing Attendant-Anwendung der Konferenzzentrale ist eine Unified Communications-Anwendung, die PSTN-Anrufe (Public Switched Telephone Network) akzeptiert, Aufforderungen wiedergibt und die Anrufe an eine a/V-Konferenz anschließt. Die Conferencing Attendant-Anwendung wird standardmäßig installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option für Einwahlkonferenzen auswählen.
 
-  - **Konferenzankündigung**   Application Conferencing Ankündigung Application ist eine Unified Communications-Anwendung, die Töne und Aufforderungen an PSTN-Teilnehmer für bestimmte Aktionen abspielt, beispielsweise wenn Teilnehmer an einer Konferenz teilnehmen oder eine Konferenz beenden, Teilnehmer sind stumm geschaltet oder nicht stumm geschaltet, jemand wechselt in die Konferenz Lobby, oder die Konferenz ist gesperrt oder entriegelt. Die APP für Konferenz Ankündigungen unterstützt auch DTMF-Befehle (Dual Tone MultiFrequency) über das Tastenfeld des Telefons. Die APP für Konferenz Ankündigungen wird automatisch installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option für Einwahlkonferenzen auswählen.
+  - **Konferenzankündigung**   Application Conferencing Ankündigung Application ist eine Unified Communications-Anwendung, die in bestimmten Aktionen Töne und Aufforderungen an PSTN-Teilnehmer abspielt, beispielsweise wenn Teilnehmer an einer Konferenz teilnehmen oder eine Konferenz abhalten, Teilnehmer stumm geschaltet oder nicht stumm geschaltet werden, jemand in die Konferenz Lobby wechselt oder die Konferenz gesperrt oder gesperrt ist. Die APP für Konferenz Ankündigungen unterstützt auch DTMF-Befehle (Dual Tone MultiFrequency) über das Tastenfeld des Telefons. Die APP für Konferenz Ankündigungen wird automatisch installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option für Einwahlkonferenzen auswählen.
 
-  - **Seite "Einstellungen für Einwahlkonferenzen**   " auf der Seite "Einstellungen für Einwahlkonferenzen" werden Konferenzeinwahl Nummern mit den verfügbaren Sprachen angezeigt, Konferenz Informationen zugewiesen (also für Besprechungen, die nicht geplant werden müssen) und DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von PIN (Personal Identification Number) und zugewiesene Konferenz Informationen. Die Seite Einstellungen für Einwahlkonferenzen wird automatisch als Teil von Webdiensten installiert.
+  - **Seite "Einstellungen für Einwahlkonferenzen**   " auf der Seite "Einstellungen für Einwahlkonferenzen" werden Konferenzeinwahl Nummern mit den verfügbaren Sprachen, zugewiesene Konferenz Informationen (für Besprechungen, die nicht geplant werden müssen) sowie DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von PIN (Personal Identification Number) sowie zugewiesene Konferenz Informationen angezeigt. Die Seite Einstellungen für Einwahlkonferenzen wird automatisch als Teil von Webdiensten installiert.
 
-  - **Für lync Server 2013, Vermittlungsserver und**   Einwahlkonferenzen für PSTN-Gateways ist ein Vermittlungsserver erforderlich, um Signalisierungen (und Medien in einigen Konfigurationen) zwischen lync Server 2013 und dem PSTN-Gateway zu übersetzen und ein PSTN-Gateway zu übersetzen. signalisieren und Medien zwischen dem Vermittlungs Server und dem PSTN-Gateway Für Einwahlkonferenzen müssen Sie mindestens einen Vermittlungs Server und mindestens eine der folgenden Aktionen bereitstellen:
+  - **Für lync Server 2013, Vermittlungsserver und**   Einwahlkonferenzen für PSTN-Gateways ist ein Vermittlungsserver erforderlich, um Signalisierungen (und Medien in einigen Konfigurationen) zwischen lync Server 2013 und dem PSTN-Gateway zu übersetzen, und ein PSTN-Gateway, um Signalisierungs-und Medien Verbindungen zwischen dem Vermittlungsserver und dem PSTN-Gateway zu übersetzen. Für Einwahlkonferenzen müssen Sie mindestens einen Vermittlungs Server und mindestens eine der folgenden Aktionen bereitstellen:
     
       - PSTN-Gateway
     
@@ -74,7 +76,7 @@ Zusätzlich zu den Anforderungen für Webkonferenzen und A/V-Konferenzen verwend
 
   - **Datei**   Speicherdatei Speicher wird für aufgezeichnete Namen-Audiodateien verwendet. Er ist eine Standardkomponente in jeder Enterprise Edition- oder Standard Edition-Bereitstellung.
 
-  - **** Benutzerspeicher Benutzerspeicher wird zum Speichern von Benutzer-lync Server 2013-Pins verwendet.    Für PINs wird ein Hashalgorithmus verwendet. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition- oder Standard Edition-Bereitstellung.
+  - **Benutzerspeicher Benutzerspeicher**wird zum Speichern von Benutzer-lync Server 2013-Pins verwendet.    Für PINs wird ein Hashalgorithmus verwendet. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition- oder Standard Edition-Bereitstellung.
 
   - **Lync Server Control Panel**   einige Einwahleinstellungen können mithilfe der lync Server-Systemsteuerung konfiguriert werden.
 

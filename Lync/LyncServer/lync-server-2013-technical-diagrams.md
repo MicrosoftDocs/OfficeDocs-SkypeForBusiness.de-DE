@@ -3,6 +3,8 @@ title: Technische Diagramme zu lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d74f846f45b31fdff8921cfb628189726d4f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9a27f534c68a509e1febacd7937724c02c72061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847604"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ Auf diesen Postern ist ein bestimmter technischer Bereich detailliert dargestell
 <tr class="odd">
 <td><p><strong>Lokale lync Server 2013-Architekturen</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="Miniaturansicht des lync-Architektur-Plakats" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a> (am besten auf Desktop-oder Laptopcomputern)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a>(am besten auf Desktop-oder Laptopcomputern)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392578">PDF-Version</a> (optimal für mobile Geräte oder Tablet-Computer)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
 <td><p>Poster bietet architektonische Anleitungen für die Planung und Bereitstellung. Das Plakat enthält Informationen zu allgemeinen Komponenten von lync Server, zur Terminologie, die bei der Planung einer Bereitstellung, zu neuen Features, zu Server Rollen und zu einer Installationsübersicht verwendet wird. Darüber hinaus enthält das Poster Beispielarchitekturen für die Steigerung von hoher Verfügbarkeit und Disaster Recovery sowie für kleine, mittlere und große Beispiel Topologien.</p>
@@ -103,7 +105,7 @@ Auf diesen Postern ist ein bestimmter technischer Bereich detailliert dargestell
 <tr class="even">
 <td><p><strong>Methodik der lync-Anrufqualität</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="Poster mit Beschreibung des CQM-Prozesses" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a> (am besten auf Desktop-oder Laptopcomputern)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a>(am besten auf Desktop-oder Laptopcomputern)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391841">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
 <td><p>Poster, das die Problembehandlung bei lync-Systemen beschreibt, insbesondere bei Problemen mit Auswirkungen auf die Sprachqualität in Unternehmen. Verwenden Sie dieses Poster mit:</p>
 <ul>
@@ -117,7 +119,7 @@ Auf diesen Postern ist ein bestimmter technischer Bereich detailliert dargestell
 <tr class="odd">
 <td><p><strong>Wichtige Integritätsindikatoren</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Poster, das die Problembehandlung mithilfe von KHI-Daten beschreibt" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a> (am besten auf Desktop-oder Laptopcomputern)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Vollständiges Vergrößern des Plakats mit Zoom.it von Microsoft</a>(am besten auf Desktop-oder Laptopcomputern)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391838">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
 <td><p>Poster, das die Metriken der Server Problembehandlung sowohl für den grundlegenden Serverzustand als auch für die Rolle eines bestimmten Servers in der lync-Implementierung beschreibt. Verwenden Sie dieses Poster mit:</p>
 <ul>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure IIS
 ms:assetid: bc4ae8cc-ec0c-42f1-9034-058930e530d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: deb8d394b7c849cd5dcee98a4d13cddbf1b0c472
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c5eb1d20997ab05f6b40c3d8b527230eef04174
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839358"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839358"
 
 _**Letztes Änderungsdatum des Themas:** 2011-12-16_
 
-Zum Konfigurieren der Internetinformationsdienste (IIS) für lync Server 2013 müssen die richtigen Komponenten installiert werden, um die von lync Server 2013 benötigten Webdienste zu unterstützen. Details zur Installation von IIS finden Sie unter [IIS-Konfiguration in lync Server 2013](lync-server-2013-iis-configuration.md). Wenn Sie über eine Richtlinie verfügen, mit der der Sicherheitskonfigurations-Assistent auf Servern ausgeführt werden kann, bevor Sie Sie in Betrieb nehmen, oder als typischer Bestandteil ihrer Wartung, lesen Sie [erneutes Aktivieren des Servers, nachdem der Sicherheitskonfigurations-Assistent die Ports in IIS geschlossen](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md) hat, um Informationen zu einer Seite zu erhalten. Auswirkungen der Ausführung des Assistenten, der Ports in einer lync Server 2013 IIS-Konfiguration schließt.
+Zum Konfigurieren der Internetinformationsdienste (IIS) für lync Server 2013 müssen die richtigen Komponenten installiert werden, um die von lync Server 2013 benötigten Webdienste zu unterstützen. Details zur Installation von IIS finden Sie unter [IIS-Konfiguration in lync Server 2013](lync-server-2013-iis-configuration.md). Wenn Sie über eine Richtlinie verfügen, mit der der Sicherheitskonfigurations-Assistent auf Servern ausgeführt werden kann, bevor Sie Sie in Betrieb nehmen, oder als typischer Bestandteil ihrer Wartung, lesen Sie [erneutes Aktivieren des Servers, nachdem der Sicherheitskonfigurations-Assistent Ports in IIS geschlossen](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md) hat, um Informationen zu einem Nebeneffekt der Ausführung des Assistenten zu erhalten, der Ports in einer lync Server 2013 IIS-Konfiguration schließt
 
 <div>
 

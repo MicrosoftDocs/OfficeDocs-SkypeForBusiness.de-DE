@@ -3,6 +3,8 @@ title: Lync Server 2013-Ressourcensatz Tools für beständigen Chat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Zum Installieren der lync Server 2013, Resource Kit-Tools, laden Sie **Persisten
 
 
 > [!IMPORTANT]  
-> Nachdem Sie die lync Server 2013, Resource Kit-Tools installiert haben, müssen Sie <STRONG>PsExec. exe</STRONG> installieren und " <STRONG>PsExec. exe</STRONG> " in \\den folgenden Pfad kopieren: <STRONG>Programmdateien \ Microsoft lync Server 2013 \ beständiger Chat Server Ressource Kit\ChatStressTool </STRONG>. Wenn Sie " <STRONG>PsExec. exe</STRONG>" nicht kopieren, löst das beständige Chat-Spannungs Tool eine Fehler Ausnahme aus, die nicht ordnungsgemäß ausgeführt wird. Stellen Sie sicher, dass Sie diese Voraussetzungen erfüllen, bevor Sie das Tool ausführen. Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden Sie <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>unter.
+> Nachdem Sie die lync Server 2013, Resource Kit-Tools installiert haben, müssen Sie <STRONG>PsExec. exe</STRONG> installieren und " <STRONG>PsExec. exe</STRONG> " in \\den folgenden Pfad kopieren: <STRONG>Programmdateien \ Microsoft lync Server 2013 \ beständiger Chat Server Ressource Kit\ChatStressTool</STRONG>. Wenn Sie " <STRONG>PsExec. exe</STRONG>" nicht kopieren, löst das beständige Chat-Spannungs Tool eine Fehler Ausnahme aus, die nicht ordnungsgemäß ausgeführt wird. Stellen Sie sicher, dass Sie diese Voraussetzungen erfüllen, bevor Sie das Tool ausführen. Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden Sie <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>unter.
 
 
 
@@ -246,7 +248,7 @@ Erstellen von Benutzern und Kanälen zur Verwendung im Spannungsverlauf:
 
   - Erstellen Sie so viele Benutzer, wie Sie von Ihrem Benutzermodell aufgerufen werden, aktivieren Sie diese für lync, und legen Sie die Richtlinie für beständigen Chat auf aktiviert fest.
 
-  - Erstellen Sie eine Kategorie für Ihre Spannungskanäle, und erstellen Sie dann so viele Räume, wie Sie unter dieser Kategorie benötigt werden. In der Kategorie sollten alle Belastungs Benutzer in **** der Liste der zulässigen Daten enthalten sein (indem Sie Ihre OU hinzufügen), und bei den Belastungs Räumen sollte eine Privatsphäre-Einstellung **geöffnet**sein.
+  - Erstellen Sie eine Kategorie für Ihre Spannungskanäle, und erstellen Sie dann so viele Räume, wie Sie unter dieser Kategorie benötigt werden. In der Kategorie sollten alle Belastungs Benutzer in der Liste der **zulässigen** Daten enthalten sein (indem Sie Ihre OU hinzufügen), und bei den Belastungs Räumen sollte eine Privatsphäre-Einstellung **geöffnet**sein.
 
   - Wir empfehlen, zusätzliche Belastungs Räume zu erstellen. Sie können 50.000-Räume mit dem folgenden Befehlszeilen-Schnittstellenbefehl der Windows PowerShell erstellen:
     ```Powershell
@@ -331,7 +333,7 @@ Führen Sie **ChatUpgradeVerifier** ohne Parameter aus.
 
 ## <a name="example"></a>Beispiel
 
-![Ausführen von ChatUpgradeVerifier. exe.] (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Ausführen von ChatUpgradeVerifier. exe.")
+![Ausführen von ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Ausführen von ChatUpgradeVerifier. exe.")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überwachen der Speicher Kapazitätsgrenzwerte für Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring for server memory capacity limits
 ms:assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68728c85b14231644b445569857896f34abe535f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c9746240335b1c66606da24edf6ffa2a0e7bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826731"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,11 +57,11 @@ Zwei Mobilitäts Leistungsindikatoren können Ihnen dabei helfen, Ihre aktuelle 
 
 Wenn der Unterschied zwischen **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** und **Anzahl der derzeit aktiven Sitzungen** im Laufe der Zeit gering ist, bedeutet dies, dass die meisten Benutzer ein Mobilgerät verwenden, dass immer verbunden ist, beispielsweise ein Android- oder Nokia-Mobilgerät (nur für Mcx). UCWA immer angeschlossene Geräte sind Apple-und Android-Geräte, auf denen lync 2013 Mobile-Clients ausgeführt werden. Wenn die **Anzahl der derzeit aktiven Sitzungen** sehr viel höher ist als die **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements**, weist dies darauf hin, dass mehr Benutzer ein Hintergrund-Endpunktgerät unter Mcx verwenden, z. B. ein Apple iOS-Gerät oder ein Windows Phone. (Windows Phone ist der einzige mobile lync 2013-Client, der als dieser registriert wird).
 
-Sie sollten eine Grenze für die **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** und **derzeit aktiven Sitzungen-count** -Leistungsindikatoren auf der Grundlage ihrer erwarteten Nutzung, der Kapazitäts Planungsergebnisse und der laufenden Überwachung von Mobilitätsdienst und andere Front-End-Server-Leistungsindikatoren. Die festgelegten Beschränkungen sollten das Auswerten der Serverkapazität und das Auslösen von Warnungen bei einer Kapazitätsüberschreitung erlauben.
+Sie sollten eine Grenze für die **derzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** und **derzeit aktiven Sitzungen zählen** -Leistungsindikatoren basierend auf ihrer erwarteten Nutzung, den Ergebnissen der Kapazitätsplanung und der laufenden Überwachung des mobilitätsdiensts und anderer Front-End-Server-Leistungsindikatoren festzulegen. Die festgelegten Beschränkungen sollten das Auswerten der Serverkapazität und das Auslösen von Warnungen bei einer Kapazitätsüberschreitung erlauben.
 
 Um die entsprechenden Grenzwerte zu ermitteln, müssen Sie zunächst ermitteln, wie viel Arbeitsspeicher auf dem Front-End-Server für den Mobilitätsdienst zur Verfügung steht. Überwachen Sie die Leistungsindikatoren, um anhand der folgenden Formel festzustellen, ob zusätzliche Kapazität eingeplant werden muss:
 
-Gesamtspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 \* **derzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** + 400/1024 \* (**derzeit aktive Sitzungsanzahl** – **zurzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements**)
+Gesamtspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 \* **derzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** + 400/1024 \* (**derzeit aktive Sitzungsanzahl** – derzeit aktive Sitzungsanzahl **mit aktiven Anwesenheitsabonnements**)
 
 <div>
 
@@ -73,7 +75,7 @@ Gesamtspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 \* **der
 
 Der Front-End-Server benötigt genügend Arbeitsspeicher, um den Mobilitätsdienst in Failover-Situationen zu unterstützen. Sie können den aktuellen verfügbaren Arbeitsspeicher auf dem Front-End-Server überwachen, indem Sie den **Speicher\\verfügbaren MBytes** -Indikator verwenden oder die oben erwähnte Formel verwenden, um die Menge des Arbeitsspeichers zu planen, den der Mobilitätsdienst zu verwenden erwartet.
 
-Wenn die auf dem Front-End-Server verfügbare Arbeitsspeichermenge unter 1.500 MB liegt, wenn Sie die erwartete Anzahl von Mobilitäts Benutzern planen, müssen Sie weitere Hardware hinzufügen, um den Mobilitätsdienst zu unterstützen. Weitere Informationen finden Sie unter Überwachen der [Mobilität für die Leistung in lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) in der Betriebsdokumentation.
+Wenn die auf dem Front-End-Server verfügbare Arbeitsspeichermenge unter 1.500 MB liegt, wenn Sie die erwartete Anzahl von Mobilitäts Benutzern planen, müssen Sie weitere Hardware hinzufügen, um den Mobilitätsdienst zu unterstützen. Weitere Informationen finden Sie unter über [Wachen der Mobilität für die Leistung in lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) in der Betriebsdokumentation.
 
 <div>
 

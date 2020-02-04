@@ -3,6 +3,8 @@ title: Verschieben der verbleibenden Benutzer zu Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688090(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9d5c747a216ff5407a3150eb1cdcdfb94a3c73c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d60b3ba622e88978a8bbf555972c95979e8f8c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847074"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Wenn Sie einen Benutzer in einen lync Server 2013-Pool verschieben, werden die D
 
 2.  Um sicherzustellen, dass Besprechungen, die von Benutzern verwaltet werden, die in lync Server 2013 verwaltet werden, nahtlos mit Verbundbenutzern funktionieren, die sich in lync Server 2010 befinden, sollten die den migrierten Benutzern zugewiesenen Konferenzrichtlinien anonymen Teilnehmern ermöglichen.
 
-3.  Konferenzrichtlinien, die anonymen Teilnehmern gestatten, **Teilnehmern die Möglichkeit zu geben,** in der lync Server 2013 **** -Systemsteuerung ausgewählte anonyme Benutzer einzuladen, und **AllowAnonymousParticipantsInMeetings** in der Ausgabe von das Cmdlet " **Get-CsConferencingPolicy** " in der lync Server-Verwaltungsshell.
+3.  Konferenzrichtlinien, die anonymen Teilnehmern erlauben, **können Teilnehmern erlauben, anonyme Benutzer einzuladen** , die in der lync Server 2013-Systemsteuerung ausgewählt sind, und **AllowAnonymousParticipantsInMeetings** in der Ausgabe des Cmdlets **Get-CsConferencingPolicy** in der lync Server-Verwaltungsshell auf **true** festgelegt.
 
 4.  Details zum Konfigurieren von Konferenzrichtlinien mithilfe der lync Server-Verwaltungsshell finden Sie unter Dokumentation zu CsConferencingPolicy in der lync Server [-](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) Verwaltungsshell.
 

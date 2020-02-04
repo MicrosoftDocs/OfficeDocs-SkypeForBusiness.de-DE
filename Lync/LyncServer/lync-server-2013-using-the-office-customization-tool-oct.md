@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verwenden des Office-Anpassungstools (OAT)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Office Customization Tool (OCT)
 ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd9c101b9098f9a5a6ac6088740c067039921b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847304"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Das OAT ist Teil des Setups und in Volumenlizenzversionen des Produkts enthalten
 
 Administratoren verwenden das OAT zum Erstellen einer Setupanpassungsdatei (MSP-Datei). Wie im Microsoft Office 2010 Oct können Administratoren die folgenden Bereiche anpassen:
 
-  - **Einrichtung** Dient zum Angeben des Standard Installationsspeicherorts auf dem Client und dem Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Office-Versionen, benutzerdefinierte Programme, die ausgeführt werden sollen. Installations-, Sicherheitseinstellungen und Setup Eigenschaften.
+  - **Einrichtung** Dient zum Angeben des Standard Installationsspeicherorts auf dem Client und dem Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Versionen von Office, benutzerdefinierte Programme, die während der Installation, Sicherheitseinstellungen und Setup Eigenschaften ausgeführt werden sollen.
 
   - **Funktionen** Wird verwendet, um Benutzereinstellungen zu konfigurieren und die Installation von Office-Features anzupassen. Administratoren können das OAT verwenden, um anfängliche Standardwerte für die Office-Anwendungseinstellungen für Benutzer festzulegen. Benutzer können die meisten Einstellungen nach der Installation ändern.
 

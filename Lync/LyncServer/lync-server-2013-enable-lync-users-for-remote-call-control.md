@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Aktivieren von Lync-Benutzern für die Remoteanrufsteu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Lync users for remote call control
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6eae16d6dae46bab4f6cf745bc2e2a827eabcb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 260cfc2d3a0b185d58e90f4944162ea23135a0b9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832314"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
 Sie können lync-Benutzer für die Remoteanrufsteuerung konfigurieren, indem Sie in-Band-Bereitstellungsrichtlinien verwenden, die Server basiert sind. Sie können in-Band-Bereitstellungseinstellungen mithilfe der lync Server-Systemsteuerung oder der Befehlszeilenschnittstelle der lync Server-Verwaltungsshell verwalten. Diese Tools ersetzen das WMI-Snap-in (Windows Management Instrumentation), das zum Verwalten von Gruppenrichtlinieneinstellungen in früheren Versionen verwendet wurde.
 
-Wenn Sie es vorziehen, Benutzern die Konfiguration eigener Einstellungen für die Remoteanrufsteuerung in lync zu ermöglichen, können Sie die Einstellungen für die Remoteanrufsteuerung für Benutzer auf dem Server konfigurieren, ohne den URI und die **URI** -Werte für den **Leitungsserver** anzugeben. Stellen Sie sicher, dass Sie Ihren Benutzern die entsprechenden URI **** -und URI-Werte für den **Leitungs Server** mitteilen, und geben Sie Ihren Benutzern die Anweisungen zum Konfigurieren dieser Einstellungen. Das Verfahren zum manuellen Konfigurieren der Remoteanrufsteuerung in lync Server finden Sie unter "Festlegen von Telefonoptionen und- <http://go.microsoft.com/fwlink/p/?linkid=210132> Nummern" in der lync-Client Dokumentation auf der Microsoft Office-Website.
+Wenn Sie es vorziehen, Benutzern die Konfiguration eigener Einstellungen für die Remoteanrufsteuerung in lync zu ermöglichen, können Sie die Einstellungen für die Remoteanrufsteuerung für Benutzer auf dem Server konfigurieren, ohne den URI und die **URI** -Werte für den **Leitungsserver** anzugeben. Stellen Sie sicher, dass Sie Ihren Benutzern die entsprechenden URI- **und URI-Werte für** den **Leitungs Server** mitteilen, und geben Sie Ihren Benutzern die Anweisungen zum Konfigurieren dieser Einstellungen. Das Verfahren zum manuellen Konfigurieren der Remoteanrufsteuerung in lync Server finden Sie unter "Festlegen von Telefonoptionen und- <http://go.microsoft.com/fwlink/p/?linkid=210132> Nummern" in der lync-Client Dokumentation auf der Microsoft Office-Website.
 
 Wenn Sie über eine vorhandene Communications Server 2007 R2-oder Communications Server 2007-Bereitstellung verfügen, verwenden Communicator 2007 R2-und Communicator 2007-Clients weiterhin Gruppenrichtlinien während der parallelen Migration. Wenn die Richtlinieneinstellungen jedoch auf lync-Clients übertragen werden sollen, müssen Sie die entsprechenden Einstellungen für lync Server-in-Band-Bereitstellung konfigurieren.
 
@@ -79,7 +81,7 @@ Wenn Sie über eine vorhandene Communications Server 2007 R2-oder Communications
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4.  Geben Sie im Feld **Benutzer suchen** alle (oder den ersten Teil) des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens, der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf ** Finden Sie**.
+4.  Geben Sie im Feld **Benutzer suchen** alle (oder den ersten Teil) des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens, der SIP-Adresse oder des Uniform Resource Identifier (URI) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
 
 5.  Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie ändern möchten.
 

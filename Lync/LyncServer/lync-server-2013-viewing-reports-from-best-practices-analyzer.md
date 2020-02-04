@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anzeigen von Berichten aus Best Practices Analyzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847203"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ Gehen Sie wie folgt vor, um die zuvor von Best Practices Analyzer generierten Sc
       - Wenn Sie andere Berichte anzeigen möchten, klicken Sie auf **Weitere Berichte**.
     
     > [!NOTE]  
-    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die durch bewährte Methoden identifiziert werden. Analyzer in lync Server 2013</A>.
+    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert</A>werden.
 
 </div>
 

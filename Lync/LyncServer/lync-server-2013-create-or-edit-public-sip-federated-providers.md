@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen oder Bearbeiten von öffentlichen SIP-Partne
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit public SIP federated providers
 ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398349(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 876a79e840990afb0c9cf0bae4fc819ec10db5d8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 33303217e6e1a1fefb502f1e9b364a46adc85e02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Gehen Sie wie folgt vor, um öffentliche Anbieter zu erstellen oder zu bearbeite
         
         **Wenn Sie Benutzern erlauben, mit allen Personen zu kommunizieren, die diesen Anbieter verwenden, wird** die Einschränkung entfernt, die Sie erhalten haben und eine Kontakt Einladung akzeptieren müssen. Diese Einstellung beschränkt nicht, wer Sie aus dem Netzwerk des öffentlichen Anbieters kontaktieren kann.
 
-7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, **** klicken Sie zum Speichern auf übernehmen, oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
+7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, klicken **Sie zum Speichern auf übernehmen** , oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen oder Ändern eines Gruppenanruf-Abhol Nummer
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a Group Call Pickup number range
 ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945627(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a82f9cdc02052bf08dba3e9529871eff2b01211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832807"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Die Nummernbereiche für die Anrufannahmegruppe müssen folgenden Regeln entspre
 
 ## <a name="to-create-or-modify-a-call-pickup-group-range"></a>So erstellen oder ändern Sie einen Bereich für die Anrufannahmegruppe
 
-1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
 
 2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testen von Administratorberechtigungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin permissions
 ms:assetid: 5dda3efd-0f84-4848-819e-87b1551066b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3da940b30822a5cfcc1fed302ff3db1f34bd8380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4543501d668b61bbb90073c80c4e85373341d93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -96,7 +98,7 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsOUPermission](
 
 Wenn die erforderlichen Berechtigungen bereits gesetzt sind, gibt Test-CsOUPermission eine Antwort mit einem Wort zurück:
 
-True
+Wahr
 
 Wenn die erforderlichen Berechtigungen nicht festgelegt sind, gibt Test-CsOUPermission den Wert false zurück. Möglicherweise müssen Sie einen Moment suchen, um diesen Wert zu finden. Sie wird in der Regel in mehrere begleitende Warnungen eingebettet. Beispiel:
 

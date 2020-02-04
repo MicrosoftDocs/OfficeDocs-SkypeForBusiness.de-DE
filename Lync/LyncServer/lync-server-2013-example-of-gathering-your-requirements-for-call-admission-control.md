@@ -3,6 +3,8 @@ title: Beispiel für die Erfassung Ihrer Anforderungen für die Anrufsteuerung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
     
-    ![Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen] (images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen")  
+    ![Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen")  
     
     <div>
     
@@ -193,7 +195,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
     
-    ![Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt] sind (images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt") sind  
+    ![Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt sind](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt sind")  
 
 5.  Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
     
@@ -414,7 +416,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
     
-    ![Beispiel für Einschränkungen zwischen drei Regionen] (images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Beispiel für Einschränkungen zwischen drei Regionen")  
+    ![Beispiel für Einschränkungen zwischen drei Regionen](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Beispiel für Einschränkungen zwischen drei Regionen")  
     
     ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a>Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)
     
@@ -529,7 +531,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
     
-    ![Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt] sind (images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt") sind  
+    ![Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt sind](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt sind")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)
     

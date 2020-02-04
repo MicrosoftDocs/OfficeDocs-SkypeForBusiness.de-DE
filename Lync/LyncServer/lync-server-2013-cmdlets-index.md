@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Cmdlets-Index'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d18b599792d2599d96b4775aa37a4178f99d1e47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64dd8edcb3f21cbdbdaf2b5a29c7e813675c9136
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839616"
 
 _**Letztes Änderungsdatum des Themas:** 2016-04-12_
 
-Microsoft lync Server 2013 ist mit mehr als 700 Cmdlets ausgeliefert, mit denen Administratoren lync Server 2013 über die Befehlszeile verwalten können. Die lync Server-Cmdlets werden in der Regel mit der lync Server-Verwaltungsshell verwendet. Eine Möglichkeit, die lync Server-Verwaltungsshell zu verwenden, ist die Anmeldung an einem Computer, auf dem ein lync Server-Dienst oder eine Serverrolle ausgeführt wird, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell. **. Nach dem Öffnen der Verwaltungsshell können Sie Hilfe für ein Cmdlet direkt über die Befehlszeile abrufen, indem Sie einen Befehl ähnlich der folgenden eingeben:
+Microsoft lync Server 2013 ist mit mehr als 700 Cmdlets ausgeliefert, mit denen Administratoren lync Server 2013 über die Befehlszeile verwalten können. Die lync Server-Cmdlets werden in der Regel mit der lync Server-Verwaltungsshell verwendet. Eine Möglichkeit, die lync Server-Verwaltungsshell zu verwenden, ist die Anmeldung an einem Computer, auf dem ein lync Server-Dienst oder eine Serverrolle ausgeführt wird, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**. Nach dem Öffnen der Verwaltungsshell können Sie Hilfe für ein Cmdlet direkt über die Befehlszeile abrufen, indem Sie einen Befehl ähnlich der folgenden eingeben:
 
     Get-Help New-CsVoicePolicy -Full
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: bewährte Methoden für Sicherung und Wiederherstellun
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for backup and restoration
 ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e51f846d92f5d8cfecbbface31df6543c5c9ac23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741885"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Wenden Sie beim Sichern oder Wiederherstellen Ihrer Daten die folgenden bewährt
 
   - Führen Sie regelmäßige Sicherungen in angemessenen Abständen aus. Der einfachste und am häufigsten verwendete Backup-Typ und-Rotations Zeitplan ist eine vollständige, nächtliche Sicherung der gesamten SQL Server-Datenbank. Wenn die Wiederherstellung erforderlich ist, erfordert der Wiederherstellungsprozess nur eine Sicherung, und es sollten nicht mehr als die Daten eines Tages verloren gehen.
 
-  - Wenn Sie mithilfe von Cmdlets oder der lync Server-Systemsteuerung Konfigurationsänderungen vornehmen, verwenden Sie das Cmdlet **Export-CsConfiguration** , um eine Snapshot-Sicherung der Topologie-Konfigurationsdatei (XDS. mdf) zu erstellen, nachdem Sie die Änderungen vorgenommen haben, damit die Änderungen nicht verloren gehen, wenn Sie müssen Ihre Datenbanken wiederherstellen. Beachten Sie, dass diese Konfiguration im XML-Format gesichert und als ZIP-Datei komprimiert wird.
+  - Wenn Sie mithilfe von Cmdlets oder der lync Server-Systemsteuerung Konfigurationsänderungen vornehmen, verwenden Sie das Cmdlet **Export-CsConfiguration** , um eine Snapshot-Sicherung der Topologie-Konfigurationsdatei (XDS. mdf) zu erstellen, nachdem Sie die Änderungen vorgenommen haben, damit die Änderungen nicht verloren gehen, wenn Sie die Datenbanken wiederherstellen müssen. Beachten Sie, dass diese Konfiguration im XML-Format gesichert und als ZIP-Datei komprimiert wird.
 
   - Stellen Sie sicher, dass der freigegebene Ordner, den Sie zum Sichern von lync Server verwenden möchten, über genügend Speicherplatz verfügt, um alle gesicherten Daten zu speichern.
 
@@ -71,7 +73,7 @@ Wenden Sie beim Sichern oder Wiederherstellen Ihrer Daten die folgenden bewährt
 
 Die beste Strategie für den Umgang mit katastrophalen Dienstunterbrechungen (verursacht durch nicht verwaltbare Ereignisse wie Stromausfälle oder plötzliche Hardwareausfälle) besteht darin, davon auszugehen, dass dies geschieht, und entsprechend zu planen.
 
-Wenn die lync-Dienste mit einem mindestunterbrechungs-und Ausfallrisiko für Ihre Organisation unternehmenskritisch sind, sollten Sie in der Lage sein, gekoppelte Pools von Front-End-Servern zu implementieren, wie unter [Planen von hoher Verfügbarkeit und Disaster Recovery in lync Server beschrieben. 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Wenn eines dieser Pools einen Notfall hat, kann ein Administrator die Benutzer des Pools so umschalten, dass Sie mit einem mindestausfall von einem anderen Pool bedient werden.
+Wenn die lync-Dienste mit einem mindestunterbrechungs-und Ausfallrisiko für Ihre Organisation unternehmenskritisch sind, sollten Sie in der Lage sein, gekoppelte Pools von Front-End-Servern zu implementieren, wie unter [Planen von hoher Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben. Wenn eines dieser Pools einen Notfall hat, kann ein Administrator die Benutzer des Pools so umschalten, dass Sie mit einem mindestausfall von einem anderen Pool bedient werden.
 
 Die Notfall Verwaltungspläne, die Sie im Rahmen ihrer Sicherungs-und Wiederherstellungsstrategie entwickeln, sollten Folgendes umfassen:
 

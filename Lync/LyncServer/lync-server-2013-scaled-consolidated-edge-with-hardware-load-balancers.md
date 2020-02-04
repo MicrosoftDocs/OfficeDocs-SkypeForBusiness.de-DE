@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Skalierter konsolidierter Edgeserver mit Hardwarelaste
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa5a395c8509961937af23c12763a5bf55cc326
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-21_
 
 In der Edge-Pool-Topologie werden zwei oder mehr Edgeserver als Lastenausgleichspool im Umkreisnetzwerk des Datencenters bereitgestellt. Der Hardware Lastenausgleich wird für den Datenverkehr sowohl auf der externen als auch auf der internen Edgeserver-Schnittstelle verwendet.
 
-Wenn Ihre Organisation Unterstützung für mehr als 15.000-Access-Edgedienst-Clientverbindungen, 1.000 aktive Webkonferenz-Edgedienst-Clientverbindungen oder 500 gleichzeitige A/V-Edgedienst-Sitzungen erfordert und eine höhere Verfügbarkeit des Edgeserver wichtig ist, Diese Topologie bietet die Vorteile der Skalierbarkeit und der Failover-Unterstützung.
+Wenn Ihre Organisation Unterstützung für mehr als 15.000 Access-Edgedienst-Clientverbindungen, 1.000 Active Web Conferencing Edge Service-Clientverbindungen oder 500 gleichzeitige A/V-Edgedienst Sitzungen erfordert und eine höhere Verfügbarkeit des Edgeserver wichtig ist, bietet diese Topologie die Vorteile der Skalierbarkeit und der Failover-Unterstützung.
 
 Die Abbildung zeigt keine Directors, eine optionale Serverrolle, die im internen Netzwerk zwischen den Edgeserver und ihren Front-End-Pools oder-Servern bereitgestellt wird. . Details zur Topologie für Directors finden Sie unter [für den Director in lync Server 2013 erforderliche Komponenten](lync-server-2013-components-required-for-the-director.md).
 
@@ -73,7 +75,7 @@ Ausführliche Informationen finden Sie im Abschnitt "Hardware Lastenausgleich-An
 
 **Skalierte konsolidierte Edge-Topologie (Hardwarelastenausgleich)**
 
-![3a57cd0d-8de4-4ecc-A783-4dff5b3456a2] (images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-A783-4dff5b3456a2")
+![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
 
 <div>
 

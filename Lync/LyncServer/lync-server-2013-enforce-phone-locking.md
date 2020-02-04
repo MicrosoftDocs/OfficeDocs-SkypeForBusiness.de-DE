@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erzwingen der Telefon Sperrung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enforce phone locking
 ms:assetid: 1f89298b-aea9-4952-93ca-0270b565792b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4961aabf2edce33f1e5975497844704ac0feae03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c781c09db1834d85a1df4532d1484e43d74ca48
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832220"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Wenn Sie die Telefonsperre erzwingen möchten, aktivieren und konfigurieren Sie 
 
 6.  Übernehmen Sie in **minimaler PIN-Länge**den Standardwert für die Mindestanzahl von stellen, die die Unlock-Pin enthalten muss, oder geben Sie einen neuen Wert an. Der Bereich für die PIN-Länge beträgt vier bis fünfzehn Ziffern, der Standardwert ist 6.
 
-7.  Über **** nehmen Sie den Standardwert für die Mindestzeitdauer, bevor das Telefon sich selbst sperrt, oder geben Sie einen neuen Wert an. Der Bereich für das Timeout beträgt 0 bis 60 Minuten, und der Standardwert ist 10. Geben Sie den Wert im Format HH:MM:SS ein.
+7.  Über **nehmen Sie den**Standardwert für die Mindestzeitdauer, bevor das Telefon sich selbst sperrt, oder geben Sie einen neuen Wert an. Der Bereich für das Timeout beträgt 0 bis 60 Minuten, und der Standardwert ist 10. Geben Sie den Wert im Format HH:MM:SS ein.
 
 8.  Klicken Sie auf **Commit ausführen**.
 

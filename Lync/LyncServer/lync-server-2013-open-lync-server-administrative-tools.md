@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Öffnen der lync Server-Verwaltungstools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Open Lync Server administrative tools
 ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195741(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa84c132061cb599448b78cf7d4ffcc6bd7fa3d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3c1b2eec210b22bc45a27c9635507c7ad83553
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826017"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Gehen Sie wie folgt vor, um den Bereitstellungs-Assistenten lokal zu starten, um
 
 1.  Melden Sie sich bei dem Computer an, auf dem der lync Server-Bereitstellungs-Assistent als Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" installiert ist.
 
-2.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server**-Bereitstellungs-Assistent.
+2.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Bereitstellungs-Assistent**.
 
 </div>
 

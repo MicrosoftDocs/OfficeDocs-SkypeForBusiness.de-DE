@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Sicherungs-und Wiederherstellungsanforderungen: Daten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Backup and restoration requirements: data'
 ms:assetid: ecfb8e4d-cb4f-476d-9772-4486bd683c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202194(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54814295343b99cb51e5827791df160dbeff2638
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9b9f077e0f9d7c4137844b2cba352b096fdb564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839886"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -215,13 +217,13 @@ Wenn Sie sicherstellen möchten, dass Sie die lync Server-Dienste bei einem Fehl
 
   - **Zertifizierungsstellen und Zertifikate**   verwenden Sie die Richtlinie Ihrer Organisation für das Sichern Ihrer Zertifizierungsstelle (Certification Authority, ca) und Zertifikate. Wenn Sie exportierbare private Schlüssel verwenden, können Sie das Zertifikat und den privaten Schlüssel sichern und dann exportieren, wenn Sie die in diesem Dokument beschriebenen Verfahren zum Wiederherstellen von lync Server verwenden. Wenn Sie eine interne Zertifizierungsstelle verwenden, können Sie die Registrierung erneut registrieren, wenn Sie lync Server wiederherstellen müssen. Es ist wichtig, dass Sie den privaten Schlüssel an einem sicheren Ort aufbewahren, wo er verfügbar ist, wenn ein Computer ausfällt.
 
-  - **System Center Operations Manager**   Wenn Sie Microsoft System Center Operations Manager (vormals Microsoft Operations Manager) zum Überwachen Ihrer lync Server-Bereitstellung verwenden, können Sie optional die Daten sichern, die beim Überwachen von lync erstellt werden. Server. Verwenden Sie den standardmäßigen SQL Server-Sicherungsvorgang zum Sichern von System Center Operations Manager-Dateien. Diese Dateien werden während der Wiederherstellung nicht wiederhergestellt.
+  - **System Center Operations Manager**   Wenn Sie Microsoft System Center Operations Manager (vormals Microsoft Operations Manager) zum Überwachen Ihrer lync Server-Bereitstellung verwenden, können Sie optional die Daten sichern, die beim Überwachen von lync Server erstellt werden. Verwenden Sie den standardmäßigen SQL Server-Sicherungsvorgang zum Sichern von System Center Operations Manager-Dateien. Diese Dateien werden während der Wiederherstellung nicht wiederhergestellt.
 
-  - **PSTN-Gateway-Konfiguration**   (Public Switched Telephone Network) Wenn Sie Enterprise-VoIP oder Survivable Branch-Appliances verwenden, müssen Sie die Konfiguration des PSTN-Gateways sichern. Informationen zum Sichern und Wiederherstellen von Konfigurationen für PSTN-Gateways finden Sie in Ihrem Anbieter.
+  - **PSTN-Gateway-Konfiguration (Public Switched Telephone Network)**   Wenn Sie Enterprise-VoIP oder Survivable Branch-Appliances verwenden, müssen Sie die Konfiguration des PSTN-Gateways sichern. Informationen zum Sichern und Wiederherstellen von Konfigurationen für PSTN-Gateways finden Sie in Ihrem Anbieter.
 
-  - **Nebeneinander vorhandene Versionen von lync Server oder Office Communications Server**   Wenn Ihre lync Server 2013-Bereitstellung mit lync Server 2010 oder einer früheren Version von Office Communications Server koexistiert, können Sie die Verfahren in diesem Dokument nicht zum Sichern verwenden oder Wiederherstellen der vorherigen Version. Stattdessen müssen Sie die Sicherungs-und Wiederherstellungsverfahren verwenden, die speziell für ihre frühere Version dokumentiert sind. Weitere Informationen zum Sichern und Wiederherstellen von lync Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) unter. Weitere Informationen zum Sichern und Wiederherstellen von Microsoft Office Communications Server 2007 R2 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)unter.
+  - **Nebeneinander vorhandene Versionen von lync Server oder Office Communications Server**   Wenn Ihre lync Server 2013-Bereitstellung mit lync Server 2010 oder einer früheren Version von Office Communications Server koexistiert, können Sie die Verfahren in diesem Dokument nicht zum Sichern oder Wiederherstellen der vorherigen Version verwenden. Stattdessen müssen Sie die Sicherungs-und Wiederherstellungsverfahren verwenden, die speziell für ihre frühere Version dokumentiert sind. Weitere Informationen zum Sichern und Wiederherstellen von lync Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) unter. Weitere Informationen zum Sichern und Wiederherstellen von Microsoft Office Communications Server 2007 R2 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)unter.
 
-  - **Infrastruktur Informationen**   , die Sie benötigen, um Informationen zu Ihrer Infrastruktur zu sichern, beispielsweise Ihre Firewall-Konfiguration, die Konfiguration des Lastenausgleichs, die Konfiguration der Internet Informationsdienste (IIS), DNS-Einträge (Domain Name System) und IP-Adressen und DHCP-Konfiguration (Dynamic Host Configuration Protocol). Informationen zum Sichern dieser Komponenten finden Sie bei den jeweiligen Anbietern.
+  - **Infrastruktur Informationen**   , die Sie benötigen, um Informationen zu Ihrer Infrastruktur zu sichern, beispielsweise Ihre Firewall-Konfiguration, Konfiguration des Lastenausgleichs, Konfiguration der Internet Informationsdienste (IIS), DNS-Einträge (Domain Name System) und IP-Adressen sowie DHCP-Konfiguration (Dynamic Host Configuration Protocol). Informationen zum Sichern dieser Komponenten finden Sie bei den jeweiligen Anbietern.
 
   - **Microsoft Exchange und Exchange Unified Messaging (um)**   sichern und Wiederherstellen von Microsoft Exchange und Exchange um, wie in der Microsoft Exchange-Dokumentation beschrieben. Weitere Informationen zum Sichern und Wiederherstellen von Exchange Server 2013 finden Sie [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)unter. Weitere Informationen zum Sichern und Wiederherstellen von Exchange Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)unter.
     

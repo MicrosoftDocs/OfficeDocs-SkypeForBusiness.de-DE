@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anforderungen für die Ausfallsicherheit an Zweigstell
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff969638f8c46abdd0ebcc8d11821a6a31b3c76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f146f2c358e6eb6718aa60f8a51106430e6a4a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Wenn eine Verzweigungs Website nicht über einen DNS-Server verfügt, gibt es zw
 
 ## <a name="voice-routing-for-branch-users"></a>VoIP-Routing für Branch-Benutzer
 
-Wir empfehlen, dass Sie eine separate VoIP-Richtlinie auf Benutzerebene für Benutzer in einer Zweigstelle erstellen. Diese Richtlinie sollte eine primäre Route umfassen, die die Survivable Branch Appliance oder das Branch Server-Gateway verwendet, und mindestens eine Sicherungs Route, die einen trunk mit einem PSTN-Gateway (Public Switched Telephone Network) am zentralen Standort verwendet. Wenn die primäre Route nicht verfügbar ist, wird stattdessen die Sicherungs Route verwendet, die mindestens ein zentrales Standort Gateway verwendet. Auf diese Weise ist die VoIP-Richtlinie des Benutzers unabhängig davon, wo ein Benutzer registriert ist, auf der Zweigstellen-Registrierungsstelle oder dem sicherungsregistrierungspool am zentralen Standort immer gültig. Dies ist eine wichtige Überlegung für Failover-Szenarien. Wenn Sie beispielsweise die Survivable Branch-Appliance umbenennen oder die Survivable Branch-Appliance neu konfigurieren müssen, um eine Verbindung mit einem sicherungsregistrierungspool am zentralen Standort herzustellen, müssen Sie die Zweigstellenbenutzer für die Dauer an den zentralen Standort verschieben. (Einzelheiten zum Umbenennen oder Neukonfigurieren einer Survivable Branch-Appliance finden Sie in [Anhang B: Verwalten einer Survivable Branch-Appliance in lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) in der Bereitstellungsdokumentation.) Wenn diese Benutzer keine VoIP-Richtlinien auf Benutzerebene oder Wählpläne auf Benutzerebene haben und die Benutzer auf eine andere Website umgestellt werden, gelten die VoIP-Richtlinien auf Websiteebene und die Wählpläne auf Websiteebene des zentralen Standorts standardmäßig für die Benutzer und nicht für die Websiteebene des Zweigstellen-VoIP Richtlinien und Wählpläne,. Wenn die VoIP-Richtlinien auf Websiteebene und die vom sicherungsregistrierungspool verwendeten Wählpläne auf Websiteebene auch für die Benutzer der Verzweigungs Website gelten können, treten in diesem Szenario keine Anrufe auf. Wenn beispielsweise Benutzer von einer Zweigstelle, die sich in Japan befindet, in einen zentralen Standort in Redmond verschoben werden, wird ein Wählplan mit Normalisierungsregeln, der + 1425 allen siebenstelligen anrufen vorangestellt wird, wahrscheinlich nicht geeignet sein, Anrufe für diese Benutzer angemessen zu übersetzen.
+Wir empfehlen, dass Sie eine separate VoIP-Richtlinie auf Benutzerebene für Benutzer in einer Zweigstelle erstellen. Diese Richtlinie sollte eine primäre Route umfassen, die die Survivable Branch Appliance oder das Branch Server-Gateway verwendet, und mindestens eine Sicherungs Route, die einen trunk mit einem PSTN-Gateway (Public Switched Telephone Network) am zentralen Standort verwendet. Wenn die primäre Route nicht verfügbar ist, wird stattdessen die Sicherungs Route verwendet, die mindestens ein zentrales Standort Gateway verwendet. Auf diese Weise ist die VoIP-Richtlinie des Benutzers unabhängig davon, wo ein Benutzer registriert ist, auf der Zweigstellen-Registrierungsstelle oder dem sicherungsregistrierungspool am zentralen Standort immer gültig. Dies ist eine wichtige Überlegung für Failover-Szenarien. Wenn Sie beispielsweise die Survivable Branch-Appliance umbenennen oder die Survivable Branch-Appliance neu konfigurieren müssen, um eine Verbindung mit einem sicherungsregistrierungspool am zentralen Standort herzustellen, müssen Sie die Zweigstellenbenutzer für die Dauer an den zentralen Standort verschieben. (Einzelheiten zum Umbenennen oder Neukonfigurieren einer Survivable Branch-Appliance finden Sie in [Anhang B: Verwalten einer Survivable Branch-Appliance in lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) in der Bereitstellungsdokumentation.) Wenn diese Benutzer keine VoIP-Richtlinien auf Benutzerebene oder Wählpläne auf Benutzerebene haben und die Benutzer auf eine andere Website umgestellt werden, gelten die VoIP-Richtlinien auf Websiteebene und die Wählpläne auf Websiteebene des zentralen Standorts standardmäßig für die Benutzer und nicht für die Website VoIP-Richtlinien und Wählpläne auf Websiteebene. Wenn die VoIP-Richtlinien auf Websiteebene und die vom sicherungsregistrierungspool verwendeten Wählpläne auf Websiteebene auch für die Benutzer der Verzweigungs Website gelten können, treten in diesem Szenario keine Anrufe auf. Wenn beispielsweise Benutzer von einer Zweigstelle, die sich in Japan befindet, in einen zentralen Standort in Redmond verschoben werden, wird ein Wählplan mit Normalisierungsregeln, der + 1425 allen siebenstelligen anrufen vorangestellt wird, wahrscheinlich nicht geeignet sein, Anrufe für diese Benutzer angemessen zu übersetzen.
 
 <div>
 
@@ -195,7 +197,7 @@ Wenn der trunk-Peer, der das Umleiten an das PSTN übernimmt, keine Durchwahlnum
 
 Unabhängig davon, ob eine WAN-Verbindung verfügbar ist, wenn Ihre Organisation keine DID-Nummern für einzelne Benutzer konfiguriert hat und der Leitungs-URI für einen Benutzer die Telefonnummer Ihrer Organisation und die eindeutige Durchwahlnummer des Benutzers enthält, müssen Sie Ihre der Telefonnummern-URI der Organisation mit einer Nummer, die über das trunk-Peer-oder PSTN-Gateway auf der Zweigstelle erreichbar ist. Darüber hinaus müssen Sie den Telefonnummern-URI Ihrer Organisation so konfigurieren, dass seine eigene eindeutige Durchwahl für die Weiterleitung von Anrufen an diese Nummer hinzugefügt wird.
 
-Informationen zu Anrufen von einem zentralen Websitebenutzer zu einem Zweigstellenbenutzer, wenn die WAN-Verbindung zwischen den Websites nicht verfügbar ist, finden Sie weiter unten in diesem Thema unter "Vorbereiten der Überlebensfähigkeit von Voicemail". Details zu Wählplänen und Normalisierungsregeln, einschließlich anderer Beispielregeln, finden Sie unter [Wählpläne und Normalisierungsregeln in lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in der Planungsdokumentation und [Konfigurieren von Wählplänen in lync Server 2013](lync-server-2013-configuring-dial-plans.md) in der Bereitstellung. Dokumentation. Details zu den Regeln für ausgehende Übersetzungen finden Sie unter [Übersetzungsregeln in lync Server 2013](lync-server-2013-translation-rules.md) in der Planning-Dokumentation und [Definieren von Übersetzungsregeln in lync Server 2013](lync-server-2013-defining-translation-rules.md) in der Bereitstellungsdokumentation.
+Informationen zu Anrufen von einem zentralen Websitebenutzer zu einem Zweigstellenbenutzer, wenn die WAN-Verbindung zwischen den Websites nicht verfügbar ist, finden Sie weiter unten in diesem Thema unter "Vorbereiten der Überlebensfähigkeit von Voicemail". Details zu Wählplänen und Normalisierungsregeln, einschließlich anderer Beispielregeln, finden Sie unter [Wählpläne und Normalisierungsregeln in lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in der Planungsdokumentation und [Konfigurieren von Wählplänen in lync Server 2013](lync-server-2013-configuring-dial-plans.md) in der Bereitstellungsdokumentation. Details zu den Regeln für ausgehende Übersetzungen finden Sie unter [Übersetzungsregeln in lync Server 2013](lync-server-2013-translation-rules.md) in der Planning-Dokumentation und [Definieren von Übersetzungsregeln in lync Server 2013](lync-server-2013-defining-translation-rules.md) in der Bereitstellungsdokumentation.
 
 </div>
 

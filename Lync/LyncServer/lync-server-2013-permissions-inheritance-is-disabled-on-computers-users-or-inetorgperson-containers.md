@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vererbung von Berechtigungen ist für Computer-, Benut
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da84454a6e02e02520206b5eb667edfcf4fce849
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ In einer gesperrten Active Directory-Umgebung, in der die Berechtigungsvererbung
 
 Mit diesem Cmdlet werden die erforderlichen ACEs direkt für die angegebenen Container oder OUs sowie für die Objekte User oder inetOrgPerson innerhalb des Containers hinzugefügt. Wenn die Organisationseinheit, auf der dieser Befehl ausgeführt wird, über untergeordnete OUs mit Benutzer-oder inetOrgPerson-Objekten verfügt, werden die Berechtigungen nicht auf diese angewendet. Sie müssen den Befehl für jede untergeordnete ou einzeln ausführen. Hierbei handelt es sich um ein häufiges Szenario mit lync-Host Bereitstellungen, beispielsweise übergeordnete OU = OCS-Mandanten, DC = contoso, DC = local und Child ou = Mandanten 1, ou = OCS-Mandanten, DC = contoso, DC = local.
 
-Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer auch in der gesperrten Umgebung entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container oder OUs in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync entfernt beschrieben werden. Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) oder verwenden Sie ein Konto, das ein Mitglied der Gruppe "Organisations-Admins" ist.
+Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer auch in der gesperrten Umgebung entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container oder OUs in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync Server 2013 entfernt](lync-server-2013-authenticated-user-permissions-are-removed.md) oder ein Konto verwendet wird, das Mitglied der Gruppe "Organisations-Admins" ist.
 
 **So legen Sie die erforderlichen ACEs für Benutzer-, InetOrgPerson-und Kontaktobjekte**
 
@@ -92,7 +94,7 @@ In einer gesperrten Active Directory-Umgebung, in der die Berechtigungsvererbung
 
 Mit diesem Verfahren werden die erforderlichen ACEs direkt in den angegebenen Containern hinzugefügt.
 
-Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer ebenfalls entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync Server 2013 entfernt](lync-server-2013-authenticated-user-permissions-are-removed.md) oder ein Konto verwendet wird, das eine Mitglied der Gruppe "Organisations-Admins".
+Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitgliedschaft der Domänenadministratoren entsprechen. Wenn die ACEs für authentifizierte Benutzer ebenfalls entfernt wurden, müssen Sie diesem Konto Lesezugriffs-ACEs für die relevanten Container in der Gesamtstruktur-Stammdomäne erteilen, wie unter [authentifizierte Benutzerberechtigungen in lync Server 2013 entfernt](lync-server-2013-authenticated-user-permissions-are-removed.md) oder ein Konto verwendet wird, das Mitglied der Gruppe "Organisations-Admins" ist.
 
 **So legen Sie die erforderlichen ACEs für Computerobjekte**
 
@@ -125,7 +127,7 @@ Zum Ausführen dieses Cmdlets benötigen Sie Benutzerrechte, die der Gruppenmitg
     
 
     > [!NOTE]  
-    > Wenn Sie die Domänenvorbereitung für die Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory-Umgebung ausführen, beachten Sie, dass lync Server Zugriff auf das Active Directory-Schema und die Konfigurationscontainer benötigt.<BR>Wenn die Berechtigung für den Standard authentifizierten Benutzer aus dem Schema oder den Konfigurationscontainern&nbsp;in AD DS entfernt wird, dürfen nur Mitglieder der Gruppe Schemaadministratoren (für Schemacontainer) oder Gruppe Organisations-Admins (für Konfigurationscontainer) Zugreifen auf den angegebenen Container Da für Setup. exe, lync Server-Verwaltungsshell-Cmdlets und lync Server Control Panel Zugriff auf diese Container erforderlich ist, treten beim Einrichten und Installieren der Verwaltungstools Fehler auf, es sei denn, der Benutzer, der die Installation ausführt, verfügt über Benutzerrechte, die dem Schema entsprechen. Gruppenmitgliedschaft für Administratoren und Unternehmensadministratoren.<BR>Um dieses Problem zu beheben, müssen Sie RTCUniversalGlobalWriteGroup Group Read, Schreibzugriff auf die Schema-und Konfigurationscontainer erteilen.
+    > Wenn Sie die Domänenvorbereitung für die Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory-Umgebung ausführen, beachten Sie, dass lync Server Zugriff auf das Active Directory-Schema und die Konfigurationscontainer benötigt.<BR>Wenn die Berechtigung für den Standard authentifizierten Benutzer aus dem Schema oder den Konfigurationscontainern&nbsp;in AD DS entfernt wird, dürfen nur Mitglieder der Gruppe Schemaadministratoren (für Schemacontainer) oder Gruppe Organisations-Admins (für Konfigurationscontainer) auf den angegebenen Container zugreifen. Da für Setup. exe, lync Server-Verwaltungsshell-Cmdlets und lync Server Control Panel Zugriff auf diese Container erforderlich ist, treten beim Einrichten und Installieren der Verwaltungstools Fehler auf, es sei denn, der Benutzer, der die Installation ausführt, verfügt über Benutzerrechte, die dem Schema entsprechen. Gruppenmitgliedschaft für Administratoren und Unternehmensadministratoren.<BR>Um dieses Problem zu beheben, müssen Sie RTCUniversalGlobalWriteGroup Group Read, Schreibzugriff auf die Schema-und Konfigurationscontainer erteilen.
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren der Benutzerkontoeinstellungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure user account settings
 ms:assetid: b7c74ecc-b924-4efc-8a56-3a5f94a9ef13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4d06405d2f80aef5decb69d564ae399401d4328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b74056587a192ec81f0dffb0044fb76e7698960
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839303"
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
-Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Für die Authentifizierung ist der in lync Server-Benutzerkonten angegebene Telefon Leitungs- **URI** erforderlich.
+Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Für die Authentifizierung ist der in lync Server-Benutzerkonten angegebene Telefon **Leitungs-URI** erforderlich.
 
 In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Details zur Verwendung eines Beispielskripts zum Zuweisen von **Leitungs-URI** zu mehreren Benutzerkonten finden Sie unter "Zuweisen von [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)Leitungs-URIs zu mehreren Benutzern" unter.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Von der Ankündigungsanwendung verwendete Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by the Announcement application
 ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e4a0fdfe0dcdd69a3f371aed338caf7f73348
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839501"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Die folgenden lync Server-Komponenten unterstützen die Ankündigungs Anwendung:
 
   - **Reaktionsgruppenanwendung**   die Antwortgruppen Anwendung ist eine der Unified Communications-Anwendungen, die vom Anwendungsdienst gehostet werden. Wenn ein nicht zugewiesener Telefonnummern Bereich so konfiguriert ist, dass er zu einer Ankündigung weitergeleitet wird, ist die reaktionsgruppenanwendung erforderlich, um die an die Telefonnummer vorgenommenen Anrufe weiterzuleiten. (Antwortgruppen Anwendung ist nicht erforderlich, wenn alle Bereiche für die Weiterleitung an Exchange Unified Messaging (um) konfiguriert sind.)
 
-  - ****   Audiodateien-Audiodateien werden für Ankündigungen verwendet.
+  - **Audiodateien**   -Audiodateien werden für Ankündigungen verwendet.
 
   - **Dateispeicher**   die Ankündigungs Anwendung verwendet den Dateispeicher zum Speichern der Audiodateien.
 

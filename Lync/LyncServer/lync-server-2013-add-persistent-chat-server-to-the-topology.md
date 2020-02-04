@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Hinzufügen eines Server für beständigen Chat zu ein
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Sie müssen lync Server 2013 und die Unterstützung für beständigen Chat Serve
 
 ## <a name="to-add-persistent-chat-server-to-a-topology"></a>So fügen Sie einen beständigen Chat Server zu einer Topologie hinzu
 
-Führen Sie die folgenden Schritte aus, um einen einzelnen beständigen Chat Server Pool ohne Disaster Recovery-Konfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten beständigen Chat-Server Pools für Hochverfügbarkeits-und Disaster Recovery finden Sie unter Konfigurieren des beständigen [Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in der Bereitstellungsdokumentation.
+Führen Sie die folgenden Schritte aus, um einen einzelnen beständigen Chat Server Pool ohne Disaster Recovery-Konfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten beständigen Chat-Server Pools für Hochverfügbarkeits-und Disaster Recovery finden Sie unter [Konfigurieren des beständigen Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in der Bereitstellungsdokumentation.
 
 Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen Vorgang für jeden Pool.
 
@@ -51,14 +53,14 @@ Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen
     
 
     > [!NOTE]  
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die für die Installation eines lync Server 2013-Servers erforderlich ist, müssen Sie ein Konto verwenden, das ein Mitglied der Gruppe der <STRONG>Domänenadministratoren</STRONG> und der <STRONG>RTCUniversalS ist. erverAdmins</STRONG> -Gruppe, die über die Berechtigung "Vollzugriff" (also lesen, schreiben und ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des beständigen Chat Servers verwenden werden (d.-a., damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
+    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die erforderlich ist, um einen lync Server 2013-Server zu installieren. Sie müssen ein Konto verwenden, das ein Mitglied der Gruppe " <STRONG>Domänen-Admins</STRONG> " und der Gruppe " <STRONG>RTCUniversalServerAdmins</STRONG> " ist und über Vollzugriffsberechtigungen (also lesen, schreiben und ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des beständigen Chat Servers verwenden werden (d.-a., damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
 
     
     </div>
 
 2.  Starten Sie den Topologie-Generator.
 
-3.  Navigieren Sie in der Konsolenstruktur zum Knoten **beständiger Chat Pools** , und erweitern Sie ihn, um einen Server Pool für beständigen Chat auszuwählen, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie **neuer beständiger Chat Pool**aus. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
+3.  Navigieren Sie in der Konsolenstruktur zum Knoten **beständiger Chat Pools** , und erweitern Sie ihn, um einen Server Pool für beständigen Chat auszuwählen, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie **neuer beständiger Chat Pool**aus. Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools definieren und angeben, ob es sich bei dem Pool um eine Einzelserver Pool-oder um die Bereitstellung mehrerer Server Pools handelt.
     
     Wählen Sie **Pool mit mehreren Computern** oder **Pool mit einem Computer** aus. Wählen Sie die erste Option aus, wenn Sie beabsichtigen, mehr als einen beständigen Chat Server-Front-End-Server in Ihrem beständigen Chat-Serverpool zu haben. Wählen Sie diese Option jetzt oder zu einem späteren Zeitpunkt, da Sie einem Pool mit einem Computer später keine zusätzlichen Server hinzufügen können. Wenn Sie einen Pool mit mehreren Computern auswählen, geben Sie die Namen der einzelnen beständigen Chat Server-Front-End-Server ein, aus denen sich der Pool zusammensetzt.
     
@@ -83,7 +85,7 @@ Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen
     
 
     > [!IMPORTANT]  
-    > Sie können die Funktionen zur raumerstellung und-Verwaltung mithilfe des beständigen Chat-Servers Software Development Kit (SDK) anpassen.<BR>Ausführliche Informationen zum Konfigurieren von SQL Server-Sicherungsdatenbanken für die Disaster Recovery finden Sie unter Konfigurieren des beständigen <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013</A> in der Bereitstellungsdokumentation.
+    > Sie können die Funktionen zur raumerstellung und-Verwaltung mithilfe des beständigen Chat-Servers Software Development Kit (SDK) anpassen.<BR>Ausführliche Informationen zum Konfigurieren von SQL Server-Sicherungsdatenbanken für die Disaster Recovery finden Sie unter <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Konfigurieren des beständigen Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
     
     </div>
@@ -106,7 +108,7 @@ Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen
     
 
     > [!IMPORTANT]  
-    > Informationen zum Konfigurieren von SQL Server-Spiegelungen für die Hochverfügbarkeits-Datenbank für die persistente Chat Server-Datenbank und die Datenbank für beständigen Chat Server finden Sie unter Konfigurieren des beständigen <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Chat Servers für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013</A> in der Bereitstellungsdokumentation.
+    > Weitere Informationen zum Konfigurieren von SQL Server-Spiegelungen für die Hochverfügbarkeits-Datenbank für die persistente Chat Server-Datenbank und die Datenbank für beständigen Chat Server finden Sie unter <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Konfigurieren des beständigen Chat Servers für die Hochverfügbarkeits-und Disaster Recovery in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
     
     </div>

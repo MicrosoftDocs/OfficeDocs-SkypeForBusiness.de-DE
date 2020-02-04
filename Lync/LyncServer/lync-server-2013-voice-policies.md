@@ -3,6 +3,8 @@ title: 'Lync Server 2013: VoIP-Richtlinien'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca1e72a1b62a224898d98aec7fcef9bc62ddf8bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3998bd6f879b20b1a22f46818a22f26bbb2cc29a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847178"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -106,7 +108,7 @@ Für jede Richtlinie können Sie die folgenden Anruffunktionen aktivieren oder d
 
   - **Voicemail-Ausweg** verhindert, dass Anrufe sofort an das Voicemail-System des Mobiltelefons des Benutzers weitergeleitet werden, wenn gleichzeitiges Klingeln konfiguriert und das Telefon abgeschaltet, ohne Strom oder außer Reichweite ist und auf einem Timer-Wert basiert. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Sie kann nur mithilfe der lync Server-Verwaltungsshell konfiguriert werden. Diese ist standardmäßig deaktiviert.
 
-  - **Anrufweiterleitung und gleichzeitiges anrufen PSTN** -Nutzungen ermöglicht es Administratoren, dieselbe PSTN-Nutzung wie die VoIP-Richtlinie für die Anrufweiterleitung und gleichzeitiges Klingeln festzulegen, die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne lync-Benutzer zu beschränken. oder geben Sie eine benutzerdefinierte PSTN-Nutzung an, die von der PSTN-Nutzung der VoIP-Richtlinie abweicht. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
+  - **Anrufweiterleitung und gleichzeitiges anrufen PSTN-Nutzungen** können Administratoren die gleiche PSTN-Verwendung wie die VoIP-Richtlinie für die Anrufweiterleitung und gleichzeitiges Klingeln angeben, die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne lync-Benutzer einschränken oder eine benutzerdefinierte PSTN-Nutzung angeben, die sich von der PSTN-Nutzung der VoIP-Richtlinie unterscheidet. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
 
 </div>
 

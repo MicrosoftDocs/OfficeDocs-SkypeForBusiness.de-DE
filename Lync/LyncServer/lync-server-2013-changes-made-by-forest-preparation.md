@@ -3,6 +3,8 @@ title: 'Lync Server 2013: von der Gesamtstrukturvorbereitung vorgenommene Änder
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839615"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Grup
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Active Directory-Einstellungen und-Objekte
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen lync Server 2013-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste- **** Container und fügt unter den Konfigurations\\Diensten ein RTC-Dienstobjekt hinzu. Objekt. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die lync Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen Systemcontainer und ein RTC-Dienstobjekt\\unter dem Microsoft-Systemobjekt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen lync Server 2013-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste- **** Container und fügt unter dem Configuration\\Services-Objekt ein RTC-Dienstobjekt hinzu. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die lync Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen Systemcontainer und ein RTC-Dienstobjekt\\unter dem Microsoft-Systemobjekt.
 
 Bei der Gesamtstrukturvorbereitung wird auch ein neues **Attribut msRTCSIP-Domänen** Objekt für die Stammdomäne hinzugefügt, in der die Prozedur ausgeführt wird.
 
@@ -247,15 +249,15 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche A
 
 Im Konfigurationscontainer führt die Gesamtstrukturvorbereitung unter dem Konfigurationsnamenskontext die folgenden Aufgaben aus:
 
-  - Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und inetOrgPerson hinzu (beispielsweise CN = Benutzeranzeige, CN = 409, CN = DisplaySpecifiers).
+  - Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und InetOrgPersons hinzu (beispielsweise CN = User-Display, CN = 409, CN = DisplaySpecifiers).
 
   - Fügt unter **Erweiterte Rechte** , die für die Benutzer-und Kontaktklassen gelten, ein **RTCPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
   - Fügt unter **Erweiterte Rechte** , die für Benutzer-, Kontakt-, ou-und domainDNS-Klassen gelten, ein **RTCUserSearchPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
-  - Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut des jeweiligen Anzeigebezeichners der sprach Organisationseinheit (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte der **extraColumns** -Attribut der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
+  - Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut der einzelnen Organisations Einheits Anzeigebezeichner (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte des **extraColumns** -Attributs der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
 
-  - Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut jedes Sprachanzeige Bezeichners für Benutzer, Kontakte, und InetOrgPerson-Objekte (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
+  - Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut der einzelnen Sprachanzeige Bezeichner für Benutzer, Kontakte und InetOrgPerson-Objekte hinzu (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
 
 </div>
 

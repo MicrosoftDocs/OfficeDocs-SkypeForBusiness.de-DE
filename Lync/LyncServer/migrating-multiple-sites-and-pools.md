@@ -3,6 +3,8 @@ title: Migrieren von mehreren Standorten und Pools
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating multiple sites and pools
 ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205165(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7759c52051dfe4ca4a46e105e6a33f3284f334e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2f01303c7fe137253d8e993edb05e9562d963ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847107"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Lync Server 2013 unterstützt die Bereitstellung mehrerer Standorte und mehrerer
 
 5.  Nachdem Sie überprüft haben, dass der lync Server 2010-Pool leer ist, können Sie den Pool deaktivieren.
     
-    Details zum Deaktivieren des Legacy-lync Server 2010-Pools und-Servers finden Sie unter [Phase 8: Legacy-Pools](phase-8-decommission-legacy-pools.md)der decommission-Version.
+    Details zum Deaktivieren des Legacy-lync Server 2010-Pools und-Servers finden Sie unter [Phase 8: Legacy-Pools der decommission-Version](phase-8-decommission-legacy-pools.md).
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen einer Edge- und Director-Topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Building an edge and Director topology
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398202(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae45053e8d9c01cd484da8a052304712f04a06fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f8a86d4f80b7fb4fc9990911908ef0c8a317c98
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Details zu diesen Tools finden Sie unter [Bereitstellungscheckliste für den Zug
 
 
 > [!NOTE]  
-> Wenn Sie zuvor mithilfe von Topology Builder eine vollständige Topologie einschließlich der Edge-Topologie definiert haben, können Sie die <A href="lync-server-2013-define-your-edge-topology.md">Definition ihrer Edge-Topologie in lync Server 2013</A> überspringen und <A href="lync-server-2013-publish-your-topology.md">Ihre Topologie in lync Server 2013</A> -Aufgaben in diesem Abschnitt veröffentlichen, aber Sie müssen Führen Sie den <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export ihrer lync Server 2013-Topologie durch, und kopieren Sie Sie für die Edge-Installationsaufgabe in externe Medien</A> .
+> Wenn Sie zuvor mithilfe des Topologie-Generators eine vollständige Topologie einschließlich der Edge-Topologie definiert haben, können Sie die <A href="lync-server-2013-define-your-edge-topology.md">Definition ihrer Edge-Topologie in lync Server 2013</A> überspringen und <A href="lync-server-2013-publish-your-topology.md">Ihre Topologie in lync Server 2013</A> -Aufgaben in diesem Abschnitt veröffentlichen, doch müssen Sie den <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export ihrer lync Server 2013-Topologie durchführen und diese in externe Medien für die Edge-Installationsaufgabe kopieren</A> .
 
 
 

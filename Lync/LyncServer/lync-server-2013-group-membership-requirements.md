@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erforderliche Gruppenmitgliedschaft'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group membership requirements
 ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743345"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ In der folgenden Tabelle sind die Gruppen oder Gruppen zusammengefasst, zu denen
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> – Assistenten gesteuerte Benutzeroberfläche zum Erstellen, anzeigen, anpassen und Validieren von lync Server 2013-Topologien.</p></td>
-<td><p>Mitglied der lokalen Gruppe Administratoren auf dem Computer, auf dem die ausführbare Datei ausgeführt wird, um die Topologie anzuzeigen. Mitglied der RTCUniversalServerAdmins-Gruppe, um die Konfigurationseinstellungen zu ändern. Mitglied der Gruppe "RTCUniversalServerAdmins", Gruppe "Domänen-Admins" oder Mitglied der RTCUniversalServerAdmins-Gruppe (nur, wenn der Gruppe Berechtigungen für die Stellvertretung erteilt wurden), um die Topologie zu veröffentlichen. Details zum Delegieren von Setup Berechtigungen, damit Mitglieder der RTCUniversalServerAdmins-Gruppe die Topologie veröffentlichen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein, finden Sie unter <a href="lync-server-2013-granting-setup-permissions.md">Gewähren von Setup Berechtigungen in lync Server 2013</a> in der Bereitstellung. Dokumentation.</p></td>
+<td><p>Mitglied der lokalen Gruppe Administratoren auf dem Computer, auf dem die ausführbare Datei ausgeführt wird, um die Topologie anzuzeigen. Mitglied der RTCUniversalServerAdmins-Gruppe, um die Konfigurationseinstellungen zu ändern. Mitglied der Gruppe "RTCUniversalServerAdmins", Gruppe "Domänen-Admins" oder Mitglied der RTCUniversalServerAdmins-Gruppe (nur, wenn der Gruppe Berechtigungen für die Stellvertretung erteilt wurden), um die Topologie zu veröffentlichen. Details zum Delegieren von Setup Berechtigungen, damit Mitglieder der RTCUniversalServerAdmins-Gruppe die Topologie veröffentlichen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein, finden Sie unter <a href="lync-server-2013-granting-setup-permissions.md">Gewähren von Setup Berechtigungen in lync Server 2013</a> in der Bereitstellungsdokumentation.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> – webbasierte grafische Benutzeroberfläche für die Verwaltung von lync Server 2013.</p></td>

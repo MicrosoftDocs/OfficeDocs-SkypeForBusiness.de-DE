@@ -3,6 +3,8 @@ title: Migrieren des Adressbuchs
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2293b7ad3e5ac14071bae4d5ecb935c24cfbb335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847129"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Wenn Sie in ihrer lync Server 2010-Umgebung Adressbuch-Normalisierungsregeln ang
 
 **UseNormalizationRules auf "false" festgelegt**
 
-Wenn Sie den Wert für " **UseNormalizationRules** " auf "false" festlegen, damit Benutzer Telefonnummern verwenden können, wie Sie in den Active Directory-Domänendiensten definiert sind, ohne dass lync Server 2013 die Normalisierungsregeln anwenden, müssen Sie die UseNormalizationRules festlegen. ** **und **IgnoreGenericRules** -Parameter auf true fest. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um diese Parameter auf "true" festzulegen.
+Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Benutzer Telefonnummern verwenden können, wie Sie in Active Directory-Domänendiensten definiert sind, ohne dass lync Server 2013 Normalisierungsregeln anwenden, müssen Sie die **UseNormalizationRules** -und **IgnoreGenericRules** -Parameter auf true festlegen. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um diese Parameter auf "true" festzulegen.
 
 <div>
 
@@ -75,7 +77,7 @@ Wenn Sie den Wert für " **UseNormalizationRules** " auf "false" festlegen, dami
     
 
     > [!NOTE]  
-    > Das Beispiel für die Normalisierungsregeln für das Adressbuch wurde im Dateiverzeichnis der ABS-Webkomponente installiert. Der Pfad ist <STRONG>$installedDriveLetter: \Programme\Microsoft lync Server 2013 \ Web Components\Address Adress Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Diese Datei kann als &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;in das Stammverzeichnis des freigegebenen Ordners des Adressbuchs kopiert und umbenannt werden. Beispielsweise ist das in <STRONG>$serverX</STRONG>freigegebene&nbsp;Adressbuch der Pfad ähnlich wie: <STRONG> \\$serverX \LyncFileShare\2-Webservices-1\ABFiles</STRONG>.
+    > Das Beispiel für die Normalisierungsregeln für das Adressbuch wurde im Dateiverzeichnis der ABS-Webkomponente installiert. Der Pfad ist <STRONG>$installedDriveLetter: \Programme\Microsoft lync Server 2013 \ Web Components\Address Adress Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt</STRONG>. Diese Datei kann als &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;in das Stammverzeichnis des freigegebenen Ordners des Adressbuchs kopiert und umbenannt werden. Beispielsweise ist das in <STRONG>$serverX</STRONG>freigegebene&nbsp;Adressbuch der Pfad ähnlich wie: <STRONG> \\$serverX \LyncFileShare\2-Webservices-1\ABFiles</STRONG>.
 
     
     </div>

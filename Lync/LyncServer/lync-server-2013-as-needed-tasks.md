@@ -3,6 +3,8 @@ title: 'Lync Server 2013: erforderliche Aufgaben'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e96fd6e73e043c5ea7c476f939b3a3e06eadbdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 344512a1dd4db44b8290efdcc726275b4a6898de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Führen Sie die folgenden Aufgaben nach Bedarf aus. Sie werden häufig auch durc
 
   - **Vollständige Sicherheitsüberwachung   ** Sie können diese Überprüfung regelmäßig als Reaktion auf ein Upgrade oder eine Neugestaltung des Messagingsystems oder als Antwort auf eine versuchte (oder erfolgreiche) Sicherheitsverletzung durchführen. Das Verfahren kann Port-Scans auf Servern und Firewalls, Audits von Sicherheitsfixes und Penetrationstests von Drittanbietern beinhalten.
 
-  - **Ersetzen von Zertifikaten über**   das Ablaufen der Überprüfung von lync Server-Zertifikaten ist eine regelmäßige wöchentliche Aufgabe, und als Teil des Verfahrens sollte ein Administrator eine Aufzeichnung aller Ablaufdaten aller Zertifikate aufweisen. Dieser Eintrag ermöglicht es einem Administrator, eine Benachrichtigung zu erstellen, wenn ein bestimmtes Zertifikat demnächst abgelaufen und nach Bedarf ersetzt werden soll.
+  - **Ersetzen von Zertifikaten über das ablaufen**   der Überprüfung von lync Server-Zertifikaten ist eine regelmäßige wöchentliche Aufgabe, und als Teil des Verfahrens sollte ein Administrator eine Aufzeichnung aller Ablaufdaten aller Zertifikate aufweisen. Dieser Eintrag ermöglicht es einem Administrator, eine Benachrichtigung zu erstellen, wenn ein bestimmtes Zertifikat demnächst abgelaufen und nach Bedarf ersetzt werden soll.
 
   - ****   Aktualisieren von Leistungsbasis Plänen aktualisieren Sie die Leistungsbasis Pläne nach einem Upgrade oder einer Konfigurationsänderung. Ihre Organisation kann Basispläne verwenden, um Leistungsänderungen zu messen und Probleme zu erkennen, die sich auf die Systemleistung auswirken.
 
@@ -87,7 +89,7 @@ Führen Sie die folgenden Aufgaben nach Bedarf aus. Sie werden häufig auch durc
     
       - Verwalten des Adressbuchservers über die Befehlszeile
 
-  - **** Die Verwaltung von Benutzerkonten für Benutzerkonten umfasst Folgendes:   
+  - **Die Verwaltung von**Benutzerkonten für Benutzerkonten umfasst Folgendes:   
     
       - Aktivieren von Benutzerkonten für lync Server
     

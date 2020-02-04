@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Auffüllen der Standortdatenbank'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824050"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,8 +68,8 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;&gt;Chassis-&lt;PortIDSubType&gt;,&lt;Port&gt;-Nr&lt;,&gt;Description&lt;,&gt;Location&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt; , HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Vorrichtungs&gt;-&lt;, Straßen&gt;Namen&lt;-&gt;,&lt;"streetsuffix"-,&gt;&lt;postdirectional-&gt;,&lt;Stadt&gt;&gt;&lt;-&lt; , Bundesland-, PLZ-, Land&gt;</p></td>
+<td><p>&lt;&gt;Chassis-&lt;PortIDSubType&gt;,&lt;&gt;Port-Nr&lt;,&gt;Description&lt;,&gt;Location&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix,...</p>
+<p>... &lt;&gt;Richtungs-,&lt;Straßennamen&gt;-&lt;,&gt;"streetsuffix"&lt;-,&gt;postdirectional-&lt;&gt;&lt;&gt;&lt;&lt;, Stadt&gt;-, Bundesland-, PLZ-, Land&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Switch</strong></p></td>

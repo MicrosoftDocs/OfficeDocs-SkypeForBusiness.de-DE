@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erforderliche Komponenten für den Zugriff durch exter
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for external user access
 ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425779(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895f2d4837eb465f0eead2b70cf1d603504699ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 550eb864ff7cc26eb0bfeace37759bb15b9816f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,11 +64,11 @@ Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die 
 
 Die Edgeserver senden und empfangen Netzwerkdatenverkehr für die Dienste, die von externen Benutzern bereitgestellt werden. Der Edgeserver führt die folgenden Dienste aus:
 
-  - **Access**   -Edgedienst der Access-Edgedienst stellt einen einzigen vertrauenswürdigen Verbindungspunkt für ausgehende und eingehende SIP-Datenverkehr (Session Initiation Protocol) bereit.
+  - **Access-Edgedienst**   der Access-Edgedienst stellt einen einzigen vertrauenswürdigen Verbindungspunkt für ausgehende und eingehende SIP-Datenverkehr (Session Initiation Protocol) bereit.
 
   - **Webkonferenz-Edgedienst**   der Webkonferenz-Edgedienst ermöglicht es externen Benutzern, an Besprechungen teilzunehmen, die auf Ihrer internen lync Server 2013-Bereitstellung gehostet werden.
 
-  - **A/v**   -Edgedienst der a/v-Edgedienst ermöglicht externen Benutzern die Bereitstellung von Audio, Video, Anwendungsfreigabe und Dateiübertragung. Ihre Benutzer können Besprechungen mit externen Teilnehmern Audio und Video hinzufügen, und Sie können in Punkt-zu-Punkt-Sitzungen mithilfe von Audio und/oder Video direkt mit einem externen Benutzer kommunizieren. Der A/V-Edgedienst bietet auch Unterstützung für die Desktopfreigabe und Dateiübertragung.
+  - **A/v-Edgedienst**   der a/v-Edgedienst ermöglicht externen Benutzern die Bereitstellung von Audio, Video, Anwendungsfreigabe und Dateiübertragung. Ihre Benutzer können Besprechungen mit externen Teilnehmern Audio und Video hinzufügen, und Sie können in Punkt-zu-Punkt-Sitzungen mithilfe von Audio und/oder Video direkt mit einem externen Benutzer kommunizieren. Der A/V-Edgedienst bietet auch Unterstützung für die Desktopfreigabe und Dateiübertragung.
 
   - **XMPP-Proxydienst**   der XMPP-Proxydienst akzeptiert und sendet Nachrichten zu und von konfigurierten XMPP-Verbundpartnern.
 

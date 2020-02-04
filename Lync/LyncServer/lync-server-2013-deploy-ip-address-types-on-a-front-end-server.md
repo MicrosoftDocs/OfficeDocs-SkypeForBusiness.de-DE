@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen von IP-Adresstypen auf einem Front-End-S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Front End Server
 ms:assetid: b6c8e0f9-ec8e-4a4e-a525-756f9cd6b9d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205191(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33ab774cc5b0f15ed04d3803741b6355230130fb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f70ff3098f11cbb3d3b04602dca9c12a4998a367
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832578"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
     
     **Dialogfeld „Eigenschaften bearbeiten“ für den Front-End-Server-Pool**
     
-    ![Front-End-Server-Dialogfeld ' Eigenschaften bearbeiten] ' (images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Front-End-Server-Dialogfeld ' Eigenschaften bearbeiten") '
+    ![Front-End-Server-Dialogfeld ' Eigenschaften bearbeiten '](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Front-End-Server-Dialogfeld ' Eigenschaften bearbeiten '")
     
       - **Alle konfigurierten IP-Adressen verwenden**. Wählen Sie diese Option, wenn Sie zulassen möchten, dass eine beliebige auf dem Computer festgelegte IP-Adresse verwendet wird.
         

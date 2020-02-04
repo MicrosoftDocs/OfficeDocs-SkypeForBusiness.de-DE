@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Zertifikaten auf dem Server, auf dem
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d31ed8b750d0162a2c09d49ca8a350731896086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839412"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839412"
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-26_
 
-Wenn Sie Exchange Unified Messaging (um) bereitgestellt haben, wie unter [Planen der Integration von Exchange Unified Messaging in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) in der Planning-Dokumentation beschrieben, und Sie Exchange um-Features für Enterprise-VoIP-Benutzer in Ihrem Organisation können Sie die folgenden Verfahren verwenden, um das Zertifikat auf dem Server mit Exchange um zu konfigurieren.
+Wenn Sie Exchange Unified Messaging (um) bereitgestellt haben, wie unter [Planen der Integration von Exchange Unified Messaging in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) in der Planning-Dokumentation beschrieben, und Sie Exchange um-Features für Enterprise-VoIP-Benutzer in Ihrer Organisation bereitstellen möchten, können Sie die folgenden Verfahren verwenden, um das Zertifikat auf dem Server mit Exchange um zu konfigurieren.
 
 <div>
 
@@ -63,7 +65,7 @@ Der Exchange-Server muss mit einem Server Zertifikat konfiguriert sein, um eine 
 
 ## <a name="to-download-the-ca-certificate"></a>So laden Sie das Zertifizierungsstellenzertifikat herunter
 
-1.  Klicken Sie auf dem Server, auf dem Exchange um ausgeführt wird, auf **Start**, klicken Sie auf **Ausführen**, geben Sie **http://\<Namen der ausstellenden CA-Server\>/CertSrv**ein, und klicken Sie dann auf **OK**.
+1.  Klicken Sie auf dem Server, auf dem Exchange um ausgeführt wird, auf **Start**, klicken Sie auf **Ausführen**, geben Sie **http://\<Namen der ausstellenden CA-\>Server/CertSrv**ein, und klicken Sie dann auf **OK**.
 
 2.  Klicken Sie unter **Aufgabe auswählen**auf **Zertifizierungsstellenzertifikat, Zertifikatkette oder CRL Herunterladen**.
 
@@ -187,7 +189,7 @@ Der Exchange-Server muss mit einem Server Zertifikat konfiguriert sein, um eine 
     
 
     > [!NOTE]  
-    > Für den <STRONG>Namen</STRONG>des Zertifikat Antragstellers müssen Sie den FQDN des Exchange-Servers eingeben, damit die Kommunikation funktioniert.
+    > Für den Namen des Zertifikat <STRONG>Antragstellers</STRONG>müssen Sie den FQDN des Exchange-Servers eingeben, damit die Kommunikation funktioniert.
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überprüfen oder Konfigurieren der Authentifizierung 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae692f788d906d01852990490ace01f67eebe63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847286"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ Gehen Sie wie folgt vor, um das Zertifikat in Ihren virtuellen Internet Informat
     
     Die Ausgabe ist eine Liste der Zertifikate, die sich derzeit auf dem Server im persönlichen Zertifikatspeicher des Computers befinden. Beachten Sie, dass in dem kombinierten Zertifikat (bei dem die standardmäßigen Webdienste Internal und Web Services External dasselbe Zertifikat verwenden) Sie sehen, dass die Use-Eigenschaft mit Standard, WebServicesInternal und WebServicesExternal aufgefüllt wird. Darüber hinaus ist die Fingerabdruck-Eigenschaft für jeden der Verwendungstypen identisch. In diesem Beispiel wird eine Beispielausgabe von Get-CsCertificate angezeigt:
     
-    ![Abrufen-CsCertificate Informationen zum aktuellen scert-Status] (images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Abrufen-CsCertificate Informationen zum aktuellen scert-Status")
+    ![Abrufen-CsCertificate Informationen zum aktuellen scert-Status](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Abrufen-CsCertificate Informationen zum aktuellen scert-Status")
 
 6.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
@@ -93,7 +95,7 @@ Gehen Sie wie folgt vor, um das Zertifikat in Ihren virtuellen Internet Informat
     
     </div>
     
-    ![Ausgabe aus CERT-Anforderung mithilfe von Request-CsCertifica] (images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Ausgabe aus CERT-Anforderung mithilfe von Request-CsCertifica")
+    ![Ausgabe aus CERT-Anforderung mithilfe von Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Ausgabe aus CERT-Anforderung mithilfe von Request-CsCertifica")
 
 7.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
     
@@ -105,7 +107,7 @@ Gehen Sie wie folgt vor, um das Zertifikat in Ihren virtuellen Internet Informat
     
     Die Ausgabe des Cmdlets "CsCertificate" zeigt an, dass das gleiche Zertifikat (durch den Fingerabdruck des Zertifikats identifiziert) für die Verwendung von Standard, WebServicesExternal und WebServicesInternal zugewiesen ist.
     
-    ![Ausgabe von "Satz-CsCertificate" auf IIS Webext] (images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Ausgabe von \"Satz-CsCertificate\" auf IIS Webext")
+    ![Ausgabe von "Satz-CsCertificate" auf IIS Webext](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Ausgabe von "Satz-CsCertificate" auf IIS Webext")
 
 </div>
 

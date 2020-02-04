@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen oder Ändern einer Standortrichtlinie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying a location policy
 ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 173cfd6ce158a089e03a9eded12c3c6920183463
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1648e845fc3759e7083c2443013f89fb49c1b00f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,9 +103,9 @@ In lync Server 2013 können Sie die Standardzeit Spanne zwischen Clientanforderu
     
       - **Konferenzmodus**   Wenn Sie einen Wert im Feld **Konferenz-URI** angeben, bestimmt der **Konferenzmodus** , ob ein Dritter an dem Anruf teilnehmen oder nur zuhören kann. Geben Sie eine der folgenden Optionen an:
         
-          - **** Eine unidirektionale Drittpartei kann nur die Konversation zwischen dem Anrufer und dem PSAP-Operator abhören.   
+          - **Eine**unidirektionale Drittpartei kann nur die Konversation zwischen dem Anrufer und dem PSAP-Operator abhören.   
         
-          - **** Eine bidirektionale Drittpartei kann den Anruf zwischen dem Anrufer und dem PSAP-Operator abhören und daran teilnehmen.   
+          - **Eine bidirektionale**Drittpartei kann den Anruf zwischen dem Anrufer und dem PSAP-Operator abhören und daran teilnehmen.   
 
 6.  Klicken Sie auf **Commit ausführen**.
     

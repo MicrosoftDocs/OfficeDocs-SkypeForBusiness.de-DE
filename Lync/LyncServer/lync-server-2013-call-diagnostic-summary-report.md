@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anruf Diagnose Zusammenfassungsbericht'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Microsoft lync Server 2013 verwendeten Methoden vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte "Instant Messaging" für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)durch, in der zusätzliche Informationen zu allen Sofortnachrichten bereitgestellt werden. im Zusammenfassungsbericht zur Anruf Diagnose enthaltene Nachrichten Sitzungen.
+Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Microsoft lync Server 2013 verwendeten Methoden vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte Instant Messaging für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)durch, in der zusätzliche Details zu allen Chatsitzungen enthalten sind, die im Zusammenfassungsbericht zur Anruf Diagnose enthalten sind.
 
 </div>
 

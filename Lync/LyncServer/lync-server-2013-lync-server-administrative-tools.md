@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server-Verwaltungstools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ In diesem Thema werden die Verwaltungstools für lync Server 2013 beschrieben.
 
 Die Verwaltungstools werden standardmäßig auf jedem lync Server-Server installiert. Darüber hinaus können Sie die Verwaltungstools auf anderen Computern installieren, beispielsweise in dedizierten Verwaltungskonsolen. Verfahren zum Installieren der Verwaltungstools finden Sie unter [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md). Verfahren zum Öffnen der Tools zum Durchführen von Verwaltungsaufgaben finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Stellen Sie sicher, dass Sie die Anforderungen für Infrastruktur, Betriebssystem, Software und Administratorrechte überprüfen, bevor Sie die lync Server-Verwaltungstools installieren oder verwenden. Details zu den Infrastrukturanforderungen finden Sie unter [Infrastrukturanforderungen für Verwaltungstools in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Ausführliche Informationen zu den Anforderungen des Betriebssystems und der Software zum Installieren der lync Server-Verwaltungstools finden Sie unter [Unterstützung des Betriebssystems für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md)und [ Zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) Die für die Installation und Verwendung der Tools erforderlichen Benutzerrechte und Berechtigungen sind unter [Administrator Rechte und-Berechtigungen für die Einrichtung und Verwaltung von lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)beschrieben.
+Stellen Sie sicher, dass Sie die Anforderungen für Infrastruktur, Betriebssystem, Software und Administratorrechte überprüfen, bevor Sie die lync Server-Verwaltungstools installieren oder verwenden. Details zu den Infrastrukturanforderungen finden Sie unter [Infrastrukturanforderungen für Verwaltungstools in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Ausführliche Informationen zu den Anforderungen des Betriebssystems und der Software zum Installieren der lync Server-Verwaltungstools finden Sie unter [Unterstützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md)und [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Die für die Installation und Verwendung der Tools erforderlichen Benutzerrechte und Berechtigungen sind unter [Administrator Rechte und-Berechtigungen für die Einrichtung und Verwaltung von lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)beschrieben.
 
 Die Verwaltungstools bestehen aus folgenden Themen:
 
-  - **Der lync Server**   -Bereitstellungs-Assistent verwendet zum Bereitstellen von lync Server und zum Installieren aller Verwaltungstools.
+  - **Der lync Server-Bereitstellungs-Assistent**   verwendet zum Bereitstellen von lync Server und zum Installieren aller Verwaltungstools.
 
   - **Der lync Server Topology Builder**   verwendet, um Komponenten in Ihrer Bereitstellung zu definieren.
 

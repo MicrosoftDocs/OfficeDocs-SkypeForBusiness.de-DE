@@ -3,6 +3,8 @@ title: Verschieben eines einzelnen Benutzers in den Pilot Pool
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847090"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-28_
 
 Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool in ihren lync Server 2013-Pilot Pool mithilfe der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwaltungsshell verschieben. Im folgenden Beispiel ist ** \<Office Communications\> ** Server in der Spalte Registrierungspool der Office Communications Server 2007 R2-Pool, und alle sechs dieser Benutzer sind mit diesem Pool verbunden. Führen Sie die folgenden Verfahren aus, um einen Benutzer mithilfe der lync Server 2013-Systemsteuerung und der lync Server-Verwaltungsshell in ihren lync Server 2013-Pool zu verschieben.
 
-![Suchen nach OCS-Benutzern in der lync Server-System] Steuerung (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-System") Steuerung
+![Suchen nach OCS-Benutzern in der lync Server-Systemsteuerung](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-Systemsteuerung")
 
 <div>
 
@@ -57,7 +59,7 @@ Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool i
 
 7.  Klicken Sie auf **Suchen** , um nach Legacy Office Communications Server 2007 R2-Benutzern zu suchen.
     
-    ![Suchen nach OCS-Benutzern in der lync Server-System] Steuerung (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-System") Steuerung  
+    ![Suchen nach OCS-Benutzern in der lync Server-Systemsteuerung](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Suchen nach OCS-Benutzern in der lync Server-Systemsteuerung")  
 
 8.  Wählen Sie einen Benutzer aus, den Sie in den lync Server 2013-Pool verschieben möchten. In diesem Beispiel verschieben wir den Benutzer Sara Davis.
 
@@ -67,7 +69,7 @@ Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool i
 
 11. Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**. Klicken Sie anschließend auf **OK**.
     
-    ![Festlegen des Ziel Pools im Dialogfeld "Benutzer verschieben"] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Festlegen des Ziel Pools im Dialogfeld \"Benutzer verschieben\"")  
+    ![Festlegen des Ziel Pools im Dialogfeld "Benutzer verschieben"](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Festlegen des Ziel Pools im Dialogfeld "Benutzer verschieben"")  
 
 12. Überprüfen Sie, ob die Spalte des **registrierungspools** für den Benutzer jetzt den lync Server 2013-Pool enthält, der angibt, dass der Benutzer erfolgreich verschoben wurde.
 
@@ -89,7 +91,7 @@ Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool i
 
 4.  Die **RegistrarPool** -Identität verweist nun auf den lync Server 2013-Pool. Das vorhanden sein dieser Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde.
     
-    ![Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe vom Cmdlet \"Get-CsUser\" mit dem Identitäts Filter")  
+    ![Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter")  
     
     <div>
     

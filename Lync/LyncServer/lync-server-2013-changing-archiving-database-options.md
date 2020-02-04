@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ändern der Optionen für die Archivierungsdatenbank'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changing Archiving database options
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204814(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a98c2efc0dc956a6b8c33f2fcf065f629e5e57d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 198e2abff6118197167f0f017ace22fc2ad76381
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839591"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Wenn Sie die Archivierung mithilfe des SQL Server-Speichers zum Archivieren von 
 
   - Wechseln Sie zur Microsoft Exchange-Integration, um Archivierungsdaten und-Dateien auf Exchange 2013-Servern zu speichern. Wenn alle Ihre Benutzer auf Ihren Exchange 2013-Servern verwaltet werden und Sie den Microsoft Exchange-Speicher für alle Benutzer in Ihrer Bereitstellung verwenden möchten, sollten Sie die SQL Server-Speicher Datenbanken aus Ihrer Topologie entfernen.
 
-Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und die Topologie dann erneut veröffentlichen. Sie können den Topologie-Generator verwenden, um dies zu tun. Geben Sie keinen **Archivierungs-SQL Server-Speicher** an, oder aktivieren Sie die Spiegelungsinformationen des **SQL Server** -Speichers, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Exchange 2013-Servern verwaltet werden
+Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und die Topologie dann erneut veröffentlichen. Sie können den Topologie-Generator verwenden, um dies zu tun. Geben Sie keinen **Archivierungs-SQL Server-Speicher** an, oder aktivieren Sie die **Spiegelungsinformationen des SQL Server-Speichers** , es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Exchange 2013-Servern verwaltet werden
 
 <div>
 
@@ -53,7 +55,7 @@ Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-G
     
 
     > [!NOTE]  
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen einer Komponente zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe der <STRONG>Domänenadministratoren</STRONG> und der RTCUniversalSer ist. <STRONG> verAdmins</STRONG> -Gruppe, die über Vollzugriffsberechtigungen (also lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013-Dateispeicher verwenden (Dies bedeutet, dass der Topologie-Generator die erforderlichen freigegebenen Zugriffssteuerungslisten konfigurieren kann ( DACLs) oder ein Konto mit entsprechenden Rechten.
+    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das ein Mitglied der lokalen Benutzergruppe ist, aber eine Topologie veröffentlichen, die zum Hinzufügen einer Komponente zur Topologie erforderlich ist. Sie müssen ein Konto verwenden, das ein Mitglied der Gruppe " <STRONG>Domänen-Admins</STRONG> " und der Gruppe " <STRONG>RTCUniversalServerAdmins</STRONG> " ist und über Vollzugriffsberechtigungen (also lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013-Dateispeicher verwenden (Dies bedeutet, dass der Topologie-Generator die erforderlichen freigegebenen Zugriffssteuerungslisten konfigurieren kann ( DACLs) oder ein Konto mit entsprechenden Rechten.
 
     
     </div>
@@ -84,7 +86,7 @@ Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-G
                 
                   - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
                 
-                  - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+                  - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
     
       - Wenn Sie einen SQL Server-Speicher zur Spiegelung hinzufügen oder für die SQL Server-Speicherspiegelung zu einem anderen vorhandenen SQL Server-Speicher wechseln möchten, wählen Sie **SQL Server-Speicherspiegelung aktivieren** aus und gehen Sie dann wie folgt vor:
         
@@ -96,15 +98,15 @@ Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-G
             
             2.  Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
             
-            3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+            3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
         
-          - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand des primären SQL Server-Servers und der Spiegelungs Instanzen erkennen kann) hinzufügen oder ändern möchten, wählen Sie den **SQL Server-Spiegelungs Zeugen verwenden aus, um Aktivieren** Sie das Kontrollkästchen Automatisches Failover, und führen Sie dann eine der folgenden Aktionen aus:
+          - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand des primären SQL Server-Servers und der Spiegelungs Instanzen erkennen kann) hinzufügen oder ändern möchten, aktivieren Sie das Kontrollkästchen **SQL Server-Spiegelungs Zeuge zum Aktivieren des automatischen Failovers verwenden** , und führen Sie dann eine der folgenden Aktionen aus:
             
             1.  Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Spiegelungs Zeugen erstellen möchten.
             
             2.  Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
             
-            3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+            3.  Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
     
       - Wenn Sie zur Microsoft Exchange-Integration wechseln möchten, um Archivierungsdaten und-Dateien auf Exchange 2013-Servern zu speichern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange 2013-Servern verwaltet werden), löschen Sie alle Informationen für die Archivierung von Datenbanken.
     

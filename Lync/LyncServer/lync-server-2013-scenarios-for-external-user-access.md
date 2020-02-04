@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Szenarien für den Zugriff durch externe Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eab8323744615dc3f5d0b68f4325fbfb85bf911e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822328"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ In diesem Abschnitt werden die Szenarien für die Bereitstellung von Edge-Server
 
 **Auswahlverfahren für Edge-Server-Bereitstellungsszenarien**
 
-![Beispiel Bereitstellungs Flussdiagramm] (images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Beispiel Bereitstellungs Flussdiagramm")
+![Beispielbereitstellung (Flussdiagramm)](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Beispielbereitstellung (Flussdiagramm)")
 
-Mithilfe dieses Vorgangs können Sie die Konfiguration aller potenziellen Features planen und dokumentieren, die Sie für Ihre Benutzer bereitstellen möchten. Sie können jedoch Föderations-und Mobilitätsdienste hinzufügen, nachdem Sie den Edgeserver bereitgestellt und den richtigen Vorgang bestätigt haben, bevor Sie weitere Features hinzufügen. Der Vorgang zum Hinzufügen von Features zu einer vorhandenen Edge-Server-Bereitstellung wird im Abschnitt Bereitstellung behandelt. Details zur Bereitstellung finden Sie unter [Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) durch einschließen der Planung für diese Features während des anfänglichen Planungsprozesses können Sie die DNS-, Firewall-und Zertifikatanforderungen für die hinzugefügten Features vorbereiten. Damit können Sie die Zertifikate erwerben und die DNS-und Port/Protocol-Anforderungen im Voraus konfigurieren.
+Mithilfe dieses Vorgangs können Sie die Konfiguration aller potenziellen Features planen und dokumentieren, die Sie für Ihre Benutzer bereitstellen möchten. Sie können jedoch Föderations-und Mobilitätsdienste hinzufügen, nachdem Sie den Edgeserver bereitgestellt und den richtigen Vorgang bestätigt haben, bevor Sie weitere Features hinzufügen. Der Vorgang zum Hinzufügen von Features zu einer vorhandenen Edge-Server-Bereitstellung wird im Abschnitt Bereitstellung behandelt. Details zur Bereitstellung finden Sie unter [Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) durch einschließen der Planung für diese Features während des anfänglichen Planungsprozesses können Sie die DNS-, Firewall-und Zertifikatanforderungen für die hinzugefügten Features vorbereiten, wodurch Sie die Zertifikate erwerben und die DNS-und Port/Protocol-Anforderungen im Voraus konfigurieren können.
 
 <div>
 
@@ -61,7 +63,7 @@ Mithilfe dieses Vorgangs können Sie die Konfiguration aller potenziellen Featur
 
 
 > [!NOTE]  
-> Alle Edge-Dienste werden auf jedem Edgeserver ausgeführt. Dienste können nicht zwischen zwei verschiedenen Edge-Servern aufgeteilt werden. Wenn Sie einen Edge-Pool für Skalierbarkeit bereitstellen, werden alle Edge-Dienste auf jedem Edgeserver im Pool bereitgestellt. XMPP Federation, Office Communications Server und lync Server Federation, öffentliche Chat Verbindungen und Clientmobilität sind zusätzliche Dienste, die bereitgestellt werden können, nachdem Sie Ihren First Edge-Server oder Edge-Pool bereitgestellt haben. Mobility Services ist ein Feature, das den Reverse-Proxy verwendet. Die Installation von Mobility Services fügt Ihren Edge-Servern keine Features hinzu, erfordert aber eine Neukonfiguration Ihres Reverse-Proxys. In der Spalte " <STRONG>Installationsziel</STRONG> ", in der diese Features aufgelistet sind, finden Sie Planungsanleitungen in der zugehörigen Spalte unter <STRONG>Edge-Server-Planning-Abschnitt oder Abschnitte</STRONG> für die gleichzeitige Planung der bereitzustellenden Features, wenn die Edgeserver verwendet werden. installiert und konfiguriert.
+> Alle Edge-Dienste werden auf jedem Edgeserver ausgeführt. Dienste können nicht zwischen zwei verschiedenen Edge-Servern aufgeteilt werden. Wenn Sie einen Edge-Pool für Skalierbarkeit bereitstellen, werden alle Edge-Dienste auf jedem Edgeserver im Pool bereitgestellt. XMPP Federation, Office Communications Server und lync Server Federation, öffentliche Chat Verbindungen und Clientmobilität sind zusätzliche Dienste, die bereitgestellt werden können, nachdem Sie Ihren First Edge-Server oder Edge-Pool bereitgestellt haben. Mobility Services ist ein Feature, das den Reverse-Proxy verwendet. Die Installation von Mobility Services fügt Ihren Edge-Servern keine Features hinzu, erfordert aber eine Neukonfiguration Ihres Reverse-Proxys. In der Spalte " <STRONG>Installationsziel</STRONG> ", in der diese Features aufgelistet sind, finden Sie Planungsanleitungen in der zugehörigen Spalte unter <STRONG>Edge-Server-Planung (Abschnitt) oder in Abschnitten</STRONG> für die gleichzeitige Planung dieser Features, die bei der Installation und Konfiguration der Edgeserver bereitgestellt werden sollen.
 
 
 

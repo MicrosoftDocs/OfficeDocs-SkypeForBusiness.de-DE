@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Installieren von Edgeservern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Edge Servers
 ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211baa13f80e89fa081b6bf65d4bd7e90d50d000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
 Sie installieren lync Server 2013 auf Edge-Servern mithilfe des lync Server-Bereitstellungs-Assistenten. Wenn Sie den Bereitstellungs-Assistenten auf jedem Edgeserver ausführen, können Sie die meisten Aufgaben ausführen, die zum Einrichten des Edge-Servers erforderlich sind. Damit Sie lync Server 2013 auf einem Edgeserver bereitstellen können, müssen Sie den Topologie-Generator bereits ausgeführt haben, um die Edgeserver-Topologie zu definieren und zu veröffentlichen und Sie auf Medien zu exportieren, die vom Edgeserver zur Verfügung stehen. Ausführliche Informationen finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) , [Exportieren Ihrer lync Server 2013-Topologie und Kopieren dieser in externe Medien für die Edge-Installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-Nachdem Sie mithilfe des Bereitstellungs-Assistenten die einzelnen Edgeserver installiert, die erforderlichen Zertifikate installiert und zugewiesen und die erforderlichen Dienste gestartet haben, können Sie die Einrichtung mithilfe der Informationen unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013 abschließen. ](lync-server-2013-configuring-support-for-external-user-access.md)zum Aktivieren und Konfigurieren des Zugriffs externer Benutzer und der Informationen zur [Überprüfung der Edge-Bereitstellung in lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) , um das Setup zu überprüfen, einschließlich Server-und Clientkonnektivität.
+Nachdem Sie den Bereitstellungs-Assistenten verwendet haben, um jeden Edgeserver zu installieren, die erforderlichen Zertifikate zu installieren und zuzuweisen und die erforderlichen Dienste zu starten, können Sie die Einrichtung mithilfe der Informationen unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) zum Aktivieren und Konfigurieren des Zugriffs auf externe Benutzer sowie der Informationen unter [Überprüfen der Edge-Bereitstellung in lync Server 2013 zum über](lync-server-2013-verifying-your-edge-deployment.md)
 
 <div>
 
@@ -62,7 +64,7 @@ Nachdem Sie mithilfe des Bereitstellungs-Assistenten die einzelnen Edgeserver in
 
 5.  Nachdem der Assistent den Bereitstellungsstatus für Schritt 1 festgelegt hat **. Installieren Sie den lokalen Konfigurationsspeicher**, klicken Sie auf **Ausführen** , und gehen Sie dann folgendermaßen vor:
     
-      - Klicken Sie im Dialogfeld **lokales Replikat des zentralen Verwaltungsspeichers konfigurieren** auf **aus einer Datei importieren (empfohlen für Edgeserver)**, wechseln Sie zum Speicherort der exportierten Topologie-Konfigurationsdatei, wählen Sie die ZIP-Datei aus, klicken Sie auf **Öffnen**und dann auf Klicken Sie auf **weiter**.
+      - Klicken Sie im Dialogfeld **lokales Replikat des zentralen Verwaltungsspeichers konfigurieren** auf **aus einer Datei importieren (empfohlen für Edgeserver)**, wechseln Sie zum Speicherort der exportierten Topologie-Konfigurationsdatei, wählen Sie die ZIP-Datei aus, klicken Sie auf **Öffnen**, und klicken Sie dann auf **weiter**.
     
       - Der Bereitstellungs-Assistent liest die Konfigurationsinformationen aus der Konfigurationsdatei und schreibt die XML-Konfigurationsdatei auf den lokalen Computer.
     

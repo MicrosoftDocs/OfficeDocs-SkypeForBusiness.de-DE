@@ -3,6 +3,8 @@ title: Lync Server 2013-Kapazitätsplanung mit den Benutzermodellen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b7db58e8c6f3e84f95a51ddd393ddca5ec18091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd9b3861e4c84b8df7585ad5cfbdfd5a82359282
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839690"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -163,7 +165,7 @@ In der folgenden Tabelle werden diese Empfehlungen zusammengefasst.
 
 </div>
 
-In einem Front-End-Pool sollten Sie über einen Front-End-Server für alle 6.660-Benutzer verfügen, die im Pool verwaltet werden, vorausgesetzt, dass Hyper-Threading auf allen Servern im Pool aktiviert ist und dass die Server Hardware die Empfehlungen in [Server Hardwareplattformen für lync erfüllt. Server 2013](lync-server-2013-server-hardware-platforms.md). Die maximale Anzahl von Benutzern in einem Front-End-Pool ist 80.000, vorausgesetzt, Hyper-Threading ist auf allen Servern im Pool aktiviert. Wenn Sie über mehr als 80.000 Benutzer an einer Website verfügen, können Sie mehr als einen Front-End-Pool bereitstellen.
+In einem Front-End-Pool sollten Sie über einen Front-End-Server für alle 6.660-Benutzer verfügen, die im Pool verwaltet werden, vorausgesetzt, dass Hyper-Threading auf allen Servern im Pool aktiviert ist und dass die Server Hardware die Empfehlungen in [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool ist 80.000, vorausgesetzt, Hyper-Threading ist auf allen Servern im Pool aktiviert. Wenn Sie über mehr als 80.000 Benutzer an einer Website verfügen, können Sie mehr als einen Front-End-Pool bereitstellen.
 
 Wenn Sie die Anzahl der Benutzer in einem Front-End-Pool berücksichtigen, schließen Sie die Benutzer, die sich auf überlebensfähigen Zweig-Appliances und überlebensfähigen Verzweigungs Servern befinden, in Zweigniederlassungen ein, die diesem Front-End-Pool zugeordnet sind.
 
@@ -185,7 +187,7 @@ Die Anzahl der Benutzer, die mit einer guten Leistung von einem bestimmten Front
 
 
 > [!IMPORTANT]  
-> In lync Server 2013 werden die Anwesenheits Datenbanken nun auf Front-End-Servern gehostet, anders als in lync Server 2010, auf dem Sie auf dem Back-End-Server gehostet wurden. Das bedeutet, dass die Datenträgerleistung und-Kapazität Ihrer Front-End-Server nicht von den weiter oben in diesem Abschnitt und auf <A href="lync-server-2013-server-hardware-platforms.md">Server Hardwareplattformen für lync Server 2013</A>aufgeführten Empfehlungen beeinträchtigt werden sollten, unabhängig von der Anzahl der Benutzer, die von Ihre Front-End-Server.
+> In lync Server 2013 werden die Anwesenheits Datenbanken nun auf Front-End-Servern gehostet, anders als in lync Server 2010, auf dem Sie auf dem Back-End-Server gehostet wurden. Das bedeutet, dass die Datenträgerleistung und-Kapazität Ihrer Front-End-Server nicht von den weiter oben in diesem Abschnitt und auf <A href="lync-server-2013-server-hardware-platforms.md">Server Hardwareplattformen für lync Server 2013</A>aufgeführten Empfehlungen beeinträchtigt werden sollten, unabhängig von der Anzahl der Benutzer, die von ihren Front-End-Servern gehostet werden.
 
 
 
@@ -310,7 +312,7 @@ Wenn Sie den Vermittlungsserver mit dem Front-End-Server collocate, wird der Med
 
 Wenn Sie einen eigenständigen vermittlungsserverpool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für den Vermittlungsserver verwendeten Hardware, der Anzahl der VoIP-Benutzer, der Anzahl der Gateway-Peers, die für jeden vermittlungsserverpool verwendet werden. Steuerelemente, der auslastungsstunden Verkehr über diese Gateways und der Prozentsatz von Anrufen mit Medien, die den Vermittlungs Server umgehen.
 
-Die folgenden Tabellen enthalten eine Richtlinie für die Anzahl von gleichzeitigen anrufen, die von einem Vermittlungsserver verarbeitet werden können, vorausgesetzt, die Hardware für die Vermittlungsserver erfüllt die Anforderungen in [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) und Hyper-Threading ist aktiviert. Details zur Vermittlungsserver-Skalierbarkeit finden Sie unter [schätzen der Sprachverwendung und des Datenverkehrs für lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) und [Bereitstellungsrichtlinien für den Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
+Die folgenden Tabellen stellen eine Richtlinie für die Anzahl von gleichzeitigen anrufen dar, die von einem Vermittlungsserver verarbeitet werden können, vorausgesetzt, die Hardware für die Vermittlungsserver erfüllt die Anforderungen in [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) und das Hyper-Threading ist aktiviert. Details zur Vermittlungsserver-Skalierbarkeit finden Sie unter [schätzen der Sprachverwendung und des Datenverkehrs für lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) und [Bereitstellungsrichtlinien für den Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
 Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodellen in lync Server 2013](lync-server-2013-user-models.md)zusammengefasst ist.
 

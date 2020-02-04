@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Webveröffentlichungsregeln für ein
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
 
 4.  Wählen Sie auf der Seite **Regelaktion auswählen** die Option **zulassen**aus.
 
-5.  Wählen Sie **** auf der Seite Veröffentlichungs **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
+5.  Wählen Sie auf der Seite **Veröffentlichungs** **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
 
 6.  Wählen Sie auf der Seite **Server Verbindungssicherheit** die Option **SSL verwenden aus, um eine Verbindung mit dem veröffentlichten Webserver oder der Serverfarm herzustellen**.
 
@@ -75,7 +77,7 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
     
 
     > [!NOTE]  
-    > Wenn es sich bei dem internen Server um einen Standard Edition-Server handelt, handelt es sich um den FQDN des Standard Edition-Servers. Wenn es sich bei dem internen Server um einen Front-End-Pool handelt, handelt es sich bei diesem FQDN um einen Hardware-Lastenausgleichsmodul (Virtual IP, VIP), mit dem die internen Webfarmserver ausgeglichen werden. Der TMG-Server muss den FQDN in die IP-Adresse des internen Webservers auflösen können. Wenn der TMG-Server den FQDN nicht in die richtige IP-Adresse auflösen kann, können Sie <STRONG>einen Computernamen oder eine IP-Adresse verwenden, um eine Verbindung mit dem veröffentlichten Server herzustellen</STRONG>, und dann im Feld <STRONG>Computername oder</STRONG> <STRONG>IP-Adresse</STRONG> die IP-Adresse des internen w eingeben. EB-Server. In diesem Fall müssen Sie sicherstellen, dass Port 53 auf dem TMG-Server geöffnet ist und einen DNS-Server erreicht, der sich im Umkreisnetzwerk befindet. Sie können auch Einträge in der lokalen Hosts-Datei verwenden, um die Namensauflösung bereitzustellen.
+    > Wenn es sich bei dem internen Server um einen Standard Edition-Server handelt, handelt es sich um den FQDN des Standard Edition-Servers. Wenn es sich bei dem internen Server um einen Front-End-Pool handelt, handelt es sich bei diesem FQDN um einen Hardware-Lastenausgleichsmodul (Virtual IP, VIP), mit dem die internen Webfarmserver ausgeglichen werden. Der TMG-Server muss den FQDN in die IP-Adresse des internen Webservers auflösen können. Wenn der TMG-Server den FQDN nicht in die richtige IP-Adresse auflösen kann, können Sie <STRONG>einen Computernamen oder eine IP-Adresse verwenden, um eine Verbindung mit dem veröffentlichten Server herzustellen</STRONG>, und geben Sie dann im Feld <STRONG>Computername oder</STRONG> <STRONG>IP-Adresse</STRONG> die IP-Adresse des internen Webservers ein. In diesem Fall müssen Sie sicherstellen, dass Port 53 auf dem TMG-Server geöffnet ist und einen DNS-Server erreicht, der sich im Umkreisnetzwerk befindet. Sie können auch Einträge in der lokalen Hosts-Datei verwenden, um die Namensauflösung bereitzustellen.
 
     
     </div>
@@ -93,13 +95,13 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
 
 9.  Überprüfen Sie auf der Seite Details für den **öffentlichen Namen** , ob **dieser Domänenname** unter **Anforderungen annehmen für**ausgewählt ist, geben Sie im Feld **Öffentlicher Name** den FQDN der externen Webdienste ein.
 
-10. Klicken Sie auf der Seite Weblistener **auswählen** auf **neu** , um den Assistenten für neue Weblistener-Definition zu öffnen.
+10. Klicken Sie auf der Seite **Weblistener auswählen** auf **neu** , um den Assistenten für neue Weblistener-Definition zu öffnen.
 
-11. Geben Sie auf der Seite **Willkommen beim neuen** Weblistener-Assistenten im Feld Weblistener- **Name** einen Namen für den Weblistener ein (beispielsweise LyncServerWebServers).
+11. Geben Sie auf der Seite **Willkommen beim neuen Weblistener-Assistenten** im Feld **Weblistener-Name** einen Namen für den Weblistener ein (beispielsweise LyncServerWebServers).
 
 12. Wählen Sie auf der Seite **Client Verbindungssicherheit** die Option **SSL-gesicherte Verbindungen mit Clients anfordern**aus.
 
-13. Wählen Sie auf der Seite Weblistener **-IP-Adresse** die Option **extern**aus, und klicken Sie dann auf **IP-Adressen auswählen**.
+13. Wählen Sie auf der Seite **Weblistener-IP-Adresse** die Option **extern**aus, und klicken Sie dann auf **IP-Adressen auswählen**.
 
 14. Wählen Sie auf der Seite **externe Listener-IP-Auswahl** die Option **angegebene IP-Adresse auf dem Forefront TMG-Computer im ausgewählten Netzwerk**aus, wählen Sie die entsprechende IP-Adresse aus, und klicken Sie auf **Hinzufügen**.
 
@@ -111,9 +113,9 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
 
 18. Klicken Sie auf der Seite **SSO-Einstellungen** auf **weiter**.
 
-19. Überprüfen Sie auf der Seite **abschließen des** Weblistener-Assistenten, ob die Weblistener **-** Einstellungen korrekt sind, und klicken Sie dann auf **Fertig stellen**.
+19. Überprüfen Sie auf der Seite **abschließen des Weblistener-Assistenten** , ob die **Weblistener-** Einstellungen korrekt sind, und klicken Sie dann auf **Fertig stellen**.
 
-20. Wählen Sie **** auf der Seite Authentifizierungsdelegierung **keine Delegierung aus, aber der Client kann sich direkt authentifizieren**.
+20. Wählen Sie auf der Seite **Authentifizierungsdelegierung** **keine Delegierung aus, aber der Client kann sich direkt authentifizieren**.
 
 21. Klicken Sie auf der Seite **Benutzersatz** auf **weiter**.
 
@@ -230,15 +232,15 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
         
         </div>
 
-13. Klicken Sie auf der linken Seite der Konsole auf den Namen des IIS-Servers. Suchen Sie in der Mitte der Konsole unter **IIS**nach **URL** -Umschreibung. Doppelklicken Sie auf URL-umschreiben, um die Konfiguration der Regeln für die URL-Umschreibung zu öffnen. Es sollten Regeln für jede Server Farm angezeigt werden, die Sie in den vorherigen Schritten erstellt haben. Wenn dies nicht der Fall ist, vergewissern Sie sich, dass Sie auf den **IIS-Server** Namen direkt unter dem Knoten **Start Seite** in der Internet Information Server-Manager-Konsole geklickt haben.
+13. Klicken Sie auf der linken Seite der Konsole auf den Namen des IIS-Servers. Suchen Sie in der Mitte der Konsole unter **IIS**nach **URL-Umschreibung** . Doppelklicken Sie auf URL-umschreiben, um die Konfiguration der Regeln für die URL-Umschreibung zu öffnen. Es sollten Regeln für jede Server Farm angezeigt werden, die Sie in den vorherigen Schritten erstellt haben. Wenn dies nicht der Fall ist, vergewissern Sie sich, dass Sie auf den **IIS-Server** Namen direkt unter dem Knoten **Start Seite** in der Internet Information Server-Manager-Konsole geklickt haben.
 
-14. Im Dialogfeld **URL** -umschreiben unter Verwendung von Webext.contoso.com als Beispiel ist der vollständige Name der angezeigten Regel **arr\_Webext.contoso.com\_Loadbalance\_SSL**.
+14. Im Dialogfeld **URL-umschreiben** unter Verwendung von Webext.contoso.com als Beispiel ist der vollständige Name der angezeigten Regel **arr\_Webext.contoso.com\_Loadbalance\_SSL**.
     
       - Doppelklicken Sie auf die Regel, um das Dialogfeld " **Eingehende Regel bearbeiten** " zu öffnen.
     
       - Klicken Sie auf **hinzufügen...** im Dialogfeld " **Bedingungen** ".
     
-      - Geben **Sie** unter Bedingungs **Eingabe:** **{\_HTTP-Host}** ein. (Während der Eingabe wird ein Dialogfeld eingeblendet, in dem Sie die Bedingung auswählen können). Wählen Sie unter **überprüfen, ob Eingabezeichenfolge:** **die Option entspricht dem Muster**aus. Geben **\*** Sie im **Muster Eingabetyp** an. **Fall ignorieren** sollte ausgewählt sein. Klicken Sie auf **OK**.
+      - Geben **Sie** unter **Bedingungs Eingabe:** **{\_HTTP-Host}** ein. (Während der Eingabe wird ein Dialogfeld eingeblendet, in dem Sie die Bedingung auswählen können). Wählen Sie unter **überprüfen, ob Eingabezeichenfolge:** **die Option entspricht dem Muster**aus. Geben **\*** Sie im **Muster Eingabetyp** an. **Fall ignorieren** sollte ausgewählt sein. Klicken Sie auf **OK**.
     
       - Scrollen Sie im Dialogfeld " **Eingehende Regel bearbeiten** " nach unten, um das Dialogfeld **Aktion** zu finden. **Aktionstyp:** sollte auf **Route to Server Farm**festzulegen, **Schema:** auf **https://**, **Serverfarm:** auf die URL festzulegen, auf die diese Regel angewendet wird. Für dieses Beispiel sollte dies auf **Webext.contoso.com**festzulegen sein. **Path:** ist auf **/{R: 0}** eingestellt
     
@@ -250,7 +252,7 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
     
 
     > [!WARNING]  
-    > Standardmäßig werden http-Regeln ebenfalls erstellt und durch die ähnliche Namensgebung für die SSL-Regeln bezeichnet. Für unser aktuelles Beispiel würde die HTTP-Regel den Namen <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. Für diese Regeln sind keine Änderungen erforderlich, und Sie können bedenkenlos ignoriert werden.
+    > Standardmäßig werden http-Regeln ebenfalls erstellt und durch die ähnliche Namensgebung für die SSL-Regeln bezeichnet. Für das aktuelle Beispiel wird die HTTP-Regel mit dem Namen <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Für diese Regeln sind keine Änderungen erforderlich, und Sie können bedenkenlos ignoriert werden.
 
     
     </div>
@@ -295,7 +297,7 @@ Führen Sie die folgenden Verfahren aus, um Webveröffentlichungsregeln zu erste
 
 2.  Klicken Sie auf der linken Seite der Konsole auf den Namen des IIS-Servers.
 
-3.  Suchen Sie in der Mitte der Konsole unter **IIS**nach **URL** -Umschreibung. Doppelklicken Sie auf URL-umschreiben, um die Konfiguration der Regeln für die URL-Umschreibung zu öffnen.
+3.  Suchen Sie in der Mitte der Konsole unter **IIS**nach **URL-Umschreibung** . Doppelklicken Sie auf URL-umschreiben, um die Konfiguration der Regeln für die URL-Umschreibung zu öffnen.
 
 4.  Doppelklicken Sie auf die Regel, die Sie ändern müssen. Nehmen Sie die gewünschten Änderungen in **Übereinstimmung mit URL**, **Bedingungen**, **Server Variablen** oder **Aktion**vor.
 

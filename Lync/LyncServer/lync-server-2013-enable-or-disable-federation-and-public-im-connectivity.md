@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Partnerverbunds und d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die Unterstützung für die Föderation ist erforderlich, damit Benutzer, die ü
 
 Wenn Sie den Zugriff von Benutzern von Verbunddomänen unterstützen möchten, müssen Sie die Föderation aktivieren. Wenn Sie die Föderation für Ihre Organisation aktivieren, müssen Sie auch angeben, ob die folgenden Optionen implementiert werden sollen:
 
-  - **Aktivieren der Partnerdomänen Erkennung**   Wenn Sie diese Option aktivieren, verwendet lync Server DNS-Einträge (Domain Name System), um zu versuchen, Domänen zu ermitteln, die nicht in der Liste der zulässigen Domänen aufgeführt sind, und automatisch eingehenden Datenverkehr von erkannten Föderationen ausgewertet Partner und begrenzen oder Blockieren des Datenverkehrs basierend auf der Vertrauensebene, dem Umfang des Datenverkehrs und den Administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zulässig sein sollen, einschließlich der Beschränkung des Zugriffs auf bestimmte Server, auf denen der Access-Edgedienst in der Verbunddomäne ausgeführt wird. Details zum Steuern des Zugriffs durch Verbunddomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Aktivieren der Partnerdomänen Erkennung**   Wenn Sie diese Option aktivieren, verwendet lync Server DNS-Einträge (Domain Name System), um zu versuchen, Domänen zu ermitteln, die nicht in der Liste der zulässigen Domänen aufgeführt sind, wobei der eingehende Datenverkehr von ermittelten Partner Partnern automatisch ausgewertet und der Datenverkehr basierend auf Vertrauenswürdigkeit, Datenverkehr und Administratoreinstellungen eingeschränkt oder blockiert wird. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zulässig sein sollen, einschließlich der Beschränkung des Zugriffs auf bestimmte Server, auf denen der Access-Edgedienst in der Verbunddomäne ausgeführt wird. Details zum Steuern des Zugriffs durch Verbunddomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
   - **Senden einer Verzichtserklärung zur Archivierung an Föderationspartner**     Haftungsausschluss Hinweis wird an verbundene Partner gesendet, die die Archivierung in Ihrer Bereitstellung durchgeführt haben. Wenn Sie die Archivierung externer Kommunikation mit Verbundpartner Domänen unterstützen, sollten Sie die Benachrichtigung über Archivierungs Verzicht aktivieren, um die Partner zu warnen, dass Ihre Nachrichten archiviert werden.
 

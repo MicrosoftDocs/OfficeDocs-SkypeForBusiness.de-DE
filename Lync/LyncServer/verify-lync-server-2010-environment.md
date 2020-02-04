@@ -3,6 +3,8 @@ title: Überprüfen der Lync Server 2010-Umgebung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 248d779bc43b7c3e220728222aca030036f17e00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846977"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereit
 
 2.  Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
     
-    ![Liste der Dienste, die auf dem Front-End-Server ausgeführt werden] (images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Liste der Dienste, die auf dem Front-End-Server ausgeführt werden")
+    ![Liste der Dienste, die auf dem Front-End-Server ausgeführt werden](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Liste der Dienste, die auf dem Front-End-Server ausgeführt werden")
 
 **Überprüfen der lync Server 2010-Topologie in der lync Server-Systemsteuerung**
 
@@ -61,7 +63,7 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereit
 
 3.  Wählen Sie **Topologie**aus. Überprüfen Sie, ob die verschiedenen Server in ihrer lync Server 2010-Bereitstellung aufgelistet sind.
     
-    ![Lync Server 2010-Seite "Systemsteuerung"] (images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010-Seite \"Systemsteuerung\"")
+    ![Lync Server 2010-Seite "Systemsteuerung"](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010-Seite "Systemsteuerung"")
 
 **So überprüfen Sie lync Server 2010-Benutzer in der lync Server-Systemsteuerung**
 
@@ -71,7 +73,7 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereit
 
 3.  Überprüfen Sie, ob die Spalte des **registrierungspools** auf den lync Server 2010-Pool für jeden aufgelisteten Benutzer verweist.
     
-    ![Lync Server 2010-System] Steuerung mit Einträgen für Benutzer (images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010-System") Steuerung mit Einträgen für Benutzer
+    ![Lync Server 2010-Systemsteuerung mit Einträgen für Benutzer](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010-Systemsteuerung mit Einträgen für Benutzer")
 
 **So überprüfen Sie die Edge-und Federation-Einstellungen von lync Server 2010**
 
@@ -85,15 +87,15 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereit
 
 5.  Wählen Sie den Websiteknoten aus, und überprüfen Sie, ob ein **Standort Verbund-Routen Zuordnungs** Wert festgesetzt ist.
     
-    ![Topologie-Generator, Website Verbund Route] (images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topologie-Generator, Website Verbund Route")
+    ![Topologie-Generator, Website Verbund Route](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topologie-Generator, Website Verbund Route")
 
 6.  Wählen Sie als nächstes den Standard Edition-Server oder Enterprise Edition-Front-End-Pool aus. Ermitteln Sie, ob ein Edge-Pool für Medien unter **Zuordnungen**konfiguriert wurde.
     
-    ![Topologie-Generator mit Servern und Pools] (images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topologie-Generator mit Servern und Pools")
+    ![Topologie-Generator mit Servern und Pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topologie-Generator mit Servern und Pools")
 
 7.  Wählen Sie abschließend den Edge-Pool aus, und ermitteln Sie, ob unterhalb des **nächsten Hop-Auswahlbereichs**ein nächster Hop-Pool konfiguriert ist.
     
-    ![Topologie-Generator, Auswahl des nächsten Hops] (images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topologie-Generator, Auswahl des nächsten Hops")
+    ![Topologie-Generator, Auswahl des nächsten Hops](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topologie-Generator, Auswahl des nächsten Hops")
 
 **Überprüfen der Konfiguration von Legacy-XMPP-Verbundpartnern**
 
@@ -101,7 +103,7 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereit
 
 2.  Überprüfen Sie, ob der Office Communications Server-XMPP-Gatewayserver gestartet wurde.
     
-    ![Office Communications Server-XMPP] -Gatewaydienst (images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server-XMPP") -Gatewaydienst
+    ![Office Communications Server-XMPP-Gatewaydienst](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server-XMPP-Gatewaydienst")
 
 </div>
 

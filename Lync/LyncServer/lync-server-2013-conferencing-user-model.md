@@ -3,6 +3,8 @@ title: Lync Server 2013 Conferencing-Benutzermodell
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: The conferencing user model
 ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f517e6d3ea3a832c4331377fa49ef7e474377de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839461"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Ein wichtiger Bestandteil des Benutzermodells von lync Server Conferencing ist d
 
 Neben der Größe der Besprechung berücksichtigt das Konferenzbenutzer Modell auch eine Reihe von Faktoren, wie beispielsweise:
 
-  - **Gleich**   zeitige Besprechungen, wie viele Benutzer gleichzeitig in Besprechungen erwartet werden?
+  - **Gleichzeitige Besprechungen**   , wie viele Benutzer gleichzeitig in Besprechungen erwartet werden?
 
   - **Medienmischung**   welche Medientypen sind verfügbar und werden von Benutzern in Besprechungen erwartet?
 
