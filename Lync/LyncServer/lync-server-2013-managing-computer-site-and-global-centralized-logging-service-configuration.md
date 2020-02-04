@@ -3,6 +3,8 @@ title: Verwalten der Konfiguration von Computer, Website und globaler zentralisi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Bei der Ausführung der Befehle [Search-CsClsLogging](https://technet.microsoft.
 
 </div>
 
-Website-und globale Bereiche werden in den Cmdlets für **neu-**, **fest**gelegte und **entfernte** zentralisierte Protokollierungsdienste definiert. Die folgenden Beispiele zeigen, wie ein Standortbereich und ein globaler Bereich festgelegt werden.
+Website-und globale Bereiche werden in den Cmdlets für **neu-**, **festgelegte**und **entfernte** zentralisierte Protokollierungsdienste definiert. Die folgenden Beispiele zeigen, wie ein Standortbereich und ein globaler Bereich festgelegt werden.
 
 <div>
 
@@ -93,7 +95,7 @@ Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguratio
 
 Wenn Sie **Get-CsClsConfiguration** ausführen, werden Informationen wie auf dem folgenden Screenshot angezeigt, auf dem die Bereitstellung aktuell die standardmäßige Global-Konfiguration hat, aber keine Standortkonfigurationen definiert sind:
 
-![Beispielausgabe von Get-CsClsConfiguration] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Beispielausgabe von Get-CsClsConfiguration")
+![Beispielausgabe von Get-CsClsConfiguration](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Beispielausgabe von Get-CsClsConfiguration")
 
 </div>
 

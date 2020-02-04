@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zurücksetzen von migrierten Benutzern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57462cee6c4996f0beb51290f8382a1736d3e635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e8b8c53f835bbbaa363a91ef547dd1d301c8976
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822440"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Wenn Sie die Unified Contact Store-Funktion zurücksetzen müssen, setzen Sie di
 
 </div>
 
-Im folgenden Verfahren wird beschrieben, wie Sie ein Rollback für Benutzerkontakte ausführen. Wenn Sie das Cmdlet **Move-CsUser** verwenden, um Benutzer zwischen lync Server 2013 und lync Server 2010 zu verschieben, können Sie diese Schritte überspringen, da das Cmdlet **Move-CsUser** automatisch unifed den Kontaktspeicher zurück rollt, wenn Benutzer von lync Server 2013 nach lync verschoben werden. Server 2010. **Verschieben-CsUser** deaktiviert die Unified Contact Store-Richtlinie nicht, sodass die Migration in den Unified Contact Store wiederholt wird, wenn der Benutzer zurück zu lync Server 2013 verschoben wird.
+Im folgenden Verfahren wird beschrieben, wie Sie ein Rollback für Benutzerkontakte ausführen. Wenn Sie das Cmdlet **Move-CsUser** verwenden, um Benutzer zwischen lync Server 2013 und lync Server 2010 zu verschieben, können Sie diese Schritte überspringen, da das Cmdlet **Move-CsUser** automatisch unifed Kontaktspeicher zurücksetzt, wenn Benutzer von lync Server 2013 nach lync Server 2010 verschoben werden. **Verschieben-CsUser** deaktiviert die Unified Contact Store-Richtlinie nicht, sodass die Migration in den Unified Contact Store wiederholt wird, wenn der Benutzer zurück zu lync Server 2013 verschoben wird.
 
 <div>
 

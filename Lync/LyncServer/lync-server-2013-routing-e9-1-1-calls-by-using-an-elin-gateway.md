@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using an ELIN gateway
 ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdb4b5879f92da79e8a6ec96f61e24fbe182c028
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97c921a0b31438103ba74dcc64925e5b2069a8e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822293"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Das folgende Diagramm zeigt, wie ein Notfall Anruf von lync Server an die PSAP w
 
 **Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway**
 
-![ea68f88a-0fc4-43D4-9660-79a7e8936df1] (images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43D4-9660-79a7e8936df1")
+![ea68f88a-0fc4-43d4-9660-79a7e8936df1](images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43d4-9660-79a7e8936df1")
 
 1.  Eine SIP-Einladung, die den Standort, die Rückrufnummer des Anrufers und die (optionale) Benachrichtigungs-URL und die Konferenz-Rückrufnummer enthält, wird an lync Server weitergeleitet.
 

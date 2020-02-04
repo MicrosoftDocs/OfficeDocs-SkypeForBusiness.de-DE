@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen des SEFAUtil-Tools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy the SEFAUtil tool
 ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0783ab251359582d232d558da2161a149dea5117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832571"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Sie können die SEFAUtil in einem beliebigen Front-End-Pool in Ihrer Bereitstell
 
 ## <a name="to-deploy-sefautil"></a>So stellen Sie das SEFAUtil-Tool bereit
 
-1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
 
 2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 

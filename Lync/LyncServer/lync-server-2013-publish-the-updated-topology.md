@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Veröffentlichen der aktualisierten Topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the updated topology
 ms:assetid: 59455dd1-6a9e-433f-a714-d3636c068100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f3be1443f98444712a66942417e1812181efe7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator aktualisiert haben, müssen Si
 
 Bevor Sie Ihre Topologie veröffentlichen, installieren Sie die Datenbanken für beständigen Chat Server. Mithilfe des Topologie-Generators können Sie Datenbanken installieren, indem Sie **Aktion** und **Datenbank installieren**auswählen.
 
-1.  Melden Sie sich auf einem Computer, auf dem lync Server 2013 ausgeführt wird oder auf dem die lync Server-Verwaltungstools installiert sind, mit einem Konto an, das ein Mitglied der Gruppe " **Domänen** -Admins" und der **RTCUniversalServerAdmins** -Gruppe ist und Vollzugriff besitzt. Berechtigungen (also lesen, schreiben und ändern) für den Dateispeicher, der für den Dateispeicher des beständigen Chat Servers verwendet werden soll (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit entsprechenden Benutzerrechten konfigurieren kann.
+1.  Melden Sie sich auf einem Computer, auf dem lync Server 2013 ausgeführt wird oder auf dem die lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied sowohl der Gruppe der **Domänenadministratoren** als auch der **RTCUniversalServerAdmins** -Gruppe ist. und die über die Berechtigung "Vollzugriff" (also lesen, schreiben und ändern) im Dateispeicher für den Dateispeicher für beständigen Chat Server verfügt (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit entsprechenden Benutzerrechten konfigurieren kann.
 
 2.  Starten Sie den Topologie-Generator. Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen**aus, oder **Öffnen Sie die Topologie aus einer lokalen Datei** , wenn Sie Sie lokal gespeichert haben.
 

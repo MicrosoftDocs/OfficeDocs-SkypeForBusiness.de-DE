@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verwalten von Partnerverbünden und externem Zugriff a
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing federation and external access to Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8eb4dcf6a690e2bab7b834624fb0f695e3e770e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9dadc455389d95c91996b75928def8f03b06c64e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828124"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die Bereitstellungeines Edgeserver oder eines Edge-Pools ist der erste Schritt z
 
 Nach dem Installieren und Konfigurieren ihrer internen Bereitstellung von lync Server 2013 können interne Benutzer in Ihrer Organisation mit anderen internen Benutzern zusammenarbeiten, die über SIP-Konten in Ihren Active Directory-Domänendiensten (AD DS) verfügen. Die Zusammenarbeit kann das Senden und empfangen von Sofortnachrichten sowie die Aktualisierung des Anwesenheitsstatus und die Teilnahme an Konferenzen (auch bekannt als "Besprechungen") umfassen. Sie aktivieren und konfigurieren den Zugriff durch externe Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen lync Server-Benutzern zusammenarbeiten können. Externe Benutzer können Remotebenutzer Ihrer Bereitstellung, Verbundbenutzer (einschließlich unterstützter Benutzer von öffentlichen Instant Messaging (im)-Dienstanbietern), XMPP-Föderation und anonyme Teilnehmer an Konferenzen einbeziehen.
 
-Wenn Ihre Bereitstellung die Installation eines lync Server 2013-Edge-Servers oder eines Edge-Pools enthielt, wird der Umfang möglicher Kommunikationstypen erheblich erweitert, wobei eine Reihe von Optionen für den Zugriff durch externe Benutzer, die Kommunikation mit Mitgliedern anderer SIP-Verbunddomänen, SIP-Verbund Anbieter und XMPP-Verbundbenutzer. Nachdem Sie den Edgeserver oder den Edge-Pool eingerichtet haben, aktivieren Sie die Typen des Zugriffs auf externe Benutzer, die Sie bereitstellen möchten, und konfigurieren die Richtlinien für die Steuerung für den externen Zugriff. In lync Server 2013 aktivieren und konfigurieren Sie den Zugriff auf externe Benutzer und Richtlinien mithilfe der lync Server-Systemsteuerung, der lync Server-Verwaltungsshell oder beides, basierend auf den Aufgabenanforderungen. Details zu diesen Verwaltungstools finden Sie unter [lync Server 2013-Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md) in der Betriebsdokumentation, [lync Server 2013-Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) in der Betriebsdokumentation und [Installieren von lync Server 2013-Verwaltungstools. ](lync-server-2013-install-lync-server-administrative-tools.md)in der Betriebsdokumentation.
+Wenn Ihre Bereitstellung die Installation eines lync Server 2013-Edge-Servers oder eines Edge-Pools enthielt, wird der Umfang möglicher Kommunikationstypen erheblich erweitert, wobei eine Reihe von Optionen für den Zugriff durch externe Benutzer, die Kommunikation mit Mitgliedern anderer SIP-Verbunddomänen, SIP-Verbund Anbieter und XMPP-Verbundbenutzer. Nachdem Sie den Edgeserver oder den Edge-Pool eingerichtet haben, aktivieren Sie die Typen des Zugriffs auf externe Benutzer, die Sie bereitstellen möchten, und konfigurieren die Richtlinien für die Steuerung für den externen Zugriff. In lync Server 2013 aktivieren und konfigurieren Sie den Zugriff auf externe Benutzer und Richtlinien mithilfe der lync Server-Systemsteuerung, der lync Server-Verwaltungsshell oder beides, basierend auf den Aufgabenanforderungen. Details zu diesen Verwaltungstools finden Sie unter [lync Server 2013-Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md) in der Betriebsdokumentation, [lync Server 2013-Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) in der Betriebsdokumentation und [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) in der Betriebsdokumentation.
 
 <div>
 
@@ -67,11 +69,11 @@ Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtli
 
 **Möchten Sie zulassen, dass anonyme Benutzer teilnehmen und zu Konferenzen eingeladen werden, die von Benutzern in Ihrer Bereitstellung gehostet werden?**
 
-Konfigurieren Sie die Einstellungen wie im Thema [Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) und [Referenz für konferenzrichtlinieneinstellungen für lync. Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+Konfigurieren Sie die Einstellungen wie im Thema [Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) und [Konferenzrichtlinien Einstellungsreferenz für lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md) .
 
 **Möchten Sie Benutzern die Kommunikation mit SIP-Verbunddomänen Kontakten gestatten?**
 
-Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)und [Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)und [Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md) .
 
 **Wenn Sie die Kommunikation mit SIP-Verbunddomänen aktiviert haben, möchten Sie die Kommunikation mit XMPP-Partner Kontakten aktivieren?**
 
@@ -87,7 +89,7 @@ Konfigurieren Sie die Einstellungen wie im Thema [Aktivieren oder Deaktivieren d
 
 **Möchten Sie Benutzern die Kommunikation mit SIP-Verbund Anbietern gestatten, die die Kommunikation mit öffentlichen Anbietern wie Windows Live Messenger, AOL und Yahoo\!ermöglichen?**
 
-Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs öffentlicher Benutzer in lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md), und [erstellen oder Bearbeiten von öffentlichen SIP-Föderationen Anbieter in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
+Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs öffentlicher Benutzer in lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)und [erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
 
 <div>
 
@@ -107,11 +109,11 @@ Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtli
 
 **Möchten Sie zulassen, dass Benutzer mit SIP-Verbund Anbietern kommunizieren, bei denen es sich um gehostete Anbieter mit Microsoft Office 365, Microsoft lync Online und Microsoft lync Online 2010 handelt?**
 
-Konfigurieren Sie die Einstellungen wie in den Themen [erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) und [erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Konfigurieren Sie die Einstellungen wie in den Themen [erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) und [erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 **Ist Ihre Bereitstellung in einer geteilten (auch als Hybrid bezeichneten) Domäne konfiguriert, in der einige Benutzer über Ihren Homeserver in einer lokalen Bereitstellung verfügen und andere Benutzer mit einem Homeserver in einer Online Umgebung konfiguriert sind?**
 
-Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) und [erstellen oder Bearbeiten einer gehosteten SIP-Föderation Anbieter lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Konfigurieren Sie die Einstellungen wie in den Themen [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) und [erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 Wenn Sie eine Tabelle bevorzugen, in der die Anforderungen aufgelistet sind:
 

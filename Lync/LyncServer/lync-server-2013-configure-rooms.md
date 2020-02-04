@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Chatrooms'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure rooms
 ms:assetid: 8956bd2c-c863-4704-bc65-5c0d83556258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d08b7cb0146f96b151af021a63ef97a485a0a9dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06fea4fcda27eaedd671d833a4f53ed0ddec67c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839333"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 
 Die Konfiguration beständiger Chatrooms wird in der Regel von Benutzern oder anderen zentralen Teams mithilfe der Windows PowerShell-Befehlszeilenschnittstelle abgewickelt. ein Administrator verwaltet in der Regel keine Chatrooms. Wenn Sie jedoch Chatrooms erstellen und verwalten müssen, können Sie die Windows PowerShell-Befehlszeilenschnittstelle verwenden oder sich selbst als Mitglied zu einem Chatroom hinzufügen und den lync 2013-Client verwenden.
 
-Weitere Informationen zum Konfigurieren von Chatrooms mithilfe der Windows PowerShell-Befehlszeilenschnittstelle finden Sie unter "Room Management" in Konfigurieren des beständigen [Chat Servers mithilfe von Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)-Cmdlets.
+Weitere Informationen zum Konfigurieren von Chatrooms mithilfe der Windows PowerShell-Befehlszeilenschnittstelle finden Sie unter "Room Management" in [Konfigurieren des beständigen Chat Servers mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
 <div>
 

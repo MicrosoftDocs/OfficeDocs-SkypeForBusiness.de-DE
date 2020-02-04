@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen des Servers für beständigen Chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Der Server für beständigen Chat steht in lync Server 2013 Enterprise Edition a
 
 Der Server für beständigen Chat kann auch mit lync Server 2013 Standard Edition bereitgestellt werden. In diesem Fall befindet sich der **PersistentChatService** -Front-End-Server auf dem Standard Edition-Computer, und der **PersistentChatStore** -Back-End-Server kann auf der lokalen SQL Server Express-Instanz bereitgestellt werden.
 
-Ausführliche Informationen zu unterstützten Colocation-Konfigurationen finden Sie unter unterstützte Server setzungen [in lync Server 2013](lync-server-2013-supported-server-collocation.md).
+Ausführliche Informationen zu unterstützten Colocation-Konfigurationen finden Sie unter [unterstützte Server setzungen in lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
 <div>
 
@@ -67,7 +69,7 @@ Für jede Topologie ist mindestens ein Server mit lync Server 2013 und ein Serve
 
 Verwenden Sie den Topologie-Generator, um ihrer lync Server 2013-Bereitstellung beständigen Chat Server hinzuzufügen. Mithilfe des Topologie-Generators können Sie einen oder mehrere beständige Chat Server Pools hinzufügen. Befolgen Sie dieselben Bereitstellungsanweisungen für die Bereitstellung mehrerer beständiger Chat Server Pools, wie Sie dies für jeden Pool tun würden. Ausführliche Informationen finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
 
-Details zu verfügbaren Topologien sowie zu den technischen und Softwareanforderungen für die Installation von persistent Chat Server finden Sie unter Planen des beständigen [Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Funktionsweise des beständigen Chat Servers in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation sowie [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Dokumentation zur Unterstützung.
+Details zu verfügbaren Topologien sowie zu den technischen und Softwareanforderungen für die Installation von persistent Chat Server finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Funktionsweise des beständigen Chat 2013 Servers](lync-server-2013-how-persistent-chat-server-works.md) in der Planning-Dokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation sowie [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Dokumentation zur Unterstützung.
 
 Details zum Abrufen von Zertifikaten, zum Erstellen der SQL Server-Datenbank und zum Erstellen von Datei speichern finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
 

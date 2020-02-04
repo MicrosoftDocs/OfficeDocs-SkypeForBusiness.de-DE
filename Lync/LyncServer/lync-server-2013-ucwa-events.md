@@ -3,6 +3,8 @@ title: 'Lync Server 2013: UCWA-Ereignisse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UCWA events
 ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5063aca74fe3454569a2b2309be584a4ca11d13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,8 +64,8 @@ UCWA zeichnet Einträge zum Betriebsverhalten als die Ereignistypen „Informati
 <td><p>20001</p></td>
 <td><p>Information</p></td>
 <td><p>UCWA initialisiert</p></td>
-<td><p>n/v</p>
-<p>n/v</p></td>
+<td><p>Nicht zutreffend</p>
+<p>Nicht zutreffend</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>

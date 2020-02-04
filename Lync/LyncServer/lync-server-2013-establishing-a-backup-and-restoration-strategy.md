@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Einrichten einer Sicherungs-und Wiederherstellungsstra
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Ihre Geschäftsprioritäten und Service Level Agreements dienen dazu, die Anford
 
   - **Sicherungsspeicherort**   ermitteln Sie, ob die Sicherungen lokal oder Remote aufbewahrt werden, wobei Sicherheit und Barrierefreiheit berücksichtigt werden. Geben Sie das für die Sicherungen zu verwendende Medium an.
 
-  - **Hardware-und Softwareanforderungen**   identifizieren und dokumentieren ihre spezifischen Hardware-und Softwareanforderungen, einschließlich Hardware für den Backup-Speicher und die Wiederherstellung bestimmter Komponenten sowie Software-und Netzwerkkonnektivität, die erforderlich ist, um unterstützen Sie die Sicherung und Wiederherstellung. Berücksichtigen Sie bei der Entwicklung Ihrer Hardware-und Softwareanforderungen die verschiedenen Wiederherstellungsszenarien, die Folgen.
+  - **Hardware-und Softwareanforderungen**   identifizieren und dokumentieren ihre spezifischen Hardware-und Softwareanforderungen, einschließlich Hardware für den Sicherungsspeicher und die Wiederherstellung bestimmter Komponenten sowie alle Software-und Netzwerkverbindungen, die für die Unterstützung von Backup und Wiederherstellung erforderlich sind. Berücksichtigen Sie bei der Entwicklung Ihrer Hardware-und Softwareanforderungen die verschiedenen Wiederherstellungsszenarien, die Folgen.
 
   - **Wiederherstellungsszenarien**   hier sind die Wiederherstellungsprozesse für die folgenden Szenarien:
     
