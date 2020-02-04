@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Sie können den Überwachungs-SQL Server-Speicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: b5b6ace37923cb5fcba48975e572f1c6717510a9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0895e5b2e9410d3632c767672f8b54f2732771f5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304793"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685328"
 ---
 # <a name="add-director-monitoring"></a>Hinzufügen der Director-Überwachung
  
 Sie können **den Überwachungs-SQL Server-Speicher definieren** , indem Sie die folgenden Eigenschaften konfigurieren:
   
-- Überwachen des **SQL Server**-Speichers: Wählen Sie einen vollqualifizierten SQL Server-Domänennamen (Fully Qualified Domain Name, FQDN) (und optional eine benannte SQL Server-Instanz) aus der Liste aus.
+- Über **Wachen des SQL Server-Speichers**: Wählen Sie einen vollqualifizierten SQL Server-Domänennamen (Fully Qualified Domain Name, FQDN) (und optional eine benannte SQL Server-Instanz) aus der Liste aus.
     
     Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Monitoring Server-Speicher zu erstellen.
     
@@ -34,7 +34,7 @@ Sie können **den Überwachungs-SQL Server-Speicher definieren** , indem Sie die
     
     Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Spiegel Speicher zu erstellen.
     
-- Wenn Sie **Aktivieren der Spiegelung des SQL Server**-Speichers ausgewählt haben, wählen Sie optional **SQL Server-Spiegelungs Zeuge verwenden aus, um das automatische Failover zu aktivieren** , um einen SQL Server-Spiegelungs-Zeugen Speicher aus der Liste auszuwählen.
+- Wenn Sie **Aktivieren der Spiegelung des SQL Server-Speichers**ausgewählt haben, wählen Sie optional **SQL Server-Spiegelungs Zeuge verwenden aus, um das automatische Failover zu aktivieren** , um einen SQL Server-Spiegelungs-Zeugen Speicher aus der Liste auszuwählen.
     
     Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Spiegelungs-Zeugen Speicher zu erstellen.
     

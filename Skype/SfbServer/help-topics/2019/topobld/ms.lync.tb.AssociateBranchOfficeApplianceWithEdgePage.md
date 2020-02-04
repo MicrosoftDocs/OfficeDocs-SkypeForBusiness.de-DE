@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Edgeserver bereitgestellt haben und Mediendienste für die externe Verwendung bereitstellen müssen, wählen Sie den Edgeserver oder Pool aus, der der Survivable Branch Appliance oder dem Überlebenden Verzweigungs Server zugeordnet wird, indem Sie ihn in der Dropdownliste auswählen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: d4076565e95786895eb012454056e0bc0ddf7619
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fe50b48b079e255289e90eb1c4940737d801d3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281346"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688848"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Zuordnen der Filialanwendung zur Edgekomponente
  

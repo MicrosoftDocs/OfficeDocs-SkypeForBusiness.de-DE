@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Ihre Einwahlkonferenz Nummern in Skype for Business Online nachschlagen können. '
-ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792445"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680512"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Anzeigen einer Liste von Audiokonferenz-Nummern in Skype for Business Online
 
@@ -37,7 +38,7 @@ Wenn Sie Audiokonferenzen für Skype for Business-Benutzer einrichten, können S
  **Suchen Sie nach Preisen?** Siehe [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, gehen Sie zu **Skype for Business Admin Center** > **sprach** > **Telefonnummern**, klicken Sie auf **Hinzufügen**und dann auf **neuer Dienst. Zahlen**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
+> **Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, gehen Sie zu **Skype for Business Admin Center** > **** > -**Telefonnummern**, klicken Sie auf **Hinzufügen**und dann auf **neue Service Nummern**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
   
 Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardnummer wird in Skype for Business-Besprechungseinladungen enthalten sein.
   
@@ -51,7 +52,7 @@ Sie können [feststellen, welche Telefonnummern in Einladungen enthalten sind](s
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
 2. Wechseln Sie zum Admin Center #a0 **Skype for Business**.
     
@@ -62,7 +63,7 @@ Sie können [feststellen, welche Telefonnummern in Einladungen enthalten sind](s
    - Sie können auch den Standort sowie die primären und sekundären Sprachen anzeigen, die von der automatischen Telefonzentrale für Audiokonferenzen verwendet werden.
     
 > [!NOTE]
-> Sie können zu Audiokonferenz **** > -**Benutzern** wechseln und die Eigenschaften des Benutzers auswählen, um die Standardnummer zu ändern, indem Sie in der Liste der verfügbaren Nummern in Ihrer Organisation eine neue Nummer auswählen. Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites.md). 
+> Sie können zu **Audiokonferenz** > -**Benutzern** wechseln und die Eigenschaften des Benutzers auswählen, um die Standardnummer zu ändern, indem Sie in der Liste der verfügbaren Nummern in Ihrer Organisation eine neue Nummer auswählen. Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
@@ -75,7 +76,7 @@ Sie können [feststellen, welche Telefonnummern in Einladungen enthalten sind](s
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Learn about these advantages in the following topics:
+- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

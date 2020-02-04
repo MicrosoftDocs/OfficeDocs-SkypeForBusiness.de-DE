@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Der Topologie-Generator bietet eine Möglichkeit zum Installieren von Datenbanken in einem SQL Server-Speicher. Wenn Sie Datenbanken mit dem Topologie-Generator installieren, liest die Anwendung Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen SQL Server-Computer oder SQL Server-Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren müssen oder wenn Sie eine in der Datenbank enthaltene Datenbank installieren müssen, müssen Sie stattdessen die Windows PowerShell-Befehlszeilenschnittstelle und das Cmdlet "installieren-CsDatabase" verwenden.
-ms.openlocfilehash: a4248827b7eba83534b0fdc2dc82dcaa3487e2d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 02d754870cb2d2db16424474a68b8ea0245191f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305962"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684848"
 ---
 # <a name="create-database"></a>Erstellen der Datenbank
  

@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Ihre beständige Chat Server-Bereitstellung kann viele gleichzeitig beständige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und übernimmt die Einstellungen dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zur Identifikation von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
-ms.openlocfilehash: 75665a9a3dfb25f6c70abb0c5a425d6ce69e5d62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302671"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686228"
 ---
 # <a name="persistent-chat-configuration"></a>Konfiguration für beständigen Chat
  
 Ihre beständige Chat Server-Bereitstellung kann viele gleichzeitig beständige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und übernimmt die Einstellungen dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zur Identifikation von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
   
 > [!NOTE]
-> Obwohl viele der Verwaltungsfeatures von Chatrooms auf Computern verfügbar sind, auf denen der Benutzer beständigen Chat ausführt, müssen beständige chatadministratoren (in der **cspersistentchatadministrator** -Rolle) entweder die Systemsteuerung oder die Verwaltungsshell verwenden. Cmdlets zum Erstellen oder Verwalten von Kategorien.
+> Obwohl viele der Verwaltungsfeatures von Chatrooms auf Computern verfügbar sind, auf denen der Benutzer den beständigen Chat ausführt, müssen beständige chatadministratoren (in der **cspersistentchatadministrator** -Rolle) entweder die Systemsteuerung oder die Verwaltungsshell verwenden, um Kategorien zu erstellen oder zu verwalten.
   
 Beständige Chat-Administratoren verwenden die Skype for Business Server-Systemsteuerung oder Windows PowerShell-Cmdlets zum Erstellen und Verwalten von Kategorien sowie zum Entwerfen des Zugriffs für Chatrooms für die Benutzer in Ihrer Organisation.
   
@@ -55,7 +55,7 @@ Chatroommanager können Änderungen an allen Chatroomeigenschaften vornehmen. Di
     
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
-Sie können die folgenden Aufgaben auf der Seite "beständiger **Chat** " ausführen: Konfigurieren Sie die Server Optionen für beständigen Chat Global oder für einen bestimmten Pool.
+Sie können die folgenden Aufgaben auf der Seite " **beständiger Chat** " ausführen: Konfigurieren Sie die Server Optionen für beständigen Chat Global oder für einen bestimmten Pool.
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>So konfigurieren Sie beständige Chat Optionen Global
 
@@ -124,6 +124,6 @@ Sie können die folgenden Aufgaben auf der Seite "beständiger **Chat** " ausfü
     
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zu den Features und Funktionen des beständigen Chat Servers finden Sie unter [Planen des beständigen Chat Servers in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Bereitstellen eines beständigen Chat Servers in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und Verwalten des beständigen [Chat Servers in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Ausführliche Informationen zu den Features und Funktionen des beständigen Chat Servers finden Sie unter [Planen des beständigen Chat Servers in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Bereitstellen eines beständigen Chat Servers in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und [Verwalten des beständigen Chat Servers in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'Der Knoten Survivable Branch Appliances listet die Überlebenden Branch-Appliances an dieser Verzweigungs Website auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 7c11020092cec8afb612b8628cdeda8526a9070a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a08e037c1669150bc23e03e53d42bd80560e0b72
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301533"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684868"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Filialanwendungen – Bereichsknoten
  

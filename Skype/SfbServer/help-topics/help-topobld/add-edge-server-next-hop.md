@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: Beim nächsten Hop für den Edge-Pool handelt es sich um einen Front-End-Pool (der entweder ein Enterprise-Pool oder ein Standard Edition-Server sein kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist der nächste Hop der Director.
-ms.openlocfilehash: 9d10bd326eb709f47ae3a6e9770b38b79f5c4463
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21dcee7314d7e6cfd17d7c7c4d8e577bcb1edf2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293938"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685228"
 ---
 # <a name="add-edge-server-next-hop"></a>Hinzufügen des nächsten Hops für den Edgeserver
 

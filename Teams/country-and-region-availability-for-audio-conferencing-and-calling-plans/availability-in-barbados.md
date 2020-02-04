@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Barbados verfügbar sind.
-ms.openlocfilehash: 396685b525b6fc4d1214e54b4dfa2f356bb9ac00
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: df971675ebb8de695ae5ba58cc1eeaac8d70b670
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741575"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684048"
 ---
 # <a name="availability-in-barbados"></a>Verfügbarkeit in Barbados
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
-ms.openlocfilehash: e6d9cc4ef19e152944c5d1f82adaa81e16c26bb5
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 3c33e6e9fc6e5d0eed0a05df08a2bfaf06d16083
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741567"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683948"
 ---
 # <a name="availability-in-dominica"></a>Verfügbarkeit in Dominica
 

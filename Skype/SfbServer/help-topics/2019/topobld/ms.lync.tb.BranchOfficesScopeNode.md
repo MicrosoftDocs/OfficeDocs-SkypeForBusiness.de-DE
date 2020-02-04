@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Knoten Zweigstellen werden die Zweigstellen aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 10f888a3016b1f45f36289ac2e0e6318e61da92b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fea3bc464a89973bfea961ba3bf7f9a643be3441
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280632"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688668"
 ---
 # <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
  

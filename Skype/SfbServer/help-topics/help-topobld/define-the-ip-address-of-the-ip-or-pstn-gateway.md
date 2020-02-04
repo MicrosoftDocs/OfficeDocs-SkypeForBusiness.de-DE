@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Sie definieren die IPv4-oder IPv6-Adressen für das IP-oder Phone Switched Telephone Network (PSTN)-Gateway, indem Sie entweder IPv4 aktivieren oder IPv6 aktivieren auswählen. Sie können entweder alle konfigurierten IP-Adressen verwenden oder die Dienstnutzung auf ausgewählte IP-Adressen einschränken.
-ms.openlocfilehash: 51f9b43b1fe5842d05f41cbf4f9e9ab6e791423a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4cbcbc511ecc508da52b7ab36e7bdae6878cf75f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306839"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684818"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definieren der IP-Adresse des IP- oder PSTN-Gateways
 

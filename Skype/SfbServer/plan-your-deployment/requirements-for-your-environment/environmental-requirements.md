@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Reihe von Dingen, die Sie konfigurieren möchten, bevor Sie Ihre Bereitstellung ausführen, einschließlich Active Directory, DNS, certs und Dateifreigaben.'
-ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 60244391a04b1bab31464bd0ef0b804510e40955
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393373"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678959"
 ---
-# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
+# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Anforderungen an die Umgebung für Skype for Business Server 2015
  
 **Zusammenfassung:** Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Reihe von Dingen, die Sie konfigurieren möchten, bevor Sie Ihre Bereitstellung ausführen, einschließlich Active Directory, DNS, certs und Dateifreigaben.
   
@@ -250,6 +250,9 @@ Daher ist die Zertifikatplanung ein muss. Sehen wir uns nun eine Liste mit einig
   
 > [!NOTE]
 > Die Verwendung des Signaturalgorithmus RSASSA-PSS wird nicht unterstützt und kann unter anderem zu Fehlern bei der Anmeldung und Problemen mit der Anrufweiterleitung führen.  
+
+> [!NOTE]
+> Skype for Business Server 2015 unterstützt keine CNG-Zertifikate.
   
 - Es werden Verschlüsselungsschlüssellängen von 1.024, 2.048 und 4.096 Bit unterstützt. Empfohlen werden Schlüssellängen ab 2.048 Bit.
     
@@ -362,7 +365,7 @@ Dieser SAN muss dem Zertifikat zugewiesen werden, das dem SSL-Listener (Secure S
 
 Skype for Business Server 2015 kann dieselbe Dateifreigabe für alle Dateispeicher verwenden. Beachten Sie bitte Folgendes:
   
-- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 gruppieren. Windows Server 2008 R2 ist ebenfalls akzeptabel. Warum die neuesten Windows-Version? Ältere Versionen verfügen möglicherweise nicht über die erforderlichen Berechtigungen, um alle Features zu aktivieren. Sie können die Clusterverwaltung verwenden, um die Dateifreigaben zu erstellen, und das [Erstellen von Dateifreigaben in einem Cluster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) Artikel wird Ihnen bei diesen Details helfen.
     

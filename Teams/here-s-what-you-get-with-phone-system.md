@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: ad2feebec1a5c7745563308f0004f1839e358117
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554352"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680492"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563122"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678969"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -38,6 +38,11 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Teams m
 - Wenn Benutzer nicht woanders in ihrem Office 365 Enterprise-Konto angemeldet sind, werden sie beim Start von Teams gebeten, entweder eine ein- oder mehrstufige Authentifizierung (SFA oder MFA) anzugeben, je nachdem was Ihre Organisation für den Prozess festgelegt hat.
 
 - Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für MFA entschieden hat oder ob ihr Computer bereits MFA zum Anmelden erfordert. Wenn ihr Computer bereits MFA zur Anmeldung erfordert, startet die App automatisch, wenn  sie Teams öffnen.
+
+- Wenn Benutzer bei einem von der Domäne verbundenen Computer angemeldet sind und nicht möchten, dass der Benutzername auf dem Anmeldebildschirm der Teams vorinstalliert ist, können Administratoren die folgende Windows-Registrierung so einrichten, dass die vorauffüllung des Benutzernamens deaktiviert wird: Computer \ HKEY_CURRENT_USER \software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  Hinweis: das Überspringen von Benutzernamen-Pre-Fill für Benutzernamen, die in ". local" oder ". Corp" enden, ist standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 
+
 
 ### <a name="mac-users"></a>Mac-Benutzer 
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Klicken Sie mit der rechten Maustaste auf freigegebene Komponenten in der Hierarchiestruktur des Topologie-Generators, um neue freigegebene Komponenten zu erstellen oder auf die Optionen auf
-ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a1a00265f4c5c53df2a1d045a1ac31eaef2d48d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291371"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684388"
 ---
 # <a name="shared-components-scope-node"></a>Freigegebene Komponenten – Bereichsknoten
  

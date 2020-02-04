@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Zusätzlich zur Standard Lizenz für Audiokonferenzen pro Benutzer können Organisationen, die Microsoft-Volumenlizenzierung verwenden, auch ein Pay-per-Minute-Angebot auswählen, um Audiokonferenzfunktionen für ihre Organisationen zu ermöglichen.
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515892"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684138"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -41,7 +42,7 @@ Sie können feststellen, ob Ihr Land/Ihre Region für Audio-Conferencing [unters
   
 ## <a name="need-some-details"></a>Benötigen Sie weitere Informationen?
 
-Während das Lizenzangebot für Audio-Conferencing-pro-Benutzer die Einwahl Nutzung und einige Dial-Out-Nutzung umfasst, können Sie mit der Pay-per-Minute für Audiokonferenzen **für alle Ihre Audiokonferenz-Nutzungen pro Minute Zahlen, ohne monatlich pro Benutzer bezahlen zu müssen. Lizenz**aus. Damit werden alle Einwahl-und Auswahl Anrufe pro Minute abgerechnet, einschließlich:
+Während das Lizenzangebot für Audio-Conferencing-pro-User-Lizenzen die Einwahl Nutzung und einige Dial-Out-Nutzung umfasst, können Sie mit der Pay-per-Minute für Audiokonferenzen **für alle Ihre Audiokonferenz-Nutzungen pro Minute Zahlen, ohne dafür eine monatliche pro-Benutzer-Lizenz zu zahlen**. Damit werden alle Einwahl-und Auswahl Anrufe pro Minute abgerechnet, einschließlich:
   
 - Eingehende Anrufe an gebührenpflichtige Audiokonferenz-Nummern Ihrer Organisation.
     

@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Dieses Thema enthält alle Länder/Regionen, in denen Benutzer ausgehende Anrufe tätigen können, wenn Sie über einen Anrufplan verfügen.
-ms.openlocfilehash: fd876a66484101c58eaf65d3d78ca57576f2193f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572510"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682512"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
 

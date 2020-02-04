@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kambodscha verfügbar sind.
-ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 9425f1638614ff970e3d7a961e0b9451ea0e4c77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741369"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683998"
 ---
 # <a name="availability-in-cambodia"></a>Verfügbarkeit in Kambodscha
 

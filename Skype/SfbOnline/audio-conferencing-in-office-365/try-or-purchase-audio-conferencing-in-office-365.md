@@ -16,17 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
-ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
+ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34813049"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680332"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
 
@@ -92,7 +92,7 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 
 > [!NOTE]
-> Dieses Feature ist noch nicht verfügbar für Kunden mit Office 365 das von 21Vianet in China betrieben wird. Weitere Informationen finden Sie unter [Erfahren Sie mehr über Office 365, das von 21Vianet betrieben wird](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -100,4 +100,4 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md)
 
-[Optionen für Onlinebesprechungen und Telefonkonferenzen festlegen](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[Festlegen von Optionen für Onlinebesprechungen und Telefonkonferenzen](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Einrichten einer Standort Verbund-Routenzuordnung müssen Sie zuerst den Verbund auf dem Edgeserver oder Edgeserver-Pool aktivieren. Wenn der Verbund auf dem Edgeserver oder Pool nicht aktiviert ist, stehen die Zuordnungseinstellungen für die Verbund Route für die Website nicht zur Änderung zur Verfügung.
-ms.openlocfilehash: 6e68bc7cb2f5a9f04e208dc2f27ce7724aa7e793
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a9679d5ddfe4652a79f58596940af7f450e4b470
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292724"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688561"
 ---
 # <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
  

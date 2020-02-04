@@ -13,17 +13,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams EST l'outil de Chat kollaboratives déploiement 365 qui intègre toutes les personnes, contenus et Outils Don 't votre équipe a besoin pour être Plus impliquée et efficace. "
-ms.openlocfilehash: e137e6cd292ff288a9806d0bc952b0cc00f85d42
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e6bb0bd6e8a066d88070136611f523111b837227
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516853"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684178"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de Conformité en matière d'accessibilité
 

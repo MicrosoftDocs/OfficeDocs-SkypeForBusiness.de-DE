@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die allgemeinen Einstellungen für den Serverpool des beständigen Chats oder des beständigen Chats, indem Sie diese Eigenschaften konfigurieren oder definieren:'
-ms.openlocfilehash: b49f331a82329a20f357c27ed2d048eb621110c9
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 41db3e6b435a9dada33a79f0878e475fecf606f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418768"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688118"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Allgemeine Einstellungen für den beständigen Chat - Erweiterung
 

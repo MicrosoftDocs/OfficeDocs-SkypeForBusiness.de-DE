@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 'Hier erfahren Sie, wie Sie eine Beschwerde für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien) tätigen, was die Zeitpläne für Antworten sind und wie Streitigkeiten für ungelöste Beschwerden gelöst werden. '
-ms.openlocfilehash: c521c7bd19ffcdfe870ac3835e3ad1c75c9ff1be
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d3f20a2a84a419ff959670bbd6b63742d2ad1ba5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516908"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684098"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich
 
