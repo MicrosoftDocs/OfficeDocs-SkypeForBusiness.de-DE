@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Übersicht über die lync Server-Hybridumgebung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Lync Server 2013 hybrid environment
 ms:assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204669(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0420e4aaded9f5ae90d26c4cbdc176e7fb4c6bb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825324"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34825324"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a><span data-ttu-id="fd50f-102">Übersicht über die lync Server 2013-Hybridumgebung</span><span class="sxs-lookup"><span data-stu-id="fd50f-102">Overview of the Lync Server 2013 hybrid environment</span></span>
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a><span data-ttu-id="a3953-102">Übersicht über die lync Server 2013-Hybridumgebung</span><span class="sxs-lookup"><span data-stu-id="a3953-102">Overview of the Lync Server 2013 hybrid environment</span></span>
 
 </div>
 
@@ -33,47 +35,47 @@ ms.locfileid: "34825324"
 
 <span> </span>
 
-<span data-ttu-id="fd50f-103">_**Letztes Änderungsdatum des Themas:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="fd50f-103">_**Topic Last Modified:** 2014-05-28_</span></span>
+<span data-ttu-id="a3953-103">_**Letztes Änderungsdatum des Themas:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="a3953-103">_**Topic Last Modified:** 2014-05-28_</span></span>
 
-<span data-ttu-id="fd50f-104">Die lync Server 2013-Hybridumgebung bezieht sich auf eine Bereitstellung, in der einige Benutzer mit dem lokalen lync Server 2013 und anderen Benutzern in lync Online vernetzt sind, Benutzer jedoch dieselbe Domäne wie user@contoso.com verwenden.</span><span class="sxs-lookup"><span data-stu-id="fd50f-104">Lync Server 2013 hybrid environment refers to a deployment in which there are some users homed to the on-premises Lync Server 2013 and other users homed to Lync Online, but users share the same domain, such as user@contoso.com.</span></span>
+<span data-ttu-id="a3953-104">Die lync Server 2013-Hybridumgebung bezieht sich auf eine Bereitstellung, in der einige Benutzer mit dem lokalen lync Server 2013 und anderen Benutzern in lync Online vernetzt sind, Benutzer jedoch dieselbe Domäne wie user@contoso.com verwenden.</span><span class="sxs-lookup"><span data-stu-id="a3953-104">Lync Server 2013 hybrid environment refers to a deployment in which there are some users homed to the on-premises Lync Server 2013 and other users homed to Lync Online, but users share the same domain, such as user@contoso.com.</span></span>
 
 <div>
 
-## <a name="about-this-guide"></a><span data-ttu-id="fd50f-105">Informationen zu diesem Leitfaden</span><span class="sxs-lookup"><span data-stu-id="fd50f-105">About this Guide</span></span>
+## <a name="about-this-guide"></a><span data-ttu-id="a3953-105">Informationen zu diesem Leitfaden</span><span class="sxs-lookup"><span data-stu-id="a3953-105">About this Guide</span></span>
 
-<span data-ttu-id="fd50f-106">In diesem Leitfaden werden die Aufgaben beschrieben, die erforderlich sind, um Ihre lync Server 2013-Umgebung für die Interoperabilität mit lync online zu konfigurieren und dann Benutzer aus Ihrer lokalen Bereitstellung in die Verwendung von lync online zu verschieben.</span><span class="sxs-lookup"><span data-stu-id="fd50f-106">This guide describes the tasks necessary to configure your Lync Server 2013 environment for interoperability with Lync Online, and then to move users from your on-premises deployment to use Lync Online.</span></span>
+<span data-ttu-id="a3953-106">In diesem Leitfaden werden die Aufgaben beschrieben, die erforderlich sind, um Ihre lync Server 2013-Umgebung für die Interoperabilität mit lync online zu konfigurieren und dann Benutzer aus Ihrer lokalen Bereitstellung in die Verwendung von lync online zu verschieben.</span><span class="sxs-lookup"><span data-stu-id="a3953-106">This guide describes the tasks necessary to configure your Lync Server 2013 environment for interoperability with Lync Online, and then to move users from your on-premises deployment to use Lync Online.</span></span>
 
 </div>
 
 <div>
 
-## <a name="prerequisites"></a><span data-ttu-id="fd50f-107">Voraussetzungen</span><span class="sxs-lookup"><span data-stu-id="fd50f-107">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="a3953-107">Voraussetzungen</span><span class="sxs-lookup"><span data-stu-id="a3953-107">Prerequisites</span></span>
 
-<span data-ttu-id="fd50f-108">Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um die Aufgaben für die Konfiguration einer Bereitstellung für Hybrid abzuschließen.</span><span class="sxs-lookup"><span data-stu-id="fd50f-108">You will need to have the following applications and utilities installed to complete the tasks for configuring a deployment for hybrid.</span></span> <span data-ttu-id="fd50f-109">Die Installationsprogramme für diese Dateien sind auf den für Ihre Bereitstellung bereitgestellten Installationsmedien sowie auf den Links in der folgenden Liste enthalten.</span><span class="sxs-lookup"><span data-stu-id="fd50f-109">The installers for these files are included on the installation media provided for your deployment, as well as at the links included in the following list.</span></span>
+<span data-ttu-id="a3953-108">Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um die Aufgaben für die Konfiguration einer Bereitstellung für Hybrid abzuschließen.</span><span class="sxs-lookup"><span data-stu-id="a3953-108">You will need to have the following applications and utilities installed to complete the tasks for configuring a deployment for hybrid.</span></span> <span data-ttu-id="a3953-109">Die Installationsprogramme für diese Dateien sind auf den für Ihre Bereitstellung bereitgestellten Installationsmedien sowie auf den Links in der folgenden Liste enthalten.</span><span class="sxs-lookup"><span data-stu-id="a3953-109">The installers for these files are included on the installation media provided for your deployment, as well as at the links included in the following list.</span></span>
 
-  - [<span data-ttu-id="fd50f-110">Active Directory-Verbunddienste (AD FS) 2,0</span><span class="sxs-lookup"><span data-stu-id="fd50f-110">Active Directory Federation Services (AD FS) 2.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [<span data-ttu-id="a3953-110">Active Directory-Verbunddienste (AD FS) 2,0</span><span class="sxs-lookup"><span data-stu-id="a3953-110">Active Directory Federation Services (AD FS) 2.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [<span data-ttu-id="fd50f-111">Microsoft-Verzeichnis Synchronisierungs Tool 9,1</span><span class="sxs-lookup"><span data-stu-id="fd50f-111">Microsoft Directory Synchronization Tool 9.1</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [<span data-ttu-id="a3953-111">Microsoft-Verzeichnis Synchronisierungs Tool 9,1</span><span class="sxs-lookup"><span data-stu-id="a3953-111">Microsoft Directory Synchronization Tool 9.1</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [<span data-ttu-id="fd50f-112">Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS</span><span class="sxs-lookup"><span data-stu-id="fd50f-112">Install Windows PowerShell for single sign-on with AD FS</span></span>](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [<span data-ttu-id="a3953-112">Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS</span><span class="sxs-lookup"><span data-stu-id="a3953-112">Install Windows PowerShell for single sign-on with AD FS</span></span>](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - <span data-ttu-id="fd50f-113">Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist im Desktop-Setup für Office 365 enthalten, das über die Download Seite mit dem Office 365-Administratorportal abgerufen werden kann.</span><span class="sxs-lookup"><span data-stu-id="fd50f-113">Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Office 365, which can be obtained from the Downloads page linked to from the Office 365 Admin portal.</span></span>
-
-</div>
-
-<div>
-
-## <a name="administrator-credentials"></a><span data-ttu-id="fd50f-114">Administrator Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="fd50f-114">Administrator Credentials</span></span>
-
-<span data-ttu-id="fd50f-115">Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für Ihren Office 365-Mandanten.</span><span class="sxs-lookup"><span data-stu-id="fd50f-115">When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 tenant.</span></span> <span data-ttu-id="fd50f-116">Sie verwenden diese Anmeldeinformationen auch, wenn Sie Active Directory-Verbunddienste (AD FS) 2,0, Verzeichnissynchronisierung, einmaliges Anmelden, Föderation und Verschieben von Benutzern nach lync Online konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="fd50f-116">You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.</span></span>
+  - <span data-ttu-id="a3953-113">Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist im Desktop-Setup für Office 365 enthalten, das über die Download Seite mit dem Office 365-Administratorportal abgerufen werden kann.</span><span class="sxs-lookup"><span data-stu-id="a3953-113">Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Office 365, which can be obtained from the Downloads page linked to from the Office 365 Admin portal.</span></span>
 
 </div>
 
 <div>
 
-## <a name="connecting-to-lync-online-powershell"></a><span data-ttu-id="fd50f-117">Herstellen einer Verbindung mit lync Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="fd50f-117">Connecting to Lync Online PowerShell</span></span>
+## <a name="administrator-credentials"></a><span data-ttu-id="a3953-114">Administrator Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="a3953-114">Administrator Credentials</span></span>
 
-<span data-ttu-id="fd50f-118">Administratoren haben jetzt die Möglichkeit, Windows PowerShell zum Verwalten von lync Online und ihren lync Online-Benutzerkonten zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="fd50f-118">Administrators now have the ability to use Windows PowerShell to manage Lync Online and their Lync Online user accounts.</span></span> <span data-ttu-id="fd50f-119">Dazu müssen Sie zuerst das lync Online Connector-Modul aus dem Microsoft Download Center herunterladen und installieren (http://go.microsoft.com/fwlink/?LinkId=294688).</span><span class="sxs-lookup"><span data-stu-id="fd50f-119">To do this, you must first download and install the Lync Online Connector Module from the Microsoft Download Center (http://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="fd50f-120">Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="fd50f-120">For more information on downloading, installing, and using the Lync Online Connector Module, and for detailed information on using Windows PowerShell to manage Lync Online, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="a3953-115">Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für Ihren Office 365-Mandanten.</span><span class="sxs-lookup"><span data-stu-id="a3953-115">When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 tenant.</span></span> <span data-ttu-id="a3953-116">Sie verwenden diese Anmeldeinformationen auch, wenn Sie Active Directory-Verbunddienste (AD FS) 2,0, Verzeichnissynchronisierung, einmaliges Anmelden, Föderation und Verschieben von Benutzern nach lync Online konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="a3953-116">You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.</span></span>
+
+</div>
+
+<div>
+
+## <a name="connecting-to-lync-online-powershell"></a><span data-ttu-id="a3953-117">Herstellen einer Verbindung mit lync Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="a3953-117">Connecting to Lync Online PowerShell</span></span>
+
+<span data-ttu-id="a3953-118">Administratoren haben jetzt die Möglichkeit, Windows PowerShell zum Verwalten von lync Online und ihren lync Online-Benutzerkonten zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="a3953-118">Administrators now have the ability to use Windows PowerShell to manage Lync Online and their Lync Online user accounts.</span></span> <span data-ttu-id="a3953-119">Dazu müssen Sie zuerst das lync Online Connector-Modul aus dem Microsoft Download Center herunterladen und installieren (http://go.microsoft.com/fwlink/?LinkId=294688).</span><span class="sxs-lookup"><span data-stu-id="a3953-119">To do this, you must first download and install the Lync Online Connector Module from the Microsoft Download Center (http://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="a3953-120">Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="a3953-120">For more information on downloading, installing, and using the Lync Online Connector Module, and for detailed information on using Windows PowerShell to manage Lync Online, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
 </div>
 

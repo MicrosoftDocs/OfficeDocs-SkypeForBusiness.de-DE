@@ -3,6 +3,8 @@ title: Überprüfen von Topologieinformationen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846972"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a><span data-ttu-id="60b89-102">Überprüfen von Topologieinformationen</span><span class="sxs-lookup"><span data-stu-id="60b89-102">Verify topology information</span></span>
+# <a name="verify-topology-information"></a><span data-ttu-id="ac8c5-102">Überprüfen von Topologieinformationen</span><span class="sxs-lookup"><span data-stu-id="ac8c5-102">Verify topology information</span></span>
 
 </div>
 
@@ -33,54 +35,54 @@ ms.locfileid: "34846972"
 
 <span> </span>
 
-<span data-ttu-id="60b89-103">_**Letztes Änderungsdatum des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="60b89-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="ac8c5-103">_**Letztes Änderungsdatum des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="ac8c5-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="60b89-104">Der erste Schritt beim erfolgreichen Überprüfen des Seriendrucks besteht darin, die Office Communications Server 2007 R2-Topologieinformationen anzuzeigen, die Sie mit lync Server 2013 zusammengeführt haben.</span><span class="sxs-lookup"><span data-stu-id="60b89-104">The first step in verifying the merge completed successfully is to view the Office Communications Server 2007 R2 topology information that you merged with Lync Server 2013.</span></span> <span data-ttu-id="60b89-105">Im Topologie-Generator zeigt der **BackCompatSite** -Knoten den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) jedes Office Communications Server 2007 R2-Pools und-Servers an, den Sie zusammengeführt haben.</span><span class="sxs-lookup"><span data-stu-id="60b89-105">In Topology Builder, the **BackCompatSite** node displays the fully qualified domain name (FQDN) of each Office Communications Server 2007 R2 pool and server that you merged.</span></span>
+<span data-ttu-id="ac8c5-104">Der erste Schritt beim erfolgreichen Überprüfen des Seriendrucks besteht darin, die Office Communications Server 2007 R2-Topologieinformationen anzuzeigen, die Sie mit lync Server 2013 zusammengeführt haben.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-104">The first step in verifying the merge completed successfully is to view the Office Communications Server 2007 R2 topology information that you merged with Lync Server 2013.</span></span> <span data-ttu-id="ac8c5-105">Im Topologie-Generator zeigt der **BackCompatSite** -Knoten den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) jedes Office Communications Server 2007 R2-Pools und-Servers an, den Sie zusammengeführt haben.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-105">In Topology Builder, the **BackCompatSite** node displays the fully qualified domain name (FQDN) of each Office Communications Server 2007 R2 pool and server that you merged.</span></span>
 
 <div>
 
-## <a name="to-view-backcompatsite-in-topology-builder"></a><span data-ttu-id="60b89-106">So zeigen Sie BackCompatSite im Topologie-Generator an</span><span class="sxs-lookup"><span data-stu-id="60b89-106">To view BackCompatSite in Topology Builder</span></span>
+## <a name="to-view-backcompatsite-in-topology-builder"></a><span data-ttu-id="ac8c5-106">So zeigen Sie BackCompatSite im Topologie-Generator an</span><span class="sxs-lookup"><span data-stu-id="ac8c5-106">To view BackCompatSite in Topology Builder</span></span>
 
-1.  <span data-ttu-id="60b89-107">Öffnen Sie in Ihrer Office Communications Server 2007 R2-Umgebung das Office Communications Server 2007 R2-Verwaltungstool, und notieren Sie sich die FQDNs der Legacy Pools und-Server.</span><span class="sxs-lookup"><span data-stu-id="60b89-107">In your Office Communications Server 2007 R2 environment, open the Office Communications Server 2007 R2 administrative tool and note the FQDNs of the legacy pools and servers.</span></span>
+1.  <span data-ttu-id="ac8c5-107">Öffnen Sie in Ihrer Office Communications Server 2007 R2-Umgebung das Office Communications Server 2007 R2-Verwaltungstool, und notieren Sie sich die FQDNs der Legacy Pools und-Server.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-107">In your Office Communications Server 2007 R2 environment, open the Office Communications Server 2007 R2 administrative tool and note the FQDNs of the legacy pools and servers.</span></span>
 
-2.  <span data-ttu-id="60b89-108">Öffnen Sie in ihrer lync Server 2013-Umgebung den Topologie-Generator, und erweitern Sie dann den **BackCompatSite** -Knoten.</span><span class="sxs-lookup"><span data-stu-id="60b89-108">In your Lync Server 2013 environment, open Topology Builder and then expand the **BackCompatSite** node.</span></span>
+2.  <span data-ttu-id="ac8c5-108">Öffnen Sie in ihrer lync Server 2013-Umgebung den Topologie-Generator, und erweitern Sie dann den **BackCompatSite** -Knoten.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-108">In your Lync Server 2013 environment, open Topology Builder and then expand the **BackCompatSite** node.</span></span>
 
-3.  <span data-ttu-id="60b89-109">Überprüfen Sie, ob die FQDNs für die Pools und Server, die Sie zusammenführen, angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="60b89-109">Verify that the FQDNs for the pools and servers that you merge are displayed.</span></span>
+3.  <span data-ttu-id="ac8c5-109">Überprüfen Sie, ob die FQDNs für die Pools und Server, die Sie zusammenführen, angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-109">Verify that the FQDNs for the pools and servers that you merge are displayed.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="60b89-110">Es werden keine Informationen in <STRONG>BackCompatSite</STRONG> für Serverrollen angezeigt, die sich auf einem Front-End-Server oder einem Standard Edition-Server befinden.</span><span class="sxs-lookup"><span data-stu-id="60b89-110">You do not see any information in <STRONG>BackCompatSite</STRONG> for server roles that are collocated on a Front End Server or Standard Edition server.</span></span> <span data-ttu-id="60b89-111">Es werden nur Serverrollen angezeigt, die für die Interoperabilität zwischen Office Communications Server 2007 R2 und lync Server 2013 erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="60b89-111">Only server roles that are required for interoperability between Office Communications Server 2007 R2 and Lync Server 2013 are shown.</span></span>
+    > <span data-ttu-id="ac8c5-110">Es werden keine Informationen in <STRONG>BackCompatSite</STRONG> für Serverrollen angezeigt, die sich auf einem Front-End-Server oder einem Standard Edition-Server befinden.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-110">You do not see any information in <STRONG>BackCompatSite</STRONG> for server roles that are collocated on a Front End Server or Standard Edition server.</span></span> <span data-ttu-id="ac8c5-111">Es werden nur Serverrollen angezeigt, die für die Interoperabilität zwischen Office Communications Server 2007 R2 und lync Server 2013 erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-111">Only server roles that are required for interoperability between Office Communications Server 2007 R2 and Lync Server 2013 are shown.</span></span>
 
     
     </div>
 
-<span data-ttu-id="60b89-112">![Dialogfeld ' BackCompatSite '] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Dialogfeld ' BackCompatSite '")</span><span class="sxs-lookup"><span data-stu-id="60b89-112">![Topology Builder BackCompatSite dialog box](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Topology Builder BackCompatSite dialog box")</span></span>
+<span data-ttu-id="ac8c5-112">![Dialogfeld ' BackCompatSite '](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Dialogfeld ' BackCompatSite '")</span><span class="sxs-lookup"><span data-stu-id="ac8c5-112">![Topology Builder BackCompatSite dialog box](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Topology Builder BackCompatSite dialog box")</span></span>
 
-<span data-ttu-id="60b89-113">Sie können auch die lync Server 2013-Systemsteuerung verwenden, um Ihre zusammengeführte Topologie anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="60b89-113">You can also use Lync Server 2013 Control Panel to view your merged topology.</span></span> <span data-ttu-id="60b89-114">In der lync Server 2013-Systemsteuerung können Sie jeden Server-FQDN, Pool-FQDN und Websitenamen für Ihre zusammengeführte Topologie sehen.</span><span class="sxs-lookup"><span data-stu-id="60b89-114">In Lync Server 2013 Control Panel, you can see each server FQDN, pool FQDN, and site name for your merged topology.</span></span> <span data-ttu-id="60b89-115">Verbundene Server verfügen über den **Website** Namen **BackCompatSite**.</span><span class="sxs-lookup"><span data-stu-id="60b89-115">Merged servers have a **Site** name of **BackCompatSite**.</span></span>
+<span data-ttu-id="ac8c5-113">Sie können auch die lync Server 2013-Systemsteuerung verwenden, um Ihre zusammengeführte Topologie anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-113">You can also use Lync Server 2013 Control Panel to view your merged topology.</span></span> <span data-ttu-id="ac8c5-114">In der lync Server 2013-Systemsteuerung können Sie jeden Server-FQDN, Pool-FQDN und Websitenamen für Ihre zusammengeführte Topologie sehen.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-114">In Lync Server 2013 Control Panel, you can see each server FQDN, pool FQDN, and site name for your merged topology.</span></span> <span data-ttu-id="ac8c5-115">Verbundene Server verfügen über den **Website** Namen **BackCompatSite**.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-115">Merged servers have a **Site** name of **BackCompatSite**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a><span data-ttu-id="60b89-116">So zeigen Sie die zusammengeführte Topologie in der lync Server 2013-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="60b89-116">To view the merged topology in Lync Server 2013 Control Panel</span></span>
+## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a><span data-ttu-id="ac8c5-116">So zeigen Sie die zusammengeführte Topologie in der lync Server 2013-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="ac8c5-116">To view the merged topology in Lync Server 2013 Control Panel</span></span>
 
-1.  <span data-ttu-id="60b89-117">Öffnen Sie die lync Server 2013-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="60b89-117">Open Lync Server 2013 Control Panel.</span></span>
+1.  <span data-ttu-id="ac8c5-117">Öffnen Sie die lync Server 2013-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-117">Open Lync Server 2013 Control Panel.</span></span>
 
-2.  <span data-ttu-id="60b89-118">Klicken Sie auf **Topologie**.</span><span class="sxs-lookup"><span data-stu-id="60b89-118">Click **Topology**.</span></span>
+2.  <span data-ttu-id="ac8c5-118">Klicken Sie auf **Topologie**.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-118">Click **Topology**.</span></span>
 
-3.  <span data-ttu-id="60b89-119">Überprüfen Sie auf der Registerkarte **Status** , ob die zusammengeführten Server und Pools angezeigt werden, indem Sie in der Spalte **Websites** nach **BackCompatSite** suchen.</span><span class="sxs-lookup"><span data-stu-id="60b89-119">On the **Status** tab, verify that servers and pools you merged appear by looking for **BackCompatSite** in the **Site** column.</span></span>
+3.  <span data-ttu-id="ac8c5-119">Überprüfen Sie auf der Registerkarte **Status** , ob die zusammengeführten Server und Pools angezeigt werden, indem Sie in der Spalte **Websites** nach **BackCompatSite** suchen.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-119">On the **Status** tab, verify that servers and pools you merged appear by looking for **BackCompatSite** in the **Site** column.</span></span>
 
-<span data-ttu-id="60b89-120">![Lync Server-Systemsteuerung mit zusammengeführter Topologie] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server-Systemsteuerung mit zusammengeführter Topologie")</span><span class="sxs-lookup"><span data-stu-id="60b89-120">![Lync Server Control Panel showing merged topology](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server Control Panel showing merged topology")</span></span>
+<span data-ttu-id="ac8c5-120">![Lync Server-Systemsteuerung mit zusammengeführter Topologie](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server-Systemsteuerung mit zusammengeführter Topologie")</span><span class="sxs-lookup"><span data-stu-id="ac8c5-120">![Lync Server Control Panel showing merged topology](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server Control Panel showing merged topology")</span></span>
 
-<span data-ttu-id="60b89-121">Wenn Sie weitere Details zu einem zusammengeführten Pool anzeigen möchten, verwenden Sie das Cmdlet **Get-CsPool** .</span><span class="sxs-lookup"><span data-stu-id="60b89-121">To see more detail about a merged pool, use the **Get-CsPool** cmdlet.</span></span> <span data-ttu-id="60b89-122">Zusätzlich zu den Informationen, die im Topologie-Generator und in der lync Server 2013-Systemsteuerung zur Verfügung stehen, zeigt dieses Cmdlet die Dienste an, die im lync Server 2013-Pool ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="60b89-122">In addition to the information that is available in Topology Builder and Lync Server 2013 Control Panel, this cmdlet displays the services that run on the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="ac8c5-121">Wenn Sie weitere Details zu einem zusammengeführten Pool anzeigen möchten, verwenden Sie das Cmdlet **Get-CsPool** .</span><span class="sxs-lookup"><span data-stu-id="ac8c5-121">To see more detail about a merged pool, use the **Get-CsPool** cmdlet.</span></span> <span data-ttu-id="ac8c5-122">Zusätzlich zu den Informationen, die im Topologie-Generator und in der lync Server 2013-Systemsteuerung zur Verfügung stehen, zeigt dieses Cmdlet die Dienste an, die im lync Server 2013-Pool ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-122">In addition to the information that is available in Topology Builder and Lync Server 2013 Control Panel, this cmdlet displays the services that run on the Lync Server 2013 pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="60b89-123">Wenn Sie die Topologie nach dem Ausführen des Zusammenführungs-Assistenten im Topologie-Generator veröffentlichen, werden Konferenzverzeichnisse mit lync Server 2013 zusammengeführt.</span><span class="sxs-lookup"><span data-stu-id="60b89-123">When you publish the topology after running the Merge wizard in Topology Builder, conference directories are merged to Lync Server 2013.</span></span> <span data-ttu-id="60b89-124">Konferenzverzeichnisse können überprüft werden, indem Sie das Cmdlet " <STRONG>Get-CsConferenceDirectory</STRONG> " ausführen.</span><span class="sxs-lookup"><span data-stu-id="60b89-124">Conference directories can be verified by running the <STRONG>Get-CsConferenceDirectory</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="ac8c5-123">Wenn Sie die Topologie nach dem Ausführen des Zusammenführungs-Assistenten im Topologie-Generator veröffentlichen, werden Konferenzverzeichnisse mit lync Server 2013 zusammengeführt.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-123">When you publish the topology after running the Merge wizard in Topology Builder, conference directories are merged to Lync Server 2013.</span></span> <span data-ttu-id="ac8c5-124">Konferenzverzeichnisse können überprüft werden, indem Sie das Cmdlet " <STRONG>Get-CsConferenceDirectory</STRONG> " ausführen.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-124">Conference directories can be verified by running the <STRONG>Get-CsConferenceDirectory</STRONG> cmdlet.</span></span>
 
 
 
@@ -90,15 +92,15 @@ ms.locfileid: "34846972"
 
 <div>
 
-## <a name="to-view-services-on-a-merged-pool"></a><span data-ttu-id="60b89-125">So zeigen Sie Dienste in einem zusammengeführten Pool an</span><span class="sxs-lookup"><span data-stu-id="60b89-125">To view services on a merged pool</span></span>
+## <a name="to-view-services-on-a-merged-pool"></a><span data-ttu-id="ac8c5-125">So zeigen Sie Dienste in einem zusammengeführten Pool an</span><span class="sxs-lookup"><span data-stu-id="ac8c5-125">To view services on a merged pool</span></span>
 
-1.  <span data-ttu-id="60b89-126">Öffnen Sie die lync Server 2013-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="60b89-126">Open the Lync Server 2013 Management Shell.</span></span>
+1.  <span data-ttu-id="ac8c5-126">Öffnen Sie die lync Server 2013-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-126">Open the Lync Server 2013 Management Shell.</span></span>
 
-2.  <span data-ttu-id="60b89-127">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="60b89-127">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="ac8c5-127">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="ac8c5-127">At the command line, type the following:</span></span>
     
         Get-CsPool [-Identity <FQDN of the pool>]
     
-    <span data-ttu-id="60b89-128">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="60b89-128">For example:</span></span>
+    <span data-ttu-id="ac8c5-128">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ac8c5-128">For example:</span></span>
     
         Get-CsPool -Identity pool02.contoso.net
 
@@ -106,15 +108,15 @@ ms.locfileid: "34846972"
 
 <div>
 
-## <a name="to-verify-conference-directories-merged"></a><span data-ttu-id="60b89-129">So überprüfen Sie die Zusammenführung von Konferenz Verzeichnissen</span><span class="sxs-lookup"><span data-stu-id="60b89-129">To verify conference directories merged</span></span>
+## <a name="to-verify-conference-directories-merged"></a><span data-ttu-id="ac8c5-129">So überprüfen Sie die Zusammenführung von Konferenz Verzeichnissen</span><span class="sxs-lookup"><span data-stu-id="ac8c5-129">To verify conference directories merged</span></span>
 
-1.  <span data-ttu-id="60b89-130">Öffnen Sie die lync Server 2013-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="60b89-130">Open the Lync Server 2013 Management Shell.</span></span>
+1.  <span data-ttu-id="ac8c5-130">Öffnen Sie die lync Server 2013-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-130">Open the Lync Server 2013 Management Shell.</span></span>
 
-2.  <span data-ttu-id="60b89-131">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="60b89-131">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="ac8c5-131">Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="ac8c5-131">At the command line, type the following:</span></span>
     
         Get-CsConferenceDirectory
 
-3.  <span data-ttu-id="60b89-132">Stellen Sie sicher, dass sich alle Konferenzverzeichnisse für den Pool oder Server, den Sie zusammenführen, jetzt in lync Server 2013 befinden.</span><span class="sxs-lookup"><span data-stu-id="60b89-132">Verify that all the conference directories for the pool or server you are merging are now in Lync Server 2013.</span></span>
+3.  <span data-ttu-id="ac8c5-132">Stellen Sie sicher, dass sich alle Konferenzverzeichnisse für den Pool oder Server, den Sie zusammenführen, jetzt in lync Server 2013 befinden.</span><span class="sxs-lookup"><span data-stu-id="ac8c5-132">Verify that all the conference directories for the pool or server you are merging are now in Lync Server 2013.</span></span>
 
 </div>
 

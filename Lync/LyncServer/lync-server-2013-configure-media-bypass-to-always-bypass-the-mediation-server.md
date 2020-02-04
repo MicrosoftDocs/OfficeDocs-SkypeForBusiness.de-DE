@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren der medienumgehung, um den Vermittlungss
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass to always bypass the Mediation Server
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0023fba32b24243dc4bf2a12659700ace6dea91a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839349"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34839349"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a><span data-ttu-id="33f0e-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="33f0e-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a><span data-ttu-id="fea6b-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="fea6b-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>
 
 </div>
 
@@ -33,51 +35,51 @@ ms.locfileid: "34839349"
 
 <span> </span>
 
-<span data-ttu-id="33f0e-103">_**Letztes Änderungsdatum des Themas:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="33f0e-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="fea6b-103">_**Letztes Änderungsdatum des Themas:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="fea6b-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="33f0e-104">In diesem Artikel wird davon ausgegangen, dass Sie die medienumgehung für alle trunk Verbindungen mit einem Peer (einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Telefonanlage oder einem Session Border Controller (SBC) bei einem Internet-Telefoniedienstanbieter (ITSP)) für eine bestimmte Website oder Dienst, für den Medien den Vermittlungs Server umgehen sollen.</span><span class="sxs-lookup"><span data-stu-id="33f0e-104">This topic assumes that you have already configured media bypass for any trunk connections to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP)) for a specific site or service for which you want media to bypass the Mediation Server.</span></span><BR><span data-ttu-id="33f0e-105">Sie können Medien nicht so konfigurieren, dass der Vermittlungs Server immer umgangen wird, während die Anrufsteuerung ebenfalls aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="33f0e-105">You cannot configure media to always bypass the Mediation Server while also enabling call admission control.</span></span> <span data-ttu-id="33f0e-106">Diese Einstellungen sind nicht kompatibel und sind daher gegenseitig ausschließende Einstellungen in der Benutzeroberfläche der lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="33f0e-106">These settings are incompatible and are therefore mutually exclusive settings in the Lync Server Control Panel user interface.</span></span>
+> <span data-ttu-id="fea6b-104">In diesem Artikel wird davon ausgegangen, dass Sie die medienumgehung für alle trunk Verbindungen mit einem Peer (einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Telefonanlage oder einem Session Border Controller (SBC) bei einem Internet-Telefoniedienstanbieter (ITSP)) für eine bestimmte Website oder Dienst, für den Medien den Vermittlungs Server umgehen sollen.</span><span class="sxs-lookup"><span data-stu-id="fea6b-104">This topic assumes that you have already configured media bypass for any trunk connections to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP)) for a specific site or service for which you want media to bypass the Mediation Server.</span></span><BR><span data-ttu-id="fea6b-105">Sie können Medien nicht so konfigurieren, dass der Vermittlungs Server immer umgangen wird, während die Anrufsteuerung ebenfalls aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="fea6b-105">You cannot configure media to always bypass the Mediation Server while also enabling call admission control.</span></span> <span data-ttu-id="fea6b-106">Diese Einstellungen sind nicht kompatibel und sind daher gegenseitig ausschließende Einstellungen in der Benutzeroberfläche der lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="fea6b-106">These settings are incompatible and are therefore mutually exclusive settings in the Lync Server Control Panel user interface.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="33f0e-107">Zusätzlich zum Aktivieren der medienumgehung für einzelne trunk-Verbindungen, die einem Peer zum Vermittlungs Server zugeordnet sind, müssen Sie auch die globalen Einstellungen für die medienumgehung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="33f0e-107">In addition to enabling media bypass for individual trunk connections associated with a peer to the Mediation Server, you must also configure global settings for media bypass.</span></span> <span data-ttu-id="33f0e-108">Wenn Sie die Schritte in diesem Thema zum Konfigurieren globaler Einstellungen für die medienumgehung verwenden, wird davon ausgegangen, dass Sie über eine gute Konnektivität zwischen lync-Endpunkten und allen Peers verfügen, für die Sie die medienumgehung für die trunk-Verbindung konfiguriert haben.</span><span class="sxs-lookup"><span data-stu-id="33f0e-108">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Lync endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
+<span data-ttu-id="fea6b-107">Zusätzlich zum Aktivieren der medienumgehung für einzelne trunk-Verbindungen, die einem Peer zum Vermittlungs Server zugeordnet sind, müssen Sie auch die globalen Einstellungen für die medienumgehung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="fea6b-107">In addition to enabling media bypass for individual trunk connections associated with a peer to the Mediation Server, you must also configure global settings for media bypass.</span></span> <span data-ttu-id="fea6b-108">Wenn Sie die Schritte in diesem Thema zum Konfigurieren globaler Einstellungen für die medienumgehung verwenden, wird davon ausgegangen, dass Sie über eine gute Konnektivität zwischen lync-Endpunkten und allen Peers verfügen, für die Sie die medienumgehung für die trunk-Verbindung konfiguriert haben.</span><span class="sxs-lookup"><span data-stu-id="fea6b-108">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Lync endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
 
-<span data-ttu-id="33f0e-109">Wenn Sie keine gute Verbindung zwischen lync Server-Endpunkten und allen Peers mit dem Vermittlungsserver haben, deren jeweilige trunk-Verbindungen für die medienumgehung aktiviert wurden, müssen Sie die globalen Einstellungen für die medienumgehung so konfigurieren, dass die Website-und Regionsinformationen verwendet werden, wenn Verwenden der medienumgehung</span><span class="sxs-lookup"><span data-stu-id="33f0e-109">If you do not have good connectivity between Lync Server endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="33f0e-110">Auf diese Weise können Sie festlegen, wann Medien den Vermittlungs Server umgeht.</span><span class="sxs-lookup"><span data-stu-id="33f0e-110">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="33f0e-111">Führen Sie dazu die Schritte unter Konfigurieren der [globalen Einstellungen für medienumgehung in lync Server 2013 aus, um Website-und Regionsinformationen zu verwenden](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) und stattdessen [ein Subnetz mit einer Netzwerk Website in lync Server 2013 zu verknüpfen](lync-server-2013-associate-a-subnet-with-a-network-site.md) .</span><span class="sxs-lookup"><span data-stu-id="33f0e-111">To do this, use the steps in [Configure media bypass global settings in Lync Server 2013 to use site and region information](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) and [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) instead.</span></span>
+<span data-ttu-id="fea6b-109">Wenn Sie keine gute Verbindung zwischen lync Server-Endpunkten und allen Peers mit dem Vermittlungsserver haben, deren jeweilige trunk-Verbindungen für die medienumgehung aktiviert wurden, müssen Sie die globalen Einstellungen für die medienumgehung so konfigurieren, dass die Website-und Regionsinformationen verwendet werden, wenn Verwenden der medienumgehung</span><span class="sxs-lookup"><span data-stu-id="fea6b-109">If you do not have good connectivity between Lync Server endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="fea6b-110">Auf diese Weise können Sie festlegen, wann Medien den Vermittlungs Server umgeht.</span><span class="sxs-lookup"><span data-stu-id="fea6b-110">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="fea6b-111">Führen Sie dazu die Schritte unter Konfigurieren der [globalen Einstellungen für medienumgehung in lync Server 2013 aus, um Website-und Regionsinformationen zu verwenden](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) und stattdessen [ein Subnetz mit einer Netzwerk Website in lync Server 2013 zu verknüpfen](lync-server-2013-associate-a-subnet-with-a-network-site.md) .</span><span class="sxs-lookup"><span data-stu-id="fea6b-111">To do this, use the steps in [Configure media bypass global settings in Lync Server 2013 to use site and region information](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) and [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) instead.</span></span>
 
 <div>
 
-## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="33f0e-112">So aktivieren Sie die Medienumgehung global zur dauerhaften Umgehung des Vermittlungsservers</span><span class="sxs-lookup"><span data-stu-id="33f0e-112">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
+## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="fea6b-112">So aktivieren Sie die Medienumgehung global zur dauerhaften Umgehung des Vermittlungsservers</span><span class="sxs-lookup"><span data-stu-id="fea6b-112">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
 
-1.  <span data-ttu-id="33f0e-113">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="33f0e-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="33f0e-114">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="33f0e-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="fea6b-113">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="fea6b-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="fea6b-114">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="fea6b-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="33f0e-115">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="33f0e-115">In the left navigation bar, click **Network Configuration**.</span></span>
+2.  <span data-ttu-id="fea6b-115">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="fea6b-115">In the left navigation bar, click **Network Configuration**.</span></span>
 
-3.  <span data-ttu-id="33f0e-116">Doppelklicken Sie in der Liste auf die Konfiguration **Global**.</span><span class="sxs-lookup"><span data-stu-id="33f0e-116">Double-click the **Global** configuration in the list.</span></span>
+3.  <span data-ttu-id="fea6b-116">Doppelklicken Sie in der Liste auf die Konfiguration **Global**.</span><span class="sxs-lookup"><span data-stu-id="fea6b-116">Double-click the **Global** configuration in the list.</span></span>
 
-4.  <span data-ttu-id="33f0e-117">Aktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **Medienumgehung aktivieren**.</span><span class="sxs-lookup"><span data-stu-id="33f0e-117">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
+4.  <span data-ttu-id="fea6b-117">Aktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **Medienumgehung aktivieren**.</span><span class="sxs-lookup"><span data-stu-id="fea6b-117">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
 
-5.  <span data-ttu-id="33f0e-118">Klicken Sie auf **Immer umgehen**.</span><span class="sxs-lookup"><span data-stu-id="33f0e-118">Click **Always bypass**.</span></span>
+5.  <span data-ttu-id="fea6b-118">Klicken Sie auf **Immer umgehen**.</span><span class="sxs-lookup"><span data-stu-id="fea6b-118">Click **Always bypass**.</span></span>
 
-6.  <span data-ttu-id="33f0e-119">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="33f0e-119">Click **Commit**.</span></span>
+6.  <span data-ttu-id="fea6b-119">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="fea6b-119">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="33f0e-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="33f0e-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fea6b-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fea6b-120">See Also</span></span>
 
 
-[<span data-ttu-id="33f0e-121">Konfigurieren der Medienumgehung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33f0e-121">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)  
-[<span data-ttu-id="33f0e-122">Globale Medien Umgehungs Optionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33f0e-122">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
-[<span data-ttu-id="33f0e-123">Medienumgehung und Vermittlungsserver in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33f0e-123">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)  
+[<span data-ttu-id="fea6b-121">Konfigurieren der Medienumgehung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fea6b-121">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)  
+[<span data-ttu-id="fea6b-122">Globale Medien Umgehungs Optionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fea6b-122">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="fea6b-123">Medienumgehung und Vermittlungsserver in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fea6b-123">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)  
 
 
-[<span data-ttu-id="33f0e-124">Planung der Medienumgehung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33f0e-124">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="fea6b-124">Planung der Medienumgehung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fea6b-124">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

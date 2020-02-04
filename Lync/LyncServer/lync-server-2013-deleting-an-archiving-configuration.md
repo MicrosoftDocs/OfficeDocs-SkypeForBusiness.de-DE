@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Löschen einer Archivierungskonfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an Archiving configuration
 ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a67d944de9b2c35c9ea2428603b39ddabbbcb26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e4a0c1acf9f605fc927d7006ff50b1f4470c68d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832587"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34832587"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="51b70-102">Löschen einer Archivierungskonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51b70-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="acbb7-102">Löschen einer Archivierungskonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acbb7-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,37 +35,37 @@ ms.locfileid: "34832587"
 
 <span> </span>
 
-<span data-ttu-id="51b70-103">_**Letztes Änderungsdatum des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="51b70-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="acbb7-103">_**Letztes Änderungsdatum des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="acbb7-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="51b70-104">Sie können eine Websitekonfiguration oder Poolkonfiguration löschen.</span><span class="sxs-lookup"><span data-stu-id="51b70-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="51b70-105">Die globale Konfiguration kann nicht entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="51b70-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="51b70-106">Wenn Sie die globale Konfiguration löschen, wird sie automatisch auf die Standardwerte zurückgesetzt.</span><span class="sxs-lookup"><span data-stu-id="51b70-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="51b70-107">Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [wie funktioniert die Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellung Dokumentation oder Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="51b70-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="acbb7-104">Sie können eine Websitekonfiguration oder Poolkonfiguration löschen.</span><span class="sxs-lookup"><span data-stu-id="acbb7-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="acbb7-105">Die globale Konfiguration kann nicht entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="acbb7-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="acbb7-106">Wenn Sie die globale Konfiguration löschen, wird sie automatisch auf die Standardwerte zurückgesetzt.</span><span class="sxs-lookup"><span data-stu-id="acbb7-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="acbb7-107">Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="acbb7-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
-## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="51b70-108">So löschen Sie eine Website-oder Poolkonfiguration für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="51b70-108">To delete a site or pool configuration for archiving</span></span>
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="acbb7-108">So löschen Sie eine Website-oder Poolkonfiguration für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="acbb7-108">To delete a site or pool configuration for archiving</span></span>
 
-1.  <span data-ttu-id="51b70-109">Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="51b70-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="acbb7-109">Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="acbb7-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="51b70-110">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="51b70-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="51b70-111">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="51b70-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="acbb7-110">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="acbb7-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="acbb7-111">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="acbb7-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="51b70-112">Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="51b70-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="acbb7-112">Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="acbb7-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="51b70-113">Klicken Sie in der Liste der Archivierungskonfigurationen auf die zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="51b70-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="acbb7-113">Klicken Sie in der Liste der Archivierungskonfigurationen auf die zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="acbb7-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
-5.  <span data-ttu-id="51b70-114">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="51b70-114">Click **Commit**.</span></span>
+5.  <span data-ttu-id="acbb7-114">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="acbb7-114">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="51b70-115">Entfernen von Archivierungs Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="51b70-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="acbb7-115">Entfernen von Archivierungs Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="acbb7-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="51b70-116">Die Archivierungs Konfigurationseinstellungen können mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsArchivingConfiguration** gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="51b70-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="51b70-117">Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="51b70-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="51b70-118">Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.</span><span class="sxs-lookup"><span data-stu-id="51b70-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="acbb7-116">Die Archivierungs Konfigurationseinstellungen können mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsArchivingConfiguration** gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="acbb7-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="acbb7-117">Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="acbb7-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="acbb7-118">Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.</span><span class="sxs-lookup"><span data-stu-id="acbb7-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="51b70-119">So entfernen Sie eine bestimmte Sammlung von Archivierungs Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="51b70-119">To remove a specified collection of archiving configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="acbb7-119">So entfernen Sie eine bestimmte Sammlung von Archivierungs Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="acbb7-119">To remove a specified collection of archiving configuration settings</span></span>
 
-  - <span data-ttu-id="51b70-120">Mit dem folgenden Befehl werden die auf die Redmond-Website angewendeten Archivierungs Konfigurationseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="51b70-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="acbb7-120">Mit dem folgenden Befehl werden die auf die Redmond-Website angewendeten Archivierungs Konfigurationseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="acbb7-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
@@ -71,9 +73,9 @@ ms.locfileid: "34832587"
 
 <div>
 
-## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="51b70-121">So entfernen Sie alle auf den Website Bereich angewendeten Archivierungs Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="51b70-121">To remove all the archiving configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="acbb7-121">So entfernen Sie alle auf den Website Bereich angewendeten Archivierungs Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="acbb7-121">To remove all the archiving configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="51b70-122">Mit diesem Befehl werden alle auf den Dienstbereich angewendeten Archivierungs Konfigurationseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="51b70-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
+  - <span data-ttu-id="acbb7-122">Mit diesem Befehl werden alle auf den Dienstbereich angewendeten Archivierungs Konfigurationseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="acbb7-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
     
         Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 
@@ -81,27 +83,27 @@ ms.locfileid: "34832587"
 
 <div>
 
-## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="51b70-123">So entfernen Sie Archivierungs Konfigurationseinstellungen auf Grundlage eines angegebenen Eigenschaftswerts</span><span class="sxs-lookup"><span data-stu-id="51b70-123">To remove archiving configuration settings based on a specified property value</span></span>
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="acbb7-123">So entfernen Sie Archivierungs Konfigurationseinstellungen auf Grundlage eines angegebenen Eigenschaftswerts</span><span class="sxs-lookup"><span data-stu-id="acbb7-123">To remove archiving configuration settings based on a specified property value</span></span>
 
-  - <span data-ttu-id="51b70-124">Mit diesem Befehl werden alle Archivierungs Konfigurationseinstellungen entfernt, bei denen die Exchange-Archivierung deaktiviert wurde:</span><span class="sxs-lookup"><span data-stu-id="51b70-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
+  - <span data-ttu-id="acbb7-124">Mit diesem Befehl werden alle Archivierungs Konfigurationseinstellungen entfernt, bei denen die Exchange-Archivierung deaktiviert wurde:</span><span class="sxs-lookup"><span data-stu-id="acbb7-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
 </div>
 
-<span data-ttu-id="51b70-125">Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="51b70-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
+<span data-ttu-id="acbb7-125">Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="acbb7-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="51b70-126">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="51b70-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="acbb7-126">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="acbb7-126">See Also</span></span>
 
 
-[<span data-ttu-id="51b70-127">Funktionsweise der Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51b70-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+[<span data-ttu-id="acbb7-127">Funktionsweise der Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acbb7-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
 
 
-[<span data-ttu-id="51b70-128">Verwalten der Archivierung interner und externer Kommunikation in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51b70-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[<span data-ttu-id="acbb7-128">Verwalten der Archivierung interner und externer Kommunikation in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acbb7-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>

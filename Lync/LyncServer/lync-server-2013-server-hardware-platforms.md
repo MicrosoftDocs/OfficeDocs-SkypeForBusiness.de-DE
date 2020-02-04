@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Serverhardwareplattformen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server hardware platforms
 ms:assetid: c964c1c0-0153-472b-88ad-a38866e0df0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398835(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2682d0d8636c024dee4151842a143e65b11d48c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95c8b0e9b1e13d845672cff07d30b7f2ac1a5b22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822125"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764873"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34822125"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a><span data-ttu-id="6cdfc-102">Serverhardwareplattformen für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6cdfc-102">Server hardware platforms for Lync Server 2013</span></span>
+# <a name="server-hardware-platforms-for-lync-server-2013"></a><span data-ttu-id="4dbc7-102">Serverhardwareplattformen für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4dbc7-102">Server hardware platforms for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,29 +35,29 @@ ms.locfileid: "34822125"
 
 <span> </span>
 
-<span data-ttu-id="6cdfc-103">_**Letztes Änderungsdatum des Themas:** 2016-07-28_</span><span class="sxs-lookup"><span data-stu-id="6cdfc-103">_**Topic Last Modified:** 2016-07-28_</span></span>
+<span data-ttu-id="4dbc7-103">_**Letztes Änderungsdatum des Themas:** 2016-07-28_</span><span class="sxs-lookup"><span data-stu-id="4dbc7-103">_**Topic Last Modified:** 2016-07-28_</span></span>
 
-<span data-ttu-id="6cdfc-104">Serverfunktionen von lync Server 2013 und Computern, auf denen lync Server-Verwaltungstools ausgeführt werden, erfordern 64-Bit-Hardware.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-104">Lync Server 2013 server roles and computers running Lync Server administrative tools require 64-bit hardware.</span></span>
+<span data-ttu-id="4dbc7-104">Serverfunktionen von lync Server 2013 und Computern, auf denen lync Server-Verwaltungstools ausgeführt werden, erfordern 64-Bit-Hardware.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-104">Lync Server 2013 server roles and computers running Lync Server administrative tools require 64-bit hardware.</span></span>
 
-<span data-ttu-id="6cdfc-105">Die spezifische Hardware, die für die lync Server 2013-Bereitstellung verwendet wird, kann abhängig von der Größe und den Verwendungsanforderungen variieren.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-105">The specific hardware used for Lync Server 2013 deployment can vary, depending on size and usage requirements.</span></span> <span data-ttu-id="6cdfc-106">In diesem Abschnitt wird die empfohlene Hardware beschrieben.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-106">This section describes the recommended hardware.</span></span> <span data-ttu-id="6cdfc-107">Wenngleich es sich hier nicht um Anforderungen, sondern um Empfehlungen handelt, kann der Einsatz von Hardware, die diesen Empfehlungen nicht entspricht, zu erheblichen Leistungsproblemen und sonstigen Problemen führen.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-107">Although these are recommendations, not requirements, using hardware that does not meet these recommendations may result in significant performance issues and other issues.</span></span>
+<span data-ttu-id="4dbc7-105">Die spezifische Hardware, die für die lync Server 2013-Bereitstellung verwendet wird, kann abhängig von der Größe und den Verwendungsanforderungen variieren.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-105">The specific hardware used for Lync Server 2013 deployment can vary, depending on size and usage requirements.</span></span> <span data-ttu-id="4dbc7-106">In diesem Abschnitt wird die empfohlene Hardware beschrieben.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-106">This section describes the recommended hardware.</span></span> <span data-ttu-id="4dbc7-107">Wenngleich es sich hier nicht um Anforderungen, sondern um Empfehlungen handelt, kann der Einsatz von Hardware, die diesen Empfehlungen nicht entspricht, zu erheblichen Leistungsproblemen und sonstigen Problemen führen.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-107">Although these are recommendations, not requirements, using hardware that does not meet these recommendations may result in significant performance issues and other issues.</span></span>
 
 <div>
 
-## <a name="recommended-hardware-platform"></a><span data-ttu-id="6cdfc-108">Empfohlene Hardwareplattform</span><span class="sxs-lookup"><span data-stu-id="6cdfc-108">Recommended Hardware Platform</span></span>
+## <a name="recommended-hardware-platform"></a><span data-ttu-id="4dbc7-108">Empfohlene Hardwareplattform</span><span class="sxs-lookup"><span data-stu-id="4dbc7-108">Recommended Hardware Platform</span></span>
 
-<span data-ttu-id="6cdfc-109">Für eine optimale Leistung empfehlen wir, dass Sie lync Server auf Servern mit Hardware ausführen, die die Anforderungen in der folgenden Tabelle erfüllt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-109">For best performance, we recommend that you run Lync Server on servers with hardware that meets the requirements in the following table.</span></span> <span data-ttu-id="6cdfc-110">Wenn Sie weniger leistungsfähige Hardware verwenden, treten möglicherweise Funktionsprobleme oder eine schlechte Leistung auf.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-110">If you use less powerful hardware, you may experience functionality problems or poor performance.</span></span> <span data-ttu-id="6cdfc-111">Beachten Sie, dass diese Hardwareanforderungen höher als in früheren Versionen von lync Server sind, hauptsächlich deshalb, weil in lync Server 2013 alle Front-End-Server SQL Server ausführen.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-111">Note that these hardware requirements are higher than those of previous versions of Lync Server, primarily because in Lync Server 2013, all Front End Servers run SQL Server.</span></span>
+<span data-ttu-id="4dbc7-109">Für eine optimale Leistung empfehlen wir, dass Sie lync Server auf Servern mit Hardware ausführen, die die Anforderungen in der folgenden Tabelle erfüllt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-109">For best performance, we recommend that you run Lync Server on servers with hardware that meets the requirements in the following table.</span></span> <span data-ttu-id="4dbc7-110">Wenn Sie weniger leistungsfähige Hardware verwenden, treten möglicherweise Funktionsprobleme oder eine schlechte Leistung auf.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-110">If you use less powerful hardware, you may experience functionality problems or poor performance.</span></span> <span data-ttu-id="4dbc7-111">Beachten Sie, dass diese Hardwareanforderungen höher als in früheren Versionen von lync Server sind, hauptsächlich deshalb, weil in lync Server 2013 alle Front-End-Server SQL Server ausführen.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-111">Note that these hardware requirements are higher than those of previous versions of Lync Server, primarily because in Lync Server 2013, all Front End Servers run SQL Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6cdfc-112">NIC-Teaming wird unterstützt und sollte für lync Server transparent sein.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-112">NIC teaming is supported and should be transparent to Lync Server.</span></span> <span data-ttu-id="6cdfc-113">Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server-oder lync Server-und Netzwerkadapter-Teaming</A>.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-113">For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming</A>.</span></span>
+> <span data-ttu-id="4dbc7-112">NIC-Teaming wird unterstützt und sollte für lync Server transparent sein.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-112">NIC teaming is supported and should be transparent to Lync Server.</span></span> <span data-ttu-id="4dbc7-113">Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server-oder lync Server-und Netzwerkadapter-Teaming</A>.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-113">For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming</A>.</span></span>
 
 
 
 </div>
 
-### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a><span data-ttu-id="6cdfc-114">Empfohlene Hardware für Front-End-Server, Back-End-Server, Standard Edition-Server, Server für beständigen Chat, Speicher für beständigen Chat und Compliance-Speicher für beständigen Chat (Back-End-Serverrollen für Server für beständigen Chat)</span><span class="sxs-lookup"><span data-stu-id="6cdfc-114">Recommended Hardware for Front End Servers, Back End Servers, Standard Edition Servers, Persistent Chat Servers, and Persistent Chat Store and Persistent Chat Compliance Store (Back End Server Roles for Persistent Chat Server)</span></span>
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a><span data-ttu-id="4dbc7-114">Empfohlene Hardware für Front-End-Server, Back-End-Server, Standard Edition-Server, Server für beständigen Chat, Speicher für beständigen Chat und Compliance-Speicher für beständigen Chat (Back-End-Serverrollen für Server für beständigen Chat)</span><span class="sxs-lookup"><span data-stu-id="4dbc7-114">Recommended Hardware for Front End Servers, Back End Servers, Standard Edition Servers, Persistent Chat Servers, and Persistent Chat Store and Persistent Chat Compliance Store (Back End Server Roles for Persistent Chat Server)</span></span>
 
 <table>
 <colgroup>
@@ -64,37 +66,37 @@ ms.locfileid: "34822125"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6cdfc-115">Hardwarekomponente</span><span class="sxs-lookup"><span data-stu-id="6cdfc-115">Hardware component</span></span></th>
-<th><span data-ttu-id="6cdfc-116">Empfohlen</span><span class="sxs-lookup"><span data-stu-id="6cdfc-116">Recommended</span></span></th>
+<th><span data-ttu-id="4dbc7-115">Hardwarekomponente</span><span class="sxs-lookup"><span data-stu-id="4dbc7-115">Hardware component</span></span></th>
+<th><span data-ttu-id="4dbc7-116">Empfohlen</span><span class="sxs-lookup"><span data-stu-id="4dbc7-116">Recommended</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6cdfc-117">CPU</span><span class="sxs-lookup"><span data-stu-id="6cdfc-117">CPU</span></span></p></td>
-<td><p><span data-ttu-id="6cdfc-118">64-Bit-Dualprozessor, Sechskern, mindestens 2,26 GHz.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-118">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.</span></span></p>
-<p><span data-ttu-id="6cdfc-119">Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-119">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-117">CPU</span><span class="sxs-lookup"><span data-stu-id="4dbc7-117">CPU</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-118">64-Bit-Dualprozessor, Sechskern, mindestens 2,26 GHz.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-118">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.</span></span></p>
+<p><span data-ttu-id="4dbc7-119">Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-119">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6cdfc-120">Arbeitsspeicher</span><span class="sxs-lookup"><span data-stu-id="6cdfc-120">Memory</span></span></p></td>
-<td><p><span data-ttu-id="6cdfc-121">32 GB.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-121">32 gigabytes (GB).</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-120">Arbeitsspeicher</span><span class="sxs-lookup"><span data-stu-id="4dbc7-120">Memory</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-121">32 GB.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-121">32 gigabytes (GB).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6cdfc-122">Festplatte</span><span class="sxs-lookup"><span data-stu-id="6cdfc-122">Disk</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-122">Festplatte</span><span class="sxs-lookup"><span data-stu-id="4dbc7-122">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="6cdfc-123">Mindestens 8 Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz</span><span class="sxs-lookup"><span data-stu-id="6cdfc-123">8 or more 10,000 RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
-<p><span data-ttu-id="6cdfc-124">Zwei Festplatten sollten RAID 1 verwenden und sechs Festplatten sollten RAID 10 verwenden.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-124">Two of the disks should use RAID 1, and six should use RAID 10.</span></span></p>
-<p><span data-ttu-id="6cdfc-125">-Oder</span><span class="sxs-lookup"><span data-stu-id="6cdfc-125">- OR -</span></span></p></li>
-<li><p><span data-ttu-id="6cdfc-126">Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 8 mechanische Festplattenlaufwerke mit 10.000 U/min.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-126">Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-123">Mindestens 8 Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz</span><span class="sxs-lookup"><span data-stu-id="4dbc7-123">8 or more 10,000 RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
+<p><span data-ttu-id="4dbc7-124">Zwei Festplatten sollten RAID 1 verwenden und sechs Festplatten sollten RAID 10 verwenden.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-124">Two of the disks should use RAID 1, and six should use RAID 10.</span></span></p>
+<p><span data-ttu-id="4dbc7-125">-Oder</span><span class="sxs-lookup"><span data-stu-id="4dbc7-125">- OR -</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-126">Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 8 mechanische Festplattenlaufwerke mit 10.000 U/min.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-126">Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6cdfc-127">Netzwerk</span><span class="sxs-lookup"><span data-stu-id="6cdfc-127">Network</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-127">Netzwerk</span><span class="sxs-lookup"><span data-stu-id="4dbc7-127">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="6cdfc-128">1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</span><span class="sxs-lookup"><span data-stu-id="6cdfc-128">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).</span></span></p>
+<li><p><span data-ttu-id="4dbc7-128">1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</span><span class="sxs-lookup"><span data-stu-id="4dbc7-128">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="6cdfc-129">Dualkonfigurationen oder mehrfach vernetzte Konfigurationen werden für Front-End-Server, Back-End-Server, Standard Edition-Server und Server für beständigen Chat nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-129">Dual or multi-homed configurations are not supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers.</span></span><BR><span data-ttu-id="6cdfc-130">ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-130">ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.</span></span>
+> <span data-ttu-id="4dbc7-129">Dualkonfigurationen oder mehrfach vernetzte Konfigurationen werden für Front-End-Server, Back-End-Server, Standard Edition-Server und Server für beständigen Chat nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-129">Dual or multi-homed configurations are not supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers.</span></span><BR><span data-ttu-id="4dbc7-130">ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-130">ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.</span></span>
 
 
 </div></li>
@@ -104,7 +106,7 @@ ms.locfileid: "34822125"
 </table>
 
 
-### <a name="recommended-hardware-for-edge-servers-standalone-mediation-servers-and-directors"></a><span data-ttu-id="6cdfc-131">Empfohlene Hardware für Edgeserver, eigenständige Vermittlungsserver und Directors</span><span class="sxs-lookup"><span data-stu-id="6cdfc-131">Recommended Hardware for Edge Servers, Standalone Mediation Servers, and Directors</span></span>
+### <a name="recommended-hardware-for-edge-servers-standalone-mediation-servers-and-directors"></a><span data-ttu-id="4dbc7-131">Empfohlene Hardware für Edgeserver, eigenständige Vermittlungsserver und Directors</span><span class="sxs-lookup"><span data-stu-id="4dbc7-131">Recommended Hardware for Edge Servers, Standalone Mediation Servers, and Directors</span></span>
 
 <table>
 <colgroup>
@@ -113,47 +115,47 @@ ms.locfileid: "34822125"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6cdfc-132">Hardwarekomponente</span><span class="sxs-lookup"><span data-stu-id="6cdfc-132">Hardware component</span></span></th>
-<th><span data-ttu-id="6cdfc-133">Empfohlen</span><span class="sxs-lookup"><span data-stu-id="6cdfc-133">Recommended</span></span></th>
+<th><span data-ttu-id="4dbc7-132">Hardwarekomponente</span><span class="sxs-lookup"><span data-stu-id="4dbc7-132">Hardware component</span></span></th>
+<th><span data-ttu-id="4dbc7-133">Empfohlen</span><span class="sxs-lookup"><span data-stu-id="4dbc7-133">Recommended</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6cdfc-134">CPU</span><span class="sxs-lookup"><span data-stu-id="6cdfc-134">CPU</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-134">CPU</span><span class="sxs-lookup"><span data-stu-id="4dbc7-134">CPU</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="6cdfc-135">64-Bit-Dualprozessor, Quad-Core, 2,0 Gigahertz (GHz) oder höher</span><span class="sxs-lookup"><span data-stu-id="6cdfc-135">64-bit dual processor, quad-core, 2.0 gigahertz (GHz) or higher.</span></span></p>
-<p><span data-ttu-id="6cdfc-136">-Oder</span><span class="sxs-lookup"><span data-stu-id="6cdfc-136">- OR -</span></span></p></li>
-<li><p><span data-ttu-id="6cdfc-137">64-Bit-4-Wege-Prozessor, Dual-Core, 2,0 GHz oder höher</span><span class="sxs-lookup"><span data-stu-id="6cdfc-137">64-bit 4-way processor, dual-core, 2.0 GHz or higher.</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-135">64-Bit-Dualprozessor, Quad-Core, 2,0 Gigahertz (GHz) oder höher</span><span class="sxs-lookup"><span data-stu-id="4dbc7-135">64-bit dual processor, quad-core, 2.0 gigahertz (GHz) or higher.</span></span></p>
+<p><span data-ttu-id="4dbc7-136">-Oder</span><span class="sxs-lookup"><span data-stu-id="4dbc7-136">- OR -</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-137">64-Bit-4-Wege-Prozessor, Dual-Core, 2,0 GHz oder höher</span><span class="sxs-lookup"><span data-stu-id="4dbc7-137">64-bit 4-way processor, dual-core, 2.0 GHz or higher.</span></span></p></li>
 </ul>
-<p><span data-ttu-id="6cdfc-138">Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-138">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
+<p><span data-ttu-id="4dbc7-138">Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-138">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6cdfc-139">Arbeitsspeicher</span><span class="sxs-lookup"><span data-stu-id="6cdfc-139">Memory</span></span></p></td>
-<td><p><span data-ttu-id="6cdfc-140">16 Gigabyte (GB).</span><span class="sxs-lookup"><span data-stu-id="6cdfc-140">16 gigabytes (GB).</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-139">Arbeitsspeicher</span><span class="sxs-lookup"><span data-stu-id="4dbc7-139">Memory</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-140">16 Gigabyte (GB).</span><span class="sxs-lookup"><span data-stu-id="4dbc7-140">16 gigabytes (GB).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6cdfc-141">Festplatte</span><span class="sxs-lookup"><span data-stu-id="6cdfc-141">Disk</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-141">Festplatte</span><span class="sxs-lookup"><span data-stu-id="4dbc7-141">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="6cdfc-142">4 oder mehr 10.000-rpm-Festplattenlaufwerke mit mindestens 72 GB freiem Speicherplatz.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-142">4 or more 10,000 RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
-<p><span data-ttu-id="6cdfc-143">Die Festplatten sollten in einer 2x-RAID-1-Konfiguration sein.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-143">The disks should be in a 2x RAID 1 configuration.</span></span></p>
-<p><span data-ttu-id="6cdfc-144">-Oder</span><span class="sxs-lookup"><span data-stu-id="6cdfc-144">- OR -</span></span></p></li>
-<li><p><span data-ttu-id="6cdfc-145">Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 4 mechanische Festplattenlaufwerke mit 10.000 U/min.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-145">Solid state drives (SSDs) which provide performance similar to 4 10,000-RPM mechanical disk drives.</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-142">4 oder mehr 10.000-rpm-Festplattenlaufwerke mit mindestens 72 GB freiem Speicherplatz.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-142">4 or more 10,000 RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
+<p><span data-ttu-id="4dbc7-143">Die Festplatten sollten in einer 2x-RAID-1-Konfiguration sein.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-143">The disks should be in a 2x RAID 1 configuration.</span></span></p>
+<p><span data-ttu-id="4dbc7-144">-Oder</span><span class="sxs-lookup"><span data-stu-id="4dbc7-144">- OR -</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-145">Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 4 mechanische Festplattenlaufwerke mit 10.000 U/min.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-145">Solid state drives (SSDs) which provide performance similar to 4 10,000-RPM mechanical disk drives.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6cdfc-146">Netzwerk</span><span class="sxs-lookup"><span data-stu-id="6cdfc-146">Network</span></span></p></td>
+<td><p><span data-ttu-id="4dbc7-146">Netzwerk</span><span class="sxs-lookup"><span data-stu-id="4dbc7-146">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="6cdfc-147">1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</span><span class="sxs-lookup"><span data-stu-id="6cdfc-147">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).</span></span> <span data-ttu-id="6cdfc-148">zwei Netzwerkschnittstellen sind auf Edge-Servern erforderlich und werden auf eigenständigen Vermittlungsservern unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-148">2 network interfaces are required on Edge Servers, and are supported on standalone Mediation Servers.</span></span></p></li>
+<li><p><span data-ttu-id="4dbc7-147">1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</span><span class="sxs-lookup"><span data-stu-id="4dbc7-147">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).</span></span> <span data-ttu-id="4dbc7-148">zwei Netzwerkschnittstellen sind auf Edge-Servern erforderlich und werden auf eigenständigen Vermittlungsservern unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-148">2 network interfaces are required on Edge Servers, and are supported on standalone Mediation Servers.</span></span></p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="6cdfc-149">Dual-oder Multi-Homed-Konfigurationen werden für Directors nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-149">Dual or multi-homed configurations are not supported for Directors.</span></span><BR><span data-ttu-id="6cdfc-150">ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-150">ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.</span></span>
+> <span data-ttu-id="4dbc7-149">Dual-oder Multi-Homed-Konfigurationen werden für Directors nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-149">Dual or multi-homed configurations are not supported for Directors.</span></span><BR><span data-ttu-id="4dbc7-150">ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-150">ILO/DRAC/etc. connections not exposed to the Operating System and used to monitor and manage the server hardware do not constitute a multi-homed server and thus are supported.</span></span>
 
 
 </div>
-<p><span data-ttu-id="6cdfc-151">Für Edgeserver sind zwei Netzwerkschnittstellen erforderlich, bei denen es sich um Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (oder zwei gekoppelte Netzwerkadapter, für insgesamt vier) handelt, wobei jedes Paar mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse für insgesamt zwei Paare zusammengestellt wird.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-151">Edge Servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).</span></span></p>
-<p><span data-ttu-id="6cdfc-152">Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs), um die Konfiguration einer bestimmten PSTN-IP-Adresse zu ermöglichen, wird auf eigenständigen Vermittlungsservern unterstützt.</span><span class="sxs-lookup"><span data-stu-id="6cdfc-152">Installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported on standalone Mediation Servers.</span></span></p></td>
+<p><span data-ttu-id="4dbc7-151">Für Edgeserver sind zwei Netzwerkschnittstellen erforderlich, bei denen es sich um Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (oder zwei gekoppelte Netzwerkadapter, für insgesamt vier) handelt, wobei jedes Paar mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse für insgesamt zwei Paare zusammengestellt wird.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-151">Edge Servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).</span></span></p>
+<p><span data-ttu-id="4dbc7-152">Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs), um die Konfiguration einer bestimmten PSTN-IP-Adresse zu ermöglichen, wird auf eigenständigen Vermittlungsservern unterstützt.</span><span class="sxs-lookup"><span data-stu-id="4dbc7-152">Installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported on standalone Mediation Servers.</span></span></p></td>
 </tr>
 </tbody>
 </table>
