@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: In diesem Artikel werden die wichtigsten Grundsätze zum Anruffluss für Skype for Business Online und ExpressRoute mit detaillierten Beispielen für Anrufflüsse erläutert, um Sie bei einer adäquaten Planung zu unterstützen.
-ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792630"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706670"
 ---
 # <a name="call-flow-using-expressroute"></a>Anruffluss mit ExpressRoute
 
@@ -66,7 +67,7 @@ Normalerweise befindet sich am Rand Ihres Netzwerks mindestens eine DMZ mit Fire
 
  **Internet** Dies ist das Netzwerksegment innerhalb Ihres Gesamtnetzwerks, das die Benutzer verwenden, wenn sie sich außerhalb des Netzwerks mit Skype for Business Online verbinden. Wenn ExpressRoute nicht konfiguriert ist, wird dieses Segment für alle Verbindungen verwendet. Das Internet und alle Verbindungen darin werden nicht von Ihnen oder von Microsoft verwaltet. Darum können die Leistung und die Routingpfade nicht bestimmt werden. Dies hat die größten Auswirkungen auf den Anruffluss und die Qualität insgesamt.
 
- **Express Route** Hierbei handelt es sich um das Netzwerksegment, das Teil Ihres gesamten Netzwerks ist und Ihnen eine dedizierte, private Verbindung zum Microsoft-Netzwerk bietet. Dies ist die empfohlene Option zum Herstellen einer Verbindung zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk (Office 365-Rechenzentren) für alle Arbeitslasten, die von der Netzwerkgeschwindigkeit und-Leistung abhängen, wie etwa die Echtzeit-Kommunikation zwischen Skype for Business Online. Express Route-Verbindungen werden zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk hergestellt verwenden Sie [Express Route-Verbindungsanbieter](https://azure.microsoft.com/documentation/articles/expressroute-locations/) , um ein privates und verwaltetes Netzwerk bereitzustellen, mit einer Verfügbarkeit von 99,9% und Unterstützung für Quality of Service (QoS), die die Leistung verbessern kann. für echt Zeit Medien in Zeiten des Netzwerk Engpasses.
+ **Express Route** Hierbei handelt es sich um das Netzwerksegment, das Teil Ihres gesamten Netzwerks ist und Ihnen eine dedizierte, private Verbindung zum Microsoft-Netzwerk bietet. Dies ist die empfohlene Option zum Herstellen einer Verbindung zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk (Office 365-Rechenzentren) für alle Arbeitslasten, die von der Netzwerkgeschwindigkeit und-Leistung abhängen, wie etwa die Echtzeit-Kommunikation zwischen Skype for Business Online. Express Route-Verbindungen werden zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk hergestellt verwenden Sie [Express Route-Verbindungsanbieter](https://azure.microsoft.com/documentation/articles/expressroute-locations/) , um ein privates und verwaltetes Netzwerk bereitzustellen, mit einer Verfügbarkeit von 99,9% und Unterstützung für Quality of Service (QoS), die die Leistung für echt Zeit Medien in Zeiten von Netzwerküberlastung verbessern kann.
 
  **Microsoft-Netzwerk** Dies ist das Netzwerksegment innerhalb Ihres Gesamtnetzwerks, das die Office 365-Dienste unterstützt. Hierzu gehört die gesamte Kommunikation zwischen Onlineservern für Office 365, beispielsweise Datenverkehr, der den Backbone des Microsoft-Netzwerks durchläuft und zwischen verschiedenen geografischen Regionen übermittelt wird.
 
@@ -159,7 +160,7 @@ Wenn ein Hybridbenutzer an einer online gehosteten Konferenz teilnimmt, wissen w
 
  **Lokale Benutzer, die von einem lokalen Edgeserver aus an einer Online-Telekonferenz teilnehmen**
 
-![Call flow for a conference call going through an edge server.](../images/0178c170-5837-430d-84f1-582784bfef55.png)
+![Anruffluss für einen Konferenzanruf, der über einen Edgeserver läuft.](../images/0178c170-5837-430d-84f1-582784bfef55.png)
 
 ### <a name="pstn-call-using-skype-for-business-cloud-connector-edition"></a>PSTN-Anruf mit Skype for Business Cloud Connector Edition
 <a name="bk_Figure6"> </a>
@@ -168,7 +169,7 @@ Mit [Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConn
 
  **PSTN-Anruf über das Telefonsystem in Office 365 und Cloud Connector**
 
-![Call flow for a PSTN call using Cloud PBX Cloud Connector.](../images/e48d0f2b-fa1e-4b43-b3dd-d34a33dcdf36.png)
+![Anruffluss für einen PSTN-Anruf mit Cloud PBX Cloud Connector.](../images/e48d0f2b-fa1e-4b43-b3dd-d34a33dcdf36.png)
 
 ### <a name="skype-meeting-broadcast-with-users-joining-from-customer-network"></a>Skype-Livekonferenz mit Benutzern, die von einem Kundennetzwerk aus teilnehmen
 <a name="bk_Figure6"> </a>
@@ -191,45 +192,45 @@ Die Daten werden übermittelt und aufgeführt, als seien sie für die Organisati
 
 Die Verwendungsszenarien für Skype for Business Online umfassen Benutzer, die online verwaltet werden und entweder von Ihrem internen Netzwerk aus oder vom Internet aus anrufen. Lokale Server kommen in diesen Szenarien nicht vor. Daher werden alle Medien in Bezug auf Konferenzen oder PSTN-Anrufe zur Office 365-Cloud fließen, und der Edgeserver der Onlinebenutzer befindet sich ebenfalls in der Cloud.
 
- **Übersicht über Anrufflüsse bei Skype for Business Online**
+ **Zusammenfassung des Anrufflusses für Skype for Business Online**
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Nutzungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungspfad** <br/> |**Medienpfad** <br/> |**Beispielfluss** <br/> |**Notizen** <br/> |
-|Peer-to-Peer-Anruf  <br/> |Zwei Clients, beide in Ihrem Netzwerk.  <br/> |ExpressRoute  <br/> |lokal  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
-|Peer-to-Peer-Anruf  <br/> |Zwei Clients, einer in Ihrem Netzwerk (intern) und der andere Client im Internet (extern)  <br/> |Interner Benutzer: ExpressRoute  <br/> Externer Benutzer: Internet  <br/> |Interner Benutzer: ExpressRoute  <br/> Externer Benutzer: Internet zum Office 365-Edgeserver.  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> |Dabei wird vorausgesetzt, dass die Firewall direkte Verbindungen zwischen Clients blockiert, sodass ein Online-Edgeserver erforderlich ist. Der Datenverkehr vom internen Benutzer zum Online-Edgeserver folgt einem ähnlichen Pfad wie der Datenverkehr zum Konferenzserver für die Telefonkonferenz.  <br/> |
-|Peer-to-Peer-Anruf zu einem Benutzer in einer Partnerorganisation  <br/> |Zwei Clients, einer auf Ihrem Netzwerk (intern) und der andere beim Online-Benutzer auf dem Netzwerk der Partnerorganisation (Verbund).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Dabei wird vorausgesetzt, dass die Firewall direkte Verbindungen zwischen Clients blockiert, sodass ein Online-Edgeserver erforderlich ist. Der Datenverkehr vom internen Benutzer zum Online-Edgeserver folgt einem ähnlichen Pfad wie der Datenverkehr eines Konferenzservers für die Telefonkonferenz.  <br/> |
-|Teilnahme an einer Telekonferenz durch einen Benutzer im Netzwerk eines Kunden  <br/> |Client auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
-|Teilnahme an einer Telefonkonferenz durch einen Benutzer im Internet  <br/> |Der Client befindet sich im Internet und der Konferenzserver in der Office 365-Cloud.  <br/> |Internet  <br/> |Internet  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
-|Teilnahme an einer Konferenz, die vom lokalen Server eines anderen Unternehmens gehostet wird  <br/> |Client auf Ihrem Netzwerk und Konferenzserver im externen Rechenzentrum.  <br/> |Internet  <br/> |Internet  <br/> |Nicht anwendbar  <br/> |Der Konferenzserver, der die Konferenz hostet, befindet sich im lokalen Netzwerk eines anderen Kunden. Daher würden keine Daten durch die Microsoft-Cloud geleitet.  <br/> |
-|PSTN-Anruf  <br/> |Client im Netzwerk eines Kunden und Telefonsystemserver in der Office 365-Cloud  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
-|PSTN-Anruf  <br/> |Client im Internet und Telefonsystemserver in der Office 365-Cloud  <br/> |Internet  <br/> |Internet  <br/> |Nicht anwendbar  <br/> |Die Medien und Signalisierungen fließen zum Office 365-Datencenter. Der Clientendpunkt befindet sich im Internet. Daher fließen alle Daten zum Microsoft-Datencenter über das Internet (auch wenn ein Online-Edgeserver für Verbindungen erforderlich ist).  <br/> |
+|**Verwendungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungs Pfad** <br/> |**Medienpfad** <br/> |**Beispiel Fluss** <br/> |**Hinweise** <br/> |
+|Peer-zu-Peer-Anruf  <br/> |Zwei Clients, sowohl in Ihrem Netzwerk.  <br/> |Express Route  <br/> |lokalen  <br/> |[Peer-zu-Peer-Anruf für Office 365-Benutzer im Kundennetzwerk](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|Peer-zu-Peer-Anruf  <br/> |Zwei Clients, einer in Ihrem Netzwerk (intern) und der andere Client im Internet (extern).  <br/> |Interner Benutzer: Express Route  <br/> Externer Benutzer: Internet  <br/> |Interner Benutzer: Express Route  <br/> Externer Benutzer: Internet zu Office 365 Edge-Server.  <br/> |[Peer-zu-Peer-Anruf für Office 365-Benutzer im Kundennetzwerk](call-flow-using-expressroute.md#bk_Figure2) <br/> |Es wird davon ausgegangen, dass die Firewall direkte Verbindungen zwischen Clients blockiert, die einen Online-Edgeserver erfordern. Der Datenverkehr vom internen Benutzer zum Online-Edgeserver folgt einem ähnlichen Pfad wie dem Konferenzserver für Konferenzanrufe.  <br/> |
+|Peer-zu-Peer-Anruf an einen Benutzer in einer Verbundorganisation  <br/> |Zwei Clients, in Ihrem Netzwerk (intern) und Online Benutzer im Netzwerk der Verbundorganisation (Federated).  <br/> |Express Route  <br/> |Express Route  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Setzt voraus, dass eine Firewall direkte Verbindungen zwischen Clients blockiert, die Online-Edgeserver erfordern. Der Datenverkehr vom internen Benutzer zum Online-Edgeserver folgt einem ähnlichen Pfad wie der eines Konferenzservers für Konferenzgespräche.  <br/> |
+|Teilnehmen an Konferenzgesprächen nach Benutzer im Kundennetzwerk  <br/> |Client auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |Express Route  <br/> |Express Route  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
+|Teilnehmen an Konferenzgesprächen nach Benutzer im Internet  <br/> |Der Client befindet sich auf dem Internet-und Konferenzserver in der Office 365-Cloud.  <br/> |Internet  <br/> |Internet  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
+|Teilnahme an einer Konferenz, die von einem anderen Unternehmen auf dem Prem-Server gehostet wird  <br/> |Client auf Ihrem Netzwerk und Konferenzserver in einem Drittanbieter-Rechenzentrum.  <br/> |Internet  <br/> |Internet  <br/> |Nicht zutreffend  <br/> |Da sich der Konferenzserver, auf dem sich die Konferenz befindet, in einem lokalen Netzwerk eines anderen Kunden befindet, gehen keine Daten über die Microsoft-Cloud.  <br/> |
+|PSTN-Anruf  <br/> |Client in Kunden-Netzwerk-und Telefon System Server in der Office 365-Cloud  <br/> |Express Route  <br/> |Express Route  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
+|PSTN-Anruf  <br/> |Client im Internet und Telefon System Server in der Office 365-Cloud  <br/> |Internet  <br/> |Internet  <br/> |Nicht zutreffend  <br/> |Medien und Signalisierungen fließen in das Office 365-Rechenzentrum. Da sich der Clientendpunkt im Internet befindet, fließen alle Daten in das Microsoft Datacenter über das Internet (auch wenn ein Online-Edgeserver für die Konnektivität benötigt wird).  <br/> |
 
 > [!NOTE]
-> ExpressRoute wird auf dem Medienpfad von einem Benutzer im Unternehmensnetz zu einem Online-Edgeserver verwendet. ExpressRoute wird jedoch nicht verwendet, wenn der Edgeserver für die lokale Bereitstellung eines anderen Kunden verwendet wird.
+> Express Route wird auf dem Medienpfad eines Benutzers im Unternehmensnetzwerk zu einem Online-Edgeserver verwendet, wird aber nicht verwendet, wenn der Edgeserver für die lokale Bereitstellungeines anderen Kunden verwendet wird.
 
 ### <a name="call-flows-for-skype-for-business-hybrid"></a>Anruf Flüsse für Skype for Business-Hybrid
 
-Hybridanrufflüsse kommen zum Tragen, wenn Sie eine Skype for Business-Bereitstellung haben, bei der mindestens einige Benutzer lokal verwaltet werden. Die Anrufflüsse in diesem Abschnitt umfassen sowohl lokale Konferenzen als auch Peer-zu-Peer- oder PSTN-Anrufe mit mindestens einem lokal verwalteten Benutzer.
+Es gelten hybride Anruf Flüsse, wenn Sie über eine Skype for Business-Bereitstellung verfügen, die mindestens einige Benutzer umfasst, die lokal gehostet werden. Zu den Anruf strömen in diesem Abschnitt gehören sowohl lokale Konferenzen als auch Peer-to-Peer-oder PSTN-Anrufe mit mindestens einem lokal vernetzten Benutzer.
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Nutzungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungspfad** <br/> |**Medienpfad** <br/> |**Beispielfluss** <br/> |**Notizen** <br/> |
-|Peer-to-Peer-Anruf  <br/> |Zwei Clients, beide auf dem Kundennetzwerk und lokal beheimatet  <br/> |Lokal  <br/> |lokal  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> |Da die Benutzer lokal beheimatet sind, fließen die Signalisierungen lokal zum lokalen Rechenzentrum statt zur Office 365-Cloud.  <br/> |
-|Peer-to-Peer-Anruf  <br/> |Zwei Clients, die sich beide vom Kundennetzwerk aus verbinden. Einer ist online beheimatet, der andere lokal.  <br/> |Online-Benutzer: ExpressRoute  <br/> Lokaler Benutzer: lokal  <br/> |lokal  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> |Nur der online beheimatete Benutzer sendet Signalisierungsverkehr zur Office 365-Cloud.  <br/> |
-|Peer-zu-Peer-Anruf an einen Benutzer in einer Partnerorganisation  <br/> |Zwei Clients, ein lokaler Benutzer im Kundennetzwerk (intern) und ein Online-Benutzer im Netzwerk des Partnerunternehmens (Verbund).  <br/> |Interner Benutzer: lokal  <br/> Partnerbenutzer: ExpressRoute  <br/> |Internet oder ExpressRoute (je nachdem, ob ein Online- oder lokaler Edgeserver verwendet wird)  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Konferenz teilnimmt, die online gehostet wird](call-flow-using-expressroute.md#bk_Figure3) , und Teil des [lokalen Edge-Servers mit Office 365-gehosteten Konferenzen](call-flow-using-expressroute.md#bk_Figure5) (für Mediendatenverkehr). <br/> |Dabei wird vorausgesetzt, dass eine Firewall direkte Verbindungen zwischen Clients blockiert, sodass ein Online-Edgeserver erforderlich ist. ICE-Aushandlung bietet sowohl Online-Edgeserver (durch den Onlinebenutzer) als auch lokale Edgeserver (durch den lokalen Benutzer) für die Verbindung an.  <br/> |
-|Teilnahme an einer Telefonkonferenz durch einen Benutzer im Kundennetzwerk (von Online-Benutzer geplante Konferenz)  <br/> |Lokaler Benutzer auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Serverressourcen für die Telefonkonferenz werden durch den Besprechungsorganisator definiert. In diesem Fall wurde die Konferenz durch einen Onlinebenutzer geplant. Die Ressourcen befinden sich also in der Office 365-Cloud.  <br/> |
-|PSTN-Anruf  <br/> |Lokaler Benutzer in Ihrem Netzwerk und lokalen Skype for Business-Rechenzentrum.  <br/> |Lokal  <br/> |Lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> |Vergleichbares Szenario für die Verwendung von Cloud Connector Edition, außer dass der Benutzer lokal beheimatet ist, sodass die Signalisierung in Ihrem Netzwerk verbleibt.  <br/> |
+|**Verwendungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungs Pfad** <br/> |**Medienpfad** <br/> |**Beispiel Fluss** <br/> |**Hinweise** <br/> |
+|Peer-zu-Peer-Anruf  <br/> |Zwei Clients, sowohl im Kundennetzwerk als auch in der lokalen Niederlassung  <br/> |Local  <br/> |lokalen  <br/> |[Peer-zu-Peer-Anruf für Office 365-Benutzer im Kundennetzwerk](call-flow-using-expressroute.md#bk_Figure2) <br/> |Da Benutzer lokal lokal gehostet werden, fließt die Signalübertragung lokal an das lokale Rechenzentrum statt an die Office 365-Cloud.  <br/> |
+|Peer-zu-Peer-Anruf  <br/> |Zwei Clients, die beide über das Kundennetzwerk verbunden sind. Eine ist online, die andere lokal verwaltet.  <br/> |Online-Benutzer: Express Route  <br/> Lokaler Benutzer: lokal  <br/> |lokalen  <br/> |[Peer-zu-Peer-Anruf für Office 365-Benutzer im Kundennetzwerk](call-flow-using-expressroute.md#bk_Figure2) <br/> |Nur der online verwaltete Benutzer sendet signalisierten Datenverkehr an die Office 365-Cloud.  <br/> |
+|Peer-zu-Peer-Anruf an einen Benutzer in einer Verbundorganisation  <br/> |Zwei Clients, vor Ort – Benutzer im Kundennetzwerk (intern) und Online Benutzer im Netzwerk des Federated-Unternehmens (Federated).  <br/> |Interner Benutzer: lokal  <br/> Federated-Benutzer: Express Route  <br/> |Internet-oder Express Route (hängt davon ab, ob der Online-oder lokale Edgeserver verwendet wird)  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Konferenz teilnimmt, die online gehostet wird](call-flow-using-expressroute.md#bk_Figure3) , und Teil des [lokalen Edge-Servers mit Office 365-gehosteten Konferenzen](call-flow-using-expressroute.md#bk_Figure5) (für Mediendatenverkehr). <br/> |Setzt voraus, dass eine Firewall direkte Verbindungen zwischen Clients blockiert, die Online-Edgeserver erfordern. Ice Negotiation bietet sowohl online (vom Online Benutzer) als auch lokale Edgeserver (vom lokalen Benutzer) für die Konnektivität an.  <br/> |
+|Teilnehmen an einem Konferenzanruf nach Benutzer im Kundennetzwerk (vom Online Benutzer geplantes Konferenzprogramm)  <br/> |Lokalen Benutzer auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |Express Route  <br/> |Express Route  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer Online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Server Ressourcen für Konferenzgespräche werden vom Organisator der Besprechung definiert. In diesem Fall wurde es von einem Online Benutzer geplant, sodass sich die Ressourcen in der Office 365-Cloud befinden.  <br/> |
+|PSTN-Anruf  <br/> |Lokalen Benutzer in Ihrem Netzwerk und lokales Skype for Business-Rechenzentrum.  <br/> |Local  <br/> |Local  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> |Ähnliches Szenario für die Verwendung von Cloud Connector Edition, mit der Ausnahme, dass der Benutzer lokal verwaltet wird, sodass die Signalübertragung in Ihrem Netzwerk verbleibt.  <br/> |
 
 ### <a name="call-flows-for-skype-for-business-with-cloud-connector"></a>Anruf Flüsse für Skype for Business mit Cloud Connector
 
-Benutzer, die sich mit Cloud Connector Edition verbinden, sind alle online beheimatet. Dies bedeutet, dass die Konferenzen online sind und dass die Signalisierung den gleichen Mustern folgt wie für Online-Benutzer. Für Szenarien außer PSTN-Anrufen ist der Anruffluss genau so, wie oben für Skype for Business Online beschrieben.
+Benutzer, die eine Verbindung mit der Cloud Connector Edition herstellen, werden alle Online verwaltet. Das bedeutet, dass Konferenzen online sind und die Signalisierung den gleichen Mustern wie für Online-Benutzer entspricht. Für andere Szenarien als PSTN-Anrufe ist der Anruffluss genau wie oben beschrieben für Skype for Business Online.
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Nutzungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungspfad** <br/> |**Medienpfad** <br/> |**Beispielfluss** <br/> |**Notizen** <br/> |
-|PSTN-Anruf  <br/> |Online-Benutzer in Ihrem Netzwerk, der Cloud Connector Edition nutzt.  <br/> |lokal  <br/> |lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
-|PSTN-Anruf  <br/> |Online-Benutzer im Internet, der Cloud Connector Edition nutzt.  <br/> |Internet  <br/> |Internet  <br/> |Kombination aus [lokalem Edgeserver mit gehosteten Konferenzen in Office 365](call-flow-using-expressroute.md#bk_Figure5) und [PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internetbenutzer verbinden sich über den Edgeserver, der in Cloud Connector enthalten ist, und Cloud Connector verbindet sich mit dem Festnetz.  <br/> |
+|**Verwendungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungs Pfad** <br/> |**Medienpfad** <br/> |**Beispiel Fluss** <br/> |**Hinweise** <br/> |
+|PSTN-Anruf  <br/> |Online-Benutzer in Ihrem Netzwerk mit Cloud Connector Edition.  <br/> |lokalen  <br/> |lokalen  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
+|PSTN-Anruf  <br/> |Online-Benutzer, der das Internet mithilfe von Cloud Connector Edition nutzt.  <br/> |Internet  <br/> |Internet  <br/> |Kombination aus [lokalem Edgeserver mit gehosteten Konferenzen in Office 365](call-flow-using-expressroute.md#bk_Figure5) und [PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internet Benutzer verbinden sich über den Edgeserver, der in Cloud Connector enthalten ist, und Cloud Connector stellt eine Verbindung mit dem PSTN-Netzwerk her.  <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

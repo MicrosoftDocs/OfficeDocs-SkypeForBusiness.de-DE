@@ -1,5 +1,5 @@
 ---
-title: Manuelles übermitteln eines Portierungs Auftrags
+title: Manuelles Übermitteln eines Portierungsauftrags
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine Portierungs Auftragsanforderung manuell übermitteln.
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925655"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708741"
 ---
-# <a name="manually-submit-a-port-order"></a>Manuelles übermitteln eines Portierungs Auftrags
+# <a name="manually-submit-a-port-order"></a>Manuelles Übermitteln eines Portierungsauftrags
 
 In einigen Ländern und Regionen müssen Sie möglicherweise eine Serviceanfrage manuell übermitteln, um Telefonnummern zu erhalten, Telefonnummern zu übertragen, Telefonnummern freizugeben oder Adressen zu ändern. Informationen dazu, was für die einzelnen Länder und Regionen erforderlich ist, oder weitere Informationen zur Nummernportierung finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -60,7 +60,7 @@ Laden Sie die [Loa](../manage-phone-numbers-for-your-organization/manage-phone-n
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was ist ein Portierungs Auftrag?](port-order-overview.md)
+- [Was ist ein Portierungsauftrag?](port-order-overview.md)
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)

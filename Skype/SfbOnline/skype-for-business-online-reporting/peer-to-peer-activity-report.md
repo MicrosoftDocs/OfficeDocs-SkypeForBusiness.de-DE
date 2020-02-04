@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 ms.custom:
 - Reporting
 description: 'Erhalten Sie einen Skype for Business-Peer-to-Peer-Aktivitätsbericht, und erfahren Sie, wie Sie ihn für Ihre Anforderungen interpretieren und anpassen können. '
-ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 5697b57139007d9bf9f5be1ec5a1bd5c8879ca48
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746338"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706040"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 

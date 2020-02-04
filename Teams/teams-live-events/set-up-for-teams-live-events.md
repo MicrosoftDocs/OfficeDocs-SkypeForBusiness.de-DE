@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Informieren Sie sich über die Schritte zum Einrichten von Live für Ereignisse in Microsoft Teams, einschließlich der Vorbereitung Ihres Netzwerks, dem Zuweisen von Lizenzen, dem Verwenden von Richtlinien zum Aktivieren von Live Ereignis Features und der Terminplanung für Benutzer sowie dem Einrichten eines Drittanbieters für den Vertrieb.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570157"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708331"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -80,10 +80,10 @@ Sie können einer oder mehreren Benutzern auch eine Live-Ereignis Richtlinie wie
 ![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
 1. Wechseln Sie zu den**Live Events-Richtlinien**für **Besprechungen** > .
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten**aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeige namens oder nach dem Benutzernamen nach dem Benutzer, wählen Sie den Namen aus, und wählen Sie dann **Hinzufügen**aus. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
+5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
  
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Benutzern das Planen von Ereignissen ermöglichen, die mit einer externen APP oder einem Gerät erstellt wurden
@@ -107,9 +107,9 @@ Die folgenden Sdn/ECDN-Lösungen sind bereits integriert und können für die Ve
 
 - **Hive-Streaming** bietet eine einfache und leistungsstarke Lösung für Live-und on-Demand-Unternehmens-Videoverteilung. Hive ist eine softwarebasierte Lösung, die keine zusätzliche Hardware oder Bandbreite benötigt und eine sichere Methode bietet, um Tausende von gleichzeitigen Videoprojektoren ohne Auswirkungen auf Ihr Netzwerk zu ermöglichen. Für Kunden, die das Impact-Video vor dem Kauf einer Sdn/ECDN-Lösung in Ihrem Netzwerk verstehen möchten, bietet Hive-Streaming auch eine browserbasierte Analyse Lösung für Microsoft-Kunden. [Weitere Informationen](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** ist eine Cloud-basierte, intelligente Peering-Verteilungsplattform, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formularen zu liefern (Live-Streaming-Video, on-Demand-Video, Software-Updates, Sicherheitspatches usw.) schneller, mehr zuverlässig und mit geringerer Bandbreite. Unsere sichere Plattform wird von den größten Finanzinstituten der Welt als vertrauenswürdig eingestuft, und ohne zusätzliche Hardware sind Setup und Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
+- **Kollective** ist eine Cloud-basierte, smarte Peer-Distributionsplattform, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formen (Live-Streaming-Video, on-Demand-Video, Software-Updates, Sicherheitspatches usw.) schneller, zuverlässiger und mit weniger Bandbreite zu liefern. Unsere sichere Plattform wird von den größten Finanzinstituten der Welt als vertrauenswürdig eingestuft, und ohne zusätzliche Hardware sind Setup und Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
  
-- Das **OmniCache** bietet eine Netzwerk Verteilung der nächsten Generation und gewährleistet die nahtlose Bereitstellung von Videoinhalten über das globale WANs hinweg, wodurch Event Producer die Netzwerkbandbreite optimieren und erfolgreiche Live-Event-Broadcasts und on-Demand unterstützen können. Streaming. Die Unterstützung für OmniCache für Live-Events, die in Teams erstellt wurden, wird in Kürze verfügbar sein. [Weitere Informationen](http://www.ramp.com). 
+- Das **OmniCache** bietet eine Netzwerk Verteilung der nächsten Generation und gewährleistet die nahtlose Bereitstellung von Videoinhalten über das globale WANs hinweg, wodurch Event Producer die Netzwerkbandbreite optimieren und erfolgreiche Live-Event-Broadcasts und on-Demand-Streaming unterstützen können. Die Unterstützung für OmniCache für Live-Events, die in Teams erstellt wurden, wird in Kürze verfügbar sein. [Weitere Informationen](http://www.ramp.com). 
  
 > [!NOTE] 
 > Ihre ausgewählte Sdn-oder ECDN-Lösung unterliegt den **Nutzungsbedingungen und den Datenschutzrichtlinien**des ausgewählten Drittanbieters, was die Nutzung der Lösung des Anbieters regelt. Die Nutzung der Lösung des Anbieters unterliegt nicht den Microsoft-Volumenlizenz Bestimmungen oder den Online-Dienstbedingungen. Wenn Sie mit den **Bedingungen des Drittanbieters**nicht einverstanden sind, aktivieren Sie die Lösung nicht in Teams. 

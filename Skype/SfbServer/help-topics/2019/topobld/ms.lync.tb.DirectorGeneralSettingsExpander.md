@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie die Einstellungen für einen vorhandenen Director bearbeiten möchten, werden Ihnen die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 92d0026f2bc769f32ca635435cd71866efb75d3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b58f74d7d343f2a4b57074dbc041938247ddc1f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280539"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702380"
 ---
 # <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
  
@@ -46,7 +46,7 @@ Dateifreigabe, die der Director-Pool verwenden soll. Wählen Sie eine vorhandene
 
 Zum Bearbeiten oder angeben zusätzlicher Einstellungen für die Webdienste im Director-Pool ändern oder spezifizieren Sie die Einstellungen in den internen Webdiensten und externen Webdiensten.
   
-Bei **internen** Webdiensten können Sie Folgendes angeben:
+Bei **internen Webdiensten** können Sie Folgendes angeben:
   
 > [!CAUTION]
 > Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als **pool01.contoso.com**definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie sich entscheiden, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
@@ -55,7 +55,7 @@ Wenn Sie Vollqualifizierten Domänennamen außer Kraft setzen auswählen, könne
   
 Sie können Überwachungs-und veröffentlichte Ports für http und HTTPS angeben, die für die Bereitstellung erforderlich sind. Die Standardeinstellung von Port 80 für http und Port 443 für HTTPS sind die am häufigsten verwendeten Einstellungen, die normalerweise nicht geändert werden müssen, es sei denn, Sie verfügen über bestimmte Anforderungen innerhalb Ihres Unternehmens-und Infrastruktur Designs.
   
-Bei **externen**Webdiensten können Sie Folgendes angeben:
+Bei **externen Webdiensten**können Sie Folgendes angeben:
   
 Sie können den FQDN der externen Webdienste definieren. Der hier angegebene FQDN wird meist von den externen Verbindungsanforderungen bestimmt, z. B. dem Reverseproxy.
   

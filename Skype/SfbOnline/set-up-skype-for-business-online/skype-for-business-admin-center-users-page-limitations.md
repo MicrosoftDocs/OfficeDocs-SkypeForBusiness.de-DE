@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, wie Sie innerhalb der Einschränkungen der Anzeige von Benutzern durch den Skype for Business Online-Administrator arbeiten können. '
-ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285224"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706470"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Einschränkungen der Benutzerseite für Skype for Business Online Admin Center
 
@@ -36,7 +36,7 @@ Aus Leistungsgründen zeigt das **Skype for Business Admin Center**die ersten 1.
 
 1. Wählen Sie die ersten 1.000-Benutzer – oder alle von Ihrem Filter oder Ihrer Suche zurückgegebenen – aus, indem Sie das Kontrollkästchen neben **Anzeigename** oben in der Liste markieren.
     
-2. Klicken Sie auf](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)bearbeiten bearbeiten. ****![
+2. ![Klicken **Sie auf bearbeiten bearbeiten.**](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)
     
 Sie können die Anzahl der Benutzer, die auf jeder Seite angezeigt werden, mit dem Steuerelement unten in der Liste ändern:
   

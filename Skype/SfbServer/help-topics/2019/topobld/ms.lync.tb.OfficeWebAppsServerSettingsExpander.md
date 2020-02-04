@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps-Servers. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:'
-ms.openlocfilehash: 61110a5db604d6fb3cbe89c0da428428820917a2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2850c4edb793f7680cdd13bae35889a0deaf532e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303277"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701790"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Bearbeiten der Einstellungen von Office Web Apps-Servern
 
@@ -26,7 +26,7 @@ Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps-Servers. Die
 
  **Office Web Apps Server-FQDN**: Diese Eigenschaft definiert den vollqualifizierten Domänennamen des Office Web Apps-Servers und sollte einem DNS-Host (Domain Name System) oder AAAA (wenn IPv6 verwendet wird)-Eintrag entsprechen.
 
- **Office Web Apps Server Discovery-URL**: der Uniform Resource Locator (URL) für den Clientzugriff auf den Office Web Apps-Server müssen Sie möglicherweise diese Adresse von der Standardeinstellung aus bearbeiten, wenn sich der Server in einer anderen Netzwerkzone als dem internen Netzwerk befindet Bereitstellungs.
+ **Office Web Apps Server Discovery-URL**: der Uniform Resource Locator (URL) für den Clientzugriff auf den Office Web Apps-Server müssen Sie möglicherweise diese Adresse von der Standardeinstellung aus bearbeiten, wenn sich der Server in einer anderen Netzwerkzone als dem internen Netzwerk für Ihre Bereitstellung befindet.
 
 Aktivieren Sie das Kontrollkästchen **Der Office Web Apps-Server ist in einem externen Netzwerk bereitgestellt**, wenn dieser Server in Ihrem Umkreisnetzwerk oder in einer anderen Netzwerkzone bereitgestellt wird, die sich außerhalb Ihrer internen Firewall befindet, mit der das Umkreisnetzwerk, weniger vertrauenswürdige Netzwerke und das Internet von der internen Bereitstellung getrennt werden.
 

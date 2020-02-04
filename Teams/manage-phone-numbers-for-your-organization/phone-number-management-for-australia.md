@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Australien für Microsoft Teams zu finden.
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573162"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707130"
 ---
 # <a name="phone-number-management-for-australia"></a>Telefonnummernverwaltung für Australien
 In Australien haben wir eine Partnerschaft mit Telstra für den Kauf und die Bereitstellung von Anrufplänen für Kunden mit einer Rechnungsadresse in Australien durchgestellt. Telstra verkauft ihre Anrufpläne, stellt australische Nutzer Nummern zur Verfügung und bietet auch die Unterstützung für die Verwaltung von Telefonnummern für Benutzer-und Servicenummern für automatische Telefonzentralen und Anrufwarteschlangen. Allerdings werden Servicenummern und Lizenzen für Audiokonferenzen weiterhin von Office 365 verkauft und verwaltet.

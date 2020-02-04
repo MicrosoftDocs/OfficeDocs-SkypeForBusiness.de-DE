@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Gehen Sie wie folgt vor, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:'
-ms.openlocfilehash: a6683766ddbfd11cd38d2d50b80a25c057b302bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22f1e46481ce2392a806eadd6029ab51292d5585
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280501"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702290"
 ---
 # <a name="edge-machine-settings-expander"></a>Edgecomputereinstellungen – Erweiterung
  

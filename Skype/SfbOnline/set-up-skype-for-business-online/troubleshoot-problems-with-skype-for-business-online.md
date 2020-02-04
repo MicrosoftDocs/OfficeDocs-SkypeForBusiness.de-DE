@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Hier erfahren Sie, wie Sie Probleme für Administratoren und Benutzer von Skype for Business in Office 365 beheben.
-ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37275514"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706330"
 ---
-# <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business
+# <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business Online
 
 Manchmal funktioniert nicht alles wie erwartet. Hier finden Sie eine Liste von Themen, die Ihnen bei der Behebung von Problemen helfen. Dabei spielt es keine Rolle, ob Sie Administrator für Skype for Business Online sind oder Ihren Benutzern beim Lösen ihrer Probleme helfen.
 

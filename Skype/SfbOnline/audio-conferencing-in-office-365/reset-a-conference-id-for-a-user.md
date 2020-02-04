@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers in Skype for Business Online, und rufen Sie Links zu den Update-und Migrationstools für Besprechungen auf. '
-ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792105"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707150"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Zurücksetzen einer Konferenz-ID für einen Benutzer in Skype for Business Online
 
@@ -35,7 +36,7 @@ ms.locfileid: "35792105"
 A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
   
 > [!NOTE]
-> Wenn es sich bei Ihrem Konferenzanbieter um Microsoft handelt, sind die Konferenz-IDs Ihrer Benutzer nur auf dynamisch eingestellt. Dies kann nicht geändert werden. Konferenz-IDs werden automatisch nur für Skype for Business-Benutzer festgelegt, die für Audiokonferenzen aktiviert sind. 
+> Wenn es sich bei Ihrem Konferenzanbieter um Microsoft handelt, sind die Konferenz-IDs Ihrer Benutzer nur auf dynamisch eingestellt. Dies kann nicht geändert werden. Konferenz-IDs werden automatisch nur für Skype for Business-Benutzer eingestellt, die für Audiokonferenzen aktiviert sind. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
    
@@ -57,7 +58,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
-- Die Konferenz-ID für einen Benutzer für Audiokonferenzen kann unten im Bereich "Aktion" unter Audiokonferenzen **** angezeigt werden, wenn Sie den Benutzer auf der Seite " **Benutzer** " auswählen.
+- Die Konferenz-ID für einen Benutzer für Audiokonferenzen kann unten im Bereich "Aktion" unter **Audiokonferenzen** angezeigt werden, wenn Sie den Benutzer auf der Seite " **Benutzer** " auswählen.
     
 - After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:
     
@@ -75,7 +76,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Learn about these advantages in the following topics:
+- Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Weitere Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

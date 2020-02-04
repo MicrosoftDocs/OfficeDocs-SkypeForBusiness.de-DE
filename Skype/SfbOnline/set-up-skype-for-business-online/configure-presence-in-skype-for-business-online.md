@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
-description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Hier erfahren Sie, wie Sie Skype for Business einrichten, damit Sie die Verfügbarkeit Ihrer Kollegen sehen können. '
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793344"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706520"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
 
@@ -34,7 +34,7 @@ Standardmäßig können alle Personen, die mit einem der Personen in Ihrer Organ
 
 Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für alle in Ihrem Unternehmen können Sie auswählen, wer seinen Online-Status in Skype for Business sieht.
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 1. Wechseln Sie zum Admin Center #a0 **Admin** > Center**Skype for Business**.
 
@@ -44,8 +44,8 @@ Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc
 
 |**Einstellung**|**Wer kann die Anwesenheit eines Benutzers anzeigen?**|
 |:-----|:-----|
-|**Anwesenheitsinformationen automatisch anzeigen** <br/> |Alle Skype for Business-Benutzer in Ihrem Unternehmen, die keiner **externen** oder blockierten Liste einer **** Person hinzugefügt wurden, können die Onlineanwesenheit dieser Person sehen. <br/> |
-|**Anzeigen von Anwesenheitsinformationen nur für die Kontakte eines Benutzers** <br/> |Alle Personen in der Kontaktliste einer Person, die Sie Ihrer **externen** oder blockierten **** Liste nicht hinzugefügt haben. <br/> Einzelpersonen können ihre Standardeinstellungen in Ihrer Skype for Business-APP außer Kraft setzen: **Einstellungen** > **-Tools** > -**Optionen**. <br/> |
+|**Anwesenheitsinformationen automatisch anzeigen** <br/> |Alle Skype for Business-Benutzer in Ihrem Unternehmen, die keiner **externen** oder **blockierten** Liste einer Person hinzugefügt wurden, können die Onlineanwesenheit dieser Person sehen. <br/> |
+|**Anzeigen von Anwesenheitsinformationen nur für die Kontakte eines Benutzers** <br/> |Alle Personen in der Kontaktliste einer Person, die Sie Ihrer **externen** oder **blockierten** Liste nicht hinzugefügt haben. <br/> Einzelpersonen können ihre Standardeinstellungen in Ihrer Skype for Business-APP außer Kraft setzen: **Einstellungen** > **-Tools** > -**Optionen**. <br/> |
 
 Informationen dazu, was Ihre Benutzer in Skype for Business ändern können, finden Sie in den folgenden Artikeln:
 

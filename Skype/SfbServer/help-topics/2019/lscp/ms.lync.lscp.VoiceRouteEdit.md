@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceRouteEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: d3e9bde5f128758c4dcbc4a1106d0ca06774f530
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4cf21eb9ecf89df312dfee9e784d04ab10e33bfd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305159"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703860"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>VoIP-Route: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Route
 

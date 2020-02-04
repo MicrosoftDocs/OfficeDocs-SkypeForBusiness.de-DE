@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server an, die diesen SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: ff32b59235dfb4ff38b8ea0fcd4c34a0be9baa97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20d6e059ce19c180225195cad87dde0f333765ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303102"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701500"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  

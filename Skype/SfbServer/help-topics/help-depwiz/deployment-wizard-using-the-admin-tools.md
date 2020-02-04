@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAdminToolsInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 description: Details zur Verwendung des Bereitstellungs-Assistenten für die Installation von Skype for Business Server 2015 finden Sie unter Installieren von Skype for Business Server 2015.
-ms.openlocfilehash: 4d702081cffaf56b424ff735276a7bec84e5b0b7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e20203be94b29e3eb0ac221b65635c2c33a6d6f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301820"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701080"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>Bereitstellungs-Assistent: Verwenden der Admin-Tools
  

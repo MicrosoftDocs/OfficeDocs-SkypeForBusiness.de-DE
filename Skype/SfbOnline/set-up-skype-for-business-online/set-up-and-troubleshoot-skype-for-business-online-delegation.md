@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie Sie die Skype for Business Online-Delegierung einrichten und beheben. Dieser Artikel enthält Anleitungen für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285244"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706480"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
@@ -106,7 +107,7 @@ Führen Sie die folgenden Schritte aus, um die Skype for Business Online-Delegie
     
 ### <a name="verify-success"></a>Überprüfen des Erfolgs
 
-Wenn die Einrichtung erfolgreich ist, sollte die Stellvertretung sehen, dass **Sie als Stellvertretung für < Name>-Nachricht hinzugefügt wurden** , und dass die **Personen, für die ich Anrufe** verwalte, für die Gruppe erstellt werden. Der Delegat sollte sehen, dass die Gruppe **Stellvertretungen** erstellt wird.
+Wenn die Einrichtung erfolgreich ist, sollte die Stellvertretung sehen, dass **Sie als Stellvertretung für #a0 Name>Nachricht hinzugefügt wurden** , und dass die Personen, die **ich Anrufe für die Gruppe verwalte** , erstellt werden. Der Delegat sollte sehen, dass die Gruppe **Stellvertretungen** erstellt wird.
   
 > [!NOTE]
 > Delegierungsberechtigungen werden in der Regel innerhalb von 30 Minuten nach dem Setupvorgang angezeigt. Dieser Vorgang kann jedoch bis zu 24 Stunden dauern. 

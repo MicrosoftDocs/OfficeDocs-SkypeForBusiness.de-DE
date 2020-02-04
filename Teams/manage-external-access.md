@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.externalaccess.overview
 description: Ihre Teams oder IT-Administratoren können den externen Zugriff für andere Domänen (Föderationen) so konfigurieren, dass Benutzer aus diesen Domänen an Teams teilnehmen können.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: a04a5547e13b8b93864b1b23dc598b08877c745a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925046"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707290"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================

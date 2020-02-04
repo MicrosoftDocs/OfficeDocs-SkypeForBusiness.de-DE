@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 'Hier erfahren Sie, wie Sie die Skype for Business-Einstellungen für einzelne Benutzer ändern, beispielsweise Audio-und Videokonferenzen, Aufzeichnung von Anrufen und Besprechungen. '
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494169"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706510"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren
 
@@ -44,15 +44,15 @@ Informationen darüber, wie Sie zulassen (bzw. blockieren), dass alle Personen i
 
 Sie müssen über [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) verfügen, um diese Schritte ausführen zu können.
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
   
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
 2. Wählen Sie **Admin Center** > **Skype for Business** aus.
     
 3. Wählen Sie **Benutzer** aus.
     
-    ![In the Skype for Business admin center, choose Users.](../images/7c80eeb3-6555-4fc8-91f4-61b493581e9e.png)
+    ![Wählen Sie im Skype for Business Admin Centerdie Option Benutzer aus.](../images/7c80eeb3-6555-4fc8-91f4-61b493581e9e.png)
   
 4. Wählen Sie aus, welche Benutzer Sie bearbeiten möchten.
     
@@ -75,7 +75,7 @@ Wenn Sie diese Einstellungen massenhaft konfigurieren möchten, verwenden Sie Po
 
 Nachdem Sie die [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md) für alle Benutzer in Ihrem Unternehmen aktiviert haben, können Sie unter Ausführung der folgenden Schritte einzelne externe Kommunikationen für bestimmte Benutzer sperren.
   
-1. Wählen Sie **Benutzer**aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten **** ![, und](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)wählen Sie dann bearbeiten aus.
+1. Wählen Sie **Benutzer**aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten, **und wählen Sie dann bearbeiten aus** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Wählen Sie **Externe Kommunikation** aus, und deaktivieren Sie dann die Optionen Ihren Anforderungen entsprechend:
     
@@ -90,16 +90,16 @@ Wenn Sie diese Einstellungen massenhaft konfigurieren möchten, verwenden Sie Po
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Bearbeiten von Audio-Konferenzeinstellungen für einen Benutzer
 <a name="__toc314837483"> </a>
 
-1. Wählen Sie **Benutzer**aus, wählen Sie den Benutzer aus, dessen audiokonferenzeinstellungen Sie bearbeiten möchten, **** ![und wählen](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)Sie dann bearbeiten aus.
+1. Wählen Sie **Benutzer**aus, wählen Sie den Benutzer aus, dessen audiokonferenzeinstellungen Sie bearbeiten möchten, **und wählen Sie dann bearbeiten aus** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
-2. Wählen **** Sie Audiokonferenzen aus, wählen Sie Ihren Audiokonferenz-Anbieter aus, geben Sie die angeforderten Informationen ein, oder ändern Sie Sie, und klicken Sie auf **Speichern**
+2. Wählen Sie **Audiokonferenzen**aus, wählen Sie Ihren Audiokonferenz-Anbieter aus, geben Sie die angeforderten Informationen ein, oder ändern Sie Sie, und klicken Sie auf **Speichern**
     
 |**Audiokonferenzeinstellung**|**Beschreibung**|
 |:-----|:-----|
 |**Anbietername** <br/> |Wählen Sie Ihren Anbieter in der Liste aus.  <br/> |
 |**Gebührenpflichtige Nummer** (erforderlich) <br/> |Bei einem Drittanbieter-ACP sind diese Telefonnummern diejenigen, die Sie vom Audiokonferenz-Anbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Zahlen so, wie Sie in Skype for Business-und Microsoft Teams-Besprechungsanfragen angezeigt werden sollen.  <br/> |
 |**Gebührenfreien Nummer** <br/> |Bei einem Drittanbieter-ACP sind diese Telefonnummern diejenigen, die Sie vom Audiokonferenz-Anbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Zahlen so, wie Sie in Skype for Business-und Microsoft Teams-Besprechungsanfragen angezeigt werden sollen.  <br/> |
-|**Konferenz-ID und PIN** erforderlich <br/> |Die Teilnehmer-PIN oder der konferenzcode, der für die Teilnahme an Besprechungen verwendet wird, die von diesem Benutzer geplant werden und von einem Drittanbieter für Audiokonferenzen bereitgestellt werden. Wenn der Benutzer Microsoft als Audiokonferenz-Anbieter verwendet, ist dies nicht erforderlich.  <br/> |
+|**Konferenz-ID und PIN** (erforderlich) <br/> |Die Teilnehmer-PIN oder der konferenzcode, der für die Teilnahme an Besprechungen verwendet wird, die von diesem Benutzer geplant werden und von einem Drittanbieter für Audiokonferenzen bereitgestellt werden. Wenn der Benutzer Microsoft als Audiokonferenz-Anbieter verwendet, ist dies nicht erforderlich.  <br/> |
    
 Wenn Sie diese Einstellungen massenhaft konfigurieren möchten, verwenden Sie PowerShell. Weitere Informationen finden Sie unter [Einrichten der Telefonnummern in Einladungen](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 

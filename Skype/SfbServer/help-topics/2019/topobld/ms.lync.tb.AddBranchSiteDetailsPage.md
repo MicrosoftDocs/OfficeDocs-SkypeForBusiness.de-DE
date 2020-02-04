@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddBranchSiteDetailsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Gehen Sie wie folgt vor, um die Standortdetails für einen Standort anzugeben:'
-ms.openlocfilehash: d7a77990f7a0dd9e6b97f7d385327b67d232e711
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f802402266d17f6b32eb16ef330552e5cee1c37
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304063"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703270"
 ---
 # <a name="add-branch-site-details"></a>Hinzufügen der Details zur Zweigstelle
 

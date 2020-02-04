@@ -15,19 +15,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
 - ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 81192f405563c3f7eb023050745d68fcd4c067f9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962983"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708321"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 

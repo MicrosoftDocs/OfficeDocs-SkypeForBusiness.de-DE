@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: Das Mobilitätsfeature in Skype for Business Server unterstützt die Funktionalität von Skype for Business auf mobilen Geräten.
-ms.openlocfilehash: 2e2043ea919377d473f14fe1e5441b2145fe219a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50b066d2c8ad1ab12865b2c65294cfe1ad57314c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281514"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703479"
 ---
 # <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  

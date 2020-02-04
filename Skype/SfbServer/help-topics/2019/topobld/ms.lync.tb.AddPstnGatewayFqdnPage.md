@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie geben den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des PSTN-Gateways (Public Switched Telephone Network) an, mit dem Ihre Enterprise-VoIP-Komponenten mit einem PSTN oder einer PBX (Private Branch Exchange) verbunden werden.
-ms.openlocfilehash: ef1c4bd1e74b043bb9331398fa125f8692ad64c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dae980bec5aa09cb3cfbc43fe2f10ac1614a87ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306112"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702710"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definieren des FQDN des PSTN-Gateways
 

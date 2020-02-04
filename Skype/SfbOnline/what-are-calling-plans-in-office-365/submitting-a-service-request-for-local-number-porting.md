@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
 ms.custom:
 - Calling Plans
-description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 0a12ee82d2a568a563408a2dc29971e9b3766da0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Wenn Sie mehr als 999 Telefonnummern an Skype for Business übertragen haben, informieren Sie sich, wie Sie eine Portierungs Auftrags-Serviceanfrage einreichen, um Sie zu verschieben. '
+ms.openlocfilehash: d7a19608700a0ecd85880ad880031aa2e21409ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290826"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705880"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
 
@@ -36,7 +36,7 @@ Wenn Sie mehr als 999 Telefonnummern (für Benutzer oder Dienstnummern, einschli
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

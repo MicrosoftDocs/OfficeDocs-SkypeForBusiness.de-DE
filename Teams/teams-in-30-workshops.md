@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Interaktive Live-Workshops, mit denen Sie Microsoft Teams in nur 30 Tagen in Betrieb nehmen können.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570212"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708451"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -106,7 +106,7 @@ ms.locfileid: "37570212"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Bereit für Ihre Endbenutzer</h3>
+                        <h3>Bereitschaft Ihrer Endbenutzer</h3>
                     <p>Entdecken Sie Strategien und Ressourcen für das Vorbereiten Ihrer Benutzer, das Erstellen eines Kontingents von Champions und die Sicherstellung der Benutzerakzeptanz als zentrale Komponente des Rollouts Ihres Teams.</p><p>Zielgruppe: annehmen und Ändern von Besitzern</p>
                     </div>
                 </div>

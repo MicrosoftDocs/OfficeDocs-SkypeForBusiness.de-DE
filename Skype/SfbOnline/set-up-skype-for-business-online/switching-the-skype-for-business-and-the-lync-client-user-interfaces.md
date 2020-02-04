@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Informationen zum Wechseln zwischen Skype for Business-und lync-Clientbenutzeroberflächen mithilfe von PowerShell in Office 365 '
-ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962883"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706450"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 

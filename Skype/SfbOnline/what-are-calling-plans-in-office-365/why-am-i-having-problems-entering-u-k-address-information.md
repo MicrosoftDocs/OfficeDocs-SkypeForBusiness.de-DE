@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
 description: Hier sind einige Gründe, warum Sie möglicherweise Probleme haben, Ihre Adresse oder Adressen im Vereinigten Königreich (Großbritannien) korrekt zu überprüfen.
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290688"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705860"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Warum habe ich Probleme bei der Eingabe in Großbritannien? Adressinformationen?
 
@@ -111,7 +111,7 @@ Wenn Sie Probleme bei der Eingabe der Postleitzahl haben, beachten Sie Folgendes
 
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

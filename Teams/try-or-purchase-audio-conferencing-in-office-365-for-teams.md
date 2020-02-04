@@ -16,21 +16,21 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 527455cc0f4d1a818c18271e3cf9bbafb04e2794
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571491"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708641"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
 
-Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Microsoft Teams enthält das Feature "Audiokonferenz" für nur diese Situation! Personen können mit einem Telefon in Microsoft Teams-Besprechungen anrufen, anstatt die Microsoft Teams-App auf einem mobilen Gerät oder PC zu verwenden.
+In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams enthält das Feature "Audiokonferenz" für nur diese Situation! Personen können mit einem Telefon in Microsoft Teams-Besprechungen anrufen, anstatt die Microsoft Teams-App auf einem mobilen Gerät oder PC zu verwenden.
 
 Sie müssen nur Audiokonferenzen für Personen einrichten, die Besprechungen planen oder leiten. Meeting-Teilnehmer, die sich in das Meeting einwählen, benötigen keinerlei zugewiesene Lizenzen und auch ein anderes Setup ist nicht erforderlich.
 
@@ -92,7 +92,7 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 
 > [!NOTE]
-> Dieses Feature ist noch nicht verfügbar für Kunden mit Office 365 das von 21Vianet in China betrieben wird. Weitere Informationen finden Sie unter [Erfahren Sie mehr über Office 365, das von 21Vianet betrieben wird](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -100,4 +100,4 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md)
 
-[Optionen für Onlinebesprechungen und Telefonkonferenzen festlegen](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[Festlegen von Optionen für Onlinebesprechungen und Telefonkonferenzen](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

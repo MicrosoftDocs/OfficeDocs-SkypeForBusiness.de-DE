@@ -14,18 +14,18 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie eine Textdatei hochladen, die eine Liste von physischem Standort und zugehörigen Subnetzen enthält, die als Bericht Erstellungs Etiketten für anrufanalyse-und Anruf Qualitäts Dashboard-Berichte verwendet werden.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572036"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707861"
 ---
 <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================

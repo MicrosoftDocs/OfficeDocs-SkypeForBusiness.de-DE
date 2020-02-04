@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte anzuzeigen, einschließlich Windows-basierten Betriebssystemen und mobilen Geräten, auf denen die Skype for Business-App installiert ist und die für Chats und Besprechungen verwendet wird. Schauen Sie sich die Aktivitätsberichte im Admin Center an, um weitere Informationen zu erhalten.
-ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 12f16b050a105f6795437bbfd7f5008b177a6714
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793120"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706060"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
@@ -64,7 +64,7 @@ Sie können sich einen Überblick über die Geräte verschaffen, die die Skype f
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm " **Benutzer** ", um die Verwendungstrends zu verstehen und die Anzahl der Benutzer anzuzeigen, die mit der Skype for Business-App verbunden sind, die in Ihrer Organisation verwendet wird. Sie zeigt die Gesamtzahl der Benutzer und Typen von **Windows**-, **Windows Phone**-, **Android-Smartphone**-, **iPhone**-und **iPad** -Geräten an, auf denen die Skype for Business-App installiert ist und die in Ihrer Organisation verwendet wird.
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im **** Diagramm der Verteilungs Leiste, um die Verwendung zu verstehen, um die Anzahl der Benutzer anzuzeigen, die eindeutige Geräte in Ihrer Organisation verwenden. Sie zeigt die Gesamtzahl der Benutzer von **Windows**, **Windows Phone**, **Android-Smartphone**, **iPhone**und **iPad** an, die ein Gerät verwenden. 
+![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm der **Verteilungs** Leiste, um die Verwendung zu verstehen, um die Anzahl der Benutzer anzuzeigen, die eindeutige Geräte in Ihrer Organisation verwenden. Sie zeigt die Gesamtzahl der Benutzer von **Windows**, **Windows Phone**, **Android-Smartphone**, **iPhone**und **iPad** an, die ein Gerät verwenden. 
 ***
 ![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im Diagramm **Benutzer** auf **Windows**, **Windows Phone**, Android- **Smartphone**, **iPhone**oder **iPad** , um nur die zugehörigen Informationen anzuzeigen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
 ***
@@ -85,7 +85,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 
 Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte angezeigt werden, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt **wie kann ich Details zu Benutzerebene ausblenden?** in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
-![Nummer 8](../images/sfbcallout8.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Nummer 8](../images/sfbcallout8.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
 ![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren. 
    

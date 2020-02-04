@@ -15,14 +15,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573791"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708491"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 

@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: df588b2bd920a66b7d44d3dbaedd01478a2229f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573320"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708621"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
@@ -69,7 +70,7 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
 
 - Die Liste der unterstützten Sprachen für Audiokonferenzen finden Sie unter [Unterstützte Sprachen für Audiokonferenzen](audio-conferencing-supported-languages.md).
     
-- Für jede Audiokonferenz-Telefonnummer können Sie bis zu vier Sprachen einrichten: eine primäre und drei sekundäre. Sie können auch die Sprachen für eine dedizierte Audiokonferenz-Telefonnummer festlegen.
+- You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
 - Informationen zum Festlegen der Dial-in-Telefonnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
 

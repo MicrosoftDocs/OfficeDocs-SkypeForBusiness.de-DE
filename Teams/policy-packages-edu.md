@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Richtlinien Pakete für edu-Administratoren
+title: Microsoft Teams-Richtlinienpakete für EDU-Administratoren
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676253"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708661"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>Microsoft Teams-Richtlinien Pakete für edu-Administratoren
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>Microsoft Teams-Richtlinienpakete für EDU-Administratoren
 
 Ein Richtlinienpaket in Microsoft Teams sammelt vordefinierte Richtlinien und Richtlinieneinstellungen, die Sie Benutzern mit ähnlichen Rollen in Ihrer Institution zuweisen können. Richtlinien Pakete vereinfachen, rationalisieren und unterstützen die Konsistenz beim Verwalten von Richtlinien. In der Regel weisen Sie jedem Benutzer ein Richtlinienpaket zu, und bei Bedarf werden die Richtlinien in jedem Paket entsprechend den Anforderungen dieser Benutzergruppe neu definiert. Wenn Sie die Einstellungen in einem Paket aktualisieren, werden alle Benutzer, die diesem Paket zugewiesen sind, als Massenaktualisierung geändert.
 

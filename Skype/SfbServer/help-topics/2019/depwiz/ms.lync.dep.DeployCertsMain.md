@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernenund anzeigen. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Wenn Sie ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anfordern möchten, müssen Sie bestätigen, welche zusätzlichen – wenn überhaupt – Gruppenmitgliedschaften erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle der PKI anzufordern.
-ms.openlocfilehash: daafbdd6730b86b7509323528405bec5277d264d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7bb6cd04687bab6cfad14a6f71a673adf06da4e7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298961"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705560"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  
@@ -45,6 +45,6 @@ Klicken Sie zum Importieren eines Zertifikats, das noch nicht im Zertifikatspeic
 > [!NOTE]
 > **Zertifikat importieren** wird in der Regel verwendet, um ein Zertifikat zu verarbeiten, das über einen anderen Prozess als eine Anforderung vom Zertifikat-Assistenten empfangen wird. Beispielsweise erstellt Ihr PKI-Administrator ein Zertifikat und stellt es Ihnen zur Verfügung. Verwenden Sie das Zertifikat **importieren** , um das Zertifikat in den Zertifikatspeicher des Computers zu importieren und dem Skype for Business-Server zur Zuweisung zur Verfügung zu stellen.
   
-To complete the process of requesting a certificate request from a CA in your organization that requires CA administrator approval, click **Process Pending Request**. The certificate request will have returned a status of pending, and also displays the identification number of the pending request. To continue processing a certificate with a pending status, click **Refresh** to enable the **Process Pending Request** button. The **Process Pending Request** button will no longer be unavailable (dimmed). You can then attempt to retrieve the pending request, but the status of the request will remain pending until the certificate is issued or denied by the CA administrator. The button will be unavailable if there are no valid pending requests that have been created by the Certificate Wizard.
+Wenn Sie den Vorgang zum Anfordern einer Zertifikatanforderung von einer Zertifizierungsstelle in Ihrer Organisation abschließen möchten, die die Genehmigung durch den Zertifizierungsstellenadministrator erfordert, klicken Sie auf **Ausstehend anfordern**. Die Zertifikatanforderung hat den Status Ausstehend zurückgegeben, und es wird auch die Identifikationsnummer der ausstehenden Anforderung angezeigt. Wenn Sie die Verarbeitung eines Zertifikats mit dem Status Ausstehend fortsetzen möchten, klicken Sie auf **Aktualisieren** , um die Schaltfläche **ausstehende Anforderung verarbeiten** zu aktivieren Die Schaltfläche " **ausstehende Anforderung verarbeiten** " ist nicht mehr verfügbar (abgeblendet). Sie können dann versuchen, die ausstehende Anforderung abzurufen, aber der Status der Anforderung bleibt so lange ausstehend, bis das Zertifikat vom Zertifizierungsstellenadministrator ausgestellt oder verweigert wird. Die Schaltfläche ist nicht verfügbar, wenn keine gültigen ausstehenden Anforderungen vorhanden sind, die vom Zertifikat-Assistenten erstellt wurden.
   
 

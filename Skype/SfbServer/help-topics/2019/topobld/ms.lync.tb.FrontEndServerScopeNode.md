@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4ff8266385ad2851ede68cff49cd9346aef0782d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 262b30461dd7a2a3fd511e0834dd2dc4f36084aa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306060"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702120"
 ---
 # <a name="front-end-server-scope-node"></a>Front-End-Server – Bereichsknoten
  

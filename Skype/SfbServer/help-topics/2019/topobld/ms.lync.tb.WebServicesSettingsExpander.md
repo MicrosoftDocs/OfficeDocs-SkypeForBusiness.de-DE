@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: In Topology Builder können Sie die Porteinstellungen ändern, die für interne und externe Webdienste verwendet werden. Darüber hinaus können Sie mithilfe des Topologie-Generators den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools konfigurieren, der auf die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird, wenn Sie einen DNS-Lastenausgleich (Domain Name System) bereitstellen.
-ms.openlocfilehash: d3902b4dc54e15dc132fae09404e1b053b046b5e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fddcaa00de9b8a8d74e209790b429280901b037c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306923"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701340"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  

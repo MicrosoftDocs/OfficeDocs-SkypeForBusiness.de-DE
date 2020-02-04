@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie ein Zertifikat importieren möchten, müssen Sie einen Pfad zur Zertifikatsdatei angeben. Im Textfeld Zertifikatdatei auswählen können Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf die Schaltfläche Durchsuchen klicken, um zum Speicherort des Pfads und zum Dateinamen zu navigieren (in der Regel eine P7B-, PFX-oder CER-Datei).
-ms.openlocfilehash: b04f8a2ca2e6d3104f4b36e4bc04b6cdd3c61940
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 273c5df6892a219c1584569b90cda62371b19c9d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275552"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705780"
 ---
 # <a name="import-certificate-intro"></a>Importieren von Zertifikaten (Einführung)
  

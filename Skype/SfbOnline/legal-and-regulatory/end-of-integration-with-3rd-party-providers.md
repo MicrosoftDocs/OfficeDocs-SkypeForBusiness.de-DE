@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Am 31. Juli, 2021, wird das Programm für den Lebenszyklusende für die Integration von Skype for Business mit externen Audiokonferenz-Anbietern (Drittanbieter-ACP) abgeschlossen.
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36170993"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706690"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programm zum Ende des Lebenszyklus zur Integration von Skype for Business mit Audiokonferenz-Anbietern von Drittanbietern 
 
@@ -46,7 +47,7 @@ Im Rahmen der Bekanntgabe des Starts des Programms "Ende des Lebenszyklus" haben
 
 Zur Vorbereitung dieser Änderung ermutigen wir betroffene Organisationen, Ihre aktivierten Benutzer über dieses geplante Update vor dem 31. Juli 2021 zu informieren. 
 
-Nach dem 31. Juli 2021 können Nutzer Skype for Business weiterhin ohne Unterbrechung Ihrer Online-Besprechungen nutzen. Organisationen müssen jedoch Ihre Benutzer für Audiokonferenzen aktivieren, die von Microsoft bereitgestellt werden, wenn Sie Einwahl-Audiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft-Audiokonferenzen finden Sie [](https://products.office.com/en-us/skype-for-business/audio-conferencing)unter Audiokonferenzen. 
+Nach dem 31. Juli 2021 können Nutzer Skype for Business weiterhin ohne Unterbrechung Ihrer Online-Besprechungen nutzen. Organisationen müssen jedoch Ihre Benutzer für Audiokonferenzen aktivieren, die von Microsoft bereitgestellt werden, wenn Sie Einwahl-Audiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft-Audiokonferenzen finden Sie unter [Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
 Je nach dem gewünschten Endstatus einer Organisation können drei Pfade befolgt werden:
 
