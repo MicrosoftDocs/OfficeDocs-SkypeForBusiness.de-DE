@@ -3,6 +3,8 @@ title: Verwenden der lync Server 2010-Verwaltungspakete in einem Koexistenz-Szen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743885"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ Nachdem Sie einen lync Server 2010-Computer angewiesen haben, auf lync Server 20
 
 3.  Wählen Sie im Dialogfeld **Scope Management Pack-Objekte** das Element mit dem Ziel **ls Discovery Candidate** aus, und klicken Sie dann auf **OK**. Beachten Sie, dass der ls-Ermittlungs Kandidat nur angezeigt wird, wenn Sie das lync Server 2010-Management Pack installiert haben.
 
-4.  Klicken Sie in der Operations Manager-Konsole mit der rechten Maustaste auf **ls Discovery Candidate**, zeigen Sie auf **außer Kraft**setzungen, zeigen Sie auf **Objektermittlung außer Kraft setzen**, und klicken Sie dann auf **für alle Objekte der Klasse: ls Discovery Candidate**.
+4.  Klicken Sie in der Operations Manager-Konsole mit der rechten Maustaste auf **ls Discovery Candidate**, zeigen Sie auf **Außerkraftsetzungen**, zeigen Sie auf **Objektermittlung außer Kraft setzen**, und klicken Sie dann auf **für alle Objekte der Klasse: ls Discovery Candidate**.
 
 5.  Aktivieren Sie im Dialogfeld **Eigenschaften außer Kraft setzen** das Kontrollkästchen **außer Kraft setzen** neben dem FQDN des Parameters **Central Discovery WatcherNode**. Geben Sie den vollqualifizierten Domänennamen des lync Server 2010-Computers in die Felder **Außerkraftsetzungswert** und **effektiver Wert** ein. Aktivieren Sie das Kontrollkästchen **erzwungen** , und klicken Sie auf **OK**.
 

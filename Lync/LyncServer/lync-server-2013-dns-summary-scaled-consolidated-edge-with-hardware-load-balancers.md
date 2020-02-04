@@ -3,6 +3,8 @@ title: DNS-Zusammenfassung für skalierte konsolidierte Edgetopologie mit Hardwa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832353"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Sie können zwei Netzwerkadapter auf allen Edge-Servern wie folgt konfigurieren:
     
 
     > [!NOTE]
-    > Die IP-Adressen, die den tatsächlichen externen Netzwerkschnittstellen des Edge-Servers zugewiesen sind, hängen möglicherweise davon ab, welches Hardware Lastenausgleichsmodul Sie auswählen. Informationen zu den tatsächlichen IP-Adressen Anforderungen finden Sie in der Dokumentation Ihres Hardwarelastenausgleichs.<BR>Es ist jedoch möglich, eine einzige IP-Adresse für alle drei Edge-Service-Interfaces zu verwenden. Obwohl dadurch IP-Adressen gespeichert werden, sind für jeden Dienst unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, wodurch sichergestellt wird, dass die meisten Remote Firewalls den Datenverkehr zulassen. Das Ändern der Portwerte in (zum Beispiel) 5061/TCP für den Access-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst kann zu Problemen bei Remotebenutzern führen, bei denen eine Firewall, die Sie behindern, den Datenverkehr nicht zulässt. 5061/TCP und 444/TCP. Darüber hinaus erleichtern drei unterschiedliche IP-Adressen die Problembehandlung, da Sie nach IP-Adressen filtern können.
+    > Die IP-Adressen, die den tatsächlichen externen Netzwerkschnittstellen des Edge-Servers zugewiesen sind, hängen möglicherweise davon ab, welches Hardware Lastenausgleichsmodul Sie auswählen. Informationen zu den tatsächlichen IP-Adressen Anforderungen finden Sie in der Dokumentation Ihres Hardwarelastenausgleichs.<BR>Es ist jedoch möglich, eine einzige IP-Adresse für alle drei Edge-Service-Interfaces zu verwenden. Obwohl dadurch IP-Adressen gespeichert werden, sind für jeden Dienst unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, wodurch sichergestellt wird, dass die meisten Remote Firewalls den Datenverkehr zulassen. Das Ändern der Portwerte in (zum Beispiel) 5061/TCP für den Access-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst kann zu Problemen bei Remotebenutzern führen, bei denen eine Firewall, die Sie behindern, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Darüber hinaus erleichtern drei unterschiedliche IP-Adressen die Problembehandlung, da Sie nach IP-Adressen filtern können.
 
     
     </div>

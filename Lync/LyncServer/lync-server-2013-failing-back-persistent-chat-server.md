@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ausführen eines Failbacks für den Server für bestä
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back Persistent Chat Server
 ms:assetid: 67b91de4-6ddc-43e6-9812-5e1aa84a7980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d79c25d153de81906fcaf9355a543d31cb8fe0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
     
     9.  Klicken Sie auf **OK**, um mit dem Wiederherstellungsvorgang zu beginnen.
 
-5.  Konfigurieren Sie den SQL Server-Protokollversand für die primäre Datenbank. Führen Sie die Verfahren unter Konfigurieren des beständigen [Chat Servers für die Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) aus, um den Protokollversand für die primäre MGC-Datenbank festzulegen.
+5.  Konfigurieren Sie den SQL Server-Protokollversand für die primäre Datenbank. Führen Sie die Verfahren unter [Konfigurieren des beständigen Chat Servers für die Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) aus, um den Protokollversand für die primäre MGC-Datenbank festzulegen.
 
 6.  Setzen Sie die aktiven Server für den beständigen Chat Server. Verwenden Sie in der lync Server-Verwaltungsshell das Cmdlet " **Satz-CsPersistentChatActiveServer** ", um die Liste der aktiven Server einzurichten.
     

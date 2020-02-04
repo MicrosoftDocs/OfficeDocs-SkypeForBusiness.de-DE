@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Komponenten und Topologien für lokales Unified Messag
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ In diesem Thema werden die Microsoft Exchange Server 2013-Komponenten beschriebe
 
 ## <a name="exchange-server-components"></a>Exchange Server-Komponenten
 
-Um die Exchange um-Features und-Dienste bereitzustellen, die unter [Features von Integrated Unified Messaging und lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) für Enterprise-VoIP-Benutzer in Ihrer Organisation beschrieben sind, müssen Sie einen Microsoft Exchange-Postfachserver und einen Client Zugriffsserver bereitstellen. Das hostet Benutzerpostfächer und bietet einen einzigen Speicherort für e-Mail und Voicemail. Exchange um wird als Dienst auf Exchange-Postfach-und-Client Zugriffsservern ausgeführt.
+Wenn Sie die Exchange um-Features und-Dienste bereitstellen möchten, die unter [Features von Integrated Unified Messaging und lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) für Enterprise-VoIP-Benutzer in Ihrer Organisation beschrieben sind, müssen Sie einen Microsoft Exchange-Postfachserver und Client Zugriffsserver bereitstellen, der Benutzerpostfächer hostet und einen einzelnen Speicherort für e-Mail und Voicemail bereitstellt. Exchange um wird als Dienst auf Exchange-Postfach-und-Client Zugriffsservern ausgeführt.
 
 Details zu den Exchange um-Komponenten in Microsoft Exchange Server 2007 und Microsoft Exchange Server 2010 finden Sie unter [Bereitstellen von lokalen Exchange um zum Bereitstellen von lync Server 2013-Voicemail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) in der Bereitstellungsdokumentation.
 

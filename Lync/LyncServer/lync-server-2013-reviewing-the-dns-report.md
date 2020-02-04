@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überprüfen des DNS-Berichts'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the DNS Report
 ms:assetid: 453cd63d-229a-4c4c-96c0-4571733398a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbcc152935e71df630fa693c88f9db2858807136
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d12aba3d7b8d1bdd01bce1b0bce805c5d982b5c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Der DNS-Bericht ist Bestandteil des Administratorberichts. In ihm werden alle empfohlenen und bekannten DNS-Einträge (Domain Name System) im internen Netzwerk, im Umkreisnetzwerk und in externen Netzwerken aufgeführt. Wenn der für den Entwurf verantwortliche Benutzer die Bearbeitung des Netzwerkdiagramms abgeschlossen und alle IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) mit den Werten für die Produktion definiert hat, stellt der DNS-Bericht eine ausgezeichnete Konfigurationsressource dar. Gleichzeitig eignet sich dieser Bericht als Referenz bei der Problembehandlung.
 
-![DNS-Administrator Bericht] (images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "DNS-Administrator Bericht")
+![DNS-Verwaltungsbericht](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "DNS-Verwaltungsbericht")
 
 Sie sollten den DNS-Bericht von Ihrem DNS-Verwaltungsteam sorgfältig überprüfen lassen. Auf diese Weise stellen Sie sicher, dass die Konfiguration keine Fehler enthält, die u. U. zu Problemen bei der Bereitstellung oder einer unnötig erschwerten Problembehandlung führen.
 

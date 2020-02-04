@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planen der Notfallwiederherstellung für Reaktionsgrup
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response group disaster recovery
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204699(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70622364349eb83ecbc171cb3d5bf894ba03d3f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3a196a258198fe0bc65b533841544decd96aa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Beachten Sie bei der Vorbereitung und Durchführung von Disaster Recovery-Verfah
 
   - Bewahren Sie eine separate Sicherungskopie aller Original-Audiodateien auf, die Sie für die reaktionsgruppenanwendung verwendet haben, einschließlich Aufnahmen und Musik-in-halten-Dateien. Bewahren Sie die Sicherungsdateien an einem sicheren Ort auf.
 
-  - Bei der Disaster-Wiederherstellung in lync Server 2013 müssen alle Einstellungen für die Reaktionsgruppe eindeutige Namen für Ihre Bereitstellung aufweisen. Diese Anforderung gilt für Workflows, Warteschlangen, Agentengruppen, Feiertagssätze und Geschäftsstunden. Überprüfen Sie, ob diese Anforderung erfüllt ist, wenn die primären und die Sicherungs Pools noch aktiv sind, und bevor Sie eine Failover-Prozedur initiieren müssen. Wenn beim Importieren von Antwortgruppen Daten in den Sicherungspool Namenskonflikte auftreten, schlägt der Import fehl. Um das Import-und Failover-Verfahren abzuschließen, müssen Sie die Namenskonflikte lösen, indem Sie das Reaktionsgruppen Objekt im Sicherungspool umbenennen oder das Cmdlet " **Import-CsRgsConfiguration** " mit dem Parameter "– ResolveNameConflicts" verwenden, um automatisch lösen Sie den Konflikt, indem Sie eine eindeutige Identifikationsnummer an das Antwortgruppen Objekt anfügen.
+  - Bei der Disaster-Wiederherstellung in lync Server 2013 müssen alle Einstellungen für die Reaktionsgruppe eindeutige Namen für Ihre Bereitstellung aufweisen. Diese Anforderung gilt für Workflows, Warteschlangen, Agentengruppen, Feiertagssätze und Geschäftsstunden. Überprüfen Sie, ob diese Anforderung erfüllt ist, wenn die primären und die Sicherungs Pools noch aktiv sind, und bevor Sie eine Failover-Prozedur initiieren müssen. Wenn beim Importieren von Antwortgruppen Daten in den Sicherungspool Namenskonflikte auftreten, schlägt der Import fehl. Um das Import-und FailoverVerfahren abzuschließen, müssen Sie die Namenskonflikte lösen, indem Sie das Reaktionsgruppen Objekt im Sicherungspool umbenennen oder das Cmdlet " **Import-CsRgsConfiguration** " mit dem Parameter "– ResolveNameConflicts" verwenden, um den Konflikt automatisch zu beheben, indem Sie eine eindeutige identifizierende Nummer an das Antwortgruppen Objekt anfügen.
 
   - Im Allgemeinen empfehlen wir, dass Sie tägliche Sicherungen durchführen, aber wenn Sie über eine große Anzahl von Änderungen verfügen, möchten Sie möglicherweise häufigere Sicherungen planen. Die Menge der Informationen, die Sie bei einem Notfall verlieren können, hängt von der Häufigkeit Ihrer Sicherungen sowie von Häufigkeit und Umfang der Änderungen ab.
 
@@ -116,7 +118,7 @@ Sie können diese Einstellungen auf Anwendungsebene von einem Pool zu einem ande
 
 Wenn Sie die Einstellungen auf Anwendungsebene im Sicherungspool während eines Notfalls nicht ersetzen möchten und der primäre Pool nicht wiederhergestellt werden kann, gehen die Einstellungen auf Anwendungsebene des primären Pools verloren. Wenn Sie einen neuen Pool erstellen müssen, um den primären Pool während der Wiederherstellung zu ersetzen, entweder mit demselben FQDN oder mit einem anderen FQDN, können Sie die ursprünglichen Einstellungen auf Anwendungsebene nicht wiederherstellen. In diesem Fall müssen Sie den neuen Pool mit diesen Einstellungen konfigurieren und die Musik-in-Halt-Audiodatei aufnehmen.
 
-Wenn Sie sich entschließen, das Cmdlet " **Import-CsRgsConfiguration** " zu verwenden, um während eines Notfalls Einstellungen auf Anwendungsebene aus dem primären Pool in den Sicherungspool zu übertragen, können Sie die Einstellungen aus dem Sicherungspool während der Wiederherstellung im gleichen Fall in den neuen Pool übertragen. die Art und Weise, wie Sie Sie vom primären Pool an den Sicherungspool übertragen haben.
+Wenn Sie sich entscheiden, das Cmdlet " **Import-CsRgsConfiguration** " zu verwenden, um während eines Notfalls Einstellungen auf Anwendungsebene aus dem primären Pool in den Sicherungspool zu übertragen, können Sie die Einstellungen während der Wiederherstellung auf die gleiche Weise aus dem Sicherungspool in den neuen Pool übertragen, wie Sie Sie vom primären Pool an den Sicherungspool übertragen haben.
 
 Die folgende Tabelle enthält eine Übersicht über die Schritte, die beim erneuten Herstellen von Reaktionsgruppen erforderlich sind.
 

@@ -3,6 +3,8 @@ title: Verwenden von Kategorien zur Verwaltung des Servers für beständigen Cha
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fed28ecc7c2698f4b320729c68de9c5d56b435b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52e56f776969ece55f71355ed7f184dd6dd46a91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Ihre beständige Chat Server-Bereitstellung kann viele gleichzeitig beständige 
 
 
 > [!NOTE]  
-> Obwohl viele Verwaltungsfeatures von Chatrooms in Computern, auf denen persistenter Chat (lync-Client) ausgeführt wird, für den Benutzer verfügbar sind, müssen beständige chatadministratoren (in der <STRONG>cspersistentchatadministrator</STRONG> -Rolle) die lync Server-Systemsteuerung verwenden oder Windows PowerShell-Cmdlets zum Erstellen oder Verwalten von Kategorien
+> Obwohl viele Verwaltungsfeatures von Chatrooms in Computern, auf denen persistenter Chat (lync-Client) ausgeführt wird, für den Benutzer verfügbar sind, müssen beständige chatadministratoren (in der Rolle <STRONG>cspersistentchatadministrator</STRONG> ) die lync Server-Systemsteuerung oder Windows PowerShell-Cmdlets verwenden, um Kategorien zu erstellen oder zu verwalten.
 
 
 

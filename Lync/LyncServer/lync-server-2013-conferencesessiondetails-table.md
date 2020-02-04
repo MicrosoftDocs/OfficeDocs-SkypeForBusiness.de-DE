@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ConferenceSessionDetails-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceSessionDetails table
 ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412741(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c5aaa3ec022be18ad54cc8a24b8410c23faf799
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61da586f3ecaf215b3bb636a80141ba8aaa19f18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -197,7 +199,7 @@ Jeder Datensatz stellt eine Konferenzsitzung dar, bei der es sich entweder um di
 <td><p><strong>ContentTypeID</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie in der Tabelle "ContentTypes" <a href="lync-server-2013-contenttypes-table.md">in lync Server 2013</a> .</p></td>
+<td><p>Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-contenttypes-table.md">in der Tabelle "ContentTypes" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Einladen</strong></p></td>

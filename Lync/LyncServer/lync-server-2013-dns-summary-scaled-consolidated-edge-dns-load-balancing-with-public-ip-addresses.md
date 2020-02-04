@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Zusammenfassung für einen skalierten konsolidiert
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 226f0ac1c27b18ea19cc1893300ad3614130c798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f748f8107e4d1c0da41a07285eb61e4a3149551
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,13 +75,13 @@ Sie können zwei Netzwerkadapter auf jedem Edgeserver wie folgt konfigurieren:
     
     Die öffentliche IP-Adresse des Zugriffs-Edge-Diensts ist primär mit dem Standardgateway auf den öffentlichen Router (131.107.155.1) eingestellt.
     
-    Web Conferencing Edge Service und A/V Edge Service private IP-Adressen sind zusätzliche IP-Adressen im **erweiterten** Abschnitt der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** des **Eigenschaften von LAN-Verbindung** in Windows Server.
+    Web Conferencing Edge Service und A/V Edge Service private IP-Adressen sind zusätzliche IP-Adressen im **erweiterten** Abschnitt der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** der **Eigenschaften der LAN-Verbindung** in Windows Server.
     
     <div>
     
 
     > [!NOTE]  
-    > Es ist jedoch möglich, eine einzige IP-Adresse für alle drei Edge-Service-Interfaces zu verwenden. Obwohl dadurch IP-Adressen gespeichert werden, sind für jeden Dienst unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, wodurch sichergestellt wird, dass die meisten Remote Firewalls den Datenverkehr zulassen. Das Ändern der Portwerte in (zum Beispiel) 5061/TCP für den Access-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst kann zu Problemen bei Remotebenutzern führen, bei denen eine Firewall, die Sie behindern, den Datenverkehr nicht zulässt. 5061/TCP und 444/TCP. Darüber hinaus erleichtern drei unterschiedliche IP-Adressen die Problembehandlung, da Sie nach IP-Adressen filtern können.
+    > Es ist jedoch möglich, eine einzige IP-Adresse für alle drei Edge-Service-Interfaces zu verwenden. Obwohl dadurch IP-Adressen gespeichert werden, sind für jeden Dienst unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, wodurch sichergestellt wird, dass die meisten Remote Firewalls den Datenverkehr zulassen. Das Ändern der Portwerte in (zum Beispiel) 5061/TCP für den Access-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst kann zu Problemen bei Remotebenutzern führen, bei denen eine Firewall, die Sie behindern, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Darüber hinaus erleichtern drei unterschiedliche IP-Adressen die Problembehandlung, da Sie nach IP-Adressen filtern können.
 
     
     </div>
@@ -90,7 +92,7 @@ Sie können zwei Netzwerkadapter auf jedem Edgeserver wie folgt konfigurieren:
     
     Die öffentliche IP-Adresse des Zugriffs-Edge-Diensts ist primär mit dem Standardgateway auf den öffentlichen Router (131.107.155.1) eingestellt.
     
-    Web Conferencing Edge Service und A/V Edge Service private IP-Adressen sind zusätzliche IP-Adressen im **erweiterten** Abschnitt der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** des **Eigenschaften von LAN-Verbindung** in Windows Server.
+    Web Conferencing Edge Service und A/V Edge Service private IP-Adressen sind zusätzliche IP-Adressen im **erweiterten** Abschnitt der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** der **Eigenschaften der LAN-Verbindung** in Windows Server.
 
 <div>
 

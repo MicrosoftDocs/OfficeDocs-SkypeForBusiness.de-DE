@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Übersicht über die reaktionsgruppenanwendung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Response Group application
 ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398513(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b523a05509b0043effb8cb2b761d7ee06fd36751
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2b01181296a42f786a4739b5ec59d775212baaf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem
 
 In lync Server 2013 stehen zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen zur Verfügung: Antwortgruppen-Manager und Antwortgruppen Administrator. Reaktionsgruppen Administratoren können alle Aspekte jeder Reaktionsgruppe verwalten. Antwortgruppen-Manager können nur bestimmte Aspekte verwalten, und zwar nur für die Antwortgruppen, die Sie besitzen. Die neue Manager-Rolle kann dazu beitragen, die Verwaltungskosten zu senken, da Sie für bestimmte Antwortgruppen begrenzte Zuständigkeiten an alle Benutzer delegieren können, die für Enterprise-VoIP aktiviert sind.
 
-Um der neuen Manager-Rolle gerecht zu werden, führt die lync Server 2013 Response Group-Anwendung einen Workflowtyp verwalteter oder nicht verwalteter **Ressourcen** ein. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
+Um der neuen Manager-Rolle gerecht zu werden, führt die lync Server 2013 Response Group-Anwendung einen **Workflowtyp** verwalteter oder nicht verwalteter Ressourcen ein. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
 
 ### <a name="managed-and-unmanaged-response-groups"></a>Verwaltete und nicht verwaltete Reaktionsgruppen
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen einer VoIP-Richtlinie und Konfigurieren von 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice policy and configure PSTN usage records
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c11eafa265bf2ba20e8a68a84231092dcb01ffa3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80537aabe132f1b83714d42244409224ca53f72d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine neue VoIP-Richtlinie erste
 
 ## <a name="to-create-a-voice-policy"></a>So erstellen Sie eine VoIP-Richtlinie
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
@@ -101,7 +103,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine neue VoIP-Richtlinie erste
     
       - **Teamanruf** ermöglicht Benutzern in einem definierten Team die Annahme von Anrufen für andere Teammitglieder. Diese Option ist standardmäßig aktiviert.
     
-      - Durch **PSTN-** Umleitungen können Anrufe von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer weitergeleitet werden, wenn das WAN überlastet ist oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
+      - Durch **PSTN-Umleitungen** können Anrufe von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer weitergeleitet werden, wenn das WAN überlastet ist oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
     
       - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
         
@@ -180,7 +182,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine neue VoIP-Richtlinie erste
     
       - Um dieselben PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie in dieser VoIP-Richtlinie zu verwenden, wählen Sie aus dem Dropdownmenü die Option **Mithilfe der PSTN-Anrufverwendung weiterleiten** aus.
     
-      - Wenn Sie die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne lync-Benutzer zulassen möchten, wählen Sie die Option **nur für interne lync-Benutzer weiterleiten** aus dem Dropdownmenü aus. Calls will not be forwarded to external PSTN numbers.
+      - Wenn Sie die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne lync-Benutzer zulassen möchten, wählen Sie die Option **nur für interne lync-Benutzer weiterleiten** aus dem Dropdownmenü aus. Anrufe werden nicht an externe PSTN-Nummern weitergeleitet.
     
       - Um andere PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie für diese VoIP-Richtlinie anzugeben, wählen Sie aus dem Dropdownmenü die Option **Mithilfe benutzerdefinierter PSTN-Verwendung weiterleiten** aus. Mit dieser Option wird ein Steuerelement angezeigt, um vorhandene PSTN-Verwendungseinträge auszuwählen oder um neue PSTN-Verwendungseinträge speziell für die Anrufweiterleitung und für das gleichzeitige Klingeln zu erstellen.
         

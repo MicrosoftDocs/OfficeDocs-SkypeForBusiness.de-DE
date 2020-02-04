@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SessionDetails-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails table
 ms:assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faebef9ad03370c2fa969d3b119f13b88d1d3173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b68c50fc17199c68a69c5a7c6dd6abc8a5bd1dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822111"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -152,7 +154,7 @@ Beachten Sie, dass die IsUser1IntegratedWithDeskPhone-und IsUser2IntegratedWithD
 <td><p><strong>ContentTypeID</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie in der Tabelle "ContentTypes" <a href="lync-server-2013-contenttypes-table.md">in lync Server 2013</a> .</p></td>
+<td><p>Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-contenttypes-table.md">in der Tabelle "ContentTypes" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User1ClientVerId</strong></p></td>

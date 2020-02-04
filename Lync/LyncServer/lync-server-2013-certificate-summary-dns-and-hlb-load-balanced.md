@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zertifikatzusammenfassung für DNS- und Hardwarelasten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - DNS and HLB load balanced
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e145e2f1ac3d331906713584b365adf7cd48aec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b8cd6d86844629544b54670eb07c3433d19f99f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839649"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736655"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Die Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und eine
 <td><p>dirpool01.contoso.net</p>
 <p>dir01.contoso.net</p>
 <p>dialin.contoso.com</p>
-<p>Meet.contoso.com</p>
+<p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>(Optional) *. contoso.com</p></td>

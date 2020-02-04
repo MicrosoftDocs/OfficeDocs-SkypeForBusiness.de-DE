@@ -3,6 +3,8 @@ title: 'Lync Server 2013: direkte SIP-Verbindungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP connections
 ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1decdfd4c755ea1788d088a4b539d8c555987f02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832397"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ Sie können *direkte SIP-Verbindungen* verwenden, um lync Server mit einer der f
 
   - Eine IP-Telefonanlage (Einzelheiten finden Sie unter [direkte SIP-Bereitstellungsoptionen in lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
 
-  - Ein PSTN-Gateway (Einzelheiten finden Sie unter Bereitstellungsoptionen für das [PSTN-Gateway in lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
+  - Ein PSTN-Gateway (Einzelheiten finden Sie unter [Bereitstellungsoptionen für das PSTN-Gateway in lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
 
-To implement a direct SIP connection, you follow essentially the same deployment steps as you would to implement a SIP trunk. In beiden Fällen implementieren Sie die Verbindung mithilfe der externen Schnittstelle eines Vermittlungsservers. The only difference is that you connect SIP trunks to an external entity, such as an ITSP gateway, and you connect direct SIP connections to an internal entity within your local network, such as an IP-PBX or a public switched telephone network (PSTN) gateway.
+Um eine direkte SIP-Verbindung zu implementieren, führen Sie im wesentlichen dieselben Bereitstellungsschritte wie bei der Implementierung eines SIP-Trunks aus. In beiden Fällen implementieren Sie die Verbindung mithilfe der externen Schnittstelle eines Vermittlungsservers. Der einzige Unterschied besteht darin, dass Sie SIP-Trunks mit einer externen Entität wie einem ITSP-Gateway verbinden und direkte SIP-Verbindungen mit einer internen Entität in Ihrem lokalen Netzwerk verbinden, beispielsweise mit einer IP-Telefonanlage oder einem PSTN-Gateway (Public Switched Telephone Network).
 
 <div>
 

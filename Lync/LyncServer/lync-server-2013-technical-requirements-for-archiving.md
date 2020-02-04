@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Technische Voraussetzungen für die Archivierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Archiving
 ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e4847815f10a48b954d3d83348d95cc137f4b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6cc8a64ee7a49971660e7435a51c816bd4367e26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ Lync Server 2013 optimiert die Voraussetzungen für die Archivierung aus folgend
 
 Darüber hinaus müssen Sie die Infrastruktur für die Archivierung von Speicher einrichten. Dazu gehören eine oder beide der folgenden Optionen:
 
-  - **Microsoft Exchange-Speicher**. Meeting content files, such as PowerPoint presentations, are archived as attachments. Wenn Sie die Microsoft Exchange-Integration verwenden möchten, damit lync-Archivdaten mit Exchange-Kompatibilitätsdaten gespeichert werden, müssen Sie Exchange 2013 für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt. Wenn Sie die Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen, werden lync-Archivdaten nur für die Benutzer, die auf Ihren Exchange 2013-Servern gehostet werden, mit Exchange 2013-Kompatibilitätsdaten gespeichert. Sie müssen Exchange 2013 vor der Bereitstellung und Aktivierung der Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen. Wenn Sie Exchange 2013-Speicher verwenden, müssen Sie keine separaten SQL Server-Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Ihren Exchange 2013-Servern gehostet sind.
+  - **Microsoft Exchange-Speicher**. Besprechungsinhalts Dateien wie PowerPoint-Präsentationen werden als Anlagen archiviert. Wenn Sie die Microsoft Exchange-Integration verwenden möchten, damit lync-Archivdaten mit Exchange-Kompatibilitätsdaten gespeichert werden, müssen Sie Exchange 2013 für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt. Wenn Sie die Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen, werden lync-Archivdaten nur für die Benutzer, die auf Ihren Exchange 2013-Servern gehostet werden, mit Exchange 2013-Kompatibilitätsdaten gespeichert. Sie müssen Exchange 2013 vor der Bereitstellung und Aktivierung der Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen. Wenn Sie Exchange 2013-Speicher verwenden, müssen Sie keine separaten SQL Server-Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Ihren Exchange 2013-Servern gehostet sind.
 
   - **SQL Server-Datenbankspeicher für die Archivierung**. Wenn Sie Benutzer unterstützen möchten, die nicht auf Exchange 2013-Servern gehostet werden, oder wenn Sie die Microsoft Exchange-Integrations Option nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer SQL Server-Datenbank bereitstellen. Lync Server 2013 unterstützt die folgenden 64-Bit-Versionen von SQL Server:
     

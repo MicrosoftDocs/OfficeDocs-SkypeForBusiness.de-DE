@@ -3,6 +3,8 @@ title: Migrationsprozess – Details
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847096"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -139,7 +141,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen-Chat Server zu m
 
 8.  Portieren Sie lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat-Nachschlage Server-URI zum lync Server 2013-Kontaktobjekt für beständigen Chat Server. Die folgenden Schritte sind erforderlich, wenn sich entweder Ihr lync 2010-Gruppen-Chat oder die Office Communicator 2007 R2-Gruppen-Chat-Clients nach der Migration ohne clientseitige Konfigurationsänderungen mit dem neuesten lync 2013, beständigen Chat (Client) verbinden müssen:
     
-      - Löschen Sie das Benutzer\<Konto OCSChat\>@ Domain Name. com Lookup Server. Dies wurde verwendet, um auf den Nachschlage Dienst in lync Server 2010, Gruppen-Chat, zu verweisen. Sie können den Pool deinstallieren und vertrauenswürdige Einträge später entfernen.
+      - Löschen Sie das\<OCSChat@ Domain\>Name. com Lookup Server-Benutzerkonto. Dies wurde verwendet, um auf den Nachschlage Dienst in lync Server 2010, Gruppen-Chat, zu verweisen. Sie können den Pool deinstallieren und vertrauenswürdige Einträge später entfernen.
     
       - Erstellen Sie einen Legacy Endpunkt (Kontaktobjekt für beständigen Chat Server), indem Sie das Windows PowerShell **-Cmdlet New-CsPersistentChatEndpoint**mit dem identischen SIP-URI ausführen, damit der Legacyclient effektiv funktioniert, wenn der Dienst neu gestartet wird.
     

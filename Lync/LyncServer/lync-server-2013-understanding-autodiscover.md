@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Grundlegendes zu AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Autodiscover
 ms:assetid: d70a15b7-750b-4e0f-9a7f-0254d6d486c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae8a4965674952cfa5822c24e887ed4d5a02b798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9d885654f9222ce3d3e9fb7b03e9b388f0ca0a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Die beste Methode, um das Antwortdokument für die AutoErmittlung zu verstehen, 
 
 
 > [!NOTE]  
-> Der lync-Auto Ermittlungs-Webdienst ist in den <STRONG>Microsoft Office</STRONG> -Protokollen im Abschnitt <STRONG>Open Specifications</STRONG> der <STRONG>Microsoft Developer Network</STRONG> (MSDN)-Bibliothek definiert. Ausführliche Informationen finden Sie im vollständigen Spezifikationsdokument "lync autodiscover Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>:. Details zur Authentifizierung finden Sie unter "OC Authentication Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>.
+> Der lync-Auto Ermittlungs-Webdienst ist in den <STRONG>Microsoft Office-Protokollen</STRONG> im Abschnitt <STRONG>Open Specifications</STRONG> der <STRONG>Microsoft Developer Network</STRONG> (MSDN)-Bibliothek definiert. Ausführliche Informationen finden Sie im vollständigen Spezifikationsdokument "lync autodiscover Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>:. Details zur Authentifizierung finden Sie unter "OC Authentication Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>.
 
 
 

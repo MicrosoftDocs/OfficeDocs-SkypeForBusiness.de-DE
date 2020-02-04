@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testen einer Telefonnummer mit einer VoIP-Route'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test telephone number against a voice route
 ms:assetid: 9a77ed6d-9394-4bef-9344-3d91b6959b97
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed50971c9656d454a44eeee627de95c187ef008f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d4105b54c7d5b745efddeeb961960c402aaa349
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -110,7 +112,7 @@ MatchesPattern
 
 \--------------
 
-True
+Wahr
 
 Das bedeutet, dass die Route Zahlen ähnlich wie die Ziel Nummer verarbeiten kann. Wenn die VoIP-Route die Ziel Nummer nicht verarbeiten kann, gibt Test-CsVoiceRoute den Wert false zurück:
 

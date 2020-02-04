@@ -3,6 +3,8 @@ title: Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be0dda3eedc73e5c64f7c275714955f3ce92af3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
 
 
 > [!IMPORTANT]
-> Wenn Sie Benutzer aus einer früheren Version der lync Server-Bereitstellung migrieren, müssen Sie sicherstellen, dass Sie alle vorhandenen Einträge für vertrauenswürdige Anwendungen (zuvor als autorisierte Hosteinträge bezeichnet) entfernt haben, die Sie für das SIP/CSTA-Gateway erstellt haben, bevor Sie die Verfahren in Dieses Thema. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)</A>.<BR>Wenn Sie beabsichtigen, eine neue Remoteanrufsteuerung mithilfe einer TCP-Verbindung (Transmission Control Protocol) bereitzustellen, müssen Sie sicherstellen, dass die <STRONG>Beschränkung der Dienstnutzung auf ausgewählte IP-Adressen</STRONG> für vorhandene Vertrauenswürdige Anwendungen und Pools festgelegt werden soll, wenn Sie dasselbe verwenden möchten. TCP-Port für die neue vertrauenswürdige Anwendung.
+> Wenn Sie Benutzer aus einer früheren Version der lync Server-Bereitstellung migrieren, müssen Sie sicherstellen, dass Sie alle vorhandenen Einträge für vertrauenswürdige Anwendungen (zuvor als autorisierte Hosteinträge bezeichnet) entfernt haben, die Sie für das SIP/CSTA-Gateway erstellt haben, bevor Sie die Verfahren in diesem Thema ausführen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)</A>.<BR>Wenn Sie beabsichtigen, eine neue Remoteanrufsteuerung mithilfe einer TCP-Verbindung (Transmission Control Protocol) bereitzustellen, müssen Sie sicherstellen, dass die <STRONG>Beschränkung der Dienstnutzung auf ausgewählte IP-Adressen</STRONG> auf vorhandenen vertrauenswürdigen Anwendungen und Pools festgelegt ist, wenn Sie denselben TCP-Port für die neue vertrauenswürdige Anwendung verwenden möchten.
 
 
 

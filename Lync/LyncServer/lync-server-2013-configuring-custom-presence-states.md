@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von benutzerdefinierten Anwesenheitsstat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839274"
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-10_
 
-Wenn Sie benutzerdefinierte Anwesenheitsstatus in lync 2013 definieren möchten, erstellen Sie eine XML-Konfigurationsdatei für benutzerdefinierte Anwesenheitsinformationen, und geben Sie dann den Speicherort mithilfe der lync Server-Verwaltungsshell-Cmdlets **New-CSClientPolicy** oder **CSClientPolicy** mit dem Parameter ein. CustomStateURL.
+Wenn Sie benutzerdefinierte Anwesenheitsstatus in lync 2013 definieren möchten, erstellen Sie eine XML-Konfigurationsdatei für benutzerdefinierte Anwesenheitsinformationen, und geben Sie dann den Speicherort mithilfe der lync Server-Verwaltungsshell-Cmdlets **New-CSClientPolicy** oder **CSClientPolicy** mit dem Parameter CustomStateURL an.
 
 Konfigurationsdateien weisen die folgenden Eigenschaften auf:
 
@@ -56,12 +58,12 @@ Konfigurationsdateien weisen die folgenden Eigenschaften auf:
 > Obwohl es in einer Produktionsumgebung nicht empfohlen wird, können Sie eine Konfigurationsdatei testen, die sich auf einer nicht-HTTPS-Dateifreigabe befindet, indem Sie die Registrierungseinstellung EnableSIPHighSecurityMode verwenden, um den SIP-Modus für höchste Sicherheit auf dem Client zu deaktivieren. Anschließend können Sie die Registrierungseinstellung CustomStateURL verwenden, um einen nicht-HTTPS-Speicherort für die Konfigurationsdatei anzugeben. Beachten Sie, dass lync 2013 die Registrierungseinstellungen von lync 2010 ehrt, die Registrierungsstruktur jedoch aktualisiert wurde. Sie würden die Registrierungseinstellungen wie folgt erstellen: 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync\enablesiphighsecuritymode</P>
 > <P>Geben Sie Folgendes ein: DWORD</P>
 > <P>Wertdaten: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
-> <P>Typ: String (REG_SZ)</P>
+> <P>HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync\customstateurl</P>
+> <P>Typ: Zeichenfolge (REG_SZ)</P>
 > <P>Werte Daten (Beispiele): file://\\lspool. Corp. contoso. com\LSFileShare\ClientConfigFolder\Presence.XML oder file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.XML</P></LI></UL>
 
 
@@ -118,7 +120,7 @@ Ausführliche Informationen finden Sie unter [New-CsClientPolicy](https://docs.m
 > <LI>
 > <P>Standardmäßig aktualisiert lync Server 2013&nbsp;die Clientrichtlinien und-Einstellungen alle drei Stunden.</P>
 > <LI>
-> <P>Wenn Sie weiterhin Gruppenrichtlinieneinstellungen aus früheren Versionen wie CustomStateURL verwenden möchten, erkennt lync 2013 die Einstellungen, wenn Sie sich in der neuen Richtlinien Registrierungsstruktur (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) befinden. Serverbasierte Clientrichtlinien haben jedoch Vorrang.</P></LI></UL>
+> <P>Wenn Sie weiterhin Gruppenrichtlinieneinstellungen aus früheren Versionen wie CustomStateURL verwenden möchten, erkennt lync 2013 die Einstellungen, wenn Sie sich in der neuen Richtlinien Registrierungsstruktur (HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync) befinden. Serverbasierte Clientrichtlinien haben jedoch Vorrang.</P></LI></UL>
 
 
 

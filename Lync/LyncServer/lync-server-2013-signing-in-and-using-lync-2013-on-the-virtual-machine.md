@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anmelden bei und Verwenden von Lync 2013 auf dem virtu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Signing in and using Lync 2013 on the virtual machine
 ms:assetid: 6140fc19-5bef-4b58-9b0f-19112b5ecd00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204948(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3b890f008b30ecf008bd2e6f03803fbfe6c1674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c5c18c4e991c3b53e37e090e7f2d960a32f71c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847773"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Nachdem das VDI-Plug-in aktiviert wurde, treten die folgenden Schritte auf, wenn
 
 3.  Lync beginnt die Kopplung mit dem VDI-Plug-in. Bevor die Kopplung abgeschlossen ist, zeigt der Client zwei Symbole in der lync-Statusleiste an. Das Symbol in der unteren linken Ecke zeigt an, dass keine Audiogeräte verfügbar sind, und das blinkende Symbol in der unteren rechten Ecke zeigt an, dass die VDI-Kopplung in Bearbeitung ist (siehe Abbildung).
     
-    ![Lync-VDI-Symbol mit erfolgreicher Kopplung] (images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Lync-VDI-Symbol mit erfolgreicher Kopplung")  
+    ![Lync-VDI-Symbol mit erfolgreicher Kopplung](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Lync-VDI-Symbol mit erfolgreicher Kopplung")  
 
 4.  Nach einer erfolgreichen VDI-Kopplung ändern sich die Symbole und zeigen nun das für Anrufe verwendete Audiogerät bzw. den Erfolg der VDI-Kopplung an:
     
-    ![Lync-VDI-Kopplungs Symbol mit Erfolg] (images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "Lync-VDI-Kopplungs Symbol mit Erfolg")  
+    ![Lync-VDI-Kopplungs Symbol mit Erfolg](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "Lync-VDI-Kopplungs Symbol mit Erfolg")  
 
 5.  Nach lync-Paaren mit dem VDI-Plug-in kann der Benutzer seine Anwesenheit auf lync-kompatiblen Geräten sehen, die mit dem lokalen Computer verbunden sind. Der Benutzer kann nun wie gewohnt Anrufe tätigen und annehmen.
 

@@ -3,6 +3,8 @@ title: Installieren von Betriebssystemen und erforderlicher Software auf Servern
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install operating systems and prerequisite software on servers
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a4eed86f12386b10b49d4290a4596b40c1fcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c41147d33dce792f88b30f72b36201ddb6c7d62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832010"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Installieren Sie auf jedem Server, den Sie bereitstellen, das entsprechende Wind
 
 
 > [!NOTE]
-> Wenn Sie lync Server 2013 unter Windows Server&nbsp;2008&nbsp;R2 mit SP1 installieren, müssen Sie zuerst das Update installieren, das im Microsoft Knowledge-basierten Artikel 2646886 beschrieben wird, "Fix: Heap Beschädigung tritt auf, wenn ein Modul die InsertEntityBody-Methode aufruft. in IIS 7,5 ", at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>Sie müssen auch die Registrierung ändern, wie im KB-Artikel <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Ereignis-IDs 32402, 61045 in lync Server 2013-Front-End-Servern protokolliert werden, die in Windows Server 2012 R2 installiert sind</A>.
+> Wenn Sie lync Server 2013 unter Windows Server&nbsp;2008&nbsp;R2 mit SP1 installieren, müssen Sie zuerst das im Microsoft Knowledge-Artikel 2646886 beschriebene Update installieren, "Fix: Heap Beschädigung tritt auf, wenn ein Modul die InsertEntityBody-Methode in IIS 7,5 aufruft", at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>Sie müssen auch die Registrierung ändern, wie im KB-Artikel <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Ereignis-IDs 32402, 61045 in lync Server 2013-Front-End-Servern protokolliert werden, die in Windows Server 2012 R2 installiert sind</A>.
 
 
 
@@ -75,7 +77,7 @@ Installieren Sie auf jedem Server, den Sie bereitstellen, das entsprechende Wind
 
 Installieren Sie die folgenden Updates von Windows Update auf jedem Server:
 
-  - **Windows Update für Server mit lync Server 2013**   Details zu den Updates von Windows Update, die für Server mit lync Server 2013 erforderlich sind, finden Sie unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planung. Dokumentation.
+  - **Windows Update für Server mit lync Server 2013**   Details zu den Updates von Windows Update, die für Server mit lync Server 2013 erforderlich sind, finden Sie unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planungsdokumentation.
 
   - **Datenbankserver**   Details zu den Updates von Windows Update, die für Datenbankserver erforderlich sind, einschließlich der Back-End-Datenbank, der Archivierungsdatenbank und der Überwachungsdatenbank, finden Sie in der SQL Server 2012-Dokumentation. Informationen zu SQL Server 2012 finden Sie in [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)der SQL Server 2012-Online Dokumentation unter.
 

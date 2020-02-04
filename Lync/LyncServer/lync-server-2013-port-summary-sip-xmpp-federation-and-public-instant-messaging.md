@@ -3,6 +3,8 @@ title: Port Zusammenfassung – SIP, XMPP Federation und Public Instant Messagin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2edcad9806c5e6c8714f3face301211633a53fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ae19fb2477f61c0e408ebad3a8abf97fb75b9c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-03-15_
 
 Port-, Protokoll-und Firewall-Anforderungen für den Verbund mit Microsoft lync Server 2013, lync Server 2010 und Office Communications Server ähneln denen für den bereitgestellten Edgeserver. Clients initiieren die Kommunikation mit dem Access Edge Service über TLS/SIP/TCP 443. Föderationspartner initiieren jedoch die Kommunikation mit dem Access Edge-Dienst über MTLS/SIP/TCP 5061.
 
-Um Ihre Firewall für Ports und Protokolle zu konfigurieren, die für die Unterstützung öffentlicher Instant Messaging-Konnektivität erforderlich sind, beachten Sie zunächst, dass SIP/MTLS/TCP 5061 bidirektional ist, um die Möglichkeit von Kontakten im öffentlichen Chat-Anbieter zu berücksichtigen, lync-Clients zu kontaktieren, oder lync Kontakt mit öffentlichen Chat Kontakten aufnehmen.
+Wenn Sie Ihre Firewall für Ports und Protokolle konfigurieren möchten, die für die Unterstützung öffentlicher Instant Messaging-Konnektivität erforderlich sind, beachten Sie zunächst, dass SIP/MTLS/TCP 5061 bidirektional ist, um die Möglichkeit von Kontakten im öffentlichen Chat-Anbieter zu berücksichtigen, lync-Clients zu kontaktieren, oder dass lync Kontakte mit öffentlichen Chat Kontakten aufnehmen soll.
 
 Windows Live Messenger kann an der Audio-und Videokommunikation mit lync-Clients teilnehmen. Damit wird die sehr ähnliche Firewall-Port-und-Protokollkonfiguration berücksichtigt, die Sie normalerweise auf der Firewall haben, um lync-Clients als externe Benutzer zu unterstützen.
 

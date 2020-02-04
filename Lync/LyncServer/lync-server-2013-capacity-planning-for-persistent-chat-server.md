@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Kapazitätsplanung für beständigen Chat Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Be
 
 Informationen zum Herunterladen des [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)beständigen Chat Servers finden Sie unter "Microsoft lync Server 13-beständiger Chat Server" unter.
 
-Details zum Installieren des beständigen Chat Servers finden Sie unter Installieren des beständigen [Chat Servers in lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) und Konfigurieren des beständigen [Chat Servers in lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in der Bereitstellungsdokumentation.
+Details zum Installieren des beständigen Chat Servers finden Sie unter [Installieren des beständigen Chat Servers in lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) und [Konfigurieren des beständigen Chat Servers in lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in der Bereitstellungsdokumentation.
 
 Support Tools wie das lync Server-Planungs Tool können Sie bei der Kapazitätsplanung weiter unterstützen. Details zum Planungs Tool finden Sie unter [Starten des Planungsprozesses für lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in der Planungsdokumentation.
 
@@ -82,7 +84,7 @@ Die folgende Abbildung zeigt alle erforderlichen und optionalen Komponenten eine
 
 **Einzelner beständiger Chat Server**
 
-![Topologie mit einem Server mit Kompatibilitätsdienst] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem Server mit Kompatibilitätsdienst")
+![Topologie mit einem Server mit Kompatibilitätsdienst](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem Server mit Kompatibilitätsdienst")
 
 </div>
 
@@ -96,7 +98,7 @@ Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Serve
 
 **Mehrere beständige Chat Server**
 
-![Topologie mit mehreren Servern] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")
+![Topologie mit mehreren Servern](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")
 
 In einer persistent Chat Server-Bereitstellung mit vier Servern, bei der 80.000-Benutzer gleichzeitig bei und mithilfe des beständigen Chats angemeldet werden können, wird die Auslastung gleichmäßig bei 20.000-Benutzern pro Server verteilt. Wenn ein Server nicht mehr zur Verfügung steht, verlieren die Benutzer, die mit diesem Server verbunden sind, den Zugriff auf den beständigen Chat Server. Die getrennten Benutzer werden automatisch an die übrigen Server übergeben, bis der ausgefallene Server wieder verfügbar ist. Je nach dem Umfang des beständigen Chat-Datenverkehrs im Netzwerk kann diese Übertragung einige Minuten oder länger dauern. Da jeder der verbleibenden Server möglicherweise so viele wie 30.000-Benutzer hostet, empfehlen wir, dass Sie den nicht verfügbaren Server so schnell wie möglich wiederherstellen, um Leistungsprobleme zu vermeiden. Andernfalls können Sie einen anderen beständigen Chat Server mithilfe des Topologie-Generators oder des Windows PowerShell-Cmdlets, " **CsPersistentChatActiveServer**", verfügbar machen.
 
@@ -148,7 +150,7 @@ Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die
 </table>
 
 
-Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer.
+Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer bereitstellen.
 
 </div>
 
@@ -406,7 +408,7 @@ Die vorstehende Tabelle zur Kapazitätsplanung gibt für jeden Chatroom die Anza
 
 ## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a>Kapazitätsplanung für die Verwaltung des Chatroom-Zugriffs per Einladung
 
-Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um zu verstehen, wie viele Einladungen der beständige Chat Server in der persistenten Chat Datenbank erstellt und speichert, wenn er zum Senden von Einladungen konfiguriert ist. Sie können Einladungen für die Kategorie verwalten, indem Sie die **Kategorie Einstellungen** für Chatrooms in der lync Server-Systemsteuerung verwenden oder das Windows PowerShell-Cmdlet " **csPersistentChatCategory**" verwenden. Sie können Einladungen in einem Chatroom verwalten (entsprechend der Kategorie), indem Sie die vom lync-Client gestartete **Raum Verwaltungs** Seite verwenden oder ein Windows PowerShell-Cmdlet, " **csPersistentChatRoom**", verwenden.
+Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um zu verstehen, wie viele Einladungen der beständige Chat Server in der persistenten Chat Datenbank erstellt und speichert, wenn er zum Senden von Einladungen konfiguriert ist. Sie können Einladungen für die Kategorie verwalten, indem Sie die **Kategorie Einstellungen für Chatrooms** in der lync Server-Systemsteuerung verwenden oder das Windows PowerShell-Cmdlet " **csPersistentChatCategory**" verwenden. Sie können Einladungen in einem Chatroom verwalten (entsprechend der Kategorie), indem Sie die vom lync-Client gestartete **Raum Verwaltungs** Seite verwenden oder ein Windows PowerShell-Cmdlet, " **csPersistentChatRoom**", verwenden.
 
 Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die **Einladungsoption** auf der Seite mit den **Chatroomeinstellungen** für 50 % aller Chatrooms auf **Ja** festgelegt ist.
 
