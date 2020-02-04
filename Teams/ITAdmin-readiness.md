@@ -11,17 +11,17 @@ audience: admin
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: c2283cf449c1e66e424e6360b14b3d2d763b1aab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573611"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681442"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
