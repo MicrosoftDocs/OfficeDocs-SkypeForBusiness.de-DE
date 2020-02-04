@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die öffentliche IP-Adresse ist die IP-Adresse, die von NAT (Netzwerkadressübersetzung) verwendet wird. Die IP-Adresse muss öffentlich geroutet werden. Dies ist erforderlich, da Sie auf der Seite "Features auswählen" des Assistenten die Option "externe IP-Adresse dieses Edge-Pools wird durch NAT übersetzt" ausgewählt haben.
-ms.openlocfilehash: ee70d335c4c8819b7c8b9661315646c98816bd9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f06d9b61d5ffad29d24e143cf3afbbc4501a67d4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689414"
 ---
 # <a name="add-edge-server-nat-ip"></a>Hinzufügen der NAT-IP-Adresse des Edgeservers
 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können Unterstützung für den Zugriff durch externe Benutzer hinzufügen, wenn Sie Ihre anfängliche Topologie oder zu einem späteren Zeitpunkt bereitstellen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter Define Your Edge Topology.
-ms.openlocfilehash: b2a3390f65b2c9eb460fd5c3e68d41eca7f0f6d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4efe8b2e93e9787dfbc44cfc2790f2e4bb91e2b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278517"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689404"
 ---
 # <a name="add-edge-server-support"></a>Hinzufügen der Edgeserverunterstützung
 

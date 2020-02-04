@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Der Edgepool unterstützt standardmäßig Remotebenutzer in Ihrer Organisation, die sich außerhalb der Firewall über ein VPN (Virtuelles Privates Netzwerk) anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:'
-ms.openlocfilehash: e7ec8e7b20c63e9842957373206130d000944b40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 049a4a6835e506e550f9f7d81401d71bd3737e5a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278545"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689394"
 ---
 # <a name="add-edge-server-options"></a>Hinzufügen von Edgeserveroptionen
 
