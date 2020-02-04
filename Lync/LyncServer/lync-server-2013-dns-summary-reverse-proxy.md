@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Zusammenfassung für Reverseproxy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Reverse proxy
 ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47606fe71b271e01cc7fbefbcf319a2efe93f478
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae4834ce608f6726403e8742a4d506b173309b35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Sie konfigurieren zwei Netzwerkadapter in Ihrem Reverse-Proxy wie folgt:
 <tbody>
 <tr class="odd">
 <td><p>Externer DNS/A</p></td>
-<td><p>Webext.contoso.com</p></td>
+<td><p>webext.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Externe Webdienste aus der internen Bereitstellung. Zusätzliche Datensätze können für alle Pools und Einzelserver für alle SIP-Domänen definiert und erstellt werden, die diesen Reverseproxy verwenden, und hat externe Webdienste definiert.</p></td>
 </tr>
@@ -100,7 +102,7 @@ Sie konfigurieren zwei Netzwerkadapter in Ihrem Reverse-Proxy wie folgt:
 </tr>
 <tr class="even">
 <td><p>Externer DNS/A</p></td>
-<td><p>Meet.contoso.com</p></td>
+<td><p>meet.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Extern veröffentlichte Konferenzen</p></td>
 </tr>

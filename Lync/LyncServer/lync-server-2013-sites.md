@@ -3,6 +3,8 @@ title: Lync Server 2013-Standorte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sites
 ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1843ac4256e71723abf59fa272155ced2010e72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Jede Verzweigungs Website enthält eine der folgenden Optionen:
 
   - Ein *Survivable Branch Server (SBS)*, ein Server, auf dem Windows Server ausgeführt wird, der die angegebenen Hardwareanforderungen erfüllt und auf dem die lync Server Registrar-und Mediation Server-Software installiert ist. Sie muss mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefondienstanbieter angeschlossen werden. Der Survivor-Branch-Server ist für Zweigstellen mit zwischen 1000 und 5000-Benutzern konzipiert.
 
-  - Ein PSTN-Gateway und optional ein Vermittlungs *Server*. Details zu dieser und anderen Serverrollen finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md).
+  - Ein PSTN-Gateway und optional ein *Vermittlungs Server*. Details zu dieser und anderen Serverrollen finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md).
 
 Eine Zweigstelle mit einer stabilen WAN-Verbindung (Wide Area Network) zu einem zentralen Standort kann die dritte Option (ein PSTN-Gateway) und optional einen Vermittlungs Server verwenden. Zweigstellenstandorte mit unelastischen Links sollten eine Survivable Branch-Appliance oder einen Survivable Branch-Server verwenden, der in Zeiten von Wide-Area-Netzwerkfehlern Ausfallsicherheit bietet. Beispielsweise können Benutzer in einer Website mit einer überlebensfähigen Branch-Appliance oder einem Überlebenden Branch-Server weiterhin Enterprise-VoIP-Anrufe tätigen und empfangen, wenn das WAN, das die Verzweigungs Website mit dem zentralen Standort verbindet, ausgefallen ist. Ausführliche Informationen zur Survivable Branch-Appliance, dem Survivable Branch-Server und zur Widerstandsfähigkeit finden Sie unter [Planen der Enterprise-VoIP-Resilienz in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) in der Planungsdokumentation.
 

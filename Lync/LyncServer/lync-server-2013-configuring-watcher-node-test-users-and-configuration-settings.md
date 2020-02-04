@@ -3,6 +3,8 @@ title: Konfigurieren von Watcher-Knotentest Benutzern und Konfigurationseinstell
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d446934e8d84a12a6eecd84fbc94a956d8ae95e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort angeben müssen. Wenn Sie das Kennwort nicht angeben, werden Sie von CsTestUserCredential zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben gezeigten\\Domänennamen-Benutzernamenformat oder mithilfe des Formats User Name @ Domain Name angegeben werden. Zum Beispiel:
+Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort angeben müssen. Wenn Sie das Kennwort nicht angeben, werden Sie von CsTestUserCredential zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben gezeigten\\Domänennamen-Benutzernamenformat oder mithilfe des Formats Benutzer Name@Domain Name angegeben werden. Zum Beispiel:
 
     -UserName "watcher3@litwareinc.com"
 

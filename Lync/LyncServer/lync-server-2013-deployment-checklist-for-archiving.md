@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prüfliste zur Bereitstellung für die Archivierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c556dd288ff3539bbf2f4de816eab3a544b847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -108,12 +110,12 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 <td><p><strong>Erstellen der geeigneten internen Topologie zur Unterstützung der Archivierung (nur, wenn Sie nicht die Microsoft Exchange-Integration für alle Benutzer in Ihrer Bereitstellung verwenden)</strong></p></td>
 <td><p>Führen Sie den Topologie-Generator aus, um der Topologie lync Server 2013-Archivierungsdatenbanken (SQL Server-Datenbanken) hinzuzufügen, und veröffentlichen Sie dann die Topologie.</p></td>
 <td><p>So definieren Sie eine Topologie für die Integration von Archivierungsdatenbanken: ein Konto, das ein Mitglied der lokalen Benutzergruppe ist.</p>
-<p>So veröffentlichen Sie die Topologie: ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und das Vollzugriffsberechtigungen (Lesen/Schreiben/ändern) für die Dateifreigabe hat, die für den lync Server 2013-Dateispeicher verwendet werden soll (damit der Topologie-Generator Konfigurieren Sie die erforderlichen DACLs).</p></td>
+<p>So veröffentlichen Sie die Topologie: ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und das Vollzugriffsberechtigungen (Lesen/Schreiben/ändern) für die Dateifreigabe hat, die für den lync Server 2013-Dateispeicher verwendet werden soll (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann).</p></td>
 <td><p><a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen lync Server 2013-Bereitstellung</a> in der Bereitstellungsdokumentation</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Konfigurieren der Server-zu-Server-Authentifizierung (nur bei Verwendung der Microsoft Exchange-Integration)</strong></p></td>
-<td><p>Konfigurieren Sie Server, um die Authentifizierung zwischen lync Server 2013 und Exchange 2013 zu ermöglichen. Wir empfehlen die Ausführung von <strong>Test-CsExchangeStorageConnectivity testuser_sipUri – Folder Container</strong> , um die Exchange-Archivierungsspeicher Konnektivität zu überprüfen, bevor Sie die Archivierung aktivieren.</p></td>
+<td><p>Konfigurieren Sie Server, um die Authentifizierung zwischen lync Server 2013 und Exchange 2013 zu ermöglichen. Wir empfehlen die Ausführung von <strong>Test-CsExchangeStorageConnectivity testuser_sipUri – Ordner Papierkorb</strong> , um die Exchange-Archivierungsspeicher Konnektivität zu überprüfen, bevor die Archivierung aktiviert wird.</p></td>
 <td><p>Ein Konto mit den entsprechenden Berechtigungen zum Verwalten von Zertifikaten auf den Servern.</p></td>
 <td><p><a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013</a> in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.</p></td>
 </tr>

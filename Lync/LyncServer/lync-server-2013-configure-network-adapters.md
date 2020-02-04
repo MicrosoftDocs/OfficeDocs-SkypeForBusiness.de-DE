@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Netzwerkadaptern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30889a6b145e7256a313c4deedafc74d99499719
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ In den folgenden Verfahren verfügt der Server, auf dem Forefront Threat Managem
 
 ## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a>So konfigurieren Sie die Netzwerkadapterkarten auf dem Reverse Proxy-Computer
 
-1.  Öffnen Sie auf dem Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 Server, der als Reverse-Proxy ausgeführt wird, die Option **Adapter Einstellungen ändern** , indem Sie auf **Start**und dann auf **System**Steuerung und dann auf Netzwerk klicken. ** und Freigabe Center**, und klicken Sie dann auf **Adapter Einstellungen ändern**.
+1.  Öffnen Sie auf dem Windows Server 2008-, Windows Server 2008 R2-, Windows Server 2012-oder Windows Server 2012 R2-Server, der als Reverseproxy ausgeführt wird, die Option **Adaptereinstellungen ändern** , indem Sie auf **Start**klicken, auf **System**Steuerung zeigen, auf **Netzwerk-und Freigabe Center**klicken und dann auf **Adaptereinstellungen ändern**klicken.
 
 2.  Klicken Sie mit der rechten Maustaste auf die externe Netzwerkverbindung, die Sie für die externe Schnittstelle verwenden möchten, und klicken Sie dann auf **Eigenschaften**.
 
@@ -69,7 +71,7 @@ In den folgenden Verfahren verfügt der Server, auf dem Forefront Threat Managem
     
 
     > [!NOTE]  
-    > Wenn der Reverseproxy bereits von anderen Anwendungen verwendet wird, die HTTPS/TCP/443 verwenden, beispielsweise für die Veröffentlichung von Outlook Web Access, müssen Sie entweder eine andere IP-Adresse hinzufügen, damit Sie die lync Server 2013-Webdienste auf HTTPS/TCP/443 veröffentlichen können, ohne sich zu stören. mit den vorhandenen Regeln und Web-Listenern, oder Sie müssen das vorhandene Zertifikat durch ein ersetzen, das dem alternativen Betreff Namen die neuen Namen des externen FQDN hinzufügt.
+    > Wenn der Reverse-Proxy bereits von anderen Anwendungen verwendet wird, die HTTPS/TCP/443 verwenden, wie bei der Veröffentlichung von Outlook Web Access müssen Sie entweder eine weitere IP-Adresse hinzufügen, damit Sie die lync Server 2013-Webdienste auf HTTPS/TCP/443 veröffentlichen können, ohne die vorhandenen Regeln und Weblistener zu stören, oder Sie müssen das vorhandene Zertifikat durch ein ersetzen, das dem alternativen Namen des Antragstellers den neuen Namen des externen FQDN hinzufügt.
 
     
     </div>

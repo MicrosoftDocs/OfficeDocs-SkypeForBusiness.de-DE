@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ändern der Webdienste-URL'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934e448f48413df2938deab8a0d08389cfad37bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839620"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Wenn Sie Ihre Front-End-Pools und Standard Edition-Server einrichten, haben Sie 
 
 </div>
 
-![Bearbeiten von Webdienste-Pool Einstellungen] (images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Bearbeiten von Webdienste-Pool Einstellungen")
+![Bearbeiten von Webdienste-Pool Einstellungen](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Bearbeiten von Webdienste-Pool Einstellungen")
 
 <div>
 
@@ -57,9 +59,9 @@ Wenn Sie Ihre Front-End-Pools und Standard Edition-Server einrichten, haben Sie 
 
 2.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
 
-3.  Wählen Sie im Topologie-Generator in der Konsolenstruktur unter **Standard Edition-Front-End-Server**, **Enterprise Edition-Front-End-Pools**und **Verzeichnis Pools**den Namen des Pools aus. Klicken Sie mit der rechten Maustaste auf den Namen, klicken Sie auf **** **Eigenschaften bearbeiten**, und klicken Sie dann auf Webdienste.
+3.  Wählen Sie im Topologie-Generator in der Konsolenstruktur unter **Standard Edition-Front-End-Server**, **Enterprise Edition-Front-End-Pools**und **Verzeichnis Pools**den Namen des Pools aus. Klicken Sie mit der rechten Maustaste auf den Namen, klicken Sie auf **Eigenschaften bearbeiten**, und klicken Sie dann auf **Webdienste**.
 
-4.  Fügen Sie den **FQDN der externen**Webdienste hinzu, oder bearbeiten Sie ihn, und klicken Sie dann auf **OK**.
+4.  Fügen Sie den **FQDN der externen Webdienste**hinzu, oder bearbeiten Sie ihn, und klicken Sie dann auf **OK**.
     
     <div>
     

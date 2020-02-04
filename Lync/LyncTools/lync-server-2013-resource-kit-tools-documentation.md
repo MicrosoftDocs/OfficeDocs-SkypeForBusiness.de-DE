@@ -3,6 +3,8 @@ title: Dokumentation zur lync Server 2013 Resource Kit-Tools
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945604(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1589285948bd9d3f82fae0ed7c7916029716514f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 511a4ee9920237e1671a44a2f7481b40fbeb8e1a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847901"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ In diesem Thema werden die Tools beschrieben, die Teil des lync Server 2013 Reso
 
 Zum Installieren der lync Server 2013, Resource Kit-Tools, laden Sie **OCSReskit. msi**herunter. Sie können das Resource Kit Tools-Installationsprogramm aus dem Download Center [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429)unter herunterladen.
 
-Führen Sie **OCSResKit.msi ** aus, um eine einfache Installation durchzuführen. Die MSI-Datei installiert alle Tools im folgenden Pfad: **% Program Files%\\Microsoft lync Server 2013\\**-reskit. Tools, bei denen es sich um eigenständige ausführbare Dateien handelt, befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
+Führen Sie **OCSResKit.msi ** aus, um eine einfache Installation durchzuführen. Die MSI-Datei installiert alle Tools im folgenden Pfad: **% Program Files%\\Microsoft lync Server 2013\\-reskit**. Tools, bei denen es sich um eigenständige ausführbare Dateien handelt, befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
 
 </div>
 
@@ -187,7 +189,7 @@ Die folgenden Softwarekomponenten müssen vor der Ausführung des ABSConfig-Tool
 
 <div>
 
-## <a name="users"></a>Nutzer
+## <a name="users"></a>Benutzer
 
 Administratoren, die über die erforderlichen Berechtigungen verfügen, um die lync Server 2013-Bereitstellung zu aktualisieren.
 
@@ -201,7 +203,7 @@ Administratoren, die über die erforderlichen Berechtigungen verfügen, um die l
 
 ABSConfig kann durch Eingeben von **ABSConfig.exe** an einer Eingabeaufforderung gestartet werden. Unten sehen Sie eine Abbildung der Benutzeroberfläche des ABSConfig-Tools.
 
-![Das Tool "ABSConfig. exe".] (images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "Das Tool \"ABSConfig. exe\".")
+![Das Tool "ABSConfig. exe".](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "Das Tool "ABSConfig. exe".")
 
 </div>
 
@@ -407,7 +409,7 @@ Durch die Protokollierung des Zeitraums können die Benutzer des Tools, wie in d
 
 2.  **Enddatum** Dies ist das Enddatum des Zeitraums, für den der Bericht generiert werden soll, beispielsweise 30. September 2010.
     
-    ![Anfangs-und Endtermine in der Bandbreitennutzung A] (images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "Anfangs-und Endtermine in der Bandbreitennutzung A")  
+    ![Anfangs-und Endtermine in der Bandbreitennutzung A](images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "Anfangs-und Endtermine in der Bandbreitennutzung A")  
 
 </div>
 
@@ -421,7 +423,7 @@ Die folgenden Dateiverzeichnisse können von den Benutzern wie gezeigt angegeben
 
   - **Speicherort für temporären Dateispeicher** Der Speicherort der temporären Datei, in dem zwischen Dateien gespeichert werden, während der Bericht generiert wird.
 
-![Dateiverzeichnisse in der Bandbreitennutzung Anal] (images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Dateiverzeichnisse in der Bandbreitennutzung Anal")
+![Dateiverzeichnisse in der Bandbreitennutzung Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Dateiverzeichnisse in der Bandbreitennutzung Anal")
 
 <div>
 
@@ -441,11 +443,11 @@ Die folgenden Dateiverzeichnisse können von den Benutzern wie gezeigt angegeben
 
 Um die Protokolle zu erfassen und die Berichtanzeige zu starten, klicken Sie, wie unten gezeigt, auf **Execute**. In diesem Schritt werden die erforderlichen Daten erfasst.
 
-![Sammeln von Daten in der Bandbreitennutzung Analy] (images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Sammeln von Daten in der Bandbreitennutzung Analy")
+![Sammeln von Daten in der Bandbreitennutzung Analy](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Sammeln von Daten in der Bandbreitennutzung Analy")
 
 Nach erfolgreicher Überprüfung der Eingabe wird die unten wiedergegebene Meldung angezeigt.
 
-![Protokolliert die gesammelte Benachrichtigung in der Bandbreiten] -utili (images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Protokolliert die gesammelte Benachrichtigung in der Bandbreiten") -utili
+![Protokolliert die gesammelte Benachrichtigung in der Bandbreiten-utili](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Protokolliert die gesammelte Benachrichtigung in der Bandbreiten-utili")
 
 Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch gestartet. Befolgen Sie die im Meldungsfeld angezeigten Anweisungen. Ausführliche Informationen finden Sie im nächsten Abschnitt unter **Verwenden von „BandwidthUtilizationAnalyzer.xlsm“**.
 
@@ -458,17 +460,17 @@ Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch
 
 1.  Wenn „BandwidthUtilizationAnalyzer.xlsm“ automatisch gestartet wurde, klicken Sie wie unten gezeigt auf **Refresh**.
     
-    ![BandwidthUtilizationAnalyzer. xlsm] (images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer. xlsm")
+    ![BandwidthUtilizationAnalyzer. xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
 2.  Wenn ein Dateiordner geöffnet wird, wählen Sie die Datei „consolidated.csv“ an dem Speicherort aus, der in dem unten gezeigten Meldungsfeld angegeben ist. Außerdem wird die Position als **C:\\Temp**angezeigt.
     
-    ![Öffnen eines Ordners in BandwidthUtilizationAnalyzer] (images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Öffnen eines Ordners in BandwidthUtilizationAnalyzer")
+    ![Öffnen eines Ordners in BandwidthUtilizationAnalyzer](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Öffnen eines Ordners in BandwidthUtilizationAnalyzer")
 
 3.  Klicken Sie auf **Import**.
 
 4.  Das grafische Diagramm wird automatisch generiert. Es ist verfügbar, sobald der Hintergrundaktivitäts-Mauszeiger nicht mehr angezeigt wird.
     
-    ![Anwenden von Filtern in der Berichtsansicht] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Anwenden von Filtern in der Berichtsansicht")
+    ![Anwenden von Filtern in der Berichtsansicht](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Anwenden von Filtern in der Berichtsansicht")
 
 </div>
 
@@ -478,7 +480,7 @@ Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch
 
 Die Filter, die wie unten gezeigt auf die Berichtsansicht angewendet werden können, werden nachfolgend beschrieben:
 
-![Anwenden von Filtern in der Berichtsansicht] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Anwenden von Filtern in der Berichtsansicht")
+![Anwenden von Filtern in der Berichtsansicht](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Anwenden von Filtern in der Berichtsansicht")
 
 1.  **Name** Filtern nach WAN-Verbindungen (der Filter befindet sich rechts von der Grafik). Das Präfix identifiziert die folgenden Verbindungstypen, siehe im vertikalen (blauen) Feld:
     
@@ -511,27 +513,27 @@ Die folgenden Abbildungen zeigen die oben beschriebenen Filter.
 
 Filtern nach **Name**. Wählen Sie die Liste der Verbindungen aus, die in dem Diagramm angezeigt werden sollen.
 
-![Filtern nach Name in BandwidthUtilizationAnalyzer] (images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "Filtern nach Name in BandwidthUtilizationAnalyzer")
+![Filtern nach Name in BandwidthUtilizationAnalyzer](images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "Filtern nach Name in BandwidthUtilizationAnalyzer")
 
 Filtern nach **Exceeded limit**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filterung nach Überschreitung des Grenzwerts.] (images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "Filterung nach Überschreitung des Grenzwerts.")
+![Filterung nach Überschreitung des Grenzwerts.](images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "Filterung nach Überschreitung des Grenzwerts.")
 
 Filtern nach **Critical levels**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filtern nach kritischen Ebenen.] (images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Filtern nach kritischen Ebenen.")
+![Filtern nach kritischen Ebenen.](images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Filtern nach kritischen Ebenen.")
 
 Filtern nach **Under utilized**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filtern nach unter verwendet.] (images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Filtern nach unter verwendet.")
+![Filtern nach unter verwendet.](images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Filtern nach unter verwendet.")
 
 Filtern nach **Link Type**. Wählen Sie die Typen aus, die angezeigt werden sollen.
 
-![Filtern nach Verknüpfungstyp.] (images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Filtern nach Verknüpfungstyp.")
+![Filtern nach Verknüpfungstyp.](images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Filtern nach Verknüpfungstyp.")
 
 Filtern nach **Region**. Wählen Sie eine Liste der Regionen aus, deren Verbindungen angezeigt werden sollen.
 
-![Filtern nach Region.] (images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Filtern nach Region.")
+![Filtern nach Region.](images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Filtern nach Region.")
 
 </div>
 
@@ -652,23 +654,23 @@ Wenn das Tool auf dem gleichen Computer wie der Anrufparkserver ausgeführt wird
 
 Bereitgestellte Orbitbereiche: Der Parameter „–o“ listet wie gezeigt alle Orbitbereiche auf, die für diesen Pool konfiguriert sind.
 
-![Umlaufbahn Bereiche in der Anruf Parkometer.] (images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "Umlaufbahn Bereiche in der Anruf Parkometer.")
+![Umlaufbahn Bereiche in der Anruf Parkometer.](images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "Umlaufbahn Bereiche in der Anruf Parkometer.")
 
 Zurzeit geparkte Anrufe: Der Parameter „–n“ listet wie gezeigt alle zurzeit verwendeten Orbits in diesem Pool auf.
 
-![Zurzeit geparkte Anrufe in Anruf Parkometer.] (images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "Zurzeit geparkte Anrufe in Anruf Parkometer.")
+![Zurzeit geparkte Anrufe in Anruf Parkometer.](images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "Zurzeit geparkte Anrufe in Anruf Parkometer.")
 
 Anzahl freier Orbits: Der Parameter „–f“ listet wie gezeigt die Anzahl der zurzeit freien Orbits im Pool auf.
 
-![Freie Umlaufbahnen in Anruf Parkometer.] (images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Freie Umlaufbahnen in Anruf Parkometer.")
+![Freie Umlaufbahnen in Anruf Parkometer.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Freie Umlaufbahnen in Anruf Parkometer.")
 
 Zuletzt geparkte Anrufe: der Parameter \<–\> r n listet \<die\> n letzten geparkten Anrufe auf, wie hier gezeigt.
 
-![Vor kurzem geparkte Anrufe in Anruf Parkometer.] (images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Vor kurzem geparkte Anrufe in Anruf Parkometer.")
+![Vor kurzem geparkte Anrufe in Anruf Parkometer.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Vor kurzem geparkte Anrufe in Anruf Parkometer.")
 
 Test Orbit-Reservierung: der – \<t\> n-Parameter testet, wie eine Umlaufbahn in der Datenbank reserviert wird (siehe Abbildung)
 
-![Testen Sie Orbit-Reservierungen in Anruf Parkometer.] (images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Testen Sie Orbit-Reservierungen in Anruf Parkometer.")
+![Testen Sie Orbit-Reservierungen in Anruf Parkometer.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Testen Sie Orbit-Reservierungen in Anruf Parkometer.")
 
 </div>
 
@@ -700,7 +702,7 @@ Um eine hohe Verfügbarkeit zu unterstützen, akzeptiert und speichert LYSS Kopi
 
 ## <a name="requirements"></a>Voraussetzungen
 
-Installieren Sie die lync Server 2013, Resource Kit-Tools. Das Tool wird auf Domänen verbundenen Computern ausgeführt, auf denen lync Server und lync Server 2013-Verwaltungsshell installiert sind. Das Tool verwendet ein Cmdlet aus der Verwaltungsshell, um alle Front-End-Server im Pool zu identifizieren. Zweitens muss das Tool von einem Computer im Pool ausgeführt werden, auf dem die **RtcLocal** -Datenbank installiert ist. Diese Datenbank wird vom CleanupStorageServiceData-Tool verwendet, um die Verbindungsdetails abzurufen, die für die Kommunikation mit dem lync Server-Routing Dienst erforderlich sind. Schließlich muss das Konto oder die Anmeldeinformationen, die das Tool aufrufen, über die Berechtigung "Lesen/Schreiben" für die Dateifreigabe verfügen, auf die Sie möchten das Ausgabeprotokoll schreiben. Dieses Tool hängt auch davon ab, dass sich der Pool in einem stabilen Zustand befindet. Im Wesentlichen bedeutet dies, dass jeder Front-End-Server ausgeführt werden soll, dass die SQL Server LYNCLOCAL-Instanz und die LYSS-Datenbank eine Verbindung herstellen können, und jede Routinggruppe einen vollständigen Satz von 1 primären Front-End-Servern und 2 sekundären Front-End-Servern aufweisen muss. Server aufgelistet.
+Installieren Sie die lync Server 2013, Resource Kit-Tools. Das Tool wird auf Domänen verbundenen Computern ausgeführt, auf denen lync Server und lync Server 2013-Verwaltungsshell installiert sind. Das Tool verwendet ein Cmdlet aus der Verwaltungsshell, um alle Front-End-Server im Pool zu identifizieren. Zweitens muss das Tool von einem Computer im Pool ausgeführt werden, auf dem die **RtcLocal** -Datenbank installiert ist. Diese Datenbank wird vom CleanupStorageServiceData-Tool verwendet, um die Verbindungsdetails abzurufen, die für die Kommunikation mit dem lync Server-Routing Dienst erforderlich sind. Schließlich muss das Konto oder die Anmeldeinformationen, die das Tool aufrufen, über Lese-/Schreibzugriff auf die Dateifreigabe verfügen, für die Sie das Ausgabeprotokoll schreiben möchten. Dieses Tool hängt auch davon ab, dass sich der Pool in einem stabilen Zustand befindet. Im Wesentlichen bedeutet dies, dass jeder Front-End-Server ausgeführt werden soll, dass die SQL Server LYNCLOCAL-Instanz und die LYSS-Datenbank eine Verbindung herstellen können, und jede Routinggruppe einen vollständigen Satz von 1 primären Front-End-Servern und 2 sekundären Front-End-Servern aufweisen muss. Server aufgelistet.
 
 </div>
 
@@ -780,7 +782,7 @@ C:\\Programmdateien\\Microsoft lync Server 2013\\reskit\\StorageService\> Import
 
 Dbanalyze ist ein Befehlszeilentool, das Administratoren hilft, Analyseberichte zu den lync Server 2013-Datenbanken zu sammeln. DBAnalyze verfügt über folgende Modi: Diagnose, Benutzerdaten, Konferenz, MCUs und Datenträgerfragmentierung:
 
-  - **Im Diagnosemodus**   wird ein Bericht erstellt, der Informationen zu Tabellen (Anzahl der Datensätze, Fragmentierung, Datengröße und Indexgröße), Daten-und Protokolldateigrößen, die letzte Sicherungszeit, die Kontaktverteilung zwischen Servern, auf denen Microsoft ausgeführt wird, enthält. Office Communications Server, die durchschnittliche Anzahl von Berechtigungen, Kontakten, Containern, Abonnements, Publikationen, Endpunkten pro Benutzer, nicht ordnungsgemäß vernetzte Benutzer, Benutzer, die nicht weitergeleitet werden können, die durchschnittliche Anzahl der pro Benutzer organisierten Konferenzen, geplant Konferenzen, aktive Konferenzen und die Datenbankversion.
+  - **Im Diagnosemodus**   wird ein Bericht erstellt, der Informationen zu Tabellen enthält (Anzahl der Datensätze; Fragmentierung, Datengröße und Indexgröße), Daten-und Protokolldateigrößen, die letzte Sicherungszeit, Kontaktverteilung zwischen Servern, auf denen Microsoft Office Communications Server ausgeführt wird, die durchschnittliche Anzahl von Berechtigungen, Kontakten, Containern, Abonnements, Veröffentlichungen, Endpunkte pro Benutzer, nicht ordnungsgemäß vernetzte Benutzer, Benutzer, die nicht weitergeleitet werden können, die durchschnittliche Anzahl der pro Konferenzen, aktive Konferenzen und die Datenbankversion.
     
     <div>
     
@@ -791,9 +793,9 @@ Dbanalyze ist ein Befehlszeilentool, das Administratoren hilft, Analyseberichte 
     
     </div>
 
-  - **Benutzerdaten Modus**  Meldet Kontakt-, Container-, Abonnement-, Veröffentlichungs-, Genehmigungs-und Kontaktgruppen Daten für einen bestimmten Benutzer oder für Benutzer, die diesen Benutzer in seinen Kontakt-und Berechtigungslisten haben. Dieser Modus berichtet außerdem Zusammenfassungsdaten für Konferenzen, die von einem Benutzer organisiert werden oder zu denen er eingeladen ist.
+  - Der **Benutzerdaten Modus**  meldet Kontakt-, Container-, Abonnement-, Veröffentlichungs-, Genehmigungs-und Kontaktgruppen Daten für einen bestimmten Benutzer oder für Benutzer, die diesen Benutzer in seinen Kontakt-und Berechtigungslisten haben. Dieser Modus berichtet außerdem Zusammenfassungsdaten für Konferenzen, die von einem Benutzer organisiert werden oder zu denen er eingeladen ist.
 
-  - **Im Konferenzmodus**   werden detaillierte Daten für eine bestimmte Konferenz gemeldet, einschließlich aller Details zur Terminplanung für die Konferenz, der Liste der eingeladenen Personen, der Liste der für die Konferenz zulässigen Medientypen, der aktiven MCU (Multipoint Control Units), der aktiven Teilnehmerliste und den Signalisierungs Status jedes Teilnehmers.
+  - **Der Konferenzmodus**   meldet detaillierte Daten für eine bestimmte Konferenz, einschließlich aller Details zur Terminplanung für die Konferenz, der Liste der eingeladenen Personen, der Liste der für die Konferenz zulässigen Medientypen, der aktiven MCU (Multipoint Control Units), der aktiven Teilnehmerliste und des Signalisierungs Status jedes Teilnehmers.
 
   - **Decodieren der Besprechungs-ID**  dekodiert eine vom **/pstnid** -Schalter angegebene PSTN-Besprechungs-ID (Public Switched Telephone Network), die jedoch nicht mit dem Back-End verbunden ist, um detaillierte Informationen zu erhalten.
 
@@ -821,7 +823,7 @@ Dieses Tool gibt vordefinierte Berichte zur lync Server 2013-Datenbank aus. **Pf
 
 Wenn Sie Dbanalyze. exe installieren möchten, kopieren Sie Sie in einen lokalen Ordner, und führen Sie dann das Tool aus. Führen Sie den folgenden Befehl in der Befehlszeile aus, um das Tool zu verwenden.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` Die Beschreibungen für die Befehlszeilenoptionen sind unten dargestellt.
 
-![Befehlszeilenoptionen für "Dbanalyze. exe".] (images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Befehlszeilenoptionen für \"Dbanalyze. exe\".")
+![Befehlszeilenoptionen für "Dbanalyze. exe".](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Befehlszeilenoptionen für "Dbanalyze. exe".")
 
 </div>
 
@@ -837,7 +839,7 @@ Wenn Sie Dbanalyze. exe installieren möchten, kopieren Sie Sie in einen lokalen
 
 **Benutzer** In der folgenden Tabelle sind die Administratoren aufgeführt, die über die erforderlichen Berechtigungen für den Zugriff auf lync Server 2013-Datenbanken verfügen.
 
-![Berechtigungstabelle für "Dbanalyze. exe".] (images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Berechtigungstabelle für \"Dbanalyze. exe\".")
+![Berechtigungstabelle für "Dbanalyze. exe".](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Berechtigungstabelle für "Dbanalyze. exe".")
 
 <div>
 
@@ -896,7 +898,7 @@ Wenn für die Online Dienstversion die Statusüberwachung SCOM Pack für lync Se
 
 Dieses Tool erhöht die Auslastung von CPU und E/A-Vorgängen auf dem Front-End-Server, auf dem es ausgeführt wird, sowie auf anderen Front-End-Servern, wenn der Front-End-Server, auf dem das Tool ausgeführt wird, nicht Besitzer der Daten ist. Wir empfehlen die Ausführung dieses Tools, wenn die Auslastung von CPU und E/A-Vorgängen auf den Front-End-Servern niedrig ist, beispielsweise außerhalb der Spitzenzeiten. Darüber hinaus kann dieses Tool zwei bis drei Minuten für den Import einer Datendatei benötigen. Beachten Sie Folgendes, wenn Sie schätzen, wie lange das Tool ausgeführt wird. Die vom Tool generierte ausführliche Protokolldatei wird standardmäßig im Dateispeicher angezeigt. Löschen Sie sie, wenn darin keine Fehler gemeldet werden, da die Protokolldatei mehrere 10 MB übersteigen kann.
 
-![Beispiel Ereignisse für das Speicher Server-Ereignisprotokoll.] (images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "Beispiel Ereignisse für das Speicher Server-Ereignisprotokoll.")
+![Beispiel Ereignisse für das Speicher Server-Ereignisprotokoll.](images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "Beispiel Ereignisse für das Speicher Server-Ereignisprotokoll.")
 
 </div>
 
@@ -1179,13 +1181,13 @@ C:\\Programmdateien\\Microsoft lync Server 2013\\reskit\>LookupUserConsole. exe
 
 ## <a name="msturnping"></a>MsTurnPing
 
-Mit dem MSTurnPing-Tool kann ein Administrator der Microsoft lync Server 2013-Kommunikationssoftware den Status der Server überprüfen, auf denen die Audio/Video-Edge-und Audio/Video-Authentifizierungsdienste ausgeführt werden, sowie die Server, auf denen Bandbreitenrichtlinien ausgeführt werden. Dienste in der Topologie.
+Das MSTurnPing-Tool ermöglicht einem Administrator der Microsoft lync Server 2013-Kommunikationssoftware, den Status der Server zu überprüfen, auf denen die Audio/Video-Edge-und Audio/Video-Authentifizierungsdienste ausgeführt werden, sowie die Server, auf denen Bandbreitenrichtlinien Dienste in der Topologie ausgeführt werden.
 
 <div>
 
 ## <a name="description"></a>Beschreibung
 
-Das MSTurnPing-Tool ermöglicht einem Administrator der lync Server 2013-Kommunikationssoftware, den Status der Server zu überprüfen, auf denen die Audio/Video-Edge-und Audio/Video-Authentifizierungsdienste ausgeführt werden, sowie die Server, auf denen Bandbreitenrichtlinien Dienste ausgeführt werden, im Topologie.
+Das MSTurnPing-Tool ermöglicht einem Administrator der lync Server 2013-Kommunikationssoftware, den Status der Server zu überprüfen, auf denen die Audio/Video-Edge-und Audio/Video-Authentifizierungsdienste ausgeführt werden, sowie die Server, auf denen Bandbreitenrichtlinien Dienste in der Topologie ausgeführt werden.
 
 Mit dem Tool können Administratoren die folgenden Tests durchführen:
 
@@ -1301,35 +1303,35 @@ Anzeigen der Verbindungen in der CAC-Netzwerktopologie des Unternehmens auf eine
 
 **Laden und Anzeigen der CAC-Netzwerktopologie aus einer lync Server 2013-Bereitstellung in einem grafischen Format:** Lync Server 2013-Administratoren können die Konfiguration der CAC-Netzwerktopologie auf jedem lync Server 2013-Computer mithilfe der Option **Netzwerkkonfiguration herunterladen** wie in der folgenden Abbildung gezeigt laden und anzeigen. Bei der Bereitstellung auf einem Computer, der keine Verbindung zum lync-Konfigurationsspeicher hat, kann das Tool keine derartige Konfiguration herunterladen oder anzeigen.
 
-![Herunterladen der Netzwerkkonfiguration.] (images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "Herunterladen der Netzwerkkonfiguration.")
+![Herunterladen der Netzwerkkonfiguration.](images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "Herunterladen der Netzwerkkonfiguration.")
 
 **Laden und Anzeigen der CAC-Netzwerktopologie aus einer Bandbreitenrichtlinien Server-Protokolldatei in einem grafischen Format:** Lync Server 2013-Bandbreitenrichtlinien Server speichern die CAC-Netzwerktopologie als Teil des Protokollierungsmechanismus unter dem Dateifreigabespeicherort von lync Server 2013. Lync Server-Administratoren können eine solche Datei in einem grafischen Format anzeigen, indem Sie die Option **Netzwerkkonfiguration öffnen** verwenden, wie unten dargestellt.
 
-![Öffnen einer Protokolldatei für den Bandbreitenrichtlinien Server] (images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "Öffnen einer Protokolldatei für den Bandbreitenrichtlinien Server")
+![Öffnen einer Protokolldatei für den Bandbreitenrichtlinien Server](images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "Öffnen einer Protokolldatei für den Bandbreitenrichtlinien Server")
 
 Speichern und speichern Sie die CAC-Netzwerktopologie in einem XML-Format auf dem Datenträger: lync Server 2013-Administratoren können die Konfigurationsdatei der CAC-Netzwerktopologie in einem XML-Format speichern, indem Sie die Option **Kopie der Netzwerkkonfiguration speichern** verwenden, wie unten dargestellt. Die gespeicherte Konfigurationsdatei kann dann offline als Grafik angezeigt werden.
 
-![Speichern Sie die Netzwerkkonfiguration als XML-Datei.] (images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "Speichern Sie die Netzwerkkonfiguration als XML-Datei.")
+![Speichern Sie die Netzwerkkonfiguration als XML-Datei.](images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "Speichern Sie die Netzwerkkonfiguration als XML-Datei.")
 
-Speichern und Speichern der CAC-Netzwerktopologie im JPG-oder BMP-Format: lync Server 2013-Administratoren können die Konfiguration der CAC-Netzwerktopologie in einem grafischen Format (JPG-und BMP-Dateiformate) speichern, indem Sie das **Diagramm "Netzwerkkonfiguration speichern als Bild** " verwenden. (siehe unten).
+Speichern und Speichern von CAC-Netzwerktopologie-Diagrammen im JPG-oder BMP-Format: lync Server 2013-Administratoren können die Konfiguration der CAC-Netzwerktopologie in einem grafischen Format (JPG-und BMP-Dateiformate) speichern, indem Sie die Option **Netzwerk Konfigurations Diagramm als Bild speichern** verwenden, wie unten dargestellt.
 
-![Speichern der Netzwerkkonfiguration als Bild] (images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Speichern der Netzwerkkonfiguration als Bild")
+![Speichern der Netzwerkkonfiguration als Bild](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Speichern der Netzwerkkonfiguration als Bild")
 
 **Anzeigen der Konfigurationsdaten der CAC-Netzwerktopologie:** Lync Server 2013-Administratoren können verwandte Netzwerkkonfigurationsdaten wie netzwerkregionen, Netzwerk Websites, Bandbreiten Profile und IP-Adressen von Standort-Subnetzen in einem Text Format anzeigen, indem Sie die Option Netzwerkkonfigurationsdaten anzeigen verwenden, wie unten dargestellt.
 
-![Anzeigen von Netzwerkkonfigurationsdaten] (images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Anzeigen von Netzwerkkonfigurationsdaten")
+![Anzeigen von Netzwerkkonfigurationsdaten](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Anzeigen von Netzwerkkonfigurationsdaten")
 
 **Anzeigen der CAC-Netzwerktopologie in einer Struktur Ansichtsformatvorlage:** Lync Server 2013-Administratoren können verwandte Netzwerkkonfigurationsdaten in einem grafischen Struktur Ansichtsformat anzeigen, indem Sie die Systemsteuerung auf der linken Seite des Toolfensters verwenden, wie unten dargestellt.
 
-![Anzeigen von Netzwerkkonfigurationsdaten in einer Strukturansicht] (images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "Anzeigen von Netzwerkkonfigurationsdaten in einer Strukturansicht")
+![Anzeigen von Netzwerkkonfigurationsdaten in einer Strukturansicht](images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "Anzeigen von Netzwerkkonfigurationsdaten in einer Strukturansicht")
 
 **Definieren von benutzerdefinierten Connectors für CAC-Netzwerktopologie-Links (wie Website-zu-Region-, Region-zu-Region-und Standort-zu-Standort-Links):** Lync Server 2013-Administratoren können benutzerdefinierte grafische Connectors für CAC-Netzwerkkonfigurations-WAN-Links definieren, indem Sie die Option Einstellungen verwenden, wie unten dargestellt. Dies erleichtert die Unterscheidung zwischen verschiedenen Netzwerkverbindungstypen, die in der Netzwerkkonfiguration bereitgestellt sind.
 
-![Definieren von benutzerdefinierten Connectors für die CAC-Netzwerktopologie] (images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "Definieren von benutzerdefinierten Connectors für die CAC-Netzwerktopologie")
+![Definieren von benutzerdefinierten Connectors für die CAC-Netzwerktopologie](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "Definieren von benutzerdefinierten Connectors für die CAC-Netzwerktopologie")
 
 **Anzeigen der Informationen zur CAC-Netzwerktopologie, der Regionsinformationen und der bereitgestellten Bandbreitenrichtlinien:** Lync Server 2013-Administratoren können verwandte CAC-Netzwerk Regionsinformationen, Website Informationen und Informationen zur Bereitstellung von CAC-Bandbreiten mithilfe der nachstehend aufgeführten Optionen anzeigen. (Klicken Sie beispielsweise in einer Netzwerkregion oder einem Netzwerkstandortobjekt auf **Info**.)
 
-![Definieren von benutzerdefinierten Connectors für Ihr Netzwerk] (images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "Definieren von benutzerdefinierten Connectors für Ihr Netzwerk")
+![Definieren von benutzerdefinierten Connectors für Ihr Netzwerk](images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "Definieren von benutzerdefinierten Connectors für Ihr Netzwerk")
 
 </div>
 
@@ -1371,7 +1373,7 @@ Das Live Tool für Reaktionsgruppen-Agents basiert auf dem Reaktionsgruppendiens
 
 Die Abbildung unten zeigt die Hauptoberfläche von Response Group Agent Live.
 
-![Das Live Tool für Reaktionsgruppen-Agents] (images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "Das Live Tool für Reaktionsgruppen-Agents")
+![Das Live Tool für Reaktionsgruppen-Agents](images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "Das Live Tool für Reaktionsgruppen-Agents")
 
 Folgende drei Hauptfeatures stehen Agents in Response Group Agent Live zur Verfügung:
 
@@ -1405,7 +1407,7 @@ Response Group Agent Live kann mithilfe des Dialogfelds „Options“ in der Anw
 
 Die Abbildung unten zeigt das Dialogfeld „Options“, in dem Agents die Hostadresse und Tastenkombinationen konfigurieren können. Auf dieses Dialogfeld können Sie zugreifen, indem Sie auf der Hauptbenutzeroberfläche rechts oben auf die Schaltfläche „Options“ klicken.
 
-![Das Dialogfeld "Live Optionen" des Reaktionsgruppen-Agents] (images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "Das Dialogfeld \"Live Optionen\" des Reaktionsgruppen-Agents")
+![Das Dialogfeld "Live Optionen" des Reaktionsgruppen-Agents](images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "Das Dialogfeld "Live Optionen" des Reaktionsgruppen-Agents")
 
 Folgende drei unterschiedliche Einstellungen können in der Konfiguration von Response Group Agent Live angepasst werden:
 
@@ -1425,11 +1427,11 @@ Folgende drei unterschiedliche Einstellungen können in der Konfiguration von Re
 
 Die Abbildung unten zeigt, wie Sie andere Agents anrufen oder ihnen eine Chatnachricht senden, indem Sie mit der rechten Maustaste im rechten Bereich auf den Kontakt klicken.
 
-![Tätigen eines Anrufs oder Senden einer Chatnachricht] (images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "Tätigen eines Anrufs oder Senden einer Chatnachricht")
+![Tätigen eines Anrufs oder Senden einer Chatnachricht](images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "Tätigen eines Anrufs oder Senden einer Chatnachricht")
 
 Die Abbildung unten zeigt, wie Response Group Agent Live die aktuelle Anzahl der Anrufe in der Warteschleife sowie die längste Wartezeit all dieser eingehenden Anrufe anzeigt.
 
-![Anzeigen von Warteschlangeninformationen] (images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "Anzeigen von Warteschlangeninformationen")
+![Anzeigen von Warteschlangeninformationen](images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "Anzeigen von Warteschlangeninformationen")
 
 </div>
 
@@ -1602,7 +1604,7 @@ Der folgende Befehl zeigt die Anrufbehandlung für den entsprechenden Benutzer a
 
 
 > [!NOTE]  
-> In diesem Beispiel wird <STRONG></STRONG> der Server-Schalter verwendet, um den lync-Server anzugeben, mit dem eine Verbindung hergestellt werden soll.
+> In diesem Beispiel wird der Server-Schalter verwendet, um den lync-Server anzugeben, <STRONG>mit dem eine</STRONG> Verbindung hergestellt werden soll.
 
 
 
@@ -2110,7 +2112,7 @@ Wenn die Ausführung des Vorgangs durch einen Fehler unterbrochen wird, verbleib
 
 Das Unassigned Number Announcements Migration-Skript kann in den drei folgenden Szenarien eingesetzt werden:
 
-  - **Migrieren von Konfigurationseinstellungen zu einer neuen Version von lync Server:** Contoso ist dabei, zu lync Server 2013 zu migrieren, und im Rahmen des Migrationsprozesses möchte der lync Server-Administrator die nicht zugewiesene Nummern Konfiguration, die von der Ankündigungs Anwendung gewartet wird, von der lync Server 2010-Bereitstellung auf die neue lync Server 2013-Bereitstellung. Um die Konfigurationseinstellungen zu verschieben, verwendet der lync Server-Administrator das Migrationstool für nicht zugewiesene Nummern Ankündigungen.
+  - **Migrieren von Konfigurationseinstellungen zu einer neuen Version von lync Server:** Contoso ist dabei, zu lync Server 2013 zu migrieren, und im Rahmen des Migrationsprozesses möchte der lync Server-Administrator die nicht zugewiesene Nummern Konfiguration, die von der Ankündigungs Anwendung gewartet wird, von der lync Server 2010-Bereitstellung auf die neue lync Server 2013-Bereitstellung verschieben. Um die Konfigurationseinstellungen zu verschieben, verwendet der lync Server-Administrator das Migrationstool für nicht zugewiesene Nummern Ankündigungen.
 
   - Rollback **einer Bereitstellung von lync Server 2013 auf lync Server 2010:** Aufgrund unerwarteter Faktoren muss Contoso die Migration auf die neue lync Server 2013-Bereitstellung zurücksetzen. Um die Unterbrechungen des Diensts zu minimieren, verwendet der lync Server-Administrator das Migrationstool "nicht zugewiesene Nummern Ankündigungen", um die Konfiguration von der lync Server 2013-Bereitstellung auf die lync Server 2010-Bereitstellung zurückzusetzen.
 
@@ -2132,7 +2134,7 @@ Hier sind die Hauptanforderungen für eine erfolgreiche Ausführung des Tools:
 
 Das Skript „Move-CsAnnouncementConfiguration“ erfordert die in der Tabelle unten beschriebenen zwei Parameter. 
 
-![Move-CsAnnouncementConfiguration-Parameter.] (images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Move-CsAnnouncementConfiguration-Parameter.")
+![Move-CsAnnouncementConfiguration-Parameter.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Move-CsAnnouncementConfiguration-Parameter.")
 
 </div>
 
@@ -2232,7 +2234,7 @@ Das Tool muss mit Administratorrechten und mit Zugriff auf den Inhaltsdateispeic
 
 In der folgenden Tabelle werden die Parameter beschrieben, die zum Teil in den Beispielen verwendet werden.
 
-![Parameter des Web conf-Datentools.] (images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Parameter des Web conf-Datentools.")
+![Parameter des Web conf-Datentools.](images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Parameter des Web conf-Datentools.")
 
     WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 

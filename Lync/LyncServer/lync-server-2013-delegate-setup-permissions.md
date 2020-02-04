@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delegieren von Setupberechtigungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegate setup permissions
 ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7df00740ac971fd56e289da04ca43abb1619329
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 245fa0cb3bb5393f1d0f09a3f3b9c10176c015ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34832662"
 
 _**Letztes Änderungsdatum des Themas:** 2014-02-05_
 
-Wenn Sie Benutzern oder Gruppen, die lync Server 2013 bereitstellen, keine Mitgliedschaft in der Gruppe der Domänenadministratoren gewähren möchten, können Sie Mitgliedern der RTCUniversalServerAdmins-Gruppe das Ausführen des Windows PowerShell **-Cmdlets Enable-CsTopology** ermöglichen. Server mit lync Server 2013 Standardmäßig verfügen Mitglieder der RTCUniversalServerAdmins-Gruppe nicht über die Möglichkeit zum Ausführen dieses Cmdlets. Sie erteilen Administratorrechte und Berechtigungen zum Ausführen von **enable-CsTopology** auf Servern mit lync Server mithilfe des Cmdlets **Grant-CsSetupPermission** und Angeben einer Organisationseinheit, in der Computerobjekte für den Server ausgeführt werden. Lync Server 2013 befindet sich.
+Wenn Sie Benutzern oder Gruppen, die lync Server 2013 bereitstellen, keine Mitgliedschaft in der Gruppe der Domänenadministratoren gewähren möchten, können Sie Mitgliedern der RTCUniversalServerAdmins-Gruppe das Ausführen des Windows PowerShell **-Cmdlets Enable-CsTopology** auf Servern mit lync Server 2013 ermöglichen. Standardmäßig verfügen Mitglieder der RTCUniversalServerAdmins-Gruppe nicht über die Möglichkeit zum Ausführen dieses Cmdlets. Sie erteilen Administratorrechte und Berechtigungen zum Ausführen von **enable-CsTopology** auf Servern mit lync Server mithilfe des Cmdlets **Grant-CsSetupPermission** und Angeben einer Organisationseinheit, in der Computerobjekte für den Server mit lync Server 2013 gespeichert sind.
 
 Bei der Domänenvorbereitung, die bei der Installation von lync Server erfolgt, werden nicht automatisch die Berechtigungen hinzugefügt, mit denen Mitglieder der RTCUniversalServerAdmins-Gruppe das Cmdlet Enable-CsTopology ausführen können. Das bedeutet, dass Sie standardmäßig ein Domänenadministrator sein müssen, um eine Topologie zu aktivieren. Um Mitgliedern der RTCUniversalServerAdmins-Gruppe das Recht zu geben, eine Topologie zu aktivieren, müssen Sie das Grant-CsSetupPermissions-Cmdlet ausführen. Darüber hinaus müssen Sie dieses Cmdlet für jeden Active Directory-Container ausführen, auf dem Computer mit lync Server ausgeführt werden.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation für d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organizations's requirements for monitoring
 ms:assetid: d587ff04-9af6-4ac1-ad42-076e7a40ac75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205284(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a81f83cddca46a50f84fb20785a59b20a3db78
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 102735e7a8149edcb858b30644197553f5392c1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832681"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Bei der Planung Ihrer Überwachungsinfrastruktur sollten Sie auch berücksichtig
 
 Dies spielt eine wichtige Rolle für die Planung, da Sie für die Spiegelung die erforderliche Anzahl von Datenbanken verdoppeln müssen. Denn zusätzlich zu jeder primären Datenbank benötigen Sie eine zweite Datenbank als Spiegeldatenbank.
 
-**Benötigen Ihre lync Server-Websites eigene benutzerdefinierte Überwachungskonfigurationen?** Wenn Sie lync Server 2013 installieren, installieren Sie auch globale Sammlungen mit CDR-und QoE-Konfigurationseinstellungen. Diese globalen Auflistungen bieten Ihnen die Möglichkeit, die gleichen CDR-und QoE-Einstellungen auf Ihre gesamte Organisation anzuwenden. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
+**Benötigen Ihre lync Server-Websites eigene benutzerdefinierte Überwachungskonfigurationen?** Wenn Sie lync Server 2013 installieren, installieren Sie auch globale Sammlungen mit CDR-und QoE-Konfigurationseinstellungen. Diese globalen Auflistungen bieten Ihnen die Möglichkeit, die gleichen CDR-und QoE-Einstellungen auf Ihre gesamte Organisation anzuwenden. In vielen Fällen wird dies ausreichen: oftmals möchten Sie beispielsweise, dass die CDR-Überwachung für alle Benutzer aktiviert ist.
 
 Es kann aber auch vorkommen, dass Sie unterschiedliche Einstellungen auf verschiedene Websites anwenden möchten. Vielleicht möchten Sie beispielsweise die CDR-und QoE-Überwachung auf Ihrer Website in Redmond verwenden, aber nur die CDR-Überwachung in Ihrer Dublin-Website verwenden. Ebenso möchten Sie möglicherweise Überwachungsdaten für 60 Tage auf der Website "Redmond" beibehalten, müssen aber nur diese Art von Daten 30 Tage lang auf der Website von Dublin verwalten. Mit lync Server 2013 können Sie separate Sammlungen von CDR-und QoE-Konfigurationseinstellungen im Website Bereich erstellen. Damit können Sie jede Website unterschiedlich verwalten. (Dazu gehören sowohl das Aktivieren und Deaktivieren der Überwachung als auch das Konfigurieren von Verwaltungseinstellungen, wie beispielsweise die Aufbewahrungsdauer von Daten.)
 

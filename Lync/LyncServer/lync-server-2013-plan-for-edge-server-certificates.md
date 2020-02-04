@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planen von Edgeserver-Zertifikaten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825156"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die Zertifikaterstellung für Edge wird in lync Server 2013 vereinfacht.
 
 **Flussdiagramm für Zertifikate für Edgeserver**
 
-![a5fc20db-7ced-4364-b577-6a709a8367cd] (images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
+![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
 Erstellen Sie ein einzelnes öffentliches Zertifikat, stellen Sie sicher, dass für das Zertifikat ein exportierbarer privater Schlüssel definiert ist, und weisen Sie ihn mithilfe des Zertifikat-Assistenten den folgenden Edge-Server-externen Schnittstellen zu:
 
@@ -89,7 +91,7 @@ Erstellen Sie ein einzelnes internes Zertifikat mit exportier barem privaten Sch
 
 
 > [!IMPORTANT]  
-> Es ist möglich, getrennte und unterschiedliche Zertifikate für jeden Edgeserver-Dienst zu verwenden. Ein guter Grund, getrennte Zertifikate zu wählen, ist, wenn Sie das neue Feature für das parallele Zertifikat für das A/V-Edgedienst Zertifikat verwenden möchten. Im Fall dieser Funktion empfiehlt es sich, das A/V-Edgedienst-Zertifikat vom Edgedienst für den Access-Edgedienst und dem Webkonferenz-Edgedienst zu entkoppeln. Wenn Sie sich entscheiden, für jeden Dienst separate Zertifikate anzufordern, zu erwerben und zuzuweisen, müssen Sie anfordern, dass der private Schlüssel für den a/v-Edgedienst exportierbar ist (Dies ist wiederum der a/v-Authentifizierungsdienst), und weisen Sie dem a/v-Dienst dasselbe Zertifikat zu. Edge-externe Schnittstelle auf jedem Edgeserver
+> Es ist möglich, getrennte und unterschiedliche Zertifikate für jeden Edgeserver-Dienst zu verwenden. Ein guter Grund, getrennte Zertifikate zu wählen, ist, wenn Sie das neue Feature für das parallele Zertifikat für das A/V-Edgedienst Zertifikat verwenden möchten. Im Fall dieser Funktion empfiehlt es sich, das A/V-Edgedienst-Zertifikat vom Edgedienst für den Access-Edgedienst und dem Webkonferenz-Edgedienst zu entkoppeln. Wenn Sie sich entscheiden, für jeden Dienst separate Zertifikate anzufordern, zu erwerben und zuzuweisen, müssen Sie anfordern, dass der private Schlüssel für den a/v-Edgedienst exportierbar ist (Dies ist wiederum der a/v-Authentifizierungsdienst), und weisen Sie dem a/v-Edge-externen Interface auf jedem Edgeserver dasselbe Zertifikat zu.
 
 
 

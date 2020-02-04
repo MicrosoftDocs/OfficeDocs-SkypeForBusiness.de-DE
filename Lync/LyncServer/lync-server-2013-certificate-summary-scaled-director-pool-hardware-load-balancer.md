@@ -3,6 +3,8 @@ title: Zertifikatzusammenfassung für einen skalierten Directorpool (Hardwarelas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Scaled Director pool, hardware load balancer
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b1688641d09e00c82ea952d57bd2a9547ac0dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: efcecbd1ec0c486e888a8c7303e450f75abf05bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839626"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Die Zertifikatanforderungen für einen Director mit einem Hardware Lastenausglei
 <td><p>dirpool01.contoso.net</p>
 <p>dir01.contoso.net</p>
 <p>dialin.contoso.com</p>
-<p>Meet.contoso.com</p>
+<p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>(Optional) *. contoso.com</p></td>
