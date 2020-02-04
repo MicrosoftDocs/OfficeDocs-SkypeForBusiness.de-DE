@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: 'Erfahren Sie, was Sie in Skype for Business Admin Center und anderen Features nutzen können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411569"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692730"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 

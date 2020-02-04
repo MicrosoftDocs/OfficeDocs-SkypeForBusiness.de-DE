@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie die Active Directory-Domänendienst-Gesamtstruktur vorbereiten möchten, müssen Sie das Schema erfolgreich erweitern, wie im Thema Ausführen der Schemavorbereitung beschrieben, und sicherstellen, dass das Schema repliziert wurde.
-ms.openlocfilehash: 810bfae1fd308ef943f41846a8baef774f4f724e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c472588dc67ef0e8bc86afb86bcad200df307f0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303397"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691810"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 
@@ -35,7 +35,7 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie mit **Schritt 3: Aktuel
 
 3. Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen** und klicken Sie dann auf **Protokoll anzeigen**. Vergewissern Sie sich, dass keine Fehler vorliegen. Überprüfen Sie die Warnungen dahingehend, ob sie erwartet werden und für Ihre Infrastruktur typisch sind.
 
-4. Erweitern Sie in der Spalte **Aktion** im Protokoll die **Gesamtstruktur**Vorbereitung, suchen Sie am Ende jeder Aufgabe nach einem ** \<\> ** Ergebnis der erfolgreichen Ausführung, um zu überprüfen, ob die Gesamtstrukturvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen. **.
+4. Erweitern Sie in der Spalte **Aktion** im Protokoll die Ansicht **Gesamtstruktur**Vorbereitung, suchen Sie am Ende jeder Aufgabe nach einem ** \<\> ** Ergebnis der erfolgreichen Ausführung, um zu überprüfen, ob die Gesamtstrukturvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
 
 5. Warten Sie, bis die Active Directory-Domänendienst Replikation abgeschlossen ist, oder erzwingen Sie die Replikation auf alle Domänencontroller, die im Snap-in **Active Directory-Standorte und-Dienste** für den Gesamtstruktur-Stammdomänencontroller aufgelistet sind, bevor Sie die Domänenvorbereitung ausführen. Erzwingen Sie die Replikation zwischen den Domänencontrollern an allen Active Directory-Standorten, damit die Replikation innerhalb der Websites innerhalb weniger Minuten erfolgen kann.
 

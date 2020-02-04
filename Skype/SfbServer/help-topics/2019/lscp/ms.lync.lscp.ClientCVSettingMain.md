@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Neben der Angabe der Version der Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, was Ihnen helfen kann, die Kosten zu kontrollieren, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
-ms.openlocfilehash: 8234d1463c207361f3336a695fea1110a598e2c2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300493"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691570"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 

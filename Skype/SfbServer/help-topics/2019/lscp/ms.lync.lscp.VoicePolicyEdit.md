@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoicePolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 07a4da90bb5ac6f0fbc6b329ba8b6b420f1546c3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c7a1637c97ffb279140e2d506a20d1e065d2a9a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288374"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690144"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>VoIP-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Richtlinie
 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:'
-ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c387095f40078246a1391af5968925a7b28caf2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291978"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691140"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Archivierungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungskonfiguration
  
@@ -54,7 +54,7 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
 - **Blockieren von Sofortnachrichten (im) oder Webkonferenz Sitzungen, wenn die Archivierung fehlschlägt** Zu den Fehlern gehören die folgenden:
     
-  - **** Bei einem Fehler kann es sich um eine vollständige Datenbank oder um ein Problem mit dem Speicherdienst handeln. In diesem Fall ist der Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
+  - Bei einem Fehler kann es sich um eine vollständige Datenbank oder **um ein Problem** mit dem Speicherdienst handeln. In diesem Fall ist der Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
     
   - **Konferenzen** Bei einem Fehler kann es sich um eine nicht verfügbare Dateifreigabe oder um ein Problem mit dem Speicherdienst handeln. In diesem Fall werden aktive Konferenzen, die beim Auftreten des Fehlers im Pool gehostet werden, in den eingeschränkten Modus umgeschaltet und neue Konferenzen können nicht aktiviert werden.
     
@@ -71,5 +71,5 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     > [!NOTE]
     > Wenn Sie die Microsoft Exchange-Integration aktivieren, wird das Bereinigen für Benutzer, die sich in Exchange befinden, und deren Postfächer, die in-situ-Speicher platziert werden, von Exchange gesteuert. Die einzige Ausnahme ist für Konferenz Dateien, die auf der lync Server-Dateifreigabe gespeichert sind. Diese Dateien werden von der Dateifreigabe nur bereinigt, nachdem die Dateien exportiert (in Exchange hochgeladen) wurden, wenn Sie die Option zum Löschen von Daten nach dem Exportieren der Archivierungsdaten oder nach der angegebenen maximalen Anzahl von Tagen auswählen, wenn Sie eine maximale Anzahl von Tagen angeben. Tage für die Aufbewahrung. 
   
-Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype](../../../plan-your-deployment/archiving/archiving.md)for Business Server, [Bereitstellen der Archivierung für Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype for Business. Server](../../../manage/archiving/archiving.md)aus.
+Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Bereitstellen der Archivierung für Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype for Business Server](../../../manage/archiving/archiving.md).
 

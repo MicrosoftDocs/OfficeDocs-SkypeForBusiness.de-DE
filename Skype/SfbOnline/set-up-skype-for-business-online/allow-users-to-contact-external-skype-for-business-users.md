@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,16 +26,14 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
-description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Informieren Sie sich, wie Sie Skype for Business so konfigurieren können, dass Benutzer mit Benutzern in einer anderen Organisation sprechen können, oder außerhalb von Kontakten mit Ihnen kommunizieren. '
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792684"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692940"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 
@@ -64,7 +65,7 @@ Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/ar
  ![aus, und wählen Sie das SFB Legacy-Portal aus.](../images/SFBlegacy-size65.png)
  
 4. Wählen Sie im **Skype for Business Admin Center** die Option **Organisation** > **External Communications**aus.
-5. Um die Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne einzurichten, wählen Sie im Dropdownfeld **nur für zulässige Domänen**aktivieren aus.
+5. Um die Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne einzurichten, wählen Sie im Dropdownfeld **Nur für zulässige Domänen aktivieren**.
     
     ODER wählen Sie, wenn Sie die Kommunikation mit allen anderen Unternehmen aktivieren möchten, die über offene Skype for Business-Richtlinien verfügen, die Option **Aktivieren mit Ausnahme der blockierten Domänen** aus. Dies ist die Standardeinstellung.
     

@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Hier erfahren Sie, wie Sie Personen, die Skype for Business nutzen, Skype for Business-Benutzer von außerhalb Ihrer Organisation kontaktieren und diese Ihrer Kontaktliste hinzufügen. '
+ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792143"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692880"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
@@ -32,7 +33,7 @@ Mit Skype for Business können Ihre Benutzer nach beliebigen Benutzern von Skype
   
 Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365, um dies zu tun.
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
   
 1. Melden Sie sich mit Ihrem Office 365-Administratorkonto bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
     
@@ -40,11 +41,11 @@ Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/ar
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation** > **External Communications**aus. 
+3. Wählen Sie unter **Skype for Business Admin Center** die Option **Organisation** > **Externe Kommunikation** aus. 
     
 4. Standardmäßig können Ihre Benutzer mit allen anderen Personen weltweit kommunizieren, die Skype for Business verwenden (vorausgesetzt, Ihre Firewall ist so konfiguriert, dass sie dies zulässt). 
     
-    ![Choose Let people use Skype for Business to communicate with Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![Wählen Sie zulassen, dass Personen Skype for Business für die Kommunikation mit Skype verwenden.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     Wenn Sie möchten, dass Ihre Benutzer mit Skype-Benutzern chatten, ABER nicht mit anderen, die Skype for Business verwenden, wählen Sie **Nur für zulässige Domänen aktivieren** aus. Wenn Sie den Kontakt mit Skype-Benutzern ermöglichen, wird „skype.com" automatisch im Hintergrund als zulässige Domäne hinzugefügt. 
     
@@ -68,7 +69,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
     
 2. Melden Sie sich bei Skype for Business ab und dann wieder an, damit Sie die Option zum Durchsuchen des Skype-Verzeichnisses sehen. 
     
-    ![When Skype Directory is highlighted, you can search for people who have Skype accounts.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
+    ![Wenn das Skype-Verzeichnis hervorgehoben ist, können Sie nach Personen suchen, die Skype-Konten haben.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
 3. Suchen Sie in Skype for Business nach Ihrem Kontakt in Skype, und senden Sie eine Chatanfrage. 
     

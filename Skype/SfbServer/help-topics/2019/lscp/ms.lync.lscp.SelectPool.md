@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectPool
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Dienst auswählen, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf OK, um einen vorhandenen Dienst zu verwenden.
-ms.openlocfilehash: 0283fcde511be13cc807c37673faf83d78d4f447
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: bd7dde87466ecae8348a886011632b8d7be490ca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417860"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690620"
 ---
 # <a name="select-a-service"></a>Auswählen eines Diensts
 

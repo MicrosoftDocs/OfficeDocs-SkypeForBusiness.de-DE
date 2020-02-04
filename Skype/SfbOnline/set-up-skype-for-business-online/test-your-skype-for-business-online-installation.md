@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
-description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Lernen Sie Zeit zu sparen, Anrufe zu unterstützen und die Zufriedenheit zu erhöhen, indem Sie Testkonten und-Computer einrichten sowie Einwahlkonferenzen, Online Funktionen wie Anrufe zwischen Personen, Konferenzgespräche und Anmeldungen und Abmelden testen. '
+ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285074"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692820"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -78,7 +79,7 @@ Nachdem Sie die Benutzer für Audiokonferenzen eingerichtet haben, erhalten sie 
 
  **So fügen Sie dem Konto eines Ihrer Testbenutzer Audiokonferenzinformationen hinzu**
 
-1. Klicken Sie auf Audiokonferenz **** > -**Benutzer**.
+1. Klicken Sie auf **Audiokonferenz** > -**Benutzer**.
 
 2. Klicken Sie auf die Namen der Benutzer, für die Sie Einwahlkonferenzen einrichten möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeiten](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

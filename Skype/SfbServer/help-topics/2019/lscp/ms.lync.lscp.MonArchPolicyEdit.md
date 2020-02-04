@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie verwenden Archivierungsrichtlinien, um die Archivierung interner und externer Kommunikation in Ihrer Bereitstellung für Benutzer zu steuern, die in Skype for Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:'
-ms.openlocfilehash: 87dc7764f80f722108189fb99209d8a9388f5d8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1eb1f0060e80fbb7d325f5fbe1b7a247d6d006b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291971"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691220"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Archivierungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
  
@@ -48,5 +48,5 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
 - **Archivieren externer Kommunikation** Aktivieren Sie dieses Kontrollkästchen, um die Archivierung von Kommunikationen zu aktivieren, die externe Benutzer einschließen, beispielsweise Remotebenutzer (einschließlich anonyme und PIC-Benutzer), und Verbundpartner. Diese Option ist in keiner Richtlinie standardmäßig aktiviert.
     
-Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype](../../../plan-your-deployment/archiving/archiving.md)for Business Server, [Bereitstellen der Archivierung für Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype for Business. Server](../../../manage/archiving/archiving.md)aus.
+Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Bereitstellen der Archivierung für Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype for Business Server](../../../manage/archiving/archiving.md).
 

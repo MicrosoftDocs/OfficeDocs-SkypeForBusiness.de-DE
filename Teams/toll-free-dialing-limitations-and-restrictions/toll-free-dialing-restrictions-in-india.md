@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: bb37794cbf034c05c6e0bd856fbd42695ee508b5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 492d484074687c1aff3cb59716091a4502cbba6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570821"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693590"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Einschränkungen für gebührenfreie Telefonnummern in Indien
 
@@ -43,7 +44,7 @@ ms.locfileid: "37570821"
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Partiell. Siehe Kommentare.  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe die Kommentare.  <br/> |
-|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Zugriff über die folgenden Netzwerke verfügbar: Loop Mobile, BSNL-Fixed (alle Regionen, aber Bhopal), Vodafone, IDEA/Spice (alle Regionen, aber Punjab Spice), MTS India/Shyam (behoben), MTNL &amp; -Festnetz, Vertrauen (alle Regionen, aber Ahmedabad, Bhopal, Bhuneswer , Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fester &amp; Postpaid), Tata DoCoMo, HFCL INFOTEL/Ping-Handy, S-Tel-Handy, Uninor, Videocon-Handy, BSNL-Mobile, Bharti/Airtel-Netzwerk.  <br/> Zugriff über die folgenden Netzwerke nicht verfügbar: TTSL (Prepaid), Etisalat DB Telecom und Jio  <br/> |
+|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Zugriff über die folgenden Netzwerke verfügbar: Loop Mobile, BSNL-Fixed (alle Regionen, aber Bhopal), Vodafone, IDEA/Spice (alle Regionen, aber Punjab Spice), MTS India/Shyam (örtlich festgelegt) &amp; , MTNL-Festnetz, Vertrauen (alle Regionen, aber Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, &amp; Meerut), &amp; TTML TTSL (fest Postpaid), Tata DoCoMo, HFCL INFOTEL/Ping-Handy, S-Tel, Handy, Uninor, Videocon, BSNL-Handy  <br/> Zugriff über die folgenden Netzwerke nicht verfügbar: TTSL (Prepaid), Etisalat DB Telecom und Jio  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)

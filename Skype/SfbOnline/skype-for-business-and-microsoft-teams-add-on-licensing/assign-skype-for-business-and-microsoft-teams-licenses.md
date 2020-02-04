@@ -1,5 +1,5 @@
 ---
-title: Zuweisen von Skype for Business-Lizenzen.
+title: Zuweisen von Skype for Business-Lizenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Sie Skype for Business-Lizenzen für Telefonsysteme, Audiokonferenzen, Anrufpläne und Kommunikationsguthaben zuweisen. '
-ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768775"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692520"
 ---
-# <a name="assign-skype-for-business-licenses"></a>Zuweisen von Skype for Business-Lizenzen.
+# <a name="assign-skype-for-business-licenses"></a>Zuweisen von Skype for Business-Lizenzen
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> Unter [Skype for Business-Add-on-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen, und wie Sie Sie **erwerben** – je nach Ihrem Office 365-Plan –, damit Benutzer Audiokonferenzen, gebührenfreie Nummern und die Möglichkeit zum Anrufen von Telefonnummern außerhalb erhalten. Ihr Unternehmen.
+> Unter [Skype for Business-Add-on-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie Sie **erwerben** – je nach Ihrem Office 365-Plan –, damit Benutzer Audiokonferenzen, gebührenfreie Nummern und die Möglichkeit zum Anrufen von Telefonnummern außerhalb Ihres Unternehmens erhalten.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Telefonsystem und Anrufpläne: Tipps und Skripts für das Zuweisen von Lizenzen
@@ -110,7 +111,7 @@ Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weiter
 |Plan für Inlandsanrufe (3000 min US/1200 min EU-Pläne)  <br/> |MCOPSTN1  <br/> |
 |Plan für Inlandsanrufe (Anruf Plan für 120 min.)  <br/> |MCOPSTN5  <br/> |
 |Plan für Inlandsanrufe (Anruf Plan für 240 min.)  <br/> |MCOPSTN6  <br/> |
-|Guthaben für Kommunikationen  <br/> |MCOPSTNC  <br/> |
+|Kommunikationsguthaben  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audiokonferenz: Tipps und Skripts für das Zuweisen von Lizenzen
 
@@ -118,7 +119,7 @@ Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weiter
 
 - **Drittanbieter für Audiokonferenzen**: Wenn Benutzer für die Verwendung eines Drittanbieters für Audiokonferenzen eingerichtet sind und Sie diesen Benutzern eine Lizenz für **Audiokonferenzen** zuweisen, werden sie auf die Verwendung von Microsoft als Audiokonferenzanbieter umgestellt. Diese Änderung können Sie rückgängig machen und wieder den Drittanbieter festlegen.
 
-- Nächste Schritte: Nachdem Sie Lizenzen **** für Audiokonferenzen zugewiesen haben, müssen Sie einen Audiokonferenz-Anbieter zuweisen. Siehe [Microsoft als Anbieter von Audiokonferenzen zuweisen].
+- Nächste Schritte: Nachdem Sie Lizenzen für **Audiokonferenzen** zugewiesen haben, müssen Sie einen Audiokonferenz-Anbieter zuweisen. Siehe [Microsoft als Anbieter von Audiokonferenzen zuweisen].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Zuweisen einer Lizenz für Audiokonferenzen zu einem einzelnen Benutzer
 
@@ -203,7 +204,7 @@ Sehen Sie sich das Beispielskript für das Zuweisen von Lizenzen für **Audiokon
   
 [Einrichten von Anrufplänen](/microsoftteams/set-up-calling-plans)
   
-[Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)
+[Hinzufügen und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  

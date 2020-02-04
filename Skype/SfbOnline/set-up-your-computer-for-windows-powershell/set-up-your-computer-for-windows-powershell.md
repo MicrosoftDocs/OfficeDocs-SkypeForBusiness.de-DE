@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: Ermitteln Sie die Anforderungen für die Remoteverwaltung von Skype for Business Online mithilfe von Windows PowerShell, einschließlich unterstützter Betriebssysteme.
-ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5d959abd295c4eeb6916119644d6698e82cec5ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36645155"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692640"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten Ihres Computers für Windows PowerShell
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793062"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692350"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
@@ -95,7 +96,7 @@ Für jede Sitzung steht je nach Szenario eine unter Tabelle mit unterschiedliche
 *    Die Registerkarte Traceroutes zeigt die Netzwerkhops an, die während der Sitzung über traceroute gesammelt wurden. Der für die Sitzung verwendete tatsächliche Medienpfad kann variieren, und diese Daten stehen nur zur Verfügung, wenn in der Sitzung Audio vorhanden ist.
 *    Auf der Registerkarte FEEDBACKREPORTS werden alle von den Benutzern in der Sitzung bereitgestellten Ende der Anruf Umfragedaten angezeigt.
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden. 
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>Sie können die Berichtsdaten auch im CSV-Format in eine Excel-Datei exportieren, indem Sie auf die Schaltfläche **Exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.  
    

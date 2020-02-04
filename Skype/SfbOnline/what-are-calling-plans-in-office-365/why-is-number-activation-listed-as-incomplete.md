@@ -16,21 +16,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateIncomplete
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 48a0d06241af18b1d36d9bc23293f2a2cd3de004
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 0fd510ecd3d465407668f47dbc233d51b35a5735
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793384"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692270"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Warum ist die Nummern Aktivierung als unvollständig aufgeführt?
 
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der **** Adressüberprüfung als unvollständig aufgeführt ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der Adressüberprüfung als **unvollständig** aufgeführt ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
@@ -100,7 +100,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

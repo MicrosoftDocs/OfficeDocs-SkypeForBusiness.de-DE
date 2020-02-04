@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können der Seite Protokolleinstellungen bearbeiten eine geräteprotokoll Konfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Protokolldateigröße oder die Zeitdauer festlegt, die eine Protokolldatei aufbewahrt wird, bevor Sie bereinigt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
-ms.openlocfilehash: 22eb2c37bb0403cf9abf94da8f2e1460d3757b44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c448b886b14397f65d7ebeb5a52b90a38c7b320
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300442"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691540"
 ---
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, wie Sie den Datenschutzmodus für Ihre Benutzer einrichten, damit Sie besser steuern können, wie Personen Ihre Verfügbarkeit sehen. '
-ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285314"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692930"
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren des vertraulichen Anwesenheitsmodus
 
@@ -33,7 +33,7 @@ Mit der Skype for Business Online-Anwesenheits Einstellung haben die Benutzer me
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Auswählen der Standardeinstellung für Onlineanwesenheitsinformationen für alle Personen in Ihrer Organisation
 <a name="__top"> </a>
 
-1. Wechseln Sie zur Skype for Business Online Admin Center->- **Organisation > General**.
+1. Wechseln Sie zum Skype for Business Online Admin Center #a0 **Organisation #a1 allgemein**.
     
 2. Wählen Sie unter **Anwesenheitsdaten Schutzmodus**die Einstellung aus, und klicken Sie dann auf **Speichern**.
     

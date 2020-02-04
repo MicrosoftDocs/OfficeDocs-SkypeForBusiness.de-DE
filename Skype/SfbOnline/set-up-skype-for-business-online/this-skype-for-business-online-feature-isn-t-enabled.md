@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
 description: 'Finden Sie mögliche Ursachen und Aktionsvorschläge, wenn eine Skype for Business Online-Funktion nicht aktiviert ist. '
-ms.openlocfilehash: 953d14f3e1741a6617f74cf87d6acd43c849e92b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 50f34093e72765b4b3c9dc9080639e3046c4f34c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411559"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692800"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Diese Skype for Business Online-Funktion ist nicht aktiviert
 

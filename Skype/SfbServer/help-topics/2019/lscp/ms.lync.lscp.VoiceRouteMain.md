@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceRouteMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 2006cd5f1ab35bbb7b26a6f4977aa1eb7daed233
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 24ecf27a622a5af077b3e088407cd2f32ddae415
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294221"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690160"
 ---
 # <a name="voice-route"></a>VoIP-Route
 

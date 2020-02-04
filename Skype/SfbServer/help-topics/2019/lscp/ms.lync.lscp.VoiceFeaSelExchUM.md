@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Exchange um automatische Telefonzentrale auswählen können Sie eine automatische Exchange UM-Telefonzentrale auswählen, die eingehende Anrufe an einen Bereich nicht zugewiesener Nummern abwickeln soll.
-ms.openlocfilehash: f169f64ed033250f32793213d57996c828034bc0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 832f578e1d299109739ded9a9bcdaa6325edafc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290092"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690370"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Auswählen einer automatischen Exchange UM-Telefonzentrale
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Im Bereich "neue Skype for Business Admin Center-Berichte" werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht Skype for Business PSTN-Minuten Pools verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
-ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793090"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692430"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -41,7 +42,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>So erhalten Sie den Bericht "Skype for Business PSTN-Minuten Pools"
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 - Wechseln Sie zum Admin Center #a0 **Admin** > Centers im**Skype for Business Admin Center** > werden**PSTN-Minuten Pools****gemeldet** > .
     
@@ -72,7 +73,7 @@ Der Bericht sieht folgendermaßen aus:
 *    **Gesamt** Anzahl der Minuten ist die Gesamtzahl der Minuten, die für den Monat zur Verfügung stehen. 
 *    **Verwendeter Prozent** Satz ist der Prozentsatz der für den Monat verwendeten Minuten. 
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden. 
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch im CSV-Format in eine Excel-Datei exportieren, indem Sie auf die Schaltfläche **Exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.
    

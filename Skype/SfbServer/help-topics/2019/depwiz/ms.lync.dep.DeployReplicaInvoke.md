@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployReplicaInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Bereich Befehle ausführen zeigt den Status der Aufgaben für die Installation des lokalen schreibgeschützten Replikats des zentralen Verwaltungsspeichers an. Während die Aufgaben ausgeführt werden, wird der Aufgabenbereich aktualisiert, wenn die Befehle ausgeführt werden. Überprüfen Sie den Vorgangsstatus, und notieren Sie alle angezeigten Fehler oder Warnungen. Wenn die Aufgaben abgeschlossen sind, wird der Nachrichten Aufgabenstatus: abgeschlossen angezeigt, und in der Dropdownliste für die Protokolldateien werden die Namen der Protokolldateien angezeigt. Um die erstellten Protokolldateien anzuzeigen, wählen Sie eine Protokolldatei aus, die Sie anzeigen möchten, und klicken Sie auf Protokoll anzeigen. Überprüfen Sie alle Protokolldateien auf Erfolgs-, Fehler-und Warnmeldungen.'
-ms.openlocfilehash: e9d6c8567853eac167a6407a02f42297d2065986
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c498270e06994c4d497e461443778edd2f1315cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278007"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691690"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Installieren des lokalen Konfigurationsspeichers (Aufruf)
  

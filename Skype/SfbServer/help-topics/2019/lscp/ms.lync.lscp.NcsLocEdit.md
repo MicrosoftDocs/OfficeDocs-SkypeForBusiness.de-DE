@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können Standortrichtlinien konfigurieren, um zu bestimmen, ob E9-1-1 aktiviert ist, wie es verwendet wird und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: e990001fae2d2754e83532f481f8e607d5971fb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ae4d2b5223599dd595dcbcceae60396a4af4869
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291912"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691050"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Standortrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Standortrichtlinie
 

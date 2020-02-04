@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite Zertifikatzuweisung beginnt der Prozess der Zuweisung eines Zertifikats für die angeforderten Zwecke auf dem Server. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Sie können die RegisterkarteAllgemein, die Registerkarte Details oder den Reiter Zertifizierungspfad auswählen. Auf der RegisterkarteAllgemein werden grundlegende Informationen zum Zertifikat angezeigt, beispielsweise die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte "Zertifizierungspfad" wird die CertificateChain-trustfrom des Zertifikats über alle ausstellenden oder Zwischenzertifizierungsstellen (sofern vorhanden) für die Stammzertifizierungsstelle angezeigt.
-ms.openlocfilehash: 5b9163a078c5666a986ee80004d77113881df8b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f906172e832336edc2f09e3269a04ff6c7f1ce2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275559"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692190"
 ---
 # <a name="certificate-assignment-from-request"></a>Zertifikatzuweisung (nach Anforderung)
  

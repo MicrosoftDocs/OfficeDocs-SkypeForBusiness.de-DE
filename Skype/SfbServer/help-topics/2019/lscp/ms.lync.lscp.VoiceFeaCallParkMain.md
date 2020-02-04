@@ -6,25 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn ein Anruf abgestellt wird, wird er an eine temporäre Rufnummer übertragen, in der der Anruf abgehalten wird, bis er von jemandem abgebucht wird, oder wenn der Anruf abläuft. Sie müssen eine Tabelle mit den Bereichen der Durchwahlnummern konfigurieren, die für geparkte Anrufe reserviert werden. Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist). Jeder Pool, auf dem die Anwendung "Parken" ausgeführt wird, kann einen oder mehrere Bereichs Erweiterungen aufweisen. Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.
-ms.openlocfilehash: d325b1dd2066bd35f6dc9003de4c026a7f925a72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6519a678c2370e9763dddd3680c3a64257fe4305
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290136"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690320"
 ---
 # <a name="call-park"></a>Parken von Anrufen
 
 Wenn ein Anruf abgestellt wird, wird er an eine temporäre Rufnummer übertragen, in der der Anruf abgehalten wird, bis er von jemandem abgebucht wird, oder wenn der Anruf abläuft. Sie müssen eine Tabelle mit den Bereichen der Durchwahlnummern konfigurieren, die für geparkte Anrufe reserviert werden. Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist). Jeder Pool, auf dem die Anwendung "Parken" ausgeführt wird, kann einen oder mehrere Bereichs Erweiterungen aufweisen. Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.
 
-Auf der Seite " **Parken** des Anrufs" wird eine Liste aller für Ihre Organisation definierten Park Nummernbereiche angezeigt.
+Auf der Seite " **Parken des Anrufs** " wird eine Liste aller für Ihre Organisation definierten Park Nummernbereiche angezeigt.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 

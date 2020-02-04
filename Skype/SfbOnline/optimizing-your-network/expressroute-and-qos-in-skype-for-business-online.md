@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
-description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: 'Erfahren Sie mehr über die Verwendung von Azure Express Route, um ein Netzwerk mit Bandbreitenanforderungen und Service Qualität für eine Business Class-Benutzeroberfläche zu verwenden. '
+ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221247"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693080"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 
@@ -360,13 +361,13 @@ Die empfohlene Zuweisung von Layer-3- zu Layer-2-Prioritäten ist im Folgenden d
 |DSCP-Wert - 48  <br/> |
 |VoIP  <br/> |Per Hop Behavior (PHB) - Expedited Forwarding (EF)  <br/> |5  <br/> |1 (AC_VO)  <br/> |
 |DSCP-Wert - 46  <br/> |
-|Videokonferenzen  <br/> |Per Hop Behavior (PHB) - Assured Forwarding (AF) 41  <br/> |4  <br/> |2 (AC_VI)  <br/> |
+|Videokonferenzen  <br/> |Pro-Hop-Verhalten (PHB) – Assured Forwarding (AF) 41  <br/> |4  <br/> |2 (AC_VI)  <br/> |
 |DSCP-Wert - 34  <br/> |
 |Anrufsignale  <br/> |Per Hop Behavior (PHB) - Class Selector (CS) 3  <br/> |3  <br/> |2 (AC_VI)  <br/> |
 |DSCP-Wert - 24  <br/> |
 |Daten mit niedriger Wartezeit  <br/> |Per Hop Behavior (PHB) - Assured Forwarding (AF) 21  <br/> |2  <br/> |3 (AC_BE)  <br/> |
 |DSCP-Wert - 18  <br/> |
-|Daten mit hohem Durchsatz  <br/> |Per Hop Behavior (PHB) - Assured Forwarding (AF) 11  <br/> |1  <br/> |3 (AC_BE)  <br/> |
+|Daten mit hohem Durchsatz  <br/> |Pro-Hop-Verhalten (PHB) – Assured Forwarding (AF) 11  <br/> |1  <br/> |3 (AC_BE)  <br/> |
 |DSCP-Wert - 10  <br/> |
 |Beste Leistung  <br/> |Per Hop Behavior (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
 |DSCP-Wert - 0  <br/> |

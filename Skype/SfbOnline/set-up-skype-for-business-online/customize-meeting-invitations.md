@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: 'Passen Sie Skype-Besprechungseinladungen mit Grafik Logos, Hilfe-und rechtlichen URLs sowie Fußzeilentext an. '
-ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792831"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692900"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -45,9 +45,9 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
 ## <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
 <a name="__top"> </a>
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
 2. Wählen Sie im Admin Center die Option **Admin Center** > **Skype for Business**aus.
     

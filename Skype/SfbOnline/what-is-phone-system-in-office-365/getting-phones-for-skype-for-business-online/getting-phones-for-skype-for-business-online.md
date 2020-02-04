@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
-description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+description: 'Erfahren Sie, welche Smartphones mit Skype for Business von Polycom, HP und Mitel sowie den erforderlichen Lizenzen funktionieren. '
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587934"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692250"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -99,14 +100,14 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |Besprechungssteuerelemente  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Visuelle Mailbox  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Telefonsperre  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|In-Band-Bereitstellung  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Geräteupdate  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|In-Band-Bereitstellung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
 |QoE  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur an das Microsoft-Support Team hochgeladen. der Kunden Zugriff auf Telefonprotokolle steht noch nicht zur Verfügung.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur an das Microsoft-Support Team hochgeladen. der Kunden Zugriff auf Telefonprotokolle steht noch nicht zur Verfügung.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
 |Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert PC-Anbindehaltung           |
-|Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> <br/> **Hinweis:** Erfordert PC-Anbindehaltung           |
+|Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
 |Unternehmensverzeichnis  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Delegierung  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |

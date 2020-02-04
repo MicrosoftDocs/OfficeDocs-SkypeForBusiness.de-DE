@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
-description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: 9a6f97a93aa6c7b4e847ba1cb3280a21c473db0c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Lernen Sie bekannte Probleme mit dem Anrufplan für Office 365 (PSTN-Anrufe) kennen, und was Sie dagegen tun können. '
+ms.openlocfilehash: 3441969133c8f67b63b620aff25545b89085858f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299524"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692310"
 ---
 # <a name="calling-plans-known-issues"></a>Bekannte Probleme von Anrufplänen
 
@@ -39,7 +40,7 @@ Anrufpläne in Office 365 sind ein neues Feature, das in Skype for Business Onli
 > Wenn Sie weitere Telefonnummern erhalten möchten, wenden Sie sich bitte [an den Support für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) .         |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

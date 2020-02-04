@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793014"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692330"
 ---
 # <a name="users-blocked-report"></a>Bericht „Benutzer gesperrt“
 
@@ -36,7 +37,7 @@ Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersic
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>So erhalten Sie den Bericht "Skype for Business-gesperrte Benutzer"
 
-![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
 - Wechseln Sie zum Admin Center #a0 **Admin** > Centers**Skype for Business Admin Center** > **meldet** > **Benutzer blockiert**.
     
@@ -58,7 +59,7 @@ Die Tabelle zeigt eine Untergliederung aller Benutzer, die für das Tätigen von
 *   **Grund für Blockierung** ist der Grund, aus dem der Benutzer für das Tätigen von Anrufen gesperrt wurde.
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>
-Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
+Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden.
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>
 Sie können die Berichtsdaten auch im CSV-Format in eine Excel-Datei exportieren, indem Sie auf die Schaltfläche **Exportieren** klicken oder tippen.
