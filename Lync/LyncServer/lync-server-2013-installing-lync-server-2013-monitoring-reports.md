@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Installieren von lync Server 2013-Überwachungsbericht
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync Server 2013 Monitoring Reports
 ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5908e4eb8f18ef464a4c69cc31bffdc33a10416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6b5f9832ddc10d3cea46d09aee6b047595db0f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Es gibt zwei Möglichkeiten, lync Server-Überwachungsberichte zu installieren: 
 
 Führen Sie folgende Schritte durch, um die Überwachungsberichte mithilfe des Bereitstellungs-Assistenten zu installieren:
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server**-Bereitstellungs-Assistent.
+1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Bereitstellungs-Assistent**.
 
 2.  Klicken Sie im Bereitstellungs-Assistenten auf **Überwachungsberichte bereitstellen**, um den Assistenten für die Bereitstellung der Überwachungsberichte zu starten.
 

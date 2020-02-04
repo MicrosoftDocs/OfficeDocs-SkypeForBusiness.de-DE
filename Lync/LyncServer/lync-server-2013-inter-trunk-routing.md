@@ -3,6 +3,8 @@ title: 'Lync Server 2013: zwischen trunk-Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204402ba6620fa75b64bb9710ce979b44b63f412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ Lync Server 2013 bietet grundlegende Sitzungsverwaltung durch die Unterstützung
 
 Die folgende Abbildung zeigt, wie lync Server 2013 die Interkonnektivität zwischen einem PSTN-Gateway und einer IP-Telefonanlage bereitstellt.
 
-![Lync Server-Verbindung zwischen PSTN-Gateway/IP-PBX-Diagramm] (images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server-Verbindung zwischen PSTN-Gateway/IP-PBX-Diagramm")
+![Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)")
 
 Die nächste Abbildung zeigt die lync Server 2013-Verbindung zwischen zwei IP-PBX-Systemen.
 
-![Lync Server-Verbindung zwischen IP-Pax-Systemen (Diagramm] ) (images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server-Verbindung zwischen IP-Pax-Systemen (Diagramm") )
+![Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)")
 
 </div>
 

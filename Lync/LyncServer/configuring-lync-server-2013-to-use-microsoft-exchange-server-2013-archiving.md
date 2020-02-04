@@ -3,6 +3,8 @@ title: Konfigurieren von lync Server 2013 für die Verwendung von Microsoft Exch
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to use Exchange Server 2013 archiving
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3f8ab22ed23adbce2d6cbd6ccbf1f378476ff00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b163b0ce3324455f8a80eca7be5c1423b302a3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839844"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Die Archivierung in lync Server wird hauptsächlich mithilfe der Archivierungs K
 
   - **Keine**. Die Archivierung ist deaktiviert. Dies ist der Standardwert. Wenn EnableArchiving auf None eingestellt ist, wird in ihrer lync Server-Archivierungsdatenbank oder in Exchange 2013 nichts archiviert.
 
-  - **** Ist nicht verfügbar. Es werden nur Sofortnachrichten Abschriften archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange 2013 archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle auf lync Server archiviert.
+  - Ist nicht **verfügbar.** Es werden nur Sofortnachrichten Abschriften archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange 2013 archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle auf lync Server archiviert.
 
   - **ImAndWebConf**. Sowohl Sofortnachrichten Protokolle als auch Webkonferenz-Transkripte werden archiviert. Wenn die Exchange-Archivierung aktiviert ist, werden diese Protokolle in Exchange 2013 archiviert. Wenn die Exchange-Archivierung deaktiviert ist, werden diese Protokolle auf lync Server archiviert.
 
@@ -147,7 +149,7 @@ Wenn sich lync Server 2013 und Exchange 2013 in unterschiedlichen Gesamtstruktur
 
 2.  **UseLyncArchivingPolicy**. Gibt an, dass die Protokolle für Sofortnachrichten und Webkonferenzen des Benutzers in lync Server und nicht in Exchange archiviert werden sollen.
 
-3.  **** Noarchiving. Gibt an, dass die Protokolle für Chatnachrichten und Webkonferenzen des Benutzers überhaupt nicht archiviert werden sollen. Beachten Sie, dass diese Einstellung alle lync Server-Archivierungsrichtlinien außer Kraft setzt, die dem Benutzer zugewiesen sind.
+3.  **Noarchiving**. Gibt an, dass die Protokolle für Chatnachrichten und Webkonferenzen des Benutzers überhaupt nicht archiviert werden sollen. Beachten Sie, dass diese Einstellung alle lync Server-Archivierungsrichtlinien außer Kraft setzt, die dem Benutzer zugewiesen sind.
 
 4.  **ArchivingToExchange**: zeigt an, dass die Chat- und Webkonferenzaufzeichnungen des Benutzers unabhängig von den Compliance-Archiv-Einstellungen, die ggf. Gibt an, dass die Protokolle des Benutzers für Sofortnachrichten und Webkonferenzen in Exchange unabhängig von den in-situ-Speicher-Einstellungen, die dem Postfach des Benutzers zugewiesen wurden (oder nicht), archiviert werden sollen.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen der PSTN-Konnektivität an einem Zweigst
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823623"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
 Wir empfehlen die Verwendung des Microsoft lync Server 2013, Planungstools zum Hinzufügen von Zweigstellen zu Ihrer Topologie und zum Einrichten Ihrer VoIP-Infrastruktur auf Zweigstellen.
 
-Wenn Sie das Planungs Tool nicht verwenden, führen Sie die Verfahren in den Themen in diesem Abschnitt aus, indem Sie zunächst die Zweigstellen hinzufügen und dann Ihre VoIP-Infrastruktur einrichten, indem Sie das PSTN-Gateway (IP/Public Switched Telephone Network) definieren und/oder das SIP konfigurieren. trunk (mit oder ohne medienumgehung). Eine weitere Option besteht darin, eine PBX (Private Branch Exchange) mit der Zweigstelle zu verbinden.
+Wenn Sie das Planungs Tool nicht verwenden, führen Sie die Verfahren in den Themen in diesem Abschnitt aus, indem Sie zunächst die Zweigstellen hinzufügen und dann Ihre VoIP-Infrastruktur einrichten, indem Sie das PSTN-Gateway (IP/Public Switched Telephone Network) definieren und/oder den SIP-Stamm (mit oder ohne medienumgehung) konfigurieren. Eine weitere Option besteht darin, eine PBX (Private Branch Exchange) mit der Zweigstelle zu verbinden.
 
 <div>
 

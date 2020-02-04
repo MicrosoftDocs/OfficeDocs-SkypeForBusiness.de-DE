@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren von optionalen Director-Topologien in einer
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define optional Director topologies in your topology
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 524259226b44d68367b631c2b7cef5513e0770e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832716"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
 Die lync Server 2013-Directors können Single-Instance-Server sein oder als Lastenausgleichspool mehrerer Directors installiert werden, um höhere Verfügbarkeit und Kapazität zu erreichen. Sowohl der Hardwarelastenausgleich als auch der DNS-Lastenausgleich (Domain Name System) werden unterstützt. In diesem Thema wird erläutert, wie Sie den DNS-Lastenausgleich für Director-Pools konfigurieren.
 
-Um eine Topologie erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, wenn Sie eine Serverrolle hinzufügen oder entfernen, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen **RTCUniversalServerAdmins** und **Domänenadministratoren** ist. Sie können auch die richtigen Administratorrechte und-Berechtigungen für das Hinzufügen von Serverrollen delegieren. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der **RTCUniversalServerAdmins** -Gruppe erforderlich.
+Um eine Topologie erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, wenn Sie eine Serverrolle hinzufügen oder entfernen, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen **RTCUniversalServerAdmins** und **Domänenadministratoren** ist. Sie können auch die richtigen Administratorrechte und-Berechtigungen für das Hinzufügen von Serverrollen delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der **RTCUniversalServerAdmins** -Gruppe erforderlich.
 
 In diesem Thema werden die Schritte zum Definieren und Veröffentlichen der Topologie für die beiden Director-Topologien beschrieben:
 
@@ -78,7 +80,7 @@ In diesem Thema werden die Schritte zum Definieren und Veröffentlichen der Topo
     
     </div>
 
-7.  Geben Sie im Dialogfeld URL für Webdienste **angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
+7.  Geben Sie im Dialogfeld **URL für Webdienste angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
     
     <div>
     
@@ -141,7 +143,7 @@ In diesem Thema werden die Schritte zum Definieren und Veröffentlichen der Topo
     
     </div>
 
-8.  Geben Sie im Dialogfeld URL für Webdienste **angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
+8.  Geben Sie im Dialogfeld **URL für Webdienste angeben** in **externe Basis-URL**den FQDN für die Directors an, und klicken Sie dann auf **Fertig stellen**.
     
     <div>
     

@@ -3,6 +3,8 @@ title: Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - mirror
 ms:assetid: 4b3c8eae-6f1f-4377-b39b-6699e725c517
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 113d69d7aa39673686ff870c36a64bd1a8fe90f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 84a7c5a2aa12c1599d16ec563d10e8f5147df400
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823077"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Wir empfehlen, dass Sie eine Image-Kopie des Systems erstellen, bevor Sie mit de
     
       - Klicken Sie mit der rechten Maustaste auf den lync Server 2013-Knoten, klicken Sie auf **Topologie**, und klicken Sie dann auf **Datenbank installieren**.
     
-      - Folgen Sie dem Assistenten zum **Installieren der Datenbank** . Wählen Sie auf der Seite **Create** Databases die Datenbanken aus, die Sie neu erstellen möchten.
+      - Folgen Sie dem Assistenten zum **Installieren der Datenbank** . Wählen Sie auf der Seite **create databases** die Datenbanken aus, die Sie neu erstellen möchten.
     
       - Folgen Sie dem Assistenten, bis eine Aufforderung zum **Erstellen einer Spiegeldatenbank** angezeigt wird. Wählen Sie die Datenbank aus, die Sie installieren möchten, und führen Sie diesen Vorgang aus.
         

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lesen von Erfassungs Protokollen vom zentralen Protoko
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823728"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +51,23 @@ Sie erkennen den wirklichen Vorteil des zentralen Protokollierungsdiensts, nachd
 
 Lync Server 2013 führt eine aktualisierte Version von Snooper mit einigen neuen Features ein. Der folgende Screenshot zeigt die Version von Snooper von Office Communications Server 2007.
 
-![Office Communications 2007-Version von Snooper.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007-Version von Snooper.")
+![Office Communications 2007-Version von Snooper.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007-Version von Snooper.")
 
 Der folgende Screenshot zeigt die neue Version von Snooper, die in den lync Server 2013-Debug-Tools enthalten ist.
 
-![Lync Server 2013-Version von Snooper.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013-Version von Snooper.")
+![Lync Server 2013-Version von Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013-Version von Snooper.")
 
 Der folgende Screenshot zeigt die Symbolleiste mit häufig verwendeten Funktionen.
 
-![Snooper 2013-Symbolleiste.] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013-Symbolleiste.")
+![Snooper 2013-Symbolleiste.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013-Symbolleiste.")
 
 Und das neueste Feature, das einen Wert hinzufügt, ist die Diagrammansicht Flussdiagramm (Anruffluss). Sie wählen einen Nachrichtenfluss auf dem Reiter **Nachricht** und klicken Sie auf die Schaltfläche **Anruffluss** . Während Sie die Nachrichten durchlaufen, wird das Anruffluss Diagramm mit neuen Daten aktualisiert.
 
-![Snooper 2013-Anruffluss Diagramm] (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013-Anruffluss Diagramm")
+![Snooper 2013-Anruffluss Diagramm](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013-Anruffluss Diagramm")
 
 Sie können mit der Maus auf die Diagrammansicht zeigen und Details zu den Nachrichten und dem Inhalt der Flüsse und Nachrichten sowie zu den Serverelementen abrufen. Klicken Sie auf einen beliebigen Anruffluss Pfeil, um in der Ansicht Nachrichten zu der Nachricht zu wechseln.
 
-![Nachrichtendetails des Anruffluss Diagramms.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Nachrichtendetails des Anruffluss Diagramms.")
+![Nachrichtendetails des Anruffluss Diagramms.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Nachrichtendetails des Anruffluss Diagramms.")
 
 <div>
 

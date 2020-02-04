@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Neue Funktionen für den externen Benutzerzugriff'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New features for external user access
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398794(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d365c4e32c5eaebbd0368cd85b41be7886a59df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8c27df6befdba620407b3b1fd4fe537b8da831d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826444"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Lync Server 2013 führt neue Features ein, die die Features und Kommunikationsme
     
     </div>
 
-  - **Mobilitätsdienste für mobile Clients**   , die in einem Kunden Update für lync Server 2010 eingeführt wurden, Mobilitätsdienste in lync Server 2013 ermöglichen Microsoft lync Mobile-Clients auf Mobiltelefonen und Tablet-Geräten mit unterstützten Apple IOS, Android, Windows Smartphone oder Nokia Mobile Geräte, um solche Aktivitäten wie das Senden und empfangen von Sofortnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen durchzuführen. Darüber hinaus unterstützen Mobile Geräte einige Enterprise-VoIP-Features, wie beispielsweise klicken, um an einer Konferenz teilzunehmen, über Arbeit zu anrufen, eine Rufnummer zu erreichen, Voicemail und Benachrichtigungen über verpasste Anrufe zu erhalten.
+  - **Mobilitätsdienste für mobile Clients**   , die in einem Kunden Update für lync Server 2010 eingeführt wurden, ermöglichen Mobilitätsdienste in lync Server 2013 Microsoft lync Mobile-Clients auf Mobiltelefonen und Tablet-Geräten, die unterstützte Apple IOS-, Android-, Windows Phone-oder Nokia Mobile-Geräte verwenden, um solche Aktivitäten wie das Senden und empfangen von Sofortnachrichten, das Anzeigen von Kontakten und das Anzeigen von Darüber hinaus unterstützen Mobile Geräte einige Enterprise-VoIP-Features, wie beispielsweise klicken, um an einer Konferenz teilzunehmen, über Arbeit zu anrufen, eine Rufnummer zu erreichen, Voicemail und Benachrichtigungen über verpasste Anrufe zu erhalten.
     
     <div>
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren einer Survivable Branch Appliance oder eine
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dadaa26f6a951995906ed29ffd0615da16066928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Führen Sie dieses Verfahren am zentralen Standort aus, wenn Sie die Survivable 
     
 
     > [!IMPORTANT]  
-    > Überlebensfähige <STRONG>Branch</STRONG> -Appliances definieren Sie Survival-Branch-Server und Survivable Branch-Appliances.
+    > Überlebensfähige <STRONG>Branch-Appliances</STRONG> definieren Sie Survival-Branch-Server und Survivable Branch-Appliances.
 
     
     </div>
@@ -69,7 +71,7 @@ Führen Sie dieses Verfahren am zentralen Standort aus, wenn Sie die Survivable 
 
 5.  Klicken Sie auf **Front-End-Pool**, klicken Sie auf den Front-End-Server (User Services Pool) an der zentralen Website, mit der die überlebensfähige Branch-Appliance oder der Survivable Branch-Server eine Verbindung herstellen soll, und klicken Sie dann auf **weiter**
 
-6.  Klicken **** Sie auf Edgeserver, klicken Sie auf den Edge-Pool, der von dieser Survivable Branch Appliance oder einem Überlebenden Verzweigungs Server hergestellt wird, um die PSTN-Konnektivität für Remotebenutzer der Zweigstelle bereitzustellen, und klicken Sie dann auf **weiter**.
+6.  Klicken Sie auf **Edgeserver**, klicken Sie auf den Edge-Pool, der von dieser Survivable Branch Appliance oder einem Überlebenden Verzweigungs Server hergestellt wird, um die PSTN-Konnektivität für Remotebenutzer der Zweigstelle bereitzustellen, und klicken Sie dann auf **weiter**.
 
 7.  Klicken Sie auf **Gateway-FQDN oder IP-Adresse**, und geben Sie dann den FQDN oder die IP-Adresse des Gateway-Peers ein, dem die Survivable Branch-Appliance oder der Survivable Branch-Server zugeordnet ist, um eingehende oder ausgehende PSTN-Anrufe weiterzuleiten.
     

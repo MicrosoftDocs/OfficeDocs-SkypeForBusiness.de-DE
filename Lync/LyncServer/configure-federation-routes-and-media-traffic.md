@@ -3,6 +3,8 @@ title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 5.  Deaktivieren Sie unter **Standort Verbund-Routen Zuweisung**das Kontrollkästchen **SIP-Verbund aktivieren** , um die Verbund Route über die Legacy-lync Server 2010-Umgebung zu deaktivieren.
     
-    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Verbund Route\"")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"")
 
 6.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
@@ -107,15 +109,15 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 4.  Deaktivieren Sie das Kontrollkästchen Eintrag **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , und wählen Sie **OK** aus, um die Seite zu schließen.
     
-    ![Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren")
+    ![Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren")
 
 5.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
 
-6.  Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
+6.  Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
 
 7.  Überprüfen Sie, ob der Verbund für den Legacy-Edgeserver deaktiviert ist.
     
-    ![Topologie-Generator, Edge-Pool, Verbund deaktiviert] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund deaktiviert")
+    ![Topologie-Generator, Edge-Pool, Verbund deaktiviert](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund deaktiviert")
 
 </div>
 
@@ -145,15 +147,15 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 4.  Aktivieren Sie den Kontrollkästchen Eintrag für **enable Federation for this Edge Pool (Port 5061)** , und klicken Sie dann auf **OK** , um die Seite zu schließen.
     
-    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"")
 
 5.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
 
-6.  Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
+6.  Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
 
 7.  Überprüfen Sie, ob der **Verbund (Port 5061)** auf **aktiviert**festgesetzt ist.
     
-    ![Topologie-Generator, Edge-Pool, Verbund aktiviert] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund aktiviert")
+    ![Topologie-Generator, Edge-Pool, Verbund aktiviert](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund aktiviert")
 
 </div>
 
@@ -167,7 +169,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 3.  Wählen Sie auf der Seite **Allgemein** unter Auswahl für den **nächsten Hop**in der Dropdownliste den lync Server 2013-Pool aus.
     
-    ![Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '")
 
 4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
@@ -187,7 +189,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 3.  Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten)** .
     
-    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
+    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
 
 4.  Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.
 
@@ -214,7 +216,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 3.  Überprüfen Sie auf der Seite **Allgemein** , ob die Einstellung **Föderation für diesen Edge-Pool aktivieren (Port 5061)** aktiviert ist.
     
-    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")
+    ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"")
 
 4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
@@ -226,7 +228,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 8.  Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann in der Liste den Eintrag lync Server 2013 Edge Server aus.
     
-    ![Eigenschaften bearbeiten, Seite "Verbund Route"] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Seite \"Verbund Route\"")
+    ![Eigenschaften bearbeiten, Seite "Verbund Route"](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Seite "Verbund Route"")
 
 9.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
     

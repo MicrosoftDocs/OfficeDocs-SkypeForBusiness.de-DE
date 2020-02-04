@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Entscheiden, wie Microsoft Lync bereitgestellt werden 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deciding how to deploy Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aef6ac76b6c0e8a6fb3c0444ab219acf78119ecd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Eine lokale lync Server-Bereitstellung eignet sich am besten für die folgenden 
 
   - **Server Anwendungen**   von Drittanbietern nur lokale Bereitstellungen können mit vertrauenswürdigen Drittanbieteranwendungen funktionieren, die die Microsoft Unified Communications Managed API (UCMA) verwenden.
 
-  - **Multi-National/Multi-Regional-Unternehmen, die regionale Unterstützung**   benötigen wenn Sie Rechenzentren in mehreren Ländern oder Regionen haben und Server auf regionaler Basis bereitgestellt und verwaltet werden müssen, ist eine lokale Bereitstellung am besten, da Sie diesen Typ bereitstellt. der regionalen Verwaltungsfunktionen.
+  - **Multi-National/Multi-Regional-Unternehmen, die regionale Unterstützung**   benötigen wenn Sie Rechenzentren in mehreren Ländern oder Regionen haben und Server auf regionaler Basis bereitgestellt und verwaltet werden müssen, ist eine lokale Bereitstellung am besten, da diese Art von regionalen Verwaltungsfunktionen zur Verfügung steht.
 
   - **Vollständige Kontrolle über Richtlinien, Berichte und Upgrades**   mit einer lokalen lync Server-Bereitstellung haben Sie Zugriff auf den vollständigen Satz von Server-und Clientrichtlinien, auf Überwachungs-und andere Berichte sowie auf die Anzeigedauer von Upgrades. Lync Online bietet eine Teilmenge der Richtlinieneinstellungen und-Berichte und bietet ein limitiertes, wenn auch erhebliches Fenster für das akzeptieren von Upgrades.
 

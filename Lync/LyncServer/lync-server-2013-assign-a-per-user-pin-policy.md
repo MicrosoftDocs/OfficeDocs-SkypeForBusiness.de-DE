@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zuweisen einer pro-Benutzer-PIN-Richtlinie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user PIN policy
 ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c60943ad13bd03de6e4474ec35f2deea1964bad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0864fdf4d2356ee04e1084c2f6b0149b2a6ebd5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847850"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722815"
 ---
 # <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>Zuweisen einer pro-Benutzer-PIN-Richtlinie in lync Server 2013
 

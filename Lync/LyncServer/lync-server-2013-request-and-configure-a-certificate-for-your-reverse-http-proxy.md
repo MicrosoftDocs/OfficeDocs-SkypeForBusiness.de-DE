@@ -3,6 +3,8 @@ title: Anfordern und Konfigurieren eines Zertifikats für den HTTP-Reverseproxy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request and configure a certificate for your reverse HTTP proxy
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2597bf31c9f0cc9f4316f505811426f2c9948a6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,12 +59,12 @@ Sie müssen auch ein öffentliches Webserverzertifikat auf dem Reverse Proxy Ser
 <tr class="odd">
 <td><p>Name des Antragstellers</p></td>
 <td><p>Pool-FQDN</p></td>
-<td><p>Webext.contoso.com</p></td>
+<td><p>webext.contoso.com</p></td>
 </tr>
 <tr class="even">
 <td><p>Alternativer Antragstellername</p></td>
 <td><p>Pool-FQDN</p></td>
-<td><p>Webext.contoso.com</p>
+<td><p>webext.contoso.com</p>
 
 
 
@@ -86,7 +88,7 @@ Sie müssen auch ein öffentliches Webserverzertifikat auf dem Reverse Proxy Ser
 > Alle einfachen URLs der Besprechung müssen dem alternativen Betreff Namen entsprechen. Für jede SIP-Domäne muss mindestens eine einfache URL für die aktive Besprechung vorhanden sein.
 
 </td>
-<td><p>Meet.contoso.com</p></td>
+<td><p>meet.contoso.com</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alternativer Antragstellername</p></td>
@@ -144,7 +146,7 @@ Sie erstellen eine Zertifikatanforderung auf dem Reverse-Proxy. Wenn Sie eine An
 
 
 > [!TIP]
-> Wenn Sie Ihre Edge-Server Zertifikate und ihre Reverse-Proxy Zertifikate gleichzeitig planen, sollten Sie feststellen, dass die beiden Zertifikatanforderungen sehr ähnlich sind. Wenn Sie Ihr Edge-Server-Zertifikat konfigurieren und anfordern, kombinieren Sie den Edgeserver und die alternativen Namen des Reverse Proxy-Subjekts. Sie können dasselbe Zertifikat für Ihren Reverseproxy verwenden, wenn Sie das Zertifikat und den privaten Schlüssel exportieren und die exportierte Datei in den Reverse-Proxy kopieren und dann das Zertifikat/Schlüsselpaar importieren und in den anstehenden Verfahren nach Bedarf zuweisen. Lesen Sie die Zertifikatanforderungen für den Edge-&nbsp;Server-<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan für Edge-Server-Zertifikate in lync Server 2013</A> und die <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Zusammenfassung des Reverse-Proxy Zertifikats – Reverse Proxy in lync Server 2013</A>. Stellen Sie sicher, dass Sie das Zertifikat mit einem exportierbaren privaten Schlüssel erstellen. Das Erstellen des Zertifikats und der Zertifikatanforderung mit einem exportierbaren privaten Schlüssel ist für Pool-Edgeserver erforderlich, daher ist dies eine übliche Vorgehensweise, und der Zertifikat-Assistent im lync Server-Bereitstellungs-Assistenten für den Edgeserver ermöglicht Ihnen das Einrichten <STRONG> </STRONG>Kennzeichen für exportierbaren privaten Schlüssel. Nachdem Sie die Zertifikatanforderung von der öffentlichen Zertifizierungsstelle zurück erhalten haben, werden Sie das Zertifikat und den privaten Schlüssel exportieren. Informationen zum Erstellen und Exportieren Ihres Zertifikats mit einem privaten Schlüssel finden Sie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" im Thema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013</A> . Die Erweiterung des Zertifikats sollte vom Typ <STRONG>PFX</STRONG>sein.
+> Wenn Sie Ihre Edge-Server Zertifikate und ihre Reverse-Proxy Zertifikate gleichzeitig planen, sollten Sie feststellen, dass die beiden Zertifikatanforderungen sehr ähnlich sind. Wenn Sie Ihr Edge-Server-Zertifikat konfigurieren und anfordern, kombinieren Sie den Edgeserver und die alternativen Namen des Reverse Proxy-Subjekts. Sie können dasselbe Zertifikat für Ihren Reverseproxy verwenden, wenn Sie das Zertifikat und den privaten Schlüssel exportieren und die exportierte Datei in den Reverse-Proxy kopieren und dann das Zertifikat/Schlüsselpaar importieren und in den anstehenden Verfahren nach Bedarf zuweisen. Lesen Sie die Zertifikatanforderungen für den Edge-&nbsp;Server-<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan für Edge-Server-Zertifikate in lync Server 2013</A> und die <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Zusammenfassung des Reverse-Proxy Zertifikats – Reverse Proxy in lync Server 2013</A>. Stellen Sie sicher, dass Sie das Zertifikat mit einem exportierbaren privaten Schlüssel erstellen. Das Erstellen des Zertifikats und der Zertifikatanforderung mit einem exportierbaren privaten Schlüssel ist für Pool-Edgeserver erforderlich, daher ist dies eine übliche Vorgehensweise, und der Zertifikat-Assistent im lync Server-Bereitstellungs-Assistenten für den Edgeserver ermöglicht es Ihnen, das exportierbare Kennzeichen <STRONG>privater Schlüssel machen</STRONG> zu definieren. Nachdem Sie die Zertifikatanforderung von der öffentlichen Zertifizierungsstelle zurück erhalten haben, werden Sie das Zertifikat und den privaten Schlüssel exportieren. Informationen zum Erstellen und Exportieren Ihres Zertifikats mit einem privaten Schlüssel finden Sie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" im Thema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013</A> . Die Erweiterung des Zertifikats sollte vom Typ <STRONG>PFX</STRONG>sein.
 
 
 
@@ -162,7 +164,7 @@ Führen Sie die folgenden Schritte aus, um eine Zertifikatsignaturanforderung au
 
 4.  Wählen Sie auf der Seite **Zertifikatregistrierungsrichtlinie auswählen** unter **Benutzerdefinierte Anforderung**die Option **ohne Registrierungsrichtlinie fortfahren**aus. Klicken Sie auf **Weiter**.
 
-5.  Klicken Sie auf der Seite **Benutzerdefinierte Anforderung** für **Vorlage** auf **Legacy Schlüssel (ohne Vorlage)**. Wenn Ihr Zertifikatanbieter nichts anderes anwendet, Belasse die Option **Standarderweiterungen** deaktivieren und die Auswahl des **Anforderungs Formats** in **PKCS \#10**. Klicken Sie auf **Weiter**.
+5.  Klicken Sie auf der Seite **Benutzerdefinierte Anforderung** für **Vorlage** auf **Legacy Schlüssel (ohne Vorlage)**. Wenn Ihr Zertifikatanbieter nichts anderes anwendet, Belasse die Option **Standarderweiterungen** deaktivieren und die Auswahl des **Anforderungs Formats** in ** \#PKCS 10**. Klicken Sie auf **Weiter**.
 
 6.  Klicken Sie auf der Seite **Zertifikatinformationen** auf **Details**, und klicken Sie dann auf **Eigenschaften**.
 

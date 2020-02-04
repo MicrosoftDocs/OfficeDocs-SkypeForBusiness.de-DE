@@ -3,6 +3,8 @@ title: Ausführen der Abwärtskompatibilität für den Server für beständigen 
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b512d18449c881efd856674477a727cec137b64c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d7054e9dfb3eba8e6365710accfd3a9693bc39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Sie müssen nicht mehrere Endpunkte für beständigen Chat Server erstellen; Sie
 
 Dieses Mainstream-Szenario folgt in der Regel diesem Muster:
 
-  - Sie verwalten Benutzer mit einem lync Server 2010, Gruppen-Chat-Pool und ihren lync 2010-Gruppen-Chat-Clients, die eine Verbindung mit diesem Pool herstellen, indem Sie einen bekannten Benutzer\<verwenden (\>entweder standardmäßig SIP: OCSChat @ Domain Name. com oder eine ähnliche). Die Benutzer sind SIP-fähige Active Directory-Domänendienste, und der Suchdienst registriert sich, um eingehende Anforderungen zu empfangen.
+  - Sie verwalten Benutzer mit einem lync Server 2010, Gruppen-Chat-Pool und ihren lync 2010-Gruppen-Chat-Clients, die eine Verbindung mit diesem Pool herstellen, indem Sie einen bekannten\<Benutzer verwenden\>(entweder standardmäßig SIP: OCSChat@ Domain Name. com oder eine ähnliche). Die Benutzer sind SIP-fähige Active Directory-Domänendienste, und der Suchdienst registriert sich, um eingehende Anforderungen zu empfangen.
 
   - Anschließend installieren Sie einen lync Server 2013-beständigen Chat Server und einen beständigen Chat Serverpool.
 

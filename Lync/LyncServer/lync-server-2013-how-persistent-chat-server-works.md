@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Funktionsweise des beständigen Chat Servers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Persistent Chat Server works
 ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 692f9a40bc2c0fd885fc251a4a792d480a69c57d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,11 +61,11 @@ Die folgenden Diagramme bieten allgemeine Perspektiven auf die Architektur und D
 
 **Allgemeine Architektur der permanenten Chatserver**
 
-![Server Architektur] für beständigen Chat (images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Server Architektur") für beständigen Chat
+![Server Architektur für beständigen Chat](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Server Architektur für beständigen Chat")
 
 **Allgemeine Dienste der permanenten Chatserver**
 
-![Server Komponenten] für beständigen Chat (images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Server Komponenten") für beständigen Chat
+![Server Komponenten für beständigen Chat](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Server Komponenten für beständigen Chat")
 
 Auf den Server-Front-End-Servern des beständigen Chats werden zwei Dienste ausgeführt:
 
@@ -141,7 +143,7 @@ Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben den Anme
 
 **Beständiger Chat-Client-Anmelde Anruffluss**
 
-![Anruffluss Diagramm für beständigen Chat Server] (images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Anruffluss Diagramm für beständigen Chat Server")
+![Anruffluss Diagramm für beständigen Chat Server](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Anruffluss Diagramm für beständigen Chat Server")
 
 1.  Der beständige Chat-Client sendet zunächst ein SIP-Abonnement, um das in-Band-Bereitstellungs Dokument vom Server abzurufen. Dieses Dokument zeigt an, ob der beständige Chat für den Benutzer aktiviert oder deaktiviert ist, und die Liste der SIP-URIs für den Server Pool des beständigen Chats.
 
@@ -149,9 +151,9 @@ Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben den Anme
 
 3.  Der beständige Chat-Client sendet eine SIP-INFO-Nachricht mit dem Befehl XCCOS **getServerInfo** . Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die Informationen zur Konfiguration des beständigen Chats enthält.
 
-4.  Der beständige Chat-Client sendet eine SIP-Info- **** Nachricht, die den Befehl XCCOS GetAssociations enthält. Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die die Liste der Chatrooms enthält, in denen der Benutzer Mitglied ist. Der beständige Chat-Client wiederholt den Befehl, um die Liste der Räume abzurufen, deren Manager der Benutzer ist.
+4.  Der beständige Chat-Client sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **GetAssociations** enthält. Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die die Liste der Chatrooms enthält, in denen der Benutzer Mitglied ist. Der beständige Chat-Client wiederholt den Befehl, um die Liste der Räume abzurufen, deren Manager der Benutzer ist.
 
-5.  Der beständige Chat-Client ruft die Liste der befolgten Räume aus dem Dokument "Anwesenheit" ab, in dem jeder befolgte Raum durch eine Kategorie "roomSetting" dargestellt wird. Alle folgenden Chatrooms werden durch eine einzelne SIP-INFO Nachricht verbunden, die den Befehl XCCOS **btreten** enthält, der die Liste der Raum-URIs enthält. Da die Liste der nachverfolgten Räume auf dem Server gespeichert wird, verfügt jeder Client auf einem Computer über die gleiche Liste der folgenden Chatrooms für den angegebenen Benutzer-URI. Der beständige Chat-Client speichert auch die Liste der geöffneten Chatrooms (wenn diese Option vom Benutzer aktiviert ist) in der Registrierung des lokalen Computers und verknüpft jeden dieser Chatrooms bei der Anmeldung durch Senden einer SIP-INFO Nachricht, die den XCCOS- **Join** -Befehl für jeden geöffneten Chatroom enthält. . Da diese Liste in der Registrierung aufbewahrt wird, kann Sie bei zwei beständigen Chat-Clients unterschiedlich sein, die auf unterschiedlichen Computern ausgeführt werden.
+5.  Der beständige Chat-Client ruft die Liste der befolgten Räume aus dem Dokument "Anwesenheit" ab, in dem jeder befolgte Raum durch eine Kategorie "roomSetting" dargestellt wird. Alle folgenden Chatrooms werden durch eine einzelne SIP-INFO Nachricht verbunden, die den Befehl XCCOS **btreten** enthält, der die Liste der Raum-URIs enthält. Da die Liste der nachverfolgten Räume auf dem Server gespeichert wird, verfügt jeder Client auf einem Computer über die gleiche Liste der folgenden Chatrooms für den angegebenen Benutzer-URI. Der beständige Chat-Client speichert auch die Liste der geöffneten Chatrooms (wenn diese Option vom Benutzer aktiviert ist) in der Registrierung des lokalen Computers und verknüpft jeden dieser Chatrooms bei der Anmeldung durch Senden einer SIP-INFO Nachricht, die den XCCOS- **Join** -Befehl für jeden geöffneten Chatroom enthält. Da diese Liste in der Registrierung aufbewahrt wird, kann Sie bei zwei beständigen Chat-Clients unterschiedlich sein, die auf unterschiedlichen Computern ausgeführt werden.
 
 6.  Für jeden beige tretenen Chatroom sendet der beständige Chat-Client eine SIP-INFO-Nachricht, die den Befehl XCCOS **bccontext** enthält. Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die die neueste Chatnachricht im Chatroom enthält.
 
@@ -167,7 +169,7 @@ Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben ein typi
 
 **Beständiger Chat-Client Raum-Abonnement und Nachrichten Buchung-Anruffluss**
 
-![Szenario für Raum Abonnements und Nachrichten] (images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Szenario für Raum Abonnements und Nachrichten")
+![Szenario für Raum Abonnements und Nachrichten](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Szenario für Raum Abonnements und Nachrichten")
 
 1.  Im beständigen Chat-Client klickt Benutzer1 auf **an einem Chatroom teilnehmen**, klickt auf **Suchen**und gibt dann einige Suchkriterien ein. Der beständige Chat-Client sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **chansrch** (Raum Suche) zusammen mit den Suchkriterien enthält. Der beständige Chat Server fragt die Back-End-Datenbank ab und antwortet in einer neuen SIP-INFO Nachricht, die eine Liste der verfügbaren Räume enthält, die den Suchkriterien entsprechen.
 

@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632eed40992bfcff53072d618313afe3501431be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e1aa407fbb1d7d8a006698d30545165352386b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233232"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "36233232"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-client-experience-with-skype-for-business"></a>Configure the client experience with Skype for Business
+# <a name="configure-the-client-experience-with-skype-for-business"></a>Konfigurieren der Clientumgebung mit Skype for Business
 
 </div>
 
@@ -78,7 +80,7 @@ Mit dem folgenden Befehl wird die Skype for Business-Clientumgebung für alle Be
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-Wenn Sie die Clientumgebung für bestimmte Benutzer in Ihrer Organisation konfigurieren möchten, können Sie mithilfe des Cmdlets **New-CsClientPolicy** eine neue Benutzerrichtlinie erstellen und dann die Richtlinie bestimmten Benutzern zuweisen, indem Sie die **Grant-CsClientPolicy** Cmdlet.
+Wenn Sie die Clientumgebung für bestimmte Benutzer in Ihrer Organisation konfigurieren möchten, können Sie mithilfe des Cmdlets **New-CsClientPolicy** eine neue Benutzerrichtlinie erstellen und dann die Richtlinie bestimmten Benutzern zuweisen, indem Sie das Cmdlet **Grant-CsClientPolicy** verwenden.
 
 Mit dem folgenden Befehl wird beispielsweise eine neue Clientrichtlinie, SalesClientUI, erstellt, die die Skype for Business-Clientumgebung auswählt:
 
@@ -174,7 +176,7 @@ Wenn in Ihrer Organisation sowohl Skype for Business Server 2015 als auch lync S
 </tr>
 <tr class="even">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="odd">
@@ -189,7 +191,7 @@ Wenn in Ihrer Organisation sowohl Skype for Business Server 2015 als auch lync S
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="even">
@@ -227,7 +229,7 @@ Die nächste Tabelle zeigt die Clientumgebung, wenn der Administrator die anfän
 <tbody>
 <tr class="odd">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>Benutzer hat gebeten, zu Skype for Business zu wechseln</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
@@ -239,7 +241,7 @@ Die nächste Tabelle zeigt die Clientumgebung, wenn der Administrator die anfän
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 oder lync Server 2013 (mit den richtigen Patches)</p></td>
-<td><p>True</p></td>
+<td><p>Wahr</p></td>
 <td><p>Benutzer hat gebeten, zu Skype for Business zu wechseln</p></td>
 <td><p>Skype for Business</p></td>
 </tr>

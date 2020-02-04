@@ -3,6 +3,8 @@ title: Veröffentlichen von Office Web Apps Server mithilfe eines Reverseproxyse
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823707"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Führen Sie die folgenden Schritte aus, um eine Website Veröffentlichungsregel 
 
 2.  Klicken Sie in Forefront TMG mit der rechten Maustaste auf **Firewall-Richtlinie**, zeigen Sie auf **neu**, und klicken Sie dann auf **Website Veröffentlichungsregel**.
 
-3.  Geben Sie im Assistenten für neue Webveröffentlichungsregel auf der Seite **Willkommen bei der neuen Webveröffentlichungsregel-Assistent** einen Namen für die neue Regel in das Feld Name der Webveröffentlichungsregel ein (beispielsweise **Office Web Apps-Server Regel**), und klicken Sie dann auf **weiter**. ****
+3.  Geben Sie im Assistenten für neue Webveröffentlichungsregel auf der Seite **Willkommen bei der neuen Webveröffentlichungsregel-Assistent** einen Namen für die neue Regel in das Feld **Name der Webveröffentlichungs** Regel ein (beispielsweise **Office Web Apps-Server Regel**), und klicken Sie dann auf **weiter**.
 
 4.  Wählen Sie auf der Seite **Regelaktion angeben** die Option **zulassen** aus, und klicken Sie dann auf **weiter**.
 
-5.  Wählen Sie **** auf der Seite Veröffentlichungs **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen** aus, und klicken Sie dann auf **weiter**.
+5.  Wählen Sie auf der Seite **Veröffentlichungs** **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen** aus, und klicken Sie dann auf **weiter**.
 
 6.  Wählen Sie auf der Seite **Server Verbindungssicherheit** die Option SSL verwenden aus, um **eine Verbindung mit dem veröffentlichten Webserver oder der Serverfarm herzustellen** , und klicken Sie dann auf **weiter**.
 
@@ -59,13 +61,13 @@ Führen Sie die folgenden Schritte aus, um eine Website Veröffentlichungsregel 
 
 10. Klicken Sie auf **Weiter**.
 
-11. Klicken Sie auf der Seite Weblistener **auswählen** auf **neu**.
+11. Klicken Sie auf der Seite **Weblistener auswählen** auf **neu**.
 
-12. Geben Sie im Assistenten für neue Weblistener-Definition einen Namen für den neuen Weblistener (beispielsweise **SSL**) in das Feld Weblistener- **Name** ein, und klicken Sie dann auf **weiter**.
+12. Geben Sie im Assistenten für neue Weblistener-Definition einen Namen für den neuen Weblistener (beispielsweise **SSL**) in das Feld **Weblistener-Name** ein, und klicken Sie dann auf **weiter**.
 
 13. Wählen Sie auf der Seite **Client Verbindungssicherheit** die Option **SSL-gesicherte Verbindungen mit Clients anfordern** aus, und klicken Sie dann auf **weiter**.
 
-14. Wählen Sie auf der Seite Weblistener **-IP-Adressen** die Option **extern**aus, wählen Sie **intern**aus, und klicken Sie dann auf **weiter**.
+14. Wählen Sie auf der Seite **Weblistener-IP-Adressen** die Option **extern**aus, wählen Sie **intern**aus, und klicken Sie dann auf **weiter**.
 
 15. Wählen Sie auf der Seite **Listener SSL-Zertifikate** die Option **einzelnes Zertifikat für diesen Weblistener verwenden** aus, und klicken Sie dann auf **Zertifikat auswählen**.
 
@@ -73,15 +75,15 @@ Führen Sie die folgenden Schritte aus, um eine Website Veröffentlichungsregel 
 
 17. Klicken Sie auf der Seite **Listener SSL-Zertifikate** auf **weiter**.
 
-18. Wählen Sie auf der Seite **Authentifizierungseinstellungen** in der Dropdownliste **Wählen Sie aus, wie Clients Anmeldeinformationen für Forefront TMG bereitstellen** die Option **keine Authentifizierung** aus, und klicken Sie dann auf **weiter**.
+18. Wählen Sie auf der Seite **Authentifizierungseinstellungen** in der Dropdown **Liste Wählen Sie aus, wie Clients Anmeldeinformationen für Forefront TMG bereitstellen** die Option **keine Authentifizierung** aus, und klicken Sie dann auf **weiter**.
 
 19. Klicken Sie auf der Seite **Einstellungen für einmaliges Anmelden** auf **weiter**.
 
 20. Überprüfen Sie auf der Seite zum **abschließen des neuen Weblistener-Assistenten** die Zusammenfassung der von Ihnen vorgenommenen Konfigurationsoptionen. Wenn Sie fertig sind, klicken Sie auf **Fertig stellen**.
 
-21. Klicken Sie auf der Seite Weblistener **auswählen** auf **weiter**.
+21. Klicken Sie auf der Seite **Weblistener auswählen** auf **weiter**.
 
-22. Wählen Sie **** auf der Seite Authentifizierungsdelegierung die Option keine Delegierung aus **, aber der Client kann sich direkt** über die **Option wählen Sie die Methode aus, die von Forefront TMG zur Authentifizierung bei der veröffentlichten Webserver** -Dropdownliste verwendet wird, und klicken Sie dann auf **Weiter. **.
+22. Wählen Sie auf der Seite **Authentifizierungsdelegierung** die Option **keine Delegierung aus, aber der Client kann sich direkt** über die **Option wählen Sie die Methode aus, die von Forefront TMG für die Authentifizierung bei der veröffentlichten Web Server** -Dropdownliste verwendet wird, und klicken Sie dann auf **weiter**.
 
 23. Überprüfen Sie auf der Seite **Benutzersätze** , ob die entsprechenden Benutzersätze aufgelistet sind. Standardmäßig ist dies der Benutzersatz **alle Benutzer** . Klicken Sie auf **Hinzufügen** , um andere Benutzergruppen hinzuzufügen, die Sie möglicherweise definiert haben. Wenn Sie fertig sind, klicken Sie auf **weiter**.
 

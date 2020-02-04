@@ -3,6 +3,8 @@ title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7af8228a7537f1bbef4e92af852834459281a817
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728175"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
@@ -34,7 +36,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 
 > [!IMPORTANT]  
-> Wenn Ihr Legacy Office Communications Server 2007 R2-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, gehen die Verfahren in diesem Abschnitt zum Umstieg der Verbund Einstellung auf einen lync-Server wie folgt vor: 2013 Edge-Server werden nicht unterstützt. Wenn die Legacy-Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von Office Communications Server 2007 R2 auf lync Server 2013 migrieren und dann den Office Communications Server 2007 R2-Edgeserver außer Betrieb setzen, bevor Sie die Föderation aktivieren. der lync Server 2013-Edgeserver Ausführliche Informationen finden Sie in den folgenden Themen: 
+> Wenn Ihr Legacy Office Communications Server 2007 R2-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, werden die Verfahren in diesem Abschnitt zum Übergang der Verbund Einstellung zu einem lync Server 2013-Edgeserver nicht unterstützt. Wenn die Legacy-Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von Office Communications Server 2007 R2 auf lync Server 2013 migrieren und dann den Office Communications Server 2007 R2-Edgeserver außer Betrieb setzen, bevor Sie die Föderation aktivieren. der lync Server 2013-Edgeserver Ausführliche Informationen finden Sie in den folgenden Themen: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Verschieben der verbleibenden Benutzer zu Lync Server 2013</A></P>
@@ -49,7 +51,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
 
 
 
-Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Benutzerrechte und Berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
+Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Benutzerrechte und Berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in der Dokumentation zur Standard Edition-Server-oder Enterprise Edition-Server Bereitstellung. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
 
 ## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a>So entfernen Sie die Legacy Verbund Zuordnung von lync Server 2013-Websites
 
@@ -63,7 +65,7 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 5.  Deaktivieren Sie Unterwebsite Verbund-Routenzuordnung das Kontrollkästchen neben **SIP-Verbund aktivieren** , um die Föderations Route über die **BackCompatSite**zu deaktivieren.
     
-    ![Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route] (images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verbund Route")
 
 6.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
@@ -79,11 +81,11 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 3.  Wählen Sie auf der **Seite Edge-Setup angeben**den **internen FQDN des Edge-Servers** aus, der derzeit für den Verbund konfiguriert ist, und klicken Sie dann auf **ändern**.
     
-    ![Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups] (images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups")
+    ![Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Zusammenführen der OCS 2007 R2-Topologie, angeben des Edge-Setups")
 
 4.  Klicken Sie auf **weiter** , und übernehmen Sie die Standardeinstellungen, bis Sie zur Seite **externen Edge angeben** gelangen:
     
-    ![Topologie-Generator, Seite ' externe Kante angeben] ' (images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Topologie-Generator, Seite ' externe Kante angeben") '
+    ![Topologie-Generator, Seite ' externe Kante angeben '](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Topologie-Generator, Seite ' externe Kante angeben '")
 
 5.  Deaktivieren Sie im Feld **externen Rand angeben**das Kontrollkästchen **dieser Edge-Pool wird für Verbund-und öffentliche Chat Verbindungen verwendet** . Dadurch wird die Verbund Zuordnung mit dem BackCompatSite entfernt.
     
@@ -101,9 +103,9 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 9.  Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
 
-10. Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
+10. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
     
-    ![Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird] (images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird")
+    ![Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Topologie-Generator mit Website, die nach dem Zusammenführen angezeigt wird")
     
     Wie in der vorherigen Abbildung zu sehen ist, ist der **SIP-Verbund** , der sich unter **Website Verbund-Routenzuordnung** befindet, auf **deaktiviert**festgesetzt.
 
@@ -129,7 +131,7 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 5.  Geben Sie den FQDN des lync Server 2013-Edge-Servers ein, und klicken Sie dann auf **OK**.
     
-    ![Globale OCS-Eigenschaften, Registerkarte "Föderation"] (images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Globale OCS-Eigenschaften, Registerkarte \"Föderation\"")
+    ![Globale OCS-Eigenschaften, Registerkarte "Föderation"](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Globale OCS-Eigenschaften, Registerkarte "Föderation"")
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>So aktivieren Sie den lync Server 2013-Edgeserver-Verbund
 
@@ -145,7 +147,7 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 3.  Aktivieren Sie auf der Seite **Allgemein** das Kontrollkästchen **Föderation für diesen Edge-Pool aktivieren (Port 5061)** .
     
-    ![Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren] (images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren")
+    ![Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, Edge-Verbund aktivieren")
 
 4.  Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.
 
@@ -159,7 +161,7 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 9.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
     
-    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools] (images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
+    ![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")
     
     Führen Sie für die Bereitstellung mehrerer Websites dieses Verfahren an jedem Standort aus.
 
@@ -173,7 +175,7 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 4.  Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.
     
-    ![Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools] (images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools")
+    ![Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Verknüpfung des Edge-Pools")
 
 5.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
 

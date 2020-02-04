@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen und Überprüfen von DNS-SRV-Einträgen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create and verify DNS SRV records
 ms:assetid: 86888c7e-1401-458f-9a7b-08ac726deeec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398680(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a539b58abbad323aaf7c7343b40eabb49d04d91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8440d2ae91d535c8c4747c923b1b17dda9bb0f46
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832855"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +97,7 @@ In diesem Thema wird beschrieben, wie Sie die DNS-Einträge (Domain Name System)
     
     SVR Hostname = Poolname.contoso.com (oder Standard Edition Server A Record)
     
-    Poolname.contoso.com Internet Address = \<virtuelle IP-Adresse des Load Balancer\> oder \<IP-Adresse eines einzelnen Enterprise Edition-Servers für Pools mit nur einem\> Enter \<Prise Edition-Server oder einer IP-Adresse des Standards Edition-Server\>
+    Poolname.contoso.com Internet Address = \<virtuelle IP-Adresse des Load Balancer\> oder \<IP-Adresse eines einzelnen Enterprise Edition-Servers für Pools mit nur einem\> Enter \<Prise Edition-Server oder einer IP-Adresse des Standard Edition-Servers\>
 
 7.  Wenn Sie die Eingabeaufforderung beendet haben, geben Sie **Exit**ein, und drücken Sie dann die EINGABETASTE.
 

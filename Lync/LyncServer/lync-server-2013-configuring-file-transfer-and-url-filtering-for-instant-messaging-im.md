@@ -3,6 +3,8 @@ title: Konfigurieren der Dateiübertragung und der URL-Filterung für Sofortnach
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring file transfer and URL filtering for instant messaging (IM)
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520952(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a9e39799815a86bc255b9aa58627df94eb3f81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Mithilfe der Seite " **URL-Filter** " in der **Chat-und Anwesenheits** Gruppe in
 
 Wenn eine Sofortnachricht von einem Server zu einem anderen reist, gelten die folgenden allgemeinen Richtlinien:
 
-  - Wenn ein Server eine Chatnachricht blockiert (weil Sie auf der Seite **URL-Filter** das Kontrollkästchen **URLs mit Dateierweiterung blockieren** aktiviert haben oder wenn Sie die Option **Hyperlink-Präfix** - **Links blockieren**ausgewählt haben), wird eine Fehlermeldung an gesendet. der Client. Nachfolgende Server empfangen diese Sofortnachricht nicht.
+  - Wenn ein Server eine Chatnachricht blockiert (weil Sie auf der Seite **URL-Filter** das Kontrollkästchen **URLs mit Dateierweiterung blockieren** aktiviert haben oder wenn Sie die Option **Hyperlink-Präfix** - **Links blockieren**ausgewählt haben), wird eine Fehlermeldung an den Client zurückgegeben. Nachfolgende Server empfangen diese Sofortnachricht nicht.
 
   - Wenn ein Server (Server1) eine Warnung zu einer Sofortnachricht hinzufügt, die einen aktiven Link enthält, kann ein nach folgender Server (Server2), der diese Sofortnachricht empfängt, weiterhin eine andere Aktion auf der Grundlage dieses aktiven Links in der Chatnachricht durchführen und die Sofortnachricht oder eine Warnung hinzufügen. Wenn Server2 nur zum Hinzufügen einer Warnung für diese URL konfiguriert ist, wird die zuvor von Server1 hinzugefügte Warnung entfernt, und die auf Server2 konfigurierte Warnung wird am Anfang der Sofortnachricht hinzugefügt.
 
@@ -122,7 +124,7 @@ Wenn Sie **Links blockieren** oder **Warnmeldung senden**auswählen, stehen die 
 
   - **Lokale Intranet-Links**   ausschließen der Sofortnachrichtenfilter blockiert nur Internet-URLs. URLs für Standorte innerhalb Ihres Intranets werden ungeändert über den Server weitergeleitet. Die Intranet-URLs, die von einzelnen Servern mit lync Server übertragen werden, hängen jedoch davon ab, welche Typen von lokalen Websites als Teil ihrer Intranetzone angesehen werden. Informationen zum Überprüfen der Intranet-Zoneneinstellungen eines Servers finden Sie unter [Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)unter "so konfigurieren Sie Ihre Intraneteinstellungen in Internet Explorer".
 
-  - **Filtern Sie diese Link Präfixe**   , um auszuwählen, welche Präfixe blockiert werden sollen, klicken Sie auf **auswählen**, und fügen Sie dann im Feld **Link Präfix auswählen**die Präfixe der Liste **Hyperlink** -Präfixe hinzu.
+  - **Filtern Sie diese Link Präfixe**   , um auszuwählen, welche Präfixe blockiert werden sollen, klicken Sie auf **auswählen**, und fügen Sie dann im Feld **Link Präfix auswählen**die Präfixe der Liste **Hyperlink-Präfixe** hinzu.
     
     Alle Präfixe mit Ausnahme von **href** müssen mit einem Punkt oder einem Doppelpunkt oder einem Sternchen, gefolgt von einem Punkt, enden. Gültige Präfixe können alle Zeichen in der Gruppe gültiger URL-Zeichen mit Ausnahme des Sternchens\*() enthalten. Der Satz gültiger URL-Zeichen lautet: \# \*+/0123456789 = @abcdefghijklmnopqrstuvwxyz ^\_ \` abcdefghijklmnopqrstuvwxyz | ~
 

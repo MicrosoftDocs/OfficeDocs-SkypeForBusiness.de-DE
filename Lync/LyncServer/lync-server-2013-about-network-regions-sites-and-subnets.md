@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Informationen zu Netzwerkregionen, Standorten und Subn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Die in diesem Abschnitt beschriebenen erweiterten Enterprise-VoIP-Features geben
 
 
 > [!IMPORTANT]  
-> Bevor Sie mit der Netzwerkkonfiguration für die Anrufsteuerung, E9-1-1 oder Media Bypass beginnen, stellen Sie sicher, dass Sie weitere Informationen zu den Netzwerkeinstellungen in den <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in lync Server 2013</A> überprüft haben. Thema in der Planungsdokumentation. Details zur Netzwerkkonfiguration in erster Linie zur Anrufsteuerung finden Sie auch unter <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013</A> in der Planungsdokumentation.
+> Bevor Sie mit der Netzwerkkonfiguration für die Anrufsteuerung, E9-1-1 oder Media Bypass beginnen, stellen Sie sicher, dass Sie weitere Informationen zu den Netzwerkeinstellungen in den <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Netzwerkeinstellungen für das erweiterte Enterprise Voice-Feature in lync Server 2013</A> in der Planungsdokumentation überprüft haben. Details zur Netzwerkkonfiguration in erster Linie zur Anrufsteuerung finden Sie auch unter <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013</A> in der Planungsdokumentation.
 
 
 

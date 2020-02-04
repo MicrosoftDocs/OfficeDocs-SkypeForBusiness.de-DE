@@ -3,6 +3,8 @@ title: Vorbereiten von Active Directory für lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prepare Active Directory for Lync Server 2013
 ms:assetid: d0978eb6-d842-40e9-b475-73197cc34e08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205265(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185413
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e36b5260c71c339ae22854b50b33311111aa09d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d6bedd4e0d008f448da97ad5fc5bf62d810cfedc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847024"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Bevor Sie lync Server 2013 in einem koexistenzstatus mit Office Communications S
 
 2.  Auswählen von " **Active Directory vorbereiten** "
     
-    ![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite] (images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")
+    ![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")
 
 3.  Führen Sie die Schritte 1 bis 5 aus.
     
-    ![Bereitstellungs-Assistent, Active Directory-prearat] (images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent, Active Directory-prearat")
+    ![Bereitstellungs-Assistent, Active Directory-prearat](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent, Active Directory-prearat")
 
 </div>
 

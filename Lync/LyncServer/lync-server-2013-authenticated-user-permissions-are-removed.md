@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Entfernte Berechtigungen für authentifizierte Benutze
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Authenticated user permissions are removed
 ms:assetid: 5fcd70a5-813a-4076-9bb6-5b0d47505038
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398425(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d5e14b8129f771093ed9facb09d047ac7c36d32
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63b9761f96156fdc4dea124d4438cdb8685add26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839900"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Wenn Sie kein Konto verwenden möchten, das ein Mitglied der Gruppe "Organisatio
 
 8.  Klicken Sie auf der Registerkarte **Objekte** unter **gilt für**auf **nur dieses Objekt**.
 
-9.  Wählen Sie unter **Berechtigungen**die folgenden ACEs zulassen aus, indem Sie auf die Spalte **zulassen** klicken: **Inhalt**auflisten, **alle Eigenschaften lesen**und **Berechtigungen Lesen**.
+9.  Wählen Sie unter **Berechtigungen**die folgenden ACEs zulassen aus, indem Sie auf die Spalte **zulassen** klicken: **Inhalt auflisten**, **alle Eigenschaften lesen**und **Berechtigungen Lesen**.
 
 10. Klicken Sie zweimal auf **OK** .
 

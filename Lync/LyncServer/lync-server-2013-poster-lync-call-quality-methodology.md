@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Poster: Methode der lync-Anrufqualität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824015"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-06-24_
 
 Dieser Artikel ist ein Begleiter des lync-Methoden-Plakats für die [Anrufqualität](http://go.microsoft.com/fwlink/?linkid=391841) , das Sie aus dem Download Center herunterladen können.
 
-![Poster mit Beschreibung des CQM-Prozesses] (images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster mit Beschreibung des CQM-Prozesses")
+![Poster mit Beschreibung des CQM-Prozesses](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster mit Beschreibung des CQM-Prozesses")
 
 Sie können dieses Poster verwenden, um mehr über CQM zu erfahren, die Methoden zur Anrufqualität für lync 2013 und 2010, die Ihnen helfen, Probleme zu finden und zu eliminieren, die sich auf die Anrufqualität und die Benutzererfahrung für lync-Implementierungen beziehen, die Enterprise-VoIP Die Methode der Anrufqualität ist ein neues Problem Behandlungs-und Dienst Verwaltungs Framework, mit dem sich die Bemühungen zur Verbesserung der Enterprise-VoIP-Dienste in lync besser konzentrieren können. In diesem Artikel finden Sie weitere Informationen zu CQM, den Arten von Servern und Lösungen, die überwacht werden, und was mit den erfassten Telemetrie-Daten zu tun ist.
 

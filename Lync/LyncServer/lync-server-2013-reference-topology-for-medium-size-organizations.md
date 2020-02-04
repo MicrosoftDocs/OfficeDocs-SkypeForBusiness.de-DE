@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Referenztopologie für mittelständische Organisatione
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum
 
 **Referenztopologie für mittelständige Organisationen**
 
-![Referenztopologie für ein einzelnes Datencenter-Diagramm] (images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Referenztopologie für ein einzelnes Datencenter-Diagramm")
+![Referenztopologie für ein einziges Rechenzentrum (Diagramm)](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Referenztopologie für ein einziges Rechenzentrum (Diagramm)")
 
   - **Mehr Benutzer aufnehmen, indem Sie weitere Front-End-Server hinzufügen.**    Die exakte Topologie in diesem Diagramm verfügt über drei Front-End-Server, die Unterstützung für 20.000-Benutzer bereitstellen. Wenn Sie über einen einzelnen zentralen Standort und mehr Benutzer verfügen, können Sie dem Pool einfach weitere Front-End-Server hinzufügen. Die maximale Anzahl von Benutzern pro Pool beträgt 80.000 mit zwölf Front-End-Servern.
     
@@ -53,7 +55,7 @@ Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum
 
   - **Überwachungs Server-Datenbankoptionen**    Diese Organisation hat die Überwachung bereitgestellt, um die Qualität von Enterprise-Sprachanrufen und A/V-Konferenzen zu gewährleisten. Die Überwachung wird auf jedem Front-End-Server bereitgestellt und die Überwachungsdatenbank wird mit den Back-End-Servern verbunden. Außerdem werden Topologien unterstützt, in denen sich die Überwachungsdatenbank auf einem separaten Server befindet.
 
-  - Spitzen **Server-Verfügbarkeit**    In dieser Beispielorganisation mit 20.000-Benutzern reicht nur ein Edgeserver für die Leistung aus. Es gibt jedoch einen Pool von zwei Edgeserver, die bereitgestellt werden, um eine höhere Verfügbarkeit bereitzustellen.
+  - **Edge-Server-Verfügbarkeit**    in dieser Beispielorganisation mit 20.000-Benutzern reicht nur ein Edgeserver für die Leistung aus. Es gibt jedoch einen Pool von zwei Edgeserver, die bereitgestellt werden, um eine höhere Verfügbarkeit bereitzustellen.
 
   - **Bereitstellungsoptionen für Verzweigungs Websites**    Die Organisation in dieser Topologie hat Enterprise-VoIP als Sprachlösung bereitgestellt. Branch Site 1 verfügt nicht über eine stabile WAN-Verbindung (Wide Area Network) mit dem zentralen Standort, sodass eine überlebensfähige Branch-Appliance bereitgestellt wird, um viele lync Server-Features zu verwalten, falls die WAN-Verbindung zur zentralen Website ausfällt. Zweigstelle 2 verfügt über eine ausfallsichere WAN-Verbindung, daher wird nur ein PSTN-Gateway benötigt. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird in Zweigstelle 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zur Entscheidung, was auf einer Zweigstelle bereitgestellt werden soll, finden Sie unter [Planen der sprach Sicherheit in der Zweigstelle in lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) in der Planungsdokumentation.
 
@@ -92,7 +94,7 @@ Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum
 
   - **Directors können hinzugefügt werden.**    Wenn diese Organisation dazu beitragen soll, die Sicherheit vor Denial-of-Service-Angriffen zu erhöhen, kann Sie auch einen Pool von Directors bereitstellen. Bei einem Director handelt es sich um eine separate, optionale Serverrolle in lync Server, auf der keine Benutzerkonten zu Hause sind, oder Anwesenheits-oder Konferenzdienste bereitstellen. Sie fungiert als interner Server für den nächsten Hop, auf dem ein Edgeserver eingehenden SIP-Datenverkehr für interne Server weiterleitet. Der Director authentifiziert eingehende Anforderungen vorab und leitet Sie an den privaten Pool oder Server des Benutzers weiter. Die Vorabauthentifizierung durch den Director ermöglicht das Verwerfen von Anfragen von Benutzerkonten, die der Bereitstellung nicht bekannt sind. Ein Director hilft, Front-End-Server vor böswilligem Datenverkehr zu isolieren, wie DOS-Attacken (Denial-of-Service). Wenn das Netzwerk bei einem solchen Angriff mit einem ungültigen externen Datenverkehr überflutet wird, endet der Datenverkehr beim Director.
 
-  - **System Center Operations Manager wird empfohlen.**   Wir empfehlen, dass Sie den Status Ihrer lync Server-Bereitstellung überwachen, um die Dienstverfügbarkeit für Endbenutzer zu gewährleisten. Sie können lync mit dem System Center Operations Manager-Management Pack für lync überwachen, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem lync-Management Pack können Sie proaktiv Echtzeitbenachrichtigungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um die End-to-End-lync-Funktionalität zu testen, Berichte für die Dienstverfügbarkeit abzurufen usw. This helps you to proactively respond to issues with your deployment before end-users experience them.
+  - **System Center Operations Manager wird empfohlen.**   Wir empfehlen, dass Sie den Status Ihrer lync Server-Bereitstellung überwachen, um die Dienstverfügbarkeit für Endbenutzer zu gewährleisten. Sie können lync mit dem System Center Operations Manager-Management Pack für lync überwachen, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem lync-Management Pack können Sie proaktiv Echtzeitbenachrichtigungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um die End-to-End-lync-Funktionalität zu testen, Berichte für die Dienstverfügbarkeit abzurufen usw. Dadurch können Sie proaktiv auf Probleme mit Ihrer Bereitstellung reagieren, bevor Endbenutzer davon betroffen sind.
 
 </div>
 

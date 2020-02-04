@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Einführung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Introduction to Lync Server
 ms:assetid: 99dd6b65-e591-421f-852b-ee9fe9588998
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df182c8d58d6f1e60b164fbb28299945f6a8cba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8879bd2f3638df17215b7b8f0ee4a12c751277f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-10-07_
 
 Lync Server 2013 und seine Client Software, wie lync 2013, ermöglichen es Ihren Benutzern, auf neue Weise eine Verbindung herzustellen und unabhängig von ihrem physikalischen Standort in Verbindung zu bleiben. Lync und lync Server vereinen die unterschiedlichen Möglichkeiten, wie Personen in einer einzelnen Clientschnittstelle kommunizieren, als einheitliche Plattform bereitgestellt werden und über eine einzige Verwaltungsinfrastruktur verwaltet werden.
 
-Diese Tabelle und die folgenden Abschnitte veranschaulichen die wichtigsten Funktionsgruppen oder *Arbeits*Auslastungen, die lync Server für Ihre Benutzer bereitstellt.
+Diese Tabelle und die folgenden Abschnitte veranschaulichen die wichtigsten Funktionsgruppen oder *Arbeitsauslastungen*, die lync Server für Ihre Benutzer bereitstellt.
 
 
 <table>
@@ -69,7 +71,7 @@ Diese Tabelle und die folgenden Abschnitte veranschaulichen die wichtigsten Funk
 
 
 </div>
-<p>Anwesenheitsinformationen und zeigt die persönliche Verfügbarkeit und Bereitschaft des Benutzers zur Kommunikation über die Verwendung von allgemeinen Zuständen wie " <strong>verfügbar</strong> " oder " <strong>beschäftigt</strong>" sowie detailliertere Zustände wie " <strong>seien Sie gleich zurück</strong> " und "nicht stören" an. <strong> </strong>. Diese umfangreichen Anwesenheitsinformationen ermöglichen es anderen Benutzern, sofort effektive Kommunikationsentscheidungen zu treffen.</p></td>
+<p>Anwesenheitsinformationen und zeigt die persönliche Verfügbarkeit und Bereitschaft des Benutzers zur Kommunikation durch die Verwendung von allgemeinen Zuständen wie " <strong>verfügbar</strong> " oder " <strong>beschäftigt</strong>" sowie detailliertere Zustände wie " <strong>seien Sie gleich zurück</strong> " und " <strong>nicht stören</strong>" an. Diese umfangreichen Anwesenheitsinformationen ermöglichen es anderen Benutzern, sofort effektive Kommunikationsentscheidungen zu treffen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Konferenzen</p></td>
@@ -83,8 +85,8 @@ Diese Tabelle und die folgenden Abschnitte veranschaulichen die wichtigsten Funk
 </tr>
 <tr class="even">
 <td><p>Unterstützung für Remotebenutzer</p></td>
-<td><p>Sie können vollständige lync Server-Funktionen für Benutzer bereitstellen, die sich derzeit außerhalb der Firewalls Ihrer Organisation <em></em> befinden, indem Sie Server mit dem Namen Edgeserver bereitstellen, um eine Verbindung für diese Remotebenutzer bereitzustellen. Diese Remotebenutzer können mithilfe eines PCs, auf dem lync 2013 installiert ist, dem Smartphone oder einem Webinterface eine Verbindung mit Konferenzen herstellen.</p>
-<p>Durch die Bereitstellung von Edgeserver <em></em> können Sie auch mit Partner-oder Anbieter Organisationen zusammenarbeiten. Eine Verbundbeziehung ermöglicht es Ihren Benutzern, Verbundbenutzer in ihre Kontaktlisten zu versetzen, Anwesenheitsinformationen und Sofortnachrichten mit diesen Benutzern zu austauschen und Sie zu Audioanrufen, Videoanrufen und Konferenzen einzuladen.</p></td>
+<td><p>Sie können vollständige lync Server-Funktionen für Benutzer bereitstellen, die sich derzeit außerhalb der Firewalls Ihrer Organisation befinden, indem Sie Server mit dem Namen <em>Edgeserver</em> bereitstellen, um eine Verbindung für diese Remotebenutzer bereitzustellen. Diese Remotebenutzer können mithilfe eines PCs, auf dem lync 2013 installiert ist, dem Smartphone oder einem Webinterface eine Verbindung mit Konferenzen herstellen.</p>
+<p>Durch <em>die Bereitstellung von</em> Edgeserver können Sie auch mit Partner-oder Anbieter Organisationen zusammenarbeiten. Eine Verbundbeziehung ermöglicht es Ihren Benutzern, Verbundbenutzer in ihre Kontaktlisten zu versetzen, Anwesenheitsinformationen und Sofortnachrichten mit diesen Benutzern zu austauschen und Sie zu Audioanrufen, Videoanrufen und Konferenzen einzuladen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Support für mobile Clients</p></td>

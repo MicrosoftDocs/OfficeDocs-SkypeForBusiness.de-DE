@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vorbereiten der Wiederherstellung von lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing to restore Lync Server
 ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a470a338d05436be942201e6df6a864f955ac87c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823756"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -190,7 +192,7 @@ Bevor Sie den Server wiederherstellen, müssen Sie die folgenden Schritte ausfü
 
 Überprüfen Sie, ob die Hardware und die Software, die Sie für die Komponenten benötigen, die Sie wiederherstellen möchten, verfügbar sind, bevor Sie die Wiederherstellung starten. Nachdem Sie das Betriebssystem und SQL Server installiert haben, können die meisten Schritte in den folgenden Wiederherstellungsverfahren Remote ausgeführt werden. Die Ausnahmen sind in den Verfahren angegeben.
 
-Außerdem sollten Sie den Sicherungs-und Wiederherstellungsplan Ihrer Organisation und die Informationen aus ihrer letzten Sicherung, wie etwa die Informationen in den Arbeitsblättern in diesem Dokument (Einzelheiten finden Sie unter [Sicherungs-und Wiederherstellungs Arbeitsblätter für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), angeben. verfügbar, bevor Sie mit der Wiederherstellung beginnen.
+Darüber hinaus sollten Sie den Sicherungs-und Wiederherstellungsplan Ihrer Organisation und die Informationen aus ihrer letzten Sicherung, wie etwa die Informationen in den Arbeitsblättern in diesem Dokument (Details finden Sie unter [Sicherungs-und Wiederherstellungs Arbeitsblätter für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), verfügbar sein, bevor Sie mit der Wiederherstellung beginnen.
 
 </div>
 

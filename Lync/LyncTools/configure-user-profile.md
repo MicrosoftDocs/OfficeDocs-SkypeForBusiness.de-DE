@@ -3,6 +3,8 @@ title: Benutzerprofil konfigurieren
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Füllen Sie die Felder auf jeder Registerkarte des lync Server 2013 Load Configu
 
 Die folgende Abbildung zeigt die Registerkarte " **Allgemeine Konfiguration** " im lync Server 2013 Load Configuration Tool. Füllen Sie die Felder auf der Registerkarte **Allgemeine Konfiguration** aus, wie in den folgenden Schritten beschrieben.
 
-![Registerkarte "Allgemeine Konfiguration"] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Registerkarte \"Allgemeine Konfiguration\"")
+![Registerkarte "Allgemeine Konfiguration"](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Registerkarte "Allgemeine Konfiguration"")
 
 1.  Geben Sie unter **Anzahl der verfügbaren**Computer die Anzahl der Computer ein, die Sie zum Ausführen von LyncPerfTool. exe verwenden möchten, oder klicken Sie darauf. Wir empfehlen, dass Sie über einen Computer für alle 4.500-Benutzer verfügen, die Sie simulieren werden. Diese Nummer kann variieren, wenn Sie den Ladebereich verringern oder nur einen Teil der verfügbaren Funktionen verwenden. (Die Ladestufen werden auf der Registerkarte **Allgemeine Szenarien** eingestellt.)
 
@@ -95,7 +97,7 @@ Die Registerkarte " **Allgemeine Szenarien** " im lync Server 2013 Load Configur
 
 Konfigurieren Sie die Auslastungsstufen und Parameter für die einzelnen allgemeinen Szenarien, die Sie ausführen möchten, oder lassen Sie deaktiviert.
 
-![Registerkarte "allgemeine Szenarien"] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Registerkarte \"allgemeine Szenarien\"")
+![Registerkarte "allgemeine Szenarien"](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Registerkarte "allgemeine Szenarien"")
 
 1.  Geben Sie in **Instant Messaging**, das Peer-to-Peer und Konferenzen umfasst, den entsprechenden Wert für die Auslastungsstufe an.
     
@@ -108,7 +110,7 @@ Konfigurieren Sie die Auslastungsstufen und Parameter für die einzelnen allgeme
     
     </div>
 
-2.  Geben **** Sie in Audiokonferenzen, bei denen es sich nur um Audiokonferenzen handelt, den entsprechenden Wert für Load Level an. Peer-zu-Peer-Anrufe werden im Abschnitt VoIP-Szenarien weiter unten in diesem Thema behandelt. Um MultiView zu aktivieren, öffnen Sie die Registerkarte **erweitert** für diese Modalität.
+2.  Geben Sie in **Audiokonferenzen**, bei denen es sich nur um Audiokonferenzen handelt, den entsprechenden Wert für Load Level an. Peer-zu-Peer-Anrufe werden im Abschnitt VoIP-Szenarien weiter unten in diesem Thema behandelt. Um MultiView zu aktivieren, öffnen Sie die Registerkarte **erweitert** für diese Modalität.
 
 3.  Geben Sie in **Anwendungsfreigabe**den entsprechenden Wert für Load Level an.
 
@@ -142,7 +144,7 @@ Die Registerkarte " **VoIP-Szenarien** " im lync Server 2013 Load Configuration 
 
 Verwenden Sie die Registerkarte **VoIP-Szenarien** , um alle sprachbezogenen Szenarien zu konfigurieren.
 
-![Registerkarte "Sprachszenarien"] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Registerkarte \"Sprachszenarien\"")
+![Registerkarte "Sprachszenarien"](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Registerkarte "Sprachszenarien"")
 
 1.  Klicken Sie in **VoIP**auf die Schaltfläche **erweitert** , und geben Sie dann Werte für die Felder **PhoneAreaCode** und **LocationProfile** (Wählplan) ein. Außerdem müssen Sie einen Wert für **Load Level**angeben. Wenn Load Level für **VoIP** und **UC/PSTN-Gateway** aktiviert ist, wird immer ein öffentliches Switched Telephone Network (PSTN) zur Unified Communications (UC)-Konfigurationsdatei generiert, die externe Anrufe simuliert.
 
@@ -183,7 +185,7 @@ REACH ist eine neue Erfahrung in lync Server 2013, die Konferenzszenarien über 
 
 Verwenden Sie die Registerkarte **REACH** , um alle REACH-bezogenen Szenarien zu konfigurieren.
 
-![Registerkarte "REACH"] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Registerkarte \"REACH\"")
+![Registerkarte "REACH"](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Registerkarte "REACH"")
 
 1.  Klicken Sie auf die Schaltfläche **erweitert** neben **Allgemeine Einstellungen für REACH**. Legen Sie das Feld **UcwaTargetServerUrl** auf den Director Pool Virtual IP (VIP) oder den Front-End-Pool VIP.
 
@@ -201,7 +203,7 @@ Verwenden Sie die Registerkarte **REACH** , um alle REACH-bezogenen Szenarien zu
 
 Verwenden Sie die Registerkarte **Mobilität** , um alle mobilitätsbezogenen Szenarien zu konfigurieren.
 
-![Reiter Mobilität.] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Reiter Mobilität.")
+![Reiter Mobilität.](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Reiter Mobilität.")
 
 1.  Klicken Sie auf die Schaltfläche **erweitert** neben **Mobilität (UCWA)**. Legen Sie das Feld **UcwaTargetServerUrl** auf den Director Pool Virtual IP (VIP) oder den Front-End-Pool VIP.
 
@@ -225,11 +227,11 @@ Verwenden Sie die Registerkarte **Mobilität** , um alle mobilitätsbezogenen Sz
 
 Die Registerkarte " **Zusammenfassung** " des lync Server 2013 Load Configuration-Tools ist in der folgenden Abbildung dargestellt.
 
-![Registerkarte "Zusammenfassung"] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Registerkarte \"Zusammenfassung\"")
+![Registerkarte "Zusammenfassung"](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Registerkarte "Zusammenfassung"")
 
 Die Registerkarte " **Zusammenfassung** " gibt an, welche Benutzer für die einzelnen Szenarien verwendet werden sollen. Es ist möglich, Benutzernummern Bereiche manuell zu konfigurieren, indem Sie das Kontrollkästchen Benutzer **definierte Benutzerbereichs Generierung aktivieren** auswählen und dann in der Tabelle mit dem **Benutzerbereich** , den Sie anpassen möchten, auf das Szenario doppelklicken. Überprüfen (RunClient. bat) fügen Sie beim Starten eine Anmelde Verzögerung hinzu, um Verzögerungen in den generierten Batchdateien einzubeziehen, damit Sie dem Anmelde Satz entsprechen. Dies ist nützlich, um eine Serverüberlastung zu verhindern, wenn eine große Anzahl von Benutzern signiert wird. Klicken Sie auf **Dateien generieren**, und wählen Sie den Ordner aus, in dem Sie die Konfiguration generieren möchten. Wenn Ihre Dateien erfolgreich erstellt wurden, wird ein Dialogfeld angezeigt, das der folgenden Abbildung ähnelt.
 
-![Bestätigung, dass Dateien erstellt wurden.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Bestätigung, dass Dateien erstellt wurden.")
+![Bestätigung, dass Dateien erstellt wurden.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Bestätigung, dass Dateien erstellt wurden.")
 
 </div>
 

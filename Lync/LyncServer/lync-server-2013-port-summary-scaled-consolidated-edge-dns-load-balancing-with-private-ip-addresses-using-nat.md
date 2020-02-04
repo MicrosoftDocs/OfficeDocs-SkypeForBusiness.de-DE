@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Portzusammenfassung für einen skalierten konsolidiert
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: a296c2af-54d4-4b4f-9795-9191baf688cb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d7e9a142e478674f4be369ace5551b2b628db83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 20071cba55551a42ea6406723bb1f9ed55853afa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Neben IPv4 unterstützt der Edgeserver nun IPv6. Aus Gründen der Übersichtlich
 
 **Unternehmens Umkreisnetzwerk für skalierten konsolidierten Edge mit privaten IP-Adressen mithilfe von NAT**
 
-![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead] (images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
+![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
 
 <div>
 

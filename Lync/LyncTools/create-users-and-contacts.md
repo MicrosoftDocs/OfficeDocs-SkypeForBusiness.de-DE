@@ -3,6 +3,8 @@ title: Erstellen von Benutzern und Kontakten
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840047"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Sie müssen das lync Server-Benutzer Bereitstellungs Tool verwenden, um Benutzer
 
 Wenn das lync Server-Benutzer Bereitstellungs Tool geöffnet wird, klicken Sie auf **Konfiguration** , und wählen Sie **Konfiguration laden**aus. Wenn Sie mit der Konfiguration von Benutzern und Kontakten beginnen möchten, laden Sie die im Paket enthaltene Standarddatei SampleData. Xml. Dadurch werden die Felder mit Beispieldaten vorab gefüllt, die Sie für Ihr System überarbeiten müssen. Wenn Sie über eine vorkonfigurierte XML-Datei verfügen, die bereits angepasste Einstellungen enthält, laden Sie stattdessen die Datei. Füllen Sie die Felder im lync Server-Benutzer Bereitstellungs Tool aus, wie in den folgenden Abschnitten beschrieben.
 
-![Registerkarte "Benutzererstellung"] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Registerkarte \"Benutzererstellung\"")
+![Registerkarte "Benutzererstellung"](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Registerkarte "Benutzererstellung"")
 
 Führen Sie die folgenden Schritte aus, um Serveroptionen zu konfigurieren.
 
@@ -149,7 +151,7 @@ Wenn Sie auf die Schaltfläche Benutzer löschen klicken, werden alle Eingabepar
 
 Auf der Registerkarte "Kontakte erstellen" können Sie Details zu den Kontakten der Benutzer angeben.
 
-![Registerkarte "Kontakte erstellen"] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Registerkarte \"Kontakte erstellen\"")
+![Registerkarte "Kontakte erstellen"](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Registerkarte "Kontakte erstellen"")
 
 Führen Sie die folgenden Schritte aus, um die Kontakte der Benutzer zu konfigurieren.
 
@@ -195,7 +197,7 @@ Führen Sie die folgenden Schritte aus, um die Kontakte der Benutzer zu konfigur
 
 Eines der Features des lync Server 2013-Tools für Stress und Leistung besteht darin, das Erweiterungsfeature Verteilerliste (DL) in lync 2013 zu simulieren. Wenn Sie die DL-Erweiterung in UserProvisioningTool nicht aktivieren möchten, können Sie diesen Schritt überspringen.
 
-![Registerkarte "Erstellung der Verteilerliste"] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Registerkarte \"Erstellung der Verteilerliste\"")
+![Registerkarte "Erstellung der Verteilerliste"](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Registerkarte "Erstellung der Verteilerliste"")
 
 Auf der Registerkarte "Verteilerliste" können Sie DLS erstellen, die vom Tool "Spannung und Leistung" für das Erweiterungsfeature "Verteilerliste" verwendet werden. Vor dem Erstellen von DLS muss lync Server 2013 bereits installiert sein. Sie müssen lync Server 2013 ForestPrep ausgeführt haben. Andernfalls sind die DL-Attribute im Active Directory-Domänendienste-Schema nicht vorhanden, und das Tool kann keine DLS erstellen.
 
@@ -225,7 +227,7 @@ Wenn Sie auf die Schaltfläche Verteilerlisten erstellen klicken, fragt das Tool
 
 Eines der Features des lync Server 2013-Tools Stress und Leistung besteht darin, Dummy-Konfigurationsdateien für den standortinformationsdienst zu generieren. Der standortinformationsdienst hat in der Regel keine bedeutenden Auswirkungen auf die Leistung der Server.
 
-![Registerkarte "Standortinformationen für Dienstkonfiguration"] (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Registerkarte \"Standortinformationen für Dienstkonfiguration\"")
+![Registerkarte "Standortinformationen für Dienstkonfiguration"](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Registerkarte "Standortinformationen für Dienstkonfiguration"")
 
 Wenn Sie dieses Feature testen möchten, können Sie die im Formular genannten Werte ausfüllen und dann auf die Schaltfläche "LIS-Konfigurationsdateien generieren" klicken. Es werden CSV-Dateien wie "\_LIS Subnet. csv"\_, "LIS Switches\_. csv", "LIS\_Ports. csv" und "LIS WAP. csv" generiert. Sie können diese CSV-Dateien dann in die LIS-Datenbank importieren, indem Sie das Cmdlet " **CsLisSubnet** ", das Cmdlet "Satz- **CsLisSwitch** ", das Cmdlet " **Satz-CsLisPort** " und das Cmdlet "Satz **-CsWirelessAccessPoint** " verwenden.
 

@@ -3,6 +3,8 @@ title: Identitäten, Bereiche und Mandanten in Skype for Business Online
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a759c53b717cbaf1ecdb747d5cb01e94b305f52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b08c459f64a4655ebb4dc670255645f985452aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Sie haben möglicherweise auch zwei Benutzer: Ken Myers und Pilar Ackerman. Ken 
 
 Wie Sie sehen können, ist es Ken Myers gestattet, mit öffentlichen Chat Dienstanbietern zu kommunizieren. Der Grund hierfür ist, dass die Einstellungen in der ihm zugewiesenen Benutzerrichtlinie die Einstellungen in der globalen Richtlinie außer Kraft setzen. Pilar Ackerman kann nicht mit öffentlichen Chat Anbietern kommunizieren. Dies liegt daran, dass Sie von der globalen Richtlinie verwaltet wird und die globale Richtlinie diese Kommunikation untersagt.
 
-Richtlinien für einzelne Benutzer müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie den Benutzern mithilfe des entsprechenden **Grant-CS-** Cmdlets zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Richtlinien für einzelne Benutzer sind einfach zu erkennen, da die Richtlinien Identität immer mit dem **** Tagpräfix beginnt. Beispiel:
+Richtlinien für einzelne Benutzer müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie den Benutzern mithilfe des entsprechenden **Grant-CS-** Cmdlets zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Richtlinien für einzelne Benutzer sind einfach zu erkennen, da die Richtlinien Identität immer mit dem **Tagpräfix beginnt.** Beispiel:
 
     Identity : tag:AllowPublicIMCommunication
 
@@ -95,7 +97,7 @@ Richtlinien für einzelne Benutzer müssen vom Office 365-Support für Sie erste
 
 
 > [!NOTE]  
-> Das Tagpräfix <STRONG></STRONG> geht auf die frühen Entwicklungstage von lync Server 2010 zurück. In diesen Tagen wurden Richtlinien für einzelne Benutzer als <EM>Transponder Richtlinien</EM> bezeichnet und durch das Tagpräfix identifiziert. <STRONG></STRONG> Diese Richtlinien werden jetzt genauer als benutzerspezifische <EM>Richtlinien</EM>bezeichnet, und der Transponder Bereich wird genauer als benutzerspezifischer <EM>Bereich</EM>bezeichnet. Aus technischen Gründen wurde das Tagpräfix jedoch nie <STRONG></STRONG> geändert.
+> Das Tagpräfix <STRONG>geht auf</STRONG> die frühen Entwicklungstage von lync Server 2010 zurück. In diesen Tagen wurden Richtlinien für einzelne Benutzer als <EM>Transponder Richtlinien</EM> bezeichnet und durch <STRONG>das Tagpräfix identifiziert.</STRONG> Diese Richtlinien werden jetzt genauer als benutzerspezifische <EM>Richtlinien</EM>bezeichnet, und der Transponder Bereich wird genauer als benutzerspezifischer <EM>Bereich</EM>bezeichnet. Aus technischen <STRONG>Gründen wurde das Tagpräfix jedoch</STRONG> nie geändert.
 
 
 

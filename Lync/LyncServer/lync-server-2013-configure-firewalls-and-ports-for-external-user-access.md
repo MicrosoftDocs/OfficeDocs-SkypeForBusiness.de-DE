@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren von Firewalls und Ports für den externe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure firewalls and ports for external user access
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 142488d35c3d5afa988be11baa688849065df066
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b10ad0826e0b15ff42b47dc6c732b2b60500f8b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839364"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839364"
 
 _**Letztes Änderungsdatum des Themas:** 2012-05-21_
 
-Um Firewalls und Ports zu konfigurieren, müssen Sie Sie für Edgeserver, Reverse-Proxy Server und möglicherweise Hardwarelastenausgleichs (für eine skalierte Bereitstellung, die keinen DNS-Lastenausgleich verwendet) konfigurieren. Dieser Abschnitt enthält Informationen über Firewall-und Portanforderungen für alle Edgeserver-Komponenten und die Konfiguration von Firewall-Ports für Edgeserver. Weitere Informationen zum Konfigurieren von Ports für Reverse-Proxy Server finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md). Wenn Sie eine skalierte Edge-Topologie bereitstellen und anstelle des DNS-Lastenausgleichs den Hardwarelastenausgleich verwenden, finden Sie weitere Informationen zum Konfigurieren von [Hardwarelastenausgleichs in lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in der Planungsdokumentation unter skalierter konsolidierter Edge. Ports für Hardware-Lastenausgleichsgeräte.
+Um Firewalls und Ports zu konfigurieren, müssen Sie Sie für Edgeserver, Reverse-Proxy Server und möglicherweise Hardwarelastenausgleichs (für eine skalierte Bereitstellung, die keinen DNS-Lastenausgleich verwendet) konfigurieren. Dieser Abschnitt enthält Informationen über Firewall-und Portanforderungen für alle Edgeserver-Komponenten und die Konfiguration von Firewall-Ports für Edgeserver. Weitere Informationen zum Konfigurieren von Ports für Reverse-Proxy Server finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md). Wenn Sie eine skalierte Edge-Topologie bereitstellen und anstelle des DNS-Lastenausgleichs den Hardwarelastenausgleich verwenden, finden Sie weitere Informationen zum Konfigurieren von Ports für Hardwarelastenausgleichs in der Planning-Dokumentation unter [skalierter konsolidierter Edge mit Hardwarelastenausgleichs in lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) .
 
 <div>
 

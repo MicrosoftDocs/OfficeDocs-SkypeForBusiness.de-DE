@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Migrationsüberlegungen für Besprechungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67816dd8f2b9d8be3862994c735040c703bd2231
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af94514360509d4f608a21228b2fecf9a522007
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -80,7 +82,7 @@ Während der Migration sollten Office Communicator 2007 R2-Benutzer lync Web App
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>Migrieren von Benutzern basierend auf Ihren Konferenz Anforderungen
 
-**Häufige Besprechungsorganisatoren**    Ziehen Sie es vor, häufige Besprechungsorganisatoren frühzeitig zu migrieren, damit Sie die neuen lync Server 2013-und lync 2013-Features nutzen können, die in den [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync beschrieben sind. Server 2013](lync-server-2013-what-s-new-for-clients.md).
+**Häufige Besprechungsorganisatoren**    Ziehen Sie es vor, häufige Besprechungsorganisatoren frühzeitig zu migrieren, damit Sie die neuen lync Server 2013-und lync 2013-Features nutzen können, die in den [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)beschrieben sind.
 
 **Live Meeting-Benutzer.**    Wenn Sie von Office Communications Server 2007 R2 migrieren, und Sie über Benutzer verfügen, die für Live Meeting spezifische Webkonferenz Features benötigen – insbesondere Unterstützung für große Besprechungen und Break-out-Räume – haben Sie die folgenden Optionen:
 

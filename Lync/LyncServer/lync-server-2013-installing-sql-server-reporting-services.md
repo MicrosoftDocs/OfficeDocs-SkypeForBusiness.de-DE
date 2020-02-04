@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Installieren von SQL Server Reporting Services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6342743486e3a3261e297d602ceb994d421dc13c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831986"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +47,9 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Reporting Ser
     
     Wenn Sie Microsoft SQL Server 2012 ausführen, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft SQL Server 2012**, klicken Sie auf **Konfigurations Tools**, und klicken Sie dann auf **Reporting Services-Konfigurations-Manager**.
 
-2.  Überprüfen Sie im Dialogfeld **Reporting Services-Konfigurationsverbindung** , ob der Name Ihres Servers im Feld **Servername** angezeigt wird und dass der Name der SQL Server-Instanz, die ihre Überwachungsdaten speichert, auf dem **Berichtsserver angezeigt wird. Feld Instanz** . Klicken Sie auf **verbinden**.
+2.  Überprüfen Sie im Dialogfeld **Reporting Services-Konfigurationsverbindung** , ob der Name Ihres Servers im Feld **Servername** angezeigt wird und der Name der SQL Server-Instanz, die ihre Überwachungsdaten speichert, im Feld **Berichtsserverinstanz** angezeigt wird. Klicken Sie auf **verbinden**.
 
-Im Reporting Service-Konfigurations-Manager sollte der Bereich Berichtsserverstatus anzeigen, dass SQL Server Reporting Services installiert wurde und dass die Reporting Services aktuell ausgeführt werden: der Status des Berichtsservers sollte als **gestartet** angezeigt werden und die Schaltfläche " **Start** " sollte abgeblendet und nicht verfügbar sein. Wenn der Berichterstattungsdienst nicht ausgeführt wird, klicken Sie auf **Start** , um den Dienst zu starten.
+Im Reporting Service-Konfigurations-Manager sollte der Bereich Berichtsserverstatus anzeigen, dass SQL Server Reporting Services installiert wurde und dass die Reporting Services aktuell ausgeführt werden: der Status des Berichtsservers sollte als **gestartet** angezeigt werden, und die Schaltfläche **Start** sollte abgeblendet und nicht verfügbar sein. Wenn der Berichterstattungsdienst nicht ausgeführt wird, klicken Sie auf **Start** , um den Dienst zu starten.
 
 Wenn neben der Bezeichnung des Berichts Server-Datenbanknamens keine Datenbank aufgeführt ist, gehen Sie folgendermaßen vor:
 

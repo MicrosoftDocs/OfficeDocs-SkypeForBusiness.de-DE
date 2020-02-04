@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Diagnoseberichte für Medienqualität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Diagnostic Reports
 ms:assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05836ea853c89b132d39eaaba1b66056fa958072
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827333"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualit
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zusammenfassungsbericht für Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md)   bietet allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, einschließlich Peer-to-Peer-Anrufen für Unternehmens-VoIP, Enterprise-VoIP-Konferenzanrufe und Anrufe, die zumindest teilweise für die Öffentlichkeit angewiesen sind. Switched Telephone Network (PSTN).
+  - [Zusammenfassungsbericht zur Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md)   bietet allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, einschließlich Peer-to-Peer-Anrufen für Unternehmens-VoIP, Enterprise-VoIP-Konferenzanrufe und Anrufe, die zumindest teilweise im öffentlichen Telefonnetz (PSTN) angewiesen sind.
 
   - [Der Bericht zur Medien Qualitäts Vergleichsfunktion in lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   bietet einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen (beispielsweise Anrufe, die über ein Drahtlosnetzwerk getätigt wurden, und Anrufe, die über eine Kabelverbindung erfolgen).
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Installieren der Operations Manager-Agentendateien'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Operation Manager agent files
 ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205345(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8675e6c75c288e6594e45ecdcc2f65497a047a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f75e9b6f8c3f7eb7151cf0d67a62f5e2a03a65f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831971"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um die Operations Manager-Agentendateien
 
 5.  Wählen Sie auf der Seite **Verwaltungsgruppenkonfiguration** die Option **Verwaltungsgruppeninformationen angeben**aus, und klicken Sie dann auf **weiter**.
 
-6.  Geben Sie auf der Seite **Verwaltungsgruppenkonfiguration** den Namen Ihrer Operations Manager-Verwaltungsgruppe im Feld **Verwaltungsgruppenname** ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) in das **Feld Verwaltungs Server** -Feld. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld Verwaltungs Server Port ein. Andernfalls können Sie den Port mit dem Standardwert 5723 und dann auf **weiter**klicken.
+6.  Geben Sie auf der Seite **Verwaltungsgruppenkonfiguration** den Namen Ihrer Operations Manager-Verwaltungsgruppe im Feld **Verwaltungsgruppenname** ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) im Feld **Verwaltungsserver** ein. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld Verwaltungs Server Port ein. Andernfalls können Sie den Port mit dem Standardwert 5723 und dann auf **weiter**klicken.
 
 7.  Wählen Sie auf der Seite **Agent-Aktionskonto** die Option **Lokales System**aus, und klicken Sie dann auf **weiter**.
 
@@ -59,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um die Operations Manager-Agentendateien
 
 11. Klicken Sie auf **Beenden**.
 
-Wenn Sie System Center 2007 R2 verwenden, können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **System Center Operations Manager 2007 R2**klicken und dann auf **Operations Manager-Shell**klicken. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
+Wenn Sie System Center 2007 R2 verwenden, können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **System Center Operations Manager 2007 R2**klicken und dann auf **Operations Manager-Shell**klicken. Geben Sie in der Operations Manager-Shell den folgenden Windows PowerShell-Befehl ein, und drücken Sie dann die EINGABETASTE:
 
     Get-Agent 
 

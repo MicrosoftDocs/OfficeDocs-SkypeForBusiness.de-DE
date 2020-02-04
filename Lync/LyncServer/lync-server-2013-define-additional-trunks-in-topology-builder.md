@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren zusätzlicher Trunks im Topologie-Generator
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c55e8073bd1ad1bb2db69096e4e58aa2b148e775
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832722"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Ein trunk ist eine logische Verbindung zwischen einem Vermittlungs Server und ei
 
 
 > [!NOTE]  
-> In diesem Thema wird davon ausgegangen, dass Sie mindestens einen Front-End-Pool oder Standard Edition-Server an mindestens einem zentralen Standort eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync beschrieben ist. Server 2013</A> in der Bereitstellungsdokumentation.
+> In diesem Thema wird davon ausgegangen, dass Sie mindestens einen Front-End-Pool oder Standard Edition-Server an mindestens einem zentralen Standort eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in lync Server 2013</A> beschrieben und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
@@ -69,7 +71,7 @@ Ein trunk ist eine logische Verbindung zwischen einem Vermittlungs Server und ei
 
 2.  Klicken Sie unter lync Server 2013, ihren Websitenamen, **freigegebene Komponenten**, mit der rechten Maustaste auf den Knoten **Trunks** , und klicken Sie dann auf **neuer trunk**.
     
-    ![Bildschirm der Dateistruktur für lync Server Topology Builder] (images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Bildschirm der Dateistruktur für lync Server Topology Builder")
+    ![Bildschirm der Dateistruktur für lync Server Topology Builder](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Bildschirm der Dateistruktur für lync Server Topology Builder")
 
 3.  Geben Sie in **Neuen Trunk definieren** einen Anzeigenamen ein, um den Trunk eindeutig zu identifizieren. Zwei Trunks mit demselben Namen sind nicht zulässig.
     
@@ -84,7 +86,7 @@ Ein trunk ist eine logische Verbindung zwischen einem Vermittlungs Server und ei
 
 4.  Wählen Sie unter **Zugeordnetes PSTN-Gateway** den PSTN-Gatewaypeer aus, der diesem Trunk zugeordnet werden soll.
     
-    ![Eigenschafteneinstellungen für PSTN-Gateway-Peer für trunk] (images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Eigenschafteneinstellungen für PSTN-Gateway-Peer für trunk")
+    ![Eigenschafteneinstellungen für PSTN-Gateway-Peer für trunk](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Eigenschafteneinstellungen für PSTN-Gateway-Peer für trunk")
 
 5.  Geben Sie unter **Abhör-Port für PSTN-Gateway**den Abhör-Port ein, mit dem der Peer (PSTN-Gateway, IP-PBX oder SBC) SIP-Nachrichten vom Vermittlungs Server empfängt, der diesem trunk zugeordnet werden soll. Die standardmäßigen Peerports sind 5066 für TCP (Transmission Control Protocol) und 5067 für TLS (Transport Layer Security). Die Standardanschlüsse für Survivable Branch-Appliances sind 5081 für TCP und 5082 für TLS.
 
@@ -116,7 +118,7 @@ Ein trunk ist eine logische Verbindung zwischen einem Vermittlungs Server und ei
     
 
     > [!NOTE]  
-    > Mit mehreren trunk-Unterstützung in lync Server 2013 können mehrere SIP-Signalisierungs Anschlüsse auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen trunk definieren, muss sich die <STRONG>zugeordnete Vermittlungsserver-Port</STRONG> Nummer innerhalb des Bereichs der Abhör Anschlüsse für das jeweilige vom Vermittlungsserver zugelassene Protokoll befinden. Dieser Portbereich ist unter lync Server 2013 und Mediation Server Pools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungs Server Pool, und wählen Sie <STRONG>Eigenschaften bearbeiten</STRONG>aus. Specify the port range in the <STRONG>Listening ports</STRONG> field.
+    > Mit mehreren trunk-Unterstützung in lync Server 2013 können mehrere SIP-Signalisierungs Anschlüsse auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen trunk definieren, muss sich die <STRONG>zugeordnete Vermittlungsserver-Port</STRONG> Nummer innerhalb des Bereichs der Abhör Anschlüsse für das jeweilige vom Vermittlungsserver zugelassene Protokoll befinden. Dieser Portbereich ist unter lync Server 2013 und Mediation Server Pools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungs Server Pool, und wählen Sie <STRONG>Eigenschaften bearbeiten</STRONG>aus. Geben Sie den Portbereich im Feld <STRONG>Abhör-Ports</STRONG> an.
 
     
     </div>

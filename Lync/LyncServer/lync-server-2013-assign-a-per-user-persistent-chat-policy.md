@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zuweisen einer beständigen Chat Richtlinie für einze
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 081e6724f5df2389a8ef89e83b2df91b49a1b991
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 616a171d4aedcc6014ddea3c5993a097d410a5e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847851"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722825"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Zuweisen einer beständigen Chat Richtlinie für einzelne Benutzer in lync Server 2013
 
@@ -63,7 +65,7 @@ Sie können der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwa
 
 
 
-7.  Führen Sie in Richt **Linien zuweisen**unter Richtlinien für beständigen **Chat**eine der folgenden Aktionen aus:
+7.  Führen Sie in Richt **Linien zuweisen**unter Richtlinien für **beständigen Chat**eine der folgenden Aktionen aus:
     
 
     > [!NOTE]  
@@ -72,7 +74,7 @@ Sie können der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwa
     
       - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Websiteebene auswählen kann.
     
-      - Klicken Sie auf den Namen einer auf der Seite für beständigen Chats fest **** gelegten beständigen Chat Richtlinie für einzelne Benutzer.
+      - Klicken Sie auf den Namen einer auf der Seite für **beständigen Chats** festgelegten beständigen Chat Richtlinie für einzelne Benutzer.
         
 
         > [!TIP]  

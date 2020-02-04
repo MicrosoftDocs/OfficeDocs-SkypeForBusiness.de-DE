@@ -3,6 +3,8 @@ title: 'Lync Server 2013: M:N trunk'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4485380d6de5d247511b863761fcf7c75d38a29b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
 Lync Server 2013 unterstützt eine größere Flexibilität bei der Definition eines Trunks für Anruf Weiterleitungs Zwecke aus früheren Versionen. Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungs Server und einer Abhör Portnummer mit einem Gateway und einer Abhör Portnummer. Dies impliziert mehrere Dinge: ein Vermittlungs Server kann mehrere Trunks zum gleichen Gateway haben; ein Vermittlungs Server kann mehrere Trunks zu unterschiedlichen Gateways aufweisen. Umgekehrt kann ein Gateway mehrere Trunks zu verschiedenen Vermittlungsservern aufweisen.
 
-Wenn ein Gateway der lync-Topologie mithilfe des Topologie-Generators hinzugefügt wird, muss noch ein Stamm Stamm erstellt werden. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungs Server auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für lync Server 2013 überschreitet, wie in der unter [stützten Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Dokumentation zur Unterstützung beschrieben, wird die Schätzung der Anzahl der aktiven nicht-Bypass- Anrufe, die ein eigenständiger Vermittlungs Server verarbeiten kann, sind etwa 1000-Anrufe. Bei der Bereitstellung auf Hardware, die diese Spezifikationen erfüllt, wird von dem Vermittlungs Server erwartet, dass Sie Transcodierung durchführen, aber weiterhin Anrufe für mehrere Gateways weiterleiten, auch wenn die Gateways keine medienumgehung unterstützen.
+Wenn ein Gateway der lync-Topologie mithilfe des Topologie-Generators hinzugefügt wird, muss noch ein Stamm Stamm erstellt werden. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungs Server auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für lync Server 2013 überschreitet, wie unter [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Dokumentation zur Unterstützung der Dokumentation beschrieben, ist die Schätzung, wie viele aktive nicht-Bypass-Aufrufe ein eigenständiger Vermittlungsserver verarbeiten kann, ungefähr 1000 Anrufe. Bei der Bereitstellung auf Hardware, die diese Spezifikationen erfüllt, wird von dem Vermittlungs Server erwartet, dass Sie Transcodierung durchführen, aber weiterhin Anrufe für mehrere Gateways weiterleiten, auch wenn die Gateways keine medienumgehung unterstützen.
 
 Wenn Sie eine Anrufroute definieren, geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver dieser Route zugeordnet sind. Stattdessen verwenden Sie den Topologie-Generator, um Trunks mit Vermittlungsservern zu verknüpfen. Mit anderen Worten: das Routing bestimmt, welcher trunk für einen Anruf verwendet werden soll, und anschließend wird der dem Stamm zugeordnete Vermittlungs Server für diesen Anruf signalisiert.
 
