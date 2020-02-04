@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zertifikatanforderungen für den Zugriff durch externe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ Im folgenden sind die Anforderungen für das öffentliche Zertifikat für Access
     
     </div>
 
-Wenn Sie mehrere Edgeserver mit Lastenausgleich an einer Website bereitstellen, muss das auf jedem Edgeserver installierte a/V-Authentifizierungsdienst Zertifikat von der gleichen Zertifizierungsstelle sein und denselben privaten Schlüssel verwenden. Beachten Sie, dass der private Schlüssel des Zertifikats exportierbar sein muss, unabhängig davon, ob er auf einem Edgeserver oder auf vielen Edgeserver verwendet wird. Sie muss auch exportierbar sein, wenn Sie das Zertifikat von einem anderen Computer als dem Edgeserver anfordern. Da der A/V-Authentifizierungsdienst den Antragstellernamen oder den alternativen Antragstellernamen nicht verwendet, können Sie das Access-Edge-Zertifikat wieder verwenden, sofern die Anforderungen für den Antragstellernamen und den alternativen Antragstellernamen für den Access-Edge und den Webkonferenz-Edge erfüllt sind. und der private Schlüssel des Zertifikats ist exportierbar.
+Wenn Sie mehrere Edgeserver mit Lastenausgleich an einer Website bereitstellen, muss das auf jedem Edgeserver installierte a/V-Authentifizierungsdienst Zertifikat von der gleichen Zertifizierungsstelle sein und denselben privaten Schlüssel verwenden. Beachten Sie, dass der private Schlüssel des Zertifikats exportierbar sein muss, unabhängig davon, ob er auf einem Edgeserver oder auf vielen Edgeserver verwendet wird. Sie muss auch exportierbar sein, wenn Sie das Zertifikat von einem anderen Computer als dem Edgeserver anfordern. Da der A/V-Authentifizierungsdienst den Antragstellernamen oder den alternativen Antragstellernamen nicht verwendet, können Sie das Access-Edge-Zertifikat wieder verwenden, sofern die Anforderungen für den Antragstellernamen und den alternativen Antragstellernamen für den Access-Edge und den Webkonferenz-Edge erfüllt sind und der private Schlüssel des Zertifikats exportierbar ist.
 
 Voraussetzungen für das private (oder öffentliche) Zertifikat, das für die Edge-interne Schnittstelle verwendet wird, sind wie folgt:
 
@@ -110,7 +112,7 @@ Der Reverse-Proxy in ihren Bereitstellungsdienst Anforderungen für:
 
   - Zugriff auf externe Geräte für den Geräteaktualisierungsdienst und Abrufen von Updates
 
-Der Reverse-Proxy veröffentlicht die URLs der internen Server-Webkomponenten. Die Webkomponenten-URLs werden auf dem Director, Front-End-Server oder Front-End-Pool als **externe** Webdienste im Topologie-Generator definiert.
+Der Reverse-Proxy veröffentlicht die URLs der internen Server-Webkomponenten. Die Webkomponenten-URLs werden auf dem Director, Front-End-Server oder Front-End-Pool als **externe Webdienste** im Topologie-Generator definiert.
 
 Platzhaltereinträge werden im Feld Subject Alternative Name des dem Reverse-Proxy zugewiesenen Zertifikats unterstützt. Details zum Konfigurieren der Zertifikatanforderung für den Reverseproxy finden Sie unter [anfordern und Konfigurieren eines Zertifikats für den Reverse http-Proxy in lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).
 

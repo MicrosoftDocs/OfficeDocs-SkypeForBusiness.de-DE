@@ -3,6 +3,8 @@ title: Konfigurieren der globalen Einstellungen für die Medienumgehung zur Verw
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd070e6380a896548b851ac7d3472cd86eeba75b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
 
 > [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle trunk Verbindungen vom Vermittlungs Server zu einem Peer (einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Telefonanlage oder einem Session Border Controller (SBC) bei einem Internet-Telefoniedienst bereits konfiguriert haben. Anbieter (ITSP) für eine bestimmte Website oder einen bestimmten Dienst, für die Medien den Vermittlungs Server umgehen sollen.<BR>In diesem Thema wird auch davon ausgegangen, dass Sie alle zentralen Websites und Verzweigungs Websites im Topologie-Generator auf eine Weise definiert haben, die dem Netzwerkbereich, der Netzwerk Website und der Subnet-Konfiguration entspricht, die Sie gemäß den Schritten unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>und Zuordnen eines Subnetzes <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">zu einer Netzwerk Website in lync Server 2013</A>. Wenn Sie nicht übereinstimmen, ist die medienumgehung nicht erfolgreich.
+> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle trunk Verbindungen vom Vermittlungs Server zu einem Peer (einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Telefonanlage oder einem Session Border Controller (SBC) bei einem Internet-Telefoniedienst bereits konfiguriert haben. Anbieter (ITSP) für eine bestimmte Website oder einen bestimmten Dienst, für die Medien den Vermittlungs Server umgehen sollen.<BR>In diesem Thema wird auch davon ausgegangen, dass Sie alle zentralen Websites und Zweigstellen im Topologie-Generator auf eine Weise definiert haben, die dem Netzwerkbereich, der Netzwerk Website und der Subnet-Konfiguration entspricht, die Sie gemäß den Schritten unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>und Verknüpfen eines Subnetzes <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">mit einer Netzwerk 2013 Website</A> Wenn Sie nicht übereinstimmen, ist die medienumgehung nicht erfolgreich.
 
 
 
@@ -93,7 +95,7 @@ Damit die Umgehungsfunktion ordnungsgemäß funktioniert, muss die Konsistenz zw
 
 7.  Klicken Sie auf **Commit ausführen**.
 
-Fügen Sie als nächstes Subnetze zur Netzwerk Website hinzu, wie in Zuordnen von Subnetzen [mit Netzwerk Websites für die medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)beschrieben. (Die eigentlichen Verfahren zum Verknüpfen von Subnetzen mit Netzwerkstandorten werden unter [Zuordnen eines Subnetzes zu einer Netzwerk Website in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)beschrieben.) Nachdem Sie alle Subnetze mit Netzwerk Websites verknüpft haben, ist die Medien Umgehungs Bereitstellung abgeschlossen.
+Fügen Sie als nächstes Subnetze zur Netzwerk Website hinzu, wie in [Zuordnen von Subnetzen mit Netzwerk Websites für die medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)beschrieben. (Die eigentlichen Verfahren zum Verknüpfen von Subnetzen mit Netzwerkstandorten werden unter [Zuordnen eines Subnetzes zu einer Netzwerk Website in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)beschrieben.) Nachdem Sie alle Subnetze mit Netzwerk Websites verknüpft haben, ist die Medien Umgehungs Bereitstellung abgeschlossen.
 
 <div>
 

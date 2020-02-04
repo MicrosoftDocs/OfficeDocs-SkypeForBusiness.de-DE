@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Schema Attribute und Beschreibungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes and descriptions
 ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc18b4b074302ba3c233670f21fd8479bbd0b0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 72da4adb0f660604dba7f20c9ddc333425086df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822643"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -1095,7 +1097,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Bei diesen Attributen wird jede
 </tr>
 <tr class="odd">
 <td><p>Attribut msRTCSIP-UserPolicy</p></td>
-<td><p>Hierbei handelt es sich um ein mehrwertiges Attribut, das eine Liste von Distinguished Names mit Binär (DN_WITH_BINARY) enthält, die auf globale Benutzerrichtlinien unterschiedlicher Typen verweisen. Der binäre Teil gibt den Typ der Richtlinie an, auf die der DN-Anteil verweist.</p>
+<td><p>Hierbei handelt es sich um ein mehrwertiges Attribut, das eine Liste von definierten Namen mit binären (DN_WITH_BINARY) enthält, die auf globale Benutzerrichtlinien unterschiedlicher Typen verweisen. Der binäre Teil gibt den Typ der Richtlinie an, auf die der DN-Anteil verweist.</p>
 <p>Die gültigen binären Werte lauten wie folgt:</p>
 <ul>
 <li><p>0x00000001: Besprechungsrichtlinie</p></li>

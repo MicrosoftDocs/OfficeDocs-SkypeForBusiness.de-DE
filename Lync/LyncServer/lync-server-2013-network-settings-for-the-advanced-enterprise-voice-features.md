@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Netzwerkeinstellungen für erweiterte Enterprise-VoIP-
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,11 +67,11 @@ Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackb
 
 Für CAC ist es erforderlich, dass jeder Netzwerkbereich über eine zugeordnete lync Server Central-Website verfügt, die den Mediendatenverkehr in der Region verwaltet (d.-a. Entscheidungen basierend auf den von Ihnen konfigurierten Richtlinien trifft, ob eine Audio-oder Videositzung in Echtzeit möglich ist oder nicht. festgelegt werden). Lync Server Central-Websites stellen keine geografischen Speicherorte, sondern logische Gruppen von Servern dar, die als Pool oder Gruppe von Pools konfiguriert sind. Ausführliche Informationen zu zentralen Websites finden Sie unter [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation. Weitere Informationen finden Sie auch unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md) in der Dokumentation zur Unterstützung.
 
-Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** im Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung verwenden oder die lync Server **-Verwaltungsshell "New-CsNetworkRegion** " oder " **CsNetworkRegion** " ausführen. Cmdlets. Anweisungen hierzu finden Sie unter [erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur lync Server-Verwaltungsshell.
+Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** im Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung verwenden oder die Cmdlets für die lync Server-Verwaltungsshell für **neue CsNetworkRegion** oder **CsNetworkRegion** ausführen. Anweisungen hierzu finden Sie unter [erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur lync Server-Verwaltungsshell.
 
 Die gleichen Netzwerkbereichs Definitionen werden von allen drei erweiterten Enterprise-VoIP-Features freigegeben. Wenn Sie bereits Netzwerkregionen für eine Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen für die anderen Funktionen erstellen. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.
 
-Wenn Sie eine lync Server Central-Website einem Netzwerkbereich zuordnen möchten, geben Sie den zentralen Standortnamen entweder über den Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung oder durch Ausführen des **CsNetworkRegion** oder der **Gruppe-CsNetworkRegion an. **Cmdlets der lync Server-Verwaltungsshell. Anweisungen hierzu finden Sie unter [erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur lync Server-Verwaltungsshell.
+Wenn Sie eine lync Server Central-Website einem Netzwerkbereich zuordnen möchten, geben Sie den zentralen Standortnamen entweder über den Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung oder durch Ausführen der Cmdlets für die lync Server-Verwaltungsshell für **neue CsNetworkRegion** oder **CsNetworkRegion** an. Anweisungen hierzu finden Sie unter [erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur lync Server-Verwaltungsshell.
 
 </div>
 
@@ -89,7 +91,7 @@ Ein Netzwerkstandort stellt einen geografischen Standort dar, z. B. ein Zweigst
 
 </div>
 
-Wenn Sie eine Netzwerk Website konfigurieren und Sie einem Netzwerkbereich zuordnen möchten, können Sie entweder den Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung verwenden oder die lync Server-Verwaltungsshell **New-CsNetworkSite** oder **CsNetworkSite** ausführen. Cmdlets. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer Netzwerk Website in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) in der Bereitstellungsdokumentation, oder lesen Sie die Dokumentation zur lync Server-Verwaltungsshell.
+Wenn Sie eine Netzwerk Website konfigurieren und Sie einem Netzwerkbereich zuordnen möchten, können Sie entweder den Abschnitt **Netzwerkkonfiguration** der lync Server-Systemsteuerung verwenden oder die Cmdlets für die lync Server **-Verwaltungsshell New-CsNetworkSite** oder **CsNetworkSite** ausführen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer Netzwerk Website in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) in der Bereitstellungsdokumentation, oder lesen Sie die Dokumentation zur lync Server-Verwaltungsshell.
 
 </div>
 

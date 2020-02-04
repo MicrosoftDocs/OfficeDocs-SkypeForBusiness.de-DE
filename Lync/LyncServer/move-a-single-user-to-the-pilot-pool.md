@@ -3,6 +3,8 @@ title: Verschieben eines einzelnen Benutzers in den Pilot Pool
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205401(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ee58a49afaa9c1e57689b6a3a87fac1a6a4502
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14c4a772ced3939d979bd8d4cd053207b0c5613
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847089"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Sie können einen Benutzer aus Ihrem lync Server 2010-Pool in ihren lync Server 
 
 **Liste der Benutzer in der lync Server 2013-Systemsteuerung**
 
-![Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '] (images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '")
+![Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '")
 
 1.  Melden Sie sich über ein Konto, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsAdministrator“ oder „CsUserAdministrator“ ist, am Front-End-Server an.
 
@@ -59,7 +61,7 @@ Sie können einen Benutzer aus Ihrem lync Server 2010-Pool in ihren lync Server 
 
 7.  Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**. Klicken Sie anschließend auf **OK**.
     
-    ![Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '")  
+    ![Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '")  
 
 8.  Überprüfen Sie, ob die Spalte des **registrierungspools** für den Benutzer jetzt den lync Server 2013-Pool enthält, der angibt, dass der Benutzer erfolgreich verschoben wurde.
 
@@ -81,7 +83,7 @@ Sie können einen Benutzer aus Ihrem lync Server 2010-Pool in ihren lync Server 
 
 4.  Die **RegistrarPool** -Identität verweist nun auf den lync Server 2013-Pool. Das vorhanden sein dieser Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde.
     
-    ![Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe vom Cmdlet \"Get-CsUser\" mit dem Identitäts Filter")  
+    ![Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe vom Cmdlet "Get-CsUser" mit dem Identitäts Filter")  
     
     <div>
     

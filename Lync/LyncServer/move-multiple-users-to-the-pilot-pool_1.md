@@ -3,6 +3,8 @@ title: Verschieben mehrerer Benutzer in den Pilot Pool
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ffc3e01df30f4a8e1b9c9b9aeca2b2013003980
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70d031481746f9f7408cc7b5e36081bb977b189d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Sie können mehrere Benutzer aus Ihrem Office Communications Server 2007 R2-Pool
 
 6.  Wählen Sie zwei Benutzer aus, die Sie in den lync Server 2013-Pool verschieben möchten. In diesem Beispiel werden die Benutzer Chen Yang und Claus Hansen verschoben.
     
-    ![Von der Suche nach OCS-Benutzern angezeigte Benutzerliste] (images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Von der Suche nach OCS-Benutzern angezeigte Benutzerliste")  
+    ![Von der Suche nach OCS-Benutzern angezeigte Benutzerliste](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Von der Suche nach OCS-Benutzern angezeigte Benutzerliste")  
 
 7.  Wählen Sie im Menü **Aktion** die Option **ausgewählte Benutzer in Pool verschieben**aus.
 
@@ -61,7 +63,7 @@ Sie können mehrere Benutzer aus Ihrem Office Communications Server 2007 R2-Pool
 
 9.  Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**. Klicken Sie anschließend auf OK.
     
-    ![Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '")  
+    ![Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Dialogfeld ' Benutzer verschieben, Ziel Registrierungspool '")  
 
 10. Überprüfen Sie, ob die Spalte des **registrierungspools** für die Benutzer jetzt den lync Server 2013-Pool enthält, der angibt, dass die Benutzer erfolgreich verschoben wurden.
 
@@ -77,7 +79,7 @@ Sie können mehrere Benutzer aus Ihrem Office Communications Server 2007 R2-Pool
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Beispiel-Cmdlet zum Verschieben eines Legacy Benutzers] (images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Beispiel-Cmdlet zum Verschieben eines Legacy Benutzers")  
+    ![Beispiel-Cmdlet zum Verschieben eines Legacy Benutzers](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Beispiel-Cmdlet zum Verschieben eines Legacy Benutzers")  
 
 3.  Geben Sie in der Befehlszeile Folgendes ein:
     
@@ -85,7 +87,7 @@ Sie können mehrere Benutzer aus Ihrem Office Communications Server 2007 R2-Pool
 
 4.  Die Identität des **Registrierungsstellen Pools** sollte nun auf den Pool verweisen, den Sie im vorherigen Schritt als **Pool\_-FQDN** angegeben haben. Das vorhanden sein dieser Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde. Wiederholen Sie den Schritt, um zu überprüfen, ob **User2** verschoben wurde.
     
-    ![Ausgabe des PowerShell-Cmdlets Get-UsUser-Identity] (images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Ausgabe des PowerShell-Cmdlets Get-UsUser-Identity")  
+    ![Ausgabe des PowerShell-Cmdlets Get-UsUser-Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Ausgabe des PowerShell-Cmdlets Get-UsUser-Identity")  
 
 </div>
 
@@ -101,7 +103,7 @@ In diesem Beispiel wurden alle Benutzer an den Office Communications Server 2007
     
         Get-CsUser -OnOfficeCommunicationServer | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Beispiel-Cmdlet zum Verschieben aller Legacy Benutzer in einem Pool] (images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Beispiel-Cmdlet zum Verschieben aller Legacy Benutzer in einem Pool")  
+    ![Beispiel-Cmdlet zum Verschieben aller Legacy Benutzer in einem Pool](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Beispiel-Cmdlet zum Verschieben aller Legacy Benutzer in einem Pool")  
 
 3.  Führen Sie als nächstes " **Get-CsUser** " für einen der Pilotbenutzer aus.
     
@@ -111,7 +113,7 @@ In diesem Beispiel wurden alle Benutzer an den Office Communications Server 2007
 
 5.  Darüber hinaus können wir die Liste der Benutzer in der lync Server 2013-Systemsteuerung anzeigen und überprüfen, ob der Wert des registrierungspools nun auf den lync Server 2013-Pool verweist.
     
-    ![Benutzerliste der lync Server 2013-System] Steuerung (images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Benutzerliste der lync Server 2013-System") Steuerung  
+    ![Benutzerliste der lync Server 2013-Systemsteuerung](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Benutzerliste der lync Server 2013-Systemsteuerung")  
 
 </div>
 

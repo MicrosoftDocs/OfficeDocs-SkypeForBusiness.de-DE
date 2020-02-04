@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verwenden von Microsoft SQL Server 2008 R2 als Ihre Sy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27516e7ca6c3fb70a01b7c1d245054d515ae351b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Nachdem Sie die Berichts Server-Konfigurationsdatei aktualisiert haben, müssen 
 
 3.  Klicken Sie im Reporting Services-Konfigurations-Manager auf **Webdienst-URL**.
 
-4.  Wählen Sie auf der Seite **Webdienst-URL** das für Ihre Reporting Services zu verwendende Zertifikat aus der Dropdownliste **SSL-Zertifikat** aus, und klicken Sie dann auf über **nehmen**. Nach ein paar Sekunden sehen Sie ein paar URLs, die unter den **URL des Berichts Server-** Webdiensts aufgelistet sind.
+4.  Wählen Sie auf der Seite **Webdienst-URL** das für Ihre Reporting Services zu verwendende Zertifikat aus der Dropdownliste **SSL-Zertifikat** aus, und klicken Sie dann auf über **nehmen**. Nach ein paar Sekunden sehen Sie ein paar URLs, die unter den **URL des Berichts Server-Webdiensts**aufgelistet sind.
 
 5.  Klicken Sie auf beide URLs, um zu überprüfen, ob Sie auf SQL Server Reporting Services zugreifen können.
 
@@ -89,7 +91,7 @@ Gehen Sie wie folgt vor, um eine Operations Manager-Datenbank manuell zu erstell
 
 5.  Klicken Sie auf der Seite **Operations Manager-Fehlerberichte** auf **weiter**.
 
-6.  Klicken Sie **** auf der Zusammenfassungsseite auf **Fertig stellen**.
+6.  Klicken Sie auf der **Zusammenfassungs** Seite auf **Fertig stellen**.
 
 </div>
 
@@ -113,7 +115,7 @@ Um diese neuen Berichte verwenden zu können, müssen Sie ein System Center Oper
 
 3.  Wählen Sie auf der Seite **Datenbankinformationen** in der Dropdownliste **Datenbanktyp** die Option **Operations Manager Data Warehouse-Datenbank** aus, und klicken Sie dann auf **weiter**.
 
-4.  Klicken Sie **** auf der Zusammenfassungsseite auf **Fertig stellen**.
+4.  Klicken Sie auf der **Zusammenfassungs** Seite auf **Fertig stellen**.
 
 </div>
 

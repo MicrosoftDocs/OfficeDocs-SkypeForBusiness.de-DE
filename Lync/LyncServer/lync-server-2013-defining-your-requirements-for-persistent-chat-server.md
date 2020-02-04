@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren der Anforderungen Ihrer Organisation an den
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Persistent Chat Server
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398372(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f9195a91a4f8334933d1fce7ffd3a5dceb564c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0e7482ab85b72168e990eaa97b2f79cb3665532
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Bevor Sie den beständigen Chat Server für Ihre Organisation bereitstellen, mü
 
   - Wie sollen Bereiche, ethische Grenzen und Zugriffsmöglichkeiten kontrolliert werden? Sie können **Kategorien** definieren, um diese Grenzen zu trennen, und auswählen, wer in Räumen sein darf, die in jeder dieser Kategorien erstellt werden.
 
-  - Wie soll kontrolliert werden, wer Räume erstellen kann? Sie können für **** Ihre Kategorien geeignete Creators konfigurieren, die Räume erstellen können. Autoren können anderen Mitgliedern als Chatroom- **Manager** für die laufende Verwaltung der Räume (hinzufügen oder Entfernen zusätzlicher Mitglieder) entsprechend dem von der Kategorie konfigurierten Bereich für **AllowedMembers/DeniedMembers** zuweisen.
+  - Wie soll kontrolliert werden, wer Räume erstellen kann? Sie können für Ihre Kategorien geeignete **Creators**konfigurieren, die Räume erstellen können. Autoren können anderen Mitgliedern als Chatroom- **Manager** für die laufende Verwaltung der Räume (hinzufügen oder Entfernen zusätzlicher Mitglieder) entsprechend dem von der Kategorie konfigurierten Bereich für **AllowedMembers/DeniedMembers** zuweisen.
 
   - Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature für die Erstellung und Verwaltung von Räumen. Dies kann über den lync 2013-Client gestartet werden. Sie können eine benutzerdefinierte Lösung (mit dem Server Software Development Kit (SDK) für beständigen Chat) definieren, die Ihre geschäftlichen Anforderungen und Workflows implementiert, und den beständigen Chat Server so konfigurieren, dass Benutzer an Ihre benutzerdefinierte Lösung weitergeleitet werden.
 

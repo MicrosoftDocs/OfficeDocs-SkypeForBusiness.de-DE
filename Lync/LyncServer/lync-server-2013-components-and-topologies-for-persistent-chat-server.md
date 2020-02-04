@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Komponenten und Topologien für beständigen Chat Serv
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Zum Installieren der neuesten Version des beständigen Chat Servers sind die fol
 
 Verwenden Sie die lync Server-Systemsteuerung auf dem Computer, um den Server für beständigen Chat von einem separaten Computer (beispielsweise einer Verwaltungskonsole) zu verwalten. Dieser Computer muss dann in einer Active Directory-Domänendienst Domäne mit mindestens einem globalen Katalogserver im Gesamtstrukturstamm bereitgestellt werden.
 
-Details zu den Hardware-und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Technische Voraussetzungen für den Server für beständigen Chat in lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md)und [Server Software und-Infrastruktur. Unterstützung in lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in der Dokumentation zur Unterstützung.
+Details zu den Hardware-und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Technische Voraussetzungen für den Server für beständigen Chat in lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md)sowie [Unterstützung der Server Software und-Infrastruktur in lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in der Dokumentation zur Unterstützung
 
 </div>
 
@@ -103,7 +105,7 @@ Wenn Sie die Datenbank für beständigen Chat mit der Back-End-Datenbank colloca
 
   - Jede Instanz von SQL Server kann nur eine einzige Back-End-Datenbank und eine einzelne persistente Chat-Datenbank enthalten.
 
-Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter unterstützte Server [in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter [unterstützte Server in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
 
 </div>
 
@@ -153,7 +155,7 @@ Die folgende Abbildung zeigt alle erforderlichen und optionalen Komponenten eine
 
 **Einzelner beständiger Chat Server**
 
-![Topologie mit einem Server mit Kompatibilitätsdienst] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem Server mit Kompatibilitätsdienst")
+![Topologie mit einem Server mit Kompatibilitätsdienst](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie mit einem Server mit Kompatibilitätsdienst")
 
 </div>
 
@@ -167,7 +169,7 @@ Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Serve
 
 **Mehrere beständige Chat Server**
 
-![Topologie mit mehreren Servern] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")
+![Topologie mit mehreren Servern](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie mit mehreren Servern")
 
 Topologien mit mehreren Servern ermöglichen es, Serverfunktionen zu einem Pool zusammenzufassen. In einem Serverpool kommunizieren die beständigen Chat Dienste und geben Daten frei. So kann beispielsweise der Chatverlauf, der ursprünglich in einem beständigen Chatdienst gepostet wurde, von jedem beständigen Chatdienst im System zur Verfügung gestellt werden. Auf eine Datei, die über einen beständigen Chatdienst hochgeladen wird, kann von jedem beständigen Chatdienst zugegriffen werden. Benutzer können mit unterschiedlichen Front-End-Servern für beständigen Chat Server verbunden werden und können chatten und miteinander kommunizieren.
 

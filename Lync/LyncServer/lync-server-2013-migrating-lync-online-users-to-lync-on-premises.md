@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Migrieren von lync Online-Benutzern zu lync lokal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating Lync Online users to Lync on-premises
 ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e76f8c0c40e13d0d9c6b19dee118e1513390d7e7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991650"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

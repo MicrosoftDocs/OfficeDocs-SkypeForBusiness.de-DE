@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Erstellen von Konfigurationseinstellungen für die Qua
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 947fb50c057fdcc04fe7d1b30d25bc8f5a5f4a02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f651da026dcf73253eaccada14332a7f2f5c1f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832777"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -94,7 +96,7 @@ QoE-Konfigurationseinstellungen können entweder mit der lync Server-Systemsteue
 
 ## <a name="to-create-qoe-configuration-settings-by-using-lync-server-control-panel"></a>So erstellen Sie QoE-Konfigurationseinstellungen mithilfe der lync Server-Systemsteuerung
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 

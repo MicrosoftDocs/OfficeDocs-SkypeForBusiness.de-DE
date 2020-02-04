@@ -3,6 +3,8 @@ title: Anrufsteuerung mit einem PSTN-Gateway oder einer Nebenstellenanlage eines
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control with a third-party PSTN gateway or PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398762(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1996b56a50dbe616c8dc6e9b9b1c779c564b185
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09aae207844fed12c840918a533fb181ca36634e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839711"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Die Anrufsteuerung kann auf der WAN-Verbindung von der Gatewayschnittstelle des 
 
 **Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway**
 
-![Fall 1: CAC zwischen dem PSTN-Gateway des Vermittlungsservers] (images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "Fall 1: CAC zwischen dem PSTN-Gateway des Vermittlungsservers")
+![Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway](images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway")
 
 In diesem Beispiel wird CAC zwischen dem Vermittlungs Server und einem PSTN-Gateway angewendet. Wenn ein lync-Clientbenutzer am Netzwerkstandort 1 einen PSTN-Anruf über das PSTN-Gateway in Network Site 2 ablegt, fließt das Medium über die WAN-Verbindung. Für jede PSTN-Sitzung werden daher zwei Prüfungen in Bezug auf die Anrufsteuerung durchgeführt:
 
@@ -75,7 +77,7 @@ Diese Konfiguration ähnelt Fall 1. In beiden Fällen weiß der Vermittlungsserv
 
 **Fall 2: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage mit Medienendpunkt**
 
-![Fall 2: CAC zwischen Vermittlungs Server-PBX mit MTP] (images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "Fall 2: CAC zwischen Vermittlungs Server-PBX mit MTP")
+![Fall 2: Anrufsteuerung zwischen dem Vermittlungsserver und einer Festnetztelefonanlage mit MTP](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "Fall 2: Anrufsteuerung zwischen dem Vermittlungsserver und einer Festnetztelefonanlage mit MTP")
 
 In diesem Beispiel wird CAC zwischen dem Vermittlungs Server und der PBX/MTP angewendet. Wenn ein lync-Clientbenutzer an der Netzwerk Website 1 einen PSTN-Anruf über die Telefonanlage/MTP in der Netzwerk Website 2 platziert, fließt das Medium über die WAN-Verbindung. Für jede PSTN-Sitzung werden daher zwei Prüfungen der Anrufsteuerung durchgeführt:
 
@@ -105,7 +107,7 @@ Fall 3 unterscheidet sich leicht von den ersten beiden Fällen. Wenn kein MTP au
 
 **Fall 3: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage ohne Medienendpunkt**
 
-![Fall 3: CAC zwischen Vermittlungs Server-PBX No MTP] (images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "Fall 3: CAC zwischen Vermittlungs Server-PBX No MTP")
+![Fall 3: Anrufsteuerung zwischen dem Vermittlungsserver und einer Festnetztelefonanlage ohne MTP](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "Fall 3: Anrufsteuerung zwischen dem Vermittlungsserver und einer Festnetztelefonanlage ohne MTP")
 
 Wenn in diesem Beispiel ein lync-Clientbenutzer am Netzwerkstandort 1 einen Benutzer über die Telefonanlage anruft, kann der Vermittlungsserver CAC-Prüfungen nur auf dem Proxy-Leg durchführen (zwischen der lync-Clientanwendung und dem Vermittlungsserver). Da der Vermittlungsserver keine Informationen über das Endpunktgerät aufweist, während die Sitzung angefordert wird, können keine CAC-Prüfungen für die WAN-Verbindung (zwischen dem Vermittlungsserver und dem Endpunkt des Drittanbieters) vor der Einrichtung des Anrufs durchgeführt werden. Nach dem Einrichten der Sitzung vereinfacht der Vermittlungs Server jedoch die Berechnung der im trunk verwendeten Bandbreite.
 

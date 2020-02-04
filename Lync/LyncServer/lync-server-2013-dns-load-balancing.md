@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Lastenausgleich'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4248815c2e896c6c4ce36d22fd6544c298527766
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30d3b88ac66ad7dc6dd3216d941f4a99fc2feedd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Für die Bereitstellung des DNS-Lastenausgleichs in Front-End-Pools und Director
 
   - Ein Pool, der den DNS-Lastenausgleich verwendet, muss zwei FQDNs aufweisen: den regulären Pool-FQDN, der vom DNS-Lastenausgleich (wie pool01.contoso.com) verwendet wird, und er wird in die physischen IPS der Server im Pool aufgelöst, und ein anderer FQDN für die Webdienste des Pools (wie web01.contoso.com), der in die virtuelle IP-Adresse des Pools aufgelöst wird.
     
-    Wenn Sie im Topologie-Generator den DNS-Lastenausgleich für einen Pool bereitstellen möchten, müssen Sie zum Erstellen dieses zusätzlichen FQDN für die Webdienste des Pools das Kontrollkästchen **FQDN des internen Webdienste-Pool außer Kraft setzen** aktivieren, und geben Sie den FQDN in die Webdienste **-URLs angeben für ein. Seite dieses Pools** .
+    Wenn Sie im Topologie-Generator den DNS-Lastenausgleich für einen Pool bereitstellen möchten, müssen Sie zum Erstellen dieses zusätzlichen FQDN für die Webdienste des Pools das Kontrollkästchen **FQDN des internen Webdienste-Pool außer Kraft setzen** aktivieren und den FQDN in der Seite **Geben Sie die Webdienste-URLs für diesen Pool angeben** ein.
 
   - Zur Unterstützung des vom DNS-Lastenausgleich verwendeten FQDN müssen Sie DNS bereitstellen, um den Pool-FQDN (wie pool01.contoso.com) in die IP-Adressen aller Server im Pool aufzulösen (beispielsweise 192.168.1.1, 192.168.1.2 usw.). Sie sollten nur die IP-Adressen der Server einbeziehen, die derzeit bereitgestellt werden.
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Barrierefreiheit'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -154,7 +156,7 @@ In den folgenden Abschnitten werden Informationen zu den Features, Produkten und
 
 
 > [!NOTE]  
-> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den Vereinigten Staaten lizenzieren. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene Zusatz Informationskarte verwenden oder die Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> -Website für Barrierefreiheit besuchen, um eine Liste der Telefonnummern und Adressen für den Microsoft-Support zu erhalten. Services. Sie können sich an Ihre Niederlassung wenden, um herauszufinden, ob die in diesem Abschnitt beschriebenen Arten von Produkten und Dienstleistungen in Ihrem Gebiet zur Verfügung stehen. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website Barrierefreiheit in Microsoft-Produkten.
+> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den Vereinigten Staaten lizenzieren. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene Zusatz Informationskarte verwenden oder auf <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> der Microsoft-Website für Barrierefreiheit eine Liste mit Telefonnummern und Adressen für Microsoft-Supportdienste finden. Sie können sich an Ihre Niederlassung wenden, um herauszufinden, ob die in diesem Abschnitt beschriebenen Arten von Produkten und Dienstleistungen in Ihrem Gebiet zur Verfügung stehen. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website Barrierefreiheit in Microsoft-Produkten.
 
 
 

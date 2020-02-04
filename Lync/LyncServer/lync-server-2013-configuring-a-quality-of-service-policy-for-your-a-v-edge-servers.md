@@ -3,6 +3,8 @@ title: Konfigurieren einer Quality of Service-Richtlinie für Ihre a/V-Edgeserve
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your A/V Edge Servers
 ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204681(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58f5bfabfe794ed274d28074aaf162bc715a6ed3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ac9c31b4eb4a902074ba56d952e90bc0139a142
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ Wenn Sie sicherstellen möchten, dass Netzwerkpakete mit dem entsprechenden DSCP
 
 5.  Klicken Sie mit der rechten Maustaste auf **QoS**, zeigen Sie auf **neu**, und klicken Sie dann auf **Zeichenfolgenwert**. Nachdem der neue Registrierungswert erstellt wurde, geben Sie **NLA nicht verwenden** ein, und drücken Sie dann die EINGABETASTE, um den Wert umzubenennen.
 
-6.  Doppelklicken Sie auf **keine Verwendung von NLA**. Geben Sie im Dialogfeld **Zeichenfolge bearbeiten** im Feld Wertdaten den **Wert** **1** ein, und klicken Sie dann auf **OK**.
+6.  Doppelklicken Sie auf **keine Verwendung von NLA**. Geben Sie im Dialogfeld **Zeichenfolge bearbeiten** im Feld **Wertdaten den Wert** **1** ein, und klicken Sie dann auf **OK**.
 
 7.  Schließen Sie den Registrierungs-Editor, und starten Sie den Computer neu.
 

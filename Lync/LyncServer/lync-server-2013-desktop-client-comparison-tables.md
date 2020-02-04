@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vergleichstabellen für Desktop Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Desktop client comparison tables
 ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bb1313e320b78bf22964bc0a35a6d8c07e9733
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,15 +109,15 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
@@ -177,7 +179,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Benutzerdefinierte Notiz hinzufügen</p></td>
+<td><p>Eigene Notiz hinzufügen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -236,21 +238,21 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Liste „Kontakte“ anzeigen und ändern</p></td>
+<td><p>Kontaktliste anzeigen und ändern</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -264,7 +266,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Kontakte für Statusänderungsbenachrichtigungen markieren</p></td>
+<td><p>Kennzeichnen von Kontakten für Benachrichtigungen bei Statusänderungen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -278,7 +280,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Private Beziehungen verwalten</p></td>
+<td><p>Private Beziehungen steuern</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -481,15 +483,15 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
@@ -523,7 +525,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatunterhaltungen in Outlook protokollieren</p></td>
+<td><p>Chatnachrichtenunterhaltungen in Outlook protokollieren</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -534,10 +536,10 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>● 1</p></td>
 <td></td>
 <td><p>In Communicator für Mac gespeichert</p></td>
-<td><p>In lync für Mac gespeichert</p></td>
+<td><p>In Lync für Mac gespeichert</p></td>
 </tr>
 <tr class="even">
-<td><p>Vorlagen für vorbereitete Unterhaltungen verwenden</p></td>
+<td><p>Vorbereitete Unterhaltungsvorlagen verwenden</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td></td>
@@ -551,7 +553,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Rechtschreibung überprüfen</p></td>
+<td><p>Überprüfen der Rechtschreibung</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -565,7 +567,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Qualifikationssuche (mit SharePoint Server-Integration) </p></td>
+<td><p>Qualifikationssuche (mit SharePoint Server Integration)</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -579,7 +581,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Integration des beständigen Chats (Gruppen-Chats) </p></td>
+<td><p>Integration des beständigen Chats (Gruppenchats)</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -607,7 +609,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Inlinebilder von Absender und Empfänger im Chatfenster</p></td>
+<td><p>Inlinebilder vom Absender und Empfänger im Chatfenster</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -621,7 +623,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Freihandnachrichten senden</p></td>
+<td><p>Senden von Freihandnachrichten</p></td>
 <td> </td>
 <td> </td>
 <td></td>
@@ -635,7 +637,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Freihandnachrichten empfangen</p></td>
+<td><p>Empfangen von Freihandnachrichten</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -716,21 +718,21 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Computeraudio hinzufügen</p></td>
+<td><p>Computeraudiofunktionen hinzufügen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -760,7 +762,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Video mit mehreren Teilnehmern anzeigen (Katalogansicht)</p></td>
+<td><p>Video mit mehreren Teilnehmern ansehen (Katalogansicht)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -788,7 +790,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Auf detaillierte Teilnehmerliste der Besprechung zugreifen</p></td>
+<td><p>Auf detaillierte Besprechungsliste zugreifen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -802,7 +804,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>An Chats mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -833,7 +835,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="even">
 <td><p>Programm freigeben (sofern aktiviert)</p></td>
 <td><p>●</p></td>
-<td><p>Nur anzeigen</p></td>
+<td><p>Nur Ansicht</p></td>
 <td><p>●</p></td>
 <td></td>
 <td><p>●</p></td>
@@ -843,7 +845,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 <td></td>
 <td></td>
-<td><p>Nur anzeigen</p></td>
+<td><p>Nur Ansicht</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anonyme Teilnehmer hinzufügen (sofern aktiviert)</p></td>
@@ -860,7 +862,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Dial-in-Audiobesprechungen verwenden</p></td>
+<td><p>Einwahlaudiobesprechungen verwenden</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>● 3</p></td>
@@ -874,7 +876,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Besprechung mit „Jetzt besprechen“ initiieren</p></td>
+<td><p>Eine Besprechung mit „Jetzt besprechen“ einleiten</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -888,7 +890,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft PowerPoint-Dateien hinzufügen und präsentieren</p></td>
+<td><p>Microsoft PowerPoint-Dateien hinzufügen und vorführen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -944,7 +946,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Umfragen durchführen</p></td>
+<td><p>Abstimmungen durchführen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -958,7 +960,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Dateien zur gemeinsamen Verwendung mit anderen hochladen</p></td>
+<td><p>Dateien hochladen, um sie für andere Personen freizugeben</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -973,11 +975,11 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 </tr>
 <tr class="even">
 <td><p>Besprechung oder Konferenz planen</p></td>
-<td><p>Outlook-oder lync Web Scheduler</p></td>
+<td><p>Outlook oder Lync Web Scheduler</p></td>
 <td><p>Erfordert Mac Outlook, Version 15,28 oder höher</p></td>
-<td><p>Outlook-oder lync Web Scheduler</p></td>
-<td><p>Outlook-oder lync Web Scheduler</p></td>
-<td><p>Outlook-oder lync Web Scheduler</p></td>
+<td><p>Outlook oder Lync Web Scheduler</p></td>
+<td><p>Outlook oder Lync Web Scheduler</p></td>
+<td><p>Outlook oder Lync Web Scheduler</p></td>
 <td><p>Lync Web Scheduler</p></td>
 <td><p>●</p></td>
 <td></td>
@@ -986,7 +988,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;A Manager</p></td>
+<td><p>Q&amp;A-Manager</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1056,7 +1058,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Planen von Besprechungen im Namen des Delegierenden durch die Stellvertretung</p></td>
+<td><p>Stellvertretung kann Besprechungen im Namen des Delegierenden planen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1161,15 +1163,15 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
@@ -1189,7 +1191,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Kontakt per Mausklick anrufen</p></td>
+<td><p>Kontakt durch Mausklick anrufen</p></td>
 <td><p>● 2</p></td>
 <td><p>●</p></td>
 <td><p>● 2</p></td>
@@ -1203,7 +1205,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Anrufdurchstellung</p></td>
+<td><p>Anruf weiterleiten</p></td>
 <td><p>● 2</p></td>
 <td><p>●</p></td>
 <td><p>● 2</p></td>
@@ -1231,7 +1233,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Einstellungen für Teamanrufe verwalten</p></td>
+<td><p>Einstellungen für Teamanruf verwalten</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1288,7 +1290,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chat Benachrichtigung an SIP-URI (s) für E-911-Anruf</p></td>
+<td><p>Chatbenachrichtigung an SIP-URIs für E-911-Anrufe</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1302,7 +1304,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chat Benachrichtigung in Verteilerliste für E-911-Anruf</p></td>
+<td><p>Chatbenachrichtigung an Verteilerliste für E-911-Anrufe</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1344,7 +1346,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario)</p></td>
+<td><p>Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1358,7 +1360,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Anrufe eines anderen Benutzers verwalten, wenn eine Stellvertretung konfiguriert ist</p></td>
+<td><p>Anrufe eines anderen Benutzers verwalten, wenn eine Delegierung konfiguriert wurde</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1372,7 +1374,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Verwalten einer großen Anzahl von Anrufen</p></td>
+<td><p>Hohes Anrufaufkommen verwalten</p></td>
 <td></td>
 <td> </td>
 <td></td>
@@ -1450,20 +1452,20 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chat mit öffentlichem Kontakt initiieren</p></td>
+<td><p>Chatnachricht mit öffentlichem Kontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1476,7 +1478,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chat mit Partnerkontakt initiieren</p></td>
+<td><p>Chatnachricht mit Partnerkontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1489,7 +1491,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen </p></td>
+<td><p>Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen</p></td>
 <td><p>● 2</p></td>
 <td><p>●</p></td>
 <td><p>● 2</p></td>
@@ -1535,21 +1537,21 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Clientseitige Aufzeichnung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten</p></td>
+<td><p>Aufzeichnung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite</p></td>
 <td><p>● 1</p></td>
 <td> </td>
 <td><p>● 1</p></td>
@@ -1563,7 +1565,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Clientseitige Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen</p></td>
+<td><p>Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen auf Clientseite</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1577,7 +1579,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Bevorzugte Auflösung für die Aufzeichnung auswählen</p></td>
+<td><p>Auswählen der bevorzugten Auflösung für die Aufzeichnung</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1626,21 +1628,21 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <tr class="header">
 <th>Feature/Funktion</th>
 <th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business auf dem Mac</th>
+<th>Skype for Business unter Mac</th>
 <th>Lync 2013</th>
 <th>Windows Store-App für Lync</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010-Vermittlung</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Archivieren von Chat Unterhaltungen im Outlook-Konversations Verlauf</p></td>
+<td><p>Archivierung von Chats im Outlook-Ordner „Aufgezeichnete Unterhaltungen“</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1654,7 +1656,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Client seitige Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten</p></td>
+<td><p>Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1668,7 +1670,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Client seitige Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen</p></td>
+<td><p>Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen auf Clientseite</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1711,25 +1713,25 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 <div>
 
-## <a name="client-limitations"></a>Client Einschränkungen
+## <a name="client-limitations"></a>Einschränkungen der Clients
 
 <span id="Full_Basic"></span>
 
 <div>
 
-## <a name="basic-client-limitations"></a>Grundlegende Einschränkungen für Clients
+## <a name="basic-client-limitations"></a>Einschränkungen des Standardclients
 
-Die folgenden Features sind mit dem vollständigen Client verfügbar und sind für den Standard Client nicht verfügbar:
+Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumfang verfügbar, bei Verwendung des Standardclients jedoch nicht:
 
-  - Einstellungen für Teamanrufe verwalten
+  - Einstellungen für Teamanruf verwalten
 
   - Stellvertretungen verwalten
 
-  - Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario)
+  - Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)
 
-  - Anrufe eines anderen Benutzers verwalten, wenn eine Stellvertretung konfiguriert ist
+  - Anrufe eines anderen Benutzers verwalten, wenn eine Delegierung konfiguriert wurde
 
-  - Verwalten einer großen Anzahl von Anrufen
+  - Hohes Anrufaufkommen verwalten
 
   - Anruf an eine Reaktionsgruppe initiieren
 
@@ -1743,19 +1745,19 @@ Die folgenden Features sind mit dem vollständigen Client verfügbar und sind f�
 
 <div>
 
-## <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Online-oder Hybrid Benutzerkonten
+## <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Onlinebenutzerkonten oder hybride Benutzerkonten
 
-Benutzerkonten können entweder online oder lokal vorhanden sein und sich auf die für diesen Benutzer verfügbaren Features auswirken. Benutzer mit Konten in Skype for Business Online haben keinen Zugriff auf die folgenden Funktionen, auch nicht mit dem vollständigen Client:
+Benutzerkonten können entweder online oder lokal vorhanden sein, und das wirkt sich auf die Features aus, die diesem Benutzer zur Verfügung stehen. Benutzer mit Konten auf Skype for Business Online haben auch mit dem Client mit vollem Funktionsumfang keinen Zugriff auf die folgenden Features:
 
-  - Erweiterte Anwesenheitsinformationen: Verwenden eines Fotos von einer öffentlichen Website für mein Bild
+  - Erweiterte Anwesenheit: Foto von einer beliebigen öffentlichen Site für „Mein Bild“ verwenden
 
-  - Kontakte: Suchen nach Antwortgruppen
+  - Kontakte: Nach Reaktionsgruppen suchen
 
-  - Chat-Unterstützung: beständiger Chat (Gruppen-Chat)-Integration
+  - Chatunterstützung: Integration des beständigen Chats (Gruppen-Chats)
 
   - Chat Unterstützung: eskalieren eines beständigen Chatrooms zu einer Besprechung mit nur einem Mausklick
 
-  - Externe Benutzer: Durchführen von zwei-oder Mehrparteiengesprächen mit externen Benutzern
+  - Externe Benutzer: Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen
 
 </div>
 
