@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Gewähren von Berechtigungen für die Organisationsein
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting organizational unit permissions
 ms:assetid: 95ee5ffa-39b1-4d80-87a2-27bb364f7396
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398763(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c65ff483fbb9c63d4eaca31eca47c9093d229438
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 084fb8cdebeda06d4441879f08f830021b65d2e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832120"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34832120"
 
 _**Letztes Änderungsdatum des Themas:** 2012-05-14_
 
-Sie können das Cmdlet **Grant-CsOuPermission** verwenden, um den Objekten in bestimmten Organisationseinheiten (Organizational Units, OUs) Berechtigungen zu erteilen, damit Mitglieder der von Forest Preparation erstellten RTC-universellen Gruppen auf diese zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein. . Die der angegebenen Organisationseinheit hinzugefügten Berechtigungen sind dieselben Berechtigungen, die das Cmdlet **enable-CsAdDomain** den Computern und Benutzer Containern während der Domänenvorbereitung hinzufügt.
+Sie können das Cmdlet **Grant-CsOuPermission** verwenden, um den Objekten in bestimmten Organisationseinheiten (Organizational Units, OUs) Berechtigungen zu erteilen, damit Mitglieder der von Forest Preparation erstellten RTC-universellen Gruppen auf diese zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein. Die der angegebenen Organisationseinheit hinzugefügten Berechtigungen sind dieselben Berechtigungen, die das Cmdlet **enable-CsAdDomain** den Computern und Benutzer Containern während der Domänenvorbereitung hinzufügt.
 
 Verwenden Sie das Cmdlet **Test-CsOuPermission** , um die Berechtigungen zu überprüfen, die Sie mithilfe des Cmdlets **Grant-CsOuPermission** eingerichtet haben.
 

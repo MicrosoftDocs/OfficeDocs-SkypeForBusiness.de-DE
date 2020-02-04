@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Einrichten der Unterstützung für umfangreiche Bespre
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up support for large meetings
 ms:assetid: 8e22d34b-b395-408d-9d48-8f2a3abe9513
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03196c705253320e31e2483cc89b2aca386ff1af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0e8331c28d5bd06e6a3f7d9dab2fba7db334cd00
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847798"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Bei der Verwaltung eines Pools mit genau zwei Front-End-Servern sind spezielle �
 
 Wenn Sie zusätzlich optional eine Sicherung zur Notfallwiederherstellung und ein Failover für den für große Besprechungen verwendeten Pool bereitstellen möchten, können Sie ihn auch gemeinsam mit einem ähnlich eingerichteten dedizierten Pool in einem anderen Rechenzentrum verwenden. Ausführliche Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-![Konfiguration des umfangreichen Besprechungs Pools] (images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Konfiguration des umfangreichen Besprechungs Pools")
+![Konfiguration des umfangreichen Besprechungs Pools](images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Konfiguration des umfangreichen Besprechungs Pools")
 
 Zusätzliche Notizen zur Topologie:
 

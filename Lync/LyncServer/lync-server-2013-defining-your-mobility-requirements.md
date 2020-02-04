@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definieren der Mobilitätsanforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your mobility requirements
 ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 604812d96f58a53ee008bfe42603243571138d1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2721f88ce703fe4c26fbc7a9a6cd02cdde6b14a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832713"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Hier sind die Entscheidungen, die Sie beachten müssen:
     
     Zwar kann die Standardkonfiguration den mobilen Client Datenverkehr auf der externen Website durchlaufen, doch können Sie den mobilen Client Datenverkehr auf das interne Unternehmensnetzwerk einschränken. Wenn Sie den Datenverkehr auf das interne Netzwerk einschränken, können Benutzer lync Mobile-Anwendungen nur auf Ihren mobilen Geräten verwenden, wenn Sie sich im Netzwerk befinden.
     
-    Für Bereitstellungen, die Mobilität mithilfe des MCX **-** mobilitätsdiensts und lync 2010 Mobile unterstützen, führen Sie das Cmdlet "setCsMcxConfiguration" aus. Wenn Sie die Mobilität nur für die interne Verwendung einstellen möchten, verwenden Sie einen Befehl ähnlich der folgenden:
+    Für Bereitstellungen, die Mobilität mithilfe des MCX-mobilitätsdiensts und lync 2010 Mobile unterstützen, führen Sie das Cmdlet " **setCsMcxConfiguration** " aus. Wenn Sie die Mobilität nur für die interne Verwendung einstellen möchten, verwenden Sie einen Befehl ähnlich der folgenden:
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
@@ -80,7 +82,7 @@ Hier sind die Entscheidungen, die Sie beachten müssen:
     
 
     > [!IMPORTANT]  
-    > Wenn Sie einen lync Server 2013&nbsp;-Front-End-Server oder Front-End <STRONG></STRONG> -Pools verwenden und keine lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools vorhanden sind, <STRONG>gibt es keine Anforderung für die Cookie-basierte Persistenz</STRONG>. Wenn Sie alle lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools beibehalten müssen, gelten die gleichen Regeln wie in lync Server 2010 für Cookie-basierte Persistenz.
+    > Wenn Sie einen lync Server 2013&nbsp;-Front-End-Server oder Front-End-Pools verwenden und keine lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools vorhanden sind, <STRONG>gibt es keine Anforderung für die Cookie-basierte Persistenz</STRONG>. <STRONG></STRONG> Wenn Sie alle lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools beibehalten müssen, gelten die gleichen Regeln wie in lync Server 2010 für Cookie-basierte Persistenz.
 
     
     </div>
@@ -173,7 +175,7 @@ Hier sind die Entscheidungen, die Sie beachten müssen:
     </tbody>
     </table>
     
-    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und wie Sie die Richtlinien verwalten, finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) und [ Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
+    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zum Verwalten der Richtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) und [Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Möchten Sie, dass Benutzer, die nicht für Enterprise-VoIP aktiviert sind, in der Lage sein, Click-to-Join zu verwenden, um an Konferenzen teilzunehmen?**
     

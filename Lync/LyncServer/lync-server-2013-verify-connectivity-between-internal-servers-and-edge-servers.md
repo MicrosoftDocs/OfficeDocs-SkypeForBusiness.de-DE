@@ -3,6 +3,8 @@ title: Überprüfen der Konnektivität zwischen internen Servern und Edgeservern
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify connectivity between internal servers and Edge Servers
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e3868462036312be97484e41c69b51ae022b57c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27ca4874ac8c991828383afb524be1a1868bb7e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 
 In lync Server 2013 war ein separater Überprüfungs-Assistent verfügbar, der die Überprüfung der Konnektivität zwischen Edge-Servern und internen Servern unterstützt. In lync Server 2013 erfolgt die Überprüfung der Konnektivität automatisch, wenn Sie Ihre Edgeserver installieren.
 
-Sie können die Replikation von Konfigurationsinformationen an den Edge überprüfen, indem Sie das Windows PowerShell-Cmdlet " **Get-CsManagementStoreReplicationStatus** " auf dem internen Computer ausführen, auf dem sich der zentrale Verwaltungsspeicher befindet (oder eine beliebige Domäne, der beigetreten ist. Computer, auf dem lync Server 2013-Core-Komponenten (OcsCore. msi) installiert ist. Anfängliche Ergebnisse können den Status "falsch" anstelle von "true" für die Replikation angeben. Wenn dies der Fall ist, führen Sie das Cmdlet **Invoke-CsManagementStoreReplication** aus, und lassen Sie die Replikation Zeit, bevor **Sie die Get-CsManagementStoreReplicationStatus** erneut ausführen.
+Sie können die Replikation von Konfigurationsinformationen an den Edge überprüfen, indem Sie das Windows PowerShell-Cmdlet " **Get-CsManagementStoreReplicationStatus** " auf dem internen Computer ausführen, auf dem sich der zentrale Verwaltungsspeicher befindet (oder ein beliebiger Domänen verbundener Computer, auf dem lync Server 2013-Core-Komponenten (OcsCore. msi) installiert ist. Anfängliche Ergebnisse können den Status "falsch" anstelle von "true" für die Replikation angeben. Wenn dies der Fall ist, führen Sie das Cmdlet **Invoke-CsManagementStoreReplication** aus, und lassen Sie die Replikation Zeit, bevor **Sie die Get-CsManagementStoreReplicationStatus** erneut ausführen.
 
 Sie können die Konnektivität externer Benutzer separat überprüfen, einschließlich der Verwendung von Office Communications Server-Remote Verbindungsanalyse, um die Remotebenutzerkonnektivität zu überprüfen. Ausführliche Informationen finden Sie unter [Überprüfen der Konnektivität für externe Benutzer in lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
 

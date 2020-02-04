@@ -3,6 +3,8 @@ title: 'Lync Server 2013: von lync Web App unterstützte Plattformen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,10 +86,10 @@ Damit Sie lync Web App verwenden können, müssen Sie über eine der folgenden u
 <td><p>Windows 10</p></td>
 <td><p>Ja </p></td>
 <td><p>Ja</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>n/v</p></td>
@@ -97,10 +99,10 @@ Damit Sie lync Web App verwenden können, müssen Sie über eine der folgenden u
 <td><p>Windows 8,1<sup>1</sup></p></td>
 <td><p>n/v</p></td>
 <td><p>Ja</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>n/v</p></td>
@@ -108,12 +110,12 @@ Damit Sie lync Web App verwenden können, müssen Sie über eine der folgenden u
 </tr>
 <tr class="even">
 <td><p>Windows 8 (Intel-basiert)<sup>1</sup></p></td>
-<td><p>-</p></td>
-<td><p>n/v</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>n/v</p></td>
@@ -160,12 +162,12 @@ Damit Sie lync Web App verwenden können, müssen Sie über eine der folgenden u
 </tr>
 <tr class="even">
 <td><p>Mac OS X 10,7 und höher (Intel-basiert)<sup>2</sup></p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
-<td><p>-</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>Ja</p></td>
@@ -175,7 +177,7 @@ Damit Sie lync Web App verwenden können, müssen Sie über eine der folgenden u
 </table>
 
 
-<sup>1</sup> unter Windows 8 und Windows 8,1 kann das Plug-in, das für die Verwendung von computerbasiertem Audio, Video, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe erforderlich ist, nur installiert werden, wenn Sie Internet Explorer 10 oder Internet Explorer 11 ausführen. für den Desktop. Diese Features stehen nicht in Verbindung mit nicht-Desktop Versionen von Internet Explorer 10 oder Internet Explorer 11 zur Verfügung.
+<sup>1</sup> unter Windows 8 und Windows 8,1 kann das Plug-in, das für die Verwendung von computerbasiertem Audio, Video, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe erforderlich ist, nur installiert werden, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Features stehen nicht in Verbindung mit nicht-Desktop Versionen von Internet Explorer 10 oder Internet Explorer 11 zur Verfügung.
 
 <sup>2</sup> unter unterstützten Windows 7-, Windows Server 2008 R2-und Macintosh-Betriebssystemen stehen alle Features zur Verfügung, einschließlich computerbasierter sprach-, Video-, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe. Um diese Funktionen zu verwenden, müssen Sie ein Plug-In installieren, wenn Sie dazu aufgefordert werden. Beachten Sie, dass Mac OS X Version 10,6 nicht mehr unterstützt wird.
 

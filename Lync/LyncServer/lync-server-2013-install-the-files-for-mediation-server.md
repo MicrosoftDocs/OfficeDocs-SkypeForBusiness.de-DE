@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Installieren der Dateien für den Vermittlungsserver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60274ced1bf72a17b4c05b4908f60bde32323f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Wenn Sie auf dieser Website bereits Vermittlungsserver bereitgestellt haben, die
 
 
 > [!NOTE]  
-> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool definiert und veröffentlicht haben, wie unter <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definieren eines Vermittlungsservers im Topologie-Generator in lync Server 2013</A> beschrieben und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellung Dokumentation, und Sie haben überprüft, ob die Computer im vermittlungsserverpool die Voraussetzungen erfüllen, die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</A> und <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013</A>
+> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool definiert und veröffentlicht haben, wie unter <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definieren eines Vermittlungsservers im Topologie-Generator in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben ist. und Sie sichergestellt haben, dass die Computer im Vermittlungs Server Pool die Voraussetzungen erfüllen, die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</A> und <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-Komponenten beschrieben sind Sprachausgabe in lync Server 2013</A>
 
 
 
@@ -61,7 +63,7 @@ Wenn Sie auf dieser Website bereits Vermittlungsserver bereitgestellt haben, die
 
 3.  Klicken Sie auf der Seite **Endbenutzer-Lizenzvertrag** auf **Ich stimme zu** und klicken Sie anschließend auf **OK**. (Dieser Schritt ist erforderlich, um fortfahren zu können.)
 
-4.  Klicken Sie auf der Seite mit dem Bereitstellungs- **Assistenten von lync Server 2010** auf **lync Server System installieren oder aktualisieren**.
+4.  Klicken Sie auf der Seite mit dem **Bereitstellungs-Assistenten von lync Server 2010** auf **lync Server System installieren oder aktualisieren**.
 
 5.  Klicken Sie neben **Schritt 1: Lokalen Konfigurationsspeicher installieren** auf **Ausführen** und folgen Sie den Anweisungen auf dem Bildschirm.
 
@@ -81,7 +83,7 @@ Wenn Sie auf dieser Website bereits Vermittlungsserver bereitgestellt haben, die
 
 13. Überprüfen Sie auf dem Computer, auf dem Sie die lync Server-Systemsteuerung ausführen, auf der Seite **Topologie** der lync Server-Systemsteuerung, dass der Dienststatus des Vermittlungsservers als grünes Häkchen angezeigt wird. Wenn ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **Alle Dienste starten**.
 
-Wenn Sie dem vermittlungsserverpool mehr als einen Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, führen Sie die Verfahren unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) aus, um die Einstellungen für die trunk-Verbindung zwischen diesem vermittlungsserverpool zu konfigurieren (oder aller Mediation Server an einer Website) und deren Peer.
+Wenn Sie dem vermittlungsserverpool mehr als einen Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, führen Sie die Verfahren unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) aus, um die Einstellungen für die trunk-Verbindung zwischen diesem vermittlungsserverpool (oder allen Vermittlungsservern an einem Standort) und seinem Peer zu konfigurieren.
 
 </div>
 

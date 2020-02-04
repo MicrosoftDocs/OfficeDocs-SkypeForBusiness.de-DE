@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Richtlinien für die Enterprise-VoIP-Bereitstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,7 +114,7 @@ Für die Speicherorte, an denen Sie einen VoIP-Client installieren (beispielswei
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>Notrufe und mehrzeilige Telefonanlagen
 
-Die Verwendung eines mehrzeiligen Telefonsystems (MLTS) unterliegt möglicherweise US-bundesstaatlichem oder Bundesrecht oder den Gesetzen anderer Länder/Regionen, in denen die MLTS die Telefonnummer, die Durchwahl und/oder den physischen Standort eines Anrufers für die entsprechenden Notfalldienste bereitstellen muss, wenn ein der Anrufer wird in die Notfalldienste (beispielsweise bei der Wahl einer Notfall Zugriffsnummer wie 911 oder 999) versetzt. In dieser Version kann lync Server so konfiguriert werden, dass der physikalische Standort eines Anrufers einem Notrufdienst Anbieter bereitgestellt wird, wie unter [Planen von Notfalldiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)beschrieben. Die Einhaltung der MLTS-Gesetze obliegt der alleinigen Verantwortung des Käufers von lync Server-, lync-Client-und lync Phone Edition-Geräten.
+Die Verwendung eines mehrzeiligen Telefonsystems (MLTS) unterliegt möglicherweise den US-bundesstaatlichen oder bundesstaatlichen Gesetzen oder den Gesetzen anderer Länder/Regionen, in denen die MLTS die Telefonnummer, die Durchwahl und/oder den physischen Standort eines Anrufers für die entsprechenden Notfalldienste zur Verfügung stellen muss, wenn ein Anrufer in die Notfalldienste gestellt wird (beispielsweise bei der Wahl einer 999 911 Notruf In dieser Version kann lync Server so konfiguriert werden, dass der physikalische Standort eines Anrufers einem Notrufdienst Anbieter bereitgestellt wird, wie unter [Planen von Notfalldiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)beschrieben. Die Einhaltung der MLTS-Gesetze obliegt der alleinigen Verantwortung des Käufers von lync Server-, lync-Client-und lync Phone Edition-Geräten.
 
 </div>
 
