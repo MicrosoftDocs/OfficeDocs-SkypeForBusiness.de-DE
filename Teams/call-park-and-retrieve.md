@@ -15,17 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.callparkpolicies.overview
 ms.custom:
 - Phone System
 description: Verwenden Sie parken und abrufen, um einen Anruf im Teams-Dienst in der Cloud zu halten.
-ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 4bd77fcd90cb17f0ca5b09f784d6532d552df473
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209181"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695620"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -75,8 +75,8 @@ Führen Sie die folgenden Schritte aus, um einem oder mehreren Benutzern eine An
 
 1. Wechseln Sie zu den Richtlinien für**VoIP** > -**Anruf Park des** **Microsoft Teams Admin Center** > .
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
-3. Wählen Sie **Benutzer verwalten**.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Konfigurieren des Anruf Parks und Abrufen mit PowerShell

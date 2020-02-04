@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Wenn Sie das Schema für Active Directory-Domänendienste vorbereiten möchten, führen Sie den Schritt "Schema vorbereiten" im Skype for Business Server-Bereitstellungs-Assistenten aus. Klicken Sie auf Ausführen, um mit der Schemavorbereitung zu beginnen. Der Schritt "Schema vorbereiten" liest die angegebenen Schemadefinitionsdateien im Verzeichnis/Programm Files/Microsoft lync Server 2013/Deployment/Setup auf dem System ein, auf dem der Bereitstellungs-Assistent ausgeführt wird. Diese Dateien sind auch auf den Installationsmedien im Support/Schema-Verzeichnis verfügbar. Der Schritt „Schema vorbereiten“ dient zum Erweitern des Schemas und zum Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
-ms.openlocfilehash: 12b4bcbe93bd1ed55e0a2c2c1a133db41b30cd00
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd1e79411c9820013954be0add7b68c326188e9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292123"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700820"
 ---
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 5fa4035818072ee92e41aa880283658fead602f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0f2203f2637302dc79ea653fad17b856aec05e8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305535"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699800"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Sicherheitseinstellungen für die Registrierung: Erstellen neuer oder Bearbeiten vorhandener Sicherheitseinstellungen für die Registrierung
 

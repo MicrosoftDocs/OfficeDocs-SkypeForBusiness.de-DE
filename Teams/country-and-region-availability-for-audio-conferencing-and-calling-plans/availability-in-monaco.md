@@ -18,28 +18,29 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Monaco verfügbar sind.
-ms.openlocfilehash: e14fc6459a3a100dbdfa35a3755156a7594ccf04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1b7103ac82daf6cba1700f17de571bd35a3ebc60
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571051"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694880"
 ---
 # <a name="availability-in-monaco"></a>Verfügbarkeit in Monaco
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Monaco verfügbar sind.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
@@ -47,7 +48,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -64,7 +65,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
@@ -74,7 +75,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    

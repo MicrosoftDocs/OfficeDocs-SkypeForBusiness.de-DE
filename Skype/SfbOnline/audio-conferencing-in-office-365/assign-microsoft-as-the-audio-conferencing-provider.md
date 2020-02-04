@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, wie Sie Microsoft den Anbieter von Einwahlkonferenzen für Skype for Business zuweisen.
-ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962733"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695760"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 

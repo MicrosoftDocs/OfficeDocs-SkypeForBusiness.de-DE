@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Costa Rica verfügbar sind.
-ms.openlocfilehash: 18d5658250ab7e44715f6c7d8c205f44036113c5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fc831bfa1f6448d7877968655e88b6d87932f3ab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570493"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695250"
 ---
 # <a name="availability-in-costa-rica"></a>Verfügbarkeit in Costa Rica
 
@@ -37,9 +38,9 @@ ms.locfileid: "37570493"
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Costa Rica verfügbar sind.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden.  <br/> Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
@@ -47,7 +48,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -64,7 +65,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden.  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
@@ -74,7 +75,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    

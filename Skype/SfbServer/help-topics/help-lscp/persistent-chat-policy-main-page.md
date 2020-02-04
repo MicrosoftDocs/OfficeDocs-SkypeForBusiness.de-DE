@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Sie können die Seite "beständiger Chat" der Gruppe "beständiger Chat" verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellung. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem Client angezeigt.
-ms.openlocfilehash: ed4e8bbcb0856156148f459435b5cec857e9e223
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf7a534a13b1bccf98fcae1929c17494a0a5a138
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294172"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699910"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Richtlinie für beständigen Chat – Hauptseite
  
-Sie können die Seite "beständiger **Chat** " der Gruppe "beständiger **Chat** " verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellungs. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem Client angezeigt.
+Sie können die Seite " **beständiger Chat** " der Gruppe " **beständiger Chat** " verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellung. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem Client angezeigt.
   
 > [!NOTE]
 > In der Topologie gelten Website Richtlinien für beständigen Chat Server global, pro Benutzerpool oder pro Benutzer Website oder pro Benutzer. 
@@ -44,7 +44,7 @@ Auf der Seite **Richtlinie für beständigen Chat** können Sie die folgenden Au
     
 2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
-3. Klicken Sie in der Skype for Business Server-Systemsteuerung auf beständigen **Chat**und dann auf **Richtlinie**für beständigen Chat.
+3. Klicken Sie in der Skype for Business Server-Systemsteuerung auf **beständigen Chat**und dann auf **Richtlinie für beständigen Chat**.
     
 4. Klicken Sie in der Liste der Richtlinien auf **Global**, dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
     
@@ -54,7 +54,7 @@ Auf der Seite **Richtlinie für beständigen Chat** können Sie die folgenden Au
     
    - Geben Sie in **Beschreibung**Details zu den Richtlinien für Benutzer an (beispielsweise globale Richtlinie für _centralSiteName_).
     
-   - Zum Steuern des beständigen Chats für alle Websites und Benutzer, die nicht explizit über eine Website Richtlinie oder Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen beständigen **Chat aktivieren** .
+   - Zum Steuern des beständigen Chats für alle Websites und Benutzer, die nicht explizit über eine Website Richtlinie oder Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen **beständigen Chat aktivieren** .
     
 6. Klicken Sie auf **Commit ausführen**.
     
@@ -104,7 +104,7 @@ Die Benutzerrichtlinie setzt die Richtlinien auf globaler und Standortebene auß
     
    - Geben Sie in **Beschreibung**Details zu den Benutzerrichtlinien an (beispielsweise Richtlinien für beständigen Chat für bestimmten Benutzer).
     
-   - Zum Steuern des beständigen Chats für alle Benutzer, die nicht ausdrücklich über eine Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen beständigen **Chat aktivieren** .
+   - Zum Steuern des beständigen Chats für alle Benutzer, die nicht ausdrücklich über eine Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen **beständigen Chat aktivieren** .
     
 6. Klicken Sie auf **Commit ausführen**.
     
@@ -122,7 +122,7 @@ Verwenden Sie das in diesem Thema beschriebene Verfahren, um eine zuvor erstellt
     
 4. Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
     
-5. Wählen Sie in **lync Server-Benutzer bearbeiten** unter **Richtlinie**für beständigen Chat die Benutzerrichtlinie für beständigen Chat aus, die Sie anwenden möchten.
+5. Wählen Sie in **lync Server-Benutzer bearbeiten** unter **Richtlinie für beständigen Chat**die Benutzerrichtlinie für beständigen Chat aus, die Sie anwenden möchten.
     
     > [!NOTE]
     > Die ** \<automatischen\> ** Einstellungen wenden die standardmäßige effektive Richtlinie an. Diese Einstellungen werden vom Server automatisch übernommen.

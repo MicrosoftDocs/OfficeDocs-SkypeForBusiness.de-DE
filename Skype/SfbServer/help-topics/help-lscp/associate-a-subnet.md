@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsSubnetMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 25de7999a6e27c1500dfc56132cd36d0748cabd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f58cd060014b4df8740005fff6b5d51e57177000
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300140"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700570"
 ---
 # <a name="associate-a-subnet"></a>Zuordnen eines Subnetzes
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Um den FQDN des Director-Pools zu definieren, wählen Sie entweder einen Pool mit mehreren Computern aus, der aus zwei oder mehr Directors in einem Lastenausgleichspool oder einem einzelnen Computerpool bestehen soll. Sie müssen auch den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) eingeben, der für die Verbindung mit dem Director-Pool oder dem FQDN des einzelnen Directors verwendet wird. Bei einem Pool von Director-Computern handelt es sich hierbei um den DNS-Eintrag (Domain Name System) für die virtuelle IP eines Hardwarelastenausgleichs oder den freigegebenen DNS-Eintrag für den DNS-Lastenausgleich.
-ms.openlocfilehash: 163de8a6091e74238c4a4127ae39f7cd500cdb84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304786"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698570"
 ---
 # <a name="add-director-pool"></a>Hinzufügen des Director-Pools
  

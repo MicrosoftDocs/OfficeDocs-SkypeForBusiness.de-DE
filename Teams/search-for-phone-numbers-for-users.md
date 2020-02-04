@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie nach Telefonnummern suchen, die Sie Ihren Benutzern nach Land, Region und Ort zuweisen können, und die Anzahl der benötigten Nummern angeben.
-ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573437"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694200"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -71,7 +72,7 @@ Wenn Sie Hilfe beim Abrufen von Telefonnummern benötigen, finden Sie unter [Ver
 10. Wenn Sie zur Seite **Telefonnummern** zurückkehren, wählen Sie die Telefonnummer oder Nummern aus, die Sie zuweisen möchten, und klicken Sie dann auf **Bearbeiten** , um Sie einem Benutzer zuzuweisen.  
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

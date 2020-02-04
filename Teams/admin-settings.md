@@ -12,7 +12,7 @@ description: Informieren Sie sich über die Richtlinien und Einstellungen, die S
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.adminsettings
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d5ecbab6da3936ba0bb20105c40ef0df2c9a1c4
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: b857d0b1c0ded68bc74831d1596c78ff1d8e5907
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516101"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695490"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================

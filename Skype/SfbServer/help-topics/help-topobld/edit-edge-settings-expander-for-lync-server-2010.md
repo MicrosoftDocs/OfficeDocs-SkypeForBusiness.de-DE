@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Sie bearbeiten die Einstellungen für den Edge-Server oder den Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282524"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697380"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
  
@@ -53,11 +53,11 @@ In diesem Abschnitt der Eigenschaften können Sie Eigenschaften für die externe
   
 - Wählen Sie **a/v-Edgedienst ist NAT aktiviert** aus, wenn Sie den a/v-Edgedienst so konfigurieren möchten, dass er eine private Adresse oder eine andere Adresse verwendet, die hinter einem NAT-Gerät (Network Address Translation) verborgen bleibt.
     
-- Um den **Access**-Edgedienst zu bearbeiten, definieren Sie den **Pool-FQDN** für den Access-Edgedienst entsprechend der Definition in DNS nach Host (A und AAAA, wenn IPv6 verwendet wird) und einem Portwert
+- Um den **Access-Edgedienst**zu bearbeiten, definieren Sie den **Pool-FQDN** für den Access-Edgedienst entsprechend der Definition in DNS nach Host (A und AAAA, wenn IPv6 verwendet wird) und einem Portwert
     
 - Zum Bearbeiten des **Webkonferenz-Edgedienst**definieren Sie einen **Pool-FQDN** für den Webkonferenz-Edgedienst, wie er in DNS nach Host (a und AAAA, wenn IPv6 verwendet wird), Datensätzen und einem Portwert definiert.
     
-- Um den **a/v**-Edgedienst zu bearbeiten, definieren Sie einen **Pool-FQDN** für den a/v-Edgedienst, wie er in DNS von Host (A und AAAA, wenn IPv6 verwendet wird), Datensätzen und einem Portwert definiert.
+- Um den **a/v-Edgedienst**zu bearbeiten, definieren Sie einen **Pool-FQDN** für den a/v-Edgedienst, wie er in DNS von Host (A und AAAA, wenn IPv6 verwendet wird), Datensätzen und einem Portwert definiert.
     
     > [!IMPORTANT]
     > Wenn Sie das Kontrollkästchen **separaten FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren** aktiviert haben, steht nur der FQDN des Access-Edge-Service-Pools für die Bearbeitung zur Verfügung. Weisen Sie für jeden der drei Edge-Dienste verschiedene Ports zu.

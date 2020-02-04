@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Wenn Sie die Microsoft Push-Benachrichtigungen und Apple Push-Benachrichtigungen konfigurieren möchten, müssen Sie eine Richtlinie erstellen, um festzulegen, welche Arten von Push-Benachrichtigungen Sie benötigen.
-ms.openlocfilehash: 571efc74050dc7b7cf55677167a803ddcd8c8f14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 36cf19d42a2378e024f90d3dbe60123b3d5473fa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293389"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700030"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  

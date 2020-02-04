@@ -1,5 +1,5 @@
 ---
-title: Was sind automatische Cloudtelefonzentralen?
+title: Was sind automatische Cloud-Telefonzentralen?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Erfahren Sie, welche Cloud-automatischen Telefonzentralen sind und wie Sie verwendet werden.
-ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: ab88eb27eb12e8de119b90c7d53de750384afcea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004770"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694300"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
+# <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloud-Telefonzentralen?
 
 Das Telefon System in Office 365 stellt automatische Telefonzentralen bereit, mit deren Hilfe externe und interne Anrufer über ein Menü System navigieren können, um Anrufe an Benutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.
   

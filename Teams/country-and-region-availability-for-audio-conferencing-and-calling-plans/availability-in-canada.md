@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 01e0aae70bec5c565bbd8f5e2f6b376133d5b987
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fbf1f2aafdaf2a05d303548e45f56ab519af9493
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570537"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695260"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -47,7 +48,7 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -59,8 +60,8 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 | **Funktion**                                        | **Details**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>    | Ja  <br/>                                                                                                                                                                                                                                                                  |
-| Für Anrufpläne verfügbare Minuten.               | Es stehen vier Planoptionen pro Kalendermonat zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe </li><li>240 Minutentarif für Inlandsanrufe</li></li><li>3000 Minutentarif für Inlandsanrufe</li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li>|
-| Können Sie ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Zu diesem Zeitpunkt nicht unterstützt.<br/>                                                                                                                                                                                                                                            |
+| Verfügbare Minuten für Anrufpläne.               | Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>3000 Minutentarif für Inlandsanrufe</li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li>|
+| Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt.<br/>                                                                                                                                                                                                                                            |
 | Sind ausgehende Anrufe möglich?  <br/>                 | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                  |
 
 > [!Note]
@@ -68,7 +69,7 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> | <ul><li>Calgary <li>  Montréal <li>  Toronto <li>  Vancouver <li>  Winnipeg </ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
@@ -81,7 +82,7 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
 

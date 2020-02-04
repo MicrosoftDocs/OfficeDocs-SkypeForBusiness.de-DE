@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Sie können die Eigenschaften auf dieser Seite so konfigurieren, dass Sie den Edgeserver auf die externen Speicherorte des Zugriffs-Edgedienst, des Webkonferenz-Edge-Diensts und des A/V-Edgedienst verweisen.
-ms.openlocfilehash: 8383333aadeea3aa5d94a56a362b3cf27b7be6c6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 10e0723c34b1eeef090791f292bc70e5cfdfff43
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302510"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698460"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Hinzufügen der externen IP-Adresse des Edgeservers – 2010
 

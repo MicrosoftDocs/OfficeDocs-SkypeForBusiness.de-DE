@@ -18,28 +18,29 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
-ms.openlocfilehash: e53bae211a24118972128039f27029f318f86d1c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 859f517bf37b47bfaee5676ff4e7045bf61a9c87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571227"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694480"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
 
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
@@ -47,7 +48,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -59,8 +60,8 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 | **Funktion**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>   | Ja  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Für Anrufpläne verfügbare Minuten.              | Es stehen vier Planoptionen pro Kalendermonat zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li><li>240 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li></li><li>3000 Minutentarif für Inlandsanrufe </li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
-| Können Sie ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Zu diesem Zeitpunkt nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
+| Verfügbare Minuten für Anrufpläne.              | Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li><li>240 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li></li><li>3000 Minutentarif für Inlandsanrufe </li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
+| Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]
 > Anrufe nach Kanada werden als Inlandsgespräche behandelt.
@@ -70,7 +71,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Kalifornien, Los Angeles <li> Kalifornien, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Florida, Miami <li>  Georgia, Atlanta <li> Hawaii, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianapolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiana, New Orleans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, St. Louis <li>  Montana, Billings <li> North Carolina, Charlotte<li>North Dakota, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> New Jersey, Newark <li> New Mexico, Albuquerque <li>  New York, New York City <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvania, Philadelphia <li> Rhode Island, Providence <li>  South Carolina, Charleston <li>South Dakota, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virginia, Richmond <li> Washington, Seattle <li>  West Virginia, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
@@ -80,7 +81,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
 

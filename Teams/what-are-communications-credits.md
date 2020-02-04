@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568575"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694280"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -69,9 +70,9 @@ Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung*
   
 In den **Microsoft 365 Admin Center** > -**Abrechnungs** > **Abonnements**können Sie jederzeit Guthaben manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
   
-## <a name="communications-credits"></a>Guthaben für Kommunikationen
+## <a name="communications-credits"></a>Kommunikationsguthaben
 
-In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Skype for Business bereits als Ihren Dienstanbieter verwenden, können Sie Nutzungsdaten abrufen, indem Sie es entweder in **Microsoft 365 Admin Center** > -**Berichten** oder in **Skype for Business Admin Center** > -**Berichten überprüfen. **Informationen zur **PSTN-Nutzung.**  > 
+In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Skype for Business bereits als Ihren Dienstanbieter verwenden, können Sie Nutzungsdaten abrufen, indem Sie es in den **Microsoft 365 Admin Center** > -**Berichten** oder im **Skype for Business Admin Center** > **Berichte** > **über die PSTN-Nutzungsdetails über**prüfen.
   
 Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bearbeiten, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284403"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697290"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 
@@ -41,7 +41,7 @@ Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bea
 
 - Wenn Sie Konferenzen ausgewählt haben, können **Einwahlkonferenzen (PSTN)** ausgewählt werden. Aktivieren Sie das Kontrollkästchen, um Features für Einwahlkonferenzen zu aktivieren.
 
-- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP** , wenn Sie Features bereitstellen möchten, damit lync Server 2013 mit VoIP-Technologien (Voice over IP) als Telefon Sprachsystem fungiert, einschließlich der Option zum Bereitstellen von Telefonen, SIP-Stämmen oder öffentlichen Geräten. Switched Telephone Network Connectivity mit Mediation Server, PSTN-Gateways und IP-PBX, in Kombination oder allein, basierend auf dem Design und den Anforderungen. Einzelheiten zu Enterprise-VoIP finden Sie unter [Enterprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) -VoIP und [Plan für Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP** , wenn Sie Features bereitstellen möchten, um die Verwendung von lync Server 2013 als Telefon-VoIP-System mithilfe von VoIP-Technologien (Voice over IP) zu ermöglichen, einschließlich der Option zum Bereitstellen von Telefonen, SIP-Stämmen oder öffentlichen Telefonnetzen mithilfe von Vermittlungs Server, PSTN-Gateways und IP-PBX, basierend auf dem Einzelheiten zu Enterprise-VoIP finden Sie unter [Enterprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) -VoIP und [Plan für Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Zuordnungen**
 
@@ -57,18 +57,18 @@ Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bea
 
   **Flexibilität**
 
-- Aktivieren Sie das Kontrollkästchen **zugeordnete sicherungsregistrierungspool** , um aus der Liste einen Front-End-Server oder einen Front-End-Pool zu wählen, der die Sicherungs Registrierungsstelle (also der Front-End-Server oder der Front-End-Pool ist, der als sekundäre Registrierungsstelle bezeichnet wird, falls das primäre fehlschlägt
+- Aktivieren Sie das Kontrollkästchen **zugeordnete sicherungsregistrierungspool** , um aus der Liste einen Front-End-Server oder einen Front-End-Pool zu wählen, der als Sicherungs Registrierungsstelle (also der Front-End-Server oder Front-End-Pool als sekundäre Registrierungsstelle bezeichnet wird, falls der primäre Fehler auftritt)
 
 - Wenn Sie den entsprechenden sicherungsregistrierungspool ausgewählt und eine Sicherungs Registrierungsstelle ausgewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für die **interne (SEK)-Spracherkennung** und das **Failback-Intervall für Sprachanrufe (sec)** definieren. Ausführliche Informationen finden Sie unter [Planen der Enterprise-VoIP-Resilienz](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
   **Web Services**
 
-- Zum Konfigurieren **interner**Webdienste definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
+- Zum Konfigurieren **interner Webdienste**definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
 
     > [!IMPORTANT]
     > Interne Webdienste und die definierten Überwachungs-und Veröffentlichungs-Ports sind für interne Clients und Geräte bestimmt. Externe Clients und Geräte verwenden die externen Webdienste Überwachung und veröffentlichte Ports sowie den definierten externen Webdienste-vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN).
 
-- Zum Konfigurieren **externer**Webdienste definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
+- Zum Konfigurieren **externer Webdienste**definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
 
     > [!IMPORTANT]
     > Externe Webdienste und die definierten Überwachungs-und Veröffentlichungs-Ports gelten für externe Clients und Geräte. Externe Clients und Geräte verwenden die überwachten und veröffentlichten Ports für externe Webdienste, die in der Regel von Ihrem Reverseproxy zusammen mit dem definierten externen Webdienste-vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) definiert werden. Die Beziehung zwischen dem FQDN externer Webdienste und den einfachen URLs definiert die URL-Adressen (Uniform Resource Locator), die von externen Clients für den Zugriff auf Dienste verwendet werden, die für externe Benutzer und Geräte verfügbar sind. Weitere Informationen zu einfachen URLs finden Sie unter [Planen einfacher URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
@@ -86,7 +86,7 @@ Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bea
 
 - Sie definieren Trunks, die dem zusammengefassten Vermittlungs Server zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 
-    Wenn einem Vermittlungs Server mehr als ein Gateway zugeordnet ist, können Sie das Standardgateway angeben, indem Sie das Gateway auswählen, das Sie als Standard festlegen möchten, und **** dann auf als Standard festlegen klicken. Wenn Sie sich entscheiden, das aktuelle Standardgateway zu entfernen, wählen Sie das Gateway aus, und klicken Sie auf **Standard aufheben**.
+    Wenn einem Vermittlungs Server mehr als ein Gateway zugeordnet ist, können Sie das Standardgateway angeben, indem Sie das Gateway auswählen, das Sie als Standard festlegen möchten, und dann auf **als Standard festlegen klicken.** Wenn Sie sich entscheiden, das aktuelle Standardgateway zu entfernen, wählen Sie das Gateway aus, und klicken Sie auf **Standard aufheben**.
 
 > [!IMPORTANT]
 > Wenn Sie Änderungen an den Eigenschaften in diesem Dialogfeld vornehmen, müssen Sie die Topologie veröffentlichen und den Bereitstellungs-Assistenten für Skype for Business Server auf allen betroffenen Servern ausführen. Nach der Veröffentlichung der neuen Topologie wird eine Liste der betroffenen Server, auf denen der Skype for Business Server-Bereitstellungs-Assistent ausgeführt werden muss, als Link auf dem Zusammenfassungsbildschirm der erfolgreichen Topologie-Veröffentlichung bereitgestellt. Details zum Veröffentlichen der aktualisierten Topologie finden Sie unter [Veröffentlichen der Topologie](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Details zum Skype for Business Server-Bereitstellungs-Assistenten finden Sie unter [lync Server-Verwaltungs Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).

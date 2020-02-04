@@ -18,28 +18,29 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
-ms.openlocfilehash: 1e3606e48a235d3208d429581b23ce2b78bf03c2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 7bfb3bb0e715606584026affe672040a5b82cb6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562824"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694730"
 ---
 # <a name="availability-in-puerto-rico"></a>Verfügbarkeit in Puerto Rico
 
-[Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
 Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
   
-## <a name="audio-conferencing"></a>Audiokonferenz
+## <a name="audio-conferencing"></a>Audiokonferenzen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
@@ -47,7 +48,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
    
 ## <a name="phone-system"></a>Telefonsystem
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist das Telefonsystem zum Kauf verfügbar?  <br/> |Ja  <br/> |
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
@@ -60,12 +61,12 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |3000 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird) Die Inlandsanrufe in den USA schließen Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico ein. Benutzer, denen der Lizenzverwendungsort USA und/oder Puerto Rico zugewiesen ist, nutzen den gleichen Minutenpool.  <br/> |
-|Können Sie ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Zu diesem Zeitpunkt nicht unterstützt. <br/> |
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |San Juan  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
@@ -75,7 +76,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
    

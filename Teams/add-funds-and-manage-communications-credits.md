@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -28,12 +28,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Hier erfahren Sie, wie Sie für Skype for Business-Dienste für Kommunikations Kredite (PSTN-Verbrauch) Zahlen und Pläne sehen, wie Sie Ihre Nutzer mit einem kontinuierlichen Zugriff auf das Telefonsystem schützen können. '
-ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516812"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695826"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
 

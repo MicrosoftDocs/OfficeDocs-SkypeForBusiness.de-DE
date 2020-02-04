@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Gehen Sie wie folgt vor, um die Eigenschaften eines bereits definierten A/V-Konferenz Server Pools zu bearbeiten:'
-ms.openlocfilehash: 8de6d8215297f0f399358406565f542948e87770
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 056046eb8351d3b9b4c6e9422b6312c0be6eed78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301596"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697700"
 ---
 # <a name="av-mcu-settings-expander"></a>Einstellungen der A/V MCU – Erweiterung
  
@@ -33,7 +33,7 @@ Um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des 
 Um einen a/v-Konferenzserver Pool zuzuordnen, wählen Sie den Front-End-Pool oder die Pools aus, die Sie dem a/v-Konferenzserver Pool zuordnen müssen.
   
 > [!NOTE]
-> Wenn im Bereich **Auswählen der Front-End-Pools, die diesem a/v-Konferenz Pool zugeordnet** werden, keine Front-End-Pools angezeigt werden, haben Sie entweder den a/v-Konferenz Server mit dem Front-End-Pool zusammengefasst oder nicht ausgewählt, um Konferenzfunktionen in den Features hinzuzufügen. ** und Funktions** Bereich der Eigenschaften des Front-End-Pools.
+> Wenn im Bereich **Auswählen der Front-End-Pools, die diesem a/v-Konferenz Pool zugeordnet** werden, keine Front-End-Pools angezeigt werden, haben Sie entweder den a/v-Konferenz Server mit dem Front-End-Pool zusammengefasst, oder Sie haben im Abschnitt **Features und Funktionen** der Eigenschaften des Front-End-Pools keine Konferenz hinzugefügt.
   
 
 

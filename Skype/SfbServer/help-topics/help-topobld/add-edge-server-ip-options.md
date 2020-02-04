@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Mit Microsoft lync Server 2013 können Sie IPv4-und IPv6-Adressen für jede Schnittstelle für den Edge-Server und den Edge-Pool konfigurieren. Gehen Sie dazu wie folgt vor:'
-ms.openlocfilehash: de0b0e0c050721a4fb54a450db89e34f65ea7f7f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6721f170bbe9a05a247d5ab79fb2cbd1cb7ccaf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293973"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698410"
 ---
 # <a name="add-edge-server-ip-options"></a>Hinzufügen der IP-Adresse des Edgeservers – Optionen
  

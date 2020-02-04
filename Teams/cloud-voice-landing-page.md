@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Startseite zum Bereitstellen von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925576"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695480"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -106,7 +106,7 @@ Standardmäßig verwenden alle ausgehenden Anrufe die zugewiesene Telefonnummer 
 
 ### <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft
 
-Microsoft hat zwei Arten von Telefonnummern zur Verfügung: *Teilnehmer* (Benutzer) Nummern, die Benutzern in Ihrer Organisation zugewiesen werden können, und *Dienst* Nummern, die als gebührenpflichtige und gebührenfreie Servicenummern zur Verfügung stehen, die einen höheren gleichzeitigen Anruf haben Kapazität als Abonnenten Nummern und können Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden.
+Microsoft hat zwei Arten von Telefonnummern zur Verfügung: *Teilnehmer* (Benutzer) Nummern, die Benutzern in Ihrer Organisation zugewiesen werden können, und *Dienst* Nummern, die als gebührenpflichtige und gebührenfreie Servicenummern zur Verfügung stehen, die eine höhere gleichzeitige Anrufkapazität als Teilnehmer Nummern aufweisen und Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden können.
 
 |Frage|Aktion |
 | :------------|:-------|

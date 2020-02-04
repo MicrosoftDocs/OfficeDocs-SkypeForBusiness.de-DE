@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Sie können Anruf Analysen einrichten und verwenden, um Probleme mit der Anrufqualität von Skype for Business und Microsoft Teams zu identifizieren und zu beheben.
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571249"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693940"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 

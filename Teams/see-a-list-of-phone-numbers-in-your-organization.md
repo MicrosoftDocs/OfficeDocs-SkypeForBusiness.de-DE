@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation sowie alle Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen wurden.
-ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9cbc26171b8f7321a941cc577e61f90048bf22a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571433"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694140"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -41,7 +42,7 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit Sie in der linken Navigationsleiste des Skype for Business admin Centers die Option **Stimme** sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
+    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
 
 3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in der Spalte **Status** .
 
@@ -104,7 +105,7 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen u
    - **Update fehlgeschlagen**
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 

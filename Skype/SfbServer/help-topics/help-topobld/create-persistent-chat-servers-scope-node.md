@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Klicken Sie mit der rechten Maustaste auf den beständigen Chat-Pool im Topologie-Generator, um folgende Aktionen auszuführen:'
-ms.openlocfilehash: 60c28ea5999030717da0885801eb6410c3d9a712
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15f73a250944cc30b26cbeec093015b861b83f2e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305934"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697580"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Erstellen von Servern für beständigen Chat – Bereichsknoten
  
-Klicken Sie mit der rechten Maustaste auf den beständigen **Chat-Pool** im Topologie-Generator, um folgende Aktionen auszuführen:
+Klicken Sie mit der rechten Maustaste auf den **beständigen Chat-Pool** im Topologie-Generator, um folgende Aktionen auszuführen:
   
 - **Neuer beständiger Chat-Pool**: startet den Assistenten zum **Definieren des neuen beständigen Chat Pools** , der zum Definieren eines neuen beständigen Chat Servers oder-Pools verwendet wird.
     

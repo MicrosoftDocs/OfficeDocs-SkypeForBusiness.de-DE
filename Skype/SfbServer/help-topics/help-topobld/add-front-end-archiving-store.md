@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndArchivingStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: Für die Archivierung ist eine unterstützte 64-Bit-Version der Microsoft SQL Server-Datenbanksoftware erforderlich, um die Archivierungsdaten zu speichern. Sie können entweder eine zuvor definierte SQL Server-Datenbank für die Archivierung auswählen oder eine neue SQL Server-Datenbank definieren, indem Sie neben der Instanz von SQL SE einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers angeben, auf dem sich die SQL Server-Datenbank befinden soll. RVer haben, das Sie für die neue SQL Server-Datenbank verwenden möchten (bei der es sich um die Standardinstanz oder um eine benannte Instanz handelt, die Sie angeben).
-ms.openlocfilehash: 67a0db892346852ba2aaf059dbad7b73b0037f75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7af10299da6cb6dee960ab8b8154aa71f41fa1ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298772"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698310"
 ---
 # <a name="add-front-end-archiving-store"></a>Hinzufügen des Front-End-Archivierungsspeichers
 

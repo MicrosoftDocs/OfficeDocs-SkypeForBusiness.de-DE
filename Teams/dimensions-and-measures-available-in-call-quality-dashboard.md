@@ -16,15 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: Reporting
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580892"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696040"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -167,10 +168,10 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | First User Agent  | Zeichenfolge  | Benutzer-Agent-Zeichenfolge für den ersten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent vom ersten Endpunkt gemeldet   |
 | Second User Agent  | Zeichenfolge  | Benutzer-Agent-Zeichenfolge für den zweiten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent wurde vom zweiten Endpunkt gemeldet   |
 | Conference Type  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: Audio-Video <br/>&bull;conf: Fokus | Typ des Konferenz-URI.  <br/> **Beispielwert:** conf: Audio-Video | &bull;Szenario ohne Konferenz   |
-| Konferenz-ID (in lync.CQD.com)<br/>Anruf-ID (in CQD.Teams.Microsoft.com)  | Zeichenfolge  | Konferenz-ID (oder Anruf-ID), die den Streams zugeordnet ist. In CQD.Teams.Microsoft.com verfügen alle Anrufe über Anruf-IDs, unabhängig davon, ob es sich um einen P2P-Anruf oder einen Konferenzanruf handelt.  Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert:** 0001P6GK  | &bull;Szenario ohne Konferenz |
+| Konferenz-ID  | Zeichenfolge | Konferenz-ID (oder Anruf-ID), die den Streams zugeordnet ist. In CQD.Teams.Microsoft.com haben alle Anrufe eine Anruf-ID, unabhängig davon, ob es sich um einen P2P-Anruf oder einen Konferenzanruf handelt. In CQD.lync.com ist dieser Wert nur avialble für Skype for Business-Konferenzgespräche.  Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert (CQD.lync.com):** 0001P6GK <br/> **Beispielwert (CQD.Teams.Microsoft.com):** 5a962ccf-b9cb-436a-A433-f28bf5404ad8  | |
 | First Client App Version  | Zeichenfolge  | Version der Anwendung, die für den ersten Endpunkt verwendet wird. Daten werden aus der Benutzer-Agent-Zeichenfolge analysiert.<br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet.   |
 | Second Client App Version  | Zeichenfolge  | Version der Anwendung, die für den zweiten Endpunkt verwendet wird. Daten werden aus der Benutzer-Agent-Zeichenfolge analysiert.<br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet. |
-|Besprechungs-ID|Zeichenfolge |Der Bezeichner für die Besprechung, der beim Erstellen der Besprechung generiert wurde. | |
+|Besprechungs-ID (in CQD.Teams.Microsoft.com) <br/> Konferenz-ID (in CQD.lync.com) |Zeichenfolge |Der Bezeichner für die Besprechung, der beim Erstellen der Besprechung generiert wurde. <br/> **Beispielwert (Skype for Business):** 0001P6GK  <br/> **Beispielwert (Teams):** 19: meeting_MzB... zIw@Thread. v2| |
 |**Netzwerk**||| 
 | Transport  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;UDP <br/>&bull;TCP <br/>&bull;Unbekanntes  | Vom Datenstrom verwendeter Netzwerktransporttyp.  "Unbekannt" gibt an, dass das System nicht ermitteln konnte, ob es sich bei dem Transporttyp um TCP oder UDP handelt.  | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet  |
 | First Connectivity Ice  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;Direct = direkter Netzwerkpfad <br/>&bull;Relay = durch Relais <br/>&bull;Http = über HTTP-Proxy <br/>&bull;Fehler = Verbindungsfehler | Vom ersten Endpunkt verwendeter ICE-Verbindungstyp.  |&bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet   |
@@ -189,7 +190,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Second Relay Port  | Ganze Zahl  | IP-Adresse des vom zweiten Endpunkt zugeordneten Medienports auf dem Mediarelay-Server. <br/> **Beispielwert:** 3478  | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet|
 | First Subnet  | Zeichenfolge  | Vom ersten Endpunkt für den Mediendatenstrom verwendetes Subnetz mit Bindestrichen zum Trennen der Oktette. <br/> **Beispielwert:** 104.43.195.0  | &bull;Vom Endpunkt nicht gemeldete Daten <br/>&bull;Medienpfad wurde nicht eingerichtet <br/>&bull;IPv6 wurde verwendet|
 | Second Subnet  | Zeichenfolge  | Vom zweiten Endpunkt für den Mediendatenstrom verwendetes Subnetz mit Bindestrichen zum Trennen der Oktette. <br/> **Beispielwert:** 104.43.195.0 | &bull;Vom Endpunkt nicht gemeldete Daten <br/>&bull;Medienpfad wurde nicht eingerichtet <br/>&bull;IPv6 wurde verwendet |
-| First VPN  | Boolescher Wert  | "True", wenn der vom ersten Endpunkt verwendete Netzwerkadapter angegeben hat, dass es sich um eine VPN-Verbindung handelt, andernfalls false. Einige VPN-Daten melden diese Daten nicht ordnungsgemäß.   | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet   |
+| First VPN  | Boolean  | "True", wenn der vom ersten Endpunkt verwendete Netzwerkadapter angegeben hat, dass es sich um eine VPN-Verbindung handelt, andernfalls false. Einige VPN-Daten melden diese Daten nicht ordnungsgemäß.   | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet   |
 | Second VPN  | Boolean  | "True", wenn der vom zweiten Endpunkt verwendete Netzwerkadapter angegeben hat, dass es sich um eine VPN-Verbindung handelt, andernfalls false. Einige VPN-Daten melden diese Daten nicht ordnungsgemäß.    | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet   |
 | Applied Bandwidth Source  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;Statisch Max <br/>&bull;API-Modalität <br/>&bull;API-Modality_All <br/>&bull;API-SendSide-BWLimit <br/>&bull;Präferenzwert <br/>&bull;Wiederum <br/>&bull;ReceiveSide <br/>&bull;API SDP-Modalität <br/>&bull;Fernbedienung empfangen <br/>&bull;Seiten BWLimit <br/>&bull;API-ServiceQuality <br/>&bull;API SDP <br/>&bull;Empfangen von SidePDP | Gibt die auf den Datenstrom angewendete Quelle der Bandbreite an. | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet   |
 | Bandwidth Est | Ganzzahliger Bereich  | Geschätzte zwischen dem ersten und zweiten Endpunkt verfügbare Bandbreite (Durchschnitt) in Bits pro Sekunde.  <br/> **Beispielwert:** 026: [260000-270000)  | &bull;Transporttyp wurde nicht gemeldet <br/>&bull;Der Medienpfad wurde nicht eingerichtet  |
@@ -299,7 +300,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Second Feedback Tokens  | Zeichenfolge  | Eine Zeichenfolge mit einer Liste von Feedback Token mit einem booleschen Flag, das angibt, ob vom Benutzer ein Token festgesetzt wurde, das Feedback vom zweiten Endpunkt bereitstellt. <br/> **Beispielwert:** {DistortedSpeech: 1; ElectronicFeedback: 1; BackgroundNoise: 1; MuffledSpeech: 1; Echo: 1;}  | &bull;Vom Benutzer des zweiten Endpunkts wurde kein Feedback bereitgestellt.  |
 | First Feedback Has Audio Issue  | Boolescher Wert  | „True", wenn die Feedback-Token vom ersten Endpunkt einen Datenstrom ohne Audioprobleme angegeben haben. Andernfalls „False".   |  |
 | Second Feedback Has Audio Issue  | Boolean  | "True", wenn Feedback Tokens vom zweiten Endpunkt angeben, dass der Datenstrom ein Audioproblem aufweist, andernfalls false.    ||
-| First Feedback Has Video Issue  | Boolean  | True, wenn Feedback Tokens vom ersten Endpunkt angeben, dass Datenstrom ein Videoproblem aufwiesen, andernfalls false.    | |
+| First Feedback Has Video Issue  | Boolescher Wert  | True, wenn Feedback Tokens vom ersten Endpunkt angeben, dass Datenstrom ein Videoproblem aufwiesen, andernfalls false.    | |
 | Second Feedback Has Video Issue  | Boolescher Wert  | True, wenn Feedback Tokens vom zweiten Endpunkt angeben, dass Datenstrom ein Videoproblem aufwiesen, andernfalls false.    | |
 | Erstes Feedback hat qualifizierte Anwendungsfreigabe Problem  | Boolean  | "True", wenn Feedback Tokens vom ersten Endpunkt angeben, dass Stream ein App-Freigabe Problem aufweist. Andernfalls „False". | |  
 | Zweites Feedback hat qualifizierte Anwendungsfreigabe Problem  | Boolean  | "True", wenn Feedback Tokens vom zweiten Endpunkt angeben, dass Datenstrom über ein App-Freigabe Problem verfügt. Andernfalls „False". | |  

@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten.
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516988"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695720"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -90,7 +91,7 @@ Informationen zu den Grenzwerten für Besprechungen finden Sie unter [Skype for 
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Warum haben Benutzer e-Mails mit Ihren Audio-Konferenz Informationen empfangen?
 
-Wir haben eine neue Funktion hinzugefügt, die es Ihnen, dem [Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), ermöglicht, Audiokonferenz Informationen zu senden und zu aktualisieren und per e-Mail zu anheften. Weitere Informationen dazu, wie Sie diese Funktion deaktivieren, finden Sie unter [Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenz in Microsoft Teams ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder das [Senden von e-Mails aktivieren oder deaktivieren, wenn sich die Einstellungen für Audiokonferenz in Skype for Business ändern. Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Wir haben eine neue Funktion hinzugefügt, die es Ihnen, dem [Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), ermöglicht, Audiokonferenz Informationen zu senden und zu aktualisieren und per e-Mail zu anheften. Weitere Informationen dazu, wie Sie Sie deaktivieren können, finden Sie unter [Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich audiokonferenzeinstellungen in Microsoft Teams ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , oder [Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Können Audiokonferenzen von den Benutzern verwendet werden, die Teil einer lokalen Bereitstellung von Skype for Business Server sind?
 
@@ -146,7 +147,7 @@ Das Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon zur Ei
 
 - **Option #1**: Wenn der Besprechungsorganisator und alle Teilnehmer über ein Telefon an einer Besprechung teilnehmen, muss der Besprechungsorganisator die PIN für die Audiokonferenz eingeben, um ihn zu starten. Anrufer werden gefragt, ob Sie sich als Organisator einer bestimmten Besprechung authentifizieren möchten, wenn Sie die Telefonnummer einer Onlinebesprechung wählen. Alle Teilnehmer, die sich per Einwahl an der Besprechung beteiligen, bevor der Organisator beginnt, werden in der Lobby gespeichert und hören Musik in Wartestellung. Bei Skype for Business-Besprechungen werden alle Teilnehmer in der Lobby automatisch an der Besprechung teilnehmen, sobald der Organisator Sie durch Eingabe der Audiokonferenz-Pin gestartet hat. Bei Microsoft Teams-Besprechungen werden die Teilnehmer entsprechend dem Wert der Einstellung Personen automatisch zulassen in der Besprechungsrichtlinie des Organisators an der Besprechung teilnehmen.
 
-- **Option #2**: Wenn die Einstellung "nicht authentifizierte Anrufer als erste Personen in einer Besprechung zulassen" (standardmäßig deaktiviert) für einen bestimmten Organisator aktiviert ist, können alle von diesem Benutzer geplanten Besprechungen gestartet werden, ohne dass der Organisator seine oder Ihre Audiokonferenz-PIN. Wenn diese Einstellung aktiviert ist, wird die Besprechung gestartet, sobald der erste Teilnehmer Sie über eine Einwahl Telefonnummer anschließt und nicht in die Lobby gestellt wird. Weitere Informationen finden Sie unter [Verwalten von Einstellungen für Audiokonferenzen für einen Benutzer in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder [Verwalten von audiokonferenzeinstellungen für einen Benutzer in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option #2**: Wenn die Einstellung "nicht authentifizierte Anrufer als erste Personen in einer Besprechung zulassen" (standardmäßig deaktiviert) für einen bestimmten Organisator aktiviert ist, können alle von diesem Benutzer geplanten Besprechungen gestartet werden, ohne dass der Organisator seine Audiokonferenz-PIN eingeben muss. Wenn diese Einstellung aktiviert ist, wird die Besprechung gestartet, sobald der erste Teilnehmer Sie über eine Einwahl Telefonnummer anschließt und nicht in die Lobby gestellt wird. Weitere Informationen finden Sie unter [Verwalten von Einstellungen für Audiokonferenzen für einen Benutzer in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder [Verwalten von audiokonferenzeinstellungen für einen Benutzer in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Verwandte Themen
 

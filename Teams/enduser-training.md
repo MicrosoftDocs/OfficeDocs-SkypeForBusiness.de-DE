@@ -13,17 +13,17 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Schulungsvideos, Tutorials und weitere Ressourcen für Benutzer in Ihrer Organisation zum Kennenlernen und Verwenden von Teams.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: eb5a1bb679c964fb7fd735c28576466b26f2f0a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37567468"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695890"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Endbenutzer-Schulungen für Microsoft Teams
 

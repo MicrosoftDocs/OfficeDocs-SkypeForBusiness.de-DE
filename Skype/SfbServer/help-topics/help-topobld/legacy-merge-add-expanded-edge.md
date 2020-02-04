@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeAddExpandedEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 description: Skype for Business Server unterstützt nicht das Zusammenführen einer Legacy Office Communications Server 2007 R2-erweiterten Edge-Server-Konfiguration. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann.
-ms.openlocfilehash: b8c9fedefdbecc252db553bedd239fd3ee8e4ad3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5e67db3b1836aa9d5386535d2db5d47e651b978
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284270"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697180"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Legacyzusammenführung – Hinzufügen einer erweiterten Edgekomponente
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Sie wählen die Datenbanken aus, die Sie für Ihre Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf dem definierten SQL Server auf der definierten Website erstellt, und die Datenbankdateien werden basierend auf dem SQL-Server, auf dem Sie die Datenbanken platzieren, automatisch bereitgestellt und konfiguriert.
-ms.openlocfilehash: 0a121b64e9f1ea25c1ff9b5daf6937adaee578f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf3493932fc699751cb31e1ab6f76312195b4e0a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284312"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697210"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
 

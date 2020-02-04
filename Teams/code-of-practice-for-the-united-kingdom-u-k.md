@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 'Informieren Sie sich über den Code of Practice für Anrufpläne (PSTN-Anrufpläne) für Skype for Business für Großbritannien, wo Sie Hilfe erhalten und wie Sie Beschwerden einreichen und Streitigkeiten lösen können. '
-ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 99ca68670d743279ded96df26adb1f09d66e8b12
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515851"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695460"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
 
