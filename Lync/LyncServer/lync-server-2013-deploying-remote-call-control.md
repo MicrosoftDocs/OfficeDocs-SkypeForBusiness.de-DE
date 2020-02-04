@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Bereitstellen der Remoteanrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying remote call control
 ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558664(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8583a8f2e8c95ce9b12ad19d8a8e5369ba756ddd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Dieser Abschnitt führt Sie durch den Prozess der Bereitstellung von Funktionen 
 
   - [Remoteanrufsteuerung und Normalisieren von Rufnummern in Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (nur wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung aktiviert wurden)
+  - [Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (nur, wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung aktiviert wurden)
 
 </div>
 

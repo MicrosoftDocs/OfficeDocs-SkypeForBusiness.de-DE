@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Einrichten der Zertifikate für die interne Edgeschnit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822104"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -100,7 +102,7 @@ Wenn Sie mehr als eine Website mit Edgeserver (also einer mehrseitigen Edge-Topo
 
 3.  Klicken Sie auf der CertSrv-Webseite der ausstellenden Zertifizierungsstelle unter **Aufgabe auswählen** auf **Download eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer Zertifikatssperrliste**.
 
-4.  Klicken Sie unter **Herunterladen eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer CRL**auf Zertifizierungsstellen **Zertifikatkette herunterladen**.
+4.  Klicken Sie unter **Herunterladen eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer CRL**auf **Zertifizierungsstellenzertifikat Kette herunterladen**.
 
 5.  Klicken Sie im Dialogfeld **Datei Download** auf **Speichern**.
 
@@ -186,7 +188,7 @@ Wenn Sie mehr als eine Website mit Edgeserver (also einer mehrseitigen Edge-Topo
 
 4.  Klicken Sie auf der Seite **Verzögerte oder sofortige Anforderungen** auf **Anforderung jetzt vorbereiten, jedoch später senden**.
 
-5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen ein, zu dem die Anforderung gespeichert werden soll (beispielsweise **c\\: CERT\_Internal\_Edge. CER**).
+5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen ein, zu dem die Anforderung gespeichert werden soll (beispielsweise **c:\\CERT\_Internal\_Edge. CER**).
 
 6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** für das Kontrollkästchen **Alternative Zertifikatvorlage für die ausgewählte Zertifizierungsstelle verwenden** , um eine andere Vorlage als die standardmäßige Webservervorlage zu verwenden.
 
@@ -334,7 +336,7 @@ Wenn Sie mehr als eine Website mit Edgeserver (also einer mehrseitigen Edge-Topo
 
 6.  Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen**.
 
-7.  Nachdem Sie dieses Verfahren zum Zuweisen des internen Edge-Zertifikats verwendet haben, öffnen Sie das Zertifikat-Snap-in auf jedem Server, erweitern Sie **Zertifikate (lokaler Computer)**, erweitern Sie **Personal**, klicken Sie auf **Zertifikate**, und überprüfen Sie dann im Detailbereich, dass das Zertifikat für internes Edge wird aufgelistet.
+7.  Nachdem Sie dieses Verfahren zum Zuweisen des internen Edge-Zertifikats verwendet haben, öffnen Sie das Zertifikat-Snap-in auf jedem Server, erweitern Sie **Zertifikate (lokaler Computer)**, erweitern Sie **Personal**, klicken Sie auf **Zertifikate**, und überprüfen Sie im Detailbereich, ob das Zertifikat für das interne Edge aufgeführt ist.
 
 8.  Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, wiederholen Sie diesen Vorgang für jeden Edgeserver.
 

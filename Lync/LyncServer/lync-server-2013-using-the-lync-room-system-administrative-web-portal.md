@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verwenden des Webportals zur Verwaltung des Lync-Raums
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Room System Administrative Web Portal
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c891309d76dda20f875592841925c852fe2e3351
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847322"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Nachdem Sie LRS auf dem Server bereitgestellt haben, können Sie den Status alle
 
 2.  Geben Sie die Anmeldeinformationen für das LRSSupport-Konto oder ein Konto ein, das der LRSSupportAdminGroup-Sicherheitsgruppe hinzugefügt wurde.
 
-![Anmeldebildschirm des lync Room System admin Portals] (images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Anmeldebildschirm des lync Room System admin Portals")
+![Anmeldebildschirm für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Anmeldebildschirm für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 
@@ -67,7 +69,7 @@ Die Seite "Zusammenfassung" enthält die folgenden Informationen für alle LRS-R
 
   - **Letzte Aktualisierung**   zeigt den Zeitpunkt an, zu dem die Webseite zuletzt aktualisiert wurde.
 
-![Lync Room-System Administrator-Portal – Zusammenfassungsansicht] (images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync Room-System Administrator-Portal – Zusammenfassungsansicht")
+![Zusammenfassungsansicht für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Zusammenfassungsansicht für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 
@@ -83,7 +85,7 @@ Im Abschnitt Rauminformationen des Portals können Sie einzelne LRS-Räume anzei
 
 Im Abschnitt zu den Einstellungen können Sie das Kennwort, das Tag für den Raum und die Standardlautstärke für den Raum festlegen. Wenn Sie diese Einstellungen konfigurieren, werden die Änderungen erst repliziert, nachdem Sie die LRS-Konsole neu gestartet haben. Es werden nur die Einstellungen für System Updates für lync Room-Systeme angezeigt, die Version 15,12 und höher sind.
 
-![Einstellungen für das lync Room-System Administrator-Portal] (images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Einstellungen für das lync Room-System Administrator-Portal")
+![Einstellungen für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Einstellungen für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 
@@ -93,7 +95,7 @@ Im Abschnitt zu den Einstellungen können Sie das Kennwort, das Tag für den Rau
 
 Der Abschnitt Details enthält eine schreibgeschützte Zusammenfassung der Einstellungen des LRS-Raums, einschließlich: die Uhrzeit der letzten Aktualisierung. nächste Besprechung; Letzte Updates, Wartung und Kalibrierung; Standardeinstellungen für Lautsprecher, Mikrofon und Klingelton Version SIP-URI; Anzahl der Bildschirme und Details zu jedem Bildschirm; Status und Aktivität.
 
-![Lync Room-System Administrator-Portal-Detail Ansicht] (images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync Room-System Administrator-Portal-Detail Ansicht")
+![Detailansicht für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Detailansicht für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 
@@ -103,7 +105,7 @@ Der Abschnitt Details enthält eine schreibgeschützte Zusammenfassung der Einst
 
 Im Abschnitt zur Problembehandlung können Sie remote Protokolle erfassen und sie an einem angegebenen Standort speichern. Sie können auch die LRS-Konsole (LRS-Benutzeroberfläche) neu starten oder das gesamte System neu starten. Um Protokolle zu sammeln, geben Sie einen Ordnerpfad im angegebenen Format an, und stellen Sie sicher, dass der Ordner über Schreibberechtigungen verfügt, die dem LRS-Computerkonto zugewiesen sind. Bei einer sehr umfangreichen Protokollgröße kann es bis zu 5 Minuten dauern, bis der Vorgang zur Erfassung der Protokolle abgeschlossen ist. Sie erhalten den aktuellen Status, wenn Sie die Seite aktualisieren.
 
-![Lync Room-System Administrator-Portal Raum Protokollierung] (images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync Room-System Administrator-Portal Raum Protokollierung")
+![Protokollierung für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Protokollierung für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 
@@ -113,7 +115,7 @@ Im Abschnitt zur Problembehandlung können Sie remote Protokolle erfassen und si
 
 Der Abschnitt "Integrität" gibt einen visuellen Hinweis auf den Zustand der lync-Server Verbindung, des Audiogeräts, des Videogeräts, des Stabilitäts Status und des Bildschirmgeräts.
 
-![Lync Room System Admin Portal Raum Gesundheit] (images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync Room System Admin Portal Raum Gesundheit")
+![Integrität für das Webportal zur Verwaltung des Lync-Raumsystems](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Integrität für das Webportal zur Verwaltung des Lync-Raumsystems")
 
 </div>
 

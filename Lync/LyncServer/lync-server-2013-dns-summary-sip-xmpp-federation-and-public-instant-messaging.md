@@ -3,6 +3,8 @@ title: DNS-Zusammenfassung – SIP, XMPP Federation und Public Instant Messaging
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c22b38fdb9e936df8b3fd148022acdbd857cdcfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34832343"
 
 _**Letztes Änderungsdatum des Themas:** 2017-03-09_
 
-Die DNS-Einträge (Domain Name System), die erforderlich sind, um einen Verbund mit Office Communications Server-oder lync Server-Partnern zu definieren, werden durch ihre Entscheidung bestimmt, die automatische DNS-Erkennung Ihrer Domäne durch andere Perspective-Partner zu ermöglichen. Wenn Sie die \_sipfederationtls veröffentlichen. \_TCP. *SIP-Domänenname\> \<* SRV-Eintrag, kann jede andere SIP-Verbunddomäne ihren Verbund "entdecken". Sie können steuern, welche Verbunddomänen mit Ihnen kommunizieren können, indem Sie die Einstellungen Domänen und Blockierte Domänen in der lync Server-Systemsteuerung zulassen oder die Konfiguration der zugelassenen oder blockierten Domänen mithilfe der lync Server-Verwaltungsshell und der ** Get**-, **Sets**-, **New**-, **Remove-CsAllowedDomain** -und **-CsBlockedDomain-PowerShell-** Cmdlets. Weitere Informationen zum Konfigurieren dieser Einstellungen und zur Verwendung der PowerShell-Cmdlets finden Sie unter " **Verwandte Themen** " am Ende dieses Themas.
+Die DNS-Einträge (Domain Name System), die erforderlich sind, um einen Verbund mit Office Communications Server-oder lync Server-Partnern zu definieren, werden durch ihre Entscheidung bestimmt, die automatische DNS-Erkennung Ihrer Domäne durch andere Perspective-Partner zu ermöglichen. Wenn Sie die \_sipfederationtls veröffentlichen. \_TCP. *SIP-Domänenname\> \<* SRV-Eintrag, kann jede andere SIP-Verbunddomäne ihren Verbund "entdecken". Sie können steuern, welche Verbunddomänen mit Ihnen kommunizieren können, indem Sie die Einstellungen Domänen und Blockierte Domänen in der lync Server-Systemsteuerung zulassen oder die Konfiguration der zugelassenen oder blockierten Domänen mithilfe der lync Server-Verwaltungsshell und der PowerShell-Cmdlets **Get**, **Sets**, **New**, **Remove-CsAllowedDomain** und **-CsBlockedDomain** festlegen. Weitere Informationen zum Konfigurieren dieser Einstellungen und zur Verwendung der PowerShell-Cmdlets finden Sie unter " **Verwandte Themen** " am Ende dieses Themas.
 
 In der Tabelle "Zusammenfassung der DNS-Einträge" werden die erforderlichen Einträge für eine offene oder auffindbare Föderation dargestellt. Wenn Sie die Verbund Ermittlung nicht implementieren möchten, können Sie sich entscheiden, die \_sipfederationtls nicht zu konfigurieren. \_TCP. *SIP-Domänen\> Namen Eintrag. \<*
 
@@ -43,7 +45,7 @@ In der Tabelle "Zusammenfassung der DNS-Einträge" werden die erforderlichen Ein
 
 
 > [!IMPORTANT]
-> Es gibt bestimmte Szenarien, in denen Sie über die _sipfederationtls. _tcp verfügen müssen. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag, aber Sie möchten keinen auffindbaren Verbund haben. In einem solchen Fall haben Sie die Mobilität für Ihre Benutzer bereitgestellt. Das Mobility Push Notification Clearing House (PNCH) ist ein spezieller Föderations, der für Microsoft lync Mobile-Clients auf Apple iPhone oder iPad mit dem lync 2010-Mobilclient oder Windows Phone mit den mobilen lync 2010 Mobile-oder lync 2013-Clients verwendet wird. Die _sipfederationtls. _tcp. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag wird im Fall von Mobilität und Push-Benachrichtigung verwendet. Um dieses Problem zu vermeiden und ihre Auffindbarkeit zu kontrollieren, deaktivieren Sie die Einstellung <STRONG>enable Partner Domain Discovery</STRONG> , um Discovery zu deaktivieren.
+> Es gibt bestimmte Szenarien, in denen Sie die _sipfederationtls. _tcp haben müssen. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag, aber Sie möchten keinen auffindbaren Verbund haben. In einem solchen Fall haben Sie die Mobilität für Ihre Benutzer bereitgestellt. Das Mobility Push Notification Clearing House (PNCH) ist ein spezieller Föderations, der für Microsoft lync Mobile-Clients auf Apple iPhone oder iPad mit dem lync 2010-Mobilclient oder Windows Phone mit den mobilen lync 2010 Mobile-oder lync 2013-Clients verwendet wird. Die _sipfederationtls. _tcp. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag wird im Fall von Mobilität und Push-Benachrichtigung verwendet. Um dieses Problem zu vermeiden und ihre Auffindbarkeit zu kontrollieren, deaktivieren Sie die Einstellung <STRONG>enable Partner Domain Discovery</STRONG> , um Discovery zu deaktivieren.
 
 
 

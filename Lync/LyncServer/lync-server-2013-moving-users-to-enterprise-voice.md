@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verschieben von Benutzern zu Enterprise-VoIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ In diesem Thema wird die Planung beschrieben, die für jeden dieser Schritte erf
 
 <div>
 
-## <a name="step-1-designate-primary-phone-numbers"></a>Schritt 1. Festlegen von primären Telefonnummern
+## <a name="step-1-designate-primary-phone-numbers"></a>Schritt 1: Festlegen von primären Telefonnummern
 
 Enterprise-VoIP integriert Sprache mit anderen Nachrichtenmedien, so dass der Server die Nummer dem SIP-URI des Benutzers zuordnet und dann den Anruf an alle Clientendpunkte abzweigt, die diesem SIP-URI zugeordnet sind, wenn ein eingehender Anruf am Server eintrifft. Für diesen Vorgang muss jeder Benutzer einer primären Telefonnummer zugeordnet sein.
 
@@ -98,9 +100,9 @@ Wo viele Telefonnummern verarbeitet werden müssen, ist ein von Ihrer Organisati
 
   - Wenn in Ihrer Organisation alle Telefonnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden und das Format E. 164 ist, muss für Ihr Skript nur jede primäre Telefonnummer in das **Attribut msRTCSIP-** Attribut geschrieben werden.
 
-  - Wenn in Ihrer Organisation alle Telefonnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden, das Format aber nicht E. 164 ist, sollte Ihr Skript eine geeignete Normalisierungsregel definieren, um primäre Telefonnummern aus Ihrem vorhandenen Format zu konvertieren. an E. 164, bevor Sie Sie in das **Attribut msRTCSIP-** Attribut schreiben.
+  - Wenn in Ihrer Organisation alle Telefonnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden, das Format aber nicht E. 164 ist, sollte Ihr Skript eine geeignete Normalisierungsregel definieren, um primäre Telefonnummern aus Ihrem vorhandenen Format in e. 164 zu konvertieren, bevor Sie Sie in das **Attribut msRTCSIP-** Attribut schreiben.
 
-  - Wenn in Ihrer Organisation kein Standardformat für Telefonnummern in den Active Directory-Domänendiensten erzwungen wird, sollte Ihr Skript geeignete Normalisierungsregeln definieren, um primäre Telefonnummern aus ihren unterschiedlichen Formaten in die E. 164-Konformität zu konvertieren, bevor Schreiben der primären Telefonnummern in das **Attribut msRTCSIP-** Attribut.
+  - Wenn in Ihrer Organisation kein Standardformat für Telefonnummern in den Active Directory-Domänendiensten erzwungen wird, sollte Ihr Skript geeignete Normalisierungsregeln definieren, um primäre Telefonnummern aus ihren verschiedenen Formaten in die E. 164-Kompatibilität umzuwandeln, bevor die primären Telefonnummern in das **Attribut msRTCSIP-** Attribut geschrieben werden.
 
 Ihr Skript muss auch das Präfix **Tel:** vor jeder primären Nummer einfügen, bevor es in das **Attribut msRTCSIP-** Attribut geschrieben wird.
 
@@ -114,7 +116,7 @@ Das erwartete Format der in diesem Attribut angegebenen Zahl lautet wie folgt:
     
 
     > [!IMPORTANT]  
-    > Die vom Adressbuchdienst (ABS) durchgeführte Normalisierung ersetzt oder beseitigt nicht die Notwendigkeit, die primäre Telefonnummer jedes Benutzers in Active Directory-Domänendiensten zu normalisieren, da ABS keinen Zugriff auf Active Directory-Domänendienste hat und Deshalb können keine primär Nummern in das <STRONG>Attribut msRTCSIP-</STRONG> Attribut kopiert werden.
+    > Die vom Adressbuchdienst (ABS) durchgeführte Normalisierung ersetzt nicht die Notwendigkeit, die primäre Telefonnummer jedes Benutzers in den Active Directory-Domänendiensten zu normalisieren, weil ABS keinen Zugriff auf die Active Directory-Domänendienste hat, und kann daher keine primär Nummern in das <STRONG>Attribut msRTCSIP-</STRONG> Attribut kopieren.
 
     
     </div>
@@ -123,7 +125,7 @@ Das erwartete Format der in diesem Attribut angegebenen Zahl lautet wie folgt:
 
 <div>
 
-## <a name="step-2-enable-users-for-enterprise-voice"></a>Schritt 2. Aktivieren von Benutzern für Enterprise-VoIP
+## <a name="step-2-enable-users-for-enterprise-voice"></a>Schritt 2: Aktivieren von Benutzern für Enterprise-VoIP
 
 Außer der Identifizierung, welche Benutzer aktiviert werden sollen, ist keine spezielle Planung erforderlich, um diesen Schritt ausführen zu können.
 
@@ -131,7 +133,7 @@ Außer der Identifizierung, welche Benutzer aktiviert werden sollen, ist keine s
 
 <div>
 
-## <a name="step-3-prepare-dial-plans-for-users"></a>Schritt 3. Vorbereiten von Wählplänen für Benutzer
+## <a name="step-3-prepare-dial-plans-for-users"></a>Schritt 3: Vorbereiten von Wählplänen für Benutzer
 
 Benutzer, die für Enterprise-VoIP aktiviert sind, können keine Anrufe an das PSTN vornehmen, ohne dass Wählpläne vorhanden sind. Ein Wählplan ist ein benannter Satz von Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, für einzelne Benutzer oder für Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden. Normalisierungsregeln definieren, wie Telefonnummern, die in verschiedenen Formaten ausgedrückt werden, für jeden angegebenen Speicherort, Benutzer oder Kontaktobjekt weitergeleitet werden sollen.
 
@@ -141,7 +143,7 @@ Informationen zum Vorbereiten von Wählplänen finden Sie unter [Wählpläne und
 
 <div>
 
-## <a name="step-4-plan-user-voice-policies"></a>Schritt 4. Planen von Richtlinien für Benutzer VoIP
+## <a name="step-4-plan-user-voice-policies"></a>Schritt 4: Planen von Richtlinien für Benutzer VoIP
 
 Benutzer-Service-Einstellungen auf einer Legacy-Telefonanlage, wie etwa das Recht, Fern-oder Auslandsgespräche über Unternehmens Telefone zu führen, müssen als VoIP-Richtlinien für Benutzer neu konfiguriert werden, die in Enterprise-VoIP verschoben wurden. Details zum Planen und Erstellen von Richtlinien für Enterprise-VoIP finden Sie unter [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md).
 
@@ -149,7 +151,7 @@ Benutzer-Service-Einstellungen auf einer Legacy-Telefonanlage, wie etwa das Rech
 
 <div>
 
-## <a name="step-5-plan-outbound-call-routes"></a>Schritt 5. Planen von ausgehenden Anrufrouten
+## <a name="step-5-plan-outbound-call-routes"></a>Schritt 5: Planen von ausgehenden Anrufrouten
 
 Anrufrouten geben an, wie lync Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Server bei Bedarf die Wählzeichenfolge in das E. 164-Format und versucht, Sie mit einem SIP-URI zu vergleichen. Wenn der Server nicht in der Lage ist, die Übereinstimmung zu erreichen, wendet er die Routinglogik für ausgehende Anrufe basierend auf der Nummer an. Der letzte Schritt beim Definieren dieser Logik ist das Erstellen einer separaten benannten Anrufroute für jede Gruppe von Zielrufnummern, die in den einzelnen Wähleinstellungen aufgeführt sind.
 
@@ -159,7 +161,7 @@ Details zum Planen von Anrufrouten finden Sie unter [VoIP-Routen in lync Server 
 
 <div>
 
-## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6. Konfigurieren von Telefonanlagen oder SIP-Stämmen zum Umleiten von Anrufen für Enterprise-VoIP-Benutzer
+## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6: Konfigurieren von Telefonanlagen oder SIP-Stämmen zum Umleiten von Anrufen für Enterprise-VoIP-Benutzer
 
 Benutzer, die früher in einer traditionellen Telefonanlage oder auf einer SIP-Trunk-Verbindung mit einem Internet-Telefoniedienstanbieter (ITSP) gehostet wurden, behalten ihre Telefonnummern nach dem Umzug. Die einzige Voraussetzung ist, dass nach dem Umzug die Telefonanlage oder der SIP-Stamm neu konfiguriert werden muss, um eingehende Anrufe an Enterprise-VoIP-Benutzer an den Vermittlungs Server weiterzuleiten.
 
@@ -167,7 +169,7 @@ Benutzer, die früher in einer traditionellen Telefonanlage oder auf einer SIP-T
 
 <div>
 
-## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Schritt 7. Verschieben von Benutzern in Exchange Unified Messaging (empfohlen)
+## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Schritt 7: Verschieben von Benutzern in Exchange Unified Messaging (empfohlen)
 
 Das Verschieben von Benutzern in Exchange Unified Messaging umfasst die folgenden Aufgaben:
 

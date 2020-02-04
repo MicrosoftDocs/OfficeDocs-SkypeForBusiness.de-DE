@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Veröffentlichen der Topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the topology
 ms:assetid: 3b5a744b-b3a8-4538-a55e-e2e4f72dff47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee3b14776c6cdf6ddd52ada724d3d4a6d6a245a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5760315cc60aa53a40457423c2b5402896c2a90c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823966"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34823966"
 
 _**Letztes Änderungsdatum des Themas:** 2013-10-01_
 
-Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Administratorrechte und-Berechtigungen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
+Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Administratorrechte und-Berechtigungen zu delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
 
 Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen. Der zentrale Verwaltungsspeicher bietet eine robuste, schematisierten Speicherung der Daten, die zum definieren, einrichten, verwalten, verwalten, beschreiben und betreiben einer lync Server 2013-Bereitstellung erforderlich sind. Außerdem werden die Daten überprüft, um die Konsistenz der Konfiguration zu gewährleisten. Alle Änderungen an diesen Konfigurationsdaten erfolgen im zentralen Verwaltungsspeicher, wodurch Synchronisierungsprobleme beseitigt werden. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, einschließlich Edgeserver.
 
@@ -71,7 +73,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie d
 
 4.  Klicken Sie auf der Seite **Topologie veröffentlichen** auf **Weiter**.
 
-5.  Wählen Sie auf der Seite **Create** Databases die Datenbanken aus, die Sie veröffentlichen möchten.
+5.  Wählen Sie auf der Seite **create databases** die Datenbanken aus, die Sie veröffentlichen möchten.
     
     <div>
     

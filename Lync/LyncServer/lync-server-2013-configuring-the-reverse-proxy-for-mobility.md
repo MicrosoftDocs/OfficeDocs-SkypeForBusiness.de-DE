@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Konfigurieren des Reverseproxys für Mobilität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the reverse proxy for mobility
 ms:assetid: 3f4a9e33-77e4-4c18-a73f-24d4bec8ea9c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657ddf0711b0a14c9ce861a0f237977c9a2369c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 51fffae60df68a6aa2843919f95d7a00590ddd65
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Die Verfahren in diesem Abschnitt beschreiben, wie Sie die Webveröffentlichungs
 
 4.  Wählen Sie auf der Seite **Regelaktion auswählen** die Option **zulassen**aus.
 
-5.  Wählen Sie **** auf der Seite Veröffentlichungs **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
+5.  Wählen Sie auf der Seite **Veröffentlichungs** **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
 
 6.  Wählen Sie auf der Seite **Server Verbindungssicherheit** die Option **SSL verwenden aus, um eine Verbindung mit dem veröffentlichten Webserver oder der Serverfarm herzustellen**.
 
@@ -91,9 +93,9 @@ Die Verfahren in diesem Abschnitt beschreiben, wie Sie die Webveröffentlichungs
     
       - Geben **** Sie in Pfad ** / **den Text ein.
 
-10. Wählen Sie auf der Seite Weblistener **auswählen** im Weblistener Ihren vorhandenen SSL-Listener mit dem aktualisierten öffentlichen Zertifikat aus. ****
+10. Wählen Sie auf der Seite **Weblistener auswählen** im **Weblistener**Ihren vorhandenen SSL-Listener mit dem aktualisierten öffentlichen Zertifikat aus.
 
-11. Wählen Sie **** auf der Seite Authentifizierungsdelegierung **keine Delegierung aus, aber der Client kann sich direkt authentifizieren**.
+11. Wählen Sie auf der Seite **Authentifizierungsdelegierung** **keine Delegierung aus, aber der Client kann sich direkt authentifizieren**.
 
 12. Wählen Sie auf der Seite **Benutzer festlegen** **alle Benutzer**aus.
 
@@ -144,7 +146,7 @@ Die Verfahren in diesem Abschnitt beschreiben, wie Sie die Webveröffentlichungs
 
 4.  Klicken Sie auf **Hinzufügen**, geben Sie den Namen der neuen Auto Ermittlungs Website ein (beispielsweise "lyncdiscover.contoso.com"), und klicken Sie dann auf **OK**.
 
-5.  Klicken Sie **** auf der Registerkarte Listener auf **Zertifikat auswählen** , und weisen Sie dem hinzugefügten San-Eintrag für die AutoErmittlung das neue Zertifikat zu. Schließen Sie die Listener-und Webveröffentlichungseigenschaften.
+5.  Klicken Sie auf der Registerkarte **Listener** auf **Zertifikat auswählen** , und weisen Sie dem hinzugefügten San-Eintrag für die AutoErmittlung das neue Zertifikat zu. Schließen Sie die Listener-und Webveröffentlichungseigenschaften.
 
 6.  Klicken Sie im Detailbereich auf über **nehmen** , um die Änderungen zu speichern und die Konfiguration zu aktualisieren.
 
@@ -164,13 +166,13 @@ Die Verfahren in diesem Abschnitt beschreiben, wie Sie die Webveröffentlichungs
 
 4.  Wählen Sie auf der Seite **Regelaktion auswählen** die Option **zulassen**aus.
 
-5.  Wählen Sie **** auf der Seite Veröffentlichungs **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
+5.  Wählen Sie auf der Seite **Veröffentlichungs** **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen**aus.
 
 6.  Wählen Sie auf der Seite **Server Verbindungssicherheit** die Option **nicht gesicherte Verbindungen verwenden aus, um eine Verbindung mit dem veröffentlichten Webserver oder der Serverfarm herzustellen**.
 
 7.  Geben Sie auf der Seite **interne Veröffentlichungs Details** unter **interner Websitename**die VIP-Adresse des Hardware Lastenausgleichs (Hardware Load Balancer, HLB) vor dem Front-End-Pool ein.
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** unter **Pfad (optional)** den Pfad des zu veröffentlichenden Ordners ein, und wählen Sie dann **den ursprünglichen Hostheader anstelle des im Feld Interner Websitename angegebenen weiterleiten aus. **.
+8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** in **Path (optional)** den Pfad des zu veröffentlichenden Ordners ein, und wählen Sie dann **den ursprünglichen Hostheader anstelle des im Feld Interner Websitename angegebenen weiterleiten**aus.
 
 9.  Führen Sie auf der Seite " **Details zum öffentlichen Namen** " die folgenden Aktionen aus:
     
@@ -180,9 +182,9 @@ Die Verfahren in diesem Abschnitt beschreiben, wie Sie die Webveröffentlichungs
     
       - Geben **** Sie in Pfad ** / **den Text ein.
 
-10. Wählen Sie auf der Seite Weblistener **auswählen** im Weblistener einen Weblistener aus, oder verwenden Sie den Assistenten für neue Weblistener-Definition, um eine neue zu erstellen. ****
+10. Wählen Sie auf der Seite **Weblistener auswählen** im **Weblistener**einen Weblistener aus, oder verwenden Sie den Assistenten für neue Weblistener-Definition, um eine neue zu erstellen.
 
-11. Wählen Sie **** auf der Seite Authentifizierungsdelegierung **keine Delegierung aus, und der Client kann sich nicht direkt authentifizieren**.
+11. Wählen Sie auf der Seite **Authentifizierungsdelegierung** **keine Delegierung aus, und der Client kann sich nicht direkt authentifizieren**.
 
 12. Wählen Sie auf der Seite **Benutzer festlegen** **alle Benutzer**aus.
 

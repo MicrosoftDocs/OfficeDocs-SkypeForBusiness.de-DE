@@ -3,6 +3,8 @@ title: Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ddc430370c59e279e0e36aa662da0f33973e0d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -115,7 +117,7 @@ Nachdem Sie Ihre Topologie definiert haben, gehen Sie wie folgt vor, um einen Fr
 
 3.  Geben Sie auf der Seite **Computer auf diesem Pool definieren** einen Computer-FQDN für den ersten Front-End-Server im Pool ein, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für alle weiteren Computer (bis zu zwölf), die Sie dem Pool hinzufügen möchten, und klicken Sie dann auf **weiter**.
 
-4.  Aktivieren Sie auf der Seite **Features auswählen** die Kontrollkästchen für die Features, die in diesem Front-End-Pool angezeigt werden sollen. Wenn Sie beispielsweise nur Chat-und Anwesenheitsfeatures bereitstellen, aktivieren Sie das Kontrollkästchen **Konferenzen** , um mehrteiligen Chat zu ermöglichen, aber nicht die **Einwahl (PSTN)-Konferenz**, **Enterprise-VoIP**oder ** **Kontrollkästchen für die Anrufsteuerung, da Sie die Features für sprach-, Video-und kollaborative Konferenzen darstellen.
+4.  Aktivieren Sie auf der Seite **Features auswählen** die Kontrollkästchen für die Features, die in diesem Front-End-Pool angezeigt werden sollen. Wenn Sie beispielsweise nur Chat-und Anwesenheitsfeatures bereitstellen, aktivieren Sie das Kontrollkästchen **Konferenz Konferenzen** , um die mehrteilige Chatfunktion zuzulassen, aber nicht die Kontrollkästchen **Einwahl (PSTN) Conferencing**, **Enterprise Voice**oder **Anrufsteuerung** zu aktivieren, da Sie die Features für sprach-, Video-und kollaborative Konferenzen darstellen.
     
       - **Konferenzen**   diese Auswahl bietet eine Reihe von Funktionen, einschließlich:
         
@@ -133,7 +135,7 @@ Nachdem Sie Ihre Topologie definiert haben, gehen Sie wie folgt vor, um einen Fr
     
       - **Die Archivierungs**   Archivierung bietet eine Möglichkeit zum Archivieren von Chat Inhalten, Konferenz (Besprechungs-) Inhalten oder beidem, die über lync Server 2013 gesendet werden.
     
-      - **Monitoring**   Monitoring Server ermöglicht Ihnen, numerische Daten zu sammeln, die die Medienqualität in Ihrem Netzwerk und Endpunkten beschreiben, Nutzungsinformationen zu VoIP-Anrufen, Chatnachrichten, A/V-Unterhaltungen, Besprechungen, Anwendungsfreigabe und Datei Übertragungen und Anruf Fehler sowie Informationen zur Problembehandlung bei fehlgeschlagenen anrufen.
+      - **Mit Monitoring**   Server können Sie numerische Daten erfassen, die die Medienqualität in Ihrem Netzwerk und Endpunkten beschreiben, Nutzungsinformationen zu VoIP-Anrufen, Chatnachrichten, A/V-Unterhaltungen, Besprechungen, Anwendungsfreigabe und Dateiübertragungen sowie Anruf Fehler und Informationen zur Problembehandlung bei fehlgeschlagenen anrufen.
     
     <div>
     
@@ -277,7 +279,7 @@ Nachdem Sie Ihre Topologie definiert haben, gehen Sie wie folgt vor, um einen Fr
     
     </div>
     
-    1.  Wenn Sie den DNS-Lastenausgleich konfigurieren, aktivieren Sie das Kontrollkästchen Interner FQDN des Webdienste- **Pools außer Kraft setzen** , geben Sie die interne Basis-URL ein (die sich vom FQDN des Pools unter\<scheiden muss und\>beispielsweise Internal-ihre Basis-URL sein kann) in ** Interne Basis-URL**.
+    1.  Wenn Sie den DNS-Lastenausgleich konfigurieren, aktivieren Sie das Kontrollkästchen **Interner FQDN des Webdienste-Pools außer Kraft setzen** , geben Sie die interne Basis-URL ein (die sich vom FQDN des Pools unter\<scheiden muss und\>beispielsweise Internal-ihre Basis-URL) in der **internen Basis-URL**sein kann.
         
         <div>
         
@@ -299,7 +301,7 @@ Nachdem Sie Ihre Topologie definiert haben, gehen Sie wie folgt vor, um einen Fr
     
     </div>
 
-10. Wenn Sie auf der Seite **"Features auswählen** " **Konferenzen** ausgewählt haben, wählen Sie auf der Seite Wählen Sie **eine Office Web Apps Server** aus die Option **Pool mit einem Office Web Apps-Server verknüpfen** aus, und klicken Sie dann auf **neu** (oder wählen Sie eine vorhandene Office Web Apps aus. Server aus der Dropdownliste).
+10. Wenn Sie auf der Seite **"Features auswählen** " **Konferenzen** ausgewählt haben, wählen Sie auf der Seite **Office Web Apps Server auswählen** die Option **Pool mit einem Office Web Apps-Server verknüpfen** aus, und klicken Sie dann auf **neu** (oder wählen Sie in der Dropdownliste einen vorhandenen Office Web Apps-Server aus) aus.
 
 11. Geben Sie im Dialogfeld **Neuen Office Web Apps-Server definieren** den vollqualifizierten Domänennamen (FQDN) Ihres Office Web Apps-Servercomputers im Feld **FQDN von Office Web Apps-Server** ein. Anschließend sollte im Feld **Office Web Apps-Server-Such-URL** automatisch die Such-URL Ihres Office Web Apps-Servers stehen.
     

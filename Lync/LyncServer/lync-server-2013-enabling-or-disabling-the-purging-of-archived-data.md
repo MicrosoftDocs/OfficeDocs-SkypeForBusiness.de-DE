@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Bereinigens von archi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling the purging of archived data
 ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28eba32895ca928b40e42a04d8d701c7257f1e43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b06d21cc0154ea57bc028c87c835e4de9a00f1b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735655"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ In der lync Server 2013-Systemsteuerung verwenden Sie Archivierungs Konfiguratio
 
   - Optionale Konfigurationen auf Websiteebene und auf Poolebene, die Sie erstellen und verwenden können, um anzugeben, wie die Archivierung für bestimmte Websites oder Pools implementiert werden soll.
 
-Sie haben zunächst Archivierungs Konfigurationen eingerichtet, wenn Sie die Archivierung bereitstellen, aber Sie können Konfigurationen nach der Bereitstellung ändern, hinzufügen und löschen. Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [wie funktioniert die Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellung Dokumentation oder Betriebsdokumentation.
+Sie haben zunächst Archivierungs Konfigurationen eingerichtet, wenn Sie die Archivierung bereitstellen, aber Sie können Konfigurationen nach der Bereitstellung ändern, hinzufügen und löschen. Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 <div>
 
@@ -117,7 +119,7 @@ Das Aktivieren und Deaktivieren der automatischen Bereinigung von Archivierungsd
 
 </div>
 
-Weitere Informationen, einschließlich zusätzlicher Optionen zum Bereinigen von Archivierungsdaten, finden Sie im Hilfethema [](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) zum Cmdlet "setCsArchivingConfiguration".
+Weitere Informationen, einschließlich zusätzlicher Optionen zum Bereinigen von Archivierungsdaten, finden Sie im Hilfethema zum Cmdlet " [setCsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) ".
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anhang B: Verwalten einer Survivable Branch Appliance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
 ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e267f81327e9d1f49b81ab0d999c37c02da55b31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b16d4c55197785a6df12ad2031dbd2e624501ebd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840033"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ In diesem Thema werden die Verfahren zum Verwalten einer Survivable Branch-Appli
 
 6.  Öffnen Sie die lync Server-Verwaltungsshell, und geben Sie **enable-CSTopology**ein.
 
-7.  Verbinden Sie die neue überlebensfähige Branch-Appliance mit dem Netzwerk, und führen Sie die Schritte unter [Bereitstelleneiner überlebensfähigen Branch-Appliance oder eines Servers mit lync Server 2013-zentralen Websiteaufgaben](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) aus, und [Stellen Sie eine Survivable Branch-Appliance oder einen Server mit lync Server 2013- Verzweigungs Website-Aufgabe](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
+7.  Verbinden Sie die neue Survivable Branch-Appliance mit dem Netzwerk, und führen Sie die Schritte unter [Bereitstelleneiner überlebensfähigen Branch-Appliance oder eines Servers mit lync Server 2013-Central-Websiteaufgaben](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) aus, und [Stellen Sie eine Survivable Branch-Appliance oder einen Server mit lync Server 2013-Branch Site-Aufgabe bereit](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
 </div>
 

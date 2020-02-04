@@ -3,6 +3,8 @@ title: Grundlegendes zur Mitgliedschaft beim beständigen Chat
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Persistent Chat membership
 ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2b4eb5fbe4342c1bd6bcb3bbb842e076e5863ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846986"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,13 +65,13 @@ Der Server für beständigen Chat basiert auf Active Directory für den Pool int
 
 ## <a name="how-category-scoping-works"></a>Funktionsweise von Kategorie-Scoping
 
-Eine Kategorie gibt alle Benutzer und Gruppen an, die auf der Grundlage ihrer **AllowedMembers** -Eigenschaft Mitglieder in einer Mitgliederliste eines beständigen Chatrooms in dieser Kategorie sein können. Wenn Sie beispielsweise die **AllowedMembers** der Kategorie auf contoso.com festzulegen, können Sie eine beliebige Gruppe oder einen Benutzer bei *contoso* als Mitglied zu Chatrooms in dieser Kategorie hinzufügen. Wenn Sie das **AllowedMembers** für eine Kategorie auf *Sales*festzulegen, können nur Gruppen und Benutzer in dieser Verteilerliste als Mitglieder zu Chatrooms in dieser Kategorie hinzugefügt werden. Auf ähnliche Weise **** können Sie mit der Creators-Eigenschaft steuern, wer Chatrooms in dieser Kategorie erstellen kann. Nach dem Erstellen des Chatrooms kann jeder aus der **AllowedMembers** -Gruppe als **Manager** für laufende Verwaltungsvorgänge in den Räumen (beispielsweise Mitgliedschaftsänderungen und Genehmigungen) festgelegt werden.
+Eine Kategorie gibt alle Benutzer und Gruppen an, die auf der Grundlage ihrer **AllowedMembers** -Eigenschaft Mitglieder in einer Mitgliederliste eines beständigen Chatrooms in dieser Kategorie sein können. Wenn Sie beispielsweise die **AllowedMembers** der Kategorie auf contoso.com festzulegen, können Sie eine beliebige Gruppe oder einen Benutzer bei *contoso* als Mitglied zu Chatrooms in dieser Kategorie hinzufügen. Wenn Sie das **AllowedMembers** für eine Kategorie auf *Sales*festzulegen, können nur Gruppen und Benutzer in dieser Verteilerliste als Mitglieder zu Chatrooms in dieser Kategorie hinzugefügt werden. Auf ähnliche Weise können Sie mit der **Creators** -Eigenschaft steuern, wer Chatrooms in dieser Kategorie erstellen kann. Nach dem Erstellen des Chatrooms kann jeder aus der **AllowedMembers** -Gruppe als **Manager** für laufende Verwaltungsvorgänge in den Räumen (beispielsweise Mitgliedschaftsänderungen und Genehmigungen) festgelegt werden.
 
-Das Definieren von **AllowedMembers** und Erstellern für eine Kategorie bietet die folgenden Vorteile: ****
+Das Definieren von **AllowedMembers** und **Erstellern** für eine Kategorie bietet die folgenden Vorteile:
 
   - Alle in dieser Kategorie enthaltenen Chatrooms unterliegen den auf Kategorieebene festgelegten Einschränkungen. Hierdurch können Sie Chatrooms auf der Grundlage von Unternehmensanforderungen und Zugangsrichtlinien isolieren.
 
-  - Ein Benutzer, der sich in **** der Liste der Ersteller befindet, kann neue Chatrooms in dieser Kategorie erstellen. Wenn Sie ein System implementieren möchten, bei dem eine begrenzte Anzahl von Mitarbeitern in der Organisation Chatrooms erstellen kann, kann dieses Steuerelement verwendet werden, um diese Anforderung zu erfüllen.
+  - Ein Benutzer, der sich in der Liste der **Ersteller** befindet, kann neue Chatrooms in dieser Kategorie erstellen. Wenn Sie ein System implementieren möchten, bei dem eine begrenzte Anzahl von Mitarbeitern in der Organisation Chatrooms erstellen kann, kann dieses Steuerelement verwendet werden, um diese Anforderung zu erfüllen.
 
 </div>
 
@@ -77,7 +79,7 @@ Das Definieren von **AllowedMembers** und Erstellern für eine Kategorie bietet 
 
 ## <a name="room-category-strategies"></a>Strategien für Raumkategorien
 
-Die **AllowedMembers** einer Kategorie müssen alle Benutzer umfassen, die in dieser Kategorie einen beliebigen beständigen Chatroom verwenden werden. Je nach Ihren Anforderungen, um Geschäftsdaten zu schützen und die angemessene Zugriffsebene zu gewährleisten, möchten Sie möglicherweise eine oder mehrere Kategorien definieren, um anzugeben, wer in Räumen suchen und daran teilnehmen kann. Wenn Sie nur einer bestimmten Gruppe von Benutzern (einem zentralen Helpdesk oder nur Vollzeit-Mitarbeitern) das Erstellen von Räumen gestatten möchten, können Sie die Ersteller einer Kategorie so einrichten, dass diese Anforderung erfüllt wird. ****
+Die **AllowedMembers** einer Kategorie müssen alle Benutzer umfassen, die in dieser Kategorie einen beliebigen beständigen Chatroom verwenden werden. Je nach Ihren Anforderungen, um Geschäftsdaten zu schützen und die angemessene Zugriffsebene zu gewährleisten, möchten Sie möglicherweise eine oder mehrere Kategorien definieren, um anzugeben, wer in Räumen suchen und daran teilnehmen kann. Wenn Sie nur einer bestimmten Gruppe von Benutzern (einem zentralen Helpdesk oder nur Vollzeit-Mitarbeitern) das Erstellen von Räumen gestatten möchten, können Sie die **Ersteller** einer Kategorie so einrichten, dass diese Anforderung erfüllt wird.
 
 Kategorien können auch verwendet werden, um ethische Wände zu erstellen. Ethische Mauern verhindern einen Interessenkonflikt in einer Organisation. Beispielsweise kann ein Administrator Chatrooms in einer Kategorie nur für Händler erstellen, während Chatrooms in einer anderen Kategorie nur von Analysten verwendet werden können.
 
@@ -99,7 +101,7 @@ Kategorien können auch verwendet werden, um ethische Wände zu erstellen. Ethis
 
 Wenn Sie einer Kategorie eine Domäne hinzufügen, stehen die Benutzergruppen, deren Gruppenobjekte in dieser Domäne enthalten sind, für Sie zur Verfügung, damit Sie Sie als Mitglieder von Räumen in dieser Kategorie angeben können.
 
-Wir empfehlen, dass Sie in der Regel Active Directory-Container wie Domänen und Organisationseinheiten verwenden, um **AllowedMembers** und Creators einer Kategorie zu definieren. **** Sie können Objekte aus einer beliebigen Domäne zu einer **AllowedMembers** - **** oder Creators-Liste hinzufügen. Den Räumen unter dieser Kategorie können nur Objekte in der **AllowedMembers** -oder **Creators** -Liste hinzugefügt werden.
+Wir empfehlen, dass Sie in der Regel Active Directory-Container wie Domänen und Organisationseinheiten verwenden, um **AllowedMembers** und **Creators**einer Kategorie zu definieren. Sie können Objekte aus einer beliebigen Domäne zu einer **AllowedMembers** -oder **Creators** -Liste hinzufügen. Den Räumen unter dieser Kategorie können nur Objekte in der **AllowedMembers** -oder **Creators** -Liste hinzugefügt werden.
 
 </div>
 

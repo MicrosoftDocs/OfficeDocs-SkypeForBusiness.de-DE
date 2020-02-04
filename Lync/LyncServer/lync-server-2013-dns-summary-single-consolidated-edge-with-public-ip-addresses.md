@@ -3,6 +3,8 @@ title: DNS-Zusammenfassung für einen einzelnen konsolidierten Edgeserver mit ö
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50aae14309e55919eb3f65560cd7cd0e7f1b1283
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3578bc7b1668bf8cb2268ed079e558e1cf1761
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die für d
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>Wichtig: Anforderungen des Edge-Server-Netzwerkadapters
 
-Um Routingprobleme zu vermeiden, stellen Sie sicher, dass Ihre Edgeserver mindestens zwei Netzwerkadapter aufweisen und dass das Standardgateway nur auf dem Netzwerkadapter festgesetzt ist, der der externen Schnittstelle zugeordnet ist. Wie in der einzigen konsolidierten Edge-Topologie mit öffentlichen IP-Adressen in [einem einzigen konsolidierten Edge mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)gezeigt wird, verweist das Standardgateway auf den externen Router an Ihrem Internet Perimeter oder Firewall, die öffentliche IP-Adressen bereitstellen kann. Die Netzwerkbeziehung für Edgeserver-Schnittstellen ist eine Routenbeziehung anstelle einer NAT-Beziehung.
+Um Routingprobleme zu vermeiden, stellen Sie sicher, dass Ihre Edgeserver mindestens zwei Netzwerkadapter aufweisen und dass das Standardgateway nur auf dem Netzwerkadapter festgesetzt ist, der der externen Schnittstelle zugeordnet ist. Wie in der einzigen konsolidierten Edge-Topologie mit öffentlichen IP-Adressen in [einem einzigen konsolidierten Edge mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)gezeigt wird, verweist das Standardgateway auf den externen Router an Ihrem Internet Perimeter oder in der Firewall, der öffentliche IP-Adressen bereitstellen kann. Die Netzwerkbeziehung für Edgeserver-Schnittstellen ist eine Routenbeziehung anstelle einer NAT-Beziehung.
 
 Sie können zwei Netzwerkadapter auf dem Edgeserver wie folgt konfigurieren:
 
@@ -74,7 +76,7 @@ Sie können zwei Netzwerkadapter auf dem Edgeserver wie folgt konfigurieren:
     
     Die öffentliche IP-Adresse des Zugriffs Rands ist primär mit dem Standardgateway auf den öffentlichen Router (131.107.155.1) eingestellt.
     
-    Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol, Version 4 (TCP/IPv4)** und **Internetprotokoll, Version 6 (TCP/IPv6)** des **lokalen Bereichs Verbindungseigenschaften** in Windows Server
+    Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche IP-Adressen im Abschnitt **erweitert** der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** der Eigenschaften für den **lokalen Verbindungsbereich** in Windows Server.
 
 <div>
 

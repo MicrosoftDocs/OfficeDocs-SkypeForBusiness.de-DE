@@ -3,6 +3,8 @@ title: Bewährte Methoden für den Server für beständigen Chat
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat Server best practices
 ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ac9419485212df8ecf0a11841a6eaee4c752640
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 119bc67622928ec2e60f082e72322e7b0b923c2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847068"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Wenn Sie Ihre Kategorien und beständige Chatrooms erstellen und Ihr Scoping und
 
   - Wenn in Ihrem Unternehmen keine ethische Mauer erforderlich ist, schränken Sie den Bereich in der Kategoriestruktur nicht ein. Fügen Sie alle Ihre Benutzer in den Bereich einer Kategorie ein, und erstellen Sie alle Chatrooms in dieser Kategorie. Verwenden Sie anschließend nur Mitgliedschaftslisten, um den Zugriff auf jeden Chatroom zu gewähren oder einzuschränken.
 
-  - In den meisten Fällen sollten Sie es Benutzern ermöglichen, neue Chatrooms zu erstellen, damit Diskussionen zu neuen Themen zu einem beliebigen Zeitpunkt gestartet werden können. Machen Sie dies, indem **** Sie die Liste der Ersteller auf die gleiche Weise wie die **AllowedMembers** -Liste erstellen. Wenn Sie jedoch nur einem zentralen Support Team oder bestimmten Benutzern das Erstellen von Räumen gestatten möchten, stellen Sie **** die Liste der Ersteller als geeignete Teilmenge dar.
+  - In den meisten Fällen sollten Sie es Benutzern ermöglichen, neue Chatrooms zu erstellen, damit Diskussionen zu neuen Themen zu einem beliebigen Zeitpunkt gestartet werden können. Machen Sie dies, indem Sie die Liste der **Ersteller** auf die gleiche Weise wie die **AllowedMembers** -Liste erstellen. Wenn Sie jedoch nur einem zentralen Support Team oder bestimmten Benutzern das Erstellen von Räumen gestatten möchten, stellen Sie die Liste der **Ersteller** als geeignete Teilmenge dar.
 
   - Geben Sie jedem Chatroom einen vollständigen Namen und eine Beschreibungs Zusammenfassung, die beschreibt, wo er in Ihre Organisation passt. Da Benutzer den Kategorienamen nicht sehen können, wenn Sie den Chatroom verwenden, können Sie sich nicht darauf verlassen, dass der Kategorienname Benutzern hilft, das vorgesehene Diskussionsforum für den Chatroom zu ermitteln.
 

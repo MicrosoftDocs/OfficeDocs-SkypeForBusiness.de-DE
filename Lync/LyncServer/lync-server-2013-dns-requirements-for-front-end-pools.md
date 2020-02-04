@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS-Anforderungen für Front-End-Pools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pools
 ms:assetid: ba28919c-fbbe-4c54-8bf9-2b0cd3fa39c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03759267ea10a4eaf7046fd25390b45265e479f6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4b763f9b01e070fc434dae997bc1e2da68dcbc26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832368"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -135,13 +137,13 @@ Die folgende Tabelle zeigt ein Beispiel für die DNS-Einträge, die für den FQD
 <tbody>
 <tr class="odd">
 <td><p>webcon.contoso.com</p></td>
-<td><p>EE-Pool.contoso.com</p></td>
+<td><p>ee-pool.contoso.com</p></td>
 <td><p>DNS einen Eintrag für den EE-Pool.contoso.com, der in die VIP-Adresse des Load Balancer der Front-End-Server aufgelöst wird.</p>
 <p>DNS-A-Eintrag für webcon.contoso.com, der in die VIP-Adresse des Load Balancer der Front-End-Server aufgelöst wird.</p></td>
 </tr>
 <tr class="even">
-<td><p>EE-Pool.contoso.com</p></td>
-<td><p>EE-Pool.contoso.com</p></td>
+<td><p>ee-pool.contoso.com</p></td>
+<td><p>ee-pool.contoso.com</p></td>
 <td><p>DNS-A-Eintrag für EE-Pool.contoso.com, der in die virtuelle IP-Adresse (VIP) des Load Balancer aufgelöst wird, der von den Front-End-Servern der Enterprise Edition im Front-End-Pool verwendet wird.</p>
 <p>Beachten Sie, dass bei Verwendung des DNS-Lastenausgleichs in diesem Pool der Front-End-Pool und die interne Webfarm nicht den gleichen FQDN aufweisen können.</p></td>
 </tr>

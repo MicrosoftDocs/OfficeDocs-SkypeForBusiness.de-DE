@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ermitteln von DNS-Anforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine DNS requirements
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e299f138a28ba4863250d2e0be1f31f705f4a173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Mithilfe des folgenden Flussdiagramms können Sie DNS-Anforderungen (Domain Name
 
 **Ermitteln des Flussdiagramms für DNS-Anforderungen**
 
-![175782ac-363e-408A-912f-8991bf152970] (images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408A-912f-8991bf152970")
+![175782ac-363e-408a-912f-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
 
 <div>
 
@@ -228,9 +230,9 @@ Wenn für Clients, die lync ausführen, die automatische Konfiguration erforderl
     
     </div>
 
-  - **Übereinstimmende interne Zone**   erstellen Sie eine Zone im internen DNS, die der externen DNS-Zone entspricht (beispielsweise contoso.com), und erstellen Sie DNS a und AAAA (wenn Sie IPv6-Adressierung verwenden) Datensätze, die dem für die automatische Verwendung verwendeten lync Server 2013-Pool entsprechen. Konfiguration. Wenn sich ein Benutzer beispielsweise in pool01.contoso.Net befindet, sich aber als Bob@contoso.com in lync befindet, erstellen Sie eine interne DNS-Zone namens Contoso.com, und erstellen Sie darin eine DNS-a-und AAAA-Aufzeichnung (wenn IPv6-Adressierung verwendet wird) für pool01.contoso.com.
+  - **Übereinstimmende interne Zone**   erstellen Sie eine Zone im internen DNS, die der externen DNS-Zone entspricht (beispielsweise contoso.com), und erstellen Sie DNS a und AAAA (wenn Sie IPv6-Adressierung verwenden) Datensätze, die dem für die automatische Konfiguration verwendeten lync Server 2013-Pool entsprechen. Wenn sich ein Benutzer beispielsweise in pool01.contoso.Net befindet, sich aber als Bob@contoso.com in lync befindet, erstellen Sie eine interne DNS-Zone namens Contoso.com, und erstellen Sie darin eine DNS-a-und AAAA-Aufzeichnung (wenn IPv6-Adressierung verwendet wird) für pool01.contoso.com.
 
-  - **PIN-Punkt-interne Zone**   Wenn Sie eine gesamte Zone im internen DNS erstellen, ist keine Option, können Sie Pin-Point-(dedizierte) Zonen erstellen, die den SRV-Einträgen entsprechen, die für die automatische Konfiguration erforderlich sind, und diese auffüllen. Zonen mit "dnscmd. exe". Dnscmd. exe ist erforderlich, da die DNS-Benutzeroberfläche das Erstellen von PIN-Punkt-Zonen nicht unterstützt. Wenn beispielsweise die SIP-Domäne contoso.com ist und Sie über einen Front-End-Pool mit dem Namen pool01 verfügen, der zwei Front-End-Server enthält, benötigen Sie die folgenden Pin-Punkt Zonen und eine Datensätze in Ihrem internen DNS:
+  - **PIN-Punkt-interne Zone**   Wenn Sie eine gesamte Zone im internen DNS erstellen, ist keine Option, können Sie Pin-Point-(dedizierte) Zonen erstellen, die den SRV-Einträgen entsprechen, die für die automatische Konfiguration erforderlich sind, und diese Zonen mit dnscmd. exe füllen. Dnscmd. exe ist erforderlich, da die DNS-Benutzeroberfläche das Erstellen von PIN-Punkt-Zonen nicht unterstützt. Wenn beispielsweise die SIP-Domäne contoso.com ist und Sie über einen Front-End-Pool mit dem Namen pool01 verfügen, der zwei Front-End-Server enthält, benötigen Sie die folgenden Pin-Punkt Zonen und eine Datensätze in Ihrem internen DNS:
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Überwachen der Netzwerkleistung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Die Netzwerkleistung kann auf zwei Ebenen gemessen werden:
 
   - **Gesamtnetzwerkleistung**   diese Stufe der Leistungsmessung ermöglicht es einer Organisation, eine "Big-Picture"-Ansicht Ihres Netzwerks zu erstellen und wird in der Regel über Netzwerk Überwachungssysteme von Drittanbietern implementiert. Diese Systeme empfangen Leistungs-und Kapazitätsdaten von Remotenetzwerk Geräten wie Routern und werden im gesamten Netzwerk gewechselt, damit Administratoren die Integrität einer bestimmten Netzwerkkomponente zu jeder Tageszeit ermitteln können.
 
-  - **Individuelle Serverleistung**   diese Ebene der Leistungsmessung ist auf einen bestimmten Server limitiert und unterstützt Administratoren bei der Messung der Netzwerkleistung eines bestimmten Servers, um entweder bei der Problembehandlung einer bestimmten Leistung zu helfen. Sie können die Leistung des jeweiligen Servers während eines bestimmten Zeitraums im Rahmen eines Kapazitäts Planungsprozesses abwägen oder bewerten.
+  - **Individuelle Serverleistung**   diese Ebene der Leistungsmessung ist auf einen bestimmten Server limitiert und unterstützt Administratoren bei der Messung der Netzwerkleistung eines bestimmten Servers, um entweder bei der Behandlung eines bestimmten Leistungsproblems zu helfen oder die Leistung des jeweiligen Servers über einen bestimmten Zeitraum im Rahmen eines Kapazitäts Planungsprozesses zu messen.
 
 Sie können das Netzwerk überwachen, indem Sie die in den folgenden Abschnitten beschriebenen Tools verwenden.
 
@@ -81,9 +83,9 @@ Weitere Informationen finden Sie hier:
 
 ## <a name="third-party-solutions"></a>Lösungen von Drittanbietern
 
-**HP Network Management Center (vormals als HP OpenView bezeichnet)** Das    [HP Network Management Center](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) bietet integriertes Fehler-und Leistungs Management, um die Netzwerkverfügbarkeit und-Leistung zu verbessern. Network Management Center ist Teil der automatischen HP-Netzwerkverwaltungslösung, die Fehler-, Leistungs-, Konfigurations-und Änderungsverwaltung vereint.
+HP **Network Management Center (vormals als HP OpenView bekannt)**   [HP Network Management Center](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) bietet integriertes Fehler-und Leistungs Management zur Verbesserung der Netzwerkverfügbarkeit und-Leistung. Network Management Center ist Teil der automatischen HP-Netzwerkverwaltungslösung, die Fehler-, Leistungs-, Konfigurations-und Änderungsverwaltung vereint.
 
-**Cisco-Netzwerkmanagement-und-Automatisierungsprodukte**   für das Unternehmen bietet Cisco verschiedene Verwaltungsprodukte, einschließlich der CiscoWorks-LAN-Verwaltungslösung und des Cisco-Netzwerkanalyse Moduls, um die operative Effizienz zu verbessern und reduzieren Sie die Netzwerkausfälle. Weitere Informationen zu diesen Produkten finden Sie auf der Cisco-Website unter [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html).
+**Cisco-Netzwerkmanagement-und-Automatisierungsprodukte**   für das Unternehmen bietet Cisco verschiedene Verwaltungsprodukte, einschließlich der CiscoWorks-LAN-Verwaltungslösung und des Cisco-Netzwerkanalyse Moduls, um die Betriebseffizienz zu verbessern und Netzwerkausfälle zu verringern. Weitere Informationen zu diesen Produkten finden Sie auf der Cisco-Website unter [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html).
 
 SNMP (Simple Network Management Protocol, SNMP) ist ein Netzwerkverwaltungsstandard, der eine Strategie für die Verwaltung von TCP/IP-Netzwerken definiert. SNMP ermöglicht Ihnen, Konfigurations-und Statusinformationen über das Netzwerk zu erfassen und die Informationen an einen festgelegten Computer zur Ereignisüberwachung zu senden. Dieses standardbasierte Netzwerkverwaltungsprotokoll verwendet eine verteilte Architektur, die Folgendes umfasst:
 

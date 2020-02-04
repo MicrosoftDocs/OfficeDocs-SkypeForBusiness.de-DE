@@ -3,6 +3,8 @@ title: Staging von AV-und OAuth-Zertifikaten mithilfe von-Rolle in der Gruppe-Cs
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Audio/Video (a/V)-Kommunikation ist eine wichtige Komponente von Microsoft lync 
 > <LI>
 > <P>Dieses neue Feature ist für den A/V-Edgedienst und das <EM>OAuthTokenIssuer</EM> -Zertifikat konzipiert. Andere Zertifikattypen können zusammen mit dem a/v-Edgedienst und dem OAuth-Zertifikattyp bereitgestellt werden, profitieren aber nicht vom Koexistenzsystem, das vom a/v-Edgedienst-Zertifikat bereitgestellt wird.</P>
 > <LI>
-> <P>Die in der lync Server-Verwaltungsshell verwendeten PowerShell-Cmdlets für die Verwaltung von Microsoft lync Server 2013-Zertifikaten bezieht sich auf das A/V-Edgedienst Zertifikat als <EM>AudioVideoAuthentication</EM> -Zertifikattyp und das OAuthServer-Zertifikat als Typ <EM> OAuthTokenIssuer</EM>. Im restlichen Thema – und zur eindeutigen Identifizierung der Zertifikate – wird mit demselben ID-Typ, <EM>AudioVideoAuthentication</EM> und <EM>OAuthTokenIssuer</EM>, auf sie verwiesen.</P></LI></OL>
+> <P>Die in der lync Server-Verwaltungsshell verwendeten PowerShell-Cmdlets für die Verwaltung von Microsoft lync Server 2013-Zertifikaten bezieht sich auf das A/V-Edgedienst Zertifikat als <EM>AudioVideoAuthentication</EM> -Zertifikattyp und das OAuthServer-Zertifikat als Typ <EM>OAuthTokenIssuer</EM>. Im restlichen Thema – und zur eindeutigen Identifizierung der Zertifikate – wird mit demselben ID-Typ, <EM>AudioVideoAuthentication</EM> und <EM>OAuthTokenIssuer</EM>, auf sie verwiesen.</P></LI></OL>
 
 
 
@@ -57,7 +59,7 @@ Der a/v-Authentifizierungsdienst ist für das Ausgeben von Token verantwortlich,
 
 
 > [!TIP]
-> Mithilfe der lync Server-Verwaltungsshell-Cmdlets für die Verwaltung von Zertifikaten können Sie für jeden Zweck auf dem Edgeserver getrennte und unterschiedliche Zertifikate anfordern. Die Verwendung des Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten unterstützt Sie beim Erstellen von Zertifikaten, <STRONG></STRONG> ist in der Regel aber der Standardtyp, mit dem alle Zertifikat Verwendungen für den Edgeserver auf einem einzigen Zertifikat kombiniert werden. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer, der an (beispielsweise) einer Sofortnachrichtenunterhaltung teilhat, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das neue Zertifikat zu verwenden, das dem Access Edge-Dienst zugeordnet ist. Ein ähnliches Verhalten tritt für einen Benutzer ein, der mit dem Webkonferenz-Edgedienst an einer Webkonferenz teilnimmt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer zentralen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
+> Mithilfe der lync Server-Verwaltungsshell-Cmdlets für die Verwaltung von Zertifikaten können Sie für jeden Zweck auf dem Edgeserver getrennte und unterschiedliche Zertifikate anfordern. Die Verwendung des Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten unterstützt Sie beim Erstellen von Zertifikaten, ist in der Regel aber der <STRONG>Standardtyp</STRONG> , mit dem alle Zertifikat Verwendungen für den Edgeserver auf einem einzigen Zertifikat kombiniert werden. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer, der an (beispielsweise) einer Sofortnachrichtenunterhaltung teilhat, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das neue Zertifikat zu verwenden, das dem Access Edge-Dienst zugeordnet ist. Ein ähnliches Verhalten tritt für einen Benutzer ein, der mit dem Webkonferenz-Edgedienst an einer Webkonferenz teilnimmt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer zentralen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
 
 
 
@@ -91,7 +93,7 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
     
 
     > [!IMPORTANT]
-    > Bei einem Edge-Pool müssen alle AudioVideoAuthentication-Zertifikate bereitgestellt und bis zu dem Datum und der Uhrzeit bereitgestellt werden, das durch den – EffectiveDate-Parameter des ersten bereitgestellten Zertifikats definiert ist, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN aufgrund des älteren zu vermeiden. Zertifikat läuft ab, bevor alle Client-und Consumer-Token mit dem neuen Zertifikat erneuert wurden.
+    > Bei einem Edge-Pool müssen alle AudioVideoAuthentication-Zertifikate bereitgestellt und durch das Datum und die Uhrzeit bereitgestellt werden, die durch den – EffectiveDate-Parameter des ersten bereitgestellten Zertifikats definiert sind, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN zu vermeiden, weil das ältere Zertifikat abläuft, bevor alle Client-und Consumer-Token mithilfe des neuen Zertifikats erneuert wurden.
 
     
     </div>
@@ -117,7 +119,7 @@ Mit einer optischen Zeitachse können Sie den Vorgang besser verstehen, der von 
 
 Im folgenden Beispiel wird vom Administrator festgelegt, dass das A/V-Edgedienst-Zertifikat um 2:00:00 Uhr am 07/22/2012 abläuft. Er fordert und empfängt ein neues Zertifikat und importiert es auf jeden Edgeserver in seinem Pool. Um 2 Uhr auf 07/22/2012 beginnt er mit der Ausführung von Get-CsCertificate mit – Rolle,-Fingerabdruck, der der Fingerabdruck Zeichenfolge des neuen Zertifikats entspricht, und – Effektivzeit, die auf 07/22/2012 6:00:00 Uhr eingestellt ist. Er führt diesen Befehl auf jedem Edgeserver aus.
 
-![Verwenden des Rollen-und des EffectiveDate-Parameters] (images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Verwenden des Rollen-und des EffectiveDate-Parameters")
+![Verwenden des Rollen-und des EffectiveDate-Parameters](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Verwenden des Rollen-und des EffectiveDate-Parameters")
 
 Wenn die effektive Zeit erreicht ist (7/22/2012 6:00:00 Uhr), werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Nachdem das alte Zertifikat abgelaufen ist (7/22/2012 2:00:00 Uhr), werden Token nur vom neuen Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets „Remove-CsCertificate“ mit dem Parameter „–Previous“ sicher entfernt werden.
 

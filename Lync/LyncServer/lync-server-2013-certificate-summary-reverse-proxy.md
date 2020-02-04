@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Zertifikatzusammenfassung für Reverseproxy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Reverse proxy
 ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42e52fa8522de53404fee3f3b5798f159361dbf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Die Zertifikatanforderungen für den Reverse-Proxy sind viel einfacher als die f
 
 **Flussdiagramm für Zertifikate für den Reverse-Proxy**
 
-![Flussdiagramm für Zertifikate für Edgeserver] (images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Flussdiagramm für Zertifikate für Edgeserver")
+![Flussdiagramm für Zertifikate für Edgeserver](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Flussdiagramm für Zertifikate für Edgeserver")
 
 ### <a name="reverse-proxy-external-interface"></a>Reverse Proxy: externe Schnittstelle
 
@@ -61,11 +63,11 @@ Die Zertifikatanforderungen für den Reverse-Proxy sind viel einfacher als die f
 <tbody>
 <tr class="odd">
 <td><p>Reverseproxy</p></td>
-<td><p>Webext.contoso.com</p></td>
-<td><p>Webext.contoso.com</p>
+<td><p>webext.contoso.com</p></td>
+<td><p>webext.contoso.com</p>
 <p>webdirext.contoso.com</p>
 <p>dialin.contoso.com</p>
-<p>Meet.contoso.com</p>
+<p>meet.contoso.com</p>
 <p>officewebapps01.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>(Optional):*. contoso.com</p></td>

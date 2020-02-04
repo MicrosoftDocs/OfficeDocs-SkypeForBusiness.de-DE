@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Anfängliche Planungsentscheidungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Initial planning decisions
 ms:assetid: cbaa5cb3-2b00-4b9f-952d-986a0c9f160b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398855(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dd1359e27f6869dab1ead38da3716135a2468ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c15cfad5da4bab441a56d6f13a79121b6e8d87b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Im ersten Teil des Planungsprozesses entscheiden Sie, welche lync Server-Arbeits
 
 3.  **Instant Messaging *(im)* und *Anwesenheit* sind immer aktiviert.**    Bei jeder lync Server-Bereitstellung sind die Sofortnachrichten (im) und die Anwesenheits Auslastung standardmäßig installiert und aktiviert. IM ermöglicht es Ihren Benutzern, mit Textnachrichten in Echtzeit zu kommunizieren, und die Anwesenheitsanzeige ermöglicht es Ihnen, den Status anderer Benutzer im Netzwerk anzuzeigen. Der Anwesenheitsstatus eines Benutzers bietet Informationen, um anderen zu helfen, zu entscheiden, ob er versuchen soll, den Benutzer zu kontaktieren, und auf welche Weise. Ausführliche Informationen finden Sie unter [Planen von Front-End-Servern, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md) in der Planungsdokumentation.
 
-4.  **Möchten Sie beliebige Konferenz Modi bereitstellen?**    Conferencing ist ein weiteres zentrales Feature von lync Server. Verschiedene Konferenz Modi werden unterstützt. Sie können auswählen, ob alle unterstützten Konferenztypen oder nur einige davon bereitgestellt werden sollen. ** Mit Webkonferenzen können Benutzer eine Datei anzeigen, beispielsweise ein mit Microsoft PowerPoint-Präsentationsgrafikprogramm erstelltes Foliendeck, das angezeigt wird. Mit der *Anwendungsfreigabe* können Benutzer ihren gesamten Desktop oder einen Teil davon in Echtzeit freigeben. Mit *A/V-Konferenzen*können Benutzer ihren Konferenzen und Peer-to-Peer-Kommunikationen Audio (und möglicherweise Video) hinzufügen. *Einwahlkonferenzen* ermöglicht Benutzern das Verwenden von standardmäßigen PSTN-Telefonen für die Teilnahme am Audioteil von Konferenzen, die in Ihrer Organisation gehostet werden. Ausführliche Informationen finden Sie unter [Planen von Konferenzen in lync Server 2013](lync-server-2013-planning-for-conferencing.md) in der Planungsdokumentation.
+4.  **Möchten Sie beliebige Konferenz Modi bereitstellen?**    Conferencing ist ein weiteres zentrales Feature von lync Server. Verschiedene Konferenz Modi werden unterstützt. Sie können auswählen, ob alle unterstützten Konferenztypen oder nur einige davon bereitgestellt werden sollen. Mit *Webkonferenzen* können Benutzer eine Datei anzeigen, beispielsweise ein mit Microsoft PowerPoint-Präsentationsgrafikprogramm erstelltes Foliendeck, das angezeigt wird. Mit der *Anwendungsfreigabe* können Benutzer ihren gesamten Desktop oder einen Teil davon in Echtzeit freigeben. Mit *A/V-Konferenzen*können Benutzer ihren Konferenzen und Peer-to-Peer-Kommunikationen Audio (und möglicherweise Video) hinzufügen. *Einwahlkonferenzen* ermöglicht Benutzern das Verwenden von standardmäßigen PSTN-Telefonen für die Teilnahme am Audioteil von Konferenzen, die in Ihrer Organisation gehostet werden. Ausführliche Informationen finden Sie unter [Planen von Konferenzen in lync Server 2013](lync-server-2013-planning-for-conferencing.md) in der Planungsdokumentation.
     
     Wenn Sie in lync Server 2013 Webkonferenzen bereitstellen, müssen Sie auch die Integration in Office Web Apps Server planen, um PowerPoint-Freigabe und-Anzeige in Besprechungen zu ermöglichen. Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 

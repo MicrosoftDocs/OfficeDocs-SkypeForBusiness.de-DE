@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Von Reaktionsgruppen verwendete Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Response Group
 ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52ceb18c355f6d867b5b3b4485434df83683d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81275ca027971d661d3323fbfc175c51d4f4d7d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Die folgenden Microsoft lync Server 2013-Komponenten unterstützen die reaktions
 
   - **Sprachpaket**   ein Sprachpaket ist erforderlich, um Text-zu-Sprache-und Spracherkennung zu unterstützen. Diese Sprachtechnologien werden zum Konfigurieren von Nachrichten verwendet, beispielsweise für die Willkommensnachricht oder für andere Ansagen sowie für Fragen und Antworten der interaktiven Sprachantwort (Interactive Voice Response, IVR). Standardmäßig werden die 26 unterstützten Sprachpakete installiert, wenn Sie lync Server 2013 bereitstellen.
 
-  - **** Audiodateien Audiodateien werden für Nachrichten und Musik im Wartebereich verwendet.   
+  - **Audiodateien**Audiodateien werden für Nachrichten und Musik im Wartebereich verwendet.   
 
   - **Datei**   Speicher-Reaktionsgruppe verwendet den Dateispeicher zum Speichern von Audiodateien. Mehrere Antwortgruppen Pools können dieselbe Instanz des Dateispeichers verwenden.
 
@@ -63,7 +65,7 @@ Die folgenden Microsoft lync Server 2013-Komponenten unterstützen die reaktions
 
   - **Web**Services-Webdienste sind für das Reaktionsgruppen-Konfigurations Tool, die Anmelde-und Abmelde Konsole des Agents, die lync Server-Systemsteuerung und den Client-Webdienst der Reaktionsgruppe erforderlich.   
 
-  - **Antwortgruppen-Client-Web-Service**   Response Group-Anwendung bietet einen Client-Webdienst, der von Drittanbieter-Anwendungen verwendet werden kann, um Informationen zu Agents, Agentengruppen Mitgliedschaft, Agent-Anmeldestatus, Anrufstatus für Gruppen abzurufen, und die Gruppen, die anonyme Anrufe unterstützen. Lync 2013 und lync 2010 Attendant verwenden den Client-Webdienst der Reaktionsgruppe, um die Liste der Antwortgruppen abzurufen, die von Agents für anonyme Anrufe verwendet werden können. Der Client-Webdienst ist bei der Installation von Webdiensten enthalten.
+  - **Antwortgruppen-Client-Web-Service**   Response Group-Anwendung bietet einen Client-Webdienst, der von Drittanbieter-Anwendungen verwendet werden kann, um Informationen zu Agents, Agentengruppen Mitgliedschaft, Agent-Anmeldestatus, Anrufstatus für Gruppen und die Gruppen abzurufen, die anonyme Anrufe unterstützen. Lync 2013 und lync 2010 Attendant verwenden den Client-Webdienst der Reaktionsgruppe, um die Liste der Antwortgruppen abzurufen, die von Agents für anonyme Anrufe verwendet werden können. Der Client-Webdienst ist bei der Installation von Webdiensten enthalten.
 
 </div>
 

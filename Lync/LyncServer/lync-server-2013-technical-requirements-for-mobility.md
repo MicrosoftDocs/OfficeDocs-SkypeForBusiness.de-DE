@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Technische Anforderungen für die Mobilität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for mobility
 ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4eef2cb185653446627fe6ccec2d49538e1162b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847597"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Die Anforderung für die Cookie-Affinität in Hardwarelastenausgleichs wird dras
 
 
 > [!IMPORTANT]  
-> Der gesamte Mobilitätsdienst Verkehr durchläuft den Reverse-Proxy, unabhängig davon, wo sich der Ursprungspunkt befindet – intern oder extern. Im Fall eines einzelnen Reverse-Proxys oder einer Farm von Reverse-Proxies oder eines Geräts, das die Reverse-Proxy-Funktion bereitstellt, kann ein Problem auftreten, wenn der interne Datenverkehr über eine Schnittstelle egressing und versucht, sofort auf derselben Schnittstelle zu ingresen. Dies führt häufig zu einer Sicherheitsregel Verletzung, die als TCP-Paket-Spoofing oder nur Spoofing bezeichnet wird. <EM>Haar fixieren</EM> (das Ausgangs-und unmittelbare Eindringen eines Pakets oder einer Reihe von Paketen) muss zulässig sein, damit die Mobilität funktionieren kann. Eine Möglichkeit zur Behebung dieses Problems besteht in der Verwendung eines umgekehrten Proxys, der von der Firewall getrennt ist (die Spoofing-Präventions Regel sollte immer für Sicherheitszwecke in der Firewall erzwungen werden). Die Haarnadel kann an der externen Schnittstelle des Reverse-Proxy statt der externen Firewall-Schnittstelle erfolgen. Sie erkennen die Spoofing-Funktion bei der Firewall und entspannen die Regel beim Reverse-Proxy, wodurch die Haarnadel für Mobilität erforderlich ist.<BR>Verwenden Sie den DNS-Host (Domain Name System) oder CNAME-Einträge, um den Reverseproxy für das Haarnadel-Verhalten (nicht für die Firewall) zu definieren, wenn dies überhaupt möglich ist.
+> Der gesamte Mobilitätsdienst Verkehr durchläuft den Reverse-Proxy, unabhängig davon, wo sich der Ursprungspunkt befindet – intern oder extern. Im Fall eines einzelnen Reverse-Proxys oder einer Farm von Reverse-Proxies oder eines Geräts, das die Reverse-Proxy-Funktion bereitstellt, kann ein Problem auftreten, wenn der interne Datenverkehr über eine Schnittstelle egressing und versucht, sofort auf derselben Schnittstelle zu ingresen. Dies führt häufig zu einer Sicherheitsregel Verletzung, die als TCP-Paket-Spoofing oder nur Spoofing bezeichnet wird. Das <EM>Anheften von Haaren</EM> (das Ausstiegs-und das sofortige Eindringen eines Pakets oder einer Reihe von Paketen) muss zulässig sein, damit die Mobilität funktionieren kann. Eine Möglichkeit zur Behebung dieses Problems besteht in der Verwendung eines umgekehrten Proxys, der von der Firewall getrennt ist (die Spoofing-Präventions Regel sollte immer für Sicherheitszwecke in der Firewall erzwungen werden). Die Haarnadel kann an der externen Schnittstelle des Reverse-Proxy statt der externen Firewall-Schnittstelle erfolgen. Sie erkennen die Spoofing-Funktion bei der Firewall und entspannen die Regel beim Reverse-Proxy, wodurch die Haarnadel für Mobilität erforderlich ist.<BR>Verwenden Sie den DNS-Host (Domain Name System) oder CNAME-Einträge, um den Reverseproxy für das Haarnadel-Verhalten (nicht für die Firewall) zu definieren, wenn dies überhaupt möglich ist.
 
 
 
@@ -75,7 +77,7 @@ Wenn Sie die automatische Ermittlung verwenden, verwenden mobile Geräte DNS zum
 
 
 > [!NOTE]  
-> Es ist wichtig zu wissen, dass Ihre Bereitstellung aus mehreren unterschiedlichen Namespaces für die interne und externe Verwendung bestehen kann. Ihr SIP-Domänenname kann sich vom internen Bereitstellungs Domänennamen unterscheiden. Beispielsweise kann Ihre SIP-Domäne <STRONG>contoso.com</STRONG>sein, während ihre interne Bereitstellung möglicherweise <STRONG>contoso.net</STRONG>ist. Für Benutzer, die sich bei lync Server anmelden, wird der SIP-Domänenname verwendet, beispielsweise <STRONG>John@contoso.com</STRONG>. Bei der Adressierung der externen Webdienste (definiert im Topologie-Generator als <STRONG>externe</STRONG>Webdienste) sind der Domänenname und der SIP-Domänenname konsistent, wie in DNS definiert. Beim Adressieren der internen Webdienste (definiert im Topologie-Generator als <STRONG>interne</STRONG>Webdienste) ist der Standardname der internen Webdienste der FQDN des Front-End-Servers, des Front-End-Pools, des Directors oder des Director-Pools. Sie haben die Möglichkeit, den internen Webdienste-Namen zu überschreiben. Sie sollten den internen Domänennamen (und nicht den SIP-Domänennamen) für interne Webdienste verwenden und den DNS-Host a (oder, für IPv6, AAAA)-Eintrag definieren, um den überschriebenen Namen wiederzugeben. So kann beispielsweise der standardmäßige interne Webdienste-FQDN <STRONG>pool01.contoso.net</STRONG>sein. Ein überschriebner Interner FQDN für Webdienste kann <STRONG>webpool.contoso.net</STRONG>sein. Wenn Sie die Webdienste auf diese Weise definieren, wird sichergestellt, dass die interne und externe Lokalität der Dienste – und nicht die Lokalität des Benutzers, der Sie verwendet – beobachtet wird.<BR>Da die Webdienste jedoch im Topologie-Generator definiert sind und der interne Webdienste-Name überschrieben werden kann, solange der resultierende Webdienste-Name, das Zertifikat, das ihn überprüft, und die DNS-Einträge, die ihn definieren, konsistent sind, können Sie die interne Webdienste mit einem beliebigen Domänennamen, einschließlich des SIP-Domänennamens, den Sie wünschen. Letztendlich wird die Auflösung für den Namen der IP-Adresse von DNS-Hosteinträgen und einem konsistenten Namespace bestimmt.<BR>Für die Zwecke dieses Themas und der Beispiele wird der interne Domänenname verwendet, um die Topologie und die DNS-Definitionen zu veranschaulichen.
+> Es ist wichtig zu wissen, dass Ihre Bereitstellung aus mehreren unterschiedlichen Namespaces für die interne und externe Verwendung bestehen kann. Ihr SIP-Domänenname kann sich vom internen Bereitstellungs Domänennamen unterscheiden. Beispielsweise kann Ihre SIP-Domäne <STRONG>contoso.com</STRONG>sein, während ihre interne Bereitstellung möglicherweise <STRONG>contoso.net</STRONG>ist. Für Benutzer, die sich bei lync Server anmelden, wird der SIP-Domänenname verwendet, beispielsweise <STRONG>John@contoso.com</STRONG>. Bei der Adressierung der externen Webdienste (definiert im Topologie-Generator als <STRONG>externe Webdienste</STRONG>) sind der Domänenname und der SIP-Domänenname konsistent, wie in DNS definiert. Beim Adressieren der internen Webdienste (definiert im Topologie-Generator als <STRONG>interne Webdienste</STRONG>) ist der Standardname der internen Webdienste der FQDN des Front-End-Servers, des Front-End-Pools, des Directors oder des Director-Pools. Sie haben die Möglichkeit, den internen Webdienste-Namen zu überschreiben. Sie sollten den internen Domänennamen (und nicht den SIP-Domänennamen) für interne Webdienste verwenden und den DNS-Host a (oder, für IPv6, AAAA)-Eintrag definieren, um den überschriebenen Namen wiederzugeben. So kann beispielsweise der standardmäßige interne Webdienste-FQDN <STRONG>pool01.contoso.net</STRONG>sein. Ein überschriebner Interner FQDN für Webdienste kann <STRONG>webpool.contoso.net</STRONG>sein. Wenn Sie die Webdienste auf diese Weise definieren, wird sichergestellt, dass die interne und externe Lokalität der Dienste – und nicht die Lokalität des Benutzers, der Sie verwendet – beobachtet wird.<BR>Da die Webdienste jedoch im Topologie-Generator definiert sind und der interne Webdienste-Name überschrieben werden kann, solange der resultierende Webdienste-Name, das Zertifikat, das ihn überprüft, und die DNS-Einträge, die ihn definieren, konsistent sind, können Sie die interne Webdienste mit einem beliebigen Domänennamen, einschließlich des SIP-Domänennamens, den Sie wünschen. Letztendlich wird die Auflösung für den Namen der IP-Adresse von DNS-Hosteinträgen und einem konsistenten Namespace bestimmt.<BR>Für die Zwecke dieses Themas und der Beispiele wird der interne Domänenname verwendet, um die Topologie und die DNS-Definitionen zu veranschaulichen.
 
 
 
@@ -85,7 +87,7 @@ Das folgende Diagramm veranschaulicht den Fluss von Webanforderungen für mobile
 
 **Mobilitätsdienst Fluss mithilfe der AutoErmittlung**
 
-![cdb96424-96f2-4abf-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
+![cdb96424-96f2-4abf-88d7-1d32d1010ffd](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
 
 <div>
 

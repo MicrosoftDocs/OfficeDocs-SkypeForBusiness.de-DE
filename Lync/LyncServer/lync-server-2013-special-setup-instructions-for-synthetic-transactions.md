@@ -3,6 +3,8 @@ title: 'Lync Server 2013: spezielle Setupanweisungen für synthetische Transakti
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Special setup instructions for synthetic transactions
 ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8c2f0f45aa2187f1b47f8dfa81b3ba121388f6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ In einigen Fällen stellen Sie möglicherweise fest, dass Ihre synthetischen Tra
 
 Um dieses Problem zu beheben, sollten Sie die eingehenden Firewallregeln sowohl für MonitoringHost. exe als auch für PowerShell. exe auf dem lokalen Computer manuell erstellen. Dies kann abhängig von der bereits vorhandenen Konfiguration des Servers über die Windows-Firewall oder eine lokale Firewall-Software eines Drittanbieters erfolgen.
 
-Wenn Sie ein Netzwerkfirewall-Gerät zwischen dem synthetischen Transaktions Hostcomputer und den lync-Servern verwenden, die Sie überwachen möchten, sollten Sie den Host als Clientcomputer behandeln und alle Firewall-Portanforderungen aus [Ports und Protokollen beachten. für interne Server in lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
+Wenn Sie ein Netzwerkfirewall-Gerät zwischen dem synthetischen Transaktions Hostcomputer und den lync-Servern verwenden, die Sie überwachen möchten, sollten Sie den Host als Clientcomputer behandeln und alle Firewall-Portanforderungen aus [Ports und Protokollen für interne Server in lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
 
 </div>
 

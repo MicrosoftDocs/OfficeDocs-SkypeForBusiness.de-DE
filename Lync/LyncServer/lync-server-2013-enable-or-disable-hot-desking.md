@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Aktivieren oder Deaktivieren von Hot Desking'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable hot desking
 ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994057(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d9f2d168a06b5624375dcd005da58b4d3d5fd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c56d7ae13be9afa3af7e4732242a86f4be4c458
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,7 +50,7 @@ Sie verwenden den EnableHotdesking-Parameter des Cmdlets **New-CSClientPolicy** 
 
   - Wenn Sie die Hot-Desk-Funktion für ein Telefon im öffentlichen Bereich aktivieren möchten, müssen Sie die Clientrichtlinie ändern, die diesem Telefon (oder einer Sammlung von Telefonen) zugewiesen wurde.
     
-    Nachdem Sie die zu ändernde Richtlinie identifiziert haben, besteht der nächste Schritt darin, das Cmdlet "setCsClientPolicy" zu verwenden, um den EnableHotdesking **-** Parameter auf "true" festzulegen. Beispiel:
+    Nachdem Sie die zu ändernde Richtlinie identifiziert haben, besteht der nächste Schritt darin, das Cmdlet " **setCsClientPolicy** " zu verwenden, um den EnableHotdesking-Parameter auf "true" festzulegen. Beispiel:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 

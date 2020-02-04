@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ausfallsicherheitslösungen für Zweigstellenstandorte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34839745"
 
 _**Letztes Änderungsdatum des Themas:** 2014-12-10_
 
-Es gibt offensichtliche Vorteile für die Bereitstellung von Ausfallsicherheit für Zweigstellen in Ihrer Organisation. Insbesondere wenn Sie die Verbindung mit dem zentralen Standort verlieren, verfügen die Benutzer von Zweigstellenbenutzern weiterhin über Enterprise-VoIP-Dienst und Voicemail (wenn Sie die Einstellungen für die Neukonfiguration von Voicemail konfigurieren; Einzelheiten finden Sie unter Anforderungen an die [Standort Stabilität von Zweigstellen für lync Server. 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Bei Websites mit weniger als 25 Benutzern bietet eine Lösung für Ausfallsicherheit möglicherweise keine ausreichende Rentabilität.
+Es gibt offensichtliche Vorteile für die Bereitstellung von Ausfallsicherheit für Zweigstellen in Ihrer Organisation. Insbesondere wenn Sie die Verbindung mit dem zentralen Standort verlieren, verfügen die Benutzer von Zweigstellenbenutzern weiterhin über Enterprise-VoIP-Dienst und Voicemail (wenn Sie die Einstellungen für die Neukonfiguration von Voicemail konfigurieren; Einzelheiten finden Sie unter Anforderungen an die [Standort Stabilität von lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Bei Websites mit weniger als 25 Benutzern bietet eine Lösung für Ausfallsicherheit möglicherweise keine ausreichende Rentabilität.
 
 Wenn Sie sich für die Bereitstellung von Ausfallsicherheit für Zweigstellen entscheiden, stehen Ihnen drei Optionen zur Verfügung. In der folgenden Tabelle können Sie die beste Option für Ihre Organisation ermitteln.
 
@@ -58,7 +60,7 @@ Wenn Sie sich für die Bereitstellung von Ausfallsicherheit für Zweigstellen en
 <tr class="odd">
 <td><p>Hosten Sie zwischen 25 und 1000 Benutzern an ihrer Zweigstelle, und wenn die Kapitalrendite keine vollständige Bereitstellung unterstützt oder wenn die lokale administrative Unterstützung nicht verfügbar ist</p></td>
 <td><p>Survivable Branch Appliance</p>
-<p>Die Survivable Branch-Appliance ist ein branchenüblicher Blade-Server mit einer lync Server-Registrierungsstelle und einem Vermittlungsserver, die unter Windows Server 2008 R2 ausgeführt werden. Die Survivable Branch-Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im SBA-Qualifizierungs-und-Zertifizierungsprogramm) bieten eine durchgehende PSTN-Verbindung im Fall eines WAN-Fehlers, doch dieser Ansatz bietet keine belastbaren Anwesenheits-und Konferenzfunktionen, da diese Features von Front-End-Servern am zentralen Standort abhängen.</p>
+<p>Die Survivable Branch-Appliance ist ein branchenüblicher Blade-Server mit einer lync Server-Registrierungsstelle und einem Vermittlungsserver, die unter Windows Server 2008 R2 ausgeführt werden. Die Survivable Branch-Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im SBA-Qualifizierungs-/-Zertifizierungsprogramm) bieten eine durchgehende PSTN-Verbindung im Fall eines WAN-Fehlers, doch dieser Ansatz bietet keine belastbaren Anwesenheits-und Konferenzfunktionen, da diese Features von Front-End-Servern am zentralen Standort abhängen.</p>
 <p>Details zu Überlebenden Branch-Appliances finden &quot;Sie&quot; weiter unten in diesem Thema unter Survivable Branch Appliance Details.</p>
 <p><strong>Hinweis:</strong> Wenn Sie sich entscheiden, auch einen SIP-Trunk für Ihre Survivable Branch-Appliance zu verwenden, wenden Sie sich an den Anbieter von Survivable Branch Appliance, um zu erfahren, welcher Dienstanbieter für Ihre Organisation am besten geeignet ist.</p></td>
 </tr>
@@ -72,7 +74,7 @@ Wenn Sie sich für die Bereitstellung von Ausfallsicherheit für Zweigstellen en
 <td><p>Wenn Sie zusätzlich zu den Sprachfeatures für bis zu 5000-Benutzer Anwesenheits-und Konferenzfeatures benötigen und die lync Server-Administratoren verfügbar sind</p></td>
 <td><p>Bereitstellen als zentrale Website mit einem Standard Edition-Server und nicht als Verzweigungs Website</p>
 <p>Eine umfassende lync Server-Bereitstellung bietet eine durchgehende PSTN-Verbindung sowie eine zuverlässige Anwesenheits-und Konferenzfunktion bei einem WAN-Fehler.</p>
-<p>Details zum Vorbereiten dieser Lösung finden Sie unter <a href="lync-server-2013-planning-for-your-organization.md">Organisationsplanung für lync Server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln der Systemanforderungen für lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Ermitteln der Infrastrukturanforderungen für lync Server 2013</a>und Weitere relevante Abschnitte der Planungsdokumentation.</p></td>
+<p>Details zum Vorbereiten dieser Lösung finden Sie unter <a href="lync-server-2013-planning-for-your-organization.md">Organisationsplanung für lync Server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln der Systemanforderungen für lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Ermitteln der Infrastrukturanforderungen für lync Server 2013</a>und anderer relevanter Abschnitte der Planungsdokumentation.</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +88,7 @@ Die folgende Abbildung zeigt die empfohlenen Topologien für die Ausfallsicherhe
 
 **Stabilitäts Optionen für Zweigstellenstandorte**
 
-![Optionen für die Widerstandsfähigkeit der sprach Verzweigung] (images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Optionen für die Widerstandsfähigkeit der sprach Verzweigung")
+![Optionen für die Widerstandsfähigkeit der sprach Verzweigung](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Optionen für die Widerstandsfähigkeit der sprach Verzweigung")
 
 </div>
 

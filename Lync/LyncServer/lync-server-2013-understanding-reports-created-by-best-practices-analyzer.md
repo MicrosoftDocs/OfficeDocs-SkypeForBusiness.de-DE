@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Grundlegendes zu berichten, die von Best Practices Ana
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0903c3bafc4017d5455c188c66de3e1f2cf0b178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2262c490d84ec6f93ff395a9c8ec38d81c82e7de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ Best Practices Analyzer bietet mehrere Arten von Berichten, die zur Vereinfachun
 
 Sie können auf die Ergebnisse eines Scans zugreifen, indem Sie die folgenden Berichte anzeigen:
 
-  - **** Listen Berichte sind nach bestimmten Kriterien geordnet.    Sie können die Ergebnisse nach Kurs, Schweregrad oder Problem sortieren. Wenn Sie beispielsweise die Ergebnisse nach Kursen organisieren, werden Probleme im Zusammenhang mit Directors im Abschnitt Directors des Berichts berücksichtigt. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
+  - **Listen Berichte**sind nach bestimmten Kriterien geordnet.    Sie können die Ergebnisse nach Kurs, Schweregrad oder Problem sortieren. Wenn Sie beispielsweise die Ergebnisse nach Kursen organisieren, werden Probleme im Zusammenhang mit Directors im Abschnitt Directors des Berichts berücksichtigt. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
 
-  - ****   Strukturberichte Strukturberichte sind nach den Regeln angeordnet, die zum Ausführen der Überprüfung und anderer Optionen, die Sie zum Zeitpunkt der Ausführung des Scans angegeben haben, verwendet werden. So werden beispielsweise Probleme im Zusammenhang mit den Testtopologie-Regeln im Abschnitt Testtopologie des Berichts berücksichtigt. Sie können die Details aller Probleme anzeigen oder nur eine Zusammenfassung der Probleme. Sie können einen Strukturbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
+  - **Strukturberichte**   Strukturberichte sind nach den Regeln angeordnet, die zum Ausführen der Überprüfung und anderer Optionen, die Sie zum Zeitpunkt der Ausführung des Scans angegeben haben, verwendet werden. So werden beispielsweise Probleme im Zusammenhang mit den Testtopologie-Regeln im Abschnitt Testtopologie des Berichts berücksichtigt. Sie können die Details aller Probleme anzeigen oder nur eine Zusammenfassung der Probleme. Sie können einen Strukturbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
 
   - **Andere Berichts**   Elemente in anderen Berichten umfassen das Laufzeitprotokoll der Aufgaben, die in die Überprüfung einbezogen wurden. Sie können die Elemente in anderen Berichten nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
 
