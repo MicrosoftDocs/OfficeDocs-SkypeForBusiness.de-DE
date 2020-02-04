@@ -12,16 +12,16 @@ description: Schritt-für-Schritt-Anleitung zum Bereitstellen von Chat, Teams, K
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: ee1c3c7e9c897c08b47925d64edca56bd3654899
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290955"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680522"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -31,7 +31,9 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Neu im November 2019*: Sie können nun [den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Ratgeber für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
+*Neu im November 2019*
+ - Sie können [den Ratgeber für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Ratgeber für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
+ - [YouTube-Kanal "Microsoft Teams Essentials for IT"](https://aka.ms/MicrosoftTeamsforIT), einschließlich kurzer Videos (8-10 Minuten), die Ihnen zeigen, wie Sie das Rollout von Teams durchführen sowie Teams konfigurieren und verwalten.
 
 > [!TIP]
 > Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.

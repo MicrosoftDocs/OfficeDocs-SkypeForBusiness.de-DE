@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Erfahren Sie mehr über die Ursachen für Skype for Business Online-Anmeldefehler und die Problembehandlung. '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221491"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692770"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype for Business Online-Anmeldefehlern für Administratoren
 
@@ -194,7 +195,7 @@ Führen Sie zum Beheben dieses Problems die folgenden Schritte aus:
 
 1. Aktualisieren Sie das Attribut **msRTCSIP-UserEnabled** für alle betroffenen Benutzer mit dem Wert **TRUE**.
 
-2. Verwenden Sie das Microsoft Online Services-Verzeichnissynchronisierungstool (DirSync). Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
+2. Verwenden Sie das Microsoft Online Services-Verzeichnissynchronisierungstool (DirSync). Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory](https://technet.microsoft.com/de-DE/library/hh967642.aspx).
 
 Um Probleme bei der Anmeldung bei Skype for Business Online zu beheben, müssen Sie zunächst die häufigsten Ursachen für Anmeldeprobleme beseitigen. Bei Bedarf können Sie dann bestimmte Lösungsschritte basierend auf der Art des Fehlers ausführen. Wenn sich der Benutzer immer noch nicht anmelden kann, sammeln Sie zusätzliche Informationen, und fordern Sie dann weitere Unterstützung an.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Verwenden des Problembehandlungsleitfadens von Microsoft Support
