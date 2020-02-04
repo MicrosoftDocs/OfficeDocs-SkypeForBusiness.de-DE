@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: None
 description: Erfahren Sie mehr über Cloud Voicemail.
-ms.openlocfilehash: 67b7eededc906e1adf46d70e2311e7ad12bff73a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301241"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692490"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="50ef9-103">Lizenzoptionen basierend auf Ihrem Plan</span><span class="sxs-lookup"><span data-stu-id="50ef9-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="4770b-103">Lizenzoptionen basierend auf Ihrem Plan</span><span class="sxs-lookup"><span data-stu-id="4770b-103">License options based on your plan</span></span>
 
 
