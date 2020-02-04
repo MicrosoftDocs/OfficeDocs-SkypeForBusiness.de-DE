@@ -3,6 +3,8 @@ title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34839097"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-routes-and-media-traffic"></a><span data-ttu-id="758c3-102">Konfigurieren von Partnerverbundrouten und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="758c3-102">Configure federation routes and media traffic</span></span>
+# <a name="configure-federation-routes-and-media-traffic"></a><span data-ttu-id="5a115-102">Konfigurieren von Partnerverbundrouten und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="5a115-102">Configure federation routes and media traffic</span></span>
 
 </div>
 
@@ -33,27 +35,17 @@ ms.locfileid: "34839097"
 
 <span> </span>
 
-<span data-ttu-id="758c3-103">_**Letztes Änderungsdatum des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="758c3-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="5a115-103">_**Letztes Änderungsdatum des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="5a115-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="758c3-104">Föderation ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die es Benutzern in separaten Organisationen ermöglicht, über Netzwerkgrenzen hinweg zu kommunizieren.</span><span class="sxs-lookup"><span data-stu-id="758c3-104">Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries.</span></span> <span data-ttu-id="758c3-105">Nachdem Sie die Migration zu Ihrem lync Server 2013-Pilot Pool durchgeführt haben, müssen Sie von der Verbund Route ihrer lync Server 2010-Edgeserver zur Föderations Route ihrer lync Server 2013-Edgeserver wechseln.</span><span class="sxs-lookup"><span data-stu-id="758c3-105">After you migrate to your Lync Server 2013 pilot pool, you need to transition from the federation route of your Lync Server 2010 Edge Servers to the federation route of your Lync Server 2013 Edge Servers.</span></span>
+<span data-ttu-id="5a115-104">Föderation ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die es Benutzern in separaten Organisationen ermöglicht, über Netzwerkgrenzen hinweg zu kommunizieren.</span><span class="sxs-lookup"><span data-stu-id="5a115-104">Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries.</span></span> <span data-ttu-id="5a115-105">Nachdem Sie die Migration zu Ihrem lync Server 2013-Pilot Pool durchgeführt haben, müssen Sie von der Verbund Route ihrer lync Server 2010-Edgeserver zur Föderations Route ihrer lync Server 2013-Edgeserver wechseln.</span><span class="sxs-lookup"><span data-stu-id="5a115-105">After you migrate to your Lync Server 2013 pilot pool, you need to transition from the federation route of your Lync Server 2010 Edge Servers to the federation route of your Lync Server 2013 Edge Servers.</span></span>
 
-<span data-ttu-id="758c3-106">Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medien Verkehrsroute vom lync Server 2010-Edgeserver und-Director auf Ihren lync Server 2013-Edgeserver für eine Bereitstellung mit einem einzelnen Standort umzustellen.</span><span class="sxs-lookup"><span data-stu-id="758c3-106">Use the following procedures to transition the federation route and the media traffic route from your Lync Server 2010 Edge Server and Director to your Lync Server 2013 Edge Server, for a single-site deployment.</span></span>
-
-<div>
-
-
-> [!IMPORTANT]  
-> <span data-ttu-id="758c3-107">Für das Ändern der Route für die Verbund Route und den Mediendatenverkehr müssen Sie Wartungs Ausfälle für die Edgeserver lync Server 2013 und lync Server 2010 planen.</span><span class="sxs-lookup"><span data-stu-id="758c3-107">Changing the federation route and media traffic route requires that you schedule maintenance downtime for the Lync Server 2013 and Lync Server 2010 Edge Servers.</span></span> <span data-ttu-id="758c3-108">Dieser gesamte Übergangsprozess bedeutet auch, dass der Verbundzugriff für die Dauer des Ausfalls nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="758c3-108">This entire transition process also means that federated access will be unavailable for the duration of the outage.</span></span> <span data-ttu-id="758c3-109">Sie sollten die Downtime für eine Zeit planen, wenn Sie eine minimale Benutzeraktivität erwarten.</span><span class="sxs-lookup"><span data-stu-id="758c3-109">You should schedule the downtime for a time when you expect minimal user activity.</span></span> <span data-ttu-id="758c3-110">Darüber hinaus sollten Sie den Endbenutzern eine ausreichende Benachrichtigung senden.</span><span class="sxs-lookup"><span data-stu-id="758c3-110">You should also provide sufficient notification to your end users.</span></span> <span data-ttu-id="758c3-111">Planen Sie für diesen Ausfall entsprechend, und setzen Sie in Ihrer Organisation angemessene Erwartungen.</span><span class="sxs-lookup"><span data-stu-id="758c3-111">Plan accordingly for this outage and set appropriate expectations within your organization.</span></span>
-
-
-
-</div>
+<span data-ttu-id="5a115-106">Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medien Verkehrsroute vom lync Server 2010-Edgeserver und-Director auf Ihren lync Server 2013-Edgeserver für eine Bereitstellung mit einem einzelnen Standort umzustellen.</span><span class="sxs-lookup"><span data-stu-id="5a115-106">Use the following procedures to transition the federation route and the media traffic route from your Lync Server 2010 Edge Server and Director to your Lync Server 2013 Edge Server, for a single-site deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="758c3-112">Wenn Ihr Legacy lync Server 2010-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, werden die Verfahren in diesem Abschnitt nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="758c3-112">If your legacy Lync Server 2010 Edge Server is configured to use the same FQDN for the Access Edge service, Web Conferencing Edge service, and the A/V Edge service, the procedures in this section are not supported.</span></span> <span data-ttu-id="758c3-113">Wenn die Legacy Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von lync Server 2010 zu lync Server 2013 migrieren und dann den lync Server 2010-Edgeserver außer Betrieb setzen, bevor Sie den Verbund auf dem lync Server 2013-Edgeserver aktivieren.</span><span class="sxs-lookup"><span data-stu-id="758c3-113">If the legacy Edge services are configured to use the same FQDN, you must first migrate all your users from Lync Server 2010 to Lync Server 2013, then decommission the Lync Server 2010 Edge Server before enabling federation on the Lync Server 2013 Edge Server.</span></span>
+> <span data-ttu-id="5a115-107">Für das Ändern der Route für die Verbund Route und den Mediendatenverkehr müssen Sie Wartungs Ausfälle für die Edgeserver lync Server 2013 und lync Server 2010 planen.</span><span class="sxs-lookup"><span data-stu-id="5a115-107">Changing the federation route and media traffic route requires that you schedule maintenance downtime for the Lync Server 2013 and Lync Server 2010 Edge Servers.</span></span> <span data-ttu-id="5a115-108">Dieser gesamte Übergangsprozess bedeutet auch, dass der Verbundzugriff für die Dauer des Ausfalls nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="5a115-108">This entire transition process also means that federated access will be unavailable for the duration of the outage.</span></span> <span data-ttu-id="5a115-109">Sie sollten die Downtime für eine Zeit planen, wenn Sie eine minimale Benutzeraktivität erwarten.</span><span class="sxs-lookup"><span data-stu-id="5a115-109">You should schedule the downtime for a time when you expect minimal user activity.</span></span> <span data-ttu-id="5a115-110">Darüber hinaus sollten Sie den Endbenutzern eine ausreichende Benachrichtigung senden.</span><span class="sxs-lookup"><span data-stu-id="5a115-110">You should also provide sufficient notification to your end users.</span></span> <span data-ttu-id="5a115-111">Planen Sie für diesen Ausfall entsprechend, und setzen Sie in Ihrer Organisation angemessene Erwartungen.</span><span class="sxs-lookup"><span data-stu-id="5a115-111">Plan accordingly for this outage and set appropriate expectations within your organization.</span></span>
 
 
 
@@ -63,7 +55,7 @@ ms.locfileid: "34839097"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="758c3-114">Wenn Ihr XMPP-Verbund über einen lync Server 2013-Edgeserver weitergeleitet wird, können Legacy-lync Server 2010-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013 verschoben wurden, XMPP-Richtlinien und-Zertifikate wurden konfiguriert, wurde der XMPP-Verbundpartner auf lync Server 2013 konfiguriert, und zuletzt wurden die DNS-Einträge aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="758c3-114">If your XMPP federation is routed through a Lync Server 2013 Edge Server, legacy Lync Server 2010 users will not be able to communicate with the XMPP federated partner until all users have been moved to Lync Server 2013, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Lync Server 2013, and lastly the DNS entries have been updated.</span></span>
+> <span data-ttu-id="5a115-112">Wenn Ihr Legacy lync Server 2010-Edgeserver so konfiguriert ist, dass derselbe FQDN für den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verwendet wird, werden die Verfahren in diesem Abschnitt nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="5a115-112">If your legacy Lync Server 2010 Edge Server is configured to use the same FQDN for the Access Edge service, Web Conferencing Edge service, and the A/V Edge service, the procedures in this section are not supported.</span></span> <span data-ttu-id="5a115-113">Wenn die Legacy Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von lync Server 2010 zu lync Server 2013 migrieren und dann den lync Server 2010-Edgeserver außer Betrieb setzen, bevor Sie den Verbund auf dem lync Server 2013-Edgeserver aktivieren.</span><span class="sxs-lookup"><span data-stu-id="5a115-113">If the legacy Edge services are configured to use the same FQDN, you must first migrate all your users from Lync Server 2010 to Lync Server 2013, then decommission the Lync Server 2010 Edge Server before enabling federation on the Lync Server 2013 Edge Server.</span></span>
 
 
 
@@ -71,184 +63,194 @@ ms.locfileid: "34839097"
 
 <div>
 
-## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a><span data-ttu-id="758c3-115">So entfernen Sie die Legacy Verbund Zuordnung von lync Server 2013-Websites</span><span class="sxs-lookup"><span data-stu-id="758c3-115">To remove the legacy federation association from Lync Server 2013 sites</span></span>
 
-1.  <span data-ttu-id="758c3-116">Öffnen Sie auf dem lync Server 2013-Front-End-Server die vorhandene Topologie im Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="758c3-116">On the Lync Server 2013 Front End server, open the existing topology in Topology Builder.</span></span>
+> [!IMPORTANT]  
+> <span data-ttu-id="5a115-114">Wenn Ihr XMPP-Verbund über einen lync Server 2013-Edgeserver weitergeleitet wird, können Legacy-lync Server 2010-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013 verschoben wurden, XMPP-Richtlinien und-Zertifikate wurden konfiguriert, wurde der XMPP-Verbundpartner auf lync Server 2013 konfiguriert, und zuletzt wurden die DNS-Einträge aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="5a115-114">If your XMPP federation is routed through a Lync Server 2013 Edge Server, legacy Lync Server 2010 users will not be able to communicate with the XMPP federated partner until all users have been moved to Lync Server 2013, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Lync Server 2013, and lastly the DNS entries have been updated.</span></span>
 
-2.  <span data-ttu-id="758c3-117">Navigieren Sie im linken Bereich zu dem Websiteknoten, der sich direkt unter **lync Server**befindet.</span><span class="sxs-lookup"><span data-stu-id="758c3-117">In the left pane, navigate to the site node, which is located directly below **Lync Server**.</span></span>
 
-3.  <span data-ttu-id="758c3-118">Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-118">Right-click the site and then click **Edit Properties**.</span></span>
-
-4.  <span data-ttu-id="758c3-119">Wählen Sie im linken Bereich **Föderations Route**aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-119">In the left pane, select **Federation route**.</span></span>
-
-5.  <span data-ttu-id="758c3-120">Deaktivieren Sie unter **Standort Verbund-Routen Zuweisung**das Kontrollkästchen **SIP-Verbund aktivieren** , um die Verbund Route über die Legacy-lync Server 2010-Umgebung zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="758c3-120">Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy Lync Server 2010 environment.</span></span>
-    
-    <span data-ttu-id="758c3-121">![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Verbund Route\"")</span><span class="sxs-lookup"><span data-stu-id="758c3-121">![Edit Properties dialog, Federation route page](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Edit Properties dialog, Federation route page")</span></span>
-
-6.  <span data-ttu-id="758c3-122">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-122">Click **OK** to close the Edit Properties page.</span></span>
-
-7.  <span data-ttu-id="758c3-123">Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-123">From **Topology Builder**, select the top node **Lync Server**.</span></span>
-
-8.  <span data-ttu-id="758c3-124">Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen**.</span><span class="sxs-lookup"><span data-stu-id="758c3-124">From the **Action** menu, click **Publish Topology**.</span></span>
-
-9.  <span data-ttu-id="758c3-125">Klicken Sie auf **weiter** , um den Veröffentlichungsvorgang abzuschließen, und klicken Sie dann auf **Fertig stellen** , wenn der Veröffentlichungsvorgang abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="758c3-125">Click **Next** to complete the publishing process and then click **Finish** when the publishing process has completed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a><span data-ttu-id="758c3-126">So konfigurieren Sie den Legacy-Edgeserver als nicht-Föderations-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="758c3-126">To configure the legacy Edge Server as a non-federating Edge Server</span></span>
+## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a><span data-ttu-id="5a115-115">So entfernen Sie die Legacy Verbund Zuordnung von lync Server 2013-Websites</span><span class="sxs-lookup"><span data-stu-id="5a115-115">To remove the legacy federation association from Lync Server 2013 sites</span></span>
 
-1.  <span data-ttu-id="758c3-127">Navigieren Sie im linken Bereich zum Knoten **lync Server 2010** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="758c3-127">In the left pane, navigate to the **Lync Server 2010** node and then to the **Edge pools** node.</span></span>
+1.  <span data-ttu-id="5a115-116">Öffnen Sie auf dem lync Server 2013-Front-End-Server die vorhandene Topologie im Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="5a115-116">On the Lync Server 2013 Front End server, open the existing topology in Topology Builder.</span></span>
 
-2.  <span data-ttu-id="758c3-128">Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-128">Right-click the Edge server, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="5a115-117">Navigieren Sie im linken Bereich zu dem Websiteknoten, der sich direkt unter **lync Server**befindet.</span><span class="sxs-lookup"><span data-stu-id="5a115-117">In the left pane, navigate to the site node, which is located directly below **Lync Server**.</span></span>
 
-3.  <span data-ttu-id="758c3-129">Wählen Sie im linken Bereich die Option **Allgemein** aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-129">Select **General** in the left pane.</span></span>
+3.  <span data-ttu-id="5a115-118">Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-118">Right-click the site and then click **Edit Properties**.</span></span>
 
-4.  <span data-ttu-id="758c3-130">Deaktivieren Sie das Kontrollkästchen Eintrag **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , und wählen Sie **OK** aus, um die Seite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-130">Clear the **Enable federation for this Edge pool (port 5061)** check box entry and select **OK** to close the page.</span></span>
+4.  <span data-ttu-id="5a115-119">Wählen Sie im linken Bereich **Föderations Route**aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-119">In the left pane, select **Federation route**.</span></span>
+
+5.  <span data-ttu-id="5a115-120">Deaktivieren Sie unter **Standort Verbund-Routen Zuweisung**das Kontrollkästchen **SIP-Verbund aktivieren** , um die Verbund Route über die Legacy-lync Server 2010-Umgebung zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="5a115-120">Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy Lync Server 2010 environment.</span></span>
     
-    <span data-ttu-id="758c3-131">![Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren")</span><span class="sxs-lookup"><span data-stu-id="758c3-131">![Edit Properties, General, clear Enable federation](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Edit Properties, General, clear Enable federation")</span></span>
+    <span data-ttu-id="5a115-121">![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"")</span><span class="sxs-lookup"><span data-stu-id="5a115-121">![Edit Properties dialog, Federation route page](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Edit Properties dialog, Federation route page")</span></span>
 
-5.  <span data-ttu-id="758c3-132">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="758c3-132">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
+6.  <span data-ttu-id="5a115-122">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-122">Click **OK** to close the Edit Properties page.</span></span>
 
-6.  <span data-ttu-id="758c3-133">Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-133">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+7.  <span data-ttu-id="5a115-123">Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-123">From **Topology Builder**, select the top node **Lync Server**.</span></span>
 
-7.  <span data-ttu-id="758c3-134">Überprüfen Sie, ob der Verbund für den Legacy-Edgeserver deaktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="758c3-134">Verify federation for the legacy Edge server is disabled.</span></span>
-    
-    <span data-ttu-id="758c3-135">![Topologie-Generator, Edge-Pool, Verbund deaktiviert] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund deaktiviert")</span><span class="sxs-lookup"><span data-stu-id="758c3-135">![Topology Builder, Edge pool, federation disabled](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topology Builder, Edge pool, federation disabled")</span></span>
+8.  <span data-ttu-id="5a115-124">Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen**.</span><span class="sxs-lookup"><span data-stu-id="5a115-124">From the **Action** menu, click **Publish Topology**.</span></span>
+
+9.  <span data-ttu-id="5a115-125">Klicken Sie auf **weiter** , um den Veröffentlichungsvorgang abzuschließen, und klicken Sie dann auf **Fertig stellen** , wenn der Veröffentlichungsvorgang abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="5a115-125">Click **Next** to complete the publishing process and then click **Finish** when the publishing process has completed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-configure-certificates-on-the-lync-server-2010-edge-server"></a><span data-ttu-id="758c3-136">So konfigurieren Sie Zertifikate auf dem lync Server 2010-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="758c3-136">To configure certificates on the Lync Server 2010 Edge Server</span></span>
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a><span data-ttu-id="5a115-126">So konfigurieren Sie den Legacy-Edgeserver als nicht-Föderations-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="5a115-126">To configure the legacy Edge Server as a non-federating Edge Server</span></span>
 
-1.  <span data-ttu-id="758c3-137">Exportieren Sie das Proxy Zertifikat für den externen Zugriff mit dem privaten Schlüssel vom Legacy lync Server 2010-Edgeserver.</span><span class="sxs-lookup"><span data-stu-id="758c3-137">Export the external Access Proxy certificate, with the private key, from the legacy Lync Server 2010 Edge Server.</span></span>
+1.  <span data-ttu-id="5a115-127">Navigieren Sie im linken Bereich zum Knoten **lync Server 2010** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="5a115-127">In the left pane, navigate to the **Lync Server 2010** node and then to the **Edge pools** node.</span></span>
 
-2.  <span data-ttu-id="758c3-138">Importieren Sie auf dem lync Server 2013-Edgeserver das externe Zugriffs Proxy Zertifikat aus dem vorherigen Schritt.</span><span class="sxs-lookup"><span data-stu-id="758c3-138">On the Lync Server 2013 Edge Server, import the Access Proxy external certificate from the previous step.</span></span>
+2.  <span data-ttu-id="5a115-128">Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-128">Right-click the Edge server, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="758c3-139">Weisen Sie das externe Zertifikat des Zugriffsproxys zur externen lync Server 2013-Schnittstelle des Edgeserver zu.</span><span class="sxs-lookup"><span data-stu-id="758c3-139">Assign the Access Proxy external certificate to the Lync Server 2013 external interface of the Edge Server.</span></span>
+3.  <span data-ttu-id="5a115-129">Wählen Sie im linken Bereich die Option **Allgemein** aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-129">Select **General** in the left pane.</span></span>
 
-4.  <span data-ttu-id="758c3-140">Das interne Schnittstellen Zertifikat des lync Server 2013-Edge-Servers sollte von einer vertrauenswürdigen Zertifizierungsstelle angefordert und zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="758c3-140">The internal interface certificate of the Lync Server 2013 Edge Server should be requested from a trusted CA and assigned.</span></span>
+4.  <span data-ttu-id="5a115-130">Deaktivieren Sie das Kontrollkästchen Eintrag **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , und wählen Sie **OK** aus, um die Seite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-130">Clear the **Enable federation for this Edge pool (port 5061)** check box entry and select **OK** to close the page.</span></span>
+    
+    <span data-ttu-id="5a115-131">![Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Eigenschaften bearbeiten, allgemein, deaktivieren Föderation aktivieren")</span><span class="sxs-lookup"><span data-stu-id="5a115-131">![Edit Properties, General, clear Enable federation](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Edit Properties, General, clear Enable federation")</span></span>
+
+5.  <span data-ttu-id="5a115-132">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="5a115-132">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
+
+6.  <span data-ttu-id="5a115-133">Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-133">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+
+7.  <span data-ttu-id="5a115-134">Überprüfen Sie, ob der Verbund für den Legacy-Edgeserver deaktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="5a115-134">Verify federation for the legacy Edge server is disabled.</span></span>
+    
+    <span data-ttu-id="5a115-135">![Topologie-Generator, Edge-Pool, Verbund deaktiviert](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund deaktiviert")</span><span class="sxs-lookup"><span data-stu-id="5a115-135">![Topology Builder, Edge pool, federation disabled](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Topology Builder, Edge pool, federation disabled")</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a><span data-ttu-id="758c3-141">So ändern Sie die lync Server 2010-Verbund Route zur Verwendung des lync Server 2013 Edge-Servers</span><span class="sxs-lookup"><span data-stu-id="758c3-141">To change Lync Server 2010 federation route to use Lync Server 2013 Edge Server</span></span>
+## <a name="to-configure-certificates-on-the-lync-server-2010-edge-server"></a><span data-ttu-id="5a115-136">So konfigurieren Sie Zertifikate auf dem lync Server 2010-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="5a115-136">To configure certificates on the Lync Server 2010 Edge Server</span></span>
 
-1.  <span data-ttu-id="758c3-142">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="758c3-142">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
+1.  <span data-ttu-id="5a115-137">Exportieren Sie das Proxy Zertifikat für den externen Zugriff mit dem privaten Schlüssel vom Legacy lync Server 2010-Edgeserver.</span><span class="sxs-lookup"><span data-stu-id="5a115-137">Export the external Access Proxy certificate, with the private key, from the legacy Lync Server 2010 Edge Server.</span></span>
 
-2.  <span data-ttu-id="758c3-143">Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-143">Right-click the Edge server, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="5a115-138">Importieren Sie auf dem lync Server 2013-Edgeserver das externe Zugriffs Proxy Zertifikat aus dem vorherigen Schritt.</span><span class="sxs-lookup"><span data-stu-id="5a115-138">On the Lync Server 2013 Edge Server, import the Access Proxy external certificate from the previous step.</span></span>
 
-3.  <span data-ttu-id="758c3-144">Wählen Sie im linken Bereich die Option **Allgemein** aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-144">Select **General** in the left pane.</span></span>
+3.  <span data-ttu-id="5a115-139">Weisen Sie das externe Zertifikat des Zugriffsproxys zur externen lync Server 2013-Schnittstelle des Edgeserver zu.</span><span class="sxs-lookup"><span data-stu-id="5a115-139">Assign the Access Proxy external certificate to the Lync Server 2013 external interface of the Edge Server.</span></span>
 
-4.  <span data-ttu-id="758c3-145">Aktivieren Sie den Kontrollkästchen Eintrag für **enable Federation for this Edge Pool (Port 5061)** , und klicken Sie dann auf **OK** , um die Seite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-145">Select the check box entry for **Enable federation for this Edge pool (port 5061)** and then click **OK** to close the page.</span></span>
-    
-    <span data-ttu-id="758c3-146">![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")</span><span class="sxs-lookup"><span data-stu-id="758c3-146">![Edit Properties dialog, General page](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Edit Properties dialog, General page")</span></span>
-
-5.  <span data-ttu-id="758c3-147">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="758c3-147">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
-
-6.  <span data-ttu-id="758c3-148">Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-148">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
-
-7.  <span data-ttu-id="758c3-149">Überprüfen Sie, ob der **Verbund (Port 5061)** auf **aktiviert**festgesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="758c3-149">Verify **Federation (port 5061)** is set to **Enabled**.</span></span>
-    
-    <span data-ttu-id="758c3-150">![Topologie-Generator, Edge-Pool, Verbund aktiviert] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund aktiviert")</span><span class="sxs-lookup"><span data-stu-id="758c3-150">![Topology Builder, Edge pool, Federation enabled](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topology Builder, Edge pool, Federation enabled")</span></span>
+4.  <span data-ttu-id="5a115-140">Das interne Schnittstellen Zertifikat des lync Server 2013-Edge-Servers sollte von einer vertrauenswürdigen Zertifizierungsstelle angefordert und zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="5a115-140">The internal interface certificate of the Lync Server 2013 Edge Server should be requested from a trusted CA and assigned.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a><span data-ttu-id="758c3-151">So aktualisieren Sie den nächsten Hop von lync Server 2013 Edge Server Federation</span><span class="sxs-lookup"><span data-stu-id="758c3-151">To update Lync Server 2013 Edge Server federation next hop</span></span>
+## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a><span data-ttu-id="5a115-141">So ändern Sie die lync Server 2010-Verbund Route zur Verwendung des lync Server 2013 Edge-Servers</span><span class="sxs-lookup"><span data-stu-id="5a115-141">To change Lync Server 2010 federation route to use Lync Server 2013 Edge Server</span></span>
 
-1.  <span data-ttu-id="758c3-152">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="758c3-152">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
+1.  <span data-ttu-id="5a115-142">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="5a115-142">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
 
-2.  <span data-ttu-id="758c3-153">Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-153">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="5a115-143">Klicken Sie mit der rechten Maustaste auf den Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-143">Right-click the Edge server, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="758c3-154">Wählen Sie auf der Seite **Allgemein** unter Auswahl für den **nächsten Hop**in der Dropdownliste den lync Server 2013-Pool aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-154">On the **General** page, under **Next hop selection**, select from the drop-down list the Lync Server 2013  pool.</span></span>
+3.  <span data-ttu-id="5a115-144">Wählen Sie im linken Bereich die Option **Allgemein** aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-144">Select **General** in the left pane.</span></span>
+
+4.  <span data-ttu-id="5a115-145">Aktivieren Sie den Kontrollkästchen Eintrag für **enable Federation for this Edge Pool (Port 5061)** , und klicken Sie dann auf **OK** , um die Seite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-145">Select the check box entry for **Enable federation for this Edge pool (port 5061)** and then click **OK** to close the page.</span></span>
     
-    <span data-ttu-id="758c3-155">![Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '")</span><span class="sxs-lookup"><span data-stu-id="758c3-155">![Edit Properties dialog, Next hop page](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Edit Properties dialog, Next hop page")</span></span>
+    <span data-ttu-id="5a115-146">![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"")</span><span class="sxs-lookup"><span data-stu-id="5a115-146">![Edit Properties dialog, General page](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Edit Properties dialog, General page")</span></span>
 
-4.  <span data-ttu-id="758c3-156">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-156">Click **OK** to close the Edit Properties page.</span></span>
+5.  <span data-ttu-id="5a115-147">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="5a115-147">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
 
-5.  <span data-ttu-id="758c3-157">Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-157">From **Topology Builder**, select the top node **Lync Server** .</span></span>
+6.  <span data-ttu-id="5a115-148">Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-148">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
 
-6.  <span data-ttu-id="758c3-158">Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.</span><span class="sxs-lookup"><span data-stu-id="758c3-158">From the **Action** menu, click **Publish Topology** and complete the wizard.</span></span>
+7.  <span data-ttu-id="5a115-149">Überprüfen Sie, ob der **Verbund (Port 5061)** auf **aktiviert**festgesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="5a115-149">Verify **Federation (port 5061)** is set to **Enabled**.</span></span>
+    
+    <span data-ttu-id="5a115-150">![Topologie-Generator, Edge-Pool, Verbund aktiviert](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topologie-Generator, Edge-Pool, Verbund aktiviert")</span><span class="sxs-lookup"><span data-stu-id="5a115-150">![Topology Builder, Edge pool, Federation enabled](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Topology Builder, Edge pool, Federation enabled")</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a><span data-ttu-id="758c3-159">So konfigurieren Sie den ausgehenden Medienpfad von lync Server 2013 Edge Server</span><span class="sxs-lookup"><span data-stu-id="758c3-159">To configure Lync Server 2013 Edge Server outbound media path</span></span>
+## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a><span data-ttu-id="5a115-151">So aktualisieren Sie den nächsten Hop von lync Server 2013 Edge Server Federation</span><span class="sxs-lookup"><span data-stu-id="5a115-151">To update Lync Server 2013 Edge Server federation next hop</span></span>
 
-1.  <span data-ttu-id="758c3-160">Navigieren Sie vom Topologie-Generator im linken Bereich zu dem **lync Server 2013** -Knoten, und klicken Sie dann auf den Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools**.</span><span class="sxs-lookup"><span data-stu-id="758c3-160">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the pool below **Standard Edition Front End Servers** or **Enterprise Edition Front End pools**.</span></span>
+1.  <span data-ttu-id="5a115-152">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="5a115-152">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
 
-2.  <span data-ttu-id="758c3-161">Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-161">Right-click the pool, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="5a115-153">Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-153">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="758c3-162">Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten)** .</span><span class="sxs-lookup"><span data-stu-id="758c3-162">In the **Associations** section, select the **Associate Edge pool (for media components)** check box.</span></span>
+3.  <span data-ttu-id="5a115-154">Wählen Sie auf der Seite **Allgemein** unter Auswahl für den **nächsten Hop**in der Dropdownliste den lync Server 2013-Pool aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-154">On the **General** page, under **Next hop selection**, select from the drop-down list the Lync Server 2013  pool.</span></span>
     
-    <span data-ttu-id="758c3-163">![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")</span><span class="sxs-lookup"><span data-stu-id="758c3-163">![Edit Properties, General, Associate Edge pool](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Edit Properties, General, Associate Edge pool")</span></span>
+    <span data-ttu-id="5a115-155">![Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Dialogfeld ' Eigenschaften bearbeiten ', Seite ' nächster Hop '")</span><span class="sxs-lookup"><span data-stu-id="5a115-155">![Edit Properties dialog, Next hop page](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Edit Properties dialog, Next hop page")</span></span>
 
-4.  <span data-ttu-id="758c3-164">Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-164">From the drop down box, select the Lync Server 2013 Edge Server.</span></span>
+4.  <span data-ttu-id="5a115-156">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-156">Click **OK** to close the Edit Properties page.</span></span>
 
-5.  <span data-ttu-id="758c3-165">Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-165">Click **OK** to close the **Edit Properties** page.</span></span>
+5.  <span data-ttu-id="5a115-157">Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-157">From **Topology Builder**, select the top node **Lync Server** .</span></span>
+
+6.  <span data-ttu-id="5a115-158">Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen** , und schließen Sie den Assistenten ab.</span><span class="sxs-lookup"><span data-stu-id="5a115-158">From the **Action** menu, click **Publish Topology** and complete the wizard.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a><span data-ttu-id="758c3-166">So aktivieren Sie den lync Server 2013-Edgeserver-Verbund</span><span class="sxs-lookup"><span data-stu-id="758c3-166">To turn on Lync Server 2013 Edge Server federation</span></span>
+## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a><span data-ttu-id="5a115-159">So konfigurieren Sie den ausgehenden Medienpfad von lync Server 2013 Edge Server</span><span class="sxs-lookup"><span data-stu-id="5a115-159">To configure Lync Server 2013 Edge Server outbound media path</span></span>
 
-1.  <span data-ttu-id="758c3-167">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="758c3-167">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
+1.  <span data-ttu-id="5a115-160">Navigieren Sie vom Topologie-Generator im linken Bereich zu dem **lync Server 2013** -Knoten, und klicken Sie dann auf den Pool unter **Standard Edition-Front-End-Server** oder **Enterprise Edition-Front-End-Pools**.</span><span class="sxs-lookup"><span data-stu-id="5a115-160">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the pool below **Standard Edition Front End Servers** or **Enterprise Edition Front End pools**.</span></span>
 
-2.  <span data-ttu-id="758c3-168">Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-168">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="5a115-161">Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-161">Right-click the pool, and then click **Edit Properties**.</span></span>
+
+3.  <span data-ttu-id="5a115-162">Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten)** .</span><span class="sxs-lookup"><span data-stu-id="5a115-162">In the **Associations** section, select the **Associate Edge pool (for media components)** check box.</span></span>
+    
+    <span data-ttu-id="5a115-163">![Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Bearbeiten von Eigenschaften, allgemein, Verknüpfen des Edge-Pools")</span><span class="sxs-lookup"><span data-stu-id="5a115-163">![Edit Properties, General, Associate Edge pool](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Edit Properties, General, Associate Edge pool")</span></span>
+
+4.  <span data-ttu-id="5a115-164">Wählen Sie im Dropdownfeld den lync Server 2013-Edgeserver aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-164">From the drop down box, select the Lync Server 2013 Edge Server.</span></span>
+
+5.  <span data-ttu-id="5a115-165">Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-165">Click **OK** to close the **Edit Properties** page.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a><span data-ttu-id="5a115-166">So aktivieren Sie den lync Server 2013-Edgeserver-Verbund</span><span class="sxs-lookup"><span data-stu-id="5a115-166">To turn on Lync Server 2013 Edge Server federation</span></span>
+
+1.  <span data-ttu-id="5a115-167">Navigieren Sie vom Topologie-Generator im linken Bereich zum Knoten **lync Server 2013** und dann zum Knoten Edge- **Pools** .</span><span class="sxs-lookup"><span data-stu-id="5a115-167">From Topology Builder, in the left pane, navigate to the **Lync Server 2013** node and then to the **Edge pools** node.</span></span>
+
+2.  <span data-ttu-id="5a115-168">Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-168">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="758c3-169">Der Verbund kann nur für einen einzelnen Edge-Pool aktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="758c3-169">Federation can only be enabled for a single Edge pool.</span></span> <span data-ttu-id="758c3-170">Wenn Sie über mehrere Edge-Pools verfügen, wählen Sie eine aus, die Sie als Föderations-Edge-Pool verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="758c3-170">If you have multiple Edge pools, select one to use as the federating Edge pool.</span></span>
+    > <span data-ttu-id="5a115-169">Der Verbund kann nur für einen einzelnen Edge-Pool aktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="5a115-169">Federation can only be enabled for a single Edge pool.</span></span> <span data-ttu-id="5a115-170">Wenn Sie über mehrere Edge-Pools verfügen, wählen Sie eine aus, die Sie als Föderations-Edge-Pool verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="5a115-170">If you have multiple Edge pools, select one to use as the federating Edge pool.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="758c3-171">Überprüfen Sie auf der Seite **Allgemein** , ob die Einstellung **Föderation für diesen Edge-Pool aktivieren (Port 5061)** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="758c3-171">On the **General** page, verify the **Enable federation for this Edge pool (Port 5061)** setting is checked.</span></span>
+3.  <span data-ttu-id="5a115-171">Überprüfen Sie auf der Seite **Allgemein** , ob die Einstellung **Föderation für diesen Edge-Pool aktivieren (Port 5061)** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="5a115-171">On the **General** page, verify the **Enable federation for this Edge pool (Port 5061)** setting is checked.</span></span>
     
-    <span data-ttu-id="758c3-172">![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld \"Eigenschaften bearbeiten\", Seite \"Allgemein\"")</span><span class="sxs-lookup"><span data-stu-id="758c3-172">![Edit Properties dialog, General page](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Edit Properties dialog, General page")</span></span>
+    <span data-ttu-id="5a115-172">![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"")</span><span class="sxs-lookup"><span data-stu-id="5a115-172">![Edit Properties dialog, General page](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Edit Properties dialog, General page")</span></span>
 
-4.  <span data-ttu-id="758c3-173">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-173">Click **OK** to close the Edit Properties page.</span></span>
+4.  <span data-ttu-id="5a115-173">Klicken Sie auf **OK** , um die Seite Eigenschaften bearbeiten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-173">Click **OK** to close the Edit Properties page.</span></span>
 
-5.  <span data-ttu-id="758c3-174">Navigieren Sie als nächstes zum Websiteknoten.</span><span class="sxs-lookup"><span data-stu-id="758c3-174">Next, navigate to the site node.</span></span>
+5.  <span data-ttu-id="5a115-174">Navigieren Sie als nächstes zum Websiteknoten.</span><span class="sxs-lookup"><span data-stu-id="5a115-174">Next, navigate to the site node.</span></span>
 
-6.  <span data-ttu-id="758c3-175">Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="758c3-175">Right-click the site, and then click **Edit Properties**.</span></span>
+6.  <span data-ttu-id="5a115-175">Klicken Sie mit der rechten Maustaste auf die Website, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5a115-175">Right-click the site, and then click **Edit Properties**.</span></span>
 
-7.  <span data-ttu-id="758c3-176">Klicken Sie im linken Bereich auf **Föderations Route**.</span><span class="sxs-lookup"><span data-stu-id="758c3-176">In the left pane, click **Federation route**.</span></span>
+7.  <span data-ttu-id="5a115-176">Klicken Sie im linken Bereich auf **Föderations Route**.</span><span class="sxs-lookup"><span data-stu-id="5a115-176">In the left pane, click **Federation route**.</span></span>
 
-8.  <span data-ttu-id="758c3-177">Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann in der Liste den Eintrag lync Server 2013 Edge Server aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-177">Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Lync Server 2013 Edge Server listed.</span></span>
+8.  <span data-ttu-id="5a115-177">Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann in der Liste den Eintrag lync Server 2013 Edge Server aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-177">Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Lync Server 2013 Edge Server listed.</span></span>
     
-    <span data-ttu-id="758c3-178">![Eigenschaften bearbeiten, Seite "Verbund Route"] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Seite \"Verbund Route\"")</span><span class="sxs-lookup"><span data-stu-id="758c3-178">![Edit Properties, Federation route page](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Edit Properties, Federation route page")</span></span>
+    <span data-ttu-id="5a115-178">![Eigenschaften bearbeiten, Seite "Verbund Route"](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Eigenschaften bearbeiten, Seite "Verbund Route"")</span><span class="sxs-lookup"><span data-stu-id="5a115-178">![Edit Properties, Federation route page](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Edit Properties, Federation route page")</span></span>
 
-9.  <span data-ttu-id="758c3-179">Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-179">Click **OK** to close the **Edit Properties** page.</span></span>
+9.  <span data-ttu-id="5a115-179">Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-179">Click **OK** to close the **Edit Properties** page.</span></span>
     
-    <span data-ttu-id="758c3-180">Führen Sie für die Bereitstellung mehrerer Websites dieses Verfahren an jedem Standort aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-180">For multi-site deployments, complete this procedure at each site.</span></span>
+    <span data-ttu-id="5a115-180">Führen Sie für die Bereitstellung mehrerer Websites dieses Verfahren an jedem Standort aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-180">For multi-site deployments, complete this procedure at each site.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-publish-edge-server-configuration-changes"></a><span data-ttu-id="758c3-181">So veröffentlichen Sie Änderungen an Edge-Server-Konfigurationen</span><span class="sxs-lookup"><span data-stu-id="758c3-181">To publish Edge Server configuration changes</span></span>
+## <a name="to-publish-edge-server-configuration-changes"></a><span data-ttu-id="5a115-181">So veröffentlichen Sie Änderungen an Edge-Server-Konfigurationen</span><span class="sxs-lookup"><span data-stu-id="5a115-181">To publish Edge Server configuration changes</span></span>
 
-1.  <span data-ttu-id="758c3-182">Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="758c3-182">From **Topology Builder**, select the top node **Lync Server** .</span></span>
+1.  <span data-ttu-id="5a115-182">Wählen Sie im **Topologie-Generator**den **lync-Server** mit dem obersten Knoten aus.</span><span class="sxs-lookup"><span data-stu-id="5a115-182">From **Topology Builder**, select the top node **Lync Server** .</span></span>
 
-2.  <span data-ttu-id="758c3-183">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.</span><span class="sxs-lookup"><span data-stu-id="758c3-183">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span>
+2.  <span data-ttu-id="5a115-183">Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.</span><span class="sxs-lookup"><span data-stu-id="5a115-183">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span>
 
-3.  <span data-ttu-id="758c3-184">Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung erfolgt.</span><span class="sxs-lookup"><span data-stu-id="758c3-184">Wait for Active Directory replication to occur to all pools in the deployment.</span></span>
+3.  <span data-ttu-id="5a115-184">Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung erfolgt.</span><span class="sxs-lookup"><span data-stu-id="5a115-184">Wait for Active Directory replication to occur to all pools in the deployment.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="758c3-185">Möglicherweise wird die folgende Meldung angezeigt:</span><span class="sxs-lookup"><span data-stu-id="758c3-185">You may see the following message:</span></span><BR><span data-ttu-id="758c3-186"><STRONG>Warnung: die Topologie enthält mehr als einen Federated-Edgeserver. Dies kann während der Migration zu einer neueren Version des Produkts auftreten. In diesem Fall würde nur ein Edgeserver für den Verbund aktiv verwendet. Überprüfen Sie, ob der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Verbund-Edgeserver bereitstellen möchten, um gleichzeitig aktiv zu sein (also kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner lync Server verwenden. Überprüfen Sie, ob der externe DNS-SRV-Eintrag alle Verbund fähigen Edgeserver auflistet.</STRONG></span><span class="sxs-lookup"><span data-stu-id="758c3-186"><STRONG>Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Lync Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.</STRONG></span></span><BR><span data-ttu-id="758c3-187">Diese Warnung wird erwartet und kann bedenkenlos ignoriert werden.</span><span class="sxs-lookup"><span data-stu-id="758c3-187">This warning is expected and can be safely ignored.</span></span>
+    > <span data-ttu-id="5a115-185">Möglicherweise wird die folgende Meldung angezeigt:</span><span class="sxs-lookup"><span data-stu-id="5a115-185">You may see the following message:</span></span><BR><span data-ttu-id="5a115-186"><STRONG>Warnung: die Topologie enthält mehr als einen Federated-Edgeserver. Dies kann während der Migration zu einer neueren Version des Produkts auftreten. In diesem Fall würde nur ein Edgeserver für den Verbund aktiv verwendet. Überprüfen Sie, ob der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Verbund-Edgeserver bereitstellen möchten, um gleichzeitig aktiv zu sein (also kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner lync Server verwenden. Überprüfen Sie, ob der externe DNS-SRV-Eintrag alle Verbund fähigen Edgeserver auflistet.</STRONG></span><span class="sxs-lookup"><span data-stu-id="5a115-186"><STRONG>Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Lync Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.</STRONG></span></span><BR><span data-ttu-id="5a115-187">Diese Warnung wird erwartet und kann bedenkenlos ignoriert werden.</span><span class="sxs-lookup"><span data-stu-id="5a115-187">This warning is expected and can be safely ignored.</span></span>
 
     
     </div>
@@ -257,32 +259,32 @@ ms.locfileid: "34839097"
 
 <div>
 
-## <a name="to-configure-lync-server-2013-edge-server"></a><span data-ttu-id="758c3-188">So konfigurieren Sie den lync Server 2013-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="758c3-188">To configure Lync Server 2013 Edge Server</span></span>
+## <a name="to-configure-lync-server-2013-edge-server"></a><span data-ttu-id="5a115-188">So konfigurieren Sie den lync Server 2013-Edgeserver</span><span class="sxs-lookup"><span data-stu-id="5a115-188">To configure Lync Server 2013 Edge Server</span></span>
 
-1.  <span data-ttu-id="758c3-189">Bringen Sie alle lync Server 2013-Edgeserver online.</span><span class="sxs-lookup"><span data-stu-id="758c3-189">Bring all of the Lync Server 2013 Edge Servers online.</span></span>
+1.  <span data-ttu-id="5a115-189">Bringen Sie alle lync Server 2013-Edgeserver online.</span><span class="sxs-lookup"><span data-stu-id="5a115-189">Bring all of the Lync Server 2013 Edge Servers online.</span></span>
 
-2.  <span data-ttu-id="758c3-190">Aktualisieren Sie die Routingregeln für externe Firewalls oder die Einstellungen für das Hardwarelastenausgleich, um SIP-Datenverkehr für externen Zugriff (normalerweise Port 443) und Föderation (in der Regel Port 5061) an den lync Server 2013-Edgeserver anstelle des Legacy-Edgeserver zu senden.</span><span class="sxs-lookup"><span data-stu-id="758c3-190">Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Lync Server 2013 Edge Server, instead of the legacy Edge Server.</span></span>
+2.  <span data-ttu-id="5a115-190">Aktualisieren Sie die Routingregeln für externe Firewalls oder die Einstellungen für das Hardwarelastenausgleich, um SIP-Datenverkehr für externen Zugriff (normalerweise Port 443) und Föderation (in der Regel Port 5061) an den lync Server 2013-Edgeserver anstelle des Legacy-Edgeserver zu senden.</span><span class="sxs-lookup"><span data-stu-id="5a115-190">Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Lync Server 2013 Edge Server, instead of the legacy Edge Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="758c3-191">Wenn Sie nicht über ein Hardware-Lastenausgleichsmodul verfügen, müssen Sie den DNS-a-Eintrag für die Föderation aktualisieren, damit er auf den neuen lync Server Access-Edgeserver aufgelöst werden kann.</span><span class="sxs-lookup"><span data-stu-id="758c3-191">If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server.</span></span> <span data-ttu-id="758c3-192">Um dies bei minimaler Unterbrechung zu erreichen, verringern Sie den TLL-Wert für den externen lync Server Access-Edge-FQDN, sodass beim Aktualisieren von DNS auf den neuen lync Server Access-Edge die Föderation und der Remotezugriff schnell aktualisiert werden.</span><span class="sxs-lookup"><span data-stu-id="758c3-192">To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.</span></span>
+    > <span data-ttu-id="5a115-191">Wenn Sie nicht über ein Hardware-Lastenausgleichsmodul verfügen, müssen Sie den DNS-a-Eintrag für die Föderation aktualisieren, damit er auf den neuen lync Server Access-Edgeserver aufgelöst werden kann.</span><span class="sxs-lookup"><span data-stu-id="5a115-191">If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server.</span></span> <span data-ttu-id="5a115-192">Um dies bei minimaler Unterbrechung zu erreichen, verringern Sie den TLL-Wert für den externen lync Server Access-Edge-FQDN, sodass beim Aktualisieren von DNS auf den neuen lync Server Access-Edge die Föderation und der Remotezugriff schnell aktualisiert werden.</span><span class="sxs-lookup"><span data-stu-id="5a115-192">To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="758c3-193">Beenden Sie als nächstes den **lync Server Access-Edge** von jedem Edgeserver-Computer.</span><span class="sxs-lookup"><span data-stu-id="758c3-193">Next, stop the **Lync Server Access Edge** from each Edge Server computer.</span></span>
+3.  <span data-ttu-id="5a115-193">Beenden Sie als nächstes den **lync Server Access-Edge** von jedem Edgeserver-Computer.</span><span class="sxs-lookup"><span data-stu-id="5a115-193">Next, stop the **Lync Server Access Edge** from each Edge Server computer.</span></span>
 
-4.  <span data-ttu-id="758c3-194">Öffnen Sie auf jedem Legacy-Edgeserver-Computer das Applet **Dienste** in den **Verwaltungs Tools**.</span><span class="sxs-lookup"><span data-stu-id="758c3-194">From each legacy Edge Server computer, open the **Services** applet from the **Administrative Tools**.</span></span>
+4.  <span data-ttu-id="5a115-194">Öffnen Sie auf jedem Legacy-Edgeserver-Computer das Applet **Dienste** in den **Verwaltungs Tools**.</span><span class="sxs-lookup"><span data-stu-id="5a115-194">From each legacy Edge Server computer, open the **Services** applet from the **Administrative Tools**.</span></span>
 
-5.  <span data-ttu-id="758c3-195">Suchen Sie in der Liste Dienste nach **lync Server Access Edge**.</span><span class="sxs-lookup"><span data-stu-id="758c3-195">In the services list, find **Lync Server Access Edge**.</span></span>
+5.  <span data-ttu-id="5a115-195">Suchen Sie in der Liste Dienste nach **lync Server Access Edge**.</span><span class="sxs-lookup"><span data-stu-id="5a115-195">In the services list, find **Lync Server Access Edge**.</span></span>
 
-6.  <span data-ttu-id="758c3-196">Klicken Sie mit der rechten Maustaste auf den Namen der Dienste, und wählen Sie dann **Beenden** aus, um den Dienst zu beenden.</span><span class="sxs-lookup"><span data-stu-id="758c3-196">Right-click the services name, and then select **Stop** to stop the service.</span></span>
+6.  <span data-ttu-id="5a115-196">Klicken Sie mit der rechten Maustaste auf den Namen der Dienste, und wählen Sie dann **Beenden** aus, um den Dienst zu beenden.</span><span class="sxs-lookup"><span data-stu-id="5a115-196">Right-click the services name, and then select **Stop** to stop the service.</span></span>
 
-7.  <span data-ttu-id="758c3-197">Setzen Sie den Starttyp auf **disabled**.</span><span class="sxs-lookup"><span data-stu-id="758c3-197">Set the Startup type to **Disabled**.</span></span>
+7.  <span data-ttu-id="5a115-197">Setzen Sie den Starttyp auf **disabled**.</span><span class="sxs-lookup"><span data-stu-id="5a115-197">Set the Startup type to **Disabled**.</span></span>
 
-8.  <span data-ttu-id="758c3-198">Klicken Sie auf **OK** , um das **Eigenschaften** Fenster zu schließen.</span><span class="sxs-lookup"><span data-stu-id="758c3-198">Click **OK** to close the **Properties** window.</span></span>
+8.  <span data-ttu-id="5a115-198">Klicken Sie auf **OK** , um das **Eigenschaften** Fenster zu schließen.</span><span class="sxs-lookup"><span data-stu-id="5a115-198">Click **OK** to close the **Properties** window.</span></span>
 
 </div>
 
