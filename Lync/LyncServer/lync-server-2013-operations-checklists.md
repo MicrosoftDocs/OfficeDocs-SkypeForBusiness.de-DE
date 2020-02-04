@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vorgangs Prüflisten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations checklists
 ms:assetid: 263cf20b-bf2f-4a47-951c-6c5fbd0a9445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn745896(v=OCS.15)
@@ -10,37 +12,37 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b260ff9cad36a0657d5f27ff7f3c36e396e02cf
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755799"
 ---
-# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="81f0f-102">Vorgangs Checklisten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81f0f-102">Operations checklists for Lync Server 2013</span></span> 
+# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="c5eed-102">Vorgangs Checklisten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5eed-102">Operations checklists for Lync Server 2013</span></span> 
 
 
-<span data-ttu-id="81f0f-103">_**Letztes Änderungsdatum des Themas:** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="81f0f-103">_**Topic Last Modified:** 2019-06-03_</span></span>
+<span data-ttu-id="c5eed-103">_**Letztes Änderungsdatum des Themas:** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="c5eed-103">_**Topic Last Modified:** 2019-06-03_</span></span>
 
-<span data-ttu-id="81f0f-104">Die hier erwähnten Checklisten dienen zur internen Datensatzspeicherung und können, falls erforderlich, entsprechend den Anforderungen Ihrer Organisation geändert werden.</span><span class="sxs-lookup"><span data-stu-id="81f0f-104">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
-
-<br>
-
-## <a name="daily-task-checklist"></a><span data-ttu-id="81f0f-105">Tägliche Aufgabenprüfliste</span><span class="sxs-lookup"><span data-stu-id="81f0f-105">Daily task checklist</span></span>
-
-<span data-ttu-id="81f0f-106">Die Checkliste für tägliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="81f0f-106">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+<span data-ttu-id="c5eed-104">Die hier erwähnten Checklisten dienen zur internen Datensatzspeicherung und können, falls erforderlich, entsprechend den Anforderungen Ihrer Organisation geändert werden.</span><span class="sxs-lookup"><span data-stu-id="c5eed-104">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
 
 <br>
 
-## <a name="weekly-task-checklist"></a><span data-ttu-id="81f0f-107">Checkliste für wöchentliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="81f0f-107">Weekly task checklist</span></span>
+## <a name="daily-task-checklist"></a><span data-ttu-id="c5eed-105">Tägliche Aufgabenprüfliste</span><span class="sxs-lookup"><span data-stu-id="c5eed-105">Daily task checklist</span></span>
 
-<span data-ttu-id="81f0f-108">Die Checkliste für wöchentliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="81f0f-108">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
+<span data-ttu-id="c5eed-106">Die Checkliste für tägliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="c5eed-106">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+
+<br>
+
+## <a name="weekly-task-checklist"></a><span data-ttu-id="c5eed-107">Checkliste für wöchentliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="c5eed-107">Weekly task checklist</span></span>
+
+<span data-ttu-id="c5eed-108">Die Checkliste für wöchentliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="c5eed-108">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
 
 
 <br>
 
-## <a name="monthly-task-checklist"></a><span data-ttu-id="81f0f-109">Checkliste für monatliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="81f0f-109">Monthly task checklist</span></span>
+## <a name="monthly-task-checklist"></a><span data-ttu-id="c5eed-109">Checkliste für monatliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="c5eed-109">Monthly task checklist</span></span>
 
 
-<span data-ttu-id="81f0f-110">Die Checkliste für monatliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="81f0f-110">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
+<span data-ttu-id="c5eed-110">Die Checkliste für monatliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="c5eed-110">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
 
