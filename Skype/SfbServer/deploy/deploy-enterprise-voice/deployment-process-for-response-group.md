@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Bereitstellungsprozess und Schritte für die Reaktionsgruppe in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 810bf635794f58ad8f28295549023a3ef2450f69
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001185"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767528"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Bereitstellungsprozess für die Reaktionsgruppe in Skype for Business
 

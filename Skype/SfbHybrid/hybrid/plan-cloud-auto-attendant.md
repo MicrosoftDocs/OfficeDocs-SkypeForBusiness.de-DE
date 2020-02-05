@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724225"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
@@ -41,7 +43,7 @@ Siehe auch:
 - [Einrichten einer automatischen Cloud-Telefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
 Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for Business Server 2019 in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
 
@@ -91,7 +93,7 @@ Ausführliche Informationen zu diesen Schritten finden Sie unter [Verschieben ei
 
 ## <a name="additional-planning-resources"></a>Zusätzliche Planungsressourcen
 
-Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) durchläuft den Prozess der Erfassung von Informationen zu Benutzeranforderungen, der Planung einer Struktur von automatischen Telefonzentralen und Benutzern (und möglicherweise auch von Anrufwarteschlangen), dem Schreiben der Menüansagen und Implementieren des Plans im Teamadministrator Center. Lesen Sie das Lernprogramm, und verwenden Sie die Übungseinheiten, um Ihren Plan zu erstellen.
+Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) durchläuft den Prozess der Erfassung von Informationen zu Benutzeranforderungen, der Planung einer Struktur von automatischen Telefonzentralen und Benutzern (und möglicherweise der Anrufwarteschlange), dem Schreiben der Menüansagen und dem Implementieren des Plans im Teamadministrator Center. Lesen Sie das Lernprogramm, und verwenden Sie die Übungseinheiten, um Ihren Plan zu erstellen.
 
 Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient leitet, fahren Sie mit [Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)fort.
 
@@ -112,8 +114,8 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 Exchange um: [eingehende Anrufe automatisch beantworten und weiterleiten](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Planen der Hybriden Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md)
+[Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md)
 
-[Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md)
+[Konfigurieren der Hybridverbindung zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: Anrufe beim Teilnehmerzugriff oder bei der automatischen Telefonzentrale schlagen fehl, wenn der Fehler "schnell beschäftigt" und "500 Server intern" nach dem Verschieben von Kontaktobjekten auf Skype for Business Server 2019 aufgetreten ist.](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

@@ -5,17 +5,19 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: 0071154ab1b9c1211725dd9b6addc2dfd5449e15
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "36160595"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765696"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -23,7 +25,7 @@ ms.locfileid: "36160595"
 
 In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts für Ihre lokalen Benutzer beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter [configure Cloud Voicemail Service](configure-cloud-voicemail.md).
 
-Cloud Voicemail übernimmt die Funktion von Exchange Unified Messaging (um) bei der Bereitstellung von VoIP-Funktionen für Skype for Business 2019-VoIP-Benutzer mit Postfächern auf Exchange Server 2019 oder Exchange Online. Cloud Voicemail bietet die folgenden Vorteile sowohl für lokale als auch für Online Benutzer:
+Cloud-Voicemail übernimmt Exchange Unified Messaging (um) bei der Bereitstellung von VoIP-Funktionen für Skype for Business 2019-VoIP-Benutzer mit Postfächern in Exchange Server 2019 oder Exchange Online. Cloud Voicemail bietet die folgenden Vorteile sowohl für lokale als auch für Online Benutzer:
 
 - Voicemail-Anrufbeantworter-und-Einzahlungs Funktionen mit erweiterter Sprachtranskription
 
@@ -57,7 +59,7 @@ Nicht beantwortete Anrufe werden wie folgt behandelt:
 3. Der Dienst legt dann die Voicemail im Exchange-Postfach des Benutzers ab, unabhängig davon, ob das Postfach lokal oder Online ist.  
 4. Benutzer können über Ihre Skype for Business oder den Outlook-Client auf Ihre Voicemail zugreifen.
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
 Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
 
@@ -75,7 +77,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
 
 - Lokale Benutzer müssen für Enterprise-VoIP und für gehostete Voicemail in Skype for Business Server aktiviert sein.
 
-- Eine EWS-URL (External Exchange Webdienste) und die AutoErmittlung müssen eingerichtet sein, oder einige Cloud-Voicemail-Funktionen sind limitiert.
+- Eine externe Exchange-Webdienste-URL und AutoErmittlung muss eingerichtet sein, oder einige Cloud Voicemail-Funktionen sind limitiert.
 
 - Wenn Sie nur über eine lokale Bereitstellung verfügen&#x2014;nur Exchange-und Skype for Business-lokale Server&#x2014;aber Cloud-Voicemail nutzen möchten, benötigen Sie keine zusätzlichen Lizenzen.
 

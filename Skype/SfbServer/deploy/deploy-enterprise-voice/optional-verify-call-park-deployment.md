@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Überprüfen Ihrer Bereitstellung des Anruf Parks in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: d698bf46f0a36a86729856c388fde09514288253
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7dfaf916e94db18c3b53fc7e9c9e3b136fa445b8
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240436"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767338"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Optional Überprüfen der Bereitstellung des Anruf Parks in Skype for Business
  

@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,22 +17,22 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Planungsüberlegungen für die Implementierung einer hybriden Konnektivität zwischen Skype for Business Server und Skype for Business Online oder Teams.
-ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715828"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756009"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planen der Hybriden Konnektivität zwischen Skype for Business Server und Office 365
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365
 
 ## <a name="overview"></a>Übersicht
 
-In diesem Thema erfahren Sie, wie Sie die hybride Konnektivität zwischen Skype for Business Server und Microsoft Teams oder Skype for Business Online planen. Das Einrichten der Hybrid Konnektivität ist der erste Schritt beim Verschieben Ihrer lokalen Umgebung in die Cloud.
+In diesem Thema erfahren Sie, wie Sie die hybride Konnektivität zwischen Skype for Business Server und Microsoft Teams oder Skype for Business Online planen. Das Einrichten von Hybridverbindungen ist der erste Schritt beim Migrieren Ihrer lokalen Umgebung zur Cloud.
 
-Wenn Sie lokale Skype for Business Benutzer haben, die auch Teams (nebeneinander) verwenden, haben diese Benutzer nicht die Möglichkeit, mit Skype for Business Benutzern Ihres Teams-Clients zusammenzuarbeiten oder mit Benutzern in Verbundorganisationen zu kommunizieren, von deren Microsoft Teams-Client. Um diese Funktionalität in Microsoft Teams zu erhalten, müssen diese Benutzer von Skype for Business lokal in die Cloud verschoben werden, für die die Konfiguration Skype for Business Hybrid Modus erforderlich ist. Darüber hinaus sollten diese Benutzer für eine optimale Benutzerfreundlichkeit im nur-Teams-Modus ausgeführt werden, sodass alle eingehenden Anrufe und Chats von beliebigen Benutzern im Team-Client des Benutzers landen.
+Wenn Sie über lokale Skype for Business-Benutzer verfügen, die (parallel) auch Microsoft Teams verwenden, können diese Benutzer von ihrem Teams-Client aus nicht mit Skype for Business-Benutzern interagieren oder mit Benutzern in Verbundorganisationen kommunizieren. Um diese Funktionalität in Teams freizuschalten, müssen diese Benutzer von der lokalen Skype for Business-Umgebung in die Cloud verschoben werden, und dies erfordert die Konfiguration des Skype for Business-Hybridmodus. Darüber hinaus sollten diese Benutzer für eine optimale Benutzerfreundlichkeit im nur-Teams-Modus ausgeführt werden, sodass alle eingehenden Anrufe und Chats von beliebigen Benutzern im Team-Client des Benutzers landen.
 
-Das Einrichten von Hybrid Konnektivität und das Verschieben aller Benutzer in die Cloud ist ebenfalls erforderlich, bevor Sie Ihre lokale Skype for Business-Bereitstellung außer Betrieb nehmen.  Wenn Sie die Hybrid Konnektivität eingerichtet haben, können Sie Ihre Benutzer basierend auf Ihrem Zeitplan und Ihren geschäftlichen Anforderungen in die Cloud verschieben. Bei der direkten Weiterleitung können Sie Ihre lokale VoIP-Infrastruktur nutzen, während Sie zur Cloud übergehen und nach Abschluss der Migration.
+Außerdem müssen Sie die Hybridkonnektivität einrichten und alle Benutzer in die Cloud verschieben, bevor Sie Ihre lokale Skype for Business-Bereitstellung außer Betrieb nehmen.  Sobald die Hybridkonnektivität eingerichtet ist, können Sie Ihre Benutzer entsprechend Ihres Zeitplans und Ihrer geschäftlichen Anforderungen in die Cloud verschieben. Bei der direkten Weiterleitung können Sie Ihre lokale Sprachinfrastruktur nutzen, sowohl während Sie in die Cloud verschieben als auch nach Abschluss der Migration.
 
 In diesem Thema werden die Infrastruktur-und Systemanforderungen beschrieben, die Sie zum Konfigurieren der Hybrid Konnektivität zwischen Ihrer vorhandenen lokalen Skype for Business Server-Bereitstellung und Microsoft Teams oder Skype for Business Online benötigen.
 
@@ -97,7 +99,7 @@ Die folgenden Topologien, die **lync Server 2010 umfassen, werden mit Skype for 
 
 Der Verbund Edgeserver und der Server für den nächsten Hop aus dem Verbund Edgeserver müssen lync Server 2010 mit den neuesten kumulativen Updates laufen. Die Skype for Business Server 2015-oder lync Server 2013-Verwaltungs Tools müssen auf mindestens einem Server oder einer Verwaltungsarbeitsstation installiert sein.
 
-## <a name="multi-forest-support"></a>Unterstützung für mehrere Gesamtstrukturen
+## <a name="multi-forest-support"></a>Unterstützung mehrerer Gesamtstrukturen
 
 <a name="BKMK_MultiForest"> </a>
 
@@ -109,7 +111,7 @@ Microsoft unterstützt die folgenden Typen von Hybrid Szenarien mit mehreren Ges
     Ausführliche Informationen zu Hybrid Szenarien für die Ressourcengesamtstruktur finden Sie unter [Deploy a Resource Forest Topology for Hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
 - **Mehrere Bereitstellungen von Skype for Business Server in mehreren Gesamtstrukturen.** Diese Konfiguration kann infolge von Fusions-und Akquisitions Szenarien sowie in komplexeren Unternehmen auftreten.  Die Konsolidierung aller Benutzer von lokal in der Cloud in einem einzigen Office 365 Mandanten kann für jede Organisation mit mehreren Skype for Business-Bereitstellungen erreicht werden, vorausgesetzt, die folgenden Hauptanforderungen werden erfüllt:
 
-  - Es muss höchstens ein Office 365-Mandanten beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einem Office 365 Mandanten wird nicht unterstützt.
+  - Es darf höchstens ein Office 365-Mandant involviert sein. Eine Konsolidierung wird in Szenarien mit mehr als einem Office 365-Mandanten nicht unterstützt.
   - Zu einem bestimmten Zeitpunkt kann sich nur eine lokale Skype for Business Gesamtstruktur im Hybrid Modus befinden (freigegebener SIP-Adressraum). Alle anderen lokalen Skype for Business Gesamtstrukturen müssen vollständig lokal (und vermutlich miteinander verbunden) bleiben. Beachten Sie, dass diese anderen lokalen Organisationen mit Aad, falls gewünscht, mit [neuen Funktionen synchronisiert werden können, um Online-SIP-Domänen zu deaktivieren](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) , die ab Dezember 2018 verfügbar sind.
 
     Kunden mit Bereitstellungen von Skype for Business in mehreren Gesamtstrukturen müssen jede Skype for Business Gesamtstruktur einzeln in den Office 365 Mandanten mit der Funktion "Split-Domain" (Shared SIP Address Space) migrieren und dann Hybrid mit dem lokale Bereitstellung, bevor Sie fortfahren, um die nächste lokale Skype for Business-Bereitstellung zu migrieren. Darüber hinaus verbleiben lokale Benutzer vor der Migration in die Cloud in einem Verbund Staat mit allen Benutzern, die nicht im lokalen Verzeichnis des Benutzers dargestellt werden. Weitere Informationen finden Sie unter [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md).

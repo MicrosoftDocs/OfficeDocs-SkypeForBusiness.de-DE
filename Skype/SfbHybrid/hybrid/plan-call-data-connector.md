@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online Telemetrie-Tools zum Überwachen einer lokalen Implementierung in einem Hybrid Szenario.
-ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765233"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Connectors für die Anrufdaten
 
@@ -63,7 +65,7 @@ Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for B
 - Authentifizieren Sie sich bei Ihrem Office 365 Mandanten, und stellen Sie sicher, dass die folgenden Rollen aktiviert sind:
 
   - Skype for Business Server Administrator
-  - Office 365 globaler Administrator
+  - Globaler Office 365-Administrator
 
 - Wenn Sie dies noch nicht getan haben, aktivieren Sie das Anruf qualitätsdashboard wie unter [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)beschrieben.
 

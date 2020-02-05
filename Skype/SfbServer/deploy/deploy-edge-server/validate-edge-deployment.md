@@ -7,18 +7,20 @@ audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie überprüfen können, ob Ihre Bereitstellung des Edge-Servers oder des Edge-Server-Pools in Skype for Business Server funktioniert.'
-ms.openlocfilehash: 57994e4583a3424fc680c8dfb220aeb11668c6fc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233874"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768298"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen Ihrer Edge-Bereitstellung in Skype for Business Server
  

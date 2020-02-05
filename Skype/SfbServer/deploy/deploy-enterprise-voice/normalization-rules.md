@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Normalisierungsregel in Skype for Business Server definieren, erstellen und ändern.'
-ms.openlocfilehash: af0f09710d427dc97a919468b5decfa9ef3d93fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240260"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767088"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Erstellen oder Ändern einer Normalisierungsregel in Skype for Business
 
@@ -39,13 +41,13 @@ Sie können Normalisierungsregeln in Skype for Business Server definieren, erste
 
 5. Geben Sie im Abschnitt **Normalisierungsregel erstellen** Werte in die folgenden Felder ein:
 
-   - **Anfangsziffern** Optional Geben Sie die führenden Ziffern für gewählte Nummern an, die mit dem Muster übereinstimmen sollen. Beispiel: type425, wenn Sie möchten, dass das Muster an gewählte Nummern ab 425 anpasst.
+   - **Anfangsziffern** (optional) geben Sie die führenden Ziffern für gewählte Nummern an, die mit dem Muster übereinstimmen sollen. Beispiel: type425, wenn Sie möchten, dass das Muster an gewählte Nummern ab 425 anpasst.
 
    - **Länge** Geben Sie die Anzahl der Ziffern im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster genau mit dieser Länge übereinstimmen soll, wählen Sie Nummern aus, die mindestens diese Länge aufweisen, oder passen Sie gewählte Nummern einer beliebigen Länge an.
 
-   - **Zu entfernende Ziffern** Optional Geben Sie die Anzahl der Anfangsziffern an, die aus den gewählten Nummern entfernt werden sollen, die das Muster erfüllen soll.
+   - **Zu entfernende Ziffern** (optional) geben Sie die Anzahl der Anfangsziffern an, die aus den gewählten Nummern entfernt werden sollen, die das Muster erfüllen soll.
 
-   - **Zu addierende Ziffern** Optional Geben Sie Ziffern an, die zu gewählten Nummern hinzugefügt werden sollen, damit das Muster übereinstimmen kann.
+   - Zu **addierende Ziffern** (optional) geben Sie Ziffern an, die zu gewählten Nummern hinzugefügt werden sollen, die dem Muster entsprechen sollen.
 
      Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Vergleich** und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise die **Anfangsziffern** leer lassen, type7 in das **Feld Länge** eingeben und **genau**auswählen und 0 in den **zu entfernenden Ziffern**angeben, lautet der resultierende reguläre Ausdruck in dem **übereinstimmenden Muster** wie folgt:
 

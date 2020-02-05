@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, damit Sie Ihre Edge-Server-Topologie in Skype for Business Server planen können.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754165"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edge-Server-Szenarien in Skype for Business Server
  
@@ -93,11 +93,4 @@ Wir verfügen auch über ein Diagramm für skalierte konsolidierte Edge-Pools mi
 Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
   
 ![Edge-Szenario für skalierten konsolidierten Edge mit HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>Portdiagramm
-
-Wir haben auch ein Diagramm für skalierte konsolidierte Edge-Pools mit Hardwarelastenausgleich
-  
-![Edge-Server-Umkreisnetzwerk-Ports und-Protokolle](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

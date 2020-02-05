@@ -5,16 +5,18 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: In diesem Thema wird erläutert, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype for Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder auf Skype for Business Online oder Exchange Online migrieren möchten.
-ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237470"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755999"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planen der Migration von Skype for Business Server und Exchange Server
 
@@ -37,7 +39,7 @@ Wenn Sie die um-Rolle in Exchange 2013 oder den um-Dienst in Exchange 2016 berei
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>PBX-Unterstützung in Exchange 2019 und Skype for Business Server 2019
 
-Cloud-Voicemail bietet keine Sprachnachrichten Funktion für PBX-Anlagen (Private Branch eXchanges). Wenn Sie Exchange Server Unified Messaging für Nebenstellenanlagen verwenden und ein Upgrade auf Exchange Server 2019 durchführen möchten, müssen Sie eine der drei Optionen im Blogbeitrag [Neues Datum für die Einstellung der Unterstützung für Session Border Controller in Exchange auflisten. Online Unified Messaging](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) im [Blog des Exchange-Teams](https://blogs.technet.microsoft.com/exchange/).
+Cloud-Voicemail bietet keine Sprachnachrichten Funktion für PBX-Anlagen (Private Branch eXchanges). Wenn Sie Exchange Server Unified Messaging für PBX verwenden und ein Upgrade auf Exchange Server 2019 durchführen möchten, müssen Sie eine der drei Optionen im Blogbeitrag [Neues Datum für die Einstellung der Unterstützung für Session Border Controller in Exchange Online Unified Messaging](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) im [Exchange-Teamblog](https://blogs.technet.microsoft.com/exchange/)auflisten.
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Exchange Online um-Support in Skype for Business Server 2019
 

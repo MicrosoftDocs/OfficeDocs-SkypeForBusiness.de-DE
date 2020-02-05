@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Aktivieren von Benutzern für den Parken von Anrufen in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767278"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Aktivieren des Anruf Parks für Benutzer in Skype for Business
  

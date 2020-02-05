@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Bereitstellen der medienumgehung in Skype for Business Server Enterprise-VoIP Dazu gehören die Voraussetzungen sowie die Prüfliste für den Bereitstellungsprozess.
-ms.openlocfilehash: 2cbb57499a4cdb38a83424b3c86445817b18b4c5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 744fe56b554bd6b97171798e5dcc7baab69b6dbf
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233267"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767538"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Bereitstellen der medienumgehung in Skype for Business Server
  

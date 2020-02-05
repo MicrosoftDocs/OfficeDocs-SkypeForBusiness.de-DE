@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010618"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726745"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Migrieren von Benutzern von lokalen zu Teams
 
@@ -59,7 +61,7 @@ Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 
 
 CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Die folgenden Schritte und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers in Skype for Business Online, es sei denn, Sie müssen auch den MoveToTeams-Switch angeben, und Sie müssen sicherstellen, dass dem Benutzer auch eine Lizenz für Teams erteilt wurde (zusätzlich zu Skype for Business Online).
 
-Sie müssen sowohl in der lokalen Umgebung als auch im Office 365 Mandanten über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` -Parameter verwenden, um Anmeldeinformationen für eine Office 365 anzugeben. Konto mit der erforderlichen Office 365 Administratorrolle.
+Sie müssen sowohl in der lokalen Umgebung als auch im Office 365 Mandanten über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" in den Microsoft Teams-Modus um:
 
@@ -117,6 +119,6 @@ Der Wert von DownloadTeams ist standardmäßig true; Es wird jedoch *nur* dann b
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[Leitfaden zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Koexistenz mit Skype for Business](/microsoftteams/coexistence-chat-calls-presence)

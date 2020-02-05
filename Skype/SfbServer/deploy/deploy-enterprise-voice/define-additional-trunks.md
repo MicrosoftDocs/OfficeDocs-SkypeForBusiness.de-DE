@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie einen zusätzlichen trunk zwischen einem Vermittlungs Server und einem Gateway-Peer im Topologie-Generator in Skype for Business Server definieren.'
-ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245610"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767718"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definieren zusätzlicher Trunks im Topologie-Generator in Skype for Business Server
  
@@ -58,7 +60,7 @@ Ein trunk ist eine logische Verbindung zwischen einem Vermittlungs Server und ei
     > Mit mehreren trunk-Unterstützung in Skype for Business Server können zwei Trunks mit unterschiedlichen trunk-Namen nicht mit dem gleichen **zugehörigen Vermittlungs Server-Port** und **Abhör-Port für IP/PSTN-Gateway** konfiguriert werden.
   
     > [!NOTE]
-    > Mit mehreren trunk-Unterstützung in Skype for Business Server können mehrere SIP-Signalisierungs Anschlüsse auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen trunk definieren, muss sich die **zugeordnete Vermittlungsserver-Port** Nummer innerhalb des Bereichs der Abhör Anschlüsse für das jeweilige vom Vermittlungsserver zugelassene Protokoll befinden. Dieser Portbereich wird unter Skype for Business Server-und Mediation Server-Pools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungs Server Pool, und wählen Sie **Eigenschaften bearbeiten**aus. Specify the port range in the **Listening ports** field.
+    > Mit mehreren trunk-Unterstützung in Skype for Business Server können mehrere SIP-Signalisierungs Anschlüsse auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen trunk definieren, muss sich die **zugeordnete Vermittlungsserver-Port** Nummer innerhalb des Bereichs der Abhör Anschlüsse für das jeweilige vom Vermittlungsserver zugelassene Protokoll befinden. Dieser Portbereich wird unter Skype for Business Server-und Mediation Server-Pools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungs Server Pool, und wählen Sie **Eigenschaften bearbeiten**aus. Geben Sie den Portbereich im Feld **Abhör-Ports** an.
   
 7. Klicken Sie anschließend auf **OK**. 
     

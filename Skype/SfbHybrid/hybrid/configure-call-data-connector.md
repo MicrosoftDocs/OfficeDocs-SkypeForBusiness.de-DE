@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Konfigurieren des Anruf datenconnectors, mit dem die Telemetrie aus Skype for Business lokal mit Skype for Business Online Tools angezeigt werden kann.
-ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726925"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren des Connectors für die Anrufdaten
 
@@ -140,7 +142,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="for-more-information"></a>Weitere Informationen
 
-Weitere Informationen zu den Cmdlets finden Sie im Get-Help-Befehl in der Skype for Business Server-Verwaltungsshell. Beispiel:
+Weitere Informationen zu den Cmdlets finden Sie im Get-Help-Befehl in der Skype for Business Server-Verwaltungsshell. Zum Beispiel:
 
 Get-Help Get-CsCloudCallDataConnector | Weitere
 
