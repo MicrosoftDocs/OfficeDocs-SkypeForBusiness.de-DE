@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,30 +16,30 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Konfigurieren Sie eine SLS-Datenbank (Secondary Location Source) für E9-1-1 in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 28168bb10017ccc1e56ce26bb5a88629f19aff41
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767078"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a><span data-ttu-id="3bf61-103">Konfigurieren eines sekundären Standort Informationsdiensts in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="3bf61-103">Configure a secondary Location Information service in Skype for Business Server</span></span>
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a><span data-ttu-id="062d8-103">Konfigurieren eines sekundären Standort Informationsdiensts in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="062d8-103">Configure a secondary Location Information service in Skype for Business Server</span></span>
  
-<span data-ttu-id="3bf61-104">Konfigurieren Sie eine SLS-Datenbank (Secondary Location Source) für E9-1-1 in Skype for Business Server Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="3bf61-104">Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="062d8-104">Konfigurieren Sie eine SLS-Datenbank (Secondary Location Source) für E9-1-1 in Skype for Business Server Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="062d8-104">Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="3bf61-105">Skype for Business Server bietet eine Webdienstschnittstelle, die Sie verwenden können, um den standortinformationsdienst auf eine SLS-Datenbank (Secondary Location Source) zu verweisen.</span><span class="sxs-lookup"><span data-stu-id="3bf61-105">Skype for Business Server provides a web service interface that you can use to point the Location Information service to a Secondary Location Source (SLS) database.</span></span> <span data-ttu-id="3bf61-106">Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss dem Location Information Service-WSDL entsprechen.</span><span class="sxs-lookup"><span data-stu-id="3bf61-106">The web service interface that connects to the SLS database must conform to Location Information service WSDL.</span></span> <span data-ttu-id="3bf61-107">Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der standortinformationsdienst zuerst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet die standortanforderung vom Client an die SLS-Datenbank.</span><span class="sxs-lookup"><span data-stu-id="3bf61-107">If both a location database and secondary location database are configured, the Location Information service first queries the location database, and if no match is found, sends the location request from the client to the SLS database.</span></span> <span data-ttu-id="3bf61-108">Wenn der Standort im SLS vorhanden ist, sendet der standortinformationsdienst den Standort dann zurück an den Client.</span><span class="sxs-lookup"><span data-stu-id="3bf61-108">If the location exists in the SLS, the Location Information service then sends the location back to the client.</span></span> 
+<span data-ttu-id="062d8-105">Skype for Business Server bietet eine Webdienstschnittstelle, die Sie verwenden können, um den standortinformationsdienst auf eine SLS-Datenbank (Secondary Location Source) zu verweisen.</span><span class="sxs-lookup"><span data-stu-id="062d8-105">Skype for Business Server provides a web service interface that you can use to point the Location Information service to a Secondary Location Source (SLS) database.</span></span> <span data-ttu-id="062d8-106">Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss dem Location Information Service-WSDL entsprechen.</span><span class="sxs-lookup"><span data-stu-id="062d8-106">The web service interface that connects to the SLS database must conform to Location Information service WSDL.</span></span> <span data-ttu-id="062d8-107">Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der standortinformationsdienst zuerst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet die standortanforderung vom Client an die SLS-Datenbank.</span><span class="sxs-lookup"><span data-stu-id="062d8-107">If both a location database and secondary location database are configured, the Location Information service first queries the location database, and if no match is found, sends the location request from the client to the SLS database.</span></span> <span data-ttu-id="062d8-108">Wenn der Standort im SLS vorhanden ist, sendet der standortinformationsdienst den Standort dann zurück an den Client.</span><span class="sxs-lookup"><span data-stu-id="062d8-108">If the location exists in the SLS, the Location Information service then sends the location back to the client.</span></span> 
   
-### <a name="to-configure-a-secondary-location-database"></a><span data-ttu-id="3bf61-109">So konfigurieren Sie eine sekundäre Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="3bf61-109">To configure a Secondary Location database</span></span>
+### <a name="to-configure-a-secondary-location-database"></a><span data-ttu-id="062d8-109">So konfigurieren Sie eine sekundäre Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="062d8-109">To configure a Secondary Location database</span></span>
 
-1. <span data-ttu-id="3bf61-110">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="3bf61-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="062d8-110">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="062d8-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="3bf61-111">Führen Sie das folgende Cmdlet aus, um die URL für den Speicherort der SLS-Datenbank zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="3bf61-111">Run the following cmdlet to configure the URL for the location of the secondary location database.</span></span> 
+2. <span data-ttu-id="062d8-111">Führen Sie das folgende Cmdlet aus, um die URL für den Speicherort der SLS-Datenbank zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="062d8-111">Run the following cmdlet to configure the URL for the location of the secondary location database.</span></span> 
     
    ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 
-## <a name="see-also"></a><span data-ttu-id="3bf61-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3bf61-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="062d8-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="062d8-112">See also</span></span>
 
-[<span data-ttu-id="3bf61-113">Satz-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="3bf61-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[<span data-ttu-id="062d8-113">Satz-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="062d8-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 
