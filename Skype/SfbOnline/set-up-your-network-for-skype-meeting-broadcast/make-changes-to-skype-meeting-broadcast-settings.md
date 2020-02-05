@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.BroadcastMeetings
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetings
 description: Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
-ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692610"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769478"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
 

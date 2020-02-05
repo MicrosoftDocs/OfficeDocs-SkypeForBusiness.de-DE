@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572135"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769828"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -83,7 +83,7 @@ Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen 
 
 ![Diagramm mit Voraussetzungen für Domänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
 
-Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \*. base_domain (Beispiel: \*. Customers.adatum.biz)* anfordern. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
+Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \*. base_domain anfordern (Beispiel: \*. Customers.adatum.biz)*. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
 
 
 Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
@@ -217,7 +217,7 @@ Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
 Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
 
 Es wurden zwei neue Entitäten eingeführt:
--   Ein Träger trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert ist, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
+-   Ein Träger trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert ist, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -   Ein abgeleiteter Stamm, für den keine Registrierung erforderlich ist. Es ist einfach ein gewünschter Hostname, der aus dem Carrier trunk hinzugefügt wurde. Er leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Der abgeleitete Stamm muss nicht in PowerShell erstellt werden, und die Zuordnung zum Netzbetreiber trunk basiert auf dem FQDN-Namen (siehe Details unten).
 

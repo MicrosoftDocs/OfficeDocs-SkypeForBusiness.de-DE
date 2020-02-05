@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BOrgActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BOrgActivity
 description: 'Erfahren Sie, wie Sie den Bericht "Skype for Business-Konferenz organisierter Aktivitäten" erhalten und wie Sie ihn interpretieren und anpassen können. '
-ms.openlocfilehash: 6cbba90fd874fb4b2d4b3799e0765c2de66e8be4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706070"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769388"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 

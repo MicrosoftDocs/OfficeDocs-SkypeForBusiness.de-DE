@@ -16,17 +16,18 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.DashboardOrganizationInformation
-- ms.lync.lac.DashboardUserStatistics
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.DashboardOrganizationInformation
+- ms.lync.lac.DashboardUserStatistics
 description: Hier erfahren Sie, welche Benutzerstatistiken für Skype for Business verfügbar sind, beispielsweise die Anzahl der aktivierten Benutzer, der für Konferenzen aktivierten Benutzer oder der für Office 365 aktivierten Benutzer.
-ms.openlocfilehash: 2d6856129a9d94875efb05254293d87fbc88b8ec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769528"
 ---
 # <a name="user-statistics-and-organization-information"></a>Benutzerstatistiken und Organisationsinformationen
 

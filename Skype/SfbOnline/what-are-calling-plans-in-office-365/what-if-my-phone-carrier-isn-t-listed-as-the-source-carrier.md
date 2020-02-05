@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderDetailPanelWhois
 description: 'Erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype for Business aufgeführt ist. '
-ms.openlocfilehash: 60bca0ead152bbde7f70da6f9f75080b07272b3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769288"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist zu tun, wenn mein Telefonnetzbetreiber nicht als Quell Netzbetreiber aufgeführt ist?
 

@@ -5,17 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server-Bereitstellung Archivierungsdatenbanken hinzufügen.'
-ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 26cdd1befb695fbaf0656611ed65c7afa778af6c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234375"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769048"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype for Business Server
  
@@ -28,7 +30,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
 - Veröffentlichen Sie die aktualisierte Topologie, um die Archivierungsdatenbank zu Ihrer Skype for Business Server-Bereitstellung hinzuzufügen.
     
 > [!NOTE]
-> Wenn Sie die Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und-Dateien auf Exchange-Servern für alle Benutzer in Ihrer Bereitstellung verwenden möchten, geben Sie keinen **Archivierungs-SQL Server-Speicher** an, oder verwenden Sie die Spiegelungsinformationen des **SQL Server** -Speichers.
+> Wenn Sie die Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und-Dateien auf Exchange-Servern für alle Benutzer in Ihrer Bereitstellung verwenden möchten, geben Sie keinen **Archivierungs-SQL Server-Speicher** an, oder verwenden Sie die **Spiegelungsinformationen des SQL Server-Speichers** .
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Hinzufügen einer Archivierungsdatenbank zu Ihrer Topologie
 
@@ -56,7 +58,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
    - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-   - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+   - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
     
 9. Wenn Sie die SQL Server Store-Spiegelung verwenden möchten, wählen Sie **SQL Server Store-Spiegelung aktivieren**aus, und gehen Sie dann wie folgt vor:
     
@@ -68,15 +70,15 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
      b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-     c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+     c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
     
-   - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand der primären SQL Server-und Spiegelinstanzen erkennen kann) einbeziehen möchten, wählen Sie den **SQL Server-Spiegelungs Zeugen verwenden aus, um die automatische Verwendung zu aktivieren. **aktivieren Sie das Kontrollkästchen Failover, und führen Sie dann eine der folgenden Aktionen aus:
+   - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand der primären SQL Server-und Spiegelinstanzen erkennen kann) einbeziehen möchten, aktivieren Sie das Kontrollkästchen **SQL Server-Spiegelungs Zeuge zum Aktivieren des automatischen Failovers verwenden** , und führen Sie dann eine der folgenden Aktionen aus:
     
      a. Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Spiegelungs Zeugen erstellen möchten.
     
      b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     
-     c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
+     c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in der Spiegelungs** Beziehung, und geben Sie dann in **Spiegelungs-Portnummer**die Portnummer an.
     
 10. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     
@@ -85,7 +87,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
 1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird, oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Gruppe "Benutzer" (oder einem Konto mit entsprechenden Benutzerrechten) ist.
     
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das ein Mitglied der Gruppe der **Domänenadministratoren** und der RTCUniversalServer ist. ** Gruppe "Administratoren** ", die über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den Skype for Business Server-Dateispeicher verwenden (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control List) oder eine Konto mit entsprechenden Rechten.
+    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das ein Mitglied der lokalen Benutzergruppe ist, aber eine Topologie veröffentlichen, die zum Hinzufügen eines Servers zur Topologie erforderlich ist. Sie müssen ein Konto verwenden, das ein Mitglied der Gruppe " **Domänen-Admins** " und der Gruppe " **RTCUniversalServerAdmins** " ist und über Vollzugriffsberechtigungen (lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den Dateispeicher von Skype for Business Server verwenden (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control List) oder eine Konto mit entsprechenden Rechten.
   
 2. Öffnen Sie die im vorherigen Abschnitt erstellte Topologie mithilfe des Topologie-Generators.
     

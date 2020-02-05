@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die anfänglichen Archivierungsrichtlinien für Skype for Business Server-Benutzer konfigurieren.'
-ms.openlocfilehash: 4e1bf5d713201604df18db9d63c2057bfa5bb4e8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff946fe2fde2fcd8aae842e809a89bffb7852bca
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234551"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769208"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Konfigurieren von Archivierungsrichtlinien für Skype for Business Server
  
@@ -57,7 +59,7 @@ Wenn Sie Ihre Front-End-Server bereitstellen, erstellt Skype for Business Server
     
    - Geben Sie im Feld **Name** einen neuen Namen für die globale Richtlinie ein, wenn Sie den Standardnamen „Global“ nicht verwenden möchten. 
     
-   - Geben Sie in **Beschreibung**Informationen zu den Richtlinien an (beispielsweise globale Richtlinie für ** divisionname.
+   - Geben Sie in **Beschreibung**Informationen zu den Richtlinien an (beispielsweise globale Richtlinie für *divisionname* .
     
    - Um die Archivierung der internen Kommunikation für alle Standorte und Benutzer zu kontrollieren, die nicht explizit durch eine Standort- oder Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen **Interne Kommunikation archivieren**.
     

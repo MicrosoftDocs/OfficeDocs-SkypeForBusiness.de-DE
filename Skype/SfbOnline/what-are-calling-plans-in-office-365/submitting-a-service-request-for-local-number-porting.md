@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: 'Wenn Sie mehr als 999 Telefonnummern an Skype for Business übertragen haben, informieren Sie sich, wie Sie eine Portierungs Auftrags-Serviceanfrage einreichen, um Sie zu verschieben. '
-ms.openlocfilehash: d7a19608700a0ecd85880ad880031aa2e21409ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705880"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769308"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
 
