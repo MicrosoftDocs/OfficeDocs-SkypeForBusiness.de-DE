@@ -8,20 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployStartServicesIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 description: Überprüfen Sie den Einführungsbildschirm, um Dienste auf dem von Ihnen bereitgestellten Skype for Business Server 2015-Rollen Server zu starten. Beachten Sie, dass die für den Start des Skype for Business-Servers ausgestellten Befehle nicht warten, bis der Dienst gestartet wird. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) unter „Dienste“. Klicken Sie auf Weiter, um die Aufgabe Dienste starten zu starten.
-ms.openlocfilehash: 964ccd172595b1b7bcce365ce79a40e7b92dbca0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fec6fd5ed6212e6c0cb71ca606ff8ddc4e561036
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700700"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823299"
 ---
-# <a name="startservices-intro"></a><span data-ttu-id="19ed6-106">Starten von Diensten (Einführung)</span><span class="sxs-lookup"><span data-stu-id="19ed6-106">StartServices (Intro)</span></span>
+# <a name="startservices-intro"></a><span data-ttu-id="5c019-106">Starten von Diensten (Einführung)</span><span class="sxs-lookup"><span data-stu-id="5c019-106">StartServices (Intro)</span></span>
  
-<span data-ttu-id="19ed6-107">Überprüfen Sie den Einführungsbildschirm, um Dienste auf dem von Ihnen bereitgestellten Skype for Business Server 2015-Rollen Server zu starten.</span><span class="sxs-lookup"><span data-stu-id="19ed6-107">To start services on the Skype for Business Server 2015 role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="19ed6-108">Beachten Sie, dass die für den Start des Skype for Business-Servers ausgestellten Befehle nicht warten, bis der Dienst gestartet wird.</span><span class="sxs-lookup"><span data-stu-id="19ed6-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="19ed6-109">Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) unter „Dienste“.</span><span class="sxs-lookup"><span data-stu-id="19ed6-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="19ed6-110">Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.</span><span class="sxs-lookup"><span data-stu-id="19ed6-110">Click **Next** to begin the **Start Services** task.</span></span>
+<span data-ttu-id="5c019-107">Überprüfen Sie den Einführungsbildschirm, um Dienste auf dem von Ihnen bereitgestellten Skype for Business Server 2015-Rollen Server zu starten.</span><span class="sxs-lookup"><span data-stu-id="5c019-107">To start services on the Skype for Business Server 2015 role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="5c019-108">Beachten Sie, dass die für den Start des Skype for Business-Servers ausgestellten Befehle nicht warten, bis der Dienst gestartet wird.</span><span class="sxs-lookup"><span data-stu-id="5c019-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="5c019-109">Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) unter „Dienste“.</span><span class="sxs-lookup"><span data-stu-id="5c019-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="5c019-110">Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.</span><span class="sxs-lookup"><span data-stu-id="5c019-110">Click **Next** to begin the **Start Services** task.</span></span>
   
 

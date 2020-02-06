@@ -8,29 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTestCaseMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 40ce0afadcb2f21a2ad462d3c473a35eaf4c5ad6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 89674ae71bc797e84ba68a853f80a167d301f597
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685748"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822027"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="ae8a6-104">Testen des VoIP-Routings: Testfälle</span><span class="sxs-lookup"><span data-stu-id="ae8a6-104">Test Voice Routing: Test Cases</span></span>
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="7548c-104">Testen des VoIP-Routings: Testfälle</span><span class="sxs-lookup"><span data-stu-id="7548c-104">Test Voice Routing: Test Cases</span></span>
 
-<span data-ttu-id="ae8a6-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="ae8a6-105">What do you want to do?</span></span> <span data-ttu-id="ae8a6-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="ae8a6-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7548c-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="7548c-105">What do you want to do?</span></span> <span data-ttu-id="7548c-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="7548c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ae8a6-107">Erstellen eines Test Falls für die sprach Weiterleitung</span><span class="sxs-lookup"><span data-stu-id="ae8a6-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="7548c-107">Erstellen eines Test Falls für die sprach Weiterleitung</span><span class="sxs-lookup"><span data-stu-id="7548c-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 
-- [<span data-ttu-id="ae8a6-108">Exportieren von Test Fällen für sprach Routing</span><span class="sxs-lookup"><span data-stu-id="ae8a6-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [<span data-ttu-id="7548c-108">Exportieren von Test Fällen für sprach Routing</span><span class="sxs-lookup"><span data-stu-id="7548c-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
 
-- [<span data-ttu-id="ae8a6-109">Importieren von sprach Weiterleitungs Test Fällen</span><span class="sxs-lookup"><span data-stu-id="ae8a6-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [<span data-ttu-id="7548c-109">Importieren von sprach Weiterleitungs Test Fällen</span><span class="sxs-lookup"><span data-stu-id="7548c-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
 
-- [<span data-ttu-id="ae8a6-110">Ausführen von Test Fällen für das VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="ae8a6-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="7548c-110">Ausführen von Test Fällen für das VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="7548c-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
-<span data-ttu-id="ae8a6-111">Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="ae8a6-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="7548c-111">Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="7548c-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

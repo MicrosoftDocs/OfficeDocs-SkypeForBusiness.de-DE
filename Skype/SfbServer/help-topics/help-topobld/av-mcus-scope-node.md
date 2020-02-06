@@ -8,30 +8,32 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: 'Unterhalb des Knotens A/V-Konferenzpools werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: fe3b1a3713e6f687ff08cf0dae40f7d01537afdc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 531c8f49ed21f08dafce98cf2e57a28d2312df99
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820317"
 ---
-# <a name="av-mcus-scope-node"></a><span data-ttu-id="574e2-104">A/V MCUs – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="574e2-104">AV MCUs Scope Node</span></span>
+# <a name="av-mcus-scope-node"></a><span data-ttu-id="a654a-104">A/V MCUs – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="a654a-104">AV MCUs Scope Node</span></span>
  
-<span data-ttu-id="574e2-p102">Unterhalb des Knotens **A/V-Konferenzpools** werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="574e2-p102">The **A/V Conferencing pools** node lists the A/V Conferencing pools in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="a654a-p102">Unterhalb des Knotens **A/V-Konferenzpools** werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="a654a-p102">The **A/V Conferencing pools** node lists the A/V Conferencing pools in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="574e2-p103">**Neuer A/V-Konferenzpool**. Hiermit starten Sie den Assistenten zum Definieren eines neuen A/V-Konferenzpools\*\*\*\*, mit dem Sie einen neuen A/V-Konferenzpool zur Topologie hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="574e2-p103">**New A/V Conferencing Pool**. Starts the **Define New A/V Conferencing Pool** wizard, which you use to add a new A/V Conferencing pool to the topology.</span></span>
+- <span data-ttu-id="a654a-p103">**Neuer A/V-Konferenzpool**. Hiermit starten Sie den Assistenten zum Definieren eines neuen A/V-Konferenzpools\*\*\*\*, mit dem Sie einen neuen A/V-Konferenzpool zur Topologie hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="a654a-p103">**New A/V Conferencing Pool**. Starts the **Define New A/V Conferencing Pool** wizard, which you use to add a new A/V Conferencing pool to the topology.</span></span>
     
-<span data-ttu-id="574e2-109">Zusätzlich zu den Optionen für A/V-Konferenzpools sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="574e2-109">In addition to the A/V Conferencing pool options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="a654a-109">Zusätzlich zu den Optionen für A/V-Konferenzpools sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="a654a-109">In addition to the A/V Conferencing pool options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="574e2-p104">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="574e2-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="a654a-p104">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="a654a-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="574e2-p105">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="574e2-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="a654a-p105">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="a654a-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="574e2-p106">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="574e2-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="a654a-p106">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="a654a-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

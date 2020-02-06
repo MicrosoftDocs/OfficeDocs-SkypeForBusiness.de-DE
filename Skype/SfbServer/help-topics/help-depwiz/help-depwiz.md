@@ -8,19 +8,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: Themen des Bereitstellungs-Assistenten
-ms.openlocfilehash: 5c555a2f2e3aca7f3fc7478e29bb0c1742fa397e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f415b9557b007f06d71e4373a8009bfb03255248
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301799"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823679"
 ---
-# <a name="help-depwiz"></a><span data-ttu-id="04238-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="04238-103">Help-DepWiz</span></span>
+# <a name="help-depwiz"></a><span data-ttu-id="c41ba-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="c41ba-103">Help-DepWiz</span></span>
  
-<span data-ttu-id="04238-104">Die Themen in diesem Knoten enthalten Hilfe zum Bereitstellungs-Assistenten für Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="04238-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
+<span data-ttu-id="c41ba-104">Die Themen in diesem Knoten enthalten Hilfe zum Bereitstellungs-Assistenten für Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="c41ba-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
   
 
   

@@ -8,25 +8,27 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Wenn Sie ein Zertifikat zuweisen möchten, wählen Sie im lokalen Zertifikatspeicher ein Zertifikat aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 9dc6235893c52e19ddb1b8aaad6acbb69d1df0b6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ea7b17b3632fe91f67eeed214c866fbc1df57a3c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687798"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823929"
 ---
-# <a name="certificate-list"></a><span data-ttu-id="961ee-104">Zertifikatliste</span><span class="sxs-lookup"><span data-stu-id="961ee-104">Certificate List</span></span>
+# <a name="certificate-list"></a><span data-ttu-id="899bc-104">Zertifikatliste</span><span class="sxs-lookup"><span data-stu-id="899bc-104">Certificate List</span></span>
  
-<span data-ttu-id="961ee-p102">Wenn Sie ein Zertifikat zuweisen möchten, wählen Sie im lokalen Zertifikatspeicher ein Zertifikat aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="961ee-p102">To assign a certificate, select a certificate from the local certificate store. Click **Next** to continue.</span></span>
+<span data-ttu-id="899bc-p102">Wenn Sie ein Zertifikat zuweisen möchten, wählen Sie im lokalen Zertifikatspeicher ein Zertifikat aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="899bc-p102">To assign a certificate, select a certificate from the local certificate store. Click **Next** to continue.</span></span>
   
-<span data-ttu-id="961ee-p103">Die Zertifikate im Bereich **Zertifikat aus dem lokalen Zertifikatspeicher auswählen** sind gültige Zertifikate, die für den jeweiligen Zweck zugewiesen werden können. Klicken Sie auf die Schaltfläche **Zertifikatdetails anzeigen**, um zu prüfen, ob das ausgewählte Zertifikat das richtige Zertifikat ist. Die Registerkarte **Details** enthält den für das Zertifikat konfigurierten Antragstellernamen und alternative Antragstellernamen.</span><span class="sxs-lookup"><span data-stu-id="961ee-p103">The certificate or certificates that are available for selection in the **Select a certificate from the local certificate store** pane are valid certificates that can be assigned to the certificate usage that you need. You can confirm that the certificate that you select is the correct one by clicking the **View Certificate Details** button. On the **Details** tab, you can view the subject name and subject alternatives designated as configured on the certificate.</span></span>
+<span data-ttu-id="899bc-p103">Die Zertifikate im Bereich **Zertifikat aus dem lokalen Zertifikatspeicher auswählen** sind gültige Zertifikate, die für den jeweiligen Zweck zugewiesen werden können. Klicken Sie auf die Schaltfläche **Zertifikatdetails anzeigen**, um zu prüfen, ob das ausgewählte Zertifikat das richtige Zertifikat ist. Die Registerkarte **Details** enthält den für das Zertifikat konfigurierten Antragstellernamen und alternative Antragstellernamen.</span><span class="sxs-lookup"><span data-stu-id="899bc-p103">The certificate or certificates that are available for selection in the **Select a certificate from the local certificate store** pane are valid certificates that can be assigned to the certificate usage that you need. You can confirm that the certificate that you select is the correct one by clicking the **View Certificate Details** button. On the **Details** tab, you can view the subject name and subject alternatives designated as configured on the certificate.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="961ee-p104">Möglicherweise wird im Auswahlbereich kein Zertifikat angezeigt. Die häufigste Ursache hierfür ist, dass auf dem vorgesehenen Server kein vertrauenswürdiges Stammzertifikat vorhanden ist bzw. keine Zertifikate von Zwischenzertifizierungsstellen installiert sind, um das Zertifikat zu bestätigen und so die Vertrauenskette aufrechtzuerhalten, die durch das Zertifikat seitens der Zertifizierungsstelle eingerichtet wurde. Lösen Sie dieses Problem, indem Sie eine Zertifikatkette anfordern und importieren. Meist umfasst diese das Zertifikat der Stammzertifizierungsstelle sowie Zertifikate von Zwischenzertifizierungsstellen und ausstellenden Zertifizierungsstellen.</span><span class="sxs-lookup"><span data-stu-id="961ee-p104">It is possible that no certificate will be listed in the selection pane. When this occurs, the typical cause is that there are no trusted root certificate or intermediate certification authority certificates installed on the intended server to verify the certificate and therefore maintain the chain of trust created by the certificate to the certification authority. To resolve this issue, request and import a certificate chain, which typically includes the root certification authority (CA) certificate and any intermediate CA certificates and issuing CA certificates.</span></span> 
+> <span data-ttu-id="899bc-p104">Möglicherweise wird im Auswahlbereich kein Zertifikat angezeigt. Die häufigste Ursache hierfür ist, dass auf dem vorgesehenen Server kein vertrauenswürdiges Stammzertifikat vorhanden ist bzw. keine Zertifikate von Zwischenzertifizierungsstellen installiert sind, um das Zertifikat zu bestätigen und so die Vertrauenskette aufrechtzuerhalten, die durch das Zertifikat seitens der Zertifizierungsstelle eingerichtet wurde. Lösen Sie dieses Problem, indem Sie eine Zertifikatkette anfordern und importieren. Meist umfasst diese das Zertifikat der Stammzertifizierungsstelle sowie Zertifikate von Zwischenzertifizierungsstellen und ausstellenden Zertifizierungsstellen.</span><span class="sxs-lookup"><span data-stu-id="899bc-p104">It is possible that no certificate will be listed in the selection pane. When this occurs, the typical cause is that there are no trusted root certificate or intermediate certification authority certificates installed on the intended server to verify the certificate and therefore maintain the chain of trust created by the certificate to the certification authority. To resolve this issue, request and import a certificate chain, which typically includes the root certification authority (CA) certificate and any intermediate CA certificates and issuing CA certificates.</span></span> 
   
 
