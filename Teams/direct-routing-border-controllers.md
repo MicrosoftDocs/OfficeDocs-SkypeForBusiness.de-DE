@@ -13,13 +13,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+hideEdit: true
 description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634868"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823989"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 

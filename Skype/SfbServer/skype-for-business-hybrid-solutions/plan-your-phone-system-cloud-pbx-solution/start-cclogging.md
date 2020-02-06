@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 'Das Cmdlet „Start-CcLogging“ generiert die Liste für ein- und ausgehende Anrufe für eine Skype for Business Cloud Connector Edition-Appliance. '
-ms.openlocfilehash: 2064fa4efd730812b5073821784ff5c524056341
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824169"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  

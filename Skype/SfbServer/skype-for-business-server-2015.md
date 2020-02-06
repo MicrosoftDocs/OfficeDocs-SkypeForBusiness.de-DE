@@ -9,16 +9,18 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Zusammenfassung: untersuchen Sie diese Links, um zu erfahren, wie Sie Skype for Business Server 2015 implementieren.'
-ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286810"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824099"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -198,7 +200,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid Lösungen</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen der Hybrid Konnektivität</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen von Hybridverbindungen</a></p>
                                        </div>
                 </div>
             </div>

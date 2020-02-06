@@ -8,15 +8,17 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier erfahren Sie, wie Sie in Skype for Business Server 2019 Daten zum Response Group Service (RGS) sichern.
-ms.openlocfilehash: 0a37b4d4771a75513666597de5eb87dedcbcd0c7
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: f9c62953dcb859be2aa34bdee84ca76e3303d738
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821325"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824069"
 ---
 # <a name="back-up-response-group-service-rgs-data"></a>Sichern von Daten des Reaktionsgruppendiensts (RGS)
 
