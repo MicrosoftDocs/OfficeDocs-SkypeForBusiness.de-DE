@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Zusammenfassung: Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server.'
-ms.openlocfilehash: 8324e146147480bb682c2cc18c62a96e95a130e3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0f8b5321b482d78d9dc833471323ae842c247246
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235651"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798072"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server
  
@@ -62,7 +64,7 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
    
 9. Scrollen Sie auf demselben Bildschirm nach unten zum Abschnitt SDP-Profilinformationen. Die Option **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** (SDP-Bandbreitenänderung auf Sitzungsebene für Early Offer und Neueinladungen) ist standardmäßig auf „TIAS and AS“ (TIAS und AS) eingestellt. Ändern Sie diese Option auf „TIAS only“ (Nur TIAS). Wenn Sie diese Option bei der Standardeinstellung beließen, wird Skype for Business Server die Informationen zur Bandbreiten Modifizierung in der SIP-Nachricht nicht verstehen. TIAS steht für „Transport Independent Application Specific“ (transportunabhängig anwendungsspezifisch) und AS für „Application Specific“ (anwendungsspezifisch). Diese SIP-Optionen sind in RFC3890 festgelegt.
     
-10. Scrollen Sie auf demselben Bildschirm weiter nach unten. Wählen Sie unter der trunk-spezifischen Konfiguration des SIP-Profils **Early offer Support für Sprach-und Videoanrufe** aus, und legen Sie die Option auf die obligatorische Option **(Insert MTP falls erforderlich)** fest. Dadurch wird es CUCM möglich, einen ausgehenden SIP-Anruf mit einem frühen Angebot einzurichten. Ein neues Feature in CUCM 8,5 und darüber hinaus ist die Unterstützung der Einrichtung für ausgehende Anrufe mit einem frühen Angebot, ohne dass ein Media Termination Point (MTP) erforderlich ist.
+10. Scrollen Sie auf demselben Bildschirm weiter nach unten. Wählen Sie unter der trunk-spezifischen Konfiguration des SIP-Profils **Early offer Support für Sprach-und Videoanrufe** aus, und legen Sie die Option auf die **obligatorische Option (Insert MTP falls erforderlich)** fest. Dadurch wird es CUCM möglich, einen ausgehenden SIP-Anruf mit einem frühen Angebot einzurichten. Ein neues Feature in CUCM 8,5 und darüber hinaus ist die Unterstützung der Einrichtung für ausgehende Anrufe mit einem frühen Angebot, ohne dass ein Media Termination Point (MTP) erforderlich ist.
     
 11. Überprüfen Sie im Abschnitt „SIP Options ping“ (SIP-Optionen-Ping), ob das Kontrollkästchen neben „Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'“ (Optionen-Ping zur Überwachung des Zielstatus für Trunks mit Diensttyp 'Keiner' aktivieren (Standard)) aktiviert ist.
     
