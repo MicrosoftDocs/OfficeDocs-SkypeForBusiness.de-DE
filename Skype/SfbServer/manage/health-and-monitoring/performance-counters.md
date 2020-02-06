@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Zusammenfassung: erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit der Unified Communications Web-API (UCWA) und dem Skype for Business Server MCX-Mobilitätsdienst verwenden können.'
-ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817764"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Mobilitäts Leistungsindikatoren in Skype for Business Server
  

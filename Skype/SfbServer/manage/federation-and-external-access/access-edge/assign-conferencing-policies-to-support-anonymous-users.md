@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese konferenzrichtlinie auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: d7956e68db3330f0804e6161e0eeaf52958bc588
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5427ec96d3593cf87656f562acf0afc183b92d6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280285"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818416"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in Skype for Business Server 
 
@@ -43,7 +45,7 @@ Verwenden Sie das Verfahren in diesem Abschnitt, um eine konferenzrichtlinie anz
     
     2.  Wenn Sie eine vorhandene Benutzerrichtlinie konfigurieren möchten, klicken Sie auf die entsprechende Richtlinie, die in der Tabelle aufgeführt ist, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-4.  Aktivieren Sie im Dialogfeld **Konferenzrichtlinien** das Kontrollkästchen Teilnehmern die Möglichkeit geben, **anonyme Benutzer einzuladen** .
+4.  Aktivieren Sie im Dialogfeld **Konferenzrichtlinien** das Kontrollkästchen **Teilnehmern die Möglichkeit geben, anonyme Benutzer einzuladen** .
 
 5.  Klicken Sie auf **Commit ausführen**.
 

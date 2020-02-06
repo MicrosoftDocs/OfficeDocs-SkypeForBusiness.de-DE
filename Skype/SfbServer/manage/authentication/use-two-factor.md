@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Zusammenfassung: Verwenden Sie die zweistufige Authentifizierung mit Skype for Business Server und Skype for Business.'
-ms.openlocfilehash: 532e7567444b78dd30d053cf91aef1c10f0970bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 378b76b61acd004dfe16f04dba922cc2b6fedc83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818707"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Verwenden der zweistufigen Authentifizierung mit Skype for Business-Client und Skype for Business Server
  
@@ -50,7 +52,7 @@ Wenn Sie mit der Verwendung von Skype for Business fertig sind, können Sie die 
 |:-----|:-----|:-----|
 |Schließen  <br/> |Schließt die Anzeige, lässt aber die Skype for Business-Sitzung, die mit Ihrer Benutzer-ID identifiziert wurde, weiterhin ausgeführt. Dies hat den Sinn, dass Sie weiterhin Benachrichtigungen erhalten und sich mit anderen austauschen können. <br/> <br/> Sie können die Anzeige jederzeit wiederherstellen, indem Sie auf das Skype for Business-Symbol in der Taskleiste oder im Infobereich am unteren Rand des Bildschirms klicken.  <br/> | Führen Sie im Hauptfenster von Skype for Business eine der folgenden Aktionen aus: <br/> 1. Wählen Sie die Schaltfläche **Optionen** und dann **Datei** > **Schließen**aus.  <br/> 2. Klicken Sie in der oberen rechten Ecke des Fensters auf die Schaltfläche **Schließen** (X). <br/> |
 |Abmelden  <br/> |Beendet die mit Ihrer Benutzer-ID verknüpfte Sitzung, aber Skype for Business wird weiterhin im Hintergrund ausgeführt. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.  <br/> **Tipp:** Wählen Sie **Meine Anmeldeinformationen löschen** aus, wenn Sie sich abmelden, um den Eintrag Ihrer Anmelde-ID und Ihres Kennworts vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden. <br/> |Wählen Sie im Hauptfenster von Skype for Business die Schaltfläche **Optionen** und dann **Datei** > **Abmelden aus**.  <br/> |
-|Beenden  <br/> |Beendet Ihre Skype for Business-Sitzung und beendet Skype for Business auf Ihrem Computer. Wenn Sie nach dem Beenden erneut starten möchten, wählen Sie **** > **Alle Programme** > Skype for Business starten aus. <br/> |Wählen Sie im Hauptfenster von Skype for Business die Schaltfläche **Optionen** und dann **Datei** > **Beenden**aus.  <br/> |
+|Beenden  <br/> |Beendet Ihre Skype for Business-Sitzung und beendet Skype for Business auf Ihrem Computer. Wenn Sie nach dem Beenden erneut starten möchten, wählen Sie **** > **Alle Programme** starten #a0 Skype for Business aus. <br/> |Wählen Sie im Hauptfenster von Skype for Business die Schaltfläche **Optionen** und dann **Datei** > **Beenden**aus.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Anmelden bei Skype for Business mit einer SmartCard
 
@@ -98,7 +100,7 @@ Bevor Sie sich mit einer Smartcard anmelden können, muss die Karte "registriert
     
     e. Wählen Sie in der Dropdownliste Hash Algorithmus die Option **SHA1** aus, wenn diese noch nicht ausgewählt ist.
     
-    f. Geben Sie Ihrem Zertifikat einen Namen, den Sie erkennen, **** und klicken Sie auf Absenden.
+    f. Geben Sie Ihrem Zertifikat einen Namen, den Sie erkennen, und klicken Sie auf **Absenden**.
     
 8. Legen Sie jetzt Ihre leere SmartCard in das an die Registrierungsstelle angeschlossene SmartCard-Lesegerät und klicken Sie auf **Registrieren**.
     

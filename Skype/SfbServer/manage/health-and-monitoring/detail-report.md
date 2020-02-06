@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: erfahren Sie mehr über den Konferenz Detail Bericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 73ca72bbfb7b003aaaa894a5bc9e417312d96caa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271395"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818005"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenz Detail Bericht in Skype for Business Server
 

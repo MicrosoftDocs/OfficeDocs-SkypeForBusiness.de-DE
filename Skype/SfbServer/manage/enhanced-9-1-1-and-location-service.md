@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server unterstützt erweiterte 9-1-1 (E9-1-1)-Anrufe von Skype for Business-Clients. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, umfassen Notrufe, die von Skype for Business getätigt werden, die Informationen zum Emergency Response Location (ERL) aus der Datenbank des Standort Informationsdiensts.
-ms.openlocfilehash: a0cf7254e12f00a01082b7aad71ce350cb382b9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280299"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818426"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Verwalten von Enhanced 9-1-1 und dem Standortdienst in Skype for Business Server
 
@@ -97,9 +99,9 @@ In Skype for Business Server können Sie die Standardzeit Spanne zwischen Client
     
       - **Konferenzmodus**   Wenn Sie einen Wert im Feld **Konferenz-URI** angeben, bestimmt der **Konferenzmodus** , ob ein Dritter an dem Anruf teilnehmen oder nur zuhören kann. Geben Sie eine der folgenden Optionen an:
         
-          - **** Eine unidirektionale Drittpartei kann nur die Konversation zwischen dem Anrufer und dem PSAP-Operator abhören.   
+          - **Eine**unidirektionale Drittpartei kann nur die Konversation zwischen dem Anrufer und dem PSAP-Operator abhören.   
         
-          - **** Eine bidirektionale Drittpartei kann den Anruf zwischen dem Anrufer und dem PSAP-Operator abhören und daran teilnehmen.   
+          - **Eine bidirektionale**Drittpartei kann den Anruf zwischen dem Anrufer und dem PSAP-Operator abhören und daran teilnehmen.   
 
 6.  Klicken Sie auf **Commit ausführen**.
 

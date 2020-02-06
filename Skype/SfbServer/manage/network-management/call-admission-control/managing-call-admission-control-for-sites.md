@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Netzwerk Websites sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen.
-ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279543"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817514"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 
@@ -143,7 +145,7 @@ Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen 
 10. Klicken Sie auf **Commit ausführen**.
 
     > [!NOTE]  
-    > Wenn Sie eine neue Netzwerk Website erstellen, verwenden Sie die Tabelle **zugeordnete** Subnetze nicht. Sie verknüpfen ein Subnetz mit einer Website, wenn Sie das Subnetz erstellen oder ändern. Ausführliche Informationen finden Sie unter [Verwalten von Netzwerk](managing-network-subnets.md)-Subnetzen.
+    > Wenn Sie eine neue Netzwerk Website erstellen, verwenden Sie die Tabelle **zugeordnete Subnetze** nicht. Sie verknüpfen ein Subnetz mit einer Website, wenn Sie das Subnetz erstellen oder ändern. Ausführliche Informationen finden Sie unter [Verwalten von Netzwerk-Subnetzen](managing-network-subnets.md).
 
 ### <a name="to-modify-a-network-site"></a>So ändern Sie eine Netzwerk Website
 

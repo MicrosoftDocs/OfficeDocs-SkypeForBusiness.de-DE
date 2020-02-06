@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 'Zusammenfassung: erfahren Sie mehr über die Unified Communications Web API (UCWA) in Skype for Business Server.'
-ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: db6aee15564fe9fca05c33ec5a6dd37988195956
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817624"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>UCWA-Ereignisse in Skype for Business Server
  
@@ -27,7 +29,7 @@ UCWA zeichnet Einträge zum Betriebsverhalten als die Ereignistypen „Informati
   
 |**Ereigniskennung**|**Ereignistyp**|**Zusammenfassung**|**Ursache und Lösung**|
 |:-----|:-----|:-----|:-----|
-|20001  <br/> |Information  <br/> |UCWA initialisiert  <br/> |n/v  <br/> n/v  <br/> |
+|20001  <br/> |Information  <br/> |UCWA initialisiert  <br/> |Nicht zutreffend  <br/> Nicht zutreffend  <br/> |
 |20002  <br/> |Fehler  <br/> |Unerwartete Ausnahme während der Initialisierung von UCWA  <br/> |Während der Initialisierung ist ein unerwarteter Fehler aufgetreten.  <br/> Überprüfen Sie die Ausnahmedetails im zugehörigen Ereignisprotokolleintrag, um die mögliche Ursache zu ermitteln.  <br/> |
 |20003  <br/> |Fehler  <br/> |In der UCWA ist eine nicht behandelte Ausnahme aufgetreten.  <br/> |Eine nicht behandelte Ausnahme ist aufgetreten.  <br/> Starten Sie den Server neu. Falls das Problem weiterhin besteht, wenden Sie sich an den Produktsupport.  <br/> |
 |20004  <br/> |Fehler  <br/> |Kein Zugriff auf Exchange zum Abrufen des HD-Fotos  <br/> |Keine Verbindung mit Exchange verfügbar  <br/> Sicherstellen, dass eine Verbindung mit Exchange verfügbar ist  <br/> |

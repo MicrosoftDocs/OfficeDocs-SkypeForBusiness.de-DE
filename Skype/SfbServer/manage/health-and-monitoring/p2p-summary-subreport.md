@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Zusammenfassung: Informationen zum P2P-Zusammenfassungsbericht in Skype for Business Server.'
-ms.openlocfilehash: 5238e910896a6af956285235d7e1234fe17fe005
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31e17aaff8d449c49a7c51d3dba484e7fab48d55
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817794"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P-Zusammenfassungsbericht in Skype for Business Server
  

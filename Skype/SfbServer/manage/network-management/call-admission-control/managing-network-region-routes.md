@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Eine Netzwerk Regions Route definiert die Route zwischen zwei netzwerkregionen. Für jedes Paar von netzwerkregionen in der Bereitstellung für die Anrufsteuerung ist eine Netzwerk Regions Route erforderlich.
-ms.openlocfilehash: 174fdd021655f3e338001582a1409107b266582e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e0c099b8c461873b96963c721d835f1ccdf4705
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279508"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817494"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
@@ -77,7 +79,7 @@ Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Mögli
 
 4.  Klicken Sie auf der Seite **Region Route** auf **neu**.
 
-5.  Geben **** Sie in das Feld Name einen Wert in das Feld **Name** ein.
+5.  Geben **Sie in das**Feld Name einen Wert in das Feld **Name** ein.
    
     > [!NOTE]  
     > Dieser Wert muss innerhalb Ihrer Skype for Business Server-Bereitstellung eindeutig sein.

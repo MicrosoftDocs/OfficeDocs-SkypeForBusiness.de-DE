@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Verbund Anbietern konfigurieren.
-ms.openlocfilehash: ee16ec8953a722a86838f710fdf92cb9b2ce5f36
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42845bfd39c65e60765ee8d3fd2f1e3a58a08aae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303963"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818366"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Verbund Anbietern für Ihre Organisation in Skype for Business Server
 
@@ -65,7 +67,7 @@ Gehen Sie wie folgt vor, um öffentliche Anbieter zu erstellen oder zu bearbeite
         
         **Wenn Sie Benutzern erlauben, mit allen Personen zu kommunizieren, die diesen Anbieter verwenden, wird** die Einschränkung entfernt, die Sie erhalten haben und eine Kontakt Einladung akzeptieren müssen. Diese Einstellung beschränkt nicht, wer Sie aus dem Netzwerk des öffentlichen Anbieters kontaktieren kann.
 
-7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, **** klicken Sie zum Speichern auf übernehmen, oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
+7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, klicken **Sie zum Speichern auf übernehmen** , oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
 
 ## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern in Skype for Business Server
 
@@ -99,7 +101,7 @@ Gehen Sie wie folgt vor, um gehostete Anbieter zu erstellen oder zu bearbeiten.
         
         **Wenn Sie Benutzern erlauben, mit allen Personen zu kommunizieren, die diesen Anbieter verwenden, wird** die Einschränkung entfernt, die Sie erhalten haben und eine Kontakt Einladung akzeptieren müssen. Diese Einstellung beschränkt nicht, wer Sie aus dem Netzwerk des gehosteten Anbieters kontaktieren kann.
 
-7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, **** klicken Sie zum Speichern auf übernehmen, oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
+7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, klicken **Sie zum Speichern auf übernehmen** , oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
 
 
 ## <a name="see-also"></a>Siehe auch

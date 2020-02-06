@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Edge-Server konfigurieren und wie Sie eine Dienst Qualitätsrichtlinie für Ihre a/V-Edgeserver konfigurieren.
-ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279463"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817434"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver in Skype for Business Server
 
@@ -151,6 +153,6 @@ Wenn Sie sicherstellen möchten, dass Netzwerkpakete mit dem entsprechenden DSCP
 
 5.  Klicken Sie mit der rechten Maustaste auf **QoS**, zeigen Sie auf **neu**, und klicken Sie dann auf **Zeichenfolgenwert**. Nachdem der neue Registrierungswert erstellt wurde, geben Sie **NLA nicht verwenden**ein, und drücken Sie dann die EINGABETASTE, um den Wert umzubenennen.
 
-6.  Doppelklicken Sie auf **keine Verwendung von NLA**. Geben Sie im Dialogfeld **Zeichenfolge bearbeiten** im Feld Wertdaten den **Wert** **1** ein, und klicken Sie dann auf **OK**.
+6.  Doppelklicken Sie auf **keine Verwendung von NLA**. Geben Sie im Dialogfeld **Zeichenfolge bearbeiten** im Feld **Wertdaten den Wert** **1** ein, und klicken Sie dann auf **OK**.
 
 7.  Schließen Sie den Registrierungs-Editor, und starten Sie Ihren Computer neu.

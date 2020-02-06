@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Verwenden Sie die in diesem Artikel beschriebenen Verfahren, um Netzwerkbandbreite-Richtlinienprofile anzuzeigen, zu erstellen, zu ändern oder zu löschen.
-ms.openlocfilehash: 3b2b62e5e823a9d86f1884d79b67483bce38a39f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a9203c0935673e0dfd12d052876f06583c7c92c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279522"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817504"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Verwalten von Richtlinienprofilen für die Netzwerkbandbreite in Skype for Business Server
 
@@ -78,9 +80,9 @@ Im Rahmen der Anrufannahme Steuerung (CAC) wird eine bandbreitenrichtlinie verwe
 
 5.  Geben Sie in **Neues bandbreitenrichtlinienprofil**einen Namen in das Feld **Name** ein. Dieser Name muss unter allen Bandbreitenrichtlinien Profilen eindeutig sein.
 
-6.  Geben Sie **** im Feld audiogrenze einen numerischen Wert ein. Dieser Wert ist die maximale Bandbreite, die für alle Audioverbindungen reserviert werden soll, ausgedrückt in Kbit/s.
+6.  Geben Sie im Feld **audiogrenze** einen numerischen Wert ein. Dieser Wert ist die maximale Bandbreite, die für alle Audioverbindungen reserviert werden soll, ausgedrückt in Kbit/s.
 
-7.  Geben Sie einen numerischen Wert in das Feld "audiositzungs **Limit** " ein. Dieser Wert ist die maximale Bandbreite, die für eine einzelne Audioverbindung reserviert werden soll, ausgedrückt in Kbit/s. Dieser Wert muss 40 oder höher sein.
+7.  Geben Sie einen numerischen Wert in das Feld " **audiositzungs Limit** " ein. Dieser Wert ist die maximale Bandbreite, die für eine einzelne Audioverbindung reserviert werden soll, ausgedrückt in Kbit/s. Dieser Wert muss 40 oder höher sein.
 
 8.  Geben Sie einen numerischen Wert in das Feld **Video Grenzwert** ein. Dieser Wert ist die maximale Bandbreite, die für alle Videoverbindungen reserviert werden soll, ausgedrückt in Kbit/s.
 

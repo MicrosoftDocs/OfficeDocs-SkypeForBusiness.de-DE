@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: b7aa303f2b49a806434af91789ab3e610fdc45c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c2df1c491384f8a248f70b67880511a2d496c173
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817454"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Verhindern neuer Verbindungen mit Skype for Business Server für die Serverwartung
 
@@ -52,7 +54,7 @@ Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Serv
 
 4.  Klicken Sie im DialogfeldEigenschaften unter **Dienststatus: gestartet**auf **Anhalten**.
 
-5.  Optional, aber empfohlen, klicken Sie **** neben Starttyp auf **manuell**.
+5.  Optional, aber empfohlen, klicken Sie neben **Starttyp**auf **manuell**.
     
     > [!IMPORTANT]
     > Wenn Sie einen Server so einrichten, dass neue Verbindungen verhindert werden, und den Server dann neu starten, wird der Server standardmäßig unmittelbar nach dem Start neue Verbindungen akzeptieren. Um dies zu verhindern, müssen Sie den Server so einrichten, dass er vor dem Neustart des Servers nur manuell angehalten und fortgesetzt wird.

@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie in der Skype for Business Server-Systemsteuerung SIP Federation, Remote User Access und Public Instant Messaging (im) konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280173"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818326"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Zugriffsrichtlinie für einen externen Benutzer zu einem Skype for Business-aktivierten Benutzer
 
@@ -45,7 +47,7 @@ Verwenden Sie das in diesem Thema beschriebene Verfahren, um eine zuvor erstellt
 5.  Wählen Sie in **Skype for Business Server-Benutzer bearbeiten** unter **Richtlinie für den externen Zugriff**die Benutzerrichtlinie aus, die Sie anwenden möchten.
      
 > [!NOTE]  
-> Die ** \<Automatic>** -Einstellungen wenden den Standardserver oder die globalen Richtlinieneinstellungen an.
+> Die Einstellungen für ** \<automatische>** wenden die Standardeinstellungen für Server oder globale Richtlinie an.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen von externen Zugriffsrichtlinien für einzelne Benutzer mithilfe von Windows PowerShell-Cmdlets

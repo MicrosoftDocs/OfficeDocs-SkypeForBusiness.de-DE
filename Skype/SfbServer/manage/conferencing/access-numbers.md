@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Access-Nummern für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 48fae5535607c59931be1c7f5201c3c45a150417
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991920"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818667"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Einwahlkonferenz-Zugriffsnummern in Skype for Business Server
  

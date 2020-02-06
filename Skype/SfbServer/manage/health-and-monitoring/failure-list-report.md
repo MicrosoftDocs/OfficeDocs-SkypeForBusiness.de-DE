@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Fehlerliste in Skype for Business Server.'
-ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992822"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817945"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Bericht zur Fehlerliste in Skype for Business Server 
  
