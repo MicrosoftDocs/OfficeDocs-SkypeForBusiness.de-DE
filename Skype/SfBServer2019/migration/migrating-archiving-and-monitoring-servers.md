@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Wenn Sie den Archivierungsserver und den Monitoring Server in ihrer Legacyumgebung bereitgestellt haben, können Sie diese Server in Ihrer Skype for Business Server 2019-Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs-und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie jedoch vor der Migration dem Skype for Business Server 2019-Pilot Pool Archivierungs-und Überwachungsfunktionen hinzufügen, damit die Funktionalität während des Migrationsprozesses zur Verfügung steht.
-ms.openlocfilehash: f259a08d25c93467c79fdaf3550288c6208607c3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237891"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813453"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungs-und Überwachungs Servern
 

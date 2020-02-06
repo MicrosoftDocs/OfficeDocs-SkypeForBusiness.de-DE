@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Sie können Benutzer über die Skype for Business Server Control Panel-oder Skype for Business Server-Verwaltungsshell zur neuen Skype for Business Server 2019-Bereitstellung bewegen. Sie müssen einige Voraussetzungen erfüllen, um einen reibungslosen Übergang zu Skype for Business Server 2019 zu gewährleisten. Details zu den Voraussetzungen für die Durchführung der Verfahren in diesem Thema finden Sie unter Konfigurieren von Clients für die Migration. Detaillierte Anweisungen zum Verschieben von Benutzern finden Sie unter Phase 4: Verschieben von Testbenutzern in den Pilot Pool.'
-ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac384e9f9e4aaaa534f5b646f1d847485dbb4c23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244565"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813263"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Verschieben von verbleibenden Benutzern in Skype for Business Server 2019
 
@@ -37,7 +39,7 @@ Wenn Sie einen Benutzer in einen Skype for Business Server 2019-Pool verschieben
     
 2. Um sicherzustellen, dass Besprechungen, die von Benutzern verwaltet werden, die sich in Skype for Business Server 2019 befinden, nahtlos mit Verbundbenutzern zusammenarbeiten, die bei der Legacy Installation verwaltet werden, sollten die den migrierten Benutzern zugewiesenen Konferenzrichtlinien anonymen Teilnehmern ermöglichen.
     
-3. Konferenzrichtlinien, die anonymen Teilnehmern gestatten, zulassen, dass **Teilnehmer anonyme Benutzer einladen,** die in der Systemsteuerung von Skype for Business Server 2019 ausgewählt sind, und die **AllowAnonymousParticipantsInMeetings** auf " **true** " festgelegt haben Ausgabe aus dem Cmdlet " **Get-CsConferencingPolicy** " in der Skype for Business Server-Verwaltungsshell. 
+3. Konferenzrichtlinien, die anonymen Teilnehmern erlauben, **können Teilnehmern erlauben, anonyme Benutzer einzuladen** , die in der Skype for Business Server 2019-Systemsteuerung ausgewählt sind, und **AllowAnonymousParticipantsInMeetings** in der Ausgabe des Cmdlets **Get-CsConferencingPolicy** in der Skype for Business Server-Verwaltungsshell auf " **true** " festgelegt haben. 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->

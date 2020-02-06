@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: Geben Sie zum Definieren des FQDN der Survivable Branch Appliance den vollqualifizierten Domänennamen (Fully Qualified Domain Name, Domain Name System, DNS) der Survivable Branch Appliance oder des Survivable Branch Servers im Textfeld "FQDN" ein. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: fa22eb519c716b67fa794818aa91a0b03fdd2aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 28c7bac72aeb8e89930ad6c3a642363fcebbc384
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685028"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820597"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Hinzufügen eines Survivable Branch Appliance-Pools
  

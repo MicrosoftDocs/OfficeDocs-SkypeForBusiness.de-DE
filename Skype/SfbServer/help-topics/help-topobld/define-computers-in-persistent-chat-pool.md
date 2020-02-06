@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Sie definieren die Computer, die Teil eines beständigen Chat Server Pools sein sollen, indem Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) in Computer-FQDN eingeben. Dies muss der Name des Computers sein, der in den DNS-Hosteinträgen (A oder AAAA) definiert ist.
-ms.openlocfilehash: ede256812e5edff653431e134d19f78787013f19
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9c116e0160244ee135b3c64ec5d06b8835eb5b44
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697540"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820207"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definieren von Computern im Pool für beständigen Chat
  

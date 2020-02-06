@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: diese Features wurden von Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f77ccecd0ab963c0707a7b1dc1d24083ed0c3729
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418361"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813983"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist in Skype for Business Server 2019 veraltet?
 
@@ -39,7 +41,7 @@ In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen fi
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL-Spiegelung für Skype for Business Server
 
-Die SQL-Spiegelung kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Weitere Optionen für die Bereitstellung von Hochverfügbarkeits-und Disaster Recovery werden weiterhin unterstützt, und Sie sollten zwischen Ihnen auswählen. Informationen zu den Optionen finden Sie unter Planen der Hochverfügbarkeits [-und Disaster Recovery in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) .
+Die SQL-Spiegelung kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Weitere Optionen für die Bereitstellung von Hochverfügbarkeits-und Disaster Recovery werden weiterhin unterstützt, und Sie sollten zwischen Ihnen auswählen. Informationen zu den Optionen finden Sie unter [Planen der Hochverfügbarkeits-und Disaster Recovery in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) .
 
 ### <a name="in-place-upgrades"></a>In-Place-Upgrades 
 

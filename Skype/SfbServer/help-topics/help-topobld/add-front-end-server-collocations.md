@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Bei einer Enterprise Edition-Bereitstellung befindet sich der A/V-Konferenzdienst im Front-End-Pool. Sie können den Vermittlungsserver auch im Front-End-Pool collocate, oder Sie können ihn als eigenständigen Server bereitstellen. Der A/V-Konferenzdienst ist immer in der Lage, wenn Konferenzen aktiviert sind.
-ms.openlocfilehash: 0d246e91549f5ff27a2e3681aae4d73c064eb67c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f6b3307d73f87af10140ecf594f8e662cfdd369
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698210"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820827"
 ---
 # <a name="add-front-end-server-collocations"></a>Hinzufügen von Front-End-Server-Kollokationen
 

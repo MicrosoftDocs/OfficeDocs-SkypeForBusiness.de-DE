@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Föderation ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die es Benutzern in separaten Organisationen ermöglicht, über Netzwerkgrenzen hinweg zu kommunizieren. Nachdem Sie die Migration zu Ihrem Pilot Pool durchgeführt haben, müssen Sie von der Föderations Route ihrer Vorgängerversionen-Edgeserver zur Föderations Route Ihrer Skype for Business Server 2019 Edge-Server wechseln.
-ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71417307fd46c2c29535cea3a52f0286ad6dc951
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239362"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813813"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
@@ -63,7 +65,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
   
 5. Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
     
-6. Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen. 
+6. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen. 
     
 7. Überprüfen Sie, ob der Verbund für den Legacy-Edgeserver im Topologie-Generator deaktiviert ist.
   
@@ -89,7 +91,7 @@ Führen Sie die folgenden Verfahren aus, um die Föderations Route und die Medie
   
 5. Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen**aus, und klicken Sie dann auf **weiter**.
     
-6. Klicken Sie nach Abschluss des Veröffentlichungs- **Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen. 
+6. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen. 
     
 7. Überprüfen Sie, ob der **Verbund (Port 5061)** im Topologie-Generator auf **aktiviert** festgesetzt ist.
     

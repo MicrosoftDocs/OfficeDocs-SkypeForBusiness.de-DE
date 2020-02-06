@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Wenn Sie die Eigenschaften für Edgeserver-Computer als einzelnen Edgeserver oder als Mitgliedscomputer in einem Edge-Pool bearbeiten möchten, konfigurieren Sie die Konfigurationseinstellungen für Servername und IP-Adresse:'
-ms.openlocfilehash: 411e870a874366754d17d0601ed1f216ce18899a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b90a3a00dcb1198e696112fc3d3ded08ff00060d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684778"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820097"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
  

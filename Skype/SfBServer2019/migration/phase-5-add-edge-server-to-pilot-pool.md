@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Die Themen in diesem Abschnitt erläutern, wie Sie einen Skype for Business Server 2019-Edgeserver zur Bereitstellung des pilotpools hinzufügen. Die Themen enthalten Konfigurations-und Verifizierungs Anleitungen beim Ausführen des Assistenten zum Bereitstellen eines neuen Edge-Pools.
-ms.openlocfilehash: bc84f82fcc923e80d1a6466d660c31c69e37af29
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 30619001ea46dbe4eaf9d649f49cd2d20706375d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244409"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813143"
 ---
 # <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5: Hinzufügen von Skype for Business Server 2019 Edge Server zum Pilot Pool
 

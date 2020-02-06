@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Skype for Business Server 2019 unterstützt die Bereitstellung mehrerer Standorte und mehrerer Pools. Der Vorgang zum Migrieren mehrerer Pools zu Skype for Business Server 2019 erfordert die folgenden Überlegungen:'
-ms.openlocfilehash: e2577b6af1430be90e30fff3236d7ea3cf473cd5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d1257590c431bc15aad4db03908aa6d95fd5fce3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237874"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813443"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrieren von mehreren Standorten und Pools
 
@@ -32,6 +34,6 @@ Skype for Business Server 2019 unterstützt die Bereitstellung mehrerer Standort
     
 6. Nachdem Sie überprüft haben, dass der Legacy Pool leer ist, können Sie den Pool deaktivieren. 
     
-    Weitere Informationen zum Deaktivieren des Legacy Pools und der Legacy Server finden Sie unter [Phase 8: Legacy Pools](phase-8-decommission-legacy-pools.md)für decommission.
+    Weitere Informationen zum Deaktivieren des Legacy Pools und der Legacy Server finden Sie unter [Phase 8: Legacy Pools für decommission](phase-8-decommission-legacy-pools.md).
     
 

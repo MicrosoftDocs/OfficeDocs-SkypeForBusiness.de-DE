@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Sie können den Überwachungs-SQL Server-Speicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 0895e5b2e9410d3632c767672f8b54f2732771f5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a424cb7ae23688224d52510df5db793b3348a176
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685328"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821197"
 ---
 # <a name="add-director-monitoring"></a>Hinzufügen der Director-Überwachung
  

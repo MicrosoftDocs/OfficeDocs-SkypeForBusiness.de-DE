@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Die Rufnummernbereiche des Anruf Parks definieren die temporären Nummern, in denen geparkte Anrufe abgehalten werden, bis jemand Sie abruft oder Sie auslaufen.
-ms.openlocfilehash: 6b67200de60e9ed55969468351419c10ecabe5bc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0403411f6d6b1b084f6766b2620718aa99d77f13
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686978"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823108"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Funktion zum Parken von Anrufen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Funktion zum Parken von Anrufen
 

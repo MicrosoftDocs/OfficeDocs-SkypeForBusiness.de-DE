@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: In Skype for Business Server 2019 definieren Sie Websites in Ihrem Netzwerk, die Skype for Business Server 2019-Komponenten enthalten. Bei einer Website handelt es sich um eine Gruppe von Computern, die durch ein Hochgeschwindigkeits-Netzwerk mit niedriger Latenz gut verbunden sind, beispielsweise ein einzelnes lokales Netzwerk (LAN) oder zwei Netzwerke, die über ein Hochgeschwindigkeits-Fiberoptik-Netzwerk verbunden sind.
-ms.openlocfilehash: 1ad93a512a1aab596e08744f76d74e2e41a9faa5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b7d7fbddfe77c1303f0f6bde95827d94d7483f32
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237786"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813423"
 ---
 # <a name="migration-phases"></a>Migrationsphasen
 

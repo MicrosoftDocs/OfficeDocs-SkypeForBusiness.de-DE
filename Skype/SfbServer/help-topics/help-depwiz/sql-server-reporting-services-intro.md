@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeploySSRSIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: Jedem Front-End-Pool und einer Survivable Branch-Appliance kann nur ein Monitoring Server zugeordnet sein. Wenn die Überwachung für die Website aktiviert ist, stellt Monitoring Server die Datenerfassungs-und Berichterstellungsdaten Sammlung (Call Detail Recording) und QoE (Quality of Experience) bereit.
-ms.openlocfilehash: f9b838ee474fce848dc4d8f1511a5061d5f8cfe2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a62ac4310cebcea131760075bfc74174cfaa7e6a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687298"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823459"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Einführung)
  

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceDialPlanRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 387093b4100418f2b685b1add2233480d78cf915
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe37e9e37c3d49c956d0c3b3dd2be49bf93ce7e9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699997"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822598"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Normalisierungsregel: Erstellen einer neuen oder Bearbeiten einer vorhandenen Normalisierungsregel
 

@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informieren Sie sich über die Planungsüberlegungen für Telefonsysteme in Office 365 (Cloud PBX) mit lokalen PSTN-Konnektivität.
-ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a134b4dbe48d302ee8be8df528e6bbebac336b8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814483"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen des Telefonsystems in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server
 
@@ -82,7 +84,7 @@ Bevor Sie das Telefon System in Office 365 mit lokalem PSTN-Konnektivität konfi
 | **Serverrolle**                                       | **Unterstützte Versionen\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | Föderations Kante\*\*  <br/>                            | Skype for Business Server 2015  <br/>                                                                              |
-| Interner Poolserver für den nächsten Hop der Partnerverbundroute  <br/> | Skype for Business Server 2015, March 2016 Cumulative Update 6.0.9319.235 or higher (Front End or Director)   <br/> |
+| Interner Poolserver für den nächsten Hop der Partnerverbundroute  <br/> | Skype for Business Server 2015, März 2016 Kumulatives Update 6.0.9319.235 oder höher (Front-End oder Director)  <br/> |
 | Front-End-Benutzerserver  <br/>                          | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 | Edgeserver  <br/>                                    | Skype for Business Server 2015  <br/>                                                                              |
 | Vermittlungsserver  <br/>                               | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
@@ -106,7 +108,7 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Connect muss Version 1.0.9125.0 oder höher sein. Wenn Sie mit einer früheren Version der AAD Connect-Werkzeuge oder DirSync arbeiten, führen Sie ein Upgrade auf die unterstützte Version durch. Sie können aber auch ein Upgrade Ihrer aktuellen Installation durchführen und alle benutzerdefinierten Regeln beibehalten, die Sie in Ihrer Umgebung definiert haben. 
 
-- **Konfigurieren der hybridbereitstellung** Ob alle Ihre Skype for Business-Benutzer derzeit entweder online oder lokal gehostet werden oder wenn Sie derzeit eine Mischung haben, müssen Sie die Schritte zum Konfigurieren einer hybridbereitstellung von Skype for Business Server oder lync Server 2013 ausführen, wie in [Deploy Hybrid beschrieben. Konnektivität zwischen Skype for Business Server und Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) Weitere Hintergrundinformationen zu hybridbereitstellungen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
+- **Konfigurieren der hybridbereitstellung** Unabhängig davon, ob alle Ihre Skype for Business-Benutzer zurzeit online oder lokal gehostet werden oder wenn Sie derzeit eine Mischung haben, müssen Sie die Schritte zum Konfigurieren einer hybridbereitstellung von Skype for Business Server oder lync Server 2013 ausführen, wie unter [Bereitstellen von Hybrid Konnektivität zwischen Skype for Business Server und Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)beschrieben. Weitere Hintergrundinformationen zu hybridbereitstellungen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
 
     Wenn Sie lync Server 2013 verwenden, finden Sie weitere Informationen unter [lync Server 2013 Hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 

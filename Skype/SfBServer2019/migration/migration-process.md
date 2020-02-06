@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Das empfohlene und unterstützte Migrationsverfahren für Skype for Business Server 2019 ist eine parallele Migration. In diesem Thema wird beschrieben, warum Sie die parallele Migration verwenden sollten, und Sie enthält auch Informationen zum Testen der Koexistenz.
-ms.openlocfilehash: 6ef8a70aa436663b7ff88723800375eeef620b6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7d8ce6513535871939894092850ad0526b1b6a63
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237779"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813413"
 ---
 # <a name="migration-process"></a>Migrationsvorgang
 

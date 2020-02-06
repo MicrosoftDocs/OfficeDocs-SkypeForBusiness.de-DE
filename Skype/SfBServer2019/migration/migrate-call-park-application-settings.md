@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Die Migration der Anwendung für den Anruf Park umfasst die Bereitstellung des Skype for Business Server 2019-Pools mit benutzerdefinierten Musikdateien, die in die Legacy Installation hochgeladen wurden, Wiederherstellen der Einstellungen für den Service Level und erneutes anvisieren aller Orbits des Anruf Parks an die Skype for Business Server 2019-Pool. Wenn benutzerdefinierte Musik-in-Warte-Dateien im Pool konfiguriert wurden, müssen diese Dateien in den neuen Skype for Business Server 2019-Pool kopiert werden. Darüber hinaus empfiehlt es sich, dass Sie alle für den Anruf Park angepassten Music-on-halten-Dateien von einem anderen Ziel aus sichern, um eine separate Sicherungskopie aller angepassten Music-on-halten-Dateien zu erhalten, die für den Anruf Park hochgeladen wurden. Die angepassten Music-on-halten-Dateien für die Anwendung "Parken" werden im Dateispeicher des Pools gespeichert. Wenn Sie die Audiodateien aus einem Pool Dateispeicher in einen Skype for Business Server 2019-Dateispeicher kopieren möchten, verwenden Sie den Befehl xcopy mit den folgenden Parametern:'
-ms.openlocfilehash: 0435144fc647a08d8252f35d8449d1e7daa62d68
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991160"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813583"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
 

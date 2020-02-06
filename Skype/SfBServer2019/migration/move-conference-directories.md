@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Vor der Außerbetriebnahme eines Pools müssen Sie die folgenden Schritte für jedes Konferenzverzeichnis in Ihrem Legacy Pool durchführen.
-ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bdcb816a91f6bc4a4372141595e46ba2369618a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988940"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813283"
 ---
 # <a name="move-conference-directories"></a>Verschieben von Konferenzverzeichnissen
 

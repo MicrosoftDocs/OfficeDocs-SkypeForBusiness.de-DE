@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Einer der ersten Schritte, die für die Migration zu Skype for Business Server 2019 erforderlich sind, ist die Bereitstellungeines pilotpools. Im Pilot Pool testen Sie die Koexistenz von Skype for Business Server 2019 mit Ihrer Legacy Bereitstellung. Koexistenz ist ein vorübergehender Zustand, der dauert, bis Sie alle Benutzer und Pools in Skype for Business Server 2019 verschoben haben.
-ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55f7383300ba8fbe1623e63bc42aa40102dd8b41
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238381"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813643"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Bereitstellen des pilotpools für Skype for Business Server 2019
 
@@ -54,7 +56,7 @@ Wenn Sie einen Pilot Pool bereitstellen, verwenden Sie den Assistenten zum Defin
   
 11. Wenn der Veröffentlichungsprozess abgeschlossen ist, klicken Sie auf **Fertig stellen**.
 
-12. Bevor Sie zum nächsten Abschnitt "Überprüfen der Koexistenz von pilotpools mit Legacy Pool" wechseln, müssen Sie den neuen Front-End-Pilot Pool von Skype for Business Server installieren, den wir soeben in der veröffentlichten Topologie definiert haben, und folgen Sie den hier beschriebenen Schritten unter [Installieren von Skype für Business Server auf Servern in der Topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+12. Bevor Sie zum nächsten Abschnitt "Überprüfen der Koexistenz von pilotpools mit Legacy Pool" wechseln, müssen Sie den neuen Front-End-Pilot Pool von Skype for Business Server installieren, den wir soeben in der veröffentlichten Topologie definiert haben, und folgen Sie den hier beschriebenen Schritten unter [Installieren von Skype for Business Server auf Servern in der Topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) .
 
 13. Wenn der vorherige Schritt abgeschlossen ist, wechseln Sie zum nächsten Abschnitt, um die Koexistenz des pilotpools mit dem Legacy Pool zu überprüfen.
     

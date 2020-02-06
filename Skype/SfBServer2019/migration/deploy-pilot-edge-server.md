@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: In diesem Thema werden die Konfigurationseinstellungen hervorgehoben, die Sie vor der Bereitstellung Ihres Skype for Business Server 2019 Edge-Servers beachten sollten. Die Bereitstellungs-und Konfigurationsprozesse für Skype for Business Server 2019 sind mit Skype for Business Server 2015 sehr ähnlich. In diesem Abschnitt werden nur wichtige Punkte hervorgehoben, die Sie im Rahmen der Bereitstellung des pilotpools berücksichtigen sollten. Detaillierte Anweisungen finden Sie unter Bereitstellen des Zugriffs auf externe Benutzer in Skype for Business Server 2019 in der Bereitstellungsdokumentation, in der der Bereitstellungsprozess beschrieben wird, sowie Konfigurationsinformationen für den Zugriff durch externe Benutzer.
-ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c2beb22e2cce608b692884ad9b49fef40cb87058
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238388"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813653"
 ---
 # <a name="deploy-pilot-edge-server"></a>Bereitstellen eines Pilot-Edgeservers
 

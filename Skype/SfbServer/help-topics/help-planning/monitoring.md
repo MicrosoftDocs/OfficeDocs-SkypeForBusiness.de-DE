@@ -8,18 +8,20 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Monitoring
 - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: In Skype for Business Server 2015 wird die Überwachung verwendet, um Nutzungsinformationen und QoE-Daten (Quality of Experience) zu den Kommunikationssitzungen zu sammeln, an denen Ihre Benutzer beteiligt sind.
-ms.openlocfilehash: cbbdcd2ec814b07e70f689d390be83052b1c7d72
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: baf24091cb2c50914eb413dde142c92fb5d1d20e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698793"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821387"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 

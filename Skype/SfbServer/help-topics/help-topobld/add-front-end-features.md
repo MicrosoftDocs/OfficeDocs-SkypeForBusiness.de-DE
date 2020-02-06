@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Wählen Sie die einzelnen Features aus, die Sie für den Front-End-Pool aktivieren möchten. Sie müssen mindestens Instant Messaging (im) bereitstellen, das immer aktiviert ist und nicht deaktiviert werden kann. Darüber hinaus haben Sie die Möglichkeit, andere Features wie Conferencing, Enterprise-VoIP und Anrufannahme Steuerung (Call Admission Control, CAC) bereitzustellen. Einige Features sind von Ihrer Topologie abhängig.
-ms.openlocfilehash: b44fb728c8910ec5016f20f154606dd7708c141e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 44370d259a825888caf764742ba10f3ddad693fb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820887"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
 
