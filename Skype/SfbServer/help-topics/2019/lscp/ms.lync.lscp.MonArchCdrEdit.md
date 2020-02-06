@@ -6,27 +6,29 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.MonArchCdrEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 3fd0af998aa8f6e13a2ba551dd740b9709eaa97d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 21f31565093c842265d52e8383de8314798e68b4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691190"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796394"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="a2238-104">Aufzeichnung von Kommunikationsdatensätzen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Aufzeichnung von Kommunikationsdatensätzen</span><span class="sxs-lookup"><span data-stu-id="a2238-104">Call Detail Recording: Create New or Edit Existing</span></span>
+# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="a7d1e-104">Aufzeichnung von Kommunikationsdatensätzen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Aufzeichnung von Kommunikationsdatensätzen</span><span class="sxs-lookup"><span data-stu-id="a7d1e-104">Call Detail Recording: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="a2238-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="a2238-105">What do you want to do?</span></span> <span data-ttu-id="a2238-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="a2238-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a7d1e-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="a7d1e-105">What do you want to do?</span></span> <span data-ttu-id="a7d1e-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="a7d1e-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="a2238-107">Aktivieren der Anrufdetailaufzeichnung in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a2238-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="a7d1e-107">Aktivieren der Anrufdetailaufzeichnung in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a7d1e-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="a2238-108">Angeben der Beibehaltung von CDR-Daten in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a2238-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="a7d1e-108">Angeben der Beibehaltung von CDR-Daten in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a7d1e-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

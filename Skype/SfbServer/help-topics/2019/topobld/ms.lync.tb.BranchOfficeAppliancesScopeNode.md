@@ -7,31 +7,33 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Knoten Survivable Branch Appliances listet die Überlebenden Branch-Appliances an dieser Verzweigungs Website auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 11c3f41d8e24fec0436f071da25b3b9761af5439
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9c664ac38d23c0b5b6f5367f16c8e221148d1c16
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702360"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793883"
 ---
-# <a name="branch-office-appliances-scope-node"></a><span data-ttu-id="96fc5-104">Filialanwendungen – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="96fc5-104">Branch Office Appliances Scope Node</span></span>
+# <a name="branch-office-appliances-scope-node"></a><span data-ttu-id="cc8c0-104">Filialanwendungen – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="cc8c0-104">Branch Office Appliances Scope Node</span></span>
  
-<span data-ttu-id="96fc5-105">Der Knoten **Survivable Branch Appliances** listet die Überlebenden Branch-Appliances an dieser Verzweigungs Website auf.</span><span class="sxs-lookup"><span data-stu-id="96fc5-105">The **Survivable Branch Appliances** node lists the Survivable Branch Appliances at this branch site.</span></span> <span data-ttu-id="96fc5-106">Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="96fc5-106">You can perform the following action:</span></span>
+<span data-ttu-id="cc8c0-105">Der Knoten **Survivable Branch Appliances** listet die Überlebenden Branch-Appliances an dieser Verzweigungs Website auf.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-105">The **Survivable Branch Appliances** node lists the Survivable Branch Appliances at this branch site.</span></span> <span data-ttu-id="cc8c0-106">Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="cc8c0-106">You can perform the following action:</span></span>
   
-- <span data-ttu-id="96fc5-107">**Neue Survivable Branch-Anwendung**.</span><span class="sxs-lookup"><span data-stu-id="96fc5-107">**New Survivable Branch Appliance**.</span></span> <span data-ttu-id="96fc5-108">Startet den Assistenten zum Definieren einer neuen überlebensfähigen **Verzweigungs Einheit** , mit dem Sie dieser Website eine neue Survivable Branch-Appliance hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="96fc5-108">Starts the **Define New Survivable Branch Appliance** wizard, which you use to add a new Survivable Branch Appliance to this site.</span></span>
+- <span data-ttu-id="cc8c0-107">**Neue Survivable Branch-Anwendung**.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-107">**New Survivable Branch Appliance**.</span></span> <span data-ttu-id="cc8c0-108">Startet den Assistenten zum Definieren einer neuen überlebensfähigen **Verzweigungs Einheit** , mit dem Sie dieser Website eine neue Survivable Branch-Appliance hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-108">Starts the **Define New Survivable Branch Appliance** wizard, which you use to add a new Survivable Branch Appliance to this site.</span></span>
     
-<span data-ttu-id="96fc5-109">Zusätzlich zur Survivable Branch Appliance-Option können Sie die folgenden allgemeinen Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="96fc5-109">In addition to the Survivable Branch Appliance option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="cc8c0-109">Zusätzlich zur Survivable Branch Appliance-Option können Sie die folgenden allgemeinen Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="cc8c0-109">In addition to the Survivable Branch Appliance option, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="96fc5-p104">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="96fc5-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="cc8c0-p104">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="96fc5-p105">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="96fc5-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="cc8c0-p105">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="96fc5-p106">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="96fc5-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="cc8c0-p106">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="cc8c0-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
