@@ -8,34 +8,36 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 'Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: a6569502c822aca1edbb60051e1b250901a1a58e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4971b67b323b805827837ad4ea8cd324c7faa25b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696580"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819187"
 ---
-# <a name="test---skype-for-business-server-site-scope-node"></a><span data-ttu-id="b6417-104">Lync Server-Standort – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="b6417-104">Test - Skype for Business Server Site Scope Node</span></span>
+# <a name="test---skype-for-business-server-site-scope-node"></a><span data-ttu-id="dafab-104">Lync Server-Standort – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="dafab-104">Test - Skype for Business Server Site Scope Node</span></span>
  
-<span data-ttu-id="b6417-p102">Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="b6417-p102">This node shows one of the sites defined on your topology. You can perform the following actions:</span></span> 
+<span data-ttu-id="dafab-p102">Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="dafab-p102">This node shows one of the sites defined on your topology. You can perform the following actions:</span></span> 
   
-- <span data-ttu-id="b6417-p103">**Neu**: Dient zum Hinzufügen eines neuen Pools oder Servers zum Standort.</span><span class="sxs-lookup"><span data-stu-id="b6417-p103">**New.** Add a new pool or server to the site.</span></span>
+- <span data-ttu-id="dafab-p103">**Neu**: Dient zum Hinzufügen eines neuen Pools oder Servers zum Standort.</span><span class="sxs-lookup"><span data-stu-id="dafab-p103">**New.** Add a new pool or server to the site.</span></span>
     
-- <span data-ttu-id="b6417-p104">**Eigenschaften bearbeiten**: Dient zum Bearbeiten von Standorteigenschaften wie Name und Ort und zur Angabe, ob der Standort die Anrufsteuerung zur Bandbreitenverwaltung verwendet und ob ein Director- oder Edgepool an diesem Standort als Partnerverbundroute genutzt wird.</span><span class="sxs-lookup"><span data-stu-id="b6417-p104">**Edit Properties.** Edit site properties, such as name and location, and specify whether the site uses call admission control for bandwidth management, and whether a Director pool or Edge pool at this site is used as a federation route.</span></span>
+- <span data-ttu-id="dafab-p104">**Eigenschaften bearbeiten**: Dient zum Bearbeiten von Standorteigenschaften wie Name und Ort und zur Angabe, ob der Standort die Anrufsteuerung zur Bandbreitenverwaltung verwendet und ob ein Director- oder Edgepool an diesem Standort als Partnerverbundroute genutzt wird.</span><span class="sxs-lookup"><span data-stu-id="dafab-p104">**Edit Properties.** Edit site properties, such as name and location, and specify whether the site uses call admission control for bandwidth management, and whether a Director pool or Edge pool at this site is used as a federation route.</span></span>
     
-- <span data-ttu-id="b6417-p105">**Löschen**: Dient zum Entfernen dieses Standorts aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="b6417-p105">**Delete.** Remove this site from your topology.</span></span>
+- <span data-ttu-id="dafab-p105">**Löschen**: Dient zum Entfernen dieses Standorts aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="dafab-p105">**Delete.** Remove this site from your topology.</span></span>
     
-<span data-ttu-id="b6417-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="b6417-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="dafab-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="dafab-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="b6417-p106">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="b6417-p106">**Topology.** You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="dafab-p106">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="dafab-p106">**Topology.** You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="b6417-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="b6417-p107">**View.** You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="dafab-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="dafab-p107">**View.** You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="b6417-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="b6417-p108">**Help.** You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="dafab-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="dafab-p108">**Help.** You can use this option to access Help for the active node.</span></span>
     
 

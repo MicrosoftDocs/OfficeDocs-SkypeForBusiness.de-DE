@@ -8,19 +8,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
 description: Themen zur Topologie-Builder
-ms.openlocfilehash: 519f41d241f97d0f9c9665b5fb1bc046daee0a01
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e1c4a3ebe97e6a386743cfd0eda0519ec6cf1852
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819837"
 ---
-# <a name="help-topobld"></a><span data-ttu-id="27e91-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="27e91-103">Help-TopoBld</span></span>
+# <a name="help-topobld"></a><span data-ttu-id="bdc8f-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="bdc8f-103">Help-TopoBld</span></span>
  
-<span data-ttu-id="27e91-104">Dieser Knoten enthält Hilfethemen für den Skype for Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="27e91-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
+<span data-ttu-id="bdc8f-104">Dieser Knoten enthält Hilfethemen für den Skype for Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="bdc8f-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
   
 
   

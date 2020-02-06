@@ -8,32 +8,34 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 3afdbd3cfcc3c12bb5a9917be1015576da8eb5a3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fec7a9704c85f12ab34716f08ad449f6e33825f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696690"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819287"
 ---
-# <a name="server-settings-expander"></a><span data-ttu-id="84317-104">Servereinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="84317-104">Server Settings Expander</span></span>
+# <a name="server-settings-expander"></a><span data-ttu-id="2f8f8-104">Servereinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="2f8f8-104">Server Settings Expander</span></span>
  
-<span data-ttu-id="84317-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="84317-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="2f8f8-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="84317-p103">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen des Servers (falls die Topologie noch nicht veröffentlicht wurde) und die IP-Adresskonfiguration ändern können.</span><span class="sxs-lookup"><span data-stu-id="84317-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="2f8f8-p103">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen des Servers (falls die Topologie noch nicht veröffentlicht wurde) und die IP-Adresskonfiguration ändern können.</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="84317-p104">**Löschen**: Dient zum Löschen des Servers aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="84317-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="2f8f8-p104">**Löschen**: Dient zum Löschen des Servers aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="84317-111">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="84317-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="2f8f8-111">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="2f8f8-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="84317-p105">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="84317-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="2f8f8-p105">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="84317-p106">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="84317-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="2f8f8-p106">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="84317-p107">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="84317-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="2f8f8-p107">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="2f8f8-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
