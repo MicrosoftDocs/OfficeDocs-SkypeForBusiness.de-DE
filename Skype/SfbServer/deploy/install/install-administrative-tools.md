@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Verwaltungstools installieren, die für die Installation von Skype for Business Server erforderlich sind. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3abf2eb35a4593f25db75e175f3cd30fdf49e21b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244620"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790173"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren von Verwaltungstools in Skype for Business Server
  
@@ -57,7 +59,7 @@ Schauen Sie sich das Video mit den Schritten zum **Installieren von Verwaltungst
     
     ![Hauptkomponenten auf dem Apps-Bildschirm.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-   - **Skype for Business Server** -Bereitstellungs-Assistent Ein Bereitstellungsprogramm, das eine Startrampe zum Installieren der verschiedenen Komponenten von Skype for Business Server bietet.
+   - **Skype for Business Server-Bereitstellungs-Assistent** Ein Bereitstellungsprogramm, das eine Startrampe zum Installieren der verschiedenen Komponenten von Skype for Business Server bietet.
     
    - **Skype for Business Server-Verwaltungsshell** Ein vorkonfiguriertes PowerShell-Programm, das die Verwaltung von Skype for Business Server ermöglicht.
     

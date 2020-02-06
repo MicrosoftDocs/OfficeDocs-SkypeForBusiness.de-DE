@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Überwachungsberichte einer von Skype for Business Server verwendeten Spiegeldatenbank zuordnen.'
-ms.openlocfilehash: 522ed5f9bd6e437a83e9cb3575ca92c0bd049e44
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 77e852860239ae6f87fce2b49fb6fa9f9d7c0834
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239886"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789933"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server 
  
@@ -41,7 +43,7 @@ Damit die Überwachungsberichte ein automatisches Failover zur Spiegeldatenbank 
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Nachdem Sie die Reporting Services-Startseite geöffnet haben, klicken Sie auf **ServerReports** und dann auf **Reports_Content**. Damit gelangen Sie zur **Reports_Content** -Seite für die Skype for Business Server-Überwachungsberichte.
+2. Nachdem Sie die Reporting Services-Startseite geöffnet haben, klicken Sie auf **ServerReports** und dann auf **Reports_Content**. Damit gelangen Sie zur **Reports_Content** Seite für die Skype for Business Server-Überwachungsberichte.
     
 3. Klicken Sie auf der Seite **Reports_Content** auf die Datenquelle **CDRDB**.
     

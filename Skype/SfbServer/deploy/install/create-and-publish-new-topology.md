@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine neue Topologie erstellen, veröffentlichen und überprüfen, bevor Sie Skype for Business Server installieren. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: c62e2ae061f02f195d0a9560d08234c452543d88
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 631b0e44dfc632cbcc07f4fa6020e39b8dd292e0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791803"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server
  
@@ -148,7 +150,7 @@ Sie können mithilfe von Skype for Business Server Topology Builder Topologien e
     - Wenn Sie den DNS-Lastenausgleich konfigurieren (wie im vorliegenden Beispiel), aktivieren Sie das Kontrollkästchen **FQDN der internen Webdienste außer Kraft setzen** und geben Sie in **Interne Basis-URL** die interne Basis-URL ein (diese muss sich vom Pool-FQDN unterscheiden). 
     
     > [!CAUTION]
-    > Wenn Sie die internen Webdienste mit einem eigenen FQDN außer Kraft setzen, muss der FQDN gegenüber jedem anderen Front-End-Pool, Director und Director-Pool eindeutig sein. **Nur Standardzeichen verwenden** (einschließlich a-z, a-z, 0-9 und Bindestriche), wenn Sie URLs oder vollständig qualifizierte Domänennamen definieren. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Nicht-Standardzeichen in einer URL oder vollqualifizierten Domänennamen (FQDN) werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn die URL oder der FQDN dem Antragstellernamen oder dem alternativen Antragstellernamen im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
+    > Wenn Sie die internen Webdienste mit einem eigenen FQDN außer Kraft setzen, muss der FQDN gegenüber jedem anderen Front-End-Pool, Director und Director-Pool eindeutig sein. **Verwenden Sie nur Standardzeichen** (einschließlich a-z, a-z, 0-9 und Bindestriche), wenn Sie URLs oder vollständig qualifizierte Domänennamen definieren. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Nicht-Standardzeichen in einer URL oder vollqualifizierten Domänennamen (FQDN) werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn die URL oder der FQDN dem Antragstellernamen oder dem alternativen Antragstellernamen im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
   
     - Geben Sie optional im Feld **Externe Basis-URL** die externe Basis-URL ein. Die externe Basis-URL wird zur Unterscheidung dieser URL von Ihrer internen Domänenbenennung eingegeben. Beispiel: Der Name Ihrer internen Domäne lautet „contoso.local“, der Name Ihrer externen Domäne lautet „contoso.com“. Zur Definition der URL würden Sie den Domänennamen „contoso.com“ verwenden, da dieser aus dem öffentlichen DNS auflösbar sein muss. Dies ist auch im Fall eines Reverseproxys wichtig. Der Domänenname der externen Basis-URL würde dem Domänennamen des vollqualifizierten Domänennamens des Reverseproxys entsprechen. Für Instant Messaging und Anwesenheit ist HTTP-Zugriff auf den Front-End-Pool erforderlich.
     

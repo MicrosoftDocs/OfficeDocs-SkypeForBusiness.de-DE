@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, Sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Skype for Business Online-Telefone zu konfigurieren.
-ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705810"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784752"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -40,7 +40,7 @@ In Unternehmen jeder Art ist eine wichtige Voraussetzung für die Geschäftstät
 
 Bevor Sie beginnen, sollten Sie die Administratorhandbücher und Telefonhandbücher des Telefonherstellers herunterladen.
   
-- Polycom-Telefone: [Polycom-Bereitstellungshandbuch](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)
+- Informationen zu Polycom-Telefonen finden Sie in der [Poly-Dokumentationsbibliothek](https://documents.polycom.com/category/voice).
     
 - Yealink-Telefone: [Yealink-HD-SIP-Telefonlösung für Skype for Business](http://www.yealink.com/products_top_2.html).
     

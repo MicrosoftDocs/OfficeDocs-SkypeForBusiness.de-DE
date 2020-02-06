@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Überwachung in Skype for Business Server bereitstellen.'
-ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: b40fd212df988a218d1cc75f18f82d2749925554
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634848"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790013"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen der Überwachung in Skype for Business Server
 

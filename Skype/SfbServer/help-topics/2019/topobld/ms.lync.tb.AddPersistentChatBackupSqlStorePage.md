@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie konfigurieren die Backup-SQL Server-Speicher, die Backup-Datenbanken für den beständigen Chat Server oder den Serverpool für beständigen Chat bereitstellen.
-ms.openlocfilehash: 215b2e21831bd4df5acf16267133e2ff1eada42f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 41c1d4428442f925077d08f08abc46cefc6939fd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702790"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787755"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Hinzufügen des SQL Server-Sicherungsspeichers für den beständigen Chat
 

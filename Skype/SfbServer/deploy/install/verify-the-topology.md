@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie überprüfen können, ob die Skype for Business Server-Topologie und die Active Directory-Server wie erwartet funktionieren. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: 6c7d7a67cab2cbd383ee26eb64f478985bcc4b27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aa631e5b08ff8cbe9cb6db17009f286dcc975679
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245236"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791713"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen der Topologie in Skype for Business Server
  
@@ -60,7 +62,7 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
     
 9. Wählen Sie im Bereich mit den Suchergebnissen alle hinzuzufügenden Benutzer aus und klicken Sie dann auf **OK**.
     
-10. Auf der **neuen Benutzerseite für Skype for Business Server** befinden sich die von Ihnen ausgewählten Benutzer in der Ansicht **Benutzer** . In the **Assign users to a pool** list, select the server where the users should reside.
+10. Auf der **neuen Benutzerseite für Skype for Business Server** befinden sich die von Ihnen ausgewählten Benutzer in der Ansicht **Benutzer** . Wählen Sie in der Liste **Benutzer einem Pool zuweisen** den Server aus, auf dem sich die Benutzer befinden sollen.
     
     Im Folgenden finden Sie eine Liste der Optionen, die Sie zum Konfigurieren der Objekte verwenden können.
     

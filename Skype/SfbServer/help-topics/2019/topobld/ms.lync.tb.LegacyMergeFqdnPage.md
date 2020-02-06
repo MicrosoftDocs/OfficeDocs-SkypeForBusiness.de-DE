@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der interne FQDN des Access-Edge-Pools wird für eine Vielzahl von Szenarien verwendet, in denen interne Benutzer mit externen Benutzern für Föderation, Remotebenutzerzugriff und öffentliche Chat Verbindungen kommunizieren. Wenn ein Edge-Server mit Lastenausgleich in ihrer Legacyumgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des internen Lastenausgleichsmoduls ein.
-ms.openlocfilehash: 324f82f31e2f0e49b77ca063f9eba162dad7e108
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 40af6b5ffa57df56f1b41760435b3d8b9f13715e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688308"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787705"
 ---
 # <a name="legacy-merge-fqdn"></a>Legacyzusammenführung – FQDN
  

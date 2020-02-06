@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678969"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790613"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -54,6 +54,9 @@ Wenn Benutzer an einem domänengebundenen Computer arbeiten (z.B. wenn ihr Manda
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Abmeldung von Microsoft Teams nach Abschluss der modernen Authentifizierung
 Um sich von Teams abzumelden, können Benutzer auf ihr Profilbild oben in der App klicken und dann **Abmelden** wählen. Sie können auch mit der rechten Maustaste auf das App-Symbol in der Taskleiste klicken und dann **Abmelden** wählen. Sobald sie sich von Teams abgemeldet haben, müssen sie ihre Anmeldeinformationen erneut eingeben, um die App zu starten.
+
+## <a name="urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche
+Für Teams ist eine Internet Verbindung erforderlich. Wenn Sie Endpunkte verstehen möchten, die für Kunden mit Teams in Office 365-Plänen, Behörden und anderen Clouds erreichbar sein sollten, lesen Sie die [hier verfügbaren Anleitungen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Darüber hinaus müssen Sie auch den Zugriff auf https://ssl.gstatic.comaktivieren.
 
 ## <a name="troubleshooting-modern-authentication"></a>Problembehandlung bei der modernen Authentifizierung
 

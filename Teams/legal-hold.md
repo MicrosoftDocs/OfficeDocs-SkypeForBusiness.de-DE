@@ -1,7 +1,7 @@
 ---
 title: Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
+ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968036"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779220"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================
@@ -29,7 +29,7 @@ Um die gesetzliche Aufbewahrung für einen Benutzer oder ein Team festzulegen, n
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
 
 > [!NOTE]
-> Wir unterstützen noch keine Konfiguration für den rechtlichen Besitz privater Kanal Nachrichten. Der rechtliche Halt von Dateien, die in privaten Kanälen freigegeben werden, wird unterstützt.
+> Die Unterstützung für die rechtliche Aufbewahrung privater Kanal Nachrichten steht in Kürze zur Verfügung. Der rechtliche Halt von Dateien, die in privaten Kanälen freigegeben werden, wird unterstützt.
 
 > [!IMPORTANT]
 > Wenn ein Benutzer oder eine Gruppe in Wartestellung gesetzt wird, bleiben alle Nachrichten-Kopien erhalten. Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert. In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten. Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.
