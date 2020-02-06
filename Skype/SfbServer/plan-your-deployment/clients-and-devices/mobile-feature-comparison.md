@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Zusammenfassung: Überprüfen Sie die Funktionsunterstützung für den mobilen Client bei der Planung für Skype for Business Server.'
-ms.openlocfilehash: d3d3764ee5315b4fe211b4f79ea2401b98703261
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 85d193fba624a7895b975bb30bf6392e9fc8c563
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803545"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Vergleich der Features für mobile Clients in Skype for Business
  
@@ -98,7 +100,7 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
 |Status basierend auf Kalenderinformationen (frei/gebucht) anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Statushinweise und Abwesenheitsnotizen anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Benutzerdefinierten Standort hinzufügen  <br/> |&#x2714;||||
-|Benutzerdefinierte Notiz hinzufügen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Eigene Notiz hinzufügen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Status basierend auf Kalenderinformationen (frei/gebucht) veröffentlichen   <br/> |&#x2714; &#x2776; ||||
 |Anwesenheitsstatus manuell festlegen (z. B. gebucht, nicht stören usw.)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
@@ -113,8 +115,8 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
 |Kontaktgruppen anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Gruppe „Häufig verwendete Kontakte“ anzeigen  <br/> |&#x2714;||||
 |Kontaktliste ändern  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Kontakte für Statusänderungsbenachrichtigungen markieren  <br/> |&#x2714;||||
-|Private Beziehungen verwalten  <br/> |&#x2714;||||
+|Kennzeichnen von Kontakten für Benachrichtigungen bei Statusänderungen  <br/> |&#x2714;||||
+|Private Beziehungen steuern  <br/> |&#x2714;||||
 |Unternehmensadressbuch durchsuchen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Kontaktliste durchsuchen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Kontaktgruppen verwalten  <br/> |&#x2714;|||&#x2714;|
@@ -131,7 +133,7 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
  | Feature/Funktion  | Skype for Business-Desktop Client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Chatnachrichten mit einem Kontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|An Chats mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|An Chatnachrichten mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Andere vom Unterhaltungsfenster aus einladen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Aktuelle Unterhaltungen anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Zwischen mehreren Chatunterhaltungen navigieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -160,11 +162,11 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
  | Feature/Funktion  | Skype for Business-Desktop Client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |In einer Besprechungserinnerung auf einen Link klicken, um an einer Video- oder VoIP-Besprechung teilzunehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|An Chats mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|An Chatnachrichten mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Dial-Out-Konferenzen verwenden (Server ruft das mobile Gerät an)  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |Einwahlaudiokonferenzen verwenden  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Besprechungsvideo anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |&#x2714;||||
+|Video mit mehreren Teilnehmern ansehen (Katalogansicht)  <br/> |&#x2714;||||
 |Warten in Besprechungslobby  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |&#x2714;||||
 |Auf detaillierte Besprechungsliste für Audiokonferenzen zugreifen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -191,14 +193,14 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
  | Feature/Funktion  | Skype for Business-Desktop Client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Tippen Sie in Skype for Business auf das Anrufsymbol, um einen Kontakt anzurufen.  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Anrufdurchstellung  <br/> |&#x2714;|&#x2714;|&#x2714;||
+|Anruf weiterleiten  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |Durchstellen mit Ankündigung  <br/> |&#x2714; &#x2778; ||||
 |Anrufweiterleitung verwalten  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|
-|Einstellungen für Teamanrufe verwalten  <br/> |&#x2714; &#x2776; ||||
+|Einstellungen für Teamanruf verwalten  <br/> |&#x2714; &#x2776; ||||
 |Stellvertretungen verwalten  <br/> |&#x2714; &#x2776; ||||
 |Anruf an eine Reaktionsgruppe initiieren  <br/> |&#x2714; &#x2776; ||||
 |Unterstützung von Notrufdiensten  <br/> |&#x2714; &#x2777; ||||
-|Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario)  <br/> |&#x2714; &#x2776; ||||
+|Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)  <br/> |&#x2714; &#x2776; ||||
 |Behandeln der Anrufe eines anderen Kontakts, wenn er als Stellvertretung konfiguriert ist  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |„Geschäftlich anrufen“ verwenden   <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
 |Auf Voicemail zugreifen  <br/> |&#x2714;|&#x2714;|&#x2714;||
@@ -216,7 +218,7 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
  | Feature/Funktion  | Skype for Business-Desktop Client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Chatnachricht mit öffentlichem Kontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Chat mit Partnerkontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Chatnachricht mit Partnerkontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Anrufe mit zwei Teilnehmern mit externen Benutzern durchführen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Anrufe mit mehreren Teilnehmern mit externen Benutzern durchführen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Verwenden Sie Anruf über Arbeit, um einen Föderations Kontakt auf seinem Mobiltelefon zu erreichen, indem Sie die veröffentlichte Arbeitsnummer anrufen #a0            <br/> ||&#x2714;|&#x2714;|&#x2714;|
@@ -245,14 +247,14 @@ Auf IOS-Geräten meldet sich Skype for Business automatisch ab, nachdem der Mobi
 
 Diese Tabelle enthält Funktionen, die Unterstützung für moderne Authentifizierung erfordern.
   
-Die moderne Authentifizierung erfordert auch eine Topologie, die in Skype for Business-Topologien beschrieben ist, die [mit moderner Authentifizierung unterstützt werden](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+Moderne Authentifizierung erfordert außerdem eine Topologie, die in[Skype for Business-Topologien, die von Moderner Authentifizierung unterstützt werden ](../../plan-your-deployment/modern-authentication/topologies-supported.md)beschrieben wird.
   
 
  | Feature/Funktion  | Skype for Business-Desktop Client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Moderne Authentifizierung  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Mehrstufige Authentifizierung  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Zertifikatbasierte Authentifizierung  <br/> |&#x2714; (nur Domänen verbundenes Gerät)  <br/> ||&#x2714;|&#x2714;|
+|Zertifikatbasierte Authentifizierung  <br/> |&#x2714; (Nur in eine Domäne eingebundene Geräte)  <br/> ||&#x2714;|&#x2714;|
 |Verwaltung mobiler Anwendungen (über InTune)  <br/> |||&#x2714;|&#x2714;|
    
 

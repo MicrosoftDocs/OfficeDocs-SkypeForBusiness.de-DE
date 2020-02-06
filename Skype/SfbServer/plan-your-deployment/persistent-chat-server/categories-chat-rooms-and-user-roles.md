@@ -8,15 +8,17 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Kategorien, Chatrooms sowie Benutzer-und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erhalten.'
-ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 03a7b68a9728b60ebae25081e3e974bb61b0fc5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815763"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
  
@@ -66,7 +68,7 @@ Zusätzlich zu den zugelassenen und abgelehnten Mitgliedern für Kategorien kön
 
 Im folgenden finden Sie Administratorrollen für den Server für beständigen Chat:
   
-- **Administrator**des beständigen Chats: die Administratorrolle des beständigen Chats kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, als deaktiviert kennzeichnen) sowie Chatrooms erstellen und verwalten, die definieren, wer kann Chatrooms erstellen und darauf zugreifen. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration) und auch die Migration von einer älteren Gruppen-Chat Server Bereitstellung in Skype for Business Server 2015 planen und implementieren. Beständiger Chat Server.
+- **Administrator für beständigen Chat**: die Administratorrolle des beständigen Chats kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, als deaktiviert kennzeichnen) sowie Chatrooms erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert kennzeichnen und Chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen des Erstellers oder der zulässigen Mitglieder. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied zu einem Chatroom hinzufügen. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration) und auch die Migration von einer älteren Gruppen-Chat Server Bereitstellung in Skype for Business Server 2015 planen und implementieren. Beständiger Chat Server.
     
     Administratoren für beständigen Chat können den Server für beständigen Chat mithilfe von Windows PowerShell-Cmdlets remote verwalten (also von einem anderen Computer als dem beständigen Chat Server). Der beständige Chat Server überprüft, ob der Administrator des beständigen Chats ein Mitglied der lokalen Gruppe RTC Local Administrator auf dem Front-End-Server des beständigen Chats ist.
     

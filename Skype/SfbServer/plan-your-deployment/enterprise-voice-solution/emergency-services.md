@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Erfahren Sie mehr über erweiterte 9-1-1 (E9-1-1)-Dienste in Skype for Business Server Enterprise-VoIP, einschließlich Standorterfassung und Anrufweiterleitung.
-ms.openlocfilehash: 20d1a258b022b8369f59aaa74a2b95de45f931e2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f09729bc6fdbd2fa64dee5b30af88494cd618915
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276894"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802985"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planen von Notfalldiensten in Skype for Business Server
 
@@ -41,7 +43,7 @@ Skype for Business Server unterstützt zwei Methoden zum Routing von Notrufen an
 
 - Ein ELIN (Emergency Location Identification Number)-Gateway zu einem Festnetz (Public Switched Telephone, PSTN)-basierten E9-1-1-Dienstanbieter
 
-Wenn Sie einen SIP Trunk E9-1-1 Dienstanbieter verwenden, fügen Sie ERLs der Datenbank des Standort Informationsdiensts hinzu, und überprüfen Sie dann die Speicherorte mit einem Master Street Address Guide (MSAG), der vom E9-1-1-Dienstanbieter verwaltet wird. Wenn ein Dienstanbieter E9-1-1 einen Anruf empfängt, der keine Standortinformationen hat oder einen Speicherort aufweist, der nicht mit dem MSAG überprüft wurde, leitet der E9-1-1-Dienstanbieter den Anruf an ein nationales/regionales Notruf Center (ECRC) weiter, das Personal mit speziell geschulten Mitarbeitern, die den Standort des Anrufers, wenn möglich, mündlich abrufen und den Anruf manuell an die entsprechende PSAP weiterleiten. (Einige SIP Trunk E9-1-1-Service-Anbieter bieten Kunden auch eine direkte PSTN-Wählnummer (DID) an den ECRC, die ein alternatives Mittel zur Weiterleitung von 9-1-1-anrufen bietet, wenn der SIP-Trunk aus irgendeinem Grund fehlschlägt.)
+Wenn Sie einen SIP Trunk E9-1-1 Dienstanbieter verwenden, fügen Sie ERLs der Datenbank des Standort Informationsdiensts hinzu, und überprüfen Sie dann die Speicherorte mit einem Master Street Address Guide (MSAG), der vom E9-1-1-Dienstanbieter verwaltet wird. Wenn ein Dienstanbieter E9-1-1 einen Anruf empfängt, der keine Standortinformationen hat oder einen Speicherort aufweist, der nicht mit dem MSAG überprüft wurde, der E9-1-1-Service-Anbieter leitet den Anruf an ein nationales/regionales Notruf Center (ECRC) weiter, das mit speziell geschulten Mitarbeitern besetzt ist, die den Standort des Anrufers, wenn möglich, verbal abrufen und den Anruf manuell an die entsprechende PSAP weiterleiten. (Einige SIP Trunk E9-1-1-Service-Anbieter bieten Kunden auch eine direkte PSTN-Wählnummer (DID) an den ECRC, die ein alternatives Mittel zur Weiterleitung von 9-1-1-anrufen bietet, wenn der SIP-Trunk aus irgendeinem Grund fehlschlägt.)
 
 Im Gegensatz zu Time Division Multiplexing (TDM) und IP-basierter PBX-Telefone (Private Branch Exchange), die über feste Standorte verfügen, kann ein Skype for Business-Endpunkt sehr mobil sein. Wenn Sie das E9-1-1-Feature bereitstellen, hilft Skype for Business Server dabei, sicherzustellen, dass der Notruf unabhängig von der Position des Anrufers an die PSAP weitergeleitet werden kann, die dem Aufenthaltsort des Anrufers dient. Wenn sich beispielsweise die Hauptniederlassung eines Benutzers in Redmond, Washington befindet, der Benutzer aber einen Notruf von einem Computer in einer Zweigniederlassung in Wichita, Kansas durchführt, leitet der SIP Trunk oder der PSTN-basierte E9-1-1-Dienstanbieter den Anruf an das PSAP in Wichita weiter. , nicht auf die PSAP in Redmond.
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über den Statistik-Manager für Skype for Business Server zu erfahren.'
-ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bf7a5366047a0f4435a98cd8bca75eeb3ebc8d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299737"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816234"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen von Statistics Manager für Skype for Business Server
 
@@ -111,7 +113,7 @@ Der Statistik-Manager besteht aus den folgenden Komponenten:
 
 - **Website.** Eine Benutzeroberfläche, die alle im System verfügbaren Features zusammenzieht.
 
-Darüber hinaus benötigt der Statistik- **** Manager einen Open-Source-Datenstruktur Server mit einem Open-Source-Server für die speicherinterne Zwischenspeicherung. Weitere Informationen zum Herunterladen von a/a finden Sie unter [Bereitstellen des Statistik-Managers](deploy.md#BKMK_Deploy) .
+Darüber hinaus benötigt der Statistik-Manager einen Open- **Source-Daten**Struktur Server mit einem Open-Source-Server für die speicherinterne Zwischenspeicherung. Weitere Informationen zum Herunterladen von a/a finden Sie unter [Bereitstellen des Statistik-Managers](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Lokale Bereitstellung
 <a name="BKMK_DeploymentOptions"> </a>

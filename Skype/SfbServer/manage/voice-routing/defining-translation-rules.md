@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern, die im E. 164-Format normalisiert sind, weiter. Das bedeutet, dass alle gewählten Zeichenfolgen im E. 164-Format normalisiert werden müssen, um RNL (Reverse Number Lookup) durchzuführen, damit Sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit zum Manipulieren der angerufenen ID und der Rufnummernanzeige.
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274976"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816985"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definieren von Übersetzungsregeln in Skype for Business Server
 
@@ -28,7 +30,7 @@ Skype for Business Server bietet die Möglichkeit, die Telefonnummer des anrufen
 
 **So konfigurieren Sie die Rufnummernanzeige mithilfe des Skype for Business Server-Control Panels**
 
-1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die Systemsteuerung zu öffnen. Einzelheiten zu den verschiedenen Methoden, mit denen Sie das Skype Control Panel für Unternehmen starten können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **Trunkkonfiguration**.
 4. Doppelklicken Sie auf der Seite Trunkkonfiguration auf einen vorhandenen Trunk (z. B. auf den Trunk **Global**), um das Dialogfeld **Trunkkonfiguration bearbeiten** zu öffnen.
@@ -61,7 +63,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 **So definieren Sie eine Regel mit dem Tool zum Erstellen einer Übersetzungsregel**
 
-1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die Systemsteuerung zu öffnen. Einzelheiten zu den verschiedenen Methoden, mit denen Sie das Skype Control Panel für Unternehmen starten können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Wenn Sie mit dem Definieren einer Übersetzungsregel beginnen möchten, führen Sie die Schritte unter [Konfigurieren eines Trunks mit medienumgehung](GET LINK AFTER MIGRATION)durch Schritt 10 aus, oder [Konfigurieren Sie einen trunk ohne medienumgehung](GET LINK AFTER MIGRATION) in Schritt 9.
 4. Geben Sie unter **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
@@ -96,7 +98,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 **So definieren Sie eine Übersetzungsregel manuell**
 
-1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die Systemsteuerung zu öffnen. Einzelheiten zu den verschiedenen Methoden, mit denen Sie das Skype Control Panel für Unternehmen starten können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Wenn Sie mit dem Definieren einer Übersetzungsregel beginnen möchten, führen Sie die Schritte unter [Konfigurieren eines Trunks mit medienumgehung](GET LINK AFTER MIGRATION)durch Schritt 10 aus, oder [Konfigurieren Sie einen trunk ohne medienumgehung](GET LINK AFTER MIGRATION) in Schritt 9.
 4. Geben Sie im Feld **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.

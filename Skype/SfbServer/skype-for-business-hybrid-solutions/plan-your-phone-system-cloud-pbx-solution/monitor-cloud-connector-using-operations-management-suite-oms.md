@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector-Version 2,1 und spätere Bereitstellung mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
-ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799625"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS).
 
@@ -116,13 +118,13 @@ Im OMS-Portal müssen Sie Informationen zu den Ereignisprotokollen und Leistungs
 
    - LS: MediationServer-eingehende Anrufe (_Total\- ) aktuell 
 
-   - LS: MediationServer-Outbound Calls (_Total\- ) Current 
+   - LS: MediationServer-ausgehende Anrufe (_Total\- ) aktuell 
 
      Gesamtzahl der aktiven Medien Umgehungs Anrufe:
 
-   - LS: MediationServer-eingehende Anrufe (_Total\- ) aktive Medien Umgehungs Anrufe 
+   - LS: MediationServer-eingehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
 
-   - LS: MediationServer-Outbound Calls (_Total\- ) Active Media Bypass-Anrufe 
+   - LS: MediationServer-ausgehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
 
      > [!NOTE]
      > Sie müssen die Leistungsindikatoren manuell in das Textfeld eingeben. Sie werden in der Dropdownliste nicht als Optionen angezeigt. 
@@ -235,11 +237,11 @@ Im folgenden sind die Leistungsindikatoren für die Anrufkapazität aufgeführt,
 
 - LS: MediationServer-eingehende Anrufe (_Total\- ) aktuell 
 
-- LS: MediationServer-Outbound Calls (_Total\- ) Current 
+- LS: MediationServer-ausgehende Anrufe (_Total\- ) aktuell 
 
-- LS: MediationServer-eingehende Anrufe (_Total\- ) aktive Medien Umgehungs Anrufe
+- LS: MediationServer-eingehende Anrufe (_Total\- ) Active Media Bypass-Anrufe
 
-- LS: MediationServer-Outbound Calls (_Total\- ) Active Media Bypass-Anrufe
+- LS: MediationServer-ausgehende Anrufe (_Total\- ) Active Media Bypass-Anrufe
 
 ## <a name="see-also"></a>Siehe auch
 

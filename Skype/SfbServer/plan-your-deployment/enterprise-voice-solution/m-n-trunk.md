@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype for Business Server Enterprise Voice unterstützt M:N Trunking zwischen Mediation Server und Komponenten wie PSTN-Gateways, Session Border Controllers und IP-PBX.
-ms.openlocfilehash: 24be86c3b174eff70632ddd85a71b5ee7016b990
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9a4a4f08f71cf00e079a5fe9fc5598380936474
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276733"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802735"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N trunk in Skype for Business Server
  
@@ -27,7 +29,7 @@ Skype for Business Server Enterprise Voice unterstützt M:N Trunking zwischen Me
   
 Skype for Business Server unterstützt eine größere Flexibilität bei der Definition eines Trunks für Anruf Weiterleitungs Zwecke aus früheren Versionen. Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungs Server und einer Abhör Portnummer mit einem Gateway und einer Abhör Portnummer. Dies impliziert mehrere Dinge: ein Vermittlungs Server kann mehrere Trunks zum gleichen Gateway haben; ein Vermittlungs Server kann mehrere Trunks zu unterschiedlichen Gateways aufweisen. Umgekehrt kann ein Gateway mehrere Trunks zu verschiedenen Vermittlungsservern aufweisen.
   
-Sie müssen immer noch einen Stamm Stamm erstellen, wenn Sie den Topologie-Generator verwenden, um ein Gateway zur Topologie ADDE. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungs Server auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für Skype for Business Server überschreitet, wie unter [Server Anforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)beschrieben, wird die Einschätzung, wie viele aktive nicht-Bypass-Anrufe a der eigenständige Vermittlungs Server kann etwa 1000-Anrufe verarbeiten. Bei der Bereitstellung auf Hardware, die diese Spezifikationen erfüllt, wird von dem Vermittlungs Server erwartet, dass Sie Transcodierung durchführen, aber weiterhin Anrufe für mehrere Gateways weiterleiten, auch wenn die Gateways keine medienumgehung unterstützen.
+Sie müssen immer noch einen Stamm Stamm erstellen, wenn Sie den Topologie-Generator verwenden, um ein Gateway zur Topologie ADDE. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungs Server auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für Skype for Business Server überschreitet, wie unter [Server Anforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)beschrieben, ist die Schätzung, wie viele aktive nicht-Bypass-Anrufe ein eigenständiger Vermittlungsserver verarbeiten kann, ungefähr 1000 Anrufe. Bei der Bereitstellung auf Hardware, die diese Spezifikationen erfüllt, wird von dem Vermittlungs Server erwartet, dass Sie Transcodierung durchführen, aber weiterhin Anrufe für mehrere Gateways weiterleiten, auch wenn die Gateways keine medienumgehung unterstützen.
   
 Wenn Sie eine Anrufroute definieren, geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver dieser Route zugeordnet sind. Stattdessen verwenden Sie den Topologie-Generator, um Trunks mit Vermittlungsservern zu verknüpfen. Mit anderen Worten: das Routing bestimmt, welcher trunk für einen Anruf verwendet werden soll, und anschließend wird der dem Stamm zugeordnete Vermittlungs Server für diesen Anruf signalisiert.
   

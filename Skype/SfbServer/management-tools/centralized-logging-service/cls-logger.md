@@ -8,16 +8,18 @@ ms.date: 2/25/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Protokollierung für zentralisierte Protokollierungsdienste (CLS) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274464"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816614"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger für Skype for Business Server 2015
  

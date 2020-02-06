@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: In der VideoStreamDetail-Ansicht werden Informationen zu den einzelnen Videodatenströmen in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: ee342de919ffca8b62c60f8c7b724f3dc7be0205
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fb598feec3b4dca87086504c620109a99bce7d0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294530"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804145"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail-Ansicht
  
@@ -24,9 +26,9 @@ In der VideoStreamDetail-Ansicht werden Informationen zu den einzelnen Videodate
   
 |**Spalte**|**Datentyp**|**Beschreibung**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|SessionSeq  <br/> |int  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionTime  <br/> |datetime  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionSeq  <br/> |int  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |Datenstrom-Nr  <br/> |int  <br/> |Eindeutige ID innerhalb einer medienzeile  <br/> |
 |StartTime  <br/> |datetime  <br/> |Startzeit der Sitzung.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Endzeit der Sitzung.  <br/> |

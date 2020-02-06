@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie die Active Directory-Domänendienst-Gesamtstruktur vorbereiten möchten, müssen Sie das Schema erfolgreich erweitern, wie im Thema Ausführen der Schemavorbereitung beschrieben, und sicherstellen, dass das Schema repliziert wurde.
-ms.openlocfilehash: 8c472588dc67ef0e8bc86afb86bcad200df307f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0458fee54814f7f48382709a0509494e770d3e2b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691810"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798312"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 

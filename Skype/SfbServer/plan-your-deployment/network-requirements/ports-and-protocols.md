@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überprüfen Sie die Port Nutzungs Überlegungen, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297022"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802015"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Port-und Protokollanforderungen für Server
  

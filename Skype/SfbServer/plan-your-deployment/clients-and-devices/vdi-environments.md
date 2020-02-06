@@ -8,18 +8,20 @@ ms.date: 1/9/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: In diesem Thema werden Planungsüberlegungen zur Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remote Desktop erläutert.
-ms.openlocfilehash: c6bf1cea2a18920231ea4d347b8b0471cfebbba3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d2d65167eb574d17e31c19759364841147af6c05
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221239"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803505"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planen für Skype for Business in VDI-Umgebungen
  
@@ -29,7 +31,7 @@ Eine VDI-Umgebung (Virtual Desktop Infrastructure) wird in einigen Organisatione
   
 Für die VDI-Plug-in-Komponente, die von Microsoft, Citrix oder VMware angeboten wird, stehen drei Lösungen zur Verfügung. Für neue Bereitstellungen empfiehlt Microsoft die Verwendung der Citrix HDX Realtime Optimization Pack-Lösung oder des VMware Horizon Virtualization Pack. Das ursprüngliche lync-VDI-Plug-in wird für den Rest des Lebenszyklus weiterhin unterstützt.
   
-- Das **lync-VDI-Plug-in** wurde für lync 2013 entwickelt und ist entweder mit dem lync 2013-oder Skype for Business 2015-Client kompatibel, der auf einem virtuellen Desktop ausgeführt wird. It's a stand-alone application that installs on the local computer and allows the use of local audio and video devices with a client on a virtual desktop. Für das Plug-in muss kein Skype for Business-Client auf dem lokalen Computer oder Thin Client installiert werden, auf dem Windows 7-, Windows 8-oder Windows Server 2008-Betriebssysteme ausgeführt werden müssen. (Thin Client-Geräte, die diese Betriebssysteme verwenden und von Microsoft unterstützt werden, sind: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP T610 und HP t5740e.) Dieses Plug-in wird weiterhin unterstützt, aber es sind keine zukünftigen Updates geplant. For Citrix-based virtual environments, the Citrix RealTime Optimization Pack is recommended.
+- Das **lync-VDI-Plug-in** wurde für lync 2013 entwickelt und ist entweder mit dem lync 2013-oder Skype for Business 2015-Client kompatibel, der auf einem virtuellen Desktop ausgeführt wird. Es handelt sich um eine eigenständige Anwendung, die auf dem lokalen Computer installiert wird und die Verwendung lokaler Audio-und Videogeräte mit einem Client auf einem virtuellen Desktop ermöglicht. Für das Plug-in muss kein Skype for Business-Client auf dem lokalen Computer oder Thin Client installiert werden, auf dem Windows 7-, Windows 8-oder Windows Server 2008-Betriebssysteme ausgeführt werden müssen. (Thin Client-Geräte, die diese Betriebssysteme verwenden und von Microsoft unterstützt werden, sind: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP T610 und HP t5740e.) Dieses Plug-in wird weiterhin unterstützt, aber es sind keine zukünftigen Updates geplant. Für Citrix-basierte virtuelle Umgebungen wird das Citrix Realtime Optimization Pack empfohlen.
     
 - Das **Citrix Realtime Optimization Pack** baut auf dem lync-VDI-Plug-in auf und funktioniert mit lync 2013-oder Skype for Business 2016-Clients auf einem virtuellen Desktop. Es wurde gemeinsam von Citrix und Microsoft als Verbesserung des ursprünglichen VDI-Plug-Ins entwickelt. Es kann auf Clients unter Windows- und Nicht-Windows-Betriebssystemen (einschließlich Windows 10, Mac und Linux) installiert werden. Es besteht aus zwei Komponenten: dem Realtime-Connector (der auf dem virtuellen Desktop installiert ist) und dem Echt Zeit Medienmodul (das auf dem lokalen Computer des Endbenutzers installiert ist). Diese beiden Komponenten ermöglichen es dem lokalen Computer des Benutzers, den Skype for Business-Client auf dem virtuellen Desktop zu verwenden, wobei die A/V-Verarbeitung auf den lokalen Computer verschoben wird. Für Citrix-basierte virtuelle Desktopumgebungen wird Citrix RealTime Optimization Pack empfohlen, für das weitere Unterstützung geplant ist.
     

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Anruf Diagnose Zusammenfassung, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279740"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817664"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server
  
@@ -45,7 +47,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte "Instant Messaging" für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)aus, einem Bericht, der zusätzliche Informationen zu allen Instant Messaging-Sitzungen, die im Zusammenfassungsbericht zur Anruf Diagnose enthalten sind.
+Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte Instant Messaging für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)aus, einem Bericht, der zusätzliche Details zu allen Chat-Sitzungen enthält, die im Bericht zur Anruf Diagnose Zusammenfassung enthalten sind.
   
 ## <a name="filters"></a>Filter
 

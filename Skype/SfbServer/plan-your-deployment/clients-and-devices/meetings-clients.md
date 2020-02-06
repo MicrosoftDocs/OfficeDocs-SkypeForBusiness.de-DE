@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten sollten die Supportanforderungen für die Skype for Business Web App-und Skype-Besprechungs-APP während der Planung für Skype for Business Server überprüfen. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277314"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803555"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungs Clients (app für Web App und Besprechungen)
  
@@ -38,7 +40,7 @@ Später können diese Benutzer Besprechungen erstellen und Benutzer von außerha
   
 Standardmäßig leitet der Server, auf dem die Besprechung gehostet wird, den Benutzer zum herunterladen und Installieren von Skype for Business Web App, um an der Besprechung teilzunehmen. Die Skype for Business-Web-App ist auf dem Front-End-Server gespeichert und wird an den Besprechungsteilnehmer gesendet. 
   
-Für Skype for Business Server stehen die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (unter Mac) als Ersatz für Skype for Business Web App ab CU5 zur Verfügung, aber die Bereitstellung der Ersatz-apps erfordert die zusätzliche Konfiguration. beschrieben unter [Aktivieren der Skype-Besprechungs-App zum Ersetzen von Skype for Business Web App (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Wenn Skype-Besprechungs-APP und Skype for Business für Mac aktiviert sind, werden die Benutzer die neueste Version der Apps aus dem Office 365 Content Delivery Network (CDN) herunterladen, anstatt von Ihrem Skype for Business-Server. Für Skype for Business Server 2019 ist die Verwendung der Skype-Besprechungs-APP und von Skype for Business für Mac die einzige Option.
+Für Skype for Business Server sind die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (auf dem Mac) als Ersatz für Skype for Business Web App ab CU5 verfügbar, aber die Bereitstellung der Ersatz-apps erfordert die zusätzliche Konfiguration, die unter [Aktivieren der Skype-Besprechungs-App zum Ersetzen von Skype for Business Web App (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)beschrieben ist.  Wenn Skype-Besprechungs-APP und Skype for Business für Mac aktiviert sind, werden die Benutzer die neueste Version der Apps aus dem Office 365 Content Delivery Network (CDN) herunterladen, anstatt von Ihrem Skype for Business-Server. Für Skype for Business Server 2019 ist die Verwendung der Skype-Besprechungs-APP und von Skype for Business für Mac die einzige Option.
   
 Die Skype-Besprechungs-App bietet eine vereinfachte Browserumgebung zum herunterladen und Installieren der APP sowie zum teilnehmen an Besprechungen, einschließlich einer Klick-Teilnahme für Benutzer von Internet Explorer. Die Skype-Besprechungs-App bietet zudem zahlreiche Verbesserungen gegenüber der Skype for Business Web App für Zuverlässigkeit und die Besprechungs Erfahrung. 
   
@@ -54,12 +56,12 @@ Um die Skype for Business-Web-App verwenden zu können, muss ein Benutzer über 
 
 | Betriebssystem | Edge | 32-und 64-Bit Internet Explorer 11 oder höher | 32-und 64-Bit Internet Explorer 10 oder höher | 32-und 64-Bit Internet Explorer 9 oder höher | 32-und 64-Bit-Version von Safari 6.2.8-11. X | 32-und 64-Bit-Version von Chrome 18. X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Ja   <br/> |Ja  <br/> |-  <br/> |-  <br/> |-  <br/> |Ja #a0 <br/> |
-|Windows 8,1 #a0 <br/> |n/v  <br/> |Ja  <br/> |-  <br/> |-  <br/> |- <br/> |Ja #a0 <br/> |
-|Windows 8 (Intel-basiert) #a0 <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |- <br/> |-  <br/> |Ja #a0 <br/> |
+|Windows 10  <br/> |Ja   <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja #a0 <br/> |
+|Windows 8,1 #a0 <br/> |n/v  <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend <br/> |Ja #a0 <br/> |
+|Windows 8 (Intel-basiert) #a0 <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nicht zutreffend <br/> |Nicht zutreffend  <br/> |Ja #a0 <br/> |
 |Windows 7 mit SP1 #a0 <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |n/v <br/>|Ja #a0 <br/> |
 |Windows Server 2008 R2 mit SP1 #a0 <br/> |n/v  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja #a0 <br/> |
-|macOS 10,8 und höher (Intel-basiert) #a0 <br/> |-  <br/> |-  <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
+|macOS 10,8 und höher (Intel-basiert) #a0 <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Ja <br/> |
    
 &#x2776; das Plug-in für das Skype for Business Web App-Browser ein spezielles Freigabe-Plug-in für die Verwendung von computerbasierter sprach-, Video-, Freigabe-und Anzeige der laufenden Bildschirmfreigabe und anderer Features erfordert. Eine Besprechungs Teilnehmerin erhält die Option, das Freigabe-Plug-in zu installieren, wenn Sie an der Besprechung teilnehmen oder eine dieser Features initiieren. Unter Windows 8 und Windows 8,1 kann das Freigabe-Plug-in nur installiert werden, wenn Sie mit Internet Explorer 10 oder Internet Explorer 11 für den Desktop arbeiten. Diese Features sind für nicht-Desktop Versionen von Internet Explorer 10 und 11 nicht verfügbar. Beachten Sie, dass Firefox und Safari, Version 12,0 und höher, nicht mehr unterstützt werden.
   
@@ -83,7 +85,7 @@ Skype for Business für Mac wird auf Computern unter macOS Version 10,8 oder hö
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 <a name="OS-Browser"> </a>
 
-Die Anforderungen an die Computerhardware sind vom Betriebssystem und vom Browser abhängig. Für die Sprach- und Telefoniefunktionen werden ein Mikrofon und Lautsprecher, ein Headset mit Mikrofon oder ein ähnliches Gerät benötigt, das mit dem Computer kompatibel ist. Für die Videofunktionen ist ein Videogerät erforderlich, das mit dem Computer kompatibel ist. Detaillierte Informationen zur Unterstützung von Videohardware und zu erwarteter Videoqualität finden Sie unter [Skype for Business-Client-Video](video-resolutions.md)Auflösungen.
+Die Anforderungen an die Computerhardware sind vom Betriebssystem und vom Browser abhängig. Für die Sprach- und Telefoniefunktionen werden ein Mikrofon und Lautsprecher, ein Headset mit Mikrofon oder ein ähnliches Gerät benötigt, das mit dem Computer kompatibel ist. Für die Videofunktionen ist ein Videogerät erforderlich, das mit dem Computer kompatibel ist. Detaillierte Informationen zur Unterstützung von Videohardware und zu erwarteter Videoqualität finden Sie unter [Skype for Business-Client-Videoauflösungen](video-resolutions.md).
   
 ## <a name="network-requirements"></a>Netzwerkanforderungen
 <a name="Network"> </a>
@@ -97,17 +99,17 @@ Wenn sich der Benutzer in einem Netzwerk befindet, das nicht wie beschrieben kon
 
 Diese Tabelle vergleicht die besprechungsfeatures, die Benutzern des Skype for Business-Clients, der Skype for Business-Web-App, der Skype-Besprechungs-APP und der lync Web App zur Verfügung stehen. Lync Web App ist für Funktionsvergleichs Zwecke aufgelistet: ein Benutzer würde nur lync Web App herunterladen und verwenden, wenn die Besprechung auf einem lync 2013-Server gehostet wurde.
 
-| Feature/Funktion | Skype for Business 2016 oder 2019-Client | Skype for Business für Mac-Client | Skype-Besprechungs-App | Skype for Business Web App | Lync Web App |
+| Feature/Funktion | Skype for Business 2016 oder 2019-Client | Skype for Business für Mac-Client | Skype-Besprechungs-App | Skype for Business-Web-App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Computeraudio hinzufügen  <br/> |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |
+|Computeraudiofunktionen hinzufügen  <br/> |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |
 |Video hinzufügen  <br/> |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |
 |Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |&#x2714;|&#x2714;|&#x2714;|||
-|Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Video mit mehreren Teilnehmern ansehen (Katalogansicht)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Videobasierte Bildschirmübertragung  <br/> |&#x2714;|&#x2714; <br/> |&#x2714; (nur anzeigen)  <br/> |||
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|An Chats mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Auf detaillierte Besprechungsliste zugreifen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|An Chatnachrichten mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |&#x2714;|||||
 |Desktop freigeben (sofern aktiviert)  <br/> |&#x2714;|&#x2714;|&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |&#x2714; (erfordert Plug-in)  <br/> |
 |Programm freigeben (sofern aktiviert)  <br/> |&#x2714;||&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |&#x2714; (nur unter Windows; erfordert Plug-in)  <br/> |
@@ -117,29 +119,29 @@ Diese Tabelle vergleicht die besprechungsfeatures, die Benutzern des Skype for B
 |Teilnehmer nach Namen einladen  <br/> |&#x2714;|&#x2714;||||
 |Teilnehmer nach Telefonnummern einladen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Teilnehmer nach E-Mail-Adressen einladen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Dial-in-Audiobesprechungen verwenden  <br/> |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
-|Besprechung mit „Jetzt besprechen“ initiieren  <br/> |&#x2714;|&#x2714;||||
+|Einwahlaudiobesprechungen verwenden  <br/> |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|Eine Besprechung mit „Jetzt besprechen“ einleiten  <br/> |&#x2714;|&#x2714;||||
 |Eine Besprechung aufzeichnen  <br/> |&#x2714;|||||
 |Anlagen hinzufügen und herunterladen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Microsoft PowerPoint-Dateien hinzufügen und präsentieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Microsoft PowerPoint-Dateien hinzufügen und vorführen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |In Microsoft PowerPoint-Dateien navigieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |OneNote-Besprechungsnotizen hinzufügen und bearbeiten  <br/> |&#x2714;||Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |
 |Whiteboard verwenden  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Umfragen durchführen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Dateien zur gemeinsamen Verwendung mit anderen hochladen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Abstimmungen durchführen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Dateien hochladen, um sie für andere Personen freizugeben  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Besprechung oder Konferenz planen  <br/> |Outlook oder Skype for Business Web Scheduler  <br/> |Outlook oder Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |
-|Q&amp;A Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q&amp;A-Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Teilnehmervideo deaktivieren  <br/> |&#x2714;|||||
 |Besprechungschat deaktivieren  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Teilnehmer stummschalten  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Alle zu Teilnehmern machen  <br/> |&#x2714;|||||
 |Skype Meeting Broadcast erstellen  <br/> |&#x2714;|||||
    
- &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Das funktioniert auch bei Skype for Business Web App auf Max OSX nicht.
+ &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Dies funktioniert auch nicht für Skype for Business-Web-App auf Max OSX.
   
- &#x2777; für Skype for Business Online erfordert dieses Feature Microsoft-PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
+ &#x2777; Bei Skype for Business Online ist für diese Funktion Microsoft PSTN-Konferenz, Exchange Unified Messaging oder ein Drittanbieter für Audiokonferenzen erforderlich.
   
- &#x2778; der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie von der Skype for Business Web App in einer Konferenz freigegeben wurden.
+ &#x2778; Der Lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn sie in einer Konferenz von der Skype for Business-Web-App freigegeben wurden.
   
 ## <a name="known-issues-and-troubleshooting"></a>Bekannte Probleme und Problembehandlung
 <a name="BKMK_Conferencing"> </a>

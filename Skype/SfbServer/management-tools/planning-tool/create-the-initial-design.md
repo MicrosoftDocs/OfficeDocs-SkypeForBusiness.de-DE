@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Nachdem Sie die Installation des Skype for Business Server-Planungstools abgeschlossen haben, sind Sie bereit, das Planungstool zu starten und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur zu beginnen.
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816494"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 
@@ -43,7 +45,7 @@ Nachdem Sie die Installation des Skype for Business Server-Planungstools abgesch
 4. Beantworten Sie die Fragen in jedem Abschnitt, indem Sie die geeigneten Kriterien für Ihren Entwurf auswählen, und klicken Sie anschließend auf **Weiter**, um mit der nächsten Seite des Assistenten fortzufahren. Klicken Sie auf **Zurück**, um Änderungen auf vorherigen Seiten vorzunehmen.
 
     > [!TIP]
-    > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen, klicken **** Sie auf Weitere Informationen, um detaillierte Informationen aus der Skype for Business Server 2015-Planungsdokumentation auf der Microsoft-Website zu lesen. Sie müssen über eine Internet Verbindung verfügen, um auf die Microsoft-Website zugreifen zu können.
+    > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen **, klicken Sie auf Weitere Informationen** , um detaillierte Informationen aus der Skype for Business Server 2015-Planungsdokumentation auf der Microsoft-Website zu lesen. Sie müssen über eine Internet Verbindung verfügen, um auf die Microsoft-Website zugreifen zu können.
 
 5. Wählen Sie die geeigneten Optionen für Ihren Entwurf. Nach der Definition der anfänglichen Kriterien werden Sie darüber informiert, dass die Funktionsübersicht vollständig ist.
 

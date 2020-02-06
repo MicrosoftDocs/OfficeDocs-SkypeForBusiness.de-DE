@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: In diesem Thema erfahren Sie, wie Sie in Skype for Business Server mehrere Notfallnummern planen können.
-ms.openlocfilehash: 43214e42e4fd998aef673ad8d0fbd57ec2d3b498
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f10b5c22a26a42f33f2a3b453dd2e244c9f32ee
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815963"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
@@ -57,11 +59,11 @@ Berücksichtigen Sie beim Planen mehrerer Notrufnummern Folgendes:
   
 Berücksichtigen Sie vor dem Konfigurieren mehrerer Notrufnummern Folgendes:
   
-- Wenn Sie mehrere Notfallnummern konfigurieren möchten, müssen Sie das Cmdlet New-CsEmergencyNumber verwenden, und Sie müssen Standortrichtlinien definieren, die mehr als eine Notrufnummer unterstützen, indem Sie den EmergencyNumbers-Parameter mit dem [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und Cmdlets für [CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
+- Wenn Sie mehrere Notfallnummern konfigurieren möchten, müssen Sie das Cmdlet New-CsEmergencyNumber verwenden, und Sie müssen Standortrichtlinien definieren, die mehr als eine Notrufnummer unterstützen, indem Sie den EmergencyNumbers-Parameter mit den Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und [festgelegt-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) angeben.
     
 - 	Wenn Sie anhand des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy vorhandene Nummern mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben, haben die mit dem Parameter EmergencyNumbers angegebenen Werte Vorrang vor den alten Werten. Dies bedeutet, dass die Werte für die Parameter EmergencyDialString und EmergencyDialMask ignoriert werden.
     
-- Wenn Sie vorhandene Nummern mit dem Cmdlet "CsLocationPolicy" oder "New-CsLocationPolicy" mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben *und keine neuen Notrufnummern konfigurieren* , werden die vorhandenen Nummern weiterhin verwendet werden.
+- Wenn Sie vorhandene Nummern mit dem Cmdlet "CsLocationPolicy" oder "New-CsLocationPolicy" mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben *und keine neuen Notfallnummern konfigurieren* , werden die vorhandenen Nummern weiterhin verwendet.
     
 - Zur reibungslosen Verwendung der Funktion für mehrere Notrufnummern müssen die von Ihnen ausgeführten Clientversionen diese neue Funktion unterstützen. Ältere Clients verwenden weiterhin die vom Cmdlet Set-CsLocationPolicy oder New-CsLocationPolicy angegebenen Werte mit den Parametern EmergencyDialString und EmergencyDialMask. 
     

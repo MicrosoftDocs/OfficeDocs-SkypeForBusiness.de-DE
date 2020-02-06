@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Jeder Datensatz steht für einen Videostream. Eine Video medienzeile enthält in der Regel zwei Videostreams.
-ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eca8335ccf6905d3f80dd6ad8a5ccf00b749b39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294523"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804235"
 ---
 # <a name="videostream-table"></a>VideoStream-Tabelle
  
@@ -24,9 +26,9 @@ Jeder Datensatz steht für einen Videostream. Eine Video medienzeile enthält in
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R, auf die in der [Tabelle](medialine-0.md)"medialinie" verwiesen wird  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R, auf die in der [Tabelle "medialinie](medialine-0.md)" verwiesen wird  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |**Datenstrom-Nr** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer medienzeile  <br/> |
 |**VideoPayloadDescription** <br/> |smallint  <br/> |Fremd, primär  <br/> |Nutzlast-Beschreibung. Weitere Informationen finden Sie in der [PayloadDescription-Tabelle](payloaddescription.md) . <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Durchschnittlicher Netzwerk-Jitter aus RTCP-Statistiken (Real Time Control Protocol).  <br/> |

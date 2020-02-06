@@ -8,22 +8,24 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server mit Exchange 2013 oder 2016 zu integrieren.'
-ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: db6cdbf5297c2397acadcb65ad615533ae6dbe2f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815893"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>Übersicht zum Bereitstellungsprozess für die Integration von lokalen Unified Messaging-Diensten und Skype for Business
  
 **Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server mit Exchange 2013 oder 2016 zu integrieren.
   
- Wenn Sie Exchange Unified Messaging (um) in Skype for Business Server integrieren möchten, müssen Sie die in diesem Thema beschriebenen Aufgaben ausführen. Stellen Sie außerdem sicher, dass Sie die bewährten Methoden für die Planung und Bereitstellung überprüfen, die unter [Planen der Integration von Exchange Unified Messaging in Skype for Business](unified-messaging.md)beschrieben sind. In diesem Thema wird davon ausgegangen, dass Sie Skype for Business Server mit einem zusammengefassten Vermittlungsserver bereitgestellt haben und dass Sie Benutzer für Skype for Business Server aktiviert haben, Sie aber möglicherweise nicht alle Bereitstellungs-und Konfigurationsschritte ausgeführt haben, um Enterprise-VoIP zu aktivieren, wie beschrieben unter [Bereitstellen von Enterprise-VoIP in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in der Bereitstellungsdokumentation.
+ Wenn Sie Exchange Unified Messaging (um) in Skype for Business Server integrieren möchten, müssen Sie die in diesem Thema beschriebenen Aufgaben ausführen. Stellen Sie außerdem sicher, dass Sie die bewährten Methoden für die Planung und Bereitstellung überprüfen, die unter [Planen der Integration von Exchange Unified Messaging in Skype for Business](unified-messaging.md)beschrieben sind. In diesem Thema wird davon ausgegangen, dass Sie Skype for Business Server mit einem zusammengefassten Vermittlungsserver bereitgestellt haben und dass Sie Benutzer für Skype for Business Server aktiviert haben, Sie aber möglicherweise nicht alle Bereitstellungs-und Konfigurationsschritte ausgeführt haben, um Enterprise-VoIP zu aktivieren, wie unter [Bereitstellen von Enterprise-VoIP in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)
  
 > [!NOTE]
 > Exchange Unified Messaging, wie zuvor bekannt, ist in Skype for Business Server 2019 nicht mehr verfügbar, das Telefon System zum Aufzeichnen von Sprachnachrichten verwendet und die Aufzeichnung dann im Exchange-Postfach eines Benutzers belassen. Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .

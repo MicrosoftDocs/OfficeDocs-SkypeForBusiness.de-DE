@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype for Business Server umfasst verschiedene Sicherheitsfeatures, einschließlich Server-zu-Server-Authentifizierung, rollenbasierte Zugriffssteuerung und zentralisierte Speicherung von Konfigurationsdaten.
-ms.openlocfilehash: cd86d1ac404cd2fe487f6f9369cc73df0d72c52f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815653"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Wichtige Sicherheitsfunktionen in Skype for Business Server
  
@@ -58,7 +60,7 @@ Skype for Business Server bietet rollenbasierte Zugriffssteuerung (Role-Based Ac
   
 ## <a name="network-address-translation-nat"></a>Netzwerkadressenübersetzung (Network Address Translation, NAT)
 
-Skype for Business Server unterstützt nicht die Verwendung der Netzwerkadressübersetzung (Network Address Translation, NAT) auf der internen Schnittstelle des Edge-Servers, aber er unterstützt das Platzieren der externen Schnittstelle des Access Edge-Diensts, des Webkonferenz-Edgedienst und des A/V-Edgedienst. hinter einem Router oder Firewall, der Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne und skalierte konsolidierte Edgeserver-Topologien ausführt. Mehrere Edgeserver hinter einem Hardware-Lastenausgleichsmodul können NAT nicht verwenden. Wenn mehrere Edgeserver für Ihre externen Schnittstellen NAT verwenden, ist ein DNS-Lastenausgleich (Domain Name System) erforderlich. Mithilfe des DNS-Lastenausgleichs können Sie wiederum die Anzahl der öffentlichen IP-Adressen pro Edgeserver in einem Edgeserver-Pool reduzieren. Ausführliche Informationen finden Sie unter [Edge-Server Szenarien in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
+Skype for Business Server unterstützt nicht die Verwendung der Netzwerkadressübersetzung (Network Address Translation, NAT) auf der internen Schnittstelle des Edge-Servers, aber er unterstützt das Platzieren der externen Schnittstelle des Zugriffs-Edgedienst, des Webkonferenz-Edgedienst und des a/V-Edgedienst hinter einem Router oder einer Firewall, der Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne Mehrere Edgeserver hinter einem Hardware-Lastenausgleichsmodul können NAT nicht verwenden. Wenn mehrere Edgeserver für Ihre externen Schnittstellen NAT verwenden, ist ein DNS-Lastenausgleich (Domain Name System) erforderlich. Mithilfe des DNS-Lastenausgleichs können Sie wiederum die Anzahl der öffentlichen IP-Adressen pro Edgeserver in einem Edgeserver-Pool reduzieren. Ausführliche Informationen finden Sie unter [Edge-Server Szenarien in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Wenn Sie mit einem Verbundunternehmen zusammenarbeiten, das über eine Bereitstellung von Microsoft Office Communications Server 2007 verfügt, und wenn Audio-/Videofunktionen zwischen Ihrem Unternehmen und dem Verbundunternehmen unterstützt werden sollen, entsprechen die Portanforderungen denen für die bereitgestellten älteren Edgeserver. Beispielsweise müssen die für diese älteren Versionen erforderlichen Portbereiche für beide Unternehmen geöffnet werden, bis der Verbundpartner seine Edgeserver auf Skype for Business Server aktualisiert. Dann können die Portanforderungen erneut überprüft und gemäß der neuen Konfiguration vermindert werden. 

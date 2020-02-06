@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Grundlegendes zu den Möglichkeiten, wie Sie in Outlook und anderen Microsoft Office-Anwendungen auf Skype for Business-Funktionen zugreifen können.
-ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e91174850cb82d325eb9a3f75577d3aaeb3b90f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277433"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803685"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business-Kompatibilität mit Office-Apps
  
@@ -33,17 +35,17 @@ In der folgenden Tabelle werden die Skype for Business-Features beschrieben, die
   
 **Kompatibilität von Skype for Business und Microsoft Office**
 
-|**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**Office 2016 für Mac** #a0 |
+|**Feature**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**Office 2016 für Mac** #a0 |
 |:-----|:-----|:-----|:-----|
 |**Outlook-Funktionen** ||||
-|Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja    |Ja|
+|Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja   |Ja|
 |Besprechungsoption konfigurieren, um Teilnehmeraudio und -video standardmäßig stummzuschalten    |Nein    |Ja    |Nein    |
 |Einheitlicher Kontaktspeicher zum Verwalten von Kontaktlisten in Office und Skype for Business    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
 |Profil Bilder mit hoher Auflösung    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
-|Anwesenheitsstatus in den Feldern "Microsoft Outlook von", "an" und "CC"    |Ja     |Ja     |Ja    |
+|Anwesenheitsstatus in den Feldern "Microsoft Outlook von", "an" und "CC"    |Ja     |Ja     |Ja     |
 |Mit Chat oder Anruf über das Verfügbarkeits Menü Antworten    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |
 |Anwesenheitsstatus in einer Besprechungsanfrage auf der Registerkarte „Terminplanungs-Assistent“    |Ja     |Ja    |Nein    |
-|Antworten mit Chatnachrichten oder anrufen über die Symbolleiste oder das Menüband in einer empfangenen e-Mail-Nachricht    |Ja     |Ja     |Ja    |
+|Antworten mit Chatnachrichten oder anrufen über die Symbolleiste oder das Menüband in einer empfangenen e-Mail-Nachricht    |Ja     |Ja     |Ja     |
 |**Andere Office-Apps**   ||||
 |Freigegebene OneNote-Notizen    |Nein    |Ja    |Nein    |
 |Integration des Setups in das Office-Setupprogramm    |Nein    |Ja    |Nein    |

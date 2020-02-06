@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Konferenzfeatures und Funktionen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: 9b46271e4381e2d2e11f00e3d936660626fbe5cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f91c815cf0b5d0b69ad5815157cba7a56bb28307
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277356"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816003"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planen von Konferenzen in Skype for Business Server
  
@@ -168,7 +170,7 @@ Wenn Sie festlegen, welche Konferenzfunktionen bereitgestellt werden sollen, mü
     
     Wenn ja, stellen Sie Einwahlkonferenzen bereit und aktivieren Sie sie. Eingeladene Benutzer innerhalb und außerhalb Ihrer Organisation können anschließend unter Verwendung eines Festnetztelefons am Audioteil von Konferenzen teilnehmen.
     
-    Einwahlkonferenzen sind ein optionales Feature, das Sie bei der Bereitstellung von Skype for Business Server-Konferenzen konfigurieren können. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von Einwahlkonferenzen für Enterprise-und anonyme Benutzer finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) und Konfigurieren von Einwahl [Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    Einwahlkonferenzen sind ein optionales Feature, das Sie bei der Bereitstellung von Skype for Business Server-Konferenzen konfigurieren können. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von Einwahlkonferenzen für Enterprise-und anonyme Benutzer finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) und [Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **Möchten Sie externen Benutzern mit Skype for Business-Clients erlauben, an einer Konferenz teilzunehmen?**
     

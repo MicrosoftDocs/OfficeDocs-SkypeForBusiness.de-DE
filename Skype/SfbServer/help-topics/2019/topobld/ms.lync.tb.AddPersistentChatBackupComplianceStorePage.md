@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie konfigurieren die Backup-Compliance-SQL Server-Stores, die Backup-Datenbanken für den beständigen Chat Server oder den beständigen Chat Server-Compliance-SQL Server-Speicher bereitstellen
-ms.openlocfilehash: 2563681ea6484197e1ad7ccd72c230e6afc29b0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bbc1466e1618b5efe72e91f6284e6b9e38e1f0d3
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689124"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798442"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Hinzufügen des SQL Server-Konformitätssicherungsspeichers für den beständigen Chat
 

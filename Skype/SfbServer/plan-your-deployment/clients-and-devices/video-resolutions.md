@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Zusammenfassung: Überprüfen der Client Video Anforderungen bei der Planung für Skype for Business Server.'
-ms.openlocfilehash: 15fd424f7ad2e11d473e49e271c7fbf1db83b45c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f51e9369cfba636ae37205a6e56e27c7622f12e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277279"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803495"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Videoauflösungen für Skype for Business-Clients
  
@@ -37,9 +39,9 @@ Sehen Sie sich auch die [Hardwareanforderungen für Windows und Mac an](https://
   
 ### <a name="video-hardware-requirements"></a>Anforderungen an die Videohardware
 
-|**Funktion**|**Anforderung**|
+|**Feature**|**Anforderung**|
 |:-----|:-----|
-|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Grafikkarte muss DirectX 9,0 unterstützen und muss den DXVA2_ModeH264_VLD_NoFGT-Decodierungs Modus und die DirectX 9-API verfügbar machen.  <br/> • Der neueste Grafikkartentreiber muss installiert sein.  <br/> |
+|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Grafikkarte muss DirectX 9,0 unterstützen und muss den DXVA2_ModeH264_VLD_NoFGT Decodierungs Modus und die DirectX 9-API verfügbar machen.  <br/> • Der neueste Grafikkartentreiber muss installiert sein.  <br/> |
 |Hardwarebeschleunigte H.264-Codierung: Chipsatzanforderungen  <br/> |Folgende hardwarebeschleunigte Videocodierungslösungen von Intel werden unterstützt:  <br/> • Intel HD graphics 2000, 2500, 3000 und 4000-Chipsätze der zweiten und dritten Generation (oder neueren Versionen) mit integrierten Hardware-Video-Encoder. Die Installation des Intel HD Graphics-Treibers 15.28.9.2884 oder des aktuellsten Treibers, der Folgendes enthält, ist erforderlich:  <br/> • Anzeige des Treibers 9.17.10.2884 oder des neuesten Treibers  <br/> • Hardware Media Foundation Transform (HMFT) Version 3.12.10.31 oder die neueste HMFT  <br/> Folgende hardwarebeschleunigte Videocodierungslösungen von AMD werden unterstützt:  <br/> • AMD Video-Codec-Engine, die in mehreren diskreten Grafikkarten und in integrierten beschleunigten Verarbeitungseinheiten von AMD A-Serie-beschleunigten Prozessoren verfügbar ist. Der AMD Video Codec Engine-Treiber 9.12.0.0 oder höher muss installiert sein.  <br/> |
 |Hardwarebeschleunigte H.264-Codierung: Kameraanforderungen  <br/> |USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.  <br/> **Hinweis:** Skype for Business unterstützt UVC 1,5-Kameras mit Windows 8 oder Windows 8,1, einschließlich Unterstützung für UVC 1,5. Da Windows 7 keine Unterstützung für UVC 1,5 enthält, behandelt Skype for Business UVC 1,5-Kameras als normale Kameras ohne Unterstützung für Hardware-Codierung. <br/> |
    
@@ -99,7 +101,7 @@ Die folgenden drei Tabellen erläutern die maximalen Codierungs- und Decodierung
 
 In der folgenden Tabelle werden die maximalen Videoauflösungen beschrieben, die auf unterstützten mobilen Geräten verfügbar sind. Weitere Informationen zur Unterstützung mobiler Geräte finden Sie unter [Vergleich der Features für mobile Clients in Skype for Business](mobile-feature-comparison.md).
   
-|**Funktion**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
+|**Feature**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Maximale Auflösung der H.264-Codierung  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S und höher  <br/> |VGA: iPad 2 und höher/iPad mini 1 und höher  <br/> 720p: iPad Air/iPad mini 2/iPad Pro und höher  <br/> |Bis zu VGA je nach Gerätemodell  <br/> |
 |Maximale Auflösung der H.264-Decodierung  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S und höher  <br/> |VGA: iPad 2 und höher/iPad mini 1 und höher  <br/> 720p: iPad Air/iPad mini 2/iPad Pro und höher  <br/> |Bis zu VGA je nach Gerätemodell  <br/> |

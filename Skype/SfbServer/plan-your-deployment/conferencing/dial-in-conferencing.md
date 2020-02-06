@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zur Planung von Einwahlkonferenzen in Skype for Business Server zu erhalten.'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277328"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815993"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planen von Einwahlkonferenzen in Skype for Business Server
  
@@ -48,7 +50,7 @@ Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Z
   
 Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder als Komponente der Survivable Branch Appliance eingesetzt werden.
   
-Details zu den Anforderungen des Vermittlungsservers und des PSTN-Gateways finden Sie unter [Vermittlungsserver Komponente in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)und [Definieren eines Gateways in einer Topologie. Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Details zu den Anforderungen des Vermittlungsservers und des PSTN-Gateways finden Sie unter [Vermittlungsserver Komponente in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)und [Definieren eines Gateways im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planen von Wähleinstellungen, Zugriffsnummern und Konferenzregionen
 

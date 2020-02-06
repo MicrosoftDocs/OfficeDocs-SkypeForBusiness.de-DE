@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planen von Reaktionsgruppen in Skype for Business Server Enterprise Voice, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276468"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802485"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planen der Antwortgruppen Anwendung in Skype for Business Server
 
@@ -48,7 +50,7 @@ Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur 
 
 In Skype for Business Server stehen zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen zur Verfügung: Antwortgruppen-Manager und Antwortgruppen Administrator. Reaktionsgruppen Administratoren können alle Aspekte jeder Reaktionsgruppe verwalten. Antwortgruppen-Manager können nur bestimmte Aspekte verwalten, und zwar nur für die Antwortgruppen, die Sie besitzen. Die Manager-Rolle kann Ihnen dabei helfen, ihre Verwaltungskosten zu senken, da Sie begrenzte Zuständigkeiten für bestimmte Reaktionsgruppen an alle Benutzer delegieren können, die für Enterprise-VoIP aktiviert sind. Beachten Sie, dass ein Benutzer sowohl als Antwortgruppen-Manager als auch als Antwortgruppen Administrator fungieren kann.
 
-Um der Rolle des Managers gerecht zu werden, verwendet die **** Antwortgruppen Anwendung einen Workflowtyp von Managed oder unmanaged. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
+Um der Rolle des Managers gerecht zu werden, verwendet die Antwortgruppen Anwendung einen **Workflowtyp** von Managed oder unmanaged. In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
 
 **Verwaltete und nicht verwaltete Reaktionsgruppen**
 
@@ -176,7 +178,7 @@ Die reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
 - Lync 2010-Desktop Client
 
-- Lync 2010-Vermittlung
+- Lync 2010 Attendant
 
 - Office Communications Server 2007 R2 Attendant
 
@@ -189,9 +191,9 @@ Der spezifische Client, den Sie verwenden können, hängt vom Typ des Reaktionsg
 
 - **Anrufer** können eine Reaktionsgruppe über einen der zuvor aufgeführten Clients und unter Verwendung eines Standardtelefons über das Festnetz anrufen.
 
-- **Informelle Agents** (Agents, die sich nicht an-und abmelden, um Anrufe entgegenzunehmen), können Anrufe über Attendant, lync oder lync Phone Edition annehmen. Informelle Agents werden bei der Anmeldung bei Skype for Business Server automatisch bei ihren Gruppen angemeldet, indem Sie einen dieser Clients verwenden.
+- **Informelle Agents** (Agents, die sich nicht an-und abmelden, um Anrufe zu akzeptieren) können Anrufe über Attendant, lync oder lync Phone Edition annehmen. Informelle Agents werden bei der Anmeldung bei Skype for Business Server automatisch bei ihren Gruppen angemeldet, indem Sie einen dieser Clients verwenden.
 
-- **Formelle Agents** (Agenten, die sich an-und abmelden müssen, um Anrufe entgegenzunehmen), können Anrufe über Skype for Business annehmen und über das Menüelement auf die Agentenkonsole zugreifen, oder indem Sie Attendant verwenden und direkt über Internet Explorer auf die Agentenkonsole zugreifen.
+- **Formelle Agents** (Agents, die sich an-und abmelden müssen, um Anrufe anzunehmen) können Anrufe über Skype for Business annehmen und über das Menüelement auf die Agentenkonsole zugreifen, oder indem Sie Attendant verwenden und direkt über Internet Explorer auf die Agentenkonsole zugreifen.
 
 ## <a name="capacity-planning"></a>Kapazitätsplanung
 

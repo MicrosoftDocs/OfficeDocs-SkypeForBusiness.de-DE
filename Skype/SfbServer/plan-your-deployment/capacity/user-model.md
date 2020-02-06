@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie auf einer Website benötigen, um die Anzahl der Benutzer auf dieser Website entsprechend der in den Benutzermodellen in Skype for Business Server beschriebenen Verwendung zu verwenden.
-ms.openlocfilehash: f81989f463bb53f8eccc4d39b254560a7bc5bdf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 401dcb06940f9ae0735107f533d609481e3b3182
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277580"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816044"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Kapazitätsplanung Benutzermodell Verwendung für Skype for Business Server
 
@@ -57,7 +59,7 @@ Eine Übersicht über unsere Empfehlungen finden Sie in der folgenden Tabelle.
 > [!NOTE]
 > Erweiterte Pools werden für diese Serverrolle nicht unterstützt.
 
-In einem Front-End-Pool sollten Sie über einen Front-End-Server für alle 6.660-Benutzer verfügen, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyper-Threading auf allen Servern im Pool aktiviert ist und dass die Server Hardware die Empfehlungen in den [Server Anforderungen für Skype für erfüllt. Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [System Anforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Die maximale Anzahl von Benutzern in einem Front-End-Pool ist 80.000, und es wird davon ausgegangen, dass Hyper-Threading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie über mehr als 80.000 Benutzer an einer Website verfügen, können Sie mehr als einen Front-End-Pool bereitstellen.
+In einem Front-End-Pool sollten Sie über einen Front-End-Server für alle 6.660-Benutzer verfügen, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyper-Threading auf allen Servern im Pool aktiviert ist und dass die Server Hardware die Empfehlungen in den [Server Anforderungen für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [System Anforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool ist 80.000, und es wird davon ausgegangen, dass Hyper-Threading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie über mehr als 80.000 Benutzer an einer Website verfügen, können Sie mehr als einen Front-End-Pool bereitstellen.
 
 Wenn Sie die Anzahl der Benutzer in einem Front-End-Pool berücksichtigen, schließen Sie alle Benutzer ein, die sich auf überlebensfähigen Branch Appliances und Überlebenden Verzweigungs Servern in Zweigniederlassungen befinden, die diesem Front-End-Pool zugeordnet sind.
 

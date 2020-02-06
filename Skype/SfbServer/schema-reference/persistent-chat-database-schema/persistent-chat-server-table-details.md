@@ -8,15 +8,17 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: In den folgenden Themen werden die Spalten in den Schema Tabellen für persistente Chat-Datenbanken detailliert beschrieben.
-ms.openlocfilehash: 3ac401577bae294324b0f0feb82e611522b2610b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f9dbc6a4633b48c384cbea36eaffb3c7f1d074f8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295594"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814733"
 ---
 # <a name="persistent-chat-server-table-details"></a>Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
  

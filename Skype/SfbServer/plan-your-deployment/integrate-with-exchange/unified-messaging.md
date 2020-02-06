@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server mit Exchange 2013 oder 2016 zu integrieren.'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815863"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der Integration von Exchange Unified Messaging in Skype for Business
 
@@ -61,7 +63,7 @@ Skype for Business Server, Enterprise-VoIP verwendet die Exchange Unified Messag
 
 ### <a name="exchange-server-components"></a>Exchange Server-Komponenten
 
-Um die Exchange um-Features und-Dienste bereitzustellen, die unter [Features von Integrated Unified Messaging und Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) für Enterprise-VoIP-Benutzer in Ihrer Organisation beschrieben sind, müssen Sie einen Microsoft Exchange-Post Fach Server und Client Zugriff bereitstellen. Server, der Benutzerpostfächer hostet und einen einzelnen Speicherort für e-Mail und Voicemail bereitstellt. Exchange um wird als Dienst auf Exchange-Postfach-und-Client Zugriffsservern ausgeführt.
+Um die Exchange um-Features und-Dienste bereitzustellen, die unter [Features von Integrated Unified Messaging und Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) für Enterprise-VoIP-Benutzer in Ihrer Organisation beschrieben sind, müssen Sie einen Microsoft Exchange-Postfachserver und Client Zugriffsserver bereitstellen, der Benutzerpostfächer hostet und einen einzelnen Speicherort für e-Mail und Voicemail bereitstellt. Exchange um wird als Dienst auf Exchange-Postfach-und-Client Zugriffsservern ausgeführt.
 
 Details zu den Exchange um-Komponenten in Microsoft Exchange Server 2010 finden Sie unter [Bereitstellen von lokalen Exchange um, um lync Server 2013 Preview-Voicemail bereitzustellen](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
 

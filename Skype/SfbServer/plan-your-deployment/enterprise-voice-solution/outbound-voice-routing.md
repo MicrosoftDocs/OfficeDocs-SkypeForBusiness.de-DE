@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehendes VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Nutzungsdaten Sätzen und VoIP-Routen.
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276582"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802575"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen des ausgehenden VoIP-Routings in Skype for Business Server
  
@@ -233,7 +235,7 @@ Für jede Richtlinie können Sie die folgenden Anruffunktionen aktivieren oder d
     
 - Mit der **Voicemail-Escape** -Funktion wird verhindert, dass Anrufe sofort an das Voicemailsystem des Benutzers weitergeleitet werden, wenn gleichzeitiges Klingeln konfiguriert ist und das Telefon ausgeschaltet, außerhalb der Batterie oder außerhalb des gültigen Bereichs liegt und auf einem Timer-Wert basiert. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Die Konfiguration kann nur über die Skype for Business Server-Verwaltungsshell erfolgen. Diese ist standardmäßig deaktiviert.
     
-- **Anrufweiterleitung und gleichzeitiges anrufen PSTN** -Nutzungen ermöglicht es Administratoren, dieselbe PSTN-Nutzung wie die VoIP-Richtlinie für die Anrufweiterleitung und gleichzeitiges Klingeln festzulegen, die Anrufweiterleitung und gleichzeitiges Klingeln auf internes Skype zu beschränken. Nur Geschäftsbenutzer, oder geben Sie eine benutzerdefinierte PSTN-Verwendung an, die von der PSTN-Nutzung der VoIP-Richtlinie abweicht. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
+- **Anrufweiterleitung und gleichzeitiges anrufen PSTN-Nutzungen** ermöglicht es Administratoren, dieselbe PSTN-Nutzung wie die VoIP-Richtlinie für die Anrufweiterleitung und gleichzeitiges Klingeln festzulegen, die Anrufweiterleitung und das gleichzeitige Klingeln auf interne Skype for Business-Benutzer zu beschränken oder eine benutzerdefinierte PSTN-Nutzung festzulegen, die sich von der PSTN-Nutzung der VoIP-Richtlinie Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
     
 ### <a name="pstn-usage-records"></a>PSTN-Verwendungseinträge
 

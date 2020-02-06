@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: erfahren Sie mehr über die Umweltanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 15cc6c54d420cd95962afb1faa219a3a370056a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414989"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803375"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Umgebungsanforderungen des Edge-Servers in Skype for Business Server
  
@@ -158,7 +160,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
   - A/V-Edge: 131.107.155.30 (sekundär)
     
-  Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+  Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
     
   - Private IPs:
     
@@ -168,7 +170,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
   - A/V-Edge: 10.45.16.30 (sekundär)
     
-Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
   
 > [!TIP]
 >Es gibt weitere möglich Konfigurationen:
@@ -211,7 +213,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
         - A/V-Edge: 131.107.155.30 (sekundär)
     
-          Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+          Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
     
     - Private IPs:
     
@@ -221,7 +223,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
          - A/V-Edge: 10.45.16.30 (sekundär)
     
-      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
     
   - Knoten 2
     
@@ -233,7 +235,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
       - A/V-Edge: 131.107.155.31 (sekundär)
     
-      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
     
   - Private IPs:
     
@@ -243,7 +245,7 @@ Hierbei handelt es sich um die DNS-Einträge, die Sie für einen Singing Edge-Se
     
     - A/V-Edge: 10.45.16.31 (sekundär)
     
-      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internetprotokoll, Version 6 (TCP/IPv6) der Eigenschaften des lokalen verbindungsbereichs in Windows Server.
+      Öffentliche IP-Adressen für Webkonferenzen und A/V-Edge sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften von Internet Protocol, Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Eigenschaften für den lokalen Verbindungsbereich in Windows Server.
     
 Es gibt weitere möglich Konfigurationen:
   

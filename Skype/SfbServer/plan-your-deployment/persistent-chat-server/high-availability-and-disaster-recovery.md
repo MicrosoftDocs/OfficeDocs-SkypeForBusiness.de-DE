@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server planen.'
-ms.openlocfilehash: 0cdd1d17680f0546a0081bb769e2c6f45a370d0c
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 08b025b09acc4b4db5f26ae67761412a96c0339c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418266"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815743"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen von Höchstverfügbarkeit und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015
  
@@ -52,7 +54,7 @@ Skype for Business Server unterstützt mehrere Modi mit höherer Verfügbarkeit 
   
 Die in diesem Thema beschriebene Disaster Recovery-Lösung für beständigen Chat Server basiert auf einem gedehnten beständigen Chat Serverpool. Für ein gedehntes virtuelles lokales Netzwerk (VLAN) gibt es keine Voraussetzungen. Wenn Sie einen Server Pool für beständigen Chat Strecken, konfigurieren Sie einen Pool in der Topologie logisch, aber Sie platzieren die Server physisch in einem Pool in zwei unterschiedlichen Rechenzentren. Sie können die SQL Server-Spiegelung für die Datenbank auf die gleiche Weise konfigurieren und die Datenbank und die Spiegelung im gleichen Rechenzentrum bereitstellen. Sie müssen eine Sicherungsdatenbank im sekundären Rechenzentrum konfigurieren (mit einem optionalen Mirror, um eine höhere Verfügbarkeit während der Disaster Recovery zu gewährleisten). Hierbei handelt es sich um die Backup-Datenbank, die für ein Failover während der Disaster Recovery verwendet wird. 
   
-Ausführliche Informationen zum Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server finden Sie unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+Ausführliche Informationen zum Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
 Die folgenden Abbildungen zeigen, wie der Server Pool für beständigen Chat in zwei unterschiedlichen gedehnten Pool Topologien konfiguriert werden kann:
   

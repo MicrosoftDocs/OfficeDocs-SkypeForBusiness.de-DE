@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von umfangreichen Besprechungen in Skype for Business Server zu erhalten.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815973"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen großer Besprechungen in Skype for Business Server
  

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
 description: Die Tabelle MediationServers ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Vermittlungs Server, der an anrufen beteiligt ist, die Datensätze in der Datenbank aufweisen.
-ms.openlocfilehash: a79c7c1d81f220e034e63263ef8dbf81a13d4024
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74c1095044bd9bb7183202d115236eba863c62da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295993"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815023"
 ---
 # <a name="mediationservers-table"></a>MediationServers-Tabelle
  

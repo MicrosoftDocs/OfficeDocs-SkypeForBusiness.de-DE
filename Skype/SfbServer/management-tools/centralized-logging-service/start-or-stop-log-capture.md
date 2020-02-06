@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 eine zentralisierte Protokollierungsdienst-protokollaufnahme Sitzung starten oder beenden.'
-ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4d8c40c2fdb648497997fbd4a69dc49af4685b43
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991440"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816564"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Server Leistung in Skype for Business Server.'
-ms.openlocfilehash: c2956910384c1e48fc9d38a9084bf1a4afe48539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc7e3232e16bd4366ac80f75fb12eca0fb24b4dd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279788"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817694"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Bericht zur Server Leistung in Skype for Business Server
  

@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Sie Navigieren im Skype for Business Server 2015-Planungs Tool mithilfe einer Kombination aus einer Symbolleiste, seitenspezifischen Schaltflächen und Links sowie kontextspezifischen Bereichen. Die kontextspezifischen Bereiche bieten Entwurfsinformationen zu Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.
-ms.openlocfilehash: efb0f8ab745b2ce2fe4490dccaf58b79a1c1bf50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e502f1bf068aef162befadddb9bef63cecffddc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288992"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816324"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigieren im Planungstool in Skype for Business Server 2015
 

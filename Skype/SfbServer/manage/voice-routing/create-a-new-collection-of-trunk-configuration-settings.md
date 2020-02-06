@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter.
-ms.openlocfilehash: 884116e8ac6cb5818c026123c652f439f44dc374
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db4978151bf9b649375adb7a2200710a1a503c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817005"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen in Skype for Business Server
 
@@ -56,7 +58,7 @@ Beim Erstellen von SIP-Trunk-Konfigurationseinstellungen nutzen für Business Se
 
 1. Klicken Sie im Skype for Business Server-Control Panel auf **VoIP-Routing**und dann auf trunk- **Konfiguration**.
 2. Klicken Sie auf der Registerkarte **Trunkkonfiguration** auf **Neu** und dann auf **Standorttrunk**, um die neuen Einstellungen für den Standortbereich zu erstellen, oder klicken Sie auf **Pooltrunk**, um die neuen Einstellungen für den Dienstbereich zu erstellen.
-3. Wählen Sie im Dialogfeld **Website auswählen** oder **Dienst auswählen** (das angezeigte Dialogfeld hängt davon ab, ob Sie Websitebereichs-oder Dienstbereichs bezogene Einstellungen erstellen), wählen Sie den Speicherort für die neuen Konfigurationseinstellungen aus, und klicken Sie dann auf **OK. **. Wenn das Dialogfeld leer ist, bedeutet dies, dass kein Ort zum Erstellen der neuen Einstellungen vorhanden ist. Wenn beispielsweise das Dialogfeld **Website auswählen** leer ist, bedeutet dies, dass allen Websites bereits eine Sammlung von trunk-Konfigurations Websites zugewiesen wurde und jede Website (und jeder Dienst) nur eine dieser Sammlungen hosten kann. In diesem Fall können Sie entweder die vorhandene Sammlung löschen und eine neue Sammlung erstellen oder einfach die vorhandene Sammlung ändern.
+3. Wählen Sie im Dialogfeld **Website auswählen** oder **Dienst auswählen** (das angezeigte Dialogfeld hängt davon ab, ob Sie Website Bereich oder Dienstbereichs Einstellungen erstellen) den Speicherort für die neuen Konfigurationseinstellungen aus, und klicken Sie dann auf **OK**. Wenn das Dialogfeld leer ist, bedeutet dies, dass kein Ort zum Erstellen der neuen Einstellungen vorhanden ist. Wenn beispielsweise das Dialogfeld **Website auswählen** leer ist, bedeutet dies, dass allen Websites bereits eine Sammlung von trunk-Konfigurations Websites zugewiesen wurde und jede Website (und jeder Dienst) nur eine dieser Sammlungen hosten kann. In diesem Fall können Sie entweder die vorhandene Sammlung löschen und eine neue Sammlung erstellen oder einfach die vorhandene Sammlung ändern.
 4. Nehmen Sie im Dialogfeld **Neue Trunkkonfiguration** die gewünschten Einstellungen vor und klicken Sie auf **OK**.
 5. Die Eigenschaft **State** für die Sammlung wird als **Commit nicht ausgeführt** angezeigt. Um die Änderungen zu übernehmen und die Sammlung zu löschen, klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
 6. Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** auf **OK**.

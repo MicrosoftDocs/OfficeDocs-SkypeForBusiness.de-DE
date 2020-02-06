@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Gruppen "Universeller Dienst" und "Verwaltung" beschrieben, die vom Gesamtstrukturvorbereitungsschritt erstellt werden.
-ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296700"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815533"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden
 
@@ -24,7 +26,7 @@ In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Grup
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Active Directory-Einstellungen und-Objekte
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen Skype for Business Server-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste-Container und fügt unter dem Konfiguration\Dienste ein **RTC-Dienst** Objekt hinzu. Objekt. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die Bereitstellung von Skype for Business Server gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen System Container und ein RTC-Dienstobjekt unter dem System\Microsoft-Objekt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen Skype for Business Server-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste-Container und fügt unter dem Konfiguration\Dienste-Objekt ein **RTC-Dienst** Objekt hinzu. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die Bereitstellung von Skype for Business Server gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen System Container und ein RTC-Dienstobjekt unter dem System\Microsoft-Objekt.
 
 Bei der Gesamtstrukturvorbereitung wird auch ein neues **Attribut msRTCSIP-Domänen** Objekt für die Stammdomäne hinzugefügt, in der die Prozedur ausgeführt wird.
 
@@ -123,14 +125,14 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche A
 
 Im Konfigurationscontainer führt die Gesamtstrukturvorbereitung unter dem Konfigurationsnamenskontext die folgenden Aufgaben aus:
 
-- Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und inetOrgPerson hinzu (beispielsweise CN = Benutzeranzeige, CN = 409, CN = DisplaySpecifiers).
+- Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und InetOrgPersons hinzu (beispielsweise CN = User-Display, CN = 409, CN = DisplaySpecifiers).
 
 - Fügt unter **Erweiterte Rechte** , die für die Benutzer-und Kontaktklassen gelten, ein **RTCPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
 - Fügt unter **Erweiterte Rechte** , die für Benutzer-, Kontakt-, ou-und domainDNS-Klassen gelten, ein **RTCUserSearchPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
-- Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut des jeweiligen Anzeigebezeichners der sprach Organisationseinheit (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte der **extraColumns** -Attribut der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
+- Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut der einzelnen Organisations Einheits Anzeigebezeichner (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte des **extraColumns** -Attributs der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
 
-- Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut jedes Sprachanzeige Bezeichners für Benutzer, Kontakte, und InetOrgPerson-Objekte (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
+- Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut der einzelnen Sprachanzeige Bezeichner für Benutzer, Kontakte und InetOrgPerson-Objekte hinzu (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
 
 

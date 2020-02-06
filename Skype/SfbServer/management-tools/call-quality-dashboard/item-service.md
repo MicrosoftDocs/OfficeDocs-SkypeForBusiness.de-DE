@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Zusammenfassung: erfahren Sie mehr über den Element Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 585ba97d9dedbfcbbd572069a792a121e6156afe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5fdf2aedcb1a5e8d7d1929d7af70c5911cae46f0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274611"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816714"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Element Dienst für das Anruf Qualitäts Dashboard (CQD)
  

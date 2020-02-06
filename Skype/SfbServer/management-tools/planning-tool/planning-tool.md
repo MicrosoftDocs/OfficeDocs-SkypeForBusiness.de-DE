@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Leitfaden zur Verwendung des Skype for Business Server 2015-Planungstools.
-ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288950"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816304"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 – Planungstool
  
@@ -29,7 +31,7 @@ Das Ziel des Planungstools besteht letztendlich darin, die potenzielle Komplexit
   
 Nach dem Anpassen der Topologie mit den TCP/IP-Adressen der Infrastruktur und den vollqualifizierten Domänennamen (FQDNs) stellt das Planungs Tool eine Reihe von Berichten zur Verfügung, die DNS-Benennung (Domain Name System), Firewallregeln, Zertifikate und vieles mehr beinhalten. 
   
-Die Verwendung dieses Tools stellt den ersten Schritt bei der Planung Ihrer Implementierung dar. Der nächste Schritt besteht darin, Ihre Website Informationen in den [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196)einzugeben, nach Bedarf anzupassen und dann mit dem [Skype for Business Server 2015 Stress-und Leistungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) zu simulieren und zu überprüfen, ob die die Implementierung wird Ihren Anforderungen entsprechen.
+Die Verwendung dieses Tools stellt den ersten Schritt bei der Planung Ihrer Implementierung dar. Der nächste Schritt besteht darin, Ihre Informationen zur Website in den [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196)einzugeben, nach Bedarf anzupassen und dann mit dem [Skype for Business Server 2015 Stress-und Leistungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) zu simulieren und zu überprüfen, ob die Implementierung Ihren Anforderungen entspricht.
   
 Das Planungs Tool bietet auch die Möglichkeit, Informationen in zwei Formaten zu exportieren:
   

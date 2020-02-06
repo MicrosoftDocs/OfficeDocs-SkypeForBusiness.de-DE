@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Zusammenfassung: Überprüfen Sie die einfachen URL-Überlegungen in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.'
-ms.openlocfilehash: 6f5003542f797c6dd275eb8de7c0b00b1ea209ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815783"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype for Business Server
 

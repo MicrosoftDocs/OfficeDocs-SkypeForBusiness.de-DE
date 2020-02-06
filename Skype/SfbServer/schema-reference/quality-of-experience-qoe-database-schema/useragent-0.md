@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
 description: Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 874a9c986ec77c3e19b557cd65dcf6dbeb045752
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76ac99b1fdadbeb6817b36483f4fe5762db47333
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294607"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805083"
 ---
 # <a name="useragent-view"></a>UserAgent-Ansicht
  
@@ -27,6 +29,6 @@ Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sit
 |UserAgentKey  <br/> |int  <br/> |Eindeutige Nummer, die diesen Benutzer-Agent kennzeichnet.  <br/> |
 |UserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge.  <br/> |
 |UAType  <br/> |smallint  <br/> |Der Typ des Benutzer-Agents. Weitere Informationen finden Sie in der [userAgent-Tabelle](useragent.md) . <br/> |
-|UACategory  <br/> |nvarchar (64)  <br/> |Die Kategorie, zu der der Benutzer-Agent gehört. Beispielsweise gehört der Benutzer-Agent conferencing_attendant_ 1.0 zum UACategory CAA.  <br/> |
+|UACategory  <br/> |nvarchar (64)  <br/> |Die Kategorie, zu der der Benutzer-Agent gehört. Beispielsweise gehört der Benutzer-Agent Conferencing_Attendant_1 .0 zu UACategory CAA.  <br/> |
    
 

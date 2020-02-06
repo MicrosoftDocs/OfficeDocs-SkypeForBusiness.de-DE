@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 für Leistungs-und Auslastungstests zu konfigurieren, indem Sie das Tool Stress und Leistung verwenden.
-ms.openlocfilehash: 2aedb43a6b7214aaf582e1dfd4754e626a602508
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 343378d0b0d763d8a290e8d1e930a64c5d114bdb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299383"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803875"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Leistungs Szenarien für das Stress-und Leistungs Tool von Skype for Business Server 2015
  

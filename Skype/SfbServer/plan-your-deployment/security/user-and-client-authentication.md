@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Ein vertrauenswürdiger Benutzer ist derjenige, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server oder Director. Skype for Business Server basiert auf Active Directory-Domänendiensten als einzelnes, vertrauenswürdiges Back-End-Repository für Benutzeranmeldeinformationen.
-ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296868"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815583"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer-und Clientauthentifizierung für Skype for Business Server
  

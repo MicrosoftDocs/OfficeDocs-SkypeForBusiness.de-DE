@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: In diesem Artikel erfahren Sie, welche Onlinetopologien und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden und welche Sicherheitsmerkmale die Topologien jeweils aufweisen.
-ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 2eb043768c46406696b32da5dfb84e2358a30749
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34408630"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815823"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Mit moderner Authentifizierung unterstützte Skype for Business-Topologien
  

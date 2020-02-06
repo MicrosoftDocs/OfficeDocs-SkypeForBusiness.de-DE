@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "letzte Integrationsdaten abrufen", der Teil der Daten-API für die Anruf Qualitätssteuerung ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a3b66114f457e48b169419baddbaa4e4dc8c0764
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816774"
 ---
 # <a name="get-last-integration-data"></a>Abrufen der letzten Integrationsdaten
  

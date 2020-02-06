@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Zusammenfassung: Wie Sie das Kapazitätsrechnertool verwenden.'
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274457"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816634"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server: Rechner zur Kapazitätsplanung
  
@@ -28,7 +30,7 @@ ms.locfileid: "34274457"
 > - Skype for Business Server 2019.
 > - Skype for Business Server 2015.
   
-Der [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und der [Skype for Business Server 2019-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ergänzen das [Skype for Business-Planungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und ihre Bereitstellungsdokumentation ([Plan für Ihr Skype for Business Server 2015](../plan-your-deployment/plan-your-deployment.md) -Bereitstellung und [Plan für Ihre Skype for Business Server 2019-Bereitstellung](../../SfBServer2019/plan/plan-your-deployment-2019.md) . Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
+Der [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und der [Skype for Business Server 2019-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ergänzen das [Skype for Business-Planungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und ihre Bereitstellungsdokumentation ([Plan für Ihre Skype for Business Server 2015-bereit](../plan-your-deployment/plan-your-deployment.md) Stellung und ihren [Plan für Ihre Skype for Business Server 2019-Bereitstellung](../../SfBServer2019/plan/plan-your-deployment-2019.md) ). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
   
 Mit dem Skype for Business Server-Kapazitäts Rechner können Sie die Server Anforderungen anhand der Anzahl der Benutzer und der Kommunikationstools ermitteln, die in Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
   
@@ -92,7 +94,7 @@ Wenn Sie alle erforderlichen Informationen eingegeben haben, schätzt der Kapazi
     
 In den grünen Zellen werden Empfehlungen für das Nutzungsmodell angezeigt, das Sie eingegeben haben. 
   
-- **Gesamtzahl der Front-End-Server**: die Anzahl der erforderlichen physikalischen Server basiert auf dedizierten Servern, auf denen Skype for Business Server 2015 mit Dualprozessor, Hex-Core, 2.260 Megazyklen oder Skype for Business Server 2019 mit Intel Xeon E5-2673 v3, Dual Prozessor, Hex-Core.
+- **Gesamtzahl der Front-End-Server**: die Anzahl der erforderlichen physikalischen Server basiert auf dedizierten Servern, auf denen Skype for Business Server 2015 mit Dualprozessor, Hex-Core, 2.260 Megazyklen oder Skype for Business Server 2019 mit Intel Xeon E5-2673 v3, Dualprozessor und Hex-Core ausgeführt wird.
     
     Es wird empfohlen, Hyperthreading zu aktivieren, denn damit lässt sich nachweislich die Leistung von Servern verbessern, die Audio/Video unterstützen.
     

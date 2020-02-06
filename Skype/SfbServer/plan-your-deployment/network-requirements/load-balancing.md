@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zum Lastenausgleich vor der Implementierung von Skype for Business Server.'
-ms.openlocfilehash: 2db9b7aa37f71d445feb3cfd9a09e49f44ca48f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297057"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802045"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
@@ -114,7 +116,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
   
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
   
-- Legen Sie für interne virtuelle IP-Adressen der Webdienste die Dauerhaftigkeit von Quelladressen (interner Port 80, 443) für das Hardwaregerät zum Lastenausgleich fest. Bei Skype for Business Server bedeutet Source_addr-Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse kommen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
+- Legen Sie für interne virtuelle IP-Adressen der Webdienste die Dauerhaftigkeit von Quelladressen (interner Port 80, 443) für das Hardwaregerät zum Lastenausgleich fest. Bei Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse kommen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
     
 - Legen Sie ein TCP-Leerlauftimeout von 1.800 Sekunden fest.
     
@@ -233,7 +235,7 @@ Für die Bereitstellung des DNS-Lastenausgleichs in Front-End-Pools und Director
   
 - Ein Pool, der den DNS-Lastenausgleich verwendet, muss zwei FQDNs aufweisen: den regulären Pool-FQDN, der vom DNS-Lastenausgleich (wie pool01.contoso.com) verwendet wird, und er wird in die physischen IPS der Server im Pool aufgelöst, und ein anderer FQDN für die Webdienste des Pools (wie web01.contoso.com), der in die virtuelle IP-Adresse des Pools aufgelöst wird. 
     
-    Wenn Sie im Topologie-Generator den DNS-Lastenausgleich für einen Pool bereitstellen möchten, müssen Sie zum Erstellen dieses zusätzlichen FQDN für die Webdienste des Pools das Kontrollkästchen **FQDN des internen Webdienste-Pool außer Kraft setzen** aktivieren, und geben Sie den FQDN in die Webdienste **-URLs angeben für ein. Seite dieses Pools** .
+    Wenn Sie im Topologie-Generator den DNS-Lastenausgleich für einen Pool bereitstellen möchten, müssen Sie zum Erstellen dieses zusätzlichen FQDN für die Webdienste des Pools das Kontrollkästchen **FQDN des internen Webdienste-Pool außer Kraft setzen** aktivieren und den FQDN in der Seite **Geben Sie die Webdienste-URLs für diesen Pool angeben** ein.
     
 - Zur Unterstützung des vom DNS-Lastenausgleich verwendeten FQDN müssen Sie DNS bereitstellen, um den Pool-FQDN (wie pool01.contoso.com) in die IP-Adressen aller Server im Pool aufzulösen (beispielsweise 192.168.1.1, 192.168.1.2 usw.). Sie sollten nur die IP-Adressen der Server einbeziehen, die derzeit bereitgestellt werden.
     

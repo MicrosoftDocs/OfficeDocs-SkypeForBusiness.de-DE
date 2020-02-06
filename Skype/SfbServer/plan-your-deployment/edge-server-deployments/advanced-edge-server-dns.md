@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Zusammenfassung: Überprüfen von Szenarien für die Skype for Business Server-Bereitstellungsoptionen. Dieses Thema wird Ihnen helfen, egal ob Sie einen einzelnen Server oder einen Server-Pool mit DNS oder HLB bevorzugen.'
-ms.openlocfilehash: 497126188b830a61804bedb44c5e50eedec11dcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 098d25a23745c035813cfc5c0ea6d291999c3704
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277188"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803385"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Advanced Edge Server-DNS-Planung für Skype for Business Server
  
@@ -50,11 +52,11 @@ Skype for Business-Clients ähneln älteren Versionen von lync-Clients in der Ar
     
      *Dies ist ein Host-Eintrag für den AutoErmittlungsdienst in den externen Webdiensten.* 
     
-3. _sipinternaltls._tcp. \<Domäne\>
+3. _sipinternaltls. _tcp. \<Domäne\>
     
      *Dies ist ein SRV (Service Locator)-Eintrag für interne TLS-Verbindungen* 
     
-4. _sip._tls. \<Domäne\>
+4. _sip. _tls. \<Domäne\>
     
      *Dies ist ein SRV (Service Locator)-Eintrag für externe TLS-Verbindungen* 
     
@@ -162,7 +164,7 @@ Nun, da wir alles wissen, wenn Sie eine automatische Anforderung für Ihre Skype
     
     Sie müssen eine Zone in Ihrem internen DNS erstellen, die ihrer externen DNS-Zone entspricht (beispielsweise contoso.com), und dann DNS a (und AAAA, wenn Sie IPv6-Adressierung verwenden), Datensätze erstellen, die dem Skype for Business-Server Pool entsprechen, der für die automatische Verwendung verwendet wird. Konfiguration.
     
-    Wenn Sie beispielsweise einen Benutzer in pool01.contoso.net haben, sich aber in Skype for Business als Bob@contoso.com anmelden, erstellen Sie eine interne DNS-Zone mit dem Namen contoso.com, und in Ihr müssen Sie einen DNS-Eintrag (und AAAA, wenn IPv6-Adressierung verwendet wird) erstellen. pool01.contoso.com.
+    Wenn Sie beispielsweise einen Benutzer in pool01.contoso.net haben, sich aber in Skype for Business als Bob@contoso.com anmelden, erstellen Sie eine interne DNS-Zone namens Contoso.com, und in Ihr müssen Sie einen DNS-Eintrag (und AAAA, wenn IPv6-Adressierung verwendet wird) für pool01.contoso.com erstellen.
     
 - **Interne dedizierte Zone**
     

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren und öffnen, die Sie für die Bereitstellung und Verwaltung von Skype for Business benötigen.
-ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c720aba3998df8742406f4c9954f523b20e9af5f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274401"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816554"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installieren und Öffnen von Verwaltungstools
 
@@ -51,7 +53,7 @@ Gehen Sie wie folgt vor, um den Bereitstellungs-Assistenten lokal zu starten, um
 **So starten Sie den Skype for Business Server-Bereitstellungs-Assistenten**
 
 1. Melden Sie sich bei dem Computer an, auf dem der Skype for Business Server-Bereitstellungs-Assistent als Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" installiert ist.
-2. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server**-Bereitstellungs-Assistent.
+2. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Bereitstellungs-Assistent**.
 
 
 ## <a name="topology-builder"></a>Topologie-Generator 

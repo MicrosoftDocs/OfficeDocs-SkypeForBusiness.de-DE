@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
-ms.openlocfilehash: 7dcf96c5cb5b140711590943eb7ae5d2be8704b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bca31b85a0b88854760c2a79528792ee82bd272e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295860"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814943"
 ---
 # <a name="registration-table"></a>Registration-Tabelle
  
@@ -42,7 +44,7 @@ Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
 |**Response Code** <br/> |int  <br/> ||Antwortcode der Registrierungsanforderung.  <br/> |
 |**Diagnose-Nr** <br/> |int  <br/> ||Diagnose-ID der Registrierungsanforderung. Dies gibt an, dass der Typ der diagnostischen Informationen.  <br/> |
 |**DeviceID** <br/> |int  <br/> |Fremd  <br/> |Das Gerät, von dem die Registrierungsanforderung stammt. Weitere Informationen finden Sie [in der Tabelle "Geräte" in Skype for Business Server 2015](devices.md) . <br/> |
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |Fremd  <br/> |Der Grund für die Deregistrierung, wie "Benutzer initiiert", "Registrierung abgelaufen", "Client Fehler" und vieles mehr. Weitere Informationen finden Sie in der Tabelle "deregistertype" [in Skype for Business Server 2015](deregistertype.md) . <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Fremd  <br/> |Der Grund für die Deregistrierung, wie "Benutzer initiiert", "Registrierung abgelaufen", "Client Fehler" und vieles mehr. Weitere Informationen finden Sie [in der Tabelle "deregistertype" in Skype for Business Server 2015](deregistertype.md) . <br/> |
 |**IPAddress** <br/> |nvarchar(256)  <br/> ||Die IP-Adresse des Endpunkts, bei dem der Benutzer registriert ist. Dies kann eine IPv4-Adresse oder eine IPv6-Adresse sein.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
 |**LastModifiedTime** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    

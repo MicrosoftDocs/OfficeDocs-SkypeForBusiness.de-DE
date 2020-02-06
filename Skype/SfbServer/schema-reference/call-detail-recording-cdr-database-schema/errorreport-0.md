@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: In der errorreport-Ansicht werden Informationen zu den gemeldeten Fehlern gespeichert. Bei jedem Datensatz handelt es sich um ein Fehlerereignis. Die Fehler werden entweder vom CDR-Agent, der auf dem Front-End-Server ausgeführt wird, erfasst oder vom Client gesendet. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815243"
 ---
 # <a name="errorreport-view"></a>ErrorReport-Ansicht
  
@@ -46,7 +48,7 @@ In der errorreport-Ansicht werden Informationen zu den gemeldeten Fehlern gespei
 |**Response Code** <br/> |int  <br/> |SIP-Antwortcode für die Sitzung der SIP-Nachricht, die den Fehlerbericht enthält.  <br/> |
 |**RequestType** <br/> |varchar (max)  <br/> |Der Typ der fehlgeschlagenen Anforderung.  <br/> |
 |**ContentType** <br/> |varchar (max)  <br/> |Inhaltstyp der fehlgeschlagenen Anforderung.  <br/> |
-|**CallType** <br/> |nvarchar(256)  <br/> |Der Sitzungstyp. Weitere Informationen finden Sie in der Tabelle "CallType" [in Skype for Business Server 2015](calltype.md) . <br/> |
+|**CallType** <br/> |nvarchar(256)  <br/> |Der Sitzungstyp. Weitere Informationen finden Sie [in der Tabelle "CallType" in Skype for Business Server 2015](calltype.md) . <br/> |
 |**Telemetrie** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner, in dem die Verknüpfungszeit Informationen für die verschiedenen an einer Konferenz beteiligten Komponenten korreliert werden.  <br/> |
 |**Rüstzeit** <br/> |int  <br/> |Zeit (in Millisekunden), die für eine bestimmte Komponente erforderlich ist, um an einer Konferenz teilzunehmen.  <br/> |
 |**IsCapturedByServer** <br/> |bit  <br/> |Gibt an, ob der Fehlerbericht vom auf dem Front-End-Server ausgeführten CDR-Agent erfasst oder vom Client gesendet wurde.  <br/> |

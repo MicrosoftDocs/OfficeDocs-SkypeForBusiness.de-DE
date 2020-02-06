@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Zusammenfassung: Überprüfen Sie die folgenden IP-Adresstypen, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74cb0738c7c6eb0518d8ab4ed4fae7db66921bfb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297050"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802115"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Konfigurieren von IP-Adresstypen in Skype for Business
 
@@ -76,7 +78,7 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
 
   - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver angeordnet wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 > [!IMPORTANT]
-> Wir unterstützen nur zwei Netzwerkkarten ** auf dedizierten Vermittlungsservern. Wenn die Rolle der Mediations-sServer auf der Vorderseite liegt, werden keine dualen Netzwerkkarten unterstützt. 
+> Wir unterstützen nur zwei Netzwerkkarten auf *dedizierten* Vermittlungsservern. Wenn die Rolle der Mediations-sServer auf der Vorderseite liegt, werden keine dualen Netzwerkkarten unterstützt. 
 
 > [!NOTE]
 > - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2015 finden Sie unter [Hardware für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)

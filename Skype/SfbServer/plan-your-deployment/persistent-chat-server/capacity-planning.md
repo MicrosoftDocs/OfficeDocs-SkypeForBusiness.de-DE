@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zur Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erhalten.'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418491"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815773"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -57,7 +59,7 @@ Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die
 |Gesamtzahl der bereitgestellten Benutzer  <br/> |150,000  <br/> |
 |Anzahl der Endpunkte  <br/> |120,000  <br/> |
    
-Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer.
+Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer bereitstellen.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Kapazitätsplanung für den Chatroomzugriff
 

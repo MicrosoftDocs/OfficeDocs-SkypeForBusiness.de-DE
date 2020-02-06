@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Zusammenfassung: erfahren Sie mehr über den Trend Bericht zur Server Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279830"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817714"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Trend Bericht zur Server Medienqualität in Skype for Business Server
  
@@ -29,7 +31,7 @@ Auf den „Trendbericht über Medienqualität des Servers“ kann über einen de
   
 - [Bericht zur Server Leistung in Skype for Business Server](server-performance.md) (durch Klicken auf die Trend Metrik)
     
-- [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) (durch Klicken auf die A/V-Edgeserver-Metrik. Wenn es sich bei dem Anrufer oder angerufenen um einen Server handelt, können Sie auch den Bericht "Server Quality Media Trend" erreichen, indem Sie auf den Endpunktnamen klicken.)
+- [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) (durch Klicken auf die Metrik A/V Edge Server). Wenn es sich bei dem Anrufer oder angerufenen um einen Server handelt, können Sie auch den Bericht "Server Quality Media Trend" erreichen, indem Sie auf den Endpunktnamen klicken.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Optimale Nutzung des „Trendberichts über Medienqualität des Servers“
 

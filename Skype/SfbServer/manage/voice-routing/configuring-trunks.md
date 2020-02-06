@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Im Rahmen der Bereitstellung von Enterprise-VoIP können Sie einen trunk zwischen einem Vermittlungs Server und einem oder mehreren Peers konfigurieren, um die PSTN-Konnektivität (Public Switched Telephone Network) für Enterprise-VoIP-Clients und-Geräte in Ihrer Organisation bereitzustellen.
-ms.openlocfilehash: c350723720dccee069a28a4d9aa2c40517f6d1bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41e92f994606ea2153359546d408335d13a21f88
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275003"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817015"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Konfigurieren von Trunks in Skype for Business Server
 

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Jeder Datensatz in dieser Tabelle enthält die CDR-Informationen zu den Join-und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle für jedes Mal, wenn ein Benutzer mit der Konferenz verbunden ist, mit einem Datensatz dargestellt.
-ms.openlocfilehash: 4eb9f6300613fb61a7173be547aa83adf61d1026
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac5e2b7316dd7d3477d76675d3a3960154b90f35
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296210"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815183"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>FocusJoinsAndLeaves-Tabelle in Skype for Business Server 2015
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Grenzwerte für Server Speicherkapazität in Skype for Business Server überwachen.'
-ms.openlocfilehash: f089ab9b5be693872754691050133ad27e992896
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f56fec8f3ed6900f4c4f1a97286dc14b66bb7c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817704"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen der Kapazitätsgrenzen von Server Speicher in Skype for Business Server
  
@@ -35,11 +37,11 @@ Zwei Mobilitäts Leistungsindikatoren können Ihnen dabei helfen, Ihre aktuelle 
     
 Wenn der Unterschied zwischen **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** und **Anzahl der derzeit aktiven Sitzungen** im Laufe der Zeit gering ist, bedeutet dies, dass die meisten Benutzer ein Mobilgerät verwenden, dass immer verbunden ist, beispielsweise ein Android- oder Nokia-Mobilgerät (nur für Mcx). UCWA immer angeschlossene Geräte sind Apple-und Android-Geräte, auf denen lync 2013 Mobile-Clients ausgeführt werden. Wenn die **Anzahl der derzeit aktiven Sitzungen** sehr viel höher ist als die **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements**, weist dies darauf hin, dass mehr Benutzer ein Hintergrund-Endpunktgerät unter Mcx verwenden, z. B. ein Apple iOS-Gerät oder ein Windows Phone. (Windows Phone ist der einzige mobile lync 2013-Client, der als dieser registriert wird).
   
-Sie sollten eine Grenze für die **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** und **derzeit aktiven Sitzungen-count** -Leistungsindikatoren auf der Grundlage ihrer erwarteten Nutzung, der Kapazitäts Planungsergebnisse und der laufenden Überwachung von Mobilitätsdienst und andere Front-End-Server-Leistungsindikatoren. Die festgelegten Beschränkungen sollten das Auswerten der Serverkapazität und das Auslösen von Warnungen bei einer Kapazitätsüberschreitung erlauben.
+Sie sollten eine Grenze für die **derzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** und **derzeit aktiven Sitzungen zählen** -Leistungsindikatoren basierend auf ihrer erwarteten Nutzung, den Ergebnissen der Kapazitätsplanung und der laufenden Überwachung des mobilitätsdiensts und anderer Front-End-Server-Leistungsindikatoren festzulegen. Die festgelegten Beschränkungen sollten das Auswerten der Serverkapazität und das Auslösen von Warnungen bei einer Kapazitätsüberschreitung erlauben.
   
 Um die entsprechenden Grenzwerte zu ermitteln, müssen Sie zunächst ermitteln, wie viel Arbeitsspeicher auf dem Front-End-Server für den Mobilitätsdienst zur Verfügung steht. Überwachen Sie die Leistungsindikatoren, um anhand der folgenden Formel festzustellen, ob zusätzliche Kapazität eingeplant werden muss:
   
-Gesamtspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 * **zurzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** + 400/1024 * ( **derzeit aktive** - Sitzungsanzahl mit aktuell aktiver**Sitzung) Aktive Anwesenheitsabonnements**)
+Gesamtspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 * **zurzeit aktive Sitzungsanzahl mit aktiven Anwesenheitsabonnements** + 400/1024 * ( **derzeit aktive** - Sitzungsanzahl**mit aktiven Anwesenheitsabonnements**)
   
 > [!IMPORTANT]
 > Der Microsoft lync Server 2010-Kapazitäts Rechner ist eine Kalkulationstabelle, die alle Formeln enthält, mit denen ein Planner ermitteln kann, welche Anforderungen für die Skype for Business-Server gelten, einschließlich CPU, Arbeitsspeicher und Festplatte. Sie können [die Kalkulationstabelle und ein zugehöriges Dokument herunterladen](https://go.microsoft.com/fwlink/p/?LinkID=212657). 

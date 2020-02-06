@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server-Pool Server zum Testen des dokumentierten Disaster Recovery-Prozesses
-ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279214"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817301"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Disaster Recovery-Tests in Skype for Business Server
 
@@ -46,12 +48,12 @@ Nach der Wiederherstellung dieser Daten können Benutzer eine Verbindung mit dem
 
 Der Produktions-Skype for Business-Pool wird von Clients, die die automatischen Konfigurations-und DNS-SRV-Einträge verwenden, referenziert:
 
-- SRV: _sip. _tls. \<domain>/CNAME: SIP. \<domain>
-- CNAME: SIP. \<domain>/CVC-Pool-1. \<domain>
+- SRV: _sip. _tls. \<Domain>/CNAME: SIP. \<Domänen>
+- CNAME: SIP. \<Domänen>/CVC-Pool-1. \<Domänen>
 
 Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den DROCSPool-FQDN verweist:
 
-- CNAME: SIP.<domain> /DROCSPool. \<domain>
-- SIP. \<domain>
-- AV.\<domain>
-- webconf. \<domain>
+- CNAME: SIP.<domain> /DROCSPool. \<Domänen>
+- SIP. \<Domänen>
+- AV.\<Domain>
+- webconf. \<Domänen>

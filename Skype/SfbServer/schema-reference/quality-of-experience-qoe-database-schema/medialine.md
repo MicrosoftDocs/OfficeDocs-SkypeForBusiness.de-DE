@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: In der medialinie-Ansicht werden Informationen zu jeder medienzeile in der Datenbank gespeichert. Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-medienzeile und eine Video medienzeile. die Sitzung kann jedoch zwei Video Medien Linien enthalten, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 03b86aa6e954c61a40a28e1d2c2a0194b581849e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b22408ddc40f1df6452895327e8a67800ef24eb9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808193"
 ---
 # <a name="medialine-view"></a>Medienansicht
  
@@ -24,9 +26,9 @@ In der medialinie-Ansicht werden Informationen zu jeder medienzeile in der Daten
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|SessionSeq  <br/> |int  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|ConferenceDateTime  <br/> |datetime  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionSeq  <br/> |int  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informationen zum Prozess der interaktiven Verbindungseinrichtung (ICE), der unter Bits-Flags für den Aufrufer beschrieben wird. Ausführliche Informationen finden Sie in der Quality of Experience Monitoring Server Protocol-Spezifikation.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informationen zum Prozess der interaktiven Verbindungseinrichtung (ICE), der in den Bits-Flags für den aufgerufenen beschrieben wird. Ausführliche Informationen finden Sie in der Quality of Experience Monitoring Server Protocol-Spezifikation.  <br/> |
 |Sicherheit  <br/> |tinyint  <br/> |Verwendetes Sicherheitsprofil 0 ist None, 1 ist SRTP, 2 ist v1.  <br/> |

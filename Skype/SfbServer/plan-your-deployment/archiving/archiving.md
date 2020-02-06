@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die Archivierung in Skype for Business Server planen.'
-ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 92658ef139464cacaa7f66abb2cf3aa6294b463b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417874"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816084"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planen der Archivierung in Skype for Business Server
  
@@ -178,7 +180,7 @@ Der Zugriff auf archivierte Daten ist abhängig davon, wo die Daten gespeichert 
   
 - **Microsoft Exchange-Speicher**. Wenn Sie die Option für die Exchange-Integration auswählen, gibt Skype for Business Server den Archivierungs Inhalt im Exchange-Informationsspeicher für alle Benutzer aus, die sich in Exchange befinden und deren Postfächer in den Wartebereich gesetzt wurden. Archivierte Daten werden im Ordner "Wiederherstellbare Elemente" der Benutzerpostfächer gespeichert, der für Benutzer in der Regel nicht sichtbar ist und nur von Benutzern mit einer Exchange **Discovery-Verwaltungs** Rolle durchsucht werden kann. Exchange ermöglicht die Verbundsuche und-Erkennung zusammen mit SharePoint, wenn Sie bereitgestellt wird. Weitere Informationen zum Speichern, zur Aufbewahrung und zur Erkennung von Daten, die in Exchange gespeichert sind, finden Sie in der Dokumentation zu Exchange und SharePoint.
     
-- **Skype for Business Server-Archivierungsspeicher**. Wenn Sie Skype for Business Server-Archivierungsdatenbanken einrichten, werden von Skype for Business Server Archivierungs Inhalte in den Skype for Business Server-Archivierungsdatenbanken für alle Benutzer gespeichert, die sich nicht in Exchange befinden und deren Postfächer nicht in den Speicherplatz gesetzt wurden. This data is not searchable, but it can be exported to formats that are searchable using other tools. Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [Exportieren von archivierten Daten in Skype for Business Server](../../manage/archiving/export-archived-data.md).
+- **Skype for Business Server-Archivierungsspeicher**. Wenn Sie Skype for Business Server-Archivierungsdatenbanken einrichten, werden von Skype for Business Server Archivierungs Inhalte in den Skype for Business Server-Archivierungsdatenbanken für alle Benutzer gespeichert, die sich nicht in Exchange befinden und deren Postfächer nicht in den Speicherplatz gesetzt wurden. Diese Daten sind nicht durchsuchbar, können aber in Formate exportiert werden, die mit anderen Tools durchsucht werden können. Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [Exportieren von archivierten Daten in Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
 ## <a name="for-more-information"></a>Weitere Informationen
 

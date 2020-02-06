@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Die hier beschriebenen Benutzermodelle bilden die Grundlage für die Kapazitäts Planungs Maße und-Empfehlungen, die unter Kapazitätsplanung Benutzermodell Verwendung für Skype for Business Server beschrieben werden.
-ms.openlocfilehash: 9ce4bddcb4b058861230aeb78fd9363e2c8b8ac6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1bf079fa425d98b3619eb4ccd975253784f4fbe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277594"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816034"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype for Business Server
  

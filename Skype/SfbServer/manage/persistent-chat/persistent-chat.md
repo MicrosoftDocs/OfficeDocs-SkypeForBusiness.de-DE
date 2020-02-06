@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 verwalten.'
-ms.openlocfilehash: 1702cc9891c34085f8de269d5e91723378c54ada
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 97cce8adedbb4dea932084497006e3c17bfdd7d8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418669"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817321"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten des Servers für beständigen Chat in Skype for Business Server 2015
  
@@ -35,7 +37,7 @@ So verwenden Sie die Systemsteuerung:
     
 2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
-3. Klicken Sie in der linken Navigationsleiste auf beständigen **Chat**.
+3. Klicken Sie in der linken Navigationsleiste auf **beständigen Chat**.
     
 In der folgenden Tabelle sind die Windows PowerShell-Cmdlets zusammengefasst, die Ihnen bei der Verwaltung des beständigen Chat Servers helfen. Ausführliche Informationen zur Syntax einschließlich aller Parameter finden Sie unter [Skype for Business Server 2015 Management Shell](../management-shell.md).
   

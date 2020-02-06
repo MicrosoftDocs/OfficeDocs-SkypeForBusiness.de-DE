@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server planen.'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297379"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815903"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server
  
@@ -33,7 +35,7 @@ Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer
   
 ### <a name="technical-requirements"></a>Technische Anforderungen
 
-Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter [zertifizierte Gateways](../../SfbPartnerCertification/certification/infra-gateways.md), [Anforderungen für Ihre Skype for Business 2015-Umgebung](requirements-for-your-environment/requirements-for-your-environment.md)und [Infrastrukturanforderungen für Skype for Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter [zertifizierte Gateways](../../SfbPartnerCertification/certification/infra-gateways.md), [Anforderungen für Ihre Skype for Business 2015-Umgebung](requirements-for-your-environment/requirements-for-your-environment.md)und [Infrastrukturanforderungen für Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Aktivieren der Kommunikation mit externen Benutzern
 

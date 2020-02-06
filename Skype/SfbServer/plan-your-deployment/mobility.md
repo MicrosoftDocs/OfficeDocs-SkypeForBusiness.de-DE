@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planen Sie Ihre Implementierung von Mobility für Skype for Business Server.
-ms.openlocfilehash: 8b0ba8dd4ae07d3330a8ca722a1101c6b41a7cec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dd57da19a935ce1a8713cc856d553b81f4f7cd6b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297323"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815853"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen der Mobilität für Skype for Business Server
  
@@ -187,7 +189,7 @@ Wir haben die meisten dieser Informationen in unserer anderen Dokumentation beha
 
 Wenn Sie die automatische Ermittlung für Ihre mobilen Skype for Business-Clients verwenden, müssen Sie die Listen San (Subject Alternative Name) für Ihre Zertifikate ändern, um sichere Verbindungen von ihren mobilen Clients zu unterstützen. Wenn bereits Zertifikate vorhanden sind, müssen Sie neue Zertifikate mit den hier beschriebenen SAN-Einträgen anfordern und zuweisen. Dies muss für jeden Front-End-Server und Director (falls in Ihrer Umgebung) erfolgen, auf dem der AutoErmittlungsdienst ausgeführt wird. Darüber hinaus empfiehlt es sich, die San-Listen für Ihre Reverse-Proxy Zertifikate zu ändern und San-Einträge für jede SIP-Domäne in Ihrer Organisation hinzuzufügen.
   
-Dies sollte ein einfacher Vorgang sein, wenn Sie die neuen certs von einer internen Zertifizierungsstelle (Zertifizierungsstelle) anfordern, öffentliche Zertifikate aber komplexer sind und möglicherweise viel teurer sind, um Sie erneut anzufordern, ganz zu schweigen davon, dass es kostspielig ist, viel SIP hinzuzufügen. Domänen zu einem neuen öffentlichen Zertifikat hinzu. In dieser Situation gibt es einen Ansatz, der unterstützt wird, aber **nicht empfohlen**wird. Sie können Ihren Reverse-Proxy so konfigurieren, dass die ursprüngliche AutoErmittlungsdienst Anforderung über Port 80, die HTTP verwendet, statt Port 443, also https (und 443 ist die Standardkonfiguration), erfolgt. Diese eingehende Anforderung wird an Port 8080 im Front-End-Pool oder Director umgeleitet. Auf diese Weise müssen Sie keine Zertifikat Änderungen vornehmen, da dieser Datenverkehr nicht HTTPS für Anforderungen verwendet. Wir empfehlen dies aber noch einmal nicht, auch wenn es für Sie funktionieren wird.
+Dies sollte ein einfacher Vorgang sein, wenn Sie die neuen certs von einer internen Zertifizierungsstelle (Zertifizierungsstelle) anfordern, öffentliche Zertifikate aber komplexer sind und möglicherweise erheblich teurer sind, um Sie erneut zu anfordern, ganz zu schweigen davon, dass es kostspielig ist, einem neuen öffentlichen Zertifikat viele SIP-Domänen hinzuzufügen. In dieser Situation gibt es einen Ansatz, der unterstützt wird, aber **nicht empfohlen**wird. Sie können Ihren Reverse-Proxy so konfigurieren, dass die ursprüngliche AutoErmittlungsdienst Anforderung über Port 80, die HTTP verwendet, statt Port 443, also https (und 443 ist die Standardkonfiguration), erfolgt. Diese eingehende Anforderung wird an Port 8080 im Front-End-Pool oder Director umgeleitet. Auf diese Weise müssen Sie keine Zertifikat Änderungen vornehmen, da dieser Datenverkehr nicht HTTPS für Anforderungen verwendet. Wir empfehlen dies aber noch einmal nicht, auch wenn es für Sie funktionieren wird.
   
 ### <a name="windows-and-iis-requirements"></a>Anforderungen im Hinblick auf Windows und IIS
 
@@ -197,7 +199,7 @@ Für Ihre Skype for Business Server-Umgebung sollten Sie über eine unterstützt
 
 Wenn Sie eine Topologie für Skype for Business Server verwenden, die eine HLB für Ihren Front-End-Pool umfasst (bei der es sich um eine Topologie mit mehr als einem Front-End-Server handelt), müssen die externen Web Services Virtual IPS (VIPs) für Webdienste-Datenverkehr konfiguriert sein. für Quelle. Die Quellaffinität stellt sicher, dass mehrere Verbindungen von einem einzelnen Client an einen einzigen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
   
-Wenn Sie beabsichtigen, Skype for Business Mobile-Clients nur über Ihr internes WLAN-Netzwerk zu unterstützen, sollten Sie Ihre internen Webdienste-VIPs für Source so konfigurieren, wie dies für externe Webdienste-VIPs beschrieben ist. In diesem Fall sollten Sie die source_addr (oder TCP)-Affinität für die internen Webdienste-VIPs auf der HLB verwenden.
+Wenn Sie beabsichtigen, Skype for Business Mobile-Clients nur über Ihr internes WLAN-Netzwerk zu unterstützen, sollten Sie Ihre internen Webdienste-VIPs für Source so konfigurieren, wie dies für externe Webdienste-VIPs beschrieben ist. In diesem Fall sollten Sie source_addr (oder TCP)-Affinität für die internen Webdienste-VIPs auf der HLB verwenden.
   
 Ausführlichere Informationen hierzu finden Sie in der Dokumentation zu [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md).
   
@@ -207,7 +209,7 @@ Um die automatische Ermittlung für Skype for Business Mobile-Clients zu unterst
   
 - Wenn Sie sich entschließen, die San-Listen auf Ihren Reverse-Proxy Zertifikaten zu aktualisieren, und Sie HTTPS für die ursprüngliche AutoErmittlungsdienst Anforderung verwenden, müssen Sie die Webveröffentlichungsregel für lyncdiscover aktualisieren. \<sipdomain\>. Dies wird in der Regel mit dem Veröffentlichungs-rul für die externe Webdienst-URL im Front-End-Pool kombiniert.
     
-- Wenn Sie sich entschieden haben, http für die ursprüngliche AutoErmittlungsdienst Anfrage zu verwenden, um zu vermeiden, dass Sie die San-Liste für Ihre Reverse-Proxy Zertifikate aktualisieren müssen (was wir nicht empfehlen), müssen Sie eine neue Webveröffentlichungsregel für Port http/TCP 80 erstellen, wenn keine vorhanden ist. bereits. Wenn diese Regel vorhanden ist, aktualisieren Sie Sie so, dass Sie eine lyncdiscover enthält. \<sipdomain\> -Eintrag.
+- Wenn Sie sich entschieden haben, http für die anfängliche AutoErmittlungsdienst Anforderung zu verwenden, um zu vermeiden, dass Sie die San-Liste für Ihre Reverse-Proxy Zertifikate aktualisieren müssen (was wir nicht empfehlen), müssen Sie eine neue Webveröffentlichungsregel für Port http/TCP 80 erstellen, wenn noch keine vorhanden ist. Wenn diese Regel vorhanden ist, aktualisieren Sie Sie so, dass Sie eine lyncdiscover enthält. \<sipdomain\> -Eintrag.
     
 ## <a name="defining-your-mobility-needs"></a>Definieren der Mobilitätsanforderungen
 <a name="MobilityNeeds"> </a>
@@ -240,10 +242,10 @@ Wir verfügen über eine Tabelle, die Ihnen bei einigen der Features helfen kann
 > [!NOTE]
 > Alle diese Funktionen gelten global, für bestimmte Standorte oder für bestimmte Benutzer. 
   
-|**Funktion**|**Parametername**|**Beschreibung**|**Standardeinstellung**|
+|**Feature**|**Parametername**|**Beschreibung**|**Standardeinstellung**|
 |:-----|:-----|:-----|:-----|
-|Mobilität aktivieren  <br/> |EnableMobility  <br/> |Steuert Benutzer in einem bestimmten Bereich, auf dem Skype for Business Mobile-Client installiert ist. Wenn die Richtlinie auf „False“ festgelegt ist, können sich die Benutzer nicht mit ihrem Client anmelden.  <br/> |True  <br/> |
-|Externe Anrufe  <br/> |EnableOutsideVoice  <br/> |Ermöglicht Benutzern die Verwendung der Funktion „Geschäftlich anrufen“, das heißt, die Benutzer können Anrufe unter ihrer geschäftlichen Telefonnummer anstelle ihrer Mobiltelefonnummer tätigen und empfangen. Wenn „False“ festgelegt ist, können die Benutzer auf ihren Mobiltelefonen nicht über die geschäftliche Telefonnummer Anrufe tätigen oder empfangen.  <br/> |True  <br/> |
+|Mobilität aktivieren  <br/> |EnableMobility  <br/> |Steuert Benutzer in einem bestimmten Bereich, auf dem Skype for Business Mobile-Client installiert ist. Wenn die Richtlinie auf „False“ festgelegt ist, können sich die Benutzer nicht mit ihrem Client anmelden.  <br/> |Wahr  <br/> |
+|Externe Anrufe  <br/> |EnableOutsideVoice  <br/> |Ermöglicht Benutzern die Verwendung der Funktion „Geschäftlich anrufen“, das heißt, die Benutzer können Anrufe unter ihrer geschäftlichen Telefonnummer anstelle ihrer Mobiltelefonnummer tätigen und empfangen. Wenn „False“ festgelegt ist, können die Benutzer auf ihren Mobiltelefonen nicht über die geschäftliche Telefonnummer Anrufe tätigen oder empfangen.  <br/> |Wahr  <br/> |
 |IP-Audio und -Video aktivieren  <br/> |EnableIPAudioVideo  <br/> |Wenn der Standardwert festgelegt ist, können Benutzer auf mobilen Geräten über VoIP Sprach- oder Videoanrufe tätigen oder empfangen. Wenn die Einstellung auf „False“ festgelegt ist, können die Benutzer auf ihren mobilen Geräten keine dieser Funktionen nutzen.  <br/> |True  <br/> |
 |Wi-Fi für IP-Audio erforderlich  <br/> |RequireWiFiForIPAudio  <br/> |Definiert, ob VoIP-Anrufe in Clients über das WLAN anstatt über das Mobilfunknetz getätigt oder empfangen werden. Wenn „True“ festgelegt ist, können die Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn sie mit einem WLAN verbunden sind.  <br/> |Falsch  <br/> |
 |Wi-Fi für IP-Video erforderlich  <br/> |RequireWiFiForIPVideo  <br/> |Definiert, ob Videoanrufe in Clients über das WLAN anstatt über das Mobilfunknetz getätigt oder empfangen werden. Wenn „True“ festgelegt ist, können die Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn sie mit einem WLAN verbunden sind.  <br/> |False  <br/> |

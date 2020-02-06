@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen Ihrer Konferenz Topologie in Skype for Business Server zu erhalten.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277398"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816014"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen der Konferenz Topologie für Skype for Business Server
  
@@ -78,11 +80,11 @@ Für die Webkonferenzfunktion sind folgende Komponenten erforderlich:
   
 Skype for Business Server bietet die folgenden Möglichkeiten zum Konfigurieren von Office Web Apps Server/Office Online Server. Je nach Ihren Anforderungen können Sie:
   
-- **Installieren Sie Skype for Business Server und Office Web Apps Server/Office Online Server lokal hinter der Firewall Ihrer Organisation und in derselben Netzwerkzone.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. Im Idealfall sollten Sie Office Web Apps Server/Office Online Server in derselben Netzwerkzone wie Skype for Business Server installieren.
+- **Installieren Sie Skype for Business Server und Office Web Apps Server/Office Online Server lokal hinter der Firewall Ihrer Organisation und in derselben Netzwerkzone.** Bei dieser Topologie wird externer Zugriff auf Office Web Apps Server/Office Online Server über den Reverse Proxy Server bereitgestellt. Im Idealfall sollten Sie Office Web Apps Server/Office Online Server in derselben Netzwerkzone wie Skype for Business Server installieren.
     
     Externe Skype for Business-Clients können eine Verbindung mit Skype for Business Server und Office Web Apps Server/Office Online Server herstellen, indem Sie einen Reverseproxy verwenden, bei dem es sich um einen Server handelt, der Anforderungen aus dem Internet annimmt und diese an das interne Netzwerk weiterleitet. (Interne Clients müssen den Reverse Proxy Server nicht verwenden, da Sie eine direkte Verbindung mit Office Web Apps Server/Office Online Server herstellen können.) Diese Topologie funktioniert am besten, wenn Sie eine dedizierte Office Web Apps-Server/Office Online-Serverfarm verwenden möchten, die nur von Skype for Business Server verwendet wird.
     
-- **Verwenden Sie einen extern bereitgestellten Office Web Apps-Server/Office Online-Server.** In dieser Topologie wird Skype for Business Server lokal bereitgestellt und verwendet einen Office Web Apps-Server/Office Online-Server, der außerhalb der Skype for Business Server-Netzwerkzone bereitgestellt wird. Dies kann passieren, wenn Office Web Apps Server/Office Online Server für mehrere Anwendungen im Unternehmen freigegeben und in einem Netzwerk bereitgestellt wird, das Skype for Business Server zur Verwendung der externen Schnittstelle von Office Web Apps Server/Office Online Server benötigt. und umgekehrt.
+- **Verwenden Sie einen extern bereitgestellten Office Web Apps-Server/Office Online-Server.** In dieser Topologie wird Skype for Business Server lokal bereitgestellt und verwendet einen Office Web Apps-Server/Office Online-Server, der außerhalb der Skype for Business Server-Netzwerkzone bereitgestellt wird. Dies kann vorkommen, wenn Office Web Apps Server/Office Online Server für mehrere Anwendungen im Unternehmen freigegeben wurde und in einem Netzwerk bereitgestellt wird, das von Skype for Business Server zur Verwendung der externen Schnittstelle von Office Web Apps Server/Office Online Server und umgekehrt benötigt wird.
     
     Sie müssen keinen Reverse-Proxy-Server installieren; Stattdessen werden alle Anforderungen vom Office Web Apps-Server/Office Online-Server an den Skype for Business-Server über Ihren Edgeserver weitergeleitet. Sowohl Ihre internen als auch Ihre externen Skype for Business-Clients stellen mithilfe der externen URL eine Verbindung mit Office Web Apps Server/Office Online Server her.
     

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Referenz Topologien für Skype for Business Server, einschließlich Diagrammen und Entscheidungen, die für große, mittlere und kleine Organisationen zu treffen sind.
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028281"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801705"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Referenz Topologien für Skype for Business Server
 
@@ -134,7 +136,7 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
     > [!NOTE]
     > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
 
-- **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool nutzen den DNS-Lastenausgleich. Dadurch sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool nutzen den DNS-Lastenausgleich. Dadurch sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (.. /.. /Plan-Your-Deployment/Network-Requirements/Load-Balancing.MD # BKMK_DNSLoadBalancing).
 
 - **Exchange UM-Bereitstellung.** Skype for Business Server funktioniert sowohl mit lokalen Bereitstellungen von Exchange Unified Messaging (um) als auch mit Hosted Exchange um. Der zentrale Standort A umfasst einen Exchange Unified Messaging (um)-Server, auf dem Microsoft Exchange Server ausgeführt wird, nicht Skype for Business Server. Die Exchange um-Funktionalität für Skype for Business Server wird im Front-End-Pool ausgeführt.
 

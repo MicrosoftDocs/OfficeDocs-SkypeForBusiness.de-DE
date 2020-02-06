@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planung für standortbasiertes Routing für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich beratender Anruf Übertragungen.
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276782"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802845"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Standortbasiertes Routing für Konferenzen in Skype for Business Server
 
@@ -143,7 +145,7 @@ Wenn beispielsweise die Anwendung "UdcAgent" einen Prioritätswert von "2" aufwe
 
 Nachdem Sie den richtigen Prioritätswert für die Anwendung standortbasiertes Routing für Konferenzen gefunden haben, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server ein, auf dem Benutzer für standortbasiertes Routing aktiviert sind:
 
-New-CsServerApplication-Identity Service: Registrierungsstelle`<Pool FQDN`: >/LBRouting- \<Priority\> -aktivierte $true kritische $true-URI<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`>/lbrouting-Prioritäts \<\> aktivierte $true-kritische $true-URI<http://www.microsoft.com/LCS/LBRouting> 
 
 Beispiel:
 
@@ -152,7 +154,7 @@ New-CsServerApplication-Identity Service:Registrar:ls2013cu2lbrpool. contoso. co
 Nachdem Sie dieses Cmdlet verwendet haben, starten Sie alle Front-End-Server im Pool oder die Standard Edition-Server neu, auf denen die Anwendung standortbasiertes Routing für Konferenz aktiviert wurde.
 
 > [!IMPORTANT]
-> Standortbasierte Routing-Erzwingungen zu Konferenzen oder beratenden Übertragungen werden erst erzwungen, wenn alle Front-End-Server in den entsprechenden Pools oder den Standard Edition-Servern neu gestartet werden. Wenn Sie in den vorangehenden Cmdlets "kritisch" **$true** , werden Ihre Skype for Business Server **-** Dienste sofort neu gestartet. Wenn Sie nicht möchten, dass diese Dienste sofort neu gestartet werden **** , legen Sie für jetzt **$false auf** , und verwenden Sie dann **** " **festlegen-CsServerApplication** ", um später zu **$true** , nachdem die Dienste neu gestartet wurden.
+> Standortbasierte Routing-Erzwingungen zu Konferenzen oder beratenden Übertragungen werden erst erzwungen, wenn alle Front-End-Server in den entsprechenden Pools oder den Standard Edition-Servern neu gestartet werden. Wenn Sie in den vorangehenden Cmdlets "kritisch" **$true** , werden Ihre Skype for Business Server **-** Dienste sofort neu gestartet. Wenn Sie nicht möchten, dass diese Dienste sofort neu gestartet werden **, legen Sie für jetzt** **$false auf** , und verwenden Sie dann " **festlegen-CsServerApplication** ", um **später zu** **$true** , nachdem die Dienste neu gestartet wurden.
 
 Nachdem die standortbasierte Routing für Konferenz Anwendung erfolgreich aktiviert wurde und alle anwendbaren Server neu gestartet wurden, werden alle Konferenzen, die von Skype for Business-Benutzern für standortbasierte Routings organisiert wurden, überwacht, um zu verhindern, dass PSTN-Maut Umgehung
 

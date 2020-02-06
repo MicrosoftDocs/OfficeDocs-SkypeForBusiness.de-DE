@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planung für den Parken von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe in Wartestellung gehalten und Anrufe an Abteilungen übertragen werden können. Hierzu gehören die Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 3272efe89ac995b304d96ad7ce5660144641073b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3effeab4afef60fb7a5021206d9fc3cd0227ceb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277055"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803195"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Anruf Parks in Skype for Business
  
@@ -89,7 +91,7 @@ Die folgenden Clients können den Anruf Park zum Parken von Anrufen verwenden:
     
 - Lync 2010
     
-- Lync 2010-Vermittlung
+- Lync 2010 Attendant
     
 - Lync Phone Edition
     
@@ -110,7 +112,7 @@ Die folgenden Clients können Anrufe abrufen, die im Park des Anrufs abgestellt 
     
 - Lync 2010
     
-- Lync 2010-Vermittlung
+- Lync 2010 Attendant
     
 - Lync Phone Edition
     

@@ -8,15 +8,17 @@ ms.date: 9/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
 description: 'Das Cmdlet „Export-CcRootCertificate“ exportiert das Zertifikat der Stammzertifizierungsstelle in eine lokale Datei auf dem Hostserver von Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: 90eadb257d91a05c05fabbfe1db84b8160ad4a7c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003415"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800915"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  

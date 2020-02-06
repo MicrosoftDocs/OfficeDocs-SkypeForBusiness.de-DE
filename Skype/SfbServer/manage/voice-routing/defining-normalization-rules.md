@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Skype for Business Server-Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um gewählte Telefonnummern in das E. 164-Format zu übersetzen. mit anderen Worten: Normalisierungsregeln nehmen die von einem Benutzer gewählte Telefonnummer an und konvertieren diese Nummer in das Format, das von Skype for Business Server intern verwendet wird. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.'
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816995"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype for Business Server
 
@@ -25,7 +27,7 @@ Details zu Normalisierungsregeln finden Sie unter [Wählpläne und Normalisierun
 Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter [.NET Framework-reguläre Ausdrücke](http://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Mithilfe einer der folgenden Methoden können Sie eine Normalisierungsregel definieren oder bearbeiten:
-- [Verwenden Sie das Tool zum **Erstellen einer Normalisierungsregel** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) , um Werte für die Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann die entsprechende übereinstimmende Muster-und Übersetzungsregel von der Skype for Business Server-Systemsteuerung generieren. Für dich.
+- [Verwenden Sie das Tool **Normalisierungsregel erstellen** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) , um Werte für die Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann die entsprechende Übereinstimmungsmuster-und Übersetzungsregel für Sie generieren.
 - [Schreiben Sie reguläre Ausdrücke manuell](#create-or-modify-a-normalization-rule-manually) , um das übereinstimmende Muster und die Übersetzungsregel zu definieren. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Erstellen oder Ändern einer Normalisierungsregel mithilfe der Regel zum Erstellen einer Normalisierung
@@ -34,7 +36,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in de
 
 **So definieren Sie eine Regel mithilfe der Regel zum Erstellen einer Normalisierung**
 
-1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die Systemsteuerung zu öffnen. Einzelheiten zu den verschiedenen Methoden, mit denen Sie das Skype Control Panel für Unternehmen starten können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Optional Führen Sie die Schritte unter [Erstellen eines Wählplans](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) bis Schritt 11 aus, oder [Ändern Sie einen Wählplan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) bis Schritt 10. 
 4. Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten** im Feld **Name** einen beschreibenden Namen für das zu normalisierende Nummernmuster ein (beispielsweise **5DigitExtension**).
@@ -58,7 +60,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in de
 8. (Optional) Falls die Normalisierungsregel eine interne Telefonnummer des Unternehmens ergibt, klicken Sie auf **Interne Durchwahl**.
 9. (Optional) Geben Sie eine Nummer zum Testen der Normalisierungsregel ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     > [!Note] 
-    > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat und sie später neu konfigurieren. Ausführliche Informationen finden Sie unter [Testen des VoIP](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)-Routings. 
+    > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat und sie später neu konfigurieren. Ausführliche Informationen finden Sie unter [Testen des VoIP-Routings](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx). 
 
 10. Klicken Sie auf **OK**, um die Normalisierungsregel zu speichern.
 11. Klicken Sie auf **OK**, um die Wähleinstellungen zu speichern.
@@ -72,7 +74,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel manue
 
 **So definieren Sie eine Normalisierungsregel manuell**
 
-1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die Systemsteuerung zu öffnen. Einzelheiten zu den verschiedenen Methoden, mit denen Sie das Skype Control Panel für Unternehmen starten können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Optional Führen Sie die Schritte unter [Erstellen eines Wählplans](GET LINK AFTER MIGRATION) bis Schritt 11 aus, oder [Ändern Sie einen Wählplan](GET LINK AFTER MIGRATION) bis Schritt 10.  
 4. Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten** im Feld **Name** einen beschreibenden Namen für das zu normalisierende Nummernmuster ein (weisen Sie der Normalisierungsregel beispielsweise den Namen **5DigitExtension** zu).
@@ -88,8 +90,8 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel manue
 9. (Optional) Geben Sie eine Nummer zum Testen der Normalisierungsregel ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
 
     > [!Note]
-    > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat und sie später neu konfigurieren. Ausführliche Informationen finden Sie unter [Testen des VoIP](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx)-Routings. 
+    > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat und sie später neu konfigurieren. Ausführliche Informationen finden Sie unter [Testen des VoIP-Routings](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx). 
 
 10. Klicken Sie auf **OK**, um die Normalisierungsregel zu speichern.
 11. Klicken Sie auf **OK**, um die Wähleinstellungen zu speichern.
-12. Klicken Sie **** auf der Seite Wählplan **** auf Commi t, und klicken Sie dann auf **alle**übernehmen. 
+12. Klicken Sie auf der Seite **Wählplan** auf **Commi**t, und klicken Sie dann auf **alle**übernehmen. 

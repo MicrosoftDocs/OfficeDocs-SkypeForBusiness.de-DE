@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Entscheidungen, die für die Planung einer Standort Informationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit SIP-Trunking-Anbietern in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81ec257b30d2916bb4df2a4590b9abfc1b270375
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276726"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802725"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in Skype for Business Server
 
@@ -31,7 +33,7 @@ Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Re
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und die dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Eine Standortkennung, die Benutzern hilft, einfach zu erkennen, dass Ihr Skype for Business-Client den richtigen Standort übernommen hat. Der Skype for Business-Client verkettet und zeigt die Felder " **Ort** " **** und "Ort" in der Kopfzeile automatisch an. Es empfiehlt sich, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (beispielsweise "1st Floor <street number>"). Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.
+- Eine Standortkennung, die Benutzern hilft, einfach zu erkennen, dass Ihr Skype for Business-Client den richtigen Standort übernommen hat. Der Skype for Business-Client verkettet und zeigt die Felder " **Ort** " und **"Ort"** in der Kopfzeile automatisch an. Es empfiehlt sich, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (beispielsweise "1st Floor <street number>"). Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.
 
 - Wenn der Standort Näherungswert ist, da er von einem Drahtloszugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (beispielsweise "Near First Floor 1234").
 

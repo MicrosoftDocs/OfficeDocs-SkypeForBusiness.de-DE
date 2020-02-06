@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.HighAvailability
-- ms.lync.plan.HighAvailability
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Das wichtigste Hochverfügbarkeits-Schema für die meisten Serverfunktionen in Skype for Business Server 2015 basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen die gleiche Rolle ausgeführt wird, die Last dieses Servers.
-ms.openlocfilehash: 53b98b72c70fcb624ab59fc7bfc3fbffadbd231a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b10eab9e2de3741958e2ed17cfc92aa430ed3ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696290"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816394"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

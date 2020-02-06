@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die das Telefon System in Office 365 mit einer lokalen PSTN-Verbindung verwenden.'
-ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 0e9a39fba8d1db7b70f0422e71223d49917716ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003035"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803995"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routingrichtlinie
  

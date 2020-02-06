@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. '
-ms.openlocfilehash: fec64de813a9e4b0686e257ccfed7cb9c034467c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76196df2cf0bd74ef804a082862891c326048408
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274926"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816955"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Ändern der SIP-Trunk-Konfigurationseinstellungen in Skype for Business Server
 

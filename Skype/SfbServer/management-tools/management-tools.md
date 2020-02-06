@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Zusammenfassung: Informationen zu den Dienstverwaltungstools in Skype for Business Server 2015.'
-ms.openlocfilehash: 49bde0d30cc7e64e847ebd725ae688164c43f26f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7e1be214fcd1ad73f471188dd019f12c2b23607c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274408"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816544"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype for Business Server 2015-Verwaltungstools
  
@@ -29,7 +31,7 @@ Die Skype for Business Server 2015-Kommunikationssoftware (vormals lync Server) 
 
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
-||[Microsoft Call Quality Method Scorecard, v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (ZIP-Download) <br/> [CQM-Poster für Skype for Business](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [CQM-Poster für lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Eine aktualisierte Version der Microsoft Call Quality Method (CQM)-Scorecard für lync Server und Skype for Business Server 2015. Mit der CQM-Scorecard können Sie die Call Quality Methodology implementieren, ein holistisches Verfahren zur systematischen Definition und Aufrechterhaltung der Anrufqualität auf Grundlage der im Netzwerk-Leitfaden dargestellten Methoden. CQM dividiert eine lync/Skype for Business-Implementierung in zehn getrennte Bereiche, die sich auf die Qualität auswirken, Ziele definieren und einen Sanierungsplan für jeden einzelnen erstellen. CQM ist ein Framework zur Lösung von Problemen mit der Anrufqualität – Sie können es ändern oder erweitern, um die speziellen Bedingungen in Ihrem Netzwerk zu erfüllen.  <br/> Das CQM-Poster kann Ihnen helfen, mehr über CQM, die Methode zur Anrufqualität für lync und Skype for Business zu erfahren, die Ihnen hilft, Probleme zu finden und zu eliminieren, die die Anrufqualität und die Benutzererfahrung für lync/Skype for Business-Implementierungen, die Enterprise-VoIP beinhalten Funktionen.  <br/>**Hinweis:** Diese Tools werden für Skype for Business Server 2019 nicht aktualisiert. |
+||[Microsoft Call Quality Method Scorecard, v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (. zip-Download) <br/> [CQM-Poster für Skype for Business](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [CQM-Poster für lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Eine aktualisierte Version der Microsoft Call Quality Method (CQM)-Scorecard für lync Server und Skype for Business Server 2015. Mit der CQM-Scorecard können Sie die Call Quality Methodology implementieren, ein holistisches Verfahren zur systematischen Definition und Aufrechterhaltung der Anrufqualität auf Grundlage der im Netzwerk-Leitfaden dargestellten Methoden. CQM dividiert eine lync/Skype for Business-Implementierung in zehn getrennte Bereiche, die sich auf die Qualität auswirken, Ziele definieren und einen Sanierungsplan für jeden einzelnen erstellen. CQM ist ein Framework zur Lösung von Problemen mit der Anrufqualität – Sie können es ändern oder erweitern, um die speziellen Bedingungen in Ihrem Netzwerk zu erfüllen.  <br/> Das CQM-Poster kann Ihnen helfen, mehr über CQM zu erfahren, die Methode für die Anrufqualität von lync und Skype for Business, die Ihnen hilft, Probleme zu finden und zu eliminieren, die sich auf die Anrufqualität und Benutzerfreundlichkeit für lync/Skype for Business-Implementierungen beziehen, die Enterprise-VoIP  <br/>**Hinweis:** Diese Tools werden für Skype for Business Server 2019 nicht aktualisiert. |
 |![Dashboardsymbol](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Anrufqualitäts-Dashboard](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |Das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) ist ein Webportal zum schnellen Erstellen und Organisieren von Berichten auf Grundlage von QoE-Daten (Quality of Experience) aus Ihrer Skype for Business- oder Lync-Umgebung. Das CQD stellt einen SSAS-Cube bereit, um die Daten in der QoEMetrics-Datenbank zusammenzufassen. Dadurch erhalten Benutzer die Möglichkeit, Berichte zu erstellen und zu ändern und die Aktualisierungen der Berichte in Echtzeit anzuzeigen. Außerdem stellt CQD Web-APIs zur Verfügung, die Benutzern programmgesteuerten Zugriff auf die Cubedaten bieten, um diese in benutzerdefinierten Dashboards zu verwenden.  <br/> |
 |![Symbol für KHI](../media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[KHI-Ressourcen](https://go.microsoft.com/fwlink/p/?LinkId=534843) <br/> |Wichtige Statusindikatoren (Key Health Indicators, KHI) sind Leistungskennzahlen mit empfohlenen Schwellenwerten, deren Ziel die Aufdeckung von Problemen ist, die die Benutzererfahrung beeinträchtigen können. Im KHI-Leitfaden werden die operativen Prozess- und Wartungsschritte zur Wahrung der Bereitstellungsintegrität kurz vorgestellt. Außerdem enthält der Leitfaden ein Beispiel für ein PowerShell-Skript, mit dem KHI-Datensammler konfiguriert werden, sowie eine Arbeitsmappe mit Analysen und Definitionen zur Analyse der KHI-Leistungsdaten.  <br/> |
 |![Dashboardsymbol](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Statistics Manager for Skype for Business Server 2015](statistics-manager/statistics-manager.md) <br/> |StatsMan ist eine Dashboard-Lösung zum Anzeigen von KHI-Berechnungen in Echtzeit sowie von Leistungsindikatoren, die über Ihre gesamte Infrastruktur hinweg zusammengetragen worden sind. Das Dashboard kann verwendet werden, um aktuelle Leistungsprobleme zu lokalisieren, die Ergebnisse einer geplanten Veränderung in Ihrer Umgebung anzeigen zu lassen, die Auflösung von Ausfällen zu verfolgen und vieles mehr. Sie ist mit KHI-Schwellenwerten aus den KHI-Ressourcen konfiguriert und kann an die individuellen Anforderungen Ihrer Bereitstellung angepasst werden.  <br/> |

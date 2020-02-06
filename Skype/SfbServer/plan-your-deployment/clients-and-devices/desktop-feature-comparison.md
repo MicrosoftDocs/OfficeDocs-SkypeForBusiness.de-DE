@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Zusammenfassung: Skype for Business Server 2015 oder Skype for Business Online-Administratoren können sich mithilfe dieser Tabellen verdeutlichen, welche Funktionen in den Clients jeweils unterstützt werden.
-ms.openlocfilehash: a1df39ed3a426c7e01e753222526b0f18f260f19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
-ms.translationtype: HT
+ms.openlocfilehash: b2a5bd1f0544713501bfce2fc0dffc9776ec64e2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277377"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803675"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Vergleich der Funktionen der Skype for Business Server 2015-Desktopclients
 

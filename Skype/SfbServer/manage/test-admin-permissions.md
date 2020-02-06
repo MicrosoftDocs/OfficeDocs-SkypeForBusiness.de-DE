@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Testen von Administratorberechtigungen in Skype for Business Server
-ms.openlocfilehash: 1bae61dd4e8d5a8636a64687d279536b4989d104
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97db574803b575d484240e7339d56603ae5432da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279249"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817186"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testen von Administratorberechtigungen in Skype for Business Server
 
@@ -50,7 +52,7 @@ Weitere Informationen finden Sie im [Hilfethema zum Cmdlet Test-CsOUPermission](
 
 Wenn die erforderlichen Berechtigungen bereits eingerichtet wurden, gibt Test-CsOUPermission eine Antwort mit einem Wort zurück:
 
-True
+Wahr
 
 Wenn die erforderlichen Berechtigungen nicht festgelegt sind, gibt Test-CsOUPermission den Wert false zurück. Möglicherweise müssen Sie einen Moment suchen, um diesen Wert zu finden. Sie wird in der Regel in mehrere begleitende Warnungen eingebettet. Beispiel:
 

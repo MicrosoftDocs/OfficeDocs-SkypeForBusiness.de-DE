@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277146"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803315"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Systemanforderungen für Edge-Server in Skype for Business Server
  
@@ -193,7 +195,7 @@ Wenn Sie mobile Geräte bereitstellen, muss Ihr Hardwaregerät zum Lastenausglei
   
 Hier sind die HLB-Anforderungen für die (optionalen) Director-und (required)-Front-End-Pool-Webdienste:
   
-- Für Ihre internen Webdienste VIPs setzen Sie Source_addr-Persistenz (interner Port 80, 443) auf Ihrer HLB-Website. Bei Skype for Business Server bedeutet Source_addr-Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse kommen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
+- Für Ihre internen Webdienste VIPs können Sie Source_addr Persistenz (interner Port 80, 443) auf Ihrer HLB-Datenbank einstellen. Bei Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse kommen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
     
 - Verwenden Sie ein TCP-Leerlauftimeout von 1.800 Sekunden.
     

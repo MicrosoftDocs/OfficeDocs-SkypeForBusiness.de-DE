@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Die Skype for Business Server-Verwaltungsshell bietet die Befehlszeilenschnittstelle für die Serververwaltung und-Verwaltung. Es basiert auf Windows PowerShell und enthält eine umfassende Sammlung von Verwaltungs-und Verwaltungs-Cmdlets, die für Skype-und Legacy-lync Server-Produkte spezifisch sind.
-ms.openlocfilehash: 4890194824caaea771d31e008d4546d871d0da8a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 294de750795985d50c6301a88f4b835f1cad78b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991590"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817554"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server-Verwaltungsshell
  

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Zusammenfassung: Überprüfen Sie die DNS-Überlegungen in diesem Thema vor der Implementierung von Skype for Business Server.'
-ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52984c0813fb96c78ff5a1581c0722a691501ccb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221224"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802125"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>DNS-Anforderungen für Skype for Business Server
 
@@ -31,7 +33,7 @@ Ein DNS-Server (Domain Name Service) ordnet Hostnamen (wie www<span> </span> . C
 
 Dies mag zunächst etwas entmutigend erscheinen, aber die schwerwiegende Aufgabe für die Planung kann mit dem [Planning-Tool für Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357)erfolgen. Nachdem Sie die Fragen des Assistenten zu den Features, die Sie verwenden möchten, durchlaufen haben, können Sie für jede von Ihnen definierte Website den DNS-Bericht im Edge-Administrator Bericht anzeigen und die dort aufgelisteten Informationen verwenden, um Ihre DNS-Einträge zu erstellen. Sie können auch Anpassungen an vielen der verwendeten Namen und IP-Adressen vornehmen, um Details finden Sie unter [Überprüfen des DNS-Berichts](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Beachten Sie, dass Sie den Bericht Edge-Administrator in eine Excel-Tabelle exportieren können, und der DNS-Bericht eines der Arbeitsblätter in der Datei ist. Obwohl dieses Tool Features enthält, die [von Skype for Business Server 2019 veraltet](../../../SfBServer2019/deprecated.md)sind, kann es weiterhin verwendet werden, um einen anfänglichen Plan zu erstellen, wenn diese Features nicht ausgewählt sind.
 
-Wenn Sie eine neue Implementierung installieren, wie unter [Erstellen von DNS-Einträgen für Skype for Business Server und erstellen](../../deploy/install/create-dns-records.md) Ihrer Topologie für Skype for Business Server beschrieben, erkennen wir, dass Sie die DNS-Funktionen verwenden können, die in Windows Server integriert sind. 2016 oder ein DNS-Paket eines Drittanbieters, damit wir die Diskussionen in diesem Artikel generell und nicht nur auf bestimmte Themen aufbewahren. Wir sind detailliert, was erforderlich ist, und wie Sie diese Anforderung erfüllen, ist Ihre Entscheidung.
+Wenn Sie eine neue Implementierung installieren, wie unter [Erstellen von DNS-Einträgen für Skype for Business Server und erstellen](../../deploy/install/create-dns-records.md) Ihrer Topologie für Skype for Business Server beschrieben wird, erkennen wir, dass Sie die DNS-Funktionen, die in Windows Server 2016 oder einem Drittanbieter-DNS-Paket integriert sind, verwenden können, damit wir die Diskussionen in diesem Artikel generell und nicht nur in bestimmten Fällen aufbewahren. Wir sind detailliert, was erforderlich ist, und wie Sie diese Anforderung erfüllen, ist Ihre Entscheidung.
 
 Erfahrene Skype for Business-, lync-und Office Communications Suite-Administratoren werden die folgenden Tabellen wahrscheinlich nützlich finden. Wenn die Tabelle für Sie verwirrend ist, werden die folgenden Abschnitte oder Artikel die folgenden Konzepte beleuchten:
 

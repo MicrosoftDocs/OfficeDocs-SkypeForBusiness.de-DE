@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu den Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server zu erhalten.'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277342"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815983"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server
 
@@ -89,7 +91,7 @@ Einwahlkonferenzen sind ein optionales Feature der Skype for Business Server-Kon
 
 Sie müssen die folgenden Skype for Business Server-Komponenten installieren, bevor Sie Einwahlkonferenzen konfigurieren können:
 
-- Unified Communications Application Service (UCAS) (called the Application service)
+- Unified Communications-Anwendungsdienst (auch nur Anwendungsdienst genannt)
 
 - Konferenzzentrale
 
@@ -107,7 +109,7 @@ Die Anwendung für die Conferencing Attendant-Anwendung und die Konferenzankünd
 
 Skype for Business Server unterstützt keine Anpassung von Sprachansagen und Musik für Einwahlkonferenzen. Wenn Sie jedoch eine starke geschäftliche Anforderung haben, die erfordert, dass Sie die standardmäßigen Audiodateien ändern, lesen Sie den Microsoft Knowledge Base-Artikel 961177, [Anleitung zum Anpassen von Sprachansagen oder Musikdateien für Einwahlkonferenzen](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
-Sie können auch das Verwaltungsdienstprogramm für [benutzerdefinierte Sprachansagen für Microsoft lync Server Conferencing](https://go.microsoft.com/fwlink/p/?LinkId=396880) verwenden, das es Administratoren ermöglicht, die standardmäßigen Sprachaufforderungen zu ersetzen, die verwendet werden, wenn ein Telefon Anrufer in eine Skype for Business-Besprechung mit benutzerdefinierten Ansagen wechselt , um eine andere Besprechungs Erfahrung bereitzustellen. Die benutzerdefinierten Sprachansagen können entweder auf einem Enterprise-oder Standard Edition-Server installiert werden.
+Sie können auch das Verwaltungsdienstprogramm für [benutzerdefinierte Sprachansagen für Microsoft lync Server Conferencing](https://go.microsoft.com/fwlink/p/?LinkId=396880) verwenden, das es Administratoren ermöglicht, die standardmäßigen Sprachaufforderungen zu ersetzen, die verwendet werden, wenn ein Telefon Anrufer eine Skype for Business-Besprechung mit benutzerdefinierten Ansagen annimmt, um eine andere Besprechungs Eingabe zu ermöglichen. Die benutzerdefinierten Sprachansagen können entweder auf einem Enterprise-oder Standard Edition-Server installiert werden.
 
 Anwendung für die Conferencing Attendant-Anwendung und Konferenzankündigung gelten für die folgenden Voraussetzungen für Musik in Wartestellung, aufgezeichnete Namen und Audio-Ansagedateien:
 

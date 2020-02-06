@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Statusberichte basieren auf Daten, die vom Client nach Abschluss eines Anrufs oder einer Sitzung an die Datenbank hochgeladen wurden. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von Skype for Business Server 2015 für diagnostische Zwecke nützlich sein können.
-ms.openlocfilehash: 9022c7707e0d2f0a4346ed629bf51420c312b10a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cd89d7ba7f8cc03b25dc9310bdb408c85b50cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295902"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814973"
 ---
 # <a name="progressreport-table"></a>ProgressReport-Tabelle
  

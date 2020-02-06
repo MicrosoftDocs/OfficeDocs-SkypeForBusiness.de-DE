@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel verfügt ein Anruf über zwei Datensätze, einen für den Anrufer und einen für den aufgerufenen.
-ms.openlocfilehash: 1f754f9b7ef19919503988d40347fdeb218830d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 713804875f9cd2a1fc37a2255697c4ffda47a3c5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295104"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811083"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  
@@ -24,9 +26,9 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: Daten des angerufenen  <br/> 1: Daten des Anrufers  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |Dezimal (5; 2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Zustand "falsch" ausgelöst wurde.  <br/> Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist schwerwiegend und beeinträchtigt die Qualität des gesendeten Audiosignals.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |Dezimal (5; 2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Zustand "falsch" ausgelöst wurde.  <br/> Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist schwerwiegend und beeinträchtigt die Qualität des empfangenen Audiosignals.  <br/> |

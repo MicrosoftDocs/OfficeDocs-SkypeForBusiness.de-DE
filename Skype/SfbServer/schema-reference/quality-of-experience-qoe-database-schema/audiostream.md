@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Jeder Datensatz steht für einen Audiostream. Eine Audio-Media-Zeile enthält in der Regel zwei Audiostreams.
-ms.openlocfilehash: eae96b08f3a365288f48b7a68c75d3fd9114107d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 265125202de25da4c6e653ecd53bd465f9a5472b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295048"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810433"
 ---
 # <a name="audiostream-table"></a>AudioStream-Tabelle
  
@@ -24,9 +26,9 @@ Jeder Datensatz steht für einen Audiostream. Eine Audio-Media-Zeile enthält in
   
 |Spalte|Datentyp|Schlüssel/Index|Details|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |**Datenstrom-Nr** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer medienzeile  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Durchschnittlicher Netzwerk-Jitter aus RTCP-Statistiken (Real Time Control Protocol).  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Maximaler Netzwerk Jitter während des Anrufs.  <br/> |

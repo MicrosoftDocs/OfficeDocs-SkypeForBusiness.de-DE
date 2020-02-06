@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete Quality of Experience-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigungs bezogene Informationen auch innerhalb der Skype for Business Server-Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:'
-ms.openlocfilehash: db102a84d58f03fb92a69a301b6906c4b146602c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dab1b2ffeab5882d0e459d7957b2817e780fc3a4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992140"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807333"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings-Tabelle (QoE)
  

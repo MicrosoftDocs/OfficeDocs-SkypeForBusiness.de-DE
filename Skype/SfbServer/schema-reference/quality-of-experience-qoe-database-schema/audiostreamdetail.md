@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: In der AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 16f97fc367b171ceb0ddc5b5c0024bd88c7b5268
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 14815a107654fc83fc2b71c5070b82617154677c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295055"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810873"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  
@@ -24,8 +26,8 @@ In der AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in de
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
-|SessionSeq  <br/> |int  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionTime  <br/> |datetime  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionSeq  <br/> |int  <br/> |In der [medialinie-Tabelle](medialine-0.md)referenziert.  <br/> |
 |Datenstrom-Nr  <br/> |int  <br/> |Eindeutige ID innerhalb einer medienzeile  <br/> |
 |StartTime  <br/> |datetime  <br/> |Startzeit der Sitzung.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Endzeit der Sitzung.  <br/> |

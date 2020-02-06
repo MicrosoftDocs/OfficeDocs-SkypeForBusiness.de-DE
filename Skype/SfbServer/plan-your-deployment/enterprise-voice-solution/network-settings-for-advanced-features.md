@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen so konfiguriert sein, dass Sie Plan für medienumgehung in Skype for Business bereitstellen, die Steuerung der Anrufannahme in Skype for Business Server planen oder Notfalldienste in Skype for Business Server in Skype for Business Server Enterprise-VoIP planen.
-ms.openlocfilehash: 1c652edd2d3f1898742656c9e12448386e680675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25987630ae2082ca8805d87a988760296637d3f7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276575"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802595"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in Skype for Business Server
 
-Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen so konfiguriert sein, dass Sie [Plan für medienumgehung in Skype for Business](media-bypass.md)bereitstellen, die [Steuerung der Anrufannahme in Skype for Business Server planen](call-admission-control.md)oder [Notfalldienste in Skype for Business Server](emergency-services.md) in Skype for Business Server planen Enterprise-VoIP
+Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen so konfiguriert sein, dass Sie [Plan für medienumgehung in Skype for Business](media-bypass.md)bereitstellen, die [Steuerung der Anrufannahme in Skype for Business Server planen](call-admission-control.md)oder [Notfalldienste in Skype for Business Server](emergency-services.md) in Skype for Business Server Enterprise-VoIP planen.
 
-Skype for Business Server verfügt über drei erweiterte Enterprise-VoIP-Funktionen: [Planen der Anrufsteuerung in Skype for Business Server](call-admission-control.md), [Planen von Notfalldiensten in Skype for Business Server](emergency-services.md)und [Planen der medienumgehung in Skype for Business ](media-bypass.md). Diese Features geben bestimmte Konfigurationsanforderungen für netzwerkregionen, Netzwerk Websites und die Zuordnung jedes Subnets in der Skype for Business Server-Topologie mit einer Netzwerk Website frei.
+Skype for Business Server verfügt über drei erweiterte Enterprise-VoIP-Funktionen: [Planen der Anrufsteuerung in Skype for Business Server](call-admission-control.md), [Planen von Notfalldiensten in Skype for Business Server](emergency-services.md)und [Planen der medienumgehung in Skype for Business](media-bypass.md). Diese Features geben bestimmte Konfigurationsanforderungen für netzwerkregionen, Netzwerk Websites und die Zuordnung jedes Subnets in der Skype for Business Server-Topologie mit einer Netzwerk Website frei.
 
 In diesem Thema finden Sie eine Übersicht über die Konfigurationsanforderungen, die für alle drei dieser erweiterten Enterprise-VoIP-Features üblich sind.
 
@@ -38,11 +40,11 @@ Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackb
 
 Für CAC ist es erforderlich, dass jede netzwerkregion über eine zugeordnete Skype for Business Server-zentrale Website verfügt, die den Mediendatenverkehr in der Region verwaltet (das heißt, Sie trifft Entscheidungen basierend auf den von Ihnen konfigurierten Richtlinien, ob es sich um eine echt Zeit Audio-oder Videositzung kann eingerichtet werden). Die zentralen Websites von Skype for Business Server stellen keine geographischen Speicherorte, sondern logische Gruppen von Servern dar, die als Pool oder Gruppe von Pools konfiguriert sind.
 
-Um einen Netzwerkbereich zu konfigurieren, können Sie entweder die Registerkarte **Regionen** im Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung verwenden oder das **neue CsNetworkRegion** oder **CsNetworkRegion** Skype for Business ausführen. Cmdlets für die Server Verwaltungsshell Anweisungen hierzu finden Sie unter [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** im Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung verwenden oder die Cmdlets für die Skype for Business Server-Verwaltungsshell für **neue CsNetworkRegion** oder **CsNetworkRegion** ausführen. Anweisungen hierzu finden Sie unter [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
 Die gleichen Netzwerkbereichs Definitionen werden von allen drei erweiterten Enterprise-VoIP-Features freigegeben. Wenn Sie bereits Netzwerkregionen für eine Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen für die anderen Funktionen erstellen. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.
 
-Wenn Sie einen Skype for Business Server Central-Standort einem Netzwerkbereich zuordnen möchten, geben Sie den zentralen Standortnamen entweder über den Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung oder durch Ausführen des **neuen-CsNetworkRegion** oder Cmdlets für **CsNetworkRegion** . Anweisungen hierzu finden Sie unter [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+Wenn Sie einen Skype for Business Server Central-Standort einem Netzwerkbereich zuordnen möchten, geben Sie den zentralen Standortnamen entweder über den Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung oder durch Ausführen der Cmdlets " **New-CsNetworkRegion** " oder " **CsNetworkRegion** " an. Anweisungen hierzu finden Sie unter [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
 ## <a name="network-sites"></a>Netzwerkstandorte
 
@@ -51,7 +53,7 @@ Ein Netzwerkstandort stellt einen geografischen Standort dar, z. B. ein Zweigst
 > [!NOTE]
 > Netzwerk Websites werden nur von den erweiterten Enterprise-VoIP-Features verwendet. Sie sind nicht identisch mit den Zweigstellen, die Sie in Ihrer Skype for Business Server-Topologie konfigurieren.
 
-Um eine Netzwerk Website zu konfigurieren und Sie einer netzwerkregion zuzuordnen, können Sie entweder den Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung verwenden oder die Skype for Business Server-Verwaltungsshell **New-CsNetworkSite** oder ** **Cmdlets für CsNetworkSite. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer Netzwerk Website](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+Um eine Netzwerk Website zu konfigurieren und Sie einer netzwerkregion zuzuordnen, können Sie entweder den Abschnitt **Netzwerkkonfiguration** der Skype for Business Server-Systemsteuerung verwenden oder die Cmdlets für die Skype for Business Server-Verwaltungsshell " **New-CsNetworkSite** " oder " **CsNetworkSite** " ausführen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer Netzwerk Website](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) in der Bereitstellungsdokumentation oder in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
 ## <a name="identify-ip-subnets"></a>Identifizieren von IP-Subnetzen
 

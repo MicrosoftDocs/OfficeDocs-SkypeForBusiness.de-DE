@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Jeder Datensatz stellt eine Peer-to-Peer-Sitzung dar, bei der es sich um einen VoIP-VoIP-Telefonanruf, eine Chatsitzung mit zwei Teilnehmern oder eine andere Art von Sitzung handeln kann. Sie können eine Tabellen Verknüpfung mit der Medientabelle durchführen, um die Details der einzelnen Medien zu finden, die an dieser Sitzung beteiligt sind.
-ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a211598e7771c5637af191f19ad2926e3cc803e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295804"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814903"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails-Tabelle
  
@@ -41,7 +43,7 @@ Beachten Sie, dass die Felder IsUser1IntegratedWithDeskPhone und IsUser2Integrat
 |**ReferredById** <br/> |int  <br/> |Fremd  <br/> |Die ID des Benutzers, auf den der Anruf verweist. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
 |**ServerID** <br/> |int  <br/> |Fremd  <br/> |Die ID des für diese Sitzung verwendeten Front-End-Servers. Weitere Informationen finden Sie in der [Tabelle Server](servers.md) . <br/> |
 |**Pool-Nr** <br/> |int  <br/> |Fremd  <br/> |Die ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen finden Sie in der [Tabelle Pools](pools.md) . <br/> |
-|**ContentTypeID** <br/> |int  <br/> |Fremd  <br/> |Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie in der Tabelle "ContentTypes" [in Skype for Business Server 2015](contenttypes.md) . <br/> |
+|**ContentTypeID** <br/> |int  <br/> |Fremd  <br/> |Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie [in der Tabelle "ContentTypes" in Skype for Business Server 2015](contenttypes.md) . <br/> |
 |**User1ClientVerId** <br/> |int  <br/> |Fremd  <br/> |Von Benutzer1 verwendete Client Version. Weitere Informationen finden Sie [in der Tabelle ClientVersions in Skype for Business Server 2015](clientversions.md) . <br/> |
 |**User2ClientVerId** <br/> |int  <br/> |Fremd  <br/> |Von User2 verwendete Client Version. Weitere Informationen finden Sie [in der Tabelle ClientVersions in Skype for Business Server 2015](clientversions.md) . <br/> |
 |**User1EdgeServerid** <br/> |int  <br/> |Fremd  <br/> |Von Benutzer1 verwendeter Edgeserver Weitere Informationen finden Sie [in der Tabelle EdgeServers in Skype for Business Server 2015](edgeservers.md) . <br/> |
@@ -56,7 +58,7 @@ Beachten Sie, dass die Felder IsUser1IntegratedWithDeskPhone und IsUser2Integrat
 |**User1MessageCount** <br/> |int  <br/> ||Die Anzahl der Nachrichten, die von Benutzer1 während der Sitzung gesendet wurden.  <br/> |
 |**User2MessageCount** <br/> |int  <br/> ||Die Anzahl der Nachrichten, die von User2 während der Sitzung gesendet wurden.  <br/> |
 |**SessionEndTime** <br/> |datetime  <br/> ||Uhrzeit am Ende der Sitzung.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||Ein Bit-Satz, der den Medientyp dieser Sitzung angibt. Aufgelistet sind die Definitionen der Typen:  <br/> 1-Chat  <br/> 2 – FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-Audio  <br/> 32-Video  <br/> 64-APP_INVITE  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||Ein Bit-Satz, der den Medientyp dieser Sitzung angibt. Aufgelistet sind die Definitionen der Typen:  <br/> 1-Chat  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-Audio  <br/> 32-Video  <br/> 64-APP_INVITE  <br/> |
 |**User1Flag** <br/> |smallint  <br/> ||Ein Bit-Satz, der die Benutzer1-Attribute angibt. Die folgenden Attributdefinitionen werden aufgelistet:  <br/> 0x01-integriert mit dem Desktoptelefon  <br/> |
 |**User2Flag** <br/> |smallint  <br/> ||Ein Bit-Satz, der die User2-Attribute angibt. Die folgenden Attributdefinitionen werden aufgelistet:  <br/> 0x01-integriert mit dem Desktoptelefon  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||Ein Bit-Satz, der die anrufattribute angibt. Die folgenden Attributdefinitionen werden aufgelistet:  <br/> 0x01-wiederholte Sitzung  <br/> 0x02 – ein Anruf, der von einem Agenten im Auftrag einer Reaktionsgruppe durchgeführt wurde  <br/> |

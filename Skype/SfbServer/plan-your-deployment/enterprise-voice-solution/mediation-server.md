@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Informationen zu Vermittlungsservern in Skype for Business Server, einschließlich der unterstützten Topologien und ihrer Beziehungen zu M:N Trunks, zur medienumgehung und zur Anrufsteuerung.
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276698"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802695"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Vermittlungsserver Komponente in Skype for Business Server
  
@@ -64,7 +66,7 @@ Die folgende Abbildung zeigt die Signalisierungs-und Medienprotokolle, die vom V
 
 Skype for Business Server unterstützt die Flexibilität bei der Definition eines Trunks für Anrufrouting Zwecke. Bei einem Trunk handelt es sich um eine logische Zuordnung zwischen einem Vermittlungs Server und einer Abhör Portnummer mit einem Gateway und einer Abhör Portnummer. Dies impliziert mehrere Dinge: ein Vermittlungs Server kann mehrere Trunks zum gleichen Gateway haben; ein Vermittlungs Server kann mehrere Trunks zu unterschiedlichen Gateways aufweisen. Umgekehrt kann ein Gateway mehrere Trunks zu verschiedenen Vermittlungsservern aufweisen.
   
-Sie müssen weiterhin einen Stamm Stamm erstellen, wenn Sie mit dem Topology Builder ein Gateway zu Ihrer Skype for Business-Topologie hinzufügen. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungsserver auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für Skype for Business Server erfüllt, wie unter [Server Anforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)beschrieben, kann ein eigenständiger Vermittlungsserver ungefähr 1000-Anrufe. Der Vermittlungs Server führt eine Transcodierung durch, aber weiterhin Anrufe für mehrere Gateways weiterleiten, selbst wenn die Gateways keine medienumgehung unterstützen.
+Sie müssen weiterhin einen Stamm Stamm erstellen, wenn Sie mit dem Topology Builder ein Gateway zu Ihrer Skype for Business-Topologie hinzufügen. Die Anzahl der Gateways, die ein bestimmter Vermittlungs Server verarbeiten kann, hängt von der Verarbeitungskapazität des Servers während der Spitzenzeiten ab. Wenn Sie einen Vermittlungsserver auf Hardware bereitstellen, die die Mindestanforderungen für die Hardware für Skype for Business Server erfüllt, wie unter [Server Anforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)beschrieben, kann ein eigenständiger Vermittlungsserver rund 1000 Anrufe verarbeiten. Der Vermittlungs Server führt eine Transcodierung durch, aber weiterhin Anrufe für mehrere Gateways weiterleiten, selbst wenn die Gateways keine medienumgehung unterstützen.
   
 Wenn Sie eine Anrufroute definieren, geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver dieser Route zugeordnet sind. Stattdessen verwenden Sie den Topologie-Generator, um Trunks mit Vermittlungsservern zu verknüpfen. Mit anderen Worten: das Routing bestimmt, welcher trunk für einen Anruf verwendet werden soll, und anschließend wird der dem Stamm zugeordnete Vermittlungs Server für diesen Anruf signalisiert.
   

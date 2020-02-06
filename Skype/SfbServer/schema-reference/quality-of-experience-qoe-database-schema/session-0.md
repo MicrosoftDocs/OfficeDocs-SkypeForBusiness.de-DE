@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: Die Sitzungsansicht speichert Informationen zu Sitzungen mit Datensätzen in der Datenbank. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd304123022e0d4d921ecb1cd2599c636aaa9013
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294684"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805903"
 ---
 # <a name="session-view"></a>Sitzungsansicht
  

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: In der errorreport-Tabelle werden Informationen zu Fehlern gespeichert, die aufgetreten sind. Bei jedem Datensatz handelt es sich um ein Fehlerereignis. Die Fehler werden entweder vom CDR-Agent, der auf dem Front-End-Server ausgeführt wird, erfasst oder vom Client gesendet.
-ms.openlocfilehash: 80a6106bd7c6b87a7519bca6ce5cc72f45147ad6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de103c61f74b50297f9c012ae7f4c6e1586e87d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296266"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815223"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ErrorReport-Tabelle in Skype for Business Server 2015
  

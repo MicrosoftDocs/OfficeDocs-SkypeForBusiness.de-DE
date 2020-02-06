@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.
-ms.openlocfilehash: 473b718a8a863432a71ff04d709bef4c0ac1327f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295244"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812933"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -45,7 +47,7 @@ tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPr
 |2  <br/> |AnyUser  <br/> |Generisches Prinzipal des Benutzertyps. Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> |Ja  <br/> |
 |3  <br/> |AnyGroup  <br/> |Generischer Prinzipal mit Gruppen Semantik Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> ||
 |4  <br/> |Multiswitch  <br/> |Prinzipal, der intern vom beständigen Chat Server verwendet wird.  <br/> ||
-|5  <br/> |User  <br/> |Normaler Benutzer.  <br/> |Ja  <br/> |
+|5  <br/> |Benutzer  <br/> |Normaler Benutzer.  <br/> |Ja  <br/> |
 |8  <br/> |DC  <br/> |Active Directory-Domänendienste-Domänencontroller.  <br/> ||
 |9  <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe.  <br/> ||
 |10  <br/> |Ordner  <br/> |Active Directory-Container oder-Organisationseinheit.  <br/> ||

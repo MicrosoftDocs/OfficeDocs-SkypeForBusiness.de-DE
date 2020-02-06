@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Informieren Sie sich über die Anrufsteuerung, mit der Sie in Skype for Business Server Enterprise-VoIP verhindern können, dass Anrufe stattfinden, wenn Sie schlechte Medienqualität aufweisen.
-ms.openlocfilehash: 3942c3d50267593f393655e19d0cc80b5f5028f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33aad955d0d1c592900683213a13e50433265a10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277069"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803235"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planen der Anrufsteuerung in Skype for Business Server
 
@@ -84,7 +86,7 @@ Wenn Ihr Unternehmen die Medienübermittlung über ein VPN unterstützt, müssen
 
 ### <a name="call-admission-control-of-outside-users"></a>Anrufsteuerung für externe Benutzer
 
-Die Anrufsteuerung wird nicht über die Grenzen der Skype for Business Server-Organisation hinaus erzwungen. CAC kann nicht auf den Medien Verkehr angewendet werden, der das Internet durchläuft, was nicht von Skype for Business Server verwaltet wird. CAC-Prüfungen werden für den Teil des Anrufs durchgeführt, der durch das Unternehmensnetzwerk fließt, wenn der aufgerufene Endpunkt zur Organisation gehört und der Edgeserver zur Netzwerkkonfiguration hinzugefügt wurde, wie unter [Anrufsteuerung beschrieben. Bereitstellung: endgültige Checkliste für Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Wenn der angerufene Endpunkt nicht zur Organisation gehört, wie beispielsweise ein Partnerverbund- oder PIC-Benutzer, werden keine Überprüfungen der Bandbreitenrichtlinie durchgeführt und beim ausgehenden Anruf werden alle Beschränkungen der Anrufsteuerung ignoriert.
+Die Anrufsteuerung wird nicht über die Grenzen der Skype for Business Server-Organisation hinaus erzwungen. CAC kann nicht auf den Medien Verkehr angewendet werden, der das Internet durchläuft, was nicht von Skype for Business Server verwaltet wird. CAC-Prüfungen werden für den Teil des Anrufs durchgeführt, der durch das Unternehmensnetzwerk geleitet wird, wenn der aufgerufene Endpunkt zur Organisation gehört und der Edgeserver der Netzwerkkonfiguration hinzugefügt wurde, wie unter [Bereitstellung von Anrufsteuerung: endgültige Checkliste für Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md)beschrieben. Wenn der angerufene Endpunkt nicht zur Organisation gehört, wie beispielsweise ein Partnerverbund- oder PIC-Benutzer, werden keine Überprüfungen der Bandbreitenrichtlinie durchgeführt und beim ausgehenden Anruf werden alle Beschränkungen der Anrufsteuerung ignoriert.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Anrufsteuerung für PSTN-Verbindungen
 
@@ -180,7 +182,7 @@ Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folg
 - Maximal reservierte Bandbreite für einen einzelnen Videoanruf (Sitzung)
 
 > [!NOTE]
-> Alle CAC-Bandbreitenwerte stellen ** die maximalen unidirektionalen Bandbreitengrenzwerte dar.
+> Alle CAC-Bandbreitenwerte stellen die maximalen *unidirektionalen* Bandbreitengrenzwerte dar.
 
 > [!NOTE]
 > Die VoIP-Richtlinienfeatures von Skype for Business Server bieten die Möglichkeit, die Bandbreitenrichtlinien Überprüfung für eingehende Anrufe an den Benutzer außer Kraft zu setzen (nicht für ausgehende Anrufe, die vom Benutzer getätigt werden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) oder [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in der Bereitstellungsdokumentation.

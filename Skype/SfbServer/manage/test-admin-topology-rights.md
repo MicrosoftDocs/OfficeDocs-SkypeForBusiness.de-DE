@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Testen von Topologie-rechten in Skype for Business Server
-ms.openlocfilehash: d70809ba929c4f1934adce2bd3c60b261bd30d71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1664a7e7d2b202b596a882e4b393cc15220806c9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817311"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testen der Rechte der Administrator Topologie in Skype for Business Server
 
@@ -43,7 +45,7 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsSetupPermissio
 
 Wenn Test-CsSetupPermission feststellt, dass die erforderlichen Berechtigungen bereits für einen Active Directory-Container festgelegt wurden, gibt das Cmdlet den Wert "true" zurück:
 
-True 
+Wahr 
 
 Wenn Berechtigungen nicht festgelegt werden, gibt Test-CsSetupPermission den Wert false zurück. Beachten Sie, dass dieser Wert in der Regel in viele Warnmeldungen eingeschlossen ist. Beispiel:
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: diese Funktionen sind neu in Skype for Business Server 2019.'
-ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db5ea6589a56f696f233854372fc95d6064fed7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283899"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799415"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype for Business Server 2019
 
@@ -48,7 +50,7 @@ Mit Call Data Connector können Sie die folgenden Aufgaben mithilfe eines einzel
 - Anzeigen und Beheben von Problemen in Ihrem Netzwerk
 - Weisen Sie Helpdesk-und Administratorrollen für die anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern die Möglichkeit geben können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
-Weitere Informationen finden Sie unter [Planen von Anrufdaten](../sfbhybrid/hybrid/plan-call-data-connector.md) -Konnektoren.
+Weitere Informationen finden Sie unter [Planen von Anrufdaten-Konnektoren](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Siehe auch
 

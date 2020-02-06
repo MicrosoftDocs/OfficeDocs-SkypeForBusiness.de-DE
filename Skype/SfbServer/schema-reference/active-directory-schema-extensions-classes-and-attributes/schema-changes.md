@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Bevor Sie Skype for Business Server bereitstellen und betreiben, müssen Sie die Active Directory-Domänendienste vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815483"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Schema Änderungen in Skype for Business Server
  
@@ -67,7 +69,7 @@ In der folgenden Tabelle werden die Active Directory-Klassen beschrieben, die vo
 
 |**Klasse**|**Änderung**|**Klasse oder Attribut**|
 |:-----|:-----|:-----|
-|User  <br/> |Add: mayContain  <br/> Add: mayContain  <br/> |ProxyAddresses  <br/> Attribut msRTCSIP-UserRoutingGroupId  <br/> |
+|Benutzer  <br/> |Add: mayContain  <br/> Add: mayContain  <br/> |ProxyAddresses  <br/> Attribut msRTCSIP-UserRoutingGroupId  <br/> |
 |Kontakt  <br/> |Add: mayContain  <br/> Add: mayContain  <br/> |ProxyAddresses  <br/> Attribut msRTCSIP-UserRoutingGroupId  <br/> |
 |E-Mail-Empfänger  <br/> |Add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |Attribut msRTCSIP-GlobalTopologySetting  <br/> |Add: mayContain  <br/> |Attribut msRTCSIP-MirrorBackEndServer  <br/> |
