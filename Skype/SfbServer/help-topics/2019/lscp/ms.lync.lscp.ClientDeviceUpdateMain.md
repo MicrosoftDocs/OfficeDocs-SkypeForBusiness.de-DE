@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft veröffentlicht in regelmäßigen Abständen einen neuen Satz von Gerätefirmware-Updates für Skype for Business Phone Edition, die Sie auf Ihre Server importieren und an Benutzer verteilen können. Sie können die neuesten Regeln für Geräte Updates abrufen, indem Sie auf der Microsoft-Website auf der Seite Hilfe und Support auf der Microsoft-Website nach forPhone Edition suchen. Laden Sie das neueste Update-Paket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf dem die Updates hochgeladen werden sollen. Nachdem Sie die Dateien extrahiert haben, können Sie das Cmdlet Import-CsDeviceUpdate verwenden, um die Geräteaktualisierungsregeln aus der extrahierten CAB-Datei (die „UCUpdates.cab“ oder ähnlich heißt) zu importieren. Ausführliche Informationen finden Sie unter Importieren-CsDeviceUpdate.
-ms.openlocfilehash: d82010d45ae550c49529720496fc202abb2f6e4c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d4baa87c615189fbe784ba7ce63487107fd56355
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705140"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794514"
 ---
 # <a name="device-update"></a>Geräteupdate
 

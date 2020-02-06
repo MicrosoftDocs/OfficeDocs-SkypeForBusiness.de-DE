@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie über Front-End-Pools, Director-Pools oder Edge-Server-Pools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
-ms.openlocfilehash: 94b6082205deea4d2c64c2aa167e3c3131eec3fd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 84e0c33e6f5a00c936ade862ac4793c5e5603fef
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689800"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797156"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  

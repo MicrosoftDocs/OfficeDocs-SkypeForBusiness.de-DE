@@ -8,17 +8,19 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Umgebung auf eine Installation von Skype for Business Server vorbereiten. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797086"
 ---
 # <a name="install-skype-for-business-server"></a>Installieren von Skype for Business Server
  
@@ -56,7 +58,7 @@ Die erste Inbetriebnahme von Skype for Business Server umfasst acht primäre Sch
     
 - [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server](create-and-publish-new-topology.md) : bevor Sie das Skype for Business Server-System auf jedem Server in der Topologie installieren können, müssen Sie eine Topologie erstellen und veröffentlichen. Beim Veröffentlichen einer Topologie laden Sie die Topologieinformationen in die Datenbank des zentralen Verwaltungsspeichers. Bei einem Enterprise Edition-Pool erstellen Sie die Datenbank des zentralen Verwaltungsspeichers beim ersten Veröffentlichen einer neuen Topologie. In der Standard Edition müssen Sie den Vorgang „Ersten Standard Edition-Server vorbereiten“ des Bereitstellungs-Assistenten vor dem Veröffentlichen der Topologie ausführen. Damit wird die Standard Edition durch Installation einer SQL Server Express Edition-Instanz und die Erstellung des zentralen Verwaltungsspeichers vorbereitet.
     
-- [Installieren Sie Skype for Business Server auf Servern in der Topologie](install-skype-for-business-server.md) : Nachdem die Topologie in den zentralen Verwaltungsspeicher geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen sollen, müssen Sie das Skype for Business Server-System auf jedem der die Server in der Topologie.
+- [Installieren Sie Skype for Business Server auf Servern in der Topologie](install-skype-for-business-server.md) : Nachdem die Topologie in den zentralen Verwaltungsspeicher geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen sollen, müssen Sie das Skype for Business Server-System auf jedem der Server in der Topologie installieren.
     
 - [Überprüfen Sie die Topologie in Skype for Business Server](verify-the-topology.md) : Nachdem Sie die Topologie veröffentlicht haben und die Systemkomponenten von Skype for Business Server auf jedem der Server in der Topologie installiert sind, können Sie überprüfen, ob die Topologie wie erwartet funktioniert. Dies umfasst die Überprüfung, ob die Konfiguration an alle Active Directory-Server weitergegeben wurde, damit die gesamte Domäne weiß, dass Skype for Business in der Domäne verfügbar ist.
     

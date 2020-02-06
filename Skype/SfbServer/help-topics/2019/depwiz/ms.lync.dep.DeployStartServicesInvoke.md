@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Bereich "Zusammenfassung" im Bereich "Befehle ausführen" zeigt den Status der Aufgaben an, die zum Starten der Dienste für den von Ihnen bereitgestellten Skype for Business Server-Rollen Server ausgestellt wurden.
-ms.openlocfilehash: 3f1f19de0e591b23181c9e711991a2b9d99f9b4a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 50d161c024b7e85e995cdde407ec380125e5b318
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705280"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794624"
 ---
 # <a name="start-services-invoke"></a>Starten von Diensten (Aufruf)
  

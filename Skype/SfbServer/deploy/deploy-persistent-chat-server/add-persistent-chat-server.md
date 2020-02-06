@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server 2015-Topologie einen beständigen Chat Server hinzufügen.'
-ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794113"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen eines beständigen Chat Servers zu Ihrer Skype for Business Server 2015-Topologie
  
@@ -33,14 +35,14 @@ Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf d
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren Ihrer Topologie unter Einbeziehung des Servers für beständigen Chat
 
-Führen Sie die folgenden Schritte aus, um einen einzelnen beständigen Chat Server Pool ohne Disaster Recovery-Konfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten beständigen Chat-Server Pools für die Hochverfügbarkeits-und Disaster Recovery finden Sie unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Führen Sie die folgenden Schritte aus, um einen einzelnen beständigen Chat Server Pool ohne Disaster Recovery-Konfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten beständigen Chat-Server Pools für die Hochverfügbarkeits-und Disaster Recovery finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
   
 Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen Vorgang für jeden Pool.
   
 1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe (oder einem Konto mit entsprechenden Benutzerrechten) ist.
     
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die für die Installation von Skype for Business Server erforderlich ist, müssen Sie ein Konto verwenden, das ein Mitglied der Gruppe " **Domain Admins** " und das ** RTCUniversalServerAdmins** -Gruppe, die über Vollzugriffsberechtigungen (lesen, schreiben und ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des beständigen Chat Servers verwenden möchten (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit gleichwertige Rechte.
+    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das Mitglied der lokalen Benutzergruppe ist, aber eine Topologie veröffentlichen, die für die Installation von Skype for Business Server erforderlich ist. Sie müssen ein Konto verwenden, das ein Mitglied der Gruppe " **Domänen-Admins** " und der Gruppe " **RTCUniversalServerAdmins** " ist und über Vollzugriffsberechtigungen (lesen, schreiben und ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des beständigen Chat Servers verwenden möchten (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit einem äquivalenten Rechte.
   
 2. Starten Sie den Topologie-Generator.
     
@@ -73,12 +75,12 @@ Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen
    - Wählen Sie entweder **Standardinstanz** aus, um die Standardinstanz zu verwenden, oder wählen Sie **Benannte Instanz** aus, um eine andere Instanz anzugeben, die Sie verwenden möchten.
     
      > [!NOTE]
-     > Weitere Informationen zum Konfigurieren von SQL Server-Sicherungsdatenbanken für die Disaster Recovery finden Sie unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > Weitere Informationen zum Konfigurieren von SQL Server-Sicherungsdatenbanken für die Disaster Recovery finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Definieren Sie den SQL Server-Kompatibilitäts Speicher, wenn Sie die Kompatibilität aktiviert haben.
     
     > [!IMPORTANT]
-    > Informationen zum Konfigurieren von SQL Server-Spiegelungen für die Hochverfügbarkeits-Datenbank für die persistente Chat Server-Datenbank und die Datenbank für beständigen Chat Server finden Sie unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype. für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Informationen zum Konfigurieren von SQL Server-Spiegelungen für die Hochverfügbarkeits-Datenbank für die beständige Chat Server-Datenbank und die Datenbank für beständigen Chat Server finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 10. Definieren Sie den Dateispeicher. Bei einem Dateispeicher handelt es sich um einen Ordner, in dem eine Kopie einer Datei, die in das Datei-Repository hochgeladen wurde, gespeichert wird (beispielsweise das Speichern von Dateianlagen, die in einem Chatroom gepostet wurden). Bei einer persistenten Chat Server Topologie mit mehreren Servern muss es sich um einen UNC-Pfad (Universal Naming Convention) handeln. und bei einer Server Topologie mit einem Server für beständigen Chat kann es sich um einen lokalen Dateipfad handeln.
     
@@ -107,7 +109,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator aktualisiert haben, müssen Si
   
 Bevor Sie Ihre Topologie veröffentlichen, installieren Sie die Datenbanken für beständigen Chat Server. Mithilfe des Topologie-Generators können Sie Datenbanken installieren, indem Sie **Aktion** und **Datenbank installieren**auswählen.
   
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das ein Mitglied der Gruppe " **Domain Admins** " und der **RTCUniversalServerAdmins** -Gruppe ist. und die über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) im Dateispeicher für den Dateispeicher für beständigen Chat Server verfügt (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit einem entsprechenden Benutzer konfigurieren kann. Rechte.
+1. Auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, melden Sie sich mit einem Konto an, das ein Mitglied der Gruppe " **Domänen-Admins** " und der Gruppe " **RTCUniversalServerAdmins** " ist und das über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) im Dateispeicher für den Dateispeicher für beständigen Chat Server verfügt (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit einem entsprechenden Rechte.
     
 2. Starten Sie den Topologie-Generator. Wählen Sie **Topologie aus lokaler Datei öffnen**, wenn das Programm lokal gespeichert ist.
     

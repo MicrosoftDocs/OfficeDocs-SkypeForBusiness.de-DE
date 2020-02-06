@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 6a0458f9537eafdce7e3aff25ad5e21dd15b7185
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8bd760582919ce9ff9c056b30a47c73148e5d030
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688788"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793923"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU – Bereichsknoten
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie veröffentlichen die Topologie, die Sie mit dem Topologie-Generator konfiguriert haben. Sie werden aufgefordert, aus einer Liste auszuwählen, auf der der Front-End-Server oder der Front-End-Pool die Rolle des zentralen Verwaltungsspeichers übernimmt. Diese Rolle kann nur von einem Front-End-Server oder einem Front-End-Pool zu einem beliebigen Zeitpunkt übernommen werden.
-ms.openlocfilehash: 9cecdc170934f7359597484e56299e2fe76499b9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cae0f79b9787458ae1dd24077dfdd46689378414
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701670"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795416"
 ---
 # <a name="publish-topology-select-cms-page"></a>Veröffentlichen der Topologie – Seite "Zentralen Verwaltungsserver auswählen"
  

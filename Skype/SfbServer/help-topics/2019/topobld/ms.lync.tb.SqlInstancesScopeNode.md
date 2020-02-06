@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der SQL Stores-Knoten listet die SQL Server-Datenbanken in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: c1100de3d7dfdffeed3133562b31115bfc6bc35f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4c138cb24f7b6c213da41f67563dce4863347b69
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687948"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794304"
 ---
 # <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
  

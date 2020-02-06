@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus Agentengruppen, Warteschlangen und Workflows. Reaktionsgruppenworkflows definieren die Aktionen, die ausgeführt werden, wenn die Antwortgruppen Anwendung einen Telefonanruf erhält.
-ms.openlocfilehash: fa7539b3ddda583e9d8b1de7b930c8330a42f334
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a1774194dab79dd31b9c26f8fba0520d306088c9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690730"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794153"
 ---
 # <a name="response-groups-workflow"></a>Workflow für Reaktionsgruppen
 

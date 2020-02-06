@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite Alternative Zertifikatvorlage angeben können Sie eine Zertifikatvorlage bestimmen, die sich von der standardmäßig verwendeten Webserver-Zertifikatvorlage unterscheidet. Aktivieren Sie das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden und geben Sie in das Textfeld Zertifikatvorlagenname den Namen der alternativen Zertifikatvorlage ein. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf Zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um den Zertifikatsanforderungsprozess zu beenden.
-ms.openlocfilehash: ab5cef4d0609eea59c304d3f4550c017c84d64f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2ada69d4c71b44ea195ad65a991c6104bdb3443
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691950"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794404"
 ---
 # <a name="certificate-request-specify-termplate"></a>Zertifikatsanforderung (mit Angabe der Vorlage)
  

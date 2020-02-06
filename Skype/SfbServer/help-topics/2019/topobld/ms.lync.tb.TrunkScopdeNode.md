@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Klicken Sie mit der rechten Maustaste auf einen vorhandenen SIP-Trunk im Topologie-Generator, um folgende Aktionen auszuführen:'
-ms.openlocfilehash: 83c09d6bdf12589b4c8f7a64c73523419e57b23a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cae913dadf25a9931c626be6d15b839eb4520c3c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701430"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795084"
 ---
 # <a name="trunk-scope-node"></a>Trunk – Bereichsknoten
  
