@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Sie können die Systemsteuerung für Legacy Installationen verwenden, um neue Sitzungen für alle Legacy Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Legacy Dienst zu verhindern.
-ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bba30bee0fb8c25bed25e2c3cbd593179aa9b97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813053"
 ---
 # <a name="prevent-sessions-for-services"></a>Verhindern von Sitzungen für Dienste
 

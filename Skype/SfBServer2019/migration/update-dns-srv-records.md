@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Um dieses Verfahren erfolgreich durchführen zu können, sollten Sie als Mitglied der Gruppe Domänenadministratoren oder als Mitglied der DnsAdmins-Gruppe am Server oder in der Domäne angemeldet sein.
-ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ef77f491efd090949ff5dd6b653dd3cd6ea1cde7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241158"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812773"
 ---
 # <a name="update-dns-srv-records"></a>Aktualisieren von DNS SRV-Einträgen
 

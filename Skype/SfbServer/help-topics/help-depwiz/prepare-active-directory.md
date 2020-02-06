@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: Um mit der Installation von Skype for Business Server 2015 zu beginnen, müssen Sie das Active Directory-Domänendienste-Schema, die Gesamtstruktur und die Domänen vorbereiten, die Server und Benutzer hosten werden. Der Bereitstellungs-Assistent von Skype for Business Server führt Sie durch die Schritte, die erforderlich sind, um Active Directory vorzubereiten, beginnend mit dem Schema und dann in die Gesamtstrukturvorbereitung. Nachdem Sie bestätigt haben, dass die Active Directory-Replikation erfolgreich ist, bereiten Sie dann jede Domäne vor, die Benutzer oder Server hostet.
-ms.openlocfilehash: a184e67b7cb87eca95556495ab32f4ded97aaf14
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c2343d0c74d2ae46c7c2b22eaaa893f023f68297
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700760"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812033"
 ---
 # <a name="prepare-active-directory"></a>Vorbereiten von Active Directory
 
