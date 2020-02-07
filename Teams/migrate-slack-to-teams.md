@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: Umfassender Leitfaden für das Migrieren von Slack auf Microsoft Teams.
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793471"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845211"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrieren von Slack auf Microsoft Teams
 
@@ -43,7 +44,7 @@ Um mehr über die Exportmöglichkeiten von Slack zu erfahren, besuchen Sie die S
 
 Das folgende Diagramm gibt Ihnen einen Überblick über die Slack-Migrationslandschaft, die wir in diesem Artikel behandeln werden. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Diagramm, das die Slack-Migrationslandschaft anzeigt.":::
+![Diagramm, das die Slack-Migrationslandschaft anzeigt.](media/migrate-slack-to-teams-image2.png)
 
 Folgende Begriffe sollten Sie nach Abschluss dieses Abschnitts kennen:
 - Der Servicegrad Ihrer Slack-Arbeitsbereiche
@@ -80,7 +81,7 @@ Apps in Slack sind wie Apps in Teams. Sobald Sie eine Liste von Apps und deren K
 
 Besuchen Sie <your Slack workspace>.slack.com/apps/manage, um eine Liste der Apps und benutzerdefinierten Integrationen zu erhalten. Diese Seite zeigt Ihnen auch die Anzahl der Konfigurationen, in denen jede App verwendet wird. Benutzerdefinierte Integrationen unterscheiden sich in ihrer „Migrationsfähigkeit“. Wenn es sich um einen Webhook handelt, können Sie ihn normalerweise an einen Office 365-Connector senden, um den Workflow in Teams zu überführen. Bewerten Sie Bots und andere Apps von Fall zu Fall, um sie in Teams zu verschieben.
 
-* Wenn Ihr Administrator die Nutzung von Apps eingeschränkt hat, werden Sie möglicherweise nicht die vollständige Liste der verfügbaren Apps sehen.
+\* Wenn Ihr Administrator die Nutzung von Apps eingeschränkt hat, werden Sie möglicherweise nicht die vollständige Liste der verfügbaren Apps sehen.
 
 ### <a name="users"></a>Benutzer
 Die Identitätsschemas, die Sie in Slack verwendet haben, werden möglicherweise nicht direkt zu Office 365 zugeordnet. So können beispielsweise die E-Mail-Adressen Ihrer Slack-Benutzer nicht zu den Arbeits- oder Schulkonten von Office 365 zugeordnet werden. Sie sollten eine Benutzer-ID-Zuordnung erstellen, bevor Sie mit der Planung des Rollouts Ihres Teams beginnen.
@@ -162,8 +163,8 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 Folgendes sollten Sie nach Abschluss dieses Abschnitts haben:
-- Eine Liste der Kanäle pro Arbeitsbereich mit Nutzungsstatistiken
-- Eine Liste der Slack-Apps mit Konfigurationen pro Kanal
+- Eine Liste der Kanäle pro Arbeitsbereich mit Nutzungsstatistiken.
+- Eine Liste der Slack-Apps mit Konfigurationen pro Kanal.
 - Bestimmt, welche Art von Slack-Nachrichtenverlauf Sie exportieren möchten (sofern vorhanden).
 - Eine Liste von Benutzern, deren Slack-Konten den Arbeits- oder Schulkonten von Microsoft zugeordnet sind und welche Teams-Lizenz sie haben.
 

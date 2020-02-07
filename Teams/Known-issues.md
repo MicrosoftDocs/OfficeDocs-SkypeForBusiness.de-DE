@@ -13,15 +13,17 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628531"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845146"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -42,6 +44,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |Die Administratorverwaltung für mandantenweite Connectors ist nicht mehr verfügbar.  <br/> |Beim Versuch, einen Connector hinzuzufügen, wird in der Clientversion und in der Onlineversion die folgende Fehlermeldung angezeigt: „An unexpected error occurred. Please try again.“ (Unerwarteter Fehler. Versuchen Sie es erneut.). „Set-OrganizationConfig -ConnectorsEnabled=True“   <br/> |Verwenden Sie zum Deaktivieren die Microsoft Teams-Einstellungen. Lesen Sie diesen Supportartikel: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.17  <br/> |
 
 ## <a name="apps"></a>Apps
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Benutzer von Chrome-Version 80 können sich bei einigen Apps auf der Teams-Plattform nicht anmelden.<br/>|Nachdem die Benutzer ihre Kennwort-Anmeldeinformationen ordnungsgemäß auf der Anmeldeseite einer App eingegeben haben, beginnt ein sich wiederholender Zyklus, bei dem der Benutzer von der App nicht erkannt und zur Anmeldeseite der App zurück geleitet wird. <br/>|Weisen Sie die Benutzer an, den Teams-Desktopclient zu verwenden. |15.11.19<br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

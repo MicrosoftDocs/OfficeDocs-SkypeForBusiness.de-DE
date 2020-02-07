@@ -15,15 +15,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 f1.keywords:
-- ms.teamsadmincenter.deploymentadvisor.overview
+- CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (Preview), um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: 0e9af496c6ebb3373bc8ec3542f4645ae7f67d4c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707731"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836775"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
