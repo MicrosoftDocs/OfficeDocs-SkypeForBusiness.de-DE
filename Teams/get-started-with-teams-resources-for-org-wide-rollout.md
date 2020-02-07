@@ -11,19 +11,21 @@ ms.reviewer: lolaj
 description: Erfahren Sie, wo Sie tiefgreifende Ressourcen zu Bereitstellung und Einführung von Microsoft Teams finden.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eedd234c248e7c217d23a378989cc5e90f55d01d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b4c1a936108a12d4fd5d633a79fe2b37c5bd1542
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570780"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837025"
 ---
-# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="d1efb-103">Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d1efb-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="cc6c8-103">Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="cc6c8-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
 
-<span data-ttu-id="d1efb-104">Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern.</span><span class="sxs-lookup"><span data-stu-id="d1efb-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="d1efb-105">Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="d1efb-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
+<span data-ttu-id="cc6c8-104">Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern.</span><span class="sxs-lookup"><span data-stu-id="cc6c8-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="cc6c8-105">Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="cc6c8-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
 
-<span data-ttu-id="d1efb-106">Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).</span><span class="sxs-lookup"><span data-stu-id="d1efb-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
+<span data-ttu-id="cc6c8-106">Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).</span><span class="sxs-lookup"><span data-stu-id="cc6c8-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
