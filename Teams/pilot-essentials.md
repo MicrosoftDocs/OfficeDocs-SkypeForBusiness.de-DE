@@ -11,26 +11,28 @@ description: Leitfaden zum Starten eines Microsoft Teams-Pilotprojekts zur Unter
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237441"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833895"
 ---
-![Diagramm zur Aktualisierung der Reise, Highlighting Bereitstellung und Implementierung] (media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
+![Diagramm zur Aktualisierung der Reise, Highlighting Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
 Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise und teilt Einblicke für die Ausführung eines effektiven Pilotprojekts. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
-- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 
@@ -100,7 +102,7 @@ Hier sehen Sie eine vorgeschlagene Zeitachse für einen 30-Tage-Pilot:
 
 ## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. Bewerten von Lernenden und bewerten Ihres Go-Forward-Plans
 
-Nachdem ihr Pilotprojekt abgeschlossen ist, ist es an der Zeit, alle Feedback Umfragen, endgültige Netzwerkstatistiken und Support Tickets für die Analyse ihrer Ziele zu sammeln und festzustellen, ob Sie Ihren Go-Forward-Plan implementieren. Möglicherweise stellen Sie fest, dass Ihre Organisation für eine breite Bereitstellung bereit ist, oder Sie möchten Ihr Pilotprojekt auf weitere Benutzer erweitern, oder Sie möchten das Pilotprojekt zu einem späteren Zeitpunkt erneut besuchen, nachdem die von Ihnen identifizierten Bedenken verringert wurden. Denken Sie daran, dass ihr Pilotprojekt eine hervorragende Möglichkeit ist, technische und __ Benutzer Ergebnisse in einer kontrollierten Umgebung vorherzusagen. seien Sie nachdenklich, wenn Sie zu schnell vorwärts springen.
+Nachdem ihr Pilotprojekt abgeschlossen ist, ist es an der Zeit, alle Feedback Umfragen, endgültige Netzwerkstatistiken und Support Tickets für die Analyse ihrer Ziele zu sammeln und festzustellen, ob Sie Ihren Go-Forward-Plan implementieren. Möglicherweise stellen Sie fest, dass Ihre Organisation für eine breite Bereitstellung bereit ist, oder Sie möchten Ihr Pilotprojekt auf weitere Benutzer erweitern, oder Sie möchten das Pilotprojekt zu einem späteren Zeitpunkt erneut besuchen, nachdem die von Ihnen identifizierten Bedenken verringert wurden. Denken Sie daran, dass ihr Pilotprojekt eine hervorragende Möglichkeit ist, technische und Benutzer Ergebnisse in einer _kontrollierten_ Umgebung vorherzusagen. seien Sie nachdenklich, wenn Sie zu schnell vorwärts springen.
 
 Wenn Ihre Ergebnisse Folgendes angeben:
 

@@ -11,13 +11,15 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Erfahren Sie mehr über die native Teams-Chat-Erfahrung für externe Access (Federated)-Benutzer in Microsoft Teams, die zwischen externen Benutzern verfügbar sind, bei denen sich beide Benutzer im TeamsOnly-Aktualisierungsmodus befinden.
-ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966758"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832685"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Systemeigene Chat-Umgebung für externe (Federated-) Benutzer in Microsoft Teams
 ======================================

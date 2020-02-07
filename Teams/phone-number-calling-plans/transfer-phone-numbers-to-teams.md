@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925649"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827933"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
 Verwenden Sie den Porting-Assistenten im Microsoft Teams Admin Center, um ihre Telefonnummern von Ihrem aktuellen Dienstanbieter in Teams zu übertragen. Nachdem Sie Ihre Telefonnummern in Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern.
 
-Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen unter [Was ist ein Portierungs Auftrag?](port-order-overview.md)zu überprüfen. Wenn Sie über Servicenummern für Einwahlkonferenzen, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um die richtigen Formulare herunterzuladen und an uns zu senden.
+Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen unter [Was ist ein Portierungs Auftrag?](port-order-overview.md)zu überprüfen. Wenn Sie über Servicenummern für Einwahlkonferenz Brücken, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Benutzer (Teilnehmer)-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um die richtigen Formulare herunterzuladen und an uns zu senden.
 
   > [!NOTE]
   > Wir verarbeiten Port Bestellungen für die Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder an Wochenenden.
@@ -89,7 +91,7 @@ Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Si
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was ist ein Portierungs Auftrag?](port-order-overview.md)
+- [Was ist ein Portierungsauftrag?](port-order-overview.md)
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)

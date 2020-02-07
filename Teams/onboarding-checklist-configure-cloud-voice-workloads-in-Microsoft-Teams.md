@@ -9,16 +9,18 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille
 description: Befolgen Sie die grundlegenden Aufgaben und Aktivitäten in dieser Checkliste, wenn Sie die Cloud-VoIP-Arbeitslasten in Teams konfigurieren.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 574c2c3b4b181005ec730e040aea116cf190730c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 8c91c568a09e6327b0f42ed5425eb12594116c69
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925026"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832495"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Konfigurieren von Cloud-sprach Auslastungen in Microsoft Teams
 

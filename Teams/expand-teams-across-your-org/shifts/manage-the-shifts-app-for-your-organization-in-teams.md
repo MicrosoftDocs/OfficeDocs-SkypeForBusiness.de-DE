@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die app "Schichten" in Teams für First-worker in Ihrer Organisation einrichten und verwalten.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992542"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831167"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -77,11 +79,11 @@ Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie in der l
 2. Wählen Sie neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus.
 3. Wählen Sie unter **Teams-App-Setup Richtlinie**die Option **FirstlineWorker**aus, und wählen Sie dann **Speichern**aus.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzern in einer Gruppe
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzer Mitgliedern einer Gruppe
 
-Sie können die FirstlineWorker-App-Setup Richtlinie Benutzern in einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
+Sie können die FirstlineWorker-App-Setup Richtlinie Benutzern einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
 
-In diesem Beispiel weisen wir die FirstlineWorker-App-Setup Richtlinie allen Benutzern in der Contoso-Team Gruppe zu.
+In diesem Beispiel weisen wir die FirstlineWorker-App-Setup Richtlinie allen Benutzer Mitgliedern der Contoso First Team-Gruppe zu.
 
 > [!NOTE]
 > Stellen Sie sicher, dass Sie zuerst eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
@@ -94,9 +96,9 @@ Abrufen der Mitglieder der gewählten Gruppe.
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Weisen Sie alle Benutzer in der Gruppe der FirstlineWorker-App-Setup Richtlinie zu.
+Weisen Sie die FirstlineWorker-App-Setup Richtlinie allen Benutzer Mitgliedern der Gruppe zu.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
 

@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
-ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
+ms.openlocfilehash: 0526ed2d5b0aa48ab7229c8fa40dbb13413c3139
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779220"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833465"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================

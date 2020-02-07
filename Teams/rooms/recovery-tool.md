@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268953"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831177"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
 
@@ -27,7 +29,7 @@ In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Micro
 Laden Sie das neueste [Microsoft Teams rooms-Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168) herunter, und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf die das Microsoft Teams rooms-Gerät zugreifen kann.
 
 > [!NOTE]
-> Das Extrahieren der Dateien aus der MSI-Datei kann mit vielen Mitteln erfolgen. Jeder Mechanismus, der alle Dateien extrahiert und die Verzeichnisstruktur erhält, ist akzeptabel. Eine Möglichkeit besteht darin, den Befehl `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` zu verwenden `PathToMsi` , der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket `PathToTarget` darstellt, und stellt den vollständigen Pfad zu dem Ordner dar, in den die Dateien extrahiert werden sollen.
+> Das Extrahieren der Dateien aus der MSI-Datei kann mit vielen Mitteln erfolgen. Jeder Mechanismus, der alle Dateien extrahiert und die Verzeichnisstruktur erhält, ist akzeptabel. Eine Möglichkeit besteht darin, den Befehl `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` zu verwenden `PathToMsi` , der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket `PathToTarget` darstellt, und stellt den vollständigen Pfad zu dem Ordner dar, in den die Dateien extrahiert werden sollen.
 
 ## <a name="running-the-tool"></a>Ausführen des Tools
 

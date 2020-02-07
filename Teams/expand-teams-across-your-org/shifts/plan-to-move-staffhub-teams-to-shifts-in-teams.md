@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Ihre StaffHub-Teams auf Schichten in Microsoft Teams verschieben können.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569673"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825704"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planen, ihre StaffHub-Teams in Microsoft Teams zu verschieben
 
@@ -36,7 +38,7 @@ Verwenden Sie die Zeitachse als Leitfaden für die Planung Ihres Umstiegs von St
 |Schritt |Anleitung  |Ressourcen |
 |---------|---------|---------|
 |1    |Vorbereiten und Identifizieren von Stakeholdern         |         |
-|2     |Überprüfen der Dokumentation zum Übergang von StaffHub zu Teams und Teams Onboarding         |[StaffHub wird zurückgezogen](microsoft-staffhub-to-be-retired.md)<br><br>[Verschieben Ihrer StaffHub-Teams in die Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Erste Schritte mit Microsoft Teams](../../get-started-with-teams-quick-start.md)         |
+|2     |Überprüfen der Dokumentation zum Übergang von StaffHub zu Teams und Teams Onboarding         |[StaffHub wird zurückgezogen](microsoft-staffhub-to-be-retired.md)<br><br>[Verschieben Ihrer StaffHub-Teams in die Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Erste Schritte mit Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |Aktivieren von Office 365-Gruppen für Ihre Organisation        |[Office 365-Gruppen und-Teams](../../Office-365-groups.md)      |
 |4    |Sicherstellen, dass die Voraussetzungen erfüllt sind         |[Überprüfen, ob Voraussetzungen erfüllt sind](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Zuweisen von Teams-Lizenzen zu StaffHub-Benutzern in Ihrer Organisation|[Zuweisen von Teams-Lizenzen](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Verwalten des Benutzerzugriffs auf Teams](../../user-access.md)      |

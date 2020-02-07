@@ -10,17 +10,19 @@ ms.reviewer: sbhatta
 description: Verwenden Sie diese Checkliste, um den Gastzugriff in Microsoft Teams einzurichten.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: b60b0e5f0972d862ec1b945f1b267b04faae9a8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962533"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833255"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Checkliste für den Microsoft Teams-Gastzugriff
 ==========================================
@@ -33,8 +35,6 @@ Verwenden Sie diese Checkliste, damit Sie den Gastzugriff in Microsoft Teams akt
 Schauen Sie sich dieses kurze Video (5:31 Minuten) an, um zu erfahren, wie Sie den Gastzugriff in Microsoft 365, einschließlich Teams, aktivieren können.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
-
-
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Schritt 1: Aktivieren des Gastzugriffs auf der organisationsweiten Ebene von Teams
 
@@ -51,8 +51,9 @@ Wenn Sie den Gastzugriff aktivieren möchten, wechseln Sie zum **Microsoft Teams
 > [!TIP]
 > Wenn Sie die Standardeinstellungen in Azure Active Directory, SharePoint Online und Office 365-Gruppen verwenden, ist möglicherweise die Konfiguration des Gastzugriffs abgeschlossen. In diesem Fall können Sie die restlichen Schritte überspringen. Wenn Sie sich nicht sicher sind, oder wenn Sie benutzerdefinierte Einstellungen für Aad, SharePoint Online oder Office 365-Gruppen verwenden, fahren Sie mit den restlichen Schritten in dieser Checkliste fort.
 
-
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>Schritt 2: Konfigurieren von Azure AD Business-to-Business-Einstellungen
+
+Hierbei handelt es sich um die Azure AD-Einstellungen, die den Gastzugriff in Teams unterstützen. Sobald diese Einstellungen konfiguriert sind, können Sie Gäste in Teams [Hinzufügen](add-guests.md) und [Verwalten](manage-guests.md) .
 
 1. Melden Sie sich als Mandantenadministrator beim [Azure-Portal](https://portal.azure.com) an.
 2. Wählen Sie **Azure Active Directory** > **Benutzer** > **Benutzereinstellungen** aus.
@@ -63,12 +64,7 @@ Wenn Sie den Gastzugriff aktivieren möchten, wechseln Sie zum **Microsoft Teams
 
     - **Berechtigungen für Gastbenutzer sind eingeschränkt**: Diese Richtlinie bestimmt die Berechtigungen für Gäste in Ihrem Verzeichnis. Wählen Sie **Ja**, um Gäste für bestimmte Verzeichnisaufgaben, z. B. dem Auflisten von Benutzern, Gruppen oder anderen Verzeichnisressourcen, zu blockieren. Wählen Sie **Nein**, um Gästen denselben Zugriff auf Verzeichnisdaten wie normale Benutzer in Ihrem Verzeichnis zu gewähren.
      - **Administratoren und Benutzer mit der Rolle „Einladender“ können einladen**: Damit Administratoren und Benutzern mit der Rolle „Einladender“ Gäste einladen können, legen Sie diese Richtlinie auf **Ja** fest.
-     - **Mitglieder können einladen**: Damit Mitglieder Ihres Verzeichnisses, die nicht Administratoren sind, Gäste einladen können, legen Sie diese Richtlinie auf **Ja** fest.
-
-         > [!NOTE]
-         > Wenn Sie **Mitglieder können einladen** auf **Nein** festlegen und dann den Gastzugriff in Office 365-Gruppen und Microsoft Teams aktivieren, können Administratoren Gasteinladungen auf Ihr Verzeichnis steuern. Nachdem sich Gäste im Verzeichnis befinden, können sie von Nicht-Administratormitgliedern, die Teambesitzer sind, Teams hinzugefügt werden. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
-         > [!IMPORTANT]
-         > Damit der Gastzugriff in Teams funktioniert, müssen Sie **Mitglieder können einladen** auf **Ja** festlegen.   
+     - **Mitglieder können einladen**: Um Mitgliedern Ihres Verzeichnisses, die keine Administratoren SIND; zu erlauben, Gäste einzuladen, legen Sie diese Richtlinie auf **Ja** fest (empfohlen). Wenn Sie nur Administratoren erlauben möchten, Gäste hinzuzufügen, können Sie diese Richtlinie auf **Nein** festlegen. Denken Sie daran, dass die Einstellung **Nein** die Gasterfahrung für Besitzer von Teams, die keine Administratoren sind, einschränkt. Sie können nur Gäste zu Teams hinzufügen, die bereits vom Administrator in AAD hinzugefügt wurden.
      - **Gäste können einladen**: Wenn Sie Gästen ermöglichen wollen, andere Gäste einzuladen, legen Sie diese Richtlinie auf **Ja** fest.
          > [!IMPORTANT]
          > Aktuell unterstützt Teams nicht die Rolle „Gasteinladender“. Das heißt, selbst wenn Sie **Gäste können einladen** auf **Ja** festlegen, können Gäste keine anderen Gäste in Teams einladen.
@@ -77,40 +73,34 @@ Wenn Sie den Gastzugriff aktivieren möchten, wechseln Sie zum **Microsoft Teams
         > [!NOTE]
         > Informationen zu Einschränkungen der Zusammenarbeit finden Sie unter [Aktivieren der externen B2B-Zusammenarbeit und Verwalten der Personen, die Gäste einladen können](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
       
- 
     Weitere Informationen zum Steuern der Einladung von Gästen finden Sie unter [Delegieren von Einladungen für Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-
 
 ## <a name="step-3-configure-office-365-groups"></a>Schritt 3: Konfigurieren von Office 365-Gruppen
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Services #a0-Add-ins**, und wählen Sie dann **Office 365-Gruppen**aus.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Einstellungen, klicken**Sie auf **Dienste**, und wählen Sie dann **Office 365-Gruppen**aus.
 
-     ![Screenshot der Schaltflächen für Office 365-Gruppen](media/guest-access-checklist-office365.png)
+     ![Screenshot der Office 365-Gruppeneinstellungen](media/guest-access-checklist-services-settings.png)
 2. Stellen Sie sicher, dass das Kontrollkästchen **Gruppenmitglieder außerhalb des Organisations Zugriffs auf Gruppeninhalte zulassen** aktiviert ist. Wenn diese Einstellung nicht aktiviert ist, können Gäste nicht auf Gruppeninhalte zugreifen.
+
+    ![Screenshot der Office 365-Gruppeneinstellungen](media/guest-access-checklist-office365.png)
 3. Stellen Sie sicher, dass das Kontrollkästchen **Gruppenbesitzer Personen außerhalb des Unternehmens hinzufügen** aktiviert ist. Wenn diese Einstellung nicht aktiviert ist, können Teambesitzer keine neuen Gäste hinzufügen. Diese Einstellung muss mindestens aktiviert sein, um den Gastzugriff zu unterstützen.
 
 Detaillierte Anweisungen zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten des Gastzugriffs in Office 365-Gruppen](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) und [Steuern des Gastzugriffs in Office 365-Gruppen](Teams-dependencies.md#control-guest-access-in-office-365-groups).
- 
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>Schritt 4: Konfigurieren der Freigabe in Office 365 
 
 Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Dazu gehen Sie so vor:
 
-1. Navigieren Sie dazu im Microsoft 365 Admin Center zu **Einstellungen** > **Sicherheit & Datenschutz**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Einstellungen, klicken**Sie auf **Sicherheit #a0 Datenschutz**, und wählen Sie dann **Freigeben**aus.
 
-     ![Screenshot zeigt ein Beispiel für einen Umschalter von Diensteinstellungen](media/guest-access-checklist-Office365Admin_Services_addins.png)
-
-2. Wählen Sie unter **Freigabe** die Option **Bearbeiten** aus.
-
-     ![Screenshot zeigt ein Beispiel für einen Umschalter von Freigabeeinstellungen](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Screenshot zeigt ein Beispiel für einen Umschalter von Diensteinstellungen](media/guest-access-checklist-security-privacy-settings.png)
  
-3. Legen Sie **Benutzer dürfen neue Gäste zur Organisation hinzufügen** auf **Ein** fest und klicken Sie dann auf **Speichern**.
+2. Aktivieren Sie das Kontrollkästchen **Benutzer können neue Gäste zu dieser Organisation hinzufügen** , und klicken Sie dann auf **Änderungen speichern**.
 
-     ![Screenshot zeigt ein Beispiel für einen Umschalter von Freigabeeinstellungen](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Screenshot zeigt ein Beispiel für einen Umschalter von Freigabeeinstellungen](media/guest-access-checklist-sharing-setting.png)
  
     > [!NOTE]
     > Diese Einstellung entspricht der Einstellung " **Mitglieder können einladen** " in den **Benutzereinstellungen** > "**externe Benutzer** " in Azure AD.  
-
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>Schritt 5: Überprüfen der Freigabe Einstellung in SharePoint
 
@@ -122,9 +112,8 @@ Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Dazu gehen Sie so 
 
 3. Wählen Sie die Website aus, und klicken Sie dann auf **Freigabe**.
 4. Stellen Sie sicher, dass die Option auf **jeder** oder **neuen und vorhandenen Gästen**festgesetzt ist.
- 
-     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche für SharePoint Online-Einstellungen](media/guest-access-checklist-SPOSettings1.png)
 
+     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche für SharePoint Online-Einstellungen](media/guest-access-checklist-SPOSettings1.png)
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>Schritt 6: Einrichten von Gastbenutzer Berechtigungen
 
@@ -134,7 +123,6 @@ Konfigurieren Sie in der Teams-Anwendung auf der einzelnen Teamebene Gastberecht
 
 Weitere Informationen zum Gastzugriff finden Sie unter [Gastzugriff in Teams](guest-access.md) und [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md).
 
-
 ## <a name="troubleshooting"></a>Problembehandlung
 
 Wenn Sie Probleme beim Einrichten des Gastzugriffs oder beim Hinzufügen von Gästen in Teams haben, verwenden Sie diese Ressourcen, um Ihnen zu helfen:
@@ -142,6 +130,3 @@ Wenn Sie Probleme beim Einrichten des Gastzugriffs oder beim Hinzufügen von Gä
 [Behandeln von Problemen mit dem Gastzugriff in Microsoft Teams](troubleshoot-guest-access.md)
 
 [Problembehandlung für Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
-
-
-

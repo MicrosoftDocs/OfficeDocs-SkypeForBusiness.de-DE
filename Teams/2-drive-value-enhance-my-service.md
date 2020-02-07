@@ -10,18 +10,20 @@ search.appverid: MET150
 ms.reviewer: rowille
 audience: admin
 description: Überprüfen Sie regelmäßig die Möglichkeiten zur Verbesserung des Teams-Diensts, und überwachen Sie die Roadmap für Teams auf interessante Funktionsverbesserungen.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5face19093459f1a4fbc4aeb978476f9a045231
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516488"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825093"
 ---
 # <a name="enhance-my-service"></a>Verbessern des Diensts
 

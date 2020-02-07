@@ -13,15 +13,17 @@ description: Messen Sie die Ergebnisse ihrer Audiokonferenzen, Ihres Telefonsyst
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517075"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825423"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -29,7 +31,7 @@ In diesem Artikel finden Sie eine Übersicht über die Anforderungen zum Definie
 
 <!--ENDOFSECTION-->
 
-**Audiokonferenz** bietet Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (Ad-hoc-oder geplant), indem Besprechungsteilnehmer über ein öffentliches Telefonnetz (PSTN) teilnehmen können, indem Sie sich über herkömmliche Festnetznummern, private Branch Exchange (PBX) oder Mobiltelefone. Dies ist hilfreich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden oder wenn Datenverbindungen nicht verfügbar oder zu unzuverlässig sind, um die Sprachkommunikation zu unterstützen, beispielsweise in einem Remotebereich mit fleckiger mobiler Datenversorgung oder verbunden mit einem kostenlosen öffentlichen WLAN-Zugang. Dienst mit begrenzter Bandbreite oder wenn Besprechungsteilnehmer sich lieber mit einem Telefon Endpunkt in die Besprechung einwählen, der für Sie leicht zugänglich ist.
+**Audiokonferenz** bietet Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (Ad-hoc-oder geplant), indem Besprechungsteilnehmer über das öffentliche Telefonnetz (PSTN) teilnehmen können, indem Sie sich über herkömmliche Festnetztelefone, Private Branch Exchange (PBX) oder Mobiltelefone einwählen. Dies ist hilfreich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden oder wenn Datenverbindungen nicht verfügbar oder zu unzuverlässig sind, um die Sprachkommunikation zu unterstützen, beispielsweise in einem Remotebereich mit fleckiger mobiler Datenversorgung oder verbunden mit einem kostenlosen öffentlichen WLAN-Zugang. Dienst mit begrenzter Bandbreite oder wenn Besprechungsteilnehmer sich lieber mit einem Telefon Endpunkt in die Besprechung einwählen, der für Sie leicht zugänglich ist.
 
 Das **Telefon System mit Anrufplänen ("Anrufpläne")** bietet Organisationen eine Möglichkeit, ihren Arbeitsplatz zu modernisieren, indem Benutzer in die Lage versetzt werden, geschäftliche Telefonanrufe von ihren Computern und mobilen Geräten aus zu führen. Die Modernisierung des Arbeitsplatzes kann Teil einer beliebigen Anzahl von Szenarien sein – einer aktivitätsbasierten Implementierung, einer wichtigen Office Move-Funktion, einer Office fit-out-Aktualisierung, dem Ruhestand einer Legacy-PBX-Lösung, dem Abschluss eines PSTN-Dienstanbieter Vertrags usw. Mit Anrufplänen erleichtert Microsoft die Konnektivität mit dem PSTN.
 

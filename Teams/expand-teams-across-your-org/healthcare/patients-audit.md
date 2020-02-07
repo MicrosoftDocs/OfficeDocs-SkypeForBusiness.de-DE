@@ -7,20 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Patienten-App für Teams-Administratoren
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749547"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827613"
 ---
-# <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die app "Patienten"
+# <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
 Ein Überwachungsprotokoll für die APP-Aktivität der Patienten ermöglicht es after-Incident-Reaktions Teams, Änderungen an den elektronischen medizinischen Datensätzen (EMR) eines Patienten oder an Patienten Gesundheitsinformationen (Phi) zu überprüfen und festzustellen, ob Änderungen oder Verbesserungen bei der Richtlinie oder dem Verfahren für Phi Access in Produktivitätstools werden benötigt. Die Überwachungsprotokollereignisse decken Aktionen ab, die über die Benutzeroberfläche der Patienten-app ausgeführt werden.
 

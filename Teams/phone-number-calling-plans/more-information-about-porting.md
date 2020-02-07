@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Holen Sie sich die Anleitungen, die Sie benötigen, um ihre Telefonnummern an Microsoft Teams zu portieren.
-ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925196"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827963"
 ---
 # <a name="more-information-about-porting"></a>Weitere Informationen zum Portieren
 
@@ -110,7 +112,7 @@ Schauen Sie [sich den Status Ihrer Portierungs Bestellungen an.](port-order-stat
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was ist ein Portierungs Auftrag?](port-order-overview.md)
+- [Was ist ein Portierungsauftrag?](port-order-overview.md)
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)

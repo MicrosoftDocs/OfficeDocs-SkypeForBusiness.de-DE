@@ -12,16 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Verschaffen Sie sich einen Überblick darüber, was Port Bestellungen sind und wie Sie Telefonnummern von Ihrem Dienstanbieter in Teams übertragen können.
-ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708761"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827943"
 ---
 # <a name="whats-a-port-order"></a>Was ist ein Portierungsauftrag?
 

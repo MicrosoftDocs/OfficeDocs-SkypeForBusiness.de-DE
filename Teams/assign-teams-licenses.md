@@ -10,16 +10,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.reviewer: mikedav
 description: Hier erfahren Sie, wie Sie Lizenzen für Features wie Audio-Conferencing, Telefon System und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515780"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826313"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Zuweisen von Microsoft Teams-Lizenzen
 
@@ -103,7 +105,7 @@ for each ($user in $users)
 | Plan für Inlandsanrufe (3000 Minuten pro Nutzer/Monat für US/PR/ca, 1200 Minuten pro Nutzer/Monat für EU-Länder) | MCOPSTN1 |
 | Plan für Inlandsanrufe (120 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN5 |
 | Plan für Inlandsanrufe (240 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN6 |
-| Guthaben für Kommunikationen | MCOPSTNPP | 
+| Kommunikationsguthaben | MCOPSTNPP | 
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audiokonferenz: Tipps und Skripts für das Zuweisen von Lizenzen
 
@@ -194,4 +196,4 @@ Sehen Sie sich das Beispielskript für das Zuweisen von Lizenzen für Audiokonfe
 
 [Einrichten von Anrufplänen](set-up-calling-plans.md)
 </br>
-[Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
+[Hinzufügen und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)

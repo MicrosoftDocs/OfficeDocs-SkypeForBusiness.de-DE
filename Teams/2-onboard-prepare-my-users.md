@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Erstellen Sie einen Plan, um die Benutzerakzeptanz zu steigern, indem Sie Ihre Ziele definieren, verstehen, wie Akzeptanz aussieht, und Schulungen und Support bereitstellen.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825083"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -46,7 +48,7 @@ Durch das Festlegen ihrer Projekt Vision können Ihre wichtigsten Stakeholder da
 
 Die folgende Abbildung ist ein Beispiel für eine Vision-to-Value-Anweisung für Kunden, die von Skype for Business auf Teams aktualisieren.
 
-![Tabelle mit zwei Spalten,](media/prepare-my-users-new-image1.png "die die zweispaltige Tabelle mit Visionen und Werten zeigt – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
+![Tabelle mit zwei Spalten mit Sicht und Wert](media/prepare-my-users-new-image1.png "Zweispaltige Tabelle mit Vision – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie die Vorteile und den Nutzen für Ihre Benutzer in einer Weise artikuliert, die das Buy-in für diese neue Lösung gewinnt?</li></ul></td></tr>
@@ -126,7 +128,7 @@ Besprechen Sie für jede Persona-Gruppe Folgendes mit Ihrem Projektteam:
 
 Die folgende Abbildung zeigt ein Beispiel für eine persona-Tabelle.
 
-Tabelle "Werte" mit der Tabelle " ![Persona-Details]"(media/prepare-my-users-image2.png ", die Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen auflistet. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
+![Tabelle "Werte" mit den Rollendetails](media/prepare-my-users-image2.png "Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
 
 Besprechen Sie für jeden Anwendungsfall Folgendes mit Ihrem Projektteam:
 
@@ -153,6 +155,6 @@ Nachdem Sie verstanden haben, wer Ihre Benutzer sind und wie Sie in der neuen L�
 ### <a name="readiness-plan-ideas"></a>Ideen zum Bereitschaftsplan
 
 <table>
-<tr><th>Kommunikation</th><th>Schulung</th><th>Support</th></tr>
+<tr><th>Kommunikation</th><th>Schulungen</th><th>Support</th></tr>
 <tr><td><ul><li>E&mdash;-Mail-Personalisierung unserer <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">Voice-e-Mail-Vorlagen</a></li><li>Plakate und Digital Beschilderung </li><li>Starten von Ereignissen</li><li>Abteilungsleiter</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Videoschulung für Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Anrufe</a></li></li></ul><li>In-House-Unterstützung (Hilfe)</li><li>Internes Schulungsteam</li><li>Partner Schulungsteam</li></ul></td><td><ul><li>In-House-Helpdesk</li><li>Outsourcing-Support-Desk</li><li>Self-Help (Intranet-Website)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online Hilfe und Anleitungen</a></li><li>Boden Wanderer und Champions</li><li>Rückkopplungsschleife&mdash;lesen Sie die <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiele für Benutzer Feedback-Umfragen</a> .</li></td></tr>
 </table>

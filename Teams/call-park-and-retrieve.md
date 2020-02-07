@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.callparkpolicies.overview
+- CSH
 ms.custom:
 - Phone System
+- ms.teamsadmincenter.callparkpolicies.overview
 description: Verwenden Sie parken und abrufen, um einen Anruf im Teams-Dienst in der Cloud zu halten.
-ms.openlocfilehash: 4bd77fcd90cb17f0ca5b09f784d6532d552df473
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695620"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824593"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 

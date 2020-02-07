@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827633"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
@@ -94,14 +96,14 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
     Request: Post <fhir-Server>/Patient/_search Request Body: given = Ruth&Family = Black
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "Typ": "searchset"; "Total": 1; "Link": [{"Relation": "selbst"; "URL": <fhir-Server>/Patient/_search "}]," Eintrag ": [{" fullUrl ": <fhir-Server>/Patient/<Patient-ID>"; "Resource": {"Ressource": "Patient"; "ID": "<Patient-ID>"; "Meta": {"Version-ID": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "Text": {"Status": "generated"; "div": "<div>\n        <p>Ruth schwarz</p>\n      </div>"}," Bezeichner ": [{" Use ":" üblich ";" Typ ": {" Coding ": [{" System ":"http://hl7.org/fhir/v2/0203";" Code ":" Herr ";" Anzeige ":" medizinische Datensatznummer ";" userSelected ": falsch}]," Text ":" medizinische Datensatznummer "}," System "http://hospital.smarthealthit.org:" "," Wert ":" 1234567 "}]," aktiv ": wahr;" Name ": [{" Use ":" offiziell ";" Familie ":" schwarz ";" given ": [" Ruth ";" C. "
-    ]}], "Telecom": [{"System": "Telefon"; "Wert": "800-599-2739", "Use": "Home"}, {"System": "Telefon"; "Wert": "800-808-7785"; "verwenden": "Mobil"}, {"System": "e-Mail"; "Wert": "Ruth.Black@example.com"}], "Geschlecht": "weiblich"; "Geburtsdatum": "1951-08-23"; " Address ": [{" Use ":" Home ";" Zeile ": [" 26 South RdApt 22 "]," Ort ":" Sapulpa "," State ":" OK "," PLZ ":" 74066 "," Land ":" USA "}]}," suchen ": {" Modus ":" Übereinstimmung "}}]}
+    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "Typ": "searchset"; "Total": 1; "Link": [{"Relation": "selbst"; "URL": <fhir-Server>/Patient/_search "}]," Eintrag ": [{" fullUrl ": <fhir-Server>/Patient/<Patient-ID>"; "Ressource": {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Meta": {"Version-Nr": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "Text": {"Status": "generated", "div": "<div>\n        <p>Ruth schwarz</p>\n      </div>"}," Bezeichner ": [{" Use ":" üblich ";" Typ ": {" Coding ": [{" System ":"http://hl7.org/fhir/v2/0203";" Code ":" Herr ";" Anzeige ":" medizinische Datensatznummer ";" userSelected ": false}]," Text ":" medizinische Datensatznummer "}," System "http://hospital.smarthealthit.org:" ";" Wert ":" 1234567 "}]," aktiv ": wahr," Name ": [{" Use ":" offiziell "," Familie ":" schwarz ";" angegeben ": [" Ruth ";" C. "
+    ]}], "Telecom": [{"System": "Telefon"; "Wert": "800-599-2739"; "Use": "Home"}, {"System": "Telefon"; "Wert": "800-808-7785"; "verwenden": "Mobil"}, {"System": "e-Mail"; "Wert": "Ruth.Black@example.com"}], "Geschlecht": "weiblich", "Geburtsdatum": "1951-08-23", "Adresse": [{"Use": "Start", "Zeile": ["26 South RdApt 22"], "Ort": "Sapulpa", "Zustand": "OK"; "PLZ": "74066"; "Land": "USA"}]}, "suchen": {"Modus": "Übereinstimmung"}}]}
 
 * * *
 
     Request: besorgen Sie sich <fhir-Server>/Patient/<Patienten-ID>
     
-    Response: {"Ressourcenname": "Patient"; "ID": "<Patient-ID>"; "Identifier": [{"Use": "üblich"; "Typ": {"Coding": [{"System":http://hl7.org/fhir/v2/0203""; "Code": "Herr",}], "Text": "medizinische Datensatznummer"}, "Wert": "1234567"}], "Name": [{"Use": "offizielle"; " Family ":" Adams ";" given ": [" Daniel ";" X. " ]}], "Gender": "männlich"; "Geburtsdatum": "1925-12-23",}
+    Response: {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Bezeichner": [{"Use": "üblich"; "Typ": {"Coding": [{"System":http://hl7.org/fhir/v2/0203""; "Code": "Herr",}], "Text": "medizinische Datensatznummer"}, "Wert": "1234567"}], "Name": [{"Use": "offiziell", "Familie": "Adams"; "given": ["Daniel"; "X." ]}], "Gender": "männlich"; "Geburtsdatum": "1925-12-23",}
 
 * * *
 
@@ -132,7 +134,7 @@ Beziehen Sie sich auf dieses Beispiel des Anrufs:
 
     Request: besorgen Sie sich <fhir-Server>/Observation? Patient =<Patient-ID>&Kategorie = Vital-Zeichen
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>", "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressourcentyp": "Observation"; "ID": "<Resource-ID>"; "Kategorie": [{"Coding": [{"System"http://hl7.org/fhir/observation-category: "", "Code": " Vital-Signs "}],}]," Code ": {" Coding ": [{" System ":http://loinc.org" "," Code ":" 8867-4 "," Display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," valueQuantity ": {" Wert ": 72,0," Unit ":" {Beats}/min. "," System "http://unitsofmeasure.org:" ",}}},.
+    Response: {"Ressourcen": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": [{"Coding": [{"System": "http://hl7.org/fhir/observation-category"; "Code": "Vital-Signs"}]; "Code": {"Coding": [{"System": "http://loinc.org"; "Code": "8867-4"; "Display": "heart_rate"}]}, "effectiveDateTime": "2009-04-08T00:00:00-06:00", "valueQuantity": {"Wert": 72,0, "Unit": "{Beats}/min.", "System": "http://unitsofmeasure.org",}}},.
         .
         .
       ] }
@@ -163,7 +165,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/Condition? Patient =<Patient-ID>&_count = 10
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 2; "Eintrag": [{"Resource": {"Ressource": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System":http://snomed.info/sct""; "Code": "185903001"; " Display ":" benötigt eine Influenza-Impfung ",}]}," Schweregrad ": {" Coding ": [{" Systemhttp://snomed.info/sct":" ";" Code ":" 24484000 ";" Display ":" schwere "}]}," assertedDate ":" 2018-04-04 "}},.
+    Antwort: {"Ressourcen": "Bundle", "ID": "<-Bundle-ID>"; "Typ": "searchset"; "Total": 2; "Eintrag": [{"Resource": {"Ressourcentyp": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"Systemhttp://snomed.info/sct": ""; "Code": "185903001"; "Anzeige": "benötigt eine Influenza-Immunisierung",}]}, "Schweregrad": {"Coding":http://snomed.info/sct[{"System": "", "Code": "24484000"; "Anzeige": "schwere"}]}, "assertedDate": "2018-04-04"}},.
         .
         .
       ] }
@@ -219,7 +221,7 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
     Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
     
-    Antwort: {"Ressource": "Bundle"; "ID": "<-Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "AllergyIntolerance"; "ID": "<Resource-ID>"; "clinicalStatus": "aktiv"; "ve rificationStatus ":" bestätigt ";" Code ": {" Coding ": [{" System ":"http://rxnav.nlm.nih.gov/REST/Ndfrt";" Code ":" N0000175503 ";" Display ":" Sulfonamid antibakteriell ",}]," Text ":" Sulfonamid Ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," Reaktion ": [{" Manifestation ": [{" Codierung ": [{" System ":"http://snomed.info/sct";" Code ":  "271807003", "Display": "Hautausschlag",}], "Text": "Hautausschlag"}],}]}}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "clinicalStatus": "aktiv"; "verificationStatus": "bestätigt"; "Code": {"Coding": [{"System": "http://rxnav.nlm.nih.gov/REST/Ndfrt"; "Code": "N0000175503"; "Anzeige": "Sulfonamid antibakteriell",}], "Text": "Sulfonamid Ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 ";" Reaktion ": [{" Manifestation ": [{" Coding ": [{" System ":"http://snomed.info/sct";" Code ":" 271807003 ";" Display ":" Skin-Ausschlag ";}]," Text ":" Hautausschlag "}];}]}}]}
 
 * * *
 

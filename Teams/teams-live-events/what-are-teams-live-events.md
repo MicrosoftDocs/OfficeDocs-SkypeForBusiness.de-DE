@@ -12,16 +12,18 @@ audience: admin
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mit Live Ereignissen Videos und Inhalte an große Online-Benutzergruppen in Teams, jammern und Datenströmen übertragen können.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.liveevents
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f0e94ef7a0f71930c2ae840a19db03f4844ba34
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708341"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827003"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 

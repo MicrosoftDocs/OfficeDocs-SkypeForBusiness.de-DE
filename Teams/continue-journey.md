@@ -11,19 +11,21 @@ search.appverid: MET150
 description: Leitfaden für den fortgesetzten Weg von Skype for Business zu Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236367"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825303"
 ---
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
 Dieser Artikel ist Teil des "Operational Excellence"-Schritts Ihres Upgrade-Vorgangs, der beginnt, sobald Sie das Upgrade von Skype for Business auf Teams abgeschlossen haben.
 
@@ -56,4 +58,4 @@ Der Lebenszyklus einer beliebigen Technologie hat sich auf einen dynamischen Wac
 - Implementieren Sie ein Änderungs Planungsformular (wie unten dargestellt), um neue Funktionen vorzubereiten und zu implementieren. Achten Sie darauf, sowohl technische als auch Benutzer Bereitschafts Aktivitäten einzubeziehen.
 
 
-![Beispielformular mit erwarteten Veröffentlichungsdaten und Notizen] (media/upgrade-change-plan-form.png "Beispielformular mit erwarteten Veröffentlichungsdaten und Notizen zu neuen Funktionen, die mit den nächsten Schritten und Besitzern aufgelistet") werden
+![Beispielformular mit erwarteten Veröffentlichungsdaten und Notizen](media/upgrade-change-plan-form.png "Beispielformular mit erwarteten Veröffentlichungsdaten und Notizen zu neuen Funktionen, die mit den nächsten Schritten und Besitzern aufgelistet werden")

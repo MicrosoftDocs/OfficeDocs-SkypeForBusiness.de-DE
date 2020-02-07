@@ -9,19 +9,21 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Informieren Sie sich über die Schritte zum Einrichten von Live für Ereignisse in Microsoft Teams, einschließlich der Vorbereitung Ihres Netzwerks, dem Zuweisen von Lizenzen, dem Verwenden von Richtlinien zum Aktivieren von Live Ereignis Features und der Terminplanung für Benutzer sowie dem Einrichten eines Drittanbieters für den Vertrieb.
-f1.keywords: ms.teamsadmincenter.liveevents.policies
+ms.custom: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 469e693b8ad04bb214831e2c444c9fb11fc10128
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827023"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 

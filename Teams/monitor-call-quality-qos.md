@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8899316d24616bf61918b93c9edd7118b89f5347
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573390"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832672"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementieren von QoS und Überwachen der Anrufqualität in Microsoft Teams
 
@@ -27,7 +29,7 @@ ms.locfileid: "37573390"
 
 Wenn Ihre Benutzer mit der Verwendung von Teams für Anrufe und Besprechungen beginnen, kann es vorkommen, dass die Stimme eines Anrufers in einen Anruf oder eine Besprechung zerlegt oder abgehackt wird. Freigegebene Videos können einfrieren oder Pixeln oder überhaupt nicht funktionieren. Dies ist auf die IP-Pakete zurückzuführen, die Sprach-und Videodatenverkehr darstellen, die zu einer Überlastung des Netzwerks führen und außerhalb der Reihenfolge oder gar nicht ankommen. Es gibt Möglichkeiten, diese Probleme zu erkennen, wenn diese auftreten, und deren Rückgabe, in erster Linie Quality of Service (QoS), zu verhindern.
 
-**Quality of Service (QoS)** ist eine Möglichkeit, Netzwerkdatenverkehr in Echtzeit (wie Sprach-oder Videostreams) zu ermöglichen, die für Netzwerkverzögerungen anfällig sind, um vor dem Verkehr, der weniger sensibel ist (wie beim Herunterladen einer neuen App, wo eine zusätzliche Sekunde heruntergeladen werden kann, "Cut in the Front"). Das ist keine große Sache). QoS identifiziert und kennzeichnet alle Pakete in Echtzeit-Streams unter Verwendung von Windows-Gruppenrichtlinienobjekten und einem Routing-Feature namens Port basierten Zugriffskontrolllisten, das Ihrem Netzwerk dann dabei hilft, sprach-, Video-und Bildschirmfreigabe Datenströme über eigene dedizierte Abschnitte zu senden. Netzwerkbandbreite.
+**Quality of Service (QoS)** ist eine Möglichkeit, Netzwerkdatenverkehr in Echtzeit (wie Sprach-oder Videostreams) zu ermöglichen, die für Netzwerkverzögerungen anfällig sind, um vor dem Verkehr, der weniger sensibel ist (wie beim Herunterladen einer neuen App, wo eine zusätzliche Sekunde zum herunterladen keine große Sache ist), "in der Schlange zu schneiden". QoS identifiziert und kennzeichnet alle Pakete in Echtzeit-Streams unter Verwendung von Windows-Gruppenrichtlinienobjekten und einem Routing-Feature namens Port basierten Zugriffskontrolllisten, das Ihrem Netzwerk dann dabei hilft, sprach-, Video-und Bildschirmfreigabe Datenströme über eigene dedizierte Abschnitte zu senden. Netzwerkbandbreite.
 
  Im Moment sagen wir einfach, dass es sehr ähnlich ist, wenn Sie einen Brief über die e-Mail senden: Wenn Sie ihm die Buch Gebühr senden, wird es ziemlich bald und das ist gut genug, wenn Sie es First Class senden, wird es wesentlich schneller, und wenn Sie es als Priority-Mail senden , es wird innerhalb von zwei Tagen abgerufen. Natürlich werden Netzwerke schneller ausgeführt als die e-Mail, doch es wird immer noch wahr ausgeführt, dass die Geschwindigkeit für einige Anwendungen kritisch ist und für andere nicht so wichtig ist. Dieses Thema ist von Natur aus detailliert und schwierig zu verstehen, doch es macht einen großen Unterschied in der Benutzererfahrung aus, daher lohnt es sich, Zeit und Energie im Voraus zu investieren. Eine ausführlichere Erläuterung finden Sie [unter Implementieren von Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md) .
 

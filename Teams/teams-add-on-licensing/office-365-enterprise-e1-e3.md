@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E1-und E3-Plänen. '
-ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571180"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826543"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1- und E3
 
@@ -41,7 +43,7 @@ Wenn Sie bereits den [Office 365 Enterprise E1](https://products.office.com/en-u
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1- und E3-Kunden: So können Sie Preise anzeigen und Add-Ons kaufen
 <a name="bkmk_buypremium"> </a>
 
-1. Anmelden beim Microsoft 365 Admin Center.
+1. Melden Sie sich beim Microsoft 365 Admin Center an.
 
 2. Wechseln Sie zu den**Add-on-Abonnements** für **Billing** > **Purchase Services** > .
 
@@ -65,7 +67,7 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons Telefonsystem
 
 In einigen Fällen wird die Option zum kaufen von Microsoft Teams-Add-ons im Microsoft 365 Admin Center nicht angezeigt:
 
-- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. In diesem Fall können Sie keine Microsoft Teams-Add-ons kaufen. Sie müssen zum E3-Plan wechseln, den Sie dann kaufen können. [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. In diesem Fall können Sie keine Microsoft Teams-Add-ons kaufen. Sie müssen zum E3-Plan wechseln, den Sie dann kaufen können. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Sie verfügen über eine monatliche Verpflichtung, nicht über eine jährliche**. In einigen Fällen können Kunden mit einer monatlichen Verpflichtung die Add-Ons nicht kaufen (dies unterscheidet sich von der Zahlungsmethode, die monatlich sein kann). Dies ist ein bekanntes Problem, das wir beheben. [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Sie verfügen über eine monatliche Verpflichtung, nicht über eine jährliche**. In einigen Fällen können Kunden mit einer monatlichen Verpflichtung die Add-Ons nicht kaufen (dies unterscheidet sich von der Zahlungsmethode, die monatlich sein kann). Dies ist ein bekanntes Problem, das wir beheben. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

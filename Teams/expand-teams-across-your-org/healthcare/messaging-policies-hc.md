@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827733"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -28,11 +30,11 @@ Nachrichtenrichtlinien werden verwendet, um zu steuern, welche Chat-und Kanal-Me
 
 Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, weisen Sie Ihr einen Benutzer oder Gruppen von Benutzern in Ihrer Organisation zu. So können Sie beispielsweise festlegen, dass Sie nur bestimmten Aufgaben Rollen die Verwendung dieser Funktionen (vielleicht nur von Ärzten und Krankenschwestern) und anderen Mitarbeitern (wie dem Hausmeister oder Küchenpersonal) erlauben, um eine begrenzte Anzahl von Funktionen zu erhalten. Entscheiden Sie selbst, was Ihre Organisation braucht, die Anleitung hier ist höchstens ein Vorschlag.
 
-Richtlinien können im [Microsoft Teams Admin Center](http://admin.teams.microsoft.com) einfach verwaltet werden, indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Messaging Richtlinien** auswählen.
+Richtlinien können im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) einfach verwaltet werden, indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Messaging Richtlinien** auswählen.
 
  ![Screenshot der Seite "Messaging Richtlinien"](../../media/messaging-policies-image1.png)
 
-Wenn Sie die vorhandene Standard-Messaging Richtlinie für Ihre Organisation bearbeiten möchten, klicken Sie auf die **globale Zeile (org-Wide Standard)** , und nehmen Sie dann die gewünschten Änderungen vor. Wenn Sie eine neue benutzerdefinierte Nachrichten Richtlinie erstellen möchten, klicken Sie auf **neue Richtlinie** , und wählen Sie Ihre Einstellungen aus. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
+Wenn Sie die vorhandene Standard-Messaging Richtlinie für Ihre Organisation bearbeiten möchten, klicken Sie auf die **globale Zeile (org-Wide Standard)** , und nehmen Sie dann die gewünschten Änderungen vor. Wenn Sie eine neue benutzerdefinierte Nachrichten Richtlinie erstellen möchten, klicken Sie auf **neue Richtlinie** , und wählen Sie Ihre Einstellungen aus. Wenn Sie fertig sind, wählen Sie **Speichern** aus.
 
 ![Screenshot der Nachrichtenrichtlinien Einstellungen](../../media/hc-message-policy.png)
 
@@ -42,7 +44,7 @@ Die folgenden Einstellungen sind für medizinische Anwendungen von besonderem In
 
 - ![Das Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot](../../media/sfbcallout1.png) verweist **Lesebestätigungen** Lesebestätigungen ermöglicht dem Absender einer Chatnachricht, zu erfahren, wann die Nachricht vom Empfänger in 1:1 gelesen wurde, und Gruppen-Chats mit mindestens 20 Personen. Verwenden Sie diese Einstellung, um anzugeben, ob Lesebestätigungen vom Benutzer gesteuert werden, für jeden aktiviert oder für jeden deaktiviert sind. Lesebestätigungen für Nachrichten sind in Organisationen des Gesundheitswesens wichtig, da Sie ungewiss darüber entscheiden, ob eine Nachricht gelesen wurde.
 
-  Wählen Sie für Anwendungen im Gesundheitswesen entweder **Benutzer gesteuert** oder **ein für alle**aus. Beachten Sie, dass die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten bei Verwendung der Einstellung **für alle** für den gesamten Mandanten nur eine Messagingrichtlinie (die Standardrichtlinie mit dem Namen "Global (org-Wide Standard)") oder alle Messagingrichtlinien in der Mandant verwendet die gleichen Einstellungen für Belege. Das Feature Lesebestätigungen ist am effektivsten, wenn das Feature **für jeden**aktiviert ist.
+  Wählen Sie für Anwendungen im Gesundheitswesen entweder **Benutzer gesteuert** oder **ein für alle**aus. Beachten Sie, dass die einzige Möglichkeit zum Festlegen der Belege für den gesamten Mandanten bei Verwendung der Einstellung **für alle** für den gesamten Mandanten nur eine Messagingrichtlinie (die Standardrichtlinie mit dem Namen "Global (org-Wide Standard)") oder die Verwendung der gleichen Einstellungen für die Empfangsbestätigungen für alle Messagingrichtlinien im Mandanten ist. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
 
     *Verwendungsbeispiel ohne Lesebestätigungen:* Jakob Roth, ein Patient mit einem Höchstrisiko, wird zum Krankenhaus zugelassen.Sofia Krause ist eine Krankenschwester, die als Teil des interdisziplinären Teams (IDT) von medizinischen Arbeitern, darunter verschiedene Spezialisten, als primärer Betreuer für diesen Patienten verantwortlich ist.  Sofia sendet e-Mails und andere Sofortnachrichten an eine Gruppe von Krankenschwestern und Ärzten, die eine Vielzahl von Messaging-Clients und-Apps verwenden, und erhält oft keine Antwort oder gibt an, ob eine Nachricht von Teammitgliedern gelesen wurde. Aufgrund von verworrenen Kommunikationsprozessen wird Jakobs Medikamenten nicht mehr verwendet und sein Krankenhausaufenthalt verlängert.
 

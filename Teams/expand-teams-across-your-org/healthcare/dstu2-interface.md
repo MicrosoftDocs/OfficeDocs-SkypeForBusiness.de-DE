@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570369"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827803"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
 
@@ -80,7 +82,7 @@ Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorrage
     Response: {"Ressourcenname": "Patient", "ID": "<Patient-ID>";
       .
       .
-      "Name": [{"Use": "offiziell"; "prefix": ["Mr"], "Familie": ["Chau"], "given": ["Hugh"]}], "Identifier": [{"Use": "offiziell"; "Typ": {"Coding": [{"System": "http://hl7.org/fhir/v2/0203"; "Code": "Herr"}]}, "Wert": "1234567"}], "Geschlecht": "männlich"; "Geburtsdatum": "1957-06-05 "," careProvider ": [{" Display ":" Jane Doe "}],}
+      "Name": [{"Use": "offiziell"; "prefix": ["Mr"], "Familie": ["Chau"], "given": ["Hugh"]}], "Identifier": [{"Use": "offiziell", "Typ": {"Codierung": [{"System": "http://hl7.org/fhir/v2/0203"; "Code": "Herr"}]}, "Wert": "1234567"}], "Geschlecht": "männlich", "Geburtstag": "1957-06-05", "careProvider": [{"Display": "Jane Doe"}],}
 
 * * *
 
@@ -142,7 +144,7 @@ Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzuru
 
     Request: besorgen Sie sich <fhir-Server>/Observation? Patient =<Patient-ID>&_sort:d ESC = Datum&Kategorie = Vital-Zeichen
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": {"Coding": [{Code ":" Vital-Signs "}]," Code ": {" Codierung ": [{" System ":"http://loinc.org";" Code ":" 39156-5 ";" Display ":" BMI "}],}," effectiveDateTime ":" 2009-12-01 ";" valueQuantity ": {" Wert ": 34,4," Einheit ":" kg/m2 ";" System ":"http://unitsofmeasure.org";" Code ":" kg/m2 "}},},.
+    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": {"Coding": [{Code ":" Vital-Signs "}],}," Code ": {" Coding ": [{" System "http://loinc.org:" ";" Code ":" 39156-5 ";" Display ":" BMI "}],}," effectiveDateTime ":" 2009-12-01 ";" valueQuantity ": {" Wert ": 34,4;" Einheit ":" kg/m2 ";" System "http://unitsofmeasure.org:" "," Code ":" kg/m2 "}},},.
         .
         .
       ] }
@@ -173,7 +175,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/Condition? Patient =<Patient-ID>&_count = 10
     
-    Antwort: {"Ressourcen": "Bundle", "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressource": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{               "System": "http://snomed.info/sct", "Code": "386033004", "Display": "Neuropathie (Nervenschaden)"}]}, "dateRecorded": "2018-09-17", "Schweregrad": {"Codierung": [{"Syst EM ":"http://snomed.info/sct"," Code ":" 24484000 ";" Anzeige ":" schwere "}]}},}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System":http://snomed.info/sct""; "Code": "386033004"; "Display": "Neuropathie (Nervenschaden)"}]}, "dateRecorded": "2018-09-17", "Schweregrad": {"Codierung": [{"Syst EM ":"http://snomed.info/sct"," Code ":" 24484000 ";" Anzeige ":" schwere "}]}},}]}
 
 * * *
 
@@ -202,7 +204,7 @@ Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu 
 
     Request: besorgen Sie sich <fhir-Server>/Encounter? Patient =<Patient-ID>&_sort:d ESC = Datum&_count = 1
     
-    Antwort: {"Ressourcen": "Bundle", "Type": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressource": "Encounter"; "ID": "<Resource-ID>"; "Bezeichner": [{"Use": "offizielle"; "" ""<id>"" "" "" "" "" "" " : "angekommen", "Typ": [{"Coding": [{"Display": "Termin"}],}], "Patient": {"Bezug": "Patient/<Patient-ID>"}, "Period": {"Start": "09/17/2018 1:00:00 pm"}, "Ort": [{              "Ort": {"Anzeige": "Clinic-HNO"},}]}}]}
+    Response: {"Ressourcentyp": "Bundle"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Begegnung", "ID": "<Resource-ID>"; "Bezeichner": [{"Use": "offiziell"; "Wert"<id>: ""}], "Status": "angekommen", "Typ": [{"Coding": [{"Display": "Termin"}],}], "Patient": {"Reference": "Patient/<Patient-ID>"}, "Zeitraum": {"Start": "09/17/2018 1:00:00 pm"}, "Ort": [{              "Ort": {"Anzeige": "Clinic-HNO"},}]}}]}
 
 * * *
 
@@ -234,7 +236,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
     
-    Antwort: {"Ressourcen": "Bundle", "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "recordedDate": "2018-09-17T07:00:00.00 0Z ";" Substanz ": {" Text ":" Cashew-Nüsse "}," Status ":" bestätigt "," Reaktion ": [{" Substanz ": {" Text ":" Cashew-Nuss-Allergen-Extrakt-injizierbares Produkt "}," manifestati auf ": [{" Text ":" anaphylaktischer-Reaktion "}]}]}}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>", "recordedDate": "2018-09-17T07:00:00.000 z", "Substanz": {"Text": "Cashew-Nüsse"}, "Status": "bestätigt", "Reaktion": [{"Substanz": {"Text": "Cashew-Nuss-Allergen Extrakt injizierbares Produkt"}, "manifestati auf ": [{" Text ":" anaphylaktischer-Reaktion "}]}]}}]}
 
 * * *
 
@@ -266,7 +268,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/medicationorder? Patient =<Patient-ID>&_count = 10
     
-    Antwort: {"Ressource": "Bundle"; "ID": "<-Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "MedicationOrder"; "ID": "<Resource-ID>"; "dateWritten": "2018-09-17"; "Medi cationCodeableConcept ": {" Text ":" Lisinopril 20 mg Oral Tablet "}," Verschreiber ": {" Anzeige ":" Jane Doe "}," dosageInstruction ": [{" Text ":" 1 Daily "}]}}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "MedicationOrder"; "ID": "<Resource-ID>", "dateWritten": "2018-09-17", "medicationCodeableConcept": {"Text": "Lisinopril 20 mg Oral Tablet"}, "Verschreiber": {"Anzeige": "Jane Doe"}, "dosageInstruction": [{"Text": "1 Daily"}]}}]}
 
 * * *  
 
@@ -288,7 +290,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/Coverage? Patient =<Patienten-ID>
     
-    Antwort: {"Ressource": "Bundle"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Coverage"; "ID": "<Resource-ID>"; "Plan": "keine Erstversicherung"; "Teilnehmer": {"Bezug": "Patient/ <Patient-ID> "}}}]}
+    Response: {"Ressourcen": "Bundle"; "Typ": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Coverage"; "ID": "<Resource-ID>"; "Plan": "keine Erstversicherung"; "Teilnehmer": {"Bezug": "Patient/<Patient-ID>"}}}]}
 
 * * *
 

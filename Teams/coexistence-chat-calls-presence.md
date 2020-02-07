@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten von Chats, Anrufweiterleitung und Anwesenheitsinformationen zwischen Benutzern von Teams und Skype for Business, sowohl im Mandanten als auch im Verbund, basierend auf den zugewiesenen TeamsUpgrade-Modi. Es umfasst Routing Optimierungen, Anwesenheits Verhalten sowie die Änderung des standardmäßigen TeamsUpgrade-Modus von *Legacy* auf *Inseln* und die bevorstehende Pensionierung von *Legacy*.
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515862"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824933"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 

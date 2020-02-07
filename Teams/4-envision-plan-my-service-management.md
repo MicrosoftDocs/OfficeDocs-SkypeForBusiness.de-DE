@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Sorgen Sie für eine Bereitstellung von hoher Qualität, indem Sie operative Rollen planen und einen Qualitätspionier ernennen.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825153"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -36,7 +38,7 @@ Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich k
 Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) fallen unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist.
 Eine umfassende Erläuterung der Zuständigkeit des Kunden für die Verwaltung des Microsoft Teams-Diensts im Hinblick auf die für die Benutzerfreundlichkeit maßgeblichen wichtigen Komponenten finden Sie unter [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagramm der drei Komponenten des Qualitäts](media/plan-my-service-management-image1.png "Diagramms der drei Komponenten von Quality – Office 365-Dienst,-Netzwerk und-Endpunkte – und wie sich das Service Management auf alle drei überschneidet.")
+![Diagramm der drei Komponenten der Qualität](media/plan-my-service-management-image1.png "Diagramm der drei Komponenten von Quality – Office 365-Dienst,-Netzwerk und-Endpunkte – und wie sich das Service Management auf alle drei überlappt.")
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +93,7 @@ Die Aufgaben und Aktivitäten, die der Rolle zugeordnet sind, werden im Betriebs
 
 Der Leitfaden zur Überprüfung der Qualität von Erfahrungen enthält eine Reihe von Aktivitäten, die in wichtigen Bereichen, die die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben, die Behebungs Anleitung bewerten und bereitstellen, wie in der folgenden Abbildung dargestellt.
 
-![Abbildung der wichtigsten Bereiche, die während der Qualitätsprüfung zu untersuchen](media/plan-my-service-management-image2.png "sind die wichtigsten Bereiche, die während einer Überprüfung der Qualitätsüberprüfung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
+![Abbildung der wichtigsten Bereiche, die während der Überprüfung der Qualitätserfahrung zu untersuchen sind](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Überprüfung der Qualitätsüberprüfung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

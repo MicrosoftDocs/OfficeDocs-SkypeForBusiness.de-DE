@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: In diesem Artikel wird erläutert, wie Sie Cloud-Video-Interop für Benutzer in Ihrer Organisation planen und einrichten können.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516661"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825103"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -100,10 +102,10 @@ Als nächstes planen Sie Teams-Besprechung mit Video-Interop-Koordinaten. Der ak
 Sie können mit ihren VTC-Geräten mit den folgenden Methoden an Teams-Besprechungen teilnehmen:
  
 - IVR (Interaktive Sprachantwort)
-    - Sie können sich über die tenantkey @-Domäne in die IVR des Partners einwählen. 
+    - Sie können sich über die tenantkey@Domain in die IVR des Partners einwählen. 
     - Sobald Sie in der Partner-IVR sind, werden Sie aufgefordert, die VTC-Konferenz-Nr einzugeben, die Sie dann mit der Teams-Besprechung verbindet.
 - Direktwahl
-    - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC-Konferenz-Nr. @ Domäne.
+    - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC ConferenceId@Domain.
 - One-Touch-Dial
     - Wenn Sie über einen integrierten TeamRoom verfügen, können Sie die von Ihrem Partner angebotenen One-Touch-Wählfunktionen nutzen (ohne eine Wählzeichenfolge eingeben zu müssen).
 

@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Suchen der Sprache für Einwahlkonferenzen für die einzelnen Länder oder Regionen und die zugewiesene Kultur-ID (en-US, da-DK, de-de usw.)
-ms.openlocfilehash: c9f4abcb7a4149baa1d3de7d51f45cfc75d0be06
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826223"
 ---
 # <a name="audio-conferencing-supported-languages"></a>In Audiokonferenzen unterstützte Sprachen
 

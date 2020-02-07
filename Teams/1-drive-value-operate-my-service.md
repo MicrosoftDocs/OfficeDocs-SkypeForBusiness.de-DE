@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erforderlich sind, einschließlich der Überwachung des Dienststatus sowie der Beurteilung und Gewährleistung der Netzwerkqualität und-Nutzung.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516619"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826983"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -39,7 +41,7 @@ Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, in dem eine Liste der Kategorien von Aufgaben und Aktivitäten dargestellt]wird ein(media/operate-my-service-image1.png "Diagramm mit einer Liste der Kategorien von Aufgaben und Aktivitäten, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
+![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt](media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 
 <table>
@@ -251,7 +253,7 @@ Die anderen beiden Berichte sind Teams-spezifisch, und Sie bieten weitere Detail
 
 #### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
-Auf die Verwendungsberichte im Admin Center kann von Personen zugegriffen werden, denen eine **globale Administrator** Rolle zugewiesen wurde, oder eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype for Business-Administrator**, **SharePoint Administrator**).
+Auf die Verwendungsberichte im Admin Center kann von Personen zugegriffen werden, denen eine **globale Administrator** Rolle zugewiesen wurde, oder auf eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype for Business-Administrator**, **SharePoint-Administrator**).
 
 Darüber hinaus steht die Rolle " **berichtsleser** " für Benutzer zur Verfügung, die Zugriff auf die Berichte benötigen, jedoch keine Aufgaben ausführen, für die Berechtigungen auf Administratorebene erforderlich sind. Sie weisen diese Rolle zu, um jedem, der ein Stakeholder ist, Verwendungsberichte zur Verfügung zu stellen, um die Einführung zu überwachen und zu steuern. Weitere Informationen zu den verschiedenen verfügbaren Rollen finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -462,7 +464,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Kontaktieren des Premier-Supports](https://support.microsoft.com/premier/contacts)
 
@@ -548,7 +550,7 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, die am stärksten zur Verbesserung der Benutzerfreundlichkeit führen, die Behebungs Anleitung bewerten und bereitstellen, wie unten dargestellt.
 
-![Diagramm der zu überprüfenden Bereiche während einer erfahrungsqualität überprüfen](media/plan-my-service-management-image2.png "Sie die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Benutzerumfrage Ergebnisse.")
+![Diagramm der zu untersuchenden Bereiche während einer Überprüfung der Qualität der Erfahrung](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
 Indem Sie die im Leitfaden beschriebenen Bereiche kontinuierlich bewerten und korrigieren, können Sie deren Potenzial verringern, die Benutzererfahrung negativ zu beeinflussen. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

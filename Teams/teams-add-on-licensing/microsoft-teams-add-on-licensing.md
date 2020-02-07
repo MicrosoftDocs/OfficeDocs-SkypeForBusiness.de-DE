@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Erfahren Sie mehr über Add-On-Lizenzen, die Features, die Sie bei den einzelnen Lizenzen erhalten, wie Sie sie für Ihr Produkt kaufen können, und wie Sie sie bei Ihrem bestehenden Netzbetreiber nutzen können. Sie können Informationen über Preise und Details zu den Plänen für Office 365, Kommunikationsguthaben und Anrufpläne erhalten.
-ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37571202"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826633"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 

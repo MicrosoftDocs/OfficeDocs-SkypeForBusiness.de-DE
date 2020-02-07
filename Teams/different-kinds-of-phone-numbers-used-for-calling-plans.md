@@ -15,16 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 description: Informieren Sie sich über die verschiedenen Telefonnummern Typen, die von Teams für das Aufrufen von Plänen verwendet werden.
-ms.openlocfilehash: 398dfce4b82cb898d6c3f3835e80905c911f52ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d31bf767fab2f90ddd57b9bb43cd12b5960d5102
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696050"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826893"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden
 

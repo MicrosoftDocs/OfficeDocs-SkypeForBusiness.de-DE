@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu kostenlosen virtuellen Benutzerlizenzen.
-ms.openlocfilehash: ebf98f852610dd5acfea2bcd65daca7b7541b5aa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571169"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826513"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Telefon System – virtuelle Benutzerlizenz 
 
@@ -53,7 +55,7 @@ Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anru
 > [!NOTE] 
 > Wenn Sie diese Anweisungen befolgen, deaktivieren Sie den Vorschaumodus, um eine Telefon System-Virtual User-Lizenz zu erwerben.
 
-1. Anmelden beim Microsoft 365 Admin Center.
+1. Melden Sie sich beim Microsoft 365 Admin Center an.
 2. Wechseln Sie zu den**Add-on-Abonnements** für **Billing** > **Purchase Services** > .
 3. Scrollen Sie bis zum Ende, um die Lizenz **"Telefon System – virtueller Benutzer"** zu finden. Wählen Sie **Jetzt kaufen** aus.
 

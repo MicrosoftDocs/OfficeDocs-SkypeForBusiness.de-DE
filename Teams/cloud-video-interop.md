@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: Mit der Cloud-Video Interoperabilität können Besprechungsraum Geräte von Drittanbietern an Microsoft Teams-Besprechungen teilnehmen.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825063"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -92,10 +94,10 @@ Nachdem ein Benutzer für die Cloud-Video-Interop aktiviert wurde, werden alle B
 Je nach Partnerlösung gibt es mehrere Möglichkeiten, an einer Cloud-Video-Interop-fähigen Besprechung teilzunehmen. Die genauen Szenarien für Besprechungen werden von Ihrem Brightcove-Video-Interop-Partner bereitgestellt. Nachfolgend sind einige Beispiele aufgeführt:
 
 - IVR (Interaktive Sprachantwort) 
-  - Sie können sich über die tenantkey @-Domäne in die IVR des Partners einwählen.
+  - Sie können sich über die tenantkey@Domain in die IVR des Partners einwählen.
   - Wenn Sie sich im Partner-IVR befinden, werden Sie aufgefordert, die VTC-Konferenz-Nr einzugeben, die Sie dann mit der Teams-Besprechung verbindet.
 - Direktwahl 
-  - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC-Konferenz-Nr. @ Domäne.
+  - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC ConferenceId@Domain.
 - One-Touch-Dial 
   - Wenn Sie über einen integrierten TeamRoom verfügen, können Sie die von Ihrem Partner angebotenen One-Touch-Wählfunktionen nutzen (ohne eine Wählzeichenfolge eingeben zu müssen).
 

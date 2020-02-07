@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: 'Kunden wurde eine ﻿kostenlose Dial-Out-Funktion zur Verfügung gestellt, die am 30. November 2019 endet.  Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer und Monat zu einem der Zone A-Länder, wie in diesem Dokument beschrieben. '
-ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e10f50a5b11ce6c490a4bd4e195709425ca8e33
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826243"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audiokonferenz-Abonnement "Dial-Out"/"rufen Sie mich an"-Minuten Vorteil
 

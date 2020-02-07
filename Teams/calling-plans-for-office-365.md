@@ -17,19 +17,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
-ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: 3dc132e1ccbb4c9720d6c17ca37aa7e72e42751b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695580"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825253"
 ---
 # <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
 

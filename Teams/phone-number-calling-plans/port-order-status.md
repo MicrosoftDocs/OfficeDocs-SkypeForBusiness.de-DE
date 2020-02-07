@@ -12,16 +12,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ''
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungs Bestellungen ermitteln und welche verschiedenen Aktionen Sie ausführen können. '
-ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708631"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827953"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
