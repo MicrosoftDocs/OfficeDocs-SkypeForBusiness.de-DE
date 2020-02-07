@@ -8,15 +8,17 @@ layout: LandingPage
 audience: ITPro
 ms.topic: landing-page
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams-Räume und die Bereitstellung und Verwaltung des Systems.
-ms.openlocfilehash: 26efdced8a4e8e018cd82d27549c8b65fe000a6b
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 4d92a5fc347ac7a8a53c35a93445ca923665f84c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268960"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826073"
 ---
 <h2>Microsoft Teams-Räume</h2>
 <ul class="panelContent cardsW cols cols2">
