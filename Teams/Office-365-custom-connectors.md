@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834375"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
@@ -54,4 +56,4 @@ Derzeit können Sie mithilfe von Microsoft Teams-Desktop-und-Webclienten Connect
 <a name="develop-custom-connectors"></a>Entwickeln von benutzerdefinierten Connectors
 ----------------------------
 
-Sie können auch benutzerdefinierte Connectors sowie eingehende und ausgehende webhooks erstellen. Weitere Informationen finden Sie in unserer [Entwicklerdokumentation](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) .
+Sie können auch benutzerdefinierte Connectors sowie eingehende und ausgehende webhooks erstellen. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).

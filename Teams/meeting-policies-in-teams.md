@@ -14,18 +14,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: 2223882020bf9ea045e18d42c6591eceba628999
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708841"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836475"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 

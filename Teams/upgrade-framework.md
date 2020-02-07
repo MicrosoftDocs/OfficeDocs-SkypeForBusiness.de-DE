@@ -10,18 +10,20 @@ audience: admin
 description: Verwenden Sie ein bewährtes Erfolgs-Framework bei Ihrem Umstieg von Skype for Business zu Teams in Ihrer Organisation.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236409"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837185"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
@@ -29,7 +31,7 @@ Wir haben ein bewährtes Framework für die Implementierung von Änderungen verw
 
 Beginnen Sie, indem Sie die richtigen Stakeholder zusammenbringen und ihren Upgradeplan definieren (zB. Bereich, Ziele und Zeitachse). Wenn Sie einen Plan eingerichtet haben, bestätigen Sie Ihre technische Umgebung, und Ihre Endbenutzer sind bereit für Teams. Implementieren Sie dann Ihr Upgrade stufenweise, und wechseln Sie dann von einem Pilotprojekt zu einem organisationsweiten Upgrade, wenn Sie bereit sind. Sobald Ihre Organisation in Teams ist, erstellen Sie einen operationellen Plan, der auf Qualität überwacht und die Benutzerakzeptanz beschleunigt.
 
-![Abbildung des Frameworks für die Upgrade-Reise] (media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
+![Abbildung des Frameworks für die Upgrade-Reise](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
 
 Suchen Sie auf verwandten Seiten nach dieser Frameworks-Grafik, um zu ermitteln, wo sich der Upgradeprozess befindet.
 
@@ -66,7 +68,7 @@ Um zu veranschaulichen, wie sich die Upgrade-Reise entwickeln kann, haben wir un
 | Schritt |  | Zusammenfassung | Ressourcen |
 |------|--|---------|----------|
 | **1** | **Bewerten Ihrer Umgebung und vollständiges technisches Onboarding von Teams** | Stellen Sie sicher, dass Ihre Umgebung für Teams bereit ist, um die Benutzerfreundlichkeit zu verbessern und Ihr Upgrade über einen Zeitraum zu erleichtern. | [Bewerten Sie Ihre Umgebung, bevor Sie auf Teams aktualisieren](upgrade-plan-journey-evaluate-environment.md).<br><br> [Vorbereiten Ihres Diensts für das Upgrade auf Teams](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Optimieren von Netzwerk für Teams, insbesondere für echt Zeit Medien Szenarien** | Wenn Sie Audio, Video oder Besprechungen bereitstellen, führen Sie die folgenden zusätzlichen Schritte aus, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Vorbereiten Ihres Netzwerks für das Upgrade auf Teams](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **Optimieren von Netzwerk für Teams, insbesondere für echt Zeit Medien Szenarien** | Wenn Sie Audio, Video oder Besprechungen bereitstellen, führen Sie die folgenden zusätzlichen Schritte aus, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams](upgrade-prepare-environment-prepare-network.md) |
 | **3** | **Bewerten der organisatorischen Änderungsbereitschaft und Definieren von Teamwork-Szenarien** | Verstehen Sie Ihre Nutzerbasis, um den richtigen Wert für Messaging und Bildungsniveau vorzubereiten, um die Benutzerakzeptanz zu erleichtern und zu beschleunigen. | [Bereitschaft zur organisatorischen Änderung](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **Bereiten Sie einen Benutzer Bereitschaftsplan vor, um zu definieren, wie Sie Benutzer kommunizieren, Schulen und unterstützen können.** | Personalisieren Sie Ihre Kommunikations-, Schulungs-und Support Pläne, um eine optimale Empfänglichkeit für die neue Technologie zu gewährleisten. | [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)<br><br>[Update Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Ankündigen der bevorstehenden Einführung von Microsoft Teams** | Frühzeitige Kommunikation, um die Benutzer in den Genuss einzubeziehen, Verwirrung zu reduzieren und Begeisterung zu wecken. | [Update Success Kit](https://aka.ms/UpgradeSuccessKit) |
@@ -122,7 +124,7 @@ Um zu veranschaulichen, wie sich die Upgrade-Reise entwickeln kann, haben wir un
 
 
 > [!Note]
-> Unser Upgrade-Content wird ständig weiterentwickelt. Schauen Sie sich die neuesten Anleitungen an und lesen Sie den Teamblog [](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
+> Unser Upgrade-Content wird ständig weiterentwickelt. Schauen Sie sich die neuesten Anleitungen an und lesen Sie den [Teamblog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach wird es nicht mehr barrierefrei oder unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für die Implementierung Ihres Upgrades hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.

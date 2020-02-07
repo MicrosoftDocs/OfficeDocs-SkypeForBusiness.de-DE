@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Einführung von Teams mithilfe des Produkts steuern können.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2cec58d96e5c812cf63a9af1ebf6dfeffa7c13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244813"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837715"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -31,7 +33,7 @@ Die beste Methode, um die Einführung von Teams zu steuern, besteht in der Verwe
 | Teamname | Vorgeschlagene Kanalnamen |
 | --------- | ---------------------- |
 | Kennenlernen von Teams | Allgemein</br> Begrüßung</br> Wie gehe ich vor?</br>Feedback </br> Ideen für zukünftige Teams </br> Support |
-| Microsoft Teams-Implementierung | Allgemein <br/> Sensibilisierung und Akzeptanz <br/> Geschäftliches Engagement <br/> Early Adopter-Programm <br/> Feedback und Einblicke <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienststatus und-Vorfälle <br/> Schulung <br/> Watercooler-Chat |
+| Microsoft Teams-Implementierung | Allgemein <br/> Sensibilisierung und Akzeptanz <br/> Geschäftliches Engagement <br/> Early Adopter-Programm <br/> Feedback und Einblicke <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienststatus und-Vorfälle <br/> Schulungen <br/> Watercooler-Chat |
 | Teamwork-Champions | Allgemein <br/> Bewährte Methoden, Schulung und Anleitungen <br/> Champion-Ecke <br/> Feedback und Support <br/> Programm Leads <br/> Social Hub |
 
 In Microsoft Teams können Sie mit dem [Reiter Katalog](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) auf alle Office 365-und Drittanbieter-apps zugreifen, die vom Administrator aktiviert wurden. Um den größten Nutzen aus Ihrem Produkt zu erzielen, empfehlen wir, die wichtigsten Ressourcen als Registerkarten in den jeweiligen Kanälen zu fixieren. Sehen Sie sich das Beispiel unten an.
@@ -50,7 +52,7 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 | Feedback und Berichterstellung | Angehefteter Office 365-Nutzungsbericht (nur für Office 365-Administratoren) |
 | Sicherheit und Compliance | Microsoft Trust-Portal <br/> [Sicherheits-und Compliance-Dokumentation](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Strategie und Planung | Zusammenarbeit North Star PowerPoint <br/> Dienst Adoptions Projekt Plan |
-| Schulung | Benutzerdefiniertes Learning-Schulungsportal <br/> [Teams Online-Schulung](https://aka.ms/TeamsTraining) |
+| Schulungen | Benutzerdefiniertes Learning-Schulungsportal <br/> [Teams Online-Schulung](https://aka.ms/TeamsTraining) |
 | **Teamwork-Champions**|  |
 | Allgemein | Verwenden für Programmankündigungen <br/> Übersicht über das Pin Champion-Programm |
 | Bewährte Methoden | Bewährte Methoden für Teams, Kanäle und Chats in PowerPoint <br/> Team Lebenszyklus |

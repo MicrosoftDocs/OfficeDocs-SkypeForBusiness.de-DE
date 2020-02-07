@@ -10,18 +10,20 @@ audience: admin
 description: Wählen Sie Ihren Upgrade-Pfad zu Microsoft Teams basierend auf Ihrer aktuellen Skype for Business-Bereitstellung aus.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "36437561"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836297"
 ---
 ![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 

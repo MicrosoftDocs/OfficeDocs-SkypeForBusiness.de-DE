@@ -11,16 +11,18 @@ ms.collection:
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: Dieser Artikel unterstützt Sie bei der Auswahl des Koexistenzmodus und bei der Einstellung anderer koexistenzeinstellungen.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e0eee70dd27647e59a742f4155ba292b54684eaa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003315"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837975"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 

@@ -10,27 +10,29 @@ ms.reviewer: dearbeen
 description: Sicherstellen, dass Ihre Organisation und Ihre Benutzer für Microsoft Teams bereit sind
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236439"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837131"
 ---
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Benutzer Bereitschaftsstufe] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Benutzer Bereitschaftsstufe](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
-Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
-- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 
@@ -44,7 +46,7 @@ Nachdem Sie Ihr Projektteam gesichert und ihre Vision, ihren Umfang und ihre Zie
 
 | | |
 |---|---|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist die Kultur Ihrer Organisation, wenn es um Änderungen geht?</li><li>Wie können die neuen Technologien die Funktionsweise von Benutzern optimieren?</li><li>Für welche Benutzer ist es wahrscheinlich besonders wichtig, dass Sie Sie dazu bringen, ihre Arbeitsweise zu ändern?</li></ul> |
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist die Kultur Ihrer Organisation, wenn es um Änderungen geht?</li><li>Wie können die neuen Technologien die Funktionsweise von Benutzern optimieren?</li><li>Für welche Benutzer ist es wahrscheinlich besonders wichtig, dass Sie Sie dazu bringen, ihre Arbeitsweise zu ändern?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Anleitungen und zugehörigen Aktivitäten, um das Benutzer Bereitschafts Profil Ihrer Organisation zu erfassen.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Bereitschaft zur organisatorischen Änderung
@@ -104,12 +106,12 @@ Um Teams optimal zu nutzen, erstellen Sie eine Teamarbeit-Strategie, die beide S
 
 | | |
 |---|---|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche relatable-Teamarbeits Szenarien verwenden Sie, um die Benutzerakzeptanz von Teams zu beschleunigen und Ihr Upgrade von Skype for Business zu unterstützen?</li></ul> |
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche relatable-Teamarbeits Szenarien verwenden Sie, um die Benutzerakzeptanz von Teams zu beschleunigen und Ihr Upgrade von Skype for Business zu unterstützen?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die nachstehenden Beispiele, um Ihre eigenen Teamarbeits Szenarien zu gestalten. Dokumentieren Sie Sie in der [Upgrade-Arbeitsmappe](https://aka.ms/upgradesuccesskit).</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitäts Bibliothek](https://www.microsoft.com/en-us/microsoft-365/success/) .</li></ul>|
 
 ### <a name="examples"></a>Beispiele
 
-**Projektzentrierte Teamarbeit: Produkteinführungsereignis** (zum Beispiel: Ihre Organisation bereitet sich auf die Einführung eines neuen Produkts auf dem Markt vor und plant eine breite Werbeveranstaltung, um das Bewusstsein zu schärfen, Leads zu generieren und Verkäufe zu fördern).
+**Projektzentrierte Teamarbeit: Produkteinführungsereignis** (beispielsweise: Ihre Organisation bereitet sich auf die Einführung eines neuen Produkts auf dem Markt vor und plant eine breite Werbeveranstaltung, um das Bewusstsein zu schärfen, Leads zu generieren und Umsätze zu fördern).
 
 | Berücksichtigt | Hinweise |
 |----|---|

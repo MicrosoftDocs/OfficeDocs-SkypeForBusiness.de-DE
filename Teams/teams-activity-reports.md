@@ -13,14 +13,16 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie mithilfe von Aktivitätsberichten sehen können, wie Benutzer in Ihrer Organisation Microsoft Teams verwenden.
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30e44b08abdd6ed6cf6bf2edbdb70de5eea058c
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: ddbfd37754ed5ab1347fb198936c1df3f43b356c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772379"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835475"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================

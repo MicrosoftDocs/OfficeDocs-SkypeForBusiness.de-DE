@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Aufgaben und Aktivitäten, die für das Service Management von Teams erforderlich sind, einschließlich Überwachung des Dienststatus und bewerten und sicherstellen der Netzwerkqualität und-Nutzung
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236494"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837145"
 ---
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
 Dieser Artikel ist Teil des "Operational Excellence"-Schritts Ihres Upgrade-Vorgangs, der beginnt, sobald Sie das Upgrade von Skype for Business auf Teams abgeschlossen haben.
 
@@ -43,7 +45,7 @@ Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
+![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt](media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
@@ -173,7 +175,7 @@ Der erste Schritt bei der Änderungsverwaltung ist das Überwachen der für Team
 Im [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)finden Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Produktupdates für Teams. Erwarten Sie, dass Sie wichtige Funktionsupdates für Teams finden, die hier angekündigt werden. Sie können den Blog auch über einen RSS-Feed abonnieren. Sie können [den RSS-Feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) dann direkt in einen Teams-Kanal einfügen, damit alle wichtigen Nachrichten direkt innerhalb von Teams bereitgestellt werden.
 
 Alle freigegebenen Features sind in den Versionshinweisen [für Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)dokumentiert.
-Hier finden Sie eine Liste der Funktionen, die für Desktop-, Web-und mobile Geräte freigegeben wurden. Die gleichen Anmerkungen zu dieser Version finden Sie auch auf der **** Registerkarte Neuerungen in der [Hilfe](get-help-in-microsoft-teams.md).
+Hier finden Sie eine Liste der Funktionen, die für Desktop-, Web-und mobile Geräte freigegeben wurden. Die gleichen Anmerkungen zu dieser Version finden Sie auch auf der Registerkarte **Neuerungen** in der [Hilfe](get-help-in-microsoft-teams.md).
 
 Machen Sie sich mit den verfügbaren Ressourcen vertraut, und stellen Sie sicher, dass Sie die geeigneten Besitzer zuweisen, um Änderungen zu überwachen.
 
@@ -253,7 +255,7 @@ Die anderen beiden Berichte sind Teams-spezifisch, und Sie bieten weitere Detail
 
 #### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
-Auf die Verwendungsberichte im Admin Center kann von Personen zugegriffen werden, denen eine **globale Administrator** Rolle zugewiesen wurde, oder eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype for Business-Administrator**, **SharePoint Administrator**).
+Auf die Verwendungsberichte im Admin Center kann von Personen zugegriffen werden, denen eine **globale Administrator** Rolle zugewiesen wurde, oder auf eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype for Business-Administrator**, **SharePoint-Administrator**).
 
 Darüber hinaus steht die Rolle " **berichtsleser** " für Benutzer zur Verfügung, die Zugriff auf die Berichte benötigen, jedoch keine Aufgaben ausführen, für die Berechtigungen auf Administratorebene erforderlich sind. Sie weisen diese Rolle zu, um jedem, der ein Stakeholder ist, Verwendungsberichte zur Verfügung zu stellen, um die Einführung zu überwachen und zu steuern. Weitere Informationen zu den verschiedenen verfügbaren Rollen finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -318,7 +320,7 @@ NPS ist ein Index von – 100 bis 100, der die Bereitschaft eines Kunden zur Emp
 
 - Von 1 bis 6 sind Kritiker: unzufriedene Kunden, die Ihren Service beschädigen und das Wachstum behindern können.
 
-![Ein Diagramm, das die NPS-Skalierung veranschaulicht] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
+![Ein Diagramm, das die NPS-Skalierung veranschaulicht](media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
 
 Obwohl die NPS-Basisnummer hilfreich ist, erhalten Sie den größten Nutzen aus der Analyse von Benutzerkommentaren. Sie werden Ihnen helfen zu verstehen, warum der Benutzer Teams anderen Personen empfehlen würde (oder nicht). Diese Kommentare können wertvolle Rückmeldungen liefern, damit die Projekt-oder Service Management Teams die Anpassungen verstehen, die erforderlich sind, um einen Qualitätsdienst bereitzustellen.
 
@@ -427,7 +429,7 @@ Ein Katalog mit unterstützten Endpunkten und Schnittstellengeräten (wie Headse
 
 Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in Ihrer Organisation weiterhin Probleme mit Teams eingehen. Obwohl das Problem möglicherweise nicht mit dem Endpunkt selbst verbunden ist, werden die Symptome des Problems in der Regel über den Client für den Benutzer angezeigt. Die folgenden Anleitungen sollen allgemeine Schritte zur Behebung des Problems bereitstellen. Es handelt sich nicht um eine umfassende Anleitung zur Fehlerbehebung. Die Schritte werden in einer bestimmten Reihenfolge bereitgestellt, müssen aber nicht explizit befolgt werden und sind je nach Art des Problems möglicherweise nicht anwendbar.
 
-1. Über **prüfen des Dienststatus:** Das Problem, das ein Benutzer möglicherweise aufweist, kann sich auf ein Ereignis beziehen, das sich negativ auf den Teams-Dienst oder itsdependent-Dienste auswirkt. Als ersten Schritt empfehlen wir, dass Sie bestätigen, dass es keine aktiven Dienst Probleme gibt. Informieren [Sie sich, wie Sie den Office 365-Dienststatus überprüfen können](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, Überwachen des [Dienststatus](#monitor-service-health), ausführlicher erläutert.
+1. Über **prüfen des Dienststatus:** Das Problem, das ein Benutzer möglicherweise aufweist, kann sich auf ein Ereignis beziehen, das sich negativ auf den Teams-Dienst oder itsdependent-Dienste auswirkt. Als ersten Schritt empfehlen wir, dass Sie bestätigen, dass es keine aktiven Dienst Probleme gibt. Informieren [Sie sich, wie Sie den Office 365-Dienststatus überprüfen können](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, [Überwachen des Dienststatus](#monitor-service-health), ausführlicher erläutert.
 
 2. Über **Prüfen der Clientkonnektivität:** Verbindungsprobleme führen zu Funktions-oder Anmeldeproblemen in Teams. Wir empfehlen (insbesondere für neue Websites oder Standorte), dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgenden [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jede Website befolgt werden. Sie können das Tool für die [Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) nutzen, um einen Verbindungstest durchzuführen, um zu überprüfen, ob die Medienanschlüsse für die Teamfunktionen ordnungsgemäß geöffnet wurden. Detaillierte Anweisungen zum Ausführen der Verbindungstests finden Sie im [Netzwerk Readiness](upgrade-prepare-environment-prepare-network.md) -Leitfaden.
 
@@ -459,7 +461,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Kontaktieren des Premier-Supports](https://support.microsoft.com/premier/contacts)
 

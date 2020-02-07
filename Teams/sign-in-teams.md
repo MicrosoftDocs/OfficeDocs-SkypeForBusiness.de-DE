@@ -13,14 +13,16 @@ description: So melden Sie sich bei Microsoft Teams mit moderner Authentifizieru
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790613"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845136"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -39,9 +41,14 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Teams m
 
 - Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für MFA entschieden hat oder ob ihr Computer bereits MFA zum Anmelden erfordert. Wenn ihr Computer bereits MFA zur Anmeldung erfordert, startet die App automatisch, wenn  sie Teams öffnen.
 
-- Wenn Benutzer bei einem von der Domäne verbundenen Computer angemeldet sind und nicht möchten, dass der Benutzername auf dem Anmeldebildschirm der Teams vorinstalliert ist, können Administratoren die folgende Windows-Registrierung so einrichten, dass die vorauffüllung des Benutzernamens deaktiviert wird: Computer \ HKEY_CURRENT_USER \software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+- Wenn Benutzer bei einem von der Domäne verbundenen Computer angemeldet sind und nicht möchten, dass der Benutzername auf dem Anmeldebildschirm der Teams vorinstalliert ist, können Administratoren die folgende Windows-Registrierung so einrichten, dass die vorauffüllung des Benutzernamens (User Name, UPN) deaktiviert wird:
 
-  Hinweis: das Überspringen von Benutzernamen-Pre-Fill für Benutzernamen, die in ". local" oder ". Corp" enden, ist standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 
+  Computer \ HKEY_CURRENT_USER \software\microsoft\office\teams<br/>
+  SkipUpnPrefill (REG_DWORD)<br/>
+  0x00000001 (1)
+
+    > [!NOTE]
+    > Das Überspringen von Benutzernamen-Pre-Fill für Benutzernamen, die in ". local" oder ". Corp" enden, ist standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 
 
 
 ### <a name="mac-users"></a>Mac-Benutzer 
@@ -62,5 +69,5 @@ Für Teams ist eine Internet Verbindung erforderlich. Wenn Sie Endpunkte versteh
 
 Moderne Authentifizierung ist für alle Organisationen verfügbar, die Teams verwenden. Wenn Benutzer also nicht in der Lage sind, den Prozess abzuschließen, liegt möglicherweise ein Problem mit Ihrer Domäne oder dem Office 365 Enterprise-Konto Ihrer Organisation vor. 
 
-Weitere Informationen finden Sie unter [Wieso habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Weitere Informationen finden Sie unter [Warum habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 

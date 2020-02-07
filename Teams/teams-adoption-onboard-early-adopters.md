@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie für die Testphase der Einführung von Teams Early Adopters aus, und sammeln Sie dann Feedback für Ihr Projekt.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 65e697ef46f9ec087975b47741597a7e0ff68508
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242305"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837805"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
@@ -45,4 +47,4 @@ Verwenden Sie die Komponenten von Office 365, um Feedback zu Ihrem Projekt zu sa
 > Einige Organisationen kombinieren die Kanäle für Early Adopter-Feedback in das Team Team-Champions-Programm. Dies ist ein guter Ansatz, da viele frühe Anwender in Zukunft zu Champions werden können, und es wird eine stärkere Community aufbauen. 
 
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: Onboard- [Support](teams-adoption-onboard-support.md).
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Onboard-Support](teams-adoption-onboard-support.md).

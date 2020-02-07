@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837855"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -85,7 +87,7 @@ Die folgenden Empfehlungen gelten für die meisten Kundenorganisationen. Es gibt
 
     Teams Go Big ist auch die bevorzugte Enablement-Strategie für Organisationen unter 1.000-Mitarbeitern, die ihre Mitarbeiterkommunikation und-Engagement vereinfachen möchten. Die Verwendung des organisationsweiten Teams kann Personen zusammenbringen, um allgemeine Aufgaben und Initiativen auf jedem Gerät zu überprüfen. 
 
-- **Wählen Sie**nebeneinander aus: für Organisationen, die Skype for Business für Audiokonferenzen, Unterstützung für Konferenzraum Geräte oder Cloud-Sprachfunktionen verwenden, empfehlen wir, Teams und Skype nebeneinander auszuführen, um Ihre Mitarbeiter mit dem die wichtigsten Features für die Zusammenarbeit bei der Planung der Migration von Skype for Business zu einem für Ihr Unternehmen günstigen Zeitpunkt. Beachten Sie, dass beide Clients nebeneinander ausgeführt werden können, um Verwirrung über das zu verwendende Tool zu vermitteln, daher empfehlen wir, diese Phase in ihrer Adoptions Reise kurz zu halten. 
+- **Wählen Sie**nebeneinander aus: für Organisationen, die Skype for Business für Audiokonferenzen, Unterstützung für Konferenzraum Geräte oder Cloud-Sprachfunktionen verwenden, empfehlen wir, Teams und Skype nebeneinander auszuführen, um Ihre Mitarbeiter mit den wichtigsten Features für die Zusammenarbeit vertraut zu machen, während Sie die Migration von Skype for Business zu einem für Ihr Unternehmen günstigen Zeitpunkt planen. Beachten Sie, dass beide Clients nebeneinander ausgeführt werden können, um Verwirrung über das zu verwendende Tool zu vermitteln, daher empfehlen wir, diese Phase in ihrer Adoptions Reise kurz zu halten. 
 
 - **Wählen Sie Migration**: die Migration von Skype for Business zu Teams umfasst zusätzliche Komponenten aus technischer Sicht, aber die Benutzerakzeptanz-Reise hat die gleichen Komponenten wie eine große Implementierung von Teams. Darüber hinaus werden Sie Personen über die Erfahrungen und die Oberfläche der Teams, das neue Verhalten des beständigen Chats und andere Elemente der Erfahrung informieren, die sich von Skype for Business unterscheiden.
 

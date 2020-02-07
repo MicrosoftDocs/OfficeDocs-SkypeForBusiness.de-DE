@@ -15,16 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
-ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694320"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836685"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 

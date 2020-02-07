@@ -10,18 +10,20 @@ search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Hier erfahren Sie, wie Sie Ihre Teams im Microsoft Teams Admin Center anzeigen oder aktualisieren können.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
-ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
+ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627031"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836267"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 ==========================================

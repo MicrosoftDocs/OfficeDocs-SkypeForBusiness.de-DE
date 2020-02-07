@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Erfahren Sie, wie Sie die Microsoft Teams-SMTP-Domäne als zulässige Absenderdomäne in Exchange Online hinzufügen, um Benachrichtigungen an Teammitglieder zu senden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae8be5c4b596b8815b8677b6214163924cbb183
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834765"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Hinzufügen der SMTP-Domäne von Microsoft Teams als akzeptierte Senderdomäne in Exchange Online 
 =============================================================================

@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Erfahren Sie mehr über verschiedene Kombinationen der Benutzererstellung und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572113"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837285"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -58,10 +60,10 @@ Eine Skype for Business-Hybridumgebung mit PSTN-Konnektivität bietet Flexibilit
 | ------------ | --------- | --------- | --------- | -------- |
 |Lokale Anzeige| Lokal |Skype for Business   | Enterprise-VoIP   |Ja|
 |Lokale Anzeige|Online| Skype for Business  | Hybride sprach Konnektivität   |Ja |
-|Lokale Anzeige|Online |Microsoft Teams |Direktes Routing  |Ja |
+|Lokale Anzeige|Online |Microsoft Teams |Direktes Routing  |Ja |
 |**Nicht unterstützte Kombinationen**    | |         |         |      |
 |Azure AD| Lokal/Online | Skype for Business/Microsoft Teams|Enterprise-VoIP/Hybrid-VoIP-Konnektivität/Direktes Routing  |Nein, das Benutzerobjekt muss zuerst in der lokalen Anzeige erstellt werden. |
-|Lokale Anzeige  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP-Konnektivität/Direktes Routing   |Nein, Microsoft Teams-Client wird für lokale Skype for Business nicht unterstützt |     
+|Lokale Anzeige  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP-Konnektivität/Direktes Routing   |Nein, Microsoft Teams-Client wird für lokale Skype for Business nicht unterstützt |     
 |Lokale Anzeige  |Online |Skype for Business  | Direktes Routing  |Nein, das direkte Routing wird mit dem Skype for Business-Client nicht unterstützt, und der Benutzer muss für Enterprise-VoIP in Skype for Business zuerst aktiviert sein.  |
 
 

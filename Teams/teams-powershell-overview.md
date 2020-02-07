@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570124"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836955"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
@@ -120,7 +122,7 @@ Konfigurationen sind Buckets von Einstellungen, die im Dienst verwaltet werden u
 
 ## <a name="other-powershell-tools"></a>Andere PowerShell-Tools
 
-Ausführliche Anweisungen zur Verwendung aller PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams und Skype for Business, einschließlich detaillierter Beschreibungen der Einstellungen in den einzelnen Richtlinien, finden Sie in der [Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps) und in [Skype für Business-Cmdlet-Referenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Ausführliche Anweisungen zur Verwendung aller PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams und Skype for Business, einschließlich detaillierter Beschreibungen der Einstellungen in den einzelnen Richtlinien, finden Sie in der [Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps) und in der [Skype for Business-Cmdlet-Referenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>Weitere Informationen
 

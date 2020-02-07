@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie Verwendungsszenarien für die Experimentierphase ihrer Teams-Einführung aus.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85183f76327575b40ff2fb2e68e6c77247e8dd98
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e2b1103163f56fcb5910b0e883a26fe5b76d0450
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242374"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837845"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
@@ -68,4 +70,4 @@ Nachdem Sie sich mit einem oder mehreren geschäftlichen Stakeholdern unterricht
 > [!Note]
 > Wir sind stets bemüht, zu erfahren, wie unsere Kunden Teams auf neue innovative Art und Weise nutzen. Teilen Sie Ihre #TeamsStories mit uns in unserem [Driving Adoption Discussion Forum]. Fügen Sie die hashtag- **#TeamsStories** in ihren Beitrag ein. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: Onboard [Early Adopters und Feedback sammeln](teams-adoption-onboard-early-adopters.md).
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Onboard Early Adopters und Feedback sammeln](teams-adoption-onboard-early-adopters.md).

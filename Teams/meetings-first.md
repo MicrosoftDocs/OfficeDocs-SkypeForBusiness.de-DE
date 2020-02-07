@@ -10,17 +10,19 @@ ms.reviewer: francoid
 description: Informieren Sie sich zuerst über Besprechungen, in denen Benutzer Ihre Besprechung in Teams erstellen können, während Sie weiterhin Skype for Business für Chats, Anrufe und Anwesenheitsinformationen verwenden.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564905"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836455"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -103,7 +105,7 @@ In diesem Schritt sollten Sie in der Lage sein, ein Pilotprojekt mit mittlerer S
 
 Nachdem Sie Ihre Benutzer lizenziert und Ihre Organisation für Teams-Besprechungen vorbereitet haben, ist es an der Zeit, Ihre Benutzer zuerst für Besprechungen zu aktivieren. Wir haben es ganz einfach gemacht: eine einzige Einstellung bietet alles!
 
-Alle Funktionen und Benutzeroberflächen in Besprechungen, einschließlich der Clientkonfiguration für Teams und der [automatischen Konformität](teams-client-experience-and-conformance-to-coexistence-modes.md) der Benutzeroberfläche, des Migrations Diensts für Besprechungen und der besseren Zusammenarbeit, werden konfiguriert, indem der Benutzer (oder Gruppe von Benutzern oder Mandanten Standard) der [SfBWithTeamsCollabAndMeetings-Koexistenzmodus](setting-your-coexistence-and-upgrade-settings.md) entweder im [Microsoft Teams Admin Center](manage-teams-in-modern-portal.md) oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Alle Funktionen und Benutzeroberflächen in Besprechungen, einschließlich der Clientkonfiguration für Teams und der [automatischen Konformität](teams-client-experience-and-conformance-to-coexistence-modes.md) der Benutzeroberfläche, des Migrations Diensts für Besprechungen und besserer Zusammenarbeit, werden konfiguriert, indem der Benutzer (oder die Gruppe von Benutzern oder Mandanten Standard) der [SfBWithTeamsCollabAndMeetings-Koexistenzmodus](setting-your-coexistence-and-upgrade-settings.md) entweder im [Microsoft Teams Admin Center](manage-teams-in-modern-portal.md) oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)gewährt wird.
 
 ![Screenshot der Administratoreinstellungen, um zuerst Besprechungen zu aktivieren](media/teams-meeting-admin-settings.png)
 

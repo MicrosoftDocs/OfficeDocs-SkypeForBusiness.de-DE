@@ -11,24 +11,26 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Informieren Sie sich über die Startphase der Einführung von Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 294b623a9487094607330382c1d2ec63056207f5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237941"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837775"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams-Einführungsphase 1 – Start
 
 Beginnen Sie mit der Einführung ihrer Teams mit den folgenden Aktivitäten:
 
-- Über [Prüfen der voraus](#validate-adoption-prerequisites)setzungen für die Einführung
+- Über [Prüfen der Voraussetzungen](#validate-adoption-prerequisites)für die Einführung
 - Stellen [Sie Ihr Team zusammen](#assemble-your-team).
 - [Verstehen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)
 - [Richten Sie Ihre ersten Teams in Teams ein](teams-adoption-your-first-teams.md) , um Ihr technisches Wissen zu erweitern.
@@ -38,7 +40,7 @@ Das Hauptziel dieser Phase besteht darin, ihre Bereitschaft zur Experimentierpha
 
 ## <a name="validate-adoption-prerequisites"></a>Überprüfen der Voraussetzungen für die Einführung
 
-Überprüfen Sie die Voraussetzungen für die [Einführung](teams-adoption-get-started.md#adoption-prerequisites) , und arbeiten Sie mit dem technischen Team zusammen, um Sie bei Bedarf zu erfüllen. In den einzelnen Szenarien für die Einführung werden wir auf tiefere technische Anforderungen eingehen.
+Überprüfen Sie die [Voraussetzungen](teams-adoption-get-started.md#adoption-prerequisites) für die Einführung, und arbeiten Sie mit dem technischen Team zusammen, um Sie bei Bedarf zu erfüllen. In den einzelnen Szenarien für die Einführung werden wir auf tiefere technische Anforderungen eingehen.
 
 ## <a name="assemble-your-team"></a>Zusammenstellen Ihres Teams
 

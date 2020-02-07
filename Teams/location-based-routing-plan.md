@@ -10,16 +10,18 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Erfahren Sie, wie Sie standortbasiertes Routing für das direkte Routing planen.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836545"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 

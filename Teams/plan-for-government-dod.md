@@ -10,17 +10,19 @@ audience: admin
 description: Leitfaden für IT-Experten zum Steuern von Office 365-Bereitstellungen in Entitäten, die Daten behandeln, die der US Government DoD-Verordnung unterliegen.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573295"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836855"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
@@ -29,7 +31,7 @@ Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365
 > [!NOTE]
 > Wenn Ihre Organisation die Berechtigungsanforderungen von Microsoft 365 Government – DoD bereits erfüllt und in das Programm übernommen und akzeptiert hat, können Sie die Schritte 1 und 2 überspringen und direkt zu Schritt 3 wechseln.
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Schritt 1. Ermitteln Sie, ob Ihre Organisation Microsoft 365 Government-DoD benötigt und die Anspruchsvoraussetzungen erfüllt. 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Schritt 1: Ermitteln Sie, ob Ihre Organisation Microsoft 365 Government-DoD benötigt und die Anspruchsvoraussetzungen erfüllt. 
 
 Die Microsoft 365 Government-DoD-Umgebung bietet Konformität mit den Anforderungen der US-Regierung für Cloud-Dienste. Neben den Features und Funktionen von Office 365 profitieren Organisationen von den folgenden Features, die für Microsoft 365 Government – DoD einzigartig sind:
 
@@ -54,12 +56,12 @@ Die [Office 365 US Government Service Description](https://docs.microsoft.com/en
 > [!Note]
 > Microsoft 365 Government-DoD steht nur in den Vereinigten Staaten zur Verfügung. Kunden außerhalb der US-Regierung können aus einer Reihe von [Office 365 Government-Plänen](https://products.office.com/en/government/compare-office-365-government-plans)wählen.
 
-## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Schritt 2. Bewerben für Microsoft 365 Government-DoD
+## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Schritt 2: Bewerben für Microsoft 365 Government-DoD
 
 Nachdem Sie entschieden haben, dass dieser Dienst für Ihre Organisation richtig ist, beginnen Sie mit dem Verfahren [zur Beantragung dieses Diensts](https://products.office.com/government/eligibility-validation).
 
 
-## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Schritt 3. Grundlegendes zu den Microsoft 365 Government-DoD-Standardsicherheitseinstellungen.
+## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Schritt 3: Grundlegendes zu den Microsoft 365 Government-DoD-Standardsicherheitseinstellungen.
 
 Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheitseinstellungen](enable-features-office-365.md) sorgfältig zu überprüfen, bevor Sie Sie ändern, und die Auswirkungen auf die Kompatibilität berücksichtigen, bevor Sie Änderungen an den Standardsicherheitseinstellungen vornehmen.
 
@@ -68,7 +70,7 @@ Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheits
 | ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardsicherheitseinstellungen für Microsoft 365 Government-DoD ändern müssen, um zunächst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Schritt 4. Grundlegendes zu den Teamfunktionen, die derzeit in Microsoft 365 Government-DoD verfügbar sind
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Schritt 4: Grundlegendes zu den Teamfunktionen, die derzeit in Microsoft 365 Government-DoD verfügbar sind
 
 Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen den Teams in Microsoft 365 Government-DoD und Teams in den Enterprise-Plänen. Informationen zu den verfügbaren Features finden Sie in der folgenden Tabelle.
 
@@ -125,7 +127,7 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 | | Automatische Telefonzentrale der Organisation | Auf dem Government-Rückstand |
 | | Support für Skype-Nutzer – Teams anrufen | Nicht verfügbar |
 | Dateien | Jüngsten | Verfügbar |
-| | Microsoft Teams | Verfügbar |
+| | Microsoft Teams | Verfügbar |
 | Speichern | App Store | Nicht verfügbar |
 | Suche | Meldungen | Verfügbar |
 | | Kontakte | Verfügbar |
@@ -141,7 +143,7 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 |-----------|------------|
 | ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob der Featuresatz für Teams die Anforderungen Ihrer Organisation erfüllt.</li></ul> |
 
-## <a name="step-5-plan-for-governance"></a>Schritt 5. Plan für Governance
+## <a name="step-5-plan-for-governance"></a>Schritt 5: Plan für Governance
 
 Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen können. Weitere Informationen finden Sie unter [Planen von Governance in Teams](plan-teams-governance.md) .
 
@@ -149,7 +151,7 @@ Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen könn
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Entscheidungspunkt |<ul><li>Ermitteln und dokumentieren Sie Ihre Governance-Anforderungen, und befolgen Sie die Richtlinien in [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
+## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6: Bereitstellen von Teams für die Zusammenarbeit
 
 Nachdem Sie die Microsoft 365 Government – DoD installiert haben, befolgen Sie den empfohlenen Bereitstellungspfad, der in [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md)beschrieben wird. Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-und Team-Champion beschäftigen.
 

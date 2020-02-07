@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Ermitteln Sie, ob Ihre Organisation für den Übergang zu Teams bereit ist.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da70e1207165a9034749382dbbf0ff4444bd9311
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242450"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837875"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
@@ -75,14 +77,14 @@ Jeder Ansatz der Organisation ändert sich je nach Region, Arbeitsstil, beruflic
 1. Welcher Prozentsatz der Benutzer fällt in die einzelnen Buckets? (*Widerstandsänderung*)
     - **Early Adopters**: fordern Sie die Lösung an, bevor Sie verfügbar ist.
     - **Informierte Benutzer**: Verwenden Sie die Lösung, nachdem ihr Wert bewiesen wurde.
-    - **** Dissenters: Drücken Sie auf jede Änderung zurück.
+    - **Dissenters**: Drücken Sie auf jede Änderung zurück.
     
    > [!TIP]
    > Frühe Anwender machen tolle Pilottester und Peer-Champions. Benutzer, die mit der Einführung neuer Tools langsam sind, benötigen zusätzliche Unterstützung und mehr Zeit zum Anpassen. 
 
 2. Was ist die Kompetenz der Benutzer für Änderungen? (*Schulung*)
     - Für **Selbststarter** ist nur ein Link zu einem Video erforderlich.
-    - **Team** -Builder sind mit Gruppenschulungen bestens geeignet.
+    - **Team-Builder** sind mit Gruppenschulungen bestens geeignet.
     - **Einzel Lernende** benötigen persönliche Unterstützung.
 
     > [!TIP]

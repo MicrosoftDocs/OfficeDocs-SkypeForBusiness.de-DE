@@ -10,15 +10,17 @@ ms.reviewer: rowille
 audience: admin
 description: Folgen Sie den Kernaufgaben und Aktivitäten in dieser Checkliste, wenn Sie Teams konfigurieren.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6f0f3482258af46b049f22af73e0efe4bc463a6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba9a3233ac762c28904b44275a8b653c56bf918a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567922"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835985"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Konfigurieren der Kernfunktionen von Microsoft Teams
 
@@ -33,4 +35,4 @@ ms.locfileid: "37567922"
 | 7  | Konfigurieren von Exchange für die SMTP-Domäne "Teams" | Teams verwendet Exchange Online zum Senden von Benachrichtigungen an Teammitglieder mithilfe der SMTP-Domäne – Email.Teams.Microsoft.com – Wenn Sie hinzugefügt oder entfernt wurden. <br/><br/>Stellen Sie sicher, dass diese SMTP-Domäne der Liste der akzeptierten Domänen in Ihrer Exchange-Infrastruktur hinzugefügt wird. | | [Hinzufügen der SMTP-Domäne von Microsoft Teams als akzeptierte Domäne in Exchange Online](smtp-accepted-domain.md) |
 | 8  | Konfigurieren und Verwalten des Benutzerzugriffs auf Teams | Obwohl wir dringend empfehlen, alle Benutzer für Teams zu aktivieren, können Sie den Zugriff auf Teams pro Benutzer zulassen oder verbieten, indem Sie die Produktlizenz für Teams zuweisen oder entfernen. | | [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md) |
 | 9  | Zuweisen von Lizenzen zu Benutzern | Zuweisen von Lizenzen zu Ihren Benutzern für Funktionen wie Audiokonferenzen, Telefon System und Anrufpläne | | [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](assign-teams-licenses.md)|
-| 10 | Optional: Verwenden von PowerShell zum Verwalten von Teams | Sie können anstelle des Microsoft 365 admin Centers PowerShell-Cmdlets verwenden, um die Einstellungen für Teams zu verwalten und zu verwalten. | | [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |
+| 10 | Optional: Verwenden von PowerShell zum Verwalten von Teams | Sie können anstelle des Microsoft 365 admin Centers PowerShell-Cmdlets verwenden, um die Einstellungen für Teams zu verwalten und zu verwalten. | | [PowerShell für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

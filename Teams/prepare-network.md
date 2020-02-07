@@ -13,14 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9013eb1048d022244166906edb1737b01757ed6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0d331a063feacbaea5cb510c316d2b27d982eb03
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567687"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834635"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -36,19 +38,19 @@ Microsoft Teams kombiniert drei Arten von Datenverkehr:
 Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt in Peer-zu-Peer-Szenarien direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
 
-Damit Sie die optimale Nutzung von Echt Zeit Medien in Microsoft Teams erzielen können, muss Ihr Netzwerk die Netzwerkanforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Damit Sie die optimale Nutzung von Echt Zeit Medien in Microsoft Teams erzielen können, muss Ihr Netzwerk die Netzwerkanforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Bei den beiden Definitions Netz Segmenten (Client zu Microsoft Edge und Customer Edge to Microsoft Edge) sollten die folgenden Empfehlungen berücksichtigt werden.
 
 
-|Wert  |Client zu Microsoft Edge  |Kunden-Edge zu Microsoft Edge  |
+|Wert  |Vom Client zum Edge von Microsoft  |Vom Kundenedge zum Edge von Microsoft  |
 |:--- |:--- |:--- |
-|**Latenz (eine Möglichkeit)**\*  |< 50ms          |< 30ms         |
+|**Latenz (unidirektional)** \*  |< 50ms          |< 30ms         |
 |**Latenz (RTT oder Round-Trip-Zeit)**\* |< 100M   |< 60ms |
-|**Burst-Paketverlust**    |<10% während eines 200M-Intervalls         |<1% während eines 200M-Intervalls         |
+|**Burstverlust von Paketen**    |<10% während eines 200M-Intervalls         |<1% während eines 200M-Intervalls         |
 |**Paketverlust**     |<1% in einem 15-minütigen Intervall          |<0,1% in einem 15-15-Intervall         |
 |**Paket Inter-arrival Jitter**    |<30ms während eines 15-15-Intervalls         |<15ms während eines 15-15-Intervalls         |
-|**Paket Reihenfolge**    |<0,05% Pakete außerhalb der Reihenfolge         |<0,01% Pakete außerhalb der Reihenfolge         |
+|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01 % Pakete in falscher Reihenfolge         |
 
 \*Bei den Metrikdaten für Latenzen wird davon ausgegangen, dass Ihre Unternehmenswebsite oder Ihre Websites und die Microsoft-Ränder auf demselben Kontinent sind.
 
@@ -60,7 +62,7 @@ Weitere Hilfe zur Vorbereitung Ihres Netzwerks für Teams finden Sie unter [Netw
 
 
 ## <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
-Microsoft Teams bietet Ihnen optimale Audio-, Video-und Inhaltsfreigabe Funktionen unabhängig von ihren Netzwerkbedingungen. Mit Variablen Codecs können Medien in Umgebungen mit begrenzter Bandbreite mit minimalen Auswirkungen ausgehandelt werden. Wenn die Bandbreite jedoch kein Problem darstellt, können die Erfahrungen für die Qualität optimiert werden, einschließlich einer Videoauflösung von bis zu 1080p, bis zu 30 bps für Video-und 15bps für Inhalte und HiFi-Audio.
+Microsoft Teams bietet unabhängig von Ihren Netzwerkbedingungen optimale Funktionen für Audio, Video und Inhaltsfreigabe. Mit variablen Codecs können Medien in Umgebungen mit eingeschränkter Bandbreite mit minimalen Auswirkungen ausgehandelt werden. Wenn hingegen die Bandbreite kein Problem darstellt, kann die Benutzererfahrung qualitativ optimiert werden, bis hin zu einer Videoauflösung von 1080p, 30 fps für Video und 15fps für Inhalte sowie HiFi-Audio.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
@@ -94,7 +96,7 @@ Stellen Sie sicher, dass alle Clientcomputer, auf denen der Team Client ausgefü
 
 Wenn mehrere Benutzer/Geräte über die Netzwerkadressübersetzung (NAT) oder die Port Address Translation (Pat) auf Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Nummer nicht überschreiten.
 
-Um dieses Risiko zu verringern, stellen Sie sicher, dass den NAT-Pools angemessene öffentliche IP-Adressen zugewiesen sind, um die Port Erschöpfung zu verhindern. Die Port Erschöpfung führt zu internen Endbenutzern und Geräten, die Probleme beim Herstellen einer Verbindung mit den Office 365-Diensten verursachen. Weitere Informationen finden Sie unter [NAT-Unterstützung mit Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+Um dieses Risiko zu verringern, stellen Sie sicher, dass den NAT-Pools angemessene öffentliche IP-Adressen zugewiesen sind, um die Port Erschöpfung zu verhindern. Portauslastung führt dazu, dass für interne Endbenutzer und Geräte Probleme beim Herstellen der Verbindung mit den Office 365-Diensten auftreten. Weitere Informationen finden Sie unter [NAT-Unterstützung für Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
 
 #### <a name="intrusion-detection-and-prevention-guidance"></a>**Leitfaden zur Intrusionserkennung und-Prävention**
 

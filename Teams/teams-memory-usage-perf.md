@@ -1,5 +1,5 @@
 ---
-title: Verwendung von Arbeitsspeicher durch Microsoft Teams
+title: Verwendung des Arbeitsspeichers durch Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836985"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Verwendung von Arbeitsspeicher durch Microsoft Teams
+# <a name="how-microsoft-teams-uses-memory"></a>Verwendung des Arbeitsspeichers durch Microsoft Teams
 
 Einige Microsoft Teams-Benutzer haben Fragen zur Verwendung von Arbeitsspeicher durch Teams. In diesem Artikel wird beschrieben, wie Arbeitsspeicher von Teams verwendet wird und warum die Team-Desktopanwendung (app) und die Teams-Web-App nicht verhindern, dass andere apps und Arbeitsauslastungen auf demselben Computer genügend Arbeitsspeicher aufweisen, um optimal ausgeführt zu werden. Teams ist für die Nutzung der modernen Web-Technologie konzipiert. Um dies zu erreichen, wurde der Desktop-Client von Teams auf Electron entwickelt, der Chrom für das Rendering verwendet. Dabei handelt es sich um das gleiche Rendering-Modul hinter vielen der heute beliebtesten Browser, einschließlich Edge und Chrome.
 

@@ -10,27 +10,29 @@ audience: admin
 description: Verwenden Sie diese Anleitung, um die Anforderungen zu erfahren, die erforderlich sind, um eine hochwertige Microsoft Teams-Bereitstellung zu gewährleisten.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b4d9f5033e0a3fb0446709438e670f6f9408de3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b1f737386d652e4fdbc027cf814ba838c8275d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236506"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836147"
 ---
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
-Dieser Artikel ist Teil der technischen Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur Benutzer Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
-- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
@@ -64,7 +66,7 @@ Es gibt bestimmte Anforderungen für die Bereitstellung, die für eine hervorrag
 
 Eine Organisation oder ein unterstützender Partner sollte während der technischen Bereitschaftsphase einer Teams-Bereitstellung mit der Planung von drei wichtigen Komponenten beginnen: Dienstverwaltung, Netzwerk und Endpunkte. Die Kombination aller drei Bereiche bildet die Grundlage der Qualität der Benutzerfreundlichkeit.
 
-![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt.")
 
 #### <a name="service-management"></a>Dienstverwaltung
 
@@ -102,7 +104,7 @@ Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich k
 
 Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Wie bereits beschrieben fallen einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist. Im Mittelpunkt dieses Abschnitts des Dokuments steht die Zuständigkeit des Kunden aus der Perspektive der Dienstverwaltung.
 
-![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit dem Schwerpunkt auf Service Management.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit dem Schwerpunkt auf Service Management.")
 
 ### <a name="introduction-to-the-operations-guide"></a>Einführung in das Betriebshandbuch
 
@@ -132,7 +134,7 @@ Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuc
 
 Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten zum Bewerten und Bereitstellen von Verbesserungsanleitungen in wichtigen Bereichen, die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben (siehe folgende Abbildung).
 
-Diagramm zur Veranschaulichung von Bereichen, die ![während der Beurteilung der Qualität überprüft] wurden (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Ein Diagramm, das die wichtigsten Bereiche veranschaulicht, die während einer Überprüfung der Qualitätsüberprüfung untersucht werden.")
+![Diagramm zur Veranschaulichung von Bereichen, die während der Beurteilung der Qualität überprüft wurden](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Ein Diagramm, das die wichtigsten Bereiche veranschaulicht, die während einer Überprüfung der Qualitätsüberprüfung untersucht werden.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
@@ -158,7 +160,7 @@ Das Handbuch für die Überprüfung der Erlebnisqualität finden Sie [hier](http
 
 Die Planung der Netzwerkqualität steht im Mittelpunkt des folgenden Abschnitts.
 
-![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
 
 Wie bereits erwähnt muss die Netzwerkqualität unbedingt vor dem Onboarding in Microsoft Teams geplant werden. Weitere Anleitungen zur Netzwerkvorbereitung finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md).
 
@@ -273,7 +275,7 @@ Die Netzwerkbewertung kann mit Unterstützung eines Microsoft-Partners, mit Drit
 
 Wie Sie im folgenden Diagramm sehen, stellen Endpunkte einen wichtigen Baustein einer Bereitstellung von hoher Qualität für die Benutzer bereit.
 
-![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
 Microsoft Teams-Endpunkte können auf vielen Geräten ausgeführt werden, beispielsweise auf PCs, Macs, Tablets und mobilen Geräten. Für die Benutzerfreundlichkeit spielt nicht nur das Gerät eine Rolle, sondern auch, wie Benutzer eine Verbindung mit dem Gerät herstellen – beispielsweise mithilfe des in das Gerät integrierten Mikros und Lautsprechers, über Ohrhörer oder über ein optimiertes Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 
@@ -350,7 +352,7 @@ Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links z
 | | Optimieren von WLAN-Netzwerken für Echtzeitmedien | Zurateziehen von Drittanbietern |
 | | Implementieren eines lokalen Internetausgangs | [Lokaler Internetausgang](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implementieren der Netzwerkkonnektivität <br/> Überprüfen der Netzwerkverbindung | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
-| | Ausführen einer Netzwerkbewertung |[Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885)  |
+| | Ausführen einer Netzwerkbewertung |[Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885)  |
 | Planen der Endpunktqualität | Aktualisieren der Endpunktfirewalls | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
 | | Validieren der Softwareanforderungen | [Clients für Microsoft Teams abrufen](get-clients.md) |
 | | Implementieren der WLAN-Empfehlungen für Endpunkte | Zurateziehen von Drittanbietern |

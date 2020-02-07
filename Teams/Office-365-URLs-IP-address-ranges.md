@@ -11,17 +11,19 @@ ms.service: msteams
 description: Hier erfahren Sie, wie Sie URLs und IP-Adressen von Office 365 ordnungsgemäß konfigurieren und den Weiterleitungsproxy umgehen, wenn dieser für Verbindungen mit dem Microsoft Teams-Dienst verfügbar ist. Zudem werden Sie über die Anforderungen für Netzwerk- und Sicherheitsrichtlinien informiert.
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.meetingsettings.network.ports
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.meetingsettings.network.ports
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ccecd9faf9bb023ba80c01783c24a95c44e586f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695670"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834385"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche von Office 365
 =====================================

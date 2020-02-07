@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online-Ruhestand
+title: Einstellung von Skype for Business Online
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849840"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837945"
 ---
-# <a name="skype-for-business-online-retirement"></a>Skype for Business Online-Ruhestand
+# <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
 Skype for Business Online wird am 31. Juli 2021 eingestellt. In diesem Artikel finden Sie Details zum Pensionsplan, eine kurze Erläuterung, warum wir diese Ankündigung jetzt machen, und eine Zusammenfassung dessen, was wir tun, um Kunden zu helfen, zu Teams zu migrieren.
  
@@ -45,6 +47,6 @@ Zunächst nehmen wir Produktinvestitionen vor, um Funktionsanforderungen von akt
 - **Teams und Skype-Consumer-Interop**. Durch die Interoperabilität zwischen Teams und Skype Consumer können die Benutzer der beiden Dienste sowohl über Chat als auch über Anrufe kommunizieren.  Teams und Skype-Consumer-Interop werden in Teams im ersten Quartal des Kalenderjahrs 2020 zur Verfügung stehen.
 - **Integration und Konformitäts Aufzeichnung in Contact Center**. Bei INSPIRE haben wir diesen Monat Anfang des Monats Team Partnerschaften mit Five9, Genesys und Nizza angekündigt, um Contact Center-Lösungen zu ermöglichen – und mit ASC, Nice und Verint, um Compliance-Aufnahmen bereitzustellen.   Wir arbeiten auch mit anderen Skype for Business Online Certified-Partnern zusammen, um andere Contact Center-und Compliance-Aufzeichnungslösungen für Teams in den Markt zu bringen.
  
-Und wenn Sie bereit für die ersten Schritte sind, bieten wir [umfassende technische Anleitungen und Planungsressourcen](https://aka.ms/SkypeToTeams), darunter ein bewährtes Erfolgs Framework, bewährte Methoden, Planungsdokumente, [﻿Kostenlose Schulungskurse für Kursleiter](instructor-led-training-teams-landing-page.md)und [schneller ](https://www.microsoft.com/FastTrack)Onboarding-Unterstützung für berechtigte Abonnements.
+Und wenn Sie bereit für die ersten Schritte sind, bieten wir [ein umfassendes Angebot an technischen Anleitungen und Planungsressourcen](https://aka.ms/SkypeToTeams), einschließlich eines bewährten Erfolgs Frameworks, bewährter Methoden, Planungsdokumente, [kostenloser Schulung durch Schulungsleiter](instructor-led-training-teams-landing-page.md) [und schneller](https://www.microsoft.com/FastTrack) Onboarding-Unterstützung für berechtigte Abonnements.
  
 Seit seiner Einführung in 2014 ist Skype for Business ein wertvolles Tool für Millionen von Menschen auf der ganzen Welt.  Durch die Kombination von Instant Messaging, anrufen und Video zu einer einzigen APP hat das Produkt eine spannende, neue Vision für geschäftliche Kommunikation geschaffen. Microsoft Teams ist das nächste Kapitel dieser Vision, und mit den heutigen Nachrichten kündigen wir nicht nur den Ruhestand des Skype for Business Online-Diensts an, sondern vermitteln auch unser Vertrauen in Teams.  Nach mehr als zwei Jahren im Markt sind Teams für unsere anspruchsvollsten Kunden bereit – und wir sind überzeugt, dass Sie es lieben werden!  Wenn Sie ein aktueller Skype for Business Online-Kunde sind, beginnen Sie noch heute mit der Planung Ihrer Migration.  Wir sind bestrebt, Ihnen bei jedem Schritt des Weges zu helfen, und wir können nicht warten, bis Sie die neue Arbeitsweise erfahren. 

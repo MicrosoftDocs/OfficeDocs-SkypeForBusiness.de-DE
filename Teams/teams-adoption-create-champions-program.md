@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Hier erfahren Sie, wie Sie ein Team von Champions trainieren, um die Einführung von Teams zu fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac587cc8b7a1dd23911301f10edd76b60f456686
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 208156a272b8ef023b769b1443c7607b07cc44d5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242479"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837865"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 
