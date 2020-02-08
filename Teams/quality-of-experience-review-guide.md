@@ -1,11 +1,11 @@
 ---
 title: Leitfaden zur Überprüfung der Qualität der Umgebung für Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: Leitfaden zur Analyse der Echt Zeit Medien Leistung für Microsoft Teams mithilfe des Anruf Qualitäts Dashboards (CQD).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838255"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863396"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -1141,8 +1141,6 @@ Wir [empfehlen](proxy-servers-for-skype-for-business-online.md) , dass Sie immer
 Die häufigste Ursache für die HTTP-Nutzung sind fehlende Ausnahmeregeln in Proxys. Wenn Sie das bereitgestellte Gebäude oder Subnetz verwenden, können Sie schnell ermitteln, welcher Proxy für die medienumgehung konfiguriert werden muss.
 
 Überprüfen Sie, ob die erforderlichen [Office 365-FQDNs](https://aka.ms/o365ips) in Ihrem Proxy whitelisted sind.
-
-Weitere Informationen zum Verwenden von Proxys mit Skype for Business Online und Teams finden Sie in [diesem Artikel](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Endpunkt Ermittlungen
 

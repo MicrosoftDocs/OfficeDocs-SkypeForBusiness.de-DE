@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832795"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862986"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -127,7 +127,7 @@ Die folgenden Ressourcen sollten ausgefüllt und im Präsentations Stapel für d
 
         -   Ermitteln Sie die nächsten Schritte, und welche Hilfe von den Mitgliedern des Ausschusses benötigt werden kann.
 
--   Qualitäts Übersicht: Verwenden von Berichten des [Quality Champion](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
+-   Qualitäts Übersicht: Verwenden Sie Anleitungen von [Vorbereiten Ihres Netzwerks für Teams](prepare-network.md).
 
     -   Seien Sie bereit, die Ergebnisse dieser Qualitätsberichte ausführlich zu erläutern, und geben Sie Empfehlungen zur Behebung etwaiger aufgetretener Probleme.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837145"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863516"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
@@ -345,7 +345,7 @@ Wenn Sie Ihrer Organisation NPS-Umfragen zur Verfügung stellen möchten, könne
 
 ## <a name="manage-network-quality"></a>Verwalten der Netzwerkqualität
 
-Viele grundlegende Planungselemente gehen in die Optimierung, die richtige Größenanpassung und die Remediation Ihrer Netzwerkinfrastruktur ein, um einen qualitativ hochwertigen, effizienten Pfad zum Microsoft Teams-Dienst zu gewährleisten. Die Planungsaufgaben und-Anforderungen werden in unserer [Netzwerk Readiness](upgrade-prepare-environment-prepare-network.md) -Anleitung behandelt. Netzwerke entwickeln sich im Laufe der Zeit aufgrund von Upgrades, Erweiterungen oder anderen geschäftlichen Anforderungen oft weiter. Es ist wichtig, dass Sie Ihre Anforderungen für Teams in Ihren Netzwerk Planungsaktivitäten berücksichtigen.
+Viele grundlegende Planungselemente gehen in die Optimierung, die richtige Größenanpassung und die Remediation Ihrer Netzwerkinfrastruktur ein, um einen qualitativ hochwertigen, effizienten Pfad zum Microsoft Teams-Dienst zu gewährleisten. Die Planungsaufgaben und-Anforderungen werden in unserer [Netzwerk Readiness](prepare-network.md) -Anleitung behandelt. Netzwerke entwickeln sich im Laufe der Zeit aufgrund von Upgrades, Erweiterungen oder anderen geschäftlichen Anforderungen oft weiter. Es ist wichtig, dass Sie Ihre Anforderungen für Teams in Ihren Netzwerk Planungsaktivitäten berücksichtigen.
 
 Obwohl die Netzwerkplanung ein kritischer Aspekt einer Teams-Bereitstellung ist, ist es gleichermaßen wichtig, sicherzustellen, dass das Netzwerk weiterhin fehlerfrei bleibt und auf der Grundlage geänderter geschäftlicher oder technischer Anforderungen aktuell bleibt.
 
@@ -431,7 +431,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 
 1. Über **prüfen des Dienststatus:** Das Problem, das ein Benutzer möglicherweise aufweist, kann sich auf ein Ereignis beziehen, das sich negativ auf den Teams-Dienst oder itsdependent-Dienste auswirkt. Als ersten Schritt empfehlen wir, dass Sie bestätigen, dass es keine aktiven Dienst Probleme gibt. Informieren [Sie sich, wie Sie den Office 365-Dienststatus überprüfen können](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, [Überwachen des Dienststatus](#monitor-service-health), ausführlicher erläutert.
 
-2. Über **Prüfen der Clientkonnektivität:** Verbindungsprobleme führen zu Funktions-oder Anmeldeproblemen in Teams. Wir empfehlen (insbesondere für neue Websites oder Standorte), dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgenden [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jede Website befolgt werden. Sie können das Tool für die [Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) nutzen, um einen Verbindungstest durchzuführen, um zu überprüfen, ob die Medienanschlüsse für die Teamfunktionen ordnungsgemäß geöffnet wurden. Detaillierte Anweisungen zum Ausführen der Verbindungstests finden Sie im [Netzwerk Readiness](upgrade-prepare-environment-prepare-network.md) -Leitfaden.
+2. Über **Prüfen der Clientkonnektivität:** Verbindungsprobleme führen zu Funktions-oder Anmeldeproblemen in Teams. Wir empfehlen (insbesondere für neue Websites oder Standorte), dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgenden [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jede Website befolgt werden. Sie können das Tool für die [Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) nutzen, um einen Verbindungstest durchzuführen, um zu überprüfen, ob die Medienanschlüsse für die Teamfunktionen ordnungsgemäß geöffnet wurden. Detaillierte Anweisungen zum Ausführen der Verbindungstests finden Sie im [Netzwerk Readiness](prepare-network.md) -Leitfaden.
 
 3. **Überprüfen Sie die Liste bekannte Probleme:** Konsultieren Sie die [Liste der bekannten Probleme für Teams](known-issues.md) , um festzustellen, ob der Benutzer von einem dieser Probleme negativ beeinflusst wurde. Befolgen Sie die Problemumgehung (sofern vorhanden), um das Problem zu beheben.
 

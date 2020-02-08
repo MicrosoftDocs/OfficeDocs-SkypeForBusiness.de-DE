@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825153"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862715"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -36,7 +36,7 @@ Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des
 Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Vermutlich haben Sie bereits Prozesse und Tasks implementiert, die mit vorhandenen Diensten verknüpft sind. Wahrscheinlich können Sie auf Vorhandenem aufbauen, wenn Sie jetzt die Dienstverwaltung für die zukünftige Unterstützung von Microsoft Teams planen.
 
 Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) fallen unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist.
-Eine umfassende Erläuterung der Zuständigkeit des Kunden für die Verwaltung des Microsoft Teams-Diensts im Hinblick auf die für die Benutzerfreundlichkeit maßgeblichen wichtigen Komponenten finden Sie unter [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Eine umfassende Erläuterung der Zuständigkeit des Kunden für die Verwaltung des Microsoft Teams-Diensts im Hinblick auf die für die Benutzerfreundlichkeit maßgeblichen wichtigen Komponenten finden Sie unter [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 ![Diagramm der drei Komponenten der Qualität](media/plan-my-service-management-image1.png "Diagramm der drei Komponenten von Quality – Office 365-Dienst,-Netzwerk und-Endpunkte – und wie sich das Service Management auf alle drei überlappt.")
 

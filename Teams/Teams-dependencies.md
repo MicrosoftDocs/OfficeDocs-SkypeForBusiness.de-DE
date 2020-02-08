@@ -13,15 +13,17 @@ ms.collection:
 ms.reviewer: sbhatta
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d37ed8412e30c20d676c29507451500e5f0c9d2
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834805"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================

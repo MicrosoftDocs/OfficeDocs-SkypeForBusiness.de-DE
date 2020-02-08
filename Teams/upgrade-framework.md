@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837185"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863526"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
@@ -68,7 +68,7 @@ Um zu veranschaulichen, wie sich die Upgrade-Reise entwickeln kann, haben wir un
 | Schritt |  | Zusammenfassung | Ressourcen |
 |------|--|---------|----------|
 | **1** | **Bewerten Ihrer Umgebung und vollständiges technisches Onboarding von Teams** | Stellen Sie sicher, dass Ihre Umgebung für Teams bereit ist, um die Benutzerfreundlichkeit zu verbessern und Ihr Upgrade über einen Zeitraum zu erleichtern. | [Bewerten Sie Ihre Umgebung, bevor Sie auf Teams aktualisieren](upgrade-plan-journey-evaluate-environment.md).<br><br> [Vorbereiten Ihres Diensts für das Upgrade auf Teams](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Optimieren von Netzwerk für Teams, insbesondere für echt Zeit Medien Szenarien** | Wenn Sie Audio, Video oder Besprechungen bereitstellen, führen Sie die folgenden zusätzlichen Schritte aus, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **Optimieren von Netzwerk für Teams, insbesondere für echt Zeit Medien Szenarien** | Wenn Sie Audio, Video oder Besprechungen bereitstellen, führen Sie die folgenden zusätzlichen Schritte aus, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams](prepare-network.md) |
 | **3** | **Bewerten der organisatorischen Änderungsbereitschaft und Definieren von Teamwork-Szenarien** | Verstehen Sie Ihre Nutzerbasis, um den richtigen Wert für Messaging und Bildungsniveau vorzubereiten, um die Benutzerakzeptanz zu erleichtern und zu beschleunigen. | [Bereitschaft zur organisatorischen Änderung](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **Bereiten Sie einen Benutzer Bereitschaftsplan vor, um zu definieren, wie Sie Benutzer kommunizieren, Schulen und unterstützen können.** | Personalisieren Sie Ihre Kommunikations-, Schulungs-und Support Pläne, um eine optimale Empfänglichkeit für die neue Technologie zu gewährleisten. | [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)<br><br>[Update Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Ankündigen der bevorstehenden Einführung von Microsoft Teams** | Frühzeitige Kommunikation, um die Benutzer in den Genuss einzubeziehen, Verwirrung zu reduzieren und Begeisterung zu wecken. | [Update Success Kit](https://aka.ms/UpgradeSuccessKit) |

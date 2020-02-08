@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569232"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827623"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -38,7 +40,7 @@ Der Inhalt dieses Abschnitts basiert auf den grundlegenden Funktionen von Teams 
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams verfügt nun über eine speziell für Gesundheitsorganisationen spezifische Pflege Koordinierungs Lösung, die Ihnen hilft, die beste Patientenversorgung zu gewährleisten. Der Kern der Lösung zur Pflege Koordination, der Microsoft Teams patients-APP, ist eine APP des First-Party-Tabs, die mit einer schnellen Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/))-Schnittstelle integriert wird, um wertvolle medizinische Informationen in Microsoft Teams im Kontext, um die klinische Zusammenarbeit und Kommunikation zu ermöglichen.  
+Microsoft Teams verfügt nun über eine speziell für Gesundheitsorganisationen spezifische Pflege Koordinierungs Lösung, die Ihnen hilft, die beste Patientenversorgung zu gewährleisten. Der Kern der Lösung zur Pflege Koordination, der Microsoft Teams patients-APP, ist eine APP des First-Party-Tabs, die mit einer schnellen Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/))-Schnittstelle integriert wird, die in das System der elektronischen Krankenakte (EPA) integriert ist, um wertvolle medizinische Informationen in Microsoft Teams zusammenzubringen, um die klinische Zusammenarbeit und Kommunikation zu ermöglichen.  
 
 Die Lösung zur Pflege Koordination kann mit führenden unabhängigen Software Anbietern (Independent Software Vendors, ISVs) verbunden werden, die die Patienten-App mithilfe vorhandener Integritätsdaten Standards wie HL7v2 und FHIR mit ihren EPA-Systemen verbinden können. Microsoft-Partner mit den folgenden Branchenführern zur Einrichtung elektronischer Integritätsdaten Satz Integration in Teams:
 

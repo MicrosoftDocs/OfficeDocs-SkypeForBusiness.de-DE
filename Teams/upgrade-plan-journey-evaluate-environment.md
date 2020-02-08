@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837128"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863486"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
@@ -196,4 +196,4 @@ Erfassen Sie mithilfe der folgenden Tabelle den aktuellen Status der Einführung
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Nächster Schritt</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Umgebungs Bewertung.</li></ul></td></tr>
 </table>
 
-Nachdem Sie Ihre Umgebung ausgewertet haben, fahren Sie mit dem nächsten Schritt fort: [Vorbereiten Ihres Netzwerks](upgrade-prepare-environment-prepare-network.md).
+Nachdem Sie Ihre Umgebung ausgewertet haben, fahren Sie mit dem nächsten Schritt fort: [Vorbereiten Ihres Netzwerks](prepare-network.md).

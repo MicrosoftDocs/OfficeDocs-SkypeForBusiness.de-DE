@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 418496b5dd86fb9720393721854c0fcf68daf52a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825143"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862825"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -37,7 +37,7 @@ Die folgenden Checklisten führen Sie durch die Schritte zum Implementieren von 
 
 *  [Konfigurieren der Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Netzwerk konfigurieren](onboarding-checklist-configure-networking.md)
+*  [Vorbereiten des Netzwerks Ihrer Organisation](prepare-network.md)
 
 *  [Konfigurieren von Cloud-sprach Auslastungen in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

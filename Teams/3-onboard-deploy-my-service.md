@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Laden Sie das Textbuch zur Website Aktivierung herunter, um den Rollout ihrer Teams zu planen und die Benutzerakzeptanz, die Wahrnehmung von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516000"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862815"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
@@ -42,7 +44,7 @@ Durch Abschluss der Aktivitäten in diesem Textbuch kann Ihre Organisation:
 -   Verringern Sie den Supportbedarf, und erhöhen Sie die Benutzerzufriedenheit.
 
 > [!NOTE]
-> In diesem Artikel und dem dazugehörigen Textbuch sollen nicht alle technischen Konfigurationsschritte beschrieben werden, die für die Dienstaktivierung oder die Bereitstellung von Wählton für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren Sie sich auf die Aktivitäten und Aufgaben, die für Onboard-Benutzer empfohlen werden, und Sie können die Arbeitsauslastung von Teams über einen schnellen und reibungslosen Übergang mit hoher Akzeptanzrate unter minimieren, während die Supportanforderungen minimiert werden. Technische Anleitungen zur optimalen Konfiguration Ihrer Umgebung für Voices für Teams finden Sie in den Checklisten für das [Konfigurieren von Teams-sprach Auslastungen](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [Netzwerk für Teams](onboarding-checklist-configure-networking.md)und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
+> In diesem Artikel und dem dazugehörigen Textbuch sollen nicht alle technischen Konfigurationsschritte beschrieben werden, die für die Dienstaktivierung oder die Bereitstellung von Wählton für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren Sie sich auf die Aktivitäten und Aufgaben, die für Onboard-Benutzer empfohlen werden, und Sie können die Arbeitsauslastung von Teams über einen schnellen und reibungslosen Übergang mit hoher Akzeptanzrate unter minimieren, während die Supportanforderungen minimiert werden. Technische Anleitungen zur optimalen Konfiguration Ihrer Umgebung für Teams-VoIP finden Sie in den Checklisten für das Konfigurieren von [Teams-sprach Auslastungen](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Team-Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [Netzwerk für Teams](prepare-network.md)und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ Der Schwerpunkt des Textbuch liegt darin, die Faktoren zu berücksichtigen, die 
 
 Das Textbuch [für die Website Aktivierung (Manuskript)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) ist eine Microsoft Excel-Arbeitsmappe. Jeder dieser fünf Fokusbereiche ist ein separates Blatt in der Arbeitsmappe, und alle Bereitstellungsaufgaben und-Aktivitäten sind auf einem dieser Blätter gruppiert.
 
-Screenshot des Textbuch-(media/deploy-my-service-image1.png "Screenshots") der ![Website Aktivierung]
+![Screenshot des Textbuch zur Website Aktivierung](media/deploy-my-service-image1.png "Screenshot des Manuskripts")
 
 > [!NOTE]
 > Sie erstellen eine separate Instanz des Textbuch für jede Website im Bereich für das Rollout Ihres Teams.
@@ -84,7 +86,7 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
 
 4. Geben Sie den **Websitenamen, den Standortcode**und das **geplante Startdatum**ein, wie unten dargestellt. Dies ist ein entscheidender Schritt, da er die empfohlenen Stichtage für jede Aktivität im Textbuch anpasst.
 
-   ![Beispiel mit dem Websitenamen, dem Website Code und dem geplanten Startdatums](media/deploy-my-service-image2.png "Beispiel mit dem Websitenamen von New York, dem Website Code NY01 und dem geplanten Startdatum von 20-Mrz-18")
+   ![Beispiel mit dem Websitenamen, dem Website Code und dem geplanten Startdatum](media/deploy-my-service-image2.png "Beispiel mit dem Websitenamen von New York, Website Code NY01 und geplantem Startdatum von 20-Mrz-18")
 
 5. Überprüfen Sie die einzelnen Aktivitäten, führen Sie die erforderlichen Aktionen aus, und aktualisieren Sie den Status, während Sie die Zeitachse durchlaufen. Der Status wird grafisch dargestellt, wie nachstehend beschrieben:
   
@@ -94,7 +96,7 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
 
 6. Der Status wird in jedem Abschnitt zusammengerollt, und die Abschnittsüberschrift wird mit einer dieser Statusindikatoren formatiert. Der **wöchentliche Status** wird ebenfalls automatisch aktualisiert.
 
-![Screenshot der wöchentlichen Status-Rollups im Manuskript]-(media/deploy-my-service-image6.png "Screenshot der wöchentlichen Status-Rollups im") Textbuch
+![Screenshot der wöchentlichen Status-Rollups im Textbuch](media/deploy-my-service-image6.png "Screenshot der wöchentlichen Status-Rollups im Textbuch")
 
 > [!TIP]
 > Wiederholen Sie die obigen Schritte für alle Speicherorte.

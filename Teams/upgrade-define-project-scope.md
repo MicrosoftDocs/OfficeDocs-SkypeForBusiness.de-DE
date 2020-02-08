@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Bereichern Sie Ihr Upgrade-Projekt, indem Sie Ihre Vision und ihre Ziele verfeinern.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f1fb718ae254f3239153acd5664c4e1709de40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236472"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837245"
 ---
-![Diagramm zum Upgrade von Routen, mit dem die Projekt Definitions Stufe markiert wird] (media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
+![Diagramm zum Upgrade von Routen, mit dem die Projekt Definitions Stufe markiert wird](media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
 Dieser Artikel ist Teil der Projekt Definitionsphase Ihres Upgrade-Vorgangs, eine Aktivität, die Sie nach dem Erstellen einer Sponsoring-Koalition und eines Projektteams von den von Ihnen festgelegten Stakeholdern abgeschlossen haben, ist der Schlüssel zum Erfolg Ihres Projekts. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
@@ -35,7 +37,7 @@ Wenn Sie sich Zeit für die Definition ihrer Projekt Vision, ihres Bereichs, ihr
 
 | | |
 |---|---|
-| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (also, warum tun Sie es)?</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken zu verringern?</li></ul> |
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (also, warum tun Sie es)?</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken zu verringern?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und den Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, ihren Umfang, ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie Ihr Projektteam erneut, um zu bestätigen, dass Sie das richtige Team aktiviert haben.</li></ul>|
 
 ## <a name="project-vision"></a>Projekt Vision
@@ -121,4 +123,4 @@ Als Referenzpunkt wird eine Beispiel Zeitachse für die Phasen Pre-Upgrade, Upgr
 
 Nachdem Sie die oben beschriebenen Aktivitäten abgeschlossen haben, sollten Sie über ein solides Fundament für Ihr Projekt verfügen. Fahren Sie mit den Planungsaktivitäten für [technische Bereitschaft](https://aka.ms/SkypeToTeams-TechnicalReadiness) und [organisatorische Bereitschaft](https://aka.ms/SkypeToTeams-UserReadiness) fort.
 
-Beachten Sie bitte: Skype for Business Online wird am 31. Juli 2021 eingestellt. Nach dieser Zeit ist der Skype for Business Online-Dienst nicht mehr verfügbar oder wird nicht mehr unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für das Upgrade hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen.
+Beachten Sie bitte: Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um die Leistung zu maximieren und sicherzustellen, dass Ihre Organisation die richtige Zeit für das Upgrade hat, empfehlen wir Ihnen, Ihre Reise zu Microsoft Teams heute zu beginnen.

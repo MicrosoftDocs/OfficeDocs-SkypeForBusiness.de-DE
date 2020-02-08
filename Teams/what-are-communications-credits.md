@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836735"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852122"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -52,7 +52,7 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
-Wenn Sie sich fragen, welche Kosten für die Anrufpläne anfallen, finden Sie Informationen zu den Tarifen für Guthaben für Kommunikationen unter [Anrufpläne](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
+Wenn Sie sich Fragen, wie sich die Kosten für die Anrufe auf die Anrufpläne auszahlen, lesen Sie Gebühren für Kommunikations Kredite [für Anruf](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) Pläne (Scrollen Sie nach unten bis zu "siehe Gebühren für den Ort, an den Sie anrufen möchten").
   
 ## <a name="what-is-it"></a>Was ist das?
 
@@ -70,7 +70,7 @@ Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung*
   
 In den **Microsoft 365 Admin Center** > -**Abrechnungs** > **Abonnements**können Sie jederzeit Guthaben manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
   
-## <a name="communications-credits"></a>Kommunikationsguthaben
+## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
 In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Skype for Business bereits als Ihren Dienstanbieter verwenden, können Sie Nutzungsdaten abrufen, indem Sie es in den **Microsoft 365 Admin Center** > -**Berichten** oder im **Skype for Business Admin Center** > **Berichte** > **über die PSTN-Nutzungsdetails über**prüfen.
   

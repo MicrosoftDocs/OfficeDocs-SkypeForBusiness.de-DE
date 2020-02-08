@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
-ms.openlocfilehash: 3c33e6e9fc6e5d0eed0a05df08a2bfaf06d16083
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8d84eff275f65dde3ea9f27c45f15e3299e8e7ee
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683948"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853590"
 ---
 # <a name="availability-in-dominica"></a>Verfügbarkeit in Dominica
 
@@ -61,8 +61,10 @@ Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Tea
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> | Nein <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> | Nicht zutreffend<br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> | Nicht anwendbar<br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+
+Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

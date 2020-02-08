@@ -1,4 +1,4 @@
-In diesem Artikel wird eine kurze Version beschrieben, wie die Bandbreite von Teams in Echtzeit-Audio-, Video-und Desktopfreigabe Modalitäten in verschiedenen Anwendungsfällen genutzt wird. Teams sind stets konservativ bei der Bandbreitennutzung und können HD-Videoqualität in weniger als 1,2 Mbit/s erreichen. Der tatsächliche Bandbreitenverbrauch in jedem Audio/Video-Anruf oder jeder Besprechung hängt von mehreren Faktoren ab, wie Video Layout, Videoauflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite zur Verfügung steht, erhöhen sich die Qualität und die Nutzung, um optimale Ergebnisse zu erzielen.
+In dieser Tabelle wird beschrieben, wie Teams Bandbreite verwendet. Teams sind stets konservativ bei der Bandbreitennutzung und können HD-Videoqualität in weniger als 1,2 Mbit/s erreichen. Der tatsächliche Bandbreitenverbrauch in jedem Audio/Video-Anruf oder jeder Besprechung hängt von mehreren Faktoren ab, wie Video Layout, Videoauflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite zur Verfügung steht, erhöhen sich die Qualität und die Nutzung, um optimale Ergebnisse zu erzielen.
 
 
 |Bandbreite (nach oben/unten) |Szenarien |

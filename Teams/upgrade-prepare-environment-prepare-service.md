@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836115"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863446"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
@@ -46,7 +46,7 @@ Die folgenden Checklisten führen Sie durch die Schritte zum Bereitstellen von M
 
 - [Konfigurieren der Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [Netzwerk konfigurieren](onboarding-checklist-configure-networking.md)
+- [Vorbereiten des Netzwerks Ihrer Organisation](prepare-network.md)
 
 - [Konfigurieren von Cloud-sprach Auslastungen in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825963"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863346"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -45,7 +45,7 @@ Weitere Informationen zu diesen Abhängigkeiten finden Sie in den folgenden Link
 -   [Zertifikate](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tipp** : Wenn Sie beabsichtigen, Proxy Server für den Zugriff auf Microsoft Teams oder Skype for Business Online zu verwenden, [Lesen Sie diesen Artikel](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)zuerst. Beachten Sie, dass es bei Skype for Business-Datenverkehr über Proxy-Server empfehlenswert ist, Proxy Server komplett zu umgehen. Skype for Business-Datenverkehr ist bereits verschlüsselt, sodass Proxy Server ihn nicht sicherer machen. Im Rahmen ihrer umfassenderen Bereitstellung empfehlen wir, dass Sie die Anleitungen unter [evaluieren meiner Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für die Bandbreitenplanung befolgen und die Eignung Ihres Netzwerks für den Echtzeitverkehr bewerten.
+**Pro-Tipp** : Wenn Sie beabsichtigen, Proxy Server für den Zugriff auf Teams oder Skype for Business Online zu verwenden, [Lesen Sie diesen Artikel](../proxy-servers-for-skype-for-business-online.md)zuerst. Beachten Sie, dass es bei Skype for Business-Datenverkehr über Proxy-Server empfehlenswert ist, Proxy Server komplett zu umgehen. Skype for Business-Datenverkehr ist bereits verschlüsselt, sodass Proxy Server ihn nicht sicherer machen. Im Rahmen ihrer weiteren Bereitstellung empfehlen wir, dass Sie die Anleitungen in [Vorbereiten Ihres Netzwerks für Teams](../prepare-network.md) für die Bandbreitenplanung befolgen und die Eignung Ihres Netzwerks für den echtzeitdatenverkehr bewerten.
 
 |    |     |
 |-----------|------------|

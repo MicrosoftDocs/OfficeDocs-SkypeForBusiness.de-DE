@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837035"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862835"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -48,7 +48,6 @@ Wenn Sie in einem kleinen Unternehmen arbeiten, können Sie möglicherweise die 
 
 Bevor Sie beginnen, sollten Sie den Rollout Ihres Teams planen, indem Sie die folgenden Punkte prüfen:
 
-- [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 - [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 - [Informationen zu den Vorteilen der Installation von Desktop-, Web- und mobilen Clients erhalten](get-clients.md)
 
