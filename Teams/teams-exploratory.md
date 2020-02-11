@@ -16,19 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
+ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837685"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917020"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 =======================================================
 
 Die explorative Microsoft Teams-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (AAD) verfügen und nicht für Teams lizenziert sind, eine explorative Umgebung von Microsoft Teams zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wird jetzt als explorative Microsoft Teams-Umgebung bezeichnet.
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)] Diese Umgebung wird ab Mitte Januar 2020 verfügbar sein.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Was ist in der explorativen Microsoft Teams-Umgebung enthalten?
 
