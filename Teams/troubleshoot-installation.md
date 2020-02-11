@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Probleme mit der Installation und dem Update für die Desktop-Client-App für Teams unter Windows beheben können.
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837625"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888844"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen mit der Installation und dem Update von Microsoft Teams unter Windows
 
@@ -56,7 +56,7 @@ Wenn Teams erfolgreich installiert wurden, wechselt der Protokollspeicherort von
 
 Diese Protokolldateien enthalten personenbezogene Informationen (PII) und werden daher nicht an Microsoft gesendet.
 
-Teams können den Updateprozess automatisch starten (je nach Richtlinie), oder Benutzer können manuell nach Updates suchen, indem Sie zu Ihrem Profilbild wechseln #a0 nach **Updates**suchen. Beide Methoden verwenden die folgende Abfolge von Ereignissen.
+Teams können den Updateprozess automatisch starten (je nach Richtlinie), oder Benutzer können manuell nach Updates suchen, indem Sie zu Ihrem Profilbild wechseln > nach **Updates**suchen. Beide Methoden verwenden die folgende Abfolge von Ereignissen.
 
 1. **Auf Updates überprüfen**. Teams erstellt eine Webanforderung und enthält die aktuelle App-Version und Informationen zum Bereitstellungs Ring. Das Ziel dieses Schritts besteht darin, den Download-Link zu erhalten. Ein Fehler bei diesem Schritt wird in "Logs. txt" protokolliert.
 2. **Update herunterladen**. Teams downloadet das Update mithilfe des Download-Links, der in Schritt 1 abgerufen wurde. Wenn der Download abgeschlossen ist, ruft Teams Update. exe auf, um den Download zu inszenieren. Ein Downloadfehler wird auch in "Logs. txt" protokolliert.
@@ -77,36 +77,36 @@ In diesem Abschnitt wird beschrieben, wie Anwendungs-und Systemprotokolle gesamm
 
     1. Führen Sie die folgenden Schritte aus, um zu Ihrem temporären Ordner zu wechseln:
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. Kopieren Sie die Setup-und Anwendungsprotokolle. Beachten Sie, dass einige dieser Protokolle, abhängig vom Fehlerpunkt, möglicherweise nicht vorhanden sind.
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. Führen Sie die folgenden Schritte aus, um die geöffneten Handles zu erfassen.
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. Führen Sie die folgenden Schritte aus, um die geöffneten DLLs zu erfassen.
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. Führen Sie die folgenden Schritte aus, um die ausgeführten Treiber zu erfassen.
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. Führen Sie die folgenden Schritte aus, um die Zugriffssteuerungslisten (Access Control Lists, ACLs) des Ordners "Teams" zu erfassen.
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

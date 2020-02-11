@@ -15,12 +15,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die Desktopclientanwendung für Teams mit AppLocker-Anwendungssteuerungsrichtlinien aktivieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13a1afd4ad4089db3c6b0c1223bf06831d9be667
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826383"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888554"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>AppLocker-Anwendungssteuerungsrichtlinien in Microsoft Teams
 
@@ -40,9 +40,9 @@ Da die ausführbaren Dateien des Teams-Desktops digital signiert sind, identifiz
 
 ### <a name="example-of-publisher-condition-rules"></a>Beispiel für Herausgeber Konditions Regeln
 
-Für die Client-App "Teams" (alle Dateien, alle Versionen) fügen Sie den ausführbaren Regeln #a0 dll-Regeln Folgendes hinzu:
+Für die Client-App "Teams" (alle Dateien, alle Versionen) fügen Sie den ausführbaren Regeln & dll-Regeln Folgendes hinzu:
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE

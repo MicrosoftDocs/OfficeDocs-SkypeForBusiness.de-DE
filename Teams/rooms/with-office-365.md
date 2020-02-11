@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Office 365.
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827443"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888754"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
@@ -36,7 +36,7 @@ Damit Sie Skype for Business aktivieren können, müssen Sie über Folgendes ver
 
 - Skype for Business Online (Plan 2 oder ein Unternehmens basierter Plan) oder höher in Ihrem Office 365-Plan. Der Plan muss Funktionen für Einwahlkonferenzen zulassen.
 
-- Wenn Sie in einer Besprechung Einwahl Funktionen benötigen, benötigen Sie eine Audiokonferenz-und Telefon System Lizenz.  Wenn Sie aus einer Besprechung heraus Wählfunktionen benötigen, benötigen Sie einen Inlands-, Inlands-und Auslandsanruf Plan.
+- Wenn Sie in einer Besprechung Einwahl Funktionen benötigen, benötigen Sie eine Audiokonferenz-und Telefon System Lizenz.  Wenn Sie aus einer Besprechung heraus Wählfunktionen benötigen, benötigen Sie eine Audiokonferenz-Lizenz.
 
 - Ihre Mandanten Benutzer müssen über Exchange-Postfächer verfügen.
 

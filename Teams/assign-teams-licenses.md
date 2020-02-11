@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Hier erfahren Sie, wie Sie Lizenzen für Features wie Audio-Conferencing, Telefon System und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826313"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888684"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Zuweisen von Microsoft Teams-Lizenzen
 
@@ -58,7 +58,7 @@ In diesem Beispiel wird eine Enterprise E3-Lizenz zusammen mit einer Lizenz für
 
 Der Name der Lizenzen oder Produktnamen im Skript wird kursiv angezeigt (siehe [Telefon System-und Anrufplan-Produktnamen oder SKUs, die für die Skripterstellung verwendet](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)werden, nach dem Beispiel).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Für die Skripterstellung verwendete Produktnamen oder SKUs für Telefonsystem und Anrufplan
 
 | Produktname | SKU-Teilename |
@@ -101,11 +102,11 @@ for each ($user in $users)
 | Enterprise E3 | ENTERPRISEPACK | 
 | Enterprise E1 | STANDARDPACK | 
 | Telefonsystem | MCOEV |
-| Plan für Inlands #a0 Auslandsgespräche | MCOPSTN2 |
+| Plan für Inlands & Auslandsgespräche | MCOPSTN2 |
 | Plan für Inlandsanrufe (3000 Minuten pro Nutzer/Monat für US/PR/ca, 1200 Minuten pro Nutzer/Monat für EU-Länder) | MCOPSTN1 |
 | Plan für Inlandsanrufe (120 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN5 |
 | Plan für Inlandsanrufe (240 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN6 |
-| Kommunikationsguthaben | MCOPSTNPP | 
+| Guthaben für Kommunikationen | MCOPSTNPP | 
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audiokonferenz: Tipps und Skripts für das Zuweisen von Lizenzen
 
@@ -131,7 +132,7 @@ Der Name der Lizenzen oder Produktnamen im Skript wird kursiv angezeigt. Sehen S
 
 In diesem Beispiel wird eine Enterprise E3-Lizenz zusammen mit einer Lizenz für Audiokonferenzen zugewiesen.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Für die Skripterstellung verwendete Produktnamen oder SKUs für Audio-Konferenzen
 
 | Produktname | SKU-Teilename |

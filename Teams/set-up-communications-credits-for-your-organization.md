@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Hier erfahren Sie, wie Sie Abrechnungs Lizenzen für Kommunikations Kredite (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838025"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889414"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -58,9 +58,9 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](tea
 
 1. Anmelden beim neuen Office 365-Portal mit Ihrem Firmen-oder Schulkonto.
     
-2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Abrechnungs** > **Abonnements** > **Hinzufügen von Abonnements**.
+2. Wechseln Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Abrechnungs** > **Kauf-Services**. Scrollen Sie nach unten, und wählen Sie **Add-ons**aus.
 
-3. Erweitern **Sie Add-on-Abonnements**, und wählen Sie dann **Guthaben** > für Kommunikationen**Jetzt kaufen**aus.
+3. Wählen Sie **Kommunikationsguthaben**aus.
     
 4. Geben Sie auf der Seite **Communications Credits** -Abonnement Ihre Informationen ein, und klicken Sie dann auf **weiter**:
     
@@ -93,9 +93,9 @@ Wenn Sie Kommunikationsguthaben einrichten, müssen Sie die Anruf Nutzung für I
     
 2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste aus.
     
-3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
+3. Wählen Sie **Lizenzen und apps**aus.
     
-4. Aktivieren Sie auf der Seite **Produktlizenzen** das Kontrollkästchen **Guthaben für Kommunikationen** auf **Ein**, um diese Lizenz zuzuweisen, und klicken Sie dann auf **Speichern**.
+4. Schalten Sie die **Kommunikationsguthaben** auf **ein** , um diese Lizenz zuzuweisen, und wählen Sie dann **Speichern**aus.
     
     > [!NOTE]
     > Auch wenn Sie Benutzer haben, denen eine **Enterprise E5**-Lizenz zugewiesen ist, wird dies weiterhin empfohlen.

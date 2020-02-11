@@ -17,24 +17,24 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Vertraulichkeits Beschriftungen in Microsoft Teams definieren und verwenden.
-ms.openlocfilehash: 446bd222ce29ed627eb3229b244228665bbff6c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838115"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888734"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Vertraulichkeits Bezeichnungen für Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Mit [Vertraulichkeits Beschriftungen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) können Teams-Administratoren den Zugriff auf vertrauliche organisatorische Inhalte regulieren, die während der Zusammenarbeit in Teams erstellt wurden. Sie können Vertraulichkeits Bezeichnungen und die zugehörigen Richtlinien im [Security #a0 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)definieren. Diese Bezeichnungen und Richtlinien werden automatisch auf Teams in Ihrer Organisation angewendet.  
+Mit [Vertraulichkeits Beschriftungen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) können Teams-Administratoren den Zugriff auf vertrauliche organisatorische Inhalte regulieren, die während der Zusammenarbeit in Teams erstellt wurden. Sie können Vertraulichkeits Bezeichnungen und die zugehörigen Richtlinien im [Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)definieren. Diese Bezeichnungen und Richtlinien werden automatisch auf Teams in Ihrer Organisation angewendet.  
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Was ist der Unterschied zwischen Vertraulichkeits Beschriftungen und Klassifikations Etiketten für Teams?
 
 Vertraulichkeits Beschriftungen unterscheiden sich von Klassifizierungs Beschriftungen, die Sie mit PowerShell erstellen müssen. Klassifikations Beschriftungen sind Textzeichenfolgen, die einer Gruppe zugeordnet werden können, denen jedoch keine eigentlichen Richtlinien zugeordnet sind. Sie verwenden Klassifizierungs Beschriftungen als Metadaten, um Richtlinien mithilfe interner Tools und Skripts manuell durchzusetzen.
 
-Auf der anderen Seite werden die Vertraulichkeits Beschriftungen und ihre Richtlinien durch eine Kombination aus den Gruppen Plattform, Security #a0 Compliance Center und Teams Services automatisch durchgesetzt. Vertraulichkeits Beschriftungen bieten leistungsstarke Infrastrukturunterstützung zum Sichern vertraulicher Daten Ihrer Organisation.  
+Auf der anderen Seite werden die Vertraulichkeits Beschriftungen und ihre Richtlinien durch eine Kombination aus den Gruppen Plattform, Security & Compliance Center und Teams Services automatisch durchgesetzt. Vertraulichkeits Beschriftungen bieten leistungsstarke Infrastrukturunterstützung zum Sichern vertraulicher Daten Ihrer Organisation.  
 
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Erstellen, verwalten und Veröffentlichen von Vertraulichkeits Etiketten für Teams
 
@@ -45,7 +45,7 @@ Informationen zum Aktivieren, erstellen und Veröffentlichen von Vertraulichkeit
 
 **Erstellen und Veröffentlichen von Etiketten** <a name="createpublishlabels"></a>
 
-Wenn eine Beschriftung im Security #a0 Compliance Center erstellt und veröffentlicht wird, kann es bis zu 24 Stunden dauern, bis die Beschriftung auf der Benutzeroberfläche für die TEAMERSTELLUNG sichtbar wird. Führen Sie die folgenden Schritte aus, um die Bezeichnung für alle Benutzer im Mandanten zu veröffentlichen:
+Wenn eine Beschriftung im Security & Compliance Center erstellt und veröffentlicht wird, kann es bis zu 24 Stunden dauern, bis die Beschriftung auf der Benutzeroberfläche für die TEAMERSTELLUNG sichtbar wird. Führen Sie die folgenden Schritte aus, um die Bezeichnung für alle Benutzer im Mandanten zu veröffentlichen:
 1. Erstellen Sie die Beschriftung, und veröffentlichen Sie Sie für einige ausgewählte Benutzerkonten im Mandanten.
 2. Wenn die Beschriftung veröffentlicht wird, warten Sie 24 Stunden.
 3. Versuchen Sie nach 24 Stunden, ein Team mit dem Label zu erstellen, indem Sie eines der Benutzerkonten verwenden, die auf das Etikett zugreifen können.
@@ -68,9 +68,9 @@ Wenn die TEAMERSTELLUNG zu einem beliebigen Zeitpunkt während der öffentlichen
 
 Beachten Sie, dass die EnableMIPLabels-Einstellung wie folgt auf "false" festgelegt werden muss:
 
-```
+```console
 $setting["EnableMIPLabels"] = "False"
- ```
+```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>Verwenden von Vertraulichkeits Beschriftungen in Teams
 
@@ -80,7 +80,7 @@ Im folgenden finden Sie einige Beispielszenarien für die Verwendung von Vertrau
 
 Sie können eine Vertraulichkeits Beschriftung erstellen, die den Benutzern beim Anwenden während der Teamerstellung ermöglicht, Teams mit einer bestimmten Einstellung für Privatsphäre (öffentlich oder privat) zu erstellen.
 
-Beispielsweise erstellen Sie im Security #a0 Compliance Center ein Etikett mit dem Namen "vertraulich", und Sie konfigurieren Teams so, dass jedes Team, das mit diesem Label erstellt wurde, ein privates Team sein muss. Wenn ein Benutzer ein neues Team erstellt und das **vertrauliche** Etikett auswählt, ist die einzige Datenschutzoption, die dem Benutzer zur Verfügung steht, **Privat**. Andere Datenschutzoptionen wie Public und org-Wide sind für den Benutzer deaktiviert.
+Beispielsweise erstellen Sie im Security & Compliance Center ein Etikett mit dem Namen "vertraulich", und Sie konfigurieren Teams so, dass jedes Team, das mit diesem Label erstellt wurde, ein privates Team sein muss. Wenn ein Benutzer ein neues Team erstellt und das **vertrauliche** Etikett auswählt, ist die einzige Datenschutzoption, die dem Benutzer zur Verfügung steht, **Privat**. Andere Datenschutzoptionen wie Public und org-Wide sind für den Benutzer deaktiviert.
 
 ![Screenshot der vertraulichen Vertraulichkeits Kennzeichnung](media/sensitivity-labels-confidential-example.png)
 

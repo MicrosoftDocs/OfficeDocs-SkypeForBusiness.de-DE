@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Informationen dazu, wie Sie aus der Ansicht einer Skype for Business Online- und Teams-Konfiguration zu Direct Routing migrieren können.
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836055"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888584"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu Direct Routing
 
@@ -31,7 +31,7 @@ In diesem Artikel wird beschrieben, wie Sie aus der Ansicht einer Skype for Busi
 - Office 365 Telefonsystem mit lokaler Festnetzanbindung (PSTN) über den Skype for Business-Server (für Skype for Business Online)  
 - Office 365 Telefonsystem mit lokaler Festnetzanbindung (PSTN) mittels der Cloud Connector Edition (für Skype for Business Online)
 
-  
+
 Zusätzlich zu diesen Konfigurationsschritten ist auch die Konfiguration im Session Border Controller (SBC) erforderlich, um Anrufe auf die neue Verbindung umzuleiten. Dies ist nicht Inhalt dieses Dokuments. Weitere Informationen hierzu finden Sie in der Dokumentation Ihres SBC-Herstellers.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Endstatus der Benutzer-Bereitstellung für verschiedene Optionen von Festnetzanbindungen (PSTN-Konnektivität) 
@@ -55,7 +55,7 @@ OnPremLineURI |Nicht zutreffend|Die Telefonnummer muss aus dem lokalen AD synchr
 |TeamsCallingPolicy</br>AllowGroupCalling|Wahr|Nicht zutreffend|Nicht zutreffend|Wahr|
 ||||||
 
-<sup>1</sup>Die Wahl des richtigen Modus der TeamsUpgradePolicy hängt vom jeweiligen Szenario ab. Weitere Informationen zur Sprachqualität in verschiedenen Modi finden Sie unter [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> die Wahl des richtigen TeamsUpgradePolicy-Modus hängt vom jeweiligen Szenario ab. Weitere Informationen zur Sprachqualität in verschiedenen Modi finden Sie unter [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md).
 
 Als Teil dieser Bemühungen hat Microsoft kürzlich das „Microsoft Teams Admin Center“ (auch als „Modern Portal“ bezeichnet) aktualisiert, um das neue Verwaltungsmodell basierend auf koexistierenden Modi darzustellen. Im Modern Portal wird durch das Konfigurieren der TeamsUpgradePolicy jetzt automatisch auch die TeamsInteropPolicy auf den konstanten Wert gesetzt, so dass die TeamsInteropPolicy nicht mehr auf der Benutzeroberfläche angezeigt wird. Allerdings müssen Administratoren, die PowerShell verwenden, sowohl die TeamsUpgradePolicy als auch die TeamsInteropPolicy gemeinsam festlegen, um eine ordnungsgemäße Weiterleitung zu gewährleisten. Nach Abschluss des Übergangs zur TeamsUpgradePolicy ist es nicht mehr erforderlich, auch die TeamsInteropPolicy festzulegen.
 
@@ -72,7 +72,7 @@ Weitere Informationen zur Migration ausgehend von Anrufplänen finden Sie unter:
  
 Es wird empfohlen, zuvor konfigurierte Lizenzierungsplan-Informationen wie folgt zu entfernen:
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Es wird empfohlen, zuvor konfigurierte Sprachanruf-Weiterleitungsinformationen w
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > Wenn ein globaler CsVoiceRoutingPolicy konfiguriert ist, empfiehlt es sich, alle PSTN-Nutzungen zu entfernen, die dieser globalen Richtlinie zugeordnet sind. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration ausgehend vom Office 365 Telefonsystem mit lokaler Festnetzanbindung über die Cloud Connector Edition 
@@ -109,7 +110,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 ```
 
 
-## <a name="related-links"></a>VERWANDTE LINKS
+## <a name="related-links"></a>Verwandte Links
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md)
 

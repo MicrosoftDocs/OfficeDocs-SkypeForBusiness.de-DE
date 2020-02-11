@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, wie Sie das Telefonsystem (Cloud PBX) für Ihre Organisation einrichten können. '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837985"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888724"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -116,7 +116,7 @@ Weitere Informationen zu Anrufwarteschlangen finden Sie unter [Erstellen einer C
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Schritt 8: Wenn Sie eine automatische Cloudtelefonzentrale einrichten möchten
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
+Automatische Telefonzentralen ermöglichen es Personen, die in Ihrer Organisation anrufen, über ein Menüsystem zur richtigen Abteilung, Warteschlange, Person oder dem Telefonisten zu gelangen. Sie können eine automatische Telefonzentrale für Ihre Organisation erstellen, indem Sie das Team Admin Center verwenden.
 
 Informationen zum Einrichten einer automatischen Cloud-attendendant finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md).
 
