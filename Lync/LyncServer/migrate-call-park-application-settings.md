@@ -12,18 +12,18 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba55ec7ff54858d3324df2ab8794176a5dc7a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee1afd2e53bd29571818b9194fe77d3d350386f1
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762963"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
 
@@ -39,11 +39,11 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 
 Die Migration der Anruf Park Anwendung von lync Server 2010 zu lync Server 2013 umfasst die Bereitstellung des lync Server 2013-Pools mit beliebigen benutzerdefinierten Musikdateien, die in lync Server 2010 hochgeladen wurden, die Einstellungen für den Service Level wiederherstellen und eine erneute Zielausrichtung durchführen. alle Anruf parken umkreist den lync Server 2013-Pool. Wenn benutzerdefinierte Music-on-halten-Dateien im lync Server 2010-Pool konfiguriert wurden, müssen diese Dateien in den neuen lync Server 2013-Pool kopiert werden. Darüber hinaus empfiehlt es sich, dass Sie alle angefügten Music-on-Keep-Dateien von lync Server 2010 zu einem anderen Ziel sichern, um eine separate Sicherungskopie aller angepassten Music-on-halten-Dateien zu erhalten, die für den Anruf Park hochgeladen wurden. Die angepassten Music-on-halten-Dateien für die Anwendung "Parken" werden im Dateispeicher des Pools gespeichert. Wenn Sie die Audiodateien aus einem lync Server 2010-Pool Dateispeicher in einen lync Server 2013-Dateispeicher kopieren möchten, verwenden Sie den Befehl **xcopy** mit den folgenden Parametern:
 
-   ```
+   ```console
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
    ```
 
-   ```
+   ```console
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
    ```
 
@@ -65,8 +65,8 @@ Die Anwendungseinstellungen des Anruf Parks beinhalten den Schwellenwert für da
 
     
     </div>
-    
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```powershell
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold"<LS2010 CPS TimeSpan>"-" enablemusiconhold ""<LS2010 CPS value>"-" maxcallpickupattempts ""<LS2010 CPS pickup attempts>"-OnTimeoutURI"<LS2010 CPS timeout URI>"```
 
 Wenn Sie alle orbitbereiche des Anruf Parks vom lync Server 2010-Pool zum lync Server 2013-Pool neu zuweisen möchten, können Sie entweder die lync Server-Systemsteuerung oder die lync Server-Verwaltungsshell verwenden.
 
@@ -87,14 +87,17 @@ Wenn Sie alle orbitbereiche des Anruf Parks vom lync Server 2010-Pool zum lync S
 1.  Öffnen Sie die Lync Server-Verwaltungsshell.
 
 2.  Geben Sie an der Befehlszeile Folgendes ein:
-    
-        Get-CsCallParkOrbit
+    ```powershell
+    Get-CsCallParkOrbit
+    ```
     
     Mit diesem Cmdlet werden alle orbitbereiche des Anruf Parks in der Bereitstellung aufgelistet. Alle Orbits des Anruf Parks, deren **CallParkServiceId** -und **CallParkServerFqdn** -Parameter als lync Server 2010-Pool festgelegt sind, müssen neu zugewiesen werden.
     
     Geben Sie in der Befehlszeile Folgendes ein, um den lync Server 2010-Orbit für den Anruf Bereich zum lync Server 2013-Pool erneut zuzuweisen:
     
-        Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```powershell
+    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```
 
 Nach dem erneuten Zuweisen aller orbitbereiche für den Anruf Bereich zum lync Server 2013-Pool wird der Migrationsprozess für die Anwendung "Parken" abgeschlossen, und der lync Server 2013-Pool verarbeitet alle zukünftigen Anruf Park Anfragen.
 

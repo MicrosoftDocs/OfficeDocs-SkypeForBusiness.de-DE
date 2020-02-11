@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren von Cloud-basierter Voicemail für Benutzer, die in Skype for Business Server verwaltet werden.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726915"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888534"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren des Cloud Voicemail-Diensts für lokale Benutzer
 
@@ -102,7 +102,7 @@ Mit dem folgenden Befehl wird beispielsweise einem Benutzer eine nicht global ge
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Aktivieren eines Benutzers für Cloud-Voicemail
@@ -111,13 +111,17 @@ Um zu ermöglichen, dass Voicemail-Anrufe eines Benutzers an die Cloud-Voicemail
 
 Mit dem folgenden Befehl wird beispielsweise ein Benutzerkonto für die Cloud-Voicemail aktiviert: 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 Das Cmdlet überprüft, ob eine Cloud-Voicemail-Richtlinie auf globaler, Standort-oder Benutzerebene für diesen Benutzer gilt. Wenn keine Richtlinie angewendet wird, schlägt das Cmdlet fehl.  
 
 Im nächsten Beispiel wird ein Benutzerkonto für die Cloud-Voicemail deaktiviert:
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 Das Cmdlet überprüft, ob keine Richtlinie für gehostete Voicemails – auf globaler, Standort-oder Benutzerebene – auf diesen Benutzer angewendet wird. Wenn eine Richtlinie angewendet wird, schlägt das Cmdlet fehl.
 

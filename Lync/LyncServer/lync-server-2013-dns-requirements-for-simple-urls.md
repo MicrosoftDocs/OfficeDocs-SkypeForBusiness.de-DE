@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737375"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>DNS-Anforderungen für einfache URLs in Lync Server 2013
 
@@ -182,13 +182,13 @@ Wenn Sie über mehrere Websites verfügen, die Front-End-Pools enthalten und Ihr
 
 Um dies zu konfigurieren, erstellen Sie zwei GeoDNS-Adressen. Jede Adresse hat zwei DNS-A-oder CNAME-Einträge, die in zwei Pools aufgelöst werden, die für Disaster Recovery-Zwecke kombiniert werden. Eine GeoDNS-Adresse wird für den internen Zugriff verwendet und in die IP-Adresse des internen webfqdn oder des Lastenausgleichsmoduls für die beiden Pools aufgelöst. Die andere GeoDNS-Adresse wird für den externen Zugriff verwendet und in die IP-Adresse des externen webfqdn oder des Load Balancer für die beiden Pools aufgelöst. Im folgenden finden Sie ein Beispiel für die einfache URL "erfüllen" mit den FQDNs für die Pools.
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Sie können die gleiche Konfiguration für die Einwahl einfache URL einrichten. 
 
 Sobald diese Konfiguration eingerichtet ist, müssen Sie eine Überwachungsanwendung verwenden, um die HTTP-Überwachung so einzurichten, dass Fehler überwacht werden. Überwachen Sie für externen Zugriff, um sicherzustellen, dass HTTPS AutoDiscovery-Anforderungen an die externe Web-FQDN-oder Load Balancer-IP-Adresse für die beiden Pools erhalten erfolgreich sind. Die folgenden Anforderungen dürfen beispielsweise keinen **Accept** -Header enthalten und müssen **200 OK**zurückgeben.
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Für den internen Zugriff müssen Sie Port 5061 auf der internal Web FQDN-oder Load Balancer-IP-Adresse für die beiden Pools überwachen. Wenn Verbindungsfehler erkannt werden, müssen die VIP für diese Pools die Ports 80, 443 und 444 schließen.
 
