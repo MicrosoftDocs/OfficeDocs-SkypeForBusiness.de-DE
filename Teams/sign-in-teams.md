@@ -3,26 +3,25 @@ title: Anmelden bei Microsoft Teams mit moderner Authentifizierung
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/15/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
 description: So melden Sie sich bei Microsoft Teams mit moderner Authentifizierung an.
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
-ms.translationtype: MT
+ms.openlocfilehash: 7bb74338a3e46bb4e3a65fcbf2a69d56558dad61
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845136"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889438"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -41,14 +40,14 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Teams m
 
 - Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für MFA entschieden hat oder ob ihr Computer bereits MFA zum Anmelden erfordert. Wenn ihr Computer bereits MFA zur Anmeldung erfordert, startet die App automatisch, wenn  sie Teams öffnen.
 
-- Wenn Benutzer bei einem von der Domäne verbundenen Computer angemeldet sind und nicht möchten, dass der Benutzername auf dem Anmeldebildschirm der Teams vorinstalliert ist, können Administratoren die folgende Windows-Registrierung so einrichten, dass die vorauffüllung des Benutzernamens (User Name, UPN) deaktiviert wird:
+- Wenn Benutzer bei einem in eine Domäne eingebundenen Computer angemeldet sind und Sie nicht möchten, dass ihre Benutzernamen im Anmeldebildschirm von Microsoft Teams vorab ausgefüllt werden, können Administratoren die folgende Windows-Registrierung so einrichten, dass das Vorab-Ausfüllen des Benutzernamens (UPN) deaktiviert ist:
 
-  Computer \ HKEY_CURRENT_USER \software\microsoft\office\teams<br/>
-  SkipUpnPrefill (REG_DWORD)<br/>
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > Das Überspringen von Benutzernamen-Pre-Fill für Benutzernamen, die in ". local" oder ". Corp" enden, ist standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 
+    > Das Überspringen beim Vorab-Ausfüllen von Benutzernamen ist für Benutzernamen, die in ".local" oder ".corp" enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 
 
 
 ### <a name="mac-users"></a>Mac-Benutzer 
@@ -59,15 +58,18 @@ Wenn Benutzer Teams starten, kann ihr Computer ihre Anmeldeinformationen nicht v
 
 Wenn Benutzer an einem domänengebundenen Computer arbeiten (z.B. wenn ihr Mandant Kerberos aktiviert hat), können sie nach Abschluss der modernen Authentifizierung nicht mehr zwischen Benutzerkonten wechseln. Wenn Benutzer nicht an einem domänengebundenen Computer arbeiten, können sie zwischen Konten wechseln.
 
-## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Abmeldung von Microsoft Teams nach Abschluss der modernen Authentifizierung
+## <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Abmeldung von Microsoft Teams nach Abschluss der modernen Authentifizierung
 Um sich von Teams abzumelden, können Benutzer auf ihr Profilbild oben in der App klicken und dann **Abmelden** wählen. Sie können auch mit der rechten Maustaste auf das App-Symbol in der Taskleiste klicken und dann **Abmelden** wählen. Sobald sie sich von Teams abgemeldet haben, müssen sie ihre Anmeldeinformationen erneut eingeben, um die App zu starten.
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche
-Für Teams ist eine Internet Verbindung erforderlich. Wenn Sie Endpunkte verstehen möchten, die für Kunden mit Teams in Office 365-Plänen, Behörden und anderen Clouds erreichbar sein sollten, lesen Sie die [hier verfügbaren Anleitungen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Darüber hinaus müssen Sie auch den Zugriff auf https://ssl.gstatic.comaktivieren.
+Microsoft Teams setzt eine Internetverbindung voraus. Informationen zu Endpunkten, die für Kunden mit Microsoft Teams in Office 365-Plänen, Behörden und andere Clouds erreichbar sein sollten, finden Sie unter [URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). 
+
+> [!IMPORTANT]
+> Microsoft Teams benötigt derzeit Zugriff (TCP-Port 443) auf den Google ssl.gstatic.com-Dienst (https://ssl.gstatic.com) für alle Benutzer. Dies gilt selbst dann, wenn Sie Gstatic nicht verwenden. Diese Anforderung wird demnächst (erste Hälfte 2020) aus Microsoft Teams entfernt. Dieser Artikel wird dann entsprechend aktualisiert.
 
 ## <a name="troubleshooting-modern-authentication"></a>Problembehandlung bei der modernen Authentifizierung
 
 Moderne Authentifizierung ist für alle Organisationen verfügbar, die Teams verwenden. Wenn Benutzer also nicht in der Lage sind, den Prozess abzuschließen, liegt möglicherweise ein Problem mit Ihrer Domäne oder dem Office 365 Enterprise-Konto Ihrer Organisation vor. 
 
-Weitere Informationen finden Sie unter [Warum habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+Weitere Informationen finden Sie unter [Wieso habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 
