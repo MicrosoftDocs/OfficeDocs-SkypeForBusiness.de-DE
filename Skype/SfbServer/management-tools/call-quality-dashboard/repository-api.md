@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Zusammenfassung: erfahren Sie mehr über die Repository-API für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: a027cc7402bad7524343391f9bf7039dd077a46c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 283ef7544435c3954898b2d5ae9e5f5b38762f3c
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816694"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888784"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für das Anruf Qualitäts Dashboard (CQD) in Skype for Business Server
  
@@ -58,7 +58,7 @@ Repository-API unterstützt die übergreifende Ressourcenfreigabe (CORS). CORS i
   
 Denken Sie daran, das exakte Protokoll, den Hostnamen und den Port (sofern vorhanden) einzubeziehen. Setzen Sie am Ende keine Schrägstriche (/) ein. Mehrere Einträge können durch Kommas getrennt angegeben werden.
   
-```
+```xml
 <repositoryConfiguration>
     <service corsTrustedOrigin="https://<trusted-server>,http://<another-trusted-domain>:8080"" />
     <diagnostics eventLevel="Verbose" systemLoggedEventLevel="Error">

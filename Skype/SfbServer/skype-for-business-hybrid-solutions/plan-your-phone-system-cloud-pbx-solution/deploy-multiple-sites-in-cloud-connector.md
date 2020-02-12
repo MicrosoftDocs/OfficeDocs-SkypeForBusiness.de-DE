@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen zum Bereitstellen mehrerer PSTN-Websites in Cloud Connector Edition.
-ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1276d436a05e5151bdc90c19bbf41b8e90d913bf
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799695"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887634"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  
@@ -35,7 +35,7 @@ Die folgende Abbildung zeigt eine Beispielkonfiguration für die Bereitstellung 
   
 PSTN-Standort 1
   
-```
+```console
 [Common]
 SiteName=Site1
 [EdgeServer]
@@ -53,7 +53,7 @@ ExternalMRPublicIPs=23.99.115.35
 
 PSTN-Standort 2
   
-```
+```console
 [Common]
 SiteName=Site2
 [EdgeServer]
@@ -72,7 +72,7 @@ ExternalMRPublicIPs=104.42.226.134
 Führen Sie für jede PSTN-Website, die Sie hinzufügen möchten, die Schritte unter [Bereitstelleneiner einzelnen Website in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)aus.
   
 > [!IMPORTANT]
-> Der freigegebene Ordner für die Vorbereitung hoher Verfügbarkeit wird pro PSTN-Standort erstellt. Der freigegebene Ordner **muss** sich zwischen den PSTN-Standorten unterscheiden. Verwenden Sie nicht denselben freigegebenen Ordner für mehrere Websites. #a0 
+> Der freigegebene Ordner für die Vorbereitung hoher Verfügbarkeit wird pro PSTN-Standort erstellt. Der freigegebene Ordner **muss** sich zwischen den PSTN-Standorten unterscheiden. Verwenden Sie nicht denselben freigegebenen Ordner für mehrere Websites. > 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Bereitstellung eines einzelnen Standorts mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

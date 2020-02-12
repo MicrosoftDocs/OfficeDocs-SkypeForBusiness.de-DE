@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hilfsprogramm-Skript zum Konfigurieren der SFB 2019 Control Panel-Authentifizierung mit Office 365 über das OAuth-Protokoll..
-ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824059"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887724"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Authentifizierungsskript für Skype for Business Server 2019 Control Panel
 
 Dieses Skript sollte nach der Installation von Skype for Business Server 2019 Kumulatives Update 1 im Rahmen der Einrichtung des neuen Control Panels ausgeführt werden. Mit diesem Skript wird eine Azure AD-Anwendung auf Azure erstellt. Dies hilft bei der Anmeldung bei Office 365 mithilfe von OAuth im neuen Control Panel.
 
-```
+```powershell
 <#
  .SYNOPSIS
  Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.

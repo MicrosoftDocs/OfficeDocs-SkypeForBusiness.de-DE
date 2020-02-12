@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector-Version 2,1 und spätere Bereitstellung mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799625"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888634"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS).
 
 In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector-Version 2,1 und spätere Bereitstellung mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
 
-Sie können jetzt die Bereitstellung von Cloud Connector, Version 2,1 und höher, mithilfe von Operations Management Suite (OMS), einer Microsoft Cloud-IT-Verwaltungslösung, überwachen. Mithilfe der OMS-Protokollanalyse können Sie die Verfügbarkeit und Leistung von Ressourcen, einschließlich physischer und virtueller Computer, überwachen und analysieren. Weitere Informationen zu OMS und zur Protokollanalyse finden Sie unter [Was ist Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+Sie können jetzt die Bereitstellung von Cloud Connector, Version 2,1 und höher, mithilfe von Operations Management Suite (OMS), einer Microsoft Cloud-IT-Verwaltungslösung, überwachen. Mithilfe der OMS-Protokollanalyse können Sie die Verfügbarkeit und Leistung von Ressourcen, einschließlich physischer und virtueller Computer, überwachen und analysieren. Weitere Informationen zu OMS und zur Protokollanalyse finden Sie unter [Was ist Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 Dieses Thema enthält die folgenden Abschnitte:
 
@@ -58,28 +58,28 @@ Wie Sie den Cloud Connector für die Verwendung von OMS konfigurieren, hängt vo
 
 - **Wenn Sie eine neue Cloud Connector-Appliance installieren oder eine Appliance erneut bereitstellen möchten**, führen Sie die folgenden Schritte aus, bevor Sie Install-CcAppliance ausführen:
 
-1. Legen Sie im Abschnitt CloudConnector. ini-Datei [common] den OMSEnabled-Parameter auf true fest.
+    1. Legen Sie im Abschnitt CloudConnector. ini-Datei [common] den OMSEnabled-Parameter auf true fest.
 
-    Jedes Mal, wenn Cloud Connector bereitgestellt oder aktualisiert wird, versucht der OMS-Agent automatisch auf den VMS zu installieren. Aktivieren Sie dieses Feature, damit der OMS-Agent die automatische Aktualisierung des Cloud Connectors überleben kann.
+        Jedes Mal, wenn Cloud Connector bereitgestellt oder aktualisiert wird, versucht der OMS-Agent automatisch auf den VMS zu installieren. Aktivieren Sie dieses Feature, damit der OMS-Agent die automatische Aktualisierung des Cloud Connectors überleben kann.
 
-2. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie "Satz-CcCredential-AccountType OMSWorkspace" aus. 
+    2. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie "Satz-CcCredential-AccountType OMSWorkspace" aus. 
 
 - **Wenn Sie einen OMS-Agent auf einer vorhandenen Cloud Connector-Appliance installieren**, gehen Sie folgendermaßen vor:
 
-1. Legen Sie im Abschnitt CloudConnector. ini-Datei [common] OMSEnabled = true fest. 
+    1. Legen Sie im Abschnitt CloudConnector. ini-Datei [common] OMSEnabled = true fest. 
 
-2. Führen Sie Import-CcConfiguration aus. 
+    2. Führen Sie Import-CcConfiguration aus. 
 
-3. Führen Sie Install-CcOMSAgent aus. 
+    3. Führen Sie Install-CcOMSAgent aus. 
 
-    > [!NOTE]
-    > Wenn die OMSWorkspace-Anmeldeinformationen noch nie eingerichtet wurden, werden Sie beim Ausführen von install-CcOMSAgent zur Eingabe der Anmeldeinformationen aufgefordert. 
+        > [!NOTE]
+        > Wenn die OMSWorkspace-Anmeldeinformationen noch nie eingerichtet wurden, werden Sie beim Ausführen von install-CcOMSAgent zur Eingabe der Anmeldeinformationen aufgefordert. 
 
 - **Wenn Sie die OMS-Arbeitsbereichs-ID oder den Schlüssel in einer Cloud Connector-Appliance aktualisieren möchten, die bereits einen OMS-Agent installiert hat:**
 
-1. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie "Satz-CcCredential-AccountType OMSWorkspace" aus. 
+    1. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie "Satz-CcCredential-AccountType OMSWorkspace" aus. 
 
-2. Führen Sie zum Anwenden der Updates die CcOMSAgent-Installation aus. 
+    2. Führen Sie zum Anwenden der Updates die CcOMSAgent-Installation aus. 
 
 - **Überprüfen Sie in allen Szenarien, ob die Agents wie folgt verbunden sind:**
 
@@ -116,15 +116,15 @@ Im OMS-Portal müssen Sie Informationen zu den Ereignisprotokollen und Leistungs
 
      Aktive Anrufe insgesamt:
 
-   - LS: MediationServer-eingehende Anrufe (_Total\- ) aktuell 
+       - LS: MediationServer-eingehende Anrufe (_Total\- ) aktuell 
 
-   - LS: MediationServer-ausgehende Anrufe (_Total\- ) aktuell 
+       - LS: MediationServer-ausgehende Anrufe (_Total\- ) aktuell 
 
      Gesamtzahl der aktiven Medien Umgehungs Anrufe:
 
-   - LS: MediationServer-eingehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
+       - LS: MediationServer-eingehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
 
-   - LS: MediationServer-ausgehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
+       - LS: MediationServer-ausgehende Anrufe (_Total\- ) Active Media Bypass-Anrufe 
 
      > [!NOTE]
      > Sie müssen die Leistungsindikatoren manuell in das Textfeld eingeben. Sie werden in der Dropdownliste nicht als Optionen angezeigt. 
@@ -155,7 +155,7 @@ So erstellen Sie dieses Warnungs paar:
 
 - Die Abfrage für die Fehlermeldung lautet wie folgt:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ So erstellen Sie dieses Warnungs paar:
 
 - Die Abfrage für die Reset-Benachrichtigung lautet wie folgt:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     Die Zurücksetzungs Abfrage führt genau das Gegenteil der Fehler Abfrage aus. Für jeden Computer wird ein Wert zurückgegeben, wenn es sich bei dem letzten Ereignis um das Dienststart Ereignis handelt. Wenn es sich bei dem letzten Ereignis um das Dienst Stoppereignis handelt, wird Nothing zurückgegeben.
 
-  **Erstellen eines Warnungs Paars: "zu viele gleichzeitige Anrufe in Vermittlungsservern" und "gleichzeitige Anrufe fallen auf normale Last zurück"**
+**Erstellen eines Warnungs Paars: "zu viele gleichzeitige Anrufe in Vermittlungsservern" und "gleichzeitige Anrufe fallen auf normale Last zurück"**
 
 So erstellen Sie diese Benachrichtigung:
 
 - Die Abfrage für die Fehlermeldung lautet wie folgt:
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ So erstellen Sie diese Benachrichtigung:
 
 - Die Abfrage für die Reset-Benachrichtigung lautet wie folgt:
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     Die Zurücksetzungs Abfrage führt genau das Gegenteil der Fehler Abfrage aus. Die Abfrage ruft für jeden Computer die letzten Leistungsindikatoren für eingehenden und ausgehenden Anruf ab und addiert diese beiden Werte. Wenn der Sum-Wert kleiner als 500 ist, wird ein Protokoll zurückgegeben. Andernfalls wird nichts zurückgegeben.
 
-  **Erstellen einer Benachrichtigung: "CPU- \> Auslastung 90 oder RTCMEDIARELAY in den Servern angehalten"**
+**Erstellen einer Benachrichtigung: "CPU- \> Auslastung 90 oder RTCMEDIARELAY in den Servern angehalten"**
 
 Um diese Benachrichtigung zu erstellen, lautet die Abfrage wie folgt:
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

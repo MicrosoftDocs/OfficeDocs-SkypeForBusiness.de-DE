@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: bereiten Sie Ihre Skype for Business Server 2019-Server und die Domäneninfrastruktur in diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sowie Zertifikat-DNS, Dateifreigabe und Active Directory-Informationen sind hier, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm zu gewährleisten.'
-ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: fbfb66d24b3e3fbc07ac5fa798b372cc1bf4a268
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812593"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889374"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System Anforderungen für Skype for Business Server 2019
  
@@ -265,8 +265,6 @@ Die folgenden Domänen Controller-Betriebssysteme können verwendet werden:
     
 Die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2019 bereitstellen, und die Gesamtstrukturfunktionsebene einer beliebigen Gesamtstruktur, in die Sie Skype for Business Server 2019 einbringen, müssen eine der folgenden sein:
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2

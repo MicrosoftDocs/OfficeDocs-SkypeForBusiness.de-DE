@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server-Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht mehr verfügbar machen, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817106"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888454"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server
 
@@ -37,7 +37,7 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 1. Melden Sie sich bei einem Computer als Mitglied der RTCUniversersalServerAdmins-oder CsServerAdministrator-Gruppe an, in der der Skype for Business-Server, Verwaltungs Tools installiert sind.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie ** und dann auf **Status**. 
 
@@ -55,8 +55,8 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
    c. Geben Sie in **Neuen Dateispeicher definieren** unter **Dateiserver-FQDN** den vollqualifizierten Domänennamen (FQDN) des Dateiservers ein. Geben Sie unter **Dateifreigabe** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **OK**.
 
-    > [!IMPORTANT]
-    > In diesem Schritt wird ein neuer Dateispeicher für die Verwendung im Topologie-Generator definiert. Die Definition erfolgt nur einmal, nicht für jeden Server. Bevor Sie die Topologie veröffentlichen, müssen Sie die definierte Dateifreigabe auf dem definierten Dateiserver erstellen. Einzelheiten finden Sie unter [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > In diesem Schritt wird ein neuer Dateispeicher für die Verwendung im Topologie-Generator definiert. Die Definition erfolgt nur einmal, nicht für jeden Server. Bevor Sie die Topologie veröffentlichen, müssen Sie die definierte Dateifreigabe auf dem definierten Dateiserver erstellen. Einzelheiten finden Sie unter [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 8. Gehen Sie für jeden Server oder Pool, der den Dateispeicher verwendet, wie folgt vor:
 
@@ -70,10 +70,9 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 11. Geben Sie an der Befehlszeile Folgendes ein:
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > Der Switch „/S“ kopiert Dateien, Verzeichnisse und Unterverzeichnisse. Der Switch „/XF“ überspringt alle Dateien mit dem Namen „Meeting.Active“. Aktuelle Versionen von „robocopy.exe“ mit dem Switch „/MT“ erhöhen die Kopiergeschwindigkeit erheblich, da mehrere Threads verwendet werden. Verwenden Sie für den/Log-Schalter einen Verzeichnispfad und einen Protokolldateinamen in Form von C:\Logfiles\log.txt. Mit diesem Switch wird eine Protokolldatei der Vorgänge an dem benannten Speicherort erstellt.
@@ -88,8 +87,6 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 ## <a name="see-also"></a>Siehe auch
 
-
 [Erneutes Zuweisen eines Servers zu einem anderen Dateispeicher](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Entfernen eines Dateispeichers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

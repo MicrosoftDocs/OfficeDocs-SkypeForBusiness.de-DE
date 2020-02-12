@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Informieren Sie sich über die in Skype for Business Server unterstützten Hochverfügbarkeits-Optionen für den Back-End-Server, einschließlich AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failovercluster-Instanzen, Datenbankspiegelung und SQL-Failover-Clusterunterstützung.
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815953"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888614"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Verfügbarkeit von Back-End-Servern in Skype for Business Server
  
@@ -56,7 +56,7 @@ Skype for Business Server unterstützt die Spiegelung mit der folgenden Datenban
     
 
 > [!NOTE]
-> Die SQL-Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failover-Cluster Instanzen (FCI) und SQL-Failover-Clustering-Methoden werden in Skype for Business Server 2019 bevorzugt.
+> Die SQL-Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failover-Cluster Instanzen (FCI) und SQL-Failover-Clustering-Methoden sind die einzigen unterstützten Optionen für Skype for Business Server 2019.
     
 Die asynchrone Datenbankspiegelung wird für den Back-End-Server mit einer höheren Verfügbarkeit in Skype for Business Server nicht unterstützt. Sofern nicht anders angegeben, steht in diesem Dokument die Datenbankspiegelung für die synchrone Datenbankspiegelung. 
   

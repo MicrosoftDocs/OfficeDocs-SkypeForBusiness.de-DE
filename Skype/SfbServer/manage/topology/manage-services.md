@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie den Dienststatus anzeigen, Dienste starten und beenden sowie Sitzungen für Dienste verhindern.
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817116"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888444"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Verwalten von Diensten in Skype for Business Server
 
@@ -59,7 +59,9 @@ Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet
 
 Wenn Sie den Dienststatus auf einem Computer anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell einen Befehl ähnlich der folgenden ein, und drücken Sie dann die EINGABETASTE:
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Ausführliche Informationen finden Sie unter [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+Ausführliche Informationen finden Sie unter [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Starten oder Beenden von Skype for Business-Diensten
 
@@ -85,7 +87,9 @@ Verwenden Sie das Skype for Business Server Control Panel, um alle Skype for Bus
 
 1. Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. . Sie können feststellen, ob Ihnen die CsServerAdministrator-oder CsAdministrator-RBAC-Rolle zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der Skype for Business Server-Systemsteuerung verwenden können, finden Sie unter [Installieren und Öffnen von Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie ** und dann auf **Status**. 

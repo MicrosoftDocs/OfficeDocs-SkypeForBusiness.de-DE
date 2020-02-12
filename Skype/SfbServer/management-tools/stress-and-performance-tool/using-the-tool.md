@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Wenn Sie das Stress-und Leistungstool für Skype for Business Server 2015 ausführen möchten, müssen Sie in der Lage sein, Benutzer, Kontakte und Benutzerprofile zu verwalten, das Tool für die Ausführung zu konfigurieren und dann die vom Tool erstellte Ausgabe oder Ergebnisse zu überprüfen.
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816144"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888864"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden des Skype for Business Server 2015 Stress-und Leistungstools
  
@@ -145,8 +145,8 @@ Auf dieser Registerkarte können Sie die Kontaktdetails der Benutzer für Ihre T
     
 8. Klicken Sie auf **Kontakte erstellen** , um mit der Erstellung des Kontakts zu beginnen. Dieser Vorgang kann mehrere Minuten dauern. Nach Abschluss des Vorgangs wird ein Dialogfeld mit der Meldung "Vorgang wurde erfolgreich abgeschlossen" angezeigt. Sie können die Kontakte, die Sie erstellt haben, überprüfen, indem Sie sich als Benutzer anmelden, der über die Registerkarte Benutzererstellung erstellt wurde.
     
-> [!NOTE]
-> Nachdem die Kontakte erstellt wurden, startet dieses Tool alle Front-End-Server im Ziel Pool neu. Je nachdem, wie viele Kontakte von diesem Vorgang erstellt wurden, dauert es möglicherweise länger (bis zu zwei Stunden), bis die Front-End-Server gestartet werden. 
+    > [!NOTE]
+    > Nachdem die Kontakte erstellt wurden, startet dieses Tool alle Front-End-Server im Ziel Pool neu. Je nachdem, wie viele Kontakte von diesem Vorgang erstellt wurden, dauert es möglicherweise länger (bis zu zwei Stunden), bis die Front-End-Server gestartet werden. 
   
 #### <a name="distribution-list"></a>Verteilerliste
 
@@ -319,7 +319,7 @@ Web App unterstützt Konferenzszenarien über den Unified Communications Web API
 - **Sprachkonferenzen –** Wählen Sie einen Wert für Load Level aus.
     
 > [!NOTE]
-> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung ermöglichen. #a0 für jedes der Web-App-Szenarien wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
+> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung ermöglichen. > für jedes der Web-App-Szenarien wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
   
 #### <a name="mobility-tab"></a>Reiter "Mobilität"
 
@@ -334,7 +334,7 @@ Die folgenden Optionen sind verfügbar:
 - **Anwesenheits-und P2P-Instant Messaging/-Audio –** Wählen Sie einen Wert für Load Level aus, um die Mobilitäts Simulation zu aktivieren.
     
 > [!NOTE]
-> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung aktivieren. #a0 für jedes Mobilitäts Szenario wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
+> In jedem der Szenarien befindet sich daneben eine Schaltfläche " **erweitert** ". Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress-und Leistungstools ändern und die Anpassung aktivieren. > für jedes Mobilitäts Szenario wird, wenn die Auslastungsstufe **Benutzerdefiniert**ist, der im Feld **ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet.
   
 #### <a name="summary-tab"></a>Registerkarte "Zusammenfassung"
 
@@ -367,7 +367,7 @@ Das Load Configuration Tool (UserProfileGenerator. exe) erstellt eine Batchdatei
     
 2. Navigieren Sie zum Clientordner, und führen Sie das **RunClient** -Batchskript aus. Sie können in Windows-Explorer auf die Batchdatei doppelklicken, und alle Konfigurationsdateien für diesen Client werden ausgeführt. Sie können das Skript auch über einen Clientordner ausführen, indem Sie die folgende Syntax verwenden:
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

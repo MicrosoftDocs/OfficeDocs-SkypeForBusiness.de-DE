@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816214"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888874"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
@@ -47,7 +47,7 @@ In diesem Thema wird beschrieben, wie Sie eine Problembehandlung für Ihre Stati
 
     Suchen Sie nach "MaxProcessMemoryMB", und ändern Sie den Wert in "0" (siehe Abbildung):
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ In diesem Thema wird beschrieben, wie Sie eine Problembehandlung für Ihre Stati
     
     Wenn der Agent keine Verbindung zum Listener-Computer herstellen kann, überprüfen Sie die folgenden Punkte:
     
-1. Stellen Sie sicher, dass der Listener-Dienst auf dem Listener-Computer ausgeführt wird. Ist das nicht der Fall, stellen Sie sicher, dass Redis auf diesem Server ausgeführt wird, und starten Sie anschließend den Listener-Dienst neu.
-    
-    Überprüfen Sie das Ereignisprotokoll des Statistik-Managers auf dem Listener-Computer, um sicherzustellen, dass es keine Probleme mit dem Listen Dienst des Statistik-Managers selbst gibt.
-    
-2. Verwenden Sie ein Connectivity Tool wie Telnet, um die Verbindung vom Agent- zum Listener-Computer auf dem richtigen Port zu überprüfen.
-    
-    Ist diese Verbindung nicht gegeben, stellen Sie sicher, dass die Firewallregel für eingehenden Verkehr für die Art von Netzwerk aktiviert ist, mit dem der Listener-Computer verbunden ist (privat/öffentlich/Domäne). Wenn der Listener-Computer nicht mit einer Domäne verbunden ist, wird das Netzwerk möglicherweise als "öffentlich" aufgeführt, und in diesem Fall gelten die mit Statistik-Manager installierten Firewallregeln nicht standardmäßig.
+    1. Stellen Sie sicher, dass der Listener-Dienst auf dem Listener-Computer ausgeführt wird. Ist das nicht der Fall, stellen Sie sicher, dass Redis auf diesem Server ausgeführt wird, und starten Sie anschließend den Listener-Dienst neu.
+        
+        Überprüfen Sie das Ereignisprotokoll des Statistik-Managers auf dem Listener-Computer, um sicherzustellen, dass es keine Probleme mit dem Listen Dienst des Statistik-Managers selbst gibt.
+        
+    2. Verwenden Sie ein Connectivity Tool wie Telnet, um die Verbindung vom Agent- zum Listener-Computer auf dem richtigen Port zu überprüfen.
+        
+        Ist diese Verbindung nicht gegeben, stellen Sie sicher, dass die Firewallregel für eingehenden Verkehr für die Art von Netzwerk aktiviert ist, mit dem der Listener-Computer verbunden ist (privat/öffentlich/Domäne). Wenn der Listener-Computer nicht mit einer Domäne verbunden ist, wird das Netzwerk möglicherweise als "öffentlich" aufgeführt, und in diesem Fall gelten die mit Statistik-Manager installierten Firewallregeln nicht standardmäßig.
     
 - **4000** – Fehler beim Herunterladen von Serverinformationen vom Listener-Computer (unbekannte Ursache)
     

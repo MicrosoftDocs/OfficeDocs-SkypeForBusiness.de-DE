@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: erfahren Sie mehr über den Bereitstellungsprozess für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816854"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888834"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen eines Anruf Qualitäts Dashboards für Skype for Business Server
  
@@ -88,7 +88,7 @@ Die Bereitstellung des Dashboards für die Anrufqualität umfasst das Einrichten
    - **SQL-Agent-Auftrags Benutzer- &amp; Kennwort für Benutzer Name:** Name und Kennwort des Domänendienstkontos (maskiert), das verwendet wird, um den Schritt "QoE-Archivdaten" des SQL Server-Agent-Auftrags auszuführen (der die gespeicherte Prozedur ausführt, um Daten aus QoE-Metriken DB in Archiv DB abzurufen, damit dieses Konto über Lesezugriff auf QoE-Metriken DB verfügt, wie im Abschnitt "Konten" angegeben. Dieses Konto muss auch über eine Anmeldung in der SQL Server-Instanz des QoE-Archivs verfügen.
     
      > [!NOTE]
-     > Das Konto, unter dem die SQL Server-Instanz ausgeführt wird, beispielsweise NT-SERVICE\MSSQLSERVER, muss über Zugriff/Berechtigung für die oben angegebenen Verzeichnisse verfügen, damit die Installation erfolgreich durchgeführt werden kann. Ausführliche Informationen finden Sie unter [Konfigurieren von Datei System Berechtigungen für den Zugriff auf Datenbankmodul](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > Das Konto, unter dem die SQL Server-Instanz ausgeführt wird, beispielsweise NT-SERVICE\MSSQLSERVER, muss über Zugriff/Berechtigung für die oben angegebenen Verzeichnisse verfügen, damit die Installation erfolgreich durchgeführt werden kann. Ausführliche Informationen finden Sie unter [Konfigurieren von Datei System Berechtigungen für den Zugriff auf Datenbankmodul](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. Wenn Sie auf "weiter" klicken, führt das Installationsprogramm Voraussetzungen und meldet, ob Probleme aufgetreten sind. Wenn alle Voraussetzungen überprüft werden, wird das Installationsprogramm zur Seite Cube-Konfiguration weitergeleitet. 
     
@@ -104,7 +104,7 @@ Die Bereitstellung des Dashboards für die Anrufqualität umfasst das Einrichten
    - **Cube Analysis-Server:** SQL Server Analysis Service-Instanzname für die Stelle, an der der Cube erstellt werden soll. Hierbei kann es sich um einen anderen Computer handeln, aber der Installationsbenutzer muss ein Mitglied der Serveradministratoren der Ziel-SQL Server-Analysis-Dienstinstanz sein.
     
      > [!NOTE]
-     >  Weitere Informationen zum Konfigurieren von Analysis Services Server-Administratorberechtigungen finden Sie unter [Erteilen von Server Administratorberechtigungen (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx) .
+     >  Weitere Informationen zum Konfigurieren von Analysis Services Server-Administratorberechtigungen finden Sie unter [Erteilen von Server Administratorberechtigungen (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx) .
   
    - **Verwenden mehrerer Partitionen:** Der Standardwert ist auf "mehrere Partitionen" eingestellt, was Business Intelligence Edition oder Enterprise Edition von SQL Server erfordert. Wählen Sie für Standard Edition die Option "einzelne Partition" aus. Beachten Sie, dass die Leistung der Cube-Verarbeitung beeinträchtigt werden kann, wenn einzelne Partitionen verwendet werden.
     
@@ -135,7 +135,7 @@ Wenn das Installationsprogramm abgeschlossen ist, wird der SQL Server-Agent-Auft
   
 Wenn der Debugmodus aktiviert ist, werden detaillierte Protokollmeldungen angezeigt. Zum Aktivieren des Debugmodus wechseln Sie zu **%SystemDrive%\Programme\Gemeinsame Files\Skype for Business 2015 CQD\QoEDataService\web.config**, und aktualisieren Sie die folgende Zeile, damit der Wert auf **true**festgelegt ist:
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ Als nächstes sollten Administratoren neue Zulassungsregeln hinzufügen und best
   
 Die Konfigurationsdetails werden in der Web. config-Datei gespeichert, die sich im physikalischen Verzeichnis des Portals befindet.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ Für http-und HTTPS-Portbindungen erstellt das Installationsprogramm Portbindung
   
 So aktivieren Sie SSL/TLS in IIS und erzwingen, dass Benutzer über sicheres HTTPS und nicht über HTTP verbunden werden:
   
-1. Konfigurieren von Secure Sockets Layer in IIS finden Sie unter [Konfigurieren von Secure Sockets Layer in IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Wenn Sie fertig sind `http` , `https`ersetzen Sie durch.
+1. Konfigurieren von Secure Sockets Layer in IIS finden Sie unter [Konfigurieren von Secure Sockets Layer in IIS 7](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx). Wenn Sie fertig sind `http` , `https`ersetzen Sie durch.
     
 2. Anweisungen zum Aktivieren von TLS in den SQL Server-Verbindungen finden Sie unter [Aktivieren der SSL-Verschlüsselung für eine Instanz von SQL Server mithilfe der Microsoft Management Console](https://support.microsoft.com/en-us/kb/316898/).
     
