@@ -18,12 +18,12 @@ f1.keywords:
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845146"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889448"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -75,6 +75,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |Informationen zur Cloud-Video-Interoperabilität in "Meet Now"  <br/> |Wenn Sie in Microsoft Teams mit einer vorhandenen CVI-Lizenz einen Meet Now-Vorgang für eine Besprechung erstellen, werden die CVI-Informationen nicht ausgefüllt. <br/> |Die Empfehlung lautet, die Besprechung so zu planen, dass diese Informationen ausgefüllt werden.  <br/> |6.11.2019  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Teams benötigen Zugriff auf Google Gstatic <br/> |Microsoft Teams benötigt derzeit Zugriff (TCP-Port 443) auf den Google ssl.gstatic.com-Dienst (https://ssl.gstatic.com) für alle Benutzer. Dies gilt selbst dann, wenn Sie Gstatic nicht verwenden. Diese Anforderung wird bald für Teams entfernt (Anfang 2020). <br/> | Keine Problemumgehung. <br/> |10.02.2020  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
