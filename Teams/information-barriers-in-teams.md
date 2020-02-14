@@ -15,16 +15,16 @@ f1.keywords:
 description: Informieren Sie sich über Informationsbarrieren und ihre Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836645"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962134"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
-Informationsbarrieren sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Dies ist hilfreich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
+Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Dies ist hilfreich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
 
 > [!NOTE]
 > - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
@@ -49,14 +49,14 @@ Der Evaluierungs Dienst für Informations Barriere-Richtlinien bestimmt, ob eine
 
 ## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
 
-Richtlinien für Informationsbarrieren werden im Office 365 Security #a0 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+Richtlinien für Informationsbarrieren werden im Office 365 Security & Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
 > Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens 24 Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. [Informieren Sie sich über die Voraussetzungen für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 
-Die IB-Compliance-Verwaltungsrolle ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Office 365 Security #a0 Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Die IB-Compliance-Verwaltungsrolle ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="when-are-information-barrier-policies-checked"></a>Wann werden die Richtlinien für Informationsbarrieren überprüft?
 
@@ -96,7 +96,7 @@ Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarri
 
 ## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Sind Dateien und SharePoint-Websites mit Teams mit der IB-Richtlinie verbunden?
  
-Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und dem Team für die Datei Oberfläche zugeordnet. Der Zugriff auf diese SharePoint-Website und Dateien honoriert die IB-Richtlinie des Unternehmens, d.h. nur die Benutzer, deren IB-Segment Übereinstimmungen pro IB-Richtlinie haben, haben Zugriff. Auch zum Zeitpunkt der Dateifreigabe wird die IB-Richtlinie berücksichtigt.
+Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und dem Team für die Datei Oberfläche zugeordnet. Der Zugriff auf diese SharePoint-Website und Dateien honoriert die IB der Organisation, das heißt, nur die Benutzer, deren IB-Segment Übereinstimmungen pro IB-Richtlinie haben, können den Zugriff gewähren. Auch zum Zeitpunkt der Dateifreigabe wird die IB-Richtlinie berücksichtigt.
 
 Beispiel: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten. Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
 
