@@ -12,20 +12,20 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 834ee6650e6bedfe76b1e46943f05e0aa713095d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a>tblSystemRevision in Lync Server 2013
+# <a name="tblsystemrevision-in-lync-server-2013"></a>tblSystemRevision in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764055"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblSystemRevision enthält die Revisionsnummer, die in Verbindung mit der tblAdminLock-Tabelle verwendet wird, um Konsistenz für mehrere Administrator Clients zu erreichen.
+tblSystemRevision enthält die Revisionsnummer, die mit der adminlock-Tabelle verwendet wird, um Konsistenz über mehrere Administrator-Clients hinweg zu erzielen.
 
 ### <a name="columns"></a>Spalten
 

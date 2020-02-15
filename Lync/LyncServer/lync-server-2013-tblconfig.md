@@ -12,20 +12,20 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0e383791eafbe017e5163156ba53cdad581cb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 399d4e794b45f549aed86838463091db437b286f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731495"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblconfig-in-lync-server-2013"></a>tblConfig in Lync Server 2013
+# <a name="tblconfig-in-lync-server-2013"></a>tblConfig in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41731495"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
 tblConfig enthält eine nicht unterstützte Konfiguration für beständigen Chat Server in einer Zeile.
 
@@ -57,13 +57,13 @@ tblConfig enthält eine nicht unterstützte Konfiguration für beständigen Chat
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
+<td><p>nvarchar (255), nicht NULL</p></td>
 <td><p>Enthält &quot;Pool.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>
 <td><p>nvarchar (max)</p></td>
-<td><p>Konfigurationsinhalt.</p></td>
+<td><p>Inhalt der Konfiguration.</p></td>
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
@@ -74,7 +74,7 @@ tblConfig enthält eine nicht unterstützte Konfiguration für beständigen Chat
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

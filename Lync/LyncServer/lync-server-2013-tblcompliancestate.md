@@ -12,20 +12,20 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancestate-in-lync-server-2013"></a>tblComplianceState in Lync Server 2013
+# <a name="tblcompliancestate-in-lync-server-2013"></a>tblComplianceState in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764201"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-28_
+_**Letztes Änderungsstand des Themas:** 2012-06-28_
 
-tblComplianceState enthält Informationen zum Kompatibilitätszustand des Pools.
+tblComplianceState enthält Informationen zum Pool weiten Kompatibilitätszustand.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,17 +58,17 @@ tblComplianceState enthält Informationen zum Kompatibilitätszustand des Pools.
 <tr class="odd">
 <td><p>lastProcessedEntryID</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Die ID des letzten verarbeiteten Compliance-Ereignisses.</p></td>
+<td><p>ID des letzten verarbeiteten Kompatibilitäts Ereignisses.</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Kompatibilitätsservers, auf dem die exklusive Sperre für die Datenbank gespeichert ist, oder-1, wenn kein.</p></td>
+<td><p>ID des Kompatibilitätsservers, der die exklusive Sperre für die Datenbank aufhält, oder-1, wenn keine.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
 <td><p>datetime2, nicht NULL</p></td>
-<td><p>Ablaufzeit Sperren (wenn activeServerID nicht-1 ist).</p></td>
+<td><p>Sperr Ablaufzeit (wenn activeServerID nicht-1 ist).</p></td>
 </tr>
 </tbody>
 </table>

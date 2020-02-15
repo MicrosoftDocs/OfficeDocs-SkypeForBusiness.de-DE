@@ -12,20 +12,20 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a>tblSkippedAffiliations in Lync Server 2013
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a>tblSkippedAffiliations in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern in Active Directory-Domänendiensten).
+tblSkippedAffiliations enthält die Zugehörigkeiten, die nicht gelesen werden konnten (in der Regel aufgrund von Active Directory-Domänendienste Zugriffsfehlern).
 
 ### <a name="columns"></a>Spalten
 
@@ -57,19 +57,19 @@ tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnte
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="even">
 <td><p>affDescription</p></td>
-<td><p>nvarchar (256); nicht NULL</p></td>
-<td><p>Eine Zeichenfolge, die die Zuordnung kennzeichnet.</p>
+<td><p>nvarchar (256), nicht NULL</p></td>
+<td><p>Zeichenfolge, die die Zuordnung identifiziert.</p>
 <p>Das Format lautet: GUID: {0} URI: {1} &gt; ID:{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Prinzipals, der diese Zeile aktualisiert hat. Es ist immer 1 (Systembenutzer), da die Active Directory-Synchronisierung die einzige Quelle für diese Einträge ist.</p></td>
+<td><p>ID des Prinzipals, der diese Zeile aktualisiert hat. Der Wert ist immer 1 (Systembenutzer), da die Active Directory-Synchronisierung die einzige Quelle für diese Einträge ist.</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnte
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

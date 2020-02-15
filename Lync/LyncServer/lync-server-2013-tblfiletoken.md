@@ -12,20 +12,20 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblfiletoken-in-lync-server-2013"></a>tblFileToken in Lync Server 2013
+# <a name="tblfiletoken-in-lync-server-2013"></a>tblFileToken in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764181"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblFileToken enthält temporäre Token für Datei Übertragungs Zwecke.
+TblFileToken enthält temporäre Token für die Dateiübertragung.
 
 ### <a name="columns"></a>Spalten
 
@@ -57,48 +57,48 @@ tblFileToken enthält temporäre Token für Datei Übertragungs Zwecke.
 <tbody>
 <tr class="odd">
 <td><p>FileToken</p></td>
-<td><p>nvarchar (50); nicht NULL</p></td>
+<td><p>nvarchar (50), nicht NULL</p></td>
 <td><p>Eindeutiges Token (eine GUID).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Prinzipals, der die Datei übertragen wird.</p></td>
+<td><p>ID des Prinzipals, der die Datei überträgt.</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenChannelID</p></td>
 <td><p>GUID, nicht NULL</p></td>
-<td><p>GUID des Chatroom-Knotens.</p></td>
+<td><p>GUID des Chatroomknotens.</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>DateTime, nicht NULL</p></td>
-<td><p>Ablaufzeit. (Token werden nach 30 Minuten ablaufen, es sei denn, angeheftet (siehe die folgenden Beschreibungen in dieser Spalte).</p></td>
+<td><p>datetime, nicht NULL</p></td>
+<td><p>Ablaufzeit. (Token laufen nach 30 Minuten ab, wenn sie nicht gebunden werden (siehe Beschreibungen in dieser Tabelle.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Die URL der übertragenen Datei (für die Verwendung des Kompatibilitätsdiensts).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL der übertragenen Datei (für den Kompatibilitätsdienst).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Die URL der Miniaturansicht für die übertragene Datei (für die Verwendung des Kompatibilitätsdiensts).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL des Miniaturbilds der übertragenen Datei (für den Kompatibilitätsdienst).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>Timestamp für den eigentlichen Dateiübertragungsvorgang (für die Verwendung des Kompatibilitätsdiensts).</p></td>
+<td><p>Zeitstempel für die tatsächliche Dateiübertragung (für den Kompatibilitätsdienst).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
-<td><p>bit</p></td>
-<td><p>True, wenn Upload; False, wenn Download (für Compliance-Dienstnutzung).</p></td>
+<td><p>Bit</p></td>
+<td><p>True bei Upload; False bei Download (für den Kompatibilitätsdienst).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
 <td><p>Bit, nicht NULL</p></td>
-<td><p>True, wenn Token angeheftet ist. Sie wird verwendet, um das Token in der Tabelle beizubehalten, bis der Kompatibilitätsdienst die entsprechenden Felder aus ihm abrufen kann.</p></td>
+<td><p>True, wenn das Token gebunden ist. Wird verwendet, um das Token in der Tabelle zu behalten, bis die relevanten Felder vom Kompatibilitätsdienst abgerufen werden konnten.</p></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ tblFileToken enthält temporäre Token für Datei Übertragungs Zwecke.
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblNode. nodeGuid-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblNode.nodeGuid-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

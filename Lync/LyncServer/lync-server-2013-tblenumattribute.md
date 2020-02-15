@@ -12,20 +12,20 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute in Lync Server 2013
+# <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764191"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltensattribute enthält, die in der Knoten Tabelle verwendet werden.
+"EnumAttribute" ist eine hardkodierte Tabelle, mit den Attributen "Visibility" und "Behavior", die in der "Node"-Tabelle verwendet werden.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,18 +58,18 @@ tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verha
 <tr class="odd">
 <td><p>AttributeID</p></td>
 <td><p>smallint, nicht NULL</p></td>
-<td><p>Die ID des Attributs.</p></td>
+<td><p>ID des Attributs.</p></td>
 </tr>
 <tr class="even">
 <td><p>AttributeName</p></td>
-<td><p>nvarchar (256); nicht NULL</p></td>
+<td><p>nvarchar (256), nicht NULL</p></td>
 <td><p>Name des Attributs.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>
@@ -106,11 +106,11 @@ tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Sichtbarkeit.</p></td>
+<td><p>1 </p></td>
+<td><p>Sicht.</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>Verhalten.</p></td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verha
 ## <a name="see-also"></a>Siehe auch
 
 
-[tblNode in Lync Server 2013](lync-server-2013-tblnode.md)  
+[tblNode in lync Server 2013](lync-server-2013-tblnode.md)  
   
 
 </div>

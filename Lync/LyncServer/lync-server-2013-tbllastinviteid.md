@@ -12,20 +12,20 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b58f43c696a6218d0dd9b670615cc0f73b0b7ae3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbllastinviteid-in-lync-server-2013"></a>tblLastInviteId in Lync Server 2013
+# <a name="tbllastinviteid-in-lync-server-2013"></a>tblLastInviteId in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764171"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblLastInviteId enthält die letzte Einladungs-ID, die für jeden Benutzer generiert (und in der tblPrincipalInvites-Tabelle verwendet) wurde.
+"tblLastInviteId" enthält die letzte Einladungs-ID, die für jeden Benutzer generiert (und in der tblPrincipalInvites-Tabelle) verwendet wurde.
 
 ### <a name="columns"></a>Spalten
 
@@ -57,13 +57,13 @@ tblLastInviteId enthält die letzte Einladungs-ID, die für jeden Benutzer gener
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="even">
 <td><p>lastInviteID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Zuletzt verwendete Einladungs-ID.</p></td>
+<td><p>Zuletzt verwendete INVITE-ID.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ tblLastInviteId enthält die letzte Einladungs-ID, die für jeden Benutzer gener
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@ tblLastInviteId enthält die letzte Einladungs-ID, die für jeden Benutzer gener
 ## <a name="see-also"></a>Siehe auch
 
 
-[tblPrincipalInvites in Lync Server 2013](lync-server-2013-tblprincipalinvites.md)  
+[tblPrincipalInvites in lync Server 2013](lync-server-2013-tblprincipalinvites.md)  
   
 
 </div>
